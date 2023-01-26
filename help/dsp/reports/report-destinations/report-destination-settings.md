@@ -2,8 +2,8 @@
 title: 报表目标设置
 description: 按目标类型查看报表目标所需的详细信息。
 feature: DSP Custom Reports
-exl-id: 584c9c69-7b94-4e5c-bcc1-277ac2689d8e
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%

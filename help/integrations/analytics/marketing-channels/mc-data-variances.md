@@ -2,8 +2,8 @@
 title: 渠道数据为何会因Adobe广告和 [!DNL Marketing Channels]
 description: 了解为何AMO ID跟踪的渠道数据会因跟踪的渠道数据而有所不同 [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
-exl-id: 4605dc7d-43d7-414f-a509-6096c6cf5fd2
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 72e3aa1e-85ed-485a-b93f-5e67dd0140ce
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -34,5 +34,5 @@ ht-degree: 0%
 >* [的基本原理 [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [使用Adobe广告ID创建 [!DNL Marketing Channels] 处理规则](mc-ids.md)
 >* [使用 [!DNL Analytics Marketing Channels] 使用Adobe广告数据](mc-ac-data.md)
->* [视频：使用 [!DNL Marketing Channels] (用于Adobe广告报告)](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [视频：使用 [!DNL Marketing Channels] (用于Adobe广告报告)](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 

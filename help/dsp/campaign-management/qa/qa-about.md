@@ -2,8 +2,8 @@
 title: 关于使用电子表格更正促销活动的版面设置
 description: 了解如何使用Excel QA电子表格查看和编辑营销活动的关键位置设置。
 feature: DSP Placements
-exl-id: 9e90488f-157d-4569-8011-da51c5b05c1d
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%

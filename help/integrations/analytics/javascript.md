@@ -2,8 +2,8 @@
 title: 适用于的JavaScript代码 [!DNL Analytics for Advertising]
 description: 适用于的JavaScript代码 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
-exl-id: 184508ce-df8d-4fa0-b22b-ca0546a61d58
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 0%
@@ -76,9 +76,9 @@ JavaScript库包含两行，允许 [!DNL Analytics] 和Adobe广告以相互通�
    * 第二行是向Adobe广告发送请求的调用。 开始如下： `_les_imsOrgId=[your_imsOrgId_here]&_les_url=[your_encoded_url]`
 
       如果您没有看到对Adobe广告的调用，则它可能不是您访问的第一个页面查看。 出于测试目的，您可以删除Cookie，以便下次调用将是相应访问的第一个页面查看：
-   1. 在“应用程序”选项卡上，找到 `adcloud` cookie，并验证cookie是否包含 `_les_v` 值为 `y` 和30分钟后过期的UTC纪元时间戳。
-      1. 删除 `ad cloud` cookie并刷新页面。
 
+      1. 在“应用程序”选项卡上，找到 `adcloud` cookie，并验证cookie是否包含 `_les_v` 值为 `y` 和30分钟后过期的UTC纪元时间戳。
+      1. 删除 `ad cloud` cookie并刷新页面。
 
 1. (使用Experience Cloud标识服务的实施 `visitorAPI.js` 代码)筛选 `/b/ss` ，以查看Analytics点击。
 

@@ -2,8 +2,8 @@
 title: 概述 [!DNL Analytics for Advertising]
 description: 概述 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
-exl-id: 31367c8b-3410-4110-9ae6-11defe625355
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '1076'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 观看 [视频简介 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/intro-a4adc.html?lang=en#analytics).
+> 观看 [视频简介 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=en#analytics).
 
 ## 使用Analytics进行付费媒体报告
 
@@ -94,19 +94,19 @@ Adobe广告可以 [!DNL Analytics] 区段，用于再营销DSP和 [!DNL Search] 
 
 ### 在Analysis Workspace中使用Adobe广告数据
 
-要了解如何使用Adobe广告数据在Analysis Workspace中创建可视化报表，请观看视频“[工作区和报表简介](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
+要了解如何使用Adobe广告数据在Analysis Workspace中创建可视化报表，请观看视频“[工作区和报表简介](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
 
 ### 创建Adobe广告功能板
 
-要了解如何根据Analysis Workspace中的目标跟踪Adobe广告数据，请观看视频“[使用Adobe Analytics创建Adobe广告功能板](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
+要了解如何根据Analysis Workspace中的目标跟踪Adobe广告数据，请观看视频“[使用Adobe Analytics创建Adobe广告功能板](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
 
 ### 将Adobe广告ID用于网站登入分析
 
-要了解如何创建Adobe广告网站登入报表以监控每周时间、每日时间、浏览器和地理位置的影响，请观看视频“[创建Adobe广告网站登入报表](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
+要了解如何创建Adobe广告网站登入报表以监控每周时间、每日时间、浏览器和地理位置的影响，请观看视频“[创建Adobe广告网站登入报表](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
 
 >[!MORELIKETHIS]
 >
->* [视频：简介 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/intro-a4adc.html)
+>* [视频：简介 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)
 >* [实施的先决条件和关键信息 [!DNL Analytics for Advertising]](prerequisites.md)
 >* [AdobeAnalytics使用的广告ID](ids.md)
 >* [适用于Analytics for Advertising的JavaScript代码](/help/integrations/analytics/javascript.md)

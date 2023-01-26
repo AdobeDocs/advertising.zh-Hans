@@ -2,8 +2,8 @@
 title: 过滤营销活动数据
 description: 了解如何应用过滤器以缩小显示的营销活动数据范围。
 feature: DSP Campaign Data Views
-exl-id: 784f025c-a96b-45bb-8326-e2e5216197e3
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: b332684d-d6be-4a67-961a-86b9086356b5
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 1%

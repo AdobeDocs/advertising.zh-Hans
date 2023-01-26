@@ -2,8 +2,8 @@
 title: 本机显示广告设置
 description: 请参阅对本机显示广告的可用广告设置的描述。
 feature: DSP Ads
-exl-id: 3ae59e63-ae64-41b2-8734-3df2da020c7c
-source-git-commit: 23cb7930ac8cd73a489e52992e86902c88364752
+exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%

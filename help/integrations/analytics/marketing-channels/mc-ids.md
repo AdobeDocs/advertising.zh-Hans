@@ -2,8 +2,8 @@
 title: 使用Adobe广告ID创建 [!DNL Marketing Channels] 规则
 description: 了解如何使用Adobe广告ID为 [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
-exl-id: 4fcdd586-e9c5-4405-a6dc-7799d2bac93e
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 525761b4-607f-4b03-9020-8051009a13c6
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 0%
@@ -93,6 +93,6 @@ AMO EF ID(EF ID)是 [!DNL Analytics for Advertising] 集成。 其主要目的�
 >* [的基本原理 [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [渠道数据为何会因Adobe广告和 [!DNL Marketing Channels]](mc-data-variances.md)
 >* [使用 [!DNL Analytics Marketing Channels] 使用Adobe广告数据](mc-ac-data.md)
->* [视频：使用 [!DNL Marketing Channels] (用于Adobe广告报告)](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [视频：使用 [!DNL Marketing Channels] (用于Adobe广告报告)](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [Adobe使用的广告ID [!DNL Analytics]](/help/integrations/analytics/ids.md)
 

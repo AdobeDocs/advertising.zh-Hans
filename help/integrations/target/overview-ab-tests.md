@@ -1,10 +1,10 @@
 ---
 title: 在Adobe Target中配置Adobe广告的A/B测试
 description: 了解如何在 [!DNL Target] 用于您的DSP和 [!DNL Search] 广告。
-exl-id: 97055645-4b2f-4795-830d-9ce89ae2ad15
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Adobe广告和Adobe Target使营销人员能够更轻松地跨付费媒体和网
 
 ![点进框架](/help/integrations/assets/target-ct-framework.png)
 
-当您向点进URL添加DSP宏（用户单击广告并进入登陆页面时显示的URL）时，DSP会通过在点进URL中包含 `${TM_PLACEMENT_ID}` 中。 此宏会捕获字母数字放置键，而不是数字放置ID。
+当您向点进URL添加DSP宏（用户单击广告并进入登陆页面时显示的URL）时，DSP会通过在点进URL中包含 ```${TM_PLACEMENT_ID}``` 中。 此宏会捕获字母数字放置键，而不是数字放置ID。
 
 ![附加到登陆页面URL的点进URL](/help/integrations/assets/target-ct-url.jpg)
 
@@ -98,7 +98,7 @@ Adobe广告和Adobe Target使营销人员能够更轻松地跨付费媒体和网
 
    1. 从 **数据源** 下拉菜单，选择 **Ad Cloud**.
 
-   1. 在表达式生成器中，添加 `d_event` 和 `imp` 在 **值** 字段，选择 **添加规则**，然后保存特征。
+   1. 在表达式生成器中，添加 ```d_event``` 和 ```imp``` 在 **值** 字段，选择 **添加规则**，然后保存特征。
 
    ![基于规则的特征的屏幕截图](/help/integrations/assets/target-am-trait.png)
 
@@ -115,7 +115,7 @@ Adobe广告和Adobe Target使营销人员能够更轻松地跨付费媒体和网
 
 <!-- [If separate page, add "Adobe" before first-use of product names.] -->
 
-以下说明重点介绍了与DSP用例相关的信息。 有关完整说明，请参阅[创建A/B测试](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html).&quot;
+以下说明重点介绍了与DSP用例相关的信息。 有关完整说明，请参阅[创建A/B测试](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)”
 
 1. [登录Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
@@ -129,7 +129,7 @@ Adobe广告和Adobe Target使营销人员能够更轻松地跨付费媒体和网
 
    >[!NOTE]
    >
-   >您可以使用多个URL来测试浏览网站条目。 有关更多信息，请参阅[多页面活动](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; 您可以通过创建 [网站登录报表](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) 中。
+   >您可以使用多个URL来测试浏览网站条目。 有关更多信息，请参阅[多页面活动](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; 您可以通过创建 [网站登录报表](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-site-entry-reports.html) 中。
 
 1. 在 **目标** 字段，输入测试的成功量度。
 
@@ -208,7 +208,7 @@ Adobe广告和Adobe Target使营销人员能够更轻松地跨付费媒体和网
 
 * 在同一登陆页面上，验证a)Adobe调试器中解决方案>目标下显示的主机名与b) [!DNL Target] （位于“目标和设置”>“报表设置”下）。
 
-   [!DNL Analytics For Target] 需要 [!DNL Analytics] 跟踪服务器在从 [!DNL Target] 到 [!DNL Modstats] Analytics的数据收集服务器。<!-- just "to Analytics?"-->
+   [!DNL Analytics For Target] 需要 [!DNL Analytics] 跟踪服务器在从 [!DNL Target] 到 [!DNL Modstats] Analytics的数据收集服务器。&lt;! — 只是“到Analytics？”>
 
 [Debugger中的主机名值Adobe](/help/integrations/assets/target-troubleshooting-hostname.png)
 

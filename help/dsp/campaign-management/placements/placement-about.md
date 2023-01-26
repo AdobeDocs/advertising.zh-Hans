@@ -2,8 +2,8 @@
 title: 关于Advertising DSP中的版面管理
 description: 了解位置管理。
 feature: DSP Placements
-exl-id: 1d1382d9-b6c8-44bf-a708-8458769a39c6
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%
@@ -49,5 +49,6 @@ ht-degree: 0%
 >* [创建版面](placement-create.md)
 >* [查看版面的更改日志](placement-change-log.md)
 >* [版面设置](placement-settings.md)
->* [性能疑难解答](/help/dsp/optimization/troubleshooting-performance.md)
+
+   >*[性能疑难解答](/help/dsp/optimization/troubleshooting-performance.md)
 

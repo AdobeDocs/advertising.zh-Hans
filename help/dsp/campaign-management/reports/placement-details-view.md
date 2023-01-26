@@ -2,8 +2,8 @@
 title: 查看版面的网站、广告、频度和库存详细信息
 description: 了解如何查看投放的目标网站、广告、频度和库存数据。
 feature: DSP Placements
-exl-id: 99bb4a4e-dc52-4130-87c4-5458e25bbc1e
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%

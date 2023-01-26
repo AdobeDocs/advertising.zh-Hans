@@ -2,8 +2,8 @@
 title: 连接的电视广告设置
 description: 请参阅连接的电视广告的可用广告设置描述。
 feature: DSP Ads
-exl-id: 4daae9e4-27eb-4496-9186-f33aebd8daae
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: d8e47f7e-7480-400f-8ffa-ecf41ce2ebfb
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%

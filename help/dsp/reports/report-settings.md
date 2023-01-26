@@ -2,8 +2,8 @@
 title: 自定义报表设置
 description: 请参阅自定义报表设置的描述。
 feature: DSP Custom Reports
-exl-id: 1d37fc96-0f9b-4eb2-ba8d-9534f627adaf
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 **[!UICONTROL Select To Add As Report Headers]:**  要包含在报表中的数据列或标题。 要添加列，请展开类别，然后选中列名称旁边的复选框。 所有不可用的量度均被禁用。 可用的数据类别包括：
 
-* [!UICONTROL Dimensions]
+* [!UICONTROL  Dimensions]
 * [!UICONTROL Metrics]
 * [!UICONTROL Conversion Metrics] （按广告商排序）
 * [!UICONTROL Custom Goals] （按广告商排序）
@@ -142,5 +142,5 @@ ht-degree: 0%
 >* [运行自定义报表](/help/dsp/reports/report-run-now.md)
 >* [自定义报表设置](/help/dsp/reports/report-settings.md)
 >* [关于报表目标](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [可用报表列](/help/dsp/reports/report-columns.md)
 
+* [可用报表列](/help/dsp/reports/report-columns.md)

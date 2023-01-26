@@ -3,8 +3,9 @@ title: Adobe Advertising 对消费者隐私的支持
 description: Adobe广告提供安全和隐私控制，以帮助广告商客户遵守消费者隐私法。
 cloud: Experience Cloud
 product: advertising cloud
-exl-id: ffc50470-301e-44bc-9f56-63667dd8fb64
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+index: true
+exl-id: 1f9b2866-c0c6-4733-a687-d72eb4014598
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 20%

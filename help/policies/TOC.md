@@ -7,7 +7,8 @@ product: advertising cloud
 user-guide-title: Adobe Advertising 策略和指南
 user-guide-description: 了解Advertising DSP和 [!DNL Advertising Search].
 breadcrumb-title: 策略和指南
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+index: true
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 39%

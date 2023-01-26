@@ -2,8 +2,8 @@
 title: 优化目标及其使用方法
 description: 引用可用的优化目标并查看何时使用它们。
 feature: DSP Optimization
-exl-id: 9bca09b5-9aa7-4009-a576-9b30cfddfd55
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: ad684c99-7ae5-48eb-abfe-d48fd3d34cd0
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '1611'
 ht-degree: 0%

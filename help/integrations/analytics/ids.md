@@ -2,10 +2,10 @@
 title: Adobe使用的广告ID [!DNL Analytics]
 description: Adobe使用的广告ID [!DNL Analytics]
 feature: Integration with Adobe Analytics
-exl-id: ed1aab7b-9bd0-4d42-9bfb-9c6fa6db76bc
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,7 @@ EF ID是Adobe广告用来将活动与在线点击或广告曝光关联的唯一�
 
 #### [!DNL Google Ads] 搜索广告
 
-```
-{gclid}:G:s
-```
+```{gclid}:G:s```
 
 其中：
 
@@ -60,9 +58,7 @@ EF ID是Adobe广告用来将活动与在线点击或广告曝光关联的唯一�
 
 #### Microsoft广告搜索广告
 
-```
-{msclkid}:G:s
-```
+```{msclkid}:G:s```
 
 其中：
 
@@ -71,9 +67,7 @@ EF ID是Adobe广告用来将活动与在线点击或广告曝光关联的唯一�
 
 #### 在其他搜索引擎上显示广告和搜索广告
 
-```
-<Adobe Advertising visitor ID>:<timestamp>:<channel type>
-```
+```<Adobe Advertising visitor ID>:<timestamp>:<channel type>```
 
 其中：
 
@@ -87,7 +81,7 @@ EF ID是Adobe广告用来将活动与在线点击或广告曝光关联的唯一�
    * `i` 显示DSP展示广告（显示显示显示到达）
    * `s` 搜索广告的点击（搜索点进）。
 
-示例 `EF ID: WcmibgAAAHJK1RyY:1551968087687:d`
+示例 `EF `ID:WcmibgAAAHJK1RyY:1551968087687:d
 
 ### 中的EF IDDimension [!DNL Analytics]
 
@@ -103,9 +97,7 @@ AMO ID也称为 `s_kwcid`，有时发音为“[!DNL the squid].&quot;
 
 ### 的AMO ID格式 [!DNL DSP]
 
-```
-<Channel ID>!<Ad ID>!<Placement ID>
-```
+```<Channel ID>!<Ad ID>!<Placement ID>```
 
 其中：
 
@@ -124,9 +116,7 @@ AMO ID示例：AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
 的AMO ID [!DNL Search] 对每个搜索引擎采用不同的格式。 所有搜索引擎的格式以下列内容开头：
 
-```
-AL!{userid}!{sid}
-```
+```AL!{userid}!{sid}```
 
 其中：
 
@@ -138,9 +128,7 @@ AL!{userid}!{sid}
 
 的AMO ID格式 [!DNL Google Ads]:
 
-```
-AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
-```
+```AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}```
 
 其中：
 
@@ -152,9 +140,7 @@ AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partitio
 
 的AMO ID格式 [!DNL Microsoft Advertising]:
 
-```
-AL!{userid}!{sid}!{AdId}!{OrderItemId}
-```
+```AL!{userid}!{sid}!{AdId}!{OrderItemId}```
 
 其中：
 

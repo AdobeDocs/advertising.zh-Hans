@@ -3,8 +3,9 @@ title: 新增功能
 description: 了解有关Adobe广告与Adobe Experience Cloud中其他产品和服务之间集成的更新。
 cloud: Experience Cloud
 product: advertising cloud
-exl-id: 0808d101-3c6b-4671-b9e3-6f588427f8b5
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+index: true
+exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -23,7 +24,7 @@ ht-degree: 0%
 | 2021年4月19日 | [!DNL Analytics for Advertising] | 了解为何以及如何将宏附加到 [!DNL Flashtalking] 用于将点击数据发送到Adobe Analytics的广告标记。 | 请参阅“[附加 [!DNL Analytics for Advertising] 宏 [!DNL Flashtalking] 广告标记](/help/integrations/analytics/macros-flashtalking.md).&quot; |
 | 2021年10月27日 | [!DNL Analytics for Advertising] | 如果贵组织希望从使用旧版Adobe Analytics `visitorAPI.js` 库 [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 库(`alloy.js`)，则需要进行一些更改才能启用ID拼合。 | 请参阅“[使用 [!DNL Last Event Service] 包含Adobe Experience Platform的JavaScript库 [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md).&quot; |
 | 2021年5月26日 | 帮助 | 章节“[!DNL Analytics for Advertising]“ ”现在包含一个关于“在 [!DNL Analytics Marketing Channels].&quot; | 请参阅：&quot;[营销渠道的基础知识](/help/integrations/analytics/marketing-channels/mc-overview.md), &quot;[使用Adobe广告ID创建 [!DNL Analytics Marketing Channels] 处理规则](/help/integrations/analytics/marketing-channels/mc-ids.md), &quot;[使用 [!DNL Analytics Marketing Channels] 使用Adobe广告数据](/help/integrations/analytics/marketing-channels/mc-ac-data.md)、和[渠道数据为何会因Adobe广告和 [!DNL Analytics Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md).&quot; |
-| 2021年5月26日 | 帮助 | 指向所有视频教程的链接，关于 [!DNL Analytics for Advertising] 添加。 | [有关Adobe广告集成的视频教程](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/overview.html) |
+| 2021年5月26日 | 帮助 | 指向所有视频教程的链接，关于 [!DNL Analytics for Advertising] 添加。 | [有关Adobe广告集成的视频教程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html) |
 
 {style=&quot;table-layout:auto&quot;}
 

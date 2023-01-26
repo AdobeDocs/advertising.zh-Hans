@@ -1,9 +1,9 @@
 ---
-title: '"[!DNL On Demand] Premium Inventory Publishers in North America”（北美的Premium Inventory Publishers）'
+title: '[!DNL On Demand] Premium Inventory Publishers in North America'
 description: 查看可用 [!DNL On Demand] 北美的优质库存发布者。
 feature: DSP On Demand Inventory
-exl-id: 47136e55-aab9-4112-8317-1aafca0b1c49
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: f1805fe0-5687-4e32-809f-c584acee3676
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%

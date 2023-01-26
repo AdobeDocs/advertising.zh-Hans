@@ -2,8 +2,8 @@
 title: 已下载/已上载电子表格中的列
 description: 引用下载和上传的Excel QA电子表格中的列。
 feature: DSP Placements
-exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: 698c0d86-cb2e-4d76-89c7-5584b6cdb542
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 | [!UICONTROL Goals] | [!UICONTROL Max Bid] | 版面的最高竞价。 | 是 |
 | [!UICONTROL Goals] | [!UICONTROL Flight Pacing] | 投放的飞行步调策略： *[!UICONTROL Even]*, *[!UICONTROL slightly ahead]*, *[!UICONTROL frontload]*&#x200B;或 *[!UICONTROL aggressive frontload]*. | 是 |
 | [!UICONTROL Goals] | [!UICONTROL Intraday Pacing] | 投放的当天步调策略： *[!UICONTROL Even]* 或 *[!UICONTROL ASAP]*. | 是 |
-| [!UICONTROL Goals] | [!UICONTROL Pre-Bid Filters] | 要应用的任何竞价前筛选条件。 | — |
+| [!UICONTROL Goals] | [!UICONTROL  Pre-Bid Filters] | 要应用的任何竞价前筛选条件。 | — |
 | [!UICONTROL Goals] | [!UICONTROL Bidding Rules] | 是否包含竞价规则（已弃用） *[!UICONTROL ON]* 或 *[!UICONTROL OFF]*. | — |
 | [!UICONTROL Goals] | [!UICONTROL Frequency Cap] | 指定期间放置的主频率上限 [!UICONTROL Frequency Cap Interval]. | 是 |
 | [!UICONTROL Goals] | [!UICONTROL Frequency Cap Interval] | 主频率上限的间隔： *[!UICONTROL Day]*, *[!UICONTROL Week]*&#x200B;或 *[!UICONTROL Month]*. | 是 |

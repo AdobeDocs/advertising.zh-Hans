@@ -2,8 +2,8 @@
 title: 的基本原理 [!DNL Marketing Channels]
 description: 了解有关 [!DNL Analytics Marketing Channels] the [!DNL Analytics for Advertising] 用户应该理解。
 feature: Integration with Adobe Analytics
-exl-id: 27b6fb07-0b63-4ff1-a316-20b9a2b60fe9
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -45,6 +45,6 @@ Adobe建议与您的分析团队合作，构建一个 [!DNL Marketing Channels] 
 >* [使用Adobe广告ID创建 [!DNL Marketing Channels] 处理规则](mc-ids.md)
 >* [渠道数据为何会因Adobe广告和 [!DNL Marketing Channels]](mc-data-variances.md)
 >* [使用 [!DNL Analytics Marketing Channels] 使用Adobe广告数据](mc-ac-data.md)
->* [视频：使用 [!DNL Marketing Channels] (用于Adobe广告报告)](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [视频：使用 [!DNL Marketing Channels] (用于Adobe广告报告)](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [概述 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
 

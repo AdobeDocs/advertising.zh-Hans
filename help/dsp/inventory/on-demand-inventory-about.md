@@ -2,8 +2,8 @@
 title: 关于 [!DNL On Demand] Premium Inventory
 description: 了解DSP与高级出版商合作伙伴预先协商的交易。
 feature: DSP On Demand Inventory
-exl-id: d23d4e4e-f29f-4dba-afe3-7198ef4ee544
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
