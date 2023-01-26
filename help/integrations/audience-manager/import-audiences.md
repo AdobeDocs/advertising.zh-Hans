@@ -3,9 +3,9 @@ title: 导入Adobe Audience Manager区段以进行广告定位
 description: 了解如何导入 [!DNL Adobe] 使用Adobe Audience Manager将受众导入DSP和搜索
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Advertising DSP和 [!DNL Advertising Search] 可以分别提取所有广告商�
 
 * Adobe Analytics区段发布到Adobe Experience Cloud
 
-* 在Adobe Experience Cloud中使用 [!DNL People core service]
+* 使用Adobe Experience Cloud创建的区段 [!DNL Audience Library]
 
 * 在Adobe Experience Platform中创建并通过Audience Manager发送到Adobe广告的区段
 
