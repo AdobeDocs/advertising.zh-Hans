@@ -2,8 +2,8 @@
 title: 导出有关可重用受众的详细信息
 description: 了解如何查看可重复使用受众的配置、受众大小和定位版面。
 feature: DSP Audiences
-exl-id: a4c946f1-8968-4e55-9935-76e6376561f1
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 6d69706e-4398-41e0-b7a3-04ba72b08bfc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 您可以下载 [!DNL Microsoft Excel] 包含受众配置规则的工作表文件、按设备类型划分的活动受众成员数和受众总成员数、受众中每个区段的详细信息以及针对受众的所有版面。
 
-1. 在主菜单中，单击 **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. 在主菜单中，单击 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. 将光标悬停在受众行上并单击 **[!UICONTROL Export XLS]**.
 

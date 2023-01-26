@@ -2,8 +2,8 @@
 title: 共享或停止共享区段
 description: 了解如何与其他DSP用户帐户共享或停止共享自定义或CCPA选择退出销售区段。
 feature: DSP Segments
-exl-id: 3a284c81-73ee-4efd-9532-5ae00a000dd9
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: ea5cafb3-58b0-4b05-9b02-c022466d9b8c
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 您还可以停止与其他DSP用户帐户共享区段。
 
-1. 在主菜单中，单击 **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+1. 在主菜单中，单击 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
 1. 将光标悬停在区段行上并单击 **[!UICONTROL Share]**.
 

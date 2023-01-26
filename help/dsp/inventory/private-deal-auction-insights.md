@@ -2,8 +2,8 @@
 title: 查看私人交易的拍卖分析
 description: 了解如何使用拍卖分析分析私人交易的交易构成。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: 9d585bd4-59d5-401a-a68c-6ed656086252
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 拍卖分析是一种疑难解答工具，它允许您分析有担保和无担保私人交易的交易构成。 使用数据可视化图表，此工具可显示 [关键拍卖属性](#auction-attributes) 在特定时间段内。
 
-1. 在主菜单中，单击 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. 在主菜单中，单击 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. 在交易行中，单击  **[!UICONTROL ...]>[!UICONTROL Auction Insights]**.
+1. 在交易行中，单击  **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]**.
 
 >[!NOTE]
 >
->拍卖分析也可通过投放 [!UICONTROL Inspector] 工具。 打开它们， [打开版面 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) 到 [!UICONTROL Inventory tab]，然后单击 **[!UICONTROL ...]>[!UICONTROL Auction Insights]** 在交易行中。
+>拍卖分析也可通过投放 [!UICONTROL Inspector] 工具。 打开它们， [打开版面 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) 到 [!UICONTROL Inventory tab]，然后单击 **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** 在交易行中。
 
 ## 拍卖属性 {#auction-attributes}
 

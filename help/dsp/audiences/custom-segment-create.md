@@ -2,8 +2,8 @@
 title: 创建和实施自定义区段
 description: 了解如何创建和实施自定义区段，以跟踪展示给广告的用户或访问您网页的用户。
 feature: DSP Segments
-exl-id: 691903e2-773e-4205-837e-822f435f57a7
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 创建区段：
 
-   1. 在主菜单中，单击 **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+   1. 在主菜单中，单击 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
    1. 在数据表上方，单击 **[!UICONTROL Create]**.
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. 根据需要复制并实施标记以跟踪区段：
 
-   1. 返回 **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+   1. 返回 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
    2. 将光标悬停在区段行上并单击 **[!UICONTROL Get Pixel]**.
 

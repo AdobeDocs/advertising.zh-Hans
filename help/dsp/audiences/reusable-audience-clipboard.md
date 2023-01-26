@@ -2,8 +2,8 @@
 title: 将可重复使用受众的区段键复制到剪贴板
 description: 了解如何查看可重用受众的配置和受众大小。
 feature: DSP Audiences
-exl-id: 039779aa-8fa4-48b4-8fe6-2d5517dd0603
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 1e1f45fe-d7f9-4c26-a557-c3d00f74edb8
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 您可以将受众的字母数字区段键值(ID)复制到剪贴板。 您可以使用区段键 [手动定义区段逻辑](audience-segment-logic-syntax.md) 适用于其他可重复使用的受众。
 
-1. 在主菜单中，单击 **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. 在主菜单中，单击 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. 将光标悬停在受众行上并单击 **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 

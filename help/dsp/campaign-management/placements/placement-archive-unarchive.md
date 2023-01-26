@@ -2,8 +2,8 @@
 title: 存档或取消存档版面
 description: 了解如何存档或取消存档版面。
 feature: DSP Placements
-exl-id: 3d342f83-1bcb-4f80-b31a-2009bcdde565
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 4304452d-4573-46b3-892e-299950a75d4f
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
 1. 单击营销活动的名称。
 1. 在子菜单中，单击 **[!UICONTROL Placements]**.
-1. 在版面名称旁边，单击  **[!UICONTROL ...]>[!UICONTROL Archive]**.
+1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. 在确认消息中，单击 **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -35,7 +35,7 @@ ht-degree: 0%
 1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
 1. 单击营销活动的名称。
 1. 在子菜单中，单击 **[!UICONTROL Placements]**.
-1. 在版面名称旁边，单击  **[!UICONTROL ...]>[!UICONTROL Unarchive]**.
+1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. 在确认消息中，单击 **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]

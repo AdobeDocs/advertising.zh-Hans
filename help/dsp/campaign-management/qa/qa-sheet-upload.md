@@ -2,8 +2,8 @@
 title: 营销活动的上传版面设置
 description: 了解如何使用Excel QA电子表格上传对营销活动关键位置设置的更改。
 feature: DSP Placements
-exl-id: 0f5fdc7e-3a90-4b4b-a23c-75bed7703100
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 2ca7c019-ff5f-410d-b9c7-31ef1509f91e
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 1. 执行以下任一操作：
 
-   * 在营销活动名称旁边，单击 **[!UICONTROL ...]>[!UICONTROL Upload Excel QA sheet]**.
+   * 在营销活动名称旁边，单击 **[!UICONTROL ...]** > **[!UICONTROL Upload Excel QA sheet]**.
 
-   * 单击促销活动名称可查看促销活动详细信息。 在右上方，单击 **[!UICONTROL ...]>[!UICONTROL Upload Excel QA sheet]**.
+   * 单击促销活动名称可查看促销活动详细信息。 在右上方，单击 **[!UICONTROL ...]** > **[!UICONTROL Upload Excel QA sheet]**.
 
 1. 在 [!UICONTROL Edit in Excel] 对话框：
 

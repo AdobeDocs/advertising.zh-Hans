@@ -2,8 +2,8 @@
 title: 复制资源包
 description: 了解如何复制资源包。
 feature: DSP Packages
-exl-id: 4c37883f-5feb-4513-9573-ed4e32606132
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 1. 单击营销活动的名称以打开 [!UICONTROL Packages] 中。
 
-1. 在包名称旁边，单击  **[!UICONTROL ...]>[!UICONTROL Duplicate]**.
+1. 在包名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
 
 1. 指定新包设置：
 

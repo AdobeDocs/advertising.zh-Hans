@@ -2,8 +2,8 @@
 title: 复制可重用受众
 description: 了解如何复制可重复使用的受众。
 feature: DSP Audiences
-exl-id: 6af6e476-4a6a-4e00-bf68-08a63739f5e9
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 8ff72e13-d0ae-4f61-904b-5d544878f58b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 您可以通过复制现有受众来创建受众。
 
-1. 在主菜单中，单击 **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. 在主菜单中，单击 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. 将光标悬停在受众行上并单击 **[!UICONTROL Duplicate]**.
 

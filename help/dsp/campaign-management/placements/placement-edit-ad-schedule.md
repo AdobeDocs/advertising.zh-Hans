@@ -2,8 +2,8 @@
 title: 编辑版面的广告计划
 description: 了解如何更改附加到版面的广告的广告时间表。
 feature: DSP Placements
-exl-id: 880522d3-efcd-4ff9-8cef-bf6be626869c
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. 在子菜单中，单击 **[!UICONTROL Placements]**.
 
-1. 在版面名称旁边，单击  **[!UICONTROL ...]>[!UICONTROL Ad schedule]**.
+1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**.
 
    1. 执行以下任一操作：
 

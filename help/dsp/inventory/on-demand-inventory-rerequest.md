@@ -2,8 +2,8 @@
 title: 重新请求 [!DNL On Demand] 高级库存交易
 description: 了解如何重新请求 [!DNL On Demand] 此前被拒绝的交易。
 feature: DSP On Demand Inventory
-exl-id: db5a5708-16e3-4304-8bd0-f1aa8ecd0e3c
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8b28ca37-5fe8-445e-8210-1b81945bbacc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 确认适用的广告商帐户的广告商类别正确：
 
-   1. 在主菜单中，单击 **[!UICONTROL Settings]> [!UICONTROL Advertisers].**
+   1. 在主菜单中，单击 **[!UICONTROL Settings]** > **[!UICONTROL Advertisers].**
 
    1. 将光标悬停在广告商行上并单击 **[!UICONTROL Edit]**.
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. 重新请求库存：
 
-   1. 在主菜单中，单击 **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+   1. 在主菜单中，单击 **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 
    1. 过滤可用交易以包含您请求的交易(**[!UICONTROL Currently subscribed to]**)**。
 

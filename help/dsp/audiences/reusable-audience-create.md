@@ -2,8 +2,8 @@
 title: 创建可重用受众
 description: 了解如何创建由受众区段和其他已保存受众组成的可重复使用受众。
 feature: DSP Audiences
-exl-id: 48e3dc4c-6e2d-452c-8d69-7e6211d808e0
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 您可以保存和管理可重复使用的受众，这些受众是受众区段组，甚至是其他已保存的受众，您可以将这些受众用作多个版面的目标或排除项。
 
-1. 在主菜单中，单击 **[!UICONTROL Audiences]>[!UICONTROL All Audiences]**.
+1. 在主菜单中，单击 **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
 1. 在数据表上方，单击 **[!UICONTROL Create]**.
 
@@ -62,9 +62,9 @@ ht-degree: 0%
 
       1. 通过以下任一方式从现有受众复制区段逻辑：
 
-         * 在“所有受众”视图中，将光标悬停在受众行上，然后单击 **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * 在“所有受众”视图中，将光标悬停在受众行上，然后单击 **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * 在现有受众的设置中，在区段逻辑面板顶部，单击 **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * 在现有受众的设置中，在区段逻辑面板顶部，单击 **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
          * 在文本编辑器中，使用字母数字区段ID和 [布尔语法](audience-segment-logic-syntax.md)，然后将其复制到剪贴板。
       1. 单击 **[!UICONTROL paste in an audience rule to begin building]**，将现有区段逻辑粘贴到输入字段中，然后单击 **[!UICONTROL Apply]**.

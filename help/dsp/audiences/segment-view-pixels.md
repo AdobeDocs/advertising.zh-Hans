@@ -2,8 +2,8 @@
 title: 查看区段的跟踪像素
 description: 了解如何查看自定义或CCPA选择退出销售区段的跟踪像素。
 feature: DSP Segments
-exl-id: 67c6d0d1-f65b-4d29-88e5-c7d00e44a956
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 3b67ab72-d7bb-45a0-b5ba-e4b811b7d2b3
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 查看区段的跟踪像素
 
-1. 在主菜单中，单击 **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+1. 在主菜单中，单击 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
 1. 将光标悬停在区段行上并单击 **[!UICONTROL Get Pixel]**.
 

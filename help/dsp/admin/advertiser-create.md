@@ -1,7 +1,7 @@
 ---
 title: 创建广告商帐户
 description: 了解如何创建广告商帐户。
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 组织帐户中的所有用户都可以使用广告商。
 
-1. 在主菜单中，单击 **[!UICONTROL Settings]>[!UICONTROL Advertisers]**.
+1. 在主菜单中，单击 **[!UICONTROL Settings]** > **[!UICONTROL Advertisers]**.
 
 1. 单击 **[!UICONTROL Create]**.
 

@@ -2,8 +2,8 @@
 title: 查看版面诊断报告
 description: 了解如何诊断置入设置和步调问题。
 feature: DSP Placements
-exl-id: d64406b6-83b5-4ae7-984c-98610fc1ee40
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
    1. 打开版面设置：
       1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
       1. 点击营销活动的名称，然后点击 **[!UICONTROL Placements]**.
-      1. 在版面名称旁边，单击  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+      1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
    1. 在右上方，单击 ![版面诊断](/help/dsp/assets/placement-diagnostics.png) 或 **[!UICONTROL Diagnostic]**.
 1. 执行以下任一操作：
    * 要查看更改日志，请执行以下操作：

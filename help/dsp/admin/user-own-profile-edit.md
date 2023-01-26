@@ -1,8 +1,8 @@
 ---
 title: 编辑用户配置文件
 description: 了解如何编辑用户配置文件。
-exl-id: 4a140b0a-5860-4b68-820c-03b6bf80254f
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8dc15996-db6e-4c37-a919-d0d49e7b8396
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 您的帐户配置文件包含您的登录凭据和其他信息。 某些用户角色还可以查看有关贵组织帐户的信息，并邀请其他人员在组织帐户中创建用户帐户。
 
-1. 在主菜单中，单击 **[!UICONTROL Settings]> [!UICONTROL Account].**
+1. 在主菜单中，单击 **[!UICONTROL Settings]** > **[!UICONTROL Account].**
 
 1. 编辑配置文件设置：
 
@@ -22,7 +22,6 @@ ht-degree: 3%
       1. 在现有 **[!UICONTROL Email address]**，单击 **[!UICONTROL Edit]**.
 
       1. 输入用户帐户的新电子邮件地址和现有密码。
-
       1. 单击 **[!UICONTROL Continue]**.
    * 要编辑用户帐户的密码，请执行以下操作：
 

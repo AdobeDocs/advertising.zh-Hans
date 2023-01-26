@@ -2,8 +2,8 @@
 title: 编辑私有交易设置
 description: 了解如何编辑私人交易的详细信息。
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 171a3dae-6a25-4e16-85f8-cd4138ec4ba8
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: c6ab7d39-5581-423b-90aa-3e142c235072
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 对已接受交易所做的更改不会从SSP同步。 如果您已接受交易，但发布者已发送了更改，则可以编辑 [!UICONTROL Inventory] > [!UICONTROL Deals]. 您还可以随时重命名交易。
 
-1. 在主菜单中，单击 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. 在主菜单中，单击 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. 在交易行中，单击  **[!UICONTROL ...]>[!UICONTROL edit]**.
+1. 在交易行中，单击  **[!UICONTROL ...]** > **[!UICONTROL edit]**.
 
 1. 编辑 [交易设置](deal-id-settings.md).
 

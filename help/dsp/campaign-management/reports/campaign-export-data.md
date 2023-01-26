@@ -2,8 +2,8 @@
 title: 从Campaign Management视图导出数据
 description: 了解如何将数据从任何类型的营销活动管理视图导出到电子表格文件。
 feature: DSP Campaign Data Views
-exl-id: 393b0726-d26c-4d0b-8926-98fc27259286
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 181b2648-5c8c-47e5-b4bc-5733dd7f47b7
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 在主菜单中，单击 **[!UICONTROL Campaigns]** 并打开要导出的视图。
 
-1. 在右上方的工具栏中，单击  **[!UICONTROL ...]>[!UICONTROL Export]**.
+1. 在右上方的工具栏中，单击  **[!UICONTROL ...]** > **[!UICONTROL Export]**.
 
    该文件将保存到浏览器的默认Downloads文件夹中。
 

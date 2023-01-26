@@ -2,8 +2,8 @@
 title: 检查[!DNL的广告状态 [!DNL FreeWheel]] PG交易
 description: 了解如何查找 [!DNL Freewheel] 程序化保证交易。
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 57c365f6-41cf-4ab6-b71d-fe9984eaf115
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -24,13 +24,13 @@ ht-degree: 0%
 
 1. 在子菜单中，单击 **[!UICONTROL Ads]**.
 
-1. 在广告名称旁边，单击  **[!UICONTROL ...]>[!UICONTROL see Freewheel status]**.
+1. 在广告名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL see Freewheel status]**.
 
-1. （可选）要重新提交广告以供审批，请将光标悬停在广告行上，然后单击 **[!UICONTROL More]>[!UICONTROL Resubmit]**.
+1. （可选）要重新提交广告以供审批，请将光标悬停在广告行上，然后单击 **[!UICONTROL More]** > **[!UICONTROL Resubmit]**.
 
 ## 从 [!UICONTROL Deals] 查看
 
-1. 在主菜单中，单击 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. 在主菜单中，单击 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
 1. 执行以下任一操作：
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
    对于失败的提交， [!UICONTROL API] 响应列指示错误。 有关失败提交的错误代码的完整列表以及纠正这些错误代码的后续步骤，请参阅[的错误代码 [!DNL FreeWheel] 广告提交](freewheel-error-codes.md).&quot;
 
-1. （可选）要重新提交广告以供审批，请将光标悬停在广告行上，然后单击 **[!UICONTROL More]>[!UICONTROL Resubmit]**.
+1. （可选）要重新提交广告以供审批，请将光标悬停在广告行上，然后单击 **[!UICONTROL More]** > **[!UICONTROL Resubmit]**.
 
 >[!MORELIKETHIS]
 >

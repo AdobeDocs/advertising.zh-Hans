@@ -2,8 +2,8 @@
 title: 编辑版面
 description: 了解如何编辑版面。
 feature: DSP Placements
-exl-id: 135adad3-0bc0-4402-ac4a-a4fc71f78edf
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. 在子菜单中，单击 **[!UICONTROL Placements]**.
 
-1. 在版面名称旁边，单击  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
 1. 编辑 [版面设置](placement-settings.md).
 
@@ -88,5 +88,5 @@ ht-degree: 0%
 >* [版面设置](placement-settings.md)
 >* [键盘快捷键](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [关于使用电子表格更正促销活动的版面设置](/help/dsp/campaign-management/qa/qa-about.md)
->* [视频：如何使用批量编辑工具编辑版面](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [视频：如何使用批量编辑工具编辑版面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
 

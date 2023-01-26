@@ -2,8 +2,7 @@
 title: 查看事件像素 [!UICONTROL Simple Ad Serving] 交易
 description: 了解如何为 [!UICONTROL Simple Ad Serving] 交易。
 feature: DSP Simple Ad Serving
-exl-id: 88d18ddd-98ba-4e36-890c-d6ddfb7d59e5
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -16,7 +15,7 @@ ht-degree: 0%
 
 事件像素包括 [!UICONTROL Clickthrough] 像素和 [!UICONTROL Impression] 像素。 视频和音频广告还包括按四分位数(从 [!UICONTROL 25% Complete] to [!UICONTROL 100% Complete])。
 
-1. 在主菜单中，单击 **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. 在主菜单中，单击 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
 1. 在交易行中，单击 ![“选项”菜单](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**.
 

@@ -2,8 +2,8 @@
 title: 查看版面更改日志
 description: 了解如何查看对版面所做的更改。
 feature: DSP Placements
-exl-id: a57056bd-c467-4b81-90b1-528b85787a5e
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
 1. 单击营销活动的名称。
 1. 在子菜单中，单击 **[!UICONTROL Placements]**.
-1. 在版面名称旁边，单击  **[!UICONTROL ...]>[!UICONTROL Change logs]**.
+1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
 >[!MORELIKETHIS]
 >

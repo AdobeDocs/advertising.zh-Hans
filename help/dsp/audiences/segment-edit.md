@@ -2,8 +2,8 @@
 title: 编辑区段信息
 description: 了解如何编辑有关自定义或CCPA选择退出销售区段的信息。
 feature: DSP Segments
-exl-id: a121264f-7fa6-454e-b66a-f6bc0db98890
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 1df6bf2a-4008-46ec-8b4a-e3d0c8322e44
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 您可以编辑自定义区段的名称和回顾窗口，或CCPA选择退出销售区段的名称。 在您编辑设置时，区段标记不会发生更改。
 
-1. 在主菜单中，单击 **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+1. 在主菜单中，单击 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
 1. 将光标悬停在区段行上并单击 **[!UICONTROL Edit]**.
 

@@ -2,8 +2,8 @@
 title: 列出私人交易的版面和广告
 description: 了解如何打开与私人交易相关的版面和广告列表。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: b7962e2f-933e-4563-b42c-27f5ef3c77e0
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8003c053-eaa1-420d-853f-3c25643f4ef8
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 您可以打开与私人交易关联的所有版面和广告的列表。 您可以选择打开任何版面或广告的设置。
 
-1. 在主菜单中，单击 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. 在主菜单中，单击 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. 在交易行中，单击  **[!UICONTROL ...]>[!UICONTROL Placements and Ads]**.
+1. 在交易行中，单击  **[!UICONTROL ...]** > **[!UICONTROL Placements and Ads]**.
 
    的 [!UICONTROL Placements] 选项卡。 要查看广告，请单击 [!UICONTROL Ads] 选项卡。
 
@@ -24,11 +24,11 @@ ht-degree: 0%
 
    * 要编辑版面的设置，请将光标悬停在版面行上并单击 **[!UICONTROL Edit]**. [编辑版面设置](/help/dsp/campaign-management/placements/placement-settings.md)，然后单击 **[!UICONTROL Update placement]**.
 
-   * 要从投放的库存目标中删除交易，请将光标悬停在投放行上并单击 **[!UICONTROL More]>[!UICONTROL Detach Placement]**. 在确认消息中，单击 **[!UICONTROL Yes]**.
+   * 要从投放的库存目标中删除交易，请将光标悬停在投放行上并单击 **[!UICONTROL More]** > **[!UICONTROL Detach Placement]**. 在确认消息中，单击 **[!UICONTROL Yes]**.
 
       分离版面不会删除版面。
 
-   * 要编辑广告的设置，请将光标悬停在广告行上并单击 **[!UICONTROL More]>[!UICONTROL Edit]**. [编辑广告设置](/help/dsp/campaign-management/ads/ad-edit.md)，然后单击 **[!UICONTROL Save & submit for review]**.
+   * 要编辑广告的设置，请将光标悬停在广告行上并单击 **[!UICONTROL More]** > **[!UICONTROL Edit]**. [编辑广告设置](/help/dsp/campaign-management/ads/ad-edit.md)，然后单击 **[!UICONTROL Save & submit for review]**.
 
 >[!MORELIKETHIS]
 >

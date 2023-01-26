@@ -2,8 +2,8 @@
 title: 查看包更改日志
 description: 了解如何查看对包所做的更改。
 feature: DSP Packages
-exl-id: 1d611c20-7857-41db-adf4-743dab44341e
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: dd33519b-19cf-4b6f-b6d2-ec0874e27075
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
 1. 单击营销活动的名称。
-1. 在 **[!UICONTROL Packages]** 选项卡，在包名称旁边单击  **[!UICONTROL ...]>[!UICONTROL Change logs]**.
+1. 在 **[!UICONTROL Packages]** 选项卡，在包名称旁边单击  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
 >[!MORELIKETHIS]
 >

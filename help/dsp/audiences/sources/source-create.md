@@ -2,8 +2,8 @@
 title: 创建受众源以激活第一方受众
 description: 了解如何创建源以将受众导入您的帐户或广告商帐户。
 feature: DSP Audiences
-exl-id: 16eb7cdb-4364-4e94-ba73-0f2d4d200cb9
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >在为 [!DNL Real-Time CDP]，您需要激活 [!DNL Real-Time CDP] 受众(通过AdobeAdvertising DSP目标在 [!DNL Real-Time CDP] 以开始导入。 请参阅 [激活工作流中的步骤](source-about.md#workflow-sources).
 
-1. 在主菜单中，单击**[!UICONTROL Audiences] > [!UICONTROL Sources (BETA)].
+1. 在主菜单中，单击 **[!UICONTROL Audiences]** > **[!UICONTROL Sources (BETA)].
 
 1. 单击 [!UICONTROL Add Source].
 
@@ -40,13 +40,13 @@ ht-degree: 0%
 
 1. 在Experience Platform中，使用 [!UICONTROL Source Key] 在DSP源设置中生成的URL。
 
-   有关激活DSP目标连接、选择区段和访问控制权限的说明，请参阅[Adobe Advertising Cloud DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
+有关激活DSP目标连接、选择区段和访问控制权限的说明，请参阅[Adobe Advertising Cloud DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html).&quot;
 
 >[!MORELIKETHIS]
 >
 >* [受众源设置](source-settings.md)
 >* [关于从受众源激活经过身份验证的区段](source-about.md)
 >* [从持久ID合作伙伴激活经过身份验证的区段](source-durable-id.md)<!-- title?-->
->* [Adobe Advertising Cloud DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Adobe Advertising Cloud DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html)
 >* [关于受众管理](/help/dsp/audiences/audience-about.md)
 

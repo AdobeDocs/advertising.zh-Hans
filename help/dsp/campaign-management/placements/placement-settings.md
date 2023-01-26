@@ -2,10 +2,10 @@
 title: 版面设置
 description: 请参阅可用版面设置的描述。
 feature: DSP Placements
-exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '3416'
+source-wordcount: '3418'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ ht-degree: 0%
 
    您可以按关键词、键值、交易ID或自定义标记搜索列表。
 
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]:全部 [溢价，非担保 [!UICONTROL On Demand] 库存](/help/dsp/inventory/on-demand-inventory-about.md) (或 [!UICONTROL On Demand] [!DNL Roku] 交易 [!DNL Roku] 版面) [!DNL DSP]. 您可以包含和排除 [!UICONTROL On Demand] 库存。
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]:全部 [溢价，非担保 [!UICONTROL On Demand] 库存](/help/dsp/inventory/on-demand-inventory-about.md) (或 [!UICONTROL On Demand] [!DNL] Roku交易 [!DNL Roku] 版面) [!DNL DSP]. 您可以包含和排除 [!UICONTROL On Demand] 库存。
 
    您可以按源或按信息源查看列表。 在按信息源查看列表时，可以按信息源名称、信息源密钥或选定的发布者区域、类别标记或特征标记进行搜索。
 
@@ -188,14 +188,14 @@ ht-degree: 0%
    1. 选中库存类型名称旁边的复选框。
    1. （可选）更改源以包括：
       1. 单击 ![编辑](/help/dsp/assets/edit.png).
-      1. ([!UICONTROL Public] 和 [!UICONTROL On Demand] 清单)单击 **[!UICONTROL View by Source]** 或 **[!UICONTROL View by Feed]** 更改源的列表方式。
+      1. ([!UICONTROL Public] 和 [!UICONTROL On Demand] 清单)单击 *[!UICONTROL *View by Source]**或 **[!UICONTROL View by Feed]** 更改源的列表方式。
       1. （如果适用）根据需要筛选库存。
       1. 指定要包含和排除的源：
          * 包含 [!UICONTROL Public] 或 [!UICONTROL On Demand] 源，单击 **[!UICONTROL Include]** 源名称旁边。
          * 包含 [!UICONTROL Private] 源：
             * 要在交易中包含所有库存，请单击 **[!UICONTROL Include all]** 交易名称旁边。
             * 要包含单个库存来源，请展开交易名称，然后单击来源名称旁边的复选框。
-         * 排除 [!UICONTROL Public] 或 [!UICONTROL On source]，单击 **[!UICONTROL Exclude]** 源名称旁边。
+         * 排除 [!UICONTROL Public] 或 [!UICONTROL On ] 源，单击 **[!UICONTROL Exclude]** 源名称旁边。
    1. （可选）要将包含定位信息的CSV文件下载到浏览器的下载位置，请单击 **[!UICONTROL Save & Export]**.
    1. 单击 **[!UICONTROL Save]**.
 
@@ -311,7 +311,6 @@ ht-degree: 0%
 **[!UICONTROL Secondary Cap]:** (可选；当包含数字时可用 [!UICONTROL Placement Cap])主放置上限范围内的其他限制。 选择展示次数和时间段（例如每12小时3次）。
 
 **[!UICONTROL Day Parting]:** （可选）在一周中的特定日期以及可能运行广告的时间。 要指定分时段间隔，请执行以下操作：
-
 1. 单击 ![编辑](/help/dsp/assets/edit.png).
 1. 选择适用的时区。
 1. 指定间隔：
@@ -448,7 +447,7 @@ ht-degree: 0%
          * **[!UICONTROL Notes]:** （可选）有关像素的描述或其他信息。
       1. 单击 **[!UICONTROL Create and attach]**.
       1. 在相关网页上实施转换像素：
-         1. 在主菜单中，转到 **[!UICONTROL Resources]>[!UICONTROL Conversion pixels]**.
+         1. 在主菜单中，转到 **[!UICONTROL Resources]** > **[!UICONTROL Conversion pixels]**.
          1. 在像素行中，单击 **[!UICONTROL edit]**.
          1. 复制 [!UICONTROL HTML Tag] 和 [!UICONTROL Flash Tag] 字段，以便向广告商或网站联系人提供。
 

@@ -2,8 +2,8 @@
 title: 存档或取消存档私有交易
 description: 了解如何存档或取消存档私有交易。
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 6ecf90b6-a52f-42f3-aa3f-b2c489ea0aa8
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: f3f22299-a538-4956-a8ef-d44f20e4d2d7
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -24,8 +24,8 @@ ht-degree: 0%
 
 ## 存档私有交易
 
-1. 在主菜单中，单击 **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
-1. 在交易行中，单击 **[!UICONTROL ...]>[!UICONTROL Archive]**.
+1. 在主菜单中，单击 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
+1. 在交易行中，单击 **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. 在确认消息中，单击 **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -34,9 +34,9 @@ ht-degree: 0%
 
 ## 取消私有交易存档
 
-1. 在主菜单中，单击 **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. 在主菜单中，单击 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 1. 在交易列表上方，单击 ![过滤器](/help/dsp/assets/filter.png);单击 **[!UICONTROL Status]** 选择 *[!UICONTROL Archived]*;然后单击 **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
-1. 在交易行中，单击 **[!UICONTROL ...]>[!UICONTROL Unarchive]**.
+1. 在交易行中，单击 **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. 在确认消息中，单击 **[!UICONTROL Unarchive]**.
 
 如果发布者或SSP之前已停用该交易，并且您想再次使用该交易，请直接与发布者或SSP联系。

@@ -2,8 +2,8 @@
 title: 存档或取消存档资源包
 description: 了解如何存档或取消存档资源包。
 feature: DSP Packages
-exl-id: a8840f9e-e0ee-481d-80c2-66b56fc1882f
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 12d1b498-2239-401a-8571-9210956e32b2
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
 1. 单击营销活动的名称以打开 [!UICONTROL Packages] 中。
-1. 在包名称旁边，单击  **[!UICONTROL ...]>[!UICONTROL Archive]**.
+1. 在包名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. 在确认消息中，单击 **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
 1. 单击营销活动的名称以打开 [!UICONTROL Packages] 中。
-1. 在包名称旁边，单击  **[!UICONTROL ...]>[!UICONTROL Unarchive]**.
+1. 在包名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. 在确认消息中，单击 **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]

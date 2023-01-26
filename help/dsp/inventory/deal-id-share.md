@@ -2,8 +2,8 @@
 title: 编辑有权访问私人交易的帐户
 description: 了解如何与不同帐户共享和停止共享私人交易。
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 5ddd406d-1ee5-4d13-8e12-be575cbb7551
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: fb67ef24-8b7f-4a2f-973b-8102a97f0acb
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -22,21 +22,21 @@ ht-degree: 0%
 
 ## 与帐户共享交易ID
 
-1. 在主菜单中，单击 **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. 在主菜单中，单击 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. 在交易行中，单击 **[!UICONTROL ...]>[!UICONTROL Share]**.
+1. 在交易行中，单击 **[!UICONTROL ...]** > **[!UICONTROL Share]**.
 
 1. 对于要共享的每个帐户：
 
-   1. 输入 **[!UICONTROL Email Address]** 有权交易的账户。
+1. 输入 **[!UICONTROL Email Address]** 有权交易的账户。
 
-   1. 单击 **[!UICONTROL Share]**.
+1. 单击 **[!UICONTROL Share]**.
 
 ## 停止与帐户共享交易ID
 
-1. 在主菜单中，单击 **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. 在主菜单中，单击 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. 在交易行中，单击 **[!UICONTROL ...]>[!UICONTROL Share]**.
+1. 在交易行中，单击 **[!UICONTROL ...]** > **[!UICONTROL Share]**.
 
 1. 在 [!UICONTROL Account Email] 值，单击 **[!UICONTROL Unshare].**
 
