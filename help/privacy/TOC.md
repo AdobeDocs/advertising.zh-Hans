@@ -2,13 +2,13 @@
 type: Documentation
 role: User, Admin
 cloud: Experience Cloud
-solution: Advertising Cloud
+solution: Advertising, Advertising Cloud
 product: advertising cloud
 user-guide-title: Adobe Advertising 对消费者隐私的支持
 user-guide-description: 了解 Adobe Advertising 为帮助广告商客户遵守消费者隐私保护法而提供的安全和隐私控制措施。
 breadcrumb-title: 对消费者隐私的支持
 index: true
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: c0dad3f6c5744ec32417e9fe0cab0f328067ae18
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 56%
