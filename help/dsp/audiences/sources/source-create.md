@@ -3,7 +3,7 @@ title: 创建受众源以激活第一方受众
 description: 了解如何创建源以将受众导入您的帐户或广告商帐户。
 feature: DSP Audiences
 exl-id: 16eb7cdb-4364-4e94-ba73-0f2d4d200cb9
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 在Experience Platform中，使用 [!UICONTROL Source Key] 在DSP源设置中生成的URL。
 
-有关激活DSP目标连接、选择区段和访问控制权限的说明，请参阅[Adobe Advertising Cloud DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
+   有关激活DSP目标连接、选择区段和访问控制权限的说明，请参阅[Adobe Advertising Cloud DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
 
 >[!MORELIKETHIS]
 >

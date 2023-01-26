@@ -3,7 +3,7 @@ title: 编辑有权访问私人交易的帐户
 description: 了解如何与不同帐户共享和停止共享私人交易。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 5ddd406d-1ee5-4d13-8e12-be575cbb7551
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 1. 对于要共享的每个帐户：
 
-1. 输入 **[!UICONTROL Email Address]** 有权交易的账户。
+   1. 输入 **[!UICONTROL Email Address]** 有权交易的账户。
 
-1. 单击 **[!UICONTROL Share]**.
+   1. 单击 **[!UICONTROL Share]**.
 
 ## 停止与帐户共享交易ID
 

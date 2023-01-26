@@ -2,7 +2,7 @@
 title: 管理警报订阅
 description: 了解如何管理自动电子邮件警报。
 exl-id: 415c3c60-66dc-436f-b731-78970e0df77c
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%

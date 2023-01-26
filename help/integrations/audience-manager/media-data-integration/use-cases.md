@@ -3,7 +3,7 @@ title: 用例
 description: 了解与Audience Manager共享Advertising DSP媒体数据的用例
 feature: Integration with Adobe Audience Manager
 exl-id: 21d80cf6-f817-495a-bae4-fc9e44f1eda4
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 48cab1494ee36e6ab2f12b2e87adedf62a21374f
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%
@@ -34,17 +34,23 @@ ht-degree: 0%
 
    例如，要命名特征 `Creative Trait 123`，请使用以下特征规则：
 
-   `d_creative == 123 AND d_event == imp`
+   ```
+   d_creative == 123 AND d_event == imp
+   ```
 
 1. 创建特征以捕获单击或转换的用户。
 
    例如，要命名此特征，请执行以下操作 `Click and Converter`，请使用以下特征规则：
 
-   `d_event == click OR d_event=conv`
+   ```
+   d_event == click OR d_event=conv
+   ```
 
 1. 创建一个名为 `Retarget Users` 填充看到创意的用户 `123` 但未单击或转换。 使用以下特征规则：
 
-   `Creative Trait 123 AND NOT Click and Converter`
+   ```
+   Creative Trait 123 AND NOT Click and Converter
+   ```
 
 1. 映射区段 `Retarget Users` 目标，并通过创意定位目标中的用户 `456`.
 

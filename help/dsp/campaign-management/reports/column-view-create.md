@@ -3,7 +3,7 @@ title: 创建自定义列视图
 description: 了解如何创建自定义列视图。
 feature: DSP Campaign Data Views
 exl-id: f39e6ce9-aa4e-4049-af16-eddb0ba30087
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%

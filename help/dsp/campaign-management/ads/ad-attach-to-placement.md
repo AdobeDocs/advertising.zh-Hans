@@ -3,7 +3,7 @@ title: 将广告附加到版面
 description: 了解如何将广告附加到版面。
 feature: DSP Ads
 exl-id: 4d85b89b-217f-46eb-a8b2-27da4c220be7
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 1%
@@ -86,6 +86,7 @@ ht-degree: 1%
       1. 单击 **[!UICONTROL Select an Ad].**
 
       1. 指定广告：
+
          * 要一次添加一个广告，请执行以下操作：
 
             1. 在广告名称旁边，单击 **[!UICONTROL Select].**

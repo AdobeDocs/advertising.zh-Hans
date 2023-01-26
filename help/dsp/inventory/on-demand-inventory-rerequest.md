@@ -3,7 +3,7 @@ title: 重新请求 [!DNL On Demand] 高级库存交易
 description: 了解如何重新请求 [!DNL On Demand] 此前被拒绝的交易。
 feature: DSP On Demand Inventory
 exl-id: db5a5708-16e3-4304-8bd0-f1aa8ecd0e3c
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%

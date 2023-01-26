@@ -2,7 +2,7 @@
 title: 编辑用户配置文件
 description: 了解如何编辑用户配置文件。
 exl-id: 4a140b0a-5860-4b68-820c-03b6bf80254f
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -22,6 +22,7 @@ ht-degree: 3%
       1. 在现有 **[!UICONTROL Email address]**，单击 **[!UICONTROL Edit]**.
 
       1. 输入用户帐户的新电子邮件地址和现有密码。
+
       1. 单击 **[!UICONTROL Continue]**.
    * 要编辑用户帐户的密码，请执行以下操作：
 

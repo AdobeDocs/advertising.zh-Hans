@@ -3,9 +3,9 @@ title: 可用报表列
 description: 请参阅自定义报表中可用列的描述。
 feature: DSP Custom Reports
 exl-id: c96e46ae-2fb2-4364-9c51-f160c00693ba
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1657'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | 的总和 [!UICONTROL Billable Spend (Media)], [!UICONTROL Billable Spend (Data)]和 [!UICONTROL Billable Spend (Other)]. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | 观看了广告整个的查看次数百分比。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | 观看了广告整个的查看次数。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | 100%可见完成(%)] | 观看了广告整个的可见展示次数[!UICONTROL的百分比。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Viewable Completion (%)] | 观看整个广告的可查看展示次数的百分比。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 25% Completion Rate] | 观看了广告至少四分之一的查看次数的百分比。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 25% Completions] | 观看了广告至少四分之一的查看次数。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 50% Completion Rate] | 观看了广告至少两个四分位点的查看次数百分比。 |

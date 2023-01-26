@@ -2,7 +2,7 @@
 user-guide-title: 与 Adobe Experience Cloud 的集成
 user-guide-description: 了解 Advertising DSP 和 Advertising Search 与其他 Adobe Experience Cloud 产品和服务的集成。
 breadcrumb-title: 与 Experience Cloud 的集成
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 12%

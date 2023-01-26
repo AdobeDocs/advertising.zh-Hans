@@ -3,7 +3,7 @@ title: 实施的先决条件和关键信息 [!DNL Analytics for Advertising]
 description: 实施的先决条件和关键信息 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 08e54e2b-ed9b-4489-8de5-ab1379b7133c
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 ## 与Adobe广告共享Analytics区段的要求
 
 * Experience Cloud标识服务： `visitorAPI.js` 版本2.1或更高版本
-* Adobe Analytics: `!DNL appMeasurement.js` 版本1.8或更高版本
+* Adobe Analytics: `appMeasurement.js` 版本1.8或更高版本
 
 ## 报告要求 [!DNL Analytics] Adobe广告中的数据
 

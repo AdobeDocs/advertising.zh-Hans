@@ -3,9 +3,9 @@ title: Adobe对《通用数据保护条例》的广告支持
 description: 了解支持的数据请求类型、必需的设置和字段值，以及使用旧版产品ID和返回的数据字段的API访问请求示例
 feature: GDPR
 exl-id: 304d88d0-d63d-4b32-8d4d-c61ba2409adc
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Adobe Experience Platform为企业提供了完成以下任务的功能：
 
 ## Adobe广告JSON请求中的必填字段值
 
-&quot;&quot;company context&quot;:
+`"company context":`
 
 * `"namespace": **imsOrgID**`
 * `"value":` &lt;*您的IMS组织ID值*>

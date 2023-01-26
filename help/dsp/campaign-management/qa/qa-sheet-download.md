@@ -3,7 +3,7 @@ title: 下载营销活动的版面设置
 description: 了解如何使用Excel QA电子表格下载营销活动的版面设置。
 feature: DSP Placements
 exl-id: c3b0cbf2-7095-4608-977a-9a5dd0bbd585
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 1. 执行以下任一操作：
 
-   * 在营销活动名称旁边，单击 **[!UICONTROL ...]>[!UICONTROL Download Excel QA sheet]**.
+   * 在营销活动名称旁边，单击 **[!UICONTROL ...]** > **[!UICONTROL Download Excel QA sheet]**.
 
-   * 单击促销活动名称可查看促销活动详细信息。 在右上方，单击 **[!UICONTROL ...]>[!UICONTROL Download Excel QA sheet]**.
+   * 单击促销活动名称可查看促销活动详细信息。 在右上方，单击 **[!UICONTROL ...]** > **[!UICONTROL Download Excel QA sheet]**.
 
    通知消息指示何时可下载文件。
 
