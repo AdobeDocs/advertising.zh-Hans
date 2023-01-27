@@ -3,7 +3,7 @@ title: 列出与广告关联的版面
 description: 了解如何查看与广告关联的版面。
 feature: DSP Ads
 exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
 1. 单击营销活动的名称。
 1. 在子菜单中，单击 **[!UICONTROL Ads]**.
-1. 在广告名称旁边，单击  **... >[!UICONTROL See placements]**.
+1. 在广告名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL See placements]**.
 
 >[!MORELIKETHIS]
 >

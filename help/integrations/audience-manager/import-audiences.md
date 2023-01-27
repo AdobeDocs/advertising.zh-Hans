@@ -3,9 +3,9 @@ title: 导入Adobe Audience Manager区段以进行广告定位
 description: 了解如何导入 [!DNL Adobe] 使用Adobe Audience Manager将受众导入DSP和搜索
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Advertising DSP和 [!DNL Advertising Search] 可以分别提取所有广告商�
 
 * 在Adobe Experience Platform中创建并通过Audience Manager发送到Adobe广告的区段
 
-访问 [!DNL Adobe] DSP或 [!DNL Creative]，则必须将受众导入DSP。 访问 [!DNL Adobe] [!DNL中的受众 [!DNL Search]]，则必须将受众导入[!DNL [!DNL Search]]。
+访问 [!DNL Adobe] DSP或 [!DNL Creative]，则必须将受众导入DSP。 访问 [!DNL Adobe] 受众 [!DNL Search]，则必须将受众导入 [!DNL Search].
 
 ## 先决条件
 
@@ -109,7 +109,7 @@ API会自动：
 ### How DSP Syncs the Data
 
 DSP syncs the data automatically using the [!DNL Adobe Experience Cloud Identity (ECID) Service]. During synchronization, the [!DNL ECID Service] calls Adobe Advertising at [!DNL cm.eversttech.net]. Because Adobe Advertising is a trusted domain, ID syncs take place from parent pages rather than within the destination publishing iframes, as they do with most third-party activation partners. Audience Manager identifies unique users by device IDs, using the [Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html#global-device-ids), also called the [!DNL Device ID].
- 
+
 ![Synchronization of [!DNL Adobe] audiences in DSP](/help/integrations/assets/audience-manager-sync.png)
 
 ### How Search Syncs the Data
@@ -148,7 +148,7 @@ Segment membership data is sent only after one of the following events occurs:
 
 ### 在 [!DNL Advertising Search]
 
-在[!DNL中 [!DNL Search]]，在创建 [!DNL Google] 受众使用 [!UICONTROL Data Source] &quot;[!UICONTROL Adobe Audience]从 [!UICONTROL Campaigns] > [!UICONTROL Audiences] > [!UICONTROL Library].
+在 [!DNL Search]，则在创建 [!DNL Google] 受众使用 [!UICONTROL Data Source] &quot;[!UICONTROL Adobe Audience]从 [!UICONTROL Campaigns] > [!UICONTROL Audiences] > [!UICONTROL Library].
 
 对于 [!DNL Google] 受众， [!DNL Google] 提供受众大小。
 

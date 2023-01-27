@@ -3,7 +3,7 @@ title: 广告规范
 description: 参考常规和特定于发布者的广告规范。
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 0%
@@ -177,7 +177,6 @@ ht-degree: 0%
    * 文件类型：JPEG、JPG、PNG、GIF、HTML
    * 最大文件大小：2 MB
    * Dimension:300x250
- 
 
 ## 本机显示广告
 

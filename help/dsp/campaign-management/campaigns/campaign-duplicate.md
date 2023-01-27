@@ -3,7 +3,7 @@ title: 复制营销活动
 description: 了解如何复制营销活动。
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
 
-1. 在营销活动名称旁边，单击 **... >[!UICONTROL Duplicate]**.
+1. 在营销活动名称旁边，单击 **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
 
 1. 指定新的营销活动设置：
 

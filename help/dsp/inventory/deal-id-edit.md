@@ -3,7 +3,7 @@ title: 编辑私有交易设置
 description: 了解如何编辑私人交易的详细信息。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: c6ab7d39-5581-423b-90aa-3e142c235072
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%

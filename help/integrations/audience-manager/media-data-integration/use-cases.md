@@ -3,9 +3,9 @@ title: 用例
 description: 了解与Audience Manager共享Advertising DSP媒体数据的用例
 feature: Integration with Adobe Audience Manager
 exl-id: 1d961799-b8be-499a-8db6-b59762d96bf1
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -34,17 +34,23 @@ ht-degree: 0%
 
    例如，要命名特征 `Creative Trait 123`，请使用以下特征规则：
 
-   `d_creative == 123 AND d_event == imp`
+   ```
+   d_creative == 123 AND d_event == imp
+   ```
 
 1. 创建特征以捕获单击或转换的用户。
 
    例如，要命名此特征，请执行以下操作 `Click and Converter`，请使用以下特征规则：
 
-   `d_event == click OR d_event=conv`
+   ```
+   d_event == click OR d_event=conv
+   ```
 
 1. 创建一个名为 `Retarget Users` 填充看到创意的用户 `123` 但未单击或转换。 使用以下特征规则：
 
-   `Creative Trait 123 AND NOT Click and Converter`
+   ```
+   Creative Trait 123 AND NOT Click and Converter
+   ```
 
 1. 映射区段 `Retarget Users` 目标，并通过创意定位目标中的用户 `456`.
 
@@ -52,7 +58,7 @@ ht-degree: 0%
 
 在Audience Manager中提供营销活动展示和点击数据后，您可以为接触特定营销活动或策略或与之进行交互的用户创建特征和区段。 使用 [[!DNL Audience Analytics] 集成](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)，则您的Audience Manager区段可以与 [!DNL Analytics] 供进一步分析。 潜在用例包括：
 
-* **DSP与 [!DNL Adobe Advertising Search] 广告：** 标准 [[!DNL Analytics for Advertising] 集成](/help/integrations/analytics/overview.md) 无法深入分析DSP与[!DNL之间的交互 [!DNL Search]]因为两个渠道都使用遵循AMO ID归因规则的AMO ID，搜索点击会覆盖该规则的显示显示显示到达。 通过在Audience Manager中创建DSP曝光区段，您可以使用 [!DNL Audience Analytics] 分析DSP与[!DNL的交互 [!DNL Search]]广告输入 [!DNL Analytics].
+* **DSP与 [!DNL Adobe Advertising Search] 广告：** 标准 [[!DNL Analytics for Advertising] 集成](/help/integrations/analytics/overview.md) 无法深入分析DSP与 [!DNL Search] 因为两个渠道都使用遵循AMO ID归因规则的AMO ID，搜索点击会覆盖该规则的显示显示显示到达。 通过在Audience Manager中创建DSP曝光区段，您可以使用 [!DNL Audience Analytics] 分析DSP与 [!DNL Search] 广告 [!DNL Analytics].
 
 * **频率分析：** 您可以在Audience Manager中创建区段，具体内容取决于用户在某个特定广告或营销策划中被显示的次数。 然后，您可以在Analytics中分析不同的曝光区段，以了解用户行为如何根据DSP的曝光数量而发生更改。
 

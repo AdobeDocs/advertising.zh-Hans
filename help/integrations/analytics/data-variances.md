@@ -3,9 +3,9 @@ title: 之间的预期数据差异 [!DNL Analytics] 和Adobe广告
 description: 之间的预期数据差异 [!DNL Analytics] 和Adobe广告
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '3278'
+source-wordcount: '3276'
 ht-degree: 0%
 
 ---
@@ -153,13 +153,17 @@ Adobe广告报表仅捕获通过Adobe广告(通过付费搜索 [!DNL Advertising
 
 在 [!DNL Analytics]，最简单的验证方法之一 [!DNL Analytics for Advertising] 跟踪是使用“点击到AMO ID实例”计算量度比较点击次数与实例，该计算量度的计算方式如下：
 
-```Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)```
+```
+Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)
+```
 
 [!UICONTROL AMO ID Instances] 表示AMO ID(`s_kwcid` 参数)。 每次点击广告时， `s_kwcid` 参数添加到登陆页面URL。 数量 [!UICONTROL AMO ID Instances]，因此，与点击次数类似，可根据实际广告点击进行验证。 我们通常会看到 [!DNL Search] 和30%的匹配率 [!DNL DSP] 流量（过滤为仅包含点进） [!UICONTROL AMO ID Instances])。 搜索和显示之间的预期差异可以通过预期流量行为来解释。 搜索会捕获意图，因此，用户通常打算单击其查询中的搜索结果。 但是，如果用户看到展示或在线视频广告，则更有可能无意中点击该广告，然后从网站跳出或放弃在跟踪页面活动之前加载的新窗口。
 
 在Adobe广告报表中，您同样可以使用“[!UICONTROL ef_id_instances]“量度”而不是 [!UICONTROL AMO ID Instances]:
 
-```Clicks to [!UICONTROL EF ID Instances] = (ef_id_instances / Clicks)```
+```
+Clicks to [EF ID Instances = (ef_id_instances / Clicks)
+```
 
 虽然您应该期望AMO ID与EF ID之间的匹配率较高，但不希望出现100%的对等性，因为AMO ID和EF ID会从根本上跟踪不同的数据，这种差异可能会导致总数略有差异 [!UICONTROL AMO ID Instances] 和 [!UICONTROL EF ID Instances]. 如果总计 [!UICONTROL AMO ID Instances] in [!DNL Analytics] 不同 [!UICONTROL EF ID Instances] 但是，在Adobe广告中，联系您的 [!DNL Adobe] 客户团队寻求帮助。
 
@@ -175,13 +179,17 @@ Adobe广告报表仅捕获通过Adobe广告(通过付费搜索 [!DNL Advertising
 
 例如，假设我们拥有以下登陆页面：
 
-`www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id`
+```
+www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id
+```
 
 其中EF ID为“`test_ef_id`“”和AMO ID为“`test_amo_id`.&quot;
 
 如果发生站点端重定向，则URL可能会如下所示：
 
-`www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag`
+```
+www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
+```
 
 其中EF ID为“`test_ef_id`“”和AMO ID为“`test_amo_id#redirectAnchorTag`.&quot;
 
@@ -223,7 +231,7 @@ Adobe广告报表仅捕获通过Adobe广告(通过付费搜索 [!DNL Advertising
 
 ### 将Adobe广告流量量度用于非Adobe广告Dimension
 
-Adobe广告为Analytics提供 [特定于广告的流量量度以及DSP和[!DNL [!DNL Search]]](advertising-metrics-in-analytics.md). 提供Adobe广告的量度仅适用于指定的Adobe广告维度，并且数据不适用于 [!DNL Analytics].
+Adobe广告为Analytics提供 [广告特定的流量量度和 [!DNL DSP] 和 [!DNL Search]](advertising-metrics-in-analytics.md). 提供Adobe广告的量度仅适用于指定的Adobe广告维度，并且数据不适用于 [!DNL Analytics].
 
 例如，如果您查看 [!UICONTROL AMO Clicks] 和 [!UICONTROL AMO Cost] “按帐户划分的量度”(即“Adobe广告”维度)，您将看到总计 [!UICONTROL AMO Clicks] 和 [!UICONTROL AMO Cost] 帐户。
 

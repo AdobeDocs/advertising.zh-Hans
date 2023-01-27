@@ -3,7 +3,7 @@ title: 订阅并请求访问 [!DNL On Demand] 高级库存交易
 description: 了解如何订阅和请求访问，[!DNL On Demand] 交易。
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -36,8 +36,7 @@ ht-degree: 0%
 
    * 交易来源 **[!UICONTROL TV Broadcasters]**
 
-   * 接受“调音”创意的出版商的交易
-      **[!UICONTROL Tune-In]**)
+   * 接受“调谐”创意的出版商(**[!UICONTROL Tune-In]**)
 
    * 发布者已对其应用了21个以上定位并接受酒精广告(**[!UICONTROL Legal drinking age]**)
 
@@ -65,8 +64,7 @@ ht-degree: 0%
 
    * 交易来源 **[!UICONTROL TV Broadcasters]**
 
-   * 接受“调音”创意的出版商的交易
-      **[!UICONTROL Tune-In]**)
+   * 接受“调谐”创意的出版商(**[!UICONTROL Tune-In]**)
 
    * 发布者已对其应用了21个以上定位并接受酒精广告(**[!UICONTROL Legal drinking age]**)
 

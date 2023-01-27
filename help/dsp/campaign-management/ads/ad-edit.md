@@ -3,7 +3,7 @@ title: 编辑广告
 description: 了解如何编辑广告。
 feature: DSP Ads
 exl-id: 149eeb61-b4d1-4c88-8dcd-ad11e135a486
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. 在子菜单中，单击 **[!UICONTROL Ads]**.
 
-1. 在广告名称旁边，单击  **... >[!UICONTROL Edit]**.
+1. 在广告名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
 1. 编辑的广告设置 [音频广告](ad-settings-audio.md), [连接电视](ad-settings-connected-tv.md), [展示广告](ad-settings-display.md), [移动广告](ad-settings-mobile.md), [本机广告](ad-settings-native.md), [前置广告](ad-settings-pre-roll.md)或 [通用视频广告](ad-settings-universal-video.md).
 

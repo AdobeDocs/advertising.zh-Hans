@@ -3,7 +3,7 @@ title: Adobe广告量度在Analysis Workspace中
 description: Adobe广告量度在Analysis Workspace中
 feature: Integration with Adobe Analytics
 exl-id: da5e5704-4504-4fc5-93d2-db7d28f0c349
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL AMO Views 75% Complete] | 观看Adobe广告视频至少75%的查看次数。 |
 | [!UICONTROL AMO Views 100% Complete] | 观看了100%的Adobe广告视频的查看次数。 |
 | [!UICONTROL AMO Viewable Impressions] | 根据版面配置测量的可查看展示次数。 |
-| [!UICONTROL AMO Not Viewable Impressions] | 确定不可查看的展示次数。 此值计算为([!UICONTROL AMO Measurable Impressions] - [!UICONTROL AMO Viewable ])。 |
+| [!UICONTROL AMO Not Viewable Impressions] | 确定不可查看的展示次数。 此值计算为([!UICONTROL AMO Measurable Impressions] - [!UICONTROL AMO Viewable])。 |
 | [!UICONTROL AMO Measurable Impressions] | 成功初始化可视性工具的展示次数。 此值计算为（分析展示次数 — 不可测展示次数）。 |
 
 ## 用于Adobe广告的有用自定义计算量度
