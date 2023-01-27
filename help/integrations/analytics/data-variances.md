@@ -3,9 +3,9 @@ title: 之间的预期数据差异 [!DNL Analytics] 和Adobe广告
 description: 之间的预期数据差异 [!DNL Analytics] 和Adobe广告
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 2060ab016917a69ef8bf718d339a35eb62b1269e
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3279'
 ht-degree: 0%
 
 ---
@@ -88,8 +88,11 @@ ht-degree: 0%
 
 查看 [!DNL Analytics] 归因模型及其定义 [https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html).
 
-如果您已登录 [!DNL Search]，您可以在
-[https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm](https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm).
+如果您已登录 [!DNL Search]，您可以找到列表
+
+* （北美用户） [`https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm`](https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm)
+
+* （所有其他用户） [`https://enterprise-intl.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm`](https://enterprise-intl.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm)
 
 #### Adobe广告中的事件日期归因
 

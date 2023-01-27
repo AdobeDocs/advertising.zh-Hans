@@ -3,7 +3,7 @@ title: 创建自定义目标
 description: 创建自定义目标
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 2060ab016917a69ef8bf718d339a35eb62b1269e
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >请参阅 [创建自定义目标的最佳实践](custom-goal-best-practices.md) 以获取有关如何配置自定义目标的提示。
 
-1. 登录 [!DNL Adobe Advertising Search] （美国公司） [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) 或（所有其他国家/地区的公司） [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
+1. 登录 [!DNL Adobe Advertising Search] at（北美用户） [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) 或（所有其他用户） [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. 确保您要包含在目标中的量度已被跟踪，在产品中可用，并包含显示名称：
    1. 在主菜单中，单击 **[!UICONTROL Search]** > **[!UICONTROL Admin]>[!UICONTROL Transaction Properties]**.
    1. 找到量度，并确保 **[!UICONTROL Show in UI and Reports]** 为量度启用。
