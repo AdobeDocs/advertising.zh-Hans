@@ -3,7 +3,7 @@ title: 关于从受众源激活经过身份验证的区段
 description: 了解如何从客户数据平台摄取第一方区段。
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 9ca42d078c0d0b6a08d521c8465eca69c2affce5
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -33,7 +33,7 @@ DSP与 [the [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experien
 
 1. [创建受众源](source-create.md) 将受众导入DSP帐户或广告商帐户。
 
-1. [配置 [!DNL Real-Time CDP] 目标连接Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html).
+1. [配置 [!DNL Real-Time CDP] 目标连接Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).
 
 如需其他支持，请联系 [!DNL Adobe] 客户团队或 `adcloud-support@adobe.com`.
 
@@ -42,7 +42,7 @@ DSP与 [the [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experien
 >* [从持久ID合作伙伴激活经过身份验证的区段](source-durable-id.md)
 >* [创建受众源以激活第一方受众](source-create.md)
 >* [受众源设置](source-settings.md)
->* [AdobeAdvertising DSP Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html)
+>* [AdobeAdvertising DSP Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* Adobe Experience Platform [目标目录概述](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [关于受众管理](/help/dsp/audiences/audience-about.md)
 

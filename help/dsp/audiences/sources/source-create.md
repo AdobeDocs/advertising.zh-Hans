@@ -3,7 +3,7 @@ title: 创建受众源以激活第一方受众
 description: 了解如何创建源以将受众导入您的帐户或广告商帐户。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 9ca42d078c0d0b6a08d521c8465eca69c2affce5
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -40,13 +40,13 @@ ht-degree: 0%
 
 1. 在Experience Platform中，使用 [!UICONTROL Source Key] 在DSP源设置中生成的URL。
 
-   有关激活DSP目标连接、选择区段和访问控制权限的说明，请参阅[Adobe Advertising Cloud DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html).&quot;
+   有关激活DSP目标连接、选择区段和访问控制权限的说明，请参阅[Adobe Advertising Cloud DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
 
 >[!MORELIKETHIS]
 >
 >* [受众源设置](source-settings.md)
 >* [关于从受众源激活经过身份验证的区段](source-about.md)
 >* [从持久ID合作伙伴激活经过身份验证的区段](source-durable-id.md)<!-- title?-->
->* [Adobe Advertising Cloud DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html)
+>* [Adobe Advertising Cloud DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [关于受众管理](/help/dsp/audiences/audience-about.md)
 
