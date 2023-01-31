@@ -3,9 +3,9 @@ title: 查看营销活动的详细报表
 description: 了解如何打开营销活动级别的报表，其中包含有关地理、设备、可视性和受众性能数据的部分。
 feature: DSP Campaigns, DSP Campaign Data Views
 exl-id: ce0d8b44-63cb-47da-adac-d9ae330c52bf
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -25,4 +25,5 @@ ht-degree: 0%
 >* [查看广告的详细报表](/help/dsp/campaign-management/ads/ad-view-report.md)
 >* [关于平台内报表](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [关于自定义报表](/help/dsp/reports/report-about.md)
+>* [查看营销活动的更改日志](campaign-change-log.md)
 

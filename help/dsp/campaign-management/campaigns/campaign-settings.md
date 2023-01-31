@@ -3,9 +3,9 @@ title: 营销活动设置
 description: 请参阅可用营销活动设置的描述。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -150,4 +150,5 @@ ht-degree: 0%
 >* [关于Campaign Management](campaign-about.md)
 >* [创建营销活动](campaign-create.md)
 >* [编辑营销活动](campaign-edit.md)
+>* [查看营销活动的更改日志](campaign-change-log.md)
 

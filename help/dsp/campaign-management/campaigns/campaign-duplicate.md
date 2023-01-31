@@ -3,9 +3,9 @@ title: 复制营销活动
 description: 了解如何复制营销活动。
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -55,5 +55,6 @@ ht-degree: 0%
 >* [关于Campaign Management](campaign-about.md)
 >* [创建营销活动](campaign-create.md)
 >* [编辑营销活动](campaign-edit.md)
+>* [查看营销活动的更改日志](campaign-change-log.md)
 >* [营销活动设置](campaign-settings.md)
 

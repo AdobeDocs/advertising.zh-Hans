@@ -8,9 +8,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: c0dad3f6c5744ec32417e9fe0cab0f328067ae18
+source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '888'
 ht-degree: 6%
 
 ---
@@ -47,6 +47,7 @@ ht-degree: 6%
       + [复制营销活动](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
       + [查看营销活动的详细报表](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
       + [存档或取消存档营销活动](/help/dsp/campaign-management/campaigns/campaign-archive-unarchive.md)
+      + [查看营销活动的更改日志](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
       + [营销活动设置](/help/dsp/campaign-management/campaigns/campaign-settings.md)
       + [营销活动启动核对清单](/help/dsp/campaign-management/campaign-launch-checklist.md)
    + 包 {#packages}
