@@ -2,7 +2,7 @@
 title: 在Adobe Target中配置Adobe广告的A/B测试
 description: 了解如何在 [!DNL Target] 用于您的DSP和 [!DNL Search] 广告。
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 69a829a7fda684fcb2d698427f3ef5772d11433d
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 0%
@@ -129,7 +129,7 @@ Adobe广告和Adobe Target使营销人员能够更轻松地跨付费媒体和网
 
    >[!NOTE]
    >
-   >您可以使用多个URL来测试浏览网站条目。 有关更多信息，请参阅[多页面活动](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; 您可以通过创建 [网站登录报表](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-site-entry-reports.html) 中。
+   >您可以使用多个URL来测试浏览网站条目。 有关更多信息，请参阅[多页面活动](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; 您可以通过创建 [网站登录报表](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) 中。
 
 1. 在 **目标** 字段，输入测试的成功量度。
 
