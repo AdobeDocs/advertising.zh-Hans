@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 95b704237370057d60cef28013907da8526f32c9
+source-git-commit: 425a5f38582a0c603417b67a665a7919dc26e1ac
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 有关详细信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2023年1月25日 | 交易 | 在“库存”>“交易”中新增了“PG展示步调”支出列，用于查看为有保证的交易准备的报表。 | 请参阅“[编辑自定义列视图](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
+| 2023年2月3日 | [!UICONTROL Campaigns] | （测试版功能）您现在可以以图表形式查看更改日志，并且可以向任何条目添加注释。 | 请参阅“[查看营销活动的更改日志](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot;请参阅“[查看包的更改日志](/help/dsp/campaign-management/packages/package-change-log.md)，和请参阅“[查看版面的更改日志](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
+| 2023年1月25日 | [!UICONTROL Deals] | 在“库存”>“交易”中新增了“PG展示步调”支出列，用于查看为有保证的交易准备的报表。 | 请参阅“[编辑自定义列视图](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
 | 2023年1月4日 | [!UICONTROL Campaigns] | 更改日志显示在选定日期范围内所做的更改，现在可用于每个营销活动。 更改日志已可用于包和版面。 | 请参阅“[查看营销活动的更改日志](/help/dsp/campaign-management/campaigns/campaign-change-log.md)&quot;。&quot; |
 | 2022年12月14日 | 版面、广告 | （开放测试版功能）新增“[!UICONTROL Universal Video]“利用投放和广告，可使用单个视频投放来定位VPAID和VAST库存的多个设备环境。<br><br>通用视频放置包括“设备环境”设置，用于指定设备类型目标([!UICONTROL Desktop], [!UICONTROL Mobile]和 [!UICONTROL Connected TV])。 通用视频广告只能链接到通用视频投放。<br><br>自定义报表包括新的置入级别维度“设备环境”。 | 请参阅“[版面设置](/help/dsp/campaign-management/placements/placement-settings.md)&quot;和&quot;[可用报表列](/help/dsp/reports/report-columns.md).&quot;<br><br>另请参阅“[通用视频广告设置](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)&quot;和&quot;[创建广告](/help/dsp/campaign-management/ads/ad-create.md).&quot; |
 | 2022年11月23日 | 交易 | 的 [!UICONTROL Inventory] > [!UICONTROL Deals] 视图现在包含“[!UICONTROL Deal Health]“ ”列，指示每个私有交易的运行状况：&quot;[!UICONTROL Success], &quot;[!UICONTROL Warning], &quot;[!UICONTROL Critical]，或&quot;[!UICONTROL Unavailable].&quot; 您可以单击状态以查看更多详细信息，包括交易未按预期执行或支出的原因，以及排查潜在问题的步骤。 | — |
