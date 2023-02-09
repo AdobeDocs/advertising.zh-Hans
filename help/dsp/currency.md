@@ -3,9 +3,9 @@ title: 支持的货币
 description: 请参阅受支持货币的列表。
 feature: DSP Custom Reports, DSP Campaign Data Views
 exl-id: 97d49cce-4438-40c4-94a4-e5d90ebaf651
-source-git-commit: f1beceb854c6ccb013897b79560d0329a9c0bc5a
+source-git-commit: 2d4d04204ac9df86f11a6ffee349d0cb0124b0e4
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,10 @@ ht-degree: 0%
 
 Adobe广告支持以下货币。
 
+
 >[!NOTE]
 >
->Adobe Analytics支持 [更多货币](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/currency.html).
+>Adobe Analytics支持 [更多货币](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html).
 
 ## DSP和Creative
 
