@@ -3,9 +3,9 @@ title: Adobe对《加州消费者隐私法案》的广告支持：消费者数�
 description: 了解支持的数据请求类型、必需的设置和字段值，以及使用旧版产品ID和返回的数据字段的API访问请求示例。
 feature: CCPA
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: bc0015c134406fb020370def45a8588b5032587e
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Adobe Experience Platform为企业提供了完成以下任务的功能：
    >
    >对某些Experience Cloud解决方案的请求不需要JavaScript库，但Adobe广告请求需要JavaScript库。
 
-   您应该在网页上部署库，客户可以从中提交访问和删除请求，例如您公司的隐私门户。 库可帮助您检索AdobeCookie(命名空间ID: `gsurferID`)，以便您能够通过提交这些身份，作为访问和删除请求的一部分 [!DNL Adobe Experience Platform Privacy Service API].
+   您应该在网页上部署库，您的客户可以从该网页提交访问和删除请求，如您公司的隐私门户。 库可帮助您检索AdobeCookie(命名空间ID: `gsurferID`)，以便您能够通过提交这些身份，作为访问和删除请求的一部分 [!DNL Adobe Experience Platform Privacy Service API].
 
    当客户要求删除个人数据时，库还会从客户的浏览器中删除客户的Cookie。
 

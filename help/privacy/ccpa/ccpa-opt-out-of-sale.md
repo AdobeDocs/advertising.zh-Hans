@@ -3,9 +3,9 @@ title: Adobe对《加州消费者隐私法案》的广告支持：消费者选�
 description: 了解对捕获消费者选择退出销售请求的支持。
 feature: CCPA
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: cce2d73880fbc4b185b426f2e18c1b071dd511a1
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
    >
    >对某些Adobe Experience Cloud解决方案的请求不需要JavaScript库，但Adobe广告的请求需要它。
 
-   您应该在网页上部署库，客户可从该网页提交选择退出销售请求，如您公司的隐私门户。 库可帮助您检索AdobeCookie(命名空间ID: `gsurferID`)，以便您能够通过Adobe Experience Platform Privacy Service API将这些身份作为选择退出销售请求的一部分提交。
+   您应该在网页上部署库，您的客户可以从该网页提交选择退出销售请求，如您公司的隐私门户。 库可帮助您检索AdobeCookie(命名空间ID: `gsurferID`)，以便您能够通过Adobe Experience Platform Privacy Service API将这些身份作为选择退出销售请求的一部分提交。
 
 1. 识别您的Experience Cloud组织ID，并确保它已关联到您的Adobe广告帐户。
 

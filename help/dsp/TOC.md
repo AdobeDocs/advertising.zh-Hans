@@ -8,9 +8,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: 85f748bae0efb52e96d8993dcc482b1b969fe6fe
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '879'
 ht-degree: 6%
 
 ---
@@ -106,8 +106,8 @@ ht-degree: 6%
          + [过滤营销活动数据](/help/dsp/campaign-management/reports/campaign-data-filter.md)
          + [对列排序](/help/dsp/campaign-management/reports/campaign-data-sort.md)
       + [管理数据可视化图表](/help/dsp/campaign-management/reports/campaign-data-visualization-manage.md)
-   + 使用电子表格更正营销活动的版面设置 {#qa-spreadsheet}
-      + [关于使用电子表格更正促销活动的版面设置](/help/dsp/campaign-management/qa/qa-about.md)
+   + 使用电子表格更正版面设置 {#qa-spreadsheet}
+      + [关于使用电子表格更正版面设置](/help/dsp/campaign-management/qa/qa-about.md)
       + [下载营销活动的版面设置](/help/dsp/campaign-management/qa/qa-sheet-download.md)
       + [营销活动的上传版面设置](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
       + [已下载/已上载电子表格中的列](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
@@ -126,7 +126,7 @@ ht-degree: 6%
    + [性能疑难解答](/help/dsp/optimization/troubleshooting-performance.md)
 + 受众 {#audiences}
    + [关于受众管理](/help/dsp/audiences/audience-about.md)
-   + 管理区段 {#segments}
+   + 区段 {#segments}
       + [创建和实施自定义区段](/help/dsp/audiences/custom-segment-create.md)
       + [!UICONTROL CCPA Opt-out-of-Sale] 区段 {#ccpa-opt-out-of-sale-segments}
          + [关于 [!UICONTROL CCPA Opt-out-of-Sale] 区段](/help/dsp/audiences/ccpa-opt-out-about.md)
@@ -136,7 +136,7 @@ ht-degree: 6%
       + [共享或停止共享区段](/help/dsp/audiences/segment-share.md)
       + [查看区段的跟踪像素](/help/dsp/audiences/segment-view-pixels.md)
       + [删除区段](/help/dsp/audiences/segment-delete.md)
-   + 管理受众 {#reusable-audiences}
+   + 受众 {#reusable-audiences}
       + [创建可重用受众](/help/dsp/audiences/reusable-audience-create.md)
       + [复制可重用受众](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [编辑可重用受众](/help/dsp/audiences/reusable-audience-edit.md)
@@ -147,7 +147,7 @@ ht-degree: 6%
       + [删除可重用受众](/help/dsp/audiences/reusable-audience-delete.md)
       + [受众设置](/help/dsp/audiences/audience-settings.md)
       + [受众区段逻辑的语法](/help/dsp/audiences/audience-segment-logic-syntax.md)
-   + 管理源 {#sources}
+   + 源 {#sources}
       + [关于从受众源激活经过身份验证的区段](/help/dsp/audiences/sources/source-about.md)
       + [从持久ID合作伙伴激活经过身份验证的区段](/help/dsp/audiences/sources/source-durable-id.md)
       + [创建受众源以激活第一方受众](/help/dsp/audiences/sources/source-create.md)

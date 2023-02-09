@@ -3,9 +3,9 @@ title: Adobe对《通用数据保护条例》的广告支持
 description: 了解支持的数据请求类型、必需的设置和字段值，以及使用旧版产品ID和返回的数据字段的API访问请求示例
 feature: GDPR
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 99ebf339504e053578dc90dbde41437c5f3774f6
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Adobe Experience Platform为企业提供了完成以下任务的功能：
    >
    >对某些Adobe Experience Cloud解决方案的请求不需要JavaScript库，但Adobe广告的请求需要它。
 
-   您应该在网页上部署库，数据主体可以从中提交访问和删除请求，例如您公司的隐私门户。 库可帮助您检索AdobeCookie(命名空间ID: `gsurferID`)，以便您能够在访问和删除请求中通过Adobe Experience Platform Privacy Service API提交这些身份。
+   您应该在网页上部署库，数据主体可以从中提交访问和删除请求，如您公司的隐私门户。 库可帮助您检索AdobeCookie(命名空间ID: `gsurferID`)，以便您能够在访问和删除请求中通过Adobe Experience Platform Privacy Service API提交这些身份。
 
    当数据主体要求删除个人数据时，库还会从数据主体的浏览器中删除数据主体的Cookie。
 
