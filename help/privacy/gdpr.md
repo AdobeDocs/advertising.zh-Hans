@@ -3,7 +3,7 @@ title: Adobe对《通用数据保护条例》的广告支持
 description: 了解支持的数据请求类型、必需的设置和字段值，以及使用旧版产品ID和返回的数据字段的API访问请求示例
 feature: GDPR
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 99ebf339504e053578dc90dbde41437c5f3774f6
+source-git-commit: 7c5472ee97635039a635bcdbd4e0cc384fd04299
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
