@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 425a5f38582a0c603417b67a665a7919dc26e1ac
+source-git-commit: 4b92f880dbb9edf45b9521fb261cfbeb52a27218
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1213'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 有关详细信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023年2月15日 | [!UICONTROL Campaigns] | 在图表表单中查看更改日志以及向任何条目添加注释的选项不在测试版中。 | 请参阅“[查看营销活动的更改日志](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot;请参阅“[查看包的更改日志](/help/dsp/campaign-management/packages/package-change-log.md)，和请参阅“[查看版面的更改日志](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 2023年2月3日 | [!UICONTROL Campaigns] | （测试版功能）您现在可以以图表形式查看更改日志，并且可以向任何条目添加注释。 | 请参阅“[查看营销活动的更改日志](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot;请参阅“[查看包的更改日志](/help/dsp/campaign-management/packages/package-change-log.md)，和请参阅“[查看版面的更改日志](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 2023年1月25日 | [!UICONTROL Deals] | 在“库存”>“交易”中新增了“PG展示步调”支出列，用于查看为有保证的交易准备的报表。 | 请参阅“[编辑自定义列视图](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
 | 2023年1月4日 | [!UICONTROL Campaigns] | 更改日志显示在选定日期范围内所做的更改，现在可用于每个营销活动。 更改日志已可用于包和版面。 | 请参阅“[查看营销活动的更改日志](/help/dsp/campaign-management/campaigns/campaign-change-log.md)&quot;。&quot; |
