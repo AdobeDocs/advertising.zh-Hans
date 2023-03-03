@@ -3,9 +3,9 @@ title: 关于从受众源激活经过身份验证的区段
 description: 了解如何从客户数据平台引入第一方区段。
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ In [!DNL Real-time CDP]， *目标* 连接外部数据平台，实现无缝数�
 
 <!-- Make sure that titles make the distinctions clear -- everything can't be "Activate XXX." -->
 
-1. [允许DSP将客户数据区段转换为 [!DNL LiveRamp RampIDs]](source-durable-id.md) 在竞价环境中可识别的其他资源。<!-- I don't think I need this here: This requires DSP account-level and campaign-level settings to enable segment sharing with [!DNL LiveRamp], which will translate customer data to [!DNL RampIDs] to create targetable segments. Your DSP account team will perform this configuration. -->
+1. [允许DSP将客户数据区段转换为 [!DNL LiveRamp RampIDs]](source-durable-id.md) 在竞价环境中可识别的其他资源。<!-- I don't think I need this here: This requires DSP account-level and campaign-level settings to enable segment sharing with [!DNL LiveRamp], which will translate customer data to [!DNL RampIDs] to create targetable segments. Your Adobe Account Team will perform this configuration. -->
 
 1. [创建受众源](source-create.md) 将受众导入您的DSP帐户或广告商帐户。
 
