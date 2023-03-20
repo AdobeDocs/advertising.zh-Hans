@@ -2,14 +2,14 @@
 title: 关于通用视频的常见问题解答
 description: 了解有关通用视频广告的更多信息。
 feature: DSP Placements, DSP Ads
-source-git-commit: 8e0237355e834f4ae2b9ef1ed211e047b41cafe7
+source-git-commit: fe5340cbf495eb9498d89c18080307464d4067d9
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
 
-# #有关通用视频的常见问题解答
+# 有关通用视频的常见问题解答
 
 ## 如何创建通用视频投放和广告？
 
@@ -23,7 +23,11 @@ ht-degree: 0%
 
 1. 在与通用视频投放相同的营销活动中， [创建单个通用视频广告](/help/dsp/campaign-management/ads/ad-create.md) 或 [创建多个通用视频广告](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
-   如果创建多个广告，请确保指定“[!UICONTROL Universal Video]”作为 [!UICONTROL Ad Type]. 对于 [!DNL Google] 或 [!DNL Flashtalking] 广告，在上传文件后，单击[!UICONTROL Review ad types]”步骤并对其进行编辑。 对于其他类型的广告标记，请在您上传的电子表格文件中指定广告类型。
+   如果创建多个广告，请确保指定“[!UICONTROL Universal Video]”作为 [!UICONTROL Ad Type]:
+
+   * 对于 [!DNL Google] 或 [!DNL Flashtalking] 广告：在“[!UICONTROL Review ad types]“ ”步骤，单击 **[!UICONTROL Ad Type]** 字段和选择 **[!UICONTROL Universal Video]**.
+
+   * 对于其他类型的广告标记：在您上传的电子表格文件中，将每个广告的“广告类型”字段指定为 **[!UICONTROL Universal Video]**.
 
 1. [打开广告设置](/help/dsp/campaign-management/ads/ad-edit.md) 对于每个新广告，选择适用的视频格式：
 
