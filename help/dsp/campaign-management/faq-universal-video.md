@@ -2,9 +2,9 @@
 title: 关于通用视频的常见问题解答
 description: 了解有关通用视频广告的更多信息。
 feature: DSP Placements, DSP Ads
-source-git-commit: fe5340cbf495eb9498d89c18080307464d4067d9
+source-git-commit: 58cbb5b85a1dc790aaf762ba55fd2badeef6fe68
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 1. 在所需的营销活动中， [创建通用视频版面](/help/dsp/campaign-management/placements/placement-create.md)，选择 [!UICONTROL Placement Type] **[!UICONTROL Universal Video]**.
 
-   您需要至少指定一个环境（桌面、移动设备、连接的电视）来定位。
+   您必须至少指定一个环境（桌面、移动设备、连接的电视）来定位。
 
 1. 在与通用视频投放相同的营销活动中， [创建单个通用视频广告](/help/dsp/campaign-management/ads/ad-create.md) 或 [创建多个通用视频广告](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
@@ -47,8 +47,8 @@ ht-degree: 0%
 
 使用 **[!UICONTROL VAST]** 在以下任一情况下：
 
-* 该位置将针对连接的电视内容库。
-* 该位置将针对Google广告管理器、Appnexus、SpotX或Freewheel中的视频库存。 这些SSP不支持VPAID和VAST视频格式。
+* 投放目标是连接的电视内容。
+* 该位置定位来自Google Ad Manager、Appnexus、SpotX或Freewheel的视频内容。 这些SSP不支持VPAID和VAST视频格式。
 
 ## 是否可以将多个通用视频广告附加到同一通用视频位置？
 
