@@ -3,9 +3,9 @@ title: 通用视频广告设置
 description: 请参阅通用视频广告的可用广告设置描述。
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 0c9e9c8d2a3444c623568d25262421be53c0c846
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # 通用视频广告设置
 
 *开放测试版功能*
+
+>[!NOTE]
+>
+>通用视频广告只能附加到通用视频投放。
 
 ## [!UICONTROL Insert Ad Tag]
 
@@ -50,7 +54,7 @@ ht-degree: 0%
 
 **[!UICONTROL Video Format]:** 潜在清单的广告播放器的格式： *[!UICONTROL VPAID]*, *[!UICONTROL VPAID & VAST]*&#x200B;或 *[!UICONTROL VAST]*. 可视性始终以 [!UICONTROL VPAID]，但 [!UICONTROL VPAID & VAST] 包括不允许可视性测量的库存。 如果可见性量度对您的营销活动很重要，请考虑这一区别。
 
-使用 *[!UICONTROL VAST]*，当您定位的连接电视或清单仅严格要求使用VAST格式时(通常来自诸如Google Ad Manager、Appnexus、SpotX和Freewheel之类的供应源)，则不允许进行可视性测量。
+使用 [!UICONTROL VAST]，当您定位的连接电视或清单仅严格要求使用VAST格式时(通常来自诸如Google Ad Manager、Appnexus、SpotX和Freewheel之类的供应源)，则不允许进行可视性测量。 此外，还可以将此选项用于以前与标准前置广告(VAST)或手机+平板电脑标准前置广告(VAST)投放/广告兼容的库存。
 
 **[!UICONTROL Clock Number]**:(仅在英国使用；仅供具有权限的用户使用)用于确保广播正确广告的唯一标识符。 如果此设置不适用，请将其留空。
 
@@ -72,6 +76,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
+>* [关于通用视频的常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)
 >* [关于广告管理](ad-about.md)
 >* [创建单个广告](ad-create.md)
 >* [列出与广告关联的版面](/help/dsp/campaign-management/ads/ad-list-placements.md)

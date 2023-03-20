@@ -3,9 +3,9 @@ title: 创建版面
 description: 了解如何创建版面。
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 0b8162a757c9695504ffdfdc450ed7254d823825
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '664'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 1. 输入 [版面设置](placement-settings.md):
 
-   1. 指定 [!UICONTROL Basics] 设置。
+   1. 指定 [!UICONTROL Placement Basics] 设置。
 
    1. 在 [!UICONTROL Goals] 部分，指定 [!UICONTROL Gross Budget] （可选）指定其他版面目标。
 
@@ -53,10 +53,10 @@ ht-degree: 1%
       1. 缩小受众范围。 这包括选择要在版面中定位的受众区段。
 
          对于 [!DNL Roku] 版面，您可以 [DSP独特受众与 [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) ，方法是包含一个或多个可与之匹配的受众区段 [!DNL Roku] （选择启用）确定性数据集。
-   1. (适用于具有人员级别跨设备定位的营销活动；（可选）当版面定向一个或多个特定受众时，为版面启用基于人员的跨设备定位。
 
-      提供基于人员的跨设备定位 [!DNL LiveRamp] 仅使用美国数据。 对于使用 [!DNL LiveRamp] 设备图（即，在目标受众区段中未找到的设备）。
+      1. (适用于具有人员级别跨设备定位的营销活动；（可选）当版面定向一个或多个特定受众时，为版面启用基于人员的跨设备定位。
 
+         提供基于人员的跨设备定位 [!DNL LiveRamp] 仅使用美国数据。 对于使用 [!DNL LiveRamp] 设备图（即，在目标受众区段中未找到的设备）。
    1. （可选）在 [!DNL Brand Safety and Media Targeting] 文章中，对您的版面应用品牌安全限制。
 
    1. （可选）在 [!DNL Tracking] 部分，为投放中的广告输入第三方事件像素或转化像素。
@@ -79,6 +79,9 @@ ht-degree: 1%
          1. 单击 **[!UICONTROL Create a New Ad].**
 
          1. 指定的广告设置 [音频广告](/help/dsp/campaign-management/ads/ad-settings-audio.md), [连接电视](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [展示广告](/help/dsp/campaign-management/ads/ad-settings-display.md), [移动广告](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [本机广告](/help/dsp/campaign-management/ads/ad-settings-native.md), [前置广告](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)或 [通用视频广告](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
+         >[!NOTE]
+         >
+         >通用视频投放只能包含通用视频广告。
 
          1. 单击 **[!UICONTROL Save & Submit for Review]**.
 
@@ -86,43 +89,44 @@ ht-degree: 1%
 
          1. 如果不附加任何现有广告，请单击 **[!UICONTROL I'm done for now]**.
       * 要在营销活动中附加现有广告，请执行以下操作：
+      1. 单击 **[!UICONTROL Select an Ad]**.
 
-         1. 单击 **[!UICONTROL Select an Ad]**.
+      1. 执行以下任一操作：
+
+         * 要一次添加一个广告，请执行以下操作：
+
+            1. 在广告名称旁边，单击 **[!UICONTROL Select].**
+
+            1. （可选）对于要附加的每个其他广告，单击 **[!UICONTROL Attach Another Ad]**，然后重复该过程。
+         * 要一次最多添加20个广告，请执行以下操作：
+
+            1. 选中广告列表上方的复选框。
+
+            1. 选中要添加的每个广告旁边的复选框。
+
+            1. 单击 **[!UICONTROL Attach]**.
+
+            1. 在广告名称旁边，单击 **[!UICONTROL Select]**.
+      1. （可选）要覆盖版面中特定广告的默认投放期和广告轮换：
+
+         1. 单击 **[!UICONTROL Custom Schedule Ads]**.
 
          1. 执行以下任一操作：
 
-            * 要一次添加一个广告，请执行以下操作：
+            * 要添加投放，请单击 **[!UICONTROL Add Flight]**，然后指定开始日期和结束日期。
 
-               1. 在广告名称旁边，单击 **[!UICONTROL Select].**
+            * 要向广告添加现有投放，请单击 **[!UICONTROL +]** 在投放列的广告行中。
 
-               1. （可选）对于要附加的每个其他广告，单击 **[!UICONTROL Attach Another Ad]**，然后重复该过程。
-            * 要一次最多添加20个广告，请执行以下操作：
+            * 要从广告中删除现有投放，请单击 **[!UICONTROL x]** 在投放列的广告行中。
 
-               1. 选中广告列表上方的复选框。
+            * （当多个广告具有相同的投放时）要使广告旋转不均匀，请单击 **[!UICONTROL Even Rotation]** ，然后以百分比形式输入每个广告的旋转相对权重。
 
-               1. 选中要添加的每个广告旁边的复选框。
+               总重量必须等于100。
+         1. 在右上方，单击 **[!UICONTROL Continue]**.
 
-               1. 单击 **[!UICONTROL Attach]**.
+         1. 查看投放详细信息，然后单击 **[!UICONTROL Save & Finish]**.
 
-               1. 在广告名称旁边，单击 **[!UICONTROL Select]**.
-         1. （可选）要覆盖版面中特定广告的默认投放期和广告轮换：
 
-            1. 单击 **[!UICONTROL Custom Schedule Ads]**.
-
-            1. 执行以下任一操作：
-
-               * 要添加投放，请单击 **[!UICONTROL Add Flight]**，然后指定开始日期和结束日期。
-
-               * 要向广告添加现有投放，请单击 **[!UICONTROL +]** 在投放列的广告行中。
-
-               * 要从广告中删除现有投放，请单击 **[!UICONTROL x]** 在投放列的广告行中。
-
-               * （当多个广告具有相同的投放时）要使广告旋转不均匀，请单击 **[!UICONTROL Even Rotation]** ，然后以百分比形式输入每个广告的旋转相对权重。
-
-                  总重量必须等于100。
-            1. 在右上方，单击 **[!UICONTROL Continue]**.
-
-            1. 查看投放详细信息，然后单击 **[!UICONTROL Save & Finish]**.
 
 
 
@@ -136,6 +140,7 @@ ht-degree: 1%
 >* [暂停或激活版面](placement-pause-activate.md)
 >* [查看版面的更改日志](placement-change-log.md)
 >* [版面设置](placement-settings.md)
+>* [关于通用视频的常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)
 >* [键盘快捷键](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [性能疑难解答](/help/dsp/optimization/troubleshooting-performance.md)
 >* [视频：如何创建标准显示版面](https://video.tv.adobe.com/v/340454)

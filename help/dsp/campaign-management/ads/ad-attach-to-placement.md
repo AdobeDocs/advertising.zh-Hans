@@ -3,14 +3,18 @@ title: 将广告附加到版面
 description: 了解如何将广告附加到版面。
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 1f35711c5543974f97ce2a9c35427636c1e5a6a9
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '543'
 ht-degree: 1%
 
 ---
 
 # 将广告附加到版面
+
+>[!NOTE]
+>
+>通用视频广告只能附加到通用视频投放。
 
 ## 从 [!UICONTROL Ads] 查看
 
@@ -132,4 +136,5 @@ ht-degree: 1%
 >* [编辑广告](ad-edit.md)
 >* [列出与广告关联的版面](ad-list-placements.md)
 >* [编辑版面的广告计划](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+>* [关于通用视频的常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)
 
