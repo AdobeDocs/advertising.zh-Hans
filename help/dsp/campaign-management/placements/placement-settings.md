@@ -3,9 +3,9 @@ title: 版面设置
 description: 请参阅可用版面设置的描述。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 251d6a0bed5b4f4b28afc5ecfe666a1e506cd7d5
+source-git-commit: 0836206b41789749a92bd9557a984896e710ec3a
 workflow-type: tm+mt
-source-wordcount: '3421'
+source-wordcount: '3433'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,8 @@ ht-degree: 0%
 **[!UICONTROL Ad specs for forecast]:** （仅限视频广告格式）广告持续时间和/或广告规范，用于计算右侧的预测投影。 字段因广告类型而异。
 
 **[!UICONTROL Environment]:** （仅限通用视频广告格式）要作为目标包含在版面中的设备环境（桌面、移动设备、连接的电视）。 至少指定一个。
+
+在自定义报表中，置入级别的维度“设备环境”表示目标环境。
 
 **[!UICONTROL Placement tags]:** （可选）用于帮助您查找此版面的关键字或昵称。
 

@@ -2,14 +2,14 @@
 title: 关于通用视频的常见问题解答
 description: 了解有关通用视频广告的更多信息。
 feature: DSP Placements, DSP Ads
-source-git-commit: 58cbb5b85a1dc790aaf762ba55fd2badeef6fe68
+source-git-commit: 1740c4ca3f70a0e3edb7e4ebaea0be3f0b731b16
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
 
 ---
 
-# 有关通用视频的常见问题解答
+# 关于通用视频的常见问题解答
 
 ## 如何创建通用视频投放和广告？
 

@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 4b92f880dbb9edf45b9521fb261cfbeb52a27218
+source-git-commit: dc4ff4e836d1fba7fdf54bf3aa8e18dae3c5e24f
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 有关详细信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023年3月20日 | [!UICONTROL Campaigns] | 有关通用视频投放和广告的更多信息，这是一项开放式测试版功能。 | 请参阅“[有关通用视频的常见问题解答](/help/dsp/campaign-management/faq-universal-video.md).&quot; |
 | 2023年2月15日 | [!UICONTROL Campaigns] | 在图表表单中查看更改日志以及向任何条目添加注释的选项不在测试版中。 | 请参阅“[查看营销活动的更改日志](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot;请参阅“[查看包的更改日志](/help/dsp/campaign-management/packages/package-change-log.md)，和请参阅“[查看版面的更改日志](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 2023年2月3日 | [!UICONTROL Campaigns] | （测试版功能）您现在可以以图表形式查看更改日志，并且可以向任何条目添加注释。 | 请参阅“[查看营销活动的更改日志](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot;请参阅“[查看包的更改日志](/help/dsp/campaign-management/packages/package-change-log.md)，和请参阅“[查看版面的更改日志](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 2023年1月25日 | [!UICONTROL Deals] | 在“库存”>“交易”中新增了“PG展示步调”支出列，用于查看为有保证的交易准备的报表。 | 请参阅“[编辑自定义列视图](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
@@ -29,7 +30,7 @@ ht-degree: 0%
 |  |  | An &quot;[!UICONTROL Intraday Pacing]“ ”列在Excel QA电子表格中可用。 | 请参阅“[已下载/已上载电子表格中的列](/help/dsp/campaign-management/qa/qa-sheet-columns.md).&quot; |
 |  |  | An &quot;[!UICONTROL Intraday Pacing]“ ”列在“促销活动”视图中可用。 | 请参阅“[创建自定义列视图](/help/dsp/campaign-management/reports/column-view-create.md)&quot;和&quot;[编辑自定义列视图](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
 |  |  | 您可以通过 [!UICONTROL Intraday Pacing] 设置。 | 请参阅“[过滤营销活动数据](/help/dsp/campaign-management/reports/campaign-data-filter.md).&quot; |
-| 2022年10月6日 | 促销活动 | “促销活动”视图提供了与步调相关的新量度列：“昨天的OTS”（目标支出）、“昨天的投放”、“昨天的目标”、“今天的OTS”（目标支出）、“今天的投放”和“今天的目标”。 | 请参阅“[创建自定义列视图](/help/dsp/campaign-management/reports/column-view-create.md)&quot;和&quot;[编辑自定义列视图](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
+| 2022年10月6日 | 营销活动 | “促销活动”视图提供了与步调相关的新量度列：“昨天的OTS”（目标支出）、“昨天的投放”、“昨天的目标”、“今天的OTS”（目标支出）、“今天的投放”和“今天的目标”。 | 请参阅“[创建自定义列视图](/help/dsp/campaign-management/reports/column-view-create.md)&quot;和&quot;[编辑自定义列视图](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
 | 2022年9月12日 | 包和投放步调 | 现在，可以单独使用步调控制来进行飞行步调和一天内的步调。 以前，单一策略可同时控制这两种策略。 现有包和版面的设置映射如下：<ul><li>旧版 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Even]*  — 现在配置为 **[!UICONTROL Flight pacing]**=*[!UICONTROL Even]* 和 **[!UICONTROL Intraday pacing]**=*[!UICONTROL Even]*</li><li>旧版 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Slightly Ahead]*  — 现在配置为 **[!UICONTROL Flight pacing]**=*[!UICONTROL Slightly Ahead]* 和 **[!UICONTROL Intraday pacing]**=*[!UICONTROL Even]*</li><li>旧版 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Frontload]*  — 现在配置为 **[!UICONTROL Flight pacing]**=*[!UICONTROL Frontload]* 和 **[!UICONTROL Intraday pacing]**=*[!UICONTROL ASAP]*</li><li>旧版 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Aggressive Frontload]*  — 现在配置为 **[!UICONTROL Flight pacing]**=*[!UICONTROL Aggressive Frontload]* 和 **[!UICONTROL Intraday pacing]**=*[!UICONTROL ASAP]*</li></ul> | 请参阅“[包设置](/help/dsp/campaign-management/packages/package-settings.md)&quot;和&quot;[版面设置](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 2022年7月27日 | 库存 | 拍卖分析是一种新的故障诊断工具，它允许您分析有保证和无保证的私人交易的交易构成。 使用数据可视化图表，此工具显示在特定时间段内关键拍卖属性收到的值的趋势和相对比例。<br><br>借助发布者对竞价请求数据的透明度，您可以避免耗时的疑难解答步骤。 | 请参阅“[查看私人交易的拍卖分析](/help/dsp/inventory/private-deal-auction-insights.md).&quot; |
 | 2022年6月29日 | 库存 | 新 [!UICONTROL Inventory] > [!UICONTROL Deals] 视图包含与 [!UICONTROL Campaigns] 视图，包括其他过滤器、列自定义以及用于保存自定义视图、列排序和数据可视化（图表）视图的选项。 通过单击 [!UICONTROL ...] 交易名称之后。 | 请参阅“[库存功能概述](/help/dsp/inventory/inventory-overview.md).&quot; |
@@ -49,7 +50,7 @@ ht-degree: 0%
 |  | [!DNL Freewheel] 程序保证的交易 | 您现在可以提交广告并检查广告的状态 [!DNL Freewheel] 通过 [!UICONTROL Ads] 中。 以前，您只能通过 [!UICONTROL Deals] 中。 | 请参阅“[为程序化保证交易提交广告 [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] 程序化保证交易](/help/dsp/inventory/freewheel-check-status.md).&quot; |
 | 2021年10月7日 | 帮助 | 全部 [DSP和其他Adobe广告文档](https://experienceleague.adobe.com/docs/advertising.html) on [!DNL Experience League] 现在机器已翻译成所有可用语言。 要更改显示的语言，请使用任何页面左下角的“更改语言”菜单。<br>![更改语言](/help/dsp/assets/change-language.png) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- older entries:
 
