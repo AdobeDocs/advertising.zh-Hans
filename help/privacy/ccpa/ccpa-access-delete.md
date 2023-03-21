@@ -3,7 +3,7 @@ title: Adobe对《加州消费者隐私法案》的广告支持：消费者数�
 description: 了解支持的数据请求类型、必需的设置和字段值，以及使用旧版产品ID和返回的数据字段的API访问请求示例。
 feature: CCPA
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: bc0015c134406fb020370def45a8588b5032587e
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Adobe对《加州消费者隐私法案》的广告支持：消费者数据访问和删除支持
 
-*对于 [!DNL Adobe Advertising Search];Adobe广告DSP;Adobe广告创意；和Adobe广告DCO*
+*对于 [!DNL Adobe Advertising Search, Social, & Commerce];Adobe广告DSP;Adobe广告创意；和Adobe广告DCO*
 
 >[!IMPORTANT]
 >
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 作为您的服务提供商，Adobe广告为您的企业提供支持，以履行CCPA规定的适用于Adobe广告产品和服务使用的义务，包括管理访问和删除个人信息的请求以及管理选择退出出售个人信息的请求。
 
-本文档介绍如何 [!DNL Advertising Search];广告创意；Advertising DSP(Demand Side Platform);和 [!DNL Advertising DCO]  — 作为服务提供商 — 支持消费者使用Adobe访问和删除个人信息的权利 [!DNL Experience Platform Privacy Service API] 和 [!DNL Privacy Service UI].
+本文档介绍如何 [!DNL Advertising Search, Social, & Commerce];广告创意；Advertising DSP(Demand Side Platform);和 [!DNL Advertising DCO]  — 作为服务提供商 — 支持消费者使用Adobe访问和删除个人信息的权利 [!DNL Experience Platform Privacy Service API] 和 [!DNL Privacy Service UI].
 
 有关Advertising DSP如何支持消费者选择退出出售个人信息的权利的信息，请参阅 [Adobe对《加州消费者隐私法案》的广告支持：消费者选择退出支持](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
@@ -34,8 +34,8 @@ ht-degree: 0%
 
 Adobe Experience Platform为企业提供了完成以下任务的功能：
 
-* 在 [!DNL Search], [!DNL Creative], [!DNL DSP]或 [!DNL DCO].
-* 删除中存储的Cookie级数据 [!DNL Search], [!DNL Creative], [!DNL DSP]或 [!DNL DCO] 对于使用浏览器的消费者；或删除存储在 [!DNL DSP] 适用于在移动设备上使用应用程序的消费者。
+* 在 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]或 [!DNL DCO].
+* 删除中存储的Cookie级数据 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]或 [!DNL DCO] 对于使用浏览器的消费者；或删除存储在 [!DNL DSP] 适用于在移动设备上使用应用程序的消费者。
 * 检查一个或多个现有请求的状态。
 
 ## 发送Adobe广告请求所需的设置
@@ -54,7 +54,7 @@ Adobe Experience Platform为企业提供了完成以下任务的功能：
 
    >[!NOTE]
    >
-   >删除个人数据与选择退出不同，退出后会阻止使用受众区段的最终用户进行定位。 但是，当消费者要求从 [!DNL Creative], [!DNL DSP]或 [!DNL DCO]，该库还会向Adobe广告发送请求，以选择退出客户区段定位。 对于具有 [!DNL Search]，我们建议您为客户提供一个指向 [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse)，其中说明了如何选择退出受众区段定位。
+   >删除个人数据与选择退出不同，退出后会阻止使用受众区段的最终用户进行定位。 但是，当消费者要求从 [!DNL Creative], [!DNL DSP]或 [!DNL DCO]，该库还会向Adobe广告发送请求，以选择退出客户区段定位。 对于具有 [!DNL Search, Social, & Commerce]，我们建议您为客户提供一个指向 [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse)，其中说明了如何选择退出受众区段定位。
 
 1. 识别您的Experience Cloud组织ID，并确保它已关联到您的Adobe广告帐户。
 
@@ -62,7 +62,7 @@ Adobe Experience Platform为企业提供了完成以下任务的功能：
 
    >[!IMPORTANT]
    >
-   >联系贵公司的Adobe广告代表，以确认贵组织的所有Adobe广告帐户(包括 [!DNL DSP] 帐户或广告商， [!DNL Search] 帐户和 [!DNL Creative] 或 [!DNL DCO] 帐户 — 已关联到您的Experience Cloud组织ID。
+   >联系贵公司的Adobe广告代表，以确认贵组织的所有Adobe广告帐户(包括 [!DNL DSP] 帐户或广告商， [!DNL Search, Social, & Commerce] 帐户和 [!DNL Creative] 或 [!DNL DCO] 帐户 — 已关联到您的Experience Cloud组织ID。
 
 1. 使用 [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （对于自动请求）或 [Privacy ServiceUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) （对于临时请求）代表消费者向Adobe广告提交访问和删除个人信息的请求，并检查现有请求的状态。
 
@@ -73,7 +73,7 @@ Adobe Experience Platform为企业提供了完成以下任务的功能：
    在您提交消费者删除请求时，Cookie ID或设备ID以及与Cookie关联的所有成本、点击和收入数据都会从服务器中删除。
 
    >[!NOTE]
-   如果您的企业具有多个Experience Cloud组织ID，则必须为每个IP发送单独的API请求。 但是，您可以向多个Adobe广告子解决方案([!DNL Search], [!DNL Creative], [!DNL DSP]和 [!DNL DCO])，每个子解决方案具有一个帐户。
+   如果您的企业具有多个Experience Cloud组织ID，则必须为每个IP发送单独的API请求。 但是，您可以向多个Adobe广告子解决方案([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]和 [!DNL DCO])，每个子解决方案具有一个帐户。
 
 要从Adobe广告获得支持，所有这些步骤都是必需的。 有关使用Adobe Experience Platform Privacy Service执行这些任务和其他相关任务以及在何处查找所需项目的更多信息，请参阅 [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 

@@ -3,7 +3,7 @@ title: 优化
 description: 了解有关优化功能的更多信息。
 feature: DSP Introduction, DSP Optimization
 exl-id: c60e58e7-ab16-49bd-9acf-e5b858755493
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Advertising DSP会在两个阶段中优化您最关心的量度。 首先，它会根据资源包的优化目标，将支出转移到表现最佳的投放或策略上。 其次，它可实时调整竞价，以反映平衡的时刻经济价值a)需要用b)您选择的KPI来全面交付预算。 这些优化阶段共同确保您的预算得到有效利用，以实现营销活动目标。
 
-对于每个版面和包，您可以选择一个优化目标。 可用的优化目标包括预设选项，例如“[!UICONTROL Lowest Cost per Click]、”和您在 [!DNL Adobe Advertising Search].
+对于每个版面和包，您可以选择一个优化目标。 可用的优化目标包括预设选项，例如“[!UICONTROL Lowest Cost per Click]、”和您在 [!DNL Advertising Search, Social, & Commerce].
 
 >[!MORELIKETHIS]
 >

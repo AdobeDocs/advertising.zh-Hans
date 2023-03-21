@@ -3,7 +3,7 @@ title: Adobe对《通用数据保护条例》的广告支持
 description: 了解支持的数据请求类型、必需的设置和字段值，以及使用旧版产品ID和返回的数据字段的API访问请求示例
 feature: GDPR
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 7c5472ee97635039a635bcdbd4e0cc384fd04299
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Adobe对《通用数据保护条例》的广告支持
 
-*对于 [!DNL Adobe Advertising Search];Adobe广告DSP;Adobe广告创意；和Adobe广告DCO*
+*对于 [!DNL Adobe Advertising Search, Social, & Commerce];Adobe广告DSP;Adobe广告创意；和Adobe广告DCO*
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Adobe Experience Cloud充当数据处理者，处理其代表客户接收和存储的任何个人数据。 作为数据控制者，您可以决定Adobe Experience Cloud代表您处理和存储的个人数据。
 
-本文档介绍如何 [!DNL Advertising Search];广告创意；Advertising DSP(Demand Side Platform);和 [!DNL Advertising DCO] 使用Adobe Experience Platform Privacy Service API和Privacy ServiceUI支持数据主体的GDPR数据访问和删除权限。
+本文档介绍如何 [!DNL Advertising Search, Social, & Commerce];广告创意；Advertising DSP(Demand Side Platform);和 [!DNL Advertising DCO] 使用Adobe Experience Platform Privacy Service API和Privacy ServiceUI支持数据主体的GDPR数据访问和删除权限。
 
 有关GDPR对您业务的意义的更多信息，请参阅 [GDPR与您的业务](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
@@ -30,8 +30,8 @@ Adobe Experience Cloud充当数据处理者，处理其代表客户接收和存�
 
 Adobe Experience Platform为企业提供了完成以下任务的功能：
 
-* 在 [!DNL Search], [!DNL Creative], [!DNL DSP]或 [!DNL DCO].
-* 删除中存储的Cookie级数据 [!DNL Search], [!DNL Creative], [!DNL DSP]或 [!DNL DCO] 对于使用浏览器的数据主体；或删除存储在 [!DNL DSP] 适用于在移动设备上使用应用程序的数据主体。
+* 在 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]或 [!DNL DCO].
+* 删除中存储的Cookie级数据 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]或 [!DNL DCO] 对于使用浏览器的数据主体；或删除存储在 [!DNL DSP] 适用于在移动设备上使用应用程序的数据主体。
 * 检查一个或多个现有请求的状态。
 
 ## 发送Adobe广告请求所需的设置
@@ -50,7 +50,7 @@ Adobe Experience Platform为企业提供了完成以下任务的功能：
 
    >[!NOTE]
    >
-   >删除个人数据与选择退出不同，选择退出会阻止使用受众区段的最终用户进行定位。 但是，当数据主体要求从 [!DNL Creative], [!DNL DSP]或 [!DNL DCO]，该库还会向Adobe广告发送请求，以从区段定位中选择禁用数据主体。 对于具有 [!DNL Search]，我们建议您向数据主体提供一个链接 [https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html)，其中说明了如何选择退出受众区段定位。
+   >删除个人数据与选择退出不同，选择退出会阻止使用受众区段的最终用户进行定位。 但是，当数据主体要求从 [!DNL Creative], [!DNL DSP]或 [!DNL DCO]，该库还会向Adobe广告发送请求，以从区段定位中选择禁用数据主体。 对于具有 [!DNL Search, Social, & Commerce]，我们建议您向数据主体提供一个链接 [https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html)，其中说明了如何选择退出受众区段定位。
 
 1. 识别您的Experience Cloud组织ID，并确保它已关联到您的Adobe广告帐户。
 
@@ -58,7 +58,7 @@ Adobe Experience Platform为企业提供了完成以下任务的功能：
 
    >[!IMPORTANT]
    >
-   >联系贵公司的Adobe广告代表，以确认贵组织的所有Adobe广告帐户(包括 [!DNL DSP] 帐户或广告商， [!DNL Search] 帐户和 [!DNL Creative] 或 [!DNL DCO] 帐户 — 已关联到您的Experience Cloud组织ID。
+   >联系贵公司的Adobe广告代表，以确认贵组织的所有Adobe广告帐户(包括 [!DNL DSP] 帐户或广告商， [!DNL Search, Social, & Commerce] 帐户和 [!DNL Creative] 或 [!DNL DCO] 帐户 — 已关联到您的Experience Cloud组织ID。
 
 1. 使用 [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （对于自动请求）或 [Privacy ServiceUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) （对于临时请求）代表数据主体向Adobe广告提交访问和删除请求，并检查现有请求的状态。
 
@@ -69,7 +69,7 @@ Adobe Experience Platform为企业提供了完成以下任务的功能：
    在您提交数据主体的删除请求时，将从服务器中删除Cookie ID或设备ID以及与Cookie关联的所有成本、点击和收入数据。
 
    >[!NOTE]
-   如果您的公司有多个Experience Cloud组织ID，则必须为每个IP发送单独的API请求。 但是，您可以向多个Adobe广告子解决方案([!DNL Search], [!DNL Creative], [!DNL DSP]和 [!DNL DCO])，每个子解决方案具有一个帐户。
+   如果您的公司有多个Experience Cloud组织ID，则必须为每个IP发送单独的API请求。 但是，您可以向多个Adobe广告子解决方案([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]和 [!DNL DCO])，每个子解决方案具有一个帐户。
 
 所有这些步骤对于Adobe广告都是必需的。 有关使用Adobe Experience Platform Privacy Service执行这些任务和其他相关任务以及在何处查找所需项目的更多信息，请参阅 [www.adobe.io/apis/cloudplatform/gdpr.html](https://www.adobe.io/apis/experienceplatform/gdpr.html).
 

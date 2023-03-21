@@ -3,7 +3,7 @@ title: Adobe广告可接受的运行状况区段
 description: 请参阅与健康相关的可接受受众区段和策略的准则，以作为定位与健康相关的受众区段的替代方法。
 feature: Policies
 exl-id: 121129e3-3d4b-4478-9cfd-cb16c1eb67de
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Adobe广告可接受的运行状况区段指南
 
-*对于Adobe广告DSP和[!DNL Adobe Advertising Search]*
+*对于Adobe广告DSP和[!DNL Adobe Advertising Search, Social, & Commerce]*
 
 以下准则概述了与健康相关的不可接受和可接受的受众区段。 他们还建议使用策略来替代定位与健康相关的受众区段。
 

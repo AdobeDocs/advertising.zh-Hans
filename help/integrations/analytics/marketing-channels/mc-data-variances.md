@@ -3,7 +3,7 @@ title: 渠道数据为何会因Adobe广告和 [!DNL Marketing Channels]
 description: 了解为何AMO ID跟踪的渠道数据会因跟踪的渠道数据而有所不同 [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 72e3aa1e-85ed-485a-b93f-5e67dd0140ce
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    的 [!DNL Analytics] [!UICONTROL Marketing Channel] 因此，维度配置为捕获和跟踪所有渠道。 [!DNL Marketing Channels] 还可以配置为捕获DSP显示点进次数和点进次数，并且这与其他营销渠道相关。
 
-* Adobe广告AMO ID:Adobe广告AMO ID数据的主要用例是为高级 [!DNL Adobe Sensei]竞价算法。 这些算法会自动做出每天成千上万个微观层面的竞价决策，以最大化广告支出并实现 [!DNL DSP] 营销活动或 [!DNL Search] 组合。 算法可以将促销活动连接到的转化数据越多，算法就越能做出这些竞价决策。
+* Adobe广告AMO ID:Adobe广告AMO ID数据的主要用例是为高级 [!DNL Adobe Sensei]竞价算法。 这些算法会自动做出每天成千上万个微观层面的竞价决策，以最大化广告支出并实现 [!DNL DSP] 营销活动或 [!DNL Search, Social, & Commerce] 组合。 算法可以将促销活动连接到的转化数据越多，算法就越能做出这些竞价决策。
 
    要收集此数据，请 [!DNL Analytics for Advertising] 集成会传递原始AMO ID，这些ID可在Adobe Analytics的AMO ID维度中转换为点进和显示跟踪代码，该维度存储为自定义变量(eVar)或保留变量(rVar)。 AMO ID维度中未设置其他渠道的点进次数，因此AMO ID维度无法跟踪来自这些其他渠道的登入。 结果，AMO ID会在 [!DNL Marketing Channels] 入口点。
 
