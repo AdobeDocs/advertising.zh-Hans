@@ -2,7 +2,7 @@
 title: 关于通用视频的常见问题解答
 description: 了解有关通用视频广告的更多信息。
 feature: DSP Placements, DSP Ads
-source-git-commit: 17a47e9d7ddb18b36da998d289f949e540beded8
+source-git-commit: 2caacfcbdb3c9d0d91ca26829de5829654f9ab8a
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 关于通用视频的常见问题解答
 
-[通用视频广告](/help/dsp/campaign-management/ads/ad-about.md) 允许您使用单个视频版面，在桌面、移动设备和连接的电视环境中为VPAID和VAST内容定位视频内容库。
+[通用视频广告](/help/dsp/campaign-management/ads/ad-about.md#ad-types) 允许您使用单个视频版面，在桌面、移动设备和连接的电视环境中为VPAID和VAST内容定位视频内容库。
 
 ## 如何创建通用视频投放和广告？
 
