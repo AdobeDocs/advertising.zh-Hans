@@ -2,20 +2,22 @@
 title: 关于通用视频的常见问题解答
 description: 了解有关通用视频广告的更多信息。
 feature: DSP Placements, DSP Ads
-source-git-commit: 1740c4ca3f70a0e3edb7e4ebaea0be3f0b731b16
+source-git-commit: 17a47e9d7ddb18b36da998d289f949e540beded8
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
 # 关于通用视频的常见问题解答
 
+[通用视频广告](/help/dsp/campaign-management/ads/ad-about.md) 允许您使用单个视频版面，在桌面、移动设备和连接的电视环境中为VPAID和VAST内容定位视频内容库。
+
 ## 如何创建通用视频投放和广告？
 
 通用视频投放只能包含通用视频广告，通用视频广告只能附加到通用视频投放。
 
-创建它们的方式与创建其他类型的版面和视频的方式类似：
+创建通用视频投放和广告的方式与创建其他类型的投放和视频的方式类似：
 
 1. 在所需的营销活动中， [创建通用视频版面](/help/dsp/campaign-management/placements/placement-create.md)，选择 [!UICONTROL Placement Type] **[!UICONTROL Universal Video]**.
 
