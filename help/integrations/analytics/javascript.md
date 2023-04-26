@@ -3,7 +3,7 @@ title: 适用于的JavaScript代码 [!DNL Analytics for Advertising]
 description: 适用于的JavaScript代码 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 96b71e8c99ee30254b4bdc4ef0cb8af359f64c5e
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 0%
@@ -54,7 +54,7 @@ JavaScript库包含两行，允许 [!DNL Analytics] 和Adobe广告以相互通�
 
 ### 代码放置位置
 
-的 [!DNL Analytics for Advertising] JavaScript函数必须位于Experience CloudID服务之后，但位于您的Analytics App Measurement代码之前，以便补充ID(`SDID`)或 `[!DNL StitchID]` 可包含在Analytics调用中。
+的 [!DNL Analytics for Advertising] JavaScript函数必须位于Experience CloudID服务之后，但位于您的Analytics App Measurement代码之前。 这可确保补充ID(`SDID`)或 `[!DNL StitchID]` 包含在您的Analytics调用中。
 
 ![代码放置](/help/integrations/assets/a4adc-code-placement.png)
 
