@@ -3,16 +3,14 @@ title: 受众源设置
 description: 了解受众源的设置。
 feature: DSP Audiences
 exl-id: 274ea502-ad15-4d3d-922a-17caddb87f69
-source-git-commit: 9ca42d078c0d0b6a08d521c8465eca69c2affce5
+source-git-commit: 4dbc2331570f6ab88a224e25a78532c10df9d311
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
 
 # 受众源设置
-
-*测试版功能*
 
 **[!UICONTROL Data Visibility Level]:** 区段是否可供具有帐户访问权限的单个广告商使用(*[!UICONTROL Advertiser]*)或向有权访问帐户的所有广告商发送 *[!UICONTROL Account]*.
 
