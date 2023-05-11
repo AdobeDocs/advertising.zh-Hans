@@ -1,9 +1,9 @@
 ---
 title: 关于 [!UICONTROL Household] 报表
 description: 进一步了解 [!UICONTROL Household] 报表，包括与其他报表和疑难解答有何不同。
-source-git-commit: d88ea4ab2ad4a2ee54475346a24724b766b024fc
+source-git-commit: 95f81dafbe13f40487bad47f7dd41a6c80c589ee
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -34,15 +34,15 @@ ht-degree: 0%
 
 ## 重叠量度和非重叠量度之间有何区别？
 
-下图显示了三个促销活动（A、B和C）的三个量度(独特家庭、增量家庭和增量家庭（重叠）)。
+下图显示了三个促销活动（A、B和C）的三个量度(独特家庭到达、增量家庭到达和增量家庭（重叠）)。
 
 ![家庭重叠量度的插图](/help/dsp/assets/household-overlap-metrics-illustration.png "家庭重叠量度的插图")
 
-* “已达到的独特家庭（总数）”提供每个营销活动或每个圈子的总区域所达到的独特家庭。 在图中，A所达到的独特家庭= A +(A+C)+(A+B)+(A+B+C)所达到的增量家庭
+* “已达到的独特家庭（总数）”提供每个营销活动或每个圈子的总区域所达到的独特家庭。 在图中，A所达到的独特家庭= A +(A+B)+(A+C)+(A+B+C)所达到的增量家庭
 
-* Incremental Houdel Remained（增量家庭已实现）是仅通过活动实现的独特家庭。 在该图中，A、B、C所达到的增量家庭是A、B、C所达到的增量家庭。
+* Incremental Houdel Remained（增量家庭已实现）是仅通过活动实现的独特家庭。 在该图中，A、B、C所达到的增量家庭分别为A、B、C所达到的增量家庭。
 
-* 增量家庭（重叠）是指通过促销活动或促销活动组合实现的独特家庭。 在图中，A、C所达到的增量家庭是A+C。
+* 增量家庭（重叠）是指通过促销活动或促销活动组合实现的独特家庭。 在图中，A、C所达到的增量家庭为A+C。
 
 ## 工作流
 
