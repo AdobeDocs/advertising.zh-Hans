@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: dc4ff4e836d1fba7fdf54bf3aa8e18dae3c5e24f
+source-git-commit: f8523b9157eb13ea0999d10dd19e9645906c50d0
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 有关详细信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023年3月 | [!UICONTROL Reports] | 新 [!UICONTROL Household Report] 根据IP地址，而不是设备/Cookie级别，在家庭级别显示不同维度的展示次数、访问次数和频度。 该报表包括九个维度： [!UICONTROL Campaign], [!UICONTROL Package], [!UICONTROL Placement], [!UICONTROL Site/Apps], [!UICONTROL Media Type], [!UICONTROL Device], [!UICONTROL Audience], [!UICONTROL Creative Length]，以及用户创建的 [!UICONTROL Tags]. | 请参阅“[关于报表](/help/dsp/reports/report-about.md), &quot;[报表设置](/help/dsp/reports/report-settings.md)、和[关于 [!UICONTROL Household] 报表](/help/dsp/reports/faq-household-report.md).&quot; |
 | 2023年3月20日 | [!UICONTROL Campaigns] | 有关通用视频投放和广告的更多信息，这是一项开放式测试版功能。 | 请参阅“[有关通用视频的常见问题解答](/help/dsp/campaign-management/faq-universal-video.md).&quot; |
 | 2023年2月15日 | [!UICONTROL Campaigns] | 在图表表单中查看更改日志以及向任何条目添加注释的选项不在测试版中。 | 请参阅“[查看营销活动的更改日志](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot;请参阅“[查看包的更改日志](/help/dsp/campaign-management/packages/package-change-log.md)，和请参阅“[查看版面的更改日志](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 2023年2月3日 | [!UICONTROL Campaigns] | （测试版功能）您现在可以以图表形式查看更改日志，并且可以向任何条目添加注释。 | 请参阅“[查看营销活动的更改日志](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot;请参阅“[查看包的更改日志](/help/dsp/campaign-management/packages/package-change-log.md)，和请参阅“[查看版面的更改日志](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |

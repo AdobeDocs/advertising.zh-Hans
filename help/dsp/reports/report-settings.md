@@ -3,9 +3,9 @@ title: 自定义报表设置
 description: 请参阅自定义报表设置的描述。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 2e0240ff1b342d5a0564e01ebec3ee313b488b59
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]** 报表名称。 最大长度为180个字符。
 
-**[!UICONTROL Report Type]** 报表类型： *[!UICONTROL Custom]* （其中包括大多数可用选项）， *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*&#x200B;或 *[!UICONTROL Site]*.
+**[!UICONTROL Report Type]** 报表类型： *[!UICONTROL Custom]* （其中包括大多数可用选项）， *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, *[!UICONTROL Site]*&#x200B;或 *[!UICONTROL Household]*.
 
 ## [!UICONTROL Apply Filters] 区域
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Last Calendar Month]:** 包括上一个日历月的数据。
 
-**[!UICONTROL Add Filters]:** （可选）用于过滤数据的其他维度，无论这些维度是否作为列包含在报表中： *[!UICONTROL Account]*,\* *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Placement]*, *[!UICONTROL Ad]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Video]*, *[!UICONTROL Video Duration]*, *[!UICONTROL Country]*&#x200B;和 *[!UICONTROL Package]*.
+**[!UICONTROL Add Filters]:** （可选）用于过滤数据的其他维度，无论这些维度是否作为列包含在报表中。 可用的过滤器因报表类型而异，可能包括： *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]*&#x200B;和 *[!UICONTROL Video Duration]*.
 
 \* *[!UICONTROL Account]* 仅当贵组织在 [跨帐户报告](report-about.md#cross-account-reporting):  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)]和 [!UICONTROL Conversion]. 请联系您的Adobe客户团队，以了解有关跨帐户报告的更多信息。
 
@@ -42,12 +42,25 @@ ht-degree: 0%
 
 ## [!UICONTROL Build Your Report] 区域
 
-**[!UICONTROL Select To Add As Report Headers]:**  要包含在报表中的数据列或标题。 要添加列，请展开类别，然后选中列名称旁边的复选框。 所有不可用的量度均被禁用。 可用的数据类别包括：
+**[!UICONTROL Select To Add As Report Headers]:**  要包含在报表中的数据列或标题。 要添加列，请展开类别，然后选中列名称旁边的复选框。 可用列因报表而异，并且所有不可用量度都会被禁用。 可用的数据类别包括：
 
 * [!UICONTROL Dimensions]
+
+   >[!NOTE]
+   >
+   > 的 [!UICONTROL Household] 报表只能包含一个维度。
+
 * [!UICONTROL Metrics]
+
+   >[!NOTE]
+   >
+   >的 [!UICONTROL Household] 报表可以包含重叠量度或非重叠量度，但不能同时包含这两者。
+
 * [!UICONTROL Conversion Metrics] （按广告商排序）
+
 * [!UICONTROL Custom Goals] （按广告商排序）
+
+请参阅“[可用报表列](report-columns.md)“ ”，以了解所有选项的描述。
 
 **[!UICONTROL Drag to Re-Order Report Headers Below]:** 列标题的顺序。 您可以拖放任何列以自定义顺序。
 
