@@ -1,6 +1,6 @@
 ---
-title: 更改列视图
-description: 了解如何更改数据视图。
+title: 變更欄檢視
+description: 瞭解如何變更資料檢視。
 feature: DSP Campaign Data Views
 exl-id: 4fd0c05a-3086-4098-8246-c545f8b4d063
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,16 +10,16 @@ ht-degree: 0%
 
 ---
 
-# 更改列视图
+# 變更欄檢視
 
-* 在视图选择器中，单击 ![向下箭头](/help/dsp/assets/chevron-down.png)，然后单击所需列视图的名称。
+* 在「檢視」選取器中，按一下 ![向下鍵](/help/dsp/assets/chevron-down.png)，然後按一下所需欄檢視的名稱。
 
 >[!MORELIKETHIS]
 >
->* [关于平台内报表](campaign-reports-about.md)
->* [关于Campaign数据视图](campaign-data-views-about.md)
->* [创建自定义列视图](column-view-create.md)
->* [编辑自定义列视图](column-view-edit.md)
->* [过滤营销活动数据](campaign-data-filter.md)
->* [对数据列排序](campaign-data-sort.md)
+>* [關於平台內報表](campaign-reports-about.md)
+>* [關於Campaign資料檢視](campaign-data-views-about.md)
+>* [建立自訂欄檢視](column-view-create.md)
+>* [編輯自訂欄檢視](column-view-edit.md)
+>* [篩選行銷活動資料](campaign-data-filter.md)
+>* [排序資料欄](campaign-data-sort.md)
 

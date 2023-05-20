@@ -1,6 +1,6 @@
 ---
-title: Adobe Advertising 策略和指南
-description: 了解Advertising DSP和Advertising Search的策略和准则。
+title: Adobe Advertising 策略和准则
+description: 瞭解Advertising DSP和Advertising Search的原則和指導方針。
 index: true
 cloud: Experience Cloud
 product: advertising cloud
@@ -11,10 +11,10 @@ ht-degree: 23%
 
 ---
 
-# Adobe Advertising 策略和指南
+# Adobe Advertising 策略和准则
 
-了解Advertising DSP和Advertising Search的策略和准则：
+瞭解Advertising DSP和Advertising Search的原則和指導方針：
 
-* [广告要求策略](/help/policies/ad-requirements-policy.md)
-* [可接受的健康区段指南](/help/policies/health-segment-guidelines.md)
-* [DSP数据使用准则](/help/policies/data-usage-guidelines.md)
+* [廣告需求原則](/help/policies/ad-requirements-policy.md)
+* [可接受的健康狀態區段准則](/help/policies/health-segment-guidelines.md)
+* [DSP資料使用指南](/help/policies/data-usage-guidelines.md)

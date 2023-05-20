@@ -1,6 +1,6 @@
 ---
-title: 在中设置PG交易的概述 [!DNL Freewheel]
-description: 了解在上与出版商进行计划性保证交易的广告所需的先决条件和额外步骤 [!DNL Freewheel].
+title: 在中設定PG交易的概觀 [!DNL Freewheel]
+description: 瞭解在發佈商上使用程式化預留交易進行廣告的必要條件和額外步驟 [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: b9c60248-8104-42ef-8afb-2f9db67b33b0
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
@@ -10,39 +10,39 @@ ht-degree: 0%
 
 ---
 
-# 在中设置程序化保证交易概述 [!DNL Freewheel]
+# 設定程式化預留交易的概述 [!DNL Freewheel]
 
-与出版商建立计划性保证交易 [!DNL Freewheel] 需要额外的权限和步骤。
+與發佈商建立程式化預留交易，於 [!DNL Freewheel] 需要額外的許可權和步驟。
 
 >[!PREREQUISITES]
 >
->与您的Adobe客户团队合作，确保 [!DNL DSP] 帐户具有以下权限：
+>與您的Adobe客戶團隊合作，確保 [!DNL DSP] 帳戶具有下列許可權：
 >
->* 使用 [!DNL FreeWheel] 计划性保证工作流，它需要向提交计划性保证交易的广告 [!DNL FreeWheel].
+>* 使用「 」的許可權 [!DNL FreeWheel] 程式化預留工作流程，此工作流程需要將程式化預留交易的廣告提交至 [!DNL FreeWheel].
 >
->* (如果您与英国出版商合作，这些出版商需要 [!DNL Clearcast] 每个广告的时钟编号)允许在广告中包含时钟编号。
+>* (如果您與英國出版商合作，而對方需要 [!DNL Clearcast] 每個廣告的時鐘編號)在廣告中包含時鐘編號的許可權。
 
 
 ## 工作流
 
-1. 使用交易中指定的媒体类型创建广告。
+1. 使用交易中指定的媒體型別建立廣告。
 
-   对于某些英国出版商，您必须包含 [!DNL Clearcast] 你的广告的时钟号。
+   對於某些英國發行商，您必須包含 [!DNL Clearcast] 您的廣告的時鐘編號。
 
-1. [接受交易编号](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox) 您已在以下日期与出版商进行协商： [!DNL Freewheel] 使用交易ID收件箱。
+1. [接受交易ID](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox) 您已在以下日期與發行者交涉 [!DNL Freewheel] 使用交易ID收件匣。
 
-   接受交易后，按照提示操作，1)选择要用于交易的广告，2)创建一个程序化的保证默认投放位置以提供广告。
+   接受交易後，請依照提示操作： 1)選取要用於交易的廣告，2)建立提供廣告的程式化預留預設位置。
 
-1. [将广告提交到 [!DNL Freewheel]](freewheel-submit.md)
+1. [將廣告提交至 [!DNL Freewheel]](freewheel-submit.md)
 
-   广告必须先提交并批准，然后才能运行。
+   廣告必須先提交並核准，才能執行。
 
-1. [检查广告提交状态](freewheel-check-status.md).
+1. [檢查廣告提交狀態](freewheel-check-status.md).
 
 >[!MORELIKETHIS]
 >
->* [在交易ID收件箱中接受交易](deal-id-inbox-accept.md)
->* [将计划性保证交易的广告提交到 [!DNL Freewheel]](freewheel-submit.md)
->* [检查广告的状态 [!DNL FreeWheel] 计划性保证交易](freewheel-check-status.md)
->* [错误代码 [!DNL Freewheel] 广告提交](freewheel-error-codes.md)
+>* [在交易ID收件匣中接受交易](deal-id-inbox-accept.md)
+>* [提交程式化保證交易的廣告至 [!DNL Freewheel]](freewheel-submit.md)
+>* [檢查廣告的狀態 [!DNL FreeWheel] 程式化預留交易](freewheel-check-status.md)
+>* [的錯誤代碼 [!DNL Freewheel] 廣告提交](freewheel-error-codes.md)
 

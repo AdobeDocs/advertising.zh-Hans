@@ -1,6 +1,6 @@
 ---
-title: 将可重复使用受众的区段键复制到剪贴板
-description: 了解如何查看可重用受众的配置和受众大小。
+title: 將可重複使用對象的區段金鑰複製到剪貼簿
+description: 瞭解如何檢視可重複使用對象的設定和對象規模。
 feature: DSP Audiences
 exl-id: 1e1f45fe-d7f9-4c26-a557-c3d00f74edb8
 source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
@@ -10,29 +10,29 @@ ht-degree: 0%
 
 ---
 
-# 将可重复使用受众的区段键复制到剪贴板
+# 將可重複使用對象的區段金鑰複製到剪貼簿
 
-您可以将受众的字母数字区段键值(ID)复制到剪贴板。 您可以使用区段键 [手动定义区段逻辑](audience-segment-logic-syntax.md) 适用于其他可重复使用的受众。
+您可以將對象的英數字元區段索引鍵(ID)複製到剪貼簿。 您可以使用區段索引鍵來 [手動定義區段邏輯](audience-segment-logic-syntax.md) 適用於其他可重複使用的對象。
 
-1. 在主菜单中，单击 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
+1. 在主功能表中，按一下 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
-1. 将光标悬停在受众行上并单击 **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+1. 將游標停留在對象列上並按一下 **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-1. 将区段键粘贴到任何编辑软件中。
+1. 將區段金鑰貼到任何編輯軟體中。
 
 >[!MORELIKETHIS]
 >
->* [关于受众管理](audience-about.md)
->* [创建可重用受众](reusable-audience-create.md)
->* [复制可重用受众](reusable-audience-duplicate.md)
->* [编辑可重用受众](reusable-audience-edit.md)
->* [查看有关可重用受众的详细信息](reusable-audience-view-details.md)
->* [共享可重用受众](reusable-audience-share.md)
->* [导出可重复使用的受众](reusable-audience-export.md)
->* [删除可重用受众](reusable-audience-delete.md)
->* [共享可重用受众](reusable-audience-share.md)
->* [删除可重用受众](reusable-audience-delete.md)
->* [受众设置](audience-settings.md)
->* [受众区段逻辑的语法](audience-segment-logic-syntax.md)
->* [可用的第三方数据提供商](third-party-data-providers.md)
+>* [關於對象管理](audience-about.md)
+>* [建立可重複使用的對象](reusable-audience-create.md)
+>* [複製可重複使用的對象](reusable-audience-duplicate.md)
+>* [編輯可重複使用的對象](reusable-audience-edit.md)
+>* [檢視可重複使用對象的詳細資訊](reusable-audience-view-details.md)
+>* [共用可重複使用的對象](reusable-audience-share.md)
+>* [匯出可重複使用的對象](reusable-audience-export.md)
+>* [刪除可重複使用的對象](reusable-audience-delete.md)
+>* [共用可重複使用的對象](reusable-audience-share.md)
+>* [刪除可重複使用的對象](reusable-audience-delete.md)
+>* [對象設定](audience-settings.md)
+>* [對象區段邏輯的語法](audience-segment-logic-syntax.md)
+>* [可用的第三方資料提供者](third-party-data-providers.md)
 

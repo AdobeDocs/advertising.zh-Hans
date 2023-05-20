@@ -1,6 +1,6 @@
 ---
-title: 列出与广告关联的版面
-description: 了解如何查看与广告关联的版面。
+title: 列出與廣告相關的版位
+description: 瞭解如何檢視與廣告相關的刊登版位。
 feature: DSP Ads
 exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
@@ -10,19 +10,19 @@ ht-degree: 0%
 
 ---
 
-# 列出与广告关联的版面
+# 列出與廣告相關的版位
 
-查看与广告关联的版面列表以按版面查看性能数据，并根据需要编辑版面设置。
+檢視與廣告相關的版位清單，以按版位檢視效能資料，並視需要編輯版位設定。
 
-1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
-1. 单击营销活动的名称。
-1. 在子菜单中，单击 **[!UICONTROL Ads]**.
-1. 在广告名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL See placements]**.
+1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+1. 按一下行銷活動的名稱。
+1. 在子功能表中，按一下 **[!UICONTROL Ads]**.
+1. 在廣告名稱旁邊，按一下  **[!UICONTROL ...]** > **[!UICONTROL See placements]**.
 
 >[!MORELIKETHIS]
 >
->* [关于广告管理](ad-about.md)
->* [编辑广告](ad-edit.md)
->* [编辑版面](/help/dsp/campaign-management/placements/placement-edit.md)
->* [查看版面的详细报表](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [關於廣告管理](ad-about.md)
+>* [編輯廣告](ad-edit.md)
+>* [編輯位置](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [檢視位置的詳細報表](/help/dsp/campaign-management/placements/placement-view-report.md)
 

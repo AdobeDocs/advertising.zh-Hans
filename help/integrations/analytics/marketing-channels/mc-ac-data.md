@@ -1,6 +1,6 @@
 ---
-title: 使用 [!DNL Marketing Channels] 使用Adobe广告数据
-description: 了解如何在中使用Adobe广告数据 [!DNL Analytics Marketing Channels].
+title: 使用 [!DNL Marketing Channels] 使用Adobe廣告資料
+description: 瞭解如何在中使用Adobe廣告資料 [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 522c7f01-1138-477d-8018-36030caab55e
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,51 +10,51 @@ ht-degree: 0%
 
 ---
 
-# 使用 [!DNL Analytics Marketing Channels] 使用Adobe广告数据
+# 使用 [!DNL Analytics Marketing Channels] 使用Adobe廣告資料
 
-*仅具有Adobe广告与Adobe Analytics集成的广告商*
+*僅具有AdobeAdvertising-Adobe Analytics整合的廣告商*
 
-通过同时使用Adobe广告和 [!DNL Analytics Marketing Channels] 报表，您可以对数字媒体对网站活动的影响进行有价值的分析。
+同時使用Adobe廣告和 [!DNL Analytics Marketing Channels] 報表中，您可以取得數位媒體如何影響網站活動的寶貴見解。
 
 <!-- from video: By using Marketing Channels with your Adobe Advertising data, you can get a more holistic view of how your advertising efforts are affecting site behavior. In particular, you can see the value of your view-through and click-through data, and how your advertising assists or is assisted by other channels. -->
 
-下图显示了Adobe广告和 [!DNL Marketing Channels] 跟踪构成一个访客历程的各个访问。 Adobe广告报表(位于 [!DNL Analytics] 仅限于使用AMO ID通过Adobe广告贩运的付费展示、搜索、社交和商务渠道广告。 但是， [!DNL Marketing Channels] 跟踪 [!DNL Marketing Channels] 处理规则。
+下圖顯示Adobe廣告與網站的 [!DNL Marketing Channels] 追蹤組成一個訪客歷程的個別造訪。 Adobe廣告報表 [!DNL Analytics] 僅限於使用AMO ID透過Adobe廣告販運的付費顯示、搜尋、社交和商務管道廣告。 不過， [!DNL Marketing Channels] 追蹤中設定的所有管道 [!DNL Marketing Channels] 處理規則。
 
-![Adobe广告和 [!DNL Marketing Channels] 跟踪访客历程中的个人访问](/help/integrations/assets/a4adc-mc-sample-journey2.png)
+![如何Adobe廣告和 [!DNL Marketing Channels] 追蹤訪客歷程中的個別造訪](/help/integrations/assets/a4adc-mc-sample-journey2.png)
 
-在第一次访问中，用户通过电子邮件营销活动进入网站，执行十次页面查看，然后离开。 在第二次访问中，用户通过展示广告进入网站，执行十次页面查看，然后离开。 在第三次访问中，用户通过免费搜索进入网站，执行五次页面查看，执行了250美元的转化，最后左转。 请注意 [!DNL Marketing Channels] 和Adobe广告。 Adobe广告在此历程中跟踪的唯一渠道是 [!UICONTROL Display]. Adobe广告跟踪 [!UICONTROL Display] 渠道访问并将后续参与数据（如页面查看次数）和转化归因到该广告的影响。 [!DNL Marketing Channels]，则会显示所有渠道的完整视图。
+在第一次造訪中，使用者透過電子郵件行銷活動進入網站，執行了十次頁面檢視，然後離開。 在第二次造訪中，使用者透過顯示廣告進入網站，執行了十次頁面檢視，然後離開。 在第三次造訪中，使用者透過免費搜尋進入網站、執行了五個頁面檢視、執行了$250的轉換，最後進入左側。 請注意兩者在追蹤上的差異 [!DNL Marketing Channels] 和Adobe廣告。 此歷程中AdobeAdvertising追蹤的唯一管道是 [!UICONTROL Display]. Adobe廣告追蹤 [!UICONTROL Display] 管道造訪和將後續參與資料（例如頁面檢視）和轉換歸因於該廣告的影響。 [!DNL Marketing Channels]另一方面，會提供所有色版的完整檢視。
 
-由于AMO ID在访客历程中持续存在，因此您可以使用AMO ID数据来查看Adobe广告对其他营销渠道有何影响。 AMO ID [默认情况下，会持续60天](/help/integrations/analytics/overview.md)，但您可以根据需要配置持久性。
+由於AMO ID會在訪客的歷程中持續存在，因此您可以使用AMO ID資料來瞭解Adobe廣告如何影響其他行銷管道。 AMO ID [預設會持續60天](/help/integrations/analytics/overview.md)，但您可以視需要設定持續性。
 
-## 如何结合Adobe广告和营销渠道数据分析媒体效果
+## 如何結合Adobe廣告和行銷管道資料來分析媒體效能
 
-在 [!DNL Analytics]，您可以将Adobe广告持久保留的付费广告数据与 [!DNL Marketing Channels] 全面的访问数据，以便更好地分析您的媒体性能，从而更好地影响客户历程。
+範圍 [!DNL Analytics]，您可以結合Adobe廣告持續付費廣告資料和 [!DNL Marketing Channels] 完整的造訪資料，以便更妥善分析您的媒體效能，進而更能影響客戶歷程。
 
-以下分析使用Adobe广告数据来显示不同版本的展示广告如何影响网站转化。 所有三列都使用相同的转化量度，但每一列的情况不同：
+以下分析使用Adobe廣告資料來顯示不同版本的顯示廣告如何影響網站轉換。 所有三欄都使用相同的轉換量度，但每欄講述的故事不同：
 
-* 列1查看在访客历程中持久保留的AMO ID数据。 列1表示，有641个应用程序启动事件曾经通过显示到达事件或点进事件与Adobe广告广告链接。 此视图没有其他视图 [!DNL Marketing Channels] 归因。
+* 欄1會檢視在訪客歷程中持續儲存的AMO ID資料。 欄1指出641應用程式啟動曾透過瀏覽或點進事件，與Adobe廣告連結在一起。 此檢視不採用任何其他檢視 [!DNL Marketing Channels] 歸因。
 
-* 在 [!DNL Marketing Channels] 但是，数据集641个应用程序启动次数归属于其他营销渠道。 最后两列采用641应用程序启动，并将数据限制为 [!UICONTROL Display Click-Through] 和 [!UICONTROL Display View-Through] 渠道，显示最近联系归因模型中发生的转化。
+* 在 [!DNL Marketing Channels] 不過，641應用程式啟動歸因於其他行銷管道。 最後兩欄採用「641應用程式啟動」，並將資料限製為 [!UICONTROL Display Click-Through] 和 [!UICONTROL Display View-Through] 管道，顯示上次接觸歸因模型中發生的轉換。
 
-![展示广告如何影响网站转化的示例](/help/integrations/assets/a4adc-mc-display-impact.png)
+![顯示廣告如何影響網站轉換的範例](/help/integrations/assets/a4adc-mc-display-impact.png)
 
-您可以进一步分析此问题。 您可以按营销渠道进一步划分“Adobe广告”行，以查看Adobe广告转化归因于641应用程序开始的位置。 您已经知道，其中5个转化归因于最近联系显示点进，19个归因于最近联系显示显示显示点进。 这仍然会导致617个应用程序开始归因于其他营销渠道。 您可以将“最近联系渠道”维度拖放到Advertising DSP行项目的顶部，以显示其余“应用程序启动”的渠道归因，并显示“显示”渠道的跨渠道影响。
+您可以進一步執行此分析。 您可以透過行銷管道進一步劃分「Adobe廣告」列，以檢視Adobe廣告轉換歸因於641應用程式啟動的位置。 您已經知道其中五個轉換歸因於「上次接觸顯示點進」，19個則歸因於「上次接觸顯示檢視」。 如此仍會將617應用程式開始歸因於其他行銷管道。 您可以將「上次接觸管道」維度拖放至Advertising DSP條列專案上方，以顯示其他應用程式啟動的管道歸因，並顯示「顯示」管道的跨管道影響。
 
-![如何添加“最近联系渠道”维度](/help/integrations/assets/a4adc-mc-display-impact-ltc.png)
+![如何新增「上次接觸管道」維度](/help/integrations/assets/a4adc-mc-display-impact-ltc.png)
 
-现在，您可以查看剩余应用程序开始的归因方式。 对于保留AMO ID的357个最近联系应用程序启动，会为电子邮件分配点数。 通过此类分析，您可以了解Adobe广告展示广告在所有渠道中产生的影响。 只有一个数据集和归因模型，此类分析将不可用。
+現在您可以檢視剩餘的應用程式啟動數的歸因方式。 357個上次接觸應用程式開始的電子郵件會獲得評分，其中AMO ID持續存在。 使用此型別的分析，您可以檢視Adobe廣告顯示廣告對所有頻道的影響。 由於只有一個資料集和歸因模型，因此無法提供這類深入分析。
 
-![显示渠道的跨渠道影响示例](/help/integrations/assets/a4adc-mc-display-impact-x-channel.png)
+![顯示管道的跨管道影響範例](/help/integrations/assets/a4adc-mc-display-impact-x-channel.png)
 
-您可以使用设置为“100%堆叠”的堆栈图来显示一段时间内的趋势数据，从而进一步改进分析。 通过此可视化图表，可以更轻松地监控哪些最近联系营销渠道受到展示型营销活动的影响更大。
+若棧疊圖表設為「100%棧疊」，則可進一步改善分析，以顯示一段時間內的趨勢資料。 此視覺效果可讓您更輕鬆地監視哪些上次接觸行銷管道受到您的顯示行銷活動的影響更大。
 
-![显示渠道的趋势跨渠道影响示例](/help/integrations/assets/a4adc-mc-display-impact-x-channel-trend.png)
+![顯示管道的趨勢化跨管道影響範例](/help/integrations/assets/a4adc-mc-display-impact-x-channel-trend.png)
 
 >[!MORELIKETHIS]
 >
->* [的基本原理 [!DNL Analytics Marketing Channels]](mc-overview.md)
->* [使用Adobe广告ID创建 [!DNL Marketing Channels] 处理规则](mc-ids.md)
->* [渠道数据为何会因Adobe广告和 [!DNL Marketing Channels]](mc-data-variances.md)
->* [视频：使用 [!DNL Marketing Channels] (用于Adobe广告报告)](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [的基礎知識 [!DNL Analytics Marketing Channels]](mc-overview.md)
+>* [使用Adobe廣告ID來建立 [!DNL Marketing Channels] 處理規則](mc-ids.md)
+>* [為何管道資料可能因Adobe廣告和以下內容而異 [!DNL Marketing Channels]](mc-data-variances.md)
+>* [影片：使用 [!DNL Marketing Channels] 適用於Adobe廣告報表](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [概述 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
 

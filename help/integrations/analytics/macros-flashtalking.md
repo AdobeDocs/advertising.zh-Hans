@@ -1,6 +1,6 @@
 ---
-title: 附加 [!DNL Analytics for Advertising] 宏 [!DNL Flashtalking] 广告标记
-description: 了解添加原因和方法 [!DNL Analytics for Advertising] 宏 [!DNL Flashtalking] 广告标记
+title: 附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Flashtalking] 廣告標籤
+description: 瞭解新增原因和方式 [!DNL Analytics for Advertising] 巨集加入您的 [!DNL Flashtalking] 廣告標籤
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,47 +10,47 @@ ht-degree: 0%
 
 ---
 
-# 附加 [!DNL Analytics for Advertising] 宏 [!DNL Flashtalking] 广告标记
+# 附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Flashtalking] 廣告標籤
 
-*仅具有Adobe广告与Adobe Analytics集成的广告商*
+*僅具有AdobeAdvertising-Adobe Analytics整合的廣告商*
 
-*仅适用于Advertising DSP*
+*僅適用於Advertising DSP*
 
-如果您使用 [!DNL Flashtalking] 对于您的Advertising DSP广告，将Analytics for Advertising参数附加到登陆页面URL。 参数记录 `s_kwcid` 和 `ef_id` 查询登陆页面URL中的字符串参数，允许Adobe广告将广告的点击数据发送到Adobe Analytics。
+如果您使用來自的廣告標籤 [!DNL Flashtalking] 若為Advertising DSP廣告，請將Analytics for Advertising引數附加至登陸頁面URL。 引數記錄 `s_kwcid` 和 `ef_id` 登陸頁面URL中的查詢字串引數，可讓Adobe廣告將廣告的點選資料傳送至Adobe Analytics。
 
-对使用宏 [!DNL Flashtalking] 以下类型的显示和视频广告 [!DNL Analytics for Advertising] 实施：
+將巨集用於 [!DNL Flashtalking] 適用於下列型別的顯示廣告和視訊廣告 [!DNL Analytics for Advertising] 實作：
 
-* **具有 [!DNL Adobe] [!DNL Analytics for Advertising] 在其网站上实施的JavaScript代码**:JavaScript代码已记录 `s_kwcid` 和 `ef_id` 查询字符串参数。 但是，当不支持第三方Cookie时，使用宏会扩展跟踪以包含基于点击的转化。 最佳做法是将以下部分中的宏添加到您的广告标记中，以捕获未通过JavaScript代码捕获的其他点进数据。
+* **使用的廣告商 [!DNL Adobe] [!DNL Analytics for Advertising] 在其網站上實作的JavaScript程式碼**：JavaScript程式碼已記錄 `s_kwcid` 和 `ef_id` 查詢字串引數。 不過，當不支援第三方Cookie時，使用巨集可延伸追蹤以包含點選型轉換。 最佳實務是將下列各節中的巨集新增至廣告標籤，以擷取未透過JavaScript程式碼擷取的其他點進資料。
 
 >[!NOTE]
 >
->JavaScript代码是仅在Cookie仍然可用时用于点击跟踪的解决方案。 停止Cookie后，将需要实施以下宏。
+>JavaScript程式碼是僅在Cookie仍可用時用於點選追蹤的解決方案。 一旦Cookie停止使用，便需要實作下列巨集。
 
-* **网站不使用的广告商 [!DNL Analytics for Advertising] JavaScript代码，而是依赖 [!DNL Analytics] 仅用于点进数据的服务器端转发** （不含任何显示到达数据）：要报告由您通过Adobe广告购买的广告所驱动的网站点击活动，需要以下宏。
+* **其網站未使用的廣告商 [!DNL Analytics for Advertising] JavaScript程式碼，並改為依賴 [!DNL Analytics] 僅限點進資料的伺服器端轉送** （沒有任何瀏覽資料）：需要下列巨集來報告網站上由您透過Adobe廣告購買的廣告驅動的點選活動。
 
-## 显示广告标记
+## 顯示廣告標籤
 
-在 [!DNL Flashtalking] 广告标记设置中，将以下宏附加到点进URL的末尾 `Clicktag` 字段：
+在內 [!DNL Flashtalking] 新增標籤設定，將下列巨集附加至中的點進URL結尾 `Clicktag` 欄位：
 
 ```html
 ?[ftqs:[AdobeAMO]]
 ```
 
-示例：  `https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
+範例：  `https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
 
-## 视频广告标记
+## 影片廣告標籤
 
-在 [!DNL Flashtalking] 广告标记设置中，将以下宏附加到点进URL的末尾 `Clicktag` 字段：
+在內 [!DNL Flashtalking] 新增標籤設定，將下列巨集附加至中的點進URL結尾 `Clicktag` 欄位：
 
 ```html
 ?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
 ```
 
-示例：  `https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+範例：  `https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
 >[!MORELIKETHIS]
 >
 >* [概述 [!DNL Analytics for Advertising]](overview.md)
->* [Adobe使用的广告ID [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [附加 [!DNL Analytics for Advertising] 宏 [!DNL Google Campaign Manager 360] 广告标记](/help/integrations/analytics/macros-google-campaign-manager.md)
+>* [使用的Adobe廣告ID [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Google Campaign Manager 360] 廣告標籤](/help/integrations/analytics/macros-google-campaign-manager.md)
 

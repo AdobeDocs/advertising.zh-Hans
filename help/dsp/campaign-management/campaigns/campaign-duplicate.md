@@ -1,6 +1,6 @@
 ---
-title: 复制营销活动
-description: 了解如何复制营销活动。
+title: 複製行銷活動
+description: 瞭解如何複製行銷活動。
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
 source-git-commit: 4085c1b21c0fe84653978e449321868921841367
@@ -10,51 +10,51 @@ ht-degree: 0%
 
 ---
 
-# 复制营销活动
+# 複製行銷活動
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
-复制营销活动以创建具有类似设置的新营销活动。 您可以：
+複製行銷活動，以使用類似設定建立新的行銷活動。 您可以：
 
-* 复制原始广告商或其他广告商的营销活动
-* （可选）复制原始包和版面
-* 修改新营销活动的投放日期
+* 複製原始廣告商或其他廣告商的行銷活動
+* 選擇性地複製原始套件和版位
+* 修改新行銷活動的投放日期
 
-请参阅“[未复制的内容](#campaign-not-duplicated)“ ”，查看未复制的版面设置列表。
+請參閱「[未複製的內容](#campaign-not-duplicated)」以取得未複製的位置設定清單。
 
-1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 
-1. 在营销活动名称旁边，单击 **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
+1. 在行銷活動名稱旁邊，按一下 **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
 
-1. 指定新的营销活动设置：
+1. 指定新的行銷活動設定：
 
-   1. 输入新的促销活动名称和结束投放日期。
+   1. 輸入新的行銷活動名稱和結束投放日期。
 
-   1. （可选）更改默认设置。
+   1. （選用）變更預設設定。
 
-      默认情况下，新营销活动会分配给原始广告商，并且有从当天开始的飞行时间表，并包含原始包和版面。
+      依預設，新行銷活動會指派給原始廣告商、具有從當天開始的航班排程，並包括原始套件和位置。
 
 1. 单击 **[!UICONTROL Submit]**.
 
-## 未复制的内容 {#campaign-not-duplicated}
+## 未複製的內容 {#campaign-not-duplicated}
 
-原始版面中的所有设置都会复制，但以下各项除外：
+來自原始版位的所有設定都會重複，除了：
 
-* 实验设置
-* （如果更改投放日期）自定义广告计划
-* （如果不附加广告）自定义广告权重和计划
-* 程序化保证(PG)交易的默认版面和 [!UICONTROL Simple Ad Serving] 交易
-* （如果您将版面复制到其他营销活动）：
-   * 地域目标
-   * 事件像素
-   * 广告
-   * 版面级别 [!DNL DoubleVerify Authentic Brand Safety] 区段（覆盖广告商级别的区段）
+* 實驗設定
+* （如果您變更投放日期）自訂廣告排程
+* （如果您未附加廣告）自訂廣告權重和排程
+* 程式保證(PG)交易的預設刊登版位和刊登版位 [!UICONTROL Simple Ad Serving] 交易
+* （如果您將版位複製到其他行銷活動）：
+   * 地理目標
+   * 事件畫素
+   * 廣告
+   * 位置層級 [!DNL DoubleVerify Authentic Brand Safety] 區段（覆寫廣告商層級區段）
 
 >[!MORELIKETHIS]
 >
->* [关于Campaign Management](campaign-about.md)
->* [创建营销活动](campaign-create.md)
->* [编辑营销活动](campaign-edit.md)
->* [查看营销活动的更改日志](campaign-change-log.md)
->* [营销活动设置](campaign-settings.md)
+>* [關於Campaign Management](campaign-about.md)
+>* [建立行銷活動](campaign-create.md)
+>* [編輯行銷活動](campaign-edit.md)
+>* [檢視行銷活動的變更記錄](campaign-change-log.md)
+>* [Campaign設定](campaign-settings.md)
 

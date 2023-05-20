@@ -1,6 +1,6 @@
 ---
-title: 营销活动的上传版面设置
-description: 了解如何使用Excel QA电子表格上传对营销活动关键位置设置的更改。
+title: 上傳行銷活動的版位設定
+description: 瞭解如何使用Excel QA試算表上傳行銷活動關鍵位置設定的變更。
 feature: DSP Placements
 exl-id: 2ca7c019-ff5f-410d-b9c7-31ef1509f91e
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
@@ -10,34 +10,34 @@ ht-degree: 0%
 
 ---
 
-# 营销活动的上传版面设置
+# 上傳行銷活動的版位設定
 
-要发布对促销活动某些类型版面设置的更改，您可以上传您之前使用的电子表格 [下载](qa-sheet-download.md) 并进行了编辑。 仅允许在 [可编辑列](qa-sheet-columns.md).
+若要張貼行銷活動某些型別版位設定的變更，您可以上傳先前使用的試算表 [已下載](qa-sheet-download.md) 並已編輯。 僅允許變更於 [可編輯欄](qa-sheet-columns.md).
 
 >[!TIP]
 >
->要对版面设置进行更广泛的更改，请使用批量编辑功能。<!-- add link once we have help on it -->
+>若要對位置設定進行更廣泛的變更，請使用大量編輯功能。<!-- add link once we have help on it -->
 
-1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 
-1. 执行以下任一操作：
+1. 執行下列任一項作業：
 
-   * 在营销活动名称旁边，单击 **[!UICONTROL ...]** > **[!UICONTROL Upload Excel QA sheet]**.
+   * 在行銷活動名稱旁邊，按一下 **[!UICONTROL ...]** > **[!UICONTROL Upload Excel QA sheet]**.
 
-   * 单击促销活动名称可查看促销活动详细信息。 在右上方，单击 **[!UICONTROL ...]** > **[!UICONTROL Upload Excel QA sheet]**.
+   * 按一下行銷活動名稱，即可檢視行銷活動的詳細資訊。 在右上角，按一下 **[!UICONTROL ...]** > **[!UICONTROL Upload Excel QA sheet]**.
 
-1. 在 [!UICONTROL Edit in Excel] 对话框：
+1. 在 [!UICONTROL Edit in Excel] 對話方塊：
 
-   1. 将文件拖放到框中，或在框内单击以从设备或网络中选择文件。
+   1. 將檔案拖放至方塊中，或按一下方塊內部，從您的裝置或網路中選取檔案。
 
    1. 单击 **[!UICONTROL Upload]**.
 
-1. （可选）要验证更新是否已处理，请单击 ![作业](/help/dsp/assets/downloads.png) 菜单栏右侧。
+1. （選用）若要確認更新已處理，請按一下 ![工作](/help/dsp/assets/downloads.png) 在頂端功能表列的右側。
 
 >[!MORELIKETHIS]
 >
->* [关于使用电子表格更正促销活动的版面设置](qa-about.md)
->* [下载营销活动的版面设置](qa-sheet-download.md)
->* [已下载/已上载电子表格中的列](qa-sheet-columns.md)
->* [版面设置](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [關於使用試算表更正行銷活動的版位設定](qa-about.md)
+>* [下載行銷活動的版位設定](qa-sheet-download.md)
+>* [已下載/已上傳試算表中的欄](qa-sheet-columns.md)
+>* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)
 

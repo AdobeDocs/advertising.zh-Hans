@@ -1,6 +1,6 @@
 ---
-title: 常见问题解答
-description: xx
+title: 常見問答
+description: xxx
 source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
 workflow-type: tm+mt
 source-wordcount: '367'
@@ -8,29 +8,29 @@ ht-degree: 0%
 
 ---
 
-# xxx常见问题解答
+# 常見問題集xxx
 
-## 标题
+## 標題
 
-https://adobeadcloud.zendesk.com/agent/tickets/14214默认情况下，Adobe Analytics会报告每个报表中所有捕获的事件。 &quot;[!UICONTROL Unspecified]“事件表示未与Adobe广告连接的表单完成事件。 例如，在广告平台报表中，电子邮件促销活动驱动的自然转化或转化将归为“未指定”。
+https://adobeadcloud.zendesk.com/agent/tickets/14214依預設，Adobe Analytics會報告每個報告中所有擷取的事件。 &quot;[!UICONTROL Unspecified]「事件代表未連線至Adobe廣告的表單完成事件。 例如，在Ad Platform報表中，電子郵件促銷活動驅動的有機轉換或轉換會屬於「未指定」。
 
-您可以使用过滤器通过通过“包括未指定（无）”选项删除复选标记，从报表中删除未指定事件。 <!-- Not sure if this is in DSP or in Analytics Workspace -->
+您可以使用此篩選器，移除勾選記號(「包含未指定（無）」)選項)，從報表中移除未指定的事件。 <!-- Not sure if this is in DSP or in Analytics Workspace -->
 
-## 标题
+## 標題
 
-https://adobeadcloud.zendesk.com/agent/tickets/24323将Analytics事件标记放置在与Ad Cloud像素相同的位置，以确保XXX匹配。
+https://adobeadcloud.zendesk.com/agent/tickets/24323將Analytics事件標籤放在與Ad Cloud畫素相同的位置，以確保XXX相符。
 
-## 标题
+## 標題
 
 https://adobeadcloud.zendesk.com/agent/tickets/24323
 
-问：在内部安全审核期间，某些功能被标记为安全问题，在将Ad Cloud集成到现有Adobe Analytics安装中后，我们启用了这些功能。
+問：在內部安全性稽核期間，當我們將Ad Cloud整合至現有的Adobe Analytics安裝時，某些功能會被標籤為已啟用的安全性疑慮。
 
-相关集成位于AdCloud和Adobe Audience Manager之间。 此功能可增加AdCloud和Adobe Audience Manager之间访客ID的匹配率。 它通过向pagead.l.doubleclick.net、star-mini.c10r.facebook.com和pug88000nf.pubmatic.com发送网络请求来确定这些服务是否具有可供利用的访客现有ID。 这些网络请求已被标记为安全风险，并针对所有网站访客发生。
+有問題的整合是AdCloud與Adobe Audience Manager之間的整合。 此功能可提高AdCloud與Adobe Audience Manager之間訪客ID的符合率。 其做法是傳送網路要求至pagead.l.doubleclick.net、star-mini.c10r.facebook.com和pug88000nf.pubmatic.com，以判斷這些服務是否有可運用之訪客的現有ID。 這些網路請求已標籤為安全性風險，並正在發生於所有網站訪客。
 
-我们的审计员要求我们禁用此功能。 如果我们阻止这些网络请求，会发生什么情况？
+我們的稽核人員要求我們停用此功能。 如果我們封鎖這些網路要求會發生什麼事？
 
-答：我们与我们的产品进行了核对，他们提到，相关像素的目的是提高Ad Cloud、特定库存/SSP合作伙伴(对于DSP)和AAM之间的Cookie匹配率。  如果删除了这些像素，客户可能会看到AAC/AAM与库存合作伙伴之间各自像素所对应的匹配率有所降低，但他们不认为匹配率会很大。
+答：我們檢查了產品，他們提到有問題的畫素是為了提高Ad Cloud、特定詳細目錄/SSP合作夥伴(關於DSP)和AAM之間的Cookie匹配率。  如果移除這些畫素，客戶可能會發現AAC/AAM與庫存合作夥伴之間個別畫素適用的匹配率有所降低，但他們不會預期這會相當嚴重。
 
-对于Ad Cloud搜索，我们确实会看到已为Mathworks设置广告商的Experience Cloud组织ID，但我们的产品团队没有看到用于在Ad Cloud中激活受众的Mathwork设置。 您是否使用Audience Manager将受众发送到Ad Cloud搜索？ 如果没有，则删除这些参数对当前工作流将不会产生影响。 AAM客户关怀团队可以帮助移除这些像素（如果您不希望触发这些像素）。
+對於Ad Cloud搜尋，我們確實看到廣告商的Experience Cloud組織ID已針對Mathworks設定，但我們的產品團隊沒有看到Mathworks設定以在Ad Cloud中啟用對象。 您是否使用Adobe Audience Manager將受眾傳送至Ad Cloud Search？ 如果沒有，移除這些專案將不會對目前的工作流程造成影響。 如果您不想讓這些畫素被引發，AAM客戶服務可協助您移除這些畫素。
 

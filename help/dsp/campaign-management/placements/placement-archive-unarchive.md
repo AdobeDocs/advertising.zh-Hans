@@ -1,6 +1,6 @@
 ---
-title: 存档或取消存档版面
-description: 了解如何存档或取消存档版面。
+title: 封存或取消封存位置
+description: 瞭解如何封存或取消封存位置。
 feature: DSP Placements
 exl-id: 4304452d-4573-46b3-892e-299950a75d4f
 source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
@@ -10,37 +10,37 @@ ht-degree: 0%
 
 ---
 
-# 存档或取消存档版面
+# 封存或取消封存位置
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else?  -->
 
-隐藏未用于存档的版面。 对已存档的版面，您只能执行取消存档操作。 存档的版面默认不显示，但仍可用于报告。
+隱藏封存位置時未使用的位置。 您可以對已封存位置採取的唯一動作是取消封存。 預設不會顯示已封存的版位，但仍可用於報告。
 
-您可以随时取消存档版面以恢复其以前的状态。
+您可以隨時取消封存位置以恢復其先前狀態。
 
-## 存档版面
+## 封存位置
 
-1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
-1. 单击营销活动的名称。
-1. 在子菜单中，单击 **[!UICONTROL Placements]**.
-1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
-1. 在确认消息中，单击 **[!UICONTROL Archive]**.
+1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+1. 按一下行銷活動的名稱。
+1. 在子功能表中，按一下 **[!UICONTROL Placements]**.
+1. 在位置名稱旁邊，按一下  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
+1. 在確認訊息中，按一下 **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->要查看存档的版面，请过滤 [!UICONTROL Placements] 视图：单击 ![“过滤器”按钮](/help/dsp/assets/filter.png)，单击 **[!UICONTROL Placement status]** 选择 **[!UICONTROL Archived]**，然后单击 **[!UICONTROL Apply].**
+>若要檢視已封存位置，請篩選 [!UICONTROL Placements] 檢視：按一下 ![篩選按鈕](/help/dsp/assets/filter.png)，按一下 **[!UICONTROL Placement status]** 並選取 **[!UICONTROL Archived]**，然後按一下 **[!UICONTROL Apply].**
 
-## 取消存档版面
+## 取消封存位置
 
-1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
-1. 单击营销活动的名称。
-1. 在子菜单中，单击 **[!UICONTROL Placements]**.
-1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
-1. 在确认消息中，单击 **[!UICONTROL Unarchive]**.
+1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+1. 按一下行銷活動的名稱。
+1. 在子功能表中，按一下 **[!UICONTROL Placements]**.
+1. 在位置名稱旁邊，按一下  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
+1. 在確認訊息中，按一下 **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]
 >
->* [暂停或激活版面](placement-pause-activate.md)
->* [编辑版面](placement-edit.md)
->* [查看版面的更改日志](placement-change-log.md)
+>* [暫停或啟用位置](placement-pause-activate.md)
+>* [編輯位置](placement-edit.md)
+>* [檢視位置的變更記錄](placement-change-log.md)
 

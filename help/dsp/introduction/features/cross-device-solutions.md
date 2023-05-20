@@ -1,6 +1,6 @@
 ---
-title: 跨设备解决方案
-description: 进一步了解跨设备功能。
+title: 跨裝置解決方案
+description: 進一步瞭解跨裝置功能。
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
 source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
@@ -10,110 +10,110 @@ ht-degree: 0%
 
 ---
 
-# 跨设备解决方案
+# 跨裝置解決方案
 
-Advertising DSP与 [!DNL LiveRamp] 允许您将受众扩展到用户的所有已知设备，而不仅是品牌跟踪的设备。 该集成还提供跨所有设备的频率上限和归因测量。
+Advertising DSP整合，與 [!DNL LiveRamp] 可讓您將受眾擴展至所有個人的已知裝置，而不只是您的品牌已追蹤的裝置。 整合也提供所有裝置的頻率限定和歸因測量。
 
-使用受支持的基于人员的设备图时，您可以：
+使用支援的以人物為基礎的裝置圖表時，您可以：
 
-* 跨渠道和设备匹配受众，以向人员和家庭（而不是设备）投放广告。
-* 通过了解和限制个人的频度来平衡和暴露。
-* 测试跨渠道或设备展示受众与转化受众的策略。
+* 跨管道和裝置比對受眾，將廣告傳送給個人和家庭，而非裝置。
+* 透過瞭解並限定個人的頻率來平衡廣告曝光。
+* 測試跨管道或裝置公開與轉換對象的策略。
 
-## 的好处 [!DNL LiveRamp] 设备图
+## 的優點 [!DNL LiveRamp] 裝置圖表
 
-* 提供确定性数据池，包括离线客户数据
+* 提供確定性資料集區，包括離線客戶資料
 
-* 在Cookie ID和移动设备ID之间提供均匀的覆盖范围
+* 提供Cookie ID和行動裝置ID之間的平均涵蓋範圍
 
-* 包括主要来自美国的数据
+* 包括主要來自美國的資料
 
-* 免费进行频度上限和归因测量
+* 免費提供頻率限定和歸因測量
 
-* 延长展示次数(仅通过使用 [!DNL LiveRamp] 设备图，而不是目标受众区段内的设备图)
+* 價格為$0.35 CPM的延長曝光次數(僅透過使用 [!DNL LiveRamp] 裝置圖表，而不是在目標受眾區段內找到的裝置上)
 
-   费率会反映在您的帐户费率卡上。
+   費率會反映在您的帳戶費率卡上。
 
-## 基于人员的频率管理
+## 以人物為基礎的頻率管理
 
-基于人员的频率管理允许您在人员级别指定频率上限，而不是设备级别，以便真正控制媒体曝光。
+以人物為基礎的頻率管理可讓您在人員層級（而不是裝置層級）指定頻率上限，以真正控制媒體曝光度。
 
-### 激活基于人员的频率管理
+### 啟用以人物為基礎的頻率管理
 
-* **营销活动：** 创建新营销活动时，您可以指定 [!UICONTROL Cross-Device Level] 设置。 启用“[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]，然后选择一个设备图。 指定的设备图既可用于位置级别的跨设备定位，也可用于营销策划、包和位置级别的基于人员的频率管理。 频率上限适用于人员的所有已知设备。
+* **行銷活動：** 建立新行銷活動時，您可以指定 [!UICONTROL Cross-Device Level] 設定。 啟用&quot;[!UICONTROL Same Device]「 -> 」[!UICONTROL People]、」並選取裝置圖表。 指定的裝置圖表會用於位置層級的跨裝置目標定位，以及行銷活動、套件和位置層級的人員型頻率管理。 頻率上限適用於個人所有已知裝置。
 
-有关更多信息，请参阅 [营销活动设置](/help/dsp/campaign-management/campaigns/campaign-settings.md).
+如需詳細資訊，請參閱 [Campaign設定](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
-保存营销活动后，便无法更改其 [!UICONTROL Cross Device Level] 设置。
+儲存行銷活動後，便無法變更其 [!UICONTROL Cross Device Level] 設定。
 
-* **包：**  您可以选择在资源包级别设置附加频率上限。 DSP将遵循营销活动层级中最严格的频率上限。
+* **套件：**  您可以選擇在封裝層級設定額外的頻率上限。 DSP會遵循行銷活動階層中最嚴格的頻率上限。
 
-* **版面：** 您可以选择在放置级别设置附加频率上限。 DSP将遵循营销活动层级中最严格的频率上限。
+* **版位：** 您可以選擇在版位層級設定額外的頻率上限。 DSP會遵循行銷活動階層中最嚴格的頻率上限。
 
-## 基于人员的定位
+## 以人物為基礎的鎖定目標
 
-通过基于人员的定位，您可以在桌面和移动设备上找到客户。
+以人物為基礎的鎖定目標可讓您在桌上型電腦和行動裝置上尋找客戶。
 
-### 激活基于人员的定位
+### 啟用以人物為基礎的鎖定目標
 
-* **营销活动：** 创建新营销活动时，您可以指定 [!UICONTROL Cross-Device Level] 设置。 启用“[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]，然后选择一个设备图。 指定的设备图用于在放置级别跨设备定位和基于人员的频率管理。
+* **行銷活動：** 建立新行銷活動時，您可以指定 [!UICONTROL Cross-Device Level] 設定。 啟用&quot;[!UICONTROL Same Device]「 -> 」[!UICONTROL People]、」並選取裝置圖表。 指定的裝置圖表會用於位置層級的跨裝置目標定位和以人物為基礎的頻率管理。
 
-有关更多信息，请参阅 [营销活动设置](/help/dsp/campaign-management/campaigns/campaign-settings.md).
+如需詳細資訊，請參閱 [Campaign設定](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
-* **版面：** 在具有指定设备图的营销活动中为版面选择受众目标时， [!UICONTROL Cross-Device Targeting] 选项允许您扩展定位到人员所有已知设备（根据促销活动设置中指定的设备图），甚至是不在指定区段的设备。
+* **版位：** 當您針對具有指定裝置圖表的行銷活動中的位置選取對象目標時， [!UICONTROL Cross-Device Targeting] 選項可讓您將目標延伸至一個人所有已知裝置（根據行銷活動設定中指定的裝置圖表），甚至不在指定區段中的裝置。
 
-### 设置基于人员的定位报表
+### 設定以人物為基礎的鎖定目標報告
 
-您可以在自定义报表中包含以下量度：
+您可以在自訂報表中包含下列量度：
 
-* **延长展示次数：** (在 [!UICONTROL Build Your Report] 部分 [!UICONTROL Metrics] > [!UICONTROL Std. Metrics])利用设备图（在原始受众区段中未找到）交付的增量展示次数量。 此量度还用于计算与使用第三方设备图相关的适用费用。
+* **延伸曝光次數：** (在 [!UICONTROL Build Your Report] 區段在 [!UICONTROL Metrics] > [!UICONTROL Std. Metrics])利用裝置圖表提供的增量曝光量（未在原始受眾區段中找到）。 此量度也可用來計算與使用協力廠商裝置圖表相關的適用費用。
 
-   要确定某个时段内的延长展示次数的成本，请运行一个包含 [!UICONTROL Extended Impressions] 列，然后将扩展展示次数总数乘以0.00035美元(0.35/1000展示次数)。
+   若要判斷特定時段內延伸曝光的成本，請執行包含 [!UICONTROL Extended Impressions] 欄，然後將延伸曝光總數乘以$0.00035 （$0.35/1000曝光數）。
 
-   综合成本亦计入综合 [!UICONTROL Billable Other Net Spend] 列（下） [!UICONTROL Metrics] > [!UICONTROL Spend])，但该量度也包含您可能添加的其他促销活动费用。
+   總成本也包含在 [!UICONTROL Billable Other Net Spend] 欄（下） [!UICONTROL Metrics] > [!UICONTROL Spend])，不過該量度也包含您可能已新增的其他促銷活動費用。
 
-* **设备图：** (在 [!UICONTROL Build Your Report] 部分 [!UICONTROL Dimensions] > [!UICONTROL Campaign])特定促销活动、包或版面的选定设备图。
+* **裝置圖表：** (在 [!UICONTROL Build Your Report] 區段在 [!UICONTROL Dimensions] > [!UICONTROL Campaign])為特定行銷活動、套件或位置選取的裝置圖表。
 
-## 基于人员的归因测量
+## 以人物為基礎的歸因測量
 
-*仅具有Adobe广告转化跟踪的广告商*
+*僅具有Adobe廣告轉換追蹤的廣告商*
 
-通过基于人员的归因，您可以将发生在媒体曝光设备以外的设备上的转化归因。 基于人员的归因测量可在DSP中使用， [!DNL Adobe Advertising Creative]和 [!DNL Adobe Advertising Search, Social, & Commerce] 适用于在其网站上实施了Adobe广告转换像素的广告商。
+使用以人物為基礎的歸因，您可以將發生在不同裝置上的轉換歸因於發生媒體曝光的裝置。 以人物為基礎的歸因測量可在DSP中使用， [!DNL Adobe Advertising Creative]、和 [!DNL Adobe Advertising Search, Social, & Commerce] 適用於已在網站上實作Adobe廣告轉換畫素的廣告商。
 
-### 启用基于人员的归因测量
+### 啟用以人物為基礎的歸因測量
 
-如果要激活跨设备归因测量，请联系您的Adobe帐户团队。
+如果您想要啟用跨裝置歸因測量，請聯絡您的Adobe客戶團隊。
 
-### 设置跨设备转化归因的转化报表
+### 設定跨裝置轉換歸因的轉換報表
 
-#### 转化报表设置
+#### 轉換報表設定
 
-启用设备图进行归因测量后， [!UICONTROL Conversion] 报表包含 [!UICONTROL Cross-Device Breakout] 设置，以便您为每个转化量度最多包含三个单独的列，包括：
+啟用裝置圖表進行歸因測量時， [!UICONTROL Conversion] 報表包含 [!UICONTROL Cross-Device Breakout] 設定，可讓您針對每個轉換量度包含最多三個個別的欄，包括：
 
-* &lt;*转化*>[!UICONTROL (tp)]:包括总转化（总人员），其中包括相同设备转化和跨设备转化（如果适用）。 在报表中， &quot;[!UICONTROL (tp)]“ ”会附加到转化路径中的转化量度名称、规则类型和转化类型(例如“响应(le)(tl)(tp)”)。
+* &lt;*轉換*>[!UICONTROL (tp)]：包括總轉換次數（總人數），其中包含相同裝置轉換次數和跨裝置轉換次數（如果適用）。 在報表中， 」[!UICONTROL (tp)]「 」會附加至轉換路徑中的轉換量度名稱、規則型別和轉換型別(例如「Responses(le)(tl)(tp)」)。
 
-* &lt;*转化*>[!UICONTROL (sd)]:（可选）仅包括转化路径中仅跟踪了单个设备的转化。 在报表中， &quot;[!UICONTROL (sd)]“ ”会附加到转化路径中的转化量度名称、规则类型和转化类型(例如“响应(le)(tl)(sd)”)。
+* &lt;*轉換*>[!UICONTROL (sd)]：（選用）僅包含轉換路徑中僅追蹤單一裝置的轉換。 在報表中， 」[!UICONTROL (sd)]「 」會附加至轉換路徑中的轉換量度名稱、規則型別和轉換型別(例如「Responses(le)(tl)(sd))。
 
-* &lt;*转化*>[!UICONTROL (xd)]:（可选）仅包括转化路径中跟踪了多个设备的转化。 在报表中， &quot;[!UICONTROL (xd)]“ ”会附加到转化路径中的转化量度名称、规则类型和转化类型(例如“响应(le)(tl)(xd)”)。
+* &lt;*轉換*>[!UICONTROL (xd)]：（選用）僅包含在轉換路徑中追蹤多個裝置的轉換。 在報表中， 」[!UICONTROL (xd)]「 」會附加至轉換路徑中的轉換量度名稱、規則型別和轉換型別(例如「Responses(le)(tl)(xd))。
 
-#### 如何解释转化报表
+#### 如何解讀轉換報表
 
-如果您对跨设备转化总数的百分比([!UICONTROL (xd)]/[!UICONTROL (tl)])从高到低，您将了解什么因素促成了高于平均的跨设备转化。 您可以使用此信息来告知您的创意或定位策略，以便将消息传递和渠道投资与用户行为相匹配。
+如果您排序跨裝置轉換總數百分比([!UICONTROL (xd)]/[!UICONTROL (tl)])從高到低，您會瞭解是什麼因素推動跨裝置轉換率高於平均水準。 您可以利用這一點來通知您的創意或目標定位策略，以比對訊息和管道投資與使用者行為。
 
-* 包 — 查看哪些包促成的总转化最多，以及哪些包在跨设备转化中的百分比较高。 这有助于您了解在何处集中支出。
+* 套件 — 檢視哪些套件帶來的總轉換率最高，以及哪些套件擁有高百分比的跨裝置轉換。 這可協助您瞭解應該將焦點放在何處。
 
-* 版面 — 比较版面效果和归因（例如，移动Web广告可能会在桌面上促进转化）。 如果没有设备图进行归因，您可能会错过移动Web版面对桌面转化的影响，或者如果大多数用户在桌面而不是移动Web上进行转化，则该图版可能会被掩盖。
+* 刊登版位 — 比較刊登版位效能和歸因（例如，行動網路廣告可能會促進案頭上的轉換）。 如果沒有裝置圖表來歸因，您可能會錯過行動網站版位對案頭轉換的影響，或者如果大多數使用者在案頭而不是行動網站上轉換，該影響可能會被掩蓋。
 
-* 广告 — 发现哪些广告可提高转化率，并量化它们在Web浏览器和移动设备应用程序环境中的价值和影响。
+* 廣告 — 探索哪些廣告可帶來較高轉換率，並量化其價值和在網頁瀏覽器和行動應用程式環境中的影響。
 
-* 网站 — 跨网站优化，而不是手动完全排除网站。 如果网站驱动跨设备转化，则可以查看发生此行为的设备。
+* 網站 — 跨網站最佳化，而非完全手動排除網站。 如果網站推動跨裝置轉換，則您可以檢視在哪些裝置上發生此行為。
 
-* 交易 — 通过验证哪些库存交易提供了跨设备转化，然后确定是否应扩大目标以在这些交易中包含更多设备和渠道，来改进手动优化。
+* 交易 — 透過驗證哪些存貨交易提供跨裝置轉換，然後決定是否應擴大目標定位，以在這些交易中包含更多裝置和管道，來改善手動最佳化。
 
 >[!MORELIKETHIS]
 >
->* [报表设置](/help/dsp/reports/report-settings.md)
->* [营销活动设置](/help/dsp/campaign-management/campaigns/campaign-settings.md)
->* [包设置](/help/dsp/campaign-management/packages/package-settings.md)
->* [版面设置](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [報表設定](/help/dsp/reports/report-settings.md)
+>* [Campaign設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+>* [封裝設定](/help/dsp/campaign-management/packages/package-settings.md)
+>* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)
 

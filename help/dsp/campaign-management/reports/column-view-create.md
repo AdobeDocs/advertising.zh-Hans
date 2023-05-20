@@ -1,6 +1,6 @@
 ---
-title: 创建自定义列视图
-description: 了解如何创建自定义列视图。
+title: 建立自訂欄檢視
+description: 瞭解如何建立自訂欄檢視。
 feature: DSP Campaign Data Views
 exl-id: 1b0f5b15-3cbd-408a-8b06-0b5fefcfa0ca
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
@@ -10,30 +10,30 @@ ht-degree: 0%
 
 ---
 
-# 创建自定义列视图
+# 建立自訂欄檢視
 
-1. 在视图选择器中，单击 ![向下箭头](/help/dsp/assets/chevron-down.png)，然后单击 **[!UICONTROL Create View]**.
+1. 在「檢視」選取器中，按一下 ![向下鍵](/help/dsp/assets/chevron-down.png)，然後按一下 **[!UICONTROL Create View]**.
 
-1. 指定要包含在视图中的量度：
+1. 指定要包含在檢視中的量度：
 
-   1. 在可用量度列表中，选中要包含的每个量度旁边的复选框。
+   1. 在可用量度清單中，選取要包含的每個量度旁的核取方塊。
 
-   1. 根据需要，通过单击右侧面板中的列名称并将其拖动到所需位置，编辑列顺序。
+   1. 視需要編輯欄順序，方法是按一下右側面板中的欄名稱，並將它們拖曳到所需位置。
 
-   某些列具有固定位置，无法移动或删除。
+   有些欄位有固定位置，無法移動或移除。
 
-1. 应用或保存设置：
+1. 套用或儲存設定：
 
-   * 要临时应用设置而不将其保存到视图，请单击 **[!UICONTROL Apply].**
+   * 若要暫時套用設定而不儲存至檢視，請按一下 **[!UICONTROL Apply].**
 
-   * 要将设置保存到新的自定义列视图，请单击 **[!UICONTROL Save As]**. 在 [!UICONTROL Save View] 窗口，输入新视图的名称，然后单击 **[!UICONTROL Save]**.
+   * 若要將設定儲存至新的自訂欄檢視，請按一下 **[!UICONTROL Save As]**. 在 [!UICONTROL Save View] 視窗，輸入新檢視的名稱，然後按一下 **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
->* [关于平台内报表](campaign-reports-about.md)
->* [关于Campaign数据视图](campaign-data-views-about.md)
->* [更改列视图](column-view-change.md)
->* [编辑自定义列视图](column-view-edit.md)
->* [过滤营销活动数据](campaign-data-filter.md)
->* [对数据列排序](campaign-data-sort.md)
+>* [關於平台內報表](campaign-reports-about.md)
+>* [關於Campaign資料檢視](campaign-data-views-about.md)
+>* [變更欄檢視](column-view-change.md)
+>* [編輯自訂欄檢視](column-view-edit.md)
+>* [篩選行銷活動資料](campaign-data-filter.md)
+>* [排序資料欄](campaign-data-sort.md)
 

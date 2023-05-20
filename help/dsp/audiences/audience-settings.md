@@ -1,6 +1,6 @@
 ---
-title: 受众设置
-description: 请参阅可用受众设置的描述。
+title: 對象設定
+description: 請參閱可用對象設定的說明。
 feature: DSP Audiences
 exl-id: ea69ed6e-2d68-4ac5-8465-2ee7d798ae1d
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,35 +10,35 @@ ht-degree: 0%
 
 ---
 
-# 受众设置
+# 對象設定
 
-## 第三方区段
+## 第三方區段
 
-（可选）通过Adobe广告第三方数据分类提供以包含在受众配置中的任何标准区段。
+（選用）可透過Adobe Advertising第三方資料分類法取得的任何標準區段，以包含在對象設定中。
 
-## 第一方区段
+## 第一方區段
 
-（可选）为帐户导入的任何第一方区段和/或导入的自定义区段，以包含在受众配置中。
+（選用）任何針對帳戶匯入的第一方區段和/或自訂區段，都會納入對象設定中。
 
-## Adobe区段
+## Adobe區段
 
-（可选）任意 [!DNL Adobe Real-Time Customer Data Profile]、 Adobe Analytics或Adobe Audience Manager区段，以包含在受众配置中。
+（選用）任何 [!DNL Adobe Real-Time Customer Data Profile]、Adobe Analytics或Adobe Audience Manager區段，以包含在對象設定中。
 
-## 自定义区段
+## 自訂區段
 
-（可选）用户创建的任何区段(使用自定义DSP区段像素捕获)，都要包含在受众配置中。 这可以包括标准自定义区段和CCPA选择退出销售区段。
+（選用）任何使用者建立的區段(使用自訂DSP區段畫素擷取)，都會納入對象設定中。 這可以包括標準自訂區段和CCPA選擇退出銷售區段。
 
-## 保存的受众
+## 已儲存的對象
 
-（可选）受众库中内置要包含在受众配置中的任何现有受众。
+（選用）受眾資料庫中建置的任何現有受眾，可納入受眾設定中。
 
 >[!MORELIKETHIS]
 >
->* [关于受众管理](audience-about.md)
->* [创建可重用受众](reusable-audience-create.md)
->* [可用的第三方数据提供商](third-party-data-providers.md)
->* [受众区段逻辑的语法](audience-segment-logic-syntax.md)
->* [创建和实施自定义区段](custom-segment-create.md)
->* [创建和实施 [!UICONTROL CCPA Opt-Out-of-Sale] 区段](ccpa-opt-out-segment-create.md)
->* [版面设置](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [關於對象管理](audience-about.md)
+>* [建立可重複使用的對象](reusable-audience-create.md)
+>* [可用的第三方資料提供者](third-party-data-providers.md)
+>* [對象區段邏輯的語法](audience-segment-logic-syntax.md)
+>* [建立及實作自訂區段](custom-segment-create.md)
+>* [建立及實作 [!UICONTROL CCPA Opt-Out-of-Sale] 區段](ccpa-opt-out-segment-create.md)
+>* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)
 

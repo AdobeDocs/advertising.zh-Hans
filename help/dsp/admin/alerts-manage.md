@@ -1,6 +1,6 @@
 ---
-title: 管理警报订阅
-description: 了解如何管理自动电子邮件警报。
+title: 管理警報訂閱
+description: 瞭解如何管理自動電子郵件警示。
 exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
@@ -9,78 +9,78 @@ ht-degree: 0%
 
 ---
 
-# 管理警报订阅
+# 管理警報訂閱
 
-## 添加订阅
+## 新增訂閱
 
-1. 在主菜单中，单击 **[!UICONTROL Settings]** > **[!UICONTROL Notifications]**.
+1. 在主功能表中，按一下 **[!UICONTROL Settings]** > **[!UICONTROL Notifications]**.
 
-1. 在通知列表顶部，单击 **[!UICONTROL Add Subscription]**.
+1. 在通知清單頂端，按一下 **[!UICONTROL Add Subscription]**.
 
-1. 输入唯一 *订阅名称**。
+1. 輸入唯一值 *訂閱名稱**用於警示。
 
-1. 在 **[!UICONTROL Add Alerts]** 部分：
+1. 在 **[!UICONTROL Add Alerts]** 區段：
 
-   1. 选择第一个警报类型。
+   1. 選取第一個警示型別。
 
-   1. 输入警报参数。
+   1. 輸入警示引數。
 
-      设置因警报类型而异。
+      設定會因警示型別而異。
 
-   1. （可选）要立即运行警报，请选择 **[!UICONTROL Alert immediately]**. 默认情况下，警报在帐户时区的08:00运行。
+   1. （選擇性）若要立即執行警示，請選取 **[!UICONTROL Alert immediately]**. 依預設，警示會在帳戶時區的08:00執行。
 
-   1. （可选）要向订阅添加其他警报，请单击 **[!UICONTROL Add Alert]** 并创建警报。
+   1. （可選）若要新增其他警報至訂閱，請按一下 **[!UICONTROL Add Alert]** 並建立警報。
 
-1. 在 **[!UICONTROL Add Subscriber Email Addresses]** 字段，输入接收警报的每个电子邮件地址，然后按 **[!UICONTROL Enter]** 键。
+1. 在 **[!UICONTROL Add Subscriber Email Addresses]** 欄位，輸入每個會收到警示的電子郵件地址，然後按下 **[!UICONTROL Enter]** 金鑰。
 
-1. 单击 **保存**.
+1. 按一下 **儲存**.
 
-## 管理订阅警报
+## 管理訂閱的警示
 
-* 向订阅添加警报：
+* 若要將警報新增至訂閱：
 
-   1. 在订阅名称的右侧，单击 **[!UICONTROL + Add Alert]**.
+   1. 在訂閱名稱的右側，按一下 **[!UICONTROL + Add Alert]**.
 
-   1. 选择警报类型。
+   1. 選取警示型別。
 
-   1. 输入警报参数。
+   1. 輸入警示引數。
 
-      设置因警报类型而异。
+      設定會因警示型別而異。
 
-   1. （可选）要立即运行警报，请选择 **[!UICONTROL Alert immediately]**. 默认情况下，将运行警报 <!-- at what time? -->.
-
-   1. 单击 **[!UICONTROL Save]**.
-
-* 要编辑订阅中的警报，请执行以下操作：
-
-   1. 在订阅名称的右侧，单击 ![编辑](/help/dsp/assets/edit.png).
-
-   1. 编辑警报参数。
-
-   1. （可选）要立即运行警报，请选择 **[!UICONTROL Alert immediately]**. 默认情况下，将运行警报 <!-- at what time? -->.
+   1. （選擇性）若要立即執行警示，請選取 **[!UICONTROL Alert immediately]**. 預設會執行警示 <!-- at what time? -->.
 
    1. 单击 **[!UICONTROL Save]**.
 
-* 要从订阅中删除警报，请单击 **[!UICONTROL X]** 警报名称的右侧。
+* 若要編輯訂閱中的警示：
 
-## 管理订阅的订阅者
+   1. 在訂閱名稱的右側，按一下 ![編輯](/help/dsp/assets/edit.png).
 
-* 要向订阅添加订阅者，请在下的输入字段中输入电子邮件地址 **[!UICONTROL Subscribers]**.
+   1. 編輯警示引數。
 
-   用空格分隔多个地址。
+   1. （選擇性）若要立即執行警示，請選取 **[!UICONTROL Alert immediately]**. 預設會執行警示 <!-- at what time? -->.
 
-* 要删除订阅的订阅者，请单击 **[!UICONTROL X]** 地址旁边的 **[!UICONTROL Subscribers]**.
+   1. 单击 **[!UICONTROL Save]**.
 
-## 禁用或启用订阅
+* 若要從訂閱中移除警報，請按一下 **[!UICONTROL X]** 警示名稱右側。
 
-* 在订阅名称的左侧，将切换开关向左移动以禁用订阅，或向右移动以启用订阅。
+## 管理訂閱的訂閱者
 
-## 删除订阅
+* 若要將訂閱者新增至訂閱，請在下的輸入欄位中輸入電子郵件地址 **[!UICONTROL Subscribers]**.
 
-1. 在订阅名称的右侧，单击 **[!UICONTROL X]**.
+   以空格分隔多個位址。
 
-1. 在确认消息中，单击 **[!UICONTROL yes]**.
+* 若要移除訂閱的訂閱者，請按一下 **[!UICONTROL X]** 位於下方的電子郵件地址旁 **[!UICONTROL Subscribers]**.
+
+## 停用或啟用訂閱
+
+* 在訂閱名稱的左側，將切換開關向左移動以停用訂閱，向右移動以啟用訂閱。
+
+## 刪除訂閱
+
+1. 在訂閱名稱的右側，按一下 **[!UICONTROL X]**.
+
+1. 在確認訊息中，按一下 **[!UICONTROL yes]**.
 
 >[!MORELIKETHIS]
 >
->[关于警报订阅](alerts-about.md)
+>[關於警報訂閱](alerts-about.md)

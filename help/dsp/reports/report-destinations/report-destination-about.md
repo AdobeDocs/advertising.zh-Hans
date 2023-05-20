@@ -1,6 +1,6 @@
 ---
-title: 关于 [!UICONTROL Report Destinations]
-description: 了解如何管理自定义报表的提交位置。
+title: 關於 [!UICONTROL Report Destinations]
+description: 瞭解如何管理自訂報告的傳送位置。
 feature: DSP Custom Reports
 exl-id: f1cc7a0d-13cb-4a27-816b-897f373984a6
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,37 +10,37 @@ ht-degree: 0%
 
 ---
 
-# 关于 [!UICONTROL Report Destinations]
+# 關於 [!UICONTROL Report Destinations]
 
-您可以创建和管理投放位置，称为 *[!DNL report destinations]*，用于自定义报表。 配置报表目标后，您可以设置每个自定义报表以提交到单个目标类型的一个或多个位置。 保存报表后，便无法更改目标类型。
+您可以建立和管理傳遞位置，稱為 *[!DNL report destinations]*，適用於您的自訂報表。 設定報表目的地後，您可以將每個自訂報表設定為傳送到單一目的地型別的一個或多個位置。 儲存報表後，便無法變更目的地型別。
 
 ## 可用 [!UICONTROL Destination Types]
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
 * SFTP
-* FTP SSL（测试版）
+* FTP SSL （測試版）
 
 >[!NOTE]
 >
-> 您还可以将自定义报表交付给电子邮件收件人，收件人不需要保存的报表目标。 您可以在报表设置中指定电子邮件收件人，而不是保存的目标。
+> 您也可以將自訂報告傳送給不需要已儲存報告目的地的電子郵件收件者。 您可以在報表設定中指定電子郵件收件者，而非已儲存的目標。
 
-## 的 [!UICONTROL Report Destinations] 查看
+## 此 [!UICONTROL Report Destinations] 檢視
 
-的 [!UICONTROL Report Destinations] “视图”显示所有现有目标以及链接到每个目标的报表数。 您可以按目标类型过滤列表。
+此 [!UICONTROL Report Destinations] 檢視會顯示您所有現有的目的地，以及連結至每個目的地的報表數目。 您可以依目的地型別篩選清單。
 
-您可以在此视图中创建新目标，以及编辑和删除现有目标。
+您可以從此檢視建立新目的地，以及編輯和刪除現有目的地。
 
 >[!NOTE]
 >
->只要凭据有效，更新现有报表目标的凭据将不会中断报表提交。
+>只要認證有效，更新現有報表目的地的認證就不會中斷報表傳送。
 
-![报表目标](/help/dsp/assets/report-destinations.png)
+![報表目的地](/help/dsp/assets/report-destinations.png)
 
 >[!MORELIKETHIS]
 >
->* [创建 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
->* [[!UICONTROL Report Destination] 设置](/help/dsp/reports/report-destinations/report-destination-settings.md)
->* [编辑 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [删除 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [建立 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [[!UICONTROL Report Destination] 設定](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [編輯 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
+>* [刪除 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
 

@@ -1,6 +1,6 @@
 ---
-title: 过滤营销活动数据
-description: 了解如何应用过滤器以缩小显示的营销活动数据范围。
+title: 篩選行銷活動資料
+description: 瞭解如何套用篩選條件，以縮小顯示的行銷活動資料範圍。
 feature: DSP Campaign Data Views
 exl-id: b332684d-d6be-4a67-961a-86b9086356b5
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,33 +10,33 @@ ht-degree: 1%
 
 ---
 
-# 过滤营销活动数据
+# 篩選行銷活動資料
 
-1. 在主工具栏中，单击 ![“过滤器”按钮](/help/dsp/assets/filter.png).
-1. 对于要应用的每个过滤器，单击左列中的过滤器名称，然后指定过滤器值。
+1. 在主工具列中，按一下 ![篩選按鈕](/help/dsp/assets/filter.png).
+1. 針對您要套用的每個篩選，按一下左欄中的篩選名稱，然後指定篩選值。
 1. 单击 **[!UICONTROL Apply]**.
 
-## 可用过滤器
+## 可用的篩選器
 
-以下过滤器可供您的 [!UICONTROL Campaigns], [!UICONTROL Packages]和 [!UICONTROL Placements] 视图：
+下列篩選器適用於您的 [!UICONTROL Campaigns]， [!UICONTROL Packages]、和 [!UICONTROL Placements] 檢視：
 
-* [!UICONTROL Campaigns] 查看过滤器：
+* [!UICONTROL Campaigns] 檢視篩選器：
    * [!UICONTROL Campaign status]
    * [!UICONTROL Advertiser]
-* [!UICONTROL Packages] 查看过滤器：
-   * [!UICONTROL Custom flights] （无论它们是否存在）
-   * [!UICONTROL Custom goal] （如果适用）
+* [!UICONTROL Packages] 檢視篩選器：
+   * [!UICONTROL Custom flights] （無論它們是否存在）
+   * [!UICONTROL Custom goal] （如果適用）
    * [!UICONTROL End end date]
    * [!UICONTROL Optimization goal]
    * [!UICONTROL Flight pacing]
    * [!UICONTROL Intraday pacing]
    * [!UICONTROL Package status]
    * [!UICONTROL Start date]
-* [!UICONTROL Placements] 查看过滤器：
+* [!UICONTROL Placements] 檢視篩選器：
    * [!UICONTROL Custom ad scheduling]
-   * [!UICONTROL Custom goal] （如果适用）
+   * [!UICONTROL Custom goal] （如果適用）
    * [!UICONTROL End date]
-   * [!UICONTROL Max bid] ([!UICONTROL less than], [!UICONTROL greater than]或 [!UICONTROL equal to] 指定值)
+   * [!UICONTROL Max bid] ([!UICONTROL less than]， [!UICONTROL greater than]，或 [!UICONTROL equal to] 指定值)
    * [!UICONTROL Optimization goal]
    * [!UICONTROL Pacing on] ([!UICONTROL impressions] 或 [!UICONTROL spend])
    * [!UICONTROL Flight pacing]
@@ -47,7 +47,7 @@ ht-degree: 1%
    * [!UICONTROL Placement sub-type]
    * [!UICONTROL Start date]
    * [!UICONTROL Creation date]
-* [!UICONTROL Ads] 查看过滤器：
+* [!UICONTROL Ads] 檢視篩選器：
    * [!UICONTROL Adobe ad approval status]
    * [!UICONTROL Ad ID]
    * [!UICONTROL Ad name]
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->* [关于平台内报表](campaign-reports-about.md)
->* [创建自定义列视图](column-view-create.md)
->* [更改列视图](column-view-change.md)
+>* [關於平台內報表](campaign-reports-about.md)
+>* [建立自訂欄檢視](column-view-create.md)
+>* [變更欄檢視](column-view-change.md)
 

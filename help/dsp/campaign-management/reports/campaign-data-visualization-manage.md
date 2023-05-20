@@ -1,6 +1,6 @@
 ---
-title: 管理数据可视化图表
-description: 了解如何更改数据可视化的量度和显示模式。
+title: 管理資料視覺效果
+description: 瞭解如何變更資料視覺效果的量度和顯示模式。
 feature: DSP Campaign Data Views
 exl-id: e0ebcfbb-28f4-4d28-af28-7d8030988d35
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,25 +10,25 @@ ht-degree: 0%
 
 ---
 
-# 管理数据可视化图表
+# 管理資料視覺效果
 
-您可以更改跨促销活动或单个促销活动的所有数据可视化的量度和图表模式。 单个营销活动的更改将应用于该营销活动的所有数据可视化，包括 [!UICONTROL Packages], [!UICONTROL Placements]和 [!UICONTROL Ads] 选项卡。
+您可以跨行銷活動或單一行銷活動變更所有資料視覺效果的量度和圖表模式。 單一行銷活動的變更會套用至行銷活動的所有資料視覺效果，包括 [!UICONTROL Packages]， [!UICONTROL Placements]、和 [!UICONTROL Ads] 索引標籤。
 
-## 更改数据可视化图表的量度
+## 變更資料視覺效果的量度
 
-1. 在数据可视化图表的右上角，单击 ![设置](/help/dsp/assets/settings-chart.png).
-1. 选择量度。
-不能选择同一量度两次。
+1. 在資料視覺效果的右上角，按一下 ![設定](/help/dsp/assets/settings-chart.png).
+1. 選取量度。
+您不能選取相同的量度兩次。
 1. 单击 **[!UICONTROL Apply]**.
 
-## 更改数据可视化的显示模式
+## 變更資料視覺效果的顯示模式
 
-* 在数据可视化图表的右上角，单击 [!UICONTROL Overlay] 交换机(![叠加开关](/help/dsp/assets/overlay.png))以在叠加模式（所有图表叠加在一起）和网格图模式（三个单独的图表）之间进行更改。
+* 在資料視覺效果的右上角，按一下 [!UICONTROL Overlay] 切換(![覆蓋切換](/help/dsp/assets/overlay.png))，以在覆蓋模式（所有圖表重疊在一起）和格線圖模式（三個個別的圖表）之間變更。
 
 >[!MORELIKETHIS]
 >
->* [关于平台内报表](campaign-reports-about.md)
->* [查看版面的网站、广告和频度详细信息](placement-details-view.md)
->* [更改列视图](column-view-change.md)
->* [过滤营销活动数据](campaign-data-filter.md)
+>* [關於平台內報表](campaign-reports-about.md)
+>* [檢視刊登版位的網站、廣告和頻率詳細資訊](placement-details-view.md)
+>* [變更欄檢視](column-view-change.md)
+>* [篩選行銷活動資料](campaign-data-filter.md)
 

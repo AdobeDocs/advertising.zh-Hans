@@ -1,6 +1,6 @@
 ---
-title: 优化
-description: 了解有关优化功能的更多信息。
+title: 最佳化
+description: 進一步瞭解最佳化功能。
 feature: DSP Introduction, DSP Optimization
 exl-id: c60e58e7-ab16-49bd-9acf-e5b858755493
 source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
@@ -10,18 +10,18 @@ ht-degree: 0%
 
 ---
 
-# 优化
+# 最佳化
 
-当您设置程序化营销活动时，需要考虑的一个关键项目是营销活动目标以及如何将其转换为可衡量的KPI。 此翻译将定义如何配置营销活动的优化目标。
+當您設定程式化行銷活動時，要考慮的關鍵專案之一就是行銷活動目標，以及如何將其轉換為可衡量的KPI。 此翻譯將定義如何設定行銷活動的最佳化目標。
 
-Advertising DSP会在两个阶段中优化您最关心的量度。 首先，它会根据资源包的优化目标，将支出转移到表现最佳的投放或策略上。 其次，它可实时调整竞价，以反映平衡的时刻经济价值a)需要用b)您选择的KPI来全面交付预算。 这些优化阶段共同确保您的预算得到有效利用，以实现营销活动目标。
+Advertising DSP會分兩個階段針對您最關心的量度進行最佳化。 首先，它會根據套件的最佳化目標，將支出轉移到表現最好的位置或策略。 第二，它可即時調整拍賣競標，以反映即時經濟價值，平衡a)全面交付預算的需求，以及b)您選擇的KPI。 這些最佳化階段可共同確保您的預算有效用於達成行銷活動目標。
 
-对于每个版面和包，您可以选择一个优化目标。 可用的优化目标包括预设选项，例如“[!UICONTROL Lowest Cost per Click]、”和您在 [!DNL Advertising Search, Social, & Commerce].
+您可以對每個版位和套件選擇最佳化目標。 可用的最佳化目標包括預設集選項，例如&quot;[!UICONTROL Lowest Cost per Click]，」以及您在中設定為目標的自訂目標 [!DNL Advertising Search, Social, & Commerce].
 
 >[!MORELIKETHIS]
 >
-> * [DSP如何优化您的营销活动](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
->* [优化目标及其使用方法](/help/dsp/optimization/optimization-goals.md)
->* [包设置](/help/dsp/campaign-management/packages/package-settings.md)
->* [版面设置](/help/dsp/campaign-management/placements/placement-settings.md)
+> * [DSP如何最佳化您的行銷活動](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
+>* [最佳化目標及使用方式](/help/dsp/optimization/optimization-goals.md)
+>* [封裝設定](/help/dsp/campaign-management/packages/package-settings.md)
+>* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)
 

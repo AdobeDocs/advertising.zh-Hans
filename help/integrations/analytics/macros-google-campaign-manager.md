@@ -1,6 +1,6 @@
 ---
-title: 附加 [!DNL Analytics for Advertising] 宏 [!DNL Google Campaign Manager 360] 广告标记
-description: 了解添加原因和方法 [!DNL Analytics for Advertising] 宏 [!DNL Google Campaign Manager 360] 广告标记
+title: 附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Google Campaign Manager 360] 廣告標籤
+description: 瞭解新增原因和方式 [!DNL Analytics for Advertising] 巨集加入您的 [!DNL Google Campaign Manager 360] 廣告標籤
 feature: Integration with Adobe Analytics
 exl-id: 89cd4e1d-277a-4a43-9c38-ae6641302e09
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,31 +10,31 @@ ht-degree: 0%
 
 ---
 
-# 附加 [!DNL Analytics for Advertising] 宏 [!DNL Google Campaign Manager 360] 广告标记
+# 附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Google Campaign Manager 360] 廣告標籤
 
-*仅具有Adobe广告与Adobe Analytics集成的广告商*
+*僅具有AdobeAdvertising-Adobe Analytics整合的廣告商*
 
-*仅适用于Advertising DSP*
+*僅適用於Advertising DSP*
 
-如果您使用 [!DNL Google Campaign Manager 360] 对于您的Advertising DSP广告，请附加 [!DNL Analytics for Advertising] 参数到登陆页面URL(使用 [`%p` 宏](https://support.google.com/campaignmanager/table/6096962). 参数记录 `s_kwcid` 和 `ef_id` 查询登陆页面URL中的字符串参数，允许Adobe广告将广告的点击数据发送到Adobe Analytics。
+如果您使用來自的廣告標籤 [!DNL Google Campaign Manager 360] 若為您的Advertising DSP廣告，請附加 [!DNL Analytics for Advertising] 引數至您的登陸頁面URL，使用 [`%p` 巨集](https://support.google.com/campaignmanager/table/6096962). 引數記錄 `s_kwcid` 和 `ef_id` 登陸頁面URL中的查詢字串引數，可讓Adobe廣告將廣告的點選資料傳送至Adobe Analytics。
 
-对使用宏 [!DNL Campaign Manager 360] 以下类型的显示和视频广告 [!DNL Analytics for Advertising] 实施：
+將巨集用於 [!DNL Campaign Manager 360] 適用於下列型別的顯示廣告和視訊廣告 [!DNL Analytics for Advertising] 實作：
 
-* **具有 [!DNL Adobe] [!DNL Analytics for Advertising] 在其网站上实施的JavaScript代码**:JavaScript代码已记录 `s_kwcid` 和 `ef_id` 查询字符串参数。 但是，当不支持第三方Cookie时，使用宏会扩展跟踪以包含基于点击的转化。 最佳做法是将以下部分中的宏添加到您的广告标记中，以捕获未通过JavaScript代码捕获的其他点进数据。
+* **使用的廣告商 [!DNL Adobe] [!DNL Analytics for Advertising] 在其網站上實作的JavaScript程式碼**：JavaScript程式碼已記錄 `s_kwcid` 和 `ef_id` 查詢字串引數。 不過，當不支援第三方Cookie時，使用巨集可延伸追蹤以包含點選型轉換。 最佳實務是將下列各節中的巨集新增至廣告標籤，以擷取未透過JavaScript程式碼擷取的其他點進資料。
 
 >[!NOTE]
 >
->JavaScript代码是仅在Cookie仍然可用时用于点击跟踪的解决方案。 停止Cookie后，将需要实施以下宏。
+>JavaScript程式碼是僅在Cookie仍可用時用於點選追蹤的解決方案。 一旦Cookie停止使用，便需要實作下列巨集。
 
-* **网站不使用的广告商 [!DNL Analytics for Advertising] JavaScript代码，而是依赖 [!DNL Analytics] 仅用于点进数据的服务器端转发** （不含任何显示到达数据）：要报告由您通过Adobe广告购买的广告所驱动的网站点击活动，需要以下宏。
+* **其網站未使用的廣告商 [!DNL Analytics for Advertising] JavaScript程式碼，並改為依賴 [!DNL Analytics] 僅限點進資料的伺服器端轉送** （沒有任何瀏覽資料）：需要下列巨集來報告網站上由您透過Adobe廣告購買的廣告驅動的點選活動。
 
-## 将宏附加到 [!DNL Google Campaign Manager 360] 广告
+## 將巨集附加至 [!DNL Google Campaign Manager 360] 廣告
 
-在 [!DNL Google Campaign Manager 360]，将以下参数附加到登陆页面URL中每个显示广告和视频广告的： `%pamo=!;`
+範圍 [!DNL Google Campaign Manager 360]，將下列引數附加至每個顯示廣告和影片廣告的登陸頁面URL： `%pamo=!;`
 
-您可以通过多种方式指定登陆页面URL。 以下子部分中包含每个选项的说明。
+您可以透過數種方式指定登入頁面URL。 以下小節包含每個選項的指示。
 
-以下是带后缀的登陆页面URL的示例。
+以下範例為尾碼格式化的登入頁面URL。
 
 ```
 https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
@@ -43,30 +43,30 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 >[!NOTE]
 >
 >
->* 如果登陆页面URL包含不常见的井号(#)，请将 `amo` 参数。
->* 如果在 `amo` 参数，然后在其后添加参数（例如&amp;a=b）。 示例：`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
+>* 如果登陸頁面URL包含雜湊符號(#)，這是不常見的，請放置 `amo` 雜湊符號前的引數。
+>* 如果之後未包含其他引數 `amo` 引數，然後新增引數（例如&amp;a=b）。 範例：`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 
-### 配置广告商级别的登陆页面URL后缀
+### 設定廣告商層級的登陸頁面URL尾碼
 
-1. 请参阅 [打开广告商属性的说明](https://support.google.com/campaignmanager/answer/2829344).
-1. 在 [!UICONTROL Landing page URL suffix] 设置，包括 `%pamo!;` 在 [!UICONTROL URL suffix] 字段。
+1. 請參閱 [開啟廣告商屬性的指示](https://support.google.com/campaignmanager/answer/2829344).
+1. 在 [!UICONTROL Landing page URL suffix] 設定，包括 `%pamo!;` 在 [!UICONTROL URL suffix] 欄位。
 
-### 配置营销活动级别的登陆页面URL后缀
+### 設定行銷活動層級的登陸頁面URL尾碼
 
-1. 请参阅 [有关打开营销活动属性的说明](https://support.google.com/campaignmanager/answer/2838056#set).
-1. 在 [!UICONTROL Landing page URL suffix] 设置，包括 `%pamo!;` 在 [!UICONTROL URL suffix] 字段。
+1. 請參閱 [開啟行銷活動屬性的指示](https://support.google.com/campaignmanager/answer/2838056#set).
+1. 在 [!UICONTROL Landing page URL suffix] 設定，包括 `%pamo!;` 在 [!UICONTROL URL suffix] 欄位。
 
-### 配置创意级别的登陆页面URL后缀
+### 設定創意層級登陸頁面URL尾碼
 
-1. 打开创作属性。
-1. 在 [!UICONTROL Click tags] 设置，包含 `%pamo!;` 在 [!UICONTROL Landing page] 列。
+1. 開啟創意內容。
+1. 在 [!UICONTROL Click tags] 設定，包含 `%pamo!;` 在 [!UICONTROL Landing page] 點按標籤的欄。
 
-## 如何 [!DNL Analytics for Advertising] 宏在DSP中扩展
+## 如何 [!DNL Analytics for Advertising] 在DSP中展開巨集
 
-在DSP中，当您创建的广告包含 [!DNL Analytics for Advertising] 参数(`amo`)、 `ef_id` 和 `s_kwcid` 宏会自动附加到点击URL中。 最佳实践是在DSP中检查标记，以确保 `ef_id` 和 `s_kwcid` 宏存在。
+在DSP中，當您建立包含 [!DNL Analytics for Advertising] 引數(`amo`)， `ef_id` 和 `s_kwcid` 巨集會自動附加至點選URL。 最佳實務是檢查DSP中的標籤，以確保 `ef_id` 和 `s_kwcid` 有巨集存在。
 
-以下是 [!DNL Google Campaign Manager 360] [ins标记](https://support.google.com/campaignmanager/answer/6080468) 与在DSP中显示时一样。
+以下範例為 [!DNL Google Campaign Manager 360] [ins標籤](https://support.google.com/campaignmanager/answer/6080468) 在DSP中顯示的內容。
 
 ```
 <ins class='dcmads' style='display:inline-block;width:160px;height:600px'
@@ -80,11 +80,11 @@ data-dcm-param-amo='ef_id=${TM_USER_ID}:${TM_DATETIME}:d&s_kwcid=AC!${TM_AD_ID}!
 </ins>
 ```
 
-当用户点击广告时， [!DNL Google Campaign Manager 360] sees `%pamo` 后缀中，并动态插入 `amo` 参数添加到URL中。
+當使用者按一下廣告， [!DNL Google Campaign Manager 360] 看到 `%pamo` URL尾碼中的值，並動態插入 `amo` 引數放入URL中。
 
 >[!MORELIKETHIS]
 >
 >* [概述 [!DNL Analytics for Advertising]](overview.md)
->* [Adobe使用的广告ID [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [附加 [!DNL Analytics for Advertising] 宏 [!DNL Flashtalking] 广告标记](macros-flashtalking.md)
+>* [使用的Adobe廣告ID [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Flashtalking] 廣告標籤](macros-flashtalking.md)
 

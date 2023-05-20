@@ -1,6 +1,6 @@
 ---
-title: 查看包更改日志
-description: 了解如何查看对包所做的更改。
+title: 檢視封裝變更記錄
+description: 瞭解如何檢視對封裝所做的變更。
 feature: DSP Packages
 exl-id: dd33519b-19cf-4b6f-b6d2-ec0874e27075
 source-git-commit: 1c2b75ea10fc1c619a6fa342581b9c8fb8289fb7
@@ -10,31 +10,31 @@ ht-degree: 0%
 
 ---
 
-# 查看包的更改日志
+# 檢視套裝程式的變更記錄
 
-更改日志显示在选定日期范围内对包所做的更改，包括包名称、实体类型（包）、更改类型、新值和旧值、进行更改的用户以及日期。 您可以选择向任何条目添加注释。
+變更記錄會顯示所選日期範圍內對封裝所做的變更，包括封裝名稱、實體型別（封裝）、變更型別、新值和舊值、進行變更的使用者以及日期。 您可以選擇將附註新增至任何專案。
 
-除“新值”和“旧值”之外，您可以按任何列对数据进行排序。
+您可以依任何欄排序資料，但「新值」和「舊值」除外。
 
-1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 
-1. 单击营销活动的名称。
+1. 按一下行銷活動的名稱。
 
-1. 在 **[!UICONTROL Packages]** 选项卡，在包名称旁边单击  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. 於 **[!UICONTROL Packages]** 索引標籤中，在封裝名稱旁按一下  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
-1. （可选）执行以下任一操作：
+1. （可選）執行下列任一項作業：
 
-   * 要在仅以表格形式查看数据和以表格和图表形式查看数据之间切换，请单击 ![表和图表视图](/help/dsp/assets/table-plus-chart-view.png "表和图表视图") 或 ![表视图](/help/dsp/assets/table-view.png "表视图") 中。
+   * 若要在只以表格表單檢視資料，以及同時以表格和圖表表單檢視資料之間切換，請按一下 ![表格和圖表檢視](/help/dsp/assets/table-plus-chart-view.png "表格和圖表檢視") 或 ![表格檢視](/help/dsp/assets/table-view.png "表格檢視") （位於右上角工具列中）。
 
-   * 要向条目添加注释，请将光标悬停在 [!UICONTROL Notes] 列，然后单击 **[!UICONTROL Add Notes]**. 在输入字段中输入文本，然后单击 **[!UICONTROL Save]**.
+   * 若要新增註記至專案，請將游標停留在 [!UICONTROL Notes] 欄中的文字，然後按一下 **[!UICONTROL Add Notes]**. 在輸入欄位中輸入文字，然後按一下 **[!UICONTROL Save]**.
 
-   * 要在弹出窗口中查看条目的详细信息，请将光标悬停在 [!UICONTROL Notes] 列，然后单击 **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * 若要在彈出式視窗中檢視專案的詳細資訊，請將游標停留在 [!UICONTROL Notes] 欄中的文字，然後按一下 **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 >[!MORELIKETHIS]
 >
->* [关于包管理](package-about.md)
->* [创建资源包](package-create.md)
->* [编辑资源包](package-edit.md)
->* [将版面附加到包](package-attach-placement.md)
->* [包设置](package-settings.md)
+>* [關於封裝管理](package-about.md)
+>* [建立套裝](package-create.md)
+>* [編輯套裝](package-edit.md)
+>* [將位置附加至封裝](package-attach-placement.md)
+>* [封裝設定](package-settings.md)
 

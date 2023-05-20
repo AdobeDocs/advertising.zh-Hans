@@ -1,6 +1,6 @@
 ---
-title: 显示广告设置
-description: 请参阅展示广告的可用广告设置的描述。
+title: 顯示廣告設定
+description: 請參閱顯示廣告可用廣告設定的說明。
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,63 +10,63 @@ ht-degree: 0%
 
 ---
 
-# 显示广告设置
+# 顯示廣告設定
 
-以下设置适用于标准显示广告。
+下列設定適用於標準顯示廣告。
 
 ## [!UICONTROL Ad Options]
 
 ### 基本
 
-**[!UICONTROL Ad Type]:** （只读）您创建的广告类型，与广告可附加到的版面类型相对应。 默认为 *[!UICONTROL Display]*.
+**[!UICONTROL Ad Type]：** （唯讀）您正在建立的廣告型別，與可附加廣告的位置型別相對應。 其預設值為 *[!UICONTROL Display]*.
 
-**[!UICONTROL Ad Name]:** 广告名称。 默认情况下，会使用资产标题，但您可以更改名称。
+**[!UICONTROL Ad Name]：** 廣告名稱。 預設會使用資產標題，但您可以變更名稱。
 
 >[!TIP]
 >
-> 在 [!UICONTROL Ads] 视图和报表中。 例如，描述设备类型和一些关键属性(例如“假日产品预览”：300x250游戏机”)。
+> 當您在下列位置將廣告附加至位置時，請使用容易找到的名稱： [!UICONTROL Ads] 檢視，以及在報表中。 例如，說明單位型別和某些關鍵屬性（例如Holiday Product Preview： 300x250 Gamer」）。
 
-**\[广告源\]**:（只读） *[!UICONTROL 3rd party]*.
+**\[廣告來源\]**：（唯讀） *[!UICONTROL 3rd party]*.
 
-**[!UICONTROL This is an expandable Banner]:** （仅限第三方广告）指示广告是可扩展的横幅广告。 相关的扩展设置可确定要购买的库存，因此请确保它们反映广告行为。
+**[!UICONTROL This is an expandable Banner]：** （僅限協力廠商廣告）指出廣告是可展開的橫幅廣告。 相關的擴充設定會決定要購買哪個存貨，因此請確定它們反映了廣告行為。
 
-**[!UICONTROL Expansion Method]:** （仅限第三方可扩展的横幅广告）横幅是否在 *[!UICONTROL Click]* 或 *[!UICONTROL Rollover]*.
+**[!UICONTROL Expansion Method]：** （僅限協力廠商可展開的橫幅廣告）橫幅是否展開於 *[!UICONTROL Click]* 或 *[!UICONTROL Rollover]*.
 
-**[!UICONTROL Expansion Directions]:** （仅限第三方可扩展的横幅广告）广告展开的方向： *[!UICONTROL Up]*, *[!UICONTROL Down]*, *[!UICONTROL Left]*&#x200B;或 *[!UICONTROL Right]*.
+**[!UICONTROL Expansion Directions]：** （僅限協力廠商可展開的橫幅廣告）廣告展開的方向： *[!UICONTROL Up]*， *[!UICONTROL Down]*， *[!UICONTROL Left]*，或 *[!UICONTROL Right]*.
 
-**[!UICONTROL Certified Vendors]:** （仅限第三方可扩展横幅广告）广告可用的认证供应商： *[!UICONTROL DCM]* ([!DNL Google DoubleClick for Advertisers])、 *[!UICONTROL Flashtalking]*, *[!UICONTROL Sizmek]*&#x200B;或 *[!UICONTROL Jivox]*.
+**[!UICONTROL Certified Vendors]：** （僅限協力廠商可展開的橫幅廣告）提供廣告的認證廠商： *[!UICONTROL DCM]* ([!DNL Google DoubleClick for Advertisers])， *[!UICONTROL Flashtalking]*， *[!UICONTROL Sizmek]*，或 *[!UICONTROL Jivox]*.
 
-**[!UICONTROL Display Code]:** （仅限第三方广告）第三方创意资产的URL。 任意 [timestamp] 和[[timestamp]]参数将被实际值替换。
+**[!UICONTROL Display Code]：** （僅限第三方廣告）第三方創意資產的URL。 任何 [timestamp] 和[[timestamp]]引數將被實際值取代。
 
-**[!UICONTROL Final Display Code]:** （仅限第三方广告）第三方创意资产的URL，并且必要 [Advertising DSP跟踪宏](/help/dsp/campaign-management/macros.md) 插入（如果适用）。
+**[!UICONTROL Final Display Code]：** （僅限協力廠商廣告）協力廠商創意資產的URL，帶有必要的 [Advertising DSP追蹤巨集](/help/dsp/campaign-management/macros.md) 已插入（如果適用）。
 
-**[!UICONTROL Ad Size]:** 广告的宽度和高度。 它必须是 [支持的标准显示广告大小](ad-specs.md). 您可以在上传广告之前手动输入广告大小或输入 [!UICONTROL Display Code]. 如果不输入广告大小，则上载的广告或广告标记的维度将自动输入为只读。 请注意，如果维度不在标准显示中，则不会保存显示广告，例如301x250，而不是300x250广告大小。
+**[!UICONTROL Ad Size]：** 廣告的寬度和高度。 它必須是 [支援的標準顯示廣告大小](ad-specs.md). 您可以在上傳廣告前手動輸入廣告大小，或輸入 [!UICONTROL Display Code]. 如果您未輸入廣告大小，上傳的廣告或廣告標籤的維度會自動輸入為唯讀。 請注意，如果尺寸不在標準顯示範圍內，顯示廣告不會儲存為大小 — 例如301x250而不是300x250廣告大小。
 
 >[!IMPORTANT]
 >
-> 在宽度和高度字段中声明的广告大小将与传入的竞价请求匹配。 如果广告的维度与声明的广告大小不匹配，则可能会遇到投放问题。
+> 在寬度和高度欄位中宣告的廣告大小將與傳入的競標要求相符。 如果廣告的維度不符合宣告的廣告大小，您可能會遇到傳送問題。
 
 ### [!UICONTROL Pixel]
 
-用于放置的所有现有事件跟踪像素都会自动附加。 您可以根据您对单个广告的跟踪需求，分离现有像素并根据需要创建新像素。
+會自動附加位置的所有現有事件追蹤畫素。 您可以根據個別廣告的追蹤需求，分離現有畫素並根據需要建立新畫素。
 
-以下设置适用于您创建或编辑的每个像素。
+下列設定會套用至您建立或編輯的每個畫素。
 
-**[!UICONTROL Integration Event]:** 触发像素的事件。 对于此广告类型，请使用 *[!UICONTROL Impression]* 或 *[!UICONTROL Click-through]*.
+**[!UICONTROL Integration Event]：** 觸發畫素觸發的事件。 對於此廣告型別，請使用在 *[!UICONTROL Impression]* 或 *[!UICONTROL Click-through]*.
 
-**[!UICONTROL Pixel Type]:** 像素是否为 *[!UICONTROL IMG URL]* （1x1像素图像文件）， *[!UICONTROL HTML]*&#x200B;或 *[!UICONTROL JavaScript URL]*.
+**[!UICONTROL Pixel Type]：** 畫素是否為 *[!UICONTROL IMG URL]* （1x1畫素影像檔案）， *[!UICONTROL HTML]*，或 *[!UICONTROL JavaScript URL]*.
 
-**[!UICONTROL Pixel URL or Code]:** 像素图像的URL，格式与指定的 [!UICONTROL Pixel Type].
+**[!UICONTROL Pixel URL or Code]：** 畫素影像的URL，以指定的適當格式顯示 [!UICONTROL Pixel Type].
 
-**[!UICONTROL Pixel Name]:** 像素名称。 使用有助于您轻松识别像素的名称。
+**[!UICONTROL Pixel Name]：** 畫素名稱。 使用可協助您輕鬆識別畫素的名稱。
 
-**[!UICONTROL Pixel Provider]:** 像素提供程序： *[!UICONTROL None]*, *[!UICONTROL Nielsen]*&#x200B;或 *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]：** 畫素提供者： *[!UICONTROL None]*， *[!UICONTROL Nielsen]*，或 *[!UICONTROL Comscore]*.
 
 >[!MORELIKETHIS]
 >
->* [关于广告管理](ad-about.md)
->* [创建单个广告](ad-create.md)
->* [列出与广告关联的版面](ad-list-placements.md)
->* [广告规范](ad-specs.md)
->* [DSP宏](/help/dsp/campaign-management/macros.md)
+>* [關於廣告管理](ad-about.md)
+>* [建立單一廣告](ad-create.md)
+>* [列出與廣告相關的版位](ad-list-placements.md)
+>* [廣告規格](ad-specs.md)
+>* [DSP巨集](/help/dsp/campaign-management/macros.md)
 

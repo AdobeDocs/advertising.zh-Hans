@@ -1,6 +1,6 @@
 ---
-title: 关于Campaign Management在Advertising DSP中
-description: 了解营销活动管理。
+title: 關於Advertising DSP中的Campaign Management
+description: 瞭解行銷活動管理。
 feature: DSP Campaigns
 exl-id: 8ba1d94d-4cb2-4ed8-a527-b6097ec07380
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,30 +10,30 @@ ht-degree: 0%
 
 ---
 
-# 关于Campaign Management在Advertising DSP中
+# 關於Advertising DSP中的Campaign Management
 
-营销活动是飞行设置的总体框架。 所有营销活动级别设置都会自动应用于营销活动中的每个包和版面。 每个营销活动都与特定的广告商关联。
+行銷活動是航班設定的總體架構。 所有行銷活動層級設定會自動套用至行銷活動內的每個套件和位置。 每個行銷活動都與特定廣告商相關聯。
 
-您可以手动创建营销活动，也可以通过复制现有营销活动来创建营销活动。 您还可以编辑现有的营销活动。
+您可以手動建立行銷活動，或複製現有的行銷活動。 您也可以編輯現有的行銷活動。
 
-## 的 [!UICONTROL Campaigns] 功能板
+## 此 [!UICONTROL Campaigns] 儀表板
 
 <!-- standardize on "dashboard" or "view" -->
-的 [!UICONTROL Campaigns] 功能板可集中显示所有营销活动的效果和经济报表，从而快速了解营销活动在指定日期范围内的表现。
+此 [!UICONTROL Campaigns] 控制面板可集中處理所有行銷活動的效能和經濟報表，提供指定日期範圍內行銷活動的快速快照。
 
-![促销活动功能板](/help/dsp/assets/campaign-dashboard.png)
+![行銷活動控制面板](/help/dsp/assets/campaign-dashboard.png)
 
-默认情况下，功能板按促销活动显示步调和投放量度。 您可以选择查看营销活动的绩效量度，并创建自定义列集。 您可以将整个数据表导出或将单个促销活动中所有版面的数据下载到浏览器的默认下载文件夹中，作为XLSM（启用宏的Excel电子表格）格式的报表。
+預設情況下，控制面板會依行銷活動顯示步調和傳送量度。 您可以選擇檢視行銷活動的效能量度，並建立自訂欄集。 您可以將整個資料表格匯出，或將單一行銷活動中所有版位的資料下載至瀏覽器的預設下載資料夾，以XLSM （啟用巨集的Excel試算表）格式作為報表。
 
 >[!NOTE]
 >
->您可以通过进一步自定义营销活动报告的内容和交付 [自定义报表](/help/dsp/reports/report-about.md).
+>您可以進一步透過自訂行銷活動報告的內容和傳送 [自訂報表](/help/dsp/reports/report-about.md).
 
-要查看营销活动中的所有包、版面和广告，请单击营销活动名称。
+若要檢視行銷活動中的所有套件、版位和廣告，請按一下行銷活動名稱。
 
 >[!MORELIKETHIS]
 >
->* [创建营销活动](campaign-create.md)
->* [营销活动设置](campaign-settings.md)
->* [视频：DSP帐户结构和用户界面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [建立行銷活動](campaign-create.md)
+>* [Campaign設定](campaign-settings.md)
+>* [影片：DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
 

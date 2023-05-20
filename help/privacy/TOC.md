@@ -18,8 +18,8 @@ ht-degree: 56%
 
 # Adobe Advertising 对消费者隐私的支持 {#privacy}
 
-+ [关于Adobe广告对消费者隐私的支持](/help/privacy/home.md)
-+ [支持GDPR](/help/privacy/gdpr.md)
-+ 支持CCPA {#ccpa}
-   + [支持CCPA：消费者数据访问和删除](/help/privacy/ccpa/ccpa-access-delete.md)
-   + [(仅限DSP)支持CCPA：消费者选择退出销售](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
++ [關於Adobe廣告對消費者隱私權的支援](/help/privacy/home.md)
++ [支援GDPR](/help/privacy/gdpr.md)
++ 支援CCPA {#ccpa}
+   + [支援CCPA：消費者資料存取和刪除](/help/privacy/ccpa/ccpa-access-delete.md)
+   + [(僅限DSP)支援CCPA：消費者選擇退出銷售](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)

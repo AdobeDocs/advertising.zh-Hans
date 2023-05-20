@@ -1,6 +1,6 @@
 ---
-title: 创建单个广告
-description: 了解如何创建单个第三方广告。
+title: 建立單一廣告
+description: 瞭解如何建立單一第三方廣告。
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
 source-git-commit: 4af30f6fa6a81ce7f1a6879244178c84580caa0f
@@ -10,49 +10,49 @@ ht-degree: 0%
 
 ---
 
-# 创建单个广告
+# 建立單一廣告
 
-您可以在各种 [广告类型](ad-about.md#ad-types).
+您可以建立個別的原生顯示廣告或各種形式的第三方廣告 [廣告型別](ad-about.md#ad-types).
 
-要一次创建多个第三方广告，请参阅 [创建多个第三方广告](ad-create-multiple.md).
+若要一次建立多個協力廠商廣告，請參閱 [建立多個協力廠商廣告](ad-create-multiple.md).
 
 >[!NOTE]
 >
->您的所有设置都会自动保存，甚至在您提交广告以供审阅之前。
+>您所有的設定都會自動儲存，甚至在您提交廣告以供檢閱之前便已儲存。
 
-1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 
-1. 单击将包含广告的营销活动的名称。
+1. 按一下將包含廣告的行銷活動名稱。
 
-1. 在数据表上方，单击 **[!UICONTROL Create]**. 在 [!UICONTROL Ad Types] ，单击 [广告类型](ad-about.md#ad-types).
+1. 在資料表格上方，按一下 **[!UICONTROL Create]**. 在 [!UICONTROL Ad Types] 區段，按一下 [廣告型別](ad-about.md#ad-types).
 
-1. 指定的广告设置 [音频广告](ad-settings-audio.md), [连接电视](ad-settings-connected-tv.md), [展示广告](ad-settings-display.md), [移动广告](ad-settings-mobile.md), [本机广告](ad-settings-native.md), [前置广告](ad-settings-pre-roll.md)或 [通用视频广告](ad-settings-universal-video.md):
-
-   >[!NOTE]
-   >
-   >通用视频广告只能附加到通用视频投放。
-
-   1. 在 [!UICONTROL Insert Ad Tag] 屏幕中，输入有关经认证的第三方广告服务合作伙伴的广告信息，然后单击 **[!UICONTROL Go]**.
-
-   1. 在 [!UICONTROL Options] 屏幕：
-
-      1. 在 [!UICONTROL Basics] ，请指定广告详细信息。
-
-      1. （可选）在 [!UICONTROL Pixel] 选项卡，指定要附加到广告的任何第三方跟踪像素。
-
-1. 广告完成后，单击 **[!UICONTROL Save & Submit for Review]**.
-
-   的 [广告审阅](ad-about.md) 需要24-48小时，包括对敏感类别的检查、单击URL功能以及预览渲染。 “状态”列指示DSP是否已批准该广告。 断开的广告可能具有超过24-48小时的挂起状态，因此您有时间修复错误，然后才能拒绝它们。
+1. 指定廣告設定 [音訊廣告](ad-settings-audio.md)， [連線電視](ad-settings-connected-tv.md)， [顯示廣告](ad-settings-display.md)， [行動裝置廣告](ad-settings-mobile.md)， [原生廣告](ad-settings-native.md)， [前段廣告](ad-settings-pre-roll.md)，或 [通用視訊廣告](ad-settings-universal-video.md)：
 
    >[!NOTE]
    >
-   >仅当DSP和SSP都批准了创作元素时，才会提供您的广告。 每个SSP都有自己的批准要求和流程。
+   >通用視訊廣告只能附加至通用視訊位置。
+
+   1. 於 [!UICONTROL Insert Ad Tag] 畫面，輸入認證協力廠商廣告服務合作夥伴的廣告相關資訊，然後按一下 **[!UICONTROL Go]**.
+
+   1. 於 [!UICONTROL Options] 畫面：
+
+      1. 於 [!UICONTROL Basics] 索引標籤中，指定廣告詳細資料。
+
+      1. （選用）在 [!UICONTROL Pixel] 索引標籤中，指定您要附加至廣告的任何協力廠商追蹤畫素。
+
+1. 當廣告完成時，按一下 **[!UICONTROL Save & Submit for Review]**.
+
+   此 [廣告評論](ad-about.md) 需要24到48小時，並包括敏感類別的檢查、點選URL功能和預覽呈現。 「狀態」欄會指出DSP是否已核准廣告。 損壞的廣告可能會有超過24到48小時的擱置狀態，因此您可以在錯誤被拒絕之前有時間修正錯誤。
+
+   >[!NOTE]
+   >
+   >只有在DSP和SSP都核准創意內容後，才會提供您的廣告。 每個SSP都有自己的核准需求和流程。
 
 >[!MORELIKETHIS]
 >
->* [关于广告管理](ad-about.md)
->* [创建多个第三方广告](ad-create-multiple.md)
->* [编辑广告](ad-edit.md)
->* [广告规范](ad-specs.md)
->* [关于通用视频的常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)
+>* [關於廣告管理](ad-about.md)
+>* [建立多個協力廠商廣告](ad-create-multiple.md)
+>* [編輯廣告](ad-edit.md)
+>* [廣告規格](ad-specs.md)
+>* [關於通用視訊的常見問題集](/help/dsp/campaign-management/faq-universal-video.md)
 

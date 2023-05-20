@@ -1,6 +1,6 @@
 ---
-title: 关于Advertising DSP中的版面管理
-description: 了解位置管理。
+title: 關於Advertising DSP中的版位管理
+description: 瞭解版位管理。
 feature: DSP Placements
 exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
@@ -10,44 +10,44 @@ ht-degree: 0%
 
 ---
 
-# 关于Advertising DSP中的版面管理
+# 關於Advertising DSP中的版位管理
 
-版面包括同一广告类型的一个或多个广告的定位参数。 您可以为单个促销活动或包创建版面，然后为其分配广告。 每个营销活动或版面可以包含多个版面，且具有指定的广告轮换。 默认情况下，广告会均匀旋转。
+版位包含相同廣告型別的一或多個廣告的目標定位引數。 您可以為單一行銷活動或套件建立版位，然後為其指派廣告。 每個行銷活動或版位均可包含多個版位，並指定廣告輪換。 依預設，廣告會平均旋轉。
 
-在将活动投放分配给活动包或营销策划后，投放中所有活动的已批准广告均有资格根据投放定位参数运行。
+一旦您將有效版位指派給有效封裝或促銷活動，版位中所有有效、核准的廣告都符合根據版位鎖定目標引數執行的資格。
 
-您可以手动创建版面，也可以通过复制现有版面来创建。 您还可以创建版面模板以手动或从现有版面中重复使用。 您可以将其他广告附加到任何版面。 您还可以编辑、暂停或存档单个版面，或使用批量编辑工具进行更改。
+您可以手動建立位置，或複製現有位置。 您也可以手動或從現有版位建立版位範本以重複使用。 您可以將其他廣告附加至任何位置。 您也可以編輯、暫停或封存個別位置，或使用大量編輯工具進行變更。
 
-## 可用版面类型
+## 可用的位置型別
 
-* 前置广告
-* 移动设备
-* 显示
-* 本机
-* 音频
-* 连接的电视
-* 通用视频
+* 前置滾動
+* 行動
+* 顯示
+* 原生
+* 音訊
+* 連線電視
+* 通用視訊
 
-## 的 [!UICONTROL Placements] 功能板
+## 此 [!UICONTROL Placements] 儀表板
 
-的 [!UICONTROL Placements] 功能板可集中显示所有版面的性能和经济报表，从而提供版面在指定日期范围内的表现快速快照。
+此 [!UICONTROL Placements] 控制面板可集中處理所有刊登版位的效能和經濟報表，提供指定日期範圍內刊登版位的快速快照。
 
-![版面功能板](/help/dsp/assets/placement-dashboard.png)
+![版位控制面板](/help/dsp/assets/placement-dashboard.png)
 
-该功能板包括一个包含三个量度的可自定义的高级趋势图。
+控制面板包含高階、可自訂的趨勢圖，內含三個量度。
 
-默认情况下，功能板还会按位置显示步调和投放量度。 您可以选择查看版面的性能量度，并创建自定义列集。 您可以将整个数据表下载到浏览器的默认下载文件夹中，作为XLSM（启用宏的Excel电子表格）格式的报表。
+預設情況下，控制面板也會依位置顯示步調和傳送量度。 您可以選擇檢視位置的效能度量，以及建立自訂欄集。 您可以將整個資料表下載至瀏覽器的預設下載資料夾，以XLSM （啟用巨集的Excel試算表）格式作為報表。
 
-对于每个版面，您可以打开一个详细视图([the [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md))，包括性能量度、步调和交付量度，以及按网站、广告和清单的自定义列集；以及频度量。 您还可以对包含的网站、广告和库存执行快速操作，例如排除网站、暂停广告或编辑交易。 要打开检查器，请将光标悬停在放置行上，单击 **[!UICONTROL More]**，然后单击 **[!UICONTROL Sites]**, **[!UICONTROL Ads]**, **[!UICONTROL Frequency]** 或 **[!UICONTROL Inventory]**. 您可以在 [!UICONTROL Sites], [!UICONTROL Ads], [!UICONTROL Frequency]或 [!UICONTROL Inventory]  选项卡，以XLSM格式的报表形式显示浏览器的默认下载文件夹。
+對於每個位置，您可以開啟詳細檢視([此 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md))，包括績效量度、步調和傳送量度，以及依網站、廣告和詳細目錄的自訂欄位集，還有頻率量度。 您也可以對包含的網站、廣告和詳細目錄採取快速動作，例如排除網站、暫停廣告或編輯交易。 若要開啟「檢視窗」，請將游標停留在放置列上，按一下 **[!UICONTROL More]**，然後按一下 **[!UICONTROL Sites]**， **[!UICONTROL Ads]**， **[!UICONTROL Frequency]** 或 **[!UICONTROL Inventory]**. 您可以將資料匯出 [!UICONTROL Sites]， [!UICONTROL Ads]， [!UICONTROL Frequency]，或 [!UICONTROL Inventory]  定位至瀏覽器的預設下載資料夾，作為XLSM格式的報表。
 
 >[!NOTE]
 >
->您可以通过 [自定义报表](/help/dsp/reports/report-about.md).
+>您可以進一步透過自訂版位報表的內容與傳送 [自訂報表](/help/dsp/reports/report-about.md).
 
 >[!MORELIKETHIS]
 >
->* [创建版面](placement-create.md)
->* [查看版面的更改日志](placement-change-log.md)
->* [版面设置](placement-settings.md)
->* [性能疑难解答](/help/dsp/optimization/troubleshooting-performance.md)
+>* [建立位置](placement-create.md)
+>* [檢視位置的變更記錄](placement-change-log.md)
+>* [位置設定](placement-settings.md)
+>* [疑難排解效能](/help/dsp/optimization/troubleshooting-performance.md)
 

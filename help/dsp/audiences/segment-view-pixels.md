@@ -1,6 +1,6 @@
 ---
-title: 查看区段的跟踪像素
-description: 了解如何查看自定义或CCPA选择退出销售区段的跟踪像素。
+title: 檢視區段的追蹤畫素
+description: 瞭解如何檢視自訂或CCPA選擇退出銷售區段的追蹤畫素。
 feature: DSP Segments
 exl-id: 3b67ab72-d7bb-45a0-b5ba-e4b811b7d2b3
 source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
@@ -10,25 +10,25 @@ ht-degree: 0%
 
 ---
 
-# 查看区段的跟踪像素
+# 檢視區段的追蹤畫素
 
-1. 在主菜单中，单击 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
+1. 在主功能表中，按一下 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
-1. 将光标悬停在区段行上并单击 **[!UICONTROL Get Pixel]**.
+1. 將游標停留在區段列上並按一下 **[!UICONTROL Get Pixel]**.
 
-   页面查看跟踪标记用于跟踪网页的桌面访客和移动设备访客，标记为“[!UICONTROL Desktop or mobile websites].&quot;
+   頁面檢視追蹤標籤（可追蹤瀏覽網頁的桌上型電腦和行動訪客）會標籤為「[!UICONTROL Desktop or mobile websites].」
 
-   （仅限自定义区段）展示次数跟踪标记将标记为“[!UICONTROL Desktop or mobile ads].&quot;
+   （僅限自訂區段）曝光數追蹤標籤（追蹤曝光至案頭、行動或CTV裝置廣告單位的使用者）會以「[!UICONTROL Desktop or mobile ads].」
 
-1. （根据需要）复制相关标记，并将标记提供给广告商或网站联系人进行部署。
+1. （視需要）複製相關標籤，並將標籤提供給廣告商或網站連絡人進行部署。
 
-   实施跟踪标记后，您可以在受众目标或排除项中将该区段用于任何版面。
+   實施追蹤標籤後，您便可以在任何位置的對象目標或排除專案中使用區段。
 
 >[!MORELIKETHIS]
 >
->* [关于受众管理](audience-about.md)
->* [创建自定义区段](custom-segment-create.md)
->* [编辑区段信息](segment-edit.md)
->* [删除区段](segment-delete.md)
->* [共享或停止共享区段](segment-share.md)
+>* [關於對象管理](audience-about.md)
+>* [建立自訂區段](custom-segment-create.md)
+>* [編輯區段資訊](segment-edit.md)
+>* [刪除區段](segment-delete.md)
+>* [共用或停止共用區段](segment-share.md)
 

@@ -1,6 +1,6 @@
 ---
-title: 关于自定义报表
-description: 了解手动创建自定义报表或使用预配置报表模板的选项。
+title: 關於自訂報表
+description: 瞭解手動或使用預先設定的報告範本建立自訂報告的選項。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
 source-git-commit: 858b00ec28158ada1edfc70a2efc3540fa46a376
@@ -10,87 +10,87 @@ ht-degree: 0%
 
 ---
 
-# 关于自定义报表
+# 關於自訂報表
 
-自定义报表允许您使用促销活动维度（如广告商、版面、网站或地点）和对您最重要的量度，自定义报表数据的内容和交付。 您可以：
+自訂報表可讓您使用行銷活動維度（例如廣告商、位置、網站或地理）和對您最重要的量度，自訂報表資料的內容和傳送。 您可以：
 
-* 在粒度级别完全配置营销活动效果报表。
-* 从预配置的报表模板中进行选择，或者进一步自定义这些模板。
+* 在精細層級完整設定行銷活動績效報表。
+* 從預先設定的報表範本中進行選擇，並可選擇進一步自訂。
 
-您可以生成一次报表，或安排在指定时区的03:00每天、每周或每月生成报表。 生成报表后，报表会提交给每个指定的电子邮件收件人或链接的 [报告目标](/help/dsp/reports/report-destinations/report-destination-about.md) 类型：
+您可以產生報表一次，或排程在指定時區的03:00每日、每週或每月產生報表。 報告產生後，會傳送給每個指定的電子郵件收件者或連結 [報告目的地](/help/dsp/reports/report-destinations/report-destination-about.md) 下列型別之一：
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
 * SFTP
-* FTP SSL（测试版）
+* FTP SSL （測試版）
 
 >[!NOTE]
 >
->您还可以查看营销活动所有级别的按需数据（营销活动、包、版面或广告） [在相关的促销活动管理视图中](/help/dsp/campaign-management/reports/campaign-reports-about.md).
+>您也可以檢視行銷活動所有層級的隨選資料（行銷活動、套件、位置或廣告） [在相關的行銷活動管理檢視中](/help/dsp/campaign-management/reports/campaign-reports-about.md).
 
-## 可用报表类型
+## 可用的報表型別
 
-* **[!UICONTROL Custom]:** 此报表是一个空白模板，您可以使用该模板创建您自己的自定义报表，并使用大多数维度和量度。 [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo]和 [!UICONTROL Site] 报表是此模板的变体，其中包含预先选择的列和用于其各自用例的维度。
+* **[!UICONTROL Custom]：** 此報表為空白範本，您可以使用大部分的維度和量度建立自己的自訂報表。 [!UICONTROL Conversion]， [!UICONTROL Device]， [!UICONTROL Geo]、和 [!UICONTROL Site] 報表是此範本的變體，具有針對其各自使用案例預先選取的欄和維度。
 
-* 预配置的报表模板
+* 預先設定的報表範本
 
-   * **[!UICONTROL Billing]:** 使用此报表可了解关键计费量度，如按促销活动划分的媒体计费支出量度。
-
-      >[!NOTE]
-      >
-      >此报表包含有关账单区段的数据。 如果向用户或设备提供属于多个区段的展示，则仅有一个可计费区段会计入展示。
-
-   * **[!UICONTROL Conversion]:** 使用此报表可了解您的促销活动如何根据使用Adobe广告转化跟踪捕获的转化量度执行。 此报表包含多接触点归因。
-
-   * **[!UICONTROL Device]:** 使用此预填充模板可按设备相关维度查看关键量度。
-
-   * **[!UICONTROL Frequency (by Impression)]:** 使用此报表可了解展示给独特查看者的展示次数分布（例如，有多少独特查看者查看了一次展示、两次展示、三次展示等）。 数据可按版面或营销活动使用。
+   * **[!UICONTROL Billing]：** 使用此報告可瞭解關鍵計費量度，例如按行銷活動劃分的媒體計費的支出量度。
 
       >[!NOTE]
       >
-      >* 2019年3月1日之后可使用数据。
-      >* 根据数据采样来估计频率。
-      >* 对于某些内容库，发布者不会传递设备标识符，这会阻止频度跟踪。 此报表仅包含设备标识符可用的展示次数。
+      >此報表包括關於計費區段的資料。 如果向使用者或裝置提供的曝光屬於多個區段，則只有一個可計費區段會為曝光評分。
 
+   * **[!UICONTROL Conversion]：** 使用此報表可瞭解促銷活動如何根據使用Adobe廣告轉換追蹤擷取的轉換量度來執行。 此報表包含多重接觸歸因。
 
-   * **[!UICONTROL Frequency (by App/Site)]:** 使用此报表可了解通过应用程序或网站访问了多少个独特用户。 您还可以查看仅通过特定应用程序或网站（“不同的独特用户”）访问了多少个独特用户。
+   * **[!UICONTROL Device]：** 使用此預先填入的範本，可依裝置相關維度檢視關鍵量度。
 
-      >[!NOTE]
-      >
-      >* 2018年11月15日之后可使用数据。
-      >* 对于某些专用内容库，发布者不会传递设备标识符，这会阻止频度跟踪。
-
-
-   * **[!UICONTROL Geo]**:使用此预填充模板可按地理维度查看关键量度。
-
-   * **[!UICONTROL Margin]:** 使用此报表可按促销活动或版面查看关键量度，如利润、利润和其他支出量度。
-
-   * **[!UICONTROL Segment]:** 使用此预填充模板可按区段查看关键量度。
+   * **[!UICONTROL Frequency (by Impression)]：** 使用此報表來瞭解向不重複檢視者顯示的曝光數分佈（例如，有多少不重複檢視者看過一次曝光數、兩次曝光數、三次曝光數等）。 資料可依位置或行銷活動取得。
 
       >[!NOTE]
       >
-      >* 此报表旨在显示不同目标区段的执行情况。 它使用区段成员资格数据。 当向属于两个或更多目标区段的人员或设备提供展示时，此报表会为每个区段包含一行。 因此，此报表中的总数可能与实际提交不匹配。
-      >* 区段的转化量度和自定义目标数据在2019年8月2日之后可用。 区段的所有其他数据均可在2018年6月1日之后开始使用。
+      >* 資料在2019年3月1日之後可用。
+      >* 頻率會根據資料取樣來估計。
+      >* 對於某些詳細目錄，發佈者不會傳遞裝置識別碼，這會阻止頻率追蹤。 此報表僅包含可使用裝置識別碼的曝光次數。
 
 
-   * **[!UICONTROL Site]:** 默认情况下，包括标准量度、媒体净支出总额和按网站划分的可计费净支出总额。
+   * **[!UICONTROL Frequency (by App/Site)]：** 使用此報表可瞭解透過應用程式或網站觸及多少不重複使用者。 您也可以檢視僅透過特定應用程式或網站（「不同不重複使用者」）觸及的不重複使用者人數。
 
-   * **[!UICONTROL Household]:** 使用此报表可在基于IP地址的家庭级别（而不是设备/Cookie级别）查看不同广告格式的单个维度的展示次数、访问次数和频度。 利用这些洞察优化您的媒体组合、提高性能，并发现增加访问的机会。 请参阅“[有关家庭报表的常见问题解答](/help/dsp/reports/faq-household-report.md)“ ”以了解详细信息。
+      >[!NOTE]
+      >
+      >* 資料在2018年11月15日後可供使用。
+      >* 對於某些私人詳細目錄，發佈者不會傳遞裝置識別碼，這會阻止頻率追蹤。
 
-## 跨帐户报告 {#cross-account-reporting}
 
-具有多个DSP帐户的任何组织都可以根据组织的需要，选择在自定义报表中启用跨帐户数据。 例如，您可以授予帐户A访问帐户B数据的权限，并授予帐户B访问帐户C（但不授予帐户A）数据的权限。 要启用和配置此功能，请联系您的Adobe帐户团队。
+   * **[!UICONTROL Geo]**：此預先填入的範本可供您依地理維度檢視關鍵量度。
 
-为贵组织启用该功能后，您可以 [过滤器](report-settings.md) 按帐户划分的以下任何报表类型：  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)]和 [!UICONTROL Conversion].
+   * **[!UICONTROL Margin]：** 使用此報表可依行銷活動或位置檢視關鍵量度，例如利潤、利潤和其他支出量度。
 
-您的帐户设置位于 [!UICONTROL Settings] > [!UICONTROL Account] 指示a)其数据可用于您的帐户的其他帐户，以及b)可访问您帐户数据的其他帐户。
+   * **[!UICONTROL Segment]：** 使用此預先填入的範本，按區段檢視關鍵量度。
+
+      >[!NOTE]
+      >
+      >* 此報表旨在顯示不同目標區段的表現。 它使用區段會籍資料。 當向屬於兩個或多個目標區段的人或裝置提供曝光時，此報表會為每個區段包含一個列。 因此，此報表中的總計可能與實際傳送不符。
+      >* 區段的轉換量度和自訂目標資料在2019年8月2日後可供使用。 區段的所有其他資料在2018年6月1日之後開始提供。
+
+
+   * **[!UICONTROL Site]：** 依預設，包括標準量度、媒體淨支出總計，以及依網站區分的可計費淨支出總計。
+
+   * **[!UICONTROL Household]：** 此報表可讓您根據IP位址（而不是裝置/Cookie層級），在家庭層級檢視跨廣告格式的單一維度的曝光數、觸及率和頻率。 運用這些見解來最佳化您的媒體組合、改善效能，並找出增量觸及的機會。 請參閱「[關於住戶報表的常見問題集](/help/dsp/reports/faq-household-report.md)」以取得詳細資訊。
+
+## 跨帳戶報告 {#cross-account-reporting}
+
+擁有多個DSP帳戶的任何組織都可選擇根據組織的需求，在自訂報表中啟用跨帳戶資料。 例如，您可以授予帳戶A存取帳戶B的資料的許可權，並授予帳戶B存取帳戶C （但不存取帳戶A）資料的許可權。 若要啟用及設定此功能，請聯絡您的Adobe帳戶團隊。
+
+為您的組織啟用此功能後，您可以 [篩選](report-settings.md) 下列任一報表型別（依帳戶）：  [!UICONTROL Custom]， [!UICONTROL Site]， [!UICONTROL Segment]， [!UICONTROL Geo]， [!UICONTROL Device]， [!UICONTROL Frequency (by Impression)]、和 [!UICONTROL Conversion].
+
+您的帳戶設定位於 [!UICONTROL Settings] > [!UICONTROL Account] 指出a)您的帳戶可使用其資料的其他帳戶，以及b)可存取您帳戶資料的其他帳戶。
 
 >[!MORELIKETHIS]
 >
->* [创建自定义报表](/help/dsp/reports/report-create.md)
->* [自定义报表设置](/help/dsp/reports/report-settings.md)
->* [关于 [!UICONTROL Household] 报表](/help/dsp/reports/faq-household-report.md)
->* [关于平台内报表](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [可用报表列](/help/dsp/reports/report-columns.md)
->* [关于 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [建立自訂報表](/help/dsp/reports/report-create.md)
+>* [自訂報表設定](/help/dsp/reports/report-settings.md)
+>* [關於的常見問題集 [!UICONTROL Household] 報告](/help/dsp/reports/faq-household-report.md)
+>* [關於平台內報表](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [可用的報告欄](/help/dsp/reports/report-columns.md)
+>* [關於 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
 

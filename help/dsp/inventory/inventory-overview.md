@@ -1,6 +1,6 @@
 ---
-title: Advertising DSP中的库存功能概述
-description: 了解可用的清单功能。
+title: Advertising DSP中的詳細目錄功能概觀
+description: 瞭解可用的詳細目錄功能。
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: e55b9276-0d13-436e-9c09-968de963d551
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,31 +10,31 @@ ht-degree: 0%
 
 ---
 
-# Advertising DSP中的库存功能概述
+# Advertising DSP中的詳細目錄功能概觀
 
-DSP可以支持您的库存需求，无论您是否希望通过公共库存找到规模，还是在具有 [!DNL On Demand]，或与发布者设置1:1私有市场(PMP)交易以针对特定受众或网站激活。 营销活动目标有助于规定哪种类型的库存最适合营销活动的性能需求。 与顶级供应方平台(SSP)的集成，可无缝设置和激活您的PMP。
+DSP可支援您的詳細目錄需求，無論您想要透過公開詳細目錄尋找規模，或透過以下方式尋找優質發行商之間的規模 [!DNL On Demand]，或與發佈商建立1:1私人市場(PMP)交易，以針對特定對象或網站啟用。 您的行銷活動目標有助於指定哪種型別的詳細目錄最適合您的行銷活動效能需求。 與頂級供應端平台(SSP)的整合可讓您順暢地設定和啟動PMP。
 
-在DSP中访问或确定库存交易后，即可将它们用作促销活动的版面目标。
+在DSP中存取或識別詳細目錄交易後，您就可以使用這些交易作為行銷活動的位置目標。
 
-可用的库存类型包括：
+可用的存貨型別包括：
 
-* **[!DNL On Demand]库存：** 探索Adobe与高级出版商合作伙伴共同策划的预先协商、无保证的交易。
+* **[!DNL On Demand]詳細目錄：** 探索Adobe與進階發佈商合作夥伴所策劃的預先交涉、無保證交易。
 
-* **专用清单 [!DNL Deal IDs]:** 设置并管理您与发布者直接协商的私有市场交易(PMP)。
+* **私人詳細目錄 [!DNL Deal IDs]：** 設定和管理您已直接與發佈者1:1協商的私人市集交易(PMP)。
 
-* **[!DNL Simple Ad Serving]:** 当您的发布者无法通过交易ID执行交易时，可使用简化的技术进行有保证的、未决策的广告交付和报告。
+* **[!DNL Simple Ad Serving]：** 當您的發佈者無法透過交易ID執行您的交易時，請使用簡化的技術進行有保障、未決策的廣告傳送和報告。
 
-## “交易”视图
+## 交易檢視
 
-您可以在 [!UICONTROL Inventory] > [!UICONTROL Deals] 中。 您可以通过应用过滤器、自定义可见列和（可选）保存自定义视图、对列进行排序以及将数据视为图表，进一步自定义现有交易数据的显示方式。
+您可以在以下位置檢視所有現有交易： [!UICONTROL Inventory] > [!UICONTROL Deals] 檢視。 您可以套用篩選器、自訂可見欄並選擇儲存自訂檢視、排序欄以及將資料檢視為圖表，以進一步自訂現有交易資料的呈現方式。
 
-您还可以创建和管理私有交易设置和 [!DNL Simple Ad Serving] 交易 [!UICONTROL Deals] 中。 查看和管理 [!DNL On Demand] 清单，转到 [!UICONTROL Inventory] > [!UICONTROL On Demand].
+您也可以建立和管理私人交易設定，以及 [!DNL Simple Ad Serving] 來自以下專案的交易： [!UICONTROL Deals] 檢視。 若要檢視和管理 [!DNL On Demand] 詳細目錄，前往 [!UICONTROL Inventory] > [!UICONTROL On Demand].
 
 >[!MORELIKETHIS]
 >
->* [关于按需库存](on-demand-inventory-about.md)
->* [关于交易ID收件箱](deal-id-inbox-about.md)
->* [关于程序化保证交易](programmatic-guaranteed-about.md)
->* [SSP合作伙伴](ssp-partners.md)
->* [关于专用清单](private-inventory-about.md)
+>* [關於隨選存貨](on-demand-inventory-about.md)
+>* [關於交易ID收件匣](deal-id-inbox-about.md)
+>* [關於程式化預留交易](programmatic-guaranteed-about.md)
+>* [SSP合作夥伴](ssp-partners.md)
+>* [關於私人詳細目錄](private-inventory-about.md)
 

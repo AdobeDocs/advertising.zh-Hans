@@ -1,6 +1,6 @@
 ---
-title: 编辑用户配置文件
-description: 了解如何编辑用户配置文件。
+title: 編輯您的使用者設定檔
+description: 瞭解如何編輯您的使用者設定檔。
 exl-id: 8dc15996-db6e-4c37-a919-d0d49e7b8396
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
@@ -9,49 +9,49 @@ ht-degree: 3%
 
 ---
 
-# 编辑用户配置文件
+# 編輯您的使用者設定檔
 
-您的帐户配置文件包含您的登录凭据和其他信息。 某些用户角色还可以查看有关贵组织帐户的信息，并邀请其他人员在组织帐户中创建用户帐户。
+您的帳戶設定檔包含您的登入憑證和其他資訊。 某些使用者角色也可以檢視有關您組織帳戶的資訊，並邀請其他人在組織帳戶中建立使用者帳戶。
 
-1. 在主菜单中，单击 **[!UICONTROL Settings]** > **[!UICONTROL Account].**
+1. 在主功能表中，按一下 **[!UICONTROL Settings]** > **[!UICONTROL Account].**
 
-1. 编辑配置文件设置：
+1. 編輯您的設定檔設定：
 
-   * 要编辑用户帐户的电子邮件地址，请执行以下操作：
+   * 若要編輯使用者帳戶的電子郵件地址：
 
-      1. 在现有 **[!UICONTROL Email address]**，单击 **[!UICONTROL Edit]**.
+      1. 位於現有 **[!UICONTROL Email address]**，按一下 **[!UICONTROL Edit]**.
 
-      1. 输入用户帐户的新电子邮件地址和现有密码。
-
-      1. 单击 **[!UICONTROL Continue]**.
-   * 要编辑用户帐户的密码，请执行以下操作：
-
-      1. 在现有 **[!UICONTROL Password]**，单击 **[!UICONTROL Change]**.
-
-      1. 输入新密码两次。
+      1. 輸入使用者帳戶的新電子郵件地址和現有密碼。
 
       1. 单击 **[!UICONTROL Continue]**.
-   * 要编辑用户帐户的安全问题，请执行以下操作：
+   * 若要編輯使用者帳戶的密碼：
 
-      1. 在现有 **[!UICONTROL Security Question]**，单击 **[!UICONTROL Change]**.
+      1. 位於現有 **[!UICONTROL Password]**，按一下 **[!UICONTROL Change]**.
 
-      1. 选择 **[!UICONTROL Secret Question]** 然后输入 **[!UICONTROL Secret Question Answer]**.
-
-      1. 单击 **[!UICONTROL Continue]**.
-   * 要编辑用户帐户的默认时区，请执行以下操作：
-
-      1. 在现有 **[!UICONTROL Default Timezone]**，单击 **[!UICONTROL Change]**.
-
-      1. 选择新时区。
-
-      1. （可选）要考虑报告时间的夏令时，请选择 **[!UICONTROL Observe Daylight Savings Time]**.
+      1. 輸入新密碼兩次。
 
       1. 单击 **[!UICONTROL Continue]**.
-   * (希望在上使用私人座位的用户 [!DNL Google Authorized Buyers])编辑专用 [!DNL Google Authorized Buyers] 用户帐户的席位，默认情况下用于所有营销活动：
+   * 若要編輯使用者帳戶的安全性問題：
 
-      1. 在现有 **[!UICONTROL Google AdEx ID]**，单击 **[!UICONTROL Change]**.
+      1. 位於現有 **[!UICONTROL Security Question]**，按一下 **[!UICONTROL Change]**.
 
-      1. 输入新 **[!UICONTROL Ad Group ID]**.
+      1. 選取 **[!UICONTROL Secret Question]** 並輸入 **[!UICONTROL Secret Question Answer]**.
+
+      1. 单击 **[!UICONTROL Continue]**.
+   * 若要編輯使用者帳戶的預設時區：
+
+      1. 位於現有 **[!UICONTROL Default Timezone]**，按一下 **[!UICONTROL Change]**.
+
+      1. 選取新時區。
+
+      1. （選用）若要考量報告時間的日光節約時間，請選取 **[!UICONTROL Observe Daylight Savings Time]**.
+
+      1. 单击 **[!UICONTROL Continue]**.
+   * (想在下列位置使用私人座位的使用者： [!DNL Google Authorized Buyers])若要編輯私人 [!DNL Google Authorized Buyers] 使用者帳戶的座席，預設用於所有行銷活動：
+
+      1. 位於現有 **[!UICONTROL Google AdEx ID]**，按一下 **[!UICONTROL Change]**.
+
+      1. 輸入新的 **[!UICONTROL Ad Group ID]**.
 
       1. 单击 **[!UICONTROL Save]**.
 
@@ -63,7 +63,7 @@ ht-degree: 3%
 
 >[!MORELIKETHIS]
 >
->* [为您的组织帐户邀请新用户](user-invite.md)
+>* [邀請組織帳戶的新使用者](user-invite.md)
 
 
 <!-- >* [User Profile and Organization Account Settings](user-and-account-settings.md) -->

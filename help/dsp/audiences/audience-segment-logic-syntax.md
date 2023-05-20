@@ -1,6 +1,6 @@
 ---
-title: 受众区段逻辑的语法
-description: 引用可用于定义受众区段逻辑的语法。
+title: 對象區段邏輯的語法
+description: 參考可用來定義對象區段邏輯的語法。
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,28 +10,28 @@ ht-degree: 0%
 
 ---
 
-# 受众区段逻辑的语法
+# 對象區段邏輯的語法
 
-在创建可重用受众时，您可以使用字母数字区段ID（键）和以下语法手动定义区段逻辑：
+建立可重複使用的對象時，您可以使用英數字元區段ID （索引鍵）及下列語法來手動定義區段邏輯：
 
-* ()指示一组
-* `||` 表示 [!DNL OR] <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->
-* &amp; [!DNL AND]
-* ! 表示 [!DNL NOT] （排除）
+* ()表示群組
+* `||` 的 [!DNL OR] <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->
+* &amp;&amp; for [!DNL AND]
+* ！ 的 [!DNL NOT] （排除）
 
 >[!NOTE]
 >
->* 除非前面有！，否则将包含所有指定的区段组 （不包括这些规则）。
->* 您可以 [查找受众的区段ID](reusable-audience-clipboard.md) 从 [!UICONTROL Audiences] > [!UICONTROL All audiences].
+>* 所有指定的區段群組都會包括在內，除非其前面有！ （會將其排除）。
+>* 您可以 [尋找對象的區段ID](reusable-audience-clipboard.md) 從 [!UICONTROL Audiences] > [!UICONTROL All audiences].
 
 
-例如，以下逻辑：
+例如，下列邏輯：
 
 ```
 (X5vUk1cNvZxvBJ3jMjTt) || (sfvXrmQkk77PL5OtHpLH) && !(SMWSjTZFiy9hR1bKm1vw || x08UReA0IcP9HAJdcGVe)
 ```
 
-均值（英语简单）
+表示（純英文）
 
 ```
 [!DNL INCLUDE] Segment ID X5vUk1cNvZxvBJ3jMjTt [!DNL OR] INCLUDE Segment ID sfvXrmQkk77PL5OtHpLH [!DNL AND EXCLUDE] (Segment ID SMWSjTZFiy9hR1bKm1vw AND Segment ID x08UReA0IcP9HAJdcGVe)
@@ -39,13 +39,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在版面设置中，您可以将保存的受众用作明确定位的受众，或用作要从定位中排除的单独受众。 确保区段逻辑反映您使用受众的目的。
+>在版位設定中，您可以使用儲存的對象作為要明確鎖定的對象，或作為單獨的對象來從目標中排除。 請確定您的區段邏輯反映您使用對象的目的。
 
 >[!MORELIKETHIS]
 >
->* [将可重复使用受众的区段键复制到剪贴板](reusable-audience-clipboard.md)
->* [关于受众管理](audience-about.md)
->* [创建可重用受众](reusable-audience-create.md)
->* [受众设置](audience-settings.md)
->* [可用的第三方数据提供商](third-party-data-providers.md)
+>* [將可重複使用對象的區段金鑰複製到剪貼簿](reusable-audience-clipboard.md)
+>* [關於對象管理](audience-about.md)
+>* [建立可重複使用的對象](reusable-audience-create.md)
+>* [對象設定](audience-settings.md)
+>* [可用的第三方資料提供者](third-party-data-providers.md)
 

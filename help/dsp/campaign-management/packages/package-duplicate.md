@@ -1,6 +1,6 @@
 ---
-title: 复制资源包
-description: 了解如何复制资源包。
+title: 複製套裝
+description: 瞭解如何複製套件。
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
@@ -10,60 +10,60 @@ ht-degree: 0%
 
 ---
 
-# 复制资源包
+# 複製套裝
 
-复制资源包以创建具有类似设置的资源包。 您可以：
+複製套件以建立具有類似設定的套件。 您可以：
 
-* 在原始广告商和营销策划中或在不同的广告商和营销策划中复制资源包
-* （可选）复制包中的版面
-* （对于原始营销活动中重复的包）（可选）复制原始广告和位置级别的事件像素
-* 修改新包的发送日期
+* 在原始廣告商和行銷活動或不同廣告商和行銷活動內複製套件
+* 選擇性地複製封裝內的版位
+* （針對原始行銷活動內的重複套件）可選擇複製原始廣告和版位層級事件畫素
+* 修改新套件的投放日期
 
-请参阅“[未复制的内容](#package-not-duplicated)“ ”，查看未复制的版面设置列表。
+請參閱「[未複製的內容](#package-not-duplicated)」以取得未複製的位置設定清單。
 
-1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 
-1. 单击营销活动的名称以打开 [!UICONTROL Packages] 中。
+1. 按一下行銷活動的名稱以開啟 [!UICONTROL Packages] 檢視。
 
-1. 在包名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
+1. 在封裝名稱旁邊，按一下  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
 
-1. 指定新包设置：
+1. 指定新的封裝設定：
 
-   1. 输入新包名称。
+   1. 輸入新封裝名稱。
 
-   1. （可选）更改默认设置。
+   1. （選用）變更預設設定。
 
-      默认情况下：
+      依預設：
 
-      * 新资源包已分配给原始广告商和营销活动。
+      * 新套件會指派給原始廣告商和促銷活動。
 
-      * 新资源包在当天变为活动状态。<!-- and the flight continues for NN  days. -->
+      * 新封裝會在當天啟用。<!-- and the flight continues for NN  days. -->
 
-      * 原始资源包中的版面将会复制到新资源包中。
+      * 原始套件中的版位會複製到新套件。
 
-      * 广告和位置级别的事件像素将不会复制到新包中。
+      * 廣告和版位層級事件畫素不會複製到新封裝。
 
 1. 单击 **[!UICONTROL Submit]**.
 
-## 未复制的内容 {#package-not-duplicated}
+## 未複製的內容 {#package-not-duplicated}
 
-原始版面中的所有设置都会复制，但以下各项除外：
+來自原始版位的所有設定都會重複，除了：
 
-* 实验设置
-* （如果更改投放日期）自定义广告计划
-* （如果不附加广告）自定义广告权重和计划
-* 程序化保证(PG)交易的默认版面和 [!UICONTROL Simple Ad Serving] 交易
-* （如果您将版面复制到其他营销活动）：
-   * 地域目标
-   * 事件像素
-   * 广告
-   * 版面级别 [!DNL DoubleVerify Authentic Brand Safety] 区段（覆盖广告商级别的区段）
+* 實驗設定
+* （如果您變更投放日期）自訂廣告排程
+* （如果您未附加廣告）自訂廣告權重和排程
+* 程式保證(PG)交易的預設刊登版位和刊登版位 [!UICONTROL Simple Ad Serving] 交易
+* （如果您將版位複製到其他行銷活動）：
+   * 地理目標
+   * 事件畫素
+   * 廣告
+   * 位置層級 [!DNL DoubleVerify Authentic Brand Safety] 區段（覆寫廣告商層級區段）
 
 >[!MORELIKETHIS]
 >
->* [关于包管理](package-about.md)
->* [创建资源包](package-create.md)
->* [编辑资源包](package-edit.md)
->* [查看包的更改日志](package-change-log.md)
->* [包设置](package-settings.md)
+>* [關於封裝管理](package-about.md)
+>* [建立套裝](package-create.md)
+>* [編輯套裝](package-edit.md)
+>* [檢視套裝程式的變更記錄](package-change-log.md)
+>* [封裝設定](package-settings.md)
 

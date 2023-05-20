@@ -1,6 +1,6 @@
 ---
-title: 创建自定义目标
-description: 创建自定义目标
+title: 建立自訂目標
+description: 建立自訂目標
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
 source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
@@ -10,72 +10,72 @@ ht-degree: 0%
 
 ---
 
-# 创建自定义目标
+# 建立自訂目標
 
-您可以将自定义目标创建为 *目标* within [!DNL Advertising Search, Social, & Commerce].
+您可以建立自訂目標為 *目標* 範圍 [!DNL Advertising Search, Social, & Commerce].
 
-要创建自定义目标，DSP帐户必须关联到 [!DNL Search, Social, & Commerce] 帐户中具有相同的Adobe Experience Cloud组织ID [!DNL Search, Social, & Commerce] 客户端设置。 如果您的DSP帐户未关联到 [!DNL Search, Social, & Commerce] 帐户，请联系您的Adobe帐户团队。
+若要建立自訂目標，DSP帳戶必須連結至 [!DNL Search, Social, & Commerce] 帳戶中的相同Adobe Experience Cloud組織ID [!DNL Search, Social, & Commerce] 使用者端設定。 如果您的DSP帳戶未連結至 [!DNL Search, Social, & Commerce] 請聯絡您的Adobe客戶團隊。
 
 >[!TIP]
 >
->请参阅 [创建自定义目标的最佳实践](custom-goal-best-practices.md) 以获取有关如何配置自定义目标的提示。
+>請參閱 [建立自訂目標的最佳實務](custom-goal-best-practices.md) 以取得如何設定自訂目標的秘訣。
 
-1. 登录 [!DNL Advertising Search, Social, & Commerce] at（北美用户） [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) 或（所有其他用户） [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
-1. 确保您要包含在目标中的量度已被跟踪，在产品中可用，并包含显示名称：
-   1. 在主菜单中，单击 **[!UICONTROL Search]** > **[!UICONTROL Admin]>[!UICONTROL Transaction Properties]**.
-   1. 找到量度，并确保 **[!UICONTROL Show in UI and Reports]** 为量度启用。
-   1. 如果量度在 **[!UICONTROL Display Name]** 列中，单击单元格，输入显示名称，然后单击 **[!UICONTROL Apply].**
-1. 将自定义目标创建为 *目标*:
-   1. 在主菜单中，单击 **[!UICONTROL Search]** > **[!UICONTROL Optimization]>[!UICONTROL Objectives]**.
-   1. 在工具栏中，单击 **[!UICONTROL Create objective].**
-   1. 输入目标设置：
-      1. 在 **[!UICONTROL Change Objective Name]** 字段，输入目标名称。
+1. 登入 [!DNL Advertising Search, Social, & Commerce] at （北美使用者） [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) 或（所有其他使用者） [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
+1. 確認已追蹤您要納入目標的量度、可在產品中使用，並包含顯示名稱：
+   1. 在主功能表中，按一下 **[!UICONTROL Search]** > **[!UICONTROL Admin]>[!UICONTROL Transaction Properties]**.
+   1. 找到量度，並確定 **[!UICONTROL Show in UI and Reports]** 已為量度啟用。
+   1. 如果量度中沒有值 **[!UICONTROL Display Name]** 欄，按一下儲存格，輸入顯示名稱，然後按一下 **[!UICONTROL Apply].**
+1. 建立自訂目標為 *目標*：
+   1. 在主功能表中，按一下 **[!UICONTROL Search]** > **[!UICONTROL Optimization]>[!UICONTROL Objectives]**.
+   1. 在工具列中，按一下 **[!UICONTROL Create objective].**
+   1. 輸入目標設定：
+      1. 在 **[!UICONTROL Change Objective Name]** 欄位，輸入目標名稱。
 
-         目标名称将显示在 [!UICONTROL Custom Goals] 列表。
+         目標名稱將顯示在 [!UICONTROL Custom Goals] 清單中的DSP封裝設定。
 
-      1. 将资产与目标关联：
+      1. 將屬性與目標建立關聯：
 
          >[!NOTE]
          >
-         > 默认情况下，为广告商跟踪的所有交易属性都会列在 [!UICONTROL Available Properties] 列表。
+         > 根據預設，所有為廣告商追蹤的交易屬性都會列在 [!UICONTROL Available Properties] 清單。
 
-         * 要导入包含属性及其权重的CSV文件，请单击 **[!UICONTROL Import]** 并找到要导入的文件。
+         * 若要匯入包含屬性及其權重的CSV檔案，請按一下 **[!UICONTROL Import]** 並找到要匯入的檔案。
 
-            广告商必须已存在导入的资产；这些名字不区分大小写。
+            廣告商的匯入屬性必須已存在；名稱不區分大小寫。
 
-            导入的属性将替换指定的任何现有属性。
+            匯入的屬性會取代任何指定的現有屬性。
 
-         * 要手动指定具有默认权重(1)的第一个属性，请从为广告商跟踪的所有交易属性列表中进行选择。
+         * 若要以預設權數(1)手動指定第一個屬性，請從為廣告商追蹤的所有交易屬性清單中選取。
 
-         * 要手动添加其默认权重为(1)的属性，请单击 **[!UICONTROL +]** .
-
-            >[!TIP]
-            >
-            > 要在列表中搜索属性，请在属性名称中的任意位置输入字符串。
-
-         * 要手动添加多个属性，请单击 **[!UICONTROL Add Multiple Properties].** 对于要添加的每个资产，单击 [!UICONTROL Available Properties] 列，并将其拖入 [!UICONTROL Added Properties] 列。 添加完资产后，单击 **[!UICONTROL Add]**.
+         * 若要手動新增另一個具有預設權數(1)的屬性，請按一下 **[!UICONTROL +]** .
 
             >[!TIP]
             >
-            >* 要在列表中搜索属性，请在输入字段的属性名称的任意位置输入字符串。
-            >* 要过滤列表以排除报表中排除的属性，请选择选项 **[!UICONTROL Hide properties excluded from reports].**
+            > 若要搜尋清單中的屬性，請在屬性名稱內的任何位置輸入字串。
+
+         * 若要手動新增多個屬性，請按一下 **[!UICONTROL Add Multiple Properties].** 針對您要新增的每個屬性，按一下 [!UICONTROL Available Properties] 欄並將其拖曳至 [!UICONTROL Added Properties] 欄。 新增完屬性後，請按一下 **[!UICONTROL Add]**.
+
+            >[!TIP]
+            >
+            >* 若要搜尋清單中的屬性，請在輸入欄位中輸入屬性名稱中任何位置的字串。
+            >* 若要篩選清單以排除報告中排除的屬性，請選取選項 **[!UICONTROL Hide properties excluded from reports].**
 
 
-         * （当目标包含多个属性时）要更改某个属性相对于目标中其他属性的权重，请在 **[!UICONTROL Weight]** 字段。
-      1. 在设置的底部，单击 **[!UICONTROL Save]**.
+         * （當目標包含多個屬性時）若要變更相對於目標中其他屬性的屬性權重，請在 **[!UICONTROL Weight]** 欄位。
+      1. 在設定底部，按一下 **[!UICONTROL Save]**.
 
 
-在创建目标后，当优化目标为“ ”时，您可以将其分配给DSP包作为自定义目标[!UICONTROL Highest ROAS - Custom Goal]&quot;或&quot;[!UICONTROL Lowest CPA - Custom Goal].&quot;
+建立目標後，當最佳化目標是「 」時，您可以將其指派給DSP套件作為自訂目標[!UICONTROL Highest ROAS - Custom Goal]「或」[!UICONTROL Lowest CPA - Custom Goal].」
 
 >[!TIP]
 >
->要获得最佳性能，自定义目标（目标）中的组合量度每天必须至少进行十次转化。 如果不支持，最佳做法是向目标中添加其他支持事件（交易属性），例如产品页面或应用程序启动。 请参阅 [构建自定义目标的最佳实践](custom-goal-best-practices.md) 以了解准则。
+>為獲得最佳效能，自訂目標（目標）中的組合量度每天必須至少總共10次轉換。 若未包含，最佳實務是將其他支援事件（交易屬性） （例如產品頁面或應用程式開始）新增至目標。 另請參閱 [建立自訂目標的最佳實務](custom-goal-best-practices.md) 以取得指引。
 
 >[!MORELIKETHIS]
 >
->* [关于自定义目标](custom-goal-about.md)
->* [构建自定义目标的最佳实践](custom-goal-best-practices.md)
->* [优化目标及其使用方法](optimization-goals.md)
->* [包设置](/help/dsp/campaign-management/packages/package-settings.md)
-> * [DSP如何优化您的营销活动](optimization-how-dsp-optimizes-campaigns.md)
+>* [關於自訂目標](custom-goal-about.md)
+>* [建立自訂目標的最佳實務](custom-goal-best-practices.md)
+>* [最佳化目標及使用方式](optimization-goals.md)
+>* [封裝設定](/help/dsp/campaign-management/packages/package-settings.md)
+> * [DSP如何最佳化您的行銷活動](optimization-how-dsp-optimizes-campaigns.md)
 

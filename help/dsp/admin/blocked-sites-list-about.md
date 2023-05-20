@@ -1,6 +1,6 @@
 ---
-title: 关于帐户级别和广告商级别的阻止网站列表
-description: 进一步了解帐户或广告商的阻止网站列表。
+title: 關於帳戶層級和廣告商層級的封鎖網站清單
+description: 深入瞭解帳戶或廣告商的封鎖網站清單。
 exl-id: e147159b-54f2-492b-8dbc-054b97897fa6
 source-git-commit: bd667a01a0579c1523dc975bffd3560ac2a056db
 workflow-type: tm+mt
@@ -9,24 +9,24 @@ ht-degree: 0%
 
 ---
 
-# 关于帐户级别和广告商级别的阻止网站列表
+# 關於帳戶層級和廣告商層級的封鎖網站清單
 
-您可以编辑用于整个DSP帐户的阻止站点列表以及该帐户中各个广告商的其他列表。
+您可以編輯用於整個DSP帳戶的封鎖網站清單，以及帳戶中個別廣告商的其他清單。
 
-阻止的网站列表定义了要为您的版面排除的目标集。 每个列表都可以由顶级网站域和任何级别的子域（例如example.com、my.example.com或my.new.example.com）以及移动设备应用程序ID或包名称（例如com.example.app123）组成。
+封鎖的網站清單會定義要排除放置的目標集。 每個清單可包含頂層網站網域和任何層級的子網域(例如example.com、my.example.com或my.new.example.com)以及行動應用程式ID或套件名稱（例如com.example.app123）。
 
-广告商级别的列表会覆盖帐户级别的列表。
+廣告商層級清單會覆寫帳戶層級清單。
 
 >[!NOTE]
 >
->* 除了DSP之外，还会应用帐户级别和广告商级别阻止的网站列表 [全局阻止的站点列表](/help/dsp/introduction/features/brand-safety-media-quality.md#global-blocked-sites)，包括认为对广告不安全的网站。
->* 用户还可以将目标网站添加到任何版面。
->* 阻止的站点列表始终会覆盖目标站点列表。 如果版面同时排除和包含广告的相同目标，则会排除该目标。
+>* 除了DSP之外，也會套用帳戶層級和廣告商層級的封鎖網站清單 [全域封鎖的網站清單](/help/dsp/introduction/features/brand-safety-media-quality.md#global-blocked-sites)，其中包含不安全的廣告網站。
+>* 使用者也可以新增目標網站至任何位置。
+>* 封鎖的網站清單一律會覆寫目標網站清單。 如果版位同時排除並包含廣告的相同目標，則會排除該目標。
 
 
 >[!MORELIKETHIS]
 >
->* [编辑帐户级别或广告商级别的阻止的网站列表](/help/dsp/admin/blocked-sites-list-edit.md)
->* [品牌安全与媒体质量](/help/dsp/introduction/features/brand-safety-media-quality.md)
->* [版面设置](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [編輯帳戶層級或廣告商層級的封鎖網站清單](/help/dsp/admin/blocked-sites-list-edit.md)
+>* [品牌安全與媒體品質](/help/dsp/introduction/features/brand-safety-media-quality.md)
+>* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)
 

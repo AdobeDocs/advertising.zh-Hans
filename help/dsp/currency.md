@@ -1,6 +1,6 @@
 ---
-title: 支持的货币
-description: 请参阅受支持货币的列表。
+title: 支援的貨幣
+description: 請參閱支援的貨幣清單。
 feature: DSP Custom Reports, DSP Campaign Data Views
 exl-id: 97d49cce-4438-40c4-94a4-e5d90ebaf651
 source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
@@ -10,44 +10,44 @@ ht-degree: 0%
 
 ---
 
-# Adobe广告中支持的货币
+# Adobe廣告支援的貨幣
 
-Adobe广告支持以下货币。
+Adobe廣告支援下列貨幣。
 
 
 >[!NOTE]
 >
->Adobe Analytics支持 [更多货币](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html).
+>Adobe Analytics支援 [較大型的貨幣](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html).
 
-## DSP和Creative
+## DSP與Creative
 
-| 代码 | 货币名称 |
+| 程式碼 | 貨幣名稱 |
 | ------ | -------------- |
-| 澳元 | 澳元 |
-| BRL | 巴西雷亚尔 |
+| AUD | 澳洲元 |
+| BRL | 巴西雷亞爾 |
 | CAD | 加拿大元 |
 | CLP | 智利比索 |
-| CNY | 人民币 |
-| DKK | 丹麦克朗 |
-| 欧元 | 欧元 |
-| GBP | 英镑 |
-| 港元 | 港元 |
-| 印度卢比 | 印度卢比 |
-| JPY | 日元 |
+| 人民幣 | 中國人民幣 |
+| DKK | 丹麥克朗 |
+| 歐元 | 歐元 |
+| GBP | 英鎊 |
+| 港元 | 港幣 |
+| INR | 印度盧比 |
+| JPY | 日圓 |
 | MXN | 墨西哥比索 |
-| MYR | 马来西亚林吉特 |
-| 新西兰元 | 新西兰元 |
-| RUB | 俄罗斯卢布 |
-| 新元 | 新加坡元 |
-| 泰铢 | 泰铢 |
-| 尝试 | 土耳其里拉 |
+| MYR | 馬來西亞林吉特 |
+| 紐西蘭元 | 紐西蘭元 |
+| 摩擦 | 俄羅斯盧布 |
+| SGD | 新加坡元 |
+| THB | 泰銖 |
+| TRY | 新土耳其里拉 |
 | 美元 | 美元 |
 
 >[!NOTE]
 >
-> [!DNL DSP] 仅以下货币提供帐单：CAD、DKK、EUR、GBP、HKD、JPY、NZD、SGD和USD。
+> [!DNL DSP] 僅提供下列貨幣的帳單：CAD、DKK、EUR、GBP、HKD、JPY、NZD、SGD和USD。
 
 ## [!DNL Adobe Advertising Search, Social, & Commerce]
 
-支持的搜索引擎支持的所有货币。 这与 [支持 [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes).
+受支援的搜尋引擎支援的所有貨幣。 這與 [所支援的 [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes).
 

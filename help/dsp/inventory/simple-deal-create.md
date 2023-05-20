@@ -1,6 +1,6 @@
 ---
-title: 创建 [!UICONTROL Simple Ad Serving] 交易
-description: 了解如何为 [!UICONTROL Simple Ad Serving] 交易。
+title: 建立 [!UICONTROL Simple Ad Serving] 交易
+description: 瞭解如何為建立追蹤畫素 [!UICONTROL Simple Ad Serving] 交易。
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
@@ -10,60 +10,60 @@ ht-degree: 0%
 
 ---
 
-# 创建 [!UICONTROL Simple Ad Serving] 交易
+# 建立 [!UICONTROL Simple Ad Serving] 交易
 
-1. 在主菜单中，单击 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
+1. 在主功能表中，按一下 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. 在数据表上方，单击 **[!UICONTROL Create]**，然后选择 **[!UICONTROL Simple Ad Serving]**.
+1. 在資料表格上方，按一下 **[!UICONTROL Create]**，然後選取 **[!UICONTROL Simple Ad Serving]**.
 
-1. 输入 [交易设置](simple-deal-settings.md):
+1. 輸入 [交易設定](simple-deal-settings.md)：
 
-   1. 在 [!UICONTROL Select Ad Source] 部分，指定有关发布者、广告商和营销活动以及广告类型的信息，然后单击 **[!UICONTROL Next]**.
+   1. 在 [!UICONTROL Select Ad Source] 區段，指定發行者、廣告商和促銷活動以及廣告型別的相關資訊，然後按一下 **[!UICONTROL Next]**.
 
-   1. 在 [!UICONTROL Select Ad(s)] 部分，指定要用作DSP代理的广告：
+   1. 在 [!UICONTROL Select Ad(s)] 部分，指定在DSP中當作Proxy使用的廣告：
 
-      1. 执行以下任一操作：
+      1. 執行下列任一項作業：
 
-         * 对于现有广告，请选择要使用的广告。
+         * 針對現有廣告，選取要使用的廣告。
 
-         * 对于新广告，请创建代理 [第三方广告](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+         * 對於新廣告，請建立Proxy [協力廠商廣告](/help/dsp/campaign-management/ads/ad-create-multiple.md).
       >[!NOTE]
-      > DSP不提供您指定的广告。 发布者提供广告。
+      > DSP不提供您指定的廣告。 發佈者會提供廣告。
 
       1. 单击 **[!UICONTROL Next]**.
-   1. 在馈送详细信息中，编辑馈送详细信息，然后单击 **[!UICONTROL Next]**.
+   1. 在「摘要詳細資料」中，編輯摘要詳細資料，然後按一下 **[!UICONTROL Next]**.
 
-      DSP会自动生成名为“SAS放置 — &lt;*交易名称*>，”。 在版面中，交易会在 [!UICONTROL Inventory Targets] 中。 所有其他定位选项均不适用。
+      DSP會自動產生位置，名為「SAS位置 — &lt;*交易名稱*>，」代表廣告。 在刊登版位中，會自動將目標鎖定在 [!UICONTROL Inventory Targets] 區段。 所有其他鎖定目標選項均不適用。
 
 
 
-1. 将事件跟踪像素发送到发布者，以通过以下任一方式实施：
+1. 透過下列任一種方式，將事件追蹤畫素傳送給發佈者以進行實作：
 
-   * （可选）从 [!UICONTROL Activate Tag with Publisher] 屏幕中，将交易标记发送到发布者。
+   * （選用）從 [!UICONTROL Activate Tag with Publisher] 畫面，傳送交易標籤給發佈者。
 
-      完成上述步骤后，DSP会生成一封电子邮件，您可以将其发送给发布者。 该消息包括交易详细信息、用于检索交易标记的链接以及该链接的授权代码。
+      完成上述步驟後，DSP會產生電子郵件訊息，您可傳送給發行者。 該訊息包含交易細節、從中擷取交易標籤的連結，以及連結的授權代碼。
 
-      1. 查看交易详细信息，然后执行以下任一操作：
+      1. 檢閱交易詳細資料，然後執行下列任一項作業：
 
-         * 要将信息粘贴到设备上电子邮件应用程序的电子邮件中，请单击 **[!UICONTROL Email & Done]** 并选择电子邮件应用程序。 的 [!UICONTROL CC:] 字段中预填充了 [!DNL Adobe] 支持地址。 然后，您可以将消息发送给发布者的相应联系人。
+         * 若要將資訊貼到裝置上電子郵件應用程式的電子郵件訊息中，請按一下 **[!UICONTROL Email & Done]** 並選取電子郵件應用程式。 此 [!UICONTROL CC:] 欄位已預先填入 [!DNL Adobe] 支援地址。 然後，您可以將訊息傳送給發行者的適當連絡人。
 
-         * 要将信息复制到剪贴板，请单击 **[!UICONTROL Copy Email].** 然后，您可以手动将内容粘贴到电子邮件中，并将其发送给发布者的相应联系人。 您必须在 `publisher-support-global@adobe.com`. 复制完消息后，单击 **[!UICONTROL Email & Done]**.
-      1. （如有必要）跟进发布者，查看标记是否包含相应的宏，以便标记可与发布者的广告服务器配合使用。
-   * （可选）将事件跟踪像素手动发送给发布者：
+         * 若要將資訊複製到剪貼簿，請按一下 **[!UICONTROL Copy Email].** 然後，您可以手動將內容貼入電子郵件訊息，並傳送給發佈者的適當連絡人。 您必須將副本（副本：）包含到 `publisher-support-global@adobe.com`. 完成訊息複製後，請按一下 **[!UICONTROL Email & Done]**.
+      1. （如有必要）請洽詢發佈者，檢視標籤是否包含適當的巨集，讓標籤可與發佈者的廣告伺服器搭配使用。
+   * （選用）手動將事件追蹤畫素傳送給發佈者：
 
-      1. 在 [!UICONTROL Deals] 查看，单击 ![“选项”菜单](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**.
+      1. 在的交易列中 [!UICONTROL Deals] 檢視，按一下 ![選項功能表](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**.
 
-         事件像素包括 [!UICONTROL Clickthrough] 像素和 [!UICONTROL Impression] 像素。 视频和音频广告还包括按四分位数(从 [!UICONTROL 25% Complete] to [!UICONTROL 100% Complete])。
+         事件畫素包括 [!UICONTROL Clickthrough] 畫素和 [!UICONTROL Impression] 畫素。 影片和音訊廣告也包含按四分位數結束的事件畫素(從 [!UICONTROL 25% Complete] 至 [!UICONTROL 100% Complete])。
 
-      1. 复制事件跟踪像素并将其提供给您的发布者。
+      1. 複製事件追蹤畫素，並將其提供給您的發佈者。
 
 
 
 >[!MORELIKETHIS]
 >
->* [关于 [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
->* [[!UICONTROL Simple Ad Serving] 设置](simple-deal-settings.md)
->* [查看交易的详细报表](/help/dsp/inventory/deal-view-report.md)
+>* [關於 [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
+>* [[!UICONTROL Simple Ad Serving] 設定](simple-deal-settings.md)
+>* [檢視交易的詳細報告](/help/dsp/inventory/deal-view-report.md)
 
 
 <!-- add back when reimplemented:

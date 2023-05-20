@@ -1,6 +1,6 @@
 ---
-title: 指定私人交易的版面和广告
-description: 了解如何对额外投放和广告使用私人交易。
+title: 指定私人交易的版位和廣告
+description: 瞭解如何搭配其他版位和廣告使用私人交易。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
@@ -10,54 +10,54 @@ ht-degree: 1%
 
 ---
 
-# 指定私人交易的版面和广告
+# 指定私人交易的版位和廣告
 
-对于无担保交易，您可以将交易指定为 [!UICONTROL Placements] 中。
+對於非保證交易，您可以從以下位置將交易指定為新位置的詳細目錄目標 [!UICONTROL Placements] 檢視。
 
-对于程序化保证(PG)交易，您可以通过 [!UICONTROL Deals] 中。
+對於程式化預留(PG)交易，您可以使用指定的廣告從以下網址建立刊登版位： [!UICONTROL Deals] 檢視。
 
-您还可以 [将新广告附加到现有投放](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) 与PG和无担保交易相关联。
+您也可以 [將新廣告附加至現有位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) 隨時與PG及無保證交易相關聯。
 
-## 将未担保交易指定为配售的库存目标
+## 指定不保證交易作為位置的詳細目錄目標
 
-* [从 [!UICONTROL Placements] 视图](/help/dsp/campaign-management/placements/placement-create.md). 在 [!UICONTROL Inventory Targeting] 设置中，选择私有交易。
+* [從建立版位 [!UICONTROL Placements] 檢視](/help/dsp/campaign-management/placements/placement-create.md). 在 [!UICONTROL Inventory Targeting] 設定，選取私人交易。
 
-## 将投放和广告附加到PG交易
+## 將刊登版位和廣告附加至PG交易
 
-1. 在主菜单中，单击 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
+1. 在主功能表中，按一下 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. 在交易行中，单击  **[!UICONTROL ...]** > **[!UICONTROL Attach New Placement]**.
+1. 在交易列中，按一下  **[!UICONTROL ...]** > **[!UICONTROL Attach New Placement]**.
 
-1. 在 [!UICONTROL Ad & Campaign Selection] 设置中，选择要用于版面的广告：
+1. 在 [!UICONTROL Ad & Campaign Selection] 設定，選取要用於位置的廣告：
 
-       1. 选择广告商、营销活动和广告类型。 （可选）选择用于筛选广告的广告状态。
+       1. 選取廣告商、行銷活動和廣告型別。 選擇性地選取廣告狀態，以篩選廣告。
        
-       1. 从可用广告列表中，选中将用于交易的每个广告旁边的复选框。
+       1. 從可用廣告清單中，選取用於交易的每個廣告旁的核取方塊。
        
        1. 单击 **[!UICONTROL Apply]**.
    
-   1. 在版面设置屏幕中：
+   1. 在位置設定畫面中：
 
-      1. 输入版面名称。
+      1. 輸入位置名稱。
 
-      1. （可选）编辑 [版面设置](/help/dsp/campaign-management/placements/placement-settings.md)，包括覆盖默认竞价，该默认竞价会自动填充交易的CPM值；更改日期范围；或附加更多广告。
+      1. （可選）編輯 [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)，包括覆寫預設競標（自動以交易的CPM值填入）、變更日期範圍，或附加更多廣告。
 
-      该交易会在库存目标部分中自动定位。 所有其他定位选项均不适用。
+      交易會自動在詳細目錄目標區段中定位。 所有其他鎖定目標選項均不適用。
 
       1. 单击 **[!UICONTROL Create placement]**.
 
 
-发布者激活您的PG交易ID后，版面将开始运行。
+發佈者啟用您的PG交易ID後，位置就會開始執行。
 
 >[!NOTE]
 >
-> 您无需将交易标记发送给发布者进行验证。
+> 您不需要將交易標籤傳送給發行者進行驗證。
 
 >[!MORELIKETHIS]
 >
->* [关于专用清单](private-inventory-about.md)
->* [列出私人交易的版面和广告](/help/dsp/inventory/private-deal-view-placements.md)
->* [手动创建交易ID详细信息](deal-id-create.md)
->* [手动交易ID设置](deal-id-settings.md)
->* [设置程序化保证交易](programmatic-guaranteed-set-up.md)
+>* [關於私人詳細目錄](private-inventory-about.md)
+>* [列出私人交易的版位和廣告](/help/dsp/inventory/private-deal-view-placements.md)
+>* [手動建立交易識別碼詳細資料](deal-id-create.md)
+>* [手動交易識別碼設定](deal-id-settings.md)
+>* [設定程式化保證交易](programmatic-guaranteed-set-up.md)
 

@@ -1,6 +1,6 @@
 ---
-title: 快速编辑键位置设置
-description: 了解如何快速更改键位置设置。
+title: 快速編輯金鑰位置設定
+description: 瞭解如何快速變更關鍵位置設定。
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
 source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
@@ -10,32 +10,32 @@ ht-degree: 0%
 
 ---
 
-# 快速编辑键位置设置
+# 快速編輯金鑰位置設定
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
-您可以编辑版面名称、状态、最高竞价和预算，而无需打开完整的版面设置。
+您可以編輯版位名稱、狀態、最高出價和預算，而不需要開啟完整的版位設定。
 
 >[!TIP]
 >
-> 要编辑任何版面设置，请参阅[编辑版面](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+> 若要編輯任何位置設定，請參閱&quot;[編輯位置](/help/dsp/campaign-management/placements/placement-edit.md).」
 
-1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
-1. 单击营销活动的名称。
-1. 在子菜单中，单击 **[!UICONTROL Placements]**.
-1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
-1. 编辑任何可用的 [版面设置](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]**&#x200B;和 **[!UICONTROL Budget]**.
+1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+1. 按一下行銷活動的名稱。
+1. 在子功能表中，按一下 **[!UICONTROL Placements]**.
+1. 在位置名稱旁邊，按一下  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
+1. 編輯任何可用的 [位置設定](placement-settings.md)：  **[!UICONTROL Placement Name]**， **[!UICONTROL Status]**， **[!UICONTROL Max Bid]**、和 **[!UICONTROL Budget]**.
 1. 单击 **[!UICONTROL Apply]**.
 
 >[!MORELIKETHIS]
 >
->* [关于版面管理](placement-about.md)
->* [创建版面](placement-create.md)
->* [编辑版面](placement-edit.md)
->* [复制版面](placement-duplicate.md)
->* [编辑版面的广告计划](placement-edit-ad-schedule.md)
->* [暂停或激活版面](placement-pause-activate.md)
->* [查看版面的更改日志](placement-change-log.md)
->* [版面设置](placement-settings.md)
->* [视频：如何使用批量编辑工具编辑版面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [關於版位管理](placement-about.md)
+>* [建立位置](placement-create.md)
+>* [編輯位置](placement-edit.md)
+>* [複製位置](placement-duplicate.md)
+>* [編輯投放的廣告排程](placement-edit-ad-schedule.md)
+>* [暫停或啟用位置](placement-pause-activate.md)
+>* [檢視位置的變更記錄](placement-change-log.md)
+>* [位置設定](placement-settings.md)
+>* [影片：如何使用大量編輯工具編輯版位](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
 

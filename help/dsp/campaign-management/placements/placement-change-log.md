@@ -1,6 +1,6 @@
 ---
-title: 查看版面更改日志
-description: 了解如何查看对版面所做的更改。
+title: 檢視位置變更記錄
+description: 瞭解如何檢視對位置所做的變更。
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
 source-git-commit: bcd4da87642125f173befb1cdff43330ec1145bc
@@ -10,36 +10,36 @@ ht-degree: 0%
 
 ---
 
-# 查看版面的更改日志
+# 檢視位置的變更記錄
 
-更改日志显示在选定日期范围内对版面所做的更改，包括更改类型、新值和旧值、进行更改的用户以及日期。 您可以选择向任何条目添加注释。
+變更記錄會顯示所選日期範圍內對版位所做的變更，包括變更型別、新值和舊值、進行變更的使用者以及日期。 您可以選擇將附註新增至任何專案。
 
-您可以按“类型”、“修改者”或“修改日期”列对数据进行排序。
+您可以依「型別」、「修改者」或「修改日期」欄來排序資料。
 
-1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 
-1. 单击营销活动的名称。
+1. 按一下行銷活動的名稱。
 
-1. 在子菜单中，单击 **[!UICONTROL Placements]**.
+1. 在子功能表中，按一下 **[!UICONTROL Placements]**.
 
-1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. 在位置名稱旁邊，按一下  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
-1. （可选）执行以下任一操作：
+1. （可選）執行下列任一項作業：
 
-   * 要在仅以表格形式查看数据和以表格和图表形式查看数据之间切换，请单击 ![表和图表视图](/help/dsp/assets/table-plus-chart-view.png "表和图表视图") 或 ![表视图](/help/dsp/assets/table-view.png "表视图") 中。
+   * 若要在只以表格表單檢視資料，以及同時以表格和圖表表單檢視資料之間切換，請按一下 ![表格和圖表檢視](/help/dsp/assets/table-plus-chart-view.png "表格和圖表檢視") 或 ![表格檢視](/help/dsp/assets/table-view.png "表格檢視") （位於右上角工具列中）。
 
-   * 要向条目添加注释，请将光标悬停在 [!UICONTROL Notes] 列，然后单击 **[!UICONTROL Add Notes]**. 在输入字段中输入文本，然后单击 **[!UICONTROL Save]**.
+   * 若要新增註記至專案，請將游標停留在 [!UICONTROL Notes] 欄中的文字，然後按一下 **[!UICONTROL Add Notes]**. 在輸入欄位中輸入文字，然後按一下 **[!UICONTROL Save]**.
 
-   * 要在弹出窗口中查看条目的详细信息，请将光标悬停在 [!UICONTROL Notes] 列，然后单击 **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * 若要在彈出式視窗中檢視專案的詳細資訊，請將游標停留在 [!UICONTROL Notes] 欄中的文字，然後按一下 **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 
 >[!MORELIKETHIS]
 >
->* [关于版面管理](placement-about.md)
->* [创建版面](placement-create.md)
->* [编辑版面](placement-edit.md)
->* [复制版面](placement-duplicate.md)
->* [编辑版面的广告计划](placement-edit-ad-schedule.md)
->* [暂停或激活版面](placement-pause-activate.md)
->* [版面设置](placement-settings.md)
+>* [關於版位管理](placement-about.md)
+>* [建立位置](placement-create.md)
+>* [編輯位置](placement-edit.md)
+>* [複製位置](placement-duplicate.md)
+>* [編輯投放的廣告排程](placement-edit-ad-schedule.md)
+>* [暫停或啟用位置](placement-pause-activate.md)
+>* [位置設定](placement-settings.md)
 

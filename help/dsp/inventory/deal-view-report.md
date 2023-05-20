@@ -1,6 +1,6 @@
 ---
-title: 查看私人的详细报表， [!UICONTROL On Demand]或 [!UICONTROL Simple Ad Serving] 交易
-description: 了解如何打开交易级别的报表。
+title: 檢視私人詳細報表， [!UICONTROL On Demand]，或 [!UICONTROL Simple Ad Serving] 交易
+description: 瞭解如何開啟交易層級報表。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals, DSP On Demand Inventory, DSP Simple Ad Serving
 exl-id: 8a2e142e-0a05-47c7-9888-935665f06ad3
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
@@ -10,20 +10,20 @@ ht-degree: 0%
 
 ---
 
-# 查看交易的详细报表
+# 檢視交易的詳細報告
 
-交易级别报表包括拍卖次数、竞价率、获胜率、展示次数、净支出总额、有效CMP(eCPM)和完成率。 您可以按广告商、促销活动、版面、广告类型和网站查看其他绩效量度。
+交易層級報表包含拍賣次數、競標率、中標率、曝光次數、淨支出總計、有效CMP (eCPM)和完成率。 您可以依廣告商、行銷活動、版位、廣告型別和網站來檢視其他效能量度。
 
-1. 在主菜单中，单击 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
+1. 在主功能表中，按一下 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. 在交易行中，单击 **[!UICONTROL ...]** > **[!UICONTROL View Report]**.
+1. 在交易列中，按一下 **[!UICONTROL ...]** > **[!UICONTROL View Report]**.
 
-1. （可选）自定义要查看其数据的日期范围。
+1. （選用）自訂您要檢視其資料的日期範圍。
 
 >[!MORELIKETHIS]
 >
->* [查看私人交易的拍卖分析](/help/dsp/inventory/private-deal-auction-insights.md)
->* [关于 [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
->* [关于专用清单](private-inventory-about.md)
->* [关于 [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
+>* [檢視私人交易的拍賣深入分析](/help/dsp/inventory/private-deal-auction-insights.md)
+>* [關於 [!DNL On Demand] 進階詳細目錄](on-demand-inventory-about.md)
+>* [關於私人詳細目錄](private-inventory-about.md)
+>* [關於 [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
 

@@ -1,6 +1,6 @@
 ---
-title: 通用视频广告设置
-description: 请参阅通用视频广告的可用广告设置描述。
+title: 通用視訊廣告設定
+description: 請參閱通用視訊廣告可用廣告設定的說明。
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
 source-git-commit: 0c9e9c8d2a3444c623568d25262421be53c0c846
@@ -10,76 +10,76 @@ ht-degree: 0%
 
 ---
 
-# 通用视频广告设置
+# 通用視訊廣告設定
 
-*开放测试版功能*
+*開放Beta版功能*
 
 >[!NOTE]
 >
->通用视频广告只能附加到通用视频投放。
+>通用視訊廣告只能附加至通用視訊位置。
 
 ## [!UICONTROL Insert Ad Tag]
 
-*仅新广告*
+*僅限新廣告*
 
-**[!UICONTROL URL]:** VAST标记URL。
+**[!UICONTROL URL]：** VAST標籤URL。
 
-**[!UICONTROL Title]:** 文件的标题，位于 [!UICONTROL Ads] 查看和报表。
+**[!UICONTROL Title]：** 檔案的標題，位於 [!UICONTROL Ads] 檢視和報告。
 
 >[!TIP]
 >
-> 要检查VAST标记的有效性，请将其粘贴到浏览器中，然后点击 **[!UICONTROL Enter]** 键。 如果标记有效，您将看到一个XML文件，其中包含 `<VAST>` 靠近顶部。
+> 若要檢查VAST標籤的有效性，請將其貼到瀏覽器中並按一下 **[!UICONTROL Enter]** 金鑰。 如果標籤有效，您會看到包含的XML檔案 `<VAST>` 靠近頂端。
 
 ## [!UICONTROL Ad Options]
 
 ### [!UICONTROL Basic]
 
-**[!UICONTROL Ad Type]:** （只读）您创建的广告类型，与广告可附加到的版面类型相对应。
+**[!UICONTROL Ad Type]：** （唯讀）您正在建立的廣告型別，與可附加廣告的位置型別相對應。
 
-**[!UICONTROL Ad Name]:** 广告名称。 默认情况下，会使用资产标题，但您可以更改名称。
+**[!UICONTROL Ad Name]：** 廣告名稱。 預設會使用資產標題，但您可以變更名稱。
 
 >[!TIP]
 >
-> 在 [!UICONTROL Ads] 视图和报表中。 例如，描述设备类型和一些关键属性(例如“假日产品预览”：30秒通用视频”)。
+> 當您在下列位置將廣告附加至位置時，請使用容易找到的名稱： [!UICONTROL Ads] 檢視，以及在報表中。 例如，說明單位型別和某些關鍵屬性（例如Holiday Product Preview： 30sec Universal Video）。
 
-**[!UICONTROL Show Controls]:** 广告的视频控件的包含位置： *[!UICONTROL Under]*, *[!UICONTROL Over]*, *[!UICONTROL Bottom]*&#x200B;或 *[!UICONTROL None]* （默认）。
+**[!UICONTROL Show Controls]：** 在何處加入廣告的視訊控制項： *[!UICONTROL Under]*， *[!UICONTROL Over]*， *[!UICONTROL Bottom]*，或 *[!UICONTROL None]* （預設）。
 
-**[!UICONTROL Preserve Aspect Ratio]:** 是否保留视频的宽度和高度比例(*[!UICONTROL Yes]*)或拉伸视频以填充可用空间(*[!UICONTROL No]*)。
+**[!UICONTROL Preserve Aspect Ratio]：** 是否保持視訊的寬度和高度比例(*[!UICONTROL Yes]*)或延伸視訊以填滿可用空間(*[!UICONTROL No]*)。
 
-**[!UICONTROL VAST Tag]:** (仅使用VAST标记的广告；只读)作为广告源输入的第三方VAST标记。
+**[!UICONTROL VAST Tag]：** （僅使用VAST標籤的廣告；唯讀）您輸入作為廣告來源的第三方VAST標籤。
 
-**[!UICONTROL Final VAST Tag]:** (仅使用VAST标记的广告；只读)您作为广告源输入的第三方VAST标记，且 [Advertising DSP跟踪宏](/help/dsp/campaign-management/macros.md) 插入（如果适用）。
+**[!UICONTROL Final VAST Tag]：** （僅使用VAST標籤的廣告；唯讀）您輸入作為廣告來源的第三方VAST標籤，並具有必要 [Advertising DSP追蹤巨集](/help/dsp/campaign-management/macros.md) 已插入（如果適用）。
 
-**[!UICONTROL Wmode]:** 窗口模式： *[!UICONTROL window]*, *[!UICONTROL transparent]*&#x200B;或 *[!UICONTROL opaque]*. 如果此设置不适用，请将其留空。
+**[!UICONTROL Wmode]：** 視窗模式： *[!UICONTROL window]*， *[!UICONTROL transparent]*，或 *[!UICONTROL opaque]*. 如果此設定不適用，請留空。
 
-**[!UICONTROL Video Format]:** 潜在清单的广告播放器的格式： *[!UICONTROL VPAID]*, *[!UICONTROL VPAID & VAST]*&#x200B;或 *[!UICONTROL VAST]*. 可视性始终以 [!UICONTROL VPAID]，但 [!UICONTROL VPAID & VAST] 包括不允许可视性测量的库存。 如果可见性量度对您的营销活动很重要，请考虑这一区别。
+**[!UICONTROL Video Format]：** 潛在詳細目錄的廣告播放器格式： *[!UICONTROL VPAID]*， *[!UICONTROL VPAID & VAST]*，或 *[!UICONTROL VAST]*. 可檢視度一律會測量 [!UICONTROL VPAID]，但 [!UICONTROL VPAID & VAST] 包含不允許可檢視度測量的詳細目錄。 如果可見度量度對您的行銷活動很重要，請考慮此區別。
 
-使用 [!UICONTROL VAST]，当您定位的连接电视或清单仅严格要求使用VAST格式时(通常来自诸如Google Ad Manager、Appnexus、SpotX和Freewheel之类的供应源)，则不允许进行可视性测量。 此外，还可以将此选项用于以前与标准前置广告(VAST)或手机+平板电脑标准前置广告(VAST)投放/广告兼容的库存。
+使用 [!UICONTROL VAST]，這不允許可檢視度測量，當您鎖定僅嚴格要求VAST格式的連線電視或詳細目錄時(通常來自Google Ad Manager、Appnexus、SpotX和Freewheel等供應來源)。 也請將此選項用於先前與標準前段廣告(VAST)或手機+平板電腦標準前段廣告(VAST)版位/廣告相容的詳細目錄。
 
-**[!UICONTROL Clock Number]**:(仅在英国使用；仅供具有权限的用户使用)用于确保广播正确广告的唯一标识符。 如果此设置不适用，请将其留空。
+**[!UICONTROL Clock Number]**：（僅於英國使用；僅供擁有許可權的使用者使用）唯一識別碼，用於確保廣播正確的廣告。 如果此設定不適用，請留空。
 
 ### [!UICONTROL Pixel]
 
-用于放置的所有现有事件跟踪像素都会自动附加。 您可以根据您对单个广告的跟踪需求，分离现有像素并根据需要创建新像素。
+會自動附加位置的所有現有事件追蹤畫素。 您可以根據個別廣告的追蹤需求，分離現有畫素並根據需要建立新畫素。
 
-以下设置适用于您创建或编辑的每个像素。
+下列設定會套用至您建立或編輯的每個畫素。
 
-**[!UICONTROL Integration Event]:** 触发像素的事件。 对于此广告类型，请使用 *[!UICONTROL Impression]* 或 *[!UICONTROL Click-through]*.
+**[!UICONTROL Integration Event]：** 觸發畫素觸發的事件。 對於此廣告型別，請使用在 *[!UICONTROL Impression]* 或 *[!UICONTROL Click-through]*.
 
-**[!UICONTROL Pixel Type]:** 像素是否为 *[!UICONTROL IMG URL]* （1x1像素图像文件）， *[!UICONTROL HTML]*&#x200B;或 *[!UICONTROL JavaScript URL]*.
+**[!UICONTROL Pixel Type]：** 畫素是否為 *[!UICONTROL IMG URL]* （1x1畫素影像檔案）， *[!UICONTROL HTML]*，或 *[!UICONTROL JavaScript URL]*.
 
-**[!UICONTROL Pixel URL or Code]:** 像素图像的URL，格式与指定的 [!UICONTROL Pixel Type].
+**[!UICONTROL Pixel URL or Code]：** 畫素影像的URL，以指定的適當格式顯示 [!UICONTROL Pixel Type].
 
-**[!UICONTROL Pixel Name]:** 像素名称。 使用有助于您轻松识别像素的名称。
+**[!UICONTROL Pixel Name]：** 畫素名稱。 使用可協助您輕鬆識別畫素的名稱。
 
-**[!UICONTROL Pixel Provider]:** 像素提供程序： *[!UICONTROL None]*, *[!UICONTROL Nielsen]*&#x200B;或 *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]：** 畫素提供者： *[!UICONTROL None]*， *[!UICONTROL Nielsen]*，或 *[!UICONTROL Comscore]*.
 
 >[!MORELIKETHIS]
 >
->* [关于通用视频的常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)
->* [关于广告管理](ad-about.md)
->* [创建单个广告](ad-create.md)
->* [列出与广告关联的版面](/help/dsp/campaign-management/ads/ad-list-placements.md)
->* [广告规范](ad-specs.md)
->* [DSP宏](/help/dsp/campaign-management/macros.md)
+>* [關於通用視訊的常見問題集](/help/dsp/campaign-management/faq-universal-video.md)
+>* [關於廣告管理](ad-about.md)
+>* [建立單一廣告](ad-create.md)
+>* [列出與廣告相關的版位](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [廣告規格](ad-specs.md)
+>* [DSP巨集](/help/dsp/campaign-management/macros.md)
 

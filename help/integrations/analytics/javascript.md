@@ -1,6 +1,6 @@
 ---
-title: 适用于的JavaScript代码 [!DNL Analytics for Advertising]
-description: 适用于的JavaScript代码 [!DNL Analytics for Advertising]
+title: JavaScript程式碼 [!DNL Analytics for Advertising]
+description: JavaScript程式碼 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
 source-git-commit: 96b71e8c99ee30254b4bdc4ef0cb8af359f64c5e
@@ -10,31 +10,31 @@ ht-degree: 0%
 
 ---
 
-# 适用于的JavaScript代码 [!DNL Analytics for Advertising]
+# JavaScript程式碼 [!DNL Analytics for Advertising]
 
-*仅具有Adobe广告与Adobe Analytics集成的广告商*
+*僅具有AdobeAdvertising-Adobe Analytics整合的廣告商*
 
-*仅使用Advertising DSP的广告商*
+*僅使用Advertising DSP的廣告商*
 
-对于Advertising DSP, [!DNL Analytics for Advertising] 集成可跟踪显示到达和点进网站的交互。 点进访问量由您网页上的标准Adobe Analytics代码进行跟踪；the [!DNL Analytics] 代码会捕获登陆页面URL中的AMO ID和EF ID参数，并在各自的保留eVar中跟踪它们。 您可以通过在网页中部署JavaScript代码片段来跟踪显示到达访问。
+對於Advertising DSP，請將 [!DNL Analytics for Advertising] 整合會追蹤瀏覽和點進網站互動。 點進造訪會由您網頁上的標準Adobe Analytics程式碼追蹤； [!DNL Analytics] 程式碼會擷取登陸頁面URL中的AMO ID和EF ID引數，並在其各自的保留eVar中追蹤它們。 您可以在網頁中部署JavaScript程式碼片段，以追蹤瀏覽次數。
 
-在访问网站的首次页面查看时，Adobe广告JavaScript代码会检查访客之前是否查看过或点击过广告。 如果用户之前通过点进方式进入网站，或者未看到广告，则访客将被忽略。 如果访客在 [点击回顾窗口](/help/integrations/analytics/prerequisites.md#lookback-a4adc) 在Adobe广告中设置，则Adobe广告JavaScript代码(a)使用 [Experience CloudID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html) 生成补充ID(`SDID`)或b)使用Adobe Experience Platform [!DNL Web SDK] `generateRandomID` 生成方法 `[!DNL StitchID]`. 任一ID用于将来自Adobe广告的数据拼合到访客的Adobe Analytics点击。 然后，Adobe Analytics会查询Adobe广告，以获取与广告曝光关联的AMO ID和EF ID。 然后，AMO ID和EF ID会填充到其各自的eVar中。 这些值会在指定的时间段（默认为60天）内保留。
+在造訪網站的第一個頁面檢視上，AdobeAdvertising JavaScript程式碼會檢查訪客是否先前看過或點選過廣告。 如果使用者先前曾透過點進進入網站或尚未看到廣告，則會忽略該訪客。 如果訪客在瀏覽廣告期間未透過點進進入網站 [按一下回顧視窗](/help/integrations/analytics/prerequisites.md#lookback-a4adc) 在Adobe廣告中設定，則Adobe廣告JavaScript程式碼a)會使用 [Experience CloudID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html) 產生補充ID (`SDID`)或b)使用Adobe Experience Platform [!DNL Web SDK] `generateRandomID` 產生的方法 `[!DNL StitchID]`. 其中一個ID都可用來將Adobe廣告中的資料拼接至訪客的Adobe Analytics點選。 Adobe Analytics接著會查詢Adobe廣告，以取得與廣告曝光度相關聯的AMO ID和EF ID。 AMO ID和EF ID會填入各自的eVar中。 這些值會在指定的期間（預設為60天）內持續存在。
 
-[!DNL Analytics] 发送网站流量量度（如页面查看次数、访问次数和逗留时间）以及 [!DNL Analytics] 自定义或标准事件，以Adobe每小时广告一次，并使用EF ID作为键。 这些 [!DNL Analytics] 然后，通过Adobe广告归因系统来将转化与点击和曝光历史记录关联起来。
+[!DNL Analytics] 傳送網站流量量度（例如頁面檢視、造訪和逗留時間）和 [!DNL Analytics] 自訂或標準事件，以EF ID作為索引鍵，每小時AdobeAdvertising。 這些 [!DNL Analytics] 接著透過Adobe廣告歸因系統執行的量度，將轉換連結到點選和曝光歷史記錄。
 
 >[!NOTE]
 >
->Adobe广告JavaScript跟踪逻辑发生在Adobe端，因此对页面加载时间几乎没有影响。
+>Adobe廣告JavaScript追蹤邏輯發生在Adobe端，因此對頁面載入時間幾乎沒有影響。
 >
->相反， [!DNL DCM] 数据连接器到 [!DNL Analytics] (使用 [!DNL Google Campaign Manager 360])，以在客户端执行DSP。 客户端拼合会减缓页面加载速度，并增加数据丢失的风险。 出现此情况的原因是 [!DNL Analytics] JavaScript必须ping [!DNL DoubleClick] 等 [!DNL DoubleClick] 将上次点击/展示数据传递回 [!DNL Analytics]. 当 [!DNL DSP] 团队设置 [!DNL DCM] data connector中，您必须指定希望延迟页面的时长。
+>相較之下， [!DNL DCM] 資料聯結器至 [!DNL Analytics] (使用 [!DNL Google Campaign Manager 360])時，Advertising DSP的使用者端會發生。 使用者端彙整會減緩頁面載入速度，並增加資料遺失的風險。 出現此狀況是因為 [!DNL Analytics] JavaScript必須ping [!DNL DoubleClick] 並等待 [!DNL DoubleClick] 將最後點選/曝光資料傳回至 [!DNL Analytics]. 當您的 [!DNL DSP] 團隊設定 [!DNL DCM] 資料聯結器，您必須指定您願意將頁面延遲多久。
 
-## 部署JavaScript代码
+## 部署JavaScript程式碼
 
-JavaScript库包含两行，允许 [!DNL Analytics] 和Adobe广告以相互通信。 如果 [!DNL Analytics for Advertising] 集成在Adobe广告实施期间完成，则您应该已经收到此代码，其中包含有关如何部署该代码的说明。
+JavaScript程式庫由兩行組成，允許 [!DNL Analytics] 和Adobe廣告互相溝通。 如果 [!DNL Analytics for Advertising] 整合已在Adobe廣告實作期間完成，則您應已收到此程式碼及其部署說明。
 
-### 代码
+### 程式碼
 
-#### 使用Experience Cloud标识服务的实施 `visitorAPI.js` 代码
+#### 使用Experience CloudIdentity服務的實作 `visitorAPI.js` 程式碼
 
 ```
 <script>
@@ -43,7 +43,7 @@ JavaScript库包含两行，允许 [!DNL Analytics] 和Adobe广告以相互通�
 </script>
 ```
 
-#### 使用Experience Platform的实施 [!DNL Web SDK] `alloy.js`代码
+#### 使用Experience Platform的實作 [!DNL Web SDK] `alloy.js`程式碼
 
 ```
 <script>
@@ -52,69 +52,69 @@ JavaScript库包含两行，允许 [!DNL Analytics] 和Adobe广告以相互通�
 </script>
 ```
 
-### 代码放置位置
+### 放置程式碼的位置
 
-的 [!DNL Analytics for Advertising] JavaScript函数必须位于Experience CloudID服务之后，但位于您的Analytics App Measurement代码之前。 这可确保补充ID(`SDID`)或 `[!DNL StitchID]` 包含在您的Analytics调用中。
+此 [!DNL Analytics for Advertising] JavaScript函式必須在Experience CloudID服務之後，但在Analytics App Measurement程式碼之前。 這可確保補充ID (`SDID`)或 `[!DNL StitchID]` 包含在您的Analytics呼叫中。
 
-![代码放置](/help/integrations/assets/a4adc-code-placement.png)
+![程式碼放置](/help/integrations/assets/a4adc-code-placement.png)
 
-### 验证代码部署
+### 驗證程式碼部署
 
-您可以使用任何数据包探查器类型的工具(例如 [!DNL Charles], [!DNL Fiddler]或 [!DNL Chrome Developer Tools])，方法是比较发往Adobe广告的请求和发往 [!DNL Analytics]，如下所述。
+您可以使用任何封包Sniffer型別的工具(例如 [!DNL Charles]， [!DNL Fiddler]，或 [!DNL Chrome Developer Tools])，比較前往Adobe廣告的請求與前往的請求之間的四個ID值 [!DNL Analytics]，如下所述。
 
-#### 如何使用确认代码 [!DNL Chrome Developer Tools] {#validate-js-chrome}
+#### 如何使用確認程式碼 [!DNL Chrome Developer Tools] {#validate-js-chrome}
 
-1. 打开 [!DNL Chrome Developer Tools] ，然后单击 **网络** 选项卡。
+1. 開啟 [!DNL Chrome Developer Tools] 並按一下 **網路** 標籤。
 
-1. 加载包含 [!DNL Analytics for Advertising] JavaScript。
+1. 載入包含 [!DNL Analytics for Advertising] JavaScript。
 
-1. 筛选 [!UICONTROL Network] 选项卡 `last` 并查看两行：
+1. 篩選 [!UICONTROL Network] 定位方式 `last` 並檢閱兩列：
 
-   ![最后过滤](/help/integrations/assets/a4adc-code-validation-filter-last.png)
+   ![篩選於上次](/help/integrations/assets/a4adc-code-validation-filter-last.png)
 
-   * 第一行是对JavaScript库的调用，其标题为 `last-event-tag-latest.min.js`.
-   * 第二行是向Adobe广告发送请求的调用。 开始如下： `_les_imsOrgId=[your_imsOrgId_here]&_les_url=[your_encoded_url]`
+   * 第一列是對JavaScript程式庫的呼叫，標題為 `last-event-tag-latest.min.js`.
+   * 第二列是將請求傳送至Adobe Advertising的呼叫。 其開頭如下： `_les_imsOrgId=[your_imsOrgId_here]&_les_url=[your_encoded_url]`
 
-      如果您没有看到对Adobe广告的调用，则它可能不是您访问的第一个页面查看。 出于测试目的，您可以删除Cookie，以便下次调用将是相应访问的第一个页面查看：
-   1. 在“应用程序”选项卡上，找到 `adcloud` cookie，并验证cookie是否包含 `_les_v` 值为 `y` 和30分钟后过期的UTC纪元时间戳。
-      1. 删除 `ad cloud` cookie并刷新页面。
+      如果您沒有看到對Adobe廣告的呼叫，則它可能不會是您造訪的第一個頁面檢視。 出於測試目的，您可以移除Cookie，讓下一個呼叫成為相應造訪的第一個頁面檢視：
+   1. 在應用程式標籤上，找到 `adcloud` Cookie，並確認Cookie包含 `_les_v` （上次造訪）的值為 `y` 以及30分鐘後過期的UTC紀元時間戳記。
+      1. 刪除 `ad cloud` Cookie並重新整理頁面。
 
 
-1. (使用Experience Cloud标识服务的实施 `visitorAPI.js` 代码)筛选 `/b/ss` ，以查看Analytics点击。
+1. (使用Experience Cloud Identity Service的實作 `visitorAPI.js` 代碼)篩選依據 `/b/ss` 以檢視Analytics點選。
 
-   ![筛选条件 `/b/ss`](/help/integrations/assets/a4adc-code-validation-filter-bss.png)
+   ![篩選依據 `/b/ss`](/help/integrations/assets/a4adc-code-validation-filter-bss.png)
 
-1. (使用Experience Platform的实施 [!DNL Web SDK] `alloy.js`代码)筛选 `/interact` 验证到边缘网络的请求有效负载是否包含 `advertisingStitchID`.
+1. (使用Experience Platform的實作 [!DNL Web SDK] `alloy.js`代碼)篩選依據 `/interact` 驗證傳送至Edge Network的要求裝載是否包含 `advertisingStitchID`.
 
-   ![筛选条件 `/interact`](/help/integrations/assets/a4adc-code-validation-filter-interact.png)
+   ![篩選依據 `/interact`](/help/integrations/assets/a4adc-code-validation-filter-interact.png)
 
-1. 比较两次点击之间的ID值。 所有值都将位于查询字符串参数中，但Analytics点击中的报表包ID除外，该URL路径是紧接在 `/b/ss/`.
+1. 比較兩個點選之間的ID值。 除了在Analytics點選中的報表套裝ID （即緊接在後面的URL路徑）以外，所有值都會在查詢字串引數中 `/b/ss/`.
 
-   | ID | Analytics参数 | 边缘网络 | Adobe广告参数 |
+   | ID | Analytics引數 | 邊緣網路 | Adobe廣告引數 |
    | --- | --- | --- | --- |
-   | Experience CloudIMS组织 | `mcorgid` |  | `_les_imsOrgid` |
-   | 补充数据ID | sdid |  | `_les_sdid` |
-   | 拼合ID | stitchId | `advertisingStitchID` 下 `_adcloud` 属性 |  |
-   | Analytics报表包 | 之后的值 `/b/ss/` |  | `_les_rsid` |
-   | Experience Cloud访客ID | mid |  | `_les_mid` |
+   | Experience CloudIMS組織 | `mcorgid` |  | `_les_imsOrgid` |
+   | 補充資料ID | sdid |  | `_les_sdid` |
+   | 拼接ID | stitchId | `advertisingStitchID` 在 `_adcloud` 屬性 |  |
+   | Analytics報表套裝 | 之後的值 `/b/ss/` |  | `_les_rsid` |
+   | Experience Cloud訪客ID | mid |  | `_les_mid` |
 
-   如果ID值匹配，则确认JavaScript实施。 Adobe广告将发送 [!DNL Analytics] 服务器任何点进或显示到达跟踪详细信息（如果存在）。
+   如果ID值相符，則會確認JavaScript實施。 Adobe廣告將傳送 [!DNL Analytics] 伺服器任何點進或檢視追蹤詳細資訊（如果存在）。
 
-#### 如何使用确认代码 [!DNL Adobe Experience Cloud Debugger]
+#### 如何使用確認程式碼 [!DNL Adobe Experience Cloud Debugger]
 
-1. 打开 [[!DNL Adobe Experience Cloud Debugger]](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html) 的问题。
-1. 转到 [!UICONTROL Network] 选项卡。
-1. 在 [!UICONTROL Solutions Filter] 工具栏，单击 [!UICONTROL Adobe Advertising] 和 [!UICONTROL Analytics].
-1. 在 [!UICONTROL Request URL – Hostname] 参数行，查找 `lasteventf-tm.everesttech.net`.
-1. 在 [!UICONTROL Request – Parameters] 行中，审核生成的信号，类似于“[如何使用确认代码 [!DNL Chrome Developer Tools]](#validate-js-chrome).&quot;
-   * (使用Experience Cloud标识服务的实施 `visitorAPI.js` 代码)确保 `Sdid` 参数与 `Supplemental Data ID` 在Adobe Analytics筛选器中。
-   * (使用Experience Platform的实施 [!DNL Web SDK] `alloy.js`代码)确保 `advertisingStitchID` 参数与 `Sdid` 发送到Experience Platform边缘网络。
-   * 如果未生成代码，请检查以确保已在 [!UICONTROL Application] 选项卡。 删除后，刷新页面并重复该过程。
+1. 開啟 [[!DNL Adobe Experience Cloud Debugger]](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html) 在您首頁上。
+1. 前往 [!UICONTROL Network] 標籤。
+1. 在 [!UICONTROL Solutions Filter] 工具列，按一下 [!UICONTROL Adobe Advertising] 和 [!UICONTROL Analytics].
+1. 在 [!UICONTROL Request URL – Hostname] 引數列，找出 `lasteventf-tm.everesttech.net`.
+1. 在 [!UICONTROL Request – Parameters] 列，稽核產生的訊號，類似於&quot;[如何使用確認程式碼 [!DNL Chrome Developer Tools]](#validate-js-chrome).」
+   * (使用Experience Cloud Identity Service的實作 `visitorAPI.js` 代碼)確認 `Sdid` 引數符合 `Supplemental Data ID` 在Adobe Analytics篩選中。
+   * (使用Experience Platform的實作 [!DNL Web SDK] `alloy.js`代碼)確認 `advertisingStitchID` 引數符合 `Sdid` 傳送至Experience Platform邊緣網路。
+   * 如果程式碼未產生，請檢查以確認AdobeAdvertising Cookie已移除 [!UICONTROL Application] 標籤。 移除後，請重新整理頁面並重複此程式。
 
-   ![审核 [!DNL Analytics for Advertising] 中的JavaScript代码 [!DNL Experience Cloud Debugger]](/help/integrations/assets/a4adc-js-audit-debugger.png)
+   ![稽核 [!DNL Analytics for Advertising] 中的JavaScript程式碼 [!DNL Experience Cloud Debugger]](/help/integrations/assets/a4adc-js-audit-debugger.png)
 
 >[!MORELIKETHIS]
 >
 >* [概述 [!DNL Analytics for Advertising]](overview.md)
->* [实施的先决条件和关键信息 [!DNL Analytics for Advertising]](prerequisites.md)
+>* [實作的必要條件和關鍵資訊 [!DNL Analytics for Advertising]](prerequisites.md)
 

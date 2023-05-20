@@ -1,51 +1,51 @@
 ---
-title: 谈判程序化保证交易的提示
-description: 了解有关谈判程序化保证(PG)交易的提示以及购买者和出版商责任列表。
+title: 商議程式化保證交易的秘訣
+description: 瞭解洽談程式化保證(PG)交易的秘訣，以及購買者和發佈者責任的清單。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 41a2a307-5cb2-4b41-bb3b-edee1e15c5fa
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 谈判程序化保证交易的提示
+# 商議程式化保證交易的秘訣
 
-在谈判程序化保证交易时，买方和出版商必须讨论并确认以下事项：
+在洽談程式化保證交易時，買方和發行者必須討論並確認下列專案：
 
 * 投放日期
 * Geos
-* 库存类型
-* 创作时长
-* 显示大小
-* 绩效目标
-* 品牌安全要求
-* 目标受众
-* 展示次数
-* 预算
+* 詳細目錄型別
+* 創意長度
+* 顯示器大小
+* 效能目標
+* 品牌安全需求
+* 目標對象
+* 曝光次數
+* 預算
 * CPM
-* 频率
-* 分时段
-* 激活过程
+* 頻率
+* 時段
+* 啟用程式
 
-## 程序化保证交易的买方责任
+## 程式化保證交易的買方責任
 
-* 交易设置和激活
-* 创建程序化保证投放
-* 疑难解答
-* 投放监控
-* 执行95%-100%的竞价/响应率
+* 交易設定和啟動
+* 建立程式化預留位置
+* 故障排除
+* 傳遞監視
+* 執行95%-100%出價/回應率
 
-## 程序化保证交易的出版商责任
+## 程式化保證交易的發行者責任
 
-* 在所需的投放日期内交付协商预算、展示次数、CPM、地理、受众、频率和分时段
-* 在所需的投放日期内满足KPI和品牌安全要求
-* 疑难解答
+* 在規定投放日期內傳遞議定預算、曝光數、CPM、地標、對象、頻率和白天
+* 在規定的投放日期內符合KPI和品牌安全需求
+* 故障排除
 
 >[!MORELIKETHIS]
 >
->* [关于程序化保证交易](programmatic-guaranteed-about.md)
->* [设置程序化保证交易](programmatic-guaranteed-set-up.md)
->* [SSP合作伙伴](ssp-partners.md)
+>* [關於程式化預留交易](programmatic-guaranteed-about.md)
+>* [設定程式化保證交易](programmatic-guaranteed-set-up.md)
+>* [SSP合作夥伴](ssp-partners.md)
 
