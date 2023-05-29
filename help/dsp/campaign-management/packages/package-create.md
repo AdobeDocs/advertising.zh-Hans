@@ -1,35 +1,36 @@
 ---
-title: 建立套裝
-description: 瞭解如何建立套件。
+title: 创建资源包
+description: 了解如何创建包。
 feature: DSP Packages
 exl-id: 528c57f2-fa83-44d7-9ce4-509ca7565135
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
 
-# 建立套裝
+# 创建资源包
 
 >[!TIP]
 >
->最佳實務是根據鎖定目標策略、廣告型別和效能目標來區分您的套件。
+>最佳实践是根据定位策略、广告类型和性能目标分离软件包。
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
-1. 按一下您要建立套件的行銷活動名稱。
-1. 在封裝索引標籤上，按一下 **[!UICONTROL Create]** > **[!UICONTROL Package]**.
-1. 輸入 [封裝設定](package-settings.md).
+1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 单击要在其中创建资源包的营销活动的名称。
+1. 在包选项卡上，单击 **[!UICONTROL Create]** > **[!UICONTROL Package]**.
+1. 输入 [包设置](package-settings.md).
 1. 单击 **[!UICONTROL Save and Close]**.
 
-建立套件後，您就可以指派版位給它。
+创建资源包后，您可以为其分配投放位置。
 
 >[!MORELIKETHIS]
 >
->* [關於封裝管理](package-about.md)
->* [編輯套裝](package-edit.md)
->* [將位置附加至封裝](package-attach-placement.md)
->* [檢視套裝程式的變更記錄](package-change-log.md)
->* [封裝設定](package-settings.md)
->* [影片：如何建立套件](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)
+>* [关于包管理](package-about.md)
+>* [编辑资源包](package-edit.md)
+>* [将投放位置附加到资源包](package-attach-placement.md)
+>* [查看包的更改日志](package-change-log.md)
+>* [暂停或激活包](package-pause-activate.md)
+>* [包设置](package-settings.md)
+>* [视频：如何创建包](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)
 

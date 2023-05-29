@@ -1,41 +1,42 @@
 ---
-title: 封存或取消封存套件
-description: 瞭解如何封存或取消封存套件。
+title: 存档或取消存档软件包
+description: 了解如何存档或取消存档资源包。
 feature: DSP Packages
 exl-id: 12d1b498-2239-401a-8571-9210956e32b2
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
 
-# 封存或取消封存套件
+# 存档或取消存档软件包
 
-封存未使用的套件時，隱藏該套件。 您可以對封存的封裝執行的唯一動作是取消封存。 封存的套件預設不會顯示，但仍可用於報告。
+通过存档来隐藏未使用的包。 您可以对已存档的软件包执行的唯一操作是取消存档。 默认情况下，不会显示已存档的包，但这些包仍可用于报告。
 
-您可以隨時取消封存套件以還原其先前的狀態。
+您可以随时取消存档程序包以恢复其以前的状态。
 
-## 封存套件
+## 存档资源包
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
-1. 按一下行銷活動的名稱以開啟 [!UICONTROL Packages] 檢視。
-1. 在封裝名稱旁邊，按一下  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
-1. 在確認訊息中，按一下 **[!UICONTROL Archive]**.
+1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 单击营销策划的名称，以打开 [!UICONTROL Packages] 视图。
+1. 在包名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
+1. 在确认消息中，单击 **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->若要檢視封存的封裝，請篩選 [!UICONTROL Packages] 檢視：按一下 ![篩選按鈕](/help/dsp/assets/filter.png)，按一下 **[!UICONTROL Package status]** 並選取 **[!UICONTROL Archived]**，然後按一下 **[!UICONTROL Apply].**
+>要查看已存档的包，请筛选 [!UICONTROL Packages] 视图：单击 ![“过滤器”按钮](/help/dsp/assets/filter.png)，单击 **[!UICONTROL Package status]** 并选择 **[!UICONTROL Archived]**，然后单击 **[!UICONTROL Apply].**
 
-## 取消封存套件
+## 取消存档资源包
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
-1. 按一下行銷活動的名稱以開啟 [!UICONTROL Packages] 檢視。
-1. 在封裝名稱旁邊，按一下  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
-1. 在確認訊息中，按一下 **[!UICONTROL Unarchive]**.
+1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 单击营销策划的名称，以打开 [!UICONTROL Packages] 视图。
+1. 在包名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
+1. 在确认消息中，单击 **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]
 >
->* [編輯套裝](package-edit.md)
->* [檢視套裝程式的變更記錄](package-change-log.md)
+>* [编辑资源包](package-edit.md)
+>* [查看包的更改日志](package-change-log.md)
+>* [暂停或激活包](package-pause-activate.md)
 

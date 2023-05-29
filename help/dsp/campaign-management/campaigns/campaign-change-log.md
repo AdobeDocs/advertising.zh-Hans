@@ -1,37 +1,38 @@
 ---
-title: 檢視行銷活動變更記錄
-description: 瞭解如何檢視對行銷活動所做的變更。
+title: 查看营销活动更改日志
+description: 了解如何查看对营销活动所做的更改。
 feature: DSP Campaigns
 exl-id: ba96a277-937a-4475-bab6-6e0a4f5ced13
-source-git-commit: 7f8e4f2170e981a1ab8865be731faba2623fd97d
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
-# 檢視行銷活動的變更記錄
+# 查看营销活动的更改日志
 
-變更記錄會顯示所選日期範圍內對行銷活動所做的變更，包括行銷活動名稱、實體型別（行銷活動）、變更型別、新值和舊值、進行變更的使用者以及日期。 您可以選擇將附註新增至任何專案。
+更改日志显示所选日期范围内对营销活动所做的更改，包括营销活动名称、实体类型（营销活动）、更改类型、新值和旧值、进行更改的用户以及日期。 您可以选择向任何条目添加注释。
 
-您可以依任何欄排序資料，但「新值」和「舊值」除外。
+您可以按除“新值”和“旧值”之外的任意列对数据进行排序。
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
 
-1. 在行銷活動名稱旁邊，按一下  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. 在营销活动名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
-1. （可選）執行下列任一項作業：
+1. （可选）执行以下任一操作：
 
-   * 若要在只以表格表單檢視資料，以及同時以表格和圖表表單檢視資料之間切換，請按一下 ![表格和圖表檢視](/help/dsp/assets/table-plus-chart-view.png "表格和圖表檢視") 或 ![表格檢視](/help/dsp/assets/table-view.png "表格檢視") （位於右上角工具列中）。
+   * 要在仅以表格形式查看数据与在表格和图表形式查看数据之间进行切换，请单击 ![表格和图表视图](/help/dsp/assets/table-plus-chart-view.png "表格和图表视图") 或 ![表格视图](/help/dsp/assets/table-view.png "表格视图") （位于右上角工具栏）。
 
-   * 若要新增註記至專案，請將游標停留在 [!UICONTROL Notes] 欄中的文字，然後按一下 **[!UICONTROL Add Notes]**. 在輸入欄位中輸入文字，然後按一下 **[!UICONTROL Save]**.
+   * 要将注释添加到条目中，请将光标悬停在 [!UICONTROL Notes] 列，然后单击 **[!UICONTROL Add Notes]**. 在输入字段中输入文本，然后单击 **[!UICONTROL Save]**.
 
-   * 若要在彈出式視窗中檢視專案的詳細資訊，請將游標停留在 [!UICONTROL Notes] 欄中的文字，然後按一下 **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * 要在弹出窗口中查看条目的详细信息，请将光标悬停在 [!UICONTROL Notes] 列，然后单击 **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 >[!MORELIKETHIS]
 >
->* [關於Campaign Management](campaign-about.md)
->* [建立行銷活動](campaign-create.md)
->* [編輯行銷活動](campaign-edit.md)
->* [Campaign設定](campaign-settings.md)
+>* [关于Campaign Management](campaign-about.md)
+>* [创建活动](campaign-create.md)
+>* [编辑营销活动](campaign-edit.md)
+>* [Campaign设置](campaign-settings.md)
+>* [暂停或激活营销活动](campaign-pause-activate.md)
 

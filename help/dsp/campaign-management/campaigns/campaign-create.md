@@ -1,31 +1,32 @@
 ---
-title: 建立行銷活動
-description: 瞭解如何建立行銷活動。
+title: 创建活动
+description: 了解如何创建营销活动。
 feature: DSP Campaigns
 exl-id: 8e401c15-018d-439b-922e-2e456eabfea4
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
 
-# 建立行銷活動
+# 创建活动
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
-1. 在 [!UICONTROL Campaigns] 檢視，按一下 **[!UICONTROL Create campaign]**.
-1. 輸入 [行銷活動設定](campaign-settings.md)：
+1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 在 [!UICONTROL Campaigns] 视图，单击 **[!UICONTROL Create campaign]**.
+1. 输入 [campaign设置](campaign-settings.md)：
    1. 指定 [!UICONTROL Basic Campaign Details].
-   1. （僅限管理員使用者）在 [!UICONTROL Ad Cloud Admin Fields] 部分，指定管理設定。
-   1. 在 [!UICONTROL Campaign Goals] 區段，指定預算。 您可以選擇變更預設目標設定，並選擇性地選取現有套件和/或建立要包含在行銷活動中的套件。
-   1. （選用）在 [!UICONTROL Campaign Measurement] 區段，指定任何第三方和第一方測量選項，用於可視性、詐騙、品牌安全和對象驗證。
+   1. （仅限管理员用户）在 [!UICONTROL Ad Cloud Admin Fields] 部分，指定管理设置。
+   1. 在 [!UICONTROL Campaign Goals] 部分，指定预算。 您可以选择更改默认目标设置，也可以选择现有资源包和/或创建要包含在营销活动中的资源包。
+   1. （可选）在 [!UICONTROL Campaign Measurement] 部分，指定可见性、欺诈、品牌安全和受众验证的任何第三方和第一方测量选项。
 1. 单击 **[!UICONTROL Create Campaign]**.
 
 >[!MORELIKETHIS]
 >
->* [關於Campaign Management](campaign-about.md)
->* [複製行銷活動](campaign-duplicate.md)
->* [編輯行銷活動](campaign-edit.md)
->* [檢視行銷活動的變更記錄](campaign-change-log.md)
->* [Campaign設定](campaign-settings.md)
+>* [关于Campaign Management](campaign-about.md)
+>* [复制营销活动](campaign-duplicate.md)
+>* [编辑营销活动](campaign-edit.md)
+>* [查看营销活动的更改日志](campaign-change-log.md)
+>* [Campaign设置](campaign-settings.md)
+>* [暂停或激活营销活动](campaign-pause-activate.md)
 
