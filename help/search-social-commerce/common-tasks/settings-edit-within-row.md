@@ -1,7 +1,7 @@
 ---
 title: 直接在行中编辑设置
 description: 了解如何编辑行中管理视图中的数据。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: cd5d4acf2319c1a0e9f9f1ead6e219b42d163077
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -25,4 +25,5 @@ ht-degree: 0%
    * （自由格式值）输入新值，然后单击 ![保存](/help/search-social-commerce/assets/select.png "保存") 或按 **输入** 键。
    >[!MORELIKETHIS]
    >
-   >*[使用复制并粘贴功能批量创建和编辑营销活动数据](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+   >* [使用复制并粘贴功能批量创建和编辑营销活动数据](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+
