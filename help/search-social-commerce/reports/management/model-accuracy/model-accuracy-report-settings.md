@@ -1,0 +1,41 @@
+---
+title: 模型准确性报表设置
+description: 了解模型准确性报表的必需和可选设置。
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+workflow-type: tm+mt
+source-wordcount: '1782'
+ht-degree: 0%
+
+---
+
+# 模型准确性报表设置
+
+| 选项卡 | 参数 | 描述 |
+|----|----|----|
+| 不适用 | [!UICONTROL Name] | （可选）报表和模板的名称（如果将报表另存为模板）。 如果应用现有模板，则默认情况下会填充模板名称。 如果不应用模板或输入名称，则报表将命名为 <client name>-<date and time>-<report type></code> (如“acme - 2009年4月3日，11:25:19 AM PDT — 关键字”)。<br><br>您可以选择输入自定义名称，但不要使用文件扩展名。<br><br>如果要创建模板，请执行以下操作 [将报告发送到FTP目录](/help/search-social-commerce/reports/automation/ftp-reports.md)，那么您可以选择在文件名中的任意位置包含“CSV”（大写字母），以使用CSV格式而不是默认的TSV格式创建文件。 参见 [发送到FTP目录的报告的文件名要求](/help/search-social-commerce/reports/automation/ftp-reports.md). |
+|  | [!UICONTROL Save as template] | （除非要根据计划运行报告，否则可选）将报告设置另存为模板，该模板可在 [!UICONTROL Reports] > [!UICONTROL Report Templates] 查看并可以重复使用来创建新报告。 要将报表另存为模板，请选中该复选框。<br><br>要根据计划运行报表，必须将设置另存为模板。<br><br><b>注意：</b> 您可以将当前参数集另存为新模板，即使它基于现有模板也是如此。 |
+|  | [!UICONTROL Type] | 要生成的报表类型。 |
+| [!UICONTROL Basic  Settings] | [!UICONTROL Template] | （可选）要应用的报表模板，该模板会根据模板预填充报表选项。 将为报表类型保存并且可供您使用的所有模板都将列出。<br><br>如果选择模板，您仍然可以更改报表选项，甚至可以将报表另存为新模板。 |
+|  | [!UICONTROL Data Aggregation] | ([!UICONTROL Forecast Accuracy Report only])应在报表的每一行上表示的时间单位。 唯一的选项是 <i>[!UICONTROL Daily]</i>. |
+|  | [!UICONTROL Date Range] | 要生成数据的日期范围：<ul><li><i>[预设范围]：</i> 常用时间增量列表，范围从 <i>[!UICONTROL Today]</i> 到 <i>[!UICONTROL Last 180 Days]</i>. 默认为 <i>[!UICONTROL Last 7 Days]</i>，报告有可用数据的最近七天。 <b>注意：</b> <i>[!UICONTROL Last Month]</i>， <i>[!UICONTROL Last 3 Months]</i>、和 <i>[!UICONTROL Last 6 Months]</i> 显示前一个日历月份的数据。</li><li><i>[!UICONTROL Custom Date Range]：</i> 指定开始日期和结束日期。 以YYYY/MM/DD或M/D/YYYY格式输入日期，或单击 ![日历](/help/search-social-commerce/assets/calendar.png "日历") 在字段旁边，然后选择日期。</li></ul> |
+|  | [!UICONTROL Conversions Based on] | 如何报告转化数据：<ul><li><i>[!UICONTROL Transaction date]</i> （默认）：查看事务处理日期在指定时间期内发生的事务处理。 此选项显示指定时间段内赚取的收入。</li><li><i>[!UICONTROL Click date]：</i> 查看在指定时间段内发生的点击导致的事务。 当项目组合在点击和交易之间具有重大延迟时，此选项可用于计算项目组合的每次点击历史收入，它指示一段时间内预期的收入行为。</li></ul> |
+|  | \[主筛选器\] | 要包含的项目组合。 默认情况下，如果您未做出选择，则所有项目组合的数据都将包含在报表中。 您可以选择通过指定单个项目组合来缩小要报告的数据范围。<br><br>要选择一个项目组合，请选中项目组合名称旁边的复选框，然后单击>>以将其移至 [!UICONTROL Selected Filters] 列。<br><br><b>注释：<b><ul><li>默认情况下，仅列出活动和优化的项目组合。 要查看暂停和删除的项目组合，请单击 ![向下箭头](/help/search-social-commerce/assets/arrow-down-expand.png "向下箭头") 旁边 <b>[!UICONTROL Show]</b>，并选择 <b>[!UICONTROL All]</b>.</li><li>生成的数据适用于当前映射到指定项目组合的营销活动。 它不包括日期范围内项目组合中尚未存在的营销活动的数据。</li></ul> |
+| [!UICONTROL Columns] | \[报表列\] | 报表中显示的数据列及其顺序：<ul><li>要添加列，请单击左列中的量度名称，然后单击 ![向右箭头](/help/search-social-commerce/assets/arrow-right-customize.png "向右箭头").</li><li>要删除列，请单击右列中的度量名称，然后单击 ![向左箭头](/help/search-social-commerce/assets/arrow-left-customize.png "向左箭头").</li><li>要将报表中的列向左移动，请单击右列中的量度名称，然后单击 ![向上箭头键](/help/search-social-commerce/assets/arrow-up-customize.png "向上箭头键").</li><li>要将报表中的列移动到右侧，请单击右列中的量度名称，然后单击 ![向下箭头](/help/search-social-commerce/assets/arrow-down-customize.png "向下箭头").</li></ul> |
+|  | [!UICONTROL Order Results/Limit Rows by] | ([!UICONTROL Forecast Accuracy Report] （仅限）按报表中包含的最多两列对报表进行排序。 每种报表类型的默认值各不相同。要自定义排序顺序，请选择一个报表列，然后选择 <i>[!UICONTROL Ascending]</i> （显示从A到Z或从1到100的结果）或 <i>[!UICONTROL Descending]</i> （显示从Z到A或从100到1的结果）。 指定至少一个要作为排序依据的列。 如果按两列排序，则报表首先按指定的第一列排序，然后按指定的第二列排序。 |
+|  | [!UICONTROL Share with others] | ([!UICONTROL Forecast Accuracy Report] 仅允许有权访问同一广告商数据的其他用户查看生成的报表，并且（如果您将报表另存为模板）使用该模板，但不允许编辑或删除该模板。 默认情况下，不选中此选项。 <b>注意：</b> 无论此设置如何，您的报告和模板始终对级别较高的（管理员）Adobe的所有用户以及任何分配的管理员帐户团队成员可见。 |
+| [!UICONTROL Advanced Filters] | \[高级过滤器\] | ([!UICONTROL Forecast Accuracy Report] 仅当量度的值满足指定的条件时，才返回行；该量度无需作为列包含在报表中。 可用量度的列表因报表类型而异，但可能包括广告商的自定义派生量度，每个广告网络和项目组合组件的ID和属性名称(例如 [!UICONTROL Campaign ID] 和 [!UICONTROL Campaign Status])、广告商的收入量度（交易属性）以及广告网络中的点击相关量度。 可用的运算符包括 <i>[!UICONTROL contains]</i>， <i>[!UICONTROL starts with]</i>， <i>[!UICONTROL equals]</i>， <i>[!UICONTROL is greater than]</i>， <i>[!UICONTROL is greater than or equal to]</i>， <i>[!UICONTROL is less than]</i>， <i>[!UICONTROL is less than or equal to]</i>，或 <i>[!UICONTROL isn't equal to]</i>.<br><br>要应用一个或多个筛选器，请执行以下操作：<ul><li>选择量度和运算符，然后输入适用的值。 例如，要仅返回点击次数超过100次的关键字，请选择 [!UICONTROL Clicks]，选择 [!UICONTROL >]，然后在输入字段中输入100。</li><li>（要应用其他过滤器）对于每个其他过滤器，请单击 **[!UICONTROL +Add Filter]**，选择 **[!UICONTROL AND]** 或 **[!UICONTROL OR]**，选择量度和运算符，然后输入适用的值。</li></ul> |
+| [!UICONTROL Attribution] | [!UICONTROL Rule] | (仅限使用Adobe广告转化跟踪服务的广告商)在报表中，如何在一系列导致转化的事件中归因转化数据（可能跨多个广告渠道和项目组合）：<ul><li><i>[!UICONTROL First Event]：</i> 将转化归因于广告商的系列中的首次付费点击 [单击回顾窗口](/help/search-social-commerce/glossary.md#c-d) 或者，如果未发生付费点击，则指向广告商网站内的最后一次展示 [展示回顾窗口](/help/search-social-commerce/glossary.md#i-j).</li><li><i>[!UICONTROL Weight First Event More]：</i> 将转化归因于广告商发生的一系列事件中的所有事件 [单击回顾窗口](/help/search-social-commerce/glossary.md#c-d) 和 [展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)，但对第一个事件的权重最大，对以下事件的权重依次较低。 当转换之前同时有付费点击和展示时，指定的展示覆盖权重进一步应用于展示。 当转换之前只有展示时，根据广告商的浏览权而不是展示覆盖权对展示进行加权。</li><li><i>[!UICONTROL Even Distribution]:</li> 将转化同等地归因于系列中的每个事件是广告商的展示权重，而不是印象覆盖权重。</li><li><i>[!UICONTROL Weight Last Event More]：</i> 将转化归因于广告商发生的一系列事件中的所有事件 [单击回顾窗口](/help/search-social-commerce/glossary.md#c-d) 和 [展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)，但是会为最后一个事件赋予最大的权重，而依次为前面的事件赋予较小的权重。 当转换之前同时有付费点击和展示时，指定的展示覆盖权重进一步应用于展示。 当转换之前只有展示时，根据广告商的浏览权而不是展示覆盖权对展示进行加权。</li><li><i>[!UICONTROL Last Event]</i> （默认）：将转化归因于广告商的系列中的最后一次付费点击 [单击回顾窗口](/help/search-social-commerce/glossary.md#c-d) 或者，如果未发生付费点击，则指向广告商网站内的最后一次展示 [展示回顾窗口](/help/search-social-commerce/glossary.md#i-j).</li><li><i>U形：</i> 将转化归因于广告商发生的一系列事件中的所有事件 [单击回顾窗口](/help/search-social-commerce/glossary.md#c-d) 和 [展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)，但是会为第一个事件和最后一个事件赋予最大的权重，而对转换路径中间事件的权重依次较低。 当转换之前同时有付费点击和展示时，指定的展示覆盖权重进一步应用于展示。 当转换之前只有展示时，根据广告商的浏览权而不是展示覆盖权对展示进行加权。</li></ul><b>注释：</b><ul><li>归因规则适用于展示广告的展示次数和任何渠道中付费广告的点击次数。 它们不适用于付费搜索或社交广告的展示次数，无法在事件级别进行跟踪。</li><li>当您使用任何归因规则报告转化数据时，但&quot;[!UICONTROL Last Event]”规则，则导致转化的事件可能发生在多个项目组合中。 在这种情况下，仅当这些组合中的广告或关键字包含在报表中时，报表才会包含转化数据。</li></ul> |
+|  | [!UICONTROL Impression Override Weight] | (对于所有归因规则，但 [!UICONTROL Last Event] 或 [!UICONTROL First Event])如果转化之前同时有付费点击次数和展示次数，则会将指定的转化值百分比归因于广告商广告中发生的展示次数 [展示回顾窗口](/help/search-social-commerce/glossary.md#i-j). 默认情况下，此值为10%；您可以将该值更改为0到100之间的任意整数。 此值仅在报表中使用。<br><br>如果转化之前只有展示次数，则广告商的 [显示到达权重](/help/search-social-commerce/glossary.md#u-v)而不是展示覆盖权重，会应用于展示。 |
+| [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | (可选；仅当&quot;[!UICONTROL Save as template]”选项处于选中状态)运行报表的时间： <i>[!UICONTROL Now]</i> （只运行一次报表；默认）， <i>[!UICONTROL Daily]</i>， <i>[!UICONTROL Weekly on] [星期]</i>，或 <i>[!UICONTROL Every Month] [日期]</i>. 对于除以下项之外的所有时间段 <i>[!UICONTROL Now]</i>，选择广告商时区中的小时，从上午9:00开始。 |
+|  | [!UICONTROL Email Recipients] | <b>注意：</b>  此设置仅在电子邮件通知用于 [!UICONTROL Reports] 是 [启用范围 [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>Search、Social和Commerce注册用户的电子邮件地址，当报告完成或由于错误被取消时，将通知发送到这些用户。 默认情况下，会输入用户帐户的地址。 要指定多个地址，请用逗号、空格或新行分隔这些地址。 如果计划重复运行报告，则每次完成报告时都会发送通知。 |
+|  | [!UICONTROL Email Notification] | <b>注意：</b>  此设置仅在电子邮件通知用于 [!UICONTROL Reports] 是 [启用范围 [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>(时间 [!UICONTROL Email Recipients] （已指定）向任何指定地址发送电子邮件通知时要包含的内容：<ul><li><i>[!UICONTROL Notification Only]</i> （默认）：仅发送报表完成或失败的通知，不带附件。 该通知包括所有报表格式的临时下载链接。</li><li><i>[!UICONTROL XLS Attachment]：</i> 在文件小于约10 MB时包括XLS格式的已完成报表的副本。 超过1 MB的文件将被压缩。</li><li><i>[!UICONTROL TSV Attachment]：</i> 在文件小于约10 MB时包括TSV格式的已完成报表的副本。 超过1 MB的文件将被压缩。</li><li><i>[!UICONTROL CSV Attachment]：</i> 在文件小于约10 MB时包括CSV格式已完成的报表的副本。 超过1 MB的文件将被压缩。 |
+
+<table style="table-layout:auto">
+
+>[!MORELIKETHIS]
+>
+>* [关于模型精度报告](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
+>* [此 [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
+>* [此 [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
+>* [生成模型准确性报告](model-accuracy-report-generate.md)
+

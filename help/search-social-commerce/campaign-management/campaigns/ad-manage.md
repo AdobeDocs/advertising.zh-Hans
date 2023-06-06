@@ -1,0 +1,117 @@
+---
+title: 管理广告
+description: 了解如何创建和管理广告。
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+workflow-type: tm+mt
+source-wordcount: '745'
+ht-degree: 0%
+
+---
+
+# 管理广告
+
+*[!DNL Baidu]， [!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex] 仅限帐户*
+
+您可以从创建、编辑和更改广告状态 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Ads] 视图。
+
+## 创建广告
+
+>[!NOTE]
+>
+>您无需为购物营销活动创建产品广告；广告网络会自动创建这些产品广告。 对象 [!DNL Microsoft Advertising] 但是，您可以选择定义促销行以将其包含在广告中。
+
+>[!TIP]
+>
+>要同时创建多个广告，请使用 [复制和粘贴功能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) 或 [营销活动批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+
+1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. 在子菜单中，单击 **[!UICONTROL Live]>[!UICONTROL Ads]**.
+
+1. 在数据表上方的工具栏中，单击 ![创建](/help/search-social-commerce/assets/add.png "创建").
+
+1. 选择广告网络、帐户、营销策划、广告组和广告类型，然后单击 **[!UICONTROL Continue]**.
+
+   有关不同广告类型的更多信息，请参阅&quot;[关于广告](ad-about.md).”
+
+1. 输入 [[!DNL Baidu] 文本广告](ad-settings-baidu-text.md)， [[!DNL Google Ads] 仅调用广告](ad-settings-google-call.md)， [[!DNL Google Ads] 扩展动态搜索广告](ad-settings-google-dsa.md) (在Google Ads中现在称为“动态搜索广告”)， [[!DNL Google Ads] 响应式搜索广告](ad-settings-google-rsa.md)， [[!DNL Microsoft Advertising] 扩展动态搜索广告](ad-settings-microsoft-dsa.md)， [[!DNL Microsoft Advertising] 多媒体广告](ad-settings-microsoft-multimedia.md)， [[!DNL Microsoft Advertising] 产品广告](ad-settings-microsoft-product.md)， [[!DNL Microsoft Advertising] 响应式（受众）广告](ad-settings-microsoft-responsive.md)， [[!DNL Microsoft Advertising] 响应式搜索广告](ad-settings-microsoft-rsa.md)，或 [[!DNL Yandex] 文本广告](ad-settings-yandex-text.md) 设置。
+
+   >[!NOTE]
+   >
+   >(具有Adobe广告转化跟踪的促销活动)如果帐户或促销活动设置仅在关键词级别指定跟踪，则Search、Social和Commerce不会生成广告跟踪。
+
+1. 单击 **[!UICONTROL Post]**.
+
+1. (促销活动中的购物广告包含Adobe广告转化跟踪；可选)要跟踪广告的点击量，请执行以下操作 [使用跟踪URL工具生成跟踪URL](/help/search-social-commerce/tools/click-tracking-url-generate.md)，并手动将其添加到帐户、营销活动或产品组设置。
+
+## 编辑广告设置
+
+>[!NOTE]
+>
+>* 以下广告类型为 *可变*，这意味着您可以更改广告副本或图像，并保留相同的广告ID：所有 [!DNL Google Ads] 广告类型（动态搜索广告除外），以及 [!DNL Microsoft Advertising] 扩展的文本广告。
+>* 所有其他支持的广告包括 *不可变*，这意味着更改广告副本或图像会删除现有广告并创建新广告。 当Search、Social和Commerce收集足够的数据来优化竞价时，新广告的表现可能在几周内不稳定。
+>* 您无法编辑产品广告的内容，但的促销行除外 [!DNL Microsoft Advertising] 产品广告。 但是，您可以暂停或删除广告。
+
+
+>[!TIP]
+>
+>要一次编辑大量数据，请使用 [复制和粘贴功能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) 或 [营销活动批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+
+1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. 在子菜单中，单击 **[!UICONTROL Live]>[!UICONTROL Ads]**.
+
+1. 执行以下任一操作：
+
+   * （编辑单个广告的设置）将光标悬停在广告预览上并单击 ![编辑](/help/search-social-commerce/assets/edit.png "编辑").
+
+   * （要编辑一个或多个广告的设置），请执行以下操作：
+
+      1. 选中每行旁边的复选框。
+
+         有关选择多行的提示，请参阅&quot;[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).”
+
+      1. 在数据表上方的工具栏中，单击 ![编辑](/help/search-social-commerce/assets/edit.png "编辑").
+
+1. 编辑 [[!DNL Baidu] 文本广告](ad-settings-baidu-text.md)， [[!DNL Google Ads] 仅调用广告](ad-settings-google-call.md)， [[!DNL Google Ads] 扩展动态搜索广告](ad-settings-google-dsa.md) (在Google Ads中现在称为“动态搜索广告”)， [[!DNL Google Ads] 响应式搜索广告](ad-settings-google-rsa.md)， [[!DNL Microsoft Advertising] 扩展动态搜索广告](ad-settings-microsoft-dsa.md)， [[!DNL Microsoft Advertising] 多媒体广告](ad-settings-microsoft-multimedia.md)， [[!DNL Microsoft Advertising] 产品广告](ad-settings-microsoft-product.md)， [[!DNL Microsoft Advertising] 响应式（受众）广告](ad-settings-microsoft-responsive.md)， [[!DNL Microsoft Advertising] 响应式搜索广告](ad-settings-microsoft-rsa.md)，或 [[!DNL Yandex] 文本广告](ad-settings-yandex-text.md) 设置。
+
+   对于多个广告，您只能编辑所有选定广告的共同字段，并且您的更改将应用于所有选定广告。 对于某些字母数字字段，您可以将现有值更改为指定值，将现有字符串替换为指定字符串，在每个值的开头添加指定前缀，或者在每个值的结尾附加后缀。 对于某些货币字段，您可以将现有值更改为指定值，或者按指定百分比或货币金额增加或减少金额（具有限制）。
+
+1. 保存数据：
+
+   * （单个广告）点击 **[!UICONTROL Post]**.
+
+   * （多个广告）点击 **[!UICONTROL Post Now]**.
+
+## 更改广告状态
+
+您可以暂停活动广告以禁用对它的竞价。 您稍后可以通过将状态改回活动来恢复竞价。
+
+您还可以删除任何活动或暂停的搜索广告。 已删除的广告将从广告网络删除。 它们仍然可见，但无法更改。
+
+1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. 在子菜单中，单击 **[!UICONTROL Live]>[!UICONTROL Ads]**.
+
+1. （可选）筛选列表以包含特定广告。
+
+1. 选中要更改其状态的每个广告旁边的复选框。
+
+   有关选择多行的提示，请参阅&quot;[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).”
+
+1. 在工具栏中，单击状态按钮：
+
+   * 要激活行，请单击 ![激活](/help/search-social-commerce/assets/activate.png "激活").
+
+   * 要暂停行，请单击 ![暂停](/help/search-social-commerce/assets/pause.png "暂停").
+
+   * 要删除行，请单击 ![更多](/help/search-social-commerce/assets/more.png "更多") 并选择 **[!UICONTROL Delete]**. 在确认消息中，单击 **[!UICONTROL Delete]**.
+
+>[!MORELIKETHIS]
+>
+>* [关于广告](ad-about.md)
+>* [[!DNL Baidu] 文本广告设置](ad-settings-baidu-text.md)
+>* [[!DNL Google Ads] 仅呼叫广告设置](ad-settings-google-call.md)
+>* [[!DNL Google Ads] 扩展的动态搜索广告设置](ad-settings-google-dsa.md)
+>* [[!DNL Google Ads] 响应式搜索广告设置](ad-settings-google-rsa.md)
+>* [[!DNL Microsoft Advertising] 扩展的动态搜索广告设置](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising] 多媒体广告设置](ad-settings-microsoft-multimedia.md)
+>* [[!DNL Microsoft Advertising] 产品广告设置](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] 响应式（受众）广告设置](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] 响应式搜索广告设置](ad-settings-microsoft-rsa.md)
+>* [[!DNL Yandex] 文本广告设置](ad-settings-yandex-text.md)
+
