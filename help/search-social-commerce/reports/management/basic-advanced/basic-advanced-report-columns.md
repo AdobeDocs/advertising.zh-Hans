@@ -1,9 +1,9 @@
 ---
 title: 基本报表和高级报表的报表列
 description: 了解基本报表和高级报表的可用数据列。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: b1913c396e911f7595ab6cb42c5ea960b2cc789b
 workflow-type: tm+mt
-source-wordcount: '3637'
+source-wordcount: '3640'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 0%
 | [!UICONTROL Estimated Impressions] | （仅限展示型营销活动）Search、Social和Commerce已跟踪的估计广告展示次数。 此值可能不同于 [!UICONTROL Impressions] 列（可用时），其中显示广告网络提供的值。 |
 | [!UICONTROL Exclude (yes/no)] | 是否排除竞价(<i>[!UICONTROL Yes]</i>)或允许竞价(<i>[!UICONTROL No]</i>)表示匹配产品的广告。 |
 | [!UICONTROL First Page CPC] | (仅限Google促销活动)指定日期范围内搜索结果第一页上显示的广告的每次点击成本(CPC)。 |
-| `GGL*`， `GGL_CT*`、和 `GGL_XD_CT*` [[!DNL Google Ads] — 跟踪的转化/事务属性] | ([!DNL Google Ads] 搜索和购物网络上的营销活动；从为帐户启用该功能之日起可用的数据) [!DNL Google Ads]-tracked转化，每个转化最多有三个单独的事务属性：<ul><li>`GGL*`  — （跟踪时）关键字的转化值总和，以“GGL”前缀开头（例如GGL Purchase）。</li><li>`GGL_CT*`  — 转换次数（计数），以“GGL_CT”前缀（例如GGL_CT_Purchase）开头。</li><li>`GGL_XD_CT*`  — （当可用于转化类型时，当您跟踪它们时）跨设备转化次数（计数），测量依据为 [!DNL Google Ads] 以“GGL_XD_CT_”前缀(例如GGL_XD_CT_Purchase)开头。</li></ul><br>每次转化都按竞价单位和点击日期记录；在事件级别不可用。 如果您将“搜索”、“社交”和“商务”中的数据与中的数据进行比较 [!DNL Google Ads]，使用查看或报告选项查看&quot;[!UICONTROL Conversions by:  Click date]“”（不是交易日期）。<br><br><b>注意：</b>前一天的数据每天提取一次，最迟可在09提供:00-10:00（广告商所在时区）。 [!DNL Google Ads] 单击后可能会继续更新量度长达30天。 有关详情，请参阅 [!DNL Google Ads]-tracked转化，请参阅&quot;[有关跟踪的常见问题解答](/help/search-social-commerce/tracking/faqs-tracking.md).” |
+| `GGL*`， `GGL_CT*`、和 `GGL_XD_CT*` [[!DNL Google Ads] — 跟踪的转化/事务属性] | ([!DNL Google Ads] 搜索和购物网络上的营销活动；从为帐户启用该功能之日起可用的数据) [!DNL Google Ads]-tracked转化，每个转化最多有三个单独的事务属性：<ul><li>`GGL*`  — （跟踪时）关键字的转化值总和，以“GGL”前缀开头（例如GGL Purchase）。</li><li>`GGL_CT*`  — 转换次数（计数），以“GGL_CT”前缀（例如GGL_CT_Purchase）开头。</li><li>`GGL_XD_CT*`  — （当可用于转化类型时，当您跟踪它们时）跨设备转化次数（计数），测量依据为 [!DNL Google Ads] 以“GGL_XD_CT_”前缀(例如GGL_XD_CT_Purchase)开头。</li></ul><br>每次转化都按竞价单位和点击日期记录；在事件级别不可用。 如果您将“搜索”、“社交”和“商务”中的数据与中的数据进行比较 [!DNL Google Ads]，使用查看或报告选项查看&quot;[!UICONTROL Conversions by:  Click date]“”（不是交易日期）。<br><br><b>注意：</b>前一天的数据每天提取一次，最迟可在09提供:00-10:00（广告商所在时区）。 [!DNL Google Ads] 单击后可能会继续更新量度长达30天。 有关详情，请参阅 [!DNL Google Ads]-tracked转化，请参阅&quot;[[!DNL Google Ads] 搜索、社交和商务中的转化数据](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).” |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] 仅限于)在自然搜索结果上方显示为第一个广告的广告展示次数百分比。 |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] 仅显示在自然搜索结果上方的广告展示次数百分比。 |
 | [!UICONTROL Impressions] | 指定日期范围内的广告展示次数。 |
