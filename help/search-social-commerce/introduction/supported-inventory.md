@@ -1,7 +1,7 @@
 ---
 title: 支持的清单
 description: 引用支持的广告网络、营销活动类型和广告类型。
-source-git-commit: 95c7e67bb6f065567302f266959295ce8125c624
+source-git-commit: 2e16159c3d7d973a12a94128b41ebd05539b2f02
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 以下是受支持的广告网络、促销活动类型和广告类型，以及可用于各个类型的功能。
 
 | 来源 | 网络 | 营销活动类型 | 广告类型 | 同步并查看 | 创建/编辑 | Track[^1] | 优化 | 报告[^2] | Adobe Analytics支持[^3] |
-|----|----|----|----|----|----|----|----|----|----|----|
+|----|----|----|----|----|----|----|----|----|----|
 | [!DNL Baidu] | 搜索网络 | 手动 | 文本 | 通过API自动进行 | 使用 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 和 [批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是 | 仅具有手动CPC竞价策略的促销活动 | 广告级别的数据 | Analytics数据到搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的广告级别数据 |
 | [!DNL Google Ads] | 全部 [!DNL Google] 信息源 | 发现（测试版功能） | 发现（单图像广告）<br><br>发现轮播（多图像轮播广告） | 通过API自动进行 | — | 是 | 仅在混合项目组合中<br><br>竞价和竞价策略目标与促销活动预算一起在促销活动级别设置（适用于优化类型）。 | 广告级别的数据 | 搜索、社交和商务的广告级别数据(使用升级的 [s_kwcid跟踪代码](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)[^4]<br><br>从搜索、社交和商务到Analytics的广告级别数据 |
 |  | 全部 | 最高标准性能（测试版功能） | 所有类型 | 通过API自动进行 | 在营销活动视图中的营销活动设置内创建/编辑营销活动并上传广告资产<br><br>只有所需的设置可用。 对于可选设置和列表组，请登录[！DNL [!DNL Google Ads] Ads]编辑器。 | 是 | 仅在混合项目组合中<br><br>竞价策略目标与促销活动预算一起在促销活动级别设置。 | 营销活动级别的数据<br><br>列表组的数据不可用，并且广告网络不提供广告级别的数据。 | Analytics数据到搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的促销活动级别数据。 需要升级 [s_kwcid跟踪代码](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). |
