@@ -1,9 +1,9 @@
 ---
 title: 管理清单数据馈送文件
 description: 了解如何配置用于控制如何处理馈送数据的设置。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a0cdc0de763feeafdea57e4233b48a2c39449e1f
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ shoes<TAB>Clarks<TAB>20
 
 有关详细信息，请参阅浏览器的联机帮助。
 
-## 手动上传信息源文件 [#feed-file-upload]
+## 手动上传信息源文件 {#feed-file-upload}
 
 >[!NOTE]
 > 如果将模板与手动上传的文件关联，然后通过FTP上传另一个具有相同名称、文件扩展名和语法大小写的文件，则在通过模板传播数据时将使用FTP文件。 例如，myfile.csv会替换myfile.csv，但Myfile.CSV则不会。
