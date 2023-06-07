@@ -9,9 +9,9 @@ user-guide-description: 本指南介绍管理、优化和报告您的搜索、�
 breadcrumb-title: Advertising Search， Social， & Commerce指南
 index: false
 hide: true
-source-git-commit: b1913c396e911f7595ab6cb42c5ea960b2cc789b
+source-git-commit: 30e08508f5039cdd08b01fd151b9119ee72b0b4d
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1690'
 ht-degree: 0%
 
 ---
@@ -372,12 +372,11 @@ ht-degree: 0%
    + Recommendations {#recommendations}
 + 工具 {#tools}
    + [更改密码](/help/search-social-commerce/tools/password-change.md)
-   + 用于跟踪标记的工具 {#tracking}
-      + [用于创建和解码基于像素的跟踪的工具]{#pixel}
-         + [关于创建和解码跟踪标记的工具](/help/search-social-commerce/tools/tracking-tools-about.md)
-         + [生成点击跟踪URL](/help/search-social-commerce/tools/click-tracking-url-generate.md)
-         + [解码点击跟踪URL](/help/search-social-commerce/tools/click-tracking-url-decode.md)
-         + [生成Adobe广告转化标记](/help/search-social-commerce/tools/conversion-tag-generate.md)
+   + 用于创建和解码跟踪标记的工具{#tracking}
+      + [关于创建和解码跟踪标记的工具](/help/search-social-commerce/tools/tracking-tools-about.md)
+      + [生成点击跟踪URL](/help/search-social-commerce/tools/click-tracking-url-generate.md)
+      + [解码点击跟踪URL](/help/search-social-commerce/tools/click-tracking-url-decode.md)
+      + [生成Adobe广告转化标记](/help/search-social-commerce/tools/conversion-tag-generate.md)
    + 将转化数据上传到广告网络 {#upload-ad-networks}
       + [将转化量度上传到 [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
       + [允许将目标上传到广告网络](/help/search-social-commerce/tools/objective-upload-to-networks.md)
