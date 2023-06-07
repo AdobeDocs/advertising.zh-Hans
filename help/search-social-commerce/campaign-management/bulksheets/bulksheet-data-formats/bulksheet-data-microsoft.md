@@ -1,7 +1,7 @@
 ---
 title: 以下项的必需批量处理工作表数据 [!DNL Microsoft Advertising] 帐户
 description: 引用批量处理工作表中的必填标题字段和数据字段 [!DNL Microsoft Advertising] 帐户。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f7ac5c69f96582d7f9a442a05c333baecc2215df
 workflow-type: tm+mt
 source-wordcount: '5147'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 | Audience | 营销活动或广告组的搜索广告(RLSA)目标受众的再营销列表。 |
 | 目标类型 | （仅限RLSA目标）目标类型： <i>包含</i> 或 <i>排除项</i>. |
 | 自动定位表达式 | 广告组的动态搜索目标。 对于所有目标，请使用“所有网页”。<br><br>要定位最多三个动态搜索标准，请使用格式 `<category>=<target>`，其中 &lt;category> 可以包括以下任意类别。 使用“”连接单个类别的多个目标`[blank space] and [blank space]`”并使用“”连接多个类别`[blank space] and [blank space]`“。<br><ul><li><i>类别：</i> 为具有特定Google内容类别的索引页面显示动态搜索广告。</li><li><i>URL：</i> 为具有特定URL的索引页面显示动态搜索广告，其中值可能包含在URL中的任意位置。</li><li><i>页面标题：</i> 为具有页面标题中特定文本的索引页面显示动态搜索广告。</li><li><i>页面内容：</i> 显示具有特定内容的索引页面的动态搜索广告。</li></ul>示例： url=shoes.example.com和page title=footwear<br>示例：所有网页 |
-| 位置 | 为营销活动或广告组放置广告的地理位置；值不区分大小写。 如果您未输入任何促销活动或广告组的值，则所有位置都将成为目标。 要定位特定位置，请使用Microsoft Advertising位置代码格式输入位置。 要下载位置列表，请使用您的Microsoft Advertising帐户凭据登录Microsoft Advertising开发人员门户。 <b> 注意：要排除位置，请在位置代码前面加一个减号(`-`)，例如 `-United States`. |
+| 位置 | 为营销活动或广告组放置广告的地理位置；值不区分大小写。 如果您未输入任何促销活动或广告组的值，则所有位置都将成为目标。 要定位特定位置，请使用Microsoft Advertising位置代码格式输入位置。 要下载位置列表，请使用您的Microsoft Advertising帐户凭据登录Microsoft Advertising开发人员门户。 <b>注意：</b> 要排除位置，请在位置代码前加一个减号(`-`)，例如 `-United States`. |
 | 位置类型 | 位置类型，如城市、国家/地区、大都市区、邮政编码和州/省。 要下载位置列表，请使用您的Microsoft Advertising帐户凭据登录Microsoft Advertising开发人员门户。 |
 | 匹配类型 | （仅限搜索网络上的促销活动）关键词匹配选项。 这可能包括动态搜索目标或产品组的关键词匹配选项。 值包括： <i>广泛</i> （新关键字的默认值）， <i>精确</i>， <i>短语</i>， <i>内容</i> （当广告组定位内容网络时，自动为关键字设置）， <i>负面</i> （在内容网络上排除关键字）， <i>Dynamic Ad Target</i> （新动态搜索目标的默认设置）， <i>产品组</i> （新产品组的默认值），或 <i>负值产品组</i> （用于排除产品组）。  要编辑或删除具有多个匹配类型的关键字，需要匹配类型或关键字ID的值。<br><br>对于Broad Match修饰符，请选择“Broad”并插入 `+` 在必需的关键字中的任何单词之前(例如&quot;`+red +shoes`”以同时要求“red”和“shoes”)。<br><br>更改Microsoft Advertising关键字的匹配类型不会删除现有关键字。 |
 | 最大CPC | （搜索网络上的促销活动）最大每次点击成本(CPC)，这是根据关键词、产品组或动态搜索目标（无论是否带有货币符号和标点）为广告点击支付的最高金额。  对于优化项目组合中的现有关键字和产品组记录，更新仅在一天内有效，并在下一个优化周期中被覆盖。 <b>注意：</b> 不能为负关键字设置竞价。 |

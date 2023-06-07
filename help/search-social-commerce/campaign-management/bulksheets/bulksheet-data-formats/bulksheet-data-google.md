@@ -1,7 +1,7 @@
 ---
 title: 以下项的必需批量处理工作表数据 [!DNL Google Ads] 帐户
 description: 引用批量处理工作表中的必填标题字段和数据字段 [!DNL Google Ads] 帐户。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f7ac5c69f96582d7f9a442a05c333baecc2215df
 workflow-type: tm+mt
 source-wordcount: '6276'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 {{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
 
 | 字段 | 描述 |
-| ---- | ---- | ---- |
+| ---- | ---- |
 | Platform | （包含在生成的批量工作表中，以供参考）广告平台。 除非每行都包含实体的“AMO ID”，否则必需。 |
 | 帐户名称 | 标识广告网络帐户的唯一名称。 除非每行都包含实体的“AMO ID”，否则必需。 |
 | 营销活动名称 | 标识帐户促销活动的唯一名称。 |
