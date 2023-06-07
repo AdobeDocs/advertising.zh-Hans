@@ -1,9 +1,9 @@
 ---
 title: 以下项的必需批量处理工作表数据 [!DNL Google Ads] 帐户
 description: 引用批量处理工作表中的必填标题字段和数据字段 [!DNL Google Ads] 帐户。
-source-git-commit: 05a3424b67d084dbb664321c7a6ada0f99a840b2
+source-git-commit: e06d89ce5d7995bf3abc3ff1312a4a2c2c7448f1
 workflow-type: tm+mt
-source-wordcount: '6628'
+source-wordcount: '6630'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,32 @@ ht-degree: 0%
 
 ### 营销活动字段
 
-|帐户名称 |除非每行都包含实体的“AMO ID”，否则必需。 | |促销活动名称 |必需 |标识帐户促销活动的唯一名称。 | |营销活动预算 |必需：创建<br><br>>可选：编辑或删除 |竞选活动的每日支出上限，无论是否带有货币符号和标点。 此值将覆盖但不能超过帐户预算。 | |投放方法 |必需：创建<br><br>可选：编辑或删除 | |渠道类型 |必需：创建<br><br>可选：编辑或删除 | |网络 |必需：创建<br><br>可选：编辑或删除 | | DSA域名 |必需：创建<br><br>可选：编辑或删除 | | DSA域语言 |必需：创建<br><br>可选：编辑或删除 | |营销活动优先级 |必需/可选：创建<br><br>可选/不适用：编辑或删除 | |商家ID |必需/可选：创建<br><br>可选/不适用：编辑或删除 | |销售国家/地区 |必需/可选：创建<br><br>可选/不适用：编辑或删除 | |产品范围筛选器 |可选 | |语言 |可选 | |设备目标 |可选 | |设备操作系统目标(Google Adwords) |可选 | |移动运营商(Google Adwords) |可选 | |受众定位方法 |不适用 | |登陆页面后缀 | <p>可选 | |跟踪模板 |可选 | |营销活动状态 |可选：创建或编辑<br><br>必需：删除 | | \[广告商特定的标签分类\] |可选 | |约束 |可选 | |促销活动ID |仅在更改营销活动名称时需要，除非行中包含营销活动的“AMO ID”。 | | AMO ID | n/a：创建<br><br>必需/可选：编辑或删除 |
+| 字段 | 必需？ |
+| ---- | ---- |
+| 帐户名称 | 除非每行都包含实体的“AMO ID”，否则必需。 |
+| 营销活动名称 | 必需 | 标识帐户促销活动的唯一名称。 |
+| 营销活动预算 | 必需：创建<br><br>>可选：编辑或删除 | 竞选活动的每日支出上限，无论是否带有货币符号和标点。 此值将覆盖但不能超过帐户预算。 |
+| 投放方法 | 必需：创建<br><br>可选：编辑或删除 |
+| 渠道类型 | 必需：创建<br><br>可选：编辑或删除 |
+| 网络 | 必需：创建<br><br>可选：编辑或删除 |
+| DSA域名 | 必需：创建<br><br>可选：编辑或删除 |
+| DSA域语言 | 必需：创建<br><br>可选：编辑或删除 |
+| 营销活动优先级 | 必需/可选：创建<br><br>可选/不适用：编辑或删除 |
+| 商家ID | 必需/可选：创建<br><br>可选/不适用：编辑或删除 |
+| 销售国家/地区 | 必需/可选：创建<br><br>可选/不适用：编辑或删除 |
+| 产品范围筛选器 | 可选 |
+| 语言 | 可选 |
+| 设备目标 | 可选 |
+| 设备操作系统目标(Google Adwords) | 可选 |
+| 移动运营商(Google Adwords) | 可选 |
+| 受众定位方法 | 不适用 |
+| 登陆页面后缀 | <p>可选 |
+| 跟踪模板 | 可选 |
+| 营销活动状态 | 可选：创建或编辑<br><br>必需：删除 |
+| \[广告商特定的标签分类\] | 可选 |
+| 约束 | 可选 |
+| 营销活动ID | 仅在更改促销活动名称时需要，除非行中包含促销活动的“AMO ID”。 |
+| AMO ID | 不适用：创建<br><br>必需/可选：编辑或删除 |
 
 ### 广告组字段
 
@@ -144,10 +169,10 @@ ht-degree: 0%
 
 ### Keyword fields
 
-Campaign Name
-Ad Group Name
-Keyword Status
-Max CPC
+| Acct Name | Required unless each row includes an &quot;AMO ID&quot; for the entity. |
+| Campaign Name | Required |
+| Ad Group Name | Required  |
+| Max CPC | Optional |
 Tracking Template
 URLs (Base URL/Final URL, Destination URL)
 Exemption Request (Google Adwords)
@@ -159,6 +184,7 @@ Param2
 Quality Score
 Custom URL Param
 Label Classification
+Keyword Status
 
 | Field | Required? | Description |
 | ---- | ---- | ---- |
