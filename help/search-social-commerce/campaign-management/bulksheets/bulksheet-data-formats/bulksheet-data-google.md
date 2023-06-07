@@ -1,9 +1,9 @@
 ---
 title: 以下项的必需批量处理工作表数据 [!DNL Google Ads] 帐户
 description: 引用批量处理工作表中的必填标题字段和数据字段 [!DNL Google Ads] 帐户。
-source-git-commit: 29d11545d9c3cb3e90efca4a51a39118dbf9cc1a
+source-git-commit: 05a3424b67d084dbb664321c7a6ada0f99a840b2
 workflow-type: tm+mt
-source-wordcount: '6276'
+source-wordcount: '6628'
 ht-degree: 0%
 
 ---
@@ -114,56 +114,33 @@ ht-degree: 0%
 
 <table style="table-layout:auto">
 
-<!-- 
+## 创建、编辑或删除每个帐户组件所需的字段
 
-## Fields required to create, edit, or delete each account component
+### 营销活动字段
 
-### Campaign fields
+|帐户名称 |除非每行都包含实体的“AMO ID”，否则必需。 | |促销活动名称 |必需 |标识帐户促销活动的唯一名称。 | |营销活动预算 |必需：创建<br><br>>可选：编辑或删除 |竞选活动的每日支出上限，无论是否带有货币符号和标点。 此值将覆盖但不能超过帐户预算。 | |投放方法 |必需：创建<br><br>可选：编辑或删除 | |渠道类型 |必需：创建<br><br>可选：编辑或删除 | |网络 |必需：创建<br><br>可选：编辑或删除 | | DSA域名 |必需：创建<br><br>可选：编辑或删除 | | DSA域语言 |必需：创建<br><br>可选：编辑或删除 | |营销活动优先级 |必需/可选：创建<br><br>可选/不适用：编辑或删除 | |商家ID |必需/可选：创建<br><br>可选/不适用：编辑或删除 | |销售国家/地区 |必需/可选：创建<br><br>可选/不适用：编辑或删除 | |产品范围筛选器 |可选 | |语言 |可选 | |设备目标 |可选 | |设备操作系统目标(Google Adwords) |可选 | |移动运营商(Google Adwords) |可选 | |受众定位方法 |不适用 | |登陆页面后缀 | <p>可选 | |跟踪模板 |可选 | |营销活动状态 |可选：创建或编辑<br><br>必需：删除 | | \[广告商特定的标签分类\] |可选 | |约束 |可选 | |促销活动ID |仅在更改营销活动名称时需要，除非行中包含营销活动的“AMO ID”。 | | AMO ID | n/a：创建<br><br>必需/可选：编辑或删除 |
 
-| Acct Name | Required unless each row includes an &quot;AMO ID&quot; for the entity. |
-| Campaign Name | Required | The unique name that identifies a campaign for an account. |
-| Campaign Budget | Required: Create<br><br>>Optional: Edit or delete | A daily spending limit for the campaign, with or without monetary symbols and punctuation. This value overrides but can't exceed the account budget. |
-| Delivery Method | Required: Create<br><br>Optional: Edit or delete |
-| Channel Type | Required: Create<br><br>Optional: Edit or delete |
-| Networks | Required: Create<br><br>Optional: Edit or delete |
-| DSA Domain Name | Required: Create<br><br>Optional: Edit or delete |
-| DSA Domain Language | Required: Create<br><br>Optional: Edit or delete |
-| Campaign Priority | Required/Optional: Create<br><br>Optional / n/a: Edit or delete  |
-| Merchant ID | Required/Optional: Create<br><br>Optional / n/a: Edit or delete |
-| Sales Country | Required/Optional: Create<br><br>Optional / n/a: Edit or delete |
-| Product Scope Filter | Optional |
-| Languages | Optional |
-| Device Targets | Optional |
-| Device OS Targets (Google Adwords) | Optional |
-| Mobile Carriers (Google Adwords) | Optional |
-| Audience Target Method | n/a |
-| Landing Page Suffix | <p>Optional |
-| Tracking Template | Optional |
-| Campaign Status | Optional: Create or edit<br><br>Required: Delete |
-| \[Advertiser-specific Label Classification\] | Optional |
-| Constraints | Optional |
-| Campaign ID | Required only when you change the campaign name, unless the row includes an &quot;AMO ID&quot; for the campaign. |
-| AMO ID | n/a: Create<br><br>Required/Optional: Edit or delete |
+### 广告组字段
 
-### Ad group fields
-
-| Field | Required? |
+| 字段 | 必需？ |
 | ---- | ---- |
-| Acct Name | Required unless each row includes an &quot;AMO ID&quot; for the entity. |
-| Campaign Name | Required |
-| Networks | n/a |
-| GDN Custom Bid Level | Optional |
-| Ad Group Name | Required  |
-| Ad Group Type | Required |
-| Max CPC | Optional |
-| Max Content CPC | Optional |
-| Audience Target Method | Required |
-| Tracking Template | Optional |
-| Ad Group Status  | Optional: Create or edit<br><br>Required: Delete |
-| \[Advertiser-specific Label Classification\] | Optional |
-| Constraints | Optional |
-| Ad Group ID | Required only when you change the campaign name, unless the row includes an &quot;AMO ID&quot; for the ad group. |
-| AMO ID | The AMO ID is required to edit or delete the data unless you include the entity ID and parent entity ID.<br><br>Search, Social, & Commerce uses the value to determine the correct identity to edit but doesn't post the ID to the ad network. |
+| 帐户名称 | 除非每行都包含实体的“AMO ID”，否则必需。 |
+| 营销活动名称 | 必需 |
+| 网络 | 不适用 |
+| GDN自定义竞价级别 | 可选 |
+| 广告组名称 | 必需 |
+| 广告组类型 | 必需 |
+| 最大CPC | 可选 |
+| 最大内容CPC | 可选 |
+| 受众定位方法 | 必需 |
+| 跟踪模板 | 可选 |
+| 广告组状态 | 可选：创建或编辑<br><br>必需：删除 |
+| \[广告商特定的标签分类\] | 可选 |
+| 约束 | 可选 |
+| 广告组Id | 仅在更改促销活动名称时需要，除非行包含广告组的“AMO ID”。 |
+| AMO ID | 编辑或删除数据需要AMO ID，除非您包含实体ID和父实体ID。<br><br>Search、Social和Commerce会使用该值来确定要编辑的正确身份，但不会将ID发布到广告网络。 |
+
+<!-- 
 
 ### Keyword fields
 
