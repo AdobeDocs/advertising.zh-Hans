@@ -1,9 +1,9 @@
 ---
 title: 管理 [!DNL Google Ads] 投放位置
 description: 了解如何创建和管理可竞价投放 [!DNL Google Ads] 广告组。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Placement Details]
 
-**[!UICONTROL Placements]：** 内容网络上可显示广告的站点。 输入有效的URL，如www.example.com、example.com或www.example.com/shoes/kids。 要指定多个字符串，请使用逗号分隔它们，或在分隔行中输入它们。URL不能包含问号(`?`)。 **注意：** 您可以 [排除网站投放位置](placement-negative-create.md) 从 [!UICONTROL Placements] > [!UICONTROL Negatives] 在广告组和营销活动设置中查看和。
+**[!UICONTROL Placements]：** 内容网络上可显示广告的站点。 输入有效的URL，如www.example.com、example.com或www.example.com/shoes/kids。 要指定多个字符串，请用逗号分隔它们，或在单独行中输入它们。 URL不能包含问号(`?`)。 **注意：** 您可以 [排除网站投放位置](placement-negative-create.md) 从 [!UICONTROL Placements] > [!UICONTROL Negatives] 在广告组和营销活动设置中查看和。
 
 **[!UICONTROL Status]：** 投放位置的显示状态： *活动* （启用竞价；默认）， *已暂停* （禁用竞价），或 *已删除* （删除投放位置；仅限现有投放位置）。
 
@@ -88,4 +88,3 @@ ht-degree: 0%
 >* [关于投放](placement-about.md)
 >* [创建负版面](placement-negative-create.md)
 >* [更改投放位置和负投放位置的状态](placement-status-edit.md)
-

@@ -1,9 +1,9 @@
 ---
 title: 管理广告网络帐户
 description: 了解如何设置和管理广告网络帐户的帐户详细信息。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2080'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    1. 在 **[!UICONTROL Account Details]** 部分，输入帐户详细信息。
 
-      对于使用登录授权类型&#39;&#39;的广告网络[!UICONTROL oAuth]，”允许搜索、社交和商务使用访问帐户 [OAuth授权协议](http://tools.ietf.org/html/draft-ietf-oauth-v2-22)：
+      对于使用登录授权类型&#39;&#39;的广告网络[!UICONTROL oAuth]，”允许搜索、社交和商务使用访问帐户 [OAuth授权协议](https://oauth.net/2/)：
 
       1. 输入 **[!UICONTROL Login]** 帐户值，或者输入密码，然后单击 **[!UICONTROL Authenticate]**.
 
@@ -45,8 +45,8 @@ ht-degree: 0%
       1. 在打开的弹出窗口中复制身份验证字符串，并将该字符串粘贴到 **[!UICONTROL oAuth Token]** 字段。
 
       1. 指定剩余帐户详细信息。
-   1. 单击 **[!UICONTROL Set Account Tracking]**，并输入跟踪设置。
 
+   1. 单击 **[!UICONTROL Set Account Tracking]**，并输入跟踪设置。
 
 1. 单击 **[!UICONTROL Post]**.
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 *仅限机构客户经理、Adobe客户经理和管理员用户角色*
 
-如果搜索、社交和商务使用访问帐户 [OAuth授权协议](http://tools.ietf.org/html/draft-ietf-oauth-v2-22) 和帐户凭据发生更改，或者需要其他访问权限才能支持Search、Social和Commerce中的新功能，则必须获取帐户的新访问令牌。
+如果搜索、社交和商务使用访问帐户 [OAuth授权协议](https://oauth.net/2/) 和帐户凭据发生更改，或者需要其他访问权限才能支持Search、Social和Commerce中的新功能，则必须获取帐户的新访问令牌。
 
 如果您的新功能需要新令牌，您的Adobe客户团队将通知您。
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 **[!UICONTROL Login Details]： \[登录类型\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] 仅限于)是否授权通过以下方式登录帐户：
 
-* *[!UICONTROL oAuth]* （默认）：要使用 [[!DNL OAuth] 授权协议](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+* *[!UICONTROL oAuth]* （默认）：要使用 [[!DNL OAuth] 授权协议](https://oauth.net/2/).
 
 * *[!UICONTROL Password]：* 使用客户端的密码。
 
@@ -154,7 +154,7 @@ ht-degree: 0%
 
 **[!UICONTROL Login Details]： [!UICONTROL Login]：** (所有广告网络，除 [!DNL Naver])登录名或ID以启用对帐户的API访问。
 
-**[!UICONTROL Login Details]： [!UICONTROL OAuth Token]：** ([!DNL Microsoft Advertising] [!DNL oAuth]-enabled以及除以下网络之外的所有其他网络 [!DNL Baidu]， [!DNL Meta]、和 [!DNL Yandex])帐户令牌，用于授权使用 [[!DNL OAuth] 授权协议](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+**[!UICONTROL Login Details]： [!UICONTROL OAuth Token]：** ([!DNL Microsoft Advertising] [!DNL oAuth]-enabled以及除以下网络之外的所有其他网络 [!DNL Baidu]， [!DNL Meta]、和 [!DNL Yandex])帐户令牌，用于授权使用 [[!DNL OAuth] 授权协议](https://oauth.net/2/).
 
 **[!UICONTROL Login Details]： [!UICONTROL Password]：** (所有广告网络，除 [!DNL Naver])帐户的密码。 对于上的启用密码的帐户 [!DNL Baidu]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex]，此字段为必填字段。 对象 [!DNL oAuth]-enabled accounts，此字段为可选字段；如果您想要加密并保存密码，以便帐户管理员可以根据需要刷新令牌，请使用该字段。
 
@@ -172,7 +172,6 @@ ht-degree: 0%
 >
 >* 此字段不由更新 [!UICONTROL Auto Upload] 跟踪设置。
 >* 较低级别的最终URL后缀会覆盖帐户级别的后缀。 为便于维护，除非需要对各个帐户组件进行不同的跟踪，否则请仅使用帐户级别的后缀。 要在广告组级别或更低级别配置后缀，请使用广告网络的编辑器。
-
 
 **时区：** (除以下项之外的所有广告网络 [!DNL Baidu] 和 [!DNL Yahoo! Display Network])广告商的时区。 此字段可编辑，对于新字段可选 [!DNL Naver] 帐户。 对于所有其他搜索网络，保存记录后，该值将自动填充为广告商的搜索、社交和商务帐户配置的时区。
 
@@ -200,7 +199,6 @@ ht-degree: 0%
 >* 对象 [!DNL Google Ads]，避免使用宏，宏不会替代来自启用并行跟踪的源的点击。 如果广告商必须使用宏，则Adobe帐户团队应与客户支持或实施团队合作来添加宏。
 >* 最精细级别的跟踪模板将覆盖所有更高级别的值。 例如，如果帐户设置和关键词设置都包含一个值，则会应用关键词值。
 >* 如果您在广告、站点链接或关键词级别更新跟踪模板，则会重新提交相关广告以供审阅。 您可以在帐户、营销活动或广告组级别更新跟踪模板，而无需重新提交广告以供审批。
-
 
 **[!UICONTROL Master Account ID]：** ([!DNL Microsoft Advertising] 仅限帐户)与帐户关联的代理/管理帐户的ID。
 
@@ -259,4 +257,3 @@ ht-degree: 0%
 >* [关于广告网络帐户](ad-network-account-about.md)
 >* [管理商户中心帐户](merchant-account-manage.md)
 >* [更新的s\_kwcid跟踪代码 [!DNL Google Ads] 帐户](update-skwcid-google.md)
-

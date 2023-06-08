@@ -1,9 +1,9 @@
 ---
 title: 管理商家帐户
 description: 了解如何设置和管理商户中心帐户的帐户详细信息。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Search、Social和Commerce可以每天下载并显示广告商的Google商户中
 
    1. 在 [!UICONTROL Product Source] 菜单，选择商家中心。
 
-   1. (以下项必需： [!DNL Google Ads] 帐户；可选 [!DNL Microsoft Advertising] 帐户)允许搜索、社交和商务使用访问帐户 [[!DNL OAuth] 授权协议](http://tools.ietf.org/html/draft-ietf-oauth-v2-22)：
+   1. (以下项必需： [!DNL Google Ads] 帐户；可选 [!DNL Microsoft Advertising] 帐户)允许搜索、社交和商务使用访问帐户 [[!DNL OAuth] 授权协议](https://oauth.net/2/)：
 
       1. ([!DNL Microsoft Advertising] 仅限帐户)选择 **[!UICONTROL oAuth]**.
 
@@ -98,13 +98,13 @@ Search、Social和Commerce可以每天下载并显示广告商的Google商户中
 
 **[!UICONTROL Product Source]：** 商户网络。 您无法更改现有帐户的值。
 
-**[!UICONTROL OAuth Token]：** ([!DNL Google Merchant Center] 仅限帐户)帐户令牌，用于授权使用 [[!DNL OAuth] 授权协议](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+**[!UICONTROL OAuth Token]：** ([!DNL Google Merchant Center] 仅限帐户)帐户令牌，用于授权使用 [[!DNL OAuth] 授权协议](https://oauth.net/2/).
 
 **[!UICONTROL Auth Type]：** ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] 仅限于)是否授权通过以下方式登录帐户：
 
 * *[!UICONTROL Client login]：* 使用客户端的登录名。
 
-* *[!UICONTROL oAuth]* （默认）：要使用 [[!DNL OAuth] 授权协议](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+* *[!UICONTROL oAuth]* （默认）：要使用 [[!DNL OAuth] 授权协议](https://oauth.net/2/).
 
 **[!UICONTROL Access Key]：** ([!DNL Microsoft Merchant Center] 仅限)开发人员帐户要使用的访问密钥。
 
@@ -130,4 +130,3 @@ Search、Social和Commerce可以每天下载并显示广告商的Google商户中
 >
 >* [关于广告网络帐户](ad-network-account-about.md)
 >* [管理广告网络帐户](ad-network-account-manage.md)
-
