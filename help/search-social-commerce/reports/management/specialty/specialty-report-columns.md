@@ -1,7 +1,7 @@
 ---
 title: 专业报告的报告列
 description: 了解专业报告的可用数据列。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: c2a6e14fe97d46185094dd4df3e75db35a505925
 workflow-type: tm+mt
 source-wordcount: '1925'
 ht-degree: 0%
@@ -66,7 +66,7 @@ ht-degree: 0%
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] 仅限； [!UICONTROL AdWords and Bing Audience Target Report]， [!UICONTROL Campaign Daily Impression Share Report]、和 [!UICONTROL Keyword Daily Impression Share Report])在自然搜索结果上方显示为第一个广告的广告展示次数百分比。 |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] 仅限； [!UICONTROL AdWords and Bing Audience Target Report]， [!UICONTROL Campaign Daily Impression Share Report]、和 [!UICONTROL Keyword Daily Impression Share Report])显示在自然搜索结果上方的广告展示次数百分比。 |
 | [!UICONTROL Impressions] | 指定日期范围内的广告展示次数。 |
-| [!UICONTROL Keyword] | 关键字。<br><br><b>注意：</i> 如果报表在启用了内容的搜索营销活动中包含来自广告组的数据，则此列包含适用的广告组名称，如“（广告组内容）您的广告组名称”。 对于搜索促销活动中的网站定向投放位置，此列没有值。 |
+| [!UICONTROL Keyword] | 关键字。<br><br><b>注意：</b> 如果报表在启用了内容的搜索营销活动中包含来自广告组的数据，则此列包含适用的广告组名称，如“（广告组内容）您的广告组名称”。 对于搜索促销活动中的网站定向投放位置，此列没有值。 |
 | [!UICONTROL Keyword ID] | Search、Social和Commerce分配给关键字的数值ID。 |
 | [!UICONTROL Keyword Status] | 与搜索词匹配的关键字的状态： *[!UICONTROL Active]*， *[!UICONTROL Paused]*， [!UICONTROL Deleted]*，或[!UICONTROL Disapproved]*. |
 | [!UICONTROL Language] | ([!UICONTROL Campaign Daily Impression Share Report])目标语言。 |
@@ -119,4 +119,3 @@ ht-degree: 0%
 >* [关于专业报告](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)
 >* [生成专业报告](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
 >* [专业报告设置](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
-

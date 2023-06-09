@@ -1,7 +1,7 @@
 ---
 title: 模型准确性报表设置
 description: 了解模型准确性报表的必需和可选设置。
-source-git-commit: 94a4b2555517c535dd3ba2a5d32451f9ea2eb308
+source-git-commit: 8dff84a28407bb01b9fd62f5f018fb43432b3e25
 workflow-type: tm+mt
 source-wordcount: '1782'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 |  | [!UICONTROL Data Aggregation] | ([!UICONTROL Forecast Accuracy Report only])应在报表的每一行上表示的时间单位。 唯一的选项是 <i>[!UICONTROL Daily]</i>. |
 |  | [!UICONTROL Date Range] | 要生成数据的日期范围：<ul><li><i>[预设范围]：</i> 常用时间增量列表，范围从 <i>[!UICONTROL Today]</i> 到 <i>[!UICONTROL Last 180 Days]</i>. 默认为 <i>[!UICONTROL Last 7 Days]</i>，报告有可用数据的最近七天。 <b>注意：</b> <i>[!UICONTROL Last Month]</i>， <i>[!UICONTROL Last 3 Months]</i>、和 <i>[!UICONTROL Last 6 Months]</i> 显示前一个日历月份的数据。</li><li><i>[!UICONTROL Custom Date Range]：</i> 指定开始日期和结束日期。 以YYYY/MM/DD或M/D/YYYY格式输入日期，或单击 ![日历](/help/search-social-commerce/assets/calendar.png "日历") 在字段旁边，然后选择日期。</li></ul> |
 |  | [!UICONTROL Conversions Based on] | 如何报告转化数据：<ul><li><i>[!UICONTROL Transaction date]</i> （默认）：查看事务处理日期在指定时间期内发生的事务处理。 此选项显示指定时间段内赚取的收入。</li><li><i>[!UICONTROL Click date]：</i> 查看在指定时间段内发生的点击导致的事务。 当项目组合在点击和交易之间具有重大延迟时，此选项可用于计算项目组合的每次点击历史收入，它指示一段时间内预期的收入行为。</li></ul> |
-|  | \[主筛选器\] | 要包含的项目组合。 默认情况下，如果您未做出选择，则所有项目组合的数据都将包含在报表中。 您可以选择通过指定单个项目组合来缩小要报告的数据范围。<br><br>要选择一个项目组合，请选中项目组合名称旁边的复选框，然后单击>>以将其移至 [!UICONTROL Selected Filters] 列。<br><br><b>注释：<b><ul><li>默认情况下，仅列出活动和优化的项目组合。 要查看暂停和删除的项目组合，请单击 ![向下箭头](/help/search-social-commerce/assets/arrow-down-expand.png "向下箭头") 旁边 <b>[!UICONTROL Show]</b>，并选择 <b>[!UICONTROL All]</b>.</li><li>生成的数据适用于当前映射到指定项目组合的营销活动。 它不包括日期范围内项目组合中尚未存在的营销活动的数据。</li></ul> |
+|  | \[主筛选器\] | 要包含的项目组合。 默认情况下，如果您未做出选择，则所有项目组合的数据都将包含在报表中。 您可以选择通过指定单个项目组合来缩小要报告的数据范围。<br><br>要选择一个项目组合，请选中项目组合名称旁边的复选框，然后单击>>以将其移至 [!UICONTROL Selected Filters] 列。<br><br><b>注释：</b><ul><li>默认情况下，仅列出活动和优化的项目组合。 要查看暂停和删除的项目组合，请单击 ![向下箭头](/help/search-social-commerce/assets/arrow-down-expand.png "向下箭头") 旁边 <b>[!UICONTROL Show]</b>，并选择 <b>[!UICONTROL All]</b>.</li><li>生成的数据适用于当前映射到指定项目组合的营销活动。 它不包括日期范围内项目组合中尚未存在的营销活动的数据。</li></ul> |
 | [!UICONTROL Columns] | \[报表列\] | 报表中显示的数据列及其顺序：<ul><li>要添加列，请单击左列中的量度名称，然后单击 ![向右箭头](/help/search-social-commerce/assets/arrow-right-customize.png "向右箭头").</li><li>要删除列，请单击右列中的度量名称，然后单击 ![向左箭头](/help/search-social-commerce/assets/arrow-left-customize.png "向左箭头").</li><li>要将报表中的列向左移动，请单击右列中的量度名称，然后单击 ![向上箭头键](/help/search-social-commerce/assets/arrow-up-customize.png "向上箭头键").</li><li>要将报表中的列移动到右侧，请单击右列中的量度名称，然后单击 ![向下箭头](/help/search-social-commerce/assets/arrow-down-customize.png "向下箭头").</li></ul> |
 |  | [!UICONTROL Order Results/Limit Rows by] | ([!UICONTROL Forecast Accuracy Report] （仅限）按报表中包含的最多两列对报表进行排序。 每种报表类型的默认值各不相同。要自定义排序顺序，请选择一个报表列，然后选择 <i>[!UICONTROL Ascending]</i> （显示从A到Z或从1到100的结果）或 <i>[!UICONTROL Descending]</i> （显示从Z到A或从100到1的结果）。 指定至少一个要作为排序依据的列。 如果按两列排序，则报表首先按指定的第一列排序，然后按指定的第二列排序。 |
 |  | [!UICONTROL Share with others] | ([!UICONTROL Forecast Accuracy Report] 仅允许有权访问同一广告商数据的其他用户查看生成的报表，并且（如果您将报表另存为模板）使用该模板，但不允许编辑或删除该模板。 默认情况下，不选中此选项。 <b>注意：</b> 无论此设置如何，您的报告和模板始终对级别较高的（管理员）Adobe的所有用户以及任何分配的管理员帐户团队成员可见。 |
