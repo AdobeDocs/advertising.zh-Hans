@@ -1,7 +1,7 @@
 ---
 title: 关于通知
 description: 了解通知，包括不同的类型和类别。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 1b38a7cd20eb2f9b773d01dc0444f45761b99647
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 * 从 [!UICONTROL Notification Center] Web应用程序，打开 [!UICONTROL Notification Center] 在Search、Social和Commerce之外的单独窗口中。
 
-   应用程序加载速度比常规浏览器版本更快，并且会自动更新。 您可以使用浏览器的应用程序管理器安装和管理应用程序。
+  应用程序加载速度比常规浏览器版本更快，并且会自动更新。 您可以使用浏览器的应用程序管理器安装和管理应用程序。
 
 * 从推送通知到浏览器。
 
-   启用推送通知后，将根据浏览器的通知约定显示推送通知。
+  启用推送通知后，将根据浏览器的通知约定显示推送通知。
 
 您可以查看通知、将通知标记为已读或未读，以及删除通知。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**： ：通知 [!UICONTROL Landing Page Suffix] 值不正确、缺失或包含不正确的SKWCID模板；或者在较低级别被不正确的值覆盖。
 
-   * **[!UICONTROL Manager Account Missing ]**：通知Search、Social和Commerce缺少凭据 [ad network manager帐户](/help/search-social-commerce/admin/manager-accounts.md)，这些函数用于正确设置关键函数。
+   * **[!UICONTROL Manager Account Missing]**：通知Search、Social和Commerce缺少凭据 [ad network manager帐户](/help/search-social-commerce/admin/manager-accounts.md)，这些函数用于正确设置关键函数。
 
 * [!UICONTROL Network Errors]
 
@@ -76,4 +76,3 @@ ht-degree: 0%
 >* [编辑您的通知设置](notification-edit.md)
 >* [从启用和禁用推送通知 [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [安装和卸载 [!UICONTROL Notification Center] Web应用程序](notification-app-install-uninstall.md)
-

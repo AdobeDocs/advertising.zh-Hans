@@ -1,7 +1,7 @@
 ---
 title: 关于报告的常见问题解答
 description: 了解有关性能报表的常见问题解答，包括数据问题疑难解答。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 3f2b483a4cae20295a2334321802f8abfe864bd8
 workflow-type: tm+mt
 source-wordcount: '3917'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 * 站点链接列为 `sl:<Sitelink text>`，例如 `sl:See Current Offers`.
 
-   如果您包含网站链接，则还可以标识该链接 [!UICONTROL Tracking URL] 列中。 此 [!UICONTROL Tracking URL] 对于sitelink ，包含属性 `&ev_ltx=sl:<link-name>`.
+  如果您包含网站链接，则还可以标识该链接 [!UICONTROL Tracking URL] 列中。 此 [!UICONTROL Tracking URL] 对于sitelink ，包含属性 `&ev_ltx=sl:<link-name>`.
 
 >[!NOTE]
 >
@@ -75,11 +75,11 @@ ht-degree: 0%
 
 * 基于日期的点击数据可能不在指定的日期范围内。
 
-   如果您使用报表参数&quot;[!UICONTROL Conversions based on click date]，”则指定的日期范围应用于点击的日期，而不是交易的日期。 如果报表还使用归因规则“第一个事件”或“最后一个事件”，则导致转化的第一个或最后一个事件可能不在指定的日期范围内。 例如，假设用户在4月30日单击Keyword_1，在5月20日单击Keyword_2，然后在5月21日进行转换。 如果报告使用&quot;[!UICONTROL First Event]”归因规则和5月1日至21日的日期范围，则第一个事件（4月30日单击Keyword_1）不会包含在报表中。 如果您使用相同的日期范围但使用&quot;[!UICONTROL Last Event]”归因规则，则转化将包含在报表中，因为最后一次单击发生在指定的日期范围内。
+  如果您使用报表参数&quot;[!UICONTROL Conversions based on click date]，”则指定的日期范围应用于点击的日期，而不是交易的日期。 如果报表还使用归因规则“第一个事件”或“最后一个事件”，则导致转化的第一个或最后一个事件可能不在指定的日期范围内。 例如，假设用户在4月30日单击Keyword_1，在5月20日单击Keyword_2，然后在5月21日进行转换。 如果报告使用&quot;[!UICONTROL First Event]”归因规则和5月1日至21日的日期范围，则第一个事件（4月30日单击Keyword_1）不会包含在报表中。 如果您使用相同的日期范围但使用&quot;[!UICONTROL Last Event]”归因规则，则转化将包含在报表中，因为最后一次单击发生在指定的日期范围内。
 
 * 项目组合筛选器选择排除了导致转化的某些事件。
 
-   如果您报告项目组合的子集，则可能不包括包含根据某个归因规则将转化归因到的事件的营销活动。 例如，假设用户从Portfolio_1单击Keyword_1，从Portfolio_2单击Keyword_2，然后转换。 如果报告使用&quot;[!UICONTROL First Event]&quot; attribution rule，则必须包含Portfolio_1才能将转化包含在报表中。 但是，如果报表使用“上次Portfolio”归因规则，则必须包含Event_2。
+  如果您报告项目组合的子集，则可能不包括包含根据某个归因规则将转化归因到的事件的营销活动。 例如，假设用户从Portfolio_1单击Keyword_1，从Portfolio_2单击Keyword_2，然后转换。 如果报告使用&quot;[!UICONTROL First Event]&quot; attribution rule，则必须包含Portfolio_1才能将转化包含在报表中。 但是，如果报表使用“上次Portfolio”归因规则，则必须包含Event_2。
 
 >[!TIP]
 >
@@ -152,9 +152,9 @@ ht-degree: 0%
 
 +++报告中缺少收入。
 
-### 使用Adobe广告转化标记的广告商
+**使用Adobe Advertising转化标记的广告商**
 
-#### 可能的原因
+*可能的原因：*
 
 * 添加了关键字或广告，但没有为跟踪模板或目标URL添加前缀Search、Social和Commerce点击跟踪前缀，或者跟踪前缀不正确。
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
 * 未实施客户端的收入分析器。
 
-#### 可能的解决方案或解决方法
+*可能的解决方案或解决方法：*
 
 1. 验证报表或数据视图中是否包含正确的列。 如果无法添加正确的列，则您或您的Adobe帐户团队必须 [使事务属性对报告可用](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
@@ -180,9 +180,9 @@ ht-degree: 0%
 
    如果客户尚未启动或新启动，则客户关怀团队会验证是否已设置收入分析器。 如果设置了分析器，则他们将验证Search、Social和Commerce是否接收到任何像素转换并解决该问题。
 
-### 发送转化数据馈送的广告商
+**发送转化数据馈送的广告商**
 
-#### 可能的原因
+*可能的原因：*
 
 * 馈送文件未投放、未完全解析或馈送包含孤立事务。
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 >
 >通常情况下，在收到馈送的2-4小时后，数据才会显示在用户界面中。
 
-#### 可能的解决方案或解决方法
+*可能的解决方案或解决方法：*
 
 1. 验证报表或数据视图中是否包含正确的列。 如果无法添加正确的列，则您或您的Adobe帐户团队必须 [使事务属性对报告可用](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
@@ -208,14 +208,14 @@ ht-degree: 0%
 +++
 
 +++某些高级报表不包含广告商信息源提供的转化数据。
-此 [!UICONTROL Geo Distribution Report] 和 [!UICONTROL Domain Referral Report] 使用通过Adobe广告转化跟踪服务捕获的数据，并且只能为使用该服务的广告商生成。 这些报表不包括在Adobe广告转化跟踪系统之外跟踪的转化数据。
+此 [!UICONTROL Geo Distribution Report] 和 [!UICONTROL Domain Referral Report] 使用通过Adobe Advertising转化跟踪服务捕获的数据，并且只能为使用该服务的广告商生成该数据。 这些报表不包括在Adobe Advertising转化跟踪系统之外跟踪的转化数据。
 +++
 
 +++收入数据与广告商自己的收入数据不同。
 
-### 使用Adobe广告转化标记的广告商
+**使用Adobe Advertising转化标记的广告商**
 
-#### 可能的原因
+*可能的原因：*
 
 * Search、Social和Commerce会在Cookie过期或删除时忽略收入，但广告商可能将其视为有效收入。
 
@@ -223,7 +223,7 @@ ht-degree: 0%
 
 * 未在所有适用的网页上正确实施转换跟踪标记，或者未对转换跟踪标记进行编辑。
 
-#### 可能的解决方案或解决方法
+*可能的解决方案或解决方法：*
 
 1. 转到 **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** 并生成 [!UICONTROL Transaction Report]. 将Search、Social和Commerce收到的交易与广告商的数据进行比较。
 
@@ -235,13 +235,13 @@ ht-degree: 0%
 
    客户关怀团队将尝试识别缺少的事务处理，然后检查是否存在孤立事务处理和非广告事务处理（“不相关的转化”）。
 
-### 使用转化数据馈送的广告商 `ef_id` 值
+**使用转化数据馈送的广告商 `ef_id` 值**
 
 查看上述像素实施的可能原因和解决方案。
 
-### 具有使用交易ID的转化数据馈送的广告商
+**具有使用交易ID的转化数据馈送的广告商**
 
-#### 可能的原因
+*可能的原因：*
 
 * 当Cookie过期或被删除时，Search、Social和Commerce会忽略收入，但广告商可能将其视为有效收入。
 
@@ -249,7 +249,7 @@ ht-degree: 0%
 
 * 在进行具有相同交易ID的联机交易之前，已报告离线转化。 必须首先执行联机事务处理。
 
-#### 可能的解决方案或解决方法
+*可能的解决方案或解决方法：*
 
 1. 转到 **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** 并生成 [!UICONTROL Transaction Report]. 将Search、Social和Commerce收到的交易与广告商的信息源数据进行比较。
 
@@ -259,9 +259,9 @@ ht-degree: 0%
 
    客户关怀团队将检查数据解析错误，并且 [孤立事务](/help/search-social-commerce/glossary.md#o-p).
 
-### 具有其他转化数据馈送类型的广告商
+**具有其他转化数据馈送类型的广告商**
 
-#### 可能的原因
+*可能的原因：*
 
 * Search、Social和Commerce会在Cookie过期或删除时忽略收入，但广告商可能将其视为有效收入。
 
@@ -279,7 +279,7 @@ ht-degree: 0%
 
 * 广告商的重复数据消除逻辑与搜索、社交和商务逻辑不同。
 
-#### 可能的解决方案或解决方法
+*可能的解决方案或解决方法：*
 
 1. 转到 **[!UICONTROL Insights]和[!UICONTROL Reports > Reports]** 并生成 [!UICONTROL Transaction Report]. 将Search、Social和Commerce收到的交易与广告商的数据进行比较。
 
@@ -311,7 +311,7 @@ ht-degree: 0%
 广告网络不提供将收入归因于这些促销活动的单个广告所需的标识符。 因此，广告级别的效果数据不适用于 [!UICONTROL Ads] 查看或在中 [!UICONTROL Ad Variation Report]. 预计营销活动的广告级别数据总数与营销活动数据总数之间存在差异。
 +++
 
-+++在 [!UICONTROL Transaction Report]，如何知道哪个交易属性来自数据馈送或由Adobe广告跟踪像素跟踪？
++++在 [!UICONTROL Transaction Report]，如何知道哪个交易属性来自数据馈送或由Adobe Advertising跟踪像素跟踪？
 在交易报表中，如果您包含自定义列&#39;&#39;，则可以判断包含的交易属性是否被Adobe广告跟踪像素跟踪[!UICONTROL Tracking URL].” Adobe为“广告跟踪”像素的跟踪URL以“”开头`http://pixel.everesttech.net`.”
 +++
 

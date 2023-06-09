@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Channel Assist Report]"
 description: 了解 [!UICONTROL Channel Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 以下是可用于每个报表的列。 默认自动包含默认列。 您可以从报表设置的列部分添加可用的自定义列。
 
 | 列 | 默认？ | 描述 |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Event] 到 [!UICONTROL 5th Event] | 默认 | 转化路径中发生在广告商的中的五个最早事件类型 [单击回顾窗口](/help/search-social-commerce/glossary.md#c-d) 和 [展示回顾窗口](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL Path Size] | 默认 | 转化路径中在广告商发生的事件类型数 [单击回顾窗口](/help/search-social-commerce/glossary.md#c-d) 和 [展示回顾窗口](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Event Type] | 默认 | 转化路径中第一个（最早）事件的事件类型。 |
@@ -47,4 +47,3 @@ ht-degree: 0%
 >* [此 [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [协助报表设置](assist-report-settings.md)
 >* [生成协助报告](assist-report-generate.md)
-

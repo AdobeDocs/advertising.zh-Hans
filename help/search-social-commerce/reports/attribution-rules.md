@@ -1,14 +1,14 @@
 ---
 title: 归因规则的计算方式
-description: 了解Adobe广告如何计算每种类型的归因规则。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: 了解Adobe Advertising如何计算每种类型的归因规则。
+source-git-commit: 6436866ae7684a330f74c14e58ee30d365de80a1
 workflow-type: tm+mt
-source-wordcount: '2438'
+source-wordcount: '2431'
 ht-degree: 0%
 
 ---
 
-# 如何为Adobe广告计算归因规则
+# 如何为Adobe Advertising计算归因规则
 
 *仅具有Adobe广告转化跟踪的广告商*
 
@@ -21,8 +21,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 归因规则适用于任何渠道中的付费广告点击次数，以及展示广告和社交广告的展示次数。 它们不适用于付费搜索广告的展示次数，无法在事件级别跟踪该广告。
->* Adobe广告始终在转化前为每个Web浏览者存储以下事件： a)第一次付费点击；b)每个渠道（搜索、社交或显示）最多10次点击，包括第一次点击；以及c)最多10次显示展示。 <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
-
+>* Adobe Advertising始终在转化前为每个Web浏览者存储以下事件：a)第一次付费点击；b)每个渠道最多10次点击（搜索、社交或显示），包括第一次点击；以及c)最多10次显示展示。 <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
 * 在Advertising DSP和Advertising Creative中，跨设备定义仅考虑所选归因规则中的事件路径。<!-- cross-device attribution via LiveRamp only -->
 * 在报表和管理视图中，为某个值显示的小数位数取决于货币，但Adobe广告会存储更精确的值。
 
@@ -186,9 +185,6 @@ ht-degree: 0%
 
 ![偶数归因百分比](/help/search-social-commerce/assets/attribution-percent-even.png "偶数归因百分比")
 
-<!-- Add in
-Examples of event calculations
-
 <!-- start examples as collapsible content -->
 
 +++事件计算示例
@@ -295,7 +291,7 @@ Examples of event calculations
 
 ## U型
 
-将转化归因于广告商发生的一系列事件中的所有事件 [单击回顾窗口](/help/search-social-commerce/glossary.md#c-d) 和 [展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)，但是会为第一个事件和最后一个事件赋予最大的权重，而对转换路径中间事件的权重依次较低。
+将转化归因于广告商发生的一系列事件中的所有事件 [单击回顾窗口](/help/search-social-commerce/glossary.md#c-d) 和 [展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)，但是会为第一个事件和最后一个事件提供最大的权重，而对转换路径中间事件的权重依次较低。
 
 如果转换之前只有展示次数，则将此转换视为 *显示到达*，此值根据广告商的 [显示到达权重设置](/help/search-social-commerce/glossary.md#uv) 或（如指定）根据在报表、视图或自定义模拟参数中指定的浏览转化估价方法。
 
@@ -305,7 +301,7 @@ Examples of event calculations
 
 * 在DSP中，会忽略展示次数，并且只对点击进行加权。 DSP不会将展示覆盖权重考虑归因。
 
-![U形归因百分比](/help/search-social-commerce/assets/attribution-percent-u-shaped-event.png "U形事件归因百分比")
+<!-- ![U-shaped attribution percentages](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "U-shaped event attribution percentages") -->
 
 <!-- start examples as collapsible content -->
 

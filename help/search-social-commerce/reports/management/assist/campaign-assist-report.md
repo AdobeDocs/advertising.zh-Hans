@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Campaign Assist Report]"
 description: 了解 [!UICONTROL Campaign Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 以下是可用于每个报表的列。 默认自动包含默认列。 您可以从报表设置的列部分添加可用的自定义列。
 
 | 列 | 默认？ | 描述 |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Campaign] 到 [!UICONTROL 5th Campaign] | 默认 | 转化路径中发生在广告商网站上的五个最早的营销活动 [单击回顾窗口](/help/search-social-commerce/glossary.md#c-d) 和 [展示回顾窗口](/help/search-social-commerce/glossary.md#i-j).<br><br>如果您在实体名称后包含任何用于指示广告网络、帐户名称或事件类型的报表选项，则该信息将包含在促销活动名称后(例如 `"<"campaign name> [Google] [Account1] [impression]`“)。 |
 | [!UICONTROL Path Size] | 默认 | 转化路径中在广告商内发生的营销活动数 [单击回顾窗口](/help/search-social-commerce/glossary.md#c-d) 和 [展示回顾窗口](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Campaign] | 默认 | 转化路径中的第一个营销活动。 |
@@ -57,4 +57,3 @@ ht-degree: 0%
 >* [此 [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [协助报表设置](assist-report-settings.md)
 >* [生成协助报告](assist-report-generate.md)
-

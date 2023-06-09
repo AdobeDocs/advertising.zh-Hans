@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Keyword Assist Report]"
 description: 了解 [!UICONTROL Keyword Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 以下是可用于每个报表的列。 默认自动包含默认列。 您可以从报表设置的列部分添加可用的自定义列。
 
 | 列 | 默认？ | 描述 |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Keyword] 到 [!UICONTROL 5th Keyword] | 默认 | 在广告商的转化路径中发生的五个最早的付费搜索关键词或投放点击 [单击回顾窗口](/help/search-social-commerce/glossary.md#c-d) 和 [展示回顾窗口](/help/search-social-commerce/glossary.md#i-j).<br><br><b>注意：</b> 如果报表包含来自支持内容的搜索营销活动（不包括关键字）的投放位置，则这些列显示适用的广告组名称，例如“（广告组内容）您的广告组名称”。 |
 | [!UICONTROL Path Size] | 默认 | 转化路径中发生在广告商中的关键词和/或投放位置数量 [单击回顾窗口](/help/search-social-commerce/glossary.md#c-d) 和 [展示回顾窗口](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Keyword] | 默认 | 转换路径中的第一个关键字或位置。 |
@@ -51,4 +51,3 @@ ht-degree: 0%
 >* [此 [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [协助报表设置](assist-report-settings.md)
 >* [生成协助报告](assist-report-generate.md)
-
