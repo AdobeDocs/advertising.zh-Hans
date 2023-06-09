@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics转化跟踪
-description: 了解如何在Adobe广告中将Adobe Analytics转化跟踪用于您的营销活动。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: 了解如何在Adobe Advertising中对营销活动使用Adobe Analytics转化跟踪。
+source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 # Adobe Analytics转化跟踪
 
-*仅具有AdobeAdvertising-Adobe Analytics集成的广告商*
+*仅具有Adobe Advertising-Adobe Analytics集成的广告商*
 
-对于集成Advertising-Adobe Analytics的Adobe广告商，Advertising Cloud可以将您的广告点击量和展示次数与由跟踪的网站参与度和转化量度联系起来 [!DNL Analytics] 当您使用带有令牌的重定向时(`ef_id` 参数)的点击跟踪URL [竞价单位](/help/search-social-commerce/glossary.md#a-b). 此 [!DNL Analytics] 数据通过每日馈送文件自动发送到Advertising Cloud。
+对于集成Adobe Advertising-Adobe Analytics的广告商，Advertising Cloud可以将您的广告点击量和展示次数与由跟踪的网站参与度和转化量度联系起来 [!DNL Analytics] 当您使用带有令牌的重定向时(`ef_id` 参数)的点击跟踪URL [竞价单位](/help/search-social-commerce/glossary.md#a-b). 此 [!DNL Analytics] 数据通过每日馈送文件自动发送到Advertising Cloud。
 
-参见“[概述 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/integrations/analytics/overview.html)”以了解有关集成的更多信息。
+参见“[概述 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/integrations/analytics/overview.html){target="_blank"}”以了解有关集成的更多信息。
 
 >[!PREREQUISITES]
 >
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    * 的到期 `ef_id` eVar已更改，以匹配Adobe广告的广告商点击回顾窗口。
 
-   * Adobe广告用户ID。
+   * Adobe Advertising的用户ID。
 
    * 用于优化的标准和自定义事件。
 
@@ -35,6 +35,7 @@ ht-degree: 0%
    1. 将现有广告网络帐户层次结构同步到Search、Social和Commerce。
 
    1. 使用“”添加重定向`ef_id`”令牌传递到跟踪URL并将它们发布到广告网络。
+
    此步骤将在重定向前附加到Adobe广告跟踪服务器（以下步骤除外） [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 浏览器中支持并行跟踪的广告)，并在广告点击时将动态填充的“ef_id”参数添加到URL。 当并行跟踪应用时，最终用户会直接从您的广告发送到最终URL，并且您的跟踪模板URL（包含点击测量）将在后台加载。
 
 集成完成后，Search、Social和Commerce会自动接收中跟踪的所有页面上的事件数据 [!DNL Analytics] 针对配置的报表包。
@@ -42,4 +43,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [转化跟踪选项](conversion-tracking-about.md)
-

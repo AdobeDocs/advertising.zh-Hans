@@ -1,9 +1,9 @@
 ---
 title: 基本报表和高级报表的报表列
 description: 了解基本报表和高级报表的可用数据列。
-source-git-commit: b1913c396e911f7595ab6cb42c5ea960b2cc789b
+source-git-commit: 7327c91b92b6471fa8da8767fc764de4226b4f91
 workflow-type: tm+mt
-source-wordcount: '3640'
+source-wordcount: '3653'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 0%
 | [!UICONTROL Domain] | ([!UICONTROL Domain Referral Report]， [!UICONTROL Keyword Report])发起点击的域名。 |
 | [!UICONTROL eCPM] | 有效CPM，或在指定日期范围内每1000次展示所支付的平均成本。 可以为CPM或CPC营销活动计算eCPM值。 |
 | [!UICONTROL EF Campaign ID] | Search、Social和Commerce分配给营销活动的数值ID。 |
-| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report])(使用Adobe广告转化跟踪服务和&quot;[!UICONTROL EF Redirect]带有令牌的跟踪方法)用于点击或转换的令牌。<ul><li>对象 [!DNL Google Ads] 搜索广告，EF ID为 `{gclid}:G:s`，其中包括Google点击ID (GCLID)和网络类型（搜索中为“s”）。</li><li> 对象 [!DNL Microsoft Advertising] 搜索广告，EF ID为 `{msclkid}:G:s`，其中包括Microsoft点击ID (MSCLKID)和网络类型（搜索中为“s”）。</li><li>对于其他广告网络上的搜索广告，EF ID包括冲浪者ID、点击时间和网络类型。</li><li>对于展示广告，EF ID包括浏览者ID、点击或展示时间以及网络类型。</li></ul> |
+| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report])(使用Adobe Advertising转化跟踪服务和&quot;[!UICONTROL EF Redirect]带有令牌的跟踪方法)用于点击或转换的令牌。<ul><li>对象 [!DNL Google Ads] 搜索广告，EF ID为 `{gclid}:G:s`，其中包括Google点击ID (GCLID)和网络类型（搜索中为“s”）。</li><li> 对象 [!DNL Microsoft Advertising] 搜索广告，EF ID为 `{msclkid}:G:s`，其中包括Microsoft点击ID (MSCLKID)和网络类型（搜索中为“s”）。</li><li>对于其他广告网络上的搜索广告，EF ID包括冲浪者ID、点击时间和网络类型。</li><li>对于展示广告，EF ID包括浏览者ID、点击或展示时间以及网络类型。</li></ul> |
 | [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report]；仅用于搜索、社交和商务)地理位置的内部ID，用于标准化数据。 |
 | [!UICONTROL EF Portfolio Group ID] | 项目组合所属的项目组合组的数值ID。 |
 | [!UICONTROL EF Search Engine ID] | Search、Social和Commerce分配给广告网络的数值ID：  <i>[!UICONTROL 3]</i> 对象 [!DNL Google Ads]， <i>[!UICONTROL 10]</i> 对象 [!DNL Microsoft Advertising]， <i>[!UICONTROL 45]</i> 对象 [!DNL Meta]， <i>[!UICONTROL 86]</i> 对象 [!DNL Yahoo! Display Network]， <i>[!UICONTROL 87]</i> 对象 [!DNL Naver]， <i>[!UICONTROL 88]</i> 对象 [!DNL Baidu]， <i>[!UICONTROL 90]</i> 对象 [!DNL Yandex]， <i>[!UICONTROL 94]</i> 对象 [!DNL Yahoo! Japan Ads]， <i>[!UICONTROL 105]</i> 对象 [!DNL Yahoo Native] （已弃用），或 <i>[!UICONTROL 106]</i> 对象 [!DNL Pinterest] （已弃用）。 |
@@ -110,7 +110,7 @@ ht-degree: 0%
 | [!UICONTROL Impressions] | 指定日期范围内的广告展示次数。 |
 | [!UICONTROL Interaction Rate] | （视频广告）交互次数除以广告显示次数（视频和缩略图展示次数）。 |
 | [!UICONTROL Interactions] | （视频广告）用户观看广告的次数。 |
-| [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) <!-- ?????? insert definition --> |
+| [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) <i>true</i> 当项目组合包含营销活动时 [!UICONTROL Maximize Clicks] 竞价策略，以及 <i>false</i> 否则。 |
 | [!UICONTROL Keyword] | 关键字。<br><br><b>注意：</b> 如果报表在启用了内容的搜索营销活动中包含来自广告组的数据，则此列包含适用的广告组名称，如“（广告组内容）您的广告组名称”。 对于搜索促销活动中的网站定向投放位置，此列没有值。 |
 | [!UICONTROL Keyword ID] | Search、Social和Commerce分配给关键字的数值ID。 |
 | [!UICONTROL Keyword Status] | 与搜索词匹配的关键字的状态： <i>[!UICONTROL Active]</i>， <i>[!UICONTROL Paused]</i>， <i>[!UICONTROL Deleted]</i>，或 <i>[!UICONTROL Disapproved]</i>. |
@@ -192,4 +192,3 @@ ht-degree: 0%
 >* [关于基本报表和高级报表](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
 >* [生成基本或高级报告](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
 >* [基本和高级报表设置](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
-

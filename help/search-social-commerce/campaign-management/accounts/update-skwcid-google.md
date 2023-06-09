@@ -1,7 +1,7 @@
 ---
 title: '"更新的s\_kwcid跟踪代码 [!DNL Google Ads] account”'
 description: 了解如何切换到的最新s\_kwcid跟踪代码 [!DNL Google Ads] 帐户。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # 更新的s\_kwcid跟踪代码 [!DNL Google Ads] 帐户
 
-*仅具有AdobeAdvertising-Adobe Analytics集成的广告商*
+*仅具有Adobe Advertising-Adobe Analytics集成的广告商*
 
 *[!DNL Google Ads]仅限帐户*
 
@@ -58,5 +58,4 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 >
 >* [管理广告网络帐户](ad-network-account-manage.md)
 >* [s_kwcid跟踪参数](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
->* [概述 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
-
+>* [概述 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

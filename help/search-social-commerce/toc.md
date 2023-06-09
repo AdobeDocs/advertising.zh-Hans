@@ -9,9 +9,9 @@ user-guide-description: 本指南介绍管理、优化和报告您的搜索、�
 breadcrumb-title: Advertising Search， Social， & Commerce指南
 index: false
 hide: true
-source-git-commit: ba0604f0c8f07cad70aa1af66fe24db3ec8e541d
+source-git-commit: 71ffe30ca09a2be0def70fc230a4bfa7616c7bfa
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1722'
 ht-degree: 0%
 
 ---
@@ -27,10 +27,10 @@ ht-degree: 0%
    + [支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)
    + 与Adobe Experience Cloud集成 {#integrations}
       + [与Adobe Experience Cloud解决方案和服务集成](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] （链接）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)
-      + [与Adobe Audience Manager集成（链接）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html)
-   + [消费者隐私支持（链接）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
-   + [策略和指南（链接）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html)
+      + [Adobe [!DNL Analytics for Advertising] （链接）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [与Adobe Audience Manager集成（链接）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [消费者隐私支持（链接）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [策略和指南（链接）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + 快速入门 {#getting-started}
    + [实施概述](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [系统要求](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -85,7 +85,7 @@ ht-degree: 0%
             + [的点击跟踪格式 [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [的点击跟踪格式 [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [点击跟踪URL的可选跟踪参数](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe广告Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html)
+      + [Adobe AdvertisingCookie（链接）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [s_kwcid跟踪参数](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + 转化跟踪 {#conversion-tracking}
       + [转化跟踪选项](/help/search-social-commerce/tracking/conversion-tracking-about.md)
