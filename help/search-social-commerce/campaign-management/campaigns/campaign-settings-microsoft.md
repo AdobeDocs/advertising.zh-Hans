@@ -1,9 +1,9 @@
 ---
 title: ”[!DNL Microsoft Advertising] campaign设置”
 description: 引用设置 [!DNL Microsoft Advertising] 营销活动。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 0706f4dbc5f2a27e7d0cf43a6865d242865f9d36
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Search and Display Network]：* 仅在搜索网络上显示文本广告。
 
-* *[!UICONTROL Shopping Network]：* 在中为您的产品显示产品广告和mdashl [!DNL Microsoft Merchant Center] 产品目录 — 在购物网络上
+* *[!UICONTROL Shopping Network]：* 显示产品广告 — 针对您产品在 [!DNL Microsoft Merchant Center] 产品目录 — 在购物网络上
 
 * *[!UICONTROL Audience]：* 在上显示本机/显示广告 [!DNL Microsoft Audience Network]. 您可以(a)通过将营销活动链接到中的商家中心商店，自动生成基于信息源的广告。 [!UICONTROL Shopping Settings] 或b)使用文本资源和上传的图像创建响应式广告。 这两个选项都需要您创建具有用户定位的广告组。
 
@@ -64,13 +64,13 @@ ht-degree: 0%
 
 * *[!UICONTROL Target CPA]：* （搜索网络上的营销活动）广告网络（而非搜索、社交和商务）基于可选内容优化竞价 **[!UICONTROL Target CPA]** （每次购置成本），这是您要为一项购置（转化）支付的30天平均金额。 **注意：** 此选项适用于混合项目组合（但不是标准项目组合）中具有任何支出策略的营销活动，但支出策略除外 [!UICONTROL Weekly] 或 [!UICONTROL Google Target CPA].
 
-   使用此竞价策略的营销活动的平均位置和CPC竞价数据不可用。
+  使用此竞价策略的营销活动的平均位置和CPC竞价数据不可用。
 
 * *[!UICONTROL Target Impression Share]：* （搜索网络上的营销活动）广告网络（而不是搜索、社交和商务）优化竞价以实现目标展示份额和广告位置。 （可选）输入 **[!UICONTROL Target Impression Share]** 以百分比表示， **[!UICONTROL Target Ad Position]**，和 **[!UICONTROL Max CPC]** （每次点击成本）。 **注意：** 混合项目组合不支持此选项。
 
 * *[!UICONTROL Target Return on Ad Spend]：*  （搜索和购物网络上的营销活动）广告网络（而不是搜索、社交和商务）根据您的网站优化竞价 **[!UICONTROL Target ROAS]** （广告支出回报率），以百分比表示。 （可选）输入 **[!UICONTROL Max CPC]** （每次点击成本）以确保广告网络为每一次点击支付的费用不超过特定金额。 **注意：** 此选项适用于混合项目组合（但不是标准项目组合）中具有任何支出策略的营销活动，但支出策略除外 [!UICONTROL Weekly] 或 [!UICONTROL Google Target ROAS].
 
-   使用此竞价策略的营销活动的平均位置和CPC竞价数据不可用。
+  使用此竞价策略的营销活动的平均位置和CPC竞价数据不可用。
 
 ## [!UICONTROL Shopping Settings]
 
@@ -180,4 +180,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [管理营销活动](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

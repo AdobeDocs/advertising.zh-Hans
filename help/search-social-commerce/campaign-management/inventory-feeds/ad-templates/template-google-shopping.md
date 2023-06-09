@@ -1,9 +1,9 @@
 ---
 title: ”[!DNL Google Ads] 库存源的购物广告模板设置”
 description: 引用设置 [!DNL Google Ads] 库存源的购物广告模板。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 以下字符是为模板中的列名称和修改量名称而保留的，因此禁止在所有属性字段中作为文本：  `[ ] < > `
-
 
 ## \[所有选项卡上方\]
 
@@ -158,9 +157,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于使用库存信息源自动化广告管理](../inventory-feeds-about.md)
->* [使用清单信息源管理营销活动数据的工作流](../inventory-feeds-workflow.md)
 >* [管理修饰符](../modifiers-manage.md)
 >* [管理清单数据馈送文件](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
 >* [通过模板传播馈送数据](../feed-data-propagate.md)
 >* [将促销活动数据从库存馈送发布到广告网络](../propagated-data-post.md)
-

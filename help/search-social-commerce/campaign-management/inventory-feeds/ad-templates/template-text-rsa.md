@@ -1,9 +1,9 @@
 ---
 title: 库存馈送的文本广告和响应式搜索广告模板设置
 description: 引用库存馈送的文本广告和响应式搜索广告模板的设置。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '3337'
+source-wordcount: '3329'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 >
 >* 以下字符是为模板中的列名称和修改量名称而保留的，因此禁止在所有属性字段中作为文本：  `[ ] < > `
 >* In [!DNL Yandex templates]，则可以使用动态参数 `{param1}` 和 `{param2}` 而且您不能在广告描述中使用动态价格插入。
-
 
 ## \[所有选项卡上方\]
 
@@ -107,7 +106,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Search]：* 为赞助的搜索列表投标。
 
-   ([!DNL Google Ads] campaigns)包含对以下项的列表的投标： [!DNL Google Ads] 搜索合作伙伴，选中 **[!UICONTROL Search partners]**.
+  ([!DNL Google Ads] campaigns)包含对以下项的列表的投标： [!DNL Google Ads] 搜索合作伙伴，选中 **[!UICONTROL Search partners]**.
 
 * *[!UICONTROL Content]：* 要在内容（显示）网络列表上刊登投标，请执行以下操作： **注意：** 无法使用模板创建投放位置。 选择此选项时，请使用以下任一方式为每个广告组创建投放位置，并指定显示网络上每个广告组的目标页面 <!-- insert link --> 批量工作表或 <!-- insert links --> 中的广告组和版面设置 [!UICONTROL Search] > [!UICONTROL Campaigns] 视图。
 
@@ -139,7 +138,7 @@ ht-degree: 0%
 
 对于第三方重定向和跟踪，请输入一个值。 要指示登陆页面URL，请执行以下操作：
 
-* 适用于Yahoo！ Japan Ads帐户，使用参数{lpurl}。
+* 适用于Yahoo！ 日本广告帐户，使用参数 {lpurl}.
 
 * 有关Microsoft®Advertising和Google Ads帐户可用的参数，请参阅 [[!DNL Microsoft® Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799) 或“Tracking template only”参数(在 [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
 
@@ -171,7 +170,7 @@ ht-degree: 0%
 
    * 对于静态关键字：广泛匹配= `keyword`，广泛匹配修饰符= `+keyword`，或短语匹配= `"keyword"`
 
-      您无法在此处输入具有完全匹配和标准匹配语法的静态关键字，因为它们由括号(`[]`)，就像动态参数一样。
+     您无法在此处输入具有完全匹配和标准匹配语法的静态关键字，因为它们由括号(`[]`)，就像动态参数一样。
 
 * 对象 [!DNL Yandex] 模板：
 
@@ -186,7 +185,6 @@ ht-degree: 0%
 * 不支持负匹配。
 * Google广泛匹配修饰符现在与某些语言的短语匹配具有相同的匹配行为，并且您无法创建新的广泛匹配修饰符关键字。 请参阅 [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/10286719) 了解更多信息。
 
-
 **[!UICONTROL Map Only]：** 将任何新广告添加到广告组（或添加到促销活动） [!DNL Yandex] accounts)，而不是创建新关键字。 要启用此选项，请选中该复选框。 启用此选项后，指定关键字中的任何Param 1和Param 2变量均不适用，因为存在关键字。
 
 **[!UICONTROL Keyword Final URL]：** （具有最终/高级URL的帐户；可选）广告网络用户在单击您的广告时将被纳入的登陆页面URL。 它必须包含与显示URL相同的域，并且最终URL中的任何参数都必须与广告单击后登陆页面URL中的参数相匹配。 它可能在登陆页面域或子域内包含重定向，但不会在登陆页面域外包含重定向。
@@ -194,9 +192,9 @@ ht-degree: 0%
 如果您使用 [!DNL Google Merchant Center] 信息源并将此值包含在&quot;[!DNL Link]”列，然后在该字段中插入该列。
 
 >[!NOTE]
+>
 * 如果在发布通过模板传播的数据时生成跟踪URL，则跟踪参数会根据帐户跟踪设置附加到此值。
 * ([!DNL Google Ads] 帐户)避免使用宏，宏不会替代来自启用并行跟踪的源的点击。 如果广告商必须使用宏，则Adobe帐户团队应与客户支持或实施团队合作来添加宏。
-
 
 **[!UICONTROL Keyword Tracking Template]：** （具有最终/高级URL的帐户；可选）跟踪模板，它指定所有离登陆域重定向和跟踪参数，并将最终URL嵌入到参数中。 最粒度级别（以关键字作为最粒度）的跟踪模板会覆盖所有其他级别的值。
 
@@ -318,7 +316,7 @@ ht-degree: 0%
 
 [!DNL Microsoft® Advertising] 和 [!DNL Yahoo! Japan Ads] 已弃用创建和编辑标准文字广告。
 
-**[!UICONTROL Base URL]：** （仅限具有目标URL的帐户）用户所属的页面。 它可以包含第三方重定向和跟踪代码。 如果您使用Adobe广告转化跟踪服务，并且促销活动设置包括使用 [!UICONTROL EF Redirect] 并在广告级别添加跟踪，则Search、Social和Commerce会自动将其自身的重定向和跟踪代码添加到广告。
+**[!UICONTROL Base URL]：** （仅限具有目标URL的帐户）用户所属的页面。 它可以包含第三方重定向和跟踪代码。 如果您使用Adobe Advertising转化跟踪服务，并且促销活动设置包括使用 [!UICONTROL EF Redirect] 并在广告级别添加跟踪，则Search、Social和Commerce会自动将其自身的重定向和跟踪代码添加到广告。
 
 要将列名或修饰符组作为动态参数插入，请单击输入字段，然后单击列列表中的列名或 [修饰符名称](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) 在 [!UICONTROL Modifiers] 列表。
 
@@ -327,9 +325,9 @@ ht-degree: 0%
 如果您使用 [!DNL Google Merchant] 将信息源居中对齐，并将此值包含在&quot;[!UICONTROL Link]”列，然后在该字段中插入该列。
 
 >[!NOTE]
+>
 * 如果在发布通过模板传播的数据时生成跟踪URL，则跟踪参数会根据帐户跟踪设置附加到此值。
 * ([!DNL Google Ads] 帐户)避免使用宏，宏不会替代来自启用并行跟踪的源的点击。 如果广告商必须使用宏，则Adobe帐户团队应与客户支持或实施团队合作来添加宏。
-
 
 **[!UICONTROL Tracking Template]：** （具有最终/高级URL的帐户；可选）跟踪模板，它指定所有离登陆域重定向和跟踪参数，并将最终URL嵌入到参数中。 最粒度级别（以关键字作为最粒度）的跟踪模板会覆盖所有其他级别的值。
 
@@ -337,17 +335,17 @@ ht-degree: 0%
 
 对于第三方重定向和跟踪，请输入一个值。 要指示登陆页面URL，请执行以下操作：
 
-* 适用于Yahoo！ Japan Ads帐户，使用参数{lpurl}。
+* 适用于Yahoo！ 日本广告帐户，使用参数 {lpurl}.
 
 * 有关Microsoft®Advertising和Google Ads帐户可用的参数，请参阅 [[!DNL Microsoft® Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799) 或“Tracking template only”参数(在 [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
 
 **\[原始广告字段下的备用广告字段\]：** （可选）广告的替代广告副本集，如果原始广告副本中的任何行超过了传播期间使用数据填充任何动态参数后允许的最大长度，则可以使用替代广告副本。
 
 >[!NOTE]
+>
 * 如果 [!UICONTROL Prefill] 选项，则备用字段会预填充原始字段，您可以根据需要编辑它们。
 * 只有超过最大长度的广告副本字段会被替换为替换值。 例如，如果只有原始标题或标题太长，则生成的广告变体使用替代标题或标题以及原始描述。 因此，请确保将备用广告副本与原始广告副本结合使用时合理。
 * 如果原始广告副本符合搜索引擎的长度要求，则会丢弃替代广告副本。
-
 
 **\[组件\] [!UICONTROL Ad Label Classifications] > \[标签分类和值\]：** （可选）要分配给使用模板创建或编辑的广告变体的最多五个现有标签分类的值。 对于要为其分配标签分类的每个促销活动组件：
 
@@ -384,10 +382,9 @@ ht-degree: 0%
 {{$include /help/_includes/inventory-feed-template-label-classifications.md}}
 
 >[!MORELIKETHIS]
+>
 * [关于使用库存信息源自动化广告管理](../inventory-feeds-about.md)
-* [使用清单信息源管理营销活动数据的工作流](../inventory-feeds-workflow.md)
 * [管理修饰符](../modifiers-manage.md)
 * [管理清单数据馈送文件](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
 * [通过模板传播馈送数据](../feed-data-propagate.md)
 * [将促销活动数据从库存馈送发布到广告网络](../propagated-data-post.md)
-

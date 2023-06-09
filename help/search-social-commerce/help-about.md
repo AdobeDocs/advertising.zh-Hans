@@ -1,9 +1,9 @@
 ---
 title: 关于本指南
 description: 了解本指南每个章节中涵盖的内容。
-source-git-commit: 0b5a3e0e633e5d93ba048da7e4931f4bd777e1b0
+source-git-commit: b857bae4ea175c446072f5dacf82db3845993a45
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * “Campaign management”介绍如何为广告网络帐户设置和管理营销活动组件。
 
-* “见解和报表”说明如何生成广告见解、生成详细报表和自动制作报表、创建和监控警报、查看对广告商帐户所做更改的日志以及查看和应用 [!DNL Google Ads] — 为您的帐户生成的推荐。
+* “分析和报告”介绍如何生成广告分析、生成详细报告和自动制作报告、创建和监控警报、查看对广告商帐户所做更改的日志，以及查看和为您的帐户应用网络生成的广告推荐。
 
 * “工具”介绍如何更改密码、使用工具生成点击跟踪和转化跟踪标记，以及将转化量度上传到 [!DNL Google Ads] 和您的项目组合目标到广告网络以进行混合优化，上传量度以跟踪营销活动，并复制 [!DNL Google Ads] 中的营销活动 [!DNL Microsoft Advertising] 帐户。
 

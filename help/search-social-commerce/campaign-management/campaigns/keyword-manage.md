@@ -1,7 +1,7 @@
 ---
 title: 管理可竞价关键词
 description: 了解如何为搜索广告组创建和管理可竞价关键词。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 77069de8ff3367a3ffa6f84583b4a69f37aab88b
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -22,8 +22,7 @@ ht-degree: 0%
 
 1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. 在子菜单中，单击 **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
 
-1. 
-   1. 在数据表上方的工具栏中，单击 ![创建](/help/search-social-commerce/assets/add.png "创建").
+1. 在数据表上方的工具栏中，单击 ![创建](/help/search-social-commerce/assets/add.png "创建").
 
 1. 选择广告网络、帐户、营销活动和广告组，然后单击 **[!UICONTROL Continue]**.
 
@@ -77,4 +76,3 @@ ht-degree: 0%
 >* [[!DNL Yandex] 关键词设置](keyword-settings-yandex.md)
 >* [创建负关键字](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
 >* [更改关键字和负关键字的状态](keyword-status-edit.md)
-

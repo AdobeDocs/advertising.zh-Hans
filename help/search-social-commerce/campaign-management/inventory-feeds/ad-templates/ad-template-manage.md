@@ -1,9 +1,9 @@
 ---
 title: 管理库存馈送的广告模板
 description: 了解如何管理广告模板，通过模板可处理库存数据以管理帐户结构和投放动态广告。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1415'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ ht-degree: 0%
       1. 选中要复制的模板旁边的复选框。
 
       1. 在数据表上方的工具栏中，单击 **[!UICONTROL Create/Clone]**，然后选择适用的广告网络。
-   * （要编辑现有模板）在模板名称旁边，单击 ![查看/编辑设置](/help/search-social-commerce/assets/settings.png "查看/编辑设置").
 
+   * （要编辑现有模板）在模板名称旁边，单击 ![查看/编辑设置](/help/search-social-commerce/assets/settings.png "查看/编辑设置").
 
 1. 指定设置 [文本广告模板](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md)， [[!DNL Google Ads] 购物广告模板](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)，或 [[!DNL Microsoft® Advertising] 购物广告模板](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)：
 
@@ -66,7 +66,6 @@ ht-degree: 0%
       >* 每个广告组最多可以包含三个启用的响应式搜索广告。
       >* 您无法编辑现有的标准文字广告变体，并且现有模板不再生成标准文字广告。
       >* 如果更改了广告变体模板，则通过模板传播数据时，可能会删除现有广告并创建新广告。 [取决于广告类型和广告网络](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md).
-
 
       * 要添加广告变体，请执行以下操作：
 
@@ -107,6 +106,7 @@ ht-degree: 0%
                >* 您最多可以为每个广告副本字段指定四个替代项。
 
          * 要删除广告变体，请单击 **[!UICONTROL Remove ETA Variation]** （适用于扩展/扩展的文字广告）或 **[!UICONTROL Remove RSA Variation]** （适用于响应式搜索广告）。
+
    1. （仅限购物模板）单击 **[!UICONTROL Product Groups]** 选项卡，然后指定有关要定位的产品组的信息。
 
    1. （可选）单击 **[!UICONTROL Feed Filters]** 选项卡，然后指定要传播的信息源文件中的哪些行。
@@ -120,10 +120,6 @@ ht-degree: 0%
          1. 单击 **[!UICONTROL Add Label Classification]**.
 
          1. 选择标签分类，然后选择现有值或输入新值。
-
-
-
-
 
 1. 保存模板：
 
@@ -158,9 +154,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于使用库存信息源自动化广告管理](../inventory-feeds-about.md)
->* [使用清单信息源管理营销活动数据的工作流](../inventory-feeds-workflow.md)
 >* [文本广告和响应式搜索广告模板设置](template-text-rsa.md)
 >* [[!DNL Google Ads] 购物广告模板设置](template-google-shopping.md)
 >* [[!DNL Microsoft® Advertising] 购物广告模板设置](template-microsoft-shopping.md)
 >* [通过模板传播馈送数据](../feed-data-propagate.md)
-

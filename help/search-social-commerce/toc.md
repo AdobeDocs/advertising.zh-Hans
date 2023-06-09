@@ -9,9 +9,9 @@ user-guide-description: 本指南介绍管理、优化和报告您的搜索、�
 breadcrumb-title: Advertising Search， Social， & Commerce指南
 index: false
 hide: true
-source-git-commit: 71ffe30ca09a2be0def70fc230a4bfa7616c7bfa
+source-git-commit: 72dd7a51e024057a1135fa0cc641b236254c28d8
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1714'
 ht-degree: 0%
 
 ---
@@ -222,7 +222,6 @@ ht-degree: 0%
             + [以下项的必需批量处理工作表数据 [!DNL Yandex] 帐户](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
       + 使用库存信息源自动化Campaign数据 {#inventory-feeds}
          + [关于使用库存信息源自动化广告管理](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
-         + [使用清单信息源管理营销活动数据的工作流](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-workflow.md)
          + [清单信息源何时创建或删除帐户组件？](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)
          + [配置馈送数据设置](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md)
          + [管理信息源文件](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
