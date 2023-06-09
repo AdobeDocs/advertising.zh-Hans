@@ -1,9 +1,9 @@
 ---
 title: 创建 [!DNL Google Ads] 客户匹配受众来自 [!DNL Adobe] 受众
 description: 了解如何创建 [!DNL Google Ads] 客户与您现有Adobe Analytics受众和Audience Manager受众中的受众相匹配。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    1. （创建用户ID再营销列表受众） [!DNL Adobe] 管理员用户或帐户管理员必须选择广告商级别的设置以启用客户匹配受众。 设置因具有Audience Manager的广告商和具有 [!DNL Analytics] 仅此而已。
 
-   1. 实施 [Adobe Experience Platform Identity服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) 版本2.0或更高版本。
+   1. 实施 [Adobe Experience Platform Identity服务](https://experienceleague.adobe.com/docs/id-service/using/home.html) 版本2.0或更高版本。
 
    1. 在广告商的网页上尽可能高地部署以下标记，应从中跟踪受众
 
@@ -80,11 +80,9 @@ ht-degree: 0%
 >
 >* 参见 [[!DNL Google Ads] 有关客户匹配的工作方式和限制的文档](https://support.google.com/displayvideo/answer/9539301).
 
-
 >[!MORELIKETHIS]
 >
 >* [关于受众](audience-about.md)
 >* [创建 [!DNL Google Ads] Adobe Campaign电子邮件列表中的客户匹配受众](google-audience-from-campaign-email-list.md)
 >* [使用客户数据列表管理客户匹配受众](audience-from-customer-data-list.md)
 >* [管理动态再营销受众](audience-dynamic-remarketing-manage.md)
-
