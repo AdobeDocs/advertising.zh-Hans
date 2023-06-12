@@ -2,7 +2,7 @@
 title: 暂停或激活包
 description: 了解如何暂停或激活包。
 feature: DSP Packages
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 81f761e44b6f5a0bef9524468b57d97c021ef2b2
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -36,4 +36,3 @@ ht-degree: 0%
 >* [编辑资源包](package-edit.md)
 >* [查看包的更改日志](package-change-log.md)
 >* [存档资源包](package-archive-unarchive.md)
-
