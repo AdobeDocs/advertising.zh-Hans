@@ -2,9 +2,9 @@
 title: 暂停或激活营销活动
 description: 了解如何暂停或激活实时营销活动。
 feature: DSP Campaigns
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: bd02a305083a52ada68ea4a3f83b308687273968
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -33,4 +33,3 @@ ht-degree: 0%
 >
 >* [编辑营销活动](campaign-edit.md)
 >* [存档营销活动](campaign-archive-unarchive.md)
-
