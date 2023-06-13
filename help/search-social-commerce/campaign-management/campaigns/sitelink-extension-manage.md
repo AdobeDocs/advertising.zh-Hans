@@ -1,9 +1,9 @@
 ---
 title: 管理共享站点链接
 description: 了解如何创建和管理共享站点链接扩展。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -92,12 +92,11 @@ ht-degree: 0%
 >* ([!DNL Google Ads])营销活动或广告组中的每个站点链接都必须具有一个唯一的登陆页面，并且每个站点链接登陆页面的内容必须具有大约80%的唯一内容。 例如，您不能在同一页面中拥有指向多个锚点的链接的站点链接。
 >* ([!DNL Google Ads])避免使用宏，宏不会替代来自启用并行跟踪的源的点击。 如果广告商必须使用宏，则Adobe帐户团队应与客户支持或实施团队合作来添加宏。
 
-
 **[!UICONTROL Tracking Template]：** （可选）跟踪模板或跟踪URL，用于指定所有登陆域重定向和跟踪参数，并将最终/登陆页面URL嵌入到参数中。 示例： `{lpurl}?source={network}&id=5` 或 `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` 以包含重定向。
 
-* 对于Adobe广告转化跟踪（在营销活动设置包括“EF重定向”和“自动上传”时应用），Search、Social和Commerce会在您保存记录时自动为其自身的点击跟踪代码添加前缀。
+* 对于Adobe广告转化跟踪，当促销活动设置包括&#39;&#39;时应用[!UICONTROL EF Redirect]保存记录时，“和”自动上传”、搜索、Social和Commerce会自动为自己的点击跟踪代码添加前缀。
 
-* 有关嵌入最终URL的支持参数，请参阅([!DNL Microsoft Advertising] 仅限) [[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799) 或([!DNL Google Ads] 仅限)中有关“可用ValueTrack参数”的部分中的“仅限跟踪模板”参数。 [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
+* 有关嵌入最终URL的支持参数，请参阅([!DNL Microsoft Advertising] 仅限) [[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799) 或([!DNL Google Ads] 仅限)“可用”部分中的“仅限跟踪模板”参数 [!DNL ValueTrack] 参数”。 [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
 
 * 您可以选择包括URL参数和为促销活动定义的任何自定义参数，各个参数之间以&amp;号分隔，例如 `{lpurl}?matchtype={matchtype}&device={device}`.
 
@@ -111,9 +110,7 @@ ht-degree: 0%
 >* ([!DNL Microsoft Advertising])您可以在任何级别更新跟踪模板，而无需重新提交广告以供审批。
 >* 对象 [!DNL Google Ads]，避免使用宏，宏不会替代来自启用并行跟踪的源的点击。 如果广告商必须使用宏，则Adobe帐户团队应与客户支持或实施团队合作来添加宏。
 
-
 >[!MORELIKETHIS]
 >
 >* [关于站点链接扩展](sitelink-extension-about.md)
 >* [将共享站点链接与帐户、营销活动和广告组关联](sitelink-extension-associate.md)
-

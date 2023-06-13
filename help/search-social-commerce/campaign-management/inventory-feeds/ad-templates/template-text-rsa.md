@@ -1,9 +1,9 @@
 ---
 title: 库存馈送的文本广告和响应式搜索广告模板设置
 description: 引用库存馈送的文本广告和响应式搜索广告模板的设置。
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '3329'
+source-wordcount: '3317'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 * 嵌入最终URL：
 
-   * ([!DNL Google Ads] 和 [!DNL Microsoft® Advertising] （仅限）有关用于指示跟踪模板中最终URL的参数列表，请参阅([!DNL Microsoft® Advertising] 仅限) [[!DNL Microsoft® Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799/2) 或([!DNL Google Ads] 仅限)中有关“可用ValueTrack参数”的部分中的“仅限跟踪模板”参数。 [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] 和 [!DNL Microsoft® Advertising] （仅限）有关用于指示跟踪模板中最终URL的参数列表，请参阅([!DNL Microsoft® Advertising] 仅限) [[!DNL Microsoft® Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799/2) 或([!DNL Google Ads] 仅限)“可用”部分中的“仅限跟踪模板”参数 [!DNL ValueTrack] 参数”。 [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] 仅限)使用参数 `!{unescapedurl}` 以指示登陆页面URL。
 
@@ -134,13 +134,13 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Tracking Template]：** （仅限具有最终/高级URL的帐户）广告组级别跟踪模板，用于指定所有离场域重定向和跟踪参数，并将最终URL嵌入到参数中。
 
-对于Adobe广告转化跟踪（在营销活动设置包括“EF重定向”和“自动上传”时应用），Search、Social和Commerce会在您保存记录时自动附加重定向和跟踪代码。
+对于Adobe广告转化跟踪，当促销活动设置包括&#39;&#39;时应用[!UICONTROL EF Redirect]“ ”和“ ”[!UICONTROL Auto Upload]，”当您保存记录时，Search、Social和Commerce会自动附加重定向和跟踪代码。
 
 对于第三方重定向和跟踪，请输入一个值。 要指示登陆页面URL，请执行以下操作：
 
 * 适用于Yahoo！ 日本广告帐户，使用参数 {lpurl}.
 
-* 有关Microsoft®Advertising和Google Ads帐户可用的参数，请参阅 [[!DNL Microsoft® Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799) 或“Tracking template only”参数(在 [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
+* 有关Microsoft®Advertising和Google Ads帐户可用的参数，请参阅 [[!DNL Microsoft® Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799) 或“可用”部分中的“仅跟踪模板”参数 [!DNL ValueTrack] 参数”。 [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
 
 此值将覆盖帐户级别和营销活动级别的设置，但更细粒度级别（以关键字作为最细粒度级别）的跟踪模板将覆盖此值。
 
@@ -198,13 +198,13 @@ ht-degree: 0%
 
 **[!UICONTROL Keyword Tracking Template]：** （具有最终/高级URL的帐户；可选）跟踪模板，它指定所有离登陆域重定向和跟踪参数，并将最终URL嵌入到参数中。 最粒度级别（以关键字作为最粒度）的跟踪模板会覆盖所有其他级别的值。
 
-* 对于Adobe广告转化跟踪（在营销活动设置包括“EF重定向”和“自动上传”时应用），Search、Social和Commerce会在您保存记录时自动附加重定向和跟踪代码。
+* 对于Adobe广告转化跟踪，当促销活动设置包括&#39;&#39;时应用[!UICONTROL EF Redirect]“ ”和“ ”[!UICONTROL Auto Upload]，”当您保存记录时，Search、Social和Commerce会自动附加重定向和跟踪代码。
 
 * 您可以选择输入第三方重定向和跟踪。
 
 * 要指示登陆页面URL，请执行以下操作：
 
-   * ([!DNL Google Ads] 和 [!DNL Microsoft® Advertising] （仅限）有关用于指示跟踪模板中最终URL的参数列表，请参阅([!DNL Microsoft® Advertising] 仅限) [[!DNL Microsoft® Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799) 或([!DNL Google Ads] 仅限)中有关“可用ValueTrack参数”的部分中的“仅限跟踪模板”参数。 [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] 和 [!DNL Microsoft® Advertising] （仅限）有关用于指示跟踪模板中最终URL的参数列表，请参阅([!DNL Microsoft® Advertising] 仅限) [[!DNL Microsoft® Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799) 或([!DNL Google Ads] 仅限)“可用”部分中的“仅限跟踪模板”参数 [!DNL ValueTrack] 参数”。 [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] 仅限)使用参数 `!{lpurl}` 以指示登陆页面URL。
 
@@ -337,7 +337,7 @@ ht-degree: 0%
 
 * 适用于Yahoo！ 日本广告帐户，使用参数 {lpurl}.
 
-* 有关Microsoft®Advertising和Google Ads帐户可用的参数，请参阅 [[!DNL Microsoft® Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799) 或“Tracking template only”参数(在 [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
+* 有关Microsoft®Advertising和Google Ads帐户可用的参数，请参阅 [[!DNL Microsoft® Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799) 或“可用”部分中的“仅跟踪模板”参数 [!DNL ValueTrack] 参数”。 [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
 
 **\[原始广告字段下的备用广告字段\]：** （可选）广告的替代广告副本集，如果原始广告副本中的任何行超过了传播期间使用数据填充任何动态参数后允许的最大长度，则可以使用替代广告副本。
 

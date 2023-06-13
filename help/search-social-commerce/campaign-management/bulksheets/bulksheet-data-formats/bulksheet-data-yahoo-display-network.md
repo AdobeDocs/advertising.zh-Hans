@@ -1,9 +1,9 @@
 ---
 title: 批量工作表数据 [!DNL Yahoo! Display Network] 帐户
 description: 引用已下载批量处理工作表中的标题字段和数据字段 [!DNL Yahoo! Display Network] 帐户。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,10 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 | [!UICONTROL Ad Group ID] | 不适用 | 如果包含 | 如果包含 | 标识现有广告组的唯一ID。 |
 | [!UICONTROL Keyword ID] | 不适用 | 不适用 | 如果包含 | 标识现有关键字的唯一ID。 |
 | [!UICONTROL AMO ID] | 不适用 | 不适用 | 不适用 | （在生成的批量处理工作表中）Adobe生成的已同步实体的唯一标识符。 |
-| [!UICONTROL EF Error Message] | 不适用 | 不适用 | 不适用 | （出于提供信息的目的，包含在生成的批量工作表中）用于显示来自搜索、社交和商务中与行中的数据有关的错误消息的占位符；错误消息包含在EF错误文件中。 |
+| [!UICONTROL EF Error Message] | 不适用 | 不适用 | 不适用 | （出于提供信息的目的，包含在生成的批量工作表中）用于显示来自搜索、社交和商务中与行中的数据有关的错误消息的占位符；错误消息包含在 [!UICONTROL EF Errors] 文件。 |
 
 <table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >
 >* [下载/创建批量处理工作表文件](../bulksheet-download.md)
-

@@ -1,9 +1,9 @@
 ---
 title: 管理广告网络帐户
 description: 了解如何设置和管理广告网络帐户的帐户详细信息。
-source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '2080'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,7 @@ ht-degree: 0%
 
 示例： `param1=value1&param2=value2`
 
-使用Adobe广告点击跟踪的帐户必须包含广告网络的点击标识符(`msclkid` 对象 [!DNL Microsoft Advertising]； `gclid` (对于Google)。 具有Adobe Analytics集成的帐户必须使用 `s_kwcid` 参数。 如果帐户具有服务器端s\_kwcid实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 请参阅 [所需的后缀格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [所需的后缀格式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+使用Adobe Advertising点击跟踪的帐户必须包含广告网络的点击标识符(`msclkid` 对象 [!DNL Microsoft Advertising]； `gclid` (对于Google)。 具有Adobe Analytics集成的帐户必须使用 `s_kwcid` 参数。 如果帐户具有服务器端s\_kwcid实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 请参阅 [所需的后缀格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [所需的后缀格式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
 >[!NOTE]
 >
@@ -184,7 +184,7 @@ ht-degree: 0%
 
 * 嵌入最终URL：
 
-   * ([!DNL Google Ads] 和 [!DNL Microsoft Advertising] （仅限）有关用于指示跟踪模板中最终URL的参数列表，请参阅([!DNL Microsoft Advertising] 仅限) [[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799) 或([!DNL Google Ads] 仅限)中有关“可用ValueTrack参数”的部分中的“仅限跟踪模板”参数。 [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] 和 [!DNL Microsoft Advertising] （仅限）有关用于指示跟踪模板中最终URL的参数列表，请参阅([!DNL Microsoft Advertising] 仅限) [[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799) 或([!DNL Google Ads] 仅限)“可用”部分中的“仅限跟踪模板”参数 [!DNL ValueTrack] 参数”。 [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] 仅限)使用参数 `!{lpurl}` 以指示登陆页面URL。
 
@@ -238,7 +238,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **S\_kwcid格式** -(现有 [!DNL Google Ads] 适用于具有AdobeAdvertising-Adobe Analytics集成且尚未为其迁移s\_kwcid的广告商的帐户)
+* **S\_kwcid格式** -(现有 [!DNL Google Ads] 适用于具有Adobe Advertising-Adobe Analytics集成且尚未为其迁移s\_kwcid的广告商)
 
 此帐户使用旧版的s\_kwcid跟踪代码，该代码允许Adobe广告与Adobe Analytics共享有关帐户的数据。 此 [最新格式](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) 包括促销活动ID和广告组ID的参数，在促销活动和广告组级别准确报告这些参数时， [!DNL Google Ads] Analytics中效果最佳的营销活动、草稿和实验营销活动：
 
@@ -248,7 +248,7 @@ ht-degree: 0%
 
 有关完整说明，请参阅&quot;[更新的s\_kwcid跟踪代码 [!DNL Google Ads] 帐户](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md).”
 
-**报表包名称** -(仅适用于带令牌的EF重定向；具有AdobeAdvertising-Adobe Analytics集成的广告商；可选)一个或多个Analytics报表包，Search、Social和Commerce会向其发送从广告网络收集的数据，包括帐户实体分类和点击数据。 此功能仅适用于受支持的广告网络。
+**报表包名称** -(仅适用于带令牌的EF重定向；带有Adobe Advertising-Adobe Analytics集成的广告商；可选)一个或多个Analytics报表包，Search、Social和Commerce会向其发送从广告网络收集的数据，包括帐户实体分类和点击数据。 此功能仅适用于受支持的广告网络。
 
 要使数据显示在报表包中，(a)必须为帐户配置服务器端s\_kwcid，或者(b)将广告商级别设置为&quot;[!UICONTROL Enable tracking for SAINT feeds]必须启用“”。 此外，广告商的Analytics帐户必须配置为从Search、Social和Commerce接收数据。 有关更多信息，请与您的Adobe客户经理联系。
 

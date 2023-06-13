@@ -1,16 +1,16 @@
 ---
 title: '"更新的s\_kwcid跟踪代码 [!DNL Google Ads] account”'
 description: 了解如何切换到的最新s\_kwcid跟踪代码 [!DNL Google Ads] 帐户。
-source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
 
 # 更新的s\_kwcid跟踪代码 [!DNL Google Ads] 帐户
 
-*仅具有Adobe Advertising-Adobe Analytics集成的广告商*
+*仅具有AdobeAdvertising-Adobe Analytics集成的广告商*
 
 *[!DNL Google Ads]仅限帐户*
 
@@ -48,8 +48,8 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
 1. 开始迁移后，请根据需要更新登陆页面后缀设置（在某些广告网络中称为“最终URL后缀”）：
 
-   * 在跟踪设置中启用“自动上传”功能后，Search、Social和Commerce会自动更新此帐户及其促销活动在登陆页面后缀中的跟踪代码。 你什么都不用做。
-   * 如果未启用“自动上传”功能，并且您未使用服务器端s-kwcid，则必须手动更新“登陆页面后缀”设置中的s\_kwcid参数。 您可以在帐户和营销活动设置中手动更改帐户级别和营销活动级别的后缀，也可以通过在批量处理工作表中上载更改来更改后缀。 要在广告组级别或更低级别配置后缀，请使用 [!DNL Google Ads] 编辑者。
+   * 当 [!UICONTROL Auto Upload]”功能已在跟踪设置中启用，搜索、社交和商务会自动更新此帐户及其营销活动在登陆页面后缀中的跟踪代码。 你什么都不用做。
+   * 当 [!UICONTROL Auto Upload]”功能未启用，并且您未使用服务器端s-kwcid，那么您必须手动更新登陆页面后缀设置中的s\_kwcid参数。 您可以在帐户和营销活动设置中手动更改帐户级别和营销活动级别的后缀，也可以通过在批量处理工作表中上载更改来更改后缀。 要在广告组级别或更低级别配置后缀，请使用 [!DNL Google Ads] 编辑者。
    * 如果您将s\_kwcid包含在任何促销活动组件的基本URL设置中，请将其移动到相关的登陆页面后缀设置。
 
 1. （推荐）在迁移其他帐户之前，请在Analytics中验证此帐户的数据。

@@ -1,9 +1,9 @@
 ---
 title: 批量工作表错误
 description: 参考每个批量工作表错误的可能原因。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1141'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ ht-degree: 0%
 
 ## [!UICONTROL EF Error] 消息
 
-以下错误可能包含在 [!UICONTROL EF Error] EF错误文件中的列。
+以下错误可能包含在 [!UICONTROL EF Error] 中的列 [!UICONTROL EF Errors] 文件。
 
 ### 下载/创建错误
 
 | 类别 | 消息 | 描述 |
 |----|----|----|
 | 常规 | [!UICONTROL Internal Error: Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | 由于出现未分类或未处理的错误，该操作完全失败。 如果问题仍然存在，请联系您的Adobe客户团队调查原因。 |
-|  | [!UICONTROL Pre-Sync Failed. Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | 在创建批量处理工作表之前，搜索、社交和商务无法与广告网络同步，因此未创建批量处理工作表。 如果问题仍然存在，请联系您的Adobe客户团队。 |
+| | [!UICONTROL Pre-Sync Failed. Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | 在创建批量处理工作表之前，搜索、社交和商务无法与广告网络同步，因此未创建批量处理工作表。 如果问题仍然存在，请联系您的Adobe客户团队。 |
 
 ### 上载错误
 
@@ -42,8 +42,8 @@ ht-degree: 0%
 | 常规 | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | 操作完全失败。 如果问题仍然存在，请联系您的Adobe客户团队。 |
 | 所有实体 | [!UICONTROL Invalid Fields.] \[无效字段和错误\] | 指定的数据缺失或无效。 |
 |  | [!UICONTROL Invalid Reference Given] | 实体在广告网络中的ID或父实体的ID（例如帐户ID）与搜索、社交和商务中的实体不对应。 当您在批量处理工作表中编辑ID时，可能会发生这种情况。 |
-|  | [!UICONTROL &lt;Entity> is deleted or expired] | 实体已过期或已删除，您无法更改其属性。 当有人手动编辑状态时，实体可能会被删除。 |
-|  | [!UICONTROL &lt;Entity> status should be Active or Paused] | （新实体）新实体只能为“活动”或“已暂停”。 |
+|  | [!UICONTROL <Entity> is deleted or expired] | 实体已过期或已删除，您无法更改其属性。 当有人手动编辑状态时，实体可能会被删除。 |
+|  | [!UICONTROL <Entity> status should be Active or Paused] | （新实体）新实体只能为“活动”或“已暂停”。 |
 |  | [!UICONTROL Duplicate Entries are present] | 同一实体包含多行，每行都具有不同的属性。 将更改合并为一行。 |
 |  | [!UICONTROL Invalid AMO ID given] | 行的AMO ID不存在。 如果您在批量处理工作表中编辑了ID，则可能会发生这种情况。 |
 |  | [!UICONTROL Invalid row given] | 行包含的信息不足，无法确定实体类型。 编辑行以包含实体类型的所有必填字段。 |
@@ -59,7 +59,7 @@ ht-degree: 0%
 | 所有广告组组件 | [!UICONTROL Adgroup creation failed] | 未创建父广告组，因此无法创建此实体。 这可能是由于广告组字段中的错误或父营销活动失败所致。 确保所有父实体包含所有必填字段。 |
 |  | [!UICONTROL Adgroup Row Missing] | 指定的父广告组不存在，因此无法创建实体。 在新行中创建父广告组。 |
 |  | [!UICONTROL Cannot modify Tracking Template at Keyword / Creative / Site Link level until Account has been migrated to use Upgraded URLs. Please retry after migration] | “[!UICONTROL Tracking Template]“字段仅适用于使用最终/高级URL的帐户。 在迁移帐户以使用最终/高级URL之前，请删除该值。 |
-| 广告 | [!UICONTROL Cannot modify attributes other than status code and url for &lt;ad type>] | （除文本、扩展文本、产品、应用程序安装和动态搜索以外的广告类型）您只能编辑此广告类型的状态和URL。 |
+| 广告 | [!UICONTROL Cannot modify attributes other than status code and url for <ad type>] | （除文本、扩展文本、产品、应用程序安装和动态搜索以外的广告类型）您只能编辑此广告类型的状态和URL。 |
 |  | [!UICONTROL The number of creatives under an AdGroup should not exceed 50] | 每个广告组最多可包含50个广告，此批量工作表包含的广告超过50个。 减少广告数量。 |
 |  | [!UICONTROL Cannot modify an ad which is either deleted/expired or under an deleted/expired campaign] | 该广告位于已过期或删除的父实体中，因此无法编辑。 |
 | 关键词 | [!UICONTROL Cannot modify a keyword/website/product which is under deleted Adgroup or Campaign] | 父营销活动或广告组已删除或已过期，因此您无法更改实体。 |
@@ -76,13 +76,13 @@ ht-degree: 0%
 
 ### 发布错误
 
-以下错误仅出现在EF错误文件中。 大多数发布错误来自广告网络，并包含在SE错误文件中。
+中出现以下错误 [!UICONTROL EF Errors] 仅文件。 大多数发布错误来自广告网络，并包含在SE错误文件中。
 
 | 类别 | 消息 | 描述 |
 |----|----|----|
 | 常规 | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | 操作完全失败。 如果问题仍然存在，请联系您的Adobe客户团队。 |
 | 所有实体 | [!UICONTROL Entity] 发布到广告网络 | 实体已发布到广告网络，但未同时同步到Search、Social和Commerce，因此实体数据无法立即在Search、Social和Commerce中使用。 同步过程现在将自动触发。<br><br>当同步大量数据时，数据在数小时或更长时间内可能在Search、Social和Commerce中不可用。 |
-|  | [!UICONTROL Skipping &lt;ENTITY> creation since &lt;PARENT ENTITY> creation failed.] | 无法创建父实体，因此未创建此子实体。 |
+| | [!UICONTROL Skipping <ENTITY> creation since <PARENT ENTITY> creation failed.] | 无法创建父实体，因此未创建此子实体。 |
 
 >[!MORELIKETHIS]
 >
@@ -91,4 +91,3 @@ ht-degree: 0%
 >* [验证批量处理工作表文件中的登陆页面](bulksheet-validate-landing-pages.md)
 >* [上传批量处理工作表文件或更正的错误文件](bulksheet-upload.md)
 >* [发布批量工作表或已更正的错误文件](bulksheet-post.md)
-

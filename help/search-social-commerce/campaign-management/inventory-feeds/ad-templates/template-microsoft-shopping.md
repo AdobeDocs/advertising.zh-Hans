@@ -1,9 +1,9 @@
 ---
 title: ”[!DNL Microsoft® Ads] 库存源的购物广告模板设置”
 description: 引用设置 [!DNL Microsoft® Ads] 库存源的购物广告模板。
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
-**[!UICONTROL Tracking Template]：** （没有子产品组的设备；可选）产品组的跟踪模板，它指定所有离场域重定向和跟踪参数，并将最终URL嵌入到ValueTrack参数中。 此模板将覆盖更高级别的模板。
+**[!UICONTROL Tracking Template]：** （没有子产品组的设备；可选）产品组的跟踪模板，它指定所有脱离登录域重定向和跟踪参数，并将最终URL嵌入到 [!DNL ValueTrack] 参数。 此模板将覆盖更高级别的模板。
 
 对于Adobe广告转化跟踪，您无需输入值。 营销活动级别值就足够了。
 

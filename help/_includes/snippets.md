@@ -1,7 +1,7 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 对于Adobe广告转化跟踪，当促销活动设置包括&#39;&#39;时应用[!UICONTROL EF Redirect]“ ”和“ ”[!UICONTROL Auto Upload]，”当您保存记录时，Search、Social和Commerce会自动为自己的重定向和跟踪代码添加前缀。
 
-* 有关嵌入最终URL的支持参数，请参阅 [[!DNL Google Ads] documentation for the supported [!DNL ValueTrack] 格式](https://support.google.com/google-ads/answer/6305348). （转到“可用ValueTrack参数”部分中的“仅跟踪模板”参数。）
+* 有关嵌入最终URL的支持参数，请参阅 [[!DNL Google Ads] documentation for the supported [!DNL ValueTrack] 格式](https://support.google.com/google-ads/answer/6305348). (转到“可用”部分中的“仅限跟踪模板”参数 [!DNL ValueTrack] 参数。”)
 
-* 您可以选择包括URL参数和为该营销活动定义的任何自定义参数，以&amp;号分隔，例如{lpurl}？matchtype={matchtype}&amp;device={device}。
+* 您可以选择包括URL参数和为促销活动定义的任何自定义参数，各个参数之间以&amp;号分隔，例如 {lpurl}？matchtype={matchtype}设备(&amp;D){device}.
 
 * 您可以选择添加第三方重定向和跟踪。
 
@@ -26,7 +26,6 @@ ht-degree: 0%
 >* 避免使用宏，宏不会替代来自启用并行跟踪的源的点击。 如果广告商必须使用宏，则Adobe帐户团队应与客户支持或实施团队合作来添加宏。
 >* 最精细级别的跟踪模板将覆盖所有更高级别的值。 例如，如果帐户设置和关键词设置都包含一个值，则会应用关键词值。
 >* 如果您在广告、站点链接或关键词级别更新跟踪模板，则会重新提交相关广告以供审阅。 您可以在帐户、营销活动或广告组级别更新跟踪模板，而无需重新提交广告以供审批。
-
 
 ## Microsoft Advertising实体的“跟踪模板”字段 {#tracking-template-microsoft}
 
@@ -38,7 +37,7 @@ ht-degree: 0%
 
 * 有关嵌入最终URL的支持参数，请参阅 [[!DNL Microsoft Advertising] 有关指示最终URL的参数的文档](https://help.ads.microsoft.com/#apex/3/en/56799).
 
-* 您可以选择包括URL参数和为该营销活动定义的任何自定义参数，以&amp;号分隔，例如{lpurl}？matchtype={matchtype}&amp;device={device}。
+* 您可以选择包括URL参数和为促销活动定义的任何自定义参数，各个参数之间以&amp;号分隔，例如 {lpurl}？matchtype={matchtype}设备(&amp;D){device}.
 
 * 您可以选择添加第三方重定向和跟踪。
 
@@ -48,7 +47,6 @@ ht-degree: 0%
 >
 >* 最精细级别的跟踪模板将覆盖所有更高级别的值。 例如，如果帐户设置和关键词设置都包含一个值，则会应用关键词值。
 >* 您可以在任何级别更新跟踪模板，而无需重新提交广告以供审批。
-
 
 ## 文本和模板 — 说明如何插入动态参数的注释 {#inventory-feed-template-insert-dynamic-parameter}
 

@@ -1,9 +1,9 @@
 ---
 title: 点击跟踪URL的可选跟踪参数
 description: 了解可选的搜索、社交和商务跟踪参数以及可添加到点击跟踪URL的广告网络特定跟踪参数。
-source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 * 您可以将任何静态文本字符串作为参数附加到帐户/营销策划的基本URL中。
 
-* 您可以在帐户/促销活动的基本URL中附加特定于Adobe广告和广告网络的参数，以跟踪更多数据：
+* 您可以在帐户/促销活动的基本URL中附加特定于Adobe Advertising和广告网络的参数，以跟踪更多数据：
 
-   * Adobe广告参数是半静态的。 Adobe广告在上传基本URL到广告网络时插入一个数据值。 例如，当您附加 `campaign={ef_campaign}` 对于基本URL，Adobe广告将取代 `{ef_campaign}` 使用实际的促销活动名称（例如“返校促销活动”）上传URL。
+   * Adobe Advertising参数是半静态的。 Adobe Advertising在上传基本URL到广告网络时插入数据值。 例如，当您附加 `campaign={ef_campaign}` 对于基本URL，Adobe Advertising会替换 `{ef_campaign}` 使用实际的促销活动名称（例如“返校促销活动”）上传URL。
 
      **注意：** 插入值后，这些值将保持静态。 如果您将关键词或广告移动到其他广告组，或将广告组移动到其他营销活动，则  {ef_adgroup} 或 {ef_campaign} 参数不会自动更新，因此您必须手动生成新的目标URL或基本（最终）URL。
 
@@ -43,18 +43,18 @@ ht-degree: 0%
 | 参数 | 描述 |
 | ---- | ---- |
 | <code>{custom_code}</code> | 将上传批量工作表文件中“自定义URL参数”列的数据插入跟踪URL。 {custom_code} 只能在跟踪URL中一个或多个键值对的值末尾使用。 示例：  <code>a={custom_code}</code>； <code>a={ef_campaignid}{custom_code}</code>； <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>注意：</b> 要将批量工作表文件中的自定义值插入到跟踪URL中，请使用“生成跟踪URL”选项上传批量工作表文件。 有关使用批量处理工作表文件的更多信息，请参阅&quot;[关于使用批量处理工作表管理营销活动数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).” |
-| <code>{ef_uniqueid}</code> | 插入由Adobe广告创建的唯一ID。 当跟踪方法为“EF重定向”时自动添加。 |
+| <code>{ef_uniqueid}</code> | 插入由Adobe Advertising创建的唯一ID。 当跟踪方法为“EF重定向”时自动添加。 |
 | <code>{ef_userid}</code> | 插入Adobe广告分配给广告商的唯一用户ID。 |
 | <code>{ef_sid}</code> | 要插入Search、Social和Commerce分配给广告网络的数值ID，请执行以下操作： <i>[!UICONTROL 3]</i> 对象 [!DNL Google Ads]， <i>[!UICONTROL 10]</i> 对象 [!DNL Microsoft® Advertising]， <i>[!UICONTROL 45]</i> 对象 [!DNL Meta]， <i>[!UICONTROL 86]</i> 对象 [!DNL Yahoo! Display Network]， <i>[!UICONTROL 87]</i> 对象 [!DNL Naver]， <i>[!UICONTROL 88]</i> 对象 [!DNL Baidu]， <i>[!UICONTROL 90]</i> 对象 [!DNL Yandex]， <i>[!UICONTROL 94]</i> 对象 [!DNL Yahoo! Japan Ads]， <i>[!UICONTROL 105]</i> 对象 [!DNL Yahoo Native] （已弃用），或 <i>[!UICONTROL 106]</i> 对象 [!DNL Pinterest] （已弃用）。 |
 | <code>{ef_searchengine}</code> | 插入广告网络名称。 |
 | <code>{ef_campaign}</code> | 插入促销活动名称。 |
-| <code>{ef_campaignid}</code> | 插入促销活动ID。 <b>注意：</b> 只有在将营销活动发布到广告网络后，才会创建新营销活动ID。 如果帐户使用“EF重定向”和“自动上传”选项，则Adobe广告会在第二天自动将促销活动ID插入到相关的目标URL或最终URL中。 如果帐户不使用“EF重定向”和“自动上传”选项，并且您要将促销活动ID插入相关目标URL或最终URL中，则必须创建促销活动；使用“生成跟踪URL”选项下载新促销活动的批量处理工作表文件；然后将该文件发布到广告网络。 |
+| <code>{ef_campaignid}</code> | 插入促销活动ID。 <b>注意：</b> 只有在将营销活动发布到广告网络后，才会创建新营销活动ID。 如果帐户使用&quot;[!UICONTROL EF Redirect]”和“自动上传”选项，然后Adobe Advertising会在第二天自动将促销活动ID插入到相关的目标URL或最终URL中。 如果帐户不使用&quot;[!UICONTROL EF Redirect]”和 [!UICONTROL Auto Upload]选项，并且要将促销活动ID插入到相关的目标URL或最终URL中，则必须创建促销活动；使用“生成跟踪URL”选项下载新促销活动的批量处理工作表文件；然后将该文件发布到广告网络。 |
 | <code>{ef_adgroup}</code> | 插入广告组名称。 |
-| <code>{ef_adgroupid}</code> | 插入广告组ID。 <b>注意：</b> 在将广告组发布到广告网络之前，不会创建新广告组的ID。 如果帐户使用“EF重定向”和“自动上传”选项，则Adobe广告会在第二天自动将广告组ID插入到相关的目标URL或最终URL中。 如果帐户不使用“EF重定向”和“自动上传”选项，并且您要将广告组ID插入相关目标URL或最终URL中，则必须创建广告组；使用“生成跟踪URL”选项下载新广告组的批量处理工作表文件；然后将该文件发布到广告网络。 |
+| <code>{ef_adgroupid}</code> | 插入广告组ID。 <b>注意：</b> 在将广告组发布到广告网络之前，不会创建新广告组的ID。 如果帐户使用&quot;[!UICONTROL EF Redirect]”和“自动上传”选项，则Adobe Advertising会在第二天自动将广告组ID插入到相关的目标URL或最终URL中。 如果帐户不使用[!UICONTROL EF Redirect]”和 [!UICONTROL Auto Upload]选项，并且您要将广告组ID插入到相关的目标URL或最终URL中，则必须创建广告组；使用“生成跟踪URL”选项下载新广告组的批量处理工作表文件；然后将该文件发布到广告网络。 |
 | <code>{ef_keyword}</code> | 插入关键字。 |
-| <code>{ef_keywordid}</code> | 插入关键字ID。 <b>注意：</b> 在将新关键字发布到广告网络之前，不会创建该关键字的ID。 如果帐户使用“EF重定向”和“自动上传”选项，则Adobe广告会在第二天自动将关键词ID插入到相关的目标URL或最终URL中。 如果帐户不使用“EF重定向”和“自动上传”选项，并且您要将关键字ID插入到相关的目标URL或最终URL中，则必须创建关键字；使用“生成跟踪URL”选项下载新关键字的批量处理工作表文件；然后将文件发布到广告网络。 |
-| <code>{ef_matchtype}</code> | 将关键词匹配类型插入为“广泛”、“精确”或“短语”。 通过“EF重定向”跟踪方法自动包含在Google广告和Microsoft广告中。 |
-| <code>{ef_adid}</code> | 插入广告ID。 <b>注意：</b> 只有在将新广告发布到广告网络后，才会创建新广告ID。 如果帐户使用“EF重定向”和“自动上传”选项，则Adobe广告会在第二天自动将广告ID插入到相关的目标URL或最终URL中。 如果帐户不使用“EF重定向”和“自动上传”选项，并且您要将广告ID插入到相关的目标URL或最终URL中，则必须创建广告；使用“生成跟踪URL”选项下载新广告的批量处理工作表文件；然后将该文件发布到广告网络。 |
+| <code>{ef_keywordid}</code> | 插入关键字ID。 <b>注意：</b> 在将新关键字发布到广告网络之前，不会创建该关键字的ID。 如果帐户使用&quot;[!UICONTROL EF Redirect]”和 [!UICONTROL Auto Upload]”选项，则Adobe Advertising会在第二天自动将关键字ID插入到相关的目标URL或最终URL中。 如果帐户不使用&quot;[!UICONTROL EF Redirect]”和 [!UICONTROL Auto Upload]”选项，并且您要将关键字ID插入到相关的目标URL或最终URL中，则必须创建关键字；使用“生成跟踪URL”选项下载新关键字的批量处理工作表文件；然后将文件发布到广告网络。 |
+| <code>{ef_matchtype}</code> | 将关键词匹配类型插入为“广泛”、“精确”或“短语”。 通过“”自动包含在Google Ads和Microsoft Advertising中[!UICONTROL EF Redirect]”跟踪方法。 |
+| <code>{ef_adid}</code> | 插入广告ID。 <b>注意：</b> 只有在将新广告发布到广告网络后，才会创建新广告ID。 如果帐户使用&quot;[!UICONTROL EF Redirect]”和 [!UICONTROL Auto Upload]”选项，则Adobe Advertising会在第二天自动将广告ID插入到相关的目标URL或最终URL中。 如果帐户不使用&quot;[!UICONTROL EF Redirect]”和 [!UICONTROL Auto Upload]选项，并且您要将广告ID插入到相关的目标URL或最终URL，则必须创建广告；使用“生成跟踪URL”选项下载新广告的批量处理工作表文件；然后将该文件发布到广告网络。 |
 
 ## Google Ads动态跟踪参数
 
