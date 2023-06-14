@@ -4,18 +4,18 @@ cloud: Experience Cloud
 solution: Advertising
 product: advertising cloud
 archetype: end-user
-user-guide-title: Advertising Search， Social， & Commerce指南
+user-guide-title: 广告搜索、社交和商业指南
 user-guide-description: 本指南介绍管理、跟踪和报告您的搜索、社交和商业广告营销活动所需的主要功能、任务、设置和其他资源。
-breadcrumb-title: Advertising Search， Social， & Commerce指南
+breadcrumb-title: 广告搜索、社交和商业指南
 index: true
 source-git-commit: d28103d6788a1b0ee08663a5cc0393c373171860
 workflow-type: tm+mt
 source-wordcount: '1714'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Advertising Search， Social， &amp; Commerce指南 {#search-social-commerce}
+# 广告搜索、社交和商业指南 {#search-social-commerce}
 
 <!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link won't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md)-->
 
