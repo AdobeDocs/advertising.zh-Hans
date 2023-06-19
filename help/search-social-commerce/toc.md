@@ -5,13 +5,13 @@ solution: Advertising
 product: advertising cloud
 archetype: end-user
 user-guide-title: 广告搜索、社交和商业指南
-user-guide-description: 本指南介绍管理、跟踪和报告您的搜索、社交和商业广告营销活动所需的主要功能、任务、设置和其他资源。
+user-guide-description: 本指南阐述管理、跟踪和报告搜索、社交和商业广告营销活动所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: 广告搜索、社交和商业指南
 index: true
 source-git-commit: d28103d6788a1b0ee08663a5cc0393c373171860
 workflow-type: tm+mt
 source-wordcount: '1714'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
