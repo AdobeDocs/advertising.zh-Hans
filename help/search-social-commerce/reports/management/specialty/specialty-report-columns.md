@@ -1,9 +1,10 @@
 ---
 title: 专业报告的报告列
 description: 了解专业报告的可用数据列。
-source-git-commit: c2a6e14fe97d46185094dd4df3e75db35a505925
+exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
+source-git-commit: 906df6747838f5febba8a43a74dbf87d35444f8a
 workflow-type: tm+mt
-source-wordcount: '1925'
+source-wordcount: '2279'
 ht-degree: 0%
 
 ---
@@ -15,22 +16,37 @@ ht-degree: 0%
 | \[特定于广告商的自定义（派生）量度\] | 您创建的自定义量度的值，该值通过现有量度计算。 |
 | \[广告商特定的事务属性\] | 指定事务属性或网站参与度量的转化次数。 |
 | [!UICONTROL Account Name] | 帐户名称。 |
-| [!UICONTROL Ad Distribution] | ([!UICONTROL Bing Ads Geo Report])广告分发位置：  *[!UICONTROL Search]* （在搜索结果页面上）或 *[!UICONTROL Content]* (开 [!DNL Microsoft®]拥有的网站或参与的合作伙伴网站)。 |
+| [!UICONTROL Account Number] | ([!UICONTROL MSA Ad Extension] 报告)广告网络分配的帐户标识符。 |
+| [!UICONTROL Account Status] | ([!UICONTROL MSA Ad Extension] 报表)帐户状态： *[!UICONTROL Active]*， *[!UICONTROL Paused]*，或 *[!UICONTROL Inactive]*. |
+| [!UICONTROL Ad Distribution] | ([!UICONTROL Bing Ads Geo Report])广告分发位置： *[!UICONTROL Search]* （在搜索结果页面上）或 *[!UICONTROL Content]* (开 [!DNL Microsoft®]拥有的网站或参与的合作伙伴网站)。 |
+| [!UICONTROL Ad Extension ID] | ([!UICONTROL MSA Ad Extension] 报表)广告扩展的ID。 |
+| [!UICONTROL Ad Extension Number] | ([!UICONTROL MSA Ad Extension] 报表)广告扩展的版本属性。 |
+| [!UICONTROL Ad Extension Type] | ([!UICONTROL MSA Ad Extension] 报表)广告扩展的类型。 |
 | [!UICONTROL Ad Group] | 广告组。 |
 | [!UICONTROL Ad Group ID] | Search、Social和Commerce分配给广告组的数值ID。 |
 | [!UICONTROL Ad Group Name] | 广告组。 |
 | [!UICONTROL Ad Group Status] | 广告组状态： *[!UICONTROL Active]*， *[!UICONTROL Paused]*，或 *[!UICONTROL Deleted]*. |
+| [!UICONTROL Ad Title] | ([!UICONTROL MSA Ad Extension] 报告)广告标题。 |
 | [!UICONTROL Advertiser] | 广告商名称。 |
 | [!UICONTROL Advertiser ID] | 广告商的搜索、社交和商务帐户的数值ID。 |
+| [!UICONTROL All Conversion Rate] | ([!UICONTROL MSA Ad Extension] 报表)转化率（百分比）。 |
+| [!UICONTROL All Conversions] | ([!UICONTROL MSA Ad Extension] 报表)转化的次数。 |
+| [!UICONTROL All Conversions Qualified] | ([!UICONTROL MSA Ad Extension] 报表)转化的次数。 |
+| [!UICONTROL All Cost Per Conversion] | ([!UICONTROL MSA Ad Extension] 报表)每次转换的成本。 &lt;! — 这个 — 以及其他字段 — 与常规指标（如“每次转化的成本”）有何不同？ —> |
+| [!UICONTROL All Return on Ad Spend] | ([!UICONTROL MSA Ad Extension] 报表)总收入除以支出，以百分比表示。 |
+| [!UICONTROL All Revenue Per Conversion] | ([!UICONTROL MSA Ad Extension] 报表)每次转化带来的收入。 |
 | [!UICONTROL Asset] | ([!UICONTROL RSA Asset Report])资产。 |
 | [!UICONTROL Asset ID] | ([!UICONTROL RSA Asset Report]) Search、Social和Commerce分配给资源的数值ID。 |
 | [!UICONTROL Asset Performance Label] | ([!UICONTROL RSA Asset Report]) [[!DNL Google Ads] 绩效评级](https://support.google.com/google-ads/answer/9564897) 用于资产。 |
 | [!UICONTROL Asset Status] | ([!UICONTROL RSA Asset Report])资源状态： *[!UICONTROL Enabled]* 或 *[!UICONTROL Enabled]* （已删除）。 |
 | [!UICONTROL Asset Type] | ([!UICONTROL RSA Asset Report])资源类型： *[!UICONTROL Creative Title]* 或 *[!UICONTROL Description]*. |
+| [!UICONTROL Assists] | ([!UICONTROL MSA Ad Extension] 报表)某个实体对与另一个实体关联的转换的贡献次数。 |
 | [!UICONTROL Audience ID] | 数字受众ID。 |
 | [!UICONTROL Audience Name] | 观众。 可用的受众包括 [!DNL Google Ads] 基于客户数据、市场内和类似受众以及您的[！DNL [!DNL Microsoft® Advertising]]自定义、客户匹配、动态再营销、市场内、再营销和类似受众。 |
 | [!UICONTROL Audience Status] | 受众的状态。 |
+| [!UICONTROL Average CPC] | 每次点击的平均成本。 |
 | [!UICONTROL Average Position], [!UICONTROL Avg Position] | 指定日期范围内的广告平均位置。<br><br>对象 [!DNL Google Ads] 和 [!DNL Yahoo! Japan Ads] 营销活动，此数据仅在2019年9月之前可用。 对象 [!DNL Microsoft® Advertising]，此数据仅在2021年1月22日之前可用。 |
+| [!UICONTROL Bid Match Type] | ([!UICONTROL MSA Ad Extension] 报告)与所竞价的关键字关联的匹配类型。 |
 | [!UICONTROL Campaign Budget] | ([!UICONTROL Campaign Daily Impression Share Report])营销活动预算。 |
 | [!UICONTROL Campaign Name] | 营销活动。 |
 | [!UICONTROL Campaign Start Date] | ([!UICONTROL Campaign Daily Impression Share Report])对营销活动投标/下标的第一天。 |
@@ -44,23 +60,35 @@ ht-degree: 0%
 | [!UICONTROL Content IS% (Google)] | ([!DNL Google Ads] 仅限； [!UICONTROL Campaign Daily Impression Share Report])您收到的展示/受众网络上广告的展示次数除以您有资格收到的估计展示次数。 10%以下的百分比表示为“`<10%`，”和超过90%的百分比表示为“`>90%`.” |
 | [!UICONTROL Content IS% Lost to Budget (Google)] | ([!DNL Google Ads] 仅限； [!UICONTROL Campaign Daily Impression Share Report])由于每日或每月预算过低，在显示/受众网络上的广告未收到的估计展示次数百分比。 10%以下的百分比表示为“`<10%`，”和超过90%的百分比表示为“`>90%`.” |
 | [!UICONTROL Content IS% Lost to Rank (Google)] | ([!DNL Google Ads] 仅限； [!UICONTROL Campaign Daily Impression Share Report])由于广告排名不佳，您的广告在显示/受众网络上未显示的估计展示次数百分比。 10%以下的百分比表示为“`<10%`，”和超过90%的百分比表示为“`>90%`.” |
+| [!UICONTROL Conversion Rate] | 转化次数除以点击总数。 |
 | [!UICONTROL Conversion Type] | 在广告商网站上跟踪的用户定义转化类型。 |
+| [!UICONTROL Conversions] | ([!UICONTROL MSA Ad Extension] 报告)导致销售或其他成功衡量标准的点击。 |
+| [!UICONTROL Conversions Qualified] | ([!UICONTROL MSA Ad Extension] 报表)转化的次数。 |
 | [!UICONTROL Cost] | 指定日期范围内的广告总成本。 |
+| [!UICONTROL Cost Per Assist] | ([!UICONTROL MSA Ad Extension] 报告)每次协助的总成本。 |
+| [!UICONTROL Cost Per Conversion] | ([!UICONTROL MSA Ad Extension] 报表)每次转换的总成本。 |
 | [!UICONTROL Country] | ([!UICONTROL AdWords Geo Report] 和 [!UICONTROL Bing Ads Geo Report])发起点击的国家/地区。 根据用户的IP地址确定。 |
 | [!UICONTROL CPC] | 指定日期范围内广告的每次点击成本(CPC)。 |
 | [!UICONTROL Creative Description 1], [!UICONTROL Creative Description 2] | 广告的第一行和第二行。 |
 | [!UICONTROL Creative Destination URL] | 广告的最终URL或目标URL（包括任何跟踪参数）。 |
 | [!UICONTROL Creative Display URL] | 广告的显示URL，最终用户可在广告中看到此URL。 |
-| [!UICONTROL Creative Status] | 广告的状态：活动、暂停或删除。 |
+| [!UICONTROL Creative Status] | ([!UICONTROL MSA Ad Extension] 报告)广告的状态。 |
 | [!UICONTROL Creative Name] | (交易报告； [!DNL Yahoo! Japan] 仅限)广告图像名称。 |
 | [!UICONTROL Creative Title] | 广告的标题或标题。 |
 | [!UICONTROL CTR] | 点进率，即点击次数除以所包含广告的展示次数。 |
 | [!UICONTROL Current Quality Score] | ([!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 仅限营销活动)由广告网络指定的关键词或竞价单位的当前质量分数。 其范围从1（低）到10（完美）。 对于单个关键字和匹配类型组合，此值是该组合的当前分数。 当在多个营销活动中使用相同的关键词和匹配类型组合时，此值是所有实例中的最大当前分数。<br><br>广告网络使用质量分数来确定竞价和广告位置。 根据多种因素计算关键词，包括关键词与其相关广告、用户搜索查询的相关性和登陆页面的质量。 对于中的关键字 [!DNL Google Ads]，则也会考虑关键词的点进率，以及 [!DNL Microsoft® Advertising]中，也会考虑登陆页面提供的用户体验。 |
+| [!UICONTROL Delivered Match Type] | ([!UICONTROL MSA Ad Extension] 报告)用于投放广告的广告网络的匹配类型。 |
+| [!UICONTROL Device OS] | 显示或单击广告的设备的操作系统。 |
 | [!UICONTROL Device Type] | 显示或单击广告的设备：<ul><li>*[!UICONTROL desktop]*：台式计算机</li><li>*[!UICONTROL mobile]*：使用完整浏览器的移动设备</li><li>*[!UICONTROL tablet]*：带有完整浏览器的平板电脑</li></ul> |
 | [!UICONTROL eCPM] | 有效CPM，或在指定日期范围内每1000次展示所支付的平均成本。 可以为CPM或CPC营销活动计算eCPM值。 |
 | [!UICONTROL EF Campaign ID] | Search、Social和Commerce分配给营销活动的数值ID。 |
 | [!UICONTROL EF Portfolio Group ID] | 项目组合所属的项目组合组的数值ID。 |
-| [!UICONTROL EF Search Engine ID] | Search、Social和Commerce分配给广告网络的数值ID：  <i>[!UICONTROL 3]</i> 对象 [!DNL Google Ads]， <i>[!UICONTROL 10]</i> 对象 [!DNL Microsoft® Advertising]， <i>[!UICONTROL 45]</i> 对象 [!DNL Meta]， <i>[!UICONTROL 86]</i> 对象 [!DNL Yahoo! Display Network]， <i>[!UICONTROL 87]</i> 对象 [!DNL Naver]， <i>[!UICONTROL 88]</i> 对象 [!DNL Baidu]， <i>[!UICONTROL 90]</i> 对象 [!DNL Yandex]， <i>[!UICONTROL 94]</i> 对象 [!DNL Yahoo! Japan Ads]， <i>[!UICONTROL 105]</i> 对象 [!DNL Yahoo Native] （已弃用），或 <i>[!UICONTROL 106]</i> 对象 [!DNL Pinterest] （已弃用）。 |
+| [!UICONTROL EF Search Engine ID] | Search、Social和Commerce分配给广告网络的数值ID： <i>[!UICONTROL 3]</i> 对象 [!DNL Google Ads]， <i>[!UICONTROL 10]</i> 对象 [!DNL Microsoft® Advertising]， <i>[!UICONTROL 45]</i> 对象 [!DNL Meta]， <i>[!UICONTROL 86]</i> 对象 [!DNL Yahoo! Display Network]， <i>[!UICONTROL 87]</i> 对象 [!DNL Naver]， <i>[!UICONTROL 88]</i> 对象 [!DNL Baidu]， <i>[!UICONTROL 90]</i> 对象 [!DNL Yandex]， <i>[!UICONTROL 94]</i> 对象 [!DNL Yahoo! Japan Ads]， <i>[!UICONTROL 105]</i> 对象 [!DNL Yahoo Native] （已弃用），或 <i>[!UICONTROL 106]</i> 对象 [!DNL Pinterest] （已弃用）。 |
+| [!UICONTROL End Date] | 报告的最后一天。 |
+| [!UICONTROL Extension Property Value] | ([!UICONTROL MSA Ad Extension] 报告) [扩展的显示名称](https://help.ads.microsoft.com/#apex/ads/en/51001). |
+| [!UICONTROL Extension Type ID] | ([!UICONTROL MSA Ad Extension] 报表)广告扩展类型的ID。 |
+| [!UICONTROL Goal] | ([!UICONTROL MSA Ad Extension] 报表)转化目标的名称。 |
+| [!UICONTROL Goal Type] | ([!UICONTROL MSA Ad Extension] 报表)转化目标的类型。 |
 | [!UICONTROL Google Conversions] | ([!UICONTROL AdWords Conversion Report])跟踪的在线转化次数 [此 [!DNL Google Ads Conversion Optimizer]](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md). |
 | [!UICONTROL Google Converted Clicks] | ([!UICONTROL AdWords Conversion Report]；已于2016年弃用)导致一个或多个转化的点击次数。 |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] 仅限； [!UICONTROL AdWords and Bing Audience Target Report]， [!UICONTROL Campaign Daily Impression Share Report]、和 [!UICONTROL Keyword Daily Impression Share Report])在自然搜索结果上方显示为第一个广告的广告展示次数百分比。 |
@@ -68,12 +96,16 @@ ht-degree: 0%
 | [!UICONTROL Impressions] | 指定日期范围内的广告展示次数。 |
 | [!UICONTROL Keyword] | 关键字。<br><br><b>注意：</b> 如果报表在启用了内容的搜索营销活动中包含来自广告组的数据，则此列包含适用的广告组名称，如“（广告组内容）您的广告组名称”。 对于搜索促销活动中的网站定向投放位置，此列没有值。 |
 | [!UICONTROL Keyword ID] | Search、Social和Commerce分配给关键字的数值ID。 |
+| [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report])由广告网络分配的广告扩展ID。 |
+| [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report])由广告网络分配的广告扩展ID。 |
+| [!UICONTROL Keyword Extension Type] | ([!UICONTROL MSA Ad Extension by Keyword Report])广告扩展类型。 |
 | [!UICONTROL Keyword Status] | 与搜索词匹配的关键字的状态： *[!UICONTROL Active]*， *[!UICONTROL Paused]*， [!UICONTROL Deleted]*，或[!UICONTROL Disapproved]*. |
 | [!UICONTROL Language] | ([!UICONTROL Campaign Daily Impression Share Report])目标语言。 |
 | [!UICONTROL Language and Region] | ([!UICONTROL Bing Ads Geo Report])广告组的目标语言和市场（例如English-UK）。 |
 | [!UICONTROL Location] | ([!UICONTROL Campaign Daily Impression Share Report])目标受众位置。 |
 | [!UICONTROL Max Spend % Target] | ([!UICONTROL Campaign Daily Impression Share Report]；项目组合中具有ROI、CPT或 [!UICONTROL Marginal Cost per Transaction] 支出策略)投资组合的最大每日预算目标。 |
 | [!UICONTROL Metro Code] | ([!UICONTROL AdWords Geo Report] 和 [!UICONTROL Bing Ads Geo Report])从中产生展示次数或点击次数的数字城市代码（例如，Denver表示为us-751）。 根据搜索用户的IP地址确定。 |
+| [!UICONTROL Network] | ([!UICONTROL MSA Ad Extension] 报表)广告网络的市场。 |
 | [!UICONTROL Network Account ID] | 网络分配的帐户ID。 |
 | [!UICONTROL Network Ad Group ID] | 网络分配的广告组ID。 |
 | [!UICONTROL Network Campaign ID] | 网络分配的营销活动ID。 |
@@ -87,8 +119,13 @@ ht-degree: 0%
 | [!UICONTROL Product Type] ([!UICONTROL 1st level] - [!UICONTROL 5th level]) | ([!UICONTROL AdWords Shopping Performance Report])第一级到第五级产品类型（您为产品组定义的属性）。 |
 | [!UICONTROL Query Match Type] | （AdWords搜索查询报告）搜索查询的关键字匹配类型。 |
 | [!UICONTROL Region] | ([!UICONTROL AdWords Geo Report] 和 [!UICONTROL Bing Ads Geo Report])展示次数或点击次数源自的区域或美国/加拿大州。 根据用户的IP地址确定。 |
+| [!UICONTROL Return on Ad Spend] | ([!UICONTROL MSA Ad Extension] 报表)总收入除以支出，以百分比表示。 |
+| [!UICONTROL Revenue] | ([!UICONTROL MSA Ad Extension] 报表)总收入。 |
+| [!UICONTROL Revenue per Assist] | ([!UICONTROL MSA Ad Extension] 报表)每个协助的总收入。 |
+| [!UICONTROL Revenue per Conversion] | ([!UICONTROL MSA Ad Extension] 报表)每次转换的总收入。 |
+| [!UICONTROL SE Account Name] | 广告网络上的帐户名称。 |
 | [!UICONTROL SE Creative ID] | 网络分配的广告ID。 |
-| [!UICONTROL SE_TERM_ID] | （AdWords搜索查询报表）由广告网络分配的搜索词ID<!--??? what is this? --> |
+| [!UICONTROL SE_TERM_ID] | （AdWords搜索查询报表）由广告网络分配的搜索词ID。<!--??? what is this? --> |
 | [!UICONTROL Search (Abs. Top) IS] | ([!DNL Google Ads] 和 [!DNL Microsoft® Advertising]； [!UICONTROL Campaign Daily Impression Share Report] 和 [!UICONTROL Keyword Daily Impression Share Report])您从绝对顶部位置接收的展示次数（自然搜索结果上方的第一个广告）除以您有资格从顶部位置接收的预计展示次数。 10%以下的百分比表示为“`<10%`“或”`0.0999`.” |
 | [!UICONTROL Search (Top) IS] | ([!DNL Google Ads] 和 [!DNL Microsoft® Advertising]； [!UICONTROL Campaign Daily Impression Share Report] 和 [!UICONTROL Keyword Daily Impression Share Report])您从排名最前的位置收到的展示次数（在免费搜索结果上方）除以您有资格从排名最前的位置收到的预计展示次数。 10%以下的百分比表示为“`<10%`“或”`0.0999`.” |
 | [!UICONTROL Search Engine] | 广告网络。 |
@@ -109,6 +146,11 @@ ht-degree: 0%
 | [!UICONTROL Search Term] | （AdWords搜索查询报表和Bing Ads搜索查询报表）发起点击的用户搜索词。 |
 | [!UICONTROL Start Date] | 报告的第一天。 |
 | [!UICONTROL Store ID] | 商户中心商店的广告网络ID。 |
+| [!UICONTROL title_part1] | ([!UICONTROL MSA Ad Extension by Ad Report])链接到您网站的广告的第一行。 |
+| [!UICONTROL title_part2] | ([!UICONTROL MSA Ad Extension by Ad Report])链接到您网站的广告的第二行。 |
+| [!UICONTROL title_part3] | ([!UICONTROL MSA Ad Extension by Ad Report])链接到您网站的广告的第三行。 |
+| [!UICONTROL Top vs. Other] | ([!UICONTROL MSA Ad Extension] 报表)广告在搜索结果页面上的位置。 |
+| [!UICONTROL Total Clicks] | ([!UICONTROL MSA Ad Extension] 报告)广告元素在广告副本中存在时的点击次数，无论其是否被点击。 |
 | [!UICONTROL User SE Account ID] | Search、Social和Commerce分配给广告网络的数值ID。 |
 | [!UICONTROL ViewThroughConversions] | ([!UICONTROL Bing Ads Geo Report]；受众网络上的广告)由一个或多个展示次数导致但没有点击的转化次数。 |
 

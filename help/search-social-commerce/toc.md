@@ -8,9 +8,9 @@ user-guide-title: 广告搜索、社交和商业指南
 user-guide-description: 本指南阐述管理、跟踪和报告搜索、社交和商业广告营销活动所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: 广告搜索、社交和商业指南
 index: true
-source-git-commit: d28103d6788a1b0ee08663a5cc0393c373171860
+source-git-commit: 8d4bf0b53c8ddbc11111879c7e73adf3995e0ad8
 workflow-type: tm+mt
-source-wordcount: '1714'
+source-wordcount: '1717'
 ht-degree: 2%
 
 ---
@@ -314,6 +314,9 @@ ht-degree: 2%
                + [此 [!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)
                + [此 [!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/keyword-daily-impression-share-report.md)
                + [此 [!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)
+               + [此 [!UICONTROL MSA Ad Extension by Ad Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-detail-report.md)
+               + [此 [!UICONTROL MSA Ad Extension by Keyword Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-keyword-report.md)
+               + [此 [!UICONTROL MSA Ad Extension Detail Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-ad-report.md)
             + [生成专业报告](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
             + [专业报告设置](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
             + [专业报告的报告列](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
