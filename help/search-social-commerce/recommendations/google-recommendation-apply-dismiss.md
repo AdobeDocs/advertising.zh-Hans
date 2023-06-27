@@ -1,9 +1,10 @@
 ---
 title: 应用或关闭 [!DNL Google Ads] 推荐
 description: 了解如何查看 [!DNL Google Ads] 建议以及如何应用或驳回建议。
-source-git-commit: 7bb2e247c0d6436c369474dacba323a085dd2ebb
+exl-id: 7aab10bf-d5fc-4eb7-b1bb-9e61ba354a29
+source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -30,13 +31,13 @@ ht-degree: 0%
 
    * 要应用推荐，请单击 **[!UICONTROL Apply]**.
 
-      应用推荐可能需要从毫秒到几秒之间的任何时间，具体取决于推荐的大小。
+     应用推荐可能需要从毫秒到几秒之间的任何时间，具体取决于推荐的大小。
 
    * 要取消推荐，请单击 **[!UICONTROL Dismiss]**.
 
 >[!MORELIKETHIS]
 >
 >* [关于发布者推荐和见解支持](recommendation-support.md)
+>* [查看您的发布者推荐和性能分析](recommendation-view.md)
 >* [查看的推荐日志 [!DNL Google Ads] 帐户](google-recommendation-view-log.md)
 >* [将发布者推荐和见解与项目组合结合使用的最佳实践](recommendation-best-practices.md)
-

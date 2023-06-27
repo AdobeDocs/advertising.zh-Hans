@@ -1,32 +1,47 @@
 ---
 title: 关于发布者推荐和见解支持
 description: 了解对查看和管理发布者推荐和见解的支持。
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 166c429a-043a-4e74-b1ee-5359cd483de5
+source-git-commit: de1b0b3ffbb8cbc3113e4e707b8ee2d647f60ca3
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
 # 关于发布者推荐和见解支持
 
-[!DNL Google Ads] 建议是以下项的建议： [!DNL Google Ads] 以帮助提高营销活动的性能和效率。 每个推荐根据您帐户的性能历史记录、促销活动设置和以下各项的趋势，针对促销活动的不同性能方面（从添加资产到增加预算）提供自定义建议： [!DNL Google Ads].
+*[!DNL Google Ads]和 [!DNL Microsoft® Advertising] 帐户*
+
+*的Beta版功能 [!DNL Microsoft® Advertising] 帐户*
+
+[!DNL Google Ads] 建议和 [!DNL Microsoft® Advertising] 性能见解是广告网络为帮助提高营销活动的性能和效率而提供的建议：
+
+* 每个 [!DNL Google Ads] recommendation根据您帐户的性能历史记录、促销活动设置和以下各项的趋势，提供关于促销活动不同性能方面（从添加资产到增加预算）的自定义建议： [!DNL Google Ads].
+
+* 每个 [!DNL Microsoft® Advertising] 性能洞察会提醒您注意经理帐户、广告商帐户或营销活动中的重大波动；找出可能的原因，并提出优化性能的操作建议。
+
+## 此 [!UICONTROL Recommendations & Publisher Insights] 视图
 
 范围 [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]，您可以：
 
-* 概览尚未针对针对执行操作的所有受支持的推荐 [!DNL Google Ads]<!-- or [Microsoft Advertising]--> 帐户。 每个推荐的信息包括推荐详细信息、推荐类型和类别、实际量度和以下量度 [!DNL Google Ads] 预测是否应用推荐，以及如果应用推荐，受影响的实体。 量度的预计增长以绿色突出显示。 您可以查看任何推荐的推荐操作。 您还可以选择按推荐类别和类型筛选列表。
+* 概览尚未针对针对执行操作的所有受支持的推荐 [!DNL Google Ads] 过去30天内生成的帐户或所有性能分析 [Microsoft® Advertising] 帐户。 每个条目的信息包括推荐/见解详细信息和受影响的实体。 对象 [!DNL Google Ads] 帐户，量度的预计增长以绿色突出显示。
 
   ![RECOMMENDATIONS UI](/help/search-social-commerce/assets/recommendations-ui.png "RECOMMENDATIONS UI")
 
   在打开视图时，数据可实时使用。 要刷新数据，请单击 ![刷新](/help/search-social-commerce/assets/refresh.png "刷新") 页面左下角的。
 
-* 应用和驳回针对帐户的建议。
+* 对象 [!DNL Google Ads] 帐户：
 
-* 查看应用于帐户的每个推荐的日志，包括应用该推荐的受影响实体和时间戳。
+   * 查看推荐详细信息，并直接应用或驳回推荐。
+
+   * 查看应用于帐户的每个推荐的日志，包括应用推荐的受影响实体和时间戳。
+
+* 对象 [Microsoft® Advertising] 帐户，打开 [!DNL Microsoft® Advertising] 编辑器，您可以从中进行特定分析。
 
 >[!NOTE]
 >
->虽然推荐可帮助您提高营销活动效果，但有些推荐可能不符合您更广泛的目标。 因此，在执行任何建议之前，最好先咨询您的Adobe客户团队。
+>虽然广告网络推荐和性能见解可帮助您提高营销活动效果，但其中一些可能并不符合您更广泛的目标。 因此，在落实任何建议或洞察信息之前，最好咨询您的Adobe客户团队。
 
 ## 支持的推荐类型 [!DNL Google Ads]
 
@@ -60,6 +75,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [查看的推荐日志 [!DNL Google Ads] 帐户](google-recommendation-view-log.md)
+>* [查看您的发布者推荐和性能分析](recommendation-view.md)
 >* [应用或关闭 [!DNL Google Ads] 推荐](google-recommendation-apply-dismiss.md)
+>* [查看的推荐日志 [!DNL Google Ads] 帐户](google-recommendation-view-log.md)
 >* [将发布者推荐和见解与项目组合结合使用的最佳实践](recommendation-best-practices.md)

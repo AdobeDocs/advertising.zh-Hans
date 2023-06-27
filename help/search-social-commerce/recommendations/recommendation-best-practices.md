@@ -1,18 +1,21 @@
 ---
 title: 将发布者推荐和见解与项目组合结合使用的最佳实践
 description: 了解使用的最佳实践 [!DNL Google Ads] Recommendations与您的搜索、社交和商务项目组合。
-source-git-commit: 0c2b4648b3f0d6d7e4ed60f03a3a9bce56e9cdd7
+exl-id: 8362a0e1-9a0d-4287-a1dd-b7ec77985744
+source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # 将发布者推荐和见解与项目组合结合使用的最佳实践
 
+<!-- If we don't come up with similar ones for MS, then rename this file "... Google Ads ..." -->
+
 ## [!DNL Google Ads] recommendations
 
-| 推荐类型 | 描述 | 是否将Recommendations与搜索、社交和商务Portfolio自动应用？ | 注释 |
+| 推荐类型 | 描述 | 是否将Recommendations与搜索、社交和商务Portfolio自动应用？ | 评论 |
 |--- |--- |--- |--- |
 | [!UICONTROL Ads] 和扩展（在中现在称为“广告和资产”） [!DNL Google Ads]) | 用于添加/编辑广告和资源的Recommendations | 可以自动应用，但广告商应该手动审查推荐。 | 有必要审查建议，以确保响应式搜索广告符合广告商的要求。 |
 | [!UICONTROL Automated campaigns] | Recommendations自动营销活动（本地和智能营销活动） | 在Search、Social和Commerce中不可用。 | — |
@@ -25,6 +28,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于发布者推荐和见解支持](recommendation-support.md)
->* [查看的推荐日志 [!DNL Google Ads] 帐户](google-recommendation-view-log.md)
+>* [查看您的发布者推荐和性能分析](recommendation-view.md)
 >* [应用或关闭 [!DNL Google Ads] 推荐](google-recommendation-apply-dismiss.md)
-
+>* [查看的推荐日志 [!DNL Google Ads] 帐户](google-recommendation-view-log.md)

@@ -1,9 +1,10 @@
 ---
 title: 查看的推荐日志 [!DNL Google Ads] 帐户
 description: 了解如何查看应用于的每个推荐的日志 [!DNL Google Ads] 帐户。
-source-git-commit: 7bb2e247c0d6436c369474dacba323a085dd2ebb
+exl-id: 97db1e9e-6cd8-406f-8fd5-fbb85315fdf6
+source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -23,6 +24,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于发布者推荐和见解支持](recommendation-support.md)
+>* [查看您的发布者推荐和性能分析](recommendation-view.md)
 >* [应用或关闭 [!DNL Google Ads] 推荐](google-recommendation-apply-dismiss.md)
 >* [将发布者推荐和见解与项目组合结合使用的最佳实践](recommendation-best-practices.md)
-

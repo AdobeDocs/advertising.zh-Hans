@@ -4,9 +4,9 @@ user-guide-title: 广告搜索、社交和商业指南
 user-guide-description: 本指南阐述管理、跟踪和报告搜索、社交和商业广告营销活动所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: 广告搜索、社交和商业指南
 index: true
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 24cc190c2e2ae5ad63f7b79a54c47e6904a1f0ad
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1724'
 ht-degree: 2%
 
 ---
@@ -368,8 +368,9 @@ ht-degree: 2%
    + [查看更改历史记录报告](/help/search-social-commerce/reports/change-history-view.md)
    + Recommendations和出版商分析 {#recommendations}
       + [关于发布者推荐和见解支持](/help/search-social-commerce/recommendations/recommendation-support.md)
-      + [查看的推荐日志 [!DNL Google Ads] 帐户](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
+      + [查看您的发布者推荐和性能分析](/help/search-social-commerce/recommendations/recommendation-view.md)
       + [应用或关闭 [!DNL Google Ads] 推荐](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
+      + [查看的推荐日志 [!DNL Google Ads] 帐户](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
       + [将发布者推荐和见解与项目组合结合使用的最佳实践](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + 工具 {#tools}
    + [更改密码](/help/search-social-commerce/tools/password-change.md)
