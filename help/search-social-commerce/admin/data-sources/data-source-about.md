@@ -1,7 +1,9 @@
 ---
 title: 关于同步 [!DNL Google Analytics] 转化量度
 description: 了解同步 [!DNL Google Analytics] 用于优化和报告的转化量度。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 0c263ced-3774-4d4b-9d61-65289cd74027
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -41,4 +43,3 @@ ht-degree: 0%
 >* [重新验证 [!DNL Google Analytics] 数据源](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] 数据源设置](data-source-settings.md)
 >* [附录 — 可用 [!DNL Google Analytics] 量度](data-source-ga-metrics.md)
-

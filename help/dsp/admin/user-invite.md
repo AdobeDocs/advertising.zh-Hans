@@ -1,38 +1,38 @@
 ---
-title: 邀請組織帳戶的新使用者
-description: 瞭解如何邀請新使用者加入帳戶。
+title: 邀请组织帐户的新用户
+description: 了解如何邀请新用户加入帐户。
+role: User, Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
-# 邀請組織帳戶的新使用者
+# 邀请组织帐户的新用户
 
-*僅限管理員使用者*
+*仅限管理员用户*
 
-您可以邀請新的使用者使用該帳戶。 使用者接受邀請後，即可存取該帳戶的所有廣告商。 新使用者預設具有唯讀存取權。
+您可以为该帐户邀请一个新用户。 用户接受邀请后，便可以访问帐户的所有广告商。 默认情况下，新用户具有只读访问权限。
 
-如有需要，您可以取消邀請具有待處理邀請的使用者。
+如有必要，您可以取消具有待处理邀请的用户的邀请。
 
-1. 執行下列任一項作業：
+1. 执行以下任一操作：
 
-   * 在主功能表中，按一下 **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
+   * 在主菜单中，单击 **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * 在主功能表中，按一下 **[!UICONTROL Settings]** > **[!UICONTROL Account]**，然後按一下 **[!UICONTROL Edit users]**.
+   * 在主菜单中，单击 **[!UICONTROL Settings]** > **[!UICONTROL Account]**，然后单击 **[!UICONTROL Edit users]**.
 
-1. 在 **[!UICONTROL Invitations]** 區段，按一下 **[!UICONTROL Send Invite]**.
+1. 在 **[!UICONTROL Invitations]** 部分，单击 **[!UICONTROL Send Invite]**.
 
-1. 在 **[!UICONTROL User Email]** 欄位，輸入傳送邀請的電子郵件地址。
+1. 在 **[!UICONTROL User Email]** 字段中，输入要向其发送邀请的电子邮件地址。
 
 1. 单击 **[!UICONTROL Send Invite]**.
 
 >[!MORELIKETHIS]
 >
->* [重新傳送擱置中的使用者邀請](user-resend-invite.md)
->* [取消邀請擱置中的使用者](user-uninvite.md)
-
+>* [重新发送待处理用户邀请](user-resend-invite.md)
+>* [取消邀请待处理用户](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

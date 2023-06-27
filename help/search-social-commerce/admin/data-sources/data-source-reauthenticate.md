@@ -1,7 +1,9 @@
 ---
 title: 重新验证 [!DNL Google Analytics] 数据源
 description: 了解如何重新验证 [!DNL Google Analytics] 数据源。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 9233e004-8607-444a-ba99-f63cb83a8b7a
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -29,10 +31,10 @@ ht-degree: 0%
          >[!TIP]
          >
          >确保仅特定于 [!DNL Google Analytics] 可在Search、Social和Commerce中访问属性和视图，使用只能访问这些属性和视图的电子邮件地址登录。
+
    1. 选中此复选框可授权Search、Social和Commerce访问帐户的指标。
 
    1. 单击 **[!UICONTROL Re-Authenticate]**.
-
 
 1. 单击 **[!UICONTROL Post]**.
 
@@ -45,4 +47,3 @@ ht-degree: 0%
 >* [暂停数据源同步](data-source-pause.md)
 >* [[!DNL Google Analytics] 数据源设置](data-source-settings.md)
 >* [附录 — 可用 [!DNL Google Analytics] 量度](data-source-ga-metrics.md)
-

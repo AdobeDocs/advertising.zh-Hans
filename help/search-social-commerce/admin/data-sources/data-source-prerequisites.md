@@ -1,7 +1,9 @@
 ---
 title: 配置的前提条件 [!DNL Google Analytics] 数据源
 description: 了解在配置之前必须完成的步骤 [!DNL Google Analytics] 数据源。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: cbb2ad6d-8494-4fa4-928c-238b25bda3a6
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -55,4 +57,3 @@ ht-degree: 0%
 >* [重新验证 [!DNL Google Analytics] 数据源](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] 数据源设置](data-source-settings.md)
 >* [附录 — 可用 [!DNL Google Analytics] 量度](data-source-ga-metrics.md)
-

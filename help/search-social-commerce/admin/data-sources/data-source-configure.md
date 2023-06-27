@@ -1,7 +1,9 @@
 ---
 title: 配置 [!DNL Google Analytics] 作为数据源查看
 description: 了解如何从配置数据源 [!DNL Google Analytics] 视图。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -36,7 +38,7 @@ ht-degree: 0%
 
          >[!TIP]
          >
-         >确保仅特定于 [!DNL Google Analytics] 属性和视图在Adobe广告中可用，请使用只能访问这些属性和视图的电子邮件地址登录。
+         >确保仅特定于 [!DNL Google Analytics] 属性和视图在Adobe Advertising中可用，请使用只能访问这些属性和视图的电子邮件地址登录。
 
          >[!NOTE]
          >
@@ -45,6 +47,7 @@ ht-degree: 0%
       1. 选中此复选框可授权Adobe广告访问帐户的指标。
 
       1. 单击 **[!UICONTROL Authenticate]**.
+
    1. 在 [!UICONTROL Account Details] 部分，指定要导入的量度的属性和视图。 此外，指定使用“ef_id”查询字符串参数的值填充的自定义尺寸。
 
    1. 在 [!UICONTROL Import Metrics] 部分，指定要包含在信息源中的量度。
@@ -56,7 +59,6 @@ ht-degree: 0%
       >[!DNL Google Analytics] 在单个数据馈送中最多允许10个量度。 搜索、Social和Commerce最多可支持两个馈送，总共20个量度，但使用第二个馈送会将您的API调用翻倍 [!DNL Google Analytics]. 如果您有许多量度，请仅选择要在优化目标中使用的量度。 查看更多关于 [API请求的配额和调用限制为 [!DNL Google Analytics]](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
 
    1. 在 [!UICONTROL Metric Tag] 部分，输入要附加到数据源的每个量度的标记的名称。
-
 
 1. 在右上角，单击 **[!UICONTROL Post]**.
 
@@ -75,4 +77,3 @@ ht-degree: 0%
 >* [重新验证 [!DNL Google Analytics] 数据源](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] 数据源设置](data-source-settings.md)
 >* [附录 — 可用 [!DNL Google Analytics] 量度](data-source-ga-metrics.md)
-

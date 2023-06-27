@@ -1,7 +1,9 @@
 ---
 title: 暂停数据源同步
 description: 了解如何暂停数据源以停止同步。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 5495ea13-8700-4e8a-9325-062c9ed8f4f4
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *机构管理员（基本角色）、仅Adobe客户经理和管理员*
 
-暂停数据源会停止将来与数据源的同步。 如果馈送当前正在同步，则流程会先完成，以便Adobe广告中的数据为最新状态。
+暂停数据源会停止将来与数据源的同步。 如果馈送当前正在同步，则流程会先完成，以便Adobe Advertising中的数据为最新状态。
 
 1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
 
@@ -31,4 +33,3 @@ ht-degree: 0%
 >* [重新验证 [!DNL Google Analytics] 数据源](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] 数据源设置](data-source-settings.md)
 >* [附录 — 可用 [!DNL Google Analytics] 量度](data-source-ga-metrics.md)
-
