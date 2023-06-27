@@ -2,9 +2,9 @@
 title: 专业报告的报告列
 description: 了解专业报告的可用数据列。
 exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
-source-git-commit: 906df6747838f5febba8a43a74dbf87d35444f8a
+source-git-commit: b6279bdf5f0cf3fbd144414f789a105af87040cc
 workflow-type: tm+mt
-source-wordcount: '2279'
+source-wordcount: '2280'
 ht-degree: 0%
 
 ---
@@ -96,8 +96,8 @@ ht-degree: 0%
 | [!UICONTROL Impressions] | 指定日期范围内的广告展示次数。 |
 | [!UICONTROL Keyword] | 关键字。<br><br><b>注意：</b> 如果报表在启用了内容的搜索营销活动中包含来自广告组的数据，则此列包含适用的广告组名称，如“（广告组内容）您的广告组名称”。 对于搜索促销活动中的网站定向投放位置，此列没有值。 |
 | [!UICONTROL Keyword ID] | Search、Social和Commerce分配给关键字的数值ID。 |
-| [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report])由广告网络分配的广告扩展ID。 |
-| [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report])由广告网络分配的广告扩展ID。 |
+| [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report])广告网络分配给广告扩展的数值ID。 |
+| [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report])广告扩展的version属性。 |
 | [!UICONTROL Keyword Extension Type] | ([!UICONTROL MSA Ad Extension by Keyword Report])广告扩展类型。 |
 | [!UICONTROL Keyword Status] | 与搜索词匹配的关键字的状态： *[!UICONTROL Active]*， *[!UICONTROL Paused]*， [!UICONTROL Deleted]*，或[!UICONTROL Disapproved]*. |
 | [!UICONTROL Language] | ([!UICONTROL Campaign Daily Impression Share Report])目标语言。 |
