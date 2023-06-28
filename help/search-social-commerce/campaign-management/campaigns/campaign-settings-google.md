@@ -1,9 +1,10 @@
 ---
-title: ”[!DNL Google Ads] campaign设置”
+title: ‘[!DNL Google Ads] campaign设置
 description: 引用设置 [!DNL Google Ads] 营销活动。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: d16ef1a9-f943-494c-8655-975383707f3c
+source-git-commit: a71ea7b20cf1c72a2acfd7c743311c513e4239fc
 workflow-type: tm+mt
-source-wordcount: '1958'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Search Network Only]：* 在搜索网络上显示广告，其中包括 [!DNL Google] 搜索结果和（可选）搜索合作伙伴站点。 您必须为每个广告组指定关键字。
 
-* *[!UICONTROL Search with Display Select]：* 在搜索网络上显示广告(包括 [!DNL Google] 搜索结果，以及（可选）搜索合作伙伴站点)，并可能在展示型网络站点上显示广告。 在显示网络上， [!DNL Google Ads] 无论活动的竞价策略如何，都会使用自动竞价有选择地显示您的广告。 对于搜索广告，您必须为每个广告组指定关键字；对于显示广告，您必须指定投放位置，并且还可以选择为每个广告组指定关键字。
+* *[!UICONTROL Search with Display Select]：* 在搜索网络上显示广告(包括 [!DNL Google] 搜索结果，以及（可选）搜索合作伙伴站点)，并可能在展示型网络站点上显示广告。 在显示网络上， [!DNL Google Ads] 无论活动的竞价策略如何，都会使用自动竞价有选择地显示您的广告。 对于搜索广告，请指定每个广告组的关键字；对于展示广告，请指定投放位置，并可以选择为每个广告组指定关键字。
 
 * *[!UICONTROL Shopping Network]：* 显示产品广告，其中 [!DNL Google] 根据您的产品在中自动生成 [!DNL Google Merchant Center] 日期 [!DNL Google Shopping]，旁边的区域 [!DNL Google] 搜索结果（独立于文本广告）和（可选）搜索合作伙伴网站。 对于营销活动中的每个广告组，您可以指定要广告的产品组。
 
@@ -24,7 +25,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Performance Max]：* （Beta测试版功能）使用以下功能显示和优化跨渠道广告转化 [!DNL Google Ads] 明智的竞价。 在Campaign设置中，您必须指定一个或多个资产组，包括图像、徽标、标题、描述、可选视频和受众信号。 [!DNL Google Ads] 自动组合资产以根据渠道提供广告(例如 [!DNL YouTube]， [!DNL Gmail]，或 [!DNL Search])。
 
-   **注释：**
+  **注释：**
 
    * 只有所需的设置可用。 对于可选设置，请登录 [!DNL Google Ads] 编辑者。
 
@@ -78,23 +79,23 @@ ht-degree: 0%
 
 * *[!UICONTROL Maximize Clicks]：* （搜索、展示和购物营销活动）广告网络（而不是搜索、社交和商务）会优化竞价以最大化点击次数。 （可选）输入 **[!UICONTROL Max CPC]** （每次点击成本）以确保广告网络为每一次点击支付的费用不超过特定金额。 **注意：** 当您将使用此策略的营销活动添加到项目组合时，竞价由点击权重驱动，而不是由项目组合目标驱动。
 
-* *[!UICONTROL Maximize Conversion Value]：* （搜索、效果最佳化和智能购物营销活动）广告网络（而不是搜索、社交和商务）会优化竞价以实现转化价值的最大化。 （可选）输入 **[!UICONTROL Target Return on Ad Spend]** (ROAS)的百分比。 **注意：** 此选项适用于混合项目组合中的营销活动，但不适用于标准项目组合。
+* *[!UICONTROL Maximize Conversion Value]：* （搜索、效果最佳化和智能购物营销活动）广告网络（而不是搜索、社交和商务）会优化竞价以最大限度地提高转化价值。 （可选）输入 **[!UICONTROL Target Return on Ad Spend]** (ROAS)的百分比。 **注意：** 此选项适用于混合项目组合中的营销活动，但不适用于标准项目组合。
 
-* *[!UICONTROL Maximize Conversions]：* （搜索、展示和效果最佳促销活动）广告网络（而不是Search、Social和Commerce）会优化竞价以实现最大转化率。 （可选）输入 **[!UICONTROL Target CPA]** （每次采购成本）。 **注意：** 此选项适用于混合项目组合中的营销活动，但不适用于标准项目组合。
+* *[!UICONTROL Maximize Conversions]：* （搜索、展示和效果最佳促销活动）广告网络（而不是Search、Social和Commerce）可优化竞价以最大限度地提高转化率。 （可选）输入 **[!UICONTROL Target CPA]** （每次采购成本）。 **注意：** 此选项适用于混合项目组合中的营销活动，但不适用于标准项目组合。
 
 * *[!UICONTROL Target CPA]：* （展示促销活动；现有搜索促销活动）广告网络（而非搜索、社交和商务）根据可选内容优化竞价 **[!UICONTROL Target CPA]** （每次购置成本），这是您要为一项购置（转化）支付的30天平均金额。 **注意：** 此选项适用于混合项目组合（但不是标准项目组合）中具有任何支出策略的营销活动，但支出策略除外 [!UICONTROL Weekly] 或 [!UICONTROL Google Target CPA].
 
-   使用此竞价策略的营销活动的平均位置和CPC竞价数据不可用。
+  使用此竞价策略的营销活动的平均位置和CPC竞价数据不可用。
 
-   对于新的搜索促销活动， [!DNL Google Ads] 已将此竞价策略替换为 [!UICONTROL Maximize Conversions] 策略使用 [!UICONTROL Target CPA] 值。 对于使用此策略的现有搜索营销活动，您只能编辑目标值，这样做会将策略更改为 [!UICONTROL Maximize Conversions] 使用指定的策略 [!UICONTROL Target CPA] 值。
+  对于新的搜索促销活动， [!DNL Google Ads] 已将此竞价策略替换为 [!UICONTROL Maximize Conversions] 策略使用 [!UICONTROL Target CPA] 值。 对于使用此策略的现有搜索营销活动，您只能编辑目标值，这样做会将策略更改为 [!UICONTROL Maximize Conversions] 使用指定的策略 [!UICONTROL Target CPA] 值。
 
 * *[!UICONTROL Target Impression Share]：* （搜索营销活动）广告网络（而不是Search、Social和Commerce）会优化竞价以实现目标展示份额和广告位置。 （可选）输入 **[!UICONTROL Target Impression Share]** 以百分比表示， **[!UICONTROL Target Ad Position]**，和 **[!UICONTROL Max CPC]** （每次点击成本）。 **注意：** 项目组合不支持此选项。
 
 * *[!UICONTROL Target Return on Ad Spend]：*  （展示和购物营销活动；现有的搜索营销活动）广告网络（而不是搜索、社交和商务）根据指定的来优化竞价 **[!UICONTROL Target ROAS]** （广告支出回报率），以百分比表示。 **注意：** 此选项适用于混合项目组合（但不是标准项目组合）中具有任何支出策略的营销活动，但支出策略除外 [!UICONTROL Weekly] 或 [!UICONTROL Google Target ROAS].
 
-   使用此竞价策略的营销活动的平均位置和CPC竞价数据不可用。
+  使用此竞价策略的营销活动的平均位置和CPC竞价数据不可用。
 
-   对于新的搜索促销活动， [!DNL Google Ads] 已将此竞价策略替换为 [!UICONTROL Maximize Conversion Value] 策略使用 [!UICONTROL Target Return on Ad Spend value]. 对于使用此策略的现有搜索营销活动，您只能编辑目标值，这样做会将策略更改为 [!UICONTROL Maximize Conversion Value] 使用指定的策略 [!UICONTROL Target Return on Ad Spend] 值。
+  对于新的搜索促销活动， [!DNL Google Ads] 已将此竞价策略替换为 [!UICONTROL Maximize Conversion Value] 策略使用 [!UICONTROL Target Return on Ad Spend value]. 对于使用此策略的现有搜索营销活动，您只能编辑目标值，这样做会将策略更改为 [!UICONTROL Maximize Conversion Value] 使用指定的策略 [!UICONTROL Target Return on Ad Spend] 值。
 
 * *[!UICONTROL Viewable CPM]：* (现有，只读 [!DNL Gmail] 仅限营销活动)广告网络（而非搜索、社交和商务）仅对测量为可查看的广告投标。 **注意：** 任何类型的项目组合均不支持对此策略进行优化。
 
@@ -141,12 +142,12 @@ ht-degree: 0%
       * 要将位置展开到其子组件中（例如美国的州、大都市区域或城市），请单击位置名称。
 
       * 要搜索位置，请在输入字段中输入或粘贴位置的前三个字符。 在搜索结果中，单击 **[!UICONTROL Include]** 在要包含或的位置旁边 **[!UICONTROL Exclude]** 在要排除的位置旁边。
+
    * （地址附近的位置；仅限包含的目标）单击 **[!UICONTROL Radius Target]** (![Radius目标](/help/search-social-commerce/assets/radius-target.png "Radius目标"))，然后单击 **[!UICONTROL Address]**. 输入目标地址周围以英里或公里为单位的地址和半径，然后单击 **[!UICONTROL Add]**.
 
    * （地理坐标附近的位置；仅限包含的目标）单击 **[!UICONTROL Radius Target]** (![Radius目标](/help/search-social-commerce/assets/radius-target.png "Radius目标"))，然后单击 **[!UICONTROL Coordinate]**. 输入目标位置周围的经纬度和半径（以英里或公里为单位），然后单击 **[!UICONTROL Add]**.
 
    * (您所在位置附近 [!DNL My Business] 可用作位置扩展的位置；仅限包含的目标)单击 **[!UICONTROL Location Group Target]** (![位置组](/help/search-social-commerce/assets/location-group.png "位置组"))；（可选）输入国家/地区、省/市/自治区或城市，在可用位置列表中向下箭头；然后从列表中选择一个或多个位置 [!DNL Google My Business] 位置。 以英里或公里为单位指定目标位置周围的半径，然后单击 **[!UICONTROL Add]**.
-
 
 * （为包含的目标位置添加竞价调整）输入竞价调整值：
 
@@ -254,27 +255,41 @@ ht-degree: 0%
 
 **[!UICONTROL Images]：** 广告的最多15张图像，包括以下大小：1)至少三张正方形图像，2)至少三张横向图像，以及3)至少一张纵向图像。 请参阅 [[!DNL Google Ads] 图像规范](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 要上传图像，请执行以下操作：
 
-1. 对于每个图像：
+1. 单击 **[!UICONTROL +]** 并从设备或网络中选择图像。
 
-   1. 单击 **[!UICONTROL +]** 并从设备或网络中选择图像。
+1. 对于每个图像：
 
    1. 选择纵横比。
 
-   1. 根据需要拖动并放置裁剪框以选择图像的可查看部分，然后单击 **[!UICONTROL Proceed]**.
+   1. 根据需要拖动并放置裁切框以选择图像的可查看部分，并在可能的情况下调整图像的可查看部分的大小。
+
+   1. （可选）选择其他纵横比，并根据需要为每个选定的纵横比重新定位图像并调整其大小。
+
+      为每个选定的纵横比创建一个资源。
+
+   1. 单击 **[!UICONTROL Proceed]**.
 
 1. 指定完图像后，单击 **[!UICONTROL Upload]**.
 
 **[!UICONTROL Logos]：** 至少一个正方形(1:1)徽标和一个横向(4:1)徽标。 每种大小最多可包含五个。 请参阅 [[!DNL Google Ads] 徽标规范](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 要上传图像，请执行以下操作：
 
+1. 单击 **[!UICONTROL +]** 并从设备或网络中选择图像。
+
 1. 对于每个图像：
 
-   1. 单击 **[!UICONTROL +]** 并从设备或网络中选择图像。
+   1. 选择纵横比。
 
-   1. 根据需要拖动并放置裁剪框以选择图像的可查看部分，然后单击 **[!UICONTROL Proceed]**.
+   1. 根据需要拖动并放置裁切框以选择图像的可查看部分，并在可能的情况下调整图像的可查看部分的大小。
+
+   1. （可选）选择其他纵横比，并根据需要为每个选定的纵横比重新定位图像并调整其大小。
+
+      为每个选定的纵横比创建一个资源。
+
+   1. 单击 **[!UICONTROL Proceed]**.
 
 1. 指定完图像后，单击 **[!UICONTROL Upload]**.
 
-**[!UICONTROL Videos]：** （可选）至少一个URL，最多五个URL， [!DNL YouTube] 视频超过10秒。
+**[!UICONTROL Videos]：** （可选）至少一个URL，最多五个URL， [!DNL YouTube] 视频长度至少为10秒。
 
 **[!UICONTROL Headlines]：** 至少有三条，最多五条，每条最多包含30个字符的简短标题。 至少一个标题必须至少为15个字符或更少。 如果在中设置了用于启用最终URL扩展的活动级别选项 [!DNL Google Ads]，则 [!DNL Google Ads] 将此值替换为基于登陆页面内容的自定义标题。
 
@@ -291,4 +306,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [管理营销活动](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-
