@@ -4,9 +4,9 @@ user-guide-title: 广告搜索、社交和商业指南
 user-guide-description: 本指南阐述管理、跟踪和报告搜索、社交和商业广告营销活动所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: 广告搜索、社交和商业指南
 index: true
-source-git-commit: b1b1f67068dcd38f3e10d6e71db9827622f74da6
+source-git-commit: e9818b49ab4bd473ba7b17663c9dd1436915f667
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1737'
 ht-degree: 2%
 
 ---
@@ -254,6 +254,9 @@ ht-degree: 2%
       + [分析报告以优化您的关键词和促销活动设置](/help/search-social-commerce/campaign-management/best-practices/best-practices-analyze.md)
       + [编写有效的文本和副本](/help/search-social-commerce/campaign-management/best-practices/best-practices-write.md)
       + [优化网站登陆页面](/help/search-social-commerce/campaign-management/best-practices/best-practices-optimize.md)
+   + 管理广告资产 {#assets}
+      + [关于 [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
+      + [创建和上传资源](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
    + [每个广告网络帐户的最大对象数](/help/search-social-commerce/campaign-management/max-objects-per-ad-network.md)
    + [关于营销活动管理的常见问题解答](/help/search-social-commerce/campaign-management/faqs-campaigns.md)
 + 见解和报表 {#insights-reports}

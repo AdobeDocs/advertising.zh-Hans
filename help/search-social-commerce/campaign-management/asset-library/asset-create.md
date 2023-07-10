@@ -1,9 +1,9 @@
 ---
 title: 创建和上传资源
 description: 了解如何创建可重复使用的图像、视频和文本资源并将其上传到 [!DNL Google Ads] 帐户级别的资产库。
-source-git-commit: 5051ca80724a6ea55bc270b9454a2276a72deea0
+source-git-commit: 6cb13fe9917daf6437af7df30ec7164120732faa
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,14 @@ ht-degree: 0%
 
       一次最多可以发布10个视频URL。
 
-      * 对于文本资源，请输入文本字符串。 要添加其他文本资源，请单击 **+添加** 并输入另一个文本字符串。&lt;! — 哪个广告文案元素 — 标题、简短描述、详细描述？ 没有位置可选择元素。—>
+      * 对于文本资源，请输入文本字符串。 要添加其他文本资源，请单击 **+添加** 并输入另一个文本字符串。
 
       每个文本资源最多可包含1000个字符。 一次最多可以上传10个文本资产。
 
+      您以后可以将文本资源用于所选的任何广告元素（例如标题或简短描述），前提是它们符合该广告元素的字符限制。
+
 1. 单击 **[!UICONTROL Post]**.
+
+>[!MORELIKETHIS]
+>
+>*[关于 [!UICONTROL Asset Library]](asset-library-about.md)
