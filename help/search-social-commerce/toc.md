@@ -4,9 +4,9 @@ user-guide-title: 广告搜索、社交和商业指南
 user-guide-description: 本指南阐述管理、跟踪和报告搜索、社交和商业广告营销活动所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: 广告搜索、社交和商业指南
 index: true
-source-git-commit: 24cc190c2e2ae5ad63f7b79a54c47e6904a1f0ad
+source-git-commit: b1b1f67068dcd38f3e10d6e71db9827622f74da6
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1728'
 ht-degree: 2%
 
 ---
@@ -106,7 +106,8 @@ ht-degree: 2%
       + [关于Search、Social和Commerce中的营销活动管理](/help/search-social-commerce/campaign-management/introduction/campaign-management-about.md)
       + [实施广告网络帐户和营销活动概述](/help/search-social-commerce/campaign-management/introduction/campaign-implemention-overview.md)
       + [监控和管理广告网络营销活动的效果](/help/search-social-commerce/campaign-management/introduction/monitor-performance-campaigns.md)
-      + [搜索、社交和商务中的Google Ads转化数据](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+      + [[!DNL Google Ads] 搜索、社交和商务中的转化数据](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+      + [[!DNL Microsoft Advertising] 搜索、社交和商务中的转化数据](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md)
    + 设置帐户 {#campaign-management-accounts}
       + 广告网络帐户 {#ad-network-accounts}
          + [关于广告网络帐户](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
