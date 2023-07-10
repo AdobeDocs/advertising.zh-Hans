@@ -1,7 +1,7 @@
 ---
 title: “关于 [!UICONTROL Asset Library]”
 description: 了解广告资源的资源库。
-source-git-commit: 2b47ad8422a505a85f43d5954dc9a5bdd1242e57
+source-git-commit: d6d2b85b3be95a6f1162f87e2beccbdd4337b1f2
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%
@@ -22,4 +22,4 @@ In [!UICONTROL Campaigns] > [!UICONTROL Asset Library (Beta)]，您可以创建�
 
 >[!MORELIKETHIS]
 >
->*[创建和上传资源](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
+>* [创建和上传资源](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
