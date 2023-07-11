@@ -1,9 +1,9 @@
 ---
 title: ‘[!DNL Microsoft Advertising] 转化数据
 description: 了解以下类型的信息 [!DNL Microsoft Advertising] — 跟踪的转化数据可在Search、Social和Commerce中使用。
-source-git-commit: f48706edc1ab25f7c2396159d420bc2cfa849bbb
+source-git-commit: 0d7a7b63b31f85b3befb3217fc43bcb229b370f0
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -34,14 +34,11 @@ ht-degree: 0%
 
 数据根据点击时间和从为帐户启用该功能之日起的转化/交易时间提供。
 
-<!-- verify below/ if equivalent
-
-[!DNL Microsoft Advertising] records each conversion by [bid unit](/help/search-social-commerce/glossary.md#a-b), device, and click date (not conversion date). Attribution is based on the default attribution setting for each metric in [!DNL Microsoft Advertising]; Adobe Advertising attribution isn't factored in because click event-level data isn't available.
--->
+[!DNL Microsoft Advertising] 记录每次转换的方式 [竞价单位](/help/search-social-commerce/glossary.md#a-b)，设备，然后单击日期（不是转换日期）。 归因基于中每个量度的默认归因设置 [!DNL Microsoft Advertising]；Adobe Advertising归因未计入中，因为单击事件级别数据不可用。
 
 >[!NOTE]
 >
->* 如果您有多个帐户具有相同的转化名称，则在Adobe广告中可能会看到重复的转化名称。 如果发生这种情况， [更改显示名称](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) 中的某个重复量度 [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. 当两个不同的量度具有相同的名称时，报表不准确。
+>* 如果多个帐户具有相同的转化名称，则在Adobe Advertising中可能会看到重复的转化名称。 如果发生这种情况， [更改显示名称](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) 中的某个重复量度 [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. 当两个不同的量度具有相同的名称时，报表不准确。
 >* 竞价单位级别的数据与同一级别的广告网络中的数据相匹配。 但是，广告网络自己的较高级别的转化数据可能包括未归因到子竞价单位的附加转化。 搜索、Social和Commerce中的数据始终从竞价单位级别累计，因此，例如，促销活动级别报表的总计可能与广告网络中的促销活动级别报表的总计不同。
 >* 数据差异通常在晨同步后小于当天晚些时候（此时尚未同步其他转化）。 我们建议在早上验证数据。
 >* 由于受众或地理位置级别没有数据，因此不用于自动优化RLSA和位置竞价调整。
