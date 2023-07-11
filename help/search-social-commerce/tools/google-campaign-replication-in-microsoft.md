@@ -1,9 +1,10 @@
 ---
 title: 复制 [!DNL Google Ads] 中的营销活动 [!DNL Microsoft® Advertising]
 description: 了解如何在中导出已同步的营销活动 [!DNL Google Ads] 帐户直接转入已同步 [!DNL Microsoft® Advertising] 帐户。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
+source-git-commit: 0da256d0e3d98751dfaaf69adf5fed72662f5d22
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 * [!DNL Google Display Network] 将营销活动（包括广告图像）转换为 [!DNL Microsoft® Advertising] Microsoft®受众网络上的受众营销活动。
 
-   如果要复制基于购物馈送的显示营销活动，请首先复制您的 [!DNL Google Merchant Center] 产品选件至 [!DNL Microsoft® Merchant Center]. 复制活动时，选择 [!DNL Microsoft® Merchant Center] 将商店存储在导入选项中，以将商店链接到基于信息源的受众营销活动。
+  如果要复制基于购物馈送的显示营销活动，请首先复制您的 [!DNL Google Merchant Center] 产品选件至 [!DNL Microsoft® Merchant Center]. 复制活动时，选择 [!DNL Microsoft® Merchant Center] 将商店存储在导入选项中，以将商店链接到基于信息源的受众营销活动。
 
 * [!DNL Google Ads] 将效果最佳的营销活动（包括本地库存广告）引入 [!DNL Microsoft® Advertising] 智能购物营销活动。
 
@@ -58,7 +59,7 @@ ht-degree: 0%
 
 1. （可选）将搜索、社交和商务跟踪添加到 [帐户](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)， [营销活动](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)， [广告组](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)，或 [广告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) 设置。
 
-## 编辑营销活动导入作业的详细信息
+## 编辑营销活动导入作业的计划设置
 
 参见 [导入自 [!DNL Google Ads] 营销活动](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
@@ -66,15 +67,7 @@ ht-degree: 0%
 
 1. 选中导入作业旁边的复选框，然后单击 ![编辑](/help/search-social-commerce/assets/edit.png "编辑").
 
-1. 编辑 [导入设置](#campaign-import-settings).
-
-   1. 在 **[!UICONTROL Select accounts]** 部分，选择源帐户和目标帐户以及凭据ID [!DNL Microsoft® Advertising] 需要。
-
-   1. 在 **[!UICONTROL Select campaigns & ad groups]** 部分，指定要导入的营销活动和广告组。
-
-   1. 在 **[!UICONTROL Customize your import]** 部分，指定要导入的项目类型。
-
-   1. 在 **[!UICONTROL Set schedule]** 部分，指定运行导入作业的时间。
+1. 在 **[!UICONTROL Set schedule]** 部分，指定 [计划设置](#campaign-import-settings).
 
 1. 单击 **[!UICONTROL Post]**.
 
@@ -86,7 +79,7 @@ ht-degree: 0%
 
    * 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
-      默认情况下，视图打开 [!UICONTROL List of Import Jobs] 选项卡。
+     默认情况下，视图打开 [!UICONTROL List of Import Jobs] 选项卡。
 
    * 从 [[!UICONTROL Import Logs] 选项卡](#campaign-import-log)，单击 **[!UICONTROL List of Import Jobs]** 选项卡。
 
