@@ -4,9 +4,9 @@ user-guide-title: 广告搜索、社交和商业指南
 user-guide-description: 本指南阐述管理、跟踪和报告搜索、社交和商业广告营销活动所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: 广告搜索、社交和商业指南
 index: true
-source-git-commit: d8ec24ab05d16ea5f120b3263a8c426d76732cf8
+source-git-commit: 50c462fd58acd9cd36aace933ff56db43c2dbf48
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1719'
 ht-degree: 2%
 
 ---
@@ -122,19 +122,19 @@ ht-degree: 2%
          + 营销活动 {#campaigns}
             + [管理营销活动](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
             + 按广告网络列出的Campaign设置 {#campaign-settings-by-network}
-               + [百度营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
-               + [Google Ads促销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
-               + [Microsoft Advertising campaign设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
-               + [Yahoo！ 日本广告促销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
-               + [Yandex营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
+               + [[!DNL Baidu] campaign设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
+               + [[!DNL Google Ads] campaign设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
+               + [[!DNL Microsoft Advertising] campaign设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
+               + [[!DNL Yahoo! Japan Ads] campaign设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
+               + [[!DNL Yandex] campaign设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
          + 广告组 {#ad-groups}
             + [管理广告组](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
             + 按广告网络划分的广告组设置 {#ad-group-settings-by-network}
-               + [百度广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
-               + [Google Ads广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
-               + [Microsoft Advertising广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
-               + [Yahoo！ 日本广告广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
-               + [Yandex广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
+               + [[!DNL Baidu] 广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
+               + [[!DNL Google Ads] 广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
+               + [[!DNL Microsoft Advertising] 广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
+               + [[!DNL Yahoo! Japan Ads] 广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
+               + [[!DNL Yandex] 广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
          + 关键字 {#keywords}
             + [关于关键字](/help/search-social-commerce/campaign-management/campaigns/keyword-about.md)
             + [管理可竞价关键词](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)

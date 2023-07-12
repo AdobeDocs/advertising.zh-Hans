@@ -2,9 +2,9 @@
 title: 复制 [!DNL Google Ads] 中的营销活动 [!DNL Microsoft® Advertising]
 description: 了解如何在中导出已同步的营销活动 [!DNL Google Ads] 帐户直接转入已同步 [!DNL Microsoft® Advertising] 帐户。
 exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
-source-git-commit: 0da256d0e3d98751dfaaf69adf5fed72662f5d22
+source-git-commit: 8d062e5c74c8f873ab5f2491659a32be47bb2afb
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -35,19 +35,19 @@ ht-degree: 0%
 
 参见 [导入自 [!DNL Google Ads] 营销活动](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
-1. 从获取导入凭据ID [!DNL Microsoft® Advertising] 以代表您的 [!DNL Google Ads] 凭据。
-
-   自动生成 [!DNL Microsoft® Advertising] 导入凭据不可用，原因是 [!DNL Microsoft® Advertising] API限制。 联系Adobe技术支持或您的Adobe客户团队，他们将生成凭据并提供ID。
-
-   您必须具有ID才能配置导入作业。
-
 1. 在“搜索、社交和商务”主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
 1. 单击 **[!UICONTROL +Import]**.
 
 1. 指定 [导入设置](#campaign-import-settings)：
 
-   1. 在 **[!UICONTROL Select accounts]** 部分，选择源帐户和目标帐户以及凭据ID [!DNL Microsoft® Advertising] 需要。
+   1. 在 **[!UICONTROL Select accounts]** 部分：
+
+      1. 选择源帐户和目标帐户。
+
+      1. 单击 **[!UICONTROL Get Credential Id from MSA]**.
+
+      1. 登录到目标 [!DNL Microsoft Advertising] 帐户，复制显示的凭据ID，并将值粘贴到 **[!UICONTROL Credential ID]** 字段。
 
    1. 在 **[!UICONTROL Select campaigns & ad groups]** 部分，指定要导入的营销活动和广告组。
 
