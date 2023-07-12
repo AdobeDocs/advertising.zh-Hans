@@ -1,9 +1,10 @@
 ---
-title: ”[!DNL Microsoft Advertising] campaign设置”
+title: ‘[!DNL Microsoft Advertising] campaign设置
 description: 引用设置 [!DNL Microsoft Advertising] 营销活动。
-source-git-commit: 0706f4dbc5f2a27e7d0cf43a6865d242865f9d36
+exl-id: c6d86fb8-48b0-40fd-bcfc-c4afdccd5283
+source-git-commit: f2889bbafc1b3cd3c467d94abae2ad1a52d0eaed
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '992'
 ht-degree: 0%
 
 ---
@@ -176,6 +177,12 @@ ht-degree: 0%
 <!-- **[!UICONTROL Append Parameters]:** -->
 
 {{$include /help/_includes/append-parameters.md}}
+
+## [!UICONTROL Conversion Goals]
+
+**[!UICONTROL Conversion Goal]：** 是否要 *[!UICONTROL Use account conversion goals for this campaign]* （默认）或 *[!UICONTROL Use campaign specific conversion goals]*. 如果选择指定营销活动的转化目标，则从所有可用目标列表中选择目标。 **注意：** 目标每天进行同步，因此可能无法列出之前24小时内创建的目标。 要更新列表， [手动同步广告网络数据](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
+
+如果营销活动是项目组合的一部分，则使用与项目组合目标相同的转化目标。 使用不同的转化目标可能会影响项目组合的性能。
 
 >[!MORELIKETHIS]
 >
