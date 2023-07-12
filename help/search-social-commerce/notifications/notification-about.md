@@ -2,7 +2,7 @@
 title: 关于通知
 description: 了解通知，包括不同的类型和类别。
 exl-id: a21dae13-b948-48e0-922a-d865f86e72f8
-source-git-commit: 7882e024ff11c20a5c2bf47fdc039345636da245
+source-git-commit: f3cc5ffae0d5d19c8542a46ffdb49478efa14522
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
@@ -49,26 +49,25 @@ ht-degree: 0%
 
    * **[!UICONTROL Manager Account Missing]**：通知Search、Social和Commerce缺少凭据 [ad network manager帐户](/help/search-social-commerce/admin/manager-accounts.md)，这些函数用于正确设置关键函数。
 
-<!--
-* [!UICONTROL Setup Errors]
-
-  * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect s_kwcid template; or it's overridden at a lower level by an incorrect value.
+  <!--
+  * [!UICONTROL Setup Errors]
   
-  * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are for the correct setup of critical functions.
+    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect s_kwcid template; or it's overridden at a lower level by an incorrect value.
+    
+    * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are for the correct setup of critical functions.
+  -->
 
--->
+   * [!UICONTROL Network Errors]
 
-* [!UICONTROL Network Errors]
+      * **[!UICONTROL Manager Account Auth Error]**：通知Search、Social和Commerce无法与同步 [ad network manager帐户](/help/search-social-commerce/admin/manager-accounts.md) 由于凭据无效或授权令牌无效或过期。
 
-   * **[!UICONTROL Manager Account Auth Error]**：通知Search、Social和Commerce无法与同步 [ad network manager帐户](/help/search-social-commerce/admin/manager-accounts.md) 由于凭据无效或授权令牌无效或过期。
+      * **[!UICONTROL Account Auth Error]**：通知Search、Social和Commerce无法访问 [广告网络帐户](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 由于凭据无效或授权令牌无效或过期。
 
-   * **[!UICONTROL Account Auth Error]**：通知Search、Social和Commerce无法访问 [广告网络帐户](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 由于凭据无效或授权令牌无效或过期。
+   * [!UICONTROL Data Upload]
 
-* [!UICONTROL Data Upload]
+      * **[!UICONTROL Direct File Upload]**：用于封闭测试版
 
-   * **[!UICONTROL Direct File Upload]**：用于封闭测试版
-
-   * **[!UICONTROL File Upload to Cloud Storage]**：用于封闭测试版
+      * **[!UICONTROL File Upload to Cloud Storage]**：用于封闭测试版
 
 <!--
 * [!UICONTROL Optimization]
