@@ -2,8 +2,9 @@
 title: Adobe Advertising对《通用数据保护条例》的支持
 description: 了解支持的数据请求类型、所需的设置和字段值，以及使用旧版产品ID和返回的数据字段的API访问请求示例
 feature: GDPR
+role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 071d0ae725c21aaea19072725ae99ca77ef1a410
+source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 0%
@@ -102,29 +103,29 @@ Adobe Experience Platform使企业能够完成以下任务：
 ```
 {
 "companyContexts":[
-      {
-         "namespace":"imsOrgID",
-         "value":"5AB13068374019BC@AdobeOrg"
-      }
-   ],
-   "users": [
+    {
+        "namespace":"imsOrgID",
+        "value":"5AB13068374019BC@AdobeOrg"
+      }
+   ],
+   "users": [
 {
- "key": "John Doe",
- "action":["access"],
-  "userIDs":[
-      {
-         "namespace":"411",
-         "value":"Wqersioejr-wdg",
-         "type":"namespaceId",
-         "deletedClientSide":false
-      }
-   ]
+ "key": "John Doe",
+ "action":["access"],
+ "userIDs":[
+      { 
+        "namespace":"411",
+        "value":"Wqersioejr-wdg",
+        "type":"namespaceId",
+        "deletedClientSide":false
+      }
+   ]
 }
 ],
 "include":[
-      "adCloud"
-   ],
-    "regulation":"gdpr"
+      "adCloud"
+   ],
+    "regulation":"gdpr"
 }
 }
 ```
