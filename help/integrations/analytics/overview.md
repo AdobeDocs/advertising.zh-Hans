@@ -3,9 +3,9 @@ title: 概述 [!DNL Analytics for Advertising]
 description: 概述 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
+source-git-commit: d4306553d4ad7379672be5bff1bc5cc6f74f70bf
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -90,15 +90,45 @@ Adobe Advertising可以摄取 [!DNL Analytics] 用于Advertising DSP和再营销
 
 有关Experience Cloud受众服务的更多信息，请参阅 [Experience Cloud受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html).
 
-## 如何使用集成的示例
+## 如何使用集成的示例 {#integration-examples}
 
 ### 在Analysis Workspace中使用Adobe Advertising数据
 
 要了解如何在Analysis Workspace中使用Adobe Advertising数据创建可视化报表，请观看视频»[Workspace和报表简介](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).”
 
+#### 在报表中使用连接的电视显示到达转换
+
+*仅限Advertising DSP用户*
+
+您可以将CTV设备上的广告曝光与网站上的转化关联，从而衡量连接电视(CTV)促销活动的全面漏斗效果。 要查看您的CTV浏览转化量度，请使用Analysis Workspace中的“版面”视图或“营销渠道”视图。
+
+使用“版面”视图：
+
+1. 在报表视图中包括CTV支出投放位置。
+
+1. 包括所需的量度，如“展示次数”、“点击次数”等。
+
+1. 应用以下过滤器：
+
+   广告平台： `Advertising Cloud DSP`
+
+   登陆页面： `View-Through (CTV)`
+
+使用“营销渠道”视图：
+
+1. 包含维度 `Marketing Channel`.
+
+1. 包括所需的量度，如“展示次数”、“点击次数”等。
+
+1. 应用以下过滤器：
+
+   广告平台： `Advertising Cloud DSP`
+
+   登陆页面： `View-Through (CTV)`
+
 ### 创建Adobe Advertising仪表板
 
-要了解如何根据Analysis Workspace中的目标跟踪Adobe Advertising数据，请观看视频»[使用Adobe Analytics创建Adobe Advertising功能板](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).”
+要了解如何根据Analysis Workspace中的目标跟踪Adobe Advertising数据，请观看视频»[使用Adobe Analytics创建Adobe广告功能板](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).”
 
 ### 将Adobe AdvertisingID用于网站登入分析
 
