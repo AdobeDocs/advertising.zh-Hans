@@ -3,9 +3,9 @@ title: 概述 [!DNL Analytics for Advertising]
 description: 概述 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: d4306553d4ad7379672be5bff1bc5cc6f74f70bf
+source-git-commit: 232b253877195b0e0a1d47b0b28e6ed25a8b07d4
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,9 @@ Adobe Advertising可以摄取 [!DNL Analytics] 用于Advertising DSP和再营销
 
 *仅限Advertising DSP用户*
 
-您可以将CTV设备上的广告曝光与网站上的转化关联，从而衡量连接电视(CTV)促销活动的全面漏斗效果。 要查看您的CTV浏览转化量度，请使用Analysis Workspace中的“版面”视图或“营销渠道”视图。
+您可以将CTV设备上的广告曝光与网站上的转化关联，从而衡量连接电视(CTV)促销活动的全面漏斗效果。 新 [!UICONTROL Landing Type] 过滤器»[!UICONTROL View-through (CTV)]”将转化拆分为单独的行 [!UICONTROL Click Through]， [!UICONTROL View Through]、和 [!UICONTROL View Through (CTV)] 值。
+
+要查看您的CTV浏览转化量度，请使用Analysis Workspace中的“版面”视图或“营销渠道”视图。
 
 使用“版面”视图：
 
@@ -128,7 +130,7 @@ Adobe Advertising可以摄取 [!DNL Analytics] 用于Advertising DSP和再营销
 
 ### 创建Adobe Advertising仪表板
 
-要了解如何根据Analysis Workspace中的目标跟踪Adobe Advertising数据，请观看视频»[使用Adobe Analytics创建Adobe广告功能板](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).”
+要了解如何根据Analysis Workspace中的目标跟踪Adobe Advertising数据，请观看视频»[使用Adobe Analytics创建Adobe Advertising功能板](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).”
 
 ### 将Adobe AdvertisingID用于网站登入分析
 
