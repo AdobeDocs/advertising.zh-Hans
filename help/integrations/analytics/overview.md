@@ -3,9 +3,9 @@ title: 概述 [!DNL Analytics for Advertising]
 description: 概述 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 232b253877195b0e0a1d47b0b28e6ed25a8b07d4
+source-git-commit: 562d6b4be50b5ba248ecfa12e8ff0b60556c326a
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -128,13 +128,17 @@ Adobe Advertising可以摄取 [!DNL Analytics] 用于Advertising DSP和再营销
 
    登陆页面： `View-Through (CTV)`
 
+>[!NOTE]
+>
+> CTV投放的浏览转化也可在 [DSP [!UICONTROL Household Conversions Report]](/help/dsp/reports/report-about.md).
+
 ### 创建Adobe Advertising仪表板
 
-要了解如何根据Analysis Workspace中的目标跟踪Adobe Advertising数据，请观看视频»[使用Adobe Analytics创建Adobe Advertising功能板](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).”
+要了解如何根据Analysis Workspace中的目标跟踪Adobe Advertising数据，请观看视频»[使用Adobe Analytics创建Adobe广告功能板](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).”
 
 ### 将Adobe AdvertisingID用于网站登入分析
 
-要了解如何创建Adobe Advertising站点登入报表以监控每周的某天、每天的某个时间、浏览器和地理影响，请观看视频”[创建Adobe广告网站登入报表](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).”
+要了解如何创建Adobe Advertising站点登入报表以监控每周的某天、每天的某个时间、浏览器和地理影响，请观看视频”[创建Adobe Advertising站点登入报表](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).”
 
 >[!MORELIKETHIS]
 >
@@ -143,5 +147,5 @@ Adobe Advertising可以摄取 [!DNL Analytics] 用于Advertising DSP和再营销
 >* [Analytics使用的Adobe AdvertisingID](ids.md)
 >* [适用于Analytics for Advertising的JavaScript代码](/help/integrations/analytics/javascript.md)
 >* [之间的预期数据差异 [!DNL Analytics] 和Adobe Advertising](data-variances.md)
->* [Analysis Workspace中的Adobe Advertising指标](/help/integrations/analytics/advertising-metrics-in-analytics.md)
+>* [Analysis Workspace中的Adobe广告量度](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 >* [[!DNL Analytics] Adobe Advertising中的数据](/help/integrations/analytics/analytics-data-in-advertising.md)
