@@ -3,9 +3,9 @@ title: 概述 [!DNL Analytics for Advertising]
 description: 概述 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 562d6b4be50b5ba248ecfa12e8ff0b60556c326a
+source-git-commit: b9a126983556259aafddc73db8adcfd8f1cb86dd
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
@@ -127,10 +127,6 @@ Adobe Advertising可以摄取 [!DNL Analytics] 用于Advertising DSP和再营销
    广告平台： `Advertising Cloud DSP`
 
    登陆页面： `View-Through (CTV)`
-
->[!NOTE]
->
-> CTV投放的浏览转化也可在 [DSP [!UICONTROL Household Conversions Report]](/help/dsp/reports/report-about.md).
 
 ### 创建Adobe Advertising仪表板
 
