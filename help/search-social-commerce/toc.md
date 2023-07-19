@@ -4,9 +4,9 @@ user-guide-title: 广告搜索、社交和商业指南
 user-guide-description: 本指南阐述管理、跟踪和报告搜索、社交和商业广告营销活动所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: 广告搜索、社交和商业指南
 index: true
-source-git-commit: 50c462fd58acd9cd36aace933ff56db43c2dbf48
+source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
 workflow-type: tm+mt
-source-wordcount: '1719'
+source-wordcount: '1720'
 ht-degree: 2%
 
 ---
@@ -349,7 +349,7 @@ ht-degree: 2%
             + [电子表格报表馈送设置](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-settings.md)
          + [通过FTP访问报表](/help/search-social-commerce/reports/automation/ftp-reports.md)
       + [归因规则的计算方式](/help/search-social-commerce/reports/attribution-rules.md)
-      + [关于报告的常见问题解答](/help/search-social-commerce/reports/faqs-report.md)
+      + [关于自定义报表的常见问题解答](/help/search-social-commerce/reports/faqs-report.md)
    + 通知 {#notifications}
       + [关于通知](/help/search-social-commerce/notifications/notification-about.md)
       + [查看您的通知](/help/search-social-commerce/notifications/notification-view.md)

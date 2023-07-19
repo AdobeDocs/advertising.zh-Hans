@@ -3,7 +3,7 @@ title: 关于自定义报表
 description: 了解手动或使用预配置的报表模板创建自定义报表的选项。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: ab892528a2fbc0ed5994938ead23cd8e33e8b45f
+source-git-commit: 085e2c40ae65a5bb93c3d1a13036342d2670226b
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -88,7 +88,7 @@ ht-degree: 0%
 >
 >* [创建自定义报表](/help/dsp/reports/report-create.md)
 >* [自定义报表设置](/help/dsp/reports/report-settings.md)
->* [关于的常见问题解答 [!UICONTROL Household] 报告](/help/dsp/reports/faq-household-report.md)
+>* [有关家庭报表的常见问题解答](/help/dsp/reports/faq-household-report.md)
 >* [关于平台内报告](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [可用报表列](/help/dsp/reports/report-columns.md)
 >* [关于 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)

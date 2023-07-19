@@ -1,14 +1,15 @@
 ---
-title: 关于报告的常见问题解答
+title: 关于自定义报表的常见问题解答
 description: 了解有关性能报表的常见问题解答，包括数据问题疑难解答。
-source-git-commit: 3f2b483a4cae20295a2334321802f8abfe864bd8
+exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
+source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
 workflow-type: tm+mt
-source-wordcount: '3917'
+source-wordcount: '3919'
 ht-degree: 0%
 
 ---
 
-# 关于报告的常见问题解答
+# 关于自定义报表的常见问题解答
 
 ## 一般问题
 
@@ -312,7 +313,7 @@ ht-degree: 0%
 +++
 
 +++在 [!UICONTROL Transaction Report]，如何知道哪个交易属性来自数据馈送或由Adobe Advertising跟踪像素跟踪？
-在交易报表中，如果您包含自定义列&#39;&#39;，则可以判断包含的交易属性是否被Adobe广告跟踪像素跟踪[!UICONTROL Tracking URL].” Adobe为“广告跟踪”像素的跟踪URL以“”开头`http://pixel.everesttech.net`.”
+在交易报表中，如果您包含自定义列&#39;&#39;，则可以判断包含的交易属性是否被Adobe广告跟踪像素跟踪[!UICONTROL Tracking URL].” 以Adobe Advertising跟踪像素为起点的跟踪URL以&quot;`http://pixel.everesttech.net`.”
 +++
 
 +++我的数据 [!UICONTROL Transaction Report] 不匹配我的数据 [!UICONTROL Keyword Report].

@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: 08a95c392df4fefa927c2714a04dbfabae51ac58
+source-git-commit: 085e2c40ae65a5bb93c3d1a13036342d2670226b
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023年7月19日 | 报告 | (DSP用户使用 [!DNL Analytics for Advertising])现在，新版本中提供了连接TV (CTV)投放位置的显示转换功能 [!UICONTROL Household Conversions Report]. 以前，它们仅包含在Adobe Analytics中。 | 参见“[有关家庭报表的常见问题解答](/help/dsp/reports/faq-household-report.md).” |
 | 2023年7月13日 | 报告 | (DSP用户使用 [!DNL Analytics for Advertising])连接电视(CTV)投放位置的浏览转化现在包含在Adobe Analytics中提供的转化数据中。 | 请参阅“中的“如何使用集成的示例”部分[概述 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples).” |
 | 2022年11月1日 | 帮助 | 新文档介绍了如何在Advertising DSP和Adobe Target之间实施点进和浏览信号共享，以及在中设置A/B测试活动 [!DNL Target] DSP以及如何设置Adobe Analytics Analysis Workspace以查看测试数据。 | 参见“[在Adobe Target中为Advertising DSP Ads配置A/B测试](/help/integrations/target/overview-ab-tests.md).” |
 | 2022年8月17日 | 帮助 | 新的一章介绍了Adobe Advertising与Adobe Audience Manager集成的所有方式。 | 请参阅关于“与Adobe Audience Manager集成”的章节，包括“[Adobe Advertising与Adobe Audience Manager的集成](/help/integrations/audience-manager/overview.md).” |

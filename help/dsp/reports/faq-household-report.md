@@ -1,88 +1,110 @@
 ---
-title: 關於的常見問題集 [!UICONTROL Household] 報告
-description: 進一步瞭解 [!UICONTROL Household] 報表，包括與其他報表和疑難排解的差異。
-source-git-commit: 95f81dafbe13f40487bad47f7dd41a6c80c589ee
+title: 有关家庭报表的常见问题解答
+description: 进一步了解报表数据，包括如何 [!UICONTROL Household] 报告不同于其他报告和疑难解答。
+exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
+source-git-commit: 05f7d9c7a120828bda46d4f79796dfb419cca242
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
 
-# 關於的常見問題集 [!UICONTROL Household] 報告
+# 有关家庭报表的常见问题解答
 
-## 如何 [!UICONTROL Household] 觸及率和頻率報告是否與其他自訂報告不同？
+## 此 [!UICONTROL Household Reach & Frequency] 报告
 
-此 [!UICONTROL Household] 報表會根據IP位址，在家庭層級測量各種維度的觸及率、曝光次數和頻率。 其他自訂報表會在裝置或Cookie層級產生。
+### 如何 [!UICONTROL Household Reach & Frequency] 报表是否与其他自定义报表不同？
 
-例如，即使一個家庭中的三個裝置收到一個曝光數，不重複住戶觸及的量度仍為1。
+此 [!UICONTROL Household Reach & Frequency] 报告根据IP地址在家庭级别跨各种维度测量访问范围、展示次数和频率。 其他自定义报表在设备或Cookie级别生成。
 
-### 支援的Dimension
+例如，即使一个家庭中的三个设备具有一个展示次数，但已实现的独特家庭数指标仍为1。
 
-此 [!UICONTROL Household] 報告支援 [下列維度](/help/dsp/reports/report-columns.md)： &quot;[!UICONTROL Campaign]，&quot; &quot;[!UICONTROL Package]，&quot; &quot;[!UICONTROL Placement]，&quot; &quot;[!UICONTROL Site/Apps]「 （不提供重疊量度的存取權）， 」[!UICONTROL Media Type]，&quot; &quot;[!UICONTROL Feed Type]，&quot; &quot;[!UICONTROL Device]，&quot; &quot;[!UICONTROL Publisher]，&quot; &quot;[!UICONTROL Audience]，&quot; &quot;[!UICONTROL Creative Length]，」和使用者建立的位置「[!UICONTROL Tags].」 |
+#### 支持的Dimension
 
-### 支援的量度
+此 [!UICONTROL Household Reach & Frequency] 报告支持 [以下维度](/help/dsp/reports/report-columns.md)： &quot;[!UICONTROL Campaign]，&quot; &quot;[!UICONTROL Package]，&quot; &quot;[!UICONTROL Placement]，&quot; &quot;[!UICONTROL Site/Apps]“（不提供对重叠量度的访问权限）， ”[!UICONTROL Media Type]，&quot; &quot;[!UICONTROL Feed Type]，&quot; &quot;[!UICONTROL Device]，&quot; &quot;[!UICONTROL Publisher]，&quot; &quot;[!UICONTROL Audience]，&quot; &quot;[!UICONTROL Creative Length]，”和用户创建的投放位置“[!UICONTROL Tags].” |
+
+#### 支持的指标
 
 此 [可用量度](/help/dsp/reports/report-columns.md) 包括：
 
-* 重疊量度： [!UICONTROL Frequency Overlap]， [!UICONTROL Measurable Impressions (Overlap)]、和 [!UICONTROL Unique Household (Overlap)].
+* 重叠量度： [!UICONTROL Frequency Overlap]， [!UICONTROL Measurable Impressions (Overlap)]、和 [!UICONTROL Unique Household (Overlap)].
 
-   重疊量度是只針對已報告的維度或維度組合發生的值，而不針對其他維度發生的值。 <!-- For example, it might show the ?? -->
+  重叠量度是仅针对报告的维度或维度组合出现的值，而不针对其他维度出现的值。 <!-- For example, it might show the ?? -->
 
-* 非重疊量度： [!UICONTROL Frequency]， [!UICONTROL Incremental Household Reached]， [!UICONTROL % Incremental Household Reached]， [!UICONTROL Impressions]， [!UICONTROL Measurable Impressions]、和 [!UICONTROL Unique Household Reached]
+* 非重叠量度： [!UICONTROL Frequency]， [!UICONTROL Incremental Household Reached]， [!UICONTROL % Incremental Household Reached]， [!UICONTROL Impressions]， [!UICONTROL Measurable Impressions]、和 [!UICONTROL Unique Household Reached]
 
-不支援轉換量度和自訂目標。
+不支持转化量度和自定义目标。
 
-## 重疊量度與非重疊量度之間有何差異？
+### 重叠量度与非重叠量度之间有何区别？
 
-下圖顯示三個行銷活動（A、B和C）的三個量度(不重複家庭觸及率、增量家庭觸及率和增量家庭（重疊）)。
+下图显示了3个促销活动（A、B和C）的3个量度(已到达独特家庭、已到达增量家庭和增量家庭（重叠）)。
 
-![住家重疊量度的插圖](/help/dsp/assets/household-overlap-metrics-illustration.png "住家重疊量度的插圖")
+![家庭重叠量度的插图](/help/dsp/assets/household-overlap-metrics-illustration.png "家庭重叠量度的插图")
 
-* 「不重複家庭數量達到（總計）」提供每個促銷活動達到的不重複家庭數量或每個圓圈的總面積。 在圖中，A觸及的不重複家庭=觸及的增量家庭+ (A+B) + (A+C) +(A+B+C)
+* “已实现的独特家庭”（总计）提供每个营销活动已实现的独特家庭或每个圆圈的总面积。 在图中，A达到的独特家庭=A + (A+B) + (A+C) +(A+B+C)达到的递增家庭
 
-* Incremental Household Accessed是僅透過行銷活動觸及的不重複家庭。 在圖中，A、B、C所達的遞增家庭是分別由A、B、C所達的遞增家庭。
+* Incremental Household Accessed是仅通过营销活动到达的唯一家庭。 在图中，A、B、C所实现的增量家庭是A、B、C所实现的增量家庭。
 
-* Incremental Household (Overlap)是行銷活動或行銷活動組合觸及的不重複家庭。 在圖中，由A、C所觸及的增量家庭為A+C。
+* Incremental Household (Overlap)是营销活动或营销活动组合访问的唯一家庭。 在图中，A， C所实现的增量家庭为A+C。
 
-## 工作流
+### 工作流
 
-請依照一般步驟執行 [建立自訂報表](report-create.md).
+按照常规步骤执行以下操作 [创建自定义报表](report-create.md).
 
-此 [!UICONTROL Household] 報表只能包含一個維度。 它也可以包括a)任何維度（網站/應用程式除外）的重疊量度，或b)非重疊量度，但不能同時包括兩者。
+此 [!UICONTROL Household Reach & Frequency] 报表只能包含一个维度。 它还可以包括a)按任何维度（网站/应用程序除外）划分的重叠量度或b)非重叠量度，但不能同时包括两者。
 
-## 有哪些限制 [!UICONTROL Household] 報告？ 
+### 有哪些限制 [!UICONTROL Household Reach & Frequency] 报告？
 
-具有重疊量度的報表會輸出最多三個值的交集。 例如，如果您使用量度 [!UICONTROL Unique Household (Overlap)] 若為10個位置，您會看到個別位置所達致的不重複家庭、任意兩個位置組合所達致的普通家庭，以及任意三個位置組合所達致的普通家庭。 您看不到四個或更多位置觸及的普通家庭。
+具有重叠量度的报表输出交叉点，最多三个值。 例如，如果您使用量度 [!UICONTROL Unique Household (Overlap)] 对于10个位置，您可以看到由单个位置到达的独特家庭、由任意两个位置组合到达的普通家庭、以及由任意三个位置组合到达的普通家庭。 你看不到有四个或更多安置点的普通家庭。
 
-對於行銷活動、套件或位置以外的維度，報表支援每個維度中最多10個值。 例如，若要產生 [!UICONTROL Unique Household Reached] 報告 [!UICONTROL Audience] 維度時，不重複受眾的數目應少於或等於10。 如果您包含超過10個不重複受眾，則會產生空白報表。
+对于除营销活动、资源包或投放位置以外的维度，报表在每个维度中最多支持10个值。 例如，要生成 [!UICONTROL Unique Household Reached] 报告 [!UICONTROL Audience] 维度时，独特受众的数量应少于或等于10。 如果包括10个以上的独特受众，则会生成一个空白报表。
 
-## 為什麼我的設定檔的頻率和唯一觸及值不同 [!UICONTROL Custom] 報告與 [!UICONTROL Household] 報告？
+### 为什么我的报表中的频度和唯一范围值不同 [!UICONTROL Custom] 报告和 [!UICONTROL Household Reach & Frequency] 报告？
 
-中的這些量度 [!UICONTROL Household] 報表是以IP位址的實際計數來計算，而 [!UICONTROL Custom] 報表使用模型計算的預估數字。 不過，差異應小於10%。
+中的这些量度 [!UICONTROL Household] 报表使用IP地址的实际计数来计算，而 [!UICONTROL Custom] 报表使用使用模型计算的预计数量。 但是，差异应小于10%。
 
-## 如何為設定報表 [!UICONTROL Placement Tags] 維度？
+### 如何为配置报表 [!UICONTROL Placement Tags] 维度？
 
-若要建立位置標籤， [開啟位置設定](/help/dsp/campaign-management/placements/placement-edit.md) 並在 [位置標籤欄位](/help/dsp/campaign-management/placements/placement-settings.md).
- 
-當位置包含多個標籤時，報表會將整個字串視為一個標籤。 報表的每個唯一字串都包含一列。
+要为投放位置创建标记， [打开版面设置](/help/dsp/campaign-management/placements/placement-edit.md) 并在 [投放位置标记字段](/help/dsp/campaign-management/placements/placement-settings.md).
 
-## [!UICONTROL Household] 報告與資料來源 [!DNL Advanced Measurement Services]
+当投放位置包含多个标记时，报表会将整个字符串视为一个标记。 该报表为每个唯一字符串包含一行。
 
-若要取得以家庭為基礎的觸及率和頻率的進階報告，請 [[!DNL Strategic Advertising Consulting] 團隊](/help/dsp/introduction/advanced-measurement-services.md) 可提供高度客製化的報告以及整體策略建議。 如需有關的詳細資訊 [!DNL Advanced Measurement Services]，請聯絡您的Adobe客戶團隊。
+## 此 [!UICONTROL Household Conversions] 报告
 
-### 如果我已經在使用 [!DNL Advanced Measurement Services]，為何應使用 [!UICONTROL Household] 報告？
+### 中支持哪些类型的归因方法 [!UICONTROL Household Conversions] 报告？
 
-此 [!UICONTROL Household] report可讓客戶即時自主提取家庭層級的觸及率和頻率量度。
+支持两种类型的归因方法：
 
-### 我可以同時使用 [!UICONTROL Household] 報告和 [!DNL Advanced Measurement Services]？ 
+* 唯一：计算维度值（如设备或投放位置）在转化路径上的次数。
 
-理想的使用案例是同時使用 [!UICONTROL Household] 報告與 [!DNL Advanced Measurement Services] 報告與諮詢服務結合在一起。 考慮 [!UICONTROL Household] 以異動方式報告，旨在告知日常最佳化，以及 [!DNL Advanced Measurement Services] 更具策略性，旨在為整體學習及與總體業務目標相關的經驗提供資訊。
+* MTA（多点接触归因）：根据转化路径上维度值（例如设备或投放位置）的发生频率分配每次转化的点数。 例如，如果在转化前总共有10次展示，其中8次在CTV上展示，2次在移动设备上展示，则信用的80%(0.8)将给予给CTV屏幕，0.2给予移动设备屏幕。
+
+### 在Adobe Analytics中，家庭转化报表与CTV浏览转化报表有何不同？
+
+中的CTV浏览数据 [!DNL Analytics] 已供电 [!DNL Analytics] 家庭转化数据使用通过Adobe Advertising转化跟踪收集的数据。 此外，中的DSP归因逻辑 [!DNL Analytics] 仅使用最后一个事件，但家庭转化报表支持两种不同的归因方法：唯一和MTA。
+
+### 我是否可以在以下两个位置查看CTV浏览数据？ [!DNL Analytics for Advertising] 在自定义报表中？
+
+广告商，无 [!DNL Analytics for Advertising] 只能将家庭转化报表用于家庭转化报表。
+
+如果您的组织具有 [!DNL Analytics for Advertising]，同时使用这两种类型的报表。 虽然CTV显示到达报表适用于宽频分析、网站行为等，但自定义报表可提供精细的视图（其中数据按媒体类型、发布者等细分）以指示驱动转化率的因素。
+
+## [!UICONTROL Household Reach & Frequency] 和 [!UICONTROL Household Conversions] 报表与来自的数据 [!DNL Advanced Measurement Services]
+
+要获取有关基于家庭的访问范围和频率或转化率的高级报告，请 [[!DNL Strategic Advertising Consulting] 团队](/help/dsp/introduction/advanced-measurement-services.md) 可提供高度可自定义的报告以及整体战略建议。 有关详情，请参阅 [!DNL Advanced Measurement Services]，请联系您的Adobe客户团队。
+
+### 如果我已经在使用 [!DNL Advanced Measurement Services]，为何要使用 [!UICONTROL Household Reach & Frequency] 和 [!UICONTROL Household Conversions] 报告？
+
+此 [!UICONTROL Household Reach & Frequency] 和 [!UICONTROL Household Conversions] 报告使客户端能够实时自主地提取家庭级覆盖率、频率和转化量度。
+
+### 我能否同时使用 [!UICONTROL Household Reach & Frequency] 和 [!UICONTROL Household Conversions] 报告和 [!DNL Advanced Measurement Services]？
+
+理想的用例是同时使用 [!UICONTROL Household] 报告和 [!DNL Advanced Measurement Services] 报告与咨询服务相结合。 考虑 [!UICONTROL Household] 以事务型报告，旨在告知日常优化，以及 [!DNL Advanced Measurement Services] 更具战略性，旨在为与总体业务目标相关的全面学习和工作经验提供信息。
 
 >[!MORELIKETHIS]
 >
->* [關於自訂報表](/help/dsp/reports/report-about.md)
->* [建立自訂報表](/help/dsp/reports/report-create.md)
->* [編輯自訂報告](/help/dsp/reports/report-edit.md)
->* [自訂報表設定](/help/dsp/reports/report-settings.md)
->* [可用的報告欄](/help/dsp/reports/report-columns.md)
-
+>* [关于自定义报表](/help/dsp/reports/report-about.md)
+>* [创建自定义报表](/help/dsp/reports/report-create.md)
+>* [编辑自定义报告](/help/dsp/reports/report-edit.md)
+>* [自定义报表设置](/help/dsp/reports/report-settings.md)
+>* [可用报表列](/help/dsp/reports/report-columns.md)
