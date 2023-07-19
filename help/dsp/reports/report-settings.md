@@ -3,9 +3,9 @@ title: 自定义报表设置
 description: 请参阅对自定义报表设置的描述。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: b41c1ab857d37d21cf593a8e566b18f2769d47c0
+source-git-commit: 73fb309063066e52e4d8c23f5ce9ebb84159b253
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -70,38 +70,41 @@ ht-degree: 0%
 
 ## [!UICONTROL Multi-Touch Conversion Options] 章节
 
+**[!UICONTROL Attribution Rule Settings]** 设置因报告类型而异：
 
-### [!UICONTROL Attribution Rule Settings]
+* **\[归因类型\]：** ([!UICONTROL Household Conversion] 报告 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 列；仅具有Adobe Advertising转化跟踪的广告商)在报表中，如何在一系列导致转化的事件中归因转化数据：
 
-**\[归因类型\]：** ([!UICONTROL Household Conversion] 报告 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 列；仅具有Adobe Advertising转化跟踪的广告商)在报表中，如何在一系列导致转化的事件中归因转化数据：
+   * [!UICONTROL Unique]：（默认）计算维度值（如设备或投放位置）在转化路径上的次数。
 
-* [!UICONTROL Unique]：（默认）计算维度值（如设备或投放位置）在转化路径上的次数。
+   * [!UICONTROL Multi-Touch Attribution (MTA)]：根据维度值（如设备或投放位置）在转化路径上的出现频率分配每次转化的点数。 例如，如果在转化前总共有10次展示，其中8次在CTV上展示，2次在移动设备上展示，则信用的80%(0.8)将给予给CTV屏幕，0.2给予移动设备屏幕。
 
-* [!UICONTROL Multi-Touch Attribution (MTA)]：根据维度值（如设备或投放位置）在转化路径上的出现频率分配每次转化的点数。 例如，如果在转化前总共有10次展示，其中8次在CTV上展示，2次在移动设备上展示，则信用的80%(0.8)将给予给CTV屏幕，0.2给予移动设备屏幕。
+* **\[规则类型\]：** (全部 [!UICONTROL Custom]， [!UICONTROL Conversion]， [!UICONTROL Device]， [!UICONTROL Geo]， [!UICONTROL Segment]、和 [!UICONTROL Site] 报告 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 列；仅具有Adobe Advertising转化跟踪的广告商)在报表中，如何在一系列导致转化的事件中归因转化数据。 如果要比较规则之间的差异，可以选择多个规则。
 
-**\[规则类型\]：** (全部 [!UICONTROL Custom]， [!UICONTROL Conversion]， [!UICONTROL Device]， [!UICONTROL Geo]， [!UICONTROL Segment]、和 [!UICONTROL Site] 报告 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 列；仅具有Adobe Advertising转化跟踪的广告商)在报表中，如何在一系列导致转化的事件中归因转化数据。 如果要比较规则之间的差异，可以选择多个规则。
+  >[!NOTE]
+  >
+  >转化路径包括广告商展示或点击回顾窗口内的任何展示和点击，这些均在中配置 [!DNL Advertising Search, Social, & Commerce]. 在转化归因期间，点击次数优先于展示次数。 根据归因规则，转化路径中的任何点击都将获得完全点数。 只有转化路径中未跟踪任何点击时，展示次数才会获得点数。
 
->[!NOTE]
->
->转化路径包括广告商展示或点击回顾窗口内的任何展示和点击，这些均在中配置 [!DNL Advertising Search, Social, & Commerce]. 在转化归因期间，点击次数优先于展示次数。 根据归因规则，转化路径中的任何点击都将获得完全点数。 只有转化路径中未跟踪任何点击时，展示次数才会获得点数。
+   * *[!UICONTROL Last Event]：* 将转化归因于转化路径中的最后一次点击或展示。
 
-* *[!UICONTROL Last Event]：* 将转化归因于转化路径中的最后一次点击或展示。
+   * *[!UICONTROL Weight Last More]：* 将转化归因于转化路径中的所有事件，但给予最后一个事件的权重最大，给予前一个事件的权重依次较低。
 
-* *[!UICONTROL Weight Last More]：* 将转化归因于转化路径中的所有事件，但给予最后一个事件的权重最大，给予前一个事件的权重依次较低。
+   * *[!UICONTROL Even Distribution]：* 将转化同等地归因于转化路径中的每个事件。
 
-* *[!UICONTROL Even Distribution]：* 将转化同等地归因于转化路径中的每个事件。
+   * *[!UICONTROL Weight First More]：* 将转化归因于转化路径中的所有事件，但给予第一个事件的权重最大，给予以下事件的权重依次较低。
 
-* *[!UICONTROL Weight First More]：* 将转化归因于转化路径中的所有事件，但给予第一个事件的权重最大，给予以下事件的权重依次较低。
+   * *[!UICONTROL First Event]：* 将转化归因于转化路径中的第一次点击或展示。
 
-* *[!UICONTROL First Event]：* 将转化归因于转化路径中的第一次点击或展示。
+   * *[!UICONTROL U-shaped]：* 将转化归因于转化路径中的所有事件，但给予第一个和最后一个事件的权重最大，给予转化路径中间事件的权重依次较低。
 
-* *[!UICONTROL U-shaped]：* 将转化归因于转化路径中的所有事件，但给予第一个和最后一个事件的权重最大，给予转化路径中间事件的权重依次较低。
+   * *[!UICONTROL Display Only]：*  将转化归因于转化路径中的上次DSP点击或展示。 这包括视频和连接的电视广告，并且不包括点击 [!DNL Advertising Search, Social, & Commerce] 广告。
 
-* *[!UICONTROL Display Only]：*  将转化归因于转化路径中的上次DSP点击或展示。 这包括视频和连接的电视广告，并且不包括点击 [!DNL Advertising Search, Social, & Commerce] 广告。
+   * *[!UICONTROL Social Only]：* 已过时
 
-* *[!UICONTROL Social Only]：* 已过时
+  <!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
 
-<!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
+<!--
+* **Lookback:** ([!UICONTROL Household Conversion] reports with [!UICONTROL Conversion Metrics] or [!UICONTROL Custom Goals] columns; advertisers with Adobe Advertising conversion tracking only) Within the report, the number of days after a paid click in an event series occurs in which the click can be attributed to a conversion.
+-->
 
 **[!UICONTROL Paths as Columns]：**  (全部 [!UICONTROL Custom]， [!UICONTROL Conversion]， [!UICONTROL Device]， [!UICONTROL Geo]， [!UICONTROL Segment]、和 [!UICONTROL Site] 报告 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 列)当同一设备上发生先前的事件时要报告的转化类型。 您最多可以包含三种类型。 对于每个选定的类型，每个转化量度都包含一个单独的列，该列后附加指定的后缀([!UICONTROL (tl)]， [!UICONTROL (ct)]，或 [!UICONTROL (vt)])：
 
