@@ -2,9 +2,9 @@
 title: 有关家庭报表的常见问题解答
 description: 进一步了解家庭覆盖率、频率和转化数据，包括家庭报表与其他报表和故障排除有何不同。
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: e07038895e64a266f898619384c8b41024f71038
+source-git-commit: ae6028d7dc9b35906e4abcd727b84b169e5594b1
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -91,11 +91,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Household Reach & Frequency] 和 [!UICONTROL Household Conversions] 报表与来自的数据 [!DNL Advanced Measurement Services]
 
-要获取有关基于家庭的访问范围和频率或转化率的高级报告，请 [[!DNL Strategic Advertising Consulting] 团队](/help/dsp/introduction/advanced-measurement-services.md) 可提供高度可自定义的报告以及整体战略建议。 有关详情，请参阅 [!DNL Advanced Measurement Services]，请联系您的Adobe客户团队。
+要提前报告基于家庭的覆盖范围和频率或转化率，请 [[!DNL Strategic Advertising Consulting] 团队](/help/dsp/introduction/advanced-measurement-services.md) 可提供高度可自定义的报告以及整体战略建议。 有关详情，请参阅 [!DNL Advanced Measurement Services]，请联系您的Adobe客户团队。
 
 ### 如果我已经在使用 [!DNL Advanced Measurement Services]，为何要使用 [!UICONTROL Household Reach & Frequency] 和 [!UICONTROL Household Conversions] 报告？
 
-此 [!UICONTROL Household Reach & Frequency] 和 [!UICONTROL Household Conversions] 报告使客户端能够实时自主地提取家庭级覆盖率、频率和转化量度。
+此 [!UICONTROL Household Reach & Frequency] 和 [!UICONTROL Household Conversions] 报告使客户端能够实时自主地提取家庭级别的可达性、频率和转化量度。
 
 ### 我能否同时使用 [!UICONTROL Household Reach & Frequency] 和 [!UICONTROL Household Conversions] 报告和 [!DNL Advanced Measurement Services]？
 
