@@ -1,9 +1,10 @@
 ---
 title: 将转化量度上传到 [!DNL Google Ads]
 description: 了解如何将搜索、社交和商务跟踪的转化量度上传到 [!DNL Google Ads].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 88db66c2-12db-41cf-b6c4-ed821cb3b8ea
+source-git-commit: 00f9e5e3892be305f5d7c69161bdb7609f13f1bf
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -12,13 +13,13 @@ ht-degree: 0%
 
 *广告商使用 [!DNL Google Ads] 仅限帐户*
 
-搜索、社交和商务可以选择上传至 [!DNL Google Ads] 它跟踪的所有转化量度 [!DNL Google Ads] 使用AdobeAdobe广告转化跟踪服务和从Adobe Analytics同步的转化量度的营销活动。 此选项不使转换可用于混合优化。 如果要将Adobe转化用于混合优化，请参阅&quot;[允许将目标上传到广告网络](objective-upload-to-networks.md).”
+搜索、社交和商务可以选择上传至 [!DNL Google Ads] 它跟踪的所有转化量度 [!DNL Google Ads] 使用从Adobe Analytics同步的Adobe Advertising转化跟踪服务和转化量度的营销活动。 此选项不使转换可用于混合优化。 如果要将Adobe转化用于混合优化，请参阅&quot;[允许将目标上传到广告网络](objective-upload-to-networks.md).”
 
 每日上传包括跟踪的 `gclid` 值、使用广告商级别归因模型定义的转化值和时间戳。 如果更新了归因模型，则下次上传时将使用新模型，但不会更新过去的数据以使用新模型。
 
 >[!NOTE]
 >
->上传内容不包括从馈送文件上传到Adobe广告的转化量度。
+>上传内容不包括从馈送文件上传到Adobe Advertising的转化量度。
 
 1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 
@@ -31,4 +32,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [允许将目标上传到广告网络](objective-upload-to-networks.md)
-
