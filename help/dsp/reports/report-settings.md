@@ -3,9 +3,9 @@ title: 自定义报表设置
 description: 请参阅对自定义报表设置的描述。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 3faf43573cb073be828b0740f68f0e7d0612a1ef
+source-git-commit: b41c1ab857d37d21cf593a8e566b18f2769d47c0
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1123'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,22 @@ ht-degree: 0%
 
 **[!UICONTROL Drag to Re-Order Report Headers Below]：** 列标题的顺序。 您可以拖放任何列以自定义顺序。
 
-## [!UICONTROL Multi-Touch Conversion Options] 章节
-
 **[!UICONTROL Format]：** 是否在中生成报告 *[!UICONTROL CSV]* （逗号分隔值）或 *[!UICONTROL Tab]* （制表符分隔值）格式。
 
-**[!UICONTROL Report Headers]：** 是否要 *[!UICONTROL Include]* 或 *[!UICONTROL Do Not Include]* 列标题。
+**[!UICONTROL Headers]：** 是否要 *[!UICONTROL Include]* 或 *[!UICONTROL Do Not Include]* 列标题。
 
-**[!UICONTROL Attribution Rule Settings]：** (全部 [!UICONTROL Custom]， [!UICONTROL Conversion]， [!UICONTROL Device]， [!UICONTROL Geo]， [!UICONTROL Segment]、和 [!UICONTROL Site] 报告 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 列；仅具有Adobe Advertising转化跟踪的广告商)在报表中，如何在一系列导致转化的事件中归因转化数据。 如果要比较规则之间的差异，可以选择多个规则。
+## [!UICONTROL Multi-Touch Conversion Options] 章节
+
+
+### [!UICONTROL Attribution Rule Settings]
+
+**\[归因类型\]：** ([!UICONTROL Household Conversion] 报告 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 列；仅具有Adobe Advertising转化跟踪的广告商)在报表中，如何在一系列导致转化的事件中归因转化数据：
+
+* [!UICONTROL Unique]：（默认）计算维度值（如设备或投放位置）在转化路径上的次数。
+
+* [!UICONTROL Multi-Touch Attribution (MTA)]：根据维度值（如设备或投放位置）在转化路径上的出现频率分配每次转化的点数。 例如，如果在转化前总共有10次展示，其中8次在CTV上展示，2次在移动设备上展示，则信用的80%(0.8)将给予给CTV屏幕，0.2给予移动设备屏幕。
+
+**\[规则类型\]：** (全部 [!UICONTROL Custom]， [!UICONTROL Conversion]， [!UICONTROL Device]， [!UICONTROL Geo]， [!UICONTROL Segment]、和 [!UICONTROL Site] 报告 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 列；仅具有Adobe Advertising转化跟踪的广告商)在报表中，如何在一系列导致转化的事件中归因转化数据。 如果要比较规则之间的差异，可以选择多个规则。
 
 >[!NOTE]
 >

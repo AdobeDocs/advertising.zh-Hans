@@ -2,9 +2,9 @@
 title: 有关家庭报表的常见问题解答
 description: 进一步了解家庭覆盖率、频率和转化数据，包括家庭报表与其他报表和故障排除有何不同。
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: ae6028d7dc9b35906e4abcd727b84b169e5594b1
+source-git-commit: bd925c41f7b949c56402edd4e2dc393f0c5bed57
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -75,9 +75,9 @@ ht-degree: 0%
 
 支持两种类型的归因方法：
 
-* 唯一：计算维度值（如设备或投放位置）在转化路径上的次数。
+* [!UICONTROL Unique]：计算维度值（如设备或投放位置）在转化路径上的次数。
 
-* MTA（多点接触归因）：根据转化路径上维度值（例如设备或投放位置）的发生频率分配每次转化的点数。 例如，如果在转化前总共有10次展示，其中8次在CTV上展示，2次在移动设备上展示，则信用的80%(0.8)将给予给CTV屏幕，0.2给予移动设备屏幕。
+* [!UICONTROL Multi-Touch Attribution (MTA)]：根据维度值（如设备或投放位置）在转化路径上的出现频率分配每次转化的点数。 例如，如果在转化前总共有10次展示，其中8次在CTV上展示，2次在移动设备上展示，则信用的80%(0.8)将给予给CTV屏幕，0.2给予移动设备屏幕。
 
 ### 在Adobe Analytics中，家庭转化报表与CTV浏览转化报表有何不同？
 
