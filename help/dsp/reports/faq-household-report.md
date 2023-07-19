@@ -1,10 +1,10 @@
 ---
 title: 有关家庭报表的常见问题解答
-description: 进一步了解报表数据，包括如何 [!UICONTROL Household] 报告不同于其他报告和疑难解答。
+description: 进一步了解家庭覆盖率、频率和转化数据，包括家庭报表与其他报表和故障排除有何不同。
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: 05f7d9c7a120828bda46d4f79796dfb419cca242
+source-git-commit: e07038895e64a266f898619384c8b41024f71038
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
