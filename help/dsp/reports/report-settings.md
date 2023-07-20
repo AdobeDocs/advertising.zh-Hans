@@ -3,9 +3,9 @@ title: 自定义报表设置
 description: 请参阅对自定义报表设置的描述。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 73fb309063066e52e4d8c23f5ce9ebb84159b253
+source-git-commit: 781b0c8874d73d060bc7133bdd55d1ceffb63435
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -74,9 +74,9 @@ ht-degree: 0%
 
 * **\[归因类型\]：** ([!UICONTROL Household Conversion] 报告 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 列；仅具有Adobe Advertising转化跟踪的广告商)在报表中，如何在一系列导致转化的事件中归因转化数据：
 
-   * [!UICONTROL Unique]：（默认）计算维度值（如设备或投放位置）在转化路径上的次数。
+   * *[!UICONTROL Unique]：* （默认）计算维度值（如设备或投放位置）在转换路径上的次数。
 
-   * [!UICONTROL Multi-Touch Attribution (MTA)]：根据维度值（如设备或投放位置）在转化路径上的出现频率分配每次转化的点数。 例如，如果在转化前总共有10次展示，其中8次在CTV上展示，2次在移动设备上展示，则信用的80%(0.8)将给予给CTV屏幕，0.2给予移动设备屏幕。
+   * *[!UICONTROL Multi-Touch Attribution (MTA)]：*  根据维度值（如设备或投放位置）在要转换的路径上的出现频率分配每个转换的点数。 例如，如果在转化前总共有10次展示，其中8次在CTV上展示，2次在移动设备上展示，则信用的80%(0.8)将给予给CTV屏幕，0.2给予移动设备屏幕。
 
 * **\[规则类型\]：** (全部 [!UICONTROL Custom]， [!UICONTROL Conversion]， [!UICONTROL Device]， [!UICONTROL Geo]， [!UICONTROL Segment]、和 [!UICONTROL Site] 报告 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 列；仅具有Adobe Advertising转化跟踪的广告商)在报表中，如何在一系列导致转化的事件中归因转化数据。 如果要比较规则之间的差异，可以选择多个规则。
 
@@ -102,9 +102,7 @@ ht-degree: 0%
 
   <!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
 
-<!--
-* **Lookback:** ([!UICONTROL Household Conversion] reports with [!UICONTROL Conversion Metrics] or [!UICONTROL Custom Goals] columns; advertisers with Adobe Advertising conversion tracking only) Within the report, the number of days after a paid click in an event series occurs in which the click can be attributed to a conversion.
--->
+* **回顾：** ([!UICONTROL Household Conversion] 报告 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 列；仅具有Adobe Advertising转化跟踪的广告商)在报表中，转化事件可归因于展示事件的最大天数。 默认为 *[!UICONTROL 30 days]*，最长为92天。
 
 **[!UICONTROL Paths as Columns]：**  (全部 [!UICONTROL Custom]， [!UICONTROL Conversion]， [!UICONTROL Device]， [!UICONTROL Geo]， [!UICONTROL Segment]、和 [!UICONTROL Site] 报告 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 列)当同一设备上发生先前的事件时要报告的转化类型。 您最多可以包含三种类型。 对于每个选定的类型，每个转化量度都包含一个单独的列，该列后附加指定的后缀([!UICONTROL (tl)]， [!UICONTROL (ct)]，或 [!UICONTROL (vt)])：
 
