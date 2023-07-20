@@ -3,9 +3,9 @@ title: 自定义报表设置
 description: 请参阅对自定义报表设置的描述。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 781b0c8874d73d060bc7133bdd55d1ceffb63435
+source-git-commit: 54e60a47c54eaac687fd0b385a94b25818b66b71
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Multi-Touch Conversion Options] 章节
 
-**[!UICONTROL Attribution Rule Settings]** 设置因报告类型而异：
+**[!UICONTROL Attribution Rule Settings]：** 设置因报告类型而异：
 
 * **\[归因类型\]：** ([!UICONTROL Household Conversion] 报告 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 列；仅具有Adobe Advertising转化跟踪的广告商)在报表中，如何在一系列导致转化的事件中归因转化数据：
 
@@ -150,7 +150,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Save Report] 章节
 
-**[!UICONTROL Send & Save]：** 何时发送报告： *[!UICONTROL On Schedule]* 或 *[!UICONTROL Run Now]*. 计划报表将于9:00之前在帐户所在时区传送。
+**[!UICONTROL Send & Save]：** 何时发送报告： *[!UICONTROL On Schedule]* 或 *[!UICONTROL Run Now]*. 计划报表在帐户时区的09:00之前交付。
 
 >[!NOTE]
 >
