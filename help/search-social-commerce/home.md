@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: b0244cf2d56026493bc1902abebbdb660e07b1e2
+source-git-commit: 004f1c41578f0c046ccb81f17fbf812959433c87
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2023年6月30日 | [!UICONTROL Asset Library] | (开放Beta版功能； [!DNL Google Ads] accounts) In [!UICONTROL Campaigns] > [!UICONTROL Asset Library (Beta)]，您可以创建可重复使用的图像、视频和文本资源并将其上传到 [!DNL Google Ads] 帐户级别的资产库。 在中创建或编辑营销活动时，您可以将资源用于广告 [!DNL Google Ads] 编辑者。 | 参见“[创建和上传资源](/help/search-social-commerce/campaign-management/asset-library/asset-create.md).” |
+| 2023年6月30日 | [!UICONTROL Asset Library] | (开放Beta版功能； [!DNL Google Ads] accounts) In [!UICONTROL Campaigns] > [!UICONTROL Asset Library]，您可以创建可重复使用的图像、视频和文本资源并将其上传到 [!DNL Google Ads] 帐户级别的资产库。 在中创建或编辑营销活动时，您可以将资源用于广告 [!DNL Google Ads] 编辑者。 | 参见“[创建和上传资源](/help/search-social-commerce/campaign-management/asset-library/asset-create.md).” |
 | | [!UICONTROL Google Import] | 您现在可以从中生成自己的导入凭据ID [!DNL Microsoft® Advertising] 在为配置营销活动导入作业时 [!DNL Google Ads]. 以前，Adobe技术支持或您的Adobe客户团队提供ID。 | 参见“[复制 [!DNL Google Ads] 中的营销活动 [!DNL Microsoft® Advertising]](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md).” |
 | 2023年6月27日 | [!UICONTROL Campaigns] | (Beta版功能； [!DNL Microsoft® Advertising] 帐户)您现在可以在以下位置指定营销活动级别的转化目标： [!DNL Microsoft® Advertising] campaign设置。 以前，当您在“搜索”、“社交”和“商务”中创建营销活动时，会使用帐户级别的目标。 | 参见“[[!DNL Microsoft® Advertising] campaign设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md).” |
 | 2023年6月10日 | [!UICONTROL Recommendations and Publisher Insights] | （开放Beta版） [!UICONTROL Microsoft® Advertising] 过去30天中建议的性能见解和推荐可在以下网站获取： [!UICONTROL Optimization] > [!UICONTROL Recommendations and Publisher Insights].<br><br><b>注意：</b> 虽然推荐可帮助您提高营销活动效果，但有些推荐可能不符合您更广泛的目标。 因此，在执行任何建议之前，最好先咨询您的Adobe客户团队。 | 参见“[关于发布者推荐和见解支持](/help/search-social-commerce/recommendations/recommendation-support.md).” |
