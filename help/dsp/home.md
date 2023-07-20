@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: d825772e74e8b3ab9eec747706801beca08aaa9c
+source-git-commit: a616228e40df2ed49b0eb354f3c626a2076524e3
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2023年7月19日 | 报告 | (DSP用户使用 [!DNL Analytics for Advertising])新的 [!UICONTROL Household Conversions Report] 显示基于IP地址的家庭级别浏览转化而不是设备/Cookie级别的浏览转化。 | 参见“[关于报告](/help/dsp/reports/report-about.md)“ ”和“ ”[有关家庭报表的常见问题解答](/help/dsp/reports/faq-household-report.md).” |
+| 2023年7月19日 | 报告 | 新 [!UICONTROL Household Conversions Report] 显示基于IP地址的家庭级别浏览转化而不是设备/Cookie级别的浏览转化。 | 参见“[关于报告](/help/dsp/reports/report-about.md)“ ”和“ ”[有关家庭报表的常见问题解答](/help/dsp/reports/faq-household-report.md).” |
 | 2023年5月29日 | [!UICONTROL Campaigns] | 您现在可以暂停或激活营销活动、包和广告。 您已可以暂停并激活投放位置。 | 参见“[暂停或激活营销活动](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md)，&quot; &quot;[暂停或激活包](/help/dsp/campaign-management/packages/package-pause-activate.md)，”和“[暂停或激活广告](/help/dsp/campaign-management/ads/ad-pause-activate.md).” |
 | 2023年5月24日 | [!UICONTROL Campaigns] | 通用视频投放位置和广告现已正式推出。 | 参见“[关于通用视频的常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)，&quot; &quot;[通用视频广告设置](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)，”和“[创建广告](/help/dsp/campaign-management/ads/ad-create.md).” |
 | 2023年3月 | [!UICONTROL Reports] | 新 [!UICONTROL Household Report] 根据IP地址而不是设备/Cookie级别，在家庭级别显示各种维度的展示次数、覆盖范围和频率。 报告包含九个方面： [!UICONTROL Campaign]， [!UICONTROL Package]， [!UICONTROL Placement]， [!UICONTROL Site/Apps]， [!UICONTROL Media Type]， [!UICONTROL Device]， [!UICONTROL Audience]， [!UICONTROL Creative Length]，和用户创建的 [!UICONTROL Tags]. | 参见“[关于报告](/help/dsp/reports/report-about.md)，&quot; &quot;[报表设置](/help/dsp/reports/report-settings.md)，”和“[有关家庭报表的常见问题解答](/help/dsp/reports/faq-household-report.md).” |
