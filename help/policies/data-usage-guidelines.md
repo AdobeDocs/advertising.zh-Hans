@@ -1,27 +1,27 @@
 ---
-title: AdobeAdvertising DSP資料使用指南
-description: 請參閱資料使用准則。
+title: Adobe Advertising DSP数据使用准则
+description: 请参阅数据使用准则。
 feature: Policies
 exl-id: b71caa80-d1f6-4f42-90c3-a3e19acb2c6c
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 2ba5330a21b637fbf7ae887a0682678eb26e0af9
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
 
-# AdobeAdvertising DSP資料使用指南
+# Adobe Advertising DSP数据使用准则
 
-*上次更新日期： 2019年9月5日*
+*上次更新日期：2019年9月5日（除了更新此页面的URL之外）*
 
-*適用於Adobe廣告DSP*
+*用于Adobe Advertising DSP*
 
-本資料使用指引（「資料指引」）列出使用透過Adobe的Advertising DSP隨選服務（「服務」）存取的特定資料的需求。 這些指引是納入Adobe與客戶之間使用隨選服務的合約中，作為參考。 本指引中使用但此處未定義的辭彙大寫字母將具有本合約中所述的意義。
+这些数据使用指南（“数据指南”）规定了使用通过Adobe的Advertising DSP按需服务（“服务”）访问的某些数据的要求。 这些指南将参考纳入Adobe与客户之间使用按需服务的协议。 本指南中使用但此处未定义的首字母大写术语将具有本协议中规定的含义。
 
-Adobe保留權利，可依其本身判斷，決定客戶對資料的使用是否違反這些指引。
+Adobe保留由其自行判断客户使用数据是否违反这些准则的权利。
 
-## 使用 [!DNL TruSignal] 資料
+## 使用 [!DNL TruSignal] 数据
 
-[!DNL TruSignal] 資料不可用於下列用途：(1)任何允許的目的或不利的動作，如 [!DNL Fair Credit Reporting Act] （經不時修訂）；(2)重新談判或重組債務；或(3)為任何成人娛樂、色情、性玩具、異國舞蹈、火器、非法賭博，或任何其他非法產品或服務的廣告提供便利，包括但不限於基於種族、性別、宗教、性取向的歧視，或以任何在適用法律下可能被視為不公平的方式；及(4)為了(a)就業資格，(b)信貸資格， `(c)` 醫療保健資格，或(d)保險資格承保與定價。<!-- I used backticks in the previous sentence to prevent ( c ) from displaying as a copyright symbol. I think the OS does that. Using HTML code for the parentheses doesn't prevent it. -->
+[!DNL TruSignal] 数据不能用于以下用途：(1)由 [!DNL Fair Credit Reporting Act] （经不时修订）；(2)债务重新谈判或重组；或(3)为任何成人娱乐、色情、性玩具、异国舞蹈、火器、非法赌博或任何其他非法产品或服务的广告提供便利，包括但不限于基于种族、性别、宗教、性取向的歧视，或根据适用法律可视为不公平的任何方式的歧视；及(4)为了(a)就业资格，(b)信贷资格， `(c)` 医疗保健资格，或(d)保险资格承保及定价。<!-- I used backticks in the previous sentence to prevent ( c ) from displaying as a copyright symbol. I think the OS does that. Using HTML code for the parentheses doesn't prevent it. -->
 
-此外， [!DNL TruSignal] 資料不可以是：(1)經過重新編譯、拆解、用來建立衍生作品或反向工程；或(2)轉授權、轉售、重複使用或授予任何協力廠商的任何權利，包括任何服務局使用。
+此外， [!DNL TruSignal] 数据不能为：(1)经过编译、分解、用于创建衍生作品或反向工程；或(2)转授权、转售、再使用或授予任何第三方的任何权利，包括任何服务局使用。
