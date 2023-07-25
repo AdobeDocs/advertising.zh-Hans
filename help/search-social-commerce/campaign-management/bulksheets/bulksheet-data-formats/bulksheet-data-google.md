@@ -2,7 +2,7 @@
 title: 以下项的必需批量处理工作表数据 [!DNL Google Ads] 帐户
 description: 引用批量处理工作表中的必填标题字段和数据字段 [!DNL Google Ads] 帐户。
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 25f9deef6302065a6576a07fcb880e81470886e5
+source-git-commit: eed95a48b5fe8a354134b0b658db13665c500920
 workflow-type: tm+mt
 source-wordcount: '7839'
 ht-degree: 0%
