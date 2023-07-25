@@ -2,9 +2,9 @@
 title: 以下项的必需批量处理工作表数据 [!DNL Google Ads] 帐户
 description: 引用批量处理工作表中的必填标题字段和数据字段 [!DNL Google Ads] 帐户。
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 09ac5c3fa36f5fce10174d10cb10bb7cf7e836c7
+source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
 workflow-type: tm+mt
-source-wordcount: '7706'
+source-wordcount: '7729'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 以下表格包含所有可用的数据字段和其他表格，指示添加、编辑或删除单个实体（如营销活动和关键字）的数据所需的字段。
 
-## 所有可用数据字段
+## 所有可用数据字段 {#bulksheet-fields-all-google}
 
-下表显示所有可用的数据字段。
+下表描述了所有可用的数据字段。
 
 有关与帐户实体相关的数据字段，请参阅&quot;[创建、编辑或删除每个帐户组件所需的字段](#bulksheet-fields-per-component-google).
 
@@ -129,6 +129,10 @@ ht-degree: 0%
 [^1]： [!DNL Excel] 在打开文件时，将大型数字转换为科学记号(如2.12E+09 for 2115585666)。 要查看标准表示法中的数字，请选择列中的任意单元格，然后单击公式栏中的。
 
 ## 创建、编辑或删除每个帐户组件所需的字段 {#bulksheet-fields-per-component-google}
+
+以下部分包含与特定帐户实体相关的字段。
+
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
 
 >[!NOTE]
 >
