@@ -3,16 +3,16 @@ title: Adobe Advertising广告要求策略
 description: 有关广告要求，请参阅策略。
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 04980842afb60870b2beb851e3e80431ae0b037d
+source-git-commit: b81323c8f576617cc551963b7abd28575166f53a
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '2060'
 ht-degree: 0%
 
 ---
 
 # Adobe Advertising广告要求策略
 
-*上次更新时间：2021年7月12日（此页面的已更新产品名称和URL除外）*
+*上次更新日期： 2021年7月12日*
 
 *用于Adobe Advertising DSP和Adobe Advertising搜索、社交和商务*
 
