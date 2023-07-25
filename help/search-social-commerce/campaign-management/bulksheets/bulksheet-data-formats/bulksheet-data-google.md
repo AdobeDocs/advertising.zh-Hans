@@ -2,9 +2,9 @@
 title: 以下项的必需批量处理工作表数据 [!DNL Google Ads] 帐户
 description: 引用批量处理工作表中的必填标题字段和数据字段 [!DNL Google Ads] 帐户。
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
+source-git-commit: 25f9deef6302065a6576a07fcb880e81470886e5
 workflow-type: tm+mt
-source-wordcount: '7884'
+source-wordcount: '7839'
 ht-degree: 0%
 
 ---
@@ -143,8 +143,8 @@ ht-degree: 0%
 | 字段 | 必需？ |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
-| [!UICONTROL Campaign Name] | 必需 | 标识帐户促销活动的唯一名称。 |
-| [!UICONTROL Campaign Budget] | 需要才能创建营销策划。 | 竞选活动的每日支出上限，无论是否带有货币符号和标点。 此值将覆盖但不能超过帐户预算。 |
+| [!UICONTROL Campaign Name] | 必需 |
+| [!UICONTROL Campaign Budget] | 需要才能创建营销策划。 |
 | [!UICONTROL Delivery Method] | 需要才能创建营销策划。 |
 | [!UICONTROL Channel Type] | 需要才能创建营销策划。 |
 | [!UICONTROL Networks] | 需要才能创建营销策划。 |
@@ -193,8 +193,8 @@ ht-degree: 0%
 
 有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | [!UICONTROL Ad Group Name] | 必需 |
@@ -218,8 +218,8 @@ ht-degree: 0%
 
 有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | [!UICONTROL Ad Group Name] | 必需 |
@@ -246,8 +246,8 @@ ht-degree: 0%
 
 有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | [!UICONTROL Ad Group Name] | 必需 |
@@ -271,8 +271,8 @@ ht-degree: 0%
 
 有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | [!UICONTROL Ad Group Name] | 必需 |
@@ -295,8 +295,8 @@ ht-degree: 0%
 
 有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | [!UICONTROL Ad Group Name] | 必需 | |
@@ -327,8 +327,8 @@ ht-degree: 0%
 >
 >扩展的文字广告已于2022年6月被弃用。 您只能删除现有的文字广告。
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | [!UICONTROL Ad Group Name] | 必需 |
@@ -353,8 +353,8 @@ ht-degree: 0%
 
 有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | [!UICONTROL Ad Group Name] | 必需 |
@@ -373,8 +373,8 @@ ht-degree: 0%
 
 有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | [!UICONTROL Ad Group Name] | 必需 |
@@ -397,8 +397,8 @@ ht-degree: 0%
 
 有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | [!UICONTROL Ad Group Name] | 对于广告组级别的站点链接，此为必需字段。 不适用于营销活动级别的站点链接。 |
@@ -418,8 +418,8 @@ ht-degree: 0%
 
 有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | [!UICONTROL Location] | 必需 |
@@ -433,8 +433,8 @@ ht-degree: 0%
 
 有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | [!UICONTROL Device] | 创建或编辑设备目标时需要。 |
@@ -450,8 +450,8 @@ ht-degree: 0%
 
 有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | [!UICONTROL Bid Adjustment] | 可选 |
