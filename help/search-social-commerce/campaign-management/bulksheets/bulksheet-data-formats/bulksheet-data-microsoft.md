@@ -2,9 +2,9 @@
 title: 以下项的必需批量处理工作表数据 [!DNL Microsoft Advertising] 帐户
 description: 引用批量处理工作表中的必填标题字段和数据字段 [!DNL Microsoft Advertising] 帐户。
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
+source-git-commit: 9cdfe415c9ec2d7e7b65d5a46d208329d66ca14a
 workflow-type: tm+mt
-source-wordcount: '6900'
+source-wordcount: '6888'
 ht-degree: 0%
 
 ---
@@ -181,8 +181,8 @@ ht-degree: 0%
 
 有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | [!UICONTROL Ad Group Name] | 必需 |
@@ -212,8 +212,8 @@ ht-degree: 0%
 
 有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | [!UICONTROL Ad Group Name] | 必需 |
@@ -237,8 +237,8 @@ ht-degree: 0%
 
 有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | [!UICONTROL Ad Group Name] | 必需 |
@@ -261,8 +261,8 @@ ht-degree: 0%
 
 有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | [!UICONTROL Ad Group Name] | 必需 |
@@ -287,8 +287,8 @@ ht-degree: 0%
 
 有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | [!UICONTROL Ad Group Name] | 必需 | |
@@ -319,8 +319,8 @@ ht-degree: 0%
 
 有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | [!UICONTROL Ad Group Name] | 必需 |
@@ -349,8 +349,8 @@ ht-degree: 0%
 
 有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | [!UICONTROL Ad Group Name] | 必需 |
@@ -370,8 +370,8 @@ ht-degree: 0%
 
 有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | [!UICONTROL Ad Group Name] | 必需 |
@@ -394,8 +394,8 @@ ht-degree: 0%
 
 有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | 说明第1行 | 可选 |
@@ -416,8 +416,8 @@ ht-degree: 0%
 
 有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | [!UICONTROL Location] | 必需 |
@@ -431,8 +431,8 @@ ht-degree: 0%
 
 有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | [!UICONTROL Device] | 删除设备目标时需要。 |
@@ -447,8 +447,8 @@ ht-degree: 0%
 
 有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
 
-| 字段 | 必需？ | 描述 |
-| ---- | ---- | ---- |
+| 字段 | 必需？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
 | [!UICONTROL Campaign Name] | 必需 |
 | [!UICONTROL Ad Group Name] | 对于广告组级别目标，此为必需字段。 不适用于营销活动级别的目标。 |
