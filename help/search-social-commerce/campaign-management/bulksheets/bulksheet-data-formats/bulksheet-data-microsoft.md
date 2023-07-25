@@ -1,9 +1,10 @@
 ---
 title: 以下项的必需批量处理工作表数据 [!DNL Microsoft Advertising] 帐户
 description: 引用批量处理工作表中的必填标题字段和数据字段 [!DNL Microsoft Advertising] 帐户。
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
+source-git-commit: e4901c1ac6e73f27886e315136c3fe9b865cdd48
 workflow-type: tm+mt
-source-wordcount: '6595'
+source-wordcount: '6721'
 ht-degree: 0%
 
 ---
@@ -12,11 +13,15 @@ ht-degree: 0%
 
 创建和更新 [!DNL Microsoft Advertising] 批量处理营销活动数据，您可以使用专门格式化的搜索、社交和商务批量工作表文件 [!DNL Microsoft Advertising] 帐户。 您可以a) [为现有帐户生成批量工作表文件](../bulksheet-download.md) (b)手动创建它们（请参见）[支持的批量工作表文件格式](bulksheet-file-formats.md)”以了解有关支持的文件格式的一般信息)。
 
-{{$include /help/_includes/bulksheet-appendices-intro.md}}
+每个批量工作表必须包含标题字段和相应的数据字段，这些字段是 [要执行的特定操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md) （例如创建广告）。 当字段不是必填字段时，您可以从标题行和数据行中忽略该字段。 上传批量工作表文件时将删除所有自定义列。
+
+以下表格包含所有可用的数据字段和其他表格，指示添加、编辑或删除单个实体（如营销活动和关键字）的数据所需的字段。
 
 ## 所有可用数据字段
 
-{{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
+下表显示所有可用的数据字段。
+
+有关与帐户实体相关的数据字段，请参阅&quot;[创建、编辑或删除每个帐户组件所需的字段](#bulksheet-fields-per-component-microsoft).
 
 | 字段 | 描述 |
 |----|----|
@@ -112,7 +117,11 @@ ht-degree: 0%
 
 [^1]： [!DNL Excel] 在打开文件时，将大型数字转换为科学记号(如2.12E+09 for 2115585666)。 要查看标准表示法中的数字，请选择列中的任意单元格，然后单击公式栏中的。
 
-## 创建、编辑或删除每个帐户组件所需的字段
+## 创建、编辑或删除每个帐户组件所需的字段 {#bulksheet-fields-per-component-microsoft}
+
+>[!NOTE]
+>
+>当字段不适用于操作时，在字段中输入的任何值都将被忽略。
 
 ### 营销活动字段
 

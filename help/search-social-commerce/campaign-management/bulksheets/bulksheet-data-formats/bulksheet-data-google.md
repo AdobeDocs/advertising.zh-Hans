@@ -1,9 +1,10 @@
 ---
 title: 以下项的必需批量处理工作表数据 [!DNL Google Ads] 帐户
 description: 引用批量处理工作表中的必填标题字段和数据字段 [!DNL Google Ads] 帐户。
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
+source-git-commit: 09ac5c3fa36f5fce10174d10cb10bb7cf7e836c7
 workflow-type: tm+mt
-source-wordcount: '7515'
+source-wordcount: '7706'
 ht-degree: 0%
 
 ---
@@ -12,11 +13,22 @@ ht-degree: 0%
 
 创建和更新 [!DNL Google Ads] 批量处理营销活动数据，您可以使用专门格式化的搜索、社交和商务批量工作表文件 [!DNL Google Ads] 帐户。 您可以a) [为现有帐户生成批量工作表文件](../bulksheet-download.md) (b)手动创建它们（请参见）[支持的批量工作表文件格式](bulksheet-file-formats.md)”以了解有关支持的文件格式的一般信息)。
 
-{{$include /help/_includes/bulksheet-appendices-intro.md}}
+每个批量工作表必须包含标题字段和相应的数据字段，这些字段是 [要执行的特定操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md) （例如创建广告）。 当字段不是必填字段时，您可以从标题行和数据行中忽略该字段。 上传批量工作表文件时将删除所有自定义列。
+
+以下表格包含所有可用的数据字段和其他表格，指示添加、编辑或删除单个实体（如营销活动和关键字）的数据所需的字段。
 
 ## 所有可用数据字段
 
-{{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
+下表显示所有可用的数据字段。
+
+有关与帐户实体相关的数据字段，请参阅&quot;[创建、编辑或删除每个帐户组件所需的字段](#bulksheet-fields-per-component-google).
+
+>[!NOTE]
+>
+>* 所有文本列中的值都区分大小写。
+>* 创建新记录并且不包含所有必需数据字段的值时，将为其中一些字段分配指定的默认值。
+>* 对于以下未指定的字段，使用广告网络的默认值。
+>* 要获取中可用批量处理工作表行的列表， [!UICONTROL Download Bulksheet] 对话框，请参阅“[按广告网络批量处理工作表行](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network).”
 
 | 字段 | 描述 |
 | ---- | ---- |
@@ -116,7 +128,11 @@ ht-degree: 0%
 
 [^1]： [!DNL Excel] 在打开文件时，将大型数字转换为科学记号(如2.12E+09 for 2115585666)。 要查看标准表示法中的数字，请选择列中的任意单元格，然后单击公式栏中的。
 
-## 创建、编辑或删除每个帐户组件所需的字段
+## 创建、编辑或删除每个帐户组件所需的字段 {#bulksheet-fields-per-component-google}
+
+>[!NOTE]
+>
+>当字段不适用于操作时，在字段中输入的任何值都将被忽略。
 
 ### 营销活动字段
 
