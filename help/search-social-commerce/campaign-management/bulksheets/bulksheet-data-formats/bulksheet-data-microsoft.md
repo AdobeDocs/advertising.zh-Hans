@@ -2,9 +2,9 @@
 title: 以下项的必需批量处理工作表数据 [!DNL Microsoft Advertising] 帐户
 description: 引用批量处理工作表中的必填标题字段和数据字段 [!DNL Microsoft Advertising] 帐户。
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
+source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
 workflow-type: tm+mt
-source-wordcount: '6744'
+source-wordcount: '6900'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 下表描述了所有可用的数据字段。
 
-有关与帐户实体相关的数据字段，请参阅&quot;[创建、编辑或删除每个帐户组件所需的字段](#bulksheet-fields-per-component-microsoft).
+有关与帐户实体相关的数据字段，请参阅&quot;[创建、编辑或删除每个帐户组件所需的字段](#bulksheet-fields-per-component-microsoft).”
 
 | 字段 | 描述 |
 |----|----|
@@ -121,13 +121,13 @@ ht-degree: 0%
 
 以下部分包含与特定帐户实体相关的字段。
 
-有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
-
 >[!NOTE]
 >
 >当字段不适用于操作时，在字段中输入的任何值都将被忽略。
 
 ### 营销活动字段
+
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
 
 | 字段 | 必需？ |
 | ---- | ---- |
@@ -155,6 +155,8 @@ ht-degree: 0%
 
 ### 广告组字段
 
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
+
 | 字段 | 必需？ |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
@@ -176,6 +178,8 @@ ht-degree: 0%
 | [!UICONTROL AMO ID] | 除非包含实体ID和父实体ID，否则需要编辑或删除数据。<br><br>Search、Social和Commerce会使用该值来确定要编辑的正确身份，但不会将ID发布到广告网络。 |
 
 ### 关键字字段
+
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
 
 | 字段 | 必需？ | 描述 |
 | ---- | ---- | ---- |
@@ -206,6 +210,8 @@ ht-degree: 0%
 
 对于此广告类型，请使用“[!UICONTROL Creative (except RSA)]“”行位于 [!UICONTROL Download Bulksheet] 对话框。
 
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
+
 | 字段 | 必需？ | 描述 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
@@ -229,6 +235,8 @@ ht-degree: 0%
 
 对于此广告类型，请使用“[!UICONTROL Creative (except RSA)]“”行位于 [!UICONTROL Download Bulksheet] 对话框。
 
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
+
 | 字段 | 必需？ | 描述 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
@@ -250,6 +258,8 @@ ht-degree: 0%
 ### 响应式（多媒体）广告字段
 
 对于此广告类型，请使用“[!UICONTROL Creative (except RSA)]“”行位于 [!UICONTROL Download Bulksheet] 对话框。
+
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
 
 | 字段 | 必需？ | 描述 |
 | ---- | ---- | ---- |
@@ -274,6 +284,8 @@ ht-degree: 0%
 ### 响应式搜索广告字段
 
 对于此广告类型，请使用“[!UICONTROL Responsive Search Ad]“”行位于 [!UICONTROL Download Bulksheet] 对话框。
+
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
 
 | 字段 | 必需？ | 描述 |
 | ---- | ---- | ---- |
@@ -305,6 +317,8 @@ ht-degree: 0%
 >
 >已弃用扩展的文本广告。 您只能删除现有的文字广告。
 
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
+
 | 字段 | 必需？ | 描述 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
@@ -333,6 +347,8 @@ ht-degree: 0%
 >
 >创建支持不可用。
 
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
+
 | 字段 | 必需？ | 描述 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
@@ -351,6 +367,8 @@ ht-degree: 0%
 | [!UICONTROL AMO ID] | 除非包含实体ID和父实体ID，否则需要编辑或删除数据。<br><br>Search、Social和Commerce会使用该值来确定要编辑的正确身份，但不会将ID发布到广告网络。 |
 
 ### 购物产品组字段
+
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
 
 | 字段 | 必需？ | 描述 |
 | ---- | ---- | ---- |
@@ -374,6 +392,8 @@ ht-degree: 0%
 
 ### 营销活动级别的站点链接字段
 
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
+
 | 字段 | 必需？ | 描述 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
@@ -394,6 +414,8 @@ ht-degree: 0%
 
 ### 位置目标字段
 
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
+
 | 字段 | 必需？ | 描述 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
@@ -406,6 +428,8 @@ ht-degree: 0%
 | [!UICONTROL AMO ID] | 需要编辑或删除数据，除非您包含营销活动ID。<br><br>Search、Social和Commerce会使用该值来确定要编辑的正确身份，但不会将ID发布到广告网络。 |
 
 ### 营销活动级别和广告组级别设备目标字段
+
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
 
 | 字段 | 必需？ | 描述 |
 | ---- | ---- | ---- |
@@ -420,6 +444,8 @@ ht-degree: 0%
 | [!UICONTROL AMO ID] | 需要编辑或删除数据，除非您包含设备目标ID。<br><br>Search、Social和Commerce会使用该值来确定要编辑的正确身份，但不会将ID发布到广告网络。 |
 
 ### 营销活动级别和广告组级别的RLSA目标字段
+
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-microsoft).”
 
 | 字段 | 必需？ | 描述 |
 | ---- | ---- | ---- |

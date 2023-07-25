@@ -2,9 +2,9 @@
 title: 以下项的必需批量处理工作表数据 [!DNL Google Ads] 帐户
 description: 引用批量处理工作表中的必填标题字段和数据字段 [!DNL Google Ads] 帐户。
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
+source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
 workflow-type: tm+mt
-source-wordcount: '7729'
+source-wordcount: '7884'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 下表描述了所有可用的数据字段。
 
-有关与帐户实体相关的数据字段，请参阅&quot;[创建、编辑或删除每个帐户组件所需的字段](#bulksheet-fields-per-component-google).
+有关与帐户实体相关的数据字段，请参阅&quot;[创建、编辑或删除每个帐户组件所需的字段](#bulksheet-fields-per-component-google).”
 
 >[!NOTE]
 >
@@ -132,13 +132,13 @@ ht-degree: 0%
 
 以下部分包含与特定帐户实体相关的字段。
 
-有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
-
 >[!NOTE]
 >
 >当字段不适用于操作时，在字段中输入的任何值都将被忽略。
 
 ### 营销活动字段
+
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
 
 | 字段 | 必需？ |
 | ---- | ---- |
@@ -169,6 +169,8 @@ ht-degree: 0%
 
 ### 广告组字段
 
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
+
 | 字段 | 必需？ |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
@@ -188,6 +190,8 @@ ht-degree: 0%
 | [!UICONTROL AMO ID] | 除非包含实体ID和父实体ID，否则需要编辑或删除数据。<br><br>Search、Social和Commerce会使用该值来确定要编辑的正确身份，但不会将ID发布到广告网络。 |
 
 ### 关键字字段
+
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
 
 | 字段 | 必需？ | 描述 |
 | ---- | ---- | ---- |
@@ -211,6 +215,8 @@ ht-degree: 0%
 | [!UICONTROL AMO ID] | 除非包含实体ID和父实体ID，否则需要编辑或删除数据。<br><br>Search、Social和Commerce会使用该值来确定要编辑的正确身份，但不会将ID发布到广告网络。 |
 
 ### 投放字段
+
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
 
 | 字段 | 必需？ | 描述 |
 | ---- | ---- | ---- |
@@ -238,6 +244,8 @@ ht-degree: 0%
 
 对于此广告类型，请使用“[!UICONTROL Creative (except RSA)]“”行位于 [!UICONTROL Download Bulksheet] 对话框。
 
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
+
 | 字段 | 必需？ | 描述 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
@@ -261,6 +269,8 @@ ht-degree: 0%
 
 对于此广告类型，请使用“[!UICONTROL Creative (except RSA)]“”行位于 [!UICONTROL Download Bulksheet] 对话框。
 
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
+
 | 字段 | 必需？ | 描述 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
@@ -282,6 +292,8 @@ ht-degree: 0%
 ### 响应式搜索广告字段
 
 对于此广告类型，请使用“[!UICONTROL Responsive Search Ad]“”行位于 [!UICONTROL Download Bulksheet] 对话框。
+
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
 
 | 字段 | 必需？ | 描述 |
 | ---- | ---- | ---- |
@@ -308,6 +320,8 @@ ht-degree: 0%
 ### 文本广告字段
 
 对于此广告类型，请使用“[!UICONTROL Creative (except RSA)]“”行位于 [!UICONTROL Download Bulksheet] 对话框。
+
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
 
 >[!NOTE]
 >
@@ -337,6 +351,8 @@ ht-degree: 0%
 
 ### 动态搜索目标（自动定位）字段
 
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
+
 | 字段 | 必需？ | 描述 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
@@ -354,6 +370,8 @@ ht-degree: 0%
 | [!UICONTROL AMO ID] | 除非包含实体ID和父实体ID，否则需要编辑或删除数据。<br><br>Search、Social和Commerce会使用该值来确定要编辑的正确身份，但不会将ID发布到广告网络。 |
 
 ### 购物产品组字段
+
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
 
 | 字段 | 必需？ | 描述 |
 | ---- | ---- | ---- |
@@ -377,6 +395,8 @@ ht-degree: 0%
 
 ### 营销活动级别和广告组级别站点链接字段
 
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
+
 | 字段 | 必需？ | 描述 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含“”，否则此为必填字段[!UICONTROL AMO ID]”代表实体。 |
@@ -394,7 +414,9 @@ ht-degree: 0%
 | [!UICONTROL Sitelink ID] | 仅当更改或删除站点链接时才需要，除非该行包含a)足够的属性列来标识站点链接或b) &quot;[!UICONTROL AMO ID].” 但是，如果您既不包括，也不包括 [!UICONTROL Sitelink ID] 也不 [!UICONTROL AMO ID]  并且属性列与多个站点链接匹配，则只有其中一个站点链接的状态将更改。<br><br><b>注意：</b> 如果您编辑站点链接属性列，则 [!UICONTROL Status] 对于现有sitelink，则不会包含 [!UICONTROL Sitelink ID] 也不 [!UICONTROL AMO ID]，则会创建一个新的站点链接，并且现有的站点链接不会发生更改。 |
 | [!UICONTROL AMO ID] | 除非包含实体ID和父实体ID，否则需要编辑或删除数据。<br><br>Search、Social和Commerce会使用该值来确定要编辑的正确身份，但不会将ID发布到广告网络。 |
 
-### 位置目标字段
+### 位置目标
+
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
 
 | 字段 | 必需？ | 描述 |
 | ---- | ---- | ---- |
@@ -408,6 +430,8 @@ ht-degree: 0%
 | [!UICONTROL AMO ID] | 需要编辑或删除数据，除非您包含 [!UICONTROL Campaign ID].<br><br>Search、Social和Commerce会使用该值来确定要编辑的正确身份，但不会将ID发布到广告网络。 |
 
 ### 营销活动级别和广告组级别设备目标字段
+
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
 
 | 字段 | 必需？ | 描述 |
 | ---- | ---- | ---- |
@@ -423,6 +447,8 @@ ht-degree: 0%
 | [!UICONTROL AMO ID] | 需要编辑或删除数据，除非您包含设备目标ID。<br><br>Search、Social和Commerce会使用该值来确定要编辑的正确身份，但不会将ID发布到广告网络。 |
 
 ### 营销活动级别和广告组级别的RLSA目标/排除字段
+
+有关每个数据字段的说明，请参阅&quot;[所有可用数据字段](#bulksheet-fields-all-google).”
 
 | 字段 | 必需？ | 描述 |
 | ---- | ---- | ---- |
