@@ -3,9 +3,9 @@ title: 基本报表和高级报表的报表列
 description: 了解基本报表和高级报表的可用数据列。
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: d0b5107363336d5c946f4011e56dc83d2165397d
 workflow-type: tm+mt
-source-wordcount: '3583'
+source-wordcount: '3606'
 ht-degree: 0%
 
 ---
@@ -134,6 +134,8 @@ ht-degree: 0%
 | [!UICONTROL Network Ad Group ID] | 网络分配的广告组ID。 |
 | [!UICONTROL Network Campaign ID] | 网络分配的营销活动ID。 |
 | [!UICONTROL Objective Name] | 投资组合的目标。 |
+| [!UICONTROL Objective Value] | 根据投资组合当前目标计算的总加权转化。 请参阅&quot;[目标值](/help/search-social-commerce/glossary.md#o-p)“ |
+| [!UICONTROL Objective Value Calculation] | 用于推导目标值的计算。 |
 | [!UICONTROL Outbound Clicks] | ([!DNL Meta] ads)广告中可让人们离开的链接的点击次数 [!DNL Meta]拥有的属性。 |
 | [!UICONTROL Parent Product Groupings] | 父产品组的完整层次结构，具有 `>>` 层之间(例如 `All Products>>CategoryL1=Animals`)（如果适用）。 |
 | [!UICONTROL Partition Type] | 产品组的类型： <i>[!UICONTROL Sub-Division]</i> （父产品组）或 <i>[!UICONTROL Unit]</i> （具有竞价的子产品组的最低级别）。 |
@@ -173,8 +175,17 @@ ht-degree: 0%
 | [!UICONTROL Surfer ID] | ([!UICONTROL Transaction Report])完成交易的用户的ID。 |
 | [!UICONTROL Through Plays] | ([!DNL Meta] 广告)观看整个广告的查看次数。 |
 | [!UICONTROL Top of Page CPC] | (仅限Google促销活动)指定日期范围内搜索结果页面顶部出现的广告的每次点击成本(CPC)。 |
-
-| [!UICONTROL Tracking URL] |（仅限以搜索为目标的关键词）跟踪模板或嵌入了（适用时）搜索、社交和商务跟踪代码的目标URL。 | | [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report])该交易贷记到的特定于广告商的交易属性。 | | [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report])记入指定交易属性的时间。 | | [!UICONTROL User Account Type] |已过时 | | [!UICONTROL User SE Account ID] | Search、Social &amp; Commerce分配给广告网络的数值ID。 | | [!UICONTROL Video Average Play Time] | ([!DNL Meta] ads)单次展示时播放视频的平均时间，包括重新播放视频所花费的时间。 | | [!UICONTROL Video Plays] | ([!DNL Meta] 广告)视频开始播放的次数，不包括重播。 | | [!UICONTROL VideoQuartile25Rate]， [!UICONTROL VideoQuartile50Rate]， [!UICONTROL VideoQuartile75Rate]、和 [!UICONTROL VideoQuartile100Rate] |（视频广告）视频播放完25%、50%、75%或100%的百分比。 | | [!UICONTROL View Rate] |（视频广告）查看次数或参与次数除以广告显示次数（视频和缩略图展示次数）。 | | [!UICONTROL Views] |（视频广告）用户观看或参与您的广告的次数。 | | [!UICONTROL ViewThroughConversions] |（受众网络上的广告）由一个或多个展示次数产生，但没有点击的转化次数。 |
+| [!UICONTROL Tracking URL] | （仅限以搜索为目标的关键词）跟踪模板或嵌入了（适用时）搜索、社交和商务跟踪代码的目标URL。 |
+| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report])该交易贷记到的特定于广告商的交易属性。 |
+| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report])记入指定交易属性的时间。 |
+| [!UICONTROL User Account Type] | 已过时 |
+| [!UICONTROL User SE Account ID] | 搜索、社交和商务分配给广告网络的数值ID。 |
+| [!UICONTROL Video Average Play Time] | ([!DNL Meta] ads)单次展示时播放视频的平均时间，包括重新播放视频所花费的时间。 |
+| [!UICONTROL Video Plays] | ([!DNL Meta] 广告)视频开始播放的次数，不包括重播。 |
+| [!UICONTROL VideoQuartile25Rate]， [!UICONTROL VideoQuartile50Rate]， [!UICONTROL VideoQuartile75Rate]、和 [!UICONTROL VideoQuartile100Rate] | （视频广告）视频播放完25%、50%、75%或100%的百分比。 |
+| [!UICONTROL View Rate] | （视频广告）查看次数或参与次数除以广告显示次数（视频和缩略图展示次数）。 |
+| [!UICONTROL Views] | （视频广告）用户观看或参与广告的次数。 |
+| [!UICONTROL ViewThroughConversions] | （受众网络上的广告）由一个或多个展示次数产生，但没有点击的转化次数。 |
 
 <table style="table-layout:auto">
 
