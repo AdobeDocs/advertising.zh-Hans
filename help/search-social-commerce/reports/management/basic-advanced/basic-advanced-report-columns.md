@@ -3,9 +3,9 @@ title: 基本报表和高级报表的报表列
 description: 了解基本报表和高级报表的可用数据列。
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: d0b5107363336d5c946f4011e56dc83d2165397d
+source-git-commit: 7ffdd97387815098994f85c4368e60b2b44838dd
 workflow-type: tm+mt
-source-wordcount: '3606'
+source-wordcount: '3603'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 0%
 | [!UICONTROL Network Ad Group ID] | 网络分配的广告组ID。 |
 | [!UICONTROL Network Campaign ID] | 网络分配的营销活动ID。 |
 | [!UICONTROL Objective Name] | 投资组合的目标。 |
-| [!UICONTROL Objective Value] | 根据投资组合当前目标计算的总加权转化。 请参阅&quot;[目标值](/help/search-social-commerce/glossary.md#o-p)“ |
+| [!UICONTROL Objective Value] | 根据投资组合当前目标计算的总加权转化。 |
 | [!UICONTROL Objective Value Calculation] | 用于推导目标值的计算。 |
 | [!UICONTROL Outbound Clicks] | ([!DNL Meta] ads)广告中可让人们离开的链接的点击次数 [!DNL Meta]拥有的属性。 |
 | [!UICONTROL Parent Product Groupings] | 父产品组的完整层次结构，具有 `>>` 层之间(例如 `All Products>>CategoryL1=Animals`)（如果适用）。 |
