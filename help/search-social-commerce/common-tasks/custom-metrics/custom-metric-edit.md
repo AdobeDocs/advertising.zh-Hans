@@ -1,7 +1,9 @@
 ---
 title: 编辑自定义量度
 description: 了解如何编辑自定义量度，这些量度是通过标准量度计算的。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7b0c18d3-e4ed-49ad-aef7-d05b2a67ba2e
+feature: Search Common Tasks, Search Custom Metrics
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 1%
@@ -10,11 +12,11 @@ ht-degree: 1%
 
 # 编辑自定义量度
 
-如果编辑的自定义量度作为列包含在默认视图或自定义视图之一或报表模板中，则下次分别刷新视图或运行报表时将使用新公式。
+如果编辑的自定义量度作为列包含在某个默认视图、自定义视图或报表模板中，则下次分别刷新视图或运行报表时使用新公式。
 
 >[!NOTE]
 >
->计算复杂的自定义量度需要更长的时间，并且包含这些量度的报表和视图（尤其是当它们包含用于点进和浏览转换的单独列时）的生成时间更长。
+>计算复杂的自定义量度需要较长时间，并且包含这些量度的报表和视图（尤其是当它们包含用于点进和浏览转换的单独列时）需要较长时间才能生成。
 
 ## 从营销活动管理视图中编辑自定义量度
 
@@ -42,7 +44,7 @@ ht-degree: 1%
 
 ## 从编辑自定义量度 [!UICONTROL Portfolios] 查看次数
 
-1. 在数据表上方，单击 ![编辑所选视图](/help/search-social-commerce/assets/view-settings.png "编辑所选视图").
+1. 在数据表的上方，单击 ![编辑所选视图](/help/search-social-commerce/assets/view-settings.png "编辑所选视图").
 
 1. 单击 **[!UICONTROL Columns]** 选项卡。
 
@@ -53,8 +55,8 @@ ht-degree: 1%
 1. 单击 **[!UICONTROL Submit]**.
 
 >[!MORELIKETHIS]
+>
 * [关于自定义量度](custom-metric-about.md)
 * [创建自定义量度](custom-metric-create.md)
 * [删除自定义量度](custom-metric-delete.md)
 * [自定义量度设置](custom-metric-settings.md)
-

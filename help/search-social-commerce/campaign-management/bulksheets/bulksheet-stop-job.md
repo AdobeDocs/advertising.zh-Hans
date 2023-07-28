@@ -1,7 +1,9 @@
 ---
 title: 停止正在进行的批量处理工作表作业
-description: 了解如何在批量处理工作表作业时停止该作业。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: 了解如何在批量处理作业时停止批量处理作业。
+exl-id: bfdc3c65-8dfc-4683-a39d-05d40078fd2d
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -22,10 +24,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果在过帐某些行后取消批量工作表文件的过帐，则会生成一个EF错误批量工作表，其中包含未过帐的行。
+>如果在某些行已过帐后取消批量工作表文件的过帐，则会生成一个EF错误批量工作表，其中包含未过帐的行。
 
 >[!MORELIKETHIS]
 >
 >* [关于使用批量处理工作表管理营销活动数据](bulksheet-about.md)
 >* [删除上传的批量工作表和错误文件](bulksheet-delete.md)
-

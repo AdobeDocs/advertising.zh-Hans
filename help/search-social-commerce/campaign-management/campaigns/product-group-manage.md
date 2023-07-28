@@ -1,7 +1,9 @@
 ---
 title: 管理购物产品组
 description: 了解如何在购物营销活动中创建和管理购物产品组。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 25912abd-1ddb-443f-a16d-7efe57093677
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 ## 创建一个&quot;[!UICONTROL All Products]”产品组
 
-在创建具有特定属性的产品组之前，必须首先创建一个名为“[!UICONTROL All Products].” 每个广告组只能有一个“[!UICONTROL All Products]”组。
+在创建具有特定属性的产品组之前，必须首先创建一个名为“[!UICONTROL All Products]“ 每个广告组只能有一个&quot;[!UICONTROL All Products]”组。
 
 >[!TIP]
 >
@@ -34,7 +36,7 @@ ht-degree: 0%
 
 ## 在现有产品组中创建子产品组节点
 
-一旦您至少创建了一个包含所有内容的“[!UICONTROL All Products]”组对于广告组，您可以为要包含竞价或从竞价中排除的产品子集创建子产品组节点，使一个或多个产品组在每个级别均以相同的属性为目标(例如， [!UICONTROL Brand]=Acme表示一个产品组和 [!UICONTROL Brand]=AcmePlus用于相同级别的另一个。 您最多可以创建七个级别的子产品组节点，不包括“[!UICONTROL All Products]“。
+创建至少一个包含所有内容的&#39;&#39;[!UICONTROL All Products]“组”对于广告组，您可以为要包含竞价或从竞价中排除的产品子集创建子产品组节点，使一个或多个产品组在每个级别均以相同的属性为目标(例如， [!UICONTROL Brand]=Acme表示一个产品组和 [!UICONTROL Brand]=AcmePlus用于相同级别的另一个。 您最多可以创建七个级别的子产品组节点，不包括&quot;[!UICONTROL All Products]“。
 
 >[!NOTE]
 >
@@ -70,13 +72,13 @@ ht-degree: 0%
 
       1. 选中每个节点旁边的复选框。
 
-         有关选择多行的提示，请参阅&quot;[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).”
+         有关选择多行的提示，请参阅&quot;[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)“
 
       1. 在数据表上方的工具栏中，单击 ![编辑](/help/search-social-commerce/assets/edit.png "编辑").
 
 1. 编辑 [[!DNL Google Ads] 产品组设置](product-group-settings-google.md) 或 [[!DNL Microsoft Advertising] 产品组设置](product-group-settings-microsoft.md).
 
-   对于多个节点，您的更改将应用于所有选定的节点。 对于 [!UICONTROL Bid] 字段，则可选择将现有值更改为指定值，或者增加或减少金额指定百分比或货币金额（具有限制）。 对于 [!UICONTROL Tracking Template] 字段，则可以将现有值更改为指定值，将现有字符串替换为指定字符串，将指定前缀添加到每个值的开头，或者在每个值的末尾附加后缀。
+   对于多个节点，您的更改将应用于所有选定的节点。 对于 [!UICONTROL Bid] 字段，您可以选择将现有值更改为指定值，或者增加或减少金额指定百分比或货币金额，但有限制。 对于 [!UICONTROL Tracking Template] 字段，则可以将现有值更改为指定值，将现有字符串替换为指定字符串，将指定前缀添加到每个值的开头，或者在每个值的末尾附加后缀。
 
 1. （可选）单击 **[!UICONTROL Additional Details]** （可选）输入项目名称和说明。
 
@@ -84,7 +86,7 @@ ht-degree: 0%
 
 ## 删除产品组节点
 
-您可以删除任何产品组（当其他产品组在同一级别存在时，可以删除“其他所有产品”组），该产品组用于确定您的商户中心帐户中的哪些产品包含在广告组的购物广告中。 删除产品组将删除所有子产品组。
+您可以删除任何产品组（当其他产品组位于同一级别时，除外“其他所有产品”组），该组用于确定您的商户中心帐户中的哪些产品包含在广告组的购物广告中。 删除产品组将删除所有子产品组。
 
 1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. 在子菜单中，单击 **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
 
@@ -98,7 +100,7 @@ ht-degree: 0%
 
       1. 选中要删除的每个产品组旁边的复选框。
 
-         有关选择多行的提示，请参阅&quot;[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).”
+         有关选择多行的提示，请参阅&quot;[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)“
 
       1. 在工具栏中，单击 ![更多](/help/search-social-commerce/assets/more.png "更多") 并选择 **[!UICONTROL Delete]**.
 
@@ -109,4 +111,3 @@ ht-degree: 0%
 >* [关于购物产品组](product-group-about.md)
 >* [[!DNL Google Ads] 产品组设置](product-group-settings-google.md)
 >* [[!DNL Microsoft Advertising] 产品组设置](product-group-settings-microsoft.md)
-

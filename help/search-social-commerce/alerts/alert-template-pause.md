@@ -1,7 +1,9 @@
 ---
 title: 暂停自定义警报模板
 description: 了解如何暂停活动警报模板。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a588ac21-7f77-4254-a773-a6f68c9f1090
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -20,7 +22,7 @@ ht-degree: 0%
 
    * （要暂停一个或多个模板）选中要暂停的每个警报模板旁边的复选框。 在工具栏中，单击 ![暂停](/help/search-social-commerce/assets/pause.png "暂停") 在对话框中，单击 **[!UICONTROL Pause]**.
 
-      有关选择多行的提示，请参阅&quot;[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).”
+     有关选择多行的提示，请参阅&quot;[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)“
 
 >[!MORELIKETHIS]
 >
@@ -32,4 +34,3 @@ ht-degree: 0%
 >* [自定义警报模板设置](alert-template-settings.md)
 >* [查看自定义警报](alert-view.md)
 >* [导出自定义警报的数据](alert-export-data.md)
-

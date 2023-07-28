@@ -1,7 +1,9 @@
 ---
-title: ”[!DNL Microsoft® Advertising] 响应式搜索广告设置”
+title: ’[!DNL Microsoft® Advertising] 响应式搜索广告设置
 description: 引用设置 [!DNL Microsoft® Advertising] 响应式搜索广告。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 4ee3c81a-38f4-448d-aea5-c062ab0a6f2a
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Microsoft® Advertising] 响应式搜索广告设置
 
-响应式搜索广告格式适用于搜索网络上的广告。 广告网络使用最有效的广告元素组合来动态组合响应式搜索广告。
+响应式搜索广告格式可用于搜索网络上的广告。 广告网络使用最有效的广告元素组合来动态组合响应式搜索广告。
 
 >[!NOTE]
 >
@@ -53,4 +55,3 @@ ht-degree: 0%
 >* [[!DNL Microsoft® Advertising] 多媒体广告设置](ad-settings-microsoft-multimedia.md)
 >* [[!DNL Microsoft® Advertising] 产品广告设置](ad-settings-microsoft-product.md)
 >* [[!DNL Microsoft® Advertising] 响应式（受众）广告设置](ad-settings-microsoft-responsive.md)
-

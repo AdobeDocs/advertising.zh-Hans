@@ -1,7 +1,9 @@
 ---
 title: 创建自定义量度
-description: 了解如何配置自定义量度，这些量度是通过标准量度计算的。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: 了解如何配置自定义量度，这些量度通过标准量度计算。
+exl-id: 14a768f5-3c7f-4e8e-bcd0-66b176052a25
+feature: Search Common Tasks, Search Custom Metrics
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 1%
@@ -36,7 +38,7 @@ ht-degree: 1%
 
 ## 从创建自定义量度 [!UICONTROL Portfolios] 查看次数
 
-1. 在数据表上方，单击 ![编辑所选视图](/help/search-social-commerce/assets/view-settings.png "编辑所选视图").
+1. 在数据表的上方，单击 ![编辑所选视图](/help/search-social-commerce/assets/view-settings.png "编辑所选视图").
 
 1. 单击 **[!UICONTROL Columns]** 选项卡。
 
@@ -52,4 +54,3 @@ ht-degree: 1%
 >* [编辑自定义量度](custom-metric-edit.md)
 >* [删除自定义量度](custom-metric-delete.md)
 >* [自定义量度设置](custom-metric-settings.md)
-

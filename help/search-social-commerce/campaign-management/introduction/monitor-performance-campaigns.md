@@ -1,7 +1,9 @@
 ---
-title: 监控和管理营销活动的绩效
-description: 了解如何监测每个活动和项目组合的绩效，并进行更改以实现您的目标。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+title: 监控和管理营销活动的效果
+description: 了解如何监测每个活动和项目组合的表现并进行更改以实现您的目标。
+exl-id: cf3d015f-a171-45f2-be92-94f19b30e5ce
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
@@ -10,17 +12,17 @@ ht-degree: 0%
 
 # 监控和管理广告网络营销活动的效果
 
-Adobe客户团队、代理团队或广告商（取决于服务级别协议的条款）需要监控每个活动和产品组合的表现（如果适用），并根据需要更改相关组件和设置，以实现广告商的目标。
+Adobe客户团队、代理团队或广告商（取决于服务级别协议的条款）需要监控每个活动和产品组合（如果适用）的表现，并根据需要更改相关组件和设置以实现广告商的目标。
 
 ## 监测营销活动和项目组合的绩效
 
 通过以下方式定期监控每个活动的性能：
 
-* 查看 [自定义警报](/help/search-social-commerce/alerts/alert-view.md) 您可用的内容。
+* 查看 [自定义警报](/help/search-social-commerce/alerts/alert-view.md) 您可用的资源。
 
-* 查看有关包含的营销活动的帐户摘要和性能详细信息。
+* 查看有关包含的促销活动的帐户摘要和效果详细信息。
 
-* 正在运行 [报告](/help/search-social-commerce/reports/report-about.md)，包括 [此 [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md) （如适用）， [此 [!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md)， [此 [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)和其他性能报表（如果适用）。 使用项目组合时，请确保将预测绩效与实际绩效进行比较。
+* 正在运行 [报表](/help/search-social-commerce/reports/report-about.md)，包括 [该 [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md) （如适用）， [该 [!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md)， [该 [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)和其他性能报表（如果适用）。 使用项目组合时，请确保将预测绩效与实际绩效进行比较。
 
 ## 管理绩效并调整营销活动和项目组合结构
 
@@ -28,7 +30,7 @@ Adobe客户团队、代理团队或广告商（取决于服务级别协议的条
 
 * 调整帐户/营销活动结构以适应营销策略的变化。
 
-* 添加/编辑/暂停/删除营销活动组件。 这可能包括根据搜索词分析扩展关键词集，以及根据广告文案测试进行调整。
+* 添加/编辑/暂停/删除营销活动组件。 这可能包括根据搜索词分析扩展关键词集并根据广告文案测试进行调整。
 
 * 根据高级性能报告更新地理位置和站点定位策略。
 
@@ -38,11 +40,10 @@ Adobe客户团队、代理团队或广告商（取决于服务级别协议的条
 
 * （如适用）调整组合策略以改善表现及把握增长机会。
 
-   有关更多信息，请参阅可在搜索、社交和商务中找到的“优化指南”。<!-- verify convention for referencing Optimization Guide here -->
+  有关更多信息，请参阅可在搜索、社交和商务中找到的“优化指南” 。<!-- verify convention for referencing Optimization Guide here -->
 
 >[!MORELIKETHIS]
 >
->* [关于Search、Social和Commerce中的营销活动管理](campaign-management-about.md)
+>* [关于搜索、社交和商务中的促销活动管理](campaign-management-about.md)
 >* [实施广告网络帐户和营销活动概述](campaign-implemention-overview.md)
->* [搜索、社交和商务中的Google Ads转化数据](google-conversion-data.md)
-
+>* [搜索、社交和商务中的Google广告转化数据](google-conversion-data.md)

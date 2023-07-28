@@ -3,7 +3,8 @@ title: 重新验证 [!DNL Google Analytics] 数据源
 description: 了解如何重新验证 [!DNL Google Analytics] 数据源。
 role: User, Admin
 exl-id: 9233e004-8607-444a-ba99-f63cb83a8b7a
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -12,9 +13,9 @@ ht-degree: 0%
 
 # 重新验证 [!DNL Google Analytics] 数据源
 
-*仅限机构管理员、机构客户经理、Adobe客户经理和管理员*
+*仅限代理管理员、代理客户经理、Adobe客户经理和管理员*
 
-如果您更改用于数据源的电子邮件帐户的密码，或者 [!DNL OAuth] 帐户的证书过期，则与电子邮件帐户的所有打开连接都将关闭，您必须重新进行身份验证才能继续同步数据。
+如果您更改用于数据源的电子邮件帐户的密码，或者 [!DNL OAuth] 帐户的证书过期，则与电子邮件帐户的所有开放连接都将关闭，您必须重新进行身份验证才能继续同步数据。
 
 1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
 
@@ -24,15 +25,15 @@ ht-degree: 0%
 
 1. 编辑 [数据源设置](data-source-settings.md)：
 
-   1. 在 [!UICONTROL Connect to Google Analytics] 部分，请执行以下操作。
+   1. 在 [!UICONTROL Connect to Google Analytics] 部分，执行以下操作。
 
-      1. （如有必要）输入用于访问此数据源的数据的新电子邮件地址。 电子邮件地址必须注册到 [!DNL Google] 帐户并具有的“读取和分析”权限 [!DNL Google Analytics] 帐户。 请参阅 [在中分配用户权限的说明 [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587).
+      1. （如有必要）输入新的电子邮件地址，用于访问此数据源的数据。 电子邮件地址必须注册到 [!DNL Google] 帐户并具有的“读取和分析”权限 [!DNL Google Analytics] 帐户。 请参阅 [在中分配用户权限的说明 [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587).
 
          >[!TIP]
          >
-         >确保仅特定于 [!DNL Google Analytics] 可在Search、Social和Commerce中访问属性和视图，使用只能访问这些属性和视图的电子邮件地址登录。
+         >为了确保 [!DNL Google Analytics] 可在Search、Social和Commerce中使用属性和视图进行登录，请使用只能访问这些属性和视图的电子邮件地址进行登录。
 
-   1. 选中此复选框可授权Search、Social和Commerce访问帐户的指标。
+   1. 选中此复选框可授权搜索、社交和商务访问帐户的量度。
 
    1. 单击 **[!UICONTROL Re-Authenticate]**.
 

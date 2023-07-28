@@ -1,7 +1,9 @@
 ---
 title: 管理 [!DNL Google Ads] 动态搜索目标
 description: 了解如何创建和管理 [!DNL Google Ads] 动态搜索目标。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 85b1455a-dda1-4bb9-b4be-d6e0a837fd9d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -26,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->要最佳跟踪性能，请创建&quot;[!UICONTROL All Targets]”每个营销活动仅针对一个广告组进行定位。
+>要最佳跟踪性能，请创建&quot;[!UICONTROL All Targets]”每个营销活动仅定位一个广告组。
 
 >[!TIP]
 >
@@ -54,13 +56,13 @@ ht-degree: 0%
 
 1. 选中要编辑的每一行旁边的复选框。
 
-   有关选择多行的提示，请参阅&quot;[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).”
+   有关选择多行的提示，请参阅&quot;[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)“
 
 1. 在数据表上方的工具栏中，单击 ![编辑](/help/search-social-commerce/assets/edit.png "编辑").
 
 1. 指定 [动态搜索目标设置](#dynamic-search-target-settings).
 
-   对于多个目标，您的更改将应用于所有选定的目标。 对于 [!UICONTROL Bid field]，您可以选择将现有值更改为指定值，或者增加或减少金额的指定百分比或货币金额，但有限制。
+   对于多个目标，您的更改将应用于所有选定的目标。 对于 [!UICONTROL Bid field]，您可以选择将现有值更改为指定的值，或者增加或减少金额的指定百分比或货币金额，但需设置限制。
 
 1. 保存数据：
 
@@ -85,28 +87,28 @@ ht-degree: 0%
    * 要删除一个或多个动态目标，请执行以下操作：
 
       1. 选中要删除的每个动态目标旁边的复选框。
-      有关选择多行的提示，请参阅&quot;[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).”
+
+     有关选择多行的提示，请参阅&quot;[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)“
 
       1. 在工具栏中，单击 ![更多](/help/search-social-commerce/assets/more.png "更多") 并选择 **[!UICONTROL Delete]**.
 
       1. 在确认消息中，单击 **[!UICONTROL Delete]**.
 
-
 ## [!DNL Google Ads] 动态搜索目标设置 {#dynamic-search-target-settings}
 
 ### [!UICONTROL Auto-Target Details]
 
-**[!UICONTROL Auto-targets]：** （当您未在营销活动的域和语言中指定网站域和语言时，此为必需字段） [!UICONTROL DSA Options] 部分；对于现有目标为只读)广告组的动态搜索目标：
+**[!UICONTROL Auto-targets]：** (当您未在营销活动的 [!UICONTROL DSA Options] 部分；现有目标为只读)广告组的动态搜索目标：
 
-* *[!UICONTROL All Targets]* （默认）：定向所有索引页。
+* *[!UICONTROL All Targets]* （默认）：定位所有已编制索引的页面。
 
-* *\[特定目标\]：* 索引页的定位标准最多可达三个。 如果选择此选项，则必须通过指定要定位广告的信息类别和特定值来指定标准（例如，“URL包含shoes.example.com”）。 要指定多个标准，请单击 **[!UICONTROL + And]**. 目标标准包括：
+* *\[特定目标\]：* 为索引页定位最多三个标准。 选择此选项时，您必须通过指定信息类别和目标广告的特定值来指定标准（例如，“URL包含shoes.example.com”）。 要指定多个标准，请单击 **[!UICONTROL + And]**. 目标条件包括：
 
-   * *[!UICONTROL Category]：* 要显示具有特定内容的索引页面的广告 [!DNL Google Ads] 内容类别。
+   * *[!UICONTROL Category]：* 显示具有特定索引页面的广告 [!DNL Google Ads] 内容类别。
 
-   * *[!UICONTROL URL]：* 为具有特定URL的索引页面显示广告，其中值可能包含在URL中的任意位置。
+   * *[!UICONTROL URL]：* 为具有特定URL的索引页面显示广告，其中值可能包含在URL中的任何位置。
 
-   * *[!UICONTROL Page Title]：* 在页面标题中显示具有特定文本的索引页面的广告。
+   * *[!UICONTROL Page Title]：* 在页面标题中显示带有特定文本的索引页面的广告。
 
    * *[!UICONTROL Page Content]：* 为具有特定内容的索引页面显示广告。
 
@@ -120,13 +122,12 @@ ht-degree: 0%
 
 ### [!UICONTROL Bids]
 
-**[!UICONTROL Bid]：** 广告的最大每次点击成本(CPC)或广告的每1000次展示成本(CPM)，适用于广告网络和促销活动定价模型。 此值将覆盖广告组级别值。
+**[!UICONTROL Bid]：** 广告的最大每次点击成本(CPC)或广告的每1000次展示成本(CPM)，适用于广告网络和促销活动定价模型。 此值覆盖广告组级别值。
 
 >[!NOTE]
 >
->如果目标位于优化的项目组合中，则应用指定的CPC竞价一天。 之后，优化能力根据自己的计算来设置投标。
+>如果目标在优化的产品组合中，则应用指定的CPC竞价一天。 之后，优化功能根据自己的计算来设置投标。
 
 >[!MORELIKETHIS]
 >
 >* [关于 [!DNL Google Ads] 动态搜索目标](dynamic-search-target-about.md)
-

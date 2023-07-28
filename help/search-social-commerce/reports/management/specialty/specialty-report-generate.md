@@ -1,7 +1,9 @@
 ---
 title: 生成专业报告
 description: 了解如何生成专业报告。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 5edf7b11-37ae-4488-962a-7b4f50e7c569
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -24,7 +26,7 @@ ht-degree: 0%
 
    1. （可选）单击 **[!UICONTROL Columns tab]**，并更改报表中的默认列。
 
-      默认情况下，报表中的所有货币数据均以美元的格式显示（如1,000.00）。 要以正确的货币格式显示值（但不包括CSV和TSV格式中的任何货币符号），请添加&quot;[!UICONTROL Currency]”列。 如果报表包含使用不同货币的帐户的数据，则为任意[!UICONTROL Total]“货币值是列中所有数字的总和，不考虑货币。
+      默认情况下，报表中的所有货币数据均以美元的格式显示（如1,000.00）。 要以正确的货币格式显示值（但CSV和TSV格式中不含任何货币符号），请添加&#39;&#39;[!UICONTROL Currency]”列。 如果报表包含使用不同货币的帐户的数据，则为任意[!UICONTROL Total]“货币值是列中所有数字的总和，不考虑货币。
 
    1. （可选）单击 **[!UICONTROL Advanced Filters]** 选项卡，并更改默认高级选项。
 
@@ -45,5 +47,4 @@ ht-degree: 0%
 >* [关于专业报告](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)
 >* [专业报告设置](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
 >* [专业报告的报告列](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
->* [删除报告](/help/search-social-commerce/reports/management/report-delete.md)
-
+>* [删除报表](/help/search-social-commerce/reports/management/report-delete.md)

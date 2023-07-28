@@ -1,7 +1,9 @@
 ---
 title: 更改密码
 description: 了解如何更改帐户密码。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1cc63747-4b80-45ba-a044-4a7b0a237c63
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 1. 在字段中输入信息，然后单击 **[!UICONTROL Submit]**.
 
-   **[!UICONTROL Password]：** 新密码。 它必须由至少八个字符组成，其中至少有一个大写字母和一个数字。
+   **[!UICONTROL Password]：** 新密码。 它必须至少由八个字符组成，其中至少一个大写字母和一个数字。
 
    **[!UICONTROL Confirm Password]：** 新密码。
 
@@ -28,4 +30,3 @@ ht-degree: 0%
 >
 >* [登录](/help/search-social-commerce/getting-started/log-in.md)
 >* [注销](/help/search-social-commerce/getting-started/log-out.md)
-

@@ -1,7 +1,9 @@
 ---
-title: ”[!DNL Microsoft Advertising] 关键词设置”
+title: ’[!DNL Microsoft Advertising] 关键字设置
 description: 引用设置 [!DNL Microsoft Advertising] 关键字。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 248f45c7-8b8c-46fe-a65a-66c50c630044
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Microsoft Advertising] 关键词设置
 
-您可以为使用搜索和显示网络的营销活动创建关键词。
+您可以为使用搜索和显示网络的营销活动创建关键字。
 
 ## [!UICONTROL Keyword Details]
 
@@ -23,7 +25,6 @@ ht-degree: 0%
 >* 您可以从以下位置创建负关键字 [!UICONTROL Keywords] > [!UICONTROL Negatives] 在广告组和营销活动设置中查看和。
 >* 更改 [!DNL Microsoft Advertising] 关键字删除现有关键字，并使用新关键字ID创建新关键字。 但是，更改匹配类型不会删除现有关键字。
 
-
 **[!UICONTROL Status]：** 关键字的显示状态： *活动* 或 *已暂停*. 新关键字的默认值为 *活动*.
 
 ## [!UICONTROL Bids]
@@ -34,9 +35,9 @@ ht-degree: 0%
 
 ## 占位符
 
-**[!UICONTROL Param2]：** 如果关键字的基本URL或广告的标题、描述或基本URL包含，则用作替换值的字符串 [此 `{Param2}` 动态替换字符串](https://help.bingads.microsoft.com/#apex/3/en/53079/0). 最大长度为70个字符，但请注意，您使用它的广告元素的最大长度（例如，标题1和标题2组合在一起最多可包含76个字符）。
+**[!UICONTROL Param2]：** 如果关键字的基本URL或广告的标题、描述或基本URL包含，则用作替换值的字符串 [该 `{Param2}` 动态替换字符串](https://help.bingads.microsoft.com/#apex/3/en/53079/0). 最大长度为70个字符，但请注意，使用它的广告元素的最大长度限制（例如，标题1和标题2组合在一起最多可包含76个字符）。
 
-**[!UICONTROL Param3]：** 如果关键字的基本URL或广告的标题、描述或基本URL包含，则用作替换值的字符串 [此 `{Param3}` 动态替换字符串](https://help.bingads.microsoft.com/#apex/3/en/53079/0). 最大长度为70个字符，但请注意，您使用它的广告元素的最大长度（例如，标题1和标题2组合在一起最多可包含76个字符）。
+**[!UICONTROL Param3]：** 如果关键字的基本URL或广告的标题、描述或基本URL包含，则用作替换值的字符串 [该 `{Param3}` 动态替换字符串](https://help.bingads.microsoft.com/#apex/3/en/53079/0). 最大长度为70个字符，但请注意，使用它的广告元素的最大长度限制（例如，标题1和标题2组合在一起最多可包含76个字符）。
 
 ## URL选项
 
@@ -53,4 +54,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [管理关键字](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-

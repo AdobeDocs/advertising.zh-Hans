@@ -1,7 +1,9 @@
 ---
 title: 的点击跟踪格式 [!DNL Yandex]
 description: 了解的点击跟踪格式 [!DNL Yandex] 帐户。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cf1d6c4b-9bcd-4b82-919f-c14dbaff9a76
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # 上的赞助广告的点击跟踪格式 [!DNL Yandex]
 
-以下基本目标UR格式适用于赞助广告：
+以下基本目标URL格式适用于赞助广告：
 
 `http://pixel.everesttech.net/<advertiser_ID>/cq?ev_sid=90&ev_lx={phrase_id}&ev_crx={ad_id}&ev_ln={keyword}&ev_mt={source_type}&ev_ltx=&ev_src={source}&ev_pos={position}&ev_pt={position_type}&url=<the landing page>`
 
@@ -20,11 +22,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` 是Adobe广告中广告商唯一ID的变量。
+>* `<advertiser_ID>` 是Adobe Advertising中广告商唯一ID的变量。
 >
->* 此格式表示已为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请替换 `cq?` 之后 `<advertiser_ID>` 替换为 `c?`.
+>* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，则替换 `cq?` 之后 `<advertiser_ID>` 替换为 `c?`.
 >
->* `<the landing page>` 是一个变量，表示最终用户被定向到的网站上的URL。
+>* `<the landing page>` 是一个变量，表示最终用户所定向到的网站上的URL。
 >
 >* `source_type`  是匹配类型。
 >
@@ -34,9 +36,7 @@ ht-degree: 0%
 >
 >* `position_type` 是广告在其中显示的块 [!DNL Yandex]. 可能的值：“premium”（顶部块）、“other”（右侧块）或“none”（非搜索流量）。
 
-
 >[!MORELIKETHIS]
 >
->* [关于Adobe广告转化跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
+>* [关于Adobe Advertising转化跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
 >* [s\_kwcid跟踪代码的格式](skwcid-tracking-parameter.md)
-

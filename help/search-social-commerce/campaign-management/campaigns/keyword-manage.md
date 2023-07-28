@@ -1,7 +1,9 @@
 ---
 title: 管理可竞价关键词
 description: 了解如何为搜索广告组创建和管理可竞价关键词。
-source-git-commit: 77069de8ff3367a3ffa6f84583b4a69f37aab88b
+exl-id: c52364bf-a55a-444e-bde8-88d46c2f4813
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -12,13 +14,13 @@ ht-degree: 0%
 
 *[!DNL Baidu]， [!DNL Google Ads] 和 [!DNL Microsoft® Advertising]、和 [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex] 仅限帐户*
 
-您可以在中创建和编辑搜索广告组的关键字 [支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md) 以内的搜索和显示/本机网络为目标 [已同步广告网络帐户](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
+您可以在中创建和编辑搜索广告组的关键字 [支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md) 以内的搜索和显示/本地网络为目标 [同步的ad网络帐户](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 
 ## 创建关键字
 
 >[!TIP]
 >
->要同时创建多个关键字，请使用 [复制和粘贴功能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) 或 [营销活动批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+>要同时创建多个关键字，请使用 [复制并粘贴功能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) 或 [营销活动批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
 1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. 在子菜单中，单击 **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
 
@@ -30,7 +32,7 @@ ht-degree: 0%
 
    在一个操作中，最多可以输入或粘贴2000个关键字。 用逗号分隔多个关键字，或在单独的行中输入它们。
 
-   根据广告网络，这些设置可以分组为 [!UICONTROL Keyword Details]， [!UICONTROL Bids]， [!UICONTROL Placeholders]、和 [!UICONTROL URL Options].
+   根据广告网络的不同，这些设置可以分组为 [!UICONTROL Keyword Details]， [!UICONTROL Bids]， [!UICONTROL Placeholders]、和 [!UICONTROL URL Options].
 
    如果帐户或营销活动设置仅要求在创意（广告）级别进行跟踪，则无法为关键字生成跟踪。
 
@@ -38,27 +40,27 @@ ht-degree: 0%
 
 ## 编辑关键词设置
 
-在以下情况下，现有关键字将被删除并创建另一个关键字：
+在以下情况下，将删除现有关键字并创建另一个关键字：
 
-* ([!DNL Baidu]， [!DNL Google Ads]、和 [!DNL Yandex])您可以编辑关键字名称。
+* ([!DNL Baidu]， [!DNL Google Ads]、和 [!DNL Yandex])编辑关键字名称。
 
-* ([!DNL Google Ads]， [!DNL Microsoft® Advertising]、和 [!DNL Yandex])您可以更改关键字的匹配类型。
+* ([!DNL Google Ads]， [!DNL Microsoft® Advertising]、和 [!DNL Yandex])更改关键字的匹配类型。
 
 >[!TIP]
 >
->要一次编辑大量关键词数据（包括不同广告网络上的关键词），请使用 [复制和粘贴功能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) 或 [营销活动批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+>要一次编辑大量关键词数据（包括不同广告网络上的关键词），请使用 [复制并粘贴功能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) 或 [营销活动批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
 1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. 在子菜单中，单击 **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
 
 1. 选中要编辑的每一行旁边的复选框。
 
-   有关选择多行的提示，请参阅&quot;[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).”
+   有关选择多行的提示，请参阅&quot;[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)“
 
 1. 在数据表上方的工具栏中，单击 ![编辑](/help/search-social-commerce/assets/edit.png "编辑") .
 
 1. 编辑 [[!DNL Baidu] 关键词设置](keyword-settings-baidu.md)， [[!DNL Google Ads] 关键词设置](keyword-settings-google.md)， [[!DNL Microsoft® Advertising] 关键词设置](keyword-settings-microsoft.md)， [[!DNL Yahoo! Japan Ads] 关键词设置](keyword-settings-yahoo-japan.md)，或 [[!DNL Yandex] 关键词设置](keyword-settings-yandex.md).
 
-   对于多个关键字，您只能编辑所有选定关键字通用的字段，并且您的更改将应用于所有选定关键字。 对于某些字母数字字段，您可以选择将现有值更改为指定值、将现有字符串替换为指定字符串、将指定前缀添加到每个值的开头或在每个值的结尾附加后缀。 对于某些货币字段，您可以选择将现有值更改为指定值，或者按指定百分比或货币金额增加或减少金额，但有限制。
+   对于多个关键字，您只能编辑所有选定关键字通用的字段，并且您的更改将应用于所有选定关键字。 对于某些字母数字字段，您可以选择将现有值更改为指定值，将现有字符串替换为指定字符串，在每个值的开头添加指定前缀，或者在每个值的结尾附加后缀。 对于某些货币字段，您可以选择将现有值更改为指定值，或者增加或减少金额指定百分比或货币金额，但有限制。
 
 1. 保存数据：
 

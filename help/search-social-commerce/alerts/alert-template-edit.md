@@ -1,7 +1,9 @@
 ---
 title: 编辑自定义警报模板
 description: 了解如何编辑用于生成自定义警报的模板。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 14051d02-108c-4b0e-8a52-9ae18a95fe2e
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -20,7 +22,7 @@ ht-degree: 0%
 
 1. 在 [!UICONTROL Update \[Entity Type\] Alert] 窗口，编辑 [警报设置](alert-template-settings.md) 在 **[!UICONTROL Date Range]**， **[!UICONTROL Filters]**、和 **[!UICONTROL Scheduling and Delivery]** 选项卡。
 
-   您可以通过单击选项卡名称（如“过滤器”）或单击来在选项卡之间移动 **[!UICONTROL Next]** 在右下角。
+   您可以通过单击选项卡名称（例如“过滤器”）或单击来在选项卡之间移动 **[!UICONTROL Next]** 在右下角。
 
 1. 在 [!UICONTROL Summary] 选项卡，单击 **[!UICONTROL Update]**.
 
@@ -34,4 +36,3 @@ ht-degree: 0%
 >* [自定义警报模板设置](alert-template-settings.md)
 >* [查看自定义警报](alert-view.md)
 >* [导出自定义警报的数据](alert-export-data.md)
-

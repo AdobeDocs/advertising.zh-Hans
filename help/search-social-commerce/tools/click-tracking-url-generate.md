@@ -1,7 +1,9 @@
 ---
 title: 生成点击跟踪URL
-description: 了解如何手动生成Search、Social和Commerce点击跟踪URL。
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+description: 了解如何手动生成搜索、社交和商务点击跟踪URL。
+exl-id: d22a472a-a562-4812-a067-fbd407cd7d00
+feature: Search Tools, Search Tracking
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -10,9 +12,9 @@ ht-degree: 0%
 
 # 使用跟踪URL工具生成搜索、社交和商务点击跟踪URL
 
-*仅具有Adobe广告转化跟踪的广告商*
+*仅具有Adobe Advertising转化跟踪的广告商*
 
-有关何时必须手动生成和实施点击跟踪URL的信息，请参阅[何时以及如何生成点击跟踪URL](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).”
+有关何时必须手动生成和实施点击跟踪URL的信息，请参阅[何时以及如何生成点击跟踪URL](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)“
 
 >[!NOTE]
 >
@@ -22,15 +24,15 @@ ht-degree: 0%
 
 1. 从列表中选择广告网络帐户。
 
-   ([!DNL Google Ads] 关键词、文本、移动应用程序安装和动态搜索广告、投放位置、站点链接和产品组)显示跟踪模板字段的跟踪标记。 它们不包括任何帐户级别的附加参数。 跳至步骤4。
+   ([!DNL Google Ads] 关键词、文本、移动设备应用程序安装和动态搜索广告、投放位置、站点链接和产品组)将显示跟踪模板字段的跟踪标记。 它们不包括任何帐户级别的附加参数。 跳至步骤4。
 
    对于所有其他类型的标记，输入信息以生成标记。
 
 1. （如有必要）生成标记：
 
-   1. 通过下列方式之一指定登陆页面，并在请求时提供站点链接或产品名称：
+   1. 通过以下方式之一指定登陆页面，并在请求时提供站点链接或产品名称：
 
-      * 通过输入完整路径和文件名或通过单击指定包含信息的文件 **[!UICONTROL Browse]** 在设备或网络上查找文件。 该文件必须是以制表符分隔的文本文件，每行有一个项目，格式如下：
+      * 通过输入完整路径和文件名或者通过单击 **[!UICONTROL Browse]** 在设备或网络上查找文件。 该文件必须是以制表符分隔的文本文件，每行有一个项目，格式如下：
 
          * （创意内容、标准广告） `**landing_page**`
 
@@ -38,7 +40,7 @@ ht-degree: 0%
 
            示例： http://www.example.com/travel.html
 
-         * ([!DNL Microsoft® Advertising] sitelinks) `sitelink <tab> ** <tab> landing_page`
+         * ([!DNL Microsoft® Advertising] 站点链接) `sitelink <tab> ** <tab> landing_page`
 
            位置 `sitelink` 是站点链接名称和 `landing_page` 是有效的登陆页面URL或基本URL。
 
@@ -62,7 +64,7 @@ ht-degree: 0%
 
            示例： http://www.example.com/travel.html
 
-         * ([!DNL Microsoft® Advertising] sitelinks) `sitelink**landing_page`
+         * ([!DNL Microsoft® Advertising] 站点链接) `sitelink**landing_page`
 
            位置 `sitelink` 是站点链接名称和 `landing_page` 是有效的登陆页面URL或基本URL。
 
@@ -80,7 +82,7 @@ ht-degree: 0%
 
 对于具有目标URL的帐户，请在相应的 [!UICONTROL Base URL] 字段。
 
-对于具有最终URL的帐户，请在相应的字段中输入屏幕上的值 [!UICONTROL Tracking Template] 字段。 您必须在之后为最终URL添加参数 `&url=` 参数(例如 `{lpurl}`)。 对象 [!DNL Yahoo! Japan Ads] 帐户，使用参数 `{lpurl}`. 对于列表 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 参数指示跟踪模板中的最终URL，请参阅 [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348) （请参阅“可用”部分中的“仅跟踪模板”参数） [!DNL ValueTrack] 参数”)和 [[!DNL Microsoft® Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799/2).
+对于具有最终URL的帐户，请在相应的字段中输入屏幕值 [!UICONTROL Tracking Template] 字段。 您必须在之后为最终URL添加参数 `&url=` 参数(例如 `{lpurl}`)。 对象 [!DNL Yahoo! Japan Ads] 帐户，使用参数 `{lpurl}`. 对于 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 参数指示跟踪模板中的最终URL，请参阅 [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348) (请参阅“可用”部分中的“仅跟踪模板”参数 [!DNL ValueTrack] 参数”)和 [[!DNL Microsoft® Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799/2).
 
 >[!MORELIKETHIS]
 >

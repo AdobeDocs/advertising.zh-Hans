@@ -2,7 +2,8 @@
 title: 查看的推荐日志 [!DNL Google Ads] 帐户
 description: 了解如何查看应用于的每个推荐的日志 [!DNL Google Ads] 帐户。
 exl-id: 97db1e9e-6cd8-406f-8fd5-fbb85315fdf6
-source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
+feature: Search Recommendations
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
@@ -11,9 +12,9 @@ ht-degree: 0%
 
 # 查看的推荐日志 [!DNL Google Ads] 帐户
 
-您可以查看应用于的每一个推荐的日志 [!DNL Google Ads] 帐户。 该信息包括推荐类别、推荐类型、受影响的实体、应用推荐的用户以及时间戳。
+您可以查看已应用的每个推荐的日志 [!DNL Google Ads] 帐户。 该信息包括推荐类别、推荐类型、受影响的实体、应用推荐的用户和时间戳。
 
-无法通过广告网络获得取消的建议。
+无法从广告网络获得已解除的建议。
 
 1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
@@ -24,6 +25,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于发布者推荐和见解支持](recommendation-support.md)
->* [查看您的发布者推荐和性能分析](recommendation-view.md)
+>* [查看发布者推荐和性能分析](recommendation-view.md)
 >* [应用或关闭 [!DNL Google Ads] 推荐](google-recommendation-apply-dismiss.md)
 >* [将发布者推荐和见解与项目组合结合使用的最佳实践](recommendation-best-practices.md)

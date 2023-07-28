@@ -1,7 +1,9 @@
 ---
 title: 查看 [!UICONTROL Change History] 报告
 description: 了解如何查看对广告商帐户的最近更改。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 822fa5eb-b7b4-4f32-9cee-984f4e96b978
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -18,15 +20,16 @@ ht-degree: 0%
 
 1. （可选）通过以下任意方式更改报表中包含的数据：
 
-   * （要显示或隐藏列）单击 ![向下箭头](/help/search-social-commerce/assets/arrow-down-expand.png "向下箭头") 在任何列标题的右侧，突出显示 **[!UICONTROL Columns]**，然后选中要包含的每个列旁边的复选框，并清除要排除的每个列旁边的复选框。
+   * （显示或隐藏列）单击 ![向下箭头](/help/search-social-commerce/assets/arrow-down-expand.png "向下箭头") 在任何列标题的右侧，突出显示 **[!UICONTROL Columns]**，然后选中要包含的每个列旁边的复选框，并清除要排除的每个列旁边的复选框。
 
-      列配置将应用于所有广告商的视图。
+     列配置将应用于您所有广告商的视图。
 
-   * (要按列值筛选数据，请执行以下操作：
+   * （要按列值过滤数据）执行以下任一操作：
 
       * [使用应用过滤器 **[!UICONTROL Add Filter]** 链接](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
       * [从列标题菜单应用过滤器](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+
    * （要更改报告的日期范围），请执行以下操作：
 
       1. 在数据表上方，单击当前日期范围。
@@ -37,14 +40,13 @@ ht-degree: 0%
 
          * （对于特定范围） — 选择 **[!UICONTROL Custom Date Range]**，然后指定开始日期和结束日期。
 
-            以MM/DD/YYYY或MM-DD-YYYY格式输入日期，或单击 ![日历](/help/search-social-commerce/assets/calendar.png "日历") ，打开日历并选择日期。 您只能包含之前31天的数据。
+           以YYYY/MM/DD或YYYY-MM-DD格式输入日期，或单击 ![日历](/help/search-social-commerce/assets/calendar.png "日历") ，以打开日历并选择日期。 您只能包含之前31天的数据。
+
       1. 单击 **[!UICONTROL Apply]**.
 
+1. （可选）下载报表的副本：
 
-
-1. （可选）下载报告的副本：
-
-   1. 在数据表上方，单击 **[!UICONTROL Download]**.
+   1. 在数据表的上方，单击 **[!UICONTROL Download]**.
 
       报告完成后，它将列在 [!UICONTROL Download] 菜单。
 

@@ -3,7 +3,8 @@ title: 编辑 [!DNL Google Analytics] 数据源
 description: 了解如何编辑的配置 [!DNL Google Analytics] 数据源。
 role: User, Admin
 exl-id: a23444f7-8f4c-42ba-b5fe-a325fb18136d
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 1%
@@ -12,7 +13,7 @@ ht-degree: 1%
 
 # 编辑 [!DNL Google Analytics] 数据源
 
-*机构管理员（基本角色）、仅Adobe客户经理和管理员*
+*机构管理员（基本角色）、Adobe客户经理和仅管理员*
 
 1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
 

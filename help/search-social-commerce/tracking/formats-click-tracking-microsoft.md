@@ -1,7 +1,9 @@
 ---
 title: 的点击跟踪格式 [!DNL Microsoft Advertising]
 description: 了解的点击跟踪格式 [!DNL Microsoft Advertising] 帐户。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 725981db-1b9a-4c89-b95d-98d07ec99756
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -26,12 +28,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` 是Adobe广告中广告商唯一ID的变量。
+>* `<advertiser_ID>` 是Adobe Advertising中广告商唯一ID的变量。
 >
->* 此格式表示已为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请替换 `cq?` 之后 `<advertiser_ID>` 替换为 `c?`.
+>* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，则替换 `cq?` 之后 `<advertiser_ID>` 替换为 `c?`.
 >
->* `{TargetId}` 表示a)关键字或b)触发广告的关键字和再营销列表（受众）（例如，对于关键字和再营销列表，“kwd-123：aud-456”，或仅对于关键字，“kwd-123”）的ID。
-
+>* `{TargetId}` 表示a)关键字或b)触发广告的关键字和再营销列表（受众）的ID（例如，对于关键字和再营销列表，“kwd-123：aud-456”，或仅对于关键字，“kwd-123”）。
 
 ### 站点链接
 
@@ -43,16 +44,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` 是Adobe广告中广告商唯一ID的变量。
+>* `<advertiser_ID>` 是Adobe Advertising中广告商唯一ID的变量。
 >
->* 此格式表示已为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请替换 `cq?` 之后 `<advertiser_ID>` 替换为 `c?`.
+>* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，则替换 `cq?` 之后 `<advertiser_ID>` 替换为 `c?`.
 >
->* `{TargetId}` 表示a)关键字或b)触发广告的关键字和再营销列表（受众）（例如，对于关键字和再营销列表，“kwd-123：aud-456”，或仅对于关键字，“kwd-123”）的ID。
+>* `{TargetId}` 表示a)关键字或b)触发广告的关键字和再营销列表（受众）的ID（例如，对于关键字和再营销列表，“kwd-123：aud-456”，或仅对于关键字，“kwd-123”）。
 >
 >* `{adextensionid}` 未使用。
 >
 >* （站点链接）您可以通过生成 [!UICONTROL Transaction Report]. 此 [!UICONTROL Link Type] sitelink的列值为 `sl:<Sitelink text>`，例如 `sl:See Current Offers`.
-
 
 ### 购物网络
 
@@ -66,14 +66,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` 是Adobe广告中广告商唯一ID的变量。
+>* `<advertiser_ID>` 是Adobe Advertising中广告商唯一ID的变量。
 >
->* 此格式表示已为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请替换 `cq?` 之后 `<advertiser_ID>` 替换为 `c?`.
+>* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，则替换 `cq?` 之后 `<advertiser_ID>` 替换为 `c?`.
 >
->* `{TargetId}` 表示a)关键字或b)触发广告的关键字和再营销列表（受众）（例如，对于关键字和再营销列表，“kwd-123：aud-456”，或仅对于关键字，“kwd-123”）的ID。
+>* `{TargetId}` 表示a)关键字或b)触发广告的关键字和再营销列表（受众）的ID（例如，对于关键字和再营销列表，“kwd-123：aud-456”，或仅对于关键字，“kwd-123”）。
 >
->* （可选）您可以将跟踪URL添加到中的产品数据，而不是在帐户、营销活动、广告组或产品组级别输入跟踪模板。 [!DNL Microsoft Merchant Center] 帐户。 为此，请包含跟踪URL以及“”中的值`link`“或”`mobile_link`”字段（根据需要）[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)”在产品信息源中。 “”中的值`bingads_redirect`“ ”字段将替换“ ”中的值`link`“ ”和“ ”`mobile_link`”字段。 使用此方法生成的URL不包括在Search、Social和Commerce帐户或营销活动设置中指定的任何跟踪参数。
-
+>* （可选）您可以将跟踪URL添加到中的产品数据中，而不是在帐户、营销活动、广告组或产品组级别输入跟踪模板。 [!DNL Microsoft Merchant Center] 帐户。 要实现此目的，请包含跟踪URL以及&quot;`link`”或“`mobile_link`”字段（根据需要）[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)”在产品信息源中。 “”中的值`bingads_redirect`”字段将替换“”中的值`link`”和“`mobile_link`”字段。 使用此方法生成的URL不包含在“搜索”、“Social”和“Commerce”帐户或营销活动设置中指定的任何跟踪参数。
 
 ## 登陆页面后缀（最终URL后缀）格式
 
@@ -83,30 +82,29 @@ ht-degree: 0%
 
 ### 搜索和受众网络
 
-使用Adobe广告转化跟踪的帐户必须包含广告网络的点击标识符(`msclkid` 对象 [!DNL Microsoft Advertising])的句子中输入：
+使用Adobe Advertising转化跟踪的帐户必须包含广告网络的点击标识符(`msclkid` 对象 [!DNL Microsoft Advertising])进行标记：
 
 * 当广告商具有Adobe Analytics集成时，后缀必须包含以下内容：
 
-   `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}`
+  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}`
 
-* 当广告商没有Adobe Analytics集成时，后缀必须包含以下内容：
+* 当广告商没有Adobe Analytics集成时，后缀必须包括以下内容：
 
-   `&ev_efid={msclkid}:G:s`
+  `&ev_efid={msclkid}:G:s`
 
 ### 购物网络
 
-使用Adobe广告转化跟踪的帐户必须包含广告网络的点击标识符(`msclkid` 对象 [!DNL Microsoft Advertising])的句子中输入：
+使用Adobe Advertising转化跟踪的帐户必须包含广告网络的点击标识符(`msclkid` 对象 [!DNL Microsoft Advertising])进行标记：
 
 * 当广告商具有Adobe Analytics集成时，后缀必须包含以下内容：
 
-   `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
+  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
 
-* 当广告商没有Adobe Analytics集成时，后缀必须包含以下内容：
+* 当广告商没有Adobe Analytics集成时，后缀必须包括以下内容：
 
-   `&ev_efid={msclkid}:G:s`
+  `&ev_efid={msclkid}:G:s`
 
 >[!MORELIKETHIS]
 >
->* [关于Adobe广告转化跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
+>* [关于Adobe Advertising转化跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
 >* [s\_kwcid跟踪代码的格式](skwcid-tracking-parameter.md)
-

@@ -1,7 +1,9 @@
 ---
 title: 删除通知
 description: 了解如何删除通知。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: abf37a77-02e4-429f-adac-13ac954a78e7
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # 删除通知
 
-*Beta功能*
+*Beta版功能*
 
 ## 删除中的通知 [!UICONTROL Notifications] 面板
 
@@ -32,6 +34,5 @@ ht-degree: 0%
 >* [查看您的通知](notification-view.md)
 >* [将通知标记为已读或未读](notification-mark-read-unread.md)
 >* [编辑您的通知设置](notification-edit.md)
->* [从启用和禁用推送通知 [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
->* [安装和卸载 [!UICONTROL Notification Center] Web应用程序](notification-app-install-uninstall.md)
-
+>* [启用和禁用来自的推送通知 [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
+>* [安装并卸载 [!UICONTROL Notification Center] Web应用程序](notification-app-install-uninstall.md)

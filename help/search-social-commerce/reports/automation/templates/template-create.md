@@ -1,7 +1,9 @@
 ---
 title: 创建报表模板
 description: 了解如何创建可重复使用的报表模板。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cd734539-ab01-4106-9998-e2ed994209b2
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # 创建报表模板
 
-您可以为任何类型的性能报表保存多个报表模板。 您可以从头开始创建模板，也可以基于现有模板创建模板。 一次最多可以维护100个模板。
+您可以为任何类型的性能报表保存多个报表模板。 您可以从头开始创建模板，或基于现有模板创建模板。 一次最多可以维护100个模板。
 
 * 要从头开始创建模板，请执行以下任一操作：
 
@@ -26,7 +28,7 @@ ht-degree: 0%
 
       * 指定报表设置。
 
-         “[!UICONTROL Save as Template]”设置被自动选中。
+        “[!UICONTROL Save as Template]已自动选择“ ”设置。
 
 * 要基于现有模板创建模板，请执行以下操作：
 
@@ -44,4 +46,3 @@ ht-degree: 0%
 >* [编辑报告模板](template-edit.md)
 >* [查看报表模板](template-view.md)
 >* [删除报表模板](template-delete.md)
-

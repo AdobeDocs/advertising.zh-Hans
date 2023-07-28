@@ -1,14 +1,16 @@
 ---
-title: 管理共享站点链接
+title: 管理共享的站点链接
 description: 了解如何创建和管理共享站点链接扩展。
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 33d52179-b968-4eab-a1b9-b10ff20948e3
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%
 
 ---
 
-# 管理共享站点链接
+# 管理共享的站点链接
 
 *[!DNL Google Ads]和 [!DNL Microsoft Advertising] 仅限*
 
@@ -48,7 +50,7 @@ ht-degree: 0%
 
 1. 选中要删除的每个共享站点链接旁边的复选框。
 
-   有关选择多行的提示，请参阅&quot;[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).”
+   有关选择多行的提示，请参阅&quot;[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)“
 
 1. 在工具栏中，单击 ![更多](/help/search-social-commerce/assets/more.png "更多") 并选择 **[!UICONTROL Delete]**.
 
@@ -60,17 +62,17 @@ ht-degree: 0%
 
 ### [!UICONTROL Sitelink]
 
-**[!UICONTROL Link Name]：** 为链接显示的文本。 它最多可包含25个单字节字符或12个双字节字符。 链接文本在帐户或营销策划中必须是唯一的。
+**[!UICONTROL Link Name]：** 为链接显示的文本。 它最多可包含25个单字节字符或12个双字节字符。 链接文本在帐户或营销策划中必须唯一。
 
 >[!NOTE]
 >
->([!DNL Google Ads])现有35个字符的文本在台式机和平板电脑的广告中显示，但不在移动设备上显示。
+>([!DNL Google Ads])在台式机和平板电脑上的广告中显示35个字符的现有文本，但在移动设备上不显示。
 
-**[!UICONTROL Status]：** 站点链接的显示状态：  *[!UICONTROL Active]* 或 *[!UICONTROL Deleted]* （仅限现有站点链接）。 新站点链接的缺省值为 *[!UICONTROL Active]*.
+**[!UICONTROL Status]：** 站点链接的显示状态：  *[!UICONTROL Active]* 或 *[!UICONTROL Deleted]* （仅限现有站点链接）。 新站点链接的默认值是 *[!UICONTROL Active]*.
 
-**[!UICONTROL Description Line 1]， [!UICONTROL Description Line 2]：** 搜索引擎可能显示在链接文本下方的额外文本。 要包括说明，请为两个说明字段输入值。 每个描述字段最多可包含35个单字节字符或17个双字节字符。
+**[!UICONTROL Description Line 1]， [!UICONTROL Description Line 2]：** 搜索引擎可能在链接文本下显示的额外文本。 要包括说明，请为两个说明字段输入值。 每个描述字段最多可包含35个单字节字符或17个双字节字符。
 
-**[!UICONTROL Start Date]：** （仅限具有现有旧版站点链接或没有站点链接的营销活动；可选）在营销活动中可能显示带有广告的站点链接的首次日期。 新站点链接的默认值为当天。 要指定将来的开始日期，请以YYYY/MM/DD或M/D/YYYY格式输入日期，或单击并选择日期。
+**[!UICONTROL Start Date]：** （仅限具有现有旧版站点链接或没有站点链接的营销活动；可选）在营销活动中可能显示带有广告的站点链接的首次日期。 新站点链接的默认值为当天。 要指定将来的开始日期，请以YYYY/MM/DD或M/D/YYYY格式输入日期，或者单击并选择日期。
 
 **[!UICONTROL End Date]：** （可选）在营销活动中可能显示带有广告的站点链接的最后日期。 默认情况下，站点链接可能会无限期显示。 要指定结束日期，请以YYYY/MM/DD或M/D/YYYY格式输入日期，或单击并选择日期。
 
@@ -82,33 +84,33 @@ ht-degree: 0%
 
 ### [!UICONTROL Tracking URLs]
 
-**[!UICONTROL Base URL]** 搜索引擎用户在单击您的广告时进入的登陆页面URL。 包括确定页面内容的任何参数。 如果输入值，则会覆盖广告的基本URL。
+**[!UICONTROL Base URL]** 搜索引擎用户在单击您的广告时将被带入的登陆页面URL。 包括任何用于确定页面内容的参数。 如果输入值，则会覆盖广告的基本URL。
 
 保存记录后，基本URL将包含为促销活动或帐户配置的任何附加参数。
 
 >[!NOTE]
 >
->* （具有最终URL的帐户）基本URL可能包含登陆页面域或子域内的重定向，但登陆页面域外无重定向。 广告网络从此URL中提取域，并为广告添加任何可选的显示路径，以创建广告的显示URL。
->* ([!DNL Google Ads])营销活动或广告组中的每个站点链接都必须具有一个唯一的登陆页面，并且每个站点链接登陆页面的内容必须具有大约80%的唯一内容。 例如，您不能在同一页面中拥有指向多个锚点的链接的站点链接。
->* ([!DNL Google Ads])避免使用宏，宏不会替代来自启用并行跟踪的源的点击。 如果广告商必须使用宏，则Adobe帐户团队应与客户支持或实施团队合作来添加宏。
+>* （具有最终URL的帐户）基本URL可能包含登陆页面域或子域中的重定向，但登陆页面域外部不包含重定向。 广告网络从此URL中提取域，并为广告添加任何可选的显示路径，以创建广告的显示URL。
+>* ([!DNL Google Ads])营销活动或广告组中的每个站点链接必须具有唯一的登陆页面，并且每个站点链接登陆页面的内容必须具有大约80%的唯一内容。 例如，不能在同一页面中拥有链接指向多个锚点的站点链接。
+>* ([!DNL Google Ads])避免使用宏，这些宏不会替代来自启用并行跟踪的源的点击。 如果广告商必须使用宏，则Adobe客户团队应与客户支持或实施团队合作来添加宏。
 
 **[!UICONTROL Tracking Template]：** （可选）跟踪模板或跟踪URL，用于指定所有登陆域重定向和跟踪参数，并将最终/登陆页面URL嵌入到参数中。 示例： `{lpurl}?source={network}&id=5` 或 `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` 以包含重定向。
 
-* 对于Adobe广告转化跟踪，当促销活动设置包括&#39;&#39;时应用[!UICONTROL EF Redirect]保存记录时，“和”自动上传”、搜索、Social和Commerce会自动为自己的点击跟踪代码添加前缀。
+* 用于Adobe Advertising转化跟踪，当促销活动设置包括&#39;&#39;时应用[!UICONTROL EF Redirect]”和“自动上传”的搜索、社交和商务会在您保存记录时自动为自己的点击跟踪代码添加前缀。
 
-* 有关嵌入最终URL的支持参数，请参阅([!DNL Microsoft Advertising] 仅限) [[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799) 或([!DNL Google Ads] 仅限)“可用”部分中的“仅限跟踪模板”参数 [!DNL ValueTrack] 参数”。 [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
+* 有关嵌入最终URL时支持的参数，请参阅([!DNL Microsoft Advertising] 仅限) [[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799) 或([!DNL Google Ads] 仅限)“可用”部分中的“仅限跟踪模板”参数 [!DNL ValueTrack] 参数” [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
 
-* 您可以选择包括URL参数和为促销活动定义的任何自定义参数，各个参数之间以&amp;号分隔，例如 `{lpurl}?matchtype={matchtype}&device={device}`.
+* 您可以选择包含URL参数以及为促销活动定义的任何自定义参数，这些参数之间以&amp;号分隔，例如 `{lpurl}?matchtype={matchtype}&device={device}`.
 
 * 您可以选择添加第三方重定向和跟踪。
 
 >[!NOTE]
 >
->* 当营销活动设置包括“[!UICONTROL EF Redirect]“ ”和“ ”[!UICONTROL Auto Upload]，”当您保存记录时，Search、Social和Commerce会自动为自己的重定向和跟踪代码添加前缀。
->* 最精细级别的跟踪模板将覆盖所有更高级别的值。 例如，如果帐户设置和关键词设置都包含一个值，则会应用关键词值。
+>* 当营销活动设置包括&quot;[!UICONTROL EF Redirect]”和“[!UICONTROL Auto Upload]，”在保存记录时，Search、Social和Commerce会自动为自己的重定向和跟踪代码添加前缀。
+>* 最细粒度级别的跟踪模板将覆盖所有更高级别的值。 例如，如果帐户设置和关键词设置都包含一个值，则会应用关键词值。
 >* ([!DNL Google Ads])如果您在站点链接或关键词级别更新跟踪模板，则会重新提交相关广告以供审阅。 您可以在帐户、营销活动或广告组级别更新跟踪模板，而无需重新提交广告以供审批。
 >* ([!DNL Microsoft Advertising])您可以在任何级别更新跟踪模板，而无需重新提交广告以供审批。
->* 对象 [!DNL Google Ads]，避免使用宏，宏不会替代来自启用并行跟踪的源的点击。 如果广告商必须使用宏，则Adobe帐户团队应与客户支持或实施团队合作来添加宏。
+>* 对象 [!DNL Google Ads]，请避免使用宏，这些宏不会替代来自启用并行跟踪的源的点击。 如果广告商必须使用宏，则Adobe客户团队应与客户支持或实施团队合作来添加宏。
 
 >[!MORELIKETHIS]
 >

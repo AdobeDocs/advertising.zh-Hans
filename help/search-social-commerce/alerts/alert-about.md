@@ -1,7 +1,9 @@
 ---
 title: 关于自定义警报
 description: 了解自定义警报，包括如何创建警报模板以及何时触发警报。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: d5264837-797c-4528-afbb-78e3a95a5b59
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -16,13 +18,13 @@ ht-degree: 0%
 
 为警报模板触发警报实例时：
 
-* 指定的收件人将收到电子邮件通知。 当警报最多包含1000条记录时，电子邮件通知将包含 [CSV](/help/search-social-commerce/glossary.md#c-d) 包含警报数据（包括触发警报的所有实体的数据）的文件。
+* 指定的收件人将收到电子邮件通知。 当警报包含最多1000条记录时，电子邮件通知中会包含 [CSV](/help/search-social-commerce/glossary.md#c-d) 包含警报数据（包括触发警报的所有实体的数据）的文件。
 
-* 警报列在 [!UICONTROL Triggered Alerts] 在中查看 [!UICONTROL Search] > [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]. 触发警报后，可下载报告持续10天。
+* 警报列在 [!UICONTROL Triggered Alerts] 在中查看 [!UICONTROL Search] > [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]. 触发警报后，可下载报告可持续10天。
 
-* 警报列在 [!UICONTROL Notifications] 在适用的实体视图中居中，可从右侧工具栏中找到该视图。 通知保留在 [!UICONTROL Notifications] 居中，除非删除它们或将其标记为已读。
+* 警报列在 [!UICONTROL Notifications] 在适用的实体视图中居中，该视图可从右侧工具栏中获取。 通知保留在 [!UICONTROL Notifications] 居中，除非删除它们或将其标记为已读。
 
-在 [!UICONTROL Custom Alerts] 视图， [!UICONTROL Alert Templates] 视图列出为该帐户创建的所有警报模板，您可以创建、编辑、暂停、重新激活和删除警报模板。 此 [!UICONTROL Triggered Alerts] 视图列出生成的警报实例。
+在 [!UICONTROL Custom Alerts] 视图， [!UICONTROL Alert Templates] 视图列出了为该帐户创建的所有警报模板，您可以创建、编辑、暂停、重新激活和删除警报模板。 此 [!UICONTROL Triggered Alerts] 视图列出生成的警报实例。
 
 >[!MORELIKETHIS]
 >
@@ -34,4 +36,3 @@ ht-degree: 0%
 >* [自定义警报模板设置](alert-template-settings.md)
 >* [查看自定义警报](alert-view.md)
 >* [导出自定义警报的数据](alert-export-data.md)
-

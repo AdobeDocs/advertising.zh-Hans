@@ -1,9 +1,10 @@
 ---
 title: 可用 [!DNL Google Analytics] 量度
-description: 参考 [!DNL Google Analytics] 数据源可用的量度。
+description: 参考 [!DNL Google Analytics] 可用于数据源的量度。
 role: User, Admin
 exl-id: f7ac93e3-1aed-4165-ae65-7966ca192c84
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # 附录 — 可用 [!DNL Google Analytics] 量度
 
-以下量度（除注明的情况外）在客户的实施中启用后即可使用 [!DNL Google Analytics].
+在客户的实施中启用以下量度时，除了上述排除项外，其余均可用 [!DNL Google Analytics].
 
 <!-- Notes as FYI to self:
 >[!NOTE]
@@ -21,9 +22,9 @@ ht-degree: 0%
 >* Some metrics are assigned at the property level, and others are assigned at the view level.
 -->
 
-| 类别 | 已排除 | 注释 |
+| 类别 | 已排除 | 评论 |
 | ---- | ---- | ---- |
-| \[全部\] | 数据类型为“PERCENT”的量度 | 以百分比显示的指标始终被排除。 |
+| \[全部\] | 数据类型为“PERCENT”的指标 | 始终排除以百分比显示的量度。 |
 | 用户 | ga：1dayUsers， ga：7dayUsers， ga：14dayUsers， ga：28dayUsers， ga：sessionsPerUser | — |
 | 会话 | ga：uniqueDimensionCombinations | — |
 | 目标转化 | — | — |

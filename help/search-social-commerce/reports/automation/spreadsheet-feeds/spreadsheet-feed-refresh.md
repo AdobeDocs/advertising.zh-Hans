@@ -1,7 +1,9 @@
 ---
 title: 手动刷新电子表格报表馈送
 description: 了解如何手动刷新电子表格馈送中的数据。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2929d6a6-8823-4f2e-94b4-5348d6f7672a
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -35,4 +37,3 @@ ht-degree: 0%
 >* [电子表格报表馈送设置](spreadsheet-feed-settings.md)
 >* [查看或保存电子表格报表源文件](spreadsheet-feed-view-or-save.md)
 >* [删除电子表格报表源](spreadsheet-feed-delete.md)
-

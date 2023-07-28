@@ -1,7 +1,9 @@
 ---
 title: 生成协助报告
 description: 了解如何生成协助报告。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8f91f837-71a8-451e-8c72-dfd21956a402
+feature: Search Reports, Search Assist Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # 生成协助报告
 
-*具有搜索、社交和商务点击跟踪以及Adobe广告转化跟踪的广告商，Adobe Analytics(具有 [!DNL Analytics] 集成)，或使用令牌(`ef_id`)*
+*具有搜索、社交和商务点击跟踪以及来自Adobe Advertising的转化跟踪的广告商，Adobe Analytics(具有 [!DNL Analytics] 集成)，或使用令牌在馈送中提供(`ef_id`)仅限*
 
 1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
@@ -45,5 +47,4 @@ ht-degree: 0%
 >* [此 [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [此 [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [关于报告](/help/search-social-commerce/reports/report-about.md)
->* [删除报告](/help/search-social-commerce/reports/management/report-delete.md)
-
+>* [删除报表](/help/search-social-commerce/reports/management/report-delete.md)

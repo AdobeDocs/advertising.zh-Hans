@@ -1,7 +1,9 @@
 ---
 title: 查看或保存电子表格报表源文件
 description: 了解如何查看电子表格馈送并将其保存到文件。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 3f8af6fb-6652-4434-bd88-ef1a0e10efd1
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -27,5 +29,3 @@ ht-degree: 0%
 >* [电子表格报表馈送设置](spreadsheet-feed-settings.md)
 >* [手动刷新电子表格报表馈送](spreadsheet-feed-refresh.md)
 >* [删除电子表格报表源](spreadsheet-feed-delete.md)
-
-

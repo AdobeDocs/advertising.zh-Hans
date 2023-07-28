@@ -1,7 +1,9 @@
 ---
-title: ”[!DNL Yandex] campaign设置”
+title: ’[!DNL Yandex] 营销活动设置
 description: 引用设置 [!DNL Yandex] 营销活动。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 33e73b90-7a37-4be7-b96d-02ef8bfdb79e
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
@@ -12,11 +14,11 @@ ht-degree: 0%
 
 ## \[营销活动创建屏幕\]
 
-**[!UICONTROL Campaign Type]：** （仅在营销活动创建期间可用）广告放置位置：
+**[!UICONTROL Campaign Type]：** （仅在营销活动创建期间可用）放置广告的位置：
 
 * *[!UICONTROL Search Network Only]：* 在搜索网络上显示文本广告。 您必须为每个广告组指定关键字。
 
-* *[!UICONTROL Search and Display Network]：* 在搜索网络和 [!DNL Yandex Advertising Network]. 对于搜索广告，您必须为每个广告组指定搜索关键词；对于显示广告，您必须为每个广告组指定要在其中进行广告的网站关键词。
+* *[!UICONTROL Search and Display Network]：* 在搜索网络和 [!DNL Yandex Advertising Network]. 对于搜索广告，您必须为每个广告组指定搜索关键字；对于显示广告，您必须为每个广告组指定要在其上广告的网站指定关键字。
 
 * *[!UICONTROL Display Network Only]：* 在上显示文本广告 [!DNL Yandex Advertising Network]. 对于每个广告组，您必须为要在其上进行广告的网站指定关键字。
 
@@ -28,17 +30,17 @@ ht-degree: 0%
 
 {{$include /help/_includes/start-date.md}}
 
-**[!UICONTROL Status]：** 营销活动的显示状态： *活动* 或 *已暂停*. 新广告营销活动的默认值为 *活动*.
+**[!UICONTROL Status]：** 营销活动的显示状态： *活动* 或 *已暂停*. 新广告营销活动的默认设置为 *活动*.
 
 ## [!UICONTROL Budget Options]
 
-**[!UICONTROL Budget]：** 预算，您希望每天（平均）或在营销活动存留期内支出的金额，具体取决于帐户的预算类型。 最低预算为6 300日元、10欧元或10美元。
+**[!UICONTROL Budget]：** 预算，即您希望每天（平均）或在营销活动存留期内的支出金额，具体取决于帐户的预算类型。 最低预算为6 300日元、10欧元或10美元。
 
 **注释：**
 
 * 新营销活动的竞价管理策略为“最高可用位置”。
 
-* 根据搜索条件，如果您将此促销活动分配给配置为允许自动调整促销活动预算限制的项目组合，则您实际上可能在任何给定的日、月或生命周期中花费的金额多于或少于指定的预算。
+* 根据搜索条件，如果您将此促销活动分配给配置为允许自动调整促销活动预算限制的项目组合，则您实际上可能在任何给定日、月或生命周期中花费的金额多于或少于指定的预算。
 
 <!-- **[!UICONTROL Delivery Method]:** -->
 
@@ -77,4 +79,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [管理营销活动](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

@@ -1,7 +1,9 @@
 ---
 title: 编辑报告模板
 description: 了解如何编辑可重用报表模板的设置。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8e195b60-8c58-460b-bc61-19dd2452d332
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -32,4 +34,3 @@ ht-degree: 0%
 >* [创建报表模板](template-create.md)
 >* [查看报表模板](template-view.md)
 >* [删除报表模板](template-delete.md)
-

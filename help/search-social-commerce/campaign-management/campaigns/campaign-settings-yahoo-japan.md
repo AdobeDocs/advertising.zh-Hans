@@ -1,7 +1,9 @@
 ---
-title: ”[!DNL Yahoo! Japan Ads] campaign设置”
+title: ’[!DNL Yahoo! Japan Ads] 营销活动设置
 description: 引用设置 [!DNL Yahoo! Japan Ads] 营销活动。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: f728a880-27d8-478a-8480-a00b0fcab293
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -22,7 +24,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/start-date.md}}
 
-**[!UICONTROL Status]：** 营销活动的显示状态： *活动* 或 *已暂停*. 新广告营销活动的默认值为 *活动*.
+**[!UICONTROL Status]：** 营销活动的显示状态： *活动* 或 *已暂停*. 新广告营销活动的默认设置为 *活动*.
 
 <!-- **[!UICONTROL End date]:** -->
 
@@ -30,9 +32,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Budget Options]
 
-**[!UICONTROL Budget]：** 平均而言，预算，即您每天要花费的金额。 最低每日预算为100日元。
+**[!UICONTROL Budget]：** 平均而言，预算，也就是每天要花费的金额。 最低每日预算为100日元。
 
-如果您将此营销活动分配给自动调整其营销活动预算限制的项目组合，则 — 根据搜索条件 — 您实际上可能在任何给定期间花费的金额大于或小于指定的预算。
+如果您将此促销活动分配给自动调整促销活动预算限制的项目组合，则 — 根据搜索条件 — 您实际上可能在任何给定期间花费的金额大于或小于指定的预算。
 
 <!-- **[!UICONTROL Delivery Method]:** -->
 
@@ -93,4 +95,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [管理营销活动](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

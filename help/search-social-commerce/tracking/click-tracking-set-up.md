@@ -1,7 +1,9 @@
 ---
 title: 设置基于Cookie的点击跟踪
 description: 了解如何设置和验证点击跟踪标记。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 340aec08-a1a5-4aa5-b666-9c819c1709d0
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # 设置基于Cookie的点击跟踪
 
-要跟踪Search、Social和Commerce点击量，必须配置和验证以下元素。
+要跟踪Search、Social和Commerce的点击量，必须配置和验证以下元素。
 
 1. (Adobe客户团队)将广告商设置为像素客户。
 
@@ -18,7 +20,7 @@ ht-degree: 0%
 
 1. 如有必要， [生成跟踪URL并上传它们](#generate-upload-tracking-urls) 促销活动元素。
 
-1. [验证一些点击跟踪URL的格式，并对其进行测试以验证是否打开了正确的登陆页面](#validate-tracking-urls).
+1. [验证一些点击跟踪URL的格式，然后对其进行测试以验证是否打开了正确的登陆页面](#validate-tracking-urls).
 
 ## 为广告网络帐户和营销活动设置跟踪选项 {#set-up-click-tracking-options}
 
@@ -34,7 +36,7 @@ ht-degree: 0%
 
    1. 对于 [!UICONTROL Tracking Type] 设置，选择 **[!UICONTROL EF Redirect]**.
 
-   1. (允许搜索、社交和商务与Adobe Analytics交换数据或跟踪中发生的转化) [!DNL Apple Safari])选择 [!UICONTROL Redirect Type] option **[!UICONTROL Token]**.
+   1. (允许Search、Social和Commerce与Adobe Analytics交换数据或跟踪中发生的转化 [!DNL Apple Safari])选择 [!UICONTROL Redirect Type] option **[!UICONTROL Token]**.
 
    1. （可选）打开 **[!UICONTROL Auto Upload]** 用于在Search、Social和Commerce下次与其同步时自动将新跟踪URL上传到广告网络的选项。 此值作为帐户中所有营销活动的默认值继承，但可以在营销活动级别覆盖。
 
@@ -48,15 +50,15 @@ ht-degree: 0%
 
    1. 对于 [!UICONTROL Tracking Type] 设置，选择 **[!UICONTROL EF Redirect]**.
 
-   1. (允许搜索、社交和商务与Adobe Analytics交换数据或跟踪中发生的转化) [!DNL Apple Safari])选择 [!UICONTROL Redirect Type] option **[!UICONTROL Token]**.
+   1. (允许Search、Social和Commerce与Adobe Analytics交换数据或跟踪中发生的转化 [!DNL Apple Safari])选择 [!UICONTROL Redirect Type] option **[!UICONTROL Token]**.
 
    1. （可选）打开 **[!UICONTROL Auto Upload]** 用于在Search、Social和Commerce下次与其同步时自动将新跟踪URL上传到广告网络的选项。 此值作为帐户中所有营销活动的默认值继承，但可以在营销活动级别覆盖。
 
 ## 生成和上传跟踪URL {#generate-upload-tracking-urls}
 
-参见“[何时以及如何生成点击跟踪URL](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).”
+请参阅&quot;[何时以及如何生成点击跟踪URL](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)“
 
-### 测试点击跟踪URL的格式 {#validate-tracking-urls}
+### 测试点击跟踪网址的格式 {#validate-tracking-urls}
 
 验证是否为点击跟踪URL打开了正确的登陆页面。
 
@@ -68,7 +70,7 @@ ht-degree: 0%
 
    1. 在暂存网站上完成一个事务，并验证成功页面是否触发了正确的像素。 像素跟踪的实际参数因广告商和跟踪URL而异。 在以下示例中，广告商希望跟踪新应用程序的数量和新收入金额：
 
-      对于新最终用户（使用全新Cookie），应触发以下像素：
+      对于新的最终用户（使用新的Cookie），应触发以下像素：
 
       `< img width="1" height="1" src="http://pixel-user-everesttech.net/<Advertising_Cloud_UserID>/p?ev_transid=<applicationid>&ev_new_application=1&ev_new_amount=<loanamount>" / >`
 
@@ -79,11 +81,10 @@ ht-degree: 0%
 
 1. 对域中的多个点击跟踪URL重复此操作。
 
-1. 对每个域重复步骤1，并相应地使用不同的登陆页面。
+1. 对每个域重复步骤1，相应地使用不同的登陆页面。
 
 1. 如果需要，请确认Search、Social和Commerce可以查看交易ID的像素(`ev_transid`)。
 
 >[!MORELIKETHIS]
 >
 >* [何时以及如何生成点击跟踪URL](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
-

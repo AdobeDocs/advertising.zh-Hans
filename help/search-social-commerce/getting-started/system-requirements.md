@@ -1,7 +1,9 @@
 ---
 title: 系统要求
 description: 了解软件和帐户要求。
-source-git-commit: c7c1735f9459012ade5039e64e55d10343f8d0af
+exl-id: 9ff7d9ba-3f04-4552-b24f-6c8165cd89e1
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -26,7 +28,7 @@ ht-degree: 0%
 
 * （查看以XLS格式导出的文件） [!DNL Microsoft Excel] 推荐
 
-   如果您使用的应用程序不是 [!DNL Microsoft Excel] 要查看导出的XLS文件，数字、日期、时间和货币可能格式不正确。
+  如果您使用的应用程序不是 [!DNL Microsoft Excel] 要查看导出的XLS文件，数字、日期、时间和货币的格式可能不正确。
 
 ## 用户名和密码
 
@@ -34,10 +36,10 @@ ht-degree: 0%
 
 ## 计算机和浏览器语言设置
 
-以下信息确定使用哪些字符集以及用于显示数字、日期、时间和货币的格式：
+以下信息确定要使用的字符集以及显示数字、日期、时间和货币的格式：
 
 * 计算机的区域设置。
 
 * 浏览器的语言设置。
 
-要确保您以所需的格式看到信息，请确保您的计算机和浏览器都使用正确的语言设置。 有关说明，请参阅计算机和浏览器的联机帮助。
+要确保您以所需的格式查看信息，请确保您的计算机和浏览器都使用正确的语言设置。 有关说明，请参阅计算机和浏览器的联机帮助。

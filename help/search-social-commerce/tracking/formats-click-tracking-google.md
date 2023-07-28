@@ -1,7 +1,9 @@
 ---
 title: 的点击跟踪格式 [!DNL Google Ads]
 description: 了解的点击跟踪格式 [!DNL Google Ads] 帐户。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -26,20 +28,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` 是Adobe广告中广告商唯一ID的变量。
+>* `<advertiser_ID>` 是Adobe Advertising中广告商唯一ID的变量。
 >
->* 此格式表示已为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请替换 `cq?` 之后 `<advertiser_ID>` 替换为 `c?`.
+>* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，则替换 `cq?` 之后 `<advertiser_ID>` 替换为 `c?`.
 >
 >* 此 [!DNL ValueTrack] 跟踪模板中用于指示最终URL的参数必须为 `{lpurl}` 或 `!{unescapedurl}`.
 >
->* （文本广告）在按关键字竞价时，参数 `ev_pl` （对于投放）没有值。 当你按投放位置竞价时， `ev_ln` （对于关键字）没有值。 当您按广告组或任何其他维度竞价时，两者 `ev_ln` 和 `ev_pl` 没有值。
+>* （文本广告）按关键字竞价时，参数 `ev_pl` （适用于投放位置）没有值。 当按投放位置竞价时， `ev_ln` （对于关键字）没有值。 当您按广告组或任何其他维度竞价时，两者 `ev_ln` 和 `ev_pl` 没有值。
 >
 >* （动态搜索广告） `{keyword}` 指示动态搜索目标表达式，例如 `_cat:[VALUE]` 或 `_url:[VALUE]`.
 >
 >* （动态搜索广告） [!DNL Google Ads] 可动态确定最终URL，因此您无需输入URL。
 >
 >* （站点链接）您可以通过生成 [!UICONTROL Transaction Report]. 此 [!UICONTROL Link Type] sitelink的列值为 `sl:<Sitelink text>`，例如 `sl:See Current Offers`.
-
 
 ### 购物网络
 
@@ -53,46 +54,43 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` 是Adobe广告中广告商唯一ID的变量。
+>* `<advertiser_ID>` 是Adobe Advertising中广告商唯一ID的变量。
 >
->* 此格式表示已为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请替换 `cq?` 之后 `<advertiser_ID>` 替换为 `c?`.
+>* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，则替换 `cq?` 之后 `<advertiser_ID>` 替换为 `c?`.
 >
 >* 此 [!DNL ValueTrack] 跟踪模板中用于指示最终URL的参数必须为 `{lpurl}` 或 `!{unescapedurl}`.
 >
 >* [!DNL Google Ads] 会使用Google商家中心信息源中的产品URL作为最终URL，因此您无需为产品数据或产品组输入最终URL。
 >
->* 您可以通过生成，了解点击购物广告产生了哪些转化 [!UICONTROL Transaction Report]. 此 [!UICONTROL Link Type] 产品广告的列值为pla：`<product ID>`，例如 `pla:8525822`.
-
+>* 您可以通过生成转化来查看点击购物广告产生了哪些转化 [!UICONTROL Transaction Report]. 此 [!UICONTROL Link Type] 产品广告的列值为pla：`<product ID>`，例如 `pla:8525822`.
 
 ## 登陆页面后缀（最终URL后缀）格式
 
-使用Adobe广告转化跟踪的帐户必须包含广告网络的点击标识符(`gclid` 对象 [!DNL Google Ads])的句子中输入：
+使用Adobe Advertising转化跟踪的帐户必须包含广告网络的点击标识符(`gclid` 对象 [!DNL Google Ads])进行标记：
 
-* 当广告商具有Adobe Analytics集成时，后缀必须包含以下任一项：
+* 当广告商具有Adobe Analytics集成时，后缀必须包括以下任一项：
 
-   * [!DNL Google Ads] 使用最新版本的帐户 `s_kwcid` 格式，支持针对效果最佳的营销活动、草稿和实验营销活动的营销活动和广告组级别报告：
+   * [!DNL Google Ads] 使用最新版本的帐户 `s_kwcid` 格式，支持达到效果营销活动以及草稿和实验营销活动的营销活动级和广告组级报表：
 
-      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-      如果帐户具有服务器端s_kwcid实施以及帐户或营销活动设置»[!UICONTROL Auto Upload]“”已启用，则会自动添加参数。 否则，您需要手动添加它。
+     如果帐户具有服务器端s_kwcid实施并且帐户或营销活动设置»[!UICONTROL Auto Upload]”已启用，则会自动添加参数。 否则，您需要手动添加它。
 
    * 所有其他 [!DNL Google Ads] 帐户：
 
-      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
-* 当广告商没有Adobe Analytics集成时，后缀必须包含以下内容：
+* 当广告商没有Adobe Analytics集成时，后缀必须包括以下内容：
 
-   `&ev_efid={gclid}:G:s`
+  `&ev_efid={gclid}:G:s`
 
 >[!NOTE]
 >
 >* 较低级别的登陆页面后缀将覆盖帐户级别的后缀。 为便于维护，除非需要对各个帐户组件进行不同的跟踪，否则请仅使用帐户级别的后缀。 要在广告组级别或更低级别配置后缀，请使用广告网络的编辑器。
 >
->* (动态搜索广告；具有Adobe Analytics但不具有服务器端跟踪的广告商)如果您希望包含从Adobe广告到Analytics的反向馈送跟踪，则附加 `s_kwcid` 跟踪代码到帐户级别登陆页面后缀的结尾。
-
+>* (动态搜索广告；具有Adobe Analytics但不具有服务器端跟踪的广告商)如果要包含从Adobe Advertising到Analytics的反向馈送跟踪，请附加 `s_kwcid` 跟踪代码到帐户级别登陆页面后缀的结尾。
 
 >[!MORELIKETHIS]
 >
->* [关于Adobe广告转化跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
+>* [关于Adobe Advertising转化跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
 >* [s\_kwcid跟踪代码的格式](skwcid-tracking-parameter.md)
-

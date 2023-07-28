@@ -1,7 +1,9 @@
 ---
-title: ”[!DNL Baidu] campaign设置”
+title: ’[!DNL Baidu] 营销活动设置
 description: 引用设置 [!DNL Baidu] 营销活动。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 842df637-e7dc-4493-bcdb-a29b478cd350
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -12,20 +14,20 @@ ht-degree: 0%
 
 ## \[营销活动创建屏幕\]
 
-**[!UICONTROL Campaign Type]：** （仅在营销活动创建期间可用）广告放置位置。 唯一的是 *仅搜索网络*.
+**[!UICONTROL Campaign Type]：** （仅在营销活动创建期间可用）广告的放置位置。 唯一的是 *仅搜索网络*.
 
 ## [!UICONTROL Campaign Details]
 
 **[!UICONTROL Campaign Name]：** 帐户中唯一的促销活动名称。 最大长度为15个双字节字符。
 
 **[!UICONTROL Ad Serving]：**
-搜索引擎在广告组中相互投放活动广告的频率：
+搜索引擎在广告组中相互提供活动广告的频率：
 
 * *[!UICONTROL Rotate]* （新促销活动的默认值）：您的每个广告进入广告拍卖的可能性相同。
 
 * *[!UICONTROL Optimize]：*  广告网络青睐表现更好的广告。 这可能与您的业务和优化目标不一致。
 
-**[!UICONTROL Status]：** 营销活动的显示状态： *活动* 或 *已暂停*. 新广告营销活动的默认值为 *活动*.
+**[!UICONTROL Status]：** 营销活动的显示状态： *活动* 或 *已暂停*. 新广告营销活动的默认设置为 *活动*.
 
 ## [!UICONTROL Budget Options]
 
@@ -82,4 +84,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [管理营销活动](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

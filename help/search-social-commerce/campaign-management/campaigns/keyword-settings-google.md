@@ -1,7 +1,9 @@
 ---
-title: ”[!DNL Google Ads] 关键词设置”
+title: ’[!DNL Google Ads] 关键字设置
 description: 引用设置 [!DNL Google Ads] 关键字。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8834e852-214b-4b2c-9a95-4b1c802e800d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -10,9 +12,9 @@ ht-degree: 0%
 
 # [!DNL Google Ads] 关键词设置
 
-您可以为使用搜索和显示网络的营销活动创建关键词。
+您可以为使用搜索和显示网络的营销活动创建关键字。
 
-请参阅Google Ads帮助，了解 [每个帐户的关键字限制](https://support.google.com/google-ads/answer/6372658).
+请参阅Google Ads帮助，以了解 [每个帐户的关键字限制](https://support.google.com/google-ads/answer/6372658).
 
 ## [!UICONTROL Keyword Details]
 
@@ -26,8 +28,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 您可以从以下位置创建负关键字 [!UICONTROL Keywords] > [!UICONTROL Negatives] 在广告组和营销活动设置中查看和。
->* 更改 [!DNL Google Ads] keyword或match type删除现有关键字并创建新关键字。
-
+>* 更改 [!DNL Google Ads] keyword或match type删除现有关键字并创建一个新关键字。
 
 **[!UICONTROL Status]：** 关键字的显示状态： *活动* 或 *已暂停*. 新关键字的默认值为 *活动*.
 
@@ -39,9 +40,9 @@ ht-degree: 0%
 
 ## 占位符
 
-**[!UICONTROL Param1]：** 如果基本URL或跟踪模板包含 [此 `{param1}`](https://support.google.com/google-ads/answer/6305348) 动态替换字符串。
+**[!UICONTROL Param1]：** 如果基本URL或跟踪模板包含 [该 `{param1}`](https://support.google.com/google-ads/answer/6305348) 动态替换字符串。
 
-**[!UICONTROL Param2]：** 如果基本URL或跟踪模板包含 [此 `{param2}`](https://support.google.com/google-ads/answer/6305348) 动态替换字符串。
+**[!UICONTROL Param2]：** 如果基本URL或跟踪模板包含 [该 `{param2}`](https://support.google.com/google-ads/answer/6305348) 动态替换字符串。
 
 ## URL选项
 
@@ -60,4 +61,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [管理关键字](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-

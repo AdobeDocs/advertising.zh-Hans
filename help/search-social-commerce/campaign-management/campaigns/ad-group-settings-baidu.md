@@ -1,7 +1,9 @@
 ---
-title: ”[!DNL Baidu] 广告组设置”
+title: ’[!DNL Baidu] 广告组设置
 description: 引用设置 [!DNL Baidu] 广告组。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 940c5d62-8646-4686-ad34-1fbabe69e1b3
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 0%
@@ -35,4 +37,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [管理广告组](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
-

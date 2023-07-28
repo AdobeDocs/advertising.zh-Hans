@@ -1,7 +1,9 @@
 ---
 title: 停止库存馈送数据的发布作业
 description: 了解如何停止库存馈送数据的发布作业。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 995dd6f4-fb8c-4b3f-bdc5-1e80d1129f53
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads] （仅删除操作），以及 [!DNL Yandex] 仅限帐户*
 
-您可以通过以下方式停止发布从信息源生成的促销活动数据。
+您可以通过以下方式停止发布从信息源生成的营销活动数据。
 
 * 当数据仍在传播时，请停止传播作业，以便没有数据可供发布：
 
@@ -24,9 +26,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于库存信息源](inventory-feeds-about.md)
+>* [关于清单信息源](inventory-feeds-about.md)
 >* [查看从馈送生成的数据](propagated-data-view.md)
 >* [编辑从馈送生成的数据](propagated-data-edit.md)
->* [从馈送生成的促销活动数据发布到广告网络](propagated-data-post.md)
+>* [从馈送生成的将营销活动数据发布到广告网络](propagated-data-post.md)
 >* [从馈送生成的数据的状态](propagated-data-status.md)
-

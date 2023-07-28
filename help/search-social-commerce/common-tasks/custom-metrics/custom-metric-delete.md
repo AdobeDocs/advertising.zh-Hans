@@ -1,7 +1,9 @@
 ---
 title: 删除自定义量度
 description: 了解如何删除从标准量度计算的自定义量度。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 531da1f7-6e20-4124-9e8c-e1816929c4d7
+feature: Search Common Tasks, Search Custom Metrics
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # 删除自定义量度
 
-如果自定义量度作为列包含在当前视图中，则删除列会立即删除它。 如果列包含在其他默认视图、自定义视图或报表模板中，则下次分别刷新视图或查看模板时将显示列更改。
+如果自定义量度作为列包含在当前视图中，则删除列会立即删除它。 如果列包含在另一个默认视图、自定义视图或报表模板中，则下次刷新视图或查看模板时列更改将分别可见。
 
 ## 从营销活动管理视图中删除自定义量度
 
@@ -34,7 +36,7 @@ ht-degree: 0%
 
 ## 从删除自定义量度 [!UICONTROL Portfolios] 查看次数
 
-1. 在数据表上方，单击 ![编辑所选视图](/help/search-social-commerce/assets/view-settings.png "编辑所选视图").
+1. 在数据表的上方，单击 ![编辑所选视图](/help/search-social-commerce/assets/view-settings.png "编辑所选视图").
 
 1. 单击 **[!UICONTROL Columns]** 选项卡。
 
@@ -48,4 +50,3 @@ ht-degree: 0%
 >* [创建自定义量度](custom-metric-create.md)
 >* [编辑自定义量度](custom-metric-edit.md)
 >* [自定义量度设置](custom-metric-settings.md)
-

@@ -1,7 +1,9 @@
 ---
 title: 使用日历指定日期
 description: 了解如何使用日历选择日期。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b07c0db5-4b7a-4b60-9383-ca07b99404de
+feature: Search Common Tasks
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # 使用日历指定日期
 
-1. 单击 ![日历按钮](/help/search-social-commerce/assets/calendar-date-range.png "日历按钮") 以打开日历。
+1. 单击 ![“日历”按钮](/help/search-social-commerce/assets/calendar-date-range.png "“日历”按钮") 以打开日历。
 
    >[!NOTE]
    >
@@ -22,7 +24,8 @@ ht-degree: 0%
 
    * 单击日期。
 
-   * （向前移动或向后移动一个月）单击 **`<`** 或 **`>`**，则不会显示任何内容。
+   * （向前或向后移动一个月）单击 **`<`** 或 **`>`**、ID名称和ID名称等。
 
    * （选择其他月份或年份）单击月份或年份的名称，然后单击月份或年份。
+
    （突出显示当前日期）单击 **[!UICONTROL Today]**.

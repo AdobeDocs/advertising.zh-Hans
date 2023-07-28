@@ -1,7 +1,9 @@
 ---
 title: 管理库存馈送的广告模板
-description: 了解如何管理广告模板，通过模板可处理库存数据以管理帐户结构和投放动态广告。
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+description: 了解如何管理广告模板，通过这些模板可处理库存数据，以管理帐户结构和投放动态广告。
+exl-id: b26fc32a-76bc-470a-8ce5-fbaad4b3ca71
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1415'
 ht-degree: 0%
@@ -12,9 +14,9 @@ ht-degree: 0%
 
 *[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads] （仅删除操作），以及 [!DNL Yandex] 仅限帐户*
 
-在上传数据之前或之后，您可以创建特定于搜索引擎的广告模板，通过这些模板可以处理数据。 您可以为文字广告和扩展/扩展文字广告创建模板， [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 响应式搜索广告，以及 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 购物广告。
+在上传数据之前或之后，您可以创建特定于搜索引擎的广告模板，以便通过这些模板处理数据。 您可以为文字广告和扩展/扩展的文字广告创建模板， [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 响应式搜索广告，和 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 购物广告。
 
-您可以将每个模板与一个信息源文件关联， [!DNL Google Merchant Center] 帐户，或 [!DNL Microsoft® Merchant Center] 帐户，您可以将多个模板与同一信息源文件或帐户关联。 广告模板可以包含变量，这些变量会被上传文件或帐户中的实际数据列替换。 在大多数情况下，变量还可以包括 [修改量组](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) 您可以在Search、Social和Commerce中设置以为数据文件中的每个适用行创建多个广告、关键字、促销活动或广告组。 利用模板选项，可为广告创建新帐户结构（促销活动、广告组、关键字），或将广告映射到现有帐户结构。
+您可以将每个模板与一个信息源文件关联， [!DNL Google Merchant Center] 帐户，或 [!DNL Microsoft® Merchant Center] 帐户，您可以将多个模板与同一信息源文件或帐户关联。 广告模板可以包含变量，这些变量会被上传文件或帐户中的实际数据列替换。 在大多数情况下，变量还可以包括 [修改者组](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) 您可以在Search、Social和Commerce中设置以针对数据文件中的每个适用行创建多个广告、关键字、促销活动或广告组。 利用模板选项，可为广告创建新帐户结构（促销活动、广告组、关键词），或将广告映射到现有帐户结构。
 
 除了从头开始创建新模板之外，您还可以通过克隆现有模板和编辑现有模板来创建新模板。
 
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 ## 创建、克隆或编辑信息源模板
 
-为文本和扩展/扩展文本广告、响应式搜索广告创建单独的模板， [!DNL Google Ads] 购物广告，以及 [!DNL Microsoft® Advertising] 购物广告。
+为文本和扩展/扩展的文本广告、响应式搜索广告创建单独的模板， [!DNL Google Ads] 购物广告，以及 [!DNL Microsoft® Advertising] 购物广告。
 
 1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，此时将打开 [!UICONTROL Templates] 选项卡。
 
@@ -48,7 +50,7 @@ ht-degree: 0%
 
    1. （可选）在左列中，指定其数据将通过模板传播的产品信息源文件或商家中心帐户：
 
-      * （对于产品信息源文件）要选择先前上传的文件，请单击 ![向下箭头](/help/search-social-commerce/assets/arrow-down-dropdown.png "向下箭头") 并从可用信息源文件列表中选择一个文件。 要上传新文件，请输入完整路径和文件名或者单击 **[!UICONTROL Browse]** 在设备或网络上查找文件，然后单击 **[!UICONTROL Upload]**.
+      * （对于产品信息源文件）要选择先前上传的文件，请单击 ![向下箭头](/help/search-social-commerce/assets/arrow-down-dropdown.png "向下箭头") 并从可用信息源文件列表中选择一个文件。 要上载新文件，请通过输入完整路径和文件名或单击指定该文件 **[!UICONTROL Browse]** 在设备或网络上查找文件，然后单击 **[!UICONTROL Upload]**.
 
       * （对于已同步的商家中心帐户）选择帐户名称。
 
@@ -65,11 +67,11 @@ ht-degree: 0%
       >* 每个标准文本广告模板最多可以包含四个广告变体模板，每个扩展/扩展文本广告模板最多可以包含五个广告变体模板，每个响应式搜索广告模板最多可以包含三个广告变体模板。
       >* 每个广告组最多可以包含三个启用的响应式搜索广告。
       >* 您无法编辑现有的标准文字广告变体，并且现有模板不再生成标准文字广告。
-      >* 如果更改了广告变体模板，则通过模板传播数据时，可能会删除现有广告并创建新广告。 [取决于广告类型和广告网络](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md).
+      >* 如果您更改了广告变体模板，则通过模板传播数据时，可能会删除现有广告并创建新广告。 [取决于广告类型和广告网络](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md).
 
       * 要添加广告变体，请执行以下操作：
 
-         1. 单击 **[!UICONTROL Add Ad Variation]** 要创建文本广告， **[!UICONTROL Add ETA Variation]** 创建扩展/扩展文本广告，或者 **[!UICONTROL Add RSA Variation]** 以创建响应式文本广告。
+         1. 单击 **[!UICONTROL Add Ad Variation]** 要创建文本广告， **[!UICONTROL Add ETA Variation]** 创建扩展/扩展的文本广告，或者 **[!UICONTROL Add RSA Variation]** 以创建响应式文本广告。
 
             指定广告类型后，您只能使用该模板创建该广告类型。
 
@@ -77,15 +79,15 @@ ht-degree: 0%
 
             对于响应式搜索广告，您可以包含3-15个标题和2-4个描述。
 
-         1. （可选）要使用原始广告副本字段中的文本预填所有备用广告副本字段，请选中 **[!UICONTROL Prefill]**.
+         1. （可选）要使用原始广告文案字段中的文本预填所有备用广告文案字段，请选中 **[!UICONTROL Prefill]**.
 
-         1. （可选）要将另一组广告副本添加到广告，在传播期间用数据替换任何动态参数后，如果原始广告副本中的任何行超过最大长度，则可以使用另一组广告，请单击 **[!UICONTROL Add Alternate]**，然后添加替代值。
+         1. （可选）要将另一组广告副本添加到广告，如果原始广告副本中的任何行在传播期间被数据替换后超出最大长度，则可以使用另一组广告副本，请单击 **[!UICONTROL Add Alternate]**，然后添加替代值。
 
             >[!NOTE]
             >
             >* 如果 [!UICONTROL Prefill] 选项，则备用字段会预填充原始字段，您可以根据需要编辑它们。
-            >* 只有超过最大长度的广告副本字段会被替换为替换值。 例如，如果只有原始标题或标题太长，则生成的广告变体使用替代标题或标题以及原始描述。 因此，请确保将备用广告副本与原始广告副本结合使用时具有意义。
-            >* 如果原始广告副本符合搜索引擎的长度要求，则会丢弃替代广告副本。
+            >* 只有超出最大长度的广告文案字段会被替换成替换值。 例如，如果只有原始标题或标题太长，则生成的广告变体使用替代标题或标题以及原始描述。 因此，请确保将备用广告副本与原始广告副本结合使用时有意义。
+            >* 如果原始广告副本满足搜索引擎的长度要求，则会丢弃替代广告副本。
             >* 您最多可以为每个广告副本字段指定四个替代项。
 
          * 要编辑广告变体，请执行以下操作：
@@ -94,15 +96,15 @@ ht-degree: 0%
 
                对于响应式搜索广告，您可以包含3-15个标题和2-4个描述。
 
-            1. （可选）要使用原始广告副本字段中的文本预填所有备用广告副本字段，请选中 **[!UICONTROL Prefill]**.
+            1. （可选）要使用原始广告文案字段中的文本预填所有备用广告文案字段，请选中 **[!UICONTROL Prefill]**.
 
-            1. （可选）要将另一组广告副本添加到广告，在传播期间用数据替换任何动态参数后，如果原始广告副本中的任何行超过最大长度，则可以使用另一组广告，请单击 **[!UICONTROL Add Alternate]**，然后添加替代值。
+            1. （可选）要将另一组广告副本添加到广告，如果原始广告副本中的任何行在传播期间被数据替换后超出最大长度，则可以使用另一组广告副本，请单击 **[!UICONTROL Add Alternate]**，然后添加替代值。
 
                >[!NOTE]
                >
                >* 如果 [!UICONTROL Prefill] 选项，则备用字段会预填充原始字段，您可以根据需要编辑它们。
-               >* 只有超过最大长度的广告副本字段会被替换为替换值。 例如，如果只有原始标题或标题太长，则生成的广告变体使用替代标题或标题以及原始描述。 因此，请确保将备用广告副本与原始广告副本结合使用时具有意义。
-               >* 如果原始广告副本符合搜索引擎的长度要求，则会丢弃替代广告副本。
+               >* 只有超出最大长度的广告文案字段会被替换成替换值。 例如，如果只有原始标题或标题太长，则生成的广告变体使用替代标题或标题以及原始描述。 因此，请确保将备用广告副本与原始广告副本结合使用时有意义。
+               >* 如果原始广告副本满足搜索引擎的长度要求，则会丢弃替代广告副本。
                >* 您最多可以为每个广告副本字段指定四个替代项。
 
          * 要删除广告变体，请单击 **[!UICONTROL Remove ETA Variation]** （适用于扩展/扩展的文字广告）或 **[!UICONTROL Remove RSA Variation]** （适用于响应式搜索广告）。
@@ -115,7 +117,7 @@ ht-degree: 0%
 
       1. 单击旁边的复选框 **[!DNL \[Component\] Label Classifications]**.
 
-      1. 对于要分配给组件的每个标签分类，请执行以下操作：
+      1. 对于要分配给组件的每个标签分类，执行以下操作：
 
          1. 单击 **[!UICONTROL Add Label Classification]**.
 
@@ -133,7 +135,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您可以手动通过暂停的模板传播数据，但数据不会自动通过该模板传播。
+>您可以通过暂停的模板手动传播数据，但数据不会自动通过该模板传播。
 
 1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，此时将打开 [!UICONTROL Templates] 选项卡。
 

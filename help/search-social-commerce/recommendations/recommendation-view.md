@@ -1,14 +1,15 @@
 ---
 title: 查看发布者推荐和性能分析
 description: 了解如何查看 [!DNL Google Ads] 建议和 [!DNL Microsoft® Advertising] 广告网络帐户的性能分析。
-source-git-commit: de1b0b3ffbb8cbc3113e4e707b8ee2d647f60ca3
+feature: Search Recommendations
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
 
 ---
 
-# 查看您的发布者推荐和性能分析
+# 查看发布者推荐和性能分析
 
 *[!DNL Google Ads]和 [!DNL Microsoft® Advertising] 帐户*
 
@@ -24,7 +25,7 @@ ht-degree: 0%
 
      您可以选择 [应用或取消](google-recommendation-apply-dismiss.md) 广告网络的建议。
 
-   * ([!DNL Microsoft® Advertising] 帐户)当 [!UICONTROL Actions] 行的列中包含一个操作，请单击 **[!UICONTROL Click here]** 以打开 [!DNL Microsoft® Advertising] 编辑器，从中可处理洞察。
+   * ([!DNL Microsoft® Advertising] 帐户)当 [!UICONTROL Actions] 行的列中包含一个操作，请单击 **[!UICONTROL Click here]** 以打开 [!DNL Microsoft® Advertising] 编辑器中对分析执行操作。
 
      如果您未登录到 [!DNL Microsoft® Advertising] 编辑者，您首先会被定向到登录屏幕。
 

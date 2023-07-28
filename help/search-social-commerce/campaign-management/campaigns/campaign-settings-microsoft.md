@@ -1,8 +1,9 @@
 ---
-title: ‘[!DNL Microsoft Advertising] campaign设置
+title: ’[!DNL Microsoft Advertising] 营销活动设置
 description: 引用设置 [!DNL Microsoft Advertising] 营销活动。
 exl-id: c6d86fb8-48b0-40fd-bcfc-c4afdccd5283
-source-git-commit: f2889bbafc1b3cd3c467d94abae2ad1a52d0eaed
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 0%
@@ -17,15 +18,15 @@ ht-degree: 0%
 
 * *[!UICONTROL Search and Display Network]：* 仅在搜索网络上显示文本广告。
 
-* *[!UICONTROL Shopping Network]：* 显示产品广告 — 针对您产品在 [!DNL Microsoft Merchant Center] 产品目录 — 在购物网络上
+* *[!UICONTROL Shopping Network]：* 显示产品广告 — 针对您在网站中 [!DNL Microsoft Merchant Center] 产品目录 — 在购物网络上
 
-* *[!UICONTROL Audience]：* 在上显示本机/显示广告 [!DNL Microsoft Audience Network]. 您可以(a)通过将营销活动链接到中的商家中心商店，自动生成基于信息源的广告。 [!UICONTROL Shopping Settings] 或b)使用文本资源和上传的图像创建响应式广告。 这两个选项都需要您创建具有用户定位的广告组。
+* *[!UICONTROL Audience]：* 在上显示本机/显示广告 [!DNL Microsoft Audience Network]. 您可以a)通过将营销活动关联到中的商家中心商店，自动生成基于信息源的广告 [!UICONTROL Shopping Settings] 或b)使用文本资源和上传的图像创建响应式广告。 这两个选项都需要您创建具有用户定位的广告组。
 
 ## [!UICONTROL Campaign Details]
 
 **[!UICONTROL Campaign Name]：** 帐户中唯一的促销活动名称。 最大长度为128个字符。
 
-**[!UICONTROL Status]：** 营销活动的显示状态： *活动* 或 *已暂停*. 新广告营销活动的默认值为 *活动*.
+**[!UICONTROL Status]：** 营销活动的显示状态： *活动* 或 *已暂停*. 新广告营销活动的默认设置为 *活动*.
 
 <!-- **[!UICONTROL Start Date]:** -->
 
@@ -47,31 +48,31 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]：** 该活动的竞价策略：
 
-* *[!UICONTROL Enhanced CPC]：* （受众、搜索和购物网络上的营销活动）使用广告网络的增强型每次点击成本(eCPC)模型，该模型允许广告网络自动更改每次点击成本(CPC)竞价，从而尝试使用广告网络（不在“搜索、社交和商务”中）中指定的转化，最大化转化，同时尝试将平均CPC保持在最大CPC以下。
+* *[!UICONTROL Enhanced CPC]：* （受众、搜索和购物网络上的营销活动）使用广告网络的增强型每次点击成本(eCPC)模型，该模型允许广告网络自动更改每次点击成本(CPC)竞价，从而尝试使用广告网络（不在“搜索”、“社交和商务”中）中指定的转化来最大化转化，同时尝试将平均CPC保持在最大CPC以下。
 
-当您将带eCPC的营销活动添加到优化的搜索、社交和商务产品组合时，搜索、社交和商务会优化基本竞价，如果“[!UICONTROL Auto adjust campaign budget limits]”选项已启用 — 营销活动预算。 广告网络会优化所有竞价调整，并可能会在用户查询时根据专有数据和见解更改搜索、社交和商务生成的竞价。 **注意：** 仅当广告网络上跟踪的总转化率与项目组合目标一致时，才在项目组合中使用eCPC营销活动。
+当您将带eCPC的营销活动添加到经过优化的搜索、社交和商务产品组合时，搜索、社交和商务会优化基本竞价，如果“[!UICONTROL Auto adjust campaign budget limits]”选项已启用 — 营销活动预算。 广告网络会优化所有竞价调整，并可能会在用户查询时根据专有数据和见解更改搜索、社交和商务生成的竞价。 **注意：** 仅当广告网络上跟踪的总转化与项目组合目标一致时，才在项目组合中使用eCPC营销活动。
 
-* *[!UICONTROL Manual CPC]* （默认）：(已弃用 [!DNL Microsoft Advertising] （2021年）使用每次点击成本(CPC)模型。 您可以选择允许广告网络更改促销活动的竞价：
+* *[!UICONTROL Manual CPC]* （默认）：(已弃用 [!DNL Microsoft Advertising] （2021年）使用每次点击成本(CPC)模型。 您可以选择允许广告网络更改营销活动的竞价：
 
-   * **[!UICONTROL Enable Enhanced CPC]** （默认情况下处于禁用状态）：这与使用&quot;[!UICONTROL Enhanced CPC]”选项。
+   * **[!UICONTROL Enable Enhanced CPC]** （默认禁用）：这与使用&#39;&#39;相同[!UICONTROL Enhanced CPC]”选项。
 
-* *[!UICONTROL Manual CPM]* （仅限受众网络上的营销活动）使用每千次展示成本(CPM)模型，您可以根据此模型指定每1000次查看的展示要花费什么。 当具有此竞价策略的营销活动包含在项目组合中时，不会对其进行优化。
+* *[!UICONTROL Manual CPM]* （仅限受众网络上的营销活动）使用每千展示成本(CPM)模型，您可以根据该模型指定每1,000次查看的展示要花费哪些成本。 当具有此竞价策略的营销活动包含在项目组合中时，不会对其进行优化。
 
-* *[!UICONTROL Maximize Clicks]：* （搜索和购物营销活动）广告网络（而不是搜索、社交和商务）会优化竞价以最大化点击次数。 （可选）输入 **[!UICONTROL Max CPC]** （每次点击成本）以确保广告网络为每一次点击支付的费用不超过特定金额。 **注意：** 当您将使用此策略的营销活动添加到项目组合时，竞价由点击权重驱动，而不是由项目组合目标驱动。
+* *[!UICONTROL Maximize Clicks]：* （搜索和购物营销活动）广告网络（而非搜索、社交和商务）会优化竞价以实现点击次数的最大化。 （可选）输入 **[!UICONTROL Max CPC]** （每次点击成本），以确保广告网络为每次点击支付的金额不会超过特定金额。 **注意：** 将具有此策略的营销活动添加到项目组合时，竞价由点击权重驱动，而不是由项目组合目标驱动。
 
-* *[!UICONTROL Maximize Conversion Value]：* （搜索和购物/智能购物网络）广告网络（而不是搜索、社交和商务）会优化竞价以实现转化价值的最大化。 （可选）输入 **[!UICONTROL Target Return on Ad Spend]** (ROAS)的百分比。 **注意：** 此选项适用于混合项目组合中的营销活动，但不适用于标准项目组合。
+* *[!UICONTROL Maximize Conversion Value]：* （搜索和购物/智能购物网络）广告网络（而非搜索、社交和商务）可优化竞价以实现转化价值的最大化。 （可选）输入 **[!UICONTROL Target Return on Ad Spend]** (ROAS)的百分比。 **注意：** 此选项适用于混合项目组合中的营销活动，但适用于标准项目组合中的营销活动。
 
-* *[!UICONTROL Maximize Conversions]：* (搜索网络上的营销活动 <!-- future: and audience network -->)广告网络（而不是Search、Social和Commerce）会优化竞价以实现最大转化率。 （可选）输入 **[!UICONTROL Target CPC]** （每次点击成本）<!-- future: ; for audience campaigns, you can also enter an optional [!UICONTROL Target CPA] (cost per acquisition) -->. **注意：** 此选项适用于混合项目组合中的营销活动，但不适用于标准项目组合。
+* *[!UICONTROL Maximize Conversions]：* (搜索网络上的营销活动 <!-- future: and audience network -->)广告网络（而非搜索、社交和商务）会优化竞价以实现最大转化率。 （可选）输入 **[!UICONTROL Target CPC]** （每次点击成本）<!-- future: ; for audience campaigns, you can also enter an optional [!UICONTROL Target CPA] (cost per acquisition) -->. **注意：** 此选项适用于混合项目组合中的营销活动，但适用于标准项目组合中的营销活动。
 
-* *[!UICONTROL Target CPA]：* （搜索网络上的营销活动）广告网络（而非搜索、社交和商务）基于可选内容优化竞价 **[!UICONTROL Target CPA]** （每次购置成本），这是您要为一项购置（转化）支付的30天平均金额。 **注意：** 此选项适用于混合项目组合（但不是标准项目组合）中具有任何支出策略的营销活动，但支出策略除外 [!UICONTROL Weekly] 或 [!UICONTROL Google Target CPA].
+* *[!UICONTROL Target CPA]：* （搜索网络上的促销活动）广告网络（而非搜索、社交和商务）根据可选内容优化竞价 **[!UICONTROL Target CPA]** （每次购置成本），这是您要为一项购置（转化）支付的30天平均金额。 **注意：** 此选项用于具有任何支出策略的混合项目组合（而非标准项目组合）中的营销活动，但支出策略除外 [!UICONTROL Weekly] 或 [!UICONTROL Google Target CPA].
 
-  使用此竞价策略的营销活动的平均位置和CPC竞价数据不可用。
+  平均位置和CPC竞价数据不适用于具有此竞价策略的营销活动。
 
-* *[!UICONTROL Target Impression Share]：* （搜索网络上的营销活动）广告网络（而不是搜索、社交和商务）优化竞价以实现目标展示份额和广告位置。 （可选）输入 **[!UICONTROL Target Impression Share]** 以百分比表示， **[!UICONTROL Target Ad Position]**，和 **[!UICONTROL Max CPC]** （每次点击成本）。 **注意：** 混合项目组合不支持此选项。
+* *[!UICONTROL Target Impression Share]：* （搜索网络上的营销活动）广告网络（而非搜索、社交和商务）优化竞价以实现目标展示份额和广告位置。 （可选）输入 **[!UICONTROL Target Impression Share]** 以百分比表示， **[!UICONTROL Target Ad Position]**，和 **[!UICONTROL Max CPC]** （每次点击成本）。 **注意：** 混合项目组合中不支持此选项。
 
-* *[!UICONTROL Target Return on Ad Spend]：*  （搜索和购物网络上的营销活动）广告网络（而不是搜索、社交和商务）根据您的网站优化竞价 **[!UICONTROL Target ROAS]** （广告支出回报率），以百分比表示。 （可选）输入 **[!UICONTROL Max CPC]** （每次点击成本）以确保广告网络为每一次点击支付的费用不超过特定金额。 **注意：** 此选项适用于混合项目组合（但不是标准项目组合）中具有任何支出策略的营销活动，但支出策略除外 [!UICONTROL Weekly] 或 [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target Return on Ad Spend]：*  （搜索和购物网络上的营销活动）广告网络（而非搜索、社交和商务）根据您的网站优化竞价。 **[!UICONTROL Target ROAS]** （广告支出回报率），以百分比表示。 （可选）输入 **[!UICONTROL Max CPC]** （每次点击成本）以确保广告网络为每一次点击支付的金额不会超过特定金额。 **注意：** 此选项用于具有任何支出策略的混合项目组合（而非标准项目组合）中的营销活动，但支出策略除外 [!UICONTROL Weekly] 或 [!UICONTROL Google Target ROAS].
 
-  使用此竞价策略的营销活动的平均位置和CPC竞价数据不可用。
+  平均位置和CPC竞价数据不适用于具有此竞价策略的营销活动。
 
 ## [!UICONTROL Shopping Settings]
 
@@ -90,7 +91,7 @@ ht-degree: 0%
 {{$include /help/_includes/merchant-id.md}}
 
 
-**[!UICONTROL Products]：** （仅限链接到商户中心商店的受众营销活动）要广告的产品。 默认情况下， *[!UICONTROL All products]* 已选中。 要仅广告具有特定属性的产品，请选择 *[!UICONTROL Filter products]* 并指定最多七个产品维度和属性组合，从中筛选产品。 所有指定的值都必须适用于为产品显示的广告。 例如，要显示Acme宠物用品广告，您可以创建过滤器 `Custom Label 1=animals`， `Category=pet supplies`、和 `Brand=Acme Pet Supplies`.
+**[!UICONTROL Products]：** （仅限链接到商户中心商店的受众营销活动）要广告的产品。 默认情况下， *[!UICONTROL All products]* 已选中。 要仅广告具有特定属性的产品，请选择 *[!UICONTROL Filter products]* 并指定最多7个用于筛选产品的产品维度和属性组合。 所有指定的值都必须适用于为产品显示的广告。 例如，要显示Acme宠物用品广告，您可以创建过滤器 `Custom Label 1=animals`， `Category=pet supplies`、和 `Brand=Acme Pet Supplies`.
 
 <!-- **[!UICONTROL Inventory Filter]:** -->
 
@@ -142,9 +143,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Negative Websites]
 
-**[!UICONTROL Negative Websites]：** （仅限显示/原生网络上的营销活动；可选）显示网络上不想显示广告的站点。 输入有效的URL，如www.example.com。 要指定多个字符串，请用逗号分隔它们，或在单独行中输入它们。
+**[!UICONTROL Negative Websites]：** （仅限显示网络上的营销活动；可选）显示网络上不希望显示广告的站点。 请输入有效的URL，如www.example.com。 要指定多个字符串，请用逗号分隔它们，或者在单独的行中输入它们。
 
-有关可用性的信息，请参阅Microsoft Advertising帮助»[防止广告出现在特定网站上](https://help.ads.microsoft.com/#apex/bae/en/14061/0).”
+有关可用性的信息，请参阅Microsoft Advertising帮助»[防止广告出现在特定网站上](https://help.ads.microsoft.com/#apex/bae/en/14061/0)“
 
 ## [!UICONTROL Campaign Tracking]
 
@@ -172,7 +173,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/tracking-level.md}}
 
-**[!UICONTROL Track Product Group]：** (对于 [!UICONTROL EF Redirect] only)未实现
+**[!UICONTROL Track Product Group]：** (用于 [!UICONTROL EF Redirect] 仅)未实现
 
 <!-- **[!UICONTROL Append Parameters]:** -->
 
@@ -182,7 +183,7 @@ ht-degree: 0%
 
 **[!UICONTROL Conversion Goal]：** 是否要 *[!UICONTROL Use account conversion goals for this campaign]* （默认）或 *[!UICONTROL Use campaign specific conversion goals]*. 如果选择指定营销活动的转化目标，则从所有可用目标列表中选择目标。 **注意：** 目标每天进行同步，因此可能无法列出之前24小时内创建的目标。 要更新列表， [手动同步广告网络数据](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
 
-如果营销活动是项目组合的一部分，则使用与项目组合目标相同的转化目标。 使用不同的转化目标可能会影响项目组合的性能。
+如果促销活动属于项目组合，则使用与项目组合目标相同的转化目标。 使用不同的转化目标可能会影响项目组合的性能。
 
 >[!MORELIKETHIS]
 >

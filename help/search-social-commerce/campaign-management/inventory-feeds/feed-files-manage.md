@@ -1,7 +1,9 @@
 ---
 title: 管理清单数据馈送文件
 description: 了解如何配置用于控制如何处理馈送数据的设置。
-source-git-commit: a0cdc0de763feeafdea57e4233b48a2c39449e1f
+exl-id: 73d372de-2673-4190-94cf-2f07f4ce2493
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -20,29 +22,29 @@ ht-degree: 0%
 
 您可以通过以下任一方式上传和处理数据馈送文件：
 
-* **自动使用FTP：** 您可以将文件直接上传到FTP目录；信息源服务每两小时检查一次新文件。 首次上传文件后，您可以将其与特定于广告网络的模板关联。 之后，您上传的所有同名文件都会自动与同一模板关联。 取决于您如何操作 [配置馈送数据设置](feed-settings-manage.md)、Search、Social和Commerce可能会通过所有适用的模板自动传播信息源数据，并可选择将生成的营销活动和广告数据发布到相关广告网络。
+* **自动使用FTP：** 您可以将文件直接上传到FTP目录；信息源服务每两小时检查一次新文件。 首次上传文件后，您可以将其与特定于广告网络的模板关联。 之后，您上传的所有同名文件都会自动与同一模板关联。 取决于您如何操作 [配置馈送数据设置](feed-settings-manage.md)、搜索、Social和Commerce可能会通过所有适用的模板自动传播信息源数据，并（可选）将生成的营销活动和广告数据发布到相关广告网络。
 
-   要设置用于存放和自动处理数据文件的FTP目录，请联系您的Adobe客户团队。
+  要设置用于存放和自动处理数据文件的FTP目录，请联系您的Adobe客户团队。
 
-* **手动处理：** 您可以手动 [上传信息源文件](#feed-file-upload) 从 [!UICONTROL Advanced] (ACM)视图。 将信息源文件与一个或多个特定于广告网络的内容关联后 [模板](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)，您可以通过以下方式生成营销活动和广告数据 [通过模板传播馈送数据](feed-data-propagate.md) 根据 [馈送数据设置](feed-settings-manage.md). 您可以选择在促销活动层次结构视图中预览生成的数据，生成批量处理工作表文件以供审阅，或生成批量处理工作表文件以立即发布到广告网络。 如果不立即发布数据，则可以 [预览](propagated-data-view.md) 和 [发布它](propagated-data-post.md) 稍后。 稍后可以 [将现有信息源文件替换为新文件](#feed-file-replace) 而不丢失任何现有的模板关联。
+* **手动处理：** 您可以手动 [上载馈送文件](#feed-file-upload) 从 [!UICONTROL Advanced] (ACM)视图。 将信息源文件与一个或多个特定于广告网络的项目关联后 [模板](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)，您可以通过以下方式生成营销活动和广告数据 [通过模板传播馈送数据](feed-data-propagate.md) 根据 [馈送数据设置](feed-settings-manage.md). 您可以选择在促销活动层次结构视图中预览生成的数据，生成批量处理工作表文件以供审阅，或生成批量处理工作表文件以立即发布到广告网络。 如果不立即发布数据，则可以 [预览](propagated-data-view.md) 和 [发布它](propagated-data-post.md) 稍后。 您稍后可以 [使用新文件替换现有信息源文件](#feed-file-replace) 而不丢失任何现有的模板关联。
 
 ## 信息源文件要求
 
 单个文件中不需要特定数据字段，但每个文件都需要以下内容：
 
-* 文件中的第一行必须包含列名(也称为 *标头*)，这些参数对应于关联模板中的动态参数。 其余行必须包含与列名对应的数据。 每个数据行（行）必须只与一个帐户组件相关，例如一个营销活动或一个广告。 所有行上的值必须以制表符或逗号分隔。 请参阅 [CSV示例文件](#example-csv-feed-file) 和 [TSV示例文件](#example-tsv-feed-file) 下面的。
+* 文件中的第一行必须包含列名(也称为 *标头*)，这些参数对应于关联模板中的动态参数。 其余行必须包含与列名对应的数据。 每个数据行（行）必须只与一个帐户组件相关，例如一个营销活动或一个广告。 所有行上的值必须以制表符或逗号分隔。 请参阅 [CSV示例文件](#example-csv-feed-file) 和 [TSV示例文件](#example-tsv-feed-file) 下。
 
-* 文件大小不限，但必须具有以下文件扩展名之一： `.tsv` （对于制表符分隔的值）， `.txt` (对于 [!DNL Unicode]符合 — compliant ASCII文本)， `.csv` （对于逗号分隔的值），或 `.zip` （对于压缩ZIP格式的单个文件，将解压缩为TSV文件）。
+* 文件大小不限，但必须具有以下文件扩展名之一： `.tsv` （对于制表符分隔的值）， `.txt` (用于 [!DNL Unicode]符合ASCII规范文本)， `.csv` （对于逗号分隔的值），或 `.zip` （对于压缩ZIP格式的单个文件，将解压到TSV文件）。
 
-* 文件名区分大小写，且不能包含以下字符： `# % & * | \ : " < > . ? /`
+* 文件名区分大小写，不能包含以下字符： `# % & * | \ : " < > . ? /`
 
-* 如果将文件存放在FTP目录中，则必须对文件的每个版本使用相同的文件名。
+* 如果将文件存储在FTP目录中，则必须对文件的每个版本使用相同的文件名。
 
-* ([!DNL Google Ads] （仅限模板）如果您的模板在文本广告中使用Param2或Param2广告参数，则馈送文件中的相应数据字段必须包括数字数据，且不含货币符号。
+* ([!DNL Google Ads] （仅限模板）如果模板在文本广告中使用Param2或Param2广告参数，则馈送文件中的相应数据字段必须包含数字数据，且不含货币符号。
 
 * 要更新现有帐户组件，请包含现有营销活动的名称（及其组件，如果相关）。 如果未指定现有结构，则会创建新组件。
 
-### 以逗号分隔的信息源文件示例 {#example-csv-feed-file}
+### 逗号分隔的馈送文件示例 {#example-csv-feed-file}
 
 ```
 Product Category,Product Name,Discount Percentage
@@ -66,13 +68,13 @@ shoes<TAB>Clarks<TAB>20
 
 * 要通过有限的手动审查或编辑实现可重复的过程，请按照以下方式设置信息源文件及其帐户结构数据：
 
-   * 包括包含足够数据的列和行，以创建帐户结构或映射到现有帐户结构。 理想情况下，应使用与产品分类紧密相连且信息源数据容易映射到的现有帐户结构。
+   * 包含足以创建帐户结构或映射到现有帐户结构的数据的列和行。 理想情况下，使用与产品分类密切相关并且信息源数据可以轻松映射到其中的现有帐户结构。
 
-   * 包括短到足以在广告副本中使用的描述。
+   * 包括短到可在广告副本中使用的描述。
 
    * 跨产品行使用一致的数据模式和命名约定。
 
-   * 删除所有前面空格和结尾空格。
+   * 删除所有前导空格和尾随空格。
 
    * 删除所有乱码字符。
 
@@ -97,23 +99,23 @@ shoes<TAB>Clarks<TAB>20
 ## 手动上传信息源文件 {#feed-file-upload}
 
 >[!NOTE]
-> 如果将模板与手动上传的文件关联，然后通过FTP上传另一个具有相同名称、文件扩展名和语法大小写的文件，则在通过模板传播数据时将使用FTP文件。 例如，myfile.csv会替换myfile.csv，但Myfile.CSV则不会。
+> 如果将模板与手动上传的文件关联，然后通过FTP上传另一个具有相同名称、文件扩展名和语法大小写的文件，则在通过模板传播数据时将使用FTP文件。 例如，myfile.csv将取代myfile.csv，但Myfile.CSV则不取代。
 
 1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，此时将打开 [!UICONTROL Templates] 选项卡。
 
 1. 在数据表上方的工具栏中，单击 **[!UICONTROL Feeds]**.
 
-1. 在数据表上方，单击 **[!UICONTROL Upload]**.
+1. 在数据表的上方，单击 **[!UICONTROL Upload]**.
 
-1. 通过输入完整路径和文件名或单击指定要上传的文件 **[!UICONTROL Browse]** 在设备或网络上查找文件。
+1. 通过输入完整路径和文件名或单击指定要上载的文件 **[!UICONTROL Browse]** 在设备或网络上查找文件。
 
 1. 单击 **[!UICONTROL Upload].
 
-将验证文件中的所有字段。 在更正值之前，无法稍后发布字段长度无效的项目。 在模板中，文件中的所有列名都可用作动态参数。
+将验证文件中的所有字段。 在更正值之前，您不能稍后发布字段长度无效的项目。 文件中的所有列名在模板中作为动态参数变为可用。
 
 ## 替换信息源文件 {#feed-file-replace}
 
-替换馈送文件时，即使新文件具有不同的文件名或扩展名，所有现有的模板关联仍会保留。 当通过最初与上一个文件关联的所有模板传播数据时，会使用新文件。
+替换馈送文件时，即使新文件具有不同的文件名或扩展名，所有现有的模板关联仍会保留。 当您通过最初与上一个文件相关联的所有模板传播数据时，将使用新文件。
 
 1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，此时将打开 [!UICONTROL Templates] 选项卡。
 
@@ -121,22 +123,23 @@ shoes<TAB>Clarks<TAB>20
 
    * 在 [!UICONTROL Feed] 列中，单击 ![更多选项](/help/search-social-commerce/assets/options.png "更多选项") 并选择 **[!UICONTROL Re-upload]**.
 
-   * 在数据表上方的工具栏中，单击 **[!UICONTROL Feeds]**. 在馈送文件列表中，选中现有文件名旁边的复选框。 在数据表上方，单击 **[!UICONTROL Upload]**.
+   * 在数据表上方的工具栏中，单击 **[!UICONTROL Feeds]**. 在馈送文件列表中，选中现有文件名旁边的复选框。 在数据表的上方，单击 **[!UICONTROL Upload]**.
+
    >[!NOTE]
    >
    >信息源文件的源(&quot;[!UICONTROL FTP]手动上传的文件中包含“”或“&amp;mdash”) [!UICONTROL Source] 列。
 
-1. 通过输入完整路径和文件名或单击指定要上传的文件 **[!UICONTROL Browse]** 在设备或网络上查找文件。
+1. 通过输入完整路径和文件名或单击指定要上载的文件 **[!UICONTROL Browse]** 在设备或网络上查找文件。
 
-即使新文件的文件名或扩展名不同，现有文件也会被新文件覆盖。
+即使新文件具有不同的文件名或扩展名，现有文件也会被新文件覆盖。
 
 1. 单击 **[!UICONTROL Re-Upload]**.
 
-将验证文件中的所有字段。 在更正值之前，无法稍后发布字段长度无效的项目。 在模板中，文件中的所有列名都可用作动态参数。
+将验证文件中的所有字段。 在更正值之前，您不能稍后发布字段长度无效的项目。 文件中的所有列名在模板中作为动态参数变为可用。
 
-## 删除信息源文件
+## 删除馈送文件
 
-您可以删除手动或通过FTP上传的任何信息源文件。 当您删除馈送文件时，该文件不再与任何模板关联。
+您可以删除手动或通过FTP上传的任何信息源文件。 当您删除信息源文件时，它将不再与任何模板关联。
 
 1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，此时将打开 [!UICONTROL Templates] 选项卡。
 
@@ -144,17 +147,16 @@ shoes<TAB>Clarks<TAB>20
 
 1. 选中要删除的每个文件旁边的复选框。
 
-1. 在数据表上方，单击 **[!UICONTROL Delete]**.
+1. 在数据表的上方，单击 **[!UICONTROL Delete]**.
 
 1. 在确认消息中，单击 **[!UICONTROL Yes]**.
 
 >[!MORELIKETHIS]
 >
->* [关于库存信息源](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
+>* [关于清单信息源](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
 >* [通过模板传播馈送数据](feed-data-propagate.md)
 >* [查看从馈送生成的数据](propagated-data-view.md)
 >* [编辑从馈送生成的数据](propagated-data-edit.md)
->* [从馈送生成的促销活动数据发布到广告网络](propagated-data-post.md)
+>* [从馈送生成的将营销活动数据发布到广告网络](propagated-data-post.md)
 >* [停止库存馈送数据的发布作业](stop-job.md)
 >* [从馈送生成的数据的状态](propagated-data-status.md)
-

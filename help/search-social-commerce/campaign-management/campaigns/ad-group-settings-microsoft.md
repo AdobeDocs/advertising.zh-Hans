@@ -1,7 +1,9 @@
 ---
-title: ”[!DNL Microsoft Advertising] 广告组设置”
+title: ’[!DNL Microsoft Advertising] 广告组设置
 description: 引用设置 [!DNL Microsoft Advertising] 广告组。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 5dfa766d-2a42-455d-a340-e72e11a38032
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 0%
@@ -46,11 +48,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Ad Group Targeting]
 
-**[!UICONTROL Audience Target Method]：** （受众和组）是否：
+**[!UICONTROL Audience Target Method]：** （受众广告组）是否：
 
-* *[!UICONTROL Target and Bid]：* 仅向与目标受众相关联的用户显示广告，这些受众也满足广告组的任何其他目标。
+* *[!UICONTROL Target and Bid]：* 用于仅显示与满足广告组任何其他目标的目标受众相关联的用户使用的广告。
 
-* *[!UICONTROL Bid Only]：* 即使向不与目标受众关联的用户显示广告，只要他们满足其他广告组级别的目标。 但是，您可以通过为特定受众设置更高的竞价来提高向这些受众显示广告的几率。
+* *[!UICONTROL Bid Only]：* 用于即使向不与目标受众关联的用户显示广告，只要他们满足其他广告组级别的目标。 但是，您可以通过为特定受众设置更高的竞价来增加向这些受众显示广告的机会。
 
 <!-- **[!UICONTROL Location Target]:** -->
 
@@ -62,37 +64,37 @@ ht-degree: 0%
 
 {{$include /help/_includes/devices.md}}
 
-**[!UICONTROL Gender]：** （受众广告组；可选）作为目标包含或排除的特定性别： *[!UICONTROL Male]*， *[!UICONTROL Female]*、和 *[!UICONTROL Unknown]*. 默认情况下，会定位所有性别。 排除项始终会覆盖排除项。
+**[!UICONTROL Gender]：** （受众广告组；可选）要作为目标包含或排除的特定性别： *[!UICONTROL Male]*， *[!UICONTROL Female]*、和 *[!UICONTROL Unknown]*. 默认情况下，会定位所有性别。 排除项始终会覆盖包含项。
 
 * 要定位所有值，请勿选择任何值。
 
-* 要包含一个值，请单击它旁边的圆圈一次，以便显示一个蓝色复选标记(![包括](/help/search-social-commerce/assets/include.png "包括"))。 您可以选择按每个性别目标的指定百分比增加或减少竞价。
+* 要包括一个值，请单击它旁边的圆圈一次，以便显示一个蓝色复选标记(![包括](/help/search-social-commerce/assets/include.png "包括"))中显示。 您可以选择按每个性别目标的指定百分比增加或减少竞价。
 
-* 要排除某个值，请单击该值旁边的圆圈两次，以便显示一个红色复选标记(![排除](/help/search-social-commerce/assets/exclude.png "排除"))。
+* 要排除某个值，请单击它旁边的圆圈两次，以便显示一个红色复选标记(![排除](/help/search-social-commerce/assets/exclude.png "排除"))中显示。
 
-**[!UICONTROL Age]：** （受众广告组；可选）要作为目标包含或排除的特定年龄类别： *[!UICONTROL 18-24]*， *[!UICONTROL 25-34]*， *[!UICONTROL 35-49]*， *[!UICONTROL 50-64]*， *[!UICONTROL 65+]*、和 *[!UICONTROL Unknown]*. 默认情况下，会定向所有年龄。 排除项始终会覆盖排除项。
-
-* 要定位所有值，请勿选择任何值。
-
-* 要包含一个值，请单击它旁边的圆圈一次，以便显示一个蓝色复选标记(![包括](/help/search-social-commerce/assets/include.png "包括"))。 您可以选择按指定百分比增加或减少每个目标年龄的竞价。
-
-* 要排除某个值，请单击该值旁边的圆圈两次，以便显示一个红色复选标记(![排除](/help/search-social-commerce/assets/exclude.png "排除"))。
-
-**[!UICONTROL Industry]：** （受众广告组；可选）作为目标包含或排除的特定行业。 默认情况下，所有行业都是定向的。 排除项始终会覆盖排除项。
+**[!UICONTROL Age]：** （受众广告组；可选）要作为目标包含或排除的特定年龄类别： *[!UICONTROL 18-24]*， *[!UICONTROL 25-34]*， *[!UICONTROL 35-49]*， *[!UICONTROL 50-64]*， *[!UICONTROL 65+]*、和 *[!UICONTROL Unknown]*. 默认情况下，会定位所有年龄。 排除项始终会覆盖包含项。
 
 * 要定位所有值，请勿选择任何值。
 
-* 要包含一个值，请单击它旁边的圆圈一次，以便显示一个蓝色复选标记(![包括](/help/search-social-commerce/assets/include.png "包括"))。 您可以选择按每个目标行业的指定百分比增加或减少竞价。
+* 要包括一个值，请单击它旁边的圆圈一次，以便显示一个蓝色复选标记(![包括](/help/search-social-commerce/assets/include.png "包括"))中显示。 您可以选择按指定百分比增加或减少每个目标年龄的竞价。
 
-* 要排除某个值，请单击该值旁边的圆圈两次，以便显示一个红色复选标记(![排除](/help/search-social-commerce/assets/exclude.png "排除"))。
+* 要排除某个值，请单击它旁边的圆圈两次，以便显示一个红色复选标记(![排除](/help/search-social-commerce/assets/exclude.png "排除"))中显示。
 
-**[!UICONTROL Job Function Targets]：** （受众广告组；可选）包含或排除作为目标的特定工作职能。 默认情况下，所有工作职能都是定向的。 排除项始终会覆盖排除项。
+**[!UICONTROL Industry]：** （受众广告组；可选）要作为目标包含或排除的特定行业。 默认情况下，所有行业都是目标行业。 排除项始终会覆盖包含项。
 
 * 要定位所有值，请勿选择任何值。
 
-* 要包含一个值，请单击它旁边的圆圈一次，以便显示一个蓝色复选标记(![包括](/help/search-social-commerce/assets/include.png "包括"))。 您可以选择按指定的百分比增加或减少每个目标工作职能的竞价。
+* 要包括一个值，请单击它旁边的圆圈一次，以便显示一个蓝色复选标记(![包括](/help/search-social-commerce/assets/include.png "包括"))中显示。 您可以选择按指定百分比增加或减少每个目标行业的竞价。
 
-* 要排除某个值，请单击该值旁边的圆圈两次，以便显示一个红色复选标记(![排除](/help/search-social-commerce/assets/exclude.png "排除"))。
+* 要排除某个值，请单击它旁边的圆圈两次，以便显示一个红色复选标记(![排除](/help/search-social-commerce/assets/exclude.png "排除"))中显示。
+
+**[!UICONTROL Job Function Targets]：** （受众广告组；可选）要作为目标包含或排除的特定工作职能。 默认情况下，所有工作职能都是定向的。 排除项始终会覆盖包含项。
+
+* 要定位所有值，请勿选择任何值。
+
+* 要包括一个值，请单击它旁边的圆圈一次，以便显示一个蓝色复选标记(![包括](/help/search-social-commerce/assets/include.png "包括"))中显示。 您可以选择按指定百分比增加或减少每个目标工作职能的竞价。
+
+* 要排除某个值，请单击它旁边的圆圈两次，以便显示一个红色复选标记(![排除](/help/search-social-commerce/assets/exclude.png "排除"))中显示。
 
 ## [!UICONTROL URL Options]
 
@@ -116,11 +118,10 @@ ht-degree: 0%
 
 ## [!UICONTROL Negative Websites]
 
-**[!UICONTROL Negative Websites]：** （仅限显示/原生网络上的营销活动；可选）显示网络上不想显示广告的站点。 输入有效的URL，如www.example.com。 要指定多个字符串，请用逗号分隔它们，或在单独行中输入它们。
+**[!UICONTROL Negative Websites]：** （仅限显示网络上的营销活动；可选）显示网络上不希望显示广告的站点。 请输入有效的URL，如www.example.com。 要指定多个字符串，请用逗号分隔它们，或者在单独的行中输入它们。
 
-有关可用性的信息，请参阅《》上的Microsoft Advertising帮助[防止广告出现在特定网站上](https://help.ads.microsoft.com/#apex/bae/en/14061/0).”
+Microsoft有关可用性的信息，请参阅“[防止广告出现在特定网站上](https://help.ads.microsoft.com/#apex/bae/en/14061/0)“
 
 >[!MORELIKETHIS]
 >
 >* [管理广告组](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
-

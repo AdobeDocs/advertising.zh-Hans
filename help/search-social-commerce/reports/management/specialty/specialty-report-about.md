@@ -2,7 +2,8 @@
 title: 关于专业报告
 description: 了解专业报告。
 exl-id: a5232434-cdb5-451f-aa65-6536c97c4a52
-source-git-commit: 8d4bf0b53c8ddbc11111879c7e73adf3995e0ad8
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -11,11 +12,11 @@ ht-degree: 0%
 
 # 关于专业报告
 
-大多数专业报告仅包含由广告网络收集的数据。 此 [!UICONTROL Google Ads Shopping Performance Report]， [!UICONTROL Keyword Impression Share Report]、和 [!UICONTROL Campaign Impression Share Report]但是，可以包含由收集的收入数据 [!DNL Adobe]. 专业报告可供所有用户使用。
+大多数专业报告仅包含广告网络收集的数据。 此 [!UICONTROL Google Ads Shopping Performance Report]， [!UICONTROL Keyword Impression Share Report]、和 [!UICONTROL Campaign Impression Share Report]但是，可以包含由收集的收入数据 [!DNL Adobe]. 专业报告可供所有用户使用。
 
 >[!NOTE]
 >
->对于大多数专业报告，数据提取时间为前一天的23:00（晚上11:00）。 例如，6月18日23:00，它将提取6月17日的数据。 如果您在6月19日09:00运行报表（在提取6月18日的数据之前），则报表包含截至6月17日23:00的数据。 此数据同步适用于所有 [!DNL Google Ads] 专业报告和 [!UICONTROL Bing Ads Geo Report] 和 [!UICONTROL Bing Ads Search Query Report].
+>对于大多数专业报告，将于每天23:00（晚上11:00）提取前一天的数据。 例如，6月18日23:00，它将提取6月17日的数据。 如果您在6月19日09:00运行报表（在提取6月18日的数据之前），则报表包含截至6月17日23:00的数据。 此数据同步适用于所有 [!DNL Google Ads] 专业报告和 [!UICONTROL Bing Ads Geo Report] 和 [!UICONTROL Bing Ads Search Query Report].
 
 ## 专业报告类型
 

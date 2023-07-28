@@ -1,14 +1,16 @@
 ---
-title: 生成模型准确性报告
+title: 生成模型准确度报告
 description: 了解如何生成模型准确性报告。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2ae8b344-7c05-4208-9457-174efd05fe53
+feature: Search Reports, Search Model Accuracy Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
-# 生成模型准确性报告
+# 生成模型准确度报告
 
 1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
@@ -41,5 +43,4 @@ ht-degree: 0%
 >* [关于模型精度报告](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
 >* [此 [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
 >* [此 [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
->* [删除报告](/help/search-social-commerce/reports/management/report-delete.md)
-
+>* [删除报表](/help/search-social-commerce/reports/management/report-delete.md)
