@@ -3,9 +3,9 @@ title: 关于自定义报表的常见问题解答
 description: 了解有关性能报表的常见问题解答，包括数据问题疑难解答。
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
-source-wordcount: '3919'
+source-wordcount: '3920'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 如果您根本不希望该期间的数据影响将来的竞价，则可以选择从模型中排除这些日期。 请联系您的Adobe客户团队以排除日期。
 +++
 
-+++我是否可以根据特定的属性量度创建报表，例如 [!UICONTROL Device] 或 [!UICONTROL Objective Name]？
++++我是否可以根据特定的帐户属性量度创建报表，例如 [!UICONTROL Device] 或 [!UICONTROL Objective Name]？
 对于营销活动实体报表([!UICONTROL Campaign Report]， [!UICONTROL Ad Group Report]， [!UICONTROL Ad Variation Report]， [!UICONTROL Keyword Report]、和 [!UICONTROL Product Group Report])，则量度数据会根据您在报表中包含的属性列进行动态汇总。 您可以选择删除报表的键列，并仅包括要为其聚合数据的属性列。
 
 例如，如果您生成 [!UICONTROL Keyword Report] 其中包括 [!UICONTROL Ad Group] 和  设备列，默认情况下，报表会按广告组和设备类型汇总每个关键字的量度。 但是，如果删除 [!UICONTROL Keyword] 列生成报表之前，报表会动态地按设备类型生成指定广告组的量度。
@@ -107,7 +107,7 @@ ht-degree: 0%
 默认情况下，报表中的所有货币数据均以美元的格式显示（如1,000.00）。 要以正确的货币格式显示值（但CSV和TSV格式中不含任何货币符号），请添加&#39;&#39;[!UICONTROL Currency]”列。 如果报表包含使用不同货币的帐户的数据，则为任意[!UICONTROL Total]“货币值只是列中所有数字的总和，不考虑货币。
 +++
 
-+++为什么我会看到应为自然数（1、2等）的交易属性的小数值？
++++为什么我会看到转化量度应是自然数（1、2等）的小数值？
 在以下情况下，您可能会看到小数值：
 
 * 如果您使用以外的任何转化归因规则参数运行报表 [!UICONTROL Last Event] 或 [!UICONTROL First Event]，则收入可能会在转化路径中的多个事件之间进行拆分。
@@ -162,13 +162,13 @@ ht-degree: 0%
 
 * 未在所有适用的网页上正确实施转化跟踪标记，或者未对转化跟踪标记进行编辑。
 
-* 搜索、社交和商务跟踪的交易属性从报表中排除，因此不可见。
+* 搜索、社交和商务跟踪的转化量度从报表中排除，因此不可见。
 
 * 未实施客户端的收入分析器。
 
 *可能的解决方案或解决方法：*
 
-1. 验证报表或数据视图中是否包含正确的列。 如果无法添加正确的列，那么您或您的Adobe帐户团队必须 [使事务属性对报告可用](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. 验证报表或数据视图中是否包含正确的列。 如果无法添加正确的列，那么您或您的Adobe帐户团队必须 [使转化量度可用于报表](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
 1. 验证是否在所有适用的网页上实施了正确的转化跟踪标记。 如有必要，请让您的Adobe客户团队为每个适用的转化跟踪标记创建一个测试交易，并捕获交易的详细信息，例如 `transactionid` 以及来自Cookie的详细信息(例如 `trackingid`， `clickid`，等等)。
 
@@ -188,7 +188,7 @@ ht-degree: 0%
 
 * 馈送文件未提交、未完全解析或馈送包含孤立事务。
 
-* 相关交易属性将从报表中排除，因此不可见。
+* 相关转化量度将从报表中排除，因此不可见。
 
 >[!NOTE]
 >
@@ -196,7 +196,7 @@ ht-degree: 0%
 
 *可能的解决方案或解决方法：*
 
-1. 验证报表或数据视图中是否包含正确的列。 如果无法添加正确的列，那么您或您的Adobe帐户团队必须 [使事务属性对报告可用](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. 验证报表或数据视图中是否包含正确的列。 如果无法添加正确的列，那么您或您的Adobe帐户团队必须 [使转化量度可用于报表](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
 1. 运行 [!UICONTROL Portfolio Report]. 如果它是空的，则运行 [!UICONTROL Campaign Report] 和 [!UICONTROL Search Engine Report] 以查看收入是否显示在这些报表中。 如果是这样，则营销策划可能没有分配到相应的项目组合。
 
@@ -313,8 +313,8 @@ ht-degree: 0%
 广告网络不提供将收入归因于这些促销活动的单个广告所需的标识符。 因此，广告级别的效果数据不适用于中的这些促销活动类型。 [!UICONTROL Ads] 在 [!UICONTROL Ad Variation Report]. 预计营销活动的广告级别数据总数与营销活动数据总数之间存在差异。
 +++
 
-+++在 [!UICONTROL Transaction Report]，如何知道哪个交易属性来自数据馈送或被Adobe Advertising跟踪像素跟踪？
-在事务报表中，如果包含自定义列&#39;&#39;，则您可以知道Adobe Advertising跟踪像素是否跟踪了包含的事务属性[!UICONTROL Tracking URL]“ 使用Adobe Advertising跟踪像素的URL跟踪以&quot;`http://pixel.everesttech.net`“
++++在 [!UICONTROL Transaction Report]，如何知道哪个转化量度来自数据馈送或被Adobe Advertising跟踪像素跟踪？
+在交易报表中，如果您包含自定义列&#39;&#39;，则可以判断所包含的转化指标是否被Adobe Advertising跟踪像素跟踪[!UICONTROL Tracking URL]“ 使用Adobe Advertising跟踪像素的URL跟踪以&quot;`http://pixel.everesttech.net`“
 +++
 
 +++我的数据 [!UICONTROL Transaction Report] 不匹配我的数据 [!UICONTROL Keyword Report].
