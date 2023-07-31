@@ -3,9 +3,9 @@ title: 生成Adobe Advertising转化跟踪标记
 description: 了解如何创建Adobe Advertising转化标记以跟踪您的转化事件。
 exl-id: 617cd808-c4ba-4413-89e4-0f52cb44f44b
 feature: Search Tools, Search Tracking
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,13 @@ ht-degree: 0%
 
 有关标记类型之间差异的更多信息，请参阅&quot;[关于Adobe Advertising转化和页面查看跟踪标记的常见问题解答](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)“
 
-**[!UICONTROL Tag Properties]：** 最终用户查看包含转化标记的页面时要跟踪的一个或多个事务属性（量度）。 要向列表中添加量度，请在“”中输入量度名称[!UICONTROL Add new property]”字段并单击 **[!UICONTROL Add]**.
+**[!UICONTROL Tag Properties]：** 当最终用户查看包含转化标记的页面时要跟踪的一个或多个转化量度。 要向列表中添加量度，请在“”中输入量度名称[!UICONTROL Add new property]”字段并单击 **[!UICONTROL Add]**.
 
 跟踪多个量度时，将使用&amp;符号(`&`)，例如 `ev_Property1=<Property1>&ev_Property2=<Property2>`.
 
 >[!NOTE]
 >
->添加到此列表的量度不会保存在任何位置，也不会与客户端的 [!UICONTROL Transaction Properties] 列表 [!UICONTROL Admin] 选项卡。 但是，量度会添加到客户端的 [!UICONTROL Transaction Properties] 当Adobe Advertising实际收集某个指标的数据后自动列出，当转化标记在某个页面上实施并且最终用户完成打开该页面的事务处理时，会发生这种情况。
+>添加到此列表的量度不会保存在任何位置，也不会与客户端的 [!UICONTROL Conversions] 列表 [!UICONTROL Admin] 选项卡。 但是，量度会添加到客户端的 [!UICONTROL Conversions] 当Adobe Advertising实际收集某个指标的数据后自动列出，当转化标记在某个页面上实施并且最终用户完成打开该页面的事务处理时，会发生这种情况。
 
 **[!UICONTROL Include unique transaction IDs]：** （可选）包含交易ID属性(`ev_transid=<transid>`)。 默认情况下会选中该选项。
 

@@ -3,9 +3,9 @@ title: ’[!DNL Google Ads] 转化数据
 description: 了解的类型 [!DNL Google Ads] — 跟踪的转化数据可在Search、Social和Commerce中使用。
 exl-id: a7ee8e72-aa7d-4e90-b765-b7b01308762d
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 搜索、社交和商务同步“”的转化数据[!DNL Include in 'Conversions']”选项已启用，提取过去35天的数据，然后在09之前每天提取对数据的更改:00-10:00（广告商所在时区）。 由于每次点击都会跟踪新转化，因此历史数据可能会每天发生更改。
 
-每个报表最多有三个交易属性 [[!DNL Google Ads]-tracked转化](https://support.google.com/google-ads/answer/4677036) (您设置于 [!DNL Google Ads])通过中配置的转化名称在Search、Social和Commerce中自动可用 [!DNL Google Ads]. 每次转换的事务处理属性包括：
+每个最多三个量度 [[!DNL Google Ads]-tracked转化](https://support.google.com/google-ads/answer/4677036) (您设置于 [!DNL Google Ads])通过中配置的转化名称在Search、Social和Commerce中自动可用 [!DNL Google Ads]. 每次转化的量度包括：
 
 * `GGL*`  — （跟踪时）关键字的转化值，以“GGL”前缀开头（如GGL Purchase）。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 如果多个帐户具有相同的转化名称，则在Adobe Advertising中可能会看到重复的转化名称。 如果发生这种情况， [更改显示名称](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) 对于中的某个重复指标 [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. 当两个不同的量度具有相同的名称时，报表不准确。
+>* 如果您有多个帐户具有相同的转化名称，则您可能会在Adobe Advertising中看到重复的转化名称。 如果发生这种情况， [更改显示名称](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) 对于中的某个重复指标 [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. 当两个不同的量度具有相同的名称时，报表不准确。
 >* 竞价单位级别的数据与中的数据匹配 [!DNL Google Ads] 在同一级别。 但是， [!DNL Google Ads]&#39;自己的更高级别的转化数据可能包含未归属于子竞价单位的其他转化。 搜索、Social和Commerce中的数据始终从竞价单位级别汇总，因此，例如，促销活动级别报表的总数可能与Google Ads中的促销活动级别报表的总数不同。
 >* 通常，在早上同步之后，数据差异小于当天晚些时候，此时尚未同步其他转化。 我们建议在早上验证数据。
 >* 转化数据不可用于 [!DNL Google Display Network]， [!DNL Gmail]， [!DNL Mobile App]、和 [!DNL YouTube] 广告。 在比较数据时过滤掉这些类型的广告 [!DNL Google Ads] 包含搜索、社交和商务中的数据。

@@ -4,7 +4,7 @@ description: 了解如何从配置数据源 [!DNL Google Analytics] 视图。
 role: User, Admin
 exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
 feature: Search Admin, Search Data Sources
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    该数据源名为“AccountName > PropertyName > ViewName”，且会自动激活。 要暂停数据源，请参阅“[暂停数据源馈送](data-source-pause.md)“
 
-   完成每日数据同步（从广告商所在时区的05:00开始）后的第二天，这些量度将可用。 量度可用后，即可在以下位置查看： [[!UICONTROL Admin] > [!UICONTROL Transaction Properties]](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md). 每个新的事务属性都命名为&#39;&#39;`ga:backEndMetricName_propertyID_viewID`，”其中，“backEndMetricName”是API使用的量度名称。 每个新事务属性的显示名称为&#39;&#39;`friendlyMetricName_ga:MetricTag`，“friendlyMetricName”是中显示的量度名称 [!DNL Google Analytics] 而“MetricTag”是 [!UICONTROL Metric Tag] 在数据源设置中定义。
+   完成每日数据同步（从广告商所在时区的05:00开始）后的第二天，这些量度将可用。 量度可用后，即可在以下位置查看： [[!UICONTROL Admin] > [!UICONTROL Transaction Properties]](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md). 每个新的转化量度都名为“`ga:backEndMetricName_propertyID_viewID`，”其中，“backEndMetricName”是API使用的量度名称。 每个新转化量度的显示名称是&#39;&#39;`friendlyMetricName_ga:MetricTag`，“friendlyMetricName”是中显示的量度名称 [!DNL Google Analytics] 而“MetricTag”是 [!UICONTROL Metric Tag] 在数据源设置中定义。
 
    您可以将这些量度直接添加到营销活动管理和项目组合管理视图、报表和优化目标。
 

@@ -2,7 +2,7 @@
 title: ’[!DNL Microsoft Advertising] 转化数据
 description: 了解的类型 [!DNL Microsoft Advertising] — 跟踪的转化数据可在Search、Social和Commerce中使用。
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -19,19 +19,19 @@ ht-degree: 0%
 
 搜索、社交和商务同步“”的转化数据[!DNL Include in 'Conversions']”选项已启用，提取过去35天的数据，然后在09之前每天提取对数据的更改:00-10:00（广告商所在时区）。 由于每次点击都会跟踪新转化，因此历史数据可能会每天发生更改。
 
-每个属性有两个事务属性 [[!DNL Microsoft Advertising]-tracked转化](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) (您设置于 [!DNL Microsoft Advertising])通过中配置的转化名称在Search、Social和Commerce中自动可用 [!DNL Microsoft Advertising]. 每次转换的事务处理属性包括：
+每个属性有两个量度 [[!DNL Microsoft Advertising]-tracked转化](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) (您设置于 [!DNL Microsoft Advertising])通过中配置的转化名称在Search、Social和Commerce中自动可用 [!DNL Microsoft Advertising]. 每次转化的量度包括：
 
 * `<conversion-name>`  — 关键字的转化值（如Purchase）。
 
   >[!TIP]
   >
-  >在项目组合的目标中使用此类型的属性，项目组合包括 [!DNL Microsoft Advertising] 具有最大转化值和目标ROAS竞价策略的促销活动。
+  >在项目组合的目标中使用此类转化量度，项目组合包括 [!DNL Microsoft Advertising] 具有最大转化值和目标ROAS竞价策略的促销活动。
 
 * `CT_<conversion-name>`  — 以“CT_”前缀（如CT_Purchase）开头的转换次数（计数）。
 
   >[!TIP]
   >
-  >在项目组合的目标中使用此类型的属性，项目组合包括 [!DNL Microsoft Advertising] 具有最大转化和目标CPA竞价策略的营销活动。
+  >在项目组合的目标中使用此类转化量度，项目组合包括 [!DNL Microsoft Advertising] 具有最大转化和目标CPA竞价策略的营销活动。
 
 根据点击时间和自为帐户启用该功能之日起的转化/交易时间，数据可用。
 
