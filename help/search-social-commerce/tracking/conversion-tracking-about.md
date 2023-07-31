@@ -3,7 +3,7 @@ title: 搜索、社交和商务的转化跟踪选项
 description: 了解Search、Social和Commerce的转化跟踪选项。
 exl-id: 098efaf8-6ffb-4811-8b20-41c7c85df812
 feature: Search Tracking
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 | Adobe Analytics | 广告商使用 [适用于广告的Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) 自动导入其 [!DNL Analytics] 用于Adobe Advertising报表和优化的标准和自定义事件。 | <ul><li>[!DNL Safari] 仅允许七天转化回顾，此时间范围在回顾期间重复访问网站时重置。</li><li> 期望中出现类似的限制 [!DNL Chrome] 在2024年。</li></ul> | <ul><li>与无缝集成 [!DNL Analytics]</li> <li>请参阅中的付费搜索数据 [!DNL Analytics] Analysis Workspace</li><li>付费搜索以外的权益</li></ul> | 是 |
 | 旧版Adobe Advertising像素 | 广告商将旧版Adobe Advertising图像或JavaScript像素添加到其转化页面。 当用户单击广告后到达页面时，将触发该像素。 此方法依赖于第三方Cookie。 | <ul><li>[!DNL Safari] 阻止使用此方法的所有转化跟踪。</li><li>期望中出现类似的限制 [!DNL Chrome] 在2024年。</li></ul> | 该像素已实施。 但是，您仍必须 [实施其他ITP映射标记](itp-conversion-mapping-tag.md).<br><br>推荐：切换到第一方像素。 | 否 |
 | Adobe Advertising第一方像素 | 广告商执行以下操作： <ul><li>实施适用于的JavaScript库 [Adobe Experience Cloud ID (ECID)服务](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) 他们整个网站。</li><li>添加Adobe Advertising [具有ITP映射的JavaScript标记](itp-conversion-mapping-tag.md) 搜索点击后可能成为登陆页面的任何页面（理想情况下，在所有页面上，因为登陆页面可能会随着时间的推移而更改）。 标记允许Adobe Advertising跟踪在登陆页面上将大量数字转换为科学记号的页面上发生的转化事件。</li><li>添加Adobe Advertising [JavaScript转化跟踪标记v3](format-conversion-tag-jsv3.md) 到转化页面。</li></ul> | <ul><li>[!DNL Safari] 仅允许七天转化回顾，此时间范围在回顾期间重复访问网站时重置。</li><li>期望中出现类似的限制 [!DNL Chrome] 在2022年。</li></ul> | [!DNL Safari] 在七天回顾期间跟踪转化。 由于在回顾时间范围内重复访问网站时会重置回顾，因此该限制不会影响所有 [!DNL Safari] 用户。 | 否 |
-| EFID馈送 | 广告商的搜索帐户设置为生成具有Adobe Advertising唯一ID（令牌）的目标URL/最终URL。 当用户单击广告时，Adobe Advertising会创建一个唯一ID (`EFID`)，并将其显示在最终URL的末尾。 广告商的客户端系统捕获EFID作为由点击产生的转化的唯一标识符，并将其发送到包含EFID、交易日期和转化属性的收入源中的Adobe Advertising。 然后，Adobe Advertising使用EFID将转换与原始点击进行匹配。 | <ul><li>广告商必须能够每天捕获EFID并将自动馈送发送到Adobe Advertising。</li><li>转化跟踪时间最长为180天(每个Adobe Advertising)或根据广告商系统的限制。</li></ul> | <ul><li>此方法使用第一方转化数据，因此不受第三方Cookie限制的影响。</li><li>线上和线下转化可在一个馈送中发送。</li><li>无需对网站进行代码更改或标记。</li></ul> | 是 |
+| EFID馈送 | 广告商的搜索帐户设置为生成具有Adobe Advertising唯一ID（令牌）的目标URL/最终URL。 当用户单击广告时，Adobe Advertising会创建一个唯一ID (`EFID`)，并将其显示在最终URL的末尾。 广告商的客户端系统捕获EFID作为由点击产生的转化的唯一标识符，并将其发送到包含EFID、交易日期和转化量度的收入馈送中的Adobe Advertising。 然后，Adobe Advertising使用EFID将转换与原始点击进行匹配。 | <ul><li>广告商必须能够每天捕获EFID并将自动馈送发送到Adobe Advertising。</li><li>转化跟踪时间最长为180天(每个Adobe Advertising)或根据广告商系统的限制。</li></ul> | <ul><li>此方法使用第一方转化数据，因此不受第三方Cookie限制的影响。</li><li>线上和线下转化可在一个馈送中发送。</li><li>无需对网站进行代码更改或标记。</li></ul> | 是 |
 | 交易ID馈送 [组合馈送] | 广告商添加的Adobe Advertising像素包含唯一交易ID的参数(`ev_transid=&lt;transid&gt;`)，并且Adobe Advertising会捕获在像素触发时创建的唯一交易ID。 广告商的客户端系统还会捕获 [!UICONTROL Transaction ID] 并向Adobe Advertising发送收入源，用于具有匹配的离线转化 [!UICONTROL Transaction ID] 值 | <ul><li>如果广告商使用的是旧版像素，而 [!DNL Safari] 阻止触发，则不会捕获ID以用于离线数据。</li><li>馈送未自动。</li></ul> | <ul><li>如果您实施第一方像素，则 [!UICONTROL Transaction ID] 在中捕获 [!DNL Safari].</li><li>提供对离线/批准的转化事件的跟踪。</li></ul> | 否 |
 | Google转化 | 通过跟踪的转化 [!DNL Google Analytics] 标记是通过API连接自动导入到Adobe Advertising中的。 每个转化名称都有一个 `&quot;GGL_&quot;` 前缀。 | <ul><li>Google通常不跟踪离线数据。</li><li>不包括Microsoft®广告转化。</li></ul> | Google使用机器学习推断&quot;[模型化转化](https://support.google.com/google-ads/answer/10081327)“ | 否 |
 

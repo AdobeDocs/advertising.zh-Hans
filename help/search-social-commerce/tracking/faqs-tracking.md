@@ -3,7 +3,7 @@ title: 有关跟踪的常见问题解答
 description: 了解有关跟踪的常见问题解答，包括疑难解答问题。
 exl-id: f559b977-dd44-4d29-b49e-c41c6fb783d1
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 0%
@@ -37,11 +37,11 @@ ht-degree: 0%
 
 以下是Adobe Advertising的重复数据消除逻辑：
 
-* **当客户端发送值 `ev_transid` 属性：** 如果以下所有条件均相同，则后续像素请求会被视为上一个像素请求的重复项： `ev_transid`；相同关键字、广告或投放的跟踪ID；以及特定事务属性的值。
+* **当客户端发送值 `ev_transid` 属性：** 如果以下所有条件均相同，则后续像素请求会被视为上一个像素请求的重复项： `ev_transid`；同一关键词、广告或投放的跟踪ID；以及特定转化量度的值。
 
   例如，如果在特定广告网络上，多个贷款申请具有相同的申请ID和贷款金额，则它们被视为重复项，并且只计算第一个贷款申请。
 
-* **当客户端不发送值 `ev_transid` 属性：** 如果后续交易共享同一关键词、广告或投放的跟踪ID，并且特定交易属性的值相同，则视为上一个交易的重复项。
+* **当客户端不发送值 `ev_transid` 属性：** 如果后续交易共享同一关键词、广告或投放位置的跟踪ID，并且特定转化量度具有相同的值，则它们被视为上一个交易的重复项。
 
   例如，如果多个贷款申请具有相同的关键字ID和贷款金额，则它们被视为重复项，并且只计算第一个贷款申请。
 +++
@@ -57,9 +57,9 @@ ht-degree: 0%
 
 ## 数据问题
 
-+++如何知道哪个交易属性来自数据馈送或被Adobe Advertising转化跟踪标记跟踪？
++++如何知道哪个转化量度来自数据馈送或被Adobe Advertising转化跟踪标记跟踪？
 
-在 [!UICONTROL Transaction Report]，如果您包含自定义列&#39;&#39;，那么您可以知道Adobe Advertising转化跟踪像素是否跟踪了包含的事务属性[!UICONTROL Tracking URL]“ 使用Adobe Advertising跟踪像素跟踪URL以开头 `http://pixel.everesttech.net`.
+在 [!UICONTROL Transaction Report]，如果您包含自定义列&#39;&#39;，那么您可以知道Adobe Advertising转化跟踪像素是否跟踪了包含的转化量度[!UICONTROL Tracking URL]“ 使用Adobe Advertising跟踪像素跟踪URL以开头 `http://pixel.everesttech.net`.
 +++
 
 +++什么是孤立交易？

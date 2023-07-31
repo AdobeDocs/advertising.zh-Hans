@@ -3,7 +3,7 @@ title: 用户界面的组织方式
 description: 了解在何处访问不同的功能。
 exl-id: a1574502-70a4-4705-8ae6-0de590e1342b
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Tools]**  — 此菜单包括以下选项：更改帐户密码、生成标记以跟踪网站页面的转化、生成和解码点击跟踪URL以及上传搜索跟踪促销活动的量度。
 
-* **[!UICONTROL Admin]**  — 此 [!UICONTROL Admin] 菜单包括以下选项：更改数据表和报告中广告商交易属性的显示名称，配置设置以与Adobe Audience Manager帐户同步，以及同步特定帐户的转化量度 [!DNL Google Analytics] 帐户、属性和视图组合。 根据您的角色，它可能会允许您管理广告商帐户、代理帐户、用户角色和用户帐户。
+* **[!UICONTROL Admin]**  — 此 [!UICONTROL Admin] 菜单包括以下选项：更改广告商转化量度在数据表格和报表中的显示名称，配置要与Adobe Audience Manager帐户同步的设置，以及同步特定帐户的转化量度 [!DNL Google Analytics] 帐户、属性和视图组合。 根据您的角色，它可能会允许您管理广告商帐户、代理帐户、用户角色和用户帐户。
 
 ## 右边的其他基于任务和信息的菜单
 

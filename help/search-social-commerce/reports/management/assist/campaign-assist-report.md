@@ -3,7 +3,7 @@ title: '[!UICONTROL Campaign Assist Report]'
 description: 了解 [!UICONTROL Campaign Assist Report].
 exl-id: 7fbc9c17-c77d-485b-8d51-5e5a153d7a2b
 feature: Search Reports, Search Assist Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -39,11 +39,11 @@ ht-degree: 0%
 | [!UICONTROL First Campaign] | 默认 | 转化路径中的第一个营销活动。 |
 | [!UICONTROL Last Campaign] | 默认 | 导致转化的最后一个营销活动（即使最后一个关键词在指定的路径大小之外也是如此）。<br><br>如果您在实体名称后包含任何报告选项来指示广告网络、帐户名称或事件类型，则该信息将包含在促销活动名称后(例如 `"<"campaign name> [Google] [Account1] [impression]`“)。 |
 | \[特定于广告商的自定义（派生）量度\] | 自定义 | 您创建的自定义量度的值，它通过现有量度计算。 |
-| \[广告商特定的事务属性\] | 自定义 | 指定事务属性或网站参与度量的转化次数。 |
-| [!UICONTROL % of Total] \[事务属性\] | 自动 | （在报表设置中不可用，但自动包含在所包含每个交易属性的报表输出中）因营销活动模式导致的指定交易属性的转化次数。 |
+| \[特定于广告商的转化量度\] | 自定义 | 指定转化量度或网站参与量度的转化次数。 |
+| [!UICONTROL % of Total] \[转化量度\] | 自动 | （在报表设置中不可用，但自动包含在每个包含的转化量度的报表输出中）因营销活动模式导致的指定转化量度的转化次数。 |
 | [!UICONTROL 6th Campaign] 到 [!UICONTROL 20th Campaign] | 自定义 | 转化路径中在广告商中发生的第六到第二十个营销活动 [单击回顾窗口](/help/search-social-commerce/glossary.md#c-d) 和 [展示回顾窗口](/help/search-social-commerce/glossary.md#i-j).<br><br>如果您在实体名称后包含任何报告选项来指示广告网络、帐户名称或事件类型，则该信息将包含在促销活动名称后(例如 `"<"campaign name> [Baidu] [Account1] [click]`“)。 |
-| [!UICONTROL Avg. Conv. Latency (First Campaign To Conversion)] \[事务属性\] | 自动 | （在报表设置中不可用，但自动包含在每个交易属性的报表输出中）从第一个事件（在第一个营销活动中）到转化的平均延迟（以天为单位）。 |
-| [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[事务属性\] | 自动 | （在报表设置中不可用，但自动包含在报表输出中）从上一个事件（在最后一个营销活动中）到转化的平均延迟（以天为单位）。 |
+| [!UICONTROL Avg. Conv. Latency (First Campaign To Conversion)] \[转化量度\] | 自动 | （在报表设置中不可用，但自动包含在每个包含的转化量度的报表输出中）从第一个事件（在第一个营销活动中）到转化的平均延迟（以天为单位）。 |
+| [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[转化量度\] | 自动 | （在报表设置中不可用，但自动包含在报表输出中）从上一个事件（在最后一个营销活动中）到转化的平均延迟（以天为单位）。 |
 | [!UICONTROL EF Campaign ID] | 自定义 | Search、Social和Commerce分配给营销活动的数值ID。 |
 | [!UICONTROL EF Portfolio Group ID] | 自定义 | 项目组合所属的项目组合组的数值ID。 |
 | [!UICONTROL EF Search Engine ID] | 自定义 | 搜索、社交和商务分配给广告网络的数值ID： <i>[!UICONTROL 3]</i> 对象 [!DNL Google Ads]， <i>[!UICONTROL 10]</i> 对象 [!DNL Microsoft® Advertising]， <i>[!UICONTROL 45]</i> 对象 [!DNL Meta]， <i>[!UICONTROL 86]</i> 对象 [!DNL Yahoo! Display Network]， <i>[!UICONTROL 87]</i> 对象 [!DNL Naver]， <i>[!UICONTROL 88]</i> 对象 [!DNL Baidu]， <i>[!UICONTROL 90]</i> 对象 [!DNL Yandex]， <i>[!UICONTROL 94]</i> 对象 [!DNL Yahoo! Japan Ads]， <i>[!UICONTROL 105]</i> 对象 [!DNL Yahoo Native] （已弃用），或 <i>[!UICONTROL 106]</i> 对象 [!DNL Pinterest] （已弃用）。 |

@@ -3,7 +3,7 @@ title: 有关营销活动的常见问题解答
 description: 查看有关营销活动管理和营销活动数据视图的问题的答案。
 exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 0%
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 +++([!DNL Google Ads] campaigns)更改我的报表包的显示名称 [!DNL Google]-tracked转化已恢复。
 
-如果您在“搜索”、“Social”和“Commerce”中更改事务属性的显示名称，则您所做的更改将被中配置的名称覆盖。 [!DNL Google Ads]. 在内进行任何名称更改 [!DNL Google Ads].
+如果您在“搜索”、“Social”和“Commerce”中更改转化量度的显示名称，则您所做的更改将被中配置的名称覆盖。 [!DNL Google Ads]. 在内进行任何名称更改 [!DNL Google Ads].
 +++
 
 +++(Google广告营销活动)是否可以在项目组合中使用营销活动的共享预算？

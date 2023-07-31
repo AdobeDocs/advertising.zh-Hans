@@ -3,9 +3,9 @@ title: 基本报表和高级报表的报表列
 description: 了解基本报表和高级报表的可用数据列。
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
-source-wordcount: '3603'
+source-wordcount: '3598'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,8 @@ ht-degree: 0%
 | ---- | ---- |
 | \[特定于广告商的自定义（派生）量度\] | 的值 [您已创建的自定义量度](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) 从现有量度计算得出。 |
 | \[广告商特定的标签分类\] | 当前在实体级别应用于实体的任何标签分类。 多个标签分类使用逗号(，)分隔。 |
-| \[广告商特定的事务属性\] | 指定事务属性或网站参与度量的转化次数。 |
-| \[Google跟踪的转化/事务属性\] | 请参见“GGL\*、GGL_CT\*和GGL_XD_CT\*条目。” |
+| \[特定于广告商的转化量度\] | 指定转化量度或网站参与量度的转化次数。 |
+| \[Google跟踪的转化\] | 请参见“GGL\*、GGL_CT\*和GGL_XD_CT\*条目。” |
 | [!UICONTROL 7-Day Click Accuracy] | ([!UICONTROL Portfolio Report])过去七天（不包括当天，不包括报表指定的日期范围）的点击预测的平均准确性，以百分比表示。 |
 | [!UICONTROL 7-Day Cost Accuracy] | ([!UICONTROL Portfolio Report])以百分比表示的前七天成本预测的平均精确度，不包括当天（不包括报表指定的日期范围）。 |
 | [!UICONTROL 7-Day Revenue Accuracy] | ([!UICONTROL Portfolio Report])过去七天（不包括当天，不包括报表指定的日期范围）的收入预测的平均准确性，以百分比表示。 |
@@ -106,7 +106,7 @@ ht-degree: 0%
 | [!UICONTROL Estimated Impressions] | （仅限展示型营销活动）Search、Social和Commerce已跟踪的估计广告展示次数。 此值可能不同于 [!UICONTROL Impressions] 列（可用时），该列显示广告网络提供的值。 |
 | [!UICONTROL Exclude (yes/no)] | 是否排除竞价(<i>[!UICONTROL Yes]</i>)或允许竞价(<i>[!UICONTROL No]</i>)表示匹配产品的广告。 |
 | [!UICONTROL First Page CPC] | (仅限Google促销活动)指定日期范围内搜索结果第一页上显示的广告的每次点击成本(CPC)。 |
-| `GGL*`， `GGL_CT*`、和 `GGL_XD_CT*` [[!DNL Google Ads]-tracked转化/事务属性] | ([!DNL Google Ads] 搜索和购物网络上的营销活动) [!DNL Google Ads]-tracked转化，每个转化最多具有三个单独的事务属性：<ul><li>`GGL*`  — （跟踪时）关键字的转化值，以“GGL”前缀开头（如GGL Purchase）。</li><li>`GGL_CT*`  — 以“GGL_CT”前缀（例如GGL_CT_Purchase）开头的转换次数（计数）。</li><li>`GGL_XD_CT*`  — （当可用于转化类型时，当您跟踪这些类型时）跨设备转化的数量（计数），测量依据为 [!DNL Google Ads] 以“GGL_XD_CT_”前缀(例如GGL_XD_CT_Purchase)开头。</li></ul><br>每次转化都按竞价单位和点击日期进行记录；在事件级别不可用。 有关详情 [!DNL Google Ads]-tracked转化，请参阅&quot;[[!DNL Google Ads] 搜索、社交和商务中的转化数据](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)“ |
+| `GGL*`， `GGL_CT*`、和 `GGL_XD_CT*` [[!DNL Google Ads] — 跟踪的转化] | ([!DNL Google Ads] 搜索和购物网络上的营销活动) [!DNL Google Ads] — 跟踪的转化，每个转化最多有三个单独的量度：<ul><li>`GGL*`  — （跟踪时）关键字的转化值，以“GGL”前缀开头（如GGL Purchase）。</li><li>`GGL_CT*`  — 以“GGL_CT”前缀（例如GGL_CT_Purchase）开头的转换次数（计数）。</li><li>`GGL_XD_CT*`  — （当可用于转化类型时，当您跟踪这些类型时）跨设备转化的数量（计数），测量依据为 [!DNL Google Ads] 以“GGL_XD_CT_”前缀(例如GGL_XD_CT_Purchase)开头。</li></ul><br>每次转化都按竞价单位和点击日期进行记录；在事件级别不可用。 有关详情 [!DNL Google Ads]-tracked转化，请参阅&quot;[[!DNL Google Ads] 搜索、社交和商务中的转化数据](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)“ |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] 仅限于)在自然搜索结果上方显示为第一个广告的广告展示次数百分比。 |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] 仅限在自然搜索结果上方显示的广告展示次数百分比。 |
 | [!UICONTROL Impressions] | 指定日期范围内的广告展示次数。 |
@@ -152,7 +152,7 @@ ht-degree: 0%
 | [!UICONTROL Product Group ID] | 广告网络分配给产品组的数值ID。 |
 | [!UICONTROL Product Groupings] | 父产品组。 |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report]； [!DNL Google Ads] 产品列表广告)与广告一起显示的产品的产品ID。<br><br><b>注意：</b> 仅当产品列表包含跟踪参数时，才会捕获ID `ev_plx=<GMC product ID>`，您必须在其中添加 [!DNL Google Merchant Center]. |
-| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]交易财产收入（如登记1项或订购12美元12项）。 如果多个竞价单位具有相同的交易ID，则跟踪ID的收入根据指定点击日期（点击数据可用时）的点击数进行拆分。 |
+| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report])转化量度的收入（例如，1表示一次注册，12表示订购12美元）。 如果多个竞价单位具有相同的交易ID，则跟踪ID的收入根据指定点击日期（点击数据可用时）的点击数进行拆分。 |
 | [!UICONTROL Reach] | ([!DNL Meta] ads)查看您的广告至少一次的人数。 注意： [!DNL Meta] 每天删除重复的用户配置文件范围，因此报告的数据来自 [!DNL Meta] 而搜索、社交和商业可能有所不同。 |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report]， [!UICONTROL Keyword Report])印象或点击源自的区域或美国/加拿大州。 根据用户的IP地址确定。 |
 | [!UICONTROL SE Creative ID] | 网络分配的广告ID。 |
@@ -176,8 +176,8 @@ ht-degree: 0%
 | [!UICONTROL Through Plays] | ([!DNL Meta] 广告)观看整个广告的查看次数。 |
 | [!UICONTROL Top of Page CPC] | (仅限Google促销活动)指定日期范围内搜索结果页面顶部出现的广告的每次点击成本(CPC)。 |
 | [!UICONTROL Tracking URL] | （仅限以搜索为目标的关键词）跟踪模板或嵌入了（适用时）搜索、社交和商务跟踪代码的目标URL。 |
-| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report])该交易贷记到的特定于广告商的交易属性。 |
-| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report])记入指定交易属性的时间。 |
+| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report])交易贷记到的广告商特定转化量度。 |
+| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report])将指定的转化量度贷记到的时间。 |
 | [!UICONTROL User Account Type] | 已过时 |
 | [!UICONTROL User SE Account ID] | 搜索、社交和商务分配给广告网络的数值ID。 |
 | [!UICONTROL Video Average Play Time] | ([!DNL Meta] ads)单次展示时播放视频的平均时间，包括重新播放视频所花费的时间。 |

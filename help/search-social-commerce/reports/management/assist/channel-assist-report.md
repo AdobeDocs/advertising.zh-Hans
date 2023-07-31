@@ -3,7 +3,7 @@ title: '[!UICONTROL Channel Assist Report]'
 description: 了解 [!UICONTROL Channel Assist Report].
 exl-id: 49616327-72e9-49c6-90b9-91c7486e8417
 feature: Search Reports, Search Assist Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -33,11 +33,11 @@ ht-degree: 0%
 | [!UICONTROL First Event Type] | 默认 | 转化路径中第一个（最早）事件的事件类型。 |
 | [!UICONTROL Last Event Type] | 默认 | 导致转换的最后一个事件的事件类型（即使最后一个事件在指定的路径大小之外也是如此）。 |
 | \[特定于广告商的自定义（派生）量度\] | 自定义 | 您创建的自定义量度的值，它通过现有量度计算。 |
-| \[广告商特定的事务属性\] | 自定义 | 指定事务属性或网站参与度量的转化次数。 |
-| [!UICONTROL % of Total] \[事务属性\] | 自动 | （在报表设置中不可用，但自动包含在所包含每个交易属性的报表输出中）归因于事件模式的项目组合中的总转化百分比。 |
+| \[特定于广告商的转化量度\] | 自定义 | 指定转化量度或网站参与量度的转化次数。 |
+| [!UICONTROL % of Total] \[转化量度\] | 自动 | （在报表设置中不可用，但自动包含在每个包含的转化量度的报表输出中）归因于事件模式的项目组合中的总转化百分比。 |
 | [!UICONTROL 6th Event] 到 [!UICONTROL 30th Event] | 自定义 | 转化路径中在广告商发生的第六到第三十个事件类型 [单击回顾窗口](/help/search-social-commerce/glossary.md#c-d) 和 [展示回顾窗口](/help/search-social-commerce/glossary.md#i-j). |
-| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[事务属性\] | 自动 | （在报表设置中不可用，但自动包含在每个包含的事务属性的报表输出中）从第一个事件到转换的平均延迟（以天为单位）。 |
-| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[事务属性\] | 自动 | （在报表设置中不可用，但自动包含在报表输出中）从上次事件到转换的平均延迟（以天为单位）。 |
+| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[转化量度\] | 自动 | （在报表设置中不可用，但自动包含在每个包含的转化量度的报表输出中）从第一个事件到转化的平均延迟（以天为单位）。 |
+| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[转化量度\] | 自动 | （在报表设置中不可用，但自动包含在报表输出中）从上次事件到转换的平均延迟（以天为单位）。 |
 | [!UICONTROL Path Frequency] | 自定义 | 此行的路径在转换前发生的次数。 |
 
 >[!MORELIKETHIS]

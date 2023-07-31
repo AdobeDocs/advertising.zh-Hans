@@ -3,7 +3,7 @@ title: 专业报告的报告列
 description: 了解专业报告的可用数据列。
 exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '2280'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 | 列 | 描述 |
 |----|----|
 | \[特定于广告商的自定义（派生）量度\] | 您创建的自定义量度的值，它通过现有量度计算。 |
-| \[广告商特定的事务属性\] | 指定事务属性或网站参与度量的转化次数。 |
+| \[特定于广告商的转化量度\] | 指定转化量度或网站参与量度的转化次数。 |
 | [!UICONTROL Account Name] | 帐户名称。 |
 | [!UICONTROL Account Number] | ([!UICONTROL MSA Ad Extension] 报表)由广告网络分配的帐户标识符。 |
 | [!UICONTROL Account Status] | ([!UICONTROL MSA Ad Extension] 报表)帐户状态： *[!UICONTROL Active]*， *[!UICONTROL Paused]*，或 *[!UICONTROL Inactive]*. |
