@@ -3,7 +3,7 @@ title: 批量工作表数据 [!DNL Yahoo! Display Network] 帐户
 description: 引用已下载批量处理工作表中的标题字段和数据字段 [!DNL Yahoo! Display Network] 帐户。
 exl-id: 233a7e1f-328b-4ff8-9e38-66c3185414b6
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
@@ -52,8 +52,6 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 | [!UICONTROL Keyword ID] | 不适用 | 不适用 | 如果包含 | 标识现有关键字的唯一ID。 |
 | [!UICONTROL AMO ID] | 不适用 | 不适用 | 不适用 | （在生成的批量工作表中）同步实体的Adobe生成的唯一标识符。 |
 | [!UICONTROL EF Error Message] | 不适用 | 不适用 | 不适用 | （出于提供信息的目的，包含在生成的批量处理工作表中）用于显示来自搜索、社交和商务中与行中的数据有关的错误消息的占位符；错误消息包含在 [!UICONTROL EF Errors] 文件。 |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

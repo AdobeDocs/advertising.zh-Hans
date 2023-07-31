@@ -3,7 +3,7 @@ title: 批量工作表数据 [!DNL Yahoo! Japan] 帐户
 description: 引用已下载批量处理工作表中的标题字段和数据字段 [!DNL Yahoo! Japan] 帐户。
 exl-id: b68edbc1-0054-4dac-be3f-4df3c4e00ba9
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '2581'
 ht-degree: 0%
@@ -68,8 +68,6 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 | [!UICONTROL AMO ID] | 不适用：创建<br><br>可选：编辑或删除 | 不适用：创建<br><br>可选：编辑或删除 | 不适用：创建<br><br>可选：编辑或删除 | 不适用：创建<br><br>可选：编辑或删除 | 不适用 | （在生成的批量处理工作表中） [!DNL Adobe]已同步实体的生成唯一标识符。 对于响应式搜索广告，请 [!UICONTROL AMO ID] 编辑或删除广告时需要使用，除非您包含 [!UICONTROL Ad ID]. 要编辑所有其他实体类型的数据 [!UICONTROL AMO ID]， [!UICONTROL AMO ID] 需要编辑或删除数据，除非您包含实体ID和父实体ID。<br><br>Search、Social和Commerce会使用该值确定要编辑的正确身份，但不会将ID发布到广告网络。 |
 | [!UICONTROL EF Error Message] | 不适用 | 不适用 | 不适用 | 不适用 | 不适用 | （出于提供信息的目的，包含在生成的批量处理工作表中）用于显示来自搜索、社交和商务中与行中的数据有关的错误消息的占位符；错误消息包含在 [!UICONTROL EF Errors] 文件。 此值未发布到广告网络。 |
 | [!UICONTROL SE Error Message] | 不适用 | 不适用 | 不适用 | 不适用 | 不适用 | （出于信息目的包含在生成的批量工作表中）用于显示来自广告网络的关于行中数据的错误消息的占位符；错误消息包含在中 [!UICONTROL SE Errors] 文件。 此值未发布到广告网络。 |
-
-<table style="table-layout:auto">
 
 [^1]：Excel在打开文件时将大量数字转换为科学表示法(例如，2.12E+09 for 2115585666)。 要查看标准表示法的位数，请选择列中的任意单元格，然后在公式栏中单击。
 

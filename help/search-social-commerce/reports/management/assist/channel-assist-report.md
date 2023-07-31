@@ -3,7 +3,7 @@ title: '[!UICONTROL Channel Assist Report]'
 description: 了解 [!UICONTROL Channel Assist Report].
 exl-id: 49616327-72e9-49c6-90b9-91c7486e8417
 feature: Search Reports, Search Assist Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -39,8 +39,6 @@ ht-degree: 0%
 | [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[事务属性\] | 自动 | （在报表设置中不可用，但自动包含在每个包含的事务属性的报表输出中）从第一个事件到转换的平均延迟（以天为单位）。 |
 | [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[事务属性\] | 自动 | （在报表设置中不可用，但自动包含在报表输出中）从上次事件到转换的平均延迟（以天为单位）。 |
 | [!UICONTROL Path Frequency] | 自定义 | 此行的路径在转换前发生的次数。 |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

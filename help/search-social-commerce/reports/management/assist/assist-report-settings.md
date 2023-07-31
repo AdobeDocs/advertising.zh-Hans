@@ -3,7 +3,7 @@ title: 协助报表设置
 description: 了解辅助报表的必需和可选设置。
 exl-id: f5b4f4ee-c13c-4d16-a786-a2225d136efe
 feature: Search Reports, Search Assist Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '2176'
 ht-degree: 0%
@@ -35,8 +35,6 @@ ht-degree: 0%
 | [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | (可选；仅当&quot;[!UICONTROL Save as template]”选项处于选中状态)运行报表的时间： <i>[!UICONTROL Now]</i> （运行一次报表；默认）， <i>[!UICONTROL Daily]</i>， <i>[!UICONTROL Weekly on] [星期几]</i>，或 <i>[!UICONTROL Every Month] [日期]</i>. 对于除以下项之外的所有时间段 <i>[!UICONTROL Now]</i>，选择广告商时区中的小时，从上午9:00开始。 |
 |  | [!UICONTROL Email Recipients] | <b>注意：</b>  此设置仅在电子邮件通知用于 [!UICONTROL Reports] 是 [启用范围 [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>Search、Social和Commerce注册用户的电子邮件地址，当报告完成或由于错误被取消时，将通知发送到这些用户。 默认情况下，会输入用户帐户的地址。 要指定多个地址，请用逗号、空格或新行分隔它们。 如果计划报告重复运行，则每次完成报告时都会发送通知。 |
 |  | [!UICONTROL Email Notification] | <b>注意：</b>  此设置仅在电子邮件通知用于 [!UICONTROL Reports] 是 [启用范围 [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>(时间 [!UICONTROL Email Recipients] 指定了)发送到任何指定地址的电子邮件通知中包含的内容：<ul><li><i>[!UICONTROL Notification Only]</i> （默认）：仅发送报表完成或失败的通知，不带附件。 该通知包括所有报表格式的临时下载链接。</li><li><i>[!UICONTROL XLS Attachment]：</i> 在文件小于约10 MB时包括XLS格式的已完成报表的副本。 超过1 MB的文件将被压缩。</li><li><i>[!UICONTROL TSV Attachment]：</i> 在文件小于约10 MB时包括TSV格式的已完成报表的副本。 超过1 MB的文件将被压缩。</li><li><i>[!UICONTROL CSV Attachment]：</i> 在文件小于约10 MB时包括CSV格式的已完成报表的副本。 超过1 MB的文件将被压缩。 |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

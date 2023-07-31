@@ -3,7 +3,7 @@ title: '[!UICONTROL Campaign Assist Report]'
 description: 了解 [!UICONTROL Campaign Assist Report].
 exl-id: 7fbc9c17-c77d-485b-8d51-5e5a153d7a2b
 feature: Search Reports, Search Assist Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -49,8 +49,6 @@ ht-degree: 0%
 | [!UICONTROL EF Search Engine ID] | 自定义 | 搜索、社交和商务分配给广告网络的数值ID： <i>[!UICONTROL 3]</i> 对象 [!DNL Google Ads]， <i>[!UICONTROL 10]</i> 对象 [!DNL Microsoft® Advertising]， <i>[!UICONTROL 45]</i> 对象 [!DNL Meta]， <i>[!UICONTROL 86]</i> 对象 [!DNL Yahoo! Display Network]， <i>[!UICONTROL 87]</i> 对象 [!DNL Naver]， <i>[!UICONTROL 88]</i> 对象 [!DNL Baidu]， <i>[!UICONTROL 90]</i> 对象 [!DNL Yandex]， <i>[!UICONTROL 94]</i> 对象 [!DNL Yahoo! Japan Ads]， <i>[!UICONTROL 105]</i> 对象 [!DNL Yahoo Native] （已弃用），或 <i>[!UICONTROL 106]</i> 对象 [!DNL Pinterest] （已弃用）。 |
 | [!UICONTROL Portfolio ID] | 数值项目组合ID。 |
 | [!UICONTROL User SE Account ID] | 搜索、社交和商务分配给广告网络的数值ID。 |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

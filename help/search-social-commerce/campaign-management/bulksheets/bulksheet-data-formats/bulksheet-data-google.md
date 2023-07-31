@@ -3,7 +3,7 @@ title: 以下项的必需批量处理工作表数据 [!DNL Google Ads] 帐户
 description: 引用批量处理工作表中的必填标题字段和数据字段 [!DNL Google Ads] 帐户。
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
 feature: Search Bulksheets
-source-git-commit: db4cde38d61fa86b52c86cd83fa9fc3b78b9abad
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '7842'
 ht-degree: 0%
@@ -124,8 +124,6 @@ ht-degree: 0%
 | [!UICONTROL SE Error Message] | （出于信息目的包含在生成的批量工作表中）用于显示来自广告网络的关于行中数据的错误消息的占位符；错误消息包含在中 [!UICONTROL SE Errors] 文件。 此值未发布到广告网络。 |
 | [!UICONTROL Exemption Request] | （出于提供信息的目的包含在生成的批量工作表中）用于显示任何表单的名称和文本的占位符 [!DNL Google Ads] 广告违反的广告策略。 |
 | [!UICONTROL Retail Hash] | (包括在使用高级Campaign Management生成的批量处理工作表中的信息用途)字母数字哈希代码(如f9639f40cdf56524b541e5dacf55a991)，表示项目是使用高级(ACM)视图生成的。 |
-
-<table style="table-layout:auto">
 
 [^1]： [!DNL Excel] 在打开文件时，将大数字转换为科学记号(如2.12E+09 for 2115585666)。 要查看标准表示法的位数，请选择列中的任意单元格，然后在公式栏中单击。
 

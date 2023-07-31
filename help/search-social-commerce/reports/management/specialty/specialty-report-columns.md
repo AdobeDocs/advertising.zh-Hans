@@ -3,7 +3,7 @@ title: 专业报告的报告列
 description: 了解专业报告的可用数据列。
 exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '2280'
 ht-degree: 0%
@@ -154,8 +154,6 @@ ht-degree: 0%
 | [!UICONTROL Total Clicks] | ([!UICONTROL MSA Ad Extension] 报告)广告元素存在于广告副本中的点击次数，无论是否被点击。 |
 | [!UICONTROL User SE Account ID] | 搜索、社交和商务分配给广告网络的数值ID。 |
 | [!UICONTROL ViewThroughConversions] | ([!UICONTROL Bing Ads Geo Report]；受众网络上的广告)由一个或多个展示次数产生，但无点击的转化次数。 |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

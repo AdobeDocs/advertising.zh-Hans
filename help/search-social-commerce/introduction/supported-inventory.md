@@ -3,7 +3,7 @@ title: 支持的清单
 description: 引用支持的广告网络、营销活动类型和广告类型。
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 0%
@@ -50,8 +50,6 @@ ht-degree: 0%
 | [!DNL Yahoo Native] （同步支持于2022年终止） | 本地网络 | 原生 | 文本 | —<br><br>截至2022年3月10日的旧版帐户信息以只读形式提供。 | — | — | — | —<br><br>已同步到2022年3月10日的旧版广告级别数据。 | 将Analytics数据与Search、Social和Commerce关联，反之亦然 |
 | [!DNL Yandex] | 搜索网络 | Search | 文本 | 通过API自动进行 | 使用 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)， [批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)、和 [库存管理信息源](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | 是 | 仅具有CPC竞价策略的促销活动 | 广告级别的数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的广告级数据 |
 | | 显示网络 | 显示/内容 | 文本 | 通过API自动进行 | 使用 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)， [批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)、和 [库存管理信息源](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | 是 | 仅具有CPC竞价策略的促销活动 | 广告级别的数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的广告级数据 |
-
-<table style="table-layout:auto">
 
 [^1]：对于大多数广告网络和营销活动类型，当您启用&quot;[!UICONTROL EF Redirect]”和“[!UICONTROL Auto Upload]”活动跟踪设置（在活动级别设置或从帐户设置继承），Search、Social和Commerce会在每次与广告网络同步时自动为广告组组件创建跟踪URL并将其上传到广告网络。 否则，您需要生成跟踪URL，并将其添加到帐户、营销策划或营销策划组件设置。 请参阅&quot;[何时以及如何按广告网络和对象生成点击跟踪URL](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)“
 
