@@ -1,45 +1,45 @@
 ---
-title: 關於程式化預留交易
-description: 瞭解程式化預留(PG)交易，以及哪些SSP經過認證可提供這些交易。
+title: 关于程序化保证交易
+description: 了解计划性保证(PG)交易以及哪些SSP经过认证可提供它们。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 47c89d8a-f45f-4fcb-84a6-031f7d7f580f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 700a38baba3e9abc871e23e95faba6715d661eb9
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
 
-# 關於程式化預留交易
+# 关于程序化保证交易
 
-程式化預留(PG)交易是指透過交易ID （而不是透過廣告伺服器標籤）直接與發佈商進行的預留購買。 對於您和您的發佈者來說，PG的管理更具彈性，而且比一般標籤購買更具透明度。 帳單和報告會透過DSP合併，為您節省時間。
+计划性保证(PG)交易是通过交易ID（而不是通过广告服务器标记）直接与出版商进行的保证购买。 PG对于您和您的发布者而言更灵活，而且与常规标签购买相比，它可提供更高的透明度。 计费和报告通过DSP进行整合，从而节省了您的时间。
 
 ## PG交易功能
 
-* 交易一律透過DSP收費。
-* 交易具有固定的價格和數量。
-* 發佈商或供應方平台(SSP)會處理所有預算步調、預算上限及任何目標定位。
-* 一般而言，交易在發佈者的廣告伺服器中有較高的優先順序。
-* 競標要求並非為單一交易或購買者所獨有。
-* 單一交易ID支援多種視訊型別。
-* SSP和發佈者具有傳遞SLA。
+* 交易始终通过DSP计费。
+* 交易具有固定的价格和数量。
+* 发布商或供应方平台(SSP)处理所有预算步调、预算上限和任何定位。
+* 通常，交易在发布者的广告服务器中具有更高的优先级。
+* 竞价请求不只针对单个交易或购买者。
+* 单个交易ID支持多种类型的视频。
+* 通过Google授权购买者SSP接受发布者管理的广告。
+* SSP和发布者具有投放SLA。
 
-PG交易需要PG預設版位和廣告，以便DSP可以傳回要求給每個競標要求，並透過SSP履行傳遞SLA。 設定必要的PG預設刊登版位後，您也可以在其他刊登版位中鎖定PG交易。
+PG交易需要PG默认投放位置和广告（对于出版商管理的广告，需要1x1像素），因此DSP可以向每个竞价请求返回请求，并与SSP一起履行交付SLA。 设置强制的PG默认投放位置后，还可以在其他投放位置中定位PG交易。
 
-## DSP中通過PG交易認證的SSP
+## DSP中获得PG交易认证的SSP
 
 * [!DNL Ambient Digital]
 * [!DNL FreeWheel]
 * [!DNL Google Authorized Buyers]
-* [!DNL Magnite CTV] (先前稱為 [!DNL Telaria])
-* [!DNL Magnite DV+] (先前稱為 [!DNL Rubicon])
+* [!DNL Magnite CTV] (以前称为 [!DNL Telaria])
+* [!DNL Magnite DV+] (以前称为 [!DNL Rubicon])
 * [!DNL OpenX]
 * [!DNL SpotX]
 
 >[!MORELIKETHIS]
 >
->* [商議程式化保證交易的秘訣](/help/dsp/inventory/programmatic-guaranteed-tips.md)
->* [設定程式化保證交易](programmatic-guaranteed-set-up.md)
->* [SSP合作夥伴](ssp-partners.md)
->* [庫存功能概要](inventory-overview.md)
-
+>* [谈判计划性保证交易的技巧](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+>* [设置计划性保证交易](programmatic-guaranteed-set-up.md)
+>* [SSP合作伙伴](ssp-partners.md)
+>* [清单功能概述](inventory-overview.md)
