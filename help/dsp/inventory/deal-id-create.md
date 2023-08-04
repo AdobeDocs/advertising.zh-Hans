@@ -3,7 +3,7 @@ title: 手动创建交易ID详细信息
 description: 了解如何手动输入交易ID的详细信息。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 9dd60e9892b02cb3d19479b007ee1a7d70a1987d
+source-git-commit: 60676d8ef022d2ed61467d7254405695d5f106b3
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    1. 单击 **[!UICONTROL Save]**.
 
-1. （仅限保证交易）选择要用于交易的广告（或出版商管理的广告的1x1像素），并创建默认的程序化保证(PG)投放位置。
+1. （仅限保证交易）选择要用于交易的广告（或发布者管理的广告的1x1像素），并创建默认的程序化保证(PG)投放位置。
 
    默认PG投放位置可确保您的交易始终返回每个竞价请求的竞价。 如果您没有创建默认的PG投放，则任何以交易为目标的投放都不会投标，除非设置正确。 您应始终创建默认的PG投放位置。 在 [!UICONTROL Placements] 视图，默认PG投放具有 [!UICONTROL Sub-type] “”的列值[!UICONTROL PG Default]“
 

@@ -3,9 +3,9 @@ title: 接受协议 [!UICONTROL Deal ID Inbox]
 description: 了解如何接受您已在上与出版商协商的私人协议 [!DNL FreeWheel], [!DNL Google Authorized Buyers] (以前称为 [!DNL AdX]), and [!DNL Magnite DV+] (以前称为 [!DNL Rubicon])，使用交易ID收件箱。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 7c681ab7-3051-451d-ab83-fc75bdd6eaad
-source-git-commit: c4816e7cebe9db2a344f7268ed5615bb672f387d
+source-git-commit: 60676d8ef022d2ed61467d7254405695d5f106b3
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
    1. 单击 **[!UICONTROL Save]**.
 
-1. （仅限程序化保证交易）按照提示为交易选择广告，或为出版商管理的广告选择1x1跟踪像素，并创建针对交易的程序化保证默认投放位置。
+1. （仅限程序化保证交易）按照提示为交易选择广告（或出版商管理的广告的1x1跟踪像素），并创建针对交易的程序化保证默认投放位置。
 
 一旦你接受协议，它就会从 [!UICONTROL Deal ID inbox] 到 [!UICONTROL Inventory] > [!UICONTROL Deals] 查看，该交易将作为私人库存来源出现在每个投放位置的 [!UICONTROL Inventory Targeting] 部分。
 

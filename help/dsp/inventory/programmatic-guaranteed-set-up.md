@@ -3,9 +3,9 @@ title: 设置计划性保证交易
 description: 了解如何设置您与出版商协商的程式化保证(PG)交易。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: b1a772acbd9b934f2b4679d1111d56e1059e0cca
+source-git-commit: 60676d8ef022d2ed61467d7254405695d5f106b3
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 1. [手动设置交易ID详细信息](deal-id-create.md).
 
-1. 保存交易后，选择将用于交易的广告（或出版商管理的广告的1x1跟踪像素），并根据提示创建PG默认投放位置。
+1. 保存交易后，选择将用于交易的广告（或发布商管理的广告的1x1跟踪像素），并根据提示创建PG默认投放位置。
 
    必须创建交易的PG默认投放位置，才能交付全部购买内容。 此类型的投放位置没有定位，因此DSP可以向发布者的每个竞价请求返回竞价。
 
