@@ -3,9 +3,9 @@ title: 手动创建交易ID详细信息
 description: 了解如何手动输入交易ID的详细信息。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 60676d8ef022d2ed61467d7254405695d5f106b3
+source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
