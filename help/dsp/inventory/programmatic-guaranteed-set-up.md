@@ -3,9 +3,9 @@ title: 设置计划性保证交易
 description: 了解如何设置您与出版商协商的程式化保证(PG)交易。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
+source-git-commit: f887524a22dd5d665dcfc38b1a4ce2a1242638d7
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
