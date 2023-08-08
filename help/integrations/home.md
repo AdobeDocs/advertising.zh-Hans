@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: 45e9e52f1eff2e60eb03b930b6902b97e2d452dc
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2023年8月8日 | [!DNL Analytics for Advertising] | 部分 [!DNL Analytics] 成功事件量度（包括标准、自定义和保留的转化量度以及流量量度）在DSP和Search、Social以及Commerce中自动可用。 现在，您还可以根据现有的成功指标配置自己的成功指标 [!DNL Analytics] [!DNL eVars] 和 [!DNL props] 通过漏斗 [!DNL eVar] — 和 [!DNL prop]将级别的数据转换为自定义成功事件。 | 请参阅&quot;[从Adobe Analytics创建转化量度 [!DNL eVars] 和 [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md)“ |
+| 2023年8月8日 | [!DNL Analytics for Advertising] | 部分 [!DNL Analytics] 成功事件量度（包括标准、自定义和保留的转化量度以及流量量度）在DSP以及Search、Social和Commerce中自动可用。 现在，您还可以根据现有的成功指标配置自己的成功指标 [!DNL Analytics] [!DNL eVars] 和 [!DNL props] 通过漏斗 [!DNL eVar] — 和 [!DNL prop]将级别的数据转换为自定义成功事件。 | 请参阅&quot;[从Adobe Analytics创建转化量度 [!DNL eVars] 和 [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md)“ |
 | 2023年7月13日 | 报表 | (DSP用户使用 [!DNL Analytics for Advertising])连接电视(CTV)投放的浏览转化现在包含在Adobe Analytics中提供的转化数据中。 | 请参阅“”中有关“如何使用集成的示例”的部分[概述 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples)“ |
 | 2022年11月1日 | 帮助 | 新文档介绍了如何在Advertising DSP和Adobe Target之间实施点进和显示到达信号共享，以及在中设置A/B测试活动 [!DNL Target] DSP以及如何设置Adobe Analytics Analysis Workspace以查看测试数据。 | 请参阅&quot;[在Adobe Target中为Advertising DSP广告配置A/B测试](/help/integrations/target/overview-ab-tests.md)“ |
 | 2022年8月17日 | 帮助 | 新章节将介绍Adobe Advertising与Adobe Audience Manager集成的所有方式。 | 请参阅关于“与Adobe Audience Manager集成”的章节，包括“[Adobe Advertising与Adobe Audience Manager的集成](/help/integrations/audience-manager/overview.md)“ |
