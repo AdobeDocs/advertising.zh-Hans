@@ -3,7 +3,7 @@ title: 关于受众
 description: 了解用于跟踪、创建和管理数据的选项 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 受众。
 exl-id: 34169650-9820-4b7d-9ae6-09ff8a8c6f2e
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 9f30518efbbe29f976298fe1fcd962182285679f
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
    * (具有Audience Manager帐户的广告商)您可以创建 [!DNL Google Ads] 客户使用受众区段中的用户ID匹配受众，这些Audience Manager区段将Search、Social和Commerce作为目标。 这可能包括发布到Adobe Experience Cloud的Adobe Analytics区段和使用Adobe Experience Cloud受众库创建的区段。
 
-  要创建符合客户要求的受众，广告商的 [!DNL Google Ads] 帐户必须 [符合自定义匹配条件](https://support.google.com/adspolicy/answer/6299717) 并选择加入 [用户标识区段](https://support.google.com/google-ads/answer/9199250). 此外，必须将Search、Social和Commerce中的广告商帐户配置为允许创建客户匹配受众。<!-- For Analytics audiences: Analytics Only Integration. For Audience Manager, Enable CM/CRM option) -->
+  要创建符合客户要求的受众，广告商的 [!DNL Google Ads] 帐户必须 [符合自定义匹配条件](https://support.google.com/adspolicy/answer/6299717) 并选择加入 [用户标识区段](https://support.google.com/google-ads/answer/9199250). 此外，必须将Search、Social和Commerce中的广告商帐户配置为允许创建客户匹配受众。
 
   [!DNL Adobe] 基于客户数据的受众的区段数据和Cookie同步文件会同步到 [!DNL Google Ads] 每天。
 

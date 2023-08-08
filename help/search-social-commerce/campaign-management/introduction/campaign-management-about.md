@@ -3,9 +3,9 @@ title: 关于搜索、社交和商务中的促销活动管理
 description: 了解Search、Social和Commerce中的促销活动管理功能。
 exl-id: e6fca48d-1f6c-4d36-a10d-e1a5db859a37
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: d23b5a3c56c35fc5abbeafde681b9f584bf1c905
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Search、Social和Commerce允许您在一个位置跟踪和/或管理搜索、�
 
 对象 [支持的广告网络和营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)，您可以将营销活动分组到项目组合中，每个项目组合具有特定的业务目标和特定的预算或绩效目标。 在标准产品组合中，“搜索”、“社交”和“商务”可优化CPC关键词竞价和促销活动预算。 混合项目组合将来自搜索、社交和商务的优化技术与您的广告网络相结合。
 
-有关可用项目组合选项以及如何设置项目组合的更多信息，请参阅有关“管理Portfolio”的“优化指南”一章，该章可从“搜索”、“社交”和“商务”中获取。<!-- verify convention for referencing Optimization Guide here -->
+有关可用项目组合选项以及如何设置项目组合的更多信息，请参阅关于“Portfolio”的“优化指南”一章，该章可从“搜索”、“社交”和“商务”中获取。<!-- verify convention for referencing Optimization Guide here -->
 
 ## 营销活动管理视图
 
