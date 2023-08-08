@@ -1,19 +1,19 @@
 ---
-title: 从Adobe Analytics eVar和prop创建转化量度
-description: 使用eVar和prop级别的数据配置自定义成功事件量度。
+title: '"从Adobe Analytics创建转化量度 [!DNL eVars] 和prop”'
+description: “使用配置自定义成功事件量度 [!DNL eVar] — 和 [!DNL prop]级别的数据。”
 feature: Integration with Adobe Analytics, Conversions
-source-git-commit: d4f439ad23fc386bc85d95cc1291ec668ecf1cd2
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
-# 从Adobe Analytics eVar和prop创建转化量度
+# 从Adobe Analytics创建转化量度 [!DNL eVars] 和 [!DNL props]
 
 *仅具有Adobe Advertising-Adobe Analytics集成的广告商*
 
-您可以使用成功事件量度根据Adobe Analytics网站数据优化DSP包以及搜索、社交和商务促销活动，以最符合您的品牌目标。 您可以根据现有配置自定义成功事件量度 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 和 [prop](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) 将eVar级别和属性级别的数据漏斗到事件中。 其他 [!DNL Analytics] 量度（包括标准、自定义和保留的转化量度以及流量量度）在DSP和Search、Social以及Commerce中自动可用。
+您可以使用成功事件量度根据Adobe Analytics网站数据优化DSP包以及搜索、社交和商务促销活动，以最符合您的品牌目标。 您可以根据以下条件配置自定义成功事件量度： [您现有的 [!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 和 [您的 [!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) 通过漏斗 [!DNL eVar] — 和 [!DNL prop]-level数据转换为事件。 其他 [!DNL Analytics] 量度（包括标准、自定义和保留的转化量度以及流量量度）在DSP和Search、Social以及Commerce中自动可用。
 
 ![使用示例](/help/integrations/assets/a4adc-conversion-evar-example.jpg "使用示例")
 
@@ -43,17 +43,17 @@ ht-degree: 0%
 
    1. [创建处理规则](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=en)，使用以下配置：
 
-      * 对于必须满足的条件，指定所需的eVar或prop。
+      * 对于必须满足的条件，指定所需的 [!DNL eVars] 或 [!DNL props].
 
         您可以根据需要配置其他级别的粒度，以确保创建最准确的事件。
 
         >[!TIP]
         >
-        >最佳实践为仅使用一个eVar或prop。
+        >最佳做法是只使用一个 [!DNL eVar] 或 [!DNL prop].
 
       * 对于操作，选择 **设置事件** 并选择占位符事件。
 
-   1. 在 [!DNL Analytics] [!DNL Analysis Workspace]， [创建项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) 并将新事件提取到自由格式表中，以确保为eVar或prop量度填充数据。
+   1. 在 [!DNL Analytics] [!DNL Analysis Workspace]， [创建项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) 并将新事件提取到自由格式表中，以确保为 [!DNL eVar] 或 [!DNL prop] 量度。
 
 1. 请联系您的Adobe客户团队，以将新指标同步到Adobe Advertising。
 

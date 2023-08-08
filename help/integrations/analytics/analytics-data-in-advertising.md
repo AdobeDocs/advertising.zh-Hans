@@ -3,9 +3,9 @@ title: ’[!DNL Analytics] Adobe Advertising中的数据
 description: ’[!DNL Analytics] Adobe Advertising中的数据
 feature: Integration with Adobe Analytics
 exl-id: e11b0617-44e3-4f28-a065-aa9f6cf3eb5d
-source-git-commit: b382184072af88273570fc045d0bcebe24ed81fb
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* [!DNL Analytics] 将EF IDeVar的事件传递到Adobe Advertising。  默认集成不支持将计算量度或其他维度(eVar)发送到Adobe Advertising中。 但是，如果计算指标可以在自定义事件中完全捕获，则Adobe Advertising可以摄取自定义事件。
+>* [!DNL Analytics] 传递EF ID的事件 [!DNL eVar] Adobe Advertising。  默认集成不支持发送计算量度或其他维度([!DNL eVars])到Adobe Advertising中。 但是，如果计算指标可以在自定义事件中完全捕获，则Adobe Advertising可以摄取自定义事件。
 >* [!DNL Analytics] 每小时将数据传递给Adobe Advertising。
 
 * [!UICONTROL Timespent_secs_1stvisit]：访客首次访问期间在网站上逗留的秒数。
@@ -56,9 +56,9 @@ ht-degree: 0%
 
 这些指标特定于报表包，因此每个客户和报表包的可用指标会有所不同。
 
-### 从eVar和Prop创建的自定义转化量度
+### 自定义转化量度创建自 [!DNL eVars] 和 [!DNL Props]
 
-每个客户的可用量度各不相同。 请参阅&quot;[从Adobe Analytics eVar和prop创建转化量度](/help/integrations/analytics/conversion-metrics-from-evars.md)“
+每个客户的可用量度各不相同。 请参阅&quot;[从Adobe Analytics创建转化量度 [!DNL eVars] 和 [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md)“
 
 ### 保留的转化量度
 

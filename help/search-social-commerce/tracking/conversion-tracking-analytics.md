@@ -3,9 +3,9 @@ title: Adobe Analytics转化跟踪
 description: 了解如何在Adobe Advertising中对营销活动使用Adobe Analytics转化跟踪。
 exl-id: 0ed1d059-829a-4090-950d-41cbcc27b3ac
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 在 [!DNL Analytics]，Search、Social和Commerce实施团队会为每个报表包修改以下配置设置：
 
-   * 的到期 `ef_id` eVar已更改，以匹配广告商的Adobe Advertising点击回顾窗口。
+   * 的到期 `ef_id` [!DNL eVar] 更改为匹配广告商的Adobe Advertising点击回顾窗口。
 
    * Adobe Advertising的用户ID。
 
