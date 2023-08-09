@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: d11fd7ebd28569e8f5a39afa226ea7269323d769
+source-git-commit: ba5c2e3a86817a8b6bceadf6d6c1dbdc1af867db
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,9 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023年8月9日 | 转化量度 | [!UICONTROL Admin] > [!DNL Transaction Properties] 已重命名 [!UICONTROL Conversions]. | 请参阅&quot;[关于管理广告商的转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)“ |
+|  | [!DNL Google] 转化跟踪标记 | 要创建的更新屏幕 [!DNL Google] 转化跟踪标记可从以下位置获取： [!UICONTROL Admin] > [!UICONTROL Conversions]. 旧版屏幕位于 [!UICONTROL Tools] > [!UICONTROL Google Ads Conversion Tags] 以后将被删除。 | 请参阅&quot;[为创建转化标记 [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)“ |
+|  | [!DNL Google] 转化跟踪标记 | 当您创建 [!DNL Google] 转化跟踪标记后，您现在可以指定要跟踪的转化目标。 | 请参阅&quot;[为创建转化标记 [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)“ |
 | 2023年7月24日 | [!UICONTROL Campaigns], [!UICONTROL Reports], [!UICONTROL Portfolios] | 新列反映新的命名约定：<ul><li>&quot;[!UICONTROL Objective Value]“ ”具有与现有“ ”相同的值[!UICONTROL Weighted Revenue]“ ”列。 它包括：<ul><li>默认情况下，在 [!UICONTROL Portfolios] > [!UICONTROL Portfolios]， [!UICONTROL Portfolios] > [!UICONTROL Campaigns]， [!UICONTROL Portfolios > Bid Units]、和 [!UICONTROL Portfolio Spotlight] > [!UICONTROL Performance] > [!UICONTROL Campaigns] 查看次数</li><li>在自定义模拟中自动进行</li><li>默认情况下，在每周的屏幕模拟中，旧版列仍是可选的，但以后将被删除</li><li>默认情况下，在 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 和 [!UICONTROL Campaigns] > [!UICONTROL Keywords] 查看次数</li><li>默认情况下，在 [!UICONTROL Portfolio Report]， [!UICONTROL Campaign Report]、和 [!UICONTROL Keyword Report]</li></ul></li><li>&quot;[!UICONTROL Objective Value Calculation]，”该计算用于推导出 [!UICONTROL Objective Value]中，默认情况下包含在中 [!UICONTROL Portfolio Report]， [!UICONTROL Campaign Report]、和 [!UICONTROL Keyword Report].</li><li>&quot;[!UICONTROL Marginal Cost-to-Objective Value]“ ”具有与现有“ ”相同的值[!UICONTROL Marginal Cost-to-Revenue]“ ”列。 它包括：<ul><li>在自定义模拟中自动进行</li><li>默认情况下，在每周的屏幕模拟中，旧版列仍是可选的，但以后将被删除</li></ul></li></ul> | 请参阅&quot;[术语表](/help/search-social-commerce/glossary.md)“<br><br>另请参阅&quot;[基本报表和高级报表的报表列](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)“ |
 | 2023年6月30日 | [!UICONTROL Asset Library] | (开放Beta版功能； [!DNL Google Ads] 帐户) [!UICONTROL Campaigns] > [!UICONTROL Asset Library]，您可以创建可重复使用的图像、视频和文本资源并将它们上传到 [!DNL Google Ads] 帐户级别的资产库。 在中创建或编辑营销活动时，您可以将资源用于广告 [!DNL Google Ads] 编辑者。 | 请参阅&quot;[创建和上传资源](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)“ |
 | | [!UICONTROL Google Import] | 您现在可以从生成自己的导入凭据ID [!DNL Microsoft® Advertising] 在为配置活动导入作业时 [!DNL Google Ads]. 以前，Adobe技术支持或您的Adobe客户团队提供ID。 | 请参阅&quot;[复制 [!DNL Google Ads] 中的营销活动 [!DNL Microsoft® Advertising]](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md)“ |
