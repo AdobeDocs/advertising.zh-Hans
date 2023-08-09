@@ -3,9 +3,9 @@ title: 复制 [!DNL Google Ads] 中的营销活动 [!DNL Microsoft® Advertising
 description: 了解如何在中导出同步的营销活动 [!DNL Google Ads] 帐户直接转入已同步 [!DNL Microsoft® Advertising] 帐户。
 exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
 feature: Search Tools
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f857da54ff75ba7b8065b8c08d6d28eb54445b48
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 **[!UICONTROL Credential ID]：** ID [!DNL Microsoft® Advertising] 使用表示 [!DNL Google Ads] 凭据。
 
-自动生成 [!DNL Microsoft® Advertising] 导入凭据不可用，原因是 [!DNL Microsoft® Advertising] 限制。 联系Adobe技术支持或您的Adobe客户团队，他们将生成凭据并提供您ID。
+自动生成 [!DNL Microsoft® Advertising] 导入凭据不可用，原因是 [!DNL Microsoft® Advertising] 限制。 请联系您的Adobe客户团队，他们将生成凭据并提供ID。
 
 **[!UICONTROL Target Microsoft® Ads account]：** 已同步 [!DNL Microsoft® Advertising] 营销活动数据导入到的帐户。
 
