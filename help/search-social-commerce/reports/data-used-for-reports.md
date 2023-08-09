@@ -3,7 +3,7 @@ title: 用于报表的数据
 description: 了解数据视图和自定义报告中可用的不同类型数据。
 exl-id: 3e1f2967-5034-46bc-8473-63cffeeeecba
 feature: Search Reports
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 搜索、社交和商务包含基于点击和转化数据的全面性能报表。 您可以从以下位置查看项目组合或广告帐户的各种组件的基本性能数据： [!UICONTROL Portfolios] 和 [!UICONTROL Campaigns] 以及生成各种基本和高级报告。
 
-使用Adobe Advertising转化跟踪服务的广告商还可以识别反向链接网站的地理位置或域名的点击次数、每个渠道中的广告以及导致转化的各种事件对整体转化率的贡献情况，以及单个转化的分布情况 [转化量度](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) 按营销渠道。 可用的报告因用户帐户类型而异。 Adobe帐户团队有权访问所有报表。
+使用Adobe Advertising转化跟踪服务的广告商还可以识别反向链接网站的地理位置或域名的点击次数、每个渠道中的广告以及导致转化的各种事件对整体转化率的贡献情况，以及单个转化的分布情况 [转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) 按营销渠道。 可用的报告因用户帐户类型而异。 Adobe帐户团队有权访问所有报表。
 
 大多数报告都可以自定义为仅显示要查看的信息。 以下标准量度在大多数报表中可用，并在广告级别计算：
 

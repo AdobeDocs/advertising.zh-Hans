@@ -4,9 +4,9 @@ user-guide-title: 广告搜索、社交和商业指南
 user-guide-description: 本指南阐述管理、跟踪和报告搜索、社交和商业广告营销活动所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: 广告搜索、社交和商业指南
 index: true
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 8cb7e92d674466653b67ed5502883630ad633eb2
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1728'
 ht-degree: 2%
 
 ---
@@ -404,10 +404,12 @@ ht-degree: 2%
       + [重新验证 [!DNL Google Analytics] 数据源](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
       + [[!DNL Google Analytics] 数据源设置](/help/search-social-commerce/admin/data-sources/data-source-settings.md)
       + [附录 — 可用 [!DNL Google Analytics] 量度](/help/search-social-commerce/admin/data-sources/data-source-ga-metrics.md)
-   + 管理广告商的交易记录属性{#transaction-properties}
-      + [关于管理广告商的交易记录属性](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
-      + [查看为广告商跟踪的交易记录属性](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
-      + [更改管理视图和报告中的可用事务属性](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)
-      + [更改事务属性的显示名称](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md)
+   + 管理广告商的转化量度{#conversion-metrics}
+      + [关于管理广告商的转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
+      + [查看为广告商跟踪的转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
+      + [更改管理视图和报告中的可用转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
+      + [更改转化量度的显示名称](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
+      + 管理转化标记 {#conversion-tags}
+         + [为创建转化标记 [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
 + [获取帮助](get-help.md)
 + [术语表](glossary.md)

@@ -2,10 +2,10 @@
 title: ’[!DNL Google Ads] 转化数据
 description: 了解的类型 [!DNL Google Ads] — 跟踪的转化数据可在Search、Social和Commerce中使用。
 exl-id: a7ee8e72-aa7d-4e90-b765-b7b01308762d
-feature: Search Campaign Management
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+feature: Search Campaign Management, Conversions
+source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,16 @@ ht-degree: 0%
 
 每个最多三个量度 [[!DNL Google Ads]-tracked转化](https://support.google.com/google-ads/answer/4677036) (您设置于 [!DNL Google Ads])通过中配置的转化名称在Search、Social和Commerce中自动可用 [!DNL Google Ads]. 每次转化的量度包括：
 
+<!--
+
+* `<conversion-name>` &mdash; (When you track it) The conversion value for the keyword, beginning with the "GGL" prefix (such as GGL Purchase).
+
+`CT_<conversion-name>` &mdash; The number (count) of conversions, beginning with the "GGL_CT" prefix (such as GGL_CT_Purchase).
+
+* `XD_<conversion-name>` &mdash; (When available for the conversion type, when you track them) The number (count) of cross-device conversions, as measured by Google, beginning with the "GGL_XD_CT_" prefix (such as GGL_XD_CT_Purchase).
+
+-->
+
 * `GGL*`  — （跟踪时）关键字的转化值，以“GGL”前缀开头（如GGL Purchase）。
 
 * `GGL_CT*`  — 以“GGL_CT”前缀（例如GGL_CT_Purchase）开头的转换次数（计数）。
@@ -32,7 +42,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 如果您有多个帐户具有相同的转化名称，则您可能会在Adobe Advertising中看到重复的转化名称。 如果发生这种情况， [更改显示名称](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) 对于中的某个重复指标 [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. 当两个不同的量度具有相同的名称时，报表不准确。
+>* 如果您有多个帐户具有相同的转化名称，则您可能会在Adobe Advertising中看到重复的转化名称。 如果发生这种情况， [更改显示名称](对于中的某个重复量度，请添加/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md [!UICONTROL Admin] > [!UICONTROL Conversions]. 当两个不同的量度具有相同的名称时，报表不准确。
 >* 竞价单位级别的数据与中的数据匹配 [!DNL Google Ads] 在同一级别。 但是， [!DNL Google Ads]&#39;自己的更高级别的转化数据可能包含未归属于子竞价单位的其他转化。 搜索、Social和Commerce中的数据始终从竞价单位级别汇总，因此，例如，促销活动级别报表的总数可能与Google Ads中的促销活动级别报表的总数不同。
 >* 通常，在早上同步之后，数据差异小于当天晚些时候，此时尚未同步其他转化。 我们建议在早上验证数据。
 >* 转化数据不可用于 [!DNL Google Display Network]， [!DNL Gmail]， [!DNL Mobile App]、和 [!DNL YouTube] 广告。 在比较数据时过滤掉这些类型的广告 [!DNL Google Ads] 包含搜索、社交和商务中的数据。
@@ -94,4 +104,5 @@ ht-degree: 0%
 >
 >* [实施广告网络帐户和营销活动概述](campaign-implemention-overview.md)
 >* [监控和管理广告网络营销活动的效果](monitor-performance-campaigns.md)
->* [查看为广告商跟踪的交易记录属性](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
+>* [查看为广告商跟踪的转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
+>* [为创建转化标记 [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)

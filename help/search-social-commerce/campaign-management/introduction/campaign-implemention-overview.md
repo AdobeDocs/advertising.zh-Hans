@@ -3,7 +3,7 @@ title: 实施广告网络帐户和营销活动概述
 description: 了解设置、同步和管理广告网络帐户所涉及的任务。
 exl-id: 401c5ebb-258c-4614-96e8-ca604fc698c0
 feature: Search Campaign Management
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Adobe可与每个广告商合作，建立其广告网络帐户和促销活动。
 
    有关项目组合的详细信息，请参阅优化指南，该指南可从搜索、社交和商务中获取。<!-- verify convention for referencing Optimization Guide here -->
 
-1. （如果将为广告商跟踪任何新转化） [使转化可用](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) 用于报表、营销活动管理视图和组合目标。
+1. （如果将为广告商跟踪任何新转化） [使转化可用](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) 用于报表、营销活动管理视图和组合目标。
 
 1. 对于每个促销活动，验证搜索、社交和商务是否从广告网络接收点击次数和成本数据，并使用广告商自己的收入数据验证“搜索、社交和商务”中显示的收入数据。
 

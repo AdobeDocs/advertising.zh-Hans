@@ -3,7 +3,7 @@ title: 关于自定义报表的常见问题解答
 description: 了解有关性能报表的常见问题解答，包括数据问题疑难解答。
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: 68fb5d737b76e7b388f15a2fdd1f57ce9cd6a3e2
+source-git-commit: 2903bf783969b3e2d59c0933629cbb170c0a314c
 workflow-type: tm+mt
 source-wordcount: '3912'
 ht-degree: 0%
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 *可能的解决方案或解决方法：*
 
-1. 验证报表或数据视图中是否包含正确的列。 如果无法添加正确的列，那么您或您的Adobe帐户团队必须 [使转化量度可用于报表](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. 验证报表或数据视图中是否包含正确的列。 如果无法添加正确的列，那么您或您的Adobe帐户团队必须 [使转化量度可用于报表](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
 1. 验证是否在所有适用的网页上实施了正确的转化跟踪标记。 如有必要，请让您的Adobe客户团队为每个适用的转化跟踪标记创建一个测试交易，并捕获交易的详细信息，例如 `transactionid` 以及来自Cookie的详细信息(例如 `trackingid`， `clickid`，等等)。
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 
 *可能的解决方案或解决方法：*
 
-1. 验证报表或数据视图中是否包含正确的列。 如果无法添加正确的列，那么您或您的Adobe帐户团队必须 [使转化量度可用于报表](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. 验证报表或数据视图中是否包含正确的列。 如果无法添加正确的列，那么您或您的Adobe帐户团队必须 [使转化量度可用于报表](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
 1. 运行 [!UICONTROL Portfolio Report]. 如果它是空的，则运行 [!UICONTROL Campaign Report] 和 [!UICONTROL Search Engine Report] 以查看收入是否显示在这些报表中。 如果是这样，则营销策划可能没有分配到相应的项目组合。
 

@@ -1,10 +1,10 @@
 ---
 title: ’[!DNL Microsoft Advertising] 转化数据
 description: 了解的类型 [!DNL Microsoft Advertising] — 跟踪的转化数据可在Search、Social和Commerce中使用。
-feature: Search Campaign Management
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+feature: Search Campaign Management, Conversions
+source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 如果多个帐户具有相同的转化名称，则在Adobe Advertising中可能会看到重复的转化名称。 如果发生这种情况， [更改显示名称](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) 对于中的某个重复指标 [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. 当两个不同的量度具有相同的名称时，报表不准确。
+>* 如果多个帐户具有相同的转化名称，则在Adobe Advertising中可能会看到重复的转化名称。 如果发生这种情况， [更改显示名称](对于中的某个重复量度，请添加/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md [!UICONTROL Admin] > [!UICONTROL Conversions]. 当两个不同的量度具有相同的名称时，报表不准确。
 >* 竞价单元级别的数据与同一级别广告网络中的数据匹配。 但是，广告网络自己的更高级别的转化数据可能包括未归因到子竞价单位的附加转化。 搜索、社交和商务中的数据始终从竞价单位级别汇总，因此，例如，促销活动级别的报表可能与广告网络中的促销活动级别报表具有不同的总计。
 >* 通常，在早上同步之后，数据差异小于当天晚些时候，此时尚未同步其他转化。 我们建议在早上验证数据。
 >* 在受众或地理位置级别没有可用数据，因此不用于自动优化RLSA和位置竞价调整。
@@ -78,4 +78,4 @@ ht-degree: 0%
 >
 >* [实施广告网络帐户和营销活动概述](campaign-implemention-overview.md)
 >* [监控和管理广告网络营销活动的效果](monitor-performance-campaigns.md)
->* [查看为广告商跟踪的交易记录属性](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
+>* [查看为广告商跟踪的转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)

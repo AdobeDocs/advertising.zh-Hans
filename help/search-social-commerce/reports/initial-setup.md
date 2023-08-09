@@ -3,9 +3,9 @@ title: 报告的初始设置任务
 description: 了解如何在报表中提供量度以及如何自动执行报表。
 exl-id: 0f55aae9-6898-4967-a377-190a13dff6fd
 feature: Search Reports
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 新用户应执行以下初始设置任务：
 
-* 制定Adobe Advertising正在跟踪的广告商转化量度 [可用于报告和其他视图](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)和（可选） [重命名任何转化量度](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) 列标题中显示的内容以提高可读性。
+* 制定Adobe Advertising正在跟踪的广告商转化量度 [可用于报告和其他视图](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)和（可选） [重命名任何转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)的可读性显示在列标题中。
 
   事务属性不适用于报表，除非您特别规定它们可用。
 

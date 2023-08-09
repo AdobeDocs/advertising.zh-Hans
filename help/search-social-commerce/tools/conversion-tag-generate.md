@@ -3,7 +3,7 @@ title: 生成Adobe Advertising转化跟踪标记
 description: 了解如何创建Adobe Advertising转化标记以跟踪您的转化事件。
 exl-id: 617cd808-c4ba-4413-89e4-0f52cb44f44b
 feature: Search Tools, Search Tracking
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->新转化标记中的每个量度都会自动列在 [!UICONTROL Admin] > [!UICONTROL Transaction Properties]，即使未实施或者所在的网页未收到任何点击。 此行为与手动或其他位置创建的标记中的量度行为不同，这些标记未列在 [!UICONTROL Admin] > [!UICONTROL Transaction Properties] 直到其所在的一个网页收到点击为止。 但是，在所有情况下，每个量度最初都从项目组合目标、报表和视图中排除，直到您明确提供它们。 但是，在将量度添加到项目组合目标之前，请考虑先使量度可用，并将它们添加到报表以验证它们何时收到点击量。
+>新转化标记中的每个量度都会自动列在 [!UICONTROL Admin] > [!UICONTROL Conversions]，即使未实施或者所在的网页未收到任何点击。 此行为与手动或其他位置创建的标记中的量度行为不同，这些标记未列在 [!UICONTROL Admin] > [!UICONTROL Conversions] 直到其所在的一个网页收到点击为止。 但是，在所有情况下，每个量度最初都从项目组合目标、报表和视图中排除，直到您明确提供它们。 但是，在将量度添加到项目组合目标之前，请考虑先使量度可用，并将它们添加到报表以验证它们何时收到点击量。
 
 ## Adobe Advertising转换标记设置 {#conversion-tag-settings}
 
@@ -81,4 +81,4 @@ ht-degree: 0%
 >* [JavaScript转换跟踪标记版本2的格式](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
 >* [图像转换跟踪标记的格式](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
 >* [Adobe AdvertisingJavaScript转换映射标记](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
->* [关于管理广告商的交易记录属性](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
+>* [关于管理广告商的转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
