@@ -2,7 +2,7 @@
 title: 为创建转化标记 [!DNL Google Ads]
 description: 了解如何创建 [!DNL Google Ads] 转化标记。
 feature: Conversions
-source-git-commit: 8f08151013ec63df14843733a0c83badcceba4c3
+source-git-commit: 395421c69214c3b0370523909047a924af23ea55
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 **[!UICONTROL Conversion Name]：** 转化量度的唯一名称。
 
-**\[目标类别\]：** 转化类别。 可用的类别因转化类型而异。 对象 *[!UICONTROL Calls to a phone number on your website]* 和 *[!UICONTROL Clicks to your number on your mobile website]*， &quot;[!UICONTROL Phone Call Lead]默认情况下会选中“”。
+**\[转化类别\]：** 转化类别。 可用的类别因转化类型而异。 对象 *[!UICONTROL Calls to a phone number on your website]* 和 *[!UICONTROL Clicks to your number on your mobile website]*， &quot;[!UICONTROL Phone Call Lead]默认情况下会选中“”。
 
 **\[操作类型\]：** 目标是否为 *[!UICONTROL Primary action used for bidding optimization]* 或 *[!UICONTROL Secondary action not used for bidding optimization]*.
 
