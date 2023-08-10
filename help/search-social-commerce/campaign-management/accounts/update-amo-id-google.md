@@ -1,22 +1,22 @@
 ---
-title: 更新的AMO ID (s\_kwcid)跟踪代码 [!DNL Google Ads] 帐户
+title: 更新的AMO ID (s_kwcid)跟踪代码 [!DNL Google Ads] 帐户
 description: 了解如何切换到的最新AMO ID跟踪代码 [!DNL Google Ads] 帐户。
 exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
 feature: Search Campaign Management
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
 
-# 更新的s_kwcid跟踪代码 [!DNL Google Ads] 帐户
+# 更新的AMO ID (s_kwcid)跟踪代码 [!DNL Google Ads] 帐户
 
 *仅具有Adobe Advertising-Adobe Analytics集成的广告商*
 
 *[!DNL Google Ads]仅限帐户*
 
-现有跟踪代码的s\_kwcid旧格式 [!DNL Google Ads] 帐户不支持Analytics中的某些功能，例如营销活动和广告组级别的报表 [!DNL Google Ads] 效果最佳的营销活动、草稿和实验营销活动以及其他用例，在这些用例中，多个营销活动中存在相同的广告+关键字+匹配类型组合。
+的旧格式 [AMO ID跟踪代码](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) 对于现有 [!DNL Google Ads] 帐户不支持Analytics中的某些功能，例如营销活动和广告组级别的报表 [!DNL Google Ads] 效果最佳的营销活动、草稿和实验营销活动以及其他用例，在这些用例中，多个营销活动中存在相同的广告+关键字+匹配类型组合。
 
 最新格式包括促销活动ID和广告组ID的参数：
 
@@ -26,23 +26,29 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
 您可以单独更改任何或所有现有帐户的新格式。 如果您没有效果最佳的促销活动或草稿和实验促销活动，则可以选择迁移到新格式。
 
-所有新 [!DNL Google Ads] 帐户会自动使用新的s\_kwcid格式。
+所有新 [!DNL Google Ads] 帐户会自动使用新的AMO ID格式。
 
 >[!NOTE]
 >
->迁移帐户后，更改后会正确报告所有点击、成本和展示数据，但在迁移前发生的任何点进次数仍会根据旧的s\_kwcid格式归因于转化数据。
+>迁移帐户后，更改后会正确报告所有点击、成本和展示数据，但在迁移前发生的任何点进次数仍会根据旧AMO ID格式归因于转化数据。
 
 1. 在主菜单中，单击 **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. 在子菜单中，单击 **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
+
 1. 将光标悬停在帐户名称上，单击 ![箭头下拉图标](/help/search-social-commerce/assets/arrow-dropdown-menu.png)，然后选择 **[!UICONTROL Edit]**.
+
 1. 单击 **[!UICONTROL Set Account Tracking]**.
+
 1. 开始迁移：
 
    1. 旁边 **[!UICONTROL S_KWCID FORMAT]** ，单击 **[!UICONTROL LEGACY S_KWCID FORMAT]**.
+
    1. 单击 **[!UICONTROL Migrate to new s_kwcid format]**.
+
    1. 在确认消息中，选中复选框，然后单击 **[!UICONTROL Continue]**.
+
    1. 在帐户设置中，单击 **[!UICONTROL Post]**.
 
-   营销活动的元数据会在几天内在Analytics中更新。 跟踪可以不间断地继续进行，因此不会丢失数据，但在Analytics收到所有元数据之前，报表可能不会反映新的跟踪代码。
+   营销活动的元数据更新于 [!DNL Analytics] 几天之内。 跟踪会持续进行，不会出现数据丢失情况，但在报告之前，可能不会反映新的跟踪代码 [!DNL Analytics] 接收所有元数据。
 
    >[!NOTE]
    >
@@ -51,10 +57,12 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 1. 开始迁移后，请根据需要更新登陆页面后缀设置（在某些广告网络中称为“最终URL后缀”）：
 
    * 当 [!UICONTROL Auto Upload]”功能已在跟踪设置中启用，搜索、社交和商务会自动更新此帐户及其促销活动登陆页面后缀中的跟踪代码。 你不必做任何事。
-   * 当 [!UICONTROL Auto Upload]”功能未启用，并且您未使用服务器端s-kwcid，那么您必须手动更新登陆页面后缀设置中的s\_kwcid参数。 您可以在帐户和营销活动设置中手动更改帐户级别和营销活动级别的后缀，也可以通过在批量处理表中上传更改来手动更改帐户级别和营销活动级别的后缀。 要在广告组级别或更低级别配置后缀，请使用 [!DNL Google Ads] 编辑者。
-   * 如果您将s\_kwcid包含在任何促销活动组件的基本URL设置中，请将其移至相关的登陆页面后缀设置。
 
-1. （推荐）在迁移其他帐户之前，请在Analytics中验证此帐户的数据。
+   * 当 [!UICONTROL Auto Upload]”功能未启用，因此您不使用 [服务器端AMO ID功能](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)，则必须在登陆页面后缀设置中手动更新AMO ID参数。 您可以在帐户和营销活动设置中手动更改帐户级别和营销活动级别的后缀，也可以通过在批量处理表中上传更改来手动更改帐户级别和营销活动级别的后缀。 要在广告组级别或更低级别配置后缀，请使用 [!DNL Google Ads] 编辑者。
+
+   * 如果您将AMO ID包含在任何促销活动组件的基本URL设置中，请将其移至相关的登陆页面后缀设置。
+
+1. （推荐）验证此帐户的数据于 [!DNL Analytics] 迁移其他帐户之前。
 
 >[!MORELIKETHIS]
 >

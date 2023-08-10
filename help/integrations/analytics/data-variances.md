@@ -3,9 +3,9 @@ title: 之间的预期数据差异 [!DNL Analytics] 和Adobe Advertising
 description: 之间的预期数据差异 [!DNL Analytics] 和Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
 workflow-type: tm+mt
-source-wordcount: '3267'
+source-wordcount: '3268'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ Adobe Advertising报表仅捕获通过Adobe Advertising贩运的付费媒体（�
 Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)
 ```
 
-[!UICONTROL AMO ID Instances] 表示AMO ID的次数(`s_kwcid` 参数)进行跟踪。 每次点击广告时， `s_kwcid` 参数会添加到登陆页面URL。 的数量 [!UICONTROL AMO ID Instances]因此，类似于点击次数，可根据实际广告点击进行验证。 我们通常看到80%的匹配率 [!DNL Search, Social, & Commerce] 30%的匹配率 [!DNL DSP] 流量（在筛选为仅包含点进时） [!UICONTROL AMO ID Instances])。 搜索和显示之间的预期差异可以用预期流量行为来解释。 搜索会捕捉意图，因此，用户通常打算单击其查询中的搜索结果。 但是，查看显示或在线视频广告的用户更有可能无意中单击该广告，然后要么从网站弹回，要么放弃在跟踪页面活动之前加载的新窗口。
+[!UICONTROL AMO ID Instances] 表示达到此值的次数： [AMO ID](ids.md) 会在网站上跟踪。 每次点击广告时，一个AMO ID (`s_kwcid`)参数会被添加到登陆页面URL。 的数量 [!UICONTROL AMO ID Instances]因此，类似于点击次数，可根据实际广告点击进行验证。 我们通常看到80%的匹配率 [!DNL Search, Social, & Commerce] 30%的匹配率 [!DNL DSP] 流量（在筛选为仅包含点进时） [!UICONTROL AMO ID Instances])。 搜索和显示之间的预期差异可以用预期流量行为来解释。 搜索会捕捉意图，因此，用户通常打算单击其查询中的搜索结果。 但是，查看显示或在线视频广告的用户更有可能无意中单击该广告，然后要么从网站弹回，要么放弃在跟踪页面活动之前加载的新窗口。
 
 在Adobe Advertising报表中，您可以使用&quot;[!UICONTROL ef_id_instances]”量度而不是 [!UICONTROL AMO ID Instances]：
 

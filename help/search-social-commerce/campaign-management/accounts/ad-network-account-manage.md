@@ -3,9 +3,9 @@ title: 管理广告网络帐户
 description: 了解如何设置和管理广告网络帐户的帐户详细信息。
 exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
 feature: Search Campaign Management
-source-git-commit: c296766697903d7cb95ca59ca6b4c375629ddd2b
+source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2086'
 ht-degree: 0%
 
 ---
@@ -240,22 +240,22 @@ ht-degree: 0%
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **S\_kwcid格式** -(现有 [!DNL Google Ads] 帐户，适用于具有Adobe Advertising-Adobe Analytics集成且尚未为其迁移AMO ID (s\_kwcid)的广告商
+* **S_kwcid格式** -(现有 [!DNL Google Ads] 帐户，适用于具有Adobe Advertising-Adobe Analytics集成且尚未为其迁移AMO ID (s_kwcid)的广告商
 
 此帐户使用旧版的AMO ID跟踪代码格式，允许Adobe Advertising与Adobe Analytics共享该帐户的相关数据。 此 [最新格式](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) 包含营销活动ID和广告组ID的参数，要准确报告营销活动和广告组级别的 [!DNL Google Ads] Analytics中的效果最佳营销活动以及草稿和实验营销活动：
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-如果此帐户需要在营销活动和广告组级别报告，请单击 [!UICONTROL Edit] （铅笔）图标，然后 **[!UICONTROL Migrate to new s\_kwcid format]** 以更改为新格式。 对于不包含这些促销活动类型的帐户，迁移到新格式是可选的，但建议这样做。
+如果此帐户需要在营销活动和广告组级别报告，请单击 [!UICONTROL Edit] （铅笔）图标，然后 **[!UICONTROL Migrate to new s_kwcid format]** 以更改为新格式。 对于不包含这些促销活动类型的帐户，迁移到新格式是可选的，但建议这样做。
 
 有关完整说明，请参阅&quot;[更新的AMO ID跟踪代码 [!DNL Google Ads] 帐户](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)“
 
 **报表包名称** -(仅适用于带令牌的EF重定向；带有Adobe Advertising-Adobe Analytics集成的广告商；可选)一个或多个Analytics报表包，Search、Social和Commerce会向其发送从广告网络收集的数据，包括实体分类和帐户的点击数据。 此功能仅适用于受支持的广告网络。
 
-对于要在报表包中显示的数据，必须(a)为帐户配置服务器端s\_kwcid，或者(b)将广告商级别设置为&quot;[!UICONTROL Enable tracking for SAINT feeds]必须启用&#39;&#39;。 此外，广告商的Analytics帐户必须配置为从Search、Social和Commerce接收数据。 有关更多信息，请与您的Adobe客户经理联系。
+对于要在报表包中显示的数据，必须(a)为帐户配置服务器端AMO ID功能，或者(b)将广告商级别设置为&quot;[!UICONTROL Enable tracking for SAINT feeds]必须启用&#39;&#39;。 此外，广告商的Analytics帐户必须配置为从Search、Social和Commerce接收数据。 有关更多信息，请与您的Adobe客户经理联系。
 
 >[!MORELIKETHIS]
 >
 >* [关于广告网络帐户](ad-network-account-about.md)
 >* [管理商户中心帐户](merchant-account-manage.md)
->* [更新的s\_kwcid跟踪代码 [!DNL Google Ads] 帐户](update-amo-id-google.md)
+>* [更新的s_kwcid跟踪代码 [!DNL Google Ads] 帐户](update-amo-id-google.md)

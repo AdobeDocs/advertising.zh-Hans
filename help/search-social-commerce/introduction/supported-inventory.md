@@ -3,7 +3,7 @@ title: 支持的清单
 description: 引用支持的广告网络、营销活动类型和广告类型。
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: c296766697903d7cb95ca59ca6b4c375629ddd2b
+source-git-commit: 703cda43e96dfa9d80bbce2d64192fc461d5dbae
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 0%
@@ -57,4 +57,4 @@ ht-degree: 0%
 
 [^3]：需要与Adobe Analytics集成。 请参阅&quot;[Analytics for Adobe Advertising概述](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)“
 
-[^4]： [!DNL Analytics] 无论您通常为帐户使用AMO ID格式如何，数据都会使用升级后的AMO ID跟踪参数(s_kwcid)发送到Search、Social &amp; Commerce。 如果您通常使用旧版本的AMO ID，我们建议您升级到新的AMO ID格式以获得最佳体验。 但是，即使使用不同的AMO ID跟踪您的点击/成本数据和收入数据，两组数据仍会在同一促销活动和帐户下完全分类和汇总。
+[^4]： [!DNL Analytics] 使用升级的AMO ID跟踪参数(从 `s_kwcid`)，无论您通常用于帐户的AMO ID格式如何。 如果您通常使用旧版本的AMO ID，我们建议您升级到新的AMO ID格式以获得最佳体验。 但是，即使使用不同的AMO ID跟踪您的点击/成本数据和收入数据，两组数据仍会在同一促销活动和帐户下完全分类和汇总。

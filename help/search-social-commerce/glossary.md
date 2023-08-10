@@ -3,9 +3,9 @@ title: 术语表
 description: 请参阅关键术语的定义。
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 **广告组：** 营销活动的一组广告及其相关关键词、投放位置和产品组。
 
 **广告变量：** 广告组或广告策略中的任何广告。
+
+**AMO ID：** 允许Adobe Advertising与Adobe Analytics共享促销活动数据的跟踪代码。 开头是 `s_kwcid=`.
 
 **竞价单位：** 竞价所在单位的搜索、社交和商业术语。 对于大多数网络上的大多数营销活动，这是搜索或内容营销活动的关键字及其匹配类型，购物营销活动的单元级别产品组（最低级别的细分），或动态搜索广告营销活动的动态搜索目标。 当同一关键词和匹配类型组合、同一产品组或同一动态搜索目标在单个营销活动中的多个广告组内出现时，所有实例都被视为相同的竞价单位，因此具有相同的竞价。
 
@@ -166,7 +168,7 @@ ht-degree: 0%
 
 **支出策略：** （具有投资组合的广告商）为优化投资组合的关键字/广告竞价而选择的策略。
 
-**`s_kwcid`：** 一个跟踪代码，允许Adobe Advertising与Adobe Analytics共享有关搜索促销活动的数据。
+**`s_kwcid`：** 请参阅“AMO ID”。
 
 **跟踪URL：** 添加了跟踪模板或目标URL以及额外的参数，以跟踪有关广告点击的信息。 它可以包括一个重定向URL，用于在将用户重定向到广告商的登陆页面之前，先将用户发送到跟踪服务器。
 
