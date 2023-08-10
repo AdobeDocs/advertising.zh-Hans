@@ -3,9 +3,9 @@ title: 的点击跟踪格式 [!DNL Google Ads]
 description: 了解的点击跟踪格式 [!DNL Google Ads] 帐户。
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -70,11 +70,11 @@ ht-degree: 0%
 
 * 当广告商具有Adobe Analytics集成时，后缀必须包括以下任一项：
 
-   * [!DNL Google Ads] 使用最新版本的帐户 `s_kwcid` 格式，支持达到效果营销活动以及草稿和实验营销活动的营销活动级和广告组级报表：
+   * [!DNL Google Ads] 使用最新AMO ID格式的帐户(以 `s_kwcid`)，支持针对效果最佳的营销活动、草稿和实验营销活动的营销活动和广告组级别报表：
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     如果帐户具有服务器端s_kwcid实施并且帐户或营销活动设置»[!UICONTROL Auto Upload]”已启用，则会自动添加参数。 否则，您需要手动添加它。
+     如果帐户具有服务器端AMO ID实施以及帐户或营销活动设置»[!UICONTROL Auto Upload]”已启用，则会自动添加参数。 否则，您需要手动添加它。
 
    * 所有其他 [!DNL Google Ads] 帐户：
 
@@ -88,9 +88,9 @@ ht-degree: 0%
 >
 >* 较低级别的登陆页面后缀将覆盖帐户级别的后缀。 为便于维护，除非需要对各个帐户组件进行不同的跟踪，否则请仅使用帐户级别的后缀。 要在广告组级别或更低级别配置后缀，请使用广告网络的编辑器。
 >
->* (动态搜索广告；具有Adobe Analytics但不具有服务器端跟踪的广告商)如果要包含从Adobe Advertising到Analytics的反向馈送跟踪，请附加 `s_kwcid` 跟踪代码到帐户级别登陆页面后缀的结尾。
+>* (动态搜索广告；具有Adobe Analytics但不具有服务器端跟踪的广告商)如果您希望包含对从Adobe Advertising到Analytics的反向馈送的跟踪，请将AMO ID跟踪代码附加到帐户级别的登陆页面后缀的末尾。
 
 >[!MORELIKETHIS]
 >
 >* [关于Adobe Advertising转化跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
->* [s\_kwcid跟踪代码的格式](skwcid-tracking-parameter.md)
+>* [AMO ID跟踪代码的格式](skwcid-tracking-parameter.md)

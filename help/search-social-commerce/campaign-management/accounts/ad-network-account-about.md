@@ -3,7 +3,7 @@ title: 关于广告网络帐户
 description: 了解Search、Social和Commerce中的广告网络帐户。
 exl-id: fca469f1-502c-415a-897d-03b6e6ba34e8
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -42,4 +42,4 @@ ht-degree: 0%
 >
 >* [管理广告网络帐户](ad-network-account-manage.md)
 >* [管理商户中心帐户](merchant-account-manage.md)
->* [更新的s\_kwcid跟踪代码 [!DNL Google Ads] 帐户](update-skwcid-google.md)
+>* [更新的AMO ID跟踪代码 [!DNL Google Ads] 帐户](update-amo-id-google.md)

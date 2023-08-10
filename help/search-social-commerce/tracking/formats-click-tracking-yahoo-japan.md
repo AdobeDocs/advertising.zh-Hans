@@ -3,7 +3,7 @@ title: 的点击跟踪格式 [!DNL Yahoo! Japan Ads]
 description: 了解的点击跟踪格式 [!DNL Yahoo! Japan Ads] 帐户。
 exl-id: 4584f2c4-8090-4931-bd44-0df42f350755
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
@@ -35,4 +35,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于Adobe Advertising转化跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
->* [s\_kwcid跟踪代码的格式](skwcid-tracking-parameter.md)
+>* [AMO ID跟踪代码的格式](skwcid-tracking-parameter.md)

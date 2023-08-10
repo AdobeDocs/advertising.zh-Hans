@@ -3,9 +3,9 @@ title: 管理广告网络帐户
 description: 了解如何设置和管理广告网络帐户的帐户详细信息。
 exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c296766697903d7cb95ca59ca6b4c375629ddd2b
 workflow-type: tm+mt
-source-wordcount: '2079'
+source-wordcount: '2085'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 示例： `param1=value1&param2=value2`
 
-使用Adobe Advertising点击跟踪的帐户必须包含广告网络的点击标识符(`msclkid` 对象 [!DNL Microsoft Advertising]； `gclid` (对于Google)。 具有Adobe Analytics集成的帐户必须使用 `s_kwcid` 参数。 如果帐户具有服务器端s\_kwcid实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 请参阅 [所需的后缀格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [所需的后缀格式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+使用Adobe Advertising点击跟踪的帐户必须包含广告网络的点击标识符(`msclkid` 对象 [!DNL Microsoft Advertising]； `gclid` (对于Google)。 具有Adobe Analytics集成的帐户必须使用AMO ID参数(以 `s_kwcid`)。 如果该帐户具有服务器端AMO ID实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 请参阅 [所需的后缀格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [所需的后缀格式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
 >[!NOTE]
 >
@@ -240,15 +240,15 @@ ht-degree: 0%
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **S\_kwcid格式** -(现有 [!DNL Google Ads] 帐户，适用于具有Adobe Advertising-Adobe Analytics集成且尚未为其迁移s\_kwcid的广告商)
+* **S\_kwcid格式** -(现有 [!DNL Google Ads] 帐户，适用于具有Adobe Advertising-Adobe Analytics集成且尚未为其迁移AMO ID (s\_kwcid)的广告商
 
-此帐户使用旧版的s\_kwcid跟踪代码，该代码允许Adobe Advertising与Adobe Analytics共享该帐户的相关数据。 此 [最新格式](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) 包含营销活动ID和广告组ID的参数，要准确报告营销活动和广告组级别的 [!DNL Google Ads] Analytics中的效果最佳营销活动以及草稿和实验营销活动：
+此帐户使用旧版的AMO ID跟踪代码格式，允许Adobe Advertising与Adobe Analytics共享该帐户的相关数据。 此 [最新格式](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) 包含营销活动ID和广告组ID的参数，要准确报告营销活动和广告组级别的 [!DNL Google Ads] Analytics中的效果最佳营销活动以及草稿和实验营销活动：
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
 如果此帐户需要在营销活动和广告组级别报告，请单击 [!UICONTROL Edit] （铅笔）图标，然后 **[!UICONTROL Migrate to new s\_kwcid format]** 以更改为新格式。 对于不包含这些促销活动类型的帐户，迁移到新格式是可选的，但建议这样做。
 
-有关完整说明，请参阅&quot;[更新的s\_kwcid跟踪代码 [!DNL Google Ads] 帐户](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md)“
+有关完整说明，请参阅&quot;[更新的AMO ID跟踪代码 [!DNL Google Ads] 帐户](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)“
 
 **报表包名称** -(仅适用于带令牌的EF重定向；带有Adobe Advertising-Adobe Analytics集成的广告商；可选)一个或多个Analytics报表包，Search、Social和Commerce会向其发送从广告网络收集的数据，包括实体分类和帐户的点击数据。 此功能仅适用于受支持的广告网络。
 
@@ -258,4 +258,4 @@ ht-degree: 0%
 >
 >* [关于广告网络帐户](ad-network-account-about.md)
 >* [管理商户中心帐户](merchant-account-manage.md)
->* [更新的s\_kwcid跟踪代码 [!DNL Google Ads] 帐户](update-skwcid-google.md)
+>* [更新的s\_kwcid跟踪代码 [!DNL Google Ads] 帐户](update-amo-id-google.md)

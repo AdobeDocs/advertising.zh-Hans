@@ -3,7 +3,7 @@ title: 的点击跟踪格式 [!DNL Naver]
 description: 了解的点击跟踪格式 [!DNL Naver] 帐户。
 exl-id: ff243eb5-d768-4e5c-b5b3-015fe22c9d5a
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
@@ -31,4 +31,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于Adobe Advertising转化跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
->* [s\_kwcid跟踪代码的格式](skwcid-tracking-parameter.md)
+>* [AMO ID跟踪代码的格式](skwcid-tracking-parameter.md)
