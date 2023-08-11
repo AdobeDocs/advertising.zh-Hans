@@ -3,9 +3,9 @@ title: 使用的Adobe AdvertisingID [!DNL Analytics]
 description: 使用的Adobe AdvertisingID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -95,71 +95,135 @@ EF ID是一个唯一令牌，Adobe Advertising可使用它将Activity与在线�
 
 EF ID受Analysis Workspace中500,000个唯一标识符限制的约束。 一旦达到500k值，所有新跟踪代码都会报告在单行项目标题&#39;&#39;下[!UICONTROL Low Traffic]“ 由于可能会丢失报表保真度，因此EF ID不会进行分类，您不应将它们用于中的区段或报表 [!DNL Analytics].
 
-## ADOBE ADVERTISINGAMO ID
+## ADOBE ADVERTISINGAMO ID {#amo-id}
 
 AMO ID在较低的粒度级别跟踪每个唯一的广告组合，用于 [!DNL Analytics] 数据分类和从Adobe Advertising摄取广告量度（例如展示次数、点击量和成本）。 AMO ID存储在 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 或rVar维度(AMO ID)，专门用于在以下位置生成报表： [!DNL Analytics].
 
 AMO ID也称为 `s_kwcid`，有时发音为“[!DNL the squid]“
 
-### AMO ID格式 [!DNL DSP]
+### AMO ID格式 {#amo-id-formats}
 
-```
-<Channel ID>!<Ad ID>!<Placement ID>
-```
+#### AMO ID格式 [!DNL DSP]
+
+`s_kwcid=AC!${TM_AD_ID}!${TM_PLACEMENT_ID}`
 
 其中：
 
-* &lt;*渠道ID*>可能是：
+* `AC` 指示显示渠道。
 
-   * `AC` = Advertising DSP
-   * `AL` 对象 [!DNL Advertising Search, Social, & Commerce]
+* `{TM_AD_ID}` 是Adobe Advertising生成的字母数字广告键。 它使用广告的唯一标识符，并用作将Adobe Advertising实体元数据转换为可读数据的键 [!DNL Analytics] 维度。
 
-* &lt;*广告ID*>用作Adobe Advertising生成的广告唯一标识符。 它用作将Adobe Advertising实体元数据转换为可读元数据的键 [!DNL Analytics] 维度。
-
-* &lt;*版面ID*>是Adobe Advertising生成的投放位置唯一标识符。 它用作将Adobe Advertising实体元数据转换为可读元数据的键 [!DNL Analytics] 维度。
+* `{TM_PLACEMENT_ID}` 是Adobe Advertising生成的字母数字放置键。 它使用投放的唯一标识符，并用作将Adobe Advertising实体元数据转换为可读的键值 [!DNL Analytics] 维度。
 
 示例AMO ID： AC！iIMvXqlOa6Nia2lDvtgw！GrVv6o2oV2qQLjQiXLC7
 
-### AMO ID格式 [!DNL Search, Social, & Commerce]
+#### 搜索、社交和商务广告的AMO ID格式
 
-的AMO ID [!DNL Search, Social, & Commerce] 遵循每个搜索引擎的不同格式。 所有搜索引擎的格式均以下列内容开头：
+这些参数因广告网络而异，但以下参数是所有参数共有的：
 
-```
-AL!{userid}!{sid}
-```
+* `AL` 指示搜索渠道。 <!-- what about social/Facebook, and display ads on Google (like Gmail, YouTube)? -->
+
+* `{userid}` 是分配给广告商的唯一用户ID。
+
+* `{sid}` 将由广告商广告网络帐户的数值ID替换： *3* 对象 [!DNL Google Ads]， *10* 对象 [!DNL Microsoft Advertising]， *45* 对象 [!DNL Meta]， *86* 对象 [!DNL Yahoo! Display Network]， *87* 对象 [!DNL Naver]， *88* 对象 [!DNL Baidu]， *90* 对象 [!DNL Yandex]， *94* 对象 [!DNL Yahoo! Japan Ads]， *105* 对象 [!DNL Yahoo Native] （已弃用），或 *106* 对象 [!DNL Pinterest] （已弃用）。
+
+##### [!DNL Baidu]
+
+`s_kwcid=AL!{userid}!{sid}!{creative}!{placement}!{keywordid}`
+
+其中：
+
+* `{creative}` 是广告网络的创意唯一数字ID。
+* `{placement}` 是点击了广告的网站。
+* `{keywordid}` 是触发广告的关键字对应的广告网络的唯一数值ID。
+
+##### [!DNL Google Ads]
+
+其中包括使用的购物营销活动 [!DNL Google Merchant Center].
+
+* 使用最新AMO ID格式（支持营销活动和广告组级别报表以实现最佳效果营销活动以及草稿和实验营销活动）的帐户：
+
+  `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+
+* 所有其他帐户：
+
+  `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 其中：
 
-* `AL` 是广告网络的渠道ID。
-* `{userid}` 是Adobe Advertising分配给广告商的唯一数字用户ID。
-* `{sid}` 是Adobe Advertising用于指定广告网络的数值ID，例如 `3` 对象 [!DNL Google Ads] 或 `10` 对象 [!DNL Microsoft Advertising].
-
-以下是几个广告网络的完整AMO ID格式。 有关其他广告网络的AMO ID格式，请与您的Adobe客户团队联系。
-
-AMO ID格式 [!DNL Google Ads]：
-
-```
-AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
-```
-
-其中：
+<!-- VERIFY CREATIVE description. Also, are there more networks now (audience and shopping?) -->
 
 * `{creative}` 是 [!DNL Google Ads] 创意内容的唯一数值ID。
 * `{matchtype}` 是触发广告的关键字的匹配类型： `e` 确切地说， `p` 用于短语，或 `b` 对布洛德来说。
 * `{placement}` 是广告被点击的网站的域名。 值适用于以投放位置为目标的促销活动中的广告，以及内容网站上显示的以关键词为目标的促销活动中的广告。
-* `{network}` 指示发生单击的网络：  `g` 对象 [!DNL Google] 搜索（仅适用于以关键词为目标的广告）， `s` （仅适用于关键词定向广告），或 `d` 适用于显示网络（适用于关键词定向或投放定向广告）。
+* `{network}` 指示发生单击的网络： `g` 对象 [!DNL Google] 搜索（仅适用于以关键词为目标的广告）， `s` （仅适用于关键词定向广告），或 `d` 适用于展示网络（适用于关键词定向或投放定向广告）。
+* `{product_partition_id}` 是用于产品广告的产品组的广告网络的唯一数值ID。
 * `{keyword}` 是触发广告的特定关键词（在搜索网站上）或最佳匹配关键词（在内容网站上）。
+* `{campaignid}` 是营销活动的广告网络的唯一数字ID。
+* `{adgroupid}` 是广告组的广告网络的唯一数字ID。
 
-AMO ID格式 [!DNL Microsoft Advertising]：
+>[!NOTE]
+>
+>* 对于动态搜索广告， {keyword} 使用自动定位填充。
+>* 在为生成跟踪时 [!DNL Google] 购物广告、产品ID参数、 `{adwords_producttargetid}`，，插入在keyword参数之前。 产品ID参数未出现在 [!DNL Google Ads] 帐户级别和促销活动级别的跟踪参数。
+>* 要使用最新的AMO ID跟踪代码，请参阅[更新的AMO ID跟踪代码 [!DNL Google Ads] 帐户](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)“ <!-- Update terminology there too. -->
 
-```
-AL!{userid}!{sid}!{AdId}!{OrderItemId}
-```
+<!--
+
+##### [!DNL Meta]
+
+`s_kwcid=AL!{userid}!{sid}!{{ad.id}}!{{campaign.id}}!{{adset.id}}`
+
+where:
+
+* `{{ad.id}}` is the unique numeric ID for the ad/creative.
+
+* `{{campaign.id}}` is the unique ID for the campaign.
+
+* `{{adset.id}}` is the unique ID for the ad set.
+
+-->
+
+##### [!DNL Microsoft Advertising]
+
+* 搜索促销活动：
+
+  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}`
+
+* 购物营销活动(使用 [!DNL Microsoft Merchant Center])：
+
+  `s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
+
+* 受众网络营销活动：
+
+  `s_kwcid=AL!{userid}!{sid}!{AdId}`
 
 其中：
 
-* `{AdId}` 是 [!DNL Microsoft Advertising] 创意内容的唯一数值ID。
-* `{OrderItemId}` 是 [!DNL Microsoft Advertising] 关键字的数值ID。
+* `{AdId}` 是广告网络的创意唯一数字ID。
+* `{OrderItemId}` 是关键词的广告网络的数字ID。
+* `{CriterionId}` 是用于产品广告的产品组的广告网络的数字ID。
+
+##### [!DNL Yahoo! Japan Ads]
+
+`s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{network}!{keyword}`
+
+其中：
+
+* `{creative}` 是广告网络的创意唯一数字ID。
+* `{matchtype}` 是触发广告的关键字的匹配类型： `be` 确切地说， `bp` 用于短语，或 `bb` 对布洛德来说。
+* `{network}` 指示发生单击的网络： `n` （本机或） `s` 进行搜索。
+* `{keyword}` 是触发广告的关键字。
+
+##### [!DNL Yandex]
+
+`s_kwcid=AL!{userid}!{sid}!{ad_id}!{source_type}!!!{phrase_id}`
+
+其中：
+
+* `{ad_id}` 是广告网络的创意唯一数字ID。
+* `{source_type}` 显示广告的网站类型： *b* 搜索时， *c* 用于上下文（内容），或 *ct* 类别。
+* `{phrase_id}` 是关键词的广告网络的数字ID。
 
 ### 中的AMO IDDimension [!DNL Analytics]
 

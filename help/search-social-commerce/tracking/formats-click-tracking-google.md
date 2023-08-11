@@ -3,9 +3,9 @@ title: 的点击跟踪格式 [!DNL Google Ads]
 description: 了解的点击跟踪格式 [!DNL Google Ads] 帐户。
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -93,4 +93,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于Adobe Advertising转化跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
->* [AMO ID跟踪代码的格式](amo-id-tracking-parameter.md)
+>* [AMO ID格式](/help/integrations/analytics/ids.md#amo-id-formats)

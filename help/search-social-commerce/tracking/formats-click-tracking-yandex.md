@@ -3,9 +3,9 @@ title: 的点击跟踪格式 [!DNL Yandex]
 description: 了解的点击跟踪格式 [!DNL Yandex] 帐户。
 exl-id: cf1d6c4b-9bcd-4b82-919f-c14dbaff9a76
 feature: Search Tracking
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -39,4 +39,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于Adobe Advertising转化跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
->* [AMO ID跟踪代码的格式](amo-id-tracking-parameter.md)
+>* [AMO ID格式](/help/integrations/analytics/ids.md#amo-id-formats)
