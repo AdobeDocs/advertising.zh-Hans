@@ -4,9 +4,9 @@ user-guide-title: 广告搜索、社交和商业指南
 user-guide-description: 本指南阐述管理、跟踪和报告搜索、社交和商业广告营销活动所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: 广告搜索、社交和商业指南
 index: true
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: 4fff88683c524b4844104102ed09c0a6b08e5701
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1730'
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 2%
             + [的点击跟踪格式 [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [点击跟踪URL的可选跟踪参数](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
       + [Adobe AdvertisingCookie（链接）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
-      + [s_kwcid跟踪参数](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
+      + [AMO ID (s_kwcid)跟踪参数](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + 转化跟踪 {#conversion-tracking}
       + [转化跟踪选项](/help/search-social-commerce/tracking/conversion-tracking-about.md)
       + Adobe Advertising转化跟踪 {#advertising-conversion-tracking}

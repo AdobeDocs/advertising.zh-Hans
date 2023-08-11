@@ -3,7 +3,7 @@ title: 更新的AMO ID (s_kwcid)跟踪代码 [!DNL Google Ads] 帐户
 description: 了解如何切换到的最新AMO ID跟踪代码 [!DNL Google Ads] 帐户。
 exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
 feature: Search Campaign Management
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]仅限帐户*
 
-的旧格式 [AMO ID跟踪代码](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) 对于现有 [!DNL Google Ads] 帐户不支持Analytics中的某些功能，例如营销活动和广告组级别的报表 [!DNL Google Ads] 效果最佳的营销活动、草稿和实验营销活动以及其他用例，在这些用例中，多个营销活动中存在相同的广告+关键字+匹配类型组合。
+的旧格式 [AMO ID跟踪代码](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) 对于现有 [!DNL Google Ads] 帐户不支持Analytics中的某些功能，例如营销活动和广告组级别的报表 [!DNL Google Ads] 效果最佳的营销活动、草稿和实验营销活动以及其他用例，在这些用例中，多个营销活动中存在相同的广告+关键字+匹配类型组合。
 
 最新格式包括促销活动ID和广告组ID的参数：
 
@@ -58,7 +58,7 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
    * 当 [!UICONTROL Auto Upload]”功能已在跟踪设置中启用，搜索、社交和商务会自动更新此帐户及其促销活动登陆页面后缀中的跟踪代码。 你不必做任何事。
 
-   * 当 [!UICONTROL Auto Upload]”功能未启用，因此您不使用 [服务器端AMO ID功能](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)，则必须在登陆页面后缀设置中手动更新AMO ID参数。 您可以在帐户和营销活动设置中手动更改帐户级别和营销活动级别的后缀，也可以通过在批量处理表中上传更改来手动更改帐户级别和营销活动级别的后缀。 要在广告组级别或更低级别配置后缀，请使用 [!DNL Google Ads] 编辑者。
+   * 当 [!UICONTROL Auto Upload]”功能未启用，因此您不使用 [服务器端AMO ID功能](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)，则必须在登陆页面后缀设置中手动更新AMO ID参数。 您可以在帐户和营销活动设置中手动更改帐户级别和营销活动级别的后缀，也可以通过在批量处理表中上传更改来手动更改帐户级别和营销活动级别的后缀。 要在广告组级别或更低级别配置后缀，请使用 [!DNL Google Ads] 编辑者。
 
    * 如果您将AMO ID包含在任何促销活动组件的基本URL设置中，请将其移至相关的登陆页面后缀设置。
 
@@ -67,5 +67,5 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 >[!MORELIKETHIS]
 >
 >* [管理广告网络帐户](ad-network-account-manage.md)
->* [AMO ID跟踪参数](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
+>* [AMO ID跟踪参数](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
 >* [概述 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

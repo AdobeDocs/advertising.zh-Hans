@@ -3,7 +3,7 @@ title: 支持的清单
 description: 引用支持的广告网络、营销活动类型和广告类型。
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: 703cda43e96dfa9d80bbce2d64192fc461d5dbae
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 0%
@@ -17,8 +17,8 @@ ht-degree: 0%
 | 来源 | 网络 | 营销活动类型 | 广告类型 | 同步并查看 | 创建/编辑 | 曲目[^1] | 优化 | 报表[^2] | Adobe Analytics支持[^3] |
 |----|----|----|----|----|----|----|----|----|----|
 | [!DNL Baidu] | 搜索网络 | 手动 | 文本 | 通过API自动进行 | 使用 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 和 [批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是 | 仅具有手动CPC竞价策略的促销活动 | 广告级别的数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的广告级数据 |
-| [!DNL Google Ads] | 全部 [!DNL Google] 信息源 | 发现（测试版功能） | 发现（单图像广告）<br><br>发现轮播（多图像轮播广告） | 通过API自动进行 | — | 是 | 仅在混合项目组合中<br><br>在活动级别设置竞价和竞价策略目标，并根据优化类型设置活动预算。 | 广告级别的数据 | 搜索、社交和商务的广告级数据 [使用升级的AMO ID跟踪代码](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)[^4]<br><br>从搜索、社交和商务到Analytics的广告级数据 |
-| | 全部 | 最高标准性能（测试版功能） | 所有类型 | 通过API自动进行 | 在营销活动视图的营销活动设置中创建/编辑营销活动并上传广告资源<br><br>只有必需的设置可用。 对于可选设置和列表组，请登录[！DNL [!DNL Google Ads] Ads]编辑器。 | 是 | 仅在混合项目组合中<br><br>在营销活动级别设置竞价策略目标以及营销活动预算。 | 营销活动级别的数据<br><br>列表组的数据不可用，并且广告网络不提供广告级别的数据。 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的促销活动级别数据。 需要升级的 [AMO ID跟踪代码](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). |
+| [!DNL Google Ads] | 全部 [!DNL Google] 信息源 | 发现（测试版功能） | 发现（单图像广告）<br><br>发现轮播（多图像轮播广告） | 通过API自动进行 | — | 是 | 仅在混合项目组合中<br><br>在活动级别设置竞价和竞价策略目标，并根据优化类型设置活动预算。 | 广告级别的数据 | 搜索、社交和商务的广告级数据 [使用升级的AMO ID跟踪代码](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)[^4]<br><br>从搜索、社交和商务到Analytics的广告级数据 |
+| | 全部 | 最高标准性能（测试版功能） | 所有类型 | 通过API自动进行 | 在营销活动视图的营销活动设置中创建/编辑营销活动并上传广告资源<br><br>只有必需的设置可用。 对于可选设置和列表组，请登录[！DNL [!DNL Google Ads] Ads]编辑器。 | 是 | 仅在混合项目组合中<br><br>在营销活动级别设置竞价策略目标以及营销活动预算。 | 营销活动级别的数据<br><br>列表组的数据不可用，并且广告网络不提供广告级别的数据。 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的促销活动级别数据。 需要升级的 [AMO ID跟踪代码](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md). |
 | | 显示网络 | 标准显示 | 图像 | 通过API自动进行 | 仅编辑URL和状态 [批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是，当您手动将点击跟踪标记添加到广告网络中的跟踪模板时 | — | 广告级别的数据，但没有显示到达数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的广告级数据，但没有显示到达数据 |
 | | [!DNL Gmail]/显示网络 | [!DNL Gmail] 营销活动（已弃用） | [!DNL Gmail] | — | — | — | — | 仅限旧版促销活动级别的数据 | 旧版Analytics数据到搜索、社交和商务<br>从搜索、社交和商务到Analytics的旧版促销活动级别数据 |
 | | 搜索网络 | 标准搜索 | 仅调用 | 通过API自动进行 | 使用 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) | 可以，使用帐户级别的登陆页面后缀和跟踪模板，或者通过在[！DNL]中的广告级别手动添加它们 [!DNL Google Ads] Ads]管理器 | — | 仅限广告组级别的展示次数和广告网络的点击次数，无收入 | — |

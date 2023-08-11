@@ -1,5 +1,5 @@
 ---
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -19,4 +19,4 @@ ht-degree: 0%
 
 * （具有并行跟踪的广告网络）避免使用宏，宏不会替代来自启用并行跟踪的源的点击。 如果广告商必须使用宏，则Adobe客户团队应与客户支持或实施团队合作来添加宏。
 
-* (具有Adobe Advertising-Adobe Analytics集成的广告商)包含AMO ID参数，以将Search、Social和Commerce数据发送至 [!DNL Analytics]，请参见 [广告网络特定的格式](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). 无需手动添加以下项的参数： [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 实施服务器端AMO ID的帐户。
+* (具有Adobe Advertising-Adobe Analytics集成的广告商)包含AMO ID参数，以将Search、Social和Commerce数据发送至 [!DNL Analytics]，请参见 [广告网络特定的格式](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md). 无需手动添加以下项的参数： [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 实施服务器端AMO ID的帐户。

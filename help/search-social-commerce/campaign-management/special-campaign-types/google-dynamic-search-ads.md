@@ -3,7 +3,7 @@ title: 实施 [!DNL Google Ads] 动态搜索广告
 description: 了解用于设置的工作流 [!DNL Google Ads] 动态搜索广告。
 exl-id: 4c806824-b582-46dc-8d88-85c73bfb0944
 feature: Search Campaign Management
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    1. （可选）配置营销活动级别的跟踪模板，以覆盖帐户级别的跟踪模板，但可以在较低级别覆盖该模板。
 
-      (具有Adobe Analytics且没有服务器端跟踪的广告商)如果您希望包含从Search、Social和Commerce到Analytics的反向馈送的跟踪，请将AMO ID跟踪代码添加到帐户级别的附加参数，这会将该代码添加到最终URL。 请参阅&quot;[AMO ID跟踪参数](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)“
+      (具有Adobe Analytics且没有服务器端跟踪的广告商)如果您希望包含从Search、Social和Commerce到Analytics的反向馈送的跟踪，请将AMO ID跟踪代码添加到帐户级别的附加参数，这会将该代码添加到最终URL。 请参阅&quot;[AMO ID跟踪参数](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)“
 
 1. [创建广告组](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) ，包括以下步骤：
 
