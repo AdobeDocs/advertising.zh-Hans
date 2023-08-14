@@ -3,9 +3,9 @@ title: ’[!DNL Google Ads] 转化数据
 description: 了解的类型 [!DNL Google Ads] — 跟踪的转化数据可在Search、Social和Commerce中使用。
 exl-id: a7ee8e72-aa7d-4e90-b765-b7b01308762d
 feature: Search Campaign Management, Conversions
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+source-git-commit: dc5dc6c5770dd75c77c537c69e53a3b169a71efb
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 如果您有多个帐户具有相同的转化名称，则您可能会在Adobe Advertising中看到重复的转化名称。 如果发生这种情况， [更改显示名称](对于中的某个重复量度，请添加/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md [!UICONTROL Admin] > [!UICONTROL Conversions]. 当两个不同的量度具有相同的名称时，报表不准确。
+>* 如果您有多个帐户具有相同的转化名称，则您可能会在Adobe Advertising中看到重复的转化名称。 如果发生这种情况， [更改显示名称](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) 对于中的某个重复指标 [!UICONTROL Admin] > [!UICONTROL Conversions]. 当两个不同的量度具有相同的名称时，报表不准确。
 >* 竞价单位级别的数据与中的数据匹配 [!DNL Google Ads] 在同一级别。 但是， [!DNL Google Ads]&#39;自己的更高级别的转化数据可能包含未归属于子竞价单位的其他转化。 搜索、Social和Commerce中的数据始终从竞价单位级别汇总，因此，例如，促销活动级别报表的总数可能与Google Ads中的促销活动级别报表的总数不同。
 >* 通常，在早上同步之后，数据差异小于当天晚些时候，此时尚未同步其他转化。 我们建议在早上验证数据。
 >* 转化数据不可用于 [!DNL Google Display Network]， [!DNL Gmail]， [!DNL Mobile App]、和 [!DNL YouTube] 广告。 在比较数据时过滤掉这些类型的广告 [!DNL Google Ads] 包含搜索、社交和商务中的数据。
