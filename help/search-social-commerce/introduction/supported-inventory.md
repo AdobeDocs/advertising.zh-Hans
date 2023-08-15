@@ -3,9 +3,9 @@ title: 支持的清单
 description: 引用支持的广告网络、营销活动类型和广告类型。
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: c3fa0318033c11a884ba0f8201af65c212b89ccf
 workflow-type: tm+mt
-source-wordcount: '2373'
+source-wordcount: '2374'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 |----|----|----|----|----|----|----|----|----|----|
 | [!DNL Baidu] | 搜索网络 | 手动 | 文本 | 通过API自动进行 | 使用 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 和 [批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是 | 仅具有手动CPC竞价策略的促销活动 | 广告级别的数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的广告级数据 |
 | [!DNL Google Ads] | 全部 [!DNL Google] 信息源 | 发现（测试版功能） | 发现（单图像广告）<br><br>发现轮播（多图像轮播广告） | 通过API自动进行 | — | 是 | 仅在混合项目组合中<br><br>在活动级别设置竞价和竞价策略目标，并根据优化类型设置活动预算。 | 广告级别的数据 | 搜索、社交和商务的广告级数据 [使用升级的AMO ID跟踪代码](/help/integrations/analytics/ids.md#amo-id-formats)[^4]<br><br>从搜索、社交和商务到Analytics的广告级数据 |
-| | 全部 | 最高标准性能（测试版功能） | 所有类型 | 通过API自动进行 | 在营销活动视图的营销活动设置中创建/编辑营销活动并上传广告资源<br><br>只有必需的设置可用。 对于可选设置和列表组，请登录[！DNL [!DNL Google Ads] Ads]编辑器。 | 是 | 仅在混合项目组合中<br><br>在营销活动级别设置竞价策略目标以及营销活动预算。 | 营销活动级别的数据<br><br>列表组的数据不可用，并且广告网络不提供广告级别的数据。 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的促销活动级别数据。 需要升级的 [AMO ID跟踪代码](/help/integrations/analytics/ids.md#amo-id-formats). |
+| | 全部 | 最高标准性能（测试版功能） | 所有类型 | 通过API自动进行 | 在营销活动视图的营销活动设置中创建/编辑营销活动并上传广告资源<br><br>只有必需的设置可用。 对于可选设置和列表组，请登录到[！DNL [!DNL Google Ads] Ads]编辑器。 | 是 | 仅在混合项目组合中<br><br>在营销活动级别设置竞价策略目标以及营销活动预算。 | 营销活动级别的数据<br><br>列表组的数据不可用，并且广告网络不提供广告级别的数据。 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的促销活动级别数据。 需要升级的 [AMO ID跟踪代码](/help/integrations/analytics/ids.md#amo-id-formats). |
 | | 显示网络 | 标准显示 | 图像 | 通过API自动进行 | 仅编辑URL和状态 [批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是，当您手动将点击跟踪标记添加到广告网络中的跟踪模板时 | — | 广告级别的数据，但没有显示到达数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的广告级数据，但没有显示到达数据 |
-| | [!DNL Gmail]/显示网络 | [!DNL Gmail] 营销活动（已弃用） | [!DNL Gmail] | — | — | — | — | 仅限旧版促销活动级别的数据 | 旧版Analytics数据到搜索、社交和商务<br>从搜索、社交和商务到Analytics的旧版促销活动级别数据 |
+| | [!DNL Gmail]/显示网络 | [!DNL Gmail] 营销活动（已弃用） | [!DNL Gmail] | — | — | — | — | 仅限旧版促销活动级别的数据 | 旧版Analytics数据到搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的旧版促销活动级别数据 |
 | | 搜索网络 | 标准搜索 | 仅调用 | 通过API自动进行 | 使用 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) | 可以，使用帐户级别的登陆页面后缀和跟踪模板，或者通过在[！DNL]中的广告级别手动添加它们 [!DNL Google Ads] Ads]管理器 | — | 仅限广告组级别的展示次数和广告网络的点击次数，无收入 | — |
-| | 搜索网络 | 标准搜索 | \[Expanded\]动态搜索创作类型“Edsa” | 通过API自动进行 | 使用 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 和 [批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是 | 是<br><br>适用于营销活动指定网站域时的广告组；否则，适用于动态搜索目标。 | 营销活动和广告组级别的数据<br><br>广告网络不提供广告级别的数据。 | Analytics数据到搜索、社交和商务促销活动级别和广告组级别的数据，从搜索、社交和商务到Analytics |
+| | 搜索网络 | 标准搜索 | \[Expanded\]动态搜索创作类型“Edsa” | 通过API自动进行 | 使用 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 和 [批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是 | 是<br><br>适用于营销活动指定网站域时的广告组；否则，适用于动态搜索目标。 | 营销活动和广告组级别的数据<br><br>广告网络不提供广告级别的数据。 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的促销活动和广告组级别数据 |
 | | 搜索网络 | 标准搜索 | 扩展文本（2022年6月弃用） | 通过API自动进行 | 仅使用删除 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)， [批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)、和 [库存管理信息源](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | 是 | — | 广告级别的数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的广告级数据 |
 | | 搜索网络 | 标准搜索 | 响应式搜索 | 通过API自动进行 | 使用 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)， [批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)、和 [库存管理信息源](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | 是 | 是 | 所有可用广告元素的广告级别数据<br><br><b>注意：</b> [！DNL [!DNL Google Ads] 广告]在其本机编辑器之外不提供有关显示为广告的文本组合的数据。 有关每个文本组合报表的更多信息，请参阅 [[!DNL [!DNL Google Ads] Ads] 文档](https://support.google.com/google-ads/answer/7684791). | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的广告级数据 |
 | | 搜索网络 | 标准搜索（已弃用） | 文本 | 通过API自动进行 | 仅使用将状态更改为现有广告 [批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是 | 是 | 广告级别的数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的广告级数据 |

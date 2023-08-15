@@ -2,9 +2,9 @@
 title: 在Adobe Target中为Adobe Advertising广告配置A/B测试
 description: 了解如何在中设置A/B测试 [!DNL Target] 用于您的DSP广告。
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7b5d8b20e7efa3178f9c43c806f37b85d8ae3f62
+source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1551'
 ht-degree: 0%
 
 ---
@@ -77,11 +77,11 @@ Adobe Advertising和Adobe Target使得营销人员能够更轻松地通过付费
 
    有关说明，请参阅&quot;[从Advertising DSP Campaigns收集媒体接触数据](/help/integrations/audience-manager/media-data-integration/collect.md)“
 
-   确保添加 [DSP宏](/help/dsp/campaign-management/macros.md) 用于捕获您希望展示事件像素传递回的所有数据，包括 `${TM_PLACEMENT_ID_NUM}` 表示数值版面ID。
+   确保添加 [DSP宏](/help/dsp/campaign-management/macros.md) 用于捕获您希望展示事件像素传递回的所有数据，包括 `${TM_PLACEMENT_ID_NUM}` 用于表示数值版面ID。
 
    >[!NOTE]
    >
-   >点击跟踪URL包括 `${TM_PLACEMENT_ID}` 字母数字放置键的宏，而不是 `${TM_PLACEMENT_ID_NUM}` 表示数值版面ID。
+   >点击跟踪URL包括 `${TM_PLACEMENT_ID}` 字母数字放置键的宏，而不是 `${TM_PLACEMENT_ID_NUM}` 用于表示数值版面ID。
 
 1. 从DSP展示数据配置Audience Manager区段：
 
@@ -113,7 +113,7 @@ Adobe Advertising和Adobe Target使得营销人员能够更轻松地通过付费
 
 以下说明突出显示与DSP用例相关的信息。 有关完整说明，请参阅“”。
 
-1. [登录Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
+1. [登录到Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
 1. [创建A/B测试](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)：
 

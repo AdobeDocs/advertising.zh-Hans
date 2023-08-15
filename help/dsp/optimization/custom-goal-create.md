@@ -3,9 +3,9 @@ title: 创建自定义目标
 description: 创建自定义目标
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: eda0459472c1e4a8297daf69454de0fcb3d4f8ca
+source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
