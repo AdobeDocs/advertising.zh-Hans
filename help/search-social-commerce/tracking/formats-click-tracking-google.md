@@ -3,9 +3,9 @@ title: 的点击跟踪格式 [!DNL Google Ads]
 description: 了解的点击跟踪格式 [!DNL Google Ads] 帐户。
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: 0c2603303dd9401b2d6fad2893f5a84cb457ed3a
+source-git-commit: ceb2fc07eb5116b3a2bb01cf72fd779f78bba1f0
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 0%
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     如果帐户具有服务器端AMO ID实施以及帐户或营销活动设置»[!UICONTROL Auto Upload]”已启用，则会自动添加参数。 否则，您需要手动添加它。 请参阅中的“实施AMO ID的方法”[使用的Adobe AdvertisingID [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)“
+     如果帐户具有服务器端AMO ID实施以及帐户或营销活动设置»[!UICONTROL Auto Upload]”已启用，则会自动添加参数。 否则，您需要手动添加它。 请参阅&quot;[使用的Adobe AdvertisingID [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)“
 
    * 所有其他 [!DNL Google Ads] 帐户：
 
