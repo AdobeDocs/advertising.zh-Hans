@@ -3,7 +3,7 @@ title: 使用的Adobe AdvertisingID [!DNL Analytics]
 description: 使用的Adobe AdvertisingID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: d5c894f4eaae5aaec72ca6f525ed625d08c9420d
+source-git-commit: 38f94db19b94f4cb7a6965ccf5da6d83a31154af
 workflow-type: tm+mt
 source-wordcount: '1667'
 ht-degree: 0%
@@ -106,7 +106,7 @@ AMO ID在较低的粒度级别跟踪每个唯一的广告组合，用于 [!DNL A
 
 AMO ID也称为 `s_kwcid`，有时发音为“[!DNL the squid]“
 
-### 实施AMO ID的方法
+### 实施AMO ID的方法 {#amo-id-implement}
 
 参数可通过以下方式之一添加到您的跟踪URL中：
 
