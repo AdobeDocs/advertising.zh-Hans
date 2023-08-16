@@ -3,9 +3,9 @@ title: 使用的Adobe AdvertisingID [!DNL Analytics]
 description: 使用的Adobe AdvertisingID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 426f6e25f0189221986cc42d186bfa60f5268ef1
+source-git-commit: 21acf015a511c578a95e938e32fb170287f91555
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1667'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ AMO ID也称为 `s_kwcid`，有时发音为“[!DNL the squid]“
 
       * 对象 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 帐户具有 [!UICONTROL Auto Upload] 为帐户或营销活动启用的设置，当最终用户单击带有Adobe Advertising像素的广告时，像素服务器会自动将s_kwcid参数附加到您的登陆页后缀。
 
-      * 对于其他广告网络，或 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 帐户具有 [!UICONTROL Auto Upload] 禁用设置，手动将参数添加到帐户级别的附加参数，以便将其附加到基本URL。
+      * 对于其他广告网络，或 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 帐户具有 [!UICONTROL Auto Upload] 设置已禁用，手动 [将参数添加到帐户级别的附加参数](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)，以将其附加到基本URL中。
 
 * 未实现服务器端插入功能：
 
@@ -132,9 +132,9 @@ AMO ID也称为 `s_kwcid`，有时发音为“[!DNL the squid]“
 
    * 搜索、社交和商务客户：
 
-      * 对于([!DNL Google Ads] 和 [!DNL Microsoft® Advertising])广告，请手动将AMO ID参数添加到登陆页面后缀。
+      * 对于([!DNL Google Ads] 和 [!DNL Microsoft® Advertising])广告，请手动将AMO ID参数添加到登陆页面后缀，最好在 [帐户级别](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) 除非需要对各个帐户组件进行不同的跟踪。
 
-      * 对于所有其他广告网络上的广告，请手动将AMO ID参数添加到帐户级别的附加参数，以便将其附加到基本URL。
+      * 对于所有其他广告网络上的广告，请手动 [将AMO ID参数添加到帐户级别的附加参数](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)，以将其附加到基本URL中。
 
 要实施服务器端插入功能，或确定最适合您企业的选项，请与您的Adobe客户团队联系。
 
