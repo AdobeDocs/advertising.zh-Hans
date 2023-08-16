@@ -3,9 +3,9 @@ title: 使用的Adobe AdvertisingID [!DNL Analytics]
 description: 使用的Adobe AdvertisingID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 38f94db19b94f4cb7a6965ccf5da6d83a31154af
+source-git-commit: 7433c2b0e0f61c2c72b27fb026202a76875c6b7e
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1693'
 ht-degree: 0%
 
 ---
@@ -122,13 +122,11 @@ AMO ID也称为 `s_kwcid`，有时发音为“[!DNL the squid]“
 
 * 未实现服务器端插入功能：
 
-   * DSP客户：
+   * DSP客户： [JavaScript代码](javascript.md) 自动记录点进和显示点进。 当浏览器不支持第三方Cookie时，您仍然可以跟踪以下广告类型的基于点击的转化：
 
       * 对象 [!DNL Flashtalking] 添加标记，手动为每个&#39;&#39;插入其他宏[附加 [!DNL Analytics for Advertising] 宏到 [!DNL Flashtalking] 广告标记](/help/integrations/analytics/macros-flashtalking.md)“
 
       * 对象 [!DNL Google Campaign Manager 360] 添加标记，手动为每个&#39;&#39;插入其他宏[附加 [!DNL Analytics for Advertising] 宏到 [!DNL Google Campaign Manager 360] 广告标记](/help/integrations/analytics/macros-google-campaign-manager.md)“
-
-  <!--  * For all other ads, XXXX. -->
 
    * 搜索、社交和商务客户：
 
