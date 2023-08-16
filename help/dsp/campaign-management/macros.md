@@ -1,50 +1,50 @@
 ---
-title: Advertising DSP巨集
-description: 參考可用於一般追蹤的巨集，並追蹤第三方顯示廣告的點按次數。
+title: Advertising DSP宏
+description: 引用可用于常规跟踪和跟踪第三方显示广告点击量的宏。
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: bb404dd1ff2fda5e37435ac892e2a0f6beba0b33
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
 
-# Advertising DSP巨集
+# Advertising DSP宏
 
-巨集是指令的簡短指令或簡稱，通常遵循格式 `${MACRO_NAME}`. 創意程式碼或點進URL中包含的巨集會展開為廣告伺服器可理解的較長程式碼字串。 DSP廣告伺服器會在播放或點按廣告時執行巨集。
+宏是指令的简短命令或简称，通常遵循格式 `${MACRO_NAME}`. 创意代码或点进URL中包含的宏可展开为广告服务器可以理解的较长代码字符串。 DSP广告服务器在投放或单击广告时执行宏。
 
-廣告伺服器巨集可用來將重要資訊傳送至DSP或協力廠商廣告伺服器。 巨集最常用於販運協力廠商和自訂創意程式碼或中繼資料（例如協力廠商畫素）。
+广告服务器宏可用于将重要信息传递到DSP或第三方广告服务器。 宏最常在第三方和自定义创意代码或元数据（如第三方像素）贩运期间使用。
 
-您可以在任意位置手動插入巨集，例如在VAST標籤、任何URL中，或在DSP或協力廠商事件畫素中。 不過，每個DSP使用者端和合作夥伴都有不同的廣告標籤格式，因此巨集應相應地插入標籤的不同位置。 每次您與新客戶或合作夥伴合作時，請要求他們提供檔案，說明如何在其廣告標籤中插入DSP流量的巨集。
+您可以在任意位置手动插入宏，例如在VAST标记中、在任何URL中，或者在DSP或第三方事件像素中。 但是，每个DSP客户端和合作伙伴具有不同的广告标记格式，因此应将宏相应地插入标记中的不同位置。 每次与新客户或合作伙伴合作时，请向他们索取相关文档，了解如何在其广告标记中插入DSP流量的宏。
 
-## 一般追蹤巨集
+## 常规跟踪宏
 
-視需要，使用所有廣告和標籤型別的一般追蹤巨集傳回特定資料。
+根据需要，对所有广告和标记类型使用常规跟踪宏以传递特定数据。
 
-| 巨集 | 替代說明 | 型別 |
+| 宏 | 替代描述 | 类型 |
 | ----- | ----------------------- | ---- |
-| `${TM_ACCOUNT_ID}` | 帳戶ID。 | 整數 |
-| `${TM_AD_ID}` | 廣告金鑰(adKey)。 | 字串 |
-| `${TM_AD_ID_NUM}` | 廣告ID。 | 整數 |
-| `${TM_ADVERTISER_ID}` | 廣告商ID。 | 整數 |
-| `${TM_CAMPAIGN_ID}` | 行銷活動金鑰。 | 字串 |
-| `${TM_CAMPAIGN_ID_NUM}` | 行銷活動ID。 | 整數 |
-| ` ${TM_CLICK_URL}` | 重新導向URL，可讓廣告伺服器追蹤及計算廣告點按次數。 當播放廣告時，如果使用者按一下該廣告，就會啟動巨集，而且會記錄該點按次數並計算其數量，以用於製作報表。 | 字串 |
-| ` ${TM_CLICK_URL_URLENC}` | 編碼的重新導向URL，可讓廣告伺服器追蹤和計算廣告點按次數。 當播放廣告時，如果使用者按一下該廣告，就會啟動巨集，而且會記錄該點按次數並計算其數量，以用於製作報表。 除非您建立協力廠商廣告，且您的供應商需要URL編碼，否則請勿使用此巨集。 | 字串 |
-| `${TM_FEED_ID}` | 媒體刊登的索引鍵(feedKey)。 | 字串 |
-| `${TM_FEED_ID_NUM}` | 媒體刊登的ID。 | 整數 |
-| ` ${TM_MACRO_PLACEMENT_SITE_KEY` | 位置的網站索引鍵。 下列專案需要： [!DNL AppsFlyer] 行動應用程式安裝廣告的點選追蹤器。<!-- should map to placement_site_key column of placement_site table --> | 字串 |
-| `${TM_PLACEMENT_ID}` | 位置索引鍵(cpKey)。 | 字串 |
-| `${TM_PLACEMENT_ID_NUM}` | 位置ID。 | 整數 |
-| `${TM_RANDOM}` | Cachebuster：介於1到1000000之間的隨機數。 | long |
-| `${TM_SESSION_ID}` | 工作階段的ID，對應於廣告標籤的單一擷取。 | 字串 |
-| `${TM_SITE_DOMAIN_URLENC}` | 從競標要求中的URL剖析的頁面子網域；以URL編碼。 不支援橫幅內即點即播廣告。 | 字串 |
-| ` ${TM_SITE_NAME}` | 位置的網站名稱。 | 字串 |
-| `${TM_SITE_URL_URLENC}` | 在競標要求中傳遞的URL；以URL編碼。 不支援橫幅內即點即播廣告。 | 字串 |
-| `${TM_SITE_ID_NUM}` | 位置的網站ID。 | 整數 |
-| `${TM_TIMESTAMP}` | Unix時間戳記表示自1970年1月1日午夜(00:00 UTC)以來經過的秒數。 | long |
-| ` ${TM_VIDEO_DURATION}` | 廣告視訊的持續時間（以秒為單位）。 | 整數 |
+| `${TM_ACCOUNT_ID}` | 帐户ID。 | 整数 |
+| `${TM_AD_ID}` | 广告键(adKey)。 | 字符串 |
+| `${TM_AD_ID_NUM}` | 广告ID。 | 整数 |
+| `${TM_ADVERTISER_ID}` | 广告商ID。 | 整数 |
+| `${TM_CAMPAIGN_ID}` | 营销活动密钥。 | 字符串 |
+| `${TM_CAMPAIGN_ID_NUM}` | 营销活动ID。 | 整数 |
+| ` ${TM_CLICK_URL}` | 重定向URL，允许广告服务器跟踪和计数广告点击量。 当投放广告时，如果用户单击该广告，则会激活宏，并且会记录单击次数并计入报表中。 | 字符串 |
+| ` ${TM_CLICK_URL_URLENC}` | 经过编码的重定向URL，允许广告服务器跟踪和计数广告点击量。 当投放广告时，如果用户单击该广告，则会激活宏，并且会记录单击次数并计入报表中。 除非您正在创建第三方广告，并且您的供应商需要URL编码，否则请勿使用此宏。 | 字符串 |
+| `${TM_FEED_ID}` | 媒体投放的键(feedKey)。 | 字符串 |
+| `${TM_FEED_ID_NUM}` | 媒体投放的ID。 | 整数 |
+| ` ${TM_MACRO_PLACEMENT_SITE_KEY` | 投放位置的站点键。 需要 [!DNL AppsFlyer] 单击跟踪器以查看移动设备应用程序安装广告。<!-- should map to placement_site_key column of placement_site table --> | 字符串 |
+| `${TM_PLACEMENT_ID}` | 放置键(cpKey)。 | 字符串 |
+| `${TM_PLACEMENT_ID_NUM}` | 版面ID。 | 整数 |
+| `${TM_RANDOM}` | Cachebuster：介于1和1000000之间的随机数。 | 长 |
+| `${TM_SESSION_ID}` | 会话的ID，对应于对广告标记的单次检索。 | 字符串 |
+| `${TM_SITE_DOMAIN_URLENC}` | 从竞价请求中的URL解析的页面子域；URL编码。 不支持在横幅中点击播放的广告。 | 字符串 |
+| ` ${TM_SITE_NAME}` | 投放位置的站点名称。 | 字符串 |
+| `${TM_SITE_URL_URLENC}` | 在竞价请求中传递的URL；URL编码。 不支持在横幅中点击播放的广告。 | 字符串 |
+| `${TM_SITE_ID_NUM}` | 投放的网站ID。 | 整数 |
+| `${TM_TIMESTAMP}` | Unix时间戳表示自1970年1月1日午夜(00:00 UTC)以来经过的秒数。 | 长 |
+| ` ${TM_VIDEO_DURATION}` | 广告视频的持续时间（以秒为单位）。 | 整数 |
 
 {style="table-layout:auto"}
 
@@ -52,55 +52,58 @@ ht-degree: 0%
 |` ${TM_MACRO_PROMOTED_AD_KEY}` | The promoted ad key for the placement. Required for [!DNL AppsFlyer] click trackers for mobile app install ads. | string |
  -->
 
-## 行動專用巨集
+## 特定于移动设备的宏
 
-| 巨集 | 替代說明 | 型別 |
+| 宏 | 替代描述 | 类型 |
 | ----- | ----------------------- | ---- |
-| `${CS_PLATFORM_ID}` | ([!DNL ComScore])平台ID，對應至裝置的作業系統：<ul><li>`ios` = [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>`other` 當平台不是上述任何專案時</li></ul> | varchar(50) |
-| `${CS_DEVICE_MODEL}` | ([!DNL ComScore])裝置型號名稱（以URL編碼）。 | 字串 |
-| `${CS_IMPLEMENTATION_TYPE}` | ([!DNL ComScore])提供廣告的環境：<ul><li>`a` =行動應用程式</li><li>`b` =行動網站</li></ul> | 字串(`a` 或 `b`) |
-| `${NS_PLATFORM_ID}` | ([!DNL Nielsen])平台ID，對應至裝置的作業系統：<ul><li>`ios`= [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>`other` 當平台不是上述任何專案時</li></ul> | 字串 |
-| `${NS_DEVICE_GROUPING}` | ([!DNL Nielsen])廣告為檢視器的裝置型別：<ul><li>`TAB` =平板電腦</li><li>`PHN` =行動</li><li>`computer` =電腦</li></ul> | 字串 |
-| `${UOO}` | ([!DNL Nielsen])使用者是否已選擇退出廣告追蹤：<ul><li>`1` （DNT標幟= 1） =使用者已選擇退出廣告追蹤</li><li>`0` （DNT標幟= 0） =使用者已選擇加入廣告追蹤</li></ul> | 整數(`0` 或 `1`) |
-| `${TM_BUNDLE}` | 此 [!DNL iOS] 或 [!DNL Android] 應用程式商店套件組合ID。 範例： com.zynga.wwf2.free或id804379658 | 字串 |
-| `gdpr=${GDPR_ENFORCED}&gdpr_consent=${GDPR_CONSENT}` | `gdpr=${GDPR_ENFORCED}` 指出出價者是否確定出價要求來自歐盟，且要求GDPR強制執行：<ul><li>`1` =應強制執行GDPR</li><li>`0` =不應強制執行GDPR</li></ul>`gdpr_consent=${GDPR_CONSENT}` 是傳入競標要求中從供應合作夥伴傳遞的同意值：<ul><li>在大多數情況下，這是base64url編碼的同意字串，或是daisybit （範例：BN5lERiOMYEdiAKAWXEND1HoSBE6CAFAApAMgBkIDIgM0AgOJxAnQA）</li><li>`0` =不同意</li><li>`1` =同意</li></ul> | Daisybit或整數 |
+| `${CS_PLATFORM_ID}` | ([!DNL ComScore])平台ID，对应于设备的操作系统：<ul><li>`ios` = [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>`other` 当平台不是上述任何项目时</li></ul> | varchar(50) |
+| `${CS_DEVICE_MODEL}` | ([!DNL ComScore])设备型号名称，以URL编码。 | 字符串 |
+| `${CS_IMPLEMENTATION_TYPE}` | ([!DNL ComScore])投放广告的环境：<ul><li>`a` =移动应用程序</li><li>`b` =移动网站</li></ul> | 字符串(`a` 或 `b`) |
+| `${NS_PLATFORM_ID}` | ([!DNL Nielsen])平台ID，对应于设备的操作系统：<ul><li>`ios`= [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>`other` 当平台不是上述任何项目时</li></ul> | 字符串 |
+| `${NS_DEVICE_GROUPING}` | ([!DNL Nielsen])广告作为查看器的设备类型：<ul><li>`TAB` =平板电脑</li><li>`PHN` =移动设备</li><li>`computer` =计算机</li></ul> | 字符串 |
+| `${UOO}` | ([!DNL Nielsen])用户是否已选择退出广告跟踪：<ul><li>`1` （DNT标志= 1） =用户已选择退出广告跟踪</li><li>`0` （DNT标志= 0） =用户已选择加入广告跟踪</li></ul> | 整数(`0` 或 `1`) |
+| `${TM_BUNDLE}` | 此 [!DNL iOS] 或 [!DNL Android] 应用商店捆绑包ID。 示例： com.zynga.wwf2.free或id804379658 | 字符串 |
+| `gdpr=${GDPR_ENFORCED}&gdpr_consent=${GDPR_CONSENT}` | `gdpr=${GDPR_ENFORCED}` 指示投标人是否确定投标请求来自欧盟来源并要求GDPR强制执行：<ul><li>`1` =应强制执行GDPR</li><li>`0` =不应强制GDPR</li></ul>`gdpr_consent=${GDPR_CONSENT}` 是入站竞价请求中从供应合作伙伴传递的同意值：<ul><li>在大多数情况下，这是base64url编码的同意字符串，或daisybit（示例：BN5lERiOMYEdiAKAWXEND1HoSBE6CAFApAMgBkIDIgM0AgOJxAnQA）</li><li>`0` =不同意</li><li>`1` =同意</li></ul> | Daisybit或整数 |
 
 {style="table-layout:auto"}
 
-## 按一下第三方顯示廣告的巨集
+## 单击第三方显示广告的宏
 
-若要使用協力廠商顯示標籤精確追蹤廣告點按次數，DSP需要顯示點按巨集。 只需要一個巨集版本；相關的巨集取決於標籤的型別。
+要使用第三方显示标记准确跟踪广告的点击量，DSP需要显示点击宏。 只需要宏的一个版本；相关的宏取决于标记类型。
 
-| 巨集 | 替代說明 | 型別 |
+| 宏 | 替代描述 | 类型 |
 | ----- | ----------------------- | ---- |
-| `${TM_CLICK_URL}` | 可讓廣告伺服器追蹤及計算平台中廣告點按次數的重新導向URL。 | 字串 |
-| `${TM_CLICK_URL_URLENC}` | 可讓需要URL編碼的廣告伺服器追蹤及計算平台中廣告點按次數的重新導向URL。 | 字串 |
+| `${TM_CLICK_URL}` | 使广告服务器能够跟踪和计数平台中的广告点击的重定向URL。 | 字符串 |
+| `${TM_CLICK_URL_URLENC}` | 重定向URL，允许需要URL编码的广告服务器跟踪和计数平台中的广告点击量。 | 字符串 |
 
 {style="table-layout:auto"}
 
-DSP會在下列情況下，自動在協力廠商顯示標籤中插入顯示點選巨集：
+在以下情况下，DSP会在第三方显示标签中自动插入显示单击宏：
 
-* 從廣告伺服器合作夥伴匯出廣告標籤 <!-- [Needs PM confirmation.] -->
-* 大量上傳 [!DNL Flashtalking] 或 [!DNL Google DoubleClick for Advertisers] 直接在DSP中廣告標籤
+* 从广告服务器合作伙伴导出广告标记 <!-- [Needs PM confirmation.] -->
+* 批量上传 [!DNL Flashtalking] 或 [!DNL Google DoubleClick for Advertisers] 直接在DSP中广告标记
 
-如果您在製作顯示廣告時遺失點按巨集，DSP會顯示警告訊息，提示您手動在標籤的正確區域中插入適當的顯示點按巨集。
+如果在构建显示广告时缺少单击宏，DSP将显示一条警告消息，提示您手动在标签的正确区域插入相应的显示单击宏。
 
-## 疑難排解巨集錯誤
+## [!DNL Analytics for Advertising] 宏
 
-將巨集新增至程式碼時，請確定您使用正確的巨集語法。 驗證巨集時，DSP會檢查巨集是否完全符合其中一個有效的巨集。
+用于专门用于 [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) 客户，请参见&quot;[附加 [!DNL Analytics for Advertising] 宏到 [!DNL Flashtalking] 广告标记](/help/integrations/analytics/macros-flashtalking.md)”和“[附加 [!DNL Analytics for Advertising] 宏到 [!DNL Google Campaign Manager 360] 广告标记](/help/integrations/analytics/macros-google-campaign-manager.md)“
 
-如果巨集名稱的開頭或結尾缺少字元，則會產生錯誤。 例如，在下列情況下，您會看到一則錯誤訊息：
+## 宏错误疑难解答
 
-* 您會忘記巨集名稱開頭的一或多個字元，例如 `${`. 如果您未包含完整語法，專案將無法辨識為有效的巨集。
-* 巨集的結尾不是有效的字元集，例如 `}`.
+将宏添加到代码时，请确保使用宏的确切语法。 验证宏时，DSP会检查宏是否与有效宏之一完全匹配。
+
+如果宏名称的开头或结尾缺少字符，则会生成错误。 例如，如果出现以下情况，您将看到一条错误消息：
+
+* 您忘记了宏名称开头的一个或多个字符，例如 `${`. 如果不包括完整语法，则无法将条目识别为有效的宏。
+* 宏未以有效字符集结尾，例如 `}`.
 
 >[!MORELIKETHIS]
 >
->* [音訊廣告設定](/help/dsp/campaign-management/ads/ad-settings-audio.md)
->* [連線電視廣告設定](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
->* [顯示廣告設定](/help/dsp/campaign-management/ads/ad-settings-display.md)
->* [行動廣告設定](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
->* [原生廣告設定](/help/dsp/campaign-management/ads/ad-settings-native.md)
->* [前段廣告設定](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
->* [通用視訊廣告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
-
+>* [音频广告设置](/help/dsp/campaign-management/ads/ad-settings-audio.md)
+>* [已连接电视广告设置](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+>* [显示广告设置](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [移动广告设置](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+>* [原生广告设置](/help/dsp/campaign-management/ads/ad-settings-native.md)
+>* [前置广告设置](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+>* [通用视频广告设置](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)

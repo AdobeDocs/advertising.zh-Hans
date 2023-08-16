@@ -3,7 +3,7 @@ title: 附加 [!DNL Analytics for Advertising] 宏到 [!DNL Google Campaign Mana
 description: 了解添加原因和方式 [!DNL Analytics for Advertising] 将宏添加到 [!DNL Google Campaign Manager 360] 广告标记
 feature: Integration with Adobe Analytics
 exl-id: 89cd4e1d-277a-4a43-9c38-ae6641302e09
-source-git-commit: 703cda43e96dfa9d80bbce2d64192fc461d5dbae
+source-git-commit: aa41ba08ba83bfacbc2541c0f0d90336b3c36305
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -43,7 +43,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 >[!NOTE]
 >
 >>* 如果登陆页面URL包含哈希符号(#)（这种情况不常见），请放置 `amo` 散列符号之前的参数。
->* 如果之后未包含其他参数，则 `amo` 参数，然后在其后面添加一个参数（例如，&amp;a=b）。 示例：`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
+>* 如果之后未包含其他参数，则 `amo` 参数，然后在其后面添加一个参数（例如，&amp;a=b）。 示例： `https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### 配置广告商级别的登陆页面URL后缀
 
