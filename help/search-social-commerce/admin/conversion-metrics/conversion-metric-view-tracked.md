@@ -3,16 +3,16 @@ title: 查看为广告商跟踪的转化量度
 description: 了解如何查看为广告商跟踪的转化量度列表。
 feature: Conversions
 exl-id: 56f5b480-9e75-47a0-8f88-8fa8fcfe23f9
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+source-git-commit: f69075bfd49964d005271e882d27b4410b180915
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
 # 查看为广告商跟踪的转化量度
 
-您可以查看所有 [转化](/help/search-social-commerce/glossary.md#c-d) Adobe Advertising为广告商跟踪的指标。
+您可以查看所有 [转化](/help/search-social-commerce/glossary.md#c-d) Adobe Advertising为广告商跟踪的指标。 每个量度行都包含量度的源。
 
 * 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
 
