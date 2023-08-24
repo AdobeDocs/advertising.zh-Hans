@@ -1,32 +1,31 @@
 ---
-title: 關於使用試算表更正行銷活動的版位設定
-description: 瞭解如何使用Excel QA試算表檢閱和編輯行銷活動的關鍵位置設定。
+title: 关于使用电子表格更正放置设置
+description: 了解如何使用电子表格查看和编辑关键位置设置。
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 99f580547f4f0463418dfca52481e58927339169
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
 
-# 關於使用試算表更正行銷活動的版位設定
+# 关于使用电子表格更正放置设置
 
-QA試算表功能可讓您以XLSX （Excel試算表）格式下載行銷活動的版位設定以供檢閱。 使用此功能可快速檢閱下列詳細資訊：
+您可以以XLSX（Excel电子表格）格式下载一个或多个投放位置或营销活动中所有投放位置的设置，以供审阅。 使用此功能可快速查看以下详细信息：
 
-* 行銷活動鎖定哪些對象。
-* 刊登版位開始傳送的時間及其停止的時間。
-* 哪些廣告已附加至位置。
+* 营销活动定位哪些受众。
+* 投放位置开始投放的时间，以及停止投放的时间。
+* 哪些广告附加到了投放位置。
 
-然後，您可以變更選取欄位，並一次將欄位發佈回DSP。 可編輯的欄位包括版位名稱、狀態、出價、預算、步調策略和頻率上限。
+然后，您可以进行更改以选择字段，并一次将它们发布回DSP。 可编辑的字段包括投放位置名称、状态、竞价、预算、步调策略和频度上限。
 
 >[!TIP]
 >
->若要對位置設定進行更廣泛的變更，請使用大量編輯功能。<!-- add link once we have help on it -->
+>要对版面设置进行更广泛的更改，请使用 [批量编辑功能](/help/dsp/campaign-management/placements/placement-edit.md).
 
 >[!MORELIKETHIS]
 >
->* [下載行銷活動的版位設定](qa-sheet-download.md)
->* [上傳行銷活動的版位設定](qa-sheet-upload.md)
->* [已下載/已上傳試算表中的欄](qa-sheet-columns.md)
-
+>* [下载电子表格中的版面设置](qa-sheet-download.md)
+>* [在电子表格中上传版面设置](qa-sheet-upload.md)
+>* [已下载/已上传电子表格中的列](qa-sheet-columns.md)
