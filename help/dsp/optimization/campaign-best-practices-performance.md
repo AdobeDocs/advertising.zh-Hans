@@ -3,18 +3,16 @@ title: 设置效果活动的最佳实践
 description: 了解设置以性能为中心的活动的最佳实践，其中包括针对最低CPA或最高ROAS而优化的投放位置。
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: eda0459472c1e4a8297daf69454de0fcb3d4f8ca
+source-git-commit: ce35295fcb003b1cc0a171d171317601eadf6288
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1238'
 ht-degree: 0%
 
 ---
 
 # 设置效果活动的最佳实践
 
-DSP可以针对具有最低每次购买成本(CPA)或最高广告支出回报率(ROAS)的投放位置优化以性能为中心的促销活动。
-
-请参阅以下效果促销活动的最佳实践：
+DSP可以优化以性能为中心的促销活动。 请参阅以下效果促销活动的最佳实践：
 
 * 步骤1 — 定义目标
 * 第2步 — 定义您的策略
@@ -24,7 +22,7 @@ DSP可以针对具有最低每次购买成本(CPA)或最高广告支出回报率
 
 ## 步骤1 — 定义目标
 
-了解活动的目标很重要，例如实现尽可能最高的ROAS或尽可能最低的CPA。 性能营销活动具有 [优化目标](/help/dsp/optimization/optimization-goals.md) 结尾是&quot;[!UICONTROL - Custom Goal]“(如”[!UICONTROL Highest ROAS - Custom Goal]“)。 对于营销活动中的每个资源包，您将相应地指定目标目标。
+了解活动的目标很重要，例如实现尽可能最高的ROAS或尽可能最低的CPA。 性能营销活动具有 [优化目标](/help/dsp/optimization/optimization-goals.md) 结尾是&quot;[!UICONTROL - Custom Goal]“(如”[!UICONTROL Highest ROAS - Custom Goal]“)。 对于营销活动中的每个资源包，您将相应地指定优化目标。
 
 ![优化目标](/help/dsp/assets/optimization-goals.png)
 
