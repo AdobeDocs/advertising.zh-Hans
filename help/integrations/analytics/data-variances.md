@@ -3,9 +3,9 @@ title: 之间的预期数据差异 [!DNL Analytics] 和Adobe Advertising
 description: 之间的预期数据差异 [!DNL Analytics] 和Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: e564ea441e5ea0d25ee7f99962e72192750c5c40
 workflow-type: tm+mt
-source-wordcount: '3268'
+source-wordcount: '3265'
 ht-degree: 0%
 
 ---
@@ -154,10 +154,10 @@ Adobe Advertising报表仅捕获通过Adobe Advertising贩运的付费媒体（�
 
 对于集成，您应该验证点进数据，以确保网站上的所有页面都正确跟踪点进。
 
-在 [!DNL Analytics]，验证最简单的方法之一 [!DNL Analytics for Advertising] 跟踪是指使用“AMO ID实例点击次数”计算量度将实例点击次数进行比较，该计算量度的计算如下所示：
+在 [!DNL Analytics]，验证最简单的方法之一 [!DNL Analytics for Advertising] 跟踪是指使用“点击次数”将点击次数与实例数进行比较 [!UICONTROL AMO ID Instances]&quot;计算指标，其计算方式如下：
 
 ```
-Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)
+Clicks to [!UICONTROL AMO ID Instances] = ([!UICONTROL AMO ID Instances] / Adobe Advertising Clicks)
 ```
 
 [!UICONTROL AMO ID Instances] 表示达到此值的次数： [AMO ID](ids.md) 会在网站上跟踪。 每次点击广告时，一个AMO ID (`s_kwcid`)参数会被添加到登陆页面URL。 的数量 [!UICONTROL AMO ID Instances]因此，类似于点击次数，可根据实际广告点击进行验证。 我们通常看到80%的匹配率 [!DNL Search, Social, & Commerce] 30%的匹配率 [!DNL DSP] 流量（在筛选为仅包含点进时） [!UICONTROL AMO ID Instances])。 搜索和显示之间的预期差异可以用预期流量行为来解释。 搜索会捕捉意图，因此，用户通常打算单击其查询中的搜索结果。 但是，查看显示或在线视频广告的用户更有可能无意中单击该广告，然后要么从网站弹回，要么放弃在跟踪页面活动之前加载的新窗口。
@@ -236,19 +236,19 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 Adobe Advertising为Analytics提供了 [广告特定的流量量度和以下来源的相关维度： [!DNL DSP] 和 [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md). Adobe Advertising提供的指标仅适用于指定的Adobe Advertising维度，并且对于中的其他维度没有数据可用 [!DNL Analytics].
 
-例如，如果您查看 [!UICONTROL AMO Clicks] 和 [!UICONTROL AMO Cost] 按帐户划分的指标，这是一个Adobe Advertising维度，您将会看到总计 [!UICONTROL AMO Clicks] 和 [!UICONTROL AMO Cost] 按帐户。
+例如，如果您查看 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 按帐户划分的指标，这是一个Adobe Advertising维度，您将会看到总计 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 按帐户。
 
 ![使用Adobe Advertising维度的报表中的Adobe Advertising指标示例](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 
-但是，如果您查看 [!UICONTROL AMO Clicks] 和 [!UICONTROL AMO Cost] 量度（例如“页面”），如果Adobe Advertising不为其提供数据，则 [!UICONTROL AMO Clicks] 和 [!UICONTROL AMO Cost] 对于每一页，将为0。
+但是，如果您查看 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 量度（例如“页面”），如果Adobe Advertising不为其提供数据，则 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 对于每一页，将为0。
 
 ![使用不受支持的维度的报表中的Adobe Advertising指标示例](/help/integrations/assets/a4adc-traffic-unsupported-dimension.png)
 
 ### 使用 [!UICONTROL AMO ID Instances] 代替非Adobe AdvertisingDimension的点击
 
-因为你不能 [!UICONTROL AMO Clicks] 对于站点维度，您可能希望找到等同于点击的维度。 您可能倾向于使用访问次数作为替代，但这并不是最佳选择，因为每个访客可能具有多次访问。 (请参阅&quot;[点击量和访问量之间的区别](#clicks-vs-visits)“ 为此，我们建议使用 [!UICONTROL AMO ID Instances]，即捕获AMO ID的次数。 同时 [!UICONTROL AMO ID Instances] 不匹配 [!UICONTROL AMO Clicks] 准确地说，它们是测量网站点击流量的最佳选项。 有关更多信息，请参阅&quot;[数据验证 [!DNL Analytics for Advertising]](#data-validation)“
+因为你不能 [!UICONTROL Adobe Advertising Clicks] 对于站点维度，您可能希望找到等同于点击的维度。 您可能倾向于使用访问次数作为替代，但这并不是最佳选择，因为每个访客可能具有多次访问。 (请参阅&quot;[点击量和访问量之间的区别](#clicks-vs-visits)“ 为此，我们建议使用 [!UICONTROL AMO ID Instances]，即捕获AMO ID的次数。 同时 [!UICONTROL AMO ID Instances] 不匹配 [!UICONTROL Adobe Advertising Clicks] 准确地说，它们是测量网站点击流量的最佳选项。 有关更多信息，请参阅&quot;[数据验证 [!DNL Analytics for Advertising]](#data-validation)“
 
-![示例 [!UICONTROL AMO ID Instances] 而不是 [!UICONTROL AMO Clicks] 对于不支持的维度](/help/integrations/assets/a4adc-amo-id-instances.png)
+![示例 [!UICONTROL AMO ID Instances] 而不是 [!UICONTROL Adobe Advertising Clicks] 对于不支持的维度](/help/integrations/assets/a4adc-amo-id-instances.png)
 
 >[!MORELIKETHIS]
 >

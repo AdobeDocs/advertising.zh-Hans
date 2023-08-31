@@ -3,7 +3,7 @@ title: 使用的Adobe AdvertisingID [!DNL Analytics]
 description: 使用的Adobe AdvertisingID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 7433c2b0e0f61c2c72b27fb026202a76875c6b7e
+source-git-commit: e564ea441e5ea0d25ee7f99962e72192750c5c40
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 0%
@@ -262,13 +262,13 @@ where:
 
 ### 中的AMO IDDimension [!DNL Analytics]
 
-在Analytics报表中，您可以通过搜索 [!UICONTROL AMO ID] 维并使用 [!UICONTROL AMO ID Instance] 量度。 此 [!UICONTROL AMO ID] 维度包含捕获的所有AMO ID值，而 [!UICONTROL AMO ID Instance] 量度表示网站捕获AMO ID值的频率。 例如，如果同一搜索广告被点击四次，但Analytics跟踪了七个网站条目，则 [!UICONTROL AMO ID Instance] 将会是七(7)和 [!UICONTROL Clicks] 就是四(4)
+在Analytics报表中，您可以通过搜索 [!UICONTROL AMO ID] 维并使用 [!UICONTROL AMO ID Instances] 量度。 此 [!UICONTROL AMO ID] 维度包含捕获的所有AMO ID值，而 [!UICONTROL AMO ID Instances] 量度表示网站捕获AMO ID值的频率。 例如，如果同一搜索广告被点击四次，但Analytics跟踪了七个网站条目，则 [!UICONTROL AMO ID Instances] 将会是七(7)和 [!UICONTROL Clicks] 就是四(4)
 
 对于中的任何报告或审核，在 [!DNL Analytics]，最佳做法是将AMO ID与其相应的实例结合使用。 有关更多信息，请参阅&quot;[数据验证 [!DNL Analytics for Advertising]](data-variances.md#data-validation)&quot;预期数据差异： [!DNL Analytics] 和Adobe Advertising。”
 
 ## 关于Analytics分类
 
-在 [!DNL Analytics]， a [分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) 是给定跟踪代码（如帐户、促销活动或广告）的元数据。 Adobe Advertising使用分类对原始Adobe Advertising数据进行分类，以便在生成报表时能够以不同的方式（例如按广告类型或促销活动）显示数据。 分类构成了Adobe Advertising报表的基础 [!DNL Analytics] 并且可以与AMO量度一起使用，例如 [!UICONTROL AMO Cost]， [!UICONTROL AMO Impressions]、和 [!UICONTROL AMO Clicks]，以及自定义和标准的现场事件，例如 [!UICONTROL Visits]， [!UICONTROL Leads]， [!UICONTROL Orders]、和 [!UICONTROL Revenue].
+在 [!DNL Analytics]， a [分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) 是给定跟踪代码（如帐户、促销活动或广告）的元数据。 Adobe Advertising使用分类对原始Adobe Advertising数据进行分类，以便在生成报表时能够以不同的方式（例如按广告类型或促销活动）显示数据。 分类构成了Adobe Advertising报表的基础 [!DNL Analytics] 并且可以与AMO量度一起使用，例如 [!UICONTROL Adobe Advertising Cost]， [!UICONTROL Adobe Advertising Impressions]、和 [!UICONTROL AMO Clicks]，以及自定义和标准的现场事件，例如 [!UICONTROL Visits]， [!UICONTROL Leads]， [!UICONTROL Orders]、和 [!UICONTROL Revenue].
 
 >[!MORELIKETHIS]
 >
