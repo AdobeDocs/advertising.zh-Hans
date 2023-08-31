@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 28fec5b3c22ebb2475a830951de9b058cf1427c2
+source-git-commit: 2c677fda7e0a528fc966f778745f1011bc2939c7
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1665'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2023年8月23日 | [!UICONTROL Placements] | 现在，您可以通过下载促销活动或一个或多个版面的电子表格文件，编辑文件以在新版面中包含值，来快速将多个广告与版面关联”[!UICONTROL Attached Ad ID]”列，然后上传编辑的文件。 使用列将广告添加到投放位置，但不会删除它们。<br><br>要下载广告名称和关联的列表，请执行以下操作 [!UICONTROL Ad ID]s，转到 [!UICONTROL Ads] 视图，创建一个自定义视图，该视图包括 [!UICONTROL ID] 量度，然后导出数据。 | 请参阅&quot;[下载电子表格中的版面设置](/help/dsp/campaign-management/qa/qa-sheet-download.md)，&quot; &quot;[放置设置已下载/已上传电子表格中的列](/help/dsp/campaign-management/qa/qa-sheet-columns.md)，”和“[在电子表格中上传版面设置](/help/dsp/campaign-management/qa/qa-sheet-upload.md)“<br><br>另请参阅&quot;[从Campaign Management视图中导出数据](/help/dsp/campaign-management/reports/campaign-export-data.md)“ |
+| 2023年8月23日 | [!UICONTROL Placements] | 新的投放位置预测工具显示了特定定位策略的预测展示次数、花费和最佳最高竞价数。 预测是根据投放位置提供的总体库存和可用的独特用户数来计算的。 | 请参阅&quot;[查看职位安排预测报表](/help/dsp/campaign-management/reports/placement-forecast.md)“ |
+|  |  | 现在，您可以通过下载促销活动或一个或多个版面的电子表格文件，编辑文件以在新版面中包含值，来快速将多个广告与版面关联”[!UICONTROL Attached Ad ID]”列，然后上传编辑的文件。 使用列将广告添加到投放位置，但不会删除它们。<br><br>要下载广告名称和关联的列表，请执行以下操作 [!UICONTROL Ad ID]s，转到 [!UICONTROL Ads] 视图，创建一个自定义视图，该视图包括 [!UICONTROL ID] 量度，然后导出数据。 | 请参阅&quot;[下载电子表格中的版面设置](/help/dsp/campaign-management/qa/qa-sheet-download.md)，&quot; &quot;[放置设置已下载/已上传电子表格中的列](/help/dsp/campaign-management/qa/qa-sheet-columns.md)，”和“[在电子表格中上传版面设置](/help/dsp/campaign-management/qa/qa-sheet-upload.md)“<br><br>另请参阅&quot;[从Campaign Management视图中导出数据](/help/dsp/campaign-management/reports/campaign-export-data.md)“ |
 |  | [!UICONTROL Custom Reports] | 自定义报表现在具有 [!UICONTROL End Date]，最长可达四个月后。 现有报告的到期日期为2023年9月24日。<br><br>在报告过期之前，所有指定的电子邮件收件人都会在过期日期的前七天零一天收到电子邮件警报。 要延长报表保留时间，请在报表设置中更改到期日期。 | 请参阅&quot;[编辑自定义报告](/help/dsp/reports/report-edit.md)”和“[自定义报表设置](/help/dsp/reports/report-settings.md)“ |
 | 2023年7月19日 | 库存 | 您现在可以与Google授权购买者SSP一起为计划性保证交易运行发布者管理的广告。 通过直接将您的广告托管给发布者(而不是在DSP中)，您可以利用自定义富媒体广告格式。 自定义广告格式通常通过直接预订运行，因此，通过在DSP中选择出版商管理的广告，您还可以将直接预订预算转移到程序化生态系统。 | 请参阅&quot;[关于程序化保证交易](/help/dsp/inventory/programmatic-guaranteed-about.md)”和“[设置计划性保证交易](/help/dsp/inventory/programmatic-guaranteed-set-up.md)“ |
 | 2023年7月19日 | 报表 | 新 [!UICONTROL Household Conversions Report] 显示基于IP地址的家庭级别而非设备/Cookie级别的显示到达转换。 | 请参阅&quot;[关于报表](/help/dsp/reports/report-about.md)”和“[有关家庭报表的常见问题解答](/help/dsp/reports/faq-household-report.md)“ |
