@@ -1,86 +1,82 @@
 ---
-title: 在Analysis Workspace中Adobe廣告量度
-description: 在Analysis Workspace中Adobe廣告量度
+title: Analysis Workspace中的Adobe Advertising指标
+description: Analysis Workspace中的Adobe Advertising指标
 feature: Integration with Adobe Analytics
 exl-id: da5e5704-4504-4fc5-93d2-db7d28f0c349
-source-git-commit: 5dd3772de945660e76321dac935de5ebcab5979a
+source-git-commit: da69280679a4e0c5ce04f55ee94ce984745395ff
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
 
-# 在Analysis Workspace中Adobe廣告量度
+# Analysis Workspace中的Adobe Advertising指标
 
-*僅具有AdobeAdvertising-Adobe Analytics整合的廣告商*
-
->[!NOTE]
->
->* Adobe Advertising傳遞流量量度和維度至 [!DNL Analytics] 每日。
->* [!DNL Analytics] 即時擷取Adobe廣告點進和檢視點進。
-   > 對象 [!DNL Search, Social, & Commerce]，大部分的廣告網路和行銷活動型別都支援此功能。 請參閱「 」中的「支援的詳細目錄」 [!DNL Search, Social, & Commerce] 指南，以取得詳細資訊。<!-- add link when that's published in ExL -->
-
-
-## Adobe廣告的流量量度
+*仅具有Adobe Advertising-Adobe Analytics集成的广告商*
 
 >[!NOTE]
 >
->中的所有Adobe廣告流量量度 [!DNL Analytics] 從「AMO」開始。
+>* Adobe Advertising将流量指标和维度传递到 [!DNL Analytics] 每天。
+>* [!DNL Analytics] 实时捕获Adobe Advertising点进和显示点进。
+>* 对象 [!DNL Search, Social, & Commerce]中，大多数广告网络和营销活动类型支持此功能。 请参阅&quot;[支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)中的&quot; [!DNL Search, Social, & Commerce] 指南，以了解更多信息。
+
+## 来自Adobe Advertising的流量量度
+
+Adobe Advertising流量量度 [!DNL Analytics] 通常以“Adobe Advertising”开头，但“[!UICONTROL AMO ID Instances]“ 但是，对于最初使用自定义事件（而不是保留事件）创建点击次数、成本和展示次数的量度的长期客户，这些量度仍以“AMO”开头。
 
 | 流量量度 | 描述 |
 | -------------- | ----------- |
-| [!UICONTROL AMO Impressions] | Adobe廣告曝光次數。 |
-| [!UICONTROL AMO Clicks] | Adobe廣告點按總數。 |
-| [!UICONTROL AMO Cost] | Adobe廣告支出（以報表套裝的貨幣表示）。 |
-| [!UICONTROL AMO ID Instance] | Adobe廣告ID的設定次數。 |
-| [!UICONTROL AMO Minutes Viewed] | Adobe廣告影片被檢視的分鐘數。 |
-| [!UICONTROL AMO Views] | 廣告檢視次數。 當檢視者啟動Adobe廣告視訊時，即會計入檢視。 |
-| [!UICONTROL AMO Views 25% Complete] | 觀看了至少25%之Adobe廣告影片的人數。 |
-| [!UICONTROL AMO Views 50% Complete] | 觀看了至少50%之Adobe廣告影片的人數。 |
-| [!UICONTROL AMO Views 75% Complete] | 觀看至少75%的Adobe廣告影片觀看次數。 |
-| [!UICONTROL AMO Views 100% Complete] | 觀看100%Adobe廣告影片的觀看次數。 |
-| [!UICONTROL AMO Viewable Impressions] | 根據版位組態測量為可檢視的曝光次數。 |
-| [!UICONTROL AMO Not Viewable Impressions] | 判斷為無法檢視的曝光次數。 此值的計算方式為([!UICONTROL AMO Measurable Impressions] - [!UICONTROL AMO Viewable])。 |
-| [!UICONTROL AMO Measurable Impressions] | 提供的可檢視度檢測已成功初始化的曝光次數。 此值的計算方式為（檢測的曝光次數 — 無法測量的曝光次數）。 |
+| [!UICONTROL Adobe Advertising Clicks] 或（一些旧客户） [!UICONTROL AMO Clicks] | Adobe Advertising总点击次数。 |
+| [!UICONTROL Adobe Advertising Cost] 或（一些旧客户） [!UICONTROL AMO Cost] | Adobe Advertising支出（以报表包的货币表示）。 |
+| [!UICONTROL Adobe Advertising Impressions] 或（一些旧客户） [!UICONTROL AMO Impressions] | Adobe Advertising展示次数。 |
+| [!UICONTROL Adobe Advertising Measurable Impressions] | 提供的可见性检测已成功初始化的展示次数。 此值的计算方式为（仪器展示次数 — 无法测量的展示次数）。 |
+| [!UICONTROL Adobe Advertising Minutes Viewed] | Adobe Advertising视频被查看的分钟数。 |
+| [!UICONTROL Adobe Advertising Not Viewable Impressions] | 被确定为不可查看的展示次数。 此值计算为([!UICONTROL Adobe Advertising Measurable Impressions] - [!UICONTROL Adobe Advertising Viewable])。 |
+| [!UICONTROL Adobe Advertising Viewable Impressions] | 根据版面配置测量为可查看的展示次数。 |
+| [!UICONTROL Adobe Advertising Views] | 广告的查看次数。 当查看器启动Adobe Advertising视频时，将计为一个视图。 |
+| [!UICONTROL Adobe Advertising Views 25% Complete] | 观看了至少25%的Adobe Advertising视频的次数。 |
+| [!UICONTROL Adobe Advertising Views 50% Complete] | 观看了至少50%的Adobe Advertising视频的次数。 |
+| [!UICONTROL Adobe Advertising Views 75% Complete] | 观看了至少75%的Adobe Advertising视频的次数。 |
+| [!UICONTROL Adobe Advertising Views 100% Complete] | 100%观看了Adobe Advertising视频的观看次数。 |
+| [!UICONTROL AMO ID Instances] | 的次数 [!UICONTROL AMO ID] 设置。 |
 
-## Adobe廣告Dimension
+## Adobe AdvertisingDimension
 
 >[!NOTE]
 >
->中的所有Adobe廣告維度 [!DNL Analytics] 後面接著「(AMO ID)」。
+>中的所有Adobe Advertising维度 [!DNL Analytics] 后跟&quot;[!DNL (AMO ID)]“
 
-| Dimension | 適用的Adobe廣告資料 | 描述 |
+| 维度 | 适用的Adobe Advertising数据 | 描述 |
 | ----------- | ---------- | ---------- |
-| [!UICONTROL Ad Platform (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 資料 | 廣告DSP或搜尋引擎名稱 |
-| [!UICONTROL Account (AMO ID] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 資料 | 帳戶名稱。 |
-| [!UICONTROL Network (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 資料 | RTB ([!DNL DSP])或廣告網路名稱([!DNL Search, Social, & Commerce]) |
-| [!UICONTROL Campaign (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 資料 | 行銷活動名稱。 |
-| [!UICONTROL Optimization (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 資料 | 套件([!DNL DSP])或投資組合([!DNL Search, Social, & Commerce])名稱。 |
-| [!UICONTROL Placement (AMO ID)] | [!DNL DSP] 資料 | 位置名稱。 |
-| [!UICONTROL Ad Group (AMO ID)] | [!DNL Search, Social, & Commerce] 資料 | 廣告群組名稱。 |
-| [!UICONTROL Keyword (AMO ID)] | [!DNL Search, Social, & Commerce] 資料 | 關鍵字。 |
-| [!UICONTROL Match Type (AMO ID)] | [!DNL Search, Social, & Commerce] 資料 | 搜尋相符型別。 |
-| [!UICONTROL Keyword Match Type (AMO ID)] | [!DNL Search, Social, & Commerce] 資料 | 關鍵字和相符型別。 |
-| [!UICONTROL Ad Type (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 資料 | 廣告型別，例如 `text`， `video`， `display`，或 `native`. |
-| [!UICONTROL Ad Title (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 資料 | 廣告型別([!DNL DSP])或廣告標題([!DNL Search, Social, & Commerce])。 |
-| [!UICONTROL Ad Description (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 資料 | 廣告說明([!DNL DSP])或廣告內文([!DNL Search, Social, & Commerce])。 |
-| [!UICONTROL Ad Display URL (AMO ID)] | [!DNL Search, Social, & Commerce] 資料 | 廣告中顯示的URL。 |
-| [!UICONTROL Ad Destination URL (AMO ID)] | [!DNL Search, Social, & Commerce] 資料 | 廣告的目的地URL。 |
-| [!UICONTROL Landing Type (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 資料 | 登入頁面專案是檢視還是點進。 |
-| [!UICONTROL Product Target (AMO ID)] | [!DNL Search, Social, & Commerce] 資料 | 產品清單廣告的產品目標。 |
+| [!UICONTROL Ad Platform (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 数据 | Advertising DSP或搜索引擎名称 |
+| [!UICONTROL Account (AMO ID] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 数据 | 帐户名称。 |
+| [!UICONTROL Network (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 数据 | RTB ([!DNL DSP])或广告网络名称([!DNL Search, Social, & Commerce]) |
+| [!UICONTROL Campaign (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 数据 | 营销活动名称。 |
+| [!UICONTROL Optimization (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 数据 | 包([!DNL DSP])或项目组合([!DNL Search, Social, & Commerce])名称。 |
+| [!UICONTROL Placement (AMO ID)] | [!DNL DSP] 数据 | 投放位置名称。 |
+| [!UICONTROL Ad Group (AMO ID)] | [!DNL Search, Social, & Commerce] 数据 | 广告组名称。 |
+| [!UICONTROL Keyword (AMO ID)] | [!DNL Search, Social, & Commerce] 数据 | 关键字。 |
+| [!UICONTROL Match Type (AMO ID)] | [!DNL Search, Social, & Commerce] 数据 | 搜索匹配类型。 |
+| [!UICONTROL Keyword Match Type (AMO ID)] | [!DNL Search, Social, & Commerce] 数据 | 关键字和匹配类型。 |
+| [!UICONTROL Ad Type (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 数据 | 广告类型，如 `text`， `video`， `display`，或 `native`. |
+| [!UICONTROL Ad Title (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 数据 | 广告类型([!DNL DSP])或广告标题([!DNL Search, Social, & Commerce])。 |
+| [!UICONTROL Ad Description (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 数据 | 广告描述([!DNL DSP])或广告正文([!DNL Search, Social, & Commerce])。 |
+| [!UICONTROL Ad Display URL (AMO ID)] | [!DNL Search, Social, & Commerce] 数据 | 广告中显示的URL。 |
+| [!UICONTROL Ad Destination URL (AMO ID)] | [!DNL Search, Social, & Commerce] 数据 | 广告的目标URL。 |
+| [!UICONTROL Landing Type (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 数据 | 登陆页面条目是浏览还是点进。 |
+| [!UICONTROL Product Target (AMO ID)] | [!DNL Search, Social, & Commerce] 数据 | 产品列表广告的产品目标。 |
 
-## 適用於Adobe廣告的自訂計算量度
+## 适用于Adobe Advertising的有用自定义计算指标
 
-請考慮為您的Adobe廣告資料建立下列量度。
+考虑为您的Adobe Advertising数据创建以下量度。
 
-* 登陸頁面例項的點按次數([!UICONTROL AMO ID Instances] / [!UICONTROL AMO Clicks])：這是點選廣告並進入登陸頁面的人數%。
-* 可測量的比率([!UICONTROL AMO Viewable Impressions] / [!UICONTROL AMO Impressions] * 100)
-* 可檢視的曝光率([!UICONTROL AMO Viewable Impressions] / [!UICONTROL AMO Measureable Impressions] * 100)
-* 每次檢視成本([!UICONTROL AMO Cost] / [!UICONTROL AMO Views])
-* 每次點按成本([!UICONTROL AMO Cost] / [!UICONTROL AMO Clicks])
+* 登陆页面实例的单击次数([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks])：这是点击了广告并进入登陆页面的用户所占的百分比。
+* 可衡量的比率([!UICONTROL Adobe Advertising Viewable Impressions] / [!UICONTROL Adobe Advertising Impressions] * 100)
+* 可见展示速率([!UICONTROL Adobe Advertising Viewable Impressions] / [!UICONTROL Adobe Advertising Measureable Impressions] * 100)
+* 每次查看成本([!UICONTROL Adobe Advertising Cost] / [!UICONTROL Adobe Advertising Views])
+* 每次点击成本([!UICONTROL Adobe Advertising Cost] / [!UICONTROL Adobe Advertising Clicks])
 
 >[!MORELIKETHIS]
 >
 >* [概述 [!DNL Analytics for Advertising]](overview.md)
->* [[!DNL Analytics] Adobe廣告中的資料](/help/integrations/analytics/analytics-data-in-advertising.md)
-
+>* [[!DNL Analytics] Adobe Advertising中的数据](/help/integrations/analytics/analytics-data-in-advertising.md)
