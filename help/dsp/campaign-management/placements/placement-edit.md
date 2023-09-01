@@ -3,9 +3,9 @@ title: 编辑投放位置
 description: 了解如何编辑投放位置。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 99f580547f4f0463418dfca52481e58927339169
+source-git-commit: e0bd3d4ff50b32dd44ba413b83445866de6f3a75
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,7 @@ ht-degree: 0%
 >* [暂停或激活投放位置](placement-pause-activate.md)
 >* [查看投放位置的更改日志](placement-change-log.md)
 >* [投放设置](placement-settings.md)
+>* [查看职位安排预测报表](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [键盘快捷键](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [关于使用电子表格更正放置设置](/help/dsp/campaign-management/qa/qa-about.md)
 >* [视频：如何使用批量编辑工具编辑版面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

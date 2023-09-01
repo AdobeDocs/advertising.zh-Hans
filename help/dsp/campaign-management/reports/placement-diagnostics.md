@@ -1,50 +1,50 @@
 ---
-title: 檢視位置診斷報告
-description: 瞭解如何診斷版位設定和步調的問題。
+title: 查看放置诊断报告
+description: 了解如何诊断投放位置设置和步调的问题。
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 622d971a0c583cfde8610025f0a83481c4ae2188
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
-# 檢視位置診斷報告
+# 查看放置诊断报告
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
 
-行銷活動上線後，下列工具可協助您診斷版位設定和步調的問題：
+活动开始后，以下工具可以帮助您诊断投放位置设置和步调问题：
 
-* **[!UICONTROL Change Log]：** 顯示關鍵位置設定的變更，例如名稱、狀態和最高出價。 每個專案都包含進行變更的人員的日期和使用者名稱。
-* **[!UICONTROL Ad Approvals]：** 顯示詳細目錄提供者是否核准或拒絕廣告。 您可以選擇變更任何廣告的狀態（例如，暫停已拒絕的廣告）或開啟廣告設定。
-* **[!UICONTROL Non Bids]：** 顯示DSP未對位置競標的原因。
+* **[!UICONTROL Change Log]：** 显示对关键位置设置（如名称、状态和最高出价）的更改。 每个条目都包含进行更改的人员的日期和用户名。
+* **[!UICONTROL Ad Approvals]：** 显示广告是已被清单提供商批准或拒绝。 您可以选择更改任何广告的状态（例如，暂停被拒绝的广告）或打开广告设置。
+* **[!UICONTROL Non Bids]：** 显示DSP未对投放位置竞价的原因。
 
-1. 開啟診斷報告：
-   1. 開啟位置設定：
-      1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
-      1. 按一下行銷活動的名稱，然後按一下 **[!UICONTROL Placements]**.
-      1. 在位置名稱旁邊，按一下  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
-   1. 在右上角，按一下 ![位置診斷](/help/dsp/assets/placement-diagnostics.png) 或 **[!UICONTROL Diagnostic]**.
-1. 執行下列任一項作業：
-   * 若要檢視變更記錄：
+1. 打开“Diagnostics（诊断）”报告：
+   1. 打开版面设置：
+      1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+      1. 单击营销活动的名称，然后单击 **[!UICONTROL Placements]**.
+      1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+   1. 在右上角，单击 ![投放位置诊断](/help/dsp/assets/placement-diagnostics.png).
+1. 执行以下任一操作：
+   * 要查看更改日志，请执行以下操作：
       1. 单击 **[!UICONTROL Change Log]**.
-      1. （可選）篩選報表結果：
-         * 在日期功能表中，將報告期間從預設的「最近14天」變更為另一個期間(*[!UICONTROL Last 30 days]，* *[!UICONTROL Last 60 days]，* *[!UICONTROL Last 90 days]，* 或 *[!UICONTROL Last 1 year]*)。
-         * 在左側功能表中，依特定使用者名稱篩選報表。
-         * 在右側功能表中，依特定位置設定篩選報表。
-   * 若要檢視廣告核准狀態：
-      1. 在右上角，按一下 **[!UICONTROL Ad Approvals]**.
-      1. （可選）若要暫停或啟用廣告，請按一下狀態切換(![狀態切換](/help/dsp/assets/status-switch.png))。
-      1. （選用）若要開啟廣告設定，請按一下 **[!UICONTROL View Ad]** 在廣告旁邊。
-   * 若要瞭解DSP為何沒有對位置投標：
-      1. 在右上角，按一下 **[!UICONTROL Non Bids]**.
-      1. （可選）若要變更日期範圍，請按一下日期欄位，然後選取不同的日期或日期範圍。
+      1. （可选）筛选报表结果：
+         * 在日期菜单中，将报告期间从默认的“最近14天”更改为另一个期间(*[!UICONTROL Last 30 days]，* *[!UICONTROL Last 60 days]，* *[!UICONTROL Last 90 days]，* 或 *[!UICONTROL Last 1 year]*)。
+         * 在左侧菜单中，按特定用户名筛选报表。
+         * 在右侧菜单中，按特定放置设置筛选报表。
+   * 要查看广告审批的状态，请执行以下操作：
+      1. 在右上角，单击 **[!UICONTROL Ad Approvals]**.
+      1. （可选）要暂停或激活广告，请单击状态切换(![状态切换](/help/dsp/assets/status-switch.png))。
+      1. （可选）要打开广告设置，请单击 **[!UICONTROL View Ad]** 在广告旁边。
+   * 要了解DSP为什么没有对投放位置出价：
+      1. 在右上角，单击 **[!UICONTROL Non Bids]**.
+      1. （可选）要更改日期范围，请单击日期字段，然后选择不同的日期或日期范围。
 
 <!-- Later, add link to >* Definitions for NBRs (Reading No Bid Reports (NBRs)) -->
 
 >[!MORELIKETHIS]
 >
->* [關於平台內報表](campaign-reports-about.md)
->* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)
-
+>* [关于平台内报告](campaign-reports-about.md)
+>* [查看职位安排预测报表](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* [投放设置](/help/dsp/campaign-management/placements/placement-settings.md)
