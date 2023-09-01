@@ -3,9 +3,9 @@ title: 创建 [!DNL Google Ads] 客户匹配受众来自 [!DNL Adobe] 受众
 description: 了解如何创建 [!DNL Google Ads] 客户匹配来自您现有Adobe Analytics和Audience Manager受众的受众。
 exl-id: 17cf0729-bc13-4ec3-918e-039ecdc91a41
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: aa913130d0f611c4164ef8bdca57983d8c6c0405
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 根据需要完成先决条件：
 
-   1. （创建用户ID再营销列表受众） [!DNL Adobe] 管理员用户或帐户管理员必须选择广告商级别的设置以启用客户匹配受众。 设置因具有Audience Manager的广告商和具有 [!DNL Analytics] 仅限。
+   1. （创建用户ID再营销列表受众） [!DNL Adobe] 管理员用户或帐户管理员必须选择广告商级别的设置以启用客户匹配受众。
 
    1. 实施 [Adobe Experience Platform Identity服务](https://experienceleague.adobe.com/docs/id-service/using/home.html) 版本2.0或更高版本。
 
@@ -40,7 +40,9 @@ ht-degree: 0%
 
       `<script src="//pixel.everesttech.net/rlsa/<Advertising_Cloud_UserID>" type="text/javascript"> </script>`
 
-      位置 `Advertising_Cloud_UserID` 是分配给广告商的唯一用户ID。 示例：  `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
+      位置 `Advertising_Cloud_UserID` 是分配给广告商的唯一数字用户ID。
+
+      示例： `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
 
    1. （如果尚未完成）授权用户必须将广告商帐户配置为 [与Adobe Experience Cloud中广告商的组织帐户同步](/help/search-social-commerce/admin/sync-adobe-audiences.md).
 
