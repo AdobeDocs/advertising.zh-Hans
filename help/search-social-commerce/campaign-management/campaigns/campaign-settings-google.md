@@ -3,9 +3,9 @@ title: ’[!DNL Google Ads] 营销活动设置
 description: 引用设置 [!DNL Google Ads] 营销活动。
 exl-id: d16ef1a9-f943-494c-8655-975383707f3c
 feature: Search Campaign Management
-source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
+source-git-commit: 7588e82bc64eb1c3eda0b04cabfc6510ee3c06c3
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2309'
 ht-degree: 0%
 
 ---
@@ -254,43 +254,59 @@ ht-degree: 0%
 
 **[!UICONTROL Final URL]：** 从资产组创建的所有广告的最终URL。 <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]：** 广告可容纳多达15张图像，包括以下大小：1)至少三张正方形图像，2)至少三张横向图像，以及3)至少一张纵向图像。 请参阅 [[!DNL Google Ads] 图像规范](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 要上传图像，请执行以下操作：
+**[!UICONTROL Images]：** 广告可容纳多达15张图像，包括以下大小：1)至少三张正方形图像，2)至少三张横向图像，以及3)至少一张纵向图像。 请参阅 [[!DNL Google Ads] 图像规范](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 您可以上传图像，也可以从中选择 [!UICONTROL Asset Library]  — 但不是两人在同一个操作中。
 
-1. 单击 **[!UICONTROL +]** 并从设备或网络中选择图像。
+* 要上传图像，请执行以下操作：
 
-1. 对于每个图像：
+   1. 在 [!UICONTROL Upload from computer] 选项卡，单击 **[!UICONTROL +]** 并从设备或网络中选择图像。
 
-   1. 选择纵横比。
+   1. 对于每个图像：
 
-   1. 根据需要拖动并放置裁切框以选择图像的可查看部分，并在可能的情况下调整图像的可查看部分的大小。
+      1. 选择纵横比。
 
-   1. （可选）选择其他纵横比，并根据需要为每个选定的纵横比重新定位和调整图像大小。
+      1. 根据需要拖动并放置裁切框以选择图像的可查看部分，并在可能的情况下调整图像的可查看部分的大小。
 
-      为每个选定的纵横比创建一个资源。
+      1. （可选）选择其他纵横比，并根据需要为每个选定的纵横比重新定位和调整图像大小。
 
-   1. 单击 **[!UICONTROL Proceed]**.
+         为每个选定的纵横比创建一个资源。
 
-1. 指定完图像后，单击 **[!UICONTROL Upload]**.
+      1. 单击 **[!UICONTROL Proceed]**.
 
-**[!UICONTROL Logos]：** 至少一个正方形(1:1)徽标和一个横向(4:1)徽标。 每种尺寸最多可包含5个。 请参阅 [[!DNL Google Ads] 徽标规范](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 要上传图像，请执行以下操作：
+   1. 指定完图像后，单击 **[!UICONTROL Upload]**.
 
-1. 单击 **[!UICONTROL +]** 并从设备或网络中选择图像。
+* 要从中选择图像，请执行以下操作： [!UICONTROL Asset Library]，单击 **[!UICONTROL Asset Library]** 并选择图像。
 
-1. 对于每个图像：
+**[!UICONTROL Logos]：** 至少一个正方形(1:1)徽标和一个横向(4:1)徽标。 每种尺寸最多可包含5个。 请参阅 [[!DNL Google Ads] 徽标规范](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 您可以上传图像，也可以从中选择 [!UICONTROL Asset Library]  — 但不是两人在同一个操作中。
 
-   1. 选择纵横比。
+* 要上传图像，请执行以下操作：
 
-   1. 根据需要拖动并放置裁切框以选择图像的可查看部分，并在可能的情况下调整图像的可查看部分的大小。
+   1. 在 [!UICONTROL Upload from computer] 选项卡，单击 **[!UICONTROL +]** 并从设备或网络中选择图像。
 
-   1. （可选）选择其他纵横比，并根据需要为每个选定的纵横比重新定位和调整图像大小。
+   1. 对于每个图像：
 
-      为每个选定的纵横比创建一个资源。
+      1. 选择纵横比。
 
-   1. 单击 **[!UICONTROL Proceed]**.
+      1. 根据需要拖动并放置裁切框以选择图像的可查看部分，并在可能的情况下调整图像的可查看部分的大小。
 
-1. 指定完图像后，单击 **[!UICONTROL Upload]**.
+      1. （可选）选择其他纵横比，并根据需要为每个选定的纵横比重新定位和调整图像大小。
 
-**[!UICONTROL Videos]：** （可选）至少一个URL，最多五个URL， [!DNL YouTube] 视频长度至少为10秒。
+         为每个选定的纵横比创建一个资源。
+
+      1. 单击 **[!UICONTROL Proceed]**.
+
+   1. 指定完图像后，单击 **[!UICONTROL Upload]**.
+
+* 要从中选择图像，请执行以下操作： [!UICONTROL Asset Library]，单击 **[!UICONTROL Asset Library]** 并选择图像。
+
+**[!UICONTROL Videos]：** （可选）至少一个，最多五个， [!DNL YouTube] 至少10秒长的视频。  您可以输入URL或从中选择 [!UICONTROL Asset Library]  — 但不是两人在同一个操作中。
+
+* 要输入URL，请执行以下操作：
+
+   1. 在 [!UICONTROL Upload from computer] 选项卡，输入URL。
+
+   1. （可选）要添加其他URL，请单击 [!UICONTROL + Add]**并输入URL。
+
+* 要从选择视频，请执行以下操作 [!UICONTROL Asset Library]，单击 **[!UICONTROL Asset Library]** 并选择视频。
 
 **[!UICONTROL Headlines]：** 至少3个、最多5个简短标题，每个标题最多30个字符。 至少一个标题必须至少为15个字符或更少。 如果在中设置了用于启用最终URL扩展的营销活动级别选项 [!DNL Google Ads]，则 [!DNL Google Ads] 将此值替换为基于登陆页面内容的自定义标题。
 
@@ -302,7 +318,24 @@ ht-degree: 0%
 
 **[!UICONTROL Business Name]：** 公司名称，最长为25个字符。
 
+**[!UICONTROL Audience Signal]：** （可选） [!DNL Google Ads] 用作营销活动受众信号的受众。 [!DNL Google Ads] 机器学习模型使用受众来查找要定位的相似网上冲浪者，并且还可能会向未指定为信号的受众显示广告，以帮助您实现性能目标。 选择最有可能转化的受众。
+
+>[!NOTE]
+>受众信号不同于以 [营销活动级别和广告组级别受众目标](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
+
 **[!UICONTROL Add new asset group]：** 用于指定其他资产组。
+
+## [!UICONTROL Conversion Goals]
+
+**[!UICONTROL Conversion Goal]：** 是否要 *[!UICONTROL Use account conversion goals for this campaign]* （默认）或 *[!UICONTROL Use campaign specific conversion goals]*. 如果选择指定营销活动的转化目标，请选择标准目标和/或创建营销活动的自定义目标。
+
+目标每天进行同步，因此可能无法列出之前24小时内创建的现有目标。 要更新列表， [手动同步广告网络数据](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
+
+要创建自定义转化目标，请单击 **[!UICONTROL + Add custom goal]**，输入自定义目标名称，选择 [转化操作](https://support.google.com/google-ads/answer/6032150) 以包含在自定义目标中，然后单击 **[!UICONTROL Save]**. **注意：** 每个营销活动只能有一个自定义目标。
+
+>[!TIP]
+>
+>如果促销活动属于项目组合，则使用与项目组合目标相同的转化目标。 使用不同的转化目标可能会影响项目组合的性能。
 
 >[!MORELIKETHIS]
 >
