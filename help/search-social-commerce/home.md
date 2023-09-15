@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: c5acb7d4064dadbec5dbdc20184c21287f9facc7
+source-git-commit: ba500532712d002547e5e067d1a0af4e3202daad
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023年9月14日 | [!UICONTROL Campaigns] | ([!DNL Google Ads] 效果最佳的促销活动)在促销活动的资源组中，您现在可以从您现有的文本资源中选择 [!UICONTROL Asset Library]. 您仍然可以上传新的文本资产。 | — |
 | 2023年9月5日 | 营销活动 | ([!DNL Google Ads] 对于所有可用的营销活动类型，您现在可以在营销活动设置中选择现有转化目标或创建新目标。</li> | 请参阅&quot;[[!DNL Google Ads] campaign设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)“ |
 | | 营销活动 | ([!DNL Google Ads] 效果最佳的促销活动)新增功能允许您：<ul><li>如上所述，选择现有转化目标或为营销活动创建新转化目标。</li><li>从您的现有资源中选择 [!UICONTROL Asset Library] 用于最大性能促销活动设置中的图像、徽标和视频。 您仍然可以上传新资产。</li><li>（可选）通过选择为性能最佳的资源组提供受众信号 [!DNL Google Ads] 受众。 [!DNL Google Ads] 机器学习模型使用受众来查找要定位的相似网上冲浪者，并且还可能会向未指定为信号的受众显示广告，以帮助您实现性能目标。 **注意：** 受众信号不同于以 [营销活动级别和广告组级别受众目标](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).</li></ul> | 请参阅&quot;[[!DNL Google Ads] campaign设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)“ |
 | 2023年8月15日 | 转化量度 | [!UICONTROL Admin] > [!DNL Transaction Properties] 现在包含&quot;[!UICONTROL Source]”列，表示每个量度的来源，例如 [!UICONTROL Adobe Advertising]， [!UICONTROL Adobe Analytics]， [!UICONTROL Google Ads]，或 [!UICONTROL Custom Feed]. | 请参阅&quot;[查看为广告商跟踪的转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)“ |
