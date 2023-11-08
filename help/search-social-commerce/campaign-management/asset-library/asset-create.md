@@ -1,17 +1,18 @@
 ---
 title: 创建和上传资源
-description: 了解如何创建可重复使用的图像、视频和文本资源并将其上传到 [!DNL Google Ads] 帐户级别的资产库。
+description: 了解如何创建可重复使用的图像、视频和文本资源并将其上传到 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 帐户级别的资产库。
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
+source-git-commit: 68c082131378974bf95534050b8ddf2db0ae394b
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # 创建和上传资源
 
-*对象 [!DNL Google Ads] 仅限帐户*
+*对象 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 仅限帐户*
 
 *开放Beta版功能*
 
@@ -51,7 +52,7 @@ ht-degree: 0%
 
         一次最多可以发布10个视频URL。
 
-      * 对于文本资源，输入文本字符串。 要添加其他文本资源，请单击 **+添加** 并输入另一个文本字符串。
+      * ([!DNL Google Ads] 仅限帐户)对于文本资源，请输入文本字符串。 要添加其他文本资源，请单击 **+添加** 并输入另一个文本字符串。
 
         每个文本资源最多可包含1000个字符。 一次最多可以上传10个文本资产。
 
