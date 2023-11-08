@@ -1,11 +1,11 @@
 ---
 title: ’[!DNL Google Ads] 营销活动设置
 description: 引用设置 [!DNL Google Ads] 营销活动。
-exl-id: d16ef1a9-f943-494c-8655-975383707f3c
+exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 7588e82bc64eb1c3eda0b04cabfc6510ee3c06c3
+source-git-commit: 60988223d584741675e44fca2a50a228e4a3da91
 workflow-type: tm+mt
-source-wordcount: '2309'
+source-wordcount: '2449'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Shopping Network]：* 显示产品广告，其中 [!DNL Google] 根据您的产品在中自动生成 [!DNL Google Merchant Center] 日期 [!DNL Google Shopping]，旁边的区域 [!DNL Google] 搜索结果（独立于文本广告）和（可选）搜索合作伙伴网站。 对于营销活动中的每个广告组，您可以指定要广告的产品组。
 
-* *[!UICONTROL Display Network Only]：* 在显示网络上显示广告。 对于每个广告组，您必须指定投放位置，并且还可以选择指定关键字。
+* *[!UICONTROL Display Network Only]：* 在显示网络上显示广告。 对于每个广告组，您必须指定投放位置，并且可以选择指定关键字。
 
 * *[!UICONTROL Performance Max]：* （Beta测试版功能）使用跨渠道显示和优化广告转化 [!DNL Google Ads] 明智的竞价。 在Campaign设置中，您必须指定一个或多个资产组，包括图像、徽标、标题、描述、可选视频和受众信号。 [!DNL Google Ads] 自动组合资产以根据渠道提供广告(例如 [!DNL YouTube]， [!DNL Gmail]，或 [!DNL Search])。
 
@@ -254,11 +254,11 @@ ht-degree: 0%
 
 **[!UICONTROL Final URL]：** 从资产组创建的所有广告的最终URL。 <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]：** 广告可容纳多达15张图像，包括以下大小：1)至少三张正方形图像，2)至少三张横向图像，以及3)至少一张纵向图像。 请参阅 [[!DNL Google Ads] 图像规范](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 您可以上传图像，也可以从中选择 [!UICONTROL Asset Library]  — 但不是两人在同一个操作中。
+**[!UICONTROL Images]：** 广告最多包含15个图像，包括以下大小：1)至少三个正方形图像，2)至少三个横向图像，以及3)至少一个纵向图像。 请参阅 [[!DNL Google Ads] 图像规范](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 您可以上传图像，也可以从中选择 [!UICONTROL Asset Library]  — 但不是两人在同一个操作中。
 
 * 要上传图像，请执行以下操作：
 
-   1. 在 [!UICONTROL Upload from computer] 选项卡，单击 **[!UICONTROL +]** 并从设备或网络中选择图像。
+   1. 在 [!UICONTROL Upload from Device] 选项卡，单击 **[!UICONTROL +]** 并从设备或网络中选择图像。
 
    1. 对于每个图像：
 
@@ -280,7 +280,7 @@ ht-degree: 0%
 
 * 要上传图像，请执行以下操作：
 
-   1. 在 [!UICONTROL Upload from computer] 选项卡，单击 **[!UICONTROL +]** 并从设备或网络中选择图像。
+   1. 在 [!UICONTROL Upload from Device] 选项卡，单击 **[!UICONTROL +]** 并从设备或网络中选择图像。
 
    1. 对于每个图像：
 
@@ -298,21 +298,47 @@ ht-degree: 0%
 
 * 要从中选择图像，请执行以下操作： [!UICONTROL Asset Library]，单击 **[!UICONTROL Asset Library]** 并选择图像。
 
-**[!UICONTROL Videos]：** （可选）至少一个，最多五个， [!DNL YouTube] 至少10秒长的视频。  您可以输入URL或从中选择 [!UICONTROL Asset Library]  — 但不是两人在同一个操作中。
+**[!UICONTROL Videos]：** （可选）至少一个，最多五个， [!DNL YouTube] 至少10秒长的视频。 您可以输入URL或从中选择 [!UICONTROL Asset Library]  — 但不是两人在同一个操作中。
 
 * 要输入URL，请执行以下操作：
 
-   1. 在 [!UICONTROL Upload from computer] 选项卡，输入URL。
+   1. 在 [!UICONTROL Enter Video Url] 选项卡，输入URL。
 
-   1. （可选）要添加其他URL，请单击 [!UICONTROL + Add]**并输入URL。
+   1. （可选）要添加其他URL，请单击 **[!UICONTROL + Add]** 并输入URL。
 
 * 要从选择视频，请执行以下操作 [!UICONTROL Asset Library]，单击 **[!UICONTROL Asset Library]** 并选择视频。
 
 **[!UICONTROL Headlines]：** 至少3个、最多5个简短标题，每个标题最多30个字符。 至少一个标题必须至少为15个字符或更少。 如果在中设置了用于启用最终URL扩展的营销活动级别选项 [!DNL Google Ads]，则 [!DNL Google Ads] 将此值替换为基于登陆页面内容的自定义标题。
 
-**[!UICONTROL Long Headlines]：** 至少有一条，最多五条，每条最多有90个字符的长标题。
+您可以输入文本或从中选择资源 [!UICONTROL Asset Library]  — 但不是两人在同一个操作中。
 
-**[!UICONTROL Descriptions]：** 至少有两个（最多四个）描述，每个描述最多包含90个字符。 至少要有一个不超过30个字符的描述。
+* 要输入文本，请执行以下操作：
+
+   1. 在 [!UICONTROL Enter Text] 选项卡，输入文本。
+
+   1. （可选）要添加其他文本字符串，请单击 **[!UICONTROL + Add]** 并输入字符串。
+
+* 要从中选择资源，请执行以下操作 [!UICONTROL Asset Library]，单击 **[!UICONTROL Asset Library]** 并选择资源。
+
+**[!UICONTROL Long Headlines]：** 至少有一条，最多五条，每条最多有90个字符的长标题。 您可以输入文本或从中选择资源 [!UICONTROL Asset Library]  — 但不是两人在同一个操作中。
+
+* 要输入文本，请执行以下操作：
+
+   1. 在 [!UICONTROL Enter Text] 选项卡，输入文本。
+
+   1. （可选）要添加其他文本字符串，请单击 **[!UICONTROL + Add]** 并输入字符串。
+
+* 要从中选择资源，请执行以下操作 [!UICONTROL Asset Library]，单击 **[!UICONTROL Asset Library]** 并选择资源。
+
+**[!UICONTROL Descriptions]：** 至少有两个（最多四个）描述，每个描述最多包含90个字符。 至少要有一个不超过30个字符的描述。 您可以输入文本或从中选择资源 [!UICONTROL Asset Library]  — 但不是两人在同一个操作中。
+
+* 要输入文本，请执行以下操作：
+
+   1. 在 [!UICONTROL Enter Text] 选项卡，输入文本。
+
+   1. （可选）要添加其他文本字符串，请单击 **[!UICONTROL + Add]** 并输入字符串。
+
+* 要从中选择资源，请执行以下操作 [!UICONTROL Asset Library]，单击 **[!UICONTROL Asset Library]** 并选择资源。
 
 **[!UICONTROL Call to Action]：** 要包含在广告中的行动号召。 默认情况下， *[!UICONTROL Automated]* 已选中，并且 [!DNL Google Ads] 选择行动号召。 您可以根据需要选择其它活动。
 
