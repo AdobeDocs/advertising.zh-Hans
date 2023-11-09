@@ -1,9 +1,9 @@
 ---
 title: 基本报表和高级报表的报表列
 description: 了解基本报表和高级报表的可用数据列。
-exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
+exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 0e82baca53d27dea4207cb2eef3f4be7a9f99fb5
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign MBA] | ([!DNL Google Ads]， [!DNL Microsoft Advertising]、和 [!DNL Yahoo! Japan Ads] campaigns)当前的营销活动级别的移动竞价调整，它确定在移动设备上显示广告时如何调整竞价。 |
 | [!UICONTROL Campaign Start Date] | 营销活动投标/投标的第一天。 |
 | [!UICONTROL Campaign Status] | 营销活动状态： <i>[!UICONTROL Active]</i>， <i>[!UICONTROL Paused]</i>， <i>[!UICONTROL Ended]</i>，或 <i>[!UICONTROL Deleted]</i>. |
-| [!UICONTROL Campaign Type] | 营销活动类型，如 <i>[!UICONTROL Audience (Image)]</i>， <i>[!UICONTROL Audience (Feed)]</i>， <i>[!UICONTROL Discovery]</i>， <i>[!UICONTROL Search and Display]</i>， <i>[!UICONTROL Standard Display]</i>， <i>[!UICONTROL Standard Performance Max]</i>， <i>[!UICONTROL Standard Search]</i>， <i>[!UICONTROL Standard Shopping]</i>， <i>[!UICONTROL Video]</i>，或 <i>[!UICONTROL Others]</i>. |
+| [!UICONTROL Campaign Type] | 营销活动类型，如 <i>[!UICONTROL Audience (Ctv Video)]</i><i>[!UICONTROL Audience (Feed)]</i>， <i>[!UICONTROL Audience (Image)]</i>， <i>[!UICONTROL Audience (Video)]</i>， <i>[!UICONTROL Brand Shopping]</i>， <i>[!UICONTROL Discovery]</i>， <i>[!UICONTROL Search and Display]</i>， <i>[!UICONTROL Standard Display]</i>， <i>[!UICONTROL Standard Performance Max]</i>， <i>[!UICONTROL Standard Search]</i>， <i>[!UICONTROL Standard Shopping]</i>， <i>[!UICONTROL Store Ad]</i>， <i>[!UICONTROL Video]</i>，或 <i>[!UICONTROL Others]</i>. |
 | [!UICONTROL Channel Type] | 营销渠道类型： <i>[!UICONTROL Search]</i> 或 <i>[!UICONTROL Content]</i>. 当报告的 [!UICONTROL Search/Content] 报表设置中的设置为&quot;[!UICONTROL Combined]“ |
 | [!UICONTROL City] | ([!UICONTROL Geo Distribution Report]， [!UICONTROL Transaction Report])产生点击的城市。 根据用户的IP地址确定。 |
 | [!UICONTROL Click Match Type] | 关键字匹配所点击广告的类型。 这与 [!UICONTROL Listing Match Type] 除了 [!DNL Microsoft Advertising] 具有多个匹配类型的关键字。 对象 [!DNL Microsoft Advertising] 关键字，这是实际点击的匹配类型。 |
@@ -148,7 +148,7 @@ ht-degree: 0%
 | [!UICONTROL Portfolio Spend Strategy] | ([!UICONTROL Portfolio Report])投资组合的支出策略： <i>[!UICONTROL Daily]</i>， <i>[!UICONTROL Weekly]</i>， <i>[!UICONTROL Monthly]</i>， <i>[!UICONTROL ROI]</i>， <i>[!UICONTROL Day of week]</i>， <i>[!UICONTROL Day of month]</i>， <i>[!UICONTROL CPT]</i>， <i>[!UICONTROL Marginal CPT]</i>， <i>[!UICONTROL Google Target CPA]</i>，或 <i>[!UICONTROL Google Target ROAS]</i>. |
 | [!UICONTROL Portfolio Status] | 项目组合状态：<ul><li><i>[!UICONTROL Optimize]：</i> 优化功能是收集相关营销活动的点击和收入数据，建模数据以优化竞价，以及优化竞价和/或营销活动预算（取决于优化类型和营销活动竞价策略）。</li><li><i>[!UICONTROL Active]：</i> 优化功能正在收集相关营销活动的点击和收入数据并对数据进行建模，但并未优化竞价或营销活动预算。</li><li><i>[!UICONTROL Inactive]：</i> 优化功能正在收集相关营销活动的点击数据以便进行报告，但它不会建模数据，也不会优化竞价或营销活动预算。</li></ul> |
 | [!UICONTROL Portfolio Target] | ([!UICONTROL Portfolio Report])投资组合的支出策略的每日目标。 对于每日/每月以及星期/月的策略，将显示当天的目标。 |
-| [!UICONTROL Preferred Devices] | ([!DNL Google Ads]， [!DNL Microsoft Advertising]、和 [!DNL Yahoo! Japan Ads] 营销活动)广告设置是否提供首选项 <i>[!UICONTROL Mobile ads]</i> 或至 <i>[!UICONTROL All ads]</i>. |
+| [!UICONTROL Preferred Devices] | ([!DNL Google Ads]， [!DNL Microsoft Advertising]、和 [!DNL Yahoo! Japan Ads] 营销活动)广告设置是否提供首选项 <i>[!UICONTROL Mobile ads]</i> 或 <i>[!UICONTROL All ads]</i>. |
 | [!UICONTROL Product Group ID] | 广告网络分配给产品组的数值ID。 |
 | [!UICONTROL Product Groupings] | 父产品组。 |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report]； [!DNL Google Ads] 产品列表广告)与广告一起显示的产品的产品ID。<br><br><b>注意：</b> 仅当产品列表包含跟踪参数时，才会捕获ID `ev_plx=<GMC product ID>`，您必须在其中添加 [!DNL Google Merchant Center]. |
