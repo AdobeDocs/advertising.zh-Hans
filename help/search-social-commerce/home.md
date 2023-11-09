@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: 9b103745ef8b09c46049a9a89b676825311db4f2
+source-git-commit: 8732cfc91b0caee9b7580c33048b889ff0373f4c
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
 | 2023年11月8 | [!UICONTROL Asset Library] | (开放Beta版功能； [!DNL Microsoft® Advertising] 帐户) [!UICONTROL Campaigns] > [!UICONTROL Asset Library]，您可以创建可重复使用的图像和视频资产，并将其上传到 [!DNL Microsoft® Advertising] 帐户级别的资产库。 您可以将上传的资源添加到中的适用活动类型 [!DNL Microsoft® Advertising] 编辑者。 | 请参阅&quot;[关于 [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)”和“[创建和上传资源](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)“ |
-| 2023年10月7日 | [!UICONTROL Campaigns], [!UICONTROL Optimization], [!UICONTROL Reports] | 两个新的专业报告 [!DNL Microsoft Advertising] 帐户显示按广告分发（搜索或受众）和/或网络(例如 [!DNL Microsoft] 网站并选择流量或受众)：<ul><li>[!UICONTROL MSA Network Performance Report]：包括基本流量指标（成本、点击次数、展示次数）、转化率和收入。</li><li>[!UICONTROL MSA Network Impression Share Report]：包括展示份额量度和基本流量量度（成本、点击次数、展示次数）。</li></ul> | — |
+| 2023年10月7日 | [!UICONTROL Campaigns], [!UICONTROL Optimization], [!UICONTROL Reports] | 两个新的专业报告 [!DNL Microsoft Advertising] 帐户显示按广告分发（搜索或受众）和/或网络(例如 [!DNL Microsoft] 网站并选择流量或受众)：<ul><li>[!UICONTROL MSA Network Performance Report]：包括基本流量指标（成本、点击次数、展示次数）、转化率和收入。</li><li>[!UICONTROL MSA Network Impression Share Report]：包括展示份额量度和基本流量量度（成本、点击次数、展示次数）。</li></ul> | 请参阅&quot;[此 [!UICONTROL MSA Network Impression Share Report]](/help/search-social-commerce/reports/management/specialty/msa-network-impression-share-report.md)”和“[此 [!UICONTROL MSA Network Performance Report]](/help/search-social-commerce/reports/management/specialty/msa-network-performance-report.md)“ |
 | 2023年9月14日 | [!UICONTROL Campaigns] | ([!DNL Google Ads] 效果最佳的促销活动)在促销活动的资源组中，您现在可以从您现有的文本资源中选择 [!UICONTROL Asset Library]. 您仍然可以上传新的文本资产。 | 请参阅&quot;[[!DNL Google Ads] campaign设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)“ |
 | 2023年9月5日 | 营销活动 | ([!DNL Google Ads] 对于所有可用的营销活动类型，您现在可以在营销活动设置中选择现有转化目标或创建新目标。</li> | 请参阅&quot;[[!DNL Google Ads] campaign设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)“ |
 | | 营销活动 | ([!DNL Google Ads] 效果最佳的促销活动)新增功能允许您：<ul><li>如上所述，选择现有转化目标或为营销活动创建新转化目标。</li><li>从您的现有资源中选择 [!UICONTROL Asset Library] 用于最大性能促销活动设置中的图像、徽标和视频。 您仍然可以上传新资产。</li><li>（可选）通过选择为性能最佳的资源组提供受众信号 [!DNL Google Ads] 受众。 [!DNL Google Ads] 机器学习模型使用受众来查找要定位的相似网上冲浪者，并且还可能会向未指定为信号的受众显示广告，以帮助您实现性能目标。 **注意：** 受众信号不同于以 [营销活动级别和广告组级别受众目标](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).</li></ul> | 请参阅&quot;[[!DNL Google Ads] campaign设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)“ |
