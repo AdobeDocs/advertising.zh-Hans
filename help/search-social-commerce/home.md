@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: 8732cfc91b0caee9b7580c33048b889ff0373f4c
+source-git-commit: e4e9656163d0d72f26d209dcb9c0cb39b2fb911b
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,8 @@ ht-degree: 0%
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
 | 2023年11月8 | [!UICONTROL Asset Library] | (开放Beta版功能； [!DNL Microsoft® Advertising] 帐户) [!UICONTROL Campaigns] > [!UICONTROL Asset Library]，您可以创建可重复使用的图像和视频资产，并将其上传到 [!DNL Microsoft® Advertising] 帐户级别的资产库。 您可以将上传的资源添加到中的适用活动类型 [!DNL Microsoft® Advertising] 编辑者。 | 请参阅&quot;[关于 [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)”和“[创建和上传资源](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)“ |
-| 2023年10月7日 | [!UICONTROL Campaigns], [!UICONTROL Optimization], [!UICONTROL Reports] | 两个新的专业报告 [!DNL Microsoft Advertising] 帐户显示按广告分发（搜索或受众）和/或网络(例如 [!DNL Microsoft] 网站并选择流量或受众)：<ul><li>[!UICONTROL MSA Network Performance Report]：包括基本流量指标（成本、点击次数、展示次数）、转化率和收入。</li><li>[!UICONTROL MSA Network Impression Share Report]：包括展示份额量度和基本流量量度（成本、点击次数、展示次数）。</li></ul> | 请参阅&quot;[此 [!UICONTROL MSA Network Impression Share Report]](/help/search-social-commerce/reports/management/specialty/msa-network-impression-share-report.md)”和“[此 [!UICONTROL MSA Network Performance Report]](/help/search-social-commerce/reports/management/specialty/msa-network-performance-report.md)“ |
+| | [!UICONTROL Campaigns], [!UICONTROL Optimization], [!UICONTROL Reports], [!UICONTROL Import Campaigns] | （测试版功能）以下支持适用于 [!DNL Microsoft Advertising] 效果最佳的促销活动：<ul><li>对于营销活动管理视图和离线报表中的报表，搜索、社交和商务会同步效果最佳的营销活动。 最高绩效营销活动只能包含在混合项目组合中以进行优化，并且竞价策略目标和营销活动预算均在营销活动级别设置。</li><li>您可以从中创建和编辑效果最佳的营销活动 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 使用 [!UICONTROL Campaign Type] &quot;[!UICONTROL Performance Max]“ 只有所需的设置可用；可用的竞价策略包括 [!UICONTROL Maximize Conversions]，每个收购的可选目标成本，以及 [!UICONTROL Maximize Conversion Value]，带有可选的目标广告支出回报率。 对于可选设置，请登录 [!DNL Microsoft Advertising] 编辑者。 您可以将广告资产单独上传到 [!UICONTROL Campaigns] > [!UICONTROL Asset Library] 并将它们添加到中的营销活动 [!DNL Microsoft Advertising] 编辑者。</li><li>您可以复制 [!DNL Google Ads] 中的效果最佳促销活动 [!DNL Microsoft Advertising] 从 [!UICONTROL Tools] > [!UICONTROL Import Campaigns].</li></ul> | 请参阅&quot;[支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)，&quot; &quot;[[!DNL Microsoft Advertising] campaign设置](/help/search-social-commerce/recommendations/recommendation-support.md)，”和“[复制 [!DNL Google Ads] 中的营销活动 [!DNL Microsoft Advertising]](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md)“ |
+| 2023年10月7日 | [!UICONTROL Campaigns], [!UICONTROL Optimization], [!UICONTROL Reports] | 两个新的专业报告 [!DNL Microsoft Advertising] 帐户显示按广告分发（搜索或受众）和/或网络(例如 [!DNL Microsoft] 网站并选择流量或受众)：<ul><li>[!UICONTROL MSA Network Performance Report]：包括基本流量指标（成本、点击次数、展示次数）、转化率和收入。</li><li>[!UICONTROL MSA Network Impression Share Report]：包括展示份额量度和基本流量量度（成本、点击次数、展示次数）。</li></ul> | — |
 | 2023年9月14日 | [!UICONTROL Campaigns] | ([!DNL Google Ads] 效果最佳的促销活动)在促销活动的资源组中，您现在可以从您现有的文本资源中选择 [!UICONTROL Asset Library]. 您仍然可以上传新的文本资产。 | 请参阅&quot;[[!DNL Google Ads] campaign设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)“ |
 | 2023年9月5日 | 营销活动 | ([!DNL Google Ads] 对于所有可用的营销活动类型，您现在可以在营销活动设置中选择现有转化目标或创建新目标。</li> | 请参阅&quot;[[!DNL Google Ads] campaign设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)“ |
 | | 营销活动 | ([!DNL Google Ads] 效果最佳的促销活动)新增功能允许您：<ul><li>如上所述，选择现有转化目标或为营销活动创建新转化目标。</li><li>从您的现有资源中选择 [!UICONTROL Asset Library] 用于最大性能促销活动设置中的图像、徽标和视频。 您仍然可以上传新资产。</li><li>（可选）通过选择为性能最佳的资源组提供受众信号 [!DNL Google Ads] 受众。 [!DNL Google Ads] 机器学习模型使用受众来查找要定位的相似网上冲浪者，并且还可能会向未指定为信号的受众显示广告，以帮助您实现性能目标。 **注意：** 受众信号不同于以 [营销活动级别和广告组级别受众目标](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).</li></ul> | 请参阅&quot;[[!DNL Google Ads] campaign设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)“ |
