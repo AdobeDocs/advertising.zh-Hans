@@ -3,9 +3,9 @@ title: ’[!DNL Microsoft® Advertising] 营销活动设置
 description: 引用设置 [!DNL Microsoft® Advertising] 营销活动。
 exl-id: c6d86fb8-48b0-40fd-bcfc-c4afdccd5283
 feature: Search Campaign Management
-source-git-commit: c83663a65d5ec6d672c648c3fd59ae75ee3823d8
+source-git-commit: 1a4f802c51f29b2d7811ff21a9c7f0f20feb30ba
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience]：* 在上显示本机/显示广告 [!DNL Microsoft® Audience Network]. 您可以a)通过将营销活动关联到中的商家中心商店，自动生成基于信息源的广告 [!UICONTROL Shopping Settings] 或b)使用文本资源和上传的图像创建响应式广告。 这两个选项都需要您创建具有用户定位的广告组。
 
-* *[!UICONTROL Shopping Campaigns for Brands]：* （测试版功能）通过搜索和受众网络中的关联零售商促销您的产品。 您可以为促销活动创建子广告组和产品组（要促销的应用程序），并且 [!DNL Microsoft® Advertising] 自动为产品组创建广告。
+* *[!UICONTROL Shopping Campaigns for Brands]：* （测试版功能）通过搜索和受众网络中的关联零售商促销您的产品。 您可以为促销活动创建子广告组和产品组（要促销的应用程序）以及可选产品广告； [!DNL Microsoft® Advertising] 自动为产品组创建广告。
 
-* *[!UICONTROL Microsoft® Store Ads Campaign]：* （Beta版功能）推广以下网站中提供的应用程序和游戏： [!DNL Microsoft® Store]. 您可以为营销活动创建子广告组和产品组，以及 [!DNL Microsoft® Advertising] 自动为产品组创建广告。
+* *[!UICONTROL Microsoft® Store Ads Campaign]：* （Beta版功能）推广以下网站中提供的应用程序和游戏： [!DNL Microsoft® Store]. 您可以为促销活动创建子广告组、产品组和可选产品广告； [!DNL Microsoft® Advertising] 自动为产品组创建广告。
 
 * *[!UICONTROL Audience Video]：* （测试版功能）在受众网络上显示视频广告。
 
 * *[!UICONTROL Audience Video]：* （Beta测试版功能）显示受众网络上的已连接电视(CTV)视频广告。
 
-* *[!UICONTROL Performance Max]：* （Beta测试版功能）显示所有网络的多种广告类型。
+* *[!UICONTROL Performance Max]：* （Beta测试版功能）显示所有网络的多种广告类型。 在中单独分配资产组 [!DNL Microsoft® Advertising] 广告编辑器。
 
 ## [!UICONTROL Campaign Details]
 

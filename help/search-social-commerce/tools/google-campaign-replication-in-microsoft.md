@@ -1,9 +1,9 @@
 ---
 title: 复制 [!DNL Google Ads] 中的营销活动 [!DNL Microsoft® Advertising]
 description: 了解如何在中导出同步的营销活动 [!DNL Google Ads] 帐户直接转入已同步 [!DNL Microsoft® Advertising] 帐户。
-exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
+exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
-source-git-commit: f857da54ff75ba7b8065b8c08d6d28eb54445b48
+source-git-commit: 877333330df84ff5c8bd7ee1bfc837de492877fb
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
   如果要复制基于购物馈送的显示营销活动，请首先复制 [!DNL Google Merchant Center] 产品选件收件人 [!DNL Microsoft® Merchant Center]. 复制活动时，选择 [!DNL Microsoft® Merchant Center] 将商店存储在导入选项中，以将商店链接到基于信息源的受众营销活动。
 
-* [!DNL Google Ads] 将效果最佳的营销活动（包括本地库存广告）放入 [!DNL Microsoft® Advertising] 智能购物营销活动。
+* [!DNL Google Ads] 将效果最佳的营销活动（包括本地库存广告）放入 [!DNL Microsoft® Advertising] 效果最佳的营销活动。
 
 您可以选择更新营销活动一次；每周或每月更新；或根据 [!DNL Microsoft® Advertising]的推荐计划。 您可以选择在每次导入作业运行或发生错误或更改时配置通知。 将营销活动导入后 [!DNL Microsoft® Advertising]中，您可以检查导入作业的状态、查看任何错误日志、手动运行导入作业，以及编辑、暂停、启用或删除导入计划。
 
