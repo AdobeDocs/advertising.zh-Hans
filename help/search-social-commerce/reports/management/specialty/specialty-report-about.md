@@ -1,11 +1,11 @@
 ---
 title: 关于专业报告
 description: 了解专业报告。
-exl-id: a5232434-cdb5-451f-aa65-6536c97c4a52
+exl-id: fd2bcd97-70dd-4160-8209-6cdf9c9a6d62
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 879cc2fa13475c90e92367b9fa0a9fa3d6203d7d
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,10 @@ ht-degree: 0%
 * [此 [!UICONTROL MSA Ad Extension by Keyword Report]](msa-ad-extension-by-keyword-report.md)
 
 * [此 [!UICONTROL MSA Ad Extension Detail Report]](msa-ad-extension-by-ad-report.md)
+
+* [此 [!UICONTROL MSA Network Performance Report]](msa-network-performance-report.md)
+
+* [此 [!UICONTROL MSA Network Impression Share Report]](msa-network-impression-share-report.md)
 
 >[!MORELIKETHIS]
 >
