@@ -1,9 +1,9 @@
 ---
 title: 取消邀请待处理用户
 description: 了解如何取消待处理用户邀请。
-role: User, Admin
+role: Admin
 exl-id: 62a5d50c-b836-4a15-ba5a-6eb7a0f26570
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 97e91adf4edf7ac482e949d3e1d4be6c883a589c
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
