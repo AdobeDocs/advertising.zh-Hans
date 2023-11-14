@@ -3,7 +3,7 @@ title: 使用 [!DNL Last Event Service] JavaScript库与 [!DNL Web SDK]
 description: 了解从使用切换的步骤 [!DNL Analytics] [!DNL visitorAPI] 库到 [!DNL Experience Platform] [!DNL Web SDK] 您的库 [!DNL Analytics for Advertising] 实现。
 feature: Integration with Adobe Analytics
 exl-id: 764724a2-536a-43b9-955d-28d6146db29a
-source-git-commit: 687f146b27765d59f172284e4cff7ab5c0e57b50
+source-git-commit: 7501c1f8f6477a4ee6de64c64d52b1aafaf16994
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 ```
 <script>
      if("undefined" != typeof AdCloudEvent) 
-          stitchId = AdCloudEvent('IMS ORG Id''rsid').generateRandomId();
+          stitchId = AdCloudEvent('IMS ORG Id','rsid').generateRandomId();
 </script>
 ```
 
