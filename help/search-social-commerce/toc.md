@@ -4,9 +4,9 @@ user-guide-title: 广告搜索、社交和商业指南
 user-guide-description: 本指南阐述管理、跟踪和报告搜索、社交和商业广告营销活动所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: 广告搜索、社交和商业指南
 index: true
-source-git-commit: fb95be48fae44a4ca365fe501253c185e76d64be
+source-git-commit: cdb86533b46b196fe7a3394ab9e4fc8209a3df69
 workflow-type: tm+mt
-source-wordcount: '1732'
+source-wordcount: '1729'
 ht-degree: 2%
 
 ---
@@ -189,7 +189,6 @@ ht-degree: 2%
                + [关于 [!DNL Google Ads] 标注扩展](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)
                + [管理 [!DNL Google Ads] 标注扩展](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
                + [关联 [!DNL Google Ads] 与营销活动或广告组共享标注](/help/search-social-commerce/campaign-management/campaigns/callout-extension-associate.md)
-            + [管理 [!DNL Google Ads] 位置扩展](/help/search-social-commerce/campaign-management/campaigns/location-extension-manage.md)
             + 站点链接扩展 {#sitelinks}
                + [关于站点链接扩展](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-about.md)
                + [管理共享的站点链接](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-manage.md)
