@@ -3,9 +3,9 @@ title: ’[!DNL Google Ads] 营销活动设置
 description: 引用设置 [!DNL Google Ads] 营销活动。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 60988223d584741675e44fca2a50a228e4a3da91
+source-git-commit: 7b4818260fad61a773fb7261cbcdfd84bee84d42
 workflow-type: tm+mt
-source-wordcount: '2449'
+source-wordcount: '2387'
 ht-degree: 0%
 
 ---
@@ -147,8 +147,6 @@ ht-degree: 0%
    * （地址附近的位置；仅限包含的目标）单击 **[!UICONTROL Radius Target]** (![Radius目标](/help/search-social-commerce/assets/radius-target.png "Radius目标"))，然后单击 **[!UICONTROL Address]**. 输入地址和目标地址周围以英里或公里为单位的半径，然后单击 **[!UICONTROL Add]**.
 
    * （地理坐标附近的位置；仅包含目标）单击 **[!UICONTROL Radius Target]** (![Radius目标](/help/search-social-commerce/assets/radius-target.png "Radius目标"))，然后单击 **[!UICONTROL Coordinate]**. 输入目标位置周围的纬度和经度以及半径（以英里或公里为单位），然后单击 **[!UICONTROL Add]**.
-
-   * (您所在位置附近 [!DNL My Business] 可用作位置扩展的位置；仅限包含的目标)单击 **[!UICONTROL Location Group Target]** (![位置组](/help/search-social-commerce/assets/location-group.png "位置组"))；（可选）输入国家/地区、都会区域或城市，在可用位置列表中向下箭头；然后从列表中选择一个或多个位置 [!DNL Google My Business] 位置。 以英里或公里为单位指定目标位置周围的半径，然后单击 **[!UICONTROL Add]**.
 
 * （为包含的目标位置添加竞价调整）输入竞价调整值：
 
