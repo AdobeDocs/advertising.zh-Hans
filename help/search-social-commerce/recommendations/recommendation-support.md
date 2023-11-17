@@ -3,9 +3,9 @@ title: 关于发布者推荐和见解支持
 description: 了解对查看和管理发布者推荐和见解的支持。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 30d7aeb970380e528096bfff2964901781a4e221
+source-git-commit: 250e6c7aaeb64c811b3648ac1aee2a7bd0a6f753
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 | | [!UICONTROL Text ad] | 添加广告建议 |
 | [!UICONTROL Automated campaigns] | [!UICONTROL DSA to performance max migration] | 将动态搜索广告迁移到效果最佳的营销活动。 |
 | | [!UICONTROL Dynamic image extension opt in] | 为帐户启用动态图像扩展，它允许 [!DNL Google Ads] 机器学习，自动将广告登陆页面中最相关的图像附加到广告。 |
-| | [！UICONTROL提高性能，最大广告强度 | 提高效果最佳营销活动的资产组强度，使其获得“优秀”评级。 |
+| | [!UICONTROL Improve performance max ad strength] | 提高效果最佳营销活动的资产组强度，使其获得“优秀”评级。 |
 | | [!UICONTROL Performance max opt in] | 选择加入效果最佳的营销活动。 |
 | | [!UICONTROL Upgrade local campaign to performance max] | 将旧版本地营销活动升级到最高性能的营销活动 |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | 将旧版智能购物营销活动升级到最高性能的营销活动 |
