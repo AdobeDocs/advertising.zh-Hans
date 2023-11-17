@@ -1,11 +1,11 @@
 ---
 title: 关于发布者推荐和见解支持
 description: 了解对查看和管理发布者推荐和见解的支持。
-exl-id: 166c429a-043a-4e74-b1ee-5359cd483de5
+exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 30d7aeb970380e528096bfff2964901781a4e221
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,11 @@ ht-degree: 0%
 | | [!UICONTROL Responsive search improve ad strength] | 改进响应式搜索广告广告强度的建议 |
 | | [!UICONTROL Sitelink extension] | 向营销活动添加站点链接扩展 |
 | | [!UICONTROL Text ad] | 添加广告建议 |
-| [!UICONTROL Automated campaigns] | [!UICONTROL Upgrade local campaign to performance max] | 将旧版本地营销活动升级到最高性能的营销活动 |
+| [!UICONTROL Automated campaigns] | [!UICONTROL DSA to performance max migration] | 将动态搜索广告迁移到效果最佳的营销活动。 |
+| | [!UICONTROL Dynamic image extension opt in] | 为帐户启用动态图像扩展，它允许 [!DNL Google Ads] 机器学习，自动将广告登陆页面中最相关的图像附加到广告。 |
+| | [！UICONTROL提高性能，最大广告强度 | 提高效果最佳营销活动的资产组强度，使其获得“优秀”评级。 |
+| | [!UICONTROL Performance max opt in] | 选择加入效果最佳的营销活动。 |
+| | [!UICONTROL Upgrade local campaign to performance max] | 将旧版本地营销活动升级到最高性能的营销活动 |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | 将旧版智能购物营销活动升级到最高性能的营销活动 |
 | [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | 修复受预算限制的营销活动 |
 | | [!UICONTROL Enhanced CPC opt in] | 竞价 [!UICONTROL Enhanced CPC] |
@@ -68,6 +72,8 @@ ht-degree: 0%
 | | [!UICONTROL Move unused budget] | 将未使用的预算移至受限的预算 |
 | | [!UICONTROL Raise Target CPA bid too low] | 提高 [!UICONTROL Target CPA] 推荐的量，当它太低并且转化次数很少或没有转化时 |
 | | [!UICONTROL Target CPA opt in] | 竞价 [!UICONTROL Target CPA] |
+| | [!UICONTROL Target CPA raising] | 提高 [!UICONTROL Target CPA] 基于 [!DNL Google Ads] 根据以往的转化计算得出的预测。 |
+| | [!UICONTROL Target ROAS lowering] | 降低 [!UICONTROL Target ROAS] 基于 [!DNL Google Ads] 根据以往的转化计算得出的预测。 |
 | | [!UICONTROL Target ROAS opt in] | 竞价 [!UICONTROL Target ROAS] |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | 通过更新营销活动以使用显示扩展来扩展范围 |
 | | [!UICONTROL Keyword] | 添加新关键字 |
