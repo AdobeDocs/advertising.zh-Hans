@@ -3,7 +3,7 @@ title: 支持的清单
 description: 引用支持的广告网络、营销活动类型和广告类型。
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: 8540bfad431c82c52f54e17d7d82c0ac94213663
+source-git-commit: b42f4065b6fd346dbee2ddfa802ca6947772c963
 workflow-type: tm+mt
 source-wordcount: '2710'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->下表是宽的。 如有必要，请使用表格底部的滚动条查看全部内容。 您还可以选择通过单击临时隐藏目录 ![隐藏目录](/help/dsp/assets/hide-toc.png "隐藏目录") 左窗格顶部的。
+>下表是宽的。 如有必要，请使用表格底部的滚动条查看全部内容。 您还可以选择通过单击临时隐藏目录 ![隐藏目录](/help/search-social-commerce/assets/hide-toc.png "隐藏目录") 左窗格顶部的。
 
 | 来源 | 网络 | 营销活动类型 | 广告类型 | 同步并查看 | 创建/编辑 | 曲目[^1] | 优化 | 报表[^2] | Adobe Analytics支持[^3] |
 |----|----|----|----|----|----|----|----|----|----|

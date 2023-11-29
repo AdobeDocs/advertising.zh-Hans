@@ -1,11 +1,11 @@
 ---
 title: 以下项的必需批量处理工作表数据 [!DNL Yandex] 帐户
 description: 引用批量处理工作表中的必填标题字段和数据字段 [!DNL Yandex] 帐户。
-exl-id: c43ea56b-5435-4bbf-8764-beda1bb9b410
+exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: 85a828367ebce0c9bdb851bd7b639cd2f870012a
 workflow-type: tm+mt
-source-wordcount: '1857'
+source-wordcount: '1905'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 ## 可用的数据字段
 
 {{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
+
+>[!TIP]
+>
+>下表是宽的。 如有必要，请使用表格底部的滚动条查看全部内容。 您还可以选择通过单击临时隐藏目录 ![隐藏目录](/help/search-social-commerce/assets/hide-toc.png "隐藏目录") 左窗格顶部的。
 
 | 字段 | 营销活动 | 广告组 | 关键词 | 文本广告 | 站点链接 | 描述 |
 |----|----|-----|-----|----|----|----|

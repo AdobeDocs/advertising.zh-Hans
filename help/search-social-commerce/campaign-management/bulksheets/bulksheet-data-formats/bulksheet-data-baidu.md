@@ -1,11 +1,11 @@
 ---
 title: 以下项的必需批量处理工作表数据 [!DNL Baidu] 帐户
 description: 引用批量处理工作表中的必填标题字段和数据字段 [!DNL Baidu] 帐户。
-exl-id: 9066f3d5-5de1-4efe-bd61-6c877e106920
+exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
 feature: Search Bulksheets
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: 255bdcd1e14bd1204b3b0a73034029ba7f4ef965
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1930'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 ## 可用的数据字段
 
 {{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
+
+>[!TIP]
+>
+>下表是宽的。 如有必要，请使用表格底部的滚动条查看全部内容。 您还可以选择通过单击临时隐藏目录 ![隐藏目录](/help/search-social-commerce/assets/hide-toc.png "隐藏目录") 左窗格顶部的。
 
 | 字段 | 营销活动 | 广告组 | 关键词 | 文本广告 | 位置目标 | 描述 |
 |----|----|----|----|----|----|----|
