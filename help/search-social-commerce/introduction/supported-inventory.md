@@ -3,16 +3,16 @@ title: 支持的清单
 description: 引用支持的广告网络、营销活动类型和广告类型。
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: b42f4065b6fd346dbee2ddfa802ca6947772c963
+source-git-commit: 06a14b364e41ca37725abb279b40cfa79bd3fd23
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: '2712'
 ht-degree: 0%
 
 ---
 
 # 支持的清单
 
-以下是受支持的广告网络、营销活动类型和广告类型，以及可用于各个类型的功能。
+以下是受支持的广告网络、促销活动类型和广告类型，以及适用于每种广告类型的功能。
 
 >[!TIP]
 >
