@@ -3,9 +3,9 @@ title: 批量工作表数据 [!DNL Yahoo! Japan] 帐户
 description: 引用已下载批量处理工作表中的标题字段和数据字段 [!DNL Yahoo! Japan] 帐户。
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
+source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
 workflow-type: tm+mt
-source-wordcount: '2631'
+source-wordcount: '2645'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 
 >[!TIP]
 >
->下表是宽的。 如有必要，请使用表格底部的滚动条查看全部内容。 您还可以选择通过单击临时隐藏目录或右窗格 ![隐藏窗格](/help/search-social-commerce/assets/hide-pane.png "隐藏窗格") 在左窗格或右窗格的顶部。
+>下表是宽的。 如有必要，请使用表格底部的滚动条查看全部内容。 您还可以选择通过单击临时隐藏目录或右窗格 ![隐藏左窗格](/help/search-social-commerce/assets/hide-left-pane.png "隐藏左窗格") 左窗格顶部或 ![隐藏右侧窗格](/help/search-social-commerce/assets/hide-right-pane.png "隐藏右侧窗格") 在右窗格的顶部。
 
 | 字段 | 营销活动 | 广告组 | 关键词 | 文本广告 | 营销活动位置目标 | 描述 |
 |----|----|----|----|----|----|----|
