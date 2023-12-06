@@ -4,10 +4,10 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 7d5f3028f3f8ff23a97274c182c37477a69c3f48
+source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 6%
+source-wordcount: '931'
+ht-degree: 3%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 6%
       + [Cross-Device Solutions](/help/dsp/introduction/features/cross-device-solutions.md)
    + [帐户资金](/help/dsp/introduction/billing/account-funding.md)
    + [支持的货币](/help/dsp/currency.md)
-   + [对消费者隐私的支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [策略和准则](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [高级测量解决方案](/help/dsp/introduction/advanced-measurement-services.md)
 + Campaign Management {#campaign-management}
    + [Campaign Management结构概述](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -215,6 +215,15 @@ ht-degree: 6%
       + [编辑 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
       + [删除 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
       + [[!UICONTROL Report Destination] 设置](/help/dsp/reports/report-destinations/report-destination-settings.md)
++ 规划者 {#planner}
+   + [关于DSP Planner工具](/help/dsp/planner/planner-about.md)
+   + [创建连接电视接入计划](/help/dsp/planner/planner-create.md)
+   + [复制连接的电视接入计划](/help/dsp/planner/planner-duplicate.md)
+   + [编辑连接的电视接入计划](/help/dsp/planner/planner-edit.md)
+   + [已连接电视接入计划的设置](/help/dsp/planner/planner-settings.md)
+   + [导出已连接电视覆盖计划的预测](/help/dsp/planner/planner-export.md)
+   + [重新生成“连接电视覆盖计划”的预测](/help/dsp/planner/planner-forecast.md)
+   + [存档连接的电视接入计划](/help/dsp/planner/planner-archive.md)
 + 管理 {#admin}
    + [编辑您的配置文件](/help/dsp/admin/user-own-profile-edit.md)
    + 用户 {#users}
@@ -227,6 +236,6 @@ ht-degree: 6%
    + 通知 {#notifications}
       + [关于警报订阅](/help/dsp/admin/alerts-about.md)
       + [管理警报订阅](/help/dsp/admin/alerts-manage.md)
-+ [与 Adobe Experience Cloud 的集成](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
++ [与Adobe Experience Cloud的集成](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [客户支持](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html)
-+ [Adobe Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
++ [Adobe Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
