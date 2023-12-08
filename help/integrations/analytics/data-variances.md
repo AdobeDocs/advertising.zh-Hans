@@ -3,9 +3,9 @@ title: 之间的预期数据差异 [!DNL Analytics] 和Adobe Advertising
 description: 之间的预期数据差异 [!DNL Analytics] 和Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: e564ea441e5ea0d25ee7f99962e72192750c5c40
+source-git-commit: fb0634643e40b67e50461823f976a93129e2f038
 workflow-type: tm+mt
-source-wordcount: '3265'
+source-wordcount: '3217'
 ht-degree: 0%
 
 ---
@@ -246,7 +246,7 @@ Adobe Advertising为Analytics提供了 [广告特定的流量量度和以下来�
 
 ### 使用 [!UICONTROL AMO ID Instances] 代替非Adobe AdvertisingDimension的点击
 
-因为你不能 [!UICONTROL Adobe Advertising Clicks] 对于站点维度，您可能希望找到等同于点击的维度。 您可能倾向于使用访问次数作为替代，但这并不是最佳选择，因为每个访客可能具有多次访问。 (请参阅&quot;[点击量和访问量之间的区别](#clicks-vs-visits)“ 为此，我们建议使用 [!UICONTROL AMO ID Instances]，即捕获AMO ID的次数。 同时 [!UICONTROL AMO ID Instances] 不匹配 [!UICONTROL Adobe Advertising Clicks] 准确地说，它们是测量网站点击流量的最佳选项。 有关更多信息，请参阅&quot;[数据验证 [!DNL Analytics for Advertising]](#data-validation)“
+因为你不能 [!UICONTROL AMO Clicks] 对于站点维度，您可能希望找到等同于点击的维度。 您可能倾向于使用访问次数作为替代，但这并不是最佳选择，因为每个访客可能具有多次访问。 (请参阅&quot;[点击量和访问量之间的区别](#clicks-vs-visits)“ 为此，我们建议使用 [!UICONTROL AMO ID Instances]，即捕获AMO ID的次数。 同时 [!UICONTROL AMO ID Instances] 不匹配 [!UICONTROL AMO Clicks] 准确地说，它们是测量网站点击流量的最佳选项。 有关更多信息，请参阅&quot;[的点进数据验证 [!DNL Analytics for Advertising]](#data-validation)“
 
 ![示例 [!UICONTROL AMO ID Instances] 而不是 [!UICONTROL Adobe Advertising Clicks] 对于不支持的维度](/help/integrations/assets/a4adc-amo-id-instances.png)
 

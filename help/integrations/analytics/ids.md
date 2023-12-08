@@ -3,9 +3,9 @@ title: 使用的Adobe AdvertisingID [!DNL Analytics]
 description: 使用的Adobe AdvertisingID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: e564ea441e5ea0d25ee7f99962e72192750c5c40
+source-git-commit: 3e6c90c1fc36ffc8fd404b5fe589f1f79f69a096
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1686'
 ht-degree: 0%
 
 ---
@@ -264,7 +264,7 @@ where:
 
 在Analytics报表中，您可以通过搜索 [!UICONTROL AMO ID] 维并使用 [!UICONTROL AMO ID Instances] 量度。 此 [!UICONTROL AMO ID] 维度包含捕获的所有AMO ID值，而 [!UICONTROL AMO ID Instances] 量度表示网站捕获AMO ID值的频率。 例如，如果同一搜索广告被点击四次，但Analytics跟踪了七个网站条目，则 [!UICONTROL AMO ID Instances] 将会是七(7)和 [!UICONTROL Clicks] 就是四(4)
 
-对于中的任何报告或审核，在 [!DNL Analytics]，最佳做法是将AMO ID与其相应的实例结合使用。 有关更多信息，请参阅&quot;[数据验证 [!DNL Analytics for Advertising]](data-variances.md#data-validation)&quot;预期数据差异： [!DNL Analytics] 和Adobe Advertising。”
+对于中的任何报告或审核，在 [!DNL Analytics]，最佳做法是将AMO ID与其相应的实例结合使用。 有关更多信息，请参阅&quot;[的点进数据验证 [!DNL Analytics for Advertising]](data-variances.md#data-validation)&quot;预期数据差异： [!DNL Analytics] 和Adobe Advertising。”
 
 ## 关于Analytics分类
 
