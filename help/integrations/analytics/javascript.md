@@ -3,22 +3,20 @@ title: JavaScript代码 [!DNL Analytics for Advertising]
 description: JavaScript代码 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: 8689bc2b5532b0e75ebf3cee14a42fa733d5ded5
+source-git-commit: 9158ed3fc8b35b5f79f217b619c2ff8e596895ab
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
 
 # JavaScript代码 [!DNL Analytics for Advertising]
 
-*仅具有Adobe Advertising-Adobe Analytics集成的广告商*
-
 *仅使用Advertising DSP的广告商*
 
-对于Advertising DSP， [!DNL Analytics for Advertising] 集成跟踪浏览和点进网站交互。 点进访问由您网页上的标准Adobe Analytics代码进行跟踪； [!DNL Analytics] 代码捕获登陆页面URL中的AMO ID和EF ID参数，并在它们各自的保留eVar中跟踪它们。 您可以在网页中部署JavaScript代码片段，从而跟踪浏览访问。
+对于Advertising DSP， [!DNL Analytics for Advertising] 集成跟踪浏览和点进网站交互。 点进访问由您网页上的标准Adobe Analytics代码进行跟踪； [!DNL Analytics] 代码捕获登陆页面URL中的AMO ID和EF ID参数，并在它们各自的保留中跟踪它们 [!DNL eVars]. 您可以在网页中部署JavaScript代码片段，从而跟踪浏览访问。
 
-在访问网站后的第一个页面查看中，Adobe AdvertisingJavaScript代码会检查访客以前是否查看过或点击过广告。 如果用户之前通过点进进入网站或者没有看到广告，则会忽略该访客。 如果访客在访问期间看到广告，但未通过点进进入网站 [单击回顾窗口](/help/integrations/analytics/prerequisites.md#lookback-a4adc) 在Adobe Advertising中设置，则Adobe AdvertisingJavaScript代码(a)使用 [Experience CloudID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html) 生成补充ID (`SDID`)或b)使用Adobe Experience Platform [!DNL Web SDK] `generateRandomID` 用于生成 `[!DNL StitchID]`. 其中任一ID都可用于将Adobe Advertising中的数据拼合到访客的Adobe Analytics点击中。 然后，Adobe Analytics会查询Adobe Advertising与广告曝光度关联的AMO ID和EF ID。 然后，将AMO ID和EF ID填充到它们各自的eVar中。 这些值会在指定的时间段内保留（默认情况下，为60天）。
+在访问网站后的第一个页面查看中，Adobe AdvertisingJavaScript代码会检查访客以前是否查看过或点击过广告。 如果用户之前通过点进进入网站或者没有看到广告，则会忽略该访客。 如果访客在访问期间看到广告，但未通过点进进入网站 [单击回顾窗口](/help/integrations/analytics/prerequisites.md#lookback-a4adc) 在Adobe Advertising中设置，则Adobe AdvertisingJavaScript代码(a)使用 [Experience CloudID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html) 生成补充ID (`SDID`)或b)使用Adobe Experience Platform [!DNL Web SDK] `generateRandomID` 用于生成 `[!DNL StitchID]`. 其中任一ID都可用于将Adobe Advertising中的数据拼合到访客的Adobe Analytics点击中。 然后，Adobe Analytics会查询Adobe Advertising与广告曝光度关联的AMO ID和EF ID。 然后，将AMO ID和EF ID填充到它们各自的中 [!DNL eVars]. 这些值会在指定的时间段内保留（默认情况下，为60天）。
 
 [!DNL Analytics] 发送网站流量量度（如页面查看次数、访问次数和逗留时间）和 [!DNL Analytics] 使用EF ID作为键每小时Adobe Advertising的自定义或标准事件。 这些 [!DNL Analytics] 量度然后通过Adobe Advertising归因系统，将转化连接到点击和曝光历史记录。
 
@@ -107,8 +105,8 @@ JavaScript库包含两行，它们允许 [!DNL Analytics] 和Adobe Advertising�
 1. 打开 [[!DNL Adobe Experience Cloud Debugger]](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html) 在你的主页上。
 1. 转到 [!UICONTROL Network] 选项卡。
 1. 在 [!UICONTROL Solutions Filter] 工具栏，单击 [!UICONTROL Adobe Advertising] 和 [!UICONTROL Analytics].
-1. 在 [!UICONTROL Request URL – Hostname] 参数行，查找 `lasteventf-tm.everesttech.net`.
-1. 在 [!UICONTROL Request – Parameters] 行，审核生成的信号，类似于&quot;[如何使用确认代码 [!DNL Chrome Developer Tools]](#validate-js-chrome)“
+1. 在 [!UICONTROL Request URL - Hostname] 参数行，查找 `lasteventf-tm.everesttech.net`.
+1. 在 [!UICONTROL Request - Parameters] 行，审核生成的信号，类似于&quot;[如何使用确认代码 [!DNL Chrome Developer Tools]](#validate-js-chrome)“
    * (使用Experience CloudIdentity服务的实施 `visitorAPI.js` 代码)确保 `Sdid` 参数匹配 `Supplemental Data ID` 在Adobe Analytics过滤器中。
    * (使用Experience Platform的实施 [!DNL Web SDK] `alloy.js`代码)确保 `advertisingStitchID` 参数匹配 `Sdid` 发送到Experience Platform边缘网络。
    * 如果代码未生成，请检查以确保在中删除了Adobe AdvertisingCookie [!UICONTROL Application] 选项卡。 删除页面后，请刷新页面并重复此过程。
