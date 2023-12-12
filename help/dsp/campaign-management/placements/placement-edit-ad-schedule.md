@@ -1,49 +1,80 @@
 ---
-title: 編輯投放的廣告排程
-description: 瞭解如何變更附加至刊登版位的廣告之廣告排程。
+title: 编辑投放位置的广告计划
+description: 了解如何更改附加到投放位置的广告的广告计划。
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 0b89d346aa7d1443e50605e1300a6a3645fe9b21
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
 
-# 編輯投放的廣告排程
+# 编辑投放位置的广告计划
+
+<!--
+
+## Edit the Ad Schedules for One or More Placements
+
+You can change the scheduled flight dates and ad rotation for the ads attached to multiple placements using a [!DNL Microsoft Excel] spreadsheet. Each ad can be active during multiple flights.
+
+1. In the main menu, click **[!UICONTROL Campaigns]**.
+
+1. Click the name of the campaign.
+
+1. In the submenu, click **[!UICONTROL Placements]**.
+
+1. Select the check box next to each placement whose ad data you want to download.
+
+1. In the bulk actions toolbar, click **[!UICONTROL ...]** > **[!UICONTROL Download Custom Ad Schedule Sheet]**.
+
+1. When the file is available, click **[!UICONTROL Download]** in the notification at the top of the browser page to download a worksheet file (in XLSX format) according to your browser's normal procedure..
+
+   ![Download Ready notification](/help/dsp/assets/download-ready.png "Download Ready notification")
+
+1. Open the downloaded file and edit the flight dates as needed.
+
+1. Upload the edited ad schedule template:
+
+   1. Select the check box next to each applicable placement.
+
+   1. In the bulk actions toolbar, click **[!UICONTROL ...]** > **[!UICONTROL Upload Custom Ad Schedule Sheet]**, and specify the file to upload.
+
+-->
+
+## 编辑单个投放的广告计划
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- just simple ad serving placements (PG ones seem okay)? And anything else? -->
 
-您可以變更附加至位置之廣告的排程投放日期和廣告輪換。 每個廣告都可以在多次飛行期間啟用。
+您可以更改附加到投放位置的广告的计划投放日期和广告轮换。 每个广告都可以在多次飞行期间处于活动状态。
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
 
-1. 按一下行銷活動的名稱。
+1. 单击营销活动的名称。
 
-1. 在子功能表中，按一下 **[!UICONTROL Placements]**.
+1. 在子菜单中，单击 **[!UICONTROL Placements]**.
 
-1. 在位置名稱旁邊，按一下  **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**.
+1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**.
 
-   1. 執行下列任一項作業：
+   1. 执行以下任一操作：
 
-      * 若要新增航班，請按一下 **[!UICONTROL Add Flight]**，然後指定開始日期和結束日期。
+      * 要添加航班，请单击 **[!UICONTROL Add Flight]**，然后指定开始日期和结束日期。
 
-      * 若要將現有航班新增至廣告，請按一下 **[!UICONTROL +]** 小眾測試版欄的廣告列中。
+      * 要将现有航班添加到广告，请单击 **[!UICONTROL +]** 在投放栏的广告行中。
 
-      * 若要從廣告中移除現有航班，請按一下 **[!UICONTROL x]** 小眾測試版欄的廣告列中。
+      * 要从广告中删除现有航班，请单击 **[!UICONTROL x]** 在投放栏的广告行中。
 
-      * （如果有多個廣告具有相同的外觀）若要不平均地旋轉廣告，請按一下 **[!UICONTROL Even Rotation]** 然後輸入旋轉每個廣告的相對權重（以百分比表示）。
+      * （当多个广告具有相同投放时间时）要不均匀旋转广告，请单击 **[!UICONTROL Even Rotation]** 在飞行信息中，然后输入每个广告旋转的相对权重（百分比）。
 
-         總重量必須等於100。
-   1. 在右上角，按一下 **[!UICONTROL Continue]**.
+        总重量必须等于100。
 
-   1. 檢閱航班詳細資料，然後按一下 **[!UICONTROL Save & Finish]**.
+   1. 在右上角，单击 **[!UICONTROL Continue]**.
 
+   1. 查看航班详细信息，然后单击 **[!UICONTROL Save & Finish]**.
 
 >[!MORELIKETHIS]
 >
->* [關於版位管理](placement-about.md)
->* [編輯位置](placement-edit.md)
->* [檢視位置的變更記錄](placement-change-log.md)
->* [位置設定](placement-settings.md)
-
+>* [关于版面管理](placement-about.md)
+>* [编辑投放位置](placement-edit.md)
+>* [查看投放位置的更改日志](placement-change-log.md)
+>* [投放设置](placement-settings.md)
