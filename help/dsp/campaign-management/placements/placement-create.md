@@ -3,10 +3,10 @@ title: 创建投放位置
 description: 了解如何创建投放位置。
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: c86493663b096854ab3ac2e07244619459ac004c
+source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 1%
+source-wordcount: '673'
+ht-degree: 0%
 
 ---
 

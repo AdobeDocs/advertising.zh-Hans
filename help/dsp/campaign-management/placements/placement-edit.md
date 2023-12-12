@@ -3,9 +3,9 @@ title: 编辑投放位置
 description: 了解如何编辑投放位置。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: e0bd3d4ff50b32dd44ba413b83445866de6f3a75
+source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
