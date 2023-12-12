@@ -1,74 +1,73 @@
 ---
-title: 建立及實作自訂區段
-description: 瞭解如何建立和實施自訂區段，以追蹤對廣告公開的使用者或造訪您網頁的使用者。
+title: 创建和实施自定义区段
+description: 了解如何创建和实施自定义区段以跟踪向广告公开的用户或访问您网页的用户。
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 67b59f4f066d25f323620b83b5a0cb49beb3ee04
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
-# 建立及實作自訂區段
+# 创建和实施自定义区段
 
-您可以建立並實作自訂DSP區段，藉此收集您自己的第一方對象資料。 您可以使用區段來追蹤a)從案頭、行動裝置和CTV裝置接觸到廣告的使用者，以及b)造訪特定網頁的使用者。 您稍後可以使用其他廣告重新鎖定區段中的使用者，或避免區段中的使用者收到其他廣告。
+您可以通过创建和实施自定义DSP区段来收集您自己的第一方受众数据。 您可以使用区段跟踪a)从桌面和移动设备向广告展示的用户以及b)访问特定网页的用户。 之后，您可以使用其他广告重新定位区段中的用户，或阻止区段中的用户接收其他广告。
 
 >[!NOTE]
 >
->若要追蹤網站上消費者選擇退出銷售請求的使用者ID，請根據加州消費者隱私法(CCPA)，建立 [CCPA選擇退出銷售區段](ccpa-opt-out-segment-create.md).
+>要根据加州消费者隐私法案(CCPA)在网站上跟踪消费者选择退出销售请求的用户ID，请创建 [CCPA选择退出销售区段](ccpa-opt-out-segment-create.md).
 
-1. 建立區段：
+1. 创建区段：
 
-   1. 在主功能表中，按一下 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
+   1. 在主菜单中，单击 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
-   1. 在資料表格上方，按一下 **[!UICONTROL Create]**.
+   1. 在数据表的上方，单击 **[!UICONTROL Create]**.
 
-   1. 輸入唯一值 **[!UICONTROL Segment Name]**.
+   1. 输入唯一值 **[!UICONTROL Segment Name]**.
 
-   1. 對於 **[!UICONTROL Segment Type]**，選取 *[!UICONTROL Custom]*.
+   1. 对于 **[!UICONTROL Segment Type]**，选择 *[!UICONTROL Custom]*.
 
-   1. 輸入 **[!UICONTROL Segment Window]**，即使用者的Cookie在區段中保留的天數。
+   1. 输入 **[!UICONTROL Segment Window]**，即用户的Cookie在区段中保留的天数。
 
-      預設期間為45天。 輸入從一(1)到365的值。
+      默认窗口为45天。 输入一个介于1 (1)到365之间的值。
 
    1. 单击 **[!UICONTROL Save]**.
 
-1. 視需要複製並實作標籤以追蹤區段：
+1. 根据需要复制并实施标记以跟踪区段：
 
-   1. 返回至 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
+   1. 返回到 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
-   1. 將游標停留在區段列上並按一下 **[!UICONTROL Get Pixel]**.
+   1. 将光标悬停在区段行上并单击 **[!UICONTROL Get Pixel]**.
 
-      * 若要追蹤網頁的案頭和行動訪客：
+      * 要跟踪网页的桌面和移动设备访客，请执行以下操作：
 
-         1. 複製標示為「 」的頁面檢視追蹤標籤[!UICONTROL Desktop or mobile websites].」
+         1. 复制标记为“ ”的页面查看跟踪标记[!UICONTROL Desktop or mobile websites]“
 
-         1. 為廣告商或網站連絡人提供標籤以進行部署。
+         1. 将标记提供给广告商或网站联系人以进行部署。
 
-            廣告商的IT部門或其他群組可能需要排程標籤部署，或通知標籤部署。
-      * 若要追蹤在桌上型電腦、行動裝置或CTV裝置上向廣告單元公開的使用者：
+            广告商的IT部门或其他组可能需要计划标记部署或通知标记部署。
 
-         1. 複製標示為「 」的曝光追蹤標籤[!UICONTROL Desktop or mobile ads].」
+      * 要在桌面或移动设备上跟踪向广告单元公开的用户，请执行以下操作：
 
+         1. 复制标记为的展示跟踪标记&quot;[!UICONTROL Desktop or mobile ads]“
 
-1. 將標籤新增至 [!UICONTROL Pixel] 標籤內的每個相關廣告或至 [!UICONTROL Event Pixels] 部分 [[!UICONTROL Tracking] 每個相關位置的設定](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+1. 将标记添加到 [!UICONTROL Pixel] 选项卡，或者转到 [!UICONTROL Event Pixels] 的部分 [[!UICONTROL Tracking] 每个相关投放位置的设置](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
-實施追蹤標籤後，您便可以在任何位置的對象目標或排除專案中使用區段。
+实施跟踪标记后，您可以在受众目标或排除项中将该区段用于任何投放位置。
 
 >[!TIP]
 >
->在追蹤使用者時追蹤區段大小。
+>在跟踪用户时跟踪区段大小。
 
 >[!MORELIKETHIS]
 >
->* [關於對象管理](audience-about.md)
->* [編輯區段資訊](segment-edit.md)
->* [刪除區段](segment-delete.md)
->* [檢視區段的追蹤畫素](segment-view-pixels.md)
->* [共用或停止共用區段](segment-share.md)
->* [建立及實作 [!UICONTROL CCPA Opt-Out-of-Sale] 區段](ccpa-opt-out-segment-create.md)
->* [建立可重複使用的對象](reusable-audience-create.md)
->* [可用的第三方資料提供者](third-party-data-providers.md)
->* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)
-
+>* [关于受众管理](audience-about.md)
+>* [编辑区段信息](segment-edit.md)
+>* [删除区段](segment-delete.md)
+>* [查看区段的跟踪像素](segment-view-pixels.md)
+>* [共享或停止共享区段](segment-share.md)
+>* [创建和实施 [!UICONTROL CCPA Opt-Out-of-Sale] 区段](ccpa-opt-out-segment-create.md)
+>* [创建可重复使用的受众](reusable-audience-create.md)
+>* [可用的第三方数据提供商](third-party-data-providers.md)
+>* [投放设置](/help/dsp/campaign-management/placements/placement-settings.md)
