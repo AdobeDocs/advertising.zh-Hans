@@ -1,21 +1,15 @@
 ---
-title: 在Adobe Target中为Adobe Advertising广告配置A/B测试
+title: 在Adobe Target中为Adobe Advertising DSP广告配置A/B测试
 description: 了解如何在中设置A/B测试 [!DNL Target] 用于您的DSP广告。
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 48f755b6f3ac00a69086fe4c7ce69d320946635b
+source-git-commit: 7ffa5d3e9f1aae0f9d66d87c74807e491e818daa
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Target中为Advertising DSP广告配置A/B测试
-
-<!-- In title and Heading1:  DSP and [!DNL Advertising Search, Social, & Commerce] Ads -->
-
-<!-- Add [!UICONTROL and [!DNL tags throughout as needed. -->
-
-<!-- Break into sub-files, or just leave as one? -->
 
 *仅使用Advertising DSP的广告商*
 
@@ -23,7 +17,7 @@ Adobe Advertising和Adobe Target使得营销人员能够更轻松地通过付费
 
 * 通过将DSP促销活动中的客户广告曝光度与其网站上的体验关联，降低网站流失率。
 
-* 通过使用Adobe Audience Manager曝光数据和点击馈送Target受众来镜像广告消息传递的现场体验，从而建立A/B测试。
+* 通过使用Adobe Audience Manager曝光数据和点击馈送功能镜像广告消息传递的现场体验，从而建立A/B测试 [!DNL Target] 受众。
 
 * 在Adobe Analytics中使用简单的可视化图表来衡量统一消息对网站目标提升的影响 [!DNL Target].
 
@@ -45,8 +39,6 @@ Adobe Advertising和Adobe Target使得营销人员能够更轻松地通过付费
 
 ## 步骤1：设置点进框架 {#click-through-framework}
 
-<!-- [If separate page, add "Adobe" before first-use of product names.] -->
-
 ![点进框架](/help/integrations/assets/target-ct-framework.png)
 
 将DSP宏添加到点进URL（用户单击广告并到达登陆页面时显示的URL）时，DSP通过包含以下内容自动捕获投放位置键 `${TM_PLACEMENT_ID}` 点进URL中。 此宏捕获字母数字版面密钥，而不是数字版面ID。
@@ -66,8 +58,6 @@ Adobe Advertising和Adobe Target使得营销人员能够更轻松地通过付费
 请联系您的Adobe客户团队和广告解决方案小组(aac-advertising-solutions-group@adobe.com)，以检索所需的版面密钥并完成设置，并确保每个点进URL都填入了版面密钥。
 
 ## 步骤2：使用Audience Manager设置浏览框架 {#view-through-framework}
-
-<!-- [If separate page, add "Adobe" before first-use of product names.] -->
 
 ![浏览框架](/help/integrations/assets/targetr-vt-framework.png)
 
@@ -99,55 +89,53 @@ Adobe Advertising和Adobe Target使得营销人员能够更轻松地通过付费
 
       * 为特征命名，使其在测试活动中易于识别。 将特征存储在您喜欢的任何文件夹中。
 
-      * 选择 `Ad Cloud` 作为 **数据源**.
+      * 选择 `Ad Cloud` 作为 **[!UICONTROL Data Source]**.
 
-      * 对于特征表达式，请使用 `d_event` 作为 **键** 和 `imp` 作为 **值**.
+      * 对于特征表达式，请使用 `d_event` 作为 **[!UICONTROL Key]** 和 `imp` 作为 **[!UICONTROL Value]**.
 
-   1. [设置测试区段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) 对于Audience Manager中的新特征，选择 `Ad Cloud` 作为 **数据源**.
+   1. [设置测试区段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) 对于Audience Manager中的新特征，选择 `Ad Cloud` 作为 **[!UICONTROL Data Source]**.
 
       Audience Manager会自动将区段拆分为接收标准登陆页面体验的控制组，以及接收个性化现场体验的测试组。
 
-## 步骤3：在Target中设置“A/B测试”活动
+## 步骤3：在中设置A/B测试活动 [!DNL Target] 适用于DSP的
 
-<!-- [If separate page, add "Adobe" before first-use of product names.] -->
-
-以下说明突出显示与DSP用例相关的信息。 有关完整说明，请参阅“”。
+以下说明突出显示与DSP用例相关的信息。
 
 1. [登录到Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
 1. [创建A/B测试](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)：
 
-   1. 在 **输入活动URL** 字段中，输入测试的登陆页面URL。
+   1. 在 **[!UICONTROL Enter Activity URL]** 字段中，输入测试的登陆页面URL。
 
       >[!NOTE]
       >
       >您可以使用多个URL来测试浏览网站条目。 有关更多信息，请参阅&quot;[多页面活动](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html)“ 通过创建 [网站进入报表](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) 在Analytics中。
 
-   1. 在 **目标** 字段中，输入测试的成功量度。
+   1. 在 **[!UICONTROL Goal]** 字段中，输入测试的成功量度。
 
       >[!NOTE]
       >
       >确保 [!DNL Analytics] 在中启用为数据源 [!DNL Target]，并选择正确的报表包。
 
-   1. 设置 **优先级** 到 `High` 或 `999` 以防止在测试区段中的用户收到错误的现场体验时发生冲突。
+   1. 设置 **[!UICONTROL Priority]** 到 `High` 或 `999` 以防止在测试区段中的用户收到错误的现场体验时发生冲突。
 
-   1. 范围 **报表设置**，选择 **公司名称** 和 **报表包** 已连接到您的DSP帐户。
+   1. 范围 **[!UICONTROL Reporting Settings]**，选择 **[!UICONTROL Company Name]** 和 **[!UICONTROL Report Suite]** 已连接到您的DSP帐户。
 
       有关其他报表提示，请参阅&quot;[报表最佳实践和疑难解答](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html)“
 
-   1. 在 **日期范围** 字段中，输入测试的相应起始日期和终止日期。
+   1. 在 **[!UICONTROL Date Range]** 字段中，输入测试的相应起始日期和终止日期。
 
    1. 将受众添加到活动：
 
       1. 选择 [您之前在Audience Manager中创建的区段来测试浏览受众](#view-through-framework).
 
-      1. 选择 **网页** > **登陆页面** > **查询**，并在中输入DSP放置键 **值** 用于为点进受众使用Target查询字符串参数的字段。
+      1. 选择 **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]**，并在中输入DSP放置键 **[!UICONTROL Value]** 用于为点进受众使用Target查询字符串参数的字段。
 
-   1. 对于 **流量分配方法**，选择 **手动（默认）** 然后把观众分成五成半。
+   1. 对于 **[!UICONTROL Traffic Allocation Method]**，选择 **[!UICONTROL Manual (Default)]** 然后把观众分成五成半。
 
    1. 保存活动。
 
-1. 使用 [!DNL Target] [可视化体验编辑器](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) 对A/B测试登陆页面模板进行设计更改。
+1. 使用 [Target可视化体验编辑器](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) 对A/B测试登陆页面模板进行设计更改。
 
    * 体验A：请勿编辑，因为这是无个性化的默认/控制登陆页面体验。
 
@@ -171,31 +159,31 @@ Adobe Advertising和Adobe Target使得营销人员能够更轻松地通过付费
 
 #### 量度
 
-* 在工作区中创建一个面板，该面板特定于运行测试的Adobe Advertising促销活动、包或投放位置。 使用概要可视化图表显示同一报表中的Adobe Advertising度量和Target测试性能。
+* 在工作区中创建一个面板，该面板特定于运行测试的Adobe Advertising促销活动、包或投放位置。 使用摘要可视化图表显示同一报表中的Adobe Advertising指标。 [!DNL Target] 测试性能。
 
 * 优先使用现场量度（例如访问和转化）来衡量绩效。
 
-* 了解来自Adobe Advertising的汇总媒体量度（例如展示次数、点击量和成本）无法与Target量度匹配。
+* 了解来自Adobe Advertising的汇总媒体量度（例如展示次数、点击量和成本）无法与 [!DNL Target] 量度。
 
 #### Dimension
 
 以下维度与 [!DNL Analytics for Target]：
 
-* **Target活动**：A/B测试的名称
+* **[!UICONTROL Target Activities]**：A/B测试的名称
 
-* **Target体验**：活动中使用的登陆页面体验的名称
+* **[!UICONTROL Target Experiences]**：活动中使用的登陆页面体验的名称
 
-* **Target活动** > **体验**：同一行中的活动名称和体验名称
+* **[!UICONTROL Target Activity]** > **[!UICONTROL Experience]**：同一行中的活动名称和体验名称
 
 ### Analytics疑难解答 [!DNL Target] 数据
 
 在Analysis Workspace中，如果您发现活动和体验数据很少或未填充数据，请执行以下操作：
 
-* 验证Target和Analytics是否使用了相同的补充数据ID (SDID)。 您可以使用验证SDID值 [Adobe Experience Cloud调试器](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) 在营销活动将用户引导到的登陆页面上。
+* 验证是否相同 [!UICONTROL Supplemental Data ID] (SDID)同时用于 [!DNL Target] 和 [!DNL Analytics]. 您可以使用验证SDID值 [Adobe Experience Cloud调试器](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) 在营销活动将用户引导到的登陆页面上。
 
 [Adobe Debugger中的补充数据ID (SDID)值](/help/integrations/assets/target-troubleshooting-sdid.png)
 
-* 在同一登录页上，验证a)“解决方案”>“目标”下的Adobe Debugger中显示的主机名是否与b)中显示的“跟踪服务器”相匹配 [!DNL Target] （在“目标和设置”>“报表设置”下）。
+* 在同一登陆页面上，验证a) [!UICONTROL Hostname] 在Adobe Debugger中显示在 [!UICONTROL Solutions] > [!UICONTROL Target] 匹配b) [!UICONTROL Tracking Server] 显示位置 [!DNL Target] 对于活动(在 [!UICONTROL Goals & Settings] > [!UICONTROL Reporting Settings])。
 
   [!DNL Analytics For Target] 需要 [!DNL Analytics] 要以调用形式发送的跟踪服务器 [!DNL Target] 到 [!DNL Modstats] Analytics的数据收集服务器。<!-- just "to Analytics?"-->
 
@@ -205,14 +193,12 @@ Adobe Advertising和Adobe Target使得营销人员能够更轻松地通过付费
 
 ## 进一步阅读
 
-* [将Target与Analytics集成](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html) — 介绍如何在Analysis Workspace中设置Target报表。
+* [将Target与Analytics集成](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html)  — 说明如何设置 [!DNL Target] Analysis Workspace中的报表。
 * [A/B测试概述](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html)  — 介绍可与DSP广告一起使用的A/B测试活动。
 * [体验和选件](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html)  — 解释 [!DNL Target] 用于确定向DSP测试用户展示的现场内容的工具。
 * [信号、特征和区段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html)  — 定义一些有助于进行DSP显示到达测试的Audience Manager工具。
 * [Analytics for Advertising概述](/help/integrations/analytics/overview.md)  — 引入了Analytics for Advertising，它允许您跟踪Analytics实例中的点进和浏览网站交互。
 
-<!-- 
 >[!MORELIKETHIS]
 >
->* 
--->
+>* [在Adobe Target中为广告搜索、社交和商务广告配置A/B测试](ab-tests-search.md)
