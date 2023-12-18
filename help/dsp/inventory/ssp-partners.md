@@ -3,9 +3,9 @@ title: SSP合作伙伴
 description: 查看可用供应方平台(SSP)和开放交换合作伙伴的列表。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
+source-git-commit: bb8e99e94a1425cf86afc848bae8f2f92b4d487d
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 | 列出SSP | 公司 | 座位 ID | 计划性保证支持 | 区域 | 支持的货币 | 视频桌面 | 视频移动设备 | Video TV | 显示桌面 | 显示移动设备 | 本机显示 | 音频桌面和移动设备 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | [!DNL AdColony] (以前 [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | 否 | 全局 | 美元 | x | x |  | x | x |  |  |
-| [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | 否 | 全局 | 美元、欧元、英镑 |  |  |  |  |  |  | x |
+| [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | 是 | 全局 | 美元、欧元、英镑 |  |  |  |  |  |  | x |
 | [!DNL AppNexus] | [!DNL Xandr] | 视频座位ID：9094<br>展示座位ID：3939 | 否 | 全局 | 美元 | x | x | x | x | x |  |  |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] 或Adobe Advertising | 否 | 美国+ EMEA | 美元，欧元 | x | x | x | x | x |  |  |
 | [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | 否 | US/CA | 美元 | x | x | x | x | x |  |  |
