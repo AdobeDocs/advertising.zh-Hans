@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: e1ae2bb601bc00dad8c611a00cb6ba88c9c57dee
+source-git-commit: 6b2ed619b5f902207720b646693253244cd7b567
 workflow-type: tm+mt
-source-wordcount: '1836'
+source-wordcount: '1893'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023年12月21日 | [!UICONTROL Audiences] | 文档现在可用于共享来自的第一方数据 [!DNL Tealium] 使用以下工具使用DSP的客户数据平台 [!DNL Amazon Web Services]. 您可以使用将DSP投放位置定位到区段 [!DNL RampIDs]. 在的放置设置内 [!UICONTROL Audience Targeting]中，共享区段位于 [!UICONTROL First Party Segments] 列表。 | 请参阅&quot;[关于从受众源激活经过身份验证的区段](/help/dsp/audiences/sources/source-about.md)”和“[用于将DSP集成与配合使用的工作流 [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)“ |
 | 2023年12月6日 | 规划者 | （Beta版功能）该新规划工具有助于根据指定的预算和定位标准预测联网电视(CTV)投放的家庭级独特覆盖范围。 评估多个计划后，您可以实施最符合期望结果的包和投放位置。 | 请参阅&quot;[关于DSP Planner工具](/help/dsp/planner/planner-about.md)“ |
 |  | 优化 | 两个新的基于点击的优化目标可供所有用户使用： **[!UICONTROL Highest ROAS (click focused) - Custom Goal]** 和 **[!UICONTROL Lowest CPA (click focused) - Custom Goal]**. | 请参阅&quot;[优化目标及其使用方式](/help/dsp/optimization/optimization-goals.md)”和“[设置效果活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)“ |
 | 2023年9月27日 | 优化 | 两个新的基于触及的优化目标， **[!UICONTROL Always Max Bid and Maximize Reach]** 和 **[!UICONTROL Lowest Cost per Reach]**，帮助您分别使用相同的展示次数或支出水平接触到尽可能多的独特家庭。 这两个目标在包级别和投放位置级别均可用。 | 请参阅&quot;[优化目标及其使用方式](/help/dsp/optimization/optimization-goals.md)“ |

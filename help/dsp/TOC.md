@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: eb4db7c91d98cd14e9006f0647f964cdf054962f
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '949'
 ht-degree: 3%
 
 ---
@@ -150,7 +150,11 @@ ht-degree: 3%
       + [受众区段逻辑的语法](/help/dsp/audiences/audience-segment-logic-syntax.md)
    + 源 {#sources}
       + [关于从受众源激活经过身份验证的区段](/help/dsp/audiences/sources/source-about.md)
-      + [从持久ID合作伙伴激活经过身份验证的区段](/help/dsp/audiences/sources/source-durable-id.md)
+      + 按客户数据平台显示的工作流 {#sources-workflows}
+         + [!DNL Adobe Real-Time CDP] {#sources-adobe-rt-cdp}
+            + [用于将DSP集成与配合使用的工作流 [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+            + [从通用ID合作伙伴激活经过身份验证的区段](/help/dsp/audiences/sources/source-universal-id.md)
+         + [用于将DSP集成与配合使用的工作流 [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
       + [创建受众源以激活第一方受众](/help/dsp/audiences/sources/source-create.md)
       + [受众源设置](/help/dsp/audiences/sources/source-settings.md)
    + [可用的第三方数据提供商](/help/dsp/audiences/third-party-data-providers.md)

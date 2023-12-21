@@ -1,45 +1,47 @@
 ---
-title: 關於從受眾來源啟用已驗證的區段
-description: 瞭解如何從客戶資料平台擷取第一方區段。
+title: 关于从受众源激活经过身份验证的区段
+description: 了解如何从客户数据平台引入第一方区段。
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 68095fc77659826fae43f2453d17022ef1880807
+source-git-commit: e3e8753db31bc835c49eb2037fdcd7696a895a8c
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 2%
+source-wordcount: '282'
+ht-degree: 0%
 
 ---
 
-# 關於從受眾來源啟用已驗證的區段
+# 关于从受众源激活经过身份验证的区段
 
-<!-- Doesn't specifically explain what you can do in our UI -->
+DSP可以摄取第一方区段，这些区段由在客户数据平台(CDP)中构建的经过哈希处理的电子邮件ID或通用ID组成。 您可以将摄取的区段用作投放的目标。
 
-DSP可以內嵌第一方區段(由客戶資料平台(CDP)內建立的已驗證訊號所組成)。 您可以使用擷取的區段作為版位目標。
+以下CDP已建立连接器，但DSP也可以使用批处理、流式传输或基于API的数据共享连接到任何CDP。 要与新的CDP集成，请联系您的Adobe客户团队。
 
-## [!DNL Adobe Real-Time Customer Data Profile]
+## [!DNL Adobe Real-Time Customer Data Platform]
 
-DSP已與 [此 [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hans)，是Adobe Experience Platform的一部分。
+DSP已与 [该 [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hans)，它是Adobe Experience Platform的一部分。
 
-在 [!DNL Real-time CDP]， *目的地* 是與外部資料平台的連線，可順暢地啟用資料。 例如，您可以使用目的地來針對各種DSP支援的數位格式的目標廣告啟用已知的客戶關係（例如雜湊電子郵件地址）。
+在 [!DNL Real-Time CDP]， *目标* 是到外部数据平台的连接，可无缝激活数据。 例如，您可以使用目标为各种DSP支持的数字格式的目标广告激活已知的客户关系（如哈希电子邮件地址）。 有关目标的更多信息，请参阅Experience Platform [目标指南](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)，包括产品概述，说明 [创建目标工作区](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) 和 [创建目标连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html)、和 [将数据激活到目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
-如需目的地的詳細資訊，請參閱Experience Platform [目的地指南](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)，包括產品概觀，說明 [建立目的地工作區](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) 和 [建立目的地連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html)、和 [啟用目的地資料](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
+请参阅&quot;[用于将DSP集成与配合使用的工作流 [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)“
 
-### 搭配使用DSP整合的工作流程 [!DNL Real-time CDP] {#workflow-sources}
+## [!DNL ActionIQ]
 
-1. [允許DSP將客戶資料區段轉譯為 [!DNL LiveRamp RampIDs]](source-durable-id.md) 在競標環境中可辨識的專案。<!-- I don't think I need this here: This requires DSP account-level and campaign-level settings to enable segment sharing with [!DNL LiveRamp], which will translate customer data to [!DNL RampIDs] to create targetable segments. Your Adobe Account Team will perform this configuration. -->
+您可以从以下位置共享您组织的第一方数据 [!DNL Action IQ] 使用DSP的客户数据平台。 然后，您可以使用将DSP投放定位到区段 [!DNL RampIDs] 或 [!DNL Unified IDs 2.0].
 
-1. [建立對象來源](source-create.md) 將受眾匯入您的DSP帳戶或廣告商帳戶。
+此集成需要自定义。 有关更多信息，请与您的Adobe客户团队联系。
 
-1. [設定 [!DNL Real-Time CDP] Experience Platform中的目的地連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).
+## [!DNL Tealium]
 
-如需其他支援，請聯絡您的Adobe客戶團隊或 `adcloud-support@adobe.com`.
+您可以从以下位置共享您组织的第一方数据 [!DNL Tealium] 客户数据平台使用 [!DNL Amazon Web Services]. 然后，您可以使用将DSP投放定位到区段 [!DNL RampIDs]. 请参阅&quot;[用于将DSP集成与配合使用的工作流 [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)“
 
 >[!MORELIKETHIS]
 >
->* [從持久ID合作夥伴啟用已驗證的區段](source-durable-id.md)
->* [建立受眾來源以啟用第一方受眾](source-create.md)
->* [對象來源設定](source-settings.md)
->* [AdobeAdvertising DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* Adobe Experience Platform [目的地目錄概觀](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
->* [關於對象管理](/help/dsp/audiences/audience-about.md)
+>* [用于将DSP集成与配合使用的工作流 [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [用于将DSP集成与配合使用的工作流 [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
+>* [创建受众源以激活第一方受众](source-create.md)
+>* [受众源设置](source-settings.md)
+>* [关于受众管理](/help/dsp/audiences/audience-about.md)
 
+<!--
+>* [Workflow for Using the DSP Integration with [!DNL ActionIQ]](/help/dsp/audiences/sources/source-actioniq.md)
+-->
