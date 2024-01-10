@@ -3,9 +3,9 @@ title: 编辑投放位置的广告计划
 description: 了解如何更改附加到投放位置的广告的广告计划。
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: a001d7fbde6ef1346383925db9179d824eb7bb78
+source-git-commit: bc45e96cf091cba3872b20f6ea691e369b29982f
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
       * 要平均旋转航班广告，请输入 `[!UICONTROL Even]`.
 
-      * 要不均匀旋转投放的广告，请输入每个广告旋转的相对权重（百分比）。 航班的总重量必须等于100。
+      * 要不均匀地旋转投放的广告，请输入每个广告旋转的相对权重，以百分比表示(例如 `40` 40%)。 航班的总重量必须等于100。
 
 1. 上传已编辑的广告计划模板：
 
