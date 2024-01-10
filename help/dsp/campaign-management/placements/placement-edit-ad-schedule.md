@@ -3,7 +3,7 @@ title: 编辑投放位置的广告计划
 description: 了解如何更改附加到投放位置的广告的广告计划。
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 042cd16591869668339a27fa36de57aa1825dd51
+source-git-commit: a001d7fbde6ef1346383925db9179d824eb7bb78
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
@@ -32,13 +32,13 @@ ht-degree: 0%
 
 1. 打开下载的文件，编辑要包含在航班中的每个广告行的航班信息字段，并保存更新的文件：
 
-   **[!UICONTROL Flight N Start Date]** / **[!UICONTROL Flight N End Date]** (例如 [!UICONTROL Flight 1 Start Date] 和 [!UICONTROL Flight 1 End Date])：航班的第一个日期和最后日期。 对各个日期使用YYYY-MM-DD格式。 任何包含空投放日期字段的广告都被视为非参与广告。
+   * **[!UICONTROL Flight N Start Date]** / **[!UICONTROL Flight N End Date]** (例如 [!UICONTROL Flight 1 Start Date] 和 [!UICONTROL Flight 1 End Date])：航班的第一个日期和最后日期。 对各个日期使用YYYY-MM-DD格式。 任何包含空投放日期字段的广告都被视为非参与广告。
 
-   **[!UICONTROL Flight N Weight]** (例如 [!UICONTROL Flight 1 Weight])：如何旋转航班广告。 输入值：
+   * **[!UICONTROL Flight N Weight]** (例如 [!UICONTROL Flight 1 Weight])：如何旋转航班广告。 输入值：
 
-   * 要平均旋转航班广告，请输入“**[!UICONTROL Even]**“。
+      * 要平均旋转航班广告，请输入 `[!UICONTROL Even]`.
 
-   * 要不均匀旋转投放的广告，请输入每个广告旋转的相对权重（百分比）。 航班的总重量必须等于100。
+      * 要不均匀旋转投放的广告，请输入每个广告旋转的相对权重（百分比）。 航班的总重量必须等于100。
 
 1. 上传已编辑的广告计划模板：
 
