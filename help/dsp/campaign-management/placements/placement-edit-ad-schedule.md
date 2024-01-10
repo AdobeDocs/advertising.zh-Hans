@@ -3,44 +3,52 @@ title: 编辑投放位置的广告计划
 description: 了解如何更改附加到投放位置的广告的广告计划。
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 0b89d346aa7d1443e50605e1300a6a3645fe9b21
+source-git-commit: d993ffe4a7dceed36ecbae85642e82de271432cd
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
 # 编辑投放位置的广告计划
 
-<!--
+## 编辑一个或多个投放的广告计划
 
-## Edit the Ad Schedules for One or More Placements
+您可以使用更改附加到多个投放位置的广告的计划投放日期和广告轮换 [!DNL Microsoft Excel] 电子表格。 每个广告都可以在多次飞行期间处于活动状态。
 
-You can change the scheduled flight dates and ad rotation for the ads attached to multiple placements using a [!DNL Microsoft Excel] spreadsheet. Each ad can be active during multiple flights.
+1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
 
-1. In the main menu, click **[!UICONTROL Campaigns]**.
+1. 单击营销活动的名称。
 
-1. Click the name of the campaign.
+1. 在子菜单中，单击 **[!UICONTROL Placements]**.
 
-1. In the submenu, click **[!UICONTROL Placements]**.
+1. 选中要下载其广告数据的每个投放位置旁边的复选框。
 
-1. Select the check box next to each placement whose ad data you want to download.
+1. 在批量操作工具栏中，单击 **[!UICONTROL ...]** > **[!UICONTROL Download Custom Ad Schedule Sheet]**.
 
-1. In the bulk actions toolbar, click **[!UICONTROL ...]** > **[!UICONTROL Download Custom Ad Schedule Sheet]**.
+1. 文件可用时，单击 **[!UICONTROL Download]** 在浏览器页面顶部的通知中，根据浏览器的正常过程下载工作表文件（XLSX格式）。
 
-1. When the file is available, click **[!UICONTROL Download]** in the notification at the top of the browser page to download a worksheet file (in XLSX format) according to your browser's normal procedure..
+   ![下载就绪通知](/help/dsp/assets/download-ready.png "下载就绪通知")
 
-   ![Download Ready notification](/help/dsp/assets/download-ready.png "Download Ready notification")
+1. 打开下载的文件，根据需要编辑航班信息，并保存更新的文件：
 
-1. Open the downloaded file and edit the flight dates as needed.
+   * 要添加航班，请使用为要包含在航班中的每个广告行指定航班日期 **[!UICONTROL Flight N Start Date]** 和 **[!UICONTROL Flight N End Date]** 列。 对各个日期使用YYYY-MM-DD格式。
 
-1. Upload the edited ad schedule template:
+     例如，对于首次投放中的广告，请在 [!UICONTROL Flight 1 Start Date] 和 [!UICONTROL Flight 1 End Date] 字段。 如果广告行尚未包含在文件中，请在新行中输入所需的广告信息。
 
-   1. Select the check box next to each applicable placement.
+     任何包含空投放日期字段的广告都被视为非参与广告。
 
-   1. In the bulk actions toolbar, click **[!UICONTROL ...]** > **[!UICONTROL Upload Custom Ad Schedule Sheet]**, and specify the file to upload.
+   * 要平均旋转航班广告，请输入“**[!UICONTROL Even]**“（在相关中） **[!UICONTROL Flight N Weight]** 字段(如 [!UICONTROL Flight 1 Weight])。
 
--->
+   * 要不均匀旋转投放的广告，请在相关字段中输入旋转每个广告的相对权重（以百分比表示） **[!UICONTROL Flight N Weight]** 字段(如 [!UICONTROL Flight 1 Weight])。
+
+     每次飞行的总重量必须等于100。
+
+1. 上传已编辑的广告计划模板：
+
+   1. 选中每个适用放置旁边的复选框。
+
+   1. 在批量操作工具栏中，单击 **[!UICONTROL ...]** > **[!UICONTROL Upload Custom Ad Schedule Sheet]**，并指定要上传的文件。
 
 ## 编辑单个投放的广告计划
 
