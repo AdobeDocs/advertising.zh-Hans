@@ -3,18 +3,16 @@ title: 邀请组织帐户的新用户
 description: 了解如何邀请新用户加入帐户。
 role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
-source-git-commit: 97e91adf4edf7ac482e949d3e1d4be6c883a589c
+source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
 
 # 邀请组织帐户的新用户
 
-*仅限管理员用户*
-
-您可以为该帐户邀请一个新用户。 用户接受邀请后，便可以访问帐户的所有广告商。 默认情况下，新用户具有只读访问权限。
+管理员用户可以为该帐户邀请一个新用户。 用户接受邀请后，便可以访问帐户的所有广告商。 默认情况下，新用户具有只读访问权限。
 
 如有必要，您可以取消具有待处理邀请的用户的邀请。
 

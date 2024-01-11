@@ -3,18 +3,16 @@ title: 取消邀请待处理用户
 description: 了解如何取消待处理用户邀请。
 role: Admin
 exl-id: 62a5d50c-b836-4a15-ba5a-6eb7a0f26570
-source-git-commit: 97e91adf4edf7ac482e949d3e1d4be6c883a589c
+source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
 
 # 取消邀请待处理用户
 
-*仅限管理员用户*
-
-您可以取消具有待处理邀请的用户的邀请。 取消邀请用户会使发送到指定电子邮件地址的邀请链接中的令牌失效。
+管理员用户可以取消具有待处理邀请的用户的邀请。 取消邀请用户会使发送到指定电子邮件地址的邀请链接中的令牌失效。
 
 1. 执行以下任一操作：
 

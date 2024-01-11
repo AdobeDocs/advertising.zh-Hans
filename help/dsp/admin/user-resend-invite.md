@@ -3,18 +3,16 @@ title: 重新发送待处理用户邀请
 description: 了解如何重新发送待处理用户邀请。
 role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
-source-git-commit: 97e91adf4edf7ac482e949d3e1d4be6c883a589c
+source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
 
 # 重新发送待处理用户邀请
 
-*仅限管理员用户*
-
-您可以向具有组织帐户的待处理邀请的用户重新发送邀请。
+管理员用户可以向具有组织帐户待定邀请的用户重新发送邀请。
 
 1. 执行以下任一操作：
 
