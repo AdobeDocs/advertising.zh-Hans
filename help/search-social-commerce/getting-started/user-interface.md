@@ -1,11 +1,11 @@
 ---
 title: 用户界面的组织方式
 description: 了解在何处访问不同的功能。
-exl-id: a1574502-70a4-4705-8ae6-0de590e1342b
+exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: de3c12275d5a6f05e52a8c080c26d93e837d9f71
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,6 @@ ht-degree: 0%
 每个页面的顶部包括主菜单和其他基于任务和信息的菜单。
 
 ## 主菜单
-
-顶层、主菜单选项基于可用的广告渠道。 您只会看到适用于您的广告渠道：
-
-* **[!UICONTROL DSP]** —(当您有权访问Adobe Advertising DSP(Demand Side Platform)时)管理您的显示和连接的电视广告。 单独的 [DSP指南](https://experienceleague.adobe.com/docs/advertising/dsp/home.html) 可用。
-
-* **[!UICONTROL Creative]** —(当您有权访问Adobe Advertising Creative时)自动提供实时、个性化的广告体验，并在创意元素级别优化您的广告。 Creative中提供了单独的帮助。
 
 * **[!UICONTROL Search]**  — 在Search、Social和Commerce中管理您的广告网络帐户，包括那些跟踪Search、Social和Commerce但不为其竞价的帐户。
 
