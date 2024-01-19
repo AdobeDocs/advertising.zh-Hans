@@ -1,8 +1,9 @@
 ---
-title: “用于将DSP集成与配合使用的工作流 [!DNL Adobe] [!DNL Real-time CDP]"
-description: “了解如何使DSP能够摄取 [!DNL Adobe] [!DNL Real-time CDP] 第一方客户细分。”
+title: 用于将DSP集成与配合使用的工作流 [!DNL Adobe] [!DNL Real-time CDP]
+description: 了解如何启用DSP以摄取 [!DNL Adobe] [!DNL Real-time CDP] 第一方区段。
 feature: DSP Audiences
-source-git-commit: fb42e4aacaf0ea22890e0b4a46719725c99fffdc
+exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
+source-git-commit: b94541bf8675d535b2f19b26c05235eb56bc6c0b
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%

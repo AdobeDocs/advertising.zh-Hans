@@ -1,18 +1,18 @@
 ---
 title: 管理营销活动
 description: 了解如何创建和管理广告营销活动。
-exl-id: 9406e4bd-d5a2-4744-ab71-fc52428e3af6
+exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-source-git-commit: 8521d686c9bd499dbe89b5acf27595c381041b44
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
 
 # 管理营销活动
 
-*[!DNL Baidu]， [!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex] 仅限帐户*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]， [!DNL Yandex]，并且现有 [!DNL Baidu] 仅限帐户*
 
 营销策划是广告网络帐户的主要组成部分。 对于大多数促销活动类型，它包含一组广告组或广告集。 促销活动设置包括促销活动预算参数、广告目标和促销活动中所有广告的可选跟踪参数。 营销活动级别的跟踪参数将覆盖帐户级别的参数，但跟踪参数本身可能会在较低的级别被覆盖。
 

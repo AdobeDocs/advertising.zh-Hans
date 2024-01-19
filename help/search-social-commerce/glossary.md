@@ -1,11 +1,11 @@
 ---
 title: 术语表
 description: 请参阅关键术语的定义。
-exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
+exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 11aaafc7f6b888a2cf341cbd7416c609450324fb
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '2024'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## C-D {#c-d}
 
-**营销活动：** 单个广告帐户中的一组广告组，它们共享预算、时间范围、定位和其他设置。 **注意：** [!DNL Baidu] 没有促销活动的概念，但“搜索”、“Social”和“Commerce”会为中的每组相关广告组创建伪促销活动。 [!DNL Baidu] 在Search、Social和Commerce中同步的。
+**营销活动：** 单个广告帐户中的一组广告组，它们共享预算、时间范围、定位和其他设置。 **注意：** [!DNL Baidu] 没有促销活动的概念，但Search、Social和Commerce会为现有广告组中的每组相关广告组创建伪促销活动 [!DNL Baidu] 在Search、Social和Commerce中同步的帐户。
 
 **区分大小写的字段：** 区分大小写的字段或查询处理大写字母（如C）的方式与处理小写字母（如c）的方式有所不同。 例如，将Car视为与car不同的值。
 

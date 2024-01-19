@@ -1,18 +1,18 @@
 ---
 title: 管理广告
 description: 了解如何创建和管理广告。
-exl-id: 9108bbfd-61e7-49fa-90ba-4eb276eb0897
+exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
 
 # 管理广告
 
-*[!DNL Baidu]， [!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex] 仅限帐户*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]， [!DNL Yandex]，并且现有 [!DNL Baidu] 仅限帐户*
 
 您可以从创建、编辑和更改广告状态 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Ads] 视图。
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 以下广告类型为 *可变*，这意味着您可以更改广告副本或图像并保留相同的广告ID：全部 [!DNL Google Ads] 广告类型（动态搜索广告除外），以及 [!DNL Microsoft Advertising] 扩展的文本广告。
->* 所有其他支持的广告包括 *不可变*，这意味着更改广告副本或图像会删除现有广告并创建新广告。 当Search、Social和Commerce收集足够的数据来优化竞价时，新广告的性能可能会出现几周内不稳定的情况。
+>* 所有其他支持的广告包括 *不可变*，这意味着更改广告副本或图像会删除现有广告并创建新广告。 当Search、Social和Commerce收集足够的数据来优化竞价时，新广告的性能可能在几周内不稳定。
 >* 除了的促销行之外，您无法编辑产品广告的内容 [!DNL Microsoft Advertising] 产品广告。 但是，您可以暂停或删除广告。
 
 >[!TIP]

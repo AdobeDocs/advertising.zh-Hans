@@ -1,18 +1,18 @@
 ---
 title: 创建负关键字
 description: 了解如何为搜索营销活动和广告组创建负面关键词。
-exl-id: 683e5395-cb65-4d7f-a981-7fc9f84d4192
+exl-id: afe786bf-eda8-4590-b471-3fb696c420de
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
 
 # 创建负关键字
 
-*[!DNL Baidu]， [!DNL Google Ads] 和 [!DNL Microsoft® Advertising]、和 [!DNL Yahoo! Japan Ads] 仅限帐户*
+*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads]，并且现有 [!DNL Baidu] 仅限帐户*
 
 您可以为定位搜索或显示/本机网络的搜索广告组或营销活动创建负关键字。 负关键字不会触发广告。
 

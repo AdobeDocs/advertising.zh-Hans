@@ -1,8 +1,9 @@
 ---
-title: “用于将DSP集成与配合使用的工作流 [!DNL Tealium]"
-description: “了解如何使DSP能够摄取 [!DNL Tealium] 第一方客户细分。”
+title: 用于将DSP集成与配合使用的工作流 [!DNL Tealium]
+description: 了解如何启用DSP以摄取 [!DNL Tealium] 第一方区段。
 feature: DSP Audiences
-source-git-commit: e7c967d66be9c8ca78a64d644c7e3a691f1e216a
+exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
+source-git-commit: b94541bf8675d535b2f19b26c05235eb56bc6c0b
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 0%

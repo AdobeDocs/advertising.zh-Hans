@@ -1,18 +1,18 @@
 ---
 title: 管理广告
 description: 了解Search、Social和Commerce中的广告，包括可用的广告类型。
-exl-id: 92ae631a-c35a-40ec-9d40-ebce13e3311b
+exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
 
 # 关于广告
 
-*[!DNL Baidu]， [!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex] 仅限帐户*
+*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads]， [!DNL Yandex]，并且现有 [!DNL Baidu] 仅限帐户*
 
 广告可以显示在目标网站上（针对内容或针对版面的促销活动）；当用户搜索广告组中的某个关键字（针对搜索促销活动）或搜索您网站上的内容时（针对中的动态搜索广告） [!DNL Google Ads] （仅限搜索的市场活动）；或者用户执行与您的项目之一相关的搜索时， [!DNL Google Merchant Center] 或 [!DNL Microsoft® Merchant Center] 产品信息源（购物广告） [!DNL Google Ads] 或产品广告位于 [!DNL Microsoft® Advertising] 营销活动)。
 

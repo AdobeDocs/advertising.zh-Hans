@@ -1,9 +1,9 @@
 ---
 title: 关于关键字
 description: 了解可竞价和负关键字的选项。
-exl-id: f9216251-e0ab-43c1-81da-30503ee9f54e
+exl-id: d94c6f3f-0ea3-4792-8a6d-78f3a2af80e8
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 关于关键字
 
-*[!DNL Baidu]， [!DNL Google Ads] 和 [!DNL Microsoft® Advertising]、和 [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex] 仅限帐户*
+*[!DNL Google Ads]和 [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads]， [!DNL Yandex]，并且现有 [!DNL Baidu] 仅限帐户*
 
 关键字是与广告关联的单词或短语。 关键词设置包括关键词匹配类型、关键词触发广告时可使用的最大竞价以及（某些广告网络）可选跟踪参数。 关键字级别的设置会覆盖广告组或营销活动设置。
 

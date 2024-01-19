@@ -1,11 +1,11 @@
 ---
 title: 管理广告网络帐户
 description: 了解如何设置和管理广告网络帐户的帐户详细信息。
-exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
+exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2082'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,18 @@ ht-degree: 0%
 
 以下是有关创建和编辑广告网络帐户详细信息、刷新 [!DNL oAuth] 帐户的令牌，并禁用帐户。
 
+有关每个广告网络可用功能的详细信息，请参阅&quot;[支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)“
+
 ## 创建广告网络帐户详细信息 {#create-account}
 
 *仅限代理客户经理、Adobe客户经理和管理员用户角色*
 
-要启用帐户的同步或跟踪，您必须创建相应的帐户记录，记录中包含帐户访问凭据和跟踪选项以及状态 *活动*. 有关每个广告网络可用功能的详细信息，请参阅&quot;[支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)“
+要启用帐户的同步或跟踪，您必须创建相应的帐户记录，记录中包含帐户访问凭据和跟踪选项以及状态 *活动*.
 
 >[!NOTE]
 >
->要在广告网络上创建实际的帐户，请转到广告网络的网站。
+>* 新版本不支持此功能 [!DNL Baidu] 帐户。
+>* 要在广告网络上创建实际的帐户，请转到广告网络的网站。
 
 1. 在主菜单中，单击 **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. 在子菜单中，单击 **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
@@ -84,7 +87,7 @@ ht-degree: 0%
 
 *仅限代理客户经理、Adobe客户经理和管理员用户角色*
 
-如果搜索、社交和商业部门使用访问帐户， [OAuth授权协议](https://oauth.net/2/) 帐户凭据发生更改，或者需要其他访问权限才能支持Search、Social和Commerce中的新功能，则必须获取帐户的新访问令牌。
+如果搜索、社交和商业部门使用访问帐户， [OAuth授权协议](https://oauth.net/2/) 并且帐户凭据发生更改，或者需要其他访问权限才能支持Search、Social和Commerce中的新功能，则必须获取帐户的新访问令牌。
 
 如果您的新功能需要新令牌，您的Adobe客户团队将通知您。
 
@@ -138,7 +141,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此处不支持广告网络管理器帐户。 为确定经理帐户 [!DNL Microsoft Advertising] 或 [!DNL Yandex]，分别使用主控的帐户ID或MCC帐户字段。 至 [设置凭据 [!DNL Google Ads] 经理帐户](/help/search-social-commerce/admin/manager-accounts.md)，转到 [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
+>此处不支持广告网络管理器帐户。 为确定经理帐户 [!DNL Microsoft Advertising] 或 [!DNL Yandex]，分别使用主帐户ID或MCC帐户字段。 至 [设置凭据 [!DNL Google Ads] 经理帐户](/help/search-social-commerce/admin/manager-accounts.md)，转到 [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
 
 **[!UICONTROL Account Name]：** 要在Search、Social和Commerce中为帐户显示的名称。
 
@@ -156,11 +159,11 @@ ht-degree: 0%
 
 **[!UICONTROL Login Details]： [!UICONTROL Login]：** (所有广告网络，除 [!DNL Naver])登录名或ID以启用对帐户的API访问。
 
-**[!UICONTROL Login Details]： [!UICONTROL OAuth Token]：** ([!DNL Microsoft Advertising] [!DNL oAuth]-enabled以及除以下网络之外的所有其他网络 [!DNL Baidu]， [!DNL Meta]、和 [!DNL Yandex])帐户的令牌，用于授权使用 [[!DNL OAuth] 授权协议](https://oauth.net/2/).
+**[!UICONTROL Login Details]： [!UICONTROL OAuth Token]：** ([!DNL Microsoft Advertising] [!DNL oAuth]-enabled以及除以下网络之外的所有其他网络 [!DNL Meta] 和 [!DNL Yandex])帐户的令牌，用于授权使用 [[!DNL OAuth] 授权协议](https://oauth.net/2/).
 
-**[!UICONTROL Login Details]： [!UICONTROL Password]：** (所有广告网络，除 [!DNL Naver])帐户的密码。 对于上的启用密码的帐户 [!DNL Baidu]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex]，此字段为必填字段。 对象 [!DNL oAuth]-enabled accounts，此字段为可选字段；当要加密并保存密码以便帐户管理员根据需要刷新令牌时，请使用该字段。
+**[!UICONTROL Login Details]： [!UICONTROL Password]：** (所有广告网络，除 [!DNL Naver])帐户的密码。 对于上的启用密码的帐户 [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex]，此字段为必填字段。 对象 [!DNL oAuth]-enabled accounts，此字段为可选字段；当要加密并保存密码以便帐户管理员根据需要刷新令牌时，请使用该字段。
 
-**[!UICONTROL Login Details]： [!UICONTROL Access Key]：** ([!DNL Baidu] 和 [!DNL Yandex] 仅限帐户)要使用的开发人员帐户的访问密钥。
+**[!UICONTROL Login Details]： [!UICONTROL Access Key]：** ([!DNL Yandex] 仅限帐户)要使用的开发人员帐户的访问密钥。
 
 **[!UICONTROL Currency]：** 用于帐户的货币的缩写。 此字段对于新字段可编辑 [!DNL Naver] 帐户。 对于所有其他搜索网络，保存记录后，该值将自动填充为广告网络上的帐户配置的货币。
 

@@ -1,18 +1,18 @@
 ---
 title: 管理广告组
 description: 了解如何创建和管理广告组。
-exl-id: b86ea2e9-0d4b-4885-9cc9-b62d2c784017
+exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
 # 管理广告组
 
-*[!DNL Baidu]， [!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex] 仅限帐户*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]， [!DNL Yandex]，并且现有 [!DNL Baidu] 仅限帐户*
 
 广告组包括一组广告及其相关关键词。 在营销活动中定位显示网络的广告组还可以包括投放位置，投放位置是显示网络中广告可以出现的位置。 适用于广告组所有组件的广告组设置因广告网络而异。
 

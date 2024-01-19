@@ -1,7 +1,8 @@
 ---
 title: 在Adobe Target中为Adobe Advertising搜索、社交和商务广告配置A/B测试
-description: “了解如何在中设置A/B测试 [!DNL Target] 您的 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 搜索、社交和商务广告。”
-source-git-commit: 3e8290d85aba379ece4b6d488c01e4ddda2b554e
+description: 了解如何在中设置A/B测试 [!DNL Target] 您的 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 搜索、社交和商务中的广告。
+exl-id: 564c7d61-beec-40cf-ac68-83d1e87e3008
+source-git-commit: b94541bf8675d535b2f19b26c05235eb56bc6c0b
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%

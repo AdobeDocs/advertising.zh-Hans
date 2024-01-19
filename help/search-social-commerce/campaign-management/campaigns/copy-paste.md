@@ -1,18 +1,18 @@
 ---
 title: 使用复制并粘贴功能批量创建和编辑营销活动数据
 description: 了解如何使用复制并粘贴功能批量管理Campaign数据。
-exl-id: 09454f19-221b-43bb-ac74-f2c121329422
+exl-id: 2ae1b02f-46ac-4ea8-aa9f-9e26ccaf63d0
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
 
 # 使用复制并粘贴功能批量创建和编辑营销活动数据
 
-*[!DNL Baidu]， [!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex] 仅限帐户*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]， [!DNL Yandex]，并且现有 [!DNL Baidu] 仅限帐户*
 
 *[!UICONTROL Campaigns]， [!UICONTROL Ad Groups]， [!UICONTROL Keywords]、和 [!UICONTROL Ads] 查看次数*
 

@@ -1,20 +1,20 @@
 ---
 title: 手动同步广告网络数据
 description: 了解如何为支持的广告网络手动触发营销活动结构和营销活动实体的同步。
-exl-id: da437f37-800a-4c56-b5c1-7c985ddd45c8
+exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
 # 手动同步广告网络数据
 
-*[!DNL Baidu]， [!DNL Google Ads]， [!DNL Microsoft® Advertising] (以前称为 [!DNL Bing Ads])， [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex] 仅限帐户*
+*[!DNL Google Ads]， [!DNL Microsoft® Advertising] (以前称为 [!DNL Bing Ads])， [!DNL Yahoo! Japan Ads]， [!DNL Yandex]，并且现有 [!DNL Baidu] 仅限帐户*
 
-同步是Search、Social和Commerce收集每个广告商的广告网络帐户的最新信息的过程。 [支持的广告网络](/help/search-social-commerce/introduction/supported-inventory.md). 此数据包括广告商的营销活动结构和营销活动实体，包括其在“搜索”、“社交”和“商务”中管理或报告的大多数属性。 它不包括点击数据，也不包括在Search、Social和Commerce之外输入的竞价和竞价修饰符，这些数据是单独收集的。
+同步是Search、Social和Commerce收集每个广告商的已连接广告网络帐户的最新信息的过程。 [支持的广告网络](/help/search-social-commerce/introduction/supported-inventory.md). 此数据包括广告商的营销活动结构和营销活动实体，包括其在“搜索”、“社交”和“商务”中管理或报告的大多数属性。 它不包括点击数据，也不包括在Search、Social和Commerce之外输入的竞价和竞价修饰符，这些数据是单独收集的。
 
 搜索、Social和Commerce每天与您的广告网络帐户自动同步（同步）一次，每次检测到您的某个广告网络上有新促销活动时也是如此。 此外，它会立即将从“搜索”、“社交和商务”内部对促销活动数据所做的所有更改发送到广告网络。
 

@@ -1,18 +1,18 @@
 ---
 title: 管理可竞价关键词
 description: 了解如何为搜索广告组创建和管理可竞价关键词。
-exl-id: c52364bf-a55a-444e-bde8-88d46c2f4813
+exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
 
 # 管理可竞价关键词
 
-*[!DNL Baidu]， [!DNL Google Ads] 和 [!DNL Microsoft® Advertising]、和 [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex] 仅限帐户*
+*[!DNL Google Ads]和 [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads]， [!DNL Yandex]，并且现有 [!DNL Baidu] 仅限帐户*
 
 您可以在中创建和编辑搜索广告组的关键字 [支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md) 以内的搜索和显示/本地网络为目标 [同步的ad网络帐户](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 
