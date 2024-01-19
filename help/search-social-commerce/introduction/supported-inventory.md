@@ -3,9 +3,9 @@ title: 支持的清单
 description: 引用支持的广告网络、营销活动类型和广告类型。
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: ca3d21fdfc770767502ea8757b5140d68a3e6328
+source-git-commit: 728f50419f4ebefc39fffc9d631700c246b3c12b
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2752'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 | 来源 | 网络 | 营销活动类型 | 广告类型 | 同步并查看 | 创建/编辑 | 曲目[^1] | 优化 | 报表[^2] | Adobe Analytics支持[^3] |
 |----|----|----|----|----|----|----|----|----|----|
-| [!DNL Baidu]： *仅支持搜索、社交和商务中的现有帐户* | 搜索网络 | 手动 | 文本 | 通过API自动进行 | 编辑和删除，使用 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 和 [批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是 | 仅具有手动CPC竞价策略的促销活动 | 广告级别的数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的广告级数据 |
+| [!DNL Baidu]： *仅支持搜索、社交和商务中的现有帐户* | 搜索网络 | 手动 | 文本 | 通过API自动进行 | 使用 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 和 [批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是 | 仅具有手动CPC竞价策略的促销活动 | 广告级别的数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的广告级数据 |
 | [!DNL Google Ads] | 全部 [!DNL Google] 信息源 | 发现（测试版功能） | 发现（单图像广告）<br><br>发现轮播（多图像轮播广告） | 通过API自动进行 | — | 是 | 仅在混合项目组合中<br><br>在活动级别设置竞价和竞价策略目标，并根据优化类型设置活动预算。 | 广告级别的数据 | 搜索、社交和商务的广告级数据 [使用升级的AMO ID跟踪代码](/help/integrations/analytics/ids.md#amo-id-formats)[^4]<br><br>从搜索、社交和商务到Analytics的广告级数据 |
 | | 全部 | 最高标准性能（测试版功能） | 所有类型 | 通过API自动进行 | 在中创建/编辑营销活动并上传营销活动设置中的广告资源 [!UICONTROL Campaigns] > [!UICONTROL Campaigns]<br><br>只有必需的设置可用。 对于可选设置和列表组，请登录到[！DNL [!DNL Google Ads] Ads]编辑器。 | 是 | 仅在混合项目组合中<br><br>在营销活动级别设置竞价策略目标以及营销活动预算。 | 营销活动级别的数据<br><br>列表组的数据不可用，并且广告网络不提供广告级别的数据。 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的促销活动级别数据。 需要升级的 [AMO ID跟踪代码](/help/integrations/analytics/ids.md#amo-id-formats). |
 | | 显示网络 | 标准显示 | 图像 | 通过API自动进行 | 仅编辑URL和状态 [批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是，当您手动将点击跟踪标记添加到广告网络中的跟踪模板时 | — | 广告级别的数据，但没有显示到达数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的广告级数据，但没有显示到达数据 |
