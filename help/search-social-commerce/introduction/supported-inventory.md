@@ -3,9 +3,9 @@ title: 支持的清单
 description: 引用支持的广告网络、营销活动类型和广告类型。
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: 728f50419f4ebefc39fffc9d631700c246b3c12b
+source-git-commit: b9dc9384da4a27b9e2ea19b5c04287bf96828a20
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2768'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 | | 购物网络 | 标准购物 | 产品购物（创意类型“产品”） | 通过API自动进行 | 系统会自动为广告组中的产品组生成广告副本。 仅使用编辑广告状态 [批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) 和 [库存管理信息源](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)<br><br>您可以使用创建父营销活动、广告组和产品组，并仅编辑其状态 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)， [批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) 和 [库存管理信息源](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md). | 是，当您手动将点击跟踪标记添加到广告网络中的跟踪模板时 | 是 | 营销活动、广告组和产品组级别的数据 [!DNL Google Ads] 不提供购物营销活动的广告级效果数据。 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的促销活动、广告组和产品组级别的数据 |
 | | [!DNL YouTube] | 视频 | 视频 | 需要 [选择加入](/help/search-social-commerce/tools/sync-inventory.md)；通过API<br><br>仅限基本广告详细信息，不带缩略图 | — | 是，当您手动将点击跟踪标记添加到广告网络中的跟踪模板时 | 促销活动与 [!UICONTROL Maximize Conversions] 仅混合项目组合中的竞价策略<br><br>混合项目组合必须仅包含 [!DNL YouTube] 营销活动。 | 营销活动和广告组级别的数据<br><br>广告网络不提供广告级别的数据。 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的促销活动和广告组级别数据 |
 | [!DNL Microsoft Advertising] | 全部 | 标准最高性能（搜索、社交和商务中的Beta功能） | 所有类型 | 通过API自动进行 | 在中创建/编辑不含资产组的营销活动 [!UICONTROL Campaigns] > [!UICONTROL Campaigns].<br><br>只有必需的设置可用。 对于可选设置和列表组，请登录到[！DNL [!DNL Microsoft Advertising] Ads]编辑器。 | 是 | 仅在混合项目组合中<br><br>在营销活动级别设置竞价策略目标以及营销活动预算。 | 营销活动级别的数据<br><br>列表组的数据不可用，并且广告网络不提供广告级别的数据。 | — |
-|  | 受众网络 | 受众营销活动类型：<br><br>&quot;[!UICONTROL Audience (image)]”和“[!UICONTROL Audience] （馈送）”) | 响应式<br><br>仅包括面向受众网络的基于图像的广告和基于产品馈送的广告 | 通过API自动进行 | 使用 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 和 [批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是 | 为增强型CPC (eCPC)活动提供“是”<br><br>不适用于CPM活动 | 广告级别的数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的广告级数据 |
+|  | 受众网络 | 受众营销活动类型：<br><br>&quot;[!UICONTROL Audience (image)]”和“[!UICONTROL Audience] （馈送）”) | 响应式<br><br>仅包括面向受众网络的基于图像的广告和基于产品馈送的广告 | 通过API自动进行 | 使用 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 和 [批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是 | 对于混合或标准产品组合中的增强CPC (eCPC)营销活动为“是”；对于具有的营销活动为“是” [!UICONTROL Maximize Conversions] 混合项目组合中的竞价策略<br><br>不适用于CPM活动 | 广告级别的数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的广告级数据 |
 |  | 受众网络 | [!UICONTROL Audience Video] | 响应式 | 通过API自动进行 | 您可以使用以下方式创建父营销活动和广告组 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). | 是 | 为增强型CPC (eCPC)活动提供“是”<br><br>不适用于CPM活动 | 广告级别的数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的广告级数据 |
 |  | 受众网络 | [!UICONTROL Audience CTV Video] | 响应式 | 通过API自动进行 | 您可以使用以下方式创建父营销活动和广告组 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). | 是 | 为增强型CPC (eCPC)活动提供“是”<br><br>不适用于CPM活动 | 广告级别的数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的广告级数据 |
 | | 受众网络 | Search | 使用&quot;[!DNL Prefer Audience Ad Format]已选择“ | 通过API自动进行 | 使用 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)<br><br>不支持图像和扩展 | 是 | 是 | 广告级别的数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的广告级数据 |

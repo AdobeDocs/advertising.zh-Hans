@@ -3,9 +3,9 @@ title: ’[!DNL Microsoft® Advertising] 营销活动设置
 description: 引用设置 [!DNL Microsoft® Advertising] 营销活动。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 22fd10dec43c43c6f03860e6e4839a8bb8d56017
+source-git-commit: 0b68db50d7f4c40eb2742c3906b79c5347c05f66
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Maximize Conversion Value]：* （搜索和购物/智能购物网络，效果最佳的促销活动）广告网络（而不是搜索、社交和商务）会优化竞价以实现转化价值的最大化。 （可选）输入 **[!UICONTROL Target Return on Ad Spend]** (ROAS)的百分比。 **注意：** 此选项适用于混合项目组合中的营销活动，但适用于标准项目组合中的营销活动。
 
-* *[!UICONTROL Maximize Conversions]：* (搜索网络上的营销活动 <!-- future: and audience network -->、效果最佳促销活动)广告网络（而不是搜索、社交和商务）会优化竞价以实现转化的最大化。 （可选）输入 **[!UICONTROL Target CPC]** （每次点击成本）<!-- future: ; for audience campaigns, you can also enter an optional [!UICONTROL Target CPA] (cost per acquisition) -->. **注意：** 此选项适用于混合项目组合中的营销活动，但适用于标准项目组合中的营销活动。
+* *[!UICONTROL Maximize Conversions]：* (搜索网络或受众网络上的效果最佳的促销活动和促销活动（但受众视频或连接的电视除外）)广告网络（而非搜索、社交和商务）可优化竞价以最大限度地提高转化率。 （可选）输入 **[!UICONTROL Target CPC]** （每次点击成本）。 对于受众营销活动，您还可以输入可选 **[!UICONTROL Target CPA]** （每次收购成本）。 **注意：** 此选项适用于混合项目组合中的营销活动，但适用于标准项目组合中的营销活动。
 
 * *[!UICONTROL Target CPA]：* （搜索网络上的促销活动）广告网络（而非搜索、社交和商务）根据可选内容优化竞价 **[!UICONTROL Target CPA]** （每次购置成本），这是您要为一项购置（转化）支付的30天平均金额。 **注意：** 此选项用于具有任何支出策略的混合项目组合（而非标准项目组合）中的营销活动，但支出策略除外 [!UICONTROL Weekly] 或 [!UICONTROL Google Target CPA].
 

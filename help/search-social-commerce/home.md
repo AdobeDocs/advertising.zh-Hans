@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: e26a1c71bf14d0ade5b97dbf3dedc949325ab0a9
+source-git-commit: 381e757865cf28b99311bbf68cb33b1d78296781
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年1月20日 | [!UICONTROL Campaigns]， [!DNL Optimization] | ([!DNL Microsoft Advertising] 活动)对于受众网络上的活动，您现在可以选择&quot;[!UICONTROL Maximize Conversions]“营销活动设置中的自动竞价策略（可选） ”[!UICONTROL Target CPA]“ ”值。 具有此竞价策略的营销活动可用于混合项目组合中的优化。 | 请参阅&quot;[[!DNL Microsoft Advertising] campaign设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)“ |
 | 2023年11月17日 | [!UICONTROL Recommendations & Publisher Insights] | 更多 [!DNL Google Ads] 推荐现在可从以下位置获取： [!UICONTROL Insights] > [!UICONTROL Reports] > [!UICONTROL Recommendations  & Publisher Insights]，您可以在其中应用和取消它们：<ul><li>[!UICONTROL Automated campaigns]：</li><ul><li>[!UICONTROL DSA to performance max migration]：将动态搜索广告迁移到效果最佳的营销活动。</li><li>[!UICONTROL Dynamic image extension opt in]：为帐户启用动态图像扩展，它允许 [!DNL Google Ads] 机器学习，自动将广告登陆页面中最相关的图像附加到广告。</li><li>[!UICONTROL Improve performance max ad strength]：提高效果最佳营销活动的资源组强度，使其获得“优秀”评级。</li><li>[!UICONTROL Performance max opt in]：选择加入效果最佳的营销活动。</li></ul><li>[!UICONTROL Bidding and budgets]<ul><li>[!UICONTROL Target CPA raising]：提升 [!UICONTROL Target CPA] 基于 [!DNL Google Ads] 根据以往的转化计算得出的预测。</li><li>[!UICONTROL Target ROAS lowering]：降低 [!UICONTROL Target ROAS] 基于 [!DNL Google Ads] 根据以往的转化计算得出的预测。</li></ul></ul> | 请参阅&quot;[关于发布者推荐和见解支持](/help/search-social-commerce/recommendations/recommendation-support.md)”和“[查看发布者推荐和性能分析](/help/search-social-commerce/recommendations/recommendation-view.md)“ |
 | 2023年11月8 | [!UICONTROL Asset Library] | (开放Beta版功能； [!DNL Microsoft® Advertising] 帐户) [!UICONTROL Campaigns] > [!UICONTROL Asset Library]，您可以创建可重复使用的图像和视频资产，并将其上传到 [!DNL Microsoft® Advertising] 帐户级别的资产库。 您可以将上传的资源添加到中的适用活动类型 [!DNL Microsoft® Advertising] 编辑者。 | 请参阅&quot;[关于 [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)”和“[创建和上传资源](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)“ |
 | | [!UICONTROL Campaigns]， [!UICONTROL Optimization]， [!UICONTROL Reports]， [!UICONTROL Import Campaigns] | (开放Beta版功能； [!DNL Microsoft® Advertising] 帐户)以下支持适用于 [!DNL Microsoft® Advertising] 效果最佳的促销活动：<ul><li>对于营销活动管理视图和离线报表中的报表，搜索、社交和商务会同步效果最佳的营销活动。 最高绩效营销活动只能包含在混合项目组合中以进行优化，并且竞价策略目标和营销活动预算均在营销活动级别设置。</li><li>您可以从中创建和编辑效果最佳的营销活动 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 使用 [!UICONTROL Campaign Type] &quot;[!UICONTROL Performance Max]“ 只有所需的设置可用；可用的竞价策略包括 [!UICONTROL Maximize Conversions]，每个收购的可选目标成本，以及 [!UICONTROL Maximize Conversion Value]，带有可选的目标广告支出回报率。 对于可选设置，请登录 [!DNL Microsoft® Advertising] 编辑者。 您可以将广告资产单独上传到 [!UICONTROL Campaigns] > [!UICONTROL Asset Library] 并将它们添加到中的营销活动 [!DNL Microsoft® Advertising] 编辑者。</li><li>您可以复制 [!DNL Google Ads] 效果最佳的促销活动为 [!DNL Microsoft® Advertising] 效果最佳的促销活动，来自 [!UICONTROL Tools] > [!UICONTROL Import Campaigns]. 以前， [!DNL Google Ads] 效果最好的营销活动被复制为智能购物营销活动。</li></ul> | 请参阅&quot;[支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)，&quot; &quot;[[!DNL Microsoft® Advertising] campaign设置](/help/search-social-commerce/recommendations/recommendation-support.md)，”和“[复制 [!DNL Google Ads] 中的营销活动 [!DNL Microsoft® Advertising]](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md)“ |
