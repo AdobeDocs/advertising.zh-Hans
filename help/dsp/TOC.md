@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: eb4db7c91d98cd14e9006f0647f964cdf054962f
+source-git-commit: 4e620124d066e048ffffd8025cb98058f46ff42a
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '945'
 ht-degree: 3%
 
 ---
