@@ -1,111 +1,118 @@
 ---
-title: 關於平台內報表
-description: 瞭解行銷活動管理檢視中包含的報告資料。
+title: 关于平台内报告
+description: 了解营销活动管理视图中包含的报表数据。
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 833e3d3a15546518ec627f859d601285e30381b7
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
 
-# 關於平台內報表
+# 关于平台内报告
 
 <!-- rename "About Performance Reports in Campaign Management Views?" -->
-行銷活動管理檢視包含完整的報告資料。 可用的報表可協助您識別執行良好的套件和位置，以及需要您注意的套件和位置。 快速動作按鈕也讓您提高生產力。
+营销活动管理视图包括全面的报告数据。 可用报告可帮助您识别性能良好的资源包和投放位置以及需要您关注的资源包和投放位置。 快速操作按钮还可提高您的工作效率。
 
-## 所有行銷活動檢視
+## 所有营销活动视图
 
-此 [!UICONTROL Campaigns] 「檢視」會開啟一組效能資料圖表，以及您帳戶內所有行銷活動的清單。
+此 [!UICONTROL Campaigns] 视图打开以显示一组性能数据图表和您的帐户中所有营销活动的列表。
 
-### 圖表檢視 {#chart-view}
+### 图表视图 {#chart-view}
 
-您可以 [自訂時間序列趨勢圖](campaign-data-visualization-manage.md) 使用三個量度來涵蓋所有行銷活動。 依預設，資料屬於 [!UICONTROL Net Spend]， [!UICONTROL Impressions]、和 [!UICONTROL Net CPM] 都包含在個別的圖表（格狀圖）中。 您可以選擇變更量度。 若要在時間序列趨勢圖中啟用每小時資料，請將日期選擇變更為一天([!UICONTROL Today]， [!UICONTROL Yesterday]或特定日期)。
+您可以 [自定义时间序列趋势图](campaign-data-visualization-manage.md) 使用三个量度在所有营销活动中均可用。 默认情况下，数据 [!UICONTROL Net Spend]， [!UICONTROL Impressions]、和 [!UICONTROL Net CPM] 都包含在单独的图表（网格图）中。 您可以选择更改量度。 要在时间序列趋势图中启用每小时数据，请将日期选择更改为一天([!UICONTROL Today]， [!UICONTROL Yesterday]或特定日期)。
 
-![三個量度的個別趨勢圖](/help/dsp/assets/trend-chart-separate.png)
+![三个量度的独立趋势图](/help/dsp/assets/trend-chart-separate.png)
 
-您也可以選擇覆蓋這三個量度，輕鬆偵測異常和改善規模或效能的區域。
+您还可以选择叠加三个量度，以便轻松检测异常和用于改进规模或性能的区域。
 
-![含覆蓋圖趨勢圖](/help/dsp/assets/trend-chart.png)
+![带叠加图的趋势图](/help/dsp/assets/trend-chart.png)
 
-### 表格檢視
+### 表格视图
 
-![行銷活動清單](/help/dsp/assets/campaigns-list.png)
+![营销活动列表](/help/dsp/assets/campaigns-list.png)
 
-依預設，每個行銷活動列都包含步調和傳送量度。 步調量度包括 [!UICONTROL Gross Spend (Lifetime)]，包括實際目標上支出與行銷活動中所有套件的預期目標上支出之間的量度，因此您可以一眼看出成效不佳的行銷活動。 您可以選擇是否使用 [變更欄檢視](column-view-change.md) 甚至 [建立自訂欄檢視](column-view-create.md).
+默认情况下，每个营销活动行都包含步调和投放量度。 步调指标包括 [!UICONTROL Gross Spend (Lifetime)]，包括对营销活动中所有包的实际目标销售额与预期目标销售额的衡量，因此您可以一眼就识别表现不佳的营销活动。 您可以选择 [更改列视图](column-view-change.md) 甚至 [创建自定义列视图](column-view-create.md).
 
-您可以進一步操作 [自訂資料表](campaign-data-views-about.md) 其他方法和 [篩選可見資料](campaign-data-filter.md).
+您可以进一步了解 [自定义数据表](campaign-data-views-about.md) 以其他方式和 [筛选可见数据](campaign-data-filter.md).
 
-若要檢視行銷活動的詳細資訊，請按一下行銷活動名稱。
+<!--
+An "Alerts" column indicates when a campaign (or any child entity under it) has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
+-->
 
-## 單一行銷活動報告 {#single-campaign-reporting}
+要查看促销活动的详细信息，请单击促销活动名称。
 
-在行銷活動中，您可以根據行銷活動實體來篩選資料： [!UICONTROL Packages]， [!UICONTROL Placements]、和 [!UICONTROL Ads]. 您可以進一步操作 [篩選可見資料](campaign-data-filter.md) 以僅包含您想要看到的套件、版位或廣告。
+## 单个营销活动报告 {#single-campaign-reporting}
 
-![行銷活動實體標籤](/help/dsp/assets/campaign-subtabs.png)
+在营销策划中，您可以根据营销策划实体过滤数据： [!UICONTROL Packages]， [!UICONTROL Placements]、和 [!UICONTROL Ads]. 您可以进一步了解 [筛选可见数据](campaign-data-filter.md) 以仅包含您要查看的包、投放位置或广告。
 
-### 圖表檢視
+![营销活动实体选项卡](/help/dsp/assets/campaign-subtabs.png)
 
-對於每個行銷活動，您可以 [自訂時間序列趨勢圖](campaign-data-visualization-manage.md) 有三個量度，可在每個實體檢視中使用。 相同量度會持續存在於促銷活動的所有趨勢圖表中。
+### 图表视图
 
-請參閱 [跨行銷活動量度的「圖表檢視」區段](#chart-view) 以取得詳細資訊。
+对于每个活动，您可以 [自定义时间序列趋势图](campaign-data-visualization-manage.md) 提供了三个量度，这些量度在每个实体视图中均可用。 促销活动的所有趋势图中都保留相同的量度。
 
-### 表格檢視
+请参阅 [关于跨营销活动量度的“图表视图”部分](#chart-view) 以了解更多信息。
 
-在每個實體標籤中，預設情況下每列都包含步調和傳送量度，但您可以 [變更欄檢視](column-view-change.md) 甚至 [建立自訂欄檢視](column-view-create.md) 以套用至促銷活動的所有子標籤。 您可以進一步操作 [自訂資料表](campaign-data-views-about.md) 其他方式。 每個資料表格都包含 [!UICONTROL Subtotals] 列，顯示所有可見列中的每個量度的總和或平均值。
+### 表格视图
 
-### 投放位置 [!UICONTROL Inspector] {#placement-inspector}
+在每个实体选项卡中，默认情况下，每行都包含步调和投放量度，但您可以 [更改列视图](column-view-change.md) 甚至 [创建自定义列视图](column-view-create.md) 以应用于营销活动的所有子选项卡。 您可以进一步了解 [自定义数据表](campaign-data-views-about.md) 以其它方式。 每个数据表包括 [!UICONTROL Subtotals] 行，其中显示所有可见行中每个量度的总和或平均值。
 
-對於每個位置，您可以 [開啟（詳細資料檢視） [!UICONTROL Inspector])](placement-details-view.md)，包括下列深入資料：
+<!--
+An "Alerts" column indicates when a package, placement, or ad &mdash; or any child entity under a package or placement &mdash; has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
+-->
 
-* **[!UICONTROL Sites]：** 此位置上已有曝光的所有網站。
+### 投放 [!UICONTROL Inspector] {#placement-inspector}
 
-   此 [!UICONTROL Sites] 索引標籤包含搜尋和篩選功能、主要頁面上可用的相同標準和自訂欄檢視選項，以及 [!UICONTROL Exclude] 按鈕，以便快速將網站從位置中排除。
+对于每个投放位置，您可以 [打开（详细信息视图） [!UICONTROL Inspector])](placement-details-view.md)，其中包括以下深入数据：
 
-* **[!UICONTROL Ads]：** 位置中的所有廣告。
+* **[!UICONTROL Sites]：** 投放位置上已有印象的所有网站。
 
-   此 [!UICONTROL Ads] tab包含搜尋和篩選功能、主要頁面上提供的相同標準和自訂欄檢視選項，以及每列中的快速動作按鈕，例如 [!UICONTROL Pause] （以便您快速暫停廣告）。
+  此 [!UICONTROL Sites] 选项卡包括搜索和筛选功能，与主页上相同的标准和自定义列视图选项，以及 [!UICONTROL Exclude] 按钮，以便快速从投放位置中排除网站。
 
-* **[!UICONTROL Frequency]：** 此位置的每個廣告頻率層級的資料，包括：
-   * 廣告頻率層級（例如「1」，適用於使用者曾看過一次廣告的所有例項）
-   * 裝置/瀏覽器或人員的預估不重複數量(視指定的 [!UICONTROL Cross Device Level] （適用於促銷活動）在指定頻率層級收到曝光次數
-   * 指定頻率層級的預估曝光次數
-   * 指定頻率等級的預估平均頻率。 此值等於（預估曝光次數）/（預估不重複值）。
+* **[!UICONTROL Ads]：** 投放位置中的所有广告。
 
-* **[!UICONTROL Inventory]：** 此位置所定位之所有交易的相關資訊。
+  此 [!UICONTROL Ads] 选项卡包括搜索和筛选功能，与主页上相同的标准和自定义列视图选项，以及每行中的快速操作按钮，例如 [!UICONTROL Pause] （以便快速暂停广告）。
 
-   此 [!UICONTROL Inventory] 索引標籤可顯示效能統計資料(例如 [!UICONTROL Auctions]， [!UICONTROL Bids]、和 [!UICONTROL Win Rate]. 索引標籤包括搜尋和篩選功能、主要頁面上可用的相同標準和自訂欄檢視選項，以及每列中的快速動作按鈕，包括 [!UICONTROL Edit]， [!UICONTROL View Report]、和 [[!UICONTROL Auction Insights] 以取得進一步的疑難排解](/help/dsp/inventory/private-deal-auction-insights.md).
+* **[!UICONTROL Frequency]：** 投放的每个广告频率级别的数据，包括：
+   * 广告频率级别（例如“1”，适用于用户一次看到广告的所有实例）
+   * 设备/浏览器或人员的预计唯一数量(取决于指定的 [!UICONTROL Cross Device Level] （对于营销活动）在指定频率级别接收展示次数
+   * 指定频率级别的预计展示次数
+   * 指定频率级别的估计平均频率。 此值等于（预计展示次数）/（预计独特次数）。
 
-#### 疑難排解詳細目錄
+* **[!UICONTROL Inventory]：** 有关投放位置定向的所有交易的信息。
 
-| 問題 | 可能的原因 | 要採取的動作 |
+  此 [!UICONTROL Inventory] 选项卡通过显示性能统计信息(例如 [!UICONTROL Auctions]， [!UICONTROL Bids]、和 [!UICONTROL Win Rate]. 选项卡包括搜索和筛选功能、主页上提供的相同标准和自定义列视图选项以及每行中的快速操作按钮，包括 [!UICONTROL Edit]， [!UICONTROL View Report]、和 [[!UICONTROL Auction Insights] 以进行进一步的故障排除](/help/dsp/inventory/private-deal-auction-insights.md).
+
+#### 清单疑难解答
+
+| 问题 | 可能的原因 | 要采取的操作 |
 | -----------| ---------- | ---------- |
-| [!UICONTROL Zero Auctions] | 發行者尚未開始傳送競標要求。 | 請連絡發佈商以啟動交易。 |
-|  | 交易設定不正確，例如輸入不正確的外部交易ID。 | 確認交易詳細資料並編輯交易。 |
-| [!UICONTROL Auctions but no Bids] | 位置鎖定目標不符合交易的傳入競標要求。 <br><br> 例如，刊登版位可能會鎖定不符合交易條件的地理位置。 | 視需要編輯位置目標，以避免目標定位不相符。 |
-|  | 投放位置沒有有效的廣告，且該廣告具有交易所需的媒體型別。 | 建立並附加具有正確媒體型別的廣告至投放位置。 |
-|  | 位置沒有足夠的預算。 | 增加刊登版位預算，以允許對傳入的請求投標。 |
-|  | 投放日期與交易的曝光傳送日期不重疊。 | 視需要編輯位置的投放日期。 |
-| [!UICONTROL Low Win Rate] | 位置的最高出價（最低或固定）低於交易所需的最低出價。 | 增加投放位置的 [!UICONTROL Max Bid] 視需要。 |
-|  | 此版位使用限制投標的競標前篩選條件。 | 降低競標前篩選器的臨界值，以允許進行更多競標。 |
-|  | 此位置的對象鎖定目標太具限制性。 | 檢查指定的對象目標是否有足夠的活躍使用者，並儘可能展開對象。 |
+| [!UICONTROL Zero Auctions] | 发布者尚未开始发送竞价请求。 | 联系发布者以激活交易。 |
+| | 交易设置不正确，例如输入错误的外部交易ID。 | 确认交易详细信息并编辑交易。 |
+| [!UICONTROL Auctions but no Bids] | 投放位置定位与交易的传入竞价请求不匹配。 <br><br> 例如，投放位置可能定向到不符合交易条件的地理位置。 | 根据需要编辑投放位置目标，以避免定位不匹配。 |
+| | 投放位置没有具有交易所需的媒体类型的活动广告。 | 创建具有正确媒体类型的广告并将其附加到投放位置。 |
+| | 该职位预算不足。 | 增加投放预算以允许对传入请求投标。 |
+| | 投放投放日期与交易的展示投放日期不重叠。 | 根据需要编辑投放位置的投放日期。 |
+| [!UICONTROL Low Win Rate] | 投放位置的最高出价（下限或固定）低于交易要求的最低出价。 | 增加投放位置的 [!UICONTROL Max Bid] 根据需要。 |
+| | 投放位置使用限制竞价的预竞价过滤器。 | 降低预竞价筛选器的阈值以允许进行更多竞价。 |
+| | 投放的受众定位过于严格。 | 检查指定的受众目标是否有足够的活动用户，如果可能，请展开受众。 |
 
-![位置檢測器](/help/dsp/assets/placement-inspector.png)
+![放置检查器](/help/dsp/assets/placement-inspector.png)
 
-您可以將資料匯出 [!UICONTROL Sites]， [!UICONTROL Ads]，或 [!UICONTROL Frequency] 定位至瀏覽器的預設下載資料夾，作為XLSM格式的報表。
+您可以将 [!UICONTROL Sites]， [!UICONTROL Ads]，或 [!UICONTROL Frequency] 导航到浏览器的默认下载文件夹，作为XLSM格式的报表。
 
-### 其他型別的行銷活動層級報告
+### 其他类型的营销活动级别报告
 
-對於其他資料劃分，檢視 [行銷活動層級報告頁面](/help/dsp/campaign-management/campaigns/campaign-view-report.md). 此 <!--legacy --> 報告包含下列區段： [!UICONTROL Geography]， [!UICONTROL Device]， [!UICONTROL Viewability]、和 [!UICONTROL Audience Performance] 資料。
+对于其他数据划分，查看 [营销活动级别的报表页面](/help/dsp/campaign-management/campaigns/campaign-view-report.md). 此 <!--legacy --> 报告包含以下部分 [!UICONTROL Geography]， [!UICONTROL Device]， [!UICONTROL Viewability]、和 [!UICONTROL Audience Performance] 数据。
 
 >[!MORELIKETHIS]
 >
->* [檢視刊登版位的網站、廣告和頻率詳細資訊](placement-details-view.md)
->* [關於Campaign資料檢視](campaign-data-views-about.md)
->* [建立自訂欄檢視](column-view-create.md)
->* [變更欄檢視](column-view-change.md)
->* [管理資料視覺效果](campaign-data-visualization-manage.md)
->* [從Campaign Management檢視匯出資料](campaign-export-data.md)
->* [檢視行銷活動的詳細報告](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
-
+>* [查看投放位置的网站、广告和频率详细信息](placement-details-view.md)
+>* [关于Campaign数据视图](campaign-data-views-about.md)
+>* [创建自定义列视图](column-view-create.md)
+>* [更改列视图](column-view-change.md)
+>* [管理数据可视化图表](campaign-data-visualization-manage.md)
+>* [从Campaign Management视图中导出数据](campaign-export-data.md)
+>* [查看营销活动的详细报告](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
