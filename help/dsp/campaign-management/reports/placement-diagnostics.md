@@ -3,9 +3,9 @@ title: 查看放置诊断报告
 description: 了解如何诊断投放位置设置和步调的问题。
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 622d971a0c583cfde8610025f0a83481c4ae2188
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于平台内报告](campaign-reports-about.md)
+>* [关于Campaign Management视图中的性能报表](campaign-reports-about.md)
 >* [查看职位安排预测报表](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [投放设置](/help/dsp/campaign-management/placements/placement-settings.md)

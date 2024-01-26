@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: ec7c6fbced3ba1133da9212bedcb929410f0b6da
+source-git-commit: 6c117e57471d85fc044a7b814a231037ce89d90c
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '927'
 ht-degree: 3%
 
 ---
@@ -92,20 +92,13 @@ ht-degree: 3%
          + [前置广告设置](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [通用视频广告设置](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [支持的广告类型的规范](/help/dsp/campaign-management/ads/ad-specs.md)
-   + 营销活动报表 {#campaign-reports}
-      + [关于平台内报告](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+   + Campaign Management视图中的性能报表 {#campaign-reports}
+      + [关于Campaign Management视图中的性能报表](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [从Campaign Management视图中导出数据](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [查看投放位置的网站、广告和频率详细信息](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [查看职位安排预测报表](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [查看放置诊断报告](/help/dsp/campaign-management/reports/placement-diagnostics.md)
-      + 管理数据视图 {#data-views}
-         + [关于Campaign数据视图](/help/dsp/campaign-management/reports/campaign-data-views-about.md)
-         + [更改列视图](/help/dsp/campaign-management/reports/column-view-change.md)
-         + [创建自定义列视图](/help/dsp/campaign-management/reports/column-view-create.md)
-         + [编辑自定义列视图](/help/dsp/campaign-management/reports/column-view-edit.md)
-         + [过滤营销活动数据](/help/dsp/campaign-management/reports/campaign-data-filter.md)
-         + [对列排序](/help/dsp/campaign-management/reports/campaign-data-sort.md)
-      + [管理数据可视化图表](/help/dsp/campaign-management/reports/campaign-data-visualization-manage.md)
+      + [管理Campaign数据视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
    + 使用电子表格更正版面设置 {#qa-spreadsheet}
       + [关于使用电子表格更正放置设置](/help/dsp/campaign-management/qa/qa-about.md)
       + [下载电子表格中的版面设置](/help/dsp/campaign-management/qa/qa-sheet-download.md)

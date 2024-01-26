@@ -2,9 +2,10 @@
 title: 查看职位安排预测报表
 description: 查看投放位置的特定定位策略的展示次数、花费和最佳最高出价预测值。
 feature: DSP Placements
-source-git-commit: bb44c1518a389a1decbedfa260939e75c8324aeb
+exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 预测包括以下信息：
 
-* **[!UICONTROL Summary]:**
+* **[!UICONTROL Summary]：**
 
    * **[!UICONTROL Estimated CPM]：** 定位设置可预期达到的每千次展示的估计成本(eCPM)。
 
@@ -79,6 +80,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于平台内报告](campaign-reports-about.md)
+>* [关于Campaign Management视图中的性能报表](campaign-reports-about.md)
 >* [查看放置诊断报告](/help/dsp/campaign-management/reports/placement-diagnostics.md)
 >* [投放设置](/help/dsp/campaign-management/placements/placement-settings.md)

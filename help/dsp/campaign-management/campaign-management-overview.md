@@ -1,61 +1,59 @@
 ---
-title: Advertising DSP中的Campaign Management概觀
-description: 瞭解行銷活動管理階層和元件。
+title: Advertising DSP中的Campaign Management概述
+description: 了解营销活动管理层次结构和组件。
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
 
-# Advertising DSP中的Campaign Management概觀
+# Advertising DSP中的Campaign Management概述
 
-DSP行銷活動具有下列階層：
+DSP促销活动具有以下层次结构：
 
-* Campaign
-   * 封裝
-      * 位置
-         * 廣告
-
+* 营销活动
+   * 包
+      * 投放位置
+         * 广告
 <!-- Do clients think in terms of insertion orders? If yes, then work in the following info.:
 In Advertising DSP, an insertion order is represented as a campaign, and line items are represented as packages. Each package will include placements, which can use different strategies and tactics to deliver the line item requirements.
 -->
 
 ## [!UICONTROL Campaigns]
 
-[行銷活動](/help/dsp/campaign-management/campaigns/campaign-about.md) 是航班設定的整體架構。 每個行銷活動皆已設定廣告商、開始和結束日期、整體預算、跨裝置目標定位選項和預設頻率上限，以及可檢視度、詐騙、品牌安全和對象驗證的報告選項。 所有行銷活動層級設定會自動套用至行銷活動內的每個套件和位置。
+[营销活动](/help/dsp/campaign-management/campaigns/campaign-about.md) 是飞行设置的总体框架。 每个营销活动都配置了广告商、开始和结束日期、整体预算、跨设备定位选项和默认频率上限，以及可视性、欺诈、品牌安全和受众验证的报告选项。 所有营销活动级别的设置都会自动应用于营销活动中的每个包和投放位置。
 
 ## [!UICONTROL Packages]
 
-每個行銷活動可包含一或多個 [套件](/help/dsp/campaign-management/packages/package-about.md)，每個都包含一組版位。
+每个营销活动可以包含一个或多个项目 [包](/help/dsp/campaign-management/packages/package-about.md)，每个报表包都包含一组版面。
 
-使用套件將投放位置分組，以設定預算、效能目標和自訂步調策略。 DSP會將預算轉移到封裝中表現最佳的位置，藉此最佳化封裝。 您可以依版位格式、詳細目錄型別、資料提供者、角色或其他可區別的特徵來組織套件。
+使用资源包将投放位置分组，以使其达到设定的预算、性能目标和自定义步调策略。 DSP通过将预算转移到包中性能最佳的投放位置来优化包。 您可以按版面格式、库存类型、数据提供商、角色或其他可区分的特征来组织资源包。
 
-套件是選用的，但建議使用。
+包是可选的，但建议使用。
 
 ## [!UICONTROL Placements]
 
-A [刊登](/help/dsp/campaign-management/placements/placement-about.md) 會儲存相同廣告型別的一或多個廣告的目標定位引數。 您可以為單一行銷活動或套件建立版位，然後為其指派廣告。
+A [投放](/help/dsp/campaign-management/placements/placement-about.md) 存储相同广告类型的一个或多个广告的定位参数。 您可以为单个营销活动或营销策划包创建投放位置，然后为其分配广告。
 
 ## [!UICONTROL Ads]
 
-[廣告](/help/dsp/campaign-management/ads/ad-about.md) 包括創意資產和追蹤URL。 您可以使用合作夥伴標籤表或大量標籤範本，個別或大量上傳第三方廣告服務標籤。 您也可以手動建立原生顯示廣告供DSP提供。
+[广告](/help/dsp/campaign-management/ads/ad-about.md) 包括创意资源和跟踪URL。 您可以使用合作伙伴标记表或批量标记模板，单独或批量上传第三方广告投放标记。 您还可以手动创建本机显示广告以供DSP提供。
 
-設定廣告後，您需要將每個廣告附加至投放位置。 您可以將單一廣告附加至一或多個位置。
+设置广告后，您需要将每个广告附加到投放位置。 您可以将单个广告附加到一个或多个投放位置。
 
-在作用中行銷活動中，處於作用中行銷活動的所有作用中、已核准的廣告都符合根據版位鎖定目標引數執行的資格。
+根据投放位置定位参数，活跃促销活动中所有活跃的已批准广告都可以运行。
 
 >[!MORELIKETHIS]
 >
->* [關於Campaign Management](/help/dsp/campaign-management/campaigns/campaign-about.md)
->* [關於封裝管理](/help/dsp/campaign-management/packages/package-about.md)
->* [關於版位管理](/help/dsp/campaign-management/placements/placement-about.md)
->* [關於廣告管理](/help/dsp/campaign-management/ads/ad-about.md)
->* [行銷活動啟動檢查清單](/help/dsp/campaign-management/campaign-launch-checklist.md)
->* [設定效能行銷活動的最佳實務](/help/dsp/optimization/campaign-best-practices-performance.md)
->* [關於平台內報表](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [關於Campaign資料檢視](/help/dsp/campaign-management/reports/campaign-data-views-about.md)
->* [影片：DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
-
+>* [关于Campaign Management](/help/dsp/campaign-management/campaigns/campaign-about.md)
+>* [关于包管理](/help/dsp/campaign-management/packages/package-about.md)
+>* [关于版面管理](/help/dsp/campaign-management/placements/placement-about.md)
+>* [关于广告管理](/help/dsp/campaign-management/ads/ad-about.md)
+>* [营销活动启动检查清单](/help/dsp/campaign-management/campaign-launch-checklist.md)
+>* [设置效果活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)
+>* [关于Campaign Management视图中的性能报表](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [管理Campaign数据视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [视频：DSP帐户结构和用户界面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
