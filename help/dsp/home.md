@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: fc4be5168b90b835b1d880386f0cef532b82dbf2
+source-git-commit: 523bc488bf586901eb7302d9c03dda3cd1f98f2b
 workflow-type: tm+mt
 source-wordcount: '1967'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 | 2021年11月12日 | [!UICONTROL Deal IDs] | 在 [!UICONTROL Deal ID] 设置， ”[!DNL Rubicon]“”已更改为“[!DNL Magnite DV+]，”，其中 [!DNL DV+] 其中代表显示、视频和其他格式，例如音频。 此命名反映了 [!DNL Magnite] SSP. **注意：** [!DNL Magnite DV+] 仍列为&quot;[!DNL Rubicon]中的&quot; [!UICONTROL Deal ID Inbox]. | 请参阅&quot;[SSP合作伙伴](/help/dsp/inventory/ssp-partners.md)“ |
 | 2021年10月27日 | 自定义报表 | 您现在可以创建和管理 [!DNL Amazon S3] 和不同类型的FTP投放位置(称为 *[!DNL report destinations]*，用于自定义报表。 配置报表目标后，您可以将每个新的自定义报表设置为发送到单一目标类型的一个或多个位置，或发送给电子邮件收件人。 您的更新 [!DNL Amazon S3] 和FTP凭据不会中断报表交付。<br><br>您现有的报表仍会发送给指定的电子邮件收件人。 要配置向其他报表目标的投放，请创建具有新目标的报表。 | 请参阅&quot;[关于 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)，&quot; &quot;[创建 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)，&quot; &quot;[[!UICONTROL Report Destination] 设置](/help/dsp/reports/report-destinations/report-destination-settings.md)，”和“[自定义报表设置](/help/dsp/reports/report-settings.md)“ |
 |  | [!UICONTROL Packages]， [!UICONTROL Placements]、和 [!UICONTROL Ads] 查看次数 | 在查看一天的数据时，趋势图现在包含每小时数据。 将光标悬停在任意小时上可查看该小时的数据。 | 请参阅&quot;[单个营销活动报告](/help/dsp/campaign-management/reports/campaign-reports-about.md#single-campaign-reporting)“ |
-|  | [!UICONTROL Placements] | 投放位置 [!UICONTROL Inspector] 现在包括 [!UICONTROL Inventory] 选项卡，其中显示投放位置的所有交易及其关联量度。 使用这些信息可快速做出调整或解决问题，而无需生成自定义报表。 | 请参阅&quot;[投放 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md#placement-inspector)“ |
+|  | [!UICONTROL Placements] | 投放位置 [!UICONTROL Inspector] 现在包括 [!UICONTROL Inventory] 选项卡，其中显示投放位置的所有交易及其关联量度。 使用这些信息可快速做出调整或解决问题，而无需生成自定义报表。 | 请参阅&quot;[投放 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md#placement-inspector)“ |
 |  | [!UICONTROL Ads] | (有权包含的用户 [!DNL Clearcast] 时钟编号)如果您使用附加到其他广告的时钟编号，DSP将不再显示错误。 **注意：**  最佳实践是为每个视频广告使用唯一的时钟编号。 否则，发布者将不会批准所有广告。 | — |
 |  | [!UICONTROL Deal IDs] | 此 [!UICONTROL Deal ID] 用户界面中的设置和其他位置反映了 [!DNL Magnite] SSP：<br><ul><li>SSP ”[!DNL Tremor]“ ([!DNL Telaria])现在为“[!DNL Magnite CTV]“</li><li>在接下来的几周内， [!DNL Rubicon]“ ”将更改为“[!DNL Magnite DV+]，”，其中 [!DNL DV+] 其中代表显示、视频和其他格式，例如音频。</li></ul> | 请参阅&quot;[SSP合作伙伴](/help/dsp/inventory/ssp-partners.md)“ |
 |  | [!DNL Freewheel] 计划性保证交易 | 您现在可以提交广告并检查广告的状态 [!DNL Freewheel] 计划的保证交易 [!UICONTROL Ads] 视图。 以前，您只能通过 [!UICONTROL Deals] 视图。 | 请参阅&quot;[提交计划性保证交易的广告 [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] 计划性保证交易](/help/dsp/inventory/freewheel-check-status.md)“ |
