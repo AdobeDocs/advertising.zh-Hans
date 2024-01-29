@@ -1,16 +1,16 @@
 ---
-title: 关于Campaign Management视图中的性能报表
+title: Campaign Management视图中的性能报表类型
 description: 了解营销活动管理视图中包含的报表数据。
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 3f1095fe08e6bc6bf9c942b70295ac06d64ff852
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
 
-# 关于Campaign Management视图中的性能报表
+# Campaign Management视图中的性能报表类型
 
 营销活动管理视图包括全面的报告数据。 可用报告可帮助您识别性能良好的资源包和投放位置以及需要您关注的资源包和投放位置。 快速操作按钮还可提高您的工作效率。
 
@@ -62,49 +62,26 @@ An "Alerts" column indicates when a campaign (or any child entity under it) has 
 An "Alerts" column indicates when a package, placement, or ad &mdash; or any child entity under a package or placement &mdash; has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
 -->
 
-### 投放 [!UICONTROL Inspector] {#placement-inspector}
-
-对于每个投放位置，您可以 [打开（详细信息视图） [!UICONTROL Inspector])](placement-details-view.md)，其中包括以下深入数据：
-
-* **[!UICONTROL Sites]：** 投放位置上已有印象的所有网站。
-
-  此 [!UICONTROL Sites] 选项卡包括搜索和筛选功能，与主页上相同的标准和自定义列视图选项，以及 [!UICONTROL Exclude] 按钮，以便快速从投放位置中排除网站。
-
-* **[!UICONTROL Ads]：** 投放位置中的所有广告。
-
-  此 [!UICONTROL Ads] 选项卡包括搜索和筛选功能，与主页上相同的标准和自定义列视图选项，以及每行中的快速操作按钮，例如 [!UICONTROL Pause] （以便快速暂停广告）。
-
-* **[!UICONTROL Frequency]：** 投放的每个广告频率级别的数据，包括：
-   * 广告频率级别（例如“1”，适用于用户一次看到广告的所有实例）
-   * 设备/浏览器或人员的预计唯一数量(取决于指定的 [!UICONTROL Cross Device Level] （对于营销活动）在指定频率级别接收展示次数
-   * 指定频率级别的预计展示次数
-   * 指定频率级别的估计平均频率。 此值等于（预计展示次数）/（预计独特次数）。
-
-* **[!UICONTROL Inventory]：** 有关投放位置定向的所有交易的信息。
-
-  此 [!UICONTROL Inventory] 选项卡通过显示性能统计信息(例如 [!UICONTROL Auctions]， [!UICONTROL Bids]、和 [!UICONTROL Win Rate]. 选项卡包括搜索和筛选功能、主页上提供的相同标准和自定义列视图选项以及每行中的快速操作按钮，包括 [!UICONTROL Edit]， [!UICONTROL View Report]、和 [[!UICONTROL Auction Insights] 以进行进一步的故障排除](/help/dsp/inventory/private-deal-auction-insights.md).
-
-#### 清单疑难解答
-
-| 问题 | 可能的原因 | 要采取的操作 |
-| -----------| ---------- | ---------- |
-| [!UICONTROL Zero Auctions] | 发布者尚未开始发送竞价请求。 | 联系发布者以激活交易。 |
-| | 交易设置不正确，例如输入错误的外部交易ID。 | 确认交易详细信息并编辑交易。 |
-| [!UICONTROL Auctions but no Bids] | 投放位置定位与交易的传入竞价请求不匹配。 <br><br> 例如，投放位置可能定向到不符合交易条件的地理位置。 | 根据需要编辑投放位置目标，以避免定位不匹配。 |
-| | 投放位置没有具有交易所需的媒体类型的活动广告。 | 创建具有正确媒体类型的广告并将其附加到投放位置。 |
-| | 该职位预算不足。 | 增加投放预算以允许对传入请求投标。 |
-| | 投放投放日期与交易的展示投放日期不重叠。 | 根据需要编辑投放位置的投放日期。 |
-| [!UICONTROL Low Win Rate] | 投放位置的最高出价（下限或固定）低于交易要求的最低出价。 | 增加投放位置的 [!UICONTROL Max Bid] 根据需要。 |
-| | 投放位置使用限制竞价的预竞价过滤器。 | 降低预竞价筛选器的阈值以允许进行更多竞价。 |
-| | 投放的受众定位过于严格。 | 检查指定的受众目标是否有足够的活动用户，如果可能，请展开受众。 |
-
-![放置检查器](/help/dsp/assets/placement-inspector.png)
-
-您可以将 [!UICONTROL Sites]， [!UICONTROL Ads]，或 [!UICONTROL Frequency] 导航到浏览器的默认下载文件夹，作为XLSM格式的报表。
-
 ### 其他类型的营销活动级别报告
 
-对于其他数据划分，查看 [营销活动级别的报表页面](/help/dsp/campaign-management/campaigns/campaign-view-report.md). 此 <!--legacy --> 报告包含以下部分 [!UICONTROL Geography]， [!UICONTROL Device]， [!UICONTROL Viewability]、和 [!UICONTROL Audience Performance] 数据。
+对于其他数据划分，查看 [营销活动级别的报表页面](/help/dsp/campaign-management/campaigns/campaign-view-report.md). 报告包括以下部分 [!UICONTROL Geography]， [!UICONTROL Device]， [!UICONTROL Viewability]、和 [!UICONTROL Audience Performance] 数据。
+
+### 其他类型的职位级别报表
+
+对于其他数据划分，查看 [投放级别报表页面](/help/dsp/campaign-management/placements/placement-view-report.md). 报告包括以下部分 [!UICONTROL Geography]， [!UICONTROL Device]， [!UICONTROL Viewability]， [!UICONTROL Audience Performance]， [!UICONTROL Notifications]、和 [!UICONTROL Ads] 数据。
+
+此外，还可以在版面设置中查看以下数据：
+
+* [A（详细信息视图） [!UICONTROL Inspector])](placement-details-view.md)，其中显示了投放的所有目标网站、广告、频率数据和交易。
+
+* A [投放预测报告](/help/dsp/campaign-management/reports/placement-forecast.md)
+
+* [放置诊断报告](/help/dsp/campaign-management/reports/placement-diagnostics.md).
+
+
+### 其他类型的广告级别报表
+
+对于其他数据划分，查看 [广告级别的报表页面](/help/dsp/campaign-management/ads/ad-view-report.md). 报告包括 [!UICONTROL Overview]， [!UICONTROL Geography]、和 [!UICONTROL Viewability] 数据。
 
 >[!MORELIKETHIS]
 >

@@ -3,16 +3,40 @@ title: 查看投放的网站、广告、频度和库存详细信息
 description: 了解如何查看投放的目标网站、广告、频率和库存数据。
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
 
 # 查看投放的网站、广告、频度和库存详细信息
 
-投放位置 [!UICONTROL Inspector] 列出投放位置中的所有目标网站、广告和交易。 其中还包括投放的频率数据。
+对于每个投放位置，您可以 [打开（详细信息视图） [!UICONTROL Inspector])](placement-details-view.md)，其中列出了投放位置中的所有目标网站、广告和交易。 其中还包括投放的频率数据。 您可以选择从任何选项卡导出数据。
+
+![放置检查器](/help/dsp/assets/placement-inspector.png)
+
+## 投放位置中的信息 [!UICONTROL Inspector] {#placement-inspector}
+
+* **[!UICONTROL Sites]：** 投放位置上已有印象的所有网站。
+
+  此 [!UICONTROL Sites] 选项卡包括搜索和筛选功能，与主页上相同的标准和自定义列视图选项，以及 [!UICONTROL Exclude] 按钮，以便快速从投放位置中排除网站。
+
+* **[!UICONTROL Ads]：** 投放位置中的所有广告。
+
+  此 [!UICONTROL Ads] 选项卡包括搜索和筛选功能，与主页上相同的标准和自定义列视图选项，以及每行中的快速操作按钮，例如 [!UICONTROL Pause] （以便快速暂停广告）。
+
+* **[!UICONTROL Frequency]：** 投放的每个广告频率级别的数据，包括：
+   * 广告频率级别（例如“1”，适用于用户一次看到广告的所有实例）
+   * 设备/浏览器或人员的预计唯一数量(取决于指定的 [!UICONTROL Cross Device Level] （对于营销活动）在指定频率级别接收展示次数
+   * 指定频率级别的预计展示次数
+   * 指定频率级别的估计平均频率。 此值等于（预计展示次数）/（预计独特次数）。
+
+* **[!UICONTROL Inventory]：** 有关投放位置定向的所有交易的信息。
+
+  此 [!UICONTROL Inventory] 选项卡通过显示性能统计信息(例如 [!UICONTROL Auctions]， [!UICONTROL Bids]、和 [!UICONTROL Win Rate]. 选项卡包括搜索和筛选功能、主页上提供的相同标准和自定义列视图选项以及每行中的快速操作按钮，包括 [!UICONTROL Edit]， [!UICONTROL View Report]、和 [[!UICONTROL Auction Insights] 以进行进一步的故障排除](/help/dsp/inventory/private-deal-auction-insights.md).
+
+## 打开 [!UICONTROL Placement Inspector]
 
 1. 打开父营销活动或包的“版面”视图：
 
@@ -46,7 +70,25 @@ ht-degree: 0%
 
 1. （可选） [更改列视图](campaign-data-views-manage.md#column-view-change) （根据需要）查看所需的量度。
 
+1. （可选）要导出任意选项卡上的数据，请单击 ![更多](/help/search-social-commerce/assets/more.png "更多") 图标，然后单击 **[!UICONTROL Export]**.
+
+   数据以XLSM格式作为报表保存到浏览器的默认下载文件夹中。
+
+## 清单疑难解答
+
+| 问题 | 可能的原因 | 要采取的操作 |
+| -----------| ---------- | ---------- |
+| [!UICONTROL Zero Auctions] | 发布者尚未开始发送竞价请求。 | 联系发布者以激活交易。 |
+| | 交易设置不正确，例如输入错误的外部交易ID。 | 确认交易详细信息并编辑交易。 |
+| [!UICONTROL Auctions but no Bids] | 投放位置定位与交易的传入竞价请求不匹配。 <br><br> 例如，投放位置可能定向到不符合交易条件的地理位置。 | 根据需要编辑投放位置目标，以避免定位不匹配。 |
+| | 投放位置没有具有交易所需的媒体类型的活动广告。 | 创建具有正确媒体类型的广告并将其附加到投放位置。 |
+| | 该职位预算不足。 | 增加投放预算以允许对传入请求投标。 |
+| | 投放投放日期与交易的展示投放日期不重叠。 | 根据需要编辑投放位置的投放日期。 |
+| [!UICONTROL Low Win Rate] | 投放位置的最高出价（下限或固定）低于交易要求的最低出价。 | 增加投放位置的 [!UICONTROL Max Bid] 根据需要。 |
+| | 投放位置使用限制竞价的预竞价过滤器。 | 降低预竞价筛选器的阈值以允许进行更多竞价。 |
+| | 投放的受众定位过于严格。 | 检查指定的受众目标是否有足够的活动用户，如果可能，请展开受众。 |
+
 >[!MORELIKETHIS]
 >
->* [关于Campaign Management视图中的性能报表](campaign-reports-about.md)
+>* [Campaign Management视图中的性能报表类型](campaign-reports-about.md)
 >* [管理Campaign数据视图](campaign-data-views-manage.md)

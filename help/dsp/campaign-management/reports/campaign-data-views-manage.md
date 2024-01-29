@@ -2,9 +2,9 @@
 title: 管理Campaign数据视图
 description: 了解如何自定义营销活动、包、投放位置和广告的数据视图。
 feature: DSP Campaign Data Views
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -171,7 +171,7 @@ DSP将最近的视图保存为默认视图，以便您每次返回到页面时�
 
 >[!MORELIKETHIS]
 >
->* [关于Campaign Management视图中的性能报表](campaign-reports-about.md)
+>* [Campaign Management视图中的性能报表类型](campaign-reports-about.md)
 >* [查看投放位置的网站、广告和频率详细信息](placement-details-view.md)
 >* [查看职位安排预测报表](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [查看放置诊断报告](placement-diagnostics.md)

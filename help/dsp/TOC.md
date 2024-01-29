@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 6c117e57471d85fc044a7b814a231037ce89d90c
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '929'
 ht-degree: 3%
 
 ---
@@ -93,9 +93,9 @@ ht-degree: 3%
          + [通用视频广告设置](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [支持的广告类型的规范](/help/dsp/campaign-management/ads/ad-specs.md)
    + Campaign Management视图中的性能报表 {#campaign-reports}
-      + [关于Campaign Management视图中的性能报表](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+      + [Campaign Management视图中的性能报表类型](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [从Campaign Management视图中导出数据](/help/dsp/campaign-management/reports/campaign-export-data.md)
-      + [查看投放位置的网站、广告和频率详细信息](/help/dsp/campaign-management/reports/placement-details-view.md)
+      + [查看投放的网站、广告、频度和库存详细信息](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [查看职位安排预测报表](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [查看放置诊断报告](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + [管理Campaign数据视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

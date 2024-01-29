@@ -3,9 +3,9 @@ title: 查看投放位置的详细报告
 description: 了解如何打开包含以下章节的投放级别报表 [!UICONTROL Geography]， [!UICONTROL Device]， [!UICONTROL Viewability]， [!UICONTROL Audience Performance]， [!UICONTROL Notifications]、和 [!UICONTROL Ads] 数据。
 feature: DSP Placements, DSP Campaign Data Views
 exl-id: ddfae530-1dc6-4470-9910-ae13abcbaa8b
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,6 @@ ht-degree: 0%
 >* [查看投放位置的网站、广告和频率详细信息](/help/dsp/campaign-management/reports/placement-details-view.md)
 >* [查看广告的详细报告](/help/dsp/campaign-management/ads/ad-view-report.md)
 >* [查看营销活动的详细报告](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* [关于Campaign Management视图中的性能报表](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Campaign Management视图中的性能报表类型](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [关于自定义报表](/help/dsp/reports/report-about.md)
 >* [查看投放位置的更改日志](placement-change-log.md)

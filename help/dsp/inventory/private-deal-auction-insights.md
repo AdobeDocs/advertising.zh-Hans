@@ -3,9 +3,9 @@ title: 查看私人交易的拍卖分析
 description: 了解如何使用拍卖见解分析私人交易的交易组成。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -51,4 +51,4 @@ Auction Insights是一种故障排除工具，可用于分析有保证的和无�
 >* [关于专用清单](private-inventory-about.md)
 >* [指定交易ID的投放位置和广告](deal-id-attach-placements.md)
 >* [查看交易的详细报告](deal-view-report.md)
->* [关于Campaign Management视图中的性能报表](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Campaign Management视图中的性能报表类型](/help/dsp/campaign-management/reports/campaign-reports-about.md)
