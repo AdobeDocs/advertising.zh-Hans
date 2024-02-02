@@ -3,9 +3,9 @@ title: 使用的Adobe AdvertisingID [!DNL Analytics]
 description: 使用的Adobe AdvertisingID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 3e6c90c1fc36ffc8fd404b5fe589f1f79f69a096
+source-git-commit: 0d48ceda77783cd8b5fd9e609da424dcfa94f278
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ AMO ID也称为 `s_kwcid`，有时发音为“[!DNL the squid]“
 
 参数可通过以下方式之一添加到您的跟踪URL中：
 
-* （推荐）已实施服务器端插入功能。
+* （推荐）实施服务器端插入功能时。
 
    * DSP客户：当最终用户查看带有Adobe Advertising像素的显示广告时，像素服务器会自动将s_kwcid参数附加到登陆页面后缀。
 
@@ -120,7 +120,7 @@ AMO ID也称为 `s_kwcid`，有时发音为“[!DNL the squid]“
 
       * 对于其他广告网络，或 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 帐户具有 [!UICONTROL Auto Upload] 设置已禁用，手动将参数添加到您的 [帐户级别的附加参数](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}，以将其附加到基本URL中。
 
-* 未实现服务器端插入功能：
+* 未实施服务器端插入功能时：
 
    * DSP客户： [JavaScript代码](javascript.md) 自动记录点进和显示点进。 当浏览器不支持第三方Cookie时，您仍然可以跟踪以下广告类型的基于点击的转化：
 
@@ -152,7 +152,7 @@ AMO ID也称为 `s_kwcid`，有时发音为“[!DNL the squid]“
 
 示例AMO ID： AC！iIMvXqlOa6Nia2lDvtgw！GrVv6o2oV2qQLjQiXLC7
 
-#### 搜索、社交和商务广告的AMO ID格式
+#### 搜索、社交和商务广告的AMO ID格式 {#amo-id-format-search}
 
 这些参数因广告网络而异，但以下参数是所有参数共有的：
 

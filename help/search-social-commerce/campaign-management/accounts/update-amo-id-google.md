@@ -1,11 +1,11 @@
 ---
 title: 更新的AMO ID (s_kwcid)跟踪代码 [!DNL Google Ads] 帐户
 description: 了解如何切换到的最新AMO ID跟踪代码 [!DNL Google Ads] 帐户。
-exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
+exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 515c049a45d795fd973b5fcead5f96e71dbf844a
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 *[!DNL Google Ads]仅限帐户*
 
-的旧格式 [AMO ID跟踪代码](/help/integrations/analytics/ids.md#amo-id-formats) 对于现有 [!DNL Google Ads] 帐户不支持Analytics中的某些功能，例如营销活动和广告组级别的报表 [!DNL Google Ads] 效果最佳的营销活动、草稿和实验营销活动以及其他用例，在这些用例中，多个营销活动中存在相同的广告+关键字+匹配类型组合。
+的旧版（2019年10月之前）格式 [AMO ID跟踪代码](/help/integrations/analytics/ids.md#amo-id-formats) 对于现有 [!DNL Google Ads] 帐户不支持Analytics中的某些功能，例如营销活动和广告组级别的报表 [!DNL Google Ads] 效果最佳的营销活动、草稿和实验营销活动以及其他用例，在这些用例中，多个营销活动中存在相同的广告+关键字+匹配类型组合。
 
-最新格式包括促销活动ID和广告组ID的参数：
+当前格式包括促销活动ID和广告组ID的参数：
 
 ```
 s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
 ```
 
-您可以单独更改任何或所有现有帐户的新格式。 如果您没有效果最佳的促销活动或草稿和实验促销活动，则可以选择迁移到新格式。
+您可以单独更改任何或所有现有帐户的当前格式。 如果您没有效果最佳的促销活动或草稿和实验促销活动，则可以选择迁移到新格式。
 
-所有新 [!DNL Google Ads] 帐户会自动使用新的AMO ID格式。
+所有新 [!DNL Google Ads] 帐户会自动使用当前的AMO ID格式。
 
 >[!NOTE]
 >

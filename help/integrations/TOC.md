@@ -4,9 +4,9 @@ user-guide-description: 了解 Advertising DSP 和 Advertising Search 与其他 
 breadcrumb-title: 与 Experience Cloud 的集成
 role: User, Developer
 index: true
-source-git-commit: 5b72ac7dccfd72a1173347e91fe582a55d58fd7b
+source-git-commit: 41029d46df032a7fdf5b215df1c9413b4ae08a8c
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '216'
 ht-degree: 11%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 11%
    + [使用的Adobe AdvertisingID [!DNL Analytics]](/help/integrations/analytics/ids.md)
    + 规划实施 {#planning}
       + [实施的先决条件和关键信息 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)
-      + [JavaScript代码 [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)
+      + [(DSP)的JavaScript代码 [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)
       + [使用 [!DNL Last Event Service] JavaScript库和Adobe Experience Platform [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)
-      + 广告标记的宏 {#macros}
+      + (DSP)广告标记的宏 {#macros}
          + [附加 [!DNL Analytics for Advertising] 宏到 [!DNL Flashtalking] 广告标记](/help/integrations/analytics/macros-flashtalking.md)
          + [附加 [!DNL Analytics for Advertising] 宏到 [!DNL Google Campaign Manager 360] 广告标记](/help/integrations/analytics/macros-google-campaign-manager.md)
    + 交换的数据 {#data}
