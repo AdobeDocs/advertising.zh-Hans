@@ -3,9 +3,9 @@ title: 将广告附加到投放位置
 description: 了解如何将广告附加到投放位置。
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 55a9dd36d64fa42b7ff21714bae6e5afd04d1389
+source-git-commit: 550ccbaf6844b9e9bb10ba5fef7a3cc4e5f2ad9b
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    1. （可选）通过以下任意方式查找特定投放位置和广告：
 
-      * 在表上方单击 ![筛选](/help/dsp/assets/filter.png) 并按版面类型、版面状态、广告类型或广告状态筛选列表。
+      * 在表上方单击 ![筛选](/help/dsp/assets/filter.png) 并按包、版面类型、版面状态、广告类型或广告状态筛选列表。
 
       * 在右侧和左侧表格中，搜索版面和广告名称中的特定文本字符串。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. （可选）根据需要查找特定投放位置和广告：
 
-   * 在左表上方，按资源包、版面类型、版面状态、广告类型或广告状态筛选列表。
+   * 在左表格上方，单击 ![筛选](/help/dsp/assets/filter.png) 并按包、版面类型、版面状态、广告类型或广告状态筛选列表。
 
    * 在右侧和左侧表格中，搜索版面或广告名称中的特定文本字符串。
 
