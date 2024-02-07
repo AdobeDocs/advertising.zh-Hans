@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 523bc488bf586901eb7302d9c03dda3cd1f98f2b
+source-git-commit: b0a8cf0784340ebe0fc495ef300aa40036455823
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1982'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年2月7日 | [!UICONTROL Placements] 和 [!UICONTROL Ads] | 此 [!UICONTROL Ads Tool] 现在具有包过滤器。 | 请参阅&quot;[将广告附加到投放位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)“ |
 | 2024年1月24日 | [!UICONTROL Placements] 和 [!UICONTROL Ads] | 重新设计了将广告附加到投放位置的工作流。 | 请参阅&quot;[将广告附加到投放位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)“ |
 | 2024年1月10日 | [!UICONTROL Placements] | 您现在可以使用电子表格快速自定义多个投放位置的广告计划：<ul><li>您可以下载投放位置的广告计划模板。 您可以根据需要编辑下载文件中的投放日期和广告轮换。</li><li>然后，您可以上传编辑的广告计划模板。</li></ul> | 请参阅&quot;[编辑投放的广告计划](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)“ |
 | 2023年12月21日 | [!UICONTROL Audiences] | 文档现在可用于共享来自的第一方数据 [!DNL Tealium] 使用以下工具使用DSP的客户数据平台 [!DNL Amazon Web Services]. 您可以使用将DSP投放位置定位到区段 [!DNL RampIDs]. 在的放置设置内 [!UICONTROL Audience Targeting]中，共享区段位于 [!UICONTROL First Party Segments] 列表。 | 请参阅&quot;[关于从受众源激活经过身份验证的区段](/help/dsp/audiences/sources/source-about.md)”和“[用于将DSP集成与配合使用的工作流 [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)“ |
