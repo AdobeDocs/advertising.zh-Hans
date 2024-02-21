@@ -1,11 +1,11 @@
 ---
 title: 管理商家帐户
 description: 了解如何设置和管理商户中心帐户的帐户详细信息。
-exl-id: eca58f55-f056-46b3-b192-2849690e8bcc
+exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 35a27d075d5de7c3526cd6522376671954b608db
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,14 @@ Search、Social &amp; Commerce每天可以下载并显示广告商的Google商�
 1. 指定 [商家帐户设置](#merchant-account-settings)：
 
    1. 在 [!UICONTROL Product Source] 菜单，选择商家中心。
+
+   <!--
+
+   1. ([!DNL Meta Ads] accounts only) Log in to the [!DNL Meta Ads] account.
+
+   And are there additional steps just for Meta? If so, create a separate procedure for it.
+   
+   -->
 
    1. (需要 [!DNL Google Ads] 帐户；可选 [!DNL Microsoft Advertising] 帐户)允许搜索、社交和商务使用访问帐户 [[!DNL OAuth] 授权协议](https://oauth.net/2/)：
 
