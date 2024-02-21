@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 59270088af96acd5f65b8af10251308123af3faa
+source-git-commit: 0a8bf1a457ecfa84164fb5ee4ff75aa95487edd2
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '2221'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年2月21日 | [!UICONTROL Alerts] 对象 [!UICONTROL Campaigns]， [!UICONTROL Packages]， [!UICONTROL Placements]， [!UICONTROL Ads]、和 [!UICONTROL Deals] | A [!UICONTROL Pulse Panel] 图标 [!UICONTROL Campaigns]， [!UICONTROL Packages] 和包详细信息， [!UICONTROL Placements]、和 [!UICONTROL Ads] 视图指示视图中的项目是否有任何警报可用。 您可以打开面板以查看每个警报，还可以选择打开适用的视图(例如， [!UICONTROL Placements] 查看并列出适用的版面)，以便您可以根据需要编辑设置来解决问题。 您还可以选择消除任何警报。<br><br>此外， [!UICONTROL Campaigns]， [!UICONTROL Packages]， [!UICONTROL Placements]、和 [!UICONTROL Ads] 视图包括“[!UICONTROL Alerts]”列，指示项目或其任何组件何时出现问题。<br><br>警报在营销活动、包、投放位置、广告和交易级别可用。 | 请参阅&quot;[查看警报和通知](/help/dsp/campaign-management/reports/campaign-alerts.md)“ |
+|  | [!UICONTROL Placements] | 通过新的版面设置，您可以指定a)在预算充足时覆盖包级别预算分配的最低版面预算，以及b)覆盖竞价算法以至少对交易的固定价格和底价出价：<ul><li>在属于资源包的投放位置设置中，您现在可以指定最小预算占资源包预算的百分比。 要使用该功能，请选择投放资金选项以&quot;[!UICONTROL Set a Fixed Minimum or Maximum Budget]“(以前称为”[!UICONTROL Set a fixed budget cap]“)。 您仍然可以输入 [!UICONTROL Maximum Budget] 以美元计价（就像之前为预算上限所做的那样），并且您还可以输入 [!UICONTROL Minimum Budget] 以包预算的百分比表示。 对于现有版面，使用新字段名称保留现有设置。</li><li>在 [!UICONTROL Inventory Targeting] 设置，的新选项 [!UICONTROL On Demand] 清单和专用清单允许您[!UICONTROL Ensure Fixed or Floor Price for the bid]“</li></ul> | 请参阅&quot;[投放设置](/help/dsp/campaign-management/placements/placement-settings.md)“ |
 | 2024年2月7日 | [!UICONTROL Placements] 和 [!UICONTROL Ads] | 此 [!UICONTROL Ads Tool] 现在具有包过滤器。 | 请参阅&quot;[将广告附加到投放位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)“ |
 | 2024年1月24日 | [!UICONTROL Placements] 和 [!UICONTROL Ads] | 重新设计了将广告附加到投放位置的工作流。 | 请参阅&quot;[将广告附加到投放位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)“ |
 | 2024年1月10日 | [!UICONTROL Placements] | 您现在可以使用电子表格快速自定义多个投放位置的广告计划：<ul><li>您可以下载投放位置的广告计划模板。 您可以根据需要编辑下载文件中的投放日期和广告轮换。</li><li>然后，您可以上传编辑的广告计划模板。</li></ul> | 请参阅&quot;[编辑投放的广告计划](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)“ |
