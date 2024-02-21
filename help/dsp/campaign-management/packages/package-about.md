@@ -1,42 +1,41 @@
 ---
-title: 關於廣告DSP中的套件管理
-description: 瞭解套件管理。
+title: 关于Advertising DSP中的包管理
+description: 了解包管理。
 feature: DSP Packages
 exl-id: 26985635-c03a-471e-8372-fd33e89a30e9
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 2b0513691e5db2db28222d4cf7edf8bca2f014ca
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
 
-# 關於廣告DSP中的套件管理
+# 关于Advertising DSP中的包管理
 
-使用套件將投放位置分組，以設定預算、效能目標和自訂步調策略。 DSP會將預算轉移到封裝中表現最佳的位置，藉此最佳化封裝。 您可以依版位格式、詳細目錄型別、資料提供者、角色或其他可區別的特徵來組織套件。 套件為選用。
+使用资源包将投放位置分组，以使其达到设定的预算、性能目标和自定义步调策略。 DSP通过将预算转移到包中性能最佳的投放位置来优化包。 您可以按版面格式、库存类型、数据提供商、角色或其他可区分的特征来组织资源包。 包是可选的。
 
-您可以手動建立套裝軟體，或複製現有套裝軟體。 您也可以編輯版位，並將版位附加至任何封裝。
+您可以手动创建包，也可以通过复制现有包来创建包。 您还可以编辑投放位置并将其附加到任何包。
 
-## 此 [!UICONTROL Packages] 儀表板
+## 此 [!UICONTROL Packages] 仪表板
 
-此 [!UICONTROL Packages] 儀表板可集中管理所有套件策略的效能和經濟報告，提供指定日期範圍內套件執行情況的快速快照。
+此 [!UICONTROL Packages] “功能板”可以集中管理所有包策略的性能和经济报告，从而快速了解包在指定日期范围内的执行情况。
 
-![套件儀表板](/help/dsp/assets/package-dashboard.png)
+![包仪表板](/help/dsp/assets/package-dashboard.png)
 
-控制面板包含高階、可自訂的趨勢圖，內含三個量度。
+仪表板包括一个高级的、可自定义的趋势图，其中具有三个指标。
 
-預設情況下，也會依套件顯示步調和傳送量度。 您可以選擇檢視套件的效能測量結果，並建立自訂資料行集。 您可以將整個資料表下載至瀏覽器的預設下載資料夾，以XLSM （啟用巨集的Excel試算表）格式作為報表。
+默认情况下，它还按包显示步调和投放量度。 您可以选择查看包的性能度量，以及创建自定义列集。 您可以以XLSM（启用宏的Excel电子表格）格式将整个数据表下载到浏览器的默认下载文件夹中。
 
 >[!NOTE]
 >
->您可以進一步透過自訂套件報告的內容和傳送 [自訂報表](/help/dsp/reports/report-about.md).
+>您可以通过进一步自定义包报表的内容和交付 [自定义报表](/help/dsp/reports/report-about.md).
 
-若要檢視封裝內的所有版位，請按一下封裝名稱。
+要查看包中的所有投放位置以及包的投放日期，请单击包名称。
 
 >[!MORELIKETHIS]
 >
->* [建立套裝](package-create.md)
->* [編輯套裝](package-edit.md)
->* [將位置附加至封裝](package-attach-placement.md)
->* [檢視套裝程式的變更記錄](package-change-log.md)
->* [封裝設定](package-settings.md)
-
+>* [创建资源包](package-create.md)
+>* [编辑包](package-edit.md)
+>* [将投放位置附加到包](package-attach-placement.md)
+>* [查看包的更改日志](package-change-log.md)
+>* [包设置](package-settings.md)
