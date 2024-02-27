@@ -4,7 +4,7 @@ description: 请参阅有关使用通用ID的策略。
 feature: Policies, DSP Ads
 hide: true
 hidefromtoc: true
-source-git-commit: e809a521efc35442b912375cda19516b6be7e90b
+source-git-commit: 90c4e8055b8438e7375968980f5344d7497fbc8f
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 0%
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 您不得使用本服务从事违法歧视行为，包括以广告为目的错误地针对特定人群进行歧视、错误地排除特定人群观看广告或在广告中带有歧视性内容等。 您有责任使用服务来避免对受保护类的歧视，包括但不限于确保您的广告不会对受保护类产生不同影响。
 
-## 证据A：被禁国家 {#prohibited-countries}
+## 展品A：被禁国家 {#prohibited-countries}
 
 ### 欧盟国家
 
