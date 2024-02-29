@@ -3,7 +3,7 @@ title: 使用客户数据列表管理客户匹配受众
 description: 了解如何创建和编辑 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 客户匹配来自您的客户数据列表的受众。
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 588b6b5887903e5912fc68a18ef142d908026870
+source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -66,7 +66,7 @@ ht-degree: 0%
 
       1. 选中该复选框以表示您同意 [!DNL Adobe] 和广告网络隐私政策。
 
-      1. (广告商创建 [!DNL Google Ads] 在欧洲经济区(EEA)或英国(UK)开展业务的受众；可选)如果您已获得EEA和英国用户同意上传其数据以用于广告目的，请选中 **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+      1. (广告商创建 [!DNL Google Ads] 在欧洲经济区(EEA)或英国(UK)开展业务的受众；可选)如果您已向EEA和英国用户收集同意以上传其数据用于广告，请选中 **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
 
       [!DNL Google Ads] 忽略具有未指定同意状态的EEA和英国用户的任何数据。 这可能会导致数据差异和性能问题。
 
