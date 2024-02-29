@@ -3,9 +3,9 @@ title: 将转化量度上传到 [!DNL Google Ads]
 description: 了解如何将搜索、社交和商务跟踪的转化量度上传到 [!DNL Google Ads].
 exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
-source-git-commit: 608c1a189017f1a7ebfbccf3d8b3455886c297f9
+source-git-commit: a004f5025ee94c6a40c24124a9cb134a4e1668ce
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 0%
 1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 
 1. 选中旁边的复选框 **[!UICONTROL Upload Conversions to Google Ads]**.
+
+1. (在欧洲经济区(EEA)或英国(UK)开展业务的广告商；可选)如果您已获得EEA和英国用户的同意，可以上传其数据用于广告，请选中 **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
 
 1. 单击 **[!UICONTROL Save]**.
 

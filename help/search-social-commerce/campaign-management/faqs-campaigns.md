@@ -1,11 +1,11 @@
 ---
 title: 有关营销活动的常见问题解答
 description: 查看有关营销活动管理和营销活动数据视图的问题的答案。
-exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
+exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 295d576cff59f1313a317473db6e5f271d55e7da
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1585'
 ht-degree: 0%
 
 ---
@@ -23,14 +23,14 @@ ht-degree: 0%
 
 从搜索引擎提取前一天点击数据的过程从广告商时区的06:00开始。
 
-另外， [!DNL Google Ads] 当天搜索网络上的营销活动级别绩效指标分别提取于广告商时区的08:00和16:00。
+另外， [!DNL Google Ads] 当天搜索网络上的营销活动级绩效指标分别提取于广告商时区的08:00和16:00。
 +++
 
 +++哪些操作会导致关键词和广告丢失其历史记录？
 
 >[!NOTE]
 >
->（具有产品组合的广告商）在Search、Social和Commerce收集数据以创建新模型时，期望新关键词和匹配类型组合的性能不稳定。
+>（具有产品组合的广告商）在Search、Social和Commerce收集数据以为其创建模型时，期望新关键词和匹配类型组合的性能不稳定。
 
 **中的操作 [!UICONTROL Search] > [!UICONTROL Campaigns] 视图、在批量处理工作表发布过程中以及在广告网络自己的编辑器中执行以下操作：**
 
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 * ([!DNL Baidu]， [!DNL Google Ads]、和 [!DNL Yandex])编辑关键字名称。
 
-* ([!DNL Google Ads]， [!DNL Microsoft Advertising]、和 [!DNL Yandex])更改关键字的匹配类型。
+* ([!DNL Google Ads]， [!DNL Microsoft® Advertising]、和 [!DNL Yandex])更改关键字的匹配类型。
 
 * 可在广告组之间移动关键字。
 
-* ([!DNL Google Ads] 动态搜索广告， [!DNL Microsoft Advertising] 扩展的文本广告和其他支持的广告网络上的所有广告类型)您可以编辑广告文案（标题/标题或描述）或广告图像。
+* ([!DNL Google Ads] 动态搜索广告， [!DNL Microsoft® Advertising] 扩展的文本广告和其他支持的广告网络上的所有广告类型)您可以编辑广告文案（标题/标题或描述）或广告图像。
 
 * 您可以在广告组之间移动广告。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 +++(Google广告营销活动)是否可以在项目组合中使用营销活动的共享预算？
 
-为了获得最佳结果，请勿添加 [!DNL Google Ads] 营销活动到 [!DNL Google Ads] 共享预算（如果他们位于配置的优化项目组合中）”[!UICONTROL Auto adjust campaign budget limits]“ 如果你愿意， [!DNL Google Ads] 覆盖“搜索、社交和商务”优化的活动预算，这可能导致竞价效率低下。
+为了获得最佳结果，请勿添加 [!DNL Google Ads] 促销活动到 [!DNL Google Ads] 共享预算（如果他们位于配置的优化项目组合中）”[!UICONTROL Auto adjust campaign budget limits]“ 如果你愿意， [!DNL Google Ads] 覆盖“搜索、社交和商务”优化的活动预算，这可能导致竞价效率低下。
 +++
 
 +++([!DNL Google Ads] 营销活动)是否可以将移动用户和非移动用户发送到不同的登陆页面？
@@ -97,9 +97,9 @@ ht-degree: 0%
 
 +++([!DNL Google Ads] 搜索网络上的营销活动)今天显示了哪些数据？
 
-[!DNL Google Ads] 当天搜索网络上的营销活动级别绩效指标分别提取于广告商时区的08:00和16:00。
+[!DNL Google Ads] 当天搜索网络上的营销活动级绩效指标分别提取于广告商时区的08:00和16:00。
 
-在 [!UICONTROL Campaigns] 在中选项卡 [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 视图和 [!UICONTROL Optimization] > [!UICONTROL Portfolios] 视图，当您报告时 [!UICONTROL Today] 或包含当天的自定义日期范围，数据将包含最近提取的数据。
+在 [!UICONTROL Campaigns] 在中选项卡 [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 视图和 [!UICONTROL Optimization] > [!UICONTROL Portfolios] 视图，当您报告时 [!UICONTROL Today] 或包括当天的自定义日期范围，数据包括最近同步的数据。
 
 >[!NOTE]
 >
@@ -107,13 +107,21 @@ ht-degree: 0%
 
 +++
 
-+++([!DNL Google Ads] 和 [!DNL Microsoft Advertising])搜索、社交和商务是否支持对中的广告进行并行跟踪 [!DNL Google Ads] 或 [!DNL Microsoft Advertising]？
++++跟踪模板和登陆页面后缀之间有何区别？
 
-并行跟踪会将客户从您的广告直接发送到最终URL，并且会在后台加载您的跟踪模板URL（包含点击测量）；因此，可以更快地加载您的登陆页面。
+仅对支持并行跟踪的广告网络使用登陆页面后缀。 在Search、Social和Commerce中，跟踪模板和登陆页面后缀都应包含来自广告网络的点击标识符，但跟踪模板应包含其他跟踪参数。
 
-搜索、社交和商务支持使用广告网络的点击标识符(`msclkid` 对象 [!DNL Microsoft Advertising]； `gclid` 对象 [!DNL Google Ads])。 使用 [帐户级别](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) 或 [营销活动级别](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (称为“[!DNL final URL suffix]&quot;)，附加到登陆页面URL中，以跟踪来自支持并行跟踪的浏览器的子广告点击次数。 请参阅 [所需的后缀格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [所需的后缀格式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+查看关于的下一个常见问题解答 [并行跟踪支持](#parallel-tracking) 以了解有关在用户单击广告时如何加载跟踪模板和登陆页面后缀的更多信息。
 
-当用户在不支持并行跟踪的浏览器上查看您的广告时，广告网络而是使用顺序跟踪：客户首先被发送到您的跟踪模板URL，这可能会导致客户先重定向到中间跟踪服务器，然后再重定向到最终URL。 广告网络帐户的所有跟踪模板都应包含您在中使用的相同点击标识符参数 [!UICONTROL Landing Page Suffix]. 请参阅 [跟踪模板格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [跟踪模板格式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
++++
+
++++([!DNL Google Ads] 和 [!DNL Microsoft® Advertising])搜索、社交和商务是否支持对中的广告进行并行跟踪 [!DNL Google Ads] 或 [!DNL Microsoft® Advertising]？ {#parallel-tracking}
+
+并行跟踪可将客户直接从您的广告发送到最终URL，其中可能包括来自最终URL后缀或“登陆页面后缀”的附加参数。 跟踪模板URL（包含用于点击测量的其他参数）将在后台单独加载；因此，登陆页面加载速度更快。
+
+搜索、社交和商务支持使用广告网络的点击标识符(`msclkid` 对象 [!DNL Microsoft® Advertising]； `gclid` 对象 [!DNL Google Ads])。 使用 [帐户级别](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) 或 [营销活动级别](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (称为“[!DNL final URL suffix]&quot;)，附加到登陆页面URL中，以跟踪来自支持并行跟踪的浏览器的子广告点击次数。 请参阅 [所需的后缀格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [所需的后缀格式 [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+
+当用户在不支持并行跟踪的浏览器上查看您的广告时，广告网络而是使用顺序跟踪：客户首先被发送到您的跟踪模板URL，这会将客户重定向到中间跟踪服务器，然后再将他们重定向到最终URL（可能会在登陆页面后缀中包含其他参数）。 广告网络帐户的所有跟踪模板都应包含您在中使用的相同点击标识符参数 [!UICONTROL Landing Page Suffix]. 请参阅 [跟踪模板格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [跟踪模板格式 [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 +++
 
 +++为什么我的广告的跟踪URL包含&quot;`&EV_HASH={<hash>}`？”
@@ -129,7 +137,7 @@ ht-degree: 0%
 
 当您暂停广告时，如果您重新提交相同的广告或库存水平高于最低值，则会重新激活广告。 这允许您保留广告的历史记录。
 
-当您删除并重新提交广告时，将会创建新广告，并且需要累积历史数据。 但是，如果您不希望重新提交已删除的广告，则拥有历史数据并不重要。
+当您删除并重新提交广告时，将会创建新广告，并且需要为新广告累积历史数据。 但是，如果您不希望重新提交已删除的广告，则拥有历史数据并不重要。
 +++
 
 +++（产品库存信息源）如果我删除一个广告模板，然后创建一个新的相同模板，则下一个信息源文件中是否缺少项目（在将信息源文件设置配置为这样做时）？
@@ -150,7 +158,7 @@ ht-degree: 0%
 
 +++我从库存馈送生成的营销活动具有许多孤立交易记录。
 
-如果 [馈送数据设置](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings) 配置为在各种情况下删除广告，则点击广告后发生的任何延迟转化都可能导致 [孤立事务](/help/search-social-commerce/glossary.md#o-p). 最佳实践是暂停广告而不是删除广告。 如果广告在很长一段时间后仍未收到任何收入，则您可以通过批量处理工作表或广告管理视图将其删除。
+如果 [馈送数据设置](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings) 配置为在各种情况下删除广告，则点击广告后发生的任何延迟转化都可能导致 [孤立事务](/help/search-social-commerce/glossary.md#o-p). 最佳实践是暂停广告而不是删除广告。 如果广告在很长时间后仍未收到任何收入，则您可以通过批量处理工作表或广告管理视图将其删除。
 +++
 
 ## 与帐户和营销活动相关的性能问题

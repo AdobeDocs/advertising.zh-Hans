@@ -1,11 +1,11 @@
 ---
 title: 允许将目标上传到广告网络
 description: 了解如何将混合项目组合的目标上传到 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising].
-exl-id: 75a1a804-ad6a-4dbc-9cde-30fe54476162
+exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
+source-git-commit: 0fb03410e67be28d24496c948b52399c8465e041
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 0%
 1. 选中旁边的复选框 **[!UICONTROL Enable Objective Upload]**.
 
    仅当将广告商帐户配置为使用混合优化时，此选项才可用。 要启用混合优化，请联系您的Adobe客户团队。
+
+1. (广告商使用 [!DNL Google Ads] 在欧洲经济区(EEA)或英国(UK)开展业务的帐户；可选)如果您已获得EEA和英国用户同意上传其数据以用于广告目的，请选中 **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
 
 1. 单击 **[!UICONTROL Save]**.
 
