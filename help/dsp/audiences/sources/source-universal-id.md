@@ -3,9 +3,9 @@ title: 从通用ID合作伙伴激活经过身份验证的区段
 description: 了解如何通过通用ID解决方案激活经过身份验证的受众。
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: e9ff454428d0256402a2ef2fa74f8bd45bd7592f
+source-git-commit: 5d031fe746dc5051320e5d2092f9148b5a8a1bd5
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 1. 对于任一选项，请联系 `adcloud-support@adobe.com` 在DSP中启用以下设置，以便在DSP促销活动中定位一次经过身份验证的区段 [激活工作流中的所有步骤均已完成](source-adobe-rtcdp.md)：
 
-   1. [!DNL LiveRamp] [!DNL RampID] 从共享区段之前的营销活动配置 [!DNL Real-Time CDP].
+   * [!DNL LiveRamp] [!DNL RampID] 区段共享前的营销活动配置 [!DNL Real-Time CDP]
 
-   1. 帐户级别&#39;&#39;[!UICONTROL LiveRamp segments]”选项。
+   * 帐户级别&#39;&#39;[!UICONTROL LiveRamp segments]”选项
 
 1. (用户从手动共享经过身份验证的区段 [!DNL LiveRamp])完成以下步骤： [!DNL LiveRamp] [!DNL Connect] 仪表板：
 
