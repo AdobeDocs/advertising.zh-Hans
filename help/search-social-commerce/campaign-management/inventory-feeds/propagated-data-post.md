@@ -3,7 +3,7 @@ title: 从馈送生成的将营销活动数据发布到广告网络
 description: 了解如何将清单数据馈送生成的数据发布到广告网络。
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
+source-git-commit: c27665b979ad8e37fd4f92385bb7339af4354d5f
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
             * **[!UICONTROL End Time]：** 根据的日期或时间，可以暂停或删除已发布的广告 [馈送数据设置](feed-settings-manage.md#feed-data-settings) （对于&quot;）[!UICONTROL When the Scheduled End Date is reached]“ 默认情况下，结束时间是从今天开始的00:00(12:00 a. m.) 30天。 选择 **[!UICONTROL None]** 无限期地保持数据活动（或在为模板传播新数据之前），或指定日期和时间。
 
-              要指定日期，请使用格式DD/MM/YYYY或D/M/YYYY ，或单击 [日历](/help/search-social-commerce/assets/calendar.png "日历") 打开日历并 [选择日期](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). 要更改时间，请以24小时制HH/MM或H/M输入时间，或从列表中选择时间（以30分钟为间隔）。
+              要指定日期，请使用格式DD/MM/YYYY或D/M/YYYY ，或单击 ![日历](/help/search-social-commerce/assets/calendar.png "日历") 打开日历并 [选择日期](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). 要更改时间，请以24小时制HH/MM或H/M输入时间，或从列表中选择时间（以30分钟为间隔）。
 
          * **[!UICONTROL Preview in Bulksheet Management Area only, post later]：** 创建可从以下位置获得的主体工作表文件 [!UICONTROL Search] > [!UICONTROL Bulksheets] 视图。 您可以选择从此处发布文件。
 
