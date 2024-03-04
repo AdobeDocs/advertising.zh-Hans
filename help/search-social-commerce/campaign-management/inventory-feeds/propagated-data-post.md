@@ -1,11 +1,11 @@
 ---
 title: 从馈送生成的将营销活动数据发布到广告网络
 description: 了解如何将清单数据馈送生成的数据发布到广告网络。
-exl-id: 14ce377c-9b71-48ac-8ead-cada9c06d52f
+exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
               要指定日期，请使用格式DD/MM/YYYY或D/M/YYYY ，或单击 [日历](/help/search-social-commerce/assets/calendar.png "日历") 打开日历并 [选择日期](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). 要更改时间，请以24小时制HH/MM或H/M输入时间，或从列表中选择时间（以30分钟为间隔）。
 
-         * *[!UICONTROL Preview in Bulksheet Management Area only, post later]：**创建批量工作表文件，该文件可从 [!UICONTROL Search] > [!UICONTROL Bulksheets] 视图。 您可以选择从此处发布文件。
+         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]：** 创建可从以下位置获得的主体工作表文件 [!UICONTROL Search] > [!UICONTROL Bulksheets] 视图。 您可以选择从此处发布文件。
 
            当生成的批量处理工作表文件大于2 MB时，该文件为ZIP格式。 您无需解压缩文件即可发布该文件。
 
