@@ -3,9 +3,9 @@ title: 关于Advertising DSP中的受众管理
 description: 了解受众管理功能。
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 0979032c6dff9cfe7b5fb7deb10f53114efffb7e
+source-git-commit: e2387f7e373e69c72e97ee83eff8f6a7ce9ceed5
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ ht-degree: 0%
 
 ## 导入第一方和第三方数据区段
 
-DSP可以从数据管理平台(DMP)导入您自己的第一方数据区段，并根据需要将其提供给任何一组广告商。
+DSP可以将您的第一方区段转换为通用ID以进行无痕定位，并且您可以将这些区段提供给任何广告商或帐户。 DSP已为以下对象建立了连接器 [该 [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hans) 和其他CDP。 欲了解更多信息，请参见 [“源”部分](/help/dsp/audiences/sources/source-about.md).
 
-DSP是以下对象的集成目标 [该 [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hans)，从而允许您与批准广告商和用户共享经过身份验证的第一方区段，以激活Campaign。 要了解有关Real-Time CDP集成的更多信息，请参阅 [“源”部分](/help/dsp/audiences/sources/source-about.md).
+DSP还可以直接从数据管理平台(DMP)导入其他第一方数据区段，并根据需要将其提供给任何一组广告商。
 
-DSP还可以导入自定义第三方区段，包括第三方区段的复杂组合。 您可以根据需要将区段提供给任何一组广告商。
+此外，DSP可以导入自定义第三方区段，包括第三方区段的复杂组合。 您可以根据需要将区段提供给任何一组广告商。
 
 有关更多信息，请与您的Adobe客户团队联系。
 
