@@ -3,7 +3,7 @@ title: 编辑投放位置的广告计划
 description: 了解如何更改附加到投放位置的广告的广告计划。
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: bc45e96cf091cba3872b20f6ea691e369b29982f
+source-git-commit: 02a643662b00e2aed6dccf80cf8eeaf04d3d5c34
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -60,21 +60,21 @@ ht-degree: 0%
 
 1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**.
 
-   1. 执行以下任一操作：
+1. 执行以下任一操作：
 
-      * 要添加航班，请单击 **[!UICONTROL Add Flight]**，然后指定开始日期和结束日期。
+   * 要添加航班，请单击 **[!UICONTROL Add Flight]**，然后指定开始日期和结束日期。
 
-      * 要将现有航班添加到广告，请单击 **[!UICONTROL +]** 在投放栏的广告行中。
+   * 要将现有航班添加到广告，请单击 **[!UICONTROL +]** 在投放栏的广告行中。
 
-      * 要从广告中删除现有航班，请单击 **[!UICONTROL x]** 在投放栏的广告行中。
+   * 要从广告中删除现有航班，请单击 **[!UICONTROL x]** 在投放栏的广告行中。
 
       * （当多个广告具有相同投放时间时）要不均匀旋转广告，请单击 **[!UICONTROL Even Rotation]** 在飞行信息中，然后输入每个广告旋转的相对权重（百分比）。
 
         总重量必须等于100。
 
-   1. 在右上角，单击 **[!UICONTROL Continue]**.
+1. 在右上角，单击 **[!UICONTROL Continue]**.
 
-   1. 查看航班详细信息，然后单击 **[!UICONTROL Save & Finish]**.
+1. 查看航班详细信息，然后单击 **[!UICONTROL Save & Finish]**.
 
 >[!MORELIKETHIS]
 >
