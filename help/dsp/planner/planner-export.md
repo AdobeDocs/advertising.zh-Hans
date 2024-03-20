@@ -2,16 +2,15 @@
 title: 导出已连接电视覆盖计划的预测
 description: 了解如何导出连接电视覆盖计划的预测。
 feature: DSP Planner
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+exl-id: f4bad569-1b56-439a-8c41-92a24a710476
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
 
 # 导出已连接电视覆盖计划的预测
-
-*Beta版功能*
 
 您可以导出 [!UICONTROL Budget vs Reach] 预测到 [!DNL Microsoft® Excel] 电子表格**带 [!UICONTROL Budget] 和 [!UICONTROL Reach] 列。
 

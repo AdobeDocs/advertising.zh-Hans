@@ -2,16 +2,15 @@
 title: 复制连接的电视接入计划
 description: 了解如何使用现有计划中的设置来创建连接电视覆盖计划。
 feature: DSP Planner
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+exl-id: 80dab57a-e56d-4a77-a1d5-c3e705f54fb9
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
 # 复制连接的电视接入计划
-
-*Beta版功能*
 
 1. 在主菜单中，单击 **[!UICONTROL Planner]**.
 

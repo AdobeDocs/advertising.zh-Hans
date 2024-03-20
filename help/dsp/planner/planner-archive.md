@@ -2,16 +2,15 @@
 title: 存档连接的电视接入计划
 description: 了解如何存档连接的电视接入计划。
 feature: DSP Planner
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+exl-id: 335db881-51e6-412d-9346-216c6a70a6de
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
 
 # 存档连接的电视接入计划
-
-*Beta版功能*
 
 存档计划会将其从默认计划中删除 [!UICONTROL Planner] 视图。<!-- You can still view it by including the [!UICONTROL Status] "[!UICONTROL Archived]" in the view filter. -->
 

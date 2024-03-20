@@ -2,16 +2,15 @@
 title: 重新生成“连接电视覆盖计划”的预测
 description: 了解如何为连接的电视覆盖范围计划创建新的预测。
 feature: DSP Planner
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+exl-id: ec3de39c-c2b3-4004-8d86-eb6479608121
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
 # 重新生成“连接电视覆盖计划”的预测
-
-*Beta版功能*
 
 您可以根据最新观察数据重新生成已连接电视覆盖计划的预测。
 

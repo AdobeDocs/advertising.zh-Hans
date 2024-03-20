@@ -2,16 +2,15 @@
 title: 已连接电视接入计划的设置
 description: 查看有关已连接电视接入计划的设置说明。
 feature: DSP Planner
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
 
 # 已连接电视接入计划的设置
-
-*Beta版功能*
 
 | 参数 | 描述 | 必需？ |
 | --- | --- | --- |
