@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
+source-git-commit: d21750762d2f90092f044a37f749fe1fcf8c248e
 workflow-type: tm+mt
-source-wordcount: '2241'
+source-wordcount: '2305'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年3月20日 | 投放位置非竞价原因 | 自助式客户现在可以使用所有可操作的非竞价原因(NBR)，这些是帮助解决支出不足问题的关键数据点。 以前，自助服务用户只能部分访问NBR，并且必须依靠客户经理或交易分析师（他们具有管理员访问权限）来帮助排除故障。 | 请参见 [!UICONTROL Non Bids] 的部分 [投放诊断报告](/help/dsp/campaign-management/reports/placement-diagnostics.md). |
 | 2024年3月20日 | 规划者 | 新的Planner工具不再处于Beta模式。 | 请参阅&quot;[关于DSP Planner工具](/help/dsp/planner/planner-about.md)“ |
 | 2024年2月21日 | [!UICONTROL Alerts] 对象 [!UICONTROL Campaigns]， [!UICONTROL Packages]， [!UICONTROL Placements]， [!UICONTROL Ads]、和 [!UICONTROL Deals] | A [!UICONTROL Pulse Panel] 图标 [!UICONTROL Campaigns]， [!UICONTROL Packages] 和包详细信息， [!UICONTROL Placements]、和 [!UICONTROL Ads] 视图指示视图中的项目是否有任何警报可用。 您可以打开面板以查看每个警报，还可以选择打开适用的视图(例如， [!UICONTROL Placements] 查看并列出适用的版面)，以便您可以根据需要编辑设置来解决问题。 您还可以选择消除任何警报。<br><br>此外， [!UICONTROL Campaigns]， [!UICONTROL Packages]， [!UICONTROL Placements]、和 [!UICONTROL Ads] 视图包括“[!UICONTROL Alerts]”列，指示项目或其任何组件何时出现问题。<br><br>警报在营销活动、包、投放位置、广告和交易级别可用。 | 请参阅&quot;[查看警报和通知](/help/dsp/campaign-management/reports/campaign-alerts.md)“ |
 |  | [!UICONTROL Placements] | 通过新的版面设置，您可以指定a)在预算充足时覆盖包级别预算分配的最低版面预算，以及b)覆盖竞价算法以至少对交易的固定价格和底价出价：<ul><li>在属于资源包的投放位置设置中，您现在可以指定最小预算占资源包预算的百分比。 要使用该功能，请选择投放资金选项以&quot;[!UICONTROL Set a Fixed Minimum or Maximum Budget]“(以前称为”[!UICONTROL Set a fixed budget cap]“)。 您仍然可以输入 [!UICONTROL Maximum Budget] 以美元计价（就像之前为预算上限所做的那样），并且您还可以输入 [!UICONTROL Minimum Budget] 以包预算的百分比表示。 对于现有版面，使用新字段名称保留现有设置。</li><li>在 [!UICONTROL Inventory Targeting] 设置，的新选项 [!UICONTROL On Demand] 清单和专用清单允许您[!UICONTROL Ensure Fixed or Floor Price for the bid]“</li></ul> | 请参阅&quot;[投放设置](/help/dsp/campaign-management/placements/placement-settings.md)“ |
