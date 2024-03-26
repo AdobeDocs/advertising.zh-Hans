@@ -4,9 +4,9 @@ description: 了解支持的数据请求类型、所需的设置和字段值，�
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 1ae5b1c1d9742d877763b9efd09585da3a6d4e48
+source-git-commit: 40bd2cfb3d16e3c88679617ad95706e0a2ac971a
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -43,9 +43,9 @@ Adobe Experience Platform使企业能够完成以下任务：
 
    >[!IMPORTANT]
    >
-   >对某些Adobe Experience Cloud解决方案的请求不需要JavaScript库，但对Adobe Advertising的请求需要它。
+   >对某些Experience Cloud解决方案的请求不需要JavaScript库，但对Adobe Advertising的请求需要它。
 
-   您应在数据主体可以提交访问和删除请求的网页上部署库，例如您公司的隐私门户。 库可帮助您检索AdobeCookie(命名空间ID： `gsurferID`)，以便您可以将这些身份作为访问和删除请求的一部分通过Adobe Experience Platform Privacy Service API提交。
+   您应该将库部署在数据主体可以提交访问和删除请求的网页上，例如您公司的隐私门户。 库可帮助您检索 [!DNL Adobe] Cookie(命名空间ID： `gsurferID`)，以便您可以将这些身份作为访问和删除请求的一部分通过Adobe Experience Platform Privacy Service API提交。
 
    当数据主体请求删除个人数据时，库还会从数据主体的浏览器中删除数据主体的Cookie。
 
@@ -55,7 +55,7 @@ Adobe Experience Platform使企业能够完成以下任务：
 
 1. 识别您的Experience Cloud组织ID，并确保它已关联到您的Adobe Advertising帐户。
 
-   Experience Cloud的组织ID是由24个字符组成的字母数字字符串，其后附加有“@AdobeOrg”。 已为大多数Experience Cloud客户分配了组织ID。 如果您的营销团队或内部Adobe系统管理员不知道您的组织ID，或不确定它是否已配置，请通过gdprsupport@adobe.com联系Adobe客户关怀团队。 您将需要组织ID才能使用向Privacy API提交请求 `imsOrgID` 命名空间。
+   Experience Cloud的组织ID是由24个字符组成的字母数字字符串，其后附加有“@AdobeOrg”。 已为大多数Experience Cloud客户分配了组织ID。 如果您的营销团队或内部 [!DNL Adobe] 系统管理员不知道您的组织ID，或不确定它是否已配置，请通过gdprsupport@adobe.com联系Adobe客户关怀团队。 您将需要组织ID才能使用向Privacy API提交请求 `imsOrgID` 命名空间。
 
    >[!IMPORTANT]
    >
@@ -63,7 +63,7 @@ Adobe Experience Platform使企业能够完成以下任务：
 
 1. 使用 [ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （适用于自动请求）或 [PRIVACY SERVICEUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans) （适用于临时请求）代表数据主体向Adobe Advertising提交访问和删除请求，并检查现有请求的状态。
 
-   对于拥有移动应用程序以与数据主体进行交互并与DSP启动促销活动的广告商，您将需要下载适用于隐私的移动SDK以进行Experience Cloud。 Mobile SDK允许数据控制者设置选择退出状态标记、检索数据主体的设备ID（命名空间ID：设备ID），并将请求提交到Privacy ServiceAPI。 您的移动应用程序需要安装SDK版本4.15.0或更高版本。
+   对于拥有移动应用程序以与数据主体进行交互并与DSP启动促销活动的广告商，您将需要下载适用于隐私的移动SDK以进行Experience Cloud。 Mobile SDK允许数据控制者设置选择退出状态标记，检索数据主体的设备ID(命名空间ID： `deviceID`)，并将请求提交到Privacy ServiceAPI。 您的移动应用程序需要安装SDK版本4.15.0或更高版本。
 
    当您提交数据主体的访问请求时，Privacy ServiceAPI会根据指定的Cookie或设备ID返回数据主体的信息，然后您必须将其返回到数据主体。
 
@@ -71,16 +71,16 @@ Adobe Experience Platform使企业能够完成以下任务：
 
    >[!NOTE]
    >
-   如果贵公司拥有多个Experience Cloud组织ID，则必须为每个组织发送单独的API请求。 但是，您可以向多个Adobe Advertising子解决方案发出一个API请求([!DNL Search, Social, & Commerce]， [!DNL Creative]， [!DNL DSP]、和 [!DNL DCO])，每个子解决方案具有一个帐户。
+   >如果贵公司拥有多个Experience Cloud组织ID，则必须为每个组织发送单独的API请求。 但是，您可以向多个Adobe Advertising子解决方案发出一个API请求([!DNL Search, Social, & Commerce]， [!DNL Creative]， [!DNL DSP]、和 [!DNL DCO])，每个子解决方案具有一个帐户。
 
-所有这些步骤对于Adobe Advertising都是必需的。 有关这些事项以及使用Adobe Experience Platform Privacy Service需要执行的其他相关任务，以及在何处查找所需项目的更多信息，请参阅&quot;[Privacy Service概述](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)”和“[Privacy ServiceAPI指南](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html)“
+所有这些步骤对于Adobe Advertising都是必需的。 有关这些事项以及使用Adobe Experience Platform Privacy Service需要执行的其他相关任务，以及在何处查找所需项目的更多信息，请参阅&quot;[Privacy Service概述](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)“
 
 ## Adobe AdvertisingJSON请求中的必填字段值
 
-“公司上下文”：
+`"company context":`
 
 * `"namespace": **imsOrgID**`
-* `"value":` &lt;*您的IMS组织ID值*>
+* `"value":` &lt;*您的Experience Cloud组织ID*>
 
 `"users":`
 
@@ -94,7 +94,7 @@ Adobe Experience Platform使企业能够完成以下任务：
 
    * `"value":` &lt;*从中检索的实际数据主体的Cookie ID值`AdobePrivacy.js`*>
 
-* `"include": **adCloud**` (适用于该请求的Adobe产品)
+* `"include": **adCloud**` (即 [!DNL Adobe] 适用于请求的产品)
 
 * `"regulation": **gdpr**` （即适用于该请求的隐私法规）
 
@@ -126,7 +126,6 @@ Adobe Experience Platform使企业能够完成以下任务：
       "adCloud"
    ],
     "regulation":"gdpr"
-}
 }
 ```
 

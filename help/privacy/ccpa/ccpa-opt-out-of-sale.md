@@ -4,9 +4,9 @@ description: 了解对捕获消费者选择退出销售请求的支持。
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
+source-git-commit: 7613d49698bf303afad521e94471c11cd2a3e556
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 1. 识别您的Experience Cloud组织ID，并确保它已关联到您的Adobe Advertising帐户。
 
-   Experience Cloud的组织ID是由24个字符组成的字母数字字符串，其后附加有“@AdobeOrg”。 已为大多数Experience Cloud客户分配了组织ID。 如果您的营销团队或内部Adobe系统管理员不知道您的组织ID，或不确定它是否已配置，请通过gdprsupport@adobe.com联系Adobe客户关怀团队。 您将需要组织ID才能使用向Privacy API提交请求 `imsOrgID` 命名空间。
+   Experience Cloud的组织ID是由24个字符组成的字母数字字符串，其后附加有“@AdobeOrg”。 已为大多数Experience Cloud客户分配了组织ID。 如果您的营销团队或内部Adobe系统管理员不知道您的组织ID，或不确定它是否已配置，请联系您的Adobe客户团队。 您将需要组织ID才能使用向Privacy API提交请求 `imsOrgID` 命名空间。
 
    >[!IMPORTANT]
    >
@@ -73,7 +73,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   如果您的企业有多个Experience Cloud组织ID，则必须为每个组织发送单独的API请求。 但是，您可以向多个Adobe Advertising子解决方案发出一个API请求([!DNL Search, Social, & Commerce]， [!DNL Creative]， [!DNL DSP]、和 [!DNL DCO])，每个子解决方案具有一个帐户。
+   >如果您的企业有多个Experience Cloud组织ID，则必须为每个组织发送单独的API请求。 但是，您可以向多个Adobe Advertising子解决方案发出一个API请求([!DNL Search, Social, & Commerce]， [!DNL Creative]， [!DNL DSP]、和 [!DNL DCO])，每个子解决方案具有一个帐户。
 
 要获得Adobe Advertising的支持，所有这些步骤都是必需的。 有关这些事项以及使用Adobe Experience Platform Privacy Service需要执行的其他相关任务，以及在何处查找所需项目的更多信息，请参阅 [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
@@ -90,7 +90,7 @@ Adobe Advertising会每月生成客户为帐户的选择退出销售请求提交
 
 ### 方法2：使用Advertising DSP检索消费者选择退出销售报表 [!DNL Trafficking API]
 
-此功能适用于使用 [!DNL Trafficking API]. 请参阅相关文档 [!DNL Trafficking API] 以了解更多信息。
+此功能适用于使用 [!DNL Trafficking API]. 请参阅相关文档 [!DNL Trafficking API] 以了解更多信息。<!-- Add link to API doc once it's published. -->
 
 如果您的组织不使用 [!DNL Trafficking API] 如有兴趣获取更多信息，请联系您的Adobe客户团队。
 
