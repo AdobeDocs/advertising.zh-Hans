@@ -4,7 +4,7 @@ description: 了解支持的数据请求类型、所需的设置和字段值，�
 feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 5edcd810c86f3b3ae65ccc92748177fa8cd0765e
+source-git-commit: 2e2d95ab2a6add695c3852a06e256b6db980779d
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -94,7 +94,7 @@ Adobe Experience Platform使企业能够完成以下任务：
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (表示 [!DNL adcloud] Cookie空间)
+   * `"namespace": **411**` (表示 [!DNL adCloud] Cookie空间)
 
    * `"value":` &lt;*从中检索的实际客户的Cookie ID值`AdobePrivacy.js`*>
 
