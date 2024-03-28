@@ -4,7 +4,7 @@ description: 了解支持的数据请求类型、所需的设置和字段值，�
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 40bd2cfb3d16e3c88679617ad95706e0a2ac971a
+source-git-commit: 80072930c0506a017a927ce53eaad900a2642e92
 workflow-type: tm+mt
 source-wordcount: '1002'
 ht-degree: 0%

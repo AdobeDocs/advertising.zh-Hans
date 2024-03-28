@@ -4,7 +4,7 @@ description: 了解对捕获消费者选择退出销售请求的支持。
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 7613d49698bf303afad521e94471c11cd2a3e556
+source-git-commit: 7378ea6e6907aa4067bd3e73160a8e71c925ec9d
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 0%
@@ -121,17 +121,17 @@ curl -X POST \
             "type": "standard"
           },
           {
-            "namespace": "AdCloud",
+            "namespace": "adCloud",
             "type": "standard",
             "value":  "Wqersioejr-wdg",
           }
     ],
-    "include": ["AdCloud"],
+    "include": ["adCloud"],
     "regulation": "ccpa"
 }'
 ```
 
 其中：
 
-* `"namespace": "AdCloud"` 指示 `AdCloud` Cookie空间，并且对应的值是从中检索的客户Cookie ID `AdobePrivacy.js`
-* `"include": ["AdCloud"]` 指示请求适用于Adobe Advertising
+* `"namespace": "adCloud"` 指示 `adCloud` Cookie空间，并且对应的值是从中检索的客户Cookie ID `AdobePrivacy.js`
+* `"include": ["adCloud"]` 指示请求适用于Adobe Advertising
