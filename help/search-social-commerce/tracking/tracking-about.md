@@ -1,11 +1,11 @@
 ---
 title: 关于搜索、社交和商务的跟踪
 description: 了解搜索、社交和商务的跟踪选项。
-exl-id: 0a26f67c-8b3b-4fa1-ac24-a8461624cfc5
+exl-id: f0fd367a-dd5a-46ec-a3d6-9b491860aae8
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: aeb5f9a903290926afc27fe32c32646561850cc1
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 ### 点击跟踪标记
 
-您的Search、Social和Commerce实施团队通过在同步的广告促销活动中更新广告、关键字、投放位置、产品组和站点链接扩展的跟踪模板和目标URL来设置点击跟踪，以包含唯一的跟踪ID字符串和Adobe Advertising重定向。 它们还会向的登陆页面后缀（最终URL后缀）添加跟踪 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 帐户和营销活动。
+您的Search、Social和Commerce实施团队通过在同步的广告促销活动中更新广告、关键字、投放位置、产品组和站点链接扩展的跟踪模板和目标URL来设置点击跟踪，以包含唯一的跟踪ID字符串和Adobe Advertising重定向。 它们还会向的登陆页面后缀（最终URL后缀）添加跟踪 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 帐户和营销活动。
 
 利用跟踪参数，Adobe Advertising可以在单个关键词级别（搜索促销活动）或广告变量级别（具有内容或网站定位的搜索促销活动、展示促销活动和社会化促销活动）跟踪点击次数。 每次当用户查看显示/内容广告或单击您的广告之一时，广告网络使用与关键词或广告关联的点击跟踪标记将事件发送到Adobe Advertising像素服务器。 对于点击：
 
-* 对于支持并行跟踪的浏览器上的Google Ads和Microsoft Advertising广告，广告网络会先将点击发送到您的网站，然后再发送到Adobe Advertising像素服务器，然后在该用户的计算机上放置一个Cookie（如果尚不存在）。
+* 对象 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 在支持并行跟踪的浏览器上添加广告时，广告网络会先将点击发送到您的网站，然后再发送到Adobe Advertising像素服务器，这些服务器会将Cookie放置在用户的计算机上（如果尚不存在）。
 
 * 在所有其他情况下，广告网络都会将点击直接发送到Adobe Advertising像素服务器。 像素服务器会在用户的计算机上放置一个Cookie（如果尚不存在），然后将用户重定向到您网站上的相关URL。 最终用户的整体体验与没有重定向时的体验相同。
 

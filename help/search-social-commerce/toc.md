@@ -4,9 +4,9 @@ user-guide-title: 广告搜索、社交和商业指南
 user-guide-description: 本指南阐述管理、跟踪和报告搜索、社交和商业广告营销活动所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: 广告搜索、社交和商业指南
 index: true
-source-git-commit: cdb86533b46b196fe7a3394ab9e4fc8209a3df69
+source-git-commit: 198dc41ba0ae1cd55e18c34e04cd2ea2297aa127
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1698'
 ht-degree: 2%
 
 ---
@@ -163,8 +163,8 @@ ht-degree: 2%
          + 产品组 {#product-groups}
             + [关于产品组](/help/search-social-commerce/campaign-management/campaigns/product-group-about.md)
             + [管理产品组](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)
-            + [Google Ads产品组设置](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
-            + [Microsoft Advertising产品组设置](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
+            + [[!DNL Google Ads] 产品组设置](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
+            + [[!DNL Microsoft Advertising] 产品组设置](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
             + [购物营销活动产品过滤器](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
          + 版面 {#placements}
             + [关于版面](/help/search-social-commerce/campaign-management/campaigns/placement-about.md)
