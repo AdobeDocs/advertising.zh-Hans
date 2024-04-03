@@ -3,9 +3,9 @@ title: 构建自定义目标的最佳实践
 description: 了解构建自定义目标以定义成功事件的最佳实践。
 feature: DSP Optimization, DSP Best Practices
 exl-id: 8b1247cd-083d-4c8c-8588-9e8c03c4cc67
-source-git-commit: 2c2f65f45fb7515068cee36493f514ce2e456e75
+source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 以下示例显示如何配置针对单个转化量度的目标。
 
-### 使用&quot;[!UICONTROL Highest ROAS - Custom Goal]»优化目标
+### 使用&quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]»优化目标
 
-如果您的促销活动目标是收入([!UICONTROL Highest ROAS - Custom Goal])，则您的自定义目标（目标）将包括&quot;[!UICONTROL Revenue]权重为一(1)的&quot;指标。
+如果您的促销活动目标是收入([!UICONTROL Highest Return on Ad Spend (ROAS)])，则您的自定义目标（目标）将包括&quot;[!UICONTROL Revenue]权重为一(1)的&quot;指标。
 
 ![具有单个转化量度的ROAS自定义目标示例](/help/dsp/assets/custom-goal-roas.png)
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 > 例如，权重为1的$250转化报告为$250。 如果转化量度的权重为0.5，则$250的转化将报告为$125的Adobe Advertising（$250的转化* 0.5） [!UICONTROL Property Weight] = $125)。
 
-### 使用&quot;[!UICONTROL Lowest CPA - Custom Goal]»优化目标
+### 使用&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]»优化目标
 
 如果您的促销活动目标是每次客户获取的最低成本(CPA)，并且它只需要一个成功事件，那么您将包括一个量度（在以下示例中为“应用程序提交”）。 最佳实践是将权重设置为一(1)。
 

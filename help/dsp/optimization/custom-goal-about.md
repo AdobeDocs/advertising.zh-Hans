@@ -3,16 +3,16 @@ title: 关于自定义目标
 description: 了解自定义目标，以定义针对最低CPA或最高ROAS优化的包中的成功事件。
 feature: DSP Optimization
 exl-id: 806450b9-ce32-4f5c-a2ac-ba8e435ce36d
-source-git-commit: eda0459472c1e4a8297daf69454de0fcb3d4f8ca
+source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
 
 # 关于自定义目标
 
-自定义目标定义广告商实现其业务目标所需的成功事件。 每个使用优化目标（以&quot;结尾）的包[!UICONTROL - Custom Goal]“(如”[!UICONTROL Highest ROAS - Custom Goal]“)必须包含有助于实现整体优化目标的自定义目标。 您可以创建自定义目标作为 *目标* 在 [!DNL Advertising Search, Social, & Commerce].
+自定义目标定义广告商实现其业务目标所需的成功事件。 每个使用优化目标的包»[!UICONTROL Highest Return on Ad Spend (ROAS)"] 或&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]”必须包括有助于实现整体优化目标的自定义目标。 您可以创建自定义目标作为 *目标* 在 [!DNL Advertising Search, Social, & Commerce].
 
 ![自定义目标](/help/dsp/assets/objective-goals.png)
 

@@ -3,9 +3,9 @@ title: 创建自定义目标
 description: 创建自定义目标
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
+source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 
       1. 在设置底部，单击 **[!UICONTROL Save]**.
 
-创建目标后，如果优化目标以“”结尾，您可以将其作为自定义目标分配给DSP包[!UICONTROL - Custom Goal]“(如”[!UICONTROL Highest ROAS - Custom Goal]“)。
+创建目标后，如果优化目标是&#39;&#39;，则可以将其作为自定义目标分配给DSP包[!UICONTROL Highest Return on Ad Spend (ROAS)"] 或&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]“
 
 >[!TIP]
 >

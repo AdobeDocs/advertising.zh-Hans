@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: fb0122a66e1ca840aac25d07b9833c4040322a6e
+source-git-commit: 67f54acc4a8bfdfda7f3614a9eaebf7d5aa1c143
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2569'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年4月3日 | 优化 | 新建 `CPA` （每次收购成本）及 `ROAS` 资源包、投放和相关表中的资产（广告支出回报率）量度可以更准确地跟踪具有相关目标的资源包和投放的性能。 新的CPA量度仅考虑最终转化事件（如注册）来计算每次客户获取成本，这使得实际CPA的描述比旧版自定义目标量度更准确，旧版自定义目标量度在计算时还包含漏斗上层事件（如页面访问次数和购物车加货）。 同样，新的ROAS量度仅考虑最终收入事件（例如购买和购买值），这比跟踪性能的旧版自定义目标量度更可靠。<br><br>现在，当您设置具有基于CPA或ROAS的优化目标的包时，必须指定最终转化或收入事件，以及包括转化或收入事件的自定义目标；自定义目标可以选择包括要用于CPA或ROAS量度以外的其他加权漏斗上层事件（如页面访问和购物车添加），以进行包优化。<br><br>此外，为简单起见，将侧重于性能的优化目标组合在一起：<ul><li>新&#39;&#39;[!UICONTROL Highest Return on Ad Spend (ROAS)]“目标取代了旧版”[!UICONTROL Highest ROAS - Custom Goal]”和 [!UICONTROL Highest ROAS (click focused) - Custom Goal]，”并提供用于实现任一旧版方案的选项。</li><li>新&#39;&#39;[!UICONTROL Lowest Cost per Acquisition (CPA)]“目标取代了旧版”[!UICONTROL Lowest CPA - Custom Goal]”和 [!UICONTROL Lowest CPA (click focused) - Custom Goal]，”并提供用于实现任一旧版方案的选项。</li></ul>使用旧目标的现有包已通过相关设置自动迁移到新目标，您无需手动更新任何内容。 | 请参阅&quot;[优化目标及其使用方式](/help/dsp/optimization/optimization-goals.md)，&quot; &quot;[包设置](/help/dsp/campaign-management/packages/package-settings.md)，”和“[设置效果活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)“ |
 | 2024年3月20日 | 投放位置非竞价原因 | 自助式客户现在可以使用所有可操作的非竞价原因(NBR)，这些是帮助解决支出不足问题的关键数据点。 以前，自助服务用户只能部分访问NBR，并且必须依靠客户经理或交易分析师（他们具有管理员访问权限）来帮助排除故障。 | 请参阅 [!UICONTROL Non Bids] 的部分 [投放诊断报告](/help/dsp/campaign-management/reports/placement-diagnostics.md). |
 | 2024年3月20日 | 规划者 | 新的Planner工具不再处于Beta模式。 | 请参阅&quot;[关于DSP Planner工具](/help/dsp/planner/planner-about.md)“ |
 | 2024年2月21日 | [!UICONTROL Alerts] 对象 [!UICONTROL Campaigns]， [!UICONTROL Packages]， [!UICONTROL Placements]， [!UICONTROL Ads]、和 [!UICONTROL Deals] | A [!UICONTROL Pulse Panel] 图标 [!UICONTROL Campaigns]， [!UICONTROL Packages] 和包详细信息， [!UICONTROL Placements]、和 [!UICONTROL Ads] 视图指示视图中的项目是否有任何警报可用。 您可以打开面板以查看每个警报，还可以选择打开适用的视图(例如， [!UICONTROL Placements] 查看并列出适用的版面)，以便您可以根据需要编辑设置来解决问题。 您还可以选择消除任何警报。<br><br>此外， [!UICONTROL Campaigns]， [!UICONTROL Packages]， [!UICONTROL Placements]、和 [!UICONTROL Ads] 视图包括“[!UICONTROL Alerts]”列，指示项目或其任何组件何时出现问题。<br><br>警报在营销活动、包、投放位置、广告和交易级别可用。 | 请参阅&quot;[查看警报和通知](/help/dsp/campaign-management/reports/campaign-alerts.md)“ |
