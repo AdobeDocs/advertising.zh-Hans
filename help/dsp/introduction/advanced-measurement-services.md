@@ -2,9 +2,9 @@
 title: 高级测量解决方案
 description: 请参阅高级测量的可用解决方案列表。
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: fed8daa79688d65d1b64ae8145cc1d1d0d84f11a
+source-git-commit: c06cbb80d9215ef7ce93d801520369ae8e316189
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,9 @@ ht-degree: 0%
 
   了解受众和战术如何在人员级别重叠，包括跨多个数字环境（如台式机、移动设备、原生和音频）的曝光。
 
-* **跨ID基于人员的范围**
+   * **跨ID基于人员的范围**
 
-  量化Cookie与RampID之间的唯一访问范围和重叠，以及按ID类型划分的每指标成本。 证明测试RampID在查找多个数字环境（例如台式机、移动设备、本机以及音频）中相对于Cookie的区段的增量范围方面的有效性。
+     量化Cookie与RampID之间的唯一访问范围和重叠，以及按ID类型划分的每指标成本。 证明测试RampID在查找多个数字环境（例如台式机、移动设备、本机以及音频）中相对于Cookie的区段的增量范围方面的有效性。
 
 * **[!DNL Dynata]基于面板的调查**
 
@@ -76,10 +76,6 @@ ht-degree: 0%
    * 基于家庭的覆盖度、频率和转化率测量
 
      任何希望跨多种数字策略了解覆盖范围/增量覆盖以及基于成本的效率和/或转化指标的客户
-
-   * 跨ID基于人员的范围
-
-     任何希望跨多种数字策略按ID类型量化Cookie和RampID之间的唯一作用范围和重叠以及每个量度成本的客户
 
    * 跨屏范围、频率和转换测量
 
