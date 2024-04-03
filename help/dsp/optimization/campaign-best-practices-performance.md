@@ -3,9 +3,9 @@ title: 设置效果活动的最佳实践
 description: 了解设置以性能为中心的活动的最佳实践，其中包括针对最低CPA或最高ROAS而优化的投放位置。
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: efd169f5e1e191f7635abf5b7a325e3483395165
+source-git-commit: b3a03aa34bbdcf668a71d6810362d735c21961d7
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ DSP可以优化以性能为中心的促销活动。 请参阅以下效果促销�
 
 ## 步骤1 — 定义目标
 
-了解活动的目标很重要，例如实现尽可能最高的ROAS或尽可能最低的CPA。 性能营销活动具有 [优化目标](/help/dsp/optimization/optimization-goals.md) 结尾是&quot;[!UICONTROL - Custom Goal]“(如”[!UICONTROL Highest ROAS - Custom Goal]“)。 对于营销活动中的每个资源包，您将相应地指定优化目标。
+了解活动的目标很重要，例如实现尽可能最高的ROAS或尽可能最低的CPA。 性能营销活动具有 [优化目标](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] 或&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]“ 对于营销活动中的每个资源包，您将相应地指定优化目标。
 
 ![优化目标](/help/dsp/assets/optimization-goals.png)
 
@@ -75,7 +75,7 @@ DSP可以优化以性能为中心的促销活动。 请参阅以下效果促销�
 
 * **预算：** DSP将始终尝试在包中的所有版面之间平均分配100%的包预算。 如果投放位置支出较少或没有支出，我们建议为投放位置设置预算上限，以允许将更多预算按比例分配给投放位置。 允许24-48小时对预算更改进行校准。
 
-* **优化目标：** 使用两个性能优化目标之一， *[!UICONTROL Highest ROAS]* 或 *[!UICONTROL Lowest CPA]*，具体取决于资源包目标。 这些目标分别自动优化包以实现ROAS最高版位或是CPA最低版位。
+* **优化目标：** 使用两个性能优化目标之一， *[!UICONTROL Highest Return on Ad Spend]* 或 *[!UICONTROL Lowest Cost per Acquisition]*，具体取决于资源包目标。 这些目标分别自动优化包以实现ROAS最高版位或是CPA最低版位。
 
 * **自定义目标：**
    * 如果新资源包与现有资源包具有相同的目标，则可以选择链接现有资源包，以便算法可以使用现有的机器学习数据。
