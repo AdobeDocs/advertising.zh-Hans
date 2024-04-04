@@ -3,7 +3,7 @@ title: SSP合作伙伴
 description: 查看可用供应方平台(SSP)和开放交换合作伙伴的列表。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: c9ec713dbd95e9be717d957ebeac57eeeae02634
+source-git-commit: 222dd3c9c4ebf807a224162628184ccfc861ac41
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] 或Adobe Advertising | 否 | 美国+ EMEA | 美元，欧元 | x | x | x | x | x |  |  |
 | [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | 否 | US/CA | 美元 | x | x | x | x | x |  |  |
 | [!DNL FreeWheel] (以前称为 [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] 或Adobe Advertising | 是 | 全局 | 美元、欧元、澳元、英镑 | x | x | x |  |  |  |  |
-| [!DNL Google Authorized Buyers] (以前称为 [!DNL Google AdX]) | [!DNL Google] | ADOBENA - 44912714<br>AdobeAPAC和EMEA - 89185975 | 是 | 全局 | 美元，巴西雷亚尔 | x | x | x | x | x |  | x |
+| [!DNL Google Authorized Buyers] (以前称为 [!DNL Google AdX]) | [!DNL Google] | ADOBENA - 44912714<br>AdobeAPAC和欧盟 — 89185975 | 是 | 全局 | 美元，巴西雷亚尔 | x | x | x | x | x |  | x |
 | [!DNL GumGum] |  | Adobe Advertising | 否 | US/CA | 美元 | x | x |  | x | x |  |  |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | 否 | 全局 | 美元 | x | x | x | x | x | | |
 | [!DNL Magnite (Streaming) CTV] | [!DNL Magnite] (以前称为 [!DNL Telaria] 和 [!DNL Tremor]) | [!DNL TubeMogul] 或Adobe Advertising | 是 | 全局 | AUD， USD | x | x | x |  |  |  |  |
