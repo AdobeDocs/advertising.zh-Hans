@@ -3,9 +3,9 @@ title: 支持的清单
 description: 引用支持的广告网络、营销活动类型和广告类型。
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: 1992d663542b1f33e54e72e59b21ffd9d7b5f812
+source-git-commit: 31ba2642e85ab69d91bf486aa7212b09a0fb9fcd
 workflow-type: tm+mt
-source-wordcount: '2753'
+source-wordcount: '2752'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 |  | 受众网络 | [!UICONTROL Audience CTV Video] | 响应式 | 通过API自动进行 | 您可以使用以下方式创建父营销活动和广告组 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). | 是 | 为增强型CPC (eCPC)活动提供“是”<br><br>不适用于CPM活动 | 广告级别的数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的广告级数据 |
 | | 受众网络 | Search | 使用&quot;[!DNL Prefer Audience Ad Format]已选择“ | 通过API自动进行 | 使用 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)<br><br>不支持图像和扩展 | 是 | 是 | 广告级别的数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的广告级数据 |
 | | 受众和搜索网络 | 品牌购物（搜索、社交和商务中的Beta版功能） | 产品 | 通过API自动进行 | 您可以使用以下方式创建父营销活动、广告组和产品组 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). | 是 | 是 | 产品组级别数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的产品组级别数据 |
-| | [!DNL Microsoft Store] | 商店广告（搜索、社交和商务的Beta版功能） | 产品 | 通过API a自动进行 | 您可以使用以下方式创建父营销活动、广告组和产品组 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). | 是 | 是，表示 [!UICONTROL Manual CPC] 营销活动。 <br><br>不可用于 [!UICONTROL Manual CPA] 营销活动。 | 产品组级别数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的产品组级别数据 |
+| | [!DNL Microsoft Store] | 商店广告（搜索、社交和商务的Beta版功能） | 产品 | 通过API自动进行 | 您可以使用以下方式创建父营销活动、广告组和产品组 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). | 是 | 是，表示 [!UICONTROL Manual CPC] 营销活动。 <br><br>不可用于 [!UICONTROL Manual CPA] 营销活动。 | 产品组级别数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的产品组级别数据 |
 | | 搜索网络 | Search | \[扩展\]动态搜索 | 通过API自动进行 | 使用 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 和 [批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是 | 是 | 广告级别的数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的广告级数据 |
 | | 搜索网络 | Search | 扩展文本（2023年2月弃用） | 通过API自动进行 | 仅使用编辑现有广告的状态 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)， [批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)、和 [库存管理信息源](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | 是 | 是 | 广告级别的数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的广告级数据 |
 | | 搜索网络 | Search | 多媒体 | 通过API自动进行 | 使用 [营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). 编辑仅对中的状态和URL的支持 [批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是 | 是 | 广告级别的数据 | 将Analytics数据用于搜索、社交和商务<br><br>从搜索、社交和商务到Analytics的广告级数据 |
