@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 1e5dee912a4c3cdbab5c389725b9d48a354d0b7d
+source-git-commit: 1b58c38858532dc41a467fd86a6a28e3383386be
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '918'
 ht-degree: 3%
 
 ---
@@ -113,10 +113,7 @@ ht-degree: 3%
    + [如何 [!DNL DSP] 优化活动](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [优化目标及其使用方式](/help/dsp/optimization/optimization-goals.md)
    + [投放位置级别预竞价过滤器及其使用方式](/help/dsp/optimization/optimization-pre-bid-filters.md)
-   + 自定义目标 {#custom-goals}
-      + [关于自定义目标](/help/dsp/optimization/custom-goal-about.md)
-      + [创建自定义目标](/help/dsp/optimization/custom-goal-create.md)
-      + [构建自定义目标的最佳实践](/help/dsp/optimization/custom-goal-best-practices.md)
+   + [自定义目标](/help/dsp/optimization/custom-goal.md)
    + [设置效果活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)
    + [性能疑难解答](/help/dsp/optimization/troubleshooting-performance.md)
 + 受众 {#audiences}

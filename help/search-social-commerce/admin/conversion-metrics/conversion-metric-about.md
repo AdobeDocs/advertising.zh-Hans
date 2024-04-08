@@ -2,8 +2,8 @@
 title: 关于管理广告商的转化量度
 description: 了解如何使用Adobe Advertising跟踪广告商的转化量度。
 feature: Conversions
-exl-id: e5e4dc8a-04b0-4423-be1d-18f89453d264
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+exl-id: 8cfb4df8-ed48-4809-b383-7a6011b1f530
+source-git-commit: c3c864a838b5d7efca523ba8b35a5a3db47f71b8
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 * 在“搜索”、“社交”和“商务”中，您可以使用转化指标创建用于优化项目组合的目标。 此外，转化量度的数据可以在营销活动和项目组合管理视图以及报表的列中显示。
 
-* 在Advertising DSP中，您可以将转化量度用于 [创建自定义目标](/help/dsp/optimization/custom-goal-create.md)，用于优化包。
+* 在Advertising DSP中，您可以使用转化量度创建 [自定义目标](/help/dsp/optimization/custom-goal.md)，用于优化包。
 
 默认情况下，广告商没有任何转化量度 — 由跟踪的转化除外 [!DNL Google Ads]， [!DNL Google Analytics]、和 [!DNL Microsoft® Advertising] 通用事件跟踪标记 — 适用于营销活动和项目组合管理视图及报告。 它们仅在您明确指定它们并且包含显示名称（即显示的名称）时才可用。 使转化量度可用时，您可以完全按照检索数据中的拼写方式使用量度名称，或更改列标题中显示的名称以提高可读性。
 
