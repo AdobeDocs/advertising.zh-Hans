@@ -3,9 +3,9 @@ title: 包设置
 description: 请参阅有关可用包设置的说明。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 0606614cc4fca842b800c089afa0303b67ecba5f
+source-git-commit: cb57ada624bdc810a0d6921e89deba832a2b16d9
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]：** (可选；带有&quot;[!UICONTROL Highest Return on Ad Spend]”和“[!UICONTROL Lowest Cost per Acquisition]&quot;仅限优化目标)告知优化模型仅从基于点击的转化中学习。 否则，优化模型会学习基于点击和基于展示的转化。
 
-**[!UICONTROL Conversion Metric]：** (可选；带有&quot;[!UICONTROL Highest Return on Ad Spend]”和“[!UICONTROL Lowest Cost per Acquisition]“仅限优化目标)最终转化事件（例如注册）或收入事件/销售金额（例如购买和购买值），用于计算广告支出回报率或每次购买成本。 从映射到所选自定义目标的所有事件的列表中进行选择。
+**[!UICONTROL Conversion Metric]：** (可选；带有&quot;[!UICONTROL Highest Return on Ad Spend]”和“[!UICONTROL Lowest Cost per Acquisition]“仅限优化目标)最终转化事件（例如注册）或收入事件/销售金额（例如购买和购买值），用于计算广告支出回报率或每次购买成本。 从映射到所选自定义目标的所有主要事件（“目标量度”）的列表中进行选择。 如果列表为空，则编辑自定义目标以包含至少一个基础事件作为目标量度。
 
 **[!UICONTROL Package Goal Type]：** （仅限具有自定义优化目标的包）包的用途。 此设置可帮助确定如何优化包：
 
