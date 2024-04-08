@@ -2,9 +2,9 @@
 title: 自定义目标
 description: 了解自定义目标，以定义针对最低CPA或最高ROAS优化的包中的成功事件。
 feature: DSP Optimization
-source-git-commit: c5973ac62ea6925252438dbd67d934303a23ccf3
+source-git-commit: 6dba85185789c365bd72787eb0fa16ef90bf6b9e
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 在使用优化目标的包的DSP包设置中[!UICONTROL Highest Return on Ad Spend (ROAS)"] 或&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]，”目标名称现在包含在中 [!UICONTROL Custom Goals] 列表。 当选择目标作为资源包的自定义目标时， [!UICONTROL Conversion Metric] 列表包含目标的所有目标量度。
 
-## 构建自定义目标的最佳实践 [#custom-goal-best-practices]
+## 构建自定义目标的最佳实践 {#custom-goal-best-practices}
 
 ### 具有单个量度的自定义目标
 
