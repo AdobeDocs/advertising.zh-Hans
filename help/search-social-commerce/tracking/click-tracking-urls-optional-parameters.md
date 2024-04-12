@@ -3,9 +3,9 @@ title: 点击跟踪URL的可选跟踪参数
 description: 了解可选的搜索、社交和商务跟踪参数以及可添加到点击跟踪URL的广告网络特定的跟踪参数。
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-source-git-commit: 3460011a707608c172920801196837f7a278e2c0
+source-git-commit: cc312009303f86a2f9eddcc98f33d7e2c22fcb85
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
@@ -66,12 +66,16 @@ ht-degree: 0%
 
 请参阅 [https://help.bingads.microsoft.com/#apex/3/en/51091/2](https://help.bingads.microsoft.com/#apex/3/en/51091/2).
 
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;已更新上游
 ## [!DNL Yahoo Native] 动态跟踪参数
 
 请参阅 [https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters](https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters).
 
 ## [!DNL Yahoo! Japan Ads] 动态跟踪参数
-
+=======
+## 雅虎！ 日本Ads动态跟踪参数
+>>>>>>>>>>隐藏的更改
+> 
 请参阅 [https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
 
 ## [!DNL Yandex] 动态跟踪参数
@@ -80,4 +84,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于Adobe Advertising转化跟踪服务的点击跟踪URL格式](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
+* [关于Adobe Advertising转化跟踪服务的点击跟踪URL格式](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
