@@ -4,7 +4,7 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 1b58c38858532dc41a467fd86a6a28e3383386be
+source-git-commit: 79de03696624146d7c82e8658229d19059dc1713
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 3%
@@ -118,16 +118,6 @@ ht-degree: 3%
    + [性能疑难解答](/help/dsp/optimization/troubleshooting-performance.md)
 + 受众 {#audiences}
    + [关于受众管理](/help/dsp/audiences/audience-about.md)
-   + 区段 {#segments}
-      + [创建和实施自定义区段](/help/dsp/audiences/custom-segment-create.md)
-      + [!UICONTROL CCPA Opt-out-of-Sale] 区段 {#ccpa-opt-out-of-sale-segments}
-         + [关于 [!UICONTROL CCPA Opt-out-of-Sale] 区段](/help/dsp/audiences/ccpa-opt-out-about.md)
-         + [创建和实施 [!UICONTROL CCPA Opt-out-of-Sale] 区段](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
-         + [Retrieve [!UICONTROL Consumer Opt-Out-of-Sale] 报表](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
-      + [编辑区段信息](/help/dsp/audiences/segment-edit.md)
-      + [共享或停止共享区段](/help/dsp/audiences/segment-share.md)
-      + [查看区段的跟踪像素](/help/dsp/audiences/segment-view-pixels.md)
-      + [删除区段](/help/dsp/audiences/segment-delete.md)
    + 受众 {#reusable-audiences}
       + [创建可重复使用的受众](/help/dsp/audiences/reusable-audience-create.md)
       + [复制可重用受众](/help/dsp/audiences/reusable-audience-duplicate.md)
@@ -139,6 +129,16 @@ ht-degree: 3%
       + [删除可重复使用的受众](/help/dsp/audiences/reusable-audience-delete.md)
       + [受众设置](/help/dsp/audiences/audience-settings.md)
       + [受众区段逻辑的语法](/help/dsp/audiences/audience-segment-logic-syntax.md)
+   + 区段 {#segments}
+      + [创建和实施自定义区段](/help/dsp/audiences/custom-segment-create.md)
+      + [!UICONTROL CCPA Opt-out-of-Sale] 区段 {#ccpa-opt-out-of-sale-segments}
+         + [关于 [!UICONTROL CCPA Opt-out-of-Sale] 区段](/help/dsp/audiences/ccpa-opt-out-about.md)
+         + [创建和实施 [!UICONTROL CCPA Opt-out-of-Sale] 区段](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
+         + [Retrieve [!UICONTROL Consumer Opt-Out-of-Sale] 报表](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
+      + [编辑区段信息](/help/dsp/audiences/segment-edit.md)
+      + [共享或停止共享区段](/help/dsp/audiences/segment-share.md)
+      + [查看区段的跟踪像素](/help/dsp/audiences/segment-view-pixels.md)
+      + [删除区段](/help/dsp/audiences/segment-delete.md)
    + 源 {#sources}
       + [关于从受众源激活经过身份验证的区段](/help/dsp/audiences/sources/source-about.md)
       + 按客户数据平台显示的工作流 {#sources-workflows}
