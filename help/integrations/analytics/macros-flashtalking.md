@@ -3,9 +3,9 @@ title: 附加 [!DNL Analytics for Advertising] 宏到 [!DNL Flashtalking] 广告
 description: 了解添加原因和方式 [!DNL Analytics for Advertising] 将宏添加到 [!DNL Flashtalking] 广告标记
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: ca8260e643f24787f7918249906f3f38f3bbef6d
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -32,21 +32,33 @@ ht-degree: 0%
 
 在 [!DNL Flashtalking] 添加标记设置时，将以下宏附加到中点进URL的末尾 `Clicktag` 字段：
 
-```html
-?[ftqs:[AdobeAMO]]
+```
+[ftqs:[AdobeAMO]]
 ```
 
-示例：  `https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
+它是基础URL之后的第一个或唯一查询字符串，然后使用将它与基础URL分隔开 `?`. 如果基本URL将包含多个查询字符串，则第一个字符串将以 `?` 每个后续字符串都使用 `&`.
+
+示例：
+
+`https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
+
+`https://www.adobe.com/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
 ## 视频广告标记
 
 在 [!DNL Flashtalking] 添加标记设置时，将以下宏附加到中点进URL的末尾 `Clicktag` 字段：
 
-```html
-?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
+```
+[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
 ```
 
-示例：  `https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+它是基础URL之后的第一个或唯一查询字符串，然后使用将它与基础URL分隔开 `?`. 如果基本URL将包含多个查询字符串，则第一个字符串将以 `?` 每个后续字符串都使用 `&`.
+
+示例：
+
+`https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+
+`https://www.adobe.com/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
 >[!MORELIKETHIS]
 >
