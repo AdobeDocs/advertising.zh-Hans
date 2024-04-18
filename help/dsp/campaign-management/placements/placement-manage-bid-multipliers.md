@@ -2,9 +2,9 @@
 title: 管理投放位置的竞价乘数
 description: 了解如何创建和编辑指定投放目标的竞价乘数。
 feature: DSP Placements
-source-git-commit: 6994a15af080057889607c0e28dd519a1ddb28de
+source-git-commit: b3932c066e0ecd29e57152f0654ee4b0d9e0dda1
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '409'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 3%
 
 * **受众目标：** 区段、时段、主题
 
-* **ads.txt目标：** （当您选择退出ads.txt时）仅限ads.txt销售商、ads.txt直接销售商和ads.txt销售商以及没有ads.txt的网站。
+* **ads.txt目标：** （当您选择退出ads.txt时，这允许您从所有销售者处购买库存）ads.txt仅销售者、ads.txt直接销售者和ads.txt销售者以及没有ads.txt的网站 <!-- bid multipliers for the different subsets of inventory; not available when the placement targets only one subset -->
 
 ## 按目标类型划分的最大竞价乘数数 {#bid-multiplier-limits-by-target}
 
