@@ -3,9 +3,9 @@ title: ’[!DNL Google Ads] 营销活动设置
 description: 引用设置 [!DNL Google Ads] 营销活动。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 7b4818260fad61a773fb7261cbcdfd84bee84d42
+source-git-commit: 66f6f659e46d2a08e0f7b958be8f60ba5e9720b3
 workflow-type: tm+mt
-source-wordcount: '2387'
+source-wordcount: '2378'
 ht-degree: 0%
 
 ---
@@ -70,35 +70,35 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]：** 该活动的竞价策略：
 
-* *[!UICONTROL Enhanced CPC]：* (不适用于性能最大化或现有的只读模式 [!DNL Gmail] 促销活动)使用广告网络的增强型每次点击成本(eCPC)模型，该模型允许广告网络自动更改每次点击成本(CPC)竞价，从而尝试使用广告网络（不适用于“搜索”、“社交”和“商务”）中指定的转化来最大化转化率，同时尝试将平均CPC保持在最大CPC以下。
+* *[!UICONTROL Enhanced CPC]：* (不适用于性能最大化或现有的只读模式 [!DNL Gmail] 促销活动)使用广告网络的增强型每次点击成本(eCPC)模型，该模型允许广告网络自动更改每次点击成本(CPC)竞价，从而尝试使用广告网络(不在“搜索”、“社交”和“Commerce”中)中指定的转化来最大化转化率，同时尝试将平均CPC保持在最大CPC以下。
 
-当您将带eCPC的营销活动添加到经过优化的搜索、社交和商务产品组合时，搜索、社交和商务会优化基本竞价，如果“[!UICONTROL Auto adjust campaign budget limits]”选项已启用 — 营销活动预算。 广告网络会优化所有竞价调整，并可能会在用户查询时根据专有数据和见解更改搜索、社交和商务生成的竞价。 **注意：** 仅当广告网络上跟踪的总转化与项目组合目标一致时，才在项目组合中使用eCPC营销活动。 <!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
+当您将带eCPC的营销活动添加到经过优化的搜索、社交和Commerce产品组合时，Search、Social和Commerce会优化基本竞价，如果“[!UICONTROL Auto adjust campaign budget limits]”选项已启用 — 营销活动预算。 广告网络会优化所有竞价调整，并可能会在用户查询时根据专有数据和见解更改搜索、社交和Commerce生成的竞价。 **注意：** 仅当广告网络上跟踪的总转化与项目组合目标一致时，才在项目组合中使用eCPC营销活动。 <!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
 
 * *[!UICONTROL Manual CPC]* （默认）：（不适用于效果最佳的营销活动）使用每次点击成本(CPC)模型。 您可以选择允许广告网络更改营销活动的竞价：
 
    * **[!UICONTROL Enable Enhanced CPC]** （默认禁用）：这与使用&#39;&#39;相同[!UICONTROL Enhanced CPC]”选项。
 
-* *[!UICONTROL Maximize Clicks]：* （搜索、展示和购物营销活动）广告网络（而非搜索、社交和商务）会优化竞价以最大化点击次数。 （可选）输入 **[!UICONTROL Max CPC]** （每次点击成本），以确保广告网络为每次点击支付的金额不会超过特定金额。 **注意：** 将具有此策略的营销活动添加到项目组合时，竞价由点击权重驱动，而不是由项目组合目标驱动。
+* *[!UICONTROL Maximize Clicks]：* （搜索、展示和购物营销活动）广告网络(而不是Search、Social和Commerce)可优化竞价以最大化点击次数。 （可选）输入 **[!UICONTROL Max CPC]** （每次点击成本），以确保广告网络为每次点击支付的金额不会超过特定金额。 **注意：** 将具有此策略的营销活动添加到项目组合时，竞价由点击权重驱动，而不是由项目组合目标驱动。
 
-* *[!UICONTROL Maximize Conversion Value]：* （搜索、效果最佳化和智能购物营销活动）广告网络（而不是搜索、社交和商务）会优化竞价以实现转化价值的最大化。 （可选）输入 **[!UICONTROL Target Return on Ad Spend]** (ROAS)的百分比。 **注意：** 此选项适用于混合项目组合中的营销活动，但适用于标准项目组合中的营销活动。
+* *[!UICONTROL Maximize Conversion Value]：* （搜索、效果最佳化和智能购物营销活动）广告网络(而非Search、Social和Commerce)可优化竞价以实现转化价值的最大化。 （可选）输入 **[!UICONTROL Target Return on Ad Spend]** (ROAS)的百分比。 **注意：** 此选项适用于混合项目组合中的营销活动，但适用于标准项目组合中的营销活动。
 
-* *[!UICONTROL Maximize Conversions]：* （搜索、展示和效果最佳促销活动）广告网络（而不是Search、Social和Commerce）会优化竞价以最大限度地提高转化率。 （可选）输入 **[!UICONTROL Target CPA]** （每次收购成本）。 **注意：** 此选项适用于混合项目组合中的营销活动，但适用于标准项目组合中的营销活动。
+* *[!UICONTROL Maximize Conversions]：* （搜索、展示和效果最佳促销活动）广告网络(而非Search、Social和Commerce)可优化竞价以最大限度地提高转化率。 （可选）输入 **[!UICONTROL Target CPA]** （每次收购成本）。 **注意：** 此选项适用于混合项目组合中的营销活动，但适用于标准项目组合中的营销活动。
 
-* *[!UICONTROL Target CPA]：* （展示促销活动；现有的搜索促销活动）广告网络（而非搜索、社交和商务）根据可选内容优化竞价 **[!UICONTROL Target CPA]** （每次购置成本），这是您要为一项购置（转化）支付的30天平均金额。 **注意：** 此选项用于具有任何支出策略的混合项目组合（而非标准项目组合）中的营销活动，但支出策略除外 [!UICONTROL Weekly] 或 [!UICONTROL Google Target CPA].
+* *[!UICONTROL Target CPA]：* （展示促销活动；现有的搜索促销活动）广告网络(而非Search、Social和Commerce)根据可选内容优化竞价 **[!UICONTROL Target CPA]** （每次购置成本），这是您要为一项购置（转化）支付的30天平均金额。 **注意：** 此选项用于具有任何支出策略的混合项目组合（而非标准项目组合）中的营销活动，但支出策略除外 [!UICONTROL Weekly] 或 [!UICONTROL Google Target CPA].
 
   平均位置和CPC竞价数据不适用于具有此竞价策略的营销活动。
 
   对于新的搜索促销活动， [!DNL Google Ads] 已将此竞价策略替换为 [!UICONTROL Maximize Conversions] 策略使用 [!UICONTROL Target CPA] 值。 对于使用此策略的现有搜索营销活动，您只能编辑目标值，这样做会将策略更改为 [!UICONTROL Maximize Conversions] 使用指定的策略 [!UICONTROL Target CPA] 值。
 
-* *[!UICONTROL Target Impression Share]：* （搜索促销活动）广告网络（而非搜索、社交和商务）会优化竞价以实现目标展示份额和广告位置。 （可选）输入 **[!UICONTROL Target Impression Share]** 以百分比表示， **[!UICONTROL Target Ad Position]**，和 **[!UICONTROL Max CPC]** （每次点击成本）。 **注意：** 项目组合不支持此选项。
+* *[!UICONTROL Target Impression Share]：* （搜索促销活动）广告网络(而非Search、Social和Commerce)会优化竞价以实现目标展示份额和广告位置。 （可选）输入 **[!UICONTROL Target Impression Share]** 以百分比表示， **[!UICONTROL Target Ad Position]**，和 **[!UICONTROL Max CPC]** （每次点击成本）。 **注意：** 项目组合不支持此选项。
 
-* *[!UICONTROL Target Return on Ad Spend]：*  （展示和购物营销活动；现有的搜索营销活动）广告网络（而非搜索、社交和商务）根据指定的来优化竞价 **[!UICONTROL Target ROAS]** （广告支出回报率），以百分比表示。 **注意：** 此选项用于具有任何支出策略的混合项目组合（而非标准项目组合）中的营销活动，但支出策略除外 [!UICONTROL Weekly] 或 [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target Return on Ad Spend]：*  （展示和购物营销活动；现有的搜索营销活动）广告网络(而不是Search、Social和Commerce)根据指定的来优化竞价 **[!UICONTROL Target ROAS]** （广告支出回报率），以百分比表示。 **注意：** 此选项用于具有任何支出策略的混合项目组合（而非标准项目组合）中的营销活动，但支出策略除外 [!UICONTROL Weekly] 或 [!UICONTROL Google Target ROAS].
 
   平均位置和CPC竞价数据不适用于具有此竞价策略的营销活动。
 
   对于新的搜索促销活动， [!DNL Google Ads] 已将此竞价策略替换为 [!UICONTROL Maximize Conversion Value] 策略使用 [!UICONTROL Target Return on Ad Spend value]. 对于使用此策略的现有搜索营销活动，您只能编辑目标值，这样做会将策略更改为 [!UICONTROL Maximize Conversion Value] 使用指定的策略 [!UICONTROL Target Return on Ad Spend] 值。
 
-* *[!UICONTROL Viewable CPM]：* （现有，只读） [!DNL Gmail] 仅限促销活动)广告网络（而非搜索、社交和商务）仅对测量为可见的广告投标。 **注意：** 任何类型的项目组合均不支持对此策略进行优化。
+* *[!UICONTROL Viewable CPM]：* （现有，只读） [!DNL Gmail] 仅限促销活动)广告网络(而非Search、Social和Commerce)仅对测量为可查看的广告投标。 **注意：** 任何类型的项目组合均不支持对此策略进行优化。
 
 ## [!UICONTROL Shopping Settings]
 
@@ -156,7 +156,7 @@ ht-degree: 0%
 
 **注意：**
 
-* 搜索、Social和Commerce不为以下位置目标提供自动调整竞价调整，因为数据存在以下限制 [!DNL Google Ads] 提供将浏览者位置映射到位置目标的功能：
+* 搜索、社交和Commerce不为以下位置目标提供自动调整竞价调整，因为数据存在以下限制 [!DNL Google Ads] 提供将浏览者位置映射到位置目标的功能：
 
    * 半径目标。
 
