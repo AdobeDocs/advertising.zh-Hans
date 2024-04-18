@@ -3,9 +3,9 @@ title: 投放设置
 description: 请参阅可用版面设置的说明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 820fbfb2b572df628976b03d186e5704ecd092a9
+source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
 workflow-type: tm+mt
-source-wordcount: '3511'
+source-wordcount: '3516'
 ht-degree: 0%
 
 ---
@@ -475,6 +475,7 @@ ht-degree: 0%
 >* [关于版面管理](placement-about.md)
 >* [创建投放位置](placement-create.md)
 >* [编辑投放位置](placement-edit.md)
+>* [管理投放位置的竞价乘数](placement-manage-bid-multipliers.md)
 >* [查看投放位置的更改日志](placement-change-log.md)
 >* [键盘快捷键](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [关于Campaign Management的常见问题解答](/help/dsp/campaign-management/faq-campaign-management.md)

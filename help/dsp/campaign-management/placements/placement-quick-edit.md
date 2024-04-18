@@ -3,9 +3,9 @@ title: 快速编辑键位置设置
 description: 了解如何快速更改关键位置设置。
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 0%
 >* [创建投放位置](placement-create.md)
 >* [编辑投放位置](placement-edit.md)
 >* [复制投放位置](placement-duplicate.md)
+>* [管理投放位置的竞价乘数](placement-manage-bid-multipliers.md)
 >* [编辑投放的广告计划](placement-edit-ad-schedule.md)
 >* [暂停或激活投放位置](placement-pause-activate.md)
 >* [查看投放位置的更改日志](placement-change-log.md)

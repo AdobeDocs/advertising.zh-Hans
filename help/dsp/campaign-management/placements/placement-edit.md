@@ -3,9 +3,9 @@ title: 编辑投放位置
 description: 了解如何编辑投放位置。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: c64d53949b8655f6b7efeaf4d10407a26cf9e9e8
+source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,7 @@ ht-degree: 0%
 >* [快速编辑键位置设置](placement-quick-edit.md)
 >* [创建投放位置](placement-create.md)
 >* [复制投放位置](placement-duplicate.md)
+>* [管理投放位置的竞价乘数](placement-manage-bid-multipliers.md)
 >* [编辑投放的广告计划](placement-edit-ad-schedule.md)
 >* [暂停或激活投放位置](placement-pause-activate.md)
 >* [查看投放位置的更改日志](placement-change-log.md)
