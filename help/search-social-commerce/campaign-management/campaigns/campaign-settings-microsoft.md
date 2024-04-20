@@ -3,9 +3,9 @@ title: ’[!DNL Microsoft® Advertising] 营销活动设置
 description: 引用设置 [!DNL Microsoft® Advertising] 营销活动。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 96ff5244c5baedf009c1bac05b609611607bd867
+source-git-commit: cfac578e173e82ffeffcbd5094304c1132b5f177
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1912'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience Video]：* （测试版功能）在受众网络上显示标准视频广告。
 
-* *[!UICONTROL Performance Max]：* （Beta测试版功能）使用 [!DNL Microsoft Advertising] 明智的竞价。 在Campaign设置中，您必须指定一个或多个资产组，包括图像、徽标、标题、描述、可选的行动呼吁和受众信号。 广告网络会自动组合资产，以根据渠道提供广告。
+* *[!UICONTROL Performance Max]：* （Beta测试版功能）使用 [!DNL Microsoft® Advertising] 明智的竞价。 在Campaign设置中，您必须指定一个或多个资产组，包括图像、徽标、标题、描述、可选的行动呼吁和受众信号。 广告网络会自动组合资产，以根据渠道提供广告。
 
 ## [!UICONTROL Campaign Details]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]：** 该活动的竞价策略：
 
-* *[!UICONTROL Cost per Sale]：* （仅限购物营销活动）广告网络(而非Search、Social和Commerce)根据 **[!UICONTROL Target CPS]** （每笔销售成本）。 仅当单击产品广告导致24小时内销售时才付款。 **注意：** 此选项适用于混合项目组合中的营销活动，但适用于标准项目组合中的营销活动。<!-- Verify all -->
+* *[!UICONTROL Cost per Sale]：* （仅限购物营销活动）广告网络(而非Search、Social和Commerce)根据 **[!UICONTROL Target CPS]** （每笔销售成本）。 仅当单击产品广告导致24小时内销售时才付款。 **注意：** 不在项目组合中包含具有此竞价策略的促销活动。 搜索、社交和Commerce优化不适用于具有此竞价策略的营销活动。
 
   保存具有此竞价策略的品牌的购物营销活动后，便无法更改竞价策略。 对于其他购物营销活动类型，此策略仅适用于新营销活动。
 
@@ -68,15 +68,15 @@ ht-degree: 0%
 
   当您将带eCPC的营销活动添加到经过优化的搜索、社交和Commerce产品组合时，Search、Social和Commerce会优化基本竞价，如果“[!UICONTROL Auto adjust campaign budget limits]”选项已启用 — 营销活动预算。 广告网络会优化所有竞价调整，并可能会在用户查询时根据专有数据和见解更改搜索、社交和Commerce生成的竞价。 **注意：** 仅当广告网络上跟踪的总转化与项目组合目标一致时，才在项目组合中使用eCPC营销活动。
 
-* *[!UICONTROL Manual CPC]*：(品牌购物活动； [!DNL Microsoft Store Ads] 营销活动；已弃用 [!DNL Microsoft® Advertising] （在2021年用于其他促销活动类型）使用每次点击成本(CPC)模型。 对于某些广告类型，您可以选择允许广告网络更改促销活动的竞价：
+* *[!UICONTROL Manual CPC]*：(品牌购物活动； [!DNL Microsoft® Store Ads] 营销活动；已弃用 [!DNL Microsoft® Advertising] （在2021年用于其他促销活动类型）使用每次点击成本(CPC)模型。 对于某些广告类型，您可以选择允许广告网络更改促销活动的竞价：
 
-   * **[!UICONTROL Enable Enhanced CPC]** （默认禁用）：这与使用&#39;&#39;相同[!UICONTROL Enhanced CPC]”选项。
+   * **[!UICONTROL Enable Enhanced CPC]** （默认禁用）：此选项与使用&#39;&#39;相同[!UICONTROL Enhanced CPC]”选项。
 
-* *[!UICONTROL Manual CPA]：* ([!DNL Microsoft Store Ads] 促销活动)使用每次客户获取成本(CPA)模型。
+* *[!UICONTROL Manual CPA]：* ([!DNL Microsoft® Store Ads] 促销活动)使用每次客户获取成本(CPA)模型。
 
 * *[!UICONTROL Manual CPM]* （仅限受众营销活动和受众视频营销活动）使用每千次展示成本(CPM)模型，您可以根据该模型指定每1,000次查看的展示要花费哪些成本。 当具有此竞价策略的营销活动包含在项目组合中时，不会对其进行优化。
 
-* *[!UICONTROL Maximize Clicks]：* （搜索和购物营销活动）广告网络(而不是Search、Social和Commerce)会优化竞价以最大化点击量。 （可选）输入 **[!UICONTROL Max CPC]** （每次点击成本），以确保广告网络为每次点击支付的金额不会超过特定金额。 **注意：** 将具有此策略的营销活动添加到项目组合时，竞价由点击权重驱动，而不是由项目组合目标驱动。
+* *[!UICONTROL Maximize Clicks]：* （搜索和购物营销活动）广告网络(而不是Search、Social和Commerce)会优化竞价以最大化点击量。 （可选）输入 **[!UICONTROL Max CPC]** （每次点击成本），以确保广告网络为每次点击支付的金额不会超过特定金额。 **注意：** 将具有此策略的营销活动添加到项目组合时，点击权重（而非项目组合目标）会驱动竞价。
 
 * *[!UICONTROL Maximize Conversion Value]：* （搜索和购物/智能购物网络，效果最佳的促销活动）广告网络(而不是Search、Social和Commerce)可优化竞价以实现转化价值的最大化。 （可选）输入 **[!UICONTROL Target Return on Ad Spend]** (ROAS)的百分比。 **注意：** 此选项适用于混合项目组合中的营销活动，但适用于标准项目组合中的营销活动。
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Target Impression Share]：* （搜索网络上的促销活动）广告网络(而非Search、Social和Commerce)会优化竞价以实现目标展示份额和广告位置。 （可选）输入 **[!UICONTROL Target Impression Share]** 以百分比表示， **[!UICONTROL Target Ad Position]**，和 **[!UICONTROL Max CPC]** （每次点击成本）。 **注意：** 混合项目组合中不支持此选项。
 
-* *[!UICONTROL Target Return on Ad Spend]：*  （搜索和购物网络上的营销活动）广告网络(而不是Search、Social和Commerce)根据您的网站优化竞价 **[!UICONTROL Target ROAS]** （广告支出回报率），以百分比表示。 （可选）输入 **[!UICONTROL Max CPC]** （每次点击成本），以确保广告网络为每次点击支付的金额不会超过特定金额。 **注意：** 此选项用于具有任何支出策略的混合项目组合（而非标准项目组合）中的营销活动，但支出策略除外 [!UICONTROL Weekly] 或 [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target Return on Ad Spend]：* （搜索和购物网络上的营销活动）广告网络(而不是Search、Social和Commerce)根据您的网站优化竞价 **[!UICONTROL Target ROAS]** （广告支出回报率），以百分比表示。 （可选）输入 **[!UICONTROL Max CPC]** （每次点击成本），以确保广告网络为每次点击支付的金额不会超过特定金额。 **注意：** 此选项用于具有任何支出策略的混合项目组合（而非标准项目组合）中的营销活动，但支出策略除外 [!UICONTROL Weekly] 或 [!UICONTROL Google Target ROAS].
 
   平均位置和CPC竞价数据不适用于具有此竞价策略的营销活动。
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Targeting]
 
-**[!UICONTROL Languages]：** （仅限效果最佳的营销活动）广告的语言，应与显示广告的网站的语言匹配。 [!DNL Microsoft Advertising] 根据各种信号确定用户的语言，包括用户的查询、发布者的国家/地区以及用户的语言设置。
+**[!UICONTROL Languages]：** （仅限效果最佳的营销活动）广告的语言，应与广告可能显示的网站语言匹配。 [!DNL Microsoft® Advertising] 根据各种信号确定用户的语言，包括用户的查询、发布者的国家/地区以及用户的语言设置。
 
 <!-- **[!UICONTROL Location Targets]:** -->
 
@@ -206,7 +206,7 @@ ht-degree: 0%
 
 **[!UICONTROL Final URL]：** 从资产组创建的所有广告的最终URL。
 
-**[!UICONTROL Images]：** 广告可容纳多达20张图像，其中包括至少一个正方形图像和一个横向图像。 请参阅 [[!DNL Microsoft Advertising] 图像准则](https://help.ads.microsoft.com/#apex/ads/en/60204/0). 您可以上传图像，也可以从中选择 [!UICONTROL Asset Library]  — 但不是两人在同一个操作中。
+**[!UICONTROL Images]：** 广告可容纳多达20张图像，其中包括至少一个正方形图像和一个横向图像。 请参阅 [[!DNL Microsoft® Advertising] 图像准则](https://help.ads.microsoft.com/#apex/ads/en/60204/0). 您可以上传图像，也可以从中选择 [!UICONTROL Asset Library]  — 但不是两人在同一个操作中。
 
 * 要上传图像，请执行以下操作：
 
@@ -228,7 +228,7 @@ ht-degree: 0%
 
 * 要从中选择图像，请执行以下操作： [!UICONTROL Asset Library]，单击 **[!UICONTROL Asset Library]** 并选择图像。
 
-**[!UICONTROL Logos]：** 至少一个徽标。 您最多可以包含五个。 请参阅 [[!DNL Microsoft Advertising] 资产准则](https://help.ads.microsoft.com/#apex/ads/en/60204/0). 您可以上传图像，也可以从中选择 [!UICONTROL Asset Library]  — 但不是两人在同一个操作中。
+**[!UICONTROL Logos]：** 至少一个徽标。 您最多可以包含五个。 请参阅 [[!DNL Microsoft® Advertising] 资产准则](https://help.ads.microsoft.com/#apex/ads/en/60204/0). 您可以上传图像，也可以从中选择 [!UICONTROL Asset Library]  — 但不是两人在同一个操作中。
 
 * 要上传图像，请执行以下操作：
 
@@ -284,7 +284,7 @@ ht-degree: 0%
 
 **[!UICONTROL Business Name]：** 公司名称，最长为25个字符。 它不能包含脚本、HTML或其他标记语言。
 
-**[!UICONTROL Audience Signal]：** （可选） [!DNL Microsoft Advertising] 用作营销活动受众信号的受众。 [!DNL Microsoft Advertising] 机器学习模型使用受众来查找要定位的相似网上冲浪者，并且还可能会向未指定为信号的受众显示广告，以帮助您实现性能目标。 选择最有可能转化的受众。
+**[!UICONTROL Audience Signal]：** （可选） [!DNL Microsoft® Advertising] 用作营销活动受众信号的受众。 [!DNL Microsoft® Advertising] 机器学习模型使用受众来查找要定位的相似网上冲浪者，并且还可能会向未指定为信号的受众显示广告，以帮助您实现性能目标。 选择最有可能转化的受众。
 
 >[!NOTE]
 >受众信号不同于以 [广告组级别受众目标](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
