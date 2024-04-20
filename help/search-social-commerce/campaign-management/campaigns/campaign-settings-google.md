@@ -3,7 +3,7 @@ title: ’[!DNL Google Ads] 营销活动设置
 description: 引用设置 [!DNL Google Ads] 营销活动。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 7b31fb7939f44aa99826bea3f183897683189eae
+source-git-commit: 802c22a235fc4f3a45138cc37e0416e701ab8385
 workflow-type: tm+mt
 source-wordcount: '2378'
 ht-degree: 0%
