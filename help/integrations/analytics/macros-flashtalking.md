@@ -3,7 +3,7 @@ title: 附加 [!DNL Analytics for Advertising] 宏到 [!DNL Flashtalking] 广告
 description: 了解添加原因和方式 [!DNL Analytics for Advertising] 将宏添加到 [!DNL Flashtalking] 广告标记
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: fedfc68b8ad46c27b9da51eb9d5f2c77d604a7c4
+source-git-commit: 2a124481f98a5b5f17d613becacb0bdfa6935836
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
