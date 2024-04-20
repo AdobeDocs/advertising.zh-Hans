@@ -3,7 +3,7 @@ title: SSP合作伙伴
 description: 查看可用供应方平台(SSP)和开放交换合作伙伴的列表。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 1fd67d0996fa877441a2a309d8cffdce40d41144
+source-git-commit: 7b31fb7939f44aa99826bea3f183897683189eae
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -54,3 +54,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [清单功能概述](inventory-overview.md)
+
