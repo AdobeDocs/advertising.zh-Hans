@@ -3,7 +3,7 @@ title: ’[!DNL Microsoft® Advertising] 营销活动设置
 description: 引用设置 [!DNL Microsoft® Advertising] 营销活动。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: c7821f112757f695a6ab9da1fffb014b822e1ff3
+source-git-commit: 8d1ff29322799ff7905ee808703e00f5190ae8af
 workflow-type: tm+mt
 source-wordcount: '1912'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]：** 该活动的竞价策略：
 
-* *[!UICONTROL Cost per Sale]：* （仅限购物营销活动）广告网络(而非Search、Social和Commerce)根据 **[!UICONTROL Target CPS]** （每笔销售成本）。 仅当单击产品广告导致24小时内销售时才付款。 **注意：** 不在项目组合中包含具有此竞价策略的促销活动。 搜索、社交和Commerce优化不适用于具有此竞价策略的营销活动。
+* *[!UICONTROL Cost per Sale]：* （仅限购物营销活动）广告网络(而非Search、Social和Commerce)根据 [!UICONTROL Target CPS] （每笔销售成本）。 仅当单击产品广告导致24小时内销售时才付款。 **注意：** 不在项目组合中包含具有此竞价策略的促销活动。 搜索、社交和Commerce优化不适用于具有此竞价策略的营销活动。
 
   保存具有此竞价策略的品牌的购物营销活动后，便无法更改竞价策略。 对于其他购物营销活动类型，此策略仅适用于新营销活动。
 
