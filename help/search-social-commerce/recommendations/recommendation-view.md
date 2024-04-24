@@ -3,7 +3,7 @@ title: 查看发布者推荐和性能分析
 description: 了解如何查看 [!DNL Google Ads] 建议和 [!DNL Microsoft® Advertising] 广告网络帐户的性能分析。
 feature: Search Recommendations
 exl-id: 8a9d99b1-c90b-4a1c-9516-85edc9024a7c
-source-git-commit: 55417f743378a4407542482b8009687d5a7191e7
+source-git-commit: 93e9a36cd479e0f076f72661f0983a5bd856806a
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
