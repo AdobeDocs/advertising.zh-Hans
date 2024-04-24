@@ -3,9 +3,9 @@ title: ’[!DNL Microsoft® Advertising] 广告组设置
 description: 引用设置 [!DNL Microsoft® Advertising] 广告组。
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 29401370d18a5d1c7d5c28cb90a109ea5134ac00
+source-git-commit: 7339af39250f0328bc6e8d530a2d7f04286132e5
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,14 @@ ht-degree: 0%
 {{$include /help/_includes/location-targets.md}}
 
 对象 [!DNL Microsoft® Advertising] 受众网络中的广告组，位置目标的竞价修饰符未在具有&quot;[!UICONTROL Auto-optimize Bid Adjustment Values]”设置。
+
+**[!UICONTROL Genre]：** (广告组位于 [!UICONTROL Audience CTV Video] 促销活动；在美国、CA、BR、MX、UK、DE、ES、FR、IT、AU、MY和TH提供<!-- should that go in the campaign sub-type description instead, or is this applicable for this feature only? -->)目标流派，它决定广告显示的节目和渠道：
+
+* *[!UICONTROL All genres]：* （默认）定位所有流派。
+
+* *[!UICONTROL Select From Below List]：* 定位所选流派。 从所有可用流派的列表中选择。
+
+连接电视(CTV)广告投放取决于您的视频质量和竞价金额。 请参阅 [CTV广告的技术要求](https://help.ads.microsoft.com/#apex/ads/en/60102/0/#TechnicalRequirements).
 
 <!-- **[!UICONTROL Devices]:** -->
 
