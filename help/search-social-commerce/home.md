@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: c7821f112757f695a6ab9da1fffb014b822e1ff3
+source-git-commit: 43514628649ba517371b8ac0781d4c49615e667f
 workflow-type: tm+mt
-source-wordcount: '1801'
+source-wordcount: '1986'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年4月24日 | [!UICONTROL Recommendations & Publisher Insights] | ([!DNL Microsoft® Advertising] campaigns； beta功能)您现在可以使用与帐户相同的格式查看帐户的性能推荐 [!DNL Google Ads]；直接应用或取消推荐；查看应用于帐户的每个推荐的日志，包括应用该推荐的受影响实体和时间戳。 支持的推荐类型包括响应式搜索广告、活动预算和关键词。<br><br>您仍然可以看到每个性能分析 [!DNL Microsoft® Advertising] 生成 — 采用与推荐不同的格式 — 过去30天内。 每个分析都包含一个链接，用于打开 [!DNL Microsoft® Advertising] 编辑器中对分析执行操作。 | 请参阅&quot;[关于发布者推荐和见解支持](/help/search-social-commerce/recommendations/recommendation-support.md)，&quot; &quot;[查看发布者推荐和性能分析](/help/search-social-commerce/recommendations/recommendation-view.md)，&quot; &quot;[应用或取消发布者推荐](/help/search-social-commerce/recommendations/recommendation-apply-dismiss.md)，”和“[查看帐户的发布者推荐日志](/help/search-social-commerce/recommendations/recommendation-view-log.md)“ |
+|  | [!UICONTROL Campaigns] | ([!DNL Microsoft® Advertising] 营销活动)受众CTV视频营销活动中的广告组现在可以定位流派，从而确定广告所显示的节目和频道。 此 [!UICONTROL Adgroup Targeting] 部分包含新的&quot;[!UICONTROL Genre]”设置，并带有定位所有流派或仅定位特定流派的选项。<br><br>对类型目标没有报表支持。 | 请参阅&quot;[[!DNL Microsoft® Advertising] 广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)“ |
 | 2024年4月20日 | [!UICONTROL Campaigns] | (开放Beta版功能； [!DNL Microsoft® Advertising] 帐户)其他支持可用于 [!DNL Microsoft® Advertising] 效果最佳的促销活动：<ul><li>您现在可以配置营销活动开始和结束日期以及营销活动级别的语言和位置目标。</li><li>您可以添加、编辑和删除资源组。 对于每个资产组，您可以将现有的受众组用作受众信号。</li></ul> | 请参阅&quot;[[!DNL Microsoft® Advertising] campaign设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)“ |
 | | | (开放Beta版功能； [!DNL Microsoft® Advertising] 帐户)以下支持适用于 [!DNL Microsoft® Advertising] 品牌购物促销，其促销活动类型为»[!UICONTROL Shopping Campaigns for Brands]“(列为”[!UICONTROL Brand Shopping]中的&quot; [!UICONTROL Campaigns] 查看并报告)和使用竞价策略”[!UICONTROL Cost per Sale]“<ul><li>查看您现有的品牌赞助促销活动。</li><li>从 [!UICONTROL Campaigns] 查看、创建和管理 [!UICONTROL Shopping Campaigns for Brands] 营销活动与 [!UICONTROL Cost per Sale] 竞价策略，您可以为其设置每次销售的目标成本。 仅当单击产品广告导致24小时内销售时才付款。 您还可以创建子广告组和产品组。 [!DNL Microsoft® Advertising] 根据产品组自动创建广告。</li><li>*在营销活动管理视图和离线报表中查看产品组级别的数据，并(广告商具有 [!DNL Adobe Analytics for Advertising]Adobe Analytics )。</li></ul><br><br>您也可以使用 [!UICONTROL Cost per Sale] 任何其他类型的新竞价策略 [!DNL Microsoft®] 购物营销活动。 您无法将其用于现有购物营销活动。<br><br>Portfolio优化不适用于具有的营销活动 [!UICONTROL Cost per Sale] 竞价策略。 | 请参阅&quot;[[!DNL Microsoft® Advertising] campaign设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)”和“[支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)“ |
 | 2024年1月20日 | [!UICONTROL Campaigns]， [!DNL Optimization] | ([!DNL Microsoft Advertising] 活动)对于受众网络上的活动，您现在可以选择&quot;[!UICONTROL Maximize Conversions]“营销活动设置中的自动竞价策略（可选） ”[!UICONTROL Target CPA]“ ”值。 具有此竞价策略的营销活动可用于混合项目组合中的优化。 | 请参阅&quot;[[!DNL Microsoft Advertising] campaign设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)“ |
