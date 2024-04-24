@@ -4,7 +4,7 @@ user-guide-title: 广告搜索、社交和商业指南
 user-guide-description: 本指南阐述管理、跟踪和报告搜索、社交和商业广告营销活动所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: 广告搜索、社交和商业指南
 index: true
-source-git-commit: 198dc41ba0ae1cd55e18c34e04cd2ea2297aa127
+source-git-commit: c53d79bd185630fb535c44bc05a4e0b7582f14ca
 workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 + [新增功能](home.md)
 + [关于本指南](help-about.md)
 + 介绍 {#intro}
-   + [关于Adobe Advertising搜索、社交和商务](/help/search-social-commerce/introduction/about.md)
+   + [关于Adobe Advertising搜索、社交和Commerce](/help/search-social-commerce/introduction/about.md)
    + [支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)
    + 与Adobe Experience Cloud集成 {#integrations}
       + [与Adobe Experience Cloud解决方案和服务集成](/help/search-social-commerce/introduction/integrations.md)
@@ -103,7 +103,7 @@ ht-degree: 2%
    + [有关跟踪的常见问题解答](/help/search-social-commerce/tracking/faqs-tracking.md)
 + 营销活动管理 {#campaign-management}
    + 介绍 {#campaign-management-intro}
-      + [关于搜索、社交和商务中的促销活动管理](/help/search-social-commerce/campaign-management/introduction/campaign-management-about.md)
+      + [关于Search、Social和Commerce中的促销活动管理](/help/search-social-commerce/campaign-management/introduction/campaign-management-about.md)
       + [实施广告网络帐户和营销活动概述](/help/search-social-commerce/campaign-management/introduction/campaign-implemention-overview.md)
       + [监控和管理广告网络营销活动的效果](/help/search-social-commerce/campaign-management/introduction/monitor-performance-campaigns.md)
       + [[!DNL Google Ads] 搜索、社交和商务中的转化数据](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
@@ -374,9 +374,9 @@ ht-degree: 2%
    + Recommendations和出版商分析 {#recommendations}
       + [关于发布者推荐和见解支持](/help/search-social-commerce/recommendations/recommendation-support.md)
       + [查看发布者推荐和性能分析](/help/search-social-commerce/recommendations/recommendation-view.md)
-      + [应用或关闭 [!DNL Google Ads] 推荐](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
-      + [查看的推荐日志 [!DNL Google Ads] 帐户](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
-      + [将发布者推荐和见解与项目组合结合使用的最佳实践](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
+      + [应用或取消发布者推荐](/help/search-social-commerce/recommendations/recommendation-apply-dismiss.md)
+      + [查看帐户的发布者推荐日志](/help/search-social-commerce/recommendations/recommendation-view-log.md)
+      + [将发布者推荐与项目组合结合使用的最佳实践](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + 工具 {#tools}
    + [更改密码](/help/search-social-commerce/tools/password-change.md)
    + 用于创建和解码跟踪标记的工具{#tracking}

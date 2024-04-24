@@ -3,9 +3,9 @@ title: 关于发布者推荐和见解支持
 description: 了解对查看和管理发布者推荐和见解的支持。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 250e6c7aaeb64c811b3648ac1aee2a7bd0a6f753
+source-git-commit: c53d79bd185630fb535c44bc05a4e0b7582f14ca
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -16,29 +16,27 @@ ht-degree: 0%
 
 *的Beta版功能 [!DNL Microsoft® Advertising] 帐户*
 
-[!DNL Google Ads] 建议和 [!DNL Microsoft® Advertising] 性能见解是广告网络提供的建议，旨在帮助提高营销活动的性能和效率：
+[!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 建议和见解是广告网络中的建议，有助于提高营销活动的性能和效率：
 
 * 每个 [!DNL Google Ads] “推荐”根据您帐户的性能历史记录、促销活动设置和以下方面的趋势，提供关于促销活动不同性能方面（从添加资产到增加预算）的自定义建议 [!DNL Google Ads].
 
-* 每个 [!DNL Microsoft® Advertising] 性能洞察会提醒您有关经理帐户、广告商帐户或营销活动的重大波动；确定可能的原因并提出优化性能的操作建议。
+* 每个 [!DNL Microsoft® Advertising] 性能洞察和推荐可提出更改建议，以根据机器学习算法和最佳实践优化促销活动性能。
 
 ## 此 [!UICONTROL Recommendations & Publisher Insights] 视图
 
 范围 [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]，您可以：
 
-* 概览尚未针对执行操作的所有受支持推荐 [!DNL Google Ads] 帐户或过去30天内生成的所有性能分析 [Microsoft® Advertising] 帐户。 每个条目的信息包括推荐/见解详细信息和受影响的实体。 对象 [!DNL Google Ads] 帐户，量度的预计增长以绿色突出显示。
+* 概览尚未针对账户采取行动的所有受支持推荐。 每个条目的信息都包括推荐类型、 [!DNL Adobe] 推荐、受影响的量度、受影响的实体以及指向更多详细信息的链接。 量度的预计增长以绿色突出显示。
 
   ![RECOMMENDATIONS UI](/help/search-social-commerce/assets/recommendations-ui.png "RECOMMENDATIONS UI")
 
   在打开视图时，数据可实时使用。 要刷新数据，请单击 ![刷新](/help/search-social-commerce/assets/refresh.png "刷新") 在页面的左下角。
 
-* 对象 [!DNL Google Ads] 帐户：
+* 对象 [Microsoft® Advertising] 帐户，查看过去30天生成的每个性能洞察概览 [Microsoft® Advertising] 帐户。 “见解”可提供与推荐类似的信息，但采用不同的格式。 每个洞察包括日期、问题描述、受影响的实体、根本原因（可能包括指向更多详细信息的链接）以及建议操作，其中包含一个用于打开Microsoft®广告编辑器的链接，您可以从中对特定洞察执行操作。
 
-   * 查看推荐详细信息，并直接应用或驳回推荐。
+* 查看有关推荐的详细信息，并直接应用或驳回该推荐。
 
-   * 查看应用于帐户的每个推荐的日志，包括应用该推荐的受影响实体和时间戳。
-
-* 对象 [Microsoft® Advertising] 帐户，打开 [!DNL Microsoft® Advertising] 编辑器中提供的特定分析。
+* 查看应用于帐户的每个推荐的日志，包括应用该推荐的受影响实体和时间戳。
 
 >[!NOTE]
 >
@@ -80,9 +78,17 @@ ht-degree: 0%
 | | [!UICONTROL Search partners opt in] | 使用扩展范围 [!DNL Google] 搜索合作伙伴 |
 | | [!UICONTROL Use broad match keyword] | 通过基于转化的全自动竞价，对基于转化的营销活动使用广泛匹配 |
 
+## 支持的推荐类型 [!DNL Microsoft Advertising]
+
+| 推荐类别 | 推荐类型 | 描述 |
+| --- | --- | --- |
+| [!UICONTROL Ads and extensions] | [!UICONTROL Responsive search ad] | 添加新的响应式搜索广告 |
+| [!UICONTROL Bidding and budgets] | [!UICONTROL Campaign budget] | 修复受预算限制的营销活动 |
+| [!UICONTROL Keywords and targeting] | [!UICONTROL Keyword] | 从所有源添加新关键字 |
+
 >[!MORELIKETHIS]
 >
 >* [查看发布者推荐和性能分析](recommendation-view.md)
->* [应用或关闭 [!DNL Google Ads] 推荐](google-recommendation-apply-dismiss.md)
->* [查看的推荐日志 [!DNL Google Ads] 帐户](google-recommendation-view-log.md)
->* [将发布者推荐和见解与项目组合结合使用的最佳实践](recommendation-best-practices.md)
+>* [应用或取消发布者推荐](recommendation-apply-dismiss.md)
+>* [查看帐户的发布者推荐日志](recommendation-view-log.md)
+>* [将发布者推荐与项目组合结合使用的最佳实践](recommendation-best-practices.md)
