@@ -3,9 +3,9 @@ title: 生成点击跟踪URL
 description: 了解如何手动生成Search、Social和Commerce点击跟踪URL。
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: 0da23a2756fc7ed4d2ef8fb739d94a91ac6400ba
+source-git-commit: a4d892b413dde26a96f03c797991c4df17da7562
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
            该文件最多可包含10,000行。
 
-         * ([!DNL Google Merchant Center] 产品组和 [DNL Microsoft® Advertising] 产品广告) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] 产品组和 [!DNL Microsoft® Advertising] 产品广告) `product name <tab> ** <tab> landing_page`
 
            位置 `product name` 是产品名称和 `landing_page` 是有效的登陆页面URL或基本URL。
 
