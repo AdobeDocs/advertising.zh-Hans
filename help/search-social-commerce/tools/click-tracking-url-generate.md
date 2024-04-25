@@ -1,16 +1,16 @@
 ---
 title: 生成点击跟踪URL
-description: 了解如何手动生成搜索、社交和商务点击跟踪URL。
-exl-id: d22a472a-a562-4812-a067-fbd407cd7d00
+description: 了解如何手动生成Search、Social和Commerce点击跟踪URL。
+exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 0da23a2756fc7ed4d2ef8fb739d94a91ac6400ba
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
-# 使用跟踪URL工具生成搜索、社交和商务点击跟踪URL
+# 使用跟踪URL工具生成搜索、社交和Commerce点击跟踪URL
 
 *仅具有Adobe Advertising转化跟踪的广告商*
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
            该文件最多可包含10,000行。
 
-         * ([!DNL Google Merchant Center] 产品组和 [Microsoft® Advertising] 产品广告) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] 产品组和 [DNL Microsoft® Advertising] 产品广告) `product name <tab> ** <tab> landing_page`
 
            位置 `product name` 是产品名称和 `landing_page` 是有效的登陆页面URL或基本URL。
 
@@ -88,4 +88,4 @@ ht-degree: 0%
 >
 >* [关于创建和解码跟踪标记的工具](tracking-tools-about.md)
 >* [何时以及如何生成点击跟踪URL](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
->* [解码搜索、社交和商务点击跟踪URL](click-tracking-url-decode.md)
+>* [解码搜索、社交和Commerce点击跟踪URL](click-tracking-url-decode.md)
