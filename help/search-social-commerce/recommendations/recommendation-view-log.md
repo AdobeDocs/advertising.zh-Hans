@@ -3,7 +3,7 @@ title: 查看帐户的发布者推荐日志
 description: 了解如何查看应用于的每个推荐的日志 [!DNL Google Ads] 或 [!DNL Microsoft Advertising] 帐户。
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-source-git-commit: 93e9a36cd479e0f076f72661f0983a5bd856806a
+source-git-commit: 2e1544658804afb298bf2c1a46f197d36ef6854e
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -32,3 +32,4 @@ ht-degree: 0%
 >* [查看发布者推荐和性能分析](recommendation-view.md)
 >* [应用或取消发布者推荐](recommendation-apply-dismiss.md)
 >* [将发布者推荐与项目组合结合使用的最佳实践](recommendation-best-practices.md)
+
