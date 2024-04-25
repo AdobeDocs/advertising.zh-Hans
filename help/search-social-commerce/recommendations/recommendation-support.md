@@ -3,9 +3,9 @@ title: 关于发布者推荐和见解支持
 description: 了解对查看和管理发布者推荐和见解的支持。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 7f45a89dbff37592eec9991c47ade3094ca024a8
+source-git-commit: 331b11620d99f9e43b9eb69db04aac4e1149d64f
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
   在打开视图时，数据可实时使用。 要刷新数据，请单击 ![刷新](/help/search-social-commerce/assets/refresh.png "刷新") 在页面的左下角。
 
-* 对象 [DNL Microsoft® Advertising] 帐户，查看过去30天生成的每个性能洞察概览 [DNL Microsoft® Advertising] 帐户。 “见解”可提供与推荐类似的信息，但采用不同的格式。 每个洞察包括日期、问题描述、受影响的实体、根本原因（可能包括指向更多详细信息的链接）以及建议操作，其中包含一个用于打开Microsoft®广告编辑器的链接，您可以从中对特定洞察执行操作。
+* 对象 [!DNL Microsoft® Advertising] 帐户，查看过去30天生成的每个性能洞察概览 [!DNL Microsoft® Advertising] 帐户。 “见解”可提供与推荐类似的信息，但采用不同的格式。 每个洞察都包括日期、问题描述、受影响的实体、根本原因（可能包括指向更多详细信息的链接）以及带有打开 [!DNL Microsoft® Advertising] 编辑器，您可以从中对特定见解执行操作。
 
 * 查看有关推荐的详细信息，并直接应用或驳回该推荐。
 
