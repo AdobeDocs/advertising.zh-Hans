@@ -3,9 +3,9 @@ title: ’[!DNL Google Ads] 营销活动设置
 description: 引用设置 [!DNL Google Ads] 营销活动。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: c7821f112757f695a6ab9da1fffb014b822e1ff3
+source-git-commit: ce17567bbf1a409cc2894e48188235b7473b914c
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2431'
 ht-degree: 0%
 
 ---
@@ -359,7 +359,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
->如果促销活动属于项目组合，则使用与项目组合目标相同的转化目标。 使用不同的转化目标可能会影响项目组合的性能。
+>对于将目标上传到广告网络的混合项目组合中的营销活动，最佳实践是使用与项目组合目标中的转化目标匹配的营销活动级别目标。 但是，如果营销活动目标包括 [!DNL Google]-tracked转化，然后将其添加到 [!DNL Google Ads] 编辑者，因为它们将不会重新上传到具有目标的广告网络。 此外，在 [!DNL Google Ads] 编辑者，通过将促销活动的转化操作标记为次要（而非主要）目标来删除帐户默认目标。
+
+<!-- Check on this:
+>If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>
+>The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
+-->
 
 >[!MORELIKETHIS]
 >

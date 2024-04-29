@@ -3,9 +3,9 @@ title: ’[!DNL Microsoft® Advertising] 营销活动设置
 description: 引用设置 [!DNL Microsoft® Advertising] 营销活动。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 8d1ff29322799ff7905ee808703e00f5190ae8af
+source-git-commit: ce17567bbf1a409cc2894e48188235b7473b914c
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: '1967'
 ht-degree: 0%
 
 ---
@@ -299,7 +299,15 @@ ht-degree: 0%
 
 **[!UICONTROL Conversion Goal]：** 是否要 *[!UICONTROL Use account conversion goals for this campaign]* （默认）或 *[!UICONTROL Use campaign specific conversion goals]*. 如果选择指定营销活动的转化目标，则从所有可用目标列表中选择目标。 **注意：** 目标每天进行同步，因此可能无法列出之前24小时内创建的目标。 要更新列表， [手动同步广告网络数据](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
 
-如果促销活动属于项目组合，则使用与项目组合目标相同的转化目标。 使用不同的转化目标可能会影响项目组合的性能。
+>[!TIP]
+>
+>对于您将其目标上传到广告网络的混合项目组合，最佳实践是使用与项目组合目标中的转化目标匹配的营销活动级别目标。 但是，如果促销活动目标包含由跟踪的转化 [!DNL Microsoft Advertising] 通用事件跟踪(UET)标记，然后将其添加到中 [!DNL Microsoft Advertising] 编辑者，因为它们将不会重新上传到具有目标的广告网络。 此外，在 [!DNL Microsoft Advertising] 编辑者，通过取消选择“包含在转化中”，删除作为帐户默认目标的营销活动的转化操作。
+
+<!-- Check on this:
+>If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>
+>The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
+-->
 
 >[!MORELIKETHIS]
 >
