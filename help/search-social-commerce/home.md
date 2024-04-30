@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: 43514628649ba517371b8ac0781d4c49615e667f
+source-git-commit: b627d24c6f5b416102cceebb5c176add4adac278
 workflow-type: tm+mt
-source-wordcount: '1986'
+source-wordcount: '2167'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年4月29日 | 目标上传 | 混合项目组合的目标上传功能现在按搜索、社交和Commerce目标而不是项目组合上传转化数据。 您现在可以将营销活动移动到具有相同目标的另一个项目组合，而无需更改其转化目标。 新上传的转换命名格式已更改：<ul><li>旧版格式： `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`</li>位置 `<portfolio_id>` 是数值项目组合ID和 `<se_acctid/conversion_manager_se_acctid>` 是广告网络帐户或经理帐户的数值ID<li>新格式： `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`<li>其中&#39;&lt;network_id>&#39;是Search、Social和Commerce用于广告网络的数字ID， `<objective_id>` 是数值目标ID，并且 `<network_account_ID>` 是广告网络帐户或经理帐户的数值ID。</ul>如果您已启用此功能，则会按照您的Adobe帐户团队共享的计划，使用新的上传格式迁移现有数据。 在迁移期间，新旧格式的上传将并行运行。 建模和优化不会受到影响，因为新的转化操作最初以“次要”（未优化）状态出现，并且回填数据持续90天。 | 请参阅&quot;[允许将目标上传到广告网络](/help/search-social-commerce/tools/objective-upload-to-networks.md)“ |
 | 2024年4月24日 | [!UICONTROL Recommendations & Publisher Insights] | ([!DNL Microsoft® Advertising] campaigns； beta功能)您现在可以使用与帐户相同的格式查看帐户的性能推荐 [!DNL Google Ads]；直接应用或取消推荐；查看应用于帐户的每个推荐的日志，包括应用该推荐的受影响实体和时间戳。 支持的推荐类型包括响应式搜索广告、活动预算和关键词。<br><br>您仍然可以看到每个性能分析 [!DNL Microsoft® Advertising] 生成 — 采用与推荐不同的格式 — 过去30天内。 每个分析都包含一个链接，用于打开 [!DNL Microsoft® Advertising] 编辑器中对分析执行操作。 | 请参阅&quot;[关于发布者推荐和见解支持](/help/search-social-commerce/recommendations/recommendation-support.md)，&quot; &quot;[查看发布者推荐和性能分析](/help/search-social-commerce/recommendations/recommendation-view.md)，&quot; &quot;[应用或取消发布者推荐](/help/search-social-commerce/recommendations/recommendation-apply-dismiss.md)，”和“[查看帐户的发布者推荐日志](/help/search-social-commerce/recommendations/recommendation-view-log.md)“ |
 |  | [!UICONTROL Campaigns] | ([!DNL Microsoft® Advertising] 营销活动)受众CTV视频营销活动中的广告组现在可以定位流派，从而确定广告所显示的节目和频道。 此 [!UICONTROL Adgroup Targeting] 部分包含新的&quot;[!UICONTROL Genre]”设置，并带有定位所有流派或仅定位特定流派的选项。<br><br>对类型目标没有报表支持。 | 请参阅&quot;[[!DNL Microsoft® Advertising] 广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)“ |
 | 2024年4月20日 | [!UICONTROL Campaigns] | (开放Beta版功能； [!DNL Microsoft® Advertising] 帐户)其他支持可用于 [!DNL Microsoft® Advertising] 效果最佳的促销活动：<ul><li>您现在可以配置营销活动开始和结束日期以及营销活动级别的语言和位置目标。</li><li>您可以添加、编辑和删除资源组。 对于每个资产组，您可以将现有的受众组用作受众信号。</li></ul> | 请参阅&quot;[[!DNL Microsoft® Advertising] campaign设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)“ |
