@@ -1,72 +1,71 @@
 ---
-title: 音訊廣告設定
-description: 請參閱音訊廣告可用廣告設定的說明。
+title: 音频广告设置
+description: 请参阅音频广告可用广告设置的说明。
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
 
-# 音訊廣告設定
+# 音频广告设置
 
 ## [!UICONTROL Insert Ad Tag]
 
-*僅限新廣告*
+*仅限新广告*
 
-**[!UICONTROL URL]**：VAST標籤URL。
+**[!UICONTROL URL]**：VAST标记URL。
 
-**[!UICONTROL Title]**：檔案的名稱，用於 [!UICONTROL Ads] 檢視和報告。
+**[!UICONTROL Title]**：文件的名称，该文件将用于 [!UICONTROL Ads] 查看和报告。
 
 >[!TIP]
 >
-> 若要檢查VAST標籤的有效性，請將其貼到瀏覽器中並按一下 **[!UICONTROL Enter]** 金鑰。 如果標籤有效，您會看到包含的XML檔案 `<VAST>` 靠近頂端。
+> 要检查VAST标记的有效性，请将其粘贴到浏览器中并点击 **[!UICONTROL Enter]** 键。 如果标记有效，您将看到一个包含的XML文件 `<VAST>` 接近顶端。
 
 ## [!UICONTROL Ad Options]
 
 ### [!UICONTROL Basic]
 
-**[!UICONTROL Ad Type]：** （唯讀）您正在建立的廣告型別，與可附加廣告的位置型別相對應。 其預設值為 *[!UICONTROL Audio]*.
+**[!UICONTROL Ad Type]：** （只读）您创建的广告类型，该类型与广告可以附加到的版面类型相对应。 默认为 *[!UICONTROL Audio]*.
 
-**[!UICONTROL Ad Name]：** 廣告名稱。 預設會使用資產標題，但您可以變更名稱。
+**[!UICONTROL Ad Name]：** 广告名称。 默认使用资源标题，但您可以更改名称。
 
 >[!TIP]
 >
-> 當您在下列位置將廣告附加至位置時，請使用容易找到的名稱： [!UICONTROL Ads] 檢視，以及在報表中。 例如，說明單位型別和某些關鍵屬性（例如Holiday Product Preview： 30sec Audio」）。
+> 在中，使用将广告附加到投放位置时容易找到的名称 [!UICONTROL Ads] 视图，并在报表中查看。 例如，描述设备类型和某些关键属性（如Holiday Product Preview： 30sec Audio）。
 
-**[!UICONTROL Ad Duration]：** 音訊檔案的長度。 會自動設定為 [!UICONTROL 15] 或 [!UICONTROL 30]，視選取的廣告單位而定。
+**[!UICONTROL Ad Duration]：** 音频文件的长度。 它会自动设置为 [!UICONTROL 15] 或 [!UICONTROL 30]，具体取决于所选的广告单位。
 
-此欄位不一定顯示，取決於帳戶許可權。
+此字段不一定显示，具体取决于帐户权限。
 
-**[!UICONTROL VAST Tag]：** （僅使用VAST標籤的廣告）第三方廣告來源的URL。 請確定VAST標籤僅包含音訊媒體檔案。
+**[!UICONTROL VAST Tag]：** （仅使用VAST标记的广告）第三方广告源的URL。 确保VAST标记仅包含音频媒体文件。
 
-**[!UICONTROL Final VAST Tag]：** （僅使用VAST標籤的廣告）第三方廣告來源的URL及必要的 [Advertising DSP追蹤巨集](/help/dsp/campaign-management/macros.md) 已插入（如果適用）。
+**[!UICONTROL Final VAST Tag]：** （仅使用VAST标记的广告）第三方广告源的URL，具有必要的 [Advertising DSP跟踪宏](/help/dsp/campaign-management/macros.md) 已插入（如果适用）。
 
-**[!UICONTROL Select Rate]：** （僅限具有許可權的使用者）透過Adobe計費的預先議定費率，或您已經議定並將透過供應商計費的費率之一。 若要新增費率，請聯絡您的Adobe客戶團隊。
+**[!UICONTROL Select Rate]：** （仅限具有权限的用户）通过Adobe计费的预协商费率，或者您已经协商并通过供应商计费的费率之一。 要添加费率，请与您的Adobe客户团队联系。
 
-### 畫素
+### 像素
 
-會自動附加位置的所有現有事件追蹤畫素。 您可以根據個別廣告的追蹤需求，分離現有畫素並根據需要建立新畫素。
+投放位置的所有现有事件跟踪像素都会自动附加。 您可以根据单个广告的跟踪需求，分离现有像素并根据需要创建新像素。
 
-下列設定會套用至您建立或編輯的每個畫素。
+以下设置适用于创建或编辑的每个像素。
 
-**[!UICONTROL Integration Event]：** 觸發畫素觸發的事件。 對於此廣告型別，請使用在 *[!UICONTROL Impression]* 或 *[!UICONTROL Click-through]*.
+**[!UICONTROL Integration Event]：** 触发像素触发的事件。 对于此广告类型，使用在 *[!UICONTROL Impression]* 或 *[!UICONTROL Click-through]*.
 
-**[!UICONTROL Pixel Type]：** 畫素是否為 *[!UICONTROL IMG UR]L* （1x1畫素影像檔案）， *[!UICONTROL HTML]*，或 *[!UICONTROL JavaScript URL]*.
+**[!UICONTROL Pixel Type]：** 像素是否为 *[!UICONTROL IMG URL]* （1x1像素图像文件）， *[!UICONTROL HTML]*，或 *[!UICONTROL JavaScript URL]*.
 
-**[!UICONTROL Pixel URL or Code]：** 畫素影像的URL，使用指定畫素型別的適當格式。
+**[!UICONTROL Pixel URL or Code]：** 像素图像的URL，采用指定像素类型的相应格式。
 
-**[!UICONTROL Pixel Name]：** 畫素名稱。 使用可協助您輕鬆識別畫素的名稱。
+**[!UICONTROL Pixel Name]：** 像素名称。 使用有助于您轻松识别像素的名称。
 
-**[!UICONTROL Pixel Provider]：** 畫素提供者： *[!UICONTROL None]*， *[!UICONTROL Nielsen]*，或 *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]：** 像素提供程序：*[!UICONTROL None]*， *[!UICONTROL Comscore]*， *[!UICONTROL WhiteOps]*，或 *[!UICONTROL IAS]*..
 
 >[!MORELIKETHIS]
 >
->* [關於廣告管理](ad-about.md)
->* [建立單一廣告](ad-create.md)
->* [列出與廣告相關的版位](/help/dsp/campaign-management/ads/ad-list-placements.md)
->* [廣告規格](ad-specs.md)
->* [DSP巨集](/help/dsp/campaign-management/macros.md)
-
+>* [关于广告管理](ad-about.md)
+>* [创建单个广告](ad-create.md)
+>* [列出与广告关联的版面](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [广告规范](ad-specs.md)
+>* [DSP宏](/help/dsp/campaign-management/macros.md)
