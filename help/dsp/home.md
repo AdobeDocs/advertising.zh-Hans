@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 6c6108dfe91f16a48408d027d379a91d71ba5ca6
+source-git-commit: 4f73beed93be30187148a4425e5062d5bcd05dc9
 workflow-type: tm+mt
-source-wordcount: '2689'
+source-wordcount: '2723'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年5月2日 | 版面、广告 | 此 [!UICONTROL Ad Tools] 现在，查看功能可将多个第三方跟踪像素附加到一个或多个广告，并可从广告中分离出现有的第三方跟踪像素。 | 请参阅&quot;[将广告附加到投放位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)“ |
 | 2024年4月18日 | 版面 | 您现在可以创建和管理投放的指定目标类型的竞价修饰符，竞价修饰符将乘以竞价以增加或减少竞价。 默认的bid修饰符为1.00，这意味着不增加或减少；值的范围可以是0.10到10.00。例如，竞价修饰符0.50将竞价从6美元降至3美元(0.50 x 6)。 当拍卖符合多个竞价修饰符条件时，所有适用的竞价修饰符都将被相乘。 竞价修饰符绝不会将竞价提高到超过最大竞价。 | 请参阅&quot;[管理投放位置的竞价乘数](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)“ |
 | 2024年4月3日 | 清点合作伙伴 | Adobe Advertising的欧盟席位 [!DNL Google Authorized Buyers] 已与现有亚太区座位合并。 | 请参阅&quot;[SSP合作伙伴](/help/dsp/inventory/ssp-partners.md)“ |
 |   | 优化 | 新建 `CPA` （每次收购成本）及 `ROAS` 资源包、投放和相关表中的资产（广告支出回报率）量度可以更准确地跟踪具有相关目标的资源包和投放的性能。 新的CPA量度仅考虑最终转化事件（如注册）来计算每次客户获取成本，这使得实际CPA的描述比旧版自定义目标量度更准确，旧版自定义目标量度在计算时还包含漏斗上层事件（如页面访问次数和购物车加货）。 同样，新的ROAS量度仅考虑最终收入事件（例如购买和购买值），这比跟踪性能的旧版自定义目标量度更可靠。<br><br>现在，当您设置具有基于CPA或ROAS的优化目标的包时，必须指定最终转化或收入事件，以及包括转化或收入事件的自定义目标；自定义目标可以选择包括要用于CPA或ROAS量度以外的其他加权漏斗上层事件（如页面访问和购物车添加），以进行包优化。<br><br>此外，为简单起见，将侧重于性能的优化目标组合在一起：<ul><li>新&#39;&#39;[!UICONTROL Highest Return on Ad Spend (ROAS)]“目标取代了旧版”[!UICONTROL Highest ROAS - Custom Goal]”和 [!UICONTROL Highest ROAS (click focused) - Custom Goal]，”并提供用于实现任一旧版方案的选项。</li><li>新&#39;&#39;[!UICONTROL Lowest Cost per Acquisition (CPA)]“目标取代了旧版”[!UICONTROL Lowest CPA - Custom Goal]”和 [!UICONTROL Lowest CPA (click focused) - Custom Goal]，”并提供用于实现任一旧版方案的选项。</li></ul>使用旧目标的现有包已通过相关设置自动迁移到新目标，您无需手动更新任何内容。 | 请参阅&quot;[优化目标及其使用方式](/help/dsp/optimization/optimization-goals.md)，&quot; &quot;[包设置](/help/dsp/campaign-management/packages/package-settings.md)，”和“[设置效果活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)“ |
