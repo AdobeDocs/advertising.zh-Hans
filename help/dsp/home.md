@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 17635ae4b61913d631ccb2a875ee550602831178
+source-git-commit: 01cc40d455b0f1b95d3cfe4b93e862627e2025d3
 workflow-type: tm+mt
 source-wordcount: '2771'
 ht-degree: 0%
@@ -15,10 +15,7 @@ ht-degree: 0%
 # 新增功能
 
 以下功能是新增的或最近更改的。
-<!--
-|  | Ads, Pixels |  |  | 
--->
->>
+
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
 | 2024年5月2日 | 广告，像素 | 您可以下载XLSX（Excel电子表格）格式促销活动中所有广告的设置，以便从以下位置查看 [!UICONTROL Ad Tools] 视图。 | 请参阅&quot;[使用电子表格查看广告设置](/help/dsp/campaign-management/ads/ad-qa.md)“ |
