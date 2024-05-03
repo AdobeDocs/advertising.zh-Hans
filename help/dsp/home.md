@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 21ccaa24d65a6942507c4b5cf2eb7d0a1721fff7
+source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2746'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 |  | 优化 | 两个新的基于点击的优化目标可供所有用户使用： **[!UICONTROL Highest ROAS (click focused) - Custom Goal]** 和 **[!UICONTROL Lowest CPA (click focused) - Custom Goal]**. | 请参阅&quot;[优化目标及其使用方式](/help/dsp/optimization/optimization-goals.md)”和“[设置效果活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)“ |
 | 2023年9月27日 | 优化 | 两个新的基于触及的优化目标， **[!UICONTROL Always Max Bid and Maximize Reach]** 和 **[!UICONTROL Lowest Cost per Reach]**，帮助您分别使用相同的展示次数或支出水平接触到尽可能多的独特家庭。 这两个目标在包级别和投放位置级别均可用。 | 请参阅&quot;[优化目标及其使用方式](/help/dsp/optimization/optimization-goals.md)“ |
 | 2023年8月23日 | [!UICONTROL Placements] | 新的投放位置预测工具显示了特定定位策略的预测展示次数、花费和最佳最高竞价数。 预测是根据投放位置提供的总体库存和可用的独特用户数来计算的。 | 请参阅&quot;[查看职位安排预测报表](/help/dsp/campaign-management/reports/placement-forecast.md)“ |
-|  |  | 现在，您可以通过下载促销活动或一个或多个版面的电子表格文件，编辑文件以在新版面中包含值，来快速将多个广告与版面关联”[!UICONTROL Attached Ad ID]”列，然后上传编辑的文件。 使用列将广告添加到投放位置，但不会删除它们。<br><br>要下载广告名称和关联的列表，请执行以下操作 [!UICONTROL Ad ID]s，转到 [!UICONTROL Ads] 视图，创建一个自定义视图，该视图包括 [!UICONTROL ID] 量度，然后导出数据。 | 请参阅&quot;[下载电子表格中的版面设置](/help/dsp/campaign-management/qa/qa-sheet-download.md)，&quot; &quot;[放置设置已下载/已上传电子表格中的列](/help/dsp/campaign-management/qa/qa-sheet-columns.md)，”和“[在电子表格中上传版面设置](/help/dsp/campaign-management/qa/qa-sheet-upload.md)“<br><br>另请参阅&quot;[从Campaign Management视图中导出数据](/help/dsp/campaign-management/reports/campaign-export-data.md)“ |
+|  |  | 现在，您可以通过下载促销活动或一个或多个版面的电子表格文件，编辑文件以在新版面中包含值，来快速将多个广告与版面关联”[!UICONTROL Attached Ad ID]”列，然后上传编辑的文件。 使用列将广告添加到投放位置，但不会删除它们。<br><br>要下载广告名称和关联的列表，请执行以下操作 [!UICONTROL Ad ID]s，转到 [!UICONTROL Ads] 视图，创建一个自定义视图，该视图包括 [!UICONTROL ID] 量度，然后导出数据。 | 请参阅&quot;[查看并更正电子表格中的版面设置](/help/dsp/campaign-management/placements/placement-qa.md)“<br><br>另请参阅&quot;[从Campaign Management视图中导出数据](/help/dsp/campaign-management/reports/campaign-export-data.md)“ |
 |  | [!UICONTROL Custom Reports] | 自定义报表现在具有 [!UICONTROL End Date]，最长可达四个月后。 现有报告的到期日期为2023年9月24日。<br><br>在报告过期之前，所有指定的电子邮件收件人都会在过期日期的前七天零一天收到电子邮件警报。 要延长报表保留时间，请在报表设置中更改到期日期。 | 请参阅&quot;[编辑自定义报告](/help/dsp/reports/report-edit.md)”和“[自定义报表设置](/help/dsp/reports/report-settings.md)“ |
 | 2023年7月19日 | 库存 | 您现在可以与Google授权购买者SSP一起为计划性保证交易运行发布者管理的广告。 通过直接将您的广告托管给发布者(而不是在DSP中)，您可以利用自定义富媒体广告格式。 自定义广告格式通常通过直接预订运行，因此，通过在DSP中选择出版商管理的广告，您还可以将直接预订预算转移到程序化生态系统。 | 请参阅&quot;[关于程序化保证交易](/help/dsp/inventory/programmatic-guaranteed-about.md)”和“[设置计划性保证交易](/help/dsp/inventory/programmatic-guaranteed-set-up.md)“ |
 | 2023年7月19日 | 报表 | 新 [!UICONTROL Household Conversions Report] 显示基于IP地址的家庭级别而非设备/Cookie级别的显示到达转换。 | 请参阅&quot;[关于报表](/help/dsp/reports/report-about.md)”和“[有关家庭报表的常见问题解答](/help/dsp/reports/faq-household-report.md)“ |
@@ -54,7 +54,7 @@ ht-degree: 0%
 | 2022年11月23日 | 交易 | 此 [!UICONTROL Inventory] > [!UICONTROL Deals] 视图现在包含&quot;[!UICONTROL Deal Health]”列，指示每个私人交易的运行状况：“[!UICONTROL Success]，&quot; &quot;[!UICONTROL Warning]，&quot; &quot;[!UICONTROL Critical]，”或“[!UICONTROL Unavailable]“ 您可以单击状态来查看更多详细信息，包括交易未按预期执行或支出的原因以及解决潜在问题的步骤。 | — |
 | 2022年10月27日 | [!UICONTROL Campaigns] | 现在，每个包和投放位置都可使用更改日志，其中显示在选定日期范围内所做的更改。 | 请参阅&quot;[查看包的更改日志](/help/dsp/campaign-management/packages/package-change-log.md)”和“[查看投放位置的更改日志](/help/dsp/campaign-management/placements/placement-change-log.md)“ |
 |  |  | 您现在可以更改 [!UICONTROL Intraday Pacing] 同时设置多个投放位置。 | 请参阅&quot;[编辑投放位置](/help/dsp/campaign-management/placements/placement-edit.md#edit-multiple-placements)”和“[投放设置](/help/dsp/campaign-management/placements/placement-settings.md)“ |
-|  |  | 一个“[!UICONTROL Intraday Pacing]“”列在Excel QA电子表格中可用。 | 请参阅&quot;[已下载/已上传电子表格中的列](/help/dsp/campaign-management/qa/qa-sheet-columns.md)“ |
+|  |  | 一个“[!UICONTROL Intraday Pacing]“”列在Excel QA电子表格中可用。 | 请参阅&quot;[已下载/已上传电子表格中的列](/help/dsp/campaign-management/placements/placement-qa.md#qa-sheet-columns)“ |
 |  |  | 一个“[!UICONTROL Intraday Pacing]“营销活动”视图中提供了“营销活动”列。 | 请参阅&quot;[创建自定义列视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)”和“[编辑自定义列视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit)“ |
 |  |  | 您可以通过以下方式筛选“包”和“植入”视图 [!UICONTROL Intraday Pacing] 设置。 | 请参阅&quot;[过滤营销活动数据](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#filter-data-tables)“ |
 | 2022年10月6日 | 营销活动 | 新的与步调相关的量度列可用于营销活动视图：“昨天的OTS”（关于目标支出）、“昨天的投放”、“昨天的目标”、“今天的OTS”（关于目标支出）、“今天的投放”和“今天的目标”。 | 请参阅&quot;[创建自定义列视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)”和“[编辑自定义列视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit)“ |

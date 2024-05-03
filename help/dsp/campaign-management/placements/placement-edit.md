@@ -3,9 +3,9 @@ title: 编辑投放位置
 description: 了解如何编辑投放位置。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: 787bf675c24fe22a5ca3c9fd599135f81ddd5296
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,24 @@ ht-degree: 0%
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
+## 快速编辑键位置设置 {#placement-quick-edit}
+
+<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+
+您可以编辑版面名称、状态、最高出价和预算，而无需打开完整的版面设置。
+
+1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 单击营销活动的名称。
+1. 在子菜单中，单击 **[!UICONTROL Placements]**.
+1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
+1. 编辑任何可用的 [投放设置](placement-settings.md)：  **[!UICONTROL Placement Name]**， **[!UICONTROL Status]**， **[!UICONTROL Max Bid]**、和 **[!UICONTROL Budget]**.
+1. 单击 **[!UICONTROL Apply]**.
+
 ## 编辑单个投放位置
 
 >[!TIP]
 >
-> 要仅编辑版面名称、状态、最高竞价和预算，请参阅&quot;[快速编辑键位置设置](/help/dsp/campaign-management/placements/placement-quick-edit.md)“
+> 要仅编辑版面名称、状态、最高竞价和预算，请参阅&quot;[快速编辑键位置设置](#placement-quick-edit)“
 
 1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
 
@@ -77,7 +90,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于版面管理](placement-about.md)
->* [快速编辑键位置设置](placement-quick-edit.md)
+>* [使用电子表格查看并更正版面设置](placement-qa.md)
 >* [创建投放位置](placement-create.md)
 >* [复制投放位置](placement-duplicate.md)
 >* [管理投放位置的竞价乘数](placement-manage-bid-multipliers.md)
@@ -87,5 +100,4 @@ ht-degree: 0%
 >* [投放设置](placement-settings.md)
 >* [查看职位安排预测报表](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [键盘快捷键](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [关于使用电子表格更正放置设置](/help/dsp/campaign-management/qa/qa-about.md)
 >* [视频：如何使用批量编辑工具编辑版面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

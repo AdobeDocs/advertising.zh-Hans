@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: c5f26fba0dcf26e0017d881b5ccd9101f98ff43f
+source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '897'
 ht-degree: 3%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 3%
       + [关于版面管理](/help/dsp/campaign-management/placements/placement-about.md)
       + [创建投放位置](/help/dsp/campaign-management/placements/placement-create.md)
       + [编辑投放位置](/help/dsp/campaign-management/placements/placement-edit.md)
-      + [快速编辑键位置设置](/help/dsp/campaign-management/placements/placement-quick-edit.md)
+      + [使用电子表格查看并更正版面设置](/help/dsp/campaign-management/placements/placement-qa.md)
       + [复制投放位置](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [管理投放位置的竞价乘数](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
       + [将广告附加到投放位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
@@ -101,11 +101,6 @@ ht-degree: 3%
       + [查看放置诊断报告](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + [查看警报](/help/dsp/campaign-management/reports/campaign-alerts.md)
       + [管理Campaign数据视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
-   + 使用电子表格更正版面设置 {#qa-spreadsheet}
-      + [关于使用电子表格更正放置设置](/help/dsp/campaign-management/qa/qa-about.md)
-      + [下载电子表格中的版面设置](/help/dsp/campaign-management/qa/qa-sheet-download.md)
-      + [在电子表格中上传版面设置](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
-      + [已下载/已上传电子表格中的列](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [DSP宏](/help/dsp/campaign-management/macros.md)
    + [键盘快捷键](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
    + [关于Campaign Management的常见问题解答](/help/dsp/campaign-management/faq-campaign-management.md)
