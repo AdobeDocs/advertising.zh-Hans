@@ -3,9 +3,9 @@ title: 投放设置
 description: 请参阅可用版面设置的说明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: caab8c3163a7ffdbc0b5ef28176b2ee73f83b6e8
 workflow-type: tm+mt
-source-wordcount: '3516'
+source-wordcount: '3540'
 ht-degree: 0%
 
 ---
@@ -309,6 +309,7 @@ ht-degree: 0%
 
 * 要选择现有受众，请单击 ![选择](/help/dsp/assets/chevron-down.png) 旁边 [!UICONTROL Excluded Audiences]，然后选择受众。
 * 要创建受众，请单击 ![选择](/help/dsp/assets/chevron-down.png) 旁边 [!UICONTROL Excluded Audiences]，然后选择 **+创建受众**. 有关说明，请参阅 [创建可重复使用的受众](/help/dsp/audiences/reusable-audience-create.md)，从步骤3开始。
+* 要选择特定的受众区段，请单击 **[!UICONTROL Select segments for this placement only]**. 选择区段逻辑；有关说明，请参阅&quot;[创建可重复使用的受众](/help/dsp/audiences/reusable-audience-create.md)“ 完成后，单击 **保存**.
 
 **[!UICONTROL Cross Device Targeting]：** (当您至少选择一个区段或受众并且 [营销活动配置为基于人员的跨设备定位](/help/dsp/campaign-management/campaigns/campaign-settings.md). 允许您将定位扩展到用户的所有已知设备（根据促销活动设置中指定的设备图），甚至扩展到不在指定区段中的设备。 根据为营销活动指定的图表，可能会收取相关费用。 设备图数据仅在北美地区可用。
 
