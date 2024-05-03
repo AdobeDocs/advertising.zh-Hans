@@ -3,9 +3,9 @@ title: 编辑投放位置
 description: 了解如何编辑投放位置。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: df89207a61235ccf83d2c4b898ac60598f8e2877
+source-git-commit: e794f6ee4731479cd1961201ac479d66216a3200
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,13 @@ ht-degree: 0%
 
 您可以同时编辑单个投放位置或多个投放位置的设置。
 
+<!-- Some placements don't have these options. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+
 >[!NOTE]
 >
->您还可以以XLSX（Excel电子表格）格式下载一个或多个投放位置，或营销策划中所有投放位置的设置；对字段子集进行更改；一次将更改全部上传回DSP。 请参阅&quot;[使用电子表格查看并更正版面设置](placement-qa.md)“
-
-<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+>您还可以以XLSX（Excel电子表格）格式下载一个或多个投放位置，或营销策划中所有投放位置的设置；对键字段的有限子集进行更改；一次将更改全部上传回DSP。 请参阅&quot;[使用电子表格查看并更正版面设置](placement-qa.md)“
 
 ## 快速编辑键位置设置 {#placement-quick-edit}
-
-<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
 您可以编辑版面名称、状态、最高出价和预算，而无需打开完整的版面设置。
 
