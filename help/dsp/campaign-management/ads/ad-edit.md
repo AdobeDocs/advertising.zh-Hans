@@ -1,45 +1,48 @@
 ---
-title: 編輯廣告
-description: 瞭解如何編輯廣告。
+title: 编辑广告
+description: 了解如何编辑广告。
 feature: DSP Ads
 exl-id: 149eeb61-b4d1-4c88-8dcd-ad11e135a486
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: c97fcf61f444ab3363d9d55398402ec9f162be99
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
 
-# 編輯廣告
+# 编辑广告
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+>[!TIP]
+>
+>要同时更改多个广告的第三方跟踪像素，请参阅&quot;[将广告附加到投放位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)“
 
-1. 按一下行銷活動的名稱。
+1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
 
-1. 在子功能表中，按一下 **[!UICONTROL Ads]**.
+1. 单击营销活动的名称。
 
-1. 在廣告名稱旁邊，按一下  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. 在子菜单中，单击 **[!UICONTROL Ads]**.
 
-1. 編輯的廣告設定 [音訊廣告](ad-settings-audio.md)， [連線電視](ad-settings-connected-tv.md)， [顯示廣告](ad-settings-display.md)， [行動裝置廣告](ad-settings-mobile.md)， [原生廣告](ad-settings-native.md)， [前段廣告](ad-settings-pre-roll.md)，或 [通用視訊廣告](ad-settings-universal-video.md).
+1. 在广告名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+
+1. 编辑的广告设置 [音频广告](ad-settings-audio.md)， [已连接电视](ad-settings-connected-tv.md)， [展示广告](ad-settings-display.md)， [移动广告](ad-settings-mobile.md)， [原生广告](ad-settings-native.md)， [前置广告](ad-settings-pre-roll.md)，或 [通用视频广告](ad-settings-universal-video.md).
 
    >[!NOTE]
    >
-   >若要變更廣告URL，請先在廣告伺服器上重新傳送廣告。
+   >要更改广告URL，请首先在广告服务器上重新传送广告。
 
 1. 单击 **[!UICONTROL Save and Close]**.
 
-   已編輯的廣告會經歷一個新的 [廣告評論](ad-about.md)，需要24到48小時，並包括敏感類別的檢查、按一下URL功能和預覽呈現。 此 [!UICONTROL Status] 欄會指出DSP是否已核准廣告。 損壞的廣告可能會有超過24到48小時的擱置狀態，因此您可以在錯誤被拒絕之前有時間修正錯誤。
+   编辑后的广告将经历一个新的 [广告评论](ad-about.md)，需要24 - 48小时，其中包括敏感类别检查、单击URL功能和预览渲染。 此 [!UICONTROL Status] 列指示DSP是否已批准广告。 损坏的广告可能会有超过24-48小时的待处理状态，因此您有时间在错误被拒绝之前对其进行修复。
 
    >[!NOTE]
    >
-   >只有在DSP和SSP都核准創意內容後，才會提供您的廣告。 每個SSP都有自己的核准需求和流程。
+   >只有DSP和SSP都批准创意内容后，才能提供您的广告。 每个SSP都有自己的批准要求和流程。
 
 >[!MORELIKETHIS]
 >
->* [關於廣告管理](ad-about.md)
->* [建立單一廣告](ad-create.md)
->* [建立多個協力廠商廣告](ad-create-multiple.md)
->* [複製廣告](ad-duplicate.md)
->* [列出與廣告相關的版位](ad-list-placements.md)
->* [廣告規格](ad-specs.md)
-
+>* [关于广告管理](ad-about.md)
+>* [创建单个广告](ad-create.md)
+>* [创建多个第三方广告](ad-create-multiple.md)
+>* [复制广告](ad-duplicate.md)
+>* [列出与广告关联的版面](ad-list-placements.md)
+>* [广告规范](ad-specs.md)
