@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 17635ae4b61913d631ccb2a875ee550602831178
 workflow-type: tm+mt
-source-wordcount: '2744'
+source-wordcount: '2771'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,8 @@ ht-degree: 0%
 >>
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024年5月2日 | 广告，像素 | 此 [!UICONTROL Ad Tools] 视图> [!UICONTROL Attach Pixels] 选项卡显示附加到广告的第三方跟踪像素，并提供新的工作流程以将像素附加到一个或多个广告并分离现有像素。 | 请参阅&quot;[将广告附加到投放位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)“ |
+| 2024年5月2日 | 广告，像素 | 您可以下载XLSX（Excel电子表格）格式促销活动中所有广告的设置，以便从以下位置查看 [!UICONTROL Ad Tools] 视图。 | 请参阅&quot;[使用电子表格查看广告设置](/help/dsp/campaign-management/ads/ad-qa.md)“ |
+| |  | 此 [!UICONTROL Ad Tools] 视图> [!UICONTROL Attach Pixels] 选项卡显示附加到广告的第三方跟踪像素，并提供新的工作流程以将像素附加到一个或多个广告并分离现有像素。 | 请参阅&quot;[将广告附加到投放位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)“ |
 |  | 版面、受众 | 您现在可以通过批量编辑工具或版面编辑器从版面中排除个别受众区段或不可重用受众。 | 请参阅&quot;[编辑版面](/help/dsp/campaign-management/placements/placement-edit.md)”和“[投放设置](/help/dsp/campaign-management/placements/placement-settings.md)“ |
 | 2024年4月18日 | 版面 | 您现在可以创建和管理投放的指定目标类型的竞价修饰符，竞价修饰符将乘以竞价以增加或减少竞价。 默认的bid修饰符为1.00，这意味着不增加或减少；值的范围可以是0.10到10.00。例如，竞价修饰符0.50将竞价从6美元降至3美元(0.50 x 6)。 当拍卖符合多个竞价修饰符条件时，所有适用的竞价修饰符都将被相乘。 竞价修饰符绝不会将竞价提高到超过最大竞价。 | 请参阅&quot;[管理投放位置的竞价乘数](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)“ |
 | 2024年4月3日 | 清点合作伙伴 | Adobe Advertising的欧盟席位 [!DNL Google Authorized Buyers] 已与现有亚太区座位合并。 | 请参阅&quot;[SSP合作伙伴](/help/dsp/inventory/ssp-partners.md)“ |
