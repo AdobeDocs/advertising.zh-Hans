@@ -3,7 +3,7 @@ title: 查看职位安排预测报表
 description: 查看投放位置的特定定位策略的展示次数、花费和最佳最高出价预测值。
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: e901087b9128779bb4d55194cebfdc84c7c2ba2a
+source-git-commit: 2ecf1eacb2a47c20e0c05f9ff62386869b644ba6
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 0%

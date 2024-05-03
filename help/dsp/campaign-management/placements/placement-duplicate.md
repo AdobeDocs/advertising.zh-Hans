@@ -1,79 +1,78 @@
 ---
-title: 復製版位
-description: 瞭解如何複製一或多個版位。
+title: 复制投放位置
+description: 了解如何复制一个或多个投放位置。
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
 
-# 復製版位
+# 复制投放位置
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
-複製一或多個版位，以使用類似設定建立版位。 您可以：
+复制一个或多个投放位置以创建具有相似设置的投放位置。 您可以：
 
-* 建立多個版位重複專案
-* 在原始廣告商和行銷活動內或不同廣告商和行銷活動內復製版位
-* （適用於原始行銷活動內的重複版位）可選擇複製原始廣告
-* 修改新刊登版位的狀態和投放日期
+* 生成多个投放位置重复项
+* 在原始广告商和营销策划中或不同广告商和营销策划中重复投放位置
+* （对于原始营销活动中的重复投放位置）（可选）复制原始广告
+* 修改新投放位置的状态和投放日期
 
-請參閱「[未複製的內容](#placement-not-duplicated)」以取得未複製的位置設定清單。
+请参阅&quot;[未复制的内容](#placement-not-duplicated)”以获取不重复的版面设置列表。
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
 
-1. 按一下行銷活動的名稱。
+1. 单击营销活动的名称。
 
-1. 在子功能表中，按一下 **[!UICONTROL Placements]**.
+1. 在子菜单中，单击 **[!UICONTROL Placements]**.
 
-1. 執行下列任一項作業：
+1. 执行以下任一操作：
 
-   * 若要複製一個版位，請按一下  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** 位於封裝名稱旁。
+   * 要复制一个版面，请单击  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** 在包名称旁边。
 
-   * 若要複製多個版位：
+   * 要复制多个投放位置，请执行以下操作：
 
-      1. 選取要複製的每個位置旁的核取方塊。
+      1. 选中每个要复制的放置旁边的复选框。
 
-      1. 在大量動作工具列中，按一下 **[!UICONTROL Duplicate]**.
+      1. 在批量操作工具栏中，单击 **[!UICONTROL Duplicate]**.
 
-1. 指定新的位置設定：
+1. 指定新的版面设置：
 
-   1. （單一版位）輸入新版位名稱。
+   1. （单个版面）输入新版面名称。
 
-   1. 在 **[!UICONTROL Choose Package (Required)]** 功能表，選取父套件或**[!UICONTROL No package]*.
+   1. 在 **[!UICONTROL Choose Package (Required)]** 菜单，选择父包或**[!UICONTROL No package]*.
 
-   1. （選用）變更預設設定。
+   1. （可选）更改默认设置。
 
-   這些設定會套用至所有選取的版位。
+   这些设置适用于所有选定的投放位置。
 
-   依預設，新版位會針對原始廣告型別、指派給原始廣告商和促銷活動、具有從當天開始的航班時刻表、會暫停且不包含原始廣告。
+   默认情况下，新投放位置适用于原始广告类型、分配给原始广告商和促销活动、具有从当天开始的航班时刻表、已暂停并且不包含原始广告。
 
-   當您建立多個版位時，新版位名稱會依序附加一個數字，使用的慣例為&lt;*original_placement_name #N*>，例如「我的版位#2」。
+   在创建多个版面时，新版面名称将依次使用约定&lt;附加一个数字&#x200B;*original_placement_name#N*>，如“My Placement #2”。
 
 1. 单击 **[!UICONTROL Submit]**.
 
-## 未複製的內容 {#placement-not-duplicated}
+## 未复制的内容 {#placement-not-duplicated}
 
-來自原始版位的所有設定都會重複，除了：
+原始投放位置中的所有设置都将重复，但以下情况除外：
 
-* 實驗設定
-* （如果您變更投放日期）自訂廣告排程
-* （如果您未附加廣告）自訂廣告權重和排程
-* 程式保證(PG)交易的預設刊登版位和刊登版位 [!UICONTROL Simple Ad Serving] 交易
-* （如果您將版位複製到其他行銷活動）：
-   * 地理目標
-   * 事件畫素
-   * 廣告
-   * 位置層級 [!DNL DoubleVerify Authentic Brand Safety] 區段（覆寫廣告商層級區段）
+* 试验设置
+* （如果更改投放日期）自定义广告计划
+* （如果不附加广告）自定义广告权重和计划
+* 计划性保证(PG)交易的默认投放位置和以下项目的投放位置 [!UICONTROL Simple Ad Serving] 交易
+* （如果将投放位置复制到其他营销活动）：
+   * 地理目标
+   * 事件像素
+   * 广告
+   * 投放级别 [!DNL DoubleVerify Authentic Brand Safety] 区段（覆盖广告商级别的区段）
 
 >[!MORELIKETHIS]
 >
->* [關於版位管理](placement-about.md)
->* [建立位置](placement-create.md)
->* [編輯位置](placement-edit.md)
->* [檢視位置的變更記錄](placement-change-log.md)
->* [位置設定](placement-settings.md)
-
+>* [关于版面管理](placement-about.md)
+>* [创建投放位置](placement-create.md)
+>* [编辑版面](placement-edit.md)
+>* [查看投放位置的更改日志](placement-change-log.md)
+>* [投放设置](placement-settings.md)

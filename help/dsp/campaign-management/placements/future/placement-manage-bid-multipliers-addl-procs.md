@@ -2,9 +2,9 @@
 title: 管理投放位置的竞价乘数
 description: 了解如何创建和编辑指定投放目标的竞价乘数。
 feature: DSP Placements
-source-git-commit: 8d1cb46c8756c7312c6bd23e7a30118a8835ffd6
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ See if any of these procedures are implemented; may need to be edited and/or re-
 
 您可以使用此功能更改现有投放目标的竞价乘数。
 
-要更改投放位置的选定目标，请参阅&quot;[编辑投放位置](/help/dsp/campaign-management/placements/placement-edit.md)“
+要更改投放位置的选定目标，请参阅&quot;[编辑版面](/help/dsp/campaign-management/placements/placement-edit.md)“
 
 ## 管理一个或多个投放位置的竞价乘数
 
@@ -108,7 +108,7 @@ See if any of these procedures are implemented; may need to be edited and/or re-
 >[!MORELIKETHIS]
 >
 >* [About Placement Management](placement-about.md)
->* [Edit a Placement](placement-edit.md)
+>* [Edit Placements](placement-edit.md)
 >* [View the Change Log for a Placement](placement-change-log.md)
 >* [Placement Settings](placement-settings.md)
  -->

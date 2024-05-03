@@ -1,46 +1,45 @@
 ---
-title: 封存或取消封存位置
-description: 瞭解如何封存或取消封存位置。
+title: 存档或取消存档投放位置
+description: 了解如何存档或取消存档投放位置。
 feature: DSP Placements
 exl-id: 4304452d-4573-46b3-892e-299950a75d4f
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
 
-# 封存或取消封存位置
+# 存档或取消存档投放位置
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else?  -->
 
-隱藏封存位置時未使用的位置。 您可以對已封存位置採取的唯一動作是取消封存。 預設不會顯示已封存的版位，但仍可用於報告。
+隐藏未在使用的版面，将其存档。 您可以对已存档的投放位置执行的唯一操作是取消存档。 默认情况下，不显示存档的版面，这些版面仍可用于报表。
 
-您可以隨時取消封存位置以恢復其先前狀態。
+您可以随时取消存档投放位置以恢复其以前的状态。
 
-## 封存位置
+## 存档投放位置
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
-1. 按一下行銷活動的名稱。
-1. 在子功能表中，按一下 **[!UICONTROL Placements]**.
-1. 在位置名稱旁邊，按一下  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
-1. 在確認訊息中，按一下 **[!UICONTROL Archive]**.
+1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 单击营销活动的名称。
+1. 在子菜单中，单击 **[!UICONTROL Placements]**.
+1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
+1. 在确认消息中，单击 **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->若要檢視已封存位置，請篩選 [!UICONTROL Placements] 檢視：按一下 ![篩選按鈕](/help/dsp/assets/filter.png)，按一下 **[!UICONTROL Placement status]** 並選取 **[!UICONTROL Archived]**，然後按一下 **[!UICONTROL Apply].**
+>要查看存档的投放位置，请筛选 [!UICONTROL Placements] 视图：单击 ![“筛选器”按钮](/help/dsp/assets/filter.png)，单击 **[!UICONTROL Placement status]** 并选择 **[!UICONTROL Archived]**，然后单击 **[!UICONTROL Apply].**
 
-## 取消封存位置
+## 将投放位置取消存档
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
-1. 按一下行銷活動的名稱。
-1. 在子功能表中，按一下 **[!UICONTROL Placements]**.
-1. 在位置名稱旁邊，按一下  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
-1. 在確認訊息中，按一下 **[!UICONTROL Unarchive]**.
+1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 单击营销活动的名称。
+1. 在子菜单中，单击 **[!UICONTROL Placements]**.
+1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
+1. 在确认消息中，单击 **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]
 >
->* [暫停或啟用位置](placement-pause-activate.md)
->* [編輯位置](placement-edit.md)
->* [檢視位置的變更記錄](placement-change-log.md)
-
+>* [暂停或激活投放位置](placement-pause-activate.md)
+>* [编辑版面](placement-edit.md)
+>* [查看投放位置的更改日志](placement-change-log.md)

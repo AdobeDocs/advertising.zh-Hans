@@ -1,16 +1,16 @@
 ---
-title: 使用电子表格查看并更正版面设置
+title: 使用电子表格查看和编辑版面设置
 description: 了解如何使用电子表格查看和编辑关键位置设置。
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
-# 使用电子表格查看并更正版面设置
+# 使用电子表格查看和编辑版面设置
 
 您可以以XLSX（Excel电子表格）格式下载一个或多个投放位置或营销活动中所有投放位置的设置，以供审阅。 使用此功能可快速查看以下详细信息：
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->要对版面设置进行更广泛的更改，请使用 [批量编辑功能](/help/dsp/campaign-management/placements/placement-edit.md).
+>要编辑一个或多个投放位置的多个字段，请参阅&quot;[编辑版面](/help/dsp/campaign-management/placements/placement-edit.md)“
 
 ## 营销活动中所有版面的下载设置
 
@@ -193,5 +193,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [编辑投放位置](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [编辑版面](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [投放设置](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -1,29 +1,29 @@
 ---
-title: 鍵盤快速鍵
-description: 參照位置設定中可用的鍵盤快速鍵。
+title: 键盘快捷键
+description: 引用位置设置中可用的键盘快捷键。
 feature: DSP Placements
 exl-id: d1711166-8f20-4641-a1f5-c865a40ad387
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '97'
 ht-degree: 1%
 
 ---
 
-# 鍵盤快速鍵
+# 键盘快捷键
 
-在位置設定中，使用鍵盤快速鍵來快速導覽<!-- and to create ads and placements -->.
+在放置设置中，使用键盘快捷键快速导航<!-- and to create ads and placements -->.
 
-| 適用頁面 | 捷徑 | 描述 |
+| 适用的页面 | 快捷键 | 描述 |
 | ---------------| ----------- | ---------------------- |
-| 位置設定 | o | 將您移至 [!UICONTROL Goals] 設定 |
-| 位置設定 | g | 將您移至 [!UICONTROL Geos] 設定 |
-| 位置設定 | i | 將您移至 [!UICONTROL Inventory] 設定 |
-| 位置設定 | s | 將您移至 [!UICONTROL Sites] 設定 |
-| 位置設定 | a | 將您移至 [!UICONTROL Audience] 設定 |
-| 位置設定 | b | 將您移至 [!UICONTROL Brand Safety] 設定 |
-| 位置設定 | t | 將您移至 [!UICONTROL Tracking] 設定 |
-| 位置設定 | l | 將您移至 [!UICONTROL Adobe Labs] 設定 |
+| 投放设置 | ö | 将您移至 [!UICONTROL Goals] 设置 |
+| 投放设置 | g | 将您移至 [!UICONTROL Geos] 设置 |
+| 投放设置 | i | 将您移至 [!UICONTROL Inventory] 设置 |
+| 投放设置 | s | 将您移至 [!UICONTROL Sites] 设置 |
+| 投放设置 | a | 将您移至 [!UICONTROL Audience] 设置 |
+| 投放设置 | b | 将您移至 [!UICONTROL Brand Safety] 设置 |
+| 投放设置 | t | 将您移至 [!UICONTROL Tracking] 设置 |
+| 投放设置 | l | 将您移至 [!UICONTROL Adobe Labs] 设置 |
 
 {style="table-layout:auto"}
 
@@ -34,7 +34,6 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->* [建立位置](/help/dsp/campaign-management/placements/placement-create.md)
->* [編輯位置](/help/dsp/campaign-management/placements/placement-edit.md)
->* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)
-
+>* [创建投放位置](/help/dsp/campaign-management/placements/placement-create.md)
+>* [编辑版面](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [投放设置](/help/dsp/campaign-management/placements/placement-settings.md)

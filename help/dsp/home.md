@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '2746'
+source-wordcount: '2744'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
 | 2024年5月2日 | 广告，像素 | 此 [!UICONTROL Ad Tools] 视图> [!UICONTROL Attach Pixels] 选项卡显示附加到广告的第三方跟踪像素，并提供新的工作流程以将像素附加到一个或多个广告并分离现有像素。 | 请参阅&quot;[将广告附加到投放位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)“ |
-|  | 版面、受众 | 您现在可以通过批量编辑工具或版面编辑器从版面中排除个别受众区段或不可重用受众。 | 请参阅&quot;[编辑投放位置](/help/dsp/campaign-management/placements/placement-edit.md)”和“[投放设置](/help/dsp/campaign-management/placements/placement-settings.md)“ |
+|  | 版面、受众 | 您现在可以通过批量编辑工具或版面编辑器从版面中排除个别受众区段或不可重用受众。 | 请参阅&quot;[编辑版面](/help/dsp/campaign-management/placements/placement-edit.md)”和“[投放设置](/help/dsp/campaign-management/placements/placement-settings.md)“ |
 | 2024年4月18日 | 版面 | 您现在可以创建和管理投放的指定目标类型的竞价修饰符，竞价修饰符将乘以竞价以增加或减少竞价。 默认的bid修饰符为1.00，这意味着不增加或减少；值的范围可以是0.10到10.00。例如，竞价修饰符0.50将竞价从6美元降至3美元(0.50 x 6)。 当拍卖符合多个竞价修饰符条件时，所有适用的竞价修饰符都将被相乘。 竞价修饰符绝不会将竞价提高到超过最大竞价。 | 请参阅&quot;[管理投放位置的竞价乘数](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)“ |
 | 2024年4月3日 | 清点合作伙伴 | Adobe Advertising的欧盟席位 [!DNL Google Authorized Buyers] 已与现有亚太区座位合并。 | 请参阅&quot;[SSP合作伙伴](/help/dsp/inventory/ssp-partners.md)“ |
 |   | 优化 | 新建 `CPA` （每次收购成本）及 `ROAS` 资源包、投放和相关表中的资产（广告支出回报率）量度可以更准确地跟踪具有相关目标的资源包和投放的性能。 新的CPA量度仅考虑最终转化事件（如注册）来计算每次客户获取成本，这使得实际CPA的描述比旧版自定义目标量度更准确，旧版自定义目标量度在计算时还包含漏斗上层事件（如页面访问次数和购物车加货）。 同样，新的ROAS量度仅考虑最终收入事件（例如购买和购买值），这比跟踪性能的旧版自定义目标量度更可靠。<br><br>现在，当您设置具有基于CPA或ROAS的优化目标的包时，必须指定最终转化或收入事件，以及包括转化或收入事件的自定义目标；自定义目标可以选择包括要用于CPA或ROAS量度以外的其他加权漏斗上层事件（如页面访问和购物车添加），以进行包优化。<br><br>此外，为简单起见，将侧重于性能的优化目标组合在一起：<ul><li>新&#39;&#39;[!UICONTROL Highest Return on Ad Spend (ROAS)]“目标取代了旧版”[!UICONTROL Highest ROAS - Custom Goal]”和 [!UICONTROL Highest ROAS (click focused) - Custom Goal]，”并提供用于实现任一旧版方案的选项。</li><li>新&#39;&#39;[!UICONTROL Lowest Cost per Acquisition (CPA)]“目标取代了旧版”[!UICONTROL Lowest CPA - Custom Goal]”和 [!UICONTROL Lowest CPA (click focused) - Custom Goal]，”并提供用于实现任一旧版方案的选项。</li></ul>使用旧目标的现有包已通过相关设置自动迁移到新目标，您无需手动更新任何内容。 | 请参阅&quot;[优化目标及其使用方式](/help/dsp/optimization/optimization-goals.md)，&quot; &quot;[包设置](/help/dsp/campaign-management/packages/package-settings.md)，”和“[设置效果活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)“ |
@@ -38,7 +38,7 @@ ht-degree: 0%
 |  | 优化 | 两个新的基于点击的优化目标可供所有用户使用： **[!UICONTROL Highest ROAS (click focused) - Custom Goal]** 和 **[!UICONTROL Lowest CPA (click focused) - Custom Goal]**. | 请参阅&quot;[优化目标及其使用方式](/help/dsp/optimization/optimization-goals.md)”和“[设置效果活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)“ |
 | 2023年9月27日 | 优化 | 两个新的基于触及的优化目标， **[!UICONTROL Always Max Bid and Maximize Reach]** 和 **[!UICONTROL Lowest Cost per Reach]**，帮助您分别使用相同的展示次数或支出水平接触到尽可能多的独特家庭。 这两个目标在包级别和投放位置级别均可用。 | 请参阅&quot;[优化目标及其使用方式](/help/dsp/optimization/optimization-goals.md)“ |
 | 2023年8月23日 | [!UICONTROL Placements] | 新的投放位置预测工具显示了特定定位策略的预测展示次数、花费和最佳最高竞价数。 预测是根据投放位置提供的总体库存和可用的独特用户数来计算的。 | 请参阅&quot;[查看职位安排预测报表](/help/dsp/campaign-management/reports/placement-forecast.md)“ |
-|  |  | 现在，您可以通过下载促销活动或一个或多个版面的电子表格文件，编辑文件以在新版面中包含值，来快速将多个广告与版面关联”[!UICONTROL Attached Ad ID]”列，然后上传编辑的文件。 使用列将广告添加到投放位置，但不会删除它们。<br><br>要下载广告名称和关联的列表，请执行以下操作 [!UICONTROL Ad ID]s，转到 [!UICONTROL Ads] 视图，创建一个自定义视图，该视图包括 [!UICONTROL ID] 量度，然后导出数据。 | 请参阅&quot;[查看并更正电子表格中的版面设置](/help/dsp/campaign-management/placements/placement-qa.md)“<br><br>另请参阅&quot;[从Campaign Management视图中导出数据](/help/dsp/campaign-management/reports/campaign-export-data.md)“ |
+|  |  | 现在，您可以通过下载促销活动或一个或多个版面的电子表格文件，编辑文件以在新版面中包含值，来快速将多个广告与版面关联”[!UICONTROL Attached Ad ID]”列，然后上传编辑的文件。 使用列将广告添加到投放位置，但不会删除它们。<br><br>要下载广告名称和关联的列表，请执行以下操作 [!UICONTROL Ad ID]s，转到 [!UICONTROL Ads] 视图，创建一个自定义视图，该视图包括 [!UICONTROL ID] 量度，然后导出数据。 | 请参阅&quot;[在电子表格中查看和编辑版面设置](/help/dsp/campaign-management/placements/placement-qa.md)“<br><br>另请参阅&quot;[从Campaign Management视图中导出数据](/help/dsp/campaign-management/reports/campaign-export-data.md)“ |
 |  | [!UICONTROL Custom Reports] | 自定义报表现在具有 [!UICONTROL End Date]，最长可达四个月后。 现有报告的到期日期为2023年9月24日。<br><br>在报告过期之前，所有指定的电子邮件收件人都会在过期日期的前七天零一天收到电子邮件警报。 要延长报表保留时间，请在报表设置中更改到期日期。 | 请参阅&quot;[编辑自定义报告](/help/dsp/reports/report-edit.md)”和“[自定义报表设置](/help/dsp/reports/report-settings.md)“ |
 | 2023年7月19日 | 库存 | 您现在可以与Google授权购买者SSP一起为计划性保证交易运行发布者管理的广告。 通过直接将您的广告托管给发布者(而不是在DSP中)，您可以利用自定义富媒体广告格式。 自定义广告格式通常通过直接预订运行，因此，通过在DSP中选择出版商管理的广告，您还可以将直接预订预算转移到程序化生态系统。 | 请参阅&quot;[关于程序化保证交易](/help/dsp/inventory/programmatic-guaranteed-about.md)”和“[设置计划性保证交易](/help/dsp/inventory/programmatic-guaranteed-set-up.md)“ |
 | 2023年7月19日 | 报表 | 新 [!UICONTROL Household Conversions Report] 显示基于IP地址的家庭级别而非设备/Cookie级别的显示到达转换。 | 请参阅&quot;[关于报表](/help/dsp/reports/report-about.md)”和“[有关家庭报表的常见问题解答](/help/dsp/reports/faq-household-report.md)“ |
@@ -53,7 +53,7 @@ ht-degree: 0%
 | 2022年12月14日 | 版面、广告 | （开放Beta版功能）新增»[!UICONTROL Universal Video]”投放和广告允许您使用单个视频投放来针对VPAID和VAST库存定位多个设备环境。<br><br>通用视频位置包括一个“设备环境”设置，用于指定设备类型目标([!UICONTROL Desktop]， [!UICONTROL Mobile]、和 [!UICONTROL Connected TV])。 通用视频广告只能链接到通用视频投放。<br><br>自定义报表包括新的放置级别维度“设备环境”。 | 请参阅&quot;[投放设置](/help/dsp/campaign-management/placements/placement-settings.md)”和“[可用报表列](/help/dsp/reports/report-columns.md)“<br><br>另请参阅&quot;[通用视频广告设置](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)”和“[创建广告](/help/dsp/campaign-management/ads/ad-create.md)“ |
 | 2022年11月23日 | 交易 | 此 [!UICONTROL Inventory] > [!UICONTROL Deals] 视图现在包含&quot;[!UICONTROL Deal Health]”列，指示每个私人交易的运行状况：“[!UICONTROL Success]，&quot; &quot;[!UICONTROL Warning]，&quot; &quot;[!UICONTROL Critical]，”或“[!UICONTROL Unavailable]“ 您可以单击状态来查看更多详细信息，包括交易未按预期执行或支出的原因以及解决潜在问题的步骤。 | — |
 | 2022年10月27日 | [!UICONTROL Campaigns] | 现在，每个包和投放位置都可使用更改日志，其中显示在选定日期范围内所做的更改。 | 请参阅&quot;[查看包的更改日志](/help/dsp/campaign-management/packages/package-change-log.md)”和“[查看投放位置的更改日志](/help/dsp/campaign-management/placements/placement-change-log.md)“ |
-|  |  | 您现在可以更改 [!UICONTROL Intraday Pacing] 同时设置多个投放位置。 | 请参阅&quot;[编辑投放位置](/help/dsp/campaign-management/placements/placement-edit.md#edit-multiple-placements)”和“[投放设置](/help/dsp/campaign-management/placements/placement-settings.md)“ |
+|  |  | 您现在可以更改 [!UICONTROL Intraday Pacing] 同时设置多个投放位置。 | 请参阅&quot;[编辑版面](/help/dsp/campaign-management/placements/placement-edit.md#edit-multiple-placements)”和“[投放设置](/help/dsp/campaign-management/placements/placement-settings.md)“ |
 |  |  | 一个“[!UICONTROL Intraday Pacing]“”列在Excel QA电子表格中可用。 | 请参阅&quot;[已下载/已上传电子表格中的列](/help/dsp/campaign-management/placements/placement-qa.md#qa-sheet-columns)“ |
 |  |  | 一个“[!UICONTROL Intraday Pacing]“营销活动”视图中提供了“营销活动”列。 | 请参阅&quot;[创建自定义列视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)”和“[编辑自定义列视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit)“ |
 |  |  | 您可以通过以下方式筛选“包”和“植入”视图 [!UICONTROL Intraday Pacing] 设置。 | 请参阅&quot;[过滤营销活动数据](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#filter-data-tables)“ |

@@ -1,36 +1,35 @@
 ---
-title: 暫停或啟用位置
-description: 瞭解如何暫停或啟用位置。
+title: 暂停或激活投放位置
+description: 了解如何暂停或激活投放位置。
 feature: DSP Placements
 exl-id: cd58d8f7-8dd0-433b-9272-a4fc1e3e98d9
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
 
-# 暫停或啟用位置
+# 暂停或激活投放位置
 
-暫停即時版位，或是在設定的航班排程內啟動暫停的版位。
+暂停实时投放位置，或激活暂停的投放位置（当它处于配置的投放计划内时）。
 
-## 暫停即時位置
+## 暂停实时投放
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
-1. 按一下行銷活動的名稱。
-1. 在子功能表中，按一下 **[!UICONTROL Placements]**.
-1. 在位置名稱旁邊，按一下  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 单击营销活动的名称。
+1. 在子菜单中，单击 **[!UICONTROL Placements]**.
+1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
 
-## 啟用暫停的版位
+## 激活暂停的投放位置
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
-1. 按一下行銷活動的名稱。
-1. 在子功能表中，按一下 **[!UICONTROL Placements]**.
-1. 在位置名稱旁邊，按一下  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 单击营销活动的名称。
+1. 在子菜单中，单击 **[!UICONTROL Placements]**.
+1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
 
 >[!MORELIKETHIS]
 >
->* [封存或取消封存位置](placement-archive-unarchive.md)
->* [編輯位置](placement-edit.md)
->* [檢視位置的變更記錄](placement-change-log.md)
-
+>* [存档或取消存档投放位置](placement-archive-unarchive.md)
+>* [编辑版面](placement-edit.md)
+>* [查看投放位置的更改日志](placement-change-log.md)

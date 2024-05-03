@@ -3,9 +3,9 @@ title: 创建投放位置
 description: 了解如何创建投放位置。
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于版面管理](placement-about.md)
->* [编辑投放位置](placement-edit.md)
+>* [编辑版面](placement-edit.md)
 >* [管理投放位置的竞价乘数](placement-manage-bid-multipliers.md)
 >* [编辑投放的广告计划](placement-edit-ad-schedule.md)
 >* [暂停或激活投放位置](placement-pause-activate.md)

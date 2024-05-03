@@ -3,9 +3,9 @@ title: 快速编辑键位置设置
 description: 了解如何快速更改关键位置设置。
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 要编辑任何版面设置，请参阅&quot;[编辑投放位置](/help/dsp/campaign-management/placements/placement-edit.md)“
+> 要编辑任何版面设置，请参阅&quot;[编辑版面](/help/dsp/campaign-management/placements/placement-edit.md)“
 
 1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
 1. 单击营销活动的名称。
@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >* [关于版面管理](placement-about.md)
 >* [创建投放位置](placement-create.md)
->* [编辑投放位置](placement-edit.md)
+>* [编辑版面](placement-edit.md)
 >* [复制投放位置](placement-duplicate.md)
 >* [管理投放位置的竞价乘数](placement-manage-bid-multipliers.md)
 >* [编辑投放的广告计划](placement-edit-ad-schedule.md)
