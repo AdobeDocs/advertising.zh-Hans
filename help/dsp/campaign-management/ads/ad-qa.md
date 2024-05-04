@@ -2,9 +2,9 @@
 title: 使用电子表格查看广告设置
 description: 了解如何使用电子表格查看广告设置。
 feature: DSP Ads
-source-git-commit: ba940f8476463a6804f024b1597be74ffc5a6c0c
+source-git-commit: 24e6339d7217c02c993702e203acda362c25fd0e
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 您可以以XLSX（Excel电子表格）格式下载营销活动中的所有广告设置以供审阅。<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? And does it include all possible settings, or just a subset?  -->
 
->[!TIP]
+>[!NOTE]
 >
->*要编辑广告设置，请使用 [批量编辑功能](/help/dsp/campaign-management/ads/ad-edit.md).
+>*要编辑您的广告设置，请参阅 [编辑广告](/help/dsp/campaign-management/ads/ad-edit.md).
 >*要同时更改多个广告的第三方跟踪像素或将广告附加到投放位置，请参阅&quot;[将广告附加到投放位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)“
 
 1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
