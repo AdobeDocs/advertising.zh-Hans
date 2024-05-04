@@ -4,7 +4,7 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 3%
@@ -77,7 +77,7 @@ ht-degree: 3%
       + [创建单个广告](/help/dsp/campaign-management/ads/ad-create.md)
       + [创建多个第三方广告](/help/dsp/campaign-management/ads/ad-create-multiple.md)
       + [使用创建广告 [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
-      + [使用电子表格查看广告设置](/help/dsp/campaign-management/ads/ad-qa.md)
+      + [使用电子表格查看广告详细信息](/help/dsp/campaign-management/ads/ad-qa.md)
       + [编辑广告](/help/dsp/campaign-management/ads/ad-edit.md)
       + [复制广告](/help/dsp/campaign-management/ads/ad-duplicate.md)
       + [将广告附加到投放位置](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
