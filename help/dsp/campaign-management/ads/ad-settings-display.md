@@ -3,9 +3,9 @@ title: 显示广告设置
 description: 请参阅显示广告可用广告设置的描述。
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
+source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Pixel]
 
-投放位置的所有现有事件跟踪像素都会自动附加。 您可以根据单个广告的跟踪需求，分离现有像素并根据需要创建新像素。
+投放位置的所有现有事件跟踪像素都会自动附加。 您可以根据单个广告的跟踪需求，分离现有像素并根据需要创建新像素。 **提示：** 要使用一次性编辑投放位置中多个广告的第三方跟踪像素，请执行以下操作 [!UICONTROL Ad Tools] 视图，请参阅“[将第三方跟踪像素附加到投放位置中的广告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads)“
 
 以下设置适用于创建或编辑的每个像素。
 

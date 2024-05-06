@@ -3,9 +3,9 @@ title: 音频广告设置
 description: 请参阅音频广告可用广告设置的说明。
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
+source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,9 @@ ht-degree: 0%
 
 **[!UICONTROL Select Rate]：** （仅限具有权限的用户）通过Adobe计费的预协商费率，或者您已经协商并通过供应商计费的费率之一。 要添加费率，请与您的Adobe客户团队联系。
 
-### 像素
+### [!UICONTROL Pixel]
 
-投放位置的所有现有事件跟踪像素都会自动附加。 您可以根据单个广告的跟踪需求，分离现有像素并根据需要创建新像素。
+投放位置的所有现有事件跟踪像素都会自动附加。 您可以根据单个广告的跟踪需求，分离现有像素并根据需要创建新像素。 **提示：** 要使用一次性编辑投放位置中多个广告的第三方跟踪像素，请执行以下操作 [!UICONTROL Ad Tools] 视图，请参阅“[将第三方跟踪像素附加到投放位置中的广告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads)“
 
 以下设置适用于创建或编辑的每个像素。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 **[!UICONTROL Pixel Name]：** 像素名称。 使用有助于您轻松识别像素的名称。
 
-**[!UICONTROL Pixel Provider]：** 像素提供程序：*[!UICONTROL None]*， *[!UICONTROL Comscore]*， *[!UICONTROL WhiteOps]*，或 *[!UICONTROL IAS]*..
+**[!UICONTROL Pixel Provider]：** 像素提供程序：*[!UICONTROL None]*， *[!UICONTROL Comscore]*， *[!UICONTROL WhiteOps]*，或 *[!UICONTROL IAS]*.
 
 >[!MORELIKETHIS]
 >
