@@ -3,16 +3,16 @@ title: 使用电子表格查看广告详细信息
 description: 了解如何使用电子表格查看广告详细信息，包括广告设置和关联的投放位置。
 feature: DSP Ads
 exl-id: a223d4e1-2264-49fa-8579-817e7ea6ea56
-source-git-commit: 64a1d623bd505764d1fb320e95706e0f702b1d23
+source-git-commit: b469ce7db2bddb99062b32aef25e3e5ae524fa61
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
 
 # 使用电子表格查看广告详细信息
 
-您可以以XLSX（Excel电子表格）格式下载促销活动中所有广告的详细信息以供审阅。 详细信息包括广告设置和关联的投放位置。<!-- Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? -->
+您可以以XLSX（Excel电子表格）格式下载促销活动中所有广告的详细信息以供审阅。 详细信息包括一个选项卡，其中包含每个广告的设置和关联投放位置，以及另一个选项卡，其中包含营销活动中用于广告的每个像素。
 
 >[!NOTE]
 >
