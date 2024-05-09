@@ -4,9 +4,9 @@ description: 了解支持的数据请求类型、所需的设置和字段值，�
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 80072930c0506a017a927ce53eaad900a2642e92
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Adobe Experience Platform使企业能够完成以下任务：
 
 ## 发送Adobe Advertising请求所需的设置
 
-要请求访问和删除Adobe Advertising数据，您需要：
+要请求访问和删除Adobe Advertising数据，您必须：
 
 1. 部署JavaScript库以检索和删除数据主体Cookie。 同一个图书馆， `AdobePrivacy.js`，用于所有Adobe Experience Cloud解决方案。
 
@@ -63,7 +63,7 @@ Adobe Experience Platform使企业能够完成以下任务：
 
 1. 使用 [ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （适用于自动请求）或 [PRIVACY SERVICEUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans) （适用于临时请求）代表数据主体向Adobe Advertising提交访问和删除请求，并检查现有请求的状态。
 
-   对于拥有移动应用程序以与数据主体进行交互并与DSP启动促销活动的广告商，您将需要下载适用于隐私的移动SDK以进行Experience Cloud。 Mobile SDK允许数据控制者设置选择退出状态标记，检索数据主体的设备ID(命名空间ID： `deviceID`)，并将请求提交到Privacy ServiceAPI。 您的移动应用程序需要安装SDK版本4.15.0或更高版本。
+   对于拥有可与数据主体交互并通过DSP启动促销活动的移动应用程序的广告商，您必须下载适用于隐私的Mobile SDK以进行Experience Cloud。 Mobile SDK允许数据控制者设置选择退出状态标记，检索数据主体的设备ID(命名空间ID： `deviceID`)，并将请求提交到Privacy ServiceAPI。 您的移动应用程序需要安装SDK版本4.15.0或更高版本。
 
    当您提交数据主体的访问请求时，Privacy ServiceAPI会根据指定的Cookie或设备ID返回数据主体的信息，然后您必须将其返回到数据主体。
 
@@ -73,7 +73,7 @@ Adobe Experience Platform使企业能够完成以下任务：
    >
    >如果贵公司拥有多个Experience Cloud组织ID，则必须为每个组织发送单独的API请求。 但是，您可以向多个Adobe Advertising子解决方案发出一个API请求([!DNL Search, Social, & Commerce]， [!DNL Creative]， [!DNL DSP]、和 [!DNL DCO])，每个子解决方案具有一个帐户。
 
-所有这些步骤对于Adobe Advertising都是必需的。 有关这些事项以及使用Adobe Experience Platform Privacy Service需要执行的其他相关任务，以及在何处查找所需项目的更多信息，请参阅&quot;[Privacy Service概述](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)“
+所有这些步骤对于Adobe Advertising都是必需的。 有关这些事项以及使用Adobe Experience Platform Privacy Service需要执行的其他相关任务以及在何处查找所需项目的更多信息，请参阅“[Privacy Service概述](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)“
 
 ## Adobe AdvertisingJSON请求中的必填字段值
 

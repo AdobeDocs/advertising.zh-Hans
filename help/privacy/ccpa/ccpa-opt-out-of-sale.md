@@ -4,9 +4,9 @@ description: 了解对捕获消费者选择退出销售请求的支持。
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 7378ea6e6907aa4067bd3e73160a8e71c925ec9d
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
    >
    >如果您的企业有多个Experience Cloud组织ID，则必须为每个组织发送单独的API请求。 但是，您可以向多个Adobe Advertising子解决方案发出一个API请求([!DNL Search, Social, & Commerce]， [!DNL Creative]， [!DNL DSP]、和 [!DNL DCO])，每个子解决方案具有一个帐户。
 
-要获得Adobe Advertising的支持，所有这些步骤都是必需的。 有关这些事项以及使用Adobe Experience Platform Privacy Service需要执行的其他相关任务，以及在何处查找所需项目的更多信息，请参阅 [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+要获得Adobe Advertising的支持，所有这些步骤都是必需的。 有关这些任务以及使用Adobe Experience Platform Privacy Service需要执行的其他相关任务以及在何处查找所需项目的更多信息，请参阅 [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## 检索提交选择退出销售请求的消费者报表
 

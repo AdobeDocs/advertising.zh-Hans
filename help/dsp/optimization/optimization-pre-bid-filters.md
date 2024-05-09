@@ -1,32 +1,31 @@
 ---
-title: 位置層級的競標前篩選條件及其使用方式
-description: 參考可用的位置層級競標前篩選條件，並瞭解其使用方式。
+title: 投放位置级别预竞价过滤器及其使用方式
+description: 引用可用的投放位置级别预竞价过滤器，并了解如何使用它们。
 feature: DSP Optimization
 exl-id: 34a15666-7ca2-416d-9064-8638ca81e5b3
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
 
-# 位置層級的競標前篩選條件及其使用方式
+# 投放位置级别预竞价过滤器及其使用方式
 
-| 競標前篩選 | 描述 | 使用此篩選器的時間 |
+| 预竞价筛选器 | 描述 | 何时使用此过滤器 |
 | ---------------| ----------- | ---------------------- |
-| [!UICONTROL Click Through Rate] | 設定拍賣導致點進的機率的最小預測臨界值。 例如，如果您將臨界值設為0.1%，則除非預測的點按機率大於或等於0.1%，否則將不會在拍賣上競標。<br><br><b>注意：</b> 篩選器會在最佳化目標之前套用。 因此，非常嚴格的篩選條件可以防止支出。 | 若您有最低點進率(CTR)的KPI目標，且當CTR低於臨界值時不想花費預算，請使用。 此篩選器可能相當具限制性，因此設定現實目標很重要。 根據位置的其他限制，03-07%的目標通常是良好的起點。 您可以視需要在網站層級最佳化此專案，以協助改善量度。<br><br>如果您的目標是實現最小CTR和最佳可能的CPM，則建議的設定為合併 [!UICONTROL Click Through Rate] 以最佳化目標篩選»[!UICONTROL Lowest CPM].」 如果您的目標是最大CPM而沒有實際超額實現效益和最小CTR，則配對 [!UICONTROL Click Through Rate] 以最佳化目標篩選»[!UICONTROL Always Max Bid + Highest CTR]「可能更合適。 |
-| [!UICONTROL 100% Completion Rate] | 設定您對曝光出價前必須符合的必要最低完成率。 | 當行銷活動的主要目標是完成率時，請使用此篩選器。 其他鎖定目標引數中的因子，但建議起始百分比為65%。 |
-| [!UICONTROL Player Size - Adobe] | 使用DSP中的資料設定所需的最小播放器大小。 當下列情況下，您會根據曝光次數投標： [!UICONTROL Player Size] 已符合臨界值。 | 使用可確保您可使用DSP中的資料完成全集播放器詳細目錄。 |
-| [!UICONTROL Player Size 3rdParty (Moat/IAS)] | 使用下列來源的資料，設定所需的最小播放器大小： [!DNL Moat] 或 [!DNL Integral Ad Science] ([!DNL IAS])。 當下列情況下，您會根據曝光次數投標： [!UICONTROL Player Size] 已符合臨界值。 | 使用可確保您透過平台範圍的全集播放器詳細目錄 [!DNL Moat] 或 [!DNL IAS] 資料。<br><br><b>注意：</b> 只有在行銷活動設定為使用時，才使用此篩選器 [!DNL Moat] 或 [!DNL IAS] 資料。 |
-| [!UICONTROL Viewability Adobe (MRC or [!DNL GroupM])] | 使用DSP可檢視度數字和測量，設定必要的最小可檢視度百分比。 當符合指定的臨界值時，您會對曝光次數投標。<br><br><b>附註：</b><ul><li>如果行銷活動的 [!UICONTROL Viewability Sensitivity] 設定為&quot;[!UICONTROL Standard (50% of ad in view for 2 consecutive seconds)]，」然後 [!DNL Media Rating Council] (MRC)可檢視度測量標準用於行銷活動。 如果 [!UICONTROL Viewability Sensitivity] 設定為&quot;[!UICONTROL Strict (100% of ad in view & audio on for 50% duration)]，」然後 [!DNL GroupM] 行銷活動會使用可見度測量標準。</li><li>Adobe測量定義與第三方定義不同，因此可能與第三方資料略有差異。</li></ul> | 最佳實務建議將最佳化目標和任何競標前篩選設定與行銷活動的 [!UICONTROL Viewability Sensitivity] 設定。 |
+| [!UICONTROL Click Through Rate] | 设置拍卖可能导致点进的概率的最小预测阈值。 例如，如果将阈值设置为0.1%，则只有在预测的点击概率大于或等于0.1%时才对拍卖投标。<br><br><b>注意：</b> 筛选器在优化目标之前应用。 因此，非常严格的筛选条件可以防止支出。 | 当您的点进率(CTR)具有最低KPI目标，并且当CTR低于阈值时您不希望花费预算时使用。 此过滤器可能比较严格，因此设置现实的目标很重要。 根据对投放位置的其他限制，目标为0.03%到0.07%通常是一个良好的起点。 您可以根据需要在网站级别优化此项以帮助改进量度。<br><br>如果您的目标是实现最小的CTR和最佳的CPM，则建议的设置是组合 [!UICONTROL Click Through Rate] 使用优化目标&quot;[!UICONTROL Lowest CPM]“ 如果您的目标是最大CPM，而超额实现没有实际好处，则为最小CTR，则配对 [!UICONTROL Click Through Rate] 使用优化目标&quot;[!UICONTROL Always Max Bid + Highest CTR]”可能更合适。 |
+| [!UICONTROL 100% Completion Rate] | 设置在对展示出价之前必须满足的必需最低完成率。 | 当营销活动的主要目标是完成率时，使用此过滤器。 其他定位参数中的系数，但建议起始百分比为65%。 |
+| [!UICONTROL Player Size - Adobe] | 使用来自DSP的数据设置所需的最低播放器大小。 您竞拍的展示次数是 [!UICONTROL Player Size] 阈值已满足。 | 使用确保您使用来自DSP的数据提供全集播放器库存。 |
+| [!UICONTROL Player Size 3rdParty (Moat/IAS)] | 使用来自以下位置的数据设置所需的最小播放器大小： [!DNL Moat] 或 [!DNL Integral Ad Science] ([!DNL IAS])。 您竞拍的展示次数是 [!UICONTROL Player Size] 阈值已满足。 | 使用确保您使用平台范围提供全集播放器库存 [!DNL Moat] 或 [!DNL IAS] 数据。<br><br><b>注意：</b> 仅当营销活动配置为使用时，才使用此过滤器 [!DNL Moat] 或 [!DNL IAS] 数据。 |
+| [!UICONTROL Viewability Adobe (MRC or [!DNL GroupM])] | 使用DSP可视性数字和度量设置所需的最小可视性百分比。 当满足指定的阈值时，您将针对展示出价。<br><br><b>注释：</b><ul><li>如果营销活动的 [!UICONTROL Viewability Sensitivity] 设置是&quot;[!UICONTROL Standard (50% of ad in view for 2 consecutive seconds)]，”然后 [!DNL Media Rating Council] (MRC)可见性度量标准用于营销活动。 如果 [!UICONTROL Viewability Sensitivity] 设置是&quot;[!UICONTROL Strict (100% of ad in view & audio on for 50% duration)]，”然后 [!DNL GroupM] 可视性度量标准用于营销活动。</li><li>Adobe测量定义与第三方定义不同，因此可能与第三方数据略有差异。</li></ul> | 最佳实践是将优化目标和任何预竞价过滤器设置与促销活动的 [!UICONTROL Viewability Sensitivity] 设置。 |
 
 {style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
->* [DSP如何最佳化您的行銷活動](optimization-how-dsp-optimizes-campaigns.md)
->* [封裝設定](/help/dsp/campaign-management/packages/package-settings.md)
->* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)
->* [Campaign設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)
->* [最佳化目標及使用方式](optimization-goals.md)
-
+>* [DSP如何优化活动](optimization-how-dsp-optimizes-campaigns.md)
+>* [包设置](/help/dsp/campaign-management/packages/package-settings.md)
+>* [投放设置](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Campaign设置](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+>* [优化目标及其使用方式](optimization-goals.md)

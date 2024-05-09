@@ -3,9 +3,9 @@ title: 之间的预期数据差异 [!DNL Analytics] 和Adobe Advertising
 description: 之间的预期数据差异 [!DNL Analytics] 和Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: fb0634643e40b67e50461823f976a93129e2f038
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '3217'
+source-wordcount: '3216'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 Adobe Advertising报表仅捕获通过Adobe Advertising贩运的付费媒体（付费搜索） [!DNL Advertising Search, Social, & Commerce] 广告，和显示(对于Advertising DSP广告)， [!DNL Marketing Channels] 报表可以跟踪所有数字渠道。 这可能会导致归因转化的渠道不一致。
 
-例如，付费搜索和免费搜索渠道通常具有共生关系，每个渠道相互协助。 此 [!DNL Marketing Channels] 报表会将某些转化归因于Adobe Advertising不会进行的免费搜索，因为它不跟踪免费搜索。
+例如，付费搜索和免费搜索渠道通常具有共生关系，每个渠道相互协助。 此 [!DNL Marketing Channels] 报表将某些转化归因为Adobe Advertising没有跟踪免费搜索而没有的免费搜索。
 
 再考虑查看展示广告、单击付费搜索广告、单击电子邮件内容，然后下达30美元订单的客户。 即使Adobe Advertising和 [!DNL Marketing Channels] 这两种模型都使用最后接触归因模型，因此转化仍会以不同的方式归因于每种。 Adobe Advertising无权访问 [!UICONTROL Email] 渠道，因此它将计入针对转化的付费搜索。 [!DNL Marketing Channels]但是，可以访问所有三个渠道，因此会获得点数 [!UICONTROL Email] 进行转换。
 

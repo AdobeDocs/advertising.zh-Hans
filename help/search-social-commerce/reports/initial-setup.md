@@ -1,9 +1,9 @@
 ---
 title: 报告的初始设置任务
 description: 了解如何在报表中提供量度以及如何自动执行报表。
-exl-id: 0f55aae9-6898-4967-a377-190a13dff6fd
+exl-id: c2e76c63-ddb8-4762-8628-30cf3f54b8fd
 feature: Search Reports
-source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
   事务属性不适用于报表，除非您特别规定它们可用。
 
-  如果您稍后开始跟踪新的转化量度，则需要重复此任务。
+  如果您稍后开始跟踪新的转化量度，则必须重复此任务。
 
 * （可选）自动生成报表：
 

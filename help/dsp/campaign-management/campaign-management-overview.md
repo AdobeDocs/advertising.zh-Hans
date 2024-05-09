@@ -3,9 +3,9 @@ title: Advertising DSP中的Campaign Management概述
 description: 了解营销活动管理层次结构和组件。
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ A [投放](/help/dsp/campaign-management/placements/placement-about.md) 存储�
 
 [广告](/help/dsp/campaign-management/ads/ad-about.md) 包括创意资源和跟踪URL。 您可以使用合作伙伴标记表或批量标记模板，单独或批量上传第三方广告投放标记。 您还可以手动创建本机显示广告以供DSP提供。
 
-设置广告后，您需要将每个广告附加到投放位置。 您可以将单个广告附加到一个或多个投放位置。
+设置广告后，必须将每个广告附加到投放位置才能开始投放广告。 您可以将单个广告附加到一个或多个投放位置。
 
 根据投放位置定位参数，活跃促销活动中所有活跃的已批准广告都可以运行。
 

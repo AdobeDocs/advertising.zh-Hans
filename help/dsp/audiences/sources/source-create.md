@@ -3,9 +3,9 @@ title: 创建受众源以激活第一方受众
 description: 了解如何创建源以将受众导入您的帐户或广告商帐户。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 6c918b387067237de5d1eae42ae8ad253884d761
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在为客户数据平台创建源后，您需要完成其他步骤。 请参阅 [激活工作流 [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> 和 [激活工作流 [!DNL Tealium]](source-tealium.md).
+>为客户数据平台创建源后，必须完成其他步骤。 请参阅 [激活工作流 [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> 和 [激活工作流 [!DNL Tealium]](source-tealium.md).
 
 >[!MORELIKETHIS]
 >

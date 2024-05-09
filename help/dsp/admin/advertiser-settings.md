@@ -2,9 +2,9 @@
 title: 广告商帐户设置
 description: 请参阅可用广告商设置的描述。
 role: User, Admin
-source-git-commit: 201eb485e196dc0823dd6d592f67f62122c214b1
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您选择 *[!UICONTROL Other]*，则广告商将无法访问DSP [!DNL On Demand Inventory].
+>如果您选择 *[!UICONTROL Other]*，则广告商无法访问DSP [!DNL On Demand Inventory].
 
 **[!UICONTROL Advertiser URL]：** 广告商的主页或主网站URL(以 `http://` 或 `https://`)。
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 使用其他Adobe Experience Cloud产品的广告商可以使用组织的Experience Cloud唯一ID在某些产品之间共享数据。 您可以在中配置特定的产品集成 [!UICONTROL Integrations] 部分。
 
-**[!UICONTROL Account IMS org and ID]：** (通过具有多个广告商的Experience Cloud帐户授予许可的、具有其他Experience Cloud产品的广告商；可选)广告商的Experience Cloud组织ID。
+**[!UICONTROL Account IMS org and ID]：** (通过具有多个广告商的Experience Cloud帐户许可的、具有其他Experience Cloud产品的广告商；可选)广告商的Experience Cloud组织ID。
 
 **[!UICONTROL Advertiser IMS org and ID]：** (具有其他Experience Cloud产品的直接许可证的广告商；可选)广告商的Experience Cloud组织ID。
 
