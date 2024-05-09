@@ -3,9 +3,9 @@ title: 受众区段逻辑的语法
 description: 引用可用于定义受众区段逻辑的语法。
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 97f5e8913afb2f71505512bf8e4ab5bf56c1d7f8
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在投放设置中，您可以将保存的受众用作要明确定向的受众，或用作要从定向中排除的单独受众。 确保区段逻辑可反映您使用受众的目的。
+>在投放设置中，您可以将保存的受众用作要明确定向的受众，或用作要从定向中排除的单独受众。 确保区段逻辑反映使用受众的目的。
 
 >[!MORELIKETHIS]
 >

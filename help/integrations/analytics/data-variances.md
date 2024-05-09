@@ -3,9 +3,9 @@ title: 之间的预期数据差异 [!DNL Analytics] 和Adobe Advertising
 description: 之间的预期数据差异 [!DNL Analytics] 和Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3212'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ![在中归因的浏览转化示例 [!DNL Analytics] 但不包括Adobe Advertising](/help/integrations/assets/a4adc-viewthrough-example.png)
 
-导致差异的另一个原因是，在Adobe Advertising中，您可以为显示到达转化分配自定义 *显示到达权重* 与归属于基于点击的转化的权重相关的值。 默认显示到达权重为40%，这意味着显示到达转化会计为基于点击的转化值的40%。 [!DNL Analytics] 没有提供此类显示到达转化权重。 例如，在中捕获到一个100美元的收入订单 [!DNL Analytics] 如果您使用默认显示到达权重，Adobe Advertising将打折为40美元，相差为60美元。
+导致差异的另一个原因是，在Adobe Advertising中，您可以为显示到达转化分配自定义 *显示到达权重* 与归属于基于点击的转化的权重相关的值。 默认显示到达权重为40%，这意味着显示到达转化会计为基于点击的转化值的40%。 [!DNL Analytics] 没有提供此类显示到达转化权重。 例如，在中捕获到一个100美元的收入订单 [!DNL Analytics] 如果您使用默认显示到达权重，则Adobe Advertising折价为40美元 — 相差60美元。
 
 在比较Adobe Advertising和之间的显示到达转化时，请考虑以下差异 [!DNL Analytics] 报表。
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 #### Adobe Advertising中的事件日期归因
 
-在Adobe Advertising中，您可以按关联的点击日期/事件日期（点击或展示事件的日期）或交易日期（转化日期）报告转化数据。 中不存在点击/事件日期报表的概念 [!DNL Analytics]；中跟踪的所有转化 [!DNL Analytics] 按交易日期报告。 因此，同一转化可能会以不同的Adobe Advertising和日期报告 [!DNL Analytics]. 例如，假设一位用户在1月1日点击广告并在1月5日转化。 如果您查看的是Adobe Advertising中按事件日期列出的转化数据，则转化将在1月1日发生点击时报告。 在 [!DNL Analytics]，相同的转换将在1月5日报告。
+在Adobe Advertising中，您可以按关联的点击日期/事件日期（点击或展示事件的日期）或交易日期（转化日期）报告转化数据。 中不存在点击/事件日期报表的概念 [!DNL Analytics]；中跟踪的所有转化 [!DNL Analytics] 按交易日期报告。 因此，同一转化可能会以不同的Adobe Advertising和日期报告 [!DNL Analytics]. 例如，假设一位用户在1月1日点击广告并在1月5日转化。 如果您查看的是Adobe Advertising中按事件日期列出的转化数据，则转化报告日期为点击发生的1月1日。 在 [!DNL Analytics]，相同的转化报告于1月5日。
 
 ![归因于不同日期的转化示例](/help/integrations/assets/a4adc-conversions-based-on.png)
 
@@ -240,7 +240,7 @@ Adobe Advertising为Analytics提供了 [广告特定的流量量度和以下来�
 
 ![使用Adobe Advertising维度的报表中的Adobe Advertising指标示例](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 
-但是，如果您查看 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 量度（例如“页面”），如果Adobe Advertising不为其提供数据，则 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 对于每一页，将为0。
+但是，如果您查看 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 量度（例如“页面”），如果Adobe Advertising不为其提供数据，则 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 对于每一页，则是零(0)。
 
 ![使用不受支持的维度的报表中的Adobe Advertising指标示例](/help/integrations/assets/a4adc-traffic-unsupported-dimension.png)
 

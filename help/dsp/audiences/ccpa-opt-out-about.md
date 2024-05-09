@@ -1,33 +1,32 @@
 ---
-title: 關於 [!UICONTROL CCPA Opt-out-of-Sale] 區段和報表
-description: 瞭解如何建立區段來追蹤CCPA選擇退出銷售請求中的ID，以及如何擷取ID報表。
+title: 关于 [!UICONTROL CCPA Opt-out-of-Sale] 区段和报表
+description: 了解如何创建区段以跟踪CCPA选择退出销售请求中的ID，以及如何检索ID报表。
 feature: CCPA, DSP Segments
 exl-id: 28b5e00b-a695-46f1-abbf-7bbd78f05411
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
 
 ---
 
-# 關於 [!UICONTROL CCPA Opt-out-of-Sale] 區段和報表
+# 关于 [!UICONTROL CCPA Opt-out-of-Sale] 区段和报表
 
-您可以根據加州消費者隱私法(CCPA)，透過以下方式追蹤網站上的消費者選擇退出銷售請求中的使用者ID： [建立及實作CCPA選擇退出銷售區段](ccpa-opt-out-segment-create.md). 使用者會無限期留在CCPA選擇退出銷售區段中。
+您可以根据《加州消费者隐私法案》(CCPA)，通过以下方式跟踪您网站上消费者选择退出销售请求的用户ID [创建和实施CCPA选择退出销售区段](ccpa-opt-out-segment-create.md). 用户无限期地停留在CCPA选择退出销售区段中。
 
-實施區段畫素標籤後，Adobe廣告將開始代表廣告商收集一組ID。
+实施区段像素标记后，Adobe Advertising即开始代表广告商收集ID池。
 
-## 消費者選擇退出銷售報告
+## 消费者选择退出销售报表
 
-Adobe廣告每月會產生客戶針對帳戶的選擇退出銷售請求所提交的ID報表。 資料會合併使用DSP中建立的CCPA選擇退出銷售區段擷取的請求，以及透過Privacy ServiceAPI提交的任何提交內容。  報告產生於上個月份的每月第一天。 例如，6月的每月使用者清單可在7月1日取得。
+Adobe Advertising会每月生成客户为帐户的选择退出销售请求提交的ID报表。 数据合并使用在DSP中创建的CCPA选择退出销售区段捕获的请求以及通过Privacy ServiceAPI提交的任何提交。  在上个月的每月第一天生成报告。 例如，6月的每月用户列表可在7月1日发布。
 
-每個報表都可壓縮為GZIP格式的Tab字元分隔文字檔形式提供。 在CCPA選擇退出銷售區段中擷取的使用者ID會由區段和廣告商識別。
+每个报表都以制表符分隔的文本文件形式提供，并压缩为GZIP格式。 在CCPA选择退出销售区段中捕获的用户ID由区段和广告商标识。
 
-您可以 [擷取每月報表的連結](ccpa-opt-out-segment-report-retrieve.md) (從DSP內部或使用DSP建立)。 [!DNL Trafficking API]. 每個連結的有效期為七天，但每當客戶嘗試擷取連結時，都會重新整理。
+您可以 [检索指向每月报表的链接](ccpa-opt-out-segment-report-retrieve.md) 之前三个月通过DSP或使用DSP创建的客户群 [!DNL Trafficking API]. 每个链接的有效期为七天，但每当客户尝试检索一个链接时，都会刷新。
 
 >[!MORELIKETHIS]
 >
->* [加州消費者隱私法的Adobe廣告支援：消費者選擇退出支援](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
->* [建立及實作 [!UICONTROL CCPA Opt-Out-of-Sale] 區段](ccpa-opt-out-segment-create.md)
->* [擷取消費者選擇退出銷售報表](ccpa-opt-out-segment-report-retrieve.md)
->* [關於對象管理](audience-about.md)
-
+>* [Adobe Advertising对《加州消费者隐私法案》的支持：消费者选择退出支持](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+>* [创建和实施 [!UICONTROL CCPA Opt-Out-of-Sale] 区段](ccpa-opt-out-segment-create.md)
+>* [检索消费者选择退出销售报表](ccpa-opt-out-segment-report-retrieve.md)
+>* [关于受众管理](audience-about.md)

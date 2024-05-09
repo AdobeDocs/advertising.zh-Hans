@@ -3,9 +3,9 @@ title: 自定义报表设置
 description: 请参阅自定义报表设置的描述。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: a2712e16a54c7108e5999cb1b8db46e507a9ed55
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -114,9 +114,9 @@ ht-degree: 0%
 
 **[!UICONTROL Conversion Reporting Based On]：**  如何报告转化数据：
 
-* *[!UICONTROL Conversion Timestamp]：* （默认）转化将与转化日期关联。
+* *[!UICONTROL Conversion Timestamp]：* （默认）转化与转化日期关联。
 
-* *[!UICONTROL Event Timestamp]：* 将根据导致转化的展示或点击的日期报告转化，具体日期由指定的决定 [!UICONTROL Attribution Rule Settings].
+* *[!UICONTROL Event Timestamp]：* 根据导致转化的展示或点击的日期报告转化，具体日期由指定的决定 [!UICONTROL Attribution Rule Settings].
 
 ## [!UICONTROL Add Report Destinations] 部分
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 **[!UICONTROL Email]：** （仅限电子邮件目标类型）对于每个地址，输入地址并单击 **+**.
 
-**[!UICONTROL Destination Name]：** （仅限S3、FTP、sFTP和FTP SSL目标类型）将向其发送自定义报表的报表目标的名称。
+**[!UICONTROL Destination Name]：** （仅限S3、FTP、sFTP和FTP SSL目标类型）将自定义报表发送到的报表目标的名称。
 
 * 要指定现有目标，请从列表中选择目标名称。 您可以分别选择多个目标名称。
 

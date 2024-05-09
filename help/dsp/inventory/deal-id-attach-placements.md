@@ -3,9 +3,9 @@ title: 指定私人交易的投放位置和广告
 description: 了解如何将私人交易与额外的投放和广告结合使用。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: d6d295119bc974a87840e757877c1507237a6fa2
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
        1. 选择广告商、营销活动和广告类型。 （可选）选择要按其筛选广告的广告状态。
        
-       1. 从可用广告列表中，选中用于交易的每个广告旁边的复选框。
+       1. 从可用广告列表中，选中要用于交易的每个广告旁边的复选框。
        
        1. 单击**[!UICONTROL Apply]**。
    
@@ -46,7 +46,7 @@ ht-degree: 0%
 
       1. 单击 **[!UICONTROL Create placement]**.
 
-发布者激活您的PG交易ID后，投放将开始运行。
+在发布者激活您的PG交易ID后，该投放位置将开始运行。
 
 >[!NOTE]
 >

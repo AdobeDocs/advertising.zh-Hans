@@ -3,9 +3,9 @@ title: 移动广告设置
 description: 请参阅有关移动广告可用广告设置的描述。
 feature: DSP Ads
 exl-id: 45e8da8c-d6a2-4c42-8932-4cf551f6f899
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 **\[广告源\]**：（只读） *[!UICONTROL 3rd party]*.
 
-**[!UICONTROL Display Code]：** 第三方创意资产的URL。 任何 [时间戳] 和[[时间戳]]参数将被替换为实际值。
+**[!UICONTROL Display Code]：** 第三方创意资产的URL。 任何 [时间戳] 和[[时间戳]]参数被替换为实际值。
 
 **[!UICONTROL Final Display Code]：** 第三方创意资源的URL，带有必要的 [Advertising DSP跟踪宏](/help/dsp/campaign-management/macros.md) 已插入（如果适用）。
 

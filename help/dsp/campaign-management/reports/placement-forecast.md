@@ -3,9 +3,9 @@ title: 查看职位安排预测报表
 description: 查看投放位置的特定定位策略的展示次数、花费和最佳最高出价预测值。
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 2ecf1eacb2a47c20e0c05f9ff62386869b644ba6
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 
    * 投放位置为营销活动使用新的广告类型。
 
-     投放位置通常是供应方平台定义的多个广告模板的集合。 因此，即使投放位置已存在很长时间，基础广告模板也可以是新的，并且预测工具将无法预测。
+     投放位置通常是供应方平台定义的多个广告模板的集合。 因此，即使投放位置已存在很长时间，如果基础广告模板是新的，则预测工具无法创建预测。
 
 ## 打开职位安排预测报表
 

@@ -1,11 +1,11 @@
 ---
 title: JavaScript转换跟踪标记版本2的格式
 description: 引用JavaScript转换跟踪标记版本2的格式。
-exl-id: c4845694-10ac-41f8-bafb-ca813e42d190
+exl-id: 75e96f97-a3f0-4f5b-8bbb-4b1e8986f01a
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ effp();
 
 * `<ef-userid>` 是Search、Social和Commerce分配给广告商的唯一数字用户ID。
 
-* `<propertyname>` 是要跟踪的转化。 例如，如果您跟踪名为“注册”的转化，则标记将包括参数 `ev_registration=<registration>`，并且您需要传递每个交易的实际收入(例如 `ev_registration=1`)。 跟踪多个属性时，将使用&amp;符号(`&`)，例如 `ev_registration=<registration>&ev_sale=<sale>` (例如， `ev_registration=1&ev_sale=12.99`)。 **注意：**  属性名称不能包含特殊字符。
+* `<propertyname>` 是要跟踪的转换。 例如，如果您跟踪名为“注册”的转化，则标记将包括参数 `ev_registration=<registration>`，并且您需要传递每个交易的实际收入(例如 `ev_registration=1`)。 跟踪多个属性时，将使用&amp;符号(`&`)，例如 `ev_registration=<registration>&ev_sale=<sale>` (例如， `ev_registration=1&ev_sale=12.99`)。 **注意：**  属性名称不能包含特殊字符。
 
 * `<transid>` 是广告商为标识交易而生成和传递的唯一交易ID（例如实际订单ID）。 仅当&quot;[!UICONTROL Include unique transaction IDs]已选中“ ”选项。
 

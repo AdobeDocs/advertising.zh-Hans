@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Label Classification Report]'
+title: ’[!UICONTROL Label Classification Report]’
 description: 了解 [!UICONTROL Label Classification Report].
-exl-id: 97f3b1d5-ec25-49c4-8efe-66395285f0da
+exl-id: 847fa384-b9c6-446f-9ebf-da7679ed35ae
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---

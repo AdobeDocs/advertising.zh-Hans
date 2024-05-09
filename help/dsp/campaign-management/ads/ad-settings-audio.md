@@ -3,9 +3,9 @@ title: 音频广告设置
 description: 请参阅音频广告可用广告设置的说明。
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL URL]**：VAST标记URL。
 
-**[!UICONTROL Title]**：文件的名称，该文件将用于 [!UICONTROL Ads] 查看和报告。
+**[!UICONTROL Title]**：文件的名称，用于 [!UICONTROL Ads] 查看和报告。
 
 >[!TIP]
 >

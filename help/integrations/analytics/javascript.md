@@ -3,9 +3,9 @@ title: JavaScript代码 [!DNL Analytics for Advertising]
 description: JavaScript代码 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: d591388a956adf41882b0bfdd5f74c5a07837657
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ JavaScript库包含两行，它们允许 [!DNL Analytics] 和Adobe Advertising�
    * 第一行是对JavaScript库的调用，其标题为 `last-event-tag-latest.min.js`.
    * 第二行是将请求发送到Adobe Advertising的调用。 其开头如下： `_les_imsOrgId=[your_imsOrgId_here]&_les_url=[your_encoded_url]`
 
-     如果您没有看到对Adobe Advertising的调用，则该调用可能不是您访问的第一个页面查看。 出于测试目的，您可以删除Cookie，以便下次调用将是相应访问的第一个页面查看：
+     如果您没有看到对Adobe Advertising的调用，则该调用可能不是您访问的第一个页面查看。 出于测试目的，您可以删除Cookie，以便下次调用是相应访问的第一个页面查看：
 
    1. 在“应用程序”选项卡上，找到 `adcloud` Cookie，并确认Cookie包含 `_les_v` （上次访问）且值为 `y` 以及30分钟后过期的UTC纪元时间戳。
       1. 删除 `adcloud` cookie并刷新页面。
@@ -84,13 +84,13 @@ JavaScript库包含两行，它们允许 [!DNL Analytics] 和Adobe Advertising�
 
    ![过滤于 `/b/ss`](/help/integrations/assets/a4adc-code-validation-filter-bss.png)
 
-1. (使用Experience Platform的实施 [!DNL Web SDK] `alloy.js`代码)筛选依据 `/interact` 验证发送到边缘网络的请求有效负载是否包含 `advertisingStitchID`.
+1. (使用Experience Platform的实施 [!DNL Web SDK] `alloy.js`代码)筛选依据 `/interact` 验证发送给Edge Network的请求有效负载是否包含 `advertisingStitchID`.
 
    ![过滤于 `/interact`](/help/integrations/assets/a4adc-code-validation-filter-interact.png)
 
-1. 比较两次点击之间的ID值。 所有值都将位于查询字符串参数中，但Analytics点击中的报表包ID（紧随其后的URL路径）除外 `/b/ss/`.
+1. 比较两次点击之间的ID值。 所有值都应位于查询字符串参数中，但Analytics点击中的报表包ID（紧随其后的URL路径）除外 `/b/ss/`.
 
-   | ID | Analytics参数 | 边缘网络 | Adobe Advertising参数 |
+   | ID | Analytics参数 | Edge Network | Adobe Advertising参数 |
    | --- | --- | --- | --- |
    | Experience CloudIMS组织 | `mcorgid` |  | `_les_imsOrgid` |
    | 补充数据ID | sdid |  | `_les_sdid` |

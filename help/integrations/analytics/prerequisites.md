@@ -3,9 +3,9 @@ title: 实施的先决条件和关键信息 [!DNL Analytics for Advertising]
 description: 实施的先决条件和关键信息 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: e7773c31c1834b05731b4711ae237cde481e5639
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 向Adobe Advertising实施团队提供以下信息：
 
-* 此 [!DNL Analytics] 报告包ID，用于报告付费媒体活动和馈送网站活动，以便在Adobe Advertising中进行优化和报告
+* 此 [!DNL Analytics] 用于报告付费媒体活动和馈送网站活动以在Adobe Advertising中进行优化和报表的报表包ID
 * 公司的Experience Cloud组织ID (Org ID)。
 
 您可以在以下位置找到这两个ID： [Adobe Experience Cloud Debugger的“摘要”选项卡](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).

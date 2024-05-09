@@ -3,9 +3,9 @@ title: 已连接电视广告设置
 description: 请参阅已连接电视广告可用广告设置的说明。
 feature: DSP Ads
 exl-id: d8e47f7e-7480-400f-8ffa-ecf41ce2ebfb
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL URL]**：VAST标记URL。
 
-**[!UICONTROL Title]**：文件的名称，将在广告视图和报表中使用。
+**[!UICONTROL Title]**：文件的名称，在广告视图和报表中使用。
 
 >[!TIP]
 >

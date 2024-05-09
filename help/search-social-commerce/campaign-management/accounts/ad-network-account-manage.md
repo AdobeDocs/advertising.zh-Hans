@@ -3,9 +3,9 @@ title: 管理广告网络帐户
 description: 了解如何设置和管理广告网络帐户的帐户详细信息。
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
    1. 在 **[!UICONTROL Account Details]** 部分，输入帐户详细信息。
 
-      对于使用登录授权类型&#39;&#39;的广告网络[!UICONTROL oAuth]，”允许搜索、社交和商务使用访问帐户 [OAuth授权协议](https://oauth.net/2/)：
+      对于使用登录授权类型&#39;&#39;的广告网络[!UICONTROL oAuth]，”允许搜索、社交和Commerce使用访问帐户 [OAuth授权协议](https://oauth.net/2/)：
 
       1. 输入 **[!UICONTROL Login]** 帐户的值，也可以输入密码，然后单击 **[!UICONTROL Authenticate]**.
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 1. 单击 **[!UICONTROL Post]**.
 
-   在大约24小时内，可在Search、Social和Commerce中找到帐户中所有营销活动的最新成本和点击数据。 默认情况下，数据在最近5-10天内均可用，具体取决于广告网络。 但是，如有必要，项目启动团队可以检索过去60天的数据。
+   可在24小时左右的时间内在Search、Social和Commerce中找到帐户中所有促销活动的最新成本和点击数据。 默认情况下，数据在最近5-10天内均可用，具体取决于广告网络。 但是，如有必要，项目启动团队可以检索过去60天的数据。
 
 ## 编辑广告网络帐户详细信息 {#edit-account}
 
@@ -81,13 +81,13 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >搜索、社交和商务必须将新帐户数据与广告网络上的帐户数据同步。 这种情况每天自动发生一次，或者在Search、Social和Commerce检测到广告网络上的更改时更加频繁。
+   >搜索、社交和Commerce必须将新帐户数据与广告网络上的帐户数据同步。 此事件每天自动发生一次，或者在Search、Social和Commerce检测到广告网络上的更改时更频繁。
 
 ## 刷新搜索帐户的oAuth访问令牌 {#refresh-oauth-tokens}
 
 *仅限代理客户经理、Adobe客户经理和管理员用户角色*
 
-如果搜索、社交和商业部门使用访问帐户， [OAuth授权协议](https://oauth.net/2/) 并且帐户凭据发生更改，或者需要其他访问权限才能支持Search、Social和Commerce中的新功能，则必须获取帐户的新访问令牌。
+如果搜索、社交和Commerce使用以下方式访问帐户： [OAuth授权协议](https://oauth.net/2/) 并且帐户凭据发生更改，或者需要其他访问权限才能支持Search、Social和Commerce中的新功能，则必须获取帐户的新访问令牌。
 
 如果您的新功能需要新令牌，您的Adobe客户团队将通知您。
 
@@ -147,7 +147,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您集成了Search、Social和Commerce-Adobe Analytics，并更改了搜索帐户的名称，请通知您的Adobe帐户团队，以便他们能够更新映射。
+>如果您集成了Search、Social和Commerce-Adobe Analytics并更改了搜索帐户的名称，请通知您的Adobe帐户团队，以便他们能够更新映射。
 
 **[!UICONTROL Login Details]： \[登录类型\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] 仅限于)是否授权通过以下方式登录帐户：
 
@@ -178,12 +178,12 @@ ht-degree: 0%
 >* 此字段未由更新 [!UICONTROL Auto Upload] 跟踪设置。
 >* 较低级别的最终URL后缀将覆盖帐户级别的后缀。 为便于维护，除非需要对各个帐户组件进行不同的跟踪，否则请仅使用帐户级别的后缀。 要在广告组级别或更低级别配置后缀，请使用广告网络的编辑器。
 
-**时区：** (除以下项之外的所有广告网络 [!DNL Baidu] 和 [!DNL Yahoo! Display Network])广告商的时区。 此字段可编辑，对于新字段为可选 [!DNL Naver] 帐户。 对于所有其他搜索网络，保存记录后，该值将自动填充为广告商的搜索、社交和商务帐户配置的时区。
+**时区：** (除以下项之外的所有广告网络 [!DNL Baidu] 和 [!DNL Yahoo! Display Network])广告商的时区。 此字段可编辑，对于新字段为可选 [!DNL Naver] 帐户。 对于所有其他搜索网络，保存记录后，该值将自动填充为广告商的Search、Social和Commerce帐户配置的时区。
 
-**状态：** 搜索、社交和商务中的帐户状态：
+**状态：** 搜索、社交和Commerce中的帐户状态：
 
 * *已启用：* 搜索、Social和Commerce可将营销活动数据与帐户同步（如果支持），并针对项目组合中的营销活动推送自动竞价和/或营销活动预算。
-* *已禁用：* 搜索、社交和商务会停止帐户上的所有活动。 虽然会存储当帐户处于活动状态时收集的数据，但营销活动管理视图和报表并不包含与帐户暂停时间相关的数据。 您稍后可以重新激活帐户以继续使用该帐户的活动。
+* *已禁用：* 搜索、社交和Commerce停止帐户上的所有活动。 虽然会存储当帐户处于活动状态时收集的数据，但营销活动管理视图和报表并不包含与帐户暂停时间相关的数据。 您稍后可以重新激活帐户以继续使用该帐户的活动。
 
 **跟踪模板** - ([!DNL Google Ads]， [!DNL Microsoft Advertising]、和 [!DNL Yahoo! Japan Ads] 仅限帐户；可选)帐户的默认跟踪模板，它指定所有登陆域重定向和跟踪参数，并将最终页面/登陆页面URL嵌入到参数中。 示例： `{lpurl}?source={network}&id=5` 或 `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` 以包含重定向。
 
@@ -211,7 +211,7 @@ ht-degree: 0%
 
 **[!UICONTROL Application ID]：** ([!DNL Yandex] 仅限帐户)用于帐户的开发人员令牌。 相同的令牌适用于所有 [!DNL Yandex] 帐户。
 
-**[!UICONTROL Purse Campaign ID]：** ([!DNL Yandex] 仅禁用共享帐户设置的帐户；可选)将用于支付帐户中所有广告促销活动的促销活动数字ID。
+**[!UICONTROL Purse Campaign ID]：** ([!DNL Yandex] 仅禁用共享帐户设置的帐户；可选)用于支付帐户中所有广告促销活动的促销活动数字ID。
 
 **[!UICONTROL Finance Token]：** ([!DNL Yandex] 仅禁用共享帐户设置的帐户；可选)用于财务相关API调用的开发人员令牌，如在广告商的促销活动之间重新分配钱包，这是组合优化所必需的。
 
@@ -253,9 +253,9 @@ ht-degree: 0%
 
 有关完整说明，请参阅&quot;[更新的AMO ID跟踪代码 [!DNL Google Ads] 帐户](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)“
 
-**报表包名称** -(仅适用于带令牌的EF重定向；带有Adobe Advertising-Adobe Analytics集成的广告商；可选)一个或多个Analytics报表包，Search、Social和Commerce会向其发送从广告网络收集的数据，包括实体分类和帐户的点击数据。 此功能仅适用于受支持的广告网络。
+**报表包名称** -(仅适用于带令牌的EF重定向；带有Adobe Advertising-Adobe Analytics集成的广告商；可选)一个或多个Analytics报表包，Search、Social和Commerce会向其发送从广告网络收集的数据，包括帐户实体分类和点击数据。 此功能仅适用于受支持的广告网络。
 
-对于要在报表包中显示的数据，必须(a)为帐户配置服务器端AMO ID功能，或者(b)将广告商级别设置为&quot;[!UICONTROL Enable tracking for SAINT feeds]必须启用&#39;&#39;。 此外，广告商的Analytics帐户必须配置为从Search、Social和Commerce接收数据。 有关更多信息，请与您的Adobe客户经理联系。
+对于要在报表包中显示的数据，必须(a)为帐户配置服务器端AMO ID功能，或者(b)将广告商级别设置为&quot;[!UICONTROL Enable tracking for SAINT feeds]必须启用&#39;&#39;。 此外，必须将广告商的Analytics帐户配置为从Search、Social和Commerce接收数据。 有关更多信息，请与您的Adobe客户经理联系。
 
 >[!MORELIKETHIS]
 >

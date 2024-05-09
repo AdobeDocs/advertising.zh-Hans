@@ -3,9 +3,9 @@ title: 显示广告设置
 description: 请参阅显示广告可用广告设置的描述。
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 **[!UICONTROL Certified Vendors]：** （仅限第三方可展开的横幅广告）提供广告的认证供应商： *[!UICONTROL DCM]* ([!DNL Google DoubleClick for Advertisers])， *[!UICONTROL Flashtalking]*， *[!UICONTROL Sizmek]*，或 *[!UICONTROL Jivox]*.
 
-**[!UICONTROL Display Code]：** （仅限第三方广告）第三方创意资产的URL。 任何 [时间戳] 和[[时间戳]]参数将被替换为实际值。
+**[!UICONTROL Display Code]：** （仅限第三方广告）第三方创意资产的URL。 任何 [时间戳] 和[[时间戳]]参数被替换为实际值。
 
 **[!UICONTROL Final Display Code]：** （仅限第三方广告）第三方创意资产的URL，带有必要的 [Advertising DSP跟踪宏](/help/dsp/campaign-management/macros.md) 已插入（如果适用）。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 在宽度和高度字段中声明的广告大小将与传入的竞价请求匹配。 如果广告的维度与声明的广告大小不匹配，您可能会遇到投放问题。
+> 在宽度和高度字段中声明的广告大小与传入的竞价请求匹配。 如果广告的维度与声明的广告大小不匹配，您可能会遇到投放问题。
 
 ### [!UICONTROL Pixel]
 

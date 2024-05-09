@@ -2,9 +2,9 @@
 title: 管理投放位置的竞价乘数
 description: 了解如何创建和编辑指定投放目标的竞价乘数。
 feature: DSP Placements
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ See if any of these procedures are implemented; may need to be edited and/or re-
 
    * 要手动调整竞价倍增值，请移至每个特定于目标的选项卡([!UICONTROL Geo]， [!UICONTROL Inventory]， [!UICONTROL Sites]， [!UICONTROL Audience]、和[!UICONTROL Brand Safety])，并编辑投放目标的现有值。
 
-   将对所有选定投放位置进行相同的更改。
+   相同的更改适用于所有选定的投放位置。
 
    * 要上载包含竞价乘数值并将覆盖现有值的CSV文件，请执行以下操作：
 

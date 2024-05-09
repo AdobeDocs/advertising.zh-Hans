@@ -3,9 +3,9 @@ title: 手动创建交易ID详细信息
 description: 了解如何手动输入交易ID的详细信息。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 93600a6e5afe7e0ae3f22111c0adb0ccc3b5b4bb
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    您可以选择将交易用作其他投放位置的库存目标，但必须正确设置它们才能投标。
 
-   1. 在 [!UICONTROL Ad & Campaign Selection] 设置，选择将用于交易的广告：
+   1. 在 [!UICONTROL Ad & Campaign Selection] 设置，选择要用于交易的广告：
 
       1. 选择广告商、营销活动和广告类型。 （可选）选择要按其筛选广告的广告状态。
 

@@ -1,92 +1,91 @@
 ---
-title: DSP如何最佳化您的行銷活動
-description: 瞭解DSP如何最佳化行銷活動中的套件。
+title: DSP如何优化活动
+description: 了解DSP如何优化营销活动中的包。
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
 
-# Advertising DSP如何最佳化您的行銷活動
+# Advertising DSP如何优化促销活动
 
-本頁面概述DSP最佳化引擎的工作原理，該引擎由 [!DNL Adobe Sensei]，會最佳化行銷活動中的套件。 如需手動最佳化行銷活動的秘訣與技巧，請聯絡您的Adobe客戶團隊。 <!-- add link to trading playbook if we add it to help -->
+此页概述了DSP优化引擎（由提供支持） [!DNL Adobe Sensei]，可优化营销活动中的包。 有关如何手动优化促销活动的提示和技巧，请与Adobe客户团队联系。 <!-- add link to trading playbook if we add it to help -->
 
-套件最佳化目標會在兩個層級運作：
+包优化目标在两个级别运行：
 
-* 對於每個套件：DSP會根據套件中每個版位的績效與所選KPI分配預算給該版位。
+* 对于每个包：DSP根据投放位置对选定KPI的表现，将预算分配给包中的每个投放位置。
 
-* 對於套件中的每個刊登版位/拍賣： DSP會計算每個刊登版位中每個拍賣的即時經濟KPI值，然後使用此值來決定出價。
+* 对于包中的每个投放/拍卖：DSP计算每个投放的每个拍卖的实时经济KPI值，然后使用此值确定竞价。
 
-   >[!NOTE]
-   >
-   >經濟價值會根據投放的花費程度而大幅加權。 如果刊登版位落後於其支出目標，則可購買品質較低的拍賣。 如果刊登版位輕鬆達成其支出目標，則會專注於更高品質的拍賣。
+  >[!NOTE]
+  >
+  >经济价值可能会根据配售的支出水平得到大幅加权。 如果配售落后于其支出目标，那么它就可以购买质量较低的拍卖。 如果职位安排能够轻松达到支出目标，那么焦点就会转向更高质量的拍卖。
 
-## 套件最佳化
+## 包优化
 
-DSP可以透過兩種基本方式將傳送最佳化，並提供20種變數，以符合您的特定效能目標。 您可以選擇：
+DSP可以从两个基本方面优化您的投放，有20个变体可用，与您的特定性能目标保持一致。 您可以选择：
 
-* 排定效能比率的優先順序
+* 区分性能速率的优先级
 
-* 優先權平衡成本效益與效能比
+* 优先考虑兼顾成本效益与性能率
 
-另請參閱 [最佳化目標及使用方式](optimization-goals.md) 以判斷哪個最佳化目標可協助您達成KPI。
+请参阅 [优化目标及其使用方式](optimization-goals.md) 以确定哪个优化目标将帮助您实现KPI。
 
-### 排定效能率優先順序的套件
+### 排定性能速率优先级的程序包
 
-針對將效能比率排定優先順序的最佳化目標，DSP會預測每個拍賣的效能，並一律以最高出價競標。 適用的最佳化目標範例包括 [!UICONTROL Highest Viewability Rate]， [!UICONTROL Highest Clickthrough Rate]、等等。
+对于优先考虑性能率的优化目标，DSP会预测每次拍卖的性能，并始终按最高出价竞价。 适用的优化目标示例包括 [!UICONTROL Highest Viewability Rate]， [!UICONTROL Highest Clickthrough Rate]，等等。
 
-此最佳化模式適用於以下情況：
+此优化模式在以下情况下可正常工作：
 
-* 您已經知道有效/可接受的CPM層次（例如，歷史基準）。
+* 您已经知道有效/可接受的CPM级别（例如，历史基准）。
 
-* 您願意手動調整 [!UICONTROL Max Bid] 如果您在縮放時遇到挑戰，請針對每個位置。
+* 您愿意手动调整 [!UICONTROL Max Bid] 如果您在扩展时遇到问题，请使用每个投放位置。
 
-* 您將規模優先於效率。
+* 你将规模置于效率之上。
 
-#### 步調邏輯 {#pacing-logic-performance}
+#### 步调逻辑 {#pacing-logic-performance}
 
-* 如果支出如期進行，出價將更具選擇性，因此您只能在預計具有高績效率的拍賣會上出價。
+* 如果支出按部就班，竞价就会变得更加有选择性，这样你只会竞拍那些预计会取得较高成交率的拍卖。
 
-* 如果支出落後於節奏，競標就會變得較不挑剔，因此您會在預計效能率較低的拍賣會上競標，以趕上節拍目標。
+* 如果支出落后于节奏，竞价就会变得不那么有选择性，这样一来，你就可以在预计表现较低的拍卖会上竞价，以赶上节拍目标。
 
-#### 清除價格/競標陰影 {#clearing-price-performance}
+#### 结算价格/竞价底纹 {#clearing-price-performance}
 
-DSP執行步調邏輯後，會透過結算價格預測模型執行建議的競標。 如果預測指出出價可以以最低的獲勝率下降而降低，則根據預測，出價會降低。
+在执行步调逻辑后，DSP通过清算价格预测模型运行提议的竞价。 如果预测指示出价可以以最小的获胜率下降而降低，则根据预测降低出价。
 
-### 將成本效益與效能比率加以平衡排定優先順序的套件
+### 优先考虑成本效益与性能比率平衡的软件包
 
-針對某些最佳化目標，DSP會預測每個拍賣的效能，並自動調整競標價格，而不會超過刊登版位 [!UICONTROL Max Bid]. 適用的最佳化目標範例包括 [!UICONTROL Lowest CPM]， [!UICONTROL Lowest CPA]， [!UICONTROL Lowest Cost per View]， [!UICONTROL Lowest Cost per Click]、等等。
+对于某些优化目标，DSP会预测每个拍卖的表现并自动调整竞价，而不会超过投放位置的 [!UICONTROL Max Bid]. 适用的优化目标示例包括 [!UICONTROL Lowest CPM]， [!UICONTROL Lowest CPA]， [!UICONTROL Lowest Cost per View]， [!UICONTROL Lowest Cost per Click]，等等。
 
-#### 步調邏輯 {#pacing-logic-balanced}
+#### 步调逻辑 {#pacing-logic-balanced}
 
-* 如果支出在節奏，DSP就會變得對價格更加敏感，會以較低的價格出價，來權衡節拍計畫的優惠率。
+* 如果支出保持节奏，DSP就会变得对价格更加敏感，降低出价，从而用步调计划来抵消中标率。
 
-* 如果同時平衡績效量度（所有目標除外） [!UICONTROL Lowest CPM])，則預測的KPI會混合到競標量中。 因此，根據「每筆成本」的預測，競標效能會更高。
+* 如果绩效指标也在平衡(所有目标，但 [!UICONTROL Lowest CPM])，然后将预测的KPI混合到竞价金额中。 因此，你竞拍的价位更高，而按“每笔成本”计算，这些拍卖的表现预计会更好。
 
-* 如果支出跟不上節奏，DSP就會降低價格敏感性，而出價會提高，最高可達 [!UICONTROL Max Bid]，以利用步調計畫來平衡獲勝率。
+* 如果支出跟不上节奏，DSP就会降低价格敏感度，提高出价，直至达到 [!UICONTROL Max Bid]，以通过步调计划来权衡获胜率。
 
-#### 清除價格/競標陰影 {#clearing-price-balanced}
+#### 结算价格/竞价底纹 {#clearing-price-balanced}
 
-DSP執行步調邏輯後，會透過結算價格預測模型執行建議的競標。 如果預測指出出價可以以最低的獲勝率下降而降低，則根據預測，出價會降低。
+在执行步调逻辑后，DSP通过清算价格预测模型运行提议的竞价。 如果预测指示出价可以以最小的获胜率下降而降低，则根据预测降低出价。
 
-## 位置最佳化
+## 置入优化
 
-位置競標前篩選是確保強大效能的最嚴格方式。 DSP會策略性地跨不同的廣告型別使用競標前篩選器，以達到每個套件中各個位置的效能目標。 您可以與套件層級最佳化同時或單獨使用競標前篩選器。
+置入预竞价过滤器是确保强大性能的最严格方法。 DSP可跨不同的广告类型策略性地使用预竞价过滤器，以实现每个包中不同投放位置的性能目标。 您可以同时将预竞价过滤器与包级别优化结合使用，也可以单独使用。
 
 >[!NOTE]
 >
->可用的競標前篩選器會依廣告型別而異。 例如，對於標準顯示位置，您可以按點進率和可檢視度進行篩選，但不能按完成率進行篩選。
+>可用的预竞价过滤器因广告类型而异。 例如，对于标准显示放置，可按点进率和可视性进行过滤，而不按完成率过滤。
 
-另請參閱 [位置層級的競標前篩選條件及其使用方式](optimization-pre-bid-filters.md) 以判斷哪個競標前篩選器可協助您達成KPI。
+请参阅 [投放位置级别预竞价过滤器及其使用方式](optimization-pre-bid-filters.md) 以确定哪个预竞价过滤器可以帮助您实现KPI。
 
 >[!MORELIKETHIS]
 >
->* [封裝設定](/help/dsp/campaign-management/packages/package-settings.md)
->* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)
->* [最佳化目標及使用方式](optimization-goals.md)
->* [位置層級的競標前篩選條件及其使用方式](optimization-pre-bid-filters.md)
->* [疑難排解效能](/help/dsp/optimization/troubleshooting-performance.md)
-
+>* [包设置](/help/dsp/campaign-management/packages/package-settings.md)
+>* [投放设置](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [优化目标及其使用方式](optimization-goals.md)
+>* [投放位置级别预竞价过滤器及其使用方式](optimization-pre-bid-filters.md)
+>* [性能疑难解答](/help/dsp/optimization/troubleshooting-performance.md)
