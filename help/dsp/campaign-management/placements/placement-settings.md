@@ -3,9 +3,9 @@ title: 投放设置
 description: 请参阅可用版面设置的说明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '3539'
+source-wordcount: '3535'
 ht-degree: 0%
 
 ---
@@ -258,7 +258,7 @@ ht-degree: 0%
       1. 单击 **[!UICONTROL Search]**.
       1. 输入关键字、选择站点层和/或选择站点类别。
       1. 在搜索结果中，选择要排除的站点：
-         * 要排除单个站点，请选中该站点旁边的复选框。
+         * 要排除单个站点，请选中相邻复选框。
          * （当可用结果超过50个时）要排除前50个结果，请单击 **[!UICONTROL Exclude these 50]**. 要排除所有搜索结果，请单击 **[!UICONTROL Exclude these \<*NN *\>]**.
    * 要输入域名，请执行以下操作：
       1. 单击 **[!UICONTROL Paste]**.
@@ -289,7 +289,7 @@ ht-degree: 0%
       1. 单击 **[!UICONTROL Search]**.
       1. 输入关键字、选择站点层和/或选择站点类别。
       1. 在搜索结果中，选择要包含的站点：
-         * 要排除单个站点，请选中该站点旁边的复选框。
+         * 要排除单个站点，请选中相邻复选框。
          * （当可用结果超过50个时）要包含前50个结果，请单击 **[!UICONTROL Include these 50]**. 要包含所有搜索结果，请单击 **[!UICONTROL Include these \<*NN *\>]**.
    * 要输入域名，请执行以下操作：
       1. 单击 **[!UICONTROL Paste]**.

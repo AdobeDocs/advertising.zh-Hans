@@ -1,11 +1,11 @@
 ---
 title: 管理营销活动和广告组的受众目标
 description: 了解如何为您的配置和管理受众目标 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 营销活动和广告组。
-exl-id: 0016a69c-7642-4060-8125-947ffef6fb03
+exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
       1. （可选）要按名称中包含的文本字符串筛选营销活动列表或广告组列表，请单击 ![筛选](/help/search-social-commerce/assets/filter.png "筛选") ，输入文本字符串或将文本字符串粘贴到输入字段中，然后按 **[!UICONTROL Enter]** 键。
 
-      1. 通过单击指定广告网络旁边的空圆圈，使用蓝色复选标记(![选择](/help/search-social-commerce/assets/include.png "选择"))中显示。
+      1. 通过单击相邻的空圆圈，使用蓝色复选标记(![选择](/help/search-social-commerce/assets/include.png "选择"))中显示。
 
       您不能同时为父营销活动和子广告组（自动使用目标）配置目标。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->当父营销活动使用CPC竞价策略并且位于配置为自动优化受众目标竞价调整值的项目组合中时，“搜索”、“Social”和“Commerce”会自动优化竞价修饰符。
+>当父营销活动使用CPC竞价策略并且在配置为自动优化受众目标竞价调整值的项目组合中时，Search、Social和Commerce会自动优化竞价修饰符。
 
 1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. 在子菜单中，单击 **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
 

@@ -3,9 +3,9 @@ title: ’[!DNL Google Ads] 营销活动设置
 description: 引用设置 [!DNL Google Ads] 营销活动。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: '2426'
 ht-degree: 0%
 
 ---
@@ -136,9 +136,9 @@ ht-degree: 0%
 
    * （国家/地区、州/省、大都市区域或城市）单击 **[!UICONTROL Location Target]** (![位置目标](/help/search-social-commerce/assets/location-target.png "位置目标"))并找到要包含和排除的位置：
 
-      * 要包括一个位置及其子位置，请单击它旁边的圆圈一次，以便显示一个蓝色复选标记(![包括](/help/search-social-commerce/assets/include.png "包括"))中显示。
+      * 要包括一个位置及其子位置，请单击相邻圆圈一次，以便显示一个蓝色复选标记(![包括](/help/search-social-commerce/assets/include.png "包括"))中显示。
 
-      * 要排除某个位置，请单击该位置旁边的圆圈两次，以便显示一个红色复选标记(![排除](/help/search-social-commerce/assets/exclude.png "排除"))中显示。
+      * 要排除某个位置，请单击相邻圆圈两次，以便显示红色复选标记(![排除](/help/search-social-commerce/assets/exclude.png "排除"))中显示。
 
       * 要将位置展开到其子组件中（例如美国的州、都市区或城市），请单击位置名称。
 

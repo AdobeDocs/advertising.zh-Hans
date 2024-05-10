@@ -1,11 +1,11 @@
 ---
 title: 关联 [!DNL Google Ads] 与营销活动或广告组共享标注
 description: 了解如何分配 [!DNL Google Ads] 共享到营销活动或广告组的标注扩展。
-exl-id: 17ee3de7-562e-4ed4-bf03-3b5e728d8a68
+exl-id: 9b3b8454-da14-4506-a92c-6796dd5fe903
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
       * （可选）要按名称中包含的文本字符串筛选营销活动列表或广告组列表，请单击 ![筛选](/help/search-social-commerce/assets/filter.png "筛选")，输入文本字符串或将文本字符串粘贴到输入字段中，然后按 **输入** 键。
 
-      * 要选取图元，请单击其旁边的圆(![选择](/help/search-social-commerce/assets/include.png "选择"))。
+      * 要选取图元，请单击相邻的圆(![选择](/help/search-social-commerce/assets/include.png "选择"))。
 
    1. 单击 **[!UICONTROL Post]**.
 

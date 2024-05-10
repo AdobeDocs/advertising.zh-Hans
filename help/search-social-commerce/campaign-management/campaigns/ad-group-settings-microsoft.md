@@ -3,9 +3,9 @@ title: ’[!DNL Microsoft® Advertising] 广告组设置
 description: 引用设置 [!DNL Microsoft® Advertising] 广告组。
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -76,33 +76,33 @@ ht-degree: 0%
 
 * 要定位所有值，请勿选择任何值。
 
-* 要包括一个值，请单击它旁边的圆圈一次，以便显示一个蓝色复选标记(![包括](/help/search-social-commerce/assets/include.png "包括"))中显示。 您可以选择按每个性别目标的指定百分比增加或减少竞价。
+* 要包括一个值，请单击相邻圆圈一次，以便显示一个蓝色复选标记(![包括](/help/search-social-commerce/assets/include.png "包括"))中显示。 您可以选择按每个性别目标的指定百分比增加或减少竞价。
 
-* 要排除某个值，请单击它旁边的圆圈两次，以便显示一个红色复选标记(![排除](/help/search-social-commerce/assets/exclude.png "排除"))中显示。
+* 要排除某个值，请单击相邻圆圈两次，以便显示红色复选标记(![排除](/help/search-social-commerce/assets/exclude.png "排除"))中显示。
 
 **[!UICONTROL Age]：** （受众广告组；可选）要作为目标包含或排除的特定年龄类别： *[!UICONTROL 18-24]*， *[!UICONTROL 25-34]*， *[!UICONTROL 35-49]*， *[!UICONTROL 50-64]*， *[!UICONTROL 65+]*、和 *[!UICONTROL Unknown]*. 默认情况下，会定位所有年龄。 排除项始终会覆盖包含项。
 
 * 要定位所有值，请勿选择任何值。
 
-* 要包括一个值，请单击它旁边的圆圈一次，以便显示一个蓝色复选标记(![包括](/help/search-social-commerce/assets/include.png "包括"))中显示。 您可以选择按指定百分比增加或减少每个目标年龄的竞价。
+* 要包括一个值，请单击相邻圆圈一次，以便显示一个蓝色复选标记(![包括](/help/search-social-commerce/assets/include.png "包括"))中显示。 您可以选择按指定百分比增加或减少每个目标年龄的竞价。
 
-* 要排除某个值，请单击它旁边的圆圈两次，以便显示一个红色复选标记(![排除](/help/search-social-commerce/assets/exclude.png "排除"))中显示。
+* 要排除某个值，请单击相邻圆圈两次，以便显示红色复选标记(![排除](/help/search-social-commerce/assets/exclude.png "排除"))中显示。
 
 **[!UICONTROL Industry]：** （受众广告组；可选）要作为目标包含或排除的特定行业。 默认情况下，所有行业都是目标行业。 排除项始终会覆盖包含项。
 
 * 要定位所有值，请勿选择任何值。
 
-* 要包括一个值，请单击它旁边的圆圈一次，以便显示一个蓝色复选标记(![包括](/help/search-social-commerce/assets/include.png "包括"))中显示。 您可以选择按指定百分比增加或减少每个目标行业的竞价。
+* 要包括一个值，请单击相邻圆圈一次，以便显示一个蓝色复选标记(![包括](/help/search-social-commerce/assets/include.png "包括"))中显示。 您可以选择按指定百分比增加或减少每个目标行业的竞价。
 
-* 要排除某个值，请单击它旁边的圆圈两次，以便显示一个红色复选标记(![排除](/help/search-social-commerce/assets/exclude.png "排除"))中显示。
+* 要排除某个值，请单击相邻圆圈两次，以便显示红色复选标记(![排除](/help/search-social-commerce/assets/exclude.png "排除"))中显示。
 
 **[!UICONTROL Job Function Targets]：** （受众广告组；可选）要作为目标包含或排除的特定工作职能。 默认情况下，所有工作职能都是定向的。 排除项始终会覆盖包含项。
 
 * 要定位所有值，请勿选择任何值。
 
-* 要包括一个值，请单击它旁边的圆圈一次，以便显示一个蓝色复选标记(![包括](/help/search-social-commerce/assets/include.png "包括"))中显示。 您可以选择按指定百分比增加或减少每个目标工作职能的竞价。
+* 要包括一个值，请单击相邻圆圈一次，以便显示一个蓝色复选标记(![包括](/help/search-social-commerce/assets/include.png "包括"))中显示。 您可以选择按指定百分比增加或减少每个目标工作职能的竞价。
 
-* 要排除某个值，请单击它旁边的圆圈两次，以便显示一个红色复选标记(![排除](/help/search-social-commerce/assets/exclude.png "排除"))中显示。
+* 要排除某个值，请单击相邻圆圈两次，以便显示红色复选标记(![排除](/help/search-social-commerce/assets/exclude.png "排除"))中显示。
 
 ## [!UICONTROL URL Options]
 
