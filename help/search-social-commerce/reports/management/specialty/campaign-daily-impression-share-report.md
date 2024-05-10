@@ -1,18 +1,18 @@
 ---
-title: '[!UICONTROL Campaign Daily Impression Share Report]'
+title: ’[!UICONTROL Campaign Daily Impression Share Report]’
 description: 了解 [!UICONTROL Campaign Daily Impression Share Report].
-exl-id: 85243fd0-0c39-4e73-b798-48710f887985
+exl-id: 0c77277f-e4a8-4c4b-83e8-0ad83402d81f
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Campaign Daily Impression Share Report]
 
-*[!DNL Google Ads]和 [!DNL Microsoft® Advertising] 仅限帐户*
+*[!DNL Google Ads]和 [!DNL Microsoft Advertising] 仅限帐户*
 
 此 [!UICONTROL Campaign Daily Impression Share Report] 包括一个或多个营销活动的按设备类型划分的每日展示份额量度。 默认情况下，指定日期范围内每天至少收到一次展示或点击的每个营销活动的数据包括一行，这些行按日期以升序排列。 报告可以选择包含由以下各项跟踪的数据 [!DNL Adobe] 和派生量度。
 

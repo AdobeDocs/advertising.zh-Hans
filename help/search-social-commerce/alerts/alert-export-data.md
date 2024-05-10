@@ -1,9 +1,9 @@
 ---
 title: 导出自定义警报的数据
 description: 了解如何将触发警报的数据导出到文件。
-exl-id: c6c3d977-8ee8-4393-a6c7-8f7b9ca5c913
+exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 导出自定义警报的数据
 
-您可以将触发的警报的数据或最近触发的警报模板的数据导出为 [!DNL Microsoft® Excel] 工作簿([XLS](/help/search-social-commerce/glossary.md#w-x) 文件)，以制表符分隔的值([TSV](/help/search-social-commerce/glossary.md#s-t))文件或逗号分隔的值([CSV](/help/search-social-commerce/glossary.md#c-d))文件。 触发警报后，可下载报告会保留十天，之后将自动删除。
+您可以将触发的警报的数据或最近触发的警报模板的数据导出为 [!DNL Microsoft Excel] 工作簿([XLS](/help/search-social-commerce/glossary.md#w-x) 文件)，以制表符分隔的值([TSV](/help/search-social-commerce/glossary.md#s-t))文件或逗号分隔的值([CSV](/help/search-social-commerce/glossary.md#c-d))文件。 触发警报后，可下载报告会保留十天，之后将自动删除。
 
 1. 执行以下任一操作：
 

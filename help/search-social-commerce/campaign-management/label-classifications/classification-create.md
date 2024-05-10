@@ -1,11 +1,11 @@
 ---
 title: 创建标签分类
 description: 了解如何创建标签分类以将您的帐户组件分组。
-exl-id: a7f6ca43-e829-4295-96bc-27ce8858227a
+exl-id: 227f44d7-c422-4baa-94ff-6deafcddf920
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 输入唯一的标签分类名称，然后单击 **[!UICONTROL Save]**.
 
-   该名称对于广告商帐户必须是唯一的，并且包含 [ASCII字符32-126](https://www.asciitable.com/)，最大长度为27个单字节字符。 名称不能与现有报表列或现有批量处理工作表列的名称相同。 查看批量工作表列的名称，以了解 [百度](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)， [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)， [Microsoft® Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)， [导航](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)， [雅虎！ 日本广告](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)， [雅虎！ 显示网络](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)、和 [扬代克斯](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
+   该名称对于广告商帐户必须是唯一的，并且包含 [ASCII字符32-126](https://www.asciitable.com/)，最大长度为27个单字节字符。 名称不能与现有报表列或现有批量处理工作表列的名称相同。 查看批量工作表列的名称，以了解 [百度](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)， [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)， [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)， [导航](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)， [雅虎！ 日本广告](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)， [雅虎！ 显示网络](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)、和 [扬代克斯](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
 
 创建标签分类后，您可以为该分类创建特定的标签值，并从将标签值分配给帐户实体。 [营销活动管理视图](classification-values-assign-campaign-management.md) 或 [使用批量处理工作表](classification-values-assign-bulksheets.md).
 

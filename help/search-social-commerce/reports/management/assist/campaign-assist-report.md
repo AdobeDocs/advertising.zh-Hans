@@ -1,18 +1,18 @@
 ---
-title: '[!UICONTROL Campaign Assist Report]'
+title: ’[!UICONTROL Campaign Assist Report]’
 description: 了解 [!UICONTROL Campaign Assist Report].
-exl-id: 7fbc9c17-c77d-485b-8d51-5e5a153d7a2b
+exl-id: c89b4c9f-16d5-4e1a-a73f-6cc99dd3f526
 feature: Search Reports, Search Assist Reports
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
 
 # 此 [!UICONTROL Campaign Assist Report]
 
-*具有搜索、社交和商务点击跟踪以及来自Adobe Advertising的转化跟踪的广告商，Adobe Analytics(具有 [!DNL Analytics] 集成)，或使用令牌在馈送中提供(`ef_id`)仅限*
+*具有搜索、社交和Commerce点击跟踪的广告商，以及具有来自Adobe Advertising、Adobe Analytics(具有 [!DNL Analytics] 集成)，或使用令牌在馈送中提供(`ef_id`)仅限*
 
 此 [!UICONTROL Campaign Assist Report] 指示哪些营销活动协助了转换过程。 报告其广告导致一次或多次转化的每种营销活动模式对您的整体转化率的贡献情况。 例如，您可以查看当用户首先看到来自促销活动A的广告，然后单击来自促销活动B的广告，然后下达订单时发生的转化次数。 同样，您可以查看用户与10个以上营销活动的广告交互后发生的转化次数。
 
@@ -46,9 +46,9 @@ ht-degree: 0%
 | [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[转化量度\] | 自动 | （在报表设置中不可用，但自动包含在报表输出中）从上一个事件（在最后一个营销活动中）到转化的平均延迟（以天为单位）。 |
 | [!UICONTROL EF Campaign ID] | 自定义 | Search、Social和Commerce分配给营销活动的数值ID。 |
 | [!UICONTROL EF Portfolio Group ID] | 自定义 | 项目组合所属的项目组合组的数值ID。 |
-| [!UICONTROL EF Search Engine ID] | 自定义 | 搜索、社交和商务分配给广告网络的数值ID： <i>[!UICONTROL 3]</i> 对象 [!DNL Google Ads]， <i>[!UICONTROL 10]</i> 对象 [!DNL Microsoft® Advertising]， <i>[!UICONTROL 45]</i> 对象 [!DNL Meta]， <i>[!UICONTROL 86]</i> 对象 [!DNL Yahoo! Display Network]， <i>[!UICONTROL 87]</i> 对象 [!DNL Naver]， <i>[!UICONTROL 88]</i> 对象 [!DNL Baidu]， <i>[!UICONTROL 90]</i> 对象 [!DNL Yandex]， <i>[!UICONTROL 94]</i> 对象 [!DNL Yahoo! Japan Ads]， <i>[!UICONTROL 105]</i> 对象 [!DNL Yahoo Native] （已弃用），或 <i>[!UICONTROL 106]</i> 对象 [!DNL Pinterest] （已弃用）。 |
+| [!UICONTROL EF Search Engine ID] | 自定义 | Search、Social和Commerce分配给广告网络的数值ID： <i>[!UICONTROL 3]</i> 对象 [!DNL Google Ads]， <i>[!UICONTROL 10]</i> 对象 [!DNL Microsoft Advertising]， <i>[!UICONTROL 45]</i> 对象 [!DNL Meta]， <i>[!UICONTROL 86]</i> 对象 [!DNL Yahoo! Display Network]， <i>[!UICONTROL 87]</i> 对象 [!DNL Naver]， <i>[!UICONTROL 88]</i> 对象 [!DNL Baidu]， <i>[!UICONTROL 90]</i> 对象 [!DNL Yandex]， <i>[!UICONTROL 94]</i> 对象 [!DNL Yahoo! Japan Ads]， <i>[!UICONTROL 105]</i> 对象 [!DNL Yahoo Native] （已弃用），或 <i>[!UICONTROL 106]</i> 对象 [!DNL Pinterest] （已弃用）。 |
 | [!UICONTROL Portfolio ID] | 数值项目组合ID。 |
-| [!UICONTROL User SE Account ID] | 搜索、社交和商务分配给广告网络的数值ID。 |
+| [!UICONTROL User SE Account ID] | Search、Social和Commerce分配给广告网络的数值ID。 |
 
 >[!MORELIKETHIS]
 >

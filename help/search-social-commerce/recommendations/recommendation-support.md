@@ -3,7 +3,7 @@ title: 关于发布者推荐和见解支持
 description: 了解对查看和管理发布者推荐和见解的支持。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: d6808281dc3ba26a48ae33079c2f411705f43ddd
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # 关于发布者推荐和见解支持
 
-*[!DNL Google Ads]和 [!DNL Microsoft® Advertising] 帐户*
+*[!DNL Google Ads]和 [!DNL Microsoft Advertising] 帐户*
 
-*的Beta版功能 [!DNL Microsoft® Advertising] 帐户*
+*的Beta版功能 [!DNL Microsoft Advertising] 帐户*
 
-[!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 建议和见解是广告网络中的建议，有助于提高营销活动的性能和效率：
+[!DNL Google Ads] 和 [!DNL Microsoft Advertising] 建议和见解是广告网络中的建议，有助于提高营销活动的性能和效率：
 
 * 每个 [!DNL Google Ads] “推荐”根据您帐户的性能历史记录、促销活动设置和以下方面的趋势，提供关于促销活动不同性能方面（从添加资产到增加预算）的自定义建议 [!DNL Google Ads].
 
-* 每个 [!DNL Microsoft® Advertising] 性能洞察和推荐可提出更改建议，以根据机器学习算法和最佳实践优化促销活动性能。
+* 每个 [!DNL Microsoft Advertising] 性能洞察和推荐可提出更改建议，以根据机器学习算法和最佳实践优化促销活动性能。
 
 ## 此 [!UICONTROL Recommendations & Publisher Insights] 视图
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
   在打开视图时，数据可实时使用。 要刷新数据，请单击 ![刷新](/help/search-social-commerce/assets/refresh.png "刷新") 在页面的左下角。
 
-* 对象 [!DNL Microsoft® Advertising] 帐户，查看过去30天生成的每个性能洞察概览 [!DNL Microsoft® Advertising] 帐户。 “见解”可提供与推荐类似的信息，但采用不同的格式。 每个洞察都包括日期、问题描述、受影响的实体、根本原因（可能包括指向更多详细信息的链接）以及带有打开 [!DNL Microsoft® Advertising] 编辑器，您可以从中对特定见解执行操作。
+* 对象 [!DNL Microsoft Advertising] 帐户，查看过去30天生成的每个性能洞察概览 [!DNL Microsoft Advertising] 帐户。 “见解”可提供与推荐类似的信息，但采用不同的格式。 每个洞察都包括日期、问题描述、受影响的实体、根本原因（可能包括指向更多详细信息的链接）以及带有打开 [!DNL Microsoft Advertising] 编辑器，您可以从中对特定见解执行操作。
 
 * 查看有关推荐的详细信息，并直接应用或驳回该推荐。
 

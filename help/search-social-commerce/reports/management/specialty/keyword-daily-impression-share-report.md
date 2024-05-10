@@ -1,18 +1,18 @@
 ---
-title: '[!UICONTROL Keyword Daily Impression Share Report]'
+title: ’[!UICONTROL Keyword Daily Impression Share Report]’
 description: 了解 [!UICONTROL Keyword Daily Impression Share Report].
-exl-id: 177f7c9e-407f-4200-90a6-57b2fd569cf4
+exl-id: 761864db-a6ef-4155-8959-6c2c90f14a6b
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Keyword Daily Impression Share Report]
 
-*[!DNL Google Ads]和 [!DNL Microsoft® Advertising] 仅限帐户*
+*[!DNL Google Ads]和 [!DNL Microsoft Advertising] 仅限帐户*
 
 此 [!UICONTROL Keyword Daily Impression Share Report] 包括每个关键字的每日展示份额量度、相应的匹配类型以及一个或多个广告组或营销活动的相应设备类型。 默认情况下，对于指定日期范围内的每一天，每个关键字、匹配类型和设备都包含一行，该行针对每个适用的广告组至少接收一次展示或点击。 默认情况下，行按日期升序。 报告可以选择包含由以下各项跟踪的数据 [!DNL Adobe] 和派生量度。
 

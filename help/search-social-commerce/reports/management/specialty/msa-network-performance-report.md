@@ -3,22 +3,22 @@ title: 此 [!UICONTROL MSA Network Performance Report]
 description: 了解 [!UICONTROL MSA Network Performance Report].
 feature: Search Reports, Search Specialty Reports
 exl-id: da2b85e9-5e78-4a1c-9268-8686f025e80c
-source-git-commit: 22fd10dec43c43c6f03860e6e4839a8bb8d56017
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
 # 此 [!UICONTROL MSA Network Performance Report]
 
-*[!DNL Microsoft® Advertising]仅限帐户*
+*[!DNL Microsoft Advertising]仅限帐户*
 
-此报表显示促销活动级别的绩效(成本、点击次数、展示次数和 [!DNL Microsoft® Advertising] — 跟踪的收入)，按指定的广告分发（搜索或受众）分类 [!DNL Microsoft® Advertising] 帐户。
+此报表显示促销活动级别的绩效(成本、点击次数、展示次数和 [!DNL Microsoft Advertising] — 跟踪的收入)，按指定的广告分发（搜索或受众）分类 [!DNL Microsoft Advertising] 帐户。
 
 当运行仅具有指标列而没有维度的报表时，生成的报表包含两个重复的行：一个包含汇总数据，另一个包含所有指标。
 
-您可以查看过去180天的数据。 搜索、社交和商务从提取数据 [!DNL Microsoft Advertising] 实时，生成具有较大数据量的报告可能需要几分钟的时间。
+您可以查看过去180天的数据。 搜索、社交和Commerce从提取数据 [!DNL Microsoft Advertising] 实时，生成具有较大数据量的报告可能需要几分钟的时间。
 
 >[!NOTE]
 >

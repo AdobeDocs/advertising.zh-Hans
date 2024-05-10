@@ -1,9 +1,9 @@
 ---
 title: 创建 [!DNL Excel] 电子表格报表馈送模板
 description: 了解如何创建特别格式化的电子表格模板。
-exl-id: d675cb8c-b7a9-4d7b-8435-5dd662d151a3
+exl-id: 74bf3cdf-7d56-431a-8aff-11ed3840a7cd
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *仅用于基本报表和模型准确性报表*
 
-要创建电子表格馈送，您必须首先创建特别格式化的馈送 [!DNL Microsoft® Excel] 电子表格模板。 您可以选择自定义 [!DNL Excel] 电子表格以包含其他列和图形。
+要创建电子表格馈送，您必须首先创建特别格式化的馈送 [!DNL Microsoft Excel] 电子表格模板。 您可以选择自定义 [!DNL Excel] 电子表格以包含其他列和图形。
 
 1. 在 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**，使用生成所需的报表类型 [!UICONTROL Date Aggregation] “”的单位[!UICONTROL Daily]”和所有其他所需的数据参数，将报表另存为模板。
 

@@ -1,18 +1,18 @@
 ---
 title: 配置馈送数据设置
 description: 了解如何配置用于控制如何处理馈送数据的设置。
-exl-id: fc72d1bc-aac7-4280-80c6-4fc53a96a49f
+exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
 
 # 配置馈送数据设置
 
-*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads] （仅删除操作），以及 [!DNL Yandex] 仅限帐户*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads] （仅删除操作），以及 [!DNL Yandex] 仅限帐户*
 
 您可以通过馈送设置配置如何处理馈送数据文件中的广告组、关键字和广告，以及如何专门在FTP文件中处理数据。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 * *[!UICONTROL None]* （默认）：不更改现有组件。
 
-**[!UICONTROL Missing line items in an FTP feed/GMC account]：** 如何处理现有项目，条件是1)它们不包括a)在上传到FTP目录的新馈送文件中；b)在下次Search、Social和Commerce与其同步时存在于商户中心帐户中；或者2)它们不根据 [!UICONTROL Map Only] 设置。
+**[!UICONTROL Missing line items in an FTP feed/GMC account]：** 如何处理现有项目，条件是1)它们不包括a)在上传到FTP目录的新信息源文件中；b)下次搜索、社交和Commerce与其同步时，商户中心帐户中不包括这些项目；或者2)它们未根据 [!UICONTROL Map Only] 设置。
 
 * *[!UICONTROL Delete]：* 删除现有组件。
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 对于FTP文件，信息源服务每两小时在FTP目录中检查一次更新（PST时区中的小时数偶数）。 此选项处理自上次检查以来上载的所有文件。
->* 对于商户中心帐户，搜索、社交和商务每天在广告商所在时区的大约06:00与帐户同步。 此选项处理自上次同步以来更新的所有数据。
+>* 对于商户中心帐户，Search、Social和Commerce每天在广告商所在时区的约06:00与帐户同步。 此选项处理自上次同步以来更新的所有数据。
 >* 传播的数据可从以下位置获得： [!UICONTROL Campaigns]， [!UICONTROL Ad Groups]， [!UICONTROL Keywords]、和 [!UICONTROL Ads] 选项卡，直到数据被发布到广告网络或 [!UICONTROL Bulksheets] 视图。
 
 **[!UICONTROL Post to the SE]：** （通过FTP或商户中心帐户上传数据文件的广告商）在通过适用的模板传播新数据后，为相关广告网络自动以正确格式创建批量处理工作表文件。 此选项还会从以下位置删除数据： [!UICONTROL Campaigns]， [!UICONTROL Ad Groups]， [!UICONTROL Keywords]、和 [!UICONTROL Ads] 选项卡，除非任何子组件出错。

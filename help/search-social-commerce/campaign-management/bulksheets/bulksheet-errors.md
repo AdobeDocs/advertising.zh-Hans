@@ -1,11 +1,11 @@
 ---
 title: 批量处理工作表错误
 description: 参考每个批量工作表错误的潜在原因。
-exl-id: 0a259aca-2e9a-4e24-b4db-f8d0249d25d4
+exl-id: dc3559b0-05c0-4896-b9e9-67084f56ab80
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Search、Social和Commerce在批量处理工作表操作期间生成两种类型
 | 类别 | 消息 | 描述 |
 |----|----|----|
 | 常规 | [!UICONTROL Internal Error: Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | 由于未分类或未处理的错误，该操作完全失败。 如果问题仍然存在，请与Adobe客户团队联系以调查原因。 |
-| | [!UICONTROL Pre-Sync Failed. Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | 在创建批量工作表之前，搜索、社交和商务无法与广告网络同步，因此未创建批量工作表。 如果问题仍然存在，请与您的Adobe客户团队联系。 |
+| | [!UICONTROL Pre-Sync Failed. Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | 在创建批量工作表之前，搜索、社交和Commerce无法与广告网络同步，因此未创建批量工作表。 如果问题仍然存在，请与您的Adobe客户团队联系。 |
 
 ### 上载错误
 
@@ -43,15 +43,15 @@ Search、Social和Commerce在批量处理工作表操作期间生成两种类型
 |----|----|----|
 | 常规 | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | 操作完全失败。 如果问题仍然存在，请与您的Adobe客户团队联系。 |
 | 所有实体 | [!UICONTROL Invalid Fields.] \[无效字段和错误\] | 指定的数据缺失或无效。 |
-|  | [!UICONTROL Invalid Reference Given] | 实体在广告网络中的ID或父实体的ID（例如帐户ID）与搜索、社交和商务中的实体不对应。 在批量处理工作表中编辑ID时，可能会发生这种情况。 |
+|  | [!UICONTROL Invalid Reference Given] | 实体在广告网络中的ID或父实体的ID（例如帐户ID）与搜索、社交和Commerce中的实体不对应。 在批量处理工作表中编辑ID时，可能会发生这种情况。 |
 |  | [!UICONTROL <Entity> is deleted or expired] | 实体已过期或已删除，您无法更改其属性。 当有人手动编辑状态时，可能会删除该实体。 |
 |  | [!UICONTROL <Entity> status should be Active or Paused] | （新实体）新实体只能为“活动”或“已暂停”。 |
 |  | [!UICONTROL Duplicate Entries are present] | 同一实体包含多行，每行都具有不同的属性。 将更改合并为一行。 |
 |  | [!UICONTROL Invalid AMO ID given] | 行的AMO ID不存在。 如果您在批量处理工作表中编辑了ID，则可能会发生这种情况。 |
 |  | [!UICONTROL Invalid row given] | 行包含的信息不足以确定实体类型。 编辑该行以包含实体类型的所有必填字段。 |
 | 帐户 | [!UICONTROL Provide Valid Account Details] | （多个帐户的批量工作表）帐户标识符未包含在所有行中。 为每行输入以下任一列组合的值：a) &quot;[!UICONTROL AMO ID]“或b) ”[!UICONTROL Account Name]”和“[!UICONTROL Platform]“ |
-|  | [!UICONTROL Account is disabled. Disabled Accounts cannot be processed] | 搜索、Social和Commerce无权访问广告网络帐户，因此您无法创建或编辑营销活动数据。 确保搜索帐户的凭据正确且帐户已启用。 |
-| 营销活动 | [!UICONTROL Invalid Shopping Country specified] | （购物营销活动） ”中的值[!UICONTROL Sales Country]“字段无效。 查看有效国家/地区的列表 [对象 [!DNL Google Ads]](https://support.google.com/merchants/answer/160637#countrytable) 和 [对象 [!DNL Microsoft® Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083). |
+|  | [!UICONTROL Account is disabled. Disabled Accounts cannot be processed] | 搜索、社交和Commerce无法访问广告网络帐户，因此您无法创建或编辑营销活动数据。 确保搜索帐户的凭据正确且帐户已启用。 |
+| 营销活动 | [!UICONTROL Invalid Shopping Country specified] | （购物营销活动） ”中的值[!UICONTROL Sales Country]“字段无效。 查看有效国家/地区的列表 [对象 [!DNL Google Ads]](https://support.google.com/merchants/answer/160637#countrytable) 和 [对象 [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083). |
 | 所有营销活动组件 | [!UICONTROL Campaign creation failed] | 未创建父营销活动，因此未创建此实体。 确保所有父实体都包含所有必填字段。 |
 | 广告组 | [!UICONTROL Campaign Row missing] | 指定的父营销活动不存在，因此未创建广告组。 在新行中创建父营销活动。 |
 |  | [!UICONTROL New adgroup has both keywords and placement] | 广告组可以包含关键字或投放位置，但不能同时包含关键字和投放位置。 为关键词和投放位置创建单独的广告组。 |
@@ -83,7 +83,7 @@ Search、Social和Commerce在批量处理工作表操作期间生成两种类型
 | 类别 | 消息 | 描述 |
 |----|----|----|
 | 常规 | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | 操作完全失败。 如果问题仍然存在，请与您的Adobe客户团队联系。 |
-| 所有实体 | [!UICONTROL Entity] 发布到广告网络 | 实体已发布到广告网络，但未同时同步到搜索、社交和商务，因此实体数据无法立即在搜索、社交和商务中可用。 同步过程现在将自动触发。<br><br>当同步大量数据时，数据可能在Search、Social和Commerce中持续数小时或更长时间不可用。 |
+| 所有实体 | [!UICONTROL Entity] 发布到广告网络 | 实体已发布到广告网络，但未同时同步到Search、Social和Commerce，因此实体数据无法立即在Search、Social和Commerce中可用。 同步过程现在将自动触发。<br><br>当同步大量数据时，数据可能在Search、Social和Commerce中持续数小时或更长时间不可用。 |
 | | [!UICONTROL Skipping <ENTITY> creation since <PARENT ENTITY> creation failed.] | 无法创建父实体，因此未创建此子实体。 |
 
 >[!MORELIKETHIS]

@@ -3,7 +3,7 @@ title: 有关营销活动的常见问题解答
 description: 查看有关营销活动管理和营销活动数据视图的问题的答案。
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: 295d576cff59f1313a317473db6e5f271d55e7da
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 * ([!DNL Baidu]， [!DNL Google Ads]、和 [!DNL Yandex])编辑关键字名称。
 
-* ([!DNL Google Ads]， [!DNL Microsoft® Advertising]、和 [!DNL Yandex])更改关键字的匹配类型。
+* ([!DNL Google Ads]， [!DNL Microsoft Advertising]、和 [!DNL Yandex])更改关键字的匹配类型。
 
 * 可在广告组之间移动关键字。
 
-* ([!DNL Google Ads] 动态搜索广告， [!DNL Microsoft® Advertising] 扩展的文本广告和其他支持的广告网络上的所有广告类型)您可以编辑广告文案（标题/标题或描述）或广告图像。
+* ([!DNL Google Ads] 动态搜索广告， [!DNL Microsoft Advertising] 扩展的文本广告和其他支持的广告网络上的所有广告类型)您可以编辑广告文案（标题/标题或描述）或广告图像。
 
 * 您可以在广告组之间移动广告。
 
@@ -67,12 +67,12 @@ ht-degree: 0%
 
 +++([!DNL Google Ads] campaigns)更改我的报表包的显示名称 [!DNL Google]-tracked转化已恢复。
 
-如果您在“搜索”、“Social”和“Commerce”中更改转化量度的显示名称，则您所做的更改将被中配置的名称覆盖。 [!DNL Google Ads]. 在内进行任何名称更改 [!DNL Google Ads].
+如果您在“搜索”、“社交”和“Commerce”中更改转化量度的显示名称，则您所做的更改将被中配置的名称覆盖。 [!DNL Google Ads]. 在内进行任何名称更改 [!DNL Google Ads].
 +++
 
 +++(Google广告营销活动)是否可以在项目组合中使用营销活动的共享预算？
 
-为了获得最佳结果，请勿添加 [!DNL Google Ads] 促销活动到 [!DNL Google Ads] 共享预算（如果他们位于配置的优化项目组合中）”[!UICONTROL Auto adjust campaign budget limits]“ 如果你愿意， [!DNL Google Ads] 覆盖“搜索、社交和商务”优化的活动预算，这可能导致竞价效率低下。
+为了获得最佳结果，请勿添加 [!DNL Google Ads] 促销活动到 [!DNL Google Ads] 共享预算（如果他们位于配置的优化项目组合中）”[!UICONTROL Auto adjust campaign budget limits]“ 如果你愿意， [!DNL Google Ads] 覆盖“搜索”、“社交”和“Commerce”优化的活动预算，这可能导致竞价效率低下。
 +++
 
 +++([!DNL Google Ads] 营销活动)是否可以将移动用户和非移动用户发送到不同的登陆页面？
@@ -87,7 +87,7 @@ ht-degree: 0%
 
   例如， `http://www.example.{ifmobile:mobi}{ifnotmobile:com}` 将移动用户转至www.example.mobi，非移动用户转至www.example.com。
 
-在这两种情况下，包含搜索、社交和商务跟踪的基本URL都包含未编码的 `{}` 标记以及附加到基本URL的任何其他参数。
+在这两种情况下，包含搜索、社交和Commerce跟踪的基本URL都包含未编码的 `{}` 标记以及附加到基本URL的任何其他参数。
 
 >[!NOTE]
 >
@@ -115,18 +115,18 @@ ht-degree: 0%
 
 +++
 
-+++([!DNL Google Ads] 和 [!DNL Microsoft® Advertising])搜索、社交和商务是否支持对中的广告进行并行跟踪 [!DNL Google Ads] 或 [!DNL Microsoft® Advertising]？ {#parallel-tracking}
++++([!DNL Google Ads] 和 [!DNL Microsoft Advertising])搜索、社交和Commerce是否支持在中对广告进行并行跟踪 [!DNL Google Ads] 或 [!DNL Microsoft Advertising]？ {#parallel-tracking}
 
 并行跟踪可将客户直接从您的广告发送到最终URL，其中可能包括来自最终URL后缀或“登陆页面后缀”的附加参数。 跟踪模板URL（包含用于点击测量的其他参数）将在后台单独加载；因此，登陆页面加载速度更快。
 
-搜索、社交和商务支持使用广告网络的点击标识符(`msclkid` 对象 [!DNL Microsoft® Advertising]； `gclid` 对象 [!DNL Google Ads])。 使用 [帐户级别](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) 或 [营销活动级别](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (称为“[!DNL final URL suffix]&quot;)，附加到登陆页面URL中，以跟踪来自支持并行跟踪的浏览器的子广告点击次数。 请参阅 [所需的后缀格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [所需的后缀格式 [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+搜索、社交和Commerce支持使用广告网络的点击标识符(`msclkid` 对象 [!DNL Microsoft Advertising]； `gclid` 对象 [!DNL Google Ads])。 使用 [帐户级别](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) 或 [营销活动级别](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (称为“[!DNL final URL suffix]&quot;)，附加到登陆页面URL中，以跟踪来自支持并行跟踪的浏览器的子广告点击次数。 请参阅 [所需的后缀格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [所需的后缀格式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
-当用户在不支持并行跟踪的浏览器上查看您的广告时，广告网络而是使用顺序跟踪：客户首先被发送到您的跟踪模板URL，这会将客户重定向到中间跟踪服务器，然后再将他们重定向到最终URL（可能会在登陆页面后缀中包含其他参数）。 广告网络帐户的所有跟踪模板都应包含您在中使用的相同点击标识符参数 [!UICONTROL Landing Page Suffix]. 请参阅 [跟踪模板格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [跟踪模板格式 [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+当用户在不支持并行跟踪的浏览器上查看您的广告时，广告网络而是使用顺序跟踪：客户首先被发送到您的跟踪模板URL，这会将客户重定向到中间跟踪服务器，然后再将他们重定向到最终URL（可能会在登陆页面后缀中包含其他参数）。 广告网络帐户的所有跟踪模板都应包含您在中使用的相同点击标识符参数 [!UICONTROL Landing Page Suffix]. 请参阅 [跟踪模板格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [跟踪模板格式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 +++
 
 +++为什么我的广告的跟踪URL包含&quot;`&EV_HASH={<hash>}`？”
 
-当您使用上传广告时 [产品库存馈送](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) 对于具有搜索、社交和商务像素重定向以及关键词和创意级别跟踪的帐户，搜索、社交和商务会将哈希参数和值添加到广告的跟踪模板或目标URL，以识别该广告是使用库存馈送功能创建的。
+当您使用上传广告时 [产品库存馈送](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) 对于具有“搜索”、“社交”和“Commerce”像素重定向以及关键词和创意级别跟踪的帐户，Search、“社交”和“Commerce”会将哈希参数和值添加到广告的跟踪模板或目标URL，以识别该广告是使用库存馈送功能创建的。
 +++
 
 ## 清单信息源

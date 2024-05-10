@@ -1,20 +1,20 @@
 ---
 title: 管理营销活动和广告组的受众目标
-description: 了解如何为您的配置和管理受众目标 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 营销活动和广告组。
+description: 了解如何为您的配置和管理受众目标 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 营销活动和广告组。
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 0%
 
 ---
 
-# 管理您的受众目标 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 营销活动和广告组
+# 管理您的受众目标 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 营销活动和广告组
 
-*[!DNL Google Ads]和 [!DNL Microsoft® Advertising] 仅限*
+*[!DNL Google Ads]和 [!DNL Microsoft Advertising] 仅限*
 
-[!DNL Google Ads] 营销活动和广告组，以及 [!DNL Microsoft® Advertising] 广告组可以定位来自同一广告网络的特定受众。 广告网络决定了受众必须有多大才能成为目标。
+[!DNL Google Ads] 营销活动和广告组，以及 [!DNL Microsoft Advertising] 广告组可以定位来自同一广告网络的特定受众。 广告网络决定了受众必须有多大才能成为目标。
 
 >[!NOTE]
 >

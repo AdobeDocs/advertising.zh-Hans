@@ -3,7 +3,7 @@ title: 管理库存馈送的广告模板
 description: 了解如何管理广告模板，通过这些模板可处理库存数据，以管理帐户结构和投放动态广告。
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 管理库存馈送的广告模板
 
-*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads] （仅删除操作），以及 [!DNL Yandex] 仅限帐户*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads] （仅删除操作），以及 [!DNL Yandex] 仅限帐户*
 
-在上传数据之前或之后，您可以创建特定于搜索引擎的广告模板，以便通过这些模板处理数据。 您可以为文字广告和扩展/扩展的文字广告创建模板， [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 响应式搜索广告，和 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 购物广告。
+在上传数据之前或之后，您可以创建特定于搜索引擎的广告模板，以便通过这些模板处理数据。 您可以为文字广告和扩展/扩展的文字广告创建模板， [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 响应式搜索广告，和 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 购物广告。
 
-您可以将每个模板与一个信息源文件关联， [!DNL Google Merchant Center] 帐户，或 [!DNL Microsoft® Merchant Center] 帐户，您可以将多个模板与同一信息源文件或帐户关联。 广告模板可以包含变量，这些变量会被上传文件或帐户中的实际数据列替换。 在大多数情况下，变量还可以包括 [修改者组](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) 您可以在Search、Social和Commerce中设置，为数据文件中的每个适用行创建多个广告、关键字、促销活动或广告组。 利用模板选项，可为广告创建新帐户结构（促销活动、广告组、关键词），或将广告映射到现有帐户结构。
+您可以将每个模板与一个信息源文件关联， [!DNL Google Merchant Center] 帐户，或 [!DNL Microsoft Merchant Center] 帐户，您可以将多个模板与同一信息源文件或帐户关联。 广告模板可以包含变量，这些变量会被上传文件或帐户中的实际数据列替换。 在大多数情况下，变量还可以包括 [修改者组](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) 您可以在Search、Social和Commerce中设置，为数据文件中的每个适用行创建多个广告、关键字、促销活动或广告组。 利用模板选项，可为广告创建新帐户结构（促销活动、广告组、关键词），或将广告映射到现有帐户结构。
 
 除了从头开始创建新模板之外，您还可以通过克隆现有模板和编辑现有模板来创建新模板。
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 创建、克隆或编辑信息源模板
 
-为文本和扩展/扩展的文本广告、响应式搜索广告创建单独的模板， [!DNL Google Ads] 购物广告，以及 [!DNL Microsoft® Advertising] 购物广告。
+为文本和扩展/扩展的文本广告、响应式搜索广告创建单独的模板， [!DNL Google Ads] 购物广告，以及 [!DNL Microsoft Advertising] 购物广告。
 
 1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，此时将打开 [!UICONTROL Templates] 选项卡。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    * （要编辑现有模板）在模板名称旁边，单击 ![查看/编辑设置](/help/search-social-commerce/assets/settings.png "查看/编辑设置").
 
-1. 指定设置 [文本广告模板](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md)， [[!DNL Google Ads] 购物广告模板](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)，或 [[!DNL Microsoft® Advertising] 购物广告模板](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)：
+1. 指定设置 [文本广告模板](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md)， [[!DNL Google Ads] 购物广告模板](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)，或 [[!DNL Microsoft Advertising] 购物广告模板](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)：
 
    1. 在模板设置窗口的顶部，指定模板名称和适用的帐户。
 
@@ -158,5 +158,5 @@ ht-degree: 0%
 >* [关于使用库存信息源自动化广告管理](../inventory-feeds-about.md)
 >* [文本广告和响应式搜索广告模板设置](template-text-rsa.md)
 >* [[!DNL Google Ads] 购物广告模板设置](template-google-shopping.md)
->* [[!DNL Microsoft® Advertising] 购物广告模板设置](template-microsoft-shopping.md)
+>* [[!DNL Microsoft Advertising] 购物广告模板设置](template-microsoft-shopping.md)
 >* [通过模板传播馈送数据](../feed-data-propagate.md)

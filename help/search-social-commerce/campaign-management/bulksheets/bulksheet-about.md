@@ -1,11 +1,11 @@
 ---
 title: 关于使用批量处理工作表管理营销活动数据
 description: 了解广告网络、批量处理工作表工作流和错误处理可用的批量处理工作表功能。
-exl-id: 207cc08b-8650-4243-b9fd-1c920b81c1f9
+exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 按广告网络列出的功能
 
-* **下载、上传和发布：**  [!DNL Baidu]， [!DNL Google Ads]， [!DNL Microsoft® Advertising]、和 [!DNL Yandex] 帐户
+* **下载、上传和发布：**  [!DNL Baidu]， [!DNL Google Ads]， [!DNL Microsoft Advertising]、和 [!DNL Yandex] 帐户
 
 * **仅下载和上传：** [!DNL Naver] 帐户
 
@@ -48,9 +48,9 @@ ht-degree: 0%
 
 1. 需要添加数据或进行更正时：
 
-   1. [导出文件](bulksheet-export.md) 到您的桌面并在中进行编辑 [!DNL Microsoft® Excel].
+   1. [导出文件](bulksheet-export.md) 到您的桌面并在中进行编辑 [!DNL Microsoft Excel].
 
-   1. [手动上传编辑的文件](bulksheet-upload.md) 搜索、社交和商务，或者 [将文件上传到指定的FTP帐户](bulksheet-ftp-account.md) 用于自动过帐。
+   1. [手动上传编辑的文件](bulksheet-upload.md) 搜索、社交和Commerce，或者 [将文件上传到指定的FTP帐户](bulksheet-ftp-account.md) 用于自动过帐。
 
 1. （对于手动上传的文件） [发布文件](bulksheet-post.md) 上传广告网络时或稍后上传时，将其添加到广告网络。
 

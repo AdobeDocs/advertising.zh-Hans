@@ -3,7 +3,7 @@ title: 使用的Adobe AdvertisingID [!DNL Analytics]
 description: 使用的Adobe AdvertisingID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1684'
 ht-degree: 0%
@@ -116,9 +116,9 @@ AMO ID也称为 `s_kwcid`，有时发音为“[!DNL the squid]“
 
    * 搜索、社交和Commerce客户：
 
-      * 对象 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 帐户具有 [!UICONTROL Auto Upload] 为帐户或营销活动启用的设置，当最终用户单击带有Adobe Advertising像素的广告时，像素服务器会自动将s_kwcid参数附加到您的登陆页后缀。
+      * 对象 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 帐户具有 [!UICONTROL Auto Upload] 为帐户或营销活动启用的设置，当最终用户单击带有Adobe Advertising像素的广告时，像素服务器会自动将s_kwcid参数附加到您的登陆页后缀。
 
-      * 对于其他广告网络，或 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 帐户具有 [!UICONTROL Auto Upload] 设置已禁用，手动将参数添加到您的 [帐户级别的附加参数](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}，以将其附加到基本URL中。
+      * 对于其他广告网络，或 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 帐户具有 [!UICONTROL Auto Upload] 设置已禁用，手动将参数添加到您的 [帐户级别的附加参数](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}，以将其附加到基本URL中。
 
 * 未实施服务器端插入功能时：
 
@@ -130,7 +130,7 @@ AMO ID也称为 `s_kwcid`，有时发音为“[!DNL the squid]“
 
    * 搜索、社交和Commerce客户：
 
-      * 对于([!DNL Google Ads] 和 [!DNL Microsoft® Advertising])广告，请手动将AMO ID参数添加到登陆页面后缀，最好在 [帐户级别](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} 除非需要对各个帐户组件进行不同的跟踪。
+      * 对于([!DNL Google Ads] 和 [!DNL Microsoft Advertising])广告，请手动将AMO ID参数添加到登陆页面后缀，最好在 [帐户级别](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} 除非需要对各个帐户组件进行不同的跟踪。
 
       * 对于所有其他广告网络上的广告，请手动将AMO ID参数添加到您的 [帐户级别的附加参数](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}，以将其附加到基本URL中。
 

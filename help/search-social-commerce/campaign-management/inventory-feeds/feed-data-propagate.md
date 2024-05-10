@@ -1,20 +1,20 @@
 ---
 title: 通过模板传播库存馈送数据
 description: 了解如何通过广告模板从库存馈送传播数据，以管理帐户结构和投放动态广告。
-exl-id: 40de75e8-8440-48f4-9fa7-1aeb2ae392c5
+exl-id: 9660af19-a517-4593-9a99-da600a0285a5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
 
 # 通过模板传播库存馈送数据
 
-*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads] （仅删除操作），以及 [!DNL Yandex] 仅限帐户*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads] （仅删除操作），以及 [!DNL Yandex] 仅限帐户*
 
-创建特定于广告网络的信息源模板并关联信息源文件或 [!DNL Google] 或 [!DNL Microsoft®] 借助商户中心帐户，您可以根据以下内容通过模板传播馈送数据来动态创建广告 [馈送数据设置](feed-settings-manage.md). 在传播过程中，模板中的列名称会被替换为馈送中的数据值，并且生成的营销活动及其组件具有默认设置，除非模板另外指定。 根据模板选项，搜索、社交和商务会为广告创建新帐户结构（促销活动、广告组、关键词）或将广告映射到现有帐户结构。
+创建特定于广告网络的信息源模板并关联信息源文件或 [!DNL Google] 或 [!DNL Microsoft] 借助商户中心帐户，您可以根据以下内容通过模板传播馈送数据来动态创建广告 [馈送数据设置](feed-settings-manage.md). 在传播过程中，模板中的列名称会被替换为馈送中的数据值，并且生成的营销活动及其组件具有默认设置，除非模板另外指定。 根据模板选项，Search、Social和Commerce会为广告创建新帐户结构（促销活动、广告组、关键词）或将广告映射到现有帐户结构。
 
 当新馈送数据包含项目的新数据值，或者模板发生更改时，将删除现有广告并创建新广告。 如果唯一更改是指 [!DNL Google Ads] Param 1和Param 2 ，然后只更新这些值。 绝不会创建重复的广告（相同的广告文案和登陆页面）。
 

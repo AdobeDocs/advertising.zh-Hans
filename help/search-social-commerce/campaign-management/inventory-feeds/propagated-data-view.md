@@ -1,9 +1,9 @@
 ---
 title: 查看从馈送生成的数据
 description: 了解如何查看从清单数据馈送生成的数据。
-exl-id: 961155ac-a9d3-42e4-904b-b968e9f3383b
+exl-id: ee48f0f1-65fb-4d27-8f59-0108835d70e5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 查看从馈送生成的数据
 
-*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads] （仅删除操作），以及 [!DNL Yandex] 仅限帐户*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads] （仅删除操作），以及 [!DNL Yandex] 仅限帐户*
 
 如果传播馈送数据时没有同时将其发布到广告网络，则可以使用以下方法之一预览数据。 您稍后可以选择 [发布数据](propagated-data-post.md) 从任一位置到相关广告网络。
 

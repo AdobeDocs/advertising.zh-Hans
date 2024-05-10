@@ -1,9 +1,9 @@
 ---
 title: 允许将目标上传到广告网络
-description: 了解如何将混合项目组合的目标上传到 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising].
+description: 了解如何将混合项目组合的目标上传到 [!DNL Google Ads] 和 [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 允许将目标上传到广告网络
 
-*广告商使用 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 仅限帐户*
+*广告商使用 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 仅限帐户*
 
 *仅为混合优化启用的广告商*
 
-Search、Social和Commerce可以将广告商帐户组合的目标上传到 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 以便将其用于混合优化。 您上传的目标可用作帐户级别和营销活动级别自定义转化目标的转化操作。
+Search、Social和Commerce可以将广告商帐户组合的目标上传到 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 以便将其用于混合优化。 您上传的目标可用作帐户级别和营销活动级别自定义转化目标的转化操作。
 
 启用此选项会自动触发上传项目组合中的目标，其中包含具有智能竞价策略的营销活动。 搜索、社交和Commerce会在广告网络上为每个适用的目标创建一个转化。 转化表示目标中的所有加权转化量度。 每个转换都有以下名称之一：
 
@@ -30,7 +30,7 @@ Search、Social和Commerce可以将广告商帐户组合的目标上传到 [!DNL
 
   在弃用旧格式之前，您的Adobe客户团队将与您合作，迁移广告网络中的现有转化操作名称。 在迁移期间，新旧格式的上传将并行运行。 建模和优化不会受到影响，因为新的转化操作最初以“次要”（未优化）状态出现，并带有90天的回填数据。
 
-上传至 [!DNL Google Ads] 在广告商所在时区的每天06:00发生。 上传至 [!DNL Microsoft® Advertising] 在广告商所在时区的每天09:00发生。
+上传至 [!DNL Google Ads] 在广告商所在时区的每天06:00发生。 上传至 [!DNL Microsoft Advertising] 在广告商所在时区的每天09:00发生。
 
 >[!IMPORTANT]
 >

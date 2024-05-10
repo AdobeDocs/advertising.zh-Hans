@@ -1,23 +1,24 @@
 ---
-title: "[!UICONTROL MSA Ad Extension by Ad Report]"
+title: ’[!UICONTROL MSA Ad Extension by Ad Report]’
 description: 了解 [!UICONTROL MSA Ad Extension by Ad Report].
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+exl-id: c5c47ded-a33b-4cbb-b2d4-3c2602bcd0d3
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL MSA Ad Extension by Ad Report]
 
-*[!DNL Microsoft® Advertising]仅限帐户*
+*[!DNL Microsoft Advertising]仅限帐户*
 
 此报表可显示每个广告扩展和按广告划分的点击类型的汇总展示次数、点击次数、支出和每次点击平均成本。 使用此报表可比较不同版本的广告扩展的性能。
 
 当运行仅具有指标列而没有维度的报表时，生成的报表包含两个重复的行：一个包含汇总数据，另一个包含所有指标。<!-- all metrics? -->
 
-您可以查看过去180天的数据。 搜索、社交和商务从提取数据 [!DNL Microsoft Advertising] 实时，生成具有较大数据量的报告可能需要几分钟的时间。
+您可以查看过去180天的数据。 搜索、社交和Commerce从提取数据 [!DNL Microsoft Advertising] 实时，生成具有较大数据量的报告可能需要几分钟的时间。
 
 >[!NOTE]
 >

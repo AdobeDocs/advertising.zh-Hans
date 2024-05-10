@@ -1,11 +1,11 @@
 ---
 title: 从营销活动管理视图下载数据
 description: 了解如何从大多数营销活动管理视图下载数据。
-exl-id: 0bbb02df-2ee0-4610-b60a-ca2b58daadbb
+exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 您可以从以下位置下载数据： [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 视图，但 [!UICONTROL Keywords] - [!UICONTROL Keyword Negatives]， [!UICONTROL Placements] - [!UICONTROL Placement Negatives]， [!UICONTROL Audiences]、和 [!UICONTROL Extensions] 视图。 您可以下载：
 
-* 中的报告 [!DNL XLSM] (启用宏 [!DNL Microsoft® Excel] 电子表格)格式。 如果选择视图中的特定行，则报表将为每个选定行包含一行。 如果不选择任何行，则将为视图中的每一行创建一行。
+* 中的报告 [!DNL XLSM] (启用宏 [!DNL Microsoft Excel] 电子表格)格式。 如果选择视图中的特定行，则报表将为每个选定行包含一行。 如果不选择任何行，则将为视图中的每一行创建一行。
 
 * TXT格式的批量工作表文件，其中包括所有相关子实体。 如果您为多个广告网络上的实体选择行，则会为每个相关的广告网络创建一个文件。 如果不选择任何行，则会为视图中表示的每个广告网络创建一个文件。 为不同广告网络生成的批量工作表文件包含不同的数据列。
 

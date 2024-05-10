@@ -3,7 +3,7 @@ title: 关于自定义报表的常见问题解答
 description: 了解有关性能报表的常见问题解答，包括数据问题疑难解答。
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
@@ -326,17 +326,17 @@ ht-degree: 0%
 +++报告输出包含日期范围的组合。
 如果馈送使用除&#39;&#39;以外的任何数据聚合级别聚合数据，则您可能会看到不同的日期范围[!UICONTROL Daily]“
 
-要解决此问题，请更新电子表格馈送以包含每天汇总的数据。 此任务包括更新报告模板、使用该模板生成报告、创建自定义 [!DNL Microsoft® Excel] 模板，然后更新馈送设置以包括新的Excel模板。 有关更多信息，请参阅&quot;[编辑电子表格报表馈送设置](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md)“
+要解决此问题，请更新电子表格馈送以包含每天汇总的数据。 此任务包括更新报告模板、使用该模板生成报告、创建自定义 [!DNL Microsoft Excel] 模板，然后更新馈送设置以包括新的Excel模板。 有关更多信息，请参阅&quot;[编辑电子表格报表馈送设置](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md)“
 +++
 
 +++电子表格馈送导致内部错误。
-如果更改报告模板中的列，但不更新 [!DNL Microsoft® Excel] 相应的模板。
+如果更改报告模板中的列，但不更新 [!DNL Microsoft Excel] 相应的模板。
 
 要解决此问题，请更新电子表格馈送以包含新列。 此任务包括更新报告模板、使用该模板生成报告、创建自定义 [!DNL Excel] 模板，然后更新馈送设置以包括新的Excel模板。 有关更多信息，请参阅&quot;[编辑电子表格报表馈送设置](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md)“
 +++
 
 +++当我尝试在中打开电子表格馈送时 [!DNL Excel]， [!DNL Excel] 报告“无法读取的内容”错误，并且数据将从恢复的内容中删除。
-当 [!DNL Microsoft® Excel] 模板不按开始日期升序对数据排序，电子表格馈送可能包含空白行。 特别是， [!DNL Excel] 报告错误“Excel在‘&lt;中发现不可读的内容&#x200B;*报告名称*>.xlsx.&#39; 是否要恢复工作簿的内容？ 如果您信任此工作簿的来源，请单击“是”。 如果单击“是”，您将收到以下消息：“删除的记录：来自/xl/worksheets/sheet1.xml部件的单元格信息”，并且电子表格馈送包含空白行。
+当 [!DNL Microsoft Excel] 模板不按开始日期升序对数据排序，电子表格馈送可能包含空白行。 特别是， [!DNL Excel] 报告错误“Excel在‘&lt;中发现不可读的内容&#x200B;*报告名称*>.xlsx.&#39; 是否要恢复工作簿的内容？ 如果您信任此工作簿的来源，请单击“是”。 如果单击“是”，您将收到以下消息：“删除的记录：来自/xl/worksheets/sheet1.xml部件的单元格信息”，并且电子表格馈送包含空白行。
 
 要解决此问题，请编辑 [!DNL Excel] 与要作为数据排序依据的信息源关联的模板 [!DNL Start date in Ascending (Oldest to Newest) order]，然后通过电子表格馈送设置上传更新的模板。 有关更多信息，请参阅&quot;[编辑电子表格报表源](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md)“
 +++

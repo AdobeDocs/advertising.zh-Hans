@@ -3,7 +3,7 @@ title: 创建负关键字
 description: 了解如何为搜索营销活动和广告组创建负面关键词。
 exl-id: afe786bf-eda8-4590-b471-3fb696c420de
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 创建负关键字
 
-*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads]，并且现有 [!DNL Baidu] 仅限帐户*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]，并且现有 [!DNL Baidu] 仅限帐户*
 
 您可以为定位搜索或显示/本机网络的搜索广告组或营销活动创建负关键字。 负关键字不会触发广告。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 输入负关键字。 使用以下语法，不带减号(`-`)：
 
-   * 负广泛匹配： `keyword` (不支持 [!DNL Microsoft® Advertising])
+   * 负广泛匹配： `keyword` (不支持 [!DNL Microsoft Advertising])
 
    * 负面短语匹配： `"keyword"`
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    用逗号分隔多个值，或在单独的行中输入它们。 在一个操作中，最多可以输入或粘贴2000个负关键字。 另请参阅以下要求和限制：
 
-   * 最大字符长度： [!DNL Baidu]：30个单字节或15个双字节； [!DNL Microsoft® Advertising]：100个单字节或50个双字节； [!DNL Google Ads] 和 [!DNL Yahoo! Japan Ads]：80个单字节或40个双字节。
+   * 最大字符长度： [!DNL Baidu]：30个单字节或15个双字节； [!DNL Microsoft Advertising]：100个单字节或50个双字节； [!DNL Google Ads] 和 [!DNL Yahoo! Japan Ads]：80个单字节或40个双字节。
 
    * [!DNL Baidu] 每个广告组仅允许每个关键字有一种匹配类型。 例如，广告组1不能同时包含两者 `"keyword"` 和 `[keyword]`.
 

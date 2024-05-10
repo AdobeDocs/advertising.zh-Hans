@@ -1,18 +1,18 @@
 ---
 title: 清单信息源何时会创建或删除帐户组件？
 description: 了解在发布清单源时创建和删除帐户组件的情况。
-exl-id: 93b31996-15dd-4215-ae9d-39327910f712
+exl-id: 39a3cc2c-f956-4a89-a69d-687a27a38a1e
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
 
 # 清单信息源何时会创建或删除帐户组件？
 
-*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads] （仅删除操作），以及 [!DNL Yandex] 仅限帐户*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads] （仅删除操作），以及 [!DNL Yandex] 仅限帐户*
 
 通过模板传播库存信息源文件时，将按如下方式创建和删除帐户组件。
 
@@ -23,9 +23,9 @@ ht-degree: 0%
 | 方案 | 示例 | 操作 |
 |----|----|----|
 | 信息源数据包括促销活动名称、广告组名称、关键字或产品组中使用的列的新值。 | 以前的文件：<br>Campaign=Hats<br>Campaign=Gloves<br><br>新文件：<br>Campaign=Shoes | 如果广告网络上不存在新的促销活动、广告组、关键词或产品组，则会创建新促销活动、广告组、关键词或产品组。 |
-| 馈送数据包含在广告中使用的列的新值。 | 上一个文件：广告包含的价格=20<br><br>新文件：对于同一广告，价格为10 | 当广告复制到 [!DNL Microsoft® Advertising] 扩展的文本广告， [!DNL Yahoo! Japan ads]，或 [!DNL Yandex] 广告发生更改，现有广告被删除并创建一个新广告。<br><br>为其他广告类型更改广告副本或将适用的列用于时 [!DNL Google Ads] 广告参数({param1} 或 {param2})，则会更新现有广告。 |
+| 馈送数据包含在广告中使用的列的新值。 | 上一个文件：广告包含的价格=20<br><br>新文件：对于同一广告，价格为10 | 当广告复制到 [!DNL Microsoft Advertising] 扩展的文本广告， [!DNL Yahoo! Japan ads]，或 [!DNL Yandex] 广告发生更改，现有广告被删除并创建一个新广告。<br><br>为其他广告类型更改广告副本或将适用的列用于时 [!DNL Google Ads] 广告参数({param1} 或 {param2})，则会更新现有广告。 |
 | 自上次传播以来，营销活动、广告组、关键字或产品组的模板设置已更改。 | 以前的设置：Keyword=[关键词]<br><br>新设置： Keyword=&lt;color>[关键词] | 如果广告网络上不存在新的促销活动、广告组、关键词或产品组，则会创建新促销活动、广告组、关键词或产品组。 |
-| 自上次传播以来，广告的模板设置发生了更改。 | 以前的设置：广告描述=&quot;购买 [类别] 现在。”<br><br>新设置：广告描述=&quot;购买 [品牌] 现在。” | 当广告复制到 [!DNL Microsoft® Advertising] 扩展的文本广告， [!DNL Yahoo! Japan ads]，或 [!DNL Yandex] 广告发生更改，现有广告被删除并创建一个新广告。<br><br>当为其他广告类型更改广告副本，或者更改反映用于单个广告的列发生更改时 [!DNL Google Ads] 广告参数({param1} 或 {param2})，则会更新现有广告。 |
+| 自上次传播以来，广告的模板设置发生了更改。 | 以前的设置：广告描述=&quot;购买 [类别] 现在。”<br><br>新设置：广告描述=&quot;购买 [品牌] 现在。” | 当广告复制到 [!DNL Microsoft Advertising] 扩展的文本广告， [!DNL Yahoo! Japan ads]，或 [!DNL Yandex] 广告发生更改，现有广告被删除并创建一个新广告。<br><br>当为其他广告类型更改广告副本，或者更改反映用于单个广告的列发生更改时 [!DNL Google Ads] 广告参数({param1} 或 {param2})，则会更新现有广告。 |
 | 新的馈送数据不包含现有营销活动或广告组的行。 | 不适用 | 现有营销活动和广告组保持不变。 |
 | 新的馈送数据不包含现有广告组、广告、关键字或产品组的行。 | 不适用 | 现有的广告组、广告、关键词或产品组将保持不变，或者将暂停或删除，具体情况请参见 [馈送数据设置](feed-settings-manage.md#feed-data-settings). |
 | 现有父产品组的新馈送数据不包含其现有子产品组的行。 | 不适用 | 现有的父产品组将保持不变，或者将根据 [馈送数据设置](feed-settings-manage.md#feed-data-settings). <b>注意：</b> 如果馈送数据设置配置为暂停缺少的行项目，则仍会删除父产品组，因为您无法暂停产品组。 |

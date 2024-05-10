@@ -1,18 +1,18 @@
 ---
-title: ’[!DNL Microsoft® Advertising] 响应式广告设置
-description: 引用设置 [!DNL Microsoft® Advertising] 响应式广告。
+title: ’[!DNL Microsoft Advertising] 响应式广告设置
+description: 引用设置 [!DNL Microsoft Advertising] 响应式广告。
 exl-id: 29404500-d929-4683-be71-150ea8ab805d
 feature: Search Campaign Management
-source-git-commit: dae8d3726b48240a2cad7d3e188694f72934295f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] 响应式（受众）广告设置
+# [!DNL Microsoft Advertising] 响应式（受众）广告设置
 
-响应式广告格式适用于以下网站上的基于图像、基于视频和联网的电视视频的受众广告： [!DNL Microsoft® Audience Network]. 广告网络使用最有效的广告元素组合来动态组合响应式广告。
+响应式广告格式适用于以下网站上的基于图像、基于视频和联网的电视视频的受众广告： [!DNL Microsoft Audience Network]. 广告网络使用最有效的广告元素组合来动态组合响应式广告。
 
 ## [!UICONTROL Ad Settings] （适用于视频广告）和 [!UICONTROL Audience CTV Video Ad Details]
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 **[!UICONTROL Images]：** 广告最多可达15个JPEG或PNG图像。 包括至少一个具有1.91:1纵横比的图像。 查看允许的宽高比和尺寸 [受众广告图像](https://help.ads.microsoft.com/#apex/ads/en/56912/0).
 
-对于受众广告， [!DNL Microsoft® Advertising] 自动裁剪此图像的所有可能纵横比。
+对于受众广告， [!DNL Microsoft Advertising] 自动裁剪此图像的所有可能纵横比。
 
 <!-- Instructions -->
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 >
 >* [关于广告](ad-about.md)
 >* [管理广告](ad-manage.md)
->* [[!DNL Microsoft® Advertising] 扩展的动态搜索广告设置](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft® Advertising] 多媒体广告设置](ad-settings-microsoft-multimedia.md)
->* [[!DNL Microsoft® Advertising] 产品广告设置](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft® Advertising] 响应式搜索广告设置](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] 扩展的动态搜索广告设置](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising] 多媒体广告设置](ad-settings-microsoft-multimedia.md)
+>* [[!DNL Microsoft Advertising] 产品广告设置](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] 响应式搜索广告设置](ad-settings-microsoft-rsa.md)

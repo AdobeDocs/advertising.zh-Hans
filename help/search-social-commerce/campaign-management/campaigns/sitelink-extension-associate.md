@@ -1,20 +1,20 @@
 ---
 title: 将共享站点链接与帐户、营销活动和广告组关联
 description: 了解如何将共享站点链接扩展分配给帐户、营销活动和广告组。
-exl-id: c7bd92ab-3768-4b6e-988a-32e644c3d583
+exl-id: 5baa66a9-aac7-4ddd-a322-6578a571166b
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
 # 将共享站点链接与帐户、营销活动和广告组关联
 
-*[!DNL Google Ads]和 [!DNL Microsoft® Advertising] 仅限*
+*[!DNL Google Ads]和 [!DNL Microsoft Advertising] 仅限*
 
-您可以通过从分配站点链接来创建广告扩展 [!DNL Sitelinks] 库以帐户实体，仅在搜索网络上使用。 对象 [!DNL Google Ads] 帐户，您可以将站点链接分配给搜索网络上的帐户或营销活动和广告组。 对象 [!DNL Microsoft® Advertising] 帐户，您可以将站点链接分配给搜索网络上的营销活动（以及搜索网络中的帐户和广告组）。 [!DNL Microsoft® Advertising] 广告经理)。
+您可以通过从分配站点链接来创建广告扩展 [!DNL Sitelinks] 库以帐户实体，仅在搜索网络上使用。 对象 [!DNL Google Ads] 帐户，您可以将站点链接分配给搜索网络上的帐户或营销活动和广告组。 对象 [!DNL Microsoft Advertising] 帐户，您可以将站点链接分配给搜索网络上的营销活动（以及搜索网络中的帐户和广告组）。 [!DNL Microsoft Advertising] 广告经理)。
 
 对于桌面和移动设备，您必须至少具有6个活动的站点链接，您的站点链接才能与广告一起显示。 您最多可以为每个帐户、营销活动或广告组分配20个站点链接。
 

@@ -1,18 +1,18 @@
 ---
 title: 管理营销活动和广告组的受众排除
-description: 了解如何为您的配置和管理受众排除 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 营销活动和广告组。
+description: 了解如何为您的配置和管理受众排除 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 营销活动和广告组。
 exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
 
 ---
 
-# 管理您的受众排除 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 营销活动和广告组
+# 管理您的受众排除 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 营销活动和广告组
 
-*[!DNL Google Ads]和 [!DNL Microsoft® Advertising] 仅限*
+*[!DNL Google Ads]和 [!DNL Microsoft Advertising] 仅限*
 
 您可以排除特定受众作为特定广告组和营销活动的目标。 排除受众可确保这些用户不会在指定的广告组和营销活动中接收广告。
 

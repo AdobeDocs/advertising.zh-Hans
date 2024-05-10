@@ -3,7 +3,7 @@ title: 生成点击跟踪URL
 description: 了解如何手动生成Search、Social和Commerce点击跟踪URL。
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: a4d892b413dde26a96f03c797991c4df17da7562
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
            示例： http://www.example.com/travel.html
 
-         * ([!DNL Microsoft® Advertising] 站点链接) `sitelink <tab> ** <tab> landing_page`
+         * ([!DNL Microsoft Advertising] 站点链接) `sitelink <tab> ** <tab> landing_page`
 
            位置 `sitelink` 是站点链接名称和 `landing_page` 是有效的登陆页面URL或基本URL。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
            该文件最多可包含10,000行。
 
-         * ([!DNL Google Merchant Center] 产品组和 [!DNL Microsoft® Advertising] 产品广告) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] 产品组和 [!DNL Microsoft Advertising] 产品广告) `product name <tab> ** <tab> landing_page`
 
            位置 `product name` 是产品名称和 `landing_page` 是有效的登陆页面URL或基本URL。
 
@@ -64,13 +64,13 @@ ht-degree: 0%
 
            示例： http://www.example.com/travel.html
 
-         * ([!DNL Microsoft® Advertising] 站点链接) `sitelink**landing_page`
+         * ([!DNL Microsoft Advertising] 站点链接) `sitelink**landing_page`
 
            位置 `sitelink` 是站点链接名称和 `landing_page` 是有效的登陆页面URL或基本URL。
 
            示例： `Careers**http://www.example.com/careers.html`
 
-         * ([!DNL Google Merchant Center] 产品组和 [!DNL Microsoft® Advertising] 产品广告) `product name**landing_page`
+         * ([!DNL Google Merchant Center] 产品组和 [!DNL Microsoft Advertising] 产品广告) `product name**landing_page`
 
            位置 `product name` 是产品名称和 `landing_page` 是有效的登陆页面URL或基本URL。
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 对于具有目标URL的帐户，请在相应的 [!UICONTROL Base URL] 字段。
 
-对于具有最终URL的帐户，请在相应的字段中输入屏幕值 [!UICONTROL Tracking Template] 字段。 您必须在之后为最终URL添加参数 `&url=` 参数(例如 `{lpurl}`)。 对象 [!DNL Yahoo! Japan Ads] 帐户，使用参数 `{lpurl}`. 对于 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 参数指示跟踪模板中的最终URL，请参阅 [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348) (请参阅“可用”部分中的“仅跟踪模板”参数 [!DNL ValueTrack] 参数”)和 [[!DNL Microsoft® Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799/2).
+对于具有最终URL的帐户，请在相应的字段中输入屏幕值 [!UICONTROL Tracking Template] 字段。 您必须在之后为最终URL添加参数 `&url=` 参数(例如 `{lpurl}`)。 对象 [!DNL Yahoo! Japan Ads] 帐户，使用参数 `{lpurl}`. 对于 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 参数指示跟踪模板中的最终URL，请参阅 [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348) (请参阅“可用”部分中的“仅跟踪模板”参数 [!DNL ValueTrack] 参数”)和 [[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799/2).
 
 >[!MORELIKETHIS]
 >

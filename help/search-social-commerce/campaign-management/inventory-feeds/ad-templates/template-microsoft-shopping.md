@@ -1,16 +1,16 @@
 ---
-title: ’[!DNL Microsoft® Ads] 库存源的购物广告模板设置
-description: 引用设置 [!DNL Microsoft® Ads] 库存源的购物广告模板。
-exl-id: 64d0092a-bd63-48f4-8e15-f5585f7a022a
+title: ’[!DNL Microsoft Ads] 库存源的购物广告模板设置
+description: 引用设置 [!DNL Microsoft Ads] 库存源的购物广告模板。
+exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Ads] 库存源的购物广告模板设置
+# [!DNL Microsoft Ads] 库存源的购物广告模板设置
 
 使用购物广告模板配置购物广告。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 * 用于Adobe Advertising转化跟踪，当促销活动设置包括&#39;&#39;时应用[!UICONTROL EF Redirect]”和“[!UICONTROL Auto Upload]，请执行下列操作之一：
 
-   * （推荐）使用 [Microsoft®购物营销活动的跟踪模板格式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). 如果整个帐户专门用于购物广告，则您可以在帐户级别定义跟踪模板。
+   * （推荐）使用 [Microsoft购物营销活动的跟踪模板格式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). 如果整个帐户专门用于购物广告，则您可以在帐户级别定义跟踪模板。
 
    * 如果您改为使用“”在信息源中包含每个产品的值[!DNL bingads_redirect]”列(使用 [正确格式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md))，然后输入参数 `{lpurl}`. 您可以选择将第三方重定向和跟踪添加到 `{lpurl}` 参数。
 

@@ -1,16 +1,16 @@
 ---
-title: ’[!DNL Microsoft® Advertising] 广告组设置
-description: 引用设置 [!DNL Microsoft® Advertising] 广告组。
+title: ’[!DNL Microsoft Advertising] 广告组设置
+description: 引用设置 [!DNL Microsoft Advertising] 广告组。
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] 广告组设置
+# [!DNL Microsoft Advertising] 广告组设置
 
 ## [!UICONTROL Adgroup Details]
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 **[!UICONTROL Networks]：** （搜索广告）在广告组中放置广告的方式和位置：
 
-* *[!UICONTROL Only Microsoft® Advertising and Yahoo! websites]* （默认）：对搜索网络上的广告投标。
+* *[!UICONTROL Only Microsoft Advertising and Yahoo! websites]* （默认）：对搜索网络上的广告投标。
 
-* *[!UICONTROL Only Microsoft® Advertising and Yahoo! syndicated search partners]：* 在联合合作伙伴网站上对广告投标。
+* *[!UICONTROL Only Microsoft Advertising and Yahoo! syndicated search partners]：* 在联合合作伙伴网站上对广告投标。
 
 * *[!UICONTROL Content network]：* 已弃用
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/location-targets.md}}
 
-对象 [!DNL Microsoft® Advertising] 受众网络中的广告组，位置目标的竞价修饰符未在具有&quot;[!UICONTROL Auto-optimize Bid Adjustment Values]”设置。
+对象 [!DNL Microsoft Advertising] 受众网络中的广告组，位置目标的竞价修饰符未在具有&quot;[!UICONTROL Auto-optimize Bid Adjustment Values]”设置。
 
 **[!UICONTROL Genre]：** (广告组位于 [!UICONTROL Audience CTV Video] 促销活动；在美国、CA、BR、MX、UK、DE、ES、FR、IT、AU、MY和TH提供<!-- Should that go in the campaign sub-type description instead, or is this applicable for this feature only? -->)目标流派，它决定广告显示的节目和渠道：
 
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 **[!UICONTROL Negative Websites]：** （仅限显示网络上的营销活动；可选）显示网络上不希望显示广告的站点。 请输入有效的URL，如www.example.com。 要指定多个字符串，请用逗号分隔它们，或者在单独的行中输入它们。
 
-有关可用性的信息，请参见 [!DNL Microsoft® Advertising] “帮助”[防止广告出现在特定网站上](https://help.ads.microsoft.com/#apex/bae/en/14061/0)“
+有关可用性的信息，请参见 [!DNL Microsoft Advertising] “帮助”[防止广告出现在特定网站上](https://help.ads.microsoft.com/#apex/bae/en/14061/0)“
 
 >[!MORELIKETHIS]
 >

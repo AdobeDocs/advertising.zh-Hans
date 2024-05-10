@@ -1,18 +1,18 @@
 ---
-title: '[!UICONTROL Bing Ads Search Query Report]'
+title: ’[!UICONTROL Bing Ads Search Query Report]’
 description: 了解 [!UICONTROL Bing Ads Search Query Report].
-exl-id: 5674577b-8f95-4f43-aca9-73fdd6bb8e33
+exl-id: 0207cfe7-a789-409f-af1b-a9579f2abe1e
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Bing Ads Search Query Report]
 
-*[!DNL Microsoft® Advertising]仅限帐户*
+*[!DNL Microsoft Advertising]仅限帐户*
 
 此 [!UICONTROL Bing Ads Search Query Report] 包括用于一个或多个广告组的用户搜索查询词的成本、点击次数、展示次数和（可选）派生的量度数据。 默认情况下，每个搜索词包含一行，指定日期范围内每个时间单位的每个适用广告组都会因此而获得展示次数或点击次数。 默认情况下，这些行先按广告组名称升序，然后再按搜索词升序。 报表既不包括与搜索词匹配的关键字，也不包括跟踪的任何转化数据 [!DNL Adobe].
 
@@ -41,6 +41,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
-* [关于专业报告](specialty-report-about.md)
-* [生成专业报告](specialty-report-generate.md)
-* [专业报告设置](specialty-report-settings.md)
+>* [关于专业报告](specialty-report-about.md)
+>* [生成专业报告](specialty-report-generate.md)
+>* [专业报告设置](specialty-report-settings.md)

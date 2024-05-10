@@ -1,9 +1,9 @@
 ---
 title: 查看或保存电子表格报表源文件
 description: 了解如何查看电子表格馈送并将其保存到文件。
-exl-id: 3f8af6fb-6652-4434-bd88-ef1a0e10efd1
+exl-id: b229ab9e-a48a-4487-8434-0fdcf7139d8f
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *仅用于基本报表和模型准确性报表*
 
-您可以查看任何生成的电子表格馈送或将其保存到文件。 电子表格源文件位于[!DNL Microsoft® Excel] XLSX格式。
+您可以查看任何生成的电子表格馈送或将其保存到文件。 电子表格源文件位于[!DNL Microsoft Excel] XLSX格式。
 
 1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
 

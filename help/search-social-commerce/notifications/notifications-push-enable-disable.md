@@ -1,11 +1,11 @@
 ---
 title: 启用和禁用来自的推送通知 [!UICONTROL Notification Center]
 description: 了解如何从启用和禁用推送通知 [!UICONTROL Notification Center].
-exl-id: 71d115d0-6190-4052-a299-d5e8cde8e46c
+exl-id: f0e91e76-eb1e-4ff0-9a52-e9bc587552a2
 feature: Search Notifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 *Beta版功能*
 
-您可以在Search、Social和Commerce中启用通知，通知会根据浏览器的通知约定显示在该处。 在使用的设备上 [!DNL Microsoft® Windows]，通知将显示在屏幕（系统托盘）的右下方。 开启 [!DNL Apple Mac] 设备，通知显示在右侧菜单中。
+您可以在Search、Social和Commerce中启用通知，通知会根据浏览器的通知约定显示在这里。 在使用的设备上 [!DNL Microsoft Windows]，通知将显示在屏幕（系统托盘）的右下方。 开启 [!DNL Apple Mac] 设备，通知显示在右侧菜单中。
 
 推送通知在以下浏览器中可用：
 
 * [!DNL Google Chrome] 40和更高版本
 
-* [!DNL Microsoft® Edge] 17及更高版本
+* [!DNL Microsoft Edge] 17及更高版本
 
 * [!DNL Mozilla Firefox] 44及更高版本
 
@@ -36,9 +36,9 @@ ht-degree: 0%
 
 4. 配置浏览器以允许通知来自 [!UICONTROL Notification Center] 在`https://alert-center-ui-na.efrontier.com`.
 
-   默认通知设置因浏览器而异，并且您可以a)自动显示允许以下项通知的选项： [!UICONTROL Notification Center] 或b)需要手动管理通知设置。 例如，在 [!DNL Microsoft® Edge]，您可以允许通知来自 [!UICONTROL Notification Center] 从浏览器工具栏中。 请参阅浏览器帮助中的说明。
+   默认通知设置因浏览器而异，并且您可以a)自动显示允许以下项通知的选项： [!UICONTROL Notification Center] 或b)需要手动管理通知设置。 例如，在 [!DNL Microsoft Edge]，您可以允许通知来自 [!UICONTROL Notification Center] 从浏览器工具栏中。 请参阅浏览器帮助中的说明。
 
-   ![在Microsoft Edge中管理通知设置的位置](/help/search-social-commerce/assets/notifications-blocked-dialog.png "在Microsoft® Edge中管理通知设置的位置")
+   ![在Microsoft Edge中管理通知设置的位置](/help/search-social-commerce/assets/notifications-blocked-dialog.png "在Microsoft Edge中管理通知设置的位置")
 
 5. 在您的 [通知设置](notification-edit.md)，启用 [!UICONTROL Web] 要推送的警报类型的通知。
 

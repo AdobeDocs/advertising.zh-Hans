@@ -2,8 +2,8 @@
 title: 更改管理视图和报告中的可用转化量度
 description: 了解如何在管理视图和报告中使用转化量度。
 feature: Conversions
-exl-id: a8f3a2d6-4203-42db-96cd-faf02d20d247
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 更改管理视图和报告中的可用转化量度
 
-当Adobe Advertising跟踪 [转化](/help/search-social-commerce/glossary.md#c-d) 量度对于广告商而言，它最初不在项目组合目标、报表和管理视图中。 要使转化量度可见，您必须明确使其可用，然后根据需要更改默认显示名称（即显示的名称）。 唯一的例外是所跟踪的转化 [!DNL Google Ads]， [!DNL Google Analytics]、和 [!DNL Microsoft® Advertising] 通用事件跟踪标记自动可用和可见。
+当Adobe Advertising跟踪 [转化](/help/search-social-commerce/glossary.md#c-d) 量度对于广告商而言，它最初不在项目组合目标、报表和管理视图中。 要使转化量度可见，您必须明确使其可用，然后根据需要更改默认显示名称（即显示的名称）。 唯一的例外是所跟踪的转化 [!DNL Google Ads]， [!DNL Google Analytics]、和 [!DNL Microsoft Advertising] 通用事件跟踪标记自动可用和可见。
 
 同样，您可以在项目组合目标、报表和管理视图中隐藏转化量度。 当您隐藏以前可见的转化量度时，它会从包含该转化量度的任何派生量度中删除。
 
@@ -50,10 +50,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果Adobe Advertising收集了新转化指标的数据，则这些新指标（跟踪的转化除外） [!DNL Google Ads]， [!DNL Google Analytics]、和 [!DNL Microsoft® Advertising] 通用事件跟踪标记 — 自动从管理视图和报告中排除，直到将其包含为止。 由跟踪的新转化 [!DNL Google Ads]， [!DNL Google Analytics]、和 [!DNL Microsoft® Advertising] 通用事件跟踪标记始终自动可用。
+>如果Adobe Advertising收集了新转化指标的数据，则这些新指标（跟踪的转化除外） [!DNL Google Ads]， [!DNL Google Analytics]、和 [!DNL Microsoft Advertising] 通用事件跟踪标记 — 自动从管理视图和报告中排除，直到将其包含为止。 由跟踪的新转化 [!DNL Google Ads]， [!DNL Google Analytics]、和 [!DNL Microsoft Advertising] 通用事件跟踪标记始终自动可用。
 
 >[!MORELIKETHIS]
 >
-* [关于管理广告商的转化量度](conversion-metric-about.md)
-* [查看为广告商跟踪的转化量度](conversion-metric-view-tracked.md)
-* [更改转化量度的显示名称](conversion-metric-edit-display-name.md)
+>* [关于管理广告商的转化量度](conversion-metric-about.md)
+>* [查看为广告商跟踪的转化量度](conversion-metric-view-tracked.md)
+>* [更改转化量度的显示名称](conversion-metric-edit-display-name.md)

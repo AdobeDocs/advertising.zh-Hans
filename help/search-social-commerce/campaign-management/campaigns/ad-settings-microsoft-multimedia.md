@@ -1,16 +1,16 @@
 ---
-title: ’[!DNL Microsoft® Advertising] 多媒体广告设置
-description: 引用设置 [!DNL Microsoft® Advertising] 多媒体广告。
-exl-id: b7ce413c-ee7a-420a-8791-e2666cc33eba
+title: ’[!DNL Microsoft Advertising] 多媒体广告设置
+description: 引用设置 [!DNL Microsoft Advertising] 多媒体广告。
+exl-id: 920ecb8d-e179-4946-be60-64f00bbabb70
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] 多媒体广告设置
+# [!DNL Microsoft Advertising] 多媒体广告设置
 
 多媒体广告在搜索网络上提供。 广告网络使用最有效的广告元素组合来动态组合多媒体广告。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 >
 >* [关于广告](ad-about.md)
 >* [管理广告](ad-manage.md)
->* [[!DNL Microsoft® Advertising] 扩展的动态搜索广告设置](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft® Advertising] 产品广告设置](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft® Advertising] 响应式（受众）广告设置](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft® Advertising] 响应式搜索广告设置](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] 扩展的动态搜索广告设置](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising] 产品广告设置](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] 响应式（受众）广告设置](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] 响应式搜索广告设置](ad-settings-microsoft-rsa.md)

@@ -3,7 +3,7 @@ title: 删除与活动和广告组的广告扩展关联
 description: 了解如何取消广告扩展与营销活动和广告组的关联。
 exl-id: 123838fc-ebfb-477f-b33d-03d9e2d98789
 feature: Search Campaign Management
-source-git-commit: bd7d7ed571ef281f534ab45dc92f20be9445b055
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 删除与活动和广告组的广告扩展关联
 
-*[!DNL Google Ads]和 [!DNL Microsoft® Advertising] 仅限*
+*[!DNL Google Ads]和 [!DNL Microsoft Advertising] 仅限*
 
 您可以删除与任何位置、电话和站点链接分机之间的营销活动级和广告组级关联。
 

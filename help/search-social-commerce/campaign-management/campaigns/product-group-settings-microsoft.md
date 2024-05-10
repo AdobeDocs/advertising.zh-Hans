@@ -1,16 +1,16 @@
 ---
-title: ’[!DNL Microsoft® Advertising] 产品组设置
-description: 引用设置 [!DNL Microsoft® Advertising] 购物产品组。
-exl-id: a34511ef-f5bc-4d93-a56e-90348f670ad6
+title: ’[!DNL Microsoft Advertising] 产品组设置
+description: 引用设置 [!DNL Microsoft Advertising] 购物产品组。
+exl-id: ea3a4137-1396-430f-9d6c-8e1e1f1f52c2
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] 产品组设置
+# [!DNL Microsoft Advertising] 产品组设置
 
 ## “所有产品”产品组
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 **[!UICONTROL Condition/Value]：** （现有产品组为只读）要定位的产品维度。 对于新产品组，输入要作为目标产品的维度和选定信息类别的资格属性（例如，按品牌定位时为“Acme”，按条件定位时为“New”）。
 
-一旦您为特定产品维度（即，不是“所有产品”）创建了产品组，Search、Social和Commerce就会自动为“其他所有产品”创建产品组。
+为特定产品维度（即，不是“所有产品”）创建产品组后，Search、Social和Commerce会自动为“其他所有产品”创建产品组。
 
 有关可用产品维度的列表，请参阅&quot;[购物营销活动产品过滤器](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)“ 您的维度列表可能会因营销活动的 [!UICONTROL Inventory Filter] 设置。
 
@@ -52,4 +52,4 @@ ht-degree: 0%
 >* [关于购物产品组](product-group-about.md)
 >* [管理购物产品组](product-group-manage.md)
 >* [购物营销活动产品过滤器](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [实施 [!DNL Microsoft® Advertising] 购物营销活动](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [实施 [!DNL Microsoft Advertising] 购物营销活动](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)

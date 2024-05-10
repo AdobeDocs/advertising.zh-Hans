@@ -1,9 +1,9 @@
 ---
 title: 编辑从馈送生成的数据
 description: 了解如何编辑从清单数据馈送生成的数据。
-exl-id: 5f866557-e44b-4fd9-9683-f7fbaf6d308b
+exl-id: d43b593d-758d-4561-9cda-33b235099cc6
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 编辑从馈送生成的数据
 
-*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads] （仅删除操作），以及 [!DNL Yandex] 仅限帐户*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads] （仅删除操作），以及 [!DNL Yandex] 仅限帐户*
 
 如果传播馈送数据时没有同时将其发布到广告网络，则可以使用以下任一方式编辑数据。 您稍后可以选择 [发布数据](propagated-data-post.md) 从任一位置到相关广告网络：
 

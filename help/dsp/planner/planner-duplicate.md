@@ -3,7 +3,7 @@ title: 复制连接的电视接入计划
 description: 了解如何使用现有计划中的设置来创建连接电视覆盖计划。
 feature: DSP Planner
 exl-id: 80dab57a-e56d-4a77-a1d5-c3e705f54fb9
-source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
    保存计划后，将显示预测输出。
 
-1. （可选）要导出 [!UICONTROL Budget vs Reach] 预测到 [!DNL Microsoft® Excel] 电子表格**，单击 **[!UICONTROL ...]** 图标，然后单击 **[!UICONTROL Export]**.
+1. （可选）要导出 [!UICONTROL Budget vs Reach] 预测到 [!DNL Microsoft Excel] 电子表格**，单击 **[!UICONTROL ...]** 图标，然后单击 **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

@@ -1,21 +1,21 @@
 ---
-title: 在Adobe Target中为Adobe Advertising搜索、社交和商务广告配置A/B测试
-description: 了解如何在中设置A/B测试 [!DNL Target] 您的 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 搜索、社交和商务中的广告。
+title: 在Adobe Target中为Adobe Advertising搜索、社交和Commerce广告配置A/B测试
+description: 了解如何在中设置A/B测试 [!DNL Target] 您的 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 搜索、社交和Commerce中的广告。
 exl-id: 564c7d61-beec-40cf-ac68-83d1e87e3008
-source-git-commit: b94541bf8675d535b2f19b26c05235eb56bc6c0b
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
 
 ---
 
-# 在Adobe Target中为广告搜索、社交和商务广告配置A/B测试
+# 在Adobe Target中为Advertising Search、Social和Commerce广告配置A/B测试
 
-*仅具有广告搜索、社交和商务功能的广告商*
+*仅具有Advertising Search、Social和Commerce的广告商*
 
-*[!DNL Google Ads]和 [!DNL Microsoft® Advertising] 仅限帐户*
+*[!DNL Google Ads]和 [!DNL Microsoft Advertising] 仅限帐户*
 
-通过Adobe Advertising和Adobe Target，可以轻松为数字广告流量设置登陆页面体验A/B测试 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 至：
+通过Adobe Advertising和Adobe Target，可以轻松为数字广告流量设置登陆页面体验A/B测试 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 至：
 
 * 提高转化率(CVR)和获取效率措施（例如CPA、CPL和CAC）。
 
@@ -23,13 +23,13 @@ ht-degree: 0%
 
 您还可以将本地的 [[!DNL Analytics] 适用于广告](/help/integrations/analytics/overview.md) 和 [[!DNL Analytics] 对象 [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) 集成报表维度，这些维度已集成到Adobe Analytics中以通过测量和可视化您的测试数据 [!DNL Analytics] 量度和成功事件。
 
-请参阅以下部分，了解中的先决条件以及设置A/B测试的说明 [!DNL Target] 有关Search、Social和Commerce中广告的点进流量，以及如何在中衡量和可视化测试的提示 [!DNL Analytics].
+请参阅以下部分，了解中的先决条件以及设置A/B测试的说明 [!DNL Target] 有关来自Search、Social和Commerce中广告的点进流量，以及有关如何在中测量和可视化测试的提示 [!DNL Analytics].
 
 ## 先决条件
 
 ### 所需产品
 
-* 搜索、社交和商务
+* 搜索、社交和Commerce
 * [!DNL Target]
 
 ### 推荐的产品和集成
@@ -40,9 +40,9 @@ ht-degree: 0%
 
 * [[!DNL Analytics] 对象 [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) 集成
 
-## 步骤1：在中创建A/B测试活动 [!DNL Target] 用于搜索、社交和商务
+## 步骤1：在中创建A/B测试活动 [!DNL Target] 用于搜索、社交和Commerce
 
-以下说明重点介绍与“搜索、社交和商务”用例相关的信息。
+以下说明重点介绍与“搜索”、“社交”和“Commerce”用例相关的信息。
 
 1. [登录到Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
@@ -59,13 +59,13 @@ ht-degree: 0%
    1. 设置 **[!UICONTROL Priority]** 到 `High` 或 `999` 以防止在测试区段中的用户收到错误的现场体验时发生冲突。
 
 
-   1. 范围 **[!UICONTROL Reporting Settings]**，选择 **[!UICONTROL Company Name]** 和 **[!UICONTROL Report Suite]** 已连接到您的搜索、社交和商务帐户。
+   1. 范围 **[!UICONTROL Reporting Settings]**，选择 **[!UICONTROL Company Name]** 和 **[!UICONTROL Report Suite]** 已连接到您的搜索、社交和Commerce帐户。
 
       有关其他报表提示，请参阅&quot;[报表最佳实践和疑难解答](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html)“
 
    1. 在 **[!UICONTROL Date Range]** 字段中，输入测试的相应起始日期和终止日期。
 
-   1. 选择 **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]**. 在 **[!UICONTROL Value]** 字段中，输入 [!UICONTROL Network Account ID]， [!UICONTROL Network Campaign ID]， [!UICONTROL Network Adgroup ID]，或 [!UICONTROL Network Ad ID] 搜索、社交和商务中的相关广告网络实体。 这允许您使用 [!DNL Target] 实体的点进受众的查询字符串参数。
+   1. 选择 **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]**. 在 **[!UICONTROL Value]** 字段中，输入 [!UICONTROL Network Account ID]， [!UICONTROL Network Campaign ID]， [!UICONTROL Network Adgroup ID]，或 [!UICONTROL Network Ad ID] 搜索、社交和Commerce中的相关广告网络实体。 这允许您使用 [!DNL Target] 实体的点进受众的查询字符串参数。
 
       ID查找方式 [将相关ID列添加到实体视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 ## 进一步阅读
 
 * [将Target与Analytics集成](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html)  — 说明如何设置 [!DNL Target] Analysis Workspace中的报表。
-* [A/B测试概述](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html)  — 介绍A/B测试活动，可将其用于搜索、社交和商务广告。
+* [A/B测试概述](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html)  — 介绍可与Search、Social和Commerce广告一起使用的A/B测试活动。
 * [Analytics for Advertising概述](/help/integrations/analytics/overview.md)  — 引入了Analytics for Advertising，它允许您跟踪Analytics实例中的点进和浏览网站交互。
 
 >[!MORELIKETHIS]

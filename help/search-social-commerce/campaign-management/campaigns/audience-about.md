@@ -1,20 +1,20 @@
 ---
 title: 关于受众
-description: 了解用于跟踪、创建和管理数据的选项 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 受众。
-exl-id: 34169650-9820-4b7d-9ae6-09ff8a8c6f2e
+description: 了解用于跟踪、创建和管理数据的选项 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 受众。
+exl-id: f85cbc82-ddbc-4ecd-a17b-b4cb4808cfbc
 feature: Search Campaign Management
-source-git-commit: 9f30518efbbe29f976298fe1fcd962182285679f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
 
-# 关于管理 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 搜索、社交和商务中的受众
+# 关于管理 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 搜索、社交和Commerce中的受众
 
-*[!DNL Google Ads]和 [!DNL Microsoft® Advertising] 仅限*
+*[!DNL Google Ads]和 [!DNL Microsoft Advertising] 仅限*
 
-受众库列出了您的所有 [!DNL Google Ads] 基于客户数据、市场内和类似受众以及 [!DNL Microsoft® Advertising] 再营销和动态再营销、自定义、客户匹配、市场内和类似受众。 您可以使用任何 [!DNL Google Ads] 受众作为 [!DNL Google Ads] 营销活动级别和广告组级别的目标和排除项，您可以使用任意的 [!DNL Microsoft® Advertising] 受众作为 [!DNL Microsoft® Advertising] 营销活动级别和广告组级别的目标以及（仅限动态二次营销受众）排除项。 您可以添加或编辑任何受众目标的竞价调整。
+受众库列出了您的所有 [!DNL Google Ads] 基于客户数据、市场内和类似受众以及 [!DNL Microsoft Advertising] 再营销和动态再营销、自定义、客户匹配、市场内和类似受众。 您可以使用任何 [!DNL Google Ads] 受众作为 [!DNL Google Ads] 营销活动级别和广告组级别的目标和排除项，您可以使用任意的 [!DNL Microsoft Advertising] 受众作为 [!DNL Microsoft Advertising] 营销活动级别和广告组级别的目标以及（仅限动态二次营销受众）排除项。 您可以添加或编辑任何受众目标的竞价调整。
 
 您还可以使用现有Adobe Experience Cloud受众中的区段或电子邮件列表，以及客户关系管理(CRM)系统中的各种客户数据，来创建和管理受众：
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 
 * **Adobe Campaign电子邮件列表：** 您的Adobe客户团队可帮助您设置工作流以创建和更新 [!DNL Google Ads] 客户匹配来自电子邮件列表的受众，该列表位于 [!DNL Campaign].
 
-* **客户数据列表：** 广告商使用 [!DNL Google Ads] 或 [!DNL Microsoft® Advertising] 符合客户匹配资格的客户可以创建和更新特定于广告网络的基于客户数据的受众 &lt;!> — 或动态再营销受众 — 包含在基于客户数据的受众中，至少对于 [!DNL Google Ads]？—>通过上载包含主标识符的CSV文件。
+* **客户数据列表：** 广告商使用 [!DNL Google Ads] 或 [!DNL Microsoft Advertising] 符合客户匹配资格的客户可以创建和更新特定于广告网络的基于客户数据的受众 &lt;!> — 或动态再营销受众 — 包含在基于客户数据的受众中，至少对于 [!DNL Google Ads]？—>通过上载包含主标识符的CSV文件。
 
-* **动态二次营销列表：** 广告商使用 [!DNL Microsoft® Advertising] 客户可以创建和管理动态二次营销受众，您可以使用这些受众通过多种方式重新定位最近通过某种方式与您的产品交互的潜在客户（如产品查看者或过去的购买者）。 动态二次营销受众要求您在网页上使用广告网络的JavaScript转化和受众跟踪标记。 将动态再营销列表与搜索和受众网络上的购物营销活动结合使用，通过产品广告重新定位受众，将动态再营销列表与搜索营销活动结合使用，通过文本广告和动态搜索广告重新定位受众。 <!--[For [!DNL Google Ads], these are technically included in a customer data-based audience, so word this all carefully when we add support for them.]-->
+* **动态二次营销列表：** 广告商使用 [!DNL Microsoft Advertising] 客户可以创建和管理动态二次营销受众，您可以使用这些受众通过多种方式重新定位最近通过某种方式与您的产品交互的潜在客户（如产品查看者或过去的购买者）。 动态二次营销受众要求您在网页上使用广告网络的JavaScript转化和受众跟踪标记。 将动态再营销列表与搜索和受众网络上的购物营销活动结合使用，通过产品广告重新定位受众，将动态再营销列表与搜索营销活动结合使用，通过文本广告和动态搜索广告重新定位受众。 <!--[For [!DNL Google Ads], these are technically included in a customer data-based audience, so word this all carefully when we add support for them.]-->
 
   >[!NOTE]
   >
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Search、Social和Commerce不会存储您上传或来自的任何客户数据 [!DNL Adobe] 用于创建或编辑 [!DNL Google Ads] 或 [!DNL Microsoft® Advertising] 受众。
+>Search、Social和Commerce不会存储您上传或来自的任何客户数据 [!DNL Adobe] 用于创建或编辑 [!DNL Google Ads] 或 [!DNL Microsoft Advertising] 受众。
 
 >[!MORELIKETHIS]
 >

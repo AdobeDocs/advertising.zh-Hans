@@ -1,9 +1,9 @@
 ---
 title: 管理清单数据馈送文件
 description: 了解如何配置用于控制如何处理馈送数据的设置。
-exl-id: 73d372de-2673-4190-94cf-2f07f4ce2493
+exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 管理清单数据馈送文件
 
-*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads] （仅删除操作），以及 [!DNL Yandex] 仅限帐户*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads] （仅删除操作），以及 [!DNL Yandex] 仅限帐户*
 
 如果您提交自己的信息源数据，则必须上传包含产品数据的文件，以根据产品数据动态创建促销活动结构、广告和关键词。 然后，您可以将它们与广告网络特定的广告模板相关联，并通过模板处理数据，最终将数据发布到相关广告网络。 您可以将多个模板与一个信息源文件关联，但每个模板只能与一个信息源文件关联。
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 您可以通过以下任一方式上传和处理数据馈送文件：
 
-* **自动使用FTP：** 您可以将文件直接上传到FTP目录；信息源服务每两小时检查一次新文件。 首次上传文件后，您可以将其与特定于广告网络的模板关联。 之后，您上传的所有同名文件都会自动与同一模板关联。 取决于您如何操作 [配置馈送数据设置](feed-settings-manage.md)、搜索、Social和Commerce可能会通过所有适用的模板自动传播信息源数据，并（可选）将生成的营销活动和广告数据发布到相关广告网络。
+* **自动使用FTP：** 您可以将文件直接上传到FTP目录；信息源服务每两小时检查一次新文件。 首次上传文件后，您可以将其与特定于广告网络的模板关联。 之后，您上传的所有同名文件都会自动与同一模板关联。 取决于您如何操作 [配置馈送数据设置](feed-settings-manage.md)、 Search、Social和Commerce可能会通过所有适用的模板自动传播信息源数据，并（可选）将生成的营销活动和广告数据发布到相关广告网络。
 
   要设置用于存放和自动处理数据文件的FTP目录，请联系您的Adobe客户团队。
 
@@ -109,7 +109,7 @@ shoes<TAB>Clarks<TAB>20
 
 1. 通过输入完整路径和文件名或单击指定要上载的文件 **[!UICONTROL Browse]** 在设备或网络上查找文件。
 
-1. 单击 **[!UICONTROL Upload].
+1. 单击**[!UICONTROL Upload].
 
 将验证文件中的所有字段。 在更正值之前，您不能稍后发布字段长度无效的项目。 文件中的所有列名在模板中作为动态参数变为可用。
 

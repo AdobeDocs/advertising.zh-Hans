@@ -3,7 +3,7 @@ title: 库存馈送的文本广告和响应式搜索广告模板设置
 description: 引用库存馈送的文本广告和响应式搜索广告模板的设置。
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '3325'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 # 库存馈送的文本广告和响应式搜索广告模板设置
 
 
-*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads] （仅删除操作），以及 [!DNL Yandex] 仅限帐户*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads] （仅删除操作），以及 [!DNL Yandex] 仅限帐户*
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 * 嵌入最终URL：
 
-   * ([!DNL Google Ads] 和 [!DNL Microsoft® Advertising] （仅限）有关用于指示跟踪模板中最终URL的参数列表，请参阅([!DNL Microsoft® Advertising] 仅限) [[!DNL Microsoft® Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799/2) 或([!DNL Google Ads] 仅限)“可用”部分中的“仅限跟踪模板”参数 [!DNL ValueTrack] 参数” [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] 和 [!DNL Microsoft Advertising] （仅限）有关用于指示跟踪模板中最终URL的参数列表，请参阅([!DNL Microsoft Advertising] 仅限) [[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799/2) 或([!DNL Google Ads] 仅限)“可用”部分中的“仅限跟踪模板”参数 [!DNL ValueTrack] 参数” [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] 仅限)使用参数 `!{unescapedurl}` 以指示登陆页面URL。
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 * 适用于Yahoo！ 日本广告帐户，使用参数 {lpurl}.
 
-* 有关Microsoft®Advertising和Google Ads帐户可用的参数，请参阅 [[!DNL Microsoft® Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799) 或“可用”部分中的“仅跟踪模板”参数 [!DNL ValueTrack] 参数” [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
+* 有关Microsoft Advertising和Google Ads帐户可用的参数，请参阅 [[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799) 或“可用”部分中的“仅跟踪模板”参数 [!DNL ValueTrack] 参数” [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
 
 此值将覆盖帐户级别和营销活动级别的设置，但更细粒度级别（以关键词最细粒度）的跟踪模板将覆盖此值。
 
@@ -166,7 +166,7 @@ ht-degree: 0%
 
 要将列名或修饰符组作为动态参数插入，请在输入字段中单击，然后单击列列表中的列名或 [修饰符名称](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) 在修饰符列表中。 要为同一关键字指定多个关键字或多个匹配类型，请在单独的行中输入它们。 要指定关键字匹配类型，请在列名前后使用以下匹配类型语法：
 
-* 对象 [!DNL Google Ads]， [!DNL Microsoft® Advertising]、和 [!DNL Yahoo! Japan Ads] 模板：
+* 对象 [!DNL Google Ads]， [!DNL Microsoft Advertising]、和 [!DNL Yahoo! Japan Ads] 模板：
 
    * 对于动态参数：广泛匹配= `[keyword]`，中的第一个术语的Broad Match修饰符 [!UICONTROL Keyword] 列（如+蓝色山羊皮鞋）= `+[keyword]`，关键词列中每个术语的广泛匹配修饰符（如+blue +suede +shoes） = `+[keyword]+`，短语匹配= `"[keyword]"`，完全匹配= `[[keyword]]`
 
@@ -206,7 +206,7 @@ ht-degree: 0%
 
 * 要指示登陆页面URL，请执行以下操作：
 
-   * ([!DNL Google Ads] 和 [!DNL Microsoft® Advertising] （仅限）有关用于指示跟踪模板中最终URL的参数列表，请参阅([!DNL Microsoft® Advertising] 仅限) [[!DNL Microsoft® Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799) 或([!DNL Google Ads] 仅限)“可用”部分中的“仅限跟踪模板”参数 [!DNL ValueTrack] 参数” [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] 和 [!DNL Microsoft Advertising] （仅限）有关用于指示跟踪模板中最终URL的参数列表，请参阅([!DNL Microsoft Advertising] 仅限) [[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799) 或([!DNL Google Ads] 仅限)“可用”部分中的“仅限跟踪模板”参数 [!DNL ValueTrack] 参数” [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] 仅限)使用参数 `!{lpurl}` 以指示登陆页面URL。
 
@@ -234,15 +234,15 @@ ht-degree: 0%
 
    * 两个数字可以用正斜杠嵌入。 例如，4/1和0.95/0.45有效。
 
-**[!UICONTROL Param 2]\[[!DNL Microsoft® Advertising] 模板\]：** ([!DNL Microsoft® Advertising] 模板)在标题、文本、显示URL或最终URL包含 `{Param2}` 动态替换字符串。 最大长度为70个字符，但请注意，在其中使用它的广告元素的最大长度（例如，广告标题最多可包含25个字符）。
+**[!UICONTROL Param 2]\[[!DNL Microsoft Advertising] 模板\]：** ([!DNL Microsoft Advertising] 模板)在标题、文本、显示URL或最终URL包含 `{Param2}` 动态替换字符串。 最大长度为70个字符，但请注意，在其中使用它的广告元素的最大长度（例如，广告标题最多可包含25个字符）。
 
-**[!UICONTROL Param 3]：** ([!DNL Microsoft® Advertising] 模板)在标题、文本、显示URL或最终URL包含 `{Param3}` 动态替换字符串。 最大长度为70个字符，但请注意，在其中使用它的广告元素的最大长度（例如，广告标题最多可包含25个字符）。
+**[!UICONTROL Param 3]：** ([!DNL Microsoft Advertising] 模板)在标题、文本、显示URL或最终URL包含 `{Param3}` 动态替换字符串。 最大长度为70个字符，但请注意，在其中使用它的广告元素的最大长度（例如，广告标题最多可包含25个字符）。
 
 **[!UICONTROL Initial Bid (<Match Type or Ad Type>)]：** 具有指定匹配类型或广告类型的每个关键字的初始竞价。
 
 ## [!UICONTROL Ads]
 
-**[!UICONTROL Ad Type]：** ([!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 仅限促销活动)广告类型： *[!UICONTROL Expanded Search Ads]* 或 *[!UICONTROL Responsive Search Ads]*.
+**[!UICONTROL Ad Type]：** ([!DNL Google Ads] 和 [!DNL Microsoft Advertising] 仅限促销活动)广告类型： *[!UICONTROL Expanded Search Ads]* 或 *[!UICONTROL Responsive Search Ads]*.
 
 **[!UICONTROL Prefill]：** （可选）使用原始广告副本字段中的文本预填充所有备用广告副本字段。
 
@@ -258,7 +258,7 @@ ht-degree: 0%
 
 {{inventory-feed-template-insert-ad-customizer}}
 
-**[!UICONTROL Ad Title]：** (现有Microsoft®仅限广告标准文字广告；只读)广告的标题或第一行。 Microsoft®广告已弃用创建和编辑标准文字广告。
+**[!UICONTROL Ad Title]：** (现有Microsoft Advertising标准文字广告，仅限使用；只读)广告的标题或第一行。 Microsoft广告已弃用创建和编辑标准文字广告。
 
 **[!UICONTROL Headline 1]**， **[!UICONTROL Headline 2]：** ([!DNL Google Ads] 和 [!DNL Yahoo! Japan Ads] 仅限扩展/扩展的文本广告模板)广告的标题。 每行的最大长度（替换任何动态参数后）为30个字符或15个双字节字符。
 
@@ -270,13 +270,13 @@ ht-degree: 0%
 
 **[!UICONTROL Title]：** ([!DNL Yandex] 仅限)广告的标题或第一行。 最多为33个字符。
 
-**[!UICONTROL Title Part 1]**， **[!UICONTROL Title Part 2]：** (Microsoft® Advertising仅扩展了文本广告)广告的标题。 每行的最大长度（替换任何动态参数后）为30个字符或15个双字节字符。
+**[!UICONTROL Title Part 1]**， **[!UICONTROL Title Part 2]：** (Microsoft Advertising仅扩展了文字广告)广告的标题。 每行的最大长度（替换任何动态参数后）为30个字符或15个双字节字符。
 
 <!-- using a snippet for the note instead of an include because this is used multiple times on the page, which ExL doesn't support for includes -->
 
 {{inventory-feed-template-insert-dynamic-parameter}}
 
-**[!UICONTROL Ad Text]：** (Microsoft®Advertising仅扩展了文字广告)广告的正文。 最大长度（替换任何动态参数后）为80个字符或40个双字节字符（例如中文、日语和韩语）。
+**[!UICONTROL Ad Text]：** (Microsoft Advertising仅扩展了文字广告)广告正文。 最大长度（替换任何动态参数后）为80个字符或40个双字节字符（例如中文、日语和韩语）。
 
 ### [!UICONTROL Descriptions]
 
@@ -312,11 +312,11 @@ ht-degree: 0%
 
 * [!DNL Google Ads]： `{CUSTOMIZER.AdCustomizerName:Default text}`，例如 `{CUSTOMIZER.Discount:10%}`
 
-* [!DNL Microsoft® Advertising]： `{CUSTOMIZER.Attribute name:Default text}`，例如 `{CUSTOMIZER.Discount:10%}`
+* [!DNL Microsoft Advertising]： `{CUSTOMIZER.Attribute name:Default text}`，例如 `{CUSTOMIZER.Discount:10%}`
 
-**[!UICONTROL Display URL]：** (现有 [!DNL Microsoft® Advertising] 和 [!DNL Yahoo! Japan Ads] 仅限标准文本广告；只读)广告中显示的URL。
+**[!UICONTROL Display URL]：** (现有 [!DNL Microsoft Advertising] 和 [!DNL Yahoo! Japan Ads] 仅限标准文本广告；只读)广告中显示的URL。
 
-[!DNL Microsoft® Advertising] 和 [!DNL Yahoo! Japan Ads] 已弃用创建和编辑标准文字广告。
+[!DNL Microsoft Advertising] 和 [!DNL Yahoo! Japan Ads] 已弃用创建和编辑标准文字广告。
 
 **[!UICONTROL Base URL]：** （仅限具有目标URL的帐户）用户所属的页面。 它可以包含第三方重定向和跟踪代码。 如果您使用Adobe Advertising转化跟踪服务，并且促销活动设置包括使用 [!UICONTROL EF Redirect] 并在广告级别添加跟踪，则Search、Social和Commerce会自动将其自身的重定向和跟踪代码添加到广告。
 
@@ -339,7 +339,7 @@ ht-degree: 0%
 
 * 适用于Yahoo！ 日本广告帐户，使用参数 {lpurl}.
 
-* 有关Microsoft®Advertising和Google Ads帐户可用的参数，请参阅 [[!DNL Microsoft® Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799) 或“可用”部分中的“仅跟踪模板”参数 [!DNL ValueTrack] 参数” [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
+* 有关Microsoft Advertising和Google Ads帐户可用的参数，请参阅 [[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799) 或“可用”部分中的“仅跟踪模板”参数 [!DNL ValueTrack] 参数” [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
 
 **\[原始广告字段下的备用广告字段\]：** （可选）广告的替代广告副本集，如果原始广告副本中的任何行超过了传播期间使用数据填充任何动态参数后允许的最大长度，则可以使用替代广告副本。
 

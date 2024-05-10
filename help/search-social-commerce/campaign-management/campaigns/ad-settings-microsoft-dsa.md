@@ -1,16 +1,16 @@
 ---
-title: ’[!DNL Microsoft® Advertising] 扩展的动态搜索广告设置
-description: 引用设置 [!DNL Microsoft® Advertising] 扩展的动态搜索广告。
+title: ’[!DNL Microsoft Advertising] 扩展的动态搜索广告设置
+description: 引用设置 [!DNL Microsoft Advertising] 扩展的动态搜索广告。
 exl-id: 232a57fc-2823-4d82-aa02-3e670430979f
 feature: Search Campaign Management
-source-git-commit: bb3c366d702cdf2604388720313a7d23938d902a
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] 扩展的动态搜索广告设置
+# [!DNL Microsoft Advertising] 扩展的动态搜索广告设置
 
 扩展的动态搜索广告(eDSA)仅在搜索网络上的营销活动中的动态广告组中可用。 广告网络动态生成标题，并为动态搜索广告选择登陆页面，然后自动生成最终URL。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 >
 >* [关于广告](ad-about.md)
 >* [管理广告](ad-manage.md)
->* [[!DNL Microsoft® Advertising] 多媒体广告设置](ad-settings-microsoft-multimedia.md)
->* [[!DNL Microsoft® Advertising] 产品广告设置](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft® Advertising] 响应式（受众）广告设置](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft® Advertising] 响应式搜索广告设置](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] 多媒体广告设置](ad-settings-microsoft-multimedia.md)
+>* [[!DNL Microsoft Advertising] 产品广告设置](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] 响应式（受众）广告设置](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] 响应式搜索广告设置](ad-settings-microsoft-rsa.md)
