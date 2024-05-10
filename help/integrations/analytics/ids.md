@@ -3,9 +3,9 @@ title: 使用的Adobe AdvertisingID [!DNL Analytics]
 description: 使用的Adobe AdvertisingID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 9374f5ef6aaff1f638022bc878c7af190e31888f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1684'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ EF ID是一个唯一令牌，Adobe Advertising可使用它将Activity与在线�
 
 >[!NOTE]
 >
->EF ID区分大小写。 如果 [!DNL Analytics] 如果实施强制URL跟踪使用小写，则Adobe Advertising将无法识别EF ID。 这将影响Adobe Advertising竞价和报表，但不会影响Adobe Advertising报表中的 [!DNL Analytics].
+>EF ID区分大小写。 如果 [!DNL Analytics] 实施强制URL跟踪为小写，然后Adobe Advertising无法识别EF ID。 这会影响Adobe Advertising竞价和报表，但不会影响中的Adobe Advertising报表 [!DNL Analytics].
 
 #### [!DNL Google Ads] 搜索广告
 
@@ -114,7 +114,7 @@ AMO ID也称为 `s_kwcid`，有时发音为“[!DNL the squid]“
 
    * DSP客户：当最终用户查看带有Adobe Advertising像素的显示广告时，像素服务器会自动将s_kwcid参数附加到登陆页面后缀。
 
-   * 搜索、社交和商务客户：
+   * 搜索、社交和Commerce客户：
 
       * 对象 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 帐户具有 [!UICONTROL Auto Upload] 为帐户或营销活动启用的设置，当最终用户单击带有Adobe Advertising像素的广告时，像素服务器会自动将s_kwcid参数附加到您的登陆页后缀。
 
@@ -128,7 +128,7 @@ AMO ID也称为 `s_kwcid`，有时发音为“[!DNL the squid]“
 
       * 对象 [!DNL Google Campaign Manager 360] 添加标记，手动为每个&#39;&#39;插入其他宏[附加 [!DNL Analytics for Advertising] 宏到 [!DNL Google Campaign Manager 360] 广告标记](/help/integrations/analytics/macros-google-campaign-manager.md)“
 
-   * 搜索、社交和商务客户：
+   * 搜索、社交和Commerce客户：
 
       * 对于([!DNL Google Ads] 和 [!DNL Microsoft® Advertising])广告，请手动将AMO ID参数添加到登陆页面后缀，最好在 [帐户级别](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} 除非需要对各个帐户组件进行不同的跟踪。
 
@@ -152,7 +152,7 @@ AMO ID也称为 `s_kwcid`，有时发音为“[!DNL the squid]“
 
 示例AMO ID： AC！iIMvXqlOa6Nia2lDvtgw！GrVv6o2oV2qQLjQiXLC7
 
-#### 搜索、社交和商务广告的AMO ID格式 {#amo-id-format-search}
+#### 搜索、社交和Commerce广告的AMO ID格式 {#amo-id-format-search}
 
 这些参数因广告网络而异，但以下参数是所有参数共有的：
 

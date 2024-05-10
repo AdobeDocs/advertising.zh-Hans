@@ -3,9 +3,9 @@ title: 管理默认视图和自定义视图
 description: 了解如何自定义默认视图和自定义视图。
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '2842'
+source-wordcount: '2835'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >使用可帮助您识别所应用选项卡的名称（例如“暂停的促销活动”或“前50个广告”）。
+   >使用有助于识别其所应用选项卡和信息的名称（例如“暂停的促销活动”或“前50个广告”）。
 
 ### 编辑默认或自定义视图
 
@@ -140,14 +140,14 @@ ht-degree: 0%
 
 | **选项卡** | **字段** | **描述** |
 | --- | --- | --- |
-| [所有选项卡上方] | 名称 | 视图的唯一名称。 您无法编辑默认视图的名称。 <p><b>提示：</b> 使用可帮助您识别所应用选项卡的名称（例如“暂停的促销活动”或“前50个广告”）。 |
-|   | 通用视图 | 使数据设置在所有实体视图（营销活动、广告等）中可用。 通用视图可以包括量度和标签分类列，但不能包括属性列（例如实体名称和状态），因为它们按实体类型不同 — 以及所有其他视图属性也不同。 任何筛选条件都会应用到实体视图（如果适用），否则将被忽略。 所有量度过滤器均在本地进行评估（例如，对于点击\> 1000，促销活动视图将显示点击超过1000的促销活动，广告组视图将显示点击超过1000的广告组）。<p>通用视图的属性列是从实体的默认视图中提取的。 您可以在默认视图设置中更改特定实体的默认属性列。<p>启用或禁用此选项后，不能将更改保存到现有视图，但可以使用更改创建新视图。 |
+| [所有选项卡上方] | 名称 | 视图的唯一名称。 您无法编辑默认视图的名称。 <p><b>提示：</b> 使用有助于识别其所应用选项卡和信息的名称（例如“暂停的促销活动”或“前50个广告”）。 |
+|   | 通用视图 | 使数据设置在所有实体视图（营销活动、广告等）中可用。 通用视图可以包括量度和标签分类列，但不能包括属性列（例如实体名称和状态），因为它们按实体类型不同 — 以及所有其他视图属性也不同。 任何筛选条件都会应用到实体视图（如果适用），否则将被忽略。 所有量度过滤器都将在本地进行评估（例如，对于\> 1000次点击，促销活动视图显示超过1000次点击的促销活动，广告组视图显示超过1000次点击的广告组）。<p>通用视图的属性列是从实体的默认视图中提取的。 您可以在默认视图设置中更改特定实体的默认属性列。<p>启用或禁用此选项后，不能将更改保存到现有视图，但可以使用更改创建新视图。 |
 |   | 共享 | （仅限自定义视图；可选）将该视图提供给可以查看广告商数据的所有其他用户。 其他用户无法编辑或删除该视图，但他们可以从设置中创建新视图。在您的视图列表中，其他人在共享的每个视图都以斜体显示，例如“_表现最佳的营销活动_“ |
-| 列 | 选定的列和排序 | 显示的数据列及其顺序：<ul><li> （添加列）在“可用列”列表中，单击列名称，然后将其拖到“所选列和排序”列表中，或单击 ![向右箭头](/help/search-social-commerce/assets/chevron-right.png) 把它移到那里。</li><li>（更改列的水平位置）在“所选列和排序”列表中，单击列名称，然后将其拖动到所需位置或单击 ![向上箭头键](/help/search-social-commerce/assets/chevron-up.png) 或 ![向下箭头](/help/search-social-commerce/assets/chevron-down.png) 把它移到那里。 顶列的名称将显示在左列中。</li><li>（要删除列）在选定列和排序列表中，单击列名，然后将其拖到可用列列表中，或单击 ![左箭头](/help/search-social-commerce/assets/chevron-left.png) 把它移到那里。</li></ul><b>筛选数据</b><p>要仅列出特定类型的数据，请单击列表旁边的任何图标：<ul><li>![属性图标](/help/search-social-commerce/assets/properties-icon.png) 用于搜索组件的属性名称和ID，例如状态</li><li>![流量图标](/help/search-social-commerce/assets/traffic-metrics-icon.png) 用于标准流量量度，例如展示次数和点击次数</li><li>![收入图标](/help/search-social-commerce/assets/revenue-metrics-icon.png) （适用于为广告商跟踪的转化量度，包括从Analytics同步的转化和网站参与量度）</li><li>![自定义图标](/help/search-social-commerce/assets/custom-metrics-icon.png) （适用于广告商创建的自定义派生量度）</li><li>![分类图标](/help/search-social-commerce/assets/classifications-icon.png) （用于标签分类）。</li></ul> <b>其他说明：</b><ul><li>要添加、创建或编辑新量度，请参阅“创建自定义量度”、“编辑自定义量度”和“删除自定义量度”。</li><li>如果报表包含使用不同货币的帐户的数据，则基于货币的列（例如成本和CPC）不包含总计。</li><li>您可以 [从列标题菜单中临时编辑列集](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)、和 [编辑列集并对列集进行排序 [!UICONTROL Columns] 图标](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md). (![“列”图标](/help/search-social-commerce/assets/custom-columns.png "“列”图标"))。</li></ul> |
+| 列 | 选定的列和排序 | 显示的数据列及其顺序：<ul><li> （添加列）在“可用列”列表中，单击列名称，然后将其拖到“所选列和排序”列表中，或单击 ![向右箭头](/help/search-social-commerce/assets/chevron-right.png) 把它移到那里。</li><li>（更改列的水平位置）在“所选列和排序”列表中，单击列名称，然后将其拖动到所需位置或单击 ![向上箭头键](/help/search-social-commerce/assets/chevron-up.png) 或 ![向下箭头](/help/search-social-commerce/assets/chevron-down.png) 把它移到那里。 顶列的名称显示在左列。</li><li>（要删除列）在选定列和排序列表中，单击列名，然后将其拖到可用列列表中，或单击 ![左箭头](/help/search-social-commerce/assets/chevron-left.png) 把它移到那里。</li></ul><b>筛选数据</b><p>要仅列出特定类型的数据，请单击列表旁边的任何图标：<ul><li>![属性图标](/help/search-social-commerce/assets/properties-icon.png) 用于搜索组件的属性名称和ID，例如状态</li><li>![流量图标](/help/search-social-commerce/assets/traffic-metrics-icon.png) 用于标准流量量度，例如展示次数和点击次数</li><li>![收入图标](/help/search-social-commerce/assets/revenue-metrics-icon.png) （适用于为广告商跟踪的转化量度，包括从Analytics同步的转化和网站参与量度）</li><li>![自定义图标](/help/search-social-commerce/assets/custom-metrics-icon.png) （适用于广告商创建的自定义派生量度）</li><li>![分类图标](/help/search-social-commerce/assets/classifications-icon.png) （用于标签分类）。</li></ul> <b>其他说明：</b><ul><li>要添加、创建或编辑新量度，请参阅“创建自定义量度”、“编辑自定义量度”和“删除自定义量度”。</li><li>如果报表包含使用不同货币的帐户的数据，则基于货币的列（例如成本和CPC）不包含总计。</li><li>您可以 [从列标题菜单中临时编辑列集](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)、和 [编辑列集并对列集进行排序 [!UICONTROL Columns] 图标](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md). (![“列”图标](/help/search-social-commerce/assets/custom-columns.png "“列”图标"))。</li></ul> |
 |   | 排序方式 | 作为数据排序依据的列。 每种报表类型的默认值均不同。 |
 |   | 排序顺序 | 是否对数据排序 **升序** 或 **降序** 顺序。 移动滑块以选择一个选项。 |
 | 过滤器 | [筛选器定义] | （可选）要应用于数据的过滤器。 仅当列的值满足指定的条件时，应用过滤器才会返回行。<p>对于要应用的每个过滤器：<ol><li>在“添加筛选器”菜单中，选择一个列名称。 该列表包含所有可用的列，并按列类型排序，属性列在前。</li><li>在列上定义过滤器</li></ol>（带有输入字段的筛选器）从第二个菜单中选择运算符，然后输入适用的值。 值不区分大小写。 单击 ![check图标](/help/search-social-commerce/assets/select.png) 等你完事了。<p>例如，如果您选择了“点击量”列，并且只想返回点击量超过100次的行，请选择 _\>_ 并输入 `100` 在输入字段中。<p>根据数据类型，可用的运算符可能包括 <i>大于</i>， <i>小于</i>， <i>等于</i>， <i>包含</i>， <i>不包含</i>， <i>开头为</i>， <i>结束于</i>，<i>无值</i>，或 <i>具有值</i> <i>早于</i>， <i>之后</i>，或 <i>无日期</i>.<p>（没有输入字段的筛选器）单击 ![向下箭头](/help/search-social-commerce/assets/arrow-down-expand.png) ，然后选中要包含的每个值旁边的复选框。 单击 ![check图标](/help/search-social-commerce/assets/select.png) 等你完事了。<p><b>注释：</b><ul><li>您可以将对筛选器的更改应用到默认视图设置，但不能保存更改。</li><li>您还可以 [临时更改适用的过滤器](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) 在视图中。</li></ul> |
-|   | 仅包含具有性能数据的行 | （仅限广告组、关键字、产品组、投放位置和自动定位视图） <p>仅包含指定日期期间具有性能数据的行。 默认情况下，选择此选项可缩短页面加载时间。 <p><b>警告</b>：如果取消选择选项，并且视图包含许多没有性能数据的实体，则显示数据将需要更长时间。<p> <b>注意</b>：您可以将对筛选器的更改应用到默认视图设置，但不能保存更改。 默认视图始终仅显示具有性能数据的实体。 |
+|   | 仅包含具有性能数据的行 | （仅限广告组、关键字、产品组、投放位置和自动定位视图） <p>仅包含指定日期期间具有性能数据的行。 默认情况下，选择此选项可缩短页面加载时间。 <p><b>警告</b>：如果取消选择选项，并且视图包含许多没有性能数据的实体，则显示数据需要较长时间。<p> <b>注意</b>：您可以将对筛选器的更改应用到默认视图设置，但不能保存更改。 默认视图始终仅显示具有性能数据的实体。 |
 | 日期 | 日期范围 | (当选择“Include date range”（包含日期范围）时)<p>要为其生成数据的日期范围。 选择一个选项：<ul><li><i>[预设范围]</i>：常见时间增量列表，介于 <i>今天</i> 到 <i>最近180天</i>. 从列表中选择一个；默认值为 <i>昨天</i>. 注意： <i>上个月</i>， <i>过去3个月</i>、和 <i>过去6个月</i> 显示前一个日历月份的数据。</li><li><i>自定义日期范围：</i> 指定开始日期和结束日期。 以YYYY/MM/DD或M/D/YYYY格式输入日期，或单击 ![日历图标](/help/search-social-commerce/assets/calendar.png) 在字段旁边并选择日期。</li></ul> |
 |   | 比较 | 将指定日期范围的数据与第二个日期范围的数据进行比较。 选择此选项时，将为每个常规数据列添加两个额外的列。 例如，报表不仅包括“展示次数”的一列，还包括“展示次数范围1”、“展示次数范围2”和“展示次数差异”的列。<p><b>注释：</b><ul><li>对于派生量度，不显示“差异”列。</li><li>比较大日期范围的报表可能需要更长的时间才能生成。</li></ul> |
 |   | 比较格式 | 如何表示“”中两个选定日期范围中的数据之间的差异&#x200B;[_数据字段_] “差异”列。 选择一个选项：<ul><li><i>变量</i> （默认）：将差异显示为数值。</li><li><i>%更改</i>：以百分比显示差异。</li></ul> |

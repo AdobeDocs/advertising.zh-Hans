@@ -3,9 +3,9 @@ title: 设置效果活动的最佳实践
 description: 了解设置以性能为中心的活动的最佳实践，其中包括针对最低CPA或最高ROAS而优化的投放位置。
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: c2c2ddb18b100dc0592d07af3ed1d9f030178eca
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ DSP可以优化以性能为中心的促销活动。 请参阅以下效果促销�
 
 ## 步骤1 — 定义目标
 
-了解活动的目标很重要，例如实现尽可能最高的ROAS或尽可能最低的CPA。 性能营销活动具有 [优化目标](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] 或&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]“ 对于营销活动中的每个资源包，您将相应地指定优化目标。
+了解活动的目标很重要，例如实现尽可能最高的ROAS或尽可能最低的CPA。 性能营销活动具有 [优化目标](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] 或&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]“ 对于营销活动中的每个资源包，相应地指定优化目标。
 
 ![优化目标](/help/dsp/assets/optimization-goals.png)
 
-您还需要确定将带来整体目标的成功事件并相应地创建自定义目标。 对于每个包，您将指定一个自定义目标，以便与报告和算法优化的整体优化目标一起使用 [!DNL Adobe Sensei]. 有关创建自定义目标的更多信息，请参阅 [构建自定义目标的最佳实践](custom-goal.md#custom-goal-best-practices).
+您还需要确定导致整体目标的成功事件并相应地创建自定义目标。 对于每个包，指定要与总体优化目标一起使用的自定义目标，以便使用进行报告和算法优化 [!DNL Adobe Sensei]. 有关创建自定义目标的更多信息，请参阅 [构建自定义目标的最佳实践](custom-goal.md#custom-goal-best-practices).
 
 ![自定义目标](/help/dsp/assets/objective-goals.png)
 
@@ -73,7 +73,7 @@ DSP可以优化以性能为中心的促销活动。 请参阅以下效果促销�
 
   例如，如果您在30天内有$100,000的支出，则将航班1的预算（第1-10天）设置为$25,000（75% x $100,000/30天=每天$2,500）。 将剩余预算75,000美元用于航班2（第11-30天）。
 
-* **预算：** DSP将始终尝试在包中的所有版面之间平均分配100%的包预算。 如果投放位置支出较少或没有支出，我们建议为投放位置设置预算上限，以允许将更多预算按比例分配给投放位置。 允许24-48小时对预算更改进行校准。
+* **预算：** DSP始终尝试在包中的所有版面之间平均分配100%的包预算。 如果投放位置支出较少或没有支出，我们建议为投放位置设置预算上限，以允许将更多预算按比例分配给投放位置。 允许24-48小时对预算更改进行校准。
 
 * **优化目标：** 使用两个性能优化目标之一， *[!UICONTROL Highest Return on Ad Spend]* 或 *[!UICONTROL Lowest Cost per Acquisition]*，具体取决于资源包目标。 这些目标分别自动优化包以实现ROAS最高版位或是CPA最低版位。
 
@@ -97,7 +97,7 @@ DSP可以优化以性能为中心的促销活动。 请参阅以下效果促销�
 
 ### 目标
 
-您将在包级别配置CPA或ROAS优化（请参阅步骤3 — 创建包），但您可以添加其他放置级别设置。
+您必须在包级别配置CPA或ROAS优化（请参阅步骤3 — 创建包），但您可以添加其他版面级别设置。
 
 * **最高出价：**
    * 对于潜在客户投放位置，请使用较低的最高出价（5美元）。
@@ -105,7 +105,7 @@ DSP可以优化以性能为中心的促销活动。 请参阅以下效果促销�
 
 * **预竞价过滤器：** 最大限度地减少或最好避免设置激进的竞价前筛选条件，这会阻止投放达到规模。 最佳实践包括：
 
-   * 为每个投放位置使用一(1)个预竞价过滤器。 多个预竞价筛选器需要同时满足这两个条件，这会缩小规模。
+   * 为每个投放位置使用一(1)个预竞价过滤器。 使用多个预竞价筛选器需要同时满足这两个条件，这会缩小规模。
 
    * 在应用了其他定位（如受众、地理和网站定位）的情况下，请考虑设置更宽松的预竞价过滤器。
 
@@ -147,7 +147,7 @@ DSP可以优化以性能为中心的促销活动。 请参阅以下效果促销�
 
 ### 品牌安全和媒体质量
 
-使用上下文过滤、预竞价欺诈阻止和/或 [!UICONTROL Ads.txt] 过滤将限制投放的规模，但会根据需要使用它们。
+使用上下文过滤、预竞价欺诈阻止和/或 [!UICONTROL Ads.txt] 过滤会限制投放的规模，但会根据需要使用它们。
 
 ## 步骤5 — 使用正确的创意资产
 

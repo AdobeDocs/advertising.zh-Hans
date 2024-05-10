@@ -3,9 +3,9 @@ title: Campaign设置
 description: 请参阅可用营销活动设置的描述。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 您可以在营销活动、包和投放级别设置频率上限。 DSP将遵循营销活动层次结构中最严格的频率限制。
+> 您可以在营销活动、包和投放级别设置频率上限。 DSP遵循营销活动层次结构中最严格的频率限制。
 
 **[!UICONTROL Packages]：** 此 [包](/help/dsp/campaign-management/packages/package-about.md) 以包含在营销活动中。 选择现有包和/或创建要包含的包。 如果您创建包，请参阅关于以下内容的说明： [包设置](/help/dsp/campaign-management/packages/package-settings.md) 以了解更多信息。
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Target Age]：** 目标年龄范围。 根据需要使用左右滑杆缩小范围。
 
-* **[!UICONTROL Target Country]：** （可选）要定位的国家/地区。 [!DNL Nielsen] 将仅衡量受支持国家/地区的展示次数。
+* **[!UICONTROL Target Country]：** （可选）要定位的国家/地区。 [!DNL Nielsen] 仅向受支持国家提供阅听。
 
 **[!UICONTROL comScore vCE]：** （可选）启用 [!DNL Comscore validated Campaign Essentials (vCE)] 使用指定设置进行受众验证的测量和报告。 需支付额外费用。
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Target Age]：** 目标年龄范围。 根据需要使用左右滑杆缩小范围。
 
-* **[!UICONTROL Target Country]：** （可选）要定位的国家/地区。 [!DNL Comscore] 将仅衡量受支持国家/地区的展示次数。
+* **[!UICONTROL Target Country]：** （可选）要定位的国家/地区。 [!DNL Comscore] 仅向受支持国家提供阅听。
 
 ### [!UICONTROL 1st Party Metrics]
 

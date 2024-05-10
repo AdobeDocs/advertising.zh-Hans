@@ -1,11 +1,11 @@
 ---
 title: 关于 [!DNL Google Ads] 动态搜索目标
 description: 了解 [!DNL Google Ads] 动态搜索目标。
-exl-id: 3936455b-926a-4a3f-b3df-54e92cdfdc99
+exl-id: e6a8a426-5848-4161-99f3-1140aa3e4b9f
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]仅限帐户*
 
-动态搜索目标定义广告网络将使用您网站中的所有页面还是部分页面来定位您的动态搜索广告。 在广告组级别配置动态搜索目标；它们适用于同一广告组中的所有动态搜索广告。
+动态搜索目标定义广告网络使用网站中的所有页面还是部分页面来定位动态搜索广告。 在广告组级别配置动态搜索目标；它们适用于同一广告组中的所有动态搜索广告。
 
 根据您的促销活动设置，动态搜索目标可能是必需或可选的：
 

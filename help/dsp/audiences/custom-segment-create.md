@@ -3,9 +3,9 @@ title: 创建和实施自定义区段
 description: 了解如何创建和实施自定义区段以跟踪向广告公开的用户或访问您网页的用户。
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: fcce2b2ba7ab9717e83b05ddf8f22399f6b2e28e
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -59,13 +59,13 @@ ht-degree: 0%
 
       默认窗口为45天。 输入一个介于1 (1)到365之间的值。
 
-   1. 单击 **[!UICONTROL Advanced]** 要展开高级设置，然后选择区段标记将跟踪的用户标识符类型：
+   1. 单击 **[!UICONTROL Advanced]** 要展开高级设置，然后选择区段标记跟踪的用户标识符类型：
 
-      * *[!UICONTROL Cookies]：* （默认）区段标记将跟踪Cookie。
+      * *[!UICONTROL Cookies]：* （默认）区段标记跟踪Cookie。
 
       * [!UICONTROL Universal IDs (Beta)]：
 
-         * *[!UICONTROL ID5]：* 将跟踪区段标记 [!DNL ID5] ID。 对于传送到通用ID的展示，不产生任何费用。
+         * *[!UICONTROL ID5]：* 区段标记跟踪 [!DNL ID5] ID。 对于传送到通用ID的展示，不产生任何费用。
 
         **[!UICONTROL Terms of Service]：** 使用通用ID的服务协议条款。 您或DSP帐户中的其他用户必须接受一次这些条款，然后才能将通用ID用于新ID类型。 对于签订托管服务合同的客户，您的Adobe客户团队将代表贵组织获得您的同意并接受相关条款。 要阅读术语，请单击 **>**. 要接受条款，请滚动到条款的底部并单击 **[!UICONTROL Accept]**.
 

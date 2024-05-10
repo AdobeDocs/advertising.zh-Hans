@@ -3,9 +3,9 @@ title: 关于Campaign Management的常见问题解答
 description: 了解关于营销活动管理的更多信息，包括更改的延迟期以及在投放期间更改预算时将发生的情况。
 feature: DSP Packages, DSP Placements
 exl-id: 8a443543-ebb1-4273-a007-afef07d32d8c
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
   设置更改通常立即生效，但最长可能需要12小时。
 
-  如果这是交付的最后一天，请在当天早些时候进行更改，以便DSP有充足的时间根据更改重新校准包。 例如，如果您从偶数步调更改为前载步调，DSP需要重新评估在整个飞行剩余时间中它如何分配支出。 如果在航班的最后一天只剩一小时交付，请不要做出这种改变。
+  如果这是交付的最后一天，请在当天早些时候进行更改，以便DSP有充足的时间根据更改重新校准包。 例如，如果您从偶数步调更改为前载步调，DSP需要重新评估如何在剩余飞行时间中分配支出。 如果在航班的最后一天只剩一小时交付，请不要做出这种改变。
 
 ## 中期预算更新
 

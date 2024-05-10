@@ -3,9 +3,9 @@ title: 从Advertising DSP促销活动中收集点击和展示数据
 description: 了解如何使用Audience Manager像素从Advertising DSP广告中捕获基于Cookie的展示和点击事件
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 * `[Audience Manager customer domain]` 是将展示或点击事件发送到的域名 [!DNL Adobe].
 
-* `[source id]` 是的ID [数据源](#set-up-data-source) 其中您将跟踪DSP展示和点击数据。
+* `[source id]` 是的ID [数据源](#set-up-data-source) 用于跟踪DSP展示和点击数据。
 
 * `[redirect URL]` 是经过双重编码的重定向URL。 如果您使用的是联机编码工具(如www.urlencoder.org)，则通过编码器运行字符串并重新编码结果。
 

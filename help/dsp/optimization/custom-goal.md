@@ -2,16 +2,17 @@
 title: 自定义目标
 description: 了解自定义目标，以定义针对最低CPA或最高ROAS优化的包中的成功事件。
 feature: DSP Optimization
-source-git-commit: 7b9926d0bbba12728ed6a42e56115e8df708587b
+exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
 
 # 自定义目标
 
-自定义目标定义广告商实现其业务目标所需的成功事件。 每个使用优化目标的包»[!UICONTROL Highest Return on Ad Spend (ROAS)"] 或&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]”必须包括有助于实现整体优化目标的自定义目标。 您可以创建自定义目标作为 *目标* 在 [!DNL Advertising Search, Social, & Commerce].
+自定义目标定义广告商实现其业务目标所需的成功事件。 每个使用优化目标的包»[!UICONTROL Highest Return on Ad Spend (ROAS)"] 或&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]”必须包含自定义目标，以帮助实现整体优化目标。 您可以创建自定义目标作为 *目标* 在 [!DNL Advertising Search, Social, & Commerce].
 
 <!-- update image or omit it
 
@@ -103,7 +104,7 @@ ht-degree: 0%
 
 在以下两种情况下，您将在自定义目标中使用多个量度：
 
-* 您的营销活动目标有多个成功事件。 例如，您可能正在广告多个网站上的操作(PDF下载、联系我们，以及电子邮件注册)，并且所有操作都有助于实现您的CPA目标。 如果目标包括三个单独的量度，每个量度具有一(1)的非移动和移动权重，则 [!DNL Adobe Sensei] 算法会将每个量度和用户设备类型视为同等重要性。 如果不同的量度和设备类型具有不同的成本或重要性，则应相应地调整其相对权重。
+* 您的营销活动目标有多个成功事件。 例如，您可能正在广告多个网站上的操作(PDF下载、联系我们，以及电子邮件注册)，并且所有操作都有助于实现您的CPA目标。 如果目标包括三个单独的量度，每个量度具有一(1)的非移动和移动权重，则 [!DNL Adobe Sensei] 算法将每个量度和用户设备类型视为同等重要性。 如果不同的量度和设备类型具有不同的成本或重要性，则应相应地调整其相对权重。
 
 <!-- update image or delete it and adjust the wording above
 

@@ -1,11 +1,11 @@
 ---
 title: 按日期范围筛选数据
 description: 了解如何使用全局日期范围过滤器。
-exl-id: e67e843a-1a73-4ab1-9ef7-c97afeb999f6
+exl-id: 35c0f63f-84ae-4e8e-8a48-acae7ff24498
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---

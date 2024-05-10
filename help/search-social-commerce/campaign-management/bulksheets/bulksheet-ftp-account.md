@@ -1,11 +1,11 @@
 ---
 title: 设置用于上传批量工作表的FTP帐户
 description: 了解如何请求FTP帐户以上传批量处理工作表文件。
-exl-id: 6867d705-b8ef-4066-81dd-8742a6f5b126
+exl-id: c8c70638-10ea-476c-8b02-921adb091ef9
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. 请联系您的Adobe客户团队，以设置一个FTP帐户来上传批量处理工作表文件。
 
-   您的Adobe帐户团队将为您提供FTP位置以及您的用户名和密码。
+   您的Adobe帐户团队为您提供FTP位置以及您的用户名和密码。
 
 1. （可选）要收到有关通过FTP帐户处理的批量处理工作表文件的电子邮件通知，请咨询您的Adobe帐户团队。
 

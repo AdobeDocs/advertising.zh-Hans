@@ -3,9 +3,9 @@ title: 创建投放位置
 description: 了解如何创建投放位置。
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
 
          1. （可选）对于要为投放位置创建的每个其他广告，单击 **[!UICONTROL Attach Another Ad]**，然后重复步骤1-3。
 
-         1. 如果不附加任何现有广告，请单击 **[!UICONTROL I'm done for now]**.
+         1. 如果您不打算附加任何现有广告，请单击 **[!UICONTROL I'm done for now]**.
 
       * 要在营销活动中附加现有广告，请执行以下操作：
 

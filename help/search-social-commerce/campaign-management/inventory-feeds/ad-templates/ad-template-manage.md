@@ -1,11 +1,11 @@
 ---
 title: 管理库存馈送的广告模板
 description: 了解如何管理广告模板，通过这些模板可处理库存数据，以管理帐户结构和投放动态广告。
-exl-id: b26fc32a-76bc-470a-8ce5-fbaad4b3ca71
+exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1415'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 在上传数据之前或之后，您可以创建特定于搜索引擎的广告模板，以便通过这些模板处理数据。 您可以为文字广告和扩展/扩展的文字广告创建模板， [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 响应式搜索广告，和 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 购物广告。
 
-您可以将每个模板与一个信息源文件关联， [!DNL Google Merchant Center] 帐户，或 [!DNL Microsoft® Merchant Center] 帐户，您可以将多个模板与同一信息源文件或帐户关联。 广告模板可以包含变量，这些变量会被上传文件或帐户中的实际数据列替换。 在大多数情况下，变量还可以包括 [修改者组](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) 您可以在Search、Social和Commerce中设置以针对数据文件中的每个适用行创建多个广告、关键字、促销活动或广告组。 利用模板选项，可为广告创建新帐户结构（促销活动、广告组、关键词），或将广告映射到现有帐户结构。
+您可以将每个模板与一个信息源文件关联， [!DNL Google Merchant Center] 帐户，或 [!DNL Microsoft® Merchant Center] 帐户，您可以将多个模板与同一信息源文件或帐户关联。 广告模板可以包含变量，这些变量会被上传文件或帐户中的实际数据列替换。 在大多数情况下，变量还可以包括 [修改者组](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) 您可以在Search、Social和Commerce中设置，为数据文件中的每个适用行创建多个广告、关键字、促销活动或广告组。 利用模板选项，可为广告创建新帐户结构（促销活动、广告组、关键词），或将广告映射到现有帐户结构。
 
 除了从头开始创建新模板之外，您还可以通过克隆现有模板和编辑现有模板来创建新模板。
 

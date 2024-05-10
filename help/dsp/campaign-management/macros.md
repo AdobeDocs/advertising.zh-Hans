@@ -3,9 +3,9 @@ title: Advertising DSP宏
 description: 引用可用于常规跟踪和跟踪第三方显示广告点击量的宏。
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: bb404dd1ff2fda5e37435ac892e2a0f6beba0b33
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 将宏添加到代码时，请确保使用宏的确切语法。 验证宏时，DSP会检查宏是否与有效宏之一完全匹配。
 
-如果宏名称的开头或结尾缺少字符，则会生成错误。 例如，如果出现以下情况，您将看到一条错误消息：
+如果宏名称的开头或结尾缺少字符，则会生成错误。 例如，如果出现以下情况，则显示错误消息：
 
 * 您忘记了宏名称开头的一个或多个字符，例如 `${`. 如果不包括完整语法，则无法将条目识别为有效的宏。
 * 宏未以有效字符集结尾，例如 `}`.

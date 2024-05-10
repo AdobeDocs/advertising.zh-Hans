@@ -3,9 +3,9 @@ title: 之间的预期数据差异 [!DNL Analytics] 和Adobe Advertising
 description: 之间的预期数据差异 [!DNL Analytics] 和Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3212'
+source-wordcount: '3205'
 ht-degree: 0%
 
 ---
@@ -28,17 +28,17 @@ ht-degree: 0%
 
 但是，回顾窗口和归因模型可以在Analytics中进行配置(通过 [!DNL eVars])和Adobe Advertising中。 此外，在Adobe Advertising中，归因模型不仅可在广告商级别（用于竞价优化）进行配置，还可在单个数据视图和报告中进行配置（仅用于报告目的）。 例如，组织可能希望使用偶数分布归因模型进行优化，但对Advertising DSP中的报表使用最后接触归因，或者 [!DNL Advertising Search, Social, & Commerce]. 更改归因模型会更改归因转化的数量。
 
-如果在一个产品中修改了报表回顾窗口或归因模型，而在另一个产品中修改了报表回顾窗口或归因模型，则来自每个系统的相同报表将显示不同的数据：
+如果在一个产品中修改了报表回顾窗口或归因模型，而在另一个产品中修改了报表回顾窗口或归因模型，则来自每个系统的相同报表会显示不同的数据：
 
 * **不同回顾窗口导致的差异示例：**
 
-  假设Adobe Advertising具有60天的点击回顾窗口并且 [!DNL Analytics] 具有30天的回溯时段。 假设一位用户通过Adobe Advertising跟踪的广告进入网站，离开，然后在第45天返回网站并转化。 由于转化发生在60天的回看时段内，因此Adobe Advertising会将转化归因于初始访问。 [!DNL Analytics]但是，无法将转化归因于初始访问，因为转化发生在30天的回顾窗口过期之后。 在此示例中，Adobe Advertising报告的转化次数将高于 [!DNL Analytics] 会。
+  假设Adobe Advertising具有60天的点击回顾窗口并且 [!DNL Analytics] 具有30天的回溯时段。 假设一位用户通过Adobe Advertising跟踪的广告进入网站，离开，然后在第45天返回网站并转化。 Adobe Advertising将转化归因于初始访问，因为转化发生在60天的回看时段内。 [!DNL Analytics]但是，无法将转化归因于初始访问，因为转化发生在30天的回顾窗口过期之后。 在本例中，Adobe Advertising报告的转化数高于 [!DNL Analytics] 会。
 
   ![在Adobe Advertising中归因但未归因的转化示例 [!DNL Analytics]](/help/integrations/assets/a4adc-lookback-example.png)
 
 * **不同归因模型导致的差异示例：**
 
-  假设用户在转化之前与三个不同的Adobe Advertising广告进行交互，并将收入作为转化类型。 如果Adobe Advertising报表使用均匀分布模型来归因，则它会将收入平均归因于所有广告。 如果 [!DNL Analytics] 使用最后接触归因模型，但随后会将收入归因于最后一个广告。 在以下示例中，Adobe Advertising将捕获到三个广告中的每一个的30美元收入中的平均10美元归因于三个广告，而 [!DNL Analytics] 将所有30美元的收入归因于用户看到的最后一个广告。 比较来自Adobe Advertising的报告和 [!DNL Analytics]，您将会看到归因不同的影响。
+  假设用户在转化之前与三个不同的Adobe Advertising广告进行交互，并将收入作为转化类型。 如果Adobe Advertising报表使用均匀分布模型来归因，则它将收入平均归因到所有广告。 如果 [!DNL Analytics] 但是，使用最后接触归因模型，然后将收入归因于最后一个广告。 在以下示例中，Adobe Advertising将捕获到三个广告中的每一个的30美元收入中的平均10美元归因于三个广告，而 [!DNL Analytics] 将所有30美元的收入归因于用户看到的最后一个广告。 比较来自Adobe Advertising的报告和 [!DNL Analytics]，您将会看到归因不同的影响。
 
   ![归属于Adobe Advertising及合营业务的 [!DNL Analytics] 基于不同的归因模型](/help/integrations/assets/a4adc-attribution-example.png)
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ### 中的可能不同的归因模型 [!DNL Marketing Channels]
 
-最多 [!DNL Marketing Channels] 报告配置有 [!UICONTROL Last Touch] 归因，对于该归因，上次检测到的营销渠道将被分配100%的转化值。 将不同的归因模型用于 [!DNL Marketing Channels] 报表和Adobe Advertising报表将导致归因转化中出现差异。
+最多 [!DNL Marketing Channels] 报告配置有 [!UICONTROL Last Touch] 归因，对于该归因，上次检测到的营销渠道将被分配100%的转化值。 将不同的归因模型用于 [!DNL Marketing Channels] 报表和Adobe Advertising报表会导致已归因转化中出现差异。
 
 ### 中可能不同的回顾时间范围 [!DNL Marketing Channels]
 
@@ -230,13 +230,13 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 由于带宽或可用处理能力较低，因此加载到移动设备上的网站也不太可能导致点进，从而导致加载登陆页面所需的时间较长。 50-70%的点击不会导致点进的情况并不少见。 在移动环境中，差异可能高达90%，这是因为浏览器速度较慢，并且用户在滚动页面或尝试关闭广告时意外单击广告的可能性较高。
 
-点击数据还可能会记录到以下环境中：无法使用当前跟踪机制记录点进次数（例如进入或离开移动设备应用程序的点击），或者广告商只为其部署了一种跟踪方法（例如，使用浏览式JavaScript方法，阻止第三方Cookie的浏览器将跟踪点击，而不是点进）。 Adobe建议同时部署点击URL跟踪和显示到达的JavaScript跟踪方法的一个关键原因是，尽可能扩大可跟踪点进的覆盖范围。
+点击数据还可能会记录到以下环境中：无法使用当前跟踪机制记录点进次数（例如进入或离开移动设备应用程序的点击），或者广告商只为其部署了一种跟踪方法（例如，使用浏览式JavaScript方法，即阻止第三方Cookie跟踪点击、但不跟踪点进次数的浏览器）。 Adobe建议同时部署点击URL跟踪和显示到达的JavaScript跟踪方法的一个关键原因是，尽可能扩大可跟踪点进的覆盖范围。
 
 ### 对非Adobe AdvertisingDimension使用Adobe Advertising流量指标
 
 Adobe Advertising为Analytics提供了 [广告特定的流量量度和以下来源的相关维度： [!DNL DSP] 和 [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md). Adobe Advertising提供的指标仅适用于指定的Adobe Advertising维度，并且对于中的其他维度没有数据可用 [!DNL Analytics].
 
-例如，如果您查看 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 按帐户划分的指标，这是一个Adobe Advertising维度，您将会看到总计 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 按帐户。
+例如，如果您查看 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 按帐户列出的指标，这是一个Adobe Advertising维度，然后是总计 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 按帐户显示。
 
 ![使用Adobe Advertising维度的报表中的Adobe Advertising指标示例](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 

@@ -3,9 +3,9 @@ title: 使用电子表格查看和编辑版面设置
 description: 了解如何使用电子表格查看和编辑关键位置设置。
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 您可以以XLSX（Excel电子表格）格式下载一个或多个投放位置或营销活动中所有投放位置的设置，以供审阅。 使用此功能可快速查看以下详细信息：
 
 * 营销活动定位哪些受众。
-* 投放位置开始投放的时间，以及停止投放的时间。
+* 投放位置开始投放的时间，以及停止的时间。
 * 哪些广告附加到了投放位置。
 
 然后，您可以进行更改以选择字段，并将它们一次上载回DSP。 可编辑的字段包括投放位置名称、状态、竞价、预算、步调策略和频度上限。

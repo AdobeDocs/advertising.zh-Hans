@@ -3,9 +3,9 @@ title: 以下项的必需批量处理工作表数据 [!DNL Google Ads] 帐户
 description: 引用批量处理工作表中的必填标题字段和数据字段 [!DNL Google Ads] 帐户。
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '7860'
+source-wordcount: '7855'
 ht-degree: 0%
 
 ---
@@ -147,8 +147,8 @@ ht-degree: 0%
 | [!UICONTROL Delivery Method] | 需要创建营销策划。 |
 | [!UICONTROL Channel Type] | 需要创建营销策划。 |
 | [!UICONTROL Networks] | 需要创建营销策划。 |
-| [!UICONTROL DSA Domain Name] | 需要在搜索网络上创建一个具有动态搜索广告的营销活动。 |
-| [!UICONTROL DSA Domain Language] | 需要在搜索网络上创建一个具有动态搜索广告的营销活动。 |
+| [!UICONTROL DSA Domain Name] | 需要在搜索网络上创建包含动态搜索广告的营销活动。 |
+| [!UICONTROL DSA Domain Language] | 需要在搜索网络上创建包含动态搜索广告的营销活动。 |
 | [!UICONTROL Campaign Priority] | 需要创建购物营销活动。 |
 | [!UICONTROL Merchant ID] | 需要创建购物营销活动。 |
 | [!UICONTROL Sales Country] | 需要创建购物营销活动。 |
@@ -410,7 +410,7 @@ ht-degree: 0%
 | [!UICONTROL Sitelink Status] | 仅删除站点链接时需要。 |
 | [!UICONTROL Campaign ID] | 可选 |
 | [!UICONTROL Ad Group ID] | 可选 |
-| [!UICONTROL Sitelink ID] | 仅在更改或删除站点链接时才需要，除非该行包含a)足够的属性列来标识站点链接或b) &quot;[!UICONTROL AMO ID]“ 但是，如果您既不包括，也不包括 [!UICONTROL Sitelink ID] 也不 [!UICONTROL AMO ID]  并且属性列与多个站点链接匹配，则只有其中一个站点链接的状态将更改。<br><br><b>注意：</b> 如果您编辑站点链接属性列，则 [!UICONTROL Status] 对于现有sitelink，则不会包含 [!UICONTROL Sitelink ID] 也不 [!UICONTROL AMO ID]，则会创建一个新的站点链接，并且不会更改现有的站点链接。 |
+| [!UICONTROL Sitelink ID] | 仅在更改或删除站点链接时才需要，除非该行包含a)足够的属性列来标识站点链接或b) &quot;[!UICONTROL AMO ID]“ 但是，如果您既不包括，也不包括 [!UICONTROL Sitelink ID] 也不 [!UICONTROL AMO ID]  并且属性列与多个站点链接匹配，则只有其中一个站点链接的状态会更改。<br><br><b>注意：</b> 如果您编辑站点链接属性列，则 [!UICONTROL Status] 对于现有sitelink，则不会包含 [!UICONTROL Sitelink ID] 也不 [!UICONTROL AMO ID]，则会创建一个新的站点链接，并且不会更改现有的站点链接。 |
 | [!UICONTROL AMO ID] | 需要编辑或删除数据，除非您包含实体ID和父实体ID。<br><br>Search、Social和Commerce会使用该值确定要编辑的正确身份，但不会将ID发布到广告网络。 |
 
 ### 位置目标

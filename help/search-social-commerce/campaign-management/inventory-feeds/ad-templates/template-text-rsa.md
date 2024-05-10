@@ -1,11 +1,11 @@
 ---
 title: 库存馈送的文本广告和响应式搜索广告模板设置
 description: 引用库存馈送的文本广告和响应式搜索广告模板的设置。
-exl-id: ee3956f9-4367-40e4-bdb3-f04a8da9a5f1
+exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3317'
+source-wordcount: '3325'
 ht-degree: 0%
 
 ---
@@ -184,8 +184,8 @@ ht-degree: 0%
 >
 >* 通过在关键字参数之前或之后（但并非同时在这两处）将逗号分隔的值包含在括号中，您可以在“关键字”字段中手动包含多个修饰符值。 例如， `(cheap, discount, affordable)[product]` 会为每个产品生成三个单独的广告。
 >* 如果未指定匹配类型，则使用默认匹配类型“broad”。
-* 不支持负匹配。
-* Google广泛匹配修饰符现在具有与某些语言的短语匹配相同的匹配行为，并且您无法创建新的广泛匹配修饰符关键字。 请参阅 [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/10286719) 以了解更多信息。
+>* 不支持负匹配。
+>* Google广泛匹配修饰符现在具有与某些语言的短语匹配相同的匹配行为，并且您无法创建新的广泛匹配修饰符关键字。 请参阅 [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/10286719) 以了解更多信息。
 
 **[!UICONTROL Map Only]：** 将任何新广告添加到广告组（或添加到促销活动） [!DNL Yandex] 帐户)，而不是创建新关键字。 要启用此选项，请选中复选框。 启用此选项后，指定关键字中的任何Param 1和Param 2变量均不适用，因为存在关键字。
 
@@ -195,8 +195,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-* 如果在发布通过模板传播的数据时生成跟踪URL，则跟踪参数会根据帐户跟踪设置附加到此值。
-* ([!DNL Google Ads] 帐户)避免使用宏，宏不会替代来自启用并行跟踪的源的点击。 如果广告商必须使用宏，则Adobe客户团队应与客户支持或实施团队合作来添加宏。
+>* 如果在发布通过模板传播的数据时生成跟踪URL，则跟踪参数会根据帐户跟踪设置附加到此值。
+>* ([!DNL Google Ads] 帐户)避免使用宏，宏不会替代来自启用并行跟踪的源的点击。 如果广告商必须使用宏，则Adobe客户团队应与客户支持或实施团队合作来添加宏。
 
 **[!UICONTROL Keyword Tracking Template]：** （具有最终/高级URL的帐户；可选）跟踪模板，它指定所有离岸域重定向和跟踪参数，并将最终URL嵌入到参数中。 最细粒度级别的跟踪模板（以关键字作为最细粒度级别）会覆盖所有其他级别的值。
 
@@ -216,9 +216,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Do Not Apply to Existing Keywords]** （默认）：仅为使用模板创建的新关键字插入参数值。
 
-* **[!UICONTROL Apply to Existing Keywords: Constant]：** 除了从信息源创建新关键字外，搜索、社交和商务还会更新广告组中所有现有关键字（不是使用模板创建的）的参数值。 输入用于所有这些关键字的单个数值。 模板必须至少包含一个关键字。
+* **[!UICONTROL Apply to Existing Keywords: Constant]：** 除了从信息源创建新关键字之外，搜索、社交和Commerce还会更新广告组中所有现有关键字（不是使用模板创建的）的参数值。 输入用于所有这些关键字的单个数值。 模板必须至少包含一个关键字。
 
-* **[!UICONTROL Apply to Existing Keywords: Min]：** 除了从信息源创建新关键字外，对于未使用模板创建的广告组中的所有现有关键字，搜索、Social和Commerce也会更新参数值，前提是信息源文件包含参数的数字值，最多包含一个小数点，但不包含逗号、货币符号或代码或任何其他字符。 馈送文件中参数的最小值用于所有现有关键词。 例如，如果信息源文件具有 [!UICONTROL Param1] 21500和22000的值，然后 [!UICONTROL Param1] 现有关键字的值将更改为21500。 模板必须至少包含一个关键字。 **提示：** 仅当已严格设置广告组主题，以便关键字具有相同的值是合理的，时才使用此选项。
+* **[!UICONTROL Apply to Existing Keywords: Min]：** 除了从信息源创建新关键字外，对于未使用模板创建的广告组中的所有现有关键字，Search、Social和Commerce也会更新参数值，前提是信息源文件包含参数的数字值，最多包含一个小数点，但不包含逗号、货币符号或代码或任何其他字符。 馈送文件中参数的最小值用于所有现有关键词。 例如，如果信息源文件具有 [!UICONTROL Param1] 21500和22000的值，然后 [!UICONTROL Param1] 现有关键字的值将更改为21500。 模板必须至少包含一个关键字。 **提示：** 仅当已严格设置广告组主题，以便关键字具有相同的值是合理的，时才使用此选项。
 
 馈送文件中的数据字段最长可包含25个字符，并且只能由具有以下非数字字符的数字数据组成：
 
@@ -234,9 +234,9 @@ ht-degree: 0%
 
    * 两个数字可以用正斜杠嵌入。 例如，4/1和0.95/0.45有效。
 
-**[!UICONTROL Param 2]\[[!DNL Microsoft® Advertising] 模板\]：** ([!DNL Microsoft® Advertising] 模板)在标题、文本、显示URL或最终URL包含 `{Param2}` 动态替换字符串。 最大长度为70个字符，但请注意，使用它的广告元素的最大长度（例如，广告标题最多可包含25个字符）。
+**[!UICONTROL Param 2]\[[!DNL Microsoft® Advertising] 模板\]：** ([!DNL Microsoft® Advertising] 模板)在标题、文本、显示URL或最终URL包含 `{Param2}` 动态替换字符串。 最大长度为70个字符，但请注意，在其中使用它的广告元素的最大长度（例如，广告标题最多可包含25个字符）。
 
-**[!UICONTROL Param 3]：** ([!DNL Microsoft® Advertising] 模板)在标题、文本、显示URL或最终URL包含 `{Param3}` 动态替换字符串。 最大长度为70个字符，但请注意，使用它的广告元素的最大长度（例如，广告标题最多可包含25个字符）。
+**[!UICONTROL Param 3]：** ([!DNL Microsoft® Advertising] 模板)在标题、文本、显示URL或最终URL包含 `{Param3}` 动态替换字符串。 最大长度为70个字符，但请注意，在其中使用它的广告元素的最大长度（例如，广告标题最多可包含25个字符）。
 
 **[!UICONTROL Initial Bid (<Match Type or Ad Type>)]：** 具有指定匹配类型或广告类型的每个关键字的初始竞价。
 
@@ -318,7 +318,7 @@ ht-degree: 0%
 
 [!DNL Microsoft® Advertising] 和 [!DNL Yahoo! Japan Ads] 已弃用创建和编辑标准文字广告。
 
-**[!UICONTROL Base URL]：** （仅限具有目标URL的帐户）用户所属的页面。 它可以包含第三方重定向和跟踪代码。 如果您使用Adobe Advertising转化跟踪服务，并且促销活动设置包括使用 [!UICONTROL EF Redirect] 并在广告级别添加跟踪，然后Search、Social和Commerce会自动将其自身的重定向和跟踪代码添加到广告。
+**[!UICONTROL Base URL]：** （仅限具有目标URL的帐户）用户所属的页面。 它可以包含第三方重定向和跟踪代码。 如果您使用Adobe Advertising转化跟踪服务，并且促销活动设置包括使用 [!UICONTROL EF Redirect] 并在广告级别添加跟踪，则Search、Social和Commerce会自动将其自身的重定向和跟踪代码添加到广告。
 
 要将列名或修饰符组作为动态参数插入，请在输入字段中单击，然后单击列列表中的列名或 [修饰符名称](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) 在 [!UICONTROL Modifiers] 列表。
 
@@ -328,8 +328,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-* 如果在发布通过模板传播的数据时生成跟踪URL，则跟踪参数会根据帐户跟踪设置附加到此值。
-* ([!DNL Google Ads] 帐户)避免使用宏，宏不会替代来自启用并行跟踪的源的点击。 如果广告商必须使用宏，则Adobe客户团队应与客户支持或实施团队合作来添加宏。
+>* 如果在发布通过模板传播的数据时生成跟踪URL，则跟踪参数会根据帐户跟踪设置附加到此值。
+>* ([!DNL Google Ads] 帐户)避免使用宏，宏不会替代来自启用并行跟踪的源的点击。 如果广告商必须使用宏，则Adobe客户团队应与客户支持或实施团队合作来添加宏。
 
 **[!UICONTROL Tracking Template]：** （具有最终/高级URL的帐户；可选）跟踪模板，它指定所有离岸域重定向和跟踪参数，并将最终URL嵌入到参数中。 最细粒度级别的跟踪模板（以关键字作为最细粒度级别）会覆盖所有其他级别的值。
 
@@ -345,9 +345,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-* 如果 [!UICONTROL Prefill] 选项，则备用字段会预填充原始字段，您可以根据需要编辑它们。
-* 只有超出最大长度的广告文案字段会被替换成替换值。 例如，如果只有原始标题或标题太长，则生成的广告变体使用替代标题或标题以及原始描述。 因此，请确保将备用广告副本与原始广告副本结合使用时有意义。
-* 如果原始广告副本满足搜索引擎的长度要求，则会丢弃替代广告副本。
+>* 如果 [!UICONTROL Prefill] 选项，则备用字段会预填充原始字段，您可以根据需要编辑它们。
+>* 只有超出最大长度的广告文案字段会被替换成替换值。 例如，如果只有原始标题或标题太长，则生成的广告变体使用替代标题或标题以及原始描述。 因此，请确保将备用广告副本与原始广告副本结合使用时有意义。
+>* 如果原始广告副本满足搜索引擎的长度要求，则会丢弃替代广告副本。
 
 **\[组件\] [!UICONTROL Ad Label Classifications] > \[标签分类和值\]：** （可选）要分配给使用模板创建或编辑的广告变体的最多五个现有标签分类的值。 对于要为其分配标签分类的每个促销活动组件：
 
@@ -385,8 +385,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
-* [关于使用库存信息源自动化广告管理](../inventory-feeds-about.md)
-* [管理修饰符](../modifiers-manage.md)
-* [管理清单数据馈送文件](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
-* [通过模板传播馈送数据](../feed-data-propagate.md)
-* [将活动数据从库存馈送发布到广告网络](../propagated-data-post.md)
+>* [关于使用库存信息源自动化广告管理](../inventory-feeds-about.md)
+>* [管理修饰符](../modifiers-manage.md)
+>* [管理清单数据馈送文件](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
+>* [通过模板传播馈送数据](../feed-data-propagate.md)
+>* [将活动数据从库存馈送发布到广告网络](../propagated-data-post.md)

@@ -3,9 +3,9 @@ title: 更新的AMO ID (s_kwcid)跟踪代码 [!DNL Google Ads] 帐户
 description: 了解如何切换到的最新AMO ID跟踪代码 [!DNL Google Ads] 帐户。
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 515c049a45d795fd973b5fcead5f96e71dbf844a
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -52,11 +52,11 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
    >[!NOTE]
    >
-   >迁移前发生的所有点进仍将基于旧格式报告转化数据。
+   >迁移前发生的所有点进仍会根据旧格式报告转换数据。
 
 1. 开始迁移后，请根据需要更新登陆页面后缀设置（在某些广告网络中称为“最终URL后缀”）：
 
-   * 当 [!UICONTROL Auto Upload]”功能已在跟踪设置中启用，搜索、社交和商务会自动更新此帐户及其促销活动登陆页面后缀中的跟踪代码。 你不必做任何事。
+   * 当 [!UICONTROL Auto Upload]”功能已在跟踪设置中启用，Search、Social和Commerce会自动更新此帐户及其促销活动登陆页面后缀中的跟踪代码。 你不必做任何事。
 
    * 当 [!UICONTROL Auto Upload]”功能未启用，因此您不使用 [服务器端AMO ID功能](/help/integrations/analytics/ids.md#amo-id-formats)，则必须在登陆页面后缀设置中手动更新AMO ID参数。 您可以在帐户和营销活动设置中手动更改帐户级别和营销活动级别的后缀，也可以通过在批量处理表中上传更改来手动更改帐户级别和营销活动级别的后缀。 要在广告组级别或更低级别配置后缀，请使用 [!DNL Google Ads] 编辑者。
 

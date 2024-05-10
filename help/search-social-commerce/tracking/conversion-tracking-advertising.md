@@ -1,11 +1,11 @@
 ---
 title: 关于Adobe Advertising转化跟踪标签
 description: 了解如何使用Adobe Advertising转化跟踪标签。
-exl-id: 07403d60-6db2-47e7-977b-4b59c8797c3d
+exl-id: 8194d5eb-9a5d-4c4e-bb02-e578ffb84d18
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Adobe Advertising使用Adobe Advertising转化跟踪标记(在发生转化事件
 >[!NOTE]
 >
 >* 此功能不会将图像标记或JavaScript标记添加到广告商的网页。 必须按照广告商更新网页的正常过程添加标记。
->* 确保考虑实施标记将需要多长时间。 根据公司的策略，实施可能需要几周甚至几个月。
+>* 确保考虑实施标记所需的时间。 根据公司的策略，实施可能需要几周甚至几个月。
 
 ## Adobe Advertising转化跟踪标签的功能
 

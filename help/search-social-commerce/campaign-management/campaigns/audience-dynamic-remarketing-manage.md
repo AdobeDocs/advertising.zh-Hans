@@ -1,11 +1,11 @@
 ---
 title: 管理 [!DNL Microsoft Advertising] 动态二次营销受众
 description: 了解如何创建和管理 [!DNL Microsoft Advertising] 动态二次营销受众。
-exl-id: 6f0cb6a0-36cc-4a07-82a8-247191b6c4f5
+exl-id: 52faab75-e723-4e59-aac6-b4d0c4c1cf60
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Microsoft Advertising]仅限帐户*
 
-您可以创建 [!DNL Microsoft Advertising] 在网页上使用搜索引擎的JavaScript转化和受众跟踪标记时，动态二次营销受众。 每个受众都是使用指定的标记创建的，该标记包含在用户将构成受众的网页中。 您可以使用同一跟踪标记创建多个受众。 您还可以更改现有受众的名称和数据源，或删除现有受众。
+您可以创建 [!DNL Microsoft Advertising] 在网页上使用搜索引擎的JavaScript转化和受众跟踪标记时，动态二次营销受众。 每个受众都是使用指定的标记创建的，该标记包含在用户构成受众的网页中。 您可以使用同一跟踪标记创建多个受众。 您还可以更改现有受众的名称和数据源，或删除现有受众。
 
 动态二次营销受众具有受众类型»[!UICONTROL Dynamic Remarketing] \&lt;visitor type=&quot;&quot;>”（例如“动态再营销过去的购买者”）。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    1. 输入 **[!UICONTROL Audience Name]**.
 
-   1. 从搜索引擎帐户的所有可用标记列表中，选择 [!DNL Microsoft Advertising] 包含在其用户将构成受众的网页中的UET标记。
+   1. 从搜索引擎帐户的所有可用标记列表中，选择 [!DNL Microsoft Advertising] 包含在其用户构成受众的网页中的UET标记。
 
    1. 选择受众的访客类型，该类型基于相关网页上的访客操作： *[!UICONTROL General Visitors]*， *[!UICONTROL Product Searchers]*， *[!UICONTROL Product Viewers]*， *[!UICONTROL Past Buyers]*，或 *[!UICONTROL Shopping Cart Abandoners]*.
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
    1. （可选）更改 **[!UICONTROL Audience Name]**.
 
-   1. （可选）从广告网络帐户的所有可用标记列表中，更改 [!DNL Microsoft Advertising] 包含在其用户将构成受众的网页中的UET标记。
+   1. （可选）从广告网络帐户的所有可用标记列表中，更改 [!DNL Microsoft Advertising] 包含在其用户构成受众的网页中的UET标记。
 
    1. （可选）更改受众的访客类型，该类型基于相关网页上的访客操作： *[!UICONTROL General Visitors]*， *[!UICONTROL Product Searchers]*， *[!UICONTROL Product Viewers]*， *[!UICONTROL Past Buyers]*，或 *[!UICONTROL Shopping Cart Abandoners]*.
 

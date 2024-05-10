@@ -1,11 +1,11 @@
 ---
 title: 转换信息源文件的文件要求
 description: 参考转换信息源文件的要求。
-exl-id: 7d865802-0ab9-4965-9618-6bc0667f4939
+exl-id: abc28394-3e00-447f-a04e-078fa9883a64
 feature: Search Tracking
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 文件传输协议
 
-使用端口22通过SFTP传输协议发送文件。 您需要提供公钥信息。  您的Adobe帐户团队或实施团队将为您提供服务器位置以及系统传输文件所需的凭据。
+使用端口22通过SFTP传输协议发送文件。 您需要提供公钥信息。  您的Adobe帐户团队或实施团队为您提供服务器位置以及系统传输文件所需的凭据。
 
 >[!TIP]
 >

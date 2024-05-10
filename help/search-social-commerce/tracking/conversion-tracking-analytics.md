@@ -1,11 +1,11 @@
 ---
 title: Adobe Analytics转化跟踪
 description: 了解如何在Adobe Advertising中对营销活动使用Adobe Analytics转化跟踪。
-exl-id: 0ed1d059-829a-4090-950d-41cbcc27b3ac
+exl-id: c72cc988-5b51-4e1a-8cb6-6c3ca2a0226b
 feature: Search Tracking
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!PREREQUISITES]
 >
-> 搜索、社交和商务广告商帐户中的时区， [!DNL Analytics] 报表包，并且广告网络帐户必须匹配。 如果两者不匹配，则将存在系统间的数据差异。
+> 搜索、社交和Commerce广告商帐户中的时区， [!DNL Analytics] 报表包，并且广告网络帐户必须匹配。 如果两者不匹配，则会在系统间发生数据差异。
 
 ## 实施概述
 
@@ -32,15 +32,15 @@ ht-degree: 0%
 
    * 用于优化的标准和自定义事件。
 
-1. 在Search、Social和Commerce中，您的实施团队：
+1. 在Search、Social和Commerce中，您的实施团队将：
 
-   1. 将现有广告网络帐户层次结构同步到Search、Social和Commerce。
+   1. 将现有的广告网络帐户层次结构同步到Search、Social和Commerce中。
 
    1. 使用“”添加重定向`ef_id`”令牌传递到跟踪URL并将它们发布到广告网络。
 
    此步骤会在重定向前附加到Adobe Advertising跟踪服务器(除 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 浏览器中支持并行跟踪的广告)，并在广告单击时向URL添加动态填充的“ef_id”参数。 当并行跟踪应用时，最终用户将从广告直接发送到最终URL，并且跟踪模板URL（包含点击测量）将在后台加载。
 
-集成完成后，Search、Social和Commerce会自动接收中跟踪的所有页面上的事件数据 [!DNL Analytics] （对于已配置的报表包）。
+集成完成后，Search、Social和Commerce会自动接收在中跟踪的所有页面上的事件数据 [!DNL Analytics] （对于已配置的报表包）。
 
 >[!MORELIKETHIS]
 >

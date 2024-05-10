@@ -3,9 +3,9 @@ title: 创建可重复使用的受众
 description: 了解如何创建可重用受众，该受众由受众区段和其他保存的受众组成。
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: eb3ce7d8bcddf52844b50797a95cb3b5aec13684
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. （可选）取消选择选项，以 **[!UICONTROL Share with all advertisers in my account]**.
 
-   当您共享受众时，该受众将可用作帐户中所有广告商的目标或排除项。 但是，受众中的各个区段仅适用于共享这些区段的用户。 例如，如果您将包含Adobe Analytics区段的受众与未映射到同一受众的广告商共享 [!DNL Analytics] 则不会在该广告商的受众中预览该区段。 只有该广告商可用的区段才会在受众中预览。
+   当您共享受众时，该受众将可用作帐户中所有广告商的目标或排除项。 但是，受众中的各个区段仅适用于共享这些区段的用户。 例如，如果您将包含Adobe Analytics区段的受众与未映射到同一受众的广告商共享 [!DNL Analytics] 则不会在该受众中预览该广告商的区段。 在受众中只会预览对该广告商可用的区段。
 
 1. 单击 **[!UICONTROL Save]**.
 

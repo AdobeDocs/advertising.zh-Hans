@@ -3,9 +3,9 @@ title: 品牌安全和媒体质量
 description: 了解有关品牌安全和媒体质量功能的更多信息。
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 09ccb4790906e64834e52fb28956fe41997cbd1b
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ DSP会维护一个全局阻止的站点列表，列出被认为不安全的站�
 
 您可以为每个广告商设置默认的竞价前欺诈阻止控制<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->，然后（可选） [自定义每个投放位置的设置](/help/dsp/campaign-management/placements/placement-settings.md). 使用此功能时可能会收取额外费用。
 
-有关功能的更多信息，请直接联系您的首选供应商，或与您的Adobe客户团队联系。
+有关功能的更多信息，请直接联系您的首选供应商，或联系您的Adobe客户团队。
 
 ![Comscore徽标](/help/dsp/assets/comscore-logo.png) ![DoubleVerify徽标](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science徽标](/help/dsp/assets/ias-logo.png) ![Peer39徽标](/help/dsp/assets/peer39-logo.png)
 

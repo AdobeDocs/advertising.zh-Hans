@@ -1,42 +1,41 @@
 ---
-title: 刪除可重複使用的對象
-description: 瞭解如何刪除可重複使用的對象。
+title: 删除可重复使用的受众
+description: 了解如何删除可重复使用的受众。
 feature: DSP Audiences
 exl-id: cc9afa22-1b90-4709-b7af-d9c1ee16aa16
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
 
 ---
 
-# 刪除可重複使用的對象
+# 删除可重复使用的受众
 
-您可以刪除未用於任何位置或其他可重複使用對象的對象。
+您可以删除未在任何投放位置或其他可重用受众中使用的受众。
 
-如果對象目前為使用中，則您可以選擇匯出 [!DNL Microsoft Excel] 此工作表顯示所有位置和使用對象的對象。
+如果当前使用了受众，那么您可以选择导出 [!DNL Microsoft Excel] 此工作表显示所有使用受众的投放位置和受众。
 
-1. 在主功能表中，按一下 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
+1. 在主菜单中，单击 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
-1. 將游標停留在對象列上並按一下 **[!UICONTROL Delete]**.
+1. 将光标悬停在受众行上并单击 **[!UICONTROL Delete]**.
 
-1. （如果對象用於任何位置或其他可重複使用的對象；可選）按一下 **[!UICONTROL Export XLS]** 根據瀏覽器的正常程式下載工作表檔案（XLSX格式）。
+1. （如果受众用在任何投放位置或其他可重复使用的受众中；可选）单击 **[!UICONTROL Export XLS]** 要按照浏览器的正常过程下载工作表文件（XLSX格式），请执行以下操作：
 
-   檔案名稱包含對象名稱和日期。
+   文件名包括受众名称和日期。
 
-1. （如果可以刪除對象）在確認訊息中，按一下 **[!UICONTROL Continue]**.
+1. （如果可以删除受众）在确认消息中，单击 **[!UICONTROL Continue]**.
 
 >[!MORELIKETHIS]
 >
->* [關於對象管理](audience-about.md)
->* [建立可重複使用的對象](reusable-audience-create.md)
->* [複製可重複使用的對象](reusable-audience-duplicate.md)
->* [編輯可重複使用的對象](reusable-audience-edit.md)
->* [檢視可重複使用對象的詳細資訊](reusable-audience-view-details.md)
->* [共用可重複使用的對象](reusable-audience-share.md)
->* [匯出可重複使用的對象](reusable-audience-export.md)
->* [將可重複使用對象的區段金鑰複製到剪貼簿](reusable-audience-clipboard.md)
->* [對象設定](audience-settings.md)
->* [對象區段邏輯的語法](audience-segment-logic-syntax.md)
->* [可用的第三方資料提供者](third-party-data-providers.md)
-
+>* [关于受众管理](audience-about.md)
+>* [创建可重复使用的受众](reusable-audience-create.md)
+>* [复制可重用受众](reusable-audience-duplicate.md)
+>* [编辑可重用受众](reusable-audience-edit.md)
+>* [查看有关可重用受众的详细信息](reusable-audience-view-details.md)
+>* [共享可重用受众](reusable-audience-share.md)
+>* [导出可重复使用的受众](reusable-audience-export.md)
+>* [将可重用受众的区段键复制到剪贴板](reusable-audience-clipboard.md)
+>* [受众设置](audience-settings.md)
+>* [受众区段逻辑的语法](audience-segment-logic-syntax.md)
+>* [可用的第三方数据提供商](third-party-data-providers.md)

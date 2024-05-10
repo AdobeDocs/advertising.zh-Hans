@@ -1,86 +1,85 @@
 ---
-title: 使用 [!DNL Roku] 詳細目錄
-description: 瞭解DSP與的合作關係 [!DNL Roku]，包括詳細目錄選項、核准的協力廠商追蹤廠商，以及 [!DNL Roku] — 特定位置。
+title: 使用 [!DNL Roku] 库存
+description: 了解DSP与的合作伙伴关系 [!DNL Roku]，包括库存选项、经批准的第三方跟踪供应商以及 [!DNL Roku]特定于投放位置。
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
 
-# 使用 [!DNL Roku] 詳細目錄
+# 使用 [!DNL Roku] 库存
 
-Advertising DSP為的廣告提供獨特功能 [!DNL Roku].
+Advertising DSP在以下位置提供广告的独特功能： [!DNL Roku].
 
-## DSP和 [!DNL Roku] 合作關係
+## DSP和 [!DNL Roku] 伙伴关系
 
-Roku和DSP擁有獨特的合作關係，可符合您的 [!DNL DSP] 對象至 [!DNL Roku] 1:1確定性對象目標定位的ID [!DNL Roku] 詳細目錄。
+Roku和DSP具有独特的合作伙伴关系，符合您的 [!DNL DSP] 受众到 [!DNL Roku] 1:1确定性受众定位的ID [!DNL Roku] 库存。
 
-在Roku自己的DSP (OneView)之外，Advertising DSP擁有這些目標定位功能的唯一存取權。 Advertising DSP也是唯一有權測量的DSP [!DNL Roku] 在所有其他連線電視(CTV)庫存旁提供。 因為 [!DNL Roku] 不會共用所有標準RTB和曝光畫素訊號，其他DSP無法跨Roku銷售的CTV供應專案鎖定目標或測量。
+在Roku自己的DSP (OneView)之外，Advertising DSP可以单独访问这些定位功能。 Advertising DSP也是唯一有权测量的DSP [!DNL Roku] 在连接至所有其它电视(CTV)的库存旁边提供。 因为 [!DNL Roku] 不共享所有标准RTB和印象像素信号，任何其他DSP都不能跨Roku销售的CTV源定位或测量。
 
-## [!DNL Roku] 詳細目錄選項
+## [!DNL Roku] 清单选项
 
-您可以a)直接透過設定私人交易ID [!DNL Roku] 然後將交易ID資料輸入DSP或b)造訪 [!DNL On Demand] 要訂閱的收藏館 [!DNL Roku] 設定檔：
+您可以执行以下操作之一：a)直接使用设置私有交易ID [!DNL Roku] 然后将交易ID数据输入DSP或b)访问 [!DNL On Demand] 要订阅的图库 [!DNL Roku] 用户档案：
 
 >[!NOTE]
 >
->[!DNL Roku] 開放市場與交換中無法使用詳細目錄。
+>[!DNL Roku] 库存在开放的市场和交易所不可用。
 
-* 對於您的私人交易， [在DSP中設定交易ID的相關資訊](/help/dsp/inventory/deal-id-create.md) 然後定位»[!UICONTROL Roku Network – Audience]「和」[!UICONTROL The Roku Channel – Audience]「 within [!DNL Roku] 位置。<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals will show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
+* 对于你的私人交易， [在DSP中设置有关交易ID的信息](/help/dsp/inventory/deal-id-create.md) 然后定位”[!UICONTROL Roku Network – Audience]”和“[!UICONTROL The Roku Channel – Audience]“ within [!DNL Roku] 投放位置。<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
-* 您可以 [訂閱以下內容 [!DNL Roku] 內的詳細目錄 [!DNL On Demand] 相簿](/help/dsp/inventory/on-demand-inventory-subscribe.md)，然後在中鎖定任何已核准的交易 [!DNL Roku] 版位：
+* 您可以 [订阅以下内容 [!DNL Roku] 中的库存 [!DNL On Demand] 图库](/help/dsp/inventory/on-demand-inventory-subscribe.md)，然后在中定位任何批准的交易 [!DNL Roku] 投放位置：
 
-   * &quot;[!UICONTROL Roku Network – Audience]」用於整個的詳細目錄 [!DNL Roku] 與優質內容合作夥伴(例如 [!DNL The CW]， [!DNL ABC]、和 [!DNL ESPN].
-   * &quot;[!UICONTROL The Roku Channel – Audience]「 for [!DNL Roku] 自有及營運(O&amp;O)應用程式內容。
+   * &quot;[!UICONTROL Roku Network – Audience]”用于跨以下区域进行清点 [!DNL Roku] 与优质内容合作伙伴建立的生态系统，例如 [!DNL The CW]， [!DNL ABC]、和 [!DNL ESPN].
+   * &quot;[!UICONTROL The Roku Channel – Audience]“（表示） [!DNL Roku] 自有和运营(O&amp;O)应用程序内容。
 
-### 使用自訂私人市場的好處 [!DNL Roku]
+### 使用自定义私有市场的优势 [!DNL Roku]
 
-私人交易可讓您根據需求自訂交易引數。
+私人交易允许您根据自己的需求自定义交易参数。
 
-* **議價訂價：** 使用 [!DNL Roku] 銷售團隊商議並安排符合行銷活動需求的交易。
+* **议定价格：** 使用 [!DNL Roku] 销售团队商议并安排符合您的活动需求的交易。
 
-* **縮放優先順序：** 私人市場(PMP)的優先順序高於永遠開啟的交易(例如 [!DNL On Demand] deals)。
+* **缩放优先级：** 私有市场(PMP)比始终在线交易获得更高的优先级(例如 [!DNL On Demand] 交易)。
 
-* **頻率管理：** 此 [!DNL Roku] 預設頻率上限是每個使用者每30分鐘一(1)個廣告，但您可以按小時、日、周、月或整個飛行期間自訂上限。<!-- Within the DSP placement settings? NO - you negotiate this with Roku, but Christine to confirm with Amanda whether you should be able to edit this in placement. -->
+* **频率管理：** 此 [!DNL Roku] 默认频率上限是每个用户每30分钟出现一(1)个广告，但您可以按小时、日、周、月或整个飞行时段自定义上限。<!-- Within the DSP placement settings? NO - you negotiate this with Roku, but Christine to confirm with Amanda whether you should be able to edit this in placement. -->
 
-* **[!DNL Roku]資料目標定位：** [!DNL Roku] 建立對象的來源 [!DNL Roku] 裝置和電視訊號，資料追蹤者： [!DNL The Roku Channel] （例如電視型別相似性、串流電視行為以及有線電視訂閱狀態），以及來自 [!DNL Roku] 客戶關係管理(CRM)系統。
+* **[!DNL Roku]数据定位：** [!DNL Roku] 受众构建自 [!DNL Roku] 设备和电视信号，数据由 [!DNL The Roku Channel] （例如，电视流亲和力、流媒体电视行为以及有线电视订阅状态），以及来自 [!DNL Roku] 客户关系管理(CRM)系统。
 
-* **[!DNL Roku]內容目標定位：** 私人交易可以依型別、應用程式封鎖清單、季節和主要事件來鎖定應用程式，並在以下位置顯示 [!DNL The Roku Channel] 僅限。
+* **[!DNL Roku]内容定位：** 私人交易可以按类型、应用程序阻止列表、季节和舞台活动，以及在以下内容中展示来定位应用程序： [!DNL The Roku Channel] 仅限。
 
-## [!DNL Roku] 版位
+## [!DNL Roku] 版面
 
-在DSP行銷活動中， [建立 [!DNL Roku] — 特定位置](/help/dsp/campaign-management/placements/placement-create.md) 使用位置型別»[!UICONTROL Connected TV (Roku)].」 包含 [!DNL Roku] 中的位置 [!DNL Roku] — 具有已定義目標的特定套件。
+在DSP营销活动中， [创建 [!DNL Roku]特定于投放位置](/help/dsp/campaign-management/placements/placement-create.md) 使用投放位置类型»[!UICONTROL Connected TV (Roku)]“ 包括 [!DNL Roku] 中的投放位置 [!DNL Roku]具有已定义目标的特定资源包。
 
-每個 [!DNL Roku] 位置必須至少鎖定一個 [!DNL Roku] 交易或來源。 若要搭配使用DSP不重複受眾比對 [!DNL Roku]，包括一個或多個可比對的對象區段 [!DNL Roku] （選擇加入）確定性資料集。
+每个 [!DNL Roku] 投放位置必须至少定向一个 [!DNL Roku] 交易或来源。 要将DSP独特受众匹配与 [!DNL Roku]，包括一个或多个可与匹配的受众区段 [!DNL Roku] （选择启用）确定性数据集。
 
-### [!DNL Roku] — 核准的第三方追蹤廠商
+### [!DNL Roku] — 批准的第三方跟踪供应商
 
-[!DNL Roku] 刊登版位可包含來自下列廠商的第三方事件畫素和轉換畫素：  [!DNL Acxiom]， [!DNL comScore]， [!DNL Data Plus Math]， [!DNL Experian]， [!DNL Factual]， [!DNL Kantar]， [!DNL Marketing Evolution]， [!DNL Neustar]， [!DNL Nielsen]， [!DNL Nielsen Catalina Solutions]， [!DNL NinthDecimal]， [!DNL Oracle]， [!DNL Placed]， [!DNL Polk]、和 [!DNL Research Now].
+[!DNL Roku] 投放位置可以包括来自以下供应商的第三方事件像素和转化像素：  [!DNL Acxiom]， [!DNL comScore]， [!DNL Data Plus Math]， [!DNL Experian]， [!DNL Factual]， [!DNL Kantar]， [!DNL Marketing Evolution]， [!DNL Neustar]， [!DNL Nielsen]， [!DNL Nielsen Catalina Solutions]， [!DNL NinthDecimal]， [!DNL Oracle]， [!DNL Placed]， [!DNL Polk]、和 [!DNL Research Now].
 
-### 依位置策略的最佳實務
+### 按投放策略列出的最佳实践
 
-以下是建議使用的作法 [!DNL Roku] — 特定位置。
+以下是建议的做法 [!DNL Roku]特定于投放位置。
 
-若要最大化遞增範圍：
+要最大限度地扩大增量范围，请执行以下操作：
 
-* 隱藏公開的對象 [!DNL Roku O&O] 排除您透過以下方法已聯絡的對象： [!DNL The Roku Channel].
+* 禁止显示受众 [!DNL Roku O&O] 方式是排除您已使用访问的受众 [!DNL The Roku Channel].
 
-* 隱藏公開的對象 [!DNL All Roku] 排除您跨跨群組已觸及的對象 [!DNL Roku] 平台。
+* 禁止显示受众 [!DNL All Roku] 通过排除您已经访问过的受众， [!DNL Roku] 平台。
 
-若要以最快的速度進行設定：
+要获得最快的设置：
 
-* 鎖定現有的、永遠開啟的交易 [!DNL The Roku Channel] 在 [[!DNL On Demand] 詳細目錄](/help/dsp/inventory/on-demand-inventory-subscribe.md) 以快速存取 [!DNL Roku] 自有及營運存貨。
-* 鎖定現有的、永遠開啟的交易 [!DNL Roku Network] 在 [[!DNL On Demand] 詳細目錄](/help/dsp/inventory/on-demand-inventory-subscribe.md) 以快速跨以下專案實現規模： [!DNL Roku] 平台。
+* 将现有、始终在线的交易定位为 [!DNL The Roku Channel] 在 [[!DNL On Demand] 库存](/help/dsp/inventory/on-demand-inventory-subscribe.md) 以快速访问 [!DNL Roku] 自有及经营存货。
+* 将现有、始终在线的交易定位为 [!DNL Roku Network] 在 [[!DNL On Demand] 库存](/help/dsp/inventory/on-demand-inventory-subscribe.md) 以快速实现横向扩展 [!DNL Roku] 平台。
 
-至最大比例：
+要达到最大比例：
 
-* 自訂 [!DNL Roku] 私人市集，優先存取 [!DNL Roku] 以議定價格供應。
+* 自定义 [!DNL Roku] 优先访问的专用市场 [!DNL Roku] 议价供应。
 
 >[!MORELIKETHIS]
 >
->* [手動建立交易識別碼詳細資料](/help/dsp/inventory/deal-id-create.md)
-> * [訂閱並請求存取權至 [!DNL On Demand] 進階詳細目錄交易](/help/dsp/inventory/on-demand-inventory-subscribe.md)
->* [建立位置](/help/dsp/campaign-management/placements/placement-create.md)
-
+>* [手动创建交易ID详细信息](/help/dsp/inventory/deal-id-create.md)
+> * [订阅和请求访问 [!DNL On Demand] 高级库存交易](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+>* [创建投放位置](/help/dsp/campaign-management/placements/placement-create.md)

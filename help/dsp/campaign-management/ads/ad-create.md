@@ -3,7 +3,7 @@ title: 创建单个广告
 description: 了解如何创建单个第三方广告。
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >只有当DSP和SSP都批准创意内容时，才会投放您的广告。 每个SSP都有自己的批准要求和流程。
+   >只有DSP和SSP都批准创意内容后，才能提供您的广告。 每个SSP都有自己的批准要求和流程。
 
 >[!MORELIKETHIS]
 >

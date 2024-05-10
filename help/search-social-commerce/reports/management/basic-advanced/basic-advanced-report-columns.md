@@ -3,9 +3,9 @@ title: 基本报表和高级报表的报表列
 description: 了解基本报表和高级报表的可用数据列。
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 6b820606208b662eaa1f5c4d2e63bb08f1ac5885
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3749'
+source-wordcount: '3747'
 ht-degree: 0%
 
 ---
@@ -22,26 +22,26 @@ ht-degree: 0%
 | [!UICONTROL 7-Day Cost Accuracy] | ([!UICONTROL Portfolio Report])以百分比表示的前七天成本预测的平均精确度，不包括当天（不包括报表指定的日期范围）。 |
 | [!UICONTROL 7-Day Revenue Accuracy] | ([!UICONTROL Portfolio Report])过去七天（不包括当天，不包括报表指定的日期范围）的收入预测的平均准确性，以百分比表示。 |
 | [!UICONTROL Account] | 帐户名称。 |
-| [!UICONTROL Account Status] | 搜索、社交和商务中帐户的状态： <ul><li><i>[!UICONTROL Enabled]：</i> （默认）对于同步的广告网络，搜索、社交和商务可以登录到广告网络帐户以检索促销活动数据，并且还启用了其他适用功能，例如优化和跟踪生成。<br><br>对于未同步的广告网络，可以使用优化和/或跟踪生成等适用功能。</li><li><i>[!UICONTROL Disabled]：</i> 对于同步的广告网络，搜索、社交和商务不会登录到广告网络帐户，因此不会检索促销活动数据，并且其他适用的功能（例如优化和跟踪生成）将被禁用。 在启用帐户时收集的数据仍会存储，但您将来创建的所有营销活动管理视图和所有报表都不会包含禁用帐户时段的数据。<br><br>对于未同步的广告网络，不提供适用的功能，例如优化和/或跟踪生成。</li></ul> |
+| [!UICONTROL Account Status] | 搜索、社交和Commerce中帐户的状态： <ul><li><i>[!UICONTROL Enabled]：</i> （默认）对于同步的广告网络，Search、Social和Commerce可以登录到广告网络帐户以检索促销活动数据，并且还启用了其他适用的功能，例如优化和跟踪生成。<br><br>对于未同步的广告网络，可以使用优化和/或跟踪生成等适用功能。</li><li><i>[!UICONTROL Disabled]：</i> 对于同步的广告网络，搜索、社交和Commerce不会登录到广告网络帐户，因此不会检索促销活动数据，并且其他适用的功能（例如优化和跟踪生成）将被禁用。 在启用帐户时收集的数据仍会存储，但您将来创建的所有营销活动管理视图和所有报表都不包括禁用帐户时段的数据。<br><br>对于未同步的广告网络，不提供适用的功能，例如优化和/或跟踪生成。</li></ul> |
 | [!UICONTROL Active Ad Groups] | 活动广告组的数量。 |
 | [!UICONTROL Active Ads/Creatives] | 有效广告/创意内容的数量。 |
 | [!UICONTROL Active Campaigns] | 活动营销活动的数量。 |
 | [!UICONTROL Active Keywords] | 活动关键字的数量。 |
 | [!UICONTROL Ad Group] | 广告组。 |
-| [!UICONTROL Ad Group ID] | 搜索、社交和商务分配给广告组的数值ID。 |
+| [!UICONTROL Ad Group ID] | Search、Social和Commerce分配给广告组的数值ID。 |
 | [!UICONTROL Ad Group Status] | 广告组状态： <i>[!UICONTROL Active]</i>， <i>[!UICONTROL Paused]</i>，或 <i>[!UICONTROL Deleted]</i>. |
 | [!UICONTROL Ad Group Type] | 广告组类型，如 <i>[!UICONTROL Audience]</i> （仅适用于受众营销活动）， <i>[!UICONTROL Discovery]</i> （仅适用于发现活动）， <i>[!UICONTROL Display]</i> （仅适用于显示促销活动）， <i>[!UICONTROL Search Dynamic]</i> （仅适用于动态搜索广告）， <i>[!UICONTROL Search Standard]</i> （仅适用于响应式搜索广告和现有的扩展文字广告）， <i>[!UICONTROL Shopping Showcase]</i>， <i>[!UICONTROL Shopping Product]</i> （仅适用于标准购物营销活动），或 <i>[!UICONTROL Shopping Smart]</i> （用于智能购物营销活动）。 对于某些营销活动类型，单个营销活动可以包含多个广告类型。 |
 | [!UICONTROL Ad Groups] | 为其分配标签值的广告组的数量。 |
 | [!UICONTROL AD Name] | 广告组名称；与的值相同 [!UICONTROL Ad Group]. |
-| [!UICONTROL Ad Recall Lift] | ([!DNL Meta] （仅限促销活动）预计在两天内会记住您的广告的人数。 |
-| [!UICONTROL Ad Recall Rate] | ([!DNL Meta] 仅限促销活动)预计两天内记住您广告的人数除以您已联系的人数（以百分比表示）。 |
+| [!UICONTROL Ad Recall Lift] | ([!DNL Meta] （仅限促销活动）两天内记住您的广告的预计人数。 |
+| [!UICONTROL Ad Recall Rate] | ([!DNL Meta] （仅限促销活动）两天内记住您广告的预计人数除以您已联系的人数（以百分比表示）。 |
 | [!UICONTROL Ad Size] | 广告的维度。 |
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] 响应式搜索广告)广告效果： <i>[!UICONTROL average]</i>， <i>[!UICONTROL excellent]</i>， <i>[!UICONTROL good]</i>， <i>[!UICONTROL no_ads]</i>， <i>[!UICONTROL pending]</i>， <i>[!UICONTROL poor]</i>， <i>[!UICONTROL unknown]</i>，或 <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads]， [!DNL Microsoft Advertising]、和 [!DNL Yahoo! Japan Ads] campaigns)当前的广告组级别的移动竞价调整，它确定在移动设备上显示广告时如何调整竞价。 |
 | [!UICONTROL Advertiser] | 广告商名称。 |
-| [!UICONTROL Advertiser ID] | 广告商的搜索、社交和商务帐户的数值ID。 |
+| [!UICONTROL Advertiser ID] | 广告商的Search、Social和Commerce帐户的数值ID。 |
 | [!UICONTROL Avg Position] | 指定日期范围内的广告平均位置。<br><br>对象 [!DNL Google Ads] 和 [!DNL Yahoo! Japan Ads] 营销活动，此数据仅在2019年9月之前可用。 对象 [!DNL Microsoft Advertising]，此数据仅在2021年1月22日之前可用。 |
-| [!UICONTROL Base URL] | 关键字的基本URL，包括为促销活动或帐户配置的任何附加参数。 它不包括任何搜索、社交和商务重定向及跟踪代码。 |
+| [!UICONTROL Base URL] | 关键字的基本URL，包括为促销活动或帐户配置的任何附加参数。 它不包括任何搜索、社交和Commerce重定向和跟踪代码。 |
 | [!UICONTROL Bid Strategy] | （大多数广告网络）对于促销活动或促销活动组件，这是促销活动的竞价策略。 对于链接到经理帐户的广告网络帐户，这是跨帐户竞价策略。 可用值因广告网络而异。 |
 | [!UICONTROL Business Name] | ([!DNL Microsoft Advertising] 响应式广告)业务名称。 |
 | [!UICONTROL Call to Action] | ([!DNL Microsoft Advertising] 响应式广告和多媒体广告)广告中包含的行动号召。 |
@@ -74,7 +74,7 @@ ht-degree: 0%
 | [!UICONTROL Cost] | 指定日期范围内的广告总成本。 |
 | [!UICONTROL Country] | ([!UICONTROL Geo Distribution Report]， [!UICONTROL Keyword Report])发起点击的国家/地区。 根据用户的IP地址确定。 |
 | [!UICONTROL CPC] | 指定日期范围内广告的每次点击成本(CPC)。 |
-| [!UICONTROL Creative Base URL] | 广告的基本URL，包括为促销活动或帐户配置的任何附加参数。 它不包括任何搜索、社交和商务重定向及跟踪代码。 |
+| [!UICONTROL Creative Base URL] | 广告的基本URL，包括为促销活动或帐户配置的任何附加参数。 它不包括任何搜索、社交和Commerce重定向和跟踪代码。 |
 | [!UICONTROL Creative Destination URL] | 广告的最终URL或目标URL（包括任何跟踪参数）。 |
 | [!UICONTROL Creative Name] | ([!DNL Yahoo! Japan] 仅限)广告图像名称。 |
 | [!UICONTROL Creative Title]， [!UICONTROL Creative Title2] - [!UICONTROL Creative Title3] | 广告的标题或标题。 不同的创意类型具有不同的必需标题行数和可选标题行数。 查看 [!UICONTROL Creative Title4] 和中的更高列 [!DNL Microsoft Advertising] 响应式广告或多媒体广告，包括&quot;[!UICONTROL Creative Titles]”列。 |
@@ -98,9 +98,9 @@ ht-degree: 0%
 | [!UICONTROL eCPM] | 有效CPM，或在指定日期范围内每1000次展示所支付的平均成本。 eCPM值可计算为CPM或CPC促销活动。 |
 | [!UICONTROL EF Campaign ID] | Search、Social和Commerce分配给营销活动的数值ID。 |
 | [!UICONTROL EF ID] | ([!UICONTROL Transaction Report])(使用Adobe Advertising转化跟踪服务和&quot;[!UICONTROL EF Redirect]”带有令牌的跟踪方法)用于点击或转化的令牌。<ul><li>对象 [!DNL Google Ads] 搜索广告，EF ID为 `{gclid}:G:s`，其中包括Google点击ID (GCLID)和网络类型（搜索时为“s”）。</li><li> 对象 [!DNL Microsoft Advertising] 搜索广告，EF ID为 `{msclkid}:G:s`，其中包括Microsoft点击ID (MSCLKID)和网络类型（“s”用于搜索）。</li><li>对于其他广告网络上的搜索广告，EF ID包括冲浪者ID、点击时间和网络类型。</li><li>对于展示广告，EF ID包括冲浪者ID、点击或展示时间以及网络类型。</li></ul> |
-| [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report]；仅用于搜索、社交和商务)用于地理位置的内部ID，用于标准化数据。 |
+| [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report]；仅用于搜索、社交和Commerce)用于地理位置的内部ID，用于标准化数据。 |
 | [!UICONTROL EF Portfolio Group ID] | 项目组合所属的项目组合组的数值ID。 |
-| [!UICONTROL EF Search Engine ID] | 搜索、社交和商务分配给广告网络的数值ID：  <i>[!UICONTROL 3]</i> 对象 [!DNL Google Ads]， <i>[!UICONTROL 10]</i> 对象 [!DNL Microsoft Advertising]， <i>[!UICONTROL 45]</i> 对象 [!DNL Meta]， <i>[!UICONTROL 86]</i> 对象 [!DNL Yahoo! Display Network]， <i>[!UICONTROL 87]</i> 对象 [!DNL Naver]， <i>[!UICONTROL 88]</i> 对象 [!DNL Baidu]， <i>[!UICONTROL 90]</i> 对象 [!DNL Yandex]， <i>[!UICONTROL 94]</i> 对象 [!DNL Yahoo! Japan Ads]， <i>[!UICONTROL 105]</i> 对象 [!DNL Yahoo Native] （已弃用），或 <i>[!UICONTROL 106]</i> 对象 [!DNL Pinterest] （已弃用）。 |
+| [!UICONTROL EF Search Engine ID] | Search、Social和Commerce分配给广告网络的数值ID：  <i>[!UICONTROL 3]</i> 对象 [!DNL Google Ads]， <i>[!UICONTROL 10]</i> 对象 [!DNL Microsoft Advertising]， <i>[!UICONTROL 45]</i> 对象 [!DNL Meta]， <i>[!UICONTROL 86]</i> 对象 [!DNL Yahoo! Display Network]， <i>[!UICONTROL 87]</i> 对象 [!DNL Naver]， <i>[!UICONTROL 88]</i> 对象 [!DNL Baidu]， <i>[!UICONTROL 90]</i> 对象 [!DNL Yandex]， <i>[!UICONTROL 94]</i> 对象 [!DNL Yahoo! Japan Ads]， <i>[!UICONTROL 105]</i> 对象 [!DNL Yahoo Native] （已弃用），或 <i>[!UICONTROL 106]</i> 对象 [!DNL Pinterest] （已弃用）。 |
 | [!UICONTROL End Date] | 报告的最后一天。 |
 | [!UICONTROL Engagement Rate] | （视频广告）参与次数除以广告显示次数。 |
 | [!UICONTROL Engagements] | （视频广告）用户观看您的广告至少10秒的次数，如果少于10秒，则为完整广告。 |
@@ -160,7 +160,7 @@ ht-degree: 0%
 | [!UICONTROL Product Groupings] | 父产品组。 |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report]； [!DNL Google Ads] 产品列表广告)与广告一起显示的产品的产品ID。<br><br><b>注意：</b> 仅当产品列表包含跟踪参数时，才会捕获ID `ev_plx=<GMC product ID>`，您必须在其中添加 [!DNL Google Merchant Center]. |
 | [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report])转化量度的收入（例如，1表示一次注册，12表示订购12美元）。 如果多个竞价单位具有相同的交易ID，则跟踪ID的收入根据指定点击日期（点击数据可用时）的点击数进行拆分。 |
-| [!UICONTROL Reach] | ([!DNL Meta] 仅限于营销活动)至少查看过一次您广告的人数。 注意： [!DNL Meta] 每天删除重复的用户配置文件范围，因此报告的数据来自 [!DNL Meta] 而搜索、社交和商业可能有所不同。 |
+| [!UICONTROL Reach] | ([!DNL Meta] 仅限于营销活动)至少查看过一次您广告的人数。 注意： [!DNL Meta] 每天删除重复的用户配置文件范围，因此报告的数据来自 [!DNL Meta] 而搜索、社交和Commerce可能有所不同。 |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report]， [!UICONTROL Keyword Report])印象或点击源自的区域或美国/加拿大州。 根据用户的IP地址确定。 |
 | [!UICONTROL SE Creative ID] | 网络分配的广告ID。 |
 | [!UICONTROL Search (Abs. Top) IS] | ([!DNL Google Ads] 和 [!DNL Microsoft Advertising])您从绝对顶部位置接收的展示次数（自然搜索结果上方的第一个广告）除以您有资格从顶部位置接收的预计展示次数。 10%以下的百分比表示为“`<10%`”或“`0.0999`“ |
@@ -182,12 +182,12 @@ ht-degree: 0%
 | [!UICONTROL Surfer ID] | ([!UICONTROL Transaction Report])完成交易的用户的ID。 |
 | [!UICONTROL Thru Plays] | ([!DNL Meta] 仅营销活动)观看整个广告的查看次数。 |
 | [!UICONTROL Top of Page CPC] | (仅限Google促销活动)指定日期范围内搜索结果页面顶部出现的广告的每次点击成本(CPC)。 |
-| [!UICONTROL Tracking URL] | （仅限以搜索为目标的关键词）跟踪模板或嵌入了（适用时）搜索、社交和商务跟踪代码的目标URL。 |
+| [!UICONTROL Tracking URL] | （仅限以搜索为目标的关键词）跟踪模板或嵌入了（适用时）搜索、社交和Commerce跟踪代码的目标URL。 |
 | [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report])交易贷记到的广告商特定转化量度。 |
 | [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report])将指定的转化量度贷记到的时间。 |
 | [!UICONTROL Two Second Continuous Video Plays] | ([!DNL Meta] （仅限营销活动）至少连续两秒播放视频的次数。 |
 | [!UICONTROL User Account Type] | 已过时 |
-| [!UICONTROL User SE Account ID] | 搜索、社交和商务分配给广告网络的数值ID。 |
+| [!UICONTROL User SE Account ID] | Search、Social和Commerce分配给广告网络的数值ID。 |
 | [!UICONTROL Video Average Play Time] | ([!DNL Meta] （仅限营销活动）单次展示时播放视频的平均时间，包括重新播放视频所花费的时间。 |
 | [!UICONTROL Video Plays] | ([!DNL Meta] 仅限于营销活动)您的视频开始播放的次数，不包括重播。 |
 | [!UICONTROL Video Played at 25 Percent Count]， [!UICONTROL Video Played at 50 Percent Count]， [!UICONTROL Video Played at 75 Percent Count]、和 [!UICONTROL Video Played at 100 Percent Count] | （视频广告）播放了25%、50%、75%或100%的视频数量。 |

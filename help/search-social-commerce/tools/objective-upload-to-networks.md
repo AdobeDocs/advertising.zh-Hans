@@ -3,9 +3,9 @@ title: 允许将目标上传到广告网络
 description: 了解如何将混合项目组合的目标上传到 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 227a78310199ee8bf8a66bc3197f8eaf97cd008a
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Search、Social和Commerce可以将广告商帐户组合的目标上传到 [!DNL
 
   位置 `<portfolio_id>` 是数值项目组合ID和 `<se_acctid/conversion_manager_se_acctid>` 是广告网络帐户或经理帐户的数值ID。
 
-  在弃用旧格式之前，您的Adobe客户团队将与您合作，迁移广告网络中的现有转化操作名称。 在迁移期间，新旧格式的上传将并行运行。 建模与优化不会受到影响，因为新的转化操作最初会显示为“次要”（未优化）状态，且有90天的回填数据。
+  在弃用旧格式之前，您的Adobe客户团队将与您合作，迁移广告网络中的现有转化操作名称。 在迁移期间，新旧格式的上传将并行运行。 建模和优化不会受到影响，因为新的转化操作最初以“次要”（未优化）状态出现，并带有90天的回填数据。
 
 上传至 [!DNL Google Ads] 在广告商所在时区的每天06:00发生。 上传至 [!DNL Microsoft® Advertising] 在广告商所在时区的每天09:00发生。
 

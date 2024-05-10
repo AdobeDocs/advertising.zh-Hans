@@ -3,9 +3,9 @@ title: 用户界面的组织方式
 description: 了解在何处访问不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: de3c12275d5a6f05e52a8c080c26d93e837d9f71
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 ## 主菜单
 
-* **[!UICONTROL Search]**  — 在Search、Social和Commerce中管理您的广告网络帐户，包括那些跟踪Search、Social和Commerce但不为其竞价的帐户。
+* **[!UICONTROL Search]**  — 在Search、Social和Commerce中管理您的广告网络帐户，包括Search、Social和Commerce正在跟踪但不竞价的帐户。
 
 ## [!UICONTROL Search] 菜单
 
-在 [!UICONTROL Search] 选项，您将看到以下子菜单。 可用的选项由您的角色决定：
+此 [!UICONTROL Search] 选项包含以下子菜单。 可用的选项由您的角色决定：
 
 * **[!UICONTROL Campaigns]**  — 此菜单包括查看和管理有关您正在管理或跟踪的广告帐户和促销活动的信息的选项。 根据广告网络和您的角色，您可以创建和编辑帐户和营销活动及其组件。 您还可以管理标签分类，您可以将其分配给各种帐户组件。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * （适用时）您管理的广告商的可选列表。
 
-* ![警报通知](/help/search-social-commerce/assets/notifications-panel.png "警报通知") 一个面板，其中列出了您的搜索、社交和商务通知。
+* ![警报通知](/help/search-social-commerce/assets/notifications-panel.png "警报通知") 一个面板，其中列出了您的搜索、社交和Commerce通知。
 
   当您 [通过Adobe Experience Cloud登录](log-in.md)，此面板会显示您从Experience Cloud收到的通知。
 

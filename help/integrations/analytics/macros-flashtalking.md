@@ -3,9 +3,9 @@ title: 附加 [!DNL Analytics for Advertising] 宏到 [!DNL Flashtalking] 广告
 description: 了解添加原因和方式 [!DNL Analytics for Advertising] 将宏添加到 [!DNL Flashtalking] 广告标记
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: c7821f112757f695a6ab9da1fffb014b822e1ff3
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 [ftqs:[AdobeAMO]]
 ```
 
-如果它是基础URL之后的第一个或唯一查询字符串，则使用将它与基础URL分隔开 `?`. 如果基本URL将包含多个查询字符串，则第一个字符串将以 `?` 每个后续字符串都使用 `&`.
+如果它是基础URL之后的第一个或唯一查询字符串，则使用将它与基础URL分隔开 `?`. 如果基本URL包含多个查询字符串，则第一个字符串的开头为 `?` 每个后续字符串都使用 `&`.
 
 示例：
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 [%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
 ```
 
-如果它是基础URL之后的第一个或唯一查询字符串，则使用将它与基础URL分隔开 `?`. 如果基本URL将包含多个查询字符串，则第一个字符串将以 `?` 每个后续字符串都使用 `&`.
+如果它是基础URL之后的第一个或唯一查询字符串，则使用将它与基础URL分隔开 `?`. 如果基本URL包含多个查询字符串，则第一个字符串的开头为 `?` 每个后续字符串都使用 `&`.
 
 示例：
 

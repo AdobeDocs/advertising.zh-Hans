@@ -3,9 +3,9 @@ title: 关于专业报告
 description: 了解专业报告。
 exl-id: fd2bcd97-70dd-4160-8209-6cdf9c9a6d62
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 879cc2fa13475c90e92367b9fa0a9fa3d6203d7d
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->对于大多数专业报告，将于每天23:00（晚上11:00）提取前一天的数据。 例如，6月18日23:00，它将提取6月17日的数据。 如果您在6月19日09:00运行报表（在提取6月18日的数据之前），则报表包含截至6月17日23:00的数据。 此数据同步适用于所有 [!DNL Google Ads] 专业报告和 [!UICONTROL Bing Ads Geo Report] 和 [!UICONTROL Bing Ads Search Query Report].
+>对于大多数专业报告，将于每天23:00（晚上11:00）提取前一天的数据。 例如，6月18日23:00时，它会提取6月17日的数据。 如果您在6月19日09:00运行报表（在提取6月18日的数据之前），则报表包含截至6月17日23:00的数据。 此数据同步适用于所有 [!DNL Google Ads] 专业报告和 [!UICONTROL Bing Ads Geo Report] 和 [!UICONTROL Bing Ads Search Query Report].
 
 ## 专业报告类型
 
@@ -52,6 +52,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
-* [生成专业报告](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
-* [专业报告设置](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
-* [专业报告的报告列](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
+>* [生成专业报告](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
+>* [专业报告设置](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
+>* [专业报告的报告列](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)

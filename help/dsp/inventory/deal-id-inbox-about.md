@@ -1,24 +1,24 @@
 ---
-title: 關於 [!UICONTROL Deal ID Inbox]
-description: 瞭解 [!UICONTROL Deal ID inbox] 功能，可讓您接受已與發佈商議定的私人交易 [!DNL FreeWheel], [!DNL Google Authorized Buyers] (先前稱為 [!DNL AdX]), and [!DNL Magnite DV+] (先前稱為 [!DNL Rubicon])。
+title: 关于 [!UICONTROL Deal ID Inbox]
+description: 了解 [!UICONTROL Deal ID inbox] 功能，允许您接受已与出版商协商的私人交易 [!DNL FreeWheel], [!DNL Google Authorized Buyers] (以前称为 [!DNL AdX]), and [!DNL Magnite DV+] (以前称为 [!DNL Rubicon])。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
 
 ---
 
-# 關於 [!UICONTROL Deal ID Inbox]
+# 关于 [!UICONTROL Deal ID Inbox]
 
-Advertising DSP [!UICONTROL Deal ID inbox] 可讓您快速設定DSP透過供應端平台(SSP)從發佈者匯入的交易，因此您不必手動設定每個交易。 您可以接受已與發佈商商議的已保證和未保證私人詳細目錄交易 [!DNL FreeWheel]， [!DNL Google Authorized Buyers] (先前稱為 [!DNL AdX])，以及 [!DNL Magnite DV+] (先前稱為 [!DNL Rubicon])從 [!UICONTROL Deal ID inbox].
+Advertising DSP [!UICONTROL Deal ID inbox] 允许您快速设置DSP通过供应方平台(SSP)从出版商导入的交易，因此无需手动设置每个交易。 您可以接受与出版商谈判达成的有保证的和无保证的私人库存交易 [!DNL FreeWheel]， [!DNL Google Authorized Buyers] (以前称为 [!DNL AdX])，和 [!DNL Magnite DV+] (以前称为 [!DNL Rubicon])中的 [!UICONTROL Deal ID inbox].
 
 >[!NOTE]
 >
->Advertising DSP是第一個與整合的DSP [!DNL FreeWheel] API。
+>Advertising DSP是第一个与集成的DSP [!DNL FreeWheel] API。
 
-在 [!UICONTROL Deal ID inbox]，您可以在發行者看到交易詳細資訊時檢視這些資訊，加速交易設定，並避免手動輸入錯誤。
+在 [!UICONTROL Deal ID inbox]，您可以在发布者看到的过程中查看交易的详细信息，加快交易设置并避免人工输入错误。
 
 <!-- 
 Accepting a deal automatically pre-populates a new Deal ID record with details from the publisher, and you need to enter only the publisher [always? or just in some cases?], the media type, who can access the deal, and any attribute labels to apply to the deal so it's easy to find. [Are labels a dimension you can report on?]
@@ -30,49 +30,48 @@ You can accept any available deal or move an incorrect deal to the Ignored Deals
 For each deal, you can select one publisher and one media type (Desktop Video, Mobile Video, Connected TV, Display, or Audio), and you can share the deal with specific advertisers and with all advertisers for a specific account.
  -->
 
-DSP每天於東部標準時間凌晨4:30自動重新整理所有交易細節。 它也會重新整理所有 [!DNL FreeWheel] 交易和更新來自的現有交易 [!DNL Google] 和 [!DNL Magnite DV+] 每小時。 您也可以隨時手動重新整理交易詳細資料，以填入新交易。
+DSP每天凌晨4:30（东部标准时间）自动刷新所有交易详细信息。 它还可以刷新所有 [!DNL FreeWheel] 交易和更新现有交易，来自 [!DNL Google] 和 [!DNL Magnite DV+] 每小时。 您还可以随时手动刷新交易详细信息以填充新交易。
 
 <!-- MC: I'm not sure where I got the following. Is this currently true? -->
 >[!NOTE]
 >
->針對程式化預留交易，透過 [!DNL Google Authorized Buyers]，您必須交付至少90%的預算，否則您的帳戶將無法存取 [!DNL Google] 中的交易 [!UICONTROL Deal ID inbox].
+>对于计划性保证交易，通过 [!DNL Google Authorized Buyers]，则您必须交付至少90%的预算，否则您的帐户将无法访问 [!DNL Google] 中的交易 [!UICONTROL Deal ID inbox].
 
-## 實作 [!UICONTROL Deal ID Inbox]
+## 实施 [!UICONTROL Deal ID Inbox]
 
-若要在中接收您的交易 [!UICONTROL Deal ID inbox]，您的SSP帳戶必須將您組織的DSP帳戶對應至您的SSP帳戶。 DSP會與相關SSP共用組織的帳戶名稱。 如需指示，請聯絡您的Adobe客戶團隊。
+若要在中接收您的交易 [!UICONTROL Deal ID inbox]，您的SSP帐户必须将贵组织的DSP帐户映射到您的SSP帐户。 DSP可与相关SSP共享组织的帐户名称。 有关说明，请联系您的Adobe客户团队。
 
-在交易洽談期間，請告訴發行者將交易傳送給您的購買者，而不是傳送給上層DSP帳戶。 交易識別碼可以是名稱或ID，具體取決於SSP。
+在交易协商过程中，请让出版商将交易发送给您的买方，而不是发送给父DSP帐户。 交易标识符可以是名称或ID，具体取决于SSP。
 
-## 您可以對交易採取的動作
+## 您可以对交易执行的操作
 
-* **檢閱交易** 確認SSP已傳送正確的發佈者、航班日期、CPM和其他交易詳細資料。 如果發行者發生錯誤，請在DSP外部聯絡他們，以便他們更正並重新傳送交易。
+* **审核交易** 验证SSP是否发送了正确的发布者、投放日期、CPM和其他交易详细信息。 如果发布者出了错，请在DSP之外联系他们，以便他们纠正并重新发送交易。
 
-* **接受交易** 檢閱後，這些區段將不再出現在 [!UICONTROL Deal ID inbox]. 接受的交易列於 [!UICONTROL Inventory] > [!UICONTROL Deals] 並準備好在廣告商的位置內鎖定目標。
+* **接受交易** 查看后，它们将不再出现在 [!UICONTROL Deal ID inbox]. 接受的交易列在 [!UICONTROL Inventory] > [!UICONTROL Deals] 并准备好在广告商投放位置内进行定位。
 
-* **忽略交易** 不需要或未經請求的物件。 忽略的交易會移至 [!UICONTROL Ignored Deals] 標籤內的 [!UICONTROL Deal ID inbox]，可作為封存。 當您忽略交易時，DSP不會提醒SSP和發佈者。
+* **忽略交易** 不需要的或未经请求的。 被忽略的交易将移至 [!UICONTROL Ignored Deals] 选项卡 [!UICONTROL Deal ID inbox]，用作存档。 当您忽略交易时，DSP不会提醒SSP和发布者。
 
-* **修改已接受交易的詳細資料** 從 [!UICONTROL Inventory] > [!UICONTROL Deals] (不在 [!UICONTROL Deal ID inbox])。 同樣地，當發佈商傳送變更至交易時，廣告商負責實作這些變更 [!UICONTROL Inventory] > [!UICONTROL Deals] 因為 [!UICONTROL Deal ID inbox] 在設定交易後，不會同步來自SSP的變更。
+* **修改已接受交易的详细信息** 从 [!UICONTROL Inventory] > [!UICONTROL Deals] (不在 [!UICONTROL Deal ID inbox])。 同样，当出版商对交易进行更改时，广告商负责在中 [!UICONTROL Inventory] > [!UICONTROL Deals] 因为 [!UICONTROL Deal ID inbox] 在设置交易后，不会从SSP同步更改。
 
-## 無法接受哪些型別的交易？
+## 哪些类型的交易不能被接受？
 
-當交易清單不包含 ![Accept](/help/dsp/assets/accept.png) 圖示或 [!UICONTROL Accept] 按鈕，則無法從 [!UICONTROL Deal ID inbox]. 反之，您可以 [手動建立交易識別碼詳細資料](/help/dsp/inventory/deal-id-create.md).
+当交易列表不包含 ![Accept](/help/dsp/assets/accept.png) 图标或 [!UICONTROL Accept] 按钮，您无法从 [!UICONTROL Deal ID inbox]. 相反，您可以 [手动创建交易ID详细信息](/help/dsp/inventory/deal-id-create.md).
 
-您無法接受下列交易型別：
+您不能接受以下类型的交易：
 
 * [!DNL Google] 非美元交易。
 
 * [!DNL Magnite DV+] 非美元交易
 
-* [!DNL FreeWheel] 不是以您帳戶貨幣計值的交易。
+* [!DNL FreeWheel] 非您帐户货币的交易记录。
 
-* 結束日期早於今天的交易。
+* 结束日期早于今天的交易。
 
-* 舊 [!DNL Magnite DV+] 標籤為「多種媒體型別」的交易。
+* 旧 [!DNL Magnite DV+] 标记为“多种媒体类型”的交易。
 
-交易詳細資訊包括無法接受交易的原因。
+交易细节包括交易无法接受的原因。
 
 >[!MORELIKETHIS]
 >
->* [在交易ID收件匣中接受交易](deal-id-inbox-accept.md)
->* [庫存功能概要](inventory-overview.md)
-
+>* [在交易ID收件箱中接受交易](deal-id-inbox-accept.md)
+>* [清单功能概述](inventory-overview.md)

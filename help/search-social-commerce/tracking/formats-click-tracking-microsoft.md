@@ -1,11 +1,11 @@
 ---
 title: 的点击跟踪格式 [!DNL Microsoft Advertising]
 description: 了解的点击跟踪格式 [!DNL Microsoft Advertising] 帐户。
-exl-id: 725981db-1b9a-4c89-b95d-98d07ec99756
+exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 >
 >* `{TargetId}` 表示a)关键字或b)触发广告的关键字和再营销列表（受众）的ID（例如，对于关键字和再营销列表，“kwd-123：aud-456”，或仅对于关键字，“kwd-123”）。
 >
->* （可选）您可以将跟踪URL添加到中的产品数据中，而不是在帐户、营销活动、广告组或产品组级别输入跟踪模板。 [!DNL Microsoft Merchant Center] 帐户。 要实现此目的，请包含跟踪URL以及&quot;`link`”或“`mobile_link`”字段（根据需要）[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)”在产品信息源中。 “”中的值`bingads_redirect`”字段将替换“”中的值`link`”和“`mobile_link`”字段。 使用此方法生成的URL不包含在“搜索”、“Social”和“Commerce”帐户或营销活动设置中指定的任何跟踪参数。
+>* （可选）您可以将跟踪URL添加到中的产品数据中，而不是在帐户、营销活动、广告组或产品组级别输入跟踪模板。 [!DNL Microsoft Merchant Center] 帐户。 要实现此目的，请包含跟踪URL以及&quot;`link`”或“`mobile_link`”字段（根据需要）[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)”在产品信息源中。 “”中的值`bingads_redirect`”字段替换“”中的值`link`”和“`mobile_link`”字段。 使用此方法生成的URL不包括“搜索”、“Social”和“Commerce”帐户或营销活动设置中指定的任何跟踪参数。
 
 ## 登陆页面后缀（最终URL后缀）格式
 

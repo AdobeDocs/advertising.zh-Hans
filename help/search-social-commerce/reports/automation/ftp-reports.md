@@ -1,9 +1,9 @@
 ---
 title: 通过FTP访问报表
 description: 了解如何在只读FTP位置接收报表。
-exl-id: 69850b68-0309-4f07-b4cb-c14488219a4b
+exl-id: eca9f033-5b1b-4afa-926b-b4c31e2dede3
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 * 请联系您的Adobe帐户团队，以设置FTP帐户以进行报表访问。
 
-  团队将为您提供用户名和密码。
+  团队为您提供用户名和密码。
 
 ## 为FTP传递设置报表模板
 

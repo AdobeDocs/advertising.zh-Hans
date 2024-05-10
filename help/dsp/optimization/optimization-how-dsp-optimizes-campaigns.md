@@ -3,7 +3,7 @@ title: DSP如何优化活动
 description: 了解DSP如何优化营销活动中的包。
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -32,7 +32,7 @@ DSP可以从两个基本方面优化您的投放，有20个变体可用，与您
 
 * 优先考虑兼顾成本效益与性能率
 
-请参阅 [优化目标及其使用方式](optimization-goals.md) 以确定哪个优化目标将帮助您实现KPI。
+请参阅 [优化目标及其使用方式](optimization-goals.md) 以确定哪个优化目标可以帮助您实现KPI。
 
 ### 排定性能速率优先级的程序包
 
@@ -48,9 +48,9 @@ DSP可以从两个基本方面优化您的投放，有20个变体可用，与您
 
 #### 步调逻辑 {#pacing-logic-performance}
 
-* 如果支出按部就班，竞价就会变得更加有选择性，这样你只会竞拍那些预计会取得较高成交率的拍卖。
+* 如果支出保持节奏，竞价就会变得更加有选择性，这样一来，你只会竞拍那些预计会获得高绩效率的拍卖。
 
-* 如果支出落后于节奏，竞价就会变得不那么有选择性，这样一来，你就可以在预计表现较低的拍卖会上竞价，以赶上节拍目标。
+* 如果支出落后于节奏，竞价就会变得不那么有选择性，这样你就能在预计表现会较低的拍卖会上竞价，以赶上节拍目标。
 
 #### 结算价格/竞价底纹 {#clearing-price-performance}
 

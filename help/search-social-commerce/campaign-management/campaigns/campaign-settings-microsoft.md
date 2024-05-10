@@ -3,9 +3,9 @@ title: ’[!DNL Microsoft® Advertising] 营销活动设置
 description: 引用设置 [!DNL Microsoft® Advertising] 营销活动。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 227a78310199ee8bf8a66bc3197f8eaf97cd008a
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -301,7 +301,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->对于您将其目标上传到广告网络的混合项目组合，最佳实践是使用与项目组合目标中的转化目标匹配的营销活动级别目标。 但是，如果促销活动目标包含由跟踪的转化 [!DNL Microsoft Advertising] 通用事件跟踪(UET)标记，然后将其添加到中 [!DNL Microsoft Advertising] 编辑者，因为它们将不会重新上传到具有目标的广告网络。 此外，在 [!DNL Microsoft Advertising] 编辑者，通过取消选择“包含在转化中”，删除作为帐户默认目标的营销活动的转化操作。
+>对于您将其目标上传到广告网络的混合项目组合，最佳实践是使用与项目组合目标中的转化目标匹配的营销活动级别目标。 但是，如果促销活动目标包含由跟踪的转化 [!DNL Microsoft Advertising] 通用事件跟踪(UET)标记，然后将其添加到中 [!DNL Microsoft Advertising] 编辑者，因为它们不会重新上传到具有目标的广告网络。 此外，在 [!DNL Microsoft Advertising] 编辑者，通过取消选择“包含在转化中”，删除作为帐户默认目标的营销活动的转化操作。
 
 <!-- Check on this:
 >If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.

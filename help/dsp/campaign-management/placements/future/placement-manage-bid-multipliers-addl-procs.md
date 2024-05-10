@@ -2,7 +2,7 @@
 title: 管理投放位置的竞价乘数
 description: 了解如何创建和编辑指定投放目标的竞价乘数。
 feature: DSP Placements
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -46,7 +46,7 @@ See if any of these procedures are implemented; may need to be edited and/or re-
 
      >[!NOTE]
      >
-     >如果将某个字段留空，则会删除该目标类型的所有值。<!-- Verify and re-word if needed. I'm not sure if you'll be able to have multiple data rows (one per placement) or if there will be only one data row applicable for all. -->
+     >如果将某个字段留空，则会删除该目标类型的所有值。<!-- Verify and re-word if needed. I'm not sure if you'll be able to have multiple data rows (one per placement) or if there only one data row is applicable for all. -->
 
       1. 单击 **[!UICONTROL CSV Edit]** 在右上角。
 

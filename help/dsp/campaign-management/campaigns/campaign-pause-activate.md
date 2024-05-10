@@ -2,18 +2,19 @@
 title: 暂停或激活营销活动
 description: 了解如何暂停或激活实时营销活动。
 feature: DSP Campaigns
-source-git-commit: bd02a305083a52ada68ea4a3f83b308687273968
+exl-id: ed199864-8532-411b-b8ea-443ee1c149a2
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
 # 暂停或激活营销活动
 
-当营销活动在配置的飞行计划内时，暂停实时营销活动或激活暂停的营销活动。
+当活动处于配置的投放计划内时，暂停实时活动或激活暂停的活动。
 
-在暂停营销活动之前暂停的所有投放位置在营销活动激活后将保持暂停状态。
+在暂停营销活动之前暂停的所有投放位置在营销活动激活时仍会暂停。
 
 ## 暂停营销活动
 

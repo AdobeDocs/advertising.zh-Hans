@@ -3,16 +3,16 @@ title: 以下项的必需批量处理工作表数据 [!DNL Baidu] 帐户
 description: 引用批量处理工作表中的必填标题字段和数据字段 [!DNL Baidu] 帐户。
 exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
 feature: Search Bulksheets
-source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '1960'
 ht-degree: 0%
 
 ---
 
 # 附录 — 的必需批量处理工作表数据 [!DNL Baidu] 帐户
 
-创建和更新 [!DNL Baidu] 批量处理营销活动数据，您可以使用专门针对以下内容格式化的搜索、社交和商务批量工作表文件 [!DNL Baidu] 帐户。 您可以a) [生成现有帐户的批量工作表文件](../bulksheet-download.md) （或b）手动创建它们(请参阅&quot;[支持的批量处理工作表文件格式](bulksheet-file-formats.md)»以了解支持的文件格式的一般信息)。
+创建和更新 [!DNL Baidu] 批量处理营销活动数据，您可以使用专门针对以下内容格式化的搜索、社交和Commerce批量工作表文件 [!DNL Baidu] 帐户。 您可以a) [生成现有帐户的批量工作表文件](../bulksheet-download.md) （或b）手动创建它们(请参阅&quot;[支持的批量处理工作表文件格式](bulksheet-file-formats.md)»以了解支持的文件格式的一般信息)。
 
 {{$include /help/_includes/bulksheet-appendices-intro.md}}
 
@@ -44,7 +44,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 | [!UICONTROL Excluded IPs (Baidu)] | 可选 | 不适用 | 不适用 | 不适用 | 不适用 | 不应显示广告的网站的IP地址。 用逗号分隔多个值。 |
 | [!UICONTROL Ad Serving (Baidu)] | 可选 | 不适用 | 不适用 | 不适用 | 不适用 | 在广告组中相互关联投放活动广告的频率：<ul><li><i>旋转</i> （新促销活动的默认值）：您的每个广告进入广告拍卖的次数大致相同，从而允许Search、Social和Commerce不仅根据点进率而且对广告的转化率进行评分。</li><li><i>优化：</i> 广告网络青睐高点进率和高质量分数的广告。 这些广告进入广告拍卖的频率更高，随着时间的推移，单个广告会更受青睐。 此结果可能与您的业务和优化目标不一致。</li></ul> |
 | [!UICONTROL Ad Group Name] | 不适用 | 必填 | 必填 | 必填 | 不适用 | 标识广告组的唯一名称。 |
-| [!UICONTROL Max CPC] | 不适用 | O | O | 不适用 | 不适用 | 最大每次点击成本(CPC)，这是您在搜索网络上为广告点击支付的最高金额，无论是否带有货币符号和标点。 您可以设置广告组和关键字的值。 新关键字的默认值继承自广告组级别。 |
+| [!UICONTROL Max CPC] | 不适用 | O | O | 不适用 | 不适用 | 最高每次点击成本(CPC)，在搜索网络上为广告点击支付的最高金额，无论是否带有货币符号和标点。 您可以设置广告组和关键字的值。 新关键字的默认值继承自广告组级别。 |
 | [!UICONTROL Keyword] | 可选/不适用 | 可选/不适用 | 必填 | 不适用 | 不适用 | 关键词字符串。<br><br>要在广告组或营销策划级别排除关键字，请设置 [!UICONTROL Match Type] 到 [!UICONTROL Negative]. 如果行包含广告组名称，则该广告组将排除关键字。 如果行不包含广告组名称，则该关键字将排除在整个营销活动中。<br><br><b>注意：</b>更改百度关键字会删除现有关键字，并创建一个具有新关键字ID的新关键字。 但是，您可以更改匹配类型，而无需删除现有关键字。 |
 | [!UICONTROL Match Type] | 可选/不适用 | 可选/不适用 | 可选：创建<br>必需/可选：编辑或删除 | 不适用 | 不适用 | 关键字的关键字匹配选项： <i>[!UICONTROL Broad]</i>， <i>[!UICONTROL Exact]</i>， <i>[!UICONTROL Phrase]</i>， <i>[!UICONTROL Negative Broad]</i>，或 <i>[!UICONTROL Negative Exact]</i>. 在营销活动级别或广告组级别定义负关键字。<br><br>对于新关键字，缺省值为 <i>[!UICONTROL Broad]</i>. 只有在编辑具有多个匹配类型的关键字时，才需要匹配类型或关键字ID的值。<br><br><b>注意：</b>您可以更改以下项的匹配类型 [!DNL Baidu] 关键字，而不删除现有关键字。 |
 | [!UICONTROL Ad Title] | 不适用 | 不适用 | 不适用 | 必填 | 不适用 | 广告的标题。 最大长度为14个双字节字符或28个单字节字符。<br><br><b>注意：</b> 更改广告副本会删除现有广告并创建具有相同属性的新广告。 |
@@ -52,7 +52,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 | [!UICONTROL Description Line 2] | 不适用 | 不适用 | 不适用 | 必填 | 不适用 | 广告正文的第二行。 最小长度为4个双字节或8个单字节字符，最大长度为20个双字节或40个单字节字符。<br><br><b>注意：</b> 更改广告副本会删除现有广告并创建具有相同属性的新广告。 |
 | [!UICONTROL Display URL] | 不适用 | 不适用 | 不适用 | 必填 | 不适用 | 广告中显示的URL。 最大长度为35个单字节字符。 |
 | [!UICONTROL Base URL] | 不适用 | 不适用 | 可选 | 必填 | 不适用 | 最终用户单击您的广告时获得的登陆页面URL，包括为营销活动或帐户配置的任何附加参数。<br><br>关键字级别的基本/最终URL会覆盖广告级别和更高级别的URL。 |
-| [!UICONTROL Destination URL] | 不适用 | 不适用 | 不适用 | 不适用 | 不适用 | （出于信息目的包含在生成的批量工作表中；未发布到广告网络）对于具有目标URL的帐户，此值是将广告链接到广告商网站上的基本URL/登陆页面的URL（有时通过另一个跟踪点击的网站，然后将用户重定向到登陆页面）。 它包括为Search， Social， &amp; Commerce营销活动或帐户配置的任何附加参数。 如果您生成了跟踪URL，则此值基于您的帐户设置和促销活动设置中的跟踪参数。 如果您附加了特定于广告网络的参数，则这些参数可能会被等效的“搜索”、“社交”和“商务”参数替换。<br><br>对于具有最终URL的帐户，此列显示的值与 [!UICONTROL Base URL/Final URL column]. |
+| [!UICONTROL Destination URL] | 不适用 | 不适用 | 不适用 | 不适用 | 不适用 | （出于信息目的包含在生成的批量工作表中；未发布到广告网络）对于具有目标URL的帐户，此值是将广告链接到广告商网站上的基本URL/登陆页面的URL（有时通过另一个跟踪点击的网站，然后将用户重定向到登陆页面）。 它包括为Search、Social和Commerce营销活动或帐户配置的任何附加参数。 如果您生成了跟踪URL，则此值基于您的帐户设置和促销活动设置中的跟踪参数。 如果附加了特定于广告网络的参数，则可能会将其替换为与搜索、社交和Commerce等效的参数。<br><br>对于具有最终URL的帐户，此列显示的值与 [!UICONTROL Base URL/Final URL column]. |
 | [!UICONTROL Custom URL Param] | 不适用 | 不适用 | 可选 | 可选 | 不适用 | 要替换的数据 `{custom_code}` 当变量包含在搜索帐户或促销活动设置的跟踪参数中时，为动态变量。 要在跟踪URL中插入自定义值，请使用 [!UICONTROL Generate Tracking URLs] 选项。 |
 | [!UICONTROL Campaign Status] | 可选：创建或编辑<br>必需：删除 | 不适用 | 不适用 | 不适用 | 不适用 | 营销活动的显示状态： <i>[!UICONTROL Active]</i>， <i>[!UICONTROL Paused]</i>，或 <i>[!UICONTROL Deleted]</i> （仅限现有营销活动）。 新营销活动的默认值为 <i>[!UICONTROL Active]</i>. 要删除活动或暂停的活动，请输入值»[!UICONTROL Deleted]“。 |
 | [!UICONTROL Ad Group Status] | 不适用 | 可选：创建或编辑<br>必需：删除 | 不适用 | 不适用 | 不适用 | 广告组的显示状态： <i>[!UICONTROL Active]</i>， <i>[!UICONTROL Paused]</i>，或 <i>[!UICONTROL Deleted]</i> （仅限现有广告组）。 新广告组的默认值为 <i>[!UICONTROL Active]</i>. 要删除活动或暂停的广告组，请输入值»[!UICONTROL Deleted]“。 |
@@ -66,7 +66,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 | [!UICONTROL Keyword ID] | 不适用 | 不适用 | 不适用：创建<br>必需/可选：编辑和删除 | 不适用 | 不适用 | 标识现有关键字的唯一ID。 在CSV和TSV文件中，它的前面必须带有单引号(&#39;)。[^1] 仅当更改关键字名称时才需要此变量，除非该行包含a)足够的属性列来标识关键字或b) AMO ID。 |
 | [!UICONTROL Ad ID] | 不适用 | 不适用 | 不适用 | 不适用：创建<br>必需/可选：编辑和删除 | 不适用 | 标识现有关键字的唯一ID。 在CSV和TSV文件中，它的前面必须带有单引号(&#39;)。[^1] 仅当更改关键字名称时才需要此变量，除非该行包含a)足够的属性列来标识关键字或b) AMO ID。 |
 | [!UICONTROL AMO ID] | 不适用：创建<br>可选：编辑和删除 | 不适用：创建<br>可选：编辑和删除 | 不适用：创建<br>可选：编辑和删除 | 不适用：创建<br>可选：编辑和删除 | 不适用：创建<br>可选：编辑和删除 | （在生成的批量处理工作表中） [!DNL Adobe]已同步实体的生成唯一标识符。 对于响应式搜索广告，编辑或删除广告时需要AMO ID，除非您包含 [!UICONTROL Ad ID]. 要编辑所有其他具有AMO ID的实体类型的数据，需要使用AMO ID来编辑或删除数据，除非您包含实体ID和父实体ID。<br><br>Search、Social和Commerce会使用该值确定要编辑的正确身份，但不会将ID发布到广告网络。 |
-| [!UICONTROL EF Error Message] | 不适用 | 不适用 | 不适用 | 不适用 | 不适用 | （出于提供信息的目的，包含在生成的批量处理工作表中）用于显示来自搜索、社交和商务中与行中的数据有关的错误消息的占位符；错误消息包含在 [!UICONTROL EF Errors] 文件。 此值未发布到广告网络。 |
+| [!UICONTROL EF Error Message] | 不适用 | 不适用 | 不适用 | 不适用 | 不适用 | （出于提供信息的目的，包含在生成的批量处理工作表中）用于显示来自搜索、社交和Commerce中与行中的数据有关的错误消息的占位符；错误消息包含在 [!UICONTROL EF Errors] 文件。 此值未发布到广告网络。 |
 | [!UICONTROL SE Error Message] | 不适用 | 不适用 | 不适用 | 不适用 | 不适用 | （出于信息目的包含在生成的批量工作表中）用于显示来自广告网络的关于行中数据的错误消息的占位符；错误消息包含在中 [!UICONTROL SE Errors] 文件。 此值未发布到广告网络。 |
 
 [^1]：Excel在打开文件时将大量数字转换为科学表示法(例如，2.12E+09 for 2115585666)。 要查看标准表示法的位数，请选择列中的任意单元格，然后在公式栏中单击。
