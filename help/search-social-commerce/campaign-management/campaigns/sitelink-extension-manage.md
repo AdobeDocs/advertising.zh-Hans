@@ -1,11 +1,11 @@
 ---
 title: 管理共享的站点链接
 description: 了解如何创建和管理共享站点链接扩展。
-exl-id: 33d52179-b968-4eab-a1b9-b10ff20948e3
+exl-id: e510f53b-f48c-4129-887c-351a840b8398
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c3b8e387cfc38d195e77761791e689fd094d8f39
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ## 共享站点链接设置 {#shared-sitelink-settings}
 
-有关站点链接不批准的其他策略和原因，请参阅 [[!DNL Google Ads]](https://support.google.com/adspolicy/answer/1054210) 和 [[!DNL Microsoft Advertising]](https://about.ads.microsoft.com/en-us/resources/policies/ad-extensions-policies) sitelink扩展要求。
+有关站点链接不批准的其他策略和原因，请参阅 [[!DNL Google Ads]](https://support.google.com/adspolicy/answer/1054210) 和 [[!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/ads/en/ext60206) sitelink扩展要求。
 
 ### [!UICONTROL Sitelink]
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 **[!UICONTROL Tracking Template]：** （可选）跟踪模板或跟踪URL，用于指定所有登陆域重定向和跟踪参数，并将最终/登陆页面URL嵌入到参数中。 示例： `{lpurl}?source={network}&id=5` 或 `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` 以包含重定向。
 
-* 用于Adobe Advertising转化跟踪，当促销活动设置包括&#39;&#39;时应用[!UICONTROL EF Redirect]”和“自动上传”的搜索、社交和商务会在您保存记录时自动为自己的点击跟踪代码添加前缀。
+* 用于Adobe Advertising转化跟踪，当促销活动设置包括&#39;&#39;时应用[!UICONTROL EF Redirect]”和“自动上传”、搜索、Social和Commerce会在您保存记录时自动为自己的点击跟踪代码添加前缀。
 
 * 有关嵌入最终URL时支持的参数，请参阅([!DNL Microsoft Advertising] 仅限) [[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799) 或([!DNL Google Ads] 仅限)“可用”部分中的“仅限跟踪模板”参数 [!DNL ValueTrack] 参数” [[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348).
 
