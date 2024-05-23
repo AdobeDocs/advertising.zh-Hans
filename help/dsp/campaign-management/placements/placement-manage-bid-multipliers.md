@@ -3,9 +3,9 @@ title: 管理投放位置的竞价乘数
 description: 了解如何创建和编辑投放目标的竞价乘数。
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: c23da6494c6d4ce89735f3f63f89f5320ca02a40
+source-git-commit: 2c6e21dd63c5d0c8e0d0c82bcacd0851c56c6084
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '613'
 ht-degree: 2%
 
 ---
@@ -34,11 +34,19 @@ ht-degree: 2%
 
      大多数目标类别在左侧列出子类别。 单击子类别以管理该子类别的竞价乘数（如果适用）。
 
-   * 要上载包含竞价乘数值的CSV文件以覆盖现有值，请执行以下操作：
+   * 要上传具有竞价倍增值的CSV文件以覆盖所有现有值，请执行以下操作：
 
       1. 单击 **[!UICONTROL CSV File Edit]** 在右上角。
 
-      1. a)单击 **[!UICONTROL Download Template]** 并使用在用户界面中可见的相同语法和相应的竞价倍增值输入目标，或b)使用相同信息编辑以前下载的模板。 将编辑的文件保存到您的设备或网络。
+      1. a)单击 **[!UICONTROL Download Template]** 和编辑文件，或b)编辑以前下载的模板。 将编辑的文件保存到您的设备或网络。
+
+         下载的模板包括适用于每种目标类型（如国家/地区、来源和站点类别）的工作表。 只包括值为1.0以外的现有竞价乘数。
+
+         * 要为现有目标添加竞价乘数，请使用用户界面中显示的相同语法和对应的竞价乘数值输入目标。
+
+         * 要删除竞价修饰符，请将竞价倍增值设置为1.0或删除行的所有信息。
+
+         ![竞价乘数电子表格文件中的示例行](/help/dsp/assets/bid-multiplier-spreadsheet.png "竞价乘数电子表格文件中的示例行")
 
       1. 单击 **[!UICONTROL Next]** 以移至 [!UICONTROL Upload File] 部分，然后a)将编辑的文件拖放到框中，或b)在框中单击以从设备或网络中选择文件。
 
