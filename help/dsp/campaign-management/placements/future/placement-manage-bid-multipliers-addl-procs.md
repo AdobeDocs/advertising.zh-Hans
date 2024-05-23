@@ -2,9 +2,9 @@
 title: 管理投放位置的竞价乘数
 description: 了解xxx
 feature: DSP Placements
-source-git-commit: 85e1338b841cd9615f7d2881185487ae79743303
+source-git-commit: b6758541b59f1fd924a2fe83c769f5ba385409aa
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,19 @@ ht-degree: 0%
 
      大多数目标类别在左侧列出子类别。 单击子类别以管理该子类别的竞价乘数（如果适用）。
 
-   * 要上载包含竞价乘数值的CSV文件以覆盖现有值，请执行以下操作：
+   * 要上传具有竞价倍增值的CSV文件以覆盖所有现有值，请执行以下操作：
 
       1. 单击 **[!UICONTROL CSV File Edit]** 在右上角。
 
-      1. a)单击 **[!UICONTROL Download Template]** 并使用在用户界面中可见的相同语法和相应的竞价倍增值输入目标，或b)使用相同信息编辑以前下载的模板。 将编辑的文件保存到您的设备或网络。
+      1. a)单击 **[!UICONTROL Download Template]** 和编辑文件，或b)编辑以前下载的模板。 将编辑的文件保存到您的设备或网络。
+
+         下载的模板包括适用于每种目标类型（如国家/地区、来源和站点类别）的工作表。 只包括值为1.0以外的现有竞价乘数。
+
+         * 要为现有目标添加竞价乘数，请使用用户界面中显示的相同语法和对应的竞价乘数值输入目标。
+
+         * 要删除竞价修饰符，请将竞价倍增值设置为1.0或删除行的所有信息。
+
+         ![竞价乘数电子表格文件中的示例行](/help/dsp/assets/bid-multiplier-spreadsheet.png "竞价乘数电子表格文件中的示例行")
 
       1. 单击 **[!UICONTROL Next]** 以移至 [!UICONTROL Upload File] 部分，然后a)将编辑的文件拖放到框中，或b)在框中单击以从设备或网络中选择文件。
 
@@ -59,17 +67,25 @@ ht-degree: 0%
 
    相同的更改适用于所有选定的投放位置。
 
-   * 要上载包含竞价乘数值并将覆盖现有值的CSV文件，请执行以下操作：
+* 要上传具有竞价倍增值的CSV文件以覆盖所有现有值，请执行以下操作：
 
-     >[!NOTE]
-     >
-     >如果将某个字段留空，则会删除该目标类型的所有值。<!-- Verify and re-word if needed. I'm not sure if you'll be able to have multiple data rows (one per placement) or if there only one data row is applicable for all. -->
+   1. 单击 **[!UICONTROL CSV File Edit]** 在右上角。
 
-      1. 单击 **[!UICONTROL CSV Edit]** 在右上角。
+   1. a)单击 **[!UICONTROL Download Template]** 和编辑文件，或b)编辑以前下载的模板。 将编辑的文件保存到您的设备或网络。
 
-      1. a)单击 **[!UICONTROL Download Template]** 和编辑竞价倍增值，或b)编辑以前下载的模板。 将编辑的文件保存到您的设备或网络。
+      下载的模板包括适用于每种目标类型（如国家/地区、来源和站点类别）的工作表。 只包括值为1.0以外的现有竞价乘数。
 
-      1. a)将编辑的文件拖放到框中，或b)单击框以从设备或网络中选择文件。
+      * 要为现有目标添加竞价乘数，请使用用户界面中显示的相同语法和对应的竞价乘数值输入目标。
+
+      * 要删除竞价修饰符，请将竞价倍增值设置为1.0或删除行的所有信息。
+
+      ![竞价乘数电子表格文件中的示例行](/help/dsp/assets/bid-multiplier-spreadsheet.png "竞价乘数电子表格文件中的示例行")
+
+   1. 单击 **[!UICONTROL CSV Edit]** 在右上角。
+
+   1. a)单击 **[!UICONTROL Download Template]** 和编辑竞价倍增值，或b)编辑以前下载的模板。 将编辑的文件保存到您的设备或网络。
+
+   1. a)将编辑的文件拖放到框中，或b)单击框以从设备或网络中选择文件。
 
    1. 单击 **[!UICONTROL Upload]**.
 
