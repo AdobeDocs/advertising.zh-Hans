@@ -3,9 +3,9 @@ title: 管理投放位置的竞价乘数
 description: 了解如何创建和编辑投放目标的竞价乘数。
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 5f358bbc63a5767649f42551f05cfae9fdc2b445
+source-git-commit: c23da6494c6d4ce89735f3f63f89f5320ca02a40
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '543'
 ht-degree: 2%
 
 ---
@@ -28,9 +28,11 @@ ht-degree: 2%
 
 1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
 
-1. 手动或上传包含目标值的CSV文件来调整符合条件的目标的竞价乘数：
+1. 调整合格目标的竞价乘数：
 
-   * 要手动调整竞价倍增值，请移到每个 [目标特定选项卡](#bid-multiplier-by-target) ([!UICONTROL Geo]， [!UICONTROL Inventory]， [!UICONTROL Sites]， [!UICONTROL Audience]、和 [!UICONTROL Brand Safety])，并编辑投放目标的现有值。 大多数目标类别在左侧列出子类别。 单击子类别以管理该子类别的竞价乘数（如果适用）。
+   * 要手动调整竞价倍增值，请移到每个 [目标特定选项卡](#bid-multiplier-by-target) ([!UICONTROL Geo]， [!UICONTROL Inventory]， [!UICONTROL Sites]， [!UICONTROL Audience]、和 [!UICONTROL Brand Safety])，并编辑投放目标的现有值。
+
+     大多数目标类别在左侧列出子类别。 单击子类别以管理该子类别的竞价乘数（如果适用）。
 
    * 要上载包含竞价乘数值的CSV文件以覆盖现有值，请执行以下操作：
 
