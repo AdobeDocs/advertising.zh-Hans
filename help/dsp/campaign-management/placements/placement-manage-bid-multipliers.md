@@ -3,7 +3,7 @@ title: 管理投放位置的竞价乘数
 description: 了解如何创建和编辑投放目标的竞价乘数。
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 2c6e21dd63c5d0c8e0d0c82bcacd0851c56c6084
+source-git-commit: c0dd18a3ce8759214813b7303c590a28febf1b37
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 2%
@@ -40,7 +40,7 @@ ht-degree: 2%
 
       1. a)单击 **[!UICONTROL Download Template]** 和编辑文件，或b)编辑以前下载的模板。 将编辑的文件保存到您的设备或网络。
 
-         下载的模板包括适用于每种目标类型（如国家/地区、来源和站点类别）的工作表。 只包括值为1.0以外的现有竞价乘数。
+         下载的电子表格中为每个目标类型（如国家/地区、来源和站点类别）包含一个工作表。 只包含值&lt; 1.0或> 1.0的现有竞价乘数。
 
          * 要为现有目标添加竞价乘数，请使用用户界面中显示的相同语法和对应的竞价乘数值输入目标。
 
