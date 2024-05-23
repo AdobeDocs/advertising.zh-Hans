@@ -1,24 +1,24 @@
 ---
 title: 管理投放位置的竞价乘数
-description: 了解如何创建和编辑指定投放目标的竞价乘数。
+description: 了解如何创建和编辑投放目标的竞价乘数。
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 5f358bbc63a5767649f42551f05cfae9fdc2b445
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 3%
+source-wordcount: '554'
+ht-degree: 2%
 
 ---
 
 # 管理投放位置的竞价乘数
 
-您可以使用此功能更改现有投放目标的竞价乘数。 您可以一次管理一个投放位置的竞价乘数。<!-- remove that line once we can edit multiple -->
+您可以创建和管理竞价乘数，将竞价乘以该乘数以增加或减少竞价，适用于您现有的位置目标 [符合条件的目标类型](#bid-multiplier-by-target). 您可以手动编辑竞价倍增值，也可以上载包含值的电子表格。
 
-要更改投放位置的选定目标，请参阅&quot;[编辑版面](/help/dsp/campaign-management/placements/placement-edit.md)“
+默认情况下，目标的竞价倍数为1.00，这意味着不针对该目标调整竞价。 值的范围可以是0.10到10.00。例如，竞价修饰符0.5会将竞价从6美元降至3美元(0.5 x 6)。 当拍卖符合多个竞价修饰符条件时，所有适用的竞价修饰符都将被相乘。 竞价修饰符绝不会将竞价提高到超过最大竞价。
 
-<!-- 
-## Manage the Bid Multipliers for a Single Placement
--->
+您可以为设置竞价乘数（值为1.00以外的值） [目标数量有限](#bid-multiplier-limits-by-target).
+
+此功能可与您现有的投放目标配合使用。 要更改投放位置的选定目标，请参阅&quot;[编辑版面](/help/dsp/campaign-management/placements/placement-edit.md)“
 
 1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
 
@@ -28,15 +28,19 @@ ht-degree: 3%
 
 1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
 
-1. 移到每个 [目标特定选项卡](#bid-multiplier-by-target) ([!UICONTROL Geo]， [!UICONTROL Inventory]， [!UICONTROL Sites]， [!UICONTROL Audience]、和 [!UICONTROL Brand Safety])，并编辑投放目标的现有值。 大多数目标类别在左侧列出子类别。 单击子类别以管理该子类别的竞价乘数（如果适用）。
+1. 手动或上传包含目标值的CSV文件来调整符合条件的目标的竞价乘数：
 
-   默认情况下，目标的竞价倍数为1.00，这意味着不为该目标调整竞价。 值的范围可以是0.10到10.00。例如，竞价修饰符0.5会将竞价从6美元降至3美元(0.5 x 6)。 竞价修饰符绝不会将竞价提高到超过最大竞价。
+   * 要手动调整竞价倍增值，请移到每个 [目标特定选项卡](#bid-multiplier-by-target) ([!UICONTROL Geo]， [!UICONTROL Inventory]， [!UICONTROL Sites]， [!UICONTROL Audience]、和 [!UICONTROL Brand Safety])，并编辑投放目标的现有值。 大多数目标类别在左侧列出子类别。 单击子类别以管理该子类别的竞价乘数（如果适用）。
 
-   当拍卖符合多个竞价修饰符条件时，所有适用的竞价修饰符都将被相乘。
+   * 要上载包含竞价乘数值的CSV文件以覆盖现有值，请执行以下操作：
 
-   您可以为设置竞价乘数（值为1.00以外的值） [目标数量有限](#bid-multiplier-limits-by-target).
+      1. 单击 **[!UICONTROL CSV File Edit]** 在右上角。
 
-1. 在右上角，单击 **[!UICONTROL Save]**.
+      1. a)单击 **[!UICONTROL Download Template]** 并使用在用户界面中可见的相同语法和相应的竞价倍增值输入目标，或b)使用相同信息编辑以前下载的模板。 将编辑的文件保存到您的设备或网络。
+
+      1. 单击 **[!UICONTROL Next]** 以移至 [!UICONTROL Upload File] 部分，然后a)将编辑的文件拖放到框中，或b)在框中单击以从设备或网络中选择文件。
+
+      1. 验证中已上传的数据 [!UICONTROL Review & Submit] 部分，然后单击 **[!UICONTROL Save]**.
 
 ## 符合竞价乘数资格的目标类型 {#bid-multiplier-by-target}
 
