@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 0d96c6dcdc498e9c96e7c13b24c805bf5c3bdcae
+source-git-commit: 3ffd3fdbe61d66a7c3a181e07559727b5db83a7e
 workflow-type: tm+mt
-source-wordcount: '2857'
+source-wordcount: '2912'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024年5月20日 | 已连接的电视广告、像素、重新定位区段 | （Open Beta；仅在美国和AUS提供）您现在可以使用其他广告重新定位接触CTV促销活动的受众区段，以增强跨渠道广告：<ul><li>设置广告展示区段，并将展示跟踪标记复制到所需的CTV投放位置或广告以开始跟踪该区段。</li><li>在重新定位位置中，选择 [!UICONTROL Audience Targeting] 部分。</li></ul> | 请参阅&quot;[创建和实施自定义区段](/help/dsp/audiences/custom-segment-create.md)”和“[投放设置](/help/dsp/campaign-management/placements/placement-settings.md)“ |
+| 2024年5月22日 | CTV包优化 | 在具有“最低CPA”和“最高ROAS”优化目标的包中，连接电视广告的性能模型现在使用转化路径中多个接触点的数据，以实现更快和更强大的机器学习。 现有包已升级为使用多点触控优化，无需执行任何操作。 | — |
+| 2024年5月20日 | 已连接的电视广告、像素、重新定位区段 | （Open Beta；仅在美国和AUS提供）您现在可以使用其他广告重新定位接触CTV促销活动的受众区段，以增强跨渠道广告：<ol><li>设置广告展示区段，并将展示跟踪标记复制到所需的CTV投放位置或广告以开始跟踪该区段。</li><li>在重新定位位置中，选择 [!UICONTROL Audience Targeting] 部分。</li></ol> | 请参阅&quot;[创建和实施自定义区段](/help/dsp/audiences/custom-segment-create.md)”和“[投放设置](/help/dsp/campaign-management/placements/placement-settings.md)“ |
 | 2024年5月2日 | 广告，像素 | 您可以下载XLSX（Excel电子表格）格式促销活动中所有广告的广告设置和版面关联，以供审阅 [!UICONTROL Ad Tools] 视图。 | 请参阅&quot;[使用电子表格查看广告详细信息](/help/dsp/campaign-management/ads/ad-qa.md)“ |
 | |  | 此 [!UICONTROL Ad Tools] 视图> [!UICONTROL Attach Pixels] 选项卡显示附加到广告的第三方跟踪像素，并提供新的工作流程以将像素附加到一个或多个广告并分离现有像素。 | 请参阅&quot;[将广告附加到投放位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)“ |
 |  | 版面、受众 | 您现在可以通过批量编辑工具或版面编辑器从版面中排除个别受众区段或不可重用受众。 | 请参阅&quot;[编辑版面](/help/dsp/campaign-management/placements/placement-edit.md)”和“[投放设置](/help/dsp/campaign-management/placements/placement-settings.md)“ |
