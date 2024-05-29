@@ -3,9 +3,9 @@ title: ’[!DNL Microsoft Advertising] 营销活动设置
 description: 引用设置 [!DNL Microsoft Advertising] 营销活动。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 0f128b569f8c005c4f72a0c85ebf59e9fed53320
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '1963'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
   当您将带eCPC的营销活动添加到经过优化的搜索、社交和Commerce产品组合时，Search、Social和Commerce会优化基本竞价，如果“[!UICONTROL Auto adjust campaign budget limits]”选项已启用 — 营销活动预算。 广告网络会优化所有竞价调整，并可能会在用户查询时根据专有数据和见解更改搜索、社交和Commerce生成的竞价。 **注意：** 仅当广告网络上跟踪的总转化与项目组合目标一致时，才在项目组合中使用eCPC营销活动。
 
-* *[!UICONTROL Manual CPC]*：(品牌购物活动； [!DNL Microsoft Store Ads] 营销活动；已弃用 [!DNL Microsoft Advertising] （在2021年用于其他促销活动类型）使用每次点击成本(CPC)模型。 对于某些广告类型，您可以选择允许广告网络更改促销活动的竞价：
+* *[!UICONTROL Manual CPC]*：(品牌购物活动； [!DNL Microsoft Store Ads] 营销活动；对于其他营销活动类型已弃用)使用每次点击成本(CPC)模型。 对于某些广告类型，您可以选择允许广告网络更改促销活动的竞价：
 
    * **[!UICONTROL Enable Enhanced CPC]** （默认禁用）：此选项与使用&#39;&#39;相同[!UICONTROL Enhanced CPC]”选项。
 
