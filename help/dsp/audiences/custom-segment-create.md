@@ -3,9 +3,9 @@ title: 创建和实施自定义区段
 description: 了解如何创建和实施自定义区段以跟踪向广告公开的用户或访问您网页的用户。
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: b90e831d0fdd5f4f4f47381a2603a3adaea765b2
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 * 要在Adobe Analytics中进行测量，您必须：
 
-   1. 全部完成 [实施的先决条件 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) 和 [跟踪URL中的AMO ID和EF ID](/help/integrations/analytics/ids.md).
+   1. 全部完成 [实施的先决条件 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)，并确保 [AMO ID和EF ID](/help/integrations/analytics/ids.md) 将在您的跟踪URL中填充。
 
    1. 将以下参数添加到您网页中的之前或内部 [需要JavaScript代码才能使用 [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)  — 初始化最后一个事件服务之前的任意位置。
 
