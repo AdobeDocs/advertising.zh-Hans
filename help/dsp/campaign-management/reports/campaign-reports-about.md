@@ -3,7 +3,7 @@ title: Campaign Management视图中的性能报表类型
 description: 了解营销活动管理视图中包含的报表数据。
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: c7860d98edbf44b71d97c3800edf47a409606b74
+source-git-commit: 4e82caa995286635b4a181f186d6a1fabb09847d
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 0%
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 * [A（详细信息视图） [!UICONTROL Inspector])](placement-details-view.md)，其中显示了投放的所有目标网站、广告、频率数据和交易。
 
-* A [投放预测报告](/help/dsp/campaign-management/reports/placement-forecast.md)
+* A [投放预测报告](/help/dsp/campaign-management/reports/placement-forecast.md).
 
 * [放置诊断报告](/help/dsp/campaign-management/reports/placement-diagnostics.md).
 
