@@ -3,9 +3,9 @@ title: 创建和实施自定义区段
 description: 了解如何创建和实施自定义区段以跟踪向广告公开的用户或访问您网页的用户。
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: b90e831d0fdd5f4f4f47381a2603a3adaea765b2
+source-git-commit: 99091cd673fd064908fec4a89e28d2ddb448e9a8
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,20 @@ ht-degree: 0%
 
          1. 复制标记为“ ”的页面查看跟踪标记[!UICONTROL Desktop or mobile websites]“
 
+         1. (用于跟踪的区段的标记 [!DNL ID5] ID)在复制的标记中，替换 `ID5_PARTNER_ID` 合作伙伴ID为 [!DNL ID5] 已分配给您的组织。
+
+            例如，如果您的ID5合作伙伴ID为 `abcde` 生成的区段标记为
+
+            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+            然后替换 `ID5_PARTNER_ID` 替换为 `abcde` ，获取以下信息：
+
+            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+            您的组织在与签署协议时收到了合作伙伴ID [!DNL ID5]. 如果您不知道自己的合作伙伴ID，请与您的Adobe客户团队联系。
+
+            标记无需执行此步骤即可进行跟踪 [!DNL ID5] 在桌面或移动设备上向广告单元公开的用户的ID。
+
          1. 将标记提供给广告商或网站联系人以进行部署。
 
             广告商的IT部门或其他组可能需要计划标记部署或通知标记部署。
@@ -89,21 +103,7 @@ ht-degree: 0%
 
          1. 复制标记为的展示跟踪标记&quot;[!UICONTROL Desktop or mobile ads]“
 
-   1. (用于跟踪的区段的标记 [!DNL ID5] 网页的桌面和移动设备访客的ID)在复制的标记中，替换 `ID5_PARTNER_ID` 合作伙伴ID为 [!DNL ID5] 已分配给您的组织。
-
-   例如，如果您的ID5合作伙伴ID为 `abcde` 生成的区段标记为
-
-   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
-
-   然后替换 `ID5_PARTNER_ID` 替换为 `abcde` ，获取以下信息：
-
-   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
-
-   您的组织在与签署协议时收到了合作伙伴ID [!DNL ID5]. 如果您不知道自己的合作伙伴ID，请与您的Adobe客户团队联系。
-
-   标记无需执行此步骤即可进行跟踪 [!DNL ID5] 在桌面或移动设备上向广告单元公开的用户的ID。
-
-1. 将标记添加到 [!UICONTROL Pixel] 选项卡，或者转到 [!UICONTROL Event Pixels] 的部分 [[!UICONTROL Tracking] 每个相关投放位置的设置](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+         1. 将标记添加到 [!UICONTROL Pixel] 选项卡，或者转到 [!UICONTROL Event Pixels] 的部分 [[!UICONTROL Tracking] 每个相关投放位置的设置](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 实施跟踪标记后，您可以在受众目标或排除项中将该区段用于任何投放位置。
 
