@@ -3,7 +3,7 @@ title: 关于第一方受众源
 description: 了解如何将第一方区段中的其他用户标识符转换为通用ID以实现无痕定位。
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 16a796e02150b00c77c825d7f54c6e390c85214a
+source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 0%
@@ -95,3 +95,7 @@ DSP是一个集成的 *目标* 对象 [该 [!DNL Adobe Real-Time Customer Data P
 >* [支持激活通用ID](/help/dsp/audiences/universal-ids.md)
 >* [关于受众管理](/help/dsp/audiences/audience-about.md)
 >* [投放设置](/help/dsp/campaign-management/placements/placement-settings.md)
+
+<!--
+>* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
+-->
