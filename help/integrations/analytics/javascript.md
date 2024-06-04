@@ -3,7 +3,7 @@ title: JavaScript代码 [!DNL Analytics for Advertising]
 description: JavaScript代码 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 0%
@@ -25,6 +25,38 @@ ht-degree: 0%
 >Adobe AdvertisingJavaScript跟踪逻辑发生在Adobe端，因此对页面加载时间几乎没有影响。
 >
 >相比之下， [!DNL DCM] 数据连接器至 [!DNL Analytics] (使用 [!DNL Google Campaign Manager 360]DSP )。 客户端拼接会减慢页面加载速度并增加数据丢失的风险。 出现这种情况是因为 [!DNL Analytics] JavaScript必须ping [!DNL DoubleClick] 并等待 [!DNL DoubleClick] 以将最后一次点击/展示数据传递回 [!DNL Analytics]. 当 [!DNL DSP] 团队设置 [!DNL DCM] data connector中，您必须指定愿意将页面延迟多长时间。
+
+<!--
+## Deploying the JavaScript Code
+
+All users must deploy the standard JavaScript code.
+
+Users who want to convert first-party segments from their customer data platforms to [!DNL RampIDs] or [!DNL ID5] IDs [!!!!VERIFY that it's not needed for importing segments directly from LiveRamp] must also deploy ID partner-specific JavaScript code to match conversions to view-throughs.
+
+### The Standard Code
+
+The standard JavaScript library consists of two lines that allow [!DNL Analytics] and Adobe Advertising to communicate with each other. If the [!DNL Analytics for Advertising] integration was completed during the Adobe Advertising implementation, then you should have already received this code with instructions on how to deploy it.
+
+#### Implementations that use the Experience Cloud Identity Service `visitorAPI.js` code
+
+```
+<script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
+<script>
+     if("undefined" != typeof AdCloudEvent) 
+          AdCloudEvent('IMS ORG Id','rsid');
+</script>
+```
+
+#### Implementations that use the Experience Platform [!DNL Web SDK] `alloy.js`code
+
+### Additional Code to Import First-Party Segments to [!DNL RampIDs] and [!DNL ID5] IDs
+
+   * For [!DNL RampIDs], Contact your Adobe Account Team, who will give you instructions to register for a [!DNL LiveRamp] [!DNL LaunchPad] tag. Registration is free, but you must sign an agreement. Once you register, your Adobe Account Team will generate and provide a unique tag for your organization to implement on your webpages.
+
+    [MAYBE PUT THIS BELOW] Place the [!DNL LaunchPad] tag on every page of your website, preferably as the first script within the page head tags but as high within the page head tags as possible.
+
+   * For [!DNL ID5] IDs: Contact your Adobe Account Team, who will give you instructions to register for the tag with ID5. Registration is free, but you must sign an agreement. Once you register, a member of ID5’s technical team will provide a unique tag for your organization to implement on your webpages.
+-->
 
 ## 部署JavaScript代码
 
@@ -108,7 +140,7 @@ JavaScript库包含两行，它们允许 [!DNL Analytics] 和Adobe Advertising�
 1. 在 [!UICONTROL Request URL - Hostname] 参数行，查找 `lasteventf-tm.everesttech.net`.
 1. 在 [!UICONTROL Request - Parameters] 行，审核生成的信号，类似于&quot;[如何使用确认代码 [!DNL Chrome Developer Tools]](#validate-js-chrome)“
    * (使用Experience CloudIdentity服务的实施 `visitorAPI.js` 代码)确保 `Sdid` 参数匹配 `Supplemental Data ID` 在Adobe Analytics过滤器中。
-   * (使用Experience Platform的实施 [!DNL Web SDK] `alloy.js`代码)确保 `advertisingStitchID` 参数匹配 `Sdid` 发送到Experience Platform边缘网络。
+   * (使用Experience Platform的实施 [!DNL Web SDK] `alloy.js`代码)确保 `advertisingStitchID` 参数匹配 `Sdid` 发送到Experience PlatformEdge Network。
    * 如果代码未生成，请检查以确保在中删除了Adobe AdvertisingCookie [!UICONTROL Application] 选项卡。 删除页面后，请刷新页面并重复此过程。
 
    ![审核 [!DNL Analytics for Advertising] 中的JavaScript代码 [!DNL Experience Cloud Debugger]](/help/integrations/assets/a4adc-js-audit-debugger.png)

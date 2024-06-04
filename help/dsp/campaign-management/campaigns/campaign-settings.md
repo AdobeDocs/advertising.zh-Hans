@@ -3,9 +3,9 @@ title: Campaign设置
 description: 请参阅可用营销活动设置的描述。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 0%
 >
 >* 您还可以在帐户的费用设置中配置这些值。<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
-**[!UICONTROL Cross Device Level]：** （对于自2020年6月22日以来创建的现有营销活动为只读；对于2020年6月22日之前创建的营销活动不可用）DSP定位广告并应用频率上限的级别： *同一设备* 定位设备或 *人员* 将用户定位到其所有已知设备上。
+**[!UICONTROL Cross Device Level]：** （对于自2020年6月22日以来创建的现有营销活动为只读；对于2020年6月22日之前创建的营销活动不可用）DSP定位广告并应用频率上限的级别： *同一设备* 定位设备或 *人员* 将用户定位到其所有已知设备上。 **注意：** 跨设备支持不适用于以通用ID为目标的投放位置。
 
 **[!UICONTROL Device Graph]：** （对于现有营销活动为只读；仅限具有基于人员的跨设备定位的营销活动）用于跨设备定位和频率管理的设备图：
 
@@ -86,7 +86,9 @@ ht-degree: 0%
 
   此外，所有广告商也可以免费使用此选项进行频率管理和归因测量。
 
-**[!UICONTROL Frequency Cap]：** （可选）独特设备或人员的次数(取决于指定的 [!UICONTROL Cross Device Level])可能从营销活动中提供广告。 选项包括 *[!UICONTROL Unlimited]* 或每天、每周或每月的特定金额。
+  跨设备支持仅适用于以旧版ID为目标的投放位置，不适用于以通用ID为目标的投放位置(包括 [!DNL LiveRamps])。 通用ID的定位、频率管理和归因仅在ID级别应用。
+
+**[!UICONTROL Frequency Cap]：** （可选）独特设备、通用ID或人员(取决于指定的 [!UICONTROL Cross Device Level] 和投放位置的 [!UICONTROL Targeting] 设置)可用作营销活动中的广告。 选项包括 *[!UICONTROL Unlimited]* 或每天、每周或每月的特定金额。
 
 >[!NOTE]
 >

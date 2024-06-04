@@ -3,9 +3,9 @@ title: 关于自定义报表
 description: 了解用于手动或使用预配置的报表模板创建自定义报表的选项。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 1d8f7c8a365b53a0345ef4155802802acbf3f027
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 * 预配置的报告模板
 
-   * **[!UICONTROL Billing]：** 使用此报表可了解关键计费指标，如按营销活动划分的媒体计费的支出指标。
+   * **[!UICONTROL Billing]：** 使用此报表可了解关键计费指标，如按营销活动划分的媒体计费的支出指标。 数据不可用于以通用ID为目标的投放位置。
 
      >[!NOTE]
      >
@@ -61,7 +61,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Geo]**：使用此预填充模板按地理维度查看关键量度。
 
-   * **[!UICONTROL Margin]：** 使用此报表可以查看关键量度，如利润、利润和按促销活动或投放位置列出的其他支出量度。
+   * **[!UICONTROL Margin]：** 使用此报表可以查看关键量度，如利润、利润和按促销活动或投放位置列出的其他支出量度。 数据不可用于以通用ID为目标的投放位置。
 
    * **[!UICONTROL Segment]：** 使用此预填充模板可按区段查看关键量度。
 
@@ -72,9 +72,9 @@ ht-degree: 0%
 
    * **[!UICONTROL Site]：** 默认情况下，包括标准量度、媒体净支出总额以及按网站划分的可计费净支出总额。
 
-   * **[!UICONTROL Household Reach & Frequency]：** 使用此报表可根据IP地址而不是设备/Cookie级别，在家庭级别查看跨广告格式的单个维度的展示次数、访问范围和频率。 利用这些见解优化您的媒体组合、提高性能并发现增量访问的机会。 请参阅&quot;[有关家庭报表的常见问题解答](/help/dsp/reports/faq-household-report.md)”以了解更多信息。
+   * **[!UICONTROL Household Reach & Frequency]：** 使用此报表可根据IP地址而不是设备/Cookie级别，在家庭级别查看跨广告格式的单个维度的展示次数、访问范围和频率。 利用这些见解优化您的媒体组合、提高性能并发现增量访问的机会。 请参阅&quot;[有关家庭报表的常见问题解答](/help/dsp/reports/faq-household-report.md)”以了解更多信息。 数据不可用于以通用ID为目标的投放位置。
 
-   * **[!UICONTROL Household Conversions]：** 使用此报表可根据IP地址而不是设备/Cookie级别查看家庭级别的显示到达转化。 使用见解衡量和优化促销活动效果。 请参阅&quot;[有关家庭报表的常见问题解答](/help/dsp/reports/faq-household-report.md)”以了解更多信息。
+   * **[!UICONTROL Household Conversions]：** 使用此报表可根据IP地址而不是设备/Cookie级别查看家庭级别的显示到达转化。 使用见解衡量和优化促销活动效果。 请参阅&quot;[有关家庭报表的常见问题解答](/help/dsp/reports/faq-household-report.md)”以了解更多信息。 数据不可用于以通用ID为目标的投放位置。
 
 ## 跨帐户报告 {#cross-account-reporting}
 

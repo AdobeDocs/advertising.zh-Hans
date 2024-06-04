@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
+source-git-commit: b579c0413400b0af697f06c272878c46cce8003e
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '903'
 ht-degree: 3%
 
 ---
@@ -115,7 +115,8 @@ ht-degree: 3%
    + [性能疑难解答](/help/dsp/optimization/troubleshooting-performance.md)
 + 受众 {#audiences}
    + [关于受众管理](/help/dsp/audiences/audience-about.md)
-   + 受众 {#reusable-audiences}
+   + [支持激活通用ID](/help/dsp/audiences/universal-ids.md)
+   + 可重用受众 {#reusable-audiences}
       + [创建可重复使用的受众](/help/dsp/audiences/reusable-audience-create.md)
       + [复制可重用受众](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [编辑可重用受众](/help/dsp/audiences/reusable-audience-edit.md)
@@ -137,14 +138,13 @@ ht-degree: 3%
       + [查看区段的跟踪像素](/help/dsp/audiences/segment-view-pixels.md)
       + [删除区段](/help/dsp/audiences/segment-delete.md)
    + 源 {#sources}
-      + [关于从受众源激活经过身份验证的区段](/help/dsp/audiences/sources/source-about.md)
+      + [关于第一方受众源](/help/dsp/audiences/sources/source-about.md)
       + 按客户数据平台显示的工作流 {#sources-workflows}
-         + [!DNL Adobe Real-Time CDP] {#sources-adobe-rt-cdp}
-            + [用于将DSP集成与配合使用的工作流 [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
-            + [从通用ID合作伙伴激活经过身份验证的区段](/help/dsp/audiences/sources/source-universal-id.md)
-         + [用于将DSP集成与配合使用的工作流 [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
-      + [创建受众源以激活第一方受众](/help/dsp/audiences/sources/source-create.md)
+         + [转换用户ID [!DNL Adobe Real-Time CDP] 到通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+         + [转换用户ID [!DNL Tealium] 到通用ID](/help/dsp/audiences/sources/source-tealium.md)
+      + [创建受众源以激活通用ID受众](/help/dsp/audiences/sources/source-create.md)
       + [受众源设置](/help/dsp/audiences/sources/source-settings.md)
+   + [从手动导入经过身份验证的区段 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [可用的第三方数据提供商](/help/dsp/audiences/third-party-data-providers.md)
 + 库存 {#inventory}
    + [清单功能概述](/help/dsp/inventory/inventory-overview.md)

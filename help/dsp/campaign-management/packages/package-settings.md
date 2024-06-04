@@ -3,9 +3,9 @@ title: 包设置
 description: 请参阅有关可用包设置的说明。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 54e8dec0f31d1f18931d12d868ba162879a7acfb
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 >
 >此字段只是一个基准，不用于决策。
 
-**[!UICONTROL Frequency Cap]：** （仅限具有包级别步调的包）独特设备或人员的次数(取决于指定的 [!UICONTROL Cross Device Level] （对于营销活动）可以从程序包中提供广告。 选项包括 *[!UICONTROL Unlimited]* 或每天、每周或每月的特定金额。
+**[!UICONTROL Frequency Cap]：** （仅限具有包级别步调的包）唯一设备、通用ID或人员(取决于指定的 [!UICONTROL Cross Device Level] 促销活动和投放位置的 [!UICONTROL Targeting] 设置)可以从包中提供广告。 选项包括 *[!UICONTROL Unlimited]* 或每天、每周或每月的特定金额。
 
 >[!NOTE]
 >

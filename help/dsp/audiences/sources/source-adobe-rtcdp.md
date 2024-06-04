@@ -1,34 +1,53 @@
 ---
-title: 用于将DSP集成与配合使用的工作流 [!DNL Adobe] [!DNL Real-time CDP]
+title: 将DSP集成与 [!DNL Adobe] [!DNL Real-time CDP]
 description: 了解如何启用DSP以摄取 [!DNL Adobe] [!DNL Real-time CDP] 第一方区段。
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: b94541bf8675d535b2f19b26c05235eb56bc6c0b
+source-git-commit: 09151885a21e3f62df72d55802db8c2b2a3e4575
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
 
-# 用于将DSP集成与配合使用的工作流 [!DNL Adobe Real-Time CDP]
+# 转换用户ID [!DNL Adobe Real-Time CDP] 到通用ID
 
-1. [允许DSP将客户数据区段转换为 [!DNL LiveRamp RampIDs]](source-universal-id.md) 在竞标环境中可辨认的资产。<!-- I don't think I need this here: This requires DSP account-level and campaign-level settings to enable segment sharing with [!DNL LiveRamp], which will translate customer data to [!DNL RampIDs] to create targetable segments. Your Adobe Account Team will perform this configuration. -->
+*Beta版功能*
 
-1. [创建受众源](source-create.md) 将受众导入您的DSP帐户或广告商帐户。
+将DSP集成用于 [该 [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hans)，它是Adobe Experience Platform的一部分，用于将经过哈希处理的电子邮件地址转换为通用ID以进行定向广告。
 
-1. 在Experience PlatformDSP中，使用 [!UICONTROL Source Key] 在DSP源设置中生成的属性。
+1. (要将电子邮件地址转换为 [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->；广告商使用 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md))为设置跟踪 [!DNL Analytics] 计量：
+
+   1. （如果您尚未这样做）完成所有 [实施的先决条件 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) 和 [跟踪URL中的AMO ID和EF ID](/help/integrations/analytics/ids.md).
+
+   1. 向通用ID合作伙伴注册，并在您的网页上部署特定于通用ID的代码，以便匹配从桌面和移动Web浏览器（但不包括移动应用程序）上的ID到显示到达次数的转换：
+
+      * **对象 [!DNL RampIDs]：** 您必须在您的网页上部署一个额外的JavaScript标记，以便匹配从桌面浏览器和移动浏览器（但不是移动应用程序）上的ID到显示到达次数的转换。 请联系您的Adobe客户团队，他们将为您提供注册 [!DNL LiveRamp] [!DNL LaunchPad] 标记自 [!DNL LiveRamp] 身份验证流量解决方案。 注册是免费的，但您必须签署协议。 注册后，您的Adobe客户团队将生成并提供一个唯一标记，供贵组织在网页上实施。
+
+1. [创建受众源](source-create.md) 将受众导入您的DSP帐户或广告商帐户。 您可以选择将用户标识符转换为 [可用的通用ID格式](source-about.md).
+
+   源设置将包括自动生成的源密钥，您将在下一步中使用它。
+
+1. 在Adobe Experience PlatformDSP中，使用 [!UICONTROL Source Key] 在DSP源设置中生成的属性。
 
    有关激活DSP目标连接、选择区段和访问控制权限的说明，请参阅&quot;[Adobe Advertising Cloud DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)“
 
-如需其他支持，请联系您的Adobe客户团队或 `adcloud-support@adobe.com`.
+   源电子邮件地址必须使用SHA-256算法进行哈希处理。
 
+1. 完成所有步骤后，在受众库中验证（在从创建或编辑受众时可用） [!UICONTROL Audiences] > [!UICONTROL All Audiences] 区段会在24小时内填充的区段。 将通用ID的数量与原始经过哈希处理的电子邮件地址的数量进行比较。
+
+   经过哈希处理的电子邮件地址到通用ID的转换率应大于90%。 例如，如果您从客户数据平台发送100个经过哈希处理的电子邮件地址，则应将其转换为90个以上的通用ID。 90%或更低的翻译率是一个问题。 有关区段计数如何变化的更多信息，请参阅&quot;[电子邮件ID与通用ID之间的数据差异原因](#universal-ids-data-variances)“
+
+   有关故障排除支持，请联系您的Adobe客户团队或 `adcloud-support@adobe.com`.
+
+区段每24小时刷新一次。 但是，区段中的包含在30天后过期，因此无法确保隐私合规性，因此请通过每30天或更短时间从Real-Time CDP重新推送一次受众来刷新这些受众。
 
 >[!MORELIKETHIS]
 >
->* [从通用ID合作伙伴激活经过身份验证的区段](source-universal-id.md)
->* [创建受众源以激活第一方受众](source-create.md)
+>* [创建受众源以激活通用ID受众](source-create.md)
 >* [受众源设置](source-settings.md)
 >* [Adobe Advertising DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* Adobe Experience Platform [目标目录概述](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
->* [用于将DSP集成与配合使用的工作流 [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
+>* [从手动导入经过身份验证的区段 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+>* [转换用户ID [!DNL Tealium] 到通用ID](/help/dsp/audiences/sources/source-tealium.md)
 >* [关于受众管理](/help/dsp/audiences/audience-about.md)

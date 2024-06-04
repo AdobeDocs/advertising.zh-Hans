@@ -2,9 +2,9 @@
 title: 支持激活通用ID
 description: 了解在以下支持方面的支持：导入通用ID区段，创建自定义区段以跟踪通用ID，以及将第一方区段中的其他用户标识符转换为通用ID以实现无痕定位。
 feature: DSP Audiences
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 56489cd226d4a46fa3b1548492b4a9c6fd7e0528
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1369'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,10 @@ DSP支持基于人员的通用ID，以便跨DSP支持的数字格式进行无coo
 
 * **[!DNL Analytics]报告：** 广告商使用 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) 已实施所有必需步骤的用户可以在以下位置查看按通用ID类型划分的显示到达转换： [!DNL Analytics].
 
+  >[!IMPORTANT]
+  >
+  >要获得正确的转化归因，请确保广告的点进链接URL同时包括 [EF ID和AMO ID](/help/integrations/analytics/ids.md).
+
 * **区段详细信息：** 对于所有区段类型，区段详细信息包括按通用ID类型以及按Cookie或设备ID跟踪的设备类型划分的受众规模。
 
 ## 如何在投放位置中定位通用ID受众
@@ -46,19 +50,25 @@ DSP支持基于人员的通用ID，以便跨DSP支持的数字格式进行无coo
 
 在新的、计划的或暂停的投放位置中，执行以下操作：
 
-* 在 [!UICONTROL Geo-Targeting] 部分，指定要定位的地理区域。 每个通用ID合作伙伴仅允许在特定地理区域中进行用户定位，并且中仅提供符合条件的ID类型 [!UICONTROL Targeting] 设置。
+1. 在 [!UICONTROL Geo-Targeting] 部分，指定要定位的地理区域。 每个通用ID合作伙伴仅允许在特定地理区域中进行用户定位，并且中仅提供符合条件的ID类型 [!UICONTROL Targeting] 设置。
 
-* 在 [!UICONTROL Audience Targeting] 部分，执行以下操作：
+1. 在 [!UICONTROL Audience Targeting] 部分，执行以下操作：
 
-   * 在 [!UICONTROL Included Audiences] 设置，选择用户数据转换为通用ID的区段。
+   1. 在 [!UICONTROL Included Audiences] 设置，选择用户数据转换为通用ID的区段。
 
-     您可以根据需要包含其他区段。
+      您可以根据需要包含其他区段。
 
-   * 在 [!UICONTROL Targeting] 设置，选择要定位的通用ID类型。
+   1. 在 [!UICONTROL Targeting] 设置：
 
-     该设置包括选项»[!UICONTROL Legacy IDs]”和“[!UICONTROL Universal ID]，其中可能包含子选项“[!UICONTROL ID5]，&quot; &quot;[!UICONTROL RampID]，”和“[!UICONTROL Unified ID2.0]“ 实际子选项由所选地理目标确定。
+      1. 选择要定位的通用ID类型。
 
-     您可以选择两者[!UICONTROL Legacy IDs]”和“[!UICONTROL Universal ID]，”，但您只能为每个投放位置选择一种类型的通用ID。 当您同时选择旧版ID和通用ID时，会为通用ID提供竞价偏好设置。
+         该设置包括选项»[!UICONTROL Legacy IDs]”和“[!UICONTROL Universal ID]，其中可能包含子选项“[!UICONTROL ID5]，&quot; &quot;[!UICONTROL RampID]，”和“[!UICONTROL Unified ID2.0]“ 实际子选项由所选地理目标确定。
+
+         您可以选择两者[!UICONTROL Legacy IDs]”和“[!UICONTROL Universal ID]，”，但您只能为每个投放位置选择一种类型的通用ID。 当您同时选择旧版ID和通用ID时，会为通用ID提供竞价偏好设置。
+
+      1. （如有必要）接受使用通用ID的服务协议条款。
+
+         在将数据转换为新的ID类型之前，DSP帐户中的用户必须接受服务协议条款。 对于每个ID类型、每个帐户，这些条款只能接受一次。
 
 请参阅&quot;[投放设置](/help/dsp/campaign-management/placements/placement-settings.md)“
 
@@ -75,6 +85,8 @@ DSP支持基于人员的通用ID，以便跨DSP支持的数字格式进行无coo
 * 复制原始包和投放位置，根据测试的大小调整预算，更改要使用的受众 [!DNL RampID]基于的区段（适用于经过身份验证的用户）或基于ID5的区段（适用于未经身份验证的用户），并验证新资源包和投放位置是否花费了其全部预算。
 
    * 要将基于ID的通用区段的效果与定位其他受众标识符（如Cookie或移动广告ID）的投放效果进行比较，请创建一个活动，其中包含一个单独的基于ID的通用投放和基于ID的旧版投放。
+
+     要进行完整的重定位测试，请同时定位经过身份验证的用户的RampID和未经身份验证的用户的ID5。
 
      获得最佳性能不应作为主要比较。 相反，请确定哪些ID正在很好地缩放，这可能会稍后通知您的优化和预算分配。 长期目标是弥补在Cookie被弃用时损失的展示次数和网站流量。
 
@@ -97,6 +109,20 @@ DSP支持基于人员的通用ID，以便跨DSP支持的数字格式进行无coo
 * A [!DNL RampID] 可以升级到新值。 如果 [!DNL LiveRamp] 无法识别电子邮件ID或无法将其映射到现有的电子邮件ID [!DNL RampID] 在其数据库中，它分配一个新的 [!DNL RampID] 到电子邮件ID。 将来，他们何时可以将电子邮件ID映射到另一个 [!DNL RampID] 或者可以收集有关同一电子邮件ID的更多信息，则会升级 [!DNL RampID] 转换为新值。 [!DNL LiveRamp] 将此操作称为从“派生”升级 [!DNL RampID] 到“维护的” [!DNL RampID]. 但是，DSP不会获得派生与维护之间的映射 [!DNL RampIDs] 因此，无法从DSP区段中移除先前版本的RampID。 在这种情况下，区段计数可以大于用户档案计数。
 
   示例：用户登录到 [!DNL Adobe] 并访问Photoshop页面。 如果 [!DNL LiveRamp] 没有任何关于电子邮件ID的现有信息，则他们会将其分配给派生 [!DNL RampID]例如D123。 15天后，用户访问同一页面，但 [!DNL LiveRamp] 已升级 [!DNL RampID] 于该15天内，并已重新 [!DNL RampID] 到M123。 即使客户数据平台的“Photoshop发烧友”区段仅有一个用户的电子邮件ID，DSP区段仍具有两个RampID：D123和M123。
+
+## 故障排除
+
+如果您没有看到用户数，或者您的受众规模较低，请检查以下各项：
+
+* 如果您使用 [!DNL Flashtalking] 或 [!DNL Google Campaign Manager 360] 然后，确保广告的点进URL已附加正确的宏。 查看宏 [[!DNL Flashtalking] 广告](/help/integrations/analytics/macros-flashtalking.md) 和 [[!DNL Google Campaign Manager 360] 广告](/help/integrations/analytics/macros-google-campaign-manager.md).
+
+* 确保在您的网站上实施正确的、通用的ID合作伙伴特定代码，以匹配网站上的事件和广告曝光。 使用您的 [!DNL LiveRamp] 或 [!DNL ID5] 代表性。
+
+* (用于 [!DNL RampIDs] 和 [!DNL UID 2.0] ID)确保您的 [DSP数据源配置正确](/help/dsp/audiences/sources/source-settings.md)，并为生成的受众区段填充用户计数。
+
+* 如果您的覆盖范围小于预期，请检查受众区段逻辑是否不够细化。
+
+如果您无法解决问题，请联系您的Adobe客户团队。
 
 >[!MORELIKETHIS]
 >

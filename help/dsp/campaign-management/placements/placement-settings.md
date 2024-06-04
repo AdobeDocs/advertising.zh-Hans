@@ -3,9 +3,9 @@ title: 投放设置
 description: 请参阅可用版面设置的说明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '3535'
+source-wordcount: '3789'
 ht-degree: 0%
 
 ---
@@ -311,11 +311,25 @@ ht-degree: 0%
 
 * 要创建受众，请单击 ![选择](/help/dsp/assets/chevron-down.png) 旁边 [!UICONTROL Excluded Audiences]，然后选择 **+创建受众**. 有关说明，请参阅 [创建可重复使用的受众](/help/dsp/audiences/reusable-audience-create.md)，从步骤3开始。
 
-* 要选择特定的受众区段，请单击 **[!UICONTROL Select segments for this placement only]**. 选择区段逻辑；有关说明，请参阅&quot;[创建可重复使用的受众](/help/dsp/audiences/reusable-audience-create.md)“ 完成后，单击 **保存**.
+**[!UICONTROL Targeting]：** 要定位的用户ID的类型。 在投放开始后（即，在投放开始后），无法更改此设置。
 
-**[!UICONTROL Cross Device Targeting]：** (当您至少选择一个区段或受众并且 [营销活动配置为基于人员的跨设备定位](/help/dsp/campaign-management/campaigns/campaign-settings.md). 允许您将定位扩展到用户的所有已知设备（根据促销活动设置中指定的设备图），甚至扩展到不在指定区段中的设备。 根据为营销活动指定的图表，可能会收取相关费用。 设备图数据仅在北美地区可用。
+当您同时选择旧版ID和通用ID时，会为通用ID提供竞价偏好设置。
 
-**[!UICONTROL Placement Cap]：** （可选）独特设备或人员的次数(取决于指定的 [!UICONTROL Cross Device Level] （对于营销活动）从投放位置提供广告。 选项包括 *[!UICONTROL Unlimited]* 或每天、每周或每月的特定金额。
+* *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*：（默认）根据用户的Cookie、移动广告ID或连接的电视(CTV) ID定位用户。 根据浏览器、应用程序内或CTV清单选择ID。
+
+* *[!UICONTROL Universal ID Beta]*：定位注重隐私的用户ID；选择一种ID类型。 可用的选项由以下区域中所选的地理目标决定： [!UICONTROL Geo-Targeting] 部分。 使用和 [[!DNL RampID] 直接导入到DSP的区段](/help/dsp/audiences/sources/source-import-liveramp-segments.md)， [DSP将PII转换为通用ID的区段](/help/dsp/audiences/sources/source-about.md)，或 [跟踪通用ID的自定义区段](/help/dsp/audiences/custom-segment-create.md).
+
+   * *[!UICONTROL ID5]*：目标 [!DNL ID5] 根据电子邮件地址和其他信号概率创建的ID。<!-- What countries/geos are these available for? Everywhere?--> ID5 ID免费提供。 **注意：** 来自的第三方区段 [!DNL Eyeota] 可能包括ID5 ID。
+
+   * *[!UICONTROL RampID]*：目标 [!DNL LiveRamp] [!DNL RampIDs] ，即使用他们的电子邮件地址登录到您网站的用户的数量。<!-- Verify --> [!DNL RampIDs] 适用于北美、澳大利亚和新西兰的用户。
+
+   * *[!UICONTROL Unified ID2.0]*：目标 [!DNL Unified ID2.0] (UID2)使用用户的电子邮件地址登录到您的网站的ID。<!-- Verify -->[!DNL UID2 IDs] 不适用于欧洲经济区和其他一些国家的用户。 请参阅 [被禁止的国家/地区列表](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+
+  **[!UICONTROL Terms of service]**：使用通用ID的服务协议条款。 您或DSP帐户中的其他用户必须接受一次这些条款，然后才能将数据转换为新的ID类型。 对于签订托管服务合同的客户，您的Adobe客户团队将代表贵组织获得您的同意并接受相关条款。 要阅读术语，请单击 **>**. 要接受条款，请滚动到条款的底部并单击 **[!UICONTROL Accept]**.
+
+**[!UICONTROL Cross Device Targeting]：** (在以下情况下可用： [营销活动配置为基于人员的跨设备定位](/help/dsp/campaign-management/campaigns/campaign-settings.md)，则只需定位旧版ID（而非通用ID），并且至少选择一个区段或受众。 允许您将定位扩展到用户的所有已知设备（根据促销活动设置中指定的设备图），甚至扩展到不在指定区段中的设备。 根据为营销活动指定的图表，可能会收取相关费用。 设备图数据仅在北美地区可用。
+
+**[!UICONTROL Placement Cap]：** （可选）独特设备、通用ID或人员(取决于指定的 [!UICONTROL Cross Device Level] 促销活动和投放位置的 [!UICONTROL Targeting] 设置)可以从投放位置提供广告。 选项包括 *[!UICONTROL Unlimited]* 或每天、每周或每月的特定金额。
 
 >[!NOTE]
 >
