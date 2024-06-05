@@ -2,9 +2,9 @@
 title: 高级测量解决方案
 description: 请参阅高级测量的可用解决方案列表。
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 06275b37fd5e9449cbf80bcff4f55aaaa8a99b55
+source-git-commit: 226b9a78b00f547da840c27663241f91dfca92d3
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -27,12 +27,24 @@ ht-degree: 0%
 
   了解整个促销活动在家庭层面的影响范围，以及各个屏幕的作用。 报告选项包括：
 
+   * 跨ID家庭访问次数、频率和转化（无标识）
+
+      * 通过无痕迹的ID类型(RampID、ID5)跨多个环境(包括联网电视(CTV)和数字（台式机、移动设备、原生和音频）)量化家庭级别的独特/增量访问范围、重叠和转化。
+
+      * 证明测试无Cookie ID在查找相对于基于Cookie的区段的增量范围方面的有效性。
+
    * 平均转化时间
+
    * 频率到转换
-   * “Connected TV (CTV)(连接电视(CTV))”报告
+
+   * CTV报告
+
    * CTV应用程序增量功能
+
    * 跨屏幕报告（数字和电视）
+
    * Cross-Screen Plus报告（数字、CTV和TV）
+
    * 数字区段内访问范围和频率
 
 * **基于人员的触及率和转化率**
@@ -42,6 +54,11 @@ ht-degree: 0%
    * **跨ID基于人员的范围**
 
      量化Cookie与RampID之间的唯一访问范围和重叠，以及按ID类型划分的每指标成本。 证明测试RampID在查找多个数字环境（例如台式机、移动设备、本机以及音频）中相对于Cookie的区段的增量范围方面的有效性。
+
+* **Halo对搜索报表的影响**
+
+  量化CTV和数字广告曝光对CTV应用程序、搜索关键词、搜索引擎以及自定义受众和策略级别家庭级搜索点击次数、搜索转化次数和ROAS提升的影响。
+
 
 * **[!DNL Dynata]基于面板的调查**
 
