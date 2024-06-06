@@ -3,7 +3,7 @@ title: 支持激活通用ID
 description: 了解在以下支持方面的支持：导入通用ID区段，创建自定义区段以跟踪通用ID，以及将第一方区段中的其他用户标识符转换为通用ID以实现无痕定位。
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 0%
@@ -118,7 +118,7 @@ DSP支持基于人员的通用ID，以便跨DSP支持的数字格式进行无coo
 
 * 确保在您的网站上实施正确的、通用的ID合作伙伴特定代码，以匹配网站上的事件和广告曝光。 使用您的 [!DNL LiveRamp] 或 [!DNL ID5] 代表性。
 
-* (用于 [!DNL RampIDs] 和 [!DNL UID 2.0] ID)确保您的 [DSP数据源配置正确](/help/dsp/audiences/sources/source-settings.md)，并为生成的受众区段填充用户计数。
+* (用于 [!DNL RampIDs] 和 [!DNL UID 2.0] ID)确保您的 [DSP数据源配置正确](/help/dsp/audiences/sources/source-manage.md#source-settings)，并为生成的受众区段填充用户计数。
 
 * 如果您的覆盖范围小于预期，请检查受众区段逻辑是否不够细化。
 

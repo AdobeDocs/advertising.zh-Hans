@@ -3,7 +3,7 @@ title: 管理受众源以激活通用ID受众
 description: 了解如何创建和管理源以从客户数据平台导入受众，并将它们转换为包含通用ID的区段。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -44,7 +44,7 @@ You can create one source for each combination of universal ID partner and data 
 
 1. 指定 [!UICONTROL Data Visibility Level]： *[!UICONTROL Advertiser]* 或 *[!UICONTROL Account]*.
 
-1. 输入其余的 [源设置](source-settings.md).
+1. 输入其余的 [源设置](#source-settings).
 
    保留 [!UICONTROL Source Key] 即会生成。 稍后您需要该值。
 
@@ -69,7 +69,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. 将光标悬停在源行上并单击 **[!UICONTROL Edit]**.
 
-1. 更改 [为源选择的ID](source-settings.md).
+1. 更改 [为源选择的ID](#source-settings).
 
 1. 单击 **[!UICONTROL Save]**.
 
@@ -101,7 +101,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. （可选）要在更大的详细信息屏幕中打开日志，请将光标悬停在源行上，然后单击 **[!UICONTROL View Details]**.
 
-## 受众源设置
+## 受众源设置 {#source-settings}
 
 **[!UICONTROL Data Visibility Level]：** 区段是否可供具有帐户访问权限的单个广告商使用(*[!UICONTROL Advertiser]*)，或所有有权访问该帐户的广告商 *[!UICONTROL Account]*.
 
