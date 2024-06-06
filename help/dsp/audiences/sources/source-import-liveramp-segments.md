@@ -3,9 +3,9 @@ title: 从手动导入经过身份验证的区段 [!DNL LiveRamp]
 description: 了解如何通过激活经过身份验证的受众 [!DNL LiveRamp].
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: f10a0bd487d641bd150d9ecbefe907b2bf25e5a7
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于第一方受众源](source-about.md)
->* [创建受众源以激活通用ID受众](source-create.md)
+>* [管理受众源以激活通用ID受众](source-manage.md)
 >* [受众源设置](source-settings.md)
 >* [Adobe Advertising DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [关于受众管理](/help/dsp/audiences/audience-about.md)

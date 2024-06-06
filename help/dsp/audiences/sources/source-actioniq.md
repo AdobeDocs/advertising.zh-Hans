@@ -2,9 +2,9 @@
 title: “转换用户ID [!DNL ActionIQ] 到通用ID”
 description: “了解如何使DSP能够摄取 [!DNL ActionIQ] 第一方客户细分。”
 feature: DSP Audiences
-source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于第一方受众源](/help/dsp/audiences/sources/source-about.md)
->* [创建受众源以激活通用ID受众](source-create.md)
+>* [管理受众源以激活通用ID受众](source-manage.md)
 >* [受众源设置](source-settings.md)
 >* [转换用户ID [!DNL Adobe Real-Time CDP] 到通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [转换用户ID [!DNL Tealium] 到通用ID](/help/dsp/audiences/sources/source-tealium.md)
