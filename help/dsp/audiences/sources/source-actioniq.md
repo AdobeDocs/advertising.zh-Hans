@@ -2,7 +2,7 @@
 title: “转换用户ID [!DNL ActionIQ] 到通用ID”
 description: “了解如何使DSP能够摄取 [!DNL ActionIQ] 第一方客户细分。”
 feature: DSP Audiences
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: 729098f01fb9d076efb2b945be4011df9ab1c905
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 步骤1：在DSP中创建受众源 {#source-create}
 
-1. [创建受众源](source-create.md) 要将受众导入您的DSP帐户或广告商帐户，请指定 [通用ID](source-about.md) 要将用户标识符转换为的用户标识符。
+1. [创建受众源](source-manage.md) 要将受众导入您的DSP帐户或广告商帐户，请指定 [通用ID](source-about.md) 要将用户标识符转换为的用户标识符。
 
 1. 创建受众源后，请使用以下对象共享源代码密钥 [!DNL ActionIQ] 用户。
 

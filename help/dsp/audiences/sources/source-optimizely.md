@@ -2,7 +2,7 @@
 title: 转换用户ID [!DNL Optimizely] 到通用ID
 description: 了解如何启用DSP以摄取 [!DNL Optimizely] 第一方区段。
 feature: DSP Audiences
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: 729098f01fb9d076efb2b945be4011df9ab1c905
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 步骤2：在DSP中创建受众源 {#source-create}
 
-1. [创建受众源](source-create.md) 将受众导入您的DSP帐户或广告商帐户。 您可以选择将用户标识符转换为 [可用的通用ID格式](source-about.md).
+1. [创建受众源](source-manage.md) 将受众导入您的DSP帐户或广告商帐户。 您可以选择将用户标识符转换为 [可用的通用ID格式](source-about.md).
 
    源设置将包括自动生成的源密钥，您将使用该密钥来推送区段数据。
 
