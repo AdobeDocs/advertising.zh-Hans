@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: 048752e0f9a5d95c22bd9acb4b70034b5f833494
 workflow-type: tm+mt
-source-wordcount: '2915'
+source-wordcount: '2973'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年6月5日 | 版面 | 您现在可以使用电子表格一次性管理多个投放位置的竞价乘数。 | 请参阅&quot;[管理投放位置的竞价乘数](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)“ |
+|  | 受众源 | 您现在可以更改源受众所翻译成的通用ID类型，并查看更改日志。 | 请参阅&quot;[管理受众源以激活通用ID受众](/help/dsp/audiences/sources/source-manage.md)“ |
 | 2024年5月22日 | 优化，连接的电视广告 | 在具有“最低CPA”和“最高ROAS”优化目标的包中，连接电视广告的性能模型现在使用转化路径中多个接触点的数据，以实现更快和更强大的机器学习。 现有包已升级为使用多点触控优化，无需执行任何操作。 | — |
 | 2024年5月20日 | 已连接的电视广告、像素、重新定位区段 | （开放Beta版；仅在美国和AUS提供）您现在可以使用其他广告重新定位接触到连接电视促销活动的受众区段，以增强跨渠道广告：<ol><li>设置广告展示区段，并将展示跟踪标记复制到所需的已连接电视投放或广告以开始跟踪该区段。</li><li>在重新定位位置中，选择 [!UICONTROL Audience Targeting] 部分。</li></ol> | 请参阅&quot;[创建和实施自定义区段](/help/dsp/audiences/custom-segment-create.md)”和“[投放设置](/help/dsp/campaign-management/placements/placement-settings.md)“ |
 | 2024年5月2日 | 广告，像素 | 您可以下载XLSX（Excel电子表格）格式促销活动中所有广告的广告设置和版面关联，以供审阅 [!UICONTROL Ad Tools] 视图。 | 请参阅&quot;[使用电子表格查看广告详细信息](/help/dsp/campaign-management/ads/ad-qa.md)“ |
