@@ -3,9 +3,9 @@ title: ’[!DNL Microsoft Advertising] 营销活动设置
 description: 引用设置 [!DNL Microsoft Advertising] 营销活动。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 0f128b569f8c005c4f72a0c85ebf59e9fed53320
+source-git-commit: 41feb7c717307bc716236517320bdfe7e98c45ab
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience]：* 在上显示本机/显示广告 [!DNL Microsoft Audience Network]. 您可以a)通过将营销活动关联到中的商家中心商店，自动生成基于信息源的广告 [!UICONTROL Shopping Settings] 或b)使用文本资源和上传的图像创建响应式广告。 这两个选项都需要您创建具有用户定位的广告组。
 
-* *[!UICONTROL Shopping Campaigns for Brands]：* （测试版功能）通过搜索和受众网络中的关联零售商促销您的产品。 您可以为促销活动创建子广告组和产品组（要促销的应用程序）以及可选产品广告； [!DNL Microsoft Advertising] 自动为产品组创建广告。 对于品牌的购物促销活动，请使用竞价策略 [!UICONTROL Manual CPC]；对于品牌的购物促销，请使用竞价策略 [!UICONTROL Cost per Sale].
+* *[!UICONTROL Shopping Campaigns for Brands]：* 通过搜索和受众网络中的关联零售商促销您的产品。 您可以为促销活动创建子广告组和产品组（要促销的应用程序）以及可选产品广告； [!DNL Microsoft Advertising] 自动为产品组创建广告。 对于品牌的购物促销活动，请使用竞价策略 [!UICONTROL Manual CPC]；对于品牌的购物促销，请使用竞价策略 [!UICONTROL Cost per Sale].
 
-* *[!UICONTROL Microsoft Store Ads Campaign]：* （Beta版功能）推广以下网站中提供的应用程序和游戏： [!DNL Microsoft Store]. 您可以为促销活动创建子广告组、产品组和可选产品广告； [!DNL Microsoft Advertising] 自动为产品组创建广告。
+* *[!UICONTROL Microsoft Store Ads Campaign]：* 推广您的应用和游戏，这些应用和游戏可在 [!DNL Microsoft Store]. 您可以为促销活动创建子广告组、产品组和可选产品广告； [!DNL Microsoft Advertising] 自动为产品组创建广告。
 
-* *[!UICONTROL Audience CTV Video]：* （Beta测试版功能）显示受众网络上的已连接电视(CTV)视频广告。
+* *[!UICONTROL Audience CTV Video]：* 在受众网络上显示已连接的电视(CTV)视频广告。
 
-* *[!UICONTROL Audience Video]：* （测试版功能）在受众网络上显示标准视频广告。
+* *[!UICONTROL Audience Video]：* 在受众网络上显示标准视频广告。
 
-* *[!UICONTROL Performance Max]：* （Beta测试版功能）使用 [!DNL Microsoft Advertising] 明智的竞价。 在Campaign设置中，您必须指定一个或多个资产组，包括图像、徽标、标题、描述、可选的行动呼吁和受众信号。 广告网络会自动组合资产，以根据渠道提供广告。
+* *[!UICONTROL Performance Max]：* 使用以下方式显示所有网络中的多种广告类型 [!DNL Microsoft Advertising] 明智的竞价。 在Campaign设置中，您必须指定一个或多个资产组，包括图像、徽标、标题、描述、可选的行动呼吁和受众信号。 广告网络会自动组合资产，以根据渠道提供广告。
 
 ## [!UICONTROL Campaign Details]
 

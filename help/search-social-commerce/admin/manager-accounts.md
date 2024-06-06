@@ -1,22 +1,20 @@
 ---
 title: 管理广告网络管理器帐户的凭据
 description: 了解如何为提供凭据 [!DNL Google Ads] 经理帐户。
-exl-id: bde22f70-12a7-4eef-a141-dafeed9a7dc5
+exl-id: 95866a2e-4695-4b1d-ac23-844d3b9a0a74
 feature: Search Admin
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 4cf04fc7ea22e50b5f56cd278ad9a1aac724edf7
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 1%
+source-wordcount: '324'
+ht-degree: 0%
 
 ---
 
 # 管理广告网络管理器帐户的凭据
 
-*Beta版功能*
-
 *[!DNL Google Ads]仅限帐户*
 
-提供您的凭据 [!DNL Google Ads] 您希望搜索、社交和商务将跨帐户转化上传到的经理帐户。 如果您想要()上传，请使用此功能 [!DNL Adobe]-tracked、跨帐户转化量度 [!DNL Google Ads] 经理帐户或b)将包含跨帐户转换的项目组合目标上传到 [!DNL Google Ads] 进行混合优化。
+提供您的凭据 [!DNL Google Ads] 您希望搜索、社交和Commerce将跨帐户转化上传到的经理帐户。 如果您想要()上传，请使用此功能 [!DNL Adobe]-tracked、跨帐户转化量度 [!DNL Google Ads] 经理帐户或b)将包含跨帐户转换的项目组合目标上传到 [!DNL Google Ads] 进行混合优化。
 
 <!-- [Maybe later: and c) sync conversion value rules for accounts that use cross-account conversion tracking with Google Ads.] -->
 
@@ -34,7 +32,7 @@ ht-degree: 1%
 
    此 **[!UICONTROL Manager Account ID]** 和 **[!UICONTROL Login Email]** 是必需的。 搜索、Social和Commerce会自动捕获和存储用于身份验证的帐户令牌。
 
-   您可以选择包括 **[!UICONTROL MCC Account Name]** 用于在Search、Social、 &amp; Commerce和帐户中标识 **[!UICONTROL Password]**. 输入密码，以便帐户管理员根据需要刷新令牌。
+   您可以选择包括 **[!UICONTROL MCC Account Name]** 用于在Search、Social和Commerce以及帐户中识别 **[!UICONTROL Password]**. 输入密码，以便帐户管理员根据需要刷新令牌。
 
 1. 单击 **[!UICONTROL Authenticate]**.
 
@@ -52,7 +50,7 @@ ht-degree: 1%
 
    此 **[!UICONTROL Manager Account ID]** 和 **登录电子邮件** 是必需的。 搜索、Social和Commerce会自动捕获和存储用于身份验证的帐户令牌。
 
-   您可以选择包括 **[!UICONTROL MCC Account Name]** 用于在Search、Social、 &amp; Commerce和帐户中标识 **[!UICONTROL Password]**. 输入密码，以便帐户管理员根据需要刷新令牌。
+   您可以选择包括 **[!UICONTROL MCC Account Name]** 用于在Search、Social和Commerce以及帐户中识别 **[!UICONTROL Password]**. 输入密码，以便帐户管理员根据需要刷新令牌。
 
 1. 单击 **[!UICONTROL Authenticate]**.
 
