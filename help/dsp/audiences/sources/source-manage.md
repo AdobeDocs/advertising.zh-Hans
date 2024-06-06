@@ -3,7 +3,7 @@ title: 管理受众源以激活通用ID受众
 description: 了解如何创建和管理源以从客户数据平台导入受众，并将它们转换为包含通用ID的区段。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 9411089703ce0b9502c1c2522cce999c3a5fafbf
+source-git-commit: f24aec0588f0298c5a3aa63226bd05bd4fa95f92
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -32,13 +32,13 @@ You can create one source for each combination of universal ID partner and data 
 
 1. 单击 **[!UICONTROL Add Source]**.
 
-1. 在 [!UICONTROL Select a Type] 菜单中，选择您的客户数据平台：
+1. 在 [!UICONTROL Select a Type] 菜单，选择您的 [客户数据平台](source-about.md)：
 
-   * *[!UICONTROL RT-CDP]*： [此 [!DNL Adobe Real-Time Customer Data Platform]](source-about.md).
+   * *[!UICONTROL RT-CDP]*：和 [!DNL Adobe Real-Time Customer Data Platform].
 
-   * *[!UICONTROL ActionIQ]*：和 [[!DNL ActionIQ] 客户数据平台](source-about.md).
+   * *[!UICONTROL ActionIQ]*：和 [!DNL ActionIQ] 客户数据平台。
 
-   * *[!UICONTROL Tealium CDP]*：（仅限已配置的用户）和 [[!DNL Tealium] 客户数据平台](source-about.md).
+   * *[!UICONTROL Tealium CDP]*：（仅限已配置的用户）和 [!DNL Tealium] 客户数据平台。
 
 1. 指定 [!UICONTROL Data Visibility Level]： *[!UICONTROL Advertiser]* 或 *[!UICONTROL Account]*.
 
