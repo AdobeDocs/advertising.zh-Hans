@@ -3,7 +3,7 @@ title: 查看帐户的发布者推荐日志
 description: 了解如何查看应用于的每个推荐的日志 [!DNL Google Ads] 或 [!DNL Microsoft Advertising] 帐户。
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-source-git-commit: 2e1544658804afb298bf2c1a46f197d36ef6854e
+source-git-commit: d12b4905218b7c1057e7987f1a49a8691557455d
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 查看帐户的发布者推荐
 
-*[!DNL Google Ads]和 [!DNL Microsoft® Advertising] 帐户*
+*[!DNL Google Ads]和 [!DNL Microsoft Advertising] 帐户*
 
-*的Beta版功能 [!DNL Microsoft® Advertising] 帐户*
+*的Beta版功能 [!DNL Microsoft Advertising] 帐户*
 
 您可以查看已应用的每个推荐的日志 [!DNL Google Ads] 或 [!DNL Microsoft Advertising] 帐户。 该信息包括推荐类别、推荐类型、受影响的实体、应用推荐的用户和时间戳。
 

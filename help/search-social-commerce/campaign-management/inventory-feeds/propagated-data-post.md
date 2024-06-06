@@ -3,7 +3,7 @@ title: 从馈送生成的将营销活动数据发布到广告网络
 description: 了解如何将清单数据馈送生成的数据发布到广告网络。
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: c27665b979ad8e37fd4f92385bb7339af4354d5f
+source-git-commit: 2cf15dbab3dc00ec88a41e4f7d8b5b3646b843e8
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 从馈送生成的将营销活动数据发布到广告网络
 
-*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads] （仅删除操作），以及 [!DNL Yandex] 仅限帐户*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads] （仅删除操作），以及 [!DNL Yandex] 仅限帐户*
 
 您可以在通过相关模板传播数据时发布从信息源生成的营销活动数据，也可以将其作为单独的流程进行传播。 发布数据后，任何现有的传播数据都会从 [!UICONTROL Campaigns]， [!UICONTROL Ad Groups]， [!UICONTROL Keywords]、和 [!UICONTROL Ads] 列表。
 

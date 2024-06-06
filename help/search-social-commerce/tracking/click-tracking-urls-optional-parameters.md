@@ -3,7 +3,7 @@ title: 点击跟踪URL的可选跟踪参数
 description: 了解可添加到点击跟踪URL的可选搜索、社交和Commerce跟踪参数以及特定于广告网络的跟踪参数。
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: f633f2af545f034b08b378653b4b967710402a03
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 | <code>{custom_code}</code> | 将上传批量工作表文件中“自定义URL参数”列的数据插入跟踪URL。 {custom_code} 只能在跟踪URL中的一个或多个键值对的值末尾使用。 示例：  <code>a={custom_code}</code>； <code>a={ef_campaignid}{custom_code}</code>； <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>注意：</b> 要将批量处理工作表文件中的自定义值插入到跟踪URL中，请使用“生成跟踪URL”选项上载批量处理工作表文件。 有关使用批量处理工作表文件的更多信息，请参阅“[关于使用批量处理工作表管理营销活动数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)“ |
 | <code>{ef_uniqueid}</code> | 插入由Adobe Advertising创建的唯一ID。 当跟踪方法为“EF重定向”时自动添加。 |
 | <code>{ef_userid}</code> | 插入Adobe Advertising分配给广告商的唯一用户ID。 |
-| <code>{ef_sid}</code> | 要插入Search、Social &amp; Commerce分配给广告网络的数字ID，请执行以下操作： <i>[!UICONTROL 3]</i> 对象 [!DNL Google Ads]， <i>[!UICONTROL 10]</i> 对象 [!DNL Microsoft® Advertising]， <i>[!UICONTROL 45]</i> 对象 [!DNL Meta]， <i>[!UICONTROL 86]</i> 对象 [!DNL Yahoo! Display Network]， <i>[!UICONTROL 87]</i> 对象 [!DNL Naver]， <i>[!UICONTROL 88]</i> 对象 [!DNL Baidu]， <i>[!UICONTROL 90]</i> 对象 [!DNL Yandex]， <i>[!UICONTROL 94]</i> 对象 [!DNL Yahoo! Japan Ads]， <i>[!UICONTROL 105]</i> 对象 [!DNL Yahoo Native] （已弃用），或 <i>[!UICONTROL 106]</i> 对象 [!DNL Pinterest] （已弃用）。 |
+| <code>{ef_sid}</code> | 要插入Search、Social &amp; Commerce分配给广告网络的数字ID，请执行以下操作： <i>[!UICONTROL 3]</i> 对象 [!DNL Google Ads]， <i>[!UICONTROL 10]</i> 对象 [!DNL Microsoft Advertising]， <i>[!UICONTROL 45]</i> 对象 [!DNL Meta]， <i>[!UICONTROL 86]</i> 对象 [!DNL Yahoo! Display Network]， <i>[!UICONTROL 87]</i> 对象 [!DNL Naver]， <i>[!UICONTROL 88]</i> 对象 [!DNL Baidu]， <i>[!UICONTROL 90]</i> 对象 [!DNL Yandex]， <i>[!UICONTROL 94]</i> 对象 [!DNL Yahoo! Japan Ads]， <i>[!UICONTROL 105]</i> 对象 [!DNL Yahoo Native] （已弃用），或 <i>[!UICONTROL 106]</i> 对象 [!DNL Pinterest] （已弃用）。 |
 | <code>{ef_searchengine}</code> | 插入广告网络名称。 |
 | <code>{ef_campaign}</code> | 插入促销活动名称。 |
 | <code>{ef_campaignid}</code> | 插入促销活动ID。 <b>注意：</b> 只有在营销活动发布到广告网络后，才会创建新营销活动ID。 如果帐户使用&quot;[!UICONTROL EF Redirect]”和“自动上传”选项，然后Adobe Advertising会在第二天自动将促销活动ID插入到相关的目标URL或最终URL中。 如果帐户不使用&quot;[!UICONTROL EF Redirect]”和 [!UICONTROL Auto Upload]选项，并且要将促销活动ID插入到相关的目标URL或最终URL，则必须创建促销活动；使用“生成跟踪URL”选项下载新促销活动的批量工作表文件；然后将文件发布到广告网络。 |
