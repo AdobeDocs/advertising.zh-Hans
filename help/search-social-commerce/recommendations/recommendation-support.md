@@ -3,9 +3,9 @@ title: 关于发布者推荐和见解支持
 description: 了解对查看和管理发布者推荐和见解的支持。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # 关于发布者推荐和见解支持
 
 *[!DNL Google Ads]和 [!DNL Microsoft Advertising] 帐户*
-
-*的Beta版功能 [!DNL Microsoft Advertising] 帐户*
 
 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 建议和见解是广告网络中的建议，有助于提高营销活动的性能和效率：
 

@@ -3,9 +3,9 @@ title: 应用或取消发布者推荐
 description: 了解如何查看、应用或取消发布者推荐。
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: bd0c158ca27258fa7600553462bf4fedbabc9089
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # 应用或取消发布者推荐
 
 *[!DNL Google Ads]和 [!DNL Microsoft Advertising] 帐户*
-
-*的Beta版功能 [!DNL Microsoft Advertising] 帐户*
 
 查看推荐的操作，以及说明这些操作对发布者推荐有利的原因。 然后，您可以在推荐与业务目标一致时应用推荐，并在推荐与业务目标不一致时驳回推荐。
 

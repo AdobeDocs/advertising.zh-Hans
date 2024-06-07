@@ -3,9 +3,9 @@ title: 关于 [!UICONTROL Asset Library]
 description: 了解广告资源的资源库。
 feature: Search Campaign Management
 exl-id: b1484114-21cb-4aba-9f23-d9d8ce0559dd
-source-git-commit: 61eccefe29d38f925a6b0d2fc2de9af73b014c74
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 <!-- Combine with "Create" page into one page once you can do more than just create/upload. Or still combine them and rename this page; you can't really "manage" assets here, just create/upload and see a list of assets you've previously uploaded (including a preview), but not edit existing uploaded assets or anything on the ad network. -->
 
 *对象 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 仅限帐户*
-
-*开放Beta版功能*
 
 在 [!UICONTROL Campaigns] > [!UICONTROL Asset Library]，您可以创建可重复使用的图像、视频和(用于 [!DNL Google Ads] 仅限)文本资源并将它们上传到 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 帐户级别的资产库。
 
