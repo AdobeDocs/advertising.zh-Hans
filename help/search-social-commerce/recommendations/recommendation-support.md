@@ -3,9 +3,9 @@ title: 关于发布者推荐和见解支持
 description: 了解对查看和管理发布者推荐和见解的支持。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: d5f9bdf69bb68f302bc40d94413397ccd13357cc
+source-git-commit: 73cc45da72a48b844b4baa426331822b4e857245
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -42,18 +42,6 @@ ht-degree: 0%
 
 ## 支持的推荐类型 [!DNL Google Ads]
 
-<!--
-
--- Add to "Bidding and budget" section of table
-
-| | [!UICONTROL Forecasting set Target CPA] | Set a target CPA for campaigns without one before a seasonal event that's forecasted to increase traffic |
-
-| | [!UICONTROL Set Target CPA] | Set a target CPA for campaigns without one |
-
-| | [!UICONTROL Set ROAS Target] | Set a target ROAS for campaigns without one |
-
--->
-
 | 推荐类别 | 推荐类型 | 描述 |
 | --- | --- | --- |
 | [!UICONTROL Ads and extensions] (现在称为&quot;[!DNL Ads and assets]中的&quot; [!DNL Google Ads]) | [!UICONTROL Call extension] | 向营销活动添加呼叫分机 |
@@ -74,6 +62,7 @@ ht-degree: 0%
 | [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | 当前受预算限制的营销活动的建议预算 |
 | | [!UICONTROL Enhanced CPC opt in] | 竞价 [!UICONTROL Enhanced CPC] |
 | | [!UICONTROL Forecasting campaign budget] | 预计未来受预算限制的营销活动的建议预算 |
+| | [!UICONTROL Forecasting set Target CPA] | 在预测增加流量的季节性事件之前，为没有目标CPA的营销活动设置目标CPA |
 | | [!UICONTROL Forecasting set Target ROAS] | 在季节性事件（预计将增加流量）之前提高预算，并将竞价策略从 [!UICONTROL Maximize Conversion Value] 到 [!UICONTROL Target ROAS] |
 | | [!UICONTROL Marginal ROI campaign budget] | 调整营销活动预算以提高ROI |
 | | [!UICONTROL Maximize clicks opt in] | 更改为 [!UICONTROL Maximize Clicks] 竞价策略 |
@@ -81,6 +70,8 @@ ht-degree: 0%
 | | [!UICONTROL Maximize conversions opt in] | 更改为 [!UICONTROL Maximize Conversions] 竞价策略 |
 | | [!UICONTROL Move unused budget] | 将未使用的预算移至受限的预算 |
 | | [!UICONTROL Raise Target CPA bid too low] | 提高 [!UICONTROL Target CPA] 推荐的量，当它太低并且转化次数很少或没有转化时 |
+| | [!UICONTROL Set Target CPA] | 为没有计划的营销活动设置目标CPA |
+| | [!UICONTROL Set Target ROAS] | 为没有目标的营销活动设置目标ROAS |
 | | [!UICONTROL Target CPA opt in] | 更改为 [!UICONTROL Target CPA] 竞价策略 |
 | | [!UICONTROL Target CPA raising] | 提高 [!UICONTROL Target CPA] 基于 [!DNL Google Ads] 根据过去的转化计算得出的预测 |
 | | [!UICONTROL Target ROAS lowering] | 降低 [!UICONTROL Target ROAS] 基于 [!DNL Google Ads] 根据过去的转化计算得出的预测 |
