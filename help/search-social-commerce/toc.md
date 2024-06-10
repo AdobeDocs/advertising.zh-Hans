@@ -4,9 +4,9 @@ user-guide-title: 广告搜索、社交和商业指南
 user-guide-description: 本指南阐述管理、跟踪和报告搜索、社交和商业广告营销活动所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: 广告搜索、社交和商业指南
 index: true
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1694'
 ht-degree: 2%
 
 ---
@@ -106,8 +106,8 @@ ht-degree: 2%
       + [关于Search、Social和Commerce中的促销活动管理](/help/search-social-commerce/campaign-management/introduction/campaign-management-about.md)
       + [实施广告网络帐户和营销活动概述](/help/search-social-commerce/campaign-management/introduction/campaign-implemention-overview.md)
       + [监控和管理广告网络营销活动的效果](/help/search-social-commerce/campaign-management/introduction/monitor-performance-campaigns.md)
-      + [[!DNL Google Ads] 搜索、社交和商务中的转化数据](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
-      + [[!DNL Microsoft Advertising] 搜索、社交和商务中的转化数据](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md)
+      + [[!DNL Google Ads] 搜索、社交和Commerce中的转化数据](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+      + [[!DNL Microsoft Advertising] 搜索、社交和Commerce中的转化数据](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md)
    + 设置帐户 {#campaign-management-accounts}
       + 广告网络帐户 {#ad-network-accounts}
          + [关于广告网络帐户](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
@@ -249,9 +249,7 @@ ht-degree: 2%
       + [从帐户组件中删除标签分类值](/help/search-social-commerce/campaign-management/label-classifications/classification-values-remove.md)
       + [删除标签分类值](/help/search-social-commerce/campaign-management/label-classifications/classification-values-delete.md)
       + [删除标签分类](/help/search-social-commerce/campaign-management/label-classifications/classification-delete.md)
-   + 管理广告资源 {#assets}
-      + [关于 [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
-      + [创建和上传资源](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
+   + [查看和创建广告资源](/help/search-social-commerce/campaign-management/asset-view-create.md)
    + 搜索营销活动的最佳实践 {#best-practices-search}
       + [分析报告以优化您的关键词和促销活动设置](/help/search-social-commerce/campaign-management/best-practices/best-practices-analyze.md)
       + [编写有效的文本和副本](/help/search-social-commerce/campaign-management/best-practices/best-practices-write.md)
