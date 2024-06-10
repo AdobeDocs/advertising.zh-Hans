@@ -3,9 +3,9 @@ title: 关于发布者推荐和见解支持
 description: 了解对查看和管理发布者推荐和见解的支持。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d5f9bdf69bb68f302bc40d94413397ccd13357cc
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -42,35 +42,49 @@ ht-degree: 0%
 
 ## 支持的推荐类型 [!DNL Google Ads]
 
+<!--
+
+-- Add to "Bidding and budget" section of table
+
+| | [!UICONTROL Forecasting set Target CPA] | Set a target CPA for campaigns without one before a seasonal event that's forecasted to increase traffic |
+
+| | [!UICONTROL Set Target CPA] | Set a target CPA for campaigns without one |
+
+| | [!UICONTROL Set ROAS Target] | Set a target ROAS for campaigns without one |
+
+-->
+
 | 推荐类别 | 推荐类型 | 描述 |
 | --- | --- | --- |
 | [!UICONTROL Ads and extensions] (现在称为&quot;[!DNL Ads and assets]中的&quot; [!DNL Google Ads]) | [!UICONTROL Call extension] | 向营销活动添加呼叫分机 |
 | | [!UICONTROL Callout extension] | 向营销活动添加标注扩展 |
 | | [!UICONTROL Optimize ad rotation] | 使用优化的广告轮换 |
-| | [!UICONTROL Responsive search ad] | 添加新的响应式搜索广告 |
+| | [!UICONTROL Responsive search ad] | 添加新响应式搜索广告 |
 | | [!UICONTROL Responsive search ad asset] | 将响应式搜索广告资产添加到广告 |
 | | [!UICONTROL Responsive search improve ad strength] | 改进响应式搜索广告广告强度的建议 |
 | | [!UICONTROL Sitelink extension] | 向营销活动添加站点链接扩展 |
-| | [!UICONTROL Text ad] | 添加广告建议 |
-| [!UICONTROL Automated campaigns] | [!UICONTROL DSA to performance max migration] | 将动态搜索广告迁移到效果最佳的营销活动。 |
-| | [!UICONTROL Dynamic image extension opt in] | 为帐户启用动态图像扩展，它允许 [!DNL Google Ads] 机器学习，自动将广告登陆页面中最相关的图像附加到广告。 |
-| | [!UICONTROL Improve performance max ad strength] | 提高效果最佳营销活动的资产组强度，使其获得“优秀”评级。 |
-| | [!UICONTROL Performance max opt in] | 选择加入效果最佳的营销活动。 |
+| | [!UICONTROL Text ad] | 添加新文本广告 |
+| [!UICONTROL Automated campaigns] | [!UICONTROL DSA to performance max migration] | 将动态搜索广告迁移到效果最佳的营销活动 |
+| | [!UICONTROL Dynamic image extension opt in] | 为帐户启用动态图像扩展，它允许 [!DNL Google Ads] 机器学习自动将广告登陆页面中最相关的图像附加到广告 |
+| | [!UICONTROL Improve performance max ad strength] | 将效果最佳营销活动的资产组强度提高至“优秀”评级 |
+| | [!UICONTROL Performance max final URL opt in] | 为您的效果最佳的营销活动打开最终URL扩展 |
+| | [!UICONTROL Performance max opt in] | 选择加入效果最佳的营销活动 |
 | | [!UICONTROL Upgrade local campaign to performance max] | 将旧版本地营销活动升级到最高性能的营销活动 |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | 将旧版智能购物营销活动升级到最高性能的营销活动 |
-| [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | 修复受预算限制的营销活动 |
+| [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | 当前受预算限制的营销活动的建议预算 |
 | | [!UICONTROL Enhanced CPC opt in] | 竞价 [!UICONTROL Enhanced CPC] |
-| | [!UICONTROL Forecasting campaign budget] | 修复预计将来受预算限制的营销活动 |
+| | [!UICONTROL Forecasting campaign budget] | 预计未来受预算限制的营销活动的建议预算 |
 | | [!UICONTROL Forecasting set Target ROAS] | 在季节性事件（预计将增加流量）之前提高预算，并将竞价策略从 [!UICONTROL Maximize Conversion Value] 到 [!UICONTROL Target ROAS] |
 | | [!UICONTROL Marginal ROI campaign budget] | 调整营销活动预算以提高ROI |
-| | [!UICONTROL Maximize clicks opt in] | 竞价 [!UICONTROL Maximize Clicks] |
-| | [!UICONTROL Maximize conversions opt in] | 竞价 [!UICONTROL Maximize Conversions] |
+| | [!UICONTROL Maximize clicks opt in] | 更改为 [!UICONTROL Maximize Clicks] 竞价策略 |
+| | [!UICONTROL Maximize conversion value opt in] | 更改为最大转化值竞价策略 |
+| | [!UICONTROL Maximize conversions opt in] | 更改为 [!UICONTROL Maximize Conversions] 竞价策略 |
 | | [!UICONTROL Move unused budget] | 将未使用的预算移至受限的预算 |
 | | [!UICONTROL Raise Target CPA bid too low] | 提高 [!UICONTROL Target CPA] 推荐的量，当它太低并且转化次数很少或没有转化时 |
-| | [!UICONTROL Target CPA opt in] | 竞价 [!UICONTROL Target CPA] |
-| | [!UICONTROL Target CPA raising] | 提高 [!UICONTROL Target CPA] 基于 [!DNL Google Ads] 根据以往的转化计算得出的预测。 |
-| | [!UICONTROL Target ROAS lowering] | 降低 [!UICONTROL Target ROAS] 基于 [!DNL Google Ads] 根据以往的转化计算得出的预测。 |
-| | [!UICONTROL Target ROAS opt in] | 竞价 [!UICONTROL Target ROAS] |
+| | [!UICONTROL Target CPA opt in] | 更改为 [!UICONTROL Target CPA] 竞价策略 |
+| | [!UICONTROL Target CPA raising] | 提高 [!UICONTROL Target CPA] 基于 [!DNL Google Ads] 根据过去的转化计算得出的预测 |
+| | [!UICONTROL Target ROAS lowering] | 降低 [!UICONTROL Target ROAS] 基于 [!DNL Google Ads] 根据过去的转化计算得出的预测 |
+| | [!UICONTROL Target ROAS opt in] | 更改为 [!UICONTROL Target ROAS] 竞价策略 |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | 通过更新营销活动以使用显示扩展来扩展范围 |
 | | [!UICONTROL Keyword] | 添加新关键字 |
 | | [!UICONTROL Search partners opt in] | 使用扩展范围 [!DNL Google] 搜索合作伙伴 |
@@ -80,7 +94,7 @@ ht-degree: 0%
 
 | 推荐类别 | 推荐类型 | 描述 |
 | --- | --- | --- |
-| [!UICONTROL Ads and extensions] | [!UICONTROL Responsive search ad] | 添加新的响应式搜索广告 |
+| [!UICONTROL Ads and extensions] | [!UICONTROL Responsive search ad] | 添加新响应式搜索广告 |
 | [!UICONTROL Bidding and budgets] | [!UICONTROL Campaign budget] | 修复受预算限制的营销活动 |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Keyword] | 从所有源添加新关键字 |
 
