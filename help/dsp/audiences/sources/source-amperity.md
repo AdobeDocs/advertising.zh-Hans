@@ -2,14 +2,16 @@
 title: 转换用户ID [!DNL Amperity] 到通用ID
 description: 了解如何启用DSP以摄取 [!DNL Amperity] 第一方区段。
 feature: DSP Audiences
-source-git-commit: 29fd744ba993e65b43cdf24a49b57208f0b06177
+source-git-commit: dab24efea38951373ec1ada571b10d9843409baf
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
 
 # 转换用户ID [!DNL Amperity] 到通用ID
+
+*Beta版功能*
 
 将DSP与集成 [!DNL Amperity] 客户数据平台，用于将贵组织的第一方经过哈希处理的电子邮件地址转换为通用ID以进行定向广告。
 

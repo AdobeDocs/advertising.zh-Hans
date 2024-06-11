@@ -3,9 +3,9 @@ title: 转换用户ID [!DNL Tealium] 到通用ID
 description: 了解如何启用DSP以摄取 [!DNL Tealium] 第一方区段。
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 096ca9b5fce101995ca620b78f2ad8abf40355cd
+source-git-commit: 2d045640b5bdf8dfba70d0f7da3ac012fd86e82e
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 0%
 1. [复制中的现有连接器 [!DNL Tealium] 以继续共享区段](#duplicate-connector).
 
 1. [将通用ID的数量与经过哈希处理的电子邮件地址的数量进行比较](#compare-id-count).
-
-区段应在24小时内可在DSP中使用，并且每24小时刷新一次。
 
 ## 步骤1：设置跟踪 [!DNL Analytics] 测量 {#analytics-tracking}
 
@@ -142,7 +140,7 @@ ht-degree: 0%
 
 ## 步骤6：比较通用ID的数量与经过哈希处理的电子邮件地址的数量 {#compare-id-count}
 
-完成所有步骤后，在受众库中验证（在从创建或编辑受众时可用） [!UICONTROL Audiences] > [!UICONTROL All Audiences] 区段会在24小时内填充的区段。 将通用ID的数量与原始经过哈希处理的电子邮件地址的数量进行比较。
+完成所有步骤后，区段应在24小时内可在DSP中使用。 验证受众库（从中创建或编辑受众时可用） [!UICONTROL Audiences] > [!UICONTROL All Audiences] 区段会在24小时内填充的区段。 将通用ID的数量与原始经过哈希处理的电子邮件地址的数量进行比较。
 
 经过哈希处理的电子邮件地址到通用ID的转换率应大于90%。 例如，如果您从客户数据平台发送100个经过哈希处理的电子邮件地址，则应将其转换为90个以上的通用ID。 90%或更低的翻译率是一个问题。 有关区段计数如何变化的更多信息，请参阅&quot;[电子邮件ID与通用ID之间的数据差异原因](#universal-ids-data-variances)“
 
