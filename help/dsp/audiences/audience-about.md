@@ -3,7 +3,7 @@ title: 关于Advertising DSP中的受众管理
 description: 了解受众管理功能。
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: f6c562a02cdca5eda8c0b8ec692e55e7ea656bb0
+source-git-commit: ac3ceaf0e1d9f1708896d17ab413d23f366c4b36
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 0%
@@ -149,7 +149,7 @@ ht-degree: 0%
 >* [创建和实施自定义区段](custom-segment-create.md)
 >* [创建和实施 [!UICONTROL CCPA Opt-Out-of-Sale] 区段](ccpa-opt-out-segment-create.md)
 >* [关于第一方受众源](/help/dsp/audiences/sources/source-about.md)
->* [管理受众源以激活通用ID受众](source-manage.md)
+>* [管理受众源以激活通用ID受众](/help/dsp/audiences/sources/source-manage.md)
 >* [从手动导入经过身份验证的区段 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [可用的第三方数据提供商](third-party-data-providers.md)
 >* [投放设置](/help/dsp/campaign-management/placements/placement-settings.md)
