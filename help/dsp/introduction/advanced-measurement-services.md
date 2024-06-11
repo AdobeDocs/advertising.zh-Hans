@@ -2,9 +2,9 @@
 title: 高级测量解决方案
 description: 请参阅高级测量的可用解决方案列表。
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 226b9a78b00f547da840c27663241f91dfca92d3
+source-git-commit: f1d657960beb667001341e191daaddbe03d931b0
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ ht-degree: 0%
 
    * 跨ID家庭访问次数、频率和转化（无标识）
 
-      * 通过无痕迹的ID类型(RampID、ID5)跨多个环境(包括联网电视(CTV)和数字（台式机、移动设备、原生和音频）)量化家庭级别的独特/增量访问范围、重叠和转化。
+     <!-- Hide for now * Quantify unique/incremental reach, overlap, and conversions at a household level by cookieless ID type (RampID, ID5) across multiple environments, including connected TV (CTV) and digital (desktop, mobile, native, and audio). -->
 
-      * 证明测试无Cookie ID在查找相对于基于Cookie的区段的增量范围方面的有效性。
+     <!-- Hide for now * Prove the effectiveness of testing cookieless IDs in finding incremental reach relative to cookie-based segments. -->
 
    * 平均转化时间
 
@@ -51,9 +51,9 @@ ht-degree: 0%
 
   了解受众和战术如何在人员级别重叠，包括跨多个数字环境（如台式机、移动设备、原生和音频）的曝光。
 
-   * **跨ID基于人员的范围**
+  <!-- Hide for now * **Cross-ID People-Based Reach**
 
-     量化Cookie与RampID之间的唯一访问范围和重叠，以及按ID类型划分的每指标成本。 证明测试RampID在查找多个数字环境（例如台式机、移动设备、本机以及音频）中相对于Cookie的区段的增量范围方面的有效性。
+      Quantify the unique reach and overlap between cookies and RampIDs, as well as the cost per metric by ID type. Prove the effectiveness of testing RampIDs in finding incremental reach relative to cookie-based segments across multiple digital environments, such as desktop, mobile, native, and audio. -->
 
 * **Halo对搜索报表的影响**
 
