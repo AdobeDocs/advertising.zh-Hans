@@ -1,23 +1,25 @@
 ---
-title: 转换用户ID [!DNL Optimizely] 到通用ID
-description: 了解如何启用DSP以摄取 [!DNL Optimizely] 第一方区段。
+title: 转换用户ID [!DNL Amperity] 到通用ID
+description: 了解如何启用DSP以摄取 [!DNL Amperity] 第一方区段。
 feature: DSP Audiences
-source-git-commit: 9b784b99051e33330ee7fbc736a9edbdf22066ca
+source-git-commit: 29fd744ba993e65b43cdf24a49b57208f0b06177
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
-# 转换用户ID [!DNL Optimizely] 到通用ID
+# 转换用户ID [!DNL Amperity] 到通用ID
 
-将DSP与集成 [!DNL Optimizely] 客户数据平台，用于将贵组织的第一方经过哈希处理的电子邮件地址转换为通用ID以进行定向广告。
+将DSP与集成 [!DNL Amperity] 客户数据平台，用于将贵组织的第一方经过哈希处理的电子邮件地址转换为通用ID以进行定向广告。
 
 1. (要将电子邮件地址转换为 [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->；广告商使用 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [设置要启用的跟踪 [!DNL Analytics] 测量](#analytics-tracking).
 
 1. [在DSP中创建受众源](#source-create).
 
-1. [准备和推送区段数据](#push-data).
+1. [准备和共享区段映射数据](#map-data).
+
+1. [请求从推送数据 [!DNL Amperity] 到DSP](#push-data).
 
 1. [将通用ID的数量与经过哈希处理的电子邮件地址的数量进行比较](#compare-id-count).
 
@@ -39,27 +41,39 @@ ht-degree: 0%
 
    源设置将包括自动生成的源密钥，您将使用该密钥来推送区段数据。
 
-1. 创建受众源后，请使用以下对象共享源代码密钥 [!DNL Optimizely] 用户。
+1. 创建受众源后，请使用以下对象共享源代码密钥 [!DNL Amperity] 用户。
 
-## 步骤3：准备和推送区段数据 {#push-data}
+## 步骤3：准备和共享区段映射数据 {#map-data}
 
-广告商必须在他们的帮助下准备和推送数据 [!DNL Optimizely] 代表。
+广告商必须准备并共享区段映射数据。
 
-1. 范围 [!DNL Optimizely Data Platform]，使用SHA-256算法对广告商受众的电子邮件ID进行哈希处理。
+1. 范围 [!DNL Amperity]，使用SHA-256算法对受众的电子邮件ID进行哈希处理。
 
-1. 联系广告商的 [!DNL Optimizely] 代表获取有关将区段推送到DSP的说明。 在推送区段时，请包括以下信息：
+1. 广告商必须向Adobe客户团队提供区段映射数据，才能在DSP中创建区段。 在逗号分隔的值文件中使用以下列名和值：
 
-   * **源密钥：** 这是在中创建的源密钥 [步骤2](#source-create).
+   * **外部区段密钥：** 此 [!DNL Amperity] 与区段关联的区段键。
 
-   * **帐户代码：** 这是字母数字DSP帐户代码，您可以在DSP中找到，网址为 [!UICONTROL Settings] > [!UICONTROL Account].
+   * **区段名称：** 区段名称。
 
-区段应在24小时内可在DSP中使用，并根据为广告商配置的内容进行刷新。 无论区段的刷新频率如何，区段中的包含在30天后都会过期，以确保隐私合规性，因此可通过从以下位置重新推送受众来刷新受众： [!DNL Optimizely] 每30天或更短时间。
+   * **区段描述：** 区段的目的或规则，或同时使用两者。
 
-<!--
-Are they using the Data Platform web services, another type of API, or a UI? Add a link to instructions, including how to designate DSP as the destination. And where will they input the DSP-specific fields?]
--->
+   * **父级ID：** 保持空白
 
-## 步骤4：比较通用ID的数量与经过哈希处理的电子邮件地址的数量 {#compare-id-count}
+   * **视频CPM：** 0
+
+   * **显示CPM：** 0
+
+   * **区段窗口：** 区段的存留时间。
+
+## 步骤4：请求从推送数据 [!DNL Amperity] 到DSP {#push-data}
+
+1. 在DSP中映射区段后，广告商必须结合其 [!DNL Amperity] 代表将区段数据分发到DSP。
+
+1. 然后，广告商必须与Adobe客户团队确认已收到区段数据。
+
+区段应在24小时内可在DSP中使用，并根据为广告商配置的内容进行刷新。 无论区段的刷新频率如何，区段中的包含在30天后都会过期，以确保隐私合规性，因此可通过从以下位置重新推送受众来刷新受众： [!DNL Amperity] 每30天或更短时间。
+
+## 步骤5：比较通用ID的数量与经过哈希处理的电子邮件地址的数量 {#compare-id-count}
 
 完成所有步骤后，在受众库中验证（在从创建或编辑受众时可用） [!UICONTROL Audiences] > [!UICONTROL All Audiences] 区段可用，且会在24小时内填充。 将通用ID的数量与原始经过哈希处理的电子邮件地址的数量进行比较。
 

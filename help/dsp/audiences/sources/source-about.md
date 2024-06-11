@@ -3,9 +3,9 @@ title: 关于第一方受众源
 description: 了解如何将第一方区段中的其他用户标识符转换为通用ID以实现无痕定位。
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: 78ee6ddbfb87915475bcf84bd7cd405a58eccf14
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,15 @@ DSP是一个集成的 *目标* 对象 [该 [!DNL Adobe Real-Time Customer Data P
 
 ### [!DNL ActionIQ]
 
-您可以从以下位置共享您组织的第一方数据 [!DNL Action IQ] 使用DSP的客户数据平台，将经过哈希处理的电子邮件地址转换为通用ID，以便在DSP中进行定位广告。 此集成需要自定义。 有关更多信息，请与您的Adobe客户团队联系。
+您可以从以下位置共享您组织的第一方数据 [!DNL ActionIQ] 使用DSP的客户数据平台，将经过哈希处理的电子邮件地址转换为通用ID，以便在DSP中进行定位广告。 此集成需要自定义。 有关更多信息，请与您的Adobe客户团队联系。
+
+### [!DNL Amperity]
+
+您可以从以下位置共享您组织的第一方数据 [!DNL Amperity] 使用DSP的客户数据平台，将经过哈希处理的电子邮件地址转换为通用ID，以便在DSP中进行定位广告。 有关更多信息，请参阅&quot;[转换用户ID [!DNL Amperity] 到通用ID](/help/dsp/audiences/sources/source-amperity.md)“
+
+### [!DNL Optimizely]
+
+您可以从以下位置共享您组织的第一方数据 [!DNL Optimizely] 使用DSP的客户数据平台，将经过哈希处理的电子邮件地址转换为通用ID，以便在DSP中进行定位广告。 有关更多信息，请参阅&quot;[转换用户ID [!DNL Optimizely] 到通用ID](/help/dsp/audiences/sources/source-optimizely.md)“
 
 ### [!DNL Tealium]
 
@@ -88,13 +96,11 @@ DSP是一个集成的 *目标* 对象 [该 [!DNL Adobe Real-Time Customer Data P
 
 >[!MORELIKETHIS]
 >
->* [转换用户ID [!DNL Adobe Real-Time CDP] 到通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [转换用户ID [!DNL Tealium] 到通用ID](/help/dsp/audiences/sources/source-tealium.md)
 >* [管理受众源以激活通用ID受众](source-manage.md)
 >* [支持激活通用ID](/help/dsp/audiences/universal-ids.md)
+>* [转换用户ID [!DNL Adobe Real-Time CDP] 到通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [转换用户ID [!DNL Amperity] 到通用ID](/help/dsp/audiences/sources/source-amperity.md)
+>* [转换用户ID [!DNL Optimizely] 到通用ID](/help/dsp/audiences/sources/source-optimizely.md)
+>* [转换用户ID [!DNL Tealium] 到通用ID](/help/dsp/audiences/sources/source-tealium.md)
 >* [关于受众管理](/help/dsp/audiences/audience-about.md)
 >* [投放设置](/help/dsp/campaign-management/placements/placement-settings.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->

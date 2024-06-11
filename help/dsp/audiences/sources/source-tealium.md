@@ -3,9 +3,9 @@ title: 转换用户ID [!DNL Tealium] 到通用ID
 description: 了解如何启用DSP以摄取 [!DNL Tealium] 第一方区段。
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: 096ca9b5fce101995ca620b78f2ad8abf40355cd
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -52,31 +52,31 @@ ht-degree: 0%
 
 ## 步骤3：准备和共享区段映射数据 {#map-data}
 
-1. 广告商必须准备并共享区段映射数据：
+广告商必须准备并共享区段映射数据。
 
-   1. 广告商必须在中准备数据 [!DNL Tealium]：
+1. 广告商必须在中准备数据 [!DNL Tealium]：
 
-      1. 使用SHA-256算法对广告商受众的电子邮件ID进行哈希处理。
+   1. 使用SHA-256算法对广告商受众的电子邮件ID进行哈希处理。
 
-      1. 将包含经过哈希处理的电子邮件ID的列映射到访客ID类型的属性。
+   1. 将包含经过哈希处理的电子邮件ID的列映射到访客ID类型的属性。
 
-      1. 创建受众，使用 `Tealium_visitor_id` 属性。 应用正确的扩充以触发受众。 请参阅 [[!DNL Tealium] 有关访客ID属性的文档](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/).
+   1. 创建受众，使用 `Tealium_visitor_id` 属性。 应用正确的扩充以触发受众。 请参阅 [[!DNL Tealium] 有关访客ID属性的文档](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/).
 
-   1. 广告商必须向Adobe客户团队提供区段映射数据，才能在DSP中创建区段。 在逗号分隔的值文件中使用以下列名和值：
+1. 广告商必须向Adobe客户团队提供区段映射数据，才能在DSP中创建区段。 在逗号分隔的值文件中使用以下列名和值：
 
-      * **外部区段密钥：** 外部区段键，稍后您将在中的连接器的操作设置中指定该键 [!DNL Tealium]. 建议的命名惯例是&#39;&#39;`<DSP source key>_<Tealium segment name>`，例如“57bf424dc10_coffee-drinkers”。 对于DSP源密钥，请使用 [!UICONTROL Source Key] 从DSP受众源设置访问。
+   * **外部区段密钥：** 外部区段键，稍后您将在中的连接器的操作设置中指定该键 [!DNL Tealium]. 建议的命名惯例是&#39;&#39;`<DSP source key>_<Tealium segment name>`，例如“57bf424dc10_coffee-drinkers”。 对于DSP源密钥，请使用 [!UICONTROL Source Key] 从DSP受众源设置访问。
 
-      * **区段名称：** 区段名称。
+   * **区段名称：** 区段名称。
 
-      * **区段描述：** 区段的目的或规则，或同时使用两者。
+   * **区段描述：** 区段的目的或规则，或同时使用两者。
 
-      * **父级ID：** 保持空白
+   * **父级ID：** 保持空白
 
-      * **视频CPM：** 0
+   * **视频CPM：** 0
 
-      * **显示CPM：** 0
+   * **显示CPM：** 0
 
-      * **区段窗口：** 区段的存留时间。
+   * **区段窗口：** 区段的存留时间。
 
 ## 步骤4：在中创建连接器 [!DNL Tealium] 共享区段数据 {#tealium-connector}
 
@@ -154,9 +154,5 @@ ht-degree: 0%
 >
 >* [关于第一方受众源](/help/dsp/audiences/sources/source-about.md)
 >* [管理受众源以激活通用ID受众](source-manage.md)
->* [转换用户ID [!DNL Adobe Real-Time CDP] 到通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [支持激活通用ID](/help/dsp/audiences/universal-ids.md)
 >* [关于受众管理](/help/dsp/audiences/audience-about.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->
