@@ -3,9 +3,9 @@ title: 支持激活通用ID
 description: 了解在以下支持方面的支持：导入通用ID区段，创建自定义区段以跟踪通用ID，以及将第一方区段中的其他用户标识符转换为通用ID以实现无痕定位。
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 4b8dc6e691516d87e391802b54664b96ad603b75
+source-git-commit: d3991123110617968ce858fd76c12fa039acc2d6
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ DSP支持基于人员的通用ID，以便跨DSP支持的数字格式进行无coo
 
 ## 故障排除
 
-如果您没有看到用户数，或者您的受众规模较低，请检查以下各项：
+如果您没有看到用户计数，或者您的受众规模较低，请检查以下各项：
 
 * 如果您使用 [!DNL Flashtalking] 或 [!DNL Google Campaign Manager 360] 然后，确保广告的点进URL已附加正确的宏。 查看宏 [[!DNL Flashtalking] 广告](/help/integrations/analytics/macros-flashtalking.md) 和 [[!DNL Google Campaign Manager 360] 广告](/help/integrations/analytics/macros-google-campaign-manager.md).
 

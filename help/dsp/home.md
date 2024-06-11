@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 8374fbedf8c209b6b2638cd16aa21b79e251486d
+source-git-commit: 53f5bdf56e65aede2240a60973844a6b1657f893
 workflow-type: tm+mt
-source-wordcount: '3035'
+source-wordcount: '3055'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 0%
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
 | 2024年6月10日 | [!UICONTROL Audiences] | （Beta测试版功能）您现在可以从以下源转换您的第一方区段： [!DNL Amperity] 和 [!DNL Optimizely] 客户数据平台到由[[!DNL LiveRamp] [!DNL RampIDs]]或 [!DNL Unified ID 2.0 (UID2.0)] ID。 在受众定位的放置设置中，共享区段在第一方区段列表中可用。 | 请参阅&quot;[转换用户ID [!DNL Amperity] 到通用ID](/help/dsp/audiences/sources/source-amperity.md)，&quot; &quot;[转换用户ID [!DNL Optimizely] 到通用ID](/help/dsp/audiences/sources/source-optimizely.md)，”和“[支持激活通用ID](/help/dsp/audiences/universal-ids.md)“ |
+|  |  | 提供了有关基于人员的通用ID的DSP测试版功能的文档，以用于无痕定位。 | 请参阅&quot;[支持激活通用ID](/help/dsp/audiences/universal-ids.md)“ |
 | 2024年6月5日 | 版面 | 您现在可以使用电子表格一次性管理多个投放位置的竞价乘数。 | 请参阅&quot;[管理投放位置的竞价乘数](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)“ |
 |  | 受众源 | 您现在可以更改源受众所翻译成的通用ID类型，并查看更改日志。 | 请参阅&quot;[管理受众源以激活通用ID受众](/help/dsp/audiences/sources/source-manage.md)“ |
 | 2024年5月22日 | 优化，连接的电视广告 | 在具有“最低CPA”和“最高ROAS”优化目标的包中，连接电视广告的性能模型现在使用转化路径中多个接触点的数据，以实现更快和更强大的机器学习。 现有包已升级为使用多点触控优化，无需执行任何操作。 | — |
