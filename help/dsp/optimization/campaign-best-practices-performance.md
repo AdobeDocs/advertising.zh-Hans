@@ -3,9 +3,9 @@ title: 设置效果活动的最佳实践
 description: 了解设置以性能为中心的活动的最佳实践，其中包括针对最低CPA或最高ROAS而优化的投放位置。
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 802c75920bb11f262cbe0d76d2554971aaf35831
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1263'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,7 @@ DSP可以优化以性能为中心的促销活动。 请参阅以下效果促销�
 
 ![优化目标](/help/dsp/assets/optimization-goals.png)
 
-您还需要确定导致整体目标的成功事件并相应地创建自定义目标。 对于每个包，指定要与总体优化目标一起使用的自定义目标，以便使用进行报告和算法优化 [!DNL Adobe Sensei]. 有关创建自定义目标的更多信息，请参阅 [构建自定义目标的最佳实践](custom-goal.md#custom-goal-best-practices).
-
-![自定义目标](/help/dsp/assets/objective-goals.png)
+您还需要确定导致整体目标的成功事件并相应地创建自定义目标。 对于每个包，指定要与总体优化目标一起使用的自定义目标，以便使用进行报告和算法优化 [!DNL Adobe Sensei]. 有关创建自定义目标（包括最佳实践）的更多信息，请参阅 [自定义目标](custom-goal.md).
 
 ## 第2步 — 定义您的策略
 
