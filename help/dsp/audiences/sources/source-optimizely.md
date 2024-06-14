@@ -2,9 +2,9 @@
 title: 转换用户ID [!DNL Optimizely] 到通用ID
 description: 了解如何启用DSP以摄取 [!DNL Optimizely] 第一方区段。
 feature: DSP Audiences
-source-git-commit: 23d4dc50d1c6bf966148dab772e0e770087ac869
+source-git-commit: f51f07c1e057eb09c2cad292b2c8062f7d993166
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 
    * **帐户代码：** 这是字母数字DSP帐户代码，您可以在DSP中找到，网址为 [!UICONTROL Settings] > [!UICONTROL Account].
 
-区段应在24小时内可在DSP中使用，并根据为广告商配置的内容进行刷新。 无论区段的刷新频率如何，区段中的包含在30天后都会过期，以确保隐私合规性，因此可通过从以下位置重新推送受众来刷新受众： [!DNL Optimizely] 每30天或更短时间。
+区段应在24小时内可在DSP中使用，并根据为广告商配置的内容进行刷新。 无论区段的刷新频率如何，默认情况下，区段中包含的内容会在30天后过期，或者在客户指定的有效期后过期。 通过从重新推送区段来刷新区段 [!DNL Optimizely] 到期之前。 要请求自定义区段过期，请联系您的Adobe客户团队。
 
 <!--
 Are they using the Data Platform web services, another type of API, or a UI? Add a link to instructions, including how to designate DSP as the destination. And where will they input the DSP-specific fields?]

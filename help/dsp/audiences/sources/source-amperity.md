@@ -2,9 +2,9 @@
 title: 转换用户ID [!DNL Amperity] 到通用ID
 description: 了解如何启用DSP以摄取 [!DNL Amperity] 第一方区段。
 feature: DSP Audiences
-source-git-commit: dab24efea38951373ec1ada571b10d9843409baf
+source-git-commit: 25bcc2eefa4dc7873ab8189122d43da336e3e046
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 1. 然后，广告商必须与Adobe客户团队确认已收到区段数据。
 
-区段应在24小时内可在DSP中使用，并根据为广告商配置的内容进行刷新。 无论区段的刷新频率如何，区段中的包含在30天后都会过期，以确保隐私合规性，因此可通过从以下位置重新推送受众来刷新受众： [!DNL Amperity] 每30天或更短时间。
+区段应在24小时内可在DSP中使用，并根据为广告商配置的内容在中刷新 [!DNL Amperity]. 无论区段的刷新频率如何，默认情况下，区段中包含的内容会在30天后过期，或者在客户指定的有效期后过期。 通过从重新推送区段来刷新区段 [!DNL Amperity] 到期之前。 要请求自定义区段过期，请联系您的Adobe客户团队。
 
 ## 步骤5：比较通用ID的数量与经过哈希处理的电子邮件地址的数量 {#compare-id-count}
 

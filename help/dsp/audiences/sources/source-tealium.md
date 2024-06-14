@@ -3,9 +3,9 @@ title: 转换用户ID [!DNL Tealium] 到通用ID
 description: 了解如何启用DSP以摄取 [!DNL Tealium] 第一方区段。
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 2d045640b5bdf8dfba70d0f7da3ac012fd86e82e
+source-git-commit: 84ecc81745c6445d08cd743abfd412d62eddde86
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 经过哈希处理的电子邮件地址到通用ID的转换率应大于90%。 例如，如果您从客户数据平台发送100个经过哈希处理的电子邮件地址，则应将其转换为90个以上的通用ID。 90%或更低的翻译率是一个问题。 有关区段计数如何变化的更多信息，请参阅&quot;[电子邮件ID与通用ID之间的数据差异原因](#universal-ids-data-variances)“
 
-区段每24小时刷新一次。 但是，区段中的包含在30天后过期，因此无法确保隐私合规性，因此请从以下位置重新推送受众以刷新受众： [!DNL Tealium] 每30天或更短时间。
+区段每24小时刷新一次。 但是，默认情况下，区段中的内容会在30天后过期，或者在客户指定的有效期后过期。 通过从重新推送区段来刷新区段 [!DNL Tealium] 到期之前。 要请求自定义区段过期，请联系您的Adobe客户团队。
 
 有关故障排除支持，请联系您的Adobe客户团队或 `adcloud-support@adobe.com`.
 

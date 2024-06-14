@@ -3,9 +3,9 @@ title: 将DSP集成与 [!DNL Adobe] [!DNL Real-time CDP]
 description: 了解如何启用DSP以摄取 [!DNL Adobe] [!DNL Real-time CDP] 第一方区段。
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 33766fc210da032102bdc07a0db4ce348b12fe92
+source-git-commit: 7963623d20686553629e2aa7ad76b4fd48403555
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    有关故障排除支持，请联系您的Adobe客户团队或 `adcloud-support@adobe.com`.
 
-区段每24小时刷新一次。 但是，区段中的包含在30天后过期，因此无法确保隐私合规性，因此请通过每30天或更短时间从Real-Time CDP重新推送一次受众来刷新这些受众。
+区段每24小时刷新一次。 但是，默认情况下，区段中的内容会在30天后过期，或者在客户指定的有效期后过期。 在到期之前，通过从Real-Time CDP重新推送区段来刷新区段。 要请求自定义区段过期，请联系您的Adobe客户团队。
 
 >[!MORELIKETHIS]
 >
