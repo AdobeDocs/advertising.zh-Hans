@@ -3,9 +3,9 @@ title: Campaign设置
 description: 请参阅可用营销活动设置的描述。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: 4aff26ef50d970b8440e2cf07b5f835d2b5a6599
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -122,21 +122,27 @@ ht-degree: 0%
 
 #### 受众验证
 
-**[!UICONTROL Nielsen]：** （可选）启用 [!DNL Nielsen] 使用指定设置进行受众验证的测量和报告。 需支付额外费用。
-
-* **[!UICONTROL Target Gender]：** 目标性别： *[!UICONTROL Both]* （默认）， *[!UICONTROL Male]*，或 *[!UICONTROL Female]*
-
-* **[!UICONTROL Target Age]：** 目标年龄范围。 根据需要使用左右滑杆缩小范围。
-
-* **[!UICONTROL Target Country]：** （可选）要定位的国家/地区。 [!DNL Nielsen] 仅向受支持国家提供阅听。
-
-**[!UICONTROL comScore vCE]：** （可选）启用 [!DNL Comscore validated Campaign Essentials (vCE)] 使用指定设置进行受众验证的测量和报告。 需支付额外费用。
+**[!UICONTROL comScore Campaign Ratings]：** （可选）启用 [!DNL Comscore] 已验证 [!DNL Campaign Ratings] 使用指定设置进行受众验证的测量和报告。 需支付额外费用。
 
 * **[!UICONTROL Target Gender]：** 目标性别： *[!UICONTROL Both]* （默认）， *[!UICONTROL Male]*，或 *[!UICONTROL Female]*
 
 * **[!UICONTROL Target Age]：** 目标年龄范围。 根据需要使用左右滑杆缩小范围。
 
 * **[!UICONTROL Target Country]：** （可选）要定位的国家/地区。 [!DNL Comscore] 仅向受支持国家提供阅听。
+
+### [!UICONTROL Attention Measurement]
+
+**[!UICONTROL Adelaide]：** 启用投放级别跟踪 [!UICONTROL Attention Score] 量度（不同展示次数中的关注单位加权平均数），来自 [!DNL Adelaide]. 量度可用于所有放置类型，但以下情况除外 [!DNL Roku] 联网电视、仅限VPAID的预播和非播客音频。 DSP会自动将JavaScript标记附加到所有关联的创意，并且 [!DNL Adelaide] 跟踪敞口数据并每天将其发送给DSP。 您可以使用日期来手动优化投放策略，以获得更高的关注度分数。
+
+此 [!UICONTROL Attention Score] 字段位于 [!UICONTROL Metrics] 报告部分；在 [!UICONTROL Campaigns]， [!UICONTROL Packages]、和 [!UICONTROL Placements] 视图；以及 [!UICONTROL Sites]， [!UICONTROL Ads]、和 [!UICONTROL Inventory] 的选项卡 [投放位置详细信息视图](/help/dsp/campaign-management/reports/placement-details-view.md).
+
+使用 [!DNL Adelaide] 用于测量的区段会对由以下广告提供的每次展示产生CPM费用： [!DNL Adelaide] 测量标记。 此费用独立于以下各项的费用 [投放位置级关注定位](/help/dsp/campaign-management/placements/placement-settings.md).
+
+<!--
+Example JavaScript tag:
+
+`<script src="https://www.example.com/aam?asid=0123456789&ad=${TM_AD_ID_NUM}&adv=${TM_ADVERTISER_ID}&ca=${TM_CAMPAIGN_ID_NUM}&df=${NS_PLATFORM_ID}&dt=${NS_DEVICE_GROUPING}&pl=${TM_PLACEMENT_ID_NUM}&ra=${TM_RANDOM}&st=${TM_SITE_URL_URLENC}"></script>`
+-->
 
 ### [!UICONTROL 1st Party Metrics]
 
