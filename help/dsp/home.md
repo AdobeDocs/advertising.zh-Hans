@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 53f5bdf56e65aede2240a60973844a6b1657f893
+source-git-commit: f54a4928b72717868c6c4112dd1a23c54a530668
 workflow-type: tm+mt
-source-wordcount: '3055'
+source-wordcount: '3283'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年6月19日 | [!UICONTROL Campaigns]， [!UICONTROL Packages]， [!UICONTROL Placements] | 在 [!UICONTROL Campaigns]， [!UICONTROL Packages]、和 [!UICONTROL Placements] 视图：<ul><li>趋势图现在可以包含以下可选量度：</li><ul><li>**日步调：** 显示“昨天的步调”量度随时间变化的趋势。</li><li>**航班正前行/后行：** 显示累积步调（相对于所用时间）随时间变化的趋势。</li></ul>![新的步调指标](/help/dsp/assets/trend-chart-pacing-metrics.png "新的步调指标")<li>数据表可以选择包含与步调相关的新量度列：</li><ul><li>**昨天的必需支出：** 昨天本该花费的数额，用于其余预算在整个飞行过程中均匀分配。</li><li>**昨天的步调：** 昨天的支出占昨天所需支出的百分比。 这是“今天的OTS”的改进版本，现已弃用。 当今天的步调始终低于100%时，套餐或安排就难以满足其预算要求。</li><li>**今天的必需支出：** 今天应该花费的金额，用于其余预算在整个飞行中的统一分配。</li><li>**今天的步调：** 今天的支出占今天所需支出的百分比；该值每30分钟更新一次。 这是“昨天的OTS”的改进版本，现已弃用。 当昨日的步调一直低于100%时，该套餐或招聘方案很难达到预算目标。</li></ul><li>在数据表中，“昨天的目标”和“今天的目标”列将重命名为“昨天的目标支出”和“今天的目标支出”。</li></ul> | 请参阅&quot;[创建自定义列视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)”和“[编辑自定义列视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit)“ |
 | 2024年6月10日 | [!UICONTROL Audiences] | （Beta测试版功能）您现在可以从以下源转换您的第一方区段： [!DNL Amperity] 和 [!DNL Optimizely] 客户数据平台到由[[!DNL LiveRamp] [!DNL RampIDs]]或 [!DNL Unified ID 2.0 (UID2.0)] ID。 在受众定位的放置设置中，共享区段在第一方区段列表中可用。 | 请参阅&quot;[转换用户ID [!DNL Amperity] 到通用ID](/help/dsp/audiences/sources/source-amperity.md)，&quot; &quot;[转换用户ID [!DNL Optimizely] 到通用ID](/help/dsp/audiences/sources/source-optimizely.md)，”和“[支持激活通用ID](/help/dsp/audiences/universal-ids.md)“ |
 |  |  | 提供了有关基于人员的通用ID的DSP测试版功能的文档，以用于无痕定位。 | 请参阅&quot;[支持激活通用ID](/help/dsp/audiences/universal-ids.md)“ |
 | 2024年6月5日 | 版面 | 您现在可以使用电子表格一次性管理多个投放位置的竞价乘数。 | 请参阅&quot;[管理投放位置的竞价乘数](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)“ |
