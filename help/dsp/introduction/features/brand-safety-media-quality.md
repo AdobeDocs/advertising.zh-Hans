@@ -3,9 +3,9 @@ title: 品牌安全和媒体质量
 description: 了解有关品牌安全和媒体质量功能的更多信息。
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: c8cad651585210d46cb0237e1843952e5e5cec3e
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -118,9 +118,9 @@ DSP会维护一个全局阻止的站点列表，列出被认为不安全的站�
 
 ### 主题定位
 
-DSP主题定位允许您利用我们行业领先的上下文合作伙伴来定位或阻止关键词列表 [!DNL Comscore] 和 [!DNL Oracle Data Cloud] ([!DNL Grapeshot])。 主题定位可帮助您确保始终在符合您品牌的环境中提供广告，包括阻止有害内容或确保在可确保获得更大结果的环境中支出。
+DSP主题定位允许您利用我们行业领先的上下文合作伙伴来定位或阻止关键词列表 [!DNL Comscore] 和 [!DNL Oracle Data Cloud] (以前称为 [!DNL Grapeshot])。 主题定位可帮助您确保始终在符合您品牌的环境中提供广告，包括阻止有害内容或确保在可确保获得更大结果的环境中支出。
 
-主题定位要求您直接使用以下方式创建自定义主题区段： [!DNL Comscore] 或 [!DNL Grapeshot] (使用 [!DNL Oracle Data Cloud])。 一旦在合作伙伴平台中创建了这些，您就可以 [在中定位或排除区段ID [!UICONTROL Audience Targeting] 每个投放位置的区域](/help/dsp/campaign-management/placements/placement-settings.md). 此功能可能需要额外付费。
+主题定位要求您直接使用合作伙伴平台创建自定义主题区段。 创建区段后，您可以 [在中定位或排除区段ID [!UICONTROL Audience Targeting] 每个投放位置的区域](/help/dsp/campaign-management/placements/placement-settings.md). 此功能可能需要额外付费。
 
 要创建自定义主题区段，请执行以下操作：
 

@@ -3,7 +3,7 @@ title: 关于Advertising DSP中的受众管理
 description: 了解受众管理功能。
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: ac3ceaf0e1d9f1708896d17ab413d23f366c4b36
+source-git-commit: 31f20bcfb79265326f515218a02d8a4fa3efd586
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 * 所有导入的自定义第三方数据区段。
 
-* （仅针对美国的投放位置） [所有第三方数据区段均可供来自30多家提供商的DSP客户使用](/help/dsp/audiences/third-party-data-providers.md)，包括 [!DNL Acxiom]， [!DNL Datalogix]， [!DNL eXelate] ([!DNL Nielsen])， [!DNL Lotame]， [!DNL Oracle]， [!DNL Quantcast]，以及更多功能。
+* （仅针对美国的投放位置） [所有第三方数据区段均可供来自30多家提供商的DSP客户使用](/help/dsp/audiences/third-party-data-providers.md)，包括 [!DNL eXelate]， ([!DNL Eyeota])，([!DNL LiveRamp])，[!DNL Lotame]， [!DNL Neustar]，以及更多功能。
 
   您可以定位特定的区段，这些区段根据受众数据定位用户（例如，具有特定人口统计信息、兴趣或意图和/或行为配置文件的用户）。 您可以按数据提供商和类别浏览，按名称或区段ID搜索区段，或按数据提供商、区段总大小、Web浏览器计数或设备计数过滤结果。
 

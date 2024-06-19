@@ -3,7 +3,7 @@ title: 投放设置
 description: 请参阅可用版面设置的说明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: 74b7ccc97339663c8baba633ff2baedfb13cba80
 workflow-type: tm+mt
 source-wordcount: '3789'
 ht-degree: 0%
@@ -346,7 +346,7 @@ ht-degree: 0%
    * 要手动选择间隔，请单击单元格内部，也可以拖动以选择间隔。
 1. 单击 **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]：** (可选；适用于配置了以下各项的广告商： [!DNL Comscore] 和 [!DNL Grapeshot] 区段)中的特定区段名称或ID [!DNL Comscore] 和 [!DNL Grapeshot] 以包含为目标。 此功能可能需要额外付费。 要激活此功能并设置主题区段，请联系您的Adobe客户团队。
+**[!UICONTROL Topic Targeting]：** (可选；适用于配置了以下各项的广告商： [!DNL Proximic by Comscore] 和 [!DNL Grapeshot] 区段)中的特定区段名称或ID [!DNL Proximic by Comscore] 和 [!DNL Grapeshot] 以包含为目标。 此功能可能需要额外付费。 要激活此功能并设置主题区段，请联系您的Adobe客户团队。
 
 要指定主题定位，请执行以下操作：
 
@@ -361,7 +361,7 @@ ht-degree: 0%
 >
 >* 主题定位限制了投放位置可以竞价的库存，因此使用主题定位仅占您总体购买的一小部分。
 >
->* 在上设置区段中的任何负面定位 [!DNL Comscore] 或 [!DNL Grapeshot].
+>* 在上设置区段中的任何负面定位 [!DNL Proximic by Comscore] 或 [!DNL Grapeshot].
 
 **[!UICONTROL Device Targeting]：** （可选）要作为目标包含和排除的特定设备信息，包括设备类型、制造商、操作系统、浏览器和连接类型。 要指定设备定位，请执行以下操作：
 
