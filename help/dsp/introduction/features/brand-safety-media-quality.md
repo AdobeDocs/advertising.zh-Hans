@@ -3,9 +3,9 @@ title: 品牌安全和媒体质量
 description: 了解有关品牌安全和媒体质量功能的更多信息。
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: c8cad651585210d46cb0237e1843952e5e5cec3e
+source-git-commit: 9332a7e2dae7819d65d35c01a0e3fb71a1c4e992
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1425'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,16 @@ DSP会维护一个全局阻止的站点列表，列出被认为不安全的站�
 您可以为每个广告商设置默认可见性过滤器<!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) -->，然后（可选） [自定义每个投放位置的设置](/help/dsp/campaign-management/placements/placement-settings.md). 使用此功能时可能会收取额外费用。
 
 ![DoubleVerify徽标](/help/dsp/assets/doubleverify-logo.png) ![oracle广告徽标](/help/dsp/assets/oracle-advertising-logo.png) ![Integral Ad Science徽标](/help/dsp/assets/ias-logo.png)
+
+### 注意力定位和衡量
+
+[!DNL Adobe's] 合作伙伴 [!DNL Adelaide] 为广告商提供对Adelaide量度的支持»[!DNL Attention Units]，可根据眼睛跟踪、曝光和结果数据测量媒体质量。
+
+[投放位置级别的竞价前注意定位](/help/dsp/campaign-management/placements/placement-settings.md) 允许广告商定位特定的关注级别以提高客户参与度。
+
+此外，广告商可以启用 [位置级别的跟踪 [!UICONTROL Attention Score] 量度](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) (已发行普通股的加权平均数 [!DNL Attention Units] ，以了解哪种置入策略可产生最佳业务结果。
+
+每项单独功能需额外付费。
 
 ### 主题定位
 
