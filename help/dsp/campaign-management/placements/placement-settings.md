@@ -3,9 +3,9 @@ title: 投放设置
 description: 请参阅可用版面设置的说明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 74b7ccc97339663c8baba633ff2baedfb13cba80
+source-git-commit: e2eca3b77882716c15fc3cde331d211efcd3fb8a
 workflow-type: tm+mt
-source-wordcount: '3789'
+source-wordcount: '3858'
 ht-degree: 0%
 
 ---
@@ -219,7 +219,7 @@ ht-degree: 0%
 
 **[!UICONTROL Traffic type]：** 要定位的流量类型。 选项包括 **[!UICONTROL Websites]** 和 **[!UICONTROL Apps]**.
 
-**[!UICONTROL Site tier]：** (可用时间 **[!UICONTROL Paste list of targeted sites]** 是 *[!UICONTROL Off]*)要定位的站点的质量。 第1层至第3层均符合品牌安全要求，并已由DSP映射团队进行审查和批准。
+**[!UICONTROL Site tier]：** (可用时间 **[!UICONTROL Paste list of targeted sites]** 是 *[!UICONTROL Off]*)要定位的站点的质量。 第1层至第3层均符合品牌安全要求，并已获得DSP映射团队的批准。
 
 * *[!UICONTROL Tier 1]：* 全国知名的高端网站和应用程序。
 
@@ -346,7 +346,7 @@ ht-degree: 0%
    * 要手动选择间隔，请单击单元格内部，也可以拖动以选择间隔。
 1. 单击 **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]：** (可选；适用于配置了以下各项的广告商： [!DNL Proximic by Comscore] 和 [!DNL Grapeshot] 区段)中的特定区段名称或ID [!DNL Proximic by Comscore] 和 [!DNL Grapeshot] 以包含为目标。 此功能可能需要额外付费。 要激活此功能并设置主题区段，请联系您的Adobe客户团队。
+**[!UICONTROL Topic Targeting]：** (可选；适用于配置了以下各项的广告商： [!DNL Proximic by Comscore] 和 [!DNL Oracle Data Cloud] 区段)中的特定区段名称或ID [!DNL Proximic by Comscore] 和 [!DNL Oracle Data Cloud] (以前称为 [!DNL Grapeshot])，以包含作为目标。 此功能可能需要额外付费。 要激活此功能并设置主题区段，请联系您的Adobe客户团队。
 
 要指定主题定位，请执行以下操作：
 
@@ -361,7 +361,7 @@ ht-degree: 0%
 >
 >* 主题定位限制了投放位置可以竞价的库存，因此使用主题定位仅占您总体购买的一小部分。
 >
->* 在上设置区段中的任何负面定位 [!DNL Proximic by Comscore] 或 [!DNL Grapeshot].
+>* 在上设置区段中的任何负面定位 [!DNL Proximic by Comscore] 或 [!DNL Oracle Data Cloud] (以前称为 [!DNL Grapeshot])。
 
 **[!UICONTROL Device Targeting]：** （可选）要作为目标包含和排除的特定设备信息，包括设备类型、制造商、操作系统、浏览器和连接类型。 要指定设备定位，请执行以下操作：
 
@@ -435,6 +435,8 @@ ht-degree: 0%
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*：优先从域的授权直接销售者和经销商处购买库存。
 * *[!UICONTROL Ads.txt sellers only]*：仅从域的授权直接销售者和经销商购买库存。
 * *[!UICONTROL Ads.txt sellers only]*：仅从域的授权直销商处购买库存。
+
+**[!UICONTROL Attention Targeting]：** （显示器、视频、移动和标准连接的电视投放位置）目标 [!DNL Adelaide] 具有基于指定站点、格式和广告大小的特定关注级别（高、中或低）的预竞价区段。 区段每周更新一次。 **注意：** 使用 [!DNL Adelaide] 进行定位的区段在以下内容每次展示时都会产生CPM费用： [!DNL Adelaide] 关注定位；此费用与以下各项的费用分开 [注意力测量](/help/dsp/campaign-management/campaigns/campaign-settings.md). 对于交互式前置投放，您只需为VAST展示付费。
 
 **[!UICONTROL DoubleVerify Authentic Brand Safety]：** (广告商配置了 [!UICONTROL DoubleVerify Authentic Brand Safety] option)启用 [!DNL DoubleVerify Authentic Brand Safety]，它会阻止使用为指定区段ID配置的自定义品牌安全规则在竞价后展示次数。 DSP会根据在广告商设置中指定的区段ID的使用情况向您的帐户收费。
 

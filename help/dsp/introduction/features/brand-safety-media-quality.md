@@ -3,9 +3,9 @@ title: 品牌安全和媒体质量
 description: 了解有关品牌安全和媒体质量功能的更多信息。
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 9332a7e2dae7819d65d35c01a0e3fb71a1c4e992
+source-git-commit: e8cb734e313b6aecfb75dfcbf70347efe83254a5
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -100,13 +100,13 @@ DSP会维护一个全局阻止的站点列表，列出被认为不安全的站�
 
 ### 预竞价欺诈阻止
 
-利用我们的第三方集成 [!DNL Comscore]， [!DNL DoubleVerify]， [!DNL Integral Ad Science]、和 [!DNL Peer39] 阻止非人为流量进入您的营销活动。 这些集成提供了行业领先的预竞价阻止功能，以最大限度地减少营销活动中的常规和复杂无效流量（GIVT和SIVT）。
+利用我们的第三方集成 [!DNL DoubleVerify]， [!DNL Integral Ad Science]、和 [!DNL Peer39] 阻止非人为流量进入您的营销活动。 这些集成提供了行业领先的预竞价阻止功能，以最大限度地减少营销活动中的常规和复杂无效流量（GIVT和SIVT）。
 
 您可以为每个广告商设置默认的竞价前欺诈阻止控制<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->，然后（可选） [自定义每个投放位置的设置](/help/dsp/campaign-management/placements/placement-settings.md). 使用此功能时可能会收取额外费用。
 
 有关功能的更多信息，请直接联系您的首选供应商，或联系您的Adobe客户团队。
 
-![Comscore徽标](/help/dsp/assets/comscore-logo.png) ![DoubleVerify徽标](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science徽标](/help/dsp/assets/ias-logo.png) ![Peer39徽标](/help/dsp/assets/peer39-logo.png)
+![DoubleVerify徽标](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science徽标](/help/dsp/assets/ias-logo.png) ![Peer39徽标](/help/dsp/assets/peer39-logo.png)
 
 ### 预竞价可视性 {#pre-bid-viewability}
 
