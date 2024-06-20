@@ -3,7 +3,7 @@ title: Campaign设置
 description: 请参阅可用营销活动设置的描述。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: d572a406be9271c6ca14d35740f04d15ddbf7364
+source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 0%
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 #### 受众验证
 
-**[!UICONTROL comScore Campaign Ratings]：** （可选）启用 [!DNL Comscore] 已验证 [!DNL Campaign Ratings] 使用指定设置进行受众验证的测量和报告。 需支付额外费用。
+**[!UICONTROL Comscore Campaign Ratings]：** （可选）启用 [!DNL Comscore] 已验证 [!DNL Campaign Ratings] 使用指定设置进行受众验证的测量和报告。 需支付额外费用。
 
 * **[!UICONTROL Target Gender]：** 目标性别： *[!UICONTROL Both]* （默认）， *[!UICONTROL Male]*，或 *[!UICONTROL Female]*
 
