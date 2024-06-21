@@ -1,57 +1,56 @@
 ---
-title: 傳送DSP Media Exposure資料至Adobe Audience Manager概述
-description: 瞭解如何使用Audience Manager事件畫素，從Advertising DSP行銷活動中擷取曝光層級和點按層級資料
+title: 将DSP媒体曝光数据发送到Adobe Audience Manager概述
+description: 了解如何使用Audience Manager事件像素从Advertising DSP营销活动中捕获展示级别和点击级别的数据
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 49f7225840ddaf26a37376ffaf7b93207f3ff2f7
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
 
-# 傳送DSP Media Exposure資料至Adobe Audience Manager概述
+# 将DSP媒体曝光数据发送到Adobe Audience Manager概述
 
-*僅使用Advertising DSP的廣告商*
+*仅使用Advertising DSP的广告商*
 
-*僅具有AdobeAdvertising-Adobe Audience Manager整合的廣告商*
+*仅具有Adobe Advertising-Adobe Audience Manager集成的广告商*
 
-透過Adobe Audience Manager的Advertising DSP客戶可使用Audience Manager事件畫素，從DSP行銷活動中擷取曝光層級資料和點按層級資料。 事件畫素會將資料當作可操作的訊號傳送至Audience Manager。 這些訊號可啟用各種DSP使用案例，例如更進階的分段、頻率管理、行銷分析和報表深入分析。
+具有Adobe Audience Manager的Advertising DSP客户可以使用Audience Manager事件像素从DSP促销活动中捕获展示次数级别的数据和点击级别的数据。 事件像素将数据作为可操作信号发送到Audience Manager。 这些信号支持各种DSP用例，例如更高级的分段、频率管理、营销分析和报表见解。
 
-DSP不會向您收取傳送這些訊號給Audience Manager的費用。 不過，您會根據您的Audience Manager合約，根據伺服器呼叫支付標準Audience Manager擷取成本。 Audience Manager會移除以兩種不同方式追蹤的重複事件，因此每個事件只會收費一次。
-
->[!NOTE]
->
-> Audience Manager也支援從廣告伺服器記錄檔擷取資料，因此靈活性較低。 本檔案未涵蓋該程式。
-
-## 主要優點
-
-* DSP促銷活動資料會即時流入Audience Manager，而您可以用它來建立規則型特徵，並使用這些特徵來定義區段。
-
-* 區段可在使用者特徵和區段資格後立即鎖定目標，有助於即時鎖定目標。
-
-* 您可以針對各種使用案例運用行銷活動資料，例如跨創意內容的頻率限定、重新定位接觸到先前行銷活動的使用者，以及分析下游網站行為和登入點。
-
-* 彙總的資料可提供行銷活動績效的統一檢視，有助於識別自訂轉換路徑，並可用於改善透過Audience Manager導致轉換的事件順序 [!DNL Audience Optimization Reports] 或透過 [[!DNL Audience Analytics] 與Adobe Analytics整合](/help/integrations/audience-manager/audience-analytics.md).
-
-## 如何追蹤資料
-
-Audience Manager曝光次數和點選事件畫素會以Cookie為基礎。 畫素不會擷取在無Cookie環境中發生的事件，例如行動應用程式和連線電視(CTV)。
-
-### 曝光追蹤畫素
-
-當您在廣告中附加1xl-pixel透明事件追蹤畫素時，Audience Manager會追蹤廣告的曝光資料。 每次向使用者提供廣告並由網頁瀏覽器載入時，都會載入事件畫素。 此畫素是從使用者端特定的子網域載入 [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)，這是Audience Manager的舊版網域，包含索引鍵值配對的引數。 事件呼叫會收集曝光次數和轉換資料，並傳送至Audience Manager資料收集伺服器。
-
-### 點選追蹤畫素
-
-Audience Manager追蹤的點按次數與曝光數類似，不同之處在於它不會在每次提供廣告時載入透明事件畫素。 相反地，點選資料會在廣告的點進URL中進行追蹤。 廣告指向的使用者端特定子網域： [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)，這是Audience Manager的舊網域，可供Audience Manager資料收集伺服器處理。 然後，伺服器會將使用者重新導向至預期的登陸頁面。 URL包含作為機碼值組的引數。
+DSP不会向您收取向Audience Manager发送这些信号的费用。 但是，您会根据Audience Manager合同，根据服务器调用支付标准的Audience Manager引入成本。 Audience Manager会删除以两种不同的方式跟踪的重复事件，以便每个事件只计费一次。
 
 >[!NOTE]
 >
->如果您的組織使用 [!DNL Analytics] ，則您可能不需要Audience Manager點選追蹤。 Adobe Analytics會擷取點選訊號，並透過將其傳送給Audience Manager [伺服器端轉送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+> Audience Manager还支持从ad server日志文件捕获数据，这提供了较低的灵活性。 本文档未介绍该流程。
+
+## 主要优势
+
+* DSP Campaign数据会实时流入Audience Manager，您可以使用该数据构建用于定义区段的基于规则的特征。
+
+* 区段可在用户特征和区段鉴别后立即定位，从而支持实时定位工作。
+
+* 您可以将促销活动数据用于各种用例，例如跨创意内容设置频率上限、重新定位曾接触过先前促销活动的用户，以及分析下游网站行为和入口点。
+
+* 聚合的数据可提供营销活动性能的统一视图，帮助识别自定义转化路径，并可用于改进通过Audience Manager导致转化的事件序列 [!DNL Audience Optimization Reports] 或通过 [[!DNL Audience Analytics] 与Adobe Analytics集成](/help/integrations/audience-manager/audience-analytics.md).
+
+## 如何跟踪数据
+
+Audience Manager展示和点击事件像素基于Cookie。 像素不会捕获在无Cookie环境中发生的事件，例如移动应用程序和连接的TV (CTV)。<!-- Verify if this is still correct. -->
+
+### 展示跟踪像素
+
+在将1xl像素透明事件跟踪像素附加到广告时，Audience Manager会跟踪广告的展示数据。 每次将广告提供给用户并由Web浏览器加载时，都会加载事件像素。 像素从特定于客户端的子域加载 [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)，这是用于Audience Manager的旧版域，包含作为键值对的参数。 该事件调用会收集展示和转化数据，并将其发送到Audience Manager数据收集服务器。
+
+### 点击跟踪像素
+
+Audience Manager跟踪点击次数的方式与跟踪展示次数类似，不同之处在于，它不会在每次提供广告时加载透明事件像素。 相反，会在广告的点进URL中跟踪点击数据。 广告指向特定于客户端的子域 [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)，这是用于Audience Manager的旧版域，由Audience Manager数据收集服务器处理。 然后，服务器将用户重定向到预期的登陆页面。 URL包含作为键值对的参数。
+
+>[!NOTE]
+>
+>如果您的组织使用 [!DNL Analytics] 之后，您可能不需要Audience Manager点击跟踪。 Adobe Analytics可捕获点击信号，并可将其发送给Audience Manager [服务器端转发](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
 >[!MORELIKETHIS]
 >
->* [收集來自Advertising DSP Campaigns的點選和曝光資料](collect.md)
->* [使用案例](use-cases.md)
-
+>* [从Advertising DSP促销活动中收集点击和展示数据](collect.md)
+>* [用例](use-cases.md)
