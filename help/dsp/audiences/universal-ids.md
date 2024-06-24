@@ -3,9 +3,9 @@ title: 支持激活通用ID
 description: 了解在以下支持方面的支持：导入通用ID区段，创建自定义区段以跟踪通用ID，以及将第一方区段中的其他用户标识符转换为通用ID以实现无痕定位。
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: d3991123110617968ce858fd76c12fa039acc2d6
+source-git-commit: db21fa1ed9daab9070fa1ce7740dd5dbaa0f3a2f
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ DSP支持基于人员的通用ID，以便跨DSP支持的数字格式进行无coo
 
 * 您可以创建自定义区段，以跟踪与从桌面和移动设备中展示广告以及访问特定网页的ID5通用ID关联的用户。 ID5使用概率模型来分配从各种用户信号和浏览器信号派生的ID。 有关说明，请参阅&quot;[创建和实施自定义区段](/help/dsp/audiences/custom-segment-create.md)“
 
-* 来自的第三方区段 [!DNL Eyeota] 除了Cookie或设备ID跟踪的用户之外，其他一些供应商可能会自动包含ID5 ID。 区段详细信息包括每种类型的大小。 每个区段通常收取的使用费（在区段名称旁边列出）将适用；ID5 ID无需额外付费。
+* 除了由Cookie或设备ID跟踪的用户之外，某些供应商提供的第三方区段还可以自动包含通用ID。 例如，以下项的区段： [!DNL Eyeota] 可能会自动包含ID5 ID，以及以下项的区段： [!DNL Lotame] 可能包括UID2.0 ID。 区段详细信息包括每种类型的大小。 每个区段通常收取的使用费（在区段名称旁边列出）将适用；ID5 ID无需额外付费。
 
 ## 按通用ID类型报告
 
