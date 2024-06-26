@@ -3,9 +3,9 @@ title: 认证广告服务合作伙伴
 description: 查看所有认证的广告服务器和广告单元。
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 8dc79126a63f2c20f8fdaa666c0197ec6583b78e
+source-git-commit: 1c9c7ff2340d4abf4c64f015172b5e0a33b3e1fe
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [!DNL Eyereturn] | | X | | | |
 | [!DNL Flashtalking] | X | X | | X | |
 | [!DNL Frequency] | X | | | | |
-| [!DNL Gum Gum] | | | X | | |
+| [!DNL GumGum] | | | X | | 插槽内挂起时间：21x21，插槽内挂起时间移动视频：22x22，插槽内挂起时间台式机：24x24，插槽内悬停板：25x25，插槽内速度：26x26，超级外观：29x29，屏幕内可扩展角：20x20 |
 | [!DNL HUMAN] (以前称为 [!DNL White Ops]) | X | X | | X | |
 | [!DNL IAS] | X | X | | X | |
 | [!DNL IBM] | | X | | X | |
