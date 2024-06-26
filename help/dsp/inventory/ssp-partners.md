@@ -3,9 +3,9 @@ title: SSP合作伙伴
 description: 查看可用供应方平台(SSP)和开放交换合作伙伴的列表。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 417d88b1d21d450e0b77e561ba9547bb41a68a4c
+source-git-commit: fc58392d060e97f99b12ef41b96c09a0e3fb9aa1
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 | [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | 否 | US/CA | 美元 | x | x | x | x | x |  |  |
 | [!DNL FreeWheel] (以前称为 [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] 或Adobe Advertising | 是 | 全局 | 美元、欧元、澳元、英镑 | x | x | x |  |  |  |  |
 | [!DNL Google Authorized Buyers] (以前称为 [!DNL Google AdX]) | [!DNL Google] | ADOBENA - 44912714<br>AdobeAPAC和欧盟 — 89185975 | 是 | 全局 | 美元，巴西雷亚尔 | x | x | x | x | x |  | x |
-| [!DNL GumGum] |  | Adobe Advertising | 否 | 全局 | 美元 | x | x |  | x | x |  |  |
+| [!DNL GumGum] |  | Adobe Advertising | 否 | 全局 | 美元 | x | x |  | x | x |  | 插槽内挂起时间：21x21，插槽内挂起时间移动视频：22x22，插槽内挂起时间台式机：24x24，插槽内悬停板：25x25，插槽内速度：26x26，超级外观：29x29，屏幕内可扩展角：20x20 |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | 否 | 全局 | 美元 | x | x | x | x | x | | |
 | [!DNL Magnite (Streaming) CTV] | [!DNL Magnite] (以前称为 [!DNL Telaria] 和 [!DNL Tremor]) | [!DNL TubeMogul] 或Adobe Advertising | 是 | 全局 | AUD， USD | x | x | x |  |  |  |  |
 | [!DNL Magnite DV+] | [!DNL Magnite] (以前称为 [!DNL Telaria] 和 [!DNL Tremor]) | [!DNL TubeMogul] 或Adobe Advertising | 是 | 全局 | 美元 | x | x | x | x | x |  | x |
