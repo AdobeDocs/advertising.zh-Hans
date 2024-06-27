@@ -3,7 +3,7 @@ title: 实施 [!DNL Microsoft Advertising] 购物营销活动
 description: 了解用于设置的工作流 [!DNL Microsoft Advertising] 购物营销活动。
 exl-id: fd10237b-864d-4808-8644-3fcb18edebde
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d5d4dee4356d941ea9cae74b9385add00e0480c3
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. [创建广告组](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) ，并为所有广告设置默认竞价。
 
-您可以覆盖单个产品组的默认出价。
+   您可以覆盖单个产品组的默认出价。
 
 1. 为广告组创建产品组：
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    1. 创建 [产品广告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) 替换为 [可能包含在每个购物广告中的促销行](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md) 在广告组内。
 
-      Microsoft Advertising会动态生成每个广告的广告文案和登陆页面URL。
+      Microsoft Advertising会为每个广告动态生成广告副本和登陆页面URL。
 
       >[!NOTE]
       >

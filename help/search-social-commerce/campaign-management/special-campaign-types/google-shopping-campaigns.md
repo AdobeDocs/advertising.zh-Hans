@@ -1,11 +1,11 @@
 ---
 title: 实施 [!DNL Google Ads] 购物营销活动
 description: 了解用于设置的工作流 [!DNL Google Ads] 购物营销活动。
-exl-id: aab61d94-861f-4072-b044-f9ae6759e028
+exl-id: d80370d9-534d-4854-b7d3-1384a84320ad
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 3c702a01df1186e74c4f329a08199ce829be0827
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ ht-degree: 0%
 
 1. 设置您的 [!DNL Google Merchant Center] 并使用产品数据填充该帐户。
 
-1. [允许Search、Social和Commerce从下载数据 [!DNL Google Merchant Center] 帐户](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
+1. [允许搜索、社交和Commerce从以下位置下载数据： [!DNL Google Merchant Center] 帐户](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
 
 1. [创建营销活动](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) 在购物网上。
 
 1. [创建广告组](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) ，并为所有广告设置默认竞价。
 
-您可以覆盖单个产品组的默认出价。
+   您可以覆盖单个产品组的默认出价。
 
 1. 为广告组创建产品组：
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
    1. [编辑营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) 以调整促销活动预算。
 
-      如果营销活动属于项目组合，则项目组合设置»[!UICONTROL Auto adjust campaign budget limits]”允许搜索、社交和商务优化项目组合中所有促销活动的预算。
+      如果营销活动属于项目组合，则项目组合设置»[!UICONTROL Auto adjust campaign budget limits]”允许Search、Social和Commerce优化组合中所有促销活动的预算。
 
    1. [调整现有产品组的最大竞价](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)， [删除产品组](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md) 不再希望为其创建广告，或添加广告 [新增了“所有产品”产品组](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md))或 [新的子产品组](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md) 为其他产品创建广告。
 
