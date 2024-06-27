@@ -3,9 +3,9 @@ title: 将DSP媒体曝光数据发送到Adobe Audience Manager概述
 description: 了解如何使用Audience Manager事件像素从Advertising DSP营销活动中捕获展示级别和点击级别的数据
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-source-git-commit: aec57b49e636d63fc6967af8764ed62f239f31bb
+source-git-commit: c204955ec48826d00a5f78e5be4849f53d09e224
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ DSP不会向您收取向Audience Manager发送这些信号的费用。 但是，
 
 ## 如何跟踪数据
 
-Audience Manager展示和点击事件像素基于Cookie。 像素不会捕获在无Cookie环境（如移动设备应用程序）中发生的事件。<!-- Verify if this is still correct. -->
+Audience Manager展示和点击事件像素基于Cookie。 像素不会捕获在没有Cookie的环境中发生的事件，例如移动应用程序和连接的TV (CTV)。<!-- 6/24: CTV inventory isn't clickable, and impression tracking would be lost when we convert users from IP to cookies. -->
 
 ### 展示跟踪像素
 
@@ -52,5 +52,5 @@ Audience Manager跟踪点击次数的方式与跟踪展示次数类似，不同�
 
 >[!MORELIKETHIS]
 >
->* [从Advertising DSP促销活动中收集点击和展示数据](collect.md)
+>* [从Advertising DSP Campaigns收集点击和展示数据](collect.md)
 >* [用例](use-cases.md)
