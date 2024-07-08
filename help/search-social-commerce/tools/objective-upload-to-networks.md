@@ -1,40 +1,40 @@
 ---
-title: 允许将目标上传到广告网络
-description: 了解如何将混合项目组合的目标上传到 [!DNL Google Ads] 和 [!DNL Microsoft Advertising].
+title: 支持将目标上传到广告网络
+description: 了解如何将混合投资组合 [!DNL Google Ads] 的目标上传到 和 [!DNL Microsoft Advertising]。
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 803f1ad2ad5be005b7dab467efbeb1c4ceaa7559
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
 
-# 允许将目标上传到广告网络
+# 支持将目标上传到广告网络
 
-*广告商使用 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 仅限帐户*
+*Advertisers with [!DNL Google Ads] 和 [!DNL Microsoft Advertising] accounts only*
 
-*仅为混合优化启用的广告商*
+*Advertisers enabled for hybrid optimization only*
 
-Search、Social和Commerce可以将广告商帐户组合的目标上传到 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 以便将其用于混合优化。 您上传的目标可用作帐户级别和营销活动级别自定义转化目标的转化操作。
+Search, Social, &amp; Commerce can upload the objectives for an advertiser account&#39;s portfolios to [!DNL Google Ads] 和 [!DNL Microsoft Advertising] so you can use them for hybrid optimization. Your uploaded objectives are available as conversion actions for account-level and campaign-level custom conversion goals.
 
-启用此选项会自动触发上传项目组合中的目标，其中包含具有智能竞价策略的营销活动。 搜索、社交和Commerce会在广告网络上为每个适用的目标创建一个转化。 转化表示目标中的所有加权转化量度。 每个转换都有以下名称之一：
+Enabling this option automatically triggers an upload for objectives in portfolios that contain campaigns with smart bidding strategies. Search, Social, &amp; Commerce creates a conversion on the ad network for each applicable objective. The conversion represents all weighted conversion metrics in the objective. Each conversion has one of the following names:
 
 * `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`
 
-  位置 `<network_ID>` 是Search、Social和Commerce用于广告网络的数值ID， `<objective_id>` 是数值目标ID，并且 `<network_account_ID>` 是广告网络帐户或经理帐户的数值ID。
+  where `<network_ID>` is the numeric ID that Search, Social, &amp; Commerce uses for the ad network, `<objective_id>` is the numeric objective ID, and `<network_account_ID>` is the numeric ID for the ad network account or manager account.
 
 * （将来将弃用的旧格式） `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`
 
-  位置 `<portfolio_id>` 是数值项目组合ID和 `<se_acctid/conversion_manager_se_acctid>` 是广告网络帐户或经理帐户的数值ID。
+  其中 `<portfolio_id>` ，是数字组合 ID， `<se_acctid/conversion_manager_se_acctid>` 是广告联盟帐户或经理帐户的数字 ID。
 
-  在弃用旧格式之前，您的Adobe客户团队将与您合作，迁移广告网络中的现有转化操作名称。 在迁移期间，新旧格式的上传将并行运行。 建模和优化不会受到影响，因为新的转化操作最初以“次要”（未优化）状态出现，并带有90天的回填数据。
+  您的 Adobe 帐户团队将与您合作，在弃用旧格式之前，在广告联盟中迁移现有的转化操作名称。 在迁移期间，新旧格式上传将并行运行。 模型估算和优化功能不受影响，因为新的转化操作最初显示为“次要”（未优化）状态，并包含 90 天的回填数据。
 
-上传至 [!DNL Google Ads] 在广告商所在时区的每天06:00发生。 上传至 [!DNL Microsoft Advertising] 在广告商所在时区的每天09:00发生。
+Uploads to [!DNL Google Ads] occur daily at 06:00 in the advertiser&#39;s time zone. Uploads to [!DNL Microsoft Advertising] occur daily at 09:00 in the advertiser&#39;s time zone.
 
 >[!IMPORTANT]
 >
->由Google Ads和Microsoft Advertising通用事件跟踪(UET)标记跟踪的转化不会重新上传到广告网络。 如果您将它们包含在目标中，请将其添加到广告网络编辑器中的促销活动目标。
+>Conversions tracked by Google Ads and by the Microsoft Advertising universal event tracking (UET) tag aren&#39;t re-uploaded to the ad networks. If you include them within an objective, add them to the campaign goals within the ad network&#39;s editor.
 
 <!--
 >[!IMPORTANT]
@@ -44,19 +44,35 @@ Search、Social和Commerce可以将广告商帐户组合的目标上传到 [!DNL
 
 <!-- Can conversions from events triggered on other ad networks be included in the portfolio (and just be ignored)? -->
 
-1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
+1. In the main menu, click **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 
-1. 选中旁边的复选框 **[!UICONTROL Enable Objective Upload]**.
+1. Select the check box next to **[!UICONTROL Enable Objective Upload]**.
 
-1. (广告商使用 [!DNL Google Ads] 在欧洲经济区(EEA)或英国(UK)开展业务的帐户；可选)如果您已向EEA和英国用户收集同意以上传其数据用于广告，请选中 **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+1. (Advertisers with [!DNL Google Ads] accounts who do business in the European Economic Area (EEA) or United Kingdom (UK); optional) If you&#39;ve collected consent from EEA and UK users to upload their data for advertising purposes, then select the check box next to **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
 
-1. 单击 **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Save]**.
 
-1. （如果在经理帐户级别跟踪您的转化） [为您的经理帐户添加凭据](/help/search-social-commerce/admin/manager-accounts.md) 在 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
+1. （如果您的转化是在经理帐号一级跟踪的） [在 > [!UICONTROL Admin] > [!UICONTROL Manager Accounts]**上**[!UICONTROL Search]&#x200B;为您的经理帐号](/help/search-social-commerce/admin/manager-accounts.md)添加凭据。
 
-每日上传完成后，您可以验证转化操作是否显示在广告网络中。
+1. 验证每个目标（已命名） `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>` 是否在 2 天内在广告网络上展示。
+
+   在编辑器中 [!DNL Google Ads] ，查找您的 [转化操作](https://support.google.com/google-ads/answer/11461796)。 在编辑器中 [!DNL Microsoft Advertising] ，查找您的 [转化目标](https://help.ads.microsoft.com/#apex/ads/en/56709)。
+
+   If necessary, update the date range to include the upload date.
+
+## Troubleshooting missing objectives
+
+If the objective — named `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>` — for one of your portfolios doesn&#39;t appear on the ad network, then check the following:
+
+* ([!DNL Google Ads]) Check if the conversions should be uploaded to the account or manager level. If they should be uploaded at the manager level:
+
+   * Check if the credentials for the [!DNL Google Ads] manager account is provided at **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**. If necessary, [add the credentials for the manager account](/help/search-social-commerce/admin/manager-accounts.md).
+
+   * Check if the ad network account already includes the same metric name. 如果是，请重命名指标，以便创建正确的经理级媒体资源。
+
+* 检查是否选择了投资组合的“混合”选项，以及目标是否具有有效的收入。
 
 >[!MORELIKETHIS]
 >
->* [关于管理广告商的转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
->* [将转化量度上传到 [!DNL Google Ads]](conversion-metrics-upload-to-google.md)
+>* [管理广告客户的转化指标简介](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
+>* [将转化指标上传到 [!DNL Google Ads]](conversion-metrics-upload-to-google.md)
