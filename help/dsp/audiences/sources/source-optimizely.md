@@ -1,77 +1,74 @@
 ---
-title: 转换用户ID [!DNL Optimizely] 到通用ID
-description: 了解如何启用DSP以摄取 [!DNL Optimizely] 第一方区段。
+title: 将用户 ID 从 ID 转换为 [!DNL Optimizely] 通用 ID
+description: 了解如何启用 DSP 以引入您的 [!DNL Optimizely] 第一方细分受众群。
 feature: DSP Audiences
-source-git-commit: f51f07c1e057eb09c2cad292b2c8062f7d993166
+exl-id: 2c48a874-132a-4e5c-ba24-0e7ab80ac2d4
+source-git-commit: 2c42e8e4b7ca7e0cfaaf7895f067e4ccf7a2a40e
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
 
-# 转换用户ID [!DNL Optimizely] 到通用ID
+# 将用户 ID 从 ID 转换为 [!DNL Optimizely] 通用 ID
 
-*Beta版功能*
+*测试功能*
 
-将DSP与集成 [!DNL Optimizely] 客户数据平台，用于将贵组织的第一方经过哈希处理的电子邮件地址转换为通用ID以进行定向广告。
+将 DSP 与客户数据平台集成， [!DNL Optimizely] 将组织的第一方哈希电子邮件地址转换为通用 ID，以便投放有针对性的广告。
 
-1. (要将电子邮件地址转换为 [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->；广告商使用 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [设置要启用的跟踪 [!DNL Analytics] 测量](#analytics-tracking).
+1. （要将电子邮件地址[!DNL RampIDs]<!-- or [!DNL ID5] IDs -->转换为 ;具有 ） [的广告[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)客户设置跟踪以启用 [!DNL Analytics] 衡量](#analytics-tracking)。
 
-1. [在DSP中创建受众源](#source-create).
+1. [在 DSP](#source-create) 中创建受众来源。
 
-1. [准备和推送区段数据](#push-data).
+1. [准备和推送段数据](#push-data)。
 
-1. [将通用ID的数量与经过哈希处理的电子邮件地址的数量进行比较](#compare-id-count).
+1. [将通用 ID 的数量与经过哈希处理的电子邮件地址](#compare-id-count)的数量进行比较。
 
-## 步骤1：设置跟踪 [!DNL Analytics] 测量 {#analytics-tracking}
+## 第 1 步：设置用于衡量的 [!DNL Analytics] 跟踪 {#analytics-tracking}
 
-*广告商使用 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md))*
+*具有 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)） 的广告主*
 
-要将电子邮件地址转换为 [!DNL RampIDs] 或 [!DNL ID5] ID之后，您必须执行以下操作：
+要将电子邮件地址 [!DNL RampIDs] 转换为 ID [!DNL ID5] 或 ID，您必须执行以下操作：
 
-1. （如果您尚未这样做）完成所有 [实施的先决条件 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) 并确保 [AMO ID和EF ID](/help/integrations/analytics/ids.md) 将在您的跟踪URL中填充。
+1. （如果您尚未这样做）完成实施的所有[先决条件，并确保[在跟踪 URL 中填充 AMO ID 和 EF ID](/help/integrations/analytics/ids.md)。 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)
 
-1. 向通用ID合作伙伴注册，并在您的网页上部署特定于通用ID的代码，以便匹配从桌面和移动Web浏览器（但不包括移动应用程序）上的ID到显示到达次数的转换：
+1. 向通用 ID 合作伙伴注册并在您的网页上部署特定于通用 ID 的代码，以匹配从桌面和移动 Web 浏览器（但不是移动应用）上的 ID 到浏览型的转化：
 
-   * **对象 [!DNL RampIDs]：** 您必须在您的网页上部署一个额外的JavaScript标记，以便匹配从桌面浏览器和移动浏览器（但不是移动应用程序）上的ID到显示到达次数的转换。 请联系您的Adobe客户团队，他们将为您提供注册 [!DNL LiveRamp] [!DNL LaunchPad] 标记自 [!DNL LiveRamp] 身份验证流量解决方案。 注册是免费的，但您必须签署协议。 注册后，您的Adobe客户团队将生成并提供一个唯一标记，供贵组织在网页上实施。
+   * **对于 [!DNL RampIDs]：** 您必须在网页上部署额外的 JavaScript 标记，以便将桌面和移动 Web 浏览器（但不是移动应用）上的 ID 转化为浏览型的转化相匹配。 请联系您的 Adobe 客户团队，他们将指导您注册[!DNL LiveRamp][!DNL LaunchPad]身份验证流量解决方案中的[!DNL LiveRamp]标签。注册是免费的，但您必须签署协议。 注册后，您的 Adobe 帐户团队将生成并提供一个唯一标记，供您的组织在您的网页上实施。
 
-## 步骤2：在DSP中创建受众源 {#source-create}
+## 第 2 步：在 DSP 中创建受众源 {#source-create}
 
-1. [创建受众源](source-manage.md) 将受众导入您的DSP帐户或广告商帐户。 您可以选择将用户标识符转换为 [可用的通用ID格式](source-about.md).
+1. [创建受众群体来源](source-manage.md) ，将受众群体导入您的 DSP 帐号或广告客户帐号。 您可以选择将用户标识符转换为任何 [可用的通用 ID 格式](source-about.md)。
 
-   源设置将包括自动生成的源密钥，您将使用该密钥来推送区段数据。
+   源设置将包括一个自动生成的源密钥，您将使用该密钥推送区段数据。
 
-1. 创建受众源后，请使用以下对象共享源代码密钥 [!DNL Optimizely] 用户。
+1. 创建受众群体来源后，请与 [!DNL Optimizely] 用户共享源代码密钥。
 
-## 步骤3：准备和推送区段数据 {#push-data}
+## 步骤 3：准备和推送分段数据 {#push-data}
 
-广告商必须在他们的帮助下准备和推送数据 [!DNL Optimizely] 代表。
+广告商必须在其 [!DNL Optimizely] 代表的帮助下准备和推送数据。
 
-1. 范围 [!DNL Optimizely Data Platform]，使用SHA-256算法对广告商受众的电子邮件ID进行哈希处理。
+1. 在 中 [!DNL Optimizely Data Platform]，使用 SHA-256 算法对广告客户受众的电子邮件 ID 进行哈希处理。
 
-1. 联系广告商的 [!DNL Optimizely] 代表获取有关将区段推送到DSP的说明。 在推送区段时，请包括以下信息：
+1. 按照 [[!DNL Optimizely's] 说明将分段推送到 DSP](https://support.optimizely.com/hc/en-us/articles/27974930963981-Integrate-Adobe-Ads)。 包括以下信息以启用集成：
 
-   * **源密钥：** 这是在中创建的源密钥 [步骤2](#source-create).
+   * **源密钥：**&#x200B;这是在步骤 2](#source-create) 中创建[的源密钥。
 
-   * **帐户代码：** 这是字母数字DSP帐户代码，您可以在DSP中找到，网址为 [!UICONTROL Settings] > [!UICONTROL Account].
+   * **帐户代码：**&#x200B;这是字母数字 DSP 帐户代码，您可以在 > [!UICONTROL Account]的 [!UICONTROL Settings] DSP 中找到。
 
-区段应在24小时内可在DSP中使用，并根据为广告商配置的内容进行刷新。 无论区段的刷新频率如何，默认情况下，区段中包含的内容会在30天后过期，或者在客户指定的有效期后过期。 通过从重新推送区段来刷新区段 [!DNL Optimizely] 到期之前。 要请求自定义区段过期，请联系您的Adobe客户团队。
+这些细分受众群应在 24 小时内在 DSP 中可用，并按照针对广告客户的配置进行刷新。 无论刷新分段的频率如何，默认情况下，分段中包含的内容都会在 30 天后或客户指定的过期期限之后过期。 通过在到期前重新推送 [!DNL Optimizely] 细分来刷新您的区段。 要请求自定义细分过期，请联系您的 Adobe 帐户团队。
 
-<!--
-Are they using the Data Platform web services, another type of API, or a UI? Add a link to instructions, including how to designate DSP as the destination. And where will they input the DSP-specific fields?]
--->
+## 步骤 4：将通用 ID 的数量与经过哈希处理的电子邮件地址的数量进行比较 {#compare-id-count}
 
-## 步骤4：比较通用ID的数量与经过哈希处理的电子邮件地址的数量 {#compare-id-count}
+完成所有步骤后，请在受众群体库（当您通过 [!UICONTROL Audiences] > [!UICONTROL All Audiences] 或在展示位置设置中创建或编辑受众时可用）中验证该细分是否可用并在 24 小时内填充。 将通用 ID 的数量与原始哈希电子邮件地址的数量进行比较。
 
-完成所有步骤后，在受众库中验证（在从创建或编辑受众时可用） [!UICONTROL Audiences] > [!UICONTROL All Audiences] 区段可用，且会在24小时内填充。 将通用ID的数量与原始经过哈希处理的电子邮件地址的数量进行比较。
+经过哈希处理的电子邮件地址到通用 ID 的转换率应大于 90%。 例如，如果您从客户数据平台发送 100 个经过哈希处理的电子邮件地址，则应将其转换为 90 多个通用 ID。 90% 或更低的翻译率是一个问题。 有关段计数如何变化的更多信息，请参阅“[电子邮件 ID 和通用 ID](#universal-ids-data-variances) 之间数据差异的原因”。
 
-经过哈希处理的电子邮件地址到通用ID的转换率应大于90%。 例如，如果您从客户数据平台发送100个经过哈希处理的电子邮件地址，则应将其转换为90个以上的通用ID。 90%或更低的翻译率是一个问题。 有关区段计数如何变化的更多信息，请参阅&quot;[电子邮件ID与通用ID之间的数据差异原因](#universal-ids-data-variances)“
-
-有关故障排除支持，请联系您的Adobe客户团队或 `adcloud-support@adobe.com`.
+如需疑难解答支持，请联系您的 Adobe 帐户团队或 `adcloud-support@adobe.com`。
 
 >[!MORELIKETHIS]
 >
->* [关于第一方受众源](/help/dsp/audiences/sources/source-about.md)
->* [管理受众源以激活通用ID受众](source-manage.md)
->* [支持激活通用ID](/help/dsp/audiences/universal-ids.md)
->* [关于受众管理](/help/dsp/audiences/audience-about.md)
+>* [第一方受众来源简介](/help/dsp/audiences/sources/source-about.md)
+>* [管理受众来源以激活通用 ID 受众](source-manage.md)
+>* [支持激活通用 ID](/help/dsp/audiences/universal-ids.md)
+>* [受众管理简介](/help/dsp/audiences/audience-about.md)
