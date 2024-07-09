@@ -3,9 +3,9 @@ title: 转换用户ID [!DNL Optimizely] 到通用ID
 description: 了解如何启用DSP以摄取 [!DNL Optimizely] 第一方区段。
 feature: DSP Audiences
 exl-id: 2c48a874-132a-4e5c-ba24-0e7ab80ac2d4
-source-git-commit: 31713da81bbb1eb840de0f8e0d40013b42cd3140
+source-git-commit: 49902a99b78f867dd71c0cd15b97342a70abbc97
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -56,13 +56,15 @@ ht-degree: 0%
 
    * **帐户代码：** 这是字母数字DSP帐户代码，您可以在DSP中找到，网址为 [!UICONTROL Settings] > [!UICONTROL Account].
 
-区段应在24小时内可在DSP中使用，并根据为广告商配置的内容进行刷新。 无论区段的刷新频率如何，默认情况下，区段中包含的内容会在30天后过期，或者在客户指定的有效期后过期。 通过从重新推送区段来刷新区段 [!DNL Optimizely] 到期之前。 要请求自定义区段过期，请联系您的Adobe客户团队。
+区段将按照为广告商配置的内容进行刷新。 无论区段的刷新频率如何，默认情况下，区段中包含的内容会在30天后过期，或者在客户指定的有效期后过期。 通过从重新推送区段来刷新区段 [!DNL Optimizely] 到期之前。 要请求自定义区段过期，请联系您的Adobe客户团队。
 
 ## 步骤4：比较通用ID的数量与经过哈希处理的电子邮件地址的数量 {#compare-id-count}
 
-完成所有步骤后，在受众库中验证（在从创建或编辑受众时可用） [!UICONTROL Audiences] > [!UICONTROL All Audiences] 区段可用，且会在24小时内填充。 将通用ID的数量与原始经过哈希处理的电子邮件地址的数量进行比较。
+区段应在24小时内可在DSP中使用。 DSP收到区段数据后，受众计数应在九(9)小时内可见。
 
-经过哈希处理的电子邮件地址到通用ID的转换率应大于90%。 例如，如果您从客户数据平台发送100个经过哈希处理的电子邮件地址，则应将其转换为90个以上的通用ID。 90%或更低的翻译率是一个问题。 有关区段计数如何变化的更多信息，请参阅&quot;[电子邮件ID与通用ID之间的数据差异原因](#universal-ids-data-variances)“
+验证受众库（从中创建或编辑受众时可用） [!UICONTROL Audiences] > [!UICONTROL All Audiences] ，并将通用ID的数量与原始经过哈希处理的电子邮件地址的数量进行比较。
+
+经过哈希处理的电子邮件地址到通用ID的翻译率应大于90%；的翻译率为 [!DNL RampIDs] 如果所有经过哈希处理的电子邮件地址都是唯一的，则尤其应该为95%。 例如，如果您从客户数据平台发送了100个经过哈希处理的电子邮件地址，则应将其翻译为至少95个 [!DNL RampIDs] 或90多种其他类型的通用ID。 较低的翻译率是个问题。 有关区段计数如何变化的更多信息，请参阅&quot;[电子邮件ID与通用ID之间的数据差异原因](#universal-ids-data-variances)“
 
 有关故障排除支持，请联系您的Adobe客户团队或 `adcloud-support@adobe.com`.
 

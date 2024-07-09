@@ -2,16 +2,17 @@
 title: 转换用户ID [!DNL Amperity] 到通用ID
 description: 了解如何启用DSP以摄取 [!DNL Amperity] 第一方区段。
 feature: DSP Audiences
-source-git-commit: 25bcc2eefa4dc7873ab8189122d43da336e3e046
+exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
+source-git-commit: ed74f3fa3d0036e0dc8a529b05452567527f68a1
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
 
 # 转换用户ID [!DNL Amperity] 到通用ID
 
-*Beta版功能*
+*Beta功能*
 
 将DSP与集成 [!DNL Amperity] 客户数据平台，用于将贵组织的第一方经过哈希处理的电子邮件地址转换为通用ID以进行定向广告。
 
@@ -35,7 +36,7 @@ ht-degree: 0%
 
 1. 向通用ID合作伙伴注册，并在您的网页上部署特定于通用ID的代码，以便匹配从桌面和移动Web浏览器（但不包括移动应用程序）上的ID到显示到达次数的转换：
 
-   * **对象 [!DNL RampIDs]：** 您必须在您的网页上部署一个额外的JavaScript标记，以便匹配从桌面浏览器和移动浏览器（但不是移动应用程序）上的ID到显示到达次数的转换。 请联系您的Adobe客户团队，他们将为您提供注册 [!DNL LiveRamp] [!DNL LaunchPad] 标记自 [!DNL LiveRamp] 身份验证流量解决方案。 注册是免费的，但您必须签署协议。 注册后，您的Adobe客户团队将生成并提供一个唯一标记，供贵组织在网页上实施。
+   * **对象 [!DNL RampIDs]：** 您必须在您的网页上部署额外的JavaScript标记，以便匹配从桌面和移动Web浏览器（但不包括移动应用程序）上的ID到显示到达的转换。 请联系您的Adobe客户团队，他们将为您提供注册 [!DNL LiveRamp] [!DNL LaunchPad] 标记自 [!DNL LiveRamp] 身份验证流量解决方案。 注册是免费的，但您必须签署协议。 注册后，您的Adobe客户团队将生成并提供一个唯一标记，供贵组织在网页上实施。
 
 ## 步骤2：在DSP中创建受众源 {#source-create}
 
@@ -73,13 +74,15 @@ ht-degree: 0%
 
 1. 然后，广告商必须与Adobe客户团队确认已收到区段数据。
 
-区段应在24小时内可在DSP中使用，并根据为广告商配置的内容在中刷新 [!DNL Amperity]. 无论区段的刷新频率如何，默认情况下，区段中包含的内容会在30天后过期，或者在客户指定的有效期后过期。 通过从重新推送区段来刷新区段 [!DNL Amperity] 到期之前。 要请求自定义区段过期，请联系您的Adobe客户团队。
+区段应在24小时内可在DSP中使用。 验证受众库（从中创建或编辑受众时可用） [!UICONTROL Audiences] > [!UICONTROL All Audiences] 区段可用且正在填充的用户档案（或位于版面设置内）。
+
+区段将按照为中的广告商配置的方式刷新 [!DNL Amperity]. 无论区段的刷新频率如何，默认情况下，区段中包含的内容会在30天后过期，或者在客户指定的有效期后过期。 通过从重新推送区段来刷新区段 [!DNL Amperity] 到期之前。 要请求自定义区段过期，请联系您的Adobe客户团队。
 
 ## 步骤5：比较通用ID的数量与经过哈希处理的电子邮件地址的数量 {#compare-id-count}
 
-完成所有步骤后，在受众库中验证（在从创建或编辑受众时可用） [!UICONTROL Audiences] > [!UICONTROL All Audiences] 区段可用，且会在24小时内填充。 将通用ID的数量与原始经过哈希处理的电子邮件地址的数量进行比较。
+DSP收到区段数据后，受众计数应在九(9)小时内可见。 在受众库中（从中创建或编辑受众时可用） [!UICONTROL Audiences] > [!UICONTROL All Audiences] （或者在版面设置内）比较通用ID的数量与原始经过哈希处理的电子邮件地址的数量。
 
-经过哈希处理的电子邮件地址到通用ID的转换率应大于90%。 例如，如果您从客户数据平台发送100个经过哈希处理的电子邮件地址，则应将其转换为90个以上的通用ID。 90%或更低的翻译率是一个问题。 有关区段计数如何变化的更多信息，请参阅&quot;[电子邮件ID与通用ID之间的数据差异原因](#universal-ids-data-variances)“
+经过哈希处理的电子邮件地址到通用ID的翻译率应大于90%；的翻译率为 [!DNL RampIDs] 如果所有经过哈希处理的电子邮件地址都是唯一的，则尤其应该为95%。 例如，如果您从客户数据平台发送了100个经过哈希处理的电子邮件地址，则应将其翻译为至少95个 [!DNL RampIDs] 或90多种其他类型的通用ID。 较低的翻译率是个问题。 有关区段计数如何变化的更多信息，请参阅&quot;[电子邮件ID与通用ID之间的数据差异原因](#universal-ids-data-variances)“
 
 有关故障排除支持，请联系您的Adobe客户团队或 `adcloud-support@adobe.com`.
 
