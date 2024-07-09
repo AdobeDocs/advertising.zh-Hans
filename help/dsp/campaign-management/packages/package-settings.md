@@ -3,9 +3,9 @@ title: 包设置
 description: 请参阅有关可用包设置的说明。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 1ae55a0c4750e25429c954c406352b2235805016
+source-git-commit: 5a173c53bdd0a5673c968b1ebc6348a40e99c80c
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -120,12 +120,10 @@ ht-degree: 0%
 对于现有文件包，您可以根据需要在 [!UICONTROL Rollover] 列，用于为下一张航班添加潜在的未用预算。 中的预计值 [!UICONTROL Adjusted Goal (Goal + Rollover)] 列将被相应更改。<!-- clarify usage -->
 
 >[!MORELIKETHIS]
-
-对于
->>
-* [关于包管理](package-about.md)
+>
+>* [关于包管理](package-about.md)
 >* [创建资源包](package-create.md)
-* [编辑包](package-edit.md)
-* [将投放位置附加到包](package-attach-placement.md)
-* [查看包的更改日志](package-change-log.md)
-* [关于Campaign Management的常见问题解答](/help/dsp/campaign-management/faq-campaign-management.md)
+>* [编辑包](package-edit.md)
+>* [将投放位置附加到包](package-attach-placement.md)
+>* [查看包的更改日志](package-change-log.md)
+>* [关于Campaign Management的常见问题解答](/help/dsp/campaign-management/faq-campaign-management.md)
