@@ -3,9 +3,9 @@ title: 包设置
 description: 请参阅有关可用包设置的说明。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 6e4416f7a46c6d7e9a4c680c850f81ef836f9f7a
+source-git-commit: 1ae55a0c4750e25429c954c406352b2235805016
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -115,13 +115,17 @@ ht-degree: 0%
 
 (具有包级别步调和带&quot;[!UICONTROL Activate Custom Flighting]”已启用)整个中的自定义投放期限 [!UICONTROL Flight Dates] 指定于 [!UICONTROL Goals & Budget] 部分。
 
-对于每个航班，输入开始日期、结束日期和目标展示次数。 要添加其他航班，请单击 **[!UICONTROL Add Flight]**.
+对于每个航班，输入开始日期、结束日期和目标支出目标。 要添加其他航班，请单击 **[!UICONTROL Add Flight]**.
+
+对于现有文件包，您可以根据需要在 [!UICONTROL Rollover] 列，用于为下一张航班添加潜在的未用预算。 中的预计值 [!UICONTROL Adjusted Goal (Goal + Rollover)] 列将被相应更改。<!-- clarify usage -->
 
 >[!MORELIKETHIS]
->
->* [关于包管理](package-about.md)
+
+对于
+>>
+* [关于包管理](package-about.md)
 >* [创建资源包](package-create.md)
->* [编辑包](package-edit.md)
->* [将投放位置附加到包](package-attach-placement.md)
->* [查看包的更改日志](package-change-log.md)
->* [关于Campaign Management的常见问题解答](/help/dsp/campaign-management/faq-campaign-management.md)
+* [编辑包](package-edit.md)
+* [将投放位置附加到包](package-attach-placement.md)
+* [查看包的更改日志](package-change-log.md)
+* [关于Campaign Management的常见问题解答](/help/dsp/campaign-management/faq-campaign-management.md)
