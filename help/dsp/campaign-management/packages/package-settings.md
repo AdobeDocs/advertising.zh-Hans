@@ -3,9 +3,9 @@ title: 包设置
 description: 请参阅有关可用包设置的说明。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 5a173c53bdd0a5673c968b1ebc6348a40e99c80c
+source-git-commit: a8227e42c49e30d6b73daf51e4f62da05f6508f3
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -38,14 +38,14 @@ ht-degree: 0%
 
 * **[!UICONTROL Placement level pacing]：**  此步调策略的运行方式是步调和限制所有包含的投放位置 *单独*. 最佳做法是，仅将此策略用于执行有保证的私人市场交易。
 
-**[!UICONTROL Flight Dates]：** 包的开始日期和结束日期。
-
-要选择性地为包创建非匀速飞行，请选择 *[!UICONTROL *Activate Custom Flighting]**并在以下位置设置自定义航班： [!UICONTROL Flighting] 部分。 启用自定义灯光并保存包后，将无法禁用自定义灯光。
+**[!UICONTROL Flight Dates]：** 资源包的总开始日期和结束日期。 投放日期必须包含在营销活动投放日期中。
 
 >[!NOTE]
 >
->* 投放日期必须包含在营销活动投放日期中。 此外，分配给此包的所有投放位置的投放日期必须包含在这些日期中。
+>* 分配到此包的所有投放位置的投放日期必须包含在这些日期中。
 > * 激活自定义飞行时，无法编辑程序包开始日期。
+
+**[!UICONTROL *Activate Custom Flighting]：** 允许您在中为包创建非匀速飞行 [!UICONTROL Flighting] 部分。 启用自定义灯光并保存包后，您既无法禁用自定义灯光，也无法编辑包的开始日期。
 
 **[!UICONTROL Budget]：** （仅具有包级别步调的包）总预算上限和预算间隔。
 
