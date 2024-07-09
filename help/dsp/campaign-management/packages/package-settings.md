@@ -3,7 +3,7 @@ title: 包设置
 description: 请参阅有关可用包设置的说明。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 78b8f6cd689e5faf4b0cbd2b41983b00663448a4
+source-git-commit: 644847918f6f6dd86dec80ad89128c31a0c0284b
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 **[!UICONTROL 3rd Party Billed Fees]：** （可选）作为不可计费成本跟踪的静态第三方费用：
 
+* **[!UICONTROL CPM]：** 每1000次展示的成本(CPM)。
+
+* **[!UICONTROL Description]：** CPM费用的描述。
+
 >[!NOTE]
 >
 >可记帐费用反映在 [!UICONTROL Net CPM] 量度。
->
-* **[!UICONTROL CPM]：** 每1000次展示的成本(CPM)。
-
-* **[!UICONTROL CPM Description]：** CPM费用的描述。
 
 您可以在以下位置覆盖包级别设置： [投放级别](/help/dsp/campaign-management/placements/placement-settings.md).
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 >* 分配到此包的所有投放位置的投放日期必须包含在这些日期中。
 > * 激活自定义飞行时，无法编辑程序包开始日期。
 
-**[!UICONTROL Activate Custom Flighting]：** 允许您在中为包创建非匀速飞行 [!UICONTROL Flighting] 部分。 启用自定义灯光并保存包后，您既无法禁用自定义灯光，也无法编辑包的开始日期。
+**[!UICONTROL *Activate Custom Flighting]：** 允许您在中为包创建非匀速飞行 [!UICONTROL Flighting] 部分。 启用自定义灯光并保存包后，您既无法禁用自定义灯光，也无法编辑包的开始日期。
 
 **[!UICONTROL Budget]：** （仅具有包级别步调的包）总预算上限和预算间隔。
 
