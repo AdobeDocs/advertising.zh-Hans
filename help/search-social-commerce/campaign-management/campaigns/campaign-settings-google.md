@@ -3,9 +3,9 @@ title: ’[!DNL Google Ads] 营销活动设置
 description: 引用设置 [!DNL Google Ads] 营销活动。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: fd5a78a0eb2982ee85ca2d2b6a3cd79a0821d965
+source-git-commit: 977314f07d1299d9b94680861b046161bb444228
 workflow-type: tm+mt
-source-wordcount: '2424'
+source-wordcount: '2450'
 ht-degree: 0%
 
 ---
@@ -359,13 +359,9 @@ ht-degree: 0%
 
 >[!TIP]
 >
->对于将目标上传到广告网络的混合项目组合中的营销活动，最佳实践是使用与项目组合目标中的转化目标匹配的营销活动级别目标。 但是，如果营销活动目标包括 [!DNL Google]-tracked转化，然后将其添加到 [!DNL Google Ads] 编辑者，因为它们不会重新上传到具有目标的广告网络。 此外，在 [!DNL Google Ads] 编辑者，通过将促销活动的转化操作标记为次要（而非主要）目标来删除帐户默认目标。
-
-<!-- Check on this:
->If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>如果促销活动是混合项目组合的一部分，则最佳实践是使用与项目组合目标中的转化目标匹配的促销活动级别目标；包括其他转化目标可能会影响项目组合性能。
 >
->The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
--->
+>但是，对于混合项目组合中的营销活动，您 [将目标上传到广告网络](/help/search-social-commerce/tools/objective-upload-to-networks.md)，请在广告网络的编辑器中（而不是此处）执行以下操作：a)添加上传的搜索、社交和Commerce组合目标量度（以“O_ACS_OBJ”开头）作为促销活动的转化操作，以及b)添加任何包含以下促销活动目标的活动 [!DNL Google]跟踪的转化，因为广告网络跟踪的量度没有上传到具有目标的广告网络。
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: 允许将目标上传到广告网络
 description: 了解如何将混合项目组合的目标上传到 [!DNL Google Ads] 和 [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: d703b0d0134dbd16b2672b13d2ea63e4f102e105
+source-git-commit: 39936c6834012432447d3216d8463937996b0017
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 Search、Social和Commerce可以将广告商帐户组合的目标上传到 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 以便将其用于混合优化。 您上传的目标可用作帐户级别和营销活动级别自定义转化目标的转化操作。
 
-启用此选项会自动触发上传项目组合中的目标，其中包含具有智能竞价策略的营销活动。 搜索、社交和Commerce会在广告网络上为每个适用的目标创建一个转化。 转化表示EF ID（点击ID）级别的目标中的所有加权转化量度。 每个转换都有以下名称之一：
+启用此选项会自动触发上传项目组合中的目标，其中包含具有智能竞价策略的营销活动。 搜索、社交和Commerce会在广告网络上为每个适用的目标创建一个转化。 转化表示EF ID（点击ID）级别的目标中的所有加权转化量度。 对象 [!DNL Google Ads] 单击时，EF ID为 [!DNL Google Ads] `gclid`；用于 [!DNL Microsoft Advertising] 单击时，EF ID为 [!DNL Microsoft Advertising] `msclkid`. 由于此点击ID，转化数据可以映射到特定的关键字并单击时间。
+
+每个上载的转换都有以下名称之一：
 
 * `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`
 
@@ -34,15 +36,7 @@ Search、Social和Commerce可以将广告商帐户组合的目标上传到 [!DNL
 
 >[!IMPORTANT]
 >
->由Google广告和Microsoft Advertising通用事件跟踪(UET)标记跟踪的转化不会重新上传到广告网络。 如果您将它们包含在目标中，请将其添加到广告网络编辑器中的促销活动目标。
-
-<!--
->[!IMPORTANT]
->
->Objectives for hybrid portfolios may include conversion goals from multiple ad networks and other types of conversion metrics. However, the individual campaigns in the portfolio can't include conversion goals that aren't included in the portfolio's objective; using additional conversion goals may impact portfolio performance.
--->
-
-<!-- Can conversions from events triggered on other ad networks be included in the portfolio (and just be ignored)? -->
+>由Google广告和Microsoft Advertising通用事件跟踪(UET)标记跟踪的转化不会重新上传到广告网络。 如果您将它们包含在目标中，则必须将它们添加到广告网络编辑器中的促销活动目标。
 
 1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 

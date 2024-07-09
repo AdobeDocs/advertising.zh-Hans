@@ -3,9 +3,9 @@ title: ’[!DNL Microsoft Advertising] 营销活动设置
 description: 引用设置 [!DNL Microsoft Advertising] 营销活动。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 41feb7c717307bc716236517320bdfe7e98c45ab
+source-git-commit: 096271a2e9daddc20f7f5f4e0063fda21974c8a1
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '2001'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
   保存具有此竞价策略的品牌的购物营销活动后，便无法更改竞价策略。 对于其他购物营销活动类型，此策略仅适用于新营销活动。
 
-* *[!UICONTROL CPV]* （仅限受众CTV视频促销活动）使用每次查看成本(CPV)模型。 <!-- Campaigns with this bid strategy aren't optimized when they're included in portfolios. -->
+* *[!UICONTROL CPV]* （仅限受众CTV视频促销活动）使用每次查看成本(CPV)模型。 搜索、Social和Commerce不提供对项目组合中包含的采用此竞价策略的促销活动的优化。
 
 * *[!UICONTROL Enhanced CPC]：* （受众、搜索和购物网络上的营销活动）使用广告网络的增强型每次点击成本(eCPC)模型，该模型允许广告网络自动更改每次点击成本(CPC)竞价，从而尝试使用广告网络内指定的转化(不在“搜索”、“社交”和“Commerce”中)来最大限度地提高转化率，同时尝试将平均CPC保持在最大CPC以下。
 
@@ -301,13 +301,9 @@ ht-degree: 0%
 
 >[!TIP]
 >
->对于您将其目标上传到广告网络的混合项目组合，最佳实践是使用与项目组合目标中的转化目标匹配的营销活动级别目标。 但是，如果促销活动目标包含由跟踪的转化 [!DNL Microsoft Advertising] 通用事件跟踪(UET)标记，然后将其添加到中 [!DNL Microsoft Advertising] 编辑者，因为它们不会重新上传到具有目标的广告网络。 此外，在 [!DNL Microsoft Advertising] 编辑者，通过取消选择“包含在转化中”，删除作为帐户默认目标的营销活动的转化操作。
-
-<!-- Check on this:
->If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>如果促销活动是混合项目组合的一部分，则最佳实践是使用与项目组合目标中的转化目标匹配的促销活动级别目标；包括其他转化目标可能会影响项目组合性能。
 >
->The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
--->
+> 但是，对于混合项目组合中的营销活动，您 [将目标上传到广告网络](/help/search-social-commerce/tools/objective-upload-to-networks.md)，请在广告网络的编辑器中而不是此处执行以下操作：a)添加上传的搜索、社交和Commerce组合目标量度（以“O_ACS_OBJ”开头）作为促销活动的转化目标，以及b)添加任何包含由跟踪的转化的促销活动目标。 [!DNL Microsoft Advertising] 通用事件跟踪(UET)标记，因为广告网络跟踪的量度没有上传到具有目标的广告网络。
 
 >[!MORELIKETHIS]
 >
