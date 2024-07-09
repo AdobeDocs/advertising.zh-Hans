@@ -3,9 +3,9 @@ title: 包设置
 description: 请参阅有关可用包设置的说明。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: a8227e42c49e30d6b73daf51e4f62da05f6508f3
+source-git-commit: c2de7424ecae0ad30792eaa459c8d9bfd3ff3b7c
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Flighting]
 
-(具有包级别步调和带&quot;[!UICONTROL Activate Custom Flighting]”已启用)整个中的自定义投放期限 [!UICONTROL Flight Dates] 指定于 [!UICONTROL Goals & Budget] 部分。
+（具有包级别步调的包）包的投放周期，包括整个包内的任何自定义投放周期 [!UICONTROL Flight Dates] 用于包。 仅当满足以下条件时，您才可以配置自定义航班 [!UICONTROL Activate Custom Flighting] 选项在中启用 [!UICONTROL Goals & Budget] 部分。
 
-对于每个航班，输入开始日期、结束日期和目标支出目标。 要添加其他航班，请单击 **[!UICONTROL Add Flight]**.
+**[DNL航班N]：** (仅在 [!UICONTROL Activate Custom Flighting] 选项)对于每次飞行，指定开始日期、结束日期和目标支出目标。 要添加其他航班，请单击 **[!UICONTROL Add Flight]**.
 
 对于现有文件包，您可以根据需要在 [!UICONTROL Rollover] 列，用于为下一张航班添加潜在的未用预算。 中的预计值 [!UICONTROL Adjusted Goal (Goal + Rollover)] 列将被相应更改。<!-- clarify usage -->
 
