@@ -3,22 +3,20 @@ title: 使用 [!DNL Roku] 库存
 description: 了解DSP与的合作伙伴关系 [!DNL Roku]，包括库存选项、经批准的第三方跟踪供应商以及 [!DNL Roku]特定于投放位置。
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
+source-git-commit: 5427b476d8475c1f6863d5227df45685c39da297
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
 # 使用 [!DNL Roku] 库存
 
-Advertising DSP在以下位置提供广告的独特功能： [!DNL Roku].
+Advertising DSP在以下位置提供广告功能： [!DNL Roku].
 
 ## DSP和 [!DNL Roku] 伙伴关系
 
-Roku和DSP具有独特的合作伙伴关系，符合您的 [!DNL DSP] 受众到 [!DNL Roku] 1:1确定性受众定位的ID [!DNL Roku] 库存。
-
-在Roku自己的DSP (OneView)之外，Advertising DSP可以单独访问这些定位功能。 Advertising DSP也是唯一有权测量的DSP [!DNL Roku] 在连接至所有其它电视(CTV)的库存旁边提供。 因为 [!DNL Roku] 不共享所有标准RTB和印象像素信号，任何其他DSP都不能跨Roku销售的CTV源定位或测量。
+此 [!DNL Roku] 并且DSP合作伙伴关系与您的 [!DNL DSP] 受众到 [!DNL Roku] 1:1确定性受众定位的ID [!DNL Roku] 库存。
 
 ## [!DNL Roku] 清单选项
 
@@ -53,7 +51,7 @@ Roku和DSP具有独特的合作伙伴关系，符合您的 [!DNL DSP] 受众到 
 
 在DSP营销活动中， [创建 [!DNL Roku]特定于投放位置](/help/dsp/campaign-management/placements/placement-create.md) 使用投放位置类型»[!UICONTROL Connected TV (Roku)]“ 包括 [!DNL Roku] 中的投放位置 [!DNL Roku]具有已定义目标的特定资源包。
 
-每个 [!DNL Roku] 投放位置必须至少定向一个 [!DNL Roku] 交易或来源。 要将DSP独特受众匹配与 [!DNL Roku]，包括一个或多个可与匹配的受众区段 [!DNL Roku] （选择启用）确定性数据集。
+每个 [!DNL Roku] 投放位置必须至少定向一个 [!DNL Roku] 交易或来源。 要将DSP受众匹配与结合使用，请执行以下操作 [!DNL Roku]，包括一个或多个可与匹配的受众区段 [!DNL Roku] （选择启用）确定性数据集。
 
 ### [!DNL Roku] — 批准的第三方跟踪供应商
 
