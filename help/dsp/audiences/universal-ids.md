@@ -3,9 +3,9 @@ title: 支持激活通用ID
 description: 了解在以下支持方面的支持：导入通用ID区段，创建自定义区段以跟踪通用ID，以及将第一方区段中的其他用户标识符转换为通用ID以实现无痕定位。
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 42cfd98f3ef4145f5ac44e955a9b2f08a698f239
+source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1500'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ DSP支持基于人员的通用ID，以便跨DSP支持的数字格式进行无coo
 
 * 在激活区段大约24小时后，检查内该区段的转换ID计数 [!UICONTROL Audiences] > [!UICONTROL All Audiences]. 如果ID计数异常，请联系您的Adobe客户团队。
 
-  请参阅&quot;[电子邮件ID与通用ID之间的数据差异原因](#universal-ids-data-variances)”以了解有关区段计数如何变化的更多信息。
+  请参阅&quot;[电子邮件ID与通用ID之间的数据差异](#universal-ids-data-variances)”以了解有关区段计数如何变化的更多信息。
 
 * 请勿更改现有包和投放位置。 但是，如果您没有任何用于测试通用ID的增量预算，请减少原始预算以资助测试。
 
@@ -96,15 +96,21 @@ DSP支持基于人员的通用ID，以便跨DSP支持的数字格式进行无coo
 
 * 请记住，经过身份验证的受众区段的访问范围自然小于基于Cookie的区段的访问范围，使用其他定位选项会进一步减少您的访问范围。 谨慎使用粒度定位，尤其是使用AND语句连接多个目标。
 
-## 电子邮件ID与通用ID之间的数据差异原因 {#universal-ids-data-variances}
+## 电子邮件ID与通用ID之间的数据差异 {#universal-ids-data-variances}
+
+### 可接受差异级别
+
+经过哈希处理的电子邮件地址到通用ID的翻译率应大于90%；的翻译率为 [!DNL RampIDs] 如果所有经过哈希处理的电子邮件地址都是唯一的，则尤其应该为95%。 例如，如果您从客户数据平台发送了100个经过哈希处理的电子邮件地址，则应将其翻译为至少95个 [!DNL RampIDs] 或90多种其他类型的通用ID。 较低的翻译率可能表示存在问题。 请参阅&quot;[差异原因](#universal-ids-data-variances-causes”以了解可能的解释。
+
+对象 [!DNL RampIDs]，请联系您的Adobe客户团队以进一步了解翻译率是否低于70%。
+
+### 差异原因 {#universal-ids-data-variances-causes}
 
 * 转换为ID5 ID的经过哈希处理的电子邮件ID：
 
   概率模型的误差方差为+/-5%。 这意味着它可能高估或低估受众数量5%。
 
 * 翻译为的哈希电子邮件ID [!DNL RampIDs]：
-
-  经过哈希处理的电子邮件地址的翻译比率 [!DNL RampIDs] 如果所有经过哈希处理的电子邮件地址都是唯一的，则应该为95%。 对于低于70%的翻译率，请与您的Adobe客户团队联系，以进一步调查。
 
    * 如果多个用户档案使用相同的电子邮件ID，则DSP区段计数可能低于客户数据平台中的用户档案计数。 例如，在Adobe Photoshop中，您可以使用单个电子邮件ID创建公司帐户和个人帐户。 但是，如果两个用户档案都属于同一个人，则用户档案会映射到同一个电子邮件ID，并相应地映射到一个ID [!DNL RampID].
 
