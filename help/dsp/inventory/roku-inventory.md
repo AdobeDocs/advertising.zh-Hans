@@ -3,9 +3,9 @@ title: 使用 [!DNL Roku] 库存
 description: 了解DSP与的合作伙伴关系 [!DNL Roku]，包括库存选项、经批准的第三方跟踪供应商以及 [!DNL Roku]特定于投放位置。
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 5427b476d8475c1f6863d5227df45685c39da297
+source-git-commit: f3099c84fe2d6b1610ddf4ca07d59b119718afee
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Advertising DSP在以下位置提供广告功能： [!DNL Roku].
 
-## DSP和 [!DNL Roku] 伙伴关系
+## 受众匹配
 
 此 [!DNL Roku] 并且DSP合作伙伴关系与您的 [!DNL DSP] 受众到 [!DNL Roku] 1:1确定性受众定位的ID [!DNL Roku] 库存。
 
@@ -26,12 +26,12 @@ Advertising DSP在以下位置提供广告功能： [!DNL Roku].
 >
 >[!DNL Roku] 库存在开放的市场和交易所不可用。
 
-* 对于你的私人交易， [在DSP中设置有关交易ID的信息](/help/dsp/inventory/deal-id-create.md) 然后定位”[!UICONTROL Roku Network – Audience]”和“[!UICONTROL The Roku Channel – Audience]“ within [!DNL Roku] 投放位置。<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
+* 对于你的私人交易， [在DSP中设置有关交易ID的信息](/help/dsp/inventory/deal-id-create.md) 然后定位”[!UICONTROL Roku Network - Audience]”和“[!UICONTROL The Roku Channel - Audience]“ within [!DNL Roku] 投放位置。<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
 * 您可以 [订阅以下内容 [!DNL Roku] 中的库存 [!DNL On Demand] 图库](/help/dsp/inventory/on-demand-inventory-subscribe.md)，然后在中定位任何批准的交易 [!DNL Roku] 投放位置：
 
-   * &quot;[!UICONTROL Roku Network – Audience]”用于跨以下区域进行清点 [!DNL Roku] 与优质内容合作伙伴建立的生态系统，例如 [!DNL The CW]， [!DNL ABC]、和 [!DNL ESPN].
-   * &quot;[!UICONTROL The Roku Channel – Audience]“（表示） [!DNL Roku] 自有和运营(O&amp;O)应用程序内容。
+   * &quot;[!UICONTROL Roku Network - Audience]”用于跨以下区域进行清点 [!DNL Roku] 与优质内容合作伙伴建立的生态系统，例如 [!DNL The CW]， [!DNL ABC]、和 [!DNL ESPN].
+   * &quot;[!UICONTROL The Roku Channel - Audience]“（表示） [!DNL Roku] 自有和运营(O&amp;O)应用程序内容。
 
 ### 使用自定义私有市场的优势 [!DNL Roku]
 
