@@ -3,9 +3,9 @@ title: 转换用户ID [!DNL Optimizely] 到通用ID
 description: 了解如何启用DSP以摄取 [!DNL Optimizely] 第一方区段。
 feature: DSP Audiences
 exl-id: 2c48a874-132a-4e5c-ba24-0e7ab80ac2d4
-source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
+source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -62,11 +62,13 @@ ht-degree: 0%
 
 区段应在24小时内可在DSP中使用。 DSP收到区段数据后，受众计数应在九(9)小时内可见。
 
-验证受众库（从中创建或编辑受众时可用） [!UICONTROL Audiences] > [!UICONTROL All Audiences] ，并将通用ID的数量与原始经过哈希处理的电子邮件地址的数量进行比较。
+验证受众库（从中创建或编辑受众时可用） [!UICONTROL Audiences] > [!UICONTROL All Audiences] ，并将通用ID的数量与原始经过哈希处理的电子邮件地址的数量进行比较。 有关可接受的ID转换率以及区段计数发生变化的原因的信息，请参阅[电子邮件ID与通用ID之间的数据差异](#universal-ids-data-variances)“
 
-有关可接受的ID转换率以及区段计数发生变化的原因的信息，请参阅[电子邮件ID与通用ID之间的数据差异](#universal-ids-data-variances)“
+## 故障排除
 
-有关故障排除支持，请联系您的Adobe客户团队或 `adcloud-support@adobe.com`.
+要排查翻译率和用户计数问题，请参阅&quot;[支持激活通用ID](/help/dsp/audiences/universal-ids.md)“
+
+要排除转换过程的问题，请联系您的Adobe客户团队或 `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >

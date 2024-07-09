@@ -3,9 +3,9 @@ title: 转换用户ID [!DNL Amperity] 到通用ID
 description: 了解如何启用DSP以摄取 [!DNL Amperity] 第一方区段。
 feature: DSP Audiences
 exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
-source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
+source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -80,11 +80,15 @@ ht-degree: 0%
 
 ## 步骤5：比较通用ID的数量与经过哈希处理的电子邮件地址的数量 {#compare-id-count}
 
-DSP收到区段数据后，受众计数应在九(9)小时内可见。 在受众库中（从中创建或编辑受众时可用） [!UICONTROL Audiences] > [!UICONTROL All Audiences] （或者在版面设置内）比较通用ID的数量与原始经过哈希处理的电子邮件地址的数量。
+DSP收到区段数据后，受众计数应在九(9)小时内可见。
 
-有关可接受的ID转换率以及区段计数发生变化的原因的信息，请参阅[电子邮件ID与通用ID之间的数据差异](#universal-ids-data-variances)“
+在受众库中（从中创建或编辑受众时可用） [!UICONTROL Audiences] > [!UICONTROL All Audiences] （或者在版面设置内）比较通用ID的数量与原始经过哈希处理的电子邮件地址的数量。 有关可接受的ID转换率以及区段计数发生变化的原因的信息，请参阅[电子邮件ID与通用ID之间的数据差异](#universal-ids-data-variances)“
 
-有关故障排除支持，请联系您的Adobe客户团队或 `adcloud-support@adobe.com`.
+## 故障排除
+
+要排查翻译率和用户计数问题，请参阅&quot;[支持激活通用ID](/help/dsp/audiences/universal-ids.md)“
+
+要排除转换过程的问题，请联系您的Adobe客户团队或 `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >

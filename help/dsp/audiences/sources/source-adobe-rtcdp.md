@@ -3,9 +3,9 @@ title: 将DSP集成与 [!DNL Adobe] [!DNL Real-time CDP]
 description: 了解如何启用DSP以摄取 [!DNL Adobe] [!DNL Real-time CDP] 第一方区段。
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
+source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -36,13 +36,15 @@ ht-degree: 0%
 
 1. 验证受众库（从中创建或编辑受众时可用） [!UICONTROL Audiences] > [!UICONTROL All Audiences] ，并将通用ID的数量与原始经过哈希处理的电子邮件地址的数量进行比较。
 
-   区段应在24小时内可在DSP中使用。 DSP收到区段数据后，受众计数应在九(9)小时内可见。
-
-   有关可接受的ID转换率以及区段计数发生变化的原因的信息，请参阅[电子邮件ID与通用ID之间的数据差异](#universal-ids-data-variances)“
-
-   有关故障排除支持，请联系您的Adobe客户团队或 `adcloud-support@adobe.com`.
+   区段应在24小时内可在DSP中使用。 DSP收到区段数据后，受众计数应在九(9)小时内可见。 有关可接受的ID转换率以及区段计数发生变化的原因的信息，请参阅[电子邮件ID与通用ID之间的数据差异](#universal-ids-data-variances)“
 
 区段每24小时刷新一次。 但是，默认情况下，区段中的内容会在30天后过期，或者在客户指定的有效期后过期。 在到期之前，通过从Real-Time CDP重新推送区段来刷新区段。 要请求自定义区段过期，请联系您的Adobe客户团队。
+
+## 故障排除
+
+要排查翻译率和用户计数问题，请参阅&quot;[支持激活通用ID](/help/dsp/audiences/universal-ids.md)“
+
+要排除转换过程的问题，请联系您的Adobe客户团队或 `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >
