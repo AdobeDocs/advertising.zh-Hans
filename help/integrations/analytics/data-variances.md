@@ -3,9 +3,9 @@ title: 之间的预期数据差异 [!DNL Analytics] 和Adobe Advertising
 description: 之间的预期数据差异 [!DNL Analytics] 和Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 1f27738d383c8c420155d6d12c98c646bba7d7b4
+source-git-commit: e1c1d43c7fe5f44e34ada7dee09afd77f1b3f305
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3358'
 ht-degree: 0%
 
 ---
@@ -154,10 +154,10 @@ Adobe Advertising报表仅捕获通过Adobe Advertising贩运的付费媒体（�
 
 对于集成，您应该验证点进数据，以确保网站上的所有页面都正确跟踪点进。
 
-在 [!DNL Analytics]，验证最简单的方法之一 [!DNL Analytics for Advertising] tracking是使用“AMO ID实例与Adobe Advertising点击次数”计算量度将实例与点击次数进行比较，该计算量度的计算方式如下：
+在 [!DNL Analytics]，验证最简单的方法之一 [!DNL Analytics for Advertising] 跟踪是使用“AMO ID实例与点击次数”计算量度将实例与点击次数进行比较，该计算量度的计算方式如下：
 
 ```
-AMO ID Instances to Adobe Advertising Clicks = ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks])
+AMO ID Instances to Clicks = ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
 [!UICONTROL AMO ID Instances] 表示达到此值的次数： [AMO ID](ids.md) 会在网站上跟踪。 每次点击广告时，一个AMO ID (`s_kwcid`)参数会被添加到登陆页面URL。 的数量 [!UICONTROL AMO ID Instances]因此，类似于点击次数，可根据实际广告点击进行验证。 我们通常看到85%的匹配率 [!DNL Search, Social, & Commerce] 30%的匹配率 [!DNL DSP] 流量（在筛选为仅包含点进时） [!UICONTROL AMO ID Instances])。 搜索和显示之间的预期差异可以用预期流量行为来解释。 搜索会捕捉意图，因此，用户通常打算单击其查询中的搜索结果。 但是，查看显示或在线视频广告的用户更有可能无意中单击该广告，然后要么从网站弹回，要么放弃在跟踪页面活动之前加载的新窗口。
@@ -165,7 +165,7 @@ AMO ID Instances to Adobe Advertising Clicks = ([!UICONTROL AMO ID Instances] / 
 在Adobe Advertising报表中，您可以使用&quot;[!UICONTROL EF ID Instances]”量度而不是 [!UICONTROL AMO ID Instances]：
 
 ```
-EF ID Instances to Adobe Advertising Clicks = ([!UICONTROL EF ID Instances] / [!UICONTROL Adobe Advertising Clicks])
+EF ID Instances to Clicks = ([!UICONTROL EF ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
 虽然您可以预期AMO ID与EF ID之间的匹配率很高，但请不要预期100%的奇偶校验，因为AMO ID和EF ID从根本上跟踪不同的数据，这种差异可能会导致总数略有差异 [!UICONTROL AMO ID Instances] 和 [!UICONTROL EF ID Instances]. 如果总计 [!UICONTROL AMO ID Instances] 在 [!DNL Analytics] 不同于 [!UICONTROL EF ID Instances] 但是，如果Adobe Advertising超过1%，请联系您的Adobe客户团队寻求帮助。
@@ -181,7 +181,7 @@ The following is an example of a workspace to track clicks to instances.
 
 ### 解决点击和实例之间的差异问题
 
-如果 [!UICONTROL EF ID Instances]-to-[!UICONTROL Adobe Advertising Clicks] 比率低于85%，然后检查以下各项：
+如果 [!UICONTROL EF ID Instances] — 与点击量的比率低于85%，请检查以下各项：
 
 * 您是否缺少帐户或任何子级别的点击跟踪，或者您是否具有重复的点击跟踪（例如，帐户和促销活动级别均如此）？
 
