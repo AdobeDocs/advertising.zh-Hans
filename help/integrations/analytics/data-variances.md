@@ -3,9 +3,9 @@ title: 之间的预期数据差异 [!DNL Analytics] 和Adobe Advertising
 description: 之间的预期数据差异 [!DNL Analytics] 和Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 1f27738d383c8c420155d6d12c98c646bba7d7b4
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3360'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,13 @@ ht-degree: 0%
 
 * **不同回顾窗口导致的差异示例：**
 
-  假设Adobe Advertising具有60天的点击回顾窗口并且 [!DNL Analytics] 具有30天的回溯时段。 假设一位用户通过Adobe Advertising跟踪的广告进入网站，离开，然后在第45天返回网站并转化。 Adobe Advertising将转化归因于初始访问，因为转化发生在60天的回看时段内。 [!DNL Analytics]但是，无法将转化归因于初始访问，因为转化发生在30天的回顾窗口过期之后。 在本例中，Adobe Advertising报告的转化数高于 [!DNL Analytics] 会。
+  假设Adobe Advertising具有60天的点击回顾窗口，并且 [!DNL Analytics] 具有30天的回溯时段。 假设一位用户通过Adobe Advertising跟踪的广告进入网站，离开，然后在第45天返回网站并转化。 Adobe Advertising将转化归因于初始访问，因为转化发生在60天的回看时段内。 [!DNL Analytics]但是，无法将转化归因于初始访问，因为转化发生在30天的回顾窗口过期之后。 在本例中，Adobe Advertising报告的转化数高于 [!DNL Analytics] 会。
 
   ![在Adobe Advertising中归因但未归因的转化示例 [!DNL Analytics]](/help/integrations/assets/a4adc-lookback-example.png)
 
 * **不同归因模型导致的差异示例：**
 
-  假设用户在转化之前与三个不同的Adobe Advertising广告进行交互，并将收入作为转化类型。 如果Adobe Advertising报表使用均匀分布模型来归因，则它将收入平均归因到所有广告。 如果 [!DNL Analytics] 但是，使用最后接触归因模型，然后将收入归因于最后一个广告。 在以下示例中，Adobe Advertising将捕获到三个广告中的每一个的30美元收入中的平均10美元归因于三个广告，而 [!DNL Analytics] 将所有30美元的收入归因于用户看到的最后一个广告。 比较来自Adobe Advertising的报告和 [!DNL Analytics]，您将会看到归因不同的影响。
+  假设用户在转化之前与三个不同的Adobe Advertising广告进行交互，并将“收入”作为转化类型。 如果Adobe Advertising报表使用均匀分布模型来归因，则它将收入平均归因到所有广告。 如果 [!DNL Analytics] 但是，使用最后接触归因模型，然后将收入归因于最后一个广告。 在以下示例中，Adobe Advertising将捕获到三个广告中的每一个的30美元收入中的平均10美元归因于三个广告，而 [!DNL Analytics] 将所有30美元的收入归因于用户看到的最后一个广告。 比较来自Adobe Advertising的报告和 [!DNL Analytics]，您将会看到归因不同的影响。
 
   ![归属于Adobe Advertising及合营业务的 [!DNL Analytics] 基于不同的归因模型](/help/integrations/assets/a4adc-attribution-example.png)
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 #### 浏览转化跟踪的不同回顾时间范围 {#impression-lookback}
 
-在Adobe Advertising中，归因基于点击次数和展示次数，您可以为点击次数和展示次数配置不同的回顾时间范围。 在 [!DNL Analytics]但是，归因基于点进和显示点进，并且您无权选择为点进和显示点进设置不同的归因窗口；每次跟踪从首次网站访问开始。 展示可能在显示到达的同一天或多个天发生，这可能会影响每个系统中归因窗口的开始位置。
+在Adobe Advertising中，归因基于点击次数和展示次数，您可以为点击次数和展示次数配置不同的回顾时间范围。 在 [!DNL Analytics]但是，归因基于点进和显示点进，并且您无权选择为点进和显示点进设置不同的归因窗口；每次跟踪从首次网站访问开始。 展示可能在显示到达的同一天或多个天发生，并且时间可能会影响每个系统中归因窗口的开始位置。
 
 通常，大多数显示到达转化发生的速度足够快，以至于两个系统都将其归为点数。 但是，某些转化可能会发生在Adobe Advertising展示回顾窗口之外，但也可能发生在 [!DNL Analytics] 回顾窗口；此类转化归因于 [!DNL Analytics] 但不是为了给Adobe Advertising留下印象。
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
 ### 中的其他渠道归因 [!DNL Marketing Channels]
 
-Adobe Advertising报表仅捕获通过Adobe Advertising贩运的付费媒体（付费搜索） [!DNL Advertising Search, Social, & Commerce] 广告，和显示(对于Advertising DSP广告)， [!DNL Marketing Channels] 报表可以跟踪所有数字渠道。 这可能会导致归因转化的渠道不一致。
+Adobe Advertising报表仅捕获通过Adobe Advertising贩运的付费媒体（付费搜索） [!DNL Advertising Search, Social, & Commerce] 广告，并针对Advertising DSP广告进行显示)，而 [!DNL Marketing Channels] 报表可以跟踪所有数字渠道。 这可能会导致归因转化的渠道不一致。
 
 例如，付费搜索和免费搜索渠道通常具有共生关系，每个渠道相互协助。 此 [!DNL Marketing Channels] 报表将某些转化归因为Adobe Advertising没有跟踪免费搜索而没有的免费搜索。
 
@@ -154,31 +154,60 @@ Adobe Advertising报表仅捕获通过Adobe Advertising贩运的付费媒体（�
 
 对于集成，您应该验证点进数据，以确保网站上的所有页面都正确跟踪点进。
 
-在 [!DNL Analytics]，验证最简单的方法之一 [!DNL Analytics for Advertising] 跟踪是指使用“点击次数”将点击次数与实例数进行比较 [!UICONTROL AMO ID Instances]&quot;计算指标，其计算方式如下：
+在 [!DNL Analytics]，验证最简单的方法之一 [!DNL Analytics for Advertising] tracking是使用“AMO ID实例与Adobe Advertising点击次数”计算量度将实例与点击次数进行比较，该计算量度的计算方式如下：
 
 ```
-Clicks to [!UICONTROL AMO ID Instances] = ([!UICONTROL AMO ID Instances] / Adobe Advertising Clicks)
+AMO ID Instances to Adobe Advertising Clicks = ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
-[!UICONTROL AMO ID Instances] 表示达到此值的次数： [AMO ID](ids.md) 会在网站上跟踪。 每次点击广告时，一个AMO ID (`s_kwcid`)参数会被添加到登陆页面URL。 的数量 [!UICONTROL AMO ID Instances]因此，类似于点击次数，可根据实际广告点击进行验证。 我们通常看到80%的匹配率 [!DNL Search, Social, & Commerce] 30%的匹配率 [!DNL DSP] 流量（在筛选为仅包含点进时） [!UICONTROL AMO ID Instances])。 搜索和显示之间的预期差异可以用预期流量行为来解释。 搜索会捕捉意图，因此，用户通常打算单击其查询中的搜索结果。 但是，查看显示或在线视频广告的用户更有可能无意中单击该广告，然后要么从网站弹回，要么放弃在跟踪页面活动之前加载的新窗口。
+[!UICONTROL AMO ID Instances] 表示达到此值的次数： [AMO ID](ids.md) 会在网站上跟踪。 每次点击广告时，一个AMO ID (`s_kwcid`)参数会被添加到登陆页面URL。 的数量 [!UICONTROL AMO ID Instances]因此，类似于点击次数，可根据实际广告点击进行验证。 我们通常看到85%的匹配率 [!DNL Search, Social, & Commerce] 30%的匹配率 [!DNL DSP] 流量（在筛选为仅包含点进时） [!UICONTROL AMO ID Instances])。 搜索和显示之间的预期差异可以用预期流量行为来解释。 搜索会捕捉意图，因此，用户通常打算单击其查询中的搜索结果。 但是，查看显示或在线视频广告的用户更有可能无意中单击该广告，然后要么从网站弹回，要么放弃在跟踪页面活动之前加载的新窗口。
 
-在Adobe Advertising报表中，您可以使用&quot;[!UICONTROL ef_id_instances]”量度而不是 [!UICONTROL AMO ID Instances]：
+在Adobe Advertising报表中，您可以使用&quot;[!UICONTROL EF ID Instances]”量度而不是 [!UICONTROL AMO ID Instances]：
 
 ```
-Clicks to [EF ID Instances = (ef_id_instances / Clicks)
+EF ID Instances to Adobe Advertising Clicks = ([!UICONTROL EF ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
 虽然您可以预期AMO ID与EF ID之间的匹配率很高，但请不要预期100%的奇偶校验，因为AMO ID和EF ID从根本上跟踪不同的数据，这种差异可能会导致总数略有差异 [!UICONTROL AMO ID Instances] 和 [!UICONTROL EF ID Instances]. 如果总计 [!UICONTROL AMO ID Instances] 在 [!DNL Analytics] 不同于 [!UICONTROL EF ID Instances] 但是，如果Adobe Advertising超过1%，请联系您的Adobe客户团队寻求帮助。
 
 有关AMO ID和EF ID的更多信息，请参阅 [Analytics使用的Adobe AdvertisingID](ids.md).
 
-以下是跟踪实例点击的工作区示例。
+<!--  Need to create a new report to show tracking instances to clicks, instead of clicks to instances as shown, and replace this screenshot.
 
-![用于跟踪实例点击的工作区示例](/help/integrations/assets/a4adc-clicks-to-instances-example.png)
+The following is an example of a workspace to track clicks to instances.
+
+![Example of a workspace to track clicks to instances to clicks](/help/integrations/assets/a4adc-clicks-to-instances-example.png)
+-->
+
+### 解决点击和实例之间的差异问题
+
+如果 [!UICONTROL EF ID Instances]-to-[!UICONTROL Adobe Advertising Clicks] 比率低于85%，然后检查以下各项：
+
+* 您是否缺少帐户或任何子级别的点击跟踪，或者您是否具有重复的点击跟踪（例如，帐户和促销活动级别均如此）？
+
+  在“搜索”、“社交”和“Commerce”中， [下载批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) ，以检查跟踪URL。
+
+  此外，在 [!DNL Analytics]，您可以查看AMO ID和EF IF是否始终使用“[!DNL AMO ID] 到 [!DNL EF ID]&quot;计算指标，其计算方式如下：
+
+  ```
+  [!DNL AMO ID] to [!DNL EF ID] = ([!UICONTROL AMO ID] / [!DNL EF ID])
+  ```
+
+  如果值大于100%，则表示缺少的EF ID数大于AMO ID数。
+
+* 登陆页面是否存在加载问题，以便不捕获AMO ID和EF ID？
+
+* 是否重定向了登陆页面URL，从而导致AMO ID和EF ID丢失？
+
+* 是否所有登陆页面都使用配置的报表包？
+
+>[!NOTE]
+>
+>理论上，一个实例可能具有多次点击。 确保检查不同设备（如台式机、移动设备和平板电脑）上的点击次数。
 
 ## 比较中的数据集 [!DNL Analytics for Advertising] 与Adobe Advertising中的比较
 
-此 [AMO ID](ids.md) （s_kwcid查询字符串参数）用于报表 [!DNL Analytics]，和 [EF ID](ids.md) 用于Adobe Advertising中的报表。 由于它们是不同的值，因此一个值可能会被损坏或未添加到登陆页面。
+此 [AMO ID](ids.md) （s_kwcid查询字符串参数）用于报表 [!DNL Analytics]，和 [EF ID](ids.md) （ef_id查询字符串参数）用于在Adobe Advertising中生成报表。 由于它们是不同的值，因此一个值可能会被损坏或未添加到登陆页面。
 
 例如，假设我们有以下登陆页面：
 
@@ -230,7 +259,7 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 由于带宽或可用处理能力较低，因此加载到移动设备上的网站也不太可能导致点进，从而导致加载登陆页面所需的时间较长。 50-70%的点击不会导致点进的情况并不少见。 在移动环境中，差异可能高达90%，这是因为浏览器速度较慢，并且用户在滚动页面或尝试关闭广告时意外单击广告的可能性较高。
 
-点击数据还可能会记录到以下环境中：无法使用当前跟踪机制记录点进次数（例如进入或离开移动设备应用程序的点击），或者广告商只为其部署了一种跟踪方法（例如，使用浏览式JavaScript方法，即阻止第三方Cookie跟踪点击、但不跟踪点进次数的浏览器）。 Adobe建议同时部署点击URL跟踪和显示到达的JavaScript跟踪方法的一个关键原因是，尽可能扩大可跟踪点进的覆盖范围。
+点击数据还可能会记录在使用当前跟踪机制（例如进入或离开移动设备应用程序的点击）无法记录点进次数，或者广告商只为其部署了一种跟踪方法(例如，使用浏览式JavaScript方法，即阻止第三方Cookie跟踪点击但不跟踪点进的浏览器)的环境中。 Adobe建议同时部署点击URL跟踪和JavaScript浏览跟踪方法的一个关键原因是，可以最大程度地提高可跟踪点进的覆盖率。
 
 ### 对非Adobe AdvertisingDimension使用Adobe Advertising流量指标
 
@@ -240,7 +269,7 @@ Adobe Advertising为Analytics提供了 [广告特定的流量量度和以下来�
 
 ![使用Adobe Advertising维度的报表中的Adobe Advertising指标示例](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 
-但是，如果您查看 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 量度（例如“页面”），如果Adobe Advertising不为其提供数据，则 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 对于每一页，则是零(0)。
+但是，如果您查看 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 量度（例如“页面”），如果Adobe Advertising不提供相关数据，则 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 对于每一页，则是零(0)。
 
 ![使用不受支持的维度的报表中的Adobe Advertising指标示例](/help/integrations/assets/a4adc-traffic-unsupported-dimension.png)
 
