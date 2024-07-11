@@ -3,7 +3,7 @@ title: 包设置
 description: 请参阅有关可用包设置的说明。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 9a7d73a281dba1331f00dd9ff75fafdc057413d0
+source-git-commit: ab3118901b7cd88776f7c0ce8038b928118a7555
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 >* 分配到此包的所有投放位置的投放日期必须包含在这些日期中。
 > * 激活自定义飞行时，无法编辑程序包开始日期。
 
-**[!UICONTROL *Activate Custom Flighting]：** 允许您在中为包创建非匀速飞行 [!UICONTROL Flighting] 部分。 启用自定义灯光并保存包后，您既无法禁用自定义灯光，也无法编辑包的开始日期。
+**[!UICONTROL Activate Custom Flighting]：** 允许您在中为包创建非匀速飞行 [!UICONTROL Flighting] 部分。 启用自定义灯光并保存包后，您既无法禁用自定义灯光，也无法编辑包的开始日期。
 
 **[!UICONTROL Budget]：** （仅具有包级别步调的包）总预算上限和预算间隔。
 
