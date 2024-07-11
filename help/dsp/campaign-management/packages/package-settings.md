@@ -3,7 +3,7 @@ title: 包设置
 description: 请参阅有关可用包设置的说明。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 644847918f6f6dd86dec80ad89128c31a0c0284b
+source-git-commit: 9a7d73a281dba1331f00dd9ff75fafdc057413d0
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 **[!UICONTROL Optimization Goal]：** （仅限具有包级别步调的包）包的优化目标。 请参见以下位置对每个优化目标的说明： [优化目标及其使用方式](/help/dsp/optimization/optimization-goals.md).
 
-**[!UICONTROL Custom Goal for Model Learning]：** (带有&quot;[!UICONTROL Highest Return on Ad Spend]”和“[!UICONTROL Lowest Cost per Acquisition]”仅限优化目标)A [自定义目标](/help/dsp/optimization/custom-goal.md) 包括用于计算CPA或ROAS指标的收入或转化事件。 自定义目标可以选择除了用于包优化的CPA或ROAS量度之外，还包括要使用的其他加权上漏斗事件（例如页面访问次数和购物车添加）。 有关自定义目标的最佳实践和使用它们的营销活动的更多信息，请参阅 [构建自定义目标的最佳实践](/help/dsp/optimization/custom-goal.md#custom-goal-best-practices) 和 [设置效果活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md).<!-- At some point, all of the objectives will be prefixed with "ADSP " -->
+**[!UICONTROL Custom Goal for Model Learning]：** (带有&quot;[!UICONTROL Highest Return on Ad Spend]”和“[!UICONTROL Lowest Cost per Acquisition]”仅限优化目标)A [自定义目标](/help/dsp/optimization/custom-goal.md) 包括用于计算CPA或ROAS指标的收入或转化事件。 自定义目标可以选择除了用于包优化的CPA或ROAS量度之外，还包括要使用的其他加权上漏斗事件（例如页面访问次数和购物车添加）。 有关自定义目标的更多信息，包括为自定义目标创建的最佳实践和使用这些目标的营销活动，请参阅”[自定义目标](/help/dsp/optimization/custom-goal.md)”和“[设置效果活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)“<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]：** (可选；带有&quot;[!UICONTROL Highest Return on Ad Spend]”和“[!UICONTROL Lowest Cost per Acquisition]&quot;仅限优化目标)告知优化模型仅从基于点击的转化中学习。 否则，优化模型会学习基于点击和基于展示的转化。
 
