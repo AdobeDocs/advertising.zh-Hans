@@ -3,23 +3,23 @@ title: 自定义目标
 description: 了解自定义目标，以定义针对最低CPA或最高ROAS优化的包中的成功事件。
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: ef732108b248995a6b321e991fa122caaa40e2fe
+source-git-commit: 42fca0c829c708281703a6a1ea59c42dc7ac9f0d
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
 
 # 自定义目标
 
-自定义目标定义广告商实现其业务目标所需的成功事件。 每个使用优化目标的包»[!UICONTROL Highest Return on Ad Spend (ROAS)"] 或&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]”必须包含自定义目标，以帮助实现整体优化目标。 您可以创建自定义目标作为 *目标* 在 [!DNL Advertising Search, Social, & Commerce].
+自定义目标定义广告商实现其业务目标所需的成功事件。 每个使用优化目标的包»[!UICONTROL Highest Return on Ad Spend (ROAS)"] 或&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]”必须包含自定义目标，以帮助实现整体优化目标。 您可以创建自定义目标作为 *目标* 在 [!DNL Advertising Search, Social, & Commerce]. DSP每个目标的名称必须以“ADSP_”为前缀。
 
 <!-- update image or omit it
 
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
 
-每个自定义目标（目标）由一个或多个转化指标及其相对权重组成。 对于DSP自定义目标，仅考虑非移动权重。 可用的转化量度包括使用Adobe Advertising转化像素并通过Adobe Analytics跟踪的所有量度。
+每个自定义目标（目标）由一个或多个转化指标及其相对权重组成。 可用的转化量度包括使用Adobe Advertising转化像素并通过Adobe Analytics跟踪的所有量度。 DSP自定义目标仅考虑非移动权重，但它们将用于所有广告类型。
 
 例如，假设三个转化指标与某个促销活动中的特定包相关：价值20美元的“PDF下载”、价值30美元的“电子邮件注册”和价值40美元的“订单确认”。 如果您要根据客户操作的一次性货币值来赋予权重，则量度的相对权重为1、1.5和2。
 
