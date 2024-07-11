@@ -3,9 +3,9 @@ title: 允许将目标上传到广告网络
 description: 了解如何将混合项目组合的目标上传到 [!DNL Google Ads] 和 [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 39936c6834012432447d3216d8463937996b0017
+source-git-commit: aaad3eb6cd33f4342c46ffb244227a00fbcb4e44
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Search、Social和Commerce可以将广告商帐户组合的目标上传到 [!DNL
 
 启用此选项会自动触发上传项目组合中的目标，其中包含具有智能竞价策略的营销活动。 搜索、社交和Commerce会在广告网络上为每个适用的目标创建一个转化。 转化表示EF ID（点击ID）级别的目标中的所有加权转化量度。 对象 [!DNL Google Ads] 单击时，EF ID为 [!DNL Google Ads] `gclid`；用于 [!DNL Microsoft Advertising] 单击时，EF ID为 [!DNL Microsoft Advertising] `msclkid`. 由于此点击ID，转化数据可以映射到特定的关键字并单击时间。
 
-每个上载的转换都有以下名称之一：
+每个上传的转化都有以下名称之一：
 
 * `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`
 
@@ -56,7 +56,7 @@ Search、Social和Commerce可以将广告商帐户组合的目标上传到 [!DNL
 
 ## 如何计算加权目标
 
-传递给广告网络的加权目标是收集的所有量度值的总和，跟踪的转化除外 [!DNL Google Ads] 或通过 [!DNL Microsoft Advertising] 通用事件跟踪(UET)标记。
+传递给广告网络的加权目标是收集的所有量度值的总和，跟踪的转化除外 [!DNL Google Ads] 或通过 [!DNL Microsoft Advertising] 通用事件跟踪(UET)标记。 该值使用为广告商的Search、Social和Commerce帐户设置的归因方法计算。
 
 例如，假设目标的目标量度是权重为25的购物车添加次数，您的辅助量度包括权重为1的GGL_Lead和Revenue以及权重为0.5的“下载”。
 
@@ -70,6 +70,12 @@ Search、Social和Commerce可以将广告商帐户组合的目标上传到 [!DNL
 * 5 GGL_Lead
 
 GGL_Lead不包含在计算/上传中，因为它是一个Google广告跟踪指标。 因此，加权目标值计算为((10 x 25) + (500 x 1) + (50 x 0.5)) = 775。
+
+>[!TIP]
+>
+>您可以在广告网络的报表中查看Adobe Advertising加权收入的数据。 作为最佳实践，将加权收入与 [!DNL Google Ads] “一切顺利。 (由conv. time)”量度或 [!DNL Microsoft Advertising] 量度“所有冲突” 收入”，分段到O_ACS_OBJ*量度。<!--clarify -->
+
+在广告网络的编辑器中
 
 ## 排除缺少的目标
 
