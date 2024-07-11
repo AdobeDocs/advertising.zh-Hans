@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 16b9db103b263ed203c608c9aedb98a9c4f69766
+source-git-commit: 800cd6f5ef0dca5e7022d8fe367aaa16de498925
 workflow-type: tm+mt
 source-wordcount: '3536'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024年7月11日 | [!UICONTROL Custom Goals] | 为自定义目标（目的）提供新的支持： <ul><li>在Search、Social和Commerce中创建的用于Advertising DSP包的目标名称现在必须加上“ADSP_”前缀，例如“ADSP_Registrations”。 前缀不区分大小写。 使用此命名约定的目标可作为DSP中的自定义目标使用。<br><br>您现有的DSP目标已为您重命名，无需进一步工作。</li><li>现在，将为目标中的DSP归因量度生成权重推荐。 当目标包括至少一个目标量度和一个辅助量度时，针对目标中的每个辅助量度，为非移动权重(用于针对DSP的所有设备类型的广告)生成推荐。 权重推荐会在您保存或编辑目标定义后的第二天早上计算。 推荐会在检测到目标更改的一天后更新，否则会每七天更新一次。 当权重推荐可用时，指示器([提供了权重推荐]（/help/dsp/assets/ weight-recommendation-available.png“权重推荐可用”）)显示在搜索>优化>新目标Beta中的目标名称旁边。 只需单击一下，即可应用所有权重推荐。 对以“ADSP_”为前缀的目标所做的所有权重更改均在两天内以算法方式应用于DSP。</li></ul> | 请参阅&quot;[自定义目标](/help/dsp/optimization/custom-goal.md)“<br><br>有关目标和应用权重推荐的更多信息，请参阅有关“(Beta)新目标”的“优化指南”一章，该章可从“搜索”、“社交”和“Commerce”中获取。 |
+| 2024年7月11日 | [!UICONTROL Custom Goals] | 为自定义目标（目的）提供新的支持： <ul><li>在Search、Social和Commerce中创建的用于Advertising DSP包的目标名称现在必须加上“ADSP_”前缀，例如“ADSP_Registrations”。 前缀不区分大小写。 使用此命名约定的目标可作为DSP中的自定义目标使用。<br><br>您现有的DSP目标已为您重命名，无需进一步工作。</li><li>现在，将为目标中的DSP归因量度生成权重推荐。 当目标包括至少一个目标量度和一个辅助量度时，针对目标中的每个辅助量度，为非移动权重(用于针对DSP的所有设备类型的广告)生成推荐。 权重推荐会在您保存或编辑目标定义后的第二天早上计算。 推荐会在检测到目标更改的一天后更新，否则会每七天更新一次。 当权重推荐可用时，指示器([提供了权重推荐]Beta (/help/dsp/assets/weight-recommendation-available.png“权重推荐可用”))。 只需单击一下，即可应用所有权重推荐。 对以“ADSP_”为前缀的目标所做的所有权重更改均在两天内以算法方式应用于DSP。</li></ul> | 请参阅&quot;[自定义目标](/help/dsp/optimization/custom-goal.md)“<br><br>有关目标和应用权重推荐的更多信息，请参阅有关“(Beta)新目标”的“优化指南”一章，该章可从“搜索”、“社交”和“Commerce”中获取。 |
 | 2024年6月24日 | 认证的广告服务合作伙伴 | 支持由提供的高影响力的显示广告单元 [!DNL GumGum]. | 请参阅&quot;[认证广告服务合作伙伴](/help/dsp/campaign-management/ads/certified-ad-servers.md)“ |
 | 2024年6月19日 | [!UICONTROL Campaigns]， [!UICONTROL Packages]， [!UICONTROL Placements] | 在 [!UICONTROL Campaigns]， [!UICONTROL Packages]、和 [!UICONTROL Placements] 视图：<ul><li>趋势图现在可以包含以下可选量度：</li><ul><li>**日步调：** 显示“昨天的步调”量度随时间变化的趋势。</li><li>**航班正前行/后行：** 显示累积步调（相对于所用时间）随时间变化的趋势。</li></ul>![新的步调指标](/help/dsp/assets/trend-chart-pacing-metrics.png "新的步调指标")<li>数据表可以选择包含与步调相关的新量度列：</li><ul><li>**昨天的必需支出：** 昨天本该花费的数额，用于其余预算在整个飞行过程中均匀分配。</li><li>**昨天的步调：** 昨天的支出占昨天所需支出的百分比。 这是“今天的OTS”的改进版本，现已弃用。 当今天的步调始终低于100%时，套餐或安排就难以满足其预算要求。</li><li>**今天的必需支出：** 今天应该花费的金额，用于其余预算在整个飞行中的统一分配。</li><li>**今天的步调：** 今天的支出占今天所需支出的百分比；该值每30分钟更新一次。 这是“昨天的OTS”的改进版本，现已弃用。 当昨日的步调一直低于100%时，该套餐或招聘方案很难达到预算目标。</li></ul><li>在数据表中，“昨天的目标”和“今天的目标”列将重命名为“昨天的目标支出”和“今天的目标支出”。</li></ul> | 请参阅&quot;[创建自定义列视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)”和“[编辑自定义列视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit)“ |
 | 2024年6月10日 | [!UICONTROL Audiences] | (Beta功能)您现在可以从以下源转换您的第一方区段： [!DNL Amperity] 和 [!DNL Optimizely] 客户数据平台到由[[!DNL LiveRamp] [!DNL RampIDs]]或 [!DNL Unified ID 2.0 (UID2.0)] ID。 在受众定位的放置设置中，共享区段在第一方区段列表中可用。 | 请参阅&quot;[转换用户ID [!DNL Amperity] 到通用ID](/help/dsp/audiences/sources/source-amperity.md)，&quot; &quot;[转换用户ID [!DNL Optimizely] 到通用ID](/help/dsp/audiences/sources/source-optimizely.md)，”和“[支持激活通用ID](/help/dsp/audiences/universal-ids.md)“ |
