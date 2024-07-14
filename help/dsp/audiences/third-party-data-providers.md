@@ -1,25 +1,25 @@
 ---
-title: Advertising DSP中可用的第三方数据提供商
+title: Advertising DSP中可用的第三方数据提供程序
 description: 查看所有可用第三方数据提供商的列表。
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 95da7e35150a8f6e55e33539e04804c1f2ac4fb4
+source-git-commit: 8921023b03865e73f71f49d320e092070035ecce
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
 
 <!-- feature: audiences -->
 
-# Advertising DSP中可用的第三方数据提供商
+# Advertising DSP中可用的第三方数据提供程序
 
 以下第三方数据提供程序的数据类别和区段在DSP中可用作放置目标。 这些区段主要适用于美国受众。
 
 在版面设置和保存的受众设置中，每个区段的使用费均显示在区段名称旁边。
 
 * [!DNL Adsquare]
-* [!DNL Audiences by Oracle (BlueKai)]
+* [!DNL Audiences by Oracle (BlueKai)] （将于2024年9月30日落日）
 * [!DNL digitalAudience]
 * [!DNL DLX Mobile]
 * [!DNL eXelate] ([!DNL Nielsen])
@@ -37,7 +37,6 @@ ht-degree: 0%
 * [!DNL TailTarget]
 * [!DNL Tapfwd]
 * [!DNL TruSignal]
-* [!DNL TubeMogul Performance Audiences]
 * [!DNL Weborama]
 * [!DNL Zeotap]
 
