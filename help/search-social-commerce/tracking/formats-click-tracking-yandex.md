@@ -1,16 +1,16 @@
 ---
-title: 的点击跟踪格式 [!DNL Yandex]
-description: 了解的点击跟踪格式 [!DNL Yandex] 帐户。
-exl-id: cf1d6c4b-9bcd-4b82-919f-c14dbaff9a76
+title: ' [!DNL Yandex]的点击跟踪格式'
+description: 了解 [!DNL Yandex] 帐户的点击跟踪格式。
+exl-id: bcbd369b-b98d-491c-a921-58bf79e01744
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
-# 上的赞助广告的点击跟踪格式 [!DNL Yandex]
+# [!DNL Yandex]上赞助广告的点击跟踪格式
 
 以下基本目标URL格式适用于赞助广告：
 
@@ -22,21 +22,21 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` 是Adobe Advertising中广告商唯一ID的变量。
+>* `<advertiser_ID>`是Adobe Advertising中广告商唯一ID的变量。
 >
->* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，则替换 `cq?` 之后 `<advertiser_ID>` 替换为 `c?`.
+>* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请在`<advertiser_ID>`之后将`cq?`替换为`c?`。
 >
->* `<the landing page>` 是一个变量，表示最终用户所定向到的网站上的URL。
+>* `<the landing page>`是一个变量，它表示最终用户被定向到的网站上的URL。
 >
->* `source_type`  是匹配类型。
+>* `source_type`是匹配类型。
 >
->* `source` 是广告显示在搜索网站还是基于内容的网站上。
+>* `source`是广告显示在搜索网站还是基于内容的网站上。
 >
->* `position` 是广告在块中的位置编号。 对于非搜索流量，值为“0”。
+>* `position`是广告在块中的位置编号。 对于非搜索流量，值为“0”。
 >
->* `position_type` 是广告在其中显示的块 [!DNL Yandex]. 可能的值：“premium”（顶部块）、“other”（右侧块）或“none”（非搜索流量）。
+>* `position_type`是在[!DNL Yandex]中显示广告的块。 可能的值：“premium”（顶部块）、“other”（右侧块）或“none”（非搜索流量）。
 
 >[!MORELIKETHIS]
 >
->* [关于Adobe Advertising转化跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
+>* [关于Adobe Advertising转换跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
 >* [AMO ID格式](/help/integrations/analytics/ids.md#amo-id-formats)

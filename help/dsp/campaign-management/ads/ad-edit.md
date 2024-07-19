@@ -14,25 +14,25 @@ ht-degree: 0%
 
 >[!TIP]
 >
->要同时更改多个广告的第三方跟踪像素，请参阅&quot;[将广告附加到投放位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)“
+>若要同时更改多个广告的第三方跟踪像素，请参阅[将广告附加到投放位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)。
 
-1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 
 1. 单击营销活动的名称。
 
-1. 在子菜单中，单击 **[!UICONTROL Ads]**.
+1. 在子菜单中，单击&#x200B;**[!UICONTROL Ads]**。
 
-1. 在广告名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. 在广告名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit]**。
 
-1. 编辑的广告设置 [音频广告](ad-settings-audio.md)， [已连接电视](ad-settings-connected-tv.md)， [展示广告](ad-settings-display.md)， [移动广告](ad-settings-mobile.md)， [原生广告](ad-settings-native.md)， [前置广告](ad-settings-pre-roll.md)，或 [通用视频广告](ad-settings-universal-video.md).
+1. 编辑[音频广告](ad-settings-audio.md)、[连接的电视](ad-settings-connected-tv.md)、[显示广告](ad-settings-display.md)、[移动广告](ad-settings-mobile.md)、[原生广告](ad-settings-native.md)、[前置广告](ad-settings-pre-roll.md)或[通用视频广告](ad-settings-universal-video.md)的广告设置。
 
    >[!NOTE]
    >
    >要更改广告URL，请首先在广告服务器上重新传送广告。
 
-1. 单击 **[!UICONTROL Save and Close]**.
+1. 单击&#x200B;**[!UICONTROL Save and Close]**。
 
-   编辑后的广告将经历一个新的 [广告评论](ad-about.md)，需要24 - 48小时，其中包括敏感类别检查、单击URL功能和预览渲染。 此 [!UICONTROL Status] 列指示DSP是否已批准广告。 损坏的广告可能会有超过24-48小时的待处理状态，因此您有时间在错误被拒绝之前对其进行修复。
+   编辑的广告将经历一次新的[广告审阅](ad-about.md)，该审阅耗时24-48小时，并包括敏感类别的检查、单击URL功能和预览渲染。 [!UICONTROL Status]列指示DSP是否已批准该广告。 损坏的广告可能会有超过24-48小时的待处理状态，因此您有时间在错误被拒绝之前对其进行修复。
 
    >[!NOTE]
    >
@@ -41,7 +41,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于广告管理](ad-about.md)
->* [创建单个广告](ad-create.md)
+>* [创建单个Ad](ad-create.md)
 >* [创建多个第三方广告](ad-create-multiple.md)
 >* [复制广告](ad-duplicate.md)
 >* [列出与广告关联的版面](ad-list-placements.md)

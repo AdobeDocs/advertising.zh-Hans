@@ -1,11 +1,11 @@
 ---
 title: 注销
 description: 了解从何处注销。
-exl-id: cebb97ca-8fa6-4b29-a3f7-613beb422450
+exl-id: b19b19ea-ca74-4605-b2a3-0515659b58f5
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '46'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >如果您的浏览器窗口空闲30分钟，则登录会话会自动结束。
 
-* 在任何页面的右上角，单击 ![用户配置文件](/help/search-social-commerce/assets/user-profile.png "用户配置文件")，然后单击 **[!UICONTROL Sign Out]**.
+* 单击任意页面右上角的![用户配置文件](/help/search-social-commerce/assets/user-profile.png "用户配置文件")，然后单击&#x200B;**[!UICONTROL Sign Out]**。
 
 >[!MORELIKETHIS]
 >

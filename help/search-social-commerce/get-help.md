@@ -15,27 +15,27 @@ ht-degree: 0%
 
 ## 打开联机帮助
 
-* 要查看带有相邻帮助图标的术语说明(![“帮助”图标](/help/search-social-commerce/assets/help-field.png "“帮助”图标") )，将光标悬停在帮助图标上直到完成，或者单击帮助弹出窗口内部以滚动浏览内容。
+* 要查看带有相邻帮助图标（![帮助图标](/help/search-social-commerce/assets/help-field.png "帮助图标") ）的术语说明，请将光标悬停在帮助图标上，直到完成操作，或者单击帮助弹出窗口内部滚动浏览内容。
 
   要打开帮助主题中的链接，您可能需要配置浏览器设置，以允许从您使用的Search、Social和Commerce站点弹出窗口(例如，北美用户为https://enterprise-na.efrontier.com，所有其他用户为https://enterprise-intl.efrontier.com)。
 
 * 要打开说明如何使用所有功能的完整帮助集，请单击任意页面顶部的以下链接：
 
-   * ![帮助](/help/search-social-commerce/assets/help-main-menu.png "帮助") > **搜索、社交和Commerce帮助**.
+   * ![帮助](/help/search-social-commerce/assets/help-main-menu.png "帮助") > **搜索、社交和Commerce帮助**。
 
-   * ![帮助](/help/search-social-commerce/assets/help-main-menu.png "帮助") > **搜索、社交和Commerce优化指南**.
+   * ![帮助](/help/search-social-commerce/assets/help-main-menu.png "帮助") > **搜索、社交和Commerce优化指南**。
 
 ## 咨询Adobe Advertising社区
 
-请在以下网站查找您的问题答案： [Adobe Advertising社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community).
+在[Adobe Advertising社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community)中查找问题的答案。
 
-## 联系人 [!DNL Adobe]
+## 联系人[!DNL Adobe]
 
 对于Search、Social和Commerce产品或帐户问题，请执行下列任一操作：
 
 * 请联系您的Adobe客户团队。
 
-* 在顶部菜单中，单击 ![帮助](/help/search-social-commerce/assets/help-main-menu.png "帮助") > **[!UICONTROL Provide Feedback]**，输入您的消息，然后单击 **[!UICONTROL Send Feedback]**. |
+* 在顶部菜单中，单击![帮助](/help/search-social-commerce/assets/help-main-menu.png "帮助") > **[!UICONTROL Provide Feedback]**，输入您的消息，然后单击&#x200B;**[!UICONTROL Send Feedback]**。 |
 
 提供重现问题的详细步骤、任何相关数据，以及有关您已执行的初步故障诊断的信息。 如果您向Adobe帐户团队报告问题，请同时提供浏览器名称和版本。
 

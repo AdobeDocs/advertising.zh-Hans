@@ -12,20 +12,20 @@ ht-degree: 0%
 
 # 查看或保存电子表格报表源文件
 
-*仅用于基本报表和模型准确性报表*
+*仅用于基本报告和模型准确性报告*
 
-您可以查看任何生成的电子表格馈送或将其保存到文件。 电子表格源文件位于[!DNL Microsoft Excel] XLSX格式。
+您可以查看任何生成的电子表格馈送或将其保存到文件。 电子表格馈送文件为[!DNL Microsoft Excel] XLSX格式。
 
-1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**。
 
-1. 单击 **[!UICONTROL XLSX]** ，然后按照浏览器的正常步骤打开或保存该文件。
+1. 单击信息源旁边的&#x200B;**[!UICONTROL XLSX]**，然后按照浏览器的正常过程打开或保存该文件。
 
 >[!MORELIKETHIS]
 >
->* [关于电子表格报表源](spreadsheet-feed-about.md)
+>* [关于电子表格报表馈送](spreadsheet-feed-about.md)
 >* [创建电子表格报表源](spreadsheet-feed-create.md)
->* [创建 [!DNL Excel] 电子表格报表馈送模板](spreadsheet-feed-create-excel-template.md)
->* [编辑电子表格报表馈送设置](spreadsheet-feed-edit.md)
->* [电子表格报表馈送设置](spreadsheet-feed-settings.md)
+>* [为电子表格报表馈送创建 [!DNL Excel] 模板](spreadsheet-feed-create-excel-template.md)
+>* [编辑电子表格报表源设置](spreadsheet-feed-edit.md)
+>* [电子表格报表源设置](spreadsheet-feed-settings.md)
 >* [手动刷新电子表格报表馈送](spreadsheet-feed-refresh.md)
->* [删除电子表格报表源](spreadsheet-feed-delete.md)
+>* [删除电子表格报表馈送](spreadsheet-feed-delete.md)

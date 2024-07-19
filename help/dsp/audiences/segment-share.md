@@ -1,6 +1,6 @@
 ---
-title: 共用或停止共用區段
-description: 瞭解如何與其他DSP使用者帳戶共用或停止共用自訂或CCPA選擇退出銷售區段。
+title: 共享或停止共享区段
+description: 了解如何与其他DSP用户帐户共享或停止共享自定义或CCPA选择退出销售区段。
 feature: DSP Segments
 exl-id: ea5cafb3-58b0-4b05-9b02-c022466d9b8c
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
@@ -10,31 +10,30 @@ ht-degree: 0%
 
 ---
 
-# 共用或停止共用區段
+# 共享或停止共享区段
 
-您可以與其他DSP使用者帳戶共用自訂區段和CCPA選擇退出銷售區段。 共用區段後，該區段便可在以下位置使用： [!UICONTROL Audiences] > [!UICONTROL Segments] 並在 [!UICONTROL Custom Segments] 定位和可重複使用的對象中的Tab鍵。
+您可以与其他DSP用户帐户共享自定义区段和CCPA选择退出销售区段。 共享区段会使该区段在[!UICONTROL Audiences] > [!UICONTROL Segments]以及指定用户投放位置和可重用受众的[!UICONTROL Custom Segments]选项卡上可用。
 
-您也可以停止與其他DSP使用者帳戶共用區段。
+您还可以停止与其他DSP用户帐户共享区段。
 
-1. 在主功能表中，按一下 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Segments]**。
 
-1. 將游標停留在區段列上並按一下 **[!UICONTROL Share]**.
+1. 将光标悬停在区段行上并单击&#x200B;**[!UICONTROL Share]**。
 
-1. 執行下列任一項作業：
+1. 执行以下任一操作：
 
-   * 若要共用區段：
+   * 要共享分部，请执行以下操作：
 
-      1. 輸入 **[!UICONTROL E-mail Address]** DSP ，然後按一下 **[!UICONTROL +]**.
+      1. 输入DSP用户的&#x200B;**[!UICONTROL E-mail Address]**，然后单击&#x200B;**[!UICONTROL +]**。
 
-      1. （選擇性）對於每個額外使用者，輸入另一個 **[!UICONTROL E-mail Address]** 然後按一下 **[!UICONTROL +]**.
-   * 若要停止與使用者共用區段，請按一下 **[!UICONTROL Unshare]** 在電子郵件地址旁。
+      1. （可选）对于每个其他用户，请输入其他&#x200B;**[!UICONTROL E-mail Address]**，然后单击&#x200B;**[!UICONTROL +]**。
 
+   * 要停止与用户共享区段，请单击电子邮件地址旁边的&#x200B;**[!UICONTROL Unshare]**。
 
 >[!MORELIKETHIS]
 >
->* [關於對象管理](audience-about.md)
->* [建立自訂區段](custom-segment-create.md)
->* [編輯區段資訊](segment-edit.md)
->* [刪除區段](segment-delete.md)
->* [檢視區段的追蹤畫素](segment-view-pixels.md)
-
+>* [关于受众管理](audience-about.md)
+>* [创建自定义区段](custom-segment-create.md)
+>* [编辑区段信息](segment-edit.md)
+>* [删除区段](segment-delete.md)
+>* [查看区段的跟踪像素](segment-view-pixels.md)

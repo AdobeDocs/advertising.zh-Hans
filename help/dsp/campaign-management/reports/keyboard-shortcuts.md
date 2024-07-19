@@ -12,18 +12,18 @@ ht-degree: 1%
 
 # 键盘快捷键
 
-在放置设置中，使用键盘快捷键快速导航<!-- and to create ads and placements -->.
+在放置设置中，使用键盘快捷键快速导航<!-- and to create ads and placements -->。
 
 | 适用的页面 | 快捷键 | 描述 |
 | ---------------| ----------- | ---------------------- |
-| 投放设置 | ö | 将您移至 [!UICONTROL Goals] 设置 |
-| 投放设置 | g | 将您移至 [!UICONTROL Geos] 设置 |
-| 投放设置 | i | 将您移至 [!UICONTROL Inventory] 设置 |
-| 投放设置 | s | 将您移至 [!UICONTROL Sites] 设置 |
-| 投放设置 | a | 将您移至 [!UICONTROL Audience] 设置 |
-| 投放设置 | b | 将您移至 [!UICONTROL Brand Safety] 设置 |
-| 投放设置 | t | 将您移至 [!UICONTROL Tracking] 设置 |
-| 投放设置 | l | 将您移至 [!UICONTROL Adobe Labs] 设置 |
+| 投放设置 | ö | 将您移至[!UICONTROL Goals]设置 |
+| 投放设置 | g | 将您移至[!UICONTROL Geos]设置 |
+| 投放设置 | i | 将您移至[!UICONTROL Inventory]设置 |
+| 投放设置 | s | 将您移至[!UICONTROL Sites]设置 |
+| 投放设置 | a | 将您移至[!UICONTROL Audience]设置 |
+| 投放设置 | b | 将您移至[!UICONTROL Brand Safety]设置 |
+| 投放设置 | t | 将您移至[!UICONTROL Tracking]设置 |
+| 投放设置 | l | 将您移至[!UICONTROL Adobe Labs]设置 |
 
 {style="table-layout:auto"}
 
@@ -34,6 +34,6 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->* [创建投放位置](/help/dsp/campaign-management/placements/placement-create.md)
+>* [创建版面](/help/dsp/campaign-management/placements/placement-create.md)
 >* [编辑版面](/help/dsp/campaign-management/placements/placement-edit.md)
->* [投放设置](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [位置设置](/help/dsp/campaign-management/placements/placement-settings.md)

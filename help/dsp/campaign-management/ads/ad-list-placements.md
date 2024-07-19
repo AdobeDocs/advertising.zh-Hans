@@ -14,12 +14,12 @@ ht-degree: 0%
 
 查看与广告关联的版面列表，以查看按版面划分的绩效数据，并根据需要编辑版面设置。
 
-另请参阅&quot;[查看附加到投放位置的广告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#view-ads-campaign)“
+另请参阅&quot;[查看附加到投放位置的广告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#view-ads-campaign)&quot;。
 
-1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 1. 单击营销活动的名称。
-1. 在子菜单中，单击 **[!UICONTROL Ads]**.
-1. 在广告名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL See placements]**.
+1. 在子菜单中，单击&#x200B;**[!UICONTROL Ads]**。
+1. 在广告名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL See placements]**。
 
 >[!MORELIKETHIS]
 >

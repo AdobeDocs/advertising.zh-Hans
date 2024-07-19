@@ -1,11 +1,11 @@
 ---
 title: 关于Adobe Advertising转化和页面查看跟踪标记的常见问题解答
 description: 请参阅Adobe Advertising转化与页面查看跟踪标记的比较。
-exl-id: 5eb414a7-2f96-47de-b157-a17851653206
+exl-id: 2e5ef792-e0f5-4409-bd37-87d9fab1265f
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -20,24 +20,24 @@ ht-degree: 0%
 | 允许在同一网页上使用具有相同广告商用户ID的多个标记 | 是 | 是 | 是 | — |
 | 允许在同一网页上使用具有不同广告商用户ID的多个标记 | 是 | 是 | 否 | 否 |
 | 供Adobe Experience Platform的Adobe Advertising扩展使用，并与使用Experience Platform生成的其他标记兼容 | 是 | 是 | — | — |
-| 允许源自 [!DNL Apple Safari] 和 [!DNL Mozilla Firefox] 与Adobe AdvertisingJavaScript转化映射标记一起使用时要跟踪的 | 是 | 是 | 是 | — |
+| 允许将源自[!DNL Apple Safari]和[!DNL Mozilla Firefox]的所有转化与Adobe AdvertisingJavaScript转化映射标记一起使用时进行跟踪 | 是 | 是 | 是 | — |
 
 <!-- add link to page on conversion mapping tag above? -->
 
 >[!NOTE]
 >
->* 所有新实施都使用JavaScript版本3。
->* 带ECID的JavaScript标记使用 [Adobe Experience Cloud ID (ECID)服务](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) 以及旧版ef_id和gsurferid来测量转化。 此最新标记创建 [第一方Experience Clouds_ecid Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html) 并与其他Experience Cloud产品更紧密整合。
+>* 所有新的实施都使用JavaScript版本3。
+>* 带ECID的JavaScript标记使用[Adobe Experience Cloud ID (ECID)服务](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html)以及旧版ef_id和gsurferid来度量转化。 此最新标记创建[第一方Experience Clouds_ecid Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html)，并提供与其他Experience Cloud产品更紧密的集成。
 >* 仅当已在广告商的网页上实施标记时，才使用JavaScript版本2标记。
->* 最佳实践是使用JavaScript标记而不是图像标记，除非网站有禁止使用这些标记的策略。
->* 广告商需要使用JavaScript标记来定位在Adobe Experience Cloud中创建、在Adobe Audience Manager中创建或从Audience Manager或Adobe Analytics发布到Adobe Experience Cloud的受众。
+>* 最佳实践是使用JavaScript标记，而不是图像标记，除非网站有禁止使用这些标记的策略。
+>* 广告商需要使用JavaScript标签，它们需要定位在Adobe Experience Cloud中创建、在Adobe Audience Manager中创建或从Audience Manager或Adobe Analytics发布到Adobe Experience Cloud的受众。
 
 >[!MORELIKETHIS]
 >
->* [关于Adobe Advertising转化跟踪标签](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+>* [关于Adobe Advertising转化跟踪标记](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
 >* [生成Adobe Advertising转换标记](/help/search-social-commerce/tools/conversion-tag-generate.md)
->* [JavaScript转换跟踪标记版本3的格式](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
->* [JavaScript转换跟踪标记版本2的格式](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
+>* [JavaScript转换跟踪标记版本3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
+>* [JavaScript转换跟踪标记版本2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)的格式
 >* [图像转换跟踪标记的格式](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
 
 <!-- add if I keep the file:  

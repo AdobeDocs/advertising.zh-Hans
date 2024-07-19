@@ -1,38 +1,37 @@
 ---
-title: 為何管道資料可能因Adobe廣告和以下內容而異 [!DNL Marketing Channels]
-description: 瞭解AMO ID所追蹤的管道資料為何與所追蹤的管道資料不同 [!DNL Analytics Marketing Channels].
+title: 为什么渠道数据在Adobe Advertising和 [!DNL Marketing Channels]之间可能不同
+description: 了解AMO ID跟踪的渠道数据为何与 [!DNL Analytics Marketing Channels]跟踪的渠道数据不同。
 feature: Integration with Adobe Analytics
 exl-id: 72e3aa1e-85ed-485a-b93f-5e67dd0140ce
 source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
 
-# 為何管道資料可能因Adobe廣告和以下內容而異 [!DNL Marketing Channels]
+# 为什么渠道数据在Adobe Advertising和[!DNL Marketing Channels]之间可能不同
 
-*僅具有AdobeAdvertising-Adobe Analytics整合的廣告商*
+*仅具有Adobe Advertising-Adobe Analytics集成的广告商*
 
-使用者學習Adobe廣告與整合時常見的問題 [!DNL Marketing Channels] 資料集是「造成AMO ID和之間資料差異的原因」 [!DNL Marketing Channels]？」 或者，有時候，「為何資料會中斷？ 我需要所有量度在報告中相符。」 幸運的是，差異並不表示資料已「中斷」，而是預期且甚至是想要的差異。 讓我們來看看為何會以這種方式設計整合。
+用户了解Adobe Advertising与[!DNL Marketing Channels]数据集集成的常见问题是“什么原因导致AMO ID与[!DNL Marketing Channels]之间的数据差异？” 或者，有时候，“为什么数据会中断？ 我需要所有指标在报表中保持一致。” 幸运的是，差异并不表明数据“失灵”，而是可以预期，甚至可以预期。 让我们看一下为什么该集成是按这种方式设计的。
 
-這兩個資料集的主要使用案例不同：
+这两个数据集的主要用例不同：
 
-* [!DNL Marketing Channels]：的主要使用案例 [!DNL Marketing Channels] 是使用常見的歸因模型，比較多個管道的資料。 分析人員可以使用 [!UICONTROL Marketing Channel] 維度，以增進對於管道如何彼此互動的深入分析。 此深入分析可協助您針對每個管道的投資方式做出宏觀決策，並可引導您深入分析每個管道的訪客與網站的互動情形。
+* [!DNL Marketing Channels]： [!DNL Marketing Channels]的主要用例是将多个渠道中的数据与通用归因模型进行比较。 分析人员可以使用[!UICONTROL Marketing Channel]维度增加对渠道之间交互方式的洞察。 此洞察信息有助于促进宏观层面上有关如何投资于每个渠道的决策，并可引导深入了解每个渠道的访客如何与网站进行互动。
 
-   此 [!DNL Analytics] [!UICONTROL Marketing Channel] 因此，維度會設定為擷取及追蹤所有管道。 [!DNL Marketing Channels] 也可以設定為擷取Advertising DSP閱覽和點進，而且是與其他行銷管道相關連結。
+  因此，[!DNL Analytics] [!UICONTROL Marketing Channel]维度配置为捕获和跟踪所有渠道。 [!DNL Marketing Channels]还可以配置为捕获Advertising DSP显示到达和点进，并且它与其他营销渠道之间存在关联。
 
-* AdobeAdvertising AMO ID： AdobeAdvertising AMO ID資料的主要使用案例是提供進階 [!DNL Adobe Sensei]支援的競標演演算法。 這些演演算法會自動做出每天數以千計的微觀層級競標決定，以將廣告支出最大化，並達成 [!DNL DSP] 行銷活動或 [!DNL Search, Social, & Commerce] 作品集。 演演算法可連結行銷活動的轉換資料越多，演演算法就能越有效做出這些競標決定。
+* Adobe AdvertisingAMO ID：Adobe AdvertisingAMO ID数据的主要用例是提供高级[!DNL Adobe Sensei]支持的竞价算法。 算法每天自动作出数千个微观级别的竞价决策，以最大限度地增加广告支出并实现[!DNL DSP]促销活动或[!DNL Search, Social, & Commerce]产品组合的目标。 算法可以连接到营销活动的转化数据越多，算法就越能做出这些竞价决策。
 
-   若要收集此資料，請 [!DNL Analytics for Advertising] 整合會在Adobe Analytics的AMO ID維度中，傳遞可轉譯為點進和瀏覽追蹤程式碼的原始AMO ID，這些AMO ID會儲存為自訂變數(eVar)或保留變數(rVar)。 其他頻道的點進次數未在AMO ID維度中設定，因此AMO ID維度無法追蹤這些其他頻道的登入。 結果是AMO ID會儲存到 [!DNL Marketing Channels] 進入點。
+  为了收集此数据，[!DNL Analytics for Advertising]集成传递原始AMO ID，这些原始AMO ID可以转换为Adobe Analytics的AMO ID维度中的点进和浏览跟踪代码，该AMO ID维度存储为自定义变量(eVar)或保留变量(rVar)。 由于AMO ID维度中未设置其他渠道的点进次数，因此AMO ID维度无法跟踪来自这些其他渠道的进入。 结果是AMO ID将持续存在[!DNL Marketing Channels]个入口点。
 
-如需有關Adobe廣告追蹤資料與報告之間可能的資料差異的詳細資訊， [!DNL Analytics] — 追蹤的資料，請參閱&quot;[預期資料差異： [!DNL Analytics] 和Adobe廣告](../data-variances.md).」
+有关Adobe Advertising跟踪的数据和[!DNL Analytics]跟踪的数据之间可能的数据差异的更多信息，请参阅“[介于 [!DNL Analytics] 和Adobe Advertising](../data-variances.md)之间的预期数据差异”。
 
 >[!MORELIKETHIS]
 >
->* [預期資料差異： [!DNL Analytics] 和Adobe廣告](/help/integrations/analytics/data-variances.md)
->* [的基礎知識 [!DNL Analytics Marketing Channels]](mc-overview.md)
->* [使用Adobe廣告ID來建立 [!DNL Marketing Channels] 處理規則](mc-ids.md)
->* [使用 [!DNL Analytics Marketing Channels] 使用Adobe廣告資料](mc-ac-data.md)
->* [影片：使用 [!DNL Marketing Channels] 適用於Adobe廣告報表](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
-
+>* [在 [!DNL Analytics] 和Adobe Advertising](/help/integrations/analytics/data-variances.md)之间的预期数据差异
+>*  [!DNL Analytics Marketing Channels]](mc-overview.md)的[基础知识
+>* [使用Adobe AdvertisingID创建 [!DNL Marketing Channels] 处理规则](mc-ids.md)
+>* [对Adobe Advertising数据使用 [!DNL Analytics Marketing Channels] ](mc-ac-data.md)
+>* [视频：使用 [!DNL Marketing Channels] 进行Adobe Advertising报告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)

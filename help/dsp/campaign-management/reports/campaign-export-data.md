@@ -22,13 +22,13 @@ ht-degree: 0%
 * 所有投放位置
 * 所有广告
 
-1. 在主菜单中，单击 **[!UICONTROL Campaigns]** 并打开要导出的视图。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**&#x200B;并打开要导出的视图。
 
-1. 在右上角工具栏中，单击  **[!UICONTROL ...]** > **[!UICONTROL Export]**.
+1. 在右上角工具栏中，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Export]**。
 
    该文件将保存到浏览器的默认“下载”文件夹中。
 
 >[!MORELIKETHIS]
 >
->* [Campaign Management视图中的性能报表类型](campaign-reports-about.md)
->* [管理Campaign数据视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* Campaign Management视图中的[性能报告类型](campaign-reports-about.md)
+>* [管理您的Campaign数据视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

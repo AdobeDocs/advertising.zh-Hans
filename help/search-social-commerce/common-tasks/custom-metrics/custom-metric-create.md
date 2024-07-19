@@ -1,12 +1,12 @@
 ---
 title: 创建自定义量度
 description: 了解如何配置自定义量度，这些量度通过标准量度计算。
-exl-id: 14a768f5-3c7f-4e8e-bcd0-66b176052a25
+exl-id: a9ce503a-67ee-477e-8f79-31b4a9c6e51a
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -18,35 +18,35 @@ ht-degree: 1%
 
    * 单击默认视图或自定义视图的名称以打开视图设置。
 
-   * 单击 ![自定义列](/help/search-social-commerce/assets/custom-columns.png "自定义列") 以打开列配置设置。
+   * 单击![自定义列](/help/search-social-commerce/assets/custom-columns.png "自定义列")以打开列配置设置。
 
-1. 在打开的列列表下方，单击 ![创建新的自定义量度](/help/search-social-commerce/assets/add.png) **[!UICONTROL Create New Custom Metric]**.
+1. 在打开的列列表下方，单击![新建自定义量度](/help/search-social-commerce/assets/add.png) **[!UICONTROL Create New Custom Metric]**。
 
-1. 指定 [自定义量度设置](custom-metric-settings.md).
+1. 指定[自定义量度设置](custom-metric-settings.md)。
 
-1. 单击 **[!UICONTROL Save]**.
+1. 单击&#x200B;**[!UICONTROL Save]**。
 
 ## 从报表或报表模板表单创建自定义量度
 
-1. 在报表或报表模板表单中，转到 **[!UICONTROL Columns]** 选项卡。
+1. 在报表或报表模板表单中，转到&#x200B;**[!UICONTROL Columns]**&#x200B;选项卡。
 
-1. 在右侧部分中，单击 **[!UICONTROL Create]**.
+1. 在右部分中，单击&#x200B;**[!UICONTROL Create]**。
 
-1. 指定 [自定义量度设置](custom-metric-settings.md).
+1. 指定[自定义量度设置](custom-metric-settings.md)。
 
-1. 单击 **[!UICONTROL Submit]**.
+1. 单击&#x200B;**[!UICONTROL Submit]**。
 
-## 从创建自定义量度 [!UICONTROL Portfolios] 查看次数
+## 从[!UICONTROL Portfolios]视图创建自定义量度
 
-1. 在数据表的上方，单击 ![编辑所选视图](/help/search-social-commerce/assets/view-settings.png "编辑所选视图").
+1. 在数据表上方，单击![编辑选定视图](/help/search-social-commerce/assets/view-settings.png "编辑选定视图")。
 
-1. 单击 **[!UICONTROL Columns]** 选项卡。
+1. 单击&#x200B;**[!UICONTROL Columns]**&#x200B;选项卡。
 
-1. 在右侧部分中，单击 **[!UICONTROL Create]**.
+1. 在右部分中，单击&#x200B;**[!UICONTROL Create]**。
 
-1. 指定 [自定义量度设置](custom-metric-settings.md).
+1. 指定[自定义量度设置](custom-metric-settings.md)。
 
-1. 单击 **[!UICONTROL Submit]**.
+1. 单击&#x200B;**[!UICONTROL Submit]**。
 
 >[!MORELIKETHIS]
 >

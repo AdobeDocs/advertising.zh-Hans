@@ -14,7 +14,7 @@ ht-degree: 0%
 
 新用户应执行以下初始设置任务：
 
-* 制定Adobe Advertising正在跟踪的广告商转化量度 [可用于报告和其他视图](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)和（可选） [重命名任何转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)的可读性显示在列标题中。
+* 使Adobe Advertising正在跟踪的广告商[的转化指标可用于报告和其他视图](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)，并可以选择地[重命名列标题中显示的任何转化指标](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)以便可读。
 
   事务属性不适用于报表，除非您特别规定它们可用。
 
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 * （可选）自动生成报表：
 
-   * 如果要定期生成特定时间增量的报表数据，例如 [!UICONTROL Campaign Report] 对于上周或最近30天，您可以设置 [报告模板](/help/search-social-commerce/reports/automation/templates/template-about.md) 并安排它们每天运行或在一周或一月中的特定日期运行。 每次计划运行报告时，都会生成一个新报告。 报表完成后，您可以选择根据电子邮件通知特定Search、Social和Commerce用户的电子邮件地址。 [在中配置的通知设置 [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md).
+   * 如果您要定期生成特定时间增量的报表数据，如上周或最近30天的[!UICONTROL Campaign Report]，则可以设置[报表模板](/help/search-social-commerce/reports/automation/templates/template-about.md)并安排它们每天或在一周或一个月的特定日期运行。 每次计划运行报告时，都会生成一个新报告。 您可以选择在报表完成时根据[!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md)中配置的[通知设置，通知特定Search、Social和Commerce用户的电子邮件地址。
 
-   * 如果您要在自定义格式的电子表格中查看最新的每日报表数据，无论是否具有数据透视表以及您需要执行进一步计算的任何其他列，则可以设置每日 [电子表格馈送](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md). 电子表格馈送每天使用最新的性能数据刷新，并继续保留以前日期的数据。 要配置电子表格馈送，您必须先在中创建自定义电子表格模板 [!DNL Microsoft Excel]. 您可以选择在信息源文件可用时根据电子邮件通知特定Search、Social和Commerce用户的电子邮件地址。 [在中配置的通知设置 [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md).
+   * 如果您要在自定义格式的电子表格中查看最新的每日报表数据，无论是否具有透视表以及您需要执行进一步计算的任何其他列，则可以设置每日[电子表格馈送](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md)。 电子表格馈送每天使用最新的性能数据刷新，并继续保留以前日期的数据。 要配置电子表格馈送，您必须首先在[!DNL Microsoft Excel]中创建自定义电子表格模板。 您可以选择根据[!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md)中配置的[通知设置，在信息源文件可用时通知特定Search、Social和Commerce用户的电子邮件地址。
 
-   * 如果您希望在FTP位置接收基本和高级报表，则可以设置 [通过FTP访问基本报表和高级报表](/help/search-social-commerce/reports/automation/ftp-reports.md) 通过请求FTP帐户并使用特定命名惯例设置报表模板。
+   * 如果您希望在FTP位置接收基本和高级报表，则可以通过请求FTP帐户并使用特定命名惯例设置报表模板来设置[对基本和高级报表的FTP访问](/help/search-social-commerce/reports/automation/ftp-reports.md)。
 
 >[!MORELIKETHIS]
 >

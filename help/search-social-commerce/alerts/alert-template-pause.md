@@ -1,9 +1,9 @@
 ---
 title: 暂停自定义警报模板
 description: 了解如何暂停活动警报模板。
-exl-id: a588ac21-7f77-4254-a773-a6f68c9f1090
+exl-id: c0ce222d-5478-467b-abe2-bb0fc4906160
 feature: Search Alerts
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 您可以暂停活动警报模板。
 
-1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**，此时将打开 [!UICONTROL Alert Templates] 视图。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**，这将打开到[!UICONTROL Alert Templates]视图。
 
 1. 执行以下任一操作：
 
-   * （暂停单个模板）在模板行中，单击 [!UICONTROL Status] 列并选择 *[!UICONTROL Paused]*.
+   * （要暂停单个模板）在模板行中，单击[!UICONTROL Status]列并选择&#x200B;*[!UICONTROL Paused]*。
 
-   * （要暂停一个或多个模板）选中要暂停的每个警报模板旁边的复选框。 在工具栏中，单击 ![暂停](/help/search-social-commerce/assets/pause.png "暂停") 在对话框中，单击 **[!UICONTROL Pause]**.
+   * （要暂停一个或多个模板）选中要暂停的每个警报模板旁边的复选框。 在工具栏中，单击![暂停](/help/search-social-commerce/assets/pause.png "暂停")。在对话框中，单击&#x200B;**[!UICONTROL Pause]**。
 
-     有关选择多行的提示，请参阅&quot;[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)“
+     有关选择多行的提示，请参阅“[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)”。
 
 >[!MORELIKETHIS]
 >

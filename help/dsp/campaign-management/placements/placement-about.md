@@ -28,26 +28,26 @@ ht-degree: 0%
 * 已连接电视
 * 通用视频
 
-## 此 [!UICONTROL Placements] 仪表板
+## [!UICONTROL Placements]仪表板
 
-此 [!UICONTROL Placements] 功能板集中管理所有投放位置的性能和经济报表，提供在指定日期范围内投放位置的快速快照。
+[!UICONTROL Placements]仪表板集中管理所有投放位置的性能和经济报表，从而提供指定日期范围内投放位置的快速快照。
 
-![投放位置仪表板](/help/dsp/assets/placement-dashboard.png)
+![投放位置信息板](/help/dsp/assets/placement-dashboard.png)
 
 仪表板包括一个高级的、可自定义的趋势图，其中具有三个指标。
 
 默认情况下，该仪表板还按投放位置显示步调和投放量度。 您可以选择查看投放位置的性能量度，并创建自定义列集。 您可以以XLSM（启用宏的Excel电子表格）格式将整个数据表下载到浏览器的默认下载文件夹中。
 
-对于每个投放位置，您可以打开一个详细视图([该 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md))，包括绩效指标、步调和投放指标、按网站、广告和库存显示的自定义列集，以及频率指标。 您还可以对包含的网站、广告和库存执行快速操作，例如排除网站、暂停广告或编辑交易。 要打开“检查器”，请将光标悬停在放置行上，单击 **[!UICONTROL More]**，然后单击 **[!UICONTROL Sites]**， **[!UICONTROL Ads]**， **[!UICONTROL Frequency]** 或 **[!UICONTROL Inventory]**. 您可以将 [!UICONTROL Sites]， [!UICONTROL Ads]， [!UICONTROL Frequency]，或 [!UICONTROL Inventory]  导航到浏览器的默认下载文件夹，作为XLSM格式的报表。
+对于每个投放位置，您可以打开一个详细视图（[该[!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md)），该视图包括绩效指标、步调和投放指标以及按网站、广告和库存列出的自定义列集；还可以包括频率指标。 您还可以对包含的网站、广告和库存执行快速操作，例如排除网站、暂停广告或编辑交易。 若要打开检查器，请将光标悬停在放置行上，单击&#x200B;**[!UICONTROL More]**，然后单击&#x200B;**[!UICONTROL Sites]**、**[!UICONTROL Ads]**、**[!UICONTROL Frequency]**&#x200B;或&#x200B;**[!UICONTROL Inventory]**。 您可以将[!UICONTROL Sites]、[!UICONTROL Ads]、[!UICONTROL Frequency]或[!UICONTROL Inventory]选项卡上的数据以XLSM格式作为报告导出到浏览器的默认下载文件夹。
 
 >[!NOTE]
 >
->您可以通过以下方式进一步自定义版面报表的内容和投放 [自定义报表](/help/dsp/reports/report-about.md).
+>您可以通过[自定义报表](/help/dsp/reports/report-about.md)进一步自定义版面报表的内容和投放。
 
 >[!MORELIKETHIS]
 >
->* [创建投放位置](placement-create.md)
+>* [创建版面](placement-create.md)
 >* [管理投放位置的竞价乘数](placement-manage-bid-multipliers.md)
 >* [查看投放位置的更改日志](placement-change-log.md)
->* [投放设置](placement-settings.md)
+>* [位置设置](placement-settings.md)
 >* [性能疑难解答](/help/dsp/optimization/troubleshooting-performance.md)

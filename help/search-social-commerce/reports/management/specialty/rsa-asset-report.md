@@ -1,30 +1,30 @@
 ---
 title: '[!UICONTROL RSA Asset Report]'
-description: 了解 [!UICONTROL RSA Asset Report].
-exl-id: 76a7c698-5d05-4b48-bd50-5d126c0c4386
+description: 了解[!UICONTROL RSA Asset Report]。
+exl-id: 6582c837-9521-479f-bae0-782e4c404ba2
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL RSA Asset Report]
 
-*[!DNL Google Ads]仅具有响应式搜索广告的帐户*
+*[!DNL Google Ads]帐户仅包含响应式搜索广告*
 
-此 [!UICONTROL RSA Asset Report] 包含每个资产的每日展示量度([!UICONTROL Creative Title] 或 [!UICONTROL Description])对于一个或多个项目组合或一个或多个帐户、营销活动和广告组中的响应式搜索广告(RSA)。 默认情况下，对于在指定数据范围内至少收到一个印象的每个资产，数据包括一行，即使资产在报告期间被禁用（删除）。 默认情况下，行按广告组以升序排列。 报告可以选择包括标签分类。
+[!UICONTROL RSA Asset Report]包括一个或多个项目组合或一个或多个帐户、营销活动和广告组中响应式搜索广告(RSA)的每个资产（[!UICONTROL Creative Title]或[!UICONTROL Description]）的每日展示量度。 默认情况下，对于在指定数据范围内至少收到一个印象的每个资产，数据包括一行，即使资产在报告期间被禁用（删除）。 默认情况下，行按广告组以升序排列。 报告可以选择包括标签分类。
 
 >[!NOTE]
 >
->当您选择“[!UICONTROL Include rows with no performance data]，”结果仍然不包含从未收到数据的资产数据。
+>当您选择“[!UICONTROL Include rows with no performance data]”的选项时，结果仍然不包含从未收到数据的资产数据。
 
 您可以查看从2022年8月8日开始的数据。<!-- Later: You can view data for the previous 36 months. -->
 
 ## 默认列
 
-有关所有默认列和自定义列的说明，请参见&#39;&#39;[专业报告的报告列](specialty-report-columns.md)“
+有关所有默认列和自定义列的说明，请参阅[专业报告的报告列](specialty-report-columns.md)。
 
 * [!UICONTROL Start Date]
 * [!UICONTROL End Date]

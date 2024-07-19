@@ -1,9 +1,9 @@
 ---
 title: 更改密码
 description: 了解如何更改帐户密码。
-exl-id: 1cc63747-4b80-45ba-a044-4a7b0a237c63
+exl-id: 62a4710d-aff7-4635-9fce-6d14f890728f
 feature: Search Tools
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 更改密码会将您从当前会话中注销。 要继续工作，您必须使用新密码登录。
 
-1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Change Password]**.
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Change Password]**。
 
-1. 在字段中输入信息，然后单击 **[!UICONTROL Submit]**.
+1. 在字段中输入信息，然后单击&#x200B;**[!UICONTROL Submit]**。
 
-   **[!UICONTROL Password]：** 新密码。 它必须至少由八个字符组成，其中至少一个大写字母和一个数字。
+   **[!UICONTROL Password]：**&#x200B;新密码。 它必须至少由八个字符组成，其中至少一个大写字母和一个数字。
 
-   **[!UICONTROL Confirm Password]：** 新密码。
+   **[!UICONTROL Confirm Password]：**&#x200B;新密码。
 
-1. 在确认消息中，单击 **[!UICONTROL OK]**.
+1. 在确认消息中，单击&#x200B;**[!UICONTROL OK]**。
 
    您的当前会话结束，将显示登录提示，以便您使用新密码重新登录。
 

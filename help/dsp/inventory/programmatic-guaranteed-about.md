@@ -22,7 +22,7 @@ ht-degree: 0%
 * 通常，交易在发布者的广告服务器中具有更高的优先级。
 * 竞价请求不只针对单个交易或购买者。
 * 单个交易ID支持多种类型的视频。
-* 接受发布者管理的广告，途径为 [!DNL Google Authorized Buyers] SSP.
+* 通过[!DNL Google Authorized Buyers] SSP接受发布者管理的广告。
 * SSP和发布者具有投放SLA。
 
 PG交易需要PG默认投放位置和广告（或发布者管理的广告需要1x1像素），因此DSP可以向每个竞价请求返回请求，并使用SSP履行交付SLA。 设置强制的PG默认投放位置后，还可以在其他投放位置中定位PG交易。
@@ -32,8 +32,8 @@ PG交易需要PG默认投放位置和广告（或发布者管理的广告需要1
 * [!DNL Ambient Digital]
 * [!DNL FreeWheel]
 * [!DNL Google Authorized Buyers]
-* [!DNL Magnite CTV] (以前称为 [!DNL Telaria])
-* [!DNL Magnite DV+] (以前称为 [!DNL Rubicon])
+* [!DNL Magnite CTV] （以前为[!DNL Telaria]）
+* [!DNL Magnite DV+] （以前为[!DNL Rubicon]）
 * [!DNL OpenX]
 * [!DNL SpotX]
 

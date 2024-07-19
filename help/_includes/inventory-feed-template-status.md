@@ -7,6 +7,6 @@ ht-degree: 0%
 ---
 # 文本广告模板 — 状态
 
-**[!UICONTROL Status]：** 模板状态： *[!UICONTROL Active]*， *[!UICONTROL Paused]*，或 *[!UICONTROL Deleted]*.
+**[!UICONTROL Status]：**&#x200B;模板状态： *[!UICONTROL Active]*、*[!UICONTROL Paused]*&#x200B;或&#x200B;*[!UICONTROL Deleted]*。
 
 馈送数据只能通过活动模板自动传播。 但是，您可以通过暂停的模板手动传播数据。

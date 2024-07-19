@@ -1,6 +1,6 @@
 ---
-title: 檢查「 」的廣告狀態 [!DNL FreeWheel] PG交易
-description: 瞭解如何尋找的廣告狀態 [!DNL Freewheel] 程式化預留交易。
+title: 检查 [!DNL FreeWheel] PG交易的广告状态
+description: 了解如何查找 [!DNL Freewheel] 计划性保证交易的广告状态。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
@@ -10,46 +10,45 @@ ht-degree: 0%
 
 ---
 
-# 檢查廣告的狀態 [!DNL Freewheel] 程式化預留交易
+# 检查[!DNL Freewheel]计划性保证交易的广告状态
 
-檢視您的廣告是否提交至 [!DNL Freewheel] 已成功。 您可以視需要重新提交任何廣告。
+查看您向[!DNL Freewheel]提交的广告是否成功。 您可以根据需要重新提交任何广告。
 
-若有重新提交的其他問題或疑問，請聯絡您的Adobe客戶團隊。
+有关重新提交的任何其他问题，请联系您的Adobe客户团队。
 
-## 從檢查狀態 [!UICONTROL Ads] 檢視
+## 从[!UICONTROL Ads]视图检查状态
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 
-1. 按一下行銷活動的名稱。
+1. 单击营销活动的名称。
 
-1. 在子功能表中，按一下 **[!UICONTROL Ads]**.
+1. 在子菜单中，单击&#x200B;**[!UICONTROL Ads]**。
 
-1. 在廣告名稱旁邊，按一下  **[!UICONTROL ...]** > **[!UICONTROL see Freewheel status]**.
+1. 在广告名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL see Freewheel status]**。
 
-1. （選擇性）若要重新提交廣告以供核准，請將游標停留在廣告列上，然後按一下 **[!UICONTROL More]** > **[!UICONTROL Resubmit]**.
+1. （可选）要重新提交广告以供审批，请将光标悬停在广告行上，然后单击&#x200B;**[!UICONTROL More]** > **[!UICONTROL Resubmit]**。
 
-## 從檢查狀態 [!UICONTROL Deals] 檢視
+## 从[!UICONTROL Deals]视图检查状态
 
-1. 在主功能表中，按一下 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. 執行下列任一項作業：
+1. 执行以下任一操作：
 
-   * 在 [!UICONTROL Deal ID inbox]，按一下 **[!UICONTROL View Freewheel creative status]**.
+   * 在[!UICONTROL Deal ID inbox]下，单击&#x200B;**[!UICONTROL View Freewheel creative status]**。
 
-   * 在任何交易列中，按一下 ![選項功能表](/help/dsp/assets/options-menu.png) **>[!UICONTROL see Freewheel status]**.
+   * 在任何交易行中，单击![选项菜单](/help/dsp/assets/options-menu.png) **>[!UICONTROL see Freewheel status]**。
 
-1. （選用）篩選資料，協助您找出特定交易和廣告。
+1. （可选）筛选数据以帮助您查找特定交易和广告。
 
-   此 [!UICONTROL Submission Status] 欄指出廣告是否已提交及核准。
+   [!UICONTROL Submission Status]列指示广告是否已提交和批准。
 
-   對於失敗的提交， [!UICONTROL API] 回應欄指出錯誤。 如需提交失敗之錯誤碼的完整清單，以及更正錯誤的後續步驟，請參閱&quot;[的錯誤代碼 [!DNL FreeWheel] 廣告提交](freewheel-error-codes.md).」
+   对于失败的提交，[!UICONTROL API]响应列指示错误。 有关失败提交的错误代码完整列表以及更正这些代码的后续步骤，请参阅“ [!DNL FreeWheel] 广告提交](freewheel-error-codes.md)的[错误代码”。
 
-1. （選擇性）若要重新提交廣告以供核准，請將游標停留在廣告列上，然後按一下 **[!UICONTROL More]** > **[!UICONTROL Resubmit]**.
+1. （可选）要重新提交广告以供审批，请将光标悬停在广告行上，然后单击&#x200B;**[!UICONTROL More]** > **[!UICONTROL Resubmit]**。
 
 >[!MORELIKETHIS]
 >
->* [設定程式化預留交易的概述 [!DNL Freewheel]](freewheel-overview.md)
->* [提交程式化保證交易的廣告至 [!DNL Freewheel]](freewheel-submit.md)
->* [的錯誤代碼 [!DNL Freewheel] 廣告提交](freewheel-error-codes.md)
->* [在交易ID收件匣中接受交易](deal-id-inbox-accept.md)
-
+>* [在 [!DNL Freewheel]](freewheel-overview.md)中设置计划性保证交易的概述
+>* [向 [!DNL Freewheel]](freewheel-submit.md)提交计划性保证交易的广告
+>*  [!DNL Freewheel] 广告提交的[错误代码](freewheel-error-codes.md)
+>* [在交易ID收件箱中接受交易](deal-id-inbox-accept.md)

@@ -12,19 +12,19 @@ ht-degree: 0%
 
 # 删除与活动和广告组的广告扩展关联
 
-*[!DNL Google Ads]和 [!DNL Microsoft Advertising] 仅限*
+仅&#x200B;*[!DNL Google Ads]和[!DNL Microsoft Advertising]*
 
 您可以删除与任何位置、电话和站点链接分机之间的营销活动级和广告组级关联。
 
-1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. 在子菜单中，单击 **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**。
 
 1. 选中要删除的每个关联旁边的复选框。
 
-   有关选择多行的提示， ”[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)“
+   有关选择多行的提示，“[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)”。
 
-1. 在工具栏中，单击 ![更多](/help/search-social-commerce/assets/more.png "更多") 并选择 **[!UICONTROL Delete]**.
+1. 在工具栏中，单击![更多](/help/search-social-commerce/assets/more.png "更多")并选择&#x200B;**[!UICONTROL Delete]**。
 
-1. 在确认消息中，单击 **[!UICONTROL Delete]**.
+1. 在确认消息中，单击&#x200B;**[!UICONTROL Delete]**。
 
 >[!MORELIKETHIS]
 >

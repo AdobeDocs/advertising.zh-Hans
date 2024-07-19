@@ -1,16 +1,16 @@
 ---
-title: 的点击跟踪格式 [!DNL Naver]
-description: 了解的点击跟踪格式 [!DNL Naver] 帐户。
-exl-id: ff243eb5-d768-4e5c-b5b3-015fe22c9d5a
+title: ' [!DNL Naver]的点击跟踪格式'
+description: 了解 [!DNL Naver] 帐户的点击跟踪格式。
+exl-id: b438652e-6e98-4223-8169-2bfb37500670
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
-# 上的赞助广告的点击跟踪格式 [!DNL Naver]
+# [!DNL Naver]上赞助广告的点击跟踪格式
 
 以下基本目标URL格式适用于赞助广告：
 
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` 是Adobe Advertising中广告商唯一ID的变量。
+>* `<advertiser_ID>`是Adobe Advertising中广告商唯一ID的变量。
 >
->* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，则替换 `cq?` 之后 `<advertiser_ID>` 替换为 `c?`.
+>* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请在`<advertiser_ID>`之后将`cq?`替换为`c?`。
 >
-* `<the landing page>` 是一个变量，表示最终用户所定向到的网站上的URL。
+* `<the landing page>`是一个变量，它表示最终用户被定向到的网站上的URL。
 
 >[!MORELIKETHIS]
 >
->* [关于Adobe Advertising转化跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
+>* [关于Adobe Advertising转换跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
 >* [AMO ID格式](/help/integrations/analytics/ids.md#amo-id-formats)

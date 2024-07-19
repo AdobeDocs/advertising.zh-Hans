@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL On Demand] 亞太地區的Premium庫存發佈商'
-description: 檢視可用的 [!DNL On Demand] 亞太地區的優質存貨出版商。
+title: '[!DNL On Demand]亚太地区高级库存发布者'
+description: 查看亚太地区可用的 [!DNL On Demand] 高级库存发布者。
 feature: DSP On Demand Inventory
 exl-id: ef23503c-d92b-4809-9082-afeaffe58f8f
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,26 +10,26 @@ ht-degree: 0%
 
 ---
 
-# [!DNL On Demand] 亞太地區的Premium庫存發佈商{#on-demand-inventory-publishers-apac}
+# 亚太地区的[!DNL On Demand]高级库存发布者{#on-demand-inventory-publishers-apac}
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
-| 發佈者 | 地理 |
+| 发布者 | 地域 |
 |-----------------------------|---------------|
-| [!DNL BBC] | 大中華區 |
-| [!DNL Bloomberg] | 大中華區 |
-| [!DNL CBS Interactive] | 大中華區 |
-| [!DNL CNN International] | 大中華區 |
-| [!DNL Conde Nast] | 大中華區 |
-| [!DNL EA] | 大中華區 |
-| [!DNL Gameloft] | 大中華區 |
-| [!DNL MSN] | 大中華區 |
-| [!DNL Tripadvisor] | 大中華區 |
-| [!DNL U.S. News] | 大中華區 |
-| [!DNL UDN] | 大中華區 |
-| [!DNL Vidol.tv] | 大中華區 |
-| [!DNL Vungle] | 大中華區 |
-| [!DNL Yahoo! Taiwan] | 大中華區 |
+| [!DNL BBC] | 大中华区 |
+| [!DNL Bloomberg] | 大中华区 |
+| [!DNL CBS Interactive] | 大中华区 |
+| [!DNL CNN International] | 大中华区 |
+| [!DNL Conde Nast] | 大中华区 |
+| [!DNL EA] | 大中华区 |
+| [!DNL Gameloft] | 大中华区 |
+| [!DNL MSN] | 大中华区 |
+| [!DNL Tripadvisor] | 大中华区 |
+| [!DNL U.S. News] | 大中华区 |
+| [!DNL UDN] | 大中华区 |
+| [!DNL Vidol.tv] | 大中华区 |
+| [!DNL Vungle] | 大中华区 |
+| [!DNL Yahoo! Taiwan] | 大中华区 |
 | [!DNL BBC] | 香港 |
 | [!DNL Bloomberg] | 香港 |
 | [!DNL CBS Interactive] | 香港 |
@@ -67,45 +67,45 @@ ht-degree: 0%
 | [!DNL Yahoo] | 印度 |
 | [!DNL Zee News] | 印度 |
 | [!DNL Zee5] | 印度 |
-| [!DNL BBC] | 印尼 |
-| [!DNL Bloomberg] | 印尼 |
-| [!DNL Bola] | 印尼 |
-| [!DNL Brilio] | 印尼 |
-| [!DNL CBS Interactive] | 印尼 |
-| [!DNL CNBC] | 印尼 |
-| [!DNL CNN International] | 印尼 |
-| [!DNL Conde Nast] | 印尼 |
-| [!DNL DAZN (Perform Media)] | 印尼 |
-| [!DNL Detik] | 印尼 |
-| [!DNL Dream] | 印尼 |
-| [!DNL EA] | 印尼 |
-| [!DNL Gameloft] | 印尼 |
-| [!DNL HOOQ] | 印尼 |
-| [!DNL Idntimes] | 印尼 |
-| [!DNL iFlix] | 印尼 |
-| [!DNL Jakarta Post] | 印尼 |
-| [!DNL Kapanlagi] | 印尼 |
-| [!DNL Kaskus] | 印尼 |
-| [!DNL Kompas] | 印尼 |
-| [!DNL Line Today] | 印尼 |
-| [!DNL Liputan6] | 印尼 |
-| [!DNL Merdeka] | 印尼 |
-| [!DNL MSN] | 印尼 |
-| [!DNL Oona] | 印尼 |
-| [!DNL TEMPO.CO] | 印尼 |
-| [!DNL Time Inc] | 印尼 |
-| [!DNL TimeOut] | 印尼 |
-| [!DNL Tribun News] | 印尼 |
-| [!DNL Tripadvisor] | 印尼 |
-| [!DNL U.S. News] | 印尼 |
-| [!DNL Vidio] | 印尼 |
-| [!DNL VIKI] | 印尼 |
-| [!DNL Viu] | 印尼 |
-| [!DNL Viva.co.id] | 印尼 |
-| [!DNL WeGo] | 印尼 |
-| [!DNL Wow Keren] | 印尼 |
-| [!DNL Yahoo] | 印尼 |
-| [!DNL Zalora] | 印尼 |
+| [!DNL BBC] | 印度尼西亚 |
+| [!DNL Bloomberg] | 印度尼西亚 |
+| [!DNL Bola] | 印度尼西亚 |
+| [!DNL Brilio] | 印度尼西亚 |
+| [!DNL CBS Interactive] | 印度尼西亚 |
+| [!DNL CNBC] | 印度尼西亚 |
+| [!DNL CNN International] | 印度尼西亚 |
+| [!DNL Conde Nast] | 印度尼西亚 |
+| [!DNL DAZN (Perform Media)] | 印度尼西亚 |
+| [!DNL Detik] | 印度尼西亚 |
+| [!DNL Dream] | 印度尼西亚 |
+| [!DNL EA] | 印度尼西亚 |
+| [!DNL Gameloft] | 印度尼西亚 |
+| [!DNL HOOQ] | 印度尼西亚 |
+| [!DNL Idntimes] | 印度尼西亚 |
+| [!DNL iFlix] | 印度尼西亚 |
+| [!DNL Jakarta Post] | 印度尼西亚 |
+| [!DNL Kapanlagi] | 印度尼西亚 |
+| [!DNL Kaskus] | 印度尼西亚 |
+| [!DNL Kompas] | 印度尼西亚 |
+| [!DNL Line Today] | 印度尼西亚 |
+| [!DNL Liputan6] | 印度尼西亚 |
+| [!DNL Merdeka] | 印度尼西亚 |
+| [!DNL MSN] | 印度尼西亚 |
+| [!DNL Oona] | 印度尼西亚 |
+| [!DNL TEMPO.CO] | 印度尼西亚 |
+| [!DNL Time Inc] | 印度尼西亚 |
+| [!DNL TimeOut] | 印度尼西亚 |
+| [!DNL Tribun News] | 印度尼西亚 |
+| [!DNL Tripadvisor] | 印度尼西亚 |
+| [!DNL U.S. News] | 印度尼西亚 |
+| [!DNL Vidio] | 印度尼西亚 |
+| [!DNL VIKI] | 印度尼西亚 |
+| [!DNL Viu] | 印度尼西亚 |
+| [!DNL Viva.co.id] | 印度尼西亚 |
+| [!DNL WeGo] | 印度尼西亚 |
+| [!DNL Wow Keren] | 印度尼西亚 |
+| [!DNL Yahoo] | 印度尼西亚 |
+| [!DNL Zalora] | 印度尼西亚 |
 | [!DNL All About Japan] | 日本 |
 | [!DNL Asahi] | 日本 |
 | [!DNL BBC] | 日本 |
@@ -129,58 +129,58 @@ ht-degree: 0%
 | [!DNL Toyokeizai] | 日本 |
 | [!DNL U.S. News] | 日本 |
 | [!DNL VIKI] | 日本 |
-| [!DNL Astro] | 馬來西亞 |
-| [!DNL Astro Gempak] | 馬來西亞 |
-| [!DNL BBC] | 馬來西亞 |
-| [!DNL Bloomberg] | 馬來西亞 |
-| [!DNL CBS Interactive] | 馬來西亞 |
-| [!DNL China Press] | 馬來西亞 |
-| [!DNL CNBC] | 馬來西亞 |
-| [!DNL CNN International] | 馬來西亞 |
-| [!DNL Conde Nast] | 馬來西亞 |
-| [!DNL DAZN] ([!DNL Perform Media]) | 馬來西亞 |
-| [!DNL Digital Trends] | 馬來西亞 |
-| [!DNL EA] | 馬來西亞 |
-| [!DNL Gameloft] | 馬來西亞 |
-| [!DNL iFlix] | 馬來西亞 |
-| [!DNL Investopedia] | 馬來西亞 |
-| [!DNL Malay Mail Online] | 馬來西亞 |
-| [!DNL Malaysiakini] | 馬來西亞 |
-| [!DNL Media Prima]群組 | 馬來西亞 |
-| [!DNL The Asian Parent - Malaysia] | 馬來西亞 |
-| [!DNL Thomson Reuters] | 馬來西亞 |
-| [!DNL Time Inc] | 馬來西亞 |
-| [!DNL TimeOut] | 馬來西亞 |
-| [!DNL Tonton] | 馬來西亞 |
-| [!DNL Tripadvisor] | 馬來西亞 |
-| [!DNL Twitch] | 馬來西亞 |
-| [!DNL U.S. News] | 馬來西亞 |
-| [!DNL VIKI] | 馬來西亞 |
-| [!DNL WeGo] | 馬來西亞 |
-| [!DNL Yahoo] | 馬來西亞 |
-| [!DNL Zalora] | 馬來西亞 |
-| [!DNL ABS CBN] | 菲律賓 |
-| [!DNL BBC] | 菲律賓 |
-| [!DNL Bloomberg] | 菲律賓 |
-| [!DNL CBS Interactive] | 菲律賓 |
-| [!DNL CNBC] | 菲律賓 |
-| [!DNL CNN International] | 菲律賓 |
-| [!DNL Conde Nast] | 菲律賓 |
-| [!DNL EA] | 菲律賓 |
-| [!DNL Gameloft] | 菲律賓 |
-| [!DNL iFlix] | 菲律賓 |
-| [!DNL MSN] | 菲律賓 |
-| [!DNL Rappler] | 菲律賓 |
-| [!DNL Spin.ph] | 菲律賓 |
-| [!DNL The Inquirer] | 菲律賓 |
-| [!DNL The Philippine Star] | 菲律賓 |
-| [!DNL Time Inc] | 菲律賓 |
-| [!DNL TimeOut] | 菲律賓 |
-| [!DNL Tripadvisor] | 菲律賓 |
-| [!DNL U.S. News] | 菲律賓 |
-| [!DNL VIKI] | 菲律賓 |
-| [!DNL WeGo] | 菲律賓 |
-| [!DNL Yahoo] | 菲律賓 |
+| [!DNL Astro] | 马来西亚 |
+| [!DNL Astro Gempak] | 马来西亚 |
+| [!DNL BBC] | 马来西亚 |
+| [!DNL Bloomberg] | 马来西亚 |
+| [!DNL CBS Interactive] | 马来西亚 |
+| [!DNL China Press] | 马来西亚 |
+| [!DNL CNBC] | 马来西亚 |
+| [!DNL CNN International] | 马来西亚 |
+| [!DNL Conde Nast] | 马来西亚 |
+| [!DNL DAZN] ([!DNL Perform Media]) | 马来西亚 |
+| [!DNL Digital Trends] | 马来西亚 |
+| [!DNL EA] | 马来西亚 |
+| [!DNL Gameloft] | 马来西亚 |
+| [!DNL iFlix] | 马来西亚 |
+| [!DNL Investopedia] | 马来西亚 |
+| [!DNL Malay Mail Online] | 马来西亚 |
+| [!DNL Malaysiakini] | 马来西亚 |
+| [!DNL Media Prima]组 | 马来西亚 |
+| [!DNL The Asian Parent - Malaysia] | 马来西亚 |
+| [!DNL Thomson Reuters] | 马来西亚 |
+| [!DNL Time Inc] | 马来西亚 |
+| [!DNL TimeOut] | 马来西亚 |
+| [!DNL Tonton] | 马来西亚 |
+| [!DNL Tripadvisor] | 马来西亚 |
+| [!DNL Twitch] | 马来西亚 |
+| [!DNL U.S. News] | 马来西亚 |
+| [!DNL VIKI] | 马来西亚 |
+| [!DNL WeGo] | 马来西亚 |
+| [!DNL Yahoo] | 马来西亚 |
+| [!DNL Zalora] | 马来西亚 |
+| [!DNL ABS CBN] | 菲律宾 |
+| [!DNL BBC] | 菲律宾 |
+| [!DNL Bloomberg] | 菲律宾 |
+| [!DNL CBS Interactive] | 菲律宾 |
+| [!DNL CNBC] | 菲律宾 |
+| [!DNL CNN International] | 菲律宾 |
+| [!DNL Conde Nast] | 菲律宾 |
+| [!DNL EA] | 菲律宾 |
+| [!DNL Gameloft] | 菲律宾 |
+| [!DNL iFlix] | 菲律宾 |
+| [!DNL MSN] | 菲律宾 |
+| [!DNL Rappler] | 菲律宾 |
+| [!DNL Spin.ph] | 菲律宾 |
+| [!DNL The Inquirer] | 菲律宾 |
+| [!DNL The Philippine Star] | 菲律宾 |
+| [!DNL Time Inc] | 菲律宾 |
+| [!DNL TimeOut] | 菲律宾 |
+| [!DNL Tripadvisor] | 菲律宾 |
+| [!DNL U.S. News] | 菲律宾 |
+| [!DNL VIKI] | 菲律宾 |
+| [!DNL WeGo] | 菲律宾 |
+| [!DNL Yahoo] | 菲律宾 |
 | [!DNL 24H] | SEA |
 | [!DNL ABS CBN] | SEA |
 | [!DNL Astro] | SEA |
@@ -289,60 +289,60 @@ ht-degree: 0%
 | [!DNL VIU] | 新加坡 |
 | [!DNL WeGo] | 新加坡 |
 | [!DNL Yahoo] | 新加坡 |
-| [!DNL BBC] | 南韓 |
-| [!DNL Bloomberg] | 南韓 |
-| [!DNL CNN International] | 南韓 |
-| [!DNL Conde Nast] | 南韓 |
-| [!DNL EA] | 南韓 |
-| [!DNL Gameloft] | 南韓 |
-| [!DNL MSN] | 南韓 |
-| [!DNL U.S. News] | 南韓 |
-| [!DNL Viki] | 南韓 |
-| [!DNL Vung] | 南韓 |
-| [!DNL Apple Daily] | 台灣 |
-| [!DNL BBC] | 台灣 |
-| [!DNL Bloomberg] | 台灣 |
-| [!DNL Conde Nast] | 台灣 |
-| [!DNL Digital Trends] | 台灣 |
-| [!DNL Ettoday] | 台灣 |
-| [!DNL Gameloft] | 台灣 |
-| [!DNL MSN] | 台灣 |
-| [!DNL Tripadvisor] | 台灣 |
-| [!DNL Twitch] | 台灣 |
-| [!DNL U.S. News] | 台灣 |
-| [!DNL Vidol.tv] | 台灣 |
-| [!DNL Viki] | 台灣 |
-| [!DNL Yahoo] | 台灣 |
-| [!DNL Bangkok Post] | 泰國 |
-| [!DNL BBC] | 泰國 |
-| [!DNL BBTV] | 泰國 |
-| [!DNL Bloomberg] | 泰國 |
-| [!DNL CBS Interactive] | 泰國 |
-| [!DNL CNBC] | 泰國 |
-| [!DNL CNN International] | 泰國 |
-| [!DNL Conde Nast] | 泰國 |
-| [!DNL Dek-D] | 泰國 |
-| [!DNL Digital Trends] | 泰國 |
-| [!DNL EA] | 泰國 |
-| [!DNL Gameloft] | 泰國 |
-| [!DNL iFlix] | 泰國 |
-| [!DNL Kapook] | 泰國 |
-| [!DNL Line TV] | 泰國 |
-| [!DNL MSN] | 泰國 |
-| [!DNL Mthai] | 泰國 |
-| [!DNL PPTV TH] | 泰國 |
-| [!DNL Sanook] | 泰國 |
-| [!DNL Siam Sport] | 泰國 |
-| [!DNL Time Inc] | 泰國 |
-| [!DNL TimeOut] | 泰國 |
-| [!DNL Tripadvisor] | 泰國 |
-| [!DNL TrueID] | 泰國 |
-| [!DNL Twitch] | 泰國 |
-| [!DNL U.S. News] | 泰國 |
-| [!DNL VIKI] | 泰國 |
-| [!DNL VIU] | 泰國 |
-| [!DNL WeGo] | 泰國 |
-| [!DNL Yahoo] | 泰國 |
+| [!DNL BBC] | 韩国 |
+| [!DNL Bloomberg] | 韩国 |
+| [!DNL CNN International] | 韩国 |
+| [!DNL Conde Nast] | 韩国 |
+| [!DNL EA] | 韩国 |
+| [!DNL Gameloft] | 韩国 |
+| [!DNL MSN] | 韩国 |
+| [!DNL U.S. News] | 韩国 |
+| [!DNL Viki] | 韩国 |
+| [!DNL Vung] | 韩国 |
+| [!DNL Apple Daily] | 台湾 |
+| [!DNL BBC] | 台湾 |
+| [!DNL Bloomberg] | 台湾 |
+| [!DNL Conde Nast] | 台湾 |
+| [!DNL Digital Trends] | 台湾 |
+| [!DNL Ettoday] | 台湾 |
+| [!DNL Gameloft] | 台湾 |
+| [!DNL MSN] | 台湾 |
+| [!DNL Tripadvisor] | 台湾 |
+| [!DNL Twitch] | 台湾 |
+| [!DNL U.S. News] | 台湾 |
+| [!DNL Vidol.tv] | 台湾 |
+| [!DNL Viki] | 台湾 |
+| [!DNL Yahoo] | 台湾 |
+| [!DNL Bangkok Post] | 泰国 |
+| [!DNL BBC] | 泰国 |
+| [!DNL BBTV] | 泰国 |
+| [!DNL Bloomberg] | 泰国 |
+| [!DNL CBS Interactive] | 泰国 |
+| [!DNL CNBC] | 泰国 |
+| [!DNL CNN International] | 泰国 |
+| [!DNL Conde Nast] | 泰国 |
+| [!DNL Dek-D] | 泰国 |
+| [!DNL Digital Trends] | 泰国 |
+| [!DNL EA] | 泰国 |
+| [!DNL Gameloft] | 泰国 |
+| [!DNL iFlix] | 泰国 |
+| [!DNL Kapook] | 泰国 |
+| [!DNL Line TV] | 泰国 |
+| [!DNL MSN] | 泰国 |
+| [!DNL Mthai] | 泰国 |
+| [!DNL PPTV TH] | 泰国 |
+| [!DNL Sanook] | 泰国 |
+| [!DNL Siam Sport] | 泰国 |
+| [!DNL Time Inc] | 泰国 |
+| [!DNL TimeOut] | 泰国 |
+| [!DNL Tripadvisor] | 泰国 |
+| [!DNL TrueID] | 泰国 |
+| [!DNL Twitch] | 泰国 |
+| [!DNL U.S. News] | 泰国 |
+| [!DNL VIKI] | 泰国 |
+| [!DNL VIU] | 泰国 |
+| [!DNL WeGo] | 泰国 |
+| [!DNL Yahoo] | 泰国 |
 | [!DNL 24H] | 越南 |
 | [!DNL BBC] | 越南 |
 | [!DNL Bloomberg] | 越南 |
@@ -371,9 +371,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於 [!DNL On Demand] 進階詳細目錄](on-demand-inventory-about.md)
->* [訂閱並請求存取權至 [!DNL On Demand] 進階詳細目錄](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] 澳洲和紐西蘭的Premium庫存發佈商](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] 歐洲、中東和非洲的Premium Inventory Publishers](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand Premium] 北美地區庫存發佈商](on-demand-inventory-publishers-na.md)
-
+>* [关于 [!DNL On Demand] 高级库存](on-demand-inventory-about.md)
+>* [订阅并请求访问 [!DNL On Demand] 高级库存](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand] 澳大利亚和新西兰的高级库存发布者](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] 欧洲、中东和非洲](on-demand-inventory-publishers-emea.md)高级库存出版商
+>* [[!DNL On Demand Premium] 北美的库存发布者](on-demand-inventory-publishers-na.md)

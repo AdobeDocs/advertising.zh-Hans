@@ -1,6 +1,6 @@
 ---
-title: 檢視您的狀態 [!DNL On Demand] 交易請求和訂閱
-description: 瞭解如何檢視您的狀態 [!DNL On Demand] 交易請求和訂閱。
+title: 查看 [!DNL On Demand] 交易请求和订阅的状态
+description: 了解如何查看 [!DNL On Demand] 交易请求和订阅的状态。
 feature: DSP On Demand Inventory
 exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
@@ -10,41 +10,40 @@ ht-degree: 0%
 
 ---
 
-# 檢視您的狀態 [!DNL On Demand] 交易請求和訂閱
+# 查看[!DNL On Demand]交易请求和订阅的状态
 
-在您請求個別交易或訂閱所有發佈者的交易後，請檢視發佈者是否針對您帳戶中的每個廣告商核准或拒絕每個交易。
+在请求单个交易或订阅出版商的所有交易后，查看出版商是否已批准或拒绝您帐户中每个广告商的每个交易。
 
-1. 在主功能表中，按一下 **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
-1. 篩選可用的交易以包含您已請求或已訂閱的交易(**[!UICONTROL Currently subscribed to]**)**。
-1. 執行下列任一項作業：
-   * 若要檢視中的交易 [!UICONTROL Deal] 檢視，按一下 **[!UICONTROL Deal view]**.
-   * 若要檢視中的交易 [!UICONTROL Subscription] 檢視：
-      1. 单击 **[!UICONTROL Subscription view]**.
-      1. 將游標停留在發佈商標誌上，然後按一下 **[!UICONTROL See Deals]**.
-1. 找到 [!UICONTROL Status] 欄檢視核准狀態。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**。
+1. 筛选可用的交易以包含您已请求或订阅的交易(**[!UICONTROL Currently subscribed to]**)**。
+1. 执行以下任一操作：
+   * 要在[!UICONTROL Deal]视图中查看交易，请单击&#x200B;**[!UICONTROL Deal view]**。
+   * 要在[!UICONTROL Subscription]视图中查看交易，请执行以下操作：
+      1. 单击&#x200B;**[!UICONTROL Subscription view]**。
+      1. 将光标悬停在发布者徽标上，然后单击&#x200B;**[!UICONTROL See Deals]**。
+1. 找到[!UICONTROL Status]列以查看审批状态。
 
-## 交易狀態
+## 交易状态
 
-發佈者的核准或拒絕可以根據帳戶的帳戶型別和行銷活動類別、廣告商類別和發佈者的封鎖廣告商清單。
+发布者的批准或拒绝可以基于帐户的帐户类型和营销活动类别、广告商类别以及发布者的阻止广告商列表。
 
-* ![已完全核准](/help/dsp/assets/approved.png) 針對帳戶中所有廣告商核准的交易請求
+* 针对针对帐户中所有广告商批准的交易请求，![完全批准](/help/dsp/assets/approved.png)
 
-* ![部分核准](/help/dsp/assets/partly-approved.png) 針對帳戶中部分（但非全部）廣告商核准的交易請求
+* ![部分批准](/help/dsp/assets/partly-approved.png)针对帐户中的部分（但不是全部）广告商批准的交易请求
 
-   若要瞭解廣告商的請求被拒絕的原因，請按一下 ![部分核准](/help/dsp/assets/partly-approved.png).
+  要了解为什么拒绝对广告商的请求，请单击![部分批准](/help/dsp/assets/partly-approved.png)。
 
-* ![已拒絕](/help/dsp/assets/denied.png) 針對帳戶中所有廣告商拒絕的交易請求
+* 针对针对帐户中所有广告商均被拒绝的交易请求![拒绝](/help/dsp/assets/denied.png)
 
-   若要檢視每個廣告商的請求被拒絕的原因，請按一下 ![已拒絕](/help/dsp/assets/denied.png). 如果拒絕的原因可以解決，那麼您可以 [重新要求交易](/help/dsp/inventory/on-demand-inventory-rerequest.md).
+  要查看每个广告商的请求被拒绝的原因，请单击![被拒绝](/help/dsp/assets/denied.png)。 如果拒绝的原因可以解决，则您可以[重新请求交易](/help/dsp/inventory/on-demand-inventory-rerequest.md)。
 
-如果您對核准程式有任何疑問，請聯絡您的Adobe客戶團隊。
+如果您对批准流程有任何疑问，请联系您的Adobe客户团队。
 
 >[!MORELIKETHIS]
 >
->* [訂閱並請求存取權至 [!DNL On Demand] 進階詳細目錄交易](on-demand-inventory-subscribe.md)
->* [重新請求隨選進階存貨交易](on-demand-inventory-rerequest.md)
->* [[!DNL On Demand] 亞太地區的Premium庫存發佈商](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] 澳洲和紐西蘭的Premium庫存發佈商](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] 歐洲、中東和非洲的Premium Inventory Publishers](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] 北美地區的Premium Inventory Publishers](on-demand-inventory-publishers-na.md)
-
+>* [订阅和请求访问 [!DNL On Demand] 高级库存交易](on-demand-inventory-subscribe.md)
+>* [重新请求按需优质库存交易](on-demand-inventory-rerequest.md)
+>* [[!DNL On Demand] 亚太地区高级库存发布者](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] 澳大利亚和新西兰的高级库存发布者](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] 欧洲、中东和非洲](on-demand-inventory-publishers-emea.md)高级库存出版商
+>* [[!DNL On Demand] 北美高级库存发布者](on-demand-inventory-publishers-na.md)

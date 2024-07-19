@@ -12,16 +12,16 @@ ht-degree: 0%
 
 # 导出已连接电视覆盖计划的预测
 
-您可以导出 [!UICONTROL Budget vs Reach] 预测到 [!DNL Microsoft Excel] 电子表格**带 [!UICONTROL Budget] 和 [!UICONTROL Reach] 列。
+您可以将[!UICONTROL Budget vs Reach]预测导出到包含[!UICONTROL Budget]和[!UICONTROL Reach]列的**1}电子表格。[!DNL Microsoft Excel]
 
-* 在生成的预测中，单击 **[!UICONTROL ...]** > **[!UICONTROL Export]** 在右上角。
+* 在生成的预测中，单击右上角的&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Export]**。
 
 >[!MORELIKETHIS]
 >
 >* [关于DSP Planner工具](planner-about.md)
->* [创建连接电视接入计划](planner-create.md)
->* [复制连接的电视接入计划](planner-duplicate.md)
->* [编辑连接的电视接入计划](planner-edit.md)
->* [重新生成“连接电视覆盖计划”的预测](planner-forecast.md)
->* [存档连接的电视接入计划](planner-archive.md)
->* [已连接电视接入计划的设置](planner-settings.md)
+>* [创建连接的电视访问计划](planner-create.md)
+>* [复制连接的电视访问计划](planner-duplicate.md)
+>* [编辑连接的电视访问计划](planner-edit.md)
+>* [重新生成连接电视到达计划的预测](planner-forecast.md)
+>* [存档连接的电视访问计划](planner-archive.md)
+>* [已连接电视访问计划的设置](planner-settings.md)

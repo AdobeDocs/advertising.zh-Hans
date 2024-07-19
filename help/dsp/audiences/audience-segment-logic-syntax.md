@@ -15,14 +15,14 @@ ht-degree: 0%
 在创建可重用受众时，您可以使用字母数字区段ID（键）和以下语法手动定义区段逻辑：
 
 * ()表示组
-* `||` 对象 [!DNL OR] <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->
-* &amp;&amp; for [!DNL AND]
-* ！ 对象 [!DNL NOT] （排除）
+* [!DNL OR]的`||`<!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->
+* [!DNL AND]的&amp;
+* ！ 针对[!DNL NOT] （排除）
 
 >[!NOTE]
 >
 >* 包括所有指定的区段组，除非它们前面有！ （不包括他们）。
->* 您可以 [查找受众的区段ID](reusable-audience-clipboard.md) 从 [!UICONTROL Audiences] > [!UICONTROL All audiences].
+>* 您可以从[!UICONTROL Audiences] > [!UICONTROL All audiences]中[找到受众](reusable-audience-clipboard.md)的区段ID。
 
 例如，以下逻辑：
 
@@ -42,8 +42,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [将可重用受众的区段键复制到剪贴板](reusable-audience-clipboard.md)
+>* [将可重用受众的区段密钥复制到剪贴板](reusable-audience-clipboard.md)
 >* [关于受众管理](audience-about.md)
 >* [创建可重复使用的受众](reusable-audience-create.md)
 >* [受众设置](audience-settings.md)
->* [可用的第三方数据提供商](third-party-data-providers.md)
+>* [可用的第三方数据提供程序](third-party-data-providers.md)

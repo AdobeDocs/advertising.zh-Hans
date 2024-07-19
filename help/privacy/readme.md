@@ -5,8 +5,8 @@ source-wordcount: '26'
 ht-degree: 0%
 
 ---
-# Adobe廣告的消費者隱私權支援檔案
+# Adobe Advertising的消费者隐私支持文档
 
-此資料夾用於Adobe Advertising對消費者隱私權的支援。
+此文件夹用于Adobe Advertising对消费者隐私的支持。
 
-**注意：此頁面不會發佈在對客戶的檔案中。**
+**注意：此页面未在面向客户的文档中发布。**

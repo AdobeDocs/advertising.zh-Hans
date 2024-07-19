@@ -16,9 +16,9 @@ ht-degree: 0%
 
 您可以手动创建包，也可以通过复制现有包来创建包。 您还可以编辑投放位置并将其附加到任何包。
 
-## 此 [!UICONTROL Packages] 仪表板
+## [!UICONTROL Packages]仪表板
 
-此 [!UICONTROL Packages] “功能板”可以集中管理所有包策略的性能和经济报告，从而快速了解包在指定日期范围内的执行情况。
+[!UICONTROL Packages]仪表板集中管理所有包策略的性能和经济报告，提供指定日期范围内包执行情况的快速快照。
 
 ![包仪表板](/help/dsp/assets/package-dashboard.png)
 
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您可以通过进一步自定义包报表的内容和交付 [自定义报表](/help/dsp/reports/report-about.md).
+>您可以通过[自定义报表](/help/dsp/reports/report-about.md)进一步自定义包报表的内容和交付。
 
 要查看包中的所有投放位置以及包的投放日期，请单击包名称。
 
 >[!MORELIKETHIS]
 >
->* [创建资源包](package-create.md)
+>* [创建包](package-create.md)
 >* [编辑包](package-edit.md)
 >* [将投放位置附加到包](package-attach-placement.md)
 >* [查看包的更改日志](package-change-log.md)

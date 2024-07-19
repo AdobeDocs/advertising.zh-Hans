@@ -1,92 +1,91 @@
 ---
-title: 使用案例
-description: 瞭解與Audience Manager共用您的Advertising DSP媒體資料的使用案例
+title: 用例
+description: 了解与Audience Manager共享Advertising DSP媒体数据的用例
 feature: Integration with Adobe Audience Manager
 exl-id: 1d961799-b8be-499a-8db6-b59762d96bf1
 source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
 
-# 在Adobe Audience Manager中擷取媒體曝光資料的使用案例
+# 在Adobe Audience Manager中捕获媒体曝光数据的用例
 
-*僅使用Advertising DSP的廣告商*
+*仅使用Advertising DSP的广告商*
 
-*僅具有AdobeAdvertising-Adobe Audience Manager整合的廣告商*
+*仅具有Adobe Advertising-Adobe Audience Manager集成的广告商*
 
-以下是擷取Advertising DSP媒體曝光度資料可讓您受益的一些方式 <!-- ad impression data? --> 在Audience Manager中。
+以下是一些让您能够从在Audience Manager中捕获Advertising DSP媒体曝光数据<!-- ad impression data? -->中受益的方法。
 
-## 造訪間隔和頻率管理
+## 回访间隔和频率管理
 
-擷取Audience Manager中的曝光資料，可讓您建立已接觸到特定廣告或行銷活動的使用者區段，藉此增強頻率管理。 如果您想要提高頻率，可以使用這些區段進行廣告目標定位，或者如果您想要限制頻率，則可以使用這些區段進行廣告隱藏。
+通过在Audience Manager中捕获展示数据，可创建已展示特定广告或营销策划的用户区段，从而增强频度管理。 如果要提高频率，可以将这些区段用于广告定位；如果要限制频率，则可以将这些区段用于广告抑制。
 
-此外，透過Audience Manager [!DNL Segment Builder]，您可以套用 [造訪間隔和頻率控制項](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/recency-and-frequency.html) 至任何 [規則型特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) 包含可操作訊號的。 舉例來說，這可讓您限制在媒體行銷活動中向使用者展示特定創意內容的次數。 讀取»[即時跨裝置隱藏](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/instant-cross-device-suppression.html)」以瞭解如何執行此操作。<!-- The AM pulled this paragraph verbatim from AEM doc; I change only a word or two. -->
+此外，通过Audience Manager[!DNL Segment Builder]，您可以将[回访间隔和频率控件](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/recency-and-frequency.html)应用于包含可操作信号的任何[基于规则的特征](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html)。 例如，这可让您限制在媒体促销活动中向某个用户展示特定创意内容的次数。 阅读“[即时跨设备抑制](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/instant-cross-device-suppression.html)”以了解如何执行此操作。<!-- The AM pulled this paragraph verbatim from AEM doc; I change only a word or two. -->
 
-## 順序訊息
+## 顺序消息传递
 
-透過擷取曝光資料，您可以建立已曝光於行銷活動或廣告的使用者區段，並使用此區段進行循序傳訊或隱藏。 例如，您可以重新鎖定看到創意內容的使用者 `123` 但並未藉由顯示創意來點選或轉換 `456`.
+通过捕获展示数据，您可以创建已展示给促销活动或广告的用户区段，并将此区段用于顺序消息传送或抑制。 例如，您可以通过显示创意内容`456`，重新定位看到创意内容`123`但未单击或转换的用户。
 
-若要以Audience Manager執行此範例，請遵循下列步驟：<!-- The AM pulled this example/procedure verbatim from AEM doc; I changed only a word or two. -->
+若要在Audience Manager中执行此示例，请按照以下步骤操作：<!-- The AM pulled this example/procedure verbatim from AEM doc; I changed only a word or two. -->
 
-1. 建立特徵以擷取看過該創意內容的使用者。
+1. 创建一个特征来捕获看到创意内容的用户。
 
-   例如，為特徵命名 `Creative Trait 123`，使用下列特徵規則：
+   例如，要命名特征`Creative Trait 123`，请使用以下特征规则：
 
    ```
    d_creative == 123 AND d_event == imp
    ```
 
-1. 建立特徵以擷取點選或轉換的使用者。
+1. 创建一个特征以捕获单击或转换的用户。
 
-   例如，若要命名此特徵 `Click and Converter`，使用下列特徵規則：
+   例如，要命名此特征`Click and Converter`，请使用以下特征规则：
 
    ```
    d_event == click OR d_event=conv
    ```
 
-1. 建立名為的區段 `Retarget Users` 填入看到創意的使用者 `123` 但未點按或轉換。 使用下列特徵規則：
+1. 创建名为`Retarget Users`的区段以填充看到创意`123`但未单击或转换的用户。 使用以下特征规则：
 
    ```
    Creative Trait 123 AND NOT Click and Converter
    ```
 
-1. 對應區段 `Retarget Users` 至目的地，並透過創意以目的地中的使用者為目標 `456`.
+1. 将区段`Retarget Users`映射到目标，并使用创意`456`定位目标中的用户。
 
-## [!DNL Adobe Audience Analytics] 和行銷活動曝光度資料
+## [!DNL Adobe Audience Analytics]和营销活动曝光数据
 
-在Audience Manager中可以使用行銷活動的曝光次數和點選次數資料後，您就可以建立接觸或互動特定行銷活動或策略的使用者特徵和區段。 使用 [[!DNL Audience Analytics] 整合](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)，您的Audience Manager區段可以與 [!DNL Analytics] 以進一步分析。 潛在的使用案例包括：
+一旦营销活动的展示和点击数据在Audience Manager中可用，您即可创建接触或交互特定营销活动或策略的用户的特征和区段。 通过[[!DNL Audience Analytics] 集成](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)，您的Audience Manager区段可以与[!DNL Analytics]同步以供进一步分析。 潜在用例包括：
 
-* **DSP與之間的互動分析 [!DNL Advertising Search, Social, & Commerce] 廣告：** 標準 [[!DNL Analytics for Advertising] 整合](/help/integrations/analytics/overview.md) 不會提供有關DSP和之間互動的深入分析 [!DNL Search, Social, & Commerce] 因為兩個管道使用的AMO ID都遵循AMO ID歸因規則，搜尋點按可覆寫顯示檢視。 在Audience Manager中建立DSP曝光度區段，即可使用 [!DNL Audience Analytics] 分析DSP與之間的互動 [!DNL Search, Social, & Commerce] 中的廣告 [!DNL Analytics].
+* **DSP与[!DNL Advertising Search, Social, & Commerce]广告之间的交互分析：**&#x200B;标准[[!DNL Analytics for Advertising] 集成](/help/integrations/analytics/overview.md)不提供有关DSP与[!DNL Search, Social, & Commerce]之间的交互的分析，因为两个渠道使用的AMO ID都遵循AMO ID归因规则，搜索点击会覆盖该规则的显示显示显示显示显示显示到达。 通过在Audience Manager中创建DSP曝光区段，您可以使用[!DNL Audience Analytics]来分析[!DNL Analytics]中DSP和[!DNL Search, Social, & Commerce]广告之间的交互。
 
-* **頻率分析：** 您可以根據使用者接觸到特定廣告或行銷活動的次數，在Audience Manager中建立區段。 接著，您可以分析Analytics中的不同曝光區段，瞭解使用者行為如何根據DSP曝光次數而改變。
+* **频度分析：**&#x200B;您可以根据用户接触到特定广告或营销活动的次数，在Audience Manager中创建区段。 然后，您可以分析Analytics中的不同风险区段，以了解用户行为如何根据DSP风险数量的变化而变化。
 
 ## [!DNL Audience Optimization Reports]
 
-您可以善用 [Audience Manager [!DNL Audience Optimization Reports]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-reports.html) 找出行銷活動中區段的潛在效能機會。 這些報表結合促銷活動曝光次數、點按次數和轉換資料與區段量度，以提供以區段為中心的最佳化和有效頻道組合資訊。
+您可以利用[Audience Manager [!DNL Audience Optimization Reports]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-reports.html)来识别营销活动中区段的潜在效果机会。 这些报表将促销活动展示次数、点击次数和转化数据与区段量度相结合，以提供以区段为中心的优化和有效渠道组合信息。
 
-### 相關Audience Optimization報表的型別
+### 相关Audience Optimization报告的类型
 
-| 報告 | 描述 |
+| 报表 | 描述 |
 | ------ | ----------- |
-| [[!UICONTROL Segment Performance] 報告](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/segment-performance.html) | 依曝光次數和轉換率來比較對應和未對應的區段。 |
-| [[!UICONTROL Trend Analysis and Volume Analysis] 報表]9https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/trend-analysis-volume-analysis.html) | 針對廣泛的廣告維度，傳回曝光數、點進率和轉換率的資料。 |
-| [[!UICONTROL Optimal Frequency] 報告](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/optimal-frequency.html) | 協助您在提供的曝光次數和轉換次數之間找到最佳平衡。 它可讓您在開始看到遞減的傳回之前，先調整要顯示的曝光次數。 |
-| [[!UICONTROL Unique User Reach] 報告](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/unique-user-reach.html) | 泡泡圖，其中每個泡泡的大小均與您所選維度的不重複使用者人數成正比。 |
+| [[!UICONTROL Segment Performance]报告](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/segment-performance.html) | 按展示次数和转化率比较已映射和未映射的区段。 |
+| [[!UICONTROL Trend Analysis and Volume Analysis]报告]9https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/trend-analysis-volume-analysis.html) | 返回各种广告维度的展示次数、点进率和转化率数据。 |
+| [[!UICONTROL Optimal Frequency]报告](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/optimal-frequency.html) | 帮助您在提供的展示次数和转化次数之间实现最佳平衡。 它允许您先调整要显示的展示次数，然后再开始看到递减的退货。 |
+| [[!UICONTROL Unique User Reach]报告](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/unique-user-reach.html) | 气泡图，其中每个气泡的大小与所选维度的独特用户数成正比。 |
 
-### 考量事項
+### 注意事项
 
-* 若 [!DNL Audience Optimization Reports] 使用者擁有角色型存取控制(RBAC)，然後 [!DNL Adobe Customer Care] 必須在廣告商ID與組織的Audience Manager資料來源整合代碼之間設定對應。 然後，管理員使用者可以向不同使用者提供RBAC許可權。
+* 如果[!DNL Audience Optimization Reports]用户具有基于角色的访问控制(RBAC)，则[!DNL Adobe Customer Care]必须配置广告商ID与组织的Audience Manager数据源集成代码之间的映射。 然后，管理员用户可以向不同用户提供基于RBAC的权限。
 
-* 中的轉換報表 [!DNL Audience Optimization Reports] 需要一般使用者進行一些設定。 使用者必須填入中繼資料檔案。
+* [!DNL Audience Optimization Reports]中的转换报表需要最终用户进行一些设置。 用户必须填充元数据文件。
 
-* [!DNL Audience Optimization Reports] 不支援變更行銷活動中繼資料（例如行銷活動名稱或位置名稱）。
+* [!DNL Audience Optimization Reports]不支持更改营销活动元数据（如营销活动名称或投放位置名称）。
 
-* 搜尋廣告的點選數包含在 [!DNL Audience Optimization Reports] 唯有與曝光次數相關時才行。 換言之，搜尋點按會被視為閱聽後的轉換。 因此，許多搜尋點按可能不會包含在 [!DNL Audience Optimization Reports].
+* 仅当搜索广告的点击次数与展示次数相关联时，[!DNL Audience Optimization Reports]中才会包含这些点击次数。 换言之，搜索点击被视为展示后的转化。 因此，许多搜索点击可能未包含在[!DNL Audience Optimization Reports]中。
 
 >[!MORELIKETHIS]
 >
->* [傳送DSP Media Exposure資料至Adobe Audience Manager概述](overview.md)
->* [收集來自Advertising DSP Campaigns的點選和曝光資料](collect.md)
-
+>* [将DSP媒体曝光数据发送到Adobe Audience Manager的概述](overview.md)
+>* [从Advertising DSP营销活动中收集点击和展示数据](collect.md)

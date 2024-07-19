@@ -1,22 +1,22 @@
 ---
-title: ’[!DNL Baidu] 广告组设置
-description: 引用设置 [!DNL Baidu] 广告组。
-exl-id: 940c5d62-8646-4686-ad34-1fbabe69e1b3
+title: “[!DNL Baidu]广告组设置”
+description: 引用 [!DNL Baidu] 广告组的设置。
+exl-id: 1d480339-a8c8-4874-ad8e-d8973660682c
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
 
-# [!DNL Baidu] 广告组设置
+# [!DNL Baidu]广告组设置
 
 ## [!UICONTROL Adgroup Details]
 
-**[!UICONTROL Ad Group Name]：** 广告组名称在营销活动中是唯一的。 最大长度为15个双字节字符。
+**[!UICONTROL Ad Group Name]：**&#x200B;广告组名称在营销活动中是唯一的。 最大长度为15个双字节字符。
 
-**[!UICONTROL Status]：** 广告组的显示状态： *活动* 或 *已暂停*. 新广告组的默认值为 *活动*.
+**[!UICONTROL Status]：**&#x200B;广告组的显示状态： *活动*&#x200B;或&#x200B;*已暂停*。 新广告组的默认值为&#x200B;*活动*。
 
 ## [!UICONTROL Budget Options]
 

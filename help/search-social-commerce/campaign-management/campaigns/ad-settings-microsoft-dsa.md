@@ -1,6 +1,6 @@
 ---
-title: ’[!DNL Microsoft Advertising] 扩展的动态搜索广告设置
-description: 引用设置 [!DNL Microsoft Advertising] 扩展的动态搜索广告。
+title: “[!DNL Microsoft Advertising]扩展的动态搜索广告设置”
+description: 引用 [!DNL Microsoft Advertising] 扩展动态搜索广告的设置。
 exl-id: 232a57fc-2823-4d82-aa02-3e670430979f
 feature: Search Campaign Management
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -10,19 +10,19 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising] 扩展的动态搜索广告设置
+# [!DNL Microsoft Advertising]扩展的动态搜索广告设置
 
 扩展的动态搜索广告(eDSA)仅在搜索网络上的营销活动中的动态广告组中可用。 广告网络动态生成标题，并为动态搜索广告选择登陆页面，然后自动生成最终URL。
 
 ## [!UICONTROL Expanded Dynamic Search Ad Details]
 
-**[!UICONTROL Description Line 1]：** 广告正文。 最大长度为90个单字节字符或45个双字节字符。
+**[!UICONTROL Description Line 1]：**&#x200B;广告正文。 最大长度为90个单字节字符或45个双字节字符。
 
 <!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
 
 {{$include /help/_includes/display-path1-2.md}}
 
-**[!UICONTROL Description Line 2]：** （可选）广告的第二行。 最大长度为90个单字节字符或45个双字节字符。
+**[!UICONTROL Description Line 2]：**（可选）广告的第二行。 最大长度为90个单字节字符或45个双字节字符。
 
 <!-- **[!UICONTROL Status]:** -->
 

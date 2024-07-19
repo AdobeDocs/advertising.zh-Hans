@@ -40,10 +40,10 @@ ht-degree: 0%
 
 * 在航班的最后一天，包裹的步调会有什么变化？
 
-  在飞行的最后一天，时间从24小时缩短到23小时，以免超出包预算。 此外，包的步调填充策略会自动更改为&quot;[!UICONTROL Frontload]，”，即使它设置为“[!UICONTROL even]“ 这意味着65%的每日预算应在东部标准时间上午11:30前交付。
+  在飞行的最后一天，时间从24小时缩短到23小时，以免超出包预算。 此外，包的步调填充策略会自动更改为“[!UICONTROL Frontload]”，即使它设置为“[!UICONTROL even]”。 这意味着65%的每日预算应在东部标准时间上午11:30前交付。
 
 >[!MORELIKETHIS]
 >
 >* [包设置](/help/dsp/campaign-management/packages/package-settings.md)
->* [投放设置](/help/dsp/campaign-management/placements/placement-settings.md)
->* [设置效果活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)
+>* [位置设置](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [设置效果营销活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)

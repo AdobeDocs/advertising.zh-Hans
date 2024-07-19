@@ -1,40 +1,40 @@
 ---
-title: ’[!DNL Yandex] 营销活动设置
-description: 引用设置 [!DNL Yandex] 营销活动。
-exl-id: 33e73b90-7a37-4be7-b96d-02ef8bfdb79e
+title: “[!DNL Yandex]营销活动设置”
+description: 引用 [!DNL Yandex] 营销活动的设置。
+exl-id: 3be88471-06b8-4f05-8a4e-24f71f7a36f7
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
-# [!DNL Yandex] campaign设置
+# [!DNL Yandex]营销活动设置
 
 ## \[营销活动创建屏幕\]
 
-**[!UICONTROL Campaign Type]：** （仅在营销活动创建期间可用）放置广告的位置：
+**[!UICONTROL Campaign Type]：** （仅在营销活动创建期间可用）广告放置位置：
 
-* *[!UICONTROL Search Network Only]：* 在搜索网络上显示文本广告。 您必须为每个广告组指定关键字。
+* *[!UICONTROL Search Network Only]：*&#x200B;在搜索网络上显示文本广告。 您必须为每个广告组指定关键字。
 
-* *[!UICONTROL Search and Display Network]：* 在搜索网络和 [!DNL Yandex Advertising Network]. 对于搜索广告，您必须为每个广告组指定搜索关键字；对于显示广告，您必须为每个广告组指定要在其上广告的网站指定关键字。
+* *[!UICONTROL Search and Display Network]：*&#x200B;在搜索网络和[!DNL Yandex Advertising Network]上显示文本广告。 对于搜索广告，您必须为每个广告组指定搜索关键字；对于显示广告，您必须为每个广告组指定要在其上广告的网站指定关键字。
 
-* *[!UICONTROL Display Network Only]：* 在上显示文本广告 [!DNL Yandex Advertising Network]. 对于每个广告组，您必须为要在其上进行广告的网站指定关键字。
+* *[!UICONTROL Display Network Only]：*&#x200B;在[!DNL Yandex Advertising Network]上显示文本广告。 对于每个广告组，您必须为要在其上进行广告的网站指定关键字。
 
 ## [!UICONTROL Campaign Details]
 
-**[!UICONTROL Campaign Name]：** 帐户中唯一的促销活动名称。
+**[!UICONTROL Campaign Name]：**&#x200B;帐户中唯一的促销活动名称。
 
 <!-- **[!UICONTROL Start date]:** -->
 
 {{$include /help/_includes/start-date.md}}
 
-**[!UICONTROL Status]：** 营销活动的显示状态： *活动* 或 *已暂停*. 新广告营销活动的默认设置为 *活动*.
+**[!UICONTROL Status]：**&#x200B;促销活动的显示状态： *活动*&#x200B;或&#x200B;*已暂停*。 新广告营销活动的默认值为&#x200B;*活动*。
 
 ## [!UICONTROL Budget Options]
 
-**[!UICONTROL Budget]：** 预算，即您希望每天（平均）或在营销活动存留期内的支出金额，具体取决于帐户的预算类型。 最低预算为6 300日元、10欧元或10美元。
+**[!UICONTROL Budget]：**&#x200B;预算，这是您希望每日（平均）或在营销活动存留期花费的金额，具体取决于帐户的预算类型。 最低预算为6 300日元、10欧元或10美元。
 
 **注释：**
 

@@ -1,9 +1,9 @@
 ---
 title: 直接在行中编辑设置
 description: 了解如何在行的管理视图中编辑数据。
-exl-id: 54625fc5-0e7d-4474-9789-61e04ffbb44f
+exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -22,9 +22,9 @@ ht-degree: 0%
 
    * （列表中的选项）从列表中选择一个新选项。
 
-   * （日期）输入新日期，或单击 ![日历](/help/search-social-commerce/assets/calendar.png "日历") 打开日历并 [选择新日期](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md).
+   * （日期）输入新日期，或单击![日历](/help/search-social-commerce/assets/calendar.png "日历")以打开日历，并[选择新日期](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)。
 
-   * （自由格式值）输入新值，然后单击 ![保存](/help/search-social-commerce/assets/select.png "保存") 或按 **输入** 键。
+   * （自由格式值）输入新值，然后单击![保存](/help/search-social-commerce/assets/select.png "保存")或按&#x200B;**Enter**&#x200B;键。
 
    >[!MORELIKETHIS]
    >

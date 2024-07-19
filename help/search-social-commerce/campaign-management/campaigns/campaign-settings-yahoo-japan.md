@@ -1,30 +1,30 @@
 ---
-title: ’[!DNL Yahoo! Japan Ads] 营销活动设置
-description: 引用设置 [!DNL Yahoo! Japan Ads] 营销活动。
-exl-id: f728a880-27d8-478a-8480-a00b0fcab293
+title: “[!DNL Yahoo! Japan Ads]营销活动设置”
+description: 引用 [!DNL Yahoo! Japan Ads] 营销活动的设置。
+exl-id: 29acde0f-13f6-422d-b611-23ebb2ee70d9
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
-# [!DNL Yahoo! Japan Ads] campaign设置
+# [!DNL Yahoo! Japan Ads]营销活动设置
 
 ## \[营销活动创建屏幕\]
 
-**[!UICONTROL Campaign Type]：** （仅在营销活动创建期间可用）放置广告的位置：唯一选项为 *[!UICONTROL Search Network Only]* 在搜索网络上显示文本广告。
+**[!UICONTROL Campaign Type]：** （仅在创建促销活动期间可用）放置广告的位置：唯一选项是&#x200B;*[!UICONTROL Search Network Only]*，用于在搜索网络上显示文本广告。
 
 ## [!UICONTROL Campaign Details]
 
-**[!UICONTROL Campaign Name]：** 帐户中唯一的促销活动名称。
+**[!UICONTROL Campaign Name]：**&#x200B;帐户中唯一的促销活动名称。
 
 <!-- **[!UICONTROL Start date]:** -->
 
 {{$include /help/_includes/start-date.md}}
 
-**[!UICONTROL Status]：** 营销活动的显示状态： *活动* 或 *已暂停*. 新广告营销活动的默认设置为 *活动*.
+**[!UICONTROL Status]：**&#x200B;促销活动的显示状态： *活动*&#x200B;或&#x200B;*已暂停*。 新广告营销活动的默认值为&#x200B;*活动*。
 
 <!-- **[!UICONTROL End date]:** -->
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Budget Options]
 
-**[!UICONTROL Budget]：** 平均而言，预算，也就是每天要花费的金额。 最低每日预算为100日元。
+**[!UICONTROL Budget]：**&#x200B;平均每天要花费的预算。 最低每日预算为100日元。
 
 如果您将此促销活动分配给自动调整促销活动预算限制的项目组合，则 — 根据搜索条件 — 您实际上可能在任何给定期间花费的金额大于或小于指定的预算。
 

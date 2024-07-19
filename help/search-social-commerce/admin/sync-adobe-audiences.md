@@ -1,40 +1,40 @@
 ---
 title: 同步 [!DNL Adobe] 受众
-description: 了解如何为您的同步元数据、层次结构数据和独特受众数据 [!DNL Adobe] 受众。
-exl-id: 7d4a3c66-5013-412f-8937-d64c336751e3
+description: 了解如何同步 [!DNL Adobe] 受众的元数据、层次结构数据和独特受众数据。
+exl-id: 8b8c3aa0-2aa9-4ad7-a4c0-1b7ba881acd3
 feature: Search Admin
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
 
-# 同步 [!DNL Adobe] 受众
+# 同步[!DNL Adobe]受众
 
-*[!DNL Direct Access]仅限客户端管理者和管理员*
+仅&#x200B;*[!DNL Direct Access]客户端管理员和管理员*
 
 *仅具有Adobe Advertising-Adobe Audience Manager或Adobe Advertising-Adobe Analytics集成的广告商*
 
-您可以允许Search、Social和Commerce拉入所有广告商或代理的元数据、层次结构数据和独特受众数据 [!DNL Adobe] 受众进入 [!UICONTROL Campaigns] > [!UICONTROL Audiences] 视图。 此信息包括以下项的数据：
+您可以允许Search、Social和Commerce将广告商或代理机构所有[!DNL Adobe]受众的元数据、层次结构数据和唯一受众数据提取到[!UICONTROL Campaigns] > [!UICONTROL Audiences]视图中。 此信息包括以下项的数据：
 
 * Adobe Audience Manager区段
 
 * 发布到Adobe Experience Cloud的Adobe Analytics区段
 
-* 使用Adobe Experience Cloud创建的区段 [!DNL Audience Library]
+* 使用Adobe Experience Cloud [!DNL Audience Library]创建的区段
 
-广告商或代理机构必须执行 [Adobe Experience Platform Identity服务](https://experienceleague.adobe.com/docs/id-service/using/home.html) 并提供其组织ID(以前称为 [!DNL IMS Org ID])。
+广告商或代理机构必须实施[Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)并提供其组织ID（以前称为[!DNL IMS Org ID]），才能符合条件。
 
 初始同步大约需要24小时。 之后，数据实时同步，延迟为1到2秒。
 
-1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Audience Manager Setup]**.
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Audience Manager Setup]**。
 
-1. 输入广告商的Adobe Experience Cloud帐户的唯一组织ID，然后单击 **[!UICONTROL Submit]**.
+1. 输入广告商的Adobe Experience Cloud帐户的唯一组织ID，然后单击&#x200B;**[!UICONTROL Submit]**。
 
-   如果您不知道广告商的组织ID，请在 **[!UICONTROL IMS Org ID]** 位于的广告商设置中的字段 [!UICONTROL Admin] > [!UICONTROL Manage Client].
+   如果您不知道广告商的组织ID，请在[!UICONTROL Admin] > [!UICONTROL Manage Client]处广告商设置的&#x200B;**[!UICONTROL IMS Org ID]**&#x200B;字段中查找它。
 
 >[!MORELIKETHIS]
 >
 >* [关于受众](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
->* [与Adobe Experience Cloud解决方案和服务集成](/help/search-social-commerce/introduction/integrations.md)
+>* [与Adobe Experience Cloud解决方案和服务的集成](/help/search-social-commerce/introduction/integrations.md)

@@ -1,9 +1,9 @@
 ---
 title: 优化网站登陆页面
 description: 了解优化网站登陆页面的最佳实践。
-exl-id: 87379fb1-c737-4ac0-80c1-26c79feb45d8
+exl-id: cd94277c-a340-4161-8630-86a249eb3465
 feature: Search Best Practices
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 * 使用良好的页面设计；良好的设计可以立即产生信任、熟悉感和可信度。 自定义您的表单按钮以使其更引人注目；请勿使用包含“提交”一词的标准浏览器生成按钮。 使用两列式布局，主列包含可操作项，第二列包含支持信息。
 
-* 提供信誉和安全指标。 徽标和印章有助于缓解访客的焦虑。 其中包括 [!DNL Verisign]， [!DNL BBB] 徽标， [!DNL eTrust]， [!DNL HackerSafe]、满意度保证、退款等。 在收集信息时包括隐私声明。 将这些指标放在尽可能靠近可操作项目的位置。
+* 提供信誉和安全指标。 徽标和印章有助于缓解访客的焦虑。 其中包括[!DNL Verisign]、[!DNL BBB]徽标、[!DNL eTrust]、[!DNL HackerSafe]、满意度保证、退款优惠等。 在收集信息时包括隐私声明。 将这些指标放在尽可能靠近可操作项目的位置。
 
 * 提供激励，例如免费送货、礼品、折扣、免费报表或电子书。 点击登陆页面的访客正在四处购物，需要激励他们停留在页面上并完成选件。 激励措施应该是页面上最引人注目的内容之一。
 
@@ -52,9 +52,9 @@ ht-degree: 0%
 
 ## 测试登陆页面的影响
 
-要查看更改登陆页面（当其他内容不变时）的影响，请运行 [该 [!DNL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)，包括显示URL和每个广告的基本/最终URL或目标URL。
+要查看更改登陆页面（在其他内容不变时）的影响，请运行[the [!DNL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)，其中包含每个广告的显示URL和基本/最终URL或目标URL。
 
 >[!MORELIKETHIS]
 >
->* [分析报告以优化您的关键词和促销活动设置](best-practices-analyze.md)
->* [编写有效的文本和副本](best-practices-write.md)
+>* [分析报告以优化您的关键字和促销活动设置](best-practices-analyze.md)
+>* [编写有效的文字广告副本](best-practices-write.md)

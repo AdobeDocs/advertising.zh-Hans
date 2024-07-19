@@ -16,15 +16,15 @@ ht-degree: 0%
 
 1. 执行以下任一操作：
 
-   * 在主菜单中，单击 **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
+   * 在主菜单中，单击&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL Users]**。
 
-   * 在主菜单中，单击 **[!UICONTROL Settings]** > **[!UICONTROL Account]**，然后单击 **[!UICONTROL Edit users]**.
+   * 在主菜单中，单击&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL Account]**，然后单击&#x200B;**[!UICONTROL Edit users]**。
 
-1. 在 **[!UICONTROL Invitations]** 部分，单击 **[!UICONTROL X]** 在邀请函旁边。
+1. 在&#x200B;**[!UICONTROL Invitations]**&#x200B;部分中，单击邀请旁边的&#x200B;**[!UICONTROL X]**。
 
 >[!MORELIKETHIS]
 >
->* [邀请组织帐户的新用户](user-invite.md)
+>* [邀请新的用户使用您的组织帐户](user-invite.md)
 >* [重新发送待处理用户邀请](user-resend-invite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

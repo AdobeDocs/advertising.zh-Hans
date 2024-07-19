@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Cross-Device Solutions
 
-Advertising DSP与集成 [!DNL LiveRamp] 允许您将受众扩展到用户的所有已知设备，而不仅仅是品牌跟踪的设备。 该集成还提供了跨所有设备的频率封顶和归因测量。
+Advertising DSP与[!DNL LiveRamp]的集成允许您将受众扩展到用户的所有已知设备，而不仅仅是您的品牌所跟踪的设备。 该集成还提供了跨所有设备的频率封顶和归因测量。
 
 当您使用受支持的基于人员的设备图时，您可以：
 
@@ -20,7 +20,7 @@ Advertising DSP与集成 [!DNL LiveRamp] 允许您将受众扩展到用户的所
 * 通过了解并限制跨个人的频率来平衡广告曝光。
 * 跨渠道或设备公开与转化受众的测试策略。
 
-## 的优势 [!DNL LiveRamp] 设备图
+## [!DNL LiveRamp]设备图的优点
 
 * 提供确定性数据池，包括离线客户数据
 
@@ -30,7 +30,7 @@ Advertising DSP与集成 [!DNL LiveRamp] 允许您将受众扩展到用户的所
 
 * 免费用于频率封顶和归因测量
 
-* 扩展展示的定价为$0.35 CPM(仅通过使用 [!DNL LiveRamp] 设备图，而不是在目标受众区段内找到的设备上)
+* 扩展展示次数（仅使用[!DNL LiveRamp]设备图提供的展示次数，而不是在目标受众区段内找到的设备上提供的展示次数）的定价为$0.35 CPM
 
   费率会反映在您的帐户费率卡上。
 
@@ -40,15 +40,15 @@ Advertising DSP与集成 [!DNL LiveRamp] 允许您将受众扩展到用户的所
 
 ### 激活基于人员的频率管理
 
-* **促销活动：** 创建新营销活动时，您可以指定 [!UICONTROL Cross-Device Level] 设置。 启用”[!UICONTROL Same Device]“ -> ”[!UICONTROL People]、”并选择设备图。 指定的设备图既可用于投放级别上的跨设备定位，也可用于营销活动、包和投放级别基于人员的频率管理。 频度上限适用于用户的所有已知设备。
+* **营销活动：**&#x200B;创建新营销活动时，您可以指定[!UICONTROL Cross-Device Level]设置。 启用“[!UICONTROL Same Device]” — >“[!UICONTROL People]”并选择设备图。 指定的设备图既可用于投放级别上的跨设备定位，也可用于营销活动、包和投放级别基于人员的频率管理。 频度上限适用于用户的所有已知设备。
 
-有关更多信息，请参阅 [Campaign设置](/help/dsp/campaign-management/campaigns/campaign-settings.md).
+有关详细信息，请参阅[促销活动设置](/help/dsp/campaign-management/campaigns/campaign-settings.md)。
 
-保存营销活动后，便无法更改其 [!UICONTROL Cross Device Level] 设置。
+保存营销活动后，便无法更改其[!UICONTROL Cross Device Level]设置。
 
-* **包：**  您可以选择在包级别设置其他频率限制。 DSP遵循营销活动层次结构中最严格的频率限制。
+* **包：**&#x200B;您可以选择在包级别设置其他频率上限。 DSP遵循营销活动层次结构中最严格的频率限制。
 
-* **版面：** 您可以选择在投放级别设置其他频率上限。 DSP遵循营销活动层次结构中最严格的频率限制。
+* **投放位置：**&#x200B;您可以选择在投放位置级别设置其他频率上限。 DSP遵循营销活动层次结构中最严格的频率限制。
 
 ## 基于人员的定位
 
@@ -56,29 +56,29 @@ Advertising DSP与集成 [!DNL LiveRamp] 允许您将受众扩展到用户的所
 
 ### 激活基于人员的定位
 
-* **促销活动：** 创建新营销活动时，您可以指定 [!UICONTROL Cross-Device Level] 设置。 启用”[!UICONTROL Same Device]“ -> ”[!UICONTROL People]、”并选择设备图。 指定的设备图既可用于投放级别上的跨设备定位，也可用于基于人员的频率管理。
+* **营销活动：**&#x200B;创建新营销活动时，您可以指定[!UICONTROL Cross-Device Level]设置。 启用“[!UICONTROL Same Device]” — >“[!UICONTROL People]”并选择设备图。 指定的设备图既可用于投放级别上的跨设备定位，也可用于基于人员的频率管理。
 
-有关更多信息，请参阅 [Campaign设置](/help/dsp/campaign-management/campaigns/campaign-settings.md).
+有关详细信息，请参阅[促销活动设置](/help/dsp/campaign-management/campaigns/campaign-settings.md)。
 
-* **版面：** 当您通过指定的设备图为营销活动中的投放选择受众目标时， [!UICONTROL Cross-Device Targeting] 选项允许您将定位扩展到人员的所有已知设备（根据促销活动设置中指定的设备图），甚至扩展到不在指定区段中的设备。
+* **投放位置：**&#x200B;当您在具有指定设备图的促销活动中为投放位置选择受众目标时，[!UICONTROL Cross-Device Targeting]选项允许您跨人员的所有已知设备（根据促销活动设置中指定的设备图）扩展您的定位，甚至可以跨指定区段之外的设备扩展。
 
 ### 为基于人员的定位设置报表
 
 您可以在自定义报表中包含以下量度：
 
-* **扩展展示：** (在 [!UICONTROL Build Your Report] 部分在 [!UICONTROL Metrics] > [!UICONTROL Std. Metrics])利用设备图投放的增量展示数量（在原始受众区段中未找到）。 此量度还用于计算与使用第三方设备图相关的适用费用。
+* **扩展展示次数：** （在[!UICONTROL Metrics] > [!UICONTROL Std. Metrics]下的[!UICONTROL Build Your Report]部分中）利用设备图交付的增量展示次数（在原始受众区段中找不到）。 此量度还用于计算与使用第三方设备图相关的适用费用。
 
-  要确定某个时间段内展示次数的成本，请运行包含 [!UICONTROL Extended Impressions] 列，然后将总展示次数乘以$0.00035（$0.35/1000展示次数）。
+  要确定某个时间段内扩展展示的成本，请运行包含[!UICONTROL Extended Impressions]列的自定义报表，然后将扩展展示总数乘以$0.00035（$0.35/1000展示次数）。
 
-  总成本亦包括于综合财务报表内。 [!UICONTROL Billable Other Net Spend] 列(在 [!UICONTROL Metrics] > [!UICONTROL Spend])，但是该量度还包括您可能已添加的其他促销活动费用。
+  汇总成本也包含在[!UICONTROL Billable Other Net Spend]列（[!UICONTROL Metrics] > [!UICONTROL Spend]下）中，但该量度还包括您可能已添加的其他促销活动费用。
 
-* **设备图：** (在 [!UICONTROL Build Your Report] 部分在 [!UICONTROL Dimensions] > [!UICONTROL Campaign])特定营销活动、包或投放位置的选定设备图。
+* **设备图：** （在[!UICONTROL Dimensions] > [!UICONTROL Campaign]下的[!UICONTROL Build Your Report]部分中）为特定营销活动、包或投放位置选择的设备图。
 
 ## 基于人员的归因测量
 
-*仅具有Adobe Advertising转化跟踪的广告商*
+*仅跟踪Adobe Advertising转化情况的广告商*
 
-使用基于人员的归因，您可以归因发生媒体曝光的设备之外的其他设备上发生的转化。 基于人员的归因测量可通过DSP使用， [!DNL Adobe Advertising Creative]、和 [!DNL Adobe Advertising Search, Social, & Commerce] 适用于在其网站上实施了Adobe Advertising转化像素的广告商。
+使用基于人员的归因，您可以归因发生媒体曝光的设备之外的其他设备上发生的转化。 基于人员的归因测量在DSP、[!DNL Adobe Advertising Creative]和[!DNL Adobe Advertising Search, Social, & Commerce]中可用，适用于在其网站上实施Adobe Advertising转化像素的广告商。
 
 ### 启用基于人员的归因测量
 
@@ -88,17 +88,17 @@ Advertising DSP与集成 [!DNL LiveRamp] 允许您将受众扩展到用户的所
 
 #### 转化报表设置
 
-为归因测量启用设备图后， [!UICONTROL Conversion] 报表包括 [!UICONTROL Cross-Device Breakout] 设置，从而允许您为每个转化量度最多包含三个单独的列，包括：
+为归因测量启用设备图后，[!UICONTROL Conversion]报表将包含[!UICONTROL Cross-Device Breakout]设置，这样您最多可以为每个转化量度包含三个单独的列，包括：
 
-* &lt;*转化*>[!UICONTROL (tp)]：包括总转化量（总人数），其中包括同设备转化量和跨设备转化量（如果适用）。 在报告中， ”[!UICONTROL (tp)]&quot;会附加到转化路径中的转化量度名称、规则类型和转化类型(例如，&quot;Responses(le)(tl)(tp))。
+* &lt;*转化*>[!UICONTROL (tp)]：包含总转化（总人数），其中包括同一设备转化和跨设备转化（如果适用）。 在报表中，“[!UICONTROL (tp)]”会附加到转化路径中的转化量度名称、规则类型和转化类型(例如，“Responses(le)(tl)(tp)”)。
 
-* &lt;*转化*>[!UICONTROL (sd)]：（可选）仅包含在转化路径中仅跟踪单个设备的转化。 在报告中， ”[!UICONTROL (sd)]&quot;会附加到转化路径中的转化量度名称、规则类型和转化类型(例如，&quot;Responses(le)(tl)(sd))。
+* &lt;*转化*>[!UICONTROL (sd)]： （可选）仅包含在转化路径中只跟踪单个设备的转化。 在报表中，“[!UICONTROL (sd)]”会附加到转化路径中的转化量度名称、规则类型和转化类型(例如，“Responses(le)(tl)(sd)”)。
 
-* &lt;*转化*>[!UICONTROL (xd)]：（可选）仅包含在转化路径中跟踪了多个设备的转化。 在报告中， ”[!UICONTROL (xd)]&quot;会附加到转化路径中的转化量度名称、规则类型和转化类型(例如，&quot;Responses(le)(tl)(xd))。
+* &lt;*转化*>[!UICONTROL (xd)]： （可选）只包含在转化路径中跟踪了多个设备的转化。 在报表中，“[!UICONTROL (xd)]”会附加到转化路径中的转化量度名称、规则类型和转化类型(例如，“Responses(le)(tl)(xd)”)。
 
 #### 如何解读转化报表
 
-排序跨设备转化总数的百分比([!UICONTROL (xd)]/[!UICONTROL (tl)])从高到低，了解推动跨设备转化高于平均值的因素。 您可以利用这一点为创意或定位策略提供信息，以便匹配报文传送并将投资与用户行为导向。
+对跨设备([!UICONTROL (xd)]/[!UICONTROL (tl)])的总转化百分比从高到低进行排序，以了解是什么在推动高于平均值的跨设备转化。 您可以利用这一点为创意或定位策略提供信息，以便匹配报文传送并将投资与用户行为导向。
 
 * 包 — 查看哪些包产生的总转化率最高，哪些包的跨设备转化率较高。 这有助于您了解在哪里集中支出。
 
@@ -112,7 +112,7 @@ Advertising DSP与集成 [!DNL LiveRamp] 允许您将受众扩展到用户的所
 
 >[!MORELIKETHIS]
 >
->* [报表设置](/help/dsp/reports/report-settings.md)
->* [Campaign设置](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+>* [报告设置](/help/dsp/reports/report-settings.md)
+>* [营销活动设置](/help/dsp/campaign-management/campaigns/campaign-settings.md)
 >* [包设置](/help/dsp/campaign-management/packages/package-settings.md)
->* [投放设置](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [位置设置](/help/dsp/campaign-management/placements/placement-settings.md)

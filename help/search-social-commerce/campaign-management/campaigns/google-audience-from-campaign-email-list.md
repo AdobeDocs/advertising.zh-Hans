@@ -1,52 +1,52 @@
 ---
-title: 创建 [!DNL Google Ads] Adobe Campaign电子邮件列表中的客户匹配受众
-description: 了解如何创建 [!DNL Google Ads] 客户匹配现有Adobe Campaign电子邮件列表中的受众。
-exl-id: 967580fc-52c3-42f5-8d60-18cb83bc714a
+title: 从Adobe Campaign电子邮件列表创建 [!DNL Google Ads] 客户匹配受众
+description: 了解如何从现有Adobe Campaign电子邮件列表创建 [!DNL Google Ads] 客户匹配受众。
+exl-id: 92812af2-ac31-48cd-badf-ea287799bddb
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
 
-# 创建 [!DNL Google Ads] Adobe Campaign电子邮件列表中的客户匹配受众
+# 从Adobe Campaign电子邮件列表创建[!DNL Google Ads]个客户匹配受众
 
-*[!DNL Google Ads]仅符合客户匹配条件的客户*
+仅符合客户匹配条件的&#x200B;*[!DNL Google Ads]帐户*
 
-您可以创建 [!DNL Google Ads] 通过在Adobe Campaign中设置帐户链接和工作流，客户可从电子邮件列表中匹配受众 [!DNL Campaign].
+您可以在[!DNL Campaign]中设置帐户链接和工作流，从而从Adobe Campaign中的电子邮件列表创建[!DNL Google Ads]客户匹配受众。
 
-为此，您需要拥有对您的应用程序的 [!DNL Campaign] 实例和包含所需工作流的XML文件，您的Adobe客户团队将为您提供该工作流。 说明可能会因不同版本而异 [!DNL Campaign]. 如有必要，您的Adobe客户团队可以帮助您在中设置工作流 [!DNL Campaign].
+为此，您需要访问[!DNL Campaign]实例以及包含所需工作流的XML文件，您的Adobe帐户团队将为您提供该工作流。 说明可能会因不同版本的[!DNL Campaign]而异。 如有必要，您的Adobe客户团队可以帮助您在[!DNL Campaign]中设置工作流。
 
-1. 获取由Advertising Search、Social和Commerce提供的SFTP帐户的凭据。
+1. 获取Advertising Search、Social和Commerce提供的SFTP帐户的凭据。
 
-1. 在 [!DNL Campaign]，设置将电子邮件列表投放到Advertising Search、Social和Commerce：
+1. 在[!DNL Campaign]中，设置将电子邮件列表传递到Advertising Search、Social和Commerce：
 
-   1. 创建 [外部帐户](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html) 要关联您的搜索、社交和商务提供的SFTP帐户，请执行以下操作：
+   1. 创建一个[外部帐户](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html)以关联您的搜索、社交和Commerce提供的SFTP帐户：
 
-      1. 从左侧菜单，转到 **\[Adobe Campaign v6\] > [!UICONTROL Platform] >[!UICONTROL External Accounts]**.
+      1. 从左侧菜单中，转到&#x200B;**\[Adobe Campaign v6\] > [!UICONTROL Platform] >[!UICONTROL External Accounts]**。
 
-      1. 单击 ![创建帐户](/help/search-social-commerce/assets/campaign-create-account.png "创建帐户").
+      1. 单击![创建帐户](/help/search-social-commerce/assets/campaign-create-account.png "创建帐户")。
 
-      1. 输入帐户的标签并选择 **[!UICONTROL SFTP]** 作为帐户类型。
+      1. 输入帐户的标签并选择&#x200B;**[!UICONTROL SFTP]**&#x200B;作为帐户类型。
 
-      1. 输入的URL和端口号 [!DNL Adobe] SFTP服务器和广告商的文件夹名称、用户名和密码。
+      1. 输入[!DNL Adobe] SFTP服务器的URL和端口号，以及广告商的文件夹名称、用户名和密码。
 
-      1. 单击 **[!UICONTROL Save]**.
+      1. 单击&#x200B;**[!UICONTROL Save]**。
 
-   1. 在 [!DNL Campaign Client]，安装数据包，其中包含发送电子邮件数据所需的工作流：
+   1. 在[!DNL Campaign Client]中，安装包含发送电子邮件数据所需的工作流的数据包：
 
-      1. 在菜单栏中，转到 **[!UICONTROL Tools]> [!UICONTROL Advanced] >[!UICONTROL Import Package]**.
+      1. 从菜单栏转到&#x200B;**[!UICONTROL Tools]> [!UICONTROL Advanced] >[!UICONTROL Import Package]**。
 
-      1. 选择 **[!UICONTROL Install a package from a file]**，然后单击 **[!UICONTROL Next]**.
+      1. 选择&#x200B;**[!UICONTROL Install a package from a file]**，然后单击&#x200B;**[!UICONTROL Next]**。
 
-      1. 找到数据包文件(`AMO_Workflow.xml`)，然后单击 **[!UICONTROL Next]**.
+      1. 在设备或网络上找到数据包文件(`AMO_Workflow.xml`)，然后单击&#x200B;**[!UICONTROL Next]**。
 
-      1. 单击 **[!UICONTROL Start]** 并等待安装工作流。
+      1. 单击&#x200B;**[!UICONTROL Start]**&#x200B;并等待工作流安装。
 
    1. 编辑已安装的工作流，以选择性地编辑数据查询的过滤器，并识别新受众名称和外部SFTP帐户：
 
-      1. 转到 **[!UICONTROL Administration]> [!UICONTROL Configuration] > [!UICONTROL Package management] >[!UICONTROL Installed packages]** 然后打开包裹。
+      1. 转到&#x200B;**[!UICONTROL Administration]> [!UICONTROL Configuration] > [!UICONTROL Package management] >[!UICONTROL Installed packages]**&#x200B;并打开包。
 
       1. （可选）编辑数据的任意过滤器：
 
@@ -54,17 +54,17 @@ ht-degree: 0%
 
          * 编辑过滤器表达式。
 
-         * 单击 **[!UICONTROL Finish]**.
+         * 单击&#x200B;**[!UICONTROL Finish]**。
 
       1. 命名区段：
 
-         * 在工作流中，双击活动 **[!UICONTROL Data extraction (File)]**.
+         * 在工作流中，双击活动&#x200B;**[!UICONTROL Data extraction (File)]**。
 
-         * 转到 **[!UICONTROL Data extraction (File)]** 选项卡，在 **[!UICONTROL File name]** 字段中，输入扩展名为&quot;`.added`“（如PaidSubscribers.added）。
+         * 在&#x200B;**[!UICONTROL Data extraction (File)]**&#x200B;选项卡的&#x200B;**[!UICONTROL File name]**&#x200B;字段中，输入扩展名为“`.added`”的区段名称（如PaidSubscribers.added）。
 
            区段名称不得已存在。 区段名称区分大小写，且必须包含ASCII字符，但不能包含下划线(`_`)。
 
-           但是，如果要将区段添加到特定 [!DNL Google Ad] 帐户，然后为区段名称附加下划线和 [!UICONTROL User SE Account ID] (搜索、社交和商务的ID [!DNL Google Ads] 帐户，而非网络的帐户ID)：
+           但是，如果要将区段添加到特定的[!DNL Google Ad]帐户，请为区段名称附加下划线和[!UICONTROL User SE Account ID]([!DNL Google Ads]帐户的搜索、社交和Commerce的ID，而不是网络的帐户ID)：
 
            `_<User SE Account ID>`
 
@@ -74,43 +74,43 @@ ht-degree: 0%
            >
            >这是禁止在文件名中使用下划线的规则的例外。
 
-           否则，该区段将添加到所有 [!DNL Google Ads] 正在为广告商同步搜索、社交和商务的帐户。
+           否则，该区段将添加到为广告商同步Search、Social和Commerce的所有[!DNL Google Ads]帐户。
 
-         * 将选项保留为 **[!UICONTROL Generate an outbound transition]** 已选定。
+         * 将选项保留为&#x200B;**[!UICONTROL Generate an outbound transition]**&#x200B;选定。
 
-         * 单击 **[!UICONTROL Ok]**.
+         * 单击&#x200B;**[!UICONTROL Ok]**。
 
       1. 指定要向其发送数据的外部帐户：
 
-         * 在工作流中，双击活动 **[!UICONTROL File Transfer]**.
+         * 在工作流中，双击活动&#x200B;**[!UICONTROL File Transfer]**。
 
-         * 转到 **[!UICONTROL File Transfer]** 选项卡，在 **[!UICONTROL Remote server]** 部分，选择选项以 **[!UICONTROL Use an external account]**.
+         * 在&#x200B;**[!UICONTROL File Transfer]**&#x200B;选项卡的&#x200B;**[!UICONTROL Remote server]**&#x200B;部分中，选择&#x200B;**[!UICONTROL Use an external account]**&#x200B;的选项。
 
-         * 在 **[!UICONTROL External account]** 字段中，为在第2步中创建的外部帐户选择标签。
+         * 在&#x200B;**[!UICONTROL External account]**&#x200B;字段中，选择您在步骤2中创建的外部帐户的标签。
 
-         * 在 **[!UICONTROL Server folder]** 字段中，选择值 [!UICONTROL Account] 外部帐户的字段。
+         * 在&#x200B;**[!UICONTROL Server folder]**&#x200B;字段中，为外部帐户选择[!UICONTROL Account]字段的值。
 
-         * （可选）在 **[!UICONTROL Schedule]** 选项卡，为文件传输指定不同的计划。
+         * （可选）在&#x200B;**[!UICONTROL Schedule]**&#x200B;选项卡上，为文件传输指定其他计划。
 
            默认情况下，工作流会在00:00（午夜）运行，这可以确保处理所有记录。 为了最大程度地减少延迟，请安排工作流在18:00之前运行。
 
-         * 单击 **[!UICONTROL Ok]**.
+         * 单击&#x200B;**[!UICONTROL Ok]**。
 
-搜索、Social和Commerce每30分钟检查一次目录（在广告商所在时区的NN：30和NN：59），并将其找到的任何文件移动到另一个位置，然后自动从数据创建受众，并在22:00（晚上10）将其推送到Google。 搜索、Social和Commerce会继续检查电子邮件列表是否有更新（添加和减少），每30分钟检查一次，并在以下位置更新受众： [!DNL Google Ads] 因此，在每天22点。
+搜索、Social和Commerce每30分钟检查一次目录（在广告商所在时区的NN：30和NN：59），并将找到的所有文件移动到其他位置，然后自动根据数据创建受众，并在22:00（晚上10）将其推送到Google。 搜索、Social和Commerce仍会每隔30分钟检查一次电子邮件列表是否有更新（添加和减少），并会在每天22:00相应地更新[!DNL Google Ads]上的受众。
 
 >[!NOTE]
 >
 >* 如果在处理周期之间上载文件的多个版本，则使用最新文件。
 >
->* 搜索、Social和Commerce不会存储您的电子邮件列表中用于创建或编辑的任何客户数据 [!DNL Google Ads] 受众。
+>* Search、Social和Commerce不会存储您的电子邮件列表中用于创建或编辑[!DNL Google Ads]受众的任何客户数据。
 >
->* [!DNL Google Ads] 可能需要一段时间来处理受众的更新。
+>* [!DNL Google Ads]可能需要一段时间来处理受众的更新。
 >
->* 请参阅 [[!DNL Google Ads] 有关客户匹配的工作方式和限制的文档](https://support.google.com/displayvideo/answer/9539301).
+>* 请参阅[[!DNL Google Ads] 文档，了解客户匹配的工作方式和限制](https://support.google.com/displayvideo/answer/9539301)。
 
 >[!MORELIKETHIS]
 >
 >* [关于受众](audience-about.md)
->* [创建 [!DNL Google Ads] 客户匹配受众来自 [!DNL Adobe] 受众](google-audience-from-adobe-audience.md)
+>* [创建来自 [!DNL Adobe] 受众的 [!DNL Google Ads] 客户匹配受众](google-audience-from-adobe-audience.md)
 >* [使用客户数据列表管理客户匹配受众](audience-from-customer-data-list.md)
->* [管理动态二次营销受众](audience-dynamic-remarketing-manage.md)
+>* [管理动态再营销受众](audience-dynamic-remarketing-manage.md)

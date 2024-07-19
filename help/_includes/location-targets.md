@@ -13,9 +13,9 @@ ht-degree: 0%
 
 * 要定位所有位置，请勿选择任何位置。
 
-* 要包括一个位置及其子位置，请单击相邻圆圈一次，以便显示一个蓝色复选标记(![包括](/help/search-social-commerce/assets/include.png "包括"))中显示。 您可以选择按指定百分比增加或减少每个目标位置的竞价。
+* 若要包含位置及其子位置，请单击相邻圆圈一次，以便显示蓝色复选标记（![包含](/help/search-social-commerce/assets/include.png "包含")）。 您可以选择按指定百分比增加或减少每个目标位置的竞价。
 
-* 要排除某个位置，请单击相邻圆圈两次，以便显示红色复选标记(![排除](/help/search-social-commerce/assets/exclude.png "排除"))中显示。
+* 要排除某个位置，请单击相邻圆圈两次，以便显示红色复选标记（![排除](/help/search-social-commerce/assets/exclude.png "排除")）。
 
 * 要将位置展开到其子组件中（例如州、省、区域或城市），请单击位置名称。
 

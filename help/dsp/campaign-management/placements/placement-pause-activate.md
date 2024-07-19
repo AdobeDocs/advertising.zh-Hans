@@ -16,17 +16,17 @@ ht-degree: 0%
 
 ## 暂停实时投放
 
-1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 1. 单击营销活动的名称。
-1. 在子菜单中，单击 **[!UICONTROL Placements]**.
-1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. 在子菜单中，单击&#x200B;**[!UICONTROL Placements]**。
+1. 在投放位置名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Pause]**。
 
 ## 激活暂停的投放位置
 
-1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 1. 单击营销活动的名称。
-1. 在子菜单中，单击 **[!UICONTROL Placements]**.
-1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. 在子菜单中，单击&#x200B;**[!UICONTROL Placements]**。
+1. 在投放位置名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Activate]**。
 
 >[!MORELIKETHIS]
 >

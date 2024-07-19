@@ -9,13 +9,13 @@ ht-degree: 0%
 
 <!-- Search CRUD and bulk edit of Microsoft entity settings -->
 
-**[!UICONTROL Tracking Template]：** （可选；并非适用于所有实体）跟踪模板或跟踪URL，它指定所有离登陆域重定向和跟踪参数，并将最终/登陆页面URL嵌入到参数中。 示例： `{lpurl}?source={network}&id=5` 或 `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` 以包含重定向。
+**[!UICONTROL Tracking Template]：** （可选，不适用于所有实体）跟踪模板或跟踪URL，它指定所有登入外域重定向和跟踪参数，并将最终/登陆页面URL嵌入到参数中。 示例： `{lpurl}?source={network}&id=5`或`http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`以包含重定向。
 
-用于Adobe Advertising转化跟踪，当促销活动设置包括&#39;&#39;时应用[!UICONTROL EF Redirect]”和“[!UICONTROL Auto Upload]，”在保存记录时，Search、Social和Commerce会自动为自己的重定向和跟踪代码添加前缀。
+对于Adobe Advertising转化跟踪（在Campaign设置包括&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;时应用），Search、Social和Commerce会在您保存记录时自动为其自己的重定向和跟踪代码添加前缀。
 
-* 有关嵌入最终URL支持的参数，请参阅 [[!DNL Microsoft Advertising] 有关指示最终URL的参数的文档](https://help.ads.microsoft.com/#apex/3/en/56799).
+* 有关嵌入最终URL所支持的参数，请参阅有关参数的[[!DNL Microsoft Advertising] 文档，以指示最终URL](https://help.ads.microsoft.com/#apex/3/en/56799)。
 
-* 您可以选择包含URL参数以及为促销活动定义的任何自定义参数，这些参数之间以&amp;号分隔，例如 {lpurl}？matchtype={matchtype}设备(&amp;D)={device}.
+* 您可以选择包含URL参数和为该营销活动定义的任何自定义参数，以&amp;号(&amp;)分隔，如{lpurl}？matchtype={matchtype}&amp;device={device}。
 
 * 您可以选择添加第三方重定向和跟踪。
 

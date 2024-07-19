@@ -1,20 +1,20 @@
 ---
 title: 关于协助报告
 description: 了解可提供有关转化路径见解的报表。
-exl-id: b402727e-a639-48f9-96c9-33fa1edafc6b
+exl-id: 0962c8b1-0116-480a-8253-4e8488fec77c
 feature: Search Reports, Search Assist Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
 
 # 关于协助报告
 
-*具有搜索、社交和商务点击跟踪以及来自Adobe Advertising的转化跟踪的广告商，Adobe Analytics(具有 [!DNL Analytics] 集成)，或使用令牌在馈送中提供(`ef_id`)仅限*
+*广告商具有搜索、社交和Commerce点击跟踪以及Adobe Advertising、Adobe Analytics的转化跟踪（具有[!DNL Analytics]集成），或仅在信息源中使用令牌(`ef_id`)提供*
 
-协助报表提供对广告商所有关键词和广告的转化路径的洞察。 协助报表使用通过Adobe Advertising转化跟踪服务、Adobe Analytics转化跟踪以及包含令牌的信息源文件捕获的数据(`ef_id`)，并且只能为具有这些服务的广告商生成。
+协助报表提供对广告商所有关键词和广告的转化路径的洞察。 协助报表使用通过Adobe Advertising转化跟踪服务、Adobe Analytics转化跟踪以及包含令牌(`ef_id`)的信息源文件捕获的数据，并且只能为具有这些服务的广告商生成。
 
 >[!NOTE]
 >
@@ -23,17 +23,17 @@ ht-degree: 0%
 
 ## 协助报告的类型
 
-* [此 [!UICONTROL Campaign Assist Report]](/help/search-social-commerce/reports/management/assist/campaign-assist-report.md)
+* [[!UICONTROL Campaign Assist Report]](/help/search-social-commerce/reports/management/assist/campaign-assist-report.md)
 
-* [此 [!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)
+* [[!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)
 
-* [此 [!UICONTROL Keyword Assist Report]](/help/search-social-commerce/reports/management/assist/keyword-assist-report.md)
+* [[!UICONTROL Keyword Assist Report]](/help/search-social-commerce/reports/management/assist/keyword-assist-report.md)
 
 >[!MORELIKETHIS]
 >
->* [此 [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
->* [此 [!UICONTROL Channel Assist Report]](channel-assist-report.md)
->* [此 [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
->* [协助报表设置](assist-report-settings.md)
+>* [该[!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
+>* [该[!UICONTROL Channel Assist Report]](channel-assist-report.md)
+>* [该[!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
+>* [协助报告设置](assist-report-settings.md)
 >* [生成协助报告](assist-report-generate.md)
 >* [关于报告](/help/search-social-commerce/reports/report-about.md)

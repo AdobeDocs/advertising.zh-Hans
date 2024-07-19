@@ -1,11 +1,11 @@
 ---
 title: 关于报告模板
 description: 了解可重用报表模板。
-exl-id: 15f05c8c-7dcf-4965-9ded-155d79346634
+exl-id: 8ac30a16-7fa9-4da3-9375-98efd05c6e74
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [创建报表模板](template-create.md)
+>* [创建报告模板](template-create.md)
 >* [编辑报告模板](template-edit.md)
 >* [查看报表模板](template-view.md)
->* [删除报表模板](template-delete.md)
+>* [删除报告模板](template-delete.md)

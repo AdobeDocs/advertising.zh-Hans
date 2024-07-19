@@ -1,6 +1,6 @@
 ---
-title: 的点击跟踪格式 [!DNL Microsoft Advertising]
-description: 了解的点击跟踪格式 [!DNL Microsoft Advertising] 帐户。
+title: ' [!DNL Microsoft Advertising]的点击跟踪格式'
+description: 了解 [!DNL Microsoft Advertising] 帐户的点击跟踪格式。
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
 source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
@@ -10,9 +10,9 @@ ht-degree: 0%
 
 ---
 
-# 的点击跟踪格式 [!DNL Microsoft Advertising]
+# [!DNL Microsoft Advertising]的点击跟踪格式
 
-以下是Search、Social和Commerce所需的基本跟踪模板和登陆页面后缀（最终URL后缀）格式 [!DNL Microsoft Advertising].
+以下是Search、Social和Commerce要求用于[!DNL Microsoft Advertising]的基本跟踪模板和登陆页面后缀（最终URL后缀）格式。
 
 ## 跟踪模板格式
 
@@ -28,11 +28,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` 是Adobe Advertising中广告商唯一ID的变量。
+>* `<advertiser_ID>`是Adobe Advertising中广告商唯一ID的变量。
 >
->* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，则替换 `cq?` 之后 `<advertiser_ID>` 替换为 `c?`.
+>* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请在`<advertiser_ID>`之后将`cq?`替换为`c?`。
 >
->* `{TargetId}` 表示a)关键字或b)触发广告的关键字和再营销列表（受众）的ID（例如，对于关键字和再营销列表，“kwd-123：aud-456”，或仅对于关键字，“kwd-123”）。
+>* `{TargetId}`表示a)关键字或b)触发广告的关键字和再营销列表（受众）的ID（例如，对于关键字和再营销列表，“kwd-123：aud-456”或“kwd-123”仅用于关键字）。
 
 ### 站点链接
 
@@ -44,15 +44,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` 是Adobe Advertising中广告商唯一ID的变量。
+>* `<advertiser_ID>`是Adobe Advertising中广告商唯一ID的变量。
 >
->* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，则替换 `cq?` 之后 `<advertiser_ID>` 替换为 `c?`.
+>* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请在`<advertiser_ID>`之后将`cq?`替换为`c?`。
 >
->* `{TargetId}` 表示a)关键字或b)触发广告的关键字和再营销列表（受众）的ID（例如，对于关键字和再营销列表，“kwd-123：aud-456”，或仅对于关键字，“kwd-123”）。
+>* `{TargetId}`表示a)关键字或b)触发广告的关键字和再营销列表（受众）的ID（例如，对于关键字和再营销列表，“kwd-123：aud-456”或“kwd-123”仅用于关键字）。
 >
->* `{adextensionid}` 未使用。
+>* `{adextensionid}`未使用。
 >
->* （站点链接）您可以通过生成 [!UICONTROL Transaction Report]. 此 [!UICONTROL Link Type] sitelink的列值为 `sl:<Sitelink text>`，例如 `sl:See Current Offers`.
+>* （站点链接）您可以通过生成[!UICONTROL Transaction Report]来查看由于单击站点链接而导致的转化。 Sitelink的[!UICONTROL Link Type]列值为`sl:<Sitelink text>`，如`sl:See Current Offers`。
 
 ### 购物网络
 
@@ -66,13 +66,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` 是Adobe Advertising中广告商唯一ID的变量。
+>* `<advertiser_ID>`是Adobe Advertising中广告商唯一ID的变量。
 >
->* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，则替换 `cq?` 之后 `<advertiser_ID>` 替换为 `c?`.
+>* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请在`<advertiser_ID>`之后将`cq?`替换为`c?`。
 >
->* `{TargetId}` 表示a)关键字或b)触发广告的关键字和再营销列表（受众）的ID（例如，对于关键字和再营销列表，“kwd-123：aud-456”，或仅对于关键字，“kwd-123”）。
+>* `{TargetId}`表示a)关键字或b)触发广告的关键字和再营销列表（受众）的ID（例如，对于关键字和再营销列表，“kwd-123：aud-456”或“kwd-123”仅用于关键字）。
 >
->* （可选）您可以将跟踪URL添加到中的产品数据中，而不是在帐户、营销活动、广告组或产品组级别输入跟踪模板。 [!DNL Microsoft Merchant Center] 帐户。 要实现此目的，请包含跟踪URL以及&quot;`link`”或“`mobile_link`”字段（根据需要）[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)”在产品信息源中。 “”中的值`bingads_redirect`”字段替换“”中的值`link`”和“`mobile_link`”字段。 使用此方法生成的URL不包括“搜索”、“Social”和“Commerce”帐户或营销活动设置中指定的任何跟踪参数。
+>* （可选）您可以将跟踪URL添加到[!DNL Microsoft Merchant Center]帐户中的产品数据，而不是在帐户、营销活动、广告组或产品组级别输入跟踪模板。 为此，请在产品信息源的自定义列“[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)”中包含跟踪URL以及相应的“`link`”或“`mobile_link`”字段中的值。 “`bingads_redirect`”字段中的值替换了“`link`”和“`mobile_link`”字段中的值。 使用此方法生成的URL不包括“搜索”、“Social”和“Commerce”帐户或营销活动设置中指定的任何跟踪参数。
 
 ## 登陆页面后缀（最终URL后缀）格式
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 ### 搜索和受众网络
 
-使用Adobe Advertising转化跟踪的帐户必须包含广告网络的点击标识符(`msclkid` 对象 [!DNL Microsoft Advertising])进行标记：
+使用Adobe Advertising转化跟踪的帐户必须在后缀中包含广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`）：
 
 * 当广告商具有Adobe Analytics集成时，后缀必须包含以下内容：
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 ### 购物网络
 
-使用Adobe Advertising转化跟踪的帐户必须包含广告网络的点击标识符(`msclkid` 对象 [!DNL Microsoft Advertising])进行标记：
+使用Adobe Advertising转化跟踪的帐户必须在后缀中包含广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`）：
 
 * 当广告商具有Adobe Analytics集成时，后缀必须包含以下内容：
 
@@ -106,5 +106,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于Adobe Advertising转化跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
+>* [关于Adobe Advertising转换跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
 >* [AMO ID格式](/help/integrations/analytics/ids.md#amo-id-formats)

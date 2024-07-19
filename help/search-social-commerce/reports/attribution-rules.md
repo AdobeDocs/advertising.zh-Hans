@@ -1,37 +1,37 @@
 ---
 title: 归因规则的计算方式
 description: 了解Adobe Advertising如何计算每种类型的归因规则。
-exl-id: b61561fa-8c01-4989-9ef7-620d2b4c2c0b
+exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '2439'
+source-wordcount: '2716'
 ht-degree: 0%
 
 ---
 
 # 如何为Adobe Advertising计算归因规则
 
-*仅具有Adobe Advertising转化跟踪的广告商*
+*仅跟踪Adobe Advertising转化情况的广告商*
 
 <!-- Verify statements about cross-device events -->
 
 广告商级别的归因规则用于在一系列导致转化的事件中归因转化数据（可能跨多个广告渠道）。
 
-在报表、Advertising Search、Social和Commerce（Search、Social和Commerce）的默认视图和（某些用户角色）以及Search、Social和Commerce的项目组合级别模拟中，选定的规则仅用于视图、报表或模拟数据。 各种归因规则的应用如下。
+在Advertising Search、Social和Commerce(Search、Social和Commerce)的报表默认视图和自定义视图，以及Search、Social和Commerce的项目组合级别模拟（某些用户角色）中，选定的规则仅用于视图、报表或模拟数据。 各种归因规则的应用如下。
 
 >[!NOTE]
 >
 >* 归因规则适用于任何渠道中的付费广告点击次数，以及展示广告和社交广告的展示次数。 它们不适用于付费搜索广告的展示次数，此类展示次数无法在事件级别进行跟踪。
->* Adobe Advertising始终在转化前为每个Web浏览者存储以下事件： a)第一次付费点击； b)每个渠道最多10次点击（搜索、社交或显示），包括第一次点击；以及c)最多10次显示展示。 <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
+>* Adobe Advertising始终在转化前为每个Web浏览者存储以下事件： a)第一次付费点击； b)每个渠道最多10次点击（搜索、社交或显示），包括第一次点击；以及c)最多10次显示展示。<!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
 * 在Advertising DSP和Advertising Creative中，跨设备定义仅考虑所选归因规则中的事件路径。<!-- cross-device attribution via LiveRamp only -->
 * 在报表和管理视图中，为某个值显示的小数位数取决于货币，但Adobe Advertising会存储更精确的值。
 
 ## 上一个事件（默认）
 
-将转化归因于广告商的系列中的最后一次付费点击 [单击回顾窗口](/help/search-social-commerce/glossary.md#c-d) 或者，如果未发生付费点击，则指向广告商展示的最后一次展示 [展示回顾窗口](/help/search-social-commerce/glossary.md#i-j).
+将转化归因于广告商的[点击回顾窗口](/help/search-social-commerce/glossary.md#c-d)内系列中的最后一次付费点击，如果没有发生付费点击，则归因于广告商的[展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)内的最后一次展示。
 
-如果转换之前只有展示次数，则将此转换视为 *显示到达*，根据广告商的 [显示到达权重设置](/help/search-social-commerce/glossary.md#uv) 或 — 如所指定 — 根据报告、视图或自定义模拟参数中指定的浏览估价方法。
+如果转换之前只有展示次数，则将转换视为&#x200B;*显示到达*，该转换根据广告商的[显示到达权重设置](/help/search-social-commerce/glossary.md#uv)进行加权，或者，根据指定，根据在报表、视图或自定义模拟参数中指定的显示到达估价方法进行加权。
 
 ![上一个事件归因百分比](/help/search-social-commerce/assets/attribution-percent-last-event.png "上一个事件归因百分比")
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ### 包含展示次数和点击次数的示例
 
-**注意：** 展示次数仅适用于显示广告和社交广告。
+**注意：**&#x200B;展示次数仅适用于显示广告和社交广告。
 
 事件路径： Impression 1、Click 1、Impression 2、120美元转化
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ### 具有所有展示的示例
 
-**注意：** 仅适用于展示广告和社交广告的展示次数。
+**注意：**&#x200B;仅展示广告和社交广告的展示次数适用。
 
 事件路径： Impression 1、Impression 2、Impression 3、120美元转化
 
@@ -71,9 +71,9 @@ ht-degree: 0%
 
 ## 第一个事件
 
-将转化归因于广告商的系列中的第一次付费点击 [单击回顾窗口](/help/search-social-commerce/glossary.md#c-d) 或者，如果未发生付费点击，则呈现广告商的第一印象 [展示回顾窗口](/help/search-social-commerce/glossary.md#i-j). 此规则仅适用于单个设备上的事件。
+将转化归因于广告商的[点击回顾窗口](/help/search-social-commerce/glossary.md#c-d)内系列中的第一次付费点击，如果没有发生付费点击，则归因于广告商的[展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)内的第一次展示。 此规则仅适用于单个设备上的事件。
 
-如果转换之前只有展示次数，则将此转换视为 *显示到达*，根据广告商的 [显示到达权重设置](/help/search-social-commerce/glossary.md#uv) 或 — 如所指定 — 根据报告、视图或自定义模拟参数中指定的浏览估价方法。
+如果转换之前只有展示次数，则转换将被视为&#x200B;*显示到达*，其根据广告商的[显示到达权重设置](/help/search-social-commerce/glossary.md#uv)进行加权，或者，根据指定，根据在报表、视图或自定义模拟参数中指定的显示到达估价方法进行加权。
 
 ![第一个事件归因百分比](/help/search-social-commerce/assets/attribution-percent-first-event.png "第一个事件归因百分比")
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ### 包含展示次数和点击次数的示例
 
-**注意：** 展示次数仅适用于显示广告和社交广告。
+**注意：**&#x200B;展示次数仅适用于显示广告和社交广告。
 
 事件路径： Impression 1、Click 1、Impression 2、120美元转化
 
@@ -97,11 +97,12 @@ ht-degree: 0%
 
 ### 具有所有展示的示例
 
-**注意：** 仅适用于展示广告和社交广告的展示次数。
+**注意：**&#x200B;仅展示广告和社交广告的展示次数适用。
 
 事件路径： Impression 1、Impression 2、Impression 3、120美元转化
 
-该转化归因于展示1。 由于转化是显示到达，因此应用了在报表设置的“（显示促销活动）转化归因”部分中选择的显示到达估价方法：
+该转化归因于展示1。 由于转化是显示到达，因此在“（显示促销活动）转化”中选择的显示到达估价方法
+报表设置的“归因”部分：
 
 * 如果报表参数指定了加权的显示到达权重，则该权重将应用于显示到达。 例如，如果广告商的展示权重为40%，则120 x 40% = 48美元，因此48美元归因于“展示次数1”。
 
@@ -113,17 +114,17 @@ ht-degree: 0%
 
 ## 将第一个事件加权更多
 
-将转化归因于广告商发生的一系列事件中的所有事件 [单击回顾窗口](/help/search-social-commerce/glossary.md#c-d) 和 [展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)，但给予第一个事件最大权重，而依次给予以下事件较小权重。此规则仅适用于单个设备上的事件。
+将转化归因于在广告商的[点击回顾窗口](/help/search-social-commerce/glossary.md#c-d)和[展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)内发生的系列中的所有事件，但给予第一个事件的权重最大，给予以下事件的权重依次较低。此规则仅适用于单个设备上的事件。
 
-如果转换之前只有展示次数，则将此转换视为 *显示到达*，根据广告商的 [显示到达权重设置](/help/search-social-commerce/glossary.md#uv) 或 — 如所指定 — 根据报告、视图或自定义模拟参数中指定的浏览估价方法。
+如果转换之前只有展示次数，则转换将被视为&#x200B;*显示到达*，其根据广告商的[显示到达权重设置](/help/search-social-commerce/glossary.md#uv)进行加权，或者，根据指定，根据在报表、视图或自定义模拟参数中指定的显示到达估价方法进行加权。
 
 当转化路径包含付费点击和展示次数时，展示次数会因不同的Adobe Advertising产品而异：
 
-* 在搜索、社交和商务中， [印象覆盖权重](/help/search-social-commerce/glossary.md#i-j)  — 在广告商的展示次数覆盖权重设置以及报表、视图或自定义模拟参数中指定 — 首先应用于展示次数。
+* 在Search、Social和Commerce中，[展示覆盖权重](/help/search-social-commerce/glossary.md#i-j)（在广告商的展示覆盖权重设置中以及在报表、视图或自定义模拟参数中指定）首先应用于展示次数。
 
 * 在DSP中，会忽略展示次数，并且只对点击进行加权。 DSP在归因中不考虑展示次数覆盖权重。
 
-![权重第一个事件更多归因百分比](/help/search-social-commerce/assets/attribution-percent-weight-first-more.png "权重第一个事件更多归因百分比")
+![加权第一个事件更多归因百分比](/help/search-social-commerce/assets/attribution-percent-weight-first-more.png "加权第一个事件更多归因百分比")
 
 <!-- start examples as collapsible content -->
 
@@ -137,17 +138,17 @@ ht-degree: 0%
 
 ### 包含展示和点击的示例
 
-**注意：** 展示次数仅适用于显示广告和社交广告。
+**注意：**&#x200B;展示次数仅适用于显示广告和社交广告。
 
 事件路径： Impression 1、Click 1、Impression 2、Click 2、120美元的转化
 
-#### （仅限搜索、社交和商务）使用默认的“展示覆盖权重”10%
+#### (仅限搜索、社交和Commerce)使用默认的“展示覆盖权重”10%
 
 由于事件序列既包含展示次数也包含点击次数，因此展示次数覆盖权重适用于展示次数。
 
 归因：展示次数1 = 8 USD，点击次数1 = 72 USD，展示次数2 = 4 USD，点击次数2 = 36 USD（总计120 USD）
 
-#### 使用(仅限DSP)无展示覆盖权重或（仅限搜索、Social和Commerce）0%的“展示覆盖权重”
+#### 使用(仅限DSP)无展示覆盖权重或(仅限搜索、Social和Commerce)0%的“展示覆盖权重”
 
 由于事件系列同时包含展示次数和点击次数，因此会忽略展示次数。
 
@@ -155,7 +156,7 @@ ht-degree: 0%
 
 ### 具有所有展示的示例
 
-**注意：** 仅适用于显示广告的展示次数。
+**注意：**&#x200B;仅展示广告的展示次数适用。
 
 事件路径： Impression 1、Impression 2、Impression 3、120美元转化
 
@@ -175,13 +176,13 @@ ht-degree: 0%
 >
 >此规则仅适用于单个设备上的事件。
 
-将转化同等地归因于广告商广告中发生的系列中的每个事件 [单击回顾窗口](/help/search-social-commerce/glossary.md#c-d) 和 [展示回顾窗口](/help/search-social-commerce/glossary.md#i-j).
+将转化平均归因于在广告商的[点击回顾窗口](/help/search-social-commerce/glossary.md#c-d)和[展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)内发生的系列中的每个事件。
 
-如果转换之前只有展示次数，则将此转换视为 *显示到达*，根据广告商的 [显示到达权重设置](/help/search-social-commerce/glossary.md#uv) 或 — 如所指定 — 根据报告、视图或自定义模拟参数中指定的浏览估价方法。
+如果转换之前只有展示次数，则转换将被视为&#x200B;*显示到达*，其根据广告商的[显示到达权重设置](/help/search-social-commerce/glossary.md#uv)进行加权，或者，根据指定，根据在报表、视图或自定义模拟参数中指定的显示到达估价方法进行加权。
 
 当转化路径包含付费点击和展示次数时，展示次数会因不同的Adobe Advertising产品而异：
 
-* 在搜索、社交和商务中， [印象覆盖权重](/help/search-social-commerce/glossary.md#i-j)  — 在广告商的展示次数覆盖权重设置以及报表、视图或自定义模拟参数中指定 — 首先应用于展示次数。
+* 在Search、Social和Commerce中，[展示覆盖权重](/help/search-social-commerce/glossary.md#i-j)（在广告商的展示覆盖权重设置中以及在报表、视图或自定义模拟参数中指定）首先应用于展示次数。
 
 * 在DSP中，会忽略展示次数，并且只对点击进行加权。 DSP在归因中不考虑展示次数覆盖权重。
 
@@ -201,17 +202,17 @@ ht-degree: 0%
 
 ### 包含展示和点击的示例
 
-**注意：** 展示次数仅适用于显示广告和社交广告。
+**注意：**&#x200B;展示次数仅适用于显示广告和社交广告。
 
 事件路径： Impression 1、Click 1、Impression 2、Click 2、120美元的转化
 
-#### （仅限搜索、社交和商务）使用默认的“展示覆盖权重”10%
+#### (仅限搜索、社交和Commerce)使用默认的“展示覆盖权重”10%
 
 由于事件序列既包含展示次数也包含点击次数，因此展示次数覆盖权重适用于展示次数。
 
 归因：展示次数1 = 6 USD，点击次数1 = 54 USD，展示次数2 = 6 USD，点击次数2 = 54 USD（总计120 USD）
 
-#### 使用(仅限Adobe Advertising DSP)无展示覆盖权重或（仅限搜索、Social和Commerce）0%的“展示覆盖权重”
+#### 使用(仅限Adobe Advertising DSP)无展示覆盖权重或(仅限搜索、Social和Commerce)0%的“展示覆盖权重”
 
 由于事件系列同时包含展示次数和点击次数，因此会忽略展示次数。
 
@@ -219,7 +220,7 @@ ht-degree: 0%
 
 ## 具有所有展示的示例
 
-**注意：** 仅适用于显示广告的展示次数。
+**注意：**&#x200B;仅展示广告的展示次数适用。
 
 事件路径： Impression 1、Impression 2、Impression 3、120美元转化
 
@@ -235,17 +236,17 @@ ht-degree: 0%
 
 ## 权重最后一个事件更多
 
-将转化归因于广告商发生的一系列事件中的所有事件 [单击回顾窗口](/help/search-social-commerce/glossary.md#c-d) 和 [展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)，但是会为最后一个事件赋予最大权重，而为前面事件依次赋予较小的权重。
+将转化归因于在广告商的[点击回顾窗口](/help/search-social-commerce/glossary.md#c-d)和[展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)内发生的系列中的所有事件，但将最大权重给予最后一个事件，并依次减少对前面事件的权重。
 
-如果转换之前只有展示次数，则将此转换视为 *显示到达*，根据广告商的 [显示到达权重设置](/help/search-social-commerce/glossary.md#uv) 或 — 如所指定 — 根据报告、视图或自定义模拟参数中指定的浏览估价方法。
+如果转换之前只有展示次数，则转换将被视为&#x200B;*显示到达*，其根据广告商的[显示到达权重设置](/help/search-social-commerce/glossary.md#uv)进行加权，或者，根据指定，根据在报表、视图或自定义模拟参数中指定的显示到达估价方法进行加权。
 
 当转化路径包含付费点击和展示次数时，展示次数会因不同的Adobe Advertising产品而异：
 
-* 在搜索、社交和商务中， [印象覆盖权重](/help/search-social-commerce/glossary.md#i-j)  — 在广告商的展示次数覆盖权重设置以及报表、视图或自定义模拟参数中指定 — 首先应用于展示次数。
+* 在Search、Social和Commerce中，[展示覆盖权重](/help/search-social-commerce/glossary.md#i-j)（在广告商的展示覆盖权重设置中以及在报表、视图或自定义模拟参数中指定）首先应用于展示次数。
 
 * 在DSP中，会忽略展示次数，并且只对点击进行加权。 DSP在归因中不考虑展示次数覆盖权重。
 
-![权重最后事件更多归因百分比](/help/search-social-commerce/assets/attribution-percent-weight-last-more.png "权重最后事件更多归因百分比")
+![加权最后事件更多归因百分比](/help/search-social-commerce/assets/attribution-percent-weight-last-more.png "加权最后事件更多归因百分比")
 
 <!-- start examples as collapsible content -->
 
@@ -259,17 +260,17 @@ ht-degree: 0%
 
 ### 包含展示和点击的示例
 
-**注意：** 展示次数仅适用于显示广告和社交广告。
+**注意：**&#x200B;展示次数仅适用于显示广告和社交广告。
 
 事件路径： Impression 1、Click 1、Impression 2、Click 2、120美元的转化
 
-#### （仅限搜索、社交和商务）使用默认的“展示覆盖权重”10%
+#### (仅限搜索、社交和Commerce)使用默认的“展示覆盖权重”10%
 
 由于事件序列既包含展示次数也包含点击次数，因此展示次数覆盖权重适用于展示次数。
 
 归因：展示次数1 = 4 USD，点击次数1 = 36 USD，展示次数2 = 8 USD，点击次数2 = 72 USD（总计120 USD）
 
-#### 使用(仅限DSP)无展示覆盖权重或（仅限搜索、Social和Commerce）0%的“展示覆盖权重”
+#### 使用(仅限DSP)无展示覆盖权重或(仅限搜索、Social和Commerce)0%的“展示覆盖权重”
 
 由于事件系列同时包含展示次数和点击次数，因此会忽略展示次数。
 
@@ -277,7 +278,7 @@ ht-degree: 0%
 
 ### 具有所有展示的示例
 
-**注意：** 展示次数仅适用于显示广告和社交广告。
+**注意：**&#x200B;展示次数仅适用于显示广告和社交广告。
 
 事件路径： Impression 1， Impression 2， Impression 3,120美元转化
 
@@ -293,13 +294,13 @@ ht-degree: 0%
 
 ## U型
 
-将转化归因于广告商发生的一系列事件中的所有事件 [单击回顾窗口](/help/search-social-commerce/glossary.md#c-d) 和 [展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)，但是会为第一个事件和最后一个事件赋予最大的权重，而对转换路径中间事件的权重则依次较低。
+将转化归因于在广告商的[点击回顾窗口](/help/search-social-commerce/glossary.md#c-d)和[展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)内发生的系列中的所有事件，但将最大权重赋予第一个事件和最后一个事件，依次减少对转化路径中间事件的权重。
 
-如果转换之前只有展示次数，则将此转换视为 *显示到达*，根据广告商的 [显示到达权重设置](/help/search-social-commerce/glossary.md#uv) 或 — 如所指定 — 根据报告、视图或自定义模拟参数中指定的浏览估价方法。
+如果转换之前只有展示次数，则转换将被视为&#x200B;*显示到达*，其根据广告商的[显示到达权重设置](/help/search-social-commerce/glossary.md#uv)进行加权，或者，根据指定，根据在报表、视图或自定义模拟参数中指定的显示到达估价方法进行加权。
 
 当转化路径包含付费点击和展示次数时，展示次数会因不同的Adobe Advertising产品而异：
 
-* 在搜索、社交和商务中， [印象覆盖权重](/help/search-social-commerce/glossary.md#i-j)  — 在广告商的展示次数覆盖权重设置以及报表、视图或自定义模拟参数中指定 — 首先应用于展示次数。
+* 在Search、Social和Commerce中，[展示覆盖权重](/help/search-social-commerce/glossary.md#i-j)（在广告商的展示覆盖权重设置中以及在报表、视图或自定义模拟参数中指定）首先应用于展示次数。
 
 * 在DSP中，会忽略展示次数，并且只对点击进行加权。 DSP在归因中不考虑展示次数覆盖权重。
 
@@ -317,17 +318,17 @@ ht-degree: 0%
 
 ### 包含展示和点击的示例
 
-**注意：** 展示次数仅适用于显示广告和社交广告。
+**注意：**&#x200B;展示次数仅适用于显示广告和社交广告。
 
 事件路径： Impression 1、Click 1、Impression 2、Click 2、120美元的转化
 
-#### （仅限搜索、社交和商务）使用默认的“展示覆盖权重”10%
+#### (仅限搜索、社交和Commerce)使用默认的“展示覆盖权重”10%
 
 由于事件序列既包含展示次数也包含点击次数，因此展示次数覆盖权重适用于展示次数。
 
 归因：展示次数1 = 6 USD，点击次数1 = 54 USD，展示次数2 = 6 USD，点击次数2 = 54 USD（总计120 USD）
 
-#### 使用(仅限DSP)无展示覆盖权重或（仅限搜索、Social和Commerce）“展示覆盖权重”为0%
+#### 使用(仅限DSP)无展示覆盖权重或(仅限搜索、Social和Commerce)0%的“展示覆盖权重”
 
 由于事件系列同时包含展示次数和点击次数，因此会忽略展示次数。
 
@@ -335,7 +336,7 @@ ht-degree: 0%
 
 ### 具有所有展示的示例
 
-**注意：** 仅适用于显示广告的展示次数。
+**注意：**&#x200B;仅展示广告的展示次数适用。
 
 事件路径： Impression 1、Impression 2、Impression 3、Impression 4、120美元转化
 

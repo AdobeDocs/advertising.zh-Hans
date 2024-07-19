@@ -12,16 +12,16 @@ ht-degree: 0%
 
 # 查看广告的详细报告
 
-此 <!--legacy --> 广告级别的报表包括 [!UICONTROL Overview]， [!UICONTROL Geography]、和 [!UICONTROL Viewability] 数据。
+<!--legacy -->广告级别报表包括[!UICONTROL Overview]、[!UICONTROL Geography]和[!UICONTROL Viewability]数据。
 
-1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 1. 单击营销活动的名称。
-1. 在子菜单中，单击 **[!UICONTROL Ads]**.
-1. 在广告名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL View report]**.
+1. 在子菜单中，单击&#x200B;**[!UICONTROL Ads]**。
+1. 在广告名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL View report]**。
 
 >[!MORELIKETHIS]
 >
 >* [查看投放位置的详细报告](/help/dsp/campaign-management/placements/placement-view-report.md)
 >* [查看营销活动的详细报告](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* [Campaign Management视图中的性能报表类型](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [关于自定义报表](/help/dsp/reports/report-about.md)
+>* Campaign Management视图中的[性能报告类型](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [关于自定义报告](/help/dsp/reports/report-about.md)

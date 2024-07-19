@@ -1,9 +1,9 @@
 ---
 title: 监控和管理营销活动的效果
 description: 了解如何监测每个活动和项目组合的表现并进行更改以实现您的目标。
-exl-id: cf3d015f-a171-45f2-be92-94f19b30e5ce
+exl-id: dad9d218-37ee-4949-ae61-ac91f7723906
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
@@ -18,11 +18,11 @@ Adobe客户团队、代理团队或广告商（取决于服务级别协议的条
 
 通过以下方式定期监控每个活动的性能：
 
-* 查看 [自定义警报](/help/search-social-commerce/alerts/alert-view.md) 您可用的资源。
+* 查看可用的[自定义警报](/help/search-social-commerce/alerts/alert-view.md)。
 
 * 查看有关包含的促销活动的帐户摘要和效果详细信息。
 
-* 正在运行 [报表](/help/search-social-commerce/reports/report-about.md)，包括 [该 [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md) （如适用）， [该 [!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md)， [该 [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)和其他性能报表（如果适用）。 使用项目组合时，请确保将预测绩效与实际绩效进行比较。
+* 正在运行[报告](/help/search-social-commerce/reports/report-about.md)，包括[报告[!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md)（如果适用）、[报告[!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md)、[报告[!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)以及适用的其他性能报告。 使用项目组合时，请确保将预测绩效与实际绩效进行比较。
 
 ## 管理绩效并调整营销活动和项目组合结构
 
@@ -36,14 +36,14 @@ Adobe客户团队、代理团队或广告商（取决于服务级别协议的条
 
 * 通过暂停营销活动或使项目组合处于非活动状态，停止营销活动中广告和关键词的竞价。
 
-* （适用时） [将营销活动分配给新项目组合](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
+* （适用时） [将营销活动分配给新项目组合](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)。
 
 * （如适用）调整组合策略以改善表现及把握增长机会。
 
-  有关更多信息，请参阅可在搜索、社交和商务中找到的“优化指南” 。<!-- verify convention for referencing Optimization Guide here -->
+  有关详细信息，请参阅Search、Social和Commerce中提供的《优化指南》。<!-- verify convention for referencing Optimization Guide here -->
 
 >[!MORELIKETHIS]
 >
->* [关于搜索、社交和商务中的促销活动管理](campaign-management-about.md)
+>* [关于Search、Social和Commerce中的促销活动管理](campaign-management-about.md)
 >* [实施广告网络帐户和营销活动概述](campaign-implemention-overview.md)
->* [搜索、社交和商务中的Google广告转化数据](google-conversion-data.md)
+>* [Search、Social和Commerce中的Google广告转化数据](google-conversion-data.md)

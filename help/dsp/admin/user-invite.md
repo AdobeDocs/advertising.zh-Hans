@@ -18,15 +18,15 @@ ht-degree: 0%
 
 1. 执行以下任一操作：
 
-   * 在主菜单中，单击 **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
+   * 在主菜单中，单击&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL Users]**。
 
-   * 在主菜单中，单击 **[!UICONTROL Settings]** > **[!UICONTROL Account]**，然后单击 **[!UICONTROL Edit users]**.
+   * 在主菜单中，单击&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL Account]**，然后单击&#x200B;**[!UICONTROL Edit users]**。
 
-1. 在 **[!UICONTROL Invitations]** 部分，单击 **[!UICONTROL Send Invite]**.
+1. 在&#x200B;**[!UICONTROL Invitations]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Send Invite]**。
 
-1. 在 **[!UICONTROL User Email]** 字段中，输入要向其发送邀请的电子邮件地址。
+1. 在&#x200B;**[!UICONTROL User Email]**&#x200B;字段中，输入要向其发送邀请的电子邮件地址。
 
-1. 单击 **[!UICONTROL Send Invite]**.
+1. 单击&#x200B;**[!UICONTROL Send Invite]**。
 
 >[!MORELIKETHIS]
 >

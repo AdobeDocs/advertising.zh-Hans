@@ -1,11 +1,11 @@
 ---
 title: 设置基于Cookie的点击跟踪
 description: 了解如何设置和验证点击跟踪标记。
-exl-id: 340aec08-a1a5-4aa5-b666-9c819c1709d0
+exl-id: 3f2b09bc-9794-41d1-89fc-0d239bad2fb1
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -16,47 +16,47 @@ ht-degree: 0%
 
 1. (Adobe客户团队)将广告商设置为像素客户。
 
-1. [为每个广告商的广告网络帐户和营销活动指定正确的跟踪选项](#set-up-click-tracking-options).
+1. [为每个广告商的广告网络帐户和营销活动指定正确的跟踪选项](#set-up-click-tracking-options)。
 
-1. 如有必要， [生成跟踪URL并上传它们](#generate-upload-tracking-urls) 促销活动元素。
+1. 如有必要，[生成跟踪URL并为某些促销活动元素上载它们](#generate-upload-tracking-urls)。
 
-1. [验证一些点击跟踪URL的格式，然后对其进行测试以验证是否打开了正确的登陆页面](#validate-tracking-urls).
+1. [验证一些点击跟踪URL的格式，并测试它们以验证是否打开了正确的登陆页面](#validate-tracking-urls)。
 
 ## 为广告网络帐户和营销活动设置跟踪选项 {#set-up-click-tracking-options}
 
-*代理客户经理， [!DNL Adobe] 仅帐户管理员和管理员用户角色*
+*仅代理帐户管理员、[!DNL Adobe]帐户管理员和管理员用户角色*
 
 1. 对于每个广告网络帐户，执行以下操作：
 
-   1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. 在子菜单中，单击 **[!UICONTROL Live]>[!UICONTROL Accounts]**.
+   1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]>[!UICONTROL Accounts]**。
 
-   1. 将光标悬停在帐户名称上，单击 ![菜单图标](/help/search-social-commerce/assets/arrow-dropdown-menu.png "菜单图标")，然后选择 **[!UICONTROL Edit]**.
+   1. 将光标悬停在帐户名称上，单击![菜单图标](/help/search-social-commerce/assets/arrow-dropdown-menu.png "菜单图标")，然后选择&#x200B;**[!UICONTROL Edit]**。
 
-   1. 单击 **[!UICONTROL Set Account Tracking]**.
+   1. 单击&#x200B;**[!UICONTROL Set Account Tracking]**。
 
-   1. 对于 [!UICONTROL Tracking Type] 设置，选择 **[!UICONTROL EF Redirect]**.
+   1. 对于[!UICONTROL Tracking Type]设置，选择&#x200B;**[!UICONTROL EF Redirect]**。
 
-   1. (允许Search、Social和Commerce与Adobe Analytics交换数据或跟踪中发生的转化 [!DNL Apple Safari])选择 [!UICONTROL Redirect Type] option **[!UICONTROL Token]**.
+   1. (要允许Search、Social和Commerce与Adobe Analytics交换数据或跟踪[!DNL Apple Safari]中发生的转化)请选择[!UICONTROL Redirect Type]选项&#x200B;**[!UICONTROL Token]**。
 
-   1. （可选）打开 **[!UICONTROL Auto Upload]** 用于在Search、Social和Commerce下次与其同步时自动将新跟踪URL上传到广告网络的选项。 此值作为帐户中所有营销活动的默认值继承，但可以在营销活动级别覆盖。
+   1. （可选）打开&#x200B;**[!UICONTROL Auto Upload]**&#x200B;选项，以便下次在Search、Social和Commerce与其同步时将新跟踪URL自动上传到广告网络。 此值作为帐户中所有营销活动的默认值继承，但可以在营销活动级别覆盖。
 
 1. 对于每个活动，请执行以下操作：
 
-   1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. 在子菜单中，单击 **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
+   1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]>[!UICONTROL Campaigns]**。
 
-   1. 将光标悬停在促销活动名称上，单击 ![菜单图标](/help/search-social-commerce/assets/arrow-dropdown-menu.png "菜单图标")，然后选择 **[!UICONTROL Edit]**.
+   1. 将光标悬停在促销活动名称上，单击![菜单图标](/help/search-social-commerce/assets/arrow-dropdown-menu.png "菜单图标")，然后选择&#x200B;**[!UICONTROL Edit]**。
 
-   1. 单击 **[!UICONTROL Set Campaign Tracking]**. 然后，选择选项以 **[!UICONTROL Override Account Tracking]**.
+   1. 单击&#x200B;**[!UICONTROL Set Campaign Tracking]**。 然后选择选项&#x200B;**[!UICONTROL Override Account Tracking]**。
 
-   1. 对于 [!UICONTROL Tracking Type] 设置，选择 **[!UICONTROL EF Redirect]**.
+   1. 对于[!UICONTROL Tracking Type]设置，选择&#x200B;**[!UICONTROL EF Redirect]**。
 
-   1. (允许Search、Social和Commerce与Adobe Analytics交换数据或跟踪中发生的转化 [!DNL Apple Safari])选择 [!UICONTROL Redirect Type] option **[!UICONTROL Token]**.
+   1. (要允许Search、Social和Commerce与Adobe Analytics交换数据或跟踪[!DNL Apple Safari]中发生的转化)请选择[!UICONTROL Redirect Type]选项&#x200B;**[!UICONTROL Token]**。
 
-   1. （可选）打开 **[!UICONTROL Auto Upload]** 用于在Search、Social和Commerce下次与其同步时自动将新跟踪URL上传到广告网络的选项。 此值作为帐户中所有营销活动的默认值继承，但可以在营销活动级别覆盖。
+   1. （可选）打开&#x200B;**[!UICONTROL Auto Upload]**&#x200B;选项，以便下次在Search、Social和Commerce与其同步时将新跟踪URL自动上传到广告网络。 此值作为帐户中所有营销活动的默认值继承，但可以在营销活动级别覆盖。
 
 ## 生成和上传跟踪URL {#generate-upload-tracking-urls}
 
-请参阅&quot;[何时以及如何生成点击跟踪URL](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)“
+请参阅“[何时以及如何生成点击跟踪URL](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)”。
 
 ### 测试点击跟踪网址的格式 {#validate-tracking-urls}
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 1. 通过向广告商的暂存环境发送流量来模拟广告点击：
 
-   1. 在文本编辑器中，粘贴点击跟踪URL，将登陆页面URL更改为指向广告商暂存环境中的同一页面，然后将新URL粘贴到浏览器的地址栏中，然后按 **[!DNL Enter]** 键。
+   1. 在文本编辑器中，粘贴点击跟踪URL，将登陆页面URL更改为指向广告商暂存环境中的同一页面，然后将新URL粘贴到浏览器的地址栏中，然后按&#x200B;**[!DNL Enter]**&#x200B;键。
 
    1. 在浏览器存储的Cookie中查找Cookie。
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 1. 对每个域重复步骤1，相应地使用不同的登陆页面。
 
-1. 如果需要，请确认Search、Social和Commerce可以查看交易ID的像素(`ev_transid`)。
+1. 如果需要，请确认Search、Social和Commerce可以看到测试期间生成的交易ID (`ev_transid`)的像素。
 
 >[!MORELIKETHIS]
 >

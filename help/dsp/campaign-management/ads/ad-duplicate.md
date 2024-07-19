@@ -14,23 +14,23 @@ ht-degree: 0%
 
 您可以在同一营销策划中复制广告。
 
-1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 
 1. 单击营销活动的名称。
 
-1. 在子菜单中，单击 **[!UICONTROL Ads]**.
+1. 在子菜单中，单击&#x200B;**[!UICONTROL Ads]**。
 
-1. 在广告名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
+1. 在广告名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Duplicate]**。
 
 1. 指定新的广告设置：
 
-   1. （可选）更改默认广告名称。 默认情况下，新广告称为“副本\&lt;*原始广告名称*\>.”
+   1. （可选）更改默认广告名称。 默认情况下，新广告被称为“副本\&lt;*原始广告名称*\>。”
 
-   1. （可选）更改广告设置 [音频广告](ad-settings-audio.md)， [已连接电视](ad-settings-connected-tv.md)， [展示广告](ad-settings-display.md)， [移动广告](ad-settings-mobile.md)， [原生广告](ad-settings-native.md)， [前置广告](ad-settings-pre-roll.md)，或 [通用视频广告](ad-settings-universal-video.md).
+   1. （可选）更改[音频广告](ad-settings-audio.md)、[连接的电视](ad-settings-connected-tv.md)、[显示广告](ad-settings-display.md)、[移动广告](ad-settings-mobile.md)、[原生广告](ad-settings-native.md)、[前置广告](ad-settings-pre-roll.md)或[通用视频广告](ad-settings-universal-video.md)的广告设置。
 
-1. 单击 **[!UICONTROL Save & Submit for Review]**.
+1. 单击&#x200B;**[!UICONTROL Save & Submit for Review]**。
 
-   此 [广告评论](ad-about.md) 对于新广告，需要24到48小时并包括敏感类别检查、单击URL功能和预览渲染。 此 [!UICONTROL Status] 列指示DSP是否已批准广告。 损坏的广告可能会有超过24-48小时的待处理状态，因此您有时间在错误被拒绝之前对其进行修复。
+   新广告的[广告审阅](ad-about.md)耗时24-48小时，并包括敏感类别的检查、单击URL功能和预览渲染。 [!UICONTROL Status]列指示DSP是否已批准该广告。 损坏的广告可能会有超过24-48小时的待处理状态，因此您有时间在错误被拒绝之前对其进行修复。
 
    >[!NOTE]
    >
@@ -39,7 +39,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于广告管理](ad-about.md)
->* [创建单个广告](ad-create.md)
+>* [创建单个Ad](ad-create.md)
 >* [创建多个第三方广告](ad-create-multiple.md)
 >* [编辑广告](ad-edit.md)
 >* [广告规范](ad-specs.md)

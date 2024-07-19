@@ -1,6 +1,6 @@
 ---
-title: 關於通用視訊的常見問題集
-description: 進一步瞭解通用視訊廣告。
+title: 关于通用视频的常见问题解答
+description: 了解有关通用视频广告的更多信息。
 feature: DSP Placements, DSP Ads
 exl-id: 48c744ae-90a3-47e9-a5dc-c4e3c01b75a0
 source-git-commit: 8d65069b7da5d3c33cc7713c6c80af27eb6bf227
@@ -10,49 +10,49 @@ ht-degree: 0%
 
 ---
 
-# 關於通用視訊的常見問題集
+# 关于通用视频的常见问题解答
 
-[通用視訊廣告](/help/dsp/campaign-management/ads/ad-about.md#ad-types) 可讓您使用單一視訊位置，從桌上型電腦、行動裝置和連線電視環境鎖定視訊詳細目錄，以進行VPAID和VAST詳細目錄。
+[通用视频广告](/help/dsp/campaign-management/ads/ad-about.md#ad-types)允许您使用单个视频投放位置从桌面、移动设备和连接的电视环境中针对VPAID和VAST内容库定位视频内容库。
 
-## 如何建立通用視訊版位和廣告？
+## 如何创建通用视频投放位置和广告？
 
-通用視訊版位只能包含通用視訊廣告，而通用視訊廣告只能附加至通用視訊版位。
+通用视频投放位置只能包含通用视频广告，并且通用视频广告只能附加到通用视频投放位置。
 
-建立通用視訊版位和廣告，其方式與建立其他型別的版位和視訊類似：
+创建通用视频投放位置和广告的方式与创建其他类型的投放位置和视频的方式类似：
 
-1. 在所需的行銷活動中， [建立通用視訊位置](/help/dsp/campaign-management/placements/placement-create.md)，選取 [!UICONTROL Placement Type] **[!UICONTROL Universal Video]**.
+1. 在所需的营销活动中，[创建一个通用视频投放位置](/help/dsp/campaign-management/placements/placement-create.md)，选择[!UICONTROL Placement Type] **[!UICONTROL Universal Video]**。
 
-   您必須至少指定一個要定位的環境（桌上型電腦、行動裝置、連線電視）。
+   您必须至少指定一个要定位的环境（桌面、移动设备、已连接电视）。
 
-1. 在與通用視訊版位相同的行銷活動中， [建立單一通用視訊廣告](/help/dsp/campaign-management/ads/ad-create.md) 或 [建立多個通用視訊廣告](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+1. 在与通用视频广告相同的促销活动中，[创建单个通用视频广告](/help/dsp/campaign-management/ads/ad-create.md)或[创建多个通用视频广告](/help/dsp/campaign-management/ads/ad-create-multiple.md)。
 
-   如果您建立多個廣告，請務必指定&quot;[!UICONTROL Universal Video]」作為 [!UICONTROL Ad Type]：
+   如果您创建多个广告，请确保将“[!UICONTROL Universal Video]”指定为[!UICONTROL Ad Type]：
 
-   * 對象 [!DNL Google] 或 [!DNL Flashtalking] 廣告：在&quot;[!UICONTROL Review ad types]「上傳檔案後，按一下 **[!UICONTROL Ad Type]** 欄位並選取 **[!UICONTROL Universal Video]**.
+   * 对于[!DNL Google]或[!DNL Flashtalking]广告：在上传文件后的“[!UICONTROL Review ad types]”步骤中，单击&#x200B;**[!UICONTROL Ad Type]**&#x200B;字段并选择&#x200B;**[!UICONTROL Universal Video]**。
 
-   * 對於其他型別的廣告標籤：在您上傳的試算表檔案中，指定每個廣告的「廣告型別」欄位為 **[!UICONTROL Universal Video]**.
+   * 对于其他类型的广告标记：在上传的电子表格文件中，将每个广告的广告类型字段指定为&#x200B;**[!UICONTROL Universal Video]**。
 
-1. [開啟廣告設定](/help/dsp/campaign-management/ads/ad-edit.md) 對於每個新廣告，請選取適用的視訊格式：
+1. [打开每个新广告的广告设置](/help/dsp/campaign-management/ads/ad-edit.md)，然后选择适用的视频格式：
 
-   * **[!UICONTROL VPAID]：** 可檢視度一律會予以測量。
-   * **[!UICONTROL VPAID & VAST (Default)]：** 包含不允許可檢視度測量的詳細目錄。
-   * **[!UICONTROL VAST]**  — 適用於連線電視清查。
+   * 始终测量&#x200B;**[!UICONTROL VPAID]：**&#x200B;可见性。
+   * **[!UICONTROL VPAID & VAST (Default)]：**&#x200B;包含不允许可见性测量的库存。
+   * **[!UICONTROL VAST]** — 适用于已连接的电视清单。
 
-   請參閱「[通用視訊廣告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)」以取得詳細資訊。
+   有关详细信息，请参阅[通用视频广告设置](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)。
 
-1. [附加新的通用視訊廣告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) 至通用視訊版位。
+1. [将新的通用视频广告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)附加到通用视频投放位置。
 
-## 為什麼在選取連線電視環境來放置通用視訊時，某些最佳化目標和套件無法使用？
+## 为什么在为通用视频放置选择连接的电视环境时，某些优化目标和包不可用？
 
-與標準連線電視位置不相容的目標（例如「最低每次點按成本」）不支援通用視訊位置的連線電視環境。 同樣地，具有不相容最佳化目標的套件也無法選取。
+与标准连接电视投放位置不兼容的目标（例如“每次点击成本最低”）在通用视频投放位置中的连接电视环境不受支持。 同样，具有不兼容优化目标的包也无法进行选择。
 
-## 何時 **[!UICONTROL VAST]** 視訊格式是否適用於通用視訊廣告？
+## 何时应将&#x200B;**[!UICONTROL VAST]**&#x200B;视频格式用于通用视频广告？
 
-使用 **[!UICONTROL VAST]** 在下列任一種情況中：
+在以下任一情况下使用&#x200B;**[!UICONTROL VAST]**：
 
-* 此位置會鎖定連線的電視機詳細目錄。
-* 此版位會鎖定來自Google Ad Manager、Appnexus、SpotX或Freewheel的視訊詳細目錄。 這些SSP不支援VPAID &amp; VAST視訊格式。
+* 放置目标为连接的电视机盘点。
+* 投放位置面向Google Ad Manager、Appnexus、SpotX或Freewheel中的视频库存。 这些SSP不支持VPAID和VAST视频格式。
 
-## 是否可以將多個通用視訊廣告附加至相同的通用視訊位置？
+## 是否可以将多个通用视频广告附加到同一个通用视频投放位置？
 
-是。
+是的。

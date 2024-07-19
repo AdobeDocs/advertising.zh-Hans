@@ -1,9 +1,9 @@
 ---
 title: 激活自定义警报模板
 description: 了解如何激活暂停的警报模板。
-exl-id: 6cf9ef6b-9f71-462c-b81e-a604d33c4fb7
+exl-id: d821d431-24fc-45ee-bb3f-7c9691ab15be
 feature: Search Alerts
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 您可以激活暂停的警报模板。
 
-1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**，此时将打开警报模板视图。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**，此时将打开警报模板视图。
 
 1. 执行以下任一操作：
 
-   * （激活单个模板）在模板行中，单击 [!UICONTROL Status] 列并选择 *[!UICONTROL Active]*.
+   * （要激活单个模板）在模板行中，单击[!UICONTROL Status]列并选择&#x200B;*[!UICONTROL Active]*。
 
-   * （激活一个或多个模板）选中要激活的每个警报模板旁边的复选框。 在工具栏中，单击 ![激活](/help/search-social-commerce/assets/activate.png "激活"). 在对话框中，单击 **[!UICONTROL Activate]**.
+   * （激活一个或多个模板）选中要激活的每个警报模板旁边的复选框。 在工具栏中，单击![激活](/help/search-social-commerce/assets/activate.png "激活")。 在对话框中，单击&#x200B;**[!UICONTROL Activate]**。
 
-     有关选择多行的提示，请参阅&quot;[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)“
+     有关选择多行的提示，请参阅“[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)”。
 
 >[!MORELIKETHIS]
 >

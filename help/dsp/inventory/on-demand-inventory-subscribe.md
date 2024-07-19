@@ -1,94 +1,93 @@
 ---
-title: 訂閱並請求存取權至 [!DNL On Demand] 進階詳細目錄交易
-description: 瞭解如何訂閱及請求存取權，[!DNL On Demand] 交易。
+title: 订阅和请求访问 [!DNL On Demand] 高级库存交易
+description: 了解如何订阅和请求访问[!DNL On Demand]交易。
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
-# 訂閱並請求存取權至 [!DNL On Demand] 進階詳細目錄交易
+# 订阅和请求访问[!DNL On Demand]高级库存交易
 
-*帳戶型別的使用者無法使用 [!UICONTROL Ad Network]， [!UICONTROL Publisher Audience Extension]、和 [!UICONTROL Other]；具有類別的廣告商 [!UICONTROL Other]；和經銷商*
+*不可用于帐户类型为[!UICONTROL Ad Network]、[!UICONTROL Publisher Audience Extension]和[!UICONTROL Other]的用户；类别为[!UICONTROL Other]的广告商和经销商*
 
-您可以要求個別交易或訂閱發佈商來要求發佈商的所有交易。 當您訂閱發行者時，DSP會自動代表您要求發行者提供任何新交易。
+您可以请求单个交易或订阅发布者以请求发布者的所有交易。 当您订阅发布者时，DSP会自动请求发布者代表您提供任何新交易。
 
-一旦交易完成 [已核准](/help/dsp/inventory/on-demand-inventory-view-status.md)，預設會納入為鎖定所有位置的新版位目標 [!DNL On Demand] 詳細目錄。 新交易也可作為現有刊登版位的目標，但您必須手動編輯刊登版位設定，以將交易新增為目標位置。
+交易获得[批准](/help/dsp/inventory/on-demand-inventory-view-status.md)后，默认情况下会作为新投放位置（针对所有[!DNL On Demand]库存）的目标包含该交易。 新交易也可用作现有投放的目标，但您必须手动编辑投放设置以将交易添加为目标。
 
-## 訂閱發佈者的所有交易
+## 订阅发布者的所有交易
 
-1. 在主功能表中，按一下 **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**。
 
-1. （選用）根據下列任一條件篩選可用的交易或發佈者：
+1. （可选）按照以下任一条件筛选可用的交易或发布者：
 
-   * 關鍵字搜尋
-
-   * **[!UICONTROL Publisher Region]**
-
-   * **[!UICONTROL Media Type]**
-
-   * 您請求的交易或訂閱，包括已核准和已拒絕的交易(**[!UICONTROL Currently subscribed to]**)
-
-   * 您已核准的交易(**[!UICONTROL Currently have access to]**)
-
-   * 交易來源 **[!UICONTROL TV Broadcasters]**
-
-   * 接受「調諧」創意內容的發行商優惠方案(**[!UICONTROL Tune-In]**)
-
-   * 出版商已套用21+目標定位並接受酒精廣告的交易(**[!UICONTROL Legal drinking age]**)
-
-1. 執行下列任一項作業：
-
-   * （若要訂閱最近新增的發佈程式）在發佈程式的頂端輪播中，將游標移至發佈程式標誌上方，然後按一下 **[!UICONTROL Subscribe]**.
-
-   * （若要訂閱任何發行者），請按一下 **[!UICONTROL Subscription view]**，將游標停留在發佈商標誌上，然後按一下 **[!UICONTROL Subscribe]**.
-
-## 要求存取個別交易
-
-1. 在主功能表中，按一下 **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
-
-1. （選用）根據下列任一條件篩選可用的交易或發佈者：
-
-   * 關鍵字搜尋
+   * 关键词搜索
 
    * **[!UICONTROL Publisher Region]**
 
    * **[!UICONTROL Media Type]**
 
-   * 您請求的交易或訂閱，包括已核准和已拒絕的交易(**[!UICONTROL Currently subscribed to]**)
+   * 您请求的交易或订阅，包括已批准和已拒绝的交易(**[!UICONTROL Currently subscribed to]**)
 
-   * 您已核准的交易(**[!UICONTROL Currently have access to]**)
+   * 您已被批准的交易(**[!UICONTROL Currently have access to]**)
 
-   * 交易來源 **[!UICONTROL TV Broadcasters]**
+   * 来自&#x200B;**[!UICONTROL TV Broadcasters]**&#x200B;的交易
 
-   * 接受「調諧」創意內容的發行商優惠方案(**[!UICONTROL Tune-In]**)
+   * 来自接受“调入”创意的出版商的交易(**[!UICONTROL Tune-In]**)
 
-   * 出版商已套用21+目標定位並接受酒精廣告的交易(**[!UICONTROL Legal drinking age]**)
+   * 出版商已应用21+定位并接受酒精广告的交易(**[!UICONTROL Legal drinking age]**)
 
-1. 執行下列任一項作業：
+1. 执行以下任一操作：
 
-   * 若要請求最近新增的交易：
+   * （订阅最近添加的发布者）在发布者的顶部轮播中，将光标悬停在发布者徽标上，然后单击&#x200B;**[!UICONTROL Subscribe]**。
 
-      1. 在發佈商的頂端輪播中，將游標停留在發佈商標誌上，然後按一下 **[!UICONTROL See Deals]**.
+   * （要订阅任何发布者）单击&#x200B;**[!UICONTROL Subscription view]**，将光标放在发布者徽标上，然后单击&#x200B;**[!UICONTROL Subscribe]**。
 
-      1. 若要訂閱個別交易，請按一下 **[!UICONTROL Request]** 在 [!UICONTROL Action] 相關列的欄。
-   * 若要從「 」請求交易 [!UICONTROL Deal] 檢視：
+## 请求访问单个交易
 
-      1. 单击 **[!UICONTROL Deal view]**.
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**。
 
-      1. 按一下 **[!UICONTROL Request]** 在 [!UICONTROL Action] 相關列的欄。
+1. （可选）按照以下任一条件筛选可用的交易或发布者：
 
+   * 关键词搜索
+
+   * **[!UICONTROL Publisher Region]**
+
+   * **[!UICONTROL Media Type]**
+
+   * 您请求的交易或订阅，包括已批准和已拒绝的交易(**[!UICONTROL Currently subscribed to]**)
+
+   * 您已被批准的交易(**[!UICONTROL Currently have access to]**)
+
+   * 来自&#x200B;**[!UICONTROL TV Broadcasters]**&#x200B;的交易
+
+   * 来自接受“调入”创意的出版商的交易(**[!UICONTROL Tune-In]**)
+
+   * 出版商已应用21+定位并接受酒精广告的交易(**[!UICONTROL Legal drinking age]**)
+
+1. 执行以下任一操作：
+
+   * 要请求最近添加的交易，请执行以下操作：
+
+      1. 在出版商的顶部轮播中，将光标悬停在出版商徽标上，然后单击&#x200B;**[!UICONTROL See Deals]**。
+
+      1. 要订阅单个交易，请在相关行的[!UICONTROL Action]列中单击&#x200B;**[!UICONTROL Request]**。
+
+   * 要从[!UICONTROL Deal]视图请求交易，请执行以下操作：
+
+      1. 单击&#x200B;**[!UICONTROL Deal view]**。
+
+      1. 在[!UICONTROL Action]列中单击相关行的&#x200B;**[!UICONTROL Request]**。
 
 >[!MORELIKETHIS]
 >
->* [關於 [!DNL On Demand] 進階詳細目錄](on-demand-inventory-about.md)
->* [檢視您的狀態 [!DNL On Demand] 交易請求和訂閱](on-demand-inventory-view-status.md)
->* [重新請求隨選進階存貨交易](on-demand-inventory-rerequest.md)
->* [[!DNL On Demand] 亞太地區的Premium庫存發佈商](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] 澳洲和紐西蘭的Premium庫存發佈商](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] 歐洲、中東和非洲的Premium Inventory Publishers](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] 北美地區的Premium Inventory Publishers](on-demand-inventory-publishers-na.md)
-
+>* [关于 [!DNL On Demand] 高级库存](on-demand-inventory-about.md)
+>* [查看您的 [!DNL On Demand] 交易请求和订阅的状态](on-demand-inventory-view-status.md)
+>* [重新请求按需优质库存交易](on-demand-inventory-rerequest.md)
+>* [[!DNL On Demand] 亚太地区高级库存发布者](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] 澳大利亚和新西兰的高级库存发布者](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] 欧洲、中东和非洲](on-demand-inventory-publishers-emea.md)高级库存出版商
+>* [[!DNL On Demand] 北美高级库存发布者](on-demand-inventory-publishers-na.md)

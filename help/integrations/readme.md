@@ -5,8 +5,8 @@ source-wordcount: '31'
 ht-degree: 0%
 
 ---
-# Adobe Advertising與Adobe Experience Cloud整合的檔案
+# Adobe Advertising与Adobe Experience Cloud集成的文档
 
-此資料夾適用於Adobe廣告與其他Adobe產品整合的檔案。
+此文件夹用于有关Adobe Advertising与其他Adobe产品集成的文档。
 
-**注意：此頁面不會發佈在對客戶的檔案中。**
+**注意：此页面未在面向客户的文档中发布。**

@@ -14,13 +14,13 @@ ht-degree: 0%
 
 在设置程序化促销活动时，要考虑的关键项目之一是促销活动目标以及如何将其转换为可衡量的KPI。 此翻译定义了应如何配置营销活动的优化目标。
 
-Advertising DSP分两个阶段针对您最关心的指标进行优化。 首先，它根据一揽子计划的优化目标，将支出转移到表现最好的位置或策略上。 第二，它实时调整拍卖竞价，以反映即时经济价值，从而平衡a)全面交付预算的需要和b)您选择的KPI。 这些优化阶段共同确保您的预算得到有效利用，以实现您的活动目标。
+Advertising DSP分两个阶段优化您最关心的指标。 首先，它根据一揽子计划的优化目标，将支出转移到表现最好的位置或策略上。 第二，它实时调整拍卖竞价，以反映即时经济价值，从而平衡a)全面交付预算的需要和b)您选择的KPI。 这些优化阶段共同确保您的预算得到有效利用，以实现您的活动目标。
 
-对于每个投放位置和包，您可以选择优化目标。 可用的优化目标包括预设选项，例如&quot;[!UICONTROL Lowest Cost per Click]，”以及您在中设置为目标的自定义目标 [!DNL Advertising Search, Social, & Commerce].
+对于每个投放位置和包，您可以选择优化目标。 可用的优化目标包括预设选项（如&quot;[!UICONTROL Lowest Cost per Click]&quot;）以及您在[!DNL Advertising Search, Social, & Commerce]中设置的目标自定义目标。
 
 >[!MORELIKETHIS]
 >
-> * [DSP如何优化活动](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
+> * [DSP如何优化您的营销活动](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
 >* [优化目标及其使用方式](/help/dsp/optimization/optimization-goals.md)
 >* [包设置](/help/dsp/campaign-management/packages/package-settings.md)
->* [投放设置](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [位置设置](/help/dsp/campaign-management/placements/placement-settings.md)

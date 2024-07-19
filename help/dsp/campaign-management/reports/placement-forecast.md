@@ -27,17 +27,17 @@ ht-degree: 0%
 
 * **[!UICONTROL Summary]：**
 
-   * **[!UICONTROL Estimated CPM]：** 定位设置可预期达到的每千次展示的估计成本(eCPM)。
+   * **[!UICONTROL Estimated CPM]：**&#x200B;目标设置预计可达到的每千次展示的估计成本(eCPM)。
 
-   * **[!UICONTROL Budget]：** 目标设置的估计预算。
+   * **[!UICONTROL Budget]：**&#x200B;定位设置的预计预算。
 
-   * **[!UICONTROL Impression]：** 定位设置的预计展示次数。
+   * **[!UICONTROL Impression]：**&#x200B;定位设置的预计展示次数。
 
-* **[!UICONTROL Budget Yield Curve]：** 如果所有其他定位设置相同，投放位置在不同预算级别可投放的预计展示次数。
+* **[!UICONTROL Budget Yield Curve]：**&#x200B;如果所有其他定位设置相同，投放位置在不同预算级别可投放的预计展示次数。
 
-* **[!UICONTROL Max Bid Yield Curve]：** 当所有其他定位设置相同时，处于不同最高竞价级别的投放的估计支出。
+* **[!UICONTROL Max Bid Yield Curve]：**&#x200B;当所有其他定位设置相同时，位于不同最高出价级别的投放位置的预计支出。
 
-* **[!UICONTROL Message]：** 提供有关预测输出的信息，包括无法生成预测的任何情况。 它还突出显示由于缺少数据而审核但未在该场景中考虑的任何定位设置。
+* **[!UICONTROL Message]：**&#x200B;提供有关预测输出的信息，包括无法生成预测的任何方案。 它还突出显示由于缺少数据而审核但未在该场景中考虑的任何定位设置。
 
 ### 预算计算
 
@@ -67,13 +67,13 @@ ht-degree: 0%
 
 ## 打开职位安排预测报表
 
-1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 
-1. 单击营销活动的名称，然后单击 **[!UICONTROL Placements]**.
+1. 单击营销活动的名称，然后单击&#x200B;**[!UICONTROL Placements]**。
 
-1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. 在投放位置名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit]**。
 
-1. 找到 **[!UICONTROL Forecast]** 部分。 如有必要，请单击 ![预测](/help/dsp/assets/placement-forecast.png).
+1. 找到右上角的&#x200B;**[!UICONTROL Forecast]**&#x200B;部分。 如有必要，请单击![预测](/help/dsp/assets/placement-forecast.png)。
 
    >[!NOTE]
    >
@@ -81,6 +81,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Campaign Management视图中的性能报表类型](campaign-reports-about.md)
->* [查看放置诊断报告](/help/dsp/campaign-management/reports/placement-diagnostics.md)
->* [投放设置](/help/dsp/campaign-management/placements/placement-settings.md)
+>* Campaign Management视图中的[性能报告类型](campaign-reports-about.md)
+>* [查看位置诊断报告](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+>* [位置设置](/help/dsp/campaign-management/placements/placement-settings.md)

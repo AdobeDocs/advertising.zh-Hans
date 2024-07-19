@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Adobe区段
 
-（可选）任何 [!DNL Adobe Real-Time Customer Data Platform]要包含在受众配置中的、Adobe Analytics或Adobe Audience Manager区段。
+（可选）要包含在受众配置中的任何[!DNL Adobe Real-Time Customer Data Platform]、Adobe Analytics或Adobe Audience Manager区段。
 
 ## 自定义区段
 
@@ -36,8 +36,8 @@ ht-degree: 0%
 >
 >* [关于受众管理](audience-about.md)
 >* [创建可重复使用的受众](reusable-audience-create.md)
->* [可用的第三方数据提供商](third-party-data-providers.md)
+>* [可用的第三方数据提供程序](third-party-data-providers.md)
 >* [受众区段逻辑的语法](audience-segment-logic-syntax.md)
 >* [创建和实施自定义区段](custom-segment-create.md)
->* [创建和实施 [!UICONTROL CCPA Opt-Out-of-Sale] 区段](ccpa-opt-out-segment-create.md)
->* [投放设置](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [创建并实施[!UICONTROL CCPA Opt-Out-of-Sale]区段](ccpa-opt-out-segment-create.md)
+>* [位置设置](/help/dsp/campaign-management/placements/placement-settings.md)

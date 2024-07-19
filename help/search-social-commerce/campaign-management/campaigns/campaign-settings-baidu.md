@@ -1,33 +1,33 @@
 ---
-title: ’[!DNL Baidu] 营销活动设置
-description: 引用设置 [!DNL Baidu] 营销活动。
-exl-id: 842df637-e7dc-4493-bcdb-a29b478cd350
+title: “[!DNL Baidu]营销活动设置”
+description: 引用 [!DNL Baidu] 营销活动的设置。
+exl-id: bc8ec4e2-4b40-4c9d-8223-29143fe63784
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
-# [!DNL Baidu] campaign设置
+# [!DNL Baidu]营销活动设置
 
 ## \[营销活动创建屏幕\]
 
-**[!UICONTROL Campaign Type]：** （仅在营销活动创建期间可用）广告的放置位置。 唯一的是 *仅搜索网络*.
+**[!UICONTROL Campaign Type]：** （仅在营销活动创建期间可用）广告放置位置。 唯一是&#x200B;*仅搜索网络*。
 
 ## [!UICONTROL Campaign Details]
 
-**[!UICONTROL Campaign Name]：** 帐户中唯一的促销活动名称。 最大长度为15个双字节字符。
+**[!UICONTROL Campaign Name]：**&#x200B;帐户中唯一的促销活动名称。 最大长度为15个双字节字符。
 
 **[!UICONTROL Ad Serving]：**
 搜索引擎在广告组中相互提供活动广告的频率：
 
-* *[!UICONTROL Rotate]* （新促销活动的默认值）：您的每个广告进入广告拍卖的可能性相同。
+* *[!UICONTROL Rotate]*（新促销活动的默认值）：您的每个广告进入广告拍卖的可能性相同。
 
-* *[!UICONTROL Optimize]：*  广告网络青睐表现更好的广告。 这可能与您的业务和优化目标不一致。
+* *[!UICONTROL Optimize]：*&#x200B;广告网络青睐表现更好的广告。 这可能与您的业务和优化目标不一致。
 
-**[!UICONTROL Status]：** 营销活动的显示状态： *活动* 或 *已暂停*. 新广告营销活动的默认设置为 *活动*.
+**[!UICONTROL Status]：**&#x200B;促销活动的显示状态： *活动*&#x200B;或&#x200B;*已暂停*。 新广告营销活动的默认值为&#x200B;*活动*。
 
 ## [!UICONTROL Budget Options]
 

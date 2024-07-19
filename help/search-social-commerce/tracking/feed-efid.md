@@ -1,28 +1,28 @@
 ---
 title: 使用EF ID馈送的转化跟踪
 description: 了解如何将EF ID馈送用于转化跟踪数据。
-exl-id: db722a54-a9bf-4a31-a285-a82e6d79c34a
+exl-id: fd065313-3d27-4bb9-a934-e815e02cf405
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
 
 # 使用EF ID馈送的转化跟踪
 
-在此方法中，Advertising Cloud会收集 `ef_id` 值，即用户每次点击广告并到达登陆页面，且广告商存储时 `ef_id` 转化数据中的值，并在数据馈送中发送。
+在此方法中，Advertising Cloud会在用户每次点击和广告并到达登陆页面时收集一个`ef_id`值，广告商将该`ef_id`值与转化数据一起存储并在数据馈送中发送。
 
 ## 实施概述
 
-*代理客户经理， [!DNL Adobe] 仅帐户管理员和管理员用户角色*
+*仅代理帐户管理员、[!DNL Adobe]帐户管理员和管理员用户角色*
 
-1. 使用帐户或营销活动跟踪选项»[!UICONTROL EF Redirect]，”的重定向类型“[!UICONTROL Token]，”和“[!UICONTROL Auto Upload]»为帐户或营销活动中的每个关键字（用于关键字级别的跟踪）或广告（用于广告级别的跟踪）自动生成带Adobe Advertising令牌(ef_id)的目标URL或最终URL。
+1. 使用帐户或营销活动跟踪选项“[!UICONTROL EF Redirect]”、重定向类型“[!UICONTROL Token]”和“[!UICONTROL Auto Upload]”，为帐户或营销活动中的每个关键字（用于关键字级别的跟踪）或广告（用于广告级别的跟踪）自动生成包含Adobe Advertising令牌(ef_id)的目标URL或最终URL。
 
    >[!NOTE]
    >* 此方法不需要广告商使用Adobe Advertising转化跟踪标签。
-   >* 如果从切换现有帐户或营销活动的重定向类型 [!UICONTROL Standard] 到 [!UICONTROL Token]或者反之，则必须重新生成所有适用的跟踪URL。
+   >* 如果您将现有帐户或营销活动的重定向类型从[!UICONTROL Standard]切换为[!UICONTROL Token]，或反之，则必须重新生成所有适用的跟踪URL。
 
    最终用户单击广告时，会填充ef_id并将其附加到登陆页面URL，然后会重定向到Adobe Advertising服务器。 随后，ef_id会传递到广告或关键字的目标URL或最终URL中的广告商。 以下是在重定向期间传递到广告商的目标URL示例：
 
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 1. （可选，但是推荐）广告商可以为要包含在馈送文件中的每个交易创建唯一的交易ID。
 
-1. 广告商上传一个文件，其中 [必需的转化数据](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md) 到指定的服务器位置。
+1. 广告商将包含[所需转化数据](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)的文件上载到指定的服务器位置。
 
 1. 技术服务会解析上传文件中的转化数据，然后将该数据上传到Adobe Advertising。 然后，Adobe Advertising根据各个关键字、广告和投放位置跟踪数据，并为每个关键字、广告和投放位置创建收入预测。
 
-1. 技术服务根据馈送数据验证处理过的数据并检查任何 [孤立事务](/help/search-social-commerce/glossary.md#o-p).
+1. 技术服务将根据馈送数据验证已处理的数据并检查任何[孤立事务](/help/search-social-commerce/glossary.md#o-p)。
 
 >[!MORELIKETHIS]
 >

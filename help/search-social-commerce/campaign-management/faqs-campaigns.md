@@ -23,7 +23,7 @@ ht-degree: 0%
 
 从搜索引擎提取前一天点击数据的过程从广告商时区的06:00开始。
 
-另外， [!DNL Google Ads] 当天搜索网络上的营销活动级绩效指标分别提取于广告商时区的08:00和16:00。
+此外，搜索网络上当天的[!DNL Google Ads]营销活动级绩效指标在广告商时区的08:00和16:00提取。
 +++
 
 +++哪些操作会导致关键词和广告丢失其历史记录？
@@ -32,21 +32,21 @@ ht-degree: 0%
 >
 >（具有产品组合的广告商）在Search、Social和Commerce收集数据以为其创建模型时，期望新关键词和匹配类型组合的性能不稳定。
 
-**中的操作 [!UICONTROL Search] > [!UICONTROL Campaigns] 视图、在批量处理工作表发布过程中以及在广告网络自己的编辑器中执行以下操作：**
+**在[!UICONTROL Search] > [!UICONTROL Campaigns]视图、批量处理工作表发布过程中以及广告网络自己的编辑器中执行的操作：**
 
 在下列情况下，将删除现有关键字或广告并创建另一个关键字或广告：
 
-* ([!DNL Baidu]， [!DNL Google Ads]、和 [!DNL Yandex])编辑关键字名称。
+* （[!DNL Baidu]、[!DNL Google Ads]和[!DNL Yandex]）编辑关键字名称。
 
-* ([!DNL Google Ads]， [!DNL Microsoft Advertising]、和 [!DNL Yandex])更改关键字的匹配类型。
+* （[!DNL Google Ads]、[!DNL Microsoft Advertising]和[!DNL Yandex]）您更改关键字的匹配类型。
 
 * 可在广告组之间移动关键字。
 
-* ([!DNL Google Ads] 动态搜索广告， [!DNL Microsoft Advertising] 扩展的文本广告和其他支持的广告网络上的所有广告类型)您可以编辑广告文案（标题/标题或描述）或广告图像。
+* （[!DNL Google Ads]个动态搜索广告、[!DNL Microsoft Advertising]个扩展文本广告以及其他支持的广告网络上的所有广告类型）编辑广告文案（标题/标题或描述）或广告图像。
 
 * 您可以在广告组之间移动广告。
 
-**产品库存馈送过帐流程中的事件：**
+**产品库存馈送过帐过程中的事件：**
 
 在以下情况下，将删除现有广告或关键字，并创建另一个广告或关键字：
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 * 新的馈送文件包含用于广告或关键字的行，其中a)位于上一个文件中，但b)自那时起已被忽略，并根据馈送数据设置暂停或删除。
 
-根据 [馈送数据设置](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings)，则在以下情况下可能会删除现有广告或关键词：
+根据[馈送数据设置](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings)，在以下情况下可能会删除现有广告或关键字：
 
 * 新的馈送文件不包含现有广告或关键字的行。
 
@@ -65,29 +65,29 @@ ht-degree: 0%
 * 物料的库存水平降至信息源数据设置中指定的最低值以下。
 +++
 
-+++([!DNL Google Ads] campaigns)更改我的报表包的显示名称 [!DNL Google]-tracked转化已恢复。
++++（[!DNL Google Ads]个营销活动）对我的[!DNL Google]跟踪的转化的显示名称所做的更改已恢复。
 
-如果您在“搜索”、“社交”和“Commerce”中更改转化量度的显示名称，则您所做的更改将被中配置的名称覆盖。 [!DNL Google Ads]. 在内进行任何名称更改 [!DNL Google Ads].
+如果您在“搜索”、“社交”和“Commerce”中更改转化量度的显示名称，则所做的更改将被[!DNL Google Ads]中配置的名称覆盖。 在[!DNL Google Ads]中进行任何名称更改。
 +++
 
 +++(Google广告营销活动)是否可以在项目组合中使用营销活动的共享预算？
 
-为了获得最佳结果，请勿添加 [!DNL Google Ads] 促销活动到 [!DNL Google Ads] 共享预算（如果他们位于配置的优化项目组合中）”[!UICONTROL Auto adjust campaign budget limits]“ 如果你愿意， [!DNL Google Ads] 覆盖“搜索”、“社交”和“Commerce”优化的活动预算，这可能导致竞价效率低下。
+为了获得最佳结果，如果营销活动在配置为“[!UICONTROL Auto adjust campaign budget limits]”的优化项目组合中，请勿将[!DNL Google Ads]营销活动添加到[!DNL Google Ads]共享预算。 如果这样做，[!DNL Google Ads]将覆盖Search、Social和Commerce优化的活动预算，这可能导致竞价效率低下。
 +++
 
-+++([!DNL Google Ads] 营销活动)是否可以将移动用户和非移动用户发送到不同的登陆页面？
++++（[!DNL Google Ads]个营销活动）是否可以将移动用户和非移动用户发送到不同的登陆页面？
 
-您可以使用 [!DNL Google Ads] [!DNL ValueTrack] 参数 `{ifmobile}` 和 `{ifnotmobile}` 要通过适用于您的网站的两种方式之一确定登陆页面的域名，请执行以下操作：
+您可以使用[!DNL Google Ads] [!DNL ValueTrack]参数`{ifmobile}`和`{ifnotmobile}`，通过适用于您网站的两种方式之一来确定登陆页面的域名：
 
-* 使用以下方式将移动设备指定为主机服务器 `{ifmobile:m}{ifnotmobile:www}`.
+* 使用`{ifmobile:m}{ifnotmobile:www}`将移动设备指定为主机服务器。
 
-  例如， `http://{ifmobile:m}{ifnotmobile:www}.example.com` 将移动用户转至m.example.com ，将非移动用户转至www.example.com。
+  例如，`http://{ifmobile:m}{ifnotmobile:www}.example.com`将移动用户转到m.example.com ，将非移动用户转到www.example.com。
 
-* 使用以下方式将移动设备指定为顶级域 `{ifmobile:mobi}{ifnotmobile:com}`.
+* 使用`{ifmobile:mobi}{ifnotmobile:com}`将移动设备指定为顶级域。
 
-  例如， `http://www.example.{ifmobile:mobi}{ifnotmobile:com}` 将移动用户转至www.example.mobi，非移动用户转至www.example.com。
+  例如，`http://www.example.{ifmobile:mobi}{ifnotmobile:com}`将移动用户转至www.example.mobi，将非移动用户转至www.example.com。
 
-在这两种情况下，包含搜索、社交和Commerce跟踪的基本URL都包含未编码的 `{}` 标记以及附加到基本URL的任何其他参数。
+在这两种情况下，包含Search、Social和Commerce跟踪的基本URL都包含未编码的`{}`标记以及附加到基础URL的任何其他参数。
 
 >[!NOTE]
 >
@@ -95,11 +95,11 @@ ht-degree: 0%
 
 +++
 
-+++([!DNL Google Ads] 搜索网络上的营销活动)今天显示了哪些数据？
++++（[!DNL Google Ads]个搜索网络上的营销活动）今天显示了哪些数据？
 
-[!DNL Google Ads] 当天搜索网络上的营销活动级绩效指标分别提取于广告商时区的08:00和16:00。
+在广告商所在时区的08:00和16:00拉取了搜索网络上当天的[!DNL Google Ads]促销活动级别的绩效指标。
 
-在 [!UICONTROL Campaigns] 在中选项卡 [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 视图和 [!UICONTROL Optimization] > [!UICONTROL Portfolios] 视图，当您报告时 [!UICONTROL Today] 或包括当天的自定义日期范围，数据包括最近同步的数据。
+在[!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图和[!UICONTROL Optimization] > [!UICONTROL Portfolios]视图的[!UICONTROL Campaigns]选项卡中，当您报告[!UICONTROL Today]或包含当天的自定义日期范围时，数据包含最近同步的数据。
 
 >[!NOTE]
 >
@@ -111,22 +111,22 @@ ht-degree: 0%
 
 仅对支持并行跟踪的广告网络使用登陆页面后缀。 在Search、Social和Commerce中，跟踪模板和登陆页面后缀都应包含来自广告网络的点击标识符，但跟踪模板应包含其他跟踪参数。
 
-查看关于的下一个常见问题解答 [并行跟踪支持](#parallel-tracking) 以了解有关在用户单击广告时如何加载跟踪模板和登陆页面后缀的更多信息。
+有关用户单击广告时如何加载跟踪模板和登陆页面后缀的详细信息，请参阅有关[并行跟踪支持](#parallel-tracking)的下一个常见问题解答。
 
 +++
 
-+++([!DNL Google Ads] 和 [!DNL Microsoft Advertising])搜索、社交和Commerce是否支持在中对广告进行并行跟踪 [!DNL Google Ads] 或 [!DNL Microsoft Advertising]？ {#parallel-tracking}
++++（[!DNL Google Ads]和[!DNL Microsoft Advertising]） Search、Social和Commerce是否支持[!DNL Google Ads]或[!DNL Microsoft Advertising]中广告的并行跟踪？{#parallel-tracking}
 
 并行跟踪可将客户直接从您的广告发送到最终URL，其中可能包括来自最终URL后缀或“登陆页面后缀”的附加参数。 跟踪模板URL（包含用于点击测量的其他参数）将在后台单独加载；因此，登陆页面加载速度更快。
 
-搜索、社交和Commerce支持使用广告网络的点击标识符(`msclkid` 对象 [!DNL Microsoft Advertising]； `gclid` 对象 [!DNL Google Ads])。 使用 [帐户级别](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) 或 [营销活动级别](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (称为“[!DNL final URL suffix]&quot;)，附加到登陆页面URL中，以跟踪来自支持并行跟踪的浏览器的子广告点击次数。 请参阅 [所需的后缀格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [所需的后缀格式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+搜索、社交和Commerce支持使用广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`，[!DNL Google Ads]为`gclid`）并行跟踪搜索和购物营销活动。 使用[帐户级别](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings)或[促销活动级别](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix]（在广告网络中称为“[!DNL final URL suffix]”），将其附加到登陆页面URL以跟踪来自支持并行跟踪的浏览器的子广告点击量。 查看 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必需后缀格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的[必需后缀格式。
 
-当用户在不支持并行跟踪的浏览器上查看您的广告时，广告网络而是使用顺序跟踪：客户首先被发送到您的跟踪模板URL，这会将客户重定向到中间跟踪服务器，然后再将他们重定向到最终URL（可能会在登陆页面后缀中包含其他参数）。 广告网络帐户的所有跟踪模板都应包含您在中使用的相同点击标识符参数 [!UICONTROL Landing Page Suffix]. 请参阅 [跟踪模板格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [跟踪模板格式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+当用户在不支持并行跟踪的浏览器上查看您的广告时，广告网络而是使用顺序跟踪：客户首先被发送到您的跟踪模板URL，这会将客户重定向到中间跟踪服务器，然后再将他们重定向到最终URL（可能会在登陆页面后缀中包含其他参数）。 广告网络帐户的所有跟踪模板都应包含您在[!UICONTROL Landing Page Suffix]中使用的相同点击标识符参数。 查看 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[跟踪模板格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的[跟踪模板格式。
 +++
 
-+++为什么我的广告的跟踪URL包含&quot;`&EV_HASH={<hash>}`？”
++++为什么我的广告的跟踪URL包含&quot;`&EV_HASH={<hash>}`&quot;？
 
-当您使用上传广告时 [产品库存馈送](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) 对于具有“搜索”、“社交”和“Commerce”像素重定向以及关键词和创意级别跟踪的帐户，Search、“社交”和“Commerce”会将哈希参数和值添加到广告的跟踪模板或目标URL，以识别该广告是使用库存馈送功能创建的。
+对于具有搜索、社交和Commerce像素重定向以及关键词和创意级别跟踪的帐户，当您使用[产品库存信息源](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)上传广告时，Search、Social和Commerce会将该哈希参数和值添加到广告的跟踪模板或目标URL，以识别它是使用库存信息源功能创建的。
 +++
 
 ## 清单信息源
@@ -147,24 +147,24 @@ ht-degree: 0%
 
 +++（产品库存信息源）我能否在不影响广告质量分数的情况下更新产品价格？
 
-对象 [!DNL Google Ads] 活动，是： [!DNL Google Ads] `{Param 1}` 和 `{Param 2}` 变量允许您在不删除和重新创建广告的情况下，在广告变量中动态插入数值，因此不会影响质量分数。
+对于[!DNL Google Ads]营销活动，是： [!DNL Google Ads] `{Param 1}`和`{Param 2}`变量允许您在广告变量中动态插入数值，而不删除和重新创建广告，因此不会影响质量分数。
 
-要使用 `{Param 1}` 或 `{Param 2}` 变量填充价格数据，将数据文件中的“价格”列映射到相应信息源模板中的该变量，然后将该变量包含在广告变体模板中。
+要为价格数据使用`{Param 1}`或`{Param 2}`变量，请将数据文件中的价格列映射到相应馈送模板中的该变量，然后将该变量包含在广告变量模板中。
 
-例如，如果将该列称为“价格”，然后打开创建广告的信息源模板，单击旁边的输入字段 **[!UICONTROL Param 1]**，然后单击 **[!UICONTROL Price]** 中的列 [!UICONTROL Feeds/Available Columns] 列表，其中插入 `[Price]` 作为的值 [!UICONTROL Param 1]. 然后，在馈送模板底部的广告变体模板中，插入 `{param1:default text}`，其中“默认文本”是当馈送文件中的参数列对于广告行为空时要使用的文本。
+例如，如果该列名为“Price”，则打开创建广告的信息源模板，单击&#x200B;**[!UICONTROL Param 1]**&#x200B;旁边的输入字段，然后单击[!UICONTROL Feeds/Available Columns]列表中的&#x200B;**[!UICONTROL Price]**&#x200B;列，该列将插入`[Price]`作为[!UICONTROL Param 1]的值。 然后，在馈送模板底部的广告变体模板中插入`{param1:default text}`，其中，“默认文本”是当馈送文件中的参数列对于广告行为空时要使用的文本。
 
-在提交数据时，数据字段 [!UICONTROL Param1] 和 [!UICONTROL Param2] 列最多可包含25个字符（包括数字数据、货币符号和货币代码）以及以下非数字字符： `, . % + - /`
+在提交数据时，[!UICONTROL Param1]和[!UICONTROL Param2]列的数据字段最多可包含25个字符，包括数字数据、货币符号和货币代码以及以下非数字字符： `, . % + - /`
 +++
 
 +++我从库存馈送生成的营销活动具有许多孤立交易记录。
 
-如果 [馈送数据设置](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings) 配置为在各种情况下删除广告，则点击广告后发生的任何延迟转化都可能导致 [孤立事务](/help/search-social-commerce/glossary.md#o-p). 最佳实践是暂停广告而不是删除广告。 如果广告在很长时间后仍未收到任何收入，则您可以通过批量处理工作表或广告管理视图将其删除。
+如果[馈送数据设置](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings)配置为在各种情况下删除广告，则点击广告后发生的任何延迟转化都可能会导致[孤立事务](/help/search-social-commerce/glossary.md#o-p)。 最佳实践是暂停广告而不是删除广告。 如果广告在很长时间后仍未收到任何收入，则您可以通过批量处理工作表或广告管理视图将其删除。
 +++
 
 ## 与帐户和营销活动相关的性能问题
 
 +++我的一些营销活动的支出或多或少于营销活动预算。
 
-* 在配置了&quot;[!UICONTROL Auto-adjust campaign budget limits]”选项。 启用此选项后，您最多可能花费 *N* 乘以每个营销活动的预算，其中 *N* 是&#39;&#39;的值[!UICONTROL Multiple]”设置。 此选项允许优化功能根据需要调整单个活动的支出，同时指导整个项目组合达到其目标。
-* 如果 [!DNL Google Ads] 营销活动使用共享预算，然后 [!DNL Google Ads] 根据需要调整单个活动的支出，以支出整个共享预算。
+* 在配置了&quot;[!UICONTROL Auto-adjust campaign budget limits]&quot;选项的优化产品组合中，这是正常的。 启用此选项后，每个营销活动的预算最多可支出&#x200B;*N*&#x200B;次，其中&#x200B;*N*&#x200B;是“[!UICONTROL Multiple]”设置的值。 此选项允许优化功能根据需要调整单个活动的支出，同时指导整个项目组合达到其目标。
+* 如果[!DNL Google Ads]营销活动使用共享预算，则[!DNL Google Ads]会根据需要调整单个营销活动的支出，以支出整个共享预算。
 +++

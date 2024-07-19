@@ -1,24 +1,24 @@
 ---
-title: 实施搜索、社交和商务概述
+title: 实施Search、Social和Commerce概述
 description: 学习
-exl-id: 31a4cd6f-8b02-4762-8e68-c9f377389935
+exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
 
-# 实施搜索、社交和商务概述
+# 实施Search、Social和Commerce概述
 
-[!DNL Adobe] 或者，它的一个关联代理与每个广告商合作，推出其在线广告产品组合并跟踪任何其他广告促销活动。 首次启动后，其他持续性任务将确保广告商的目标继续得到实现。
+[!DNL Adobe]或其关联代理与每个广告商合作，以启动其在线广告组合并跟踪任何其他广告营销活动。 首次启动后，其他持续性任务将确保广告商的目标继续得到实现。
 
-以下是实施和使用“搜索”、“社交”和“商务”的常规工作流程。
+以下是实施和使用“搜索”、“社交”和“Commerce”的常规工作流程。
 
 ## 初始启动
 
-[!DNL Adobe] 和/或您的代理机构与您合作执行以下操作：
+[!DNL Adobe]和/或您的代理机构与您合作执行以下操作：
 
 1. 评估您的高级业务目标并设计实现这些目标的策略：
 
@@ -40,17 +40,17 @@ ht-degree: 0%
 
 1. 与每个广告网络帐户同步或创建活动：
 
-   * 通过以下方式与帐户同步：a)在“搜索、社交和商务”中创建相应的帐户记录，记录中包含帐户访问凭据和跟踪选项；以及b)将帐户状态设置为“已启用”。
+   * 通过以下方式与帐户同步： a)在Search、Social和Commerce中创建相应的帐户记录，记录中包含帐户访问凭据和跟踪选项；以及b)将帐户状态设置为“已启用”。
 
-   * 如果帐户中尚未包含促销活动数据，请在“搜索”、“Social”和“Commerce”中或广告网络内添加促销活动、广告组、关键字、广告和投放位置。
+   * 如果帐户中尚未包含促销活动数据，请在Search、Social和Commerce中或广告网络内添加促销活动、广告组、关键字、广告和投放位置。
 
      有关设置搜索促销活动的详细信息，请参阅“Campaign Management”上的帮助一章。
 
 1. 为希望Adobe Advertising跟踪转化的所有广告设置跟踪：
 
-   1. （如有必要）为广告设置点击跟踪，也可选择为关键词、 [!DNL Google Ads] 投放位置，和 [!DNL Google Ads] 扩展。
+   1. （如有必要）通过生成和上传点击跟踪URL，为广告、关键字、[!DNL Google Ads]投放位置和[!DNL Google Ads]扩展设置点击跟踪（可选）。
 
-      使用基于Adobe Advertising像素的转化跟踪服务的广告商的点击跟踪URL包含重定向 [!DNL Adobe] 服务器。
+      使用基于Adobe Advertising像素的转化跟踪服务的广告商的点击跟踪URL包括到[!DNL Adobe]服务器的重定向。
 
    1. 设置转化跟踪。 根据实施，这可能涉及将转化跟踪标记添加到相应的网页，和/或为您使用自己的方法收集的转化数据设置每日馈送拖放。
 
@@ -60,11 +60,11 @@ ht-degree: 0%
 
    1. (使用Adobe Analytics和/或Adobe Audience Manager的广告商)设置各种帐户之间的集成，以便Adobe Advertising可以与这些帐户交换数据。
 
-      请参阅《》指南[与Experience Cloud的集成](/help/integrations/home.md)“
+      请参阅“[与Experience Cloud](/help/integrations/home.md)的集成”指南。
 
-   1. (广告商使用 [!DNL Google Analytics])同步转化量度 [!DNL Google Analytics] 帐户、属性和视图的组合，用于优化和报告。
+   1. （具有[!DNL Google Analytics]的广告商）同步[!DNL Google Analytics]帐户、属性和视图组合的转化量度，以进行优化和报告。
 
-      请参阅帮助子章节“管理员”>“[配置数据源](/help/search-social-commerce/admin/data-sources/data-source-about.md)“
+      请参阅帮助子章节“管理员”>“[配置数据源](/help/search-social-commerce/admin/data-sources/data-source-about.md)”。
 
 1. 设置和启动项目组合：
 
@@ -72,11 +72,11 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >搜索、Social和Commerce仍会跟踪和报告未分配给产品组合的促销活动的数据，但不会优化针对它们的投标。
+      >搜索、Social和Commerce仍会跟踪和报告未分配给组合的活动数据，但不会优化针对它们的投标。
 
    1. 在有足够的数据可用于创建基线后，团队可以启动项目组合 — 允许Search、Social和Commerce根据优化类型优化项目组合的竞价和/或预算。
 
-   有关设置和启动项目组合的详细信息，请参阅有关“优化”的帮助，该帮助可在 [!UICONTROL Help] 菜单(![帮助菜单](/help/search-social-commerce/assets/help-main-menu.png "帮助菜单"))中，任意页面的右上角的URL。
+   有关设置和启动项目组合的详细信息，请参阅有关“优化”的帮助，该帮助可从Search、Social和Commerce中任何页面右上角的[!UICONTROL Help]菜单（![帮助菜单](/help/search-social-commerce/assets/help-main-menu.png "帮助菜单")）中获取。
 
 1. 监控您的项目组合性能：
 
@@ -86,11 +86,11 @@ ht-degree: 0%
 
    有关运行广告洞察和设置报表的详细信息，请参阅“洞察和报表”上的帮助一章。
 
-1. （可选）配置您的 [性能数据视图](/help/search-social-commerce/common-tasks/data-views/data-views-about.md) 以显示您要查看的数据。
+1. （可选）配置[性能数据视图](/help/search-social-commerce/common-tasks/data-views/data-views-about.md)以显示要查看的数据。
 
 ## 正在进行的任务
 
-首次启动后，需要执行以下持续任务。 根据您的参与条款，或者 [!DNL Adobe]、附属机构或广告商执行以下任务：
+首次启动后，需要执行以下持续任务。 根据您的参与条款，[!DNL Adobe]、附属机构或广告商将执行以下任务：
 
 * 通过查看警报、每个项目组合及其组件促销活动的性能数据、可自定义的报表和（某些角色）模拟，继续监控和分析每个项目组合的性能。
 
@@ -108,4 +108,4 @@ ht-degree: 0%
 
    * 添加新项目组合。
 
-有关监控项目组合和调整项目组合策略的说明，请参阅帮助子章节“优化”>“管理Portfolio”>“监控和管理性能”，可从 [!UICONTROL Help] 菜单(![帮助菜单](/help/search-social-commerce/assets/help-main-menu.png "帮助菜单"))中，任意页面的右上角的URL。
+有关监控项目组合和调整项目组合策略的说明，请参阅Search、Social和Commerce中任何页面右上角的[!UICONTROL Help]菜单（![帮助菜单](/help/search-social-commerce/assets/help-main-menu.png "帮助菜单")）中提供的帮助子章节“优化”>“管理Portfolio”>“监控和管理性能”。

@@ -1,9 +1,9 @@
 ---
 title: 删除自定义警报模板
 description: 了解如何删除警报模板。
-exl-id: 7044ee80-ad90-4fad-8443-300f5ff0cee7
+exl-id: be77f74f-f293-46f1-a5dc-317e828682b4
 feature: Search Alerts
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 您只能删除您创建的警报模板。
 
-1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**，此时将打开警报模板视图。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**，此时将打开警报模板视图。
 
 1. 选中要删除的每个警报模板旁边的复选框。
 
-1. 在工具栏中，单击 ![删除](/help/search-social-commerce/assets/delete.png "删除").
+1. 单击工具栏中的![删除](/help/search-social-commerce/assets/delete.png "删除")。
 
-1. 在对话框中，单击 **[!UICONTROL Delete]**.
+1. 在对话框中，单击&#x200B;**[!UICONTROL Delete]**。
 
 >[!MORELIKETHIS]
 >

@@ -14,34 +14,34 @@ ht-degree: 0%
 
 您可以根据自己的需要为视图应用任意数量的过滤器。 所有过滤器都使用AND运算符进行连接。
 
-1. 在工具栏中，单击 ![筛选](/help/search-social-commerce/assets/filter.png "筛选").
+1. 在工具栏中，单击![筛选器](/help/search-social-commerce/assets/filter.png "筛选器")。
 
 1. 在筛选器设置中，执行以下任一操作：
 
-   * 要添加过滤器，请单击 ![添加筛选器](/help/search-social-commerce/assets/add.png "添加筛选器") **[!UICONTROL ADD FILTER]**，然后执行以下操作：
+   * 要添加筛选器，请单击![添加筛选器](/help/search-social-commerce/assets/add.png "添加筛选器") **[!UICONTROL ADD FILTER]**，然后执行以下操作：
 
-      1. （可选）要按文本字符串筛选列名，请在 **[!UICONTROL ADD FILTER]** 输入字段。
+      1. （可选）要按文本字符串筛选列名，请在&#x200B;**[!UICONTROL ADD FILTER]**&#x200B;输入字段中输入搜索字符串。
 
       1. 从列菜单中选择列名。
 
       1. 在列上定义过滤器：
 
-         * （没有输入字段的筛选器）单击 ![向下箭头](/help/search-social-commerce/assets/arrow-down-expand.png "向下箭头") ，然后选中要包含的每个值旁边的复选框。
+         * （不带输入字段的筛选器）单击第二个菜单旁边的![向下箭头](/help/search-social-commerce/assets/arrow-down-expand.png "向下箭头")，然后选中要包含的每个值旁边的复选框。
 
          * （带有输入字段的筛选器）从第二个菜单中选择运算符，然后输入适用的值。
 
-           例如，如果您选择了&quot;[!UICONTROL Clicks]”列并希望仅返回点击超过100次的行，然后选择 *[!UICONTROL greater than]*”并输入 `100` 在输入字段中。
+           例如，如果已选择“[!UICONTROL Clicks]”列并且只想返回点击次数超过100次的行，请选择“*[!UICONTROL greater than]*”并在输入字段中输入`100`。
 
-           根据数据类型，可用的运算符可能包括 *[!UICONTROL greater than]*， *[!UICONTROL less than]*， *[!UICONTROL equals]*， *[!UICONTROL contains]*， *[!UICONTROL doesn't contain]*， *[!UICONTROL starts with]*， *[!UICONTROL ends with]*， *[!UICONTROL no value]*， *[!UICONTROL has value]*， *[!UICONTROL before]*， *[!UICONTROL after]*，或 *[!UICONTROL no date].*
+           根据数据类型，可用运算符可能包括&#x200B;*[!UICONTROL greater than]*、*[!UICONTROL less than]*、*[!UICONTROL equals]*、*[!UICONTROL contains]*、*[!UICONTROL doesn't contain]*、*[!UICONTROL starts with]*、*[!UICONTROL ends with]*、*[!UICONTROL no value]*、*[!UICONTROL has value]*、*[!UICONTROL before]*、*[!UICONTROL after]*&#x200B;或&#x200B;*[!UICONTROL no date]。*
 
-           **注意：** 文本值不区分大小写。 例如，如果按名称中包含“loan”的促销活动进行筛选，则结果将包含“Consumer Loans”和“loan application”。
+           **注意：**&#x200B;文本值不区分大小写。 例如，如果按名称中包含“loan”的促销活动进行筛选，则结果将包含“Consumer Loans”和“loan application”。
 
-         * ([!UICONTROL Ad Groups]， [!UICONTROL Keywords]， [!UICONTROL Product Groups]， [!UICONTROL Placements]、和 [!UICONTROL Auto Targets] 仅限视图；可选)将设置更改为&quot;[!UICONTROL Include rows with performance data only]“
+         * （仅限[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、[!UICONTROL Product Groups]、[!UICONTROL Placements]和[!UICONTROL Auto Targets]视图；可选）将设置更改为“[!UICONTROL Include rows with performance data only]”。
 
-           **警告：** 如果取消选择选项，并且视图包含许多没有性能数据的实体，则显示数据需要更长的时间。
+           **警告：**&#x200B;如果取消选择该选项，并且视图包含许多没有性能数据的实体，则显示数据需要更长的时间。
 
-   * 要编辑现有筛选器，请单击该筛选器，更改筛选器定义，然后单击 ![更新筛选器](/help/search-social-commerce/assets/select.png "更新筛选器").
+   * 要编辑现有筛选器，请单击该筛选器，更改筛选器定义，然后单击![更新筛选器](/help/search-social-commerce/assets/select.png "更新筛选器")。
 
-   * 要删除现有筛选器，请单击 **[!UICONTROL X]** 位于筛选器定义旁边。
+   * 要删除现有筛选器，请单击筛选器定义旁边的&#x200B;**[!UICONTROL X]**。
 
-1. 单击 **[!UICONTROL Apply]**.
+1. 单击&#x200B;**[!UICONTROL Apply]**。

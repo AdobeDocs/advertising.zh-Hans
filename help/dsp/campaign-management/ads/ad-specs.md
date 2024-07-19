@@ -1,245 +1,244 @@
 ---
-title: 廣告規格
-description: 參考一般和發佈商特定的廣告規格。
+title: 广告规范
+description: 参考常规和特定于发布者的广告规范。
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
 
-# 支援的廣告型別規格
+# 支持的广告类型的规范
 
-## 影片廣告（前段廣告、CTV和通用視訊）
+## 视频广告（前置广告、CTV和通用视频）
 
-### 支援的畫面
+### 支持的Screens
 
-廣告預設會在桌上型電腦、行動裝置和連線的電視裝置上傳送。 裝置鎖定目標可用於調整傳送。
+默认情况下，在台式机、移动设备和连接的电视设备上投放广告。 设备定位可用于调整投放。
 
-### 支援的協力廠商廣告伺服器
+### 支持的第三方广告服务器
 
-您可以從以下位置使用標籤表： [!DNL DCM]， [!DNL Flashtalking]， [!DNL Innovid]、和 [!DNL Sizmek]. 如需支援廠商的完整清單，請參閱「[認證廣告服務合作夥伴](certified-ad-servers.md).」
+您可以使用来自[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]和[!DNL Sizmek]的标记工作表。 有关支持的供应商的完整列表，请参阅“[认证广告服务合作伙伴](certified-ad-servers.md)”。
 
-### 高解析度視訊資產的需求（必要）
+### 高清视频Assets的要求（必需）
 
-**視訊標籤型別：** VPAID 2.0 JavaScript或VAST (CTV)。 所有VPAID廣告單位都必須遵守 [VPAID 2.0規格](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf) 如互動廣告局(IAB)所定義。
+**视频标记类型：** VPAID 2.0 JavaScript或VAST (CTV)。 所有VPAID广告单位都必须遵循Interactive Advertising局(IAB)定义的[VPAID 2.0规范](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf)。
 
-**視訊轉碼器：** MP4/H.264
+**视频编解码器：** MP4/H.264
 
-**解析度：** 720p為1280x720,1080p為1920x1080
+**分辨率：** 1280x720,720p；1920x1080,1080p
 
-**位元速率：** 720p設定1500-2500 kbps，1080p設定2500-3500 kbps
+**比特率：** 720p为1500-2500 kbps，1080p为2500-3500 kbps
 
-**H.264設定檔/層級：** 高設定檔，720p為3.1級；1080p為4.0級，高設定檔
+**H.264配置文件/级别：**&#x200B;配置文件，级别3.1(720p)；配置文件，级别4.0(1080p)
 
-**視訊影格速率：** NTSC國家/地區為29.970 fps （通常稱為30 fps），PAL國家為25 fps，影片外觀內容為23.976 fps （通常稱為24 fps）
+**视频帧速率：** 29.970 fps（通常称为30 fps）（对于NTSC国家/地区），25 fps（对于PAL国家/地区），23.976 fps（通常称为24 fps）（对于电影外观内容）
 
-**視訊色域：** 4:2:0 YUV色度次取樣
+**视频颜色空间：** 4:2:0 YUV色度子取样
 
-**視訊交錯：** 漸進式掃描，亦即非交錯式。 沒有場內移動（混合影格）或交錯。
+**视频交错：**&#x200B;渐进式扫描，即非交错。 无场内移动（混合帧）或交错。
 
-**導線（石板）：** 不允許
+不允许&#x200B;**个引线(Slate)：**
 
-**音訊轉碼器：** AAC-LC或HE-AACv1
+**音频编解码器：** AAC-LC或HE-AACv1
 
-**音訊位元速率：** AAC-LC為128-192 kbps，HE-AACv1為64-128 kbps
+**音频比特率：** 128-192 kbps（对于AAC-LC），64-128 kbps（对于HE-AACv1）
 
-**音訊頻道：** 2聲道立體聲混音
+**声道：**&#x200B;双声道立体声混音
 
-**音訊取樣速率：** 44.1 kHz或48 kHz （依來源材料而定）
+**音频采样速率：** 44.1 kHz或48 kHz（根据源材料）
 
-**音訊等級：** 根據ATSC A/85，美國為24個LKFS (+/- 2.0 dB)；根據EBU R128，歐盟為23個LUFS (+/- 1.0)
+**音频级别：** 24 LKFS (+/- 2.0 dB)（根据ATSC A/85）；23 LUFS (+/- 1.0)（根据EBU R128）
 
-#### 連線電視廣告的其他發佈者需求
+#### 已连接电视广告的附加发布者要求
 
-* **A+E網路：** 請參閱A+E網路的 [廣告規格](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
+* **A+E网络：**&#x200B;查看A+E网络的[广告规范](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
 
-* **探索：** 請參閱探索的 [廣告規格](/help/dsp/assets/discovery-networks-ad-specs.pdf).
+* **发现：**&#x200B;查看发现的[广告规范](/help/dsp/assets/discovery-networks-ad-specs.pdf)。
 
-* **迪士尼(包括 斛律)：** 觀看Disney的 [廣告規格](https://hulu.disneyadsales.com/ad-products/video-commercial/).
+* **迪士尼(包括 Hulu)：**&#x200B;查看迪士尼的[广告规范](https://hulu.disneyadsales.com/ad-products/video-commercial/)。
 
-* **HBO Max：** 請參閱HBO Max的 [廣告規格](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx).
+* **HBO Max：**&#x200B;查看HBO Max的[广告规范](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx)。
 
-* **NBCUuniversal：**
+* **NBCUniversal：**
 
-   * [數位視訊](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
+   * [数字视频](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
 
-   * [直播串流](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
+   * [实时流](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
 
    * [孔雀](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
-* **派拉蒙：** 請參閱派拉蒙的 [廣告規格](https://www.paramount.com/digital-ads).
+* **派拉蒙：**&#x200B;请参阅派拉蒙的[广告规范](https://www.paramount.com/digital-ads)。
 
-## 顯示廣告
+## 显示广告
 
-### 支援的畫面
+### 支持的Screens
 
-廣告預設會在桌上型電腦和行動裝置上提供。 裝置鎖定目標可用於調整傳送。
+默认情况下，广告会在桌面和移动设备上交付。 设备定位可用于调整投放。
 
-### 支援的檔案型別
+### 支持的文件类型
 
-**影像：** GIF、JPG/JPEG、PNG
+**图像：** GIF，JPG/JPEG，PNG
 
-**HTML5：** 影像檔案型別：GIF、JPG/JPEG、PNG、SVG
+**HTML5：**&#x200B;图像文件类型：GIF、JPG/JPEG、PNG、SVG
 
-### 影像資產需求（必要）
+### 图像Assets的要求（必需）
 
-支援通用顯示。
+支持通用显示。
 
-**建議的廣告大小：** 120x60、160x600、180x150、300x50、300x100、300x1050、300x250、300x600、320x50、320x480、480x60、640x480、88x31 728x90、970x250、970x90
+**推荐的广告大小：** 120x60、160x600、180x150、300x50、300x100、300x1050、300x250、300x600、320x50、320x480、480x60、6480 0， 88x31， 728x90， 970x250， 970x90
 
-**支援的第三方廣告伺服器：** 您可以從以下位置使用標籤表： [!DNL DCM]， [!DNL Flashtalking]， [!DNL Innovid]、和 [!DNL Sizmek]. 如需支援廠商的完整清單，請參閱「[認證廣告服務合作夥伴](certified-ad-servers.md).」
+**支持的第三方广告服务器：**&#x200B;您可以使用来自[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]和[!DNL Sizmek]的标记表。 有关支持的供应商的完整列表，请参阅“[认证广告服务合作伙伴](certified-ad-servers.md)”。
 
-## 音訊廣告
+## 音频广告
 
-### 支援的畫面
+### 支持的Screens
 
-桌上型電腦、行動裝置、平板電腦、智慧型喇叭，以及連線電視
+台式机、移动设备、平板电脑、智能扬声器和联网电视
 
-### 支援的協力廠商廣告伺服器
+### 支持的第三方广告服务器
 
-您可以從以下位置使用標籤表： [!DNL DCM]， [!DNL Flashtalking]， [!DNL Innovid]、和 [!DNL Sizmek]. 如需支援廠商的完整清單，請參閱「[認證廣告服務合作夥伴](certified-ad-servers.md).」
+您可以使用来自[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]和[!DNL Sizmek]的标记工作表。 有关支持的供应商的完整列表，请参阅“[认证广告服务合作伙伴](certified-ad-servers.md)”。
 
-### 音訊資產需求（必要）
+### Audio Assets的要求（必需）
 
-**檔案型別：** MP3、OGG、AAC
+**文件类型：** MP3、OGG、AAC
 
-**導線（石板）：**  不允許
+不允许&#x200B;**个领导者（板）：**
 
-**檔案大小上限：** 2MB
+**最大文件大小：** 2MB
 
-**位元速率：** 128
+**比特率：** 128
 
-**檔案長度：** 0-60秒
+**文件长度：** 0-60秒
 
-#### 其他發行者需求
+#### 其他发布者要求
 
 * **[!DNL iHeartRadio]**
-   * 長度：5、15、30或60秒
-   * 檔案型別： MP3
-   * 檔案大小上限： 320 kbps
+   * 长度：5、15、30或60秒
+   * 文件类型：MP3
+   * 最大文件大小：320 kbps
    * 音量：44.1千赫
 
 * **[!DNL Pandora]**
-   * 長度：15或30秒
-   * 檔案型別： MP4 （應用程式內）、MP3 （案頭）
-   * 檔案大小上限： 2.2 MB
+   * 长度：15或30秒
+   * 文件类型：MP4（应用程序内）、MP3（桌面）
+   * 最大文件大小：2.2 MB
 
 * **[!DNL SoundCloud]**
-   * 長度：6、15或30秒
-   * 檔案型別： MP3
-   * 檔案大小上限： 5 MB
+   * 长度：6、15或30秒
+   * 文件类型：MP3
+   * 最大文件大小：5 MB
 
 * **[!DNL Spotify]**
-   * 長度：最長30秒
-   * 檔案型別： OGG
-   * 檔案大小上限： 500MB
-   * 磁碟區：RMS已標準化為–14；dBFS峰值已標準化為–0.2 dBFS
+   * 长度：最多30秒
+   * 文件类型： OGG
+   * 最大文件大小：500MB
+   * 卷：RMS规范化为–14；dBFS峰值规范化为–0.2 dBFS
 
 * **[!DNL TargetSpot]**
-   * 長度：15、30或60秒
-   * 檔案型別： MP3
+   * 长度：15、30或60秒
+   * 文件类型：MP3
 
 * **[!DNL TuneIn]**
-   * 長度：10、15或30秒
-   * 檔案型別： MP3、OGG
+   * 长度：10、15或30秒
+   * 文件类型：MP3、OGG
    * 音量：44.1千赫
 
-### 隨附橫幅廣告的需求（選用）
+### 随附横幅广告的要求（可选）
 
-**支援的大小：** 300x250、500x500、640x640、1024x1024
+**支持的大小：** 300x250、500x500、640x640、1024x1024
 
-#### 其他發行者需求
+#### 其他发布者要求
 
-* **[!DNL iHeartRadio]:**
-   * 檔案型別：JPEG、JPG、PNG、GIF、SWF、HTML
-   * 檔案大小上限： 2.2 MB
+* **[!DNL iHeartRadio]：**
+   * 文件类型：JPEG、JPG、PNG、GIF、SWF、HTML
+   * 最大文件大小：2.2 MB
    * Dimension：300x250
 
-* **[!DNL Pandora]:**
-   * 檔案型別：JPEG、GIF
-   * 檔案大小上限：大小： 100 KB
-   * Dimension：300x250 （行動或桌上型電腦）或500x500 （桌上型電腦）
+* **[!DNL Pandora]：**
+   * 文件类型：JPEG、GIF
+   * 最大文件大小：大小：100 KB
+   * Dimension：300x250（移动设备或台式机）或500x500（台式机）
 
-* **[!DNL SoundCloud]:**
-   * 檔案型別：靜態JPG、PNG
-   * 檔案大小上限：400 KB以下
+* **[!DNL SoundCloud]：**
+   * 文件类型：静态JPG、PNG
+   * 最大文件大小：小于400 KB
    * Dimension：1024x1024
 
-* **[!DNL Spotify]:**
-   * 檔案型別：靜態JPG、PNG
-   * 檔案大小上限： 200 KB
+* **[!DNL Spotify]：**
+   * 文件类型：静态JPG、PNG
+   * 最大文件大小：200 KB
    * Dimension：300x250
 
-* **[!DNL TuneIn]:**
-   * 檔案型別：JPEG、JPG、PNG、GIF、HTML
-   * 檔案大小上限： 2 MB
+* **[!DNL TuneIn]：**
+   * 文件类型：JPEG、JPG、PNG、GIF、HTML
+   * 最大文件大小：2 MB
    * Dimension：300x250
 
-## 原生顯示廣告
+## 原生显示广告
 
-每個廣告都可以包含靜態影像或移動GIF（動態靜圖）。
+每个广告可以包含静止图像或移动GIF（电影胶片）。
 
-### 支援的畫面
+### 支持的Screens
 
-廣告預設會在桌上型電腦和行動裝置上提供。 裝置鎖定目標可用於調整傳送。
+默认情况下，广告会在桌面和移动设备上交付。 设备定位可用于调整投放。
 
-### 所有原生摘要格式的必要資產
+### 所有本机信息源格式均需要Assets
 
-#### 影像資產
+#### 图像资产
 
-**解析度：** 最低600x600px；建議最低1200x627px
+**分辨率：**&#x200B;最小为600x600px；建议的最小为1200x627px
 
-**檔案型別：** JPEG（影像廣告或視訊廣告封面影像）、GIF(cinemograph)
+**文件类型：** JPEG（图像广告或视频广告封面图像），GIF(cinemograph)
 
-**檔案大小：** 小於1 MB （影像應不含文字。）
+**文件大小：**&#x200B;小于1 MB（图像应不含文本。）
 
-#### 廣告商標誌
+#### 广告商徽标
 
-**解析度：** 最少80x80px；建議的最少300x300px
+**分辨率：**&#x200B;最小为80x80px；建议的最小为300x300px
 
-**檔案型別：** JPEG或PNG。
+**文件类型：** JPEG或PNG。
 
-**外觀比例：**  1x1比例
+**宽高比：** 1x1比
 
 >[!NOTE]
 >
->根據要覆蓋的影像，選擇淺色或深色標誌資產。
+>根据它将覆盖的图像，在浅色或深色徽标资产之间进行选择。
 
-#### 文字/複製
+#### 文本/复制
 
-**標題：** 最多200個字元；建議使用25個字元
+**标题：**&#x200B;最多200个字符；建议使用25个字符
 
-**註解：** 最多200個字元；建議使用100個字元
+**题注：**&#x200B;最多200个字符；建议使用100个字符
 
-**贊助者：** 最多200個字元；建議使用30個字元
+**赞助者：**&#x200B;最多200个字符；建议30个字符
 
-**呼叫動作（僅限MoPub）：** 最多15個字元
+**行动号召（仅限MoPub）：**&#x200B;最多15个字符
 
 >[!NOTE]
 >
->最終版面配置由發行者在執行階段定義。 如果廣告超過建議的字元數，某些詳細目錄提供者可能不會傳送廣告，或發佈者或SSP可能會截斷文字。
+>最终布局由发布器在运行时定义。 如果广告超出建议的字符数，则某些库存提供商可能无法投放广告，或者发布者或SSP可能会截断文本。
 
-#### 登陸頁面URL
+#### 登陆页面URL
 
-具有選擇性點按追蹤器的點進URL。
+带有可选点击跟踪器的点进URL。
 
-點選追蹤器的需求：
+点击跟踪器的要求：
 
-* 協力廠商曝光追蹤畫素：僅限1x1影像URL格式
+* 第三方印象跟踪像素：仅1x1图像URL格式
 
-* 可見度JavaScript追蹤器：僅支援IAS；僅支援JS.append格式的1x1影像
+* 可见性JavaScript跟踪器：仅支持IAS；1x1图像仅采用JS.append格式
 
-* 第三方點選追蹤畫素：必須重新導向至內嵌在URL中的登陸頁面（HTTP 302重新導向）
+* 第三方点击跟踪像素：必须重定向到URL中嵌入的登陆页面（HTTP 302重定向）
 
-* 不支援具有200或更多回應的資料管理平台(DMP)點選追蹤器。
+* 不支持具有200个或更多响应的数据管理平台(DMP)点击跟踪器。
 
 >[!MORELIKETHIS]
 >
->* [關於廣告管理](ad-about.md)
->* [建立單一廣告](ad-create.md)
->* [建立多個協力廠商廣告](ad-create-multiple.md)
->* [編輯廣告](ad-edit.md)
-
+>* [关于广告管理](ad-about.md)
+>* [创建单个Ad](ad-create.md)
+>* [创建多个第三方广告](ad-create-multiple.md)
+>* [编辑广告](ad-edit.md)

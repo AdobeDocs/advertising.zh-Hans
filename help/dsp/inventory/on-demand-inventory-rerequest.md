@@ -1,6 +1,6 @@
 ---
-title: 重新請求 [!DNL On Demand] 進階詳細目錄交易
-description: 瞭解如何重新請求 [!DNL On Demand] 先前被拒絕的交易。
+title: 重新请求 [!DNL On Demand] 高级库存交易
+description: 了解如何重新请求之前被拒绝的 [!DNL On Demand] 交易。
 feature: DSP On Demand Inventory
 exl-id: 8b28ca37-5fe8-445e-8210-1b81945bbacc
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
@@ -10,53 +10,52 @@ ht-degree: 0%
 
 ---
 
-# 重新請求 [!DNL On Demand] 進階詳細目錄交易
+# 重新请求[!DNL On Demand]高级库存交易
 
-*帳戶型別的使用者無法使用 [!UICONTROL Ad Network]， [!UICONTROL Publisher Audience Extension]、和 [!UICONTROL Other]；具有類別的廣告商 [!UICONTROL Other]；和經銷商*
+*不可用于帐户类型为[!UICONTROL Ad Network]、[!UICONTROL Publisher Audience Extension]和[!UICONTROL Other]的用户；类别为[!UICONTROL Other]的广告商和经销商*
 
-您可以重新要求 [!DNL On Demand] 您被拒絕的詳細目錄交易，包括來自您訂閱的發行商的交易。 請依照下列步驟，確認所有適用的帳戶設定正確無誤，再提交新請求。
+您可以重新请求被拒绝的[!DNL On Demand]库存交易，包括来自您订阅的发布者的交易。 在提交新请求之前，请按照以下步骤确保所有适用的帐户设置都是正确的。
 
-如果您重新要求交易後交易未獲核准，請聯絡您的Adobe帳戶團隊，檢視發佈者是否有其他限制禁止您的帳戶存取交易。
+如果您重新请求交易后未获得批准，请联系您的Adobe客户团队，以查看发布者是否具有禁止您的帐户访问交易的附加限制。
 
-一旦交易完成 [已核准](/help/dsp/inventory/on-demand-inventory-view-status.md)，預設會納入為鎖定所有位置的新版位目標 [!DNL On Demand] 詳細目錄。 新交易也可作為現有刊登版位的目標，但您必須手動編輯刊登版位設定，以將交易新增為目標位置。
+交易获得[批准](/help/dsp/inventory/on-demand-inventory-view-status.md)后，默认情况下会作为新投放位置（针对所有[!DNL On Demand]库存）的目标包含该交易。 新交易也可用作现有投放的目标，但您必须手动编辑投放设置以将交易添加为目标。
 
-1. 向您的Adobe帳戶團隊確認 [!UICONTROL Account Type] 您組織的DSP帳戶正確無誤。
+1. 与您的Adobe帐户团队确认，您组织的DSP帐户的[!UICONTROL Account Type]正确无误。
 
-1. 確認適用廣告商帳戶的廣告商類別正確：
+1. 确认适用的广告商帐户的广告商类别正确无误：
 
-   1. 在主功能表中，按一下 **[!UICONTROL Settings]** > **[!UICONTROL Advertisers].**
+   1. 在主菜单中，单击&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL Advertisers].**
 
-   1. 將游標停留在廣告商列上並按一下 **[!UICONTROL Edit]**.
+   1. 将光标悬停在广告商行上并单击&#x200B;**[!UICONTROL Edit]**。
 
-   1. 核取選取的類別。
+   1. 选中所选的类别。
 
-      分類為「」的廣告商[!UICONTROL Other]「 」不符合資格 [!UICONTROL On Demand] 詳細目錄。 如果類別為「[!UICONTROL Other]」而且應該是其他內容，請選取適當的類別<!-- [category](/help/dsp/admin/advertiser-settings.md) -->.
+      分类为“[!UICONTROL Other]”的广告商不符合[!UICONTROL On Demand]清单的条件。 如果类别为“[!UICONTROL Other]”并且它应该是其他类别，请选择相应的类别<!-- [category](/help/dsp/admin/advertiser-settings.md) -->。
 
-1. 重新請求詳細目錄：
+1. 重新请求清单：
 
-   1. 在主功能表中，按一下 **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
+   1. 在主菜单中，单击&#x200B;**[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**。
 
-   1. 篩選可用的交易以包含您請求的交易(**[!UICONTROL Currently subscribed to]**)**。
+   1. 筛选可用的交易以包含您请求的交易(**[!UICONTROL Currently subscribed to]**)**。
 
-   1. （可選）在 [!UICONTROL Subscription] 檢視，其中根據您的篩選器顯示所有發行者的標誌，以及 [!UICONTROL Deal] 檢視，依據您的篩選器列出每個發佈者的所有交易，按一下 **[!UICONTROL Subscription view]** 和 **[!UICONTROL Deal view]**，視需要而定。
+   1. （可选）根据需要单击&#x200B;**[!UICONTROL Subscription view]**&#x200B;和&#x200B;**[!UICONTROL Deal view]**，在[!UICONTROL Subscription]视图（显示基于您的筛选器的所有发布者的徽标）和[!UICONTROL Deal]视图（根据您的筛选器列出每个发布者的所有交易）之间切换。
 
-   1. 重新要求個別交易：
-   * 從 [!UICONTROL Deal] 檢視，按一下 **[!UICONTROL Rerequest]** 在 [!UICONTROL Action] 相關列的欄。
+   1. 重新请求单个交易：
 
-   * 從 [!UICONTROL Subscription] 檢視：
+   * 从[!UICONTROL Deal]视图中，在[!UICONTROL Action]列中单击相关行的&#x200B;**[!UICONTROL Rerequest]**。
 
-      1. 將游標停留在發佈商標誌上，然後按一下 **[!UICONTROL See Deals]**.
+   * 从[!UICONTROL Subscription]视图中：
 
-      1. 按一下 **[!UICONTROL Rerequest]** 在 [!UICONTROL Action] 相關列的欄。
+      1. 将光标悬停在发布者徽标上，然后单击&#x200B;**[!UICONTROL See Deals]**。
 
+      1. 在[!UICONTROL Action]列中单击相关行的&#x200B;**[!UICONTROL Rerequest]**。
 
 >[!MORELIKETHIS]
 >
->* [關於 [!DNL On Demand] 進階詳細目錄](on-demand-inventory-about.md)
->* [檢視您的狀態 [!DNL On Demand] 交易請求和訂閱](on-demand-inventory-view-status.md)
->* [訂閱並請求存取權至 [!DNL On Demand] 進階詳細目錄](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] 亞太地區的Premium庫存發佈商](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] 澳洲和紐西蘭的Premium庫存發佈商](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] 歐洲、中東和非洲的Premium Inventory Publishers](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] 北美地區的Premium Inventory Publishers](on-demand-inventory-publishers-na.md)
-
+>* [关于 [!DNL On Demand] 高级库存](on-demand-inventory-about.md)
+>* [查看您的 [!DNL On Demand] 交易请求和订阅的状态](on-demand-inventory-view-status.md)
+>* [订阅并请求访问 [!DNL On Demand] 高级库存](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand] 亚太地区高级库存发布者](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] 澳大利亚和新西兰的高级库存发布者](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] 欧洲、中东和非洲](on-demand-inventory-publishers-emea.md)高级库存出版商
+>* [[!DNL On Demand] 北美高级库存发布者](on-demand-inventory-publishers-na.md)

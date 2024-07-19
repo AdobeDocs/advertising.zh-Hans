@@ -2,8 +2,8 @@
 title: 查看为广告商跟踪的转化量度
 description: 了解如何查看为广告商跟踪的转化量度列表。
 feature: Conversions
-exl-id: 56f5b480-9e75-47a0-8f88-8fa8fcfe23f9
-source-git-commit: f69075bfd49964d005271e882d27b4410b180915
+exl-id: 7c9e2271-4127-4d43-aff8-5a2788bfe60f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # 查看为广告商跟踪的转化量度
 
-您可以查看所有 [转化](/help/search-social-commerce/glossary.md#c-d) Adobe Advertising为广告商跟踪的指标。 每个量度行都包含量度的源。
+您可以查看Adobe Advertising为广告商跟踪的所有[转化](/help/search-social-commerce/glossary.md#c-d)量度的列表。 每个量度行都包含量度的源。
 
-* 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
+* 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**。
 
 将列出为广告商收集的所有转化量度以及为其分配的任何不同的显示名称。
 
 >[!TIP]
 >
->一旦广告商（或广告网络）停止收集转化量度， [在管理视图和报告中隐藏它](conversion-metric-edit-available.md) 除非您想使用它来查看历史数据。
+>一旦广告商（或广告网络）停止收集转化量度，[将其从管理视图和报告中隐藏](conversion-metric-edit-available.md)，除非您想要将其用于查看历史数据。
 
 >[!MORELIKETHIS]
 >

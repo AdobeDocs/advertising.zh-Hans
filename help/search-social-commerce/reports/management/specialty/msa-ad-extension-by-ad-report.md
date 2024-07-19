@@ -1,6 +1,6 @@
 ---
-title: ’[!UICONTROL MSA Ad Extension by Ad Report]’
-description: 了解 [!UICONTROL MSA Ad Extension by Ad Report].
+title: '[!UICONTROL MSA Ad Extension by Ad Report]'
+description: 了解[!UICONTROL MSA Ad Extension by Ad Report]。
 feature: Search Reports, Search Specialty Reports
 exl-id: c5c47ded-a33b-4cbb-b2d4-3c2602bcd0d3
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # [!UICONTROL MSA Ad Extension by Ad Report]
 
-*[!DNL Microsoft Advertising]仅限帐户*
+仅&#x200B;*[!DNL Microsoft Advertising]个帐户*
 
 此报表可显示每个广告扩展和按广告划分的点击类型的汇总展示次数、点击次数、支出和每次点击平均成本。 使用此报表可比较不同版本的广告扩展的性能。
 
-当运行仅具有指标列而没有维度的报表时，生成的报表包含两个重复的行：一个包含汇总数据，另一个包含所有指标。<!-- all metrics? -->
+运行仅包含指标列且不含维度的报表时，生成的报表包含两个重复的行：一个包含汇总数据，另一个包含所有指标。<!-- all metrics? -->
 
-您可以查看过去180天的数据。 搜索、社交和Commerce从提取数据 [!DNL Microsoft Advertising] 实时，生成具有较大数据量的报告可能需要几分钟的时间。
+您可以查看过去180天的数据。 Search、Social和Commerce会实时提取[!DNL Microsoft Advertising]中的数据，并且可能需要几分钟才能生成具有较大数据量的报表。
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 默认列
 
-有关所有默认列和自定义列的说明，请参见&#39;&#39;[专业报告的报告列](specialty-report-columns.md)“
+有关所有默认列和自定义列的说明，请参阅[专业报告的报告列](specialty-report-columns.md)。
 
 * [!UICONTROL SE Account Name]
 * [!UICONTROL Campaign Name]

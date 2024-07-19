@@ -14,19 +14,19 @@ ht-degree: 0%
 
 *仅具有Adobe Advertising-Adobe Analytics集成的广告商*
 
-对于集成了Adobe Advertising-Adobe Analytics的广告商，Advertising Cloud可以将您的广告点击量和展示次数与由跟踪的网站参与度和转化量度联系起来 [!DNL Analytics] 当您使用带有令牌的重定向时(`ef_id` 参数)的点击跟踪URL [竞价单位](/help/search-social-commerce/glossary.md#a-b). 此 [!DNL Analytics] 数据会通过每日馈送文件自动发送到Advertising Cloud。
+对于集成Adobe Advertising-Adobe Analytics的广告商，当您在您的[竞价单位](/help/search-social-commerce/glossary.md#a-b)的点击跟踪URL中使用带有令牌（`ef_id`参数）的重定向时，Advertising Cloud可以将您的广告点击次数和展示次数与[!DNL Analytics]跟踪的网站参与度和转化量度关联起来。 [!DNL Analytics]数据通过每日馈送文件自动发送到Advertising Cloud。
 
-请参阅&quot;[概述 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/integrations/analytics/overview.html){target="_blank"}”以了解有关集成的更多信息。
+有关集成的详细信息，请参阅“[概述 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/integrations/analytics/overview.html){target="_blank"}”。
 
 >[!PREREQUISITES]
 >
-> 搜索、社交和Commerce广告商帐户中的时区， [!DNL Analytics] 报表包，并且广告网络帐户必须匹配。 如果两者不匹配，则会在系统间发生数据差异。
+> 搜索、社交和Commerce广告商帐户、[!DNL Analytics]报表包和广告网络帐户中的时区必须匹配。 如果两者不匹配，则会在系统间发生数据差异。
 
 ## 实施概述
 
-1. 在 [!DNL Analytics]，Search、Social和Commerce实施团队会为每个报表包修改以下配置设置：
+1. 在[!DNL Analytics]中，您的Search、Social和Commerce实施团队修改了每个报表包的以下配置设置：
 
-   * 的到期 `ef_id` [!DNL eVar] 更改为匹配广告商的Adobe Advertising点击回顾窗口。
+   * `ef_id` [!DNL eVar]的过期时间已更改为与广告商的Adobe Advertising点击回顾时间范围相匹配。
 
    * Adobe Advertising的用户ID。
 
@@ -36,11 +36,11 @@ ht-degree: 0%
 
    1. 将现有的广告网络帐户层次结构同步到Search、Social和Commerce中。
 
-   1. 使用“”添加重定向`ef_id`”令牌传递到跟踪URL并将它们发布到广告网络。
+   1. 添加带有传递给跟踪URL的“`ef_id`”令牌的重定向，并将它们发布到广告网络。
 
-   此步骤会在重定向前附加到Adobe Advertising跟踪服务器(除 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 浏览器中支持并行跟踪的广告)，并在广告单击时向URL添加动态填充的“ef_id”参数。 当并行跟踪应用时，最终用户将从广告直接发送到最终URL，并且跟踪模板URL（包含点击测量）将在后台加载。
+   此步骤会在指向Adobe Advertising跟踪服务器的重定向（支持并行跟踪的浏览器中的[!DNL Google Ads]和[!DNL Microsoft Advertising]广告除外）之前添加一个重定向，并在广告单击时向URL添加一个动态填充的“ef_id”参数。 当并行跟踪应用时，最终用户将从广告直接发送到最终URL，并且跟踪模板URL（包含点击测量）将在后台加载。
 
-集成完成后，Search、Social和Commerce会自动接收在中跟踪的所有页面上的事件数据 [!DNL Analytics] （对于已配置的报表包）。
+集成完成后，Search、Social和Commerce会自动接收在[!DNL Analytics]中为配置的报表包跟踪的所有页面上的事件数据。
 
 >[!MORELIKETHIS]
 >

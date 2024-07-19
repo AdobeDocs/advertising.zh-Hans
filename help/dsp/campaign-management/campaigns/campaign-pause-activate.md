@@ -18,8 +18,8 @@ ht-degree: 0%
 
 ## 暂停营销活动
 
-1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
-1. 在营销活动名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
+1. 在营销活动名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Pause]**。
 
 >[!NOTE]
 >
@@ -27,8 +27,8 @@ ht-degree: 0%
 
 ## 激活营销活动
 
-1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
-1. 在营销活动名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
+1. 在营销活动名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Activate]**。
 
 >[!MORELIKETHIS]
 >

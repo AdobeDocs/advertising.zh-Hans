@@ -1,63 +1,62 @@
 ---
-title: 關於 [!DNL On Demand] 進階詳細目錄
-description: 瞭解DSP與進階發佈商合作夥伴預先磋商的交易。
+title: 关于 [!DNL On Demand] 高级库存
+description: 了解DSP与高级发布商合作伙伴预先协商的交易。
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
-# 關於 [!DNL On Demand] 進階詳細目錄
+# 关于[!DNL On Demand]高级库存
 
-*帳戶型別的使用者無法使用 [!UICONTROL Ad Network]， [!UICONTROL Publisher Audience Extension]、和 [!UICONTROL Other]；具有類別的廣告商 [!UICONTROL Other]；和經銷商*
+*不可用于帐户类型为[!UICONTROL Ad Network]、[!UICONTROL Publisher Audience Extension]和[!UICONTROL Other]的用户；类别为[!UICONTROL Other]的广告商和经销商*
 
-此 [!DNL On Demand] Gallery是進階詳細目錄探索工具，可探索DSP與進階發佈商合作夥伴所策劃的預先交涉交易。 它可讓您存取區域內頂級發行商的不保證存貨，而無需1:1的洽談或合約。 您可以請求個別交易，也可以訂閱發佈商以一次請求發佈商的所有交易。
+[!DNL On Demand]图库是一个高级库存发现工具，用于探索DSP与高级发布商合作伙伴策划的预协商交易。 它允许您从区域内的顶级出版商访问无保证库存，无需1:1谈判或合同。 您可以请求单个交易，也可以订阅发布者以一次请求发布者的所有交易。
 
-DSP Premium Marketplace可讓您：
+DSP Premium Marketplace允许您：
 
-* 快速輕鬆地啟用新存貨，以提升規模與效率
+* 快速轻松地激活新库存，以提高规模和效率
 
-   研究表明，在中啟動私人市場交易 [!DNL DSP] 平台可節省時間且更有效率。
+  研究表明，在[!DNL DSP]个平台中激活私人市场交易可节省时间并提高效率。
 
-* 探索新的發行者和格式
+* 探索新的发布者和格式
 
-* 探索新的對象和策略
+* 发现新的受众和策略
 
-* 延伸不重複觸及範圍
+* 扩展独特范围
 
-* 自動存取開放市場中沒有的發行者
+* 自动访问公开市场中没有的发布者
 
-* 自動存取直播活動（例如NBA、NFL和NHL活動）
+* 自动访问直播活动（如NBA、NFL和NHL活动）
 
-* 透過整合的報表追蹤效能
+* 通过整合的报告跟踪性能
 
-交易核准後，即可作為現有刊登版位的目標，並自動納入作為目標為全部的新刊登版位目標 [!DNL On Demand] 詳細目錄。 如果交易請求被拒絕，您可以與您的Adobe帳戶團隊合作以解決問題，然後重新請求交易。
+交易获得批准后，即可将其用作现有投放的目标，并自动包含为针对所有[!DNL On Demand]库存的新投放的目标。 如果交易请求被拒绝，您可以与Adobe客户团队合作以解决问题，然后重新请求交易。
 
-## 隨選檢視表
+## 按需视图
 
-於 [!UICONTROL Inventory] > [!UICONTROL On Demand]，最新交易與發佈商 <!-- how recent? --> 可從頁面頂端的輪播取得。
+在[!UICONTROL Inventory] > [!UICONTROL On Demand]，可通过页面顶部的轮播访问最新的交易和发布者<!-- how recent? -->。
 
-在輪播下方，您可以檢視所有可用的交易和發佈者。 您可以切換 [!UICONTROL Subscription] 檢視，此畫面會顯示所有可用的發行者，並可讓您快速訂閱發行者的所有交易，以及 [!UICONTROL Deal] 檢視，其中列出每個發佈者的所有可用交易。 您可以依多個條件篩選檢視，例如僅包含您請求的或您的請求已獲得核准的發行者或交易。
+在轮播的下方，您可以查看所有可用的交易和发布者。 您可以切换[!UICONTROL Subscription]视图和[!UICONTROL Deal]视图，前者显示所有可用的发布者，允许您快速订阅发布者的所有交易，后者列出每个发布者的所有可用交易。 您可以按多个条件筛选视图，例如仅包含您已请求或您的请求已被批准的出版商或交易。
 
-每項交易的詳細資料包括下列各欄中的資料：
+每项交易的详细信息包括以下列中的数据：
 
-* **[!UICONTROL TVB]：** 指出發佈者何時為電視廣播員
-* **[!UICONTROL Tune]：** 表示發佈商何時接受「調入」創意內容(例如，「今晚九點鐘調入」的新一集\&lt;*我們的節目*\>)
-* **[!UICONTROL LDA]：** （合法飲酒年齡）指出發佈者何時套用21+目標定位並接受酒精廣告
-* **[!UICONTROL CPM]：** 表示在廣告商被授予交易的存取權之前，交易的底限或固定費率CPM何時不可見
-* **[!UICONTROL Status]：** 您的訂閱請求的狀態（如適用）
-* **[!UICONTROL Action]：** 您可以執行的任何可用動作(例如 [!UICONTROL Request] 或 [!UICONTROL Re-request])
+* **[!UICONTROL TVB]：**&#x200B;指示发布者何时为电视广播员
+* **[!UICONTROL Tune]：**&#x200B;指示发布者何时接受“调入”创意（例如，\&lt;*我们的节目*\>的新一集今晚的“调入”）
+* **[!UICONTROL LDA]：** （合法饮酒年龄）指示发布者何时应用21+定位并接受酒精广告
+* **[!UICONTROL CPM]：**&#x200B;指示在授予广告商访问交易的权限之前，交易的下限或固定速率CPM何时不可见
+* **[!UICONTROL Status]：**&#x200B;您的订阅请求的状态（如果适用）
+* **[!UICONTROL Action]：**&#x200B;您可以执行的任何可用操作（如[!UICONTROL Request]或[!UICONTROL Re-request]）
 
 >[!MORELIKETHIS]
 >
->* [訂閱並請求存取權至 [!DNL On Demand] 進階詳細目錄交易](on-demand-inventory-subscribe.md)
->* [重新請求隨選進階存貨交易](on-demand-inventory-rerequest.md)
->* [檢視您的狀態 [!DNL On Demand] 交易請求和訂閱](on-demand-inventory-view-status.md)
->* [[!DNL On Demand] 亞太地區的Premium庫存發佈商](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] 澳洲和紐西蘭的Premium庫存發佈商](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] 歐洲、中東和非洲的Premium Inventory Publishers](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] 北美地區的Premium Inventory Publishers](on-demand-inventory-publishers-na.md)
-
+>* [订阅和请求访问 [!DNL On Demand] 高级库存交易](on-demand-inventory-subscribe.md)
+>* [重新请求按需优质库存交易](on-demand-inventory-rerequest.md)
+>* [查看您的 [!DNL On Demand] 交易请求和订阅的状态](on-demand-inventory-view-status.md)
+>* [[!DNL On Demand] 亚太地区高级库存发布者](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] 澳大利亚和新西兰的高级库存发布者](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] 欧洲、中东和非洲](on-demand-inventory-publishers-emea.md)高级库存出版商
+>* [[!DNL On Demand] 北美高级库存发布者](on-demand-inventory-publishers-na.md)

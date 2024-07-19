@@ -20,7 +20,7 @@ ht-degree: 0%
 
 * 将网站从营销活动中排除时要保守，因为内容和市场变化可能会迅速改变网站流量的值。
 
-有关调整关键词和促销活动设置的更多信息，请参阅“优化指南”的“Portfolio”部分中的“调整项目组合策略”，该部分可在Search、Social和Commerce中找到。<!-- verify convention for referencing Optimization Guide here -->
+有关调整关键词和促销活动设置的详细信息，请参阅“优化指南”的“Portfolio”部分中的“调整项目组合策略”，该指南可在Search、Social和Commerce中找到。<!-- verify convention for referencing Optimization Guide here -->
 
 >[!TIP]
 >
@@ -28,5 +28,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [编写有效的文本和副本](best-practices-write.md)
+>* [编写有效的文字广告副本](best-practices-write.md)
 >* [优化网站登陆页面](best-practices-optimize.md)

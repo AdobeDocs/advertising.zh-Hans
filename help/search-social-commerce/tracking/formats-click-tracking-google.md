@@ -1,18 +1,18 @@
 ---
-title: 的点击跟踪格式 [!DNL Google Ads]
-description: 了解的点击跟踪格式 [!DNL Google Ads] 帐户。
-exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
+title: ' [!DNL Google Ads]的点击跟踪格式'
+description: 了解 [!DNL Google Ads] 帐户的点击跟踪格式。
+exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-source-git-commit: ceb2fc07eb5116b3a2bb01cf72fd779f78bba1f0
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
-# 的点击跟踪格式 [!DNL Google Ads]
+# [!DNL Google Ads]的点击跟踪格式
 
-以下是Search、Social和Commerce所需的基本跟踪模板和登陆页面后缀（最终URL后缀）格式 [!DNL Google Ads].
+以下是Search、Social和Commerce要求用于[!DNL Google Ads]的基本跟踪模板和登陆页面后缀（最终URL后缀）格式。
 
 ## 跟踪模板格式
 
@@ -28,19 +28,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` 是Adobe Advertising中广告商唯一ID的变量。
+>* `<advertiser_ID>`是Adobe Advertising中广告商唯一ID的变量。
 >
->* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，则替换 `cq?` 之后 `<advertiser_ID>` 替换为 `c?`.
+>* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请在`<advertiser_ID>`之后将`cq?`替换为`c?`。
 >
->* 此 [!DNL ValueTrack] 跟踪模板中用于指示最终URL的参数必须为 `{lpurl}` 或 `!{unescapedurl}`.
+>* 跟踪模板中用于指示最终URL的[!DNL ValueTrack]参数必须为`{lpurl}`或`!{unescapedurl}`。
 >
->* （文本广告）按关键字竞价时，参数 `ev_pl` （适用于投放位置）没有值。 当按投放位置竞价时， `ev_ln` （对于关键字）没有值。 当您按广告组或任何其他维度竞价时，两者 `ev_ln` 和 `ev_pl` 没有值。
+>* （文本广告）按关键字竞价时，参数`ev_pl`（用于投放位置）没有值。 当您按投放位置竞价时，`ev_ln`（对于关键字）没有值。 当您按广告组或任何其他维度竞价时，`ev_ln`和`ev_pl`都没有值。
 >
->* （动态搜索广告） `{keyword}` 指示动态搜索目标表达式，例如 `_cat:[VALUE]` 或 `_url:[VALUE]`.
+>* （动态搜索广告） `{keyword}`表示动态搜索目标表达式，如`_cat:[VALUE]`或`_url:[VALUE]`。
 >
->* （动态搜索广告） [!DNL Google Ads] 可动态确定最终URL，因此您无需输入URL。
+>* （动态搜索广告） [!DNL Google Ads]可动态确定最终URL，因此您无需输入URL。
 >
->* （站点链接）您可以通过生成 [!UICONTROL Transaction Report]. 此 [!UICONTROL Link Type] sitelink的列值为 `sl:<Sitelink text>`，例如 `sl:See Current Offers`.
+>* （站点链接）您可以通过生成[!UICONTROL Transaction Report]来查看由于单击站点链接而导致的转化。 Sitelink的[!UICONTROL Link Type]列值为`sl:<Sitelink text>`，如`sl:See Current Offers`。
 
 ### 购物网络
 
@@ -54,29 +54,29 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` 是Adobe Advertising中广告商唯一ID的变量。
+>* `<advertiser_ID>`是Adobe Advertising中广告商唯一ID的变量。
 >
->* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，则替换 `cq?` 之后 `<advertiser_ID>` 替换为 `c?`.
+>* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请在`<advertiser_ID>`之后将`cq?`替换为`c?`。
 >
->* 此 [!DNL ValueTrack] 跟踪模板中用于指示最终URL的参数必须为 `{lpurl}` 或 `!{unescapedurl}`.
+>* 跟踪模板中用于指示最终URL的[!DNL ValueTrack]参数必须为`{lpurl}`或`!{unescapedurl}`。
 >
->* [!DNL Google Ads] 会使用Google商家中心信息源中的产品URL作为最终URL，因此您无需为产品数据或产品组输入最终URL。
+>* [!DNL Google Ads]使用Google商家中心信息源中的产品URL作为最终URL，因此您无需为产品数据或产品组输入最终URL。
 >
->* 您可以通过生成转化来查看点击购物广告产生了哪些转化 [!UICONTROL Transaction Report]. 此 [!UICONTROL Link Type] 产品广告的列值为pla：`<product ID>`，例如 `pla:8525822`.
+>* 您可以通过生成[!UICONTROL Transaction Report]来查看因点击购物广告而产生的转化。 产品广告的[!UICONTROL Link Type]列值为pla：`<product ID>`，如`pla:8525822`。
 
 ## 登陆页面后缀（最终URL后缀）格式
 
-使用Adobe Advertising转化跟踪的帐户必须包含广告网络的点击标识符(`gclid` 对象 [!DNL Google Ads])进行标记：
+使用Adobe Advertising转化跟踪的帐户必须在后缀中包含广告网络的点击标识符（[!DNL Google Ads]为`gclid`）：
 
 * 当广告商具有Adobe Analytics集成时，后缀必须包括以下任一项：
 
-   * [!DNL Google Ads] 使用最新版本的帐户 [AMO ID格式](/help/integrations/analytics/ids.md#amo-id-formats) (开始于 `s_kwcid`)，支持针对效果最佳的营销活动、草稿和实验营销活动的营销活动和广告组级别报表：
+   * 使用最新[AMO ID格式](/help/integrations/analytics/ids.md#amo-id-formats) （以`s_kwcid`开头）的[!DNL Google Ads]帐户，该格式支持效果最佳的营销活动以及草稿和实验营销活动的营销活动级和广告组级报告：
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     如果帐户具有服务器端AMO ID实施以及帐户或营销活动设置»[!UICONTROL Auto Upload]”已启用，则会自动添加参数。 否则，您需要手动添加它。 请参阅&quot;[使用的Adobe AdvertisingID [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)“
+     如果帐户具有服务器端AMO ID实施并且启用了帐户或营销活动设置“[!UICONTROL Auto Upload]”，则会自动添加参数。 否则，您需要手动添加它。 查看 [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)使用的[Adobe AdvertisingID。
 
-   * 所有其他 [!DNL Google Ads] 帐户：
+   * 所有其他[!DNL Google Ads]帐户：
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
@@ -92,5 +92,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于Adobe Advertising转化跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
+>* [关于Adobe Advertising转换跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
 >* [AMO ID格式](/help/integrations/analytics/ids.md#amo-id-formats)

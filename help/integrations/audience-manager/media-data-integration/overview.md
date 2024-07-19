@@ -32,25 +32,25 @@ DSP不会向您收取向Audience Manager发送这些信号的费用。 但是，
 
 * 您可以将促销活动数据用于各种用例，例如跨创意内容设置频率上限、重新定位曾接触过先前促销活动的用户，以及分析下游网站行为和入口点。
 
-* 聚合的数据可提供营销活动性能的统一视图，帮助识别自定义转化路径，并可用于改进通过Audience Manager导致转化的事件序列 [!DNL Audience Optimization Reports] 或通过 [[!DNL Audience Analytics] 与Adobe Analytics集成](/help/integrations/audience-manager/audience-analytics.md).
+* 聚合数据提供了促销活动性能的统一视图，有助于识别自定义转化路径，并可用于改进通过Audience Manager[!DNL Audience Optimization Reports]或通过与Adobe Analytics](/help/integrations/audience-manager/audience-analytics.md)的[[!DNL Audience Analytics] 集成导致转化的事件序列。
 
 ## 如何跟踪数据
 
-Audience Manager展示和点击事件像素基于Cookie。 像素不会捕获在没有Cookie的环境中发生的事件，例如移动应用程序和连接的TV (CTV)。<!-- 6/24: CTV inventory isn't clickable, and impression tracking would be lost when we convert users from IP to cookies. -->
+Audience Manager展示和点击事件像素基于Cookie。 像素不会捕获在没有Cookie的环境中发生的事件，例如移动应用程序和连接的电视(CTV)。<!-- 6/24: CTV inventory isn't clickable, and impression tracking would be lost when we convert users from IP to cookies. -->
 
 ### 展示跟踪像素
 
-在将1xl像素透明事件跟踪像素附加到广告时，Audience Manager会跟踪广告的展示数据。 每次将广告提供给用户并由Web浏览器加载时，都会加载事件像素。 像素从特定于客户端的子域加载 [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)，这是用于Audience Manager的旧版域，包含作为键值对的参数。 该事件调用会收集展示和转化数据，并将其发送到Audience Manager数据收集服务器。
+在将1xl像素透明事件跟踪像素附加到广告时，Audience Manager会跟踪广告的展示数据。 每次将广告提供给用户并由Web浏览器加载时，都会加载事件像素。 像素从特定于客户端的子域[`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)加载，该子域是用于Audience Manager的旧域，包含作为键值对的参数。 该事件调用会收集展示和转化数据，并将其发送到Audience Manager数据收集服务器。
 
 ### 点击跟踪像素
 
-Audience Manager跟踪点击次数的方式与跟踪展示次数类似，不同之处在于，它不会在每次提供广告时加载透明事件像素。 相反，会在广告的点进URL中跟踪点击数据。 广告指向特定于客户端的子域 [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)，这是用于Audience Manager的旧版域，由Audience Manager数据收集服务器处理。 然后，服务器将用户重定向到预期的登陆页面。 URL包含作为键值对的参数。
+Audience Manager跟踪点击次数的方式与跟踪展示次数类似，不同之处在于，它不会在每次提供广告时加载透明事件像素。 相反，会在广告的点进URL中跟踪点击数据。 广告指向[`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)的特定于客户端的子域，该子域是用于Audience Manager的旧域，可供Audience Manager数据收集服务器处理。 然后，服务器将用户重定向到预期的登陆页面。 URL包含作为键值对的参数。
 
 >[!NOTE]
 >
->如果您的组织使用 [!DNL Analytics] 之后，您可能不需要Audience Manager点击跟踪。 Adobe Analytics可捕获点击信号，并可将其发送给Audience Manager [服务器端转发](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+>如果您的组织使用[!DNL Analytics]跟踪，则您可能不需要Audience Manager点击跟踪。 Adobe Analytics可捕获点击信号，并可通过[服务器端转发](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)将其发送到Audience Manager。
 
 >[!MORELIKETHIS]
 >
->* [从Advertising DSP Campaigns收集点击和展示数据](collect.md)
+>* [从Advertising DSP营销活动中收集点击和展示数据](collect.md)
 >* [用例](use-cases.md)

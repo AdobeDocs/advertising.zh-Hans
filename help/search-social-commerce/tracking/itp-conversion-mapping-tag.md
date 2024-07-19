@@ -1,42 +1,42 @@
 ---
 title: Adobe Advertising转换映射标记
-description: 了解适用于ITP 2.2的基于JavaScript的转化映射标记，该标记允许Adobe Advertising跟踪在非登陆页面上发生的转化事件。
-exl-id: 6e2515da-2552-4f19-8344-1dee96cbf706
+description: 了解适用于ITP 2.2的基于JavaScript的转化映射标记，该标记允许Adobe Advertising跟踪在非登陆页面发生的转化事件。
+exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
 
-# Adobe AdvertisingJavaScript转换映射标记
+# Adobe AdvertisingJavaScript转化映射标记
 
-*仅具有Adobe Advertising转化跟踪的广告商*
+*仅跟踪Adobe Advertising转化情况的广告商*
 
-除了Adobe AdvertisingJavaScript v2或v3转化跟踪标记之外，使用基于JavaScript的Adobe Advertising转化映射标记时，Adobe Advertising可以跟踪在非登陆页面上发生的转化事件。 ITP 2.2解决方案将用户的Cookie存储在广告商拥有的iFrame中的本地存储中。 然后，本地存储可以保留Cookie值（从点击下游到转化页面）。
+在与Adobe AdvertisingJavaScript v2或v3转化跟踪标记一起使用时，基于JavaScript的转化映射标记可让Adobe Advertising跟踪在非Adobe Advertising上发生的转化事件。 ITP 2.2解决方案将用户的Cookie存储在广告商拥有的iFrame中的本地存储中。 然后，本地存储可以保留Cookie值（从点击下游到转化页面）。
 
-使用转化映射标记可确保Adobe Advertising可跟踪在Apple Safari和Mozilla Firefox浏览器内发生的所有转化，从而限制第一方Cookie的持久性。 <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
+使用转化映射标记可确保Adobe Advertising可跟踪在Apple Safari和Mozilla Firefox浏览器内发生的所有转化，从而限制第一方Cookie的持久性。<!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
 
 要使用转换映射标记，请执行以下操作：
 
-1. [部署转化映射标记](#deploy-conversion-mapping-tag).
+1. [部署转换映射标记](#deploy-conversion-mapping-tag)。
 
-1. 如果您的组织使用多个Adobe Experience Cloud Identity Service组织ID（以前称为IMS组织ID），则 [更新转化标记](#update-conversion-tags) 以包含组织ID。
+1. 如果贵组织使用多个Adobe Experience Cloud Identity Service组织ID（以前称为IMS组织ID），请[更新转化标记](#update-conversion-tags)以包含组织ID。
 
-1. [验证标记部署](#validate-conversion-mapping).
+1. [验证标记部署](#validate-conversion-mapping)。
 
-## 为ITP 2.2部署JavaScript转换映射标记 {#deploy-conversion-mapping-tag}
+## 为ITP 2.2部署JavaScript转化映射标记 {#deploy-conversion-mapping-tag}
 
 >[!NOTE]
 >
->如果您使用的是适用于ITP 2.0的JavaScript转换映射标记，请用以下标记之一替换所有转换页面中的现有标记。<!-- any other instructions, too? Point them to the other page on Track Conversions from Safari...." -->
+>如果您正在为ITP 2.0使用JavaScript转化映射标记，请用以下标记之一替换所有转化页面中的现有标记。<!-- any other instructions, too? Point them to the other page on Track Conversions from Safari...." -->
 
-* 如果您的组织使用单个组织ID（用于您的搜索、社交和商务帐户），则请使用以下标记：
+* 如果您的组织使用单个组织ID(用于您的Search、Social和Commerce帐户)，请使用以下标记：
 
   `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" userid="{AMO User ID}"></script>`
 
-  替换的位置 `{AMO User ID}` 具有您的搜索、社交和商务帐户的唯一用户ID。
+  其中，您将`{AMO User ID}`替换为搜索、社交和Commerce帐户的唯一用户ID。
 
 * 如果您的组织使用多个组织ID，请使用以下标记：
 
@@ -44,11 +44,11 @@ ht-degree: 0%
 
   其中：
 
-   * 替换值 `{xxxxxx@AdobeOrg}` 包含要跟踪页面转化的组织ID。 对所有转化页面使用相同的组织ID。
+   * 将值`{xxxxxx@AdobeOrg}`替换为要跟踪页面转化的组织ID。 对所有转化页面使用相同的组织ID。
 
-   * 您替换 `{AMO User ID}` 具有您的搜索、社交和商务帐户的唯一用户ID。
+   * 您将`{AMO User ID}`替换为您的搜索、社交和Commerce帐户的唯一用户ID。
 
-* 如果您使用的标签管理系统不支持添加 `imsorgid` 变量到脚本标记中，然后改用以下代码：
+* 如果您使用的标记管理系统不支持将`imsorgid`变量添加到脚本标记，请改用以下代码：
 
   *如果您的组织使用单个组织ID：
 
@@ -60,7 +60,7 @@ ht-degree: 0%
   <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
   ```
 
-  替换的位置 `{AMO User ID}` 具有您的搜索、社交和商务帐户的唯一用户ID。
+  其中，您将`{AMO User ID}`替换为搜索、社交和Commerce帐户的唯一用户ID。
 
    * 如果您的组织使用多个组织ID：
 
@@ -75,9 +75,9 @@ ht-degree: 0%
 
      其中：
 
-      * 替换值 `{xxxxxx@AdobeOrg}` 包含要跟踪页面转化的组织ID。 对所有转化页面使用相同的组织ID。
+      * 将值`{xxxxxx@AdobeOrg}`替换为要跟踪页面转化的组织ID。 对所有转化页面使用相同的组织ID。
 
-      * 您替换 `{AMO User ID}` 具有您的搜索、社交和商务帐户的唯一用户ID。
+      * 您将`{AMO User ID}`替换为您的搜索、社交和Commerce帐户的唯一用户ID。
 
 如果您不知道组织ID或Search、Social和Commerce用户ID的值，请咨询您的Adobe客户经理。
 
@@ -108,17 +108,17 @@ window.ad_cloud.userid = "99999"
 
 ## 更新JavaScript转化标记 {#update-conversion-tags}
 
-如果您的组织使用多个组织ID，则将要跟踪页面转化的组织ID添加到您现有的JavaScript转化标记中。
+如果贵组织使用多个组织ID，则将要跟踪页面转化的组织ID添加到您现有的JavaScript转化标记中。
 
 如果您的组织使用一个组织ID，则无需执行此步骤。
 
-### JavaScript V2标记
+### JavaScript V2标签
 
 在转换脚本标记的开头添加以下字符串：
 
 `ef_imsorgid="{xxxxxx@AdobeOrg}";`
 
-替换值 `{xxxxxx@AdobeOrg}` 包含要跟踪页面转化的组织ID。
+其中，将值`{xxxxxx@AdobeOrg}`替换为跟踪页面转化的组织ID。
 
 示例：
 
@@ -142,13 +142,13 @@ effp();
 <noscript><img src="https://pixel.everesttech.net/<ef-userid>/t?ev_property name=<property name>&ev_transid=<transid>" width="1" height="1"/></noscript>
 ```
 
-### JavaScript V3标记
+### JavaScript V3标签
 
-之后 `window.EF` 定义，添加以下字符串：
+定义`window.EF`后，添加以下字符串：
 
 `window.EF.imsorgid = "{xxxxxx@AdobeOrg}";`
 
-替换值 `{xxxxxx@AdobeOrg}` 包含要跟踪页面转化的组织ID。
+其中，将值`{xxxxxx@AdobeOrg}`替换为跟踪页面转化的组织ID。
 
 示例：
 
@@ -188,4 +188,4 @@ effp();
 
 ## 验证标记部署 {#validate-conversion-mapping}
 
-请咨询您的Adobe客户团队，帮助验证转化映射标记和常规转化标记（如果已更新）。
+请咨询您的Adobe帐户团队，帮助验证转化映射标记和常规转化标记（如果已更新）。

@@ -1,33 +1,32 @@
 ---
-title: 關於AdobeAdvertising DSP
-description: 關於AdobeAdvertising DSP
+title: 关于Adobe Advertising DSP
+description: 关于Adobe Advertising DSP
 feature: DSP Introduction
 exl-id: 2a5df455-673b-483f-91a6-4fc5678b7f8a
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
 
-# 關於AdobeAdvertising DSP
+# 关于Adobe Advertising DSP
 
-Adobe廣告是唯一可大規模整合及自動化所有媒體、資料、對象和創意的獨立廣告平台。 跨所有廣告頻道提供連線體驗，包括付費搜尋、顯示器、視訊、連線電視(CTV)、音訊和原生。
+Adobe Advertising是唯一能够大规模统一并自动化所有媒体、数据、受众和创意的独立广告平台。 跨所有广告渠道交付连接的体验，包括付费搜索、显示、视频、连接电视(CTV)、音频和原生。
 
-Adobe Advertising DSP (DSP)透過進階的第一方資料細分和啟用功能、進階和差異化詳細目錄，以及直覺式的跨頻道管理體驗，提升了廣告商的媒體策略。 部分主要功能包括：
+Adobe Advertising DSP (DSP)通过高级的第一方数据分段和激活功能、高级和差异化库存以及直观的跨渠道管理体验，提升广告商的媒体策略。 一些主要功能包括：
 
-* [**最佳化**](features/optimization.md)：我們行銷活動管理的新目的地， [!DNL Campaign Home]，提供進階工具、排序和深入分析，以更快的速度最佳化行銷活動。 此外，預測和支出建議可預測預期表現良好的策略，不一定是目前表現最佳的策略，因此您可以使用資料最佳化。
+* [**优化**](features/optimization.md)：我们的营销活动管理新目标[!DNL Campaign Home]为您提供了高级工具、排序和见解，从而以前所未有的速度优化您的营销活动。 此外，预测和支出推荐可预测预期表现最佳的策略，不一定预测目前表现最佳的策略，因此您可以使用数据进行优化。
 
-* [**跨裝置解決方案**](features/cross-device-solutions.md)：DSP與整合 [!DNL LiveRamp] 可讓您將對象擴展至消費者所有已知裝置，並在這些裝置上套用頻率上限和測量歸因。
+* [**Cross-Device Solutions**](features/cross-device-solutions.md)：与[!DNL LiveRamp]的DSP集成允许您将受众扩展到用户的所有已知设备，并在这些设备上应用频率上限和度量值归因。
 
-* [**Media Quality Suite**](features/brand-safety-media-quality.md)： DSP會以主動方式處理可能影響您的品牌和廣告投資的問題。 DSP媒體品質套裝是100%透明，且採取多方面的方式，以確保廣告商的投資受到保護。 這包括品牌安全性、可檢視性、詐騙保護，以及 [!DNL Ads.Txt].
+* [**Media Quality Suite**](features/brand-safety-media-quality.md)： DSP采取主动方法处理可能影响您的品牌和广告投资的问题。 DSP媒体质量套件是100%透明的，并采用多方面的方法来确保广告商的投资受到保护。 这包括品牌安全、可见性、防欺诈和[!DNL Ads.Txt]。
 
-* **與整合 [Adobe Analytics](/help/integrations/analytics/overview.md)、Adobe Audience Manager和Adobe Experience Platform**：與現有Adobe產品整合可讓您將第一方資料發揮到極致，並將廣告放在與其他業務深入分析相同的層級。
+* **与[Adobe Analytics](/help/integrations/analytics/overview.md)、Adobe Audience Manager和Adobe Experience Platform**&#x200B;的集成：与现有Adobe产品集成，可让您最大限度地利用第一方数据，并将广告置于与其余业务分析相同的级别。
 
-* [**Premiere連線電視體驗，搭配 [!DNL Roku]**](/help/dsp/inventory/roku-inventory.md)： [!DNL Roku] 和DSP擁有獨特的合作關係，可讓您啟動跨以下區域的第一方和第三方資料： [!DNL Roku] 詳細目錄以有效率地大規模觸及大熒幕上的對象。 運用唯一能與同步處理的平台 [!DNL Roku] 行銷人員可利用ID中的確定性1:1鎖定目標精確度及存取權 [!DNL Roku] 詳細目錄和獨特的測量深入分析。
+* [**具有[!DNL Roku]**](/help/dsp/inventory/roku-inventory.md)的Premiere Connected TV体验： [!DNL Roku]和DSP具有独特的合作伙伴关系，该合作伙伴关系允许您在[!DNL Roku]库存中激活第一方和第三方数据，从而在大屏幕中大规模高效地访问受众。 通过利用唯一一个能够与[!DNL Roku] ID同步的平台，营销人员可以利用精确且准确的确定性1:1定位，以及访问[!DNL Roku]库存和独特的测量见解。
 
 >[!MORELIKETHIS]
 >
->* [影片： Advertising DSP簡介](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html)
->* [影片：DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
-
+>* [视频： Advertising DSP简介](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html)
+>* [视频： DSP帐户结构和用户界面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

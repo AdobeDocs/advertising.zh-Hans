@@ -20,59 +20,59 @@ ht-degree: 0%
 
 ## [!UICONTROL S3]
 
-**[!UICONTROL Name]：** 帮助您标识目标的名称。
+**[!UICONTROL Name]：**&#x200B;帮助您识别目标的名称。
 
-**[!UICONTROL S3 Bucket URL]：** 上文件夹的完整路径 [!DNL Amazon Simple Storage Service] (S3)将报告上传到的存储段。 示例： `s3://dsp_account/reports`
+**[!UICONTROL S3 Bucket URL]：**&#x200B;报告上传到的[!DNL Amazon Simple Storage Service] (S3)存储段上的文件夹的完整路径。 示例： `s3://dsp_account/reports`
 
-**[!UICONTROL Access Key ID]：** 访问密钥ID ([!DNL Amazon S3])存储桶（由提供） [!DNL Amazon])。
+**[!UICONTROL Access Key ID]：** ([!DNL Amazon S3])存储段的访问密钥ID （由[!DNL Amazon]提供）。
 
-**[!UICONTROL Secret Access Key]：** ([!DNL Amazon S3])存储桶（由提供） [!DNL Amazon])。
+**[!UICONTROL Secret Access Key]：** ([!DNL Amazon S3])存储段的访问密钥（由[!DNL Amazon]提供）。
 
 ## [!UICONTROL FTP]
 
-**[!UICONTROL Name]：** 帮助您标识目标的名称。
+**[!UICONTROL Name]：**&#x200B;帮助您识别目标的名称。
 
-**[!UICONTROL Server]：** 服务器的主机名。
+**[!UICONTROL Server]：**&#x200B;服务器的主机名。
 
-**[!UICONTROL Port]：** 要在服务器上使用的端口号。 默认为 *[!UICONTROL 21]*.
+**[!UICONTROL Port]：**&#x200B;要在服务器上使用的端口号。 默认值为&#x200B;*[!UICONTROL 21]*。
 
-**[!UICONTROL Username]：** 登录到服务器的用户名。
+**[!UICONTROL Username]：**&#x200B;要登录到服务器的用户名。
 
-**[!UICONTROL Password]：** 登录到服务器的密码。
+**[!UICONTROL Password]：**&#x200B;用于登录到服务器的密码。
 
-**[!UICONTROL Path (Optional)]：** 文件上载到的服务器路径。
+**[!UICONTROL Path (Optional)]：**&#x200B;文件上载到的服务器路径。
 
 ## [!UICONTROL SFTP]
 
-**[!UICONTROL Name]：** 帮助您标识目标的名称。
+**[!UICONTROL Name]：**&#x200B;帮助您识别目标的名称。
 
-**[!UICONTROL Server]：** 服务器的主机名。
+**[!UICONTROL Server]：**&#x200B;服务器的主机名。
 
-**[!UICONTROL Port]：** 要在服务器上使用的端口号。 默认为 *[!UICONTROL 21]*.
+**[!UICONTROL Port]：**&#x200B;要在服务器上使用的端口号。 默认值为&#x200B;*[!UICONTROL 21]*。
 
-**[!UICONTROL Username]：** 登录到服务器的用户名。
+**[!UICONTROL Username]：**&#x200B;要登录到服务器的用户名。
 
-**[!UICONTROL Password]：** 登录到服务器的密码。
+**[!UICONTROL Password]：**&#x200B;用于登录到服务器的密码。
 
-**[!UICONTROL Path (Optional)]：** 文件上载到的服务器路径。
+**[!UICONTROL Path (Optional)]：**&#x200B;文件上载到的服务器路径。
 
 ## [!UICONTROL FTP SSL]
 
-**[!UICONTROL Name]：** 帮助您标识目标的名称。
+**[!UICONTROL Name]：**&#x200B;帮助您识别目标的名称。
 
-**[!UICONTROL Server]：** 服务器的主机名。
+**[!UICONTROL Server]：**&#x200B;服务器的主机名。
 
-**[!UICONTROL Port]：** 要在服务器上使用的端口号。 默认为 *[!UICONTROL 21]*.
+**[!UICONTROL Port]：**&#x200B;要在服务器上使用的端口号。 默认值为&#x200B;*[!UICONTROL 21]*。
 
-**[!UICONTROL Username]：** 登录到服务器的用户名。
+**[!UICONTROL Username]：**&#x200B;要登录到服务器的用户名。
 
-**[!UICONTROL Password]：** 登录到服务器的密码。
+**[!UICONTROL Password]：**&#x200B;用于登录到服务器的密码。
 
-**[!UICONTROL Path (Optional)]：** 文件上载到的服务器路径。
+**[!UICONTROL Path (Optional)]：**&#x200B;文件上载到的服务器路径。
 
 >[!MORELIKETHIS]
 >
->* [关于 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [创建 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
->* [编辑 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [删除 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [关于[!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [创建[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [编辑[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
+>* [删除[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)

@@ -1,9 +1,9 @@
 ---
 title: 查看您的通知
 description: 了解查看通知的不同方式。
-exl-id: 01226827-661d-4125-ab64-874fe7dcaf3a
+exl-id: d449937a-02cf-4f4c-8171-da89c914c119
 feature: Search Notifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -12,51 +12,51 @@ ht-degree: 0%
 
 # 查看您的通知
 
-*Beta版功能*
+*Beta功能*
 
-当您 [订阅的通知](notification-edit.md) 关于帐户身份验证错误、触发的自定义警报以及 [!UICONTROL Advertising Insights] 之后，您可以在以下任一位置查看通知： [!UICONTROL Notifications] 面板或 [!UICONTROL Notification Center].
+当您[订阅了有关帐户身份验证错误、触发的自定义警报以及生成的[!UICONTROL Advertising Insights]的通知](notification-edit.md)时，您可以在[!UICONTROL Notifications]面板或[!UICONTROL Notification Center]中查看您的通知。
 
-## 在中查看通知 [!UICONTROL Notifications] 面板
+## 在[!UICONTROL Notifications]面板中查看通知
 
-1. 在任何页面的右上角，单击 ![通知](/help/search-social-commerce/assets/notifications-panel.png "通知").
+1. 单击任何页面右上角的![通知](/help/search-social-commerce/assets/notifications-panel.png "通知")。
 
 1. （可选）执行以下任一操作：
 
    * 要查看任何通知的详细信息，请单击通知名称。
 
-     在某些通知中， [!UICONTROL Action Recommended] 部分可以包括一个链接，该链接打开受影响或负责的实体的过滤视图。
+     在某些通知中，[!UICONTROL Action Recommended]部分可能包含一个链接，该链接会打开受影响或负责的实体的筛选视图。
 
-   * 要将通知标记为 *读取* 或 *未读*，将光标悬停在警报名称上并单击 ![标记为已读或未读](/help/search-social-commerce/assets/notifications-read-unread.png "标记为已读或未读").
+   * 要将通知标记为&#x200B;*已读*&#x200B;或&#x200B;*未读*，请将光标悬停在警报名称上，然后单击![标记为已读或未读](/help/search-social-commerce/assets/notifications-read-unread.png "标记为已读或未读")。
 
-     通知标记为 *读取* 以较浅颜色文本显示，但在删除之前保持可用。
+     标记为&#x200B;*读取*&#x200B;的通知采用浅色文本，但在您删除它们之前仍可用。
 
    ![已读和未读通知](/help/search-social-commerce/assets/notifications-read-vs-unread.png "已读和未读通知")
 
-   * 要更改通知类型的订阅首选项，请单击 ![设置](/help/search-social-commerce/assets/settings-nc.png "设置") 在通知旁边，更改您的设置，然后单击 **[!UICONTROL Save]**.
+   * 若要更改通知类型的订阅首选项，请单击通知旁边的![设置](/help/search-social-commerce/assets/settings-nc.png "设置")，更改设置，然后单击&#x200B;**[!UICONTROL Save]**。
 
-   * 要删除通知，请单击 ![删除](/help/search-social-commerce/assets/delete.png "删除") 在通知旁边。
+   * 要删除通知，请单击通知旁边的![删除](/help/search-social-commerce/assets/delete.png "删除")。
 
-   * 打开 [!UICONTROL Notification Center]，单击 **[!UICONTROL View All]**.
+   * 要打开[!UICONTROL Notification Center]，请单击&#x200B;**[!UICONTROL View All]**。
 
-## 在中查看通知 [!UICONTROL Notification Center]
+## 在[!UICONTROL Notification Center]中查看通知
 
-1. （从搜索、社交和商务中）在主菜单中，单击 **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
+1. (从Search、Social和Commerce中)在主菜单中，单击&#x200B;**[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**。
 
-1. （可选）要按类型筛选通知，请单击 *[!UICONTROL Notices]， [!UICONTROL Recommendations]， [!UICONTROL Warnings]，或[!UICONTROL Issues]*.
+1. （可选）要按类型筛选通知，请单击&#x200B;*[!UICONTROL Notices]、[!UICONTROL Recommendations]、[!UICONTROL Warnings]或[!UICONTROL Issues]*。
 
 1. （可选）执行以下任一操作：
 
    * 要查看任何通知的详细信息，请单击通知名称。
 
-     在某些通知中， [!UICONTROL Action Recommended] 部分可以包括一个链接，该链接打开受影响或负责的实体的过滤视图。
+     在某些通知中，[!UICONTROL Action Recommended]部分可能包含一个链接，该链接会打开受影响或负责的实体的筛选视图。
 
-   * 要将通知标记为 *读取* 或 *未读*，将光标悬停在警报名称上并单击 ![标记为已读或未读](/help/search-social-commerce/assets/notifications-read-unread.png "标记为已读或未读").
+   * 要将通知标记为&#x200B;*已读*&#x200B;或&#x200B;*未读*，请将光标悬停在警报名称上，然后单击![标记为已读或未读](/help/search-social-commerce/assets/notifications-read-unread.png "标记为已读或未读")。
 
-     通知标记为 *读取* 以较浅颜色文本显示，但在删除之前保持可用。
+     标记为&#x200B;*读取*&#x200B;的通知采用浅色文本，但在您删除它们之前仍可用。
 
-   * 要更改通知类型的订阅首选项，请单击 ![设置](/help/search-social-commerce/assets/settings-nc.png "设置")  在通知旁边，更改您的设置，然后单击 **[!UICONTROL Save]**.
+   * 若要更改通知类型的订阅首选项，请单击通知旁边的![设置](/help/search-social-commerce/assets/settings-nc.png "设置")，更改设置，然后单击&#x200B;**[!UICONTROL Save]**。
 
-   * 要删除通知，请单击 ![删除](/help/search-social-commerce/assets/delete.png "删除") 在通知旁边。
+   * 要删除通知，请单击通知旁边的![删除](/help/search-social-commerce/assets/delete.png "删除")。
 
 >[!MORELIKETHIS]
 >
@@ -64,5 +64,5 @@ ht-degree: 0%
 >* [将通知标记为已读或未读](notification-mark-read-unread.md)
 >* [删除通知](notification-delete.md)
 >* [编辑您的通知设置](notification-edit.md)
->* [启用和禁用来自的推送通知 [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
->* [安装并卸载 [!UICONTROL Notification Center] Web应用程序](notification-app-install-uninstall.md)
+>* [启用和禁用来自[!UICONTROL Notification Center]](notifications-push-enable-disable.md)的推送通知
+>* [安装并卸载[!UICONTROL Notification Center] Web应用程序](notification-app-install-uninstall.md)

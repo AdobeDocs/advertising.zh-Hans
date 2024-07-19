@@ -1,11 +1,11 @@
 ---
 title: 支持的批量处理工作表文件格式
 description: 请参阅批量处理工作表的一般文件要求。
-exl-id: b14aaf11-e2e9-4f7c-b6bc-831f668b93a6
+exl-id: f3daf036-8f0c-4c75-9c76-2734abd850ec
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## 批量处理工作表的基本内容
 
-批量工作表文件的第一个记录（行）包含一组特定的列名称，统称为 <i>标题</i>. 标题中的列名称以指定的顺序排列，对应于后续数据记录中的每个字段。 标头中所需的列名称因广告网络而异。
+批量工作表文件的第一个记录（行）包含一组特定的列名称，统称为<i>标头</i>。 标题中的列名称以指定的顺序排列，对应于后续数据记录中的每个字段。 标头中所需的列名称因广告网络而异。
 
 每个后续记录（行）都包含数据，其中字段包含标题中每列的值（或没有值）。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在为多个营销活动生成批量处理工作表时，如果组合的数据包含超过500,000行，则数据会按营销活动拆分为两个或多个文件，名为 `<bulksheet name>_1.tsv`， `<bulksheet name>_2.tsv`，等等。
+>在为多个营销活动生成批量工作表时，如果合并的数据包含500,000多行，则营销活动会将数据拆分为两个或多个文件（名为`<bulksheet name>_1.tsv`、`<bulksheet name>_2.tsv`等）。
 
 ## 不同文件类型的格式要求
 
@@ -59,19 +59,19 @@ CSV文件和TXT文件中以逗号分隔的数据字段必须采用如下格式�
 
   示例： `Cruises,5000,Caribbean,,,`
 
-* 任何字段都可以选择用双引号(`""`)。
+* 可以选择将任何字段包含在双引号(`""`)中。
 
-  示例：  `"Cruises","5000","Caribbean",`
+  示例： `"Cruises","5000","Caribbean",`
 
-* 包含嵌入逗号的字段必须用双引号(`""`)。
+* 包含嵌入逗号的字段必须用双引号(`""`)括起来。
 
   示例： `Cruises,5000,Caribbean,"Luxurious, spacious cabins",`
 
-* 带有嵌入双引号的字段必须用双引号(`""`)。
+* 带有嵌入双引号的字段必须用双引号(`""`)括起来。
 
   示例： `Cruises,5000,Caribbean,"Customers say ""We wish we could stay forever."",`
 
-* 带前导或尾随空格的字段必须用双引号(`""`)。
+* 带前导或尾随空格的字段必须用双引号(`""`)括起来。
 
   示例： `Cruises,5000,Caribbean,"  Come see what we mean.  ",`
 

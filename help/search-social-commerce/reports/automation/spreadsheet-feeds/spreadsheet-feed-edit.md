@@ -12,35 +12,35 @@ ht-degree: 0%
 
 # 编辑电子表格报表馈送设置
 
-*仅用于基本报表和模型准确性报表*
+*仅用于基本报告和模型准确性报告*
 
-您可以更改哪个报告模板， [!DNL Microsoft Excel] 模板和其他参数用于电子表格馈送。
+您可以更改用于电子表格馈送的报表模板、[!DNL Microsoft Excel]模板和其他参数。
 
 >[!NOTE]
 >
-> 如果您编辑报告模板中的列，或者使用新的或更新后的报告模板，则必须更新 [!DNL Excel] 创建相应的模板并再次上传。
+> 如果您编辑报表模板中的列，或者使用新的或更新后的报表模板，则必须相应地更新[!DNL Excel]模板并重新上传。
 
-1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**。
 
-1. （可选）要更新报表模板或 [!DNL Excel] 用于电子表格馈送的模板：
+1. （可选）要更新用于电子表格馈送的报表模板或[!DNL Excel]模板：
 
-   * （可选）要为信息源使用其他或更新后的报表模板， [新建 [!DNL Excel] 报表模板模板](spreadsheet-feed-create-excel-template.md).
+   * （可选）若要为信息源使用其他或更新的报表模板，请[为报表模板](spreadsheet-feed-create-excel-template.md)创建新的 [!DNL Excel] 模板。
 
-     您需要同时上传报告模板和新的 [!DNL Excel] 文件。
+     在下一步中，您将需要上载报表模板和新的[!DNL Excel]文件。
 
-   * （可选）要仅将自定义列添加到 [!DNL Excel] 模板，在报表模板中的列的右侧插入列，然后将文件另存为 [!DNL Excel] .XLSX格式的电子表格。 您需要上传新的 [!DNL Excel] 文件。
+   * （可选）要简单地向[!DNL Excel]模板添加自定义列，请在报表模板中列的右侧插入列，然后将该文件另存为.XLSX格式的[!DNL Excel]电子表格。 您需要在下一步中上传新的[!DNL Excel]文件。
 
 1. 更改电子表格馈送设置：
 
-   * 在主菜单中，单击 **[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**.
+   * 在主菜单中，单击&#x200B;**[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**。
 
-   * 在电子表格馈送名称旁边，单击 ![查看/编辑设置按钮](/help/search-social-commerce/assets/settings.png "查看/编辑设置按钮").
+   * 在电子表格馈送名称旁边，单击![查看/编辑设置按钮](/help/search-social-commerce/assets/settings.png "查看/编辑设置按钮")。
 
-   * 在 [!UICONTROL Edit Spreadsheet Feed] 对话框，请更改 [电子表格馈送设置](spreadsheet-feed-settings.md).
+   * 在[!UICONTROL Edit Spreadsheet Feed]对话框中，更改[电子表格馈送设置](spreadsheet-feed-settings.md)。
 
-   * 单击 **[!UICONTROL Submit]**.
+   * 单击&#x200B;**[!UICONTROL Submit]**。
 
-   * （可选）在每次加载馈送时 [!UICONTROL Update Status] 是 *[!UICONTROL Finished]*，单击 **[!UICONTROL XLSX]** ，然后按照浏览器的正常步骤打开或保存该文件。
+   * （可选）信息源的[!UICONTROL Update Status]为&#x200B;*[!UICONTROL Finished]*&#x200B;后，单击信息源旁边的&#x200B;**[!UICONTROL XLSX]**，然后按照浏览器的正常过程打开或保存文件。
 
      >[!NOTE]
      >
@@ -50,10 +50,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于电子表格报表源](spreadsheet-feed-about.md)
+>* [关于电子表格报表馈送](spreadsheet-feed-about.md)
 >* [创建电子表格报表源](spreadsheet-feed-create.md)
->* [创建 [!DNL Excel] 电子表格报表馈送模板](spreadsheet-feed-create-excel-template.md)
->* [编辑电子表格报表馈送设置](spreadsheet-feed-edit.md)
->* [电子表格报表馈送设置](spreadsheet-feed-settings.md)
+>* [为电子表格报表馈送创建 [!DNL Excel] 模板](spreadsheet-feed-create-excel-template.md)
+>* [编辑电子表格报表源设置](spreadsheet-feed-edit.md)
+>* [电子表格报表源设置](spreadsheet-feed-settings.md)
 >* [查看或保存电子表格报表源文件](spreadsheet-feed-view-or-save.md)
 >* [手动刷新电子表格报表馈送](spreadsheet-feed-refresh.md)

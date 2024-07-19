@@ -1,33 +1,32 @@
 ---
-title: 帳戶資金
-description: 瞭解DSP的帳戶資金。
+title: 帐户资金
+description: 了解DSP的帐户融资。
 feature: DSP Introduction
 exl-id: 95e1fd75-ed38-41e3-a464-afe5e23c1c22
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
 
-# Advertising DSP帳戶資金
+# Advertising DSP帐户资金
 
-透過下列兩種方式之一購買媒體和服務的DSP基金客戶帳戶：
+通过以下两种方式之一购买媒体和服务的DSP基金客户帐户：
 
-* 客戶提交預付金額，資金會從中用於服務和媒體，直到達到零餘額為止。
-* 「Adobe」會提供已評估的信用額度。
+* 客户提交预付金额，资金将从中用于服务和媒体，直至达到零余额。
+* Adobe提供已评估的信用额度。
 
-「Adobe信用小組」會在合約執行時評估並指派所有客戶。 除非已交付預付款，否則DSP會預設將客戶帳戶的資金編列到指定的信用等級。 帳戶會在建立帳戶後24小時內編列資金。
+Adobe信贷小组于合约执行时评估及分配信贷予所有客户。 除非已交付预付款，否则DSP将默认将客户帐户的资金分配至指定的信用级别。 在创建帐户后24小时内为帐户分配资金。
 
-當客戶以信貸或預付費用進行支出時，用於媒體和服務的資金會隨著支出而減少，直到達到零餘額為止。 在支付商業發票時，會調整銷退折讓。 任何未結清的Adobe商業發票都會影響您的DSP資金。 您有責任及時支付所有Adobe商業發票。 如果您需要高於可用餘額的資金，請與您的DSP合作 [!DNL Client Services] 團隊。
+由于客户将其信贷或预付款作为支出，因此用于媒体及服务的资金会随着支出而减少，直至结余为零为止。 在支付发票时，将调整贷项。 任何未清的Adobe发票均可能影响您的DSP资金分配。 您负责及时支付所有Adobe发票。 如果您需要超出可用余额的资金，请与您的DSP [!DNL Client Services]团队合作。
 
-客戶帳戶的資金已近乎即時更新，在 [!DNL DSP]. 檢視可用餘額，其顯示為「[!UICONTROL Usable Funds]&quot;以您帳戶的購買貨幣為準，請前往 [!UICONTROL Settings] > [!UICONTROL Account]. 僅限DSP使用者具有 [!UICONTROL General] 和 [!UICONTROL Admin] 使用者角色可以看到 [!UICONTROL Usable Funds].
+在[!DNL DSP]中近乎实时地更新了客户帐户的资金。 要查看可用余额（以您帐户的购买货币显示为“[!UICONTROL Usable Funds]”），请转到[!UICONTROL Settings] > [!UICONTROL Account]。 只有具有[!UICONTROL General]和[!UICONTROL Admin]用户角色的DSP用户才能看到[!UICONTROL Usable Funds]。
 
-![帳戶的可用資金](/help/dsp/assets/account-usable-funds.png)
+![帐户的可用资金](/help/dsp/assets/account-usable-funds.png)
 
-Adobe保留因違反DSP等原因而封鎖您的帳戶在DSP上花費的權利 [廣告需求原則](/help/policies/ad-requirements-policy.md) 或隱私權條款。 如果Adobe封鎖您的帳戶，則您的帳戶設定會包含封鎖的通知。 使用您的DSP [!DNL Client Services] 代表，以判斷區塊的原因以及如何更正錯誤。
+Adobe保留阻止您的帐户在DSP上花费的权利，原因包括：违反DSP [广告要求策略](/help/policies/ad-requirements-policy.md)或隐私条款。 如果Adobe阻止您的帐户，则您的帐户设置包含已阻止的通知。 请与您的DSP [!DNL Client Services]代表合作，确定阻止的原因以及如何更正错误。
 
 >[!MORELIKETHIS]
 >
->* [支援的貨幣](/help/dsp/currency.md)
-
+>* [支持的货币](/help/dsp/currency.md)

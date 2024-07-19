@@ -20,23 +20,23 @@ ht-degree: 0%
 
 ## 存档投放位置
 
-1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 1. 单击营销活动的名称。
-1. 在子菜单中，单击 **[!UICONTROL Placements]**.
-1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
-1. 在确认消息中，单击 **[!UICONTROL Archive]**.
+1. 在子菜单中，单击&#x200B;**[!UICONTROL Placements]**。
+1. 在投放位置名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Archive]**。
+1. 在确认消息中，单击&#x200B;**[!UICONTROL Archive]**。
 
 >[!NOTE]
 >
->要查看存档的投放位置，请筛选 [!UICONTROL Placements] 视图：单击 ![“筛选器”按钮](/help/dsp/assets/filter.png)，单击 **[!UICONTROL Placement status]** 并选择 **[!UICONTROL Archived]**，然后单击 **[!UICONTROL Apply].**
+>要查看存档的版面，请筛选[!UICONTROL Placements]视图：单击![筛选按钮](/help/dsp/assets/filter.png)，单击&#x200B;**[!UICONTROL Placement status]**&#x200B;并选择&#x200B;**[!UICONTROL Archived]**，然后单击&#x200B;**[!UICONTROL Apply]。**
 
 ## 将投放位置取消存档
 
-1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 1. 单击营销活动的名称。
-1. 在子菜单中，单击 **[!UICONTROL Placements]**.
-1. 在版面名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
-1. 在确认消息中，单击 **[!UICONTROL Unarchive]**.
+1. 在子菜单中，单击&#x200B;**[!UICONTROL Placements]**。
+1. 在投放位置名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Unarchive]**。
+1. 在确认消息中，单击&#x200B;**[!UICONTROL Unarchive]**。
 
 >[!MORELIKETHIS]
 >

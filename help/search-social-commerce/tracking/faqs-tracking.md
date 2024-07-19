@@ -1,11 +1,11 @@
 ---
 title: 有关跟踪的常见问题解答
 description: 了解有关跟踪的常见问题解答，包括疑难解答问题。
-exl-id: f559b977-dd44-4d29-b49e-c41c6fb783d1
+exl-id: e5302c09-0b40-47ae-bc88-9299e6bd3044
 feature: Search Tracking
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,12 @@ ht-degree: 0%
 
 +++我可以跟踪Adobe Advertising不管理的营销活动吗？
 
-是的。 如果Search、Social &amp; Commerce正在同步您的某个广告网络帐户，那么它将跟踪所有广告网络的点击数据 [支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md) 在该帐户中。 如果您将搜索、社交和商务重定向添加到广告和/或关键词目标URL或跟踪模板，并在转化页面中实施转化跟踪，则它还跟踪转化数据。 向您的Adobe客户团队阐明您希望Search、Social和Commerce轻松跟踪以及希望他们管理哪些营销活动。
+是的。 如果Search、Social和Commerce正在同步您的某个广告网络帐户，则它将跟踪该帐户中所有[支持的促销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)的广告网络点击数据。 如果您已将搜索、社交和Commerce重定向添加到广告和/或关键词目标URL或跟踪模板，并在转化页面中实施转化跟踪，则它还跟踪转化数据。 向您的Adobe客户团队阐明您希望Search、Social和Commerce轻松跟踪以及希望他们管理哪些营销活动。
 +++
 
 +++如何获取多事件归因？
 
-对于使用Search、Social &amp; Commerce或Adobe Analytics转化跟踪标记的广告商，Adobe Advertising提供了多个选项，可用于对一系列导致转化的事件中的转化数据进行归因。 广告商级别设置确定如何跨事件归因转化数据，即使转化数据跨多个广告渠道发生也是如此，只要这些渠道允许在事件级别进行展示跟踪。 默认情况下，转化会被归因于最后一个（最新）事件，但可以对该设置进行不同的配置，例如将转化归因于第一个事件或均匀加权所有事件。 更改归因规则会影响未来竞价的计算方式。
+对于使用Search、Social和Commerce或Adobe Analytics转化跟踪标记的广告商，Adobe Advertising提供了多个选项，可用于对一系列导致转化的事件中的转化数据进行归因。 广告商级别设置确定如何跨事件归因转化数据，即使转化数据跨多个广告渠道发生也是如此，只要这些渠道允许在事件级别进行展示跟踪。 默认情况下，转化会被归因于最后一个（最新）事件，但可以对该设置进行不同的配置，例如将转化归因于第一个事件或均匀加权所有事件。 更改归因规则会影响未来竞价的计算方式。
 
 在馈送文件中提供所有转化数据的广告商必须将转化归因于相关交易事件本身。
 
@@ -33,15 +33,15 @@ ht-degree: 0%
 
 +++Adobe Advertising如何识别重复的事务？
 
-当用户完成事务后刷新确认页面时，可能会发生重复事务。 Adobe Advertising使用 `ev_transid` 属性，以消除具有相同交易ID和属性值的重复交易。
+当用户完成事务后刷新确认页面时，可能会发生重复事务。 Adobe Advertising使用`ev_transid`属性来消除具有相同事务ID和属性值的重复事务。
 
 以下是Adobe Advertising的重复数据消除逻辑：
 
-* **当客户端发送值 `ev_transid` 属性：** 如果以下所有条件均相同，则后续像素请求会被视为上一个像素请求的重复项： `ev_transid`；同一关键词、广告或投放的跟踪ID；以及特定转化量度的值。
+* **当客户端发送`ev_transid`属性的值时：**&#x200B;如果以下各项均相同，则后续像素请求被视为与上一个像素请求重复： `ev_transid`；同一关键字、广告或版面的跟踪ID；以及特定转化量度的值。
 
   例如，如果在特定广告网络上，多个贷款申请具有相同的申请ID和贷款金额，则它们被视为重复项，并且只计算第一个贷款申请。
 
-* **当客户端不发送值 `ev_transid` 属性：** 如果后续交易共享同一关键词、广告或投放位置的跟踪ID，并且特定转化量度具有相同的值，则它们被视为上一个交易的重复项。
+* **当客户端不发送`ev_transid`属性的值时：**&#x200B;如果后续事务共享同一关键字、广告或投放的跟踪ID；并且特定转化量度的值相同，则它们被视为上一个事务的重复项。
 
   例如，如果多个贷款申请具有相同的关键字ID和贷款金额，则它们被视为重复项，并且只计算第一个贷款申请。
 +++
@@ -52,14 +52,14 @@ ht-degree: 0%
 
 首先，请咨询您的Adobe客户团队，以了解删除跟踪URL的影响。
 
-在帐户或营销策划中，将跟踪方法更改为&quot;[!UICONTROL No EF Redirect]“ 然后，使用&#39;&#39;创建批量工作表[!UICONTROL Generate Tracking URLs]”选项，并将其发布到广告网络。 所有现有跟踪URL或目标URL将被替换。
+在帐户或营销活动中，将跟踪方法更改为“[!UICONTROL No EF Redirect]”。 然后，使用&quot;[!UICONTROL Generate Tracking URLs]&quot;选项创建批量处理工作表，并将其发布到广告网络。 所有现有跟踪URL或目标URL将被替换。
 +++
 
 ## 数据问题
 
 +++如何知道哪个转化量度来自数据馈送或被Adobe Advertising转化跟踪标记跟踪？
 
-在 [!UICONTROL Transaction Report]，如果您包含自定义列&#39;&#39;，那么您可以知道Adobe Advertising转化跟踪像素是否跟踪了包含的转化量度[!UICONTROL Tracking URL]“ 使用Adobe Advertising跟踪像素跟踪URL以开头 `http://pixel.everesttech.net`.
+在[!UICONTROL Transaction Report]中，如果包含自定义列“[!UICONTROL Tracking URL]”，则您可以知道Adobe Advertising转化跟踪像素是否跟踪了包含的转化量度。 以Adobe Advertising跟踪像素的跟踪URL以`http://pixel.everesttech.net`开头。
 +++
 
 +++什么是孤立交易？
@@ -74,17 +74,17 @@ ht-degree: 0%
 
 对于像素实施，几乎从不发生孤立事务。 但是，在以下情况下会发生像素孤立：
 
-* 点击数据不可用于转化的点击日期。 在这种情况下，当Search， Social， &amp; Commerce从广告网络获取点击数据时，数据将映射回。
+* 点击数据不可用于转化的点击日期。 在这种情况下，当Search、Social和Commerce从广告网络获取点击数据时，数据将映射回。
 
 * 在转换日志之前不会处理点击日志。
 
 **信息源实施**
 
-* 在信息源中发送的跟踪ID来自Search、Social和Commerce不知道的帐户。
+* 在信息源中发送的跟踪ID来自Search、Social和Commerce不了解的帐户。
 
 * 帐户不同步，或在同步过程中出现错误。
 
-* 由于搜索、社交和商务与广告网络不同步，因此搜索、社交和商务没有有关跟踪ID的信息，因此已从广告网络添加和删除跟踪ID。 如果收入延迟，则此问题仍会导致孤立收入。
+* 由于跟踪ID在Search、Social和Commerce与广告网络不同步时已从广告网络添加和删除，因此Search、Social和Commerce不包含有关该ID的信息。 如果收入延迟，则此问题仍会导致孤立收入。
 
 * 客户端发送的跟踪ID在信息源中的格式不正确，与URL中的跟踪ID不匹配。 发生此情况通常是因为格式问题或馈送中跟踪ID被缩写。
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 **使用令牌(ef_id)的信息源实施**
 
-搜索、社交和商务在其服务器或广告网络上找不到相应的点击。 这可能是因为点击数据不可用于转化的点击日期，或者（极少）是因为点击日志未在转化日志之前处理。 搜索、Social和Commerce收到来自广告网络的点击数据或处理点击日志时，数据将映射到转化。
+搜索、社交和Commerce在其服务器或广告网络上找不到相应的点击。 这可能是因为点击数据不可用于转化的点击日期，或者（极少）是因为点击日志未在转化日志之前处理。 搜索、社交和Commerce收到来自广告网络的点击数据或处理点击日志时，数据将映射到转化。
 +++
 
 ## 收入跟踪问题
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 **可能的解决方案或解决方法**
 
-* 如果您管理自己的关键词和广告，请为重复的URL创建一个具有正确URL的批量工作表文件，然后使用 **[!UICONTROL Generate Tracking URLs]** 选项，为所有关键词和广告重新生成URL。
+* 如果您管理自己的关键词和广告，请为重复的URL创建一个具有正确URL的批量工作表文件，并使用&#x200B;**[!UICONTROL Generate Tracking URLs]**&#x200B;选项将其发布到相应的帐户，该选项会为所有关键词和广告重新生成URL。
 
 * 如果Adobe客户团队管理您的关键词，则要求他们为重复的URL创建新URL。
 +++

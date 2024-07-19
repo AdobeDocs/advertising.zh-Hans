@@ -1,9 +1,9 @@
 ---
 title: 编辑自定义警报模板
 description: 了解如何编辑用于生成自定义警报的模板。
-exl-id: 14051d02-108c-4b0e-8a52-9ae18a95fe2e
+exl-id: 37dfaaa2-ecd2-42cf-a3a6-9d82a8610355
 feature: Search Alerts
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 # 编辑自定义警报模板
 
-1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**，此时将打开 [!UICONTROL Alert Templates] 视图。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**，这将打开到[!UICONTROL Alert Templates]视图。
 
 1. （可选）筛选视图以包含具有特定名称、要评估的数据范围或其他标准的行。
 
-   您可以应用数据过滤器 [工具栏中的](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) 或 [从列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+   您可以从工具栏](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)应用数据筛选器[或从列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)应用[。
 
-1. 在模板名称旁边，单击 ![编辑](/help/search-social-commerce/assets/edit.png "编辑").
+1. 单击模板名称旁边的![编辑](/help/search-social-commerce/assets/edit.png "编辑")。
 
-1. 在 [!UICONTROL Update \[Entity Type\] Alert] 窗口，编辑 [警报设置](alert-template-settings.md) 在 **[!UICONTROL Date Range]**， **[!UICONTROL Filters]**、和 **[!UICONTROL Scheduling and Delivery]** 选项卡。
+1. 在[!UICONTROL Update \[Entity Type\] Alert]窗口中，编辑&#x200B;**[!UICONTROL Date Range]**、**[!UICONTROL Filters]**&#x200B;和&#x200B;**[!UICONTROL Scheduling and Delivery]**&#x200B;选项卡上的[警报设置](alert-template-settings.md)。
 
-   您可以通过单击选项卡名称（例如“过滤器”）或单击来在选项卡之间移动 **[!UICONTROL Next]** 在右下角。
+   您可以通过单击选项卡名称（如“筛选器”）或单击右下角的&#x200B;**[!UICONTROL Next]**&#x200B;在选项卡之间移动。
 
-1. 在 [!UICONTROL Summary] 选项卡，单击 **[!UICONTROL Update]**.
+1. 在[!UICONTROL Summary]选项卡上，单击&#x200B;**[!UICONTROL Update]**。
 
 >[!MORELIKETHIS]
 >

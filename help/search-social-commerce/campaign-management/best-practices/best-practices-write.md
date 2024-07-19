@@ -1,11 +1,11 @@
 ---
 title: 编写有效的文本和副本
 description: 了解编写有效广告文案的最佳实践。
-exl-id: 17feba02-e49a-4550-aca8-d9b06d427a7e
+exl-id: 2c51cd0b-90c5-4093-9a0f-ace5ef1019e7
 feature: Search Best Practices
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ ht-degree: 0%
 
 * 标题/标题中禁止使用感叹号，但描述行中允许使用感叹号。 描述中只允许使用一个。
 
-* 特殊字符，例如 `@,~,\, ^,>,<` 都是被禁止的。
+* 禁止使用特殊字符，如`@,~,\, ^,>,<`。
 
-* 禁止使用快捷方式或使用符号来替换单词。 例如，不能使用“U”替换“you”或“`@`”替换“at.”
+* 禁止使用快捷方式或使用符号来替换单词。 例如，不能使用“U”替换“you”，也不能使用“`@`”替换“at”。
 
 * 除非此区别已由第三方验证并且您的网站上明确显示了验证结果，否则禁止使用诸如“Best”（最佳）或“#1”（最佳）之类的高层词语。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 * 研究您的竞争对手在做什么。 查看某个空间的排名最前的广告(在www.spyfu.com等网站上)，并尝试了解哪些广告在起作用。
 
-[1]：如果使用关键词插入，请为插入代码使用正确的大小写：
+[1]：如果使用关键字插入，请为插入代码使用正确的大小写：
 
 `{keyword:default}` =割草机
 
@@ -76,13 +76,13 @@ ht-degree: 0%
 
 `{KeyWord:default}` =割草机
 
-`{KEYWord:default}` =割草机（仅在“割草机”为品牌时才允许）
+`{KEYWord:default}` =割草机（仅当“LAWN”为品牌时才允许）
 
-`{KeyWORD:default}` =割草机（仅在“割草机”为品牌时才允许）
+`{KeyWORD:default}` =割草机（仅当“割草机”为品牌时才允许）
 
 `{KEYWORD:default}` =割草机（仅当“割草机”为品牌时才允许）
 
 >[!MORELIKETHIS]
 >
->* [分析报告以优化您的关键词和促销活动设置](best-practices-analyze.md)
+>* [分析报告以优化您的关键字和促销活动设置](best-practices-analyze.md)
 >* [优化网站登陆页面](best-practices-optimize.md)

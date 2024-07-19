@@ -1,12 +1,12 @@
 ---
 title: 使用批量处理工作表将分类值分配给帐户组件
 description: 了解如何使用批量工作表将分类值分配给帐户组件。
-exl-id: 9bb38f28-d6bc-41f4-9c28-b391d9b9e412
+exl-id: b2dfd487-097c-45f8-a6a5-24395fdb2b85
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 7%
+source-wordcount: '479'
+ht-degree: 0%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->某些广告网络和促销活动类型的关键字和广告副本包括 [不可变](/help/search-social-commerce/campaign-management/faqs-campaigns.md)，这意味着编辑它们会删除现有实体并创建新实体。 以这种方式删除现有实体时，标签分类不会分配给新实体。
+>您为某些广告网络和促销活动类型创建的关键字和广告副本的时间是[不可变的](/help/search-social-commerce/campaign-management/faqs-campaigns.md)，这意味着编辑它们会删除现有实体并创建一个新实体。 以这种方式删除现有实体时，标签分类不会分配给新实体。
 
-1. [下载批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) 其中包括要为其分配标签分类值的实体：
+1. [下载包含要为其分配标签分类值的实体的批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)：
 
-   * 在 [!UICONTROL Rows and Columns] 选项卡，展开 [!UICONTROL Campaign] 中的列表 [!UICONTROL Bulksheet Columns] 窗格。
+   * 在[!UICONTROL Rows and Columns]选项卡上，展开[!UICONTROL Bulksheet Columns]窗格中的[!UICONTROL Campaign]列表。
 
-   * 展开 [!UICONTROL Label Classification] 列表。
+   * 展开[!UICONTROL Label Classification]列表。
 
    * 选择要在批量处理工作表文件中包含列的每个分类。
 
@@ -38,7 +38,7 @@ ht-degree: 7%
 
    除了添加值之外，您还可以通过从相关行中删除现有值来删除这些值。 要从父实体及其子实体中移除值，请a)仅包含父实体行并移除现有的分类值，或者b)同时包含父实体及其子实体，并从所有父行和子行移除现有的分类值。
 
-1. [上传文件](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) 创建关联。
+1. [上载文件](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)以创建关联。
 
 上传的标签值在相关的实体视图中可见。
 
