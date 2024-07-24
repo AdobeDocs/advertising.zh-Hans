@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 5df80c9113f0feb76fc3c1a2b8652e380711f38b
+source-git-commit: dbd07476909b3eb337050c101fc8c241fe6447ac
 workflow-type: tm+mt
-source-wordcount: '3722'
+source-wordcount: '3795'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年7月24日 | [!UICONTROL Packages] | 启用[!UICONTROL Activate Custom Flighting]选项后，包设置现在包含“[!UICONTROL Automatically rollover remaining flight budget to next flight]”的选项。 启用该选项后，上一个航班的任何剩余预算将自动添加到下一个航班的现有预算中。 选择自动滚动更新选项时，您无法手动编辑[!UICONTROL Rollover]列。<br><br>在[!UICONTROL Packages]视图和[包名称] > [!UICONTROL Flights]视图中，“[!UICONTROL Interval Goal]”列（显示当前外部测试版目标）包含滚动更新预算。 | 请参阅“[包设置](/help/dsp/campaign-management/packages/package-settings.md)”。 |
 | 2024年7月12日 | [!UICONTROL Campaigns]，[!UICONTROL Packages]，[!UICONTROL Placements] | 在[!UICONTROL Campaigns]、[!UICONTROL Packages]和[!UICONTROL Placements]视图中，根据反馈重命名了一些量度：<ul><li>在趋势图中，“所需支出”更名为“支出基准”，“目标支出”更名为“支出目标”。</li><li>在数据表中：<ul><li>“昨天的必需支出”和“今天的必需支出”分别更名为“昨天的支出基准”和“今天的支出基准”。</li><li>工具提示“昨天的步调%和“今天的步调%”更改为“昨天的总支出占昨天支出基准的百分比”和“今天的总支出占昨天支出基准的百分比”。</li><li>“昨天的目标支出”和“今天的目标支出”分别更名为“昨天的支出目标”和“今天的支出目标”。</li></ul></li><ul> | 请参阅“[创建自定义列视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)”和“[编辑自定义列视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit)”。 |
 |  |  | [!DNL Oracle]将于2024年9月30日前停止其广告业务。 这将禁用[!DNL BlueKai]、[!DNL Oracle Data Cloud]（以前为[!DNL Grapeshot]）和[!DNL MOAT]中的所有服务。 以下备选方案已经可用：<ul><li>标准第三方和自定义区段： [!DNL eXelate]、[!DNL Eyeota]、[!DNL LiveRamp]、[!DNL Lotame]、[!DNL Neustar]和其他可用的第三方数据合作伙伴</li><li>预测第三方区段： [!DNL Proximic by Comscore]</li><li>使用[!DNL Integral Ad Science]进行营销活动级别的品牌安全和可见性测量</li><li>带有[!DNL DoubleVerify]和[!DNL Integral Ad Science]的投放位置级别预竞价可视性</li><li>由[!DNL Proximic by Comscore]定位的投放位置级别主题</li></ul>第三方区段的CPM定价在[!UICONTROL Audience Library]中提供，而服务的CPM定价在[!UICONTROL Settings] > [!UICONTROL Fees]中提供。 | 请参阅“[可用的第三方数据提供商](/help/dsp/audiences/third-party-data-providers.md)”、“[品牌安全和媒体质量](/help/dsp/introduction/features/brand-safety-media-quality.md)”、“[促销活动设置](/help/dsp/campaign-management/campaigns/campaign-settings.md)”和“[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)”。 |
 | 2024年7月11日 | [!UICONTROL Custom Goals] | 为自定义目标（目的）提供新的支持： <ul><li>在Search、Social和Commerce中创建的用于Advertising DSP包的目标名称现在必须加上“ADSP_”前缀，例如“ADSP_Registrations”。 前缀不区分大小写。 使用此命名约定的目标可作为DSP中的自定义目标使用。<br><br>您现有的DSP目标已重新命名，无需任何进一步工作。</li><li>现在，将为目标中的DSP归因量度生成权重推荐。 当目标包括至少一个目标量度和一个辅助量度时，针对目标中的每个辅助量度，为非移动权重(用于针对DSP的所有设备类型的广告)生成推荐。 权重推荐会在您保存或编辑目标定义后的第二天早上计算。 推荐会在检测到目标更改的一天后更新，否则会每七天更新一次。 当权重推荐可用时，指标（![权重推荐可用](/help/dsp/assets/weight-recommendation-available.png "权重推荐可用")）显示在搜索>优化>新目标Beta中的目标名称旁边。 只需单击一下，即可应用所有权重推荐。 对以“ADSP_”为前缀的目标所做的所有权重更改均在两天内以算法方式应用于DSP。</li></ul> | 请参阅“[自定义目标](/help/dsp/optimization/custom-goal.md)”。<br><br>有关目标和应用权重推荐的更多信息，请参阅有关“(Beta)新目标”的“优化指南”一章，该章可从Search、Social和Commerce中获取。 |
