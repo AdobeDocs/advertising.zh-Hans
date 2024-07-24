@@ -3,9 +3,9 @@ title: “[!DNL Microsoft Advertising]营销活动设置”
 description: 引用 [!DNL Microsoft Advertising] 营销活动的设置。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 096271a2e9daddc20f7f5f4e0063fda21974c8a1
+source-git-commit: b8aa2461d261af50e1bf66c4ae29e4e453dfd182
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '2041'
 ht-degree: 0%
 
 ---
@@ -79,17 +79,17 @@ ht-degree: 0%
 
 * *[!UICONTROL Maximize Clicks]：*（搜索和购物营销活动）广告网络(而不是Search、Social和Commerce)会优化竞价以最大化点击次数。 （可选）输入&#x200B;**[!UICONTROL Max CPC]**（每次点击成本）以确保广告网络为每次点击支付的金额不会超过特定金额。 **警告：**&#x200B;当您将具有此策略的营销活动添加到项目组合时，点击权重（不是项目组合目标）将驱动竞价。
 
-* *[!UICONTROL Maximize Conversion Value]：* （搜索和购物/智能购物网络，效果最佳的促销活动）广告网络(而不是Search、Social和Commerce)会优化竞价以最大限度地实现转化价值。 （可选）输入&#x200B;**[!UICONTROL Target Return on Ad Spend]** (ROAS)作为百分比。 **注意：**&#x200B;请将此选项用于混合项目组合中的营销活动，但不用于标准项目组合。
+* *[!UICONTROL Maximize Conversion Value]：* （搜索和购物/智能购物网络，效果最佳的促销活动）广告网络(而不是Search、Social和Commerce)会优化竞价以最大限度地实现转化价值。 （可选）输入&#x200B;**[!UICONTROL Target Return on Ad Spend]** (ROAS)作为百分比。 **注意：**&#x200B;请将此选项用于混合项目组合中的营销活动，但不用于标准项目组合。 在混合项目组合中，Search、Social和Commerce会优化Target ROAS。
 
-* *[!UICONTROL Maximize Conversions]：* (搜索网络或受众网络上的效果最佳的促销活动和促销活动（但不包括受众视频或连接的电视）)广告网络(不包括Search、Social和Commerce)可优化竞价以最大限度地提高转化率。 （可选）输入&#x200B;**[!UICONTROL Target CPC]**（每次点击成本）。 对于受众营销活动，您还可以输入可选的&#x200B;**[!UICONTROL Target CPA]**（每次客户获取的成本）。 **注意：**&#x200B;请将此选项用于混合项目组合中的营销活动，但不用于标准项目组合。
+* *[!UICONTROL Maximize Conversions]：* (搜索网络或受众网络上的效果最佳的促销活动和促销活动（但不包括受众视频或连接的电视）)广告网络(不包括Search、Social和Commerce)可优化竞价以最大限度地提高转化率。 （可选）输入&#x200B;**[!UICONTROL Target CPC]**（每次点击成本）。 对于受众营销活动，您还可以输入可选的&#x200B;**[!UICONTROL Target CPA]**（每次客户获取的成本）。 **注意：**&#x200B;请将此选项用于混合项目组合中的营销活动，但不用于标准项目组合。 在混合项目组合中， Search、Social和Commerce会优化Target CPA。
 
-* *[!UICONTROL Target CPA]：* （搜索网络上的促销活动）广告网络(不是Search、Social和Commerce)基于可选的&#x200B;**[!UICONTROL Target CPA]**（每次客户获取成本）优化竞价，这是您想要为客户获取（转化）支付的30天平均金额。 **注意：**&#x200B;将此选项用于具有任何支出策略（除[!UICONTROL Weekly]或[!UICONTROL Google Target CPA]之外）的混合项目组合（而非标准项目组合）中的营销活动。
+* *[!UICONTROL Target CPA]：* （搜索网络上的促销活动）广告网络(不是Search、Social和Commerce)基于可选的&#x200B;**[!UICONTROL Target CPA]**（每次客户获取成本）优化竞价，这是您想要为客户获取（转化）支付的30天平均金额。 **注意：**&#x200B;将此选项用于具有任何支出策略（除[!UICONTROL Weekly]或[!UICONTROL Google Target CPA]之外）的混合项目组合（而非标准项目组合）中的营销活动。 在混合项目组合中， Search、Social和Commerce会优化Target CPA。
 
   平均位置和CPC竞价数据不适用于具有此竞价策略的营销活动。
 
 * *[!UICONTROL Target Impression Share]：* （搜索网络上的营销活动）广告网络(而不是Search、Social和Commerce)会优化竞价以实现目标展示份额和广告位置。 （可选）输入&#x200B;**[!UICONTROL Target Impression Share]**&#x200B;作为百分比、**[!UICONTROL Target Ad Position]**&#x200B;和&#x200B;**[!UICONTROL Max CPC]**（每次点击成本）。 **注意：**&#x200B;混合项目组合中不支持此选项。
 
-* *[!UICONTROL Target Return on Ad Spend]：* （搜索和购物网络上的营销活动）广告网络(而不是Search、Social和Commerce)根据以百分比形式指定的&#x200B;**[!UICONTROL Target ROAS]**（广告支出回报率）优化竞价。 （可选）输入&#x200B;**[!UICONTROL Max CPC]**（每次点击成本）以确保广告网络为每次点击支付的金额不会超过特定金额。 **注意：**&#x200B;将此选项用于具有任何支出策略（除[!UICONTROL Weekly]或[!UICONTROL Google Target ROAS]之外）的混合项目组合（而非标准项目组合）中的营销活动。
+* *[!UICONTROL Target Return on Ad Spend]：* （搜索和购物网络上的营销活动）广告网络(而不是Search、Social和Commerce)根据以百分比形式指定的&#x200B;**[!UICONTROL Target ROAS]**（广告支出回报率）优化竞价。 （可选）输入&#x200B;**[!UICONTROL Max CPC]**（每次点击成本）以确保广告网络为每次点击支付的金额不会超过特定金额。 **注意：**&#x200B;将此选项用于具有任何支出策略（除[!UICONTROL Weekly]或[!UICONTROL Google Target ROAS]之外）的混合项目组合（而非标准项目组合）中的营销活动。 在混合项目组合中，Search、Social和Commerce会优化Target ROAS。
 
   平均位置和CPC竞价数据不适用于具有此竞价策略的营销活动。
 

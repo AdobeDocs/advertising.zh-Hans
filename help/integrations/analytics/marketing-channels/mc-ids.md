@@ -3,9 +3,9 @@ title: 使用Adobe AdvertisingID创建 [!DNL Marketing Channels] 规则
 description: 了解如何使用Adobe AdvertisingID为 [!DNL Analytics Marketing Channels]创建处理规则。
 feature: Integration with Adobe Analytics
 exl-id: 525761b4-607f-4b03-9020-8051009a13c6
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+source-git-commit: 96a0add168c7fb7a6d80cf1b81ef4b315fbba89f
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -35,16 +35,17 @@ AMO ID中的动态值表示跟踪的营销渠道：
 
 | [!UICONTROL AMO ID] | 渠道 | 规则逻辑 |
 |--------|---------|--------------------|
-| 艾尔！ （前缀） | [!UICONTROL Paid Search] | 开头为 |
-| AC！ （前缀） | [!UICONTROL DSP] | 开头为 |
+| ！ctv（后缀） | [!UICONTROL DSP Connected TV View-through] | 结尾为 |
+| ！d！ （正文） | [!UICONTROL Display Network] | 包含 |
 | ！g！ （正文） | [!UICONTROL Google Search] | 包含 |
 | ！s！ （正文） | [!UICONTROL Search Partner] | 包含 |
-| ！d！ （正文） | [!UICONTROL Display Network] | 包含 |
 | ！u！ （正文） | [!UICONTROL Smart Shopping Campaign] | 包含 |
 | ！ytv！ （正文） | [!UICONTROL YouTube Video Ad] | 包含 |
 | ！yts！ （正文） | [!UICONTROL YouTube Search Ad] | 包含 |
 | ！vp！ （正文） | [!UICONTROL Google Video Partners] | 包含 |
 | ！vt（后缀） | [!UICONTROL DSP View-through] | 结尾为 |
+| 艾尔！ （前缀） | [!UICONTROL Paid Search] | 开头为 |
+| AC！ （前缀） | [!UICONTROL DSP] | 开头为 |
 
 ### 使用AMO ID的处理规则示例
 
