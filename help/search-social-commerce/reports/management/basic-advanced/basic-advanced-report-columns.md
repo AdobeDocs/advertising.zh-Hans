@@ -3,9 +3,9 @@ title: 基本报表和高级报表的报表列
 description: 了解基本报表和高级报表的可用数据列。
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
 workflow-type: tm+mt
-source-wordcount: '3747'
+source-wordcount: '3741'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Active Campaigns] | 活动营销活动的数量。 |
 | [!UICONTROL Active Keywords] | 活动关键字的数量。 |
 | [!UICONTROL Ad Group] | 广告组。 |
-| [!UICONTROL Ad Group ID] | Search、Social和Commerce分配给广告组的数值ID。 |
+| [!UICONTROL Ad Group ID] | 标识现有广告组的唯一ID。 |
 | [!UICONTROL Ad Group Status] | 广告组状态： <i>[!UICONTROL Active]</i>、<i>[!UICONTROL Paused]</i>或<i>[!UICONTROL Deleted]</i>。 |
 | [!UICONTROL Ad Group Type] | 广告组类型，如<i>[!UICONTROL Audience]</i> （仅适用于受众营销活动）、<i>[!UICONTROL Discovery]</i> （仅适用于发现营销活动）、<i>[!UICONTROL Display]</i> （仅适用于展示营销活动）、<i>[!UICONTROL Search Dynamic]</i> （仅适用于动态搜索广告）、<i>[!UICONTROL Search Standard]</i> （仅适用于响应式搜索广告和现有的扩展文本广告）、<i>[!UICONTROL Shopping Showcase]</i>、<i>[!UICONTROL Shopping Product]</i> （仅适用于标准购物营销活动）或<i>[!UICONTROL Shopping Smart]</i> （适用于智能购物营销活动）。 对于某些营销活动类型，单个营销活动可以包含多个广告类型。 |
 | [!UICONTROL Ad Groups] | 为其分配标签值的广告组的数量。 |
@@ -118,7 +118,7 @@ ht-degree: 0%
 | [!UICONTROL Interactions] | （视频广告）人们观看广告的次数。 |
 | [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) <i>true</i>（当项目组合包含具有[!UICONTROL Maximize Clicks]竞价策略的营销活动时），否则为<i>false</i>。 |
 | [!UICONTROL Keyword] | 关键字。<br><br><b>注意：</b>如果报告在支持内容的搜索促销活动中包含来自广告组的数据，则此列将包含适用的广告组名称，例如“（广告组内容）您的广告组名称”。 对于搜索营销活动中的网站定向投放，此列没有值。 |
-| [!UICONTROL Keyword ID] | Search、Social和Commerce分配给关键字的数值ID。 |
+| [!UICONTROL Keyword ID] | 标识现有关键字的唯一ID。 |
 | [!UICONTROL Keyword Status] | 与搜索词匹配的关键字的状态： <i>[!UICONTROL Active]</i>、<i>[!UICONTROL Paused]</i>、<i>[!UICONTROL Deleted]</i>或<i>[!UICONTROL Disapproved]</i>。 |
 | [!UICONTROL Label Classification] | （[!UICONTROL Label Classification Report]和[!UICONTROL Label Value Report]）标签分类。 |
 | [!UICONTROL Label Value] | （[!UICONTROL Label Classification Report]和[!UICONTROL Label Value Report]）标签分类的值。 |

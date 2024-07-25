@@ -3,9 +3,9 @@ title: 专业报告的报告列
 description: 了解专业报告的可用数据列。
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2642'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Extension Number] | （[!UICONTROL MSA Ad Extension]个报告）广告扩展的版本属性。 |
 | [!UICONTROL Ad Extension Type] | （[!UICONTROL MSA Ad Extension]个报告）广告扩展的类型。 |
 | [!UICONTROL Ad Group] | 广告组。 |
-| [!UICONTROL Ad Group ID] | Search、Social和Commerce分配给广告组的数值ID。 |
+| [!UICONTROL Ad Group ID] | 标识现有广告组的唯一ID。 |
 | [!UICONTROL Ad Group Name] | 广告组。 |
 | [!UICONTROL Ad Group Status] | 广告组状态： *[!UICONTROL Active]*、*[!UICONTROL Paused]*&#x200B;或&#x200B;*[!UICONTROL Deleted]*。 |
 | [!UICONTROL Ad Title] | （[!UICONTROL MSA Ad Extension]个报告）广告标题。 |
@@ -106,7 +106,7 @@ ht-degree: 0%
 | [!UICONTROL Impression Share Percent] | 您收到的展示次数除以您有资格收到的预计展示次数。 |
 | [!UICONTROL Impressions] | 指定日期范围内的广告展示次数。 |
 | [!UICONTROL Keyword] | 关键字。<br><br><b>注意：</b>如果报告在支持内容的搜索促销活动中包含来自广告组的数据，则此列将包含适用的广告组名称，例如“（广告组内容）您的广告组名称”。 对于搜索营销活动中的网站定向投放，此列没有值。 |
-| [!UICONTROL Keyword ID] | Search、Social和Commerce分配给关键字的数值ID。 |
+| [!UICONTROL Keyword ID] | 标识现有关键字的唯一ID。 |
 | [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report])广告网络分配给广告扩展的数值ID。 |
 | [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report])广告扩展的version特性。 |
 | [!UICONTROL Keyword Extension Type] | ([!UICONTROL MSA Ad Extension by Keyword Report])广告扩展类型。 |
