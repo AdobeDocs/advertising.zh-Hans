@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 3f5b6c27afb730c004c33c84030ce5de2ddf967a
+source-git-commit: b47d5ef00067af455107da07af51b466faa415a1
 workflow-type: tm+mt
-source-wordcount: '3863'
+source-wordcount: '3859'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024年7月24日 | [!UICONTROL Planner] | 现在，通过Planner工具，您可以通过以下方式预测投放位置：<ul><li>**目标或排除的邮政编码**：您可以：<ul><li>粘贴指定国家/地区的逗号分隔值，然后单击&#x200B;**[!UICONTROL Include All]**&#x200B;或&#x200B;**[!UICONTROL Exclude All]**</li><li>按国家和城市搜索，单击正确的邮政编码，然后单击&#x200B;**[!UICONTROL Include]**&#x200B;或&#x200B;**[!UICONTROL Exclude]**。</li></ul></li><li>**定位或排除的网站和应用**：每行输入一个URL，然后单击输入字段下方的&#x200B;**[!UICONTROL Include All]**&#x200B;或&#x200B;**[!UICONTROL Exclude All]**。</li></ul> | 请参阅“[规划者设置](/help/dsp/planner/planner-settings.md)”。 |
+| 2024年7月24日 | [!UICONTROL Planner] | 现在，通过Planner工具，您可以通过以下方式预测投放位置：<ul><li>**目标或排除的邮政编码**：您可以：<ul><li>粘贴指定国家/地区的逗号分隔值，然后单击&#x200B;**[!UICONTROL Include All]**&#x200B;或&#x200B;**[!UICONTROL Exclude All]**</li><li>按国家和城市搜索，单击正确的邮政编码，然后单击&#x200B;**[!UICONTROL Include]**&#x200B;或&#x200B;**[!UICONTROL Exclude]**。</li></ul></li><li>**定位或排除的网站和应用**：每行输入一个网址，然后单击&#x200B;**[!UICONTROL Include All]**&#x200B;或&#x200B;**[!UICONTROL Exclude All]**。</li></ul> | 请参阅“[规划者设置](/help/dsp/planner/planner-settings.md)”。 |
 | | [!UICONTROL Packages] | 启用[!UICONTROL Activate Custom Flighting]选项后，包设置现在包含“[!UICONTROL Automatically rollover remaining flight budget to next flight]”的选项。 启用该选项后，上一个航班的任何剩余预算将自动添加到下一个航班的现有预算中。 选择自动滚动更新选项时，您无法手动编辑[!UICONTROL Rollover]列。<br><br>在[!UICONTROL Packages]视图和[包名称] > [!UICONTROL Flights]视图中，“[!UICONTROL Interval Goal]”列（显示当前外部测试版目标）包含滚动更新预算。 | 请参阅“[包设置](/help/dsp/campaign-management/packages/package-settings.md)”。 |
 | 2024年7月12日 | [!UICONTROL Campaigns]，[!UICONTROL Packages]，[!UICONTROL Placements] | 在[!UICONTROL Campaigns]、[!UICONTROL Packages]和[!UICONTROL Placements]视图中，根据反馈重命名了一些量度：<ul><li>在趋势图中，“所需支出”更名为“支出基准”，“目标支出”更名为“支出目标”。</li><li>在数据表中：<ul><li>“昨天的必需支出”和“今天的必需支出”分别更名为“昨天的支出基准”和“今天的支出基准”。</li><li>工具提示“昨天的步调%和“今天的步调%”更改为“昨天的总支出占昨天支出基准的百分比”和“今天的总支出占昨天支出基准的百分比”。</li><li>“昨天的目标支出”和“今天的目标支出”分别更名为“昨天的支出目标”和“今天的支出目标”。</li></ul></li><ul> | 请参阅“[创建自定义列视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)”和“[编辑自定义列视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit)”。 |
 |  |  | [!DNL Oracle]将于2024年9月30日前停止其广告业务。 这将禁用[!DNL BlueKai]、[!DNL Oracle Data Cloud]（以前为[!DNL Grapeshot]）和[!DNL MOAT]中的所有服务。 以下备选方案已经可用：<ul><li>标准第三方和自定义区段： [!DNL eXelate]、[!DNL Eyeota]、[!DNL LiveRamp]、[!DNL Lotame]、[!DNL Neustar]和其他可用的第三方数据合作伙伴</li><li>预测第三方区段： [!DNL Proximic by Comscore]</li><li>使用[!DNL Integral Ad Science]进行营销活动级别的品牌安全和可见性测量</li><li>带有[!DNL DoubleVerify]和[!DNL Integral Ad Science]的投放位置级别预竞价可视性</li><li>由[!DNL Proximic by Comscore]定位的投放位置级别主题</li></ul>第三方区段的CPM定价在[!UICONTROL Audience Library]中提供，而服务的CPM定价在[!UICONTROL Settings] > [!UICONTROL Fees]中提供。 | 请参阅“[可用的第三方数据提供商](/help/dsp/audiences/third-party-data-providers.md)”、“[品牌安全和媒体质量](/help/dsp/introduction/features/brand-safety-media-quality.md)”、“[促销活动设置](/help/dsp/campaign-management/campaigns/campaign-settings.md)”和“[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)”。 |
