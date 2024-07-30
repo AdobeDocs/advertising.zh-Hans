@@ -3,7 +3,7 @@ title: 管理广告网络帐户
 description: 了解如何设置和管理广告网络帐户的帐户详细信息。
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 68efad8ad3bc2985ac75a0f9437a2eafb194e4b6
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -12,7 +12,13 @@ ht-degree: 0%
 
 # 管理广告网络帐户
 
+<!-- Probably need to change the page title. If I update the filename, get B. to create a redirect to the new URL. -->
+
 以下说明用于创建和编辑广告网络帐户详细信息、刷新帐户的[!DNL oAuth]令牌以及禁用帐户。
+
+<!-- Move out info about Naver?  Then change to the following:  Following are instructions for creating and editing account details for an ad network account that Search, Social, & Commerce will sync using the ad network's API; refreshing the [!DNL oAuth] token for an account; and disabling accounts. -->
+
+<!-- Also update Description metadata to "Learn how to set up and manage account details for an ad network account synced via the ad network API." -->
 
 有关每个广告网络可用功能的详细信息，请参阅[支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)。
 
@@ -243,7 +249,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **S_kwcid格式** - (现有[!DNL Google Ads]帐户，适用于具有Adobe Advertising-Adobe Analytics集成且尚未迁移AMO ID (s_kwcid)的广告商)
+* **S_kwcid格式：** (现有[!DNL Google Ads]帐户，适用于具有Adobe Advertising-Adobe Analytics集成且尚未迁移AMO ID (s_kwcid)的广告商)
 
 此帐户使用旧版的AMO ID跟踪代码格式，允许Adobe Advertising与Adobe Analytics共享该帐户的相关数据。 [最新格式](/help/integrations/analytics/ids.md#amo-id-formats)包含促销活动ID和广告组ID的参数，在Analytics中，要在促销活动和广告组级别准确报告效果最佳的[!DNL Google Ads]促销活动以及草稿和实验促销活动，必须使用这些参数：
 
@@ -253,9 +259,9 @@ ht-degree: 0%
 
 有关完整说明，请参阅“[更新 [!DNL Google Ads] 帐户](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)的AMO ID跟踪代码”。
 
-**报表包名称** -(仅适用于带令牌的EF重定向；带有Adobe Advertising-Adobe Analytics集成的广告商；可选)一个或多个Analytics报表包，Search、Social和Commerce会向其发送从广告网络收集的数据，包括实体分类和帐户的点击数据。 此功能仅适用于受支持的广告网络。
+**报表包名称：**(仅适用于带令牌的EF重定向；带有Adobe Advertising-Adobe Analytics集成的广告商；可选)一个或多个Analytics报表包，Search、Social和Commerce会向其发送从广告网络收集的数据，包括实体分类和帐户的点击数据。 此功能仅适用于受支持的广告网络。
 
-对于要显示在报表包中的数据，必须(a)为帐户配置服务器端AMO ID功能，或者(b)启用设置为“[!UICONTROL Enable tracking for SAINT feeds]”的广告商级别设置。 此外，必须将广告商的Analytics帐户配置为从Search、Social和Commerce接收数据。 有关更多信息，请与您的Adobe客户经理联系。
+对于要显示在报表包中的数据，必须(a)为帐户配置服务器端AMO ID功能，或者(b)启用设置为“[!UICONTROL Enable tracking for SAINT feeds]”的广告商级别设置。 此外，必须将广告商的Analytics帐户配置为从Search、Social和Commerce接收数据。 有关更多信息，请与您的Adobe客户团队联系。
 
 >[!MORELIKETHIS]
 >

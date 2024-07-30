@@ -3,7 +3,7 @@ title: Adobe Advertising转换映射标记
 description: 了解适用于ITP 2.2的基于JavaScript的转化映射标记，该标记允许Adobe Advertising跟踪在非登陆页面发生的转化事件。
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 2c755eaa01f5bc7606074bb0fc276901c21ef807
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -79,7 +79,7 @@ ht-degree: 0%
 
       * 您将`{AMO User ID}`替换为您的搜索、社交和Commerce帐户的唯一用户ID。
 
-如果您不知道组织ID或Search、Social和Commerce用户ID的值，请咨询您的Adobe客户经理。
+如果您不知道组织ID或Search、Social和Commerce用户ID的值，请咨询您的Adobe帐户团队。
 
 ### 示例
 
