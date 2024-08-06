@@ -3,9 +3,9 @@ title: ' [!DNL Yandex] 帐户所需的批量处理工作表数据'
 description: 引用 [!DNL Yandex] 帐户批量工作表中必需的标题字段和数据字段。
 exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '1936'
+source-wordcount: '1940'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 
 >[!TIP]
 >
->下表是宽的。 如有必要，请使用表格底部的滚动条查看全部内容。 您还可以选择临时隐藏目录或右窗格，方法是单击左窗格顶部的![隐藏左窗格](/help/search-social-commerce/assets/hide-left-pane.png "隐藏左窗格")或右窗格顶部的![隐藏右侧窗格](/help/search-social-commerce/assets/hide-right-pane.png "隐藏右侧窗格")。
+>下表是宽的。 若要扩展查看区域，您可以临时隐藏目录和右侧窗格，方法是单击左侧窗格顶部的![隐藏左侧窗格](/help/dsp/assets/hide-left-pane.png "隐藏左侧窗格")和右侧窗格顶部的![隐藏右侧窗格](/help/dsp/assets/hide-right-pane.png "隐藏右侧窗格")。 您还可以使用表格底部的滚动条查看全部内容。
 
 | 字段 | 营销活动 | 广告组 | 关键词 | 文本广告 | 站点链接 | 描述 |
 |----|----|-----|-----|----|----|----|

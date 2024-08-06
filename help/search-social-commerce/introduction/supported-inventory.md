@@ -3,9 +3,9 @@ title: 支持的清单
 description: 引用支持的广告网络、营销活动类型和广告类型。
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: a27e5bf805f198a9f3896da4970e922bb629953b
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2720'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->下表是宽的。 如有必要，请使用表格底部的滚动条查看全部内容。 您还可以选择临时隐藏目录或右窗格，方法是单击左窗格顶部的![隐藏左窗格](/help/search-social-commerce/assets/hide-left-pane.png "隐藏左窗格")或右窗格顶部的![隐藏右侧窗格](/help/search-social-commerce/assets/hide-right-pane.png "隐藏右侧窗格")。
+>下表是宽的。 若要扩展查看区域，您可以临时隐藏目录和右侧窗格，方法是单击左侧窗格顶部的![隐藏左侧窗格](/help/dsp/assets/hide-left-pane.png "隐藏左侧窗格")和右侧窗格顶部的![隐藏右侧窗格](/help/dsp/assets/hide-right-pane.png "隐藏右侧窗格")。 您还可以使用表格底部的滚动条查看全部内容。
 
 | Source | 网络 | 营销活动类型 | 广告类型 | 同步并查看 | 创建/编辑 | 曲目[^1] | 优化 | 报告[^2] | Adobe Analytics支持[^3] |
 |----|----|----|----|----|----|----|----|----|----|

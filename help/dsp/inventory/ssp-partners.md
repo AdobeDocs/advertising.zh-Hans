@@ -3,9 +3,9 @@ title: SSP合作伙伴
 description: 查看可用供应方平台(SSP)和开放交换合作伙伴的列表。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 3bb03e0896fca0e7d58d4726939d18577f458e2c
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->下表是宽的。 如有必要，请使用表格底部的滚动条查看全部内容。 您还可以选择临时隐藏目录或右窗格，方法是单击左窗格顶部的![隐藏左窗格](/help/dsp/assets/hide-left-pane.png "隐藏左窗格")或右窗格顶部的![隐藏右侧窗格](/help/dsp/assets/hide-right-pane.png "隐藏右侧窗格")。
+>下表是宽的。 若要扩展查看区域，您可以临时隐藏目录和右侧窗格，方法是单击左侧窗格顶部的![隐藏左侧窗格](/help/dsp/assets/hide-left-pane.png "隐藏左侧窗格")和右侧窗格顶部的![隐藏右侧窗格](/help/dsp/assets/hide-right-pane.png "隐藏右侧窗格")。 您还可以使用表格底部的滚动条查看全部内容。
 
 | 列出SSP | 公司 | 座位 ID | 计划性保证支持 | 区域 | 支持的货币 | 视频桌面 | 视频移动设备 | Video TV | 显示桌面 | 显示移动设备 | 本机显示 | 音频桌面和移动设备 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
