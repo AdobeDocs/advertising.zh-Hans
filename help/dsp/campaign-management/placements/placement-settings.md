@@ -3,9 +3,9 @@ title: 投放设置
 description: 请参阅可用版面设置的说明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 07ecb613c49e27e1a1e82d7082b1715040b82610
+source-git-commit: cc98c8fa5d1e0309b5b2716f58e6193d029e3f96
 workflow-type: tm+mt
-source-wordcount: '3915'
+source-wordcount: '3921'
 ht-degree: 0%
 
 ---
@@ -365,7 +365,7 @@ ht-degree: 0%
 >
 >* 在[!DNL Proximic by Comscore]或[!DNL Oracle Data Cloud]（以前为[!DNL Grapeshot]）的区段内设置任何负向定位。
 
-**[!UICONTROL Device Targeting]：**（可选）要作为目标包含和排除的特定设备信息，包括设备类型、制造商、操作系统、浏览器和连接类型。 要指定设备定位，请执行以下操作：
+**[!UICONTROL Device Targeting]：**（可选）要作为目标包含和排除的特定设备信息，包括设备类型、制造商、操作系统、浏览器和连接类型。 类型因放置类型而异。 要指定设备定位，请执行以下操作：
 
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 指定要包含和排除的设备详细信息：
