@@ -3,9 +3,9 @@ title: 实施 [!DNL Analytics for Advertising]的先决条件和关键信息
 description: 实施 [!DNL Analytics for Advertising]的先决条件和关键信息
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 8481227a8ccb1f1e6e715e34e14732967110c168
+source-git-commit: 1559c2cb83e32d90f4b2fe959d07c4e588d9becf
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Adobe Advertising](/help/integrations/assets/a4adc-lookbacks.png)中的![广告�
 
 * Adobe Analytics中的[!DNL Analytics for Advertising]转化跟踪使用可配置的跟踪回顾窗口（默认为60天）。 Adobe Advertising报表反映在此跟踪回顾窗口末尾的网站转化和参与情况。
 
-* 支持所有广告类型。 但是，并非所有广告环境都受支持。
+* 支持所有广告类型。<!--Clarify what this might include. It used to include CTV, but not anymore: However, not all ad environments are supported. -->
 
 * 当前仅将[!DNL Analytics]转化跟踪并归因到同一设备上的访客。
 
