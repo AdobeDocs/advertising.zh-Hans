@@ -3,9 +3,9 @@ title: 为 [!DNL Google Ads]创建转化标记
 description: 了解如何创建 [!DNL Google Ads] 转化标记。
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 04330e26dbad6efe76dfcbe4662b062511ae14f6
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 **[!UICONTROL View Through Conversion Window]：**&#x200B;用户查看您的广告后记录浏览转化的最大天数。 对于搜索、展示和购物营销活动，此窗口可以为1到90天。 选择一个数字或选择&#x200B;**[!UICONTROL Custom]**&#x200B;并输入一个数字。
 
-**[!UICONTROL Attribution Model]：** [每个广告交互获得的点数是](https://support.google.com/google-ads/answer/6259715?sjid=8211249329930775138)： *[!UICONTROL Data driven]*、*[!UICONTROL Last click]*、*[!UICONTROL First click]*、*[!UICONTROL Linear]*、*[!UICONTROL Time decay]*&#x200B;或&#x200B;*[!UICONTROL Position based]*。
+**[!UICONTROL Attribution Model]：** [每个广告交互获得的点数是](https://support.google.com/google-ads/answer/6259715?sjid=8211249329930775138)： *[!UICONTROL Data driven]*&#x200B;或&#x200B;*[!UICONTROL Last click]*。 **注意：**&#x200B;以前使用现在不受支持的&#x200B;*[!UICONTROL First click]*、*[!UICONTROL Linear]*、*[!UICONTROL Time decay]*&#x200B;或&#x200B;*[!UICONTROL Position based]*&#x200B;模型的转换操作现在使用&#x200B;*[!UICONTROL Data driven]*&#x200B;模型。
 
 >[!MORELIKETHIS]
 >
