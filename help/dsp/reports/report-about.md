@@ -3,9 +3,9 @@ title: 关于自定义报表
 description: 了解用于手动或使用预配置的报表模板创建自定义报表的选项。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 81c9590d134214e1ed860c2f8116ff66882000be
+source-git-commit: 44f7f9b31afbe6b863acd389df641057b1e6dea1
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,15 @@ ht-degree: 0%
 通过自定义报表，您可以使用促销活动维度（如广告商、版面、网站或地标）以及对您最重要的量度来自定义报表数据的内容和交付。 您可以：
 
 * 在粒度级别完全配置营销活动效果报表。
+
 * 从预配置的报表模板中进行选择，并可以选择进一步自定义它们。
 
-您可以生成一次报表，或安排在指定时区的每日、每周或每月的03:00生成报表。 生成报告后，报告将传递到每个指定的电子邮件收件人或链接的[报告目标](/help/dsp/reports/report-destinations/report-destination-about.md)（属于以下类型）：
+您可以生成一次报表，或根据指定条件（例如每15天或每月第一天）安排在指定时区的03:00生成报表。 生成报告后，您可以从[!UICONTROL Reports] > [!UICONTROL Custom Reports]或链接的[报告目标](/help/dsp/reports/report-destinations/report-destination-about.md)以下类型下载报告：
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
+* FTP SSL <!-- (in beta) -->
 * SFTP
-* FTP SSL（测试版）
 
 >[!NOTE]
 >
@@ -84,9 +85,30 @@ ht-degree: 0%
 
 位于[!UICONTROL Settings] > [!UICONTROL Account]的帐户设置表示a)其数据可用于您的帐户的其他帐户，以及b)可以访问您帐户数据的其他帐户。
 
+## [!UICONTROL Custom Reports]视图
+
+[!UICONTROL Reports] > [!UICONTROL Custom Reports]列出了您的现有报告，包括已生成的报告、计划将来生成的报告以及失败的报告。 “[!UICONTROL Report Run]”列显示从2024年8月22日开始触发报告的日期。 默认情况下，将列出用户创建的所有未存档报表，最新的报表位于顶部。 您可以按状态（报表是定期还是单次）、报表类型、目标类型和报表创建者进一步筛选列表。
+
+您可以创建新自定义报告，编辑现有报告或复制它们以创建新报告，立即运行报告，下载过去四个月的任何报告实例和删除报告。
+
+## 报表状态 {#custom-report-status}
+
+* **[!UICONTROL Yet to start]：**&#x200B;报告从未运行。
+
+* **[!UICONTROL Report generating]：**&#x200B;当前正在创建报告。
+
+* **[!UICONTROL Ready to download]：** （仅定期报告）报告的一个或多个实例可供下载，并且已计划多个报告实例。
+
+* **[!UICONTROL Failed]：**&#x200B;报告作业失败。 要了解报表包的单个报表实例失败的原因，请单击[!UICONTROL Download]旁边的![向下箭头](/help/dsp/assets/chevron-down.png "向下箭头")。 失败的报表作业指示有错误图标(![错误指示器](/help/dsp/assets/indicator-critical.png "错误指示器"))。 将光标悬停在错误图标上可查看错误说明。
+
+* **[!UICONTROL Completed]：**&#x200B;对于非周期性报表，报表已完成。 对于定期报表，已完成所有报表实例。 您可以下载过去四个月内完成的所有报表。
+
+* **[!UICONTROL Archived]：**&#x200B;报告已存档，无法运行。 当报表生成多次失败，则会设置此状态。 目前，您无法从用户界面设置此状态。
+
 >[!MORELIKETHIS]
 >
 >* [创建自定义报告](/help/dsp/reports/report-create.md)
+>* [下载自定义报告](/help/dsp/reports/report-download.md)
 >* [自定义报表设置](/help/dsp/reports/report-settings.md)
 >* [有关家庭报告的常见问题解答](/help/dsp/reports/faq-household-report.md)
 >* Campaign Management视图中的[性能报告类型](/help/dsp/campaign-management/reports/campaign-reports-about.md)
