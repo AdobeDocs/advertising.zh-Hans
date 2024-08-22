@@ -3,9 +3,9 @@ title: 删除自定义报表
 description: 了解如何删除自定义报表。
 feature: DSP Custom Reports
 exl-id: e3cebb69-bab6-4f41-94fd-b4471f9bbdb9
-source-git-commit: f9a93bf99f470e128edeaf69752a91a44dd456ab
+source-git-commit: 570eb1cba51bae5681f989f9450dfcb70a62666b
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
@@ -24,5 +24,6 @@ ht-degree: 0%
 >* [创建自定义报告](/help/dsp/reports/report-create.md)
 >* [复制自定义报告](/help/dsp/reports/report-copy.md)
 >* [编辑自定义报告](/help/dsp/reports/report-edit.md)
+>* [下载自定义报告](/help/dsp/reports/report-download.md)
 >* [自定义报表设置](/help/dsp/reports/report-settings.md)
 >* [可用报告列](/help/dsp/reports/report-columns.md)
