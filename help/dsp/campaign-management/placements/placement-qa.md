@@ -3,16 +3,16 @@ title: 使用电子表格查看和编辑版面设置
 description: 了解如何使用电子表格查看和编辑关键位置设置。
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 230a169611aa3094365a877476f2e5e1c6b3cb9b
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
 # 使用电子表格查看和编辑版面设置
 
-您可以以XLSX（Excel电子表格）格式下载一个或多个投放位置或营销活动中所有投放位置的设置，以供审阅。 使用此功能可快速查看以下详细信息：
+您可以以XLSX （[!DNL Microsoft Excel]电子表格）格式下载一个或多个投放位置或营销活动中所有投放位置的设置以供审阅。 使用此功能可快速查看以下详细信息：
 
 * 营销活动定位哪些受众。
 * 投放位置开始投放的时间，以及停止的时间。
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    * 单击顶部菜单栏右侧的![作业](/help/dsp/assets/downloads.png)。 单击作业旁边的&#x200B;**[!UICONTROL Download]**。
 
-   该文件将保存到浏览器的“下载”文件夹中。 有关包含的列的列表，请参阅已下载/已上传电子表格](#qa-sheet-columns)中的[列。
+   该文件将保存到浏览器的“下载”文件夹中。 有关包含的列的列表，请参阅[已下载/上传电子表格中的版面列](#qa-sheet-columns)。
 
 ## 一个或多个投放位置的下载设置
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 1. 在批量操作工具栏中，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download Edit in Excel Sheet]**。
 
-该文件将自动保存到浏览器的“下载”文件夹中。 有关包含的列的列表，请参阅已下载/已上传电子表格](#qa-sheet-columns)中的[列。
+该文件将自动保存到浏览器的“下载”文件夹中。 有关包含的列的列表，请参阅[已下载/上传电子表格中的版面列](#qa-sheet-columns)。
 
 ## 上传营销活动中所有版面的设置
 
