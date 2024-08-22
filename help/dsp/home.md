@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 14e3499c78bc45f86bbd61e6b081af8c26ecbea3
+source-git-commit: eec7bdce1a91094fe78a839084253a3dbb8a72a2
 workflow-type: tm+mt
-source-wordcount: '4089'
+source-wordcount: '4093'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024年8月22日 | [!UICONTROL Custom Reports] | 已发布以下自定义报表功能和增强功能：<ul><li>[!UICONTROL Reports] > [!UICONTROL Custom Reports]视图已重新设计：<ul><li>列现在包括“[!UICONTROL Status]”、“[!UICONTROL Report Run]”（显示从2024年8月22日开始触发报告的日期）、“[!UICONTROL Recurrence]”、“[!UICONTROL Created By]”和“[!UICONTROL Download Report]”（使用“[!UICONTROL Download]”按钮，以便您可以立即下载过去四个月的任何报告实例）。</li><li>您可以按状态（报表是定期还是单次）、报表类型、目标类型和报表创建者来筛选列表。 默认情况下，将列出用户创建的所有未存档报表，最新的报表位于顶部。</li><li>现在，单击报表名称旁边的&#x200B;**[!UICONTROL …]**，即可使用每个报表的快速操作按钮（如[!UICONTROL Copy]和[!UICONTROL Delete]）。</li></ul><li>报表计划选项现在可用于报表级别，而不是单个目标级别。 在报表设置中，计划设置现在位于“[!UICONTROL Report run schedule]”部分的顶部附近。 如果您编辑的旧报表具有不同的各个目标的现有计划，系统将提示您设置计划，并通知您该计划将替换所有现有目标的现有计划。</li></ul> | 请参阅&quot;[关于报告](/help/dsp/reports/report-about.md)&quot;和&quot;[报告设置](/help/dsp/reports/report-settings.md)&quot;。 |
+| 2024年8月22日 | [!UICONTROL Custom Reports] | 已发布以下自定义报表功能和增强功能：<ul><li>[!UICONTROL Reports] > [!UICONTROL Custom Reports]视图已重新设计：<ul><li>列现在包括“[!UICONTROL Status]”、“[!UICONTROL Report Run]”（显示从2024年8月22日开始触发报告的日期）、“[!UICONTROL Recurrence]”、“[!UICONTROL Created By]”和“[!UICONTROL Download Report]”（使用“[!UICONTROL Download]”按钮，以便您可以立即下载过去四个月的任何报告实例）。</li><li>您可以按状态（报表是定期还是单次）、报表类型、目标类型和报表创建者来筛选列表。 默认情况下，将列出用户创建的所有未存档报表，最新的报表位于顶部。</li><li>现在，单击报表名称旁边的&#x200B;**[!UICONTROL …]**，即可使用每个报表的快速操作按钮（如[!UICONTROL Copy]和[!UICONTROL Delete]）。</li></ul><li>报表计划选项现在可用于报表级别，而不是单个目标级别。 在报表设置中，计划设置现在位于“[!UICONTROL Report run schedule]”部分的顶部附近。 如果您编辑的旧报表具有不同的各个目标的现有计划，系统将提示您设置计划，并通知您该计划将替换所有现有目标的现有计划。</li></ul> | 请参阅“[关于报告](/help/dsp/reports/report-about.md)”、“[下载自定义报告](/help/dsp/reports/report-download.md)”和“[报告设置](/help/dsp/reports/report-settings.md)”。 |
 | 2024年8月22日 | [!UICONTROL Packages] | 您现在可以以XLSX （[!DNL Microsoft Excel]电子表格）格式下载一个或多个包的设置以供审阅。 电子表格包括一个单独的选项卡，其中包含航班信息。 然后，您可以对两个选项卡中的大多数字段进行更改，并将它们一次上载回DSP。 | 请参阅“[使用电子表格](/help/dsp/campaign-management/packages/package-qa.md)查看和编辑包设置”。 |
 | 2024年8月14日 | [!UICONTROL Placements] | DSP不再刷新[!DNL Audiences by Oracle (BlueKai)]区段的区段计数，这些计数将在9月下旬失效，并且所有计数将逐渐减少到零(0)。 | — |
 | 2024年7月30日 | [!UICONTROL Placements] | 从8月14日开始，DSP将停止刷新[!DNL Audiences by Oracle (BlueKai)]区段的区段计数，此项将在9月底失效，并且所有计数将逐渐减少到零(0)。 | — |
