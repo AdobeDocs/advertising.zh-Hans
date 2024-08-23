@@ -3,7 +3,7 @@ title: 支持激活通用ID
 description: 了解在以下支持方面的支持：导入通用ID区段，创建自定义区段以跟踪通用ID，以及将第一方区段中的其他用户标识符转换为通用ID以实现无痕定位。
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
+source-git-commit: 202f4ae8e6633672b7af12937f0b35da5052f7fc
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 0%
@@ -24,7 +24,7 @@ DSP支持基于人员的通用ID，以便跨DSP支持的数字格式进行无coo
 
 * 您可以创建自定义区段，以跟踪与从桌面和移动设备中展示广告以及访问特定网页的ID5通用ID关联的用户。 ID5使用概率模型来分配从各种用户信号和浏览器信号派生的ID。 有关说明，请参阅&quot;[创建和实施自定义区段](/help/dsp/audiences/custom-segment-create.md)&quot;。
 
-* 除了由Cookie或设备ID跟踪的用户之外，某些供应商提供的第三方区段还可以自动包含通用ID。 例如，[!DNL Eyeota]中的区段可能自动包含ID5 ID，而[!DNL Lotame]中的区段可能包含UID2.0 ID。 区段详细信息包括每种类型的大小。 每个区段通常收取的使用费（在区段名称旁边列出）将适用；ID5 ID无需额外付费。
+* 除了由Cookie或设备ID跟踪的用户之外，某些供应商提供的第三方区段还可以自动包含通用ID。 例如，[!DNL Eyeota]中的区段可能自动包含ID5 ID，[!DNL Lotame]中的区段可能包含UID2.0 ID。 区段详细信息包括每种类型的大小。 每个区段通常收取的使用费（在区段名称旁边列出）将适用；ID5 ID无需额外付费。
 
 ## 按通用ID类型报告
 
@@ -106,9 +106,9 @@ DSP支持基于人员的通用ID，以便跨DSP支持的数字格式进行无coo
 
 ### 差异原因 {#universal-ids-data-variances-causes}
 
-* 转换为ID5 ID的经过哈希处理的电子邮件ID：
+* 所有区段：
 
-  概率模型的误差方差为+/-5%。 这意味着它可能高估或低估受众数量5%。
+  区段到设备计数使用概率模型，其误差方差为+/- 5%。 这意味着它可能高估或低估受众数量5%。
 
 * 已转换为[!DNL RampIDs]的经过哈希处理的电子邮件ID：
 
