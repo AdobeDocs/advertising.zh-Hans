@@ -3,9 +3,9 @@ title: SSP合作伙伴
 description: 查看可用供应方平台(SSP)和开放交换合作伙伴的列表。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: e9001913f7b5a18ad625f32230199ee7209e1a64
+source-git-commit: 311200b84c4f2d037ecc9cc17ba49495bd523464
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 | [!DNL TripleLift] |  | [!DNL TubeMogul]或Adobe Advertising | — | 全局 | 美元 | 本机显示 |
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul]或Adobe Advertising | — | 全局 | 美元 | 显示桌面和移动设备<br><br>视频桌面、移动设备和电视 |
 | [!DNL Triton] |  | Adobe Advertising | PG支持 | 全局 | 美元 | 音频桌面和移动设备 |
-| [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | — | 美国+ EMEA | 美元 | 视频台式机、移动设备和CTV |
+| [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | — | 美国+ EMEA | 美元 | 显示桌面和移动设备<br><br>视频桌面、移动设备和电视 |
 | [!DNL Yahoo] |  | [!DNL TubeMogul]或Adobe Advertising | — | 全局 | 美元 | 显示桌面和移动设备<br><br>视频桌面、移动设备和电视 |
 
 >[!MORELIKETHIS]
