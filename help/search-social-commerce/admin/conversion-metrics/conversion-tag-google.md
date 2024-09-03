@@ -3,9 +3,9 @@ title: 为 [!DNL Google Ads]创建转化标记
 description: 了解如何创建 [!DNL Google Ads] 转化标记。
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: 04330e26dbad6efe76dfcbe4662b062511ae14f6
+source-git-commit: 2c20d2138ee797b6ed2f27d9baa9eda7d413da8d
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 要为现有转化生成转化标记，请使用广告网络的编辑器。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**，这将打开到&#x200B;**[!UICONTROL Summary]**&#x200B;选项卡。
 
 1. 在数据表上方的工具栏中，单击![创建](/help/search-social-commerce/assets/add.png "创建")。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 **[!UICONTROL Select an Account]：**&#x200B;适用的Google Ads帐户。
 
-**[!UICONTROL Type of Conversion]：**&#x200B;要跟踪的转换类型： *[!UICONTROL Click on a webpage element]*、*[!UICONTROL Calls to a phone number on your website]*&#x200B;或&#x200B;*[!UICONTROL Clicks to your number on your mobile website]*。
+**[!UICONTROL Type of Conversion]：**&#x200B;要跟踪的转换类型： *[!UICONTROL Click on a webpage element]*、*[!UICONTROL Calls to a phone number on your website]*&#x200B;或&#x200B;*[!UICONTROL Clicks to your number on your mobile website]*。 **注意：** *[!UICONTROL Import conversion]*&#x200B;用于其他目的；请参阅“[为潜在客户](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)的 [!DNL Google Ads] 增强型转化创建转化操作”。
 
 **[!UICONTROL Conversion Name]：**&#x200B;转化量度的唯一名称。
 
@@ -68,4 +68,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
+>* [上载离线转化数据以进行增强型转化](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 >* 搜索、社交和Commerce中的[[!DNL Google Ads] 转化数据](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)

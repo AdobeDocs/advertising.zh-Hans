@@ -3,7 +3,7 @@ title: 关于购物产品组
 description: 了解购物营销活动中的购物产品组。
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 当同一产品包含在多个促销活动中时，广告网络首先使用促销活动优先级来确定哪个促销活动（及相关竞价）适用于广告拍卖。 如果所有促销活动具有相同的优先级，则具有最高竞价的促销活动符合条件。
 
-有关[!DNL Google]购物营销活动和广告的更多信息，请参阅[实施 [!DNL Google Ads] 购物营销活动](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)和[Google广告文档](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&amp;rd=1)。 有关[!DNL Microsoft]购物营销活动的详细信息，请参阅[实施 [!DNL Microsoft Advertising] 购物营销活动](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)和[[!DNL Microsoft Advertising] 文档](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500)。
+有关[!DNL Google]购物营销活动和广告的更多信息，请参阅[实施 [!DNL Google Ads] 购物营销活动](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)和[Google广告文档](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&amp;rd=1)。 有关[!DNL Microsoft]购物营销活动的详细信息，请参阅[实施 [!DNL Microsoft Advertising] 购物营销活动](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)和[[!DNL Microsoft Advertising] 文档](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500)。
 
 >[!NOTE]
 >
@@ -58,6 +58,6 @@ ht-degree: 0%
 >
 >* [管理购物产品组](product-group-manage.md)
 >* [[!DNL Google Ads] 产品组设置](product-group-settings-google.md)
->* [实施 [!DNL Google Ads] 购物营销活动](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
+>* [实施 [!DNL Google Ads] 购物营销活动](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
 >* [[!DNL Microsoft Advertising] 产品组设置](product-group-settings-microsoft.md)
->* [实施 [!DNL Microsoft Advertising] 购物营销活动](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [实施 [!DNL Microsoft Advertising] 购物营销活动](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)

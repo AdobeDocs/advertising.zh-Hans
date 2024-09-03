@@ -3,9 +3,9 @@ title: “[!DNL Google Ads]转换数据”
 description: 了解Search、Social和Commerce中可用的 [!DNL Google Ads]跟踪的转化数据类型。
 exl-id: a4634410-446b-4e2e-a52f-22a494f731f9
 feature: Search Campaign Management, Conversions
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -106,3 +106,4 @@ Search、Social和Commerce会自动将[!DNL Google Ads]搜索和购物网络上�
 >* [监视和管理广告网络营销活动的效果](monitor-performance-campaigns.md)
 >* [查看为广告商跟踪的转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
 >* [为 [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)创建转化标记
+>* [上载离线转化数据以进行增强型转化](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)

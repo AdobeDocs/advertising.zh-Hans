@@ -3,7 +3,7 @@ title: ' [!DNL Google Ads] 帐户所需的批量处理工作表数据'
 description: 引用 [!DNL Google Ads] 帐户批量工作表中必需的标题字段和数据字段。
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '7855'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign Name] | 为帐户标识营销活动的唯一名称。 |
 | [!UICONTROL Campaign Budget] | 竞选活动的每日支出限制，无论是否带有货币符号和标点。 此值将覆盖但不能超过帐户预算。 |
 | [!UICONTROL Delivery Method] | <p>每天显示促销活动广告的速度：</p><ul><li><p><i>[!UICONTROL Standard (Distributed)]</i>（新营销活动的默认值）：用于将广告展示次数分散到一整天里。</p></li><li><p><i>[!UICONTROL Accelerated]：</i>（2019年10月弃用）在达到预算前尽可能多地显示广告。 因此，您的广告可能不会在当天晚些时候显示。</p></li></ul> |
-| [!UICONTROL Channel Type] | <p>要在其中放置广告的渠道。 指定一个或多个选项：</p><ul><li><p><i>[!UICONTROL Search]</i> （新营销活动的默认值）：在[!DNL Google Ads]搜索网络（包括[!DNL Google Ads]搜索和搜索合作伙伴网站）上投放广告，也可以选择在[!DNL Google Ads]显示网络上投放广告。 <b>注意：</b>无法将同时针对搜索网络和显示网络的营销活动添加到项目组合中以进行竞价优化。</p></li><li><p><i>[!UICONTROL Display]</i>：仅在[!DNL Google Ads]显示网络上投放广告。</p></li><li><p><i>[!UICONTROL Shopping]</i>：在[!DNL Google Ads]购物网络（位于选定的国家/地区）和[!DNL Google Ads]搜索网络（包括[!DNL Google Ads]搜索和搜索合作伙伴网站）上投放购物广告。 要创建购物广告，您必须在[!DNL Google Merchant Center]帐户中拥有产品，并且[允许Search、Social和Commerce从帐户](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)下载数据。 有关创建购物广告过程的更多信息，请参阅&quot;[实施 [!DNL Google Ads] 购物营销活动](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)&quot;。</p></li></ul> |
+| [!UICONTROL Channel Type] | <p>要在其中放置广告的渠道。 指定一个或多个选项：</p><ul><li><p><i>[!UICONTROL Search]</i> （新营销活动的默认值）：在[!DNL Google Ads]搜索网络（包括[!DNL Google Ads]搜索和搜索合作伙伴网站）上投放广告，也可以选择在[!DNL Google Ads]显示网络上投放广告。 <b>注意：</b>无法将同时针对搜索网络和显示网络的营销活动添加到项目组合中以进行竞价优化。</p></li><li><p><i>[!UICONTROL Display]</i>：仅在[!DNL Google Ads]显示网络上投放广告。</p></li><li><p><i>[!UICONTROL Shopping]</i>：在[!DNL Google Ads]购物网络（位于选定的国家/地区）和[!DNL Google Ads]搜索网络（包括[!DNL Google Ads]搜索和搜索合作伙伴网站）上投放购物广告。 要创建购物广告，您必须在[!DNL Google Merchant Center]帐户中拥有产品，并且[允许Search、Social和Commerce从帐户](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)下载数据。 有关创建购物广告过程的更多信息，请参阅&quot;[实施 [!DNL Google Ads] 购物营销活动](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)&quot;。</p></li></ul> |
 | [!UICONTROL Networks] | <p>在何处放置广告。 指定一个或多个选项：</p><ul><li><p><i>[!UICONTROL Google Search]</i>：仅在Google搜索网络上提供赞助的搜索列表。</p></li><li><p><i>[!UICONTROL Search Partners]</i>：在Google的搜索合作伙伴上赞助的搜索列表。</p></li><li><p><i>[!UICONTROL Content]</i>：对显示网络列表投标。</p></li><li><p><i>[!UICONTROL All]</i> （新营销活动的默认值）：定位Google搜索、搜索合作伙伴和内容。</p></li></ul> |
 | [!UICONTROL DSA Domain Name] | <p>（仅限搜索网络；仅适用于扩展的动态搜索广告）广告网络用于定位动态搜索广告的广告内容的网站的根域(如example.com)或子域(如shoes.example.com)。<br><br><b>注释：</b></p><ul><li><p>扩展的动态搜索广告以网站内容为目标，而不是以关键字为目标。</p></li><li><p>域必须按广告网络的自然搜索索引编制索引才能定位。</p></li><li><p>如果不指定域，则必须创建动态搜索目标，这些目标针对每个广告组的所有网站页面或其子集。</p></li></ul> |
 | [!UICONTROL DSA Domain Language] | （仅适用于搜索网络；仅适用于扩展的动态搜索广告）指定网站域的语言。 <b>注意：</b>如果域包含多种语言的页面，并且您希望定位所有这些语言，请为每个语言创建一个单独的营销活动。 |
@@ -239,7 +239,7 @@ ht-degree: 0%
 
 ### 扩展的动态搜索广告
 
-此广告类型现在在[!DNL Google Ads]中称为“动态搜索广告”。 有关创建动态搜索广告的更多信息，请参阅“[实施 [!DNL Google Ads] 动态搜索广告](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-dynamic-search-ads.html)”。
+此广告类型现在在[!DNL Google Ads]中称为“动态搜索广告”。 有关创建动态搜索广告的更多信息，请参阅“[实施 [!DNL Google Ads] 动态搜索广告](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html)”。
 
 对于此广告类型，请使用[!UICONTROL Download Bulksheet]对话框中的“[!UICONTROL Creative (except RSA)]”行。
 
@@ -264,7 +264,7 @@ ht-degree: 0%
 
 ### 产品列表/购物广告字段
 
-有关创建购物广告的更多信息，请参阅“[实施 [!DNL Google Ads] 购物营销活动](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-shopping-campaigns.html)”。
+有关创建购物广告的更多信息，请参阅“[实施 [!DNL Google Ads] 购物营销活动](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html)”。
 
 对于此广告类型，请使用[!UICONTROL Download Bulksheet]对话框中的“[!UICONTROL Creative (except RSA)]”行。
 

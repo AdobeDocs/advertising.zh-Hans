@@ -3,7 +3,7 @@ title: 实施广告网络帐户和营销活动概述
 description: 了解设置、同步和管理广告网络帐户所涉及的任务。
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Adobe可与每个广告商合作，建立其广告网络帐户和促销活动。
 
       * (百度、Google Ads、Microsoft Advertising、Yahoo！ 仅限日本广告和Yandex帐户)在界面中直接输入单个组件的数据。 对于大多数促销活动和广告类型，您可以在促销活动级别、广告组级别以及单个关键字、投放位置和广告级别创建数据。
 
-      但是，某些营销活动和广告类型需要独特的工作流。 查看有关设置[[!DNL Microsoft Advertising] 购物营销活动](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)、[[!DNL Google Ads] 动态搜索广告](/help/search-social-commerce/campaign-management/special-campaign-types/google-dynamic-search-ads.md)、[[!DNL Google Ads] 效果最佳营销活动](/help/search-social-commerce/campaign-management/special-campaign-types/google-performance-max-campaigns.md)和[[!DNL Google Ads] 购物营销活动](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)的说明。
+      但是，某些营销活动和广告类型需要独特的工作流。 查看有关设置[[!DNL Microsoft Advertising] 购物营销活动](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)、[[!DNL Google Ads] 动态搜索广告](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)、[[!DNL Google Ads] 效果最佳营销活动](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)和[[!DNL Google Ads] 购物营销活动](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)的说明。
 
    1. （仅限[!DNL Naver]个仅跟踪帐户）上传包含数据的[批量工作表文件](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)，以复制Search、Social和Commerce中的现有促销活动、广告组和关键字，而无需将它们发布到[!DNL Naver]。
 

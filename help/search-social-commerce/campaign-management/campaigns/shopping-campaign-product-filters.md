@@ -3,7 +3,7 @@ title: 购物营销活动产品过滤器
 description: 引用可用于购物产品组的产品过滤器。
 exl-id: 91695fa8-6e5e-42a7-a84a-0b46b9f4dfcc
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -27,8 +27,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [实施 [!DNL Google Ads] 购物营销活动](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
->* [实施 [!DNL Microsoft Advertising] 购物营销活动](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [实施 [!DNL Google Ads] 购物营销活动](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+>* [实施 [!DNL Microsoft Advertising] 购物营销活动](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
 >* [关于购物产品组](product-group-about.md)
 >* [管理购物产品组](product-group-manage.md)
 >* [[!DNL Google Ads] 产品组设置](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)

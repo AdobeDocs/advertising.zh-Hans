@@ -3,7 +3,7 @@ title: “[!DNL Microsoft Advertising]产品组设置”
 description: 引用 [!DNL Microsoft Advertising] 购物产品组的设置。
 exl-id: ea3a4137-1396-430f-9d6c-8e1e1f1f52c2
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -52,4 +52,4 @@ ht-degree: 0%
 >* [关于购物产品组](product-group-about.md)
 >* [管理购物产品组](product-group-manage.md)
 >* [购物营销活动产品筛选器](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [实施 [!DNL Microsoft Advertising] 购物营销活动](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [实施 [!DNL Microsoft Advertising] 购物营销活动](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)

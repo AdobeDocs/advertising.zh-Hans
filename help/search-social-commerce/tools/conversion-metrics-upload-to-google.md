@@ -1,18 +1,18 @@
 ---
-title: 将转化量度上载到 [!DNL Google Ads]
+title: 将搜索、社交和Commerce跟踪的转化指标上传至 [!DNL Google Ads]
 description: 了解如何将搜索、社交和Commerce跟踪的转化指标上传到 [!DNL Google Ads]。
 exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
-source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
-# 将转化量度上载到[!DNL Google Ads]
+# 将搜索、社交和Commerce跟踪的转化指标上传至[!DNL Google Ads]
 
-*仅具有[!DNL Google Ads]帐户的广告商*
+*仅包含[!DNL Google Ads]帐户和Adobe Advertising转化跟踪的广告商*
 
 Search、Social和Commerce可以选择将其为使用Adobe Advertising转化跟踪服务的[!DNL Google Ads]营销活动跟踪的所有转化指标上传到[!DNL Google Ads]。 此选项不使转换可用于混合优化。 如果要使用Adobe转化进行混合优化，请参阅“启用将目标上传到广告网络](objective-upload-to-networks.md)”。[
 

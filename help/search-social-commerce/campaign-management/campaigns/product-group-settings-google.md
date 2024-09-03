@@ -3,7 +3,7 @@ title: “[!DNL Google Ads]产品组设置”
 description: 引用 [!DNL Google Ads] 购物产品组的设置。
 exl-id: 2cfef9de-b265-4fa5-b1bd-84e6cba79914
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -52,4 +52,4 @@ ht-degree: 0%
 >* [关于购物产品组](product-group-about.md)
 >* [管理购物产品组](product-group-manage.md)
 >* [购物营销活动产品筛选器](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [实施 [!DNL Google Ads] 购物营销活动](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
+>* [实施 [!DNL Google Ads] 购物营销活动](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)

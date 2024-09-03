@@ -3,7 +3,7 @@ title: 管理广告
 description: 了解Search、Social和Commerce中的广告，包括可用的广告类型。
 exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
   通过从[!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups]视图为广告组设置单独的产品组，您可以控制哪些产品与您的[!DNL Microsoft Advertising]购物广告一起显示。
 
-  有关产品/购物广告工作流的详细信息，请参阅[实施 [!DNL Microsoft Advertising] 购物营销活动](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)。  有关产品广告的其他信息，请参阅[Microsoft Advertising文档](https://help.ads.microsoft.com/#apex/3/en/51082)。
+  有关产品/购物广告工作流的详细信息，请参阅[实施 [!DNL Microsoft Advertising] 购物营销活动](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)。  有关产品广告的其他信息，请参阅[Microsoft Advertising文档](https://help.ads.microsoft.com/#apex/3/en/51082)。
 
 * 搜索网络中[!DNL Google Ads]和[!DNL Microsoft Advertising]营销活动的响应式搜索广告。 该广告网络动态地组合来自一组广告标题和描述的基于文本的响应式搜索广告，从而有利于共同表现良好的组合。 广告最多包含三个标题、两个描述，以及来自基本URL和可选path1和path2字段的可自定义URL。 您可以选择将广告标题和说明固定到特定职位。
 

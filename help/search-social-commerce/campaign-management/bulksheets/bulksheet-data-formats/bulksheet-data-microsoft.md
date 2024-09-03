@@ -3,7 +3,7 @@ title: ' [!DNL Microsoft Advertising] 帐户所需的批量处理工作表数据
 description: 引用 [!DNL Microsoft Advertising] 帐户批量工作表中必需的标题字段和数据字段。
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '6928'
 ht-degree: 0%
@@ -230,7 +230,7 @@ ht-degree: 0%
 
 ### 产品（购物）广告字段
 
-有关创建购物广告的更多信息，请参阅“[实施 [!DNL Microsoft Advertising] 购物营销活动](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/microsoft-shopping-campaigns.html)”。
+有关创建购物广告的更多信息，请参阅“[实施 [!DNL Microsoft Advertising] 购物营销活动](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)”。
 
 对于此广告类型，请使用[!UICONTROL Download Bulksheet]对话框中的“[!UICONTROL Creative (except RSA)]”行。
 

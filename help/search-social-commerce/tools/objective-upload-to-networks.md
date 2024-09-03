@@ -3,9 +3,9 @@ title: 允许将目标上传到广告网络
 description: 了解如何将混合项目组合的目标上传到 [!DNL Google Ads] 和 [!DNL Microsoft Advertising]。
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: f491537c2dd56716abe0ab4fa8c26b8558dca664
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -84,4 +84,4 @@ GGL_Lead不包含在计算/上传中，因为它是一个Google广告跟踪指�
 >[!MORELIKETHIS]
 >
 >* [关于管理广告商的转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
->* [将转化量度上载到 [!DNL Google Ads]](conversion-metrics-upload-to-google.md)
+>* [将搜索、社交和Commerce跟踪的转化量度上传到 [!DNL Google Ads]](conversion-metrics-upload-to-google.md)
