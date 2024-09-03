@@ -3,9 +3,9 @@ title: “[!DNL Google Ads]营销活动设置”
 description: 引用 [!DNL Google Ads] 营销活动的设置。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 760d46182a61588748cfd5031168266ba53c9dcc
+source-git-commit: c4fa1ffa1dd21b2889ea18cb6a1a7cdec477bcfe
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2503'
 ht-degree: 0%
 
 ---
@@ -347,7 +347,9 @@ ht-degree: 0%
 >[!NOTE]
 >受众信号不同于[营销活动级别和广告组级别的受众目标](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)。
 
-**[!UICONTROL Add new asset group]：**&#x200B;允许您指定另一个资源组。
+**[!UICONTROL Primary Status]：** （性能最佳的营销活动中的现有资源组的只读字段）为什么资源组会或不会以满负荷提供服务。 它考虑资产组状态以及其他信号，例如政策和质量审批。 值可能包括&#x200B;*合格，* *有限，* *不合格，* *已暂停，* *待处理，* *已移除，* *未知，*&#x200B;或未指定&#x200B;*未指定。*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
+
+**[!UICONTROL Primary Status Reason]：** （性能最佳的营销活动中现有资源组的只读字段）有关资源组主要状态的更多详细信息。 值可能包括&#x200B;*ASSET_GROUP_DISAPPROVED，* *ASSET_GROUP_LIMITED，* *ASSET_GROUP_PAUSED，* *ASSET_GROUP_REMOVED，* *ASSET_GROUP_UNDER_REVIEW，* *CAMPAIGN_ENDED，* *CAMPAIGN_PAUSED，* *CAMPING_PENDING，* {CAMPAIGN_REMOVED，**&#x200B;未知，*或未指定*。**
 
 ## [!UICONTROL Conversion Goals]
 
