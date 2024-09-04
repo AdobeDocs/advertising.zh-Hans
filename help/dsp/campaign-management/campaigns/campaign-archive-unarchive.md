@@ -3,16 +3,16 @@ title: 存档或取消存档营销活动
 description: 了解如何存档或取消存档营销活动。
 feature: DSP Campaigns
 exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: f3ff78b4c383fd9af89e95f5572e4b88b6a293a6
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
 
 # 存档或取消存档营销活动
 
-通过存档来隐藏未使用的营销活动。 您可以对已存档的营销活动执行的唯一操作是取消存档。 默认情况下，不会显示已存档的营销活动，但仍可用于报告。
+存档不用于暂停所有支出的营销活动并存档所有关联的实体。 您可以对已存档的营销活动执行的唯一操作是取消存档。 默认情况下，不会显示已存档的营销活动，但仍可用于报告。
 
 您可以随时取消存档营销活动以恢复其以前的状态。
 
