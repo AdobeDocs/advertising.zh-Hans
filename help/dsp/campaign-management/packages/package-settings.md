@@ -3,9 +3,9 @@ title: 包设置
 description: 请参阅有关可用包设置的说明。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: f7332ae243daed3fcc45b69a8d71fff74d7caaeb
+source-git-commit: c1967636a762379f1daafb52cfe57dd0122b0748
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,9 @@ ht-degree: 0%
 **[!UICONTROL Gross Budget]：** （仅具有包级别步调和动态利润管理的包）包持续时间的总预算上限。
 
 **[!UICONTROL Optimization Goal]：** （仅具有包级别步调的包）包的优化目标。 在[优化目标上查看每个优化目标的说明及使用方法](/help/dsp/optimization/optimization-goals.md)。
+
+
+**[!UICONTROL Link PG Placements for Incremental Reach Optimization]：** （包具有包级别的步调并仅具有“[!UICONTROL Always Max Bid & Maximize Reach]”和“[!UICONTROL Lowest Cost per Reach]”优化目标）使用营销活动中所有程序化保证位置的家庭访问范围数据来优化增量访问。
 
 **[!UICONTROL Custom Goal for Model Learning]：** （仅具有“[!UICONTROL Highest Return on Ad Spend]”和“[!UICONTROL Lowest Cost per Acquisition]”优化目标的包）包含用于计算CPA或ROAS量度的收入或转化事件的[自定义目标](/help/dsp/optimization/custom-goal.md)。 自定义目标可以选择除了用于包优化的CPA或ROAS量度之外，还包括要使用的其他加权上漏斗事件（例如页面访问次数和购物车添加）。 有关自定义目标的更多信息，包括为自定义目标创建的最佳实践和使用这些目标的营销活动，请参阅&quot;[自定义目标](/help/dsp/optimization/custom-goal.md)&quot;和&quot;[设置效果营销活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
 
