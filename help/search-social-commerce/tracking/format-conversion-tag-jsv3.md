@@ -3,9 +3,9 @@ title: JavaScript转化跟踪标记版本3
 description: 引用JavaScript转化跟踪标记版本3的格式。
 exl-id: 9fc6bb15-d880-4353-a8c5-260b7932ab34
 feature: Search Tracking
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 8bed8f22c112abcff67727456ef4aad3b38d0ca6
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 0%
                         , allow3rdPartyPixels: 1});
               EF.main();
         };
+        window.id5PartnerId=<Your_ID5_PartnerID>
         window.EF = window.EF || {};
         if (window.EF.main) {
             f();
@@ -54,6 +55,8 @@ ht-degree: 0%
 其中：
 
 * `<ef-userid>`是Search、Social和Commerce分配给广告商的唯一数字用户ID。
+
+* `<Your_ID5_PartnerID>`是组织的ID5合作伙伴ID，组织与[!DNL ID5]签署协议后会收到此ID。 仅当组织使用DSP并且有[自定义区段跟踪与ID5通用ID](/help/dsp/audiences/universal-ids.md)关联的用户时才包含此变量。
 
 * `<propertyname>`是要跟踪的转换。 例如，如果您跟踪名为“注册”的转化，则标记将包括参数`ev_registration=<registration>`，并且您需要传递每个交易的实际收入（如`ev_registration=1`）。 跟踪多个属性时，它们由&amp;符号(`&`)连接，如`ev_registration=<registration>&ev_sale=<sale>`（例如`ev_registration=1&ev_sale=12.99`）。 **注意：**&#x200B;属性名称不能包含特殊字符。
 

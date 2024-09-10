@@ -3,9 +3,9 @@ title: 创建和实施自定义区段
 description: 了解如何创建和实施自定义区段以跟踪向广告公开的用户或访问您网页的用户。
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 2fe54fbcd9711e714246f074ede086910b538b80
+source-git-commit: 3774da55139fd9f70162c931dd7708e8e258ad83
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,8 @@ ht-degree: 0%
                  AdCloudEvent('IMS ORG Id','rsid');
       </script>
       ```
+
+      有关完整标记格式，请参阅“[JavaScript转化跟踪标记格式3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)”和“[JavaScript转化跟踪标记格式2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)”。
 
    1. 使用任意浏览器调试工具验证是否向域`lasteventf-tm.everesttech.net`发起每个调用，并包含参数`_les_id5`及其加密的ID5 ID值。
 
