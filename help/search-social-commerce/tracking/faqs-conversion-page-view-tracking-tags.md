@@ -3,9 +3,9 @@ title: 关于Adobe Advertising转化和页面查看跟踪标记的常见问题�
 description: 请参阅Adobe Advertising转化与页面查看跟踪标记的比较。
 exl-id: 2e5ef792-e0f5-4409-bd37-87d9fab1265f
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: e9d55ba2f4b3ce8b1ac19c06fe8759a2f862c480
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 | ---- | ---- | ---- | ---- | ---- |
 | 可以在与其他JS版本相同的网页上使用 | — | — | — | 不适用 |
 | 允许在同一网页上使用具有相同广告商用户ID的多个标记 | 是 | 是 | 是 | — |
-| 允许在同一网页上使用具有不同广告商用户ID的多个标记 | 是 | 是 | 否 | 否 |
+| 允许在同一网页上使用具有不同广告商用户ID的多个标记 | 是 | 是 | — | — |
 | 供Adobe Experience Platform的Adobe Advertising扩展使用，并与使用Experience Platform生成的其他标记兼容 | 是 | 是 | — | — |
 | 允许将源自[!DNL Apple Safari]和[!DNL Mozilla Firefox]的所有转化与Adobe AdvertisingJavaScript转化映射标记一起使用时进行跟踪 | 是 | 是 | 是 | — |
 
