@@ -3,9 +3,9 @@ title: Campaign设置
 description: 请参阅可用营销活动设置的描述。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 0fbdc7e38026d71483c2de1406a4110066690130
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -117,8 +117,6 @@ ht-degree: 0%
 * **[!UICONTROL IAS Account ID (AnID)]：** （具有自己[!DNL IAS]帐户的广告商；可选）组织的[!DNL IAS]帐户ID，该ID将直接向[!DNL IAS]收取使用费。
 
 * **[!UICONTROL IAS Team ID]：** （具有自己[!DNL IAS]帐户的广告商；可选）组织[!DNL IAS]帐户的团队ID，[!DNL IAS]将直接对使用收费。<!-- verify -->
-
-**[!UICONTROL MOAT]：**（可选）启用[!DNL MOAT]可视性、欺诈、品牌安全和受众验证的测量和报告。 需支付额外费用。 **注意：** [!DNL Oracle]将于2024年9月30日之前停止其广告业务，包括[!DNL MOAT]的所有服务。
 
 #### 受众验证
 

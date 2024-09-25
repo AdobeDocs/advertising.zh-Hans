@@ -2,9 +2,9 @@
 title: 广告商帐户设置
 description: 请参阅可用广告商设置的描述。
 role: User, Admin
-source-git-commit: 55190d02a2cdf74c39968ccd91abfecc2ce5539d
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -122,11 +122,7 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 #### [!UICONTROL Pre-Bid Viewability]
 
-按[!DNL DoubleVerify]、[!DNL Oracle Advertising] ([!DNL Moat])和[!DNL Integral Ad Science]的可选预竞价可视性筛选器应用于投放位置。 为新投放位置选择广告商级别的默认值。 您可以覆盖[位置级别](/help/dsp/campaign-management/placements/placement-settings.md)的广告商级别设置。
-
->[!NOTE]
->
->[!DNL Oracle]将在2024年9月30日之前停止其广告业务，包括[!DNL MOAT]的所有服务。
+按[!DNL DoubleVerify]和[!DNL Integral Ad Science]显示的可选预竞价可视性筛选器以应用于投放位置。 为新投放位置选择广告商级别的默认值。 您可以覆盖[位置级别](/help/dsp/campaign-management/placements/placement-settings.md)的广告商级别设置。
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-viewability}
 
@@ -155,10 +151,6 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 ##### [!UICONTROL Integral Ad Science] {#ias-viewability}
 
 可选的&#x200B;**[!UICONTROL Video Viewability Targets]**&#x200B;筛选器和可选的&#x200B;**[!UICONTROL Display Viewability Targets]**&#x200B;筛选器。 可能需额外付费。
-
-##### [!UICONTROL Moat] {#moat-viewability}
-
-可选的&#x200B;**[!UICONTROL Video Viewability Standard]**&#x200B;筛选器和可选的&#x200B;**[!UICONTROL Display Viewability Standard]**&#x200B;筛选器。 可能需额外付费。
 
 #### [!UICONTROL Ads.text]
 

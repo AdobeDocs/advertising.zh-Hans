@@ -3,9 +3,9 @@ title: 投放设置
 description: 请参阅可用版面设置的说明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: cc98c8fa5d1e0309b5b2716f58e6193d029e3f96
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '3921'
+source-wordcount: '3887'
 ht-degree: 0%
 
 ---
@@ -323,7 +323,7 @@ ht-degree: 0%
 
    * *[!UICONTROL RampID]*：目标[!DNL LiveRamp] [!DNL RampIDs]用户使用其电子邮件地址登录到您的网站。<!-- Verify --> [!DNL RampIDs]适用于北美洲、澳大利亚和新西兰的用户。
 
-   * *[!UICONTROL Unified ID2.0]*：使用用户的电子邮件地址登录到您网站的目标[!DNL Unified ID2.0] (UID2) ID。<!-- Verify -->[!DNL UID2 IDs]不适用于欧洲经济区和其他一些国家/地区的用户。 查看[禁止的国家/地区列表](/help/policies/universal-id-policy.md#prohibited-countries-uid2)。
+   * *[!UICONTROL Unified ID2.0]*：已使用用户的电子邮件地址登录到您的网站的目标[!DNL Unified ID2.0] (UID2) ID。<!-- Verify -->[!DNL UID2 IDs]不适用于欧洲经济区和其他一些国家/地区的用户。 查看[禁止的国家/地区列表](/help/policies/universal-id-policy.md#prohibited-countries-uid2)。
 
   **[!UICONTROL Terms of service]**：使用通用ID的服务协议条款。 您或DSP帐户中的其他用户必须接受一次这些条款，然后才能将数据转换为新的ID类型。 对于签订托管服务合同的客户，您的Adobe客户团队将代表贵组织获得您的同意并接受相关条款。 若要阅读术语，请单击&#x200B;**>**。 要接受条款，请滚动到条款的底部并单击&#x200B;**[!UICONTROL Accept]**。
 
@@ -346,15 +346,13 @@ ht-degree: 0%
    * 要手动选择间隔，请单击单元格内部，也可以拖动以选择间隔。
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
-**[!UICONTROL Topic Targeting]：** （可选，适用于配置了[!DNL Proximic by Comscore]和[!DNL Oracle Data Cloud]区段的广告商）要作为目标包含的[!DNL Proximic by Comscore]和[!DNL Oracle Data Cloud]（以前为[!DNL Grapeshot]）中的特定区段名称或ID。 此功能可能需要额外付费。 要激活此功能并设置主题区段，请联系您的Adobe客户团队。
-
-**注意：** [!DNL Oracle]将于2024年9月30日之前停止其广告业务，包括[!DNL Oracle Data Cloud]（以前为[!DNL Grapeshot]）的所有服务。
+**[!UICONTROL Topic Targeting]：** （可选，适用于配置了[!DNL Proximic by Comscore]区段的广告商）要作为目标包含的[!DNL Proximic by Comscore]中的特定区段名称或ID。 此功能可能需要额外付费。 要激活此功能并设置主题区段，请联系您的Adobe客户团队。
 
 要指定主题定位，请执行以下操作：
 
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 指定要定位的区段：
-   1. 在左列中，选择合作伙伴（*[!UICONTROL Comscore]*&#x200B;或&#x200B;*[!UICONTROL Grapeshot]*）。
+   1. 在左列中，选择合作伙伴： (*[!UICONTROL Comscore]*)。
    1. 在输入字段中输入区段名称或区段ID。
 1. （可选）要将包含主题信息的CSV文件下载到浏览器的下载位置，请单击&#x200B;**[!UICONTROL Export]**。
 1. 单击&#x200B;**[!UICONTROL Save]**。
@@ -363,7 +361,7 @@ ht-degree: 0%
 >
 >* 主题定位限制了投放位置可以竞价的库存，因此使用主题定位仅占您总体购买的一小部分。
 >
->* 在[!DNL Proximic by Comscore]或[!DNL Oracle Data Cloud]（以前为[!DNL Grapeshot]）的区段内设置任何负向定位。
+>* 在[!DNL Proximic by Comscore]上的区段内设置任何负面定位。
 
 **[!UICONTROL Device Targeting]：**（可选）要作为目标包含和排除的特定设备信息，包括设备类型、制造商、操作系统、浏览器和连接类型。 类型因放置类型而异。 要指定设备定位，请执行以下操作：
 
@@ -431,11 +429,7 @@ ht-degree: 0%
 
 **[!UICONTROL Pre-bid viewability]：**
 
-要申请投放位置的[!DNL DoubleVerify]、[!DNL Oracle Advertising] ([!DNL Moat])和[!DNL Integral Ad Science]的预竞价可视性筛选条件。 为新投放位置选择了广告商级别的默认值，但您可以更改设置。 可能需额外付费。
-
->[!NOTE]
->
->[!DNL Oracle]将在2024年9月30日之前停止其广告业务，包括[!DNL MOAT]的所有服务。
+按[!DNL DoubleVerify]和[!DNL Integral Ad Science]筛选的要申请投放的预竞价可视性。 为新投放位置选择了广告商级别的默认值，但您可以更改设置。 可能需额外付费。
 
 **[!UICONTROL Ads.txt filtering]：**
 

@@ -3,9 +3,9 @@ title: 优化目标及其使用方式
 description: 引用可用的优化目标并查看何时使用它们。
 feature: DSP Optimization
 exl-id: ad684c99-7ae5-48eb-abfe-d48fd3d34cd0
-source-git-commit: b40f016a02d99a3753358c9911e40ac63e83fd54
+source-git-commit: 6c8782b2f4ebe3dbd06ecb1e8cdfb3670ebc7c7f
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1578'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,6 @@ ht-degree: 0%
 | [!UICONTROL Lowest vCPM (Adobe - GroupM)] | 通过包级别优化，预算分配可优先处理具有最低vCPM的投放位置。<br><br>拍卖评估优先处理vCPM。 在实现支出目标后，DSP会尝试在降低CPM与提高可见性之间取得平衡。 | 促销活动类型：品牌推广<br><br>基准：有效的CPM和最高的vCPM<br><br>广告类型：前置广告、显示<br><br><b>注意：</b>使用此目标可达到最佳的vCPM。<br><br>要保证最大CPM，请将其用作投放位置的最高出价。 |
 | [!UICONTROL Lowest vCPM (Adobe - MRC)] | 通过包级别优化，预算分配可优先处理具有最低vCPM的投放位置。<br><br>拍卖评估优先处理vCPM。 在实现支出目标后，DSP会尝试在降低CPM与提高可见性之间取得平衡。 | 促销活动类型：品牌推广<br><br>基准：有效的CPM和最高的vCPM<br><br>广告类型：前置广告、显示<br><br><b>注意：</b>使用此目标可达到最佳的vCPM。<br><br>要保证最大CPM，请将其用作投放位置的最高出价。 |
 | [!UICONTROL Lowest vCPM (IAS - MRC)] | 通过包级别优化，预算分配可优先处理具有最低vCPM的投放位置。<br><br>拍卖评估优先处理vCPM。 在实现支出目标后，DSP会尝试在降低CPM与提高可见性之间取得平衡。 | 促销活动类型：品牌推广<br><br>基准：有效的CPM和最高的vCPM<br><br>广告类型：前置广告、显示<br><br><b>注意：</b>使用此目标可达到最佳的vCPM。<br><br>要保证最大CPM，请将其用作投放位置的最高出价。<br><br>当来自IAS的第三方数据通知算法时，此设置效果最佳。 仅当您为营销活动启用了IAS集成时才使用此目标。 |
-| [!UICONTROL Lowest vCPM (Moat - GroupM)] | 通过包级别优化，预算分配可优先处理具有最低vCPM的投放位置。<br><br>拍卖评估优先处理vCPM。 在实现支出目标后，DSP会尝试在降低CPM与提高可见性之间取得平衡。 | 促销活动类型：品牌推广<br><br>基准：有效的CPM和最高的vCPM<br><br>广告类型：前置广告、显示<br><br><b>注意：</b>使用此目标可达到最佳的vCPM。<br><br>要保证最大CPM，请将其用作投放位置的最高出价。<br><br>当来自[!DNL Moat]的第三方数据通知算法时，此设置最有效。 仅当您为营销活动启用了[!DNL Moat]集成时才使用此目标。 |
-| [!UICONTROL Lowest vCPM (Moat - MRC)] | 通过包级别优化，预算分配可优先处理具有最低vCPM的投放位置。<br><br>拍卖评估优先处理vCPM。 在实现支出目标后，DSP会尝试在降低CPM与提高可见性之间取得平衡。 | 促销活动类型：品牌推广<br><br>基准：有效的CPM和最高的vCPM<br><br>广告类型：前置广告、显示<br><br><b>注意：</b>使用此目标可达到最佳的vCPM。<br><br>要保证最大CPM，请将其用作投放位置的最高出价。<br><br>当来自[!DNL Moat]的第三方数据通知算法时，此设置最有效。 仅当您为营销活动启用了[!DNL Moat]集成时才使用此目标。 |
 
 {style="table-layout:auto"}
 
