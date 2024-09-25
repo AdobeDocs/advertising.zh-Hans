@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 9fcebbc93228474a67cd13895c829e7c3bb6ca5e
+source-git-commit: 5da414f3c0aea70b50e1262fc46b4d1eeb6a03f4
 workflow-type: tm+mt
-source-wordcount: '4297'
+source-wordcount: '4296'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024年9月25日 | [!UICONTROL Campaigns]，[!UICONTROL Placements]，[!UICONTROL Optimization] | [!DNL Oracle]将在9月30日之前停止其广告业务。 DSP相应地禁用了[!DNL BlueKai]、[!DNL Oracle Data Cloud]（以前为[!DNL Grapeshot]）和[!DNL MOAT]中的所有服务，并将其从广告商设置、营销活动设置、位置设置和优化目标中删除。 但是，包含现有[!DNL BlueKai]区段的任何投放位置可能会继续用于这些区段，直到9月30日。<br><br>以下选项可用：<ul><li>标准第三方和自定义区段： [!DNL eXelate]、[!DNL Eyeota]、[!DNL LiveRamp]、[!DNL Lotame]、[!DNL Neustar]和其他可用的第三方数据合作伙伴</li><li>预测第三方区段： [!DNL Proximic by Comscore]</li><li>使用[!DNL Integral Ad Science]进行营销活动级别的品牌安全和可见性测量</li><li>带有[!DNL DoubleVerify]和[!DNL Integral Ad Science]的投放位置级别预竞价可视性</li><li>由[!DNL Proximic by Comscore]定位的投放位置级别主题</li></ul>第三方区段的CPM定价在[!UICONTROL Audience Library]中提供，而服务的CPM定价在[!UICONTROL Settings] > [!UICONTROL Fees]中提供。 | 请参阅“[可用的第三方数据提供商](/help/dsp/audiences/third-party-data-providers.md)”、“[品牌安全和媒体质量](/help/dsp/introduction/features/brand-safety-media-quality.md)”、“[促销活动设置](/help/dsp/campaign-management/campaigns/campaign-settings.md)”和“[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)”。 |
+| 2024年9月25日 | [!UICONTROL Campaigns]，[!UICONTROL Placements]，[!UICONTROL Optimization] | [!DNL Oracle]将在9月30日之前停止其广告业务。 DSP已禁用[!DNL BlueKai]、[!DNL Oracle Data Cloud]（以前为[!DNL Grapeshot]）和[!DNL MOAT]中的所有服务，并将其从广告商设置、营销活动设置、位置设置和优化目标中删除。 但是，包含现有[!DNL BlueKai]区段的任何投放位置可能会继续用于这些区段，直到9月30日。<br><br>以下选项可用：<ul><li>标准第三方和自定义区段： [!DNL eXelate]、[!DNL Eyeota]、[!DNL LiveRamp]、[!DNL Lotame]、[!DNL Neustar]和其他可用的第三方数据合作伙伴</li><li>预测第三方区段： [!DNL Proximic by Comscore]</li><li>使用[!DNL Integral Ad Science]进行营销活动级别的品牌安全和可见性测量</li><li>带有[!DNL DoubleVerify]和[!DNL Integral Ad Science]的投放位置级别预竞价可视性</li><li>由[!DNL Proximic by Comscore]定位的投放位置级别主题</li></ul>第三方区段的CPM定价在[!UICONTROL Audience Library]中提供，而服务的CPM定价在[!UICONTROL Settings] > [!UICONTROL Fees]中提供。 | 请参阅“[可用的第三方数据提供商](/help/dsp/audiences/third-party-data-providers.md)”、“[品牌安全和媒体质量](/help/dsp/introduction/features/brand-safety-media-quality.md)”、“[促销活动设置](/help/dsp/campaign-management/campaigns/campaign-settings.md)”和“[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)”。 |
 | 2024年9月4日 | [!UICONTROL Packages]和[!UICONTROL Placements] | 以下增强功能适用于具有“始终最大出价和最大范围”和“每次范围成本最低”优化目标的包和投放位置：<ul><li>现在，使用在包级别（而不是单个投放位置）聚合的独特触及数据来通过竞价优化和预算分配实现最大增量触及。</li><li>您可以使用新的包设置“链接PG投放位置以实现增量接触优化”，在促销活动中包括所有计划性保证(PG)投放位置的家庭接触范围数据，以进行增量接触优化。</li></ul> | 请参阅“[包设置](/help/dsp/campaign-management/packages/package-settings.md)”。 |
 | 2024年8月22日 | [!UICONTROL Custom Reports] | 已发布以下自定义报表功能和增强功能：<ul><li>[!UICONTROL Reports] > [!UICONTROL Custom Reports]视图已重新设计：<ul><li>列现在包括“[!UICONTROL Status]”、“[!UICONTROL Report Run]”（显示从2024年8月22日开始触发报告的日期）、“[!UICONTROL Recurrence]”、“[!UICONTROL Created By]”和“[!UICONTROL Download Report]”（使用“[!UICONTROL Download]”按钮，以便您可以立即下载过去四个月的任何报告实例）。</li><li>您可以按状态（报表是定期还是单次）、报表类型、目标类型和报表创建者来筛选列表。 默认情况下，将列出用户创建的所有未存档报表，最新的报表位于顶部。</li><li>现在，单击报表名称旁边的&#x200B;**[!UICONTROL …]**，即可使用每个报表的快速操作按钮（如[!UICONTROL Copy]和[!UICONTROL Delete]）。</li></ul><li>报表计划选项现在可用于报表级别，而不是单个目标级别。 在报表设置中，计划设置现在位于“[!UICONTROL Report run schedule]”部分的顶部附近。 如果您编辑的旧报表具有不同的各个目标的现有计划，系统将提示您设置计划，并通知您该计划将替换所有现有目标的现有计划。</li></ul> | 请参阅“[关于报告](/help/dsp/reports/report-about.md)”、“[下载自定义报告](/help/dsp/reports/report-download.md)”和“[报告设置](/help/dsp/reports/report-settings.md)”。 |
 | 2024年8月22日 | [!UICONTROL Packages] | 您现在可以以XLSX （[!DNL Microsoft Excel]电子表格）格式下载一个或多个包的设置以供审阅。 电子表格包括一个单独的选项卡，其中包含航班信息。 然后，您可以对两个选项卡中的大多数字段进行更改，并将它们一次上载回DSP。 | 请参阅“[使用电子表格](/help/dsp/campaign-management/packages/package-qa.md)查看和编辑包设置”。 |
