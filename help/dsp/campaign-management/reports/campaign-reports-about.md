@@ -3,9 +3,9 @@ title: Campaign Management视图中的性能报表类型
 description: 了解营销活动管理视图中包含的报表数据。
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 4e82caa995286635b4a181f186d6a1fabb09847d
+source-git-commit: eba8e9813f8daea58b30f7890ac2dca2498f326f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,6 @@ ht-degree: 0%
 
 #### 警报指示器
 
-*Beta功能*
-
 “[!UICONTROL Alerts]”列指示营销活动或其下的任何子实体何时出现问题。 工具栏右侧的[!UICONTROL Pulse Panel]图标还指示列出的实体是否有任何警报可用。 有关详细信息，请参阅&quot;[查看警报](campaign-alerts.md)&quot;。
 
 ## 单个营销活动报告 {#single-campaign-reporting}
@@ -61,8 +59,6 @@ ht-degree: 0%
 默认情况下，每个实体选项卡中的每一行都包含步调和投放量度，但您可以[更改列视图](campaign-data-views-manage.md#column-view-change)，甚至[创建自定义列视图](campaign-data-views-manage.md#column-view-create)，以将其应用于营销活动的所有子选项卡。 您可以进一步通过其他方式[自定义数据表](campaign-data-views-manage.md#data-tables-manage)。 每个数据表都包含一个[!UICONTROL Subtotals]行，该行显示所有可见行中每个量度的总和或平均值。
 
 #### 警报指示器
-
-*Beta功能*
 
 “[!UICONTROL Alerts]”列指示包、投放位置或广告（或包或投放位置下的任何子实体）何时出现问题。 “[!UICONTROL Alerts]”列指示营销活动或其下的任何子实体何时出现问题。 工具栏右侧的[!UICONTROL Pulse Panel]图标还指示列出的实体是否有任何警报可用。 有关详细信息，请参阅&quot;[查看警报](campaign-alerts.md)&quot;。
 

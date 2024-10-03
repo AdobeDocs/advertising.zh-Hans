@@ -2,7 +2,7 @@
 title: 在Adobe Target中为Adobe Advertising DSP广告配置A/B测试
 description: 了解如何在 [!DNL Target] 中为您的DSP广告设置A/B测试。
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7ffa5d3e9f1aae0f9d66d87c74807e491e818daa
+source-git-commit: 964246bb2c8bfa442f2d4f981c9e02de35c69ed5
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 0%
@@ -109,7 +109,7 @@ Adobe Advertising和Adobe Target使得营销人员能够更轻松地通过付费
 
       >[!NOTE]
       >
-      >您可以使用多个URL来测试浏览网站条目。 有关详细信息，请参阅“[多页面活动](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html)”。 通过在Analytics中创建[网站条目报告](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html)，可以轻松通过页面URL识别热门条目。
+      >您可以使用多个URL来测试浏览网站条目。 有关详细信息，请参阅“[多页面活动](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html)”。 通过在Analytics中创建[网站条目报告](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports)，可以轻松通过页面URL识别热门条目。
 
    1. 在&#x200B;**[!UICONTROL Goal]**&#x200B;字段中，输入测试的成功量度。
 

@@ -3,16 +3,14 @@ title: 查看警报
 description: 了解如何查看营销活动和营销活动组件的警报和建议解决方案。
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: 5b07096e5f07c60a3efcbf4213b3bc2f061f36a4
+source-git-commit: 3e227bcd39b3928898e764cace1fea91f61d58d5
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
 # 查看警报
-
-*Beta功能*
 
 DSP可帮助您识别任何促销活动或促销活动组件何时出现问题。 对于每个问题，DSP都会创建一个带有时间戳的警报，以及解决此问题的建议操作。 警报的原因包括配置问题（例如，当投放位置没有附加广告或交易设置错误时）、广告拒绝和活动运行状况问题（例如广告投放或性能不佳）。 警报在营销活动、包、投放位置、广告和交易级别可用。
 
