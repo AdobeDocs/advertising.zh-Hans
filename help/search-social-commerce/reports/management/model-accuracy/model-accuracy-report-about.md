@@ -1,18 +1,18 @@
 ---
 title: 关于模型精度报告
-description: 了解指示用于优化竞价的成本和收入模型的准确性的报表。
+description: 了解指示用于优化项目组合的成本和收入模型的准确性的报表。
 exl-id: 2f655db6-8f4f-4eae-9f18-cc04acad3c5c
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 93e8e7748c62f6938b6728e6ddcadc389b0ad85b
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
 # 关于模型精度报告
 
-模型准确性报表指示用于优化竞价的成本和收入模型的准确性。
+模型准确性报表指明用于优化项目组合投标、预算和目标的成本和收入模型的准确性（根据优化类型而定）。
 
 不准确性可能表明性能问题，因此您可能需要调整项目组合设置。 有关排除预测不准确问题的详细信息，请参阅“优化指南”的“Portfolio”部分中的“关于Portfolio的常见问题解答”，该指南可在Search、Social和Commerce中找到。<!-- verify convention for referencing Optimization Guide here -->
 
