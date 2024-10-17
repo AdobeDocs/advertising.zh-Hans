@@ -3,9 +3,9 @@ title: 专业报告的报告列
 description: 了解专业报告的可用数据列。
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: a31e380b0cdaaf426895397a3829f41145d82a6d
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '2852'
+source-wordcount: '2854'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 0%
 | [!UICONTROL Portfolio ID] | 数值项目组合ID。 |
 | [!UICONTROL Portfolio Name] | 项目组合。 |
 | [!UICONTROL Portfolio Spend Strategy] | (Portfolio报告)投资组合的支出策略：*[!UICONTROL Daily]*、*[!UICONTROL Weekly]*、*[!UICONTROL Monthly]*、*[!UICONTROL ROI]*、*[!UICONTROL Day of week]*、*[!UICONTROL Day of month]*、*[!UICONTROL CPT]*、*[!UICONTROL Marginal CPT]*、*[!UICONTROL Google Target CPA]*&#x200B;或&#x200B;*[!UICONTROL Google Target ROAS]*。 |
-| [!UICONTROL Portfolio Status] | 项目组合状态：<ul><li>*[!UICONTROL Optimize]*：优化功能正在收集相关营销活动的点击和收入数据，对数据建模以优化竞价，并优化竞价和/或营销活动预算（取决于优化类型和营销活动竞价策略）。</li><li>*[!UICONTROL Active]*：优化功能正在收集相关营销活动的点击和收入数据并正在建模数据，但并未优化竞价或营销活动预算。</li><li>*[!UICONTROL Inactive]*：优化功能正在收集相关营销活动的点击数据以便进行报告，但它既不建模数据，也不优化竞价或营销活动预算。</li></ul> |
+| [!UICONTROL Portfolio Status] | 项目组合状态：<ul><li>*[!UICONTROL Optimize]*：优化功能正在收集相关营销活动的点击和收入数据，对用于优化的数据进行建模，并优化竞价、营销活动预算和营销活动竞价策略目标（具体取决于优化类型和竞价策略）。</li><li>*[!UICONTROL Active]*：优化功能正在收集相关营销活动的点击和收入数据并正在建模数据，但并未优化竞价或营销活动预算。</li><li>*[!UICONTROL Inactive]*：优化功能正在收集相关营销活动的点击数据以便进行报告，但它既不建模数据，也不优化竞价或营销活动预算。</li></ul> |
 | [!UICONTROL Primary Status] | ([!UICONTROL Google Asset Group Performance Report])为何资产组已满或未满负荷提供服务。 它考虑资产组状态以及其他信号，例如政策和质量审批。 值可能包括&#x200B;*合格，* *有限，* *不合格，* *已暂停，* *待处理，* *已移除，* *未知，*&#x200B;或未指定&#x200B;*未指定。* |
 | [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report])有关资产组主状态的更多详细信息。 值可能包括&#x200B;*ASSET_GROUP_DISAPPROVED，* *ASSET_GROUP_LIMITED，* *ASSET_GROUP_PAUSED，* *ASSET_GROUP_REMOVED，* *ASSET_GROUP_UNDER_REVIEW，* *CAMPAIGN_ENDED，* *CAMPAIGN_PAUSED，* *CAMPING_PENDING，* {CAMPAIGN_REMOVED，**&#x200B;未知，*或未指定*。** |
 | [!UICONTROL Product ID] | ([!UICONTROL AdWords Shopping Performance Report])与广告一起显示的产品的产品ID。 <b>注意：</b>仅当产品列表包含必须在[!DNL Google Merchant Center]内添加的跟踪参数`ev_plx=<GMC product ID>`时，才会捕获ID。 |

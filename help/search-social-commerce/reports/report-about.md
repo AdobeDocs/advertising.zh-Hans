@@ -3,9 +3,9 @@ title: 关于报告
 description: 了解性能报表，包括可用的不同报表类型以及如何自动执行报表。
 exl-id: 173d1bad-e3aa-4417-a9b1-4b5d06c304d2
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Advanced Reports] | [高级报告](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)提供了有关广告配置的更多见解，可帮助您确定通过更改地理定位或网络设置可获益的位置。 它们还可以帮助您对照广告商的内部转化跟踪数据，验证促销活动以及产品组合管理视图和报告中的转化数据。 |
 | [!UICONTROL Assist Reports] | [协助报表](/help/search-social-commerce/reports/management/assist/assist-report-about.md)分析广告商所有关键词和广告的转化路径。 它们使用通过Adobe Advertising转化跟踪服务捕获的数据，并且只能为使用该服务的广告商生成。 |
 | [!UICONTROL Specialty Reports] | [专业报告](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)包含由广告网络收集的数据(而不是通过Adobe Advertising跟踪收集的数据)。 |
-| [!UICONTROL Model Accuracy Reports] | [模型准确性报表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指示用于优化竞价的成本和收入模型的准确性。 |
+| [!UICONTROL Model Accuracy Reports] | [模型准确性报表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指明用于优化项目组合竞价、促销活动预算和竞价策略目标的成本和收入模型的准确性。 |
 
 ## 报告自动化
 

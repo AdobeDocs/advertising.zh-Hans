@@ -3,7 +3,7 @@ title: 实施Search、Social和Commerce概述
 description: 学习
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
@@ -72,7 +72,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >搜索、Social和Commerce仍会跟踪和报告未分配给组合的活动数据，但不会优化针对它们的投标。
+      >搜索、Social和Commerce仍会跟踪和报告未分配到项目组合的活动数据，但不会为他们提供优化。
 
    1. 在有足够的数据可用于创建基线后，团队可以启动项目组合 — 允许Search、Social和Commerce根据优化类型优化项目组合的竞价和/或预算。
 

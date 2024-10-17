@@ -3,9 +3,9 @@ title: 实施广告网络帐户和营销活动概述
 description: 了解设置、同步和管理广告网络帐户所涉及的任务。
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Adobe可与每个广告商合作，建立其广告网络帐户和促销活动。
 
 1. (使用Adobe Analytics的广告商) [集成Adobe Advertising和Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)，以便他们能够交换数据。
 
-1. (允许搜索、社交和Commerce优化竞价和/或营销活动预算；仅[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md))[将营销活动分配给项目组合](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)。
+1. (允许Search、Social和Commerce优化竞价、促销活动预算和/或促销活动竞价策略目标；仅[支持的促销活动类型](/help/search-social-commerce/introduction/supported-inventory.md))[将促销活动分配给项目组合](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)。
 
    如果项目组合尚未启动（优化竞价和/或预算），则让优化功能收集到足够的数据，以便构建成本和收入模型，这样您就可以在启动项目组合之前建立项目组合的基准表现。
 

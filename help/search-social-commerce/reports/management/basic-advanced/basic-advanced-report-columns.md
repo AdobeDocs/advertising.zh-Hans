@@ -3,9 +3,9 @@ title: 基本报表和高级报表的报表列
 description: 了解基本报表和高级报表的可用数据列。
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '3741'
+source-wordcount: '3743'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ ht-degree: 0%
 | [!UICONTROL Portfolio Group Name] | 项目组合所属的项目组合组的名称。 |
 | [!UICONTROL Portfolio ID] | 数值项目组合ID。 |
 | [!UICONTROL Portfolio Spend Strategy] | ([!UICONTROL Portfolio Report])投资组合的支出策略： <i>[!UICONTROL Daily]</i>、<i>[!UICONTROL Weekly]</i>、<i>[!UICONTROL Monthly]</i>、<i>[!UICONTROL ROI]</i>、<i>[!UICONTROL Day of week]</i>、<i>[!UICONTROL Day of month]</i>、<i>[!UICONTROL CPT]</i>、<i>[!UICONTROL Marginal CPT]</i>、<i>[!UICONTROL Google Target CPA]</i>或<i>[!UICONTROL Google Target ROAS]</i>。 |
-| [!UICONTROL Portfolio Status] | 项目组合状态：<ul><li><i>[!UICONTROL Optimize]：</i>优化功能正在收集相关营销活动的点击和收入数据、建模数据以优化竞价，以及优化竞价和/或营销活动预算（取决于优化类型和营销活动竞价策略）。</li><li><i>[!UICONTROL Active]：</i>优化功能正在收集相关营销活动的点击和收入数据并正在建模数据，但并未优化竞价或营销活动预算。</li><li><i>[!UICONTROL Inactive]：</i>优化功能正在收集相关营销活动的点击数据以便进行报告，但它既不建模数据，也不优化竞价或营销活动预算。</li></ul> |
+| [!UICONTROL Portfolio Status] | 项目组合状态：<ul><li><i>[!UICONTROL Optimize]：</i>优化功能正在收集相关营销活动的点击和收入数据，对用于优化的数据进行建模，并优化竞价、营销活动预算和营销活动竞价策略目标（具体取决于优化类型和竞价策略）。</li><li><i>[!UICONTROL Active]：</i>优化功能正在收集相关营销活动的点击和收入数据并正在建模数据，但并未优化竞价或营销活动预算。</li><li><i>[!UICONTROL Inactive]：</i>优化功能正在收集相关营销活动的点击数据以便进行报告，但它既不建模数据，也不优化竞价或营销活动预算。</li></ul> |
 | [!UICONTROL Portfolio Target] | ([!UICONTROL Portfolio Report])投资组合支出策略的每日目标。 对于每日/每月以及星期/月的策略，将显示当天的目标。 |
 | [!UICONTROL Preferred Devices] | （[!DNL Google Ads]、[!DNL Microsoft Advertising]和[!DNL Yahoo! Japan Ads]营销活动）广告设置是授予<i>[!UICONTROL Mobile ads]</i>还是<i>[!UICONTROL All ads]</i>首选项。 |
 | [!UICONTROL Product Group ID] | 广告网络分配给产品组的数值ID。 |

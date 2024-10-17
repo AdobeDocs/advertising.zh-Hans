@@ -3,9 +3,9 @@ title: 关于广告网络帐户
 description: 了解Search、Social和Commerce中的广告网络帐户。
 exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
-source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]、[!DNL Microsoft Advertising]（以前为[!DNL Bing Ads]）、[!DNL Yahoo! Display Network]、[!DNL Yahoo! Japan Ads]、[!DNL Yandex]和现有[!DNL Baidu]帐户*
 
-搜索、Social和Commerce与受支持的广告网络帐户同步（*同步*），以便您可以跟踪、报告和可视化广告性能。 对于[!DNL Yahoo! Display Network]以外的所有广告网络，您可以选择在Search、Social和Commerce中管理您帐户的营销活动；[!DNL Yahoo! Display Network]营销活动为只读。 对于所有广告网络，您可以允许优化功能，通过将受管帐户中的广告竞价添加到项目组合来优化这些广告。
+搜索、Social和Commerce与受支持的广告网络帐户同步（*同步*），以便您可以跟踪、报告和可视化广告性能。 对于[!DNL Yahoo! Display Network]以外的所有广告网络，您可以选择在Search、Social和Commerce中管理您帐户的营销活动；[!DNL Yahoo! Display Network]营销活动为只读。 对于所有广告网络，您可以通过将促销活动添加到项目组合，利用优化功能来优化受管帐户中促销活动的出价、促销活动预算和促销活动竞价策略目标。
 
 要启用帐户同步，帐户记录必须包含帐户访问凭据并启用（活动）。
 

@@ -3,16 +3,16 @@ title: 将营销活动分配给项目组合
 description: 了解如何在项目组合中包含营销活动以进行优化。
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
 
 # 将营销活动分配给项目组合
 
-将营销活动分配给优化的产品组合可让Search、Social和Commerce优化营销活动中关键词和广告的竞价和营销活动预算。 您可以在创建项目组合时，或编辑项目组合的设置，从[!UICONTROL Campaigns]视图将营销活动分配给项目组合。
+将促销活动分配到优化的产品组合可让Search、Social和Commerce优化促销活动中关键词和广告的竞价、促销活动预算和竞价策略目标。 您可以在创建项目组合时，或编辑项目组合的设置，从[!UICONTROL Campaigns]视图将营销活动分配给项目组合。
 
 并非所有营销活动类型和广告网络都符合优化条件；请查看可包含在项目组合中的[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)列表。 此外，请查阅有关“Portfolio”的“优化指南”一章中的“按营销活动竞价策略列出的合格Portfolio类型”，以验证每个营销活动竞价策略的优化支持，该章节可从Search、Social和Commerce中获取。<!-- verify convention for referencing Optimization Guide here -->
 

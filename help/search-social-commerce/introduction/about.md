@@ -3,9 +3,9 @@ title: 关于Adobe Advertising搜索、社交和Commerce
 description: 了解搜索、社交和Commerce。
 exl-id: a28c49ba-f669-4d15-813b-b30673431d01
 feature: Search Introduction
-source-git-commit: 3c1f534ef13b040f450d21753e91a14efd20bfaf
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 用于广告优化的AI驱动技术
 
-搜索、Social和Commerce可在广告商的业务目标、指标、预算和其他业务限制范围内，跨广告网络自动并优化广告促销活动的竞价和预算管理。 它跟踪广告商每个关键词和广告的点击次数、成本和转化历史记录，以及有关每个营销渠道上竞价横向分布的信息。 使用项目组合理论方法，该优化功能将比较整个活动组合中所有可能的预算分配，以确定将产生最高可能的广告支出回报的竞价和活动预算，并相应地执行竞价和预算。 该优化功能会持续监控广告商的关键字和广告，并随着市场的变化动态调整竞价和预算。
+搜索、Social和Commerce可在广告商的业务目标、指标、预算和其他业务限制范围内，跨广告网络自动并优化广告促销活动的竞价和预算管理。 它跟踪广告商每个关键词和广告的点击次数、成本和转化历史记录，以及有关每个营销渠道上竞价横向分布的信息。 使用项目组合理论方法，该优化功能将比较整个活动组合中预算的所有可能分配，以确定将产生最高可能广告支出回报的竞价和活动预算，并相应地执行竞价、预算和竞价策略目标。 该优化功能会持续监控广告商的关键字和广告，并随着市场的变化动态调整竞价、预算和目标。
 
 提供了多种类型的优化，允许Search、Social和Commerce以及广告网络对竞价优化不同程度的控制。 根据优化类型，您可以使用按Adobe Advertising、 Adobe Analytics、[!DNL Google Ads]、[!DNL Google Analytics]或其他第一方企业信息源跟踪的转化来优化项目组合。
 

@@ -3,9 +3,9 @@ title: 管理广告
 description: 了解如何创建和管理广告。
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 以下广告类型为&#x200B;*可变*，这意味着您可以更改广告副本或图像并保留相同的广告ID：除动态搜索广告之外的所有[!DNL Google Ads]广告类型以及[!DNL Microsoft Advertising]扩展的文本广告。
->* 所有其他支持的广告均为&#x200B;*不可变*，这意味着更改广告副本或图像将删除现有广告并创建新广告。 当Search、Social和Commerce收集足够的数据来优化竞价时，新广告的性能可能在几周内不稳定。
+>* 所有其他支持的广告均为&#x200B;*不可变*，这意味着更改广告副本或图像将删除现有广告并创建新广告。 当Search、Social和Commerce收集足够的数据以进行优化时，新广告的性能可能会出现几周的波动。
 >* 您无法编辑产品广告的内容，但[!DNL Microsoft Advertising]产品广告的促销行除外。 但是，您可以暂停或删除广告。
 
 >[!TIP]

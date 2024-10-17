@@ -3,16 +3,16 @@ title: 从项目组合中删除营销活动
 description: 了解如何从项目组合中删除营销活动。
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
 
 # 从项目组合中删除营销活动
 
-从项目组合中删除营销活动时，Search、Social和Commerce无法优化该营销活动中的关键词和广告的竞价和预算。
+当您从项目组合中删除某个营销活动时，“搜索”、“社交”和“Commerce”无法优化该营销活动的出价、营销活动预算和竞价策略目标。
 
 该操作将记录在该项目组合的更改历史记录中。
 
