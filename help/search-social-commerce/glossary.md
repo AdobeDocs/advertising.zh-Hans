@@ -3,9 +3,9 @@ title: 术语表
 description: 请参阅关键术语的定义。
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 625bb9a466684993ac55d6358880b1ff3052d592
+source-git-commit: 128446e8fad1e2c973a62042933cc52bb556a71d
 workflow-type: tm+mt
-source-wordcount: '2240'
+source-wordcount: '2242'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 **最低出价：** 1)每次展示或每1000次展示要支付的最低金额。 2)对于搜索关键词，根据给定关键词的质量分数，要求的最低竞价。 为了让关键字显示广告，最低出价通常是每次点击可支付的最低金额。
 
-**模型准确性：** （拥有产品组合的广告商）用于优化产品组合出价、促销活动预算和出价策略目标的成本模型和收入模型的准确性百分比。 请参阅“成本模型”、“成本准确性”、“收入模型”和“收入准确性”。  [模型准确性报表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指示成本和收入模型的准确性。
+**模型准确性：** （拥有产品组合的广告商）用于优化产品组合出价、促销活动预算和出价策略目标的成本模型和收入模型的准确性百分比。 请参阅“成本模型”、“成本准确性”、“收入模型”和“收入准确性”。
 
 ## O-P {#o-p}
 
@@ -163,7 +163,7 @@ ht-degree: 0%
 
 **投资回报率：** (ROI)收入减去成本。
 
-**收入准确性：** （具有项目组合的广告商）项目组合的实际收入除以预测收入。 [模型准确性报表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指示用于优化的收入模型的准确性。
+**收入准确性：** （具有项目组合的广告商）项目组合的实际收入除以预测收入。 [模型准确性报表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指示用于优化的收入模型的准确性，[[!UICONTROL Model Accuracy]分析](/help/search-social-commerce/advertising-insights/insight-about.md)包含更多详细信息，以及提高模型准确性的建议。
 
 **收入模型：**（具有产品组合的广告商）搜索、社交和Commerce技术，它根据点击数据（搜索和社交）或展示数据（显示）以及广告商的转化数据，预测每个竞价单位的转化率和预计回报。
 
