@@ -3,7 +3,7 @@ title: '[!UICONTROL Channel Assist Report]'
 description: 了解[!UICONTROL Channel Assist Report]。
 exl-id: 67bce347-2776-4585-adb4-e1a4d76fbadc
 feature: Search Reports, Search Assist Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 45920c6ea9d2953c963ddf6472966b3fc3a91395
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -14,8 +14,7 @@ ht-degree: 0%
 
 *广告商具有搜索、社交和Commerce点击跟踪以及Adobe Advertising、Adobe Analytics的转化跟踪（具有[!DNL Analytics]集成），或仅在信息源中使用令牌(`ef_id`)提供*
 
-[!UICONTROL Channel Assist Report]指示各种营销渠道(搜索、Social和Commerce中的搜索或社交；或者Advertising DSP中的显示或视频)如何协助转化过程。 报表会显示导致一个或多个转化的每种事件类型模式对您的整体转化率的贡献情况。 例如，您可以看到当用户首先看到展示广告展示，然后单击搜索广告，然后
-下订单；或者，您可以查看用户与10个以上广告交互后发生的转化次数。 事件类型包括搜索点击次数、显示展示次数和点击次数、视频展示次数和点击次数，以及其他展示次数和其他点击次数。<!-- [DSP metrics may show up as "Other Path Length (<length>)" or empty; we're supposed to fill in more values for DSP at some point.] -->
+[!UICONTROL Channel Assist Report]指示各种营销渠道(搜索、Social和Commerce中的搜索或社交；或者Advertising DSP中的显示或视频)如何协助转化过程。 报表会显示导致一个或多个转化的每种事件类型模式对您的整体转化率的贡献情况。 例如，您可以看到当用户首先看到展示广告展示，然后单击搜索广告，然后下达订单时发生的转化次数；或者，您可以看到在用户与10个以上的广告进行交互后发生的转化次数。 事件类型包括搜索点击次数、显示展示次数和点击次数、视频展示次数和点击次数，以及其他展示次数和其他点击次数。<!-- [DSP metrics may show up as "Other Path Length (<length>)" or empty; we're supposed to fill in more values for DSP at some point.] -->
 
 报告结果包括转化路径中发生的每种事件类型模式的汇总数据（最多N个最早的事件类型），这些事件类型发生在广告商的[点击回顾窗口](/help/search-social-commerce/glossary.md#c-d)和[展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)内。 例如，如果选择路径大小为五(5)，则报表将包括最多包含五个最早事件的转化路径，其中每个跟踪的事件类型模式占一行（例如“搜索点击”，然后“显示展示”）。 每一行显示一个事件模式，包括路径中的第一个事件和导致转换的最后一个事件（即使最后一个事件在指定的路径大小之外也是如此）。 默认情况下，这些行按路径中的事件数以升序排列。
 

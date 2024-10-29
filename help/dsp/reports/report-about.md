@@ -3,9 +3,9 @@ title: 关于自定义报表
 description: 了解用于手动或使用预配置的报表模板创建自定义报表的选项。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 44f7f9b31afbe6b863acd389df641057b1e6dea1
+source-git-commit: 42d4c7e34766b9f75d0f278520f162671684c2db
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1407'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,26 @@ ht-degree: 0%
    * **[!UICONTROL Household Reach & Frequency]：**&#x200B;使用此报表可根据IP地址而不是设备/Cookie级别，在家庭级别查看跨广告格式的单个维度的展示次数、覆盖范围和频率。 利用这些见解优化您的媒体组合、提高性能并发现增量访问的机会。 有关详细信息，请参阅[家庭报表常见问题解答](/help/dsp/reports/faq-household-report.md)。 数据不可用于以通用ID为目标的投放位置。
 
    * **[!UICONTROL Household Conversions]：**&#x200B;使用此报表可查看基于IP地址的家庭级别（而非设备/Cookie级别）的浏览转化情况。 使用见解衡量和优化促销活动效果。 有关详细信息，请参阅[家庭报表常见问题解答](/help/dsp/reports/faq-household-report.md)。 数据不可用于以通用ID为目标的投放位置。
+
+   * **[!UICONTROL Path to Conversion Beta]：**(Beta功能)使用此报表可查看同一家庭中通过首次交互和转化之间的指定回顾期导致指定数据范围内每个选定转化量度的交互点序列。 报表可以包含一个维度：
+
+      * [!UICONTROL Channel Assist Type]：显示以下营销渠道如何协助转换过程：[!UICONTROL Audio Impression]、[!UICONTROL CTV Impression]、[!UICONTROL Display Click]、[!UICONTROL Display Impression]、[!UICONTROL Native Click]、[!UICONTROL Native Impression]、[!UICONTROL Search Click]、[!UICONTROL Video Click]或[!UICONTROL Video Impression]。
+
+      * [!UICONTROL Campaign ID]或[!UICONTROL Campaign Name]：显示哪些营销活动协助了转换过程。
+
+      * [!UICONTROL Ad ID]或[!UICONTROL Ad Name]显示哪些DSP广告产生了转化。
+
+      * [!UICONTROL Ad ID & Paid Keyword (SSC)]或[!UICONTROL Ad Name & Paid Keyword (SSC)]显示哪些Search、Social和Commerce关键字导致了转化。
+
+     报表中的列包括“[!UICONTROL Event #1]”到“[!UICONTROL Event #10]”、“[!UICONTROL Path Length]”、“% \&lt;转化量度名称1\>”、“% \&lt;转化量度名称2\>”等。
+
+     包括最近的10个交互点。 路径行按转化次数排序。
+
+   * **[!UICONTROL Path Length Beta]：**(Beta功能)使用此报表可按路径长度（交互点）查看转化次数，例如用户仅有一个广告交互、两个广告交互等后发生的转化次数。 报表可以包含多个转化量度的数据，并在首次交互和转化之间使用指定的回顾时间段。 报表中的列包括“[!UICONTROL Path Length]”、“[!UICONTROL Number of] \&lt;转化量度名称1\>”、“% \&lt;转化量度名称1\>”、“\&lt;转化量度名称2\>”、“% \&lt;转化量度名称2\>”等。
+
+     显示每个路径长度不超过10的数据；将路径长度大于10的数据分组在一起。
+
+   * **[!UICONTROL Time to Conversion Beta]：**(Beta功能)使用此报告可以查看从上次交互（广告曝光或点击）到转化的时间长度（以天为单位）所算得的转化的次数。 报表可以包含多个转化量度的数据，并在首次交互和转化之间使用指定的回顾时间段。 报表中的列包括“[!UICONTROL Time Taken (in days)]”、“[!UICONTROL Number of] \&lt;转化量度名称1\>”、“% \&lt;转化量度名称1\>”、“\&lt;转化量度名称2\>”、“% \&lt;转化量度名称2\>”等。 需要超过回顾期间的转化将分组在一行中（例如，如果报表使用的回顾期间为30天，则所有需要超过30天的转化将分组在一行中，其中的“[!UICONTROL Time Taken (in days)]”值为“30+”）。
 
 ## 跨帐户报告 {#cross-account-reporting}
 
