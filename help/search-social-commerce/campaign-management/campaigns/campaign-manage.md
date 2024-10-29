@@ -3,7 +3,7 @@ title: 管理营销活动
 description: 了解如何创建和管理广告营销活动。
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-source-git-commit: 813b2a100df7381bdcea1c44a37f86e65ee5794f
+source-git-commit: 3af579ad61dd05f0d2b1e565c5b1532cebaeebe1
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. 输入[百度](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)、[Google广告](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)、[Yahoo！ 日本广告](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)或[Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)促销活动设置。
 
-   根据广告网络，这些设置可分组为[!UICONTROL Campaign Details]、[!UICONTROL Budget Options]、[!UICONTROL Shopping Settings]、[!UICONTROL Campaign Targeting]、[!UICONTROL Conversion Goals]、[!UICONTROL Advanced Device Options]、[!UICONTROL URL Options]和[!UICONTROL (Google) DSA Options]。 若要为[!UICONTROL Negative Keywords]、[!UICONTROL Negative Websites]、[!UICONTROL Campaign Tracking]、[!UICONTROL Asset Groups]或[!UICONTROL Campaign Goals]配置其他设置（如果可用），请分别单击&#x200B;**[!UICONTROL Add Negative Keywords]**、**[!UICONTROL Add Negative Websites]**、**[!UICONTROL Set Campaign Tracking]**、**[!UICONTROL Manage Asset Groups]**&#x200B;或&#x200B;**[!UICONTROL Set Campaign Goals]**。
+   根据广告网络，这些设置可分组为[!UICONTROL Campaign Details]、[!UICONTROL Budget Options]、[!UICONTROL Shopping Settings]、[!UICONTROL Campaign Targeting]、[!UICONTROL Conversion Goals]、[!UICONTROL Advanced Device Options]、[!UICONTROL URL Options]、([!DNL Google Ads]) [!UICONTROL DSA Options]和([!DNL Google Ads]) [!UICONTROL Customer Acquisition Goals]。 若要为[!UICONTROL Negative Keywords]、[!UICONTROL Negative Websites]、[!UICONTROL Campaign Tracking]、[!UICONTROL Asset Groups]或[!UICONTROL Campaign Goals]配置其他设置（如果可用），请分别单击&#x200B;**[!UICONTROL Add Negative Keywords]**、**[!UICONTROL Add Negative Websites]**、**[!UICONTROL Set Campaign Tracking]**、**[!UICONTROL Manage Asset Groups]**&#x200B;或&#x200B;**[!UICONTROL Set Campaign Goals]**。
 
 1. 单击&#x200B;**[!UICONTROL Post]**。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    对于多个营销活动，根据广告网络，这些设置可分组为[!UICONTROL Campaign Details]、[!UICONTROL Budget Options]和[!UICONTROL URL Options]。 您只能编辑所有选定营销策划通用的字段，并且您的更改将会应用于所有选定营销策划。 对于某些字母数字字段，您可以选择将现有值更改为指定值，将现有字符串替换为指定字符串，在每个值的开头添加指定前缀，或者在每个值的结尾附加后缀。 对于某些货币字段，您可以选择将现有值更改为指定值，或者增加或减少金额指定百分比或货币金额，但有限制。
 
-   对于单个营销活动，这些设置可分组为[!UICONTROL Campaign Details]、[!UICONTROL Budget Options]、[!UICONTROL Shopping Settings]、[!UICONTROL Campaign Targeting]、[!UICONTROL Conversion Goals]、[!UICONTROL Advanced Device Options]、[!UICONTROL URL Options]和[!UICONTROL (Google) DSA Options]。 若要为[!UICONTROL Negative Keywords]、[!UICONTROL Negative Websites]、[!UICONTROL Campaign Tracking]、[!UICONTROL Asset Groups]或[!UICONTROL Campaign Goals]配置其他设置（如果可用），请分别单击&#x200B;**[!UICONTROL Add Negative Keywords]**、**[!UICONTROL Add Negative Websites]**、**[!UICONTROL Set Campaign Tracking]**、**[!UICONTROL Manage Asset Groups]**&#x200B;或&#x200B;**[!UICONTROL Set Campaign Goals]**。
+   对于单个营销活动，这些设置可分组为[!UICONTROL Campaign Details]、[!UICONTROL Budget Options]、[!UICONTROL Shopping Settings]、[!UICONTROL Campaign Targeting]、[!UICONTROL Conversion Goals]、[!UICONTROL Advanced Device Options]、[!UICONTROL URL Options]、[!UICONTROL (Google) DSA Options]和([!DNL Google Ads]) [!UICONTROL Customer Acquisition Goals]。 若要为[!UICONTROL Negative Keywords]、[!UICONTROL Negative Websites]、[!UICONTROL Campaign Tracking]、[!UICONTROL Asset Groups]或[!UICONTROL Campaign Goals]配置其他设置（如果可用），请分别单击&#x200B;**[!UICONTROL Add Negative Keywords]**、**[!UICONTROL Add Negative Websites]**、**[!UICONTROL Set Campaign Tracking]**、**[!UICONTROL Manage Asset Groups]**&#x200B;或&#x200B;**[!UICONTROL Set Campaign Goals]**。
 
 1. 保存数据：
 
