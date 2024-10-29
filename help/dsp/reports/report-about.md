@@ -3,9 +3,9 @@ title: 关于自定义报表
 description: 了解用于手动或使用预配置的报表模板创建自定义报表的选项。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 42d4c7e34766b9f75d0f278520f162671684c2db
+source-git-commit: 691c0097a81ee5066448fc411dc3de8f853e9bbd
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1466'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * 从预配置的报表模板中进行选择，并可以选择进一步自定义它们。
 
-您可以生成一次报表，或根据指定条件（例如每15天或每月第一天）安排在指定时区的03:00生成报表。 生成报告后，您可以从[!UICONTROL Reports] > [!UICONTROL Custom Reports]或链接的[报告目标](/help/dsp/reports/report-destinations/report-destination-about.md)以下类型下载报告：
+您可以生成一次报表，或根据指定条件（例如每15天或每月第一天）在指定时区的03:00安排每日、每周或每月生成报表。 生成报告后，您可以从[!UICONTROL Reports] > [!UICONTROL Custom Reports]或链接的[报告目标](/help/dsp/reports/report-destinations/report-destination-about.md)以下类型下载报告：
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## 可用报表类型
 
-* **[!UICONTROL Custom]：**&#x200B;此报表是一个空白模板，您可以使用大多数维度和量度创建自己的自定义报表。 [!UICONTROL Conversion]、[!UICONTROL Device]、[!UICONTROL Geo]和[!UICONTROL Site]报告是此模板的变体，具有针对其各自用例预先选择的列和维度。
+* **[!UICONTROL Custom]：**&#x200B;此报表是一个空白模板，您可以使用它创建自己的自定义报表，其中使用了大多数维度和量度。 [!UICONTROL Conversion]、[!UICONTROL Device]、[!UICONTROL Geo]和[!UICONTROL Site]报告是此模板的变体，具有针对其各自用例预先选择的列和维度。
 
 * 预配置的报告模板
 
@@ -49,11 +49,11 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >* 数据在2019年3月1日之后提供。
+     >* 数据在2019年3月1日后可用。
      >* 基于数据采样来估计频率。
      >* 对于某些库存，发布者不会传递设备标识符，这会阻止频率跟踪。 此报表仅包含设备标识符可用的展示次数。
 
-   * **[!UICONTROL Frequency (by App/Site)]：**&#x200B;请使用此报表了解应用程序或站点访问的独特用户数。 您还可以查看仅通过特定应用程序或站点（“不同的独特用户”）访问的独特用户数。
+   * **[!UICONTROL Frequency (by App/Site)]：**&#x200B;使用此报告了解应用程序或网站访问您广告的独特用户数。 您还可以查看仅通过特定应用程序或网站访问广告的唯一用户数（“不同的唯一用户”）。
 
      >[!NOTE]
      >
@@ -69,7 +69,7 @@ ht-degree: 0%
      >[!NOTE]
      >
      >* 此报表旨在显示不同目标区段的表现。 它使用区段成员资格数据。 当向属于两个或更多目标区段的人员或设备提供展示时，此报表会为每个区段包含一行。 因此，此报表中的总计可能与实际交付不匹配。
-     >* 区段的转化指标和自定义目标数据在2019年8月2日之后可用。 区段的所有其他数据均可在2018年6月1日后开始使用。
+     >* 区段的转化量度和自定义目标数据在2019年8月2日之后可用。 区段的所有其他数据自2018年6月1日后开始可用。
 
    * **[!UICONTROL Site]：**&#x200B;默认情况下，包括按网站列出的标准量度、媒体净支出总额和可计费净支出总额。
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Household Conversions]：**&#x200B;使用此报表可查看基于IP地址的家庭级别（而非设备/Cookie级别）的浏览转化情况。 使用见解衡量和优化促销活动效果。 有关详细信息，请参阅[家庭报表常见问题解答](/help/dsp/reports/faq-household-report.md)。 数据不可用于以通用ID为目标的投放位置。
 
-   * **[!UICONTROL Path to Conversion Beta]：**(Beta功能)使用此报表可查看同一家庭中通过首次交互和转化之间的指定回顾期导致指定数据范围内每个选定转化量度的交互点序列。 报表可以包含一个维度：
+   * **[!UICONTROL Path to Conversion Beta]：**(Beta功能)使用此报告可确定如何优化预算并根据表现最佳的广告交互序列对广告进行个性化设置。 报表会显示同一家庭中导致指定数据范围内每个选定转化量度的交互点序列。 报表在首次交互和转化之间使用指定的回顾时间段，并可包含一个维度：
 
       * [!UICONTROL Channel Assist Type]：显示以下营销渠道如何协助转换过程：[!UICONTROL Audio Impression]、[!UICONTROL CTV Impression]、[!UICONTROL Display Click]、[!UICONTROL Display Impression]、[!UICONTROL Native Click]、[!UICONTROL Native Impression]、[!UICONTROL Search Click]、[!UICONTROL Video Click]或[!UICONTROL Video Impression]。
 
@@ -91,11 +91,11 @@ ht-degree: 0%
 
      包括最近的10个交互点。 路径行按转化次数排序。
 
-   * **[!UICONTROL Path Length Beta]：**(Beta功能)使用此报表可按路径长度（交互点）查看转化次数，例如用户仅有一个广告交互、两个广告交互等后发生的转化次数。 报表可以包含多个转化量度的数据，并在首次交互和转化之间使用指定的回顾时间段。 报表中的列包括“[!UICONTROL Path Length]”、“[!UICONTROL Number of] \&lt;转化量度名称1\>”、“% \&lt;转化量度名称1\>”、“\&lt;转化量度名称2\>”、“% \&lt;转化量度名称2\>”等。
+   * **[!UICONTROL Path Length Beta]：**(Beta功能)使用此报表可根据转化所需的用户交互点数管理广告频度。 此报表按路径长度（交互点）显示转化次数，例如用户仅有一个广告交互、两个广告交互等后发生的转化次数。 报表可以包含多个转化量度的数据，并在首次交互和转化之间使用指定的回顾时间段。 报表中的列包括“[!UICONTROL Path Length]”、“[!UICONTROL Number of] \&lt;转化量度名称1\>”、“% \&lt;转化量度名称1\>”、“\&lt;转化量度名称2\>”、“% \&lt;转化量度名称2\>”等。
 
      显示每个路径长度不超过10的数据；将路径长度大于10的数据分组在一起。
 
-   * **[!UICONTROL Time to Conversion Beta]：**(Beta功能)使用此报告可以查看从上次交互（广告曝光或点击）到转化的时间长度（以天为单位）所算得的转化的次数。 报表可以包含多个转化量度的数据，并在首次交互和转化之间使用指定的回顾时间段。 报表中的列包括“[!UICONTROL Time Taken (in days)]”、“[!UICONTROL Number of] \&lt;转化量度名称1\>”、“% \&lt;转化量度名称1\>”、“\&lt;转化量度名称2\>”、“% \&lt;转化量度名称2\>”等。 需要超过回顾期间的转化将分组在一行中（例如，如果报表使用的回顾期间为30天，则所有需要超过30天的转化将分组在一行中，其中的“[!UICONTROL Time Taken (in days)]”值为“30+”）。
+   * **[!UICONTROL Time to Conversion Beta]：**(Beta功能)使用此报表来确定最佳归因回顾时间范围并确定重新定位的新机会。 此报表按自上次交互（广告曝光或点击）到转化的时间长度（以天为单位）显示转化的次数。 报表可以包含多个转化量度的数据，并在首次交互和转化之间使用指定的回顾时间段。 报表中的列包括“[!UICONTROL Time Taken (in days)]”、“[!UICONTROL Number of] \&lt;转化量度名称1\>”、“% \&lt;转化量度名称1\>”、“\&lt;转化量度名称2\>”、“% \&lt;转化量度名称2\>”等。 需要超过回顾期间的转化将分组在一行中（例如，如果报表使用的回顾期间为30天，则所有需要超过30天的转化将分组在一行中，其中的“[!UICONTROL Time Taken (in days)]”值为“30+”）。
 
 ## 跨帐户报告 {#cross-account-reporting}
 
