@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: bcaa18aa380c109775e9547bd65307798107dd85
+source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
 workflow-type: tm+mt
 source-wordcount: '4617'
 ht-degree: 0%
@@ -60,10 +60,10 @@ ht-degree: 0%
 |  |  | 现在，您可以通过下载促销活动或一个或多个版面的电子表格文件，编辑该文件以在新的“[!UICONTROL Attached Ad ID]”列中包含值，然后上传编辑后的文件，来快速将多个广告与版面关联。 使用列将广告添加到投放位置，但不会删除它们。<br><br>要下载包含广告名称和相关[!UICONTROL Ad ID]的列表，请转到[!UICONTROL Ads]视图，创建包含[!UICONTROL ID]量度的自定义视图，然后导出数据。 | 请参阅“[在电子表格中查看和编辑版面设置](/help/dsp/campaign-management/placements/placement-qa.md)”。<br><br>另请参阅“[从Campaign Management视图中导出数据](/help/dsp/campaign-management/reports/campaign-export-data.md)”。 |
 |  | [!UICONTROL Custom Reports] | 自定义报表现在具有[!UICONTROL End Date]，最多可有4个月时间。 现有报告的到期日期为2023年9月24日。<br><br>在报告过期之前，所有指定的电子邮件收件人都会在过期日期的前七天零一天收到电子邮件通知。 要延长报表保留时间，请在报表设置中更改到期日期。 | 请参阅“[编辑自定义报告](/help/dsp/reports/report-edit.md)”和“[自定义报告设置](/help/dsp/reports/report-settings.md)”。 |
 | 2023年7月19日 | 库存 | 您现在可以与Google授权购买者SSP一起为计划性保证交易运行发布者管理的广告。 通过直接将您的广告托管给发布者(而不是在DSP中)，您可以利用自定义富媒体广告格式。 自定义广告格式通常通过直接预订运行，因此，通过在DSP中选择出版商管理的广告，您还可以将直接预订预算转移到程序化生态系统。 | 请参阅“[关于程序化保证交易](/help/dsp/inventory/programmatic-guaranteed-about.md)”和“[设置程序化保证交易](/help/dsp/inventory/programmatic-guaranteed-set-up.md)”。 |
-| 2023年7月19日 | 报表 | 新[!UICONTROL Household Conversions Report]显示基于IP地址的家庭级别而非设备/Cookie级别的显示到达转换。 | 请参阅&quot;[关于报告](/help/dsp/reports/report-about.md)&quot;和&quot;[关于家庭报告的常见问题解答](/help/dsp/reports/faq-household-report.md)&quot;。 |
+| 2023年7月19日 | 报表 | 新[!UICONTROL Household Conversions Report]显示基于IP地址的家庭级别而非设备/Cookie级别的显示到达转换。 | 请参阅&quot;[关于报告](/help/dsp/reports/report-about.md)&quot;和&quot;[关于家庭报告的常见问题解答](/help/dsp/reports/faq-reports.md)&quot;。 |
 | 2023年5月29日 | [!UICONTROL Campaigns] | 您现在可以暂停或激活营销活动、包和广告。 您已经可以暂停并激活投放位置。 | 请参阅“[暂停或激活营销活动](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md)”、“[暂停或激活包](/help/dsp/campaign-management/packages/package-pause-activate.md)”和“[暂停或激活广告](/help/dsp/campaign-management/ads/ad-pause-activate.md)”。 |
 | 2023年5月24日 | [!UICONTROL Campaigns] | 通用视频投放位置和广告现已正式推出。 | 请参阅“[关于通用视频的常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)”、“[通用视频广告设置](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)”和“[创建广告](/help/dsp/campaign-management/ads/ad-create.md)”。 |
-| 2023年3月 | [!UICONTROL Reports] | 新[!UICONTROL Household Report]基于IP地址而不是设备/Cookie级别显示家庭级别不同维度的展示次数、访问范围和频率。 该报告包含九个维度：[!UICONTROL Campaign]、[!UICONTROL Package]、[!UICONTROL Placement]、[!UICONTROL Site/Apps]、[!UICONTROL Media Type]、[!UICONTROL Device]、[!UICONTROL Audience]、[!UICONTROL Creative Length]和用户创建的[!UICONTROL Tags]。 | 请参阅“[关于报告](/help/dsp/reports/report-about.md)”、“[报告设置](/help/dsp/reports/report-settings.md)”和“[有关家庭报告的常见问题解答](/help/dsp/reports/faq-household-report.md)”。 |
+| 2023年3月 | [!UICONTROL Reports] | 新[!UICONTROL Household Report]基于IP地址而不是设备/Cookie级别显示家庭级别不同维度的展示次数、访问范围和频率。 该报告包含九个维度：[!UICONTROL Campaign]、[!UICONTROL Package]、[!UICONTROL Placement]、[!UICONTROL Site/Apps]、[!UICONTROL Media Type]、[!UICONTROL Device]、[!UICONTROL Audience]、[!UICONTROL Creative Length]和用户创建的[!UICONTROL Tags]。 | 请参阅“[关于报告](/help/dsp/reports/report-about.md)”、“[报告设置](/help/dsp/reports/report-settings.md)”和“[有关家庭报告的常见问题解答](/help/dsp/reports/faq-reports.md)”。 |
 | 2023年3月20日 | [!UICONTROL Campaigns] | 详细了解通用视频投放和广告，它们是一项公开的测试版功能。 | 查看[有关通用视频](/help/dsp/campaign-management/faq-universal-video.md)的常见问题解答。 |
 | 2023年2月15日 | [!UICONTROL Campaigns] | 用于以图表形式查看更改日志和向任何条目添加注释的选项已退出测试版。 | 请参阅“[查看营销活动的更改日志](/help/dsp/campaign-management/campaigns/campaign-change-log.md)”，请参阅“[查看包的更改日志](/help/dsp/campaign-management/packages/package-change-log.md)”，并请参阅“[查看投放位置的更改日志](/help/dsp/campaign-management/placements/placement-change-log.md)”。 |
 | 2023年2月3日 | [!UICONTROL Campaigns] | (Beta功能)您现在能够以图表形式查看更改日志，并且可以向任何条目添加注释。 | 请参阅“[查看营销活动的更改日志](/help/dsp/campaign-management/campaigns/campaign-change-log.md)”，请参阅“[查看包的更改日志](/help/dsp/campaign-management/packages/package-change-log.md)”，并请参阅“[查看投放位置的更改日志](/help/dsp/campaign-management/placements/placement-change-log.md)”。 |
