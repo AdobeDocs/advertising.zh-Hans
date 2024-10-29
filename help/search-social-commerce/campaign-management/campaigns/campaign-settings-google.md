@@ -3,9 +3,9 @@ title: “[!DNL Google Ads]营销活动设置”
 description: 引用 [!DNL Google Ads] 营销活动的设置。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: c4fa1ffa1dd21b2889ea18cb6a1a7cdec477bcfe
+source-git-commit: ae98579b6b2edb54de5753e84891987a88184515
 workflow-type: tm+mt
-source-wordcount: '2503'
+source-wordcount: '2576'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,7 @@ ht-degree: 0%
 
 ## \[营销活动创建屏幕\]
 
-**[!UICONTROL Campaign Type]：**（仅在营销活动创建期间可用）广告放置位置和广告类型
-营销策划可能包含：
+**[!UICONTROL Campaign Type]：** （仅在营销活动创建期间可用）广告的放置位置以及营销活动可能包含的广告类型：
 
 * *[!UICONTROL Search Network Only]：*&#x200B;显示搜索网络上的广告，包括[!DNL Google]个搜索结果和（可选）搜索合作伙伴网站。 您必须为每个广告组指定关键字。
 
@@ -196,6 +195,18 @@ ht-degree: 0%
 
 {{$include /help/_includes/dsa-language.md}}
 
+## [!UICONTROL Customer Acquisition Goals]
+
+**[!UICONTROL Customer Acquisition]：** （仅限性能最高和搜索促销活动）如何为新客户和现有客户分配竞价：
+
+* *[!UICONTROL Bid equally for new and existing customers]*
+
+* *[!UICONTROL Bid higher for new customers than for existing customers]*
+
+  **注意：**&#x200B;要使用此设置，您必须首先为[!DNL Google Ads]帐户或（如果适用）经理帐户激活新的客户获取目标。 目标在转化设置中定义符合条件的现有客户列表和新客户的附加转化值。 请参阅[!DNL Google Ads]帮助“[激活新的客户获取目标](https://support.google.com/google-ads/answer/14007601)”中的步骤1-2。
+
+* *[!UICONTROL Only bid for new customers]*
+
 ## [!UICONTROL Negative Keywords]
 
 <!-- **[!UICONTROL Negative Keywords]:** -->
@@ -368,4 +379,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [管理营销活动](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-
