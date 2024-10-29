@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: 43e72ae59ef7b91df6d5a490df2d15b79bda71ce
 workflow-type: tm+mt
-source-wordcount: '4617'
+source-wordcount: '4622'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024年10月29日 | [!UICONTROL Custom Reports] | (Beta功能)三个新报表提供了有关哪些广告交互路径会带来转化的更深入见解：<ul><li>[!UICONTROL Path to Conversion Beta]：显示同一家庭中导致指定数据范围内每个选定转化量度的交互点序列。</li><li> [!UICONTROL Path Length Beta]：按路径长度（交互点）显示转化次数，例如用户仅有一个广告交互、两个广告交互等后发生的转化次数。</li><li>[!UICONTROL Time to Conversion Beta]按自上次交互（广告曝光或点击）到转换的时间长度（以天为单位）显示转换次数。</li></ul> | 请参阅&quot;[关于自定义报告](/help/dsp/reports/report-about.md)&quot;。 |
+| 2024年10月29日 | [!UICONTROL Custom Reports] | (Beta功能)三个新报表提供了有关哪些广告交互路径会带来转化的更深入见解：<ul><li>[!UICONTROL Path to Conversion Beta]：显示同一家庭中导致指定数据范围内每个选定转化量度的交互点序列。</li><li> [!UICONTROL Path Length Beta]：按路径长度（交互点）显示转化次数，例如用户仅有一个广告交互、两个广告交互等后发生的转化次数。</li><li>[!UICONTROL Time to Conversion Beta]按自上次交互（广告曝光或点击）到转换的时间长度（以天为单位）显示转换次数。</li></ul> | 请参阅“[关于自定义报告](/help/dsp/reports/report-about.md)”和“[关于自定义报告的常见问题解答](/help/dsp/reports/faq-reports.md)”。 |
 | | [!UICONTROL Packages]，[!UICONTROL Placements]，[!UICONTROL Ads] | 您现在可以在一个电子表格中查看营销活动中的所有资源包、投放位置和广告的设置。 您可以下载包含选定营销活动组件类型（可以包括“包”、“投放”、“投放广告计划”、“投放竞价乘数”、“广告”和“像素”）的现有设置的QA工作表，以进行审核。 要添加或编辑任何设置，请下载空的批量处理工作表模板，将促销活动组件数据从QA工作表输入或粘贴到批量处理工作表模板中，然后上载已填充的批量处理工作表。<br><br>此外，用于下载特定包和投放位置的设置的命令名称现在为“[!UICONTROL Download Bulksheet]”。 您可以从右上角的[!UICONTROL ...] > &quot;[!UICONTROL Upload Bulksheet]&quot;选项上载特定包和投放位置的设置。 | 请参阅“[使用批量处理工作表查看和编辑Campaign组件设置](/help/dsp/campaign-management/campaign-components-review-edit.md)”。<br><br>另请参阅“[使用批量处理工作表查看和编辑包设置](/help/dsp/campaign-management/packages/package-qa.md)”和“[使用批量处理工作表查看和编辑置入设置](/help/dsp/campaign-management/placements/placement-qa.md)”。 |
 | | [!UICONTROL Placements]，专用清单，[!UICONTROL Non Bid Reasons] | 您现在可以按投放位置定向的特定非公开交易筛选投放位置的非竞价原因列表。 此功能不适用于定向所有专用清单的投放位置。<br><br>此外，在[!UICONTROL Inventory] > [!UICONTROL Deals]中列出的私人交易的[!UICONTROL Placements and Ads]视图现在每行都包含“[!UICONTROL Non bid reasons]”选项。 单击选项以打开投放位置诊断报告，显示按私人交易过滤的“非出价”选项卡。 | 请参阅“[查看投放位置诊断报告](/help/dsp/campaign-management/reports/placement-diagnostics.md)”和“[列出私人交易的投放位置和广告](/help/dsp/inventory/private-deal-view-placements.md)”。 |
 | 2024年9月25日 | [!UICONTROL Campaigns]，[!UICONTROL Placements]，[!UICONTROL Optimization] | [!DNL Oracle]将在9月30日之前停止其广告业务。 DSP已禁用[!DNL BlueKai]、[!DNL Oracle Data Cloud]（以前为[!DNL Grapeshot]）和[!DNL MOAT]中的所有服务，并将其从广告商设置、营销活动设置、位置设置和优化目标中删除。 但是，包含现有[!DNL BlueKai]区段的任何投放位置可能会继续用于这些区段，直到9月30日。<br><br>以下选项可用：<ul><li>标准第三方和自定义区段： [!DNL eXelate]、[!DNL Eyeota]、[!DNL LiveRamp]、[!DNL Lotame]、[!DNL Neustar]和其他可用的第三方数据合作伙伴</li><li>预测第三方区段： [!DNL Proximic by Comscore]</li><li>使用[!DNL Integral Ad Science]进行营销活动级别的品牌安全和可见性测量</li><li>带有[!DNL DoubleVerify]和[!DNL Integral Ad Science]的投放位置级别预竞价可视性</li><li>由[!DNL Proximic by Comscore]定位的投放位置级别主题</li></ul>第三方区段的CPM定价在[!UICONTROL Audience Library]中提供，而服务的CPM定价在[!UICONTROL Settings] > [!UICONTROL Fees]中提供。 | 请参阅“[可用的第三方数据提供商](/help/dsp/audiences/third-party-data-providers.md)”、“[品牌安全和媒体质量](/help/dsp/introduction/features/brand-safety-media-quality.md)”、“[促销活动设置](/help/dsp/campaign-management/campaigns/campaign-settings.md)”和“[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)”。 |
