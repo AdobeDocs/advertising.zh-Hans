@@ -3,9 +3,9 @@ title: 自定义报表设置
 description: 请参阅自定义报表设置的描述。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: be229b54dcdaa3386c7c3c658dd8f2434b51e5e8
+source-git-commit: 0e91fa93e8de53edda81dd5321eeca4682ad0c13
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 \* *[!UICONTROL Account]*&#x200B;仅在您的组织配置了[跨帐户报告](report-about.md#cross-account-reporting)时才可用于以下报告类型： [!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)]和[!UICONTROL Conversion]。 请联系您的Adobe客户团队，以获取有关跨帐户报表的更多信息。
 
-**[!UICONTROL Include data from Adobe Advertising SSC]：** （仅转化路径、路径长度和转化时间报表）包含来自Advertising Search、Social和Commerce的搜索广告点击数据。 选择此选项时，请选择要包含的Search、Social和Commerce营销活动。
+**[!UICONTROL Include data from Adobe Advertising SSC]：** （仅转化路径、路径长度和转化时间报表）包含指定Advertising Search、Social和Commerce促销活动中的搜索广告点击数据。 选择此选项时，使用&#x200B;**筛选依据[!UICONTROL SSC Account]**&#x200B;筛选器选择“搜索”、“社交”和“Commerce”帐户。 然后使用&#x200B;**筛选依据[!UICONTROL SSC Campaign]**&#x200B;筛选器选择营销活动。 要选择多个营销活动，请单击第二个和后续营销活动的&#x200B;**[!UICONTROL Add Criteria]**。
 
 ## [!UICONTROL Build Your Report]节
 
