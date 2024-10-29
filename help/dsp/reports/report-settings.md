@@ -3,9 +3,9 @@ title: 自定义报表设置
 description: 请参阅自定义报表设置的描述。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 4fb843e66edddd4585d4a9b142eb9a7750152d27
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]：**&#x200B;报告名称。 最大长度为180个字符。
 
-**[!UICONTROL Report Type]：**&#x200B;报告的类型： *[!UICONTROL Custom]* （包括大多数可用选项）、*[!UICONTROL Billing]*、*[!UICONTROL Conversion]*、*[!UICONTROL Device]*、*[!UICONTROL Frequency (by Impression)]*、*[!UICONTROL Frequency (by App/Site)]*、*[!UICONTROL Geo]*、*[!UICONTROL Margin]*、*[!UICONTROL Media Performance]*、*[!UICONTROL Segment]*、*[!UICONTROL Site]*、*[!UICONTROL Household Reach & Frequency]*&#x200B;或&#x200B;*[!UICONTROL Household Conversions]*。
+**[!UICONTROL Report Type]：**&#x200B;报告的类型： *[!UICONTROL Custom]* （包括大多数可用选项）、*[!UICONTROL Billing]*、*[!UICONTROL Conversion]*、*[!UICONTROL Device]*、*[!UICONTROL Frequency (by Impression)]*、*[!UICONTROL Frequency (by App/Site)]*、*[!UICONTROL Geo]*、*[!UICONTROL Margin]*、*[!UICONTROL Media Performance]*、*[!UICONTROL Segment]*、*[!UICONTROL Site]*、*[!UICONTROL Household Reach & Frequency]*、*[!UICONTROL Household Conversions]*、*[!UICONTROL Path to Conversions Beta]*、*[!UICONTROL Path Length Beta]*&#x200B;或&#x200B;*[!UICONTROL Time to Conversion Beta]*。
 
 ## [!UICONTROL Report Range]节
 
@@ -50,9 +50,9 @@ ht-degree: 0%
 
    * **\[计划\]：**&#x200B;运行报告的频率：
 
-      * *每日*&#x200B;运行报告，每N天运行一次。 例如，要每两周（14天）运行一次报表，请选择此选项并输入&#x200B;**14**。
+      * *每天*，每N天运行一次报告。 例如，要每两周（14天）运行一次报告，请选择此选项并输入&#x200B;**14**。
 
-      * *每周*，在每周的指定日期运行报告。 例如，要每周一和周五运行一次报表，请选择此选项，然后选中&#x200B;**周一**&#x200B;和&#x200B;**周五**&#x200B;旁边的复选框。
+      * *每周*&#x200B;在每周的指定日期运行报告。 例如，要在每个星期一和星期五运行报告，请选中此选项并选中&#x200B;**星期一**&#x200B;和&#x200B;**星期五**&#x200B;旁边的复选框。
 
       * *每月*&#x200B;运行该月特定数字日（从1到30）的报表。 例如，在每月的第一天运行报告，选择此选项并输入&#x200B;**1**。
 
@@ -60,27 +60,30 @@ ht-degree: 0%
 
    * **截止日期**：报告到期日期，最长可为4个日历月之后。 在报告过期之前，所有指定的电子邮件目标都会在过期日期的前七天零一天收到电子邮件警报。 若要保留较长的报表，请更改此日期。
 
-## [!UICONTROL Apply Filters]节
+## [!UICONTROL Apply Filters]部分
 
-**[!UICONTROL Add Filters]：**（可选）用于筛选数据的其他维度，无论这些维度是否作为列包含在报表中。 可用过滤器因报告类型而异，可能包括：*[!UICONTROL Account]*\*、*[!UICONTROL Ad Type]*、*[!UICONTROL Ads]*、*[!UICONTROL Advertiser]*、*[!UICONTROL Campaign]*、*[!UICONTROL Country]*、* *[!UICONTROL Package]*、*[!UICONTROL Placement]*、*[!UICONTROL Video]*&#x200B;和&#x200B;*[!UICONTROL Video Duration]*。
-
-\* *[!UICONTROL Account]*&#x200B;仅在您的组织配置了[跨帐户报告](report-about.md#cross-account-reporting)时才可用于以下报告类型： [!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)]和[!UICONTROL Conversion]。 请联系您的Adobe客户团队，以获取有关跨帐户报表的更多信息。
+**[!UICONTROL Filter by]：**（可选）用于筛选数据的其他维度，无论这些维度是否作为列包含在报表中。 可用过滤器因报告类型而异，可能包括：*[!UICONTROL Account]*\*、*[!UICONTROL Ad Type]*、*[!UICONTROL Ads]*、*[!UICONTROL Advertiser]*、*[!UICONTROL Campaign]*、*[!UICONTROL Country]*、* *[!UICONTROL Package]*、*[!UICONTROL Placement]*、*[!UICONTROL Video]*&#x200B;和&#x200B;*[!UICONTROL Video Duration]*。
 
 要应用一个或多个筛选器，请执行以下操作：
 
 * 选择一个维度，选择运算符（*等于*&#x200B;或&#x200B;*不等于*），然后选择适用的值。 例如，要仅返回前置广告的数据，请指定“[!UICONTROL Ad Type equals Preroll]”。
 * （可选）向过滤器添加其他标准。
-* （可选）添加其他过滤器，每个过滤器具有一个或多个标准。
+* （可选）添加其他过滤器，每个过滤器都有一个或多个条件。
 
-## [!UICONTROL Build Your Report]节
+\* *[!UICONTROL Account]*&#x200B;仅在您的组织配置了[跨帐户报告](report-about.md#cross-account-reporting)时，才可用于以下报告类型： [!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)]和[!UICONTROL Conversion]。 请联系您的Adobe客户团队，以获取有关跨帐户报告的更多信息。
 
-**[!UICONTROL Select To Add As Report Headers]：**&#x200B;要包含在报告中的数据列或标头。 要添加列，请展开类别并选中列名旁边的复选框。 可用列因报告而异，并且所有不可用量度都已禁用。 可用的数据类别包括：
+**[!UICONTROL Include data from Adobe Advertising SSC]：**（仅转换路径、路径长度和转换时间报告）包括有关从广告搜索、社交和Commerce单击搜索广告的数据。
+
+## [!UICONTROL Build Your Report]部分
+
+**[!UICONTROL Select To Add As Report Headers]：**&#x200B;要包含在报表中的数据列或标题。 要添加列，请展开类别并选中列名旁边的复选框。 可用列因报告而异，并且所有不可用量度都已禁用。 可用的数据类别可能包括：
 
 * [!UICONTROL Dimensions]
 
   >[!NOTE]
   >
-  > [!UICONTROL Household Reach & Frequency]报表只能包含一个维度。
+  > [!UICONTROL Household Reach & Frequency]和[!UICONTROL Path to Conversion]报表只能包含一个维度。
+  > [!UICONTROL Path Length]和[!UICONTROL Time to Conversion]报表不包含维度。
 
 * [!UICONTROL Metrics]
 
@@ -90,7 +93,7 @@ ht-degree: 0%
 
 * [!UICONTROL Conversion Metrics] （按广告商排序）
 
-* [!UICONTROL Custom Goals] （按广告商排序）
+* [!UICONTROL Custom Goals]（按广告商排序）
 
 有关所有选项的说明，请参阅[可用报表列](report-columns.md)。
 
@@ -100,15 +103,15 @@ ht-degree: 0%
 
 **[!UICONTROL Headers]：**&#x200B;是&#x200B;*[!UICONTROL Include]*&#x200B;还是&#x200B;*[!UICONTROL Do Not Include]*&#x200B;列标题。
 
-## [!UICONTROL Multi-Touch Conversion Options]节
+## [!UICONTROL Multi-Touch Conversion Options]部分
 
 **[!UICONTROL Attribution Rule Settings]：**&#x200B;设置因报告类型而异：
 
-* **\[归因类型\]：** ([!UICONTROL Household Conversion]个包含[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]列的报告；仅包含Adobe Advertising转化跟踪的广告商)在报告中，如何在一系列导致转化的事件中归因转化数据：
+* **\[属性类型\]：** ([!UICONTROL Household Conversion]个包含[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]列的报告；仅具有Adobe Advertising转换跟踪的广告商)在报告中，如何在一系列导致转换的事件中属性化转换数据：
 
-   * *[!UICONTROL Unique]：* （默认值）计算维度值（如设备或投放位置）在转化路径上的次数。
+   * *[!UICONTROL Unique]：*（默认值）计算维度值（如设备或放置）在要转换的路径上的次数。
 
-   * *[!UICONTROL Multi-Touch Attribution (MTA)]：*&#x200B;根据维度值（如设备或投放位置）在转化路径上的出现频率分配每次转化的点数。 例如，如果在转化前总共有10次展示，其中8次在CTV上，2次在移动设备上，则80%的点数(0.8)将授予CTV屏幕，0.2次授予Mobile。
+   * *[!UICONTROL Multi-Touch Attribution (MTA)]：*&#x200B;根据要转换的路径上维度值（如设备或位置）出现的频率分发每个转换的积分。 例如，如果在转换前总共有10次印象，其中8次在CTV上，2次在移动上，则退款的80% (0.8)将授予CTV屏幕，0.2次授予Mobile。
 
 * **\[规则类型\]：** (包含[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]列的所有[!UICONTROL Custom]、[!UICONTROL Conversion]、[!UICONTROL Device]、[!UICONTROL Geo]、[!UICONTROL Segment]和[!UICONTROL Site]报表；仅包含Adobe Advertising转化跟踪的广告商)在报表中，如何在一系列导致转化的事件中归因转化数据。 如果要比较规则之间的差异，可以选择多个规则。
 
@@ -132,9 +135,9 @@ ht-degree: 0%
 
    * *[!UICONTROL Social Only]：*&#x200B;已过时
 
-  <!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
+另请参阅&quot;[如何计算Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md)的归因规则。&quot;
 
-* **回顾：** ([!UICONTROL Household Conversion]个包含[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]列的报表；仅包含Adobe Advertising转化跟踪的广告商)在报表中，转化事件可归因于展示事件后的最大天数。 默认值为&#x200B;*[!UICONTROL 30 days]*，最大值为92天。
+* **回顾：** ([!UICONTROL Household Conversion]个报告具有[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]列，而[!UICONTROL Path to Conversion]、[!UICONTROL Path Length]或[!UICONTROL Time to Conversion]个报告仅具有[!UICONTROL Conversion Metrics]列；广告商仅具有Adobe Advertising转化跟踪)在报表内，转化事件可归因于展示事件<!-- VERIFY THIS:  or click event for [!UICONTROL Path to Conversion], [!UICONTROL Path Length], or [!UICONTROL Time to Conversion] reports -->后的最大天数。 默认值为&#x200B;*[!UICONTROL 30 days]*，最大值为92天。
 
 **[!UICONTROL Paths as Columns]：** （所有[!UICONTROL Custom]、[!UICONTROL Conversion]、[!UICONTROL Device]、[!UICONTROL Geo]、[!UICONTROL Segment]和[!UICONTROL Site]报告具有[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]列）当同一设备上发生先前事件时要报告的转化类型。 您最多可以包含三种类型。 对于每个选定的类型，每个转化量度都包含一个单独的列，该列将附加指定的后缀（[!UICONTROL (tl)]、[!UICONTROL (ct)]或[!UICONTROL (vt)]）：
 
@@ -150,13 +153,13 @@ ht-degree: 0%
 
 * *[!UICONTROL Event Timestamp]：*&#x200B;转化是根据引起转化的展示或点击的日期报告的，具体日期由指定的[!UICONTROL Attribution Rule Settings]确定。
 
-## [!UICONTROL Add Report Destinations]节
+## [!UICONTROL Add Report Destinations]部分
 
-**[!UICONTROL Destination Type]：**&#x200B;完成报告和错误通知的传送位置。 保存报表后，就无法更改目标类型。
+**[!UICONTROL Destination Type]：**&#x200B;完成报告和错误通知的传递位置。 一旦保存了报告，就不能再更改目标类型。
 
 >[!NOTE]
 >
->您始终可以从[!UICONTROL Reports] > [!UICONTROL Custom Reports]视图下载已完成的报表。
+>您始终可以从[!UICONTROL Reports] > [!UICONTROL Custom Reports]视图下载已完成的报告。
 
 * *[!UICONTROL None]：*&#x200B;不提交任何报告或通知。
 

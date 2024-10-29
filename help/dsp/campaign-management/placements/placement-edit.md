@@ -3,7 +3,7 @@ title: 编辑版面
 description: 了解如何编辑投放位置。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您还可以以XLSX（Excel电子表格）格式下载一个或多个投放位置，或营销策划中所有投放位置的设置；对键字段的有限子集进行更改；一次将更改全部上传回DSP。 请参阅“[使用电子表格](placement-qa.md)查看和编辑版面设置”。
+>您还可以以XLSX（Excel电子表格）格式下载一个或多个投放位置，或营销策划中所有投放位置的设置；对键字段的有限子集进行更改；一次将更改全部上传回DSP。 请参阅“[使用批量处理工作表查看和编辑版面设置](placement-qa.md)”。
 
 ## 快速编辑键位置设置 {#placement-quick-edit}
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于版面管理](placement-about.md)
->* [使用电子表格查看和编辑版面设置](placement-qa.md)
+>* [使用批量工作表查看和编辑版面设置](placement-qa.md)
 >* [创建版面](placement-create.md)
 >* [复制投放位置](placement-duplicate.md)
 >* [管理投放位置的竞价乘数](placement-manage-bid-multipliers.md)

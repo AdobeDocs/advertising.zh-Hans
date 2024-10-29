@@ -4,7 +4,7 @@ user-guide-title: 广告搜索、社交和商业指南
 user-guide-description: 本指南阐述管理、跟踪和报告搜索、社交和商业广告营销活动所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: 广告搜索、社交和商业指南
 index: true
-source-git-commit: 2729e7575f9950eb59b181d542dea7cb3b34cfa7
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 2%
@@ -61,7 +61,7 @@ ht-degree: 2%
       + [使用日历指定日期](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)
       + [显示和隐藏趋势图](/help/search-social-commerce/common-tasks/navigation-editing-selection/trend-chard-show-hide.md)
       + [刷新管理视图中的数据](/help/search-social-commerce/common-tasks/navigation-editing-selection/refresh.md)
-      + 正在下载管理视图{#download-data-views}中的数据
+      + 下载管理视图{#download-data-views}中的数据
          + [从营销活动管理视图下载数据](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
          + [从[!UICONTROL Downloads]菜单删除性能数据报表或批量处理工作表文件](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 + 跟踪{#tracking}

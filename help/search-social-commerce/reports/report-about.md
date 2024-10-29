@@ -3,7 +3,7 @@ title: 关于报告
 description: 了解性能报表，包括可用的不同报表类型以及如何自动执行报表。
 exl-id: 173d1bad-e3aa-4417-a9b1-4b5d06c304d2
 feature: Search Reports
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 0%

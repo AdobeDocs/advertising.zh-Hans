@@ -3,9 +3,9 @@ title: 查看放置诊断报告
 description: 了解如何诊断投放位置设置和步调的问题。
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 1f8fd9d267aba0858b18c0b5a9b4a693e2b62468
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,8 @@ ht-degree: 0%
    * 要了解DSP为什么没有对投放位置出价：
 
       1. 单击右上角的&#x200B;**[!UICONTROL Non Bids]**。
+
+      1. （可选）要按特定的私人交易目标过滤投放位置，请选择该交易。<!-- Admin users only: Optionally filter the deal by one or more regions ([!UICONTROL US-EAST], [!UICONTROL US-WEST]) [!UICONTROL EU-WEST], [!UICONTROL HKG]) by selecting the regions. -->
 
       1. （可选）要更改日期范围，请单击日期字段，然后选择不同的日期或日期范围。
 
