@@ -3,9 +3,9 @@ title: 列出私人交易的投放位置和广告
 description: 了解如何打开与私人交易关联的投放位置和广告列表。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8003c053-eaa1-420d-853f-3c25643f4ef8
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: a820c5b8162953c34978e79e1ce9efe51f4063d4
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 
 1. （可选）执行以下任一操作：
 
+   * 要查看投放位置无法对私募交易竞价的原因，请将光标悬停在投放位置行上，然后单击&#x200B;**[!UICONTROL Non bid reasons]**。
+
    * 要编辑版面的设置，请将光标悬停在版面行上，然后单击&#x200B;**[!UICONTROL Edit]**。 [编辑版面设置](/help/dsp/campaign-management/placements/placement-settings.md)，然后单击&#x200B;**[!UICONTROL Update placement]**。
 
    * 要从投放位置的库存目标中删除交易，请将光标悬停在投放位置行上，然后单击&#x200B;**[!UICONTROL More]** > **[!UICONTROL Detach Placement]**。 在确认消息中，单击&#x200B;**[!UICONTROL Yes]**。
@@ -35,3 +37,4 @@ ht-degree: 0%
 >* [关于专用清单](private-inventory-about.md)
 >* [为交易ID指定投放位置和广告](deal-id-attach-placements.md)
 >* [查看交易的详细报告](deal-view-report.md)
+>* [查看位置诊断报告](/help/dsp/campaign-management/reports/placement-diagnostics.md)
