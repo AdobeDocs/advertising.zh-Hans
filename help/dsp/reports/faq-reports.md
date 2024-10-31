@@ -2,9 +2,9 @@
 title: 关于自定义报表的常见问题解答
 description: 详细了解自定义报表，包括家庭报表和转化路径分析报表。
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: cb3eed4629c66283e0de18f7287169ec6e501aaa
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -105,9 +105,9 @@ ht-degree: 0%
 
 ## 转化路径分析报表
 
-### 与[!DNL Advanced Measurement Services]和Adobe Analytics创建的报表相比，转化路径报表如何？
+### 与[!DNL Advanced Measurement Services]和Adobe Analytics Analysis Workspace创建的报表相比，转化路径报表如何？
 
-| | 转化报表路径 | 高级测量服务对搜索报表的光晕影响 | Adobe Analytics Workspace报表 |
+| | 转化报表路径 | 高级测量服务对搜索报表的光晕影响 | Analysis Workspace中的报表 |
 | --- | --- | --- |---|
 | 客户价值 | 生成自助自定义报表，以了解广告历程的哪些路径导致了更多转化，从而促进优化 | 了解联网电视(CTV)策略对搜索点击量的影响 | 了解您的整体Adobe Advertising投资以及其他营销渠道对搜索点击量的影响 |
 | 家庭级别 | 是 | 是 | 否 |
