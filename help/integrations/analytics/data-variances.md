@@ -3,7 +3,7 @@ title: ' [!DNL Analytics] 和Adobe Advertising之间的预期数据差异'
 description: ' [!DNL Analytics] 和Adobe Advertising之间的预期数据差异'
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: e1c1d43c7fe5f44e34ada7dee09afd77f1b3f305
+source-git-commit: 6470ed471c60477bf19cf9b125f0250136f31511
 workflow-type: tm+mt
 source-wordcount: '3358'
 ht-degree: 0%
@@ -86,7 +86,7 @@ ht-degree: 0%
 >
 >为避免混淆，[!DNL Analytics]使历史数据在报表界面中不可用。 如果将[!DNL eVar]更改回初始分配设置，则可以查看历史数据，但不应仅为了访问历史数据而更改[!DNL eVar]分配设置。 Adobe建议，当您要为已记录的数据应用新的分配设置时，使用新的[!DNL eVar]，而不是更改已具有大量历史数据的[!DNL eVar]的分配设置。
 
-在[https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html)上查看[!DNL Analytics]归因模型及其定义的列表。
+在[https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models)上查看[!DNL Analytics]归因模型及其定义的列表。
 
 如果您已登录[!DNL Search, Social, & Commerce]，则可以查找列表
 
