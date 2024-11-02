@@ -3,7 +3,7 @@ title: ' [!DNL Analytics]使用的Adobe AdvertisingID'
 description: ' [!DNL Analytics]使用的Adobe AdvertisingID'
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 66368bd3bd7dbbd9829e7587c297c9d467c785ec
 workflow-type: tm+mt
 source-wordcount: '1684'
 ht-degree: 0%
@@ -104,7 +104,7 @@ EF ID受Analysis Workspace中500,000个唯一标识符限制的约束。 一旦�
 
 AMO ID在粒度较低的级别跟踪每个唯一的广告组合，用于对[!DNL Analytics]数据进行分类并从Adobe Advertising中摄取广告量度（例如展示次数、点击量和成本）。 AMO ID存储在[!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)或rVar维度(AMO ID)中，仅用于[!DNL Analytics]中的报表。
 
-AMO ID也称为`s_kwcid`，有时发音为“[!DNL the squid]”。
+AMO ID也称为`s_kwcid`，有时发音为“[!DNL squid]”。
 
 ### 实施AMO ID的方法 {#amo-id-implement}
 
