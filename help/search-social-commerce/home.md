@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: 89af360876962b94985b7aeca675bbe8e24dea48
+source-git-commit: feb31bf2408d2e6045c410e5750854bd0cbd2113
 workflow-type: tm+mt
-source-wordcount: '2658'
+source-wordcount: '2532'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024年11月13日 | [!DNL Analytics for Advertising] | (具有[!DNL Analytics for Advertising]和Adobe Customer Journey Analytics的广告商)如果您使用保留变量来捕获AMO ID和EF ID，那么您可以通过尽快将为AMO ID和EF ID保留的变量复制到标准[!DNL eVars]中，为Adobe Advertising和Adobe Customer Journey Analytics之间的未来集成做准备。 这样一来，在您完成任务后，即可立即收集AMO ID和EF ID的历史数据，并且历史数据可供将来使用。 如果您使用保留的变量并且需要完成此任务，您的Adobe客户团队将告知您。 | 请参阅“[收集在Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md)中使用的AMO ID和EF ID的历史数据。” |
 | 2024年10月29日 | [!UICONTROL Campaigns] | 对于每个最高绩效和搜索促销活动，您现在可以选择是允许[!DNL Google Ads]为新客户出价更高，还是仅为新客户出价，还是为新客户和现有客户平等出价。 若要为新客户出价更高，您必须首先使用[!DNL Google Ads]为您的[!DNL Google Ads]帐户或经理帐户激活新的客户获取目标。 目标定义包括符合条件的现有客户列表和新客户的附加转化值。 | 请参阅“[[!DNL Google Ads] 促销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)”。<br><br>另请参阅[!DNL Google Ads]帮助“[关于新客户获取目标](https://support.google.com/google-ads/answer/12080169)”和“[激活新客户获取目标](https://support.google.com/google-ads/answer/14007601)”中的步骤1-2。 |
 | 2024年9月3日 | [!DNL Google Ads]转化 | 以下支持现在可用于潜在客户的[!DNL Google Ads]增强型转化，您可以将其用于点击ID （`gclid`值）不可用的离线转化事件，如跟踪网站潜在客户产生的电话销售。<ul><li>搜索、社交和Commerce会同步潜在客户的现有增强转化，以便您可以使用它们进行报告和优化。 数据每天于05:00在广告商所在时区进行同步。</li><li>您可以为潜在客户的增强型转化创建转化操作。</li><li>您可以为潜在客户上传映射到增强型转化的第一方离线转化数据。</li></li></ul>您必须在Google中单独为潜在客户创建并实施转化标记以增强转化。 | 有关工作流的概要，请参阅“[为潜在客户实施 [!DNL Google Ads] 增强型转化](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)”、“[为潜在客户的 [!DNL Google Ads] 增强型转化创建转化操作](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)”和“[为增强型转化上载离线转化数据](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)”。 |
 | | [!UICONTROL Campaigns]<br>[!UICONTROL Reports] | （[!DNL Google Ads]个效果最好的营销活动）新增功能为资源组提供信息和数据：<ul><li>在每个performance max campaign中现有资源组的设置中有两个只读信息字段可用：<ul><li>**[!UICONTROL Primary Status]：**&#x200B;为何资产组已满或未满负荷提供服务。 它考虑资产组状态以及其他信号，例如政策和质量审批。</li><li>**[!UICONTROL Primary Status Reason]：**&#x200B;有关资产组主要状态的其他详细信息。</li></ul></li><li>新的专业报告[!UICONTROL Google Asset Group Performance Report]提供了指定帐户内最高绩效促销活动中的资产组绩效数据。 该报表包括所包含每个资产组的主要状态和状态原因。</li></ul> | 请参阅“[[!DNL Google Ads] 促销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)”、“[该[!UICONTROL Google Asset Group Performance Report]](/help/search-social-commerce/reports/management/specialty/google-asset-group-performance-report.md)”和“[专业报告设置](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)”。 |
