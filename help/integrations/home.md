@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: 66779bea5bdf43652f8fa49852f293b1bc49e968
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年11月13日 | [!DNL Analytics for Advertising] | (具有[!DNL Analytics for Advertising]和Adobe Customer Journey Analytics的广告商)如果您使用保留变量来捕获AMO ID和EF ID，那么您可以通过尽快将为AMO ID和EF ID保留的变量复制到标准[!DNL eVars]中，为Adobe Advertising和Adobe Customer Journey Analytics之间的未来集成做准备。 这样一来，在您完成任务后，即可立即收集AMO ID和EF ID的历史数据，并且历史数据可供将来使用。 如果您使用保留的变量并且需要完成此任务，您的Adobe客户团队将告知您。 | 请参阅“[收集在Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md)中使用的AMO ID和EF ID的历史数据。” |
 | 2023年12月16日 | 帮助 | 新文档介绍了如何在[!DNL Target]中为来自搜索、社交和Commerce中广告的点进流量设置A/B测试，以及有关如何在[!DNL Analytics]中测量和可视化测试的提示。 | 请参阅“[在Adobe Target中为Search、Social和Commerce广告配置A/B测试](/help/integrations/target/ab-tests-search.md)”。 |
 | 2023年8月8日 | [!DNL Analytics for Advertising] | 某些[!DNL Analytics]成功事件量度，包括标准、自定义和保留的转化量度以及流量量度，在DSP以及Search、Social和Commerce中自动可用。 现在，您还可以通过将[!DNL eVar]和[!DNL prop]级别的数据导入自定义成功事件，根据现有[!DNL Analytics] [!DNL eVars]和[!DNL props]配置自己的成功量度。 | 请参阅“[从Adobe Analytics创建转化量度 [!DNL eVars] 和 [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md)”。 |
 | 2023年7月13日 | 报表 | (具有[!DNL Analytics for Advertising]的DSP用户)已连接电视(CTV)投放位置的显示到达转化现在包含在Adobe Analytics中提供的转化数据中。 | 请参阅 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples)的[概述中的“如何使用集成的示例”部分。 |
