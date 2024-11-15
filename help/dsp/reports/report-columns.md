@@ -3,7 +3,7 @@ title: 可用报表列
 description: 请参阅自定义报表中可用列的说明。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 6afc297fee8ebf94605c5bc1fceafe4a903387a5
+source-git-commit: 15ce5490ae12fd0c50e4a178f8cb642078c4e847
 workflow-type: tm+mt
 source-wordcount: '2228'
 ht-degree: 0%
@@ -137,9 +137,6 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | 每个已完成的视频视图的平均净成本，由<code>[!UICONTROL Net Spend] / [!UICONTROL 100% Completions]计算</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPM] | 每1000次展示的平均净成本，计算方式为<code>[!UICONTROL Net Spend] / [!UICONTROL Impressions] x 1000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPV] | 每个视频查看的平均净成本，由<code>[!UICONTROL Net Spend] / [!UICONTROL Views]计算</code>. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Data eCPM] | 每1000次展示的平均净数据成本，计算方式为<code>[!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] x 1000</code>. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Media CPM] | 每1000次展示的平均净媒体成本，计算方式为<code>[!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1000</code>. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Other eCPM] | 按<code>[!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000计算的其他费用每1000次展示的平均净成本</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | 在最大CPM上出价的总出价百分比。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | DSP为其竞价投放的不同用户的数量。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Data Net Spend] | 通过DSP计费的受众区段数据费用总净成本。 |
@@ -156,10 +153,13 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Other Net Spend] | 未通过DSP计费的其他服务费用（第三方验证合作伙伴、广告投放等）的总成本。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Profit] | [!UICONTROL Gross Spend] - [!UICONTROL Net Spend] |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | [!UICONTROL Billable Spend (Media)]、[!UICONTROL Billable Spend (Data)]和[!UICONTROL Billable Spend (Other)]的总和。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data eCPM] | 每1000次展示的平均净数据成本，计算方式为<code>[!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] x 1000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data Net Spend] | 受众区段数据费用总净成本。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media CPM] | 每1000次展示的平均净媒体成本，计算方式为<code>[!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media Net Spend] | 包括技术费用在内的媒体净成本总额。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Net Spend] | [!UICONTROL Net Spend (Media)]、[!UICONTROL Net Spend (Data)]和[!UICONTROL Net Spend (Other)]的总和。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Non-Billable Net Spend] | [!UICONTROL Non-billable Spend (Media)]、[!UICONTROL Non-billable Spend (Data)]和[!UICONTROL Non-billable Spend (Other)]的总和。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other eCPM] | 按<code>[!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000计算的其他费用每1000次展示的平均净成本</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other Net Spend] | 其他服务费用（第三方验证合作伙伴、广告服务等）的总净成本。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | 观看整个广告的查看次数的百分比。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | 观看整个广告的查看次数。 |
