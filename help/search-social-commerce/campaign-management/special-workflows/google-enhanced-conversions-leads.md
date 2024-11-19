@@ -2,9 +2,10 @@
 title: 为潜在客户实施 [!DNL Google Ads] 增强型转化
 description: 了解用于为潜在客户设置 [!DNL Google Ads] 增强型转换的工作流。
 feature: Search Campaign Management, Conversions
-source-git-commit: 60a67c8668df13afc08e14b0a495a37ded24bc0c
+exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
+source-git-commit: 56161ece4ba9c01cddb86e16796150c391f1a811
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,17 @@ ht-degree: 0%
 
 [[!DNL Google Ads] 潜在客户的增强型转化](https://support.google.com/google-ads/answer/9888656)允许您使用第一方转化数据将用户映射到离线转化。 在点击ID不可用的环境中对潜在客户使用增强型转化，例如跟踪由网站潜在客户产生的电话或电子邮件销售。
 
-在Search、Social和Commerce中，您可以将潜在客户的增强转化作为指标包含在报表中，并将作为加权指标包含在优化目标中。 搜索、社交和Commerce每天在广告商所在时区的05:00同步您现有的潜在客户增强转化。
+在Search、Social和Commerce中，您可以：
+
+* 查看潜在客户的现有增强型转化。
+
+  搜索、社交和Commerce每天在广告商所在时区的05:00同步您现有的潜在客户增强转化。
+
+* 为潜在客户创建增强型转化。
+
+* 上传第一方离线转化数据以映射到潜在客户的增强转化。
+
+* 将潜在客户的增强转化作为指标包含在报表中，并将加权指标包含在优化目标中。
 
 要使用此功能，请完成以下步骤。 您可以选择撤消创建转化跟踪标记和创建转化操作的步骤。
 
