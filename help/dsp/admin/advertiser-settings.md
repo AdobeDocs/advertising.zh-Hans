@@ -2,9 +2,9 @@
 title: 广告商帐户设置
 description: 请参阅可用广告商设置的描述。
 role: User, Admin
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: a7751041b75f4258ce8e57629262c4cb30eccc95
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,8 @@ ht-degree: 0%
 # 广告商帐户设置
 
 *对只读用户不可用*
+
+<!-- Not published -->
 
 ## [!UICONTROL General]设置
 
@@ -166,11 +168,11 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 **[!UICONTROL Enable Site Safety Block]：**&#x200B;默认情况下，启用实时竞价后过滤器，以确保广告在广告商定位的网站上提供。<!-- Can remove this: Users can enable or disable the feature for each placement. I don't see this option, but I should probably verify. If this can't be edited at placement level, then remove "By default." If it can, say that you can override at placement level. -->
 
-#### [!UICONTROL DoubleVerify Authentic Brand Safety]
+#### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
 **[!UICONTROL DoubleVerify Account]：** （仅限[!DNL DoubleVerify]个客户；可选）与组织的[!DNL DoubleVerify]帐户关联的品牌安全区段ID。
 
-**[!UICONTROL Enable Authentic Brand Safety]：**（可选）默认情况下，启用[!DNL DoubleVerify]真实品牌安全，它会阻止使用为指定区段ID配置的自定义品牌安全规则在出价后展示次数。 DSP按区段ID对帐户开单。
+**[!UICONTROL Enable Authentic Brand Suitability]：**（可选）默认情况下，启用[!DNL DoubleVerify Authentic Brand Safety]，它会阻止使用为指定区段ID配置的自定义品牌安全规则在竞价后展示次数。 DSP按区段ID对帐户开单。
 
 您可以在版面级别覆盖广告商级别设置。
 

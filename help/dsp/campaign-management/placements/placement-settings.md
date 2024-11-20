@@ -3,7 +3,7 @@ title: 投放设置
 description: 请参阅可用版面设置的说明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: 06bf098bbda30db6a9fa6f21e9e08db74258f578
 workflow-type: tm+mt
 source-wordcount: '3887'
 ht-degree: 0%
@@ -215,11 +215,11 @@ ht-degree: 0%
 
 流输出广告通常以弹出窗口或填充到内容中（在本机体验中）的形式出现，而不是在视频播放器中以常规视频广告的形式出现。
 
-## [!UICONTROL Site Targeting]
+## [!UICONTROL Site and App Targeting]
 
 **[!UICONTROL Traffic type]：**&#x200B;目标流量的类型。 选项包括&#x200B;**[!UICONTROL Websites]**&#x200B;和&#x200B;**[!UICONTROL Apps]**。
 
-**[!UICONTROL Site tier]：** （在&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;为&#x200B;*[!UICONTROL Off]*&#x200B;时可用）要定位的网站的质量。 第1层至第3层均符合品牌安全要求，并已获得DSP映射团队的批准。
+**[!UICONTROL Tier]：** （在&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;为&#x200B;*[!UICONTROL Off]*&#x200B;时可用）要定位的流量的质量。 第1层至第3层均符合品牌安全要求，并已获得DSP映射团队的批准。
 
 * *[!UICONTROL Tier 1]：*&#x200B;可在全国范围内识别的高级网站和应用程序。
 
@@ -227,7 +227,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Tier 3]：*&#x200B;定位第1层至第2层以及符合小众受众需求的合法且品牌安全的站点和应用程序。 使用第3层进行覆盖或数据定位购买。
 
-* *[!UICONTROL All Sites]：*&#x200B;定位第1-3层以及尚未进行筛选或分类的新库存，您可以将这些库存用于访问。
+* *[!UICONTROL All Sites or Apps]：*&#x200B;定位第1-3层以及尚未进行筛选或分类的新库存，您可以将这些库存用于访问。
 
 >[!NOTE]
 >
@@ -237,7 +237,7 @@ ht-degree: 0%
 >
 >对于性能营销活动，最佳实践是选择&#x200B;*[!UICONTROL All Sites]*。
 
-**[!UICONTROL Site Categories]：** （可选，当&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;为&#x200B;*[!UICONTROL Off]*&#x200B;时可用）选定站点层中的站点类别要包含或排除（但不能同时包含和排除）作为目标。 从DSP已根据主题映射的垂直网站列表中进行选择：
+**[!UICONTROL Site or App Categories]：** （可选，当&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;为&#x200B;*[!UICONTROL Off]*&#x200B;时可用）选定站点层中的站点类别要包含或排除（但不能同时包含和排除）作为目标。 从DSP已根据主题映射的垂直网站列表中进行选择：
 
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 指定要包含或排除的站点类别：
@@ -250,7 +250,7 @@ ht-degree: 0%
 1. （可选）要将包含定向信息的CSV文件下载到浏览器的下载位置，请单击&#x200B;**[!UICONTROL Export]**。
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
-**[!UICONTROL Exclude Sites]：** （可选；当&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;为&#x200B;*[!UICONTROL Off]*&#x200B;时可用）要排除的站点。 您可以搜索并选择站点，或者输入或粘贴域名：
+**[!UICONTROL Exclude Sites or Apps]：** （可选；当&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;为&#x200B;*[!UICONTROL Off]*&#x200B;时可用）要排除的站点。 您可以搜索并选择站点，或者输入或粘贴域名：
 
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 指定站点：
@@ -273,7 +273,7 @@ ht-degree: 0%
 
 **[!UICONTROL Language]：**（可选）目标单一语言。
 
-**[!UICONTROL Site List Preview]：** （只读）所有针对该投放位置的已阻止站点。
+**[!UICONTROL Site or App List Preview]：** （只读）所有针对该投放位置的已阻止站点。
 
 您可以选择将目标和阻止站点的列表导出为逗号分隔值(CSV)文件。 要导出列表，请单击&#x200B;**[!UICONTROL Export full site list]**，然后按照浏览器的正常过程打开或保存文件。
 
@@ -389,7 +389,7 @@ ht-degree: 0%
 1. （可选）要将包含ISP定位信息的CSV文件下载到浏览器的下载位置，请单击&#x200B;**[!UICONTROL Export]**。
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
-## [!UICONTROL Brand Safety and Media Targeting]
+## [!UICONTROL Brand Safety and Media Quality]
 
 **[!UICONTROL Contextual filtering]：**&#x200B;要应用的[!DNL Comscore]、[!DNL DoubleVerify]、[!DNL Integral Ad Science]和[!DNL Peer39]上下文筛选器的类型。 为新投放位置选择了广告商级别的默认值，但您可以更改设置：
 
