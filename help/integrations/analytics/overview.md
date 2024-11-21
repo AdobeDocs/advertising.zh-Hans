@@ -3,9 +3,9 @@ title: ' [!DNL Analytics for Advertising]概述'
 description: ' [!DNL Analytics for Advertising]概述'
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: a0a3bb1e74ffc687118d0336a03dcc6164b67226
+source-git-commit: 2575b737926cfd681fd744401d5f4555402fbee2
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Adobe Advertising维度会附加后缀“(AMO ID)”(例如“广告类型(AMO I
 
 ### 作为竞价信号的网站转化量度
 
-您可以使用[!DNL Analytics]中的标准事件和自定义事件在Adobe Advertising中构建加权目标。 目标为您的[!DNL DSP]包和搜索项目组合的竞价决策提供信息。
+您可以使用[!DNL Analytics]中的标准事件和自定义事件在Adobe Advertising中构建加权目标。 目标为您的[!DNL DSP]包和搜索、Social和Commerce项目组合的竞价决策提供信息。
 
 >[!NOTE]
 >
