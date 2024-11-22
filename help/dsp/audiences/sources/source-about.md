@@ -3,7 +3,7 @@ title: 关于第一方受众源
 description: 了解如何将第一方区段中的其他用户标识符转换为通用ID以实现无痕定位。
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 78ee6ddbfb87915475bcf84bd7cd405a58eccf14
+source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -70,9 +70,9 @@ DSP已建立到以下CDP的连接器，以快速摄取您的第一方区段。
 
 DSP还可以使用批处理、流式传输或基于API的数据共享连接到任何其他CDP。 要与新的CDP集成，请联系您的Adobe客户团队。
 
-### [!DNL Adobe Real-Time Customer Data Platform]
+### [!DNL Adobe Real-Time CDP]
 
-DSP是[the [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hans)的集成&#x200B;*目标*，它是Adobe Experience Platform的一部分。
+DSP是[the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hans)的集成&#x200B;*目标*，它是Adobe Experience Platform的一部分。
 
 在[!DNL Real-Time CDP]中，目标是与外部数据平台的连接，可无缝激活数据。 您可以使用目标在DSP中为定向广告激活经过哈希处理的电子邮件地址。 有关目标的更多信息，请参阅Experience Platform[目标指南](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)，包括产品概述、有关[创建目标工作区](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html)和[创建目标连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html)以及[将数据激活到目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html)的说明。
 
