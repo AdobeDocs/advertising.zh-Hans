@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: 11bc1f3f5d38c204a512cbffa9a5c5faa6ae0ab4
+source-git-commit: 4a1a89541a47d7dcab273339ca5cb9b926fb8a1b
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024年10月29日发布 | [!DNL Adobe Analytics for Advertising] | （具有[!DNL Adobe Analytics for Advertising]和[!DNL Microsoft Advertising]个效果最佳促销活动的广告商）现在，当您在效果最佳促销活动的跟踪URL中实施新的AMO ID ([!DNL s_kwcid])参数时，Adobe Analytics中提供了效果最佳促销活动的资源组级别数据，这些参数不包括广告和关键字。 对大多数效果最佳的营销活动的跟踪已迁移到新格式。 对于不具有[!UICONTROL Auto Upload]跟踪选项且尚未迁移到新格式的最高绩效营销活动，但是，您必须手动更新每个登陆页面后缀以包含以下AMO ID格式：<br><br>`AL!%(userid)d!%(sid)d!%(creativeref)s!!!%(termid/orderid)d!!!%(campaignid)!%(adref)`<br><br>您的最高绩效营销活动的Adobe Analytics数据也可以在Search、Social和Commerce中使用。 | 请参阅新的[AMO ID格式]((/help/integrations/analytics/ids.md #amo-id-format-search)和[何时以及如何将该参数添加到您的跟踪URL](/help/integrations/analytics/ids.md#amo-id-implement)。 |
+| 2024年10月29日发布 | [!DNL Adobe Analytics for Advertising] | （具有[!DNL Adobe Analytics for Advertising]和[!DNL Microsoft Advertising]个效果最佳促销活动的广告商）现在，当您在效果最佳促销活动的跟踪URL中实施新的AMO ID ([!DNL s_kwcid])参数时，Adobe Analytics中提供了效果最佳促销活动的资源组级别数据，这些参数不包括广告和关键字。 对大多数效果最佳的营销活动的跟踪已迁移到新格式。 对于不具有[!UICONTROL Auto Upload]跟踪选项且尚未迁移到新格式的最高绩效营销活动，但是，您必须手动更新每个登陆页面后缀以包含以下AMO ID格式：<br><br>`AL!%(userid)d!%(sid)d!%(creativeref)s!!!%(termid/orderid)d!!!%(campaignid)!%(adref)`<br><br>您的最高绩效营销活动的Adobe Analytics数据也可以在Search、Social和Commerce中使用。 | 请参阅新的[AMO ID格式](/help/integrations/analytics/ids.md #amo-id-format-search)和[何时以及如何将该参数添加到您的跟踪URL](/help/integrations/analytics/ids.md#amo-id-implement)。 |
 | 2024年11月13日 | [!DNL Analytics for Advertising] | (具有[!DNL Analytics for Advertising]和Adobe Customer Journey Analytics的广告商)如果您使用保留变量来捕获AMO ID和EF ID，那么您可以通过尽快将为AMO ID和EF ID保留的变量复制到标准[!DNL eVars]中，为Adobe Advertising和Adobe Customer Journey Analytics之间的未来集成做准备。 这样一来，在您完成任务后，即可立即收集AMO ID和EF ID的历史数据，并且历史数据可供将来使用。 如果您使用保留的变量并且需要完成此任务，您的Adobe客户团队将告知您。 | 请参阅“[收集在Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md)中使用的AMO ID和EF ID的历史数据。” |
 | 2023年12月16日 | 帮助 | 新文档介绍了如何在[!DNL Target]中为来自搜索、社交和Commerce中广告的点进流量设置A/B测试，以及有关如何在[!DNL Analytics]中测量和可视化测试的提示。 | 请参阅“[在Adobe Target中为Search、Social和Commerce广告配置A/B测试](/help/integrations/target/ab-tests-search.md)”。 |
 | 2023年8月8日 | [!DNL Analytics for Advertising] | 某些[!DNL Analytics]成功事件量度，包括标准、自定义和保留的转化量度以及流量量度，在DSP以及Search、Social和Commerce中自动可用。 现在，您还可以通过将[!DNL eVar]和[!DNL prop]级别的数据导入自定义成功事件，根据现有[!DNL Analytics] [!DNL eVars]和[!DNL props]配置自己的成功量度。 | 请参阅“[从Adobe Analytics创建转化量度 [!DNL eVars] 和 [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md)”。 |
