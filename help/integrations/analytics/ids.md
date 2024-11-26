@@ -3,9 +3,9 @@ title: ' [!DNL Analytics]使用的Adobe AdvertisingID'
 description: ' [!DNL Analytics]使用的Adobe AdvertisingID'
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 33a27faa14cbd1fa3248364cc7a3bf9c0cd94c76
+source-git-commit: 7d10ab34b804f96d621c351d9f8049c924019ba1
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1738'
 ht-degree: 0%
 
 ---
@@ -234,7 +234,7 @@ where:
 
 >[!NOTE]
 >
->所有具有性能营销活动的帐户都已迁移到上述格式。 对于具有其他营销活动类型的帐户，您的登陆页面后缀将进行迁移，以便在2025年初使用新的s_kwcid格式。 与此同时，旧版格式（如下所示）仍然有效：
+>所有具有最佳效果营销活动的帐户都已迁移到上述格式。 对于具有其他营销活动类型的帐户，您的登陆页面后缀将进行迁移，以便在2025年初使用新的s_kwcid格式。 与此同时，旧版格式（如下所示）仍然有效：
 >* 搜索促销活动：
 >  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* 购物营销活动（使用[!DNL Microsoft Merchant Center]）：
