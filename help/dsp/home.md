@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: feb31bf2408d2e6045c410e5750854bd0cbd2113
+source-git-commit: dd359c91b97d5aea3d1d01d19ef585bc24d9e266
 workflow-type: tm+mt
 source-wordcount: '4622'
 ht-degree: 0%
@@ -94,4 +94,4 @@ ht-degree: 0%
 |  | [!UICONTROL Ads] | （有权在其广告中包含[!DNL Clearcast]时钟编号的用户）如果您使用附加到其他广告的时钟编号，则DSP不再显示错误。 **注意：**&#x200B;最佳实践是为每个视频广告使用唯一的时钟编号。 否则，发布者将不会批准所有广告。 | — |
 |  | [!UICONTROL Deal IDs] | 用户界面中的[!UICONTROL Deal ID]设置和其他位置反映了[!DNL Magnite] SSP：<br>的新品牌<ul><li>SSP“[!DNL Tremor]”([!DNL Telaria])现在为“[!DNL Magnite CTV]”。</li><li>在接下来的几周内，“[!DNL Rubicon]”将更改为“[!DNL Magnite DV+]”，其中[!DNL DV+]表示显示、视频和其他格式，例如音频。</li></ul> | 请参阅“[SSP合作伙伴](/help/dsp/inventory/ssp-partners.md)”。 |
 |  | [!DNL Freewheel]个计划性保证交易 | 您现在可以从[!UICONTROL Ads]视图提交广告并检查[!DNL Freewheel]计划性保证交易的广告状态。 以前，您只能从[!UICONTROL Deals]视图执行这两项操作。 | 请参阅“[向 [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] 计划性保证交易](/help/dsp/inventory/freewheel-check-status.md)提交计划性保证交易的广告”。 |
-| 2021年10月7日 | 帮助 | [!DNL Experience League]上的所有[DSP及其他Adobe Advertising文档](https://experienceleague.adobe.com/docs/advertising.html)现在都已使用机器翻译功能翻译为所有可用的语言。 要更改显示的语言，请使用任何页面左下角的“更改语言”菜单。<br>![更改语言](/help/dsp/assets/change-language.png) |
+| 2021年10月7日 | 帮助 | [!DNL Experience League]上的所有[DSP及其他Adobe Advertising文档](https://experienceleague.adobe.com/en/docs/advertising)现在都已使用机器翻译功能翻译为所有可用的语言。 要更改显示的语言，请使用任何页面左下角的“更改语言”菜单。<br>![更改语言](/help/dsp/assets/change-language.png) |
