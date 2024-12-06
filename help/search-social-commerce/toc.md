@@ -4,9 +4,9 @@ user-guide-title: 广告搜索、社交和商业指南
 user-guide-description: 本指南阐述管理、跟踪和报告搜索、社交和商业广告营销活动所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: 广告搜索、社交和商业指南
 index: true
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: 4fe931a07246920eeef8ce08e3a38c5fd6534bd4
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1738'
 ht-degree: 2%
 
 ---
@@ -238,6 +238,7 @@ ht-degree: 2%
          + [实施 [!DNL Google Ads] 动态搜索广告](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)
          + [实施 [!DNL Google Ads] 效果最佳的营销活动](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)
          + [实施 [!DNL Google Ads] 购物营销活动](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+         + [为离线转换实施 [!DNL Microsoft Advertising] 增强型转换](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
          + [实施 [!DNL Microsoft Advertising] 购物营销活动](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
       + [手动同步广告网络数据](/help/search-social-commerce/campaign-management/campaigns/sync-network.md)
    + [将营销活动分配给项目组合](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)
@@ -410,9 +411,9 @@ ht-degree: 2%
       + [查看为广告商跟踪的转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
       + [更改管理视图和报告中的可用转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
       + [更改转化量度的显示名称](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
-      + 管理广告网络特定的转化标记和转化操作{#network-conversions}
+      + 管理广告网络特定的转化标记和转化操作/目标{#network-conversions}
          + [为 [!DNL Google Ads]创建转化标记](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
-         + 管理转换操作{#conversion-actions}
+         + 管理转化操作和目标{#conversion-actions}
             + [为潜在客户的 [!DNL Google Ads] 增强型转化创建转化操作](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
             + [上载离线转化数据以增强转化](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 + [获取帮助](get-help.md)

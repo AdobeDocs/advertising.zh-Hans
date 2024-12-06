@@ -3,9 +3,9 @@ title: 为潜在客户实施 [!DNL Google Ads] 增强型转化
 description: 了解用于为潜在客户设置 [!DNL Google Ads] 增强型转换的工作流。
 feature: Search Campaign Management, Conversions
 exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
-source-git-commit: 56161ece4ba9c01cddb86e16796150c391f1a811
+source-git-commit: e0b1a65e3eddc41bed73817dabb6e38b1ef881b5
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -38,14 +38,13 @@ ht-degree: 0%
 
    1. 选择使用[!DNL Google]标记还是[!DNL Google Tag Manager]创建转化标记。
 
-
-1. 为转换操作配置并实施[!DNL Google]标记。
+1. 配置并实施标记以跟踪转化操作。
 
    有关说明，请参阅[!DNL Google Ads]帮助以使用 [!DNL Google] 标记](https://support.google.com/google-ads/answer/11021502)为潜在客户[创建增强型转化标记，或使用 [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292)为[创建标记。
 
 1. 为[搜索、社交和Commerce](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)或[Google广告](https://support.google.com/google-ads/answer/12216226)中的潜在客户创建增强型转化操作。
 
-   对于&#x200B;**转换类型，**&#x200B;选择&#x200B;*导入转换*&#x200B;或&#x200B;*导入。*
+   如果您在Search、Social和Commerce中创建转换操作，请将&#x200B;**转换类型**&#x200B;指定为&#x200B;*导入转换*&#x200B;或&#x200B;*导入。*
 
 1. 根据需要，经常上传第一方数据（包括经过哈希处理的电子邮件地址或电话号码）以归因于指定帐户的转化。 您可以从[搜索、社交和Commerce](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)中或使用[!DNL Google Data Manager]完成此步骤。
 
