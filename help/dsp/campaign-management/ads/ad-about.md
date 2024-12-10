@@ -3,9 +3,9 @@ title: 关于Advertising DSP中的广告管理
 description: 了解广告管理。
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: e9ce180e302f619c85a3d6db813c83903e437d04
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ DSP支持通过适用于各种广告类型的第三方广告投放标签(例如G
 <!-- The bulk upload feature requires you to either a) upload DoubleClick and Flashtalking tag sheets or b) download a template, input your tags into the template, and then re-upload the template. -->
 <!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
 
-设置广告后，将每个广告附加到投放位置，其中包含用于控制营销活动交付方式的定位参数（例如地域、受众、设备和库存定位）。 您可以将单个广告附加到一个或多个投放位置。
+设置广告后，将每个广告附加到一个或多个投放位置，这些投放位置包括控制促销活动交付方式的定位参数（例如地域、受众、设备和库存定位）。 您必须将广告附加到投放位置才能开始运行广告。
 
 ## 可用广告类型 {#ad-types}
 
