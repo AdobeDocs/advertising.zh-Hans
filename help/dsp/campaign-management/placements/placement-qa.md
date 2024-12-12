@@ -3,7 +3,7 @@ title: 使用批量处理工作表查看和编辑置入设置
 description: 了解如何使用电子表格批量查看和编辑关键位置设置。
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: 8f4e694885919a8dcf7895c2f8d8aeb11249e03c
 workflow-type: tm+mt
 source-wordcount: '1457'
 ht-degree: 0%
@@ -109,6 +109,10 @@ Download a blank bulksheet template that includes tabs for each type of campaign
 
 ### 营销活动级别的电子表格
 
+<!-- 
+Check on Brand Safety - Contextual Filtering # with new DV feature/fct change.
+-->
+
 | 部分 | 列 | 描述 | 可编辑？ |
 |---------|--------|-------------|-----------|
 | [!UICONTROL Basic] | [!UICONTROL Placement ID] | 投放位置的数值ID。 | — |
@@ -195,6 +199,25 @@ Download a blank bulksheet template that includes tabs for each type of campaign
 | [!UICONTROL Secondary Frequency Cap Interval] | 辅助频率上限的间隔类型： *[!UICONTROL Week]*、*[!UICONTROL Day]*、*[!UICONTROL Hour]*&#x200B;或&#x200B;*[!UICONTROL Minute]*。 [!UICONTROL Secondary Frequency Cap Interval Value]指明了适用的周数、天数、小时数或分钟数。 | 是 |
 | [!UICONTROL Secondary Frequency Cap Interval Value] | [!UICONTROL Secondary Frequency Cap]适用的周数、天数、小时数或分钟数。 例如，如果次要展示次数上限是每六小时三次展示，则此处的值将为`6`。 | 是 |
 | [!UICONTROL Attached Ad ID] | 附加到投放位置的任何广告的DSP生成的唯一Ad ID，用分号分隔。 要从[!UICONTROL Ads]视图下载广告名称和关联的广告ID列表，请创建包含[!UICONTROL Ad ID]量度的自定义视图，然后[导出数据](/help/dsp/campaign-management/reports/campaign-export-data.md)。 | 是 |
+
+
+<!-- LOTS MORE THAN I HAD ORIGINALLY DOCUMENTED -- BELOW ARE THE LAST, BUT NOT ALL:
+
+Brand Safety - Contextual Filtering #								"		
+
+| Brand Safety | Brand Safety - Contextual Filtering # |  |  |
+| Brand Safety | Brand Safety - Pre-Bid Fraud blocking # |  |  |
+| Brand Safety | Brand Safety - Pre-Bid Viewability # |  |  |
+| Brand Safety | Site Safety Block |  |  |
+| Tracking | Tracking Pixels # |  |  |
+| Tracking | Conversion Pixels # |  |  |
+| Tracking | 3rd-party fees |  |  |
+| # of Ads Attached |  |  |
+| Ads |  Ad Names |  |  |
+| Ads | Attached Ad ID |  |  |
+| Environment | Environment |  |  |
+-->
+
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: 投放设置
 description: 请参阅可用版面设置的说明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 06bf098bbda30db6a9fa6f21e9e08db74258f578
+source-git-commit: cbefed8dcf59038d57e145d511f2491dd928a788
 workflow-type: tm+mt
-source-wordcount: '3887'
+source-wordcount: '3967'
 ht-degree: 0%
 
 ---
@@ -391,7 +391,15 @@ ht-degree: 0%
 
 ## [!UICONTROL Brand Safety and Media Quality]
 
+**[!UICONTROL DoubleVerify ABS segment ID]：** （可选；仅[!DNL DoubleVerify]客户；仅适用于桌面前置式广告、标准广告和点播显示，以及仅限本机显示和视频投放位置；不支持[交易的默认程序化保证投放位置](/help/dsp/inventory/programmatic-guaranteed-about.md)） [!DNL DoubleVerify Authentic Brand Safety]区段ID与组织的[!DNL DoubleVerify]帐户关联以用于投放位置。 使用为指定区段ID配置的自定义品牌安全规则指定ID会阻止竞价后的展示次数。 DSP按区段ID对帐户开单。
+
+ID必须以“51”开头并且由八位数字组成。 默认情况下，如果在广告商帐户设置中指定了区段ID，则会输入广告商级别的ID，但您可以将该ID更改为使用其他区段，或删除该ID以禁用该功能。
+
 **[!UICONTROL Contextual filtering]：**&#x200B;要应用的[!DNL Comscore]、[!DNL DoubleVerify]、[!DNL Integral Ad Science]和[!DNL Peer39]上下文筛选器的类型。 为新投放位置选择了广告商级别的默认值，但您可以更改设置：
+
+<!-- Looks like we didn't rename this:
+**[!UICONTROL Brand Safety categories]:** Types of [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39] brand safety category filters to apply. The advertiser-level defaults are selected for new placements, but you can change the settings:
+-->
 
 * [!UICONTROL DoubleVerify]：
 
@@ -441,8 +449,6 @@ ht-degree: 0%
 * *[!UICONTROL Ads.txt sellers only]*：仅从域的授权直销人员购买库存。
 
 **[!UICONTROL Attention Targeting]：** （显示器、视频、移动设备和标准连接的电视投放位置）根据指定的站点、格式和广告大小，定位具有特定关注级别（高、中或低）的[!DNL Adelaide]预竞价区段。 区段每周更新一次。 **注意：**&#x200B;使用[!DNL Adelaide]区段进行定位将导致[!DNL Adelaide]关注定位提供的每次展示产生CPM费用；此费用与[关注测量](/help/dsp/campaign-management/campaigns/campaign-settings.md)的费用分开。 对于交互式前置投放，您只需为VAST展示付费。
-
-**[!UICONTROL DoubleVerify Authentic Brand Safety]：** （使用[!UICONTROL DoubleVerify Authentic Brand Safety]选项配置的广告商）启用[!DNL DoubleVerify Authentic Brand Safety]，阻止使用为指定区段ID配置的自定义品牌安全规则在竞价后展示次数。 DSP会根据在广告商设置中指定的区段ID的使用情况向您的帐户收费。
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 

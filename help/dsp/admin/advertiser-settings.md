@@ -2,9 +2,9 @@
 title: 广告商帐户设置
 description: 请参阅可用广告商设置的描述。
 role: User, Admin
-source-git-commit: a7751041b75f4258ce8e57629262c4cb30eccc95
+source-git-commit: 20f69d2e8d5d289015c911f153609c0805307f0a
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '943'
 ht-degree: 0%
 
 ---
@@ -170,11 +170,9 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 #### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
-**[!UICONTROL DoubleVerify Account]：** （仅限[!DNL DoubleVerify]个客户；可选）与组织的[!DNL DoubleVerify]帐户关联的品牌安全区段ID。
+**[!UICONTROL DoubleVerify Account]：** （仅限[!DNL DoubleVerify]个客户；可选）与组织的[!DNL DoubleVerify]帐户关联的[!DNL DoubleVerify Authentic Brand Safety]区段ID，默认用于所有投放。 使用为指定区段ID配置的自定义品牌安全规则指定ID会阻止竞价后的展示次数。 DSP按区段ID对帐户开单。
 
-**[!UICONTROL Enable Authentic Brand Suitability]：**（可选）默认情况下，启用[!DNL DoubleVerify Authentic Brand Safety]，它会阻止使用为指定区段ID配置的自定义品牌安全规则在竞价后展示次数。 DSP按区段ID对帐户开单。
-
-您可以在版面级别覆盖广告商级别设置。
+ID必须以“51”开头并且由八位数字组成。 您可以在版面级别更改或删除广告商级别ID。
 
 >[!MORELIKETHIS]
 >
