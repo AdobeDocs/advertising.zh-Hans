@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: dd359c91b97d5aea3d1d01d19ef585bc24d9e266
+source-git-commit: 17a547a5aad0ca19f156940b26ead6e808b3ea15
 workflow-type: tm+mt
-source-wordcount: '4622'
+source-wordcount: '4735'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年12月12日 | [!UICONTROL Placements]，品牌安全 | 您现在可以在投放级别定位[!DNL DoubleVerify Authentic Brand Safety]区段ID。 以前，您只能在广告商级别定位他们。<br><br>默认情况下，如果在广告商帐户设置中指定了区段ID，则在版面设置中会输入广告商级别的ID，但您可以将ID更改为使用其他区段，或删除该ID以禁用该功能。<br><br>在广告商级别的设置中，用于启用该功能的选项已被删除；现在，指定区段ID可启用该功能。 如果某个现有广告商禁用了此功能，则区段ID字段现在为空白。 无需用户操作。 | 请参阅“[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)”。 |
 | 2024年10月29日 | [!UICONTROL Custom Reports] | (Beta功能)三个新报表提供了有关哪些广告交互路径会带来转化的更深入见解：<ul><li>[!UICONTROL Path to Conversion Beta]：显示同一家庭中导致指定数据范围内每个选定转化量度的交互点序列。</li><li> [!UICONTROL Path Length Beta]：按路径长度（交互点）显示转化次数，例如用户仅有一个广告交互、两个广告交互等后发生的转化次数。</li><li>[!UICONTROL Time to Conversion Beta]按自上次交互（广告曝光或点击）到转换的时间长度（以天为单位）显示转换次数。</li></ul> | 请参阅“[关于自定义报告](/help/dsp/reports/report-about.md)”和“[关于自定义报告的常见问题解答](/help/dsp/reports/faq-reports.md)”。 |
 | | [!UICONTROL Packages]，[!UICONTROL Placements]，[!UICONTROL Ads] | 您现在可以在一个电子表格中查看营销活动中的所有资源包、投放位置和广告的设置。 您可以下载包含选定营销活动组件类型（可以包括“包”、“投放”、“投放广告计划”、“投放竞价乘数”、“广告”和“像素”）的现有设置的QA工作表，以进行审核。 要添加或编辑任何设置，请下载空的批量处理工作表模板，将促销活动组件数据从QA工作表输入或粘贴到批量处理工作表模板中，然后上载已填充的批量处理工作表。<br><br>此外，用于下载特定包和投放位置的设置的命令名称现在为“[!UICONTROL Download Bulksheet]”。 您可以从右上角的[!UICONTROL ...] > &quot;[!UICONTROL Upload Bulksheet]&quot;选项上载特定包和投放位置的设置。 | 请参阅“[使用批量处理工作表查看和编辑Campaign组件设置](/help/dsp/campaign-management/campaign-components-review-edit.md)”。<br><br>另请参阅“[使用批量处理工作表查看和编辑包设置](/help/dsp/campaign-management/packages/package-qa.md)”和“[使用批量处理工作表查看和编辑置入设置](/help/dsp/campaign-management/placements/placement-qa.md)”。 |
 | | [!UICONTROL Placements]，专用清单，[!UICONTROL Non Bid Reasons] | 您现在可以按投放位置定向的特定非公开交易筛选投放位置的非竞价原因列表。 此功能不适用于定向所有专用清单的投放位置。<br><br>此外，在[!UICONTROL Inventory] > [!UICONTROL Deals]中列出的私人交易的[!UICONTROL Placements and Ads]视图现在每行都包含“[!UICONTROL Non bid reasons]”选项。 单击选项以打开投放位置诊断报告，显示按私人交易过滤的“非出价”选项卡。 | 请参阅“[查看投放位置诊断报告](/help/dsp/campaign-management/reports/placement-diagnostics.md)”和“[列出私人交易的投放位置和广告](/help/dsp/inventory/private-deal-view-placements.md)”。 |
