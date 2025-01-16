@@ -3,9 +3,9 @@ title: 投放设置
 description: 请参阅可用版面设置的说明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: cbefed8dcf59038d57e145d511f2491dd928a788
+source-git-commit: 17d2f802e77709636ef9654ad154e14c5d53c477
 workflow-type: tm+mt
-source-wordcount: '3967'
+source-wordcount: '3966'
 ht-degree: 0%
 
 ---
@@ -448,7 +448,7 @@ ID必须以“51”开头并且由八位数字组成。 默认情况下，如果
 * *[!UICONTROL Ads.txt sellers only]*：仅从域的授权直销商和经销商购买库存。
 * *[!UICONTROL Ads.txt sellers only]*：仅从域的授权直销人员购买库存。
 
-**[!UICONTROL Attention Targeting]：** （显示器、视频、移动设备和标准连接的电视投放位置）根据指定的站点、格式和广告大小，定位具有特定关注级别（高、中或低）的[!DNL Adelaide]预竞价区段。 区段每周更新一次。 **注意：**&#x200B;使用[!DNL Adelaide]区段进行定位将导致[!DNL Adelaide]关注定位提供的每次展示产生CPM费用；此费用与[关注测量](/help/dsp/campaign-management/campaigns/campaign-settings.md)的费用分开。 对于交互式前置投放，您只需为VAST展示付费。
+**[!UICONTROL Attention Targeting]：** （显示、视频和标准连接的电视投放位置）根据指定的站点、格式和广告大小，定位具有特定关注级别（高、中或低）的[!DNL Adelaide]预竞价区段。 区段每周更新一次。 **注意：**&#x200B;使用[!DNL Adelaide]区段进行定位将导致[!DNL Adelaide]关注定位提供的每次展示产生CPM费用；此费用与[关注测量](/help/dsp/campaign-management/campaigns/campaign-settings.md)的费用分开。 对于交互式前置投放，您只需为VAST展示付费。
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 
