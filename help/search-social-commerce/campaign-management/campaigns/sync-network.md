@@ -3,9 +3,9 @@ title: 手动同步广告网络数据
 description: 了解如何为支持的广告网络手动触发营销活动结构和营销活动实体的同步。
 exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c4600e6ef41193f09722052ef9b16fe5d07bdaaf
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Search、Social和Commerce每天与您的广告网络帐户自动同步（同步
 
 1. 选中要同步的每个帐户或营销活动旁边的复选框。 一次最多可以同步50个营销活动。 如果一次同步超过五个帐户，则该作业将划分为多个批次，每个批次最多包含五个帐户。
 
-1. 单击工具栏中的&#x200B;**![更多](/help/search-social-commerce/assets/more.png "更多")**，然后选择&#x200B;**[!UICONTROL Sync]**。
+1. 单击工具栏中的&#x200B;![**更多**](/help/search-social-commerce/assets/more.png "&#x200B;更多")，然后选择&#x200B;**[!UICONTROL Sync]**。
 
 您可以在[!UICONTROL Workspace]视图中跟踪同步作业的状态。 作业可能需要
 一小时或更长时间。
