@@ -3,7 +3,7 @@ title: 管理广告网络帐户
 description: 了解如何设置和管理广告网络帐户的帐户详细信息。
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 68efad8ad3bc2985ac75a0f9437a2eafb194e4b6
+source-git-commit: 5a9c2eabc3fe03da0868aefb79c4f71d6029c384
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -261,7 +261,7 @@ ht-degree: 0%
 
 **报表包名称：**(仅适用于带令牌的EF重定向；带有Adobe Advertising-Adobe Analytics集成的广告商；可选)一个或多个Analytics报表包，Search、Social和Commerce会向其发送从广告网络收集的数据，包括实体分类和帐户的点击数据。 此功能仅适用于受支持的广告网络。
 
-对于要显示在报表包中的数据，必须(a)为帐户配置服务器端AMO ID功能，或者(b)启用设置为“[!UICONTROL Enable tracking for SAINT feeds]”的广告商级别设置。 此外，必须将广告商的Analytics帐户配置为从Search、Social和Commerce接收数据。 有关更多信息，请与您的Adobe客户团队联系。
+对于要显示在报表包中的数据，必须(a)为帐户配置服务器端AMO ID功能，或者(b)启用设置为“[!UICONTROL Enable Advertising reporting in Analytics]”的广告商级别设置。 此外，必须将广告商的Analytics帐户配置为从Search、Social和Commerce接收数据。 有关更多信息，请与您的Adobe客户团队联系。
 
 >[!MORELIKETHIS]
 >

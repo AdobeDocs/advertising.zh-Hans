@@ -3,9 +3,9 @@ title: 包设置
 description: 请参阅有关可用包设置的说明。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: c1967636a762379f1daafb52cfe57dd0122b0748
+source-git-commit: 26c9c553dbd4086aa114b97dabdf4d9be10cdebe
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1086'
 ht-degree: 0%
 
 ---
@@ -58,11 +58,11 @@ ht-degree: 0%
 
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]：** （包具有包级别的步调并仅具有“[!UICONTROL Always Max Bid & Maximize Reach]”和“[!UICONTROL Lowest Cost per Reach]”优化目标）使用营销活动中所有程序化保证位置的家庭访问范围数据来优化增量访问。
 
-**[!UICONTROL Custom Goal for Model Learning]：** （仅具有“[!UICONTROL Highest Return on Ad Spend]”和“[!UICONTROL Lowest Cost per Acquisition]”优化目标的包）包含用于计算CPA或ROAS量度的收入或转化事件的[自定义目标](/help/dsp/optimization/custom-goal.md)。 自定义目标可以选择除了用于包优化的CPA或ROAS量度之外，还包括要使用的其他加权上漏斗事件（例如页面访问次数和购物车添加）。 有关自定义目标的更多信息，包括为自定义目标创建的最佳实践和使用这些目标的营销活动，请参阅&quot;[自定义目标](/help/dsp/optimization/custom-goal.md)&quot;和&quot;[设置效果营销活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
+**[!UICONTROL Custom Goal for Model Learning]：** （仅具有“[!UICONTROL Highest Return on Ad Spend]”和“[!UICONTROL Lowest Cost per Acquisition]”优化目标的包）包含用于计算CPA或ROAS量度的收入或转化事件的[自定义目标](/help/dsp/optimization/custom-goal.md)。 自定义目标必须包括用于包优化的CPA或ROAS量度之外的其他加权上漏斗事件（例如页面访问次数和购物车添加）。 有关自定义目标的更多信息，包括为自定义目标创建的最佳实践和使用这些目标的营销活动，请参阅&quot;[自定义目标](/help/dsp/optimization/custom-goal.md)&quot;和&quot;[设置效果营销活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]：** （可选；仅优化目标为“[!UICONTROL Highest Return on Ad Spend]”和“[!UICONTROL Lowest Cost per Acquisition]”的包）告知优化模型仅从基于点击的转化中学习。 否则，优化模型会学习基于点击和基于展示的转化。
 
-**[!UICONTROL Conversion Metric]：**（可选；仅具有“[!UICONTROL Highest Return on Ad Spend]”和“[!UICONTROL Lowest Cost per Acquisition]”优化目标的包）最终转化事件（如注册）或收入事件/销售金额（如购买和购买值），用于计算广告支出回报或每次收购成本。 从映射到所选自定义目标的所有主要事件（“目标量度”）的列表中进行选择。 如果列表为空，则编辑自定义目标以包含至少一个基础事件作为目标量度。
+**[!UICONTROL Conversion Metric]：** （仅具有“[!UICONTROL Highest Return on Ad Spend]”和“[!UICONTROL Lowest Cost per Acquisition]”优化目标的包）最终转化事件（如注册）或收入事件/销售金额（如购买和购买值），用于计算广告支出回报或每次购买成本。 从映射到所选自定义目标的所有主要事件（“目标量度”）的列表中进行选择。 如果列表为空，则编辑自定义目标以包含至少一个基础事件作为目标量度。
 
 **[!UICONTROL Package Goal Type]：** （仅具有自定义优化目标的包）包的用途。 此设置可帮助确定如何优化包：
 

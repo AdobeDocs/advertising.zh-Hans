@@ -3,9 +3,9 @@ title: 术语表
 description: 请参阅关键术语的定义。
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 128446e8fad1e2c973a62042933cc52bb556a71d
+source-git-commit: 58fab7afdca3468bf2bcca0f3120b3863af6eae2
 workflow-type: tm+mt
-source-wordcount: '2242'
+source-wordcount: '2303'
 ht-degree: 0%
 
 ---
@@ -54,13 +54,13 @@ ht-degree: 0%
 
 **成本准确性：** （具有组合项的广告商）组合的实际支出除以预测支出。 [模型准确度报表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指示用于优化的成本模型的准确度，[[!UICONTROL Model Accuracy]分析](/help/search-social-commerce/advertising-insights/insight-about.md)包含更多详细信息，以及提高模型准确性的建议。
 
-**成本模型：**（具有产品组合的广告商）使用历史数据和数学预测技术预测成本量、赢得每个职位或位置所需的出价以及每个出价单位的CPC（搜索）或CPM（显示）的搜索、社交和Commerce技术。
+**成本模型：**（具有产品组合的广告商）搜索、社交和Commerce技术，它使用历史数据和数学预测技术来预测成本量、赢得每个职位或位置所需的出价以及每个出价单位的CPC（搜索）或CPM（显示）。
 
 **成本模型覆盖率：**（具有产品组合的广告商）在过去七天内至少获得一次展示的CPC或eCPC促销活动中竞价单位的数量和/或百分比，以便优化功能可以构建成本模型。 并非所有竞价单位都有成本模型；具有成本模型的竞价单位计入成本模型覆盖范围。
 
 **成本模型半衰期：**（具有投资组合的广告商）当前日期之前的天数，在此天数内，成本数据被视为较新，因此与成本模型更相关。
 
-**每1000次展示的成本：** (CPM)每1000次展示的广告成本。 使用CPM定价模型的广告商按展示次数而不是点击量付款。
+**每1000次展示的成本：** (CPM)每1000次展示的广告成本。 使用CPM定价模型的广告商通过展示次数而不是点击次数来付费。
 
 **每次购置成本：** (CPA)广告成本除以转化次数。 也称为每次交易成本(CPT)或每次订单成本(CPO)。
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 ## E-F {#e-f}
 
-**eCPM：**&#x200B;有效CPM或指定日期范围内每1000次展示所支付的平均成本。 可以为CPM或CPC营销活动计算eCPM值。
+**eCPM：**&#x200B;有效的CPM，或在指定日期范围内每1000次展示所支付的平均成本。 可以为CPM或CPC营销活动计算eCPM值。
 
 ## G-H {#g-h}
 
@@ -180,6 +180,8 @@ ht-degree: 0%
 **支出策略：** （具有投资组合的广告商）为优化投资组合的关键字/广告竞价而选择的策略。
 
 **`s_kwcid`：**&#x200B;请参阅“AMO ID”。
+
+**跟踪模板：** （仅具有最终URL的帐户）跟踪模板或跟踪URL，它指定所有登出域重定向和跟踪参数，并将最终/高级URL嵌入到参数中。 对于Adobe Advertising转化跟踪（在Campaign设置包括&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;时应用），Search、Social和Commerce会在您保存记录时自动为其自己的重定向和跟踪代码添加前缀。
 
 **跟踪URL：**&#x200B;添加了跟踪模板或目标URL以及额外的参数，用于跟踪有关广告点击的信息。 它可以包括一个重定向URL，用于在将用户重定向到广告商的登陆页面之前，先将用户发送到跟踪服务器。
 
