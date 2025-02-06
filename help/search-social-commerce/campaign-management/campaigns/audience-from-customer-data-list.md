@@ -3,9 +3,9 @@ title: 使用客户数据列表管理客户匹配受众
 description: 了解如何从您的客户数据列表中创建和编辑 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 客户匹配受众。
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 46d736c3e14bf407c513c5cb6a153a578aa65121
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -54,11 +54,11 @@ ht-degree: 0%
 
          * （[!DNL Android™]个应用）[!DNL Google Play]中的[!DNL Android™]包名称，由“`id=<package_name>`”标识。
 
-           例如，在https://play.google.com/store/apps/details?id=com.example.game中，包名称为com.example.game。
+           例如，在`https://play.google.com/store/apps/details?id=com.example.game`中，包名称为com.example.game。
 
          * （[!DNL iOS]个应用程序）[!DNL iTunes App Store]中的应用程序ID，由URL末尾的“`<idNNNNNNNNN>`”标识。 [!DNL iOS Developer Console]中也有提供。
 
-           例如，在https://itunes.apple.com/us/app/id284882215中，ID为id284882215。
+           例如，在`https://itunes.apple.com/us/app/id284882215`中，ID是ID284882215。
 
          您的开发团队有权访问相关平台的[!UICONTROL App ID]。
 
