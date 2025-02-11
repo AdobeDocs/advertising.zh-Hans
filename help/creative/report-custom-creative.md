@@ -135,7 +135,7 @@ ht-degree: 0%
 
    * *[!UICONTROL Social Only]：*&#x200B;已过时
 
-另请参阅&quot;[如何计算Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md)的归因规则。&quot;
+另请参阅&quot;[如何为Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md)计算归因规则。&quot;
 
 **[!UICONTROL Paths as Columns]：**&#x200B;当同一设备上发生先前事件时要报告的转化类型。 您最多可以包含三种类型。 对于每个选定的类型，每个转化量度都包含一个单独的列，该列将附加指定的后缀（[!UICONTROL (tl)]、[!UICONTROL (ct)]或[!UICONTROL (vt)]）：
 

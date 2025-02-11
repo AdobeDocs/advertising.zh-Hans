@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# 关于Advertising Creative2.0中的体验
+# 关于Advertising Creative 2.0中的体验
 
 *已关闭的测试版*
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
   例如，您可以为芝加哥和纽约市的特定Adobe Analytics受众区段中的人员指定相同的创意包，但是将芝加哥的同一区段中的人员发送给与纽约人不同的登陆页面。 此外，您还可以为区段中除芝加哥和纽约市之外的其他位置的用户指定不同的捆绑，并为不在此区段中的其他用户指定第三个捆绑。
 
-  定位选项包括：来自Adobe Audience Manager、Adobe Analytics和Advertising Cloud DSP的第一方受众区段中的查看器；位于特定地理位置的查看器，包括国家/地区、州、美国境内的DMA、城市和邮政编码；从DSP、发布者或合作伙伴传递特定键值对（数据传递目标）的查看器；具有[!DNL Creative]重定位像素和指定属性值的查看器；以及具有特定设备类型、操作系统和浏览器的查看器。
+  定位选项包括：来自Adobe Audience Manager、Adobe Analytics和Advertising Cloud DSP的第一方受众区段中的查看器；特定地理位置的查看器，包括国家/地区、州、美国境内的DMA、城市和邮政编码；从DSP、发布者或合作伙伴传递特定键值对（数据传递目标）的查看器；具有[!DNL Creative]重定位像素和指定属性值的查看器；以及具有特定设备类型、操作系统和浏览器的查看器。
 
   您可以为每个体验分配创意包，还可以选择自定义创意包的优化和计划，以及更改每个包中单个创意的默认登陆页面和跟踪URL<!-- and any flexible attributes -->。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 实施和管理体验
 
-创建实时体验（包含所有必需的广告元素）后，您可以[为整个体验](experience-tag-export.md)生成JavaScript或iframe标记，您可以选择将该标记作为广告上传到Adobe Advertising DSP中的促销活动或在第三方DSP中作为广告实施。 [!DNL Creative]根据定位和广告轮换选项以及可用的广告库存为体验投放广告。
+创建实时体验（包含所有必需的广告元素）后，您可以[为整个体验](experience-tag-export.md)生成JavaScript或iframe标记，这些标记可以选择作为广告上传到Adobe Advertising DSP中的促销活动，或者在第三方DSP中作为广告实施。 [!DNL Creative]根据定位和广告轮换选项以及可用的广告库存为体验投放广告。
 
 ## 您的体验的性能数据
 
@@ -71,13 +71,13 @@ You can [view detailed performance data for any experience](experience-performan
 
 >[!NOTE]
 >
->您可以更改DSP中广告的状态，而不会影响[!DNL Creative]中的体验状态。
+>您可以在DSP中更改广告的状态，而不会影响[!DNL Creative]中的体验状态。
 
 ## [!UICONTROL Experiences]视图
 
 [!UICONTROL Experiences]视图显示所有针对性和非针对性体验。 您可以查看已分配创意或创意包的体验名称、状态、开始和结束日期、数量和维度，以及体验是否包含动态广告。 当您在[!UICONTROL Experiences]视图中启用[!UICONTROL Metrics]选项时，每个体验卡或行都会指示体验收到的展示次数和点击次数。
 
-您可以创建和管理体验，包括优化并将创意和创意捆绑包分配给体验。 您还可以创建和重命名广告Experience标记，并导出JavaScript和iframe格式的标记，以供在DSP中实施。 使用Advertising DSP的广告商可以选择将标记作为广告直接上传到Advertising DSP促销活动。
+您可以创建和管理体验，包括优化并将创意和创意捆绑包分配给体验。 您还可以创建和重命名广告体验标记，并导出JavaScript和iframe格式的标记，以供在DSP上实施。 使用Advertising DSP的广告商可以选择将标记作为广告直接上传到Advertising DSP促销活动。
 
 <!--
 ### Available actions

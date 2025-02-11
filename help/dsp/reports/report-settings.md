@@ -70,7 +70,7 @@ ht-degree: 0%
 * （可选）向过滤器添加其他标准。
 * （可选）添加其他过滤器，每个过滤器具有一个或多个标准。
 
-\* *[!UICONTROL Account]*&#x200B;仅在您的组织配置了[跨帐户报告](report-about.md#cross-account-reporting)时才可用于以下报告类型： [!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)]和[!UICONTROL Conversion]。 请联系您的Adobe客户团队，以获取有关跨帐户报表的更多信息。
+\* *[!UICONTROL Account]*&#x200B;仅在您的组织配置了[跨帐户报告](report-about.md#cross-account-reporting)时才可用于以下报告类型： [!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)]和[!UICONTROL Conversion]。 有关跨帐户报表的更多信息，请与Adobe客户团队联系。
 
 **[!UICONTROL Include data from Adobe Advertising SSC]：** （仅转化路径、路径长度和转化时间报表）包含指定Advertising Search、Social和Commerce促销活动中的搜索广告点击数据。 选择此选项时：
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 **[!UICONTROL Attribution Rule Settings]：**&#x200B;设置因报告类型而异：
 
-* **\[归因类型\]：** ([!UICONTROL Household Conversion]个包含[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]列的报告；仅包含Adobe Advertising转化跟踪的广告商)在报告中，如何在一系列导致转化的事件中归因转化数据：
+* **\[归因类型\]：** (包含[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]列的[!UICONTROL Household Conversion]报表；仅包含Adobe Advertising转化跟踪的广告商)在报表中，如何在一系列导致转化的事件中归因转化数据：
 
    * *[!UICONTROL Unique]：* （默认值）计算维度值（如设备或投放位置）在转化路径上的次数。
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 
    * *[!UICONTROL Social Only]：*&#x200B;已过时
 
-另请参阅&quot;[如何计算Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md)的归因规则。&quot;
+另请参阅&quot;[如何为Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md)计算归因规则。&quot;
 
 * **回顾：** ([!UICONTROL Household Conversion]个报告具有[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]列，而[!UICONTROL Path to Conversion]、[!UICONTROL Path Length]或[!UICONTROL Time to Conversion]个报告仅具有[!UICONTROL Conversion Metrics]列；广告商仅具有Adobe Advertising转化跟踪)在报表内，转化事件可归因到它的展示事件或点击事件（对于[!UICONTROL Path to Conversion]、[!UICONTROL Path Length]或[!UICONTROL Time to Conversion]报表）后的最大天数。 默认值为&#x200B;*[!UICONTROL 30 days]*，最大值为92天。
 

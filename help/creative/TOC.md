@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# (封闭Beta)Advertising Creative2.0指南 {#creative}
+# (封闭Beta) Advertising Creative 2.0指南 {#creative}
 
 + [新增功能](/help/creative/home.md)
 + 简介{#introduction}
@@ -28,7 +28,7 @@ ht-degree: 0%
          + [将标准创意添加到创意库](/help/creative/creative-libraries/creative-add-standard.md)
          + [编辑标准创意](/help/creative/creative-libraries/creative-edit-standard.md)
          + [标准创意设置](/help/creative/creative-libraries/creative-settings-standard.md)
-         + [HTML5创意规范](/help/creative/creative-libraries/html5-creative-specification.md)
+         + [HTML5创作规范](/help/creative/creative-libraries/html5-creative-specification.md)
       + [预览创意](/help/creative/creative-libraries/creative-preview.md)
       + [从捆绑包中附加和分离创意](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [复制创意](/help/creative/creative-libraries/creative-duplicate.md)

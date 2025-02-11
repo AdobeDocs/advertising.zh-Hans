@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *已关闭的测试版*
 
-特定创意大小的广告标记可用于[实时](experience-about.md#experience-statuses)体验后，您可以在JavaScript和iframe格式中生成并复制该标记，以便在Advertising DSP或其他DSP中实施。 DSP的标记包括DSP所需的所有宏。
+特定创意大小的广告标记可用于[实时](experience-about.md#experience-statuses)体验后，您便可以生成并复制JavaScript和iframe格式的标记，以便在Advertising DSP或其他DSP上实施。 DSP的标记包括DSP所需的所有宏。
 
 使用Advertising DSP的广告商可以选择将标记作为广告直接上传到Advertising DSP促销活动。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 1. 在[!UICONTROL Destinations]列表中，选择要为体验创建广告的位置。
 
-   * *Adobe Advertising：*&#x200B;对于您将在Advertising DSP中创建的广告。
+   * *Adobe Advertising：*&#x200B;对于将在Advertising DSP中创建的广告。
 
    * *通用：*&#x200B;对于您将在其他DSP中创建的广告。 **注意：**&#x200B;您可能需要根据需要手动包含其他宏。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 1. 实施相关DSP的标记：
 
-   * 对于Advertising DSP以外的DSP，请为将在DSP中创建广告的用户提供标记。
+   * 对于Advertising DSP以外的DSP，将标记提供给将在DSP中创建广告的用户。
 
    * 对于Advertising DSP：
 
