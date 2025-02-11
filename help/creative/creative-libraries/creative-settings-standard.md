@@ -2,9 +2,10 @@
 title: 创意设置
 description: 了解xxxx。
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1835'
 ht-degree: 0%
 
 ---
@@ -83,7 +84,7 @@ ht-degree: 0%
 
    查看[灵活的广告规范](#flexible-ad-spec)。
 
-1. 根据需要编辑新的[弹性HTML广告设置](#flexible-ad-settings)。
+1. 根据需要编辑新的[灵活HTML广告设置](#flexible-ad-settings)。
 
 1. 单击&#x200B;**[!UICONTROL Edit]**
 
@@ -105,7 +106,7 @@ ht-degree: 0%
 >
 >将创意包含在体验中时，您可以将任何点击标记的默认值替换为自定义登陆页面URL，以生成基本创意的派生。
 
-**登陆页面URL：**(仅带有一个登陆页面的简单HTML5创意)您与创意关联的每个广告的默认登陆页面URL。 它必须是以http://或https://开头的有效URL。 它可能包含第三方跟踪参数或[[!DNL Creative] 宏](/help/creative/creative-macros.md)供您自行使用。
+**登陆页面URL：**(仅带有一个登陆页面的简单HTML5创意)您与创意人员关联的每个广告的默认登陆页面URL。 它必须是以http://或https://开头的有效URL。 它可能包含第三方跟踪参数或[[!DNL Creative] 宏](/help/creative/creative-macros.md)供您自行使用。
 
 在捆绑包中包含创意并将捆绑包分配给体验时，您可以选择更改登陆页面URL，并为捆绑包中的每个创意添加展示和点击跟踪URL以及JavaScript 。<!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
@@ -173,9 +174,9 @@ ht-degree: 0%
 
 **JavaScriptCode：**&#x200B;指向第三方广告服务器上的创意的JavaScript标记(以及可选的不支持JavaScript的浏览器的替代标记)。 脚本将因广告服务器而异。 编辑多个创意时，相同的值将应用于每个选定的创意。
 
-所有可用的宏及其替代数据都列在输入字段的下方。 若要在标记中插入一个宏，请将光标悬停在宏描述上，单击![复制到剪贴板](/help/creative/assets/copy-to-clipboard.png "复制到剪贴板")，然后将图像粘贴到标记中所需的位置。
+所有[可用的宏](/help/creative/creative-macros.md)及其替代数据都列在输入字段的下方。 若要在标记中插入一个宏，请将光标悬停在宏描述上，单击![复制到剪贴板](/help/creative/assets/copy-to-clipboard.png "复制到剪贴板")，然后将图像粘贴到标记中所需的位置。
 
-当您将此创意内容包含到在DSP中作为广告实施的体验中时，DSP会使用此标记中的信息来显示广告并跟踪其展示次数和点击次数，然后将标记推送到广告交换。 当显示广告并单击时，广告服务器、DSP和[!DNL Creative]将跟踪事件。
+当您将此创意包含在DSP中作为广告实施的体验中时，DSP会使用此标记中的信息来显示广告并跟踪其展示次数和点击次数，然后将标记推送到广告交换。 显示广告并单击后，广告服务器、DSP和[!DNL Creative]将跟踪这些事件。
 
 **[!UICONTROL Advertiser]：** （只读）可用库的广告商。
 
@@ -201,3 +202,4 @@ u
 >
 >* [将标准创意添加到创意库](/help/creative/creative-libraries/creative-add-standard.md)
 >* [编辑标准创意](/help/creative/creative-libraries/creative-edit-standard.md)
+>* [可用于跟踪URL的宏](/help/creative/creative-macros.md)

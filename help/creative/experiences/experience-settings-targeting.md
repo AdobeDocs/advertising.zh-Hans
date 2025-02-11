@@ -2,9 +2,10 @@
 title: 目标体验设置
 description: 请参阅针对性广告体验的所有设置的描述。
 feature: Creative Experiences
-source-git-commit: fbf663b38282f48facab57efaf5533892642a252
+exl-id: cb6fd855-6534-4eac-b34b-323073d186be
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser]：** （现有体验为只读）将对体验中包含的创意和目标组合进行竞价的广告商。 保存体验后，便无法更改广告商。
 
-**[!UICONTROL Experience Name]：**&#x200B;体验的唯一名称。 **提示：**&#x200B;在Advertising DSP或其他DSP中将体验用作广告时，请使用容易找到的名称。
+**[!UICONTROL Experience Name]：**&#x200B;体验的唯一名称。 **提示：**&#x200B;在Advertising DSP或其他DSP中使用该体验作为广告时，请使用容易找到的名称。
 
 **[!UICONTROL Creative Library]：** （现有体验为只读）用于该体验的单个创意库。 保存体验后，便无法更改库。
 
@@ -52,7 +53,7 @@ ht-degree: 0%
 **数据传递：**（现有体验为只读；可选）根据DSP、发布者或合作伙伴在展示时实时传递的特定键值对定位用户。 您最多可以指定五个数据传递键（参数）。 在决策树中设置定位时，您可以包含一个级别的数据传递目标节点，并指定每个节点的目标值。 如果您在创建体验时没有在此字段中指定键，则仍可以在决策树中指定键。<!-- May move this to just within the decision tree.  -->
 
 每个键都会作为广告体验中的宏附加
-标记，您可以生成该标记以在DSP中作为广告实施。
+标记，您可以生成该标记以将其作为广告在DSP中实施。
 
 **Radius：** （仅限具有动态广告的体验；可选）要定位的用户半径。 选择从0英里到200英里的半径。<!-- Affect within the decision tree? -->
 
@@ -70,7 +71,7 @@ ht-degree: 0%
 
 **展示跟踪URL：**（可选）要附加到从体验创建的任何广告的登陆页面URL的第三方展示跟踪URL。 您最多可以包含五个URL。 要添加其他URL，请单击![图标](/help/creative/assets/create.png) **[!UICONTROL Add More]并输入该URL。
 
-输入URL后，页面下方会列出所有可用的宏及其替代数据。 要在URL中插入一个宏，请将光标悬停在宏描述上，单击![复制到剪贴板](/help/creative/assets/copy-to-clipboard.png "复制到剪贴板")，然后将宏粘贴到URL字段中所需的位置。
+输入URL后，所有[可用的宏](/help/creative/creative-macros.md)及其替代数据将列在页面的下方。 要在URL中插入一个宏，请将光标悬停在宏描述上，单击![复制到剪贴板](/help/creative/assets/copy-to-clipboard.png "复制到剪贴板")，然后将宏粘贴到URL字段中所需的位置。
 
 >[!NOTE]
 >
@@ -80,7 +81,7 @@ ht-degree: 0%
 
 **点击跟踪URL：**（可选）（可选）要附加到登陆页面URL的第三方点击跟踪URL。 您最多可以包含五个URL。 要添加其他URL，请单击![图标](/help/creative/assets/create.png) **[!UICONTROL Add More]并输入该URL。
 
-输入URL后，页面下方会列出所有可用的宏及其替代数据。 要在URL中插入一个宏，请将光标悬停在宏描述上，单击![复制到剪贴板](/help/creative/assets/copy-to-clipboard.png "复制到剪贴板")，然后将宏粘贴到URL字段中所需的位置。
+输入URL后，所有[可用的宏](/help/creative/creative-macros.md)及其替代数据将列在页面的下方。 要在URL中插入一个宏，请将光标悬停在宏描述上，单击![复制到剪贴板](/help/creative/assets/copy-to-clipboard.png "复制到剪贴板")，然后将宏粘贴到URL字段中所需的位置。
 
 >[!NOTE]
 >
@@ -97,3 +98,4 @@ ht-degree: 0%
 >
 >* [使用决策树定位创建体验](experience-create-targeting.md)
 >* [使用决策树定位编辑体验](experience-edit-targeting.md)
+>* [可用于跟踪URL的宏](/help/creative/creative-macros.md)

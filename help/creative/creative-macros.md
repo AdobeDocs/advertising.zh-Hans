@@ -2,9 +2,10 @@
 title: 可用于跟踪URL的宏
 description: 引用可添加到登陆页面URL跟踪URL的宏以及第三方创意。
 feature: Creative Experiences, Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -38,20 +39,21 @@ ht-degree: 0%
 -->
 
 | 宏 | 描述 | 是否自动在Advertising DSP的Experience Tags中启用？ |
-| --- | --- | --- | --- |
-| `${TM_CAMPAIGN_ID_NUM}` | 跟踪并报告DSP中的促销活动ID | 是 |
+| --- | --- | --- |
+| `${TM_CAMPAIGN_ID_NUM}` | 从DSP跟踪和报告营销活动ID | 是 |
 | `${TM_SITE_ID_NUM}` | 从DSP跟踪和报告网站ID | 是 |
 | `${TM_PLACEMENT_ID_NUM}` | 从DSP跟踪和报告版面ID | 是 |
-| `${TM_AD_ID_NUM}` | 跟踪并报告DSP中的广告ID | 是 |
+| `${TM_AD_ID_NUM}` | 从DSP跟踪和报告广告ID | 是 |
 | `${TM_CREATIVE_ID_NUM}` | 从DSP跟踪和报告创意ID | 不适用 |
-| `${TM_SESSION_ID}` | 跟踪并报告来自DSP的展示ID。 如果未返回值，则Advertising Creative会生成一个值。 | 是 |
+| `${TM_SESSION_ID}` | 跟踪并报告来自DSP的展示ID。 如果不返回值，Advertising Creative将生成一个值。 | 是 |
 | `${TM_ACC_EXPERIENCE_ID}` | 跟踪和报告Advertising Creative体验ID | — |
-| `${TM_ACC_CREATIVE_ID}` | 跟踪和报告Advertising Creative创作ID | — |
+| `${TM_ACC_CREATIVE_ID}` | 跟踪和报告Advertising Creative创意ID | — |
 | `${TM_RANDOM}` | 介于1和1000000之间的随机数 | — |
 | `${TM_TIMESTAMP}` | Unix时间戳（以秒为单位） | — |
 | `${TM_CLICK_URL_URLENC}` | （适用于来自需要URL编码的供应商的第三方广告）经过编码的点击重定向URL，使广告服务器能够跟踪和计数广告点击次数。 当投放广告且用户单击该广告时，将激活宏，并且会记录并计数单击次数以用于生成报表。 | 是 |
 
 >[!MORELIKETHIS]
 >
->* 
+>* [将标准创意添加到创意库](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
+>* [标准创意设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* 

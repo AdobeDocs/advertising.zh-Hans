@@ -2,9 +2,10 @@
 title: 将标准创意添加到创意库
 description: 了解如何将标准（非动态）创意添加到创意库。
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -101,9 +102,9 @@ For information about the attributes available in predefined templates, see "[Av
 
 -->
 
-## 将HTML5创意内容添加到创意库
+## 将HTML5创意添加到创意库
 
-<!-- verify -->您可以一次添加单一类型（简单或静态）的多个HTML5创意。
+<!-- verify -->您可以一次添加多个属于单一类型（简单或静态）的HTML5创意。
 
 <!-- Add in when we add this feature back:
 You can optionally download a sample HTML5 creative as a ZIP file, edit the contents to build your own creative, and then add the edited file as a new creative.
@@ -139,7 +140,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    请参阅[HTML5广告规范](/help/creative/creative-libraries/html5-creative-specification.md)。
 
-1. 指定[HTML5广告设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5)
+1. 指定[HTML5广告设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5)。
 
 默认情况下，将选择您刚刚上传的所有创意内容。 任何只有一个值的设置均适用于所有选定的创意；对于某些设置，您可以指定单个值。 要输入特定创意的设置，请取消选中每个不适用的创意旁边的复选框。
 
@@ -175,7 +176,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. 单击&#x200B;**[!UICONTROL Create]**
 
-## 向创意库添加第三方创意内容
+## 向创意库添加第三方创意内容 {#creative-add-third-party}
 
 [!DNL Creative]支持大多数第三方广告服务器上托管的创意内容的JavaScript跟踪标记。
 
@@ -187,9 +188,9 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. 单击&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL 3rd Party]**。
 
-1. 在[第三方创意设置]中指定创意的JavaScript标记和其他设置。
+1. 在[第三方创意设置](#creative-settings-third-party)中指定创意的JavaScript标记和其他设置。
 
-   您可以将任何可用的宏复制并粘贴到JavaScript标记中。
+   您可以将[可用宏](/help/creative/creative-macros.md)中的任意宏复制并粘贴到JavaScript标记中。
 
 1. 单击&#x200B;**[!UICONTROL Create]**
 
@@ -197,6 +198,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 >
 >* [编辑标准创意](/help/creative/creative-libraries/creative-edit-standard.md)
 >* [标准创意设置](/help/creative/creative-libraries/creative-settings-standard.md)
+>* [可用于跟踪URL的宏](/help/creative/creative-macros.md)
 >* [支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)
 >* [预览创意](/help/creative/creative-libraries/creative-preview.md)
 >* [从包中附加和分离创意](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
