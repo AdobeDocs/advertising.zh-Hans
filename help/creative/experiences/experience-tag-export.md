@@ -2,9 +2,10 @@
 title: 为实时体验导出和实施广告体验标记
 description: 了解如何导出广告体验标记并（可选）将其上传到Advertising DSP营销活动。
 feature: Creative Experiences
-source-git-commit: fc2cd07944026badc0722c1449aa9aaf2c94bfd7
+exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
+source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -22,8 +23,6 @@ ht-degree: 0%
 >* 当您使用决策树定位创建体验时，[!DNL Creative]会自动为每个适用的创意大小创建广告标记。
 >* 当您创建没有决策树定位的体验时，必须为每种适用的创意大小[手动创建广告标记](experience-tag-create-manually.md)。
 >* 体验标记是动态的。 如果您编辑体验，则无需更新标记。
-
-## 为具有决策树定位的体验导出广告标记
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
 

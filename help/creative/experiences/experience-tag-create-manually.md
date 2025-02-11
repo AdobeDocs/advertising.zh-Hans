@@ -2,9 +2,10 @@
 title: 为适用的创意大小手动创建广告标记
 description: 了解如何为特定创意大小创建广告标记。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
+source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,8 @@ ht-degree: 0%
    您可以为相同的创意大小创建多个标记。<!-- What are the implications? -->
 
 1. 单击&#x200B;**[!UICONTROL Create]**。
+
+   您可以展开标记行以查看包含的创意。
 
 >[!MORELIKETHIS]
 >

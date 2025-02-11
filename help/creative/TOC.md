@@ -4,73 +4,15 @@ user-guide-title: Advertising Creative指南
 user-guide-description: 了解使用Advertising Creative所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: Creative指南
 hide: true
-index: false
-source-git-commit: d51687fd2cac271424485b26cd20787d603d3112
+source-git-commit: a5952cbd26ebdbf7e16d7735555d956353616d40
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
 
 # (封闭Beta)Advertising Creative2.0指南 {#creative}
-
-<!-- combine intro/common tasks into just a couple of top-level files? -->
-
-
-<!-- Add in once the pages are done:
-
-+ [What's new](/help/creative/home.md)
-+ Introduction {#creative-introduction}
-  + [About Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
-  + [Overview of implementing Adobe Advertising Creative](/help/creative/introduction/implementation-overview.md)
-  + [How the user interface is organized](/help/creative/introduction/ui.md)
-
-
-  + Creatives {#creatives}
-    + Standard creatives {#standard-creatives}
-      + [Available flexible creative templates ](/help/creative/creative-libraries/flexible-html5-templates.md)
-
-    + Dynamic creatives {#dynamic-creatives}
-	    + [Add dynamic creatives to a creative library](/help/creative/creative-libraries/creative-add-dynamic.md)
-	    + [Edit dynamic creatives](/help/creative/creative-libraries/creative-edit-dynamic.md)
-	    + [Dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md)
-
-+ Ad experiences {#creative-experiences}
-  + Workflow
-  + Workflow
-
-  + Ad tags
-    + (Experiences without targeting) Create an ad tag [already listed above]
-    + [Export and implement an ad experience tag for a live experience](/help/creative/experiences/experience-tag-export.md)
-    + [Rename an ad tag](/help/creative/experiences/experience-tag-rename.md)
-
-
-  + [Delete an experience](/help/creative/experiences/experience-delete.md)
-  + Performance Reports {#reports}
-    + 
-
-+ Tracking pixels
-  + [Manage conversion pixels](/help/creative/pixels/conversion-pixel-manage.md)
-
-+ Custom Reports {#custom-reports}
-  + [About Custom Reports](/help/dsp/reports/report-about.md)
-  + [Create a Custom Report](/help/dsp/reports/report-create.md)
-  + [Duplicate a Custom Report](/help/dsp/reports/report-copy.md)
-  + [Edit a Custom Report](/help/dsp/reports/report-edit.md)
-  + [Delete a Custom Report](/help/dsp/reports/report-delete.md)
-  + [Run a Custom Report](/help/dsp/reports/report-run-now.md)
-  + [Download a Custom Report](/help/dsp/reports/report-download.md)
-  + [Custom Report Settings](/help/dsp/reports/report-settings.md)
-  + [Available Report Columns](/help/dsp/reports/report-columns.md)
-  + [FAQs About Household Reports](/help/dsp/reports/faq-reports.md)
-  + Report Destinations {#report-destinations}
-    + [About [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
-    + [Create a [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
-    + [Edit a [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
-    + [Delete a [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-    + [[!UICONTROL Report Destination] Settings](/help/dsp/reports/report-destinations/report-destination-settings.md)
--->
 
 + [新增功能](/help/creative/home.md)
 + 简介{#introduction}
@@ -128,8 +70,10 @@ ht-degree: 0%
    + [下载视图中的所有体验](/help/creative/experiences/experience-download-view.md)
    + [重命名广告标记](/help/creative/experiences/experience-tag-rename.md)
    + [删除体验](/help/creative/experiences/experience-delete.md)
++ 性能报表{#reports}
+   + [体验级性能报表](/help/creative/experiences/experience-performance-details.md)
+   + [自定义创意报表](/help/creative/report-custom-creative.md)
 + [正在重新定位像素](/help/creative/pixels/retargeting-pixel-manage.md)
-+ 自定义报告{#custom-reports}
 + [可用于跟踪URL的宏](/help/creative/creative-macros.md)
 + [客户支持](https://experienceleague.adobe.com/home?support-tab=home#support)
 + [Adobe Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
