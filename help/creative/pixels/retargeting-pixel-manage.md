@@ -2,9 +2,10 @@
 title: 管理重定位像素
 description: 了解如何创建和实施重新定位像素以用作广告体验的目标。
 feature: Creative Pixels
-source-git-commit: 91edc406401cbdae44932a2c70f7daf12d8d7b4e
+exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
+source-git-commit: 147f47fcdc504fba67a6894edaa9249662131e05
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -31,7 +32,7 @@ ht-degree: 0%
 >
 > * [!DNL Creative]当前仅支持Advertising DSP的通用ID。 未来版本将支持第三方DSP的通用ID。<!-- Clarify this and reword as needed -->
 >* 您还可以将来自Adobe Audience Manager和Adobe Analytics的第一方受众用作您的体验的[创意目标](/help/creative/experiences/experience-settings-targeting.md)。
->* 在Advertising DSP投放位置中将体验用作广告时，您可以将投放位置定向到DSP中所有可供您使用的受众。 您还可以[创建自定义受众区段标记](/help/dsp/audiences/custom-segment-create.md)以跟踪特定登陆页面的所有访客，然后将这些区段用作投放的创意目标。
+>* 在Advertising DSP投放位置中使用体验作为广告时，您可以将投放位置定向到DSP中所有可供您使用的受众。 您还可以[创建自定义受众区段标记](/help/dsp/audiences/custom-segment-create.md)以跟踪特定登陆页面的所有访客，然后将这些区段用作投放的创意目标。
 >* 选择退出跟踪以进行广告定位的网站访客不会根据受众区段或重新定位用户档案接收带有个性化创意内容的广告。
 
 ## 创建重定位像素
@@ -78,7 +79,7 @@ ht-degree: 0%
 
    如果手动添加其他属性，则必须包含URL编码。
 
-   例如，如果您包含属性“category”、“color”和“size”并捕获ID5通用ID，则像素标记将包含以下参数： `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--`和`&id5pid=--Insert ID5_PARTNER_ID--`。 例如，要定位选择大小为10的红色凉鞋的用户，您应该将图像标记和脚本标记中的参数更改为`&ut1=--sandals--&ut2=--red--&ut3=--10--`，并在脚本标记中输入ID5合作伙伴ID，如`&id5pid=--0123456789--`。&lt;！ — 验证最终语法 — 是否应只是：&amp;ut1=凉鞋&amp;ut2=10&amp;ut2=red ？—>
+   例如，如果您包含属性“category”、“color”和“size”并捕获ID5通用ID，则像素标记将包含以下参数： `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--`和`&id5pid=--Insert ID5_PARTNER_ID--`。 例如，要定位选择大小为10的红色凉鞋的用户，您应该将图像标记和脚本标记中的参数更改为`&ut1=sandals&ut2=red&ut3=10`，并在脚本标记中输入ID5合作伙伴ID，如`&id5pid=0123456789`。
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 
@@ -116,7 +117,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Ramp ID]：*&#x200B;像素标记跟踪[!DNL Ramp IDs]。 对于传送到通用ID的展示，不产生任何费用。
 
-要使用此功能，您或DSP帐户中的其他用户必须接受服务协议中的使用通用ID一次的条款，然后才能将通用ID用于新ID类型。 对于签订托管服务合同的客户，您的Adobe客户团队将代表贵组织获得您的同意并接受相关条款。 若要阅读术语，请单击&#x200B;**[!UICONTROL Terms of Service]**。 要接受条款，请滚动到条款的底部并单击&#x200B;**[!UICONTROL Accept]**。
+要使用此功能，您或DSP帐户中的其他用户必须接受服务协议条款中关于使用通用ID一次，然后才能将通用ID用于新ID类型。 对于签订托管服务合同的客户，您的Adobe客户团队将代表贵组织获得您的同意并接受条款。 若要阅读术语，请单击&#x200B;**[!UICONTROL Terms of Service]**。 要接受条款，请滚动到条款的底部并单击&#x200B;**[!UICONTROL Accept]**。
 
 >[!MORELIKETHIS]
 >
