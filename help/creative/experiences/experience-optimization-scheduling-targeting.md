@@ -3,9 +3,9 @@ title: 自定义体验的创意优化和计划
 description: 了解如何
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 4d0f4b2a46a65c7fa1afec0a4ef419e58b8f8f59
+source-git-commit: f6da629fdb81af4393bac9a81050111aded3ee3a
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,9 @@ ht-degree: 0%
 
 1. 选择创意旋转类型：
 
-   * &amp;amp；ast；&amp;amp；ast； *加权* &amp;amp；ast；&amp;amp；ast； — 根据相对权重手动旋转每个包中的创意。 输入每个束的重量（百分比）。 所有捆绑的重量之和必须为100。
+   * *[!UICONTROL Weighted]：*&#x200B;根据相对权重手动旋转每个包中的创意。 输入每个束的重量（百分比）。 所有捆绑的重量之和必须为100。
 
-   * &amp;amp；ast；&amp;amp；ast； *算法* &amp;amp；ast；&amp;amp；ast； — 根据指定的优化目标以算法方式旋转每个包中的创意。
+   * *[!UICONTROL Algorithmic]：*&#x200B;根据指定的优化目标以算法方式旋转每个包中的创意。
 
       * 对于&#x200B;**[!UICONTROL Optimization Goal]**，选择&#x200B;*[!UICONTROL Click Through Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果选择&#x200B;*[!UICONTROL Custom Objective]*，则请选择现有的[Advertising DSP自定义目标](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
 
@@ -57,9 +57,9 @@ ht-degree: 0%
 
    1. 选择创意旋转类型：
 
-      * &amp;amp；ast；&amp;amp；ast； *加权* &amp;amp；ast；&amp;amp；ast； — 根据相对权重手动旋转每个包中的创意。 输入每个束的重量（百分比）。 所有选定包的权重之和必须为100。
+      * *[!UICONTROL Weighted]：*&#x200B;根据相对权重手动旋转每个包中的创意。 输入每个束的重量（百分比）。 所有选定包的权重之和必须为100。
 
-      * &amp;amp；ast；&amp;amp；ast； *算法* &amp;amp；ast；&amp;amp；ast； — 根据指定的优化目标以算法方式旋转每个包中的创意。
+      * *[!UICONTROL Algorithmic]：*&#x200B;根据指定的优化目标以算法方式旋转每个包中的创意。
 
          * 对于&#x200B;**[!UICONTROL Optimization Goal]**，选择&#x200B;*[!UICONTROL Click Through Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果选择&#x200B;*[!UICONTROL Custom Objective]*，则请选择现有的[Advertising DSP自定义目标](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
 
@@ -73,9 +73,9 @@ ht-degree: 0%
 
    1. 选择创意旋转类型：
 
-      * &amp;amp；ast；&amp;amp；ast； *加权* &amp;amp；ast；&amp;amp；ast； — 根据相对权重手动旋转每个包中的创意。 输入每个束的重量（百分比）。 所有选定包的权重之和必须为100。
+      * *[!UICONTROL Weighted]：*&#x200B;根据相对权重手动旋转每个包中的创意。 输入每个束的重量（百分比）。 所有选定包的权重之和必须为100。
 
-      * &amp;amp；ast；&amp;amp；ast； *算法* &amp;amp；ast；&amp;amp；ast； — 根据指定的优化目标以算法方式旋转每个包中的创意。
+      * *[!UICONTROL Algorithmic]：*&#x200B;根据指定的优化目标以算法方式旋转每个包中的创意。
 
          * 对于&#x200B;**[!UICONTROL Optimization Goal]**，选择&#x200B;*[!UICONTROL Click Through Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果选择&#x200B;*[!UICONTROL Custom Objective]*，则请选择现有的[Advertising DSP自定义目标](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
 
