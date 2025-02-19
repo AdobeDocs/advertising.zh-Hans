@@ -3,9 +3,9 @@ title: 非定向体验的设置
 description: 请参阅无决策树定位的广告体验的所有设置描述。
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: 75ecbf5309c21952fb4355be852f80100aa916ae
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 当您以后为特定的创意大小创建广告体验标记时，在此字段中指定的每个键都会作为宏附加到标记中。 在将标记作为DSP中的广告实施之前，必须输入标记中每个键值对的值。
 
-**Radius：** （仅限具有动态广告的体验；可选）要定位的用户半径。 选择从0英里到200英里的半径。<!-- Does this end up in the ad tag parameters? -->
+**半径：**（仅限具有动态广告的体验；可选）目标馈送文件中指定的美国邮政编码的半径；选择0英里到200英里之间的半径。 用于为体验创建动态广告的信息源文件必须包含一个[!UICONTROL ZIP]列<!-- or a user-named column mapped to a ZIP column -->，该列具有文件中每个产品行的值。 例如，对于半径为10英里的产品，可以向95110半径10英里内的用户显示95110中可用产品的广告。
 
 **RT像素：** （仅具有动态广告的体验；可选）将像素重定位到潜在目标的[!UICONTROL Creative]。 在决策树中设置定位时，可以包含一级RT像素目标节点，并为每个节点指定要定位的像素，以及像素属性必须存在的所需值，以便在分配的创意捆绑包中显示创意。 如果不在此字段中指定像素，则仍可在决策树中指定像素。&lt;！ — 从R：“RT像素应该通过动态广告设置中的内容选择” — 阐明。 我确实在动态广告设置中看到“Datapass”（一词），但我不确定该设置以及此体验级第一如何协作。—>
 
