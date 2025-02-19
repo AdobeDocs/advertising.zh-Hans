@@ -3,9 +3,9 @@ title: 体验级性能报表
 description: 了解如何查看体验级性能报表。
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: c5ce127f9a9573962939539c6c449b83715d2e4c
+source-git-commit: 137f334eec778499f263e26c125e97ffe37d6112
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ ht-degree: 0%
 
    * （可选）要更改报告的转化，请单击![设置](/help/creative/assets/settings.png)，然后在&#x200B;**[!UICONTROL Conversions]**&#x200B;菜单中选择转化名称。&lt;！ — 只有一个，还是多个？ 验证这些内容的显示方式 — 我需要看到已设置多个转化的广告商 — >
 
-     可用的转化列包括Advertising Search、Social和Commerce中可用的转化，无论您是Search、Social还是Commerce客户。 这可能包括从Adobe Analytics同步的转化和网站参与量度。 <!--Analytics calculated metrics and advanced calculated metrics aren't available.-->有关在报表中包括收集的转化率的详细信息，请参阅《搜索、社交和Commerce指南》主题“[关于管理广告商的转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)”。
+     可用的转化列包括Advertising Search、Social和Commerce中可用的转化，无论您是Search、Social还是Commerce客户。 当广告商具有[an [!DNL Adobe Analytics for Advertising] 集成](/help/integrations/analytics/overview.md)时，这可能包括从Adobe Analytics同步的转化和网站参与量度。 <!--Analytics calculated metrics and advanced calculated metrics aren't available.-->有关在报表中包括收集的转化率的详细信息，请参阅《搜索、社交和Commerce指南》主题“[关于管理广告商的转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)”。
 
 1. （在[!UICONTROL Overview]选项卡上）：
 

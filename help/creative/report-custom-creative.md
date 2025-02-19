@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: 了解如何生成跨体验[!UICONTROL Custom Creative Report]。
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: c5ce127f9a9573962939539c6c449b83715d2e4c
+source-git-commit: 7e355e7574a9fb6f3fdd4073ad7a4eae3f0cf0d1
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1915'
 ht-degree: 0%
 
 ---
@@ -251,7 +251,7 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | 为产品提供的广告的总收入。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Revenue] | 投放广告的总收入。 |
 | [!UICONTROL Conversion Metrics] | [在报告设置中按广告商分组] | [广告商特定转化] | 指定的特定于广告商的转化量度或Adobe Analytics事件的总数。 |
-| [!UICONTROL Custom Goals] | [在报告设置中按广告商分组] | [特定于广告商的自定义目标] | 指定[自定义目标](/help/dsp/optimization/custom-goal.md)中包含的所有转化的加权总和。 |
+| [!UICONTROL Custom Goals] | [在报告设置中按广告商分组] | [特定于广告商的自定义目标] | 指定[Advertising DSP自定义目标](/help/dsp/optimization/custom-goal.md)中包含的所有转化的加权总和。 |
 
 {style="table-layout:auto"}
 
