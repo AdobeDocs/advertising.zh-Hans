@@ -3,7 +3,7 @@ title: 目标体验设置
 description: 请参阅针对性广告体验的所有设置的描述。
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 75ecbf5309c21952fb4355be852f80100aa916ae
+source-git-commit: 727860ba89ae98d50a33befa28ab1654650263e6
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 0%
