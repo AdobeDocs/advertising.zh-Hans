@@ -4,9 +4,9 @@ user-guide-title: Advertising Creative指南
 user-guide-description: 了解使用Advertising Creative所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: Creative指南
 hide: true
-source-git-commit: f13f2b3e9bed34acbe1c3c07adbca2b7a61ac76c
+source-git-commit: 7000d0d68ac8ad904383bf62e614ff2fd1c3415a
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,7 @@ ht-degree: 0%
       + [决策树布局](/help/creative/experiences/experience-decision-tree.md)
       + [创建具有定位功能的体验](/help/creative/experiences/experience-create-targeting.md)
       + [编辑具有定位的体验](/help/creative/experiences/experience-edit-targeting.md)
+      + [目标体验设置](/help/creative/experiences/experience-settings-targeting.md)
       + 创建和编辑体验{#subtasks}的子任务
          + 目标节点{#nodes}
             + [向最终级别添加目标节点](/help/creative/experiences/experience-target-node-add-final.md)
@@ -53,12 +54,11 @@ ht-degree: 0%
             + [将创意捆绑包分配和取消分配给最终节点](/help/creative/experiences/experience-assign-creative-bundles.md)
             + [自定义创意人员的跟踪URL](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [自定义创意优化和计划](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
-      + [目标体验设置](/help/creative/experiences/experience-settings-targeting.md)
    + 未定位{#experience-nontargeted}的体验
       + [在不定位的情况下创建体验](/help/creative/experiences/experience-create-no-targeting.md)
       + [编辑体验，但不定位](/help/creative/experiences/experience-edit-no-targeting.md)
       + [非定向体验设置](/help/creative/experiences/experience-settings-no-targeting.md)
-      + 创意人员{#non-targeted-creatives}
+      + 广告标记和创意内容{#non-targeted-creatives}
          + [为适用的创意大小手动创建广告标记](/help/creative/experiences/experience-tag-create-manually.md)
          + [为无定位的体验将创意内容分配给广告标记](/help/creative/experiences/experience-tag-assign-creatives.md)
          + [自定义体验的跟踪URL，而无需定位](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
