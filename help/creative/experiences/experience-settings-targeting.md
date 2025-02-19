@@ -3,9 +3,9 @@ title: 目标体验设置
 description: 请参阅针对性广告体验的所有设置的描述。
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 727860ba89ae98d50a33befa28ab1654650263e6
+source-git-commit: f339fafa90f93632778e15dddcfb5f889ad77395
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 每个键都会作为广告体验中的宏附加
 标记，您可以生成该标记以将其作为广告在DSP中实施。
 
-**半径：**（仅限具有动态广告的体验；可选）目标馈送文件中指定的美国邮政编码的半径；选择0英里到200英里之间的半径。 用于为体验创建动态广告的信息源文件必须包含一个[!UICONTROL ZIP]列<!-- or a user-named column mapped to a ZIP column -->，该列具有文件中每个产品行的值。 例如，对于半径为10英里的产品，可以向95110半径10英里内的用户显示95110中可用产品的广告。
+**半径：**（仅限具有动态广告的体验；可选）目标馈送文件中指定的美国邮政编码的半径；选择0英里到200英里之间的半径。 用于为体验创建动态广告的信息源文件必须包含一个[!UICONTROL ZIP]列<!-- or a user-named column mapped to a ZIP column -->，该列具有文件中每个产品行的值。 例如，对于10英里半径的广告，可在95110中向距离9511010英里内的用户显示产品广告（由用户的IP地址确定）。
 
 **RT像素：** （现有体验为只读；可选）将像素重定位到潜在目标的[!UICONTROL Creative]。 在决策树中设置定位时，可以包含一级RT像素目标节点，并为每个节点指定要定位的像素，以及像素属性必须存在的所需值，以便在分配的创意捆绑包中显示创意。 如果在创建体验时没有在此字段中指定像素，则仍可以在决策树中指定像素。<!-- May move this to just within the decision tree. -->
 
