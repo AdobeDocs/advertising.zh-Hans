@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: 了解如何生成跨体验[!UICONTROL Custom Creative Report]。
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: 2062e2ce4f92070b209422c3184e9c0b14229bb5
+source-git-commit: 3033f26bba5a9e7622d0de51b36035be1005c60f
 workflow-type: tm+mt
-source-wordcount: '1910'
+source-wordcount: '1913'
 ht-degree: 0%
 
 ---
@@ -244,13 +244,13 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Media Match Rate] | |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Clicks] | 产品广告的所有点击次数总和。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion] | 产品的广告所有转化次数总和。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion Rate] | 某个产品导致转化的广告次数百分比。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion Rate] | 产品中导致转化的广告百分比。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product CTR] | 产品广告的点进率，即点按次数除以广告展示次数。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Impressions] | 产品的展示总数。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | 为产品提供的广告的总收入。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Revenue] | 投放广告的总收入。 |
 | [!UICONTROL Conversion Metrics] | [在报告设置中按广告商分组] | [广告商特定转化] | 指定的特定于广告商的转化量度或Adobe Analytics事件的总数。 |
-| [!UICONTROL Custom Goals] | [在报告设置中按广告商分组] | [特定于广告商的自定义目标] | 指定[Advertising DSP自定义目标](/help/dsp/optimization/custom-goal.md)中包含的所有转化的加权总和。 |
+| [!UICONTROL Custom Goals] | [在报告设置中按广告商分组] | [特定于广告商的自定义目标] | (具有Advertising DSP的广告商)指定[Advertising DSP自定义目标](/help/dsp/optimization/custom-goal.md)中包含的所有转化的加权总和。 |
 
 {style="table-layout:auto"}
 
