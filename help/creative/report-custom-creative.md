@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: 了解如何生成跨体验[!UICONTROL Custom Creative Report]。
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: 98c6b4e67d21228f3ae114b52da29ba1dec8ccfa
+source-git-commit: 2062e2ce4f92070b209422c3184e9c0b14229bb5
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '1910'
 ht-degree: 0%
 
 ---
@@ -198,54 +198,53 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Parent Creative Type] | 父级创意内容的类型（如[!UICONTROL HTML5]）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Ad Link] | 。 |
 | [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Click Type] | 点击类型。 |
-| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Direction] |
+| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Direction] | |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device Browser] | 显示广告的浏览器（如[!UICONTROL Chrome]或[!UICONTROL Firefox]）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device OS] | 显示广告的操作系统（如[!UICONTROL Windows]）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device Type] | 显示广告的设备类型（如[!UICONTROL Desktop]）。 |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Ad ID] | 广告的ID。 |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Creative ID] | 创意的ID。 |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Placement Name] | 运行广告的投放位置的名称。 |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Buy ID] | 广告投放的购买ID。 |
+| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Creative ID] | 创意的ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP ID] | 运行广告的DSP的ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Name] | 运行广告的DSP的名称。 |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Site ID] | 运行广告的网站的ID。 |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Site Name] | 运行广告的网站的名称。 |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Placement ID] | 运行广告的投放位置的ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Placement Name] | 运行广告的投放位置的名称。 |
+| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Site ID] | 运行广告的网站的ID。 |
+| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Site Name] | 运行广告的网站的名称。 |
+| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Ad Tag Id] | [!UICONTROL Creative]分配给广告体验标记的ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Advertiser Name] | 广告商的名称。 |
+| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Date/Time] | 事件的日期和时间。 |
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Experience ID] | [!UICONTROL Creative]分配给体验的ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Experience Name] | 体验的名称。 |
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Targeting Branch Value] | 目标。 |
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Trafficking Line] | |
-| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Date/Time] | 事件的日期和时间。 |
-| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Ad Tag Id] | [!UICONTROL Creative]分配给广告体验标记的ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL City] | 报告的数据所属的城市。 |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL Country Code] | 报告数据归属于的国家/地区的国家/地区代码。 |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL DMA] | 报告数据所属的指定市场区域(DMA)。 |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL State Code] | 报告数据归因的省/自治区/直辖市的省/自治区/直辖市代码。 |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL Zip Code] | 报告数据归因的邮政编码。 |
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Category ID] | （动态广告）目标产品类别ID。 |
-| [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Category ID] | （动态广告）目标产品类别名称。 |
-| [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Product ID] | （动态广告）目标产品ID。 |
-| [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Product ID] | （动态广告）目标产品名称。 |
+| [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Category Name] | （动态广告）目标产品类别名称。 |
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Creative Attribute 1] | （动态广告）第一个创意属性。 |
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Creative Attribute 2] | （动态广告）第二个创意属性。 |
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Creative Attribute 3] | （动态广告）第三个创意属性。 |
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Creative Attribute 4] | （动态广告）第四个创意属性。 |
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Creative Attribute 5] | （动态广告）第五个创意属性。 |
+| [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Product ID] | （动态广告）目标产品ID。 |
+| [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Product Name] | （动态广告）目标产品名称。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Matched Audience Segment ID] | 报告数据归因的受众区段的ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment ID] | 已报告数据归因的受众区段的区段ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment Name] | 报告数据归因到的受众区段的名称。 |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Values] | 已报告数据归因的受众区段的属性。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Matched Audience Segment ID] | 报告数据归因的受众区段的ID。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Clicks] | 广告所有点击次数总和。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL CTR] | 点进率，即点击次数百分比除以广告展示次数。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Engagements] | 投放广告的交互次数。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Engagement Rate] | 提供并导致用户参与的展示次数百分比。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Engagements] | 投放广告的交互次数。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Impressions] | 广告展示总数。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Media Match Rate] | |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Clicks] | 产品广告的所有点击次数总和。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion] | 产品的广告所有转化次数总和。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion Rate] | 某个产品导致转化的广告次数百分比。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Clicks] | 产品广告的所有点击次数总和。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product CTR] | 产品广告的点进率，即点按次数除以广告展示次数。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Impressions] | 产品的展示总数。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | 为产品提供的广告的总收入。 |
