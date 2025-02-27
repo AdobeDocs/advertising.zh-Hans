@@ -2,9 +2,9 @@
 title: 术语表
 description: 请参阅关键术语的定义。
 feature: Creative Introduction
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+source-git-commit: 4e61ce32862411a7a83c66773e41d032770ad861
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,11 @@ ht-degree: 0%
 
 例如，要将一个或多个可能的创意定位到女性且位于区段1234中的查看者，您需要为目标节点配置数据传递目标`gender=female`和`segment=1234`。 为展示提供服务的DSP会使用性别和区段信息填充标记，并且符合指定要求的访客将显示为关联的创意内容之一。
 
-**参与直达：**&#x200B;导致转化的广告参与（例如观看视频或展开广告）。
+**接洽：**&#x200B;导致转化的广告接洽（例如，滚动轮播广告或展开广告）。 此类事件与单击广告以访问登陆页面或登陆页面上的事件是分开的。
 
-<!-- or flexible html5 creative variation? -->
-**弹性HTML5创意的变体：**&#x200B;在[!UICONTROL Creative Libraries]中派生出弹性HTML5创意资源，在将创意分配给体验并更改体验中的任何默认属性时生成该派生项。
+<!-- or flexible html5 creative variation? Not sure we need to mention this since there's no place to view the different variations per se:
 
-<!-- Not sure if this will be implemented, and how:
-You can view all derived creatives, including not only the base creatives you've added but also each child creative derivation, in the card view in [!UICONTROL Creative] > [!UICONTROL Libraries]. In the toolbar, click __?__ , and then select Derived Creatives. [Clarify how to tell which have variations. I can't find any now.]
+**variation of a flexible HTML5 creative:** A derivation of a flexible HTML5 creative asset in your [!UICONTROL Creative Libraries], which is generated when you assign the creative to an experience and change any of the default attributes within the experience.
 -->
 
 **显示到达：**&#x200B;广告展示次数或展示次数字符串，用户无需单击广告即可进行转化。

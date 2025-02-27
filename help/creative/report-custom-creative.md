@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: 了解如何生成跨体验[!UICONTROL Custom Creative Report]。
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: 7e355e7574a9fb6f3fdd4073ad7a4eae3f0cf0d1
+source-git-commit: 98c6b4e67d21228f3ae114b52da29ba1dec8ccfa
 workflow-type: tm+mt
-source-wordcount: '1915'
+source-wordcount: '1920'
 ht-degree: 0%
 
 ---
@@ -258,3 +258,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [体验级性能报告](/help/creative/experiences/experience-performance-details.md)
+>* [关于DSP自定义报告](/help/dsp/reports/report-about.md){target="_blank"}
+>* [关于[!UICONTROL report destinations]](/help/dsp/reports/report-destinations/report-destination-about.md){target="_blank"}

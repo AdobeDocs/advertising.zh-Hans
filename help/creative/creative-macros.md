@@ -1,11 +1,11 @@
 ---
 title: 可用于跟踪URL的宏
-description: 引用可添加到登陆页面URL跟踪URL的宏以及第三方创意。
+description: 引用可添加到登陆页面URL、跟踪URL和第三方创意内容的宏。
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: fe3e991f1fba2944e7a3f8e4930c48c7dbd28770
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,12 @@ ht-degree: 0%
 | `${TM_ACC_EXPERIENCE_ID}` | 跟踪和报告Advertising Creative体验ID | — |
 | `${TM_ACC_CREATIVE_ID}` | 跟踪和报告Advertising Creative创意ID | — |
 | `${TM_RANDOM}` | 介于1和1000000之间的随机数 | — |
-| `${TM_TIMESTAMP}` | Unix时间戳（以秒为单位） | — |
-| `${TM_CLICK_URL_URLENC}` | （适用于来自需要URL编码的供应商的第三方广告）经过编码的点击重定向URL，使广告服务器能够跟踪和计数广告点击次数。 当投放广告且用户单击该广告时，将激活宏，并且会记录并计数单击次数以用于生成报表。 | 是 |
+| `${TM_TIMESTAMP}` | UNIX®时间戳（以秒为单位） | — |
+| `${TM_CLICK_URL_URLENC}` | （适用于来自需要URL编码的供应商的第三方广告）经过编码的点击重定向URL，使广告服务器能够跟踪和计数广告点击次数。 当用户单击广告时，将激活宏，并且会记录该点击并计入报表中。 | 是 |
 
 >[!MORELIKETHIS]
 >
 >* [将标准创意添加到创意库](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [标准创意设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
->* 
+>* [目标体验设置](/help/creative/experiences/experience-settings-targeting.md)
+>*[非目标体验设置](/help/creative/experiences/experience-settings-no-targeting.md)
