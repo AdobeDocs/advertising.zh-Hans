@@ -3,9 +3,9 @@ title: 收集要在Adobe Customer Journey Analytics中使用的AMO ID和EF ID的
 description: 了解如何在Adobe Analytics中收集保留变量的历史数据，以便将来在Adobe Customer Journey Analytics中使用
 feature: Integration with Adobe Analytics
 exl-id: 1f8fa139-f146-426b-b0c4-079f8e2de56c
-source-git-commit: fa3065d12d5c8828eaaeaca52deeadfec7b0e318
+source-git-commit: 6bf9647910aa7b1f74cf2bd726f8de27a8641b38
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -48,16 +48,16 @@ Adobe Advertising计划将来与Customer Journey Analytics一起实施。 实施
       * 对于`AMO ID`：
 
          1. 选择&#x200B;**覆盖**&#x200B;的值。
-         1. 选择&#x200B;*\&lt;新的/未使用的eVar\>*
+         1. 选择&#x200B;*\&lt;新的/未使用的eVar\>*。
          1. 选择&#x200B;**查询字符串参数**。
          1. 输入`s_kwcid`。
 
-        示例：用查询字符串参数`s_kwcid`覆盖`rVar10`的值
+        示例：“使用查询字符串参数‘s_kwcid’覆盖`rVar10`的值”
 
       * 对于`EF ID`：
 
          1. 选择&#x200B;**覆盖**&#x200B;的值。
-         1. 选择&#x200B;*\&lt;新的/未使用的eVar\>*
+         1. 选择&#x200B;*\&lt;新的/未使用的eVar\>*。
          1. 选择&#x200B;**查询字符串参数**。
          1. 输入`ef_id`。
 
