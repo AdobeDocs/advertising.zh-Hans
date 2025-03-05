@@ -3,7 +3,7 @@ title: 关于Advertising Creative中的体验
 description: 了解如何配置个性化的广告体验并根据性能优化广告元素。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: e2b88275f2ebbc69f769cf905a0d20859bf0af3b
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ## 您的体验的性能数据
 
-当您在[!UICONTROL Experiences]视图中启用[!UICONTROL Metrics]选项时，每个体验卡或行都会指示体验收到的展示次数和点击次数。
+当您在[!UICONTROL Creative] > [!UICONTROL Experiences]视图中启用[!UICONTROL Metrics]选项时，每个体验卡或行都会指示体验收到的展示次数和点击次数。
 
 ![量度选项](/help/creative/assets/metrics-option.png "量度选项")
 
@@ -59,11 +59,9 @@ ht-degree: 0%
 
 <!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
 
-您可以从[!UICONTROL Creative] > [!UICONTROL Experiences]视图中查看任何体验的详细性能数据。 要在您的体验中监控性能，请创建[!UICONTROL Custom Creative Report]。
+您可以从[!UICONTROL Experiences]视图[查看任何体验](experience-performance-details.md)的详细性能数据。
 
-<!--
-You can [view detailed performance data for any experience](experience-performance-details.md) from the Creative > Experiences view. To monitor performance across your experiences, [create custom reports](/help/dsp/reports/report-create.md).
--->
+要在您的体验中监控性能，请创建[!UICONTROL Custom Creative Report](/help/creative/report-custom-creative.md)。
 
 ## 体验状态 {#experience-statuses}
 

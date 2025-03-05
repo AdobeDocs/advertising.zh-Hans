@@ -3,7 +3,7 @@ title: 关于自定义报表
 description: 了解用于手动或使用预配置的报表模板创建自定义报表的选项。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 5ddfcba2e1ceac6a98dc0b865a09f535e6621fa0
+source-git-commit: 49e254ca954389b1ea13ac571de55f404ed7ba7c
 workflow-type: tm+mt
 source-wordcount: '1498'
 ht-degree: 0%
@@ -41,7 +41,11 @@ ht-degree: 0%
      >
      >此报表包含有关计费区段的数据。 如果向用户或设备提供了属于多个区段的展示，则只有一个可计费区段会为该展示提供点数。
 
-   * **[!UICONTROL Conversion]：**&#x200B;使用此报表可根据使用Adobe Advertising转化跟踪捕获的转化指标了解营销活动的执行情况。 此报表包含多点接触归因。
+   * **[!UICONTROL Conversion]：**&#x200B;请使用此报表根据通过Adobe Advertising转化跟踪捕获的转化量度，了解营销活动的执行情况。 此报表包含多点接触归因。
+
+  <!--
+    * **[!UICONTROL Custom Creative Report Beta]:** (Beta feature) Use this report to monitor performance across your Advertising Creative ad experiences.
+    -->
 
    * **[!UICONTROL Device]：**&#x200B;使用此预填充模板按设备相关的维度查看关键量度。
 
@@ -91,7 +95,7 @@ ht-degree: 0%
 
      包括最近的10个交互点。 路径行按转化次数排序。
 
-     若要将此报告与[!DNL Advanced Measurement Services]和Adobe分析创建的报告进行比较，请参阅“[关于自定义报告的常见问题解答](/help/dsp/reports/faq-reports.md)”。
+     若要将此报告与[!DNL Advanced Measurement Services]和Adobe Analytics创建的报告进行比较，请参阅“[关于自定义报告的常见问题解答](/help/dsp/reports/faq-reports.md)”。
 
    * **[!UICONTROL Path Length Beta]：**(Beta功能)使用此报表      跟踪一段时间内转化所需的用户交互点数，以便您选择最佳广告频率。 此报表按路径长度（交互点）显示转化次数，例如用户仅有一个广告交互、两个广告交互等后发生的转化次数。 报表可以包含多个转化量度的数据，并在首次交互和转化之间使用指定的回顾时间段。 报表中的列包括“[!UICONTROL Path Length]”、“[!UICONTROL Number of] \&lt;转化量度名称1\>”、“% \&lt;转化量度名称1\>”、“\&lt;转化量度名称2\>”、“% \&lt;转化量度名称2\>”等。
 
@@ -101,7 +105,7 @@ ht-degree: 0%
 
 ## 跨帐户报告 {#cross-account-reporting}
 
-拥有多个DSP帐户的任何组织都可以根据需要选择在自定义报表中启用跨帐户数据。 例如，您可以授予帐户A访问帐户B数据的权限，并授予帐户B访问帐户C（但不访问帐户A）数据的权限。 要启用并配置此功能，请与您的Adobe客户团队联系。
+任何拥有多个DSP帐户的组织都可以根据需要选择在自定义报表中启用跨帐户数据。 例如，您可以授予帐户A访问帐户B数据的权限，并授予帐户B访问帐户C（但不访问帐户A）数据的权限。 要启用并配置此功能，请联系您的Adobe客户团队。
 
 为您的组织启用该功能后，您就可以按帐户[筛选](report-settings.md)以下任何报表类型： [!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)]和[!UICONTROL Conversion]。
 
@@ -133,6 +137,6 @@ ht-degree: 0%
 >* [下载自定义报告](/help/dsp/reports/report-download.md)
 >* [自定义报表设置](/help/dsp/reports/report-settings.md)
 >* [有关家庭报告的常见问题解答](/help/dsp/reports/faq-reports.md)
->* Campaign Management视图中的[性能报告类型](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* 营销活动管理视图中的[性能报表类型](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [可用报告列](/help/dsp/reports/report-columns.md)
 >* [关于[!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
