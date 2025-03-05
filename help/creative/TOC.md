@@ -4,9 +4,9 @@ user-guide-title: Advertising Creative指南
 user-guide-description: 了解使用Advertising Creative所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: Creative指南
 hide: true
-source-git-commit: 7000d0d68ac8ad904383bf62e614ff2fd1c3415a
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ ht-degree: 0%
          + [标准创意设置](/help/creative/creative-libraries/creative-settings-standard.md)
          + [HTML5创作规范](/help/creative/creative-libraries/html5-creative-specification.md)
       + [预览创意](/help/creative/creative-libraries/creative-preview.md)
-      + [从捆绑包中附加和分离创意](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
+      + [将创意内容附加到捆绑包](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [复制创意](/help/creative/creative-libraries/creative-duplicate.md)
       + [下载创意内容](/help/creative/creative-libraries/creative-download.md)
       + [删除创意内容](/help/creative/creative-libraries/creative-delete.md)
-   + 创意包{#bundles}
+   + Creative包{#bundles}
       + [管理创意包](/help/creative/creative-libraries/bundle-manage.md)
 + 广告体验{#creative-experiences}
    + [关于Advertising Creative中的体验](/help/creative/experiences/experience-about.md)
@@ -72,7 +72,7 @@ ht-degree: 0%
    + [删除体验](/help/creative/experiences/experience-delete.md)
 + 性能报表{#reports}
    + [体验级性能报表](/help/creative/experiences/experience-performance-details.md)
-   + [自定义创意报表](/help/creative/report-custom-creative.md)
+   + [自定义Creative报表](/help/creative/report-custom-creative.md)
 + [正在重新定位像素](/help/creative/pixels/retargeting-pixel-manage.md)
 + [可用于跟踪URL的宏](/help/creative/creative-macros.md)
 + [客户支持](https://experienceleague.adobe.com/home?support-tab=home#support){target="_blank"}

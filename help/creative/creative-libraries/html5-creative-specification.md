@@ -1,15 +1,16 @@
 ---
-title: HTML5创意规范
-description: 参考HTML5的Advertising Creative创意规范。
+title: HTML5创作规范
+description: 参考适用于Advertising Creative的HTML5创意规范。
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1157'
 ht-degree: 0%
 
 ---
 
-# HTML5的Advertising Creative创作规范
+# 适用于Advertising Creative的HTML5创作规范
 
 本文档概述了[!DNL Creative]中对HTML5创意人员的要求和API支持。 该API允许开发HTML5创意，其属性可以在创意交付时配置。
 
@@ -35,15 +36,15 @@ ht-degree: 0%
 
 * 创意内容必须打包为ZIP文件（.ZIP格式）。 不支持嵌套的ZIP文件，因此不要在外部压缩文件夹中包含压缩文件夹。
 
-* ZIP文件必须至少包含一个HTML文件(主HTML显示文件)，其中包括对[!DNL Creative] JavaScript库的引用。 主HTML文件可以位于根文件夹或子文件夹中。
+* ZIP文件必须至少包含一个HTML文件(主HTML显示文件)，其中包括对[!DNL Creative] JavaScript库的引用。 主HTML文件可以在根文件夹或子文件夹中。
 
 * 主HTML文件可以命名任何内容，只要它不包含特殊字符即可，但建议使用`index.html`。
 
 * 呈现最终创意所需的所有支持资源必须位于与HTML显示文件相同的文件夹中，或者位于主文件夹的子文件夹中。
 
-* 不要在创意中包含任何未针对该创意引用的文件。
+* 请勿在创意内容中包含创意内容未引用的任何文件。
 
-### 包括Advertising CreativeJavaScript文件
+### 包括Advertising Creative JavaScript文件
 
 主HTML文件（不包含其他文件）必须包含对JavaScript文件`AMOLibrary.js`的引用。 使用以下地址调用`<head>`部分第一行中的文件：
 
@@ -77,15 +78,15 @@ var clickTag = “http://www.example.com”;
 
 ### HTML5创意要求
 
-#### 支持静态HTML中的点进URL 5
+#### 在静态HTML5中支持点进URL
 
 ##### `amo.registerClick(clkVar, clkUrl)`
 
-注册点进URL和用于引用每个URL的相关参数（称为`clickTag`）。 这会通知[!DNL Creative]广告服务器在何处添加点击跟踪。 您可以使用此API最多注册五个点击标记变量，每个变量有一个对应的登陆页面URL。
+注册点进URL和用于引用每个URL的相关参数（称为`clickTag`）。 此API会通知[!DNL Creative]广告服务器在何处添加点击跟踪。 您可以使用此API最多注册五个点击标记变量，每个变量有一个对应的登陆页面URL。
 
 >[!NOTE]
 >
->您在HTML5创意中包含的静态URL仅用于本地测试目的，将被覆盖。 当您上传HTML5创意内容时，您将为每个`clickTag`变量定义默认登录页面。 将上传的HTML5创意内容分配给广告体验时，您可以选择覆盖每个`clickTag`变量的默认登陆页面，并且在保存体验时[!DNL Creative]将点击跟踪添加到URL。
+>您在HTML5创意中包含的静态URL仅用于本地测试，并将被覆盖。 在上传HTML5创意时，您为每个`clickTag`变量定义默认登陆页面。 将上传的HTML5创意内容分配给广告体验时，您可以选择覆盖每个`clickTag`变量的默认登陆页面，并且[!DNL Creative]会在您保存体验时向URL添加点击跟踪。
 
 ###### 参数
 
@@ -119,17 +120,17 @@ var clickTag = “http://www.example.com”;
 
 `amo.onAdClick('clickTag')`或`amo.onAdClick('clickTag',clickEvt)`
 
-### 灵活的HTML5创造性要求
+### 灵活的HTML5创意要求
 
-#### 支持灵活HTML中的点进URL5
+#### 在灵活的HTML5中支持点进URL
 
 ##### `amo.registerClick(clkVar, clkUrl)`
 
-注册点进URL和用于引用每个URL的相关参数（称为`clickTag`）。 这会通知[!DNL Creative]广告服务器在何处添加点击跟踪。 您可以使用此API最多注册五个点击标记变量，每个变量有一个对应的登陆页面URL。
+注册点进URL和用于引用每个URL的相关参数（称为`clickTag`）。 此API会通知[!DNL Creative]广告服务器在何处添加点击跟踪。 您可以使用此API最多注册五个点击标记变量，每个变量有一个对应的登陆页面URL。
 
 >[!NOTE]
 >
->您在HTML5创意中包含的静态URL仅用于本地测试目的，将被覆盖。 当您上传HTML5创意内容时，您将为每个`clickTag`变量定义默认登录页面。 将上传的HTML5创意内容分配给广告体验时，您可以选择覆盖每个`clickTag`变量的默认登陆页面，并且在保存体验时[!DNL Creative]将点击跟踪添加到URL。
+>您在HTML5创意中包含的静态URL仅用于本地测试，并将被覆盖。 在上传HTML5创意时，您为每个`clickTag`变量定义默认登陆页面。 将上传的HTML5创意内容分配给广告体验时，您可以选择覆盖每个`clickTag`变量的默认登陆页面，并且[!DNL Creative]会在您保存体验时向URL添加点击跟踪。
 
 ###### 参数
 
@@ -163,7 +164,7 @@ var clickTag = “http://www.example.com”;
 
 `amo.onAdClick('clickTag')`或`amo.onAdClick('clickTag',clickEvt)`
 
-#### 在灵活HTML中支持创意属性5
+#### 在灵活的HTML5中支持创意属性
 
 ##### `amo.registerAttribute(key, type, value)`
 
@@ -187,11 +188,11 @@ var clickTag = “http://www.example.com”;
 
 ##### `amo.attributes`
 
-用于查询创意属性变量名称和值的JSON对象。 对象键将是属性名称，值将是这些属性的值。
+用于查询创意属性变量名称和值的JSON对象。 对象键是属性名称，值是这些属性的值。
 
 在本地测试模式下，键值对是通过`amo.registerAttribute` API注册的对。 对于生产，必须在创意创建和贩运时配置创意属性变量名称和值。
 
-### 创意内容要求
+### Creative内容要求
 
 Advertising DSP中可用的大多数显示区交换都有以下创意要求：
 
@@ -244,7 +245,7 @@ Advertising DSP中可用的大多数显示区交换都有以下创意要求：
 ]
 ```
 
-## 示例HTML5创意
+## HTML5创意示例
 
 ### 示例文件夹结构（解压缩后）
 
@@ -254,7 +255,7 @@ Advertising DSP中可用的大多数显示区交换都有以下创意要求：
 
    * bg.jpg(JPG、PNG、SVG或GIF图像)
 
-### 简单HTML5创意的示例HTML文件(index.html)
+### 简单的HTML5创作实例的HTML文件(index.html)
 
 ```
 <!DOCTYPE html>
@@ -273,7 +274,7 @@ Advertising DSP中可用的大多数显示区交换都有以下创意要求：
 </html>
 ```
 
-### 静态HTML5创意的示例HTML文件(index.html)
+### 静态HTML5创意内容的示例HTML文件(index.html)
 
 ```
 <!DOCTYPE html>

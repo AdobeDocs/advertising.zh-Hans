@@ -2,14 +2,14 @@
 title: 关于Adobe Advertising Creative
 description: 了解 [!DNL Creative]。
 feature: Creative Introduction
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
-# 关于Adobe Advertising Creative2.0
+# 关于Adobe Advertising Creative 2.0
 
 *已关闭的测试版*
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 可重用创意的自定义创意库
 
-您的Creative Libraries允许您管理将在广告体验中使用的所有创意。 您可以创建多个库，每个库具有单个创意和创意组（称为&#x200B;*包*）。 您将向广告体验添加创意包。
+通过Creative Libraries，您可以管理将在广告体验中使用的创意。 您可以创建多个库，每个库具有单个创意和创意组（称为&#x200B;*包*）。 您将向广告体验添加创意包。
 
 ## 基于规则的体验
 
@@ -40,7 +40,7 @@ Advertiser should be able to target all segments which are available in DSP for 
 
 ## 正在重新定位像素
 
-您可以创建重定位像素以用作广告体验中创意内容的目标，以便仅向具有指定属性的用户显示广告，这些用户之前访问了特定网页。
+您可以创建重定位像素，以用作广告体验中创意内容的目标。 这些目标只向具有指定属性的用户显示广告，这些用户以前访问过特定网页。
 
 ## 展示、点击和转化跟踪
 
@@ -57,7 +57,7 @@ to the DSP.
 
 您可以在创意>体验中查看详细的体验级性能报表。
 
-您还可以在报表>自定义报表中创建自定义创意报表，以监控您的体验中的体验级性能。 如果您在DSP促销活动中将[!DNL Creative]体验用作广告，则这些广告的效果数据可在其他自定义报表中获取，就像其他DSP广告的数据一样。<!-- Verify that [!DNL Creative] users have access to ALL other reports, and if I can completely duplicate the report help for both help sets. -->
+您还可以在“报表”>“自定义报表”中创建自定义Creative报表，以监控体验中的体验级别性能。 如果您在DSP促销活动中将[!DNL Creative]体验用作广告，则这些广告的效果数据可在其他自定义报表中获取，就像其他DSP广告的数据一样。<!-- Verify that [!DNL Creative] users have access to ALL other reports, and if I can completely duplicate the report help for both help sets. -->
 
 您可以选择将自定义报告传送到指定的[报告目标](/help/dsp/reports/report-destinations/report-destination-about.md)。
 

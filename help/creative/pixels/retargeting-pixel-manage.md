@@ -3,9 +3,9 @@ title: 管理重定位像素
 description: 了解如何创建和实施重新定位像素以用作广告体验的目标。
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 147f47fcdc504fba67a6894edaa9249662131e05
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 0%
 
    如果手动添加其他属性，则必须包含URL编码。
 
-   例如，如果您包含属性“category”、“color”和“size”并捕获ID5通用ID，则像素标记将包含以下参数： `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--`和`&id5pid=--Insert ID5_PARTNER_ID--`。 例如，要定位选择大小为10的红色凉鞋的用户，您应该将图像标记和脚本标记中的参数更改为`&ut1=sandals&ut2=red&ut3=10`，并在脚本标记中输入ID5合作伙伴ID，如`&id5pid=0123456789`。
+   例如，如果您包含属性“category”、“color”和“size”并捕获ID5通用ID，则像素标记将包含以下参数： `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--`和`&id5pid=--Insert ID5_PARTNER_ID--`。 例如，要定位选择大小为10的红色凉鞋的用户，请将图像标记和脚本标记中的参数更改为`&ut1=sandals&ut2=red&ut3=10`，并在脚本标记中输入ID5合作伙伴ID，如`&id5pid=0123456789`。
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 
@@ -99,17 +99,17 @@ ht-degree: 0%
 
 ## 重新定位像素设置 {#retargeting-pixel-settings}
 
-**[!UICONTROL Pixel Name]：**&#x200B;像素的名称。 **注意：**&#x200B;像素标记将包含像素ID (`pxId=<ID>`)，而不是像素名称。
+**[!UICONTROL Pixel Name]：**&#x200B;像素的名称。 **注意：**&#x200B;像素标记包含像素ID (`pxId=<ID>`)，而不是像素名称。
 
 **[!UICONTROL Advertiser]：** （现有像素为只读）跟踪像素的广告商。
 
 **[!UICONTROL Attribute 1]：**&#x200B;要包含在像素标记中的属性，如“SKU”、“类别”、“大小”或页面或页面上显示的产品的其他属性。 在将像素标签插入相关网页之前，请在像素标签中指定该属性的值。
 
-当您将广告体验定位到展示给像素的用户时，定位设置将指定必须存在的属性值才能显示创意。
+当您将广告体验定位到展示给像素的用户时，定位设置会指定显示创意时必须显示的属性值。
 
 **[!UICONTROL Attribute 2]**、**[!UICONTROL Attribute 3]**、**[!UICONTROL Attribute 4]**、**[!UICONTROL Attribute 5]：**（可选）要包含在像素标记中的其他属性。 在将像素标记插入相关网页之前，请为像素标记中的每个其他属性指定一个值。
 
-当您将广告体验定位到展示给像素的用户时，定位设置将指定必须存在的属性值才能显示创意。
+当您将广告体验定位到展示给像素的用户时，定位设置会指定显示创意时必须显示的属性值。
 
 **[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]：**(Beta功能；仅限新像素；可选)要跟踪的像素标记的通用ID类型：
 

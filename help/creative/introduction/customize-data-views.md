@@ -2,7 +2,8 @@
 title: 自定义数据视图
 description: 了解如何自定义每个可用视图中的数据。
 feature: Creative Introduction
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 5255e0e4-a7f8-41d2-9b38-0e276dc1f3f0
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 0%
@@ -83,7 +84,7 @@ Refresh the pane to see any changes that other users have made.
 
 * [!UICONTROL Creative Libraries]：按[!UICONTROL Library Name]、创建日期([!UICONTROL Created On])或上次更新([!UICONTROL Modified On])排序。
 
-* 创意库> [!UICONTROL Standard Ads]：按[!UICONTROL Creative Name]、创建日期([!UICONTROL Created On])或上次更新([!UICONTROL Modified On])排序。
+* Creative Libraries > [!UICONTROL Standard Ads]：按[!UICONTROL Creative Name]、创建日期([!UICONTROL Created On])或上次更新([!UICONTROL Modified On])排序。
 
 * [!UICONTROL Experiences]：按([!UICONTROL Experience Name])开始日期([!UICONTROL Start On])或结束日期([!UICONTROL End On])排序。
 

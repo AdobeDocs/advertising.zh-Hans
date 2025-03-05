@@ -2,9 +2,10 @@
 title: 管理您的创意库
 description: 了解如何创建、重命名和删除创意库。
 feature: Creative Libraries
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *已关闭的测试版*
 
-您可以为每个广告商创建多个创意库。 您稍后可以使用[标准创意](creative-add-standard.md) <!-- , dynamic creatives, -->和[创意包](bundle-manage.md)填充每个库。 您的Adobe客户团队还可以将动态创意添加到库。
+您可以为每个广告商创建多个创意库。 您稍后可以使用[标准创意](creative-add-standard.md)<!-- , dynamic creatives, -->和[创意包](bundle-manage.md)填充每个库。 您的Adobe客户团队还可能会将动态创意添加到您的库。
 
 ## 创建创意库
 
@@ -51,7 +52,7 @@ ht-degree: 0%
 
 ## 删除创意库
 
-您可以删除其创意和捆绑包未分配给实时体验的库。<!-- Add an x-ref?  -->在继续之前，请从体验<!-- add x-ref -->的决策树中删除分配给实时体验的任何创意或捆绑包。
+您可以删除包含未分配给[实时](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses)体验的创意和捆绑包的库。 对于实时目标体验，请在继续之前[从决策树](/help/creative/experiences/experience-target-node-delete.md)中删除该体验的所有创意或捆绑包。<!-- Not an option as of 3/4: > For an untargeted live experience, [remove any assigned creatives from the associated ad tag](/help/creative/experiences/experience-tag-assign-creatives.md) before you continue. -->
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
@@ -65,7 +66,7 @@ ht-degree: 0%
 
       * 在表视图中，将光标悬停在行上并单击&#x200B;**[!UICONTROL Delete]**。
 
-   * 要删除一个或多个库，请选中要删除的每个库的复选框。 在批量操作工具栏中，单击**[!UICONTROL Delete]。
+   * 要删除一个或多个库，请选中要删除的每个库的复选框。 在批量操作工具栏中，单击&#x200B;**[!UICONTROL Delete]**。
 
      要选择所有行，请选中左上角的全局复选框。
 

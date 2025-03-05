@@ -3,7 +3,7 @@ title: 非定向体验的设置
 description: 请参阅无决策树定位的广告体验的所有设置描述。
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: f4d83da98f89313624e038fd1d8f0fedcf802cc4
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **\[指定的默认创意\]：**&#x200B;当浏览器无法显示分配给体验的创意(例如，浏览器未启用JavaScript或广告服务器由于延迟而无法个性化广告)时要使用的默认图像创意。 每个广告大小包含一个图像创意，体验适用于该图像创意。 您的选择决定了可用于体验的创意大小。<!-- In the legacy product, you selected the ad sizes for the experience, and then selected default images for each of those ad sizes. -->
 
-对于没有决策树定位的体验，您可以在[!UICONTROL Tag Manager].<!-- verify -->内用相同大小的创意覆盖默认创意
+对于没有决策树定位的体验，您可以在[!UICONTROL Tag Manager]内用相同大小的创意覆盖默认创意内容。
 
 * 要添加具有不同维度的默认创意，请单击&#x200B;**[!UICONTROL + Add Sizes]**，从右侧窗格中选中要添加的每个创意旁边的复选框，然后单击&#x200B;**[!UICONTROL Add Creatives]**。
 

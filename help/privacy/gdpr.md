@@ -4,16 +4,16 @@ description: 了解支持的数据请求类型、所需的设置和字段值，�
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
 
 # Adobe Advertising对《通用数据保护条例》的支持
 
-*用于[!DNL Adobe Advertising Search, Social, & Commerce]；Adobe Advertising DSP；Adobe Advertising Creative；Adobe AdvertisingDCO*
+*适用于[!DNL Adobe Advertising Search, Social, & Commerce]、Adobe Advertising DSP、Adobe Advertising Creative和Adobe Advertising DCO*
 
 >[!IMPORTANT]
 >
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Adobe Experience Cloud充当数据处理者，可处理其代表客户接收并存储的任何个人数据。 作为数据控制者，您可以决定Adobe Experience Cloud代表您处理和存储的个人数据。
 
-本文档介绍了[!DNL Advertising Search, Social, & Commerce]、Advertising Creative、Advertising DSP(Demand Side Platform)和[!DNL Advertising DCO]如何使用Adobe Experience Platform Privacy Service API和Privacy ServiceUI支持数据主体的GDPR数据访问和删除权限。
+本文档介绍了[!DNL Advertising Search, Social, & Commerce]、Advertising Creative、Advertising DSP (Demand Side Platform)和[!DNL Advertising DCO]如何使用Adobe Experience Platform Privacy Service API和Privacy Service UI支持数据主体的GDPR数据访问和删除权限。
 
 有关GDPR对您业务的意义的更多信息，请参阅[GDPR与您的业务](https://www.adobe.com/privacy/general-data-protection-regulation.html)。
 
@@ -37,7 +37,7 @@ Adobe Experience Platform使企业能够完成以下任务：
 
 ## 发送Adobe Advertising请求所需的设置
 
-要请求访问和删除Adobe Advertising数据，您必须：
+要提出访问和删除Adobe Advertising数据的请求，您必须：
 
 1. 部署JavaScript库以检索和删除数据主体Cookie。 所有Adobe Experience Cloud解决方案都使用相同的库`AdobePrivacy.js`。
 
@@ -55,17 +55,17 @@ Adobe Experience Platform使企业能够完成以下任务：
 
 1. 识别您的Experience Cloud组织ID，并确保它已关联到您的Adobe Advertising帐户。
 
-   Experience Cloud的组织ID是由24个字符组成的字母数字字符串，其后附加有“@AdobeOrg”。 已为大多数Experience Cloud客户分配了组织ID。 如果您的营销团队或内部[!DNL Adobe]系统管理员不知道您的组织ID，或不确定它是否已配置，请通过gdprsupport@adobe.com联系Adobe客户关怀部门。 您将需要组织ID才能使用`imsOrgID`命名空间向隐私API提交请求。
+   Experience Cloud组织ID是由24个字符组成的字母数字字符串，其后附加有“@AdobeOrg”。 已经为大多数Experience Cloud客户分配了一个组织ID。 如果您的营销团队或内部[!DNL Adobe]系统管理员不知道您的组织ID，或不确定它是否已配置，请通过gdprsupport@adobe.com联系Adobe客户关怀团队。 您将需要组织ID才能使用`imsOrgID`命名空间向隐私API提交请求。
 
    >[!IMPORTANT]
    >
-   >请联系贵公司的Adobe Advertising代表，以确认贵公司的所有Adobe Advertising帐户（包括[!DNL DSP]帐户或广告商、[!DNL Search, Social, & Commerce]帐户和[!DNL Creative]或[!DNL DCO]帐户）均关联到您的Experience Cloud组织ID。
+   >请联系贵公司的Adobe Advertising代表，以确认贵公司的所有Adobe Advertising帐户（包括[!DNL DSP]帐户或广告商、[!DNL Search, Social, & Commerce]帐户以及[!DNL Creative]或[!DNL DCO]帐户）均关联到您的Experience Cloud组织ID。
 
-1. 使用[Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html)（对于自动请求）或[Privacy ServiceUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans)（对于临时请求）代表数据主体向Adobe Advertising提交访问和删除请求，并检查现有请求的状态。
+1. 使用[Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html)（对于自动请求）或[Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#)（对于临时请求）代表数据主体向Adobe Advertising提交访问和删除请求，并检查现有请求的状态。
 
-   对于拥有可与数据主体交互并通过DSP启动促销活动的移动应用程序的广告商，您必须下载适用于隐私的Mobile SDK以进行Experience Cloud。 Mobile SDK允许数据控制者设置选择退出状态标记、检索数据主体的设备ID（命名空间ID： `deviceID`），并将请求提交到Privacy ServiceAPI。 您的移动应用程序需要安装SDK版本4.15.0或更高版本。
+   对于拥有移动应用程序以与数据主体进行交互并与DSP启动促销活动的广告商，您必须下载适用于Experience Cloud的隐私就绪移动SDK。 Mobile SDK允许数据控制者设置选择退出状态标记、检索数据主体的设备ID（命名空间ID： `deviceID`），并将请求提交到Privacy Service API。 您的移动应用程序需要安装SDK版本4.15.0或更高版本。
 
-   当您提交数据主体的访问请求时，Privacy ServiceAPI会根据指定的Cookie或设备ID返回数据主体的信息，然后您必须将其返回到数据主体。
+   当您提交数据主体的访问请求时，Privacy Service API会根据指定的Cookie或设备ID返回数据主体的信息，然后您必须将这些信息返回到数据主体。
 
    当您提交数据主体的删除请求时，Cookie ID或设备ID以及与Cookie关联的所有成本、点击和收入数据将从服务器中删除。
 
@@ -73,9 +73,9 @@ Adobe Experience Platform使企业能够完成以下任务：
    >
    >如果贵公司拥有多个Experience Cloud组织ID，则必须为每个组织发送单独的API请求。 但是，您可以向多个Adobe Advertising子解决方案（[!DNL Search, Social, & Commerce]、[!DNL Creative]、[!DNL DSP]和[!DNL DCO]）发出一个API请求，每个子解决方案使用一个帐户。
 
-所有这些步骤对于Adobe Advertising都是必需的。 有关使用Adobe Experience Platform Privacy Service需要执行的这些任务和其他相关任务以及在何处查找所需项目的更多信息，请参阅[Privacy Service概述](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)。
+Adobe Advertising需要执行所有步骤。 有关使用Adobe Experience Platform Privacy Service需要执行的这些任务和其他相关任务以及在何处查找所需项目的更多信息，请参阅“[Privacy Service概述](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)”。
 
-## Adobe AdvertisingJSON请求中的必填字段值
+## Adobe Advertising JSON请求中的必填字段值
 
 `"company context":`
 
@@ -131,7 +131,7 @@ Adobe Experience Platform使企业能够完成以下任务：
 
 ## 针对访问请求返回的数据字段
 
-以下是Adobe Advertising的访问响应示例。
+以下是Adobe Advertising访问响应的示例。
 
 ```
 {
@@ -178,9 +178,9 @@ Adobe Experience Platform使企业能够完成以下任务：
                     "serviceProvider":"Adobe"
                 },
                 {
-                    "segmentName":"EMEA - UK - Health Food Buyers",
-                    "segmentID":"eP2oJ2UPsfsDVDhvlGewx",
-                    "serviceProvider":"BlueKai"
+                    "segmentName":"eXelate Australia Demographic - Jobs & Education - Job Seekers",
+                    "segmentID":"2213789",
+                    "serviceProvider":"exelate"
                 }
             ]
         }

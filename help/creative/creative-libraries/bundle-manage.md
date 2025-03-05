@@ -2,9 +2,10 @@
 title: 管理创意包
 description: 了解xxxx。
 feature: Creative Bundles
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 **I'll probably split this up into multiple pages since the creative-related topics are separate**
 -->
 
-捆绑包是您可以将多个创意内容作为一个单元添加到体验中的组合。 创建捆绑包容器后，可以将创意附加到该捆绑包。 标准包只能包含标准广告，而动态包只能包含动态广告。 您可以从体验决策树中覆盖分配给体验的捆绑包中所有创意的登陆页面、展示跟踪标记和点击跟踪标记，而不影响基本创意内容。
+捆绑包是您可以将多个创意内容作为一个单元添加到体验中的组合。 创建捆绑包容器后，可以将创意附加到该捆绑包。 标准包只能包含标准广告，而动态包只能包含动态广告。 您可以覆盖捆绑包中所有创意的登陆页面、展示跟踪标记和点击跟踪标记，这些捆绑包是从体验决策树中分配给体验的，不会影响基本创意内容。
 
 [!DNL Creative]按照为捆绑包所分配到的每个体验指定的方式，在捆绑包中的创意之间旋转。 您可以选择允许[!DNL Creative]使用算法广告轮换(由Adobe Sensei提供支持)根据性能优化任何体验的广告元素。
 
@@ -105,9 +106,11 @@ ht-degree: 0%
 
 您可以将[现有的标准创意](/help/creative/creative-libraries/creative-libraries-about.md)附加到标准捆绑包并将现有的动态创意<!-- [existing dynamic creatives](creative-dynamic-manage.md) -->附加到动态捆绑包。 将创意内容附加到捆绑包后，创意内容便可在捆绑包所分配到的所有体验中可用。 每个包只能包含每个\[创意大小+语言\]组合中的一个。
 
+<!--
 >[!NOTE]
 >
->您还可以[将创意内容附加到“标准广告”和“动态广告”视图中的包](creative-attach-detach-bundles.md)。
+>You can also [attach creatives to bundles from the Standard Ads and Dynamic Ads views](creative-attach-detach-bundles.md).
+-->
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
@@ -218,7 +221,7 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 ## 删除包
 
-您可以删除未分配给Live Experience的包。<!-- Add an x-ref?  -->如果将捆绑包分配给实时体验，请在继续之前从决策树中删除该捆绑包，以用于体验<!-- add x-ref -->。
+您可以删除未分配给[实时](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses)体验的包。 如果将捆绑包分配给实时体验，则在继续之前[从决策树](/help/creative/experiences/experience-target-node-delete.md)中删除该捆绑包以供该体验使用。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
@@ -250,5 +253,6 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 >[!MORELIKETHIS]
 >
 >* [向体验中的最终节点分配和取消分配创意包](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [将标准创意添加到创意库](/help/creative/creative-libraries/creative-add-standard.md)
 >* [管理创意库](/help/creative/creative-libraries/creative-library-manage.md)
 >* [关于您的创意库](/help/creative/creative-libraries/creative-libraries-about.md)

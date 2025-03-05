@@ -2,9 +2,10 @@
 title: 在创意库中编辑标准创意内容
 description: 了解如何在创意库中更改标准（非动态）创意的设置。
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -13,11 +14,11 @@ ht-degree: 0%
 
 *已关闭的测试版*
 
-您可以为每种类型的标准创意编辑一些设置。 您可以编辑同一创意类型的多个创意<!-- or creative variations -->(仅具有一个登陆页面的简单HTML5、具有多个登陆页面的静态HTML5、灵活的HTML5、图像或第三方<!-- , or dynamic -->)。
+您可以为每种类型的标准创意编辑一些设置。 您只能编辑同一创意类型的多个创意内容<!-- or creative variations -->(只有一个登陆页面的简单HTML5、具有多个登陆页面的静态HTML5、灵活的HTML5、图像或第三方<!-- , or dynamic -->)。
 
-对于灵活的HTML5和静态的HTML5创意，您可以上传具有不同布局但属性名称集相同的新模板文件。 对于简单的HTML5创意，您可以通过上传具有新属性或图像的新模板来编辑任何属性或添加图像。 在所有情况下，模板必须是ZIP格式的本地文件，最大为2 MB。
+对于灵活的HTML5和静态的HTML5创意，您可以上传具有不同布局但属性名称集相同的新模板文件。 对于简单的HTML5创作者，您可以通过上传具有新属性或图像的新模板来编辑任何属性或添加图像。 在所有情况下，模板必须是ZIP格式的本地文件，最大为2 MB。
 
-当您编辑捆绑包中包含的创意<!-- or creative variation -->时，您的更改将自动应用于包含该捆绑包的所有体验，但在体验级别指定的任何自定义登陆页面和跟踪URL仍然适用于附加到该体验的捆绑包。
+在编辑捆绑包中包含的创意<!-- or creative variation -->时，您的更改将自动应用于包含该捆绑包的所有体验，但在体验级别指定的任何自定义登陆页面和跟踪URL仍然适用于附加到该体验的捆绑包。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
@@ -39,7 +40,7 @@ ht-degree: 0%
 
      要选择所有行，请选中左上角的全局复选框。
 
-1. 编辑[图像创意设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image)、[HTML5创意设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5)、[弹性HTML5创意设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5)或[第三方创意设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)。<!-- , or [dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md) -->
+1. 编辑[图像创意设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image)、[HTML5创意设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5)、[灵活的HTML5创意设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5)或[第三方创意设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)。<!-- , or [dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md) -->
 
    当您同时编辑多个创意时：
 
@@ -49,7 +50,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >* (仅限灵活HTML5创意)您只能编辑单个创作的属性。<!-- Also, when you update the template for a parent creative with child variations, the variations are updated with any changes to the template layout, but the attribute values for the variation aren't changed. -->
+   >* (仅限灵活的HTML5创意)您只能编辑单个创作的属性。<!-- May never be implemented: Also, when you update the template for a parent creative with child variations, the variations are updated with any changes to the template layout, but the attribute values for the variation aren't changed. -->
 
 <!-- Not there as of 1/16/25. If we do add it, verify the applicable ad types:   
 1. (Flexible HTML5 [or third-party should be possible, but not so] creatives; optional) Once you've made your changes, click ![]() to preview the new creative. 
@@ -66,5 +67,3 @@ ht-degree: 0%
 >* [将标准创意添加到创意库](creative-add-standard.md)
 >* [标准创意设置](/help/creative/creative-libraries/creative-settings-standard.md)
 >* [预览创意](/help/creative/creative-libraries/creative-preview.md)
->* [重复的创意](/help/creative/creative-libraries/creative-duplicate.md)
->* [删除创意](/help/creative/creative-libraries/creative-delete.md)
