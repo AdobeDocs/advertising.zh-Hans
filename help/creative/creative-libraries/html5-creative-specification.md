@@ -3,7 +3,7 @@ title: HTML5创作规范
 description: 参考适用于Advertising Creative的HTML5创意规范。
 feature: Creative Standard Creatives
 exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 适用于Advertising Creative的HTML5创作规范
 
-本文档概述了[!DNL Creative]中对HTML5创意人员的要求和API支持。 该API允许开发HTML5创意，其属性可以在创意交付时配置。
+本文档概述了[!DNL Creative]中对HTML5创意人员的要求和API支持。 该API支持开发HTML5创意，其属性可以在创意交付时配置。
 
 ## 范围
 

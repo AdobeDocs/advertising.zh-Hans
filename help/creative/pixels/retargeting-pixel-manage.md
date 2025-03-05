@@ -3,7 +3,7 @@ title: 管理重定位像素
 description: 了解如何创建和实施重新定位像素以用作广告体验的目标。
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> * [!DNL Creative]当前仅支持Advertising DSP的通用ID。 未来版本将支持第三方DSP的通用ID。<!-- Clarify this and reword as needed -->
+> * [!DNL Creative]当前仅支持Advertising DSP的通用ID。 未来版本将支持第三方DSP的通用ID。<!-- Clarify this and reword as needed  -->
 >* 您还可以将来自Adobe Audience Manager和Adobe Analytics的第一方受众用作您的体验的[创意目标](/help/creative/experiences/experience-settings-targeting.md)。
 >* 在Advertising DSP投放位置中使用体验作为广告时，您可以将投放位置定向到DSP中所有可供您使用的受众。 您还可以[创建自定义受众区段标记](/help/dsp/audiences/custom-segment-create.md)以跟踪特定登陆页面的所有访客，然后将这些区段用作投放的创意目标。
 >* 选择退出跟踪以进行广告定位的网站访客不会根据受众区段或重新定位用户档案接收带有个性化创意内容的广告。

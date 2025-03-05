@@ -3,7 +3,7 @@ title: 管理创意包
 description: 了解xxxx。
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 0%
@@ -160,7 +160,7 @@ ht-degree: 0%
 
 ## 预览捆绑包中的创意
 
-您可以预览包含超链接的创意，因为查看器将看到该创意。
+您可以在查看者看到创意时预览它，包括超链接。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 

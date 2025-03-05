@@ -3,7 +3,7 @@ title: 将创意内容附加到创意捆绑包
 description: 了解如何将创意内容附加到创意捆绑包。
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *已关闭的测试版*
 
-<!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available. -->
+<!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available.  -->
 
 您可以将标准创意附加到标准包，将动态创意附加到动态包，以便将其添加到[广告体验](/help/creative/experiences/experience-about.md)。 每个包只能包含每个\[创意大小+语言\]组合中的一个。
 

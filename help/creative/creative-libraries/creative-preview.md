@@ -2,7 +2,8 @@
 title: 预览创意
 description: 了解如何打开创意内容的预览。
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 *仅限标准创意*
 *已关闭的测试版*
 
-您可以预览包含超链接的创意，因为查看器将看到该创意。
+您可以在查看者看到创意时预览它，包括超链接。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 

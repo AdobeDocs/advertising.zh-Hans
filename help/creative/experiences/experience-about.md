@@ -3,9 +3,9 @@ title: 关于Advertising Creative中的体验
 description: 了解如何配置个性化的广告体验并根据性能优化广告元素。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *已关闭的测试版*
 
-<!-- Revisit Description metadata -->
+<!-- Revisit Description metadata  -->
 
 <!-- MORE -->
 
@@ -22,13 +22,23 @@ ht-degree: 0%
 
 * **具有决策树定位的体验：** [!DNL Creative]允许您使用决策树模型在整个客户历程中配置个性化的广告体验。 您可以根据目标受众自定义所有广告元素 — 图像、标题、选件和登陆页面。
 
-  例如，您可以为芝加哥和纽约市的特定Adobe Analytics受众区段中的人员指定相同的创意包，但是将芝加哥的同一区段中的人员发送给与纽约人不同的登陆页面。 此外，您还可以为区段中除芝加哥和纽约市之外的其他位置的用户指定不同的捆绑，并为不在此区段中的其他用户指定第三个捆绑。
+  例如，您可以为芝加哥和纽约市的特定Adobe Analytics受众区段中的人员指定相同的创意包，但是将芝加哥的人员发送至与纽约人不同的登陆页面。 此外，您还可以为区段中除芝加哥和纽约市之外的其他位置的用户指定不同的捆绑，并为不在此区段中的其他用户指定第三个捆绑。
 
-  定位选项包括：来自Adobe Audience Manager、Adobe Analytics和Advertising Cloud DSP的第一方受众区段中的查看器；特定地理位置的查看器，包括国家/地区、州、美国境内的DMA、城市和邮政编码；从DSP、发布者或合作伙伴传递特定键值对（数据传递目标）的查看器；具有[!DNL Creative]重定位像素和指定属性值的查看器；以及具有特定设备类型、操作系统和浏览器的查看器。
+  定位选项包括：
 
-  您可以为每个体验分配创意包，还可以选择自定义创意包的优化和计划，以及更改每个包中单个创意的默认登陆页面和跟踪URL<!-- and any flexible attributes -->。
+   * Adobe Audience Manager、Adobe Analytics和Advertising Cloud DSP中的第一方受众区段
 
-* **没有决策树定位的体验：** [!DNL Creative]会优化广告体验的广告元素，而不会缩小受众范围。<!-- For first-party creatives, [!DNL Creative] serves the ads. -->您将为每个体验指定开始和结束日期以及一些默认设置，但大部分工作流并非直接在体验中。 您可以在[!UICONTROL Tag Manager]内为体验的每个广告大小创建广告标记，然后为其添加创意，配置创意优化和计划，以及自定义登陆页面和跟踪URL，而不是直接将创意添加到体验。
+   * 特定地理位置，包括国家/地区、州、美国境内的DMA、城市和邮政编码
+
+   * 从DSP、发布者或合作伙伴传递的特定键值对（数据传递目标）的查看器
+
+   * [!DNL Creative]重定位像素和指定的属性值
+
+   * 特定设备类型、操作系统和浏览器
+
+  您可以为每个体验分配创意包。 对于每个体验，您可以自定义创意捆绑包的优化和计划，并更改每个捆绑包中单个创意的默认登陆页面和跟踪URL<!-- and any flexible attributes -->。
+
+* **没有决策树定位的体验：** [!DNL Creative]会优化广告体验的广告元素，而不会缩小受众范围。<!-- For first-party creatives, [!DNL Creative] serves the ads. -->对于每个体验，您都可以指定开始和结束日期以及某些默认设置，但大部分工作流并不直接在体验中。 您不直接将创意添加到体验，而是使用[!UICONTROL Tag Manager]为体验的每个广告大小创建一个广告标记，然后为其添加创意内容、配置创意优化和计划以及自定义登陆页面和跟踪URL。
 
 ## 广告优化
 
@@ -37,7 +47,7 @@ ht-degree: 0%
 
 ## 实施和管理体验
 
-创建实时体验（包含所有必需的广告元素）后，您可以[为整个体验](experience-tag-export.md)生成JavaScript或iframe标记，这些标记可以选择作为广告上传到Adobe Advertising DSP中的促销活动，或者在第三方DSP中作为广告实施。 [!DNL Creative]根据定位和广告轮换选项以及可用的广告库存为体验投放广告。
+创建实时体验（包含所有必需的广告元素）后，您可以[为整个体验](experience-tag-export.md)生成JavaScript或iframe标记。 您可以将Experience Tag作为广告上传到Adobe Advertising DSP中的促销活动，或在第三方DSP中作为广告实施。 [!DNL Creative]根据定位和广告轮换选项以及可用的广告库存为体验投放广告。
 
 ## 您的体验的性能数据
 
@@ -65,7 +75,7 @@ You can [view detailed performance data for any experience](experience-performan
 
 *草稿：*&#x200B;体验的所有分支均未分配创意，因此体验不完整，您无法生成体验标记。
 
-*正在处理：*&#x200B;以前上线的体验已被编辑，但现在不完整。 无法为其生成体验标记。 **注意：**&#x200B;如果您已经为体验实施了体验标记，则仍将提供以前的实时版本。 如果您稍后完成该体验（使其重新上线），则将使用现有标记实施提供新版本。
+*正在处理：*&#x200B;以前上线的体验已被编辑，但现在不完整。 无法为其生成体验标记。 **注意：**&#x200B;如果您已经为体验实施了体验标记，则仍可以提供以前的实时版本。 如果您稍后完成该体验（使其重新上线），则可以使用现有标记实施提供新版本。
 
 *已删除：*&#x200B;该体验已从[!DNL Creative]中删除，并且不再显示在[!UICONTROL Experiences]视图中。
 
