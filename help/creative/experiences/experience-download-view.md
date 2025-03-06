@@ -2,9 +2,10 @@
 title: 从[!UICONTROL Experiences]视图下载数据
 description: 了解如何
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 8362ac34-0de8-4bed-873d-dc20f39946bf
+source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -24,3 +25,6 @@ ht-degree: 0%
 1. 在右上角工具栏中，单击![下载](/help/creative/assets/download.png "下载")。
 
    该文件将保存到浏览器的默认“下载”文件夹中。
+
+>[!MORELIKETHIS]
+>* [关于Advertising Creative中的体验](/help/creative/experiences/experience-about.md)

@@ -2,9 +2,10 @@
 title: 将创意捆绑包分配和取消分配给体验中的最终节点
 description: 了解如何将创意分配给广告体验中的每个目标。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
+source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -20,9 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果不向每个最终节点至少分配一个创意捆绑包，则在[保存体验](experience-create-targeting.md)时，可以选择为每个未分配的节点使用默认创意内容。 要发布体验，必须为体验分配捆绑包或使用从中创建的所有广告的默认创意。
-
-<!-- The optimization and ad scheduling features and tracking URLs customization are in a different place now -- include here or in separate procedures? -->
+>如果不向每个最终节点至少分配一个创意捆绑包，则在[保存体验](experience-create-targeting.md)时，可以选择为每个未分配的节点使用默认创意内容。 要发布体验，您必须分配捆绑包或为每个最终节点使用默认创意。
 
 <!-- 1. [ways to get to the decision tree] -->
 

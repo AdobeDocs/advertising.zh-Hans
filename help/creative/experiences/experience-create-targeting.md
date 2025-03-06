@@ -2,9 +2,10 @@
 title: 使用决策树定位创建体验
 description: 了解如何使用决策树创建定向广告体验。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
+source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -43,11 +44,11 @@ ht-degree: 0%
 
          * [将子节点和创意复制到同一级别](experience-target-node-copy.md)的另一个节点。
 
-      * 创意包：
+      * Creative包：
 
          * [将创意内容分配和取消分配给最终节点](experience-assign-creative-bundles.md)。
 
-           如果不向每个最终节点至少分配一个捆绑，则在保存体验时，可以选择为每个未分配的节点使用默认创意。 要发布体验，必须为体验分配捆绑包或使用从中创建的所有广告的默认创意。
+           如果不向每个最终节点至少分配一个捆绑，则在保存体验时，可以选择为每个未分配的节点使用默认创意。 要发布体验，您必须分配捆绑包或为每个最终节点使用默认创意。
 
          * [自定义分配的包中创意的跟踪URL](experience-tracking-urls-targeting.md)。
 
