@@ -3,9 +3,9 @@ title: 非定向体验的设置
 description: 请参阅无决策树定位的广告体验的所有设置描述。
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: d2db928068153c0ce26cc51fa79f45cbb3c61f18
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 **半径：**（仅限具有动态广告的体验；可选）目标馈送文件中指定的美国邮政编码的半径；选择0英里到200英里之间的半径。 用于为体验创建动态广告的信息源文件必须包含一个[!UICONTROL ZIP]列<!-- or a user-named column mapped to a ZIP column -->，该列具有文件中每个产品行的值。 例如，对于10英里半径的广告，可在95110中向距离9511010英里内的用户显示产品广告（由用户的IP地址确定）。
 
-**RT像素：** （仅具有动态广告的体验；可选）将像素重定位到潜在目标的[!UICONTROL Creative]。 在决策树中设置定位时，可以包含一级RT像素目标节点。 对于每个节点，您将指定要定位的像素，以及显示所分配的创意捆绑包中的创意所需的像素属性值。 如果不在此字段中指定像素，则仍可在决策树中指定像素。&lt;！ — 从R：“RT像素应该通过动态广告设置中的内容选择” — 阐明。 我确实在动态广告设置中看到“Datapass”（一词），但我不确定该设置以及此体验级第一如何协作。—>
+**RT像素：** （仅具有动态广告的体验；可选）将像素重定位到潜在目标的[!UICONTROL Creative]。 在决策树中设置定位时，可以包含一级RT像素目标节点。 对于每个节点，您将指定要定位的像素，以及显示所分配的创意捆绑包中的创意所需的像素属性值。 如果不在此字段中指定像素，则仍可在决策树中指定像素。<!-- From R: "the RT Pixel should be via the content selection in the Dynamic ad setup." Clarify. I do see "Datapass" (oneword) in the dynamic ad settings, but I'm not sure how that setting and this experience-level one work together. -->
 
 **[!UICONTROL Label]：**<!-- should be "Labels" -->（可选）要应用于体验的任何[!DNL Creative]特定的标签。 您可以在体验<!-- sic -->视图中按标签筛选体验。
 
