@@ -3,9 +3,9 @@ title: 为适用的创意大小手动创建广告标记
 description: 了解如何为特定创意大小创建广告标记。
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. 输入唯一的&#x200B;**[!UICONTROL Tag name]**&#x200B;并选择&#x200B;**[!UICONTROL Tag size]**。
 
-   可用的创意大小由体验的默认图像创意的大小决定。
+   体验的默认图像创意的大小决定了可用的创意大小。
 
    您可以为相同的创意大小创建多个标记。<!-- What are the implications? -->
 

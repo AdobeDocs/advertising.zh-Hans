@@ -2,9 +2,10 @@
 title: 共享体验URL
 description: 了解如何共享体验的演示URL。
 feature: Creative Experiences
-source-git-commit: 14d972044d485ead5101f1c383d2726bb6fd9d25
+exl-id: 0d523270-e6b2-4d7b-a39c-749f3cc94561
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -28,3 +29,7 @@ ht-degree: 0%
 1. 单击预览右上角的![共享](/help/creative/assets/share.png "共享")。
 
 1. 在[!UICONTROL Share Demo URL]对话框中，单击&#x200B;**[!UICONTROL Copy]**&#x200B;以将URL复制到剪贴板，以便与其他人共享。
+
+>[!MORELIKETHIS]
+>
+>* [预览体验](/help/creative/experiences/experience-preview.md)

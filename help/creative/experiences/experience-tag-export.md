@@ -3,7 +3,7 @@ title: 为实时体验导出和实施广告体验标记
 description: 了解如何导出广告体验标记并（可选）将其上传到Advertising DSP营销活动。
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 
       1. 单击右上角的&#x200B;**[!UICONTROL Next]**&#x200B;或单击左侧菜单中的&#x200B;**[!UICONTROL DSP link]**。
 
-      1. 选择广告标记将可用的营销策划。
+      1. 选择要将广告标记上传到的营销策划。
 
       1. 单击&#x200B;**[!UICONTROL Assign Tags]**。
 

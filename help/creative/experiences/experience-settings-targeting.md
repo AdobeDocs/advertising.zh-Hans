@@ -3,9 +3,9 @@ title: 目标体验设置
 description: 请参阅针对性广告体验的所有设置的描述。
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: f339fafa90f93632778e15dddcfb5f889ad77395
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser]：** （现有体验为只读）将对体验中包含的创意和目标组合进行竞价的广告商。 保存体验后，便无法更改广告商。
 
-**[!UICONTROL Experience Name]：**&#x200B;体验的唯一名称。 **提示：**&#x200B;在Advertising DSP或其他DSP中使用该体验作为广告时，请使用容易找到的名称。
+**[!UICONTROL Experience Name]：**&#x200B;体验的唯一名称。 **提示：**&#x200B;使用可在Advertising DSP或其他DSP中将该体验用作广告时轻松找到的名称。
 
 **[!UICONTROL Creative Library]：** （现有体验为只读）用于该体验的单个创意库。 保存体验后，便无法更改库。
 
@@ -57,9 +57,9 @@ ht-degree: 0%
 
 **半径：**（仅限具有动态广告的体验；可选）目标馈送文件中指定的美国邮政编码的半径；选择0英里到200英里之间的半径。 用于为体验创建动态广告的信息源文件必须包含一个[!UICONTROL ZIP]列<!-- or a user-named column mapped to a ZIP column -->，该列具有文件中每个产品行的值。 例如，对于10英里半径的广告，可在95110中向距离9511010英里内的用户显示产品广告（由用户的IP地址确定）。
 
-**RT像素：** （现有体验为只读；可选）将像素重定位到潜在目标的[!UICONTROL Creative]。 在决策树中设置定位时，可以包含一级RT像素目标节点，并为每个节点指定要定位的像素，以及像素属性必须存在的所需值，以便在分配的创意捆绑包中显示创意。 如果在创建体验时没有在此字段中指定像素，则仍可以在决策树中指定像素。<!-- May move this to just within the decision tree. -->
+**RT像素：** （现有体验为只读；可选）将像素重定位到潜在目标的[!UICONTROL Creative]。 在决策树中设置定位时，可以包含一级RT像素目标节点。 对于每个节点，您将指定要定位的像素，以及显示所分配的创意捆绑包中的创意所需的像素属性值。 如果在创建体验时没有在此字段中指定像素，则仍可以在决策树中指定像素。<!-- May move this to just within the decision tree. -->
 
-**标签：** <!-- should be "Labels" -->（可选）要应用于体验的任何[!DNL Creative]特定的标签。 您可以在体验<!-- sic -->视图中按标签筛选体验。
+**标签：**<!-- should be "Labels" -->（可选）要应用于体验的任何[!DNL Creative]特定的标签。 您可以在体验<!-- sic -->视图中按标签筛选体验。
 
 * 要选择现有标签，请单击![向下](/help/creative/assets/chevron-down.png "向下")，然后选中要应用的每个标签旁边的复选框。
 

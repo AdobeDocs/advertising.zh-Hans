@@ -2,9 +2,10 @@
 title: 将目标节点添加到体验中的最终级别
 description: 了解如何将目标节点添加到广告体验的最终目标级别。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 *仅具有决策树定位的体验*
 *已关闭的测试版*
 
-当您将目标节点添加到体验的最底层时 — 无论是根“所有”节点、特定于目标的节点还是“其他所有内容”节点 — 您都可以直接定义目标，而无需创建同级节点。 这将创建目标节点和位于同一级别的附加“其他所有内容”节点。
+当您将目标节点添加到体验的最底层时 — 无论是根“所有”节点、特定于目标的节点还是“其他所有内容”节点 — 您都可以直接定义目标，而无需创建同级节点。 添加底层节点会在同一级别创建目标节点和其他“其他所有内容”节点。
 
 >[!NOTE]
 >
@@ -32,7 +33,7 @@ ht-degree: 0%
 
       1. （可选）要在指定多个受众时创建多个目标节点，请选择&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-         这会为每个指定的受众创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定的受众。
+         此功能为每个指定的受众创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定的受众。
 
       1. 单击&#x200B;**[!UICONTROL Apply]**。
 
@@ -44,7 +45,7 @@ ht-degree: 0%
 
       1. （可选）要在指定多个地理目标时创建多个目标节点，请选择&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-         这会为每个指定的地理目标创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定位置。
+         此功能为每个指定的地理目标创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定位置。
 
       1. 单击&#x200B;**[!UICONTROL Apply]**。
 
@@ -52,7 +53,7 @@ ht-degree: 0%
 
    已在[体验设置](experience-settings-targeting.md)的[!UICONTROL Advanced]部分的&#x200B;**[!UICONTROL Data Pass]**&#x200B;字段中设置了键值对的键。
 
-   * 对于重定位像素目标，请选择&#x200B;**[!UICONTROL RT Pixel]**，选择要使用的单个重定位像素以及任何必须存在的像素属性的所需值以显示创意，然后单击&#x200B;**[!UICONTROL Apply]**。
+   * 对于重定位像素目标，请选择&#x200B;**[!UICONTROL RT Pixel]**，选择要使用的单个重定位像素以及显示创意所需的任何像素属性的值，然后单击&#x200B;**[!UICONTROL Apply]**。
 
      在[重定位像素设置](/help/creative/pixels/retargeting-pixel-manage.md)中配置了重定位像素的属性。
 
@@ -62,7 +63,7 @@ ht-degree: 0%
 
       1. （可选）要在指定多个地理目标时创建多个目标节点，请选择&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-         这会为每个指定的地理目标创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定位置。
+         此功能为每个指定的地理目标创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定位置。
 
       1. 单击&#x200B;**[!UICONTROL Apply]**。
 

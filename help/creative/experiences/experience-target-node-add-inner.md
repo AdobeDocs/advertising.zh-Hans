@@ -2,9 +2,10 @@
 title: 在体验中的节点之间添加目标节点
 description: 了解如何在广告体验中的目标节点之间添加目标节点。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 在现有级别之间插入目标节点时，新目标节点将保留所有现有的子目标和创意，并且新节点最初称为“全部”。 您可以选择保留新节点，而不添加更具体的目标。
 
-要定义特定目标，请在同一级别添加其他同级目标节点，指定新目标，然后将创意仅分配给该目标。 这会创建新的目标节点，并将之前分配给“全部”的所有子目标和创意移动到同一级别的新“其他所有内容”节点。 这样，现有的子分支不受新目标添加的影响，因为只有新的同级节点包含新的定向信息。
+要定义特定目标，请在同一级别添加其他同级目标节点，指定新目标，然后将创意仅分配给该目标。 添加同级目标节点将创建新的目标节点，并将之前分配给“全部”的所有子目标和创意移动到同一级别的新“其他所有内容”节点。 这样，新目标的添加不会影响现有的子分支，因为只有新的同级节点包含新的定向信息。
 
 >[!NOTE]
 >
@@ -44,13 +45,13 @@ ht-degree: 0%
 
    * 如果同级节点已存在，请执行以下操作：
 
-      * 对于“Adobe受众”目标，请执行以下操作：
+      * 对于Adobe受众目标，请执行以下操作：
 
          1. 单击&#x200B;**[!UICONTROL Click to Browse]**&#x200B;以打开您的[!UICONTROL Audience Targeting]选项，打开&#x200B;**[!UICONTROL Adobe Segments]**&#x200B;选项卡，指定广告商的一个或多个[!DNL Adobe]受众目标，然后单击&#x200B;**[!UICONTROL Create]**<!-- Why not "Save" like for the other node types/use cases? -->。
 
          1. （可选）要在指定多个受众时创建多个目标节点，请选择&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-            这会为每个指定的受众创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定的受众。
+            此功能为每个指定的受众创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定的受众。
 
          1. 单击&#x200B;**[!UICONTROL Apply]**。
 
@@ -62,7 +63,7 @@ ht-degree: 0%
 
          1. （可选）要在指定多个地理目标时创建多个目标节点，请选择&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-            这会为每个指定的地理目标创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定位置。
+            此功能为每个指定的地理目标创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定位置。
 
          1. 单击&#x200B;**[!UICONTROL Apply]**。
 
@@ -70,7 +71,7 @@ ht-degree: 0%
 
         已在[体验设置](experience-settings-targeting.md)的[!UICONTROL Advanced]部分的&#x200B;**[!UICONTROL Data Pass]**&#x200B;字段中设置了键值对的键。
 
-      * 对于重定位像素目标，请选择要使用的单个重定位像素以及任何必须存在的像素属性的所需值以显示创意，然后单击&#x200B;**[!UICONTROL Apply]**。
+      * 对于重定位像素目标，请选择要使用的单个重定位像素以及显示创意所需的任何像素属性的值，然后单击&#x200B;**[!UICONTROL Apply]**。
 
         在[重定位像素设置](/help/creative/pixels/retargeting-pixel-manage.md)中配置了重定位像素的属性。
 
@@ -80,7 +81,7 @@ ht-degree: 0%
 
          1. （可选）要在指定多个地理目标时创建多个目标节点，请选择&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-            这会为每个指定的地理目标创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定位置。
+            此功能为每个指定的地理目标创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定位置。
 
          1. （可选）要在指定多个地理目标时创建多个目标节点，请选择&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
@@ -90,7 +91,7 @@ ht-degree: 0%
 
    * （可选） [将创意内容](experience-assign-creative-bundles.md)分配给新目标节点和“其他所有内容”节点。
 
-   * （可选） [添加将包含指定类型目标的同级目标节点](experience-target-node-add-sibling.md)。
+   * （可选） [添加指定目标类型的同级目标节点](experience-target-node-add-sibling.md)。
 
    * （可选）要保存体验，请执行以下操作：
 

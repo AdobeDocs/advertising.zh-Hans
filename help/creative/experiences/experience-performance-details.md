@@ -3,9 +3,9 @@ title: 体验级性能报表
 description: 了解如何查看体验级性能报表。
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -116,9 +116,11 @@ ht-degree: 0%
 
    * （可选）要更改用于在一系列导致转化的事件中归因转化数据的规则，请单击![设置](/help/creative/assets/settings.png)并更改&#x200B;**[!UICONTROL Attribution Rule]**。
 
-   * （可选）要更改报告的转化，请单击![设置](/help/creative/assets/settings.png)，然后在&#x200B;**[!UICONTROL Conversions]**&#x200B;菜单中选择转化名称。&lt;！ — 只有一个，还是多个？ 验证这些内容的显示方式 — 我需要看到已设置多个转化的广告商 — >
+     有关归因规则的更多信息，请参阅“[归因规则的计算方式](/help/search-social-commerce/reports/attribution-rules.md)”。
 
-     可用的转化列包括Advertising Search、Social和Commerce中可用的转化，无论您是Search、Social还是Commerce客户。 当广告商具有[an [!DNL Adobe Analytics for Advertising] 集成](/help/integrations/analytics/overview.md)时，这可能包括从Adobe Analytics同步的转化和网站参与量度。 <!--Analytics calculated metrics and advanced calculated metrics aren't available.-->有关在报表中包括收集的转化率的详细信息，请参阅《搜索、社交和Commerce指南》主题“[关于管理广告商的转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)”。
+   * （可选）要更改报告的转化，请单击![设置](/help/creative/assets/settings.png)，然后在&#x200B;**[!UICONTROL Conversions]**&#x200B;菜单中选择转化名称。&lt;！ — 只有一个，还是多个？ 验证这些内容的显示方式 — 我需要看到已设置多个转化的广告商。 截至3/6，我只看到“全选”。 —>
+
+     可用的转化列包括Advertising Search、Social和Commerce中可用的转化，无论您是Search、Social还是Commerce客户。 当广告商具有[an [!DNL Adobe Analytics for Advertising] 集成](/help/integrations/analytics/overview.md)时，该列表可以包含从Adobe Analytics同步的转化和网站参与量度。 <!--Analytics calculated metrics and advanced calculated metrics aren't available.-->有关在报表中包括收集的转化率的详细信息，请参阅《搜索、社交和Commerce指南》主题“[关于管理广告商的转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)”。
 
 1. （在[!UICONTROL Overview]选项卡上）：
 
@@ -163,3 +165,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [自定义创意报告](/help/creative/report-custom-creative.md)
+>* [下载视图中的所有体验](/help/creative/experiences/experience-download-view.md)
+>* [关于Advertising Creative中的体验](/help/creative/experiences/experience-about.md)

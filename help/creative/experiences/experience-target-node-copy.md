@@ -2,9 +2,10 @@
 title: 将子节点复制到同一级别的其他目标节点
 description: 了解如何将父目标节点的所有子节点复制到同一级别的其他目标节点
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: b3705689-57b6-41ce-9e00-2358bd195c93
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 *仅具有决策树定位的体验*
 *已关闭的测试版*
 
-您可以将父目标节点的所有子节点（包括所有子目标和分配给它们的创意捆绑包）复制到同一级别的其他目标节点，方法是将复制的节点添加到现有框架或完全替换现有框架。<!-- Give the main use case or an example to explain. -->
+您可以将父目标节点的所有子节点（包括所有子目标和分配给它们的创意捆绑包）复制到同一级别的其他目标节点。 您可以通过a)将复制的节点添加到现有框架或b)完全替换现有框架来复制节点。<!-- Give the main use case or an example to explain. -->
 
 此功能不会影响为父节点指定的目标 — 它只影响子节点。
 
