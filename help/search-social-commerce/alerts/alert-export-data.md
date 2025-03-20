@@ -3,7 +3,7 @@ title: 导出自定义警报的数据
 description: 了解如何将触发警报的数据导出到文件。
 exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 03475909ca942010e4380456079519f0c18adca3
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 1. 在模板或报表名称旁边的[!UICONTROL Export]列中，单击格式的名称，然后按照浏览器的正常过程打开或保存文件：
 
-   * **[!UICONTROL XLS]** — 对于具有单个工作表(XLS)的[!DNL Excel]工作簿。 此报表包括一个位于顶部标有参数的工作表，当组件数据可用时，每个包含的组件都有一个对应的行。 省略没有数据的行。 基本报表包括每个数值列的合计。
+   * **[!UICONTROL XLS]：**&#x200B;对于具有单个工作表(XLS)的[!DNL Excel]工作簿。 此报表包括一个位于顶部标有参数的工作表，当组件数据可用时，每个包含的组件都有一个对应的行。 省略没有数据的行。 基本报表包括每个数值列的合计。
 
-   * **[!UICONTROL TSV]** — 用于TSV文件。 报告包含参数以及每个包含的组件所对应的行。
+   * **[!UICONTROL TSV]：**&#x200B;用于TSV文件。 报告包含参数以及每个包含的组件所对应的行。
 
-   * **[!UICONTROL CSV]** — 对于CSV文件。 报告包含参数以及每个包含的组件所对应的行。
+   * **[!UICONTROL CSV]：**&#x200B;用于CSV文件。 报告包含参数以及每个包含的组件所对应的行。
 
 >[!MORELIKETHIS]
 >
