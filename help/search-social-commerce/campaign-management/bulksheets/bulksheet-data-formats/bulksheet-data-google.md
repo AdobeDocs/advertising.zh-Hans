@@ -3,9 +3,9 @@ title: ' [!DNL Google Ads] 帐户所需的批量处理工作表数据'
 description: 引用 [!DNL Google Ads] 帐户批量工作表中必需的标题字段和数据字段。
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: 6063d7fac0df863e4d4e06ce23603a5f678073e1
 workflow-type: tm+mt
-source-wordcount: '7855'
+source-wordcount: '7860'
 ht-degree: 0%
 
 ---
@@ -52,12 +52,12 @@ ht-degree: 0%
 | [!UICONTROL Location Type] | （当您包含位置时）[位置类型](https://developers.google.com/google-ads/api/data/geotargets)。 |
 | [!UICONTROL Device] | 在营销活动或广告组级别进行竞价调整的设备类型： <i>[!UICONTROL smartphone]</i>、<i>[!UICONTROL tablet]</i>或<i>[!UICONTROL desktop]</i>。 |
 | [!UICONTROL Bid Adjustment] | <p>（当您包含[!UICONTROL Location]、[!UICONTROL Device]或[!UICONTROL RLSA]目标时）是否调整特定位置、特定设备类型或特定受众目标的广告竞价：</p><ul><li><p>要使用关键词级别的竞价（0%的差异），请输入0。 对于新目标，您还可以将此项留空。</p></li><li><p>要对此目标使用其他竞价，请输入增加或减少竞价的百分比。</p></li><ul><li><p>对于位置和RLSA目标，有效百分比包括从–90到900。</p></li><li><p>对于设备竞价调整，有效百分比包括：</p></li><ul><li><p>（营销活动）–100（不为设备类型的广告竞价）或从–90到900。</p></li><li><p>（广告组）–100表示智能手机和平板电脑（表示不为设备类型出价），从–90到900表示所有设备类型。</p></li></ul></ul><li><p>（现有活动和广告组）要使用现有竞价调整，请将此项留空。</p></li></ul> |
-| [!UICONTROL Adobe Rec Bid Adjustment] | （出于信息目的包含在生成的批量处理工作表中）Adobe为促销活动级别位置目标或RLSA建议的只读竞价调整。 仅当营销活动位于其目标使用加权转化量度（而不是[!UICONTROL Maximize Clicks]目标）的项目组合中，并且营销活动包含至少两个位置目标或过去90天内至少单击5次或成本降低5美元的RLSA时，才会计算此值。</p><p>如果要手动编辑位置目标或RLSA以使用推荐值，请在创建位置目标或RLSA后至少等待两周，以便允许进行足够的数据收集，并且不要每周多次更改该值。 |
+| [!UICONTROL Adobe Rec Bid Adjustment] | （出于信息目的包含在生成的批量处理工作表中） Adobe建议为促销活动级别位置目标或RLSA进行的只读竞价调整。 仅当营销活动位于其目标使用加权转化量度（而不是[!UICONTROL Maximize Clicks]目标）的项目组合中，并且营销活动包含至少两个位置目标或过去90天内至少单击5次或成本降低5美元的RLSA时，才会计算此值。</p><p>如果要手动编辑位置目标或RLSA以使用推荐值，请在创建位置目标或RLSA后至少等待两周，以便允许进行足够的数据收集，并且不要每周多次更改该值。 |
 | [!UICONTROL Device Targets] | <p>（仅限旧版促销活动类型）可显示广告的设备： <i>[!UICONTROL All]</i>、<i>[!UICONTROL Computers]</i>、<i>[!UICONTROL Smartphones]</i>或<i>[!UICONTROL Tablets]</i>。 对于新营销活动，默认值为<i>[!UICONTROL All]</i>。</p> |
 | [!UICONTROL Device OS Targets (Google Adwords)] | （仅限旧版促销活动类型；适用于设备目标包括“智能手机”或“平板电脑”的情况）可显示广告的操作系统： <i>[!UICONTROL All]</i>、<i>[!UICONTROL Android]</i>、<i>[!UICONTROL iOS]</i>或<i>[!UICONTROL Palm]</i>。 对于新营销活动，默认值为<i>[!UICONTROL All]</i>。</p> |
 | [!UICONTROL Mobile Carriers (Google Adwords)] | <p>（仅限旧版促销活动类型；适用于[!UICONTROL Device Targets]包含“[!UICONTROL All]”或“[!UICONTROL Smartphones]”时）智能电话可能连接的移动运营商： <i>[!UICONTROL All]</i>，或者&lt;c<i>运营商代码</i>>、&lt;<i>国家/地区代码</i>>（如T-Mobile，US）指示的一个或多个运营商（使用[!DNL Google Ads]</a>的<a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">可用运营商和代码列表）。 使用分号（如T-Mobile，US；T-Mobile，GB）分隔多个运营商。 对于新营销活动，默认值为<i>[!UICONTROL All]</i>。</p> |
 | [!UICONTROL Ad Group Name] | <p>标识广告组的唯一名称。 最大长度为255个字符；不保存尾随空白字符（例如，“广告组1”另存为“广告组1”）。 此字段不适用于营销活动级别的站点链接或营销活动级别的设备目标。</p> |
-| [!UICONTROL Ad Group Type] | <p>广告组类型： <i>[!UICONTROL Discovery]</i> （仅适用于发现营销活动）、<i>[!UICONTROL Display]</i> （适用于显示营销活动）、<i>[!UICONTROL Search Dynamic]</i> （适用于扩展的动态搜索广告）、<i>[!UICONTROL Search Standard]</i> （适用于搜索广告）、<i>[!UICONTROL Shopping Product]</i> （适用于购物产品广告）、<i>[!UICONTROL Shopping Showcase]</i> （不支持创建和编辑）或<i>[!UICONTROL Unknown]</i>。</p> |
+| [!UICONTROL Ad Group Type] | <p>广告组类型： <i>[!UICONTROL Demand Gen]</i> （仅用于需求生成营销活动）、<i>[!UICONTROL Display]</i> （用于显示营销活动）、<i>[!UICONTROL Search Dynamic]</i> （用于扩展的动态搜索广告）、<i>[!UICONTROL Search Standard]</i> （用于搜索广告）、<i>[!UICONTROL Shopping Product]</i> （用于购物产品广告）、<i>[!UICONTROL Shopping Showcase]</i> （不支持创建和编辑）或<i>[!UICONTROL Unknown]</i>。</p> |
 | [!UICONTROL Max CPC] | <p>（仅限CPC促销活动）每次点击的最大成本(CPC)，这是在广告网络上点击广告所需支付的最高金额，无论是否带有货币符号和标点。 您可以设置广告组和关键字、产品组和动态搜索目标的值。 新关键字的默认值继承自广告组级别。 对于产品组，您可以设置最低产品组层的值；新层的默认值继承自父层。</p><p>对于已优化项目组合中的现有产品组和动态搜索目标，更新仅在一天内有效，并在下一个优化周期中被覆盖。</p> |
 | [!UICONTROL Max Content CPC] | <p>（仅限CPC促销活动）每次点击的最大内容成本(CPC)，这是显示网络站点中无论是否带有货币符号和标点，要支付的广告点击最高金额。 您可以设置和编辑非投放目标营销活动中广告组级别的值。</p> |
 | [!UICONTROL Audience Target Method] | <p>（仅搜索网络上的营销活动，以及显示网络上现有的只读[!DNL Gmail]营销活动）是否：</p><ul><li><p><i>[!UICONTROL Target and Bid]</i>：只向与目标受众相关联的用户显示广告，这些受众也满足广告组的任何其他目标。</p></li><li><p><i>[!UICONTROL Bid Only]</i>：即使向不与目标受众关联的用户显示广告，只要他们满足其他广告组级别目标。</p><p>但是，您可以通过为特定受众设置更高的竞价来增加向这些受众显示广告的可能性。</p></li></ul> |
@@ -87,11 +87,11 @@ ht-degree: 0%
 | [!UICONTROL End Date] | <p>（仅限增强型站点链接）对站点链接发出投标的最后日期，以广告商的时区为单位并采用以下格式之一：  <i>m/d/yyyy</i>、<i>m/d/yy</i>、<i>m-d-yyyy</i>或<i>m-d-yy</i>。 默认为“无”（无结束日期）。</p><p><b>注意：</b>只能在具有现有增强型站点链接或没有站点链接的营销活动中创建新的增强型站点链接。</p> |
 | [!UICONTROL Exclude Tablet (Google Adwords)] | （仅限现有应用程序安装广告）</p><p>（可选）阻止[!DNL Google Ads]向平板电脑用户显示广告。 值可以包括<i>是</i>和<i>否</i>。 |
 | [!UICONTROL Landing Page Suffix] | 附加到最终URL末尾以跟踪信息的任何参数。 示例：`param2=value1&param3=value2`<br><br>请参见 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[点击跟踪格式。<br><br>较低级别的最终URL后缀将覆盖帐户级别的后缀。 为便于维护，除非需要对各个帐户组件进行不同的跟踪，否则请仅使用帐户级别的后缀。 要在广告组级别或更低级别配置后缀，请使用[!DNL Google Ads]编辑器。 |
-| [!UICONTROL Tracking Template] | 跟踪模板，指定所有登陆域重定向和跟踪参数，并将最终URL嵌入到[!DNL ValueTrack]参数中。 最粒度级别的跟踪模板（使用关键字作为最粒度级别）将覆盖所有更高级别的值。<br><br>对于在营销活动设置包括“[!UICONTROL EF Redirect]”和“[!UICONTROL Auto Upload]”时应用的Adobe Advertising转化跟踪，Search、Social和Commerce会在您保存记录时自动附加其自身的重定向和跟踪代码。<br><br>对于第三方重定向和跟踪，请输入一个值。 有关在跟踪模板中指示最终URL的[!DNL ValueTrack]参数列表，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/2375447)中“可用[!DNL ValueTrack]参数”一节中的“仅跟踪模板”参数。<br><br>要删除现有值，请使用值`[delete]`（包括括号）。 |
+| [!UICONTROL Tracking Template] | 跟踪模板，指定所有登陆域重定向和跟踪参数，并将最终URL嵌入到[!DNL ValueTrack]参数中。 最粒度级别的跟踪模板（使用关键字作为最粒度级别）将覆盖所有更高级别的值。<br><br>对于Adobe Advertising转化跟踪（在营销活动设置包括“[!UICONTROL EF Redirect]”和“[!UICONTROL Auto Upload]”时应用），Search、Social和Commerce会在您保存记录时自动附加其自身的重定向和跟踪代码。<br><br>对于第三方重定向和跟踪，请输入一个值。 有关在跟踪模板中指示最终URL的[!DNL ValueTrack]参数列表，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/2375447)中“可用[!DNL ValueTrack]参数”一节中的“仅跟踪模板”参数。<br><br>要删除现有值，请使用值`[delete]`（包括括号）。 |
 | [!UICONTROL Base URL/Final URL] | 搜索引擎用户在单击您的广告时进入的登陆页面URL，包括为促销活动或帐户配置的任何附加参数。 关键字级别的基本/最终URL将覆盖广告级别和更高级别的URL。<br><br>要删除现有值，请使用值`[delete]`（包括括号）。 |
 | [!UICONTROL Destination URL] | （出于提供信息的目的包含在生成的批量工作表中；未发布到搜索引擎）对于具有目标URL的帐户，此URL可将广告链接到广告商网站上的基本URL/登陆页面（有时通过另一个跟踪点击的网站，然后将用户重定向到登陆页面）。 它包括为Search、Social和Commerce营销活动或帐户配置的任何附加参数。 如果您生成了跟踪URL，则跟踪URL将基于帐户设置和促销活动设置中的跟踪参数。 如果附加了特定于搜索引擎的参数，则可能会将其替换为与搜索、社交和Commerce等效的参数。<br><br>对于具有最终URL的帐户，此列显示的值与基本URL/最终URL列显示的值相同。 |
 | [!UICONTROL Custom URL Param] | 当搜索帐户或促销活动设置的跟踪参数中包含变量时，用于替代`{custom_code}`动态变量的数据。 要在跟踪URL中插入自定义值，必须使用生成跟踪URL选项上传批量工作表文件。 |
-| [!UICONTROL Creative Type] | 广告格式： <i>[!UICONTROL Text ad]</i>、<i>[!UICONTROL Expanded text ad]</i>、<i>[!UICONTROL Dynamic search ad]</i>（已弃用的广告类型）、<i>[!UICONTROL Expanded Dynamic Search ad]</i>、&lt;[!UICONTROL i>Display ad]</i>、<i>[!UICONTROL App Install ad]</i>（已弃用）、<i>[!UICONTROL Image]</i>、<i>[!UICONTROL Product ad<]/i>（购物广告）或<i>[!UICONTROL Responsive search ad]</i>。 新广告的默认值为<i>[!UICONTROL Text ad]</i>。<br><br>需要创建或编辑产品广告的状态。 |
+| [!UICONTROL Creative Type] | 广告格式： <i>[!UICONTROL Text ad]</i>、<i>[!UICONTROL Expanded text ad]</i>、<i>[!UICONTROL Demand Gen Carousel Ad]</i>（多图像轮播广告）、<i>[!UICONTROL Demand Gen Image Ad (single-image ads)]</i>、<i>[!UICONTROL Demand Gen Product Ad]</i>和<i>[!UICONTROL Demand Gen Video Ad]</i>、<i>[!UICONTROL Dynamic search ad]</i>（已弃用的广告类型）、<i>[!UICONTROL Expanded Dynamic Search ad]</i>、&lt;[!UICONTROL i>Display ad]</i>、<i>[!UICONTROL App Install ad]</i>（已弃用）、<i>[!UICONTROL Image]</i>、<i>[!UICONTROL Product ad<]/i>（购物广告）或<i>[!UICONTROL Responsive search ad]</i>。 新广告的默认值为<i>[!UICONTROL Text ad]</i>。<br><br>需要创建或编辑产品广告的状态。 |
 | [!UICONTROL Param1] | <p>`{param1}`广告参数的数值，它可以包含在批量处理工作表文件中任何广告的广告副本或显示URL中。 最大长度为25个字符，您可以包含以下非数字字符：</p><ul><li><p>值可以添加货币符号或代码，也可以添加货币符号或代码。 例如，`£2.000,00`和`2000GBP`有效。</p></li><li><p>该值可以包括逗号(`,`)或句点(`.`)作为分隔符，小数点值可包含可选句点(`.`)或逗号(`,`)。 例如，`1,000.00`和`2.000,10`有效。</p></li><li><p>值可以添加前缀，也可以附加百分比符号(`%`)、加号(`+`)或减号(`- `)。 例如，`20%`、`208+`和`-42.32`有效。</p></li><li><p>两个数字可以用正斜杠嵌入。 例如，`4/1`和`0.95/0.45`有效。</p></li></ul><p>要删除现有值，请使用值`[delete]`（包括括号）。</p> |
 | [!UICONTROL Param2] | `{param2}`广告参数的数值，它可以包含在批量处理工作表文件中任何广告的广告副本或显示URL中。 有关详细信息，请参阅Param1条目。 |
 | [!UICONTROL Audience] | 搜索广告(RLSA)目标受众或营销活动或广告组的已排除受众的再营销列表。 在“目标类型”字段中指定它是目标还是排除项。 |
@@ -119,11 +119,11 @@ ht-degree: 0%
 | [!UICONTROL Sitelink ID] | 标识现有站点链接的唯一ID。 在CSV和TSV文件中，它的前面必须带有单引号(&#39;)。[^1]仅在更改或删除站点链接时需要，除非该行包含a)足够的属性列以标识站点链接或b)“[!UICONTROL AMO ID]”。 但是，如果您既不包括[!UICONTROL Sitelink ID]也不包括[!UICONTROL AMO ID]，并且属性列与多个站点链接匹配，则只有其中一个站点链接的状态会更改。</p><p><b>注意：</b>如果您编辑的站点链接属性列（现有Sitelink的状态除外），并且您既不包括[!UICONTROL Sitelink ID]也不包括[!UICONTROL AMO ID]，则会创建一个新的Sitelink，并且现有Sitelink不会发生更改。 |
 | [!UICONTROL RLSA Target ID] | 标识现有营销活动或广告组级别RLSA目标或排除项的唯一ID。 在CSV和TSV文件中，它的前面必须带有单引号(&#39;)。[^1]仅在您更改或删除目标或排除项时需要，除非该行包含目标的“[!UICONTROL AMO ID]”。 |
 | [!UICONTROL Device Target ID] | <p>标识现有营销活动级别或广告组级别设备目标或排除项的唯一ID。 在CSV和TSV文件中，它的前面必须带有单引号(&#39;)。[^1]仅在您更改或删除目标时需要，除非该行包含目标的“[!UICONTROL AMO ID]”。</p> |
-| [!UICONTROL AMO ID] | （在生成的批量工作表中）同步实体的Adobe生成的唯一标识符。 对于响应式搜索广告，编辑或删除广告时需要AMO ID，除非您包含广告ID。 要编辑所有其他具有AMO ID的实体类型的数据，需要使用AMO ID来编辑或删除数据，除非您包含实体ID和父实体ID。<br><br>Search、Social和Commerce使用此值确定要编辑的正确身份，但不会将ID发布到广告网络。 |
+| [!UICONTROL AMO ID] | （在生成的批量工作表中）Adobe为同步实体生成的唯一标识符。 对于响应式搜索广告，编辑或删除广告时需要AMO ID，除非您包含广告ID。 要编辑所有其他具有AMO ID的实体类型的数据，需要使用AMO ID来编辑或删除数据，除非您包含实体ID和父实体ID。<br><br>Search、Social和Commerce使用此值确定要编辑的正确身份，但不会将ID发布到广告网络。 |
 | [!UICONTROL EF Error Message] | （出于信息目的包含在生成的批量工作表中）用于显示来自广告网络的关于行中数据的错误消息的占位符；错误消息包含在[!UICONTROL EF Errors]文件中。 此值未发布到广告网络。 |
 | [!UICONTROL SE Error Message] | （出于信息目的包含在生成的批量工作表中）用于显示来自广告网络的关于行中数据的错误消息的占位符；错误消息包含在[!UICONTROL SE Errors]文件中。 此值未发布到广告网络。 |
 | [!UICONTROL Exemption Request] | （出于信息目的包含在生成的批量工作表中）用于显示广告违反的任何[!DNL Google Ads]广告策略的名称和文本的占位符。 |
-| [!UICONTROL Retail Hash] | (包括在使用高级Campaign Management生成的批量处理工作表中的信息用途)字母数字哈希代码(如f9639f40cdf56524b541e5dacf55a991)，表示项目是使用高级(ACM)视图生成的。 |
+| [!UICONTROL Retail Hash] | （包括在使用高级促销活动管理生成的批量处理工作表中的信息用途）字母数字哈希代码(如f9639f40cdf56524b541e5dacf55a991)，表示项目是使用高级(ACM)视图生成的。 |
 
 [^1]： [!DNL Excel]在打开文件时将大数转换为科学记号(如2115585666的2.12E+09)。 要查看标准表示法的位数，请选择列中的任意单元格，然后在公式栏中单击。
 

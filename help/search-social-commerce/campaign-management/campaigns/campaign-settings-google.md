@@ -1,11 +1,11 @@
 ---
-title: “[!DNL Google Ads]营销活动设置”
+title: '[!DNL Google Ads]营销活动设置'
 description: 引用 [!DNL Google Ads] 营销活动的设置。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: ae98579b6b2edb54de5753e84891987a88184515
+source-git-commit: f5e453975f693777e5717924d471b9de9f1f651b
 workflow-type: tm+mt
-source-wordcount: '2576'
+source-wordcount: '2471'
 ht-degree: 0%
 
 ---
@@ -71,13 +71,11 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]：**&#x200B;营销活动的竞价策略：
 
-* *[!UICONTROL Enhanced CPC]：* （不适用于最佳效果或现有的只读[!DNL Gmail]营销活动）使用广告网络的增强型每次点击成本(eCPC)模型，该模型允许广告网络自动更改每次点击成本(CPC)竞价，从而尝试使用广告网络(不在“搜索”、“社交”和“Commerce”中)中指定的转化来最大化转化，同时尝试将平均CPC保持在最大CPC以下。
-
-当您将带eCPC的营销活动添加到经过优化的搜索、社交和Commerce产品组合时，Search、Social和Commerce会优化基本竞价，并且在启用“[!UICONTROL Auto adjust campaign budget limits]”选项的情况下，还会优化营销活动预算。 广告网络会优化所有竞价调整，并可能会在用户查询时根据专有数据和见解更改搜索、社交和Commerce生成的竞价。 **注意：**&#x200B;仅在广告网络上跟踪的总转化与项目组合目标一致时，才在项目组合中使用eCPC营销活动。<!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
+* *[!UICONTROL Enhanced CPC]：*&#x200B;已弃用。 [!DNL Google Ads]已于2025年3月15日开始自动将现有[增强CPC竞价策略](https://support.google.com/google-ads/answer/2464964)更改为手动CPC。
 
 * *[!UICONTROL Manual CPC]*（默认）：（不适用于效果最佳的促销活动）使用每次点击成本(CPC)模型。 您可以选择允许广告网络更改营销活动的竞价：
 
-   * **[!UICONTROL Enable Enhanced CPC]**（默认禁用）：这与使用“[!UICONTROL Enhanced CPC]”选项相同。
+   * **[!UICONTROL Enable Enhanced CPC]**（默认禁用）：这与使用“[!UICONTROL Enhanced CPC]”选项相同，该选项已弃用。 [!DNL Google Ads]已于2025年3月15日开始自动将现有[增强CPC竞价策略](https://support.google.com/google-ads/answer/2464964)更改为手动CPC。
 
 * *[!UICONTROL Maximize Clicks]：* （搜索、展示和购物营销活动）广告网络(而不是Search、Social和Commerce)会优化竞价以最大化点击次数。 （可选）输入&#x200B;**[!UICONTROL Max CPC]**（每次点击成本）以确保广告网络为每次点击支付的金额不会超过特定金额。 **注意：**&#x200B;当您将具有此策略的营销活动添加到项目组合时，竞价由点击权重驱动，而不是由项目组合目标驱动。
 
@@ -360,7 +358,7 @@ ht-degree: 0%
 
 **[!UICONTROL Primary Status]：** （性能最佳的营销活动中的现有资源组的只读字段）为什么资源组会或不会以满负荷提供服务。 它考虑资产组状态以及其他信号，例如政策和质量审批。 值可能包括&#x200B;*合格，* *有限，* *不合格，* *已暂停，* *待处理，* *已移除，* *未知，*&#x200B;或未指定&#x200B;*未指定。*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
 
-**[!UICONTROL Primary Status Reason]：** （性能最佳的营销活动中现有资源组的只读字段）有关资源组主要状态的更多详细信息。 值可能包括&#x200B;*ASSET_GROUP_DISAPPROVED，* *ASSET_GROUP_LIMITED，* *ASSET_GROUP_PAUSED，* *ASSET_GROUP_REMOVED，* *ASSET_GROUP_UNDER_REVIEW，* *CAMPAIGN_ENDED，* *CAMPAIGN_PAUSED，* *CAMPING_PENDING，* {CAMPAIGN_REMOVED，**&#x200B;未知，*或未指定*。**
+**[!UICONTROL Primary Status Reason]：** （性能最佳的营销活动中现有资源组的只读字段）有关资源组主要状态的更多详细信息。 值可能包括&#x200B;*ASSET_GROUP_DISAPPROVED，* *ASSET_GROUP_LIMITED，* *ASSET_GROUP_PAUSED，* *ASSET_GROUP_REMOVED，* *ASSET_GROUP_UNDER_REVIEW，* *CAMPAIGN_ENDED，* *CAMPAIGN_PAUSED，* *CAMPING_PENDING，* *CAMPAIGN_REMOVED，* *未知，*&#x200B;或&#x200B;*未指定。*
 
 ## [!UICONTROL Conversion Goals]
 
