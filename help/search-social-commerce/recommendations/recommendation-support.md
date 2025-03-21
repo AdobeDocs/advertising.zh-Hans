@@ -3,9 +3,9 @@ title: 关于发布者推荐和见解支持
 description: 了解对查看和管理发布者推荐和见解的支持。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 73cc45da72a48b844b4baa426331822b4e857245
+source-git-commit: 457e42152a85e0e357939efdfb821b76a636ba2a
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 * 概览尚未针对账户采取行动的所有受支持推荐。 每个条目的信息包括推荐类型、[!DNL Adobe]推荐、受影响的量度、受影响的实体以及指向更多详细信息的链接。 量度的预计增长以绿色突出显示。
 
-  ![Recommendations UI](/help/search-social-commerce/assets/recommendations-ui.png "Recommendations UI")
+  ![推荐UI](/help/search-social-commerce/assets/recommendations-ui.png "推荐UI")
 
   在打开视图时，数据可实时使用。 要刷新数据，请单击页面左下角的![刷新](/help/search-social-commerce/assets/refresh.png "刷新")。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->虽然广告网络推荐和性能见解可帮助您提高营销活动效果，但有些可能并不符合您更广泛的目标。 因此，在执行任何建议或分析之前，最好咨询您的Adobe客户团队。
+>虽然广告网络推荐和性能见解可帮助您提高营销活动效果，但有些可能并不符合您更广泛的目标。 因此，在实施任何建议或见解之前，最好咨询您的Adobe客户团队。
 
 ## [!DNL Google Ads]支持的推荐类型
 
@@ -60,7 +60,6 @@ ht-degree: 0%
 | | [!UICONTROL Upgrade local campaign to performance max] | 将旧版本地营销活动升级到最高性能的营销活动 |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | 将旧版智能购物营销活动升级到最高性能的营销活动 |
 | [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | 当前受预算限制的营销活动的建议预算 |
-| | [!UICONTROL Enhanced CPC opt in] | 与[!UICONTROL Enhanced CPC]竞价 |
 | | [!UICONTROL Forecasting campaign budget] | 预计未来受预算限制的营销活动的建议预算 |
 | | [!UICONTROL Forecasting set Target CPA] | 在预测增加流量的季节性事件之前，为没有目标CPA的营销活动设置目标CPA |
 | | [!UICONTROL Forecasting set Target ROAS] | 在季节性事件（预测为增加流量）之前提高预算，并将竞价策略从[!UICONTROL Maximize Conversion Value]更改为[!UICONTROL Target ROAS] |

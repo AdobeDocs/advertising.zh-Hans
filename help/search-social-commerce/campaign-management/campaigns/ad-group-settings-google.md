@@ -1,11 +1,11 @@
 ---
-title: “[!DNL Google Ads]广告组设置”
+title: '[!DNL Google Ads]广告组设置'
 description: 引用 [!DNL Google Ads] 广告组的设置。
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: fb38bf6afa181b4560742d3649db68c8aef0e619
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Use campaign setting]*（新广告组的默认设置）：使用现有的营销活动级别的广告轮换设置。 **注意：**&#x200B;营销活动级别的设置在Search、Social和Commerce中不可见。
 
-如果营销活动使用智能竞价策略（如[!UICONTROL Target CPA]、[!UICONTROL Target ROAS]或[!UICONTROL Enhanced CPC]），则[!DNL Google Ads]会自动将选项设置为“[!UICONTROL Optimize]”。
+如果营销活动使用智能竞价策略（如[!UICONTROL Target CPA]、[!UICONTROL Target ROAS]），则[!DNL Google Ads]会自动将选项设置为“[!UICONTROL Optimize]”。
 
 **[!UICONTROL Custom Bid Level]：** （仅针对显示网络的营销活动）竞价方式：竞价方式：竞价方式为&#x200B;*[!UICONTROL Ad Group]* （默认值）、*[!UICONTROL Age]*、*[!UICONTROL Gender]*、*[!UICONTROL Interest and List]* (Google广告中的兴趣和再营销)、*[!UICONTROL Keyword]*、*[!UICONTROL Placement]* （网站）、*[!UICONTROL Unknown]*&#x200B;或&#x200B;*[!UICONTROL Vertical]*。
 
