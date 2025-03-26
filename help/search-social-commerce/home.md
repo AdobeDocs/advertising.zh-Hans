@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: 6e28ef53a485e3e8401444026f3a96a22b56f7ac
+source-git-commit: 7a4b295bdf26eeaa123db246bc4eeb64174ca326
 workflow-type: tm+mt
-source-wordcount: '2859'
+source-wordcount: '2856'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2025年2月发布 | [！UICONTROL营销活动管理 | 搜索、Social和Commerce现在可同步[!DNL Google Ads]需求一般促销活动（以前称为发现促销活动）的产品广告和视频广告。 Search、Social和Commerce以及Adobe Analytics中的报表（适用于具有[!DNL Adobe Analytics for Advertising]的广告商）现在包含所有可用广告类型的广告级绩效和支出数据。  在[!UICONTROL Ads]视图和[!UICONTROL Ad Variation Report]中，您可以筛选[!UICONTROL Creative Type]列以包含[!UICONTROL Demand Gen Image Ad]、[!UICONTROL Demand Gen Carousel Ad]、[!UICONTROL Demand Gen Product Ad]和[!UICONTROL Demand Gen Video Ad]。<br><br>目标上传支持适用于所有受支持的广告类型。 尚未提供针对需求生成促销活动的优化。 | 有关详细信息：请参阅[支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)。 |
+| 2025年2月发布 | [!UICONTROL Campaign Management] | 搜索、Social和Commerce现在可同步[!DNL Google Ads]需求一般促销活动（以前称为发现促销活动）的产品广告和视频广告。 Search、Social和Commerce以及Adobe Analytics中的报表（适用于具有[!DNL Adobe Analytics for Advertising]的广告商）现在包含所有可用广告类型的广告级绩效和支出数据。  在[!UICONTROL Ads]视图和[!UICONTROL Ad Variation Report]中，您可以筛选[!UICONTROL Creative Type]列以包含[!UICONTROL Demand Gen Image Ad]、[!UICONTROL Demand Gen Carousel Ad]、[!UICONTROL Demand Gen Product Ad]和[!UICONTROL Demand Gen Video Ad]。<br><br>目标上传支持适用于所有受支持的广告类型。 尚未提供针对需求生成促销活动的优化。 | 有关详细信息：请参阅[支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)。 |
 | 2024年12月5日 | [!DNL Microsoft Advertising]个脱机转换 | 现在为[!DNL Microsoft Advertising]个用于离线转化的增强型转化提供以下支持，您可以使用这些转化事件而不使用点击ID，例如网站潜在客户产生的电话销售。<ul><li>搜索、社交和Commerce会同步您现有的增强型转化目标以进行离线转化，以便您能够将其用于报表和优化。 数据每天于05:00在广告商所在时区进行同步。</li><li>您可以上传映射到现有增强转化目标的第一方离线转化数据。</li></li></ul>为[!DNL Microsoft Advertising]中的潜在客户创建增强的转化目标。 | 有关工作流程的大纲，请参阅“[为离线转化实施 [!DNL Microsoft Advertising] 增强型转化](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)”并参阅“[为增强型转化上传离线转化数据](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)”。 |
 | 2024年10月29日发布 | [!DNL Adobe Analytics for Advertising] | （具有[!DNL Adobe Analytics for Advertising]和[!DNL Microsoft Advertising]个效果最佳促销活动的广告商）现在，当您在效果最佳促销活动的跟踪URL中实施新的AMO ID ([!DNL s_kwcid])参数时，Adobe Analytics中提供了效果最佳促销活动的资源组级别数据，这些参数不包括广告和关键字。 对大多数具有最高效果营销活动的帐户的跟踪已迁移到新格式。 对于没有[!UICONTROL Auto Upload]跟踪选项且营销活动效果最佳的帐户，这些帐户尚未迁移到新格式，但是，您必须手动更新每个登陆页面后缀以包含新的AMO ID格式。<br><br>Search、Social和Commerce中也提供了您的效果最佳营销活动的Adobe Analytics数据。 | 查看新的[AMO ID格式](/help/integrations/analytics/ids.md#amo-id-formats)和[何时以及如何将该参数添加到您的跟踪URL](/help/integrations/analytics/ids.md#amo-id-implement)。 |
 | | [!UICONTROL Campaigns] | 对于每个最高绩效和搜索促销活动，您现在可以选择是允许[!DNL Google Ads]为新客户出价更高，还是仅为新客户出价，还是为新客户和现有客户平等出价。 若要为新客户出价更高，您必须首先使用[!DNL Google Ads]为您的[!DNL Google Ads]帐户或经理帐户激活新的客户获取目标。 目标定义包括符合条件的现有客户列表和新客户的附加转化值。 | 请参阅“[[!DNL Google Ads] 促销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)”。<br><br>另请参阅[!DNL Google Ads]帮助“[关于新客户获取目标](https://support.google.com/google-ads/answer/12080169)”和“[激活新客户获取目标](https://support.google.com/google-ads/answer/14007601)”中的步骤1-2。 |
