@@ -2,9 +2,9 @@
 title: 登录到DSP
 description: 了解如何登录到DSP。
 feature: DSP Introduction
-source-git-commit: d90270666dfc587097088e94a2ee4f0c353c9c70
+source-git-commit: b3393c6b0cf3df707793a91aa6a3e8c844f75fb2
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Adobe Advertising DSP正在过渡到Adobe Identity Management服务(IMS)以进�
 
 同时，用户可以继续使用其旧版DSP凭据。
 
-#### 使用Adobe IMS帐户登录后，我没有被重定向回adobe.advertising.com。
+#### 使用Adobe IMS帐户登录后，我将被重定向回adobe.advertising.com登录页面。
 
 与您的IMS组织管理员确认，您使用的电子邮件已添加到IMS组织。 如果管理员确认已将您添加到IMS组织，请让您的Adobe帐户团队配置您的帐户以使用DSP。
 
