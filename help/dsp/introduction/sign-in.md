@@ -3,7 +3,7 @@ title: 登录到DSP
 description: 了解如何登录到DSP。
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: 4bc35abb18db857d12ff8620b18d60d1198b569a
+source-git-commit: c8d33069eb2a97af76a32360348a7e44bce02f09
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Adobe Advertising DSP正在过渡到Adobe Identity Management服务(IMS)以进�
 
 在此期间，您可以继续使用旧版DSP凭据。
 
-#### 我使用错误的电子邮件地址登录，该地址让我登录[!DNL Adobe]，但不提供DSP访问权限。
+#### 我使用错误的电子邮件地址登录，该地址让我登录到[!DNL Adobe]，但不提供DSP访问权限。
 
 1. 转到[experience.adobe.com](https://experience.adobe.com)并注销。
 
