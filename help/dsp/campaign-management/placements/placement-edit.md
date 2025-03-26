@@ -3,7 +3,7 @@ title: 编辑版面
 description: 了解如何编辑投放位置。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: 19be64303a0a86e916edacde439a852aac0a89f5
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您还可以以XLSX（Excel电子表格）格式下载一个或多个投放位置，或营销策划中所有投放位置的设置；对键字段的有限子集进行更改；一次将更改全部上传回DSP。 请参阅“[使用批量处理工作表查看和编辑版面设置](placement-qa.md)”。
+>您还可以以XLSX（Excel电子表格）格式下载一个或多个投放位置，或营销策划中所有投放位置的设置；对大多数字段进行更改；一次将更改全部上传回DSP。 请参阅“[使用批量处理工作表查看和编辑版面设置](placement-qa.md)”。
 
 ## 快速编辑键位置设置 {#placement-quick-edit}
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Update placement]**。
 
-## 编辑多个投放位置 {#edit-multiple-placements}
+## 对多个投放位置进行相同更改 {#edit-multiple-placements}
 
 仅当要将相同的更改应用于所有选定投放位置时，才使用此选项。
 
