@@ -3,9 +3,9 @@ title: ' [!DNL Analytics]使用的Adobe Advertising ID'
 description: ' [!DNL Analytics]使用的Adobe Advertising ID'
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 6afd0b726cde0770d4d063c2c55bb632956aaf51
+source-git-commit: 474eff3bd7704d79bbaf372480676207252a74c4
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '1731'
 ht-degree: 0%
 
 ---
@@ -234,7 +234,6 @@ where:
 
 >[!NOTE]
 >
->对于具有最佳效果营销活动和[!UICONTROL Auto Upload]跟踪选项的所有帐户，登陆页面后缀已迁移到上述格式。 对于具有[!UICONTROL Auto Upload]跟踪选项的其他营销活动类型，您的登陆页面后缀将进行迁移，以便在2025年初使用上述s_kwcid格式。
 > 对于其营销活动没有[!UICONTROL Auto Upload]跟踪选项且尚未迁移到新格式的帐户，请手动更新每个登陆页面后缀以包含上述格式。
 >与此同时，旧版格式（如下所示）仍然有效：
 >* 搜索促销活动：
