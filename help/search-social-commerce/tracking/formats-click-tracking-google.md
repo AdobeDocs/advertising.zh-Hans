@@ -3,7 +3,7 @@ title: ' [!DNL Google Ads]的点击跟踪格式'
 description: 了解 [!DNL Google Ads] 帐户的点击跟踪格式。
 exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -72,13 +72,13 @@ ht-degree: 0%
 
    * 使用最新[AMO ID格式](/help/integrations/analytics/ids.md#amo-id-formats) （以`s_kwcid`开头）的[!DNL Google Ads]帐户，该格式支持效果最佳的营销活动以及草稿和实验营销活动的营销活动级和广告组级报告：
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     如果帐户具有服务器端AMO ID实施并且启用了帐户或营销活动设置“[!UICONTROL Auto Upload]”，则会自动添加参数。 否则，您需要手动添加它。 查看 [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)使用的[Adobe AdvertisingID。
+     如果帐户具有服务器端AMO ID实施并且启用了帐户或营销活动设置“[!UICONTROL Auto Upload]”，则会自动添加参数。 否则，您需要手动添加它。 查看 [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)使用的[Adobe Advertising ID。
 
    * 所有其他[!DNL Google Ads]帐户：
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 * 当广告商没有Adobe Analytics集成时，后缀必须包括以下内容：
 
@@ -88,9 +88,9 @@ ht-degree: 0%
 >
 >* 较低级别的登陆页面后缀将覆盖帐户级别的后缀。 为便于维护，除非需要对各个帐户组件进行不同的跟踪，否则请仅使用帐户级别的后缀。 要在广告组级别或更低级别配置后缀，请使用广告网络的编辑器。
 >
->* (动态搜索广告；具有Adobe Analytics但不具有服务器端跟踪的广告商)如果您希望包含对从Adobe Advertising到Analytics的反向馈送的跟踪，请将AMO ID跟踪代码附加到帐户级别的登陆页面后缀的末尾。
+>* (动态搜索广告；具有Adobe Analytics但不具有服务器端跟踪的广告商)如果您希望包含对从Adobe Advertising到Analytics的反向馈送的跟踪，请将AMO ID跟踪代码附加到帐户级别登陆页面后缀的末尾。
 
 >[!MORELIKETHIS]
 >
->* [关于Adobe Advertising转换跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
+>* [关于Adobe Advertising转化跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
 >* [AMO ID格式](/help/integrations/analytics/ids.md#amo-id-formats)

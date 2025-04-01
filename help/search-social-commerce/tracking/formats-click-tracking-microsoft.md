@@ -3,7 +3,7 @@ title: ' [!DNL Microsoft Advertising]的点击跟踪格式'
 description: 了解 [!DNL Microsoft Advertising] 帐户的点击跟踪格式。
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 * 当广告商具有Adobe Analytics集成时，后缀必须包含以下内容：
 
-  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}`
+  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}`
 
 * 当广告商没有Adobe Analytics集成时，后缀必须包括以下内容：
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 * 当广告商具有Adobe Analytics集成时，后缀必须包含以下内容：
 
-  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
+  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 
 * 当广告商没有Adobe Analytics集成时，后缀必须包括以下内容：
 
@@ -106,5 +106,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于Adobe Advertising转换跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
+>* [关于Adobe Advertising转化跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
 >* [AMO ID格式](/help/integrations/analytics/ids.md#amo-id-formats)
