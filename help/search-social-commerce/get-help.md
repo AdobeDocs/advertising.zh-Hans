@@ -2,7 +2,7 @@
 title: 获取帮助
 description: 了解如何查看在线帮助和社区资源以及如何获得技术支持。
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: 8a6755041218ab795c0aaa8b875a34d85b3582b8
+source-git-commit: a900c0ef919c36810ce115b51dc432c0008f3419
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 咨询Adobe Advertising社区
 
-在[Adobe Advertising社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community)中查找问题的答案。
+在[Adobe Advertising社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community)中查找您的问题答案。
 
 ## 联系人[!DNL Adobe]
 
@@ -35,8 +35,8 @@ ht-degree: 0%
 
 * 请联系您的Adobe客户团队。
 
-* 在顶部菜单中，单击![帮助](/help/search-social-commerce/assets/help-main-menu.png "帮助") > **[!UICONTROL Provide Feedback]**，输入您的消息，然后单击&#x200B;**[!UICONTROL Send Feedback]**。 |
+* 在顶部菜单中，单击![帮助](/help/search-social-commerce/assets/help-main-menu.png "帮助") > **[!UICONTROL Provide Feedback]**，输入您的消息，然后单击&#x200B;**[!UICONTROL Send Feedback]**。
 
-提供重现问题的详细步骤、任何相关数据，以及有关您已执行的初步故障诊断的信息。 如果您向Adobe帐户团队报告问题，请同时提供浏览器名称和版本。
+提供重现问题的详细步骤、任何相关数据，以及有关您已执行的初步故障诊断的信息。 如果您向Adobe客户团队报告问题，请同时提供浏览器名称和版本。
 
 对于报告问题，请勿删除报告，并提供报告名称和URL。
