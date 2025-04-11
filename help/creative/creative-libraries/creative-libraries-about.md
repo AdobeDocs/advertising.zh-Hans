@@ -3,7 +3,7 @@ title: 关于您的创意库
 description: 了解如何管理广告体验的创意。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: 731728964eef89aa1299c02fd90c805e13a0b163
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 #### 灵活的HTML5
 
-灵活的HTML5创意人员是HTML5创意人员，其所有图像和其他属性均作为标准HTML标记，您可以直接在[!DNL Creative]中、创意库或单个体验（这会创建原始创意内容的变体）中编辑这些内容。 灵活的HTML5创意人员对[广告组合](https://flexibleads.iabtechlab.com/)使用交互式Advertising局(IAB)技术实验室的标准，该标准的广告格式大小是灵活的（而不是固定的），并且基于广告的长宽比和大小范围，对于这些广告，跨设备和发布者站点保持其分辨率。
+灵活的HTML5创意人员是HTML5创意人员，其所有图像和其他属性均作为标准HTML标记，您可以直接在[!DNL Creative]中、创意库或单个体验（这会创建原始创意内容的变体）中编辑这些内容。 灵活的HTML5创意人员对[广告组合](https://flexibleads.iabtechlab.com/)<!-- Change to https://iabtechlab.com/standards/iab-new-ad-portfolio-guidelines/ if the broken page isn't fixed -->使用交互式Advertising Bureau (IAB)技术实验室的标准，广告格式大小是灵活的（而不是固定的），并且基于广告的长宽比和大小范围，而且广告在设备和发布者站点间保持分辨率。
 
 您可以<!-- either -->将灵活的HTML5创意作为ZIP文件上传<!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->。 请参阅灵活的HTML5创意的[规范](html5-creative-specification.md)。
 
