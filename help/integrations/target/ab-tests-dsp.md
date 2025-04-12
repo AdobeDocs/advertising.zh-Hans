@@ -2,7 +2,7 @@
 title: 在Adobe Target中为Adobe Advertising DSP广告配置A/B测试
 description: 了解如何在 [!DNL Target] 中为您的DSP广告设置A/B测试。
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 34ada7c1f299f76988ee3ba533c47b76ade7d9ec
+source-git-commit: 35632a9ceab61de83a1d0e68f3b5ea9e3d35ae37
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Adobe Advertising和Adobe Target使得营销人员能够更轻松地通过付费
 
 在[!DNL Flashtalking]或Google Campaign Manager 360中，手动更新每个广告的点进URL，以包含捕获AMO ID变量所需的宏。 AMO ID变量用于将点击数据发送到Adobe Analytics并共享A/B测试的放置键。 有关说明，请参阅以下页面：
 
-* [将[!DNL Analytics for Advertising]宏附加到[[!DNL Flashtalking] 添加标记](/help/integrations/analytics/macros-flashtalking.md)。 **注意：**&#x200B;如果贵组织与[!DNL Flashtalking]直接合作，并且您使用数据传递宏收集位于`https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`的[!DNL Flashtalking]支持文档的点击数据，则不需要执行此过程。
+* [将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Flashtalking] 添加标记](/help/integrations/analytics/macros-flashtalking.md)。 **注意：**&#x200B;如果贵组织与[!DNL Flashtalking]直接合作，并且您使用数据传递宏收集位于`https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`的[!DNL Flashtalking]支持文档的点击数据，则不需要执行此过程。
 
 * [将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Google Campaign Manager 360] 添加标记](/help/integrations/analytics/macros-google-campaign-manager.md)
 
