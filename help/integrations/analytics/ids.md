@@ -3,7 +3,7 @@ title: ' [!DNL Analytics]使用的Adobe Advertising ID'
 description: ' [!DNL Analytics]使用的Adobe Advertising ID'
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: bbb5feaf96a9be28e112544e34f11fc8f7015946
+source-git-commit: c3fcaab7e378617bb42a2412250ded7b22ff17c3
 workflow-type: tm+mt
 source-wordcount: '1758'
 ht-degree: 0%
