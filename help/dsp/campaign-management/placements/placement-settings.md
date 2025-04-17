@@ -3,9 +3,9 @@ title: 投放设置
 description: 请参阅可用版面设置的说明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 17d2f802e77709636ef9654ad154e14c5d53c477
+source-git-commit: 6c4e5c3b114684dc360c1c2a35c90f07a8df11bc
 workflow-type: tm+mt
-source-wordcount: '3966'
+source-wordcount: '4039'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ ht-degree: 0%
 
   您可以按源或信息源查看列表。 在按信息源查看列表时，您可以按信息源名称、信息源密钥或选定的特征标记进行搜索。
 
-* [!UICONTROL Private] | [!UICONTROL Roku Private]：您与在DSP中设置的发布者之间的现有私人交易（或用于[!DNL Roku]投放位置的现有私人[!DNL Roku]交易）。 您可以包括（但不排除）公共库存。
+* [!UICONTROL Private] | [!UICONTROL Roku Private]：您与在DSP中设置的出版商的现有私人交易（或[!DNL Roku]投放位置的现有私有[!DNL Roku]交易）。 您可以包括（但不排除）公共库存。
 
   您可以按关键词、键值、交易ID或自定义标记搜索列表。
 
@@ -317,7 +317,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*：（默认）根据用户的Cookie、移动广告ID或连接的电视(CTV) ID定位用户。 根据浏览器、应用程序内或CTV清单选择ID。
 
-* *[!UICONTROL Universal ID Beta]*：定位注重隐私的用户ID；选择一种ID类型。 可用选项由[!UICONTROL Geo-Targeting]部分中的所选地理目标决定。 与直接导入到DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md)的[[!DNL RampID] 区段、[区段(DSP会将其的PII转换为通用ID](/help/dsp/audiences/sources/source-about.md))或跟踪通用ID的[自定义区段](/help/dsp/audiences/custom-segment-create.md)一起使用。
+* *[!UICONTROL Universal ID Beta]*：定位注重隐私的用户ID；选择一种ID类型。 可用选项由[!UICONTROL Geo-Targeting]部分中的所选地理目标决定。 与直接导入到DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md)的[[!DNL RampID] 区段、DSP将您的PII转换为通用ID的[区段](/help/dsp/audiences/sources/source-about.md)或跟踪通用ID的[自定义区段](/help/dsp/audiences/custom-segment-create.md)一起使用。
 
    * *[!UICONTROL ID5]*：目标[!DNL ID5] ID是根据电子邮件地址和其他信号概率创建的。<!-- What countries/geos are these available for? Everywhere?--> ID5 ID免费提供。 **注意：** [!DNL Eyeota]中的第三方区段可能包含ID5 ID。
 
@@ -325,7 +325,7 @@ ht-degree: 0%
 
    * *[!UICONTROL Unified ID2.0]*：已使用用户的电子邮件地址登录到您的网站的目标[!DNL Unified ID2.0] (UID2) ID。<!-- Verify -->[!DNL UID2 IDs]不适用于欧洲经济区和其他一些国家/地区的用户。 查看[禁止的国家/地区列表](/help/policies/universal-id-policy.md#prohibited-countries-uid2)。
 
-  **[!UICONTROL Terms of service]**：使用通用ID的服务协议条款。 您或DSP帐户中的其他用户必须接受一次这些条款，然后才能将数据转换为新的ID类型。 对于签订托管服务合同的客户，您的Adobe客户团队将代表贵组织获得您的同意并接受相关条款。 若要阅读术语，请单击&#x200B;**>**。 要接受条款，请滚动到条款的底部并单击&#x200B;**[!UICONTROL Accept]**。
+  **[!UICONTROL Terms of service]**：使用通用ID的服务协议条款。 您或DSP帐户中的其他用户必须接受一次这些条款，然后才能将数据转换为新的ID类型。 对于签订托管服务合同的客户，您的Adobe客户团队将代表贵组织获得您的同意并接受条款。 若要阅读术语，请单击&#x200B;**>**。 要接受条款，请滚动到条款的底部并单击&#x200B;**[!UICONTROL Accept]**。
 
 **[!UICONTROL Cross Device Targeting]：** (为基于人员的跨设备定位配置[营销活动时](/help/dsp/campaign-management/campaigns/campaign-settings.md)可用，您仅定位旧版ID（非通用ID），并且您至少选择一个区段或受众。 允许您将定位扩展到用户的所有已知设备（根据促销活动设置中指定的设备图），甚至扩展到不在指定区段中的设备。 根据为营销活动指定的图表，可能会收取相关费用。 设备图数据仅在北美地区可用。
 
@@ -333,7 +333,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 您可以在营销活动、包和投放级别设置频率上限。 DSP遵循营销活动层次结构中最严格的频率限制。
+> 您可以在营销活动、包和投放级别设置频率上限。 DSP遵循营销活动层级中最严格的频率限制。
 
 **[!UICONTROL Secondary Cap]：** （可选，当您包含数字[!UICONTROL Placement Cap]时可用）主版面限制范围内的附加限制。 选择展示次数和时间段（例如，每12小时3次）。
 
@@ -391,11 +391,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Brand Safety and Media Quality]
 
-**[!UICONTROL DoubleVerify ABS segment ID]：** （可选；仅[!DNL DoubleVerify]客户；仅适用于桌面前置式广告、标准广告和点播显示，以及仅限本机显示和视频投放位置；不支持[交易的默认程序化保证投放位置](/help/dsp/inventory/programmatic-guaranteed-about.md)） [!DNL DoubleVerify Authentic Brand Safety]区段ID与组织的[!DNL DoubleVerify]帐户关联以用于投放位置。 使用为指定区段ID配置的自定义品牌安全规则指定ID会阻止竞价后的展示次数。 DSP按区段ID对帐户开单。
+**[!UICONTROL DoubleVerify ABS segment ID]：** （可选；仅[!DNL DoubleVerify]客户；仅适用于桌面前置式广告、标准广告和点播显示，以及仅限本机显示和视频投放位置；不支持[交易的默认程序化保证投放位置](/help/dsp/inventory/programmatic-guaranteed-about.md)） [!DNL DoubleVerify Authentic Brand Safety]区段ID与组织的[!DNL DoubleVerify]帐户关联以用于投放位置。 使用为指定区段ID配置的自定义品牌安全规则指定ID会阻止竞价后的展示次数。 DSP按区段ID的使用情况向帐户收费。
 
 ID必须以“51”开头并且由八位数字组成。 默认情况下，如果在广告商帐户设置中指定了区段ID，则会输入广告商级别的ID，但您可以将该ID更改为使用其他区段，或删除该ID以禁用该功能。
 
-**[!UICONTROL Contextual filtering]：**&#x200B;要应用的[!DNL Comscore]、[!DNL DoubleVerify]、[!DNL Integral Ad Science]和[!DNL Peer39]上下文筛选器的类型。 为新投放位置选择了广告商级别的默认值，但您可以更改设置：
+**[!UICONTROL Contextual filtering]：** （适用于桌面和移动设备Web显示、原生和视频广告）要应用的[!DNL Comscore]、[!DNL DoubleVerify]、[!DNL Integral Ad Science]和[!DNL Peer39]上下文筛选器的类型。 为新投放位置选择了广告商级别的默认值，但您可以更改设置：
 
 <!-- Looks like we didn't rename this:
 **[!UICONTROL Brand Safety categories]:** Types of [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39] brand safety category filters to apply. The advertiser-level defaults are selected for new placements, but you can change the settings:
@@ -421,34 +421,30 @@ ID必须以“51”开头并且由八位数字组成。 默认情况下，如果
 
 **[!UICONTROL Pre-bid fraud blocking]：**&#x200B;要基于通过[!DNL DoubleVerify]、[!DNL Integral Ad Science]和[!DNL Peer39]测量的欺诈性流量和可疑活动阻止的站点类型。 为新投放位置选择了广告商级别的默认值，但您可以更改设置：
 
-* [!UICONTROL DoubleVerify]：
+* [!UICONTROL DoubleVerify]： （适用于桌面和移动设备Web显示、本机广告和视频广告）
 
    * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]：**&#x200B;默认情况下，会阻止所有100%无效的流量（包括被劫持设备上的流量）用于新放置。 可能需额外付费。
 
-   * **[!UICONTROL Also block sites with]：**（可选）额外级别的欺诈和无效流量会导致DSP默认阻止广告： *[!UICONTROL None]*（默认值，不会阻止额外流量）、*[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*、*[!UICONTROL >4% Average Fraud/IVT levels]*、*[!UICONTROL >6% Average Fraud/IVT levels]*、*[!UICONTROL >10% Average Fraud/IVT levels]*&#x200B;或&#x200B;*[!UICONTROL >25% Average Fraud/IVT levels]*。 可能需额外付费。
+   * **[!UICONTROL Also block sites with]：**（可选）额外级别的欺诈和无效流量导致DSP默认阻止广告： *[!UICONTROL None]*（默认值，它不会阻止额外流量）、*[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*、*[!UICONTROL >4% Average Fraud/IVT levels]*、*[!UICONTROL >6% Average Fraud/IVT levels]*、*[!UICONTROL >10% Average Fraud/IVT levels]*&#x200B;或&#x200B;*[!UICONTROL >25% Average Fraud/IVT levels]*。 可能需额外付费。
 
-* [!UICONTROL Peer 39]：
+* [!UICONTROL Peer 39]： （适用于桌面和移动设备Web显示、本机广告和视频广告）
 
-   * **[!UICONTROL Block sites that are]：**（可选）一种或多种类型的欺诈，默认情况下会导致DSP阻止广告： *[!UICONTROL Fraud]*（会阻止所有网站进行欺诈）、*[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*&#x200B;和/或&#x200B;*[!UICONTROL Fraud: Zero Ads]*。 可能需额外付费。
+   * **[!UICONTROL Block sites that are]：**（可选）一种或多种类型的欺诈会导致DSP默认阻止广告： *[!UICONTROL Fraud]*（会阻止所有网站进行欺诈行为）、*[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*&#x200B;和/或&#x200B;*[!UICONTROL Fraud: Zero Ads]*。 可能需额外付费。
 
-* [!UICONTROL Integral Ad Science]：
+* [!UICONTROL Integral Ad Science]： （适用于桌面和移动设备Web显示、本机广告和视频广告）
 
-   * **[!UICONTROL Block sites that are]：** （可选）一种可疑、导致DSP默认阻止广告的网站或应用程序活动类型： *[!UICONTROL None]* （默认值，不会基于可疑活动阻止广告）、*[!UICONTROL Suspicious Activity - High Risk]*&#x200B;或&#x200B;*[!UICONTROL Suspicious Activity - High or Moderate Risk]*。 可能需额外付费。
+   * **[!UICONTROL Block sites that are]：**（可选）一种可疑DSP阻止广告的网站或应用程序活动类型： *[!UICONTROL None]*（默认值，不阻止基于可疑活动的广告）、*[!UICONTROL Suspicious Activity - High Risk]*&#x200B;或&#x200B;*[!UICONTROL Suspicious Activity - High or Moderate Risk]*。 可能需额外付费。
 
-**[!UICONTROL Pre-bid viewability]：**
+**[!UICONTROL Pre-bid viewability]：** （适用于桌面和移动设备Web显示、原生和视频广告）按[!DNL DoubleVerify]和[!DNL Integral Ad Science]筛选的预竞价可见性以申请投放位置。 为新投放位置选择了广告商级别的默认值，但您可以更改设置。 可能需额外付费。
 
-按[!DNL DoubleVerify]和[!DNL Integral Ad Science]筛选的要申请投放的预竞价可视性。 为新投放位置选择了广告商级别的默认值，但您可以更改设置。 可能需额外付费。
-
-**[!UICONTROL Ads.txt filtering]：**
-
-通过应用每个发布者的“授权数字卖家”列表，使用哪个级别的[Ads.txt](https://iabtechlab.com/ads-txt-about/)预竞价筛选。 为新投放位置选择了广告商级别的默认值，但您可以更改设置：
+**[!UICONTROL Ads.txt filtering]：** （适用于桌面和移动设备Web显示、本机、视频和音频广告）通过应用每个发布者的授权数字卖家列表来使用[Ads.txt](https://iabtechlab.com/ads-txt-about/)预竞价筛选的级别。 为新投放位置选择了广告商级别的默认值，但您可以更改设置：
 
 * *[!UICONTROL Opt out of ads.txt (default)]*：从所有卖家购买库存。
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*：优先从域的授权直销商和经销商处购买库存。
 * *[!UICONTROL Ads.txt sellers only]*：仅从域的授权直销商和经销商购买库存。
 * *[!UICONTROL Ads.txt sellers only]*：仅从域的授权直销人员购买库存。
 
-**[!UICONTROL Attention Targeting]：** （显示、视频和标准连接的电视投放位置）根据指定的站点、格式和广告大小，定位具有特定关注级别（高、中或低）的[!DNL Adelaide]预竞价区段。 区段每周更新一次。 **注意：**&#x200B;使用[!DNL Adelaide]区段进行定位将导致[!DNL Adelaide]关注定位提供的每次展示产生CPM费用；此费用与[关注测量](/help/dsp/campaign-management/campaigns/campaign-settings.md)的费用分开。 对于交互式前置投放，您只需为VAST展示付费。
+**[!UICONTROL Attention Targeting]：** （适用于桌面和移动设备Web显示、视频和标准连接的电视广告）基于指定的站点、格式和广告大小，以特定关注级别（高、中或低）为目标[!DNL Adelaide]预竞价区段。 区段每周更新一次。 **注意：**&#x200B;使用[!DNL Adelaide]区段进行定位将导致[!DNL Adelaide]关注定位提供的每次展示产生CPM费用；此费用与[关注测量](/help/dsp/campaign-management/campaigns/campaign-settings.md)的费用分开。 对于交互式前置投放，您只需为VAST展示付费。
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 
@@ -507,4 +503,4 @@ ID必须以“51”开头并且由八位数字组成。 默认情况下，如果
 >* [管理投放位置的竞价乘数](placement-manage-bid-multipliers.md)
 >* [查看投放位置的更改日志](placement-change-log.md)
 >* [键盘快捷键](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* 有关Campaign Management的[常见问题解答](/help/dsp/campaign-management/faq-campaign-management.md)
+>* 有关营销活动管理的[常见问题解答](/help/dsp/campaign-management/faq-campaign-management.md)
