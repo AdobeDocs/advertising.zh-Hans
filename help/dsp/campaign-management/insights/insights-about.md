@@ -2,9 +2,9 @@
 title: 关于性能分析
 description: 了解活动的性能分析。
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: f821f7cec4ad2a9921337940a11ba62a122dbc23
+source-git-commit: b1e9d022894c638dae6c48482d98059d9540e1c4
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 0%
 
 对于任何insight，您都可以下载Microsoft Excel电子表格(XLSX)格式的报表，而无需使用这些可视化图表。
 
-## [!UICONTROL Home]选项卡
+## 分析类型
+
+### [!UICONTROL Home]选项卡
 
 [!UICONTROL Home]选项卡在所有广告商的营销活动<!-- active only? -->中提供关键标准、性能和可见性量度。 默认情况下，会显示跨营销活动数据。 您可以选择配置过滤器以显示其他广告商的数据，或仅显示特定营销活动<!-- active only? -->、包<!-- active only? -->、自定义目标和投放位置<!-- active only? -->的数据。 这些见解包括：
 
@@ -27,7 +29,7 @@ ht-degree: 0%
 
 * 按三个客户指定的维度（例如按促销活动、发布者和媒体类型）对特定量度的数据进行细分。 对于每个维度细分，您可以选择不同的量度。
 
-## [!UICONTROL Household Reach]选项卡
+### [!UICONTROL Household Reach]选项卡
 
 [!UICONTROL Household Reach]选项卡跨广告商的所有营销活动<!-- active only? -->提供家庭覆盖率量度。 默认情况下，会显示跨营销活动数据。 您可以选择配置筛选器以显示其他广告商的数据或仅显示特定促销活动的数据<!-- active only? -->。 这些见解包括：
 

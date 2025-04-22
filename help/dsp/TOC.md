@@ -4,7 +4,7 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 148917239a2179b651b04418e53038d29856c649
+source-git-commit: 2d8785ed0f9be576d7c5437ac5793a46d787b954
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 3%
@@ -97,8 +97,8 @@ ht-degree: 3%
          + [前置广告设置](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [通用视频广告设置](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [支持的广告类型的规范](/help/dsp/campaign-management/ads/ad-specs.md)
-+ 跨营销活动效果分析 {#insights}
-   + [关于性能分析](/help/dsp/campaign-management/insights/insights-about.md)
+   + 跨营销活动效果分析 {#insights}
+      + [关于性能分析](/help/dsp/campaign-management/insights/insights-about.md)
    + 营销活动管理视图中的性能报表 {#campaign-reports}
       + [营销活动管理视图中的性能报表类型](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [从营销活动管理视图中导出数据](/help/dsp/campaign-management/reports/campaign-export-data.md)
