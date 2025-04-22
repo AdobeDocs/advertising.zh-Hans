@@ -2,14 +2,14 @@
 title: 关于性能分析
 description: 了解活动的性能分析。
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: 16d3e9411cf7366a697399b85e7895fec5c6e47a
+source-git-commit: f76b0aad77b896bb84a898779e457a0893913024
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
 
-# 关于性能分析&lt;！ — 标题？—？>
+# 关于性能分析
 
 *Beta功能*
 
@@ -60,4 +60,8 @@ Filter icon + drop-down menu
 
 -->
 
-
+>[!MORELIKETHIS]
+>
+>* [关于自定义报告](/help/dsp/reports/report-about.md)
+>* 营销活动管理视图中的[性能报表类型](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [可用报告列](/help/dsp/reports/report-columns.md)
