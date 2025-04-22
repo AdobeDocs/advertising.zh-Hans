@@ -2,9 +2,9 @@
 title: 关于性能分析
 description: 了解活动的性能分析。
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: f76b0aad77b896bb84a898779e457a0893913024
+source-git-commit: f821f7cec4ad2a9921337940a11ba62a122dbc23
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -41,24 +41,40 @@ ht-degree: 0%
 
 * 包、发布者或站点/应用程序生成的[!UICONTROL Cost per Reach]和[!UICONTROL Net Spend]的<!-- ???? -->图表。
 
+## 打开性能分析
+
+* （要打开所有营销活动的分析）在主菜单中，单击&#x200B;**[分析BETA]**。
+
+* （要打开特定营销活动、包或投放位置的见解）在[!UICONTROL Campaigns]、[!UICONTROL Packages]或[!UICONTROL Placements]视图中的实体名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Insights]**。
+
+## 将过滤器应用到选项卡
+
+1. 在选项卡顶部的工具栏中，
+单击![筛选器按钮](/help/dsp/assets/filter.png)。
+
+1. 在左列中，选择一个维，然后在右列中选择一个或多个值（如果适用）。
+
+   您一次只能选择一个广告商。
+
+1. 单击&#x200B;**[!UICONTROL Apply]**。
+
+1. （可选）要进一步缩小数据范围，请在工具栏中选择实体类型，然后选择特定实体值（单个营销活动、资源包或投放位置）。
+
+## 更改为Insight报告的Dimension
+
+* 从insight左上角的下拉菜单中，选择维度。
+
+## 更改为Insight报告的指标
+
+1. 在insight的右上角，单击![指标设置](/help/dsp/assets/metric-settings.png "指标设置")。
+
+1. 选择量度，然后单击&#x200B;**[!UICONTROL Apply]**。
+
 ## 下载Insight
 
-* 在insight上方，单击![下载](/help/creative/assets/download.png "下载")。
+* 单击insight右上角的![下载](/help/creative/assets/download.png "下载")。
 
   该文件将保存到浏览器的默认“下载”文件夹中。
-
-<!--
-## Apply Filters
-
-to whole tab, I think
-
-Filter icon + drop-down menu
--->
-
-<!--
-## Change the Metrics and Dimensions for an Insight
-
--->
 
 >[!MORELIKETHIS]
 >
