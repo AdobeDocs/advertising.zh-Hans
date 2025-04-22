@@ -2,9 +2,10 @@
 title: 关于性能分析
 description: 了解活动的性能分析。
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: b1e9d022894c638dae6c48482d98059d9540e1c4
+exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
+source-git-commit: be84bea53ec6c5378102aa510b9d58b1d0004b4b
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -15,9 +16,19 @@ ht-degree: 0%
 
 <!-- Edit title and metadata as necessary -->
 
-通过可视化提供的高级别性能见解，可为您提供高效优化活动以及发现提升性能的新机会所需的信息。
+通过可视化提供的高级别性能见解，可为您提供高效优化活动以及发现提升性能的新机会所需的信息。 您可以跨营销活动查看数据或向下钻取到更低级别。
 
-对于任何insight，您都可以下载Microsoft Excel电子表格(XLSX)格式的报表，而无需使用这些可视化图表。
+使用性能分析可以：
+
+* 跟踪战略规划和明智决策的长期趋势。
+
+* 找出取得更好成果的机会。
+
+* 通过缩短从获取原始数据到获得可操作见解之间的时间来提高效率。
+
+您可以将选项卡的所有可视化导出到PDF文件，或下载特定insight的数据，而无需使用Microsoft Excel电子表格(XLSX)格式进行可视化。
+
+您还可以[配置视图，并将其另存为自定义视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)，就像管理促销活动视图一样。
 
 ## 分析类型
 
@@ -35,13 +46,15 @@ ht-degree: 0%
 
 * 按天或按周显示三个客户指定的指标（默认情况下，[!UICONTROL Net Spend]、[!UICONTROL Unique Reach]和[!UICONTROL Net CPM]）的趋势图。
 
-* 按[!UICONTROL Media Type]、[!UICONTROL Device Type]或[!UICONTROL Inventory Type]划分的增量家庭覆盖率的饼图。 增量式家庭覆盖是指仅通过单一介质、设备或库存类型实现的家庭。
+* 一个圆环图，显示[!UICONTROL Media Type]、[!UICONTROL Device Type]或[!UICONTROL Inventory Type]的增量家庭访问量。 增量式家庭覆盖是指仅通过单一介质、设备或库存类型实现的家庭。
 
-* 由[!UICONTROL Media Type]、[!UICONTROL Device Type]或[!UICONTROL Inventory Type]显示[!UICONTROL Unique Reach]的条形图。 **注意：**&#x200B;通过多种媒体、设备或库存类型访问的家庭被视为重叠。
+* 递增的独特家庭覆盖与重叠家庭覆盖的比较，由[!UICONTROL Media Type]、[!UICONTROL Device Type]或[!UICONTROL Inventory Type]决定。
 
-* 热门营销活动、投放位置、包、发布者、站点/应用程序、媒体类型、库存类型或设备类型的列表。 指标包括[!UICONTROL Unique Reach]、[!UICONTROL Net Spend]和[!UICONTROL Cost per Reach]。
+  增量式家庭覆盖是指仅通过单一介质、设备或库存类型实现的家庭。 通过多种介质、设备或库存类型访问的家庭被视为重叠。
 
-* 包、发布者或站点/应用程序生成的[!UICONTROL Cost per Reach]和[!UICONTROL Net Spend]的<!-- ???? -->图表。
+* 按[!UICONTROL Unique Reach]、[!UICONTROL Net Spend]和[!UICONTROL Cost per Reach]排列的效果最佳的促销活动、位置、包、发布者、站点/应用程序、媒体类型、库存类型或设备类型。
+
+* 包、发布者或站点/应用程序的[!UICONTROL Cost per Reach]和[!UICONTROL Net Spend]。 使用此insight可查看哪些包、发布者或站点/应用程序表明潜在的显着增量访问。
 
 ## 打开性能分析
 
@@ -72,7 +85,13 @@ ht-degree: 0%
 
 1. 选择量度，然后单击&#x200B;**[!UICONTROL Apply]**。
 
-## 下载Insight
+## 将选项卡的所有可视化导出到PDF文件
+
+* 在该选项卡上方，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Export]**。
+
+  该文件将保存到浏览器的默认“下载”文件夹中。
+
+## 将特定的Insight下载到XLSX文件
 
 * 单击insight右上角的![下载](/help/creative/assets/download.png "下载")。
 
