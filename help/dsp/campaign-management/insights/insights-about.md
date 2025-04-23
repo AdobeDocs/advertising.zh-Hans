@@ -3,9 +3,9 @@ title: 关于性能分析
 description: 了解活动的性能分析。
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: be84bea53ec6c5378102aa510b9d58b1d0004b4b
+source-git-commit: 7b5b28f0b1892d92527ab6b4c7d4ee595d791aac
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 您可以将选项卡的所有可视化导出到PDF文件，或下载特定insight的数据，而无需使用Microsoft Excel电子表格(XLSX)格式进行可视化。
 
-您还可以[配置视图，并将其另存为自定义视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)，就像管理促销活动视图一样。
+您也可以[更改日期范围、配置视图并保存自定义视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)，就像您管理促销活动视图一样。
 
 ## 分析类型
 
@@ -102,3 +102,4 @@ ht-degree: 0%
 >* [关于自定义报告](/help/dsp/reports/report-about.md)
 >* 营销活动管理视图中的[性能报表类型](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [可用报告列](/help/dsp/reports/report-columns.md)
+>* [管理您的Campaign数据视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
