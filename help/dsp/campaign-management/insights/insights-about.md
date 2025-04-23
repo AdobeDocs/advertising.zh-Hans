@@ -3,9 +3,9 @@ title: 关于性能分析
 description: 了解可视化图表的性能见解。
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: e0e44a0be283f27d2dd1c1ae0c5f0c00c08edddc
+source-git-commit: ca531db43b9e07dc767da3d0e866bfc85add7ee9
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- Edit title and metadata as necessary -->
 
-通过可视化提供的高级别性能洞察，可为您提供高效优化活动以及发现提升性能的新机会所需的信息。 您可以跨营销活动查看数据或向下钻取到更低级别。
+通过可视化图表获得高级别的性能洞察，可为您提供高效优化活动以及发现提升性能的新机会所需的信息。 您可以跨营销活动查看数据或向下钻取到更低级别。
 
 使用性能分析可以：
 
@@ -46,11 +46,11 @@ ht-degree: 0%
 
 * 按天或按周显示三个客户指定的指标（默认情况下，[!UICONTROL Net Spend]、[!UICONTROL Unique Reach]和[!UICONTROL Net CPM]）的趋势图。
 
-* 一个圆环图，显示[!UICONTROL Media Type]、[!UICONTROL Device Type]或[!UICONTROL Inventory Type]的增量家庭访问量。 增量式家庭覆盖是指仅通过单一介质、设备或库存类型实现的家庭。
+* 一个圆环图，显示[!UICONTROL Media Type]、[!UICONTROL Device Type]或[!UICONTROL Inventory Type]的增量家庭访问量。 *增量家庭覆盖范围*&#x200B;定义为仅通过单个媒体、设备或库存类型实现的家庭。
 
 * 递增的独特家庭覆盖与重叠家庭覆盖的比较，由[!UICONTROL Media Type]、[!UICONTROL Device Type]或[!UICONTROL Inventory Type]决定。
 
-  增量式家庭覆盖是指仅通过单一介质、设备或库存类型实现的家庭。 通过多种介质、设备或库存类型访问的家庭被视为重叠。
+  *增量家庭覆盖范围*&#x200B;定义为仅通过单个媒体、设备或库存类型实现的家庭。 *重叠的家庭覆盖范围*&#x200B;定义为通过多种媒体、设备或库存类型访问的家庭。
 
 * 按[!UICONTROL Unique Reach]、[!UICONTROL Net Spend]和[!UICONTROL Cost per Reach]排列的效果最佳的促销活动、位置、包、发布者、站点/应用程序、媒体类型、库存类型或设备类型。
 
@@ -64,8 +64,7 @@ ht-degree: 0%
 
 ## 将过滤器应用到选项卡
 
-1. 在选项卡顶部的工具栏中，
-单击![筛选器按钮](/help/dsp/assets/filter.png)。
+1. 在选项卡顶部的工具栏中，单击![筛选器按钮](/help/dsp/assets/filter.png)。
 
 1. 在左列中，选择一个维，然后在右列中选择一个或多个值（如果适用）。
 
