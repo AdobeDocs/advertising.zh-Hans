@@ -3,9 +3,9 @@ title: 关于性能分析
 description: 了解可视化图表的性能见解。
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: c146a49e7ebef567707b67365114fc23ee5d0884
+source-git-commit: 04858fdbe884c30ebec3e1dff0d9c4d2622a16a1
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 您可以将选项卡的所有可视化导出到PDF文件，或下载特定insight的数据，而无需使用Microsoft Excel电子表格(XLSX)格式进行可视化。
 
-您还可以[更改日期范围、配置视图并保存自定义视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)，就像您为促销活动管理视图所做的那样。
+您还可以[更改日期范围、配置视图并保存自定义视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md){target="_blank"}，就像您为促销活动管理视图所做的那样。
 
 ## 分析类型
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ## 打开性能分析
 
-* （要打开所有营销活动的分析）在主菜单中，单击&#x200B;**[分析BETA]**。
+* （要打开所有营销活动的分析）在主菜单中，单击&#x200B;**[UICONTROL Insights BETA]**。
 
 * （要打开特定营销活动、包或投放位置的见解）在[!UICONTROL Campaigns]、[!UICONTROL Packages]或[!UICONTROL Placements]视图中的实体名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Insights]**。
 
