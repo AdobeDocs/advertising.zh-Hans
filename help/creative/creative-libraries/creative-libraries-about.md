@@ -3,9 +3,9 @@ title: 关于您的创意库
 description: 了解如何管理广告体验的创意。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 731728964eef89aa1299c02fd90c805e13a0b163
+source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 
 #### 图像创意
 
-您可以采用GIF、JPEG、JPG或PNG格式包含图像创意。 您可以从设备或网络中上传<!--LATER:   images from your Adobe Experience Manager accounts or -->个图像。
+您可以采用GIF、JPEG、JPG或PNG格式包含图像创意。 您可以上传Adobe Experience Manager帐户中的图像，或者设备或网络中的图像。
 
 每个广告体验都需要为分配给体验的每个创意大小提供一个默认图像创意。
 
