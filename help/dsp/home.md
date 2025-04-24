@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: ca531db43b9e07dc767da3d0e866bfc85add7ee9
+source-git-commit: b255917331d9d34fee4a4cbe4aac4f9c2493cd7f
 workflow-type: tm+mt
 source-wordcount: '5225'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2025年4月23日 | 性能[!UICONTROL Insights] | (Beta功能)通过可视化图表进行的高层次性能分析，可为您提供高效优化活动以及发现提升性能的新机会所需的信息。 您可以跨营销活动查看数据或向下钻取到更低级别。 | 请参阅“[关于性能分析](/help/dsp/campaign-management/insights/insights-about.md)”。 |
+| 2025年4月24日 | 性能[!UICONTROL Insights] | (Beta功能)通过可视化图表进行的高层次性能分析，可为您提供高效优化活动以及发现提升性能的新机会所需的信息。 您可以跨营销活动查看数据或向下钻取到更低级别。 | 请参阅“[关于性能分析](/help/dsp/campaign-management/insights/insights-about.md)”。 |
 | 2025年3月26日 | 登录 | DSP正在过渡到Adobe Identity Management服务(IMS)以进行登录身份验证。 IMS提供对支持IMS的所有[!DNL Adobe]产品(包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics)的单一登录(SSO)访问权限。 您现在可以使用一个[!DNL Adobe ID]从Experience Cloud登录页面或旧版DSP登录页面跨[!DNL Adobe]个产品登录。 您当前的DSP凭据将保留90天的有效期，以便您能够为更改做好准备。 | 请参阅&quot;[登录到Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)&quot;。<br><br>有关Experience Cloud界面的详细信息，包括管理您的用户配置文件，请参阅“[Experience Cloud界面和管理](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)”。 |
 | | [!UICONTROL Packages]，[!UICONTROL Placements]，[!UICONTROL Ads] | 以下批量编辑功能现已可用：<ul><li>您可以直接编辑和重新上传包含营销活动包、投放位置和广告设置的营销活动级别电子表格。 以前，您必须下载模板文件并手动输入要上传的更改。</li><li>在[!UICONTROL Campaigns]视图中，这些文件现在称为“*批量处理工作表*”，而不是“QA工作表”，并且您选择“[!UICONTROL Download Bulksheet]”和“[!UICONTROL Upload Bulksheet]”的选项。</li><li>大多数投放设置现在都可在批量处理工作表中使用。</li></ul> | 请参阅“[使用批量处理工作表查看和编辑Campaign组件设置](/help/dsp/campaign-management/campaign-components-review-edit.md)”。<br><br>另请参阅“[使用批量处理工作表查看和编辑包设置](/help/dsp/campaign-management/packages/package-qa.md)”和“[使用批量处理工作表查看和编辑置入设置](/help/dsp/campaign-management/placements/placement-qa.md)”。 |
 | 2025年3月10日发布 | 隐私 | 通过与Digital Advertising Alliance (DAA)建立[!DNL Adobe's]合作伙伴关系，您的最终用户现在可以选择退出所有依赖来自“Adobe Marketing Cloud - Advertising服务”(Adobe Experience Cloud的旧名称，包括DSP + Audience Manager Cookie)的哈希电子邮件地址的行为定位。 以前，DSP仅支持基于Cookie的选择退出。<br><br>当最终用户选择退出行为定位时，DSP会捕获最终用户的Cookie、移动设备ID或哈希电子邮件地址(DSP可能会将其与[!DNL Unified ID 2.0 (UID2.0)] ID或[!DNL LiveRamp] [!DNL RampID]关联)。 然后，只要最终用户保留其有效期为5年的选择退出Cookie，DSP就排除了为该最终用户设置广告展示次数次数行为的定位功能。<br><br>您的最终用户可以： a\)从其浏览器[https://optout.aboutads.info](https://optout.aboutads.info)中选择退出广告，或者b\)在其浏览器、应用程序中选择退出广告，或者使用来自[https://youradchoices.com/control](https://youradchoices.com/control)的令牌标识符。<br><br>广告商不需要工作。 | 请参阅&quot;[Adobe隐私政策](https://www.adobe.com/privacy/policy.html)&quot;。 |
