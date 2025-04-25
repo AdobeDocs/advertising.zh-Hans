@@ -3,9 +3,9 @@ title: 管理默认视图和自定义视图
 description: 了解如何自定义默认视图和自定义视图。
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9083b5b90e96649bf424f18442f609c6a6f48591
+source-git-commit: 99523c4fe79637bf91688bdbf601799ce28316e3
 workflow-type: tm+mt
-source-wordcount: '2835'
+source-wordcount: '2836'
 ht-degree: 0%
 
 ---
@@ -140,9 +140,9 @@ ht-degree: 0%
 
 | **选项卡** | **字段** | **描述** |
 | --- | --- | --- |
-| [在所有选项卡之上] | 名称 | 视图的唯一名称。 您无法编辑默认视图的名称。 <p><b>提示：</b>请使用有助于识别所应用选项卡和信息的名称（如“暂停的促销活动”或“前50个广告”）。 |
+| [在所有选项卡之上] | 名称 | 视图的唯一名称。 您无法编辑默认视图的名称。<p><b>提示：</b>请使用有助于识别所应用选项卡和信息的名称（如“暂停的促销活动”或“前50个广告”）。 |
 |   | 通用视图 | 使数据设置在所有实体视图（营销活动、广告等）中可用。 通用视图可以包括量度和标签分类列，但不能包括属性列（例如实体名称和状态），因为它们按实体类型不同 — 以及所有其他视图属性也不同。 任何筛选条件都会应用到实体视图（如果适用），否则将被忽略。 所有量度过滤器都将在本地进行评估（例如，对于\> 1000次点击，促销活动视图显示超过1000次点击的促销活动，广告组视图显示超过1000次点击的广告组）。<p>通用视图的属性列是从实体的默认视图中提取的。 您可以在默认视图设置中更改特定实体的默认属性列。<p>启用或禁用此选项后，不能将更改保存到现有视图，但可以使用更改创建新视图。 |
-|   | 共享 | （仅限自定义视图；可选）将该视图提供给可以查看广告商数据的所有其他用户。 其他用户无法编辑或删除视图，但他们可以从设置中创建新视图。在您的视图列表中，其他用户正在共享的每个视图都以斜体显示，例如“_表现最佳的营销活动_”。 |
+|   | 共享 | （仅限自定义视图；可选）将该视图提供给可以查看广告商数据的所有其他用户。 其他用户无法编辑或删除视图，但他们可以从设置中创建新视图。 在您的视图列表中，其他人员共享的每个视图都以斜体显示，例如“_表现最佳的营销活动_”。 |
 | 列 | 选定的列和排序 | 显示的数据列及其顺序：<ul><li> （要添加列）在“可用列”列表中，单击列名称，然后将其拖到“选定列和排序”列表中，或单击![向右箭头](/help/search-social-commerce/assets/chevron-right.png)将其移动到该处。</li><li>（要更改列的水平位置）在“所选列和排序”列表中，单击列名称，然后将其拖动到所需位置，或单击![向上箭头](/help/search-social-commerce/assets/chevron-up.png)或![向下箭头](/help/search-social-commerce/assets/chevron-down.png)将其移动到所需位置。 顶列的名称显示在左列。</li><li>（要删除列）在“选定的列和排序”列表中，单击列名称，然后将其拖到“可用的列”列表中，或单击![向左箭头](/help/search-social-commerce/assets/chevron-left.png)将其移动到该处。</li></ul><b>筛选数据</b><p>要仅列出特定类型的数据，请单击列表旁边的任何图标：<ul><li>搜索组件的属性名称和ID的![属性图标](/help/search-social-commerce/assets/properties-icon.png)，如状态</li><li>标准流量量度（例如展示次数和点击次数）的![流量图标](/help/search-social-commerce/assets/traffic-metrics-icon.png)</li><li>![收入图标](/help/search-social-commerce/assets/revenue-metrics-icon.png)（用于为广告商跟踪的转化量度，包括从Analytics同步的转化和网站参与量度）</li><li>![自定义图标](/help/search-social-commerce/assets/custom-metrics-icon.png) （适用于广告商创建的自定义派生量度）</li><li>![分类图标](/help/search-social-commerce/assets/classifications-icon.png)（用于标签分类）。</li></ul> <b>其他备注：</b><ul><li>要添加、创建或编辑新量度，请参阅“创建自定义量度”、“编辑自定义量度”和“删除自定义量度”。</li><li>如果报表包含使用不同货币的帐户的数据，则基于货币的列（例如成本和CPC）不包含总计。</li><li>您可以[从列标题菜单](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)临时编辑列集，以及从[!UICONTROL Columns]图标](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)编辑和排序列集。 [（![列图标](/help/search-social-commerce/assets/custom-columns.png "列图标")）。</li></ul> |
 |   | 排序方式 | 作为数据排序依据的列。 每种报表类型的默认值均不同。 |
 |   | 排序顺序 | 是以&#x200B;**升序**&#x200B;还是&#x200B;**降序**&#x200B;顺序对数据排序。 移动滑块以选择一个选项。 |
