@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: ccdc71ccef37650d6f2cc830e96ab3882a7d52b4
+source-git-commit: b103a2ac8834fa559428e7b3cd1947a0cd3ed33b
 workflow-type: tm+mt
-source-wordcount: '5225'
+source-wordcount: '5277'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2025年4月25日 | [!UICONTROL Placements]，品牌安全和媒体质量 | DSP现在为标准连接的电视投放位置提供[!DNL DoubleVerify]预竞价欺诈阻止支持。 新投放位置会自动继承广告商级别的欺诈阻止设置。 要排除继承的设置，请手动将其删除。<br><br>在未来版本中将提供对通用视频投放的支持。 | 请参阅“[位置设置](/help/dsp/campaign-management/placements/placement-settings.md#prebid-fraud-blocking)”。 |
 | 2025年4月24日 | 性能[!UICONTROL Insights] | (Beta功能)通过可视化图表进行的高层次性能分析，可为您提供高效优化活动以及发现提升性能的新机会所需的信息。 您可以跨营销活动查看数据或向下钻取到更低级别。 | 请参阅“[关于性能分析](/help/dsp/campaign-management/insights/insights-about.md)”。 |
 | 2025年3月26日 | 登录 | DSP正在过渡到Adobe Identity Management服务(IMS)以进行登录身份验证。 IMS提供对支持IMS的所有[!DNL Adobe]产品(包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics)的单一登录(SSO)访问权限。 您现在可以使用一个[!DNL Adobe ID]从Experience Cloud登录页面或旧版DSP登录页面跨[!DNL Adobe]个产品登录。 您当前的DSP凭据将保留90天的有效期，以便您能够为更改做好准备。 | 请参阅&quot;[登录到Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)&quot;。<br><br>有关Experience Cloud界面的详细信息，包括管理您的用户配置文件，请参阅“[Experience Cloud界面和管理](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)”。 |
 | | [!UICONTROL Packages]，[!UICONTROL Placements]，[!UICONTROL Ads] | 以下批量编辑功能现已可用：<ul><li>您可以直接编辑和重新上传包含营销活动包、投放位置和广告设置的营销活动级别电子表格。 以前，您必须下载模板文件并手动输入要上传的更改。</li><li>在[!UICONTROL Campaigns]视图中，这些文件现在称为“*批量处理工作表*”，而不是“QA工作表”，并且您选择“[!UICONTROL Download Bulksheet]”和“[!UICONTROL Upload Bulksheet]”的选项。</li><li>大多数投放设置现在都可在批量处理工作表中使用。</li></ul> | 请参阅“[使用批量处理工作表查看和编辑Campaign组件设置](/help/dsp/campaign-management/campaign-components-review-edit.md)”。<br><br>另请参阅“[使用批量处理工作表查看和编辑包设置](/help/dsp/campaign-management/packages/package-qa.md)”和“[使用批量处理工作表查看和编辑置入设置](/help/dsp/campaign-management/placements/placement-qa.md)”。 |

@@ -3,9 +3,9 @@ title: 投放设置
 description: 请参阅可用版面设置的说明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: eaa25ce24bf00fb5ff7ea1e4a3364d4439f49b00
+source-git-commit: 28ec89de0bd1a90578c6dd53a8249abbe4facbda
 workflow-type: tm+mt
-source-wordcount: '4039'
+source-wordcount: '4042'
 ht-degree: 0%
 
 ---
@@ -421,7 +421,7 @@ ID必须以“51”开头并且由八位数字组成。 默认情况下，如果
 
 **[!UICONTROL Pre-bid fraud blocking]：**&#x200B;要基于通过[!DNL DoubleVerify]、[!DNL Integral Ad Science]和[!DNL Peer39]测量的欺诈性流量和可疑活动阻止的站点类型。 为新投放位置选择了广告商级别的默认值，但您可以更改设置：
 
-* [!UICONTROL DoubleVerify]： （适用于桌面和移动设备Web显示、本机广告和视频广告）<!-- Applicable for desktop and mobile web display, native, video, and standard connected TV ads -->
+* [!UICONTROL DoubleVerify]： （适用于桌面和移动设备Web显示、本机、视频和标准连接的电视广告）
 
    * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]：**&#x200B;默认情况下，会阻止所有100%无效的流量（包括被劫持设备上的流量）用于新放置。 可能需额外付费。
 
