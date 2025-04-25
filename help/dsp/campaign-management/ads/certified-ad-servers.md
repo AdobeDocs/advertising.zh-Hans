@@ -3,9 +3,9 @@ title: 认证广告服务合作伙伴
 description: 查看所有认证的广告服务器和广告单元。
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
+source-git-commit: 75d4efbf5028b0d3ceeee247d1ee3616ae49d683
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 | [!DNL Spirable] | | X | | | |
 | [!DNL SUBLIME] | | | X | | |
 | [!DNL SundaySky] | | | | X | |
-| [!DNL Teads] | | X | | | Outstream清单不支持VPAID。 |
+| [!DNL Teads] | | X | | | 包括本机显示。 Outstream清单不支持VPAID。 |
 | [!DNL Trueffect] | | X | | | |
 | [!DNL Undertone] | | | X | | 在DSP中以180x150格式上传的自定义页面抓图广告单元</br></br>当索引交易在拍卖中通过180x150的拍卖和DSP竞价并提供展示时，创意将扩展为全页显示广告。</br></br>最初已获得页面抓取器、可扩展附着和屏幕移动广告单元的认证。 这需要重新认证，并针对流程标记了步骤。 |
 | [!DNL Vox] | | | X | | [!DNL Athena]个广告单位 |
