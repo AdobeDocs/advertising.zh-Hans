@@ -3,9 +3,9 @@ title: 将标准创意添加到创意库
 description: 了解如何将标准（非动态）创意添加到创意库。
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
+source-git-commit: d68c8c31a047c4615224e9ab19654e56b5e8c8f9
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -158,15 +158,21 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. 单击&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Image]**。
 
-1. 通过以下任一方式指定文件：
+1. 指定图像：
 
-   * 将设备或网络上的文件拖放到框中。
+   * 对于本地图像资产，请执行下列操作之一：
 
-   * 单击&#x200B;**[!UICONTROL select a file]**&#x200B;在您的设备或网络上查找该文件。
-<!--  Verify wording and workflow and add when available:
+      * 将设备或网络上的文件拖放到框中。
 
-   * Click **[!UICONTROL AEM Asset Library]** to locate a file in your Adobe Experience Manager library.
--->
+      * 单击&#x200B;**[!UICONTROL select a file]**&#x200B;在您的设备或网络上查找文件。
+
+   * 对于Adobe Experience Manager库中的图像，请执行以下操作：
+
+      1. 单击&#x200B;**[!UICONTROL AEM Asset Library]**。
+
+      1. 登录到您的Experience Manager帐户。
+
+      1. 在[!UICONTROL Assets]或[!UICONTROL Collections]视图中查找并选择文件，然后单击右上角的&#x200B;**[!UICONTROL Select]**。
 
 1. 添加或删除图像：
 
