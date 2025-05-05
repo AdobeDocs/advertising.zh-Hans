@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 步骤1：在Audience Manager中设置数据Source {#set-up-data-source}
 
-在Audience Manager中，为DSP展示创建一个[数据源](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html)并单击数据。 在每个事件标记[&#128279;](#implement-dsp-pixels)中包含数据源ID ，以便所有跟踪的事件都归属于该数据源。
+在Audience Manager中，为DSP展示创建一个[数据源](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=zh-Hans)并单击数据。 在每个事件标记[&#128279;](#implement-dsp-pixels)中包含数据源ID ，以便所有跟踪的事件都归属于该数据源。
 
 >[!NOTE]
 > 可以在单个数据源中收集在多个DSP上运行的广告促销活动的所有展示和点击数据。
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您的组织使用[!DNL Analytics]跟踪，则您可能不需要Audience Manager点击跟踪。 Adobe Analytics可捕获点击信号，并可通过[服务器端转发](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)将其发送到Audience Manager。
+>如果您的组织使用[!DNL Analytics]跟踪，则您可能不需要Audience Manager点击跟踪。 Adobe Analytics可捕获点击信号，并可通过[服务器端转发](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hans)将其发送到Audience Manager。
 
 ### 像素语法
 
@@ -79,9 +79,9 @@ ht-degree: 0%
 
 在键值对中，值变量可以是硬编码ID或&#x200B;*宏*，宏是自包含代码的一个小单位，当加载广告标记以进行促销活动和用户跟踪时，它会被动态替换为相应的值。 对于与促销活动相关的参数，您可以使用[DSP宏](/help/dsp/campaign-management/macros.md)而不是Audience Manager宏来发送促销活动属性以及相应的展示，或者使用单个像素在所有广告中进行Audience Manager的点击数据。 插入到事件像素中的DSP宏必须是包含在像素中的键值对的相应值。 例如，对于`d_placement`键，您将使用DSP宏`${TM_PLACEMENT_ID_NUM}`作为值来捕获Adobe Advertising宏生成的版面ID。
 
-有关Audience Manager支持展示事件像素的宏列表，请参阅“[通过像素调用捕获营销活动展示数据](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs)”。
+有关Audience Manager支持展示事件像素的宏列表，请参阅“[通过像素调用捕获营销活动展示数据](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=zh-Hans#supported-key-value-pairs)”。
 
-有关Audience Manager支持点击事件像素的宏列表，请参阅“[通过像素调用捕获营销活动点击数据](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html)”。
+有关Audience Manager支持点击事件像素的宏列表，请参阅“[通过像素调用捕获营销活动点击数据](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html?lang=zh-Hans)”。
 
 >[!TIP]
 >
@@ -116,11 +116,11 @@ ht-degree: 0%
 
 ### 创建[!DNL Amazon S3]存储段和数据Source
 
-一旦您的数据位于Audience Manager服务器上，您必须创建一个[!DNL Amazon Simple Storage Service] ([!DNL Amazon S3])存储段，然后创建一个数据源，所有像素数据都会发送到该数据源。 如果您需要支持，请联系您的Audience Manager顾问或[客户关怀](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html)。
+一旦您的数据位于Audience Manager服务器上，您必须创建一个[!DNL Amazon Simple Storage Service] ([!DNL Amazon S3])存储段，然后创建一个数据源，所有像素数据都会发送到该数据源。 如果您需要支持，请联系您的Audience Manager顾问或[客户关怀](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html?lang=zh-Hans)。
 
 ### 创建Audience Manager特征和区段
 
-您的事件数据作为[未使用的信号](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html)流入Audience Manager。 从摄取的数据中手动创建[基于规则的特征](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html)，然后使用这些特征创建[区段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html)，之后才能在报表中使用这些数据。
+您的事件数据作为[未使用的信号](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=zh-Hans)流入Audience Manager。 从摄取的数据中手动创建[基于规则的特征](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=zh-Hans)，然后使用这些特征创建[区段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=zh-Hans)，之后才能在报表中使用这些数据。
 
 为在DSP中向特定创意展示的用户填充用户级数据的特征示例：
 

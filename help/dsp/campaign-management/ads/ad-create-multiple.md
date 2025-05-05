@@ -77,5 +77,5 @@ ht-degree: 0%
 >* [关于广告管理](ad-about.md)
 >* [广告规范](ad-specs.md)
 >* [创建单个Ad](ad-create.md)
->* [视频：如何批量上传第三方广告标记](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
+>* [视频：如何批量上传第三方广告标记](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=zh-Hans)
 >* 有关通用视频的[常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)

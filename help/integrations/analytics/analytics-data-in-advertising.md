@@ -33,8 +33,8 @@ ht-degree: 0%
 * [!UICONTROL Timespent_secs_total]：在点击回顾时间范围内，所有访问在网站上花费的总秒数。
 * [!UICONTROL Pageviews_1stvisit]：访客首次访问期间网站上的页面查看次数。
 * [!UICONTROL Pageviews_total]：在点击回顾时间范围内，网站上所有访问的总页面查看次数。
-* [[!UICONTROL Bounces]量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html)
-* [[!UICONTROL Visits]量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)
+* [[!UICONTROL Bounces]量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html?lang=zh-Hans)
+* [[!UICONTROL Visits]量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=zh-Hans)
 * [!UICONTROL ef_id_instances]： [!DNL Analytics]收集[!UICONTROL EF ID]的次数。
 
 ## 转化量度
@@ -43,14 +43,14 @@ ht-degree: 0%
 
 ### 标准转化量度
 
-* [[!UICONTROL Revenue]量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/revenue.html)
-* [[!UICONTROL Orders]量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html)
-* [[!UICONTROL Units]量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html)
-* [[!UICONTROL Carts]量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/carts.html)
-* [[!UICONTROL Cart Views]量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html)
-* [[!UICONTROL Checkouts]量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html)
-* [[!UICONTROL Cart Additions]量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-additions.html)
-* [[!UICONTROL Cart Removals]量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html)
+* [[!UICONTROL Revenue]量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/revenue.html?lang=zh-Hans)
+* [[!UICONTROL Orders]量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html?lang=zh-Hans)
+* [[!UICONTROL Units]量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html?lang=zh-Hans)
+* [[!UICONTROL Carts]量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/carts.html?lang=zh-Hans)
+* [[!UICONTROL Cart Views]量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html?lang=zh-Hans)
+* [[!UICONTROL Checkouts]量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html?lang=zh-Hans)
+* [[!UICONTROL Cart Additions]量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-additions.html?lang=zh-Hans)
+* [[!UICONTROL Cart Removals]量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html?lang=zh-Hans)
 
 ### 自定义转化量度
 

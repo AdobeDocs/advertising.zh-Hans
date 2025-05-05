@@ -42,7 +42,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->有关如何在Audience Manager和Experience Cloud[!DNL Audience Library]界面中创建受众以及不同受众类型的常见用例的更多信息，请参阅“[受众创建选项](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html)”。
+>有关如何在Audience Manager和Experience Cloud[!DNL Audience Library]界面中创建受众以及不同受众类型的常见用例的更多信息，请参阅“[受众创建选项](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=zh-Hans)”。
 
 ## 将DSP媒体曝光数据发送到Audience Manager
 
@@ -54,6 +54,6 @@ ht-degree: 0%
 
 ## 利用Audience Analytics更深入地了解网站活动
 
-具有[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)的Adobe Advertising客户可以将Adobe Advertising跟踪数据和Audience Manager区段发送到[!DNL Analytics]，以丰富有关网站活动的见解。
+具有[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=zh-Hans)的Adobe Advertising客户可以将Adobe Advertising跟踪数据和Audience Manager区段发送到[!DNL Analytics]，以丰富有关网站活动的见解。
 
 有关详细信息，请参阅“[[!DNL Adobe Audience Analytics] Adobe Advertising客户](/help/integrations/audience-manager/audience-analytics.md)”。

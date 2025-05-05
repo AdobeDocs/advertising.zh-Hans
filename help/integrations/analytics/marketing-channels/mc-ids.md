@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 处理规则中的AMO ID
 
-AMO ID是用于报告[!DNL Analytics]中Adobe Advertising数据的主要跟踪代码。 AMO ID是由Adobe管理的动态值的连接，用于在[!DNL Analytics]内提供精细报表。 它存储在[!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)或rVar维度(AMO ID)中。 可以通过两种方式在[!DNL Analytics]中设置AMO ID：
+AMO ID是用于报告[!DNL Analytics]中Adobe Advertising数据的主要跟踪代码。 AMO ID是由Adobe管理的动态值的连接，用于在[!DNL Analytics]内提供精细报表。 它存储在[!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=zh-Hans)或rVar维度(AMO ID)中。 可以通过两种方式在[!DNL Analytics]中设置AMO ID：
 
 * 点进跟踪：Adobe Advertising在链接中设置了`s_kwcid`查询字符串参数，当发生点进时，[!DNL Analytics]会从登陆页面URL中选取该参数。
 * 浏览跟踪（仅限[!DNL DSP]）： Last Event Service在服务器端检测到浏览并向[!DNL Analytics]发送AMO ID。 在这种情况下，URL不包含`s_kwcid`参数。
@@ -94,5 +94,5 @@ AMO EF ID (EF ID)是[!DNL Analytics for Advertising]集成中使用的第二个�
 >*  [!DNL Analytics Marketing Channels][&#128279;](mc-overview.md)的基础知识
 >* [为什么渠道数据在Adobe Advertising和 [!DNL Marketing Channels]](mc-data-variances.md)之间可能不同
 >* [对Adobe Advertising数据使用 [!DNL Analytics Marketing Channels] ](mc-ac-data.md)
->* [视频：使用 [!DNL Marketing Channels] 进行Adobe Advertising报告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [视频：使用 [!DNL Marketing Channels] 进行Adobe Advertising报告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=zh-Hans)
 >*  [!DNL Analytics][&#128279;](/help/integrations/analytics/ids.md)使用的Adobe AdvertisingID

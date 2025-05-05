@@ -17,7 +17,7 @@ Adobe Advertising支持以下货币。
 
 >[!NOTE]
 >
->Adobe Analytics支持[更多的货币](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html)。
+>Adobe Analytics支持[更多的货币](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=zh-Hans)。
 
 ## DSP和Creative
 

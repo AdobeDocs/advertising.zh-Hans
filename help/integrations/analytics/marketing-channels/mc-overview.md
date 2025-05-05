@@ -14,7 +14,7 @@ ht-degree: 0%
 
 本页介绍[!DNL Analytics for Advertising]用户需要了解的有关[!DNL Analytics Marketing Channels]的关键信息。
 
-有关[!DNL Marketing Channels]的完整文档，请参阅“[开始使用 [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html)”。
+有关[!DNL Marketing Channels]的完整文档，请参阅“[开始使用 [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html?lang=zh-Hans)”。
 
 ## [!DNL Marketing Channels]概述
 
@@ -43,5 +43,5 @@ Adobe建议与您的Analytics团队合作，构建一整套[!DNL Marketing Chann
 >* [使用Adobe AdvertisingID创建 [!DNL Marketing Channels] 处理规则](mc-ids.md)
 >* [为什么渠道数据在Adobe Advertising和 [!DNL Marketing Channels]](mc-data-variances.md)之间可能不同
 >* [对Adobe Advertising数据使用 [!DNL Analytics Marketing Channels] ](mc-ac-data.md)
->* [视频：使用 [!DNL Marketing Channels] 进行Adobe Advertising报告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [视频：使用 [!DNL Marketing Channels] 进行Adobe Advertising报告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=zh-Hans)
 >* [概述 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

@@ -28,5 +28,5 @@ Adobe Advertising DSP (DSP)通过高级的第一方数据分段和激活功能�
 
 >[!MORELIKETHIS]
 >
->* [视频： Advertising DSP简介](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html)
->* [视频： DSP帐户结构和用户界面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [视频： Advertising DSP简介](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html?lang=zh-Hans)
+>* [视频： DSP帐户结构和用户界面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=zh-Hans)

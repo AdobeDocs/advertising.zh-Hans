@@ -35,4 +35,4 @@ ht-degree: 0%
 >
 >* [创建营销活动](campaign-create.md)
 >* [营销活动设置](campaign-settings.md)
->* [视频： DSP帐户结构和用户界面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [视频： DSP帐户结构和用户界面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=zh-Hans)

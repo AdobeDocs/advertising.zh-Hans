@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *仅包含[!DNL Analytics for Advertising]和Adobe Customer Journey Analytics的广告商*
 
-如果您使用保留的变量捕获[AMO ID和EF ID](ids.md)以进行[!DNL Analytics for Advertising]集成，那么通过尽快将您为AMO ID和EF ID保留的变量复制到[standard [!DNL eVars]](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/evar)中，您可以为Adobe Advertising与[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)&#x200B;(Adobe的新一代[!DNL analytics]解决方案)之间的未来集成做好准备。 这样一来，您便可以在完成任务后立即收集AMO ID和EF ID的历史数据。 如果您使用保留的变量并且需要完成此任务，您的Adobe客户团队将告知您。
+如果您使用保留的变量捕获[AMO ID和EF ID](ids.md)以进行[!DNL Analytics for Advertising]集成，那么通过尽快将您为AMO ID和EF ID保留的变量复制到[standard [!DNL eVars]](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/evar)中，您可以为Adobe Advertising与[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview)&#x200B;(Adobe的新一代[!DNL analytics]解决方案)之间的未来集成做好准备。 这样一来，您便可以在完成任务后立即收集AMO ID和EF ID的历史数据。 如果您使用保留的变量并且需要完成此任务，您的Adobe客户团队将告知您。
 
 <!-- You can also do the same for any other reserved variables you use for your [!DNL Analytics for Advertising] implementation. -->
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Adobe Advertising计划将来与Customer Journey Analytics一起实施。 实施发布后，您的[!DNL Analytics for Advertising]集成仍需要您使用[!DNL Analytics]跟踪收集点进数据<!-- Add back if we implement this:  and (DSP users) view-through data -->，但如果您的组织同时拥有这两个产品，则可以在1\) [!DNL Analytics] <!-- (Analysis Workspace using data from [!DNL Analytics]) -->和2\) Customer Journey Analytics <!-- (Analysis Workspace using data from Experience Platform)-->中查看您的数据。 在发布该功能后，Experience Platform将开始收集您的AMO ID和EF ID的数据以便在Customer Journey Analytics中使用，但是在发布日期之前不会存在任何历史数据。
 
-但是，您可以通过创建一个简单的[[!DNL Analytics] 处理规则](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)来立即将您的AMO ID和EF ID <!-- [!DNL rVars] -->复制到[!DNL eVars]中，从而更快地开始收集AMO ID和EF ID <!-- [!DNL rVars] -->的数据。 一旦创建处理规则，您就会开始为AMO ID和EF ID <!-- [!DNL rVars] -->在跟踪新事件时积累数据。 实施完成后，历史数据即可在Customer Journey Analytics中使用。
+但是，您可以通过创建一个简单的[[!DNL Analytics] 处理规则](https://experienceleague.adobe.com/zh-hans/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)来立即将您的AMO ID和EF ID <!-- [!DNL rVars] -->复制到[!DNL eVars]中，从而更快地开始收集AMO ID和EF ID <!-- [!DNL rVars] -->的数据。 一旦创建处理规则，您就会开始为AMO ID和EF ID <!-- [!DNL rVars] -->在跟踪新事件时积累数据。 实施完成后，历史数据即可在Customer Journey Analytics中使用。
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Adobe Advertising计划将来与Customer Journey Analytics一起实施。 实施
 
 此步骤是手动的，并且必须为跟踪您预计将来与Adobe Advertising集成的AMO ID和EF ID <!-- [!DNL rVars] -->的每个报表包完成。
 
-1. [使用以下设置创建处理规则](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules)：
+1. [使用以下设置创建处理规则](https://experienceleague.adobe.com/zh-hans/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules)：
 
    * 选择要将AMO ID和EF ID <!-- [!DNL rVar] -->数据迁移到Experience Platform以供Customer Journey Analytics使用的报表包。
 
@@ -71,7 +71,7 @@ Adobe Advertising计划将来与Customer Journey Analytics一起实施。 实施
 
    例如，如果新eVar `eVar142`映射到`amo.s_kwcid(Context Data)`，则`eVar142`和`AMO ID`的数据应相同。
 
-有关如何应用处理规则的更多信息，请参阅[处理规则的工作方式](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/processing-rules-about)。
+有关如何应用处理规则的更多信息，请参阅[处理规则的工作方式](https://experienceleague.adobe.com/zh-hans/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/processing-rules-about)。
 
 >[!MORELIKETHIS]
 >

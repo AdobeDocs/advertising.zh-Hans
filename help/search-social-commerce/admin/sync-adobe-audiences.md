@@ -24,7 +24,7 @@ ht-degree: 0%
 
 * 使用Adobe Experience Cloud [!DNL Audience Library]创建的区段
 
-广告商或代理机构必须实施[Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)并提供其组织ID（以前称为[!DNL IMS Org ID]），才能符合条件。
+广告商或代理机构必须实施[Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)并提供其组织ID（以前称为[!DNL IMS Org ID]），才能符合条件。
 
 初始同步大约需要24小时。 之后，数据实时同步，延迟为1到2秒。
 

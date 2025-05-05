@@ -16,7 +16,7 @@ ht-degree: 0%
 
 对于集成Adobe Advertising-Adobe Analytics的广告商，当您在您的[竞价单位](/help/search-social-commerce/glossary.md#a-b)的点击跟踪URL中使用带有令牌（`ef_id`参数）的重定向时，Advertising Cloud可以将您的广告点击次数和展示次数与[!DNL Analytics]跟踪的网站参与度和转化量度关联起来。 [!DNL Analytics]数据通过每日馈送文件自动发送到Advertising Cloud。
 
-有关集成的详细信息，请参阅“[概述 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview){target="_blank"}”。
+有关集成的详细信息，请参阅“[概述 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/zh-hans/docs/advertising/integrations/analytics/overview){target="_blank"}”。
 
 >[!PREREQUISITES]
 >

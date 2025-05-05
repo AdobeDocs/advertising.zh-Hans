@@ -41,7 +41,7 @@ ht-degree: 0%
 * 用于报告付费媒体活动和馈送网站活动以在Adobe Advertising中优化和报表的[!DNL Analytics]报表包ID
 * 公司的Experience Cloud组织ID (Org ID)。
 
-您可以在Adobe Experience Cloud Debugger[&#128279;](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)的摘要选项卡中找到这两个ID。
+您可以在Adobe Experience Cloud Debugger[&#128279;](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=zh-Hans)的摘要选项卡中找到这两个ID。
 
 ![Experience Cloud Debugger摘要屏幕](/help/integrations/assets/a4adc-debugger-summary.png)
 
@@ -68,7 +68,7 @@ Adobe Advertising![&#128279;](/help/integrations/assets/a4adc-lookbacks.png)中�
 
 >[!NOTE]
 >
->若要针对不同的时间范围对数据进行分段，您可以在Analysis Workspace中[设置具有不同回顾时间范围的自定义区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
+>若要针对不同的时间范围对数据进行分段，您可以在Analysis Workspace中[设置具有不同回顾时间范围的自定义区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hans)。
 
 ## 支持的广告环境
 
@@ -111,7 +111,7 @@ Adobe Advertising![&#128279;](/help/integrations/assets/a4adc-lookbacks.png)中�
 
 为了准确的数据集成，[!DNL Analytics for Advertising]活动用于交付Adobe Advertising或记录目标量度的所有内容调用必须具有共享相同补充ID的相应[!DNL Analytics]点击。
 
-在[!DNL Analytics]中进行故障诊断时，请务必确认[!DNL Analytics]点击存在补充ID。 在[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)中，您可以在“Adobe Advertising”选项卡中看到此ID作为`sdid`参数。
+在[!DNL Analytics]中进行故障诊断时，请务必确认[!DNL Analytics]点击存在补充ID。 在[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=zh-Hans)中，您可以在“Adobe Advertising”选项卡中看到此ID作为`sdid`参数。
 
 >[!NOTE]
 >

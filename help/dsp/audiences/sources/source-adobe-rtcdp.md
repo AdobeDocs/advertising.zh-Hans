@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 在Adobe Experience Platform中，使用在DSP源设置中生成的[!UICONTROL Source Key]配置Advertising DSP目标连接。
 
-   有关激活DSP目标连接、选择区段和访问控制权限的说明，请参阅“[Adobe Advertising Cloud DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)”。
+   有关激活DSP目标连接、选择区段和访问控制权限的说明，请参阅“[Adobe Advertising Cloud DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=zh-Hans)”。
 
    源电子邮件地址必须使用SHA-256算法进行哈希处理。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 >
 >* [关于第一方受众源](/help/dsp/audiences/sources/source-about.md)
 >* [管理受众源以激活通用ID受众](source-manage.md)
->* [Adobe Advertising DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* Adobe Experience Platform [目标目录概述](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+>* [Adobe Advertising DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=zh-Hans)
+>* Adobe Experience Platform [目标目录概述](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hans)
 >* [支持激活通用ID](/help/dsp/audiences/universal-ids.md)
 >* [关于受众管理](/help/dsp/audiences/audience-about.md)

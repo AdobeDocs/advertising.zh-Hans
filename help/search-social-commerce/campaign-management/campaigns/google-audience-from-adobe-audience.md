@@ -34,7 +34,7 @@ ht-degree: 0%
 
    1. （要创建用户ID再营销列表受众）[!DNL Adobe]管理员用户或帐户管理员必须选择广告商级别的设置以启用客户匹配受众。
 
-   1. 实施[Adobe Experience Platform Identity服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)版本2.0或更高版本。
+   1. 实施[Adobe Experience Platform Identity服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)版本2.0或更高版本。
 
    1. 在广告商的网页上尽可能高地部署以下标记，应从中跟踪受众
 

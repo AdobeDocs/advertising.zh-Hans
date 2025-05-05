@@ -27,7 +27,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 所有新的实施都使用JavaScript版本3。
->* 带ECID的JavaScript标记使用[Adobe Experience Cloud ID (ECID)服务](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html)以及旧版ef_id和gsurferid来度量转化。 此最新标记创建[第一方Experience Clouds_ecid Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html)，并提供与其他Experience Cloud产品更紧密的集成。
+>* 带ECID的JavaScript标记使用[Adobe Experience Cloud ID (ECID)服务](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hans)以及旧版ef_id和gsurferid来度量转化。 此最新标记创建[第一方Experience Clouds_ecid Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=zh-Hans)，并提供与其他Experience Cloud产品更紧密的集成。
 >* 仅当已在广告商的网页上实施标记时，才使用JavaScript版本2标记。
 >* 最佳实践是使用JavaScript标记，而不是图像标记，除非网站有禁止使用这些标记的策略。
 >* 广告商需要使用JavaScript标签，它们需要定位在Adobe Experience Cloud中创建、在Adobe Audience Manager中创建或从Audience Manager或Adobe Analytics发布到Adobe Experience Cloud的受众。

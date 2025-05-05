@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *仅具有Adobe Advertising-Adobe Analytics集成的广告商*
 
-如果您的组织使用旧版Adobe Analytics `visitorAPI.js`库进行数据收集，则可以选择使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)库(`alloy.js`)进行切换，这允许您通过[!DNL Edge Network]与各种Experience Cloud服务进行交互。
+如果您的组织使用旧版Adobe Analytics `visitorAPI.js`库进行数据收集，则可以选择使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)库(`alloy.js`)进行切换，这允许您通过[!DNL Edge Network]与各种Experience Cloud服务进行交互。
 
 [!DNL Analytics for Advertising] [!DNL Last Event Service] JavaScript库按原样记录浏览和点进事件，并使用补充ID (`SDID`)将它们与关联的转化拼合。 但是，[!DNL Web SDK]库不提供[!DNL stitch ID]。 要为[!DNL Analytics for Advertising]使用[!DNL Web SDK]，必须修改1)您在网页上使用的[!DNL Last Event Service]标记和2)相应的[!DNL Web SDK] `sendEvent`命令。
 

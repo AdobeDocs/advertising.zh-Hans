@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. 在[!DNL Campaign]中，设置将电子邮件列表传递到Advertising Search、Social和Commerce：
 
-   1. 创建一个[外部帐户](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html)以关联您的搜索、社交和Commerce提供的SFTP帐户：
+   1. 创建一个[外部帐户](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html?lang=zh-Hans)以关联您的搜索、社交和Commerce提供的SFTP帐户：
 
       1. 从左侧菜单中，转到&#x200B;**\[Adobe Campaign v6\] > [!UICONTROL Platform] >[!UICONTROL External Accounts]**。
 

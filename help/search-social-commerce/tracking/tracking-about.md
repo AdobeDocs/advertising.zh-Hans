@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * 在所有其他情况下，广告网络都会将点击直接发送到Adobe Advertising像素服务器。 像素服务器会在用户的计算机上放置一个Cookie（如果尚不存在），然后将用户重定向到您网站上的相关URL。 最终用户的整体体验与没有重定向时的体验相同。
 
-Cookie在[!DNL Adobe]域(`everesttech.net`)中设置为第一方Cookie。 在重定向后，用户位于广告商的域中，并且该Cookie随后被视为第三方Cookie。 有关Adobe AdvertisingCookie的详细信息，请参阅[Adobe AdvertisingCookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html)。
+Cookie在[!DNL Adobe]域(`everesttech.net`)中设置为第一方Cookie。 在重定向后，用户位于广告商的域中，并且该Cookie随后被视为第三方Cookie。 有关Adobe AdvertisingCookie的详细信息，请参阅[Adobe AdvertisingCookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=zh-Hans)。
 
 ## 转化数据
 

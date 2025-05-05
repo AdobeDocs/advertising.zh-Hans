@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Adobe Advertising客户的[!DNL Adobe] [!DNL Audience Analytics]
 
-[[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)是Adobe Audience Manager与Adobe Analytics之间的集成，它允许Audience Manager客户将区段发送到[!DNL Analytics]，以丰富有关网站活动的见解。
+[[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=zh-Hans)是Adobe Audience Manager与Adobe Analytics之间的集成，它允许Audience Manager客户将区段发送到[!DNL Analytics]，以丰富有关网站活动的见解。
 
 Adobe Advertising客户可以通过使用[!DNL Audience Analytics]受益。 该集成允许您：
 
@@ -20,7 +20,7 @@ Adobe Advertising客户可以通过使用[!DNL Audience Analytics]受益。 该�
 
 * 通过漏斗上层展示广告确定营销渠道和网站进入点。
 
-* 对与[!DNL Analytics for Advertising]的集成进行分层，以纳入[Audience Manager [!DNL Audience Marketplace]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/audience-marketplace/audience-marketplace.html)中包含[!DNL Analytics for Advertising]数据的第三方人口统计区段，了解有关用户配置文件的更多见解。
+* 对与[!DNL Analytics for Advertising]的集成进行分层，以纳入[Audience Manager [!DNL Audience Marketplace]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/audience-marketplace/audience-marketplace.html?lang=zh-Hans)中包含[!DNL Analytics for Advertising]数据的第三方人口统计区段，了解有关用户配置文件的更多见解。
 
   [!DNL Audience Marketplace]通过“激活”订阅模型提供对第三方数据馈送的访问权限，这些模型允许购买者将数据发送到目标。 如果数据在[!DNL Analytics]目标中使用，则不会收取激活费。
 
@@ -28,7 +28,7 @@ Adobe Advertising客户可以通过使用[!DNL Audience Analytics]受益。 该�
 
   Advertising DSP可以通过实施Adobe Experience Platform或Audience Manager展示跟踪像素，将曝光数据作为可操作信号发送到Audience Manager。 将相同数据转发到[!DNL Analytics]可启用高级数据分析。 有关详细信息，请参阅“[Adobe Advertising Media数据与Adobe Audience Manager的集成概述](/help/integrations/audience-manager/media-data-integration/overview.md)”。
 
-有关[!DNL Audience Analytics]的详细信息，包括其先决条件和工作流程，请参阅“[Audience Analytics概述](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)”。
+有关[!DNL Audience Analytics]的详细信息，包括其先决条件和工作流程，请参阅“[Audience Analytics概述](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=zh-Hans)”。
 
 ## 如何将[!DNL Audience Analytics]数据用于Adobe Advertising数据的示例
 
