@@ -179,7 +179,7 @@ ht-degree: 0%
 
 * *[!UICONTROL FTP]：*&#x200B;若要将已完成的报告发送到一个或多个FTP位置，您必须在&#x200B;**[!UICONTROL Destination Name]**&#x200B;字段中选择这些位置。
 
-* *[!UICONTROL FTP SSL](当前在Beta中)：*&#x200B;要将已完成的报告发送到一个或多个FTP SSL位置，您必须在&#x200B;**[!UICONTROL Destination Name]**&#x200B;字段中选择该位置。
+* *[!UICONTROL FTP SSL] (当前在Beta中)：*&#x200B;要将已完成的报告发送到一个或多个FTP SSL位置，您必须在&#x200B;**[!UICONTROL Destination Name]**&#x200B;字段中选择该位置。
 
 * *[!UICONTROL Email]：*&#x200B;若要指定电子邮件地址，在报告因错误而被取消时，将已完成的报告或通知发送到这些地址。
 

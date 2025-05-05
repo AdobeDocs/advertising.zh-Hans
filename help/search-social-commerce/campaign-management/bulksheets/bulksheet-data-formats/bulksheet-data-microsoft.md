@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 附录 — [!DNL Microsoft Advertising]帐户必需的批量处理工作表数据
 
-要批量创建和更新[!DNL Microsoft Advertising]营销活动数据，您可以使用专门为[!DNL Microsoft Advertising]帐户设置格式的Search、Social和Commerce批量工作表文件。 您可以a)[为现有帐户](../bulksheet-download.md)生成所需文件格式的批量工作表文件，或b)手动创建这些文件（有关支持的文件格式的一般信息，请参阅[支持的批量工作表文件格式](bulksheet-file-formats.md)）。
+要批量创建和更新[!DNL Microsoft Advertising]营销活动数据，您可以使用专门为[!DNL Microsoft Advertising]帐户设置格式的Search、Social和Commerce批量工作表文件。 您可以a) [为现有帐户](../bulksheet-download.md)生成所需文件格式的批量工作表文件，或b)手动创建这些文件（有关支持的文件格式的一般信息，请参阅[支持的批量工作表文件格式](bulksheet-file-formats.md)）。
 
 每个批量工作表必须包含要执行[特定操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md)（如创建广告）所需的标题字段和相应的数据字段。 当字段不是必填字段时，您可以从标题行和数据行中忽略该字段。 上传批量工作表文件时将删除所有自定义列。
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Group Start Date] | 可以在广告商所在时区且以下列格式之一为广告组投标的第一个日期：m/d/yyyy、m/d/yy、m-d-yyyy或m-d-yy。 对于新的广告组，默认日期为当前日期。 |
 | [!UICONTROL Ad Group End Date] | 可以在广告商所在的时区以及以下格式之一为广告组投标的最后日期：m/d/yyyy、m/d/yy、m-d-yyyy或m-d-yy。 对于新的广告组，默认值为[blank]（即无结束日期）。 |
 | [!UICONTROL Tracking Template] | （可选）跟踪模板，用于指定所有离岸域重定向和跟踪参数，并将最终URL嵌入到参数中。 最粒度级别的跟踪模板（使用关键字作为最粒度级别）将覆盖所有更高级别的值。<br><br>对于在营销活动设置包括“[!UICONTROL EF Redirect]”和“[!UICONTROL Auto Upload]”时应用的Adobe Advertising转化跟踪，Search、Social和Commerce会在您保存记录时自动附加重定向和跟踪代码。<br><br>对于第三方重定向和跟踪，请输入一个值。<br><br>有关指示跟踪模板中最终URL的参数列表，请参阅[!DNL Microsoft Advertising]文档。<br><br>要删除现有值，请使用值`[delete]`（包括括号）。 |
-| [!UICONTROL Landing Page Suffix] | 附加到最终URL末尾以跟踪信息的任何参数。 示例：`param2=value1&param3=value2`<br><br>请参见 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的[点击跟踪格式。<br><br>较低级别的最终URL后缀将覆盖帐户级别的后缀。 为便于维护，除非需要对各个帐户组件进行不同的跟踪，否则请仅使用帐户级别的后缀。 要在广告组级别或更低级别配置后缀，请使用[!DNL Microsoft Advertising]编辑器。 |
+| [!UICONTROL Landing Page Suffix] | 附加到最终URL末尾以跟踪信息的任何参数。 示例：`param2=value1&param3=value2`<br><br>请参见 [!DNL Microsoft Advertising][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的点击跟踪格式。<br><br>较低级别的最终URL后缀将覆盖帐户级别的后缀。 为便于维护，除非需要对各个帐户组件进行不同的跟踪，否则请仅使用帐户级别的后缀。 要在广告组级别或更低级别配置后缀，请使用[!DNL Microsoft Advertising]编辑器。 |
 | 搜索网络状态 | 是否将广告组的广告放在搜索网络的各种元素上：<ul><li><i>全部：</i>在所有Bing搜索网络和联合搜索合作伙伴上刊登广告。</li><li><i>OwnedAndOperatedOnly：</i>仅在Bing和Yahoo上投放广告！ 网站。</li><li><i>SyndicatedSearchOnly：</i>仅在Bing和Yahoo上投放广告！ 联合搜索合作伙伴。</li><li><i>关：</i>仅在内容网络（而非搜索网络）上刊登广告。</li></ul> 对于新的广告组，默认为“启用”。 |
 | [!UICONTROL Content Network Status] | 已弃用 |
 | [!UICONTROL Languages] | 广告组中广告的目标语言： [!UICONTROL English]、[!UICONTROL French]、[!UICONTROL Finnish]、[!UICONTROL German]、[!UICONTROL Norwegian]、[!UICONTROL Spanish]或[!UICONTROL Swedish]。 新营销活动的默认值为[!UICONTROL English]。<br><br>此设置确定广告可以显示的国家和地区。 确保选择与营销活动的位置目标兼容的语言。 |
@@ -466,5 +466,5 @@ ht-degree: 0%
 >* [可在批量处理工作表中执行的操作](bulksheet-operations.md)
 >* [支持的批量处理工作表文件格式](bulksheet-file-formats.md)
 >* [下载/创建批量处理工作表文件](../bulksheet-download.md)
->*  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的[点击跟踪格式
+>*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的点击跟踪格式
 >* [上载批量工作表文件或更正的错误文件](../bulksheet-upload.md)

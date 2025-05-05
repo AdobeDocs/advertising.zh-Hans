@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![营销活动列表](/help/dsp/assets/campaigns-list.png)
 
-默认情况下，每个营销活动行都包含步调和投放量度。 步调量度包括[!UICONTROL Gross Spend (Lifetime)]，其中包括对营销活动中所有包的实际目标上支出与预期目标上支出的衡量，因此您可以一目了然地识别表现不佳的营销活动。 您可以选择更改列视图](campaign-data-views-manage.md#column-view-change)，甚至[创建自定义列视图](campaign-data-views-manage.md#column-view-create)。[
+默认情况下，每个营销活动行都包含步调和投放量度。 步调量度包括[!UICONTROL Gross Spend (Lifetime)]，其中包括对营销活动中所有包的实际目标上支出与预期目标上支出的衡量，因此您可以一目了然地识别表现不佳的营销活动。 您可以选择更改列视图[&#128279;](campaign-data-views-manage.md#column-view-change)，甚至[创建自定义列视图](campaign-data-views-manage.md#column-view-create)。
 
 您可以进一步[以其他方式自定义数据表](campaign-data-views-manage.md#data-tables-manage)和[筛选可见数据](campaign-data-views-manage.md#filter-data-tables)。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 对于每个营销活动，您可以[使用三个量度（可在每个实体视图中找到）自定义时间序列趋势图](campaign-data-views-manage.md#data-visualizations-manage)。 促销活动的所有趋势图中都保留相同的量度。
 
-有关详细信息，请参阅跨营销活动量度](#chart-view)上的[“图表视图”部分。
+有关详细信息，请参阅跨营销活动量度[&#128279;](#chart-view)上的“图表视图”部分。
 
 ### 表格视图
 

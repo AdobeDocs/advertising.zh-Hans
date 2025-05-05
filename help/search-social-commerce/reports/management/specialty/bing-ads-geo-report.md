@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 此报告的总数可能与[!UICONTROL Geo Distribution Report](Search、Social和Commerce编译的)中同一营销活动和时段的总数不同，因为确定地理位置的供应商和方法不同。
+>* 此报告的总数可能与[!UICONTROL Geo Distribution Report] (Search、Social和Commerce编译的)中同一营销活动和时段的总数不同，因为确定地理位置的供应商和方法不同。
 >* 此报告的数据提取时间为前一天的23:00（晚上11:00）。 例如，6月18日23:00时，它会提取6月17日的数据。 如果您在6月19日09:00运行报表（在提取6月18日的数据之前），则报表包含截至6月17日23:00的数据。
 
 ## 默认列

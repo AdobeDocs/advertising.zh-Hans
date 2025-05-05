@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您也可以临时更改视图中的列，而无需更改视图中任何列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)的排序顺序[。
+>您也可以临时更改视图中的列，而无需更改视图中任何列标题[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)的排序顺序。
 >
 >您可以通过编辑默认视图或[创建自定义视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)，保存对特定广告商所包含列的更改。
 

@@ -25,7 +25,7 @@ ht-degree: 10%
       + [ [!DNL Analytics for Advertising]的(DSP) JavaScript代码](/help/integrations/analytics/javascript.md)
       + [在Adobe Experience Platform [!DNL Web SDK]中使用 [!DNL Last Event Service] JavaScript库](/help/integrations/analytics/web-sdk.md)
       + [收集要在Adobe Customer Journey Analytics中使用的AMO ID和EF ID的历史数据](/help/integrations/analytics/rvars-to-evars.md)
-      + (DSP)广告标记{#macros}的宏
+      + (DSP)广告标记的宏{#macros}
          + [将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Flashtalking] 添加标记](/help/integrations/analytics/macros-flashtalking.md)
          + [将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Google Campaign Manager 360] 添加标记](/help/integrations/analytics/macros-google-campaign-manager.md)
    + 交换的数据{#data}
@@ -38,15 +38,15 @@ ht-degree: 10%
       + [将 [!DNL Marketing Channels] 用于Adobe Advertising数据](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
       + [为什么渠道数据在Adobe Advertising和 [!DNL Marketing Channels]之间可能不同](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
    + [从Adobe Analytics [!DNL eVars] 和 [!DNL props]创建转化量度](/help/integrations/analytics/conversion-metrics-from-evars.md)
-+ 与Adobe Audience Manager {#audience-manager}集成
++ 与Adobe Audience Manager集成 {#audience-manager}
    + [Adobe Advertising与Adobe Audience Manager的集成](/help/integrations/audience-manager/overview.md)
    + [将Audience Manager区段导入Adobe Advertising](/help/integrations/audience-manager/import-audiences.md)
-   + DSP Media数据与Adobe Audience Manager {#media-data-ingestion}的集成
+   + DSP Media数据与Adobe Audience Manager的集成 {#media-data-ingestion}
       + [将DSP媒体曝光数据发送到Adobe Audience Manager概述](/help/integrations/audience-manager/media-data-integration/overview.md)
       + [从DSP Campaigns收集展示和点击数据](/help/integrations/audience-manager/media-data-integration/collect.md)
       + [用例](/help/integrations/audience-manager/media-data-integration/use-cases.md)
    + [面向Advertising客户的AdobeAudience Analytics](/help/integrations/audience-manager/audience-analytics.md)
-+ 与Adobe Target {#target}集成
++ 与Adobe Target集成 {#target}
    + [在Adobe Target中为DSP广告配置A/B测试](/help/integrations/target/ab-tests-dsp.md)
    + [在Adobe Target中为搜索、社交和Commerce广告配置A/B测试](/help/integrations/target/ab-tests-search.md)
 + [有关Adobe Advertising集成的视频Tutorials](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->

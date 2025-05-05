@@ -42,7 +42,7 @@ ht-degree: 0%
 
 <!-- Verify all -->
 
-在[!DNL Search, Social, & Commerce]内，您可以使用现有的[!DNL Analytics]区段从用户ID创建[!DNL Google Ads]个Google客户匹配受众。 这包括发布到Adobe Experience Cloud的Adobe Analytics区段和使用Adobe Experience Cloud [!DNL Audience Library]创建的区段。 有关详细信息，请参阅“从 [!DNL Adobe] 受众](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)创建 [!DNL Google Ads] 客户匹配受众”。[
+在[!DNL Search, Social, & Commerce]内，您可以使用现有的[!DNL Analytics]区段从用户ID创建[!DNL Google Ads]个Google客户匹配受众。 这包括发布到Adobe Experience Cloud的Adobe Analytics区段和使用Adobe Experience Cloud [!DNL Audience Library]创建的区段。 有关详细信息，请参阅“从 [!DNL Adobe] 受众[&#128279;](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)创建 [!DNL Google Ads] 客户匹配受众”。
 
 [用户ID中的客户匹配受众](https://support.google.com/google-ads/answer/9199250)类似于基于网站标记的受众，但会将非PII ID分配给唯一的受众成员，以便获得优于标准客户匹配和基于网站标记的受众的独特优势。
 

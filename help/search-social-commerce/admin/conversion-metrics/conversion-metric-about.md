@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 关于管理广告商的转化量度
 
-Adobe Advertising广告商跟踪的[转化](/help/search-social-commerce/glossary.md#c-d)量度(包括从Adobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md)同步的[转化和网站参与量度)在Search、Social和Commerce以及Advertising DSP中使用。
+Adobe Advertising广告商跟踪的[转化](/help/search-social-commerce/glossary.md#c-d)量度(包括从Adobe Analytics[&#128279;](/help/integrations/analytics/analytics-data-in-advertising.md)同步的转化和网站参与量度)在Search、Social和Commerce以及Advertising DSP中使用。
 
 * 在“搜索”、“社交”和“Commerce”中，您可以使用转化指标创建用于优化项目组合的目标。 此外，转化量度的数据可以在营销活动和项目组合管理视图以及报表的列中显示。
 

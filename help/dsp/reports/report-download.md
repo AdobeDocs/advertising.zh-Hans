@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 下载自定义报表
 
-您可以下载过去四个月内任何已完成的报表实例，其状态为[1}“[!UICONTROL Ready to Download]”或“[!UICONTROL Completed]”。](report-about.md#custom-report-status)
+您可以下载过去四个月内任何已完成的报表实例，其状态为[1&rbrace;“[!UICONTROL Ready to Download]”或“[!UICONTROL Completed]”。](report-about.md#custom-report-status)
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**。
 

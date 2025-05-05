@@ -104,7 +104,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Immediately]* （默认）：在通过模板传播数据之后，将批量工作表文件发布到相关广告网络。 批量工作表文件在[!UICONTROL Bulksheets]视图中保持可用30天。
 
-* *[!UICONTROL Preview in Bulksheet Management area only, post later]：**不将批量处理工作表文件发布到相关广告网络，而是将其列在[!UICONTROL Bulksheets]视图中，以便您以后可以从中发布它们。 批量工作表文件在[!UICONTROL Bulksheets]视图中保持可用30天。 当批量处理工作表文件大于10 MB但小于2 GB时，该文件为ZIP格式；您无需解压缩文件即可发布该文件。 **提示：**&#x200B;如果您之前未验证登陆页面，请使用此选项，以便您可以先从[!UICONTROL Bulksheets]视图验证这些登陆页面，然后再将数据发布到广告网络。
+* *[!UICONTROL Preview in Bulksheet Management area only, post later]：**不将批量处理工作表文件发布到相关广告网络，而是将其列在[!UICONTROL Bulksheets]视图中，以便您以后可以从中发布它们。 批量工作表文件在[!UICONTROL Bulksheets]视图中保持可用30天。 当批量处理工作表文件大于10 MB但小于2 GB时，该文件为ZIP格式；您无需解压缩文件即可发布该文件。 &#x200B;** 提示：**&#x200B;如果您之前未验证登陆页面，请使用此选项，以便您可以先从[!UICONTROL Bulksheets]视图验证这些登陆页面，然后再将数据发布到广告网络。
 
 **[!UICONTROL Exclude keywords from posting when keyword length is greater than]：**&#x200B;排除将超过指定字数的关键字短语发布到广告网络。 选择此选项时，会传播超过最大字数的关键字短语并将其列在[!UICONTROL Keywords]选项卡中，但当您尝试发布数据时，不会发布这些短语。
 

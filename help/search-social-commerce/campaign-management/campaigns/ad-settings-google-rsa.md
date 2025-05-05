@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >每个广告组最多可以包含三个启用的响应式搜索广告。
 
-有关每个帐户](https://support.google.com/google-ads/answer/6372658?hl=en)的[广告限制，请参阅[!DNL Google Ads]帮助。
+有关每个帐户[&#128279;](https://support.google.com/google-ads/answer/6372658?hl=en)的广告限制，请参阅[!DNL Google Ads]帮助。
 
 ## [!UICONTROL Responsive Search Ad Details]
 

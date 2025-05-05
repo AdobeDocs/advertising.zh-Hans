@@ -42,7 +42,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 >[!NOTE]
 >
->>* 如果登陆页面URL包含不常见的哈希符号(#)，请将`amo`参数放在哈希符号之前。
+>&#x200B;>* 如果登陆页面URL包含不常见的哈希符号(#)，请将`amo`参数放在哈希符号之前。
 >* 如果未在`amo`参数后面包含其他参数，则在该参数后面添加一个参数（例如，&amp;a=b）。 示例： `https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### 配置广告商级别的登陆页面URL后缀
@@ -83,5 +83,5 @@ data-dcm-param-amo='ef_id=${TM_USER_ID}:${TM_DATETIME}:d&s_kwcid=AC!${TM_AD_ID}!
 >[!MORELIKETHIS]
 >
 >* [概述 [!DNL Analytics for Advertising]](overview.md)
->*  [!DNL Analytics]](/help/integrations/analytics/ids.md)使用的[Adobe AdvertisingID
+>*  [!DNL Analytics][&#128279;](/help/integrations/analytics/ids.md)使用的Adobe AdvertisingID
 >* [将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Flashtalking] 添加标记](macros-flashtalking.md)

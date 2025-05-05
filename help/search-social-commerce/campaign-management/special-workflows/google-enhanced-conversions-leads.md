@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 配置并实施标记以跟踪转化操作。
 
-   有关说明，请参阅[!DNL Google Ads]帮助以使用 [!DNL Google] 标记](https://support.google.com/google-ads/answer/11021502)为潜在客户[创建增强型转化标记，或使用 [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292)为[创建标记。
+   有关说明，请参阅[!DNL Google Ads]帮助以使用 [!DNL Google] 标记[&#128279;](https://support.google.com/google-ads/answer/11021502)为潜在客户[创建增强型转化标记，或使用 [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292)为创建标记。
 
 1. 为[搜索、社交和Commerce](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)或[Google广告](https://support.google.com/google-ads/answer/12216226)中的潜在客户创建增强型转化操作。
 

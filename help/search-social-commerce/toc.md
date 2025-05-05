@@ -20,7 +20,7 @@ ht-degree: 2%
 + 简介{#intro}
    + [关于Adobe Advertising搜索、社交和Commerce](/help/search-social-commerce/introduction/about.md)
    + [支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)
-   + 与Adobe Experience Cloud {#integrations}集成
+   + 与Adobe Experience Cloud集成 {#integrations}
       + [与Adobe Experience Cloud解决方案和服务集成](/help/search-social-commerce/introduction/integrations.md)
       + [Adobe [!DNL Analytics for Advertising] （链接）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
       + [与Adobe Audience Manager集成（链接）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
@@ -45,7 +45,7 @@ ht-degree: 2%
          + [对列重新排序](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md)
          + [按日期范围筛选数据](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md)
          + [使用左侧导航面板过滤数据](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/filter-using-left-panel.md)
-         + 按列值{#filter-column-values}筛选数据
+         + 按列值筛选数据{#filter-column-values}
             + [从列标题菜单应用数据过滤器](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
             + [从工具栏应用数据过滤器](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
             + [编辑列筛选条件](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)
@@ -61,7 +61,7 @@ ht-degree: 2%
       + [使用日历指定日期](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)
       + [显示和隐藏趋势图](/help/search-social-commerce/common-tasks/navigation-editing-selection/trend-chard-show-hide.md)
       + [刷新管理视图中的数据](/help/search-social-commerce/common-tasks/navigation-editing-selection/refresh.md)
-      + 下载管理视图{#download-data-views}中的数据
+      + 下载管理视图中的数据{#download-data-views}
          + [从营销活动管理视图下载数据](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
          + [从[!UICONTROL Downloads]菜单删除性能数据报表或批量处理工作表文件](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 + 跟踪{#tracking}
@@ -69,8 +69,8 @@ ht-degree: 2%
    + 点击跟踪{#click-tracking}
       + [设置基于Cookie的点击跟踪](/help/search-social-commerce/tracking/click-tracking-set-up.md)
       + [何时以及如何生成点击跟踪URL](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
-      + 点击跟踪URL {#click-tracking-components}的组件
-         + 点击跟踪URL {#click-tracking-formats}的标准格式
+      + 点击跟踪URL的组件 {#click-tracking-components}
+         + 点击跟踪URL的标准格式 {#click-tracking-formats}
             + [关于点击跟踪URL格式](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
             + [ [!DNL Baidu]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-baidu.md)
             + [ [!DNL Google Ads]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-google.md)
@@ -92,11 +92,11 @@ ht-degree: 2%
          + [Adobe AdvertisingJavaScript转化映射标记](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
          + [有关转化和页面查看跟踪标记的常见问题解答](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
       + [Adobe Analytics转化跟踪](/help/search-social-commerce/tracking/conversion-tracking-analytics.md)
-      + 使用信息源{#conversion-feeds}的广告商跟踪转化
-         + 使用EF ID {#ef-ids}的信息源
+      + 使用信息源的广告商跟踪转化{#conversion-feeds}
+         + 使用EF ID的信息源 {#ef-ids}
             + [使用EF ID馈送的转化跟踪](/help/search-social-commerce/tracking/feed-efid.md)
             + [使用EF ID的数据馈送的数据要求](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
-         + 使用交易ID {#transaction-ids}的馈送
+         + 使用交易ID的馈送 {#transaction-ids}
             + [使用交易ID馈送进行转化跟踪](/help/search-social-commerce/tracking/feed-transaction-id.md)
             + [使用交易ID的数据馈送的数据要求](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)
          + [转换信息源文件的文件要求](/help/search-social-commerce/tracking/feed-file-requirements.md)
@@ -117,11 +117,11 @@ ht-degree: 2%
    + [实施 [!DNL Naver] 仅跟踪帐户](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
    + 管理营销活动{#management}
       + [用于管理广告网络营销活动的选项](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)
-      + 管理[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图{#campaigns}中的数据
+      + 管理[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图中的数据{#campaigns}
          + [使用复制并粘贴功能批量创建和编辑营销活动数据](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
          + 营销活动{#campaigns}
             + [管理营销活动](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-            + 按广告网络{#campaign-settings-by-network}列出营销活动设置
+            + 按广告网络列出营销活动设置{#campaign-settings-by-network}
                + [[!DNL Baidu]营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
                + [[!DNL Google Ads]营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
                + [[!DNL Microsoft Advertising]营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
@@ -129,7 +129,7 @@ ht-degree: 2%
                + [[!DNL Yandex]营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
          + 广告组{#ad-groups}
             + [管理广告组](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
-            + 按广告网络{#ad-group-settings-by-network}划分的广告组设置
+            + 按广告网络划分的广告组设置{#ad-group-settings-by-network}
                + [[!DNL Baidu]广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
                + [[!DNL Google Ads]广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
                + [[!DNL Microsoft Advertising]广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
@@ -140,7 +140,7 @@ ht-degree: 2%
             + [管理可竞价关键词](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
             + [创建负关键字](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
             + [更改关键字和负关键字的状态](/help/search-social-commerce/campaign-management/campaigns/keyword-status-edit.md)
-            + 广告网络{#keyword-settings-by-network}的关键字设置
+            + 广告网络的关键字设置{#keyword-settings-by-network}
                + [[!DNL Baidu]关键字设置](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-baidu.md)
                + [[!DNL Google Ads]关键字设置](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-google.md)
                + [[!DNL Microsoft Advertising]关键字设置](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-microsoft.md)
@@ -149,7 +149,7 @@ ht-degree: 2%
          + 广告{#ads}
             + [关于广告](/help/search-social-commerce/campaign-management/campaigns/ad-about.md)
             + [管理广告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)
-            + 按广告网络{#ad-settings-by-network}划分的广告设置
+            + 按广告网络划分的广告设置{#ad-settings-by-network}
                + [[!DNL Baidu]文本广告设置](/help/search-social-commerce/campaign-management/campaigns/ad-settings-baidu-text.md)
                + [[!DNL Google Ads]仅限呼叫的广告设置](/help/search-social-commerce/campaign-management/campaigns/ad-settings-google-call.md)
                + [[!DNL Google Ads]扩展的动态搜索广告设置](/help/search-social-commerce/campaign-management/campaigns/ad-settings-google-dsa.md)
@@ -194,7 +194,7 @@ ht-degree: 2%
                + [管理共享的站点链接](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-manage.md)
                + [将共享站点链接与帐户、营销活动和广告组关联](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-associate.md)
             + [删除与活动和广告组的广告扩展关联](/help/search-social-commerce/campaign-management/campaigns/ad-extension-association-delete.md)
-      + 通过批量工作表{#bulksheets}管理批量数据
+      + 通过批量工作表管理批量数据{#bulksheets}
          + [关于使用批量处理工作表管理营销活动数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)
          + [设置用于上传批量工作表的FTP帐户](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-ftp-account.md)
          + [下载/创建批量处理工作表文件](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
@@ -205,7 +205,7 @@ ht-degree: 2%
          + [批量处理工作表错误](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-errors.md)
          + [删除上传的批量工作表和错误文件](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-delete.md)
          + [停止正在进行的批量处理工作表作业](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md)
-         + 批量处理工作表{#bulksheet-data-formats}中的必需/包含数据
+         + 批量处理工作表中的必需/包含数据{#bulksheet-data-formats}
             + [支持的批量处理工作表文件格式](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-file-formats.md)
             + [可在批量处理工作表中执行的操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md)
             + [ [!DNL Baidu] 帐户所需的批量处理工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
@@ -215,7 +215,7 @@ ht-degree: 2%
             + [ [!DNL Yahoo! Display Network] 帐户的批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
             + [ [!DNL Yahoo! Japan] 帐户的批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
             + [ [!DNL Yandex] 帐户所需的批量处理工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
-      + 使用清单信息源{#inventory-feeds}自动化营销活动数据
+      + 使用清单信息源自动化营销活动数据{#inventory-feeds}
          + [关于使用库存信息源自动化广告管理](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
          + [清单信息源何时会创建或删除帐户组件？](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)
          + [配置馈送数据设置](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md)
@@ -227,7 +227,7 @@ ht-degree: 2%
             + [[!DNL Google Ads]购物广告模板设置](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)
             + [[!DNL Microsoft Advertising]购物广告模板设置](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)
          + [通过模板传播馈送数据](/help/search-social-commerce/campaign-management/inventory-feeds/feed-data-propagate.md)
-         + 使用从信息源{#propagated-data}创建的营销活动数据
+         + 使用从信息源创建的营销活动数据{#propagated-data}
             + [查看从馈送生成的数据](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-view.md)
             + [编辑从馈送生成的数据](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-edit.md)
             + [从馈送生成的将营销活动数据发布到广告网络](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-post.md)
@@ -380,7 +380,7 @@ ht-degree: 2%
       + [将发布者推荐与项目组合结合使用的最佳实践](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + 工具{#tools}
    + [更改密码](/help/search-social-commerce/tools/password-change.md)
-   + 用于创建和解码跟踪标记{#tracking}的工具
+   + 用于创建和解码跟踪标记的工具{#tracking}
       + [关于创建和解码跟踪标记的工具](/help/search-social-commerce/tools/tracking-tools-about.md)
       + [生成点击跟踪URL](/help/search-social-commerce/tools/click-tracking-url-generate.md)
       + [解码点击跟踪URL](/help/search-social-commerce/tools/click-tracking-url-decode.md)
@@ -388,7 +388,7 @@ ht-degree: 2%
    + 正在将转化数据上传到广告网络{#upload-ad-networks}
       + [将搜索、社交和Commerce跟踪的转化指标上传至 [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
       + [允许将目标上传到广告网络](/help/search-social-commerce/tools/objective-upload-to-networks.md)
-   + 正在上传[!DNL Naver]个仅跟踪帐户{#generic-tracking}的量度
+   + 正在上传[!DNL Naver]个仅跟踪帐户的量度{#generic-tracking}
       + [上载 [!DNL Naver] 仅跟踪帐户的流量和转化指标](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
       + [ [!DNL Naver] 仅跟踪帐户的量度数据要求](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
    + [启用其他库存同步](/help/search-social-commerce/tools/sync-inventory.md)

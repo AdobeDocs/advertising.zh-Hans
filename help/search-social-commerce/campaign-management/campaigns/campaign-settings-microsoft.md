@@ -166,7 +166,7 @@ ht-degree: 0%
 
 **[!UICONTROL Negative Websites]：** （仅显示/本地网络上的营销活动；可选）显示网络上不希望显示广告的站点。 请输入有效的URL，如www.example.com。 要指定多个字符串，请用逗号分隔它们，或者在单独的行中输入它们。
 
-有关可用性的信息，请参阅Microsoft Advertising帮助“防止广告出现在特定网站](https://help.ads.microsoft.com/#apex/bae/en/14061/0)”。[
+有关可用性的信息，请参阅Microsoft Advertising帮助“防止广告出现在特定网站[&#128279;](https://help.ads.microsoft.com/#apex/bae/en/14061/0)”。
 
 ## [!UICONTROL Campaign Tracking]
 

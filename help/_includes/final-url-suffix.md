@@ -13,7 +13,7 @@ ht-degree: 0%
 
 在使用Adobe Advertising转化跟踪的帐户中，后缀必须包含广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`；[!DNL Google Ads]为`gclid`）。
 
-具有Adobe Analytics集成的帐户必须使用[AMO ID](/help/integrations/analytics/ids.md)参数。 如果该帐户具有服务器端AMO ID实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 查看 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必需后缀格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的[必需后缀格式。
+具有Adobe Analytics集成的帐户必须使用[AMO ID](/help/integrations/analytics/ids.md)参数。 如果该帐户具有服务器端AMO ID实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 查看 [!DNL Google Ads][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必需后缀格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的必需后缀格式。
 
 >[!NOTE]
 >

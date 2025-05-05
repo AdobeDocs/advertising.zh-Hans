@@ -24,8 +24,8 @@ ht-degree: 0%
 >
 >* 归因规则适用于任何渠道中的付费广告点击次数，以及展示广告和社交广告的展示次数。 它们不适用于付费搜索广告的展示次数，此类展示次数无法在事件级别进行跟踪。
 >* Adobe Advertising始终在转化前为每个Web浏览者存储以下事件： a)第一次付费点击； b)每个渠道最多10次点击（搜索、社交或显示），包括第一次点击；以及c)最多10次显示展示。<!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
-* 在Advertising DSP和Advertising Creative中，跨设备定义仅考虑所选归因规则中的事件路径。<!-- cross-device attribution via LiveRamp only -->
-* 在报表和管理视图中，为某个值显示的小数位数取决于货币，但Adobe Advertising会存储更精确的值。
+>* 在Advertising DSP和Advertising Creative中，跨设备定义仅考虑所选归因规则中的事件路径。<!-- cross-device attribution via LiveRamp only -->
+>* 在报表和管理视图中，为某个值显示的小数位数取决于货币，但Adobe Advertising会存储更精确的值。
 
 ## 上一个事件（默认）
 

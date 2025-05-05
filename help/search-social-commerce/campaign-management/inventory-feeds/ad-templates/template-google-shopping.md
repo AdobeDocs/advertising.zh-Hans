@@ -68,7 +68,7 @@ ht-degree: 0%
 
 **[!UICONTROL Merchant ID]：**&#x200B;其产品用于营销活动的商家帐户的客户ID。
 
-**[!UICONTROL Sales Country]：**促销活动产品的销售国家/地区。 因为产品已关联
+**[!UICONTROL Sales Country]：**&#x200B;促销活动产品的销售国家/地区。 因为产品已关联
 对于目标国家/地区，此设置确定在营销活动中广告的产品。
 
 <!-- **[!UICONTROL Stock Level]:** -->
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 **[!UICONTROL Networks]：**&#x200B;要投放广告的网络。 已选择&#x200B;*[!UICONTROL Search]*。 要包括[!DNL Google Ads]搜索合作伙伴的列表竞价，请选中&#x200B;**[!UICONTROL Search partners]**&#x200B;旁边的复选框。
 
-**[!UICONTROL Campaign Priority]：**多个营销活动广告
+**[!UICONTROL Campaign Priority]：**&#x200B;多个营销活动广告
 相同的产品： *[!UICONTROL Low]* （新营销活动的默认值）、*[!UICONTROL Medium]*&#x200B;或&#x200B;*[!UICONTROL High]*。 当同一产品包含在多个促销活动中时，广告网络会使用
 首先确定哪个营销活动（及相关竞价）符合广告竞价条件的营销活动优先级。 如果所有促销活动具有相同的优先级，则具有最高竞价的促销活动符合条件。
 

@@ -32,7 +32,7 @@ ht-degree: 0%
 
 要将电子邮件地址转换为[!DNL RampIDs]或[!DNL ID5] ID，您必须执行以下操作：
 
-1. （如果尚未这样做）完成实施 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)的所有[先决条件，并确保在您的跟踪URL中填充[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
+1. （如果尚未这样做）完成实施 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)的所有先决条件，并确保在您的跟踪URL中填充[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
 
 1. 向通用ID合作伙伴注册，并在您的网页上部署特定于通用ID的代码，以便匹配从桌面和移动Web浏览器（但不包括移动应用程序）上的ID到显示到达次数的转换：
 

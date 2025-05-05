@@ -54,7 +54,7 @@ You can create one source for each combination of universal ID partner and data 
 
 >[!NOTE]
 >
->为客户数据平台创建源后，必须完成其他步骤以导入受众。 查看 [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)的[工作流、<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->的 [!DNL Amperity]](source-amperity.md)的[工作流、 [!DNL Optimizely]](source-optimizely.md)的[工作流和 [!DNL Tealium]](source-tealium.md)的[工作流。
+>为客户数据平台创建源后，必须完成其他步骤以导入受众。 查看 [!DNL Adobe] [!DNL Real-time CDP][&#128279;](source-adobe-rtcdp.md)的工作流、<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->的 [!DNL Amperity][&#128279;](source-amperity.md)的[工作流、 [!DNL Optimizely]](source-optimizely.md)的[工作流和 [!DNL Tealium]](source-tealium.md)的工作流。
 
 ## 更改Audience Source的ID类型
 
@@ -71,7 +71,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. 将光标悬停在源行上并单击&#x200B;**[!UICONTROL Edit]**。
 
-1. 更改为源](#source-settings)选择的[ID。
+1. 更改为源[&#128279;](#source-settings)选择的ID。
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
@@ -121,7 +121,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 * *[!DNL RampID]：*&#x200B;要将PII转换为[!DNL RampID]。 您可以使用[!DNL RampIDs]重新定位登录用户和[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)测量。
 
-* *[!DNL Unified ID2.0](Beta)：*&#x200B;要将PII转换为[统一ID 2.0](https://unifiedid.com) ID以重新定位登录用户。
+* *[!DNL Unified ID2.0] (Beta)：*&#x200B;要将PII转换为[统一ID 2.0](https://unifiedid.com) ID以重新定位登录用户。
 
 <!-- Later
 * *[!DNL ID5] (Beta):* To convert PII to an [!DNL ID5] ID. You can use [!DNL ID5] IDs for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.

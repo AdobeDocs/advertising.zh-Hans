@@ -74,7 +74,7 @@ ht-degree: 0%
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     如果帐户具有服务器端AMO ID实施并且启用了帐户或营销活动设置“[!UICONTROL Auto Upload]”，则会自动添加参数。 否则，您需要手动添加它。 查看 [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)使用的[Adobe Advertising ID。
+     如果帐户具有服务器端AMO ID实施并且启用了帐户或营销活动设置“[!UICONTROL Auto Upload]”，则会自动添加参数。 否则，您需要手动添加它。 查看 [!DNL Analytics][&#128279;](/help/integrations/analytics/ids.md#amo-id-implement)使用的Adobe Advertising ID。
 
    * 所有其他[!DNL Google Ads]帐户：
 

@@ -26,9 +26,9 @@ ht-degree: 0%
 
 * 要在Adobe Analytics中进行测量，您必须：
 
-   1. 完成实施 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)的所有[先决条件，并确保在您的跟踪URL中填充[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
+   1. 完成实施 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)的所有先决条件，并确保在您的跟踪URL中填充[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
 
-   1. 在初始化最后一个事件服务之前的任何位置，将以下参数添加到网页，或添加到 [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)所需的[JavaScript代码内。
+   1. 在初始化最后一个事件服务之前的任何位置，将以下参数添加到网页，或添加到 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/javascript.md)所需的JavaScript代码内。
 
       ```window.id5PartnerId=ID5_PartnerID;```
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
          1. 复制标记为“[!UICONTROL Desktop or mobile ads]”的展示跟踪标记。
 
-         1. 将标记添加到每个相关广告的[!UICONTROL Pixel]选项卡或每个相关投放位置](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking)的[[!UICONTROL Tracking]设置的[!UICONTROL Event Pixels]部分。
+         1. 将标记添加到每个相关广告的[!UICONTROL Pixel]选项卡或每个相关投放位置[&#128279;](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking)的[!UICONTROL Tracking]设置的[!UICONTROL Event Pixels]部分。
 
 实施跟踪标记后，您可以在受众目标或排除项中将该区段用于任何投放位置。
 

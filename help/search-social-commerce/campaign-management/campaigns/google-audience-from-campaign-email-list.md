@@ -64,7 +64,7 @@ ht-degree: 0%
 
            区段名称不得已存在。 区段名称区分大小写，且必须包含ASCII字符，但不能包含下划线(`_`)。
 
-           但是，如果要将区段添加到特定的[!DNL Google Ad]帐户，请为区段名称附加下划线和[!UICONTROL User SE Account ID]([!DNL Google Ads]帐户的搜索、社交和Commerce的ID，而不是网络的帐户ID)：
+           但是，如果要将区段添加到特定的[!DNL Google Ad]帐户，请为区段名称附加下划线和[!UICONTROL User SE Account ID] ([!DNL Google Ads]帐户的搜索、社交和Commerce的ID，而不是网络的帐户ID)：
 
            `_<User SE Account ID>`
 

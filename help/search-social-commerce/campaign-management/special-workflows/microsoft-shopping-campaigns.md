@@ -38,7 +38,7 @@ ht-degree: 0%
 
    1. （可选） [创建子产品组](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)。
 
-   1. 创建包含[促销行的[产品广告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)以可能包含在广告组中的每个购物广告](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)中。
+   1. 创建包含[&#128279;](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)促销行的[产品广告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)以可能包含在广告组中的每个购物广告中。
 
       Microsoft Advertising会为每个广告动态生成广告副本和登陆页面URL。
 

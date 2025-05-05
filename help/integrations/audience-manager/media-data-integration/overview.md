@@ -32,7 +32,7 @@ DSP不会向您收取向Audience Manager发送这些信号的费用。 但是，
 
 * 您可以将促销活动数据用于各种用例，例如跨创意内容设置频率上限、重新定位曾接触过先前促销活动的用户，以及分析下游网站行为和入口点。
 
-* 聚合数据提供了促销活动性能的统一视图，有助于识别自定义转化路径，并可用于改进通过Audience Manager[!DNL Audience Optimization Reports]或通过与Adobe Analytics](/help/integrations/audience-manager/audience-analytics.md)的[[!DNL Audience Analytics] 集成导致转化的事件序列。
+* 聚合数据提供了促销活动性能的统一视图，有助于识别自定义转化路径，并可用于改进通过Audience Manager[!DNL Audience Optimization Reports]或通过与Adobe Analytics[&#128279;](/help/integrations/audience-manager/audience-analytics.md)的[!DNL Audience Analytics] 集成导致转化的事件序列。
 
 ## 如何跟踪数据
 

@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请在`<advertiser_ID>`之后将`cq?`替换为`c?`。
 >
-* `<the landing page>`是一个变量，它表示最终用户被定向到的网站上的URL。
+>* `<the landing page>`是一个变量，它表示最终用户被定向到的网站上的URL。
 
 >[!MORELIKETHIS]
 >

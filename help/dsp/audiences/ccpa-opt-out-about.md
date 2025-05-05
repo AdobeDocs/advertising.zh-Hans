@@ -22,7 +22,7 @@ Adobe Advertising会每月生成客户为帐户的选择退出销售请求提交
 
 每个报表都以制表符分隔的文本文件形式提供，并压缩为GZIP格式。 在CCPA选择退出销售区段中捕获的用户ID由区段和广告商标识。
 
-您可以在DSP中或使用DSP [!DNL Trafficking API]检索指向前三个月创建的月度报告](ccpa-opt-out-segment-report-retrieve.md)的链接。 [每个链接的有效期为七天，但每当客户尝试检索一个链接时，都会刷新。
+您可以在DSP中或使用DSP [!DNL Trafficking API]检索指向前三个月创建的月度报告[&#128279;](ccpa-opt-out-segment-report-retrieve.md)的链接。 每个链接的有效期为七天，但每当客户尝试检索一个链接时，都会刷新。
 
 >[!MORELIKETHIS]
 >

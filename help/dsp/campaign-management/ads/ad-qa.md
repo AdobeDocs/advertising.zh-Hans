@@ -16,7 +16,7 @@ ht-degree: 0%
 
 您可以以XLSX（Excel电子表格）格式下载促销活动中所有广告的详细信息以供审阅。 *批量工作表*&#x200B;详细信息包括一个选项卡，其中包含每个广告的设置和关联投放位置，以及另一个选项卡，其中包含营销活动中用于广告的每个像素。
 
-要编辑广告详细信息，请参阅“使用批量处理工作表查看和编辑Campaign组件设置](/help/dsp/campaign-management/campaign-components-review-edit.md)”。[
+要编辑广告详细信息，请参阅“使用批量处理工作表查看和编辑Campaign组件设置[&#128279;](/help/dsp/campaign-management/campaign-components-review-edit.md)”。
 
 >[!NOTE]
 >

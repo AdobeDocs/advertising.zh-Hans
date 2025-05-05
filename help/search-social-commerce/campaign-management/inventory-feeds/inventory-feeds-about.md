@@ -31,7 +31,7 @@ ht-degree: 0%
 生成广告后，您可以选择查看这些广告，然后将它们发布到广告网络。
 
 >[!NOTE]
->要使用电子表格文件批量创建或编辑促销活动数据，请参阅“关于使用批量工作表管理促销活动数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)”。[
+>要使用电子表格文件批量创建或编辑促销活动数据，请参阅“关于使用批量工作表管理促销活动数据[&#128279;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)”。
 
 ## 使用库存信息源管理营销活动数据的工作流
 

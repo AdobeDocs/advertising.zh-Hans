@@ -21,4 +21,4 @@ Adobe Advertising使用AMO ID附加参数（也称为`s_kwcid`参数，由广告
 >[!MORELIKETHIS]
 >
 >* [概述 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md){target="_blank"}
->*  [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id){target="_blank"}使用的[Adobe AdvertisingID
+>*  [!DNL Analytics][&#128279;](/help/integrations/analytics/ids.md#amo-id){target="_blank"}使用的Adobe AdvertisingID

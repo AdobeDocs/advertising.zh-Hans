@@ -263,7 +263,7 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 ### 对非Adobe AdvertisingDimension使用Adobe Advertising流量指标
 
-Adobe Advertising为Analytics提供了来自 [!DNL DSP] 和 [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md)的[广告特定流量量度和相关维度。 Adobe Advertising提供的度量仅适用于指定的Adobe Advertising维度，并且数据对于[!DNL Analytics]中的其他维度不可用。
+Adobe Advertising为Analytics提供了来自 [!DNL DSP] 和 [!DNL Search, Social, & Commerce][&#128279;](advertising-metrics-in-analytics.md)的广告特定流量量度和相关维度。 Adobe Advertising提供的度量仅适用于指定的Adobe Advertising维度，并且数据对于[!DNL Analytics]中的其他维度不可用。
 
 例如，如果您按帐户查看[!UICONTROL Adobe Advertising Clicks]和[!UICONTROL Adobe Advertising Cost]指标(一个Adobe Advertising维度)，则按帐户显示总计[!UICONTROL Adobe Advertising Clicks]和[!UICONTROL Adobe Advertising Cost]。
 
@@ -277,12 +277,12 @@ Adobe Advertising为Analytics提供了来自 [!DNL DSP] 和 [!DNL Search, Social
 
 由于您无法将[!UICONTROL AMO Clicks]与网站上的维度一起使用，因此您可能希望找到等同于点击量的维度。 您可能倾向于使用访问次数作为替代，但这并不是最佳选择，因为每个访客可能具有多次访问。 (请参阅&quot;[点击次数与访问次数的差异](#clicks-vs-visits)&quot;。 我们建议改用[!UICONTROL AMO ID Instances]，这是捕获AMO ID的次数。 虽然[!UICONTROL AMO ID Instances]与[!UICONTROL AMO Clicks]不完全匹配，但它们是测量网站点击流量的最佳选项。 有关详细信息，请参阅“[针对 [!DNL Analytics for Advertising]](#data-validation)的点进数据验证”。
 
-对于不支持的维度](/help/integrations/assets/a4adc-amo-id-instances.png)，为![示例[!UICONTROL AMO ID Instances]而不是[!UICONTROL Adobe Advertising Clicks]
+对于不支持的维度![&#128279;](/help/integrations/assets/a4adc-amo-id-instances.png)，为示例[!UICONTROL AMO ID Instances]而不是[!UICONTROL Adobe Advertising Clicks]
 
 >[!MORELIKETHIS]
 >
 >* [概述 [!DNL Analytics for Advertising]](overview.md)
->*  [!DNL Analytics]](/help/integrations/analytics/ids.md)使用的[Adobe AdvertisingID
+>*  [!DNL Analytics][&#128279;](/help/integrations/analytics/ids.md)使用的Adobe AdvertisingID
 >* 在Analysis Workspace中[Adobe Advertising指标](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 >* [[!DNL Analytics] Adobe Advertising中的数据](/help/integrations/analytics/analytics-data-in-advertising.md)
 >* [为什么数据在Adobe Advertising和 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)之间可能不同

@@ -57,7 +57,7 @@ ht-degree: 0%
 
       >[!WARNING]
       >
-      >[!DNL Google Analytics]在单个数据馈送中最多允许10个量度。 Search、Social和Commerce最多可支持两个包含20个量度的馈送，但使用第二个馈送会将您的API调用翻倍到[!DNL Google Analytics]。 如果您有许多量度，请仅选择要在优化目标中使用的量度。 查看有关 [!DNL Google Analytics]](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas)的API请求的[配额和调用限制的详细信息。
+      >[!DNL Google Analytics]在单个数据馈送中最多允许10个量度。 Search、Social和Commerce最多可支持两个包含20个量度的馈送，但使用第二个馈送会将您的API调用翻倍到[!DNL Google Analytics]。 如果您有许多量度，请仅选择要在优化目标中使用的量度。 查看有关 [!DNL Google Analytics][&#128279;](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas)的API请求的配额和调用限制的详细信息。
 
    1. 在[!UICONTROL Metric Tag]部分中，输入要附加到数据源的每个量度的标记名称。
 

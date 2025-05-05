@@ -21,7 +21,7 @@ ht-degree: 0%
 
 * 提供与广告相关的更个性化的登陆页面体验（例如，将图像/视频创意、文案、关键字或其他广告信号匹配到登陆页面）。
 
-您还可以合并已集成到Adobe Analytics中的Advertising](/help/integrations/analytics/overview.md)的本机[[!DNL Analytics] 和 [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)的[[!DNL Analytics] 集成报表维度，以便通过[!DNL Analytics]指标和成功事件测量和可视化您的测试数据。
+您还可以合并已集成到Adobe Analytics中的Advertising[&#128279;](/help/integrations/analytics/overview.md)的本机[[!DNL Analytics] 和 [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)的[!DNL Analytics] 集成报表维度，以便通过[!DNL Analytics]指标和成功事件测量和可视化您的测试数据。
 
 请参阅以下部分以了解先决条件、在[!DNL Target]中为来自Search、Social和Commerce中的广告的点进流量设置A/B测试的说明，以及有关如何在[!DNL Analytics]中测量和可视化测试的提示。
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
       您可以通过[将相关ID列添加到实体视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)来查找该ID。
 
-      [!UICONTROL Accounts]视图")的[!UICONTROL Accounts]视图](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID]列中的![[!UICONTROL Network Account ID]列
+      [!UICONTROL Accounts]视图")的[!UICONTROL Accounts]视图&rbrack;(/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID]列中的!&lbrack;[!UICONTROL Network Account ID]列
 
       如果您需要帮助，请与您的Adobe客户团队合作。
 

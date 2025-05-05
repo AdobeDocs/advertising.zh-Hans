@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. （可选）筛选视图以包含具有特定名称、要评估的数据范围或其他标准的行。
 
-   您可以从工具栏](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)应用数据筛选器[或从列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)应用[。
+   您可以从工具栏[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)应用数据筛选器[或从列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)应用。
 
 1. 单击模板名称旁边的![编辑](/help/search-social-commerce/assets/edit.png "编辑")。
 

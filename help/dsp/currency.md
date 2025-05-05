@@ -49,5 +49,5 @@ Adobe Advertising支持以下货币。
 
 ## [!DNL Adobe Advertising Search, Social, & Commerce]
 
-受支持的搜索引擎支持的所有货币。 这与 [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes)支持的[相同。
+受支持的搜索引擎支持的所有货币。 这与 [!DNL Google Ads][&#128279;](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes)支持的相同。
 

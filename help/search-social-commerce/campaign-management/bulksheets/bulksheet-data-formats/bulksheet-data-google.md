@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 附录 — [!DNL Google Ads]帐户必需的批量处理工作表数据
 
-要批量创建和更新[!DNL Google Ads]营销活动数据，您可以使用专门为[!DNL Google Ads]帐户设置格式的Search、Social和Commerce批量工作表文件。 您可以a)[为现有帐户](../bulksheet-download.md)生成所需文件格式的批量工作表文件，或b)手动创建这些文件（有关支持的文件格式的一般信息，请参阅[支持的批量工作表文件格式](bulksheet-file-formats.md)）。
+要批量创建和更新[!DNL Google Ads]营销活动数据，您可以使用专门为[!DNL Google Ads]帐户设置格式的Search、Social和Commerce批量工作表文件。 您可以a) [为现有帐户](../bulksheet-download.md)生成所需文件格式的批量工作表文件，或b)手动创建这些文件（有关支持的文件格式的一般信息，请参阅[支持的批量工作表文件格式](bulksheet-file-formats.md)）。
 
 每个批量工作表必须包含要执行[特定操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md)（如创建广告）所需的标题字段和相应的数据字段。 当字段不是必填字段时，您可以从标题行和数据行中忽略该字段。 上传批量工作表文件时将删除所有自定义列。
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 | [!UICONTROL Start Date] | <p>（仅限增强型站点链接）对站点链接发出竞价的第一天，在广告商所在的时区内，以下列格式之一表示： <i>m/d/yyyy</i>、<i>m/d/yy</i>、<i>m-d-yyyy</i>或<i>m-d-yy</i>。 新的增强型站点链接的默认值为当天。</p><p><b>注意：</b>只能在具有现有增强型站点链接或没有站点链接的营销活动中创建新的增强型站点链接。</p> |
 | [!UICONTROL End Date] | <p>（仅限增强型站点链接）对站点链接发出投标的最后日期，以广告商的时区为单位并采用以下格式之一：  <i>m/d/yyyy</i>、<i>m/d/yy</i>、<i>m-d-yyyy</i>或<i>m-d-yy</i>。 默认为“无”（无结束日期）。</p><p><b>注意：</b>只能在具有现有增强型站点链接或没有站点链接的营销活动中创建新的增强型站点链接。</p> |
 | [!UICONTROL Exclude Tablet (Google Adwords)] | （仅限现有应用程序安装广告）</p><p>（可选）阻止[!DNL Google Ads]向平板电脑用户显示广告。 值可以包括<i>是</i>和<i>否</i>。 |
-| [!UICONTROL Landing Page Suffix] | 附加到最终URL末尾以跟踪信息的任何参数。 示例：`param2=value1&param3=value2`<br><br>请参见 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[点击跟踪格式。<br><br>较低级别的最终URL后缀将覆盖帐户级别的后缀。 为便于维护，除非需要对各个帐户组件进行不同的跟踪，否则请仅使用帐户级别的后缀。 要在广告组级别或更低级别配置后缀，请使用[!DNL Google Ads]编辑器。 |
+| [!UICONTROL Landing Page Suffix] | 附加到最终URL末尾以跟踪信息的任何参数。 示例：`param2=value1&param3=value2`<br><br>请参见 [!DNL Google Ads][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的点击跟踪格式。<br><br>较低级别的最终URL后缀将覆盖帐户级别的后缀。 为便于维护，除非需要对各个帐户组件进行不同的跟踪，否则请仅使用帐户级别的后缀。 要在广告组级别或更低级别配置后缀，请使用[!DNL Google Ads]编辑器。 |
 | [!UICONTROL Tracking Template] | 跟踪模板，指定所有登陆域重定向和跟踪参数，并将最终URL嵌入到[!DNL ValueTrack]参数中。 最粒度级别的跟踪模板（使用关键字作为最粒度级别）将覆盖所有更高级别的值。<br><br>对于Adobe Advertising转化跟踪（在营销活动设置包括“[!UICONTROL EF Redirect]”和“[!UICONTROL Auto Upload]”时应用），Search、Social和Commerce会在您保存记录时自动附加其自身的重定向和跟踪代码。<br><br>对于第三方重定向和跟踪，请输入一个值。 有关在跟踪模板中指示最终URL的[!DNL ValueTrack]参数列表，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/2375447)中“可用[!DNL ValueTrack]参数”一节中的“仅跟踪模板”参数。<br><br>要删除现有值，请使用值`[delete]`（包括括号）。 |
 | [!UICONTROL Base URL/Final URL] | 搜索引擎用户在单击您的广告时进入的登陆页面URL，包括为促销活动或帐户配置的任何附加参数。 关键字级别的基本/最终URL将覆盖广告级别和更高级别的URL。<br><br>要删除现有值，请使用值`[delete]`（包括括号）。 |
 | [!UICONTROL Destination URL] | （出于提供信息的目的包含在生成的批量工作表中；未发布到搜索引擎）对于具有目标URL的帐户，此URL可将广告链接到广告商网站上的基本URL/登陆页面（有时通过另一个跟踪点击的网站，然后将用户重定向到登陆页面）。 它包括为Search、Social和Commerce营销活动或帐户配置的任何附加参数。 如果您生成了跟踪URL，则跟踪URL将基于帐户设置和促销活动设置中的跟踪参数。 如果附加了特定于搜索引擎的参数，则可能会将其替换为与搜索、社交和Commerce等效的参数。<br><br>对于具有最终URL的帐户，此列显示的值与基本URL/最终URL列显示的值相同。 |
@@ -469,5 +469,5 @@ ht-degree: 0%
 >* [可在批量处理工作表中执行的操作](bulksheet-operations.md)
 >* [支持的批量处理工作表文件格式](bulksheet-file-formats.md)
 >* [下载/创建批量处理工作表文件](../bulksheet-download.md)
->*  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的[点击跟踪格式
+>*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的点击跟踪格式
 >* [上载批量工作表文件或更正的错误文件](../bulksheet-upload.md)

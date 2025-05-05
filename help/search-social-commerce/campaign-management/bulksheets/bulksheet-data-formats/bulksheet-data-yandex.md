@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 附录 — [!DNL Yandex]帐户必需的批量处理工作表数据
 
-要批量创建和更新[!DNL Yandex]营销活动数据，您可以使用专门为[!DNL Yandex]帐户设置格式的Search、Social和Commerce批量工作表文件。 您可以a)[为现有帐户](../bulksheet-download.md)生成所需文件格式的批量工作表文件，或b)手动创建这些文件（有关支持的文件格式的一般信息，请参阅[支持的批量工作表文件格式](bulksheet-file-formats.md)）。
+要批量创建和更新[!DNL Yandex]营销活动数据，您可以使用专门为[!DNL Yandex]帐户设置格式的Search、Social和Commerce批量工作表文件。 您可以a) [为现有帐户](../bulksheet-download.md)生成所需文件格式的批量工作表文件，或b)手动创建这些文件（有关支持的文件格式的一般信息，请参阅[支持的批量工作表文件格式](bulksheet-file-formats.md)）。
 
 {{$include /help/_includes/bulksheet-appendices-intro.md}}
 
@@ -62,7 +62,7 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 | [!UICONTROL Ad Group Status] | 不适用 | 可选：创建或编辑<br>必需：删除 | 不适用 | 不适用 | 不适用 | 广告组的显示状态： <i>[!UICONTROL active]</i>、<i>[!UICONTROL archived]</i>、<i>[!UICONTROL deleted]</i>、<i>[!UICONTROL disapproved]</i>、<i>[!UICONTROL pending]</i>或<i>[!UICONTROL stop]</i> （已暂停）。 新广告组的默认值为<i>[!UICONTROL active]</i>。<br><br><b>注释：</b><ul></li>如果广告组曾经处于活动状态，则无法将其删除。 相反，请将其存档。</li><li>您不能手动将状态设置为<i>[!UICONTROL disapproved]</i>或<i>[!UICONTROL pending]</i>，也不能更改这些状态。</li></ul> |
 | [!UICONTROL Ad Status] | 不适用 | 不适用 | 不适用 | 可选：创建或编辑<br>必需：删除 | 不适用 | 横幅（广告）的显示状态： <i>[!UICONTROL active]</i>、<i>[!UICONTROL archived]</i>、<i>[!UICONTROL deleted]</i>、<i>[!UICONTROL disapproved]</i>、<i>[!UICONTROL pending]</i>或<i>[!UICONTROL stop]</i> （已暂停）。 新横幅的默认值为<i>[!UICONTROL active]</i>。<br><br><b>注意：您不能手动将状态设置为<i>[!UICONTROL disapproved]</i>或<i>[!UICONTROL pending]</i>，也不能更改这些状态。 |
 | [!UICONTROL Keyword Status] | 不适用 | 不适用 | 可选：创建或编辑<br>必需：删除 | 不适用 | 不适用 | 短语（关键字）的显示状态： <i>[!UICONTROL active]</i>。 新短语的默认值为<i>[!UICONTROL active]</i>。<br><br><b>注意：您不能手动将状态设置为<i>[!UICONTROL disapproved]</i>或<i>[!UICONTROL pending]</i>，也不能更改这些状态。 |
-| [!UICONTROL SiteLink Status] | 不适用 | 不适用 | 不适用 | 不适用 | 可选：创建或编辑<br>必需：删除 | Sitelink的显示状态： <i>[*UICONTROL Active]</i>或<i>[*UICONTROL已暂停]</i>。 新站点链接的默认值为<i>[*UICONTROL Active]</i>。 |
+| [!UICONTROL SiteLink Status] | 不适用 | 不适用 | 不适用 | 不适用 | 可选：创建或编辑<br>必需：删除 | Sitelink的显示状态： <i>[!UICONTROL * Active]</i>或<i>[!UICONTROL *已暂停]</i>。 新站点链接的默认值为<i>[!UICONTROL * Active]</i>。 |
 | [!UICONTROL Campaign ID] | 不适用：创建<br>必需/可选：编辑<br>可选：删除 | 可选 | 可选 | 可选 | 可选 | 标识现有营销活动的唯一ID。 在CSV和TSV文件中，它的前面必须带有单引号(&#39;)。[^1]仅在您更改促销活动名称时需要，除非行包含促销活动的AMO ID。 |
 | [!UICONTROL Ad Group ID] | 不适用 | 不适用：创建<br>必需/可选：编辑<br>可选：删除 | 可选 | 可选 | 不适用 | 标识现有广告组的唯一ID。 在CSV和TSV文件中，它的前面必须带有单引号(&#39;)。[^1]仅在您更改广告组名称时需要，除非行包含广告组的AMO ID。 |
 | [!UICONTROL Ad ID] | 不适用 | 不适用 | 不适用 | 不适用：创建<br>必需/可选：编辑或删除 | 不适用 | 标识现有关键字的唯一ID。 在CSV和TSV文件中，它的前面必须带有单引号(&#39;)。[^1]仅当更改关键字名称时才需要，除非该行包含a)足够的属性列来标识关键字或b) AMO ID。 |
@@ -80,5 +80,5 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 >* [可在批量处理工作表中执行的操作](bulksheet-operations.md)
 >* [支持的批量处理工作表文件格式](bulksheet-file-formats.md)
 >* [下载/创建批量处理工作表文件](../bulksheet-download.md)
->*  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的[点击跟踪格式
+>*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的点击跟踪格式
 >* [上载批量工作表文件或更正的错误文件](../bulksheet-upload.md)

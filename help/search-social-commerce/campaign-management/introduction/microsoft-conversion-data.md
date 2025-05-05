@@ -40,7 +40,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 如果多个帐户具有相同的转化名称，则在Adobe Advertising中可能会看到重复的转化名称。 如果发生这种情况，请在[!UICONTROL Admin] > [!UICONTROL Conversions]中更改其中一个重复量度的显示名称](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)。 [当两个不同的量度具有相同的名称时，报表不准确。
+>* 如果多个帐户具有相同的转化名称，则在Adobe Advertising中可能会看到重复的转化名称。 如果发生这种情况，请在[!UICONTROL Admin] > [!UICONTROL Conversions]中更改其中一个重复量度的显示名称[&#128279;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)。 当两个不同的量度具有相同的名称时，报表不准确。
 >* 竞价单元级别的数据与同一级别广告网络中的数据匹配。 但是，广告网络自己的更高级别的转化数据可能包括未归因到子竞价单位的附加转化。 搜索、社交和Commerce中的数据始终从竞价单位级别汇总，因此，例如，促销活动级别的报表可能与广告网络中的促销活动级别报表具有不同的总计。
 >* 通常，在早上同步之后，数据差异小于当天晚些时候，此时尚未同步其他转化。 我们建议在早上验证数据。
 >* 在受众或地理位置级别没有可用数据，因此不用于自动优化RLSA和位置竞价调整。

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Planner]**。
 
-1. 
+1. &#x200B;
    1. 将光标悬停在计划行上并单击&#x200B;**[!UICONTROL More]** > **[!UICONTROL Duplicate]**。
 
 1. （可选）编辑计划名称和[计划设置](planner-settings.md)。
@@ -25,7 +25,7 @@ ht-degree: 0%
 
    保存计划后，将显示预测输出。
 
-1. （可选）要将[!UICONTROL Budget vs Reach]预测导出到[!DNL Microsoft Excel]电子表格**，请单击右上角的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Export]**。
+1. （可选）要将[!UICONTROL Budget vs Reach]预测导出到[!DNL Microsoft Excel]电子表格&#x200B;**，请单击右上角的&#x200B;**&#x200B;[!UICONTROL ...]&#x200B;**，然后单击&#x200B;**&#x200B;[!UICONTROL Export]**。
 
 >[!MORELIKETHIS]
 >

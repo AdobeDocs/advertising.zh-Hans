@@ -24,7 +24,7 @@ Advertising DSP提供了一套品牌保护功能，以确保您的每个营销�
 
 ### 支持[!DNL Ads.txt]的清单验证
 
-表示 [!DNL Authorized Digital Sellers]](https://iabtechlab.com/ads-txt)的[[!DNL Ads.txt]是[!DNL Interactive Advertising Bureau] ([!DNL IAB])在2017年6月发起的一项计划，旨在促进在公开市场上正确呈现库存，从而打击非法流量来源和域欺骗。 参与的出版商和发行商通过将`ads.txt`页面保留在域的顶层（例如`example.com/ads.txt`），公开声明有权销售其数字库存的公司，以及这些关系的性质。
+表示 [!DNL Authorized Digital Sellers][&#128279;](https://iabtechlab.com/ads-txt)的[!DNL Ads.txt]是[!DNL Interactive Advertising Bureau] ([!DNL IAB])在2017年6月发起的一项计划，旨在促进在公开市场上正确呈现库存，从而打击非法流量来源和域欺骗。 参与的出版商和发行商通过将`ads.txt`页面保留在域的顶层（例如`example.com/ads.txt`），公开声明有权销售其数字库存的公司，以及这些关系的性质。
 
 DSP通过读取每个发布者的`ads.txt`文件并允许您选择仅向已验证的[!DNL ads.txt]销售者购买来支持[!DNL ads.txt]。 例如，通过将我们看到的访问`nytimes.com`的卖家与《纽约时报》的`ads.txt`文件相匹配，我们可以识别哪些是合法的，哪些是非法的，如果投放位置配置为仅从经过验证的卖家处购买，我们将阻止违法者。<!-- can we actually mention NY Times? -->
 
@@ -122,7 +122,7 @@ DSP会维护一个全局阻止的站点列表，列出被认为不安全的站�
 
 [位置级别竞价前注意目标定位](/help/dsp/campaign-management/placements/placement-settings.md)允许广告商定位特定注意级别以提高客户参与度。
 
-此外，广告商可以为任何促销活动启用投放级别[!UICONTROL Attention Score]量度](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement)（各展示次数中[!DNL Attention Units]的加权平均数）的[跟踪，以了解哪种投放策略产生的业务效果最佳。
+此外，广告商可以为任何促销活动启用投放级别[!UICONTROL Attention Score]量度[&#128279;](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement)（各展示次数中[!DNL Attention Units]的加权平均数）的跟踪，以了解哪种投放策略产生的业务效果最佳。
 
 每项单独功能需额外付费。
 
@@ -130,7 +130,7 @@ DSP会维护一个全局阻止的站点列表，列出被认为不安全的站�
 
 DSP主题定位允许您利用我们行业领先的上下文合作伙伴[!DNL Comscore]来定位或阻止关键词列表。 主题定位可帮助您确保始终在符合您品牌的环境中提供广告，包括阻止有害内容或确保在可确保获得更大结果的环境中支出。
 
-主题定位要求您直接使用合作伙伴平台创建自定义主题区段。 创建区段后，您可以在[!UICONTROL Audience Targeting]部分中为每个投放位置](/help/dsp/campaign-management/placements/placement-settings.md)定位或排除区段ID [。 此功能可能需要额外付费。
+主题定位要求您直接使用合作伙伴平台创建自定义主题区段。 创建区段后，您可以在[!UICONTROL Audience Targeting]部分中为每个投放位置[&#128279;](/help/dsp/campaign-management/placements/placement-settings.md)定位或排除区段ID 。 此功能可能需要额外付费。
 
 若要创建[!DNL Comscore]帐户和自定义主题区段，您可以在[https://agents.comscore.com](https://agents.comscore.com)上请求[!DNL Activation Segment Manager]的登录。 有关设置自定义区段的完整说明，请参阅[[!DNL Comscore] 帮助中心](https://comscoreactivation.zendesk.com/hc/)。 创建自定义区段时，[!DNL Segment Manager]中会显示这些区段的费用。
 

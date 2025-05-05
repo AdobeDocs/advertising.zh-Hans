@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您还可以在相关促销活动管理视图](/help/dsp/campaign-management/reports/campaign-reports-about.md)中查看促销活动[的所有级别（促销活动、包、投放位置或广告）的按需数据。
+>您还可以在相关促销活动管理视图[&#128279;](/help/dsp/campaign-management/reports/campaign-reports-about.md)中查看促销活动的所有级别（促销活动、包、投放位置或广告）的按需数据。
 
 ## 可用报表类型
 

@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 步骤1：在Audience Manager中设置数据Source {#set-up-data-source}
 
-在Audience Manager中，为DSP展示创建一个[数据源](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html)并单击数据。 在每个事件标记](#implement-dsp-pixels)中包含数据源ID [，以便所有跟踪的事件都归属于该数据源。
+在Audience Manager中，为DSP展示创建一个[数据源](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html)并单击数据。 在每个事件标记[&#128279;](#implement-dsp-pixels)中包含数据源ID ，以便所有跟踪的事件都归属于该数据源。
 
 >[!NOTE]
 > 可以在单个数据源中收集在多个DSP上运行的广告促销活动的所有展示和点击数据。

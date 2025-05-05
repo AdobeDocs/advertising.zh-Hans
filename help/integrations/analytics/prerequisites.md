@@ -41,7 +41,7 @@ ht-degree: 0%
 * 用于报告付费媒体活动和馈送网站活动以在Adobe Advertising中优化和报表的[!DNL Analytics]报表包ID
 * 公司的Experience Cloud组织ID (Org ID)。
 
-您可以在Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)的[摘要选项卡中找到这两个ID。
+您可以在Adobe Experience Cloud Debugger[&#128279;](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)的摘要选项卡中找到这两个ID。
 
 ![Experience Cloud Debugger摘要屏幕](/help/integrations/assets/a4adc-debugger-summary.png)
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 由于[!DNL Analytics]数据会被发送到Adobe Advertising以进行报表和优化，因此数据受归因规则的约束，包括为Adobe Advertising中的广告商配置的展示和点击回顾窗口。
 
-Adobe Advertising](/help/integrations/assets/a4adc-lookbacks.png)中的![广告商级别的回溯时段设置
+Adobe Advertising![&#128279;](/help/integrations/assets/a4adc-lookbacks.png)中的广告商级别的回溯时段设置
 
 * Adobe Advertising归因点击回顾窗口：首次单击后经过的天数，在此期间点击可归因于转化。 默认情况下，此值为60天，最大值为90天
 * Adobe Advertising归因展示回顾时间范围：广告展示发生后，展示可归因于转化的天数。 默认情况下，此值为14天，最大值为30天

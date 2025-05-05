@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 您还可以临时更改视图中的列，并从工具栏右侧的[!UICONTROL Columns]图标](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)更改排序顺序[。
+>* 您还可以临时更改视图中的列，并从工具栏右侧的[!UICONTROL Columns]图标[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)更改排序顺序。
 >* 您可以通过编辑默认视图或[创建自定义视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)来更改特定广告商所包含的列。
 
 * （显示所有广告商的特定列）在任意列标题的右侧，单击![向下箭头](/help/search-social-commerce/assets/arrow-down-expand.png "向下箭头")，突出显示&#x200B;**[!UICONTROL Select Columns]**，选中要包含的每个列旁边的复选框，然后单击&#x200B;**[!UICONTROL Apply]**。

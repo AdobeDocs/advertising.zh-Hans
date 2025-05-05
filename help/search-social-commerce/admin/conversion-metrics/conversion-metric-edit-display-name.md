@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->对于来自Google Analytics](/help/search-social-commerce/admin/data-sources/data-source-about.md)的[指标，如果更新或重新验证集成，则将覆盖对显示名称所做的任何手动更改。 同样，除非您[更新](/help/search-social-commerce/admin/data-sources/data-source-edit.md)或[重新验证](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)集成，否则将忽略Google Analytics中的任何名称更改。
+>对于来自Google Analytics[&#128279;](/help/search-social-commerce/admin/data-sources/data-source-about.md)的指标，如果更新或重新验证集成，则将覆盖对显示名称所做的任何手动更改。 同样，除非您[更新](/help/search-social-commerce/admin/data-sources/data-source-edit.md)或[重新验证](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)集成，否则将忽略Google Analytics中的任何名称更改。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**。
 

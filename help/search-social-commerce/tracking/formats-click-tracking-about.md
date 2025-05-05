@@ -39,8 +39,8 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [针对赞助广告的点击跟踪格式： [!DNL Baidu]](formats-click-tracking-baidu.md)
->*  [!DNL Google Ads]](formats-click-tracking-google.md)的[点击跟踪格式
->*  [!DNL Microsoft Advertising]](formats-click-tracking-microsoft.md)的[点击跟踪格式
+>*  [!DNL Google Ads][&#128279;](formats-click-tracking-google.md)的点击跟踪格式
+>*  [!DNL Microsoft Advertising][&#128279;](formats-click-tracking-microsoft.md)的点击跟踪格式
 >* [针对赞助广告的点击跟踪格式： [!DNL Naver]](formats-click-tracking-naver.md)
 >* [针对赞助广告的点击跟踪格式： [!DNL Yahoo! Japan Ads]](formats-click-tracking-yahoo-japan.md)
 >* [针对赞助广告的点击跟踪格式： [!DNL Yahoo! Display Network]](formats-click-tracking-yahoo-display-network.md)

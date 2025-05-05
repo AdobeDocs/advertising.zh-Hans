@@ -60,7 +60,7 @@ Adobe可与每个广告商合作，建立其广告网络帐户和促销活动。
 
    1. 设置转化跟踪。 根据实施，这可能涉及将转化跟踪标记添加到广告商的网页，和/或为广告商单独收集的转化数据设置每日馈送拖放。
 
-      如果您使用Adobe Advertising转化跟踪服务，则可以使用Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html)在Search、Social和Commerce](/help/search-social-commerce/tools/conversion-tag-generate.md)内生成转化跟踪标记[或[。
+      如果您使用Adobe Advertising转化跟踪服务，则可以使用Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html)在Search、Social和Commerce[&#128279;](/help/search-social-commerce/tools/conversion-tag-generate.md)内生成转化跟踪标记或。
 
    1. 验证跟踪的数据。
 
@@ -68,7 +68,7 @@ Adobe可与每个广告商合作，建立其广告网络帐户和促销活动。
 
 1. (使用Adobe Analytics的广告商) [集成Adobe Advertising和Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)，以便他们能够交换数据。
 
-1. (允许Search、Social和Commerce优化竞价、促销活动预算和/或促销活动竞价策略目标；仅[支持的促销活动类型](/help/search-social-commerce/introduction/supported-inventory.md))[将促销活动分配给项目组合](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)。
+1. (允许Search、Social和Commerce优化竞价、促销活动预算和/或促销活动竞价策略目标；仅[支持的促销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)) [将促销活动分配给项目组合](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)。
 
    如果项目组合尚未启动（优化竞价和/或预算），则让优化功能收集到足够的数据，以便构建成本和收入模型，这样您就可以在启动项目组合之前建立项目组合的基准表现。
 

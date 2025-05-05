@@ -45,14 +45,14 @@ Search、Social和Commerce在批量处理工作表操作期间生成两种类型
 | 常规 | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | 操作完全失败。 如果问题仍然存在，请与您的Adobe客户团队联系。 |
 | 所有实体 | [!UICONTROL Invalid Fields.] \[无效字段和错误\] | 指定的数据缺失或无效。 |
 |  | [!UICONTROL Invalid Reference Given] | 实体在广告网络中的ID或父实体的ID（例如帐户ID）与搜索、社交和Commerce中的实体不对应。 在批量处理工作表中编辑ID时，可能会发生这种情况。 |
-|  | [!UICONTROL <Entity> is deleted or expired] | 实体已过期或已删除，您无法更改其属性。 当有人手动编辑状态时，可能会删除该实体。 |
-|  | [!UICONTROL <Entity> status should be Active or Paused] | （新实体）新实体只能为“活动”或“已暂停”。 |
+|  | [!UICONTROL &lt;Entity> is deleted or expired] | 实体已过期或已删除，您无法更改其属性。 当有人手动编辑状态时，可能会删除该实体。 |
+|  | [!UICONTROL &lt;Entity> status should be Active or Paused] | （新实体）新实体只能为“活动”或“已暂停”。 |
 |  | [!UICONTROL Duplicate Entries are present] | 同一实体包含多行，每行都具有不同的属性。 将更改合并为一行。 |
 |  | [!UICONTROL Invalid AMO ID given] | 行的AMO ID不存在。 如果您在批量处理工作表中编辑了ID，则可能会发生这种情况。 |
 |  | [!UICONTROL Invalid row given] | 行包含的信息不足以确定实体类型。 编辑该行以包含实体类型的所有必填字段。 |
 | 帐户 | [!UICONTROL Provide Valid Account Details] | （多个帐户的批量工作表）帐户标识符未包含在所有行中。 为每行输入以下任一列组合的值：a)“[!UICONTROL AMO ID]”或b)“[!UICONTROL Account Name]”和“[!UICONTROL Platform]”。 |
 |  | [!UICONTROL Account is disabled. Disabled Accounts cannot be processed] | 搜索、社交和Commerce无法访问广告网络帐户，因此您无法创建或编辑营销活动数据。 确保搜索帐户的凭据正确且帐户已启用。 |
-| 营销活动 | [!UICONTROL Invalid Shopping Country specified] | （购物营销活动）“[!UICONTROL Sales Country]”字段中的值无效。 查看 [!DNL Google Ads]](https://support.google.com/merchants/answer/160637#countrytable)的有效国家/地区[和 [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083)的有效国家/地区列表。[ |
+| 营销活动 | [!UICONTROL Invalid Shopping Country specified] | （购物营销活动）“[!UICONTROL Sales Country]”字段中的值无效。 查看 [!DNL Google Ads][&#128279;](https://support.google.com/merchants/answer/160637#countrytable)的有效国家/地区[和 [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083)的有效国家/地区列表。 |
 | 所有营销活动组件 | [!UICONTROL Campaign creation failed] | 未创建父营销活动，因此未创建此实体。 确保所有父实体都包含所有必填字段。 |
 | 广告组 | [!UICONTROL Campaign Row missing] | 指定的父营销活动不存在，因此未创建广告组。 在新行中创建父营销活动。 |
 |  | [!UICONTROL New adgroup has both keywords and placement] | 广告组可以包含关键字或投放位置，但不能同时包含关键字和投放位置。 为关键词和投放位置创建单独的广告组。 |
@@ -62,7 +62,7 @@ Search、Social和Commerce在批量处理工作表操作期间生成两种类型
 | 所有广告组组件 | [!UICONTROL Adgroup creation failed] | 未创建父广告组，因此无法创建此实体。 这可能是由于广告组字段中的错误或父营销活动失败所致。 确保所有父实体都包含所有必填字段。 |
 |  | [!UICONTROL Adgroup Row Missing] | 指定的父广告组不存在，因此无法创建实体。 在新行中创建父广告组。 |
 |  | [!UICONTROL Cannot modify Tracking Template at Keyword / Creative / Site Link level until Account has been migrated to use Upgraded URLs. Please retry after migration] | “[!UICONTROL Tracking Template]”字段仅适用于使用最终/高级URL的帐户。 在迁移帐户以使用最终/高级URL之前，请删除该值。 |
-| 广告 | [!UICONTROL Cannot modify attributes other than status code and url for <ad type>] | （除文本、扩展文本、产品、应用程序安装和动态搜索之外的广告类型）您只能编辑此广告类型的状态和URL。 |
+| 广告 | [!UICONTROL Cannot modify attributes other than status code and url for &lt;ad type>] | （除文本、扩展文本、产品、应用程序安装和动态搜索之外的广告类型）您只能编辑此广告类型的状态和URL。 |
 |  | [!UICONTROL The number of creatives under an AdGroup should not exceed 50] | 每个广告组最多可包含50个广告，此批量工作表包含的广告超过50个。 减少广告数量。 |
 |  | [!UICONTROL Cannot modify an ad which is either deleted/expired or under an deleted/expired campaign] | 广告位于已过期或删除的父实体中，因此无法对其进行编辑。 |
 | 关键词 | [!UICONTROL Cannot modify a keyword/website/product which is under deleted Adgroup or Campaign] | 父营销活动或广告组已删除或已过期，因此您无法更改实体。 |
@@ -85,7 +85,7 @@ Search、Social和Commerce在批量处理工作表操作期间生成两种类型
 |----|----|----|
 | 常规 | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | 操作完全失败。 如果问题仍然存在，请与您的Adobe客户团队联系。 |
 | 所有实体 | [!UICONTROL Entity]已发布到广告网络 | 实体已发布到广告网络，但未同时同步到Search、Social和Commerce，因此实体数据无法立即在Search、Social和Commerce中可用。 同步过程现在将自动触发。<br><br>当同步大量数据时，数据可能在Search、Social和Commerce中不可用数小时或更长时间。 |
-| | [!UICONTROL Skipping <ENTITY> creation since <PARENT ENTITY> creation failed.] | 无法创建父实体，因此未创建此子实体。 |
+| | [!UICONTROL Skipping &lt;ENTITY> creation since &lt;PARENT ENTITY> creation failed.] | 无法创建父实体，因此未创建此子实体。 |
 
 >[!MORELIKETHIS]
 >

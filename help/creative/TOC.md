@@ -38,12 +38,12 @@ ht-degree: 0%
       + [管理创意包](/help/creative/creative-libraries/bundle-manage.md)
 + 广告体验{#creative-experiences}
    + [关于Advertising Creative中的体验](/help/creative/experiences/experience-about.md)
-   + 具有定位{#experience-targeted}的体验
+   + 具有定位的体验{#experience-targeted}
       + [决策树布局](/help/creative/experiences/experience-decision-tree.md)
       + [创建具有定位功能的体验](/help/creative/experiences/experience-create-targeting.md)
       + [编辑具有定位的体验](/help/creative/experiences/experience-edit-targeting.md)
       + [目标体验设置](/help/creative/experiences/experience-settings-targeting.md)
-      + 创建和编辑体验{#subtasks}的子任务
+      + 创建和编辑体验的子任务{#subtasks}
          + 目标节点{#nodes}
             + [向最终级别添加目标节点](/help/creative/experiences/experience-target-node-add-final.md)
             + [在节点之间插入目标节点](/help/creative/experiences/experience-target-node-add-inner.md)
@@ -54,7 +54,7 @@ ht-degree: 0%
             + [将创意捆绑包分配和取消分配给最终节点](/help/creative/experiences/experience-assign-creative-bundles.md)
             + [自定义创意人员的跟踪URL](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [自定义创意优化和计划](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
-   + 未定位{#experience-nontargeted}的体验
+   + 未定位的体验{#experience-nontargeted}
       + [在不定位的情况下创建体验](/help/creative/experiences/experience-create-no-targeting.md)
       + [编辑体验，但不定位](/help/creative/experiences/experience-edit-no-targeting.md)
       + [非定向体验设置](/help/creative/experiences/experience-settings-no-targeting.md)

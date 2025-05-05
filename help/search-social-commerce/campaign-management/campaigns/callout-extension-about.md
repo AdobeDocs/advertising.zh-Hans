@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Callouts]和[!UICONTROL Associations]视图
 
-[!UICONTROL Campaigns] > [!UICONTROL Campaigns]中的[!UICONTROL Extensions] > [!UICONTROL Callout]库列出了所有帐户级别的标注，您可以在此处创建和管理共享标注。 有关每个 [!DNL Google Ads] 帐户](https://support.google.com/google-ads/answer/6372658?hl=en)的最大广告扩展数[，请参阅广告网络帮助。
+[!UICONTROL Campaigns] > [!UICONTROL Campaigns]中的[!UICONTROL Extensions] > [!UICONTROL Callout]库列出了所有帐户级别的标注，您可以在此处创建和管理共享标注。 有关每个 [!DNL Google Ads] 帐户[&#128279;](https://support.google.com/google-ads/answer/6372658?hl=en)的最大广告扩展数，请参阅广告网络帮助。
 
 在将库中的标注(Callout)分配给活动或广告组之前，不会将其用于广告。 从[!UICONTROL Extensions] > [!UICONTROL Associations]视图中，您可以将任何标注作为可能的扩展名分配给营销活动级别或广告组级别的所有广告。 您必须为每个营销活动或广告组至少分配两个标注，广告才能符合显示标注的条件。 广告组级别的标注会覆盖营销活动级别的标注。
 

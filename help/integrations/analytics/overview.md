@@ -45,7 +45,7 @@ ht-degree: 0%
 
 要使用[!DNL Analytics]作为付费媒体报表工具，您的组织需要具有Analysis Workspace访问权限的Experience Cloud登录。 您的Adobe Advertising团队将帮助您将Adobe Advertising数据映射到Analysis Workspace中的各个报表包。 您可以将Adobe Advertising数据发送到任何报表包，但您应该了解已映射到Adobe Advertising的报表包和未映射的报表包。根据报表包，这可能会更改报告的数据。
 
- [!DNL Analytics]](ids.md)内的[Adobe AdvertisingID与其他[!DNL eVars]的工作方式相同，具有自定义的永久过期时间。 默认情况下，归因回顾时间范围在Adobe Advertising实施期间设置为60天。 要更改此设置，请与您的Adobe客户团队合作。
+ [!DNL Analytics][&#128279;](ids.md)内的Adobe AdvertisingID与其他[!DNL eVars]的工作方式相同，具有自定义的永久过期时间。 默认情况下，归因回顾时间范围在Adobe Advertising实施期间设置为60天。 要更改此设置，请与您的Adobe客户团队合作。
 
 Adobe Advertising维度会附加后缀“(AMO ID)”(例如“广告类型(AMO ID)”)。 有关可用维度的列表，请参阅“[Analysis Workspace中的Adobe Advertising量度](advertising-metrics-in-analytics.md)”。
 
@@ -80,7 +80,7 @@ Adobe Advertising维度会附加后缀“(AMO ID)”(例如“广告类型(AMO I
 
 您的Adobe Advertising团队将帮助您识别适用于付费媒体表现的事件，并将其映射到Adobe Advertising中，这些事件在[!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Conversions]中列出。
 
-有关可用量度的列表，请参阅Adobe Advertising](analytics-data-in-advertising.md)中的[Analytics量度。
+有关可用量度的列表，请参阅Adobe Advertising[&#128279;](analytics-data-in-advertising.md)中的Analytics量度。
 
 ### 用于网站重定向的Analytics区段
 
@@ -132,7 +132,7 @@ Adobe Advertising可以使用[!DNL Analytics]与Experience Cloud之间的本机E
 
 ### 创建Adobe Advertising仪表板
 
-要了解如何根据Analysis Workspace中的目标跟踪Adobe Advertising数据，请参阅视频“使用Adobe Analytics创建Adobe Advertising功能板](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html)”。[
+要了解如何根据Analysis Workspace中的目标跟踪Adobe Advertising数据，请参阅视频“使用Adobe Analytics创建Adobe Advertising功能板[&#128279;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html)”。
 
 ### 使用Adobe AdvertisingID进行网站条目分析
 

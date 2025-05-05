@@ -22,7 +22,7 @@ ht-degree: 0%
 
      有关Adobe Advertising对CCPA选择退出销售请求的支持的更多信息，请参阅[Adobe Advertising对《加州消费者隐私法案》的支持：消费者选择退出支持](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)。
 
-* (Beta功能)[获取并使用通用ID进行无令牌定位](/help/dsp/audiences/universal-ids.md)：
+* (Beta功能) [获取并使用通用ID进行无令牌定位](/help/dsp/audiences/universal-ids.md)：
 
    * 手动将经过身份验证的[!DNL LiveRamp] [!DNL RampID]区段直接发送到DSP。
 

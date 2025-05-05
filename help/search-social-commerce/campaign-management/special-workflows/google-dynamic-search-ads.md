@@ -32,7 +32,7 @@ ht-degree: 0%
       >
       >您的域必须按[!DNL Google Ads]有机搜索索引编制索引才能定位。 此外，如果域包含多种语言的页面，并且您希望定位所有语言，则请为每个语言创建单独的营销活动。
 
-      如果您不使用网站域来定位广告，则请为每个广告组创建动态搜索目标（请参阅步骤4）。 您可以单独创建目标[](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)或使用[批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
+      如果您不使用网站域来定位广告，则请为每个广告组创建动态搜索目标（请参阅步骤4）。 您可以单独创建目标[&#128279;](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)或使用[批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
 
    1. 确保该营销活动以搜索渠道为目标，且仅以[!DNL Google Ads]搜索网络（而非显示网络）为目标。 这些设置可在[!UICONTROL Networks and Devices]选项卡中使用。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    1. （可选）配置营销活动级别的跟踪模板，以覆盖帐户级别的跟踪模板，但可以在较低级别覆盖该模板。
 
-      (使用Adobe Analytics且没有服务器端跟踪的广告商)如果您希望包含对Search、Social和Commerce到Analytics的反向馈送的跟踪，请将AMO ID跟踪代码添加到帐户级别的附加参数，这会将该代码添加到最终URL。 查看 [!DNL Analytics]](/help/integrations/analytics/ids.md)使用的[Adobe AdvertisingID。
+      (使用Adobe Analytics且没有服务器端跟踪的广告商)如果您希望包含对Search、Social和Commerce到Analytics的反向馈送的跟踪，请将AMO ID跟踪代码添加到帐户级别的附加参数，这会将该代码添加到最终URL。 查看 [!DNL Analytics][&#128279;](/help/integrations/analytics/ids.md)使用的Adobe AdvertisingID。
 
 1. [在营销活动中创建一个广告组](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)，包括以下步骤：
 

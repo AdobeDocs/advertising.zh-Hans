@@ -22,7 +22,7 @@ ht-degree: 0%
 
    1. 在模板名称旁边的“[!UICONTROL Last Prop. Status]”列中，单击&#x200B;**[!UICONTROL Cancel]**。
 
-* 如果数据已传播，则从[!UICONTROL Bulksheets]视图](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md)中[取消发布作业。
+* 如果数据已传播，则从[!UICONTROL Bulksheets]视图[&#128279;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md)中取消发布作业。
 
 >[!MORELIKETHIS]
 >

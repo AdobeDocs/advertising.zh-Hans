@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 导出已连接电视覆盖计划的预测
 
-您可以将[!UICONTROL Budget vs Reach]预测导出到包含[!UICONTROL Budget]和[!UICONTROL Reach]列的**1}电子表格。[!DNL Microsoft Excel]
+您可以将[!UICONTROL Budget vs Reach]预测导出到包含[!UICONTROL Budget]和[!UICONTROL Reach]列的**1&rbrace;电子表格。[!DNL Microsoft Excel]
 
 * 在生成的预测中，单击右上角的&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Export]**。
 
