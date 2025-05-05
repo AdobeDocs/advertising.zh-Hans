@@ -145,4 +145,4 @@ ht-degree: 0%
 >* 有关通用视频的[常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)
 >* [键盘快捷键](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [性能疑难解答](/help/dsp/optimization/troubleshooting-performance.md)
->* [视频：如何创建标准展示投放位置](https://video.tv.adobe.com/v/340454)
+>* [视频：如何创建标准展示投放位置](https://video.tv.adobe.com/v/344997?captions=chi_hans)
