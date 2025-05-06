@@ -3,9 +3,9 @@ title: 使用批量处理工作表查看和编辑Campaign组件设置
 description: 了解如何使用电子表格批量查看和编辑关键包、投放位置和广告设置。
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: c1039c59c0a1f8d2bbe08b4522b28f2f883a3dea
+source-git-commit: 7af6788f2aae3a2fb9e2048676dbe1955c2e56d9
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 您可以在单个促销活动中以XLSX （[!DNL Microsoft Excel]电子表格）格式下载包、投放位置和广告的设置，以查看和编辑设置。 默认情况下，名为&#x200B;*批量处理工作表*&#x200B;的下载文件包含单独的选项卡，分别用于包设置、包航班信息、版面设置和版面广告计划。 您可以选择排除某些促销活动组件类型的设置。
 
-要一次更新多个设置，请上传包含更改的有效批量处理工作表文件。 要创建批量处理工作表，请使用现有设置编辑已下载的批量处理工作表。 可编辑字段包含大多数通常可编辑的设置。
+要一次更新多个设置，请上传包含更改的有效批量处理工作表文件。 要创建批量处理工作表，请使用现有设置编辑已下载的批量处理工作表。 可编辑字段包含大多数通常可编辑的设置。 未使用的设置字段包含空白值。
 
 >[!NOTE]
 >
