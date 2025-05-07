@@ -2,7 +2,7 @@
 title: 广告商帐户设置
 description: 请参阅可用广告商设置的描述。
 role: User, Admin
-source-git-commit: 20f69d2e8d5d289015c911f153609c0805307f0a
+source-git-commit: 1f8a76e060612cdcc8ee3709bdf49654faf31b57
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
@@ -33,27 +33,27 @@ ht-degree: 0%
 
 使用其他Adobe Experience Cloud产品的广告商可以使用组织的Experience Cloud唯一ID在某些产品之间共享数据。 您可以在[!UICONTROL Integrations]部分中配置特定的产品集成。
 
-**[!UICONTROL Account IMS org and ID]：** (通过具有多个广告商的Experience Cloud帐户授予许可的、具有其他Experience Cloud产品的广告商；可选)广告商的Experience Cloud组织ID。
+**[!UICONTROL Account IMS org and ID]：** (通过具有多个广告商的Experience Cloud帐户许可的、具有其他Experience Cloud产品的广告商；可选)广告商的Experience Cloud组织ID。
 
 **[!UICONTROL Advertiser IMS org and ID]：** (具有其他Experience Cloud产品的直接许可证的广告商；可选)广告商的Experience Cloud组织ID。
 
 ### [!UICONTROL Integrations]
 
-（可选）链接到DSP帐户的其他Experience Cloud产品。 产品必须与[!UICONTROL Adobe IMS IDs]部分中提供的相同Experience Cloud组织ID相关联。
+（可选）链接到DSP帐户的其他Experience Cloud产品。 产品必须与[!UICONTROL Adobe IMS IDs]部分中提供的相同Experience Cloud组织ID关联。
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]：** (具有[!DNL Advertising Search, Social, & Commerce]或使用Adobe Advertising转化像素的广告商)DSP与其交换归因数据的[!DNL Search, Social, & Commerce]帐户。
 
-**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]：** (使用Adobe Analytics的广告商；可选；仅适用于使用Adobe Advertising转化跟踪标记（仅包括[!DNL EF Redirect]和令牌）收集的数据)一个或多个[!DNL Analytics]报告包，DSP会将其从发布者和供应方合作伙伴收集的数据发送到这些报告包。 Analytics还会将其从客户端站点收集的数据发送到DSP。
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]：** (使用Adobe Analytics的广告商；可选；仅适用于使用Adobe Advertising转化跟踪标记（仅包括[!DNL EF Redirect]和令牌）收集的数据)一个或多个[!DNL Analytics]报告包，DSP会向这些报告包发送其从发布者和供应方合作伙伴收集的数据。 Analytics还会将其从客户端站点收集的数据发送到DSP。
 
 对于要在报表包中显示的数据，必须启用相应的[!DNL Search, Social, & Commerce]广告商级别设置。 此外，必须将广告商的[!DNL Analytics]帐户配置为从Adobe Advertising接收数据。
 
 >[!WARNING]
 >
->如果删除以前链接的报表包，DSP将不再与该报表包交换数据。 预计会出现数据波动。
+>如果删除之前链接的报表包，DSP将不再与该报表包交换数据。 预计会出现数据波动。
 
 有关与[!DNL Analytics]集成的详细信息，请参阅[概述 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)。
 
-**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]：** (使用Adobe Audience Manager或Adobe Analytics的广告商；可选)一个Audience Manager或[!DNL Analytics]帐户，DSP会从中提取广告商所有Adobe受众的区段元数据、层次结构数据和唯一受众数据。 这包括以下项的数据：
+**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]：** (使用Adobe Audience Manager或Adobe Analytics的广告商；可选)Audience Manager或[!DNL Analytics]帐户，DSP会从中提取广告商的所有Adobe受众的区段元数据、层次结构数据和唯一受众数据。 这包括以下项的数据：
 
 * Audience Manager区段
 * 发布到Adobe Experience Cloud的[!DNL Analytics]区段
@@ -82,6 +82,8 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ### [!UICONTROL Media Quality]
 
+<!-- See placement settings for specs on applicable ad/device types -->
+
 #### [!UICONTROL Contextual Filtering]
 
 要应用的[!DNL Comscore]、[!DNL DoubleVerify]、[!DNL Integral Ad Science]和[!DNL Peer39]上下文筛选器的类型。 您可以覆盖[位置级别](/help/dsp/campaign-management/placements/placement-settings.md)的广告商级别设置。
@@ -104,7 +106,7 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 **[!UICONTROL Alcohol Content]：**（可选）默认情况下阻止广告的酒精含量程度： *[!UICONTROL Do Not Block]*（默认值）、*[!UICONTROL Standard]*&#x200B;或&#x200B;*[!UICONTROL Strict]*。 可能需额外付费。
 
-#### [!UICONTROL Pre-Bid Fraud Blocking]
+#### [!UICONTROL Pre-Bid Fraud Blocking] {#prebid-fraud-blocking}
 
 要基于通过[!DNL DoubleVerify]、[!DNL Integral Ad Science]和[!DNL Peer39]测量的欺诈性流量和可疑活动阻止的站点类型。 您可以覆盖[位置级别](/help/dsp/campaign-management/placements/placement-settings.md)的广告商级别设置。
 
@@ -112,15 +114,15 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]：**&#x200B;默认情况下，会阻止所有100%无效的流量（包括被劫持设备上的流量）用于新放置。 可能需额外付费。
 
-**[!UICONTROL Also block sites with]：**（可选）额外级别的欺诈和无效流量会导致DSP默认阻止广告： *[!UICONTROL None]*（默认值，不会阻止额外流量）、*[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*、*[!UICONTROL >4% Average Fraud/IVT levels]*、*[!UICONTROL >6% Average Fraud/IVT levels]*、*[!UICONTROL >10% Average Fraud/IVT levels]*&#x200B;或&#x200B;*[!UICONTROL >25% Average Fraud/IVT levels]*。 可能需额外付费。
+**[!UICONTROL Also block sites with]：**（可选）额外级别的欺诈和无效流量导致DSP默认阻止广告： *[!UICONTROL None]*（默认值，它不会阻止额外流量）、*[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*、*[!UICONTROL >4% Average Fraud/IVT levels]*、*[!UICONTROL >6% Average Fraud/IVT levels]*、*[!UICONTROL >10% Average Fraud/IVT levels]*&#x200B;或&#x200B;*[!UICONTROL >25% Average Fraud/IVT levels]*。 可能需额外付费。
 
 ##### [!UICONTROL Peer 39] {#peer-39-fraud}
 
-**[!UICONTROL Block sites that are]：**（可选）一种或多种类型的欺诈，默认情况下会导致DSP阻止广告： *[!UICONTROL Fraud]*（会阻止所有网站进行欺诈）、*[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*&#x200B;和/或&#x200B;*[!UICONTROL Fraud: Zero Ads]*。 可能需额外付费。
+**[!UICONTROL Block sites that are]：**（可选）一种或多种类型的欺诈会导致DSP默认阻止广告： *[!UICONTROL Fraud]*（会阻止所有网站进行欺诈行为）、*[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*&#x200B;和/或&#x200B;*[!UICONTROL Fraud: Zero Ads]*。 可能需额外付费。
 
 ##### [!UICONTROL Integral Ad Science] {#ias-fraud}
 
-**[!UICONTROL Block sites that are]：** （可选）一种可疑、导致DSP默认阻止广告的网站或应用程序活动类型： *[!UICONTROL None]* （默认值，不会基于可疑活动阻止广告）、*[!UICONTROL Suspicious Activity - High Risk]*&#x200B;或&#x200B;*[!UICONTROL Suspicious Activity - High or Moderate Risk]*。 可能需额外付费。
+**[!UICONTROL Block sites that are]：**（可选）一种可疑DSP阻止广告的网站或应用程序活动类型： *[!UICONTROL None]*（默认值，不阻止基于可疑活动的广告）、*[!UICONTROL Suspicious Activity - High Risk]*&#x200B;或&#x200B;*[!UICONTROL Suspicious Activity - High or Moderate Risk]*。 可能需额外付费。
 
 #### [!UICONTROL Pre-Bid Viewability]
 
@@ -130,19 +132,19 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ###### 视频
 
-**&#x200B;**&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**。 使用此选项，选择标准。
+****[!UICONTROL Include URL's whose average video viewability rate is]**。 使用此选项，选择标准。
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**&#x200B;**&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**。 使用此选项，选择标准。
+****[!UICONTROL Include URL's whose average completion & fully viewable rate is]**。 使用此选项，选择标准。
 
-**&#x200B;**&#x200B;[!UICONTROL Include URL's whose average player size composition is]**。 使用此选项，选择标准。
+****[!UICONTROL Include URL's whose average player size composition is]**。 使用此选项，选择标准。
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### 显示
 
-**&#x200B;**&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**。 使用此选项，选择标准。
+****[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**。 使用此选项，选择标准。
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
@@ -170,7 +172,7 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 #### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
-**[!UICONTROL DoubleVerify Account]：** （仅限[!DNL DoubleVerify]个客户；可选）与组织的[!DNL DoubleVerify]帐户关联的[!DNL DoubleVerify Authentic Brand Safety]区段ID，默认用于所有投放。 使用为指定区段ID配置的自定义品牌安全规则指定ID会阻止竞价后的展示次数。 DSP按区段ID对帐户开单。
+**[!UICONTROL DoubleVerify Account]：** （仅限[!DNL DoubleVerify]个客户；可选）与组织的[!DNL DoubleVerify]帐户关联的[!DNL DoubleVerify Authentic Brand Safety]区段ID，默认用于所有投放。 使用为指定区段ID配置的自定义品牌安全规则指定ID会阻止竞价后的展示次数。 DSP按区段ID的使用情况向帐户收费。
 
 ID必须以“51”开头并且由八位数字组成。 您可以在版面级别更改或删除广告商级别ID。
 
