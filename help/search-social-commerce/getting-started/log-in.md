@@ -1,9 +1,9 @@
 ---
 title: 登录
-description: 了解登录方法。
+description: 了解登录方式。
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 3d66f9a417d08f297d11b3f71479c3fe7a2232b3
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 登录
 
-您可以直接或从Adobe Experience Cloud中登录Search、Social和Commerce。
+您可以直接或从Adobe Experience Cloud中登录到Search、Social和Commerce。
 
 ## 直接登录
 
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您的公司必须在Adobe Experience Cloud中进行配置，并且您必须将Experience Cloud帐户[关联到搜索、社交和Commerce帐户](https://experiencecloud.adobe.com/resources/help/zh_CN/mcloud/organizations.html)。
+>您的公司必须在Adobe Experience Cloud中进行配置，并且您必须将Experience Cloud帐户[关联到搜索、社交和Commerce帐户](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html)。
 
-1. [登录到Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-Hans#signin)。
+1. [登录到Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin)。
 
 1. 在顶部菜单中选择![解决方案选择器](/help/search-social-commerce/assets/menu-icon.png "解决方案选择器")。
 
