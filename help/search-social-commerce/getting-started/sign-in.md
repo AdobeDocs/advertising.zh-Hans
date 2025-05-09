@@ -26,9 +26,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您的公司必须在Adobe Experience Cloud中进行配置，并且您必须将Experience Cloud帐户[关联到搜索、社交和Commerce帐户](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html)。
+>您的公司必须在Adobe Experience Cloud中进行配置，并且您必须将Experience Cloud帐户[关联到搜索、社交和Commerce帐户](https://experiencecloud.adobe.com/resources/help/zh_CN/mcloud/organizations.html)。
 
-1. [登录到Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin)。
+1. [登录到Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-Hans#signin)。
 
 1. 在顶部菜单中选择![解决方案选择器](/help/search-social-commerce/assets/menu-icon.png "解决方案选择器")。
 

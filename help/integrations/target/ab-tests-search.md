@@ -21,7 +21,7 @@ ht-degree: 0%
 
 * 提供与广告相关的更个性化的登陆页面体验（例如，将图像/视频创意、文案、关键字或其他广告信号匹配到登陆页面）。
 
-您还可以合并已集成到Adobe Analytics中的Advertising[&#128279;](/help/integrations/analytics/overview.md)的本机[[!DNL Analytics] 和 [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)的[!DNL Analytics] 集成报表维度，以便通过[!DNL Analytics]指标和成功事件测量和可视化您的测试数据。
+您还可以合并已集成到Adobe Analytics中的Advertising[&#128279;](/help/integrations/analytics/overview.md)的本机[[!DNL Analytics] 和 [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)的[!DNL Analytics] 集成报表维度，以便通过[!DNL Analytics]指标和成功事件测量和可视化您的测试数据。
 
 请参阅以下部分以了解先决条件、在[!DNL Target]中为来自Search、Social和Commerce中的广告的点进流量设置A/B测试的说明，以及有关如何在[!DNL Analytics]中测量和可视化测试的提示。
 
@@ -38,15 +38,15 @@ ht-degree: 0%
 
 * 用于Advertising的[[!DNL Analytics] 集成](/help/integrations/analytics/overview.md)<!-- necessary for testing view-throughs, which most advertisers want to do -->
 
-* [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)集成
+* [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)集成
 
 ## 步骤1：在[!DNL Target]中为搜索、Social和Commerce创建A/B测试活动
 
 以下说明重点介绍与“搜索”、“社交”和“Commerce”用例相关的信息。
 
-1. [登录到Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html)。
+1. [登录到Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=zh-Hans)。
 
-1. [创建A/B测试](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)：
+1. [创建A/B测试](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=zh-Hans)：
 
    1. 在&#x200B;**[!UICONTROL Enter Activity URL]**&#x200B;字段中，输入测试的登陆页面URL。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
    1. 在&#x200B;**[!UICONTROL Reporting Settings]**&#x200B;内，选择连接到您的Search、Social和Commerce帐户的&#x200B;**[!UICONTROL Company Name]**&#x200B;和&#x200B;**[!UICONTROL Report Suite]**。
 
-      有关其他报告提示，请参阅“[报告最佳实践和疑难解答](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html)”。
+      有关其他报告提示，请参阅“[报告最佳实践和疑难解答](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=zh-Hans)”。
 
    1. 在&#x200B;**[!UICONTROL Date Range]**&#x200B;字段中，为测试输入适当的开始日期和结束日期。
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
    1. 保存活动。
 
-1. 使用[Target可视化体验编辑器](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)对A/B测试登陆页面模板进行设计更改。
+1. 使用[Target可视化体验编辑器](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=zh-Hans)对A/B测试登陆页面模板进行设计更改。
 
    * 体验A：请勿编辑，因为这是无个性化的默认/控制登陆页面体验。
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 [!DNL Analytics for Target] (A4T)是一种跨解决方案的集成，它允许广告商根据[!DNL Analytics]转化指标和受众区段创建[!DNL Target]活动，然后使用[!DNL Analytics]作为报表源度量结果。 该活动的所有报表和区段都基于[!DNL Analytics]数据收集。
 
-有关[!DNL Analytics for Target]的详细信息（包括指向实施说明的链接），请参阅“[Adobe Analytics作为Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)的报表源”。
+有关[!DNL Analytics for Target]的详细信息（包括指向实施说明的链接），请参阅“[Adobe Analytics作为Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)的报表源”。
 
 ### 设置[!DNL Analytics for Target]面板
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 
 在Analysis Workspace中，如果您发现活动和体验数据很少或未填充数据，请执行以下操作：
 
-* 验证是否对[!DNL Target]和[!DNL Analytics]使用了相同的[!UICONTROL Supplemental Data ID] (SDID)。 您可以在促销活动将用户引导至的登陆页面上使用[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html)来验证SDID值。
+* 验证是否对[!DNL Target]和[!DNL Analytics]使用了相同的[!UICONTROL Supplemental Data ID] (SDID)。 您可以在促销活动将用户引导至的登陆页面上使用[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=zh-Hans)来验证SDID值。
 
 [Adobe Debugger中的补充数据ID (SDID)值](/help/integrations/assets/target-troubleshooting-sdid.png)
 
@@ -133,8 +133,8 @@ ht-degree: 0%
 
 ## 进一步阅读
 
-* [将Target与Analytics集成](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html) — 说明如何在Analysis Workspace中设置[!DNL Target]报表。
-* [A/B测试概述](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) — 介绍可与Search、Social和Commerce广告一起使用的A/B测试活动。
+* [将Target与Analytics集成](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=zh-Hans) — 说明如何在Analysis Workspace中设置[!DNL Target]报表。
+* [A/B测试概述](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=zh-Hans) — 介绍可与Search、Social和Commerce广告一起使用的A/B测试活动。
 * [Analytics for Advertising概述](/help/integrations/analytics/overview.md) — 介绍Analytics for Advertising，它允许您跟踪Analytics实例中的点进和浏览网站交互。
 
 >[!MORELIKETHIS]
