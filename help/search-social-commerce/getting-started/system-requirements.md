@@ -3,7 +3,7 @@ title: 系统要求
 description: 了解软件和帐户要求。
 exl-id: 818494f2-45d6-4788-a847-d80dec711245
 feature: Search Getting Started
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## 用户名和密码
 
-要登录，您需要用户名和密码。 您的Adobe帐户团队设置您的用户帐户并创建您的用户名和密码。
+要登录，您需要用户名和密码。 您的Adobe帐户团队会设置您的用户帐户并创建您的用户名和密码。
 
 ## 计算机和浏览器设置
 

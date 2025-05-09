@@ -3,7 +3,7 @@ title: 用户界面的组织方式
 description: 了解在何处访问不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 * ![警报通知](/help/search-social-commerce/assets/notifications-panel.png "警报通知")列出搜索、社交和Commerce通知的面板。
 
-  当您[通过Adobe Experience Cloud](log-in.md)登录时，此面板会显示您来自Experience Cloud的通知。
+  当您[通过Adobe Experience Cloud](sign-in.md)登录时，此面板会显示您来自Experience Cloud的通知。
 
 * ![帮助菜单](/help/search-social-commerce/assets/help-main-menu.png "帮助菜单")帮助菜单，其中包括指向文档和其他信息的链接。
 
@@ -50,9 +50,9 @@ ht-degree: 0%
 
 * ![用户配置文件](/help/search-social-commerce/assets/user-profile.png "用户配置文件")指向您的配置文件的链接，您可以从中注销。
 
-  当您[通过Adobe Experience Cloud](log-in.md)登录时，您还可以编辑您的Experience Cloud配置文件，包括Experience Cloud密码和通知设置。
+  当您[通过Adobe Experience Cloud](sign-in.md)登录时，您还可以编辑您的Experience Cloud配置文件，包括Experience Cloud密码和通知设置。
 
 >[!MORELIKETHIS]
 >
->* [登录](log-in.md)
->* [注销](log-out.md)
+>* [登录](sign-in.md)
+>* [注销](sign-out.md)

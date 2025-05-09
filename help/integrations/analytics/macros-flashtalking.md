@@ -3,7 +3,7 @@ title: 将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Flashtalking] 添
 description: 了解为什么以及如何将 [!DNL Analytics for Advertising] 宏添加到您的 [!DNL Flashtalking] ad标记
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: a69bef9d249514f5c494cff8d706b9df792eaf23
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您的组织与[!DNL Flashtalking]有直接合作关系，则您无需执行此过程。 请改为登录到您的[!DNL Flashtalking]帐户并按照[https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)上的[!DNL Flashtalking]支持文档中的说明来使用数据传递宏跟踪`s_kwcid`和`ef_id`跟踪参数。
+>如果您的组织与[!DNL Flashtalking]有直接合作关系，则您无需执行此过程。 请登录您的[!DNL Flashtalking]帐户并按照[https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)上的[!DNL Flashtalking]支持文档中的说明进行操作，以使用数据传递宏跟踪`s_kwcid`和`ef_id`跟踪参数。
 
 为以下类型的[!DNL Analytics for Advertising]实施的[!DNL Flashtalking]显示广告和视频广告使用宏：
 
@@ -69,6 +69,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [概述 [!DNL Analytics for Advertising]](overview.md)
->*  [!DNL Analytics][&#128279;](/help/integrations/analytics/ids.md)使用的Adobe Advertising ID
+>*  [!DNL Analytics]](/help/integrations/analytics/ids.md)使用的[Adobe Advertising ID
 >* [将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Google Campaign Manager 360] 添加标记](/help/integrations/analytics/macros-google-campaign-manager.md)
 

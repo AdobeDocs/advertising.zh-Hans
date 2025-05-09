@@ -3,7 +3,7 @@ title: 报表目标设置
 description: 按目标类型查看报表目标所需的详细信息。
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 **[!UICONTROL Port]：**&#x200B;要在服务器上使用的端口号。 默认值为&#x200B;*[!UICONTROL 21]*。
 
-**[!UICONTROL Username]：**&#x200B;要登录到服务器的用户名。
+**[!UICONTROL Username]：**&#x200B;登录服务器的用户名。
 
 **[!UICONTROL Password]：**&#x200B;用于登录到服务器的密码。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 **[!UICONTROL Port]：**&#x200B;要在服务器上使用的端口号。 默认值为&#x200B;*[!UICONTROL 21]*。
 
-**[!UICONTROL Username]：**&#x200B;要登录到服务器的用户名。
+**[!UICONTROL Username]：**&#x200B;登录服务器的用户名。
 
 **[!UICONTROL Password]：**&#x200B;用于登录到服务器的密码。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 **[!UICONTROL Port]：**&#x200B;要在服务器上使用的端口号。 默认值为&#x200B;*[!UICONTROL 21]*。
 
-**[!UICONTROL Username]：**&#x200B;要登录到服务器的用户名。
+**[!UICONTROL Username]：**&#x200B;登录服务器的用户名。
 
 **[!UICONTROL Password]：**&#x200B;用于登录到服务器的密码。
 

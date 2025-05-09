@@ -4,7 +4,7 @@ description: 了解如何在更改相关密码或证书过期时重新验证 [!D
 role: User, Admin
 exl-id: 624f0f0e-3f2f-45b1-b3dc-c1b107b4736f
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 重新验证[!DNL Google Analytics]数据源
 
-*仅限代理管理员、代理客户经理、Adobe客户经理和管理员*
+*仅限Agency管理员、Agency客户经理、Adobe客户经理和管理员*
 
 如果更改用于数据源的电子邮件帐户的密码，或者帐户的[!DNL OAuth]证书过期，则与该电子邮件帐户的所有打开连接都将关闭，您必须重新进行身份验证才能继续同步数据。
 

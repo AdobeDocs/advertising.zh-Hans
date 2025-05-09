@@ -3,7 +3,7 @@ title: 自定义目标
 description: 了解自定义目标，以定义针对最低CPA或最高ROAS优化的包中的成功事件。
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: 290eea50fe3c52a534ad6ab4fcf6d857b13230aa
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 0%
@@ -21,15 +21,15 @@ ht-degree: 0%
 
 每个自定义目标（目标）由一个或多个转化指标及其相对权重组成。 可用的转化量度包括使用Adobe Advertising转化像素并通过Adobe Analytics跟踪的所有量度。 DSP自定义目标仅考虑非移动权重，但它们将用于所有广告类型。
 
-例如，假设三个转化指标与某个促销活动中的特定包相关：价值20美元的“PDF下载”、价值30美元的“电子邮件注册”和价值40美元的“订单确认”。 如果您要根据客户操作的一次性货币值来赋予权重，则量度的相对权重为1、1.5和2。
+例如，假设三个转化指标与某个营销活动中的特定包相关：价值20美元的“PDF下载”、价值30美元的“电子邮件注册”和价值40美元的“订单确认”。 如果您要根据客户操作的一次性货币值来赋予权重，则量度的相对权重为1、1.5和2。
 
 在[创建自定义目标](#custom-goal-create)后，您可以[将其分配给包](/help/dsp/campaign-management/packages/package-settings.md)，以便使用Adobe Sensei进行报表和算法优化。
 
-权重推荐是为目标中的DSP属性量度自动生成的，只需单击一下即可应用所有权重推荐。 对以“ADSP_”为前缀的目标所做的所有权重更改均在两天内以算法方式应用于DSP。 有关权重建议的更多信息，请参阅有关“(Beta)新目标”的“优化指南”一章，该章可从“搜索”、“社交”和“Commerce”中获取。
+权重推荐是为DSP在目标中归因的量度自动生成的，只需单击一下即可应用所有权重推荐。 对以“ADSP_”为前缀的目标所做的所有权重更改均在两天内以算法方式应用于DSP。 有关权重建议的更多信息，请参阅有关“(Beta)新目标”的“优化指南”一章，该章可从“搜索”、“社交”和“Commerce”中获取。
 
 ## 创建自定义目标 {#custom-goal-create}
 
-要创建自定义目标，必须从[!DNL Search, Social, & Commerce]客户端设置中将DSP帐户链接到具有相同Adobe Experience Cloud组织ID的[!DNL Search, Social, & Commerce]帐户。 如果您的DSP帐户未链接到[!DNL Search, Social, & Commerce]帐户，请与您的Adobe帐户团队联系。
+要创建自定义目标，必须从[!DNL Search, Social, & Commerce]客户端设置中将DSP帐户链接到具有相同Adobe Experience Cloud组织ID的[!DNL Search, Social, & Commerce]帐户。 如果您的DSP帐户未关联到[!DNL Search, Social, & Commerce]帐户，请联系您的Adobe帐户团队。
 
 1. 登录到[!DNL Advertising Search, Social, & Commerce]，位于（北美用户） [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com)或（所有其他用户） [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com)。
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 对于任何设备上用于展示广告的跟踪收入$1，一(1)的非移动权重等于一(1)的值。 例如，非移动权重为1 (1)的$250转化报告为$250的转化。 如果为转化量度分配了0.5的非移动权重，则$250转化报告为$125的Adobe Advertising（$250转化* 0.5 [!UICONTROL Non-mobile Weight] = $125）。
+> 对于任何设备上用于展示广告的跟踪收入$1，一(1)的非移动权重等于一(1)的值。 例如，非移动权重为1 (1)的$250转化报告为$250的转化。 如果为转化量度分配了0.5的非移动权重，则$250转化在Adobe Advertising中报告为$125（$250转化* 0.5 [!UICONTROL Non-mobile Weight] = $125）。
 
 #### 优化目标为“[!UICONTROL Lowest Cost per Acquisition (CPA)]”的促销活动示例
 
@@ -104,13 +104,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 对于为在任何设备上显示广告跟踪的每个转化，一个(1)的非移动权重等于一个(1)的值。 例如，如果跟踪了10个申请提交转换，则报告了10个申请提交转换。 但是，如果为转化量度分配了0.5的非移动权重，则10次转化将在Adobe Advertising中报告为五(5)（10次转化* 0.5 [!UICONTROL Non-mobile Weight] = 5）。
+> 对于为在任何设备上显示广告跟踪的每个转化，一个(1)的非移动权重等于一个(1)的值。 例如，如果跟踪了10个申请提交转换，则报告了10个申请提交转换。 但是，如果为转化量度分配了0.5的非移动权重，则10次转化在Adobe Advertising中报告为五(5)（10次转化* 0.5 [!UICONTROL Non-mobile Weight] = 5）。
 
 ### 具有多个量度的自定义目标
 
 在以下两种情况下，您将在自定义目标中使用多个量度：
 
-* 您的营销活动目标有多个成功事件。 例如，您可能正在广告多个网站上的操作(PDF下载、联系我们，以及电子邮件注册)，并且所有操作都有助于实现您的CPA目标。 如果目标包括三个单独的量度，每个量度的非移动权重为1，则[!DNL Adobe Sensei]算法会将每个量度和用户设备类型视为同等重要性。 如果不同量度的成本或重要性不同，请相应地调整其相对权重。
+* 您的营销活动目标有多个成功事件。 例如，您可能在为多个网站操作(PDF下载、联系我们，以及电子邮件注册)打广告，所有这些操作都有助于您的CPA目标。 如果目标包括三个单独的量度，每个量度的非移动权重为1，则[!DNL Adobe Sensei]算法会将每个量度和用户设备类型视为同等重要性。 如果不同量度的成本或重要性不同，请相应地调整其相对权重。
 
 <!-- update image or delete it and adjust the wording above
 
