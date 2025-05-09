@@ -77,7 +77,7 @@ Adobe Advertising和Adobe Target使得营销人员能够更轻松地通过付费
 
    1. 验证区段数据是否可用：
 
-      1. [搜索[键值对](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html)的信号](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html)，以确定在哪个级别对区段用户进行分组。
+      1. [&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html)搜索[键值对](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html)的信号，以确定在哪个级别对区段用户进行分组。
 
          使用一个[支持的键](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html)，该键的值对应于您添加到Audience Manager展示事件像素中的宏。
 

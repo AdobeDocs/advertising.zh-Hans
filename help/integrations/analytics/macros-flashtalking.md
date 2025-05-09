@@ -69,6 +69,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [概述 [!DNL Analytics for Advertising]](overview.md)
->*  [!DNL Analytics]](/help/integrations/analytics/ids.md)使用的[Adobe Advertising ID
+>*  [!DNL Analytics][&#128279;](/help/integrations/analytics/ids.md)使用的Adobe Advertising ID
 >* [将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Google Campaign Manager 360] 添加标记](/help/integrations/analytics/macros-google-campaign-manager.md)
 
