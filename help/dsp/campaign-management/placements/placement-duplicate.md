@@ -3,9 +3,9 @@ title: 复制投放位置
 description: 了解如何复制一个或多个投放位置。
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,31 @@ ht-degree: 0%
    * 事件像素
    * 广告
    * 位置级别[!DNL DoubleVerify Authentic Brand Safety]区段（覆盖广告商级别区段）
+
+## 配置新投放位置的最佳实践
+
+>[!TIP]
+>
+>* 使用批量处理工作表可以[一次对多个营销活动组件进行更改](/help/dsp/campaign-management/campaign-components-review-edit.md)。
+* 使用广告标签页来[上传多个第三方广告](/help/dsp/campaign-management/ads/ad-create-multiple.md)。
+
+* 暂停新版面，直到准备好激活它们。
+
+* 考虑以下内容，并根据需要编辑新的版面设置：
+
+   * 账户是否有足够的资金来支付新的职位安排预算？
+
+   * 新版面是否需要与以前版面不同的预算？
+
+   * 上传创意内容（包括任何必要的自定义广告权重和计划），并将它们附加到投放位置。
+
+   * 根据需要将事件像素附加到投放位置和广告。
+
+   * 根据投放位置需要包括地理目标和投放位置级别[!DNL DoubleVerify Authentic Brand Safety]区段。
+
+   * 对于程序化保证交易，使用新交易ID并创建默认投放位置。
+
+   * 根据需要为[!UICONTROL Simple Ad Serving]个交易创建新投放位置。
 
 >[!MORELIKETHIS]
 >
