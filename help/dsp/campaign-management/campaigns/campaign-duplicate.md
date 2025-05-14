@@ -3,7 +3,7 @@ title: 复制营销活动
 description: 了解如何复制营销活动。
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
+source-git-commit: 762b78d8c8e1258efca6b8e1e37d09528d3a51f1
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
