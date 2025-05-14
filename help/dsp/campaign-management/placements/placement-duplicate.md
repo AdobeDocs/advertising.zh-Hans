@@ -74,7 +74,7 @@ ht-degree: 0%
 >[!TIP]
 >
 >* 使用批量处理工作表可以[一次对多个营销活动组件进行更改](/help/dsp/campaign-management/campaign-components-review-edit.md)。
-* 使用广告标签页来[上传多个第三方广告](/help/dsp/campaign-management/ads/ad-create-multiple.md)。
+>* 使用广告标签页来[上传多个第三方广告](/help/dsp/campaign-management/ads/ad-create-multiple.md)。
 
 * 暂停新版面，直到准备好激活它们。
 
