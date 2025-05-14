@@ -3,9 +3,9 @@ title: 复制投放位置
 description: 了解如何复制一个或多个投放位置。
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
+source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,7 @@ ht-degree: 0%
 原始投放位置中的所有设置都将重复，但以下情况除外：
 
 * 试验设置
+* 职位安排级别最低预算
 * （如果更改投放日期）自定义广告计划
 * （如果不附加广告）自定义广告权重和计划
 * [!UICONTROL Simple Ad Serving]个交易的计划性保证(PG)交易的默认投放位置和投放位置
@@ -82,7 +83,7 @@ ht-degree: 0%
 
    * 账户是否有足够的资金来支付新的职位安排预算？
 
-   * 新版面是否需要与以前版面不同的预算？
+   * 新版面是否需要与以前版面不同的预算？ 是否需要最低预算？
 
    * 上传创意内容（包括任何必要的自定义广告权重和计划），并将它们附加到投放位置。
 

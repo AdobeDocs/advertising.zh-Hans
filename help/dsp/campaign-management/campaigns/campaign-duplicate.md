@@ -3,9 +3,9 @@ title: 复制营销活动
 description: 了解如何复制营销活动。
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
+source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 0%
 原始投放位置中的所有设置都将重复，但以下情况除外：
 
 * 试验设置
+* 职位安排级别最低预算
 * （如果更改投放日期）自定义广告计划
 * （如果不附加广告）自定义广告权重和计划
 * [!UICONTROL Simple Ad Serving]个交易的计划性保证(PG)交易的默认投放位置和投放位置
@@ -66,6 +67,8 @@ ht-degree: 0%
    * 该帐户是否有足够的资金来支付新的营销活动预算？
 
    * 新营销活动是否需要与上一个营销活动不同的预算？
+
+   * 任何投放位置是否需要最低预算？
 
    * 上传创意内容（包括任何必要的自定义广告权重和计划），并将它们附加到投放位置。
 

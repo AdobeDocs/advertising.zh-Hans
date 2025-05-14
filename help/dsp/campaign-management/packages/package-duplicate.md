@@ -3,9 +3,9 @@ title: 复制包
 description: 了解如何复制包。
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
+source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,7 @@ ht-degree: 0%
 原始投放位置中的所有设置都将重复，但以下情况除外：
 
 * 试验设置
+* 职位安排级别最低预算
 * （如果更改投放日期）自定义广告计划
 * （如果不附加广告）自定义广告权重和计划
 * [!UICONTROL Simple Ad Serving]个交易的计划性保证(PG)交易的默认投放位置和投放位置
@@ -76,6 +77,8 @@ ht-degree: 0%
    * 该账户是否有足够的资金满足新的一揽子预算？
 
    * 新方案是否需要与上一个方案不同的预算？
+
+   * 任何投放位置是否需要最低预算？
 
    * 上传创意内容（包括任何必要的自定义广告权重和计划），并将它们附加到投放位置。
 
