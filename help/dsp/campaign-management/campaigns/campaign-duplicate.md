@@ -3,9 +3,9 @@ title: 复制营销活动
 description: 了解如何复制营销活动。
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 762b78d8c8e1258efca6b8e1e37d09528d3a51f1
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 * 暂停新营销活动，直到您准备好激活它。
 
-* 考虑以下内容，并根据需要编辑新的营销活动设置：
+* 考虑以下内容，并根据需要编辑新营销策划：
 
    * 该帐户是否有足够的资金来支付新的营销活动预算？
 

@@ -3,9 +3,9 @@ title: 复制包
 description: 了解如何复制包。
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 762b78d8c8e1258efca6b8e1e37d09528d3a51f1
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 * 暂停新包，直到您准备好激活它。
 
-* 请考虑以下事项，并根据需要编辑新的包设置：
+* 请考虑以下事项，并根据需要编辑新包：
 
    * 该账户是否有足够的资金满足新的一揽子预算？
 

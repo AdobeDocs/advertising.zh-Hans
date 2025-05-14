@@ -3,9 +3,9 @@ title: 复制投放位置
 description: 了解如何复制一个或多个投放位置。
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 762b78d8c8e1258efca6b8e1e37d09528d3a51f1
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 * 暂停新版面，直到准备好激活它们。
 
-* 考虑以下内容，并根据需要编辑新的版面设置：
+* 考虑以下内容，并根据需要编辑新版面：
 
    * 账户是否有足够的资金来支付新的职位安排预算？
 
