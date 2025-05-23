@@ -3,9 +3,9 @@ title: 将标准创意添加到创意库
 description: 了解如何将标准（非动态）创意添加到创意库。
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: d68c8c31a047c4615224e9ab19654e56b5e8c8f9
+source-git-commit: 38ba8473eae3df204f618eac1f20e605e57ece5a
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -22,16 +22,13 @@ ht-degree: 0%
 
 ## 将灵活的HTML广告添加到创意库 {#flexible-creative-add}
 
-<!-- Later:
-You can do either of the following: 
+您可以执行以下任一操作：
 
-* Upload your own flexible creatives in ZIP files.
+* 将您自己的灵活创意上传到ZIP文件中。
 
-* Use any of the predefined flexible creative templates as a starting point for your own flexible creative.
+* 使用任何上传到您帐户的预定义灵活创意模板作为您自己的灵活创意的起点。
 
-### Upload your own flexible creatives {#flexible-creative-upload}
-
--->
+### 上传您自己的灵活创意 {#flexible-creative-upload}
 
 您可以上传多个灵活的创意单位。 灵活的创意必须采用ZIP格式，并且最大可以为2 MB。 有关文件要求，请参阅[HTML5创作规范](html5-creative-specification.md)。
 
@@ -65,42 +62,48 @@ You can do either of the following:
 
 1. 单击&#x200B;**[!UICONTROL Create]**
 
-<!-- In a later phase:
+### 使用模板添加灵活的创意 {#flexible-creative-use-template}
 
-### Add flexible creatives using a template {#flexible-creative-use-template}
+您可以使用上传到帐户的任何灵活的创意模板来构建预定义大小的广告。 选择要使用的模板后，您将编辑点击标记和属性。&lt;！ — 如果将模板下载功能添加回来，请将此替换最后一句：您可以a\)选择要使用的模板，然后编辑点击标记和属性；或b\) [以ZIP文件格式下载模板](#download-flexible-creative-template)，脱机编辑内容以构建您自己的创意，然后[将编辑后的文件上传为新的创意](flexible-creative-upload)。>
 
-You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads. Once you select a template to use, you'll edit the click tags and attributes.<!-- Replace last sentence with this if we add the template download feature back:  You can either a\) select a template to use, and then edit the click tags and attributes; or b\) [download a template as a ZIP file](#download-flexible-creative-template), edit the contents offline to build your own creative, and then [upload the edited file as a new creative](flexible-creative-upload).>
+<!-- Not currently an option:
+You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
 
 For information about the attributes available in predefined templates, see "[Available flexible creative templates](#flexible-creative-templates-available)."
+-->
 
-1. In the main menu, click **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
-1. Click the library name.
+1. 单击库名称。
 
-1. On the **[!UICONTROL Creatives]** tab, click the **[!UICONTROL Standard Ads]** subtab.
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL Standard Ads]**&#x200B;子选项卡。
 
-1. Click **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Flexible]**.
+1. 单击&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Flexible]**。
 
-1. Click **[!UICONTROL Browse System Flexible Templates]**.
+1. 单击&#x200B;**[!UICONTROL Browse System Flexible Templates]**。
 
-
-
-[The following are old instructions; see how this works in the new UI]
-
+<!-- Not options as of 5/22/25:
 
 1. In the left panel, select the creative size to see all available templates for that size.
 
-1. Under the template name, click **[!UICONTROL Use This Creative]**.
+1. Select the template:
 
-1. Edit the [flexible HTML5 creative settings](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) to include your own click tags, images, and other attributes.
-
-   The maximum file size of the creative, once it's zipped, is 2 MB.[Will saving the creative zip it??]
-
-1. (Optional) Once you've made your changes, click []()[add image] to preview the new creative. 
-
-1. Click **[!UICONTROL Save]**.
-
+   * In card view, click **[!UICONTROL ...]** next to the template name, and then click **[!UICONTROL Use Selected]**.
+     
+   * In table view, hold the cursor over the row and click **[!UICONTROL Use Selected]**.
 -->
+
+1. （可选）要预览模板，请单击模板名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Preview]**。
+
+   您可以选择下载模板
+
+1. 单击模板名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Use Selected]**。
+
+1. 编辑[灵活的HTML5创作设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5)以指定语言并包含您自己的点击标记、图像和其他属性。
+
+   创意文件压缩后的最大文件大小为2 MB。<!-- Still true? -->
+
+1. 单击&#x200B;**[!UICONTROL Create]**。
 
 ## 将HTML5创意添加到创意库
 
