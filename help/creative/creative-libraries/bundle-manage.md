@@ -3,9 +3,9 @@ title: 管理创意包
 description: 了解xxxx。
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
+source-git-commit: ac26d6dbcfc154820ca9f5dadc182d51d627642a
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ ht-degree: 0%
 
      要选择所有行，请选中左上角的全局复选框。
 
-## 预览捆绑包中的创意
+## 预览捆绑包中的单个创意
 
 您可以在查看者看到创意时预览它，包括超链接。
 
@@ -186,6 +186,31 @@ ht-degree: 0%
 
    将按照浏览器的正常过程下载文件。
 
+## 预览捆绑包中的所有创意内容
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击库名称。
+
+1. 单击&#x200B;**[!UICONTROL Bundles]**&#x200B;选项卡。
+
+1. 选择包：
+
+   * 在卡片视图中，单击包名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Preview]**。
+
+   * 在表视图中，将光标悬停在行上并单击&#x200B;**[!UICONTROL Preview]**。
+
+1. （可选）要按语言筛选创意，请在&#x200B;**[!UICONTROL Language]**&#x200B;列表中选择一个选项，然后单击预览右上角的&#x200B;**[!UICONTROL Preview]**。
+
+1. （可选）要按大小筛选创意，请在&#x200B;**[!UICONTROL Size]**&#x200B;列表中选择一个选项，然后单击预览右上角的&#x200B;**[!UICONTROL Preview]**。
+
+1. （可选）要调整屏幕中图像的大小，请在&#x200B;**[!UICONTROL Zoom]**&#x200B;列表中选择一个选项，其范围为图像大小的10%到100%。
+
+1. （可选）要共享演示URL，以便未登录[!DNL Creative]的其他人能够预览创意，请执行以下操作：
+
+   1. 单击预览右上角的![共享](/help/creative/assets/share.png "共享")。
+
+   1. 在[!UICONTROL Share Demo URL]对话框中，单击&#x200B;**[!UICONTROL Copy]**&#x200B;以将URL复制到剪贴板，以便与其他人共享。
 
 <!-- Not there as of 1/22/25:
 
@@ -253,6 +278,7 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 >[!MORELIKETHIS]
 >
 >* [向体验中的最终节点分配和取消分配创意包](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [预览创意](/help/creative/creative-libraries/creative-preview.md)
 >* [将标准创意添加到创意库](/help/creative/creative-libraries/creative-add-standard.md)
 >* [管理创意库](/help/creative/creative-libraries/creative-library-manage.md)
 >* [关于您的创意库](/help/creative/creative-libraries/creative-libraries-about.md)
