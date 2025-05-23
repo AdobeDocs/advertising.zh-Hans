@@ -3,14 +3,14 @@ title: 将创意内容附加到创意捆绑包
 description: 了解如何将创意内容附加到创意捆绑包。
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: add8f3507ca9b79cea862d097fb603c68eb09e3c
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
 
-# 将<!-- and detach -->创意内容附加到创意包
+# 将创意内容附加到创意捆绑包
 
 *已关闭的测试版*
 
@@ -26,7 +26,7 @@ You can also detach a creative from a bundle to remove the association between t
 >
 >您可以<!-- also --> [将创意内容附加到捆绑中，并将创意内容从捆绑视图中分离](/help/creative/creative-libraries/bundle-manage.md)。
 
-<!-- Hide header until second procedure is available:
+<!-- Hide header until second procedure is available (if we add that):
 
 ## Attach creatives to creative bundles
 
@@ -45,6 +45,8 @@ You can also detach a creative from a bundle to remove the association between t
    * 在表视图中，将光标悬停在行上并单击&#x200B;**[!UICONTROL Attach to Bundles]**。
 
    适合该创意类型的每个包都列在右框架中。 已附加创意内容的捆绑包会列出，但无法选择。
+
+1. （可选）通过单击![卡片视图](/help/creative/assets/card-view-button.png "卡片视图")以打开卡片视图或单击![表/列表视图](/help/creative/assets/table-view-button.png "表格视图")以返回到表视图，在默认表视图和可用捆绑包的卡片视图之间切换。
 
 1. 在右框架中，选中要附加创意的每个包旁边的复选框，然后单击&#x200B;**[!UICONTROL Attach Creative to Bundle]**。
 

@@ -3,9 +3,9 @@ title: 预览创意
 description: 了解如何打开创意内容的预览。
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: 845ab0192a1cf429a282fbf934be10e1307d2034
+source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,10 @@ ht-degree: 0%
 1. （可选）要调整屏幕中图像的大小，请在&#x200B;**[!UICONTROL Zoom]**&#x200B;列表中选择一个选项，其范围为图像大小的10%到100%。
 
 1. (灵活的HTML5创意；可选)要在创作的框架之间滚动，请单击&#x200B;**\&lt;**&#x200B;和&#x200B;**\>**。
+
+1. （可选）要打开创意的登陆页面，请单击创意内容。
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. （可选）要下载创意，请单击![下载](/help/creative/assets/download.png "下载")。
 

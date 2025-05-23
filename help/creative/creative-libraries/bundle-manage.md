@@ -3,9 +3,9 @@ title: 管理创意包
 description: 了解xxxx。
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: ac26d6dbcfc154820ca9f5dadc182d51d627642a
+source-git-commit: 0098a35334f7604784b826da9a4a50a31edbd267
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1359'
 ht-degree: 0%
 
 ---
@@ -106,11 +106,9 @@ ht-degree: 0%
 
 您可以将[现有的标准创意](/help/creative/creative-libraries/creative-libraries-about.md)附加到标准捆绑包并将现有的动态创意<!-- [existing dynamic creatives](creative-dynamic-manage.md) -->附加到动态捆绑包。 将创意内容附加到捆绑包后，创意内容便可在捆绑包所分配到的所有体验中可用。 每个包只能包含每个\[创意大小+语言\]组合中的一个。
 
-<!--
 >[!NOTE]
 >
->You can also [attach creatives to bundles from the Standard Ads and Dynamic Ads views](creative-attach-detach-bundles.md).
--->
+>您还可以[将创意内容附加到“标准广告”和“动态广告”视图中的包](creative-attach-detach-bundles.md)。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
@@ -127,6 +125,8 @@ ht-degree: 0%
    * 在表视图中，将光标悬停在行上并单击&#x200B;**[!UICONTROL Attach Creatives]**。
 
    符合该捆绑包类型的每个创意内容都列在右框架中。 已附加到该捆绑包的创意已列出，但不可选择。
+
+1. （可选）通过单击![卡片视图](/help/creative/assets/card-view-button.png "卡片视图")以打开卡片视图或单击![表/列表视图](/help/creative/assets/table-view-button.png "表格视图")以返回到表视图，在默认表视图和可用捆绑包的卡片视图之间切换。
 
 1. 在右框中，选中要附加到捆绑包的每个创意内容旁边的复选框，然后单击&#x200B;**[!UICONTROL Attach Creative to Bundle]**。
 
@@ -182,6 +182,10 @@ ht-degree: 0%
 
 <!-- Not there as of 1/22/24:  1. (Flexible HTML5 creatives; optional) To show all frames for the creative, select **Show frames**. -->
 
+1. （可选）要打开创意的登陆页面，请单击创意内容。
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
 1. （可选）要下载创意，请单击![下载](/help/creative/assets/download.png "下载")。
 
    将按照浏览器的正常过程下载文件。
@@ -205,6 +209,10 @@ ht-degree: 0%
 1. （可选）要按大小筛选创意，请在&#x200B;**[!UICONTROL Size]**&#x200B;列表中选择一个选项，然后单击预览右上角的&#x200B;**[!UICONTROL Preview]**。
 
 1. （可选）要调整屏幕中图像的大小，请在&#x200B;**[!UICONTROL Zoom]**&#x200B;列表中选择一个选项，其范围为图像大小的10%到100%。
+
+1. （可选）要打开创意的登陆页面，请单击该创意内容。
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. （可选）要共享演示URL，以便未登录[!DNL Creative]的其他人能够预览创意，请执行以下操作：
 
