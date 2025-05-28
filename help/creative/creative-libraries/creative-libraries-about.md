@@ -3,7 +3,7 @@ title: 关于您的创意库
 description: 了解如何管理广告体验的创意。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: c69b01e12801947f156120e50615225eb3dad261
+source-git-commit: d7e2403e13c0f9edf1505ca7c50aea3de34f1f3a
 workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 0%
@@ -40,9 +40,9 @@ ht-degree: 0%
 
 #### 灵活的HTML5
 
-灵活的HTML5创意人员是HTML5创意人员，其所有图像和其他属性均作为标准HTML标记，您可以直接在[!DNL Creative]中、创意库或单个体验（这会创建原始创意内容的变体）中编辑这些内容。 灵活的HTML5创意人员对[广告组合](https://flexibleads.iabtechlab.com/)<!-- Change to https://iabtechlab.com/standards/iab-new-ad-portfolio-guidelines/ if the broken page isn't fixed -->使用交互式Advertising Bureau (IAB)技术实验室的标准，广告格式大小是灵活的（而不是固定的），并且基于广告的长宽比和大小范围，而且广告在设备和发布者站点间保持分辨率。
+灵活的HTML5创意人员是HTML5创意人员，其所有图像和其他属性均作为标准HTML标记，您可以直接在[!DNL Creative]中、创意库或单个体验（这会创建原始创意内容的变体）中编辑这些内容。 灵活的HTML5创意人员对[广告组合](https://flexibleads.iabtechlab.com/)<!-- Change to https://iabtechlab.com/standards/iab-new-ad-portfolio-guidelines/ if the broken page isn't fixed -->使用交互式Advertising Bureau (IAB)技术实验室的标准，广告格式大小是灵活的（而不是固定的），并且基于广告的长宽比和大小范围，并且广告在设备和发布者站点间保持分辨率。<!-- Yet our flexible creatives and templates are for a single specific ad size (in pixels), not an aspect ration with size range. Clarify -->
 
-您可以将灵活的HTML5创意内容上传为ZIP文件，也可以使用您的帐户可用的模板之一作为起点 — >。 请参阅灵活的HTML5创意的[规范](html5-creative-specification.md)。
+您可以将灵活的HTML5创意内容上传为ZIP文件，也可以使用您帐户可用的模板之一作为起点。 请参阅灵活的HTML5创意的[规范](html5-creative-specification.md)。
 
 <!-- Will flattening the view be possible later?
 The card view, by default, includes a card for each base flexible HTML5 creative you've uploaded, with the number of creative variations [Delete old description? : an indicator of how many variations of the creative exist]. You can optionally flatten the card view to include separate cards for each base creative and each derivation. The table view is always flattened.
