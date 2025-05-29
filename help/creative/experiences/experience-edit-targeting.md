@@ -3,9 +3,9 @@ title: 使用决策树定位编辑体验
 description: 了解如何使用决策树编辑目标广告体验的设置。
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: 47a230347059a26c6c1c2db7c73306a376062478
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,15 @@ ht-degree: 0%
 
    * 在表格视图中，将光标悬停在行上，单击&#x200B;**[!UICONTROL More]**，然后单击&#x200B;**[!UICONTROL Edit]**。
 
-1. 编辑[常规体验设置](experience-settings-targeting.md)。
+   默认情况下，决策树将打开。
 
-1. （可选）要编辑决策树，请单击右上角的&#x200B;**[!UICONTROL Decision Tree]**，然后执行以下任一操作：
+1. （可选）根据需要切换决策树和常规设置：
+
+   * 要从决策树中打开常规设置，请单击右上角的&#x200B;**[!UICONTROL Experience Form]**。
+
+   * 要从常规设置中打开决策树，请单击右上角的&#x200B;**[!UICONTROL Decision Tree]**。
+
+1. （可选）要编辑决策树，请执行以下任一操作：
 
    * （[正在处理](experience-about.md#experience-statuses)体验）执行以下操作之一：
 
@@ -65,6 +71,8 @@ ht-degree: 0%
          * [自定义分配的包中创意的跟踪URL](experience-tracking-urls-targeting.md)。
 
          * [为分配的捆绑自定义创意优化和计划](experience-optimization-scheduling-targeting.md)。
+
+1. （可选）编辑[常规体验设置](experience-settings-targeting.md)。
 
 1. 单击&#x200B;**[!UICONTROL Save]**，然后执行以下操作。
 

@@ -3,9 +3,9 @@ title: 使用决策树定位创建体验
 description: 了解如何使用决策树创建定向广告体验。
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: a631ac2db1f4807a3a55b41d79acfe64c04496c3
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,12 @@ ht-degree: 0%
          * [自定义分配的包中创意的跟踪URL](experience-tracking-urls-targeting.md)。
 
          * [为分配的捆绑自定义创意优化和计划](experience-optimization-scheduling-targeting.md)。
+
+1. （可选）在决策树和常规设置之间切换：
+
+   * 要从决策树中打开常规设置，请单击右上角的&#x200B;**[!UICONTROL Experience Form]**。
+
+   * 要从常规设置中打开决策树，请单击右上角的&#x200B;**[!UICONTROL Decision Tree]**。
 
 1. 单击&#x200B;**[!UICONTROL Save]**，然后执行以下操作。
 
