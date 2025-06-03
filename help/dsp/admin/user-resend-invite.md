@@ -3,14 +3,16 @@ title: 重新发送待处理用户邀请
 description: 了解如何重新发送待处理用户邀请。
 role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
-source-git-commit: a8ee699137d683986264e841b03bc292ce7b7843
+source-git-commit: 3ce910a553aa86836e04bd6e5d2a951db78070e1
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
 
 # 重新发送待处理用户邀请
+
+*仅限管理员用户*
 
 管理员用户可以向具有组织帐户待定邀请的用户重新发送邀请。 邀请链接将在24小时后过期。
 
