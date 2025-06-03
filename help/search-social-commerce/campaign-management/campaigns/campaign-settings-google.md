@@ -57,7 +57,7 @@ ht-degree: 0%
 {{$include /help/_includes/end-date.md}}
 
 **[!UICONTROL Search Partners]：** （仅针对搜索网络的营销活动，包括购物营销活动）节目
-您在广告网络的搜索合作伙伴网络上的广告。 默认情况下，此选项为*[!UICONTROL Off]*。
+您在广告网络的搜索合作伙伴网络上的广告。 默认情况下，此选项为&#x200B;*[!UICONTROL Off]*。
 
 ## [!UICONTROL Budget Options]
 
