@@ -3,9 +3,9 @@ title: '[!DNL Google Ads]营销活动设置'
 description: 引用 [!DNL Google Ads] 营销活动的设置。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: f5e453975f693777e5717924d471b9de9f1f651b
+source-git-commit: cbe18b75d49ca53460883931ecea21aa6c2d8326
 workflow-type: tm+mt
-source-wordcount: '2471'
+source-wordcount: '2472'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
 {{$include /help/_includes/end-date.md}}
 
 **[!UICONTROL Search Partners]：** （仅针对搜索网络的营销活动，包括购物营销活动）节目
-您在广告网络的搜索合作伙伴网络上的广告。 默认情况下，此选项为&#x200B;*[!UICONTROL Off]*。
+您在广告网络的搜索合作伙伴网络上的广告。 默认情况下，此选项为*[!UICONTROL Off]*。
 
 ## [!UICONTROL Budget Options]
 
@@ -347,7 +347,7 @@ ht-degree: 0%
 
 * 要从[!UICONTROL Asset Library]中选择资源，请单击&#x200B;**[!UICONTROL Asset Library]**&#x200B;并选择资源。
 
-**[!UICONTROL Call to Action]：**&#x200B;要包含在广告中的行动号召。 默认情况下，*[!UICONTROL Automated]*&#x200B;处于选中状态，[!DNL Google Ads]将选择行动号召。 您可以根据需要选择其它活动。
+**[!UICONTROL Call to Action]：**&#x200B;要包含在广告中的call to action。 默认情况下，已选择&#x200B;*[!UICONTROL Automated]*，[!DNL Google Ads]将选择call to action。 您可以根据需要选择其它活动。
 
 **[!UICONTROL Business Name]：**&#x200B;业务名称，最多25个字符。
 
