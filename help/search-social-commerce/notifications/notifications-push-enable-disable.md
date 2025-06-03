@@ -3,7 +3,7 @@ title: 启用和禁用来自[!UICONTROL Notification Center]的推送通知
 description: 了解如何从[!UICONTROL Notification Center]启用和禁用推送通知。
 exl-id: f0e91e76-eb1e-4ff0-9a52-e9bc587552a2
 feature: Search Notifications
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7c6b98ab1c8813fea251c48956ffe78ef7bb3bf7
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 3. 在确认消息中，单击&#x200B;**[!UICONTROL Enable]**。
 
-4. 将浏览器配置为允许来自[!UICONTROL Notification Center] at`https://alert-center-ui-na.efrontier.com`的通知。
+4. 将浏览器配置为允许来自[!UICONTROL Notification Center] （位于`https://alert-center-ui-na.efrontier.com`）的通知。
 
    默认通知设置因浏览器而异，您可以a)自动显示允许来自[!UICONTROL Notification Center]的通知的选项，或者b)需要手动管理通知设置。 例如，在[!DNL Microsoft Edge]中，您可以允许浏览器工具栏中的[!UICONTROL Notification Center]通知。 请参阅浏览器帮助中的说明。
 
