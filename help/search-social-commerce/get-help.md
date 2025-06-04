@@ -1,10 +1,11 @@
 ---
 title: 获取帮助
 description: 了解如何查看在线帮助和社区资源以及如何获得技术支持。
+feature: Search Introduction
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: a900c0ef919c36810ce115b51dc432c0008f3419
+source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -25,9 +26,11 @@ ht-degree: 0%
 
    * ![帮助](/help/search-social-commerce/assets/help-main-menu.png "帮助") > **搜索、社交和Commerce优化指南**。
 
-## 咨询Adobe Advertising社区
+<!--
+## Ask the Adobe Advertising community
 
-在[Adobe Advertising社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community)中查找您的问题答案。
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
+-->
 
 ## 联系人[!DNL Adobe]
 
