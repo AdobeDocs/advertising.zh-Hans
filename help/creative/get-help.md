@@ -2,7 +2,7 @@
 title: 获取帮助
 description: 了解如何查看在线帮助和社区资源以及如何获得技术支持。
 feature: Creative Introduction
-source-git-commit: 8e09fd00597203bd837957fad663e6648655be43
+source-git-commit: b610a0b8db410759cae79a6193c38abc573c28ba
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -10,6 +10,8 @@ ht-degree: 0%
 ---
 
 # 获取帮助
+
+<!-- Can remove this page when we move this into DSP help -->
 
 您可以从用户界面中的任何页面打开联机帮助。 如果联机帮助未回答您的问题，请与我们联系。
 
