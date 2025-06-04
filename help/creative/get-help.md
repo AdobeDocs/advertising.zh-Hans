@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## 打开联机帮助
 
-要打开说明如何使用所有功能的完整帮助集，请在主菜单中单击&#x200B;**[!UICONTROL Help]**，然后打开“[DNL Creative]”一章。
+要打开说明如何使用所有功能的完整帮助集，请在主菜单中单击&#x200B;**[!UICONTROL Help]**，然后打开“[!DNL Creative]”一章。
 
 <!--
 ## Ask the Adobe Advertising community
