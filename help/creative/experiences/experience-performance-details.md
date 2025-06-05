@@ -3,9 +3,9 @@ title: 体验级性能报表
 description: 了解如何查看体验级性能报表。
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: f7e022d8753eb41f5eed8667b9af66085f912bff
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
       -->
 
-* **创意效果**&#x200B;选项卡*：按创意和捆绑包或广告标记列出的效果概述，包括：
+* **Creative性能**&#x200B;选项卡*：按创意和捆绑包或广告标记显示的性能概述，包括：
 
    * **创意内容**&#x200B;子选项卡：体验中每个创意内容的展示次数、点击次数和CTR总数。<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
 
@@ -158,12 +158,14 @@ ht-degree: 0%
 
    * （仅具有决策树定位的体验；可选）要划分每个应用的广告目标的性能，请启用&#x200B;**[!UICONTROL Split targeting]**。
 
-1. （可选）要以电子表格(XLSX)格式下载[!DNL Microsoft Excel]文件中的数据，请单击工具栏中的![下载](/help/creative/assets/download.png "下载")。
+## 下载体验的性能报表
 
-   将按照浏览器的正常过程下载文件。
+* 在性能报表顶部的工具栏中，单击![下载](/help/creative/assets/download.png "下载")。
+
+  按照浏览器的正常过程，该文件下载为电子表格(XLSX)格式的[!DNL Microsoft Excel]文件。
 
 >[!MORELIKETHIS]
 >
->* [自定义创意报告](/help/creative/report-custom-creative.md)
+>* [自定义Creative报表](/help/creative/report-custom-creative.md)
 >* [下载视图中的所有体验](/help/creative/experiences/experience-download-view.md)
 >* [关于Advertising Creative中的体验](/help/creative/experiences/experience-about.md)
