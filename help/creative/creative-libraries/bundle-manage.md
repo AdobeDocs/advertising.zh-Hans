@@ -3,9 +3,9 @@ title: 管理创意包
 description: 了解xxxx。
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: a07af2b3a49d47f5e4ec276ab82520df46d6068a
+source-git-commit: baba02d2537828f1ed0b5c7842d1f987a55f5ef0
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,8 @@ ht-degree: 0%
 >
 >您还可以[将创意内容附加到“标准广告”和“动态广告”视图中的包](creative-attach-detach-bundles.md)。
 
+### 将创意内容从捆绑包列表附加到捆绑包
+
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
 1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
@@ -129,6 +131,24 @@ ht-degree: 0%
 1. （可选）通过单击![卡片视图](/help/creative/assets/card-view-button.png "卡片视图")以打开卡片视图或单击![表/列表视图](/help/creative/assets/table-view-button.png "表格视图")以返回到表视图，在默认表视图和可用捆绑包的卡片视图之间切换。
 
 1. 在右框中，选中要附加到捆绑包的每个创意内容旁边的复选框，然后单击&#x200B;**[!UICONTROL Attach Creative to Bundle]**。
+
+### 将创意内容从捆绑包的创意列表附加到捆绑包
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
+
+1. 单击库名称。
+
+1. 单击&#x200B;**[!UICONTROL Bundles]**&#x200B;选项卡。
+
+1. 单击束卡或行可查看束中的所有创意。
+
+1. 单击右上角的&#x200B;**[!UICONTROL Attach Creatives]**。
+
+1. 在右侧面板中，选中要附加的每个创意内容的复选框。
+
+1. 单击&#x200B;**[!UICONTROL Attach Creatives to Bundle]**。
 
 ## 将创意内容从捆绑包中分离 {#bundle-detach-creatives}
 
