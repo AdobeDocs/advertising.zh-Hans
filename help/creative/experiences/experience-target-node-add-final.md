@@ -3,9 +3,9 @@ title: 将目标节点添加到体验中的最终级别
 description: 了解如何将目标节点添加到广告体验的最终目标级别。
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 9f93990bcd6b3c8f7d6fb29186da620ac6d4ecf5
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,9 @@ ht-degree: 0%
 
       1. 单击&#x200B;**[!UICONTROL Apply]**。
 
-   * 对于数据传递目标，请选择&#x200B;**[!UICONTROL Data Pass]**，输入单个数据传递值，然后单击&#x200B;**[!UICONTROL Apply]**。
+   * 对于数据传递目标，请选择&#x200B;**[!UICONTROL Data Pass]**，还可以自定义数据传递密钥，输入单个数据传递值，然后单击&#x200B;**[!UICONTROL Apply]**。
 
-   已在[体验设置](experience-settings-targeting.md)的[!UICONTROL Advanced]部分的&#x200B;**[!UICONTROL Data Pass]**&#x200B;字段中设置了键值对的键。
+   已在[体验设置](experience-settings-targeting.md)的[!UICONTROL Advanced]部分的&#x200B;**[!UICONTROL Data Pass]**&#x200B;字段中设置了键值对中的键的默认值。 您可以选择自定义密钥。
 
    * 对于重定位像素目标，请选择&#x200B;**[!UICONTROL RT Pixel]**，选择要使用的单个重定位像素以及显示创意所需的任何像素属性的值，然后单击&#x200B;**[!UICONTROL Apply]**。
 

@@ -4,9 +4,9 @@ user-guide-title: Advertising Creative指南
 user-guide-description: 了解使用Advertising Creative所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: Creative指南
 hide: true
-source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
+source-git-commit: 98ae35b8ef428d662e329ba6dd77e28216575ae1
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,14 @@ ht-degree: 0%
 + [新增功能](/help/creative/home.md)
 + 简介 {#introduction}
    + [自定义数据视图](/help/creative/introduction/customize-data-views.md)
-   + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Creative库 {#creative-libraries}
    + [关于您的创意库](/help/creative/creative-libraries/creative-libraries-about.md)
    + [支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)
    + [管理创意库](/help/creative/creative-libraries/creative-library-manage.md)
    + 创意人员 {#creatives}
+      + [配置 [!DNL Creative] 以访问Adobe Experience Manager图像资源](/help/creative/creative-libraries/aem-assets-configure.md)
       + 标准创意人员 {#standard-creatives}
          + [将标准创意添加到创意库](/help/creative/creative-libraries/creative-add-standard.md)
          + [编辑标准创意](/help/creative/creative-libraries/creative-edit-standard.md)
@@ -76,4 +77,4 @@ ht-degree: 0%
 + [正在重新定位像素](/help/creative/pixels/retargeting-pixel-manage.md)
 + [可用于跟踪URL的宏](/help/creative/creative-macros.md)
 + [获取帮助](/help/creative/get-help.md)
-+ [Adobe Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans){target="_blank"}
++ [Adobe Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

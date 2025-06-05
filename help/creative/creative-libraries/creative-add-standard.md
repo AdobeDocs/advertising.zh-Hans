@@ -3,9 +3,9 @@ title: 将标准创意添加到创意库
 description: 了解如何将标准（非动态）创意添加到创意库。
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 38ba8473eae3df204f618eac1f20e605e57ece5a
+source-git-commit: 98ae35b8ef428d662e329ba6dd77e28216575ae1
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ### 使用模板添加灵活的创意 {#flexible-creative-use-template}
 
-您可以使用上传到帐户的任何灵活的创意模板来构建预定义大小的广告。 选择要使用的模板后，您将编辑点击标记和属性。&lt;！ — 如果将模板下载功能添加回来，请将此替换最后一句：您可以a\)选择要使用的模板，然后编辑点击标记和属性；或b\) [以ZIP文件格式下载模板](#download-flexible-creative-template)，脱机编辑内容以构建您自己的创意，然后[将编辑后的文件上传为新的创意] (flexible-creative-upload)。>
+您可以使用上传到帐户的任何灵活的创意模板来构建预定义大小的广告。 选择要使用的模板后，您将编辑点击标记和属性。&lt;！ — 如果将模板下载功能添加回来，请将此替换最后一句：您可以a\)选择要使用的模板，然后编辑点击标记和属性；或b\) [以ZIP文件格式下载模板](#download-flexible-creative-template)，脱机编辑内容以构建您自己的创意，然后[将编辑后的文件上传为新的创意](flexible-creative-upload)。>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -169,13 +169,15 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
       * 单击&#x200B;**[!UICONTROL select a file]**&#x200B;在您的设备或网络上查找文件。
 
-   * 对于Adobe Experience Manager库中的图像，请执行以下操作：
+   * 对于连接到您的DSP帐户](/help/creative/creative-libraries/aem-assets-configure.md)的[Adobe Experience Manager库中的图像，请执行以下操作：
 
       1. 单击&#x200B;**[!UICONTROL AEM Asset Library]**。
 
       1. 登录到您的Experience Manager帐户。
 
       1. 在[!UICONTROL Assets]或[!UICONTROL Collections]视图中查找并选择文件，然后单击右上角的&#x200B;**[!UICONTROL Select]**。
+
+         <!-- If the existing asset has multiple quality options, [!DNL Creative] downloads the primary asset, or the asset with the highest resolution within some upper limit [verify what it is and how this works]. [If an asset is part of an image set, ... primary asset in the image set. -->
 
 1. 添加或删除图像：
 
