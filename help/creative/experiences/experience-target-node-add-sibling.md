@@ -2,9 +2,10 @@
 title: 在体验中的节点之间添加同级目标节点
 description: 了解如何将同级节点添加到具有目标或与具有目标的节点处于同一级别的任何节点。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
+source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ In an existing experience,
 
 1. 指定目标：
 
-   * 对于“Adobe受众”目标，请执行以下操作：
+   * 对于Adobe受众目标，请执行以下操作：
 
       1. 单击&#x200B;**[!UICONTROL Click to Browse]**&#x200B;以打开您的[!UICONTROL Audience Targeting]选项，打开&#x200B;**[!UICONTROL Adobe Segments]**&#x200B;选项卡，指定广告商的一个或多个[!DNL Adobe]受众目标，然后单击&#x200B;**[!UICONTROL Save]**。
 
@@ -51,9 +52,9 @@ In an existing experience,
 
       1. 单击&#x200B;**[!UICONTROL Apply]**。
 
-   * 对于数据传递目标，请输入单个数据传递值，然后单击&#x200B;**[!UICONTROL Apply]**。
+   * 对于数据传递目标，可以选择自定义数据传递密钥，输入单个数据传递值，然后单击&#x200B;**[!UICONTROL Apply]**。
 
-   键值对的键已在[体验设置](experience-settings-targeting.md)的[!UICONTROL Advanced]部分的&#x200B;**[!UICONTROL Data Pass]**&#x200B;字段中设置，您无法添加其他键。
+     已在[体验设置](experience-settings-targeting.md)的[!UICONTROL Advanced]部分的&#x200B;**[!UICONTROL Data Pass]**&#x200B;字段中设置了键值对中的键的默认值。 您可以选择自定义密钥。
 
    * 要重新定位像素目标，请选择要使用的重新定位像素，以及任何必须存在的像素属性的所需值，以显示创意。 然后单击&#x200B;**[!UICONTROL Apply]**。
 

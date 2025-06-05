@@ -3,9 +3,9 @@ title: 在体验中的节点之间添加目标节点
 description: 了解如何在广告体验中的目标节点之间添加目标节点。
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -67,9 +67,9 @@ ht-degree: 0%
 
          1. 单击&#x200B;**[!UICONTROL Apply]**。
 
-      * 对于数据传递目标，请输入单个数据传递值，然后单击&#x200B;**[!UICONTROL Apply]**。
+      * 对于数据传递目标，可以选择自定义数据传递密钥，输入单个数据传递值，然后单击&#x200B;**[!UICONTROL Apply]**。
 
-        已在[体验设置](experience-settings-targeting.md)的[!UICONTROL Advanced]部分的&#x200B;**[!UICONTROL Data Pass]**&#x200B;字段中设置了键值对的键。
+        已在[体验设置](experience-settings-targeting.md)的[!UICONTROL Advanced]部分的&#x200B;**[!UICONTROL Data Pass]**&#x200B;字段中设置了键值对中的键的默认值。 您可以选择自定义密钥。
 
       * 对于重定位像素目标，请选择要使用的单个重定位像素以及显示创意所需的任何像素属性的值，然后单击&#x200B;**[!UICONTROL Apply]**。
 
