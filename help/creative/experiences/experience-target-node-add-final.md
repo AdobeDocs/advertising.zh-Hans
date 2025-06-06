@@ -3,9 +3,9 @@ title: 将目标节点添加到体验中的最终级别
 description: 了解如何将目标节点添加到广告体验的最终目标级别。
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 9f93990bcd6b3c8f7d6fb29186da620ac6d4ecf5
+source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
       1. （可选）要在指定多个受众时创建多个目标节点，请选择&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-         此功能为每个指定的受众创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定的受众。
+         此功能为每个指定的受众创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定的受众（[!DNL Boolean] `AND`语句）。
 
       1. 单击&#x200B;**[!UICONTROL Apply]**。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
       1. （可选）要在指定多个地理目标时创建多个目标节点，请选择&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-         此功能为每个指定的地理目标创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定位置。
+         此功能为每个指定的地理目标创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定的位置（[!DNL Boolean] `AND`语句）。
 
       1. 单击&#x200B;**[!UICONTROL Apply]**。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
       1. （可选）要在指定多个地理目标时创建多个目标节点，请选择&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-         此功能为每个指定的地理目标创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定位置。
+         此功能为每个指定的地理目标创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定的位置（[!DNL Boolean] `AND`语句）。
 
       1. 单击&#x200B;**[!UICONTROL Apply]**。
 

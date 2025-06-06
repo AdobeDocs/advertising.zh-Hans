@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: false
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: ec551eb840ef1d35091426842458cde17b23863e
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,14 @@ ht-degree: 0%
 
 *已关闭的测试版*
 
-<!-- The following features are new or recently changed.  -->
+<!-- The following features are new or recently changed. -->
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2025年5月21日 | [!UICONTROL Creative Libraries] | 您现在可以将图像从Adobe Experience Manager资源库添加到[!UICONTROL Creative Libraries]，以便在广告体验中使用这些图像。 | 请参阅&quot;[配置对Adobe Experience Manager图像资源的访问权限](/help/creative/creative-libraries/aem-assets-configure.md)&quot;和&quot;[将标准创意添加到创意库](/help/creative/creative-libraries/creative-add-standard.md)&quot;。 |
 | 2025年2月10日 | [!UICONTROL Creative Libraries] | 之前，您有一个创意库。 现在，您可以为每个广告商创建多个库。 | 请参阅“[关于您的创意库](/help/creative/creative-libraries/creative-libraries-about.md)”。 |
 | | [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] | [!UICONTROL Creatives]视图包含[!UICONTROL Standard Ads]和[!UICONTROL Dynamic Ads]的选项卡。<ul><li>**[!UICONTROL Standard Ads]选项卡**&#x200B;允许您上传和管理图像、HTML5、灵活的HTML5和第三方创意。</li><li>**[!UICONTROL Dynamic Ads]**&#x200B;选项卡允许您管理使用定义的广告模板从上传的信息源文件创建的动态生成的广告；以前，动态广告是在[!DNL Adobe Advertising Dynamic Creative Optimization (DCO)]内生成的。<br><br>目前，您可以预览、复制和删除动态广告。 您还可以将动态广告附加到针对性广告体验的创意捆绑包中，或附加到非针对性体验的广告标记中。 只有管理员用户可以动态生成广告。</li></ul> | 请参阅“[关于您的创意库](/help/creative/creative-libraries/creative-libraries-about.md)”。 |
-| | [!UICONTROL Creative Libraries] > [!UICONTROL Bundles] | 将多个创意分组到一个&#x200B;*捆绑*&#x200B;中，以便轻松将它们添加到体验中。 您可以创建标准广告包，并将标准创意附加到该广告包。 同样，您可以创建动态广告包，并将动态创意附加到这些广告包。 | 请参阅&quot;[管理创意包](/help/creative/creative-libraries/bundle-manage.md)&quot;。 |
+| | [!UICONTROL Creative Libraries] > [!UICONTROL Bundles] | 将多个创意分组到一个&#x200B;*捆绑*&#x200B;中，以便轻松将它们添加到体验中。 您可以创建标准广告包，并将标准创意附加到该广告包。 同样，您可以创建动态广告包，并将动态创意附加到这些广告包。 | 请参阅&quot;[管理Creative包](/help/creative/creative-libraries/bundle-manage.md)&quot;。 |
 | | [!UICONTROL Experiences] | 在新的广告体验设置中，您现在指定体验是否使用决策树定位，并且保存体验后无法更改设置。 具有决策树定位的体验和未具有决策树定位的体验的工作流不同。 | 请参阅“[创建具有定位的体验](/help/creative/experiences/experience-create-targeting.md)”和“[创建无定位的体验](/help/creative/experiences/experience-create-no-targeting.md)”。 |
 | | [!UICONTROL Experiences] | 现在，您只能通过单个创意库中的创意捆绑包来创建有针对性的体验，而不能通过单独的创意来创建。 您仍然可以将单个库中的单个创意内容附加到非定向体验，而无需使用决策树定位。<br><br>由于结构变化，您的旧体验将在今年晚些时候弃用。 | 自助服务客户：在新用户界面中重建您的体验。 请参阅“[创建具有定位](/help/creative/experiences/experience-create-targeting.md)的体验”。<br><br>托管服务客户：您的Adobe帐户团队将在新用户界面中重新构建您的体验。 |
 | | [!UICONTROL Experiences] | 使用Advertising DSP的广告商可以选择将标记作为广告直接上传到Advertising DSP促销活动。 | 请参阅&quot;[为实时体验导出和实施广告体验标记](/help/creative/experiences/experience-tag-export.md)&quot; |
