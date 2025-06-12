@@ -3,7 +3,7 @@ title: 体验级性能报表
 description: 了解如何查看体验级性能报表。
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: fc28fe5c4486939718cf6e7bd58555f72fd0c8ed
+source-git-commit: 80cb7587d433b672e22fb9d831f491af7ee364fe
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -22,33 +22,33 @@ ht-degree: 0%
 
 * **概述**&#x200B;选项卡：整个体验的所有转化量度的性能概述，包括：
 
-<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
+  <!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
 
-* **总体性能**&#x200B;部分：
+   * **总体性能**&#x200B;部分：
 
-* **整体性能**：总展示次数、点击次数、点进率(CTR)、显示到达转化和点进转化。
+      * **整体性能**：总展示次数、点击次数、点进率(CTR)、显示到达转化和点进转化。
 
-  <!--
+     <!--
      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
           -->
 
-* **默认比率**： （仅具有决策树定位的体验）由目标创意、无目标或面向“其他所有人”的通用创意，以及体验的默认创意产生的展示次数。
+      * **默认比率**： （仅具有决策树定位的体验）由目标创意、无目标或面向“其他所有人”的通用创意，以及体验的默认创意产生的展示次数。
 
-  <!--
+     <!--
      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
-* **性能细分**&#x200B;部分：
+   * **性能细分**&#x200B;部分：
 
-   * **区域性能：*：按地理位置划分的各个量度。
+      * **区域性能：*：按地理位置划分的各个量度。
 
-     <!--   
+        <!--   
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-   * **设备性能：**&#x200B;按设备类型、操作系统和浏览器列出的各个量度。 （可选）单击任何设备类别的值，以查看符合该条件的前<!-- NN -->个创意的列表。
+      * **设备性能：**&#x200B;按设备类型、操作系统和浏览器列出的各个量度。 （可选）单击任何设备类别的值，以查看符合该条件的前<!-- NN -->个创意的列表。
 
-     <!--    
+        <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
       -->
 
