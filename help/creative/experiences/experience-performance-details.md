@@ -3,9 +3,9 @@ title: 体验级性能报表
 description: 了解如何查看体验级性能报表。
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: f7e022d8753eb41f5eed8667b9af66085f912bff
+source-git-commit: fc28fe5c4486939718cf6e7bd58555f72fd0c8ed
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -20,41 +20,35 @@ ht-degree: 0%
 
 报表视图包含以下数据：
 
-* **概述**&#x200B;选项卡：整个体验的性能概述，包括：
+* **概述**&#x200B;选项卡：整个体验的所有转化量度的性能概述，包括：
 
-   * **总体性能**&#x200B;部分：
+<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
 
-   * **整体性能**：单个转化量度的总展示次数、点击次数、点进率(CTR)以及显示到达转化和点进转化。<!-- Just one, or can you select multiple? And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
+* **总体性能**&#x200B;部分：
 
-     <!--
+* **整体性能**：总展示次数、点击次数、点进率(CTR)、显示到达转化和点进转化。
+
+  <!--
      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
           -->
 
-   * **默认比率**： （仅具有决策树定位的体验）由目标创意、无目标或面向“其他所有人”的通用创意，以及体验的默认创意产生的展示次数。
+* **默认比率**： （仅具有决策树定位的体验）由目标创意、无目标或面向“其他所有人”的通用创意，以及体验的默认创意产生的展示次数。
 
-     <!--
+  <!--
      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
-   * **性能细分**&#x200B;部分：
+* **性能细分**&#x200B;部分：
 
-      * **区域性能：*：按地理位置划分的各个量度。
+   * **区域性能：*：按地理位置划分的各个量度。
 
-        <!-- You can optionally do the following:
-    
-      * Click a metric name (such as [!UICONTROL Impressions]) to view that metric.
-
-      * Select the region in the **[!UICONTROL Region]** menu.
-      
-      -->
-
-        <!--   
+     <!--   
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-      * **设备性能：**&#x200B;按设备类型、操作系统和浏览器列出的各个量度。 （可选）单击任何设备类别的值，以查看符合该条件的前<!-- NN -->个创意的列表。
+   * **设备性能：**&#x200B;按设备类型、操作系统和浏览器列出的各个量度。 （可选）单击任何设备类别的值，以查看符合该条件的前<!-- NN -->个创意的列表。
 
-        <!--    
+     <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
       -->
 
@@ -62,35 +56,7 @@ ht-degree: 0%
 
    * **创意内容**&#x200B;子选项卡：体验中每个创意内容的展示次数、点击次数和CTR总数。<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
 
-     <!--
-
-     * *Experiences with decision tree targeting:* The total number of impressions, clicks, and CTR for each creative. You can optionally do the following:
-     
-       * To break out the performance for each ad target, enable **[!UICONTROL Split targeting]**.
-
-       * To switch between the grid view and a trend chart, which includes the addition of view-through conversions and click-through conversions (using the conversions specified in the top toolbar), click ![Chart](/help/creative/assets/chart-view-button.png "Chart") and ![Grid](/help/creative/assets/table-view-button.png "Grid") above the report. [Find out about this:  ..., and total conversions for specified conversion metricsYour conversion metrics are combined into one Conversions column set unless you have made individual metric column sets available within Advertising Cloud Search.]
-
-     * *Experiences without decision tree targeting:* The total number of impressions, clicks, and click-through rate (CTR) for each creative. You can optionally do the following:
-
-       * To switch between the grid view and a trend chart, which includes the addition of view-through conversions and click-through conversions (using the conversions specified in the top toolbar), click ![Chart](/help/creative/assets/chart-view-button.png "Chart") and ![Grid](/help/creative/assets/table-view-button.png "Grid") above the report.
-
-     -->
-
    * **包/标记**&#x200B;子选项卡：体验中的单个包（具有决策树定位的体验）或广告标记（没有决策树定位的体验）的展示次数、点击次数和CTR总数。
-
-     <!--
-   
-     * *Experiences with decision tree targeting:* The total number of impressions, clicks, and CTR for each bundle. You can optionally do the following:
-     
-       * To break out the performance for each ad target, enable **[!UICONTROL Split targeting]**.
-
-       * To switch between the grid view and a trend chart, which includes the addition of view-through conversions  and click-through conversions (using on the conversions specified in the top toolbar), click ![Chart](/help/creative/assets/chart-view-button.png "Chart") and ![Grid](/help/creative/assets/table-view-button.png "Grid") above the report.
-
-     * *Experiences without decision tree targeting:* The total number of impressions, clicks, and click-through rate (CTR) for each ad tag. You can optionally do the following:
-
-       * To switch between the grid view and a trend chart, which includes the addition of view-through conversions and click-through conversions (using the conversions specified in the top toolbar), click ![Chart](/help/creative/assets/chart-view-button.png "Chart") and ![Grid](/help/creative/assets/table-view-button.png "Grid") above the report.
-
-     -->
 
 ## 查看某个体验的性能报表
 
@@ -112,15 +78,15 @@ ht-degree: 0%
 
       * 要指定预设时段，请选择报表： (*[!UICONTROL Last Month-to-date]，* *[!UICONTROL Last 7 days]，* *[!UICONTROL Last 30 days]，* *[!UICONTROL Last 7 days]，* *[!UICONTROL Last 30 days]，* *[!UICONTROL Today]，*&#x200B;或&#x200B;*[!UICONTROL Yesterday]*。
 
-      * 要指定自定义日期范围，请指定开始日期和结束日期<!-- in the format MM/DD/YYYY or M/D/YYYY,-->或单击字段旁边的![日历图标](/help/search-social-commerce/assets/calendar.png)并选择日期。
+      * 要指定自定义日期范围，请输入开始日期和结束日期，或者单击字段旁边的![日历图标](/help/search-social-commerce/assets/calendar.png)并选择日期。
 
    * （可选）要更改用于在一系列导致转化的事件中归因转化数据的规则，请单击![设置](/help/creative/assets/settings.png)并更改&#x200B;**[!UICONTROL Attribution Rule]**。
 
      有关归因规则的更多信息，请参阅“[归因规则的计算方式](/help/search-social-commerce/reports/attribution-rules.md)”。
 
-   * （可选）要更改报告的转化，请单击![设置](/help/creative/assets/settings.png)，然后在&#x200B;**[!UICONTROL Conversions]**&#x200B;菜单中选择转化名称。&lt;！ — 只有一个，还是多个？ 验证这些内容的显示方式 — 我需要看到已设置多个转化的广告商。 截至3/6，我只看到“全选”。 —>
+   * （可选）要更改报告的转化，请单击![设置](/help/creative/assets/settings.png)，然后在&#x200B;**[!UICONTROL Conversions]**&#x200B;菜单中选择转化名称。 目前，唯一可用的量度是“全选”，以包含所有转化量度。
 
-     可用的转化列包括Advertising Search、Social和Commerce中可用的转化，无论您是Search、Social还是Commerce客户。 当广告商具有[an [!DNL Adobe Analytics for Advertising] 集成](/help/integrations/analytics/overview.md)时，该列表可以包含从Adobe Analytics同步的转化和网站参与量度。 <!--Analytics calculated metrics and advanced calculated metrics aren't available.-->有关在报表中包括收集的转化率的详细信息，请参阅《搜索、社交和Commerce指南》主题“[关于管理广告商的转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)”。
+     可用的转化列包括Advertising Search、Social和Commerce中可用的转化，无论您是Search、Social还是Commerce客户。 当广告商具有[an [!DNL Adobe Analytics for Advertising] 集成](/help/integrations/analytics/overview.md)时，该列表可以包含从Adobe Analytics同步的转化和网站参与量度。 [!DNL Analytics]计算指标和高级计算指标不可用。 有关在报表中包括收集的转化的更多信息，请参阅《搜索、社交和Commerce指南》主题“[关于管理广告商的转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)”。
 
 1. （在[!UICONTROL Overview]选项卡上）：
 

@@ -3,7 +3,7 @@ title: 预览创意
 description: 了解如何打开创意内容的预览。
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
+source-git-commit: 5d1b39f2a0602d4492d468520a946d86ceae16ed
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
@@ -12,7 +12,6 @@ ht-degree: 0%
 
 # 预览创意
 
-*仅限标准创意*
 *已关闭的测试版*
 
 您可以在查看者看到创意时预览它，包括超链接。
@@ -21,7 +20,7 @@ ht-degree: 0%
 
 1. 单击库名称。
 
-1. 在&#x200B;**[!UICONTROL Creatives]** > **[!UICONTROL Standard Ads]**&#x200B;选项卡上，选择创意内容：
+1. 在&#x200B;**[!UICONTROL Creatives]** > **[!UICONTROL Standard Ads]**&#x200B;选项卡或&#x200B;**[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ads]**&#x200B;选项卡上，选择创意内容：
 
    * 在卡片视图中，单击创意名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Preview]**。
 

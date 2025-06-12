@@ -3,9 +3,9 @@ title: 关于发布者推荐和见解支持
 description: 了解对查看和管理发布者推荐和见解的支持。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 457e42152a85e0e357939efdfb821b76a636ba2a
+source-git-commit: 568927a009b2c38d30fc817a9f4aa4e964b4cd9f
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * 每个[!DNL Google Ads]推荐都根据您帐户的性能历史记录、促销活动设置和[!DNL Google Ads]中的趋势，提供关于促销活动不同性能方面（从添加资产到增加预算）的自定义建议。
 
-* 每个[!DNL Microsoft Advertising]性能洞察和建议都建议进行更改，以根据机器学习算法和最佳实践优化营销活动性能。
+* 每个[!DNL Microsoft Advertising]性能insight和推荐都建议进行更改，以根据机器学习算法和最佳实践优化促销活动性能。
 
 ## [!UICONTROL Recommendations & Publisher Insights]视图
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
   在打开视图时，数据可实时使用。 要刷新数据，请单击页面左下角的![刷新](/help/search-social-commerce/assets/refresh.png "刷新")。
 
-* 对于[!DNL Microsoft Advertising]帐户，查看[!DNL Microsoft Advertising]帐户在过去30天内生成的每个性能分析概览。 “见解”可提供与推荐类似的信息，但采用不同的格式。 每个分析都包括日期、问题描述、受影响的实体、根本原因（可能包括指向更多详细信息的链接）以及带有打开[!DNL Microsoft Advertising]编辑器的链接的建议操作，您可以从中对特定分析执行操作。
+* 对于[!DNL Microsoft Advertising]帐户，大致了解insight在过去30天内为[!DNL Microsoft Advertising]帐户生成的每个性能。 “见解”可提供与推荐类似的信息，但采用不同的格式。 每个insight都包括日期、问题描述、受影响的实体、根本原因（可能包括指向更多详细信息的链接）以及带有打开[!DNL Microsoft Advertising]编辑器的链接的建议操作，您可以从中对特定insight执行操作。
 
 * 查看有关推荐的详细信息，并直接应用或驳回该推荐。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->虽然广告网络推荐和性能见解可帮助您提高营销活动效果，但有些可能并不符合您更广泛的目标。 因此，在实施任何建议或见解之前，最好咨询您的Adobe客户团队。
+>虽然广告网络推荐和性能见解可帮助您提高营销活动效果，但有些可能并不符合您更广泛的目标。 因此，在实施任何推荐或insight之前，最好咨询您的Adobe客户团队。
 
 ## [!DNL Google Ads]支持的推荐类型
 
@@ -46,6 +46,7 @@ ht-degree: 0%
 | --- | --- | --- |
 | [!UICONTROL Ads and extensions] （在[!DNL Google Ads]中现在称为“[!DNL Ads and assets]”） | [!UICONTROL Call extension] | 向营销活动添加呼叫分机 |
 | | [!UICONTROL Callout extension] | 向营销活动添加标注扩展 |
+|  | [!UICONTROL Improve demand gen ad strength] | 改善需求一般广告的广告强度的建议 |
 | | [!UICONTROL Optimize ad rotation] | 使用优化的广告轮换 |
 | | [!UICONTROL Responsive search ad] | 添加新响应式搜索广告 |
 | | [!UICONTROL Responsive search ad asset] | 将响应式搜索广告资产添加到广告 |
@@ -77,6 +78,7 @@ ht-degree: 0%
 | | [!UICONTROL Target ROAS opt in] | 对[!UICONTROL Target ROAS]竞价策略的更改 |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | 通过更新营销活动以使用显示扩展来扩展范围 |
 | | [!UICONTROL Keyword] | 添加新关键字 |
+|  | [!UICONTROL Refresh customer match list] | 刷新客户匹配列表向最近客户显示个性化广告 |
 | | [!UICONTROL Search partners opt in] | 通过[!DNL Google]个搜索合作伙伴扩大访问范围 |
 | | [!UICONTROL Use broad match keyword] | 通过基于转化的全自动竞价，对基于转化的营销活动使用广泛匹配 |
 
