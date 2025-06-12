@@ -3,9 +3,9 @@ title: 关于Advertising Creative中的体验
 description: 了解如何配置个性化的广告体验并根据性能优化广告元素。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 0a6cd8e32ae87c7fda9ed0e1b50f9b54cd337192
+source-git-commit: 2ddda1e23e3a3413ef93ca0705f0b9688c893f64
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 0%
 # 关于Advertising Creative 2.0中的体验
 
 *已关闭的测试版*
-
-<!-- Revisit Description metadata  -->
-
-<!-- MORE -->
 
 [!DNL Advertising Creative 2.0]为创意库<!-- can use a single library only -->中的广告提供两种不同的广告体验结构：
 
@@ -36,9 +32,9 @@ ht-degree: 0%
 
    * 特定设备类型、操作系统和浏览器
 
-  您可以为每个体验分配创意包。 对于每个体验，您可以自定义创意捆绑包的优化和计划，并更改每个捆绑包中单个创意的默认登陆页面和跟踪URL<!-- and any flexible attributes -->。
+  在决策树中创建目标受众分支后，您可以通过为分支分配创意捆绑包来将目标受众与潜在创意配对。 对于每个体验，您可以自定义创意捆绑包的优化和计划，并更改每个捆绑包中单个创意的默认登陆页面和跟踪URL<!-- later: and any flexible attributes -->。
 
-* **没有决策树定位的体验：** [!DNL Creative]会优化广告体验的广告元素，而不会缩小受众范围。<!-- For first-party creatives, [!DNL Creative] serves the ads. -->对于每个体验，您都可以指定开始和结束日期以及某些默认设置，但大部分工作流并不直接在体验中。 您不直接将创意添加到体验，而是使用[!UICONTROL Tag Manager]为体验的每个广告大小创建一个广告标记，然后为其添加创意内容、配置创意优化和计划以及自定义登陆页面和跟踪URL。
+* **没有决策树定位的体验：** [!DNL Creative]会优化广告体验的广告元素，而不会缩小受众范围。 对于每个体验，您可以指定开始和结束日期以及一些默认设置，但大多数工作流并不直接在体验中。 您不直接将创意内容添加到体验，而是使用[!UICONTROL Tag Manager]为体验的每个广告大小创建一个广告标记，然后为其添加创意内容、配置创意优化和计划，以及自定义登陆页面和跟踪URL<!-- later: and any flexible attributes -->。
 
 ## 广告优化
 
@@ -47,35 +43,34 @@ ht-degree: 0%
 
 ## 实施和管理体验
 
-创建实时体验（包含所有必需的广告元素）后，您可以[为整个体验](experience-tag-export.md)生成JavaScript或iframe标记。 您可以将Experience Tag作为广告上传到Adobe Advertising DSP中的促销活动，或在第三方DSP中作为广告实施。 [!DNL Creative]根据定位和广告轮换选项以及可用的广告库存为体验投放广告。
+创建实时体验（包含所有必需的广告元素）后，您可以[为整个体验](experience-tag-export.md)生成JavaScript或iframe标记。 您可以将Experience Tag作为广告上传到Adobe Advertising DSP中的促销活动，或作为广告在第三方DSP中实施。 [!DNL Creative]提供第一方广告并根据定位和广告轮换选项以及可用的广告库存触发体验的第三方广告。
 
 ## 您的体验的性能数据
 
-当您在[!UICONTROL Creative] > [!UICONTROL Experiences]视图中启用[!UICONTROL Metrics]选项时，每个体验卡或行都会指示体验收到的展示次数和点击次数。
+以下性能数据可用：
 
-![量度选项](/help/creative/assets/metrics-option.png "量度选项")
+* 当您在[!UICONTROL Creative] > [!UICONTROL Experiences]视图中启用[!UICONTROL Metrics]选项时，每个体验卡或行都会指示体验收到的展示次数和点击次数。
 
-<!-- insert screen shot of Metrics option?  If not, then add instructions elsewhere -->
+  ![量度选项](/help/creative/assets/metrics-option.png "量度选项")
 
-<!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
+  <!-- insert screen shot of Metrics option?  If not, then add instructions elsewhere -->
 
-您可以从[!UICONTROL Experiences]视图[查看任何体验](experience-performance-details.md)的详细性能数据。
+  <!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
 
-要监控所有体验的表现，请创建[自定义Creative报表](/help/creative/report-custom-creative.md)。
+* 您可以从[!UICONTROL Experiences]视图[查看任何体验](experience-performance-details.md)的详细性能数据。
+
+* 要监控所有体验的表现，请创建[自定义Creative报表](/help/creative/report-custom-creative.md)。
 
 ## 体验状态 {#experience-statuses}
 
-<!-- verify that these are all still the same -->
-
 体验的状态是自动设置的，但手动设置的&#x200B;*已删除，*&#x200B;除外。
 
-*实时：*&#x200B;体验包括所有必需的元素，因此您可以生成体验标记，以在DSP中实施为广告。<!-- A live experience may be scheduled to start in the future -->
-
-*草稿：*&#x200B;体验的所有分支均未分配创意，因此体验不完整，您无法生成体验标记。
-
-*正在处理：*&#x200B;以前上线的体验已被编辑，但现在不完整。 无法为其生成体验标记。 **注意：**&#x200B;如果您已经为体验实施了体验标记，则仍可以提供以前的实时版本。 如果您稍后完成该体验（使其重新上线），则可以使用现有标记实施提供新版本。
-
-*已删除：*&#x200B;该体验已从[!DNL Creative]中删除，并且不再显示在[!UICONTROL Experiences]视图中。
+| 状态 | 描述 |
+| ------ | ----------- |
+| [!UICONTROL Live] | 该体验包含所有必需的元素，因此您可以生成体验标记，以在DSP中实施为广告。 可能计划在未来开始实时体验。 |
+| [!UICONTROL Draft] | 由于体验的所有分支均未分配创意，因此体验不完整，您无法生成体验标记。 |
+| [!UICONTROL Processing] | 以前实时的体验已经过编辑，但现在不完整。 无法为其生成体验标记。 **注意：**&#x200B;如果您已经为体验实施了体验标记，则仍可以提供以前的实时版本。 如果您稍后完成该体验（使其重新上线），则可以使用现有标记实施提供新版本。 |
+| [!UICONTROL Deleted] | 该体验已从[!DNL Creative]中删除，在[!UICONTROL Experiences]视图中不再可见。 |
 
 >[!NOTE]
 >
@@ -85,33 +80,27 @@ ht-degree: 0%
 
 [!UICONTROL Experiences]视图显示所有针对性和非针对性体验。 您可以查看已分配创意或创意包的体验名称、状态、开始和结束日期、数量和维度，以及体验是否包含动态广告。 当您在[!UICONTROL Experiences]视图中启用[!UICONTROL Metrics]选项时，每个体验卡或行都会指示体验收到的展示次数和点击次数。
 
-您可以创建和管理体验，包括优化并将创意和创意捆绑包分配给体验。 您还可以创建和重命名广告体验标记，并导出JavaScript和iframe格式的标记，以供在DSP上实施。 使用Advertising DSP的广告商可以选择将标记作为广告直接上传到Advertising DSP促销活动。
+您可以创建和管理体验、创建和重命名广告体验标记，以及导出JavaScript和iframe格式的标记，以在DSP中实施。 使用Advertising DSP的广告商可以选择将广告标记直接上传到Advertising DSP促销活动。
 
-<!--
-### Available actions
+### 可用操作
 
-* [Download data within the view](experience-download-view.md)
+以下是可用的关键操作。 有关完整列表，请参阅“创意人员”>“体验”章节的目录。
 
-        + [Assign and unassign creative bundles to a final node](/help/creative/experiences/experience-assign-creative-bundles.md)
-* Experiences with decision tree targeting: [Create](/help/creative/experiences/experience-create-targeting.md) and [edit](/help/creative/experiences/experience-edit-targeting.md) experiences, [assign and unassign creative bundles](/help/creative/experiences/experience-assign-creative-bundles.md), [customize creative optimization and scheduling](/help/creative/experiences/experience-optimization-scheduling-targeting.md), and [customize the tracking URLs for creatives](/help/creative/experiences/experience-tracking-urls-targeting.md)
+* [在视图中下载数据](experience-download-view.md)
 
-* Experiences without decision tree targeting: [Create](experience-create-no-targeting.md) and [edit](/help/creative/experiences/experience-edit-no-targeting.md)
+* [创建](/help/creative/experiences/experience-create-targeting.md)和[编辑](/help/creative/experiences/experience-edit-targeting.md)使用定位的体验
 
-* [Clone](experience-clone.md) an experience
+* [创建](/help/creative/experiences/experience-create-no-targeting.md)、[编辑](/help/creative/experiences/experience-edit-no-targeting.md)和[手动为体验创建广告标记](/help/creative/experiences/experience-tag-create-manually.md)，而无需定位
 
-* [Preview](experience-preview.md) an experience
+* [克隆](experience-clone.md)体验
 
-* [Share a demo URL](experience-share-demo-url.md) for an experience
+* [预览](experience-preview.md)体验
 
-* [Export ad tags for an experience](experience-tag-export.md)
+* [共享体验URL](experience-share-demo-url.md)
 
-* [Delete](experience-delete.md) an experience
+* [导出体验的广告标记](experience-tag-export.md)，包括选择性地将广告标记直接上传到Advertising DSP营销活动
 
--->
-
-<!-- You can add or remove labels for your experiences.-->
-
-<!-- Add links to workflows once they're done -->
+* [删除](experience-delete.md)体验
 
 >[!MORELIKETHIS]
 >
