@@ -3,9 +3,9 @@ title: 关于Advertising Creative中的体验
 description: 了解如何配置个性化的广告体验并根据性能优化广告元素。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 2ddda1e23e3a3413ef93ca0705f0b9688c893f64
+source-git-commit: 1f4c49de75b3a4b19199fc6f2a162b236e21ab49
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *已关闭的测试版*
 
-[!DNL Advertising Creative 2.0]为创意库<!-- can use a single library only -->中的广告提供两种不同的广告体验结构：
+[!DNL Advertising Creative 2.0]在单个创意库中为广告提供两种不同的广告体验结构。
 
 * **具有决策树定位的体验：** [!DNL Creative]允许您使用决策树模型在整个客户历程中配置个性化的广告体验。 您可以根据目标受众自定义所有广告元素 — 图像、标题、选件和登陆页面。
 
@@ -34,20 +34,36 @@ ht-degree: 0%
 
   在决策树中创建目标受众分支后，您可以通过为分支分配创意捆绑包来将目标受众与潜在创意配对。 对于每个体验，您可以自定义创意捆绑包的优化和计划，并更改每个捆绑包中单个创意的默认登陆页面和跟踪URL<!-- later: and any flexible attributes -->。
 
-* **没有决策树定位的体验：** [!DNL Creative]会优化广告体验的广告元素，而不会缩小受众范围。 对于每个体验，您可以指定开始和结束日期以及一些默认设置，但大多数工作流并不直接在体验中。 您不直接将创意内容添加到体验，而是使用[!UICONTROL Tag Manager]为体验的每个广告大小创建一个广告标记，然后为其添加创意内容、配置创意优化和计划，以及自定义登陆页面和跟踪URL<!-- later: and any flexible attributes -->。
+* **没有决策树定位的体验：** [!DNL Creative]会优化广告体验的广告元素，而不会缩小受众范围。 对于每个体验，您可以指定开始和结束日期以及一些默认设置，但大多数工作流并不直接在体验中。 请使用[!UICONTROL Tag Manager]为体验的每个广告大小创建广告标记，然后为其添加创意，配置创意优化和计划，以及自定义登陆页面和跟踪URL<!-- later: and any flexible attributes -->，而不是将创意直接添加到体验。
 
-## 广告优化
+>[!NOTE]
+>
+> 由于这两种体验的工作流不同，因此一旦保存体验，您就无法更改是否使用决策树定位。 这意味着您无法将非目标体验更改为目标体验。 同样，您无法将目标体验更改为非目标体验。
+
+## 广告投放和优化
 
 <!-- MORE -->
-[!DNL Creative]根据性能优化任何体验的广告元素。 对于定位到特定受众的体验，可以根据目标受众集的单个广告元素性能来优化广告。 对于没有特定受众目标的体验，广告元素会完全根据单个广告元素的性能进行优化。
+<!--When multiple ad variants qualify for an impression-->
+
+[!DNL Creative]提供第一方广告并根据指定的定位（适用时）、计划、广告轮换和优化目标选项以及可用的广告库存触发体验的第三方广告。
+
+* **计划：**（可选）计划特定创意在指定的连续时间段内运行。
+
+* **广告轮换：**&#x200B;根据相对权重手动旋转创意，或根据指定的优化目标通过算法旋转创意。
+
+* **优化目标：**&#x200B;为最佳点进率或现有[Advertising DSP自定义目标](/help/dsp/optimization/custom-goal.md)优化广告元素
+
+  [!DNL Creative]通过为体验中表现最佳的资产提供展示份额来优化广告体验。 对于定位到特定受众的体验，可以根据目标受众集的单个广告元素性能来优化广告。 对于没有特定受众目标的体验，广告元素仅基于单个广告元素的性能进行优化。
+
+例如，您可以安排Creative 1在前两周运行以优化点进率，安排Creative 2在随后两周运行，以优化指定的自定义目标。
 
 ## 实施和管理体验
 
-创建实时体验（包含所有必需的广告元素）后，您可以[为整个体验](experience-tag-export.md)生成JavaScript或iframe标记。 您可以将Experience Tag作为广告上传到Adobe Advertising DSP中的促销活动，或作为广告在第三方DSP中实施。 [!DNL Creative]提供第一方广告并根据定位和广告轮换选项以及可用的广告库存触发体验的第三方广告。
+创建实时体验（包含所有必需的广告元素）后，您可以[为整个体验](experience-tag-export.md)生成JavaScript或iframe标记。 您可以将Experience Tag作为广告上传到Adobe Advertising DSP中的促销活动，或作为广告在第三方DSP中实施。
 
 ## 您的体验的性能数据
 
-以下性能数据可用：
+可以使用以下性能数据：
 
 * 当您在[!UICONTROL Creative] > [!UICONTROL Experiences]视图中启用[!UICONTROL Metrics]选项时，每个体验卡或行都会指示体验收到的展示次数和点击次数。
 
@@ -69,7 +85,7 @@ ht-degree: 0%
 | ------ | ----------- |
 | [!UICONTROL Live] | 该体验包含所有必需的元素，因此您可以生成体验标记，以在DSP中实施为广告。 可能计划在未来开始实时体验。 |
 | [!UICONTROL Draft] | 由于体验的所有分支均未分配创意，因此体验不完整，您无法生成体验标记。 |
-| [!UICONTROL Processing] | 以前实时的体验已经过编辑，但现在不完整。 无法为其生成体验标记。 **注意：**&#x200B;如果您已经为体验实施了体验标记，则仍可以提供以前的实时版本。 如果您稍后完成该体验（使其重新上线），则可以使用现有标记实施提供新版本。 |
+| [!UICONTROL Processing] | 以前的上线体验经过编辑，但现在不完整。 无法为其生成体验标记。 **注意：**&#x200B;如果您已经为体验实施了体验标记，则仍可以提供以前的实时版本。 如果您稍后完成该体验（使其重新上线），则可以使用现有标记实施提供新版本。 |
 | [!UICONTROL Deleted] | 该体验已从[!DNL Creative]中删除，在[!UICONTROL Experiences]视图中不再可见。 |
 
 >[!NOTE]

@@ -3,9 +3,9 @@ title: 非定向体验的设置
 description: 请参阅无决策树定位的广告体验的所有设置描述。
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: d2db928068153c0ce26cc51fa79f45cbb3c61f18
+source-git-commit: e070e676b9ae321ddc73acfff0dfc05ea91f9715
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Targeting]节
 
-**[!UICONTROL Targeting]：** （现有体验为只读）当您未使用决策树启用定位时不适用；请将此选项保持禁用状态。
+**[!UICONTROL Targeting]：** （现有体验为只读）当您未使用决策树启用定位时不适用；请将此选项保持禁用状态。 **注意：**&#x200B;一旦保存体验而没有定位，以后就无法添加定位。
 
 **[!UICONTROL Dynamic ads]：** （现有体验为只读）指示体验包含动态广告。 **注意：**&#x200B;体验可以包含所有标准广告或所有动态广告。
 

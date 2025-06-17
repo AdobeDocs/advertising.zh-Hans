@@ -2,9 +2,10 @@
 title: 在不使用决策树定位的情况下创建体验
 description: 了解如何在不定位的情况下创建广告体验。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 327b1df5-5663-4513-9238-f481370c8c38
+source-git-commit: a738fed8aea38be2ca0adad08d084a383350d892
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -12,6 +13,12 @@ ht-degree: 0%
 # 在不使用决策树定位的情况下创建体验
 
 *已关闭的测试版*
+
+无需定位即可创建广告体验。 每个体验都可以使用来自单个创意库的广告。
+
+>[!NOTE]
+>
+> 创建非定向体验后，无法将其更改为使用其他工作流的定向体验。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
 
@@ -25,7 +32,11 @@ ht-degree: 0%
 
    * [为适用的创意大小手动创建广告标记](experience-tag-create-manually.md)。
 
+     [!DNL Creative]不会为非目标体验自动创建广告标记。
+
    * [将创意内容分配给广告标记](experience-tag-assign-creatives.md)。
+
+     将创意内容分配给广告标记，而不是在体验设置中进行分配。
 
    * [自定义跟踪URL](experience-tracking-urls-no-targeting.md)
 

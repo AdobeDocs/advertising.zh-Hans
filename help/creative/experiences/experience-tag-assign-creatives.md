@@ -2,9 +2,10 @@
 title: 为无定位的体验将创意内容分配给广告标记
 description: 了解如何将创意内容分配给特定创意大小的广告标记。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 864f10ef-75ca-4081-93d9-8540476b17f0
+source-git-commit: 3027235ca7c8db278880a710cb8048216d0a599a
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 *仅针对没有决策树的体验*
 *已关闭的测试版*
 
-您可以将适当创意大小的创意内容分配给用于体验的广告标记。 对于标准广告体验，您只能分配标准创意内容。 对于动态广告体验，只能分配动态创意内容。<!-- Clarify what this does. It adds the image to the experience, but how does optimization work with multiple ad tags? -->
+您可以将适当创意大小的创意内容分配给用于体验的广告标记。 您可以使用体验设置中指定的创意库中的创意。 对于标准广告体验，您只能分配标准创意内容。 对于动态广告体验，只能分配动态创意内容。<!-- Clarify what this does. It adds the image to the experience, but how does optimization work with multiple ad tags? -->
 
 您可以稍后[自定义跟踪URL](experience-tracking-urls-no-targeting.md)和[自定义创意优化和计划](experience-optimization-scheduling-no-targeting.md)以用于广告标记的创意。
 
