@@ -126,7 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Cost per Incremental HH] | 总支出除以所实现的增量家庭。 |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Cost per Unique HH] | 所达到的总支出除以独特家庭。 |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Frequency] | 每个家庭的印象频率。 |
-| [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Incremental Household Reached] | 仅报告维度可到达的家庭数，计算为仅报告维度]可到达的[IP地址 — 任何其他维度]可到达的[IP地址。 |
+| [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Incremental Household Reached] | 仅报告维度可到达的家庭数，计算为仅报告维度&rbrack;可到达的[IP地址 — 任何其他维度]可到达的&lbrack;IP地址。 |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL % Incremental Household Reached] | 仅通过报告的维度实现的家庭百分比，计算为[维度实现的IP地址的百分比] - [任何其他维度实现的IP地址的百分比]。 |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Impressions] | 提供的广告展示总数。 |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Measurable Impressions] | 提供的能够测量可见性的展示总数。 |
