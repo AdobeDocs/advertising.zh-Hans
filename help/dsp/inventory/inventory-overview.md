@@ -3,16 +3,16 @@ title: Advertising DSP中的清单功能概述
 description: 了解可用的清单功能。
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: e55b9276-0d13-436e-9c09-968de963d551
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: c813954c0489d5cae067b3ea43d3527fc80c261a
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
 
 # Advertising DSP中的清单功能概述
 
-无论您是希望通过公共库存找到规模、在具有[!DNL On Demand]的高级发布者中寻找规模，还是与发布者建立1:1私有市场(PMP)交易以针对特定受众或网站激活，DSP都可以支持您的库存需求。 您的活动目标有助于规定哪种类型的库存最适合您的活动性能需求。 与顶级供应方平台(SSP)的集成允许无缝设置和激活PMP。
+无论您是要通过公开库存规模寻找规模、通过[!DNL On Demand]在高级出版商中寻找规模，还是要与出版商建立1:1私有市场(PMP)交易以针对特定受众或网站进行激活，DSP都可以支持您的库存需求。 您的活动目标有助于规定哪种类型的库存最适合您的活动性能需求。 与顶级供应方平台(SSP)的集成允许无缝设置和激活PMP。
 
 在DSP中访问或标识库存交易后，您可以将它们用作营销活动的投放目标。
 
@@ -26,9 +26,17 @@ ht-degree: 0%
 
 ## 交易视图
 
-您可以在[!UICONTROL Inventory] > [!UICONTROL Deals]视图中查看所有现有交易。 您可以通过应用过滤器、自定义可见列和（可选）保存自定义视图、对列排序以及以图表形式查看数据来进一步自定义现有交易数据的显示方式。
+* **[!UICONTROL Inventory]> [!UICONTROL Deals]：**
 
-您还可以从[!UICONTROL Deals]视图创建和管理私人交易设置和[!DNL Simple Ad Serving]交易。 要查看和管理[!DNL On Demand]清单，请转到[!UICONTROL Inventory] > [!UICONTROL On Demand]。
+   * 查看所有现有交易。
+
+   * 通过应用过滤器、自定义可见列和（可选）保存自定义视图、对列排序并以图表形式查看数据，进一步自定义现有交易数据的显示方式。
+
+   * 创建和管理私人交易设置和[!DNL Simple Ad Serving]交易。
+
+* **[!UICONTROL Inventory]> [!UICONTROL Deals]：**&#x200B;查看和管理[!DNL On Demand]清单。
+
+* **[!UICONTROL Inventory]> [!UICONTROL Deal Lists]：**&#x200B;将您的私人交易分组到列表中，以便更轻松地定位。
 
 >[!MORELIKETHIS]
 >

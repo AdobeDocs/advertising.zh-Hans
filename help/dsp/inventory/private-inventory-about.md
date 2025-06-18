@@ -3,9 +3,9 @@ title: 关于专用清单
 description: 关于专用清单
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: c813954c0489d5cae067b3ea43d3527fc80c261a
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 交易编号
 
-如果您与出版商有直接关系，则可以通过在您的Advertising DSP投放位置中使用您自己的私人交易（包括议定的库存和定价）来简化媒体购买流程和工作流。 当您设置帐户时，DSP将与您的所有发布者集成。 如果您希望稍后访问其他发布者，请联系您的Adobe客户团队以设置访问权限。<!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
+如果您与出版商有直接关系，则可以通过在您的Advertising DSP投放位置中使用您自己的私人交易（包括议定的库存和定价）来简化媒体购买流程和工作流。 当您设置帐户时，DSP将与您的所有发布者集成。 如果您希望稍后再访问其他发布者，请联系您的Adobe客户团队以设置访问权限。<!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
 
 您所有与交易ID有关的私人交易均由[!DNL Adobe]融资和开具发票。
 
@@ -40,9 +40,14 @@ ht-degree: 0%
 
 您可以通过应用过滤器、自定义可见列和保存自定义视图（可选）、对列排序以及以图表形式查看数据来自定义现有交易数据的显示方式。
 
+## 交易列表视图
+
+在[!UICONTROL Inventory] > [!UICONTROL Deal Lists]视图中，您可以将私人交易分组到列表中，以便更轻松地定位投放位置。
+
 >[!MORELIKETHIS]
 >
 >* [清单功能概述](/help/dsp/inventory/inventory-overview.md)
 >* [关于[!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
 >* [在交易ID收件箱中接受交易](deal-id-inbox-accept.md)
 >* [手动创建交易ID详细信息](deal-id-create.md)
+>* [管理交易列表](/help/dsp/inventory/lists-deals-manage.md)

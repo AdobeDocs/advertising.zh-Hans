@@ -3,9 +3,9 @@ title: 投放设置
 description: 请参阅可用版面设置的说明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: fd3805096f97ba572afb4a5573ae0e2f5ec17a6f
+source-git-commit: 1478e61ebd7dac59cac7566b86e5b1ea97838508
 workflow-type: tm+mt
-source-wordcount: '4255'
+source-wordcount: '4477'
 ht-degree: 0%
 
 ---
@@ -177,9 +177,9 @@ ht-degree: 0%
 
   您可以按源或信息源查看列表。 在按信息源查看列表时，您可以按信息源名称、信息源密钥或选定的特征标记进行搜索。
 
-* [!UICONTROL Private] | [!UICONTROL Roku Private]：您与在DSP中设置的出版商的现有私人交易（或[!DNL Roku]投放位置的现有私有[!DNL Roku]交易）。 您可以包括（但不排除）公共库存。
+* [!UICONTROL Private] | [!UICONTROL Roku Private]：您与在DSP中设置的发布商的现有私人交易（或用于[!DNL Roku]投放位置的现有私人[!DNL Roku]交易），以及您现有的[私人交易列表](/help/dsp/inventory/lists-deals-manage.md)。 您可以包括（但不排除）公共库存。
 
-  您可以按关键词、键值、交易ID或自定义标记搜索列表。
+  在[!UICONTROL Deals]选项卡中，您可以按关键字、密钥、交易ID或自定义标记搜索列表。 在[!UICONTROL Deal Lists]选项卡中，您可以按交易列表名称或交易列表ID搜索列表。
 
    * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*：（可选）覆盖竞价算法以至少出价交易的固定价格和最低价格。
 
@@ -199,12 +199,15 @@ ht-degree: 0%
       1. （[!UICONTROL Public]和[!UICONTROL On Demand]清单）单击&#x200B;**[!UICONTROL View by Source]**&#x200B;或&#x200B;**[!UICONTROL View by Feed]**&#x200B;以更改源的列出方式。
       1. （适用时）根据需要筛选库存。
       1. 指定要包含和排除的源：
-         * 要包括[!UICONTROL Public]或[!UICONTROL On Demand]源，请单击源名称旁边的&#x200B;**[!UICONTROL Include]**。
-         * 要包含[!UICONTROL Private]源，请执行以下操作：
-            * 要在交易中包含所有库存，请单击交易名称旁边的&#x200B;**[!UICONTROL Include all]**。
-            * 要包含单个库存来源，请展开交易名称，然后单击来源名称旁边的复选框。
-         * 要排除[!UICONTROL Public]或[!UICONTROL On source]，请单击源名称旁边的&#x200B;**[!UICONTROL Exclude]**。
-   1. （可选）要将包含定向信息的CSV文件下载到浏览器的下载位置，请单击&#x200B;**[!UICONTROL Save & Export]**。
+         * 对于[!UICONTROL Public]或[!UICONTROL On Demand]清单：
+            * 要包含源，请单击源名称旁边的&#x200B;**[!UICONTROL Include]**。
+            * 要排除源，请单击源名称旁边的&#x200B;**[!UICONTROL Exclude]**。
+         * 对于[!UICONTROL Private]库存：
+            * 在[!UICONTROL Deals]选项卡上：
+               * 要在交易中包含所有库存，请单击交易名称旁边的&#x200B;**[!UICONTROL Include all]**。
+               * 要包含单个库存来源，请展开交易名称，然后单击来源名称旁边的复选框。
+            * 在[!UICONTROL Deal Lists]选项卡上，单击交易列表名称旁边的复选框。
+   1. （可选）要将包含定向信息的CSV文件下载到浏览器的下载位置，请单击&#x200B;**[!UICONTROL Export]**。
    1. 单击&#x200B;**[!UICONTROL Save]**。
 
 >[!TIP]
@@ -256,30 +259,34 @@ ht-degree: 0%
 1. （可选）要将包含定向信息的CSV文件下载到浏览器的下载位置，请单击&#x200B;**[!UICONTROL Export]**。
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
-**[!UICONTROL Exclude Sites or Apps]：** （可选；当&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;为&#x200B;*[!UICONTROL Off]*&#x200B;时可用）要排除的站点。 您可以搜索并选择站点，或者输入或粘贴域名：
+**[!UICONTROL Exclude Sites or Apps]：** （可选；当&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;为&#x200B;*[!UICONTROL Off]*&#x200B;时可用）要排除的站点/应用和[URL列表](/help/dsp/resources/lists-url-manage.md)。 在[!UICONTROL Paste URL]选项卡中，您可以搜索和选择站点，或者输入或粘贴域名。 从[!UICONTROL URL Lists]选项卡中，您可以选择URL列表。
 
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 指定站点：
-   * 要搜索站点：
-      1. 单击&#x200B;**[!UICONTROL Search]**。
-      1. 输入关键字、选择站点层和/或选择站点类别。
-      1. 在搜索结果中，选择要排除的站点：
-         * 要排除单个站点，请选中相邻复选框。
-         * （当可用结果超过50个时）要排除前50个结果，请单击&#x200B;**[!UICONTROL Exclude these 50]**。 要排除所有搜索结果，请单击&#x200B;**[!UICONTROL Exclude these \<*NN *\>]**。
-   * 要输入域名，请执行以下操作：
-      1. 单击&#x200B;**[!UICONTROL Paste]**。
-      1. 在单独行中输入一个或多个域名。
-      1. 单击&#x200B;**[!UICONTROL Exclude All]**。
+   * 从[!UICONTROL Paste URL]选项卡：
+      * 要搜索站点：
+         1. 单击&#x200B;**[!UICONTROL Search]**。
+         1. 输入关键字、选择站点层和/或选择站点类别。
+         1. 在搜索结果中，选择要排除的站点：
+            * 要排除单个站点，请选中相邻复选框。
+            * （当可用结果超过50个时）要排除前50个结果，请单击&#x200B;**[!UICONTROL Exclude these 50]**。 要排除所有搜索结果，请单击&#x200B;**[!UICONTROL Exclude these \<*NN *\>]**。
+      * 要输入域名，请执行以下操作：
+         1. 单击&#x200B;**[!UICONTROL Paste]**。
+         1. 在单独行中输入一个或多个域名。
+         1. 单击&#x200B;**[!UICONTROL Exclude All]**。
+   * 从[!UICONTROL URL Lists]选项卡：
+      1. （可选）通过在搜索字段中输入全部或部分列表名称来搜索URL列表。
+      1. 选中要排除的每个URL列表旁边的复选框。
 1. 完成后，单击&#x200B;**[!UICONTROL Done]**。
 
 >[!NOTE]
 >
 >* 除了DSP [全局阻止的站点列表](/help/dsp/introduction/features/brand-safety-media-quality.md)之外，还会应用帐户级别和广告商级别的阻止的站点列表，该列表包括被视为不安全的广告站点。
->* 阻止的站点列表始终覆盖目标站点列表。 如果投放位置同时排除并包含广告的相同目标，则排除该目标。
+>* 阻止的站点列表始终覆盖目标站点和站点列表。 如果投放位置同时排除并包含广告的相同目标，则排除该目标。
 
 **[!UICONTROL Language]：**（可选）目标单一语言。
 
-**[!UICONTROL Site or App List Preview]：** （只读）所有针对该投放位置的已阻止站点。
+**[!UICONTROL Site or app list preview]：** （只读）所有针对该投放位置定位和阻止的站点/应用程序，包括帐户级别、广告商级别和DSP全局阻止的站点列表中的站点/应用程序。
 
 您可以选择将目标和阻止站点的列表导出为逗号分隔值(CSV)文件。 要导出列表，请单击&#x200B;**[!UICONTROL Export full site list]**，然后按照浏览器的正常过程打开或保存文件。
 
@@ -287,21 +294,30 @@ ht-degree: 0%
 
 **[!UICONTROL Paste list of targeted sites]：**&#x200B;仅允许您定位特定站点。 启用此选项后，将禁用其他站点定位选项。
 
-**[!UICONTROL Sites]：** （当&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;为&#x200B;*[!UICONTROL On]*&#x200B;时可用）要定位的站点。 您可以搜索并选择站点，或者输入或粘贴域名：
+**[!UICONTROL Sites or Apps]：** （当&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;为&#x200B;*[!UICONTROL On]*&#x200B;时可用）要定位的站点。 在[!UICONTROL Paste URL]选项卡中，您可以搜索和选择站点，或者输入或粘贴域名。 从[!UICONTROL URL Lists]选项卡中，您可以选择URL列表。
 
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 指定站点：
-   * 要搜索站点：
-      1. 单击&#x200B;**[!UICONTROL Search]**。
-      1. 输入关键字、选择站点层和/或选择站点类别。
-      1. 在搜索结果中，选择要包含的站点：
-         * 要排除单个站点，请选中相邻复选框。
-         * （当可用结果超过50个时）要包含前50个结果，请单击&#x200B;**[!UICONTROL Include these 50]**。 要包含所有搜索结果，请单击&#x200B;**[!UICONTROL Include these \<*NN *\>]**。
-   * 要输入域名，请执行以下操作：
-      1. 单击&#x200B;**[!UICONTROL Paste]**。
-      1. 在单独行中输入一个或多个域名。
-      1. 单击&#x200B;**[!UICONTROL Include All]**。
-1. 单击&#x200B;**[!UICONTROL Done]**。
+   * 从[!UICONTROL Paste URL]选项卡：
+      * 要搜索站点：
+         1. 单击&#x200B;**[!UICONTROL Search]**。
+         1. 输入关键字、选择站点层和/或选择站点类别。
+         1. 在搜索结果中，选择要包含的站点：
+            * 要包括单个站点，请选中相邻复选框。
+            * （当可用结果超过50个时）要包含前50个结果，请单击&#x200B;**[!UICONTROL Include these 50]**。 要包含所有搜索结果，请单击&#x200B;**[!UICONTROL Include these \<*NN *\>]**。
+      * 要输入域名，请执行以下操作：
+         1. 单击&#x200B;**[!UICONTROL Paste]**。
+         1. 在单独行中输入一个或多个域名。
+         1. 单击&#x200B;**[!UICONTROL Include All]**。
+   * 从[!UICONTROL URL Lists]选项卡：
+      1. （可选）通过在搜索字段中输入全部或部分列表名称来搜索URL列表。
+      1. 选中要包含的每个URL列表旁边的复选框。
+1. 完成后，单击&#x200B;**[!UICONTROL Done]**。
+
+>[!NOTE]
+>
+>* 除了DSP [全局阻止的站点列表](/help/dsp/introduction/features/brand-safety-media-quality.md)之外，还会应用帐户级别和广告商级别的阻止的站点列表，该列表包括被视为不安全的广告站点。
+>* 阻止的站点列表始终覆盖目标站点和站点列表。 如果投放位置同时排除并包含广告的相同目标，则排除该目标。您可以搜索和选择站点，或者输入或粘贴域名：
 
 ## [!UICONTROL Audience Targeting]
 
@@ -323,7 +339,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*：（默认）根据用户的Cookie、移动广告ID或连接的电视(CTV) ID定位用户。 根据浏览器、应用程序内或CTV清单选择ID。
 
-* *[!UICONTROL Universal ID Beta]*：定位注重隐私的用户ID；选择一种ID类型。 可用选项由[!UICONTROL Geo-Targeting]部分中的所选地理目标决定。 与直接导入到DSP[&#128279;](/help/dsp/audiences/sources/source-import-liveramp-segments.md)的[!DNL RampID] 区段、DSP将您的PII转换为通用ID的[区段](/help/dsp/audiences/sources/source-about.md)或跟踪通用ID的[自定义区段](/help/dsp/audiences/custom-segment-create.md)一起使用。
+* *[!UICONTROL Universal ID Beta]*：定位注重隐私的用户ID；选择一种ID类型。 可用选项由[!UICONTROL Geo-Targeting]部分中的所选地理目标决定。 与直接导入到DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md)的[[!DNL RampID] 区段、DSP将您的PII转换为通用ID的[区段](/help/dsp/audiences/sources/source-about.md)或跟踪通用ID的[自定义区段](/help/dsp/audiences/custom-segment-create.md)一起使用。
 
    * *[!UICONTROL ID5]*：目标[!DNL ID5] ID是根据电子邮件地址和其他信号概率创建的。<!-- What countries/geos are these available for? Everywhere?--> ID5 ID免费提供。 **注意：** [!DNL Eyeota]中的第三方区段可能包含ID5 ID。
 
@@ -348,7 +364,7 @@ ht-degree: 0%
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 选择适用的时区。
 1. 指定间隔：
-   * 要选择预设间隔，请单击其中一个间隔按钮。 选项包括&#x200B;*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
+   * 要选择预设间隔，请单击其中一个间隔按钮。 选项包括*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
    * 要手动选择间隔，请单击单元格内部，也可以拖动以选择间隔。
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
