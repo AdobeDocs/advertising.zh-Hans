@@ -3,7 +3,7 @@ title: 为实时体验导出和实施广告体验标记
 description: 了解如何导出广告体验标记并（可选）将其上传到Advertising DSP营销活动。
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: c05c5d22f4763cd6c1425b5ab3b0bf11b78b0aee
+source-git-commit: 41763b21bda47e8bd45f48c18a674cd694df68d1
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    * 在表格视图中，将光标悬停在行上，单击&#x200B;**[!UICONTROL More]**，然后单击&#x200B;**[!UICONTROL Tag Manager]**
 
-1. 将光标悬停在适用的广告标记的行上，然后单击![导出广告标记](/help/creative/assets/export.png "导出广告标记") **[!UICONTROL Export ad tags]**&#x200B;或&#x200B;**[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**。
+1. 将光标悬停在适用的广告标记的行上，然后单击![导出广告标记](/help/creative/assets/export.png "导出广告标记") **[!UICONTROL Export ad tags]**&#x200B;或**[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**。
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -50,9 +50,9 @@ ht-degree: 0%
 
    * *通用：*&#x200B;对于您将在其他DSP中创建的广告。 **注意：**&#x200B;您可能需要根据需要手动包含[其他宏](/help/creative/creative-macros.md)。
 
-   * *Adobe Advertising：*&#x200B;对于将在Advertising DSP中创建的广告。
+   * *Adobe AdCloud：*&#x200B;对于您将在Advertising DSP中创建的广告。
 
-   * *Google DCM：*&#x200B;对于您将在[!DNL Google Campaign Manager 360]中创建的广告。 **注意：**&#x200B;您可能需要根据需要手动包含[其他宏](/help/creative/creative-macros.md)。
+   * *Google CM360：*&#x200B;对于您将在[!DNL Google Campaign Manager 360]中创建的广告。 **注意：**&#x200B;您可能需要根据需要手动包含[其他宏](/help/creative/creative-macros.md)。
 
 1. 单击&#x200B;**[!UICONTROL Generate tags]**。
 
