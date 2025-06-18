@@ -3,9 +3,9 @@ title: 在体验中的节点之间添加同级目标节点
 description: 了解如何将同级节点添加到具有目标或与具有目标的节点处于同一级别的任何节点。
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
+source-git-commit: 8961833c854ed41e4cca69787a5dc70dce2f203c
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,16 @@ In an existing experience,
          此功能为每个指定的地理目标创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定的位置（[!DNL Boolean] `AND`语句）。
 
       1. 单击&#x200B;**[!UICONTROL Apply]**。
+
+1. （可选）为用户定义的分支指定自定义分支名称。
+
+   默认情况下，用户定义的分支使用应用的目标进行标记。
+
+   您无法为“全部”或“其他所有人”分支创建自定义分支名称。
+
+   1. 将光标悬停在目标节点上并单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Name]**。
+
+   1. 输入&#x200B;**[!UICONTROL Node Name]**，然后单击&#x200B;**[!UICONTROL Save]**。
 
 1. 执行以下任一操作：
 

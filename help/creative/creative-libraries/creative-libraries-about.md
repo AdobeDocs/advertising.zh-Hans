@@ -3,9 +3,9 @@ title: 关于您的创意库
 description: 了解如何管理广告体验的创意。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 677596e41944de7782c520496f6751f03bf5d9a2
+source-git-commit: 86bd3384a44cc526428dd8ea5e97fdd684331086
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 * **个人创意：**&#x200B;您可以直接在广告体验中包含没有定义用户目标的个人创意。 您还可以使用创意内容创建包，这些包可以包含在定向的[广告体验](/help/creative/experiences/experience-about.md)中。
 
-   * **标准创意：**&#x200B;您可以上传和管理[各种格式的创意](#creative-creative-formats)。 对于每个创意，您可以指定与创意关联的每个广告的默认语言、用户单击包含创意的广告时打开的默认登陆页面，以及在[!DNL Creative]内的各种视图内用作过滤器的可选标签。
+   * **标准创意：**&#x200B;您可以上传和管理[各种格式的创意](#creative-creative-formats)。 对于每个创意，您可以指定与创意关联的每个广告的默认语言，以及用户单击包含创意的广告时打开的默认登录页面。 您可以选择指定标签，以在[!DNL Creative]内的各种视图中用作过滤器，并在使用[!UICONTROL Creative Label]维度时在[!UICONTROL Custom Creative Report]中用作列值。
 
    * **动态创意：** (仅限现有Adobe Advertising DCO客户)管理员用户可以通过将广告模板中的动态变量映射到信息源文件中的值来创建动态生成的创意。 所有用户都可以预览、复制和删除现有的动态广告。
 
@@ -90,6 +90,8 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 
 [!UICONTROL Creative Libraries]主视图显示所有创意库。 每个库的数据包括已为其分配库捆绑包的体验数量、捆绑包数量、创意内容数量、创意大小数量、默认语言目标数量、创建日期以及对库的任何元素的最后修改日期。 表格模式还包括用于广告商的列。
 
+在卡片模式下，您可以使用&lt;和>按钮滚动浏览具有多个创意的库中的图像。
+
 #### 可用操作
 
 * 创建新库
@@ -156,7 +158,7 @@ add or remove labels, regenerate thumbnails for your creatives. When a creative 
 
 ### [!UICONTROL Creative Libraries] > [!UICONTROL Bundles]视图
 
-[!UICONTROL Bundles]视图显示所有标准和动态捆绑包容器。 您可以查看每个捆绑包中包含的创意人员的创意名称、创意大小和语言。
+[!UICONTROL Bundles]视图显示所有标准和动态捆绑包容器。 您可以查看每个捆绑包中包含的创意人员的创意名称、创意大小和语言。 在卡片模式下，可以使用&lt;和>按钮滚动浏览具有多个创意的捆绑包中的图像。
 
 #### 可用操作
 

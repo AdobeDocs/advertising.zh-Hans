@@ -1,16 +1,16 @@
 ---
-title: 创意设置
+title: Creative设置
 description: 了解xxxx。
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: b3ae58583020a907a41e72967b8c2a331c2d3257
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1812'
 ht-degree: 0%
 
 ---
 
-# 创意设置
+# Creative设置
 
 *已关闭的测试版*
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 >When you include the creative in an experience, you can replace the default value for any of the click tags with a custom landing page URL to generate a derivation of the base creative.
 -->
 
-**标签：**（可选）要应用于所有选定创意的任何标签。 您可以在[!DNL Creative]内的各种视图中按标签筛选创意。
+**标签：**（可选）要应用于所有选定创意的任何标签。 您可以在[!DNL Creative]内的各种视图中按标签筛选创意，并在[!UICONTROL Custom Creative Report]中包含[!UICONTROL Creative Label]维度。
 
 * 要选择现有标签，请单击![向下](/help/creative/assets/chevron-down.png "向下")，然后选中要应用的每个标签旁边的复选框。
 

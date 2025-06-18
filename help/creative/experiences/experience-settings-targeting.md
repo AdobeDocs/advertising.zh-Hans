@@ -3,9 +3,9 @@ title: 目标体验设置
 description: 请参阅针对性广告体验的所有设置的描述。
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
+source-git-commit: a7b5a4e55c2ea66a4ca74a517ea3d90336021e30
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **RT像素：** （现有体验为只读；可选）将像素重定位到潜在目标的[!UICONTROL Creative]。 在决策树中设置定位时，可以包含一级RT像素目标节点。 对于每个节点，您将指定要定位的像素，以及显示所分配的创意捆绑包中的创意所需的像素属性值。 如果在创建体验时没有在此字段中指定像素，则仍可以在决策树中指定像素。<!-- May move this to just within the decision tree. -->
 
-**标签：**<!-- should be "Labels" -->（可选）要应用于体验的任何[!DNL Creative]特定的标签。 您可以在体验<!-- sic -->视图中按标签筛选体验。
+**标签：**<!-- should be "Labels" -->（可选）要应用于体验的任何[!DNL Creative]特定的标签。 您可以在体验视图中按标签筛选体验，并在[!UICONTROL Custom Creative Report]中包含[!UICONTROL Experience Label]维度。
 
 * 要选择现有标签，请单击![向下](/help/creative/assets/chevron-down.png "向下")，然后选中要应用的每个标签旁边的复选框。
 

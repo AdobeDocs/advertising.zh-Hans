@@ -3,9 +3,9 @@ title: 在体验中的节点之间添加目标节点
 description: 了解如何在广告体验中的目标节点之间添加目标节点。
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
+source-git-commit: 81cbb3cdac21f4b4899b0c07d1eb0686b7b3c7d4
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,16 @@ ht-degree: 0%
          1. （可选）要在指定多个地理目标时创建多个目标节点，请选择&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
          1. 单击&#x200B;**[!UICONTROL Apply]**。
+
+1. （可选）为用户定义的分支指定自定义分支名称。
+
+   默认情况下，用户定义的分支使用应用的目标进行标记。
+
+   您无法为“全部”或“其他所有人”分支创建自定义分支名称。
+
+   1. 将光标悬停在目标节点上并单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Name]**。
+
+   1. 输入&#x200B;**[!UICONTROL Node Name]**，然后单击&#x200B;**[!UICONTROL Save]**。
 
 1. 执行以下任一操作：
 

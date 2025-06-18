@@ -3,9 +3,9 @@ title: 将目标节点添加到体验中的最终级别
 description: 了解如何将目标节点添加到广告体验的最终目标级别。
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
+source-git-commit: 7e345130f43fc2d8c2ada287a2dc61b1515e2d25
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,16 @@ ht-degree: 0%
          此功能为每个指定的地理目标创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定的位置（[!DNL Boolean] `AND`语句）。
 
       1. 单击&#x200B;**[!UICONTROL Apply]**。
+
+1. （可选）为用户定义的分支指定自定义分支名称。
+
+   默认情况下，用户定义的分支使用应用的目标进行标记。
+
+   您无法为“全部”或“其他所有人”分支创建自定义分支名称。
+
+   1. 将光标悬停在目标节点上并单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Name]**。
+
+   1. 输入&#x200B;**[!UICONTROL Node Name]**，然后单击&#x200B;**[!UICONTROL Save]**。
 
 1. 执行以下任一操作：
 

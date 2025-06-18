@@ -3,9 +3,9 @@ title: 删除体验中的目标节点或创意叶节点
 description: 了解如何删除体验中的节点。
 feature: Creative Experiences
 exl-id: a8973c9e-bd0a-4f62-8668-520495b2525d
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: a98f5dc623e8ac86878171f8742f3bf279343343
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- 1. [ways to get to the decision tree] -->
 
-1. 将光标悬停在目标节点或创意叶节点上，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Delete]**。
+1. 将光标悬停在目标节点或创意叶节点上，然后单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Delete]**。
 
 1. 在确认消息中，单击&#x200B;**[!UICONTROL Delete Node]**。
 

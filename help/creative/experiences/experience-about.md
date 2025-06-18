@@ -3,9 +3,9 @@ title: 关于Advertising Creative中的体验
 description: 了解如何配置个性化的广告体验并根据性能优化广告元素。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 1f4c49de75b3a4b19199fc6f2a162b236e21ab49
+source-git-commit: a6d38953fa16a79f63bebe050e28fc14ed9a96f5
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Experiences]视图
 
-[!UICONTROL Experiences]视图显示所有针对性和非针对性体验。 您可以查看已分配创意或创意包的体验名称、状态、开始和结束日期、数量和维度，以及体验是否包含动态广告。 当您在[!UICONTROL Experiences]视图中启用[!UICONTROL Metrics]选项时，每个体验卡或行都会指示体验收到的展示次数和点击次数。
+[!UICONTROL Experiences]视图显示所有针对性和非针对性体验。 您可以查看已分配创意或创意包的体验名称、状态、开始和结束日期、数量和维度，以及体验是否包含动态广告。 当您在[!UICONTROL Experiences]视图中启用[!UICONTROL Metrics]选项时，每个体验卡或行都会指示体验收到的展示次数和点击次数。 在卡片模式下，您可以使用&lt;和>按钮滚动浏览具有多个创意的体验中的创意。
 
 您可以创建和管理体验、创建和重命名广告体验标记，以及导出JavaScript和iframe格式的标记，以在DSP中实施。 使用Advertising DSP的广告商可以选择将广告标记直接上传到Advertising DSP促销活动。
 

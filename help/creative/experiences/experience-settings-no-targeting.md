@@ -3,9 +3,9 @@ title: 非定向体验的设置
 description: 请参阅无决策树定位的广告体验的所有设置描述。
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: e070e676b9ae321ddc73acfff0dfc05ea91f9715
+source-git-commit: bd72dccf0c24c2408b4e6349842dae4b3ba93956
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 **RT像素：** （仅具有动态广告的体验；可选）将像素重定位到潜在目标的[!UICONTROL Creative]。 在决策树中设置定位时，可以包含一级RT像素目标节点。 对于每个节点，您将指定要定位的像素，以及显示所分配的创意捆绑包中的创意所需的像素属性值。 如果不在此字段中指定像素，则仍可在决策树中指定像素。<!-- From R: "the RT Pixel should be via the content selection in the Dynamic ad setup." Clarify. I do see "Datapass" (oneword) in the dynamic ad settings, but I'm not sure how that setting and this experience-level one work together. -->
 
-**[!UICONTROL Label]：**<!-- should be "Labels" -->（可选）要应用于体验的任何[!DNL Creative]特定的标签。 您可以在体验<!-- sic -->视图中按标签筛选体验。
+**[!UICONTROL Label]：**<!-- should be "Labels" -->（可选）要应用于体验的任何[!DNL Creative]特定的标签。 您可以在体验视图中按标签筛选体验，并在[!UICONTROL Custom Creative Report]中包含[!UICONTROL Experience Label]维度。
 
 * 要选择现有标签，请单击![向下](/help/creative/assets/chevron-down.png "向下")，然后选中要应用的每个标签旁边的复选框。
 
