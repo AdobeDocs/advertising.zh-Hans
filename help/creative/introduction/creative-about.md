@@ -2,9 +2,9 @@
 title: 关于Adobe Advertising Creative
 description: 了解 [!DNL Creative]。
 feature: Creative Introduction
-source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
+source-git-commit: 46f5665642e5e03dbf1c0a7d29032baab70943cb
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -15,38 +15,37 @@ ht-degree: 0%
 
 <!-- verify all and rewrite to include new stuff -->
 
-作为Adobe Advertising的一部分，Advertising Creative是一个自助服务平台，用于自动化实时、个性化的广告体验并可以选择在创意元素级别优化广告。
+作为Adobe Advertising的一部分，Advertising Creative是一个自助服务平台，用于自动化实时、个性化的广告体验并可以选择在创意元素级别优化广告。<!-- Verify -->您可以在包括Adobe Advertising DSP在内的任何DSP中将广告体验作为广告实施。
 
 ## 可重用创意的自定义创意库
 
-通过Creative Libraries，您可以管理将在广告体验中使用的创意。 您可以创建多个库，每个库具有单个创意和创意组（称为&#x200B;*包*）。 您将向广告体验添加创意包。
+通过Creative Libraries，您可以管理将在广告体验中使用的创意。 您可以创建多个库，每个库都具有单独的创意和创意组（称为&#x200B;*包*，您将附加到体验中）。
 
-## 基于规则的体验
+### [!DNL Adobe]资源集成
 
-通过[!DNL Creative]，您可以使用基于规则的决策树模型构建故事 — 展开根据您了解的受众情况实时自定义的编排广告字符串，并跟踪您的客户，即使他们迁移到不同的网站<!-- verify if that's true without Adobe CDP -->。 例如，故事可以根据客户行为、地理位置、人口统计、重新定位、客户历程中的位置等发生更改。
+[!DNL Creative]直接与Adobe Experience Manager集成，允许您轻松上传设计团队创建和批准的[!DNL Adobe]图像资源，然后使用它们实时载入故事板和编辑广告体验。
 
-<!-- Add when available:
+## 基于规则的体验和非目标体验
 
-## [!DNL Adobe] content and data integrations
+* **基于规则的定位体验：**&#x200B;使用基于规则的决策树模型构建故事 — 展开根据您对受众的了解实时自定义的编排广告字符串。 例如，故事可以根据客户行为、地理位置、人口统计、重新定位、客户历程中的位置等发生更改。
 
-[!DNL Creative] has direct integrations with Adobe Experience Manager, allowing you to easily upload the [!DNL Adobe] assets that your design team creates and use them for real-time storyboarding and editing of ad experiences.
+* **非定向体验：**&#x200B;在不缩小受众范围的情况下计划和优化广告元素。
 
-You also can use your first-party audience segments from Adobe Audience Manager and Adobe Analytics &mdash; as well as audience segments you create in Advertising Cloud DSP
-or retargeting pixels you create using [!DNL Creative] &mdash; as targets for specific creatives in an ad experience.
--->
+### [!DNL Adobe]数据集成
+
+您可以使用来自Adobe Audience Manager和Adobe Analytics的第一方受众区段，以及您在Advertising Cloud DSP中创建的受众区段，并使用[!DNL Creative]重新定位您创建的像素，作为广告体验中特定创意人员的目标。<!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
 
 ### 体验作为广告的实施
 
-创建体验后，您可以为该体验生成JavaScript或iframe标记，并在Advertising DSP或任何其他DSP中将该标记作为第三方广告实施。<!-- Add any more info about integration with DSP? -->
-
-<!-- Maybe add a subsection "Audience targeting options" with info about types of creative-level Retargeting and placement-level targeting within your DSP.  Need to clarify if any placement-level targeting might contradict/override creative-level targeting, or if they're completely different.
-
-Advertiser should be able to target all segments which are available in DSP for targeting
--->
+创建体验后，您可以为该体验生成JavaScript或iframe标记，并在Advertising DSP促销活动或任何其他DSP中将该标记作为第三方标准显示广告实施。<!-- Will add video and other ad formats; not sure if they'll be available for both standard and dynamic ads. -->
 
 ### 广告元素优化
 
 您可以选择允许[!DNL Creative]使用由Adobe Sensei提供支持的经过优化、加权的广告轮换，根据效果（无论您是否定义特定受众目标）优化任何体验的广告元素。
+
+<!--
+[!DNL Creative] serves first-party ads and triggers third-party ads for the experience based on the specified targeting (when applicable), scheduling, ad rotation, and optimization goal options 
+-->
 
 ## 正在重新定位像素
 
@@ -67,7 +66,7 @@ to the DSP.
 
 您可以在创意>体验中查看详细的体验级性能报表。
 
-您还可以在“报表”>“自定义报表”中创建自定义Creative报表，以监控体验中的体验级别性能。 如果您在DSP促销活动中将[!DNL Creative]体验用作广告，则这些广告的效果数据可在其他自定义报表中获取，就像其他DSP广告的数据一样。<!-- Verify that [!DNL Creative] users have access to ALL other reports, and if I can completely duplicate the report help for both help sets. -->
+您还可以在“报表”>“自定义报表”中创建自定义Creative报表，以监控体验中的体验级别性能。 如果您在DSP促销活动中将[!DNL Creative]体验用作广告，则这些广告的效果数据可在其他自定义报表中获取，就像其他DSP广告的数据一样。<!-- Verify that [!DNL Creative] users have access to ALL other reports. -->
 
 您可以选择将自定义报告传送到指定的[报告目标](/help/dsp/reports/report-destinations/report-destination-about.md)。
 

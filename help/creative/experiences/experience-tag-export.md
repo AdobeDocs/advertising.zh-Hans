@@ -3,9 +3,9 @@ title: 为实时体验导出和实施广告体验标记
 description: 了解如何导出广告体验标记并（可选）将其上传到Advertising DSP营销活动。
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
+source-git-commit: f2bf245c13244cbcb76cead8b37f149b9b9bc24f
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 特定创意大小的广告标记可用于[实时](experience-about.md#experience-statuses)体验后，您便可以生成并复制JavaScript和iframe格式的标记，以便在Advertising DSP或其他DSP上实施。 DSP的标记包括DSP所需的所有宏。
 
-使用Advertising DSP的广告商可以选择将标记作为广告直接上传到Advertising DSP促销活动。
+带有Advertising DSP的广告商可以选择将标记作为广告类型“标准显示”的广告直接上传到Advertising DSP促销活动。
 
 >[!NOTE]
 >
 >* 当您使用决策树定位创建体验时，[!DNL Creative]会自动为每个适用的创意大小创建广告标记。
 >* 当您创建没有决策树定位的体验时，必须为每种适用的创意大小[手动创建广告标记](experience-tag-create-manually.md)。
 >* 体验标记是动态的。 如果您编辑体验，则无需更新标记。
->* 确保您将在其中实施广告体验的营销活动包含与该体验兼容的定位。 分层定位行为可能因DSP而异。 在Advertising DSP中，广告级别定位在投放位置级别定位之后应用，不会替换投放位置级别定位。 例如，如果Advertising DSP投放位置以澳大利亚的用户为目标，而广告以日本的用户为目标，则广告将以“其他各项”分支为目标。
+>* 确保您将在其中实施广告体验的营销活动包含与该体验兼容的定位。 分层定位行为可能因DSP而异。 在Advertising DSP中，广告级别定位应用于（而非）投放级别定位。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
    * 在表格视图中，将光标悬停在行上，单击&#x200B;**[!UICONTROL More]**，然后单击&#x200B;**[!UICONTROL Tag Manager]**
 
-1. 将光标悬停在适用的广告标记的行上，然后单击![导出广告标记](/help/creative/assets/export.png "导出广告标记") **[!UICONTROL Export ad tags]**&#x200B;或&#x200B;**[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**。
+1. 将光标悬停在适用的广告标记的行上，然后单击![导出广告标记](/help/creative/assets/export.png "导出广告标记") **[!UICONTROL Export ad tags]**&#x200B;或**[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**。
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -81,7 +81,6 @@ ht-degree: 0%
 
       1. 在[!UICONTROL Create ads]视图中，查看广告标记，选择要为其创建广告的每个标记，然后单击&#x200B;**[!UICONTROL Create]**。
 
-         [!UICONTROL Ads]视图现在包含与[!DNL Creative]中的广告标记具有相同名称的新广告。 您可以[将广告附加到营销活动中的任何投放位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)。
 
 <!-- no way to get back to the Creative Tag Manager -- you have to click back through the main menu -->
 
