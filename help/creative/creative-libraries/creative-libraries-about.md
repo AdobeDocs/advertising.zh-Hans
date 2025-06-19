@@ -3,7 +3,7 @@ title: 关于您的创意库
 description: 了解如何管理广告体验的创意。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 86bd3384a44cc526428dd8ea5e97fdd684331086
+source-git-commit: 915fd9e2aebf300a37a5b6fdac6aa3526bd09f50
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -42,23 +42,7 @@ ht-degree: 0%
 
 灵活的HTML5创意人员是HTML5创意人员，其所有图像和其他属性均作为标准HTML标记，您可以直接在[!DNL Creative]中、创意库或单个体验（这会创建原始创意内容的变体）中编辑这些内容。 在DSP中，灵活的HTML5创意适用于单个特定广告大小（以像素为单位）。 您可以选择更改在灵活的HTML5创作实例中指定的属性的默认值。 稍后，您可以为特定体验中的属性指定自定义值，这会创建父级创意内容的变体。
 
-<!-- Removed:
-
-Flexible HTML5 creatives are HTML5 creatives with all of their images and other attributes as standard HTML tags, which you can edit directly within [!DNL Creative], either within a creative library or within an individual experience (which creates a variation of the original creative). Flexible HTML5 creatives use the Interactive Advertising Bureau (IAB) Technology Laboratory's standard for an [ad portfolio](https://flexibleads.iabtechlab.com/), for which ad format sizes are flexible (rather than fixed) and are based on the ad’s aspect ratio and size range, and for which ads maintain their resolution across devices and publisher sites. You can optionally change the default values of the attributes specified in a flexible HTML5 creative. Later, you can specify custom values for the attributes within a specific experience, which creates a variation of the parent creative.
-
--->
-
 您可以将灵活的HTML5创意内容上传为ZIP文件，也可以使用您帐户可用的模板之一作为起点。 请参阅灵活的HTML5创意的[规范](html5-creative-specification.md)。
-
-<!-- Will flattening the view be possible later?
-The card view, by default, includes a card for each base flexible HTML5 creative you've uploaded, with the number of creative variations [Delete old description? : an indicator of how many variations of the creative exist]. You can optionally flatten the card view to include separate cards for each base creative and each derivation. The table view is always flattened.
-
-
-[Example default card view for a flexible creative with variations]()[]add image]
-  
-[Example card for a flexible creative with one variation]() [add image]
-
- -->
 
 #### HTML5创意人员
 
@@ -94,15 +78,15 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 
 #### 可用操作
 
-* 创建新库
+* [创建新库](/help/creative/creative-libraries/creative-library-manage.md#create-a-creative-library)
 
 * 对于每个创意库：
 
-   * 编辑库名称
+   * [编辑库名称](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
 
-   * 打开库以查看分配给库的创意和捆绑包
+   * [打开库以查看分配给库的创意和捆绑包](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
 
-   * 删除库
+   * [删除库](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
 
 ### [!UICONTROL Creative Libraries] > [!UICONTROL Creatives]视图
 
@@ -125,12 +109,6 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 * [下载标准创意](creative-download.md)
 
 * [删除标准创意](creative-delete.md)
-
-<!-- Add in as separate actions?
-
-add or remove labels, regenerate thumbnails for your creatives. When a creative has child creative variations, you can view the variations within the Card view.
-
--->
 
 #### [!UICONTROL Dynamic Ads]
 

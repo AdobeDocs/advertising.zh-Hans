@@ -3,9 +3,9 @@ title: 关于Advertising Creative中的体验
 description: 了解如何配置个性化的广告体验并根据性能优化广告元素。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: a6d38953fa16a79f63bebe050e28fc14ed9a96f5
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    * 特定地理位置，包括国家/地区、州、美国境内的DMA、城市和邮政编码
 
-   * 从DSP、发布者或合作伙伴传递的特定键值对（数据传递目标）的查看器
+   * 从DSP、发布者或合作伙伴(例如SKU=01234567890123或Cart=empty)传递特定键值对（数据传递目标）的查看器
 
    * [!DNL Creative]重定位像素和指定的属性值
 
@@ -38,12 +38,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 由于这两种体验的工作流不同，因此一旦保存体验，您就无法更改是否使用决策树定位。 这意味着您无法将非目标体验更改为目标体验。 同样，您无法将目标体验更改为非目标体验。
+> 由于这两种类型的体验具有不同的工作流，因此您无法将非定位体验更改为目标体验，也无法将目标体验更改为非目标体验。
 
 ## 广告投放和优化
 
 <!-- MORE -->
-<!--When multiple ad variants qualify for an impression-->
+<!-- When multiple ad variants qualify for an impression -->
 
 [!DNL Creative]提供第一方广告并根据指定的定位（适用时）、计划、广告轮换和优化目标选项以及可用的广告库存触发体验的第三方广告。
 
@@ -61,6 +61,10 @@ ht-degree: 0%
 
 创建实时体验（包含所有必需的广告元素）后，您可以[为整个体验](experience-tag-export.md)生成JavaScript或iframe标记。 您可以将Experience Tag作为广告上传到Adobe Advertising DSP中的促销活动，或作为广告在第三方DSP中实施。
 
+>[!NOTE]
+>
+>分层定位行为可能因DSP而异。 Advertising DSP对投放位置级别定位应用广告级别定位。
+
 ## 您的体验的性能数据
 
 可以使用以下性能数据：
@@ -68,10 +72,6 @@ ht-degree: 0%
 * 当您在[!UICONTROL Creative] > [!UICONTROL Experiences]视图中启用[!UICONTROL Metrics]选项时，每个体验卡或行都会指示体验收到的展示次数和点击次数。
 
   ![量度选项](/help/creative/assets/metrics-option.png "量度选项")
-
-  <!-- insert screen shot of Metrics option?  If not, then add instructions elsewhere -->
-
-  <!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
 
 * 您可以从[!UICONTROL Experiences]视图[查看任何体验](experience-performance-details.md)的详细性能数据。
 

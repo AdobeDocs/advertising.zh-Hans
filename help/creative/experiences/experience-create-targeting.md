@@ -3,9 +3,9 @@ title: 使用决策树定位创建体验
 description: 了解如何使用决策树创建定向广告体验。
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 创建目标体验后，无法将其更改为使用其他工作流程的非目标体验。
+>* 创建目标体验后，无法将其更改为使用其他工作流程的非目标体验。
+>* 确保您的广告体验包含与将在其中实施该功能的营销活动兼容的定位。 分层定位行为可能因DSP而异。 当您将广告体验标记上载到Advertising DSP并将其附加到投放位置时，广告级别定位将应用于（而不是）投放位置级别定位。 例如，如果投放位置以澳大利亚的用户为目标，而广告以日本的用户为目标，则广告将以“其他各项”分支为目标。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
 

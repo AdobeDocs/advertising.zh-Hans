@@ -3,9 +3,9 @@ title: 非定向体验的设置
 description: 请参阅无决策树定位的广告体验的所有设置描述。
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: bd72dccf0c24c2408b4e6349842dae4b3ba93956
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced]节
 
-**数据传递：**（仅限具有动态广告的体验；可选）根据DSP、发布者或合作伙伴在展示时实时传递的特定键值对定位用户。 您最多可以指定五个数据传递密钥（参数）。<!-- May move this to just within the decision tree. -->
+**数据传递：**（仅限具有动态广告的体验；可选）根据DSP、发布者或合作伙伴在展示时实时传递的特定键值对定位用户(例如SKU=01234567890123或Cart=empty)。 您最多可以指定五个数据传递密钥（参数）。<!-- May move this to just within the decision tree. -->
 
 为特定创意大小创建广告体验标记时，在此字段中指定的每个键都将作为宏附加到标记中。 在DSP中将该标记作为广告实施之前，输入标记中每个键值对的值。
 
