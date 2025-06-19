@@ -3,9 +3,9 @@ title: 在不使用决策树定位的情况下创建体验
 description: 了解如何在不定位的情况下创建广告体验。
 feature: Creative Experiences
 exl-id: 327b1df5-5663-4513-9238-f481370c8c38
-source-git-commit: a738fed8aea38be2ca0adad08d084a383350d892
+source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 0%
 1. （可选）继续配置体验：
 
    * [为适用的创意大小手动创建广告标记](experience-tag-create-manually.md)。
+
+     然后，您可以[导出广告标记并在DSP中实施它](/help/creative/experiences/experience-tag-export.md)。
 
      [!DNL Creative]不会为非目标体验自动创建广告标记。
 
