@@ -3,9 +3,9 @@ title: 使用决策树定位创建体验
 description: 了解如何使用决策树创建定向广告体验。
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 39e2d6afa357f2cbe4037371a1441ddc2ffa9ef2
+source-git-commit: d774117a1dbfc83e6f0e51350a54e0376d360daf
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
       * 目标：
 
-         * [将目标节点添加到体验中的最终级别](experience-target-node-add-final.md)。
+         * [将目标节点添加到最终级别](experience-target-node-add-final.md)。
 
          * [在节点之间插入目标节点](experience-target-node-add-inner.md)。
 
