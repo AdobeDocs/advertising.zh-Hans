@@ -2,7 +2,7 @@
 title: 关于Adobe Advertising Creative
 description: 了解 [!DNL Creative]。
 feature: Creative Introduction
-source-git-commit: 46f5665642e5e03dbf1c0a7d29032baab70943cb
+source-git-commit: 72a6c3de183aa47cecc2ec4d0fab30ff91d4bb05
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ### [!DNL Adobe]数据集成
 
-您可以使用来自Adobe Audience Manager和Adobe Analytics的第一方受众区段，以及您在Advertising Cloud DSP中创建的受众区段，并使用[!DNL Creative]重新定位您创建的像素，作为广告体验中特定创意人员的目标。<!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
+您可以将来自Adobe Audience Manager和Adobe Analytics的第一方受众区段，以及您在Advertising DSP中创建的自定义受众区段，和使用[!DNL Creative]创建的重新定位像素，用作广告体验中特定创意人员的目标。<!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
 
 ### 体验作为广告的实施
 
