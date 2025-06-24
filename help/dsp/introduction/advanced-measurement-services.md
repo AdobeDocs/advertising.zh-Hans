@@ -2,16 +2,18 @@
 title: 高级测量解决方案
 description: 请参阅高级测量的可用解决方案列表。
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: f1d657960beb667001341e191daaddbe03d931b0
+source-git-commit: da020e3f1740b79fceba8d45d75e2965ec6f41ef
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
 
 # 高级测量解决方案
 
-广告商往往难以理解他们最划算的下一场媒体钱应该花在哪里，或者难以量化其在线广告的影响。 在数据驱动的媒体环境中，归因测量提供了解决此难题的解决方案。 [!DNL Strategic Advertising Consulting]团队帮助品牌和代理合作伙伴测量其[!DNL Adobe]连接的元素如何通过广告变得生动。 凭借强大的归因测量产品，该团队使用复杂的测量框架帮助部署策划的定位策略，使品牌轻松地将他们的媒体决策与推动其业务的现实结果联系起来。 团队可帮助您：
+广告商往往难以理解其不同媒体渠道如何协同工作，他们下一步的媒体资金应该花在哪里，或者如何量化其在线广告对核心业务目标的影响。
+
+在数据驱动的媒体环境中，归因测量提供了解决此难题的解决方案。 高级衡量和策略(AMS)团队可帮助品牌和代理机构合作伙伴衡量其Adobe Advertising的元素购买与其[!DNL Adobe]集成相关的方式如何推动成果。 借助强大的归因测量产品，AMS可以使用复杂的测量框架来部署策划的定位策略，从而使品牌可以轻松地将其媒体收入与推动其业务的现实结果联系起来。 团队可帮助您：
 
 * 在完整漏斗数字媒体营销活动中激活测量研究
 
@@ -25,52 +27,27 @@ ht-degree: 0%
 
 * **基于家庭的访问、频率和转化**
 
-  了解整个促销活动在家庭层面的影响范围，以及各个屏幕的作用。 报告选项包括：
+  了解insight在家庭层面的整体营销活动覆盖率以及各个屏幕的贡献，从而了解联网电视(CTV)如何成为媒体组合的一个组成部分。
 
-   * 跨ID家庭访问次数、频率和转化（无标识）
+* **光晕对搜索报告的影响**
 
-     <!-- Hide for now * Quantify unique/incremental reach, overlap, and conversions at a household level by cookieless ID type (RampID, ID5) across multiple environments, including connected TV (CTV) and digital (desktop, mobile, native, and audio). -->
+  量化CTV和数字广告曝光次数对推动家庭搜索点击次数、搜索转化次数和ROAS的影响。
 
-     <!-- Hide for now * Prove the effectiveness of testing cookieless IDs in finding incremental reach relative to cookie-based segments. -->
+* **X-Screen+报告**
 
-   * 平均转化时间
-
-   * 频率到转换
-
-   * CTV报告
-
-   * CTV应用程序增量功能
-
-   * 跨屏幕报告（数字和电视）
-
-   * Cross-Screen Plus报告（数字、CTV和TV）
-
-   * 数字区段内访问范围和频率
+  了解CTV和数字频道如何超越传统的线性电视广告，推动家庭获得递增和独特的影响力。
 
 * **基于人员的访问和转化**
 
   了解受众和战术如何在人员级别重叠，包括跨多个数字环境（如台式机、移动设备、原生和音频）的曝光。
 
-  <!-- Hide for now * **Cross-ID People-Based Reach**
-
-      Quantify the unique reach and overlap between cookies and RampIDs, as well as the cost per metric by ID type. Prove the effectiveness of testing RampIDs in finding incremental reach relative to cookie-based segments across multiple digital environments, such as desktop, mobile, native, and audio. -->
-
-* **光晕对搜索报告的影响**
-
-  量化CTV和数字广告曝光对CTV应用程序、搜索关键词、搜索引擎以及自定义受众和策略级别家庭级搜索点击次数、搜索转化次数和ROAS提升的影响。
-
-
-* **[!DNL Dynata]个基于面板的调查**
+* **基于面板的调查**
 
   执行控制/曝光调查，以确定广告曝光对诸如意识、熟悉度和意图等指标的影响。
 
 * **英尺流量**
 
-  了解由广告曝光度驱动的增量以及媒体投资如何通过量度（如增量效果、每次增量访问的成本和访问见解）导致购买行为变化和增量访问。
-
-* **交易分析**
-
-  通过区段、竞争性市场和购物者分析，利用确定性的信用和借记销售数据丰富您的促销活动策略。
+  通过增量效果、每次增量访问的成本和访问分析等量度，了解广告曝光度如何影响店内访问和增量访问。
 
 * **事务测量**
 
@@ -78,42 +55,34 @@ ht-degree: 0%
 
 * **试验Designer （A/B测试）**
 
-  将随机、互斥样本组的行为和情绪与简单、简洁的A/B测试进行比较。
+  将随机、互斥样本组的行为与简单、干净的A/B测试进行比较。
 
 ## 找到完美的量值拟合：垂直方向上的解决方案
 
-* **任何垂直：**
-
-   * 试验Designer（安慰剂和A/B测试）
-
-   * 基于人员的触及率和转化率
-
-     任何希望跨多种数字策略进行测量的组织；希望展示音频价值的组织
+* **所有垂直：**
 
    * 基于家庭的覆盖度、频率和转化率测量
 
-     任何希望跨多种数字策略了解覆盖范围/增量覆盖以及基于成本的效率和/或转化指标的客户
+   * 光晕效应测量
 
-   * 跨屏范围、频率和转换测量
+   * X屏覆盖范围、频率和转换测量
 
-     任何希望了解与线性电视投资相关的多种数字策略的覆盖范围/增量覆盖范围以及基于成本的效率和/或转化指标的客户
+   * 基于人员的触及率和转化率
 
-   * 基于Dynata面板的调查
+   * 基于面板的调查
 
-     任何希望跨多个屏幕衡量品牌知名度和认知度的客户；最适合小众受众
+   * 试验Designer（安慰剂和A/B测试）
 
-* **QSR，零售业（实体店）：**
+* **QSR，零售（实体店），旅游：**
 
    * 交易测量
 
    * 步行流量测量
 
-* **QSR，零售，旅游：**
-
-   * 交易分析
-
-     任何希望联系特定类型的购物者以促进店内和在线销售的客户
-
 ## 更多信息
 
-有关所有高级测量解决方案的信息、价格信息以及每个解决方案的可用格式和地区，请与您的Adobe客户团队联系。 还可应要求提供特定于解决方案的案例研究。
+有关所有高级测量解决方案的信息（其中概述了定价信息以及每个解决方案的可用格式和区域），请联系您的Adobe客户团队。 还可应要求提供特定于解决方案的案例研究。
+
+>[!MORELIKETHIS]
+>
+>Adobe Advertising支持的[货币](/help/dsp/currency.md)
