@@ -3,18 +3,24 @@ title: 登录
 description: 了解登录方式。
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: 1bf1c26b56c2d57437d288ae5ac9d2ba1ff1db77
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
 
 # 登录
 
-您可以直接或从Adobe Experience Cloud中登录到Search、Social和Commerce。
+<!-- update with new info -->
 
-## 直接登录
+<!--
+
+You can sign in to Search, Social, & Commerce directly or from within Adobe Experience Cloud.
+
+## Sign in directly
+
+ -->
 
 * 登录到以下URL之一：
 
@@ -22,20 +28,25 @@ ht-degree: 0%
 
    * 所有其他区域中的用户： [https://enterprise-intl.efrontier.com](https://enterprise-intl.efrontier.com)
 
-## 从Adobe Experience Cloud登录
+<!--
+
+## Sign in from Adobe Experience Cloud
 
 >[!NOTE]
 >
->您的公司必须在Adobe Experience Cloud中进行配置，并且您必须将Experience Cloud帐户[关联到搜索、社交和Commerce帐户](https://experiencecloud.adobe.com/resources/help/zh_CN/mcloud/organizations.html)。
+>Your company must be provisioned in Adobe Experience Cloud, and you must have [linked your Experience Cloud account to a Search, Social, & Commerce account](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
-1. [登录到Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-Hans#signin)。
+1. [Sign in to Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
 
-1. 在顶部菜单中选择![解决方案选择器](/help/search-social-commerce/assets/menu-icon.png "解决方案选择器")。
+1. In the top menu, select ![Solution selector](/help/search-social-commerce/assets/menu-icon.png "Solution selector").
 
-1. 在子菜单中选择&#x200B;**[!UICONTROL Advertising Cloud]**。
+1. In the submenu, select **[!UICONTROL Advertising Cloud]**.
+
+-->
 
 >[!MORELIKETHIS]
 >
+>* [在新用户界面和旧用户界面之间切换](ui-switch.md)
 >* [注销](sign-out.md)
 >* [更改密码](/help/search-social-commerce/tools/password-change.md)
 >* [用户界面的组织方式](user-interface.md)
