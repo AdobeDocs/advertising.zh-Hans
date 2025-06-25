@@ -119,9 +119,9 @@ ht-degree: 0%
 
 并行跟踪可将客户直接从您的广告发送到最终URL，其中可能包括来自最终URL后缀或“登陆页面后缀”的附加参数。 跟踪模板URL（包含用于点击测量的其他参数）将在后台单独加载；因此，登陆页面加载速度更快。
 
-搜索、社交和Commerce支持使用广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`，[!DNL Google Ads]为`gclid`）并行跟踪搜索和购物营销活动。 使用[帐户级别](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings)或[促销活动级别](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix]（在广告网络中称为“[!DNL final URL suffix]”），将其附加到登陆页面URL以跟踪来自支持并行跟踪的浏览器的子广告点击量。 查看 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必需后缀格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的[必需后缀格式。
+搜索、社交和Commerce支持使用广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`，[!DNL Google Ads]为`gclid`）并行跟踪搜索和购物营销活动。 使用[帐户级别](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings)或[促销活动级别](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix]（在广告网络中称为“[!DNL final URL suffix]”），将其附加到登陆页面URL以跟踪来自支持并行跟踪的浏览器的子广告点击量。 查看 [!DNL Google Ads][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必需后缀格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的必需后缀格式。
 
-当用户在不支持并行跟踪的浏览器上查看您的广告时，广告网络而是使用顺序跟踪：客户首先被发送到您的跟踪模板URL，这会将客户重定向到中间跟踪服务器，然后再将他们重定向到最终URL（可能会在登陆页面后缀中包含其他参数）。 广告网络帐户的所有跟踪模板都应包含您在[!UICONTROL Landing Page Suffix]中使用的相同点击标识符参数。 查看 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[跟踪模板格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的[跟踪模板格式。
+当用户在不支持并行跟踪的浏览器上查看您的广告时，广告网络而是使用顺序跟踪：客户首先被发送到您的跟踪模板URL，这会将客户重定向到中间跟踪服务器，然后再将他们重定向到最终URL（可能会在登陆页面后缀中包含其他参数）。 广告网络帐户的所有跟踪模板都应包含您在[!UICONTROL Landing Page Suffix]中使用的相同点击标识符参数。 查看 [!DNL Google Ads][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[跟踪模板格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的跟踪模板格式。
 +++
 
 +++为什么我的广告的跟踪URL包含&quot;`&EV_HASH={<hash>}`&quot;？

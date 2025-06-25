@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *仅包含[!DNL Google Ads]帐户和Adobe Advertising转化跟踪的广告商*
 
-Search、Social和Commerce可以选择将其为使用Adobe Advertising转化跟踪服务的[!DNL Google Ads]营销活动跟踪的所有转化指标上传到[!DNL Google Ads]。 此选项不使转换可用于混合优化。 如果要使用Adobe转化进行混合优化，请参阅“启用将目标上传到广告网络](objective-upload-to-networks.md)”。[
+Search、Social和Commerce可以选择将其为使用Adobe Advertising转化跟踪服务的[!DNL Google Ads]营销活动跟踪的所有转化指标上传到[!DNL Google Ads]。 此选项不使转换可用于混合优化。 如果要使用Adobe转化进行混合优化，请参阅“启用将目标上传到广告网络[&#128279;](objective-upload-to-networks.md)”。
 
 每日上传包括跟踪的`gclid`值、使用广告商级别归因模型定义的转化值以及时间戳。 如果更新了归因模型，则下次上传时将使用新模型，但不会更新过去的数据以使用新模型。
 

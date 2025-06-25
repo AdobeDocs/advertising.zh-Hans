@@ -14,7 +14,7 @@ ht-degree: 0%
 
 性能报告允许您在任意精细的级别跟踪和管理项目组合、广告网络和广告网络帐户实体的性能。 通过大多数报表，可以全面了解每个营销渠道中的广告对整体转化率的贡献情况。
 
-每次运行报表时，都会动态编译报表数据。 您可以选择从现有报表生成新报表。 可用的报告参数因报告类型而异。 对于大多数报表，您可以选择预览前50行，而不是生成整个报表。 生成报告时，您可以在报告完成时发送包含一个或多个电子邮件地址下载链接的通知，收件人可以在[!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md)中[管理通知。
+每次运行报表时，都会动态编译报表数据。 您可以选择从现有报表生成新报表。 可用的报告参数因报告类型而异。 对于大多数报表，您可以选择预览前50行，而不是生成整个报表。 生成报告时，您可以在报告完成时发送包含一个或多个电子邮件地址下载链接的通知，收件人可以在[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/notifications/notification-about.md)中管理通知。
 
 所有完成的报表都位于[!UICONTROL Reports]视图的[!UICONTROL Latest Reports]部分，您可以在浏览器窗口中以表格式查看它们，或者以文件形式打开或下载它们。
 

@@ -44,7 +44,7 @@ ht-degree: 0%
 
       示例： `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
 
-   1. （如果尚未完成）授权用户必须将广告商帐户配置为与Adobe Experience Cloud](/help/search-social-commerce/admin/sync-adobe-audiences.md)中的广告商组织帐户[同步。
+   1. （如果尚未完成）授权用户必须将广告商帐户配置为与Adobe Experience Cloud[&#128279;](/help/search-social-commerce/admin/sync-adobe-audiences.md)中的广告商组织帐户同步。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
 

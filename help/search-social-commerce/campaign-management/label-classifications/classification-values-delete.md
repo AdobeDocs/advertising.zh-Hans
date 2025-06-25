@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->若要取消分类值与帐户组件的关联，请参阅“从营销活动组件中删除分类值](classification-values-remove.md)”。[
+>若要取消分类值与帐户组件的关联，请参阅“从营销活动组件中删除分类值[&#128279;](classification-values-remove.md)”。
 
 1. 单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**。
 

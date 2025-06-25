@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Placements]**。
 
-1. 
+1. &#x200B;
    1. 在数据表上方的工具栏中，单击![创建](/help/search-social-commerce/assets/add.png "创建")。
 
 1. 选择广告网络、帐户、营销活动和广告组，然后单击&#x200B;**[!UICONTROL Continue]**。

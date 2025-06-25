@@ -34,7 +34,7 @@ ht-degree: 0%
 >
 >如果要复制基于购物馈送的显示促销活动，请先[在 [!DNL Microsoft Merchant Center]](https://help.ads.microsoft.com/apex/index/3/en/56870)中复制 [!DNL Google Merchant Center] 产品选件。 复制营销活动时，在导入选项中选择[!DNL Microsoft Merchant Center]存储，以将存储链接到基于信息源的受众营销活动。
 
-查看从 [!DNL Google Ads] 营销活动](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)导入的[内容。
+查看从 [!DNL Google Ads] 营销活动[&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)导入的内容。
 
 1. 在“搜索、社交和Commerce”主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ## 编辑活动导入作业的计划设置
 
-查看从 [!DNL Google Ads] 营销活动](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)导入的[内容。
+查看从 [!DNL Google Ads] 营销活动[&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)导入的内容。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
 

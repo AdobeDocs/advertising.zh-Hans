@@ -67,5 +67,5 @@ ht-degree: 0%
 >
 >* [为潜在客户实施 [!DNL Google Ads] 增强的转化](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
 >* [实施 [!DNL Microsoft Advertising] 增强的脱机转换](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
->* ([!DNL Google Ads only])[为潜在客户的 [!DNL Google Ads] 增强型转化创建转化操作](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+>* ([!DNL Google Ads only]) [为潜在客户的 [!DNL Google Ads] 增强型转化创建转化操作](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
 >* [将搜索、社交和Commerce跟踪的转化量度上传到 [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
