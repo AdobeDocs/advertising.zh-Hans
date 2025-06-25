@@ -3,7 +3,7 @@ title: 将营销活动分配给项目组合
 description: 了解如何在项目组合中包含营销活动以进行优化。
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: f1ad7c7535a7edece4eeecf7b2aac8b59f8eb6b9
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 在工具栏中，单击![更多操作](/help/search-social-commerce/assets/more-actions.png "更多操作") **[!UICONTROL More Actions]** > ![分配](/help/search-social-commerce/assets/assign.png "分配") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**。
 
-1. 在[!UICONTROL Create Portfolio]屏幕中，指定[项目组合设置](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)。
+1. 在[!UICONTROL Create Portfolio]屏幕中，指定项目组合设置<!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)-->。
 
    您之前选择的营销活动已分配给该营销活动。 您可以选择编辑项目组合的营销活动列表。
 

@@ -3,7 +3,7 @@ title: 从项目组合中删除营销活动
 description: 了解如何从项目组合中删除营销活动。
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: a71f2daded3b7c32b8c30a4631eba8c2dbda3a17
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 在数据表上方的工具栏中，单击![编辑](/help/search-social-commerce/assets/edit.png "编辑") **[!UICONTROL Edit]**。
 
-1. 在[项目组合设置](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)中，转到[!UICONTROL Assign Campaigns]部分并更改营销活动分配。
+1. 在项目组合设置<!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)-->中，转到[!UICONTROL Assign Campaigns]部分并更改营销活动分配。
 
 1. 单击&#x200B;**[!UICONTROL Review and Save]**。
 
