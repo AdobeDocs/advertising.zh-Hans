@@ -26,19 +26,19 @@ Advertising DSP和[!DNL Advertising Search, Social, & Commerce]可以各自为�
 
 ## 先决条件
 
-* 广告商必须实施[the [!DNL Adobe Experience Cloud Identity (ECID) Service]](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview)版本2.0或更高版本。 [!DNL Identity Service]提供了一个通用的永久性ID，用于在Experience Cloud的所有解决方案中标识您的访客。
+* 广告商必须实施[the [!DNL Adobe Experience Cloud Identity (ECID) Service]](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/intro/overview)版本2.0或更高版本。 [!DNL Identity Service]提供了一个通用的永久性ID，用于在Experience Cloud的所有解决方案中标识您的访客。
 
   实施包括将[!DNL Identity service]代码添加到广告商网站上的每个网页。
 
-* 组织必须为Experience Cloud服务[&#128279;](https://experienceleague.adobe.com/en/docs/core-services/interface/services/overview)启用，并且具有Experience Cloud [!DNL Organization ID]（以前称为[!DNL IMS org ID]）。
+* 组织必须为Experience Cloud服务[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/overview)启用，并且具有Experience Cloud [!DNL Organization ID]（以前称为[!DNL IMS org ID]）。
 
   [!UICONTROL Organization ID]允许拥有多个Adobe Experience Cloud产品的组织在某些产品之间共享数据。
 
-* （使用[!DNL Analytics]的广告商）该广告商必须[使用`appMeasurement.js`](https://experienceleague.adobe.com/en/docs/analytics/implementation/js/overview)版本1.6.4或更高版本实施 [!DNL Analytics] 。
+* （使用[!DNL Analytics]的广告商）该广告商必须[使用`appMeasurement.js`](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/js/overview)版本1.6.4或更高版本实施 [!DNL Analytics] 。
 
 * 广告商的网站访客不包括大量的[!DNL Apple Safari]用户。
 
-* (当广告商同时使用Audience Manager和[!DNL Analytics]时推荐)要减少对每个网页的调用，请删除用于数据收集的现有Audience Manager [!DNL Data Integration Library]代码，并为每个[!DNL Analytics]报表包启用服务器端转发。 有关详细信息，请参阅[服务器端转发概述](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf)。
+* (当广告商同时使用Audience Manager和[!DNL Analytics]时推荐)要减少对每个网页的调用，请删除用于数据收集的现有Audience Manager [!DNL Data Integration Library]代码，并为每个[!DNL Analytics]报表包启用服务器端转发。 有关详细信息，请参阅[服务器端转发概述](https://experienceleague.adobe.com/zh-hans/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf)。
 
 * （推荐）为了获得更高的匹配率，请仅将第一方网站数据发送到Adobe Advertising。 如果广告商捆绑来自客户关系管理系统的第三方数据或离线数据，则数据泄露可能会降低匹配率。
 
@@ -123,7 +123,7 @@ API会自动执行以下操作：
 
 ### DSP如何同步数据
 
-DSP使用[!DNL Adobe Experience Cloud Identity (ECID) Service]自动同步数据。 在同步过程中，[!DNL ECID Service]在[!DNL cm.everesttech.net]处调用Adobe Advertising。 由于Adobe Advertising是一个受信任的域，因此ID同步会从父页面中进行，而不是在目标发布iframe中进行，就像与大多数第三方激活合作伙伴进行同步一样。 Audience Manager使用[Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/ids-in-aam)（也称为[!DNL Device ID]）按设备ID识别独特用户。
+DSP使用[!DNL Adobe Experience Cloud Identity (ECID) Service]自动同步数据。 在同步过程中，[!DNL ECID Service]在[!DNL cm.everesttech.net]处调用Adobe Advertising。 由于Adobe Advertising是一个受信任的域，因此ID同步会从父页面中进行，而不是在目标发布iframe中进行，就像与大多数第三方激活合作伙伴进行同步一样。 Audience Manager使用[Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/zh-hans/docs/audience-manager/user-guide/reference/ids-in-aam)（也称为[!DNL Device ID]）按设备ID识别独特用户。
 
 <!--
 ![Synchronization of [!DNL Adobe] audiences in DSP](/help/integrations/assets/audience-manager-sync.png)
@@ -131,7 +131,7 @@ DSP使用[!DNL Adobe Experience Cloud Identity (ECID) Service]自动同步数据
 
 ### 搜索、社交和Commerce如何同步数据
 
-Search、Social和Commerce使用[!DNL Adobe Experience Cloud Identity (ECID) Service]自动同步数据。 在同步过程中，[!DNL ECID Service]在[!DNL cm.everesttech.net]处调用Adobe Advertising，这是属于Adobe Advertising的受信任域。 Audience Manager使用[Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/ids-in-aam)（也称为[!DNL Device ID]）按设备ID识别独特用户。
+Search、Social和Commerce使用[!DNL Adobe Experience Cloud Identity (ECID) Service]自动同步数据。 在同步过程中，[!DNL ECID Service]在[!DNL cm.everesttech.net]处调用Adobe Advertising，这是属于Adobe Advertising的受信任域。 Audience Manager使用[Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/zh-hans/docs/audience-manager/user-guide/reference/ids-in-aam)（也称为[!DNL Device ID]）按设备ID识别独特用户。
 
 ## 在何处查找同步的区段
 
