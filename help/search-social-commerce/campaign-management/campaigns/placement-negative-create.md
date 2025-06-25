@@ -3,7 +3,7 @@ title: 创建负面投放位置
 description: 了解如何为 [!DNL Google Ads] 营销活动和广告组创建负面投放位置。
 exl-id: 9cc2dd8d-5563-4e02-af8f-6181165494d8
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >[!TIP]
 >若要同时创建多个负面投放位置，请使用[营销活动批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Negatives]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Negatives]**。
 
 1. 在数据表上方的工具栏中，单击![创建](/help/search-social-commerce/assets/add.png "创建")，然后单击&#x200B;**[!UICONTROL Campaign]**&#x200B;以创建营销活动级别的负面投放位置，或单击&#x200B;**[!UICONTROL Ad Group]**&#x200B;以创建广告组级别的负面投放位置。
 

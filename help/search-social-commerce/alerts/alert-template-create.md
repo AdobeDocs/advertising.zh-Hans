@@ -3,7 +3,7 @@ title: 创建自定义警报模板
 description: 了解如何创建用于生成自定义警报的模板。
 exl-id: 95fdc91d-837c-46af-9dd7-212cb4b5a8ac
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 从[!UICONTROL Alert Templates]视图创建警报模板
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**，这将打开到[!UICONTROL Alert Templates]视图。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**，这将打开到[!UICONTROL Alert Templates]视图。
 
 1. 在工具栏中，单击![创建](/help/search-social-commerce/assets/add.png "创建")，然后选择要计算的实体类型（[!UICONTROL Portfolio]、[!UICONTROL Account]、[!UICONTROL Campaign]、[!UICONTROL Ad Group]、[!UICONTROL Keyword]、[!UICONTROL Ad]或[!UICONTROL Product Group]）。
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 >
 >此选项不适用于项目组合级别的警报模板。
 
-1. 在&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;视图中，打开要评估的实体类型（[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、[!UICONTROL Ads]或[!UICONTROL Product Groups]）的营销活动管理子视图。
+1. 在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;视图中，打开要评估的实体类型（[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、[!UICONTROL Ads]或[!UICONTROL Product Groups]）的营销活动管理子视图。
 
-例如，要创建关键字级别的警报模板，请转到[!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]，然后选择[!UICONTROL Keywords]。
+例如，要创建关键字级别的警报模板，请转到[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]，然后选择[!UICONTROL Keywords]。
 
 1. 在数据表上方的工具栏右侧，单击![创建警报](/help/search-social-commerce/assets/add-alert.png "创建警报")。
 

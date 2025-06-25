@@ -3,7 +3,7 @@ title: 将营销活动分配给项目组合
 description: 了解如何在项目组合中包含营销活动以进行优化。
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 0b5b7baaa4044af9bd86291385a5311cfc7410ee
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ## （旧版UI）从[!UICONTROL Campaigns]视图将营销活动分配给项目组合
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]>[!UICONTROL Campaigns]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]>[!UICONTROL Campaigns]**。
 
 1. 执行以下任一操作：
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 ## （旧版UI）从[!UICONTROL Portfolios]视图更改项目组合中的营销活动
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**，然后找到项目组合。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**，然后找到项目组合。
 
    您可以通过选择项目组合组或[!UICONTROL Ungrouped Portfolios]节点，从左侧面板中的[!UICONTROL Portfolios]菜单筛选项目组合列表。
 

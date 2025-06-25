@@ -3,7 +3,7 @@ title: 导出自定义警报的数据
 description: 了解如何将触发警报的数据导出到文件。
 exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: 03475909ca942010e4380456079519f0c18adca3
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 1. 执行以下任一操作：
 
-   * （要导出警报模板最近触发的警报的数据）在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**，这将打开到“警报模板”视图。
+   * （要导出警报模板最近触发的警报的数据）在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**，这将打开到“警报模板”视图。
 
-   * （要导出特定触发警报的数据）在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**。 在子菜单中，单击&#x200B;**[!UICONTROL Triggered Alerts]**。
+   * （要导出特定触发警报的数据）在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**。 在子菜单中，单击&#x200B;**[!UICONTROL Triggered Alerts]**。
 
 1. 在模板或报表名称旁边的[!UICONTROL Export]列中，单击格式的名称，然后按照浏览器的正常过程打开或保存文件：
 

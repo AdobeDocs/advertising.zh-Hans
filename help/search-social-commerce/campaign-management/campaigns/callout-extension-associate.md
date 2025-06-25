@@ -3,7 +3,7 @@ title: 将 [!DNL Google Ads] 共享的标注扩展与营销活动或广告组关
 description: 了解如何将 [!DNL Google Ads] 共享标注扩展分配给营销活动或广告组。
 exl-id: 9b3b8454-da14-4506-a92c-6796dd5fe903
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 请为每个促销活动或广告组至少分配两个标注，以便您的广告有资格显示标注。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**。
 
 1. 在数据表上方的工具栏中，单击![创建](/help/search-social-commerce/assets/add.png "创建")，然后选择&#x200B;**[!UICONTROL Callout]**。
 

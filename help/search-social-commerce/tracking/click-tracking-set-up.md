@@ -3,7 +3,7 @@ title: 设置基于Cookie的点击跟踪
 description: 了解如何设置和验证点击跟踪标记。
 exl-id: 3f2b09bc-9794-41d1-89fc-0d239bad2fb1
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. 对于每个广告网络帐户，执行以下操作：
 
-   1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]>[!UICONTROL Accounts]**。
+   1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]>[!UICONTROL Accounts]**。
 
    1. 将光标悬停在帐户名称上，单击![菜单图标](/help/search-social-commerce/assets/arrow-dropdown-menu.png "菜单图标")，然后选择&#x200B;**[!UICONTROL Edit]**。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 1. 对于每个活动，请执行以下操作：
 
-   1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]>[!UICONTROL Campaigns]**。
+   1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]>[!UICONTROL Campaigns]**。
 
    1. 将光标悬停在促销活动名称上，单击![菜单图标](/help/search-social-commerce/assets/arrow-dropdown-menu.png "菜单图标")，然后选择&#x200B;**[!UICONTROL Edit]**。
 

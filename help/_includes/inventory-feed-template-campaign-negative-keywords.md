@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
    * 负面短语匹配： `"keyword"`
    * 完全匹配的负值： `[keyword]`
 
-在批量工作表中使用短语和精确匹配类型的习惯语法，批量工作表是在您通过模板传播馈送数据时生成的。 **注意：**&#x200B;在[!UICONTROL Keywords]选项卡或[!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图中看不到负关键字。
+在批量工作表中使用短语和精确匹配类型的习惯语法，批量工作表是在您通过模板传播馈送数据时生成的。 **注意：**&#x200B;在[!UICONTROL Keywords]选项卡或[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图中看不到负关键字。
 
 **[!UICONTROL All other campaigns: Apply these negatives]：** （除[!DNL Yandex]之外的所有广告网络；可选）要为名称与指定字符串不匹配的营销活动添加的任何静态营销活动级别的负关键字。 要为同一关键字指定多个关键字或多个匹配类型，请在单独的行中输入它们。 使用以下语法，不带减号：
 
@@ -29,4 +29,4 @@ ht-degree: 0%
 * 负面短语匹配： `"keyword"`
 * 完全匹配的负值： `[keyword]`
 
-在批量工作表中使用短语和精确匹配类型的习惯语法，批量工作表是在您通过模板传播馈送数据时生成的。 **注意：**&#x200B;在[!UICONTROL Keywords]选项卡或[!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图中看不到负关键字。
+在批量工作表中使用短语和精确匹配类型的习惯语法，批量工作表是在您通过模板传播馈送数据时生成的。 **注意：**&#x200B;在[!UICONTROL Keywords]选项卡或[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图中看不到负关键字。

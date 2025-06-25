@@ -3,7 +3,7 @@ title: 查看自定义警报
 description: 了解如何列出警报实例。
 exl-id: 0a5260f6-8651-451e-841c-600be371cc3f
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 在[!UICONTROL Triggered Alerts]视图中查看警报
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**。
 
 1. 在子菜单中，单击&#x200B;**[!UICONTROL Triggered Alerts]**。
 

@@ -3,7 +3,7 @@ title: 更改密码
 description: 了解如何更改帐户密码。
 exl-id: 62a4710d-aff7-4635-9fce-6d14f890728f
 feature: Search Tools
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 更改密码会将您从当前会话中注销。 要继续工作，您必须使用新密码登录。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Change Password]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Change Password]**。
 
 1. 在字段中输入信息，然后单击&#x200B;**[!UICONTROL Submit]**。
 

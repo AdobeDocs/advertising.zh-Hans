@@ -3,7 +3,7 @@ title: 管理广告网络管理器帐户的凭据
 description: 了解如何为 [!DNL Google Ads] 经理帐户提供凭据。
 exl-id: 95866a2e-4695-4b1d-ac23-844d3b9a0a74
 feature: Search Admin
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 为新的经理帐户添加凭据
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**。
 
 1. 选择&#x200B;**[!UICONTROL Create new manager account]**。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 重新验证现有经理帐户
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**。
 
 1. 选择&#x200B;**[!UICONTROL Reauthenticate existing manager account]**。
 

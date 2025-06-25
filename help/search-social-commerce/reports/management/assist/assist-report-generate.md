@@ -3,7 +3,7 @@ title: 生成协助报告
 description: 了解如何生成协助报告。
 exl-id: ac3e3619-c300-4d2f-84bc-c4977c1712f3
 feature: Search Reports, Search Assist Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 生成协助报告
 
-*广告商具有搜索、社交和Commerce点击跟踪以及Adobe Advertising、Adobe Analytics的转化跟踪（具有[!DNL Analytics]集成），或仅在信息源中使用令牌(`ef_id`)提供*
+*广告商具有搜索、社交和Commerce点击跟踪以及来自Adobe Advertising、Adobe Analytics（具有[!DNL Analytics]集成）的转化跟踪，或仅在信息源中使用令牌(`ef_id`)提供*
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**。
 
 1. 在数据表上方的工具栏中，单击&#x200B;**[!UICONTROL Create Report]**，将光标悬停在&#x200B;**[!UICONTROL Assist Reports]**&#x200B;上，然后单击报表类型。
 

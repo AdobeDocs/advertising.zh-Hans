@@ -3,7 +3,7 @@ title: 生成基本报表或高级报表
 description: 了解如何生成自定义的基本或高级报表。
 exl-id: 529a35f5-517f-4bde-b752-c0afc6346f4b
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 生成基本报表或高级报表
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**。
 
 1. 在数据表上方的工具栏中，单击&#x200B;**[!UICONTROL Create Report]**，将光标悬停在&#x200B;**[!UICONTROL Basic Reports]**&#x200B;或&#x200B;**[!UICONTROL Advanced Reports]**&#x200B;上，然后单击[报告类型](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)。
 

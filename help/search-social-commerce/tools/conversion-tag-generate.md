@@ -3,7 +3,7 @@ title: 生成Adobe Advertising转化跟踪标记
 description: 了解如何创建Adobe Advertising转化标记以跟踪您的转化事件。
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 生成Adobe Advertising转化跟踪标记
 
-*仅跟踪Adobe Advertising转化情况的广告商*
+*仅具有Adobe Advertising转化跟踪的广告商*
 
 为要跟踪的每个量度集创建单独的转化标记，并为广告商或代理机构提供要插入每个量度的网页列表。
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >此功能不会将图像标记或[!DNL JavaScript]标记添加到广告商的网页。 必须按照广告商更新网页的正常过程添加标记。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Tags]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Tags]**。
 
 1. 指定[转换标记设置](#conversion-tag-settings)。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 * *[!UICONTROL JavaScript]：*&#x200B;创建JavaScript标记。
 
-有关标记类型之间差异的更多信息，请参阅有关Adobe Advertising转化和页面查看跟踪标记的[常见问题解答](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)。
+有关标记类型之间差异的更多信息，请参阅[关于Adobe Advertising转化和页面查看跟踪标记的常见问题解答](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)。
 
 **[!UICONTROL Tag Properties]：**&#x200B;当最终用户查看包含转化标记的页面时要跟踪的一个或多个转化量度。 若要向列表添加量度，请在“[!UICONTROL Add new property]”字段中输入量度名称，然后单击&#x200B;**[!UICONTROL Add]**。
 
@@ -52,13 +52,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->添加到此列表的量度未保存在任何位置，也未与[!UICONTROL Admin]选项卡上的客户端[!UICONTROL Conversions]列表集成。 但是，一旦Adobe Advertising实际收集某个量度的数据，就会自动将量度添加到客户端的[!UICONTROL Conversions]列表中，当转化标记在某个页面上实现，并且最终用户完成打开该页面的事务时，就会发生这种情况。
+>添加到此列表的量度未保存在任何位置，也未与[!UICONTROL Admin]选项卡上的客户端[!UICONTROL Conversions]列表集成。 但是，一旦Adobe Advertising实际收集某个量度的数据，量度就会自动添加到客户端的[!UICONTROL Conversions]列表中，这种情况会在转化标记在页面上实施并且最终用户完成打开该页面的事务时发生。
 
 **[!UICONTROL Include unique transaction IDs]：**（可选）在标记中包含交易ID属性(`ev_transid=<transid>`)。 默认情况下会选中该选项。
 
 选择此选项时，广告商必须在交易完成时为`<transid>`生成唯一值（例如，实际订单ID），并将其传递回Adobe Advertising，如`ev_transid=0123`。 Adobe Advertising使用交易ID来消除具有相同交易ID和属性值的重复交易。 事务ID不能包含作为参数分隔符保留的&amp;符号(`&`)。 交易ID包含在[的[!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)中，您可以使用该ID验证Search、Social和Commerce中的数据与广告商的数据。
 
-如果数据不包括每个交易的唯一ID，则Adobe Advertising仍会根据交易时间生成一个ID。
+如果数据中不包含每个交易的唯一ID，则Adobe Advertising仍会根据交易时间生成一个ID。
 
 >[!NOTE]
 >
@@ -80,5 +80,5 @@ ht-degree: 0%
 >* [JavaScript转换跟踪标记版本3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
 >* [JavaScript转换跟踪标记版本2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)的格式
 >* [图像转换跟踪标记的格式](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
->* [Adobe AdvertisingJavaScript转换映射标记](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+>* [Adobe Advertising JavaScript转换映射标记](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
 >* [关于管理广告商的转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)

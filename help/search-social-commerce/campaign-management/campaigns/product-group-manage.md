@@ -3,7 +3,7 @@ title: 管理购物产品组
 description: 了解如何在购物营销活动中创建和管理购物产品组。
 exl-id: cf818b87-ee4b-4cf5-a4e8-0b9a7fc32182
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 仅&#x200B;*[!DNL Google Ads]和[!DNL Microsoft Advertising]购物营销活动*
 
-您可以在[!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups]视图中创建和编辑产品组，并删除产品组及其子产品组。
+您可以在[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups]视图中创建和编辑产品组，并删除产品组及其子产品组。
 
 ## 创建“[!UICONTROL All Products]”产品组
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >若要同时创建多个帐户组件，请使用[营销活动批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]>[!UICONTROL Product Groups]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]>[!UICONTROL Product Groups]**。
 
 1. 在数据表上方的工具栏中，单击![创建](/help/search-social-commerce/assets/add.png "创建")。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 >
 >若要同时创建多个帐户组件，请使用[营销活动批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]>[!UICONTROL Product Groups]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]>[!UICONTROL Product Groups]**。
 
 1. （可选）要在树视图中查看产品组及其子产品组节点，请将光标悬停在产品组名称上，单击![菜单图标](/help/search-social-commerce/assets/arrow-dropdown-menu.png "菜单图标")，然后选择&#x200B;**[!UICONTROL Tree View]**。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 您可以编辑广告组中包含的单位产品组节点（不含子产品组节点的产品组）的竞价和跟踪模板。 不能编辑排除的部件产品组或已包括或已排除的分区节点的任何信息，这些子分区节点是具有子产品组节点的产品组。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]>[!UICONTROL Product Groups]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]>[!UICONTROL Product Groups]**。
 
 1. （可选）要在树视图中查看产品组及其子产品组节点，请将光标悬停在产品组名称上，单击![菜单图标](/help/search-social-commerce/assets/arrow-dropdown-menu.png "菜单图标")，然后选择&#x200B;**[!UICONTROL Tree View]**。
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 您可以删除任何产品组（当其他产品组位于同一级别时，除外“其他所有产品”组），该组用于确定您的商户中心帐户中的哪些产品包含在广告组的购物广告中。 删除产品组将删除所有子产品组。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]>[!UICONTROL Product Groups]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]>[!UICONTROL Product Groups]**。
 
 1. （可选）筛选列表以包含特定的产品组。
 

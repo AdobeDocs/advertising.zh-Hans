@@ -3,7 +3,7 @@ title: 查看帐户的发布者推荐日志
 description: 了解如何查看应用于 [!DNL Google Ads] 或 [!DNL Microsoft Advertising] 帐户的每个推荐的日志。
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 无法从广告网络获得已解除的建议。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**。
 
 1. 在右上角，选择广告网络和帐户。
 

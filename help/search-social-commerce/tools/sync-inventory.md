@@ -3,7 +3,7 @@ title: 启用其他库存同步
 description: 了解如何同步 [!DNL YouTube] 营销活动和 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 智能购物营销活动。
 exl-id: 3e8cc7b1-e38f-43f3-ba67-f2adaec6129d
 feature: Search Tools
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 4%
@@ -18,9 +18,9 @@ ht-degree: 4%
 >
 >[!DNL Microsoft Advertising]智能购物营销活动的简单同步为自助广告商测试版。
 
-这些营销活动的计费方式与其他类型的营销活动的计费方式相同。 有关更多详细信息，请与您的Adobe客户团队联系。
+这些营销活动的计费方式与其他类型的营销活动的计费方式相同。 有关更多详细信息，请联系您的Adobe客户团队。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Inventory Selection]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Inventory Selection]**。
 
 1. 选中启用同步的选项旁边的复选框，或清除禁用同步的复选框。
 

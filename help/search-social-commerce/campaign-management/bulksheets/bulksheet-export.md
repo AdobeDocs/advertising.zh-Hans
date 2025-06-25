@@ -3,7 +3,7 @@ title: 导出生成或上传的批量处理工作表文件
 description: 了解如何下载批量处理工作表文件，包括错误文件和登陆页面验证文件。
 exl-id: 25868c67-5e6e-4570-9d8f-1a56b9bb88ac
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 您可以下载任何生成或上传的批量处理工作表文件，包括错误文件和登陆页面验证文件，为期30天。 这些文件在上传或生成后30天自动删除。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**。
 
 1. （可选）在批量工作表列表上方，[添加过滤器](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)以限制列出的文件。
 

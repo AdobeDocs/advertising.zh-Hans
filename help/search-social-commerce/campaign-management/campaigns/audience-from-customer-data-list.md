@@ -3,7 +3,7 @@ title: 使用客户数据列表管理客户匹配受众
 description: 了解如何从您的客户数据列表中创建和编辑 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 客户匹配受众。
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 46d736c3e14bf407c513c5cb6a153a578aa65121
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
    名字、姓氏、电子邮件地址和电话号码必须使用SHA-256算法进行哈希处理。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. -->对于[!DNL Google Ads]受众，请参阅有关“[用于上载哈希数据的格式设置准则](https://support.google.com/google-ads/answer/7476159)”的[!DNL Google Ads]文档，以了解允许的联系人信息字段和要求的列表。 对于[!DNL Microsoft Advertising]受众，请参阅[准备客户匹配列表](https://help.ads.microsoft.com/#apex/ads/en/56921)上的[!DNL Microsoft Advertising]文档。 您可以选择下载[!DNL Microsoft Excel]模板以获取联系信息。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
 
 1. 在数据表上方的工具栏中，单击![创建](/help/search-social-commerce/assets/add.png "创建")。
 
@@ -91,9 +91,9 @@ ht-degree: 0%
 
 1. 为现有数据类型以所需格式生成包含客户数据的文件。
 
-名字、姓氏、电子邮件地址和电话号码必须使用SHA-256算法进行哈希处理。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. -->对于[!DNL Google Ads]受众，请参阅有关“[用于上载哈希数据的格式设置准则](https://support.google.com/google-ads/answer/7476159)”的[!DNL Google Ads]文档，以了解允许的联系人信息字段和要求的列表。 对于[!DNL Microsoft Advertising]受众，请参阅[准备客户匹配列表](https://help.ads.microsoft.com/#apex/ads/en/56921)上的[!DNL Microsoft Advertising]文档。 您可以选择下载[!DNL Microsoft Excel]模板以获取联系信息。
+名字、姓氏、电子邮件地址和电话号码必须使用SHA-256算法进行哈希处理。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. -->对于[!DNL Google Ads]受众，请参阅有关“[用于上载哈希数据的格式设置准则](https://support.google.com/google-ads/answer/7476159)”的[!DNL Google Ads]文档，以了解允许的联系人信息字段和要求的列表。 对于[!DNL Microsoft Advertising]受众，请参阅[准备客户匹配列表]&#x200B;(https://help.ads.microsoft.com/#apex/ads/en/56921)上的[!DNL Microsoft Advertising]文档。 您可以选择下载[!DNL Microsoft Excel]模板以获取联系信息。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
 
 1. 选中要编辑的受众旁边的复选框。
 

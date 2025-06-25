@@ -3,7 +3,7 @@ title: 从营销活动管理视图下载数据
 description: 了解如何从大多数营销活动管理视图下载数据。
 exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 从营销活动管理视图下载数据
 
-您可以从[!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图下载数据，但[!UICONTROL Keywords] - [!UICONTROL Keyword Negatives]、[!UICONTROL Placements] - [!UICONTROL Placement Negatives]、[!UICONTROL Audiences]和[!UICONTROL Extensions]视图除外。 您可以下载：
+您可以从[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图下载数据，但[!UICONTROL Keywords] - [!UICONTROL Keyword Negatives]、[!UICONTROL Placements] - [!UICONTROL Placement Negatives]、[!UICONTROL Audiences]和[!UICONTROL Extensions]视图除外。 您可以下载：
 
 * [!DNL XLSM] （启用宏的[!DNL Microsoft Excel]电子表格）格式的报告。 如果选择视图中的特定行，则报表将为每个选定行包含一行。 如果不选择任何行，则将为视图中的每一行创建一行。
 

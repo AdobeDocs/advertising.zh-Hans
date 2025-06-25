@@ -3,7 +3,7 @@ title: 管理修饰符
 description: 了解如何为清单数据馈送配置和管理广告模板的修饰符。
 exl-id: 74c9a7c7-0979-4f78-9225-43bc6c94acd7
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 创建修改量组
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**。
 
 1. 在数据表上方的工具栏中，单击&#x200B;**[!UICONTROL Modifiers]**。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## 编辑修改者组
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**。
 
 1. 在数据表上方的工具栏中，单击&#x200B;**[!UICONTROL Modifiers]**。
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 >
 >当您删除修改量组时，请从现有模板的字段中移除该修改量组的所有变量（表示为`<modifier_group_name>`）。 如果尝试使用不存在修饰符的变量通过模板传播数据，则作业会失败1。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**。
 
 1. 在数据表上方的工具栏中，单击&#x200B;**[!UICONTROL Modifiers]**。
 

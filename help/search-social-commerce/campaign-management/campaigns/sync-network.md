@@ -3,9 +3,9 @@ title: 手动同步广告网络数据
 description: 了解如何为支持的广告网络手动触发营销活动结构和营销活动实体的同步。
 exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
-source-git-commit: c4600e6ef41193f09722052ef9b16fe5d07bdaaf
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Search、Social和Commerce每天与您的广告网络帐户自动同步（同步
 >
 >每当[创建批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)时，您都可以选择在创建批量处理工作表之前与广告网络同步。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]>[!UICONTROL Campaigns]**。 在子菜单中，选择&#x200B;**[!UICONTROL Accounts]**&#x200B;以同步特定帐户中的所有营销活动，或选择&#x200B;**[!UICONTROL Campaigns]**&#x200B;以同步特定营销活动。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]>[!UICONTROL Campaigns]**。 在子菜单中，选择&#x200B;**[!UICONTROL Accounts]**&#x200B;以同步特定帐户中的所有营销活动，或选择&#x200B;**[!UICONTROL Campaigns]**&#x200B;以同步特定营销活动。
 
 1. （可选）筛选列表以包含特定帐户或营销活动。
 

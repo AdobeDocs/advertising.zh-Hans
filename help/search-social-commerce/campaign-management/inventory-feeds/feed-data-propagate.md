@@ -3,7 +3,7 @@ title: 通过模板传播库存馈送数据
 description: 了解如何通过广告模板从库存馈送传播数据，以管理帐户结构和投放动态广告。
 exl-id: 9660af19-a517-4593-9a99-da600a0285a5
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 从[!UICONTROL Templates]选项卡传播信息源文件
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，这将打开到[!UICONTROL Templates]选项卡。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，这将打开到[!UICONTROL Templates]选项卡。
 
 1. 选中要传播的模板旁边的复选框。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 从[!UICONTROL Feeds]列表传播信息源文件
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**。
 
 1. 在数据表上方的工具栏中，单击&#x200B;**[!UICONTROL Feeds]**。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ## 查看传播摘要
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**。
 
 1. 单击&#x200B;**[!UICONTROL Propagations]**&#x200B;选项卡。
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 您可以在作业仍在排队时停止库存馈送数据的传播作业。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，这将打开到[!UICONTROL Templates]选项卡。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，这将打开到[!UICONTROL Templates]选项卡。
 
 1. 在模板名称旁边的“[!UICONTROL Last Prop. Status]”列中，单击&#x200B;**[!UICONTROL Cancel]**。
 

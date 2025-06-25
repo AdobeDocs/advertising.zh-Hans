@@ -3,7 +3,7 @@ title: 创建电子表格报表源
 description: 了解如何设置电子表格馈送。
 exl-id: a6a9ce46-51b4-4b06-b004-89fce06d1da6
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 2. 创建电子表格信息源：
 
-   1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**。
+   1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**。
 
    1. 在数据表上方的工具栏中，单击&#x200B;**[!UICONTROL Create]**。
 

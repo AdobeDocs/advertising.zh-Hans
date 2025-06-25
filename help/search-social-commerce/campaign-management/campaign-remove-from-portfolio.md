@@ -3,7 +3,7 @@ title: 从项目组合中删除营销活动
 description: 了解如何从项目组合中删除营销活动。
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: c721215003a769f2a4a25951f524588bdb5594f2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## （旧版UI）从[!UICONTROL Portfolios]视图中的项目组合中删除营销活动
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**，然后找到项目组合。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**，然后找到项目组合。
 
    您可以通过选择项目组合组或[!UICONTROL Ungrouped Portfolios]节点，从左侧面板中的[!UICONTROL Portfolios]菜单筛选项目组合列表。
 

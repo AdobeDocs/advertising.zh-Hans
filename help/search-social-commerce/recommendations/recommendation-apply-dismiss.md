@@ -3,7 +3,7 @@ title: 应用或取消发布者推荐
 description: 了解如何查看、应用或取消发布者推荐。
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->虽然推荐可帮助您提高营销活动效果，但有些推荐可能不符合您更广泛的目标。 因此，在执行任何建议之前，最好先咨询您的Adobe客户团队。
+>虽然推荐可帮助您提高营销活动效果，但有些推荐可能不符合您更广泛的目标。 因此，在实施任何建议之前，最好咨询您的Adobe客户团队。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**。
 
 1. 在右上角，选择广告网络和帐户。
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 1. （可选）按类别和类型筛选推荐。
 
-1. 在推荐或分析行的[!UICONTROL Actions]列中，单击&#x200B;**[!UICONTROL View]**。
+1. 在推荐或insight行的[!UICONTROL Actions]列中，单击&#x200B;**[!UICONTROL View]**。
 
-1. (包含子推荐的Recommendations)单击子推荐旁边的&#x200B;**[!UICONTROL View]**。
+1. （包含子建议的推荐）单击子推荐旁边的&#x200B;**[!UICONTROL View]**。
 
 1. （可选）执行以下任一操作：
 

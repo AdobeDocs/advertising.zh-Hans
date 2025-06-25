@@ -3,7 +3,7 @@ title: 关于报告
 description: 了解性能报表，包括可用的不同报表类型以及如何自动执行报表。
 exl-id: 173d1bad-e3aa-4417-a9b1-4b5d06c304d2
 feature: Search Reports
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 性能报告允许您在任意精细的级别跟踪和管理项目组合、广告网络和广告网络帐户实体的性能。 通过大多数报表，可以全面了解每个营销渠道中的广告对整体转化率的贡献情况。
 
-每次运行报表时，都会动态编译报表数据。 您可以选择从现有报表生成新报表。 可用的报告参数因报告类型而异。 对于大多数报表，您可以选择预览前50行，而不是生成整个报表。 生成报告时，您可以在报告完成时发送包含一个或多个电子邮件地址下载链接的通知，收件人可以在[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/notifications/notification-about.md)中管理通知。
+每次运行报表时，都会动态编译报表数据。 您可以选择从现有报表生成新报表。 可用的报告参数因报告类型而异。 对于大多数报表，您可以选择预览前50行，而不是生成整个报表。 生成报告时，您可以在报告完成时发送包含一个或多个电子邮件地址下载链接的通知，收件人可以在[!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md)中[管理通知。
 
 所有完成的报表都位于[!UICONTROL Reports]视图的[!UICONTROL Latest Reports]部分，您可以在浏览器窗口中以表格式查看它们，或者以文件形式打开或下载它们。
 
@@ -25,9 +25,9 @@ ht-degree: 0%
 | 报告类别 | 描述 |
 | ----| ---- |
 | [!UICONTROL Basic Reports] | 适用于所有用户的[基本报表](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)显示项目组合、广告网络帐户、特定广告网络帐户、促销活动、广告组、广告、关键字、产品组、标签分类和标签值、竞价单位约束以及网络约束的实际成本和点击数据。 它们基于适用广告网络计价的点击量，并且可以选择包括转化数据或您创建的任何其他量度。 |
-| [!UICONTROL Advanced Reports] | [高级报告](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)提供了有关广告配置的更多见解，可帮助您确定通过更改地理定位或网络设置可获益的位置。 它们还可以帮助您对照广告商的内部转化跟踪数据，验证促销活动以及产品组合管理视图和报告中的转化数据。 |
-| [!UICONTROL Assist Reports] | [协助报表](/help/search-social-commerce/reports/management/assist/assist-report-about.md)分析广告商所有关键词和广告的转化路径。 它们使用通过Adobe Advertising转化跟踪服务捕获的数据，并且只能为使用该服务的广告商生成。 |
-| [!UICONTROL Specialty Reports] | [专业报告](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)包含由广告网络收集的数据(而不是通过Adobe Advertising跟踪收集的数据)。 |
+| [!UICONTROL Advanced Reports] | [高级报告](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)为您的广告配置提供了额外的insight，帮助您确定通过更改地理定位或网络设置可获益的位置。 它们还可以帮助您对照广告商的内部转化跟踪数据，验证促销活动以及产品组合管理视图和报告中的转化数据。 |
+| [!UICONTROL Assist Reports] | [协助报表](/help/search-social-commerce/reports/management/assist/assist-report-about.md)分析广告商所有关键词和广告的转化路径。 它们使用通过Adobe Advertising转化跟踪服务捕获的数据，并且只能为该服务的广告商生成。 |
+| [!UICONTROL Specialty Reports] | [专业报告](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)包含由广告网络收集的数据(而不是由Adobe Advertising跟踪收集的数据)。 |
 | [!UICONTROL Model Accuracy Reports] | [模型准确性报表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指明用于优化项目组合竞价、促销活动预算和竞价策略目标的成本和收入模型的准确性。 |
 
 ## 报告自动化
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ## 报告视图
 
-位于[!UICONTROL Search] > [!UICONTROL Insights & Reports] > [!UICONTROL Reports]的[!UICONTROL Reports]视图允许您创建和管理报告、模板和电子表格馈送。 该视图包含两个选项卡：
+位于[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Insights & Reports] > [!UICONTROL Reports]的[!UICONTROL Reports]视图允许您创建和管理报告、模板和电子表格馈送。 该视图包含两个选项卡：
 
 * **[!UICONTROL Latest Reports]**&#x200B;选项卡列出了过去7天内请求的所有可用报告，手动删除的报告除外，默认情况下最新报告位于顶部。 每个报表显示的信息包括运行计划（如果适用）、生成或将生成数据的开始和结束日期以及报表状态（*[!UICONTROL Finished]*、*[!UICONTROL In Progress]*&#x200B;或&#x200B;*[!UICONTROL Error]*）。
 
@@ -60,8 +60,8 @@ ht-degree: 0%
 | ---- | ---- |
 | 性能监控 | <ul><li>[该[!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md)</li><li>[该[!UICONTROL Search Engine Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-report.md)</li><li>[该[!UICONTROL Search Engine Account Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-account-report.md)</li><li>[该[!UICONTROL Campaign Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-report.md)</li><li>[该[!UICONTROL Ad Group Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-group-report.md)</li><li>[该[!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/reports/management/model-accuracy/forecast-accuracy-report.md)</li></ul> |
 | 性能故障排除和趋势分析 | <ul><li>[该[!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md)</li><li>[该[!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)</li><li>[该[!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)</li><li>[该[!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)</li><li>[该[!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/keyword-daily-impression-share-report.md)和[该[!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)</li><li>使用“[!UICONTROL Compare with]”功能比较两个时间窗口的任何基本报告</li></ul> |
-| 识别业务增长机会 | <ul><li>(仅具有Adobe Advertising转化跟踪的广告商) [该[!UICONTROL Geo Distribution Report]](/help/search-social-commerce/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(仅具有Adobe Advertising转化跟踪的广告商) [该[!UICONTROL Domain Referral Report]](/help/search-social-commerce/reports/management/basic-advanced/domain-referral-report.md)</li><li>(具有[Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hans)的广告商)Adobe Analytics Analysis Workspace中的自定义报表</li></ul> |
-| 分析 | <ul><li>(仅具有Adobe Advertising转化跟踪的广告商) [该[!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)</li><li>(具有[Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hans)的广告商)Adobe Analytics Analysis Workspace中的自定义报表</li></ul> |
+| 识别业务增长机会 | <ul><li>(仅具有Adobe Advertising转化跟踪的广告商) [该[!UICONTROL Geo Distribution Report]](/help/search-social-commerce/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(仅具有Adobe Advertising转化跟踪的广告商) [该[!UICONTROL Domain Referral Report]](/help/search-social-commerce/reports/management/basic-advanced/domain-referral-report.md)</li><li>(具有[Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)的广告商)Adobe Analytics Analysis Workspace中的自定义报表</li></ul> |
+| 分析 | <ul><li>(仅具有Adobe Advertising转化跟踪的广告商) [该[!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)</li><li>(具有[Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)的广告商)Adobe Analytics Analysis Workspace中的自定义报表</li></ul> |
 
 >[!MORELIKETHIS]
 >

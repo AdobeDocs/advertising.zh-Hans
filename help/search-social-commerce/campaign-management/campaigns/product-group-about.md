@@ -3,7 +3,7 @@ title: 关于购物产品组
 description: 了解购物营销活动中的购物产品组。
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 当同一产品包含在多个促销活动中时，广告网络首先使用促销活动优先级来确定哪个促销活动（及相关竞价）适用于广告拍卖。 如果所有促销活动具有相同的优先级，则具有最高竞价的促销活动符合条件。
 
-有关[!DNL Google]购物营销活动和广告的更多信息，请参阅[实施 [!DNL Google Ads] 购物营销活动](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)和[Google广告文档](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&amp;rd=1)。 有关[!DNL Microsoft]购物营销活动的详细信息，请参阅[实施 [!DNL Microsoft Advertising] 购物营销活动](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)和[[!DNL Microsoft Advertising] 文档](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500)。
+有关[!DNL Google]购物营销活动和广告的更多信息，请参阅[实施 [!DNL Google Ads] 购物营销活动](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)和[Google广告文档](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&rd=1)。 有关[!DNL Microsoft]购物营销活动的详细信息，请参阅[实施 [!DNL Microsoft Advertising] 购物营销活动](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)和[[!DNL Microsoft Advertising] 文档](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500)。
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Groups]视图
 
-您可以在[!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups]视图中创建和编辑产品组，并删除产品组及其子产品组。
+您可以在[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups]视图中创建和编辑产品组，并删除产品组及其子产品组。
 
 ## 购物产品组的跟踪和性能数据
 

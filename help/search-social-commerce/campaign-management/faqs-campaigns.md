@@ -3,7 +3,7 @@ title: 有关营销活动的常见问题解答
 description: 查看有关营销活动管理和营销活动数据视图的问题的答案。
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 >
 >（具有产品组合的广告商）在Search、Social和Commerce收集数据以为其创建模型时，期望新关键词和匹配类型组合的性能不稳定。
 
-**在[!UICONTROL Search] > [!UICONTROL Campaigns]视图、批量处理工作表发布过程中以及广告网络自己的编辑器中执行的操作：**
+**在[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns]视图、批量处理工作表发布过程中以及广告网络自己的编辑器中执行的操作：**
 
 在下列情况下，将删除现有关键字或广告并创建另一个关键字或广告：
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 在广告商所在时区的08:00和16:00拉取了搜索网络上当天的[!DNL Google Ads]促销活动级别的绩效指标。
 
-在[!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图和[!UICONTROL Optimization] > [!UICONTROL Portfolios]视图的[!UICONTROL Campaigns]选项卡中，当您报告[!UICONTROL Today]或包含当天的自定义日期范围时，数据包含最近同步的数据。
+在[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图和[!UICONTROL Optimization] > [!UICONTROL Portfolios]视图的[!UICONTROL Campaigns]选项卡中，当您报告[!UICONTROL Today]或包含当天的自定义日期范围时，数据包含最近同步的数据。
 
 >[!NOTE]
 >
@@ -119,9 +119,9 @@ ht-degree: 0%
 
 并行跟踪可将客户直接从您的广告发送到最终URL，其中可能包括来自最终URL后缀或“登陆页面后缀”的附加参数。 跟踪模板URL（包含用于点击测量的其他参数）将在后台单独加载；因此，登陆页面加载速度更快。
 
-搜索、社交和Commerce支持使用广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`，[!DNL Google Ads]为`gclid`）并行跟踪搜索和购物营销活动。 使用[帐户级别](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings)或[促销活动级别](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix]（在广告网络中称为“[!DNL final URL suffix]”），将其附加到登陆页面URL以跟踪来自支持并行跟踪的浏览器的子广告点击量。 查看 [!DNL Google Ads][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必需后缀格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的必需后缀格式。
+搜索、社交和Commerce支持使用广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`，[!DNL Google Ads]为`gclid`）并行跟踪搜索和购物营销活动。 使用[帐户级别](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings)或[促销活动级别](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix]（在广告网络中称为“[!DNL final URL suffix]”），将其附加到登陆页面URL以跟踪来自支持并行跟踪的浏览器的子广告点击量。 查看 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必需后缀格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的[必需后缀格式。
 
-当用户在不支持并行跟踪的浏览器上查看您的广告时，广告网络而是使用顺序跟踪：客户首先被发送到您的跟踪模板URL，这会将客户重定向到中间跟踪服务器，然后再将他们重定向到最终URL（可能会在登陆页面后缀中包含其他参数）。 广告网络帐户的所有跟踪模板都应包含您在[!UICONTROL Landing Page Suffix]中使用的相同点击标识符参数。 查看 [!DNL Google Ads][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[跟踪模板格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的跟踪模板格式。
+当用户在不支持并行跟踪的浏览器上查看您的广告时，广告网络而是使用顺序跟踪：客户首先被发送到您的跟踪模板URL，这会将客户重定向到中间跟踪服务器，然后再将他们重定向到最终URL（可能会在登陆页面后缀中包含其他参数）。 广告网络帐户的所有跟踪模板都应包含您在[!UICONTROL Landing Page Suffix]中使用的相同点击标识符参数。 查看 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[跟踪模板格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的[跟踪模板格式。
 +++
 
 +++为什么我的广告的跟踪URL包含&quot;`&EV_HASH={<hash>}`&quot;？

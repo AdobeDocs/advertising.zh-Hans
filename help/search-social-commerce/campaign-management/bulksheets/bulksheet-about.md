@@ -3,7 +3,7 @@ title: 关于使用批量处理工作表管理营销活动数据
 description: 了解广告网络、批量处理工作表工作流和错误处理可用的批量处理工作表功能。
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Search、Social和Commerce会从营销活动批量表中上传和发布尽可能
 
 ## 有关每个文件的信息
 
-所有下载的数据文件、上载的文件和错误文件都可以从[!UICONTROL Search] > [!UICONTROL Bulksheets]获得。
+所有下载的数据文件、上载的文件和错误文件都可以从[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Bulksheets]获得。
 
 每个文件的信息包括当前任务状态和任务完成的百分比、创建任务的日期、（适用时）将其发布到或将要发布到指定广告网络的日期、计划删除日期以及启动任务的用户的登录名。
 

@@ -3,20 +3,20 @@ title: 创建来自 [!DNL Adobe] 受众的 [!DNL Google Ads] 客户匹配受众
 description: 了解如何从现有Adobe Analytics和Audience Manager受众创建 [!DNL Google Ads] 客户匹配受众。
 exl-id: 7de95ebb-24b0-459f-83c0-7b85b0c0576d
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
 
 ---
 
-# 从Adobe Analytics和Audience Manager受众中创建[!DNL Google Ads]个客户匹配受众
+# 从Adobe Analytics和Audience Manager受众创建[!DNL Google Ads]个客户匹配受众
 
 仅符合客户匹配条件的&#x200B;*[!DNL Google Ads]帐户*
 
-*仅具有Adobe Advertising-Adobe Audience Manager或Adobe Advertising-Adobe Analytics集成的广告商*
+*仅集成Adobe Advertising-Adobe Audience Manager或Adobe Advertising-Adobe Analytics的广告商*
 
-选择加入的广告商可以使用以下用户ID创建[!DNL Google Ads]个客户匹配受众：a) [!DNL Analytics]与Adobe Experience Cloud共享的区段，以及b)将Search、Social和Commerce作为目标的Audience Manager区段，包括发布到Adobe Experience Cloud的[!DNL Analytics]区段和使用Adobe Experience Cloud受众库创建的区段。 Search、Social和Commerce自动将[!DNL Google]跟踪URL推送回每个[!DNL Analytics]或Audience Manager区段，以便[!DNL Google]可以跟踪受众。
+选择加入的广告商可以使用以下区段中的用户ID创建[!DNL Google Ads]个客户匹配受众：a) [!DNL Analytics]与Adobe Experience Cloud共享的区段，以及b)将Search、Social和Commerce作为目标的Audience Manager区段，包括发布到Adobe Experience Cloud的[!DNL Analytics]区段和使用Adobe Experience Cloud受众库创建的区段。 Search、Social和Commerce会自动将[!DNL Google]跟踪URL推送回每个[!DNL Analytics]或Audience Manager区段，以便[!DNL Google]可以跟踪受众。
 
 每个[!DNL Adobe]受众只能用于一个[!DNL Google]受众。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    1. （要创建用户ID再营销列表受众）[!DNL Adobe]管理员用户或帐户管理员必须选择广告商级别的设置以启用客户匹配受众。
 
-   1. 实施[Adobe Experience Platform Identity服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)版本2.0或更高版本。
+   1. 实施[Adobe Experience Platform Identity服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)版本2.0或更高版本。
 
    1. 在广告商的网页上尽可能高地部署以下标记，应从中跟踪受众
 
@@ -44,9 +44,9 @@ ht-degree: 0%
 
       示例： `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
 
-   1. （如果尚未完成）授权用户必须将广告商帐户配置为与Adobe Experience Cloud[&#128279;](/help/search-social-commerce/admin/sync-adobe-audiences.md)中的广告商组织帐户同步。
+   1. （如果尚未完成）授权用户必须将广告商帐户配置为与Adobe Experience Cloud](/help/search-social-commerce/admin/sync-adobe-audiences.md)中的广告商组织帐户[同步。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
 
 1. 在数据表上方的工具栏中，单击![创建](/help/search-social-commerce/assets/add.png "创建")。
 

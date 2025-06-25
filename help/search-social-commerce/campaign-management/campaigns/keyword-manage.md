@@ -3,7 +3,7 @@ title: 管理可竞价关键词
 description: 了解如何为搜索广告组创建和管理可竞价关键词。
 exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >若要同时创建多个关键字，请使用[复制并粘贴功能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)或[营销活动批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**。
 
 1. 在数据表上方的工具栏中，单击![创建](/help/search-social-commerce/assets/add.png "创建")。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 >
 >若要同时编辑大量关键词数据，包括不同广告网络上的关键词，请使用[复制并粘贴功能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)或[营销活动批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**。
 
 1. 选中要编辑的每一行旁边的复选框。
 

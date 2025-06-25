@@ -3,7 +3,7 @@ title: 编辑电子表格报表馈送设置
 description: 了解如何编辑电子表格馈送的设置。
 exl-id: 8ca36006-4038-404b-aaf9-66dc3e9ddcf6
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 > 如果您编辑报表模板中的列，或者使用新的或更新后的报表模板，则必须相应地更新[!DNL Excel]模板并重新上传。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**。
 
 1. （可选）要更新用于电子表格馈送的报表模板或[!DNL Excel]模板：
 

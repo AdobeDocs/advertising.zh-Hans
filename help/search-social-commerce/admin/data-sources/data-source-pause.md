@@ -4,7 +4,7 @@ description: 了解如何暂停数据源以停止同步。
 role: User, Admin
 exl-id: 93ac22c8-e1e7-490e-8b00-86cac8a2d00c
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 *仅限机构管理员（基本角色）、Adobe客户经理和管理员*
 
-暂停数据源会停止将来与数据源的同步。 如果馈送当前正在进行同步，则流程会先完成，以便Adobe Advertising中的数据为最新状态。
+暂停数据源会停止将来与数据源的同步。 如果馈送当前正在进行同步，则此过程将先完成，以便Adobe Advertising中的数据为最新状态。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**。
 
 1. 选中要暂停的数据源旁边的复选框。
 

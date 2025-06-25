@@ -3,7 +3,7 @@ title: 从您的[!UICONTROL Asset Library]查看和创建广告资源
 description: 了解如何为 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 帐户级别的资产库查看和创建可重用的图像、视频和文本资产。
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 创建和上传资源
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]**。
 
 1. 在右上角，选择广告网络和帐户。
 

@@ -3,7 +3,7 @@ title: 管理清单数据馈送文件
 description: 了解如何配置用于控制如何处理馈送数据的设置。
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
   要设置用于存放和自动处理数据文件的FTP目录，请联系您的Adobe客户团队。
 
-* **手动处理：**&#x200B;您可以从[!UICONTROL Advanced] (ACM)视图中手动[上载源文件](#feed-file-upload)。 在将信息源文件与一个或多个特定于广告网络的[模板](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)关联后，您可以通过[&#128279;](feed-data-propagate.md)根据[信息源数据设置](feed-settings-manage.md)通过模板传播信息源数据来生成营销活动和广告数据。 您可以选择在促销活动层次结构视图中预览生成的数据，生成批量处理工作表文件以供审阅，或生成批量处理工作表文件以立即发布到广告网络。 如果不立即发布数据，则可以[预览数据](propagated-data-view.md)并在稍后[发布数据](propagated-data-post.md)。 您可以稍后[用新文件](#feed-file-replace)替换现有信息源文件，而不会丢失任何现有的模板关联。
+* **手动处理：**&#x200B;您可以从[!UICONTROL Advanced] (ACM)视图中手动[上载源文件](#feed-file-upload)。 在将信息源文件与一个或多个特定于广告网络的[模板](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)关联后，您可以通过[根据[信息源数据设置](feed-settings-manage.md)通过模板](feed-data-propagate.md)传播信息源数据来生成营销活动和广告数据。 您可以选择在促销活动层次结构视图中预览生成的数据，生成批量处理工作表文件以供审阅，或生成批量处理工作表文件以立即发布到广告网络。 如果不立即发布数据，则可以[预览数据](propagated-data-view.md)并在稍后[发布数据](propagated-data-post.md)。 您可以稍后[用新文件](#feed-file-replace)替换现有信息源文件，而不会丢失任何现有的模板关联。
 
 ## 信息源文件要求
 
@@ -82,7 +82,7 @@ shoes<TAB>Clarks<TAB>20
 
 您可以打开或下载手动或使用FTP上传的任何信息源文件。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，这将打开到[!UICONTROL Templates]选项卡。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，这将打开到[!UICONTROL Templates]选项卡。
 
 1. 找到信息源文件：
 
@@ -101,7 +101,7 @@ shoes<TAB>Clarks<TAB>20
 >[!NOTE]
 > 如果将模板与手动上传的文件关联，然后通过FTP上传另一个具有相同名称、文件扩展名和语法大小写的文件，则在通过模板传播数据时将使用FTP文件。 例如，myfile.csv将取代myfile.csv，但Myfile.CSV则不取代。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，这将打开到[!UICONTROL Templates]选项卡。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，这将打开到[!UICONTROL Templates]选项卡。
 
 1. 在数据表上方的工具栏中，单击&#x200B;**[!UICONTROL Feeds]**。
 
@@ -117,7 +117,7 @@ shoes<TAB>Clarks<TAB>20
 
 替换馈送文件时，即使新文件具有不同的文件名或扩展名，所有现有的模板关联仍会保留。 当您通过最初与上一个文件相关联的所有模板传播数据时，将使用新文件。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，这将打开到[!UICONTROL Templates]选项卡。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，这将打开到[!UICONTROL Templates]选项卡。
 
 1. 执行以下任一操作：
 
@@ -141,7 +141,7 @@ shoes<TAB>Clarks<TAB>20
 
 您可以删除手动或通过FTP上传的任何信息源文件。 当您删除信息源文件时，它将不再与任何模板关联。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，这将打开到[!UICONTROL Templates]选项卡。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，这将打开到[!UICONTROL Templates]选项卡。
 
 1. 在数据表上方的工具栏中，单击&#x200B;**[!UICONTROL Feeds]**。
 

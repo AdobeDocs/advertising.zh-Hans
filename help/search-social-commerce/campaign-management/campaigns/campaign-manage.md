@@ -3,7 +3,7 @@ title: 管理营销活动
 description: 了解如何创建和管理广告营销活动。
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-source-git-commit: 3af579ad61dd05f0d2b1e565c5b1532cebaeebe1
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 >* 在创建营销活动之前，请在广告商的网页中[实施转化跟踪标记](/help/search-social-commerce/tracking/conversion-tracking-about.md)。
 >* 若要同时创建大量营销活动，请使用[复制并粘贴功能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)或[营销活动批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]>[!UICONTROL Campaigns]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]>[!UICONTROL Campaigns]**。
 
 1. 在数据表上方的工具栏中，单击![创建](/help/search-social-commerce/assets/add.png "创建")。
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 >
 >您还可以使用复制和粘贴功能或活动批量工作表批量编辑数据。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]>[!UICONTROL Campaigns]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]>[!UICONTROL Campaigns]**。
 
 1. 执行以下任一操作：
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 您还可以删除任何活动或暂停的搜索营销活动。 已删除的营销活动会从广告网络中删除。 当您将其包含在数据过滤器中时，它们仍可见，但无法进行更改。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]>[!UICONTROL Campaigns]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]>[!UICONTROL Campaigns]**。
 
 1. （可选）筛选列表以包含特定营销活动。
 

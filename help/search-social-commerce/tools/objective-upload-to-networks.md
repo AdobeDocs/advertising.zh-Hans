@@ -3,7 +3,7 @@ title: 允许将目标上传到广告网络
 description: 了解如何将混合项目组合的目标上传到 [!DNL Google Ads] 和 [!DNL Microsoft Advertising]。
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Search、Social和Commerce可以将广告商帐户组合的目标上传到[!DNL 
 >
 >由Google广告和Microsoft Advertising通用事件跟踪(UET)标记跟踪的转化不会重新上传到广告网络。 如果您将它们包含在目标中，则必须将它们添加到广告网络编辑器中的促销活动目标。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**。
 
 1. 选中&#x200B;**[!UICONTROL Enable Objective Upload]**&#x200B;旁边的复选框。
 
@@ -40,7 +40,7 @@ Search、Social和Commerce可以将广告商帐户组合的目标上传到[!DNL 
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
-1. （如果在经理帐户级别跟踪您的转化）[在&#x200B;**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;为您的经理帐户添加凭据](/help/search-social-commerce/admin/manager-accounts.md)。
+1. （如果在经理帐户级别跟踪您的转化）[在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;为您的经理帐户添加凭据](/help/search-social-commerce/admin/manager-accounts.md)。
 
 1. 验证每个名为`O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`的目标是否会在两天内在广告网络上显示。
 
@@ -75,7 +75,7 @@ GGL_Lead不包含在计算/上传中，因为它是一个Google广告跟踪指�
 
 * ([!DNL Google Ads])检查是否应将转化上传到帐户或经理级别。 如果应在经理级别上传它们：
 
-   * 检查[!DNL Google Ads]经理帐户的凭据是否在&#x200B;**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;中提供。 如有必要，[添加经理帐户](/help/search-social-commerce/admin/manager-accounts.md)的凭据。
+   * 检查[!DNL Google Ads]经理帐户的凭据是否在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;中提供。 如有必要，[添加经理帐户](/help/search-social-commerce/admin/manager-accounts.md)的凭据。
 
    * 检查广告网络帐户是否已包含相同的量度名称。 如果超过100次，则重命名该量度，以便创建正确的管理员级别属性。
 

@@ -3,7 +3,7 @@ title: 从馈送生成的将营销活动数据发布到广告网络
 description: 了解如何将清单数据馈送生成的数据发布到广告网络。
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 2cf15dbab3dc00ec88a41e4f7d8b5b3646b843e8
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
   >
   >如果您之前未验证登陆页面，但希望验证登陆页面，请[传播数据并从[!UICONTROL Bulksheets]视图中预览它](feed-data-propagate.md)，而不是将数据发布到广告网络。 然后，您可以在手动将文件发布到广告网络之前[验证URL](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)。
 
-   1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，这将打开到[!UICONTROL Templates]选项卡。
+   1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，这将打开到[!UICONTROL Templates]选项卡。
 
    1. 选中模板旁边的复选框。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
               要指定日期，请使用DD/MM/YYYY或D/M/YYYY格式，或单击![日历](/help/search-social-commerce/assets/calendar.png "日历")以打开日历，并[选择日期](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)。 要更改时间，请以24小时制HH/MM或H/M输入时间，或从列表中选择时间（以30分钟为间隔）。
 
-         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]：**&#x200B;创建可从[!UICONTROL Search] > [!UICONTROL Bulksheets]视图访问的批量工作表文件。 您可以选择从此处发布文件。
+         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]：**&#x200B;创建可从[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Bulksheets]视图访问的批量工作表文件。 您可以选择从此处发布文件。
 
            当生成的批量处理工作表文件大于2 MB时，该文件为ZIP格式。 您无需解压缩文件即可发布该文件。
 

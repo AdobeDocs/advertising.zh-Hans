@@ -2,7 +2,8 @@
 title: 为潜在客户的 [!DNL Google Ads] 增强型转化创建转化操作
 description: 了解如何为潜在客户的增强型转化创建 [!DNL Google Ads] 转化操作。
 feature: Conversions
-source-git-commit: 5eb6ed5b42e74f424fc8499f6df0dbe3f2430ab2
+exl-id: faf4a6de-e82f-4afd-bda5-2602fb45aee5
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 您可以为单个[!DNL Google Ads]帐户要跟踪的潜在客户创建[!DNL Google Ads]增强型转化转化而不是为经理帐户级别跟踪的转化创建转化操作。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**，打开&#x200B;**[!UICONTROL Summary]**&#x200B;选项卡。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**，打开&#x200B;**[!UICONTROL Summary]**&#x200B;选项卡。
 
 1. 在数据表上方的工具栏中，单击![创建](/help/search-social-commerce/assets/add.png "创建")。
 

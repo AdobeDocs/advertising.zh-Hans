@@ -3,7 +3,7 @@ title: 查看发布者推荐和性能分析
 description: 了解如何查看您的广告网络帐户的 [!DNL Google Ads] 推荐和 [!DNL Microsoft Advertising] 性能分析。
 feature: Search Recommendations
 exl-id: 8a9d99b1-c90b-4a1c-9516-85edc9024a7c
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 查看您的发布者推荐
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**。
 
 1. 在右上角，选择广告网络和帐户。
 
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 ## 查看您的[!DNL Microsoft Advertising]性能分析
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**。
 
 1. 在右上角，选择广告网络和帐户。
 
 1. 单击数据表上方的&#x200B;**[!UICONTROL Insights]**。
 
-1. 当行的[!UICONTROL Actions]列包含操作时，您可以选择单击&#x200B;**[!UICONTROL Click here]**&#x200B;以打开[!DNL Microsoft Advertising]编辑器，从中进行洞察。
+1. 当行的[!UICONTROL Actions]列包含操作时，您可以选择单击&#x200B;**[!UICONTROL Click here]**&#x200B;以打开[!DNL Microsoft Advertising]编辑器，您可以从中对insight执行操作。
 
    如果您未登录[!DNL Microsoft Advertising]编辑器，则系统会先将您定向到登录屏幕。
 

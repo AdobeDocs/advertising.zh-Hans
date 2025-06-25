@@ -3,7 +3,7 @@ title: 验证批量处理工作表文件中的登陆页面
 description: 了解如何在单帐户批量处理工作表文件中验证目标URL。
 exl-id: 191cb1bc-54a9-4c6c-a29c-f3cbae08e0d8
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 >* 此功能不会验证基本URL/最终URL列中的值。
 >* 您可以在验证批量工作表文件时发布这些文件，即使发现错误也是如此。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**。
 
 1. 选中每个要验证的文件旁边的复选框。
 

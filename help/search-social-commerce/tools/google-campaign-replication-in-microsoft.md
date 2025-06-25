@@ -3,7 +3,7 @@ title: 复制 [!DNL Microsoft Advertising]中的 [!DNL Google Ads] 营销活动
 description: 了解如何将a [!DNL Google Ads] 帐户中同步的营销活动直接导出到已同步的 [!DNL Microsoft Advertising] 帐户。
 exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%
@@ -34,9 +34,9 @@ ht-degree: 0%
 >
 >如果要复制基于购物馈送的显示促销活动，请先[在 [!DNL Microsoft Merchant Center]](https://help.ads.microsoft.com/apex/index/3/en/56870)中复制 [!DNL Google Merchant Center] 产品选件。 复制营销活动时，在导入选项中选择[!DNL Microsoft Merchant Center]存储，以将存储链接到基于信息源的受众营销活动。
 
-查看从 [!DNL Google Ads] 营销活动[&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)导入的内容。
+查看从 [!DNL Google Ads] 营销活动](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)导入的[内容。
 
-1. 在“搜索、社交和Commerce”主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
+1. 在“搜索、社交和Commerce”主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
 
 1. 单击&#x200B;**[!UICONTROL +Import]**。
 
@@ -62,9 +62,9 @@ ht-degree: 0%
 
 ## 编辑活动导入作业的计划设置
 
-查看从 [!DNL Google Ads] 营销活动[&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)导入的内容。
+查看从 [!DNL Google Ads] 营销活动](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)导入的[内容。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
 
 1. 选中导入作业旁边的复选框，然后单击![编辑](/help/search-social-commerce/assets/edit.png "编辑")。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 * 执行以下任一操作：
 
-   * 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
+   * 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
 
      默认情况下，该视图打开到[!UICONTROL List of Import Jobs]选项卡。
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 ## 运行活动导入作业
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
 
 1. 选中导入作业旁边的复选框。
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 您可以列出所有已完成或失败的导入作业，包括开始时间、源[!DNL Google Ads]帐户、目标[!DNL Microsoft Advertising]帐户、创建作业的用户、成功和失败的操作数以及收到每个作业通知的任何电子邮件地址。 您可以查看有关每个作业发生的目标[!DNL Microsoft Advertising]帐户更改的更多详细信息，包括添加、同步、删除的项目数，以及帐户中每个实体级别（如营销活动或关键字）发生错误的项目数。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
 
 1. 单击&#x200B;**[!UICONTROL Import Logs]**&#x200B;选项卡。
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 **[!UICONTROL Credential ID]：** [!DNL Microsoft Advertising]用于表示您的[!DNL Google Ads]凭据的ID。
 
-由于[!DNL Microsoft Advertising]限制，无法自动生成导入的[!DNL Microsoft Advertising]凭据。 请联系您的Adobe客户团队，他们将生成凭据并提供ID。
+由于[!DNL Microsoft Advertising]限制，无法自动生成导入的[!DNL Microsoft Advertising]凭据。 请联系您的Adobe客户团队，他们将会生成凭据并向您提供ID。
 
 **[!UICONTROL Target Microsoft Ads account]：**&#x200B;活动数据导入到的同步[!DNL Microsoft Advertising]帐户。
 

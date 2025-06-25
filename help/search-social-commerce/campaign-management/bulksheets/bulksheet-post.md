@@ -3,7 +3,7 @@ title: 发布批量工作表或已更正的错误文件
 description: 了解如何将批量工作表文件发布到广告网络。
 exl-id: 49b930ba-71b3-442d-a162-67cf7ae14e14
 feature: Search Bulksheets
-source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 >[!NOTE]
 >您还可以在上传文件时发布批量工作表文件或错误文件。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**。
 
 1. 选中每个要发布的文件旁边的复选框。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 >
 >* 大量数据需要更长的时间才能发布。 您可以在[!UICONTROL Bulksheets]视图的[!UICONTROL Progress]列中跟踪文件的进度。
 >* 所有发布的数据都受制于网络的编辑流程。
->* 在发布批量工作表文件之前，您可以取消发布。
+* 在发布批量工作表文件之前，您可以取消发布。
 
 ## 批量工作表和已更正错误文件的发布设置 {#bulksheet-post-settings}
 

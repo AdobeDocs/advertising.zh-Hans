@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -15,4 +15,4 @@ ht-degree: 0%
 * 负面短语匹配： `"keyword"`
 * 完全匹配的负值： `[keyword]`
 
-在批量工作表中使用短语和精确匹配类型的习惯语法，批量工作表是在您通过模板传播馈送数据时生成的。 **注意：**&#x200B;在[!UICONTROL Keywords]选项卡或[!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图中看不到负关键字。
+在批量工作表中使用短语和精确匹配类型的习惯语法，批量工作表是在您通过模板传播馈送数据时生成的。 **注意：**&#x200B;在[!UICONTROL Keywords]选项卡或[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图中看不到负关键字。

@@ -1,9 +1,9 @@
 ---
-title: “[!DNL Microsoft Advertising]转换数据”
+title: '[!DNL Microsoft Advertising]转化数据'
 description: 了解Search、Social和Commerce中可用的 [!DNL Microsoft Advertising]跟踪的转化数据类型。
 feature: Search Campaign Management, Conversions
 exl-id: 0ebc70a0-1fb7-48db-b45d-7409e8bb6f64
-source-git-commit: b8a34f3d85947536eb92ee481966f84694250f29
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 0%
@@ -36,11 +36,11 @@ ht-degree: 0%
 
 根据点击时间和自为帐户启用该功能之日起的转化/交易时间，数据可用。
 
-[!DNL Microsoft Advertising]按[竞价单位](/help/search-social-commerce/glossary.md#a-b)、设备和点击日期（不是转换日期）记录每次转换。 归因基于[!DNL Microsoft Advertising]中每个量度的默认归因设置；Adobe Advertising归因未计入在内，因为点击事件级别数据不可用。
+[!DNL Microsoft Advertising]按[竞价单位](/help/search-social-commerce/glossary.md#a-b)、设备和点击日期（不是转换日期）记录每次转换。 归因基于[!DNL Microsoft Advertising]中每个量度的默认归因设置；Adobe Advertising归因未计入中，因为点击事件级别数据不可用。
 
 >[!NOTE]
 >
->* 如果多个帐户具有相同的转化名称，则在Adobe Advertising中可能会看到重复的转化名称。 如果发生这种情况，请在[!UICONTROL Admin] > [!UICONTROL Conversions]中更改其中一个重复量度的显示名称[&#128279;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)。 当两个不同的量度具有相同的名称时，报表不准确。
+>* 如果您有多个帐户具有相同的转化名称，您可能会在Adobe Advertising中看到重复的转化名称。 如果发生这种情况，请在[!UICONTROL Admin] > [!UICONTROL Conversions]中更改其中一个重复量度的显示名称](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)。 [当两个不同的量度具有相同的名称时，报表不准确。
 >* 竞价单元级别的数据与同一级别广告网络中的数据匹配。 但是，广告网络自己的更高级别的转化数据可能包括未归因到子竞价单位的附加转化。 搜索、社交和Commerce中的数据始终从竞价单位级别汇总，因此，例如，促销活动级别的报表可能与广告网络中的促销活动级别报表具有不同的总计。
 >* 通常，在早上同步之后，数据差异小于当天晚些时候，此时尚未同步其他转化。 我们建议在早上验证数据。
 >* 在受众或地理位置级别没有可用数据，因此不用于自动优化RLSA和位置竞价调整。
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 在“搜索”、“社交”和“Commerce”中，使用查看或报表选项查看基于点击日期（而非交易日期）的转化。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**。
 
 1. 在数据表上方的工具栏中，单击&#x200B;**[!UICONTROL Create Report]**，将光标悬停在&#x200B;**[!UICONTROL Basic Reports]**&#x200B;上，然后单击&#x200B;**[!UICONTROL Search Engine Account Report]**。
 

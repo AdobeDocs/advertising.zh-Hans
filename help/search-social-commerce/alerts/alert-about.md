@@ -3,7 +3,7 @@ title: 关于自定义警报
 description: 了解自定义警报，包括如何创建警报模板以及何时触发警报。
 exl-id: 11dcc96c-06b8-4d2a-a671-af26297fdc3f
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 * 指定的收件人将收到电子邮件通知。 当警报包含最多1000条记录时，电子邮件通知包含一个包含警报数据的[CSV](/help/search-social-commerce/glossary.md#c-d)文件，其中包括触发警报的所有实体的数据。
 
-* 警报在[!UICONTROL Search] > [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]的[!UICONTROL Triggered Alerts]视图中列出。 触发警报后，可下载报告可持续10天。
+* 警报在[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]的[!UICONTROL Triggered Alerts]视图中列出。 触发警报后，可下载报告可持续10天。
 
 * 警报在适用的实体视图的[!UICONTROL Notifications]中心列出，该视图可从右侧工具栏获得。 除非删除通知或将通知标记为已读，否则通知将保留在[!UICONTROL Notifications]中心。
 

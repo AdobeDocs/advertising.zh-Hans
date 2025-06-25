@@ -3,7 +3,7 @@ title: 查看或保存报告
 description: 了解如何查看生成的报告或将报告另存为文件。
 exl-id: 11333266-d1af-4064-9816-c70b53b0a8bd
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe帐户小组成员和管理员用户可以查看由客户和代理角色创建的报告。
+>Adobe客户团队成员和管理员用户可以查看由客户和代理角色创建的报告。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**，这将打开到&#x200B;**[!UICONTROL Latest Reports]**&#x200B;选项卡。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**，这将打开到&#x200B;**[!UICONTROL Latest Reports]**&#x200B;选项卡。
 
 1. 执行以下任一操作：
 

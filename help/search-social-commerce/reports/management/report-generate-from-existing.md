@@ -3,7 +3,7 @@ title: 从现有报表生成报表
 description: 了解如何使用之前生成的报告创建报告。
 exl-id: f094c767-629a-4e3c-91f6-12761927fe89
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 从现有报表生成报表
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**，这将打开到&#x200B;**[!UICONTROL Latest Reports]**&#x200B;选项卡。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**，这将打开到&#x200B;**[!UICONTROL Latest Reports]**&#x200B;选项卡。
 
 1. 单击现有报告旁边的![创建类似按钮](/help/search-social-commerce/assets/create-similar.png "创建类似按钮")。
 

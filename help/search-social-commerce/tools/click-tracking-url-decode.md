@@ -3,7 +3,7 @@ title: 解码点击跟踪URL
 description: 了解如何从基本URL中删除Search、Social和Commerce点击跟踪代码。
 exl-id: 2f40f6a9-afc9-4e9d-9233-40e29a7f50d8
 feature: Search Tools, Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 解码搜索、社交和Commerce点击跟踪URL
 
-*仅跟踪Adobe Advertising转化情况的广告商*
+*仅具有Adobe Advertising转化跟踪的广告商*
 
 您可以通过从基本URL中删除Search、Social和Commerce点击跟踪代码来查看目标URL实际发送用户的位置。
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >* 您可以根据需要，一次解码任意数量的URL，但性能取决于您使用的浏览器。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Decode Tracking URLs]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Decode Tracking URLs]**。
 
 1. 在输入字段中，输入每个包含搜索、社交和Commerce跟踪代码的URL。
 

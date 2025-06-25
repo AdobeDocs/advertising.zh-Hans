@@ -4,7 +4,7 @@ description: 了解如何在更改相关密码或证书过期时重新验证 [!D
 role: User, Admin
 exl-id: 624f0f0e-3f2f-45b1-b3dc-c1b107b4736f
 feature: Search Admin, Search Data Sources
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 如果更改用于数据源的电子邮件帐户的密码，或者帐户的[!DNL OAuth]证书过期，则与该电子邮件帐户的所有打开连接都将关闭，您必须重新进行身份验证才能继续同步数据。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**。
 
 1. 选中要重新验证的数据源旁边的复选框。
 
