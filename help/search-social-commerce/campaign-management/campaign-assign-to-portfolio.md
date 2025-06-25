@@ -3,9 +3,9 @@ title: 将营销活动分配给项目组合
 description: 了解如何在项目组合中包含营销活动以进行优化。
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: 0b5b7baaa4044af9bd86291385a5311cfc7410ee
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,39 @@ ht-degree: 0%
 
 将促销活动分配到优化的产品组合可让Search、Social和Commerce优化促销活动中关键词和广告的竞价、促销活动预算和竞价策略目标。 您可以在创建项目组合时，或编辑项目组合的设置，从[!UICONTROL Campaigns]视图将营销活动分配给项目组合。
 
-并非所有营销活动类型和广告网络都符合优化条件；请查看可包含在项目组合中的[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)列表。 此外，请查阅有关“Portfolio”的“优化指南”一章中的“按营销活动竞价策略列出的合格Portfolio类型”，以验证每个营销活动竞价策略的优化支持，该章节可从Search、Social和Commerce中获取。<!-- verify convention for referencing Optimization Guide here -->
+并非所有营销活动类型和广告网络都符合优化条件；请查看可包含在项目组合中的[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)列表。 此外，请通过在Search、Social和Commerce中提供的有关“项目组合”的“优化指南”章节中参阅“按活动竞价策略列出的合格Portfolio类型”，验证每个活动竞价策略是否支持优化。<!-- verify convention for referencing Optimization Guide here -->
 
 >[!NOTE]
 >
 >每个营销活动只能分配给一个项目组合。 如果您将已与其他项目组合关联的促销活动分配给新项目组合，则会将其从原始项目组合中删除。
 
-## 从[!UICONTROL Campaigns]视图将营销活动分配给项目组合
+## （新UI）从[!UICONTROL Manage] > [!UICONTROL Campaigns]视图将营销活动分配给现有项目组合
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
+
+1. 选中要分配给单个项目组合的每个营销活动旁边的复选框。
+
+1. 在工具栏中，单击![更多操作](/help/search-social-commerce/assets/more-actions.png "更多操作") **[!UICONTROL More Actions]** > ![分配](/help/search-social-commerce/assets/assign.png "分配") **[!UICONTROL Assign]** > **[!UICONTROL Existing Portfolio]**。
+
+1. 选择项目组合。
+
+1. 单击&#x200B;**[!UICONTROL Assign Now]**。
+
+## （新UI）从[!UICONTROL Manage] > [!UICONTROL Campaigns]视图将营销活动分配给新项目组合
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
+
+1. 选中要为其创建新项目组合的每个营销活动旁边的复选框。
+
+1. 在工具栏中，单击![更多操作](/help/search-social-commerce/assets/more-actions.png "更多操作") **[!UICONTROL More Actions]** > ![分配](/help/search-social-commerce/assets/assign.png "分配") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**。
+
+1. 在[!UICONTROL Create Portfolio]屏幕中，指定[项目组合设置](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)。
+
+   您之前选择的营销活动已分配给该营销活动。 您可以选择编辑项目组合的营销活动列表。
+
+1. 单击&#x200B;**[!UICONTROL Review and Save]**。
+
+## （旧版UI）从[!UICONTROL Campaigns]视图将营销活动分配给项目组合
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]>[!UICONTROL Campaigns]**。
 
@@ -58,7 +84,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
-## 从[!UICONTROL Portfolios]视图更改项目组合中的营销活动
+## （旧版UI）从[!UICONTROL Portfolios]视图更改项目组合中的营销活动
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**，然后找到项目组合。
 
