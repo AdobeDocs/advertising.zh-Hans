@@ -3,9 +3,9 @@ title: 系统要求
 description: 了解软件和帐户要求。
 exl-id: 818494f2-45d6-4788-a847-d80dec711245
 feature: Search Getting Started
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d2956703efd76db58305e31c5acf959e67747f02
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,21 @@ ht-degree: 0%
 
 ## 软件
 
-* 以下任一浏览器：
+* （新用户界面）最新版本减去以下任一浏览器：
+
+   * 为获得最佳体验：
+
+      * [!DNL Google Chrome]
+
+      * [!DNL Microsoft Edge]
+
+   * [!DNL Apple Safari]
+
+   * [!DNL Mozilla Firefox]
+
+   * [!DNL Opera]
+
+* （旧版用户界面）以下任一浏览器：
 
    * [!DNL Apple Safari] （包括[!DNL iOS]的[!DNL Safari]） 10或更高
 
