@@ -22,7 +22,7 @@ Search、Social和Commerce正在过渡到Adobe Identity Management服务(IMS)以
 
 您当前的搜索、社交和Commerce凭据将在2025年7月15日之前保持活动状态，以便您能够为更改做好准备。
 
-有关Experience Cloud界面（包括管理用户配置文件）的更多信息，请参阅“[Experience Cloud界面和管理](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)”。
+有关Experience Cloud界面（包括管理用户配置文件）的更多信息，请参阅“[Experience Cloud界面和管理](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/experience-cloud)”。
 
 ## 从旧版“搜索、社交和Commerce”登录页面登录
 
