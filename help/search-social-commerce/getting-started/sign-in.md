@@ -40,7 +40,7 @@ Search、Social和Commerce正在过渡到Adobe Identity Management服务(IMS)以
 
 1. 输入您的[!DNL Adobe] ID，然后单击&#x200B;**[!UICONTROL Continue]**。
 
-1. 如果出现提示，请选择**个人帐户”或&#x200B;**公司或学校帐户**。<!-- Will it necessarily be "Company or School Account?" -->
+1. 如果出现提示，请选择&#x200B;**个人帐户”或&#x200B;**&#x200B;公司或学校帐户**。<!-- Will it necessarily be "Company or School Account?" -->
 
    默认情况下，将打开新的用户界面。
 
@@ -54,7 +54,7 @@ Search、Social和Commerce正在过渡到Adobe Identity Management服务(IMS)以
 
 1. 输入您的[!DNL Adobe] ID，然后单击&#x200B;**[!UICONTROL Continue]**..
 
-1. 如果出现提示，请选择**个人帐户”或&#x200B;**公司或学校帐户**。<!-- Will it necessarily be "Company or School Account?" -->
+1. 如果出现提示，请选择&#x200B;**个人帐户”或&#x200B;**&#x200B;公司或学校帐户**。<!-- Will it necessarily be "Company or School Account?" -->
 
 1. 在主页的[!UICONTROL Quick Access]部分中，单击&#x200B;**[!UICONTROL Advertising Search, Social, & Commerce]**。
 
