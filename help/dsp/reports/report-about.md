@@ -3,9 +3,9 @@ title: 关于自定义报表
 description: 了解用于手动或使用预配置的报表模板创建自定义报表的选项。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 49e254ca954389b1ea13ac571de55f404ed7ba7c
+source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您还可以在相关促销活动管理视图[&#128279;](/help/dsp/campaign-management/reports/campaign-reports-about.md)中查看促销活动的所有级别（促销活动、包、投放位置或广告）的按需数据。
+>您还可以在相关促销活动管理视图[中查看促销活动](/help/dsp/campaign-management/reports/campaign-reports-about.md)的所有级别（促销活动、包、投放位置或广告）的按需数据。
 
 ## 可用报表类型
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Household Conversions]：**&#x200B;使用此报表可查看基于IP地址的家庭级别（而非设备/Cookie级别）的浏览转化情况。 使用见解衡量和优化促销活动效果。 有关详细信息，请参阅[家庭报表常见问题解答](/help/dsp/reports/faq-reports.md)。 数据不可用于以通用ID为目标的投放位置。
 
-   * **[!UICONTROL Path to Conversion Beta]：**(Beta功能)使用此报告可确定如何优化预算并根据表现最佳的广告交互序列对广告进行个性化设置。 报表会显示同一家庭中导致指定数据范围内每个选定转化量度的交互点序列。 报表在首次交互和转化之间使用指定的回顾时间段，并可包含一个维度：
+   * **[!UICONTROL Path to Conversion]：**&#x200B;请使用此报告确定如何优化预算并根据表现最佳的广告交互序列对广告进行个性化设置。 报表会显示同一家庭中导致指定数据范围内每个选定转化量度的交互点序列。 报表在首次交互和转化之间使用指定的回顾时间段，并可包含一个维度：
 
       * [!UICONTROL Channel Assist Type]：显示以下营销渠道如何协助转换过程：[!UICONTROL Audio Impression]、[!UICONTROL CTV Impression]、[!UICONTROL Display Click]、[!UICONTROL Display Impression]、[!UICONTROL Native Click]、[!UICONTROL Native Impression]、[!UICONTROL Search Click]、[!UICONTROL Video Click]或[!UICONTROL Video Impression]。
 
@@ -97,11 +97,11 @@ ht-degree: 0%
 
      若要将此报告与[!DNL Advanced Measurement Services]和Adobe Analytics创建的报告进行比较，请参阅“[关于自定义报告的常见问题解答](/help/dsp/reports/faq-reports.md)”。
 
-   * **[!UICONTROL Path Length Beta]：**(Beta功能)使用此报表      跟踪一段时间内转化所需的用户交互点数，以便您选择最佳广告频率。 此报表按路径长度（交互点）显示转化次数，例如用户仅有一个广告交互、两个广告交互等后发生的转化次数。 报表可以包含多个转化量度的数据，并在首次交互和转化之间使用指定的回顾时间段。 报表中的列包括“[!UICONTROL Path Length]”、“[!UICONTROL Number of] \&lt;转化量度名称1\>”、“% \&lt;转化量度名称1\>”、“\&lt;转化量度名称2\>”、“% \&lt;转化量度名称2\>”等。
+   * **[!UICONTROL Path Length]：**&#x200B;使用此报告      跟踪一段时间内转化所需的用户交互点数，以便您选择最佳广告频率。 此报表按路径长度（交互点）显示转化次数，例如用户仅有一个广告交互、两个广告交互等后发生的转化次数。 报表可以包含多个转化量度的数据，并在首次交互和转化之间使用指定的回顾时间段。 报表中的列包括“[!UICONTROL Path Length]”、“[!UICONTROL Number of] \&lt;转化量度名称1\>”、“% \&lt;转化量度名称1\>”、“\&lt;转化量度名称2\>”、“% \&lt;转化量度名称2\>”等。
 
      显示每个路径长度不超过10的数据；将路径长度大于10的数据分组在一起。
 
-   * **[!UICONTROL Time to Conversion Beta]：**(Beta功能)使用此报告可确定最佳的归因回顾时间范围，并识别转化时间较长的营销活动，这可能会受益于重新定位。 此报表按自上次交互（广告曝光或点击）到转化的时间长度（以天为单位）显示转化的次数。 报表可以包含多个转化量度的数据，并在首次交互和转化之间使用指定的回顾时间段。 报表中的列包括“[!UICONTROL Time Taken (in days)]”、“[!UICONTROL Number of] \&lt;转化量度名称1\>”、“% \&lt;转化量度名称1\>”、“\&lt;转化量度名称2\>”、“% \&lt;转化量度名称2\>”等。 需要超过回顾期间的转化将分组在一行中（例如，如果报表使用的回顾期间为30天，则所有需要超过30天的转化将分组在一行中，其中的“[!UICONTROL Time Taken (in days)]”值为“30+”）。
+   * **[!UICONTROL Time to Conversion]：**&#x200B;使用此报告可确定最佳的归因回顾时间范围，并识别转化时间较长的营销活动，这可能会受益于重新定位。 此报表按自上次交互（广告曝光或点击）到转化的时间长度（以天为单位）显示转化的次数。 报表可以包含多个转化量度的数据，并在首次交互和转化之间使用指定的回顾时间段。 报表中的列包括“[!UICONTROL Time Taken (in days)]”、“[!UICONTROL Number of] \&lt;转化量度名称1\>”、“% \&lt;转化量度名称1\>”、“\&lt;转化量度名称2\>”、“% \&lt;转化量度名称2\>”等。 需要超过回顾期间的转化将分组在一行中（例如，如果报表使用的回顾期间为30天，则所有需要超过30天的转化将分组在一行中，其中的“[!UICONTROL Time Taken (in days)]”值为“30+”）。
 
 ## 跨帐户报告 {#cross-account-reporting}
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Ready to download]：** （仅定期报告）报告的一个或多个实例可供下载，并且已计划多个报告实例。
 
-* **[!UICONTROL Failed]：**&#x200B;报告作业失败。 要了解报表包的单个报表实例失败的原因，请单击[!UICONTROL Download]旁边的![向下箭头](/help/dsp/assets/chevron-down.png "向下箭头")。 失败的报表作业指示有错误图标(![错误指示器](/help/dsp/assets/indicator-critical.png "错误指示器"))。 将光标悬停在错误图标上可查看错误说明。
+* **[!UICONTROL Failed]：**&#x200B;报告作业失败。 要了解报表包的单个报表实例失败的原因，请单击![旁边的](/help/dsp/assets/chevron-down.png "向下箭头")向下箭头[!UICONTROL Download]。 失败的报表作业指示有错误图标(![错误指示器](/help/dsp/assets/indicator-critical.png "错误指示器"))。 将光标悬停在错误图标上可查看错误说明。
 
 * **[!UICONTROL Completed]：**&#x200B;对于非周期性报表，报表已完成。 对于定期报表，已完成所有报表实例。 您可以下载过去四个月内完成的所有报表。
 

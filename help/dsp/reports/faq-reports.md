@@ -2,9 +2,9 @@
 title: 关于自定义报表的常见问题解答
 description: 详细了解自定义报表，包括家庭报表和转化路径分析报表。
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: cb3eed4629c66283e0de18f7287169ec6e501aaa
+source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1178'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 例如，即使一个展示次数提供给一个家庭中的三个设备，独特访问家庭数量度仍为1。
 
-##### 支持的Dimension
+##### 支持的维度
 
 [!UICONTROL Household Reach & Frequency]报表支持[以下维度](/help/dsp/reports/report-columns.md)：“[!UICONTROL Campaign]”、“[!UICONTROL Package]”、“[!UICONTROL Placement]”、“[!UICONTROL Site/Apps]”（不提供对重叠量度的访问权限）、“[!UICONTROL Media Type]”、“[!UICONTROL Feed Type]”、“[!UICONTROL Device]”、“[!UICONTROL Publisher]”、“[!UICONTROL Audience]”、“[!UICONTROL Creative Length]”和用户创建的投放位置“[!UICONTROL Tags]”。 |
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 具有重叠量度的报表输出交叉点，最多三个值。 例如，如果对10个投放位置使用量度[!UICONTROL Unique Household (Overlap)]，则可以查看由单个投放位置到达的唯一家庭、由任意两个投放位置组合到达的共同家庭，以及由任意三个投放位置组合到达的共同家庭。 你看不到有四个或更多安置点的普通家庭。
 
-对于营销活动、资源包或投放位置以外的维度，报表在每个维度中最多支持10个值。 例如，要为[!UICONTROL Audience]维度生成[!UICONTROL Unique Household Reached]报告，唯一受众的数量应少于或等于10。 如果包含10个以上的独特受众，则会生成空白报表。
+对于营销活动、资源包或投放位置以外的维度，报表在每个维度中最多支持10个值。 例如，要为[!UICONTROL Unique Household Reached]维度生成[!UICONTROL Audience]报告，唯一受众的数量应少于或等于10。 如果包含10个以上的独特受众，则会生成空白报表。
 
 #### 为什么我的[!UICONTROL Custom]报表与[!UICONTROL Household Reach & Frequency]报表之间的频度和唯一范围值不同？
 
@@ -83,13 +83,11 @@ ht-degree: 0%
 
 #### 在Adobe Analytics中，家庭转化报表与CTV浏览转化报表有何不同？
 
-[!DNL Analytics]中的CTV观看数据为[!DNL Analytics]跟踪提供支持，家庭转化数据使用通过Adobe Advertising转化跟踪收集的数据。 此外，[!DNL Analytics]中的DSP归因逻辑仅使用最后一个事件，但家庭转化报表支持两种不同的归因方法：唯一和MTA。
+* 在[!DNL Analytics]中，[!DNL CTV View-Through Conversion]报告显示转化之前CTV展示为最后一个接触点的转化次数。 相反，DSP [!UICONTROL Household Conversions]报表显示在转化之前定义的回顾时间范围内随时接触CTV展示的唯一家庭数量。
 
-#### 我能否同时在[!DNL Analytics for Advertising]和自定义报表中查看CTV显示到达数据？
+* 在[!DNL Analytics]中，归因逻辑将转化专门分配给Adobe Advertising中的最后一个接触点。 相比之下，DSP [!UICONTROL Household Conversions]报表支持其他归因模型&#x200B;*[!UICONTROL Unique]*&#x200B;和&#x200B;*[!UICONTROL Multi-Touch Attribution (MTA)]*。
 
-没有[!DNL Analytics for Advertising]的广告商只能将家庭转化报表用于家庭转化报表。
-
-如果您的组织具有[!DNL Analytics for Advertising]，请同时使用这两种类型的报表。 虽然CTV浏览报表适用于宽渠道分析、网站行为等，但自定义报表可提供精细的视图（其中数据按媒体类型、发布者等细分）以指示驱动转化率的因素。
+* [!DNL Analytics]报表数据对于按营销渠道、网站参与量度等进行分析，尤其有用。 DSP [!UICONTROL Household Conversions]报表允许将转化数据拆分为各种维度（如媒体类型和发布者），以提供更细粒度的洞察。
 
 ### [!UICONTROL Household Reach & Frequency]和[!UICONTROL Household Conversions]报告与来自[!DNL Advanced Measurement Services]的数据
 
@@ -109,14 +107,14 @@ ht-degree: 0%
 
 | | 转化报表路径 | 高级测量服务对搜索报表的光晕影响 | Analysis Workspace中的报表 |
 | --- | --- | --- |---|
-| 客户价值 | 生成自助自定义报表，以了解广告历程的哪些路径导致了更多转化，从而促进优化 | 了解联网电视(CTV)策略对搜索点击量的影响 | 了解您的整体Adobe Advertising投资以及其他营销渠道对搜索点击量的影响 |
+| 客户价值 | 生成自助自定义报表，以了解广告历程的哪些路径导致了更多转化，从而促进优化 | 了解联网电视(CTV)策略对搜索点击量的影响 | 了解您的Adobe Advertising整体投资以及其他营销渠道对搜索点击量的影响 |
 | 家庭级别 | 是 | 是 | 否 |
 | 是否支持CTV？ | 是 | 是 | 是 |
 | 归因方法 | 最近联系事件（展示或点击）必须在回顾窗口内。 | 独特 | 最近联系 |
 | | 转化路径会考虑距上次接触事件超过30天的交互点。 | （CTV将获得点数，无论用户的单击路径中出现CTV暴露的位置） | （如果印象是回顾时间范围中的最后一个事件，并且在CTV曝光之前或之后没有来自其他格式的付费点击，则CTV获得点击） |
 | 报告级别 | 粒度 | 粒度 | 广泛 |
-| | （渠道类型、创意/广告、关键字、路径、长度、转化时间） | (CTV Strategy， CTV App/Publisher) | (Adobe Advertising和其他营销渠道) |
-| 营销渠道 | DSP +搜索(从“搜索”、“社交”和“Commerce”) | DSP +搜索(从“搜索”、“社交”和“Commerce”) | Adobe Advertising点进EF ID未跟踪的营销渠道（例如免费搜索、免费社交、电子邮件和附属活动） |
+| | (渠道类型、Creative/广告、关键字、路径、长度、转化时间) | (CTV Strategy， CTV App/Publisher) | (Adobe Advertising和其他营销渠道) |
+| 营销渠道 | DSP +搜索(来自搜索、社交和Commerce) | DSP +搜索(来自搜索、社交和Commerce) | Adobe Advertising未通过EF ID跟踪的营销渠道（例如免费搜索、免费社交、电子邮件和附属活动） |
 | 支持的转化量度 | 使用Adobe Advertising事件像素(AMO ID)和Adobe Analytics跟踪跟踪的指标 | 点击次数（无转化） | 使用Adobe Analytics跟踪跟踪的指标 |
 
 有关高级测量服务对搜索报表的光晕影响的详细信息，请参阅[高级测量服务](/help/dsp/introduction/advanced-measurement-services.md)。

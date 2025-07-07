@@ -3,9 +3,9 @@ title: 自定义报表设置
 description: 请参阅自定义报表设置的描述。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 8e6d2a1d39231176f3836246958b82691fbb5006
+source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1534'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]：**&#x200B;报告名称。 最大长度为180个字符。
 
-**[!UICONTROL Report Type]：**&#x200B;报告的类型： *[!UICONTROL Custom]* （包括大多数可用选项）、*[!UICONTROL Billing]*、*[!UICONTROL Conversion]*、*[!UICONTROL Device]*、*[!UICONTROL Frequency (by Impression)]*、*[!UICONTROL Frequency (by App/Site)]*、*[!UICONTROL Geo]*、*[!UICONTROL Margin]*、*[!UICONTROL Media Performance]*、*[!UICONTROL Segment]*、*[!UICONTROL Site]*、*[!UICONTROL Household Reach & Frequency]*、*[!UICONTROL Household Conversions]*、*[!UICONTROL Path to Conversions Beta]*、*[!UICONTROL Path Length Beta]*&#x200B;或&#x200B;*[!UICONTROL Time to Conversion Beta]*。
+**[!UICONTROL Report Type]：**&#x200B;报告的类型： *[!UICONTROL Custom]* （包括大多数可用选项）、*[!UICONTROL Billing]*、*[!UICONTROL Conversion]*、*[!UICONTROL Device]*、*[!UICONTROL Frequency (by Impression)]*、*[!UICONTROL Frequency (by App/Site)]*、*[!UICONTROL Geo]*、*[!UICONTROL Margin]*、*[!UICONTROL Media Performance]*、*[!UICONTROL Segment]*、*[!UICONTROL Site]*、*[!UICONTROL Household Reach & Frequency]*、*[!UICONTROL Household Conversions]*、**、*[!UICONTROL Path Length]*&#x200B;或&#x200B;*[!UICONTROL Time to Conversion]*。
 
 ## [!UICONTROL Report Range]节
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >您还可以随时[从[!UICONTROL Reports]视图中](report-run-now.md)运行自定义报表。
+  >您还可以随时[从](report-run-now.md)视图中[!UICONTROL Reports]运行自定义报表。
 
 * *[!UICONTROL On]\&lt;Date\>：*&#x200B;在指定的日期运行报告，完成日期为帐户时区的09:00。
 
@@ -117,13 +117,13 @@ ht-degree: 0%
 
 **[!UICONTROL Attribution Rule Settings]：**&#x200B;设置因报告类型而异：
 
-* **\[归因类型\]：** (包含[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]列的[!UICONTROL Household Conversion]报表；仅包含Adobe Advertising转化跟踪的广告商)在报表中，如何在一系列导致转化的事件中归因转化数据：
+* **\[归因类型\]：** （[!UICONTROL Household Conversion]个报告包含[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]列）在报表中，如何在一系列导致转化的事件中归因转化数据：
 
    * *[!UICONTROL Unique]：* （默认值）计算维度值（如设备或投放位置）在转化路径上的次数。
 
    * *[!UICONTROL Multi-Touch Attribution (MTA)]：*&#x200B;根据维度值（如设备或投放位置）在转化路径上的出现频率分配每次转化的点数。 例如，如果在转化前总共有10次展示，其中8次在CTV上，2次在移动设备上，则80%的点数(0.8)将授予CTV屏幕，0.2次授予Mobile。
 
-* **\[规则类型\]：** (包含[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]列的所有[!UICONTROL Custom]、[!UICONTROL Conversion]、[!UICONTROL Device]、[!UICONTROL Geo]、[!UICONTROL Segment]和[!UICONTROL Site]报表；仅包含Adobe Advertising转化跟踪的广告商)在报表中，如何在一系列导致转化的事件中归因转化数据。 如果要比较规则之间的差异，可以选择多个规则。
+* **\[规则类型\]：** (包含[!UICONTROL Custom]或[!UICONTROL Conversion]列的所有[!UICONTROL Device]、[!UICONTROL Geo]、[!UICONTROL Segment]、[!UICONTROL Site]、[!UICONTROL Conversion Metrics]和[!UICONTROL Custom Goals]报表；仅包含Adobe Advertising转化跟踪的广告商)在报表中，如何在一系列导致转化的事件中归因转化数据。 如果要比较规则之间的差异，可以选择多个规则。
 
   >[!NOTE]
   >
@@ -183,7 +183,7 @@ ht-degree: 0%
 
 * *[!UICONTROL FTP]：*&#x200B;若要将已完成的报告发送到一个或多个FTP位置，您必须在&#x200B;**[!UICONTROL Destination Name]**&#x200B;字段中选择这些位置。
 
-* *[!UICONTROL FTP SSL] (当前在Beta中)：*&#x200B;要将已完成的报告发送到一个或多个FTP SSL位置，您必须在&#x200B;**[!UICONTROL Destination Name]**&#x200B;字段中选择该位置。
+* *[!UICONTROL FTP SSL](当前在Beta中)：*&#x200B;要将已完成的报告发送到一个或多个FTP SSL位置，您必须在&#x200B;**[!UICONTROL Destination Name]**&#x200B;字段中选择该位置。
 
 * *[!UICONTROL Email]：*&#x200B;若要指定电子邮件地址，在报告因错误而被取消时，将已完成的报告或通知发送到这些地址。
 
