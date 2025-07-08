@@ -3,14 +3,16 @@ title: 选择多行
 description: 了解如何选择多行，以便对所有行执行相同的操作。
 exl-id: 35490f9f-adde-4538-9013-4cb37b7abfbd
 feature: Search Common Tasks
-source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
+source-git-commit: 347d223d226ce3372e29e80c00a11df605318c9f
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
-# 选择多行i您可以在新的用户界面中从管理视图选择多行，也可以在旧版UI中从[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns]、[!UICONTROL Search > Label Classifications]和[!UICONTROL Optimization] > [!UICONTROL Constraints]选择多行：
+# 选择多行
+
+您可以在新的用户界面中从管理视图选择多行，也可以在旧版用户界面中从[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns]、[!UICONTROL Search > Label Classifications]和[!UICONTROL Optimization] > [!UICONTROL Constraints]选择多行：
 
 * 键盘快捷键：
 
