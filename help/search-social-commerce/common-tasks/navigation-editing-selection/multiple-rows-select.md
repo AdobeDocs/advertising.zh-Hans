@@ -10,9 +10,7 @@ ht-degree: 0%
 
 ---
 
-# 选择多行
-i
-您可以在新的用户界面中从管理视图选择多行，也可以在旧版UI中从[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns]、[!UICONTROL Search > Label Classifications]和[!UICONTROL Optimization] > [!UICONTROL Constraints]选择多行：
+# 选择多行i您可以在新的用户界面中从管理视图选择多行，也可以在旧版UI中从[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns]、[!UICONTROL Search > Label Classifications]和[!UICONTROL Optimization] > [!UICONTROL Constraints]选择多行：
 
 * 键盘快捷键：
 
