@@ -3,7 +3,7 @@ title: 管理默认视图和自定义视图
 description: 了解如何自定义默认视图和自定义视图。
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: c5faf88a5240a7ec05dab3f06d0c4e466fd17164
+source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
 workflow-type: tm+mt
 source-wordcount: '4453'
 ht-degree: 0%
@@ -88,7 +88,7 @@ ht-degree: 0%
    >
    >使用有助于识别其所应用选项卡和信息的名称（例如“暂停的促销活动”或“前50个广告”）。
 
-## 编辑默认或自定义视图
+## 编辑默认或自定义视图 {#view-edit}
 
 ### （新UI）编辑默认或自定义视图
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 
    * 要将设置保存到新的自定义视图中，请单击&#x200B;**[!UICONTROL Save As]**。 在[!UICONTROL Enter New Custom View Name]窗口中，输入新视图的名称，然后单击&#x200B;**[!UICONTROL Save]**。
 
-## （新UI）克隆默认或自定义视图
+## （新UI）克隆默认或自定义视图 {#view-clone}
 
 *在[!UICONTROL Simulations]、[!UICONTROL Portfolios]、[!UICONTROL Campaigns]和[!UICONTROL Ad Groups]查看中可用*
 

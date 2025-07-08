@@ -3,16 +3,16 @@ title: 从[!UICONTROL Downloads]菜单删除性能数据报表或批量处理工
 description: 了解如何删除已下载营销活动管理视图的报告或批量处理工作表文件。
 exl-id: cd1244da-ddb8-4ee1-8ebb-2df4e9924952
 feature: Search Common Tasks
-source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
+source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
 
 # 从[!UICONTROL Downloads]菜单删除性能数据报表或批量处理工作表文件
 
-<!-- Add info about new UI -->
+*旧版用户界面*
 
 >[!NOTE]
 >
