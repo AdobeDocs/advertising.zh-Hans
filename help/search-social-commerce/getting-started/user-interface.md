@@ -3,7 +3,7 @@ title: 用户界面的组织方式
 description: 了解在何处访问不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: d38c71f1260b9656bb4362c56f4d9c76f4f3e442
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 主菜单
 
-* **[!UICONTROL Search]** — 在Search、Social和Commerce中管理您的广告网络帐户，包括Search、Social和Commerce正在跟踪但不竞价的帐户。
+* **[!UICONTROL Search, Social, & Commerce]** \> — 在Search、Social和Commerce中管理您的广告网络帐户，包括Search、Social和Commerce正在跟踪但不竞价的帐户。
 
 ## [!UICONTROL Search]菜单
 

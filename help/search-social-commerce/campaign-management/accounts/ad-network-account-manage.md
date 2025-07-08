@@ -3,7 +3,7 @@ title: 管理广告网络帐户
 description: 了解如何设置和管理广告网络帐户的帐户详细信息。
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 5a9c2eabc3fe03da0868aefb79c4f71d6029c384
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 创建广告网络帐户详细信息 {#create-account}
 
-*仅限代理帐户管理员、Adobe帐户管理员和管理员用户角色*
+*仅限代理客户经理、Adobe客户经理和管理员用户角色*
 
 要启用帐户的同步或跟踪，您必须创建包含帐户访问凭据和跟踪选项且状态为&#x200B;*活动*&#x200B;的相应帐户记录。
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 >* 不支持新的[!DNL Baidu]帐户。
 >* 要在广告网络上创建实际的帐户，请转到广告网络的网站。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]** \> **[!UICONTROL Accounts]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]** \> **[!UICONTROL Accounts]**。
 
 1. 在数据表上方的工具栏中，单击![创建](/help/search-social-commerce/assets/add.png "创建")。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 ## 编辑广告网络帐户详细信息 {#edit-account}
 
-*仅限代理帐户管理员、Adobe帐户管理员和管理员用户角色*
+*仅限代理客户经理、Adobe客户经理和管理员用户角色*
 
 如果帐户凭据发生更改，您想要跨帐户更改默认跟踪参数，或者想要启用或禁用帐户的活动，然后编辑帐户详细信息。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 >
 >要编辑广告网络上的实际帐户，请转到广告网络的网站。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]** \> **[!UICONTROL Accounts]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]** \> **[!UICONTROL Accounts]**。
 
 1. 将光标放在帐户名称上，单击![更多](/help/search-social-commerce/assets/more-filters.png "更多")，然后选择&#x200B;**[!UICONTROL Edit]**。
 
@@ -91,15 +91,15 @@ ht-degree: 0%
 
 ## 刷新搜索帐户的oAuth访问令牌 {#refresh-oauth-tokens}
 
-*仅限代理帐户管理员、Adobe帐户管理员和管理员用户角色*
+*仅限代理客户经理、Adobe客户经理和管理员用户角色*
 
 如果Search、Social和Commerce使用[OAuth授权协议](https://oauth.net/2/)访问帐户且帐户凭据发生更改，或者需要其他访问权限才能支持Search、Social和Commerce中的新功能，则必须获取帐户的新访问令牌。
 
-如果您的新功能需要新令牌，您的Adobe客户团队将通知您。
+如果新功能需要新令牌，您的Adobe客户团队将通知您。
 
 1. （如果您在同一浏览器应用程序中登录到同一广告网络的其他帐户）注销除广告商帐户之外的任何其他帐户。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]** \> **[!UICONTROL Accounts]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]** \> **[!UICONTROL Accounts]**。
 
 1. 将光标放在帐户名称上，单击![更多](/help/search-social-commerce/assets/more-filters.png "更多")，然后选择&#x200B;**[!UICONTROL Edit]**。
 
@@ -117,11 +117,11 @@ ht-degree: 0%
 
 ## 启用或禁用广告网络帐户 {#enable-disable-account}
 
-*仅限代理帐户管理员、Adobe帐户管理员和管理员用户角色*
+*仅限代理客户经理、Adobe客户经理和管理员用户角色*
 
 当您启用广告网络帐户时，Search、Social和Commerce会将促销活动数据与帐户同步（如果支持），并为项目组合中的促销活动推送自动竞价和/或促销活动预算。当您禁用广告网络帐户时，Search、Social和Commerce将停止该帐户上的所有活动。 虽然仍会存储当帐户处于活动状态时收集的数据，但营销活动管理视图和报表并不包含禁用帐户时段的数据。 您稍后可以重新启用帐户以继续使用该帐户的活动。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]** \> **[!UICONTROL Accounts]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]** \> **[!UICONTROL Accounts]**。
 
 1. 执行以下任一操作：
 
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您集成了Search、Social和Commerce-Adobe Analytics并更改了搜索帐户的名称，请通知您的Adobe帐户团队，以便他们能够更新映射。
+>如果您集成了“搜索”、“Social”和“Commerce-Adobe Analytics”，并更改了搜索帐户的名称，请通知您的Adobe帐户团队，以便他们能够更新映射。
 
 **[!UICONTROL Login Details]： \[登录类型\]** - （仅限[!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center]）是否使用以下方式授权登录帐户：
 
@@ -177,7 +177,7 @@ ht-degree: 0%
 
 示例： `param1=value1&param2=value2`
 
-使用Adobe Advertising点击跟踪的帐户必须在后缀中包含广告网络的点击标识符([!DNL Microsoft Advertising]为`msclkid`；Google为`gclid`)。 具有Adobe Analytics集成的帐户必须使用AMO ID参数（以`s_kwcid`开头）。 如果该帐户具有服务器端AMO ID实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 查看 [!DNL Google Ads][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必需后缀格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的必需后缀格式。
+使用Adobe Advertising点击跟踪的帐户必须在后缀中包含广告网络的点击标识符(`msclkid`为[!DNL Microsoft Advertising]；Google为`gclid`)。 具有Adobe Analytics集成的帐户必须使用AMO ID参数（以`s_kwcid`开头）。 如果该帐户具有服务器端AMO ID实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 查看[的 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)必需后缀格式和[的 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)必需后缀格式。
 
 >[!NOTE]
 >
@@ -195,7 +195,7 @@ ht-degree: 0%
 
 * 嵌入最终URL：
 
-   * （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）有关指示跟踪模板中最终URL的参数列表，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)中“可用的[!DNL ValueTrack]参数”部分中的（[!DNL Microsoft Advertising]仅限）[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799)或（[!DNL Google Ads]仅限）跟踪模板参数。
+   * （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）有关指示跟踪模板中最终URL的参数列表，请参阅[!DNL Microsoft Advertising]文档[[!DNL Microsoft Advertising] 中“可用的](https://help.ads.microsoft.com/#apex/3/en/56799)参数”部分中的（[!DNL Google Ads]仅限）[!DNL ValueTrack]文档[[!DNL Google Ads] 或（](https://support.google.com/google-ads/answer/6305348)仅限）跟踪模板参数。
 
    * （仅限[!DNL Yahoo! Japan Ads]）使用参数`!{lpurl}`指示登陆页面URL。
 
@@ -249,9 +249,9 @@ ht-degree: 0%
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **S_kwcid格式：** (现有[!DNL Google Ads]帐户，适用于具有Adobe Advertising-Adobe Analytics集成且尚未迁移AMO ID (s_kwcid)的广告商)
+* **S_kwcid格式：** (现有[!DNL Google Ads]帐户适用于具有Adobe Advertising-Adobe Analytics集成且尚未迁移AMO ID (s_kwcid)的广告商)
 
-此帐户使用旧版的AMO ID跟踪代码格式，允许Adobe Advertising与Adobe Analytics共享该帐户的相关数据。 [最新格式](/help/integrations/analytics/ids.md#amo-id-formats)包含促销活动ID和广告组ID的参数，在Analytics中，要在促销活动和广告组级别准确报告效果最佳的[!DNL Google Ads]促销活动以及草稿和实验促销活动，必须使用这些参数：
+此帐户使用旧版的AMO ID跟踪代码格式，从而允许Adobe Advertising与Adobe Analytics共享该帐户的相关数据。 [最新格式](/help/integrations/analytics/ids.md#amo-id-formats)包含促销活动ID和广告组ID的参数，在Analytics中，要在促销活动和广告组级别准确报告效果最佳的[!DNL Google Ads]促销活动以及草稿和实验促销活动，必须使用这些参数：
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

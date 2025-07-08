@@ -3,7 +3,7 @@ title: 自定义目标
 description: 了解自定义目标，以定义针对最低CPA或最高ROAS优化的包中的成功事件。
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 自定义目标
 
-自定义目标定义广告商实现其业务目标所需的成功事件。 每个使用优化目标“[!UICONTROL Highest Return on Ad Spend (ROAS)"]”或“[!UICONTROL Lowest Cost per Acquisition (CPA)]”的包都必须包含一个自定义目标，以帮助实现整体优化目标。 您可以在[!DNL Advertising Search, Social, & Commerce]中创建自定义目标作为&#x200B;*目标*。 DSP每个目标的名称必须以“ADSP_”为前缀。
+自定义目标定义广告商实现其业务目标所需的成功事件。 每个使用优化目标“[!UICONTROL Highest Return on Ad Spend (ROAS)"]”或“[!UICONTROL Lowest Cost per Acquisition (CPA)]”的包都必须包含一个自定义目标，以帮助实现整体优化目标。 您可以在&#x200B;*中创建自定义目标作为*&#x200B;目标[!DNL Advertising Search, Social, & Commerce]。 DSP每个目标的名称必须以“ADSP_”为前缀。
 
 <!-- update image or omit it
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 1. 创建自定义目标作为&#x200B;*目标*：
 
-   1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]** > **[!UICONTROL Optimization]>[!UICONTROL New Objectives Beta]**。
+   1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Optimization]>[!UICONTROL New Objectives Beta]**。
 
    1. 在工具栏中，单击![创建](/help/dsp/assets/create-search-ui.png "创建")。
 

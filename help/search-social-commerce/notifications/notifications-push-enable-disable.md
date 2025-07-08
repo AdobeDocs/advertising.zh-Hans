@@ -3,7 +3,7 @@ title: 启用和禁用来自[!UICONTROL Notification Center]的推送通知
 description: 了解如何从[!UICONTROL Notification Center]启用和禁用推送通知。
 exl-id: f0e91e76-eb1e-4ff0-9a52-e9bc587552a2
 feature: Search Notifications
-source-git-commit: 7c6b98ab1c8813fea251c48956ffe78ef7bb3bf7
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 启用推送通知
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**。
 
 2. 单击右下角的![启用推送通知](/help/search-social-commerce/assets/notifications-push.png "启用推送通知")。
 

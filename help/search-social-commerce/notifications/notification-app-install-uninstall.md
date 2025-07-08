@@ -3,7 +3,7 @@ title: 安装并卸载[!UICONTROL Notification Center] Web应用程序
 description: 了解如何安装和卸载[!UICONTROL Notification Center] Web应用程序。
 exl-id: e0a72907-3b5e-4678-b08b-95ed099f2dab
 feature: Search Notifications
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 您可以从浏览器的应用程序管理器中禁用或卸载应用程序。 有关管理Web应用程序的其他信息，请参阅浏览器的帮助。
 
-## 为[!DNL Google Chrome]安装[!UICONTROL Notification Center] Web应用程序
+## 为[!UICONTROL Notification Center]安装[!DNL Google Chrome] Web应用程序
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**。
 
 1. 单击右下角的![安装通知中心Web应用](/help/search-social-commerce/assets/notifications-install-app.png "安装通知中心Web应用")。
 
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 1. 在安装应用程序中？ 消息，请单击&#x200B;**[!UICONTROL Install]**。
 
-## 为[!DNL Microsoft Edge]安装[!UICONTROL Notification Center] Web应用程序
+## 为[!UICONTROL Notification Center]安装[!DNL Microsoft Edge] Web应用程序
 
 * 从Search、Social和Commerce中：
 
-   1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**。
+   1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**。
 
    1. 单击右下角的![安装通知中心Web应用](/help/search-social-commerce/assets/notifications-install-app.png "安装通知中心Web应用")。
 
@@ -50,11 +50,11 @@ ht-degree: 0%
 
    1. 在[!UICONTROL Install Notification Center]应用消息中，单击&#x200B;**[!UICONTROL Install]**。
 
-## 卸载[!DNL Google Chrome]的[!UICONTROL Notification Center] Web应用程序
+## 卸载[!UICONTROL Notification Center]的[!DNL Google Chrome] Web应用程序
 
 * 在[!DNL Chrome]中，转到`chrome://apps`，右键单击&#x200B;**[!UICONTROL notification-center]**，然后单击&#x200B;**[!UICONTROL Remove from Chrome]**。
 
-## 卸载[!DNL Microsoft Edge]的[!UICONTROL Notification Center] Web应用程序
+## 卸载[!UICONTROL Notification Center]的[!DNL Microsoft Edge] Web应用程序
 
 1. 在[!DNL Edge]浏览器工具栏中，单击&#x200B;**...** > **[!UICONTROL Apps]** > **[!UICONTROL Manage apps]**。 或者，转到`edge://apps`。
 

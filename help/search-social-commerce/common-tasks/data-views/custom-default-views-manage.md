@@ -3,7 +3,7 @@ title: 管理默认视图和自定义视图
 description: 了解如何自定义默认视图和自定义视图。
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '2917'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ### （旧版UI）将默认或自定义视图应用于营销活动管理视图
 
-* （默认视图）在主菜单中，单击&#x200B;**[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]** \> **\[实体类型\]**。
+* （默认视图）在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]** \> **\[实体类型\]**。
 
 * （自定义视图）从左侧导航面板：
 
@@ -52,6 +52,17 @@ ht-degree: 0%
 
 <!--
 ## (New UI) Create a custom view from management views
+
+*Available in the [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns], and [!UICONTROL Ad Groups] views*
+
+Custom views are specific to a single view (such as the [!UICONTROL Portfolios] view).
+
+1. Above the data table, click the name of the currently-applied view (![View](/help/search-social-commerce/assets/view.png "View")).
+
+2. Click **[!UICONTROL Create View]**.
+
+
+
 -->
 
 ## （旧版UI）从营销活动管理视图创建自定义视图

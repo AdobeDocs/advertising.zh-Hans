@@ -3,7 +3,7 @@ title: 管理商家帐户
 description: 了解如何设置和管理商户中心帐户的帐户详细信息。
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 管理商家帐户
 
-*仅限代理帐户管理员、Adobe帐户管理员和管理员用户角色*
+*仅限代理客户经理、Adobe客户经理和管理员用户角色*
 
 搜索、Social和Commerce可以每天下载并显示广告商的Google商户中心或Microsoft商户中心帐户的产品数据。 此外，Search、Social和Commerce可以根据商户帐户的内容自动创建广告。要直接使用Search、Social和Commerce中的产品数据，您必须创建相应的帐户记录，其中包含帐户访问凭据以及已启用&#x200B;*的访问权限*。
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 创建商家帐户详细信息 {#create-merchant-account}
 
-*仅限代理帐户管理员、Adobe帐户管理员和管理员用户角色*
+*仅限代理客户经理、Adobe客户经理和管理员用户角色*
 
 要查看商户帐户的产品数据并生成跟踪模板，以及根据数据创建广告，您必须创建相应的帐户记录，该记录包含帐户访问凭据并具有对帐户&#x200B;*已启用*&#x200B;的访问权限。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >要在商家网络上创建实际的帐户，请访问该网络的网站。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]**，这将打开到[!UICONTROL Accounts]选项卡。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]**，这将打开到[!UICONTROL Accounts]选项卡。
 
 1. 在数据表上方的工具栏中，单击&#x200B;**[!UICONTROL Create Account]**。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ## 编辑商家帐户详细信息 {#edit-merchant-account}
 
-*仅限代理帐户管理员、Adobe帐户管理员和管理员用户角色*
+*仅限代理客户经理、Adobe客户经理和管理员用户角色*
 
 如果帐户凭据发生更改，或者您希望停止检索和使用商户帐户的数据，则编辑帐户详细信息。
 
@@ -88,11 +88,11 @@ ht-degree: 0%
 
 ## 禁用对商户帐户的访问 {#disable-merchant-account}
 
-*仅限代理帐户管理员、Adobe帐户管理员和管理员用户角色*
+*仅限代理客户经理、Adobe客户经理和管理员用户角色*
 
 禁用商家帐户时，Search、Social和Commerce不会登录该帐户，因此不会检索更新的产品数据。 在启用帐户时收集的数据仍会存储，并且使用产品数据创建的现有广告不会根据馈送模板和馈送数据设置进行更新、暂停或删除。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** ，这将打开到[!UICONTROL Accounts]选项卡。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** ，这将打开到[!UICONTROL Accounts]选项卡。
 
 1. 在帐户名称旁边，单击![查看/编辑设置](/help/search-social-commerce/assets/settings.png "查看/编辑设置")。
 
