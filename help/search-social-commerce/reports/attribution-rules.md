@@ -3,7 +3,7 @@ title: 归因规则的计算方式
 description: 了解Adobe Advertising如何计算每种类型的归因规则。
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: b24673e05f95bac404301d71ad9c0d1d0593aafb
 workflow-type: tm+mt
 source-wordcount: '2716'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 如何为Adobe Advertising计算归因规则
 
-*仅跟踪Adobe Advertising转化情况的广告商*
+*仅具有Adobe Advertising转化跟踪的广告商*
 
 <!-- Verify statements about cross-device events -->
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 归因规则适用于任何渠道中的付费广告点击次数，以及展示广告和社交广告的展示次数。 它们不适用于付费搜索广告的展示次数，此类展示次数无法在事件级别进行跟踪。
->* Adobe Advertising始终在转化前为每个Web浏览者存储以下事件： a)第一次付费点击； b)每个渠道最多10次点击（搜索、社交或显示），包括第一次点击；以及c)最多10次显示展示。<!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
+>* Adobe Advertising始终在转化前为每个Web浏览者存储以下事件： a)第一次付费点击； b)每个渠道（搜索、社交或显示）最多10次点击，包括第一次点击；以及c)最多10次显示展示。<!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
 >* 在Advertising DSP和Advertising Creative中，跨设备定义仅考虑所选归因规则中的事件路径。<!-- cross-device attribution via LiveRamp only -->
 >* 在报表和管理视图中，为某个值显示的小数位数取决于货币，但Adobe Advertising会存储更精确的值。
 
@@ -118,11 +118,11 @@ ht-degree: 0%
 
 如果转换之前只有展示次数，则转换将被视为&#x200B;*显示到达*，其根据广告商的[显示到达权重设置](/help/search-social-commerce/glossary.md#uv)进行加权，或者，根据指定，根据在报表、视图或自定义模拟参数中指定的显示到达估价方法进行加权。
 
-当转化路径包含付费点击和展示次数时，展示次数会因不同的Adobe Advertising产品而异：
+当转化路径同时包含付费点击和展示次数时，展示次数会因不同的Adobe Advertising产品而异：
 
 * 在Search、Social和Commerce中，[展示覆盖权重](/help/search-social-commerce/glossary.md#i-j)（在广告商的展示覆盖权重设置中以及在报表、视图或自定义模拟参数中指定）首先应用于展示次数。
 
-* 在DSP中，会忽略展示次数，并且只对点击进行加权。 DSP在归因中不考虑展示次数覆盖权重。
+* 在DSP中，展示次数会被忽略，只有点击次数会被加权。 DSP不会在归因中考虑展示次数覆盖权重。
 
 ![加权第一个事件更多归因百分比](/help/search-social-commerce/assets/attribution-percent-weight-first-more.png "加权第一个事件更多归因百分比")
 
@@ -180,11 +180,11 @@ ht-degree: 0%
 
 如果转换之前只有展示次数，则转换将被视为&#x200B;*显示到达*，其根据广告商的[显示到达权重设置](/help/search-social-commerce/glossary.md#uv)进行加权，或者，根据指定，根据在报表、视图或自定义模拟参数中指定的显示到达估价方法进行加权。
 
-当转化路径包含付费点击和展示次数时，展示次数会因不同的Adobe Advertising产品而异：
+当转化路径同时包含付费点击和展示次数时，展示次数会因不同的Adobe Advertising产品而异：
 
 * 在Search、Social和Commerce中，[展示覆盖权重](/help/search-social-commerce/glossary.md#i-j)（在广告商的展示覆盖权重设置中以及在报表、视图或自定义模拟参数中指定）首先应用于展示次数。
 
-* 在DSP中，会忽略展示次数，并且只对点击进行加权。 DSP在归因中不考虑展示次数覆盖权重。
+* 在DSP中，展示次数会被忽略，只有点击次数会被加权。 DSP不会在归因中考虑展示次数覆盖权重。
 
 ![偶数归因百分比](/help/search-social-commerce/assets/attribution-percent-even.png "偶数归因百分比")
 
@@ -240,11 +240,11 @@ ht-degree: 0%
 
 如果转换之前只有展示次数，则转换将被视为&#x200B;*显示到达*，其根据广告商的[显示到达权重设置](/help/search-social-commerce/glossary.md#uv)进行加权，或者，根据指定，根据在报表、视图或自定义模拟参数中指定的显示到达估价方法进行加权。
 
-当转化路径包含付费点击和展示次数时，展示次数会因不同的Adobe Advertising产品而异：
+当转化路径同时包含付费点击和展示次数时，展示次数会因不同的Adobe Advertising产品而异：
 
 * 在Search、Social和Commerce中，[展示覆盖权重](/help/search-social-commerce/glossary.md#i-j)（在广告商的展示覆盖权重设置中以及在报表、视图或自定义模拟参数中指定）首先应用于展示次数。
 
-* 在DSP中，会忽略展示次数，并且只对点击进行加权。 DSP在归因中不考虑展示次数覆盖权重。
+* 在DSP中，展示次数会被忽略，只有点击次数会被加权。 DSP不会在归因中考虑展示次数覆盖权重。
 
 ![加权最后事件更多归因百分比](/help/search-social-commerce/assets/attribution-percent-weight-last-more.png "加权最后事件更多归因百分比")
 
@@ -298,11 +298,11 @@ ht-degree: 0%
 
 如果转换之前只有展示次数，则转换将被视为&#x200B;*显示到达*，其根据广告商的[显示到达权重设置](/help/search-social-commerce/glossary.md#uv)进行加权，或者，根据指定，根据在报表、视图或自定义模拟参数中指定的显示到达估价方法进行加权。
 
-当转化路径包含付费点击和展示次数时，展示次数会因不同的Adobe Advertising产品而异：
+当转化路径同时包含付费点击和展示次数时，展示次数会因不同的Adobe Advertising产品而异：
 
 * 在Search、Social和Commerce中，[展示覆盖权重](/help/search-social-commerce/glossary.md#i-j)（在广告商的展示覆盖权重设置中以及在报表、视图或自定义模拟参数中指定）首先应用于展示次数。
 
-* 在DSP中，会忽略展示次数，并且只对点击进行加权。 DSP在归因中不考虑展示次数覆盖权重。
+* 在DSP中，展示次数会被忽略，只有点击次数会被加权。 DSP不会在归因中考虑展示次数覆盖权重。
 
 ![U形归因百分比](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "U形归因百分比")
 
