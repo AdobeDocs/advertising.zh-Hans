@@ -3,7 +3,7 @@ title: 管理默认视图和自定义视图
 description: 了解如何自定义默认视图和自定义视图。
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 777bebb13e4de99f070e3ab6c38949caeb75ca08
+source-git-commit: ac434e2c9f049830b0fbe6941a268ca7def9b4bf
 workflow-type: tm+mt
 source-wordcount: '4453'
 ht-degree: 0%
@@ -162,7 +162,7 @@ ht-degree: 0%
 
    1. 根据需要，单击任意选项卡（[!UICONTROL All Views]、[!UICONTROL Private]、[!UICONTROL Shared by Me]和[!UICONTROL From Others]）以查找视图。
 
-   1. 将光标悬停在视图名称上并单击![还原](/help/search-social-commerce/assets/revert-new.md)。
+   1. 将光标悬停在视图名称上并单击![还原](/help/search-social-commerce/assets/revert-new.jpg)。
 
 * 从旧版促销活动管理视图中：
 
