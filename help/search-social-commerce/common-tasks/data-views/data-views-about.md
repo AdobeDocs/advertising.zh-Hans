@@ -3,7 +3,7 @@ title: 关于自定义营销活动管理视图中的数据
 description: 了解您可以在Campaign数据视图中自定义的数据类型。
 exl-id: 89f36865-9275-494e-ac33-d41fa30faa2a
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 42495874f93f3af2d6aaec19148d007062fd3b9b
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
@@ -11,6 +11,8 @@ ht-degree: 0%
 ---
 
 # 关于自定义营销活动管理视图中的数据
+
+<!-- Add info about new UI -->
 
 在大多数Campaign数据视图中，您可以自定义数据表中显示的数据。 您可以通过以下方式自定义数据：
 
