@@ -3,9 +3,9 @@ title: 编辑自定义量度
 description: 了解如何编辑自定义量度，这些量度是通过标准量度计算的。
 exl-id: 89271cd6-0a9d-49b7-9fd3-8c9b77e55e5a
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
+source-git-commit: f176238d1ce0852f2db401441828be6832ec49f7
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 0%
 
 1. 在数据表上方，执行以下任一操作：
 
-   * 单击![视图选择器](/help/search-social-commerce/assets/view.png "视图选择器") \[默认视图或自定义视图的名称\]以打开视图设置。 示例： ![示例视图](/help/search-social-commerce/assets/view-selector-example.png "示例视图")
+   * 单击当前应用的视图的名称（![视图](/help/search-social-commerce/assets/view.png "视图")）。 将光标悬停在任何可编辑视图的名称上，然后单击![编辑](/help/search-social-commerce/assets/edit-new.png "编辑")以打开视图设置。
+
+     您的更改将显示在所有视图中。
 
    * 单击![自定义列](/help/search-social-commerce/assets/custom-columns-new.png "自定义列")以打开列配置设置。
 
