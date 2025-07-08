@@ -3,16 +3,16 @@ title: 直接在行中编辑设置
 description: 了解如何在行的管理视图中编辑数据。
 exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: 1b1b449798d8e1eb610012378228aaf539a77dc7
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
 
 # 直接在行中编辑设置
 
-*旧版用户界面*
+*仅旧版用户界面*
 
 >[!NOTE]
 >

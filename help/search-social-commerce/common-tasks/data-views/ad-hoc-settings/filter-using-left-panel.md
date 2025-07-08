@@ -3,14 +3,16 @@ title: 使用左侧导航面板过滤数据
 description: 了解如何使用左侧导航面板过滤数据。
 exl-id: f4675b5b-425e-4943-aac3-68f2e2b6d1df
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
 
 # 使用左侧导航面板过滤数据
+
+*仅旧版用户界面*
 
 从左侧导航面板中，您可以：
 
