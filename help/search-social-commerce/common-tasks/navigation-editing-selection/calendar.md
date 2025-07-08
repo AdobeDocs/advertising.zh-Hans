@@ -3,9 +3,9 @@ title: 使用日历指定日期
 description: 了解如何使用日历选择日期。
 exl-id: afb2b5be-ca6a-4c2b-9a5a-c40ee7caa7ea
 feature: Search Common Tasks
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,10 @@ ht-degree: 0%
 
    * 单击日期。
 
-   * （向前或向后移动一个月）分别单击&#x200B;**`<`**&#x200B;或&#x200B;**`>`**。
+   * （查看次数最多）若要向前移动或向后移动一个月或一年，请分别单击&#x200B;**`<`**&#x200B;或&#x200B;**`>`**。
 
-   * （选择其他月份或年份）单击月份或年份的名称，然后单击月份或年份。
+   * （旧版[!UICONTROL Portfolios]视图）要选择其他月或年，请单击月或年的名称，然后单击月或年。
 
-   （突出显示当前日期）单击&#x200B;**[!UICONTROL Today]**。
+   * 要突出显示当前日期，请单击&#x200B;**[!UICONTROL Today]**。
+
+1. 单击&#x200B;**[!UICONTROL Apply]**。

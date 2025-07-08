@@ -3,7 +3,7 @@ title: 从营销活动管理视图下载数据
 description: 了解如何从大多数营销活动管理视图下载数据。
 exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -11,6 +11,8 @@ ht-degree: 0%
 ---
 
 # 从营销活动管理视图下载数据
+
+<!-- Add info about new UI -->
 
 您可以从[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图下载数据，但[!UICONTROL Keywords] - [!UICONTROL Keyword Negatives]、[!UICONTROL Placements] - [!UICONTROL Placement Negatives]、[!UICONTROL Audiences]和[!UICONTROL Extensions]视图除外。 您可以下载：
 

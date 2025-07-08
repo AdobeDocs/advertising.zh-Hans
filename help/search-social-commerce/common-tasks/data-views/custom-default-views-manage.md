@@ -3,9 +3,9 @@ title: 管理默认视图和自定义视图
 description: 了解如何自定义默认视图和自定义视图。
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
-source-wordcount: '2838'
+source-wordcount: '2917'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,23 @@ ht-degree: 0%
 
 <!-- Doesn't include instructions for legacy Portfolios or Reports views -->
 
-您的默认视图和自定义视图允许您自定义在搜索促销活动数据视图内显示的性能数据。 视图设置包括要包含的列、筛选器、日期范围、转化归因设置和其他高级设置，您可以暂时应用设置或保存它们。 （例外：您不能为默认视图保存筛选器。） 每个默认和常规自定义视图仅适用于特定实体视图（如[!UICONTROL Campaigns]）和特定广告商帐户。 每个通用自定义视图适用于特定广告商的实体视图，因此不能包括属性列（如实体名称或状态），这些属性列因实体类型而异。
+您的默认视图和自定义视图允许您自定义在搜索促销活动数据视图内显示的性能数据。 视图设置包括要包含的列、筛选器、日期范围、转化归因设置和其他高级设置，您可以暂时应用设置或保存它们。 （例外：您不能为默认视图保存筛选器。） 每个默认视图和常规自定义视图仅适用于特定视图（如[!UICONTROL Portfolios]或[!UICONTROL Campaigns]）和特定广告商帐户。 在旧版用户界面中，每个通用自定义视图适用于特定广告商的实体视图，因此不能包括属性列（例如实体名称或状态），这些属性列因实体类型而异。
 
-每次登录时默认显示视图。 您可以创建其他自定义视图并随时应用它们。 您可以选择与可以查看广告商数据的所有其他用户共享您创建的任何自定义视图。 在您的视图列表中，其他人员共享的每个视图都以斜体显示，例如“*表现最佳的营销活动*”。 只有创建自定义视图的人员可以将其删除。
+每次登录时默认显示视图。 您可以创建其他自定义视图并随时应用它们。 您可以选择与可以查看广告商数据的所有其他用户共享您创建的任何自定义视图。<!-- I no longer see this in the legacy CM views - why? -->在您的视图列表中，其他人员共享的每个视图都以斜体显示，如“*表现最佳的营销活动*”。 只有创建自定义视图的人员可以将其删除。
 
-每个视图都可用作左侧面板[!UICONTROL Custom Views]部分中的快捷方式。
+在旧版用户界面中，每个视图都作为快捷方式在左侧面板的[!UICONTROL Custom Views]部分中提供。
 
-<!--
-## (New UI) Apply a default or custom view
--->
+## 应用默认或自定义视图
 
-## （旧版UI）应用默认或自定义视图
+### （新UI）将默认视图或自定义视图应用于管理视图
+
+1. 在数据表上方，单击当前应用的视图的名称（![视图](/help/search-social-commerce/assets/view.png "视图")）。
+
+1. 根据需要，单击任意选项卡（[!UICONTROL All Views]、[!UICONTROL Private]、[!UICONTROL Shared by Me]和[!UICONTROL From Others]）以查找视图。
+
+1. 将光标悬停在视图名称上并单击&#x200B;**[!UICONTROL Apply]**。
+
+### （旧版UI）将默认或自定义视图应用于营销活动管理视图
 
 * （默认视图）在主菜单中，单击&#x200B;**[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]** \> **\[实体类型\]**。
 
@@ -43,6 +49,12 @@ ht-degree: 0%
       如果视图是通用视图或应用于当前实体，则根据视图配置重新显示数据表。 如果视图应用于其他实体，则根据视图配置显示适用实体的数据。
 
 ## 创建自定义视图 {#create-custom-view}
+
+<!--
+## (New UI) Create a custom view from management views
+-->
+
+## （旧版UI）从营销活动管理视图创建自定义视图
 
 自定义视图仅适用于营销活动管理视图。
 

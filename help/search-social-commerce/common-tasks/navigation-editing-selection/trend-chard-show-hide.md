@@ -3,16 +3,18 @@ title: 显示和隐藏趋势图
 description: 了解如何查看和隐藏某些营销活动管理视图中数据的趋势图。
 exl-id: fa58b123-648f-4a95-86f0-3c38fa89cb28
 feature: Search Common Tasks
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
 
 # 显示和隐藏趋势图
 
-您可以在[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]-[!UICONTROL Keywords]、[!UICONTROL Ads]和[!UICONTROL Product Groups]视图中查看数据的趋势图。
+*仅旧版用户界面*
+
+您可以在[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、[!UICONTROL Ads]和[!UICONTROL Product Groups]视图中查看数据的趋势图。
 
 默认情况下，图表会显示使用指定币种的帐户在选定日期范围内的点击次数与成本。 您可以选择更改要比较的量度，如果您有具有多个货币的帐户，则还可以更改要包含数据的货币。
 
