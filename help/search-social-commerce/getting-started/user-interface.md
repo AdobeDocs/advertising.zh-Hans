@@ -3,9 +3,9 @@ title: 用户界面的组织方式
 description: 了解在何处访问不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d38c71f1260b9656bb4362c56f4d9c76f4f3e442
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -56,3 +56,4 @@ ht-degree: 0%
 >
 >* [登录](sign-in.md)
 >* [注销](sign-out.md)
+>* [在新用户界面和旧用户界面之间切换](ui-switch.md)
