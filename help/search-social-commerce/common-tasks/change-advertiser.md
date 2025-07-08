@@ -3,19 +3,13 @@ title: 查看其他广告商的数据
 description: 了解如何查看其他广告商的数据。
 exl-id: 31c5db71-9ef1-4088-8fdc-ff091e0eaef8
 feature: Search Common Tasks
-source-git-commit: 1b1b449798d8e1eb610012378228aaf539a77dc7
+source-git-commit: 6487410267dcb17ee02320eed62c7744adbce1fb
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
 
-&#x200B;---
-title：查看其他广告商的数据
-description：了解如何查看其他广告商的数据。
-exl-id： 31c5db71-9ef1-4088-8fdc-ff091e0eaef8
-功能：搜索常见任务
----
 # 查看其他广告商的数据
 
 *仅管理多个广告商帐户的用户*
