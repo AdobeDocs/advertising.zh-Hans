@@ -3,9 +3,9 @@ title: 自定义体验的创意优化和计划
 description: 了解如何
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 4abb83d08a6633c36aa47b5acd67df3d4cc0923b
+source-git-commit: 7fee6e0f6e8ad6dbf0329d707af7303ac7229dc9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->这些功能不适用于使用默认图像创意而非指定创意的节点。
+>这些功能不适用于使用默认创意而非指定创意的节点。
 
 ## 在不进行调度的情况下配置创意优化
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
    * *[!UICONTROL Algorithmic]：*&#x200B;根据指定的优化目标以算法方式旋转每个包中的创意。
 
-      * 对于&#x200B;**[!UICONTROL Optimization Goal]**，选择&#x200B;*[!UICONTROL Click Through Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果选择&#x200B;*[!UICONTROL Custom Objective]*，则请选择现有的[Advertising DSP自定义目标](/help/dsp/optimization/custom-goal.md)。
+      * 对于&#x200B;**[!UICONTROL Optimization Goal]**，选择&#x200B;*[!UICONTROL Click Through Rate]*、（标准视频广告体验） *[!UICONTROL Completion Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果选择&#x200B;*[!UICONTROL Custom Objective]*，则请选择现有的[Advertising DSP自定义目标](/help/dsp/optimization/custom-goal.md)。
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
       * *[!UICONTROL Algorithmic]：*&#x200B;根据指定的优化目标以算法方式旋转每个包中的创意。
 
-         * 对于&#x200B;**[!UICONTROL Optimization Goal]**，选择&#x200B;*[!UICONTROL Click Through Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果选择&#x200B;*[!UICONTROL Custom Objective]*，则请选择现有的[Advertising DSP自定义目标](/help/dsp/optimization/custom-goal.md)。
+         * 对于&#x200B;**[!UICONTROL Optimization Goal]**，选择&#x200B;*[!UICONTROL Click Through Rate]*、（标准视频广告体验） *[!UICONTROL Completion Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果选择&#x200B;*[!UICONTROL Custom Objective]*，则请选择现有的[Advertising DSP自定义目标](/help/dsp/optimization/custom-goal.md)。
 
 1. 对于每个附加计划：
 

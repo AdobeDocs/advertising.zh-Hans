@@ -3,9 +3,9 @@ title: Creative设置
 description: 了解xxxx。
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: b3ae58583020a907a41e72967b8c2a331c2d3257
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '2102'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 >When you include the creative in an experience, you can replace the default value for any of the click tags with a custom landing page URL to generate a derivation of the base creative.
 -->
 
-**标签：**（可选）要应用于所有选定创意的任何标签。 您可以在[!DNL Creative]内的各种视图中按标签筛选创意，并在[!UICONTROL Custom Creative Report]中包含[!UICONTROL Creative Label]维度。
+**标签：**（可选）要应用于所有选定创意的任何标签。 您可以在[!DNL Creative]内的各种视图中按标签筛选创意，并在[!UICONTROL Creative Label]中包含[!UICONTROL Custom Creative Report]维度。
 
 * 要选择现有标签，请单击![向下](/help/creative/assets/chevron-down.png "向下")，然后选中要应用的每个标签旁边的复选框。
 
@@ -183,10 +183,32 @@ ht-degree: 0%
 **Creative名称：**&#x200B;创意的名称。 **提示：**&#x200B;使用在体验中包含创意内容时可以轻松找到的名称。
 
 **Creative大小：**（现有广告为只读）创意的尺寸。 对于新创意，请从标准广告大小列表中进行选择。
-u
+
 **语言：**&#x200B;与创意内容关联的每个广告的默认语言。
 
 **登陆页面URL：**&#x200B;用于验证与创意内容关联的每个广告的登陆页面URL。 第三方广告服务器确定每个广告的实际登陆页面。
+
+**标签：**（可选）要应用于所有选定创意的任何标签。 您可以在[!DNL Creative]内的各种视图中按标签筛选创意。
+
+* 要选择现有标签，请单击![向下](/help/creative/assets/chevron-down.png "向下")，然后选中要应用的每个标签旁边的复选框。
+
+* 要搜索现有标签，请在标签名称中开始输入文本字符串。
+
+* 若要创建新的标签以应用于创意，请打开列表，单击&#x200B;**+添加标签**，在[!UICONTROL Label]字段中输入新的标签名称，然后单击&#x200B;**创建**。
+
+* 要移除标签，请取消选中标签名称旁边的复选框。
+
+## 视频创作设置 {#creative-settings-video}
+
+**Creative资源名称：**&#x200B;创意的名称。 对于新创意，默认使用文件名，但您可以更改名称。 对于多个图像，您可以编辑单个创意名称。 **提示：**&#x200B;使用在体验中包含创意内容时可以轻松找到的名称。
+
+**持续时间：**（只读）自动填充的视频持续时间。
+
+**语言：**&#x200B;与创意内容关联的每个广告的默认语言。 相同的值将应用于所有选定的图像。 将创意包含到体验中时，您可以选择自定义体验的语言偏好设置。
+
+**登陆页面URL：**&#x200B;与创意内容关联的每个广告的默认登陆页面URL。 登陆页面URL必须是以http://或https://开头的有效URL。 它可能包含第三方跟踪参数或[[!DNL Creative] 宏](/help/creative/creative-macros.md)供您自行使用。 相同的值将应用于所有选定的图像。
+
+如果您在捆绑包中包含某个创意，然后将该捆绑包分配给某个体验，则可以选择更改登陆页面URL，并为捆绑包中的每个创意添加展示和点击跟踪URL以及JavaScript 。<!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
 **标签：**（可选）要应用于所有选定创意的任何标签。 您可以在[!DNL Creative]内的各种视图中按标签筛选创意。
 

@@ -3,9 +3,9 @@ title: 自定义体验的跟踪URL，而无需定位
 description: 了解如何在不使用决策树定位的情况下自定义体验中每个创意内容的跟踪URL。
 feature: Creative Experiences
 exl-id: 03a10285-c0df-4bc3-92c7-c1c2ea3f8129
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
    * 在卡片视图中，单击体验名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Tag Manager]**。
 
-   * 在表格视图中，将光标悬停在行上，单击&#x200B;**[!UICONTROL More]**，然后单击&#x200B;**[!UICONTROL Tag Manager]**
+   * 在表格视图中，将光标悬停在行上，单击&#x200B;**[!UICONTROL More]**，然后单击&#x200B;**[!UICONTROL Tag Manager]**。
 
 1. （如果广告大小的标记不存在）为适用的创意大小创建标记。
 
@@ -34,13 +34,13 @@ ht-degree: 0%
 
    1. 输入唯一的&#x200B;**[!UICONTROL Tag name]**&#x200B;并选择&#x200B;**[!UICONTROL Tag size]**。
 
-      体验的默认图像创意的大小决定了可用大小。
+      体验的默认创意大小决定可用大小。
 
    1. 单击&#x200B;**[!UICONTROL Create]**。
 
 1. 将光标悬停在适用的广告标记的行上，然后单击![编辑跟踪URL](/help/creative/assets/edit-gray.png "编辑跟踪URL") **[!UICONTROL Tracking URLs]**。 <!-- For targeted experiences, this is "EDIT Tracking URLs" -->&lt;！ — 从2/2开始，Tag Manager只有一个列表视图，但没有卡片视图。>
 
-   [!UICONTROL Click Tracking URLs]、[!UICONTROL Impression Tracking URLs]和[!UICONTROL Landing URLs]选项卡在分配的捆绑包中列出了适用大小的所有创意的名称。 体验的默认图像创意的大小决定了可用大小。<!-- There's no distinct "Creative Sizes" setting. -->
+   [!UICONTROL Click Tracking URLs]、[!UICONTROL Impression Tracking URLs]和[!UICONTROL Landing URLs]选项卡在分配的捆绑包中列出了适用大小的所有创意的名称。 体验的默认创意大小决定可用大小。<!-- There's no distinct "Creative Sizes" setting. -->
 
 1. 在&#x200B;**[!UICONTROL Click Tracking URLs]**、**[!UICONTROL Impression Tracking URLs]**&#x200B;和&#x200B;**[!UICONTROL Landing URLs]**&#x200B;选项卡上，根据需要对每个创意执行以下操作：
 

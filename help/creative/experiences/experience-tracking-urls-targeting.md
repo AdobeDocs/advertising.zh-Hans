@@ -3,9 +3,9 @@ title: 自定义体验的跟踪URL
 description: 了解如何使用决策树定位自定义体验中每个创意内容的跟踪URL。
 feature: Creative Experiences
 exl-id: ba3b15b4-116e-4caa-8ce1-4d2e488a6362
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 1. 将光标悬停在目标节点下方的创意包叶/文件夹上，然后单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**。
 
-   [!UICONTROL Click Tracking URLs]、[!UICONTROL Impression Tracking URLs]和[!UICONTROL Landing URLs]选项卡在分配的捆绑包中列出了适用大小的所有创意的名称。 体验的默认图像创意的大小决定了可用大小。<!-- There's no distinct "Creative Sizes" setting. -->
+   [!UICONTROL Click Tracking URLs]、[!UICONTROL Impression Tracking URLs]和[!UICONTROL Landing URLs]选项卡在分配的捆绑包中列出了适用大小的所有创意的名称。 体验的默认创意大小决定可用大小。<!-- There's no distinct "Creative Sizes" setting. -->
 
 1. 在&#x200B;**[!UICONTROL Click Tracking URLs]**、**[!UICONTROL Impression Tracking URLs]**&#x200B;和&#x200B;**[!UICONTROL Landing URLs]**&#x200B;选项卡上，根据需要对每个创意执行以下操作：
 

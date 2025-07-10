@@ -3,9 +3,9 @@ title: 决策树布局
 description: 了解具有定位的体验的决策树布局。
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: 3c1316fa898e5773fbf1763733e388c9ed3bd389
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## 术语
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 决策树中的目标
 
-每个决策树最多可以有五个级别的目标。 每个目标级别可以包括多个分支，每个分支具有具有相同目标类型（受众区段、地理位置类型、指定数据传递键的值、指定重定位像素的属性或设备类别）的一个或多个节点。 您可以将每个广告大小的创意捆绑包分配给最低级别的目标节点，您已为其指定默认图像创意。
+每个决策树最多可以有五个级别的目标。 每个目标级别可以包括多个分支，每个分支具有具有相同目标类型（受众区段、地理位置类型、指定数据传递键的值、指定重定位像素的属性或设备类别）的一个或多个节点。 您可以在已为其指定默认图像创意或视频创意的每个广告大小中，将创意捆绑包分配给最低级别的目标节点。
 
 ![目标决策树示例](/help/creative/assets/experience-decision-tree.png "目标决策树示例")
 

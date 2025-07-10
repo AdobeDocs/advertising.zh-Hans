@@ -3,9 +3,9 @@ title: 使用决策树定位创建体验
 description: 了解如何使用决策树创建定向广告体验。
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -82,6 +82,8 @@ ht-degree: 0%
       * 要继续编辑决策树，请单击&#x200B;**[!UICONTROL Continue Edit]**。
 
 当体验上线时，[!DNL Creative]会自动为每个适用的创意大小创建广告标记。 然后，您可以[导出广告标记并在DSP中实施它](/help/creative/experiences/experience-tag-export.md)。
+
+对于视频广告体验，视频创意会在DSP中自动转码为VAST 2.0标记，以便您进行预览。 您可以选择将[特定于发布者的转码](experience-tag-video-transcoding.md)应用于任何视频广告体验标记。
 
 >[!MORELIKETHIS]
 >

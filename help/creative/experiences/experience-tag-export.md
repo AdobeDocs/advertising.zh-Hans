@@ -3,9 +3,9 @@ title: 为实时体验导出和实施广告体验标记
 description: 了解如何导出广告体验标记并（可选）将其上传到Advertising DSP营销活动。
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: f2bf245c13244cbcb76cead8b37f149b9b9bc24f
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,13 @@ ht-degree: 0%
 
    * 在卡片视图中，单击体验名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Tag Manager]**。
 
-   * 在表格视图中，将光标悬停在行上，单击&#x200B;**[!UICONTROL More]**，然后单击&#x200B;**[!UICONTROL Tag Manager]**
+   * 在表格视图中，将光标悬停在行上，单击&#x200B;**[!UICONTROL More]**，然后单击&#x200B;**[!UICONTROL Tag Manager]**。
 
-1. 将光标悬停在适用的广告标记的行上，然后单击![导出广告标记](/help/creative/assets/export.png "导出广告标记") **[!UICONTROL Export ad tags]**&#x200B;或&#x200B;**[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**。
+1. 将光标悬停在适用的广告标记的行上，然后单击![导出广告标记](/help/creative/assets/export.png "导出广告标记") **[!UICONTROL Export ad tags]**&#x200B;或**[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**。
+
+>[!NOTE]
+>
+>对于标准视频广告体验，请等待[!UICONTROL Tag Status]列显示“[!UICONTROL Ready]”，这表示体验中的所有视频都已转码。 DSP会自动对所有视频创意内容进行转码，但您可以选择将[特定于发布者的转码](experience-tag-video-transcoding.md)应用于任何视频广告体验标签。
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -81,7 +85,6 @@ ht-degree: 0%
 
       1. 在[!UICONTROL Create ads]视图中，查看广告标记，选择要为其创建广告的每个标记，然后单击&#x200B;**[!UICONTROL Create]**。
 
-
 <!-- no way to get back to the Creative Tag Manager -- you have to click back through the main menu -->
 
 <!-- Add this info, with descriptions:
@@ -99,3 +102,4 @@ ht-degree: 0%
 >* [为适用的创意大小手动创建广告标签](experience-tag-create-manually.md)
 >* [将创意内容分配给无定位体验的广告标记](experience-tag-assign-creatives.md)
 >* [重命名广告标记](experience-tag-rename.md)
+>* [自定义视频广告体验标记的转码选项](experience-tag-video-transcoding.md)

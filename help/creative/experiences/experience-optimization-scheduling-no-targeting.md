@@ -3,9 +3,9 @@ title: 自定义体验的创意优化和计划
 description: 了解如何
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 006b0c61c28f5fac111ccdcc007e1752e05da63f
+source-git-commit: 7fee6e0f6e8ad6dbf0329d707af7303ac7229dc9
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
    * 在卡片视图中，单击体验名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Tag Manager]**。
 
-   * 在表格视图中，将光标悬停在行上，单击&#x200B;**[!UICONTROL More]**，然后单击&#x200B;**[!UICONTROL Tag Manager]**
+   * 在表格视图中，将光标悬停在行上，单击&#x200B;**[!UICONTROL More]**，然后单击&#x200B;**[!UICONTROL Tag Manager]**。
 
 1. 将光标悬停在适用的广告标记的行上，然后单击![广告计划](/help/creative/assets/edit-gray.png "编辑跟踪URL") **[!UICONTROL Ad Schedule]**。 <!-- For targeted experiences, this is "Edit Schedules" -->&lt;！ — 从2/2开始，Tag Manager只有一个列表视图，但没有卡片视图。>
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
    * *[!UICONTROL Algorithmic]：*&#x200B;根据指定的优化目标以算法方式旋转创意。
 
-      * 对于&#x200B;**[!UICONTROL Optimization Goal]**，选择&#x200B;*[!UICONTROL Click Through Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果选择&#x200B;*[!UICONTROL Custom Objective]*，则请选择现有的[Advertising DSP自定义目标](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
+      * 对于&#x200B;**[!UICONTROL Optimization Goal]**，选择&#x200B;*[!UICONTROL Click Through Rate]*、（标准视频广告体验） *[!UICONTROL Completion Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果选择&#x200B;*[!UICONTROL Custom Objective]*，则请选择现有的[Advertising DSP自定义目标](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
    * 在卡片视图中，单击体验名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Tag Manager]**。
 
-   * 在表格视图中，将光标悬停在行上，单击&#x200B;**[!UICONTROL More]**，然后单击&#x200B;**[!UICONTROL Tag Manager]**
+   * 在表格视图中，将光标悬停在行上，单击&#x200B;**[!UICONTROL More]**，然后单击&#x200B;**[!UICONTROL Tag Manager]**。
 
 1. 将光标悬停在适用的广告标记的行上，然后单击![广告计划](/help/creative/assets/edit-gray.png "编辑跟踪URL") **[!UICONTROL Ad Schedule]**。 <!-- For targeted experiences, this is "Edit Schedules" -->&lt;！ — 从2/2开始，Tag Manager只有一个列表视图，但没有卡片视图。>
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
       * *[!UICONTROL Algorithmic]：*&#x200B;根据指定的优化目标以算法方式旋转创意。
 
-         * 对于&#x200B;**[!UICONTROL Optimization Goal]**，选择&#x200B;*[!UICONTROL Click Through Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果选择&#x200B;*[!UICONTROL Custom Objective]*，则请选择现有的[Advertising DSP自定义目标](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
+         * 对于&#x200B;**[!UICONTROL Optimization Goal]**，选择&#x200B;*[!UICONTROL Click Through Rate]*、（标准视频广告体验） *[!UICONTROL Completion Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果选择&#x200B;*[!UICONTROL Custom Objective]*，则请选择现有的[Advertising DSP自定义目标](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
 
 1. 对于每个附加计划：
 

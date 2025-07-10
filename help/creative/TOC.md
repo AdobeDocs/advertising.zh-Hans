@@ -4,9 +4,9 @@ user-guide-title: Advertising Creative指南
 user-guide-description: 了解使用Advertising Creative所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: Creative指南
 hide: true
-source-git-commit: 78865ed65255aa3c5f9167703877234595e8d1e7
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 0%
 + 简介 {#introduction}
    + [关于Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [自定义数据视图](/help/creative/introduction/customize-data-views.md)
-   + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Creative库 {#creative-libraries}
    + [关于您的创意库](/help/creative/creative-libraries/creative-libraries-about.md)
    + [支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)
@@ -67,6 +67,7 @@ ht-degree: 0%
          + [无需定位即可自定义体验的创意优化和计划](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
    + [克隆体验](/help/creative/experiences/experience-clone.md)
    + [预览体验](/help/creative/experiences/experience-preview.md)
+   + [自定义视频广告体验标记的转码选项](/help/creative/experiences/experience-tag-video-transcoding.md)
    + [为实时体验导出和实施广告体验标记](/help/creative/experiences/experience-tag-export.md)
    + [共享体验URL](/help/creative/experiences/experience-share-demo-url.md)
    + [从[!UICONTROL Experiences]视图下载数据](/help/creative/experiences/experience-download-view.md)
@@ -78,4 +79,4 @@ ht-degree: 0%
 + [正在重新定位像素](/help/creative/pixels/retargeting-pixel-manage.md)
 + [可用于跟踪URL的宏](/help/creative/creative-macros.md)
 + [获取帮助](/help/creative/get-help.md)
-+ [Adobe Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans){target="_blank"}
++ [Adobe Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

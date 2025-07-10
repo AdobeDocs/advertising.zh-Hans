@@ -3,9 +3,9 @@ title: 为无定位的体验将创意内容分配给广告标记
 description: 了解如何将创意内容分配给特定创意大小的广告标记。
 feature: Creative Experiences
 exl-id: 864f10ef-75ca-4081-93d9-8540476b17f0
-source-git-commit: 3027235ca7c8db278880a710cb8048216d0a599a
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
    * 在卡片视图中，单击体验名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Tag Manager]**。
 
-   * 在表格视图中，将光标悬停在行上，单击&#x200B;**[!UICONTROL More]**，然后单击&#x200B;**[!UICONTROL Tag Manager]**
+   * 在表格视图中，将光标悬停在行上，单击&#x200B;**[!UICONTROL More]**，然后单击&#x200B;**[!UICONTROL Tag Manager]**。
 
 1. 将光标悬停在适用的广告标记的行上并单击&#x200B;**[!UICONTROL + Add Creatives]**。<!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -47,4 +47,5 @@ ht-degree: 0%
 >* [为适用的创意大小手动创建广告标签](experience-tag-create-manually.md)
 >* [自定义创意内容的跟踪URL](experience-tracking-urls-no-targeting.md)。
 >* [自定义创意的创意优化和计划](experience-optimization-scheduling-no-targeting.md)
+>* [自定义视频广告体验标记的转码选项](experience-tag-video-transcoding.md)
 >* [导出和实施实时体验的广告体验标记](experience-tag-export.md)

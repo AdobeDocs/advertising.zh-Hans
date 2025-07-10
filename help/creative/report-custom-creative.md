@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: 了解如何生成跨体验[!UICONTROL Custom Creative Report]。
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: a6e8bd3d9c2f8a373a90460b9ee8780d1c0702c6
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2019'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >您还可以随时[从[!UICONTROL Reports]视图中](/help/dsp/reports/report-run-now.md)运行自定义报表。
+  >您还可以随时[从](/help/dsp/reports/report-run-now.md)视图中[!UICONTROL Reports]运行自定义报表。
 
 * *[!UICONTROL On]\&lt;Date\>：*&#x200B;在指定的日期运行报告，完成日期为帐户时区的09:00。
 
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 * *[!UICONTROL FTP]：*&#x200B;若要将已完成的报告发送到一个或多个FTP位置，您必须在&#x200B;**[!UICONTROL Destination Name]**&#x200B;字段中选择这些位置。
 
-* *[!UICONTROL FTP SSL] (当前在Beta中)：*&#x200B;要将已完成的报告发送到一个或多个FTP SSL位置，您必须在&#x200B;**[!UICONTROL Destination Name]**&#x200B;字段中选择该位置。
+* *[!UICONTROL FTP SSL](当前在Beta中)：*&#x200B;要将已完成的报告发送到一个或多个FTP SSL位置，您必须在&#x200B;**[!UICONTROL Destination Name]**&#x200B;字段中选择该位置。
 
 * *[!UICONTROL Email]：*&#x200B;若要指定电子邮件地址，在报告因错误而被取消时，将已完成的报告或通知发送到这些地址。
 
@@ -186,7 +186,7 @@ ht-degree: 0%
 | 量度类型 | 子类型 | 列名称 | 描述 |
 |-----------|-------|-----------|-----------|
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Ad Size] | 已发布广告的维度。 |
-| [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Is Default] | 投放的广告是否为体验的默认图像广告。 |
+| [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Is Default] | 投放的广告是体验的默认图像广告还是视频广告。 |
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Rotation Type] | 广告是根据相对权重（*加权*）还是算法（*算法*）旋转。 |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Creative ID] | [!UICONTROL Creative]分配给创意的ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Creative Name] | 创意内容的名称。 |

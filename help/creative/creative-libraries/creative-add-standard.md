@@ -3,9 +3,9 @@ title: 将标准创意添加到创意库
 description: 了解如何将标准（非动态）创意添加到创意库。
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: bfb2dccf08ae79ca8f338a0423176f1d3309d4fc
+source-git-commit: bc3309523572656362cebebab9b735530003a81c
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    * 将设备或网络上的文件拖放到框中。
 
-   * 单击&#x200B;**[!UICONTROL select a file]**&#x200B;在您的设备或网络上查找文件。
+   * 单击&#x200B;**[!UICONTROL Select a file]**&#x200B;在您的设备或网络上查找文件。
 
    查看[灵活的广告规范](#flexible-ad-spec)。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ### 使用模板添加灵活的创意 {#flexible-creative-use-template}
 
-您可以使用上传到帐户的任何灵活的创意模板来构建预定义大小的广告。 选择要使用的模板后，您将编辑点击标记和属性。&lt;！ — 如果将模板下载功能添加回来，请将此替换最后一句：您可以a\)选择要使用的模板，然后编辑点击标记和属性；或b\) [以ZIP文件格式下载模板](#download-flexible-creative-template)，脱机编辑内容以构建您自己的创意，然后[将编辑后的文件上传为新的创意] (flexible-creative-upload)。>
+您可以使用上传到帐户的任何灵活的创意模板来构建预定义大小的广告。 选择要使用的模板后，您将编辑点击标记和属性。&lt;！ — 如果将模板下载功能添加回来，请将此替换最后一句：您可以a\)选择要使用的模板，然后编辑点击标记和属性；或b\) [以ZIP文件格式下载模板](#download-flexible-creative-template)，脱机编辑内容以构建您自己的创意，然后[将编辑后的文件上传为新的创意](flexible-creative-upload)。>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -139,7 +139,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * 将设备或网络上的文件拖放到框中。
 
-   * 单击&#x200B;**[!UICONTROL select a file]**&#x200B;在您的设备或网络上查找该文件。
+   * 单击&#x200B;**[!UICONTROL Select a file]**&#x200B;在您的设备或网络上查找该文件。
 
    请参阅[HTML5广告规范](/help/creative/creative-libraries/html5-creative-specification.md)。
 
@@ -167,9 +167,9 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
       * 将设备或网络上的文件拖放到框中。
 
-      * 单击&#x200B;**[!UICONTROL select a file]**&#x200B;在您的设备或网络上查找文件。
+      * 单击&#x200B;**[!UICONTROL Select a file]**&#x200B;在您的设备或网络上查找文件。
 
-   * 对于连接到您的DSP帐户[&#128279;](/help/creative/creative-libraries/aem-assets-configure.md)的Adobe Experience Manager库中已批准的图像，请执行以下操作：
+   * 对于连接到您的DSP帐户[的](/help/creative/creative-libraries/aem-assets-configure.md)Adobe Experience Manager库中已批准的图像，请执行以下操作：
 
       1. 单击&#x200B;**[!UICONTROL AEM Asset Library]**。
 
@@ -206,6 +206,30 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 1. 在[第三方创意设置](#creative-settings-third-party)中指定创意的JavaScript标记和其他设置。
 
    您可以将[可用宏](/help/creative/creative-macros.md)中的任意宏复制并粘贴到JavaScript标记中。
+
+1. 单击&#x200B;**[!UICONTROL Create]**
+
+## 将视频创意添加到创意库
+
+查看[视频创作规范](/help/creative/creative-libraries/creative-libraries-about.md#creative-video-specs)和[支持的创作大小](/help/creative/creative-libraries/creative-sizes.md)。
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击库名称。
+
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL Standard Ads]**&#x200B;子选项卡。
+
+1. 单击&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Video]**。
+
+1. 通过以下任一方式指定视频文件：
+
+   * 将设备或网络上的文件拖放到框中。
+
+   * 单击&#x200B;**[!UICONTROL Select a file]**&#x200B;在您的设备或网络上查找文件。
+
+1. 指定[视频创作设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video)。
+
+   默认情况下，您刚刚上传的创意处于选中状态，您指定的任何设置都适用于所选的创意内容。<!-- By default, all creatives you just uploaded are selected, and any settings you specify apply to all selected creatives. Any settings with only one value apply to all selected creatives. To enter settings for specific creatives, deselect each inapplicable creative. -->
 
 1. 单击&#x200B;**[!UICONTROL Create]**
 

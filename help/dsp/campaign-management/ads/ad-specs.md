@@ -3,9 +3,9 @@ title: 广告规范
 description: 参考常规和特定于发布者的广告规范。
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 10e85f9ec0b7b867828cc9ac154af6f4982c44d2
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 您可以使用来自[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]和[!DNL Sizmek]的标记工作表。 有关支持的供应商的完整列表，请参阅“[认证广告服务合作伙伴](certified-ad-servers.md)”。
 
-### 高清视频Assets的要求（必需）
+### 高清视频Assets的要求
 
 **视频标记类型：** VPAID 2.0 JavaScript或VAST (CTV)。 所有VPAID广告单位都必须遵循Interactive Advertising局(IAB)定义的[VPAID 2.0规范](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf)。
 
@@ -80,15 +80,15 @@ ht-degree: 0%
 
 ### 支持的文件类型
 
-**图像：** GIF，JPG/JPEG，PNG
+**图像：** GIF、JPG/JPEG、PNG
 
 **HTML5：**&#x200B;图像文件类型：GIF、JPG/JPEG、PNG、SVG
 
-### 图像Assets的要求（必需）
+### 图像Assets的要求
 
 支持通用显示。
 
-**推荐的广告大小：** 120x60、160x600、180x150、300x50、300x100、300x1050、300x250、300x600、320x50、320x480、480x60、6480 0， 88x31， 728x90， 970x250， 970x90
+**推荐的广告大小：** 120x60、160x600、180x150、300x50、300x100、300x1050、300x250、300x600、320x50、320x480、480x60、 640x480， 88x31， 728x90， 970x250， 970x90
 
 **支持的第三方广告服务器：**&#x200B;您可以使用来自[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]和[!DNL Sizmek]的标记表。 有关支持的供应商的完整列表，请参阅“[认证广告服务合作伙伴](certified-ad-servers.md)”。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 您可以使用来自[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]和[!DNL Sizmek]的标记工作表。 有关支持的供应商的完整列表，请参阅“[认证广告服务合作伙伴](certified-ad-servers.md)”。
 
-### Audio Assets的要求（必需）
+### Audio Assets的要求
 
 **文件类型：** MP3、OGG、AAC
 
@@ -156,31 +156,31 @@ ht-degree: 0%
 * **[!DNL iHeartRadio]：**
    * 文件类型：JPEG、JPG、PNG、GIF、SWF、HTML
    * 最大文件大小：2.2 MB
-   * Dimension：300x250
+   * 尺寸：300x250
 
 * **[!DNL Pandora]：**
    * 文件类型：JPEG、GIF
    * 最大文件大小：大小：100 KB
-   * Dimension：300x250（移动设备或台式机）或500x500（台式机）
+   * 尺寸：300x250（移动设备或台式机）或500x500（台式机）
 
 * **[!DNL SoundCloud]：**
    * 文件类型：静态JPG、PNG
    * 最大文件大小：小于400 KB
-   * Dimension：1024x1024
+   * 尺寸：1024x1024
 
 * **[!DNL Spotify]：**
    * 文件类型：静态JPG、PNG
    * 最大文件大小：200 KB
-   * Dimension：300x250
+   * 尺寸：300x250
 
 * **[!DNL TuneIn]：**
    * 文件类型：JPEG、JPG、PNG、GIF、HTML
    * 最大文件大小：2 MB
-   * Dimension：300x250
+   * 尺寸：300x250
 
 ## 原生显示广告
 
-每个广告可以包含静止图像或移动GIF（电影胶片）。
+每个广告都可以包含静止图像或移动GIF（电影胶片）。
 
 ### 支持的Screens
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 
 **分辨率：**&#x200B;最小为600x600px；建议的最小为1200x627px
 
-**文件类型：** JPEG（图像广告或视频广告封面图像），GIF(cinemograph)
+**文件类型：** JPEG （图像广告或视频广告封面图像）、GIF (cinemograph)
 
 **文件大小：**&#x200B;小于1 MB（图像应不含文本。）
 
@@ -216,7 +216,7 @@ ht-degree: 0%
 
 **赞助者：**&#x200B;最多200个字符；建议30个字符
 
-**行动号召（仅限MoPub）：**&#x200B;最多15个字符
+**Call to action （仅限MoPub）：**&#x200B;最多15个字符
 
 >[!NOTE]
 >

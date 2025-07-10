@@ -3,9 +3,9 @@ title: 非定向体验的设置
 description: 请参阅无决策树定位的广告体验的所有设置描述。
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 
 ## [!UICONTROL Experience basics]节
 
+**[!UICONTROL Ad Type]：** （现有体验为只读）体验中包含的广告类型： *[!UICONTROL Standard Display]*、*[!UICONTROL Dynamic Display]*&#x200B;或&#x200B;*[!UICONTROL Video]*。 保存体验后，便无法更改广告类型。
+
 **[!UICONTROL Advertiser]：** （现有体验为只读）将针对体验中包含的创意进行竞价的广告商。 保存体验后，便无法更改广告商。
 
 **[!UICONTROL Experience Name]：**&#x200B;体验的唯一名称。 **提示：**&#x200B;使用可在Advertising DSP或其他DSP中将该体验用作广告时轻松找到的名称。
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Default creatives]节
 
-**\[指定的默认创意\]：**&#x200B;当浏览器无法显示分配给体验的创意(例如，浏览器未启用JavaScript或广告服务器由于延迟而无法个性化广告)时要使用的默认图像创意。 每个广告大小包含一个图像创意，体验适用于该图像创意。 您的选择决定了可用于体验的创意大小。<!-- In the legacy product, you selected the ad sizes for the experience, and then selected default images for each of those ad sizes. -->
+**\[指定的默认创意\]：**&#x200B;当浏览器无法显示分配给体验的创意(例如，浏览器未启用JavaScript或广告服务器由于延迟而无法个性化广告)时要使用的默认创意。 对于标准显示体验，请为每个广告大小包含一个图像创意内容，该体验适用于该广告大小。 对于标准视频体验，请针对体验适用的每个广告大小包含一个视频创意内容。 您的选择决定了可用于体验的创意大小。
 
 对于没有决策树定位的体验，您可以在[!UICONTROL Tag Manager]内用相同大小的创意覆盖默认创意内容。
 
@@ -40,8 +42,6 @@ ht-degree: 0%
 
 **[!UICONTROL Targeting]：** （现有体验为只读）当您未使用决策树启用定位时不适用；请将此选项保持禁用状态。 **注意：**&#x200B;一旦保存体验而没有定位，以后就无法添加定位。
 
-**[!UICONTROL Dynamic ads]：** （现有体验为只读）指示体验包含动态广告。 **注意：**&#x200B;体验可以包含所有标准广告或所有动态广告。
-
 **[!UICONTROL Language Targeting]：** （仅具有标准广告的体验；可选；现有体验为只读）检查用户的浏览器语言设置，并在可以使用指定语言的创意内容时，使用该语言显示创意内容。 当浏览器指定语言的创意不可用时，将改用[!UICONTROL Preferred language]设置。 保存体验后，便无法更改此设置。
 
 **[!UICONTROL Preferred language]：** （仅具有标准广告的体验；现有体验为只读）从体验创建的所有广告的语言，启用[!UICONTROL Language Targeting]时除外。 保存体验后，便无法更改此设置。
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 **RT像素：** （仅具有动态广告的体验；可选）将像素重定位到潜在目标的[!UICONTROL Creative]。 在决策树中设置定位时，可以包含一级RT像素目标节点。 对于每个节点，您将指定要定位的像素，以及显示所分配的创意捆绑包中的创意所需的像素属性值。 如果不在此字段中指定像素，则仍可在决策树中指定像素。<!-- From R: "the RT Pixel should be via the content selection in the Dynamic ad setup." Clarify. I do see "Datapass" (oneword) in the dynamic ad settings, but I'm not sure how that setting and this experience-level one work together. -->
 
-**[!UICONTROL Label]：**<!-- should be "Labels" -->（可选）要应用于体验的任何[!DNL Creative]特定的标签。 您可以在体验视图中按标签筛选体验，并在[!UICONTROL Custom Creative Report]中包含[!UICONTROL Experience Label]维度。
+**[!UICONTROL Label]：**<!-- should be "Labels" -->（可选）要应用于体验的任何[!DNL Creative]特定的标签。 您可以在体验视图中按标签筛选体验，并在[!UICONTROL Experience Label]中包含[!UICONTROL Custom Creative Report]维度。
 
 * 要选择现有标签，请单击![向下](/help/creative/assets/chevron-down.png "向下")，然后选中要应用的每个标签旁边的复选框。
 

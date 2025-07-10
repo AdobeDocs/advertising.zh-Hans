@@ -3,9 +3,9 @@ title: 关于您的创意库
 description: 了解如何管理广告体验的创意。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 9782471837db19d14839027ea7a576484863bb69
+source-git-commit: ad51a42c1aa7e713b1a4a90261c635b574068d29
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1381'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 * **个人创意：**&#x200B;您可以直接在广告体验中包含没有定义用户目标的个人创意。 您还可以使用创意内容创建包，这些包可以包含在定向的[广告体验](/help/creative/experiences/experience-about.md)中。
 
-   * **标准创意：**&#x200B;您可以上传和管理[各种格式的创意](#creative-creative-formats)。 对于每个创意，您可以指定与创意关联的每个广告的默认语言，以及用户单击包含创意的广告时打开的默认登录页面。 您可以选择指定标签，以在[!DNL Creative]内的各种视图中用作过滤器，并在使用[!UICONTROL Creative Label]维度时在[!UICONTROL Custom Creative Report]中用作列值。
+   * **标准创意：**&#x200B;您可以上传和管理[各种格式的创意](#creative-creative-formats)。 对于每个创意，您可以指定与创意关联的每个广告的默认语言，以及用户单击包含创意的广告时打开的默认登录页面。 您可以选择指定标签，以在[!DNL Creative]内的各种视图中用作过滤器，并在使用[!UICONTROL Custom Creative Report]维度时在[!UICONTROL Creative Label]中用作列值。
 
    * **动态创意：** (仅限现有Adobe Advertising DCO客户)管理员用户可以通过将广告模板中的动态变量映射到信息源文件中的值来创建动态生成的创意。 所有用户都可以预览、复制和删除现有的动态广告。
 
-* **创意捆绑：**&#x200B;将创意分组到捆绑中，以在具有已定义用户目标的多个体验中使用。 您可以创建包含标准广告的&#x200B;*标准包*&#x200B;和包含动态生成的广告的&#x200B;*动态包*。
+* **创意捆绑：**&#x200B;将创意分组到捆绑中，以在具有已定义用户目标的多个体验中使用。 您可以创建包含标准显示广告的&#x200B;*标准显示包*、包含标准视频广告的&#x200B;*标准视频包*&#x200B;以及包含动态生成的显示广告的&#x200B;*动态显示包*。
 
 ## 支持的Creative格式 {#creative-creative-formats}
 
@@ -34,9 +34,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->即使您打算将HTML5、弹性HTML5或第三方创意用于广告体验，您也必须为您使用的每个创意大小添加图像创意。
->
->每个体验都需要为分配给该体验的每个创意大小提供一个默认图像创意。 当浏览器未启用JavaScript或广告服务器由于延迟而无法个性化广告时，可以使用默认图像创意。
+>* 即使您打算将HTML5、弹性HTML5或第三方创意用于标准显示广告体验，您还必须为您使用的每个创意大小添加图像创意。
+>* 每个标准显示体验都需要为分配给体验的每个创意大小提供一个默认图像创意。 当浏览器未启用JavaScript或广告服务器由于延迟而无法个性化广告时，可以使用默认图像创意。
+>* 每个标准视频体验都需要为分配给该体验的每个创意大小提供一个默认视频创意。<!-- when is it used? -->
 
 #### 灵活的HTML5
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 您可以采用GIF、JPEG、JPG或PNG格式包含图像创意。 您可以从Adobe Experience Manager帐户上传已批准的图像，或者从设备或网络上传已批准的图像。
 
-每个广告体验都需要为分配给体验的每个创意大小提供一个默认图像创意。
+每个标准显示广告体验都需要为分配给体验的每个创意大小提供一个默认图像创意。
 
 #### 第三方创意人员
 
@@ -61,6 +61,38 @@ ht-degree: 0%
 ```
 <SCRIPT language='JavaScript1.1' SRC="https://ad.doubleclick.net/ddm/adj/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"></SCRIPT> <NOSCRIPT> <A HREF="https://ad.doubleclick.net/ddm/jump/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp]?"><IMG SRC="https://ad.doubleclick.net/ddm/ad/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"BORDER=0 WIDTH=300 HEIGHT=250 ALT="Advertisement"></A></NOSCRIPT>
 ```
+
+#### 视频创意 {#creative-video-specs}
+
+您可以从设备或网络中上传视频创意。 每个标准视频广告体验都需要为分配给体验的每个创意大小提供一个默认视频创意。 DSP会自动将所有视频创意作为VAST 2.0标记进行转码，以便您进行预览。 在[!UICONTROL Tag Manager]中，您可以选择将[特定于发布者的转码](/help/creative/experiences/experience-tag-video-transcoding.md)应用于任何视频广告体验标记。
+
+请参阅以下视频创作要求。
+
+**文件类型：** .mov、.mp4、.webm
+
+**文件大小：**&#x200B;最大为512 MB
+
+**视频宽高比：** 16：9,4：3
+
+**视频分辨率：** 640x360(360p)，1280x720(720p)，1920x1080(1080p)
+
+**视频长度：**&#x200B;最长90秒
+
+**比特率：** 360p为600-1200 kbps，720p为1500-2500 kbps，1080p为3000-5000+ kbps
+
+**视频帧速率：** 23.98 FPS。 可根据区域或发布者要求接受额外的帧速率
+
+**视频编解码器：** H.264（行业标准）、AV1、H.265
+
+**音频格式：** ACC （行业标准/MP4）、Opus (WebM/AV1)
+
+**音频比特率：** 16-512 kbps
+
+**音频采样速率：** 44100-48000 Hz
+
+**音频速率：** 44.1kHz或48 kHz
+
+**音频其他：**&#x200B;上传的文件必须是非交错的、混合的，并且包含一个音轨。 可能没有声音，但视频文件中必须包含音频轨道。
 
 ### 动态广告的格式
 
@@ -102,7 +134,9 @@ ht-degree: 0%
 
 * [预览标准创意](creative-preview.md)
 
-* [将标准创意添加到标准捆绑中，并从标准捆绑中删除标准创意](creative-attach-detach-bundles.md)
+* [将标准创意添加到标准显示包，并从标准显示包中删除标准创意](creative-attach-detach-bundles.md)
+
+* [将视频创意添加到标准视频包，并从标准视频包中删除视频创意](creative-attach-detach-bundles.md)
 
 * [复制标准创意](creative-duplicate.md)
 
@@ -112,7 +146,7 @@ ht-degree: 0%
 
 #### [!UICONTROL Dynamic Ads]
 
-[!UICONTROL Dynamic Ads]选项卡显示为您的创意目录动态创建的所有动态创意，但您[从[!UICONTROL Dynamic Ads]选项卡中手动删除](creative-delete.md)的任何动态创意除外。 如果您[手动复制](creative-duplicate.md)自上次处理目录后出现的任何动态创意，则该目录的创意列表也包含重复的创意。
+[!UICONTROL Dynamic Ads]选项卡显示为您的创意目录动态创建的所有动态创意，但您[从](creative-delete.md)选项卡中手动删除[!UICONTROL Dynamic Ads]的任何动态创意除外。 如果您[手动复制](creative-duplicate.md)自上次处理目录后出现的任何动态创意，则该目录的创意列表也包含重复的创意。
 
 每个创意的数据包括创意类型、创意大小、创意所属的目录数量和创建日期。 表模式还包括用于生成创意的模板的列和选件计数。
 
@@ -126,7 +160,7 @@ ht-degree: 0%
 
 * [预览动态创意](creative-preview.md)
 
-* [将动态创意添加到动态捆绑包中，并从动态捆绑包中删除动态创意](creative-attach-detach-bundles.md)
+* [将动态创意添加到动态显示捆绑包中，并从动态显示捆绑包中删除动态创意](creative-attach-detach-bundles.md)
 
 * [复制动态创意](creative-duplicate.md)
 
@@ -140,13 +174,15 @@ ht-degree: 0%
 
 #### 可用操作
 
-* 将标准和动态捆绑包添加到库
+* 将标准显示、标准视频和动态显示捆绑包添加到库
 
 * 列出并预览捆绑包中的创意
 
 * 编辑包名称
 
-* 将标准创意添加到标准捆绑中，并从标准捆绑中删除标准创意
+* 将标准显示创意添加到标准显示捆绑包中，并从标准显示捆绑包中删除标准显示创意
+
+* 将标准视频创意添加到标准视频包，并从标准视频包中删除标准视频创意
 
 * 复制包
 
