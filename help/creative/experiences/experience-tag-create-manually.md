@@ -3,9 +3,9 @@ title: 为适用的创意大小手动创建广告标记
 description: 了解如何为特定创意大小创建广告标记。
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 *仅针对没有决策树的体验*
 *已关闭的测试版*
 
-您可以为用于体验的每个创意大小创建一个或多个广告标记。 您可以稍后[将创意分配给广告标记](experience-tag-assign-creatives.md)。
+您可以为用于体验的每个创意大小或视频持续时间，针对每种语言创建一个或多个广告标记。 您可以稍后[将创意分配给广告标记](experience-tag-assign-creatives.md)。
 
 >[!NOTE]
 >
->对于具有决策树定位的体验，[!DNL Creative]会为每个适用的创意大小自动创建一个标记。
+>对于具有决策树定位的体验，[!DNL Creative]会为每个适用的创意大小或视频持续时间为每个语言自动创建一个标记。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
 
@@ -31,11 +31,11 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL Create Tag]**。
 
-1. 输入唯一的&#x200B;**[!UICONTROL Tag name]**&#x200B;并选择&#x200B;**[!UICONTROL Tag size]**。
+1. 输入唯一的&#x200B;**[!UICONTROL Tag name]**&#x200B;并选择（标准显示广告） **[!UICONTROL Tag size]**&#x200B;或（标准视频广告） **[!UICONTROL Duration]**。
 
-   体验的默认创意大小决定可用的创意大小。
+   体验的默认创意的大小或持续时间决定可用的创意大小或视频持续时间。
 
-   您可以为相同的创意大小创建多个标记。<!-- What are the implications? -->
+   您可以为相同的创意大小或持续时间创建多个标记。<!-- What are the implications? -->
 
 1. 单击&#x200B;**[!UICONTROL Create]**。
 

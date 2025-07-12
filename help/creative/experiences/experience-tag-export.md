@@ -3,9 +3,9 @@ title: 为实时体验导出和实施广告体验标记
 description: 了解如何导出广告体验标记并（可选）将其上传到Advertising DSP营销活动。
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 特定创意大小的广告标记可用于[实时](experience-about.md#experience-statuses)体验后，您便可以生成并复制JavaScript和iframe格式的标记，以便在Advertising DSP或其他DSP上实施。 DSP的标记包括DSP所需的所有宏。
 
-带有Advertising DSP的广告商可以选择将标记作为广告类型“标准显示”的广告直接上传到Advertising DSP促销活动。
+带有Advertising DSP的广告商可以选择将标记直接上传到Advertising DSP促销活动，作为广告类型为“标准显示”或“通用视频”的广告。
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ ht-degree: 0%
 
    * 在表格视图中，将光标悬停在行上，单击&#x200B;**[!UICONTROL More]**，然后单击&#x200B;**[!UICONTROL Tag Manager]**。
 
-1. 将光标悬停在适用的广告标记的行上，然后单击![导出广告标记](/help/creative/assets/export.png "导出广告标记") **[!UICONTROL Export ad tags]**&#x200B;或&#x200B;**[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**。
+1. 将光标悬停在适用的广告标记的行上，然后单击![导出广告标记](/help/creative/assets/export.png "导出广告标记") **[!UICONTROL Export ad tags]**&#x200B;或**[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**。
 
 >[!NOTE]
 >

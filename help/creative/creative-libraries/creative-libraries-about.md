@@ -3,9 +3,9 @@ title: 关于您的创意库
 description: 了解如何管理广告体验的创意。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: ad51a42c1aa7e713b1a4a90261c635b574068d29
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1388'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 #### 视频创意 {#creative-video-specs}
 
-您可以从设备或网络中上传视频创意。 每个标准视频广告体验都需要为分配给体验的每个创意大小提供一个默认视频创意。 DSP会自动将所有视频创意作为VAST 2.0标记进行转码，以便您进行预览。 在[!UICONTROL Tag Manager]中，您可以选择将[特定于发布者的转码](/help/creative/experiences/experience-tag-video-transcoding.md)应用于任何视频广告体验标记。
+您可以从设备或网络中为Web、移动或连接的电视上传第一方视频创意。 每个标准视频广告体验都需要为分配给体验的每个创意大小提供一个默认视频创意。 DSP会自动将所有视频创意作为VAST 2.0标记进行转码，以便您进行预览。 在[!UICONTROL Tag Manager]中，您可以选择将[特定于发布者的转码](/help/creative/experiences/experience-tag-video-transcoding.md)应用于任何视频广告体验标记。
 
 请参阅以下视频创作要求。
 

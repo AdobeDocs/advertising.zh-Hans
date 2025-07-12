@@ -2,9 +2,10 @@
 title: 自定义视频广告体验标记的转码选项
 description: 了解如何自定义视频广告标记的转码选项。
 feature: Creative Experiences
-source-git-commit: b67bb63fd5f87e6bd900aa5d957973d11355280c
+exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *已关闭的测试版*
 
-您可以为视频广告体验自定义转码选项。
+您可以为视频广告体验自定义转码选项，以确保跨发布者的快速播放和质量控制。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
 
@@ -28,4 +29,3 @@ ht-degree: 0%
 1. 在&#x200B;**[!UICONTROL Publisher specific transcodes]**&#x200B;列表中，选择转码类型。
 
 1. 单击&#x200B;**[!UICONTROL Save Settings]**。
-
