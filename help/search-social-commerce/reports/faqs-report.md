@@ -3,7 +3,7 @@ title: 关于自定义报表的常见问题解答
 description: 了解有关性能报表的常见问题解答，包括数据问题疑难解答。
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: c0f8f8c2886ea821dd7705446a727054b66ad3bc
+source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 ## 一般问题
 
 +++如果报表的日期范围在报表数据可用之前开始，该怎么办？
-会生成报告，但其中仅包含可用日期的数据。 有关何时数据可用于每种报表类型的详细信息，请参阅“[用于报表的数据](data-used-for-reports.md)”。
+会生成报告，但其中仅包含可用日期的数据。 有关每个报表类型何时有可用数据的详细信息，请参阅“[用于报表的数据](data-used-for-reports.md)”。
 +++
 
 +++基于点击日期和基于交易日期的报表之间有何区别？
@@ -31,11 +31,11 @@ ht-degree: 0%
 
 广告商的[点击回顾窗口](/help/search-social-commerce/glossary.md#c-d)和[展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)将分别确定付费点击或展示展示发生后（事件可归因于转化）的天数。 将值更改为更长或更短的时段对于点击收入或显示展示收入时段的广告商可能很重要。
 
-**最佳实践：**&#x200B;确保回顾时间范围比大多数关键词或广告的点击收入时间和展示收入时间长。 如果转换时间较短，则某些转化不会与初始点击或展示关联。
+**最佳实践：**确保回顾时间范围比大多数关键词或广告的点击收入时间和展示收入时间长。 如果转换时间较短，则某些转化不会与初始点击或展示关联。
 +++
 
 +++如何知道[!DNL Google Ads]广告扩展或产品列表产生了哪些转化？
-您可以通过生成[!UICONTROL Transaction Report]来查看哪些转化是由于单击[!DNL Google Ads]广告扩展（而不是广告本身）或产品列表导致的。 [!UICONTROL Link Type]列值显示所点击链接的类型和标题：
+您可以通过生成[!DNL Google Ads]来查看哪些转化是由于单击[!UICONTROL Transaction Report]广告扩展（而不是广告本身）或产品列表导致的。 [!UICONTROL Link Type]列值显示所点击链接的类型和标题：
 
 * 产品清单列为`pla:<product ID>`，如`pla:8525822`。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 +++我能否创建有关特定帐户属性指标（如[!UICONTROL Device]或[!UICONTROL Objective Name]）的报告？
 对于营销活动实体报表（[!UICONTROL Campaign Report]、[!UICONTROL Ad Group Report]、[!UICONTROL Ad Variation Report]、[!UICONTROL Keyword Report]和[!UICONTROL Product Group Report]），量度数据由您在报表中包含的属性列动态聚合。 您可以选择删除报表的键列，并仅包括要为其聚合数据的属性列。
 
-例如，如果您生成包含[!UICONTROL Ad Group]和设备列的[!UICONTROL Keyword Report]，则默认情况下，报告会按广告组和设备类型汇总每个关键字的量度。 但是，如果您在生成报告之前删除了[!UICONTROL Keyword]列，则报告会按设备类型动态地为指定的广告组生成量度。
+例如，如果您生成包含[!UICONTROL Keyword Report]和[!UICONTROL Ad Group]设备列的，则默认情况下，报告会按广告组和设备类型汇总每个关键字的量度。 但是，如果您在生成报告之前删除了[!UICONTROL Keyword]列，则报告会按设备类型动态地为指定的广告组生成量度。
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 * 项目组合过滤器选择排除了一些导致转化的事件。
 
-  如果您报告项目组合的子集，则可能不包括包含根据某个归因规则将转化归因到的事件的营销活动。 例如，假设用户从Portfolio_1单击Keyword_1，从Portfolio_2单击Keyword_2，然后转换。 如果报表使用“[!UICONTROL First Event]”归因规则，则必须包含Portfolio1才能将转化包含在报表中。 但是，如果报表使用“上次Portfolio”归因规则，则必须包含Event_2。
+  如果您报告项目组合的子集，则可能不包括包含根据某个归因规则将转化归因到的事件的营销活动。 例如，假设用户从Portfolio_1单击Keyword_1，从Portfolio_2单击Keyword_2，然后进行转换。 如果报表使用“[!UICONTROL First Event]”归因规则，则必须包含Portfolio_1才能将转化包含在报表中。 但是，如果报表使用“Last Event”归因规则，则必须包含Portfolio_2。
 
 >[!TIP]
 >
@@ -92,13 +92,13 @@ ht-degree: 0%
 +++尽管总计正确无误，但个别数据字段仍然不正确。
 当量度格式使用整数时，可能会出现这种情况：
 
-* 如果您创建格式为&#x200B;*没有小数点的数字*&#x200B;的[自定义量度](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)（将数据显示为整数），并将其包含在使用加权转化归因规则（[!UICONTROL Weight First Event More]、[!UICONTROL Weight Last Event More]或[!UICONTROL Even Distribution]）的视图或报表中，则输出将以整数而不是小数形式显示。 在这种情况下，单个数据字段可能不正确，尽管总数正确。 例如，如果某个顺序在三个事件之间平均分配，则三个事件的每个都会获得一个顺序（而不是0.33顺序）。 要解决此问题，[将度量格式](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)更改为&#x200B;*数字为2小数点*。
+* 如果您创建格式为[没有小数点的数字](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)的&#x200B;*自定义量度*（将数据显示为整数），并将其包含在使用加权转化归因规则（[!UICONTROL Weight First Event More]、[!UICONTROL Weight Last Event More]或[!UICONTROL Even Distribution]）的视图或报表中，则输出将以整数而不是小数形式显示。 在这种情况下，单个数据字段可能不正确，尽管总数正确。 例如，如果某个顺序在三个事件之间平均分配，则三个事件的每个都会获得一个顺序（而不是0.33顺序）。 要解决此问题，[将度量格式](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)更改为&#x200B;*数字为2小数点*。
 
 * 同样，如果您有一个收入量度以整数形式发送，则会出现同样的问题。 （收入格式由提交数据的转化标记控制。） 要解决此问题，[创建一个自定义量度](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)，该量度仅由收入量度组成，格式为&#x200B;*数值到2小数点*，并将其包含在视图和报表中，而不是原始量度。
 +++
 
 +++当点击或收入数据缺失时，我如何防止它影响将来的竞价？
-当Search、Social和Commerce与广告网络不同步时，会发生点击数据问题。 请与您的Adobe帐户团队联系，以手动同步帐户。 如果一整天的点击数据缺失，请让您的Adobe客户团队将该天排除在成本模型之外。
+当Search、Social和Commerce与广告网络不同步时，会发生点击数据问题。 请联系您的Adobe帐户团队以手动同步该帐户。 如果整天的点击数据缺失，请让您的Adobe客户团队将该天排除在成本模型之外。
 
 由于跟踪或信息源文件问题，可能会出现收入数据问题。 请联系您的Adobe客户团队以调查此问题。 如果缺少一整天的收入数据，请让您的Adobe客户团队从收入模型中排除该天。
 +++
@@ -128,7 +128,7 @@ ht-degree: 0%
 +++
 
 +++性能数据不同于广告网络编辑器中的数据。
-当广告网络发送对先前数据的更新（通常是因为他们将点击欺诈归因于某些点击）时，搜索、社交和Commerce不会更新数据，除非存在超过5%的差异并且Adobe帐户团队提交了请求。
+当广告网络发送对先前数据的更新（通常是因为他们将点击欺诈归因于某些点击）时，搜索、社交和Commerce不会更新数据，除非存在超过5%的差异并且Adobe客户团队提交了请求。
 
 此外，在比较某个日期范围内汇总的展示共享数据时，“搜索”、“社交”和“Commerce”报表的数据可能与广告网络报表的数据不同。 造成这种差异的原因在于广告网络的API报告数据的方式， Search、Social和Commerce使用该API来提取数据。 例如，对于[!DNL Google Ads]数据：
 
@@ -171,9 +171,9 @@ ht-degree: 0%
 
 1. 验证报表或数据视图中是否包含正确的列。 如果无法添加正确的列，则您或您的Adobe帐户团队必须[使转化指标可用于报表](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)。
 
-1. 验证是否在所有适用的网页上实施了正确的转化跟踪标记。 如有必要，请让您的Adobe客户团队为每个适用的转化跟踪标记创建一个测试事务，并从Cookie中捕获事务的详细信息（如`transactionid`和详细信息，如`trackingid`、`clickid`等）。
+1. 验证是否在所有适用的网页上实施了正确的转化跟踪标记。 如有必要，请让您的Adobe客户团队为每个适用的转化跟踪标记创建一个测试交易，并从Cookie中捕获交易的详细信息（如`transactionid`和详细信息，如`trackingid`、`clickid`等）。
 
-1. 如果为营销活动禁用了[!UICONTROL Auto Upload]选项，并且您已添加关键词或广告，请确保已生成跟踪模板或目标URL，其中包含“搜索”、“社交”和“Commerce”的每次点击重定向跟踪。 您的Adobe帐户团队可以运行内部报表，以查看是否有任何点击跟踪URL（跟踪模板或目标URL）缺失或格式不正确。
+1. 如果为营销活动禁用了[!UICONTROL Auto Upload]选项，并且您已添加关键词或广告，请确保已生成跟踪模板或目标URL，其中包含“搜索”、“社交”和“Commerce”的每次点击重定向跟踪。 Adobe帐户团队可以运行内部报表，以查看是否有任何点击跟踪URL（跟踪模板或目标URL）缺失或格式不正确。
 
    如有必要，请使用正确的URL创建批量工作表文件来生成跟踪，并使用&#x200B;**生成跟踪URL**&#x200B;选项将文件发布到相应的帐户。
 
@@ -230,9 +230,9 @@ ht-degree: 0%
 
 1. 转到&#x200B;**[!UICONTROL Insights & Reports]>[!UICONTROL Reports]**&#x200B;并生成[!UICONTROL Transaction Report]。 将Search、Social和Commerce收到的交易与广告商的数据进行比较。
 
-1. 如果某些事务不正确或缺少某些事务，请确保在所有适用的网页上实施了相关的转化跟踪标记，并且除非您的Adobe帐户团队建议您这样做，否则不会进行编辑。 如果最近更新了网站，则标记可能会丢失或发生更改。
+1. 如果某些事务不正确或缺少某些事务，请确保在所有适用的网页上实施了相关的转化跟踪标记，并且除非您的Adobe客户团队建议您这样做，否则不会进行编辑。 如果最近更新了网站，则标记可能会丢失或发生更改。
 
-   Search、Social和Commerce需要在`ef_transaction_properties`变量中和`img`标记的`src`元素内有格式正确的URL（具有名称 — 值对中的参数）。
+   Search、Social和Commerce需要在`ef_transaction_properties`变量中和`src`标记的`img`元素内有格式正确的URL（具有名称 — 值对中的参数）。
 
 1. 如果无法确定并无法解决问题，请[联系客户关怀团队](/help/search-social-commerce/get-help.md)。
 
@@ -294,13 +294,13 @@ ht-degree: 0%
 +++
 
 +++收入数据不同于Adobe Analytics中的数据
-请参阅[https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=zh-Hans](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=zh-Hans).<!-- change link URL to relative link -->
+请参阅[https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html).<!-- change link URL to relative link -->
 +++
 
 ## 特定报告
 
 +++[!UICONTROL Portfolio Report]是否应该显示与[!UICONTROL Portfolios]视图相同的数字？
-当视图、报表参数以及视图和报表的数据列的所有筛选器都相同时，[!UICONTROL Portfolio Report]和[!UICONTROL Portfolios]视图显示相同的数据。 例如，如果[!UICONTROL Portfolios]视图显示的项目组合在日期范围“[!UICONTROL Last 7 days]”为“[!UICONTROL All but inactive]”且只显示默认数据列，则使用默认参数的[!UICONTROL Portfolio Report]会显示相同的数据。 如果您在[!UICONTROL Portfolios]视图中更改了任何报表参数或使用不同的筛选器，则数据值可能会不同。
+当视图、报表参数以及视图和报表的数据列的所有筛选器都相同时，[!UICONTROL Portfolio Report]和[!UICONTROL Portfolios]视图显示相同的数据。 例如，如果[!UICONTROL Portfolios]视图显示的项目组合在日期范围“[!UICONTROL All but inactive]”为“[!UICONTROL Last 7 days]”且只显示默认数据列，则使用默认参数的[!UICONTROL Portfolio Report]会显示相同的数据。 如果您在[!UICONTROL Portfolios]视图中更改了任何报表参数或使用不同的筛选器，则数据值可能会不同。
 +++
 
 +++我的[!UICONTROL Portfolio Report]中的数据与我的[!UICONTROL Search Engine Report]或[!UICONTROL Search Engine Account Report]中的数据不匹配。
@@ -308,15 +308,15 @@ ht-degree: 0%
 +++
 
 +++[!UICONTROL Model Accuracy] > [!UICONTROL Forecast Accuracy Report]与项目组合级别[!UICONTROL Model Accuracy Report]有何不同？
-(仅限代理客户经理、Adobe客户经理和管理员用户)从[!UICONTROL Reports] > [!UICONTROL Model Accuracy]中提供的[!UICONTROL Forecast Accuracy Report]与项目组合级别[!UICONTROL Model Accuracy Report]提供相同数据，只不过您可以跨多个项目组合运行该数据集并更改归因规则。 您还可以使用自定义参数运行和计划报表，并使用该报表创建电子表格馈送。 此外，[!UICONTROL Forecast Accuracy Report]比旧版项目组合级别报表更准确，因为它使用项目组合的历史目标而不是当前目标评估收入准确性，并且它更准确地表示适用时区的数据。
+(仅限代理客户经理、Adobe客户经理和管理员用户)从[!UICONTROL Forecast Accuracy Report] > [!UICONTROL Reports]中可用的[!UICONTROL Model Accuracy]与项目组合级别[!UICONTROL Model Accuracy Report]提供相同数据，只是您可以跨多个项目组合运行它并更改归因规则。 您还可以使用自定义参数运行和计划报表，并使用该报表创建电子表格馈送。 此外，[!UICONTROL Forecast Accuracy Report]比旧版项目组合级别报表更准确，因为它使用项目组合的历史目标而不是当前目标评估收入准确性，并且它更准确地表示适用时区的数据。
 +++
 
 +++广告级别的数据不适用于[!DNL Google Ads]动态搜索广告(DSA)、最佳效果、智能购物和[!DNL YouTube]营销活动。
 广告网络不提供将收入归因于这些促销活动的单个广告所需的标识符。 因此，广告级别的效果数据对于[!UICONTROL Ads]视图或[!UICONTROL Ad Variation Report]中的这些营销活动类型不可用。 预计营销活动的广告级别数据总数与营销活动数据总数之间存在差异。
 +++
 
-+++在[!UICONTROL Transaction Report]中，如何知道哪个转化指标来自数据馈送或被Adobe Advertising跟踪像素跟踪？
-在交易报表中，如果包含自定义列“[!UICONTROL Tracking URL]”，则可以判断所包含的转化指标是否被Adobe Advertising跟踪像素跟踪。 以“`http://pixel.everesttech.net`”开头的Adobe Advertising跟踪像素跟踪URL。
++++在[!UICONTROL Transaction Report]中，如何知道哪个转化量度来自数据馈送或被Adobe Advertising跟踪像素跟踪？
+在交易报表中，如果您包含自定义列“[!UICONTROL Tracking URL]”，则可以判断所包含的转化量度是否被Adobe Advertising跟踪像素跟踪。 使用Adobe Advertising跟踪像素跟踪URL以“`http://pixel.everesttech.net`”开头。
 +++
 
 +++我的[!UICONTROL Transaction Report]中的数据与我的[!UICONTROL Keyword Report]中的数据不匹配。

@@ -4,7 +4,7 @@ user-guide-title: Advertising 搜索、社交和 Commerce 指南
 user-guide-description: 本指南阐述管理、跟踪和报告搜索、社交和商业广告营销活动所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: Advertising 搜索、社交和 Commerce 指南
 index: true
-source-git-commit: 9d92118fceb26d71a5909f66ae6e382616a5e098
+source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
 workflow-type: tm+mt
 source-wordcount: '1746'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
    + [支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)
    + 与Adobe Experience Cloud集成 {#integrations}
       + [与Adobe Experience Cloud解决方案和服务集成](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] （链接）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hans){target="_blank"}
-      + [与Adobe Audience Manager集成（链接）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=zh-Hans){target="_blank"}
-   + [消费者隐私支持（链接）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans){target="_blank"}
-   + [策略和指南（链接）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=zh-Hans){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising] （链接）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [与Adobe Audience Manager集成（链接）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [消费者隐私支持（链接）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [策略和指南（链接）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + 快速入门 {#getting-started}
    + [实施概述](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [系统要求](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -81,7 +81,7 @@ ht-degree: 2%
             + [ [!DNL Yahoo! Japan Ads]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [ [!DNL Yandex]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [点击跟踪URL的可选跟踪参数](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertising Cookie（链接）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=zh-Hans){target="_blank"}
+      + [Adobe Advertising Cookie（链接）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [AMO ID (s_kwcid)跟踪参数](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + 转化跟踪 {#conversion-tracking}
       + [转化跟踪选项](/help/search-social-commerce/tracking/conversion-tracking-about.md)
@@ -178,7 +178,7 @@ ht-degree: 2%
          + 受众和受众目标 {#audiences-and-targets}
             + 受众 {#audiences}
                + [关于受众](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
-               + [创建来自 [!DNL Adobe] 受众的 [!DNL Google Ads] 客户匹配受众](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)
+               + [创建来自 [!DNL Google Ads] 受众的 [!DNL Adobe] 客户匹配受众](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)
                + [从Adobe Campaign电子邮件列表创建 [!DNL Google Ads] 客户匹配受众](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md)
                + [使用客户数据列表管理客户匹配受众](/help/search-social-commerce/campaign-management/campaigns/audience-from-customer-data-list.md)
                + [管理动态二次营销受众](/help/search-social-commerce/campaign-management/campaigns/audience-dynamic-remarketing-manage.md)
@@ -393,7 +393,7 @@ ht-degree: 2%
       + [上载 [!DNL Naver] 仅跟踪帐户的流量和转化指标](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
       + [ [!DNL Naver] 仅跟踪帐户的量度数据要求](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
    + [启用其他库存同步](/help/search-social-commerce/tools/sync-inventory.md)
-   + [复制 [!DNL Microsoft Advertising]中的 [!DNL Google Ads] 营销活动](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md)
+   + [复制 [!DNL Google Ads] 中的 [!DNL Microsoft Advertising]营销活动](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md)
 + 管理 {#admin}
    + [关于角色](/help/search-social-commerce/admin/role-about.md)
    + [管理广告网络管理器帐户的凭据](/help/search-social-commerce/admin/manager-accounts.md)
