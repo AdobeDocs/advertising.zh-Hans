@@ -3,9 +3,9 @@ title: 从项目组合中删除营销活动
 description: 了解如何从项目组合中删除营销活动。
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: a71f2daded3b7c32b8c30a4631eba8c2dbda3a17
+source-git-commit: 868e4090c164df353d4e510fb972b0ea1f1daa82
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 0%
 
 1. 在数据表上方的工具栏中，单击![编辑](/help/search-social-commerce/assets/edit.png "编辑") **[!UICONTROL Edit]**。
 
-1. 在项目组合设置<!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)-->中，转到[!UICONTROL Assign Campaigns]部分并更改营销活动分配。
+1. 在项目组合设置中，转到[!UICONTROL Assign Campaigns]部分并更改营销活动分配。
+
+   有关项目组合设置的更多信息，请参阅可在搜索、社交和Commerce中找到的“优化指南” 。
 
 1. 单击&#x200B;**[!UICONTROL Review and Save]**。
 
@@ -34,7 +36,7 @@ ht-degree: 0%
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**，然后找到项目组合。
 
-   您可以通过选择项目组合组或[!UICONTROL Ungrouped Portfolios]节点，从左侧面板中的[!UICONTROL Portfolios]菜单筛选项目组合列表。
+   您可以通过选择项目组合组或[!UICONTROL Portfolios]节点，从左侧面板中的[!UICONTROL Ungrouped Portfolios]菜单筛选项目组合列表。
 
 1. 在项目组合名称旁边，单击![查看/编辑设置按钮](/help/search-social-commerce/assets/settings.png "查看/编辑设置按钮") 。
 
