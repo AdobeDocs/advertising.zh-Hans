@@ -64,6 +64,6 @@ ht-degree: 0%
 
 [^2]：请参阅“[竞价策略优化支持](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)”以了解详情。
 
-[^3]：需要与Adobe Analytics集成。 请参阅“[Analytics for Adobe Advertising概述](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)”。
+[^3]：需要与Adobe Analytics集成。 请参阅“[Analytics for Adobe Advertising概述](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hans)”。
 
 [^4]：使用升级的AMO ID跟踪参数（从[!DNL Analytics]开始）将`s_kwcid`数据发送到Search、Social和Commerce，无论您通常用于帐户的AMO ID格式如何。 如果您通常使用旧版本的AMO ID，我们建议您升级到新的AMO ID格式以获得最佳体验。 但是，即使使用不同的AMO ID跟踪您的点击/成本数据和收入数据，两组数据仍会在同一促销活动和帐户下完全分类和汇总。
