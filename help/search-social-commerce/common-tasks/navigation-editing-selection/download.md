@@ -3,14 +3,14 @@ title: 从营销活动管理视图下载数据
 description: 了解如何从大多数营销活动管理视图下载数据。
 exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
+source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
 
-# 从营销活动管理视图下载数据
+# （旧版UI）从营销活动管理视图下载数据
 
 *旧版用户界面*
 
@@ -23,6 +23,10 @@ ht-degree: 0%
   如果您为多个营销活动生成数据，且组合数据包含超过500,000行，则根据需要，营销活动会进一步将数据拆分为两个或多个名为`<bulksheet name>_1.txt`、`<bulksheet name>_2.txt`等的文件。
 
   [!UICONTROL Downloads]面板中的每个批量处理工作表文件也在[!UICONTROL Bulksheets]视图中列出。 创建文件时，您会收到电子邮件通知，其中包含下载文件的链接；根据编译的数据量，通知可能需要几分钟或更长时间。 但是，如果文件生成失败，则“批量处理工作表”视图上会列出一个错误文件，并且您会收到一封电子邮件通知，其中包含指向错误文件的链接。 从[!UICONTROL Download]面板或[!UICONTROL Bulksheets]选项卡中删除批量处理工作表文件会同时将其从这两个位置删除。
+
+>[!NOTE]
+>
+>另请参阅有关从“[[!UICONTROL Portfolios]视图](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)”、“[[!UICONTROL Campaigns]视图](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)”和“[[!UICONTROL Ad Groups]视图](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)”下载新用户界面中数据的帮助。
 
 1. （可选）选择要包含在文件中的单个行。
 
@@ -42,4 +46,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->[从[!UICONTROL Downloads]菜单删除性能数据报告或批量处理工作表文件](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+>* [（旧版UI）从[!UICONTROL Downloads]菜单删除性能数据报告或批量处理工作表文件](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+>* [（新UI）从[!UICONTROL Portfolios]视图](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)管理数据视图报告
+>* [（新UI）从[!UICONTROL Campaigns]视图](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)管理数据视图报告
+>* [（新UI）从[!UICONTROL Ad Groups]视图](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)管理数据视图报告
