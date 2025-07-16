@@ -3,9 +3,9 @@ title: 预览创意
 description: 了解如何打开创意内容的预览。
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: 5d1b39f2a0602d4492d468520a946d86ceae16ed
+source-git-commit: e70ea2b9fb0e8338d5a9e4680d79e9f3e436eef6
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,21 @@ ht-degree: 0%
 
    * 在表视图中，将光标悬停在行上并单击&#x200B;**[!UICONTROL Preview]**。
 
-1. （可选）要调整屏幕中图像的大小，请在&#x200B;**[!UICONTROL Zoom]**&#x200B;列表中选择一个选项，其范围为图像大小的10%到100%。
+1. （可用时可选）要在屏幕中调整图像大小，请在&#x200B;**[!UICONTROL Zoom]**&#x200B;列表中选择一个选项，其范围为图像大小的10%到100%。
 
 1. (灵活的HTML5创意；可选)要在创作的框架之间滚动，请单击&#x200B;**\&lt;**&#x200B;和&#x200B;**\>**。
 
-1. （可选）要打开创意的登陆页面，请单击创意内容。
+1. （视频创意；可选）使用创意下的控件执行以下任何操作：
+
+   * 播放或停止视频。
+
+   * 将声音静音或取消静音。
+
+   * 以全屏模式打开视频，然后退出全屏模式。
+
+   * 从[!UICONTROL More Options]下载视频、更改播放速度或更改为画中画。
+
+1. （可选；非视频创意）要打开创作的登陆页面，请单击创意。
 
    <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
