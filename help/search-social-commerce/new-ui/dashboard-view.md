@@ -3,7 +3,8 @@ title: （新UI）查看您的性能仪表板
 description: 了解您的性能仪表板中可用的数据。
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
+source-git-commit: 7065a4051449dc5834e5bca950f9c4aca36b9000
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -13,8 +14,6 @@ ht-degree: 0%
 # （新UI）查看您的性能仪表板
 
 *Beta功能*
-
-<!-- See wiki pageId=3404513731 for more things that may be added -->
 
 可自定义的[!UICONTROL Dashboard]允许您监视所有项目组合<!-- May later include other entity-level data -->的性能，以便识别要调查和解决的潜在性能问题。 您可以查看过去90天内任何时间段的每日、每周或每月数据。
 
@@ -57,4 +56,3 @@ ht-degree: 0%
    * 更改报告的量度（[!UICONTROL Cost] \[默认选择\]、[!UICONTROL Clicks]或[!UICONTROL Objective Value]）。
 
    * 要打开[!UICONTROL Portfolios]视图，请单击图表右下角的&#x200B;**[!UICONTROL View More]**。<!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->
-
