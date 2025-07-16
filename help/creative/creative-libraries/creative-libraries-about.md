@@ -3,7 +3,7 @@ title: 关于您的创意库
 description: 了解如何管理广告体验的创意。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
+source-git-commit: 85f89ef480ee938c7dbac0f3a1d5b9a5db0bef8f
 workflow-type: tm+mt
 source-wordcount: '1388'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 >
 >* 即使您打算将HTML5、弹性HTML5或第三方创意用于标准显示广告体验，您还必须为您使用的每个创意大小添加图像创意。
 >* 每个标准显示体验都需要为分配给体验的每个创意大小提供一个默认图像创意。 当浏览器未启用JavaScript或广告服务器由于延迟而无法个性化广告时，可以使用默认图像创意。
->* 每个标准视频体验都需要为分配给该体验的每个创意大小提供一个默认视频创意。<!-- when is it used? -->
+>* 每个标准视频体验都需要为分配给该体验的每个创意持续时间提供一个默认视频创意。<!-- when is it used? -->
 
 #### 灵活的HTML5
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 #### 视频创意 {#creative-video-specs}
 
-您可以从设备或网络中为Web、移动或连接的电视上传第一方视频创意。 每个标准视频广告体验都需要为分配给体验的每个创意大小提供一个默认视频创意。 DSP会自动将所有视频创意作为VAST 2.0标记进行转码，以便您进行预览。 在[!UICONTROL Tag Manager]中，您可以选择将[特定于发布者的转码](/help/creative/experiences/experience-tag-video-transcoding.md)应用于任何视频广告体验标记。
+您可以从设备或网络中为Web、移动或连接的电视上传第一方视频创意。 每个标准视频广告体验都需要为分配给体验的每个创意持续时间提供一个默认视频创意。 DSP会自动将所有视频创意作为VAST 2.0标记进行转码，以便您进行预览。 在[!UICONTROL Tag Manager]中，您可以选择将[特定于发布者的转码](/help/creative/experiences/experience-tag-video-transcoding.md)应用于任何视频广告体验标记。
 
 请参阅以下视频创作要求。
 
