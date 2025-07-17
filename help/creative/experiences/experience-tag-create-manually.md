@@ -3,9 +3,9 @@ title: 为适用的创意大小手动创建广告标记
 description: 了解如何为特定创意大小创建广告标记。
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
+source-git-commit: e79becc860143b749ec96134e7b224649686c672
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 *仅针对没有决策树的体验*
 *已关闭的测试版*
 
-您可以为用于体验的每个创意大小或视频持续时间，针对每种语言创建一个或多个广告标记。 您可以稍后[将创意分配给广告标记](experience-tag-assign-creatives.md)。
+您可以为用于体验的每个创意大小（非视频创意）或视频持续时间，按语言创建一个或多个广告标记。 您可以稍后[将创意分配给广告标记](experience-tag-assign-creatives.md)。
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    您可以展开标记行以查看包含的创意。
 
-   对于视频广告体验，视频创意会在DSP中自动转码为VAST 2.0标记，以便您进行预览。 您可以选择应用[特定于发布者的转码](experience-tag-video-transcoding.md)。
+   对于视频广告体验，系统会使用Adobe Advertising DSP编码作为VAST 2.0标记自动对视频创意内容进行转码，以便您进行预览。 您可以选择为其他DSP[应用转码](experience-tag-video-transcoding.md)。
 
 >[!MORELIKETHIS]
 >

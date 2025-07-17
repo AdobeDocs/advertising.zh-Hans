@@ -3,9 +3,9 @@ title: 自定义视频广告体验标记的转码选项
 description: 了解如何自定义视频广告标记的转码选项。
 feature: Creative Experiences
 exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
-source-git-commit: b5d3a2d88eb49d975823dc7c4fe71cfa9ea3f231
+source-git-commit: 8f5740d1a90e505a16f69d566de13aefc1edf421
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 将光标悬停在适用的广告标记的行上，单击&#x200B;**[!UICONTROL More]**，然后单击&#x200B;**[!UICONTROL Video Settings]**。
 
-1. 在&#x200B;**[!UICONTROL Publisher specific transcodes]**&#x200B;列表中，选择转码类型。
+1. 在&#x200B;**[!UICONTROL Publisher-specific transcodes]**&#x200B;列表中，选择要应用其转码的DSP。
 
 1. 单击&#x200B;**[!UICONTROL Save Settings]**。
 
