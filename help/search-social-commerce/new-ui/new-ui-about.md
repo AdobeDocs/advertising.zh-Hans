@@ -2,9 +2,9 @@
 title: 关于新的用户界面
 description: 了解新的用户界面。
 feature: Search Introduction
-source-git-commit: 982b7b93a392029859be13ae59fb4b0b2fa69a59
+source-git-commit: 97c7776ab7dfacbb7ac4fdc038f25d4ced5b54e4
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,4 @@ ht-degree: 0%
 >
 >* [用户界面的组织方式](/help/search-social-commerce/getting-started/user-interface.md)
 >* [在新用户界面和旧用户界面之间切换](/help/search-social-commerce/getting-started/ui-switch.md)
+>* 有关“常见任务”的章节，以了解有关管理自定义视图和默认视图、查看其他广告商的数据、应用数据筛选器以及在新用户界面和旧用户界面中执行其他导航任务和数据相关任务的信息
