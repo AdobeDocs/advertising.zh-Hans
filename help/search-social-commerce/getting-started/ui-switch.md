@@ -3,7 +3,7 @@ title: 在新的和旧版用户界面之间切换
 description: 了解如何在新的和旧版用户界面之间切换。
 feature: Search Introduction
 exl-id: 4dbdbaa1-6b06-42a2-86da-feb0183f3c9a
-source-git-commit: 70c4b5633aaec148c68d7da0ac8fe926706eb660
+source-git-commit: 30c47defdd82e759f0e9025bf111faf0ee7dd707
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -20,13 +20,7 @@ ht-degree: 0%
 
 ## 从旧版UI切换到新UI
 
-* 单击任何页面顶部的&#x200B;**[!UICONTROL Try the new UI Beta]**。
-
-<!-- CHANGING ICON/location/wording WITH GA :
-
-* In the upper right of any page, click **[!UICONTROL Switch to New UI]**.
-
- -->
+* 单击任何页面顶部的&#x200B;**[!UICONTROL Switch to New UI]**。
 
 >[!MORELIKETHIS]
 >
