@@ -3,9 +3,10 @@ title: （新UI）创建目标
 description: 了解如何创建目标。
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 21516197-d005-4703-8735-c789107dc3c4
+source-git-commit: 51bfb0b54af6e770df809ccd799ef47b9b4669b9
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,9 @@ ht-degree: 0%
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Plan]>[!UICONTROL Objectives]**。
 
-1. 单击右上角的![添加](/help/search-social-commerce/assets/add-new.png "添加")。
+1. 单击右上角的&#x200B;**[!UICONTROL Create Objective]**&#x200B;或![添加](/help/search-social-commerce/assets/add-new.png "添加")。
+
+   显示的按钮取决于浏览器宽度。
 
 1. 输入目标设置。
 

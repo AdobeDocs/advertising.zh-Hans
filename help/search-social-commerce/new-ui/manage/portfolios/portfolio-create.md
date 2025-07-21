@@ -3,9 +3,10 @@ title: （新UI）创建项目组合
 description: 了解如何创建项目组合。
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: f7fe6138-8335-407a-88fd-f0ace27c93ee
+source-git-commit: 51bfb0b54af6e770df809ccd799ef47b9b4669b9
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,9 @@ ht-degree: 0%
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Portfolios]**。
 
-1. 在数据表上方的工具栏中，单击![添加](/help/search-social-commerce/assets/add-new.png "添加")。
+1. 在数据表上方的工具栏中，单击&#x200B;**[!UICONTROL Create Portfolio]**&#x200B;或![添加](/help/search-social-commerce/assets/add-new.png "添加")。
+
+   显示的按钮取决于浏览器宽度。
 
 1. 指定项目组合设置。
 
