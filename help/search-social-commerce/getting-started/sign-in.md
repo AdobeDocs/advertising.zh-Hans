@@ -3,9 +3,9 @@ title: 登录
 description: 了解登录方式。
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 34da93ceb0004804a6c0106e31f6ce6c64ee1dec
+source-git-commit: 5f1e8009620277884664d0cb88265b317de93393
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Search、Social和Commerce正在过渡到Adobe Identity Management服务(IMS)以
 
 您当前的搜索、社交和Commerce凭据将在2025年7月21日之前保持活动状态，以便您能够为更改做好准备。
 
-有关Experience Cloud界面（包括管理用户配置文件）的更多信息，请参阅“[Experience Cloud界面和管理](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/experience-cloud)”。
+有关Experience Cloud界面（包括管理用户配置文件）的更多信息，请参阅“[Experience Cloud界面和管理](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)”。
 
 ## 从旧版“搜索、社交和Commerce”登录页面登录
 
@@ -40,7 +40,7 @@ Search、Social和Commerce正在过渡到Adobe Identity Management服务(IMS)以
 
 1. 输入您的[!DNL Adobe] ID，然后单击&#x200B;**[!UICONTROL Continue]**。
 
-1. 如果出现提示，请选择&#x200B;**个人帐户”或&#x200B;**&#x200B;公司或学校帐户**。<!-- Will it necessarily be "Company or School Account?" -->
+1. 如果出现提示，请选择**[!UICONTROL Personal Account]”或&#x200B;**[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    默认情况下，将打开新的用户界面。
 
@@ -54,7 +54,7 @@ Search、Social和Commerce正在过渡到Adobe Identity Management服务(IMS)以
 
 1. 输入您的[!DNL Adobe] ID，然后单击&#x200B;**[!UICONTROL Continue]**..
 
-1. 如果出现提示，请选择&#x200B;**个人帐户”或&#x200B;**&#x200B;公司或学校帐户**。<!-- Will it necessarily be "Company or School Account?" -->
+1. 如果出现提示，请选择**[!UICONTROL Personal Account]”或&#x200B;**[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
 1. 在主页的[!UICONTROL Quick Access]部分中，单击&#x200B;**[!UICONTROL Advertising Search, Social, & Commerce]**。
 
