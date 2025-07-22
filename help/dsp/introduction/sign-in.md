@@ -3,7 +3,7 @@ title: 登录到DSP
 description: 了解如何登录到DSP。
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: f81a6d9b9df17540e27681218483acc30b5724a6
+source-git-commit: 414bc93bc4a550f918742bd55d1078d36440063d
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Adobe Advertising DSP正在过渡到Adobe Identity Management服务(IMS)以进�
 
 * 您可以保持24小时的登录状态，而不是每小时登录一次。
 
-您当前的DSP凭据将在2025年7月15日之前保持活动状态，以便您能够为更改做好准备。
+您当前的DSP凭据将在短时间内保持活动状态，以便您能够为更改做好准备。
 
 ## 使用旧版DSP登录进行身份验证
 
@@ -42,15 +42,15 @@ Adobe Advertising DSP正在过渡到Adobe Identity Management服务(IMS)以进�
 
 1. 选择您的组织：
 
-   * 如果出现提示，请选择&#x200B;**[!UICONTROL Personal Account]”或&#x200B;**&#x200B;[!UICONTROL Company or School Account]**。
+   * 如果出现提示，请选择**[!UICONTROL Personal Account]”或&#x200B;**[!UICONTROL Company or School Account]**。
 
    * 如果您有权访问多个IMS组织，请选择正确的IMS组织。
 
-有关Experience Cloud界面（包括管理用户配置文件）的更多信息，请参阅“[Experience Cloud界面和管理](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/experience-cloud)”。
+有关Experience Cloud界面（包括管理用户配置文件）的更多信息，请参阅“[Experience Cloud界面和管理](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)”。
 
 ### 故障排除
 
-有关一般登录问题，另请参阅“[解决Adobe帐户登录问题](https://helpx.adobe.com/cn/manage-account/kb/account-password-sign-help.linkfree.html)”。
+有关一般登录问题，另请参阅“[解决Adobe帐户登录问题](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)”。
 
 #### 启用新的[!DNL Adobe] IMS登录是否存在任何先决条件？
 
