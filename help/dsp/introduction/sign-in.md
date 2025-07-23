@@ -3,16 +3,16 @@ title: 登录到DSP
 description: 了解如何登录到DSP。
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: 414bc93bc4a550f918742bd55d1078d36440063d
+source-git-commit: 62430015c5252cdd1418000d05e49a1c7869e09e
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
 
 # 登录到Adobe Advertising DSP
 
-Adobe Advertising DSP正在过渡到Adobe Identity Management服务(IMS)以进行登录身份验证。 IMS提供对支持IMS的所有[!DNL Adobe]产品(包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics)的单一登录(SSO)访问权限。 更改后：
+Adobe Advertising DSP正在过渡到Adobe Identity Management服务(IMS)以进行登录身份验证。 IMS使用联合ID为支持IMS的所有[!DNL Adobe]产品(包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics)提供单点登录(SSO)访问。 更改后：
 
 * 您可以使用一个[!DNL Adobe ID]从Experience Cloud登录页面或旧版DSP登录页面跨[!DNL Adobe]产品登录。 您的[!DNL Adobe ID]提供用户配置文件管理。 在将来的版本中，您将能够从顶部菜单中更改DSP帐户、IMS组织帐户和[!DNL Adobe]产品。
 
@@ -42,15 +42,15 @@ Adobe Advertising DSP正在过渡到Adobe Identity Management服务(IMS)以进�
 
 1. 选择您的组织：
 
-   * 如果出现提示，请选择&#x200B;**[!UICONTROL Personal Account]”或&#x200B;**&#x200B;[!UICONTROL Company or School Account]**。
+   * 如果出现提示，请选择**[!UICONTROL Personal Account]”或&#x200B;**[!UICONTROL Company or School Account]**。
 
    * 如果您有权访问多个IMS组织，请选择正确的IMS组织。
 
-有关Experience Cloud界面（包括管理用户配置文件）的更多信息，请参阅“[Experience Cloud界面和管理](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/experience-cloud)”。
+有关Experience Cloud界面（包括管理用户配置文件）的更多信息，请参阅“[Experience Cloud界面和管理](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)”。
 
 ### 故障排除
 
-有关一般登录问题，另请参阅“[解决Adobe帐户登录问题](https://helpx.adobe.com/cn/manage-account/kb/account-password-sign-help.linkfree.html)”。
+有关一般登录问题，另请参阅“[解决Adobe帐户登录问题](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)”。
 
 #### 启用新的[!DNL Adobe] IMS登录是否存在任何先决条件？
 
