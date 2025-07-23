@@ -46,11 +46,11 @@ Adobe Advertising DSP正在过渡到Adobe Identity Management服务(IMS)以进�
 
    * 如果您有权访问多个IMS组织，请选择正确的IMS组织。
 
-有关Experience Cloud界面（包括管理用户配置文件）的更多信息，请参阅“[Experience Cloud界面和管理](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)”。
+有关Experience Cloud界面（包括管理用户配置文件）的更多信息，请参阅“[Experience Cloud界面和管理](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/experience-cloud)”。
 
 ### 故障排除
 
-有关一般登录问题，另请参阅“[解决Adobe帐户登录问题](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)”。
+有关一般登录问题，另请参阅“[解决Adobe帐户登录问题](https://helpx.adobe.com/cn/manage-account/kb/account-password-sign-help.linkfree.html)”。
 
 #### 启用新的[!DNL Adobe] IMS登录是否存在任何先决条件？
 
