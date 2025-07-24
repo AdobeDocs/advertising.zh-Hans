@@ -101,7 +101,7 @@ Admin Console提供多种类型的管理员，但只有以下管理员类型和�
 
    1. 输入您的[!DNL Adobe] ID，然后单击&#x200B;**[!UICONTROL Continue]**。
 
-   1. 选择**[!UICONTROL Personal Account]”或&#x200B;**[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+   1. 选择&#x200B;**[!UICONTROL Personal Account]”或&#x200B;**&#x200B;[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    1. 选择适用的Experience Cloud组织。
 
@@ -121,7 +121,7 @@ Admin Console提供多种类型的管理员，但只有以下管理员类型和�
 
 1. [登录到Adobe Admin Console并将其打开以搜索、社交和Commerce](#open-admin-console)。
 
-1. 根据需要，批量创建最终用户[个别](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)或[](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)。
+1. 根据需要，批量创建最终用户[个别](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)或[&#128279;](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)。
 
 1. （可选）为每个产品实例创建[用户组](https://helpx.adobe.com/enterprise/using/user-groups.html)，并将用户分配给每个用户组。
 
@@ -135,7 +135,7 @@ Admin Console提供多种类型的管理员，但只有以下管理员类型和�
 
    除了四个可用的默认产品配置文件之外，还提供了自定义配置文件。
 
-   组织的每个产品配置文件必须具有唯一的名称。 如果您的组织使用多个Search、Social和Commerce实例（例如，Acme_US和Acme_JP），则您无法在多个实例中复制产品配置文件名称。 **最佳实践：**&#x200B;使用命名约定»<Name>_<Instance>、”，如“Simulations_Only_JP”。
+   组织的每个产品配置文件必须具有唯一的名称。 如果您的组织使用多个Search、Social和Commerce实例（例如，Acme_US和Acme_JP），则您无法在多个实例中复制产品配置文件名称。 **最佳实践：**&#x200B;使用命名约定»&lt;Name>_&lt;Instance>、”，如“Simulations_Only_JP”。
 
 1. [手动或批量将每个用户或用户组分配给相关的产品配置文件](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)。
 
