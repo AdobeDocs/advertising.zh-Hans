@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此功能仅适用于您的旧版搜索、社交和Commerce帐户。 大多数用户现在改用[!DNL Adobe] ID。<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
+>此功能仅适用于您的旧版搜索、社交和Commerce帐户。 大多数用户现在改用[!DNL Adobe] ID。<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
 
 更改密码会将您从当前会话中注销。 要继续工作，您必须使用新密码登录。
 
