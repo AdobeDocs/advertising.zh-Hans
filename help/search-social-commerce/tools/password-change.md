@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此功能仅适用于您的旧版Search、Social和Commerce登录凭据。 大多数用户现在改用[!DNL Adobe] ID进行身份验证。 要更改[!DNL Adobe] ID的密码，请参阅“[重置或更改Adobe密码](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)”。
+>此功能仅适用于您的旧版Search、Social和Commerce登录凭据。 大多数用户现在改用[!DNL Adobe] ID进行身份验证。 要更改[!DNL Adobe] ID的密码，请参阅“[重置或更改Adobe密码](https://helpx.adobe.com/cn/manage-account/using/change-or-reset-password.html)”。
 
 更改密码会将您从当前会话中注销。 要继续工作，您必须使用新密码登录。
 
