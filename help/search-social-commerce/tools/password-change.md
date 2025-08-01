@@ -3,18 +3,20 @@ title: 更改密码
 description: 了解如何更改帐户密码。
 exl-id: 62a4710d-aff7-4635-9fce-6d14f890728f
 feature: Search Tools
-source-git-commit: ec856bfde690019b9d18aa6fe8f4ab0237314b4b
+source-git-commit: d6405e1f594e26fb6e6790ad567676ffdaa900b4
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
 
 # 更改密码
 
+<!-- Replace this with just a link to the DX page once we remove the legacy option? -->
+
 >[!NOTE]
 >
->此功能仅适用于您的旧版搜索、社交和Commerce帐户。 大多数用户现在改用[!DNL Adobe] ID。<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
+>此功能仅适用于您的旧版Search、Social和Commerce登录凭据。 大多数用户现在改用[!DNL Adobe] ID进行身份验证。 要更改[!DNL Adobe] ID的密码，请参阅“[重置或更改Adobe密码](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)”。
 
 更改密码会将您从当前会话中注销。 要继续工作，您必须使用新密码登录。
 
