@@ -3,9 +3,9 @@ title: 在体验中的节点之间添加同级目标节点
 description: 了解如何将同级节点添加到具有目标或与具有目标的节点处于同一级别的任何节点。
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: 8961833c854ed41e4cca69787a5dc70dce2f203c
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,15 @@ In an existing experience,
 
 1. 指定目标：
 
-   * 对于Adobe受众目标，请执行以下操作：
+   * 对于受众目标，请执行以下操作：
 
-      1. 单击&#x200B;**[!UICONTROL Click to Browse]**&#x200B;以打开您的[!UICONTROL Audience Targeting]选项，打开&#x200B;**[!UICONTROL Adobe Segments]**&#x200B;选项卡，指定广告商的一个或多个[!DNL Adobe]受众目标，然后单击&#x200B;**[!UICONTROL Save]**。
+      1. 单击&#x200B;**[!UICONTROL Click to Browse]**&#x200B;以打开您的[!UICONTROL Audience Targeting]选项，并指定要定位的一个或多个广告商受众。
 
-      1. （可选）要在指定多个受众时创建多个目标节点，请选择&#x200B;**[!UICONTROL Split targets to create nodes]**。
+      1. 在右列中，选择是要&#x200B;*[!UICONTROL Include any]* （默认值）还是要为该节点指定&#x200B;*[!UICONTROL Include all]*&#x200B;目标。
 
-         此功能为每个指定的受众创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定的受众（[!DNL Boolean] `AND`语句）。
+     此选项确定用户是必须属于至少一个指定受众（[!DNL Boolean] `OR`语句）还是所有指定受众（[!DNL Boolean] `AND`语句），才能获得展示资格。
+
+      1. 单击&#x200B;**[!UICONTROL Create]**。
 
       1. 单击&#x200B;**[!UICONTROL Apply]**。
 
@@ -54,7 +56,7 @@ In an existing experience,
 
    * 对于数据传递目标，可以选择自定义数据传递密钥，输入单个数据传递值，然后单击&#x200B;**[!UICONTROL Apply]**。
 
-     已在[体验设置](experience-settings-targeting.md)的[!UICONTROL Advanced]部分的&#x200B;**[!UICONTROL Data Pass]**&#x200B;字段中设置了键值对中的键的默认值。 您可以选择自定义密钥。
+     已在&#x200B;**[!UICONTROL Data Pass]**&#x200B;体验设置[!UICONTROL Advanced]的[部分的](experience-settings-targeting.md)字段中设置了键值对中的键的默认值。 您可以选择自定义密钥。
 
    * 要重新定位像素目标，请选择要使用的重新定位像素，以及任何必须存在的像素属性的所需值，以显示创意。 然后单击&#x200B;**[!UICONTROL Apply]**。
 

@@ -3,9 +3,9 @@ title: 关于Advertising Creative中的体验
 description: 了解如何配置个性化的广告体验并根据性能优化广告元素。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
   定位选项包括：
 
-   * Adobe Audience Manager、Adobe Analytics和Advertising DSP中的第一方受众区段；Advertising DSP中的自定义区段；Advertising DSP提供的第三方区段
+   * Adobe Audience Manager、Adobe Analytics和Advertising DSP中的受众区段；为帐户导入的任何其他第一方区段；Advertising DSP中的自定义区段；Advertising DSP提供的第三方区段；以及受众库中构建的任何现有Advertising DSP受众
 
    * 特定地理位置，包括国家/地区、州、美国境内的DMA、城市和邮政编码
 
