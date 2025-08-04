@@ -3,9 +3,9 @@ title: 在体验中的节点之间添加同级目标节点
 description: 了解如何将同级节点添加到具有目标或与具有目标的节点处于同一级别的任何节点。
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
+source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,31 @@ In an existing experience,
 
    * 对于受众目标，请执行以下操作：
 
-      1. 单击&#x200B;**[!UICONTROL Click to Browse]**&#x200B;以打开您的[!UICONTROL Audience Targeting]选项，并指定要定位的一个或多个广告商受众。
+      1. 单击&#x200B;**[!UICONTROL Click to Browse]**&#x200B;以打开您的[!UICONTROL Audience Targeting]选项，然后执行以下操作：
 
-      1. 在右列中，选择是要&#x200B;*[!UICONTROL Include any]* （默认值）还是要为该节点指定&#x200B;*[!UICONTROL Include all]*&#x200B;目标。
+         * 要添加第一个区段，请在左侧面板中查找该区段，然后选中区段名称旁边的复选框。
 
-     此选项确定用户是必须属于至少一个指定受众（[!DNL Boolean] `OR`语句）还是所有指定受众（[!DNL Boolean] `AND`语句），才能获得展示资格。
+         * 要将区段添加到现有区段组，请执行以下操作：
+
+            1. 单击右侧面板中的区段组。
+
+            1. （可选）根据需要将组逻辑更改为&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
+
+               *[!UICONTROL Exclude All]*&#x200B;不可用于第一个区段组。 对于仅包含排除项的受众，请将此受众构建为&#x200B;*[!UICONTROL Include Any]*，然后在将其添加到DSP中的版面时将其排除。
+
+            1. 在左侧面板中找到新区段，然后选中区段名称旁边的复选框。
+
+               区段组会自动更新为新区段。
+
+         * 要添加新区段组，请执行以下操作：
+
+         1. 单击右侧面板中的&#x200B;**[!UICONTROL + New Group]**。
+
+         1. （可选）根据需要将上一个组与新组之间的逻辑更改为&#x200B;*[!UICONTROL And]*&#x200B;或&#x200B;*[!UICONTROL Or]*。
+
+         1. 在左侧面板中找到新组的区段，并选中区段名称旁边的复选框。
+
+         1. （可选）根据需要将组逻辑更改为&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
 
       1. 单击&#x200B;**[!UICONTROL Create]**。
 
