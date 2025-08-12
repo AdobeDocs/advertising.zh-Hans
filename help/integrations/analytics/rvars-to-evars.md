@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- Solution built but not tested. Move to the CJA chapter once it's available?  If so, then create a redirect. -->
 
-如果使用保留变量捕获[集成的](ids.md)AMO ID和EF ID[!DNL Analytics for Advertising]，则可以通过尽快将保留的AMO ID和EF ID变量复制到[standard](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)[!DNL analytics]中，为Adobe Advertising与[Adobe Customer Journey Analytics [!DNL eVars]&#x200B;(Adobe的新一代](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/evar)解决方案)之间的集成准备数据。 这样一来，您便可以在完成任务后立即收集AMO ID和EF ID的历史数据。 如果您使用保留的变量并且需要完成此任务，您的Adobe客户团队将告知您。
+如果使用保留变量捕获[集成的](ids.md)AMO ID和EF ID[!DNL Analytics for Advertising]，则可以通过尽快将保留的AMO ID和EF ID变量复制到[standard](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) [!DNL analytics]中，为Adobe Advertising与[Adobe Customer Journey Analytics [!DNL eVars]&#x200B;(Adobe的新一代](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/evar)解决方案)之间的集成准备数据。 这样一来，您便可以在完成任务后立即收集AMO ID和EF ID的历史数据。 如果您使用保留的变量并且需要完成此任务，您的Adobe客户团队将告知您。
 
 <!-- You can also do the same for any other reserved variables you use for your [!DNL Analytics for Advertising] implementation. -->
 
