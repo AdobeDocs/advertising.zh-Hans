@@ -3,9 +3,9 @@ title: 允许将目标上传到广告网络
 description: 了解如何将混合项目组合的目标上传到 [!DNL Google Ads] 和 [!DNL Microsoft Advertising]。
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: cfdf9325f6a0696e7ab74379daaf77b20c184d9d
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Search、Social和Commerce可以将广告商帐户组合的目标上传到[!DNL 
 
 其中，`<network_ID>`是Search、Social和Commerce用于广告网络的数值ID，`<objective_id>`是数值目标ID，`<network_account_ID>`是广告网络帐户或经理帐户的数值ID。
 
-在广告商所在时区的06:00每天上传[!DNL Google Ads]。 在广告商所在时区的09:00每天上传[!DNL Microsoft Advertising]。
+对于大多数广告商，上传到[!DNL Google Ads]每小时发生一次；对于具有大型帐户或自定义配置的广告商，每天至少发生三次上传。 每天在广告商时区的09[!DNL Microsoft Advertising]上传到:00。
 
 >[!IMPORTANT]
 >
@@ -40,7 +40,7 @@ Search、Social和Commerce可以将广告商帐户组合的目标上传到[!DNL 
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
-1. （如果在经理帐户级别跟踪您的转化）[在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;为您的经理帐户添加凭据](/help/search-social-commerce/admin/manager-accounts.md)。
+1. （如果在经理帐户级别跟踪您的转化）[在](/help/search-social-commerce/admin/manager-accounts.md) > **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin]为您的经理帐户添加凭据[!UICONTROL Manager Accounts]**。
 
 1. 验证每个名为`O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`的目标是否会在两天内在广告网络上显示。
 
