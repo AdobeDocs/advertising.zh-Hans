@@ -3,9 +3,9 @@ title: 允许将目标上传到广告网络
 description: 了解如何将混合项目组合的目标上传到 [!DNL Google Ads] 和 [!DNL Microsoft Advertising]。
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: cfdf9325f6a0696e7ab74379daaf77b20c184d9d
+source-git-commit: 3d3031946bb614f2c58b83170473b1394e4a017c
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Search、Social和Commerce可以将广告商帐户组合的目标上传到[!DNL 
 
 其中，`<network_ID>`是Search、Social和Commerce用于广告网络的数值ID，`<objective_id>`是数值目标ID，`<network_account_ID>`是广告网络帐户或经理帐户的数值ID。
 
-对于大多数广告商，上传到[!DNL Google Ads]每小时发生一次；对于具有大型帐户或自定义配置的广告商，每天至少发生三次上传。 每天在广告商时区的09[!DNL Microsoft Advertising]上传到:00。
+上传到[!DNL Google Ads]和[!DNL Microsoft Advertising]的过程会在一天中持续进行，有时甚至会一小时一次。 对于具有大型帐户或自定义配置的广告商，每天至少进行三次上传。
 
 >[!IMPORTANT]
 >
