@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: a3c8db43d0c9aa9786d7e698c8b754248287e7f3
+source-git-commit: 3624145a70750f57f9fd22f790e5fe8c0f2eb46c
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3284'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 0%
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
 | 2025年7月30日 | [!DNL Google Ads] [!DNL AI Max]功能 | [!DNL Google Ads]已引入[!DNL AI Max]作为现有搜索营销活动类型的增强功能。 虽然这些营销活动在[!DNL Google Ads]内继续运行并出现在Search、Social和Commerce中，但[!DNL Google Ads] API尚不支持[!DNL AI Max]。 因此，启用此功能后，我们会在报表中看到不一致和缺少数据，从而导致性能分析和优化不一致。<br><br>一旦[!DNL Google Ads]在接下来的几个月中向其API添加[!DNL AI Max]支持，Search、Social和Commerce将实施它。 升级将允许我们正确检测和支持启用了AI Max的营销活动，并重新评估数据问题以恢复这些营销活动的完整报告和优化。<br><br>**建议：**&#x200B;在提供完整的API支持之前，我们强烈建议不要为通过Search、Social和Commerce优化的促销活动选择[!DNL AI Max]。 这将有助于确保您的报表保持准确和可操作，并且优化基于正确的数据。 如果您有任何未通过Search、Social和Commerce优化且使用[!DNL AI Max]的营销活动，则使用[!DNL Google Ads]中的数据来进行分析和调整步调。 | — |
-| 2025年7月2日 | 登录 | Search、Social和Commerce正在过渡到Adobe Identity Management服务(IMS)以进行登录身份验证。 IMS提供对支持IMS的所有[!DNL Adobe]产品(包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics)的单一登录(SSO)访问权限。 您现在可以使用一个[!DNL Adobe ID]从Experience Cloud登录页面或旧版Search、Social和Commerce登录页面跨[!DNL Adobe]产品登录。 您当前的Search、Social和Commerce凭据将在短期内保持活动状态，以便您能够为更改做好准备。 | 请参阅“[登录](/help/search-social-commerce/getting-started/sign-in.md)”。<br><br>有关Experience Cloud界面的详细信息，包括管理您的用户配置文件，请参阅“[Experience Cloud界面和管理](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/experience-cloud)”。 |
-| 6月21日发布 | [!UICONTROL Objectives] | 现在，一整天都会上载到[!DNL Google Ads]和[!DNL Microsoft Advertising]，有时甚至会每小时上载一次，而不是像以前每天上载一次。 对于具有大型帐户或自定义配置的广告商，每天至少进行三次上传。 | 请参阅“[启用将目标上传到广告网络](/help/search-social-commerce/tools/objective-upload-to-networks.md)”。 |
+| 2025年7月2日 | 登录 | Search、Social和Commerce正在过渡到Adobe Identity Management服务(IMS)以进行登录身份验证。 IMS提供对支持IMS的所有[!DNL Adobe]产品(包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics)的单一登录(SSO)访问权限。 您现在可以使用一个[!DNL Adobe ID]从Experience Cloud登录页面或旧版Search、Social和Commerce登录页面跨[!DNL Adobe]产品登录。 您当前的Search、Social和Commerce凭据将在短期内保持活动状态，以便您能够为更改做好准备。 | 请参阅“[登录](/help/search-social-commerce/getting-started/sign-in.md)”。<br><br>有关Experience Cloud界面的详细信息，包括管理您的用户配置文件，请参阅“[Experience Cloud界面和管理](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)”。 |
+| 6月21日发布 | [!UICONTROL Objectives] | 现在，一整天都会进行到[!DNL Google Ads]和[!DNL Microsoft Advertising]的目标上传，有时甚至一小时一次，而不是像以前每天一次。 对于具有大型帐户或自定义配置的广告商，每天至少进行三次上传。<br><br>改进的实时对齐使广告网络的智能竞价系统能够在季节性活动日或特殊活动日响应当天趋势。 | 请参阅“[启用将目标上传到广告网络](/help/search-social-commerce/tools/objective-upload-to-networks.md)”。 |
 | 2025年3月26日 | [!UICONTROL Tracking]，[!DNL Adobe Analytics for Advertising] | （具有[!DNL Adobe Analytics for Advertising]和[!DNL Microsoft Advertising]帐户的广告商）对于具有[!UICONTROL Auto Upload]跟踪选项的帐户，所有营销活动类型的登陆页面后缀中AMO ID参数的格式已更新为最新格式。 以前，大多数客户的效果最佳营销活动都迁移到新格式。<br><br>对于没有[!UICONTROL Auto Upload]跟踪选项的帐户，这些帐户尚未迁移到新格式，但是，您必须手动更新每个登陆页面后缀以包含新的AMO ID格式。<br><br>当前格式：`s_kwcid=AL!{userid}!10!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}` | 请参阅[概述 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)和[AMO ID格式](/help/integrations/analytics/ids.md#amo-id-formats)。 |
 | 2025年2月发布 | [!UICONTROL Campaign Management] | 搜索、Social和Commerce现在可同步[!DNL Google Ads]需求一般促销活动（以前称为发现促销活动）的产品广告和视频广告。 Search、Social和Commerce以及Adobe Analytics中的报表（适用于具有[!DNL Adobe Analytics for Advertising]的广告商）现在包含所有可用广告类型的广告级绩效和支出数据。  在[!UICONTROL Ads]视图和[!UICONTROL Ad Variation Report]中，您可以筛选[!UICONTROL Creative Type]列以包含[!UICONTROL Demand Gen Image Ad]、[!UICONTROL Demand Gen Carousel Ad]、[!UICONTROL Demand Gen Product Ad]和[!UICONTROL Demand Gen Video Ad]。<br><br>目标上传支持适用于所有受支持的广告类型。 尚不完全支持产品广告和视频广告的优化。 | 有关详细信息：请参阅[支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)。 |
 | 2024年12月5日 | [!DNL Microsoft Advertising]个脱机转换 | 现在为[!DNL Microsoft Advertising]个用于离线转化的增强型转化提供以下支持，您可以使用这些转化事件而不使用点击ID，例如网站潜在客户产生的电话销售。<ul><li>搜索、社交和Commerce会同步您现有的增强型转化目标以进行离线转化，以便您能够将其用于报表和优化。 数据每天在广告商时区的05:00进行同步。</li><li>您可以上传映射到现有增强转化目标的第一方离线转化数据。</li></li></ul>为[!DNL Microsoft Advertising]中的潜在客户创建增强的转化目标。 | 有关工作流程的大纲，请参阅“[为离线转化实施 [!DNL Microsoft Advertising] 增强型转化](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)”并参阅“[为增强型转化上传离线转化数据](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)”。 |
