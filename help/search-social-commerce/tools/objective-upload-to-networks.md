@@ -3,7 +3,7 @@ title: 允许将目标上传到广告网络
 description: 了解如何将混合项目组合的目标上传到 [!DNL Google Ads] 和 [!DNL Microsoft Advertising]。
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 3d3031946bb614f2c58b83170473b1394e4a017c
+source-git-commit: 464fd13de476f2710536bea6540e0b9be4684395
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
