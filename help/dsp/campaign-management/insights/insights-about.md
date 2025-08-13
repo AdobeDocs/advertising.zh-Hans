@@ -3,9 +3,9 @@ title: 关于见解
 description: 了解可视化图表的性能见解。
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 99b9c110de5efbf646e35979eee6baac1d34f6ed
+source-git-commit: a098e99f26a4e7d472d4a391d2cd465fc8d4255b
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,8 @@ ht-degree: 0%
 * 从insight左上角的下拉菜单中，选择维度。
 
 ## 更改为Insight报告的指标
+
+对于转化量度，同时支持Adobe Advertising跟踪和Adobe Analytics跟踪的转化。
 
 1. 在insight的右上角，单击![指标设置](/help/dsp/assets/metric-settings.png "指标设置")。
 
