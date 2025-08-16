@@ -3,16 +3,14 @@ title: 管理重定位像素
 description: 了解如何创建和实施重新定位像素以用作广告体验的目标。
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: 1d0a1640eb2d19b8765150226e7185602bbfd495
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
 
 # 管理重定位像素
-
-*已关闭的测试版*
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
@@ -75,7 +73,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Copy to Clipboard]**&#x200B;以将标记复制到计算机的剪贴板，您可以将文本粘贴到文件中进行保存。
 
-1. 在像素标记中，通过将“`Insert <attribute>`”替换为值，为`<img src>`和`<script src>`部分中的每个属性指定一个值。 如果标记捕获通用ID，请指定ID5合作伙伴ID。
+1. 在像素标记中，通过将“`<img src>`”替换为值，为`<script src>`和`Insert <attribute>`部分中的每个属性指定一个值。 如果标记捕获通用ID，请指定ID5合作伙伴ID。
 
    如果手动添加其他属性，则必须包含URL编码。
 
@@ -111,7 +109,7 @@ ht-degree: 0%
 
 当您将广告体验定位到展示给像素的用户时，定位设置会指定显示创意时必须显示的属性值。
 
-**[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]：**(Beta功能；仅限新像素；可选)要跟踪的像素标记的通用ID类型：
+**[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]：** （仅限新像素；可选）要跟踪的像素标记的通用ID类型：
 
 * *[!UICONTROL ID5]：*&#x200B;像素标记跟踪[!DNL ID5] ID。 对于传送到通用ID的展示，不产生任何费用。
 
