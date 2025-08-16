@@ -3,16 +3,14 @@ title: 目标体验设置
 description: 请参阅针对性广告体验的所有设置的描述。
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
 
 # 目标广告体验设置
-
-*已关闭的测试版*
 
 ## [!UICONTROL Experience basics]节
 

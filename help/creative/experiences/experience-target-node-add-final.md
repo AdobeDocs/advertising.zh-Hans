@@ -3,9 +3,9 @@ title: 将目标节点添加到体验中的最终级别
 description: 了解如何将目标节点添加到广告体验的最终目标级别。
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # 将目标节点添加到体验中的最终级别
 
 *仅具有决策树定位的体验*
-*已关闭的测试版*
 
 当您将目标节点添加到体验的最底层时 — 无论是根“所有”节点、特定于目标的节点还是“其他所有内容”节点 — 您都可以直接定义目标，而无需创建同级节点。 添加底层节点会在同一级别创建目标节点和其他“其他所有内容”节点。
 

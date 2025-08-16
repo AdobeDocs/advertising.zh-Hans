@@ -3,16 +3,14 @@ title: 预览体验
 description: 了解如何在广告体验中预览创意内容。
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: ae226015d1a8a3da4ea2a0db0db31858e750b9a7
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
 
 # 预览体验
-
-*已关闭的测试版*
 
 您可以预览具有特定广告大小的创意，目标查看者将看到该广告大小的体验，包括所有超链接。 对于具有决策树定位的体验，您可以预览单个创意内容、特定分支的创意内容（目标类型）或体验中的所有创意内容。 对于没有决策树定位的体验，您可以预览单个创意内容。<!-- verify -->
 

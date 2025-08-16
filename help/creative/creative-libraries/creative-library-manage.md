@@ -3,16 +3,14 @@ title: 管理您的创意库
 description: 了解如何创建、重命名和删除创意库。
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-source-git-commit: b41dfbb570db025a5eba3ceff8d28529f9a8058e
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
 
 # 管理您的创意库
-
-*已关闭的测试版*
 
 您可以为每个广告商创建多个创意库。 您稍后可以使用[标准创意](creative-add-standard.md)<!-- , dynamic creatives, -->和[创意包](bundle-manage.md)填充每个库。 您的Adobe客户团队还可能会将动态创意添加到您的库。
 

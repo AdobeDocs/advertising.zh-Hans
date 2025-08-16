@@ -3,16 +3,14 @@ title: 在创意库中编辑标准创意内容
 description: 了解如何在创意库中更改标准（非动态）创意的设置。
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
 # 在创意库中编辑标准创意内容
-
-*已关闭的测试版*
 
 您可以为每种类型的标准创意编辑一些设置。 您只能编辑同一创意类型的多个创意内容<!-- or creative variations -->(只有一个登陆页面的简单HTML5、具有多个登陆页面的静态HTML5、灵活的HTML5、图像或第三方<!-- , or dynamic -->)。
 

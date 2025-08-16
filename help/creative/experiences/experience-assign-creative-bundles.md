@@ -3,9 +3,9 @@ title: 将创意捆绑包分配和取消分配给体验中的最终节点
 description: 了解如何将创意分配给广告体验中的每个目标。
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # 将创意捆绑包分配和取消分配给体验中的最终节点
 
 *仅具有决策树定位的体验*
-*已关闭的测试版*
 
 您可以将创意捆绑包分配给体验决策树中最低级别的目标节点。 对于尚未配置目标的体验，最低级别位于“全部”下。
 

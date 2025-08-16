@@ -3,9 +3,9 @@ title: 自定义体验的创意优化和计划
 description: 了解如何
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 7fee6e0f6e8ad6dbf0329d707af7303ac7229dc9
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # 无需决策树定位即可自定义体验的创意优化和计划
 
 *仅具有现有创意的体验*
-*已关闭的测试版*
 
 默认情况下，广告体验标记的创意轮换将通过算法来确定以优化整体点进率，并且创意优化设置将应用于所有分配的创意。 您可以自定义创意轮换，以根据相对权重手动运行创意，或针对指定的Advertising DSP自定义目标进行算法优化。 您还可以安排特定创意在指定的连续时段中运行，并为每个计划应用自定义创意轮换设置。
 

@@ -3,9 +3,9 @@ title: 下载创意内容
 description: 了解如何将创意内容下载为ZIP文件。
 feature: Creative Standard Creatives
 exl-id: 6507d472-be25-4f20-a32e-ad73250d78d4
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # 下载创意内容
 
 *仅限标准创意*
-*已关闭的测试版*
 
 按照浏览器的正常操作步骤，将所有选定的创意内容以ZIP格式下载到文件中。
 

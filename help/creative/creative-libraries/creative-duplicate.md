@@ -3,16 +3,14 @@ title: 复制创意
 description: 了解如何在创意库中复制创意内容。
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
 
 # 复制创意
-
-*已关闭的测试版*
 
 复制创意以将具有相同设置的新创意添加到同一库。 之后，您可以重命名新创意并根据需要编辑创意设置。
 

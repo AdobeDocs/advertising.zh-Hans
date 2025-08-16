@@ -3,16 +3,14 @@ title: 在不使用决策树定位的情况下创建体验
 description: 了解如何在不定位的情况下创建广告体验。
 feature: Creative Experiences
 exl-id: 327b1df5-5663-4513-9238-f481370c8c38
-source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
 # 在不使用决策树定位的情况下创建体验
-
-*已关闭的测试版*
 
 无需定位即可创建广告体验。 每个体验都可以使用来自单个创意库的广告。
 

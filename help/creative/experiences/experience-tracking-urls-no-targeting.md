@@ -3,16 +3,14 @@ title: 自定义体验的跟踪URL，而无需定位
 description: 了解如何在不使用决策树定位的情况下自定义体验中每个创意内容的跟踪URL。
 feature: Creative Experiences
 exl-id: 03a10285-c0df-4bc3-92c7-c1c2ea3f8129
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # 自定义体验的跟踪URL，而无需决策树定位
-
-*已关闭的测试版*
 
 对于没有决策树定位的体验，您最多可以为用于广告体验标记的每个创意创建5个自定义展示跟踪URL、5个自定义点击跟踪URL和1个自定义登陆页面URL。 您可以在[!UICONTROL Tag Manager]内自定义跟踪URL。
 

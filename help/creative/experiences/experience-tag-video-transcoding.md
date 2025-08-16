@@ -3,16 +3,14 @@ title: 自定义视频广告体验标记的转码选项
 description: 了解如何自定义视频广告标记的转码选项。
 feature: Creative Experiences
 exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
-source-git-commit: 8f5740d1a90e505a16f69d566de13aefc1edf421
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
 # 自定义视频广告体验标记的转码选项
-
-*已关闭的测试版*
 
 您可以为视频广告体验自定义转码选项，以确保跨发布者的快速播放和质量控制。
 

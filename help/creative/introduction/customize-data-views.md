@@ -3,16 +3,14 @@ title: 自定义数据视图
 description: 了解如何自定义每个可用视图中的数据。
 feature: Creative Introduction
 exl-id: 5255e0e4-a7f8-41d2-9b38-0e276dc1f3f0
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # 自定义数据视图
-
-*已关闭的测试版*
 
 ## 查看其他广告商的数据
 

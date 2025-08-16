@@ -3,9 +3,9 @@ title: 为适用的创意大小手动创建广告标记
 description: 了解如何为特定创意大小创建广告标记。
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: e79becc860143b749ec96134e7b224649686c672
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # （没有定位的体验）为适用的创意大小手动创建广告标记
 
 *仅针对没有决策树的体验*
-*已关闭的测试版*
 
 您可以为用于体验的每个创意大小（非视频创意）或视频持续时间，按语言创建一个或多个广告标记。 您可以稍后[将创意分配给广告标记](experience-tag-assign-creatives.md)。
 

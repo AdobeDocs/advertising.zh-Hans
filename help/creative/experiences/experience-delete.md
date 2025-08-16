@@ -2,16 +2,15 @@
 title: 删除体验
 description: 了解如何删除未使用的体验。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 5658692f-4ae6-41d5-82d3-78ff5560b95f
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
 # 删除体验
-
-*已关闭的测试版*
 
 <!-- No multiselect for experiences as of 1/30 -->
 
@@ -33,4 +32,3 @@ ht-degree: 0%
 >
 >* [使用决策树定位创建体验](experience-create-targeting.md)
 >* [创建没有决策树定位的体验](experience-create-no-targeting.md)
-

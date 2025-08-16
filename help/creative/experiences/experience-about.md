@@ -3,16 +3,14 @@ title: 关于Advertising Creative中的体验
 description: 了解如何配置个性化的广告体验并根据性能优化广告元素。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
 
 # 关于Advertising Creative 2.0中的体验
-
-*已关闭的测试版*
 
 每个广告体验可以包含一个广告类型（标准显示、标准视频或动态显示）。 [!DNL Advertising Creative 2.0]在单个创意库中为广告提供两种不同的广告体验结构。
 

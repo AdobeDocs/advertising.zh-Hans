@@ -3,16 +3,14 @@ title: 共享体验URL
 description: 了解如何共享体验的演示URL。
 feature: Creative Experiences
 exl-id: 0d523270-e6b2-4d7b-a39c-749f3cc94561
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
 
 # 共享体验URL
-
-*已关闭的测试版*
 
 您可以允许未登录[!DNL Creative]的其他人通过共享演示URL来预览体验。
 

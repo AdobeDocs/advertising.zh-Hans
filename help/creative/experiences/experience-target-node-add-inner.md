@@ -3,9 +3,9 @@ title: 在体验中的节点之间添加目标节点
 description: 了解如何在广告体验中的目标节点之间添加目标节点。
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # 在体验中的节点之间添加目标节点
 
 *仅具有决策树定位的体验*
-*已关闭的测试版*
 
 在现有级别之间插入目标节点时，新目标节点将保留所有现有的子目标和创意，并且新节点最初称为“全部”。 您可以选择保留新节点，而不添加更具体的目标。
 

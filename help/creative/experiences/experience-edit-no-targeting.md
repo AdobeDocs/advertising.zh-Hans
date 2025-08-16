@@ -2,16 +2,15 @@
 title: 编辑体验，而无需决策树定位
 description: 了解如何编辑广告体验的设置，而无需进行定位。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 29f54944-72a0-405a-bc11-87ea03edc09a
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
 
 # 编辑体验，而无需决策树定位
-
-*已关闭的测试版*
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
 

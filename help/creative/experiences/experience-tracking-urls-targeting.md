@@ -3,9 +3,9 @@ title: 自定义体验的跟踪URL
 description: 了解如何使用决策树定位自定义体验中每个创意内容的跟踪URL。
 feature: Creative Experiences
 exl-id: ba3b15b4-116e-4caa-8ce1-4d2e488a6362
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # 通过决策树定位自定义体验中创意人员的跟踪URL
 
 *仅定位具有现有创意的节点*
-*已关闭的测试版*
 
 对于具有决策树定位的体验，您最多可以为用于体验的每个创意创建五个自定义展示跟踪URL、五个自定义点击跟踪URL和一个自定义登陆页面URL。 您可以从决策树中自定义跟踪URL。
 

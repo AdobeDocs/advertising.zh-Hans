@@ -3,16 +3,14 @@ title: 预览创意
 description: 了解如何打开创意内容的预览。
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: e70ea2b9fb0e8338d5a9e4680d79e9f3e436eef6
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
 
 # 预览创意
-
-*已关闭的测试版*
 
 您可以在查看者看到创意时预览它，包括超链接。
 

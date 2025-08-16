@@ -3,16 +3,14 @@ title: 使用决策树定位编辑体验
 description: 了解如何使用决策树编辑目标广告体验的设置。
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
-source-git-commit: 47a230347059a26c6c1c2db7c73306a376062478
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
 
 # 使用决策树定位编辑体验
-
-*已关闭的测试版*
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
 
