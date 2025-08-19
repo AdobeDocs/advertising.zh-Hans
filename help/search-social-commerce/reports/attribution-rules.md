@@ -3,9 +3,9 @@ title: 归因规则的计算方式
 description: 了解Adobe Advertising如何计算每种类型的归因规则。
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports, DSP Custom Reports
-source-git-commit: 513d81cf835ccbffa16581799f0dc8306681e3ad
+source-git-commit: 4450592aa0406a28da5e2f426ac31a07ba2fe5c3
 workflow-type: tm+mt
-source-wordcount: '2711'
+source-wordcount: '2707'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 * DSP
 
-   * 具有多点接触归因的自定义报表
+   * 自定义报表
 
 * 搜索、社交和Commerce
 
-   * 自定义报表
+   * 报告
 
    * 默认视图和自定义视图
 
