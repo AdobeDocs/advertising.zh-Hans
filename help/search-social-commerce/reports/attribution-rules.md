@@ -2,10 +2,10 @@
 title: 归因规则的计算方式
 description: 了解Adobe Advertising如何计算每种类型的归因规则。
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
-feature: Search Reports
-source-git-commit: b24673e05f95bac404301d71ad9c0d1d0593aafb
+feature: Search Reports, DSP Custom Reports
+source-git-commit: 513d81cf835ccbffa16581799f0dc8306681e3ad
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2711'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,19 @@ ht-degree: 0%
 
 广告商级别的归因规则用于在一系列导致转化的事件中归因转化数据（可能跨多个广告渠道）。
 
-在Advertising Search、Social和Commerce(Search、Social和Commerce)的报表默认视图和自定义视图，以及Search、Social和Commerce的项目组合级别模拟（某些用户角色）中，选定的规则仅用于视图、报表或模拟数据。 各种归因规则的应用如下。
+您还可以在以下位置选择归因规则，以仅将该规则应用于结果数据：
+
+* DSP
+
+   * 具有多点接触归因的自定义报表
+
+* 搜索、社交和Commerce
+
+   * 自定义报表
+
+   * 默认视图和自定义视图
+
+   * （某些用户角色）Portfolio级别模拟。
 
 >[!NOTE]
 >
