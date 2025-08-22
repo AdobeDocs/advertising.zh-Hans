@@ -2,9 +2,9 @@
 title: Adobe Advertising与Adobe Customer Journey Analytics之间的集成概述
 description: 了解将Adobe Advertising与Adobe Customer Journey Analytics集成的选项。
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: 71653e59a22201e8b77ce07119053a11eac60a19
+source-git-commit: 1e8305031b175f9bb1c52b82b6ed4913e6108349
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -50,3 +50,4 @@ Adobe Advertising与Adobe Customer Journey Analytics集成，以扩展和增强�
 >[!MORELIKETHIS]
 >
 >* [先决条件](prerequisites.md)
+>* (Adobe Analytics用户) [收集在Adobe Customer Journey Analytics中使用的AMO ID和EF ID的历史数据](/help/integrations/analytics/rvars-to-evars.md)。
