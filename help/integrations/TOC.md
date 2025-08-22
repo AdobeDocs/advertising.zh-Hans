@@ -52,4 +52,4 @@ ht-degree: 11%
 + 与Adobe Customer Journey Analytics集成 {#customer-journey-analytics}
    + [概述](/help/integrations/customer-journey-analytics/overview.md)
    + [先决条件](/help/integrations/customer-journey-analytics/prerequisites.md)
-+ [有关Adobe Advertising集成的视频教程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
++ [有关Adobe Advertising集成的视频教程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=zh-Hans)<!-- rename if the tutorials TOC structure changes -->
