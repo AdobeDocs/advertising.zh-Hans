@@ -2,9 +2,9 @@
 title: 将Adobe Advertising与Customer Journey Analytics集成的先决条件
 description: 将Adobe Advertising与Customer Journey Analytics集成的先决条件
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: b93ea465edf98837bf7af693b6b5f5bbd4adea02
+source-git-commit: 199fc8f6784dbbb43eeb8fcfe9c6f0f35cfdad6b
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [概述](overview.md)
+>* (Adobe Analytics用户) [收集在Adobe Customer Journey Analytics中使用的AMO ID和EF ID的历史数据](/help/integrations/analytics/rvars-to-evars.md)。
