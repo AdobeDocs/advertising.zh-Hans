@@ -2,9 +2,9 @@
 title: Customer Journey Analytics使用的Adobe Advertising ID
 description: Customer Journey Analytics使用的Adobe Advertising ID
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: 91610ee5e1741f19dde5567b806e05f1034397c0
+source-git-commit: 8c36de7ffe73f86a4e78f11e38cd84fa59134833
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Adobe Advertising distinguishes between a click-through or view-through entry to
 
 {{$include /help/_includes/ef-id.md}}
 
-## ADOBE ADVERTISING AMO ID {#amo-id}
+<!-- ## Adobe Advertising AMO IDs {#amo-id} -->
 
 {{$include /help/_includes/amo-id.md}}
 
