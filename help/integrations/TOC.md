@@ -52,5 +52,5 @@ ht-degree: 11%
 + 与Adobe Customer Journey Analytics集成 {#customer-journey-analytics}
    + [概述](/help/integrations/customer-journey-analytics/overview.md)
    + [先决条件](/help/integrations/customer-journey-analytics/prerequisites.md)
-   + [由[!DNL Customer Journey Analytics](/help/integrations/customer-journey-analytics/ids.md)使用的Adobe Advertising ID
+   + &lbrack;[[!DNL 由 Customer Journey Analytics使用的Adobe Advertising ID]](/help/integrations/customer-journey-analytics/ids.md)
 + [有关Adobe Advertising集成的视频教程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
