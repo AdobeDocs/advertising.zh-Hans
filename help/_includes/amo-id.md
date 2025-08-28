@@ -1,15 +1,17 @@
 ---
-source-git-commit: 91610ee5e1741f19dde5567b806e05f1034397c0
+source-git-commit: 6fa4e5d06271789edc915d67d320f775a83ed653
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '992'
 ht-degree: 0%
 
 ---
-# ADOBE ADVERTISING AMO ID {#amo-id}
+# ADOBE ADVERTISING AMO ID
+
+## ADOBE ADVERTISING AMO ID {#amo-id}
 
 AMO ID在较低的粒度级别跟踪每个唯一的广告组合，用于[!DNL Analytics]和Customer Journey Analytics数据分类以及从Adobe Advertising引入广告量度（例如展示次数、点击量和成本）。
 
-对于[!DNL Analytics]，AMO ID存储在[eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=zh-Hans)或rVar维度(AMO ID)中。
+对于[!DNL Analytics]，AMO ID存储在[eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)或rVar维度(AMO ID)中。
 
 对于Customer Journey Analytics，AMO ID存储在`trackingCode`对象的`conversionDetails`属性中，该对象是[!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]的一部分。
 
@@ -146,13 +148,13 @@ where:
 >[!NOTE]
 >
 > 对于其营销活动没有[!UICONTROL Auto Upload]跟踪选项且尚未迁移到新格式的帐户，请手动更新每个登陆页面后缀以包含上述格式。
-> &#x200B;>与此同时，旧版格式（如下所示）仍然有效：
+> >与此同时，旧版格式（如下所示）仍然有效：
 >* 搜索促销活动：
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* 购物营销活动（使用[!DNL Microsoft Merchant Center]）：
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 >* 受众网络营销活动：
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 
