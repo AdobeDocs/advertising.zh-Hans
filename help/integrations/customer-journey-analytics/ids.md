@@ -3,9 +3,9 @@ title: Customer Journey Analytics使用的Adobe Advertising ID
 description: Customer Journey Analytics使用的Adobe Advertising ID
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: af60dcb4-4d1a-4097-ac30-688bd8b9f644
-source-git-commit: f4875efbaf0f08781fc2db42e34c7e24860e773b
+source-git-commit: 1026871782c257a70278c4f4bb4208d321bd8200
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 *仅集成Adobe Advertising-Adobe Customer Journey Analytics的广告商*
 
 *适用于Advertising DSP和[!DNL Advertising Search, Social, & Commerce]*
+
+*Beta功能*
 
 Adobe Advertising使用两个ID进行现场性能跟踪： *EF ID*&#x200B;和&#x200B;*AMO ID*。
 
