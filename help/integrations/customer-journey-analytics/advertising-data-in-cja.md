@@ -2,7 +2,7 @@
 title: Customer Journey Analytics中的Adobe Advertising量度和维度
 description: 引用Customer Journey Analytics中可用的Adobe Advertising指标和维度。
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: eddd9c997ada380d5624703b82bca189be90b893
+source-git-commit: c3836d8af50061701434790b2bd9214df29e8a01
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
@@ -13,10 +13,7 @@ ht-degree: 0%
 
 *仅集成Adobe Advertising-Customer Journey Analytics的广告商*
 
->[!NOTE]
->
->* Adobe Advertising每天将流量指标和维度传递给[!DNL Customer Journey Analytics]。
->* [!DNL Web SDK]实时捕获Adobe Advertising点进和显示点进，并将其传递给Customer Journey Analytics。
+Adobe Advertising每天将流量指标和维度传递给[!DNL Customer Journey Analytics]。 [!DNL Web SDK]实时捕获Adobe Advertising点进和显示点进，并将其传递给Customer Journey Analytics。
 
 ## Adobe Advertising流量量度
 
@@ -24,7 +21,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* &#x200B;
 >* “XDM字段名称”是Adobe Experience Platform中的字段名称。
 >* “XDM字段显示名称”表示Customer Journey Analytics中的显示名称。
 
