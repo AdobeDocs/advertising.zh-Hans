@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 
+>* &#x200B;
 >* “XDM字段名称”是Adobe Experience Platform中的字段名称。
 >* “XDM字段显示名称”表示Customer Journey Analytics中的显示名称。
 
