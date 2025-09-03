@@ -3,9 +3,9 @@ title: 关于Advertising Creative中的体验
 description: 了解如何配置个性化的广告体验并根据性能优化广告元素。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 * **计划：**（可选）计划特定创意在指定的连续时间段内运行。
 
-* **广告轮换：**&#x200B;根据相对权重手动旋转创意，或根据指定的优化目标通过算法旋转创意。
+* **广告轮换：**&#x200B;根据指定的优化目标、指定的捆绑顺序或相对权重，通过算法旋转创意。
 
 * **优化目标：**&#x200B;为最佳点进率或现有[Advertising DSP自定义目标](/help/dsp/optimization/custom-goal.md)优化广告元素
 

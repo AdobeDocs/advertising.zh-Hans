@@ -3,7 +3,7 @@ title: 预览体验
 description: 了解如何在广告体验中预览创意内容。
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
@@ -20,9 +20,9 @@ ht-degree: 0%
 
    * 对于算法广告轮换，根据优化目标选择创意。
 
-   * 对于加权广告轮换，每次都根据指定的权重(例如，显示Creative A的概率为80%，显示Creative B的概率为20%)来选择创意。
+   * 对于计划的广告轮换，将显示计划中的第一个创意内容。 您可以继续刷新预览以继续完成序列。
 
-   * 对于计划的广告轮换，将显示计划中的第一个创意内容。 您可以继续刷新预览以继续完成序列。<!-- Refresh isn't there as of 2/3 -->
+   * 对于加权广告轮换，每次都根据指定的权重(例如，显示Creative A的概率为80%，显示Creative B的概率为20%)来选择创意。
 
 ## 使用决策树定位预览体验中的创意
 
