@@ -4,9 +4,9 @@ user-guide-description: 了解 Advertising DSP 和 Advertising Search 与其他 
 breadcrumb-title: 与 Experience Cloud 的集成
 role: User, Developer
 index: true
-source-git-commit: 6ba15a874cef5748088897edc9ef3f4a27e8ce52
+source-git-commit: d8bef70c4d8525fc4fecd114f8bcfef45ad1af01
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '265'
 ht-degree: 10%
 
 ---
@@ -53,5 +53,6 @@ ht-degree: 10%
    + [概述](/help/integrations/customer-journey-analytics/overview.md)
    + [先决条件](/help/integrations/customer-journey-analytics/prerequisites.md)
    + [Customer Journey Analytics使用的Adobe Advertising ID](/help/integrations/customer-journey-analytics/ids.md)
+   + [设置数据收集、数据传输和报告](/help/integrations/customer-journey-analytics/set-up.md)
    + [Customer Journey Analytics中的Adobe Advertising量度和维度](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
-+ [有关Adobe Advertising集成的视频教程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=zh-Hans)<!-- rename if the tutorials TOC structure changes -->
++ [有关Adobe Advertising集成的视频教程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
