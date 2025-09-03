@@ -3,9 +3,9 @@ title: 投放设置
 description: 请参阅可用版面设置的说明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 902eae60008934b910b536d764f3bf424a802c4b
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '4560'
+source-wordcount: '4586'
 ht-degree: 0%
 
 ---
@@ -333,6 +333,10 @@ ht-degree: 0%
 * 要创建受众，请单击![旁边的](/help/dsp/assets/chevron-down.png)选择[!UICONTROL Included Audiences]，然后选择&#x200B;**[!UICONTROL + Create Audience]**。 有关说明，请参阅从步骤3开始的[创建可重复使用的受众](/help/dsp/audiences/reusable-audience-create.md)。
 * 要选择特定的受众区段，请单击&#x200B;**[!UICONTROL Select segments for this placement only]**。 选择区段逻辑；有关说明，请参阅“[创建可重用受众](/help/dsp/audiences/reusable-audience-create.md)”中的步骤6。 完成后，单击&#x200B;**保存**。
 
+>[!NOTE]
+>
+>未附加到活动、计划或暂停放置的第一方RampID区段将被暂停。 该区段在区段列表中标记为“自动暂停”。
+
 **[!UICONTROL Excluded Audiences]：**&#x200B;要排除以进行投放的任何受众，包括具有[第三方区段、第一方区段、Adobe区段、自定义区段和已保存受众的受众](/help/dsp/audiences/audience-settings.md)。 此外，还会显示所有已排除受众中经过重复数据删除的总受众人数和活动受众人数。 您可以选择现有受众，也可以创建一个以后可以重复使用的新受众：
 
 * 要选择现有受众，请单击![旁边的](/help/dsp/assets/chevron-down.png)选择[!UICONTROL Excluded Audiences]，然后选择受众。
@@ -370,7 +374,7 @@ ht-degree: 0%
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 选择适用的时区。
 1. 指定间隔：
-   * 要选择预设间隔，请单击其中一个间隔按钮。 选项包括&#x200B;*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
+   * 要选择预设间隔，请单击其中一个间隔按钮。 选项包括*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
    * 要手动选择间隔，请单击单元格内部，也可以拖动以选择间隔。
 1. 单击&#x200B;**[!UICONTROL Save]**。
 

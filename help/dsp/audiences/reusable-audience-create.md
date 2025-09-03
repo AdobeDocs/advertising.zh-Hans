@@ -3,9 +3,9 @@ title: 创建可重复使用的受众
 description: 了解如何创建可重用受众，该受众由受众区段和其他保存的受众组成。
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
 您可以保存和管理可重用受众，这些受众是受众区段组，甚至是其他保存的受众，您可以将其用作多个投放位置的定位或排除项。
+
+>[!NOTE]
+>
+>(DSP将其经过哈希处理的电子邮件ID转换为LiveRamp RampID区段的广告商)未附加到活动、计划或暂停投放位置的第一方RampID区段将会暂停。 该区段在区段列表中标记为“自动暂停”。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**。
 
