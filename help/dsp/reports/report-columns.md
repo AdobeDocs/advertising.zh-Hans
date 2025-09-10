@@ -3,9 +3,9 @@ title: 可用报表列
 description: 请参阅自定义报表中可用列的说明。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: e07713ed7b3b700560577f8020066540e34d8952
+source-git-commit: 4b09e4c09bd2d028365c820c24ac041fb5e5283c
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2306'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,15 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign ID] | DSP中营销活动的唯一标识符。 |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Name] | 用户分配的营销活动的名称。 |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Start Date] | 营销活动的第一个日期。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Title] | 内容标题。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Series] | 内容系列。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Genre] | 内容流派。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | 由[IAB技术实验室](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md)定义的生产质量。 值可以`Unknown`、`Professionally Produced`、`Prosumer`或`User Generated`。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Context] | [IAB技术实验室](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md)定义的内容类型。 值可以包括`Video,` `Game`、`Music`、`Application`、`Text`、`Other`或`Unknown`。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Rating] | 内容评级，例如PG或R。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Livestream] | 广告出现在直播流中： `Not Live`还是`Live`。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Length (in seconds)] | 内容的长度（以秒为单位）；通常用于视频或音频。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Language (as per ISO 639)] | 使用ISO-639-1-alpha-2的内容的语言。 |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Day (YYYY-MM-DD)] | 年、月、日。 |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | 日[!UICONTROL of Week] | 特定日期，如[!UICONTROL Monday]或[!UICONTROL Tuesday]。 |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Hour (YYYY-MM-DD HH)] | 年、月、日和小时。 |
@@ -126,7 +135,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Cost per Incremental HH] | 总支出除以所实现的增量家庭。 |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Cost per Unique HH] | 所达到的总支出除以独特家庭。 |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Frequency] | 每个家庭的印象频率。 |
-| [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Incremental Household Reached] | 仅报告维度可到达的家庭数，计算为仅报告维度&rbrack;可到达的[IP地址 — 任何其他维度]可到达的&lbrack;IP地址。 |
+| [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Incremental Household Reached] | 仅报告维度可到达的家庭数，计算为仅报告维度[可到达的]IP地址 — 任何其他维度[可到达的]IP地址。 |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL % Incremental Household Reached] | 仅通过报告的维度实现的家庭百分比，计算为[维度实现的IP地址的百分比] - [任何其他维度实现的IP地址的百分比]。 |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Impressions] | 提供的广告展示总数。 |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Measurable Impressions] | 提供的能够测量可见性的展示总数。 |

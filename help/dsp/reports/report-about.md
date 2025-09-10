@@ -3,9 +3,9 @@ title: 关于自定义报表
 description: 了解用于手动或使用预配置的报表模板创建自定义报表的选项。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
+source-git-commit: a3e6324edcf5a52f6338ce969034cd9c4b6fb487
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * 从预配置的报表模板中进行选择，并可以选择进一步自定义它们。
 
-您可以生成一次报表，或根据指定条件（例如每15天或每月第一天）在指定时区的03:00安排每日、每周或每月生成报表。 生成报告后，您可以从[!UICONTROL Reports] > [!UICONTROL Custom Reports]或链接的[报告目标](/help/dsp/reports/report-destinations/report-destination-about.md)以下类型下载报告：
+您可以按照指定的条件（例如每15天或每月1日），在指定的时区的03:00生成一次报告，或安排每日、每周或每月生成一次报告。 生成报告后，您可以从[!UICONTROL Reports] > [!UICONTROL Custom Reports]或链接的[报告目标](/help/dsp/reports/report-destinations/report-destination-about.md)以下类型下载报告：
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
@@ -97,11 +97,13 @@ ht-degree: 0%
 
      若要将此报告与[!DNL Advanced Measurement Services]和Adobe Analytics创建的报告进行比较，请参阅“[关于自定义报告的常见问题解答](/help/dsp/reports/faq-reports.md)”。
 
-   * **[!UICONTROL Path Length]：**&#x200B;使用此报告      跟踪一段时间内转化所需的用户交互点数，以便您选择最佳广告频率。 此报表按路径长度（交互点）显示转化次数，例如用户仅有一个广告交互、两个广告交互等后发生的转化次数。 报表可以包含多个转化量度的数据，并在首次交互和转化之间使用指定的回顾时间段。 报表中的列包括“[!UICONTROL Path Length]”、“[!UICONTROL Number of] \&lt;转化量度名称1\>”、“% \&lt;转化量度名称1\>”、“\&lt;转化量度名称2\>”、“% \&lt;转化量度名称2\>”等。
+   * **[!UICONTROL Path Length]：**&#x200B;使用此报表跟踪一段时间内转化所需的用户交互点数，以便您选择最佳广告频率。 此报表按路径长度（交互点）显示转化次数，例如用户仅有一个广告交互、两个广告交互等后发生的转化次数。 报表可以包含多个转化量度的数据，并在首次交互和转化之间使用指定的回顾时间段。 报表中的列包括“[!UICONTROL Path Length]”、“[!UICONTROL Number of] \&lt;转化量度名称1\>”、“% \&lt;转化量度名称1\>”、“\&lt;转化量度名称2\>”、“% \&lt;转化量度名称2\>”等。
 
      显示每个路径长度不超过10的数据；将路径长度大于10的数据分组在一起。
 
    * **[!UICONTROL Time to Conversion]：**&#x200B;使用此报告可确定最佳的归因回顾时间范围，并识别转化时间较长的营销活动，这可能会受益于重新定位。 此报表按自上次交互（广告曝光或点击）到转化的时间长度（以天为单位）显示转化的次数。 报表可以包含多个转化量度的数据，并在首次交互和转化之间使用指定的回顾时间段。 报表中的列包括“[!UICONTROL Time Taken (in days)]”、“[!UICONTROL Number of] \&lt;转化量度名称1\>”、“% \&lt;转化量度名称1\>”、“\&lt;转化量度名称2\>”、“% \&lt;转化量度名称2\>”等。 需要超过回顾期间的转化将分组在一行中（例如，如果报表使用的回顾期间为30天，则所有需要超过30天的转化将分组在一行中，其中的“[!UICONTROL Time Taken (in days)]”值为“30+”）。
+
+   * **[!UICONTROL Content BETA]：**&#x200B;请使用此报告按照指定的内容维度（如流派、生产质量和内容评级）了解展示投放和其他量度，以便优化定位并确保品牌安全。 除了内容维度之外，该报表还包含大多数标准维度、量度和过滤器。 按内容维度的数据可用于[!DNL Freewheel]、[!DNL Index]、[!DNL Magnite]、[!DNL Microsoft]、[!DNL Nexxen]、[!DNL Pubmatic]、[!DNL Sharethrough]和[!DNL Triplelift]。 内容信号在竞价流期间由发布者传递，并受可用性限制。
 
 ## 跨帐户报告 {#cross-account-reporting}
 
