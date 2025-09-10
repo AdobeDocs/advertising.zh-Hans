@@ -3,9 +3,9 @@ title: 术语表
 description: 请参阅关键术语的定义。
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 58fab7afdca3468bf2bcca0f3120b3863af6eae2
+source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **广告变量：**&#x200B;广告组或广告策略中的任何广告。
 
-**[AMO ID](/help/integrations/analytics/ids.md#amo-id)：**&#x200B;允许Adobe Advertising与Adobe Analytics共享促销活动相关数据的跟踪代码。 它以`s_kwcid=`开头。
+**[AMO ID](/help/integrations/analytics/ids.md#amo-id)：**&#x200B;允许Adobe Advertising与Adobe Analytics和Adobe Customer Journey Analytics共享促销活动相关数据的跟踪代码。 它以`s_kwcid=`开头。
 
 **竞价单位：**&#x200B;投标单位的搜索、社交和Commerce搜索词。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **转化跟踪：**&#x200B;转化跟踪使用Cookie来跟踪a)广告商在广告网络上的广告点击次数，以及b)广告商网站上的结果交易。
 
-**成本准确性：** （具有组合项的广告商）组合的实际支出除以预测支出。 [模型准确度报表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指示用于优化的成本模型的准确度，[[!UICONTROL Model Accuracy]分析](/help/search-social-commerce/advertising-insights/insight-about.md)包含更多详细信息，以及提高模型准确性的建议。
+**成本准确性：** （具有组合项的广告商）组合的实际支出除以预测支出。 [模型准确度报表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指示用于优化的成本模型的准确度，[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md)包含更多详细信息，以及提高模型准确性的建议。
 
 **成本模型：**（具有产品组合的广告商）搜索、社交和Commerce技术，它使用历史数据和数学预测技术来预测成本量、赢得每个职位或位置所需的出价以及每个出价单位的CPC（搜索）或CPM（显示）。
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 ## G-H {#g-h}
 
-**半衰期：**&#x200B;将数量减少到其初始值的一半所需的时间。 对于每个项目组合，您可以指定半衰期以指示数据与成本模型和收入模型相关的时间。
+**半衰期：**将数量减少到其初始值的一半所需的时间。 对于每个项目组合，您可以指定半衰期以指示数据与成本模型和收入模型相关的时间。
 请参阅“成本模型半衰期”和“收入模型半衰期”。
 
 ## I-J {#i-j}
@@ -163,7 +163,7 @@ ht-degree: 0%
 
 **投资回报率：** (ROI)收入减去成本。
 
-**收入准确性：** （具有项目组合的广告商）项目组合的实际收入除以预测收入。 [模型准确性报表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指示用于优化的收入模型的准确性，[[!UICONTROL Model Accuracy]分析](/help/search-social-commerce/advertising-insights/insight-about.md)包含更多详细信息，以及提高模型准确性的建议。
+**收入准确性：** （具有项目组合的广告商）项目组合的实际收入除以预测收入。 [模型准确性报表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指示用于优化的收入模型的准确性，并且[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md)包含更多详细信息以及提高模型准确性的建议。
 
 **收入模型：**（具有产品组合的广告商）搜索、社交和Commerce技术，它根据点击数据（搜索和社交）或展示数据（显示）以及广告商的转化数据，预测每个竞价单位的转化率和预计回报。
 
@@ -175,13 +175,13 @@ ht-degree: 0%
 
 ## S-T {#s-t}
 
-**模拟：** （具有项目组合的广告商）Portfolio建模，使用历史数据估计项目组合可预期的不同支出级别和相应每日预算的点击和转化次数。
+**模拟：**（具有项目组合的广告商）Portfolio建模，使用历史数据估算项目组合针对不同支出级别和相应每日预算可预期的点击和转化次数。
 
 **支出策略：** （具有投资组合的广告商）为优化投资组合的关键字/广告竞价而选择的策略。
 
 **`s_kwcid`：**&#x200B;请参阅“AMO ID”。
 
-**跟踪模板：** （仅具有最终URL的帐户）跟踪模板或跟踪URL，它指定所有登出域重定向和跟踪参数，并将最终/高级URL嵌入到参数中。 对于Adobe Advertising转化跟踪（在Campaign设置包括&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;时应用），Search、Social和Commerce会在您保存记录时自动为其自己的重定向和跟踪代码添加前缀。
+**跟踪模板：** （仅具有最终URL的帐户）跟踪模板或跟踪URL，它指定所有登出域重定向和跟踪参数，并将最终/高级URL嵌入到参数中。 对于Adobe Advertising转化跟踪（在营销活动设置包括&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;时应用），Search、Social和Commerce会在您保存记录时自动为其自己的重定向和跟踪代码添加前缀。
 
 **跟踪URL：**&#x200B;添加了跟踪模板或目标URL以及额外的参数，用于跟踪有关广告点击的信息。 它可以包括一个重定向URL，用于在将用户重定向到广告商的登陆页面之前，先将用户发送到跟踪服务器。
 
