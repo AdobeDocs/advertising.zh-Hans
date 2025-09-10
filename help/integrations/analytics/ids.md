@@ -3,9 +3,9 @@ title: ' [!DNL Analytics]使用的Adobe Advertising ID'
 description: ' [!DNL Analytics]使用的Adobe Advertising ID'
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
+source-git-commit: 56c27461cf0e1d7111de9d35d9e38fa980af4c52
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,51 @@ Adobe Advertising会使用以下标准来区分网站的点进或浏览条目：
 
 ### EF ID格式 {#ef-id-formats}
 
-{{$include /help/_includes/ef-id-formats.md}}
+>[!NOTE]
+>
+>EF ID区分大小写。 如果[!DNL Analytics]或Customer Journey Analytics实施强制将URL跟踪转换为小写，则Adobe Advertising不会识别EF ID。 这会影响Adobe Advertising竞价和报表，但对[!DNL Analytics]或Customer Journey Analytics中的Adobe Advertising报表没有影响。
+
+#### [!DNL Google Ads]个搜索广告
+
+```
+{gclid}:G:s
+```
+
+其中：
+
+* `gclid`是[!DNL Google Click ID] (GCLID)。
+* `s`是网络类型（“s”用于搜索）。
+
+#### [!DNL Microsoft Advertising]个搜索广告
+
+```
+{msclkid}:G:s
+```
+
+其中：
+
+* `msclkid`是[!DNL Microsoft Click ID] (MSCLKID)。
+* `s`是网络类型（“s”用于搜索）。
+
+#### 在其他搜索引擎上显示广告和搜索广告
+
+```
+<Adobe Advertising visitor ID>:<timestamp>:<channel type>
+```
+
+其中：
+
+* &lt;*Adobe Advertising访客ID*>是每位访客的唯一标识（如UhKVaAABCkJ0mDt）。 也调用了&#x200B;*冲浪者ID*。
+
+* &lt;*timestamp*>是格式为YYYYYMMDDHHMMSS的时间(例如，20190821192533用于2019年、月08、日21、时间19:25:33)。
+
+* &lt;*渠道类型*>是负责点击或曝光的渠道类型：
+
+   * `d`点击DSP显示广告（显示点进）
+   * 针对DSP显示广告（显示显示显示到达）的展示的`i`
+   * `s`搜索广告的点击（搜索点进）。
+
+示例`EF ID: WcmibgAAAHJK1RyY:1551968087687:d`
 
 ### [!DNL Analytics]中的EF ID Dimension
 
@@ -57,10 +101,6 @@ Adobe Advertising会使用以下标准来区分网站的点进或浏览条目：
 EF ID受Analysis Workspace中500,000个唯一标识符限制的约束。 一旦达到500k值，所有新跟踪代码都会报告在单行项目标题“[!UICONTROL Low Traffic]”下。 由于可能缺少报表保真度，EF ID不会进行分类，您不应将它们用于[!DNL Analytics]中的区段或报表。
 
 ## ADOBE ADVERTISING AMO ID {#amo-id}
-
-{{$include /help/_includes/amo-id.md}}
-
-## AMO ID格式 {#amo-id-formats}
 
 {{$include /help/_includes/amo-id.md}}
 
@@ -102,7 +142,7 @@ EF ID受Analysis Workspace中500,000个唯一标识符限制的约束。 一旦�
 
 ## 关于Analytics分类
 
-在[!DNL Analytics]中，[分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hans)是给定跟踪代码（如帐户、促销活动或广告）的元数据。 Adobe Advertising使用分类对原始Adobe Advertising数据进行分类，以便在生成报表时能够以不同的方式（例如按广告类型或促销活动）显示数据。 分类构成了[!DNL Analytics]中Adobe Advertising报表的基础，可与AMO指标（如[!UICONTROL Adobe Advertising Cost]、[!UICONTROL Adobe Advertising Impressions]和[!UICONTROL AMO Clicks]）以及自定义和标准现场事件（如[!UICONTROL Visits]、[!UICONTROL Leads]、[!UICONTROL Orders]和[!UICONTROL Revenue]）一起使用。
+在[!DNL Analytics]中，[分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)是给定跟踪代码（如帐户、促销活动或广告）的元数据。 Adobe Advertising使用分类对原始Adobe Advertising数据进行分类，以便在生成报表时能够以不同的方式（例如按广告类型或促销活动）显示数据。 分类构成了[!DNL Analytics]中Adobe Advertising报表的基础，可与AMO指标（如[!UICONTROL Adobe Advertising Cost]、[!UICONTROL Adobe Advertising Impressions]和[!UICONTROL AMO Clicks]）以及自定义和标准现场事件（如[!UICONTROL Visits]、[!UICONTROL Leads]、[!UICONTROL Orders]和[!UICONTROL Revenue]）一起使用。
 
 >[!MORELIKETHIS]
 >
