@@ -46,7 +46,7 @@ Adobe Advertising会使用以下标准来区分网站的点进或浏览条目：
 
 EF ID是一个唯一令牌，Adobe Advertising使用该令牌将活动与单个浏览器或设备级别的在线点击或广告展示相关联。 EF ID主要用作将[!DNL Analytics]数据和Customer Journey Analytics数据发送到Adobe Advertising以在Adobe Advertising中优化报表和竞价的密钥。
 
-对于[!DNL Analytics]，EF ID存储在[an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)或[!DNL rVar] （保留的[!DNL eVar]）维度(Adobe Advertising EF ID)中。
+对于[!DNL Analytics]，EF ID存储在[an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=zh-Hans)或[!DNL rVar] （保留的[!DNL eVar]）维度(Adobe Advertising EF ID)中。
 
 对于Customer Journey Analytics，EF ID存储在`trackingIdentities`对象的`conversionDetails`属性中，该对象是[!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]的一部分。
 
@@ -146,7 +146,7 @@ EF ID受Analysis Workspace中500,000个唯一标识符限制的约束。 一旦�
 
 ## 关于Analytics分类
 
-在[!DNL Analytics]中，[分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)是给定跟踪代码（如帐户、促销活动或广告）的元数据。 Adobe Advertising使用分类对原始Adobe Advertising数据进行分类，以便在生成报表时能够以不同的方式（例如按广告类型或促销活动）显示数据。 分类构成了[!DNL Analytics]中Adobe Advertising报表的基础，可与AMO指标（如[!UICONTROL Adobe Advertising Cost]、[!UICONTROL Adobe Advertising Impressions]和[!UICONTROL AMO Clicks]）以及自定义和标准现场事件（如[!UICONTROL Visits]、[!UICONTROL Leads]、[!UICONTROL Orders]和[!UICONTROL Revenue]）一起使用。
+在[!DNL Analytics]中，[分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hans)是给定跟踪代码（如帐户、促销活动或广告）的元数据。 Adobe Advertising使用分类对原始Adobe Advertising数据进行分类，以便在生成报表时能够以不同的方式（例如按广告类型或促销活动）显示数据。 分类构成了[!DNL Analytics]中Adobe Advertising报表的基础，可与AMO指标（如[!UICONTROL Adobe Advertising Cost]、[!UICONTROL Adobe Advertising Impressions]和[!UICONTROL AMO Clicks]）以及自定义和标准现场事件（如[!UICONTROL Visits]、[!UICONTROL Leads]、[!UICONTROL Orders]和[!UICONTROL Revenue]）一起使用。
 
 >[!MORELIKETHIS]
 >
