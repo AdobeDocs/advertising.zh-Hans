@@ -1,7 +1,7 @@
 ---
-source-git-commit: 47b5d399d4a5daa8832456abc32fff68e694abe9
+source-git-commit: 32602df7b402bd129baf73ef5bb12c4385f01196
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -9,13 +9,17 @@ ht-degree: 0%
 
 ## ADOBE ADVERTISING EF ID
 
-EF ID是一个唯一令牌，Adobe Advertising将其用于关联在线点击或广告曝光。 EF ID存储在[an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=zh-Hans)或[!DNL rVar] （保留的[!DNL eVar]）维度(Adobe Advertising EF ID)中，并跟踪单个浏览器或设备级别的每次广告点击或曝光。 EF ID主要用作将[!DNL Analytics]数据发送到Adobe Advertising以在Adobe Advertising中优化报表和竞价的密钥。
+EF ID是一个唯一令牌，Adobe Advertising使用该令牌将活动与单个浏览器或设备级别的在线点击或广告展示相关联。 EF ID主要用作将[!DNL Analytics]数据和Customer Journey Analytics数据发送到Adobe Advertising以在Adobe Advertising中优化报表和竞价的密钥。
+
+对于[!DNL Analytics]，EF ID存储在[an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)或[!DNL rVar] （保留的[!DNL eVar]）维度(Adobe Advertising EF ID)中。
+
+对于Customer Journey Analytics，EF ID存储在`trackingIdentities`对象的`conversionDetails`属性中，该对象是[!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]的一部分。
 
 ### EF ID格式 {#ef-id-formats}
 
 >[!NOTE]
 >
->EF ID区分大小写。 如果[!DNL Analytics]实施强制将URL跟踪转换为小写，则Adobe Advertising不会识别EF ID。 这会影响Adobe Advertising竞价和报表，但对[!DNL Analytics]内的Adobe Advertising报表没有影响。
+>EF ID区分大小写。 如果[!DNL Analytics]或Customer Journey Analytics实施强制将URL跟踪转换为小写，则Adobe Advertising不会识别EF ID。 这会影响Adobe Advertising竞价和报表，但对[!DNL Analytics]或Customer Journey Analytics中的Adobe Advertising报表没有影响。
 
 #### [!DNL Google Ads]个搜索广告
 

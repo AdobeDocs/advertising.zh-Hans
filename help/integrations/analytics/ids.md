@@ -3,9 +3,9 @@ title: ' [!DNL Analytics]使用的Adobe Advertising ID'
 description: ' [!DNL Analytics]使用的Adobe Advertising ID'
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: dbbba0bd75f3b1003325b665d06bce003c5ee054
+source-git-commit: 1d7f66dd2d4775231fb21e3d79a2e337f375679b
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
@@ -42,57 +42,9 @@ Adobe Advertising会使用以下标准来区分网站的点进或浏览条目：
 
 *图2： Adobe Advertising单击基于URL的[!DNL Analytics]集成*
 
-## ADOBE ADVERTISING EF ID
+<!-- ## Adobe Advertising EF IDs -->
 
-EF ID是一个唯一令牌，Adobe Advertising将其用于关联在线点击或广告曝光。 EF ID存储在[an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=zh-Hans)或[!DNL rVar] （保留的[!DNL eVar]）维度(Adobe Advertising EF ID)中，并跟踪单个浏览器或设备级别的每次广告点击或曝光。 EF ID主要用作将[!DNL Analytics]数据发送到Adobe Advertising以在Adobe Advertising中优化报表和竞价的密钥。
-
-### EF ID格式
-
->[!NOTE]
->
->EF ID区分大小写。 如果[!DNL Analytics]实施强制将URL跟踪转换为小写，则Adobe Advertising不会识别EF ID。 这会影响Adobe Advertising竞价和报表，但对[!DNL Analytics]内的Adobe Advertising报表没有影响。
-
-#### [!DNL Google Ads]个搜索广告
-
-```
-{gclid}:G:s
-```
-
-其中：
-
-* `gclid`是[!DNL Google Click ID] (GCLID)。
-* `s`是网络类型（“s”用于搜索）。
-
-#### [!DNL Microsoft Advertising]个搜索广告
-
-```
-{msclkid}:G:s
-```
-
-其中：
-
-* `msclkid`是[!DNL Microsoft Click ID] (MSCLKID)。
-* `s`是网络类型（“s”用于搜索）。
-
-#### 在其他搜索引擎上显示广告和搜索广告
-
-```
-<Adobe Advertising visitor ID>:<timestamp>:<channel type>
-```
-
-其中：
-
-* &lt;*Adobe Advertising访客ID*>是每位访客的唯一标识（如UhKVaAABCkJ0mDt）。 也调用了&#x200B;*冲浪者ID*。
-
-* &lt;*timestamp*>是格式为YYYYYMMDDHHMMSS的时间(例如，20190821192533用于2019年、月08、日21、时间19:25:33)。
-
-* &lt;*渠道类型*>是负责点击或曝光的渠道类型：
-
-   * `d`点击DSP显示广告（显示点进）
-   * 针对DSP显示广告（显示显示显示到达）的展示的`i`
-   * `s`搜索广告的点击（搜索点进）。
-
-示例`EF ID: WcmibgAAAHJK1RyY:1551968087687:d`
+{{$include /help/_includes/ef-id.md}}
 
 ### [!DNL Analytics]中的EF ID Dimension
 
@@ -102,39 +54,9 @@ EF ID受Analysis Workspace中500,000个唯一标识符限制的约束。 一旦�
 
 ## ADOBE ADVERTISING AMO ID {#amo-id}
 
-AMO ID在较低的粒度级别跟踪每个唯一的广告组合，用于从Adobe Advertising中[!DNL Analytics]数据分类和广告量度（例如展示次数、点击量和成本）的提取。 AMO ID存储在[!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=zh-Hans)或rVar维度(AMO ID)中，仅用于[!DNL Analytics]中的报表。
+AMO ID在较低的粒度级别跟踪每个唯一的广告组合，用于从Adobe Advertising中[!DNL Analytics]数据分类和广告量度（例如展示次数、点击量和成本）的提取。 AMO ID存储在[!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)或rVar维度(AMO ID)中，仅用于[!DNL Analytics]中的报表。
 
 AMO ID也称为`s_kwcid`，有时发音为“[!DNL squid]”。
-
-### 实施AMO ID的方法 {#amo-id-implement}
-
-参数可通过以下方式之一添加到您的跟踪URL中：
-
-* （推荐）实施服务器端插入功能时。
-
-   * DSP客户：当最终用户查看带有Adobe Advertising像素的显示广告时，像素服务器会自动将s_kwcid参数附加到您的登陆页后缀。
-
-   * 搜索、社交和Commerce客户：
-
-      * 对于已为帐户或营销活动启用[!DNL Google Ads]设置的[!DNL Microsoft Advertising]和[!UICONTROL Auto Upload]帐户，当最终用户单击带有Adobe Advertising像素的广告时，像素服务器会自动将s_kwcid参数附加到您的登陆页后缀。
-
-      * 对于其他广告网络，或禁用了[!DNL Google Ads]设置的[!DNL Microsoft Advertising]和[!UICONTROL Auto Upload]帐户，请手动将该参数添加到您的[帐户级别的附加参数](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}，这些参数会将其附加到您的基本URL。
-
-* 未实施服务器端插入功能时：
-
-   * DSP客户： [JavaScript代码](javascript.md)会自动记录点进和显示点进。 当浏览器不支持第三方Cookie时，您仍然可以跟踪以下广告类型的基于点击的转化：
-
-      * 对于[!DNL Flashtalking]广告标记，请手动插入每个“[将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Flashtalking] 广告标记](/help/integrations/analytics/macros-flashtalking.md)”的其他宏。 **注意：**&#x200B;如果您的组织与[!DNL Flashtalking]直接合作，并且您根据`s_kwcid`支持文档(位于`ef_id`https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros[!DNL Flashtalking])使用数据传递宏跟踪[和](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)跟踪参数，则不需要执行此过程。
-
-      * 对于[!DNL Google Campaign Manager 360]广告标记，请手动插入每个“[将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Google Campaign Manager 360] 广告标记](/help/integrations/analytics/macros-google-campaign-manager.md)”的其他宏。
-
-   * 搜索、社交和Commerce客户：
-
-      * 对于（[!DNL Google Ads]和[!DNL Microsoft Advertising]）广告，请手动将AMO ID参数添加到登陆页面后缀，最好在[帐户级别](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}添加，除非需要对各个帐户组件进行不同的跟踪。
-
-      * 对于所有其他广告网络上的广告，请手动将AMO ID参数添加到您的[帐户级别的附加参数](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}，这会将其附加到您的基本URL。
-
-要实施服务器端插入功能或确定最适合您的企业的选项，请联系您的Adobe客户团队。
 
 ### AMO ID格式 {#amo-id-formats}
 
@@ -235,13 +157,13 @@ where:
 >[!NOTE]
 >
 > 对于其营销活动没有[!UICONTROL Auto Upload]跟踪选项且尚未迁移到新格式的帐户，请手动更新每个登陆页面后缀以包含上述格式。
-> &#x200B;>与此同时，旧版格式（如下所示）仍然有效：
+> >与此同时，旧版格式（如下所示）仍然有效：
 >* 搜索促销活动：
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* 购物营销活动（使用[!DNL Microsoft Merchant Center]）：
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 >* 受众网络营销活动：
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 
@@ -264,6 +186,36 @@ where:
 * `{source_type}`是显示广告的网站类型：搜索为&#x200B;*b*，上下文（内容）为&#x200B;*c*，类别为&#x200B;*ct*。
 * `{phrase_id}`是关键词的广告网络的数字ID。
 
+### 实施AMO ID的方法 {#amo-id-implement}
+
+参数可通过以下方式之一添加到您的跟踪URL中：
+
+* （推荐）实施服务器端插入功能时。
+
+   * DSP客户：当最终用户查看带有Adobe Advertising像素的显示广告时，像素服务器会自动将s_kwcid参数附加到您的登陆页后缀。
+
+   * 搜索、社交和Commerce客户：
+
+      * 对于已为帐户或营销活动启用[!DNL Google Ads]设置的[!DNL Microsoft Advertising]和[!UICONTROL Auto Upload]帐户，当最终用户单击带有Adobe Advertising像素的广告时，像素服务器会自动将s_kwcid参数附加到您的登陆页后缀。
+
+      * 对于其他广告网络，或禁用了[!DNL Google Ads]设置的[!DNL Microsoft Advertising]和[!UICONTROL Auto Upload]帐户，请手动将该参数添加到您的[帐户级别的附加参数](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}，这些参数会将其附加到您的基本URL。
+
+* 未实施服务器端插入功能时：
+
+   * DSP客户： [JavaScript代码](javascript.md)会自动记录点进和显示点进。 当浏览器不支持第三方Cookie时，您仍然可以跟踪以下广告类型的基于点击的转化：
+
+      * 对于[!DNL Flashtalking]广告标记，请手动插入每个“[将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Flashtalking] 广告标记](/help/integrations/analytics/macros-flashtalking.md)”的其他宏。 **注意：**&#x200B;如果您的组织与[!DNL Flashtalking]直接合作，并且您根据`s_kwcid`支持文档(位于`ef_id`https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros[!DNL Flashtalking])使用数据传递宏跟踪[和](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)跟踪参数，则不需要执行此过程。
+
+      * 对于[!DNL Google Campaign Manager 360]广告标记，请手动插入每个“[将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Google Campaign Manager 360] 广告标记](/help/integrations/analytics/macros-google-campaign-manager.md)”的其他宏。
+
+   * 搜索、社交和Commerce客户：
+
+      * 对于（[!DNL Google Ads]和[!DNL Microsoft Advertising]）广告，请手动将AMO ID参数添加到登陆页面后缀，最好在[帐户级别](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}添加，除非需要对各个帐户组件进行不同的跟踪。
+
+      * 对于所有其他广告网络上的广告，请手动将AMO ID参数添加到您的[帐户级别的附加参数](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}，这会将其附加到您的基本URL。
+
+要实施服务器端插入功能或确定最适合您的企业的选项，请联系您的Adobe客户团队。
+
 ### [!DNL Analytics]中的AMO ID Dimension
 
 在Analytics报表中，您可以通过搜索[!UICONTROL AMO ID]维度并使用[!UICONTROL AMO ID Instances]量度来查找AMO ID数据。 [!UICONTROL AMO ID]维度包含捕获的所有AMO ID值，而[!UICONTROL AMO ID Instances]量度表示网站捕获AMO ID值的频率。 例如，如果同一搜索广告被点击四次，但Analytics跟踪了七个网站条目，则[!UICONTROL AMO ID Instances]将是七(7)，[!UICONTROL Clicks]将是四(4)。
@@ -272,7 +224,7 @@ where:
 
 ## 关于Analytics分类
 
-在[!DNL Analytics]中，[分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hans)是给定跟踪代码（如帐户、促销活动或广告）的元数据。 Adobe Advertising使用分类对原始Adobe Advertising数据进行分类，以便在生成报表时能够以不同的方式（例如按广告类型或促销活动）显示数据。 分类构成了[!DNL Analytics]中Adobe Advertising报表的基础，可与AMO指标（如[!UICONTROL Adobe Advertising Cost]、[!UICONTROL Adobe Advertising Impressions]和[!UICONTROL AMO Clicks]）以及自定义和标准现场事件（如[!UICONTROL Visits]、[!UICONTROL Leads]、[!UICONTROL Orders]和[!UICONTROL Revenue]）一起使用。
+在[!DNL Analytics]中，[分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)是给定跟踪代码（如帐户、促销活动或广告）的元数据。 Adobe Advertising使用分类对原始Adobe Advertising数据进行分类，以便在生成报表时能够以不同的方式（例如按广告类型或促销活动）显示数据。 分类构成了[!DNL Analytics]中Adobe Advertising报表的基础，可与AMO指标（如[!UICONTROL Adobe Advertising Cost]、[!UICONTROL Adobe Advertising Impressions]和[!UICONTROL AMO Clicks]）以及自定义和标准现场事件（如[!UICONTROL Visits]、[!UICONTROL Leads]、[!UICONTROL Orders]和[!UICONTROL Revenue]）一起使用。
 
 >[!MORELIKETHIS]
 >
