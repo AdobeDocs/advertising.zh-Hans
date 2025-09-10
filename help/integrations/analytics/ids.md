@@ -94,7 +94,7 @@ EF ID受Analysis Workspace中500,000个唯一标识符限制的约束。 一旦�
 
 ## 关于Analytics分类
 
-在[!DNL Analytics]中，[分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)是给定跟踪代码（如帐户、促销活动或广告）的元数据。 Adobe Advertising使用分类对原始Adobe Advertising数据进行分类，以便在生成报表时能够以不同的方式（例如按广告类型或促销活动）显示数据。 分类构成了[!DNL Analytics]中Adobe Advertising报表的基础，可与AMO指标（如[!UICONTROL Adobe Advertising Cost]、[!UICONTROL Adobe Advertising Impressions]和[!UICONTROL AMO Clicks]）以及自定义和标准现场事件（如[!UICONTROL Visits]、[!UICONTROL Leads]、[!UICONTROL Orders]和[!UICONTROL Revenue]）一起使用。
+在[!DNL Analytics]中，[分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hans)是给定跟踪代码（如帐户、促销活动或广告）的元数据。 Adobe Advertising使用分类对原始Adobe Advertising数据进行分类，以便在生成报表时能够以不同的方式（例如按广告类型或促销活动）显示数据。 分类构成了[!DNL Analytics]中Adobe Advertising报表的基础，可与AMO指标（如[!UICONTROL Adobe Advertising Cost]、[!UICONTROL Adobe Advertising Impressions]和[!UICONTROL AMO Clicks]）以及自定义和标准现场事件（如[!UICONTROL Visits]、[!UICONTROL Leads]、[!UICONTROL Orders]和[!UICONTROL Revenue]）一起使用。
 
 >[!MORELIKETHIS]
 >
