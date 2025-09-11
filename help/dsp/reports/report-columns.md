@@ -3,9 +3,9 @@ title: 可用报表列
 description: 请参阅自定义报表中可用列的说明。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 4b09e4c09bd2d028365c820c24ac041fb5e5283c
+source-git-commit: ae7431218dcb547ded53d4bad1a79b894ee973fe
 workflow-type: tm+mt
-source-wordcount: '2306'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign ID] | DSP中营销活动的唯一标识符。 |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Name] | 用户分配的营销活动的名称。 |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Start Date] | 营销活动的第一个日期。 |
-| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Title] | 内容标题。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Title] | 内容/电影标题。 |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Series] | 内容系列。 |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Genre] | 内容流派。 |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | 由[IAB技术实验室](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md)定义的生产质量。 值可以`Unknown`、`Professionally Produced`、`Prosumer`或`User Generated`。 |
