@@ -3,9 +3,9 @@ title: 用户界面的组织方式
 description: 了解在何处访问不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 2d218c960cd74fdfa9c981540951d7305b7740c7
+source-git-commit: 553d0c90160cb12b8b32d3540c58797e6fac2abb
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1071'
 ht-degree: 0%
 
 ---
@@ -38,15 +38,15 @@ ht-degree: 0%
 
 * **[!UICONTROL Manage]**&#x200B;子菜单：
 
-   * **[!UICONTROL Portfolio Groups]：**&#x200B;退出新的UI站点并打开旧版[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Portfolios]视图> [!UICONTROL Portfolio Groups]选项卡。
+<!--  * **[!UICONTROL Portfolio Groups]:** Exits the new UI site and opens the legacy [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Portfolios] view > [!UICONTROL Portfolio Groups] tab. -->
 
-   * **[!UICONTROL Portfolios]：**&#x200B;打开一个新的[!UICONTROL Portfolios]视图，其中列出了广告商的所有项目组合。 您可以从此视图管理您的项目组合。 您可以打开已分配约束的列表，并查看任何项目组合的性能和构成详细信息。
+* **[!UICONTROL Portfolios]：**&#x200B;打开一个新的[!UICONTROL Portfolios]视图，其中列出了广告商的所有项目组合。 您可以从此视图管理您的项目组合。 您可以打开已分配约束的列表，并查看任何项目组合的性能和构成详细信息。
 
-     项目组合设置包括用于分配目标和营销策划、管理支出、管理约束和控制优化的选项卡。 只有具有“专家优化”角色或更高角色的用户才能编辑[!UICONTROL Control Optimization]选项卡上的设置。
+  项目组合设置包括用于分配目标和营销策划、管理支出、管理约束和控制优化的选项卡。 只有具有“专家优化”角色或更高角色的用户才能编辑[!UICONTROL Control Optimization]选项卡上的设置。
 
-   * **[!UICONTROL Campaigns]：**&#x200B;打开一个新的[!UICONTROL Campaigns]视图，该视图显示广告商的所有营销活动。 您可以将营销活动分配给项目组合并管理选定营销活动的限制分配。 您还可以下载数据表内容的报表。<!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
+* **[!UICONTROL Campaigns]：**&#x200B;打开一个新的[!UICONTROL Campaigns]视图，该视图显示广告商的所有营销活动。 您可以将营销活动分配给项目组合并管理选定营销活动的限制分配。 您还可以下载数据表内容的报表。<!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
-     要创建、编辑和删除营销活动，请在主菜单中单击&#x200B;**[!UICONTROL Set Up]** > **[!UICONTROL Accounts]**&#x200B;或单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)以返回旧版用户界面。
+  要创建、编辑和删除营销活动，请在主菜单中单击&#x200B;**[!UICONTROL Set Up]** > **[!UICONTROL Accounts]**&#x200B;或单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)以返回旧版用户界面。
 
 * **[!UICONTROL Ad Groups]：**&#x200B;打开一个新的[!UICONTROL Ad Groups]视图，该视图显示广告商的所有广告组。 您可以管理选定广告组的限制分配。 您还可以下载数据表内容的报表。
 
