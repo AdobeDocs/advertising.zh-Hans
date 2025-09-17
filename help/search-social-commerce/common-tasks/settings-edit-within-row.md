@@ -3,9 +3,9 @@ title: 直接在行中编辑设置
 description: 了解如何在行的管理视图中编辑数据。
 exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: 533484b8e2e462891d7d34091991047b2d9b62c7
+source-git-commit: dac4989bf58f823fee5ea1adf5f8d71348001a11
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 ## （新UI）编辑行中的设置
 
-1. 在单元格内单击使其处于活动状态，或将光标悬停在值上。
+1. 将光标悬停在行上并选择值。 根据列，您可能需要单击值旁边的![编辑](/help/search-social-commerce/assets/edit-new.png "编辑")或&#x200B;**[!UICONTROL ...]** > ![编辑](/help/search-social-commerce/assets/edit-new.png "编辑")。 要重命名实体名称，请单击该名称并选择&#x200B;**[!UICONTROL Rename]**。
 
 1. 更改值：
 
    * （列表中的选项）从列表中选择一个新选项。
 
-   * （自由格式值）单击![编辑](/help/search-social-commerce/assets/edit-new.png "编辑")，更改该值，然后单击&#x200B;**应用**。
+   * （自由格式值）更改值，然后单击&#x200B;**应用**。
 
 
 ## （旧版UI）编辑行中的设置
