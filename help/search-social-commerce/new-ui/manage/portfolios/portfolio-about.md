@@ -3,9 +3,10 @@ title: （新UI）关于项目组合
 description: 了解项目组合。
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
+source-git-commit: f7c63646b3eae20fd3413446789fe06ce583e23e
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 某些用户角色可以创建和配置项目组合。 根据项目组合类型，项目组合设置可能包括项目组合目标、分配的活动、支出策略、任何项目组合级别的竞价约束以及建模和优化参数。 当您准备好进行搜索、Social和Commerce以开始优化项目组合时，请将状态更改为“已优化”。
 
-您可以选择将项目组合分组到项目组合组中，以便查看整个组的组合点击和收入数据。 从[旧版UI](/help/search-social-commerce/getting-started/ui-switch.md)创建项目组合组。
+您可以选择将项目组合分组到[项目组合组](portfolio-group-manage.md)中，以便查看整个组的组合数据。
 
 根据您的角色，您可以生成性能模拟，这些模拟使用预测建模来标识最佳支出点和详细的预测准确度报表。<!-- Mention this now? In addition, all users can use the Spend Recommendation Tool to identify the optimal budget distribution across portfolios. -->
 
