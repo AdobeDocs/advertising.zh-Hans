@@ -3,7 +3,7 @@ title: 附加广告和从投放位置删除广告
 description: 了解如何将广告附加到投放位置以及从投放位置中删除广告。
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
+source-git-commit: 72306c4cd44abe093fd9db0dabd5a8b5dde5dd4d
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
