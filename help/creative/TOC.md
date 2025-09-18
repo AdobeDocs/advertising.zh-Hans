@@ -17,8 +17,8 @@ ht-degree: 0%
 + 简介 {#introduction}
    + [关于Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [自定义数据视图](/help/creative/introduction/customize-data-views.md)
-   + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Creative库 {#creative-libraries}
    + [关于您的创意库](/help/creative/creative-libraries/creative-libraries-about.md)
    + [支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)
@@ -78,4 +78,4 @@ ht-degree: 0%
 + [正在重新定位像素](/help/creative/pixels/retargeting-pixel-manage.md)
 + [可用于跟踪URL的宏](/help/creative/creative-macros.md)
 + [获取帮助](/help/creative/get-help.md)
-+ [Adobe Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
++ [Adobe Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans){target="_blank"}
