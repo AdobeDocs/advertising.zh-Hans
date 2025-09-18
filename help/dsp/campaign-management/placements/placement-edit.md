@@ -102,4 +102,4 @@ ht-degree: 0%
 >* [位置设置](placement-settings.md)
 >* [查看投放预测报告](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [键盘快捷键](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [视频：如何使用批量编辑工具编辑版面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [视频：如何使用批量编辑工具编辑版面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=zh-Hans)
