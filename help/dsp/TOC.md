@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: a2cf15742557686df280b2a73eea996be53e5f4d
+source-git-commit: a3bd04da6c6f428fdb6e1f05187ea3de0174c9d7
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '957'
 ht-degree: 3%
 
 ---
@@ -32,8 +32,8 @@ ht-degree: 3%
       + [Cross-Device Solutions](/help/dsp/introduction/features/cross-device-solutions.md)
    + [帐户资金](/help/dsp/introduction/billing/account-funding.md)
    + [支持的货币](/help/dsp/currency.md)
-   + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [高级测量解决方案](/help/dsp/introduction/advanced-measurement-services.md)
 + Campaign Management {#campaign-management}
    + [Campaign管理结构概述](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -67,11 +67,12 @@ ht-degree: 3%
       + [编辑版面](/help/dsp/campaign-management/placements/placement-edit.md)
       + [复制投放位置](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [管理投放位置的竞价乘数](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
-      + [将广告附加到投放位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
+      + [附加广告和从投放位置删除广告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
+      + [附加和删除广告中的像素](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md)
       + [编辑投放的广告计划](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
       + [查看投放位置的详细报告](/help/dsp/campaign-management/placements/placement-view-report.md)
       + [查看投放位置的更改日志](/help/dsp/campaign-management/placements/placement-change-log.md)
-      + [暂停或激活投放位置](/help/dsp/campaign-management/placements/placement-pause-activate.md)
+      + [取消激活或激活投放位置](/help/dsp/campaign-management/placements/placement-pause-activate.md)
       + [存档或取消存档投放位置](/help/dsp/campaign-management/placements/placement-archive-unarchive.md)
       + [投放设置](/help/dsp/campaign-management/placements/placement-settings.md)
    + 广告 {#ads}
@@ -83,7 +84,7 @@ ht-degree: 3%
       + [使用电子表格查看广告详细信息](/help/dsp/campaign-management/ads/ad-qa.md)
       + [编辑广告](/help/dsp/campaign-management/ads/ad-edit.md)
       + [复制广告](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [将广告附加到投放位置](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=zh-Hans)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
+      + [附加广告并从投放位置中删除广告](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [列出与广告关联的版面](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [查看广告的详细报告](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [暂停或激活广告](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -238,6 +239,6 @@ ht-degree: 3%
    + 通知 {#notifications}
       + [关于警报订阅](/help/dsp/admin/alerts-about.md)
       + [管理警报订阅](/help/dsp/admin/alerts-manage.md)
-+ [与Adobe Experience Cloud的集成](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hans)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
++ [与Adobe Experience Cloud的集成](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [获取帮助](/help/dsp/get-help.md)
-+ [Adobe Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)
++ [Adobe Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)

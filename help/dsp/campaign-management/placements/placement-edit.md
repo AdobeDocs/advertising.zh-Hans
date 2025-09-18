@@ -3,7 +3,7 @@ title: 编辑版面
 description: 了解如何编辑投放位置。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 19be64303a0a86e916edacde439a852aac0a89f5
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 1. 单击营销活动的名称。
 1. 在子菜单中，单击&#x200B;**[!UICONTROL Placements]**。
-1. 在投放位置名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**。
+1. 在投放位置名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit]** > **[!UICONTROL Quick Edit]**。
 1. 编辑任何可用的[位置设置](placement-settings.md)： **[!UICONTROL Placement Name]**、**[!UICONTROL Status]**、**[!UICONTROL Max Bid]**&#x200B;和&#x200B;**[!UICONTROL Budget]**。
 1. 单击&#x200B;**[!UICONTROL Apply]**。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 1. 在子菜单中，单击&#x200B;**[!UICONTROL Placements]**。
 
-1. 在投放位置名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit]**。
+1. 在投放位置名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit]** **[!UICONTROL Full Edit]** > 。
 
 1. 编辑[位置设置](placement-settings.md)。
 
@@ -97,9 +97,9 @@ ht-degree: 0%
 >* [复制投放位置](placement-duplicate.md)
 >* [管理投放位置的竞价乘数](placement-manage-bid-multipliers.md)
 >* [编辑投放位置的广告计划](placement-edit-ad-schedule.md)
->* [暂停或激活投放位置](placement-pause-activate.md)
+>* [停用或激活投放位置](placement-pause-activate.md)
 >* [查看投放位置的更改日志](placement-change-log.md)
 >* [位置设置](placement-settings.md)
 >* [查看投放预测报告](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [键盘快捷键](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [视频：如何使用批量编辑工具编辑版面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=zh-Hans)
+>* [视频：如何使用批量编辑工具编辑版面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

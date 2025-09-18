@@ -3,9 +3,9 @@ title: 关于见解
 description: 了解可视化图表的性能见解。
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: a098e99f26a4e7d472d4a391d2cd465fc8d4255b
+source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,8 @@ ht-degree: 0%
 * （要打开所有营销活动的分析）在主菜单中，单击&#x200B;**[!UICONTROL Insights BETA]**。
 
 * （要打开特定营销活动、包或投放位置的见解）在[!UICONTROL Campaigns]、[!UICONTROL Packages]或[!UICONTROL Placements]视图中的实体名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Insights]**。
+
+* （要打开特定投放位置的见解）在[!UICONTROL Campaigns]、[!UICONTROL Packages]或[!UICONTROL Placements]视图中的实体名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Insights]**。
 
 ## 将过滤器应用到选项卡
 

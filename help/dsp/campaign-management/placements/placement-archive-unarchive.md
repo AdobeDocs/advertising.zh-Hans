@@ -3,7 +3,7 @@ title: 存档或取消存档投放位置
 description: 了解如何存档或取消存档投放位置。
 feature: DSP Placements
 exl-id: 4304452d-4573-46b3-892e-299950a75d4f
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -40,6 +40,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [暂停或激活投放位置](placement-pause-activate.md)
+>* [停用或激活投放位置](placement-pause-activate.md)
 >* [编辑版面](placement-edit.md)
 >* [查看投放位置的更改日志](placement-change-log.md)

@@ -3,7 +3,7 @@ title: 通用视频广告设置
 description: 请参阅对通用视频广告可用广告设置的描述。
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Pixel]
 
-投放位置的所有现有事件跟踪像素都会自动附加。 您可以根据单个广告的跟踪需求，分离现有像素并根据需要创建新像素。 **提示：**&#x200B;要使用[!UICONTROL Ad Tools]视图在投放位置中一次编辑多个广告的第三方跟踪像素，请参阅“[将第三方跟踪像素附加到投放位置中的广告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads)”。
+投放位置的所有现有事件跟踪像素都会自动附加。 您可以根据单个广告的跟踪需求，分离现有像素并根据需要创建新像素。 **提示：**&#x200B;要使用[!UICONTROL Ad Tools]视图在投放位置中一次编辑多个广告的第三方跟踪像素，请参阅“[将第三方跟踪像素附加到投放位置中的广告](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads)”。
 
 以下设置适用于创建或编辑的每个像素。
 

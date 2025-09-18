@@ -3,7 +3,7 @@ title: 快速编辑键位置设置
 description: 了解如何快速更改关键位置设置。
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 1. 单击营销活动的名称。
 1. 在子菜单中，单击&#x200B;**[!UICONTROL Placements]**。
-1. 在投放位置名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**。
+1. 在投放位置名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit]** > **[!UICONTROL Quick Edit]**。
 1. 编辑任何可用的[位置设置](placement-settings.md)： **[!UICONTROL Placement Name]**、**[!UICONTROL Status]**、**[!UICONTROL Max Bid]**&#x200B;和&#x200B;**[!UICONTROL Budget]**。
 1. 单击&#x200B;**[!UICONTROL Apply]**。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 >* [复制投放位置](placement-duplicate.md)
 >* [管理投放位置的竞价乘数](placement-manage-bid-multipliers.md)
 >* [编辑投放位置的广告计划](placement-edit-ad-schedule.md)
->* [暂停或激活投放位置](placement-pause-activate.md)
+>* [停用或激活投放位置](placement-pause-activate.md)
 >* [查看投放位置的更改日志](placement-change-log.md)
 >* [位置设置](placement-settings.md)
->* [视频：如何使用批量编辑工具编辑版面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=zh-Hans)
+>* [视频：如何使用批量编辑工具编辑版面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

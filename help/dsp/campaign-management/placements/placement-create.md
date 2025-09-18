@@ -3,7 +3,7 @@ title: 创建投放位置
 description: 了解如何创建投放位置。
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -94,45 +94,45 @@ ht-degree: 0%
 
       * 要在营销活动中附加现有广告，请执行以下操作：
 
-      1. 单击&#x200B;**[!UICONTROL Select an Ad]**。
-
-      1. 执行以下任一操作：
-
-         * 要一次添加一个广告，请执行以下操作：
-
-            1. 在广告名称旁边，单击&#x200B;**[!UICONTROL Select]。**
-
-            1. （可选）对于要附加的每个其他广告，单击&#x200B;**[!UICONTROL Attach Another Ad]**，然后重复该过程。
-
-         * 要一次最多添加20个广告，请执行以下操作：
-
-            1. 选中广告列表上方的复选框。
-
-            1. 选中要添加的每个广告旁边的复选框。
-
-            1. 单击&#x200B;**[!UICONTROL Attach]**。
-
-            1. 在广告名称旁边，单击&#x200B;**[!UICONTROL Select]**。
-
-      1. （可选）要覆盖投放位置中特定广告的默认投放期限和广告轮换，请执行以下操作：
-
-         1. 单击&#x200B;**[!UICONTROL Custom Schedule Ads]**。
+         1. 单击&#x200B;**[!UICONTROL Select an Ad]**。
 
          1. 执行以下任一操作：
 
-            * 要添加航班，请单击&#x200B;**[!UICONTROL Add Flight]**，然后指定开始日期和结束日期。
+            * 要一次添加一个广告，请执行以下操作：
 
-            * 要将现有航班添加到广告，请单击航班列的广告行中的&#x200B;**[!UICONTROL +]**。
+               1. 在广告名称旁边，单击&#x200B;**[!UICONTROL Select]。**
 
-            * 要从广告中删除现有航班，请单击航班列的广告行中的&#x200B;**[!UICONTROL x]**。
+               1. （可选）对于要附加的每个其他广告，单击&#x200B;**[!UICONTROL Attach Another Ad]**，然后重复该过程。
 
-            * （当多个广告具有相同的飞行时）要不均匀旋转广告，请在飞行信息中单击&#x200B;**[!UICONTROL Even Rotation]**，然后输入旋转每个广告的相对权重（百分比）。
+            * 要一次最多添加20个广告，请执行以下操作：
 
-              总重量必须等于100。
+               1. 选中广告列表上方的复选框。
 
-         1. 单击右上角的&#x200B;**[!UICONTROL Continue]**。
+               1. 选中要添加的每个广告旁边的复选框。
 
-         1. 查看航班详细信息，然后单击&#x200B;**[!UICONTROL Save & Finish]**。
+               1. 单击&#x200B;**[!UICONTROL Attach]**。
+
+               1. 在广告名称旁边，单击&#x200B;**[!UICONTROL Select]**。
+
+         1. （可选）要覆盖投放位置中特定广告的默认投放期限和广告轮换，请执行以下操作：
+
+            1. 单击&#x200B;**[!UICONTROL Custom Schedule Ads]**。
+
+            1. 执行以下任一操作：
+
+               * 要添加航班，请单击&#x200B;**[!UICONTROL Add Flight]**，然后指定开始日期和结束日期。
+
+               * 要将现有航班添加到广告，请单击航班列的广告行中的&#x200B;**[!UICONTROL +]**。
+
+               * 要从广告中删除现有航班，请单击航班列的广告行中的&#x200B;**[!UICONTROL x]**。
+
+               * （当多个广告具有相同的飞行时）要不均匀旋转广告，请在飞行信息中单击&#x200B;**[!UICONTROL Even Rotation]**，然后输入旋转每个广告的相对权重（百分比）。
+
+                 总重量必须等于100。
+
+            1. 单击右上角的&#x200B;**[!UICONTROL Continue]**。
+
+            1. 查看航班详细信息，然后单击&#x200B;**[!UICONTROL Save & Finish]**。
 
 >[!MORELIKETHIS]
 >
@@ -140,11 +140,11 @@ ht-degree: 0%
 >* [编辑版面](placement-edit.md)
 >* [管理投放位置的竞价乘数](placement-manage-bid-multipliers.md)
 >* [编辑投放位置的广告计划](placement-edit-ad-schedule.md)
->* [暂停或激活投放位置](placement-pause-activate.md)
+>* [停用或激活投放位置](placement-pause-activate.md)
 >* [查看投放位置的更改日志](placement-change-log.md)
 >* [位置设置](placement-settings.md)
 >* [查看投放预测报告](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* 有关通用视频的[常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)
 >* [键盘快捷键](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [性能疑难解答](/help/dsp/optimization/troubleshooting-performance.md)
->* [视频：如何创建标准展示投放位置](https://video.tv.adobe.com/v/344997?captions=chi_hans)
+>* [视频：如何创建标准展示投放位置](https://video.tv.adobe.com/v/340454)

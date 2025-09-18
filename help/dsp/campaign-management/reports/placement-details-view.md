@@ -3,9 +3,9 @@ title: 查看投放的网站、广告、频度和库存详细信息
 description: 了解如何查看投放的目标网站、广告、频率和库存数据。
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Ads]：**&#x200B;投放位置中的所有广告。
 
-  [!UICONTROL Ads]选项卡包括搜索和筛选功能、主页上提供的相同标准和自定义列视图选项，以及每行中的快速操作按钮，如[!UICONTROL Pause] （以便您可以快速暂停广告）。
+  [!UICONTROL Ads]选项卡包括搜索和筛选功能、主页上提供的相同标准和自定义列视图选项以及每行中的快速操作按钮，如[!UICONTROL View Ad Approvals]。
 
 * **[!UICONTROL Frequency]：**&#x200B;投放位置的每个广告频率级别的数据，包括：
    * 广告频率级别（例如“1”，适用于用户一次看到广告的所有实例）
@@ -36,7 +36,7 @@ ht-degree: 0%
 
   [!UICONTROL Inventory]选项卡通过显示性能统计信息（如[!UICONTROL Auctions]、[!UICONTROL Bids]和[!UICONTROL Win Rate]）启用快速故障排除。 该选项卡包括搜索和筛选功能、主页上提供的相同标准和自定义列视图选项，以及每行中的快速操作按钮，包括[!UICONTROL Edit]、[!UICONTROL View Report]和[[!UICONTROL Auction Insights]，用于进一步排除故障](/help/dsp/inventory/private-deal-auction-insights.md)。
 
-## 打开[!UICONTROL Placement Inspector]
+## 打开[!UICONTROL Placement Inspector] {#inspector-open}
 
 1. 打开父营销活动或包的“版面”视图：
 
@@ -58,21 +58,21 @@ ht-degree: 0%
 
       1. 单击父包的名称。
 
-1. 将光标悬停在放置行上，单击&#x200B;**[!UICONTROL More]**，然后单击一个选项：
-
-   * 要查看投放目标的所有网站，请单击&#x200B;**[!UICONTROL Sites]**。
-
-   * 要查看投放位置中的所有广告，请单击&#x200B;**[!UICONTROL Ads]**。
-
-   * 要查看投放位置的频率数据，请单击&#x200B;**[!UICONTROL Frequency]**。
-
-   * 要查看投放目标的所有交易，请单击&#x200B;**[!UICONTROL Inventory]**。
+1. 将光标悬停在放置行上，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Inspector]**。
 
 1. （可选）[根据需要更改列视图](campaign-data-views-manage.md#column-view-change)以查看所需的量度。
 
 1. （可选）要导出任意选项卡上的数据，请单击右上角的![更多](/help/search-social-commerce/assets/more.png "更多")，然后单击&#x200B;**[!UICONTROL Export]**。
 
    数据以XLSM格式作为报表保存到浏览器的默认下载文件夹中。
+
+## 从[!UICONTROL Placement Inspector]中的投放位置删除广告 {#remove-ads-placement-inspector}
+
+1. [打开[!UICONTROL Placement Inspector]](#inspector-open)。
+
+1. 单击&#x200B;**[!UICONTROL Ads]**&#x200B;选项卡。
+
+1. 在广告名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Detach]**。
 
 ## 清单疑难解答
 
@@ -90,5 +90,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* Campaign Management视图中的[性能报告类型](campaign-reports-about.md)
+>* 营销活动管理视图中的[性能报表类型](campaign-reports-about.md)
 >* [管理您的Campaign数据视图](campaign-data-views-manage.md)

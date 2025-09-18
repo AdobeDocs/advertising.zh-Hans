@@ -3,9 +3,9 @@ title: 本机显示广告设置
 description: 请参阅本机显示广告可用广告设置的说明。
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-source-git-commit: 152ba89baa17264a74a1a2498e0140972a0470eb
+source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -32,17 +32,17 @@ ht-degree: 0%
 
 **[!UICONTROL Landing Page]：**&#x200B;查看者在单击广告时登陆的URL。
 
-**[!UICONTROL Final Landing Page]：**&#x200B;插入了包含必要的[Advertising DSP跟踪宏](/help/dsp/campaign-management/macros.md)的[!UICONTROL Landing Page] URL（如果适用）。
+**[!UICONTROL Final Landing Page]：**&#x200B;插入了包含必要的[!UICONTROL Landing Page]Advertising DSP跟踪宏[的](/help/dsp/campaign-management/macros.md) URL（如果适用）。
 
 **[!UICONTROL Sponsored By (Advertiser Name)]：**&#x200B;广告的广告商。
 
 **[!UICONTROL Call to Action]：**（可选）您希望查看者在看到此广告后执行的步骤。
 
-**[!UICONTROL Advertiser Logo]：**（可选）要包含在广告中的1:1比例徽标，以提高品牌知名度。 单击&#x200B;**[!UICONTROL Browse]**&#x200B;并在您的设备或网络上找到该文件，然后单击&#x200B;**[!UICONTROL Upload]**。
+**[!UICONTROL Advertiser Logo]：**（可选）要在广告中包含的1:1比率徽标，以提高品牌知名度。 单击&#x200B;**[!UICONTROL Browse]**&#x200B;并在您的设备或网络上找到该文件，然后单击&#x200B;**[!UICONTROL Upload]**。
 
 ### [!UICONTROL Pixel]
 
-投放位置的所有现有事件跟踪像素都会自动附加。 您可以根据单个广告的跟踪需求，分离现有像素并根据需要创建新像素。 **提示：**&#x200B;要使用[!UICONTROL Ad Tools]视图在投放位置中一次编辑多个广告的第三方跟踪像素，请参阅“[将第三方跟踪像素附加到投放位置中的广告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads)”。
+投放位置的所有现有事件跟踪像素都会自动附加。 您可以根据单个广告的跟踪需求，分离现有像素并根据需要创建新像素。 **提示：**&#x200B;要使用[!UICONTROL Ad Tools]视图在投放位置中一次编辑多个广告的第三方跟踪像素，请参阅“[将第三方跟踪像素附加到投放位置中的广告](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads)”。
 
 以下设置适用于创建或编辑的每个像素。
 

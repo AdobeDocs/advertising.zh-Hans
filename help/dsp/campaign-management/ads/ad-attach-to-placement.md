@@ -1,166 +1,113 @@
 ---
-title: 将广告附加到投放位置
-description: 了解如何将广告附加到投放位置。
+title: 附加广告和从投放位置删除广告
+description: 了解如何将广告附加到投放位置以及从投放位置中删除广告。
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 86acfaecdf761adc7c6585a49dbcdf4490290a8c
+source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
 
-# 将广告附加到投放位置
+# 附加广告和从投放位置删除广告
 
-使用[!UICONTROL Ad Tools]视图可将广告附加到投放位置，将第三方跟踪像素附加到广告，并将现有的第三方跟踪像素与广告分离。
+您可以附加广告或从投放位置中删除广告。
 
 >[!NOTE]
 >
 >通用视频广告只能附加到通用视频投放位置。
 
-## 打开[!UICONTROL Ad Tools]视图 {#ad-tools-open}
+## 从[!UICONTROL Placements]视图将广告附加到投放位置 {#attach-ads-placement}
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 
 1. 单击营销活动的名称。
 
-1. 通过以下任一方式打开[!UICONTROL Ad Tools]视图：
+1. 单击&#x200B;**[!UICONTROL Placements]**&#x200B;选项卡。
 
-   * （从[!UICONTROL Packages] 、 [!UICONTROL Placements]或[!UICONTROL Ads]视图）在右上角，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**。
+1. 执行以下任一操作：
 
-   * （从[!UICONTROL Placements]视图中）在投放位置名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Attach Ads]。**
+   * （对于单个投放位置）在投放位置名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Ads]** > **[!UICONTROL Attach Ads]**。
 
-   * （从[!UICONTROL Ads]视图中）在广告名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**。
+   * （将相同的广告附加到多个投放位置）选中每个投放位置名称的复选框。 在批量操作菜单中，单击&#x200B;**[!UICONTROL Attach Ads]**。
 
-   默认情况下选择[!UICONTROL Attach Ads]选项卡。
+1. 选中要附加的每个广告旁边的复选框
 
-## 将广告附加到投放位置 {#attach-ads-campaign}
+1. 单击&#x200B;**[!UICONTROL Attach Selected Ads]**。
 
-1. [打开[!UICONTROL Ad Tools]视图](#ad-tools-open)。
+## 从[!UICONTROL Ads]视图将广告附加到投放位置 {#attach-ads}
 
-1. 在[!UICONTROL Edit]子视图中，对要附加到投放位置的每个广告组执行以下操作：
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 
-   1. （可选）通过以下任意方式查找特定投放位置和广告：
+1. 单击营销活动的名称。
 
-      * 在左表上方单击![筛选器](/help/dsp/assets/filter.png)，并按包、版面类型、版面状态、广告类型或广告状态筛选列表。
+1. 单击&#x200B;**[!UICONTROL Ads]**&#x200B;选项卡。
 
-      * 在右表和左表的上方，搜索版面和广告名称中的特定文本字符串。
+1. 在广告旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Add to placements]**。
 
-   1. 在左表中，选中每个要向其附加广告的版面旁边的复选框。
+1. 执行以下任一操作：
 
-   1. 在右侧表格中，选中要附加到所选投放位置的每个广告旁边的复选框。
+   * 要创建新投放位置并将广告附加到该投放位置，请执行以下操作：
 
-      只有适用于投放类型且尚未附加到所选投放位置的广告才可选择。
+      1. 单击&#x200B;**[!UICONTROL Create a New Placement]**。
 
-   1. 单击右下角的&#x200B;**[!UICONTROL Attach]**。
+      1. 输入[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)，然后单击&#x200B;**[!UICONTROL Create Placement]**。
 
-1. （可选）要返回到营销活动详细信息视图，请单击![返回到文件夹](/help/dsp/assets/breadcrumb-return.png "返回到文件夹[!UICONTROL Ad Tools]左侧的文件夹")，然后选择营销活动名称。
+         投放位置类型由广告类型决定。
 
-## 查看附加到投放位置的广告 {#view-ads-campaign}
+      1. 单击&#x200B;**[!UICONTROL Attach ad]**。
 
-<!-- should be a separate page, combined with "List the Placements Associated with an Ad" (although that pertains to a single ad only), or maybe just rename this topic -->
+      1. 选中要附加到投放位置的每个广告旁边的复选框。
 
-1. [打开[!UICONTROL Ad Tools]视图](#ad-tools-open)。
+      1. 单击&#x200B;**[!UICONTROL Attach Selected Ads]**。
 
-1. 切换到右上角的&#x200B;**[!UICONTROL View]**&#x200B;选项。
+   * 要将广告附加到现有投放位置，请执行以下操作：
 
-1. （可选）根据需要查找特定投放位置和广告：
+      1. 单击&#x200B;**[!UICONTROL Select a Placement].**
 
-   * 在左表上方单击![筛选器](/help/dsp/assets/filter.png)，并按包、版面类型、版面状态、广告类型或广告状态筛选列表。
+      1. 在投放位置名称旁边，单击&#x200B;**[!UICONTROL Select].**
 
-   * 在右侧和左侧表格中，搜索版面或广告名称中的特定文本字符串。
+      1. （可选）对于每个其他投放位置，单击&#x200B;**[!UICONTROL Attach To Another Placement]**，然后重复上述步骤。
 
-1. 单击左侧表中的任意版面行可查看右侧表中的附加广告。
+      1. 单击&#x200B;**[!UICONTROL I'm done for now]**。
 
-1. （可选）要将更多广告附加到营销活动的投放位置，请切换到右上角的&#x200B;**[!UICONTROL Edit]**&#x200B;视图。 有关说明，请参阅上一过程中的步骤2“[将广告附加到投放位置](#attach-ads-campaign)”。
+## 从[!UICONTROL Placements]视图中的投放位置删除广告 {#remove-ads-placement}
 
-## 将第三方跟踪像素附加到投放位置中的广告 {#attach-pixels-ads}
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 
-1. [打开[!UICONTROL Ad Tools]视图](#ad-tools-open)。
+1. 单击营销活动的名称。
 
-1. 单击&#x200B;**[!UICONTROL Attach Pixels]**&#x200B;选项卡。
+1. 单击&#x200B;**[!UICONTROL Placements]**&#x200B;选项卡。
 
-1. 在[!UICONTROL Edit]子视图中：
+1. 执行以下任一操作：
 
-   1. （可选）通过以下任意方式查找广告和第三方像素：
+   * （对于单个投放位置）在投放位置名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Ads]** > **[!UICONTROL Detach Ads]**。
 
-      * 在左表上方，单击![过滤器](/help/dsp/assets/filter.png)并按广告状态、广告类型、像素集成事件或像素类型过滤列表。
+   * （要从多个版面中删除相同的广告）选中每个版面名称的复选框。 在批量操作菜单中，单击&#x200B;**[!UICONTROL Detach Ads]**。
 
-      * 在右表和左表的上方，搜索广告名称和像素名称中的特定文本字符串。
+1. 选中每个要删除的广告旁边的复选框。
 
-   1. （如果营销活动不存在第三方跟踪像素）创建像素：
+1. 单击&#x200B;**[!UICONTROL Detach Selected Ads]**。
 
-      1. 在右表中，单击&#x200B;**[!UICONTROL Create pixel]**。
+## 从[!UICONTROL Placement Inspector]中的投放位置删除广告 {#remove-ads-placement-inspector}
 
-      1. 指定设置：
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 
-         **[!UICONTROL Integration Event]：**&#x200B;触发像素触发的事件，如&#x200B;*[!UICONTROL Impression]*&#x200B;或&#x200B;*[!UICONTROL Click-through]*。
+1. 单击营销活动的名称。
 
-         **[!UICONTROL Pixel Type]：**&#x200B;像素是&#x200B;*[!UICONTROL IMG URL]* （1x1像素图像文件）、*[!UICONTROL HTML]*&#x200B;还是&#x200B;*[!UICONTROL JavaScript URL]*。
+1. 单击&#x200B;**[!UICONTROL Placements]**&#x200B;选项卡。
 
-         **[!UICONTROL Pixel URL or Code]：**&#x200B;像素图像的URL，采用指定像素类型的相应格式。
+1. 将光标悬停在放置行上，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Inspector]**。
 
-         **[!UICONTROL Pixel Name]：**&#x200B;像素名称。 使用有助于您轻松识别像素的名称。
+1. 单击&#x200B;**[!UICONTROL Ads]**&#x200B;选项卡。
 
-         **[!UICONTROL Pixel Provider]：**&#x200B;像素提供程序： *[!UICONTROL None]*、*[!UICONTROL Comscore]*、*[!UICONTROL WhiteOps]*&#x200B;或&#x200B;*[!UICONTROL IAS]*。
-
-      1. 单击&#x200B;**[!UICONTROL Save]**。
-
-   1. 在左表中，选中要附加第三方跟踪像素的每个广告旁边的复选框。
-
-   1. 在右侧表格中，选中要附加到所选广告的每个第三方跟踪像素旁边的复选框。
-
-      只有尚未附加到选定广告的像素才是可选的。
-
-   1. 单击右下角的&#x200B;**[!UICONTROL Attach]**。
-
-1. （可选）要返回到营销活动详细信息视图，请单击![返回到文件夹](/help/dsp/assets/breadcrumb-return.png "返回到文件夹[!UICONTROL Ad Tools]左侧的文件夹")，然后选择营销活动名称。
-
-## 将第三方跟踪像素与投放位置中的广告分离 {#detach-pixels-ads}
-
-1. [打开[!UICONTROL Ad Tools]视图](#ad-tools-open)。
-
-1. 单击&#x200B;**[!UICONTROL Attach Pixels]**&#x200B;选项卡。
-
-1. 在[!UICONTROL Edit]子视图中：
-
-   1. （可选）通过以下任意方式查找广告和第三方像素：
-
-      * 在左表上方，单击![过滤器](/help/dsp/assets/filter.png)并按广告状态、广告类型、像素集成事件或像素类型过滤列表。
-
-      * 在右表和左表的上方，搜索广告名称和像素名称中的特定文本字符串。
-
-   1. 在左侧表格中，选中要从中分离第三方跟踪像素的每个广告旁边的复选框。
-
-   1. 在右侧表格中，选中要与所选广告分离的每个第三方跟踪像素旁边的复选框。
-
-      只有附加到所有选定广告的像素才是可选的。
-
-   1. 单击右下角的&#x200B;**[!UICONTROL Detach]**。
-
-1. （可选）要返回到营销活动详细信息视图，请单击![返回到文件夹](/help/dsp/assets/breadcrumb-return.png "返回到文件夹[!UICONTROL Ad Tools]左侧的文件夹")，然后选择营销活动名称。
-
-## 查看附加到广告的像素 {#view-pixels-ads}
-
-1. [打开[!UICONTROL Ad Tools]视图](#ad-tools-open)。
-
-1. 单击&#x200B;**[!UICONTROL Attach Pixels]**&#x200B;选项卡。
-
-1. 切换到右上角的&#x200B;**[!UICONTROL View]**&#x200B;选项。
-
-1. （可选）根据需要查找广告和第三方像素：
-
-   * 在左表上方，单击![过滤器](/help/dsp/assets/filter.png)并按广告状态、广告类型、像素集成事件或像素类型过滤列表。
-
-   * 在右表和左表的上方，搜索广告名称和像素名称中的特定文本字符串。
-
-1. 单击左侧表中的任意广告行可查看右侧表中的附加像素。
-
-1. （可选）要将更多像素附加到广告，请切换到右上角的&#x200B;**[!UICONTROL Edit]**&#x200B;视图。 有关说明，请参阅上一过程中的步骤3“[将第三方跟踪像素附加到投放位置](#attach-pixels-ads)中的广告”。
+1. 在广告名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Detach]**。
 
 >[!MORELIKETHIS]
 >
 >* [关于广告管理](ad-about.md)
+>* [附加和删除广告中的像素](ad-pixel-attach-detach.md)
 >* [创建单个Ad](ad-create.md)
 >* [创建多个第三方广告](ad-create-multiple.md)
 >* [编辑广告](ad-edit.md)

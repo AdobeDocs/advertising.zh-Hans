@@ -3,7 +3,7 @@ title: 编辑投放位置的广告计划
 description: 了解如何更改附加到投放位置的广告的广告计划。
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. 在子菜单中，单击&#x200B;**[!UICONTROL Placements]**。
 
-1. 在投放位置名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**。
+1. 在投放位置名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Ads]** > **[!UICONTROL Ad schedule]**。
 
 1. 执行以下任一操作：
 
