@@ -3,7 +3,7 @@ title: 用户界面的组织方式
 description: 了解在何处访问不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: de1b498963abd5670dee3dbc326206fa0708a7fa
+source-git-commit: 3b4d92d2f6fe8b2ef57dfd5ce833772c37b039f8
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Recommendations]**：退出新站点并打开旧版[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]视图。
 
-* **[!UICONTROL Alerts & Notifications]**：退出新站点并打开旧版[!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]视图。
+   * **[!UICONTROL Alerts & Notifications]**：退出新站点并打开旧版[!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]视图。
 
 * **[!UICONTROL Goals]**&#x200B;子菜单：
 
