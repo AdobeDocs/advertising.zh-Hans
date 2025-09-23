@@ -3,9 +3,9 @@ title: 将营销活动分配给项目组合
 description: 了解如何在项目组合中包含营销活动以进行优化。
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 选中要分配给单个项目组合的每个营销活动旁边的复选框。
 
-1. 在工具栏中，单击![更多操作](/help/search-social-commerce/assets/more-actions.png "更多操作") **[!UICONTROL More Actions]** > ![分配](/help/search-social-commerce/assets/assign.png "分配") **[!UICONTROL Assign]** > **[!UICONTROL Existing Portfolio]**。
+1. 在批量操作工具栏中，单击&#x200B;**+[!UICONTROL Assign]** > **[!UICONTROL Existing Portfolio]**。
 
 1. 选择项目组合。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. 选中要为其创建新项目组合的每个营销活动旁边的复选框。
 
-1. 在工具栏中，单击![更多操作](/help/search-social-commerce/assets/more-actions.png "更多操作") **[!UICONTROL More Actions]** > ![分配](/help/search-social-commerce/assets/assign.png "分配") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**。
+1. 在批量操作工具栏中，单击&#x200B;**+[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**。
 
 1. 在[!UICONTROL Create Portfolio]屏幕中，指定项目组合设置。
 

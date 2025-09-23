@@ -3,9 +3,9 @@ title: 自定义目标
 description: 了解自定义目标，以定义针对最低CPA或最高ROAS优化的包中的成功事件。
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1191'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,19 @@ ht-degree: 0%
 
 在[创建自定义目标](#custom-goal-create)后，您可以[将其分配给包](/help/dsp/campaign-management/packages/package-settings.md)，以便使用Adobe Sensei进行报表和算法优化。
 
-权重推荐是为DSP在目标中归因的量度自动生成的，只需单击一下即可应用所有权重推荐。 对以“ADSP_”为前缀的目标所做的所有权重更改均在两天内以算法方式应用于DSP。 有关权重建议的更多信息，请参阅有关“(Beta)新目标”的“优化指南”一章，该章可从“搜索”、“社交”和“Commerce”中获取。
+权重推荐是为DSP在目标中归因的量度自动生成的，只需单击一下即可应用所有权重推荐。 对以“ADSP_”为前缀的目标所做的所有权重更改均在两天内以算法方式应用于DSP。 有关权重建议的更多信息，请参阅有关“目标”的“优化指南”一章，该章节可从搜索、社交和Commerce中获取。
 
 ## 创建自定义目标 {#custom-goal-create}
 
 要创建自定义目标，必须从[!DNL Search, Social, & Commerce]客户端设置中将DSP帐户链接到具有相同Adobe Experience Cloud组织ID的[!DNL Search, Social, & Commerce]帐户。 如果您的DSP帐户未关联到[!DNL Search, Social, & Commerce]帐户，请联系您的Adobe帐户团队。
 
-1. 登录到[!DNL Advertising Search, Social, & Commerce]，位于（北美用户） [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com)或（所有其他用户） [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com)。
+1. [登录到Advertising Search、Social和Commerce](/help/search-social-commerce/getting-started/sign-in.md){target="_blank"}。
 
 1. 确保您要在目标中包含的量度受到跟踪，在产品中可用，并包含显示名称：
 
-   1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**。
+   1. 在主菜单中，单击&#x200B;**[!UICONTROL Goals]** > **[!UICONTROL Conversions]**。
+
+      转化视图将在新的浏览器或浏览器选项卡中打开。
 
    1. 找到该量度，并确保为该量度启用&#x200B;**[!UICONTROL Show in UI and Reports]**。
 
@@ -45,30 +47,24 @@ ht-degree: 0%
 
    1. 如果该量度在&#x200B;**[!UICONTROL Display Name]**&#x200B;列中没有任何值，请单击单元格，输入显示名称，然后单击&#x200B;**[!UICONTROL Apply]。**
 
-1. 创建自定义目标作为&#x200B;*目标*：
+1. [创建自定义目标作为&#x200B;*目标*](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md){target="_blank"}。 请考虑以下事项：
 
-   1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Optimization]>[!UICONTROL New Objectives Beta]**。
+   * 对于用于Advertising DSP包的目标，目标名称必须以“ADSP_”为前缀，如“ADSP_Registrations”。 前缀不区分大小写。
 
-   1. 在工具栏中，单击![创建](/help/dsp/assets/create-search-ui.png "创建")。
+   * 仅包括归因于DSP的指标。 归因于“搜索”、“社交”和“Commerce”或任何其他广告网络的任何量度将被忽略。
 
-   1. 输入目标设置，包括非移动设备的关联指标及其相对数字权重，然后保存目标。 请考虑以下事项：
+   * 至少一个量度必须具有量度类型&#x200B;*[!UICONTROL Goal]*。
 
-      * 对于用于Advertising DSP包的目标，目标名称必须以“ADSP_”为前缀，如“ADSP_Registrations”。 前缀不区分大小写。
+   * DSP对所有广告使用非移动权重。 指定的任何移动权重都将被忽略。
 
-      * 仅包括归因于DSP的指标。 归因于“搜索”、“社交”和“Commerce”或任何其他广告网络的任何量度将被忽略。
+   >[!NOTE]
+   >
+   >* [!DNL Analytics]自定义事件遵循以下命名约定： `custom_event_[*event #*]_[*Analytics report suite ID*]`。 示例： `custom_event_16_examplersid`
+   >* [!DNL Analytics]维度和区段不可用于Adobe Advertising优化。
 
-      * 至少一个量度必须具有量度类型&#x200B;*[!UICONTROL Goal]*。
-
-      * DSP对所有广告使用非移动权重。 指定的任何移动权重都将被忽略。
-
-      >[!NOTE]
-      >
-      >* [!DNL Analytics]自定义事件遵循以下命名约定： `custom_event_[*event #*]_[*Analytics report suite ID*]`。 示例： `custom_event_16_examplersid`
-      >* [!DNL Analytics]维度和区段不可用于Adobe Advertising优化。
-
-      >[!TIP]
-      >
-      >为获得最佳性能，自定义目标（目标）中的组合量度必须每天至少总计10次转化。 如果不包含，最佳实践是为目标添加其他支持转化量度，如产品页面或应用程序启动次数。 有关准则，请参阅[构建自定义目标的最佳实践](#custom-goal-best-practices)。
+   >[!TIP]
+   >
+   >为获得最佳性能，自定义目标（目标）中的组合量度必须每天至少总计10次转化。 如果不包含，最佳实践是为目标添加其他支持转化量度，如产品页面或应用程序启动次数。 有关准则，请参阅[构建自定义目标的最佳实践](#custom-goal-best-practices)。
 
 在使用优化目标“[!UICONTROL Highest Return on Ad Spend (ROAS)"]”或“[!UICONTROL Lowest Cost per Acquisition (CPA)]”的包的DSP包设置中，目标名称现在包含在[!UICONTROL Custom Goals]列表中。 当您选择目标作为包的自定义目标时，[!UICONTROL Conversion Metric]列表包括该目标的所有目标量度。
 

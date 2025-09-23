@@ -3,9 +3,9 @@ title: 用户界面的组织方式
 description: 了解在何处访问不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: a180f99dc28fb1ed9abbd7654914fdd75e642c37
+source-git-commit: de1b498963abd5670dee3dbc326206fa0708a7fa
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -22,19 +22,37 @@ ht-degree: 0%
 
 ## 主菜单
 
-新的用户界面在左侧有一个新的主菜单，该菜单按工作阶段（计划、管理、审核、设置）组织任务。 稍后将添加旧版用户界面中的其他子菜单和选项。
+新的用户界面在左侧有一个新的主菜单，该菜单按工作阶段组织任务。 稍后将添加旧版用户界面中的其他子菜单和选项。
 
 ### 主菜单选项
 
 您的角色决定了可用的选项：<!-- add link when available -->
 
-* **[!UICONTROL Dashboard]**&#x200B;打开一个可配置的[!UICONTROL Dashboard]视图，其中包含所有项目组合的性能可视化图表。
+* **[!UICONTROL Dashboard]**&#x200B;子菜单：
+
+   * **[!UICONTROL Overview]**&#x200B;打开一个可配置的[!UICONTROL Dashboard]视图，其中包含所有项目组合的性能可视化图表。
+
+   * **[!UICONTROL Recommendations]**：退出新站点并打开旧版[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]视图。
+
+* **[!UICONTROL Alerts & Notifications]**：退出新站点并打开旧版[!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]视图。
+
+* **[!UICONTROL Goals]**&#x200B;子菜单：
+
+   * **[!UICONTROL Objectives]**&#x200B;打开新的[!UICONTROL Objectives]视图，您可以从中查看所有现有目标以及创建、编辑和删除目标。
+
+   * **[!UICONTROL Conversions]**&#x200B;退出新站点并打开旧版[!UICONTROL Admin] > [!UICONTROL Conversions]视图。
+
+   * **[!UICONTROL Conversion Value Rules]**&#x200B;退出新站点并打开旧版[!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules]视图。
+
+   * **[!UICONTROL Constraints]**&#x200B;退出新站点并打开旧版[!UICONTROL Optimization] > [!UICONTROL Constraints]视图。
 
 * **[!UICONTROL Plan]**&#x200B;子菜单：
 
-   * **[!UICONTROL Objectives]**&#x200B;打开新的[!UICONTROL Objectives]视图，您可以从中查看所有现有目标以及创建、编辑和删除目标。 目标设置与旧版用户界面中的设置相同，位于[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL New Objectives Beta]。
-
    * **[!UICONTROL Simulations]**&#x200B;打开一个新的[[!UICONTROL Simulations]视图](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)，从中可以查看所有用户创建的自定义模拟和自动生成每周模拟；生成新的自定义模拟；以及重新运行现有的模拟。 [!UICONTROL Spend Planner]按钮在[!UICONTROL Spend Recommendation] > [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization]处打开旧版[!UICONTROL Spend Recommendation]工具。
+
+   * **[!UICONTROL Spend Planner]**&#x200B;退出新站点并打开旧版[!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]视图。
+
+   * **[!UICONTROL Label Classification]**&#x200B;退出新站点并打开旧版[!UICONTROL Campaigns] > [!UICONTROL Label Classifications]视图。
 
 * **[!UICONTROL Manage]**&#x200B;子菜单：
 
@@ -46,27 +64,59 @@ ht-degree: 0%
 
      要创建、编辑和删除营销活动，请在主菜单中单击&#x200B;**[!UICONTROL Set Up]** > **[!UICONTROL Accounts]**&#x200B;或单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)以返回旧版用户界面。
 
-* **[!UICONTROL Ad Groups]：**&#x200B;打开一个新的[!UICONTROL Ad Groups]视图，该视图显示广告商的所有广告组。 您可以管理选定广告组的限制分配。 您还可以下载数据表内容的报表。
+   * **[!UICONTROL Ad Groups]：**&#x200B;打开一个新的[!UICONTROL Ad Groups]视图，该视图显示广告商的所有广告组。 您可以管理选定广告组的限制分配。 您还可以下载数据表内容的报表。
 
-  要创建、编辑和删除营销活动，请在主菜单中单击&#x200B;**[!UICONTROL Set Up]** > **[!UICONTROL Accounts]**&#x200B;或单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)以返回旧版用户界面。
+     要创建、编辑和删除营销活动，请在主菜单中单击&#x200B;**[!UICONTROL Set Up]** > **[!UICONTROL Accounts]**&#x200B;或单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)以返回旧版用户界面。
 
-* **[!UICONTROL Review]**&#x200B;子菜单：
+   * **[!UICONTROL Ads]**&#x200B;退出新站点并打开旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。
+
+* **[!UICONTROL Reports]**&#x200B;子菜单：
 
    * **[!UICONTROL Insights]**：退出新站点并打开旧版[!UICONTROL Insights & Reports] > [!UICONTROL Insights]视图。
 
-   * **[!UICONTROL Reports]**：退出新站点并打开旧版[!UICONTROL Insights & Reports] > [!UICONTROL Reports]视图。
-
-   * **[!UICONTROL Recommendations]**：退出新站点并打开旧版[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]视图。
+   * **[!UICONTROL Scheduled Reports]**：退出新站点并打开旧版[!UICONTROL Insights & Reports] > [!UICONTROL Reports]视图。
 
    * **[!UICONTROL Spreadsheet Feeds]**：退出新站点并打开旧版[!UICONTROL Insights & Reports] > [!UICONTROL Spreadsheets]视图。
 
    * **[!UICONTROL History Logs]**：退出新站点并打开旧版[!UICONTROL Insights & Reports] > [!UICONTROL Change History]视图。
 
+* **[!UICONTROL Target]**&#x200B;子菜单：
+
+   * **[!UICONTROL Audience]**：退出新站点并打开旧版[!UICONTROL Campaigns] > [!UICONTROL Audiences]视图。
+
+   * **[!UICONTROL Keywords]**&#x200B;退出新站点并打开旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。
+
+   * **[!UICONTROL Placements]**&#x200B;退出新站点并打开旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。
+
+* **[!UICONTROL Assets]**&#x200B;子菜单：
+
+   * **[!UICONTROL Auto Targets]**&#x200B;退出新站点并打开旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。
+
+   * **[!UICONTROL Creatives]**&#x200B;退出新站点并打开旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。
+
+   * **[!UICONTROL Extensions]**&#x200B;退出新站点并打开旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。
+
+   * **[!UICONTROL Shopping]**&#x200B;退出新站点并打开旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。<!-- Should this go to Campaigns > Products? -->
+
 * **[!UICONTROL Set Up]**&#x200B;子菜单：
 
    * **[!UICONTROL Accounts]**：退出新站点并打开旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。
 
-   * **[!UICONTROL Audiences]**：退出新站点并打开旧版[!UICONTROL Campaigns] > [!UICONTROL Audiences]视图。
+<!-- What's happenening to these?
+
+Campaigns > ACM
+Campaigns > Bulksheets
+Campaigns > Asset Library
+
+Insights > Notification Center (doesn't open from Dashboard > Alerts & Notifications)
+
+Tools > Conversion Upload Setup
+Tools > Generic Tracking
+Tools > Inventory Selection
+Import Campaigns
+
+Tools > Admin > Data Source Setup
+-->
 
 ### 折叠主菜单
 

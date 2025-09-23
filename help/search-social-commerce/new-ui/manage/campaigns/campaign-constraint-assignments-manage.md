@@ -3,9 +3,10 @@ title: 管理营销活动的限制分配
 description: 了解如何将限制分配给活动。
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: d886a228-24d7-4d8e-b68a-76e56b4304ed
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ ht-degree: 0%
 
 1. 选中要为其分配单个限制条件的每个营销活动旁边的复选框。
 
-1. 在工具栏中，单击![更多操作](/help/search-social-commerce/assets/more-actions.png "更多操作") **[!UICONTROL More Actions]** > ![分配](/help/search-social-commerce/assets/assign.png "分配") **[!UICONTROL Assign]** > **[!UICONTROL Constraint]**。
+1. 在批量操作工具栏中，单击&#x200B;**+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**。
 
 1. 选择约束。
 
@@ -65,7 +66,7 @@ ht-degree: 0%
 
 1. 选中要从中取消分配约束的每个营销活动旁边的复选框。
 
-1. 在工具栏中，单击![更多操作](/help/search-social-commerce/assets/more-actions.png "更多操作") **[!UICONTROL More Actions]** > ![分配](/help/search-social-commerce/assets/unassign.png "取消分配") **[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**。
+1. 在批量操作工具栏中，单击&#x200B;**-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**。
 
 1. 单击&#x200B;**[!UICONTROL Confirm]**。
 
@@ -88,4 +89,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [管理广告组的限制分配](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
-

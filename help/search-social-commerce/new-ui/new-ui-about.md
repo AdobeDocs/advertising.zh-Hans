@@ -2,18 +2,19 @@
 title: 关于新的用户界面
 description: 了解新的用户界面。
 feature: Search Introduction
-source-git-commit: 97c7776ab7dfacbb7ac4fdc038f25d4ced5b54e4
+exl-id: 27fcc1c2-fe69-4bdc-9786-c48b28da1560
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
 # 关于新的用户界面
 
-您现在可以从新的用户界面(UI)管理目标、模拟和项目组合。 您还可以对营销活动和广告组执行一些任务，并打开一些旧视图。 新的Search、Social和Commerce用户界面在https://experience.adobe.com域内的新URL中运行。
+您现在可以从新的用户界面(UI)管理目标、模拟和项目组合。 您还可以对营销活动和广告组执行一些任务。 新的搜索、社交和Commerce UI在https://experience.adobe.com域内的新URL中运行。
 
-随着时间的推移，其他功能将移至新的用户界面。 同时，您可以轻松地在新版UI和旧版UI之间进行切换。
+随着时间的推移，其他功能将移至新UI。 同时，您可以从新UI的主菜单在旧版UI中打开大多数功能。 您还可以轻松地在新版UI和旧版UI之间进行切换。
 
 有关如何组织新UI的更多信息，请参阅“[用户界面的组织方式](/help/search-social-commerce/getting-started/user-interface.md)”。
 

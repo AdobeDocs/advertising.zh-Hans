@@ -3,9 +3,10 @@ title: 使用批量工作表文件批量编辑项目组合设置
 description: 了解如何使用批量处理工作表文件编辑多个项目组合的设置。
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 * 只读的[!UICONTROL Instructions]工作表，其中包含有关编辑字段的信息。
 
-* [!UICONTROL Portfolio Settings Edit]选项卡，每个包含的项目组合占一行。 您可以选择根据需要编辑字段，将文件保存在本地，然后[将编辑后的文件](#portfolio-bulksheet-upload)上传到Search、Social和Commerce。
+* [!UICONTROL Portfolio Settings Edit]选项卡，每个包含的项目组合占一行。 您可以选择根据需要编辑字段，将文件保存在本地，然后[将编辑后的文件](#portfolio-bulksheet-upload)上传到Search、Social和Commerce。 可编辑字段以颜色突出显示。
 
 ## 下载包含项目组合设置的批量工作表文件
 

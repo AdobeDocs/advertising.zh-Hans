@@ -4,9 +4,9 @@ description: 了解您的性能仪表板中可用的数据。
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
-source-git-commit: 7065a4051449dc5834e5bca950f9c4aca36b9000
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 0%
 * **最大移动者 — \[所选量度\]：**&#x200B;与上一个时段相比，对指定量度具有最大更改的10个项目组合。
 
 * **支出分配：**&#x200B;按广告网络的支出分配。
+
+## 查看您的性能仪表板
+
+* 在主菜单中，单击&#x200B;**[!UICONTROL Dashboard]>[!UICONTROL Overview]**。
 
 ## 自定义您的性能仪表板
 
