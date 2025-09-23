@@ -4,7 +4,7 @@ description: 了解您的性能仪表板中可用的数据。
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 6fe42303c8499dbff6d5964d4074e98a2f2486ba
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 *Beta功能*
 
-可自定义的[!UICONTROL Dashboard]允许您监视所有项目组合<!-- May later include other entity-level data -->的性能，以便识别要调查和解决的潜在性能问题。 您可以查看过去90天内任何时间段的每日、每周或每月数据。
+可自定义的[!UICONTROL Dashboard] > [!UICONTROL Overview]允许您监视所有项目组合<!-- May later include other entity-level data -->的性能，以便识别要调查和解决的潜在性能问题。 您可以查看过去90天内任何时间段的每日、每周或每月数据。
 
 您的[!UICONTROL Dashboard]包括以下可视化报表：
 
