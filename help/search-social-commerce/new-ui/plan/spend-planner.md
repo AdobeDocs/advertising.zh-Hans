@@ -2,9 +2,10 @@
 title: 使用[!UICONTROL Spend Planner]
 description: 了解如何使用[!UICONTROL Spend Planner]确定项目组合间的最佳支出分配。
 feature: Search Optimization, Search Portfolios, Search Simulations
-source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
+exl-id: 966b8968-68b6-4385-9efb-e639a6729362
+source-git-commit: ff4deeb1cfbcd863e5b0ef2ac9b2f7124906c3dd
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -29,13 +30,13 @@ ht-degree: 0%
 
 * 每个项目组合的条形图，其中显示所有选定项目组合或建议的总支出目标的当前总每日支出目标时，显示建议的每日支出（成本）和预测的收入分配或点击分配。 您可以选择将推荐的支出目标应用于所选项目组合，这会对下一个竞价执行周期的竞价产生影响。
 
-## （新UI）从[!UICONTROL Spend Planner] > [!UICONTROL Manage]视图生成[!UICONTROL Simulations]报告
+## （新UI）生成[!UICONTROL Spend Planner]报告
 
-<!-- The path will probably change, so then update the heading and instructions -->
+1. 执行以下任一操作：
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Plan]>[!UICONTROL Simulations]**。
+   * 在主菜单中，单击&#x200B;**[!UICONTROL Plan]>[!UICONTROL Spend Planner]**。
 
-1. 在数据表上方的工具栏中，单击![支出规划者](/help/search-social-commerce/assets/spend-planner-icon.png "支出规划者")。
+   * 在主菜单中，单击&#x200B;**[!UICONTROL Plan]>[!UICONTROL Simulations]**。 在数据表上方的工具栏中，单击![支出规划者](/help/search-social-commerce/assets/spend-planner-icon.png "支出规划者")。
 
    [!UICONTROL Spend Recommendation]工具将在旧版用户界面中打开。
 
