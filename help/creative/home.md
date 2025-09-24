@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: 53e565307b55be2aabd847643b05a701dd1f2b93
+source-git-commit: d8030203f7bfce3baf18d50369067157f7cb0991
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2025年9月24日 | 动态创意 | 现在，可使用自助工作流程通过使用广告模板传递的信息源文件中的数据来生成动态广告。 | 请参阅[动态广告的工作流](/help/creative/introduction/workflow-dynamic-ads.md)，其中包含指向所有步骤的链接。 |
 | 2025年9月3日 | 针对[!DNL experiences]的Creative优化和计划 | 用于配置创意优化和计划的菜单选项或按钮现在称为“[!UICONTROL Creative Optimization]”，而不是“[!UICONTROL Edit Schedules]”或“[!UICONTROL Add Schedules]”。 | 请参阅“[针对目标体验自定义创意优化和计划](/help/creative/experiences/experience-optimization-scheduling-targeting.md)”和“[针对体验自定义创意优化和计划，而无需定位](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)”。 |
 |  | [!DNL experiences]的广告轮换和计划 | 新的创意旋转类型“[!UICONTROL Sequencing]”按指定顺序旋转关联的创意包（包1先提供，包2先提供，依此类推），并在每个包序列中指定展示总数。 可将序列中的最后一个束配置为a\)无限显示或b\)循环返回到第一个束。 | 请参阅“[针对目标体验自定义创意优化和计划](/help/creative/experiences/experience-optimization-scheduling-targeting.md)”和“[针对体验自定义创意优化和计划，而无需定位](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)”。 |
 | 2025年8月4日 | 广告[!DNL experiences]的受众目标 | 受众目标设置中提供了包含和排除受众的更复杂逻辑，与Advertising DSP中提供的逻辑相同。 在为广告体验配置受众目标时，您现在可以配置多个区段组，并根据逻辑指定是包含还是排除用户。<br><br>您可以看到每个区段的受众成员总数，以及每个区段组的活动受众成员数和总受众成员数。<br><br>使用此选项，“[!UICONTROL Split targets to create nodes]”的现有选项不再可用。<br><br>如果您现有体验中的受众节点以多个区段为目标，则现在使用“[!UICONTROL Include Any]”选项来定位这些受众，并且用户必须仅属于其中一个区段才有资格获得展示。 以前，用户必须属于所有区段。 | 请参阅“[将目标节点添加到最终级别](/help/creative/experiences/experience-target-node-add-final.md)”、“[在节点之间插入目标节点](/help/creative/experiences/experience-target-node-add-inner.md)”和“[添加同级目标节点](/help/creative/experiences/experience-target-node-add-sibling.md)”。 |
