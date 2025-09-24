@@ -1,16 +1,16 @@
 ---
-title: Creative设置
-description: 了解xxxx。
+title: 标准创意设置
+description: 引用标准创意内容的设置。
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: ce716c8dca8410a121858944f0c044423d9dff78
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2105'
 ht-degree: 0%
 
 ---
 
-# Creative设置
+# 标准创意设置
 
 这些设置因创意类型而异。
 

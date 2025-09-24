@@ -3,9 +3,9 @@ title: 关于您的创意库
 description: 了解如何管理广告体验的创意。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 3c4fcd4cf63003cf10775ebec23ae3f68d3bbd07
+source-git-commit: ce716c8dca8410a121858944f0c044423d9dff78
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
    * **标准创意：**&#x200B;您可以上传和管理[各种格式的创意](#creative-creative-formats)。 对于每个创意，您可以指定与创意关联的每个广告的默认语言，以及用户单击包含创意的广告时打开的默认登录页面。 您可以选择指定标签，以在[!DNL Creative]内的各种视图中用作过滤器，并在使用[!UICONTROL Custom Creative Report]维度时在[!UICONTROL Creative Label]中用作列值。
 
-   * **动态创意：** (仅限现有Adobe Advertising DCO客户)管理员用户可以通过将广告模板中的动态变量映射到信息源文件中的值来创建动态生成的创意。 所有用户都可以预览、复制和删除现有的动态广告。
+   * **动态创意：**&#x200B;您可以通过将广告模板中的动态变量映射到馈送文件中的值来创建动态生成的创意。 所有用户都可以预览、复制和删除现有的动态广告。
 
 * **创意捆绑：**&#x200B;将创意分组到捆绑中，以在具有已定义用户目标的多个体验中使用。 您可以创建包含标准显示广告的&#x200B;*标准显示包*、包含标准视频广告的&#x200B;*标准视频包*&#x200B;以及包含动态生成的显示广告的&#x200B;*动态显示包*。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 您可以从设备或网络中为Web、移动或连接的电视上传第一方视频创意。 每个标准视频广告体验都需要为分配给体验的每个创意持续时间提供一个默认视频创意。 DSP会自动将所有视频创意作为VAST 2.0标记进行转码，以便您进行预览。 在[!UICONTROL Tag Manager]中，您可以选择将[特定于DSP的转码](/help/creative/experiences/experience-tag-video-transcoding.md)应用于任何视频广告体验标记。
 
-请参阅以下视频创作要求。 **注意：**&#x200B;如果要将视频体验上传到Advertising DSP，请另外参阅DSP对高清视频Assets的[要求](https://experienceleague.adobe.com/zh-hans/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)，这可能更有限。
+请参阅以下视频创作要求。 **注意：**&#x200B;如果要将视频体验上传到Advertising DSP，请另外参阅DSP对高清视频Assets的[要求](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)，这可能更有限。
 
 **文件类型：** .mov、.mp4、.webm
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 ### 动态广告的格式
 
-管理员用户可以通过将广告模板中的动态变量映射到信息源文件中的值，动态生成静态HTML5和动态HTML5格式的创意。 动态创意人员可能包括来自您的旧版Adobe Advertising Dynamic Creative Optimization (DCO)体验的创意人员。
+您可以将广告模板中的动态变量映射到信息源文件中的值，从而动态生成静态HTML5和动态HTML5格式的创意。 动态创意人员可能包括从旧版Adobe Advertising Dynamic Creative Optimization (DCO)体验迁移而来的创意人员。
 
 ## [!UICONTROL Creative Libraries]次查看
 
@@ -144,17 +144,19 @@ ht-degree: 0%
 
 #### [!UICONTROL Dynamic Ads]
 
-[!UICONTROL Dynamic Ads]选项卡显示为您的创意目录动态创建的所有动态创意，但您[从](creative-delete.md)选项卡中手动删除[!UICONTROL Dynamic Ads]的任何动态创意除外。 如果您[手动复制](creative-duplicate.md)自上次处理目录后出现的任何动态创意，则该目录的创意列表也包含重复的创意。
+[!UICONTROL Dynamic Ads]选项卡显示为您的创意目录动态创建的所有动态创意，但您[从](creative-delete.md)选项卡中手动删除[!UICONTROL Dynamic Ads]的任何动态创意除外。 如果您[手动复制](creative-duplicate.md)任何动态创意<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->，则该目录的创意列表也包含重复的创意。
 
-每个创意的数据包括创意类型、创意大小、创意所属的目录数量和创建日期。 表模式还包括用于生成创意的模板的列和选件计数。
+每个创意的数据包括创意类型、创意大小、创意所属的目录数量和创建日期。 表模式还包括用于广告模板的列，通过广告模板生成创意和选件计数。
 
 >[!NOTE]
 >
->每次处理目录时，都会刷新该目录的现有动态创意数据。
+>每次处理目录时，将刷新该目录的现有动态创意数据。<!-- Verify this!!! And is there anything more to say w/regard to  -->
 
 ##### 可用操作
 
-创建和编辑动态创意的能力目前仅适用于Adobe客户团队。 但是，所有用户都可以：
+* [将动态创意添加到库](creative-add-dynamic.md)
+
+* [编辑动态创意](creative-edit-dynamic.md)
 
 * [预览动态创意](creative-preview.md)
 
