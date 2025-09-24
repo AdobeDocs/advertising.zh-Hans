@@ -3,9 +3,9 @@ title: 关于您的创意库
 description: 了解如何管理广告体验的创意。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: ce716c8dca8410a121858944f0c044423d9dff78
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1383'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * **个人创意：**&#x200B;您可以直接在广告体验中包含没有定义用户目标的个人创意。 您还可以使用创意内容创建包，这些包可以包含在定向的[广告体验](/help/creative/experiences/experience-about.md)中。
 
-   * **标准创意：**&#x200B;您可以上传和管理[各种格式的创意](#creative-creative-formats)。 对于每个创意，您可以指定与创意关联的每个广告的默认语言，以及用户单击包含创意的广告时打开的默认登录页面。 您可以选择指定标签，以在[!DNL Creative]内的各种视图中用作过滤器，并在使用[!UICONTROL Custom Creative Report]维度时在[!UICONTROL Creative Label]中用作列值。
+   * **标准创意：**&#x200B;您可以上传和管理[各种格式的创意](#creative-creative-formats)。 对于每个创意，指定与创意相关的每个广告的默认语言，以及用户单击包含创意的广告时打开的默认登录页面。 您可以选择指定标签，以在[!DNL Creative]内的各种视图中用作过滤器，并在使用[!UICONTROL Custom Creative Report]维度时在[!UICONTROL Creative Label]中用作列值。
 
    * **动态创意：**&#x200B;您可以通过将广告模板中的动态变量映射到馈送文件中的值来创建动态生成的创意。 所有用户都可以预览、复制和删除现有的动态广告。
 
@@ -62,9 +62,9 @@ ht-degree: 0%
 
 #### 视频创意 {#creative-video-specs}
 
-您可以从设备或网络中为Web、移动或连接的电视上传第一方视频创意。 每个标准视频广告体验都需要为分配给体验的每个创意持续时间提供一个默认视频创意。 DSP会自动将所有视频创意作为VAST 2.0标记进行转码，以便您进行预览。 在[!UICONTROL Tag Manager]中，您可以选择将[特定于DSP的转码](/help/creative/experiences/experience-tag-video-transcoding.md)应用于任何视频广告体验标记。
+您可以从设备或网络中为Web、移动或连接的电视上传第一方视频创意。 每个标准视频广告体验都需要为分配给体验的每个创意持续时间提供一个默认视频创意。 DSP会自动将所有视频创意转换为VAST 2.0标记，以便您预览。 在[!UICONTROL Tag Manager]中，您可以选择将[特定于DSP的转码](/help/creative/experiences/experience-tag-video-transcoding.md)应用于任何视频广告体验标记。
 
-请参阅以下视频创作要求。 **注意：**&#x200B;如果要将视频体验上传到Advertising DSP，请另外参阅DSP对高清视频Assets的[要求](https://experienceleague.adobe.com/zh-hans/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)，这可能更有限。
+请参阅以下视频创作要求。 **注意：**&#x200B;如果要将视频体验上传到Advertising DSP，请另外参阅DSP对高清视频Assets的[要求](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)，这可能更有限。
 
 **文件类型：** .mov、.mp4、.webm
 

@@ -2,7 +2,7 @@
 title: 管理资源文件
 description: 了解如何上传和管理广告商的资源文件。
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -16,7 +16,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 > 每个信息源文件只能用于一个目录。
-
 
 ## 文件要求
 

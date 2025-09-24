@@ -2,9 +2,9 @@
 title: 将动态创意添加到创意库
 description: 了解如何将动态创意添加到创意库。
 feature: Creative Dynamic Creatives
-source-git-commit: 7f4bfd6072a732a779368a5f59bfe40f90e64c82
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
 
       1. 选择包，然后单击&#x200B;**[!UICONTROL Attach Creative to Bundles]**。
 
-   * 要仅保存广告，请单击&#x200B;**[!UICONTROL Save]**，然后再次单击&#x200B;**[!UICONTROL Save]**。
+   * 若要保存广告并退出设置，请单击&#x200B;**[!UICONTROL Save]**，然后再次单击&#x200B;**[!UICONTROL Save]**。
 
 >[!MORELIKETHIS]
 >

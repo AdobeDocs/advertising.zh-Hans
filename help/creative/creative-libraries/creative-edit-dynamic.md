@@ -2,9 +2,9 @@
 title: 在创意库中编辑动态创意内容
 description: 了解如何在创意库中编辑动态创意内容。
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
       1. 选择包，然后单击&#x200B;**[!UICONTROL Attach Creative to Bundles]**。
 
-   * 要仅保存广告，请单击&#x200B;**[!UICONTROL Save]**，然后再次单击&#x200B;**[!UICONTROL Save]**。
+   * 若要保存广告并退出设置，请单击&#x200B;**[!UICONTROL Save]**，然后再次单击&#x200B;**[!UICONTROL Save]**。
 
 >[!MORELIKETHIS]
 >

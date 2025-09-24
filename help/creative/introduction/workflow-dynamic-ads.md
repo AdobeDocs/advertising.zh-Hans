@@ -2,9 +2,9 @@
 title: 动态广告的工作流
 description: 了解用于管理动态广告的工作流。
 feature: Creative Dynamic Creatives
-source-git-commit: e08a3c841e733840058f85a7ecc67571631314b3
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. [创建动态广告包](/help/creative/creative-libraries/bundle-manage.md)，您可以一次将所有这些广告包附加到广告体验。
 
-1. 创建具有目标[的](/help/creative/experiences/experience-create-targeting.md)或[的动态广告体验，而不具有目标](/help/creative/experiences/experience-create-no-targeting.md)，并[将其包分配给您的动态广告体验](/help/creative/experiences/experience-assign-creative-bundles.md)。
+1. 创建具有目标[或](/help/creative/experiences/experience-create-targeting.md)的动态广告体验[而不具有目标](/help/creative/experiences/experience-create-no-targeting.md)，并[将创意包分配给体验](/help/creative/experiences/experience-assign-creative-bundles.md)。
 
 1. [生成和实施广告体验标记](/help/creative/experiences/experience-tag-export.md)，以在DSP中将它们作为广告运行。
 

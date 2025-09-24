@@ -2,9 +2,9 @@
 title: 管理信息源模板
 description: 了解如何管理信息源模板。
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -89,13 +89,13 @@ ht-degree: 0%
 
 ### [!UICONTROL Field Mapping]设置
 
-将信息源文件中的每个字段映射到Advertising Creative后端上的字段。<!-- Check w/product: What is displayed where in the UI/reports and published ads? -->必须至少包含一个标记为“[!UICONTROL Is Unique]”的信息源文件字段。 要添加字段映射，请单击&#x200B;**[!UICONTROL +]**。 要删除最后一个字段映射，请单击&#x200B;**[!UICONTROL +]**。
+将信息源文件中的每个字段映射到Advertising Creative后端上的字段。<!-- Check w/product: What is displayed where in the UI/reports and published ads? -->必须至少有一个信息源文件字段标记为“[!UICONTROL Is Unique]”。 要添加字段映射，请单击&#x200B;**[!UICONTROL +]**。 要删除最后一个字段映射，请单击&#x200B;**[!UICONTROL +]**。
 
 **[!UICONTROL Field Name]：**&#x200B;信息源文件中的字段。
 
 **[!UICONTROL Description]：** （可选）对使用信息源模板的任何人都有用的信息。
 
-**[!UICONTROL Is Unique]：**&#x200B;指示字段是唯一ID（键）。 每个馈送模板必须至少有一个字段是唯一的。 要选择此选项，请单击按钮将其向右移动。<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
+**[!UICONTROL Is Unique]：**&#x200B;指示该字段是唯一ID（键）。 每个馈送模板必须至少有一个字段是唯一的。 要选择此选项，请单击按钮将其向右移动。<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
 **[!UICONTROL Backend Field]：** Advertising Creative后端上映射到馈送文件中指定[!UICONTROL Field Name]的字段。
 
