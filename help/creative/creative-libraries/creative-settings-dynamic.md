@@ -2,9 +2,9 @@
 title: 动态创意设置
 description: 引用动态创意的设置。
 feature: Creative Dynamic Creatives
-source-git-commit: e08a3c841e733840058f85a7ecc67571631314b3
+source-git-commit: 85fea6483ccf5db27d5730b5ebb2fb2b0957302d
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -53,15 +53,15 @@ ht-degree: 0%
 
 ## 广告模板
 
-**[!UICONTROL Ad Template]：**&#x200B;从中创建广告的广告模板。&lt;！ — 也可以上传您自己的广告模板 — 需要为其添加规范 — >
+**[!UICONTROL Ad Template]：**&#x200B;从中创建广告的广告模板。<!-- also an option to upload your own ad template. Need to add the specs for that -->
 
-**[!UICONTROL Number of offers (Max 50)]：**&#x200B;可以为每个广告创建的选件数。&lt;！ — 澄清这一点 — 这是频率上限（广告可提供的最大次数）吗？—>
+**[!UICONTROL Number of offers (Max 50)]：**&#x200B;可以为每个广告创建的选件数。<!-- Clarify this: is this the frequency cap (max number of times an ad may be served)? -->
 
 ## 目录
 
-**[!UICONTROL Template]：**&#x200B;用于创建广告的信息源模板。&lt;！ — 也可以上传您自己的信息源模板 — 需要为其添加规范 — >
+**[!UICONTROL Template]：**&#x200B;用于创建广告的信息源模板。<!-- also an option to upload your own feed template.  Need to add the specs for that -->
 
-**\[目录\]**：要从中生成广告的指定广告商的一个或多个目录。&lt;！ — 也可以上传您自己的目录(找不到您需要的目录？ 下载模板、创建自己的模板并从设备上传模板。) — 需要添加相应的规范 — >
+**\[目录\]**：要从中生成广告的一个或多个指定广告商的目录。<!-- also an option to upload your own catalog (Can't find the Catalog you need? Download a template, create your own, and upload it from your device.). Nneed to add the specs for that -->
 
 ### [!UICONTROL Attributes Mapping]
 
