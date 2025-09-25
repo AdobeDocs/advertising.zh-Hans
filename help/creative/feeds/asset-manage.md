@@ -2,9 +2,9 @@
 title: 管理资源文件
 description: 了解如何上传和管理广告商的资源文件。
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,10 @@ ht-degree: 0%
      您可以在ZIP文件中上传单个图像或多个图像。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 ## 上传资源文件
+
+>[!NOTE]
+>
+>在[将动态创意添加到创意库](/help/creative/creative-libraries/creative-add-dynamic.md)时，您还可以直接上传目录，而不是上传资源文件。 您在此处创建的任何目录均可在[!UICONTROL Catalogs]视图中供将来使用。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Feeds]**。
 

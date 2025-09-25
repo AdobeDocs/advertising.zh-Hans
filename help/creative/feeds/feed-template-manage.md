@@ -2,9 +2,9 @@
 title: 管理信息源模板
 description: 了解如何管理信息源模板。
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 <!-- We have a finite set of supported fields on the backend. I need to include that info in an appendix. -->
 
-馈送模板将馈送文件中的字段映射到Advertising Creative后端上的字段。 动态HTML5广告(而非静态HTML5广告)需要信息源模板来创建动态广告。
+馈送模板将馈送文件/目录中的字段映射到Advertising Creative后端上的字段。 动态HTML5广告(而非静态HTML5广告)需要信息源模板来创建动态广告。
 
 您可以对多个广告模板使用一个信息源模板。
 

@@ -2,9 +2,9 @@
 title: 动态创意设置
 description: 引用动态创意的设置。
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -53,15 +53,15 @@ ht-degree: 0%
 
 ## 广告模板
 
-**[!UICONTROL Ad Template]：**&#x200B;从中创建广告的广告模板。<!-- also an option to upload your own ad template. Need to add the specs for that -->
+**[!UICONTROL Ad Template]：**&#x200B;从中创建广告的广告模板。 选择现有的广告模板或上传新的广告模板。<!-- Need to add the specs for that -->
 
 **[!UICONTROL Number of offers (Max 50)]：**&#x200B;可以为每个广告创建的选件数。<!-- Clarify this: is this the frequency cap (max number of times an ad may be served)? -->
 
 ## 目录
 
-**[!UICONTROL Template]：**&#x200B;用于创建广告的信息源模板。<!-- also an option to upload your own feed template.  Need to add the specs for that -->
+**[!UICONTROL Template]：**&#x200B;用于创建广告的信息源模板。
 
-**\[目录\]**：要从中生成广告的一个或多个指定广告商的目录。<!-- also an option to upload your own catalog (Can't find the Catalog you need? Download a template, create your own, and upload it from your device.). Nneed to add the specs for that -->
+**\[目录\]**：要从中生成广告的一个或多个目录。 选择现有目录，或通过下载现有信息源模板并创建和上传新目录来创建新目录。<!-- Need to add the specs for that -->
 
 ### [!UICONTROL Attributes Mapping]
 
