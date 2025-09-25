@@ -2,9 +2,9 @@
 title: 动态创意设置
 description: 引用动态创意的设置。
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -49,27 +49,35 @@ ht-degree: 0%
 
 **[!UICONTROL Library]：**&#x200B;要在其中创建广告的创意库。 如果您是从[!UICONTROL Creatives] > [!UICONTROL Creative Libraries]中创建广告，则库名称已被选择且为只读。
 
-**[!UICONTROL Ad Template Size]：**&#x200B;从中创建广告的广告模板的广告维度。 如果您首先选择特定的[!UICONTROL Ad Template]，则会自动选择此值。
+**[!UICONTROL Ad Template Size]：**&#x200B;从中创建广告的广告模板的[广告维度](/help/creative/creative-libraries/creative-sizes.md)。 如果您首先选择特定的[!UICONTROL Ad Template]，则会自动选择此值。
 
 ## 广告模板
 
-**[!UICONTROL Ad Template]：**&#x200B;从中创建广告的广告模板。 选择现有的广告模板或上传新的广告模板。<!-- Need to add the specs for that -->
+**[!UICONTROL Ad Template]：**&#x200B;从中创建广告的广告模板。 选择现有的广告模板，或上传新的广告模板并选择模板类型（*静态*&#x200B;或&#x200B;*动态*）。 上载的模板必须采用ZIP格式，并包含HTML5文件和模板定义文件(template.TDF)。<!-- Need to add more specs for that -->
 
-**[!UICONTROL Number of offers (Max 50)]：**&#x200B;可以为每个广告创建的选件数。<!-- Clarify this: is this the frequency cap (max number of times an ad may be served)? -->
+**[!UICONTROL Number of offers (Max 50)]：**&#x200B;轮播中要显示的产品数。
 
 ## 目录
 
 **[!UICONTROL Template]：**&#x200B;用于创建广告的信息源模板。
 
-**\[目录\]**：要从中生成广告的一个或多个目录。 选择现有目录，或通过下载现有信息源模板并创建和上传新目录来创建新目录。<!-- Need to add the specs for that -->
+**\[目录\]**：要从中生成广告的一个或多个目录。 选择现有目录，或通过下载现有信息源模板并创建和上传新目录来创建新目录。
+
+上传的目录必须采用ZIP格式并包含以下内容：
+
+* CSV、TSV或Microsoft Excel电子表格(XLSX)格式的一个或多个信息源文件。<!-- Need to add more specs for that -->
+
+* GIF、JPEG、JPG或PNG格式的图像资源
+
+* （可选）MP4或WEBM格式的视频资产
 
 ### [!UICONTROL Attributes Mapping]
 
-**[!UICONTROL Enable targeting]**：摘要文件中必须存在值才能创建广告的列类型： *[!UICONTROL Profile data]*、*[!UICONTROL Geographic data]、*[!UICONTROL Data pass]、*[!UICONTROL Audience Segment]*。  **注意：**&#x200B;这些设置独立于广告体验设置中的高级设置工作。<!-- Clarify what qualifies for each, and explain more -->
+**[!UICONTROL Enable targeting]**： <!-- "targeting options/filters," but I don't think this means user targeting since that is set in the experience/ad on DSP -->馈送文件中必须存在值以创建广告的列的类型： *[!UICONTROL Profile data]*、*[!UICONTROL Geographic data]、*[!UICONTROL Data pass]、*[!UICONTROL Audience Segment]*。  **注意：**&#x200B;这些设置独立于广告体验设置中的高级设置工作。<!-- Clarify what qualifies for each, and explain more -->
 
 **[!UICONTROL Dynamic Ad Fields]** / **[!UICONTROL Maps to Catalog Labels]：**
 
-将指定广告模板中的每个属性（动态广告字段）映射到指定馈送文件（目录标签）中的列。
+将指定广告模板中的每个属性（动态广告字段）映射到指定目录（目录标签）中的列。
 
 >[!MORELIKETHIS]
 >

@@ -2,9 +2,9 @@
 title: 管理资源文件
 description: 了解如何上传和管理广告商的资源文件。
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ ht-degree: 0%
 
      对于要上载的图像，请使用格式`images/image_name` （如`images/300x250_acme_logo.png`.）<!-- Verify.  Also need to include the spec for how to reference images in AEM -->引用该图像
 
-   * JPEG、JPG或PNG格式关联的图像资源。<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. -->查看[支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)。
+   * GIF、JPEG、JPG或PNG格式中关联的图像资源。<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. -->查看[支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)。
 
   您可以上传单个XLSX文件、单个图像文件或包含XLSX和图像文件任意组合的单个ZIP文件。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * 静态HTML5广告：
 
-   * JPG、JPEG或PNG格式中每个广告一个图像资源。
+   * GIF、JPG、JPEG或PNG格式中每个广告一个图像资源。
 
      您可以在ZIP文件中上传单个图像或多个图像。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 

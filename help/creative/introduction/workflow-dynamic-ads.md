@@ -2,14 +2,16 @@
 title: 动态广告的工作流
 description: 了解用于管理动态广告的工作流。
 feature: Creative Dynamic Creatives
-source-git-commit: 02ac4175c1d91f4f6d65bb2d683a7909f06a287c
+source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
 
 # 动态广告的工作流
+
+*有权创建动态广告的用户*
 
 您可以通过以下两种方式之一设置动态广告：
 
@@ -22,6 +24,11 @@ ht-degree: 0%
   当不同的人员将完成不同的任务或您一次只想完成一个任务时，可使用此工作流。
 
 ## 工作流1
+
+>[!PREREQUISITES]
+>
+>* HTML5格式的广告模板
+>* CSV、TSV或Microsoft Excel电子表格(XLSX)格式的产品目录
 
 1. [为创意库创建动态创意内容](/help/creative/creative-libraries/creative-add-dynamic.md)。 对于动态HTML5广告，请上传广告模板和目录。
 
