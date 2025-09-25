@@ -2,9 +2,9 @@
 title: 管理资源文件
 description: 了解如何上传和管理广告商的资源文件。
 feature: Creative Dynamic Creatives
-source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
+source-git-commit: 40f8fbde0879f2412816a2b08e6e99da67f16219
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,15 @@ ht-degree: 0%
 
 * Dynamic HTML5广告：
 
-   * Microsoft Excel电子表格(XLSX)格式的信息源文件，每个广告变体具有一个标题行和一个数据行。 在每一行中包含图像名称或对Adobe Experience Manager的引用。<!-- need spec of available column names that the user-created header names must map to; need to reference it in feed template topic too, so make it a separate file/appendix. -->
+   * CSV、TSV或Microsoft Excel电子表格(XLSX)格式的信息源文件，每个广告变体具有一个标题行和一个数据行。 在每一行中包含图像名称或对Adobe Experience Manager的引用。<!-- need spec of available column names that the user-created header names must map to; need to reference it in feed template topic too, so make it a separate file/appendix. -->
 
      对于要上载的图像，请使用格式`images/image_name` （如`images/300x250_acme_logo.png`.）<!-- Verify.  Also need to include the spec for how to reference images in AEM -->引用该图像
 
    * GIF、JPEG、JPG或PNG格式中关联的图像资源。<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. -->查看[支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)。
 
-  您可以上传单个XLSX文件、单个图像文件或包含XLSX和图像文件任意组合的单个ZIP文件。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+   * （可选）MP4或WEBM格式的视频资产
+
+  您可以上传单个XLSX文件、单个图像或视频文件，或者单个ZIP文件（包含XLSX、图像和视频文件的任意组合）。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * 静态HTML5广告：
 
