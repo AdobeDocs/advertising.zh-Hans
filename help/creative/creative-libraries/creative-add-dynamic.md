@@ -2,9 +2,9 @@
 title: 将动态创意添加到创意库
 description: 了解如何将动态创意添加到创意库。
 feature: Creative Dynamic Creatives
-source-git-commit: 9aeb35ec5aba1c6c4c7683487ed3c0a0e22accb8
+source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    1. 选择用于创建广告的目录行的标准。
 
-   1. 将指定广告模板中的每个属性（动态广告字段）映射到指定馈送文件（目录标签）中的列。
+   1. 将指定广告模板中的每个属性（动态广告字段）映射到指定馈送文件（目录标签）中的列，或输入静态值。
 
    1. 单击&#x200B;**[!UICONTROL Continue]**&#x200B;预览要生成的创意。 您可以在预览中执行以下任一操作：
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
       * 在预览区域下方的搜索字段中按产品的唯一ID搜索产品。
 
-      * 要更改显示的列，请单击预览区域下方的![列筛选器](/help/creative/assets/custom-columns. "列筛选器")。
+      * 要更改显示的列，请单击预览区域下方的![列筛选器](/help/creative/assets/custom-columns.png "列筛选器")。
 
       * 要预览特定创意，请选中行的复选框。
 

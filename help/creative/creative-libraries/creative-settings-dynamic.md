@@ -2,9 +2,9 @@
 title: 动态创意设置
 description: 引用动态创意的设置。
 feature: Creative Dynamic Creatives
-source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
+source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 **[!UICONTROL Dynamic Ad Fields]** / **[!UICONTROL Maps to Catalog Labels]：**
 
-将指定广告模板中的每个属性（动态广告字段）映射到指定目录（目录标签）中的列。
+将指定广告模板中的每个属性（动态广告字段）映射到指定目录（目录标签）中的列或输入静态值。
 
 >[!MORELIKETHIS]
 >
