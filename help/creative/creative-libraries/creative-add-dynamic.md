@@ -2,9 +2,9 @@
 title: 将动态创意添加到创意库
 description: 了解如何将动态创意添加到创意库。
 feature: Creative Dynamic Creatives
-source-git-commit: 1cee56f8bd40f94b1f78536725fb8eab249b9915
+source-git-commit: 9aeb35ec5aba1c6c4c7683487ed3c0a0e22accb8
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,27 @@ ht-degree: 0%
 
    1. 将指定广告模板中的每个属性（动态广告字段）映射到指定馈送文件（目录标签）中的列。
 
-   1. 单击&#x200B;**[!UICONTROL Continue]**&#x200B;预览要生成的创意。
+   1. 单击&#x200B;**[!UICONTROL Continue]**&#x200B;预览要生成的创意。 您可以在预览中执行以下任一操作：
 
-      要预览特定创意，请选中行的复选框。 根据需要按目录、筛选值<!-- explain more-->和广告大小筛选创意。
+      * 要按目录、筛选值<!-- explain more-->和广告大小筛选创意，请使用预览区域上方的筛选器。
+
+      * 在预览区域下方的搜索字段中按产品的唯一ID搜索产品。
+
+      * 要更改显示的列，请单击预览区域下方的![列筛选器](/help/creative/assets/custom-columns. "列筛选器")。
+
+      * 要预览特定创意，请选中行的复选框。
+
+      * 更改内容：
+
+         * 要编辑表中单元格的值，请单击单元格内部并编辑该值。 单击单元格外部或按&#x200B;**[!DNL Enter]**&#x200B;键保存更改。
+
+         * 要将单个产品标记为默认<!--Explain what this means. -->，请将光标悬停在该行上并单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Set as Default]**。
+
+         * （当广告包含多个选件时）要将多个产品标记为默认值，请选择行（最多包含选件数），然后单击批量操作工具栏中的&#x200B;**[!UICONTROL Set as Default]**。
+
+      * 要从目录中删除产品，请将光标悬停在该行上并单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Delete Row]**。
+
+      * （当广告包含多个选件时）要从目录中删除多个产品，请选择行（最多包含选件数），然后单击批量操作工具栏中的&#x200B;**[!UICONTROL Delete Row]**。
 
 1. 保存创意：
 
