@@ -2,9 +2,9 @@
 title: 将动态创意添加到创意库
 description: 了解如何将动态创意添加到创意库。
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: 1cee56f8bd40f94b1f78536725fb8eab249b9915
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,21 @@ ht-degree: 0%
 
 ## 使用动态HTML5广告模板添加动态创意
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+1. 执行以下任一操作：
 
-1. 单击库名称。
+   * 从创意库：
 
-1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ad]**。
+      1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+      1. 单击库名称。
+
+      1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ad]**。
+
+   * 从广告模板：
+
+      1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]**。
+
+      1. 将光标悬停在广告模板行上并单击&#x200B;**[!UICONTROL Create Dynamic Ad]**。
 
 1. 指定[动态广告设置](/help/creative/creative-libraries/creative-settings-dynamic.md)：
 
