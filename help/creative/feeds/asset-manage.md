@@ -2,7 +2,7 @@
 title: 管理资源文件
 description: 了解如何上传和管理广告商的资源文件。
 feature: Creative Dynamic Creatives
-source-git-commit: 40f8fbde0879f2412816a2b08e6e99da67f16219
+source-git-commit: 4b3db40b3c0fb68e2b3d84b8d95c5d3fbd549d7b
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
@@ -12,6 +12,7 @@ ht-degree: 0%
 # 管理资源文件
 
 动态HTML5广告需要Microsoft Excel电子表格(XLSX)格式的信息源文件以及在电子表格中引用的图像资源(Adobe Experience Manager资源引用除外)。 静态HTML5广告只需每个广告使用一个图像资源。
+
 
 >[!NOTE]
 >
@@ -25,7 +26,7 @@ ht-degree: 0%
 
      对于要上载的图像，请使用格式`images/image_name` （如`images/300x250_acme_logo.png`.）<!-- Verify.  Also need to include the spec for how to reference images in AEM -->引用该图像
 
-   * GIF、JPEG、JPG或PNG格式中关联的图像资源。<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. -->查看[支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)。
+   * GIF、JPEG、JPG或PNG格式中关联的图像资源。<!-- Is this true: The maximum file size is two (2) MB. -->查看[支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)。
 
    * （可选）MP4或WEBM格式的视频资产
 
