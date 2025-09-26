@@ -2,9 +2,9 @@
 title: 管理信息源目录
 description: 了解如何管理信息源目录。
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 已处理馈送目录是从指定馈送文件和指定馈送模板创建的一组潜在广告变体。 动态HTML5广告(而非静态HTML5广告)需要目录才能创建动态广告。
 
-在使用广告变体[将动态广告添加到创意库](/help/creative/creative-libraries/creative-add-dynamic.md)之前，请处理目录。
+在创建广告变体并[将动态广告添加到创意库](/help/creative/creative-libraries/creative-add-dynamic.md)之前，请处理目录。 您可以稍后更新信息源文件并重新处理目录以创建新的广告变体集。<!-- I should list somewhere what happens when you add, update, or remove: I don't think we rewrite existing ads in the creative library, but only add to them. -->
 
 ## 创建目录 {#feed-catalog-create}
 
