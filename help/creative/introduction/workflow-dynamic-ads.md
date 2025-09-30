@@ -2,9 +2,9 @@
 title: 动态广告的工作流
 description: 了解用于管理动态广告的工作流。
 feature: Creative Dynamic Creatives
-source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
+source-git-commit: f25b0edea0f264f8ebd7c487112a7cbfca32c9e0
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
    * (对于动态HTML5广告)创建广告元素的目录：
 
-      1. 创建一个采用Microsoft Excel电子表格(XLSX)格式的信息源文件，其中每个广告变量对应一行。 在每一行中包含图像名称或对Adobe Experience Manager的引用。 单独收集关联的图像资产。
+      1. 创建一个采用Microsoft Excel电子表格(XLSX)格式的信息源文件，其中每个广告变量对应一行。 在每一行中包含图像名称。 单独收集关联的图像资产。
 
       1. [上载信息源文件和图像资源](/help/creative/feeds/asset-manage.md)。
 
