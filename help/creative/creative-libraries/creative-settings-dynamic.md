@@ -2,9 +2,9 @@
 title: 动态创意设置
 description: 引用动态创意的设置。
 feature: Creative Dynamic Creatives
-source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
+source-git-commit: e7642f11503ebb972d23fe6d28020b3b198657b0
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -65,11 +65,9 @@ ht-degree: 0%
 
 上传的目录必须采用ZIP格式并包含以下内容：
 
-* CSV、TSV或Microsoft Excel电子表格(XLSX)格式的一个或多个信息源文件。<!-- Need to add more specs for that -->
+* CSV、TSV或Microsoft Excel电子表格(XLSX)格式的一个或多个馈送文件。 最大文件大小为512 MB。<!-- Need to add more specs for the feed files -->
 
 * GIF、JPEG、JPG或PNG格式的图像资源
-
-* （可选）MP4或WEBM格式的视频资产
 
 ### [!UICONTROL Attributes Mapping]
 
