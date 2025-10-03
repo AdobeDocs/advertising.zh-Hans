@@ -3,9 +3,9 @@ title: 自定义体验的创意优化和计划
 description: 了解如何
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
+source-git-commit: ad6f076e24d69cfa93b9306a33d9b0cd4c7e813e
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,15 @@ ht-degree: 0%
 
 1. 禁用&#x200B;**[!UICONTROL Schedule]**。
 
-1. 选择创意旋转类型：
+1. 为关联捆绑包中的广告变体选择创意轮换类型：
 
-   * *[!UICONTROL Weighted]：*&#x200B;根据相对权重手动旋转创意。 输入每个创意内容的权重，以百分比表示。 所有选定创意内容的权重之和必须为100。
+   * *[!UICONTROL Weighted]：*&#x200B;根据相对权重在关联的创意包中显示广告变体。 输入每个束的重量（百分比）。 所有选定包的权重之和必须为100。<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
 
-   * *[!UICONTROL Algorithmic]：*&#x200B;根据指定的优化目标以算法方式旋转创意。
+   * *[!UICONTROL Algorithmic]：*&#x200B;根据指定的目标更频繁地显示最有效的广告变体。
 
-      * 对于&#x200B;**[!UICONTROL Optimization Goal]**，选择&#x200B;*[!UICONTROL Click Through Rate]*、（标准视频广告体验） *[!UICONTROL Completion Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果选择&#x200B;*[!UICONTROL Custom Objective]*，则请选择现有的[Advertising DSP自定义目标](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
+      * 对于&#x200B;**[!UICONTROL Optimization Goal]**，选择&#x200B;*[!UICONTROL Click Through Rate]*、（标准视频广告体验） *[!UICONTROL Completion Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果选择&#x200B;*[!UICONTROL Custom Objective]*，则请选择现有的[Advertising DSP自定义目标](/help/dsp/optimization/custom-goal.md)。
 
-   * *[!UICONTROL Sequencing]：*&#x200B;按指定的顺序（包1先提供，包2先提供，依此类推）旋转关联的创意包，每个包序列具有指定的展示总数。 提供的广告大小由可用库存决定。 可将序列中的最后一个束配置为a\)无限显示（缺省值）或b\)循环返回到第一个束。 例如，您可以在包1中显示三(3)次印象的任何创意，在包2中显示一(1)次印象的任何创意，然后在包3中显示两(2)次印象的任何创意，然后再次开始循环。 或者，一旦显示束3中的创意，您就可以继续无限期地显示束3中的创意，而不是创建循环。 在启用排序时：
+   * *[!UICONTROL Sequencing]：*&#x200B;按指定顺序显示关联的创意包（包1先提供，包2先提供，依此类推），每个包序列具有指定的展示总数。 提供的广告大小由可用库存决定。 可将序列中的最后一个束配置为a\)无限显示（缺省值）或b\)循环返回到第一个束。 例如，您可以在包1中显示三(3)次展示的任何广告变体，在包2中显示一(1)次展示的任何广告变体，然后在包3中显示两(2)次展示的任何广告变体，然后重新开始循环。 或者，一旦显示包3中的广告变体，您就可以继续无限期地显示包3中的广告变体，而不是创建循环。 在启用排序时：
 
       1. 将分配的捆绑包拖放到所需顺序中。
 
