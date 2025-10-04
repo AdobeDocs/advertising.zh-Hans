@@ -3,9 +3,9 @@ title: 将标准创意添加到创意库
 description: 了解如何将标准（非动态）创意添加到创意库。
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 5bbc8b17b0f88c928b6ab2b8805ecec10bb398fb
+source-git-commit: ecc0f6ac900292825b23b648be40dcc68ae15c64
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,8 @@ ht-degree: 0%
 
    * 要删除文件，请取消选中该文件旁边的复选框。
 
+1. （可选）要预览创意，请单击图像上方的![预览](/help/creative/assets/preview.png "预览")。
+
 1. 指定[灵活的HTML5广告设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5)。
 
    默认情况下，将选择您刚刚上传的所有创意内容。 任何只有一个值的设置均适用于所有选定的创意；对于某些设置，您可以指定单个值。 要输入特定创意的设置，请取消选中每个不适用的创意旁边的复选框。
@@ -60,7 +62,7 @@ ht-degree: 0%
 
 ### 使用模板添加灵活的创意 {#flexible-creative-use-template}
 
-您可以使用上传到帐户的任何灵活的创意模板来构建预定义大小的广告。 选择要使用的模板后，您将编辑点击标记和属性。&lt;！ — 如果将模板下载功能添加回来，请将此替换最后一句：您可以a\)选择要使用的模板，然后编辑点击标记和属性；或b\) [以ZIP文件格式下载模板](#download-flexible-creative-template)，脱机编辑内容以构建您自己的创意，然后[将编辑后的文件上传为新的创意] (flexible-creative-upload)。>
+您可以使用上传到帐户的任何灵活的创意模板来构建预定义大小的广告。 选择要使用的模板后，您将编辑点击标记和属性。&lt;！ — 如果将模板下载功能添加回来，请将此替换最后一句：您可以a\)选择要使用的模板，然后编辑点击标记和属性；或b\) [以ZIP文件格式下载模板](#download-flexible-creative-template)，脱机编辑内容以构建您自己的创意，然后[将编辑后的文件上传为新的创意](flexible-creative-upload)。>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -78,7 +80,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 1. （可选）要预览模板，请单击模板名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Preview]**。
 
-   您可以选择下载模板
+   您可以选择下载模板：单击模板名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Download]**。
 
 1. 单击模板名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Use Selected]**。
 
@@ -86,18 +88,15 @@ For information about the attributes available in predefined templates, see "[Av
 
    创意文件压缩后的最大文件大小为2 MB。<!-- Still true? -->
 
+1. 添加或删除您自己的灵活创意文件：
+
+   * 若要从设备或网络添加文件，请单击左上角的![添加](/help/creative/assets/create.png "添加")，然后找到该文件。 选中创意旁边的复选框，取消选中其他创意旁边的复选框，然后编辑[灵活的HTML5创意设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5)以指定语言并包含您自己的点击标记、图像和其他属性。
+
+   * 要删除文件，请取消选中该文件旁边的复选框。
+
+1. （可选）要预览创意，请单击图像上方的![预览](/help/creative/assets/preview.png "预览")。
+
 1. 单击&#x200B;**[!UICONTROL Create]**。
-
-<!-- Not options as of 5/22/25:
-
-1. In the left panel, select the creative size to see all available templates for that size.
-
-1. Select the template:
-
-   * In card view, click **[!UICONTROL ...]** next to the template name, and then click **[!UICONTROL Use Selected]**.
-     
-   * In table view, hold the cursor over the row and click **[!UICONTROL Use Selected]**.
--->
 
 ## 将HTML5创意添加到创意库
 

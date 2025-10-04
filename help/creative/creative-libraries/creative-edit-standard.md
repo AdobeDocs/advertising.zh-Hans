@@ -3,9 +3,9 @@ title: 在创意库中编辑标准创意内容
 description: 了解如何在创意库中更改标准（非动态）创意的设置。
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: cfa8af948774daf3da56d835d739573f4782ac4b
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >* (仅限灵活的HTML5创意)您只能编辑单个创作的属性。<!-- May never be implemented: Also, when you update the template for a parent creative with child variations, the variations are updated with any changes to the template layout, but the attribute values for the variation aren't changed. -->
+   >* (仅限灵活的HTML5创意)您只能编辑单个创作的属性。
 
-<!-- Not there as of 1/16/25. If we do add it, verify the applicable ad types:   
-1. (Flexible HTML5 [or third-party should be possible, but not so] creatives; optional) Once you've made your changes, click ![]() to preview the new creative. 
--->
+1. (灵活的HTML5创意；可选)完成更改后，单击图像上方的![预览](/help/creative/assets/preview.png "预览")以预览新创意。
 
 1. 单击&#x200B;**保存**。
 
