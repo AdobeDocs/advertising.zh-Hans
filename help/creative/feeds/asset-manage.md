@@ -2,9 +2,9 @@
 title: 管理资源文件
 description: 了解如何上传和管理广告商的资源文件。
 feature: Creative Dynamic Creatives
-source-git-commit: 4b3db40b3c0fb68e2b3d84b8d95c5d3fbd549d7b
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 * Dynamic HTML5广告：
 
-   * CSV、TSV或Microsoft Excel电子表格(XLSX)格式的信息源文件，每个广告变体具有一个标题行和一个数据行。 在每一行中包含图像名称或对Adobe Experience Manager的引用。<!-- need spec of available column names that the user-created header names must map to; need to reference it in feed template topic too, so make it a separate file/appendix. -->
+   * CSV、TSV或Microsoft Excel电子表格(XLSX)格式的信息源文件，每个广告变体具有一个标题行和一个数据行。 在每一行中使用格式`images/image_name`（如`images/300x250_acme_logo.png`）包括图像名称。
 
-     对于要上载的图像，请使用格式`images/image_name` （如`images/300x250_acme_logo.png`.）<!-- Verify.  Also need to include the spec for how to reference images in AEM -->引用该图像
+     广告商特定的字段名称必须映射到动态广告馈送文件的[可用字段](/help/creative/appendix-available-feed-fields.md)。
 
    * GIF、JPEG、JPG或PNG格式中关联的图像资源。<!-- Is this true: The maximum file size is two (2) MB. -->查看[支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)。
 
@@ -84,6 +84,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
+>* [动态广告馈送文件的可用字段](/help/creative/appendix-available-feed-fields.md)
 >* [动态广告的工作流](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [管理馈送模板](/help/creative/feeds/feed-template-manage.md)
 >* [管理目录](/help/creative/feeds/catalog-manage.md)

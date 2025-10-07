@@ -2,9 +2,9 @@
 title: 动态广告的工作流
 description: 了解用于管理动态广告的工作流。
 feature: Creative Dynamic Creatives
-source-git-commit: f25b0edea0f264f8ebd7c487112a7cbfca32c9e0
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 工作流2
 
-1. [根据可用的资产，为您的动态广告创建广告模板](/help/creative/ad-templates/ad-template-manage.md)。
+1. [根据可用的资产，为您的动态广告创建广告模板](/help/creative/ad-templates/ad-template-manage.md)。 广告模板包括具有所需广告格式的HTML5文件和(仅限动态HTML5广告)具有广告属性的文件。
 
 1. 设置广告元素：
 
