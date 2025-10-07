@@ -3,9 +3,9 @@ title: 关于Adobe Advertising Creative
 description: 了解 [!DNL Creative]。
 feature: Creative Introduction
 exl-id: 2cc12119-5924-4fcd-a54b-30f7887ae6a7
-source-git-commit: 41814881a2fc0efde76927d12a8649efad86f4cb
+source-git-commit: 9082d9f455a0d26ca027dc699df29737b9042457
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ### 体验作为广告的实施
 
-创建体验后，您可以为该体验生成JavaScript或iframe标记，并在Advertising DSP促销活动或任何其他DSP中将该标记作为第三方标准显示广告实施。<!-- Will add video and other ad formats; not sure if they'll be available for both standard and dynamic ads. -->
+创建体验后，您可以为该体验生成JavaScript或iframe标记，并在Advertising DSP营销活动或任何其他DSP中将该标记作为第三方广告实施。
 
 ### 广告元素优化
 

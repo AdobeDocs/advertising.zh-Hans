@@ -2,16 +2,16 @@
 title: 管理资源文件
 description: 了解如何上传和管理广告商的资源文件。
 feature: Creative Dynamic Creatives
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+source-git-commit: af29637d42b9932933cd23a64d6a0e2b7084fa31
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
 # 管理资源文件
 
-动态HTML5广告需要Microsoft Excel电子表格(XLSX)格式的信息源文件以及在电子表格中引用的图像资源(Adobe Experience Manager资源引用除外)。 静态HTML5广告只需每个广告使用一个图像资源。
+动态HTML5广告需要采用Microsoft Excel电子表格(XLSX)格式的信息源文件以及在电子表格中引用的图像资源。 静态HTML5广告只需每个广告使用一个图像资源。
 
 
 >[!NOTE]
@@ -28,9 +28,7 @@ ht-degree: 0%
 
    * GIF、JPEG、JPG或PNG格式中关联的图像资源。<!-- Is this true: The maximum file size is two (2) MB. -->查看[支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)。
 
-   * （可选）MP4或WEBM格式的视频资产
-
-  您可以上传单个XLSX文件、单个图像或视频文件，或者单个ZIP文件（包含XLSX、图像和视频文件的任意组合）。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+  您可以上传单个XLSX文件、单个图像文件或包含XLSX和图像文件任意组合的单个ZIP文件。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * 静态HTML5广告：
 
