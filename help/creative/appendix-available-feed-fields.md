@@ -1,8 +1,8 @@
 ---
 title: 动态广告馈送文件的可用字段
 description: 了解可在用于创建动态广告的信息源文件中包含的字段。
-feature: Creative Dynamic Ads
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+feature: Creative Dynamic Creatives
+source-git-commit: 67ee38860ac5cb7e9340f8e9d4667353e509b1ec
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
