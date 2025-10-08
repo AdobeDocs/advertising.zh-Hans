@@ -3,9 +3,9 @@ title: SSP合作伙伴
 description: 查看可用供应方平台(SSP)和开放交换合作伙伴的列表。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 0e1f2e62394f2997bde7feba82592ab6fef9e4b6
+source-git-commit: 93f2ce3783d80d98a25e5c7a31cfc6ad6c475a94
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 | [!DNL GumGum] |  | Adobe Advertising | — | 全局 | 美元 | 显示桌面和移动设备<br><br>视频桌面和移动设备 |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | — | 全局 | 美元 | 显示桌面和移动设备<br><br>视频桌面、移动设备和电视 |
 | [!DNL Magnite DV+] | [!DNL Magnite] （以前为[!DNL Rubicon]） | [!DNL TubeMogul]或Adobe Advertising | PG支持 | 全局 | 美元 | 音频桌面和移动设备<br><br>显示桌面和移动设备<br><br>视频桌面、移动设备和电视 |
-| [!DNL Magnite SpringServe (formerly Magnite Streaming)] | [!DNL Magnite] （以前为[!DNL Telaria]和[!DNL Tremor]） | [!DNL TubeMogul]或Adobe Advertising | PG支持 | 全局 | 美元 | 视频台式机、移动设备和CTV |
+| [!DNL Magnite SpringServe (formerly Magnite Streaming)] | [!DNL Magnite] （以前为[!DNL Telaria]和[!DNL Tremor]） | [!DNL TubeMogul]或Adobe Advertising | PG支持 | 全局 | AUD， USD | 视频台式机、移动设备和CTV |
 | [!DNL Microsoft Monetize] | [!DNL Microsoft] （以前为[!DNL Xandr]，[!DNL AppNexus]） | 视频名额ID：9094<br>显示名额ID：3939 | — | 全局 | 美元 | 显示桌面和移动设备<br><br>视频桌面、移动设备和电视 |
 | [!DNL Nexxen] | [!DNL Nexxen] （以前为[!DNL Unruly]） | Adobe Advertising | — | 美国+ EMEA | 美元 | 显示桌面和移动设备<br><br>视频桌面、移动设备和电视 |
 | [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul]或Adobe Advertising | PG支持 | 全局 | 美元 | 显示桌面和移动设备<br><br>视频桌面、移动设备和电视 |
