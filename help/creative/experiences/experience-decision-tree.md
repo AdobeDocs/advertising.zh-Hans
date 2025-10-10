@@ -3,9 +3,9 @@ title: 决策树布局
 description: 了解具有定位的体验的决策树布局。
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 7bcafc7c70333bb6f523873ed08f2bc5123823f7
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## 术语
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 将创意捆绑包分配给体验中的每个最终目标节点。
 
-在具有创意包的每个节点中，您可以选择根据指定的权重或b)通过算法旋转包含的创意以优化点进率或自定义目标。 您还可以选择使用相同的选项按照指定的时序旋转创意。
+在具有创意包的每个节点中，您可以选择旋转包含的创意元素a)算法以优化点进率或自定义目标，b)根据指定的权重，或c)在特定序列中。 您也可以选择按指定的时序旋转创意内容，也可以任意组合相同的选项。
 
 您可以根据需要为各个创意人员自定义登陆页面URL、展示跟踪URL和点击跟踪URL。<!-- Not in the UI as of 1/31: For flexible HTML5 creatives, you can customize any of the flexible attributes. -->
 

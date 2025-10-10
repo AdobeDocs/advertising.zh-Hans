@@ -3,9 +3,9 @@ title: 自定义体验的创意优化和计划
 description: 了解如何
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: ad6f076e24d69cfa93b9306a33d9b0cd4c7e813e
+source-git-commit: 7bcafc7c70333bb6f523873ed08f2bc5123823f7
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *仅定位具有现有创意的节点*
 
-默认情况下，通过算法确定体验的创意轮换以优化整体点进率，创意优化设置适用于所有分配的包。 您可以自定义创意轮换以手动运行每个捆绑中的创意，从而通过算法优化来达到指定的Advertising DSP自定义目标；根据指定的捆绑序列，在每个捆绑序列中指定展示次数；或根据相对权重。 您还可以安排特定创意捆绑包在指定的连续时间段内运行，并为每个计划应用自定义创意轮换设置。
+默认情况下，通过算法确定体验的创意轮换以优化整体点进率，创意优化设置适用于所有分配的包。 您可以交替对指定的Advertising DSP自定义目标进行算法优化；根据指定的捆绑序列旋转捆绑包，每个捆绑序列具有指定的展示次数；或根据相对权重。 您还可以安排特定创意捆绑包在指定的连续时间段内运行，并为每个计划应用自定义创意轮换设置。
 
 >[!NOTE]
 >
