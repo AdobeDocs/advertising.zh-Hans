@@ -24,7 +24,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
--->
+>-->
 
 ## 术语
 
