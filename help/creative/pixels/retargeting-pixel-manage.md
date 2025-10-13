@@ -3,9 +3,9 @@ title: 管理重定位像素
 description: 了解如何创建和实施重新定位像素以用作广告体验的目标。
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 1d0a1640eb2d19b8765150226e7185602bbfd495
+source-git-commit: ed3bf0200d3d3b31ef80c790c4e702914459c521
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
-您可以创建一个重定位像素，以识别使用用户Cookie或通用ID访问广告商登陆页面或转化页面的访客，并捕获页面正在跟踪这些访客的特定属性。 像素可跟踪访客在页面上执行的最新事件。 创建像素后，可以生成像素标记以插入相关网页以开始跟踪访客。<!-- Note to self: surfer id=cookie or universal ID -->
+您可以创建一个重定位像素，以识别使用用户Cookie或通用ID访问广告商登陆页面或转化页面的访客。 像素可跟踪访客在页面上执行的最新事件，并捕获页面正在跟踪这些访客的特定属性。 创建像素后，生成像素标记以插入到相关网页中以开始跟踪访客。<!-- Note to self: surfer id=cookie or universal ID -->
 
-然后，您可以在广告体验中将像素用作任何创意内容的目标，以便仅向具有指定属性的用户显示广告，这些用户之前访问了与该像素关联的网页。 例如，如果网页跟踪这些属性值，则您可以定位查看大小为10的红鞋的访客。<!-- better example? Make sure they match attribute examples below -->
+然后，您可以在广告体验中将像素用作任何创意内容的目标，以便仅向具有指定属性的用户显示广告，这些用户之前访问了与该像素关联的网页。 例如，如果网页跟踪这些属性值，则您可以定位那些查看大小为10的红鞋的访客。<!-- better example? Make sure they match attribute examples below -->体验级别目标与DSP的定位选项一起应用；层次结构定位行为可能因DSP而异。
 
 重新定位用户档案会存储180天。
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> * [!DNL Creative]当前仅支持Advertising DSP的通用ID。 未来版本将支持第三方DSP的通用ID。<!-- Clarify this and reword as needed  -->
+> * [!DNL Creative]仅支持Advertising DSP的通用ID。
 >* 您还可以将来自Adobe Audience Manager和Adobe Analytics的第一方受众用作您的体验的[创意目标](/help/creative/experiences/experience-settings-targeting.md)。
->* 在Advertising DSP投放位置中使用体验作为广告时，您可以将投放位置定向到DSP中所有可供您使用的受众。 您还可以[创建自定义受众区段标记](/help/dsp/audiences/custom-segment-create.md)以跟踪特定登陆页面的所有访客，然后将这些区段用作投放的创意目标。
+>* 在Advertising DSP投放位置中使用体验作为广告时，您可以将投放位置定向到DSP中所有可供您使用的受众。 您还可以[创建自定义受众区段标记](/help/dsp/audiences/custom-segment-create.md)以跟踪特定登陆页面的所有访客，然后将这些区段用作投放的创意目标。 Advertising DSP对投放级别定位应用广告级别定位，而不是（代替）投放级别定位。
 >* 选择退出跟踪以进行广告定位的网站访客不会根据受众区段或重新定位用户档案接收带有个性化创意内容的广告。
 
 ## 创建重定位像素
@@ -75,9 +75,9 @@ ht-degree: 0%
 
 1. 在像素标记中，通过将“`<img src>`”替换为值，为`<script src>`和`Insert <attribute>`部分中的每个属性指定一个值。 如果标记捕获通用ID，请指定ID5合作伙伴ID。
 
-   如果手动添加其他属性，则必须包含URL编码。
+   如果手动添加其他属性，请包括URL编码。
 
-   例如，如果您包含属性“category”、“color”和“size”并捕获ID5通用ID，则像素标记将包含以下参数： `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--`和`&id5pid=--Insert ID5_PARTNER_ID--`。 例如，要定位选择大小为10的红色凉鞋的用户，请将图像标记和脚本标记中的参数更改为`&ut1=sandals&ut2=red&ut3=10`，并在脚本标记中输入ID5合作伙伴ID，如`&id5pid=0123456789`。
+   例如，如果您包含属性“category”、“color”和“size”并捕获ID5通用ID，则像素标记将包含以下参数： `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--`和`&id5pid=--Insert ID5_PARTNER_ID--`。 若要定位大小为10的红凉鞋用户，请将图像标记和脚本标记中的参数更改为`&ut1=sandals&ut2=red&ut3=10`，并在脚本标记中输入ID5合作伙伴ID，如`&id5pid=0123456789`。
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 

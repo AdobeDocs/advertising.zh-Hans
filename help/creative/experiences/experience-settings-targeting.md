@@ -3,9 +3,9 @@ title: 目标体验设置
 description: 请参阅针对性广告体验的所有设置的描述。
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 867abdaea31c78214061c4a0fd8401877edfbe38
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 0%
 * 若要显示或隐藏右侧的创意窗格，请单击右窗格右上角的![显示/隐藏](/help/creative/assets/hide-show-creatives.png "显示/隐藏")。
 
 ## [!UICONTROL Targeting]节
+
+体验级别的目标与DSP的定位选项一起应用；层次结构定位行为可能因DSP而异。 例如，Adobe Advertising DSP对投放级别定位应用广告级别定位，而不是（代替）投放级别定位。 确保您的广告体验包含与将在其中实施该功能的营销活动兼容的定位。
 
 **[!UICONTROL Targeting]：** （现有体验为只读）启用使用决策树和自动标记创建的创意定位。 保存体验后，便无法更改此设置。
 

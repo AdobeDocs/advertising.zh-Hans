@@ -3,9 +3,9 @@ title: 决策树布局
 description: 了解具有定位的体验的决策树布局。
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: 4057f413b58343580a965f9a419af1e002892ff6
+source-git-commit: 8a163cfd950d7388817425cde122105846604283
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## 术语
 
