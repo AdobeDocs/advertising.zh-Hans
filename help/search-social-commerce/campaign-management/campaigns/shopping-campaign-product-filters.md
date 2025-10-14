@@ -35,5 +35,5 @@ ht-degree: 0%
 >* [[!DNL Microsoft Advertising] 产品组设置](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
 >* [[!DNL Google Ads] 库存馈送的购物广告模板设置](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)
 >* [[!DNL Microsoft Advertising] 库存馈送的购物广告模板设置](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)
->* [ [!DNL Google Ads] 批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)的必需数据
->* [ [!DNL Microsoft Advertising] 批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)的必需数据
+>* [&#x200B; [!DNL Google Ads] 批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)的必需数据
+>* [&#x200B; [!DNL Microsoft Advertising] 批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)的必需数据

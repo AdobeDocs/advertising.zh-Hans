@@ -28,7 +28,7 @@ Customer Journey Analytics允许您将数据从Adobe Experience Platform同步�
 
 Adobe Advertising正在构建一个解决方案，以自动将数据发送到Customer Journey Analytics。 发布解决方案后，Adobe Advertising将开始发送您的AMO ID和EF ID的数据以供在Customer Journey Analytics中使用，但发布日期之前的历史数据将不存在。
 
-但是，您可以通过创建一个简单的<!-- [!DNL rVars] -->处理规则[[!DNL Analytics] 来立即将您的AMO ID和EF ID ](https://experienceleague.adobe.com/zh-hans/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)复制到<!-- [!DNL rVars] -->中，从而更快地开始收集AMO ID和EF ID [!DNL eVars]的数据。 一旦创建处理规则，您就会开始为AMO ID和EF ID <!-- [!DNL rVars] -->在跟踪新事件时积累数据。 解决方案可用后，历史数据即可在Customer Journey Analytics中使用。
+但是，您可以通过创建一个简单的<!-- [!DNL rVars] -->处理规则[[!DNL Analytics] 来立即将您的AMO ID和EF ID &#x200B;](https://experienceleague.adobe.com/zh-hans/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)复制到<!-- [!DNL rVars] -->中，从而更快地开始收集AMO ID和EF ID [!DNL eVars]的数据。 一旦创建处理规则，您就会开始为AMO ID和EF ID <!-- [!DNL rVars] -->在跟踪新事件时积累数据。 解决方案可用后，历史数据即可在Customer Journey Analytics中使用。
 
 >[!NOTE]
 >

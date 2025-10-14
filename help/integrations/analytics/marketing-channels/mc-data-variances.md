@@ -33,5 +33,5 @@ ht-degree: 0%
 >* [在 [!DNL Analytics] 和Adobe Advertising](/help/integrations/analytics/data-variances.md)之间的预期数据差异
 >*  [!DNL Analytics Marketing Channels][&#128279;](mc-overview.md)的基础知识
 >* [使用Adobe AdvertisingID创建 [!DNL Marketing Channels] 处理规则](mc-ids.md)
->* [对Adobe Advertising数据使用 [!DNL Analytics Marketing Channels] ](mc-ac-data.md)
+>* [对Adobe Advertising数据使用 [!DNL Analytics Marketing Channels] &#x200B;](mc-ac-data.md)
 >* [视频：使用 [!DNL Marketing Channels] 进行Adobe Advertising报告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=zh-Hans)

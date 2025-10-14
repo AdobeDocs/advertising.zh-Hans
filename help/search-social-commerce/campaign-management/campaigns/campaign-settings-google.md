@@ -261,7 +261,7 @@ ht-degree: 0%
 
 **[!UICONTROL Final URL]：**&#x200B;从资产组创建的所有广告的最终URL。<!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]：**&#x200B;广告的最多15个图像，包括以下大小：1)至少三个正方形图像，2)至少三个横向图像，以及3)至少一个纵向图像。 查看[[!DNL Google Ads] 图像规范](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications)。 您可以上传图像或从[!UICONTROL Asset Library]中选择图像，但无法在同一操作中同时选择两者。
+**[!UICONTROL Images]：**&#x200B;广告的最多15个图像，包括以下大小：1)至少三个正方形图像，2)至少三个横向图像，以及3)至少一个纵向图像。 查看[[!DNL Google Ads] 图像规范](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications)。 您可以上传图像或从[!UICONTROL Asset Library]中选择图像，但无法在同一操作中同时选择两者。
 
 * 要上传图像，请执行以下操作：
 
@@ -283,7 +283,7 @@ ht-degree: 0%
 
 * 要从[!UICONTROL Asset Library]中选择图像，请单击&#x200B;**[!UICONTROL Asset Library]**&#x200B;并选择图像。
 
-**[!UICONTROL Logos]：**&#x200B;至少一个正方形(1:1)徽标和一个横向(4:1)徽标。 每种尺寸最多可包含5个。 查看[[!DNL Google Ads] 徽标规范](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications)。 您可以上传图像或从[!UICONTROL Asset Library]中选择图像，但无法在同一操作中同时选择两者。
+**[!UICONTROL Logos]：**&#x200B;至少一个正方形(1:1)徽标和一个横向(4:1)徽标。 每种尺寸最多可包含5个。 查看[[!DNL Google Ads] 徽标规范](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications)。 您可以上传图像或从[!UICONTROL Asset Library]中选择图像，但无法在同一操作中同时选择两者。
 
 * 要上传图像，请执行以下操作：
 

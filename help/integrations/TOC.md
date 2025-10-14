@@ -18,8 +18,8 @@ ht-degree: 10%
 
 + [新增功能](/help/integrations/home.md)
 + [!DNL Analytics for Advertising] {#analytics}
-   + [ [!DNL Analytics for Advertising]概述](/help/integrations/analytics/overview.md)
-   + [ [!DNL Analytics]使用的Adobe Advertising ID](/help/integrations/analytics/ids.md)
+   + [&#x200B; [!DNL Analytics for Advertising]概述](/help/integrations/analytics/overview.md)
+   + [&#x200B; [!DNL Analytics]使用的Adobe Advertising ID](/help/integrations/analytics/ids.md)
    + 规划实施 {#planning}
       + [实施 [!DNL Analytics for Advertising]的先决条件和关键信息](/help/integrations/analytics/prerequisites.md)
       + [(DSP)  [!DNL Analytics for Advertising]的JavaScript代码](/help/integrations/analytics/javascript.md)
@@ -31,9 +31,9 @@ ht-degree: 10%
    + 交换的数据 {#data}
       + [Analysis Workspace中的Adobe Advertising指标](/help/integrations/analytics/advertising-metrics-in-analytics.md)
       + [Adobe Advertising中的[!DNL Analytics]数据](/help/integrations/analytics/analytics-data-in-advertising.md)
-      + [ [!DNL Analytics] 和Adobe Advertising之间的预期数据差异](/help/integrations/analytics/data-variances.md)
+      + [&#x200B; [!DNL Analytics] 和Adobe Advertising之间的预期数据差异](/help/integrations/analytics/data-variances.md)
    + 在[!DNL Analytics Marketing Channels]中工作 {#mc}
-      + [ [!DNL Marketing Channels]的基础知识](/help/integrations/analytics/marketing-channels/mc-overview.md)
+      + [&#x200B; [!DNL Marketing Channels]的基础知识](/help/integrations/analytics/marketing-channels/mc-overview.md)
       + [使用Adobe Advertising ID创建 [!DNL Marketing Channels] 处理规则](/help/integrations/analytics/marketing-channels/mc-ids.md)
       + [将 [!DNL Marketing Channels] 用于Adobe Advertising数据](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
       + [为什么渠道数据在Adobe Advertising和 [!DNL Marketing Channels]之间可能不同](/help/integrations/analytics/marketing-channels/mc-data-variances.md)

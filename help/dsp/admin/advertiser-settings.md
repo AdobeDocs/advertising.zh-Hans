@@ -134,13 +134,13 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 **&#x200B;**&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**。 使用此选项，选择标准。
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+**&#x200B; &#x200B;**&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
 **&#x200B;**&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**。 使用此选项，选择标准。
 
 **&#x200B;**&#x200B;[!UICONTROL Include URL's whose average player size composition is]**。 使用此选项，选择标准。
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+**&#x200B; &#x200B;**&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### 显示
 
