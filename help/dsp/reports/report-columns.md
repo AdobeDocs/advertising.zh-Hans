@@ -3,9 +3,9 @@ title: 可用报表列
 description: 请参阅自定义报表中可用列的说明。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: ae7431218dcb547ded53d4bad1a79b894ee973fe
+source-git-commit: 00931d247b43f4ec26e79d56ac5138c10323a79f
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---
@@ -56,10 +56,11 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System Vendor] | 显示广告的操作系统的供应商（如[!UICONTROL Microsoft]或[!UICONTROL Apple]）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System Version] | 显示广告的操作系统的版本（如[!UICONTROL Windows 10]或[!UICONTROL iOS Mojave]） |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System] | 显示广告的操作系统（如[!UICONTROL Apple iOS]或[!UICONTROL Android]）。 |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal ID] | 通过外部供应合作伙伴分配给交易的唯一标识符。 |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Name] | 在DSP中输入的交易的用户分配名称。 |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Source] | 提供库存的供应方合作伙伴。 这通常是发布者，但也可以是SSP。 |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal Name] | 在DSP中输入的交易的用户分配名称。 |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal Type] | 交易是&#x200B;*[!UICONTROL Guaranteed]*&#x200B;还是&#x200B;*[!UICONTROL Non-Guaranteed]*。 |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Inventory Type] | 库存的分类： *[!UICONTROL Private]、* *[!UICONTROL On Demand]、*&#x200B;或&#x200B;*[!UICONTROL Public]*。 |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Private Deal ID] | 通过外部供应合作伙伴分配给私人交易的唯一标识符。 |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Publisher] | 提供库存的供应方合作伙伴。 这通常是发布者，但也可以是SSP。 |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL SSP] | 介质所属的供应方合作伙伴(SSP)。 |
 | [!UICONTROL Dimension] | [!UICONTROL Frequency] | [!UICONTROL Frequency] | 设备收到广告的次数，基于唯一Cookie或设备ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL City] | 报告的数据所属的城市。 |
