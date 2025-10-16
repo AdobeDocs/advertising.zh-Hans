@@ -3,9 +3,9 @@ title: 基本报表和高级报表的报表列
 description: 了解基本报表和高级报表的可用数据列。
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: af7f2dbb2b53b6f61b848a75a081c402341df979
+source-git-commit: f5fa38460486a5eadce8c8e6334723f67e3814f5
 workflow-type: tm+mt
-source-wordcount: '3745'
+source-wordcount: '3806'
 ht-degree: 0%
 
 ---
@@ -38,13 +38,16 @@ ht-degree: 0%
 | [!UICONTROL Ad Size] | 广告的维度。 |
 | [!UICONTROL AD Strength] | （[!DNL Google Ads]响应式搜索广告）广告的有效性： <i>[!UICONTROL average]</i>、<i>[!UICONTROL excellent]</i>、<i>[!UICONTROL good]</i>、<i>[!UICONTROL no_ads]</i>、<i>[!UICONTROL pending]</i>、<i>[!UICONTROL poor]</i>、<i>[!UICONTROL unknown]</i>或<i>[!UICONTROL unspecified]</i>。 |
 | [!UICONTROL Adgroup MBA] | （[!DNL Google Ads]、[!DNL Microsoft Advertising]和[!DNL Yahoo! Japan Ads]个促销活动）当前广告组级别的移动竞价调整，它确定在移动设备上显示广告时如何调整竞价。 |
+| [!UICONTROL AI Max Bundling Required] | （仅针对搜索网络的营销活动；启用了AI Max功能的营销活动；只读）是否需要捆绑： *[!UICONTROL NOT_REQUIRED]*&#x200B;或null。 |
+| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max]功能](https://support.google.com/google-ads/answer/15910366)是否已启用： *[!UICONTROL false]*&#x200B;或null。 |
+| [!UICONTROL AI Max Search Term Matching] | （针对搜索网络且启用了[AI Max功能](https://support.google.com/google-ads/answer/15910366)和营销活动级别搜索词匹配功能的营销活动；只读）是否启用了广告组级别搜索词匹配： *[!UICONTROL true]*&#x200B;或null。 |
 | [!UICONTROL Advertiser] | 广告商名称。 |
 | [!UICONTROL Advertiser ID] | 广告商的Search、Social和Commerce帐户的数值ID。 |
 | [!UICONTROL Avg Position] | 指定日期范围内的广告平均位置。<br><br>对于[!DNL Google Ads]和[!DNL Yahoo! Japan Ads]营销活动，此数据仅在2019年9月之前可用。 对于[!DNL Microsoft Advertising]，此数据仅在2021年1月22日之前可用。 |
 | [!UICONTROL Base URL] | 关键字的基本URL，包括为促销活动或帐户配置的任何附加参数。 它不包括任何搜索、社交和Commerce重定向和跟踪代码。 |
 | [!UICONTROL Bid Strategy] | （大多数广告网络）对于促销活动或促销活动组件，这是促销活动的竞价策略。 对于链接到经理帐户的广告网络帐户，这是跨帐户竞价策略。 可用值因广告网络而异。 |
 | [!UICONTROL Business Name] | （[!DNL Microsoft Advertising]个响应式广告）业务名称。 |
-| [!UICONTROL Call to Action] | （[!DNL Microsoft Advertising]个响应式广告和多媒体广告）广告中包含的行动号召。 |
+| [!UICONTROL Call to Action] | （[!DNL Microsoft Advertising]个响应式广告和多媒体广告）广告中包含的call to action。 |
 | [!UICONTROL Campaign] | 营销活动。 |
 | [!UICONTROL Campaign Budget] | 营销活动预算。 |
 | [!UICONTROL Campaign MBA] | （[!DNL Google Ads]、[!DNL Microsoft Advertising]和[!DNL Yahoo! Japan Ads]个营销活动）当前营销活动级别的移动竞价调整，它确定在移动设备上显示广告时如何调整竞价。 |
@@ -54,7 +57,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign Type] | 营销活动类型，如<i>[!UICONTROL Audience (Ctv Video)]</i><i>[!UICONTROL Audience (Feed)]</i>、<i>[!UICONTROL Audience (Image)]</i>、<i>[!UICONTROL Audience (Video)]</i>、<i>[!UICONTROL Brand Shopping]</i>、<i>[!UICONTROL Demand Gen]</i>、<i>[!UICONTROL Search and Display]</i>、<i>[!UICONTROL Standard Display]</i>、<i>[!UICONTROL Standard Performance Max]</i>、<i>[!UICONTROL Standard Search]</i>、<i>[!UICONTROL Standard Shopping]</i>、<i>[!UICONTROL Store Ad]</i>、<i>[!UICONTROL Video]</i>或<i>[!UICONTROL Others]</i>。 |
 | [!UICONTROL Channel Type] | 营销渠道类型： <i>[!UICONTROL Search]</i>或<i>[!UICONTROL Content]</i>。 当报告设置中的报告[!UICONTROL Search/Content]设置为“[!UICONTROL Combined]”时，此列不包括在内。 |
 | [!UICONTROL City] | ([!UICONTROL Geo Distribution Report]， [!UICONTROL Transaction Report])发起点击的城市。 根据用户的IP地址确定。 |
-| [!UICONTROL Click Match Type] | 关键字匹配所点击广告的类型。 除了具有多个匹配类型的[!DNL Microsoft Advertising]关键字外，这与[!UICONTROL Listing Match Type]相同。 对于[!DNL Microsoft Advertising]关键字，这是实际点击的匹配类型。 |
+| [!UICONTROL Click Match Type] | 关键字匹配所点击广告的类型。 除了具有多个匹配类型的[!UICONTROL Listing Match Type]关键字外，这与[!DNL Microsoft Advertising]相同。 对于[!DNL Microsoft Advertising]关键字，这是实际点击的匹配类型。 |
 | [!UICONTROL Click Value] | ([!UICONTROL Portfolio Report])为项目组合的目标指定的点击值。 |
 | [!UICONTROL Click/Impression Time] | ([!UICONTROL Transaction Report])导致转化的点击或展示发生的时间。 |
 | [!UICONTROL Clicks] | 指定日期范围内的广告点击次数。 |
@@ -77,7 +80,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Base URL] | 广告的基本URL，包括为促销活动或帐户配置的任何附加参数。 它不包括任何搜索、社交和Commerce重定向和跟踪代码。 |
 | [!UICONTROL Creative Destination URL] | 广告的最终URL或目标URL（包括任何跟踪参数）。 |
 | [!UICONTROL Creative Name] | （仅限[!DNL Yahoo! Japan]）广告图像名称。 |
-| [!UICONTROL Creative Title]，[!UICONTROL Creative Title2] - [!UICONTROL Creative Title3] | 广告的标题或标题。 不同的创意类型具有不同的必需标题行数和可选标题行数。 要在[!DNL Microsoft Advertising]个响应式广告或多媒体广告中查看[!UICONTROL Creative Title4]列及更高列，请在报表设置中包含“[!UICONTROL Creative Titles]”列。 |
+| [!UICONTROL Creative Title]，[!UICONTROL Creative Title2] - [!UICONTROL Creative Title3] | 广告的标题或标题。 不同的创意类型具有不同的必需标题行数和可选标题行数。 要在[!UICONTROL Creative Title4]个响应式广告或多媒体广告中查看[!DNL Microsoft Advertising]列及更高列，请在报表设置中包含“[!UICONTROL Creative Titles]”列。 |
 | [!UICONTROL Creative Titles] | （仅适用于多媒体和响应式搜索广告）为每个广告的简短标题（“[!UICONTROL Creative Title]”到“[!UICONTROL Creative Title15]”）添加一列。 当包含此列时，您不需要包含其他[!UICONTROL Creative Title]列，而是编辑[!UICONTROL Order Results/Limit Rows By]分区以按[!UICONTROL Creative Titles]排序，而不是[!UICONTROL Creative Title]。 |
 | [!UICONTROL Creative Type] | 广告格式。 以下是可能的值： <i>[!UICONTROL App Install Ad]</i>、<i>[!UICONTROL Call Only Ad]</i>、<i>[!UICONTROL Demand Gen Carousel Ad]</i>（多图像轮播广告）、<i>[!UICONTROL Demand Gen Image Ad (single-image ads)]</i>、<i>[!UICONTROL Demand Gen Product Ad]</i>和<i>[!UICONTROL Demand Gen Video Ad]</i>、<i>[!UICONTROL Display Ad]</i>、<i>[!UICONTROL Dynamic Search Ad]</i>、<i>[!UICONTROL Expanded Dynamic Search Ad]</i>、<i>[!UICONTROL Expanded Text Ad]</i>、<i>[!UICONTROL Legacy Text Ad]</i>、<i>[!UICONTROL Multimedia Ad]</i>、<i>[!UICONTROL Product Ad]</i>、<i>[!UICONTROL Responsive Ad]</i>、<i>[!UICONTROL Responsive Search Ad]</i>或<i>[!UICONTROL Text Ad]</i>。 |
 | [!UICONTROL CTR] | 点进率，即点击次数除以所包含广告的展示次数。 |
@@ -86,7 +89,7 @@ ht-degree: 0%
 | [!UICONTROL Current First Page Bid] | （仅限[!DNL Google Ads]个促销活动）当[!DNL Google]搜索查询与关键字匹配时，当前在搜索结果首页投放广告所需的估计每次点击成本(CPC)竞价。<br><br>对于单个关键词和匹配类型组合，此值是该组合当前所需的第一个页面出价。 在多个营销活动中使用相同的关键字和匹配类型组合时，此值是当前所有实例中所需的最低首页出价。 |
 | [!UICONTROL Current Quality Score] | （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]个营销活动）广告网络指定的关键词或竞价单位的当前质量分数。 其范围从1（低）到10（完美）。 对于单个关键词和匹配类型组合，此值是该组合的当前分数。 当在多个营销活动中使用相同的关键字和匹配类型组合时，此值是所有实例中的最大当前分数。<br><br>广告网络使用质量分数来确定竞价和广告位置。 关键词的关联度、用户的搜索查询、登陆页面的质量等多因素共同影响该词的搜索效果。 对于[!DNL Google Ads]中的关键字，也会考虑关键字的点进率；对于[!DNL Microsoft Advertising]中的关键字，也会考虑登陆页面提供的用户体验。 |
 | [!UICONTROL Custom Bid Level] | (仅针对显示网络的Google营销活动)发出竞价的级别：由<i>[!UICONTROL Ad Group]</i>、<i>[!UICONTROL Age]</i>、<i>[!UICONTROL Gender]</i>、<i>[!UICONTROL Interest and List]</i>、<i>[!UICONTROL Keyword]</i>、<i>[!UICONTROL Placement]</i>、<i>[!UICONTROL Vertical]</i>、<i>[!UICONTROL None]</i>或<i>[!UICONTROL Unknown]</i>发出。 |
-| [!UICONTROL Description1] - [!UICONTROL Description4] | 广告正文。 不同的创意类型具有不同的必需和可选描述行数。 要在[!DNL Microsoft Advertising]个响应式广告或多媒体广告中查看[!UICONTROL Description3]和[!UICONTROL Description4]列，请在报表设置中包含“[!UICONTROL Descriptions]”列。 |
+| [!UICONTROL Description1] - [!UICONTROL Description4] | 广告正文。 不同的创意类型具有不同的必需和可选描述行数。 要在[!UICONTROL Description3]个响应式广告或多媒体广告中查看[!UICONTROL Description4]和[!DNL Microsoft Advertising]列，请在报表设置中包含“[!UICONTROL Descriptions]”列。 |
 | [!UICONTROL Descriptions] | （[!DNL Microsoft Advertising]个响应式广告和多媒体广告）为每个广告的描述行（“[!UICONTROL Description1]”到“[!UICONTROL Description4]”）添加一列。 当包含此列时，您不需要包含其他[!UICONTROL Description]列。 |
 | [!UICONTROL Device] | （[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Display Network]、[!DNL Yahoo! Japan Ads]和[!DNL Yahoo Native]营销活动）显示广告的设备类型： <i>[!UICONTROL Computers]</i>、<i>[!UICONTROL Mobile]</i>、<i>[!UICONTROL Tablets]</i>、<i>[!UICONTROL Other]</i>或<i>[!UICONTROL N/A]</i> （无值）。 其他广告网络的行的值为N/A。<br><br>在搜索促销活动中，如果关键字、广告和/或广告扩展的跟踪模板或目标URL包含参数，用于在单击广告时按设备(`&ev_dvc={device}&ev_dvm={devicemodel}`)跟踪数据，则每个设备类型的行中也会包含转化数据。 否则，如果转化数据无法归因于某个设备类型，则会将其聚合到单独的行中，且该行的“[!UICONTROL Device]”值为[!UICONTROL N/A]。 |
 | [!UICONTROL Display Path 1] | （仅限[!DNL Google Ads]个扩展文本广告）广告的基本URL之后的第一个显示路径。 |
@@ -100,7 +103,7 @@ ht-degree: 0%
 | [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (具有Adobe Advertising转化跟踪服务和具有令牌的&quot;[!UICONTROL EF Redirect]&quot;跟踪方法的广告商)点击或转化的令牌。<ul><li>对于[!DNL Google Ads]搜索广告，EF ID为`{gclid}:G:s`，其中包括Google点击ID (GCLID)和网络类型（搜索时为“s”）。</li><li> 对于[!DNL Microsoft Advertising]搜索广告，EF ID为`{msclkid}:G:s`，其中包括Microsoft点击ID (MSCLKID)和网络类型（搜索时为“s”）。</li><li>对于其他广告网络上的搜索广告，EF ID包括冲浪者ID、点击时间和网络类型。</li><li>对于展示广告，EF ID包括冲浪者ID、点击或展示时间以及网络类型。</li></ul> |
 | [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report]；仅用于搜索、社交和Commerce)用于标准化数据的地理位置的内部ID。 |
 | [!UICONTROL EF Portfolio Group ID] | 项目组合所属的项目组合组的数值ID。 |
-| [!UICONTROL EF Search Engine ID] | Search、Social和Commerce分配给广告网络的数值ID：[!DNL Google Ads]的<i>[!UICONTROL 3]</i>、[!DNL Microsoft Advertising]的<i>[!UICONTROL 10]</i>、[!DNL Meta]的<i>[!UICONTROL 45]</i>、[!DNL Yahoo! Display Network]的<i>[!UICONTROL 86]</i>、[!DNL Naver]的<i>[!UICONTROL 87]</i>、[!DNL Baidu]的<i>[!UICONTROL 88]</i>、[!DNL Yandex]的<i>[!UICONTROL 90]</i>、[!DNL Yahoo! Japan Ads]的<i>[!UICONTROL 94]</i>、[!DNL Yahoo Native]的<i>[!UICONTROL 105]</i>（已弃用）或[!DNL Pinterest]的<i>[!UICONTROL 106]</i>（已弃用）。 |
+| [!UICONTROL EF Search Engine ID] | Search、Social和Commerce分配给广告网络的数值ID：<i>[!UICONTROL 3]</i>的[!DNL Google Ads]、<i>[!UICONTROL 10]</i>的[!DNL Microsoft Advertising]、<i>[!UICONTROL 45]</i>的[!DNL Meta]、<i>[!UICONTROL 86]</i>的[!DNL Yahoo! Display Network]、<i>[!UICONTROL 87]</i>的[!DNL Naver]、<i>[!UICONTROL 88]</i>的[!DNL Baidu]、<i>[!UICONTROL 90]</i>的[!DNL Yandex]、<i>[!UICONTROL 94]</i>的[!DNL Yahoo! Japan Ads]、<i>[!UICONTROL 105]</i>的[!DNL Yahoo Native]（已弃用）或<i>[!UICONTROL 106]</i>的[!DNL Pinterest]（已弃用）。 |
 | [!UICONTROL End Date] | 报告的最后一天。 |
 | [!UICONTROL Engagement Rate] | （视频广告）参与次数除以广告显示次数。 |
 | [!UICONTROL Engagements] | （视频广告）用户观看您的广告至少10秒的次数，如果少于10秒，则为完整广告。 |
@@ -123,7 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Label Classification] | （[!UICONTROL Label Classification Report]和[!UICONTROL Label Value Report]）标签分类。 |
 | [!UICONTROL Label Value] | （[!UICONTROL Label Classification Report]和[!UICONTROL Label Value Report]）标签分类的值。 |
 | [!UICONTROL Language] | （显示营销活动）目标受众语言。 |
-| [!UICONTROL Link Type] | （[!UICONTROL Keyword Report]；仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]营销活动；仅当为报告指定的归因规则为“最后一个事件”时，数据才可用）当行报告由于点击广告扩展（而不是广告本身）或产品/购物广告导致的转化时，此列显示被点击的链接的类型和标题：<ul><li>`pla:*` — 产品广告列为`pla:<product ID>`，如“pla：8525822”。</li><li>`sl:*` — 站点链接列为`sl:<Sitelink text>`，如“sl：See Current Offers”。</li></ul> |
+| [!UICONTROL Link Type] | （[!UICONTROL Keyword Report]；仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]营销活动；仅当为报告指定的归因规则为“最后一个事件”时，数据才可用）当行报告由于点击广告扩展（而不是广告本身）或产品/购物广告导致的转化时，此列显示被点击的链接的类型和标题：<ul><li>`pla:*` — 产品广告列为`pla:<product ID>`，如“pla:8525822”。</li><li>`sl:*` — 站点链接列为`sl:<Sitelink text>`，如“sl:See当前选件”。</li></ul> |
 | [!UICONTROL Listing Match Type] | 关键词匹配广告列表的类型，<i>[!UICONTROL Content]</i>匹配内容定向营销活动中的广告，或<i>[!UICONTROL Sitecpc]</i>匹配网站定向营销活动中的版面。 对于[!DNL Microsoft Advertising]关键字，这可能包括多种匹配类型（如&quot;[!UICONTROL Broad]，[!UICONTROL Exact]&quot;）。 |
 | [!UICONTROL Location] | （显示营销活动）目标受众位置。 |
 | [!UICONTROL Long Creative Title1] - [!UICONTROL Long Creative Title5] | （在[!DNL Microsoft Advertising]响应式广告和多媒体广告的已完成报表行中）广告的长标题。 要查看这些列，请在报表设置中包含“[!UICONTROL Long Creative Titles]”列。 |
@@ -158,7 +161,7 @@ ht-degree: 0%
 | [!UICONTROL Product Group Name] | 产品组的名称。 |
 | [!UICONTROL Product Group Status] | 产品组的状态。 |
 | [!UICONTROL Product Groupings] | 父产品组。 |
-| [!UICONTROL Product ID] | （[!UICONTROL Keyword Report]；[!DNL Google Ads]产品列表广告）随广告一起显示的产品的产品ID。<br><br><b>注意：</b>仅当产品列表包含必须在[!DNL Google Merchant Center]内添加的跟踪参数`ev_plx=<GMC product ID>`时，才会捕获ID。 |
+| [!UICONTROL Product ID] | （[!UICONTROL Keyword Report]；[!DNL Google Ads]产品列表广告）随广告一起显示的产品的产品ID。<br><br><b>注意：</b>仅当产品列表包含必须在`ev_plx=<GMC product ID>`内添加的跟踪参数[!DNL Google Merchant Center]时，才会捕获ID。 |
 | [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report])转换量度的收入（例如，1代表一个注册，12代表一个12美元的订单）。 如果多个竞价单位具有相同的交易ID，则跟踪ID的收入根据指定点击日期（点击数据可用时）的点击数进行拆分。 |
 | [!UICONTROL Reach] | （仅限[!DNL Meta]个营销活动）查看您的广告至少一次的人数。 注意： [!DNL Meta]每天删除重复的用户配置文件访问权限，因此[!DNL Meta]和搜索、Social和Commerce报告的数字可能不同。 |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report]， [!UICONTROL Keyword Report])印象或点击产生的地区或美国/加拿大州。 根据用户的IP地址确定。 |
@@ -173,7 +176,7 @@ ht-degree: 0%
 | [!UICONTROL Search lost IS (budget)] | （仅限[!DNL Google Ads]）未显示广告的时间百分比，因为每日或每月预算太低。 此量度仅在营销活动级别可用。 90%以上的百分比表示为“`>90%`”或“`0.9001`”。 |
 | [!UICONTROL Search lost IS (rank)] | （仅限[!DNL Google Ads]）由于广告排名不佳而未显示广告的时间百分比。 90%以上的百分比表示为“`>90%`”或“`0.9001`”。 |
 | [!UICONTROL Search lost top IS (budget)] | （[!DNL Google Ads]和[!DNL Microsoft Advertising]）由于每日或每月预算太低，广告未显示在自然搜索结果上方的时间百分比。 对于[!DNL Google Ads]营销活动，超过90%的百分比显示为“`>90%`”或“`0.9001`”。 |
-| [!UICONTROL Search lost top IS (rank)] | （[!DNL Google Ads]和[!DNL [!DNL Microsoft Advertising]]）由于广告排名不佳，您的广告未显示在自然搜索结果之上的时间百分比。 对于Google广告营销活动，超过90%的百分比显示为“`>90%`”或“`0.9001`”。 |
+| [!UICONTROL Search lost top IS (rank)] | （[!DNL Google Ads]和[！DNL [!DNL Microsoft Advertising]]）由于广告排名不佳，您的广告未显示在自然搜索结果之上的时间百分比。 对于Google广告营销活动，超过90%的百分比显示为“`>90%`”或“`0.9001`”。 |
 | [!UICONTROL Search Term] | ([!UICONTROL Transaction Report])用户查询的搜索词。 |
 | [!UICONTROL SETrackingOnly] | 是否跟踪帐户但未投标： <i>[!UICONTROL TRUE]</i>或<i>[!UICONTROL FALSE]</i>。 |
 | [!UICONTROL Site] | （域引用报表和[!UICONTROL Keyword Report]；面向站点的投放）发起点击的站点。 |

@@ -3,9 +3,9 @@ title: '[!DNL Google Ads]广告组设置'
 description: 引用 [!DNL Google Ads] 广告组的设置。
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: fb38bf6afa181b4560742d3649db68c8aef0e619
+source-git-commit: 345c2af5363ca10412f3809700e281af5b06897f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,8 @@ ht-degree: 0%
 >* 按关键字竞价时，可在关键字级别创建跟踪模板。 同样，在按投放位置竞价时，应在投放位置级别创建跟踪模板。 对于所有其他维度，请在广告级别创建跟踪模板。
 >* 当您按年龄、性别、兴趣和列表或垂直方向对项目组合中的营销活动进行竞价时，优化功能不会优化维度的竞价。 此外，所有归因都将应用于广告组。
 >* 搜索网络上的广告始终使用关键词竞价。
+
+**[!UICONTROL AI Max Search Term Matching]：** （针对搜索网络且启用了[AI Max功能](https://support.google.com/google-ads/answer/15910366)和营销活动级别搜索词匹配功能的营销活动；只读）是否启用了广告组级别搜索词匹配： *[!UICONTROL Disabled]*&#x200B;或&#x200B;*[!UICONTROL Enabled]*。
 
 ## [!UICONTROL Budget Options]
 
