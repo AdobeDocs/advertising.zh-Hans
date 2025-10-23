@@ -3,9 +3,9 @@ title: 基本和高级报表设置
 description: 了解基本报表和高级报表的必需设置和可选设置。
 exl-id: 856d7bc2-7316-4556-a04e-33346591b18f
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 3595b721b708a7e995a65cb12a809d2308eb0b80
+source-git-commit: eb4ecbbe80647e8e619c27c5cc1e466c7496db41
 workflow-type: tm+mt
-source-wordcount: '3701'
+source-wordcount: '3806'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 0%
 |  | [!UICONTROL Order Results/Limit Rows by] | 按报表中包含的最多两列对报表进行排序。 每种报表类型的默认值均不同。 要自定义排序顺序，请选择一个报表列，然后选择<i>[!UICONTROL Ascending]</i>（显示从A到Z或从1到100的结果）或<i>[!UICONTROL Descending]</i>（显示从Z到A或从100到1的结果）。 指定至少一个要按其排序的列。 如果按两列排序，则报表将首先按指定的第一列排序，然后按指定的第二列排序。 |
 |  | [!UICONTROL Include rows with no performance data] | （所有基本报表和[!UICONTROL Domain Referral Report]）包括指定日期没有性能数据可用的行，为缺少的数据插入零(0)值。 默认情况下，不选中此选项，并且仅在数据（无论值如何）可用时显示行。<br><br>选择此选项后，报表将包括没有营销活动的广告网络帐户、没有活动关键字的营销活动的性能数据，以及在整个数据范围内禁用、暂停和删除的组件的性能数据。 此外：<ul><li>[!UICONTROL Keyword Report]包含所有关键字的行，无论它们是否收到展示。</li><li>[!UICONTROL Domain Referral Report]显示所有关键字/广告的行，无论它们是否收到点击次数。</li></ul><b>警告：</b>如果选择此选项并为许多没有数据的子组件创建大日期范围的报告，则报告可能需要很长时间才能生成。 |
 |  | [!UICONTROL Share with others] | 允许有权访问同一广告商数据的其他用户查看生成的报表，并且（如果将该报表另存为模板）使用该模板但不编辑或删除该模板。 默认情况下，不选中此选项。 <b>注意：</b>无论此设置如何，您的报告和模板始终对级别较高的所有用户（管理员）以及任何分配的Adobe帐户团队成员可见。 |
+|  | [!UICONTROL Include modeled conversions] | （仅限[!UICONTROL Campaign Report]；选择加入功能）在报表中包含模型化转换的数据。 模型化的转化使用数据驱动型估计来说明由于隐私限制、Cookie限制或跨设备活动而无法直接观察到的转化。 包含这些变量有助于填补测量缺口，并提供更完整、更准确的报表。<br><br>子选项“[!UICONTROL Discrete columns for modeled conversions]”在报告中每个转化列后添加一个标记为“\&lt;转化名称\> (MC)”的附加列。 禁用该选项后，模型化转化将与测量的转化分组在一列中，如“\&lt;转化名称\> (CT+VT+MC)”。 **注意：** [!UICONTROL Conversion Attribution]设置还决定报告的转化类型以及转化数据的显示方式。 |
 | [!UICONTROL Classification] | \[分类\] | （[!UICONTROL Campaign Report]、[!UICONTROL Ad Group Report]、[!UICONTROL Ad Variation Report]、[!UICONTROL Keyword Report]和[!UICONTROL Label Classification Report]）要包含在报告中的任何标签分类，包括约束。 默认情况下，将包含所有分类和约束。 要仅报告特定分类，请执行以下操作：<br><br><b>注意：</b>每个促销活动组件的每个分类只能包含一个值。 例如，促销活动可以包含“Color=Red”，但不能包含“Color=Red and Color=Blue”。<ul><li>对于要添加的每个标签分类和值，执行以下操作：</li><ul><li>单击&#x200B;**[!UICONTROL Add Label Classification]**。</li><li>选择现有标签分类，然后选择现有值或输入新值。<br><br>每个值的最大长度为100个字符，可以包含ASCII和非ASCII字符。</li></ul><li>要更改现有标签分类值，请选择或输入新值。<br><br>每个值的最大长度为100个字符，可以包含ASCII和非ASCII字符。</li><li>要删除现有的标签分类值，请单击该值旁边的&#x200B;**[!UICONTROL X]**。</li></ul> |
 | [!UICONTROL Advanced Filters] | \[高级过滤器\] | 仅当量度的值满足指定条件时返回行；该量度不需要作为列包含在报表中。 可用量度的列表因报告类型而异，但可能包括广告商的自定义派生量度、每个广告网络和项目组合组件（例如[!UICONTROL Campaign ID]和[!UICONTROL Campaign Status]）的ID和属性名称、广告商的转化量度，以及广告网络中与点击相关的量度。 可用的运算符包括<i>[!UICONTROL contains]</i>、<i>[!UICONTROL starts with]</i>、<i>[!UICONTROL equals]</i>、<i>[!UICONTROL is greater than]</i>、<i>[!UICONTROL is greater than or equal to]</i>、<i>[!UICONTROL is less than]</i>、<i>[!UICONTROL is less than or equal to]</i>或<i>[!UICONTROL isn't equal to]</i>。<br><br>要应用一个或多个筛选器，请执行以下操作：<ul><li>选择量度和运算符，然后输入适用的值。 例如，要仅返回点击次数超过100次的关键字，请选择[!UICONTROL Clicks]，选择[!UICONTROL >]，然后在输入字段中输入100。</li><li>（要应用其他筛选器）对于每个其他筛选器，请单击&#x200B;**[!UICONTROL +Add Filter]**，选择&#x200B;**[!UICONTROL AND]**&#x200B;或&#x200B;**[!UICONTROL OR]**，选择量度和运算符，然后输入适用的值。</li></ul> |
 |  | [!UICONTROL Keyword Filters] | （[!UICONTROL Keyword Report]和所有[!UICONTROL Advanced Reports]）仅包含特定关键字的数据。 要应用关键字过滤器，请选中该复选框，然后选择以下选项之一：<ul><li><i>[!UICONTROL Include keywords from comma-separated list]</i> （默认）：输入最多100个关键字字符串；查询不区分大小写。 用逗号分隔多个字符串。</li><li><i>[!UICONTROL Include keywords from file]：</i>附加一个文本文件，其中包含最多100个关键字字符串的逗号分隔列表；查询不区分大小写。 通过输入完整路径和文件名或单击&#x200B;**[!UICONTROL Browse]**&#x200B;在设备或网络上查找文件来指定文件。</li></ul> |
