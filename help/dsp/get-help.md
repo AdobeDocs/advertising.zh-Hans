@@ -2,9 +2,10 @@
 title: 获取帮助
 description: 了解如何查看在线帮助和社区资源以及如何获得技术支持。
 feature: DSP Introduction
-source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
+exl-id: 2e0226ea-bcd3-4a38-8907-d2e078c758d0
+source-git-commit: 70598a94d2a2bc4c8e34de311d68872a8207006b
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -25,8 +26,15 @@ Look for answers to your questions in the [Adobe Advertising community forums](h
 
 ## 联系人[!DNL Adobe]
 
-有关DSP产品或帐户问题，请联系您的Adobe客户团队。
+对于产品或帐户问题，请执行以下操作：
 
-提供重现问题的详细步骤、任何相关数据，以及有关您已执行的初步故障诊断的信息。 还包括浏览器名称和版本。
+* （具有自助服务合同的广告商）在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)为您的组织开立一个票证。
 
-对于报告问题，请勿删除报告，并提供报告名称。
+  对于产品，请选择“[!UICONTROL Advertising - DSP]”。
+
+* （具有完全服务合同的广告商）联系您的Adobe客户团队。
+
+在票证或通信中，提供重现问题的详细步骤、所有相关数据、浏览器名称和版本，以及有关您已执行的初步故障诊断的信息。
+
+对于报告问题，请勿删除报告，并提供报告名称和URL。
+

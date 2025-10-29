@@ -3,9 +3,9 @@ title: 获取帮助
 description: 了解如何查看在线帮助和社区资源以及如何获得技术支持。
 feature: Search Introduction
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
+source-git-commit: 70598a94d2a2bc4c8e34de311d68872a8207006b
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -34,12 +34,14 @@ Look for answers to your questions in the [Adobe Advertising community forums](h
 
 ## 联系人[!DNL Adobe]
 
-对于Search、Social和Commerce产品或帐户问题，请执行下列任一操作：
+对于产品或帐户问题，请执行以下操作：
 
-* 请联系您的Adobe客户团队。
+* （具有自助服务合同的广告商）在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)为您的组织开立一个票证。
 
-* 在顶部菜单中，单击![帮助](/help/search-social-commerce/assets/help-main-menu.png "帮助") > **[!UICONTROL Provide Feedback]**，输入您的消息，然后单击&#x200B;**[!UICONTROL Send Feedback]**。
+  对于产品，请选择“[!UICONTROL Advertising - Search, Social, & Commerce]”。
 
-提供重现问题的详细步骤、任何相关数据，以及有关您已执行的初步故障诊断的信息。 如果您向Adobe客户团队报告问题，请同时提供浏览器名称和版本。
+* （具有完全服务合同的广告商）联系您的Adobe客户团队。
+
+在票证或通信中，提供重现问题的详细步骤、所有相关数据、浏览器名称和版本，以及有关您已执行的初步故障诊断的信息。
 
 对于报告问题，请勿删除报告，并提供报告名称和URL。
