@@ -3,9 +3,9 @@ title: 投放设置
 description: 请参阅可用版面设置的说明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: f8f877552018de50649fbba22c56452775e72df3
 workflow-type: tm+mt
-source-wordcount: '4586'
+source-wordcount: '4436'
 ht-degree: 0%
 
 ---
@@ -230,11 +230,11 @@ ht-degree: 0%
 
 **[!UICONTROL Position targeting]：**&#x200B;按广告位置列出的目标（但不排除）库存。 该设置适用于所有VAST/VPAID投放位置，包括前置广告、移动设备标准前置广告、连接电视和通用视频投放位置。 默认情况下，所有职位都是定向的。 若要缩小目标范围，请选择特定目标位置和/或&#x200B;*未知*。
 
-## [!UICONTROL Site and App Targeting]
+## [!UICONTROL Site or App and Keyword Targeting]
 
 **[!UICONTROL Traffic type]：**&#x200B;目标流量的类型。 选项包括&#x200B;**[!UICONTROL Websites]**&#x200B;和&#x200B;**[!UICONTROL Apps]**。
 
-**[!UICONTROL Tier]：** （在&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;为&#x200B;*[!UICONTROL Off]*&#x200B;时可用）要定位的流量的质量。 第1层至第3层均符合品牌安全要求，并已获得DSP映射团队的批准。
+**[!UICONTROL Tier]：** （在&#x200B;**[!UICONTROL Toggle for Sites or Apps Tiering]**&#x200B;为&#x200B;*[!UICONTROL On]*&#x200B;时可用）要定位的流量的质量。 第1层至第3层均符合品牌安全要求，并已获得DSP映射团队的批准。
 
 * *[!UICONTROL Tier 1]：*&#x200B;可在全国范围内识别的高级网站和应用程序。
 
@@ -252,7 +252,7 @@ ht-degree: 0%
 >
 >对于性能营销活动，最佳实践是选择&#x200B;*[!UICONTROL All Sites]*。
 
-**[!UICONTROL Site or App Categories]：** （可选，当&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;为&#x200B;*[!UICONTROL Off]*&#x200B;时可用）选定站点层中的站点类别要包含或排除（但不能同时包含和排除）作为目标。 从DSP已根据主题映射的垂直网站列表中进行选择：
+**[!UICONTROL Site or App Categories]：**（可选）选定流量类型中的站点类别和（指定后）要包含或排除（但不能同时包含和排除）作为目标的站点层。 从DSP已根据主题映射的垂直网站列表中进行选择：
 
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 指定要包含或排除的站点类别：
@@ -265,7 +265,7 @@ ht-degree: 0%
 1. （可选）要将包含定向信息的CSV文件下载到浏览器的下载位置，请单击&#x200B;**[!UICONTROL Export]**。
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
-**[!UICONTROL Exclude Sites or Apps]：** （可选；当&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;为&#x200B;*[!UICONTROL Off]*&#x200B;时可用）要排除的站点/应用和[URL列表](/help/dsp/resources/lists-url-manage.md)。 在[!UICONTROL Paste URL]选项卡中，您可以搜索和选择站点，或者输入或粘贴域名。 从[!UICONTROL URL Lists]选项卡中，您可以选择URL列表。
+**[!UICONTROL Exclude Sites or Apps]：** （可选；当&#x200B;**[!UICONTROL Toggle for Sites or Apps Tiering]**&#x200B;为&#x200B;*[!UICONTROL On]*&#x200B;时可用）要排除的站点/应用和[URL列表](/help/dsp/resources/lists-url-manage.md)。 在[!UICONTROL Paste URL]选项卡中，您可以搜索和选择站点，或者输入或粘贴域名。 从[!UICONTROL URL Lists]选项卡中，您可以选择URL列表。
 
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 指定站点：
@@ -290,40 +290,23 @@ ht-degree: 0%
 >* 除了DSP [全局阻止的站点列表](/help/dsp/introduction/features/brand-safety-media-quality.md)之外，还会应用帐户级别和广告商级别的阻止的站点列表，该列表包括被视为不安全的广告站点。
 >* 阻止的站点列表始终覆盖目标站点和站点列表。 如果投放位置同时排除并包含广告的相同目标，则排除该目标。
 
+**[!UICONTROL Context of Sites or App]：**（可选）要定位或排除的上下文目标区段。 从以下列表中选择
+
+* **[!UICONTROL Marketplace]**&#x200B;选项卡：列出按指定费用对所有用户可用的[!DNL Peer39]区段。
+
+* **[!UICONTROL Custom Segments]**&#x200B;选项卡：列出您组织的[!DNL Peer39]自定义区段。
+
+* **[!UICONTROL Paste Segments]**&#x200B;选项卡： (其组织具有[!DNL Comscore]伙伴关系的广告商；从您的Adobe客户团队激活后可用)为组织的[!DNL Comscore]上下文区段输入一个或多个区段ID或区段名称。 用逗号分隔多个值（如Segment1、Segment2、Segment3）。
+
 **[!UICONTROL Language]：**（可选）目标单一语言。
 
-**[!UICONTROL Site or app list preview]：** （只读）所有针对该投放位置定位和阻止的站点/应用程序，包括帐户级别、广告商级别和DSP全局阻止的站点列表中的站点/应用程序。
+**[!UICONTROL Site or app list preview]：** （只读；在&#x200B;**[!UICONTROL Toggle for Sites or Apps Tiering]**&#x200B;为&#x200B;*[!UICONTROL On]*&#x200B;时可用）所有针对该投放位置定位和阻止的站点/应用程序，包括帐户级别、广告商级别以及DSP全局阻止的站点列表中的站点/应用程序。
 
 您可以选择将目标和阻止站点的列表导出为逗号分隔值(CSV)文件。 要导出列表，请单击&#x200B;**[!UICONTROL Export full site list]**，然后按照浏览器的正常过程打开或保存文件。
 
 **[!UICONTROL Allow unscreened sites]：** （仅限标准显示投放位置）在未审核的网站上启用广告投放。 当投放以私人库存为目标时，此选项可能会在阻止的网站上投放广告。
 
-**[!UICONTROL Paste list of targeted sites]：**&#x200B;仅允许您定位特定站点。 启用此选项后，将禁用其他站点定位选项。
-
-**[!UICONTROL Sites or Apps]：** （当&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;为&#x200B;*[!UICONTROL On]*&#x200B;时可用）要定位的站点。 在[!UICONTROL Paste URL]选项卡中，您可以搜索和选择站点，或者输入或粘贴域名。 从[!UICONTROL URL Lists]选项卡中，您可以选择URL列表。
-
-1. 单击![编辑](/help/dsp/assets/edit.png)。
-1. 指定站点：
-   * 从[!UICONTROL Paste URL]选项卡：
-      * 要搜索站点：
-         1. 单击&#x200B;**[!UICONTROL Search]**。
-         1. 输入关键字、选择站点层和/或选择站点类别。
-         1. 在搜索结果中，选择要包含的站点：
-            * 要包括单个站点，请选中相邻复选框。
-            * （当可用结果超过50个时）要包含前50个结果，请单击&#x200B;**[!UICONTROL Include these 50]**。 要包含所有搜索结果，请单击&#x200B;**[!UICONTROL Include these \<*NN *\>]**。
-      * 要输入域名，请执行以下操作：
-         1. 单击&#x200B;**[!UICONTROL Paste]**。
-         1. 在单独行中输入一个或多个域名。
-         1. 单击&#x200B;**[!UICONTROL Include All]**。
-   * 从[!UICONTROL URL Lists]选项卡：
-      1. （可选）通过在搜索字段中输入全部或部分列表名称来搜索URL列表。
-      1. 选中要包含的每个URL列表旁边的复选框。
-1. 完成后，单击&#x200B;**[!UICONTROL Done]**。
-
->[!NOTE]
->
->* 除了DSP [全局阻止的站点列表](/help/dsp/introduction/features/brand-safety-media-quality.md)之外，还会应用帐户级别和广告商级别的阻止的站点列表，该列表包括被视为不安全的广告站点。
->* 阻止的站点列表始终覆盖目标站点和站点列表。 如果投放位置同时排除并包含广告的相同目标，则排除该目标。您可以搜索和选择站点，或者输入或粘贴域名：
+**[!UICONTROL Toggle for Sites or Apps Tiering]：**&#x200B;允许您指定要定位或排除的站点或应用程序层。
 
 ## [!UICONTROL Audience Targeting]
 
@@ -374,7 +357,7 @@ ht-degree: 0%
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 选择适用的时区。
 1. 指定间隔：
-   * 要选择预设间隔，请单击其中一个间隔按钮。 选项包括&#x200B;*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
+   * 要选择预设间隔，请单击其中一个间隔按钮。 选项包括*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
    * 要手动选择间隔，请单击单元格内部，也可以拖动以选择间隔。
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
