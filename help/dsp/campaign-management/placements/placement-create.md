@@ -3,9 +3,9 @@ title: 创建投放位置
 description: 了解如何创建投放位置。
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: d1be9ab441fd8abdc21491afb57763ec6eb2bec0
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
       对于大多数置入类型，默认情况下包括所有库存类型以及每种类型的所有来源。 对于[!DNL Roku]投放位置，必须指定库存类型和源。
 
-   1. （可选）在[!UICONTROL Site Targeting]部分中，缩小要定位的站点范围，并指定要排除的任何站点。
+   1. （可选）在[!UICONTROL Site or app And Keyword Targeting]部分中，缩小要定位和排除的站点和应用的范围。
 
    1. （可选）在[!UICONTROL Audience Targeting]部分中：
 
@@ -147,4 +147,4 @@ ht-degree: 0%
 >* 有关通用视频的[常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)
 >* [键盘快捷键](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [性能疑难解答](/help/dsp/optimization/troubleshooting-performance.md)
->* [视频：如何创建标准展示投放位置](https://video.tv.adobe.com/v/344997?captions=chi_hans)
+>* [视频：如何创建标准展示投放位置](https://video.tv.adobe.com/v/340454)
