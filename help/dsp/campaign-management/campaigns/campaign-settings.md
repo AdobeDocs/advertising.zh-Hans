@@ -3,9 +3,9 @@ title: Campaign设置
 description: 请参阅可用营销活动设置的描述。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: daf995b0c40d77434d2c86c738351a33552dc555
+source-git-commit: 1b15b14b0ace6137e79b456c7c8f8444efa8acac
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
    * *[!UICONTROL Margin % of Total Budget]：*（默认）按[!UICONTROL Gross Budget]的百分比计算费用。 指定[!UICONTROL Agency Fee Type] （固定或复合）和[!UICONTROL Margin %]或[!UICONTROL Composite Margin %]。
 
-   * *[!UICONTROL Apply Markup % on top of individual cost components]：*&#x200B;将[!UICONTROL Gross Budget]的指定百分比添加到您的媒体成本、数据和其他成本和/或[!DNL Adobe]技术费用。 指定[!UICONTROL Markup %]并选择要应用标记的组件。
+   * *[!UICONTROL Apply Markup % on top of individual cost components]：*&#x200B;将指定百分比添加到您的媒体成本、数据和其他成本和/或[!DNL Adobe]技术费用。 指定[!UICONTROL Markup %]并选择要应用标记的组件。
 
 * **[!UICONTROL Agency Fee Type]：** （使用[!UICONTROL Margin % of Total Budget]的营销活动）代理费用的类型。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Composite Margin %]：** （使用具有复合利润的[!UICONTROL Margin % of Total Budget]的营销活动）代理费用和[!DNL Adobe]技术费用的总和（以百分比表示）。 从[!UICONTROL Gross Budget]中扣除此金额以定义净促销活动预算。 未对[!UICONTROL Estimated Tax Withholding]上的[!UICONTROL Gross Budget]应用边距。
 
-* **[!UICONTROL Markup %]：** （使用[!UICONTROL Apply Markup % on top of individual cost components]的营销活动）要添加到指定成本组件的[!UICONTROL Gross Budget]的百分比。
+* **[!UICONTROL Markup %]：** （使用[!UICONTROL Apply Markup % on top of individual cost components]的营销活动）要添加到指定成本组件的百分比。
 
 * **[!UICONTROL Select cost components on which markup will be applied]：** （使用[!UICONTROL Apply Markup % on top of individual cost components]的营销活动）应用[!UICONTROL Markup %]的成本组件。 选择所有适用的组件： *[!UICONTROL Media cost]*、*[!UICONTROL Data and Other costs]*&#x200B;和/或&#x200B;*[!UICONTROL Adobe tech fees]*。
 
