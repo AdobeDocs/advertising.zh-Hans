@@ -3,7 +3,7 @@ title: 关于自定义报表
 description: 了解用于手动或使用预配置的报表模板创建自定义报表的选项。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: f2b912a9e4952d2ccb9a461cdbc56c7bc731e690
+source-git-commit: eabe6dc506c93d5e272ec4cf1d7baf798c09b6aa
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
    * **[!UICONTROL Conversion]：**&#x200B;请使用此报表根据通过Adobe Advertising转化跟踪捕获的转化量度，了解营销活动的执行情况。 此报表包含多点接触归因。
 
   <!--
-    * **[!UICONTROL Custom Creative Report Beta]:** (Beta feature) Use this report to monitor performance across your Advertising Creative ad experiences.
+    * **[!UICONTROL Custom Creative Report Beta]:** (Advertisers with Advertising Creative; beta feature) Use this report to monitor performance across your Advertising Creative ad experiences.
     -->
 
    * **[!UICONTROL Device]：**&#x200B;使用此预填充模板按设备相关的维度查看关键量度。

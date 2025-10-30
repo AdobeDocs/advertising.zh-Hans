@@ -3,9 +3,9 @@ title: Campaign设置
 description: 请参阅可用营销活动设置的描述。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: daf995b0c40d77434d2c86c738351a33552dc555
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -28,29 +28,31 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Goals]
 
-**[!UICONTROL Margin Management]：**&#x200B;是管理促销活动的边距： *[!UICONTROL Yes]*&#x200B;还是&#x200B;*[!UICONTROL No]*（默认值）。
+**[!UICONTROL Margin Management]：** （由使用利润率的代理机构服务的自助帐户）利润管理选项：
 
-当您选择&#x200B;*[!UICONTROL Yes]，*&#x200B;时，请指定毛利类型和金额：
+* **[!UICONTROL Would you like to manage margins for this campaign?]：**&#x200B;是管理促销活动的边距： *[!UICONTROL Yes]*&#x200B;还是&#x200B;*[!UICONTROL No]*（默认值）。 选择&#x200B;*[!UICONTROL Yes]时，*&#x200B;指定其他设置。 启用利润管理并保存活动后，将无法禁用利润管理。
 
-* **[!UICONTROL Margin Type]：**&#x200B;边距的类型。 一旦启用了毛利管理并保存了营销策划，就无法更改毛利类型。
+* **[!UICONTROL How would you like to compute agency fees?]：** （仅具有利润管理的营销活动）如何计算代理费用：
 
-   * *[!UICONTROL Fixed]：*（默认）允许DSP根据[!UICONTROL Gross Budget]的固定利润百分比自动计算和限制支出。
+   * *[!UICONTROL Margin % of Total Budget]：*（默认）按[!UICONTROL Gross Budget]的百分比计算费用。 指定[!UICONTROL Agency Fee Type] （固定或复合）和[!UICONTROL Margin %]或[!UICONTROL Composite Margin %]。
 
-   * *[!UICONTROL Dynamic]：*&#x200B;允许您通过为营销活动中的每个包和投放位置指定单独的[!UICONTROL Budget Reserve %]和[!UICONTROL Gross Budget]，管理低至投放位置的边距。 DSP根据每次投放的财务效率进行优化，而不保证一定的利润。 对于由多个行项目组成的插入订单，您可以使用此选项来同意按固定费率提供固定数量的单位或单位类型。
+   * *[!UICONTROL Apply Markup % on top of individual cost components]：*&#x200B;将[!UICONTROL Gross Budget]的指定百分比添加到您的媒体成本、数据和其他成本和/或[!DNL Adobe]技术费用。 指定[!UICONTROL Markup %]并选择要应用标记的组件。
 
-* **[!UICONTROL Fixed Margin %]：** （仅具有固定边距的促销活动）每个插入订单<!-- impression? -->的默认标记（百分比）。 从[!UICONTROL Gross Budget]中扣除此金额以定义净促销活动预算。
+* **[!UICONTROL Agency Fee Type]：** （使用[!UICONTROL Margin % of Total Budget]的营销活动）代理费用的类型。
 
-* **[!UICONTROL Budget Reserve %]：** （仅具有固定边距的营销活动；可选）保留[!UICONTROL Gross Budget]的指定百分比作为保障。 从[!UICONTROL Gross Budget]中扣除此金额以定义净促销活动预算。
+   * *[!UICONTROL Fixed]：*（默认）允许DSP根据[!UICONTROL Gross Budget]的固定百分比自动计算和限制支出。 指定[!UICONTROL Margin %]。
+
+   * *[!UICONTROL Composite]：*&#x200B;允许DSP使用代理费和[!UICONTROL Gross Budget]技术费的复合百分比，根据[!DNL Adobe]的百分比自动计算和限制支出。 指定[!UICONTROL Composite Margin %]。
+
+* **[!UICONTROL Margin %]：** （使用具有固定边距的[!UICONTROL Margin % of Total Budget]的营销活动）每个插入订单<!-- impression? -->的默认标记（以百分比表示）。 从[!UICONTROL Gross Budget]中扣除此金额以定义净促销活动预算。 未对[!UICONTROL Estimated Tax Withholding]上的[!UICONTROL Gross Budget]应用边距。
+
+* **[!UICONTROL Composite Margin %]：** （使用具有复合利润的[!UICONTROL Margin % of Total Budget]的营销活动）代理费用和[!DNL Adobe]技术费用的总和（以百分比表示）。 从[!UICONTROL Gross Budget]中扣除此金额以定义净促销活动预算。 未对[!UICONTROL Estimated Tax Withholding]上的[!UICONTROL Gross Budget]应用边距。
+
+* **[!UICONTROL Markup %]：** （使用[!UICONTROL Apply Markup % on top of individual cost components]的营销活动）要添加到指定成本组件的[!UICONTROL Gross Budget]的百分比。
+
+* **[!UICONTROL Select cost components on which markup will be applied]：** （使用[!UICONTROL Apply Markup % on top of individual cost components]的营销活动）应用[!UICONTROL Markup %]的成本组件。 选择所有适用的组件： *[!UICONTROL Media cost]*、*[!UICONTROL Data and Other costs]*&#x200B;和/或&#x200B;*[!UICONTROL Adobe tech fees]*。
 
 **[!UICONTROL Gross Budget]：** （仅具有毛利管理的营销活动）应用指定的边际调整之前的毛营销活动预算。
-
-您可以选择添加额外的每日、每周或每月毛预算：
-
-1. 单击&#x200B;**[!UICONTROL Add an additional Gross Budget]**。
-
-1. 输入&#x200B;**[!UICONTROL Gross Budget]**&#x200B;并选择预算间隔： *[!UICONTROL Daily]、* *[!UICONTROL Weekly]、*&#x200B;或&#x200B;*[!UICONTROL Monthly]*。
-
-总净预算（促销活动的支出上限）是根据毛利设置自动计算的，并在此值下表示。
 
 **[!UICONTROL Budget]：** （没有利润管理的营销活动）整体营销活动预算。
 
@@ -82,7 +84,7 @@ ht-degree: 0%
 
 **[!UICONTROL Device Graph]：** （对于现有营销活动为只读；仅具有基于人员的跨设备定位的营销活动）用于跨设备定位和频率管理的设备图：
 
-* *[!UICONTROL LiveRamp - U.S. only]：*&#x200B;对于使用[!DNL LiveRamp]设备图交付的展示次数（即，在目标受众区段中未找到设备），适用于跨设备定位为$0.35 CPM的所有广告商。 您可以在投放级别设置跨设备定位。
+* *[!UICONTROL LiveRamp - U.S. only]：*&#x200B;对于使用[!DNL LiveRamp]设备图交付的展示次数（即，在目标受众区段中未找到设备），适用于以$0.35 CPM为目标的跨设备广告商。 您可以在投放级别设置跨设备定位。
 
   此外，所有广告商也可以免费使用此选项进行频率管理和归因测量。
 
@@ -92,7 +94,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 您可以在营销活动、包和投放级别设置频率上限。 DSP遵循营销活动层次结构中最严格的频率限制。
+> 您可以在营销活动、包和投放级别设置频率上限。 DSP遵循营销活动层级中最严格的频率限制。
 
 **[!UICONTROL Packages]：**&#x200B;要包含在营销活动中的[包](/help/dsp/campaign-management/packages/package-about.md)。 选择现有包和/或创建要包含的包。 如果您创建包，请参阅有关[包设置](/help/dsp/campaign-management/packages/package-settings.md)的说明，以了解更多信息。
 
@@ -130,11 +132,11 @@ ht-degree: 0%
 
 ### [!UICONTROL Attention Measurement]{#attention-measurement}
 
-**[!UICONTROL Adelaide]：**&#x200B;启用投放位置级别[!UICONTROL Attention Score]量度的跟踪（展示次数中[!DNL Adelaide]“[!DNL Attention Units]”的加权平均数）。 指标可用于除[!DNL Roku]连接的电视、仅VPAID前置播放和非播客音频之外的所有投放类型。 DSP会自动将JavaScript标记附加到所有关联的创意内容，并且[!DNL Adelaide]会跟踪曝光数据并每天将其发送给DSP。 您可以使用日期来手动优化投放策略，以获得更高的关注度分数。
+**[!UICONTROL Adelaide]：**&#x200B;启用投放位置级别[!UICONTROL Attention Score]量度的跟踪（展示次数中[!DNL Adelaide]“[!DNL Attention Units]”的加权平均数）。 指标可用于除[!DNL Roku]连接的电视、仅VPAID前置播放和非播客音频之外的所有投放类型。 DSP会自动将JavaScript标记附加到所有关联的创意人员，并且[!DNL Adelaide]会跟踪曝光数据并每天将其发送给DSP。 您可以使用日期来手动优化投放策略，以获得更高的关注度分数。
 
-[!UICONTROL Attention Score]字段在报告的[!UICONTROL Metrics]部分中可用；在[!UICONTROL Campaigns]、[!UICONTROL Packages]和[!UICONTROL Placements]视图中；以及在[位置详细信息视图](/help/dsp/campaign-management/reports/placement-details-view.md)的[!UICONTROL Sites]、[!UICONTROL Ads]和[!UICONTROL Inventory]选项卡中可用。
+[!UICONTROL Attention Score]字段在报告的[!UICONTROL Metrics]部分中可用；在[!UICONTROL Campaigns]、[!UICONTROL Packages]和[!UICONTROL Placements]视图中；以及在[!UICONTROL Sites]位置详细信息视图[!UICONTROL Ads]的[!UICONTROL Inventory]、[和](/help/dsp/campaign-management/reports/placement-details-view.md)选项卡中可用。
 
-将[!DNL Adelaide]区段用于测量会为从包含[!DNL Adelaide]测量标记的广告投放的每个展示产生CPM费用。 此费用与[投放级别关注目标](/help/dsp/campaign-management/placements/placement-settings.md)的费用无关。
+如果将[!DNL Adelaide]区段用于测量，则对于从带有[!DNL Adelaide]测量标记的广告投放的每个展示，将产生CPM费用。 此费用与[投放级别关注目标](/help/dsp/campaign-management/placements/placement-settings.md)的费用无关。
 
 <!--
 Example JavaScript tag:
@@ -152,7 +154,7 @@ Example JavaScript tag:
 
 >[!MORELIKETHIS]
 >
->* [关于Campaign Management](campaign-about.md)
+>* [关于营销活动管理](campaign-about.md)
 >* [创建营销活动](campaign-create.md)
 >* [编辑营销活动](campaign-edit.md)
 >* [查看营销活动的更改日志](campaign-change-log.md)
