@@ -3,9 +3,9 @@ title: '[!DNL Google Ads]营销活动设置'
 description: 引用 [!DNL Google Ads] 营销活动的设置。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: b321c807e3ab470068ad557ed428484d58e95ed4
+source-git-commit: 4612b0022c6f4a2014409a546da07e4f5efe6e78
 workflow-type: tm+mt
-source-wordcount: '2505'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,22 @@ ht-degree: 0%
 <!-- **[!UICONTROL Budget]:** -->
 
 {{$include /help/_includes/budget.md}}
+
+**[!UICONTROL Google Recommended Budget]：** （可选；适用于具有所有必需设置且仅包含广告组的营销活动）单击&#x200B;**[!UICONTROL Show Recommendation]**&#x200B;以查看[!DNL Google Ads]推荐的预算。 对于复杂的营销活动，推荐可能最多需要40秒才能生成。
+
+对于效果最佳和搜索促销活动，推荐需要以下设置：
+
+* 竞价策略类型
+* 最终URL
+* 资产组
+
+对于搜索促销活动，推荐还需要以下附加设置：
+
+* 竞价策略目标
+* 国家/地区
+* 语言
+* 包含或排除的位置
+* 关键字
 
 <!-- **[!UICONTROL Delivery Method]:** -->
 
