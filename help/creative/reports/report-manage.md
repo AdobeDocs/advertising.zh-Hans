@@ -2,7 +2,7 @@
 title: 管理自定义报表
 description: 了解如何生成和管理跨体验[!UICONTROL Custom Creative Report]。
 feature: Creative Reporting
-source-git-commit: 455a63be51ca56610cc15ba498e69eeae52ffdba
+source-git-commit: 41b8d295436bdbe6cea402e5bb234caa7a36f4df
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Edit Custom Report]**。
 
-## 运行自定义报表 &lbrace;report-run-now&rbrace;
+## 运行自定义报表 {#report-run-now}
 
 您可以运行任何未过期且当前未运行的报表。
 
@@ -207,7 +207,7 @@ ht-degree: 0%
 
 * *[!UICONTROL FTP]：*&#x200B;若要将已完成的报告发送到一个或多个FTP位置，您必须在&#x200B;**[!UICONTROL Destination Name]**&#x200B;字段中选择这些位置。
 
-* *[!UICONTROL FTP SSL] (当前在Beta中)：*&#x200B;要将已完成的报告发送到一个或多个FTP SSL位置，您必须在&#x200B;**[!UICONTROL Destination Name]**&#x200B;字段中选择该位置。
+* *[!UICONTROL FTP SSL](当前在Beta中)：*&#x200B;要将已完成的报告发送到一个或多个FTP SSL位置，您必须在&#x200B;**[!UICONTROL Destination Name]**&#x200B;字段中选择该位置。
 
 * *[!UICONTROL Email]：*&#x200B;若要指定电子邮件地址，在报告因错误而被取消时，将已完成的报告或通知发送到这些地址。
 
