@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: 3b05cd38d781e93128ae7ffea4eaf8f337f4972e
+source-git-commit: 4dbde8463a3c536fe282e3dbffb8e0225e53601a
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2025年11月17日 | Advertising Creative的成本报表 | (仅同时具有Advertising Creative和Advertising DSP的广告商；测试版功能)新的[!UICONTROL All-in Cost BETA]报表显示有多少支出归因于Adobe Creative的广告服务。 报表的支出量度包括[!UICONTROL Billable Creative Spend]、[!UICONTROL Non Billable Creative Spend]、[!UICONTROL Total Creative Spend]、[!UICONTROL Total Creative CPM]和[!UICONTROL Estimated Tax on Creative]。 您可以在促销活动、资源包、版面和广告级别查看创意、属性、目标和其他数据。 |
+| 2025年11月17日 | Advertising Creative的成本报表 | (仅同时具有Advertising Creative和Advertising DSP的广告商；测试版功能)新的[!UICONTROL All-in Cost BETA]报表显示有多少支出归因于Adobe Creative的广告服务。 报表的支出量度包括[!UICONTROL Billable Creative Spend]、[!UICONTROL Non Billable Creative Spend]、[!UICONTROL Total Creative Spend]、[!UICONTROL Total Creative CPM]和[!UICONTROL Estimated Tax on Creative]。 您可以在促销活动、资源包、版面和广告级别查看创意、属性、目标和其他数据。 | 请参阅“[关于自定义报告](/help/creative/reports/reports-about.md)”和“[管理自定义报告](/help/creative/reports/report-manage.md)”。 |
 | 2025年9月24日 | 动态创意 | 现在，可使用更简单的自助工作流程来使用通过广告模板传递的广告变体目录中的数据生成动态广告。 | 请参阅[动态广告的工作流](/help/creative/introduction/workflow-dynamic-ads.md)。 |
 | 2025年9月3日 | 针对[!DNL experiences]的Creative优化和计划 | 用于配置创意优化和计划的菜单选项或按钮现在称为“[!UICONTROL Creative Optimization]”，而不是“[!UICONTROL Edit Schedules]”或“[!UICONTROL Add Schedules]”。 | 请参阅“[针对目标体验自定义创意优化和计划](/help/creative/experiences/experience-optimization-scheduling-targeting.md)”和“[针对体验自定义创意优化和计划，而无需定位](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)”。 |
 |  | [!DNL experiences]的广告轮换和计划 | 新的创意旋转类型“[!UICONTROL Sequencing]”按指定顺序旋转关联的创意包（包1先提供，包2先提供，依此类推），并在每个包序列中指定展示总数。 可将序列中的最后一个束配置为a\)无限显示或b\)循环返回到第一个束。 | 请参阅“[针对目标体验自定义创意优化和计划](/help/creative/experiences/experience-optimization-scheduling-targeting.md)”和“[针对体验自定义创意优化和计划，而无需定位](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)”。 |
