@@ -3,9 +3,10 @@ title: 下载模拟
 description: 了解如何在电子表格文件中下载模拟。
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 46c8c9de-b558-486e-9453-feb5d359aaec
+source-git-commit: f34bbc952d7d2a23349df718ea5eabab272bf3c8
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您还可以[自定义[!UICONTROL Simulations]视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)以包含许多其他量度和大多数模拟设置的列。 有关可包含列的详细信息，请参阅“[关于模拟](simulation-about.md#simulations-actions)”中的“可用操作”部分。
+>* 您还可以[在屏幕](simulation-view.md)上查看模拟结果。
+>* 您可以[自定义[!UICONTROL Simulations]视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)以包含许多其他量度和大多数模拟设置的列。 有关可包含列的详细信息，请参阅“[关于模拟](simulation-about.md#simulations-actions)”中的“可用操作”部分。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Plan]>[!UICONTROL Simulations]**。
 
@@ -32,3 +34,4 @@ ht-degree: 0%
 >
 >* [关于模拟](simulation-about.md)
 >* [运行或重新运行模拟](simulation-create.md)
+>* [查看模拟详细信息](simulation-view.md)
