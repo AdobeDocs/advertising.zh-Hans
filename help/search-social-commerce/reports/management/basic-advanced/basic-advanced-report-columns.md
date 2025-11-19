@@ -3,7 +3,7 @@ title: 基本报表和高级报表的报表列
 description: 了解基本报表和高级报表的可用数据列。
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: f5fa38460486a5eadce8c8e6334723f67e3814f5
+source-git-commit: 817c8ab0dce5412e4b3a235c3c032e5691d235ba
 workflow-type: tm+mt
 source-wordcount: '3806'
 ht-degree: 0%
@@ -38,9 +38,9 @@ ht-degree: 0%
 | [!UICONTROL Ad Size] | 广告的维度。 |
 | [!UICONTROL AD Strength] | （[!DNL Google Ads]响应式搜索广告）广告的有效性： <i>[!UICONTROL average]</i>、<i>[!UICONTROL excellent]</i>、<i>[!UICONTROL good]</i>、<i>[!UICONTROL no_ads]</i>、<i>[!UICONTROL pending]</i>、<i>[!UICONTROL poor]</i>、<i>[!UICONTROL unknown]</i>或<i>[!UICONTROL unspecified]</i>。 |
 | [!UICONTROL Adgroup MBA] | （[!DNL Google Ads]、[!DNL Microsoft Advertising]和[!DNL Yahoo! Japan Ads]个促销活动）当前广告组级别的移动竞价调整，它确定在移动设备上显示广告时如何调整竞价。 |
-| [!UICONTROL AI Max Bundling Required] | （仅针对搜索网络的营销活动；启用了AI Max功能的营销活动；只读）是否需要捆绑： *[!UICONTROL NOT_REQUIRED]*&#x200B;或null。 |
-| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max]功能](https://support.google.com/google-ads/answer/15910366)是否已启用： *[!UICONTROL false]*&#x200B;或null。 |
-| [!UICONTROL AI Max Search Term Matching] | （针对搜索网络且启用了[AI Max功能](https://support.google.com/google-ads/answer/15910366)和营销活动级别搜索词匹配功能的营销活动；只读）是否启用了广告组级别搜索词匹配： *[!UICONTROL true]*&#x200B;或null。 |
+| [!UICONTROL AI Max Bundling Required] | （仅针对搜索网络的营销活动；启用了AI Max功能的营销活动；只读）是否需要捆绑： *[!UICONTROL REQUIRED]*、*[!UICONTROL NOT_REQUIRED]*、*[!UICONTROL UNSPECIFIED]*&#x200B;或null。 |
+| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max]功能](https://support.google.com/google-ads/answer/15910366)是否已启用： [!UICONTROL true]*、*[!UICONTROL false]*&#x200B;或null。 |
+| [!UICONTROL AI Max Search Term Matching] | （针对搜索网络且启用了[AI Max功能](https://support.google.com/google-ads/answer/15910366)和营销活动级别搜索词匹配功能的营销活动；只读）是否启用了广告组级别搜索词匹配： *[!UICONTROL true]*、*[!UICONTROL false]*&#x200B;或null。 |
 | [!UICONTROL Advertiser] | 广告商名称。 |
 | [!UICONTROL Advertiser ID] | 广告商的Search、Social和Commerce帐户的数值ID。 |
 | [!UICONTROL Avg Position] | 指定日期范围内的广告平均位置。<br><br>对于[!DNL Google Ads]和[!DNL Yahoo! Japan Ads]营销活动，此数据仅在2019年9月之前可用。 对于[!DNL Microsoft Advertising]，此数据仅在2021年1月22日之前可用。 |
@@ -176,7 +176,7 @@ ht-degree: 0%
 | [!UICONTROL Search lost IS (budget)] | （仅限[!DNL Google Ads]）未显示广告的时间百分比，因为每日或每月预算太低。 此量度仅在营销活动级别可用。 90%以上的百分比表示为“`>90%`”或“`0.9001`”。 |
 | [!UICONTROL Search lost IS (rank)] | （仅限[!DNL Google Ads]）由于广告排名不佳而未显示广告的时间百分比。 90%以上的百分比表示为“`>90%`”或“`0.9001`”。 |
 | [!UICONTROL Search lost top IS (budget)] | （[!DNL Google Ads]和[!DNL Microsoft Advertising]）由于每日或每月预算太低，广告未显示在自然搜索结果上方的时间百分比。 对于[!DNL Google Ads]营销活动，超过90%的百分比显示为“`>90%`”或“`0.9001`”。 |
-| [!UICONTROL Search lost top IS (rank)] | （[!DNL Google Ads]和[!DNL [!DNL Microsoft Advertising]]）由于广告排名不佳，您的广告未显示在自然搜索结果之上的时间百分比。 对于Google广告营销活动，超过90%的百分比显示为“`>90%`”或“`0.9001`”。 |
+| [!UICONTROL Search lost top IS (rank)] | （[!DNL Google Ads]和[！DNL [!DNL Microsoft Advertising]]）由于广告排名不佳，您的广告未显示在自然搜索结果之上的时间百分比。 对于Google广告营销活动，超过90%的百分比显示为“`>90%`”或“`0.9001`”。 |
 | [!UICONTROL Search Term] | ([!UICONTROL Transaction Report])用户查询的搜索词。 |
 | [!UICONTROL SETrackingOnly] | 是否跟踪帐户但未投标： <i>[!UICONTROL TRUE]</i>或<i>[!UICONTROL FALSE]</i>。 |
 | [!UICONTROL Site] | （域引用报表和[!UICONTROL Keyword Report]；面向站点的投放）发起点击的站点。 |
