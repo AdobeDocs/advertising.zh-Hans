@@ -3,9 +3,10 @@ title: 运行或重新运行自定义模拟
 description: 了解如何为项目组合运行或重新运行自定义模拟。
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 0ee62d04-fdc4-445c-90fb-71d5a40a9ed0
+source-git-commit: d96e003346c7cc3c1803c8cba259f2b18d839168
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -107,4 +108,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于模拟](simulation-about.md)
+>* [查看模拟详细信息](simulation-view.md)
 >* [下载模拟](simulation-download.md)
