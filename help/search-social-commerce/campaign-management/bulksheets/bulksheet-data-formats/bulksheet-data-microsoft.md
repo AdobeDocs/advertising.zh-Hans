@@ -230,7 +230,7 @@ ht-degree: 0%
 
 ### 产品（购物）广告字段
 
-有关创建购物广告的更多信息，请参阅“[实施 [!DNL Microsoft Advertising] 购物营销活动](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)”。
+有关创建购物广告的更多信息，请参阅“[实施 [!DNL Microsoft Advertising] 购物营销活动](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=zh-Hans)”。
 
 对于此广告类型，请使用[!UICONTROL Creative (except RSA)]对话框中的“[!UICONTROL Download Bulksheet]”行。
 
