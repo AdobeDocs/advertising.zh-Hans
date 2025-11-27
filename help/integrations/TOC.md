@@ -4,7 +4,7 @@ user-guide-description: 了解 Advertising DSP 和 Advertising Search 与其他 
 breadcrumb-title: 与 Experience Cloud 的集成
 role: User, Developer
 index: true
-source-git-commit: d8bef70c4d8525fc4fecd114f8bcfef45ad1af01
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 10%
@@ -14,12 +14,10 @@ ht-degree: 10%
 
 # Adobe Advertising与Adobe Experience Cloud的集成 {#integrations}
 
-<!--  ADD LATER: and Adobe Experience Platform -->
-
 + [新增功能](/help/integrations/home.md)
 + [!DNL Analytics for Advertising] {#analytics}
-   + [&#x200B; [!DNL Analytics for Advertising]概述](/help/integrations/analytics/overview.md)
-   + [&#x200B; [!DNL Analytics]使用的Adobe Advertising ID](/help/integrations/analytics/ids.md)
+   + [ [!DNL Analytics for Advertising]概述](/help/integrations/analytics/overview.md)
+   + [ [!DNL Analytics]使用的Adobe Advertising ID](/help/integrations/analytics/ids.md)
    + 规划实施 {#planning}
       + [实施 [!DNL Analytics for Advertising]的先决条件和关键信息](/help/integrations/analytics/prerequisites.md)
       + [(DSP)  [!DNL Analytics for Advertising]的JavaScript代码](/help/integrations/analytics/javascript.md)
@@ -31,9 +29,9 @@ ht-degree: 10%
    + 交换的数据 {#data}
       + [Analysis Workspace中的Adobe Advertising指标](/help/integrations/analytics/advertising-metrics-in-analytics.md)
       + [Adobe Advertising中的[!DNL Analytics]数据](/help/integrations/analytics/analytics-data-in-advertising.md)
-      + [&#x200B; [!DNL Analytics] 和Adobe Advertising之间的预期数据差异](/help/integrations/analytics/data-variances.md)
+      + [ [!DNL Analytics] 和Adobe Advertising之间的预期数据差异](/help/integrations/analytics/data-variances.md)
    + 在[!DNL Analytics Marketing Channels]中工作 {#mc}
-      + [&#x200B; [!DNL Marketing Channels]的基础知识](/help/integrations/analytics/marketing-channels/mc-overview.md)
+      + [ [!DNL Marketing Channels]的基础知识](/help/integrations/analytics/marketing-channels/mc-overview.md)
       + [使用Adobe Advertising ID创建 [!DNL Marketing Channels] 处理规则](/help/integrations/analytics/marketing-channels/mc-ids.md)
       + [将 [!DNL Marketing Channels] 用于Adobe Advertising数据](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
       + [为什么渠道数据在Adobe Advertising和 [!DNL Marketing Channels]之间可能不同](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
@@ -55,4 +53,4 @@ ht-degree: 10%
    + [Customer Journey Analytics使用的Adobe Advertising ID](/help/integrations/customer-journey-analytics/ids.md)
    + [设置数据收集、数据传输和报告](/help/integrations/customer-journey-analytics/set-up.md)
    + [Customer Journey Analytics中的Adobe Advertising量度和维度](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
-+ [有关Adobe Advertising集成的视频教程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=zh-Hans)<!-- rename if the tutorials TOC structure changes -->
++ [有关Adobe Advertising集成的视频教程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)

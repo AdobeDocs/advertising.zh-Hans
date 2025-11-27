@@ -3,7 +3,7 @@ title: ' [!DNL Microsoft Advertising] 帐户所需的批量处理工作表数据
 description: 引用 [!DNL Microsoft Advertising] 帐户批量工作表中必需的标题字段和数据字段。
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '6928'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 附录 — [!DNL Microsoft Advertising]帐户必需的批量处理工作表数据
 
-要批量创建和更新[!DNL Microsoft Advertising]营销活动数据，您可以使用专门为[!DNL Microsoft Advertising]帐户设置格式的Search、Social和Commerce批量工作表文件。 您可以a) [为现有帐户](../bulksheet-download.md)生成所需文件格式的批量工作表文件，或b)手动创建这些文件（有关支持的文件格式的一般信息，请参阅[支持的批量工作表文件格式](bulksheet-file-formats.md)）。
+要批量创建和更新[!DNL Microsoft Advertising]营销活动数据，您可以使用专门为[!DNL Microsoft Advertising]帐户设置格式的Search、Social和Commerce批量工作表文件。 您可以a)[为现有帐户](../bulksheet-download.md)生成所需文件格式的批量工作表文件，或b)手动创建这些文件（有关支持的文件格式的一般信息，请参阅[支持的批量工作表文件格式](bulksheet-file-formats.md)）。
 
 每个批量工作表必须包含要执行[特定操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md)（如创建广告）所需的标题字段和相应的数据字段。 当字段不是必填字段时，您可以从标题行和数据行中忽略该字段。 上传批量工作表文件时将删除所有自定义列。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Group Name] | 标识广告组的唯一名称。 最大长度为128个字符。 不保存尾随空白字符（例如，“广告组1”另存为“广告组1”）。 |
 | [!UICONTROL Ad Group Type] | （搜索网络上的营销活动；现有广告组的只读）广告组类型： <i>[!UICONTROL Audience]</i>（仅适用于受众营销活动）、<i>[!UICONTROL Search Dynamic]</i>（仅适用于动态搜索广告）和<i>[!UICONTROL Search Standard]</i>（仅适用于响应式搜索广告和现有的扩展文本广告）。 某些营销活动类型可以包括多种广告组类型。 |
 | [!UICONTROL Keyword] | （仅限搜索网络上的促销活动）关键词字符串。 最大长度为50个字符。<br><br><b>注释：</b><ul><li>要在广告组或营销活动级别排除关键字，请将[!UICONTROL Match Type]设置为`Negative`。 如果行包含广告组名称，则会为广告组排除关键字。 如果行不包含广告组名称，则该关键字将排除在整个营销活动中。</li><li>更改[!DNL Microsoft Advertising]关键字会删除现有关键字，并使用新的关键字ID创建新关键字。 但是，更改匹配类型不会删除现有关键字。</li></ul> |
-| 投放位置 | 已弃用 |
+| 投放 | 已弃用 |
 | [!UICONTROL Audience] | 搜索广告的再营销列表(RLSA)以促销活动或广告组的受众为目标。 |
 | [!UICONTROL Target Type] | （仅限RLSA目标）目标类型： <i>[!UICONTROL Inclusion]</i>或<i>[!UICONTROL Exclusion]</i>。 |
 | [!UICONTROL Auto Target Expression] | 广告组的动态搜索目标。 对于所有目标，请使用“[!UICONTROL All Web Pages]”。<br><br>若要定位最多三个动态搜索条件，请使用格式`<category>=<target>`，其中&lt;category>可以包含以下任意类别。 使用“`[blank space] and [blank space]`”为单个类别连接多个目标，使用“`[blank space] and [blank space]`”为多个类别连接。<br><ul><li><i>类别：</i>为具有特定Google内容类别的索引页面显示动态搜索广告。</li><li><i>URL：</i>显示具有特定URL的索引页面的动态搜索广告，其中值可能包含在URL中的任何位置。</li><li><i>页面标题：</i>显示索引页面的动态搜索广告，这些索引页面在页面标题中具有特定文本。</li><li><i>页面内容：</i>为具有特定内容的索引页面显示动态搜索广告。</li></ul>示例： url=shoes.example.com and page title=footwear<br>示例：所有网页 |
@@ -65,16 +65,16 @@ ht-degree: 0%
 | [!UICONTROL Display Path 1] | （仅限扩展的文本广告、动态搜索广告和响应式搜索广告）其他显示路径；请参阅[!UICONTROL Display Path 1]对应的条目。<br><br>示例：如果[!UICONTROL Display Path 1]为“deals”，[!UICONTROL Display Path 2]为“local”，则显示URL应为&lt;<i>显示URL</i>>/deals/local，如www.example.com/deals/local。 |
 | [!UICONTROL Start Date] | （仅限增强型站点链接）对站点链接发出投标的第一个日期，采用广告商所在的时区以及以下格式之一： m/d/yyyy、m/d/yy、m-d-yyyy或m-d-yy。 新的增强型站点链接的默认值为当天。 <b>注意：</b>只能在具有现有增强型站点链接或没有站点链接的营销活动中创建新的增强型站点链接。 |
 | [!UICONTROL End Date] | 站点链接可以随广告一起显示的最后日期，以广告商所在的时区为单位并采用以下格式之一： m/d/yyyy、m/d/yy、m-d-yyyy或m-d-yy。 对于新的sitelink，默认值为`[blank]`（即无结束日期）。 |
-| [!UICONTROL Call To Action] | 要包含在广告中的行动号召。 查看[API引用以获取可能值](https://learn.microsoft.com/en-us/advertising/campaign-management-service/calltoaction)的列表，但在批量处理工作表中输入多个单词的调用操作（例如“Bet Now”而不是“BetNow”）。 |
-| [!UICONTROL Call To Action Language] | 行动号召选项的语言。 请参阅[API参考以获取可能语言的列表](https://learn.microsoft.com/en-us/advertising/campaign-management-service/languagename)。 |
+| [!UICONTROL Call To Action] | 要包含在广告中的call to action。 查看[API引用以获取可能值](https://learn.microsoft.com/en-us/advertising/campaign-management-service/calltoaction)的列表，但在批量处理工作表中输入多个单词的调用操作（例如“Bet Now”而不是“BetNow”）。 |
+| [!UICONTROL Call To Action Language] | call to action选项的语言。 请参阅[API参考以获取可能语言的列表](https://learn.microsoft.com/en-us/advertising/campaign-management-service/languagename)。 |
 | [!UICONTROL Base URL/Final URL] | 搜索引擎用户在单击您的广告时进入的登陆页面URL，包括为促销活动或帐户配置的任何附加参数。 关键字级别的基本/最终URL将覆盖广告级别和更高级别的URL。<br><br>要删除现有值，请使用值`[delete]`（包括括号）。 |
 | [!UICONTROL Destination URL] | （出于提供信息的目的包含在生成的批量工作表中；未发布到搜索引擎）对于具有目标URL的帐户，此URL可将广告链接到广告商网站上的基本URL/登陆页面（有时通过另一个跟踪点击的网站，然后将用户重定向到登陆页面）。 它包括为Search、Social和Commerce营销活动或帐户配置的任何附加参数。 如果您生成了跟踪URL，则跟踪URL将基于帐户设置和促销活动设置中的跟踪参数。 如果附加了特定于搜索引擎的参数，则可能会将其替换为与搜索、社交和Commerce等效的参数。<br><br>对于具有最终URL的帐户，此列显示的值与基本URL/最终URL列显示的值相同。 |
 | [!UICONTROL Custom URL Param] | 当搜索帐户或促销活动设置的跟踪参数中包含变量时，用于替代`{custom_code}`动态变量的数据。 要在跟踪URL中插入自定义值，必须使用生成跟踪URL选项上传批量工作表文件。 |
 | [!UICONTROL Creative Type] | 广告格式： <i>[!UICONTROL Dynamic Search Ad]</i>、<i>[!UICONTROL Expanded Text Ad]</i>、<i>[!UICONTROL Expanded Dynamic Search Ad]</i>、<i>[!UICONTROL Multimedia Ad]</i>、<i>[!UICONTROL Product Ad]</i>（购物广告）、<i>[!UICONTROL Responsive Search Ad]</i>或<i>[!UICONTROL Text ad]</i>。 新广告的默认值为<i>[!UICONTROL Text ad]</i>。 |
 | [!UICONTROL Ad Group Start Date] | 可以在广告商所在时区且以下列格式之一为广告组投标的第一个日期：m/d/yyyy、m/d/yy、m-d-yyyy或m-d-yy。 对于新的广告组，默认日期为当前日期。 |
 | [!UICONTROL Ad Group End Date] | 可以在广告商所在的时区以及以下格式之一为广告组投标的最后日期：m/d/yyyy、m/d/yy、m-d-yyyy或m-d-yy。 对于新的广告组，默认值为[blank]（即无结束日期）。 |
-| [!UICONTROL Tracking Template] | （可选）跟踪模板，用于指定所有离岸域重定向和跟踪参数，并将最终URL嵌入到参数中。 最粒度级别的跟踪模板（使用关键字作为最粒度级别）将覆盖所有更高级别的值。<br><br>对于在营销活动设置包括“[!UICONTROL EF Redirect]”和“[!UICONTROL Auto Upload]”时应用的Adobe Advertising转化跟踪，Search、Social和Commerce会在您保存记录时自动附加重定向和跟踪代码。<br><br>对于第三方重定向和跟踪，请输入一个值。<br><br>有关指示跟踪模板中最终URL的参数列表，请参阅[!DNL Microsoft Advertising]文档。<br><br>要删除现有值，请使用值`[delete]`（包括括号）。 |
-| [!UICONTROL Landing Page Suffix] | 附加到最终URL末尾以跟踪信息的任何参数。 示例：`param2=value1&param3=value2`<br><br>请参见 [!DNL Microsoft Advertising][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的点击跟踪格式。<br><br>较低级别的最终URL后缀将覆盖帐户级别的后缀。 为便于维护，除非需要对各个帐户组件进行不同的跟踪，否则请仅使用帐户级别的后缀。 要在广告组级别或更低级别配置后缀，请使用[!DNL Microsoft Advertising]编辑器。 |
+| [!UICONTROL Tracking Template] | （可选）跟踪模板，用于指定所有离岸域重定向和跟踪参数，并将最终URL嵌入到参数中。 最粒度级别的跟踪模板（使用关键字作为最粒度级别）将覆盖所有更高级别的值。<br><br>对于Adobe Advertising转化跟踪（在营销活动设置包括“[!UICONTROL EF Redirect]”和“[!UICONTROL Auto Upload]”时应用），Search、Social和Commerce会在您保存记录时自动附加重定向和跟踪代码。<br><br>对于第三方重定向和跟踪，请输入一个值。<br><br>有关指示跟踪模板中最终URL的参数列表，请参阅[!DNL Microsoft Advertising]文档。<br><br>要删除现有值，请使用值`[delete]`（包括括号）。 |
+| [!UICONTROL Landing Page Suffix] | 附加到最终URL末尾以跟踪信息的任何参数。 示例：`param2=value1&param3=value2`<br><br>请参见[的 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)点击跟踪格式。<br><br>较低级别的最终URL后缀将覆盖帐户级别的后缀。 为便于维护，除非需要对各个帐户组件进行不同的跟踪，否则请仅使用帐户级别的后缀。 要在广告组级别或更低级别配置后缀，请使用[!DNL Microsoft Advertising]编辑器。 |
 | 搜索网络状态 | 是否将广告组的广告放在搜索网络的各种元素上：<ul><li><i>全部：</i>在所有Bing搜索网络和联合搜索合作伙伴上刊登广告。</li><li><i>OwnedAndOperatedOnly：</i>仅在Bing和Yahoo上投放广告！ 网站。</li><li><i>SyndicatedSearchOnly：</i>仅在Bing和Yahoo上投放广告！ 联合搜索合作伙伴。</li><li><i>关：</i>仅在内容网络（而非搜索网络）上刊登广告。</li></ul> 对于新的广告组，默认为“启用”。 |
 | [!UICONTROL Content Network Status] | 已弃用 |
 | [!UICONTROL Languages] | 广告组中广告的目标语言： [!UICONTROL English]、[!UICONTROL French]、[!UICONTROL Finnish]、[!UICONTROL German]、[!UICONTROL Norwegian]、[!UICONTROL Spanish]或[!UICONTROL Swedish]。 新营销活动的默认值为[!UICONTROL English]。<br><br>此设置确定广告可以显示的国家和地区。 确保选择与营销活动的位置目标兼容的语言。 |
@@ -108,11 +108,11 @@ ht-degree: 0%
 | 位置ID | 位置目标的唯一[!DNL Microsoft Advertising]标识符。 要下载位置列表，请使用您的[!DNL Microsoft Advertising]广告帐户凭据登录到[!DNL Microsoft Advertising]开发人员门户。 仅在更改或删除位置目标时需要，除非行包含目标的“[!UICONTROL AMO ID]”。 |
 | [!UICONTROL Target ID] | 标识现有自动目标的唯一ID。 仅在更改或删除自动定位时需要，除非行包含目标的“[!UICONTROL AMO ID]”。 |
 | [!UICONTROL RLSA Target ID] | 标识现有营销活动或广告组级别RLSA目标的唯一ID。 在CSV和TSV文件中，它的前面必须带有单引号(&#39;)。[^1]仅在您更改或删除目标或排除项时需要，除非该行包含目标的“[!UICONTROL AMO ID]”。 |
-| [!UICONTROL AMO ID] | （在生成的批量工作表中）同步实体的Adobe生成的唯一标识符。 对于响应式搜索广告，编辑或删除广告时需要AMO ID，除非您包含广告ID。 要编辑所有其他具有AMO ID的实体类型的数据，需要使用AMO ID来编辑或删除数据，除非您包含实体ID和父实体ID。<br><br>Search、Social和Commerce使用此值确定要编辑的正确身份，但不会将ID发布到广告网络。 |
+| [!UICONTROL AMO ID] | （在生成的批量工作表中）Adobe为同步实体生成的唯一标识符。 对于响应式搜索广告，编辑或删除广告时需要AMO ID，除非您包含广告ID。 要编辑所有其他具有AMO ID的实体类型的数据，需要使用AMO ID来编辑或删除数据，除非您包含实体ID和父实体ID。<br><br>Search、Social和Commerce使用此值确定要编辑的正确身份，但不会将ID发布到广告网络。 |
 | [!UICONTROL EF Error Message] | （出于信息目的包含在生成的批量工作表中）用于显示来自广告网络的关于行中数据的错误消息的占位符；错误消息包含在[!UICONTROL EF Errors]文件中。 此值未发布到广告网络。 |
 | [!UICONTROL SE Error Message] | （出于信息目的包含在生成的批量工作表中）用于显示来自广告网络的关于行中数据的错误消息的占位符；错误消息包含在[!UICONTROL SE Errors]文件中。 此值未发布到广告网络。 |
 | [!UICONTROL Exemption Request] | （出于信息目的包含在生成的批量处理工作表中）用于显示广告违反的任何Google广告策略的名称和文本的占位符。 |
-| [!UICONTROL Retail Hash] | (包括在使用高级Campaign Management生成的批量处理工作表中的信息用途)字母数字哈希代码(如f9639f40cdf56524b541e5dacf55a991)，表示项目是使用高级(ACM)视图生成的。 |
+| [!UICONTROL Retail Hash] | （包括在使用高级促销活动管理生成的批量处理工作表中的信息用途）字母数字哈希代码(如f9639f40cdf56524b541e5dacf55a991)，表示项目是使用高级(ACM)视图生成的。 |
 
 [^1]： [!DNL Excel]在打开文件时将大数转换为科学记号(如2115585666的2.12E+09)。 要查看标准表示法的位数，请选择列中的任意单元格，然后在公式栏中单击。
 
@@ -131,8 +131,8 @@ ht-degree: 0%
 | 字段 | 必需？ |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含实体的“[!UICONTROL AMO ID]”，否则此为必填字段。 |
-| [!UICONTROL Campaign Name] | 必填 | 为帐户标识营销活动的唯一名称。 |
-| [!UICONTROL Campaign Budget] | 需要创建营销策划。 | 竞选活动的每日支出限制，无论是否带有货币符号和标点。 此值将覆盖但不能超过帐户预算。 |
+| [!UICONTROL Campaign Name] | 必需。 为帐户标识营销活动的唯一名称。 |
+| [!UICONTROL Campaign Budget] | 需要创建营销策划。 竞选活动的每日支出限制，无论是否带有货币符号和标点。 此值将覆盖但不能超过帐户预算。 |
 | [!UICONTROL Channel Type] | 需要创建营销策划。 |
 | [!UICONTROL Delivery Method] | 可选 |
 | [!UICONTROL Campaign Priority] | 需要创建购物营销活动。 |
@@ -207,7 +207,7 @@ ht-degree: 0%
 >
 >创建支持不可用。
 
-对于此广告类型，请使用[!UICONTROL Download Bulksheet]对话框中的“[!UICONTROL Creative (except RSA)]”行。
+对于此广告类型，请使用[!UICONTROL Creative (except RSA)]对话框中的“[!UICONTROL Download Bulksheet]”行。
 
 有关每个数据字段的说明，请参阅“[所有可用数据字段](#bulksheet-fields-all-microsoft)”。
 
@@ -216,7 +216,7 @@ ht-degree: 0%
 | [!UICONTROL Acct Name] | 除非每行都包含实体的“[!UICONTROL AMO ID]”，否则此为必填字段。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Ad Group Name] | 必填 |
-| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2]需要编辑描述。 <b>注意：</b>对于此广告类型，更改广告副本将删除现有广告并创建新广告。 |
+| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2] | 需要编辑描述。 <b>注意：</b>对于此广告类型，更改广告副本将删除现有广告并创建新广告。 |
 | [!UICONTROL Display Path 1] | 需要此项才能编辑字段。 |
 | [!UICONTROL Display Path 2] | 需要此项才能编辑字段。 |
 | [!UICONTROL Creative Type] | 需要创建或编辑产品广告的状态。 |
@@ -225,14 +225,14 @@ ht-degree: 0%
 | \[广告商特定的标签分类\] | 可选 |
 | [!UICONTROL Campaign ID] | 可选 |
 | [!UICONTROL Ad Group ID] | 可选 |
-| [!UICONTROL Ad ID] | 仅在更改广告状态时需要，除非行包含a)足够的广告属性列来标识广告或b) &quot;[!UICONTROL AMO ID]&quot;。 但是，如果您既不包括[!UICONTROL Ad ID]也不包括[!UICONTROL AMO ID]，并且广告属性列与多个广告匹配，则只有其中一个广告的状态会更改。 |
+| [!UICONTROL Ad ID] | 仅在更改广告状态时需要，除非行包含a&amp;amp；rpar；足够的广告属性列来标识广告或b&amp;amp；rpar；“[!UICONTROL AMO ID]”。 但是，如果您既不包括[!UICONTROL Ad ID]也不包括[!UICONTROL AMO ID]，并且广告属性列与多个广告匹配，则只有其中一个广告的状态会更改。 |
 | [!UICONTROL AMO ID] | 需要编辑或删除数据，除非您包含实体ID和父实体ID。<br><br>Search、Social和Commerce使用此值确定要编辑的正确身份，但不会将ID发布到广告网络。 |
 
 ### 产品（购物）广告字段
 
-有关创建购物广告的更多信息，请参阅“[实施 [!DNL Microsoft Advertising] 购物营销活动](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=zh-Hans)”。
+有关创建购物广告的更多信息，请参阅“[实施 [!DNL Microsoft Advertising] 购物营销活动](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)”。
 
-对于此广告类型，请使用[!UICONTROL Download Bulksheet]对话框中的“[!UICONTROL Creative (except RSA)]”行。
+对于此广告类型，请使用[!UICONTROL Creative (except RSA)]对话框中的“[!UICONTROL Download Bulksheet]”行。
 
 有关每个数据字段的说明，请参阅“[所有可用数据字段](#bulksheet-fields-all-microsoft)”。
 
@@ -256,7 +256,7 @@ ht-degree: 0%
 
 ### 响应式（多媒体）广告字段
 
-对于此广告类型，请使用[!UICONTROL Download Bulksheet]对话框中的“[!UICONTROL Creative (except RSA)]”行。
+对于此广告类型，请使用[!UICONTROL Creative (except RSA)]对话框中的“[!UICONTROL Download Bulksheet]”行。
 
 有关每个数据字段的说明，请参阅“[所有可用数据字段](#bulksheet-fields-all-microsoft)”。
 
@@ -282,7 +282,7 @@ ht-degree: 0%
 
 ### 响应式搜索广告字段
 
-对于此广告类型，请使用[!UICONTROL Download Bulksheet]对话框中的“[!UICONTROL Responsive Search Ad]”行。
+对于此广告类型，请使用[!UICONTROL Responsive Search Ad]对话框中的“[!UICONTROL Download Bulksheet]”行。
 
 有关每个数据字段的说明，请参阅“[所有可用数据字段](#bulksheet-fields-all-microsoft)”。
 
@@ -290,7 +290,7 @@ ht-degree: 0%
 | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含实体的“[!UICONTROL AMO ID]”，否则此为必填字段。 |
 | [!UICONTROL Campaign Name] | 必填 |
-| [!UICONTROL Ad Group Name] | 必填 | |
+| [!UICONTROL Ad Group Name] | 必填 |
 | [!UICONTROL Ad Title]，[!UICONTROL Ad Title 2]-[!UICONTROL Ad Title 15] | 对于响应式搜索广告，[!UICONTROL Ad Title]、[!UICONTROL Ad Title 2]和[!UICONTROL Ad Title 3]是创建广告所必需的，而所有其他广告标题字段都是可选的。 要删除非必填字段的现有值，请使用值`[delete]`（包括括号）。 |
 | [!UICONTROL Ad Title 1 Position]-[!UICONTROL Ad Title 15 Position] | 可选 |
 | [!UICONTROL Description Line 1]-[!UICONTROL Description Line 4] | 对于响应式搜索广告，[!UICONTROL Description Line 1]和[!UICONTROL Description Line 2]是创建广告所必需的，[!UICONTROL Description Line 3]和[!UICONTROL Description Line 4]是可选的。 要删除现有值，请使用值`[delete]`（包括括号）。 |
@@ -310,7 +310,7 @@ ht-degree: 0%
 
 ### 文本广告字段
 
-对于此广告类型，请使用[!UICONTROL Download Bulksheet]对话框中的“[!UICONTROL Creative (except RSA)]”行。
+对于此广告类型，请使用[!UICONTROL Creative (except RSA)]对话框中的“[!UICONTROL Download Bulksheet]”行。
 
 >[!NOTE]
 >
@@ -324,7 +324,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Ad Group Name] | 必填 |
 | [!UICONTROL Ad Title]，[!UICONTROL Ad Title 2]-[!UICONTROL Ad Title 3] | 只读 |
-| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2]只读 |
+| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2] | 只读 |
 | [!UICONTROL Display URL] | 只读 |
 | [!UICONTROL Display Path 1] | 只读 |
 | [!UICONTROL Display Path 2] | 只读 |
@@ -466,5 +466,5 @@ ht-degree: 0%
 >* [可在批量处理工作表中执行的操作](bulksheet-operations.md)
 >* [支持的批量处理工作表文件格式](bulksheet-file-formats.md)
 >* [下载/创建批量处理工作表文件](../bulksheet-download.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的点击跟踪格式
+>* [的 [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)点击跟踪格式
 >* [上载批量工作表文件或更正的错误文件](../bulksheet-upload.md)

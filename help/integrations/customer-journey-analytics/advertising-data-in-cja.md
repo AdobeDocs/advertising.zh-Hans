@@ -2,7 +2,8 @@
 title: Customer Journey Analytics中的Adobe Advertising量度和维度
 description: 引用Customer Journey Analytics中可用的Adobe Advertising指标和维度。
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: fabe7312fc4d1ab899bedcf9eae1c8040a4a6532
+exl-id: 97c89e03-ab15-4906-96fc-6bb77ea0cd7c
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -68,26 +69,26 @@ Adobe Advertising每天将流量指标和维度传递给[!DNL Customer Journey A
 
 | Adobe Advertising字段名称 | XDM字段名称 | XDM字段显示名称 | Source |
 |------------------------------|----------------|------------------------|--------|
-| 键 | skwcid | ADOBE ADVERTISING ID |
-| 广告平台 | adobe_advertising_ad_platform | Adobe Advertising广告平台 |
-| 帐户 | adobe_advertising_account | Adobe Advertising帐户 |
-| 营销活动 | adobe_advertising_campaign | Adobe Advertising Campaign |
-| 广告组 | adobe_advertising_ad_group | Adobe Advertising广告组 |
-| 关键词 | adobe_advertising_keyword | Adobe Advertising关键词 |
-| 广告 | adobe_advertising_ad | Adobe Advertising广告 |
-| 投放 | adobe_advertising_placement | Adobe Advertising投放位置 |
-| 匹配类型 | adobe_advertising_match_type | Adobe Advertising匹配类型 |
-| 广告标题 | adobe_advertising_ad_title | Adobe Advertising广告标题 |
-| 广告描述 | adobe_advertising_ad_description | Adobe Advertising广告描述 |
-| 广告目标URL | adobe_advertising_ad_destination_url | Adobe Advertising广告目标URL |
-| 广告显示URL | adobe_advertising_ad_display_url | Adobe Advertising广告显示URL |
-| 设备 | adobe_advertising_device | Adobe Advertising设备 |
-| 关键字MatchType | adobe_advertising_keyword_matchtype | Adobe Advertising关键字MatchType |
-| 网络 | adobe_advertising_network | Adobe Advertising网络 |
-| 广告类型 | adobe_advertising_ad_type | Adobe Advertising广告类型 |
-| 产品目标 | adobe_advertising_product_target | Adobe Advertising产品目标 |
-| 登陆类型 | adobe_advertising_landing_type | Adobe Advertising登录类型 |
-| 优化 | adobe_advertising_optimization | Adobe Advertising优化 |
+| 键 | skwcid | ADOBE ADVERTISING ID |  |
+| 广告平台 | adobe_advertising_ad_platform | Adobe Advertising广告平台 |  |
+| 帐户 | adobe_advertising_account | Adobe Advertising帐户 |  |
+| 营销活动 | adobe_advertising_campaign | Adobe Advertising Campaign |  |
+| 广告组 | adobe_advertising_ad_group | Adobe Advertising广告组 |  |
+| 关键词 | adobe_advertising_keyword | Adobe Advertising关键词 |  |
+| 广告 | adobe_advertising_ad | Adobe Advertising广告 |  |
+| 投放 | adobe_advertising_placement | Adobe Advertising投放位置 |  |
+| 匹配类型 | adobe_advertising_match_type | Adobe Advertising匹配类型 |  |
+| 广告标题 | adobe_advertising_ad_title | Adobe Advertising广告标题 |  |
+| 广告描述 | adobe_advertising_ad_description | Adobe Advertising广告描述 |  |
+| 广告目标URL | adobe_advertising_ad_destination_url | Adobe Advertising广告目标URL |  |
+| 广告显示URL | adobe_advertising_ad_display_url | Adobe Advertising广告显示URL |  |
+| 设备 | adobe_advertising_device | Adobe Advertising设备 |  |
+| 关键字MatchType | adobe_advertising_keyword_matchtype | Adobe Advertising关键字MatchType |  |
+| 网络 | adobe_advertising_network | Adobe Advertising网络 |  |
+| 广告类型 | adobe_advertising_ad_type | Adobe Advertising广告类型 |  |
+| 产品目标 | adobe_advertising_product_target | Adobe Advertising产品目标 |  |
+| 登陆类型 | adobe_advertising_landing_type | Adobe Advertising登录类型 |  |
+| 优化 | adobe_advertising_optimization | Adobe Advertising优化 |  |
 
 >[!MORELIKETHIS]
 >

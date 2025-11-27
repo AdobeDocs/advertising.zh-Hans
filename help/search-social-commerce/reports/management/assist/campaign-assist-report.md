@@ -3,7 +3,7 @@ title: '[!UICONTROL Campaign Assist Report]'
 description: 了解[!UICONTROL Campaign Assist Report]。
 exl-id: c89b4c9f-16d5-4e1a-a73f-6cc99dd3f526
 feature: Search Reports, Search Assist Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL Campaign Assist Report]
 
-*广告商具有搜索、社交和Commerce点击跟踪以及Adobe Advertising、Adobe Analytics的转化跟踪（具有[!DNL Analytics]集成），或仅在信息源中使用令牌(`ef_id`)提供*
+*广告商具有搜索、社交和Commerce点击跟踪以及来自Adobe Advertising、Adobe Analytics（具有[!DNL Analytics]集成）的转化跟踪，或仅在信息源中使用令牌(`ef_id`)提供*
 
 [!UICONTROL Campaign Assist Report]指示哪些营销活动协助了转换过程。 报告其广告导致一次或多次转化的每种营销活动模式对您的整体转化率的贡献情况。 例如，您可以查看当用户首先看到来自促销活动A的广告，然后单击来自促销活动B的广告，然后下达订单时发生的转化次数。 同样，您可以查看用户与10个以上营销活动的广告交互后发生的转化次数。
 
@@ -46,9 +46,9 @@ ht-degree: 0%
 | [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[转化量度\] | 自动 | （在报表设置中不可用，但自动包含在报表输出中）从上一个事件（在最后一个营销活动中）到转化的平均延迟（以天为单位）。 |
 | [!UICONTROL EF Campaign ID] | 自定义 | Search、Social和Commerce分配给营销活动的数值ID。 |
 | [!UICONTROL EF Portfolio Group ID] | 自定义 | 项目组合所属的项目组合组的数值ID。 |
-| [!UICONTROL EF Search Engine ID] | 自定义 | Search、Social和Commerce分配给广告网络的数值ID：[!DNL Google Ads]的<i>[!UICONTROL 3]</i>、[!DNL Microsoft Advertising]的<i>[!UICONTROL 10]</i>、[!DNL Meta]的<i>[!UICONTROL 45]</i>、[!DNL Yahoo! Display Network]的<i>[!UICONTROL 86]</i>、[!DNL Naver]的<i>[!UICONTROL 87]</i>、[!DNL Baidu]的<i>[!UICONTROL 88]</i>、[!DNL Yandex]的<i>[!UICONTROL 90]</i>、[!DNL Yahoo! Japan Ads]的<i>[!UICONTROL 94]</i>、[!DNL Yahoo Native]的<i>[!UICONTROL 105]</i>（已弃用）或[!DNL Pinterest]的<i>[!UICONTROL 106]</i>（已弃用）。 |
-| [!UICONTROL Portfolio ID] | 数值项目组合ID。 |
-| [!UICONTROL User SE Account ID] | Search、Social和Commerce分配给广告网络的数值ID。 |
+| [!UICONTROL EF Search Engine ID] | 自定义 | Search、Social和Commerce分配给广告网络的数值ID：<i>[!UICONTROL 3]</i>的[!DNL Google Ads]、<i>[!UICONTROL 10]</i>的[!DNL Microsoft Advertising]、<i>[!UICONTROL 45]</i>的[!DNL Meta]、<i>[!UICONTROL 86]</i>的[!DNL Yahoo! Display Network]、<i>[!UICONTROL 87]</i>的[!DNL Naver]、<i>[!UICONTROL 88]</i>的[!DNL Baidu]、<i>[!UICONTROL 90]</i>的[!DNL Yandex]、<i>[!UICONTROL 94]</i>的[!DNL Yahoo! Japan Ads]、<i>[!UICONTROL 105]</i>的[!DNL Yahoo Native]（已弃用）或<i>[!UICONTROL 106]</i>的[!DNL Pinterest]（已弃用）。 |
+| [!UICONTROL Portfolio ID] | 数值项目组合ID。 |  |
+| [!UICONTROL User SE Account ID] | Search、Social和Commerce分配给广告网络的数值ID。 |  |
 
 >[!MORELIKETHIS]
 >
