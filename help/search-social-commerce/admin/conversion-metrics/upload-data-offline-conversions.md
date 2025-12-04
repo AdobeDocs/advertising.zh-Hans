@@ -3,7 +3,7 @@ title: 上载离线转化数据以增强转化
 description: 了解如何上传第一方离线转化数据以映射到潜在客户的 [!DNL Google Ads] 增强型转化和 [!DNL Microsoft Advertising] 增强型转化。
 feature: Conversions
 exl-id: 5c5dfbb8-3b17-4973-8012-fc7f0e97e33b
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 7a87d3c3827125adb97f50986823568c9aef8c24
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 0%
@@ -67,5 +67,5 @@ ht-degree: 0%
 >
 >* [为潜在客户实施 [!DNL Google Ads] 增强的转化](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
 >* [实施 [!DNL Microsoft Advertising] 增强的脱机转换](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
->* [([!DNL Google Ads only])为潜在客户的 [!DNL Google Ads] 增强型转化创建转化操作](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+>* [为潜在客户的 [!DNL Google Ads] 增强型转化创建转化操作](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
 >* [将搜索、社交和Commerce跟踪的转化量度上传到 [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)

@@ -3,16 +3,16 @@ title: ' [!DNL Microsoft Advertising] 帐户所需的批量处理工作表数据
 description: 引用 [!DNL Microsoft Advertising] 帐户批量工作表中必需的标题字段和数据字段。
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 7a87d3c3827125adb97f50986823568c9aef8c24
 workflow-type: tm+mt
-source-wordcount: '6928'
+source-wordcount: '6895'
 ht-degree: 0%
 
 ---
 
 # 附录 — [!DNL Microsoft Advertising]帐户必需的批量处理工作表数据
 
-要批量创建和更新[!DNL Microsoft Advertising]营销活动数据，您可以使用专门为[!DNL Microsoft Advertising]帐户设置格式的Search、Social和Commerce批量工作表文件。 您可以a) [为现有帐户](../bulksheet-download.md)生成所需文件格式的批量工作表文件，或b)手动创建这些文件（有关支持的文件格式的一般信息，请参阅[支持的批量工作表文件格式](bulksheet-file-formats.md)）。
+要批量创建和更新[!DNL Microsoft Advertising]营销活动数据，您可以使用专门为[!DNL Microsoft Advertising]帐户设置格式的Search、Social和Commerce批量工作表文件。 您可以a)[为现有帐户](../bulksheet-download.md)生成所需文件格式的批量工作表文件，或b)手动创建这些文件（有关支持的文件格式的一般信息，请参阅[支持的批量工作表文件格式](bulksheet-file-formats.md)）。
 
 每个批量工作表必须包含要执行[特定操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md)（如创建广告）所需的标题字段和相应的数据字段。 当字段不是必填字段时，您可以从标题行和数据行中忽略该字段。 上传批量工作表文件时将删除所有自定义列。
 
@@ -131,8 +131,8 @@ ht-degree: 0%
 | 字段 | 必需？ |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含实体的“[!UICONTROL AMO ID]”，否则此为必填字段。 |
-| [!UICONTROL Campaign Name] | 必需。 为帐户标识营销活动的唯一名称。 |
-| [!UICONTROL Campaign Budget] | 需要创建营销策划。 竞选活动的每日支出限制，无论是否带有货币符号和标点。 此值将覆盖但不能超过帐户预算。 |
+| [!UICONTROL Campaign Name] | 必需。 |
+| [!UICONTROL Campaign Budget] | 需要创建营销策划。 |
 | [!UICONTROL Channel Type] | 需要创建营销策划。 |
 | [!UICONTROL Delivery Method] | 可选 |
 | [!UICONTROL Campaign Priority] | 需要创建购物营销活动。 |
@@ -230,7 +230,7 @@ ht-degree: 0%
 
 ### 产品（购物）广告字段
 
-有关创建购物广告的更多信息，请参阅“[实施 [!DNL Microsoft Advertising] 购物营销活动](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=zh-Hans)”。
+有关创建购物广告的更多信息，请参阅“[实施 [!DNL Microsoft Advertising] 购物营销活动](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)”。
 
 对于此广告类型，请使用[!UICONTROL Creative (except RSA)]对话框中的“[!UICONTROL Download Bulksheet]”行。
 
