@@ -3,9 +3,9 @@ title: '[!DNL Google Ads]营销活动设置'
 description: 引用 [!DNL Google Ads] 营销活动的设置。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 21dc29e97915712053bbcc39d8141693c1dbf8bf
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2617'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,21 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Details]
 
+<!-- left to right -->
+
 **[!UICONTROL Campaign Name]：**&#x200B;帐户中唯一的促销活动名称。
+
+**[!UICONTROL Status]：**&#x200B;促销活动的显示状态： *活动*&#x200B;或&#x200B;*已暂停*。 新广告营销活动的默认值为&#x200B;*活动*。
 
 <!-- **[!UICONTROL Start Date]:** -->
 
 {{$include /help/_includes/start-date.md}}
+
+<!-- **[!UICONTROL End Date]:** -->
+
+{{$include /help/_includes/end-date.md}}
+
+**[!UICONTROL Search Partners]：** （仅针对搜索网络的营销活动，包括购物营销活动）在广告网络的搜索合作伙伴网络上显示您的广告。 默认情况下，此选项为&#x200B;*[!UICONTROL Off]*。
 
 **[!UICONTROL Audience Target Method]：**（仅限现有的只读Gmail营销活动）是否：
 
@@ -50,13 +60,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Bid Only]：*&#x200B;若要显示广告，甚至向不与目标受众关联的用户显示，只要他们满足其他广告组级别的目标。 但是，您可以通过为特定受众设置更高的竞价来增加向这些受众显示广告的可能性。
 
-**[!UICONTROL Status]：**&#x200B;促销活动的显示状态： *活动*&#x200B;或&#x200B;*已暂停*。 新广告营销活动的默认值为&#x200B;*活动*。
-
-<!-- **[!UICONTROL End Date]:** -->
-
-{{$include /help/_includes/end-date.md}}
-
-**[!UICONTROL Search Partners]：** （仅针对搜索网络的营销活动，包括购物营销活动）在广告网络的搜索合作伙伴网络上显示您的广告。 默认情况下，此选项为&#x200B;*[!UICONTROL Off]*。
+**[!UICONTROL Contains EU Political Ads]：**(适用于针对欧盟(EU)受众的营销活动)根据欧盟第2024/90号条例在欧盟提供的广告要求，营销活动是否包含政治广告： *[!UICONTROL Yes]*&#x200B;或&#x200B;*[!UICONTROL No]*。
 
 **[!UICONTROL AI Max Enabled]：** （仅针对搜索网络的营销活动；只读）是否启用了[[!UICONTROL AI Max]功能](https://support.google.com/google-ads/answer/15910366)： *[!UICONTROL On]*&#x200B;或&#x200B;*[!UICONTROL Off]*。
 

@@ -1,11 +1,11 @@
 ---
-title: '[!DNL Microsoft Ads]库存馈送的购物广告模板设置'
+title: 用于库存馈送的[!DNL Microsoft Ads]购物广告模板设置
 description: 参考 [!DNL Microsoft Ads] 库存源的购物广告模板的设置。
 exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 以下字符是为模板中的列名称和修饰符名称而保留的，因此禁止在所有属性字段中作为文本： `[ ] < > `
-
 
 ## \[所有选项卡上方\]
 
@@ -73,7 +72,7 @@ ht-degree: 0%
 
 **[!UICONTROL Merchant ID]：**&#x200B;其产品用于营销活动的商家帐户的客户ID。
 
-**[!UICONTROL Sales Country]：**&#x200B;促销活动产品的销售国家/地区。 因为产品已关联
+**[!UICONTROL Sales Country]：**促销活动产品的销售国家/地区。 因为产品已关联
 对于目标国家/地区，此设置确定在营销活动中广告的产品。
 
 <!-- **[!UICONTROL Stock Level]:** -->
@@ -98,13 +97,15 @@ ht-degree: 0%
 
 {{$include /help/_includes/inventory-feed-template-campaign-initial-budget.md}}
 
-**[!UICONTROL Campaign Priority]：**&#x200B;多个营销活动广告
+**[!UICONTROL Campaign Priority]：**多个营销活动广告
 相同的产品： *[!UICONTROL Low]* （新营销活动的默认值）、*[!UICONTROL Medium]*&#x200B;或&#x200B;*[!UICONTROL High]*。 当同一产品包含在多个促销活动中时，广告网络会使用
 首先确定哪个营销活动（及相关竞价）符合广告竞价条件的营销活动优先级。 如果所有促销活动具有相同的优先级，则具有最高竞价的促销活动符合条件。
 
 <!-- **[!UICONTROL Locations]:** -->
 
 {{$include /help/_includes/inventory-feed-template-campaign-locations.md}}
+
+**[!UICONTROL Has EU Political Ads]：**([!DNL Google Ads]和[!DNL Microsoft Advertising]营销活动仅适用针对欧盟(EU)受众的营销活动)根据欧盟第2024/90号条例在欧盟提供的广告要求，营销活动是否包含政治广告：*[!UICONTROL Yes]*&#x200B;或&#x200B;*[!UICONTROL No]*。
 
 ## [!UICONTROL Ad Groups]
 
@@ -122,7 +123,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Tracking Template]：**（可选）广告组级别的跟踪模板，它指定所有登入外域重定向和跟踪参数，并将最终URL嵌入到参数中。 此值将覆盖帐户级别和营销活动级别的设置，但更细粒度级别的跟踪模板将覆盖此值。
 
-对于Adobe Advertising转化跟踪，无需输入值。 营销活动级别的值就足够了。
+对于Adobe Advertising转化跟踪，您无需输入值。 营销活动级别的值就足够了。
 
 对于第三方重定向和跟踪，请输入一个值。
 
@@ -155,7 +156,7 @@ ht-degree: 0%
 **[!UICONTROL Tracking Template]：** （不含子产品组的设备；可选）产品的跟踪模板
 组，指定所有登入域重定向和跟踪参数，并将最终URL嵌入到[!DNL ValueTrack]参数中。 此模板将覆盖更高级别的模板。
 
-对于Adobe Advertising转化跟踪，无需输入值。 营销活动级别的值就足够了。
+对于Adobe Advertising转化跟踪，您无需输入值。 营销活动级别的值就足够了。
 
 对于第三方重定向和跟踪，请输入一个值。
 

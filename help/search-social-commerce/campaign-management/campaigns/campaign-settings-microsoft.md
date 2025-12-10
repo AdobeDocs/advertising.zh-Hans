@@ -1,11 +1,11 @@
 ---
-title: “[!DNL Microsoft Advertising]营销活动设置”
+title: '[!DNL Microsoft Advertising]营销活动设置'
 description: 引用 [!DNL Microsoft Advertising] 营销活动的设置。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: b8aa2461d261af50e1bf66c4ae29e4e453dfd182
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '2041'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience Video]：*&#x200B;在受众网络上显示标准视频广告。
 
-* *[!UICONTROL Performance Max]：*&#x200B;使用[!DNL Microsoft Advertising]智能竞价显示所有网络中的多个广告类型。 在Campaign设置中，您必须指定一个或多个资产组，包括图像、徽标、标题、描述、可选的行动呼吁和受众信号。 广告网络会自动组合资产，以根据渠道提供广告。
+* *[!UICONTROL Performance Max]：*&#x200B;使用[!DNL Microsoft Advertising]智能竞价显示所有网络中的多个广告类型。 在Campaign设置中，您必须指定一个或多个资源组，包括图像、徽标、标题、描述、可选call to action和受众信号。 广告网络会自动组合资产，以根据渠道提供广告。
 
 ## [!UICONTROL Campaign Details]
 
@@ -46,6 +46,8 @@ ht-degree: 0%
 <!-- **[!UICONTROL End Date]:** -->
 
 {{$include /help/_includes/end-date.md}}
+
+**[!UICONTROL Contains EU Political Ads]：**(适用于针对欧盟(EU)受众的营销活动)根据欧盟第2024/90号条例在欧盟提供的广告要求，营销活动是否包含政治广告： *[!UICONTROL Yes]*&#x200B;或&#x200B;*[!UICONTROL No]*。
 
 ## [!UICONTROL Budget Options]
 
@@ -75,7 +77,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Manual CPA]：* （[!DNL Microsoft Store Ads]个营销活动）使用每次客户获取成本(CPA)模型。
 
-* *[!UICONTROL Manual CPM]* （仅限受众营销活动和受众视频营销活动）使用每千次展示成本(CPM)模型，您可以为其指定每1,000次查看展示的支出方式。 当具有此竞价策略的营销活动包含在项目组合中时，不会对其进行优化。
+* *[!UICONTROL Manual CPM]* （仅限受众营销活动和受众视频营销活动）使用每千展示次数成本(CPM)模型，您可以为其指定每1,000次查看展示次数要花费哪些成本。 当具有此竞价策略的营销活动包含在项目组合中时，不会对其进行优化。
 
 * *[!UICONTROL Maximize Clicks]：*（搜索和购物营销活动）广告网络(而不是Search、Social和Commerce)会优化竞价以最大化点击次数。 （可选）输入&#x200B;**[!UICONTROL Max CPC]**（每次点击成本）以确保广告网络为每次点击支付的金额不会超过特定金额。 **警告：**&#x200B;当您将具有此策略的营销活动添加到项目组合时，点击权重（不是项目组合目标）将驱动竞价。
 
@@ -166,7 +168,7 @@ ht-degree: 0%
 
 **[!UICONTROL Negative Websites]：** （仅显示/本地网络上的营销活动；可选）显示网络上不希望显示广告的站点。 请输入有效的URL，如www.example.com。 要指定多个字符串，请用逗号分隔它们，或者在单独的行中输入它们。
 
-有关可用性的信息，请参阅Microsoft Advertising帮助“防止广告出现在特定网站[&#128279;](https://help.ads.microsoft.com/#apex/bae/en/14061/0)”。
+有关可用性的信息，请参阅Microsoft Advertising帮助“防止广告出现在特定网站[”。](https://help.ads.microsoft.com/#apex/bae/en/14061/0)
 
 ## [!UICONTROL Campaign Tracking]
 
@@ -282,7 +284,7 @@ ht-degree: 0%
 
 * 要从[!UICONTROL Asset Library]中选择资源，请单击&#x200B;**[!UICONTROL Asset Library]**&#x200B;并选择资源。
 
-**[!UICONTROL Call to Action]：**&#x200B;要包含在广告中的行动号召。 默认情况下，已选择&#x200B;*[!UICONTROL Act Now]*。
+**[!UICONTROL Call to Action]：**&#x200B;要包含在广告中的call to action。 默认情况下，已选择&#x200B;*[!UICONTROL Act Now]*。
 
 **[!UICONTROL Business Name]：**&#x200B;业务名称，最多25个字符。 它不能包含脚本、HTML或其他标记语言。
 
