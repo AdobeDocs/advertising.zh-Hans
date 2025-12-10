@@ -239,7 +239,7 @@ ht-degree: 0%
 
 **[!UICONTROL Param 3]：** （仅限[!DNL Microsoft Advertising]模板）在标题、文本、显示URL或最终URL包含`{Param3}`动态替换字符串时，用作广告中替换值的字符串。 最大长度为70个字符，但请注意，在其中使用它的广告元素的最大长度（例如，广告标题最多可包含25个字符）。
 
-**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]：**&#x200B;具有指定匹配类型或广告类型的每个关键字的初始出价。
+**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]：**&#x200B;具有指定匹配类型或广告类型的每个关键字的初始出价。
 
 ## [!UICONTROL Ads]
 
