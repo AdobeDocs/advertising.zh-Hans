@@ -4,9 +4,9 @@ description: 了解如何使用批量处理工作表文件编辑多个项目组�
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 14f85e5ff5655be045fa4a2280edc1fe01978029
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ## 已上传批量处理工作表文件的数据要求
 
-查看下载的批量处理工作表文件上的[!UICONTROL Instructions]选项卡。
+所有批量工作表文件都必须包含列[!UICONTROL Portfolio ID]，并且每个数据行都必须包含值，以使[!UICONTROL Portfolio ID]可操作。 有关数据要求的更多信息，请参阅下载的批量处理工作表文件上的[!UICONTROL Instructions]选项卡。
 
 有关[!UICONTROL Portfolio Settings Edit]选项卡上项目组合设置列的说明，请参阅《优化指南》，该指南可在Search、Social和Commerce中找到。
 
