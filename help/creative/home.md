@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: 4dbde8463a3c536fe282e3dbffb8e0225e53601a
+source-git-commit: eeeee0404c82bd98d37d4275cbef8e0e12fb4b13
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1225'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2025年11月26日 | Advertising Creative的成本报表 | (仅同时具有Advertising Creative和Advertising DSP的广告商；测试版功能)新的[!UICONTROL All-in Cost]报告已退出测试版并公开发布。 | 请参阅“[关于自定义报告](/help/creative/reports/reports-about.md)”和“[管理自定义报告](/help/creative/reports/report-manage.md)”。 |
 | 2025年11月17日 | Advertising Creative的成本报表 | (仅同时具有Advertising Creative和Advertising DSP的广告商；测试版功能)新的[!UICONTROL All-in Cost BETA]报表显示有多少支出归因于Adobe Creative的广告服务。 报表的支出量度包括[!UICONTROL Billable Creative Spend]、[!UICONTROL Non Billable Creative Spend]、[!UICONTROL Total Creative Spend]、[!UICONTROL Total Creative CPM]和[!UICONTROL Estimated Tax on Creative]。 您可以在促销活动、资源包、版面和广告级别查看创意、属性、目标和其他数据。 | 请参阅“[关于自定义报告](/help/creative/reports/reports-about.md)”和“[管理自定义报告](/help/creative/reports/report-manage.md)”。 |
 | 2025年9月24日 | 动态创意 | 现在，可使用更简单的自助工作流程来使用通过广告模板传递的广告变体目录中的数据生成动态广告。 | 请参阅[动态广告的工作流](/help/creative/introduction/workflow-dynamic-ads.md)。 |
 | 2025年9月3日 | 针对[!DNL experiences]的Creative优化和计划 | 用于配置创意优化和计划的菜单选项或按钮现在称为“[!UICONTROL Creative Optimization]”，而不是“[!UICONTROL Edit Schedules]”或“[!UICONTROL Add Schedules]”。 | 请参阅“[针对目标体验自定义创意优化和计划](/help/creative/experiences/experience-optimization-scheduling-targeting.md)”和“[针对体验自定义创意优化和计划，而无需定位](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)”。 |
