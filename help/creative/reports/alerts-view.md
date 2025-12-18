@@ -2,9 +2,9 @@
 title: 查看警报
 description: 了解如何查看针对您体验的警报和建议的解决方案。
 feature: Creative Experiences
-source-git-commit: 5ed7905502527cc92288d920d944406421c7ce65
+source-git-commit: e03517dc1d984df660048d81f77d5364f156fb6c
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 [!DNL Creative]可帮助您识别您的任何体验（包括体验中的创意人员）何时遇到问题。 对于每个问题，[!DNL Creative]都会发出带有时间戳的警报，并提供解决此问题的建议操作。 警报的原因包括实时体验过期和默认广告的高投放，而不是目标广告。 警报在体验级别可用。
 
-您可以打开任何警报的相关体验，以便根据需要进行编辑以解决问题。 您还可以选择忽略单个警报，这样会将其从[!UICONTROL Pulse]面板中删除。
+您可以打开任何警报的相关体验或创意，以便根据需要编辑它以解决问题。 您还可以选择忽略单个警报，这样会将其从[!UICONTROL Pulse]面板中删除。
 
 当基础问题得到解决时，警报和警报指示器会自动消失。
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. （可选）若要根据警报的第一个检测日期对警报进行分组，或按警报状态筛选警报，请单击面板右上角的![筛选按钮](/help/creative/assets/filter.png)，选择筛选选项，然后单击&#x200B;**[!UICONTROL Apply]**。
 
-1. 要查看特定警报类型的所有受影响体验的列表，请单击警报名称。 要查看每个受影响组件的详细信息（包括建议的操作），请单击[!UICONTROL EXPAND ALL]或单击组件名称。 若要打开任何受影响组件的相关体验，以便进行建议的更改，请将光标悬停在组件名称上，然后单击“![转到”以查看](/help/creative/assets/go-to-view.png "转到”以查看")。
+1. 要查看特定警报类型的所有受影响体验的列表，请单击警报名称。 要查看每个受影响组件的详细信息（包括建议的操作），请单击[!UICONTROL EXPAND ALL]或单击组件名称。 若要打开相关的体验或创意，以便进行建议的更改，请将光标悬停在组件名称上，然后单击![转到视图](/help/creative/assets/go-to-view.png "转到视图")。
 
 1. （可选）要忽略（隐藏）警报，请将光标悬停在组件名称上，单击![忽略](/help/creative/assets/alert-ignore.png "忽略")，然后单击&#x200B;**[!UICONTROL Ignore alert till next check]**、**[!UICONTROL Ignore alert for 3 days]**&#x200B;或&#x200B;**[!UICONTROL Ignore indefinitely]**。
 
