@@ -2,16 +2,16 @@
 title: 查看警报
 description: 了解如何查看针对您体验的警报和建议的解决方案。
 feature: Creative Experiences
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+source-git-commit: 2300fbf25566dd5ffe0f2cb68be9bebd9f211f60
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
 # 查看警报
 
-[!DNL Creative]可帮助您识别您的任何体验（包括体验中的创意人员）何时遇到问题。 对于每个问题，[!DNL Creative]都会发出带有时间戳的警报，并提供解决此问题的建议操作。 警报的一些原因包括体验过期、默认广告的高投放率而不是目标广告，以及链接错误。 警报在体验级别可用。
+[!DNL Creative]可帮助您识别您的任何体验（包括体验中的创意人员）何时遇到问题。 对于每个问题，[!DNL Creative]都会发出带有时间戳的警报，并提供解决此问题的建议操作。 警报的原因包括默认广告的过期体验和高投放率，而不是目标广告。 警报在体验级别可用。
 
 您可以打开任何警报的相关体验，以便根据需要进行编辑以解决问题。 您还可以选择忽略单个警报，这样会将其从[!UICONTROL Pulse]面板中删除。
 
