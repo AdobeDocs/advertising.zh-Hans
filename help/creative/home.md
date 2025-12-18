@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: eeeee0404c82bd98d37d4275cbef8e0e12fb4b13
+source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2025年12月17日 | 警报 | [!UICONTROL Pulse Panel]视图中的[!UICONTROL Experiences]图标指示您的体验是否有任何警报可用。 您可以打开面板以查看每个警报，还可以选择打开适用的体验，以便根据需要编辑它以解决问题。 您还可以选择消除任何警报。<br><br>对于使用Advertising DSP的广告商，在DSP中的促销活动级别提供了有关从[!DNL Creative]体验创建的DSP版面的通知。 | 请参阅“[查看警报](/help/creative/reports/alerts-view.md)”。 |
 | 2025年11月26日 | Advertising Creative的成本报表 | (仅同时具有Advertising Creative和Advertising DSP的广告商；测试版功能)新的[!UICONTROL All-in Cost]报告已退出测试版并公开发布。 | 请参阅“[关于自定义报告](/help/creative/reports/reports-about.md)”和“[管理自定义报告](/help/creative/reports/report-manage.md)”。 |
 | 2025年11月17日 | Advertising Creative的成本报表 | (仅同时具有Advertising Creative和Advertising DSP的广告商；测试版功能)新的[!UICONTROL All-in Cost BETA]报表显示有多少支出归因于Adobe Creative的广告服务。 报表的支出量度包括[!UICONTROL Billable Creative Spend]、[!UICONTROL Non Billable Creative Spend]、[!UICONTROL Total Creative Spend]、[!UICONTROL Total Creative CPM]和[!UICONTROL Estimated Tax on Creative]。 您可以在促销活动、资源包、版面和广告级别查看创意、属性、目标和其他数据。 | 请参阅“[关于自定义报告](/help/creative/reports/reports-about.md)”和“[管理自定义报告](/help/creative/reports/report-manage.md)”。 |
 | 2025年9月24日 | 动态创意 | 现在，可使用更简单的自助工作流程来使用通过广告模板传递的广告变体目录中的数据生成动态广告。 | 请参阅[动态广告的工作流](/help/creative/introduction/workflow-dynamic-ads.md)。 |
