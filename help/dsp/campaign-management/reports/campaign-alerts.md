@@ -3,9 +3,9 @@ title: 查看警报
 description: 了解如何查看营销活动和营销活动组件的警报和建议解决方案。
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+source-git-commit: 9ab8d3345659f48d1d131c3c6c1e1b87f0b0a0e6
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ DSP可帮助您识别任何促销活动或促销活动组件何时出现问题�
       1. 单击程序包、投放位置或广告行的警报指示器，然后单击&#x200B;**[!UICONTROL View in Pulse Panel]**。
 
    列出与促销活动及其组件关联的所有警报，包括目标交易。 默认情况下，首先列出严重预警。
+
+1. (使用Advertising Creative的广告商；可选)单击&#x200B;**[!UICONTROL Creative]**&#x200B;选项卡以查看包含Advertising Creative体验的投放位置警报。
 
 1. （可选）要根据警报的第一个检测日期对警报进行分组，或按警报状态、组件状态、组件类型或使用特定营销活动名称对警报进行筛选，请单击面板右上角的![筛选按钮](/help/dsp/assets/filter.png)，选择筛选选项，然后单击&#x200B;**[!UICONTROL Apply]**。
 
