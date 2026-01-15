@@ -20,9 +20,9 @@ ht-degree: 0%
 
    此步骤仅适用于具有[!DNL Analytics for Advertising]的广告商。
 
-1. (贵组织的Adobe Experience Platform网站管理员)[在Experience Platform中设置数据收集并实施转化跟踪标记](#data-collection)。
+1. (贵组织的Adobe Experience Platform网站管理员) [在Experience Platform中设置数据收集并实施转化跟踪标记](#data-collection)。
 
-1. (贵组织的Customer Journey Analytics站点管理员)[在Customer Journey Analytics中创建与Experience Platform数据集的连接](#dataset-connection)。
+1. (贵组织的Customer Journey Analytics站点管理员) [在Customer Journey Analytics中创建与Experience Platform数据集的连接](#dataset-connection)。
 
 1. （您组织的Web分析师）[在Customer Journey Analytics中设置数据视图](#cja-data-views)。
 
