@@ -4,9 +4,9 @@ description: 了解如何使用批量处理工作表文件编辑多个项目组�
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: 14f85e5ff5655be045fa4a2280edc1fe01978029
+source-git-commit: 04b6fbaf4a8b360bc3a60bdad4871694d50f1bf9
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,15 @@ ht-degree: 0%
 
 ## 下载包含项目组合设置的批量工作表文件
 
-1. 选中要包含在批量处理工作表中的每个项目组合旁边的复选框。
+1. （可选）选中要包含在批量处理工作表中的每个项目组合旁边的复选框。
 
-1. 在数据表上方的工具栏中，单击&#x200B;**[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]**。
+   如果您未选择特定的项目组合，则可以下载所有项目组合的设置。
+
+1. 在数据表上方的工具栏中，单击：
+
+   * （对于所有项目组合） **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export All Portfolios]**。
+
+   * （对于选定的项目组合） **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]**。
 
 1. 输入要创建的批量处理工作表文件的名称，然后单击&#x200B;**[!UICONTROL Export Now]**。
 
