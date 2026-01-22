@@ -3,9 +3,9 @@ title: 将标准创意添加到创意库
 description: 了解如何将标准（非动态）创意添加到创意库。
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 24846adba9ff856571d117261f44aff408e70c50
+source-git-commit: a1ca7815334b35de8f9ab5781e53e6b6aa5f4770
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ### 使用模板添加灵活的创意 {#flexible-creative-use-template}
 
-您可以使用上传到帐户的任何灵活的创意模板来构建预定义大小的广告。 选择要使用的模板后，您将编辑点击标记和属性。&lt;！ — 如果将模板下载功能添加回来，请将此替换最后一句：您可以a\)选择要使用的模板，然后编辑点击标记和属性；或b\) [以ZIP文件格式下载模板](#download-flexible-creative-template)，脱机编辑内容以构建您自己的创意，然后[将编辑后的文件上传为新的创意] (flexible-creative-upload)。>
+您可以使用上传到帐户的任何灵活的创意模板来构建预定义大小的广告。 选择要使用的模板后，您将编辑点击标记和属性。&lt;！ — 如果将模板下载功能添加回来，请将此替换最后一句：您可以a\)选择要使用的模板，然后编辑点击标记和属性；或b\) [以ZIP文件格式下载模板](#download-flexible-creative-template)，脱机编辑内容以构建您自己的创意，然后[将编辑后的文件上传为新的创意](flexible-creative-upload)。>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -148,7 +148,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
       1. 找到并选择显示广告体验，然后单击右上角的&#x200B;**[!UICONTROL Select]**。
 
-         <!-- Each creative variant in the experience will be imported as a separate HTML5 creative. -->
+     选定体验中的每个创意变体都将作为单独的HTML5创意内容导入。
 
 1. 添加或删除创意：
 
@@ -158,9 +158,9 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. 指定[HTML5创意设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5)或[图像创意设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image)。
 
-   默认情况下，将选择您刚刚上传的所有创意，并且您指定的任何设置将应用于所有选定的创意。 任何只有一个值的设置均适用于所有选定的创意。 要输入特定创意的设置，请取消选择每个不适用的创意内容。
+   默认情况下，将选中您刚刚上传的所有创意内容或GenStudio体验，而您指定的任何设置将应用于所有选定项目。 任何只有一个值的设置都适用于所有选定项目。 要输入特定创意或GenStudio体验的设置，请取消选择每个不适用的创意或体验。
 
-1. 单击&#x200B;**[!UICONTROL Create]**&#x200B;或&#x200B;**[!UICONTROL Import]**。
+1. 单击&#x200B;**[!UICONTROL Create]**。
 
 ## 向创意库添加第三方创意内容 {#creative-add-third-party}
 

@@ -3,7 +3,7 @@ title: 关于您的创意库
 description: 了解如何管理广告体验的创意。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 24846adba9ff856571d117261f44aff408e70c50
+source-git-commit: a1ca7815334b35de8f9ab5781e53e6b6aa5f4770
 workflow-type: tm+mt
 source-wordcount: '1529'
 ht-degree: 0%
@@ -51,11 +51,13 @@ ht-degree: 0%
 
 ##### HTML5创意人员
 
-* **GenStudio体验：**&#x200B;您可以从[GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)中的[显示广告体验](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/home)导入所有广告变体作为HTML5创意。 外部链接将转换为本地引用。 HTML内容最长可达20 MB，单个图像最长可达50 MB。
-
-  要使用此功能，GenStudio帐户和Advertising Creative帐户必须使用相同的组织ID，并且用户必须具有访问GenStudio的权限。
+* **GenStudio体验：**&#x200B;您可以在[GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)中从[显示广告体验](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)导入所有广告变体作为单个HTML5创意。 外部链接将转换为本地引用。 HTML内容最长可达20 MB，单个图像最长可达50 MB。
 
   导入GenStudio体验后，您可以编辑已导入创意内容的元数据（名称、语言、标记），但不能编辑创意内容。 如果您在GenStudio中编辑GenStudio体验，请在[!DNL Creative]中重新导入该体验以使用最新版本。
+
+  >[!NOTE]
+  >
+  >要使用此功能，GenStudio帐户和Advertising Creative帐户必须使用相同的组织ID，并且用户必须具有访问GenStudio的权限。
 
 * **上载的文件：**&#x200B;您还可以上载简单或静态的HTML5创意（指定了所有属性和图像）作为ZIP文件。 您无法编辑任何属性或添加图像；请上传新的ZIP文件以添加新创意。 有关简单和静态的HTML5创意，请参阅[规范](html5-creative-specification.md)。
 
@@ -77,7 +79,7 @@ ht-degree: 0%
 
 您可以从设备或网络中为Web、移动或连接的电视上传第一方视频创意。 每个标准视频广告体验都需要为分配给体验的每个创意持续时间提供一个默认视频创意。 DSP会自动将所有视频创意转换为VAST 2.0标记，以便您预览。 在[!UICONTROL Tag Manager]中，您可以选择将[特定于DSP的转码](/help/creative/experiences/experience-tag-video-transcoding.md)应用于任何视频广告体验标记。
 
-请参阅以下视频创作要求。 **注意：**&#x200B;如果要将视频体验上传到Advertising DSP，请另外参阅DSP对高清视频Assets的[要求](https://experienceleague.adobe.com/zh-hans/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)，这可能更有限。
+请参阅以下视频创作要求。 **注意：**&#x200B;如果要将视频体验上传到Advertising DSP，请另外参阅DSP对高清视频Assets的[要求](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)，这可能更有限。
 
 **文件类型：** .mov、.mp4、.webm
 
