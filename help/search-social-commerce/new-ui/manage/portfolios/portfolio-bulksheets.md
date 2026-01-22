@@ -4,9 +4,9 @@ description: 了解如何使用批量处理工作表文件编辑多个项目组�
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: 04b6fbaf4a8b360bc3a60bdad4871694d50f1bf9
+source-git-commit: 8b63f697278b5dc4ecbb720af44053fbc771273f
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -41,15 +41,15 @@ ht-degree: 0%
 
 文件必须为XLSX格式。
 
-1. 在数据表上方的工具栏中，单击&#x200B;**[!UICONTROL Bulk Operations]** > **[!UICONTROL Import Portfolio Details]**。 &lt;！ — 应为“导入Portfolio设置” — “详细信息”可能过于模糊，并表明它可能包含其他内容。—>
+1. 在数据表上方的工具栏中，单击&#x200B;**[!UICONTROL Bulk Operations]** > **[!UICONTROL Import Portfolio Details]**。
 
-1. 在[!UICONTROL Import Portfolio Details File]对话框中：<!-- reword if we change the name of the operation -->
+1. 在[!UICONTROL Import Portfolio Details File]对话框中：
 
-   1. 将文件拖放到框中，或单击&#x200B;**[!UICONTROL Browse File]**<!-- "Browse for file" or just "Browse"??? -->从设备或网络中选择文件。
+   1. 将文件拖放到框中，或单击&#x200B;**[!UICONTROL Browse File]**&#x200B;从设备或网络中选择文件。
 
    1. 单击&#x200B;**[!UICONTROL Import]**。
 
-您可以通过日期范围选择器旁边的[!UICONTROL Global Sync Status]按钮（![全局同步状态](/help/search-social-commerce/assets/global-sync-status.png "全局同步状态")）检查上载状态。<!-- icon similar to Refresh -->。 如果有任何更改不成功，则可以下载一个错误文件，其中显示失败的内容。
+您可以通过日期范围选择器旁边的[!UICONTROL Global Sync Status]按钮（![全局同步状态](/help/search-social-commerce/assets/global-sync-status.png "全局同步状态")）检查上载状态。 如果有任何更改不成功，则可以下载一个错误文件，其中显示失败的内容。
 
 通知也会添加到通知中心，您可以从![按钮(](/help/search-social-commerce/assets/notifications-new.png ")旁边的")通知[!UICONTROL Global Sync Status]通知![全局同步状态](/help/search-social-commerce/assets/global-sync-status.png "全局同步状态")图标打开通知窗格。
 
