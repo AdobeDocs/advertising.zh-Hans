@@ -1,11 +1,11 @@
 ---
 title: 实施Search、Social和Commerce概述
-description: 学习
+description: 了解用于启动和维护项目组合的常规工作流。
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
    * 如果帐户中尚未包含促销活动数据，请在Search、Social和Commerce中或广告网络内添加促销活动、广告组、关键字、广告和投放位置。
 
-     有关设置搜索促销活动的详细信息，请参阅“Campaign Management”上的帮助一章。
+     有关设置搜索促销活动的详细信息，请参阅“促销活动管理”上的帮助一章。
 
 1. 为希望Adobe Advertising跟踪转化的所有广告设置跟踪：
 
@@ -108,4 +108,4 @@ ht-degree: 0%
 
    * 添加新项目组合。
 
-有关监控项目组合和调整项目组合策略的说明，请参阅Search、Social和Commerce中任何页面右上角的[!UICONTROL Help]菜单（![帮助菜单](/help/search-social-commerce/assets/help-main-menu.png "帮助菜单")）中提供的帮助子章节“优化”>“管理Portfolio”>“监控和管理性能”。
+有关监控项目组合和调整项目组合策略的说明，请参阅Search、Social和Commerce中任何页面右上角的[!UICONTROL Help]菜单（![帮助菜单](/help/search-social-commerce/assets/help-main-menu.png "帮助菜单")）中提供的帮助子章节“优化”>“管理项目组合”>“监控和管理性能”。

@@ -1,11 +1,11 @@
 ---
 title: 自定义体验的创意优化和计划
-description: 了解如何
+description: 了解如何针对目标体验配置优化和广告计划。
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 7bcafc7c70333bb6f523873ed08f2bc5123823f7
+source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1085'
 ht-degree: 0%
 
 ---

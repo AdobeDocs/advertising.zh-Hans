@@ -1,11 +1,11 @@
 ---
 title: 从[!UICONTROL Experiences]视图下载数据
-description: 了解如何
+description: 了解如何从[!UICONTROL Experiences]视图导出元数据。
 feature: Creative Experiences
 exl-id: 8362ac34-0de8-4bed-873d-dc20f39946bf
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 您可以将有关当前已过滤[!UICONTROL Experiences]视图中的体验的元数据导出到Microsoft Excel电子表格(XLSX)格式的文件。
 
-文件中的每一行都包含有关体验的详情，包括体验名称和ID；体验是否包含动态广告；创意内容、捆绑包和关联的广告标记数量；体验是否包含决策树；包含的创意大小；任何适用的标签；[!DNL Creative]为体验显示的缩略图图像；已分配捆绑包的名称；以及关联的广告标记的名称。
+文件中的每一行都包含有关体验的详情，包括：体验名称和ID；体验是否包含动态广告；创意内容、捆绑包和关联的广告标记数量；体验是否包含决策树；包含的创意大小；任何适用的标签；[!DNL Creative]为体验显示的缩略图图像；已分配捆绑包的名称；以及关联的广告标记的名称。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
 
