@@ -3,7 +3,7 @@ title: 包设置
 description: 请参阅有关可用包设置的说明。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 26c9c553dbd4086aa114b97dabdf4d9be10cdebe
+source-git-commit: 86d77d23fbec15b1f80f3f9c41e66aab34a46079
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 0%
@@ -55,10 +55,9 @@ ht-degree: 0%
 
 **[!UICONTROL Optimization Goal]：** （仅具有包级别步调的包）包的优化目标。 在[优化目标上查看每个优化目标的说明及使用方法](/help/dsp/optimization/optimization-goals.md)。
 
-
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]：** （包具有包级别的步调并仅具有“[!UICONTROL Always Max Bid & Maximize Reach]”和“[!UICONTROL Lowest Cost per Reach]”优化目标）使用营销活动中所有程序化保证位置的家庭访问范围数据来优化增量访问。
 
-**[!UICONTROL Custom Goal for Model Learning]：** （仅具有“[!UICONTROL Highest Return on Ad Spend]”和“[!UICONTROL Lowest Cost per Acquisition]”优化目标的包）包含用于计算CPA或ROAS量度的收入或转化事件的[自定义目标](/help/dsp/optimization/custom-goal.md)。 自定义目标必须包括用于包优化的CPA或ROAS量度之外的其他加权上漏斗事件（例如页面访问次数和购物车添加）。 有关自定义目标的更多信息，包括为自定义目标创建的最佳实践和使用这些目标的营销活动，请参阅&quot;[自定义目标](/help/dsp/optimization/custom-goal.md)&quot;和&quot;[设置效果营销活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
+**[!UICONTROL Custom Goal for Model Learning]：** （仅具有“[!UICONTROL Highest Return on Ad Spend]”和“[!UICONTROL Lowest Cost per Acquisition]”优化目标的包）包含用于计算CPA或ROAS量度的收入或转化事件的[自定义目标](/help/dsp/optimization/custom-goal.md)。 自定义目标必须包括用于包优化的CPA或ROAS量度之外的其他加权funnel上层事件（例如页面访问次数和购物车添加次数）。 有关自定义目标的更多信息，包括为自定义目标创建的最佳实践和使用这些目标的营销活动，请参阅&quot;[自定义目标](/help/dsp/optimization/custom-goal.md)&quot;和&quot;[设置效果营销活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]：** （可选；仅优化目标为“[!UICONTROL Highest Return on Ad Spend]”和“[!UICONTROL Lowest Cost per Acquisition]”的包）告知优化模型仅从基于点击的转化中学习。 否则，优化模型会学习基于点击和基于展示的转化。
 
@@ -84,7 +83,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 您可以在营销活动、包和投放级别设置频率上限。 DSP遵循营销活动层次结构中最严格的频率限制。
+>* 您可以在营销活动、包和投放级别设置频率上限。 DSP遵循营销活动层级中最严格的频率限制。
 >* 最佳做法是在软件包级别为发现客户和重新定位设置频率上限。
 > * 频率上限越高，支出和展示次数越多，但覆盖范围越窄。 频率上限越低，支出和展示次数就越少，但覆盖率却越高。
 
@@ -116,7 +115,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Flighting]
 
-（具有包级别步调的包）包的投放期，包括包的总体[!UICONTROL Flight Dates]中的任何自定义投放期。 只有在[!UICONTROL Goals & Budget]部分中启用了[!UICONTROL Activate Custom Flighting]选项时，才能配置自定义航班。
+（具有包级别步调的包）包的投放期，包括包的总体[!UICONTROL Flight Dates]中的任何自定义投放期。 只有在[!UICONTROL Activate Custom Flighting]部分中启用了[!UICONTROL Goals & Budget]选项时，才能配置自定义航班。
 
 **[!UICONTROL Automatically rollover remaining flight budget to next flight]：** （仅在启用[!UICONTROL Activate Custom Flighting]选项时可用）自动将上一个航班的任何剩余预算添加到下一个航班的现有预算。
 
@@ -133,4 +132,4 @@ ht-degree: 0%
 >* [编辑包](package-edit.md)
 >* [将投放位置附加到包](package-attach-placement.md)
 >* [查看包的更改日志](package-change-log.md)
->* 有关Campaign Management的[常见问题解答](/help/dsp/campaign-management/faq-campaign-management.md)
+>* 有关营销活动管理的[常见问题解答](/help/dsp/campaign-management/faq-campaign-management.md)
