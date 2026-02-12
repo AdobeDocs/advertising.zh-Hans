@@ -105,7 +105,7 @@ ht-degree: 3%
    + [关于营销活动管理的常见问题解答](/help/dsp/campaign-management/faq-campaign-management.md)
    + [关于通用视频的常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)
 + 优化 {#optimization}
-   + [ [!DNL DSP] 如何优化您的营销活动](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
+   + [&#x200B; [!DNL DSP] 如何优化您的营销活动](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [优化目标及其使用方式](/help/dsp/optimization/optimization-goals.md)
    + [投放位置级别预竞价过滤器及其使用方式](/help/dsp/optimization/optimization-pre-bid-filters.md)
    + [自定义目标](/help/dsp/optimization/custom-goal.md)
