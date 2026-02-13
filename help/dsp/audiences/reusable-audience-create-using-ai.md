@@ -4,7 +4,7 @@ description: 了解如何使用人工智能辅助的受众代理在Adobe Adverti
 feature: DSP Audiences
 hidefromtoc: true
 hide: true
-source-git-commit: 92fde92fa37f91ac2ac02c3386cbf7e811866899
+source-git-commit: c632774e68069ab03f41fb9453a27c6fe63c8168
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 0%
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 1. 构建受众：
 
-   &#x200B;<!-- When this becomes an open beta, it will be the default for everyone, and the steps will need to be updated accordingly. -->对于具有测试版权限的用户，默认设置为AI选项。 若要[自行组合受众](/help/dsp/audiences/reusable-audience-create.md)，请单击底部的“切换到手动模式”按钮。
+   对于具有测试版权限的用户，默认设置为AI选项。 若要[自行组合受众](/help/dsp/audiences/reusable-audience-create.md)，请单击底部的“切换到手动模式”按钮。
 
    1. 输入一个或多个提示以描述要包含和排除的受众特征。 若要提交每个提示，请单击![提交提示](/help/dsp/assets/submit-prompt.png "提交提示")。
 
