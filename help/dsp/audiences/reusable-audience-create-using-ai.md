@@ -4,9 +4,9 @@ description: 了解如何使用人工智能辅助的受众代理在Adobe Adverti
 feature: DSP Audiences
 hidefromtoc: true
 hide: true
-source-git-commit: c632774e68069ab03f41fb9453a27c6fe63c8168
+source-git-commit: 86053178969de362dda0c135ff8c85b9ec9f674e
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,8 @@ ht-degree: 0%
 ### 提示应包含哪些内容？
 
 * 使用清晰的描述性语言描述目标受众。
+
+  通常，提示不区分大小写，除提供清晰度外，不需要使用标点符号。
 
 * 做到具体，并提供要包含的所有受众特征以及要排除的任何特征的详细信息。 您提供的详细信息越多，您获得满足需求的结果的机会就越大。
 
