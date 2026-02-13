@@ -4,9 +4,10 @@ description: 了解如何使用人工智能辅助的受众代理在Adobe Adverti
 feature: DSP Audiences
 hidefromtoc: true
 hide: true
-source-git-commit: 86053178969de362dda0c135ff8c85b9ec9f674e
+exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
+source-git-commit: 4eefcca15d4f84152278e7680917b9daed15f45d
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -28,6 +29,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >此功能处于测试版模式，可能会发生更改。 在创建受众并将其用于投放位置之前，请确保生成的受众表达式表示所需受众。
+
+## 使用创作AI创建可重用受众
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**。
 
@@ -57,7 +60,7 @@ ht-degree: 0%
 
       您可以输入“继续”、“确定”、“确定”、“是”或其他类似词语。
 
-1. （如有必要）指定其他标准。 当AI代理呈现符合所有标准的受众表达式时，告诉AI代理继续组装受众。
+   1. （如有必要）指定其他标准。 当AI代理呈现符合所有标准的受众表达式时，告诉AI代理继续组装受众。
 
 1. 如果您对组合受众感到满意，请单击&#x200B;**[!UICONTROL Create]**&#x200B;以创建指定的受众。
 
@@ -65,7 +68,7 @@ ht-degree: 0%
    >
    >您以后无法使用AI代理编辑受众。 相反，[手动编辑受众表达式](/help/dsp/audiences/reusable-audience-edit.md)。
 
-## 正在写入提示 {#writing-prompts}
+## 编写提示的基础知识 {#writing-prompts}
 
 ### 提示应包含哪些内容？
 
@@ -119,12 +122,10 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
 #### AI代理响应要求您从多个选项中进行选择
 
-```
-Would you like to:
-1) Proceed with this expression,
-2) Get maximum reach alternatives, or
-3) Modify the expression manually?
-```
+`Would you like to:`
+`1) Proceed with this expression,`
+`2) Get maximum reach alternatives, or`
+`3) Modify the expression manually?`
 
 您的回复： `1`、`proceed`、`2`、`maximum reach`等。
 
@@ -136,9 +137,7 @@ Would you like to:
 
 ### 有效受众简报的重要组成部分
 
-#### 受众属性
-
-在简介中包含以下列表中尽可能多的属性类型。 特定于要排除的属性。
+在您的简介中尽可能加入以下列表中的受众属性类型。 特定于要排除的属性。
 
 <!-- What about these:
 
