@@ -5,9 +5,9 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 4eefcca15d4f84152278e7680917b9daed15f45d
+source-git-commit: 63402a5148f5e4dc310b9d2229a9dddd5fe2f113
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -52,21 +52,23 @@ ht-degree: 0%
 
       有关详细信息，请参阅[编写提示](#writing-prompts)和[创建受众简介的最佳实践](#audience-brief-best-practices)。
 
-      当AI代理查找相关区段时，它根据您的条件创建受众表达式。 在查找匹配区段以组合受众之前，它还会要求您审批。
+      当受众代理找到相关的区段时，它会根据您的条件创建受众表达式。 在查找匹配区段以组合受众之前，它还会要求您审批。
 
       您可以选择忽略请求并继续指定其他受众条件。
 
-   1. 当AI代理呈现足以描述您的受众的受众表达式时，请告知AI代理继续组装受众。
+   1. 当受众代理呈现足以描述您的受众的受众表达式时，请告知受众代理继续组合受众。
 
       您可以输入“继续”、“确定”、“确定”、“是”或其他类似词语。
 
-   1. （如有必要）指定其他标准。 当AI代理呈现符合所有标准的受众表达式时，告诉AI代理继续组装受众。
+   1. （如有必要）指定其他标准。 当受众代理呈现符合所有标准的受众表达式时，请告知受众代理继续组合受众。
+
+      要集合受众，请输入“继续”、“确定”、“是”或其他类似词语。
 
 1. 如果您对组合受众感到满意，请单击&#x200B;**[!UICONTROL Create]**&#x200B;以创建指定的受众。
 
    >[!NOTE]
    >
-   >您以后无法使用AI代理编辑受众。 相反，[手动编辑受众表达式](/help/dsp/audiences/reusable-audience-edit.md)。
+   >您之后无法使用受众代理编辑受众。 相反，[手动编辑受众表达式](/help/dsp/audiences/reusable-audience-edit.md)。
 
 ## 编写提示的基础知识 {#writing-prompts}
 
@@ -74,7 +76,11 @@ ht-degree: 0%
 
 * 使用清晰的描述性语言描述目标受众。
 
-  通常，提示不区分大小写，除提供清晰度外，不需要使用标点符号。
+   * 您可以输入完整的句子，也可以只输入一串特征。 除非为清楚起见，否则不需要标点。
+
+   * 通常，提示不区分大小写。
+
+   * 受众代理可识别最常见的同义词。
 
 * 做到具体，并提供要包含的所有受众特征以及要排除的任何特征的详细信息。 您提供的详细信息越多，您获得满足需求的结果的机会就越大。
 
@@ -83,6 +89,8 @@ ht-degree: 0%
 * 在保存受众之前，反复提供详细信息以优化您的标准和生成的受众表达式。
 
 * 了解如何通过试验进行提示。
+
+  如果您的提示不清晰，则受众代理将仅请求另一个提示，以便您可以重试。
 
   受众代理不会自动将生成的受众表达式另存为受众。 您只能通过单击提示区域之外的[!UICONTROL Create]按钮来保存受众，因此您可以撤消不想保留的任何更改。
 
@@ -108,11 +116,11 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
 * 英语以外的其他语言的文本。
 
-### AI代理响应示例和回复方式
+### 受众代理响应示例以及如何回复
 
-当AI代理需要您响应时，您可以使用请求中的关键字或使用等效的常用术语进行回复。
+当受众代理需要您做出响应时，您可以使用请求中的关键字或使用通用同义词进行回复。
 
-#### AI代理响应询问您问题
+#### Audience Agent询问您问题
 
 `If you are okay with the proposed expression, I can start searching third party segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
 
@@ -120,7 +128,7 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
 您还可以忽略请求并继续指定其他受众条件。
 
-#### AI代理响应要求您从多个选项中进行选择
+#### 受众代理，要求您从多个选项中进行选择
 
 `Would you like to:`
 `1) Proceed with this expression,`
