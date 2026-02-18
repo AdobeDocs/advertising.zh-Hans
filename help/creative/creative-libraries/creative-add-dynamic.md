@@ -2,9 +2,10 @@
 title: 将动态创意添加到创意库
 description: 了解如何将动态创意添加到创意库。
 feature: Creative Dynamic Creatives
-source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
+exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
+source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -59,9 +60,11 @@ ht-degree: 0%
 
 1. 指定[动态广告设置](/help/creative/creative-libraries/creative-settings-dynamic.md)：
 
-   1. 指定基本广告详细信息。
+   1. 指定基本广告详细信息，包括创意类型。
 
    1. 选择要用于创意人员的广告模板。
+
+      将HTML5广告模板用于显示广告，将视频广告模板用于视频广告。
 
    1. 选择要从中生成广告的目录。
 

@@ -3,9 +3,9 @@ title: 关于您的创意库
 description: 了解如何管理广告体验的创意。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: a1ca7815334b35de8f9ab5781e53e6b6aa5f4770
+source-git-commit: 0a3da41d51ffc0b9df1e264485bfbb966780eb84
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1587'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    * **动态创意：**&#x200B;您可以通过将广告模板中的动态变量映射到馈送文件中的值来创建动态生成的创意。 所有用户都可以预览、复制和删除现有的动态广告。
 
-* **创意捆绑：**&#x200B;将创意分组到捆绑中，以在具有已定义用户目标的多个体验中使用。 您可以创建包含标准显示广告的&#x200B;*标准显示包*、包含标准视频广告的&#x200B;*标准视频包*&#x200B;以及包含动态生成的显示广告的&#x200B;*动态显示包*。
+* **创意捆绑：**&#x200B;将创意分组到捆绑中，以在具有已定义用户目标的多个体验中使用。 您可以创建由标准显示广告组成的&#x200B;*标准显示包*、由标准视频广告组成的&#x200B;*标准视频包*、由动态生成的显示广告组成的&#x200B;*动态显示包*&#x200B;以及由动态生成的视频广告组成的&#x200B;*动态视频包*。
 
 ## 支持的Creative格式 {#creative-creative-formats}
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ##### HTML5创意人员
 
-* **GenStudio体验：**&#x200B;您可以在[GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)中从[显示广告体验](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/home)导入所有广告变体作为单个HTML5创意。 外部链接将转换为本地引用。 HTML内容最长可达20 MB，单个图像最长可达50 MB。
+* **GenStudio体验：**&#x200B;您可以在[GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)中从[显示广告体验](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)导入所有广告变体作为单个HTML5创意。 外部链接将转换为本地引用。 HTML内容最长可达20 MB，单个图像最长可达50 MB。
 
   导入GenStudio体验后，您可以编辑已导入创意内容的元数据（名称、语言、标记），但不能编辑创意内容。 如果您在GenStudio中编辑GenStudio体验，请在[!DNL Creative]中重新导入该体验以使用最新版本。
 
@@ -77,9 +77,9 @@ ht-degree: 0%
 
 #### 视频创意 {#creative-video-specs}
 
-您可以从设备或网络中为Web、移动或连接的电视上传第一方视频创意。 每个标准视频广告体验都需要为分配给体验的每个创意持续时间提供一个默认视频创意。 DSP会自动将所有视频创意转换为VAST 2.0标记，以便您预览。 在[!UICONTROL Tag Manager]中，您可以选择将[特定于DSP的转码](/help/creative/experiences/experience-tag-video-transcoding.md)应用于任何视频广告体验标记。
+您可以从设备或网络中为Web、移动或连接的电视上传第一方视频创意。 每个视频广告体验都需要为分配给体验的每个创意持续时间提供一个默认视频创意。 DSP会自动将所有视频创意转换为VAST 2.0标记，以便您预览。 在[!UICONTROL Tag Manager]中，您可以选择将[特定于DSP的转码](/help/creative/experiences/experience-tag-video-transcoding.md)应用于任何视频广告体验标记。
 
-请参阅以下视频创作要求。 **注意：**&#x200B;如果要将视频体验上传到Advertising DSP，请另外参阅DSP对高清视频Assets的[要求](https://experienceleague.adobe.com/zh-hans/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)，这可能更有限。
+请参阅以下视频创作要求。 **注意：**&#x200B;如果要将视频体验上传到Advertising DSP，请另外参阅DSP对高清视频Assets的[要求](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)，这可能更有限。
 
 **文件类型：** .mov、.mp4、.webm
 
@@ -109,7 +109,17 @@ ht-degree: 0%
 
 ### 动态广告的格式
 
-您可以将广告模板中的动态变量映射到信息源文件中的值，从而动态生成静态HTML5和动态HTML5格式的创意。 动态创意人员可能包括从旧版Adobe Advertising Dynamic Creative Optimization (DCO)体验迁移而来的创意人员。
+您可以将广告模板中的动态变量映射到馈送文件中的值，从而动态生成显示或视频创意。 动态创意人员可能包括从旧版Adobe Advertising Dynamic Creative Optimization (DCO)体验迁移而来的创意人员。
+
+#### 动态显示创意
+
+动态显示创意内容采用HTML5格式，其图像采用GIF、JPG、JPEG或PNG格式。
+
+#### 动态视频创意
+
+动态视频创意包括与标准视频创意具有相同规范的视频文件。 查看[视频创意](#creative-video-specs)。
+
+支持的广告格式包括开始卡、结束卡、顶部叠加、底部叠加或L形。
 
 ## [!UICONTROL Creative Libraries]次查看
 

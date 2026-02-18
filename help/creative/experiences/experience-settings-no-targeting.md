@@ -3,7 +3,7 @@ title: 非定向体验的设置
 description: 请参阅无决策树定位的广告体验的所有设置描述。
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: ace6005869ea4102878091c4799259961aeecb63
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Experience basics]节
 
-**[!UICONTROL Ad Type]：** （现有体验为只读）体验中包含的广告类型： *[!UICONTROL Standard Display]*、*[!UICONTROL Dynamic Display]*&#x200B;或&#x200B;*[!UICONTROL Video]*。 保存体验后，便无法更改广告类型。
+**[!UICONTROL Ad Type]：** （现有体验为只读）体验中包含的广告类型： *[!UICONTROL Standard Display]*、*[!UICONTROL Dynamic Display]*、*[!UICONTROL Standard Video]*&#x200B;或&#x200B;*[!UICONTROL Display Video]*。 保存体验后，便无法更改广告类型。
 
 **[!UICONTROL Advertiser]：** （现有体验为只读）将针对体验中包含的创意进行竞价的广告商。 保存体验后，便无法更改广告商。
 

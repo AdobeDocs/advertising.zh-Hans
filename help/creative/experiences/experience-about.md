@@ -3,16 +3,16 @@ title: 关于Advertising Creative中的体验
 description: 了解如何配置个性化的广告体验并根据性能优化广告元素。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+source-git-commit: ace6005869ea4102878091c4799259961aeecb63
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
 
 # 关于Advertising Creative 2.0中的体验
 
-每个广告体验可以包含一个广告类型（标准显示、标准视频或动态显示）。 [!DNL Advertising Creative 2.0]在单个创意库中为广告提供两种不同的广告体验结构。
+每个广告体验可以包含一个广告类型（标准显示、标准视频、动态显示或动态视频）。 [!DNL Advertising Creative 2.0]在单个创意库中为广告提供两种不同的广告体验结构。
 
 * **具有决策树定位的体验：** [!DNL Creative]允许您使用决策树模型在整个客户历程中配置个性化的广告体验。 您可以根据目标受众自定义所有广告元素 — 图像、标题、选件和登陆页面。
 

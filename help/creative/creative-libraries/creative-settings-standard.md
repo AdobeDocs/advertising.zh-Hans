@@ -3,9 +3,9 @@ title: 标准创意设置
 description: 引用标准创意内容的设置。
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: ce716c8dca8410a121858944f0c044423d9dff78
+source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
 workflow-type: tm+mt
-source-wordcount: '2105'
+source-wordcount: '2106'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 **语言：**&#x200B;与创意内容关联的每个广告的默认语言。 上传或编辑多个创意时，相同的值将应用于每个选定的创意。
 
-**Creative大小：**（现有创意为只读）创意的尺寸。 如果创意内容中包含的任何图像大于指定的大小，则会相应地调整其大小。
+**Creative大小：**（现有创意为只读）创意的尺寸。 如果创意内容中包含的任何图像大于指定大小，则会相应地调整其大小。
 
 **[!UICONTROL Click Tags]：**&#x200B;允许从包含的横幅广告进行点击跟踪重定向的变量。 变量名称和相应的登陆页面URL会从上传的创意单元中填充，但您可以更改默认URL。 对于多个创意，您可以编辑单个点击标记。
 

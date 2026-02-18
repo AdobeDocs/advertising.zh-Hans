@@ -2,18 +2,25 @@
 title: 管理信息源目录
 description: 了解如何管理信息源目录。
 feature: Creative Dynamic Creatives
-source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
+exl-id: d3ee20ba-5359-4dbe-bc76-269dc800843c
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
 
 # 管理信息源目录
 
-已处理馈送目录是从指定馈送文件和指定馈送模板创建的一组潜在广告变体。 动态HTML5广告(而非静态HTML5广告)需要目录才能创建动态广告。
+已处理馈送目录是从指定馈送文件和指定馈送模板创建的一组潜在广告变体。 动态HTML5和视频广告(而非静态HTML5广告)需要目录才能创建动态广告。
 
 在创建广告变体并[将动态广告添加到创意库](/help/creative/creative-libraries/creative-add-dynamic.md)之前，请处理目录。 您可以稍后更新信息源文件并重新处理目录以创建新的广告变体集。<!-- I should list somewhere what happens when you add, update, or remove: I don't think we rewrite existing ads in the creative library, but only add to them. -->
+
+每个馈送文件最多可以处理500行视频资产。
+
+>[!TIP]
+>
+>对于包含动态视频的所有帐户，最佳实践是[下载主信息源模板[!UICONTROL Adobe Creative Template]](feed-template-manage.md)，将资源文件中的每个字段映射到Advertising Creative后端上的字段，然后重命名并上传信息源模板。 使用新的信息源模板以及资产文件创建目录。
 
 ## 创建目录 {#feed-catalog-create}
 

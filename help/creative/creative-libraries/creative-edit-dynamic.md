@@ -2,9 +2,10 @@
 title: 在创意库中编辑动态创意内容
 description: 了解如何在创意库中编辑动态创意内容。
 feature: Creative Dynamic Creatives
-source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
+exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -31,7 +32,7 @@ ht-degree: 0%
 
    * 更改内容：
 
-      * 要编辑表中单元格的值，请单击单元格内部并编辑该值。 单击单元格外部或按&#x200B;**[!DNL Enter]**&#x200B;键保存更改。
+      * （仅显示广告）要编辑表中单元格的值，请单击单元格内部并编辑该值。 单击单元格外部或按&#x200B;**[!DNL Enter]**&#x200B;键保存更改。
 
       * 要将单个产品标记为默认<!--Explain what this means. -->，请将光标悬停在该行上并单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Set as Default]**。
 

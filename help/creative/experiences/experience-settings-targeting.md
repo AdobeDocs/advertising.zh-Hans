@@ -3,7 +3,7 @@ title: 目标体验设置
 description: 请参阅针对性广告体验的所有设置的描述。
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 867abdaea31c78214061c4a0fd8401877edfbe38
+source-git-commit: ace6005869ea4102878091c4799259961aeecb63
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Experience basics]节
 
-**[!UICONTROL Ad Type]：** （现有体验为只读）体验中包含的广告类型： *[!UICONTROL Standard Display]*、*[!UICONTROL Dynamic Display]*&#x200B;或&#x200B;*[!UICONTROL Video]*。 保存体验后，便无法更改广告类型。
+**[!UICONTROL Ad Type]：** （现有体验为只读）体验中包含的广告类型： *[!UICONTROL Standard Display]*、*[!UICONTROL Dynamic Display]*、*[!UICONTROL Dynamic Display]*、*[!UICONTROL Standard Video]*&#x200B;或&#x200B;*[!UICONTROL Display Video]*。 保存体验后，便无法更改广告类型。
 
 **[!UICONTROL Advertiser]：** （现有体验为只读）将对体验中包含的创意和目标组合进行竞价的广告商。 保存体验后，便无法更改广告商。
 

@@ -2,9 +2,10 @@
 title: 动态创意设置
 description: 引用动态创意的设置。
 feature: Creative Dynamic Creatives
-source-git-commit: e7642f11503ebb972d23fe6d28020b3b198657b0
+exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -13,61 +14,49 @@ ht-degree: 0%
 
 <!-- add a description -->
 
-<!-- This looks the same for me for either HTML5 type as of 9/24:
-
-## Dynamic ad settings for static HTML5 ads {#dynamic-ad-settings-static-html5}
-
-### Basic Details
-
-**[!UICONTROL Advertiser]:** The advertiser for which to create the ads.
-
-**[!UICONTROL Library]:** The creative library in which to create the ads.
-
-**[!UICONTROL Dynamic Ad Name]:** A unique name for the creative.
-
-**[!UICONTROL Ad Template Size]:** The ad dimensions for the ad template from which to create the ad. If you first select a specific [!UICONTROL Ad Template], then this value is automatically selected.
-
-**[!UICONTROL Ad Template Type]:** The type of ad template from which to create the ad: *[!UICONTROL Static HTML5]* or *[!UICONTROL Dynamic HTML5]*.  If you first select a specific [!UICONTROL Ad Template], then this value is automatically selected.
-
-**[!UICONTROL Ad Template]:** The ad template from which to create the ad.
-
-**[!UICONTROL clickURL]:** A valid landing page URL to which users are redirected when they click the ad.
-
-### [!UICONTROL Attributes Details]
-
--->
-
 ## 动态广告设置<!-- for dynamic HTML5 ads {#dynamic-ad-settings-dynamic-html5}-->
 
 <!-- add a description -->
 
 ### 基本详细信息
 
-**[!UICONTROL Dynamic Ad Name]：**&#x200B;创意的唯一名称。
+**[!UICONTROL Creative Type]：**&#x200B;创意内容是&#x200B;*[!UICONTROL Display]*&#x200B;广告(HTML5)还是&#x200B;*[!UICONTROL Video]*&#x200B;广告。
 
-**[!UICONTROL Advertiser]：**&#x200B;要为其创建广告的广告商。
+**[!UICONTROL Dynamic Display Ad Name]**&#x200B;或&#x200B;**[!UICONTROL Dynamic Video Ad Name]：**&#x200B;创意的唯一名称。
+
+**[!UICONTROL Advertiser]：**&#x200B;要为其创建广告的广告商。 如果您是从[!UICONTROL Creatives] > [!UICONTROL Creative Libraries]内创建广告，则已选择该广告商且为只读。
 
 **[!UICONTROL Library]：**&#x200B;要在其中创建广告的创意库。 如果您是从[!UICONTROL Creatives] > [!UICONTROL Creative Libraries]中创建广告，则库名称已被选择且为只读。
 
-**[!UICONTROL Ad Template Size]：**&#x200B;从中创建广告的广告模板的[广告维度](/help/creative/creative-libraries/creative-sizes.md)。 如果您首先选择特定的[!UICONTROL Ad Template]，则会自动选择此值。
+**[!UICONTROL Ad Template Size]：** （仅限动态显示广告）从中创建广告的广告模板的[广告维度](/help/creative/creative-libraries/creative-sizes.md)。 如果您首先选择特定的[!UICONTROL Ad Template]，则会自动选择此值。
 
 ## 广告模板
 
-**[!UICONTROL Ad Template]：**&#x200B;从中创建广告的广告模板。 选择现有的广告模板，或上传新的广告模板并选择模板类型（*静态*&#x200B;或&#x200B;*动态*）。 上载的模板必须采用ZIP格式，并包含HTML5文件和模板定义文件(template.TDF)。<!-- Need to add more specs for that -->
+**[!UICONTROL Ad Template]：**&#x200B;从中创建广告的广告模板。 选择现有的广告模板，或上传新的广告模板并选择模板类型（*静态*&#x200B;或&#x200B;*动态*）。 模板必须为ZIP格式并包含：<!-- Need to add more specs for templates -->
 
-**[!UICONTROL Number of offers (Max 50)]：**&#x200B;轮播中要显示的产品数。
+* 显示创意：具有所需广告格式的HTML5文件，以及具有广告属性(.tdf)的文件(仅限动态HTML5广告)
+
+* 视频创意：具有所需广告格式的.scene文件。 ZIP文件最大可以为512 MB。
+
+要继续，请单击&#x200B;**[!UICONTROL Select Ad Template]**。
+
+**[!UICONTROL Card Count (Max 50)]：** （仅限显示广告）轮播中显示的产品数。
+
+**[!UICONTROL Duration]：** （仅限视频广告；只读）从所选广告模板派生的视频持续时间。 每个视频的持续时间必须介于1至90秒之间。
 
 ## 目录
 
 **[!UICONTROL Template]：**&#x200B;用于创建广告的信息源模板。
 
-**\[目录\]**：要从中生成广告的一个或多个目录。 选择现有目录，或通过下载现有信息源模板并创建和上传新目录来创建新目录。
+**\[目录\]**：要从中生成广告的一个或多个目录。 选择现有目录，或通过下载现有信息源模板并创建和上传新目录来创建新目录。 单击&#x200B;**[!UICONTROL Select Catalog]**。
 
 上传的目录必须采用ZIP格式并包含以下内容：
 
-* CSV、TSV或Microsoft Excel电子表格(XLSX)格式的一个或多个馈送文件。 最大文件大小为512 MB。<!-- Need to add more specs for the feed files -->
+* （动态显示和视频广告）CSV、TSV或Microsoft Excel电子表格(XLSX)格式的一个或多个馈送文件。 最大文件大小为512 MB。<!-- Need to add more specs for the feed files -->
 
-* GIF、JPEG、JPG或PNG格式的图像资源
+* （显示广告）GIF、JPEG、JPG或PNG格式的图像资源
+
+* （视频广告）MP4、MOV或WEBM格式的视频资产。 支持的广告模板包括开始卡、结束卡、顶部叠加、底部叠加或L形。 每个视频的持续时间必须介于1至90秒之间。
 
 ### [!UICONTROL Attributes Mapping]
 

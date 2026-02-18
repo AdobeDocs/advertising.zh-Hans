@@ -3,9 +3,9 @@ title: 将创意内容附加到创意捆绑包
 description: 了解如何将创意内容附加到创意捆绑包。
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 0bcbd20437457ddafbd23969fbc48093e050ca2f
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available.  -->
 
-您可以将标准显示创意附加到标准显示包，将标准视频创意附加到标准视频包，将动态显示创意附加到动态显示包，以便将其添加到[广告体验](/help/creative/experiences/experience-about.md)。 每个包只能包含每个\[创意大小或持续时间+语言\]组合中的一个。
+您可以将标准显示创意附加到标准显示包，将标准视频创意附加到标准视频包，将动态显示创意附加到动态显示包，并将动态视频创意附加到动态视频包，以便您可以将它们添加到[广告体验](/help/creative/experiences/experience-about.md)。 每个包只能包含每个\[创意大小或持续时间+语言\]组合中的一个。
 
 <!--
 You can also detach a creative from a bundle to remove the association between the two, so that the creative is no longer used for experiences that target the bundle. Detaching a creative from the bundle doesn't delete the creative from the Creatives tab in your creative library.

@@ -2,17 +2,21 @@
 title: 管理资源文件
 description: 了解如何上传和管理广告商的资源文件。
 feature: Creative Dynamic Creatives
-source-git-commit: af29637d42b9932933cd23a64d6a0e2b7084fa31
+exl-id: 2fe2d778-8456-490a-bf44-234dbc08649f
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
 
 # 管理资源文件
 
-动态HTML5广告需要采用Microsoft Excel电子表格(XLSX)格式的信息源文件以及在电子表格中引用的图像资源。 静态HTML5广告只需每个广告使用一个图像资源。
+* 动态HTML5广告需要采用Microsoft Excel电子表格(XLSX)格式的信息源文件，以及在电子表格中引用的实际图像资源。
 
+* 静态HTML5广告只需每个广告使用一个图像资源。
+
+* 视频广告需要采用Microsoft Excel电子表格(XLSX)格式的信息源文件，以及在电子表格中引用的实际视频资源。
 
 >[!NOTE]
 >
@@ -35,6 +39,18 @@ ht-degree: 0%
    * GIF、JPG、JPEG或PNG格式中每个广告一个图像资源。
 
      您可以在ZIP文件中上传单个图像或多个图像。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+
+* 动态视频广告：
+
+   * CSV、TSV或Microsoft Excel电子表格(XLSX)格式的信息源文件，每个广告变体具有一个标题行和一个数据行。 在每一行中使用格式`videos/image_name`（如`videos/300x250_acme_logo.png`）包含一个视频名称。 ZIP文件最大为512 MB，最大为500行。
+
+     广告商特定的字段名称必须映射到动态广告馈送文件的[可用字段](/help/creative/appendix-available-feed-fields.md)。
+
+     对于包含动态视频的所有帐户，最佳实践是[使用资源文件以及](catalog-manage.md)主信息源模板[的副本创建目录[!UICONTROL Adobe Creative Template]](feed-template-manage.md)，您可以在其中将资源文件中的每个字段映射到Advertising Creative后端上的字段。
+
+   * 以MP4、MOV或WEBM格式表示的关联视频资产。 支持的广告模板包括开始卡、结束卡、顶部叠加、底部叠加或L形。 每个视频的持续时间必须介于1至90秒之间。 查看[支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)。
+
+  您可以上传单个XLSX文件、单个图像文件或包含XLSX和视频文件任意组合的单个ZIP文件。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 ## 上传资源文件
 
