@@ -3,7 +3,7 @@ title: 可用报表列
 description: 请参阅自定义报表中可用列的说明。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: ab5d16d5132be59d2e902533155502c830c04bea
+source-git-commit: 9eb020f9cb243dc4cf38adbc5af7f723439797d2
 workflow-type: tm+mt
 source-wordcount: '2467'
 ht-degree: 0%
@@ -49,7 +49,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser Vendor] | 显示广告的浏览器的供应商(例如Google或Mozilla)。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser Version] | 显示广告的浏览器版本（如[!UICONTROL Safari 4.3]或[!UICONTROL Chrome 7.0]）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser] | 显示广告的浏览器（如[!UICONTROL Chrome]或[!UICONTROL Firefox]）。 |
-| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Environment] | 广告显示于&#x200B;*[!UICONTROL sites]*&#x200B;还是&#x200B;*[!UICONTROL Apps]*。 |
+| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device Environment] | 投放目标所在的设备环境： （*[!UICONTROL Desktop]*、*[!UICONTROL Mobile]*&#x200B;和/或&#x200B;*[!UICONTROL Connected TV]）*。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Hardware] | 显示广告的设备类型（如[!UICONTROL Set Top Box]或[!UICONTROL Mobile Phone]）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Manufacturer] | 显示广告的设备的制造商（如[!UICONTROL Samsung]、[!UICONTROL Lenovo]或[!UICONTROL Apple]）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Model] | 显示广告的设备的型号（如[!UICONTROL iPhone XS]或[!UICONTROL Galaxy Note 7]）。 |
@@ -102,7 +102,6 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Name] | 用户指定的版面的名称。 |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Budget] | 职位安排预算。 |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Max Bid] | 投放位置的最高出价。 |
-| [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Device Environment] | 投放目标所在的设备环境： （*[!UICONTROL Desktop]*、*[!UICONTROL Mobile]*&#x200B;和/或&#x200B;*[!UICONTROL Connected TV]）*。 |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement End Date] | 投放结束日期。 |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Start Date] | 投放开始日期。 |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Tags] | 用作投放位置的自定义标识符的投放位置标记。 |
@@ -115,6 +114,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Provider Name] | 与区段关联的数据提供程序的名称。 |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site ID] | DSP中网站或应用程序的唯一标识符。 |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site Name] | 站点的名称。 |
+| [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Traffic Type] | 广告显示于&#x200B;*[!UICONTROL sites]*&#x200B;还是&#x200B;*[!UICONTROL Apps]*。 |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Duration] | 上传后处理的视频长度。 |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video ID] | DSP中视频创意的唯一标识符。 |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Name] | 用户分配的创意内容的名称。 |
