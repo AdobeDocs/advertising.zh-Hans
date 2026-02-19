@@ -3,9 +3,9 @@ title: 将动态创意添加到创意库
 description: 了解如何将动态创意添加到创意库。
 feature: Creative Dynamic Creatives
 exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
-source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
+source-git-commit: 2a89d5f3997345c051728d41af865dc0e75541f5
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 0%
 
       * 更改内容：
 
-         * 要编辑表中单元格的值，请单击单元格内部并编辑该值。 单击单元格外部或按&#x200B;**[!DNL Enter]**&#x200B;键保存更改。
+         * （仅显示广告）要编辑表中单元格的值，请单击单元格内部并编辑该值。 单击单元格外部或按&#x200B;**[!DNL Enter]**&#x200B;键保存更改。
 
          * 要将单个产品标记为默认<!--Explain what this means. -->，请将光标悬停在该行上并单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Set as Default]**。
 
