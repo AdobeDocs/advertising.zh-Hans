@@ -3,7 +3,7 @@ title: 管理资源文件
 description: 了解如何上传和管理广告商的资源文件。
 feature: Creative Dynamic Creatives
 exl-id: 2fe2d778-8456-490a-bf44-234dbc08649f
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
      广告商特定的字段名称必须映射到动态广告馈送文件的[可用字段](/help/creative/appendix-available-feed-fields.md)。
 
-     对于包含动态视频的所有帐户，最佳实践是[使用资源文件以及](catalog-manage.md)主信息源模板[的副本创建目录[!UICONTROL Adobe Creative Template]](feed-template-manage.md)，您可以在其中将资源文件中的每个字段映射到Advertising Creative后端上的字段。
+     对于包含动态视频的所有帐户，最佳实践是[使用资源文件以及](catalog-manage.md)通用信息源模板[的副本[!UICONTROL Adobe Creative Template]](feed-template-manage.md)创建目录，您可以在其中将资源文件中的每个字段映射到Advertising Creative后端上的字段。
 
    * 以MP4、MOV或WEBM格式表示的关联视频资产。 支持的广告模板包括开始卡、结束卡、顶部叠加、底部叠加或L形。 每个视频的持续时间必须介于1至90秒之间。 查看[支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)。
 

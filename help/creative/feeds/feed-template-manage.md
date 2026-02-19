@@ -3,9 +3,9 @@ title: 管理信息源模板
 description: 了解如何管理信息源模板。
 feature: Creative Dynamic Creatives
 exl-id: 63f8af87-639c-45c8-b17f-99ce19594d35
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 <!-- We have a finite set of supported fields on the backend. I need to include that info in an appendix. -->
 
-馈送模板将馈送文件/目录中的字段映射到Advertising Creative后端上的字段。 动态HTML5和视频广告(而非静态HTML5广告)需要信息源模板来创建动态广告。 您可以选择下载并填充主馈送模板（[!UICONTROL Retail]和[!UICONTROL Adobe Creative Template]）。
+馈送模板将馈送文件/目录中的字段映射到Advertising Creative后端上的字段。 动态HTML5和视频广告(而非静态HTML5广告)需要信息源模板来创建动态广告。 您可以选择下载和填充通用信息源模板（[!UICONTROL Retail]适用于零售营销活动，[!UICONTROL Adobe Creative Template]适用于任何营销活动类型）。
 
 您可以对多个广告模板使用一个信息源模板。
 
 >[!TIP]
 >
->对于包含动态视频的所有帐户，最佳实践是[下载主信息源模板[!UICONTROL Adobe Creative Template]](feed-template-manage.md)，将资源文件中的每个字段映射到Advertising Creative后端上的字段，然后重命名并上传信息源模板。 使用新的信息源模板以及资产文件来[创建目录](catalog-manage.md)。
+>对于包含动态视频的所有帐户，最佳实践是[下载通用信息源模板[!UICONTROL Adobe Creative Template]](feed-template-manage.md)，将资源文件中的每个字段映射到Advertising Creative后端上的字段，然后重命名并上传信息源模板。 使用新的信息源模板以及资产文件来[创建目录](catalog-manage.md)。
 
 ## 创建信息源模板
 

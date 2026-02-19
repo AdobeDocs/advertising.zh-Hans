@@ -3,7 +3,7 @@ title: 管理信息源目录
 description: 了解如何管理信息源目录。
 feature: Creative Dynamic Creatives
 exl-id: d3ee20ba-5359-4dbe-bc76-269dc800843c
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->对于包含动态视频的所有帐户，最佳实践是[下载主信息源模板[!UICONTROL Adobe Creative Template]](feed-template-manage.md)，将资源文件中的每个字段映射到Advertising Creative后端上的字段，然后重命名并上传信息源模板。 使用新的信息源模板以及资产文件创建目录。
+>对于包含动态视频的所有帐户，最佳实践是[下载通用信息源模板[!UICONTROL Adobe Creative Template]](feed-template-manage.md)，将资源文件中的每个字段映射到Advertising Creative后端上的字段，然后重命名并上传信息源模板。 使用新的信息源模板以及资产文件创建目录。
 
 ## 创建目录 {#feed-catalog-create}
 

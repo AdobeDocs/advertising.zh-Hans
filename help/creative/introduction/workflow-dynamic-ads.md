@@ -3,9 +3,9 @@ title: 动态广告的工作流
 description: 了解用于管理动态广告的工作流。
 feature: Creative Dynamic Creatives
 exl-id: eb1cdfbc-9514-4530-a50a-3ae6f6247662
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -61,13 +61,13 @@ ht-degree: 0%
 
       1. [上载信息源文件和资产](/help/creative/feeds/asset-manage.md)。
 
-      1. [创建信息源模板](/help/creative/feeds/feed-template-manage.md)以将信息源文件（电子表格）中的字段映射到Advertising Creative后端中的字段。 您可以选择下载主馈送模板并填充与零售业<!-- and what is the creative template?-->相关的字段。
+      1. [创建信息源模板](/help/creative/feeds/feed-template-manage.md)以将信息源文件（电子表格）中的字段映射到Advertising Creative后端中的字段。 您可以选择下载并填充通用信息源模板，其中包含与任何促销活动类型相关的字段。
 
       1. [从指定的信息源文件和指定的信息源模板创建目录](/help/creative/feeds/catalog-manage.md#feed-catalog-create)，然后[处理该目录](/help/creative/feeds/catalog-manage.md#feed-catalog-process)以查看可从它创建的广告变体。
 
          每个信息源文件只能用于一个目录。
 
-         您可以在[&#x200B; > &#x200B;](/help/creative/feeds/job-status-track.md) > [!UICONTROL Creative]选项卡上[!UICONTROL Feeds]跟踪目录处理作业[!UICONTROL Job Status]的状态。
+         您可以在[ > ](/help/creative/feeds/job-status-track.md) > [!UICONTROL Creative]选项卡上[!UICONTROL Feeds]跟踪目录处理作业[!UICONTROL Job Status]的状态。
 
 1. [为创意库创建动态创意内容](/help/creative/creative-libraries/creative-add-dynamic.md)。 对于动态HTML5广告，请使用指定的广告模板和指定的目录。
 
