@@ -67,7 +67,7 @@ ht-degree: 0%
 
          每个信息源文件只能用于一个目录。
 
-         您可以在[ > ](/help/creative/feeds/job-status-track.md) > [!UICONTROL Creative]选项卡上[!UICONTROL Feeds]跟踪目录处理作业[!UICONTROL Job Status]的状态。
+         您可以在[&#x200B; > &#x200B;](/help/creative/feeds/job-status-track.md) > [!UICONTROL Creative]选项卡上[!UICONTROL Feeds]跟踪目录处理作业[!UICONTROL Job Status]的状态。
 
 1. [为创意库创建动态创意内容](/help/creative/creative-libraries/creative-add-dynamic.md)。 对于动态HTML5广告，请使用指定的广告模板和指定的目录。
 
