@@ -3,9 +3,10 @@ title: （新UI）查看查看项目组合绩效详细信息
 description: 了解如何查看项目组合绩效详细信息，包括项目组合级别和每个分配营销活动的实际和预测指标。
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
+source-git-commit: fee9c6e4649c348cad7561f81a9d45d92eb672ec
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -82,6 +83,8 @@ ht-degree: 0%
 
    * 要查看图表上任何点的数据，请将光标悬停在该点上。
 
+1. 单击&#x200B;**[!UICONTROL Download report]**。
+
 ## 列出项目组合中的营销活动
 
 * 单击&#x200B;**[!UICONTROL Campaigns]**&#x200B;选项卡。
@@ -103,6 +106,14 @@ ht-degree: 0%
    * 要编辑可见的项目组合设置，请单击设置部分旁边的![编辑](/help/search-social-commerce/assets/edit.png "编辑")，然后单击[编辑项目组合设置](portfolio-edit.md)。
 
 有关项目组合设置的更多信息，请参阅可在搜索、社交和Commerce中找到的“优化指南” 。
+
+## 下载项目组合性能报表和项目组合组件列表
+
+1. 单击工具栏中的&#x200B;**[!UICONTROL Download report]**。
+
+1. 选中要包含的每个性能报表和项目组合组件类型旁边的复选框。
+
+   对于某些性能报表，您可以选择将数据下载为购物车还是表格。
 
 >[!MORELIKETHIS]
 >
