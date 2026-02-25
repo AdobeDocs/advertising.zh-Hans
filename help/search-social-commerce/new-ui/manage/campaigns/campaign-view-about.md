@@ -23,7 +23,7 @@ ht-degree: 0%
 
 * [在视图中查看所有营销活动的效果图](campaign-view-performance-graph.md)
 
-* [将营销活动分配到现有项目组合或新项目组合](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)，并从项目组合[取消分配营销活动](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+* [将营销活动分配到现有项目组合或新项目组合](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)，并从项目组合[取消分配营销活动](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 
 * [将限制分配给活动，并取消分配活动中的限制](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [将营销活动分配给项目组合](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
->* [从项目组合中删除营销活动](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+>* [将营销活动分配给项目组合](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+>* [从项目组合中删除营销活动](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 >* [管理营销活动的限制分配](campaign-constraint-assignments-manage.md)
 >* [从[!UICONTROL Campaigns]视图下载数据](campaign-view-report.md)
