@@ -3,9 +3,9 @@ title: 从营销活动管理视图将分类值分配给帐户组件
 description: 了解如何将分类值分配给帐户组件。
 exl-id: 5a3cb059-9cff-4a2e-b8aa-be8626774377
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,40 @@ ht-degree: 0%
 >[!NOTE]
 >
 >您为某些广告网络和促销活动类型创建的关键字和广告副本的时间是[不可变的](/help/search-social-commerce/campaign-management/faqs-campaigns.md)，这意味着编辑它们会删除现有实体并创建一个新实体。 以这种方式删除现有实体时，标签分类不会分配给新实体。
+
+## （新UI）将分类值分配给帐户组件
+
+您可以将分类值分配给新UI中可用的任何适用帐户组件。
+
+1. 从&#x200B;**[!UICONTROL Manage]**&#x200B;或&#x200B;**[!UICONTROL Target]**&#x200B;菜单打开实体视图。
+
+1. 选中每个相关行旁边的复选框。
+
+   有关选择多行的提示，请参阅“[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)”。
+
+1. 在批量操作工具栏中，单击&#x200B;**+[!UICONTROL Assign]** > **[!UICONTROL Label Classification]**。
+
+1. 对于每个适用的分类值，执行以下操作：
+
+   1. 在&#x200B;**[!UICONTROL Classifications]**&#x200B;列中，指定分类：
+
+      * 要使用现有分类，请单击分类名称以将其展开。
+
+      * 要创建分类，请单击列标题中的[!UICONTROL +]。 在输入字段中，输入分类名称，然后单击![保存](/help/search-social-commerce/assets/save-checkmark.png "保存")以立即保存分类。 要使用新分类，请单击分类名称以将其展开。
+
+        名称必须包含[个32-126](https://www.asciitable.com/)的ASCII字符，最大长度为27个单字节字符。
+
+   1. 在&#x200B;**[!UICONTROL Value Name]**&#x200B;列中，指定所选分类的值：
+
+      * 要使用现有值，请选择该值。
+
+      * 要创建值，请在列标题中单击[!UICONTROL +]。 在输入字段中，输入值，然后单击![保存](/help/search-social-commerce/assets/save-checkmark.png "保存")以立即保存该值并默认选择它。
+
+        最大长度为100个字符，可包含ASCII和非ASCII字符。
+
+1. 单击&#x200B;**+[!UICONTROL Assign Now]**。
+
+## （旧版UI）为帐户组件分配分类值
 
 1. 单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**，然后选择帐户组件视图。
 

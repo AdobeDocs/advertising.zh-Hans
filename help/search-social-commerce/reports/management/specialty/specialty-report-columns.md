@@ -3,9 +3,9 @@ title: 专业报告的报告列
 description: 了解专业报告的可用数据列。
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 6080412a58466d8a87924b27ac038991a287b849
 workflow-type: tm+mt
-source-wordcount: '2922'
+source-wordcount: '3140'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,10 @@ ht-degree: 0%
 | [!UICONTROL Advertiser] | 广告商名称。 |
 | [!UICONTROL Advertiser ID] | 广告商的Search、Social和Commerce帐户的数值ID。 |
 | [!UICONTROL All Conversion Rate] | （[!UICONTROL MSA Ad Extension]个报告）转化率（百分比）。 |
-| [!UICONTROL All Conversions] | （[!UICONTROL MSA Ad Extension]个报告）转换的次数。 |
+| [!UICONTROL All Conversions] | （[!UICONTROL Google AI Max Search Term Combination]和[!UICONTROL MSA Ad Extension]个报告）转换总数。 对于[!UICONTROL Google AI Max Search Term Combination Report]，此值包括未包含在主“转化”列中的转化操作。 |
 | [!UICONTROL All Conversions Qualified] | （[!UICONTROL MSA Ad Extension]个报告）转换的次数。 |
+| [!UICONTROL All Conversions Value] | ([!UICONTROL Google AI Max Search Term Combination Report])所有转换的值。 |
+| [!UICONTROL All Conversions Value Per Cost] | ([!UICONTROL Google AI Max Search Term Combination Report])所有转化的值除以广告交互的总成本（例如点击次数或视频查看次数）。 |
 | [!UICONTROL All Cost Per Conversion] | （[!UICONTROL MSA Ad Extension]个报告）每次转换的成本。 |
 | [!UICONTROL All Return on Ad Spend] | （[!UICONTROL MSA Ad Extension]个报表）总收入除以支出，以百分比表示。 |
 | [!UICONTROL All Revenue Per Conversion] | （[!UICONTROL MSA Ad Extension]个报表）每次转换带来的收入。 |
@@ -47,12 +49,13 @@ ht-degree: 0%
 | [!UICONTROL Asset Type] | ([!UICONTROL RSA Asset Report])资源类型： *[!UICONTROL Creative Title]*&#x200B;或&#x200B;*[!UICONTROL Description]*。 |
 | [!UICONTROL Assists] | （[!UICONTROL MSA Ad Extension]个报表）实体对与其他实体关联的转换的贡献次数。 |
 | [!UICONTROL Audience ID] | 数字受众ID。 |
-| [!UICONTROL Audience Name] | 观众。 可用受众包括您的[!DNL Google Ads]基于客户数据的市场内和类似受众，以及您的[!DNL [!DNL Microsoft Advertising]]自定义、客户匹配、动态再营销、市场内、再营销和类似受众。 |
+| [!UICONTROL Audience Name] | 观众。 可用受众包括您的[!DNL Google Ads]基于客户数据的市场内和类似受众，以及您的[！DNL [!DNL Microsoft Advertising]]自定义、客户匹配、动态再营销、市场内、再营销和类似受众。 |
 | [!UICONTROL Audience Impression Lost To Budget Percent] | 由于每日或每月预算过低，您在Microsoft Audience Network上损失的展示份额百分比。 |
 | [!UICONTROL Audience Impression Lost To Rank Percent] | 由于广告排名不佳，您在Microsoft受众网络上损失的展示份额百分比。 |
 | [!UICONTROL Audience Impression Share Percent] | [!DNL Microsoft Audience Network]的预计展示次数百分比除以您可能已接收的可用展示次数总数。 |
 | [!UICONTROL Audience Status] | 受众的状态。 |
 | [!UICONTROL Average CPC] | 每次点击的平均成本。 |
+| [!UICONTROL Average CPM] | 每千（毫秒）印象的平均成本。 |
 | [!UICONTROL Average Position]，[!UICONTROL Avg Position] | 指定日期范围内的广告平均位置。<br><br>对于[!DNL Google Ads]和[!DNL Yahoo! Japan Ads]营销活动，此数据仅在2019年9月之前可用。 对于[!DNL Microsoft Advertising]，此数据仅在2021年1月22日之前可用。 |
 | [!UICONTROL Bid Match Type] | （[!UICONTROL MSA Ad Extension]个报告）与所竞价的关键字关联的匹配类型。 |
 | [!UICONTROL Campaign Budget] | ([!UICONTROL Campaign Daily Impression Share Report])促销活动预算。 |
@@ -68,15 +71,18 @@ ht-degree: 0%
 | [!UICONTROL Content IS% (Google)] | （仅限[!DNL Google Ads]；[!UICONTROL Campaign Daily Impression Share Report]）您在显示/受众网络上收到的广告展示次数除以您有资格收到的预估展示次数。 10%以下的百分比表示为“`<10%`”，90%以上的百分比表示为“`>90%`”。 |
 | [!UICONTROL Content IS% Lost to Budget (Google)] | （仅限[!DNL Google Ads]；[!UICONTROL Campaign Daily Impression Share Report]）由于每日或每月预算太低，在显示/受众网络上的广告未收到的预计展示次数百分比。 10%以下的百分比表示为“`<10%`”，90%以上的百分比表示为“`>90%`”。 |
 | [!UICONTROL Content IS% Lost to Rank (Google)] | （仅限[!DNL Google Ads]； [!UICONTROL Campaign Daily Impression Share Report]）由于广告排名不佳，您的广告在显示/受众网络上未显示的预计展示次数百分比。 10%以下的百分比表示为“`<10%`”，90%以上的百分比表示为“`>90%`”。 |
-| [!UICONTROL Cost Micros] | ([!UICONTROL Google Asset Group Performance Report])指定期间的每次点击成本(CPC)和每千次展示成本(CPM)成本的总和。 |
 | [!UICONTROL Conversion Rate] | 转化次数除以点击总数。 |
 | [!UICONTROL Conversion Type] | 在广告商网站上跟踪的用户定义转化类型。 |
-| [!UICONTROL Conversions] | （[!UICONTROL MSA Ad Extension]和[!UICONTROL Google Asset Group Performance]报告）指定时段的转化值。 对于[!UICONTROL MSA Ad Extension]，这是导致销售或其他成功度量的点击次数。 |
+| [!UICONTROL Conversions] | （[!UICONTROL Google AI Max Search Term Combination]、[!UICONTROL Google Asset Group Performance]和[!UICONTROL MSA Ad Extension]报告）指定时段的转化总数。 对于[!UICONTROL MSA Ad Extension]报表，这是导致销售或其他成功衡量标准的点击次数。 对于[!UICONTROL Google AI Max Search Term Combination]报表，这是启用了“包含在转化中”的转化操作中的转化总数 |
 | [!UICONTROL Conversions from Interactions Rate] | ([!UICONTROL Google Asset Group Performance Report])广告交互的转化次数除以广告交互次数。 此值仅考虑`include_in_conversions_metric`属性设置为`true`的转化操作。 |
 | [!UICONTROL Conversions Qualified] | （[!UICONTROL MSA Ad Extension]个报告）转换的次数。 |
+| [!UICONTROL Conversions Value] | ([!UICONTROL Google AI Max Search Term Combination Report])启用了“包含在转化中”的转化操作中所有转化的值。 |
+| [!UICONTROL Conversions Value Per Cost] | ([!UICONTROL Google AI Max Search Term Combination Report])所有转化的值除以广告交互的总成本（例如点击次数或视频查看次数）。 它仅包含启用了“包含在转化中”的转化操作的转化。 |
 | [!UICONTROL Cost] | 指定日期范围内的广告总成本。 |
+| [!UICONTROL Cost Micros] | ([!UICONTROL Google Asset Group Performance Report])指定期间的每次点击成本(CPC)和每千次展示成本(CPM)成本的总和。 |
+| [!UICONTROL Cost Per All Conversions] | ([!UICONTROL Google AI Max Search Term Combination Report])广告交互的成本除以所有转化。 |
 | [!UICONTROL Cost Per Assist] | （[!UICONTROL MSA Ad Extension]个报告）每次协助的总费用。 |
-| [!UICONTROL Cost Per Conversion] | （[!UICONTROL MSA Ad Extension]个报告）每次转换的总成本。 |
+| [!UICONTROL Cost Per Conversion] | （[!UICONTROL Google AI Max Search Term Combination Report]和[!UICONTROL MSA Ad Extension]个报告）)广告交互的成本除以转化率。 对于Google广告，这仅包括启用了“包含在转化中”的转化操作的转化。 |
 | [!UICONTROL Country] | （[!UICONTROL AdWords Geo Report]和[!UICONTROL Bing Ads Geo Report]）发起点击的国家/地区。 根据用户的IP地址确定。 |
 | [!UICONTROL CPC] | 指定日期范围内广告的每次点击成本(CPC)。 |
 | [!UICONTROL Creative Description 1]，[!UICONTROL Creative Description 2] | 广告的第一行和第二行。 |
@@ -85,6 +91,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Status] | （[!UICONTROL MSA Ad Extension]个报告）广告的状态。 |
 | [!UICONTROL Creative Name] | （事务报告；仅限[!DNL Yahoo! Japan]）广告图像名称。 |
 | [!UICONTROL Creative Title] | 广告的标题或标题。 |
+| [!UICONTROL Cross Device Conversions] | ([!UICONTROL Google AI Max Search Term Combination Report])用户在一个设备上单击广告，然后在不同的设备或浏览器上转换时产生的转换。 跨设备转化包含在所有转化中。 |
 | [!UICONTROL CTR] | 点进率，即点击次数除以所包含广告的展示次数。 |
 | [!UICONTROL Current Quality Score] | （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]个营销活动）广告网络指定的关键词或竞价单位的当前质量分数。 其范围从1（低）到10（完美）。 对于单个关键词和匹配类型组合，此值是该组合的当前分数。 当在多个营销活动中使用相同的关键字和匹配类型组合时，此值是所有实例中的最大当前分数。<br><br>广告网络使用质量分数来确定竞价和广告位置。 关键词的关联度、用户的搜索查询、登陆页面的质量等多因素共同影响该词的搜索效果。 对于[!DNL Google Ads]中的关键字，也会考虑关键字的点进率；对于[!DNL Microsoft Advertising]中的关键字，也会考虑登陆页面提供的用户体验。 |
 | [!UICONTROL Delivered Match Type] | （[!UICONTROL MSA Ad Extension]个报告）用于投放广告的广告网络的匹配类型。 |
@@ -104,6 +111,8 @@ ht-degree: 0%
 | [!UICONTROL Goal Type] | （[!UICONTROL MSA Ad Extension]个报表，[!UICONTROL MSA Network Performance Report]）转化目标的类型。 |
 | [!UICONTROL Google Conversions] | ([!UICONTROL AdWords Conversion Report]) [该 [!DNL Google Ads Conversion Optimizer]](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)跟踪的联机转换数。 |
 | [!UICONTROL Google Converted Clicks] | （[!UICONTROL AdWords Conversion Report]；已于2016年弃用）导致一个或多个转化的点击次数。 |
+| [!UICONTROL Headline 1] | ([!UICONTROL Google AI Max Search Term Combination Report])广告的第一个标题。 |
+| [!UICONTROL Headline 2] | ([!UICONTROL Google AI Max Search Term Combination Report])广告的第二个标题。 |
 | [!UICONTROL Impr. (Abs. Top) %] | （仅限[!DNL Google Ads]；[!UICONTROL AdWords and Bing Audience Target Report]、[!UICONTROL Campaign Daily Impression Share Report]和[!UICONTROL Keyword Daily Impression Share Report]）在自然搜索结果上方显示为第一个广告的广告展示次数百分比。 |
 | [!UICONTROL Impr. (Top) %] | （仅限[!DNL Google Ads]；[!UICONTROL AdWords and Bing Audience Target Report]、[!UICONTROL Campaign Daily Impression Share Report]和[!UICONTROL Keyword Daily Impression Share Report]）在自然搜索结果上方显示的广告展示次数百分比。 |
 | [!UICONTROL Impression Lost To Budget Percent] | 由于每日或每月预算太低而未显示广告的估计时间百分比。 |
@@ -116,6 +125,7 @@ ht-degree: 0%
 | [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report])广告扩展的version特性。 |
 | [!UICONTROL Keyword Extension Type] | ([!UICONTROL MSA Ad Extension by Keyword Report])广告扩展类型。 |
 | [!UICONTROL Keyword Status] | 与搜索词匹配的关键字的状态： *[!UICONTROL Active]*、*[!UICONTROL Paused]*、[!UICONTROL Deleted]*或[!UICONTROL Disapproved]*。 |
+| [!UICONTROL Landing Page] | ([!UICONTROL Google AI Max Search Term Combination Report])广告的登陆页面。 |
 | [!UICONTROL Language] | ([!UICONTROL Campaign Daily Impression Share Report])目标语言。 |
 | [!UICONTROL Language and Region] | ([!UICONTROL Bing Ads Geo Report])广告组的目标语言和市场（如English-UK）。 |
 | [!UICONTROL Location] | ([!UICONTROL Campaign Daily Impression Share Report])目标受众位置。 |
@@ -167,7 +177,7 @@ ht-degree: 0%
 | [!UICONTROL Search lost IS (rank)] | （仅限[!DNL Google Ads]；[!UICONTROL Keyword Daily Impression Share Report]）由于广告排名不佳而未显示广告的时间百分比。 90%以上的百分比表示为“`>90%`”或“`0.9001`”。 |
 | [!UICONTROL Search lost top IS (budget)] | （[!DNL Google Ads]和[!DNL Microsoft Advertising]；[!UICONTROL Campaign Daily Impression Share Report]和[!UICONTROL Keyword Daily Impression Share Report]）您的广告未显示在自然搜索结果上方的时间百分比，因为您的每日或每月预算太低。 对于[!DNL Google Ads]营销活动，超过90%的百分比显示为“`>90%`”或“`0.9001`”。 |
 | [!UICONTROL Search lost top IS (rank)] | （[!DNL Google Ads]和[!DNL Microsoft Advertising]；[!UICONTROL Campaign Daily Impression Share Report]和[!UICONTROL [!UICONTROL Keyword Daily Impression Share Report]]）由于广告排名不佳，您的广告未显示在自然搜索结果之上的时间百分比。 对于[!DNL Google Ads]营销活动，超过90%的百分比显示为“`>90%`”或“`0.9001`”。 |
-| [!UICONTROL Search Term] | （AdWords搜索查询报表和Bing Ads搜索查询报表）发起点击的用户搜索词。 |
+| [!UICONTROL Search Term] | （[!UICONTROL AdWords Search Query Report]、[!UICONTROL Bing Ads Search Query Report]和[!UICONTROL Google AI Max Search Term Combination Report]）发起点击的用户搜索词。 |
 | [!UICONTROL Start Date] | 报告的第一天。 |
 | [!UICONTROL Status] | ([!UICONTROL Google Asset Group Performance Report])资源组状态。 |
 | [!UICONTROL Store ID] | 适用于商户中心商店的广告网络ID。 |
@@ -182,6 +192,8 @@ ht-degree: 0%
 | [!UICONTROL Top vs. Other] | （[!UICONTROL MSA Ad Extension]个报告）您的广告在搜索结果页面上的位置。 |
 | [!UICONTROL Total Clicks] | （[!UICONTROL MSA Ad Extension]个报告）广告副本中存在广告元素时的点击次数，无论是否被点击。 |
 | [!UICONTROL User SE Account ID] | Search、Social和Commerce分配给广告网络的数值ID。 |
+| [!UICONTROL Value Per All Conversions] | ([!UICONTROL Google AI Max Search Term Combination Report])所有转化的值除以所有转化的数量。 |
+| [!UICONTROL Value Per Conversion] | ([!UICONTROL Google AI Max Search Term Combination Report])转换值除以转换次数。 它仅包含启用了“包含在转化中”的转化操作的转化。 |
 | [!UICONTROL ViewThroughConversions] | （[!UICONTROL Bing Ads Geo Report]；受众网络上的广告）由一个或多个展示次数产生，但没有点击的转化次数。 |
 
 >[!MORELIKETHIS]

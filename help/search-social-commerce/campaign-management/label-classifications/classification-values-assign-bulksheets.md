@@ -3,7 +3,7 @@ title: 使用批量处理工作表将分类值分配给帐户组件
 description: 了解如何使用批量工作表将分类值分配给帐户组件。
 exl-id: b2dfd487-097c-45f8-a6a5-24395fdb2b85
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. [下载包含要为其分配标签分类值的实体的批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)：
 
-   * 在[!UICONTROL Rows and Columns]选项卡上，展开[!UICONTROL Bulksheet Columns]窗格中的[!UICONTROL Campaign]列表。
+   * 在[!UICONTROL Rows and Columns]选项卡上，展开[!UICONTROL Campaign]窗格中的[!UICONTROL Bulksheet Columns]列表。
 
    * 展开[!UICONTROL Label Classification]列表。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    除了添加值之外，您还可以通过从相关行中删除现有值来删除这些值。 要从父实体及其子实体中移除值，请a)仅包含父实体行并移除现有的分类值，或者b)同时包含父实体及其子实体，并从所有父行和子行移除现有的分类值。
 
-1. [上载文件](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)以创建关联。
+1. [上载文件](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)以创建关联。<!-- Update once the new bulksheet UI is GA -->
 
 上传的标签值在相关的实体视图中可见。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 此示例包括标签分类“颜色”和“地域”的列。 对于您自己的批量处理工作表，请将列替换为您自己的标签分类名称。
 
-| 帐户 | 营销活动 | 广告组 | 关键词 | 广告 | 投放位置 | 标签 | 颜色 | 地域 |
+| 帐户 | 营销活动 | 广告组 | 关键词 | 广告 | 投放 | 标签 | 颜色 | 地域 |
 |---|---|---|---|---|---|---|---|---|
 | Acct1 | C1 | | | | | | 绿色 | |
 | Acct1 | C1 | AG1 | | | | | | |

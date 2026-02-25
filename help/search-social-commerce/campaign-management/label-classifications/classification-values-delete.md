@@ -3,9 +3,9 @@ title: 删除标签分类值
 description: 了解如何删除标签分类的值。
 exl-id: 1b404c6d-a6db-485b-9438-b102786eb65d
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,27 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->若要取消分类值与帐户组件的关联，请参阅“从营销活动组件中删除分类值[&#128279;](classification-values-remove.md)”。
+>若要取消分类值与帐户组件的关联，请参阅“从营销活动组件中删除分类值[”。](classification-values-remove.md)
+
+## （新UI）删除标签分类值
+
+1. 单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**。
+
+1. 单击&#x200B;**[!UICONTROL Label Values]**&#x200B;选项卡。
+
+1. （可选）筛选列表以包含特定的标签值。
+
+1. 选中要删除的每个标签值旁边的复选框。
+
+   一次最多可以删除200行。
+
+   有关选择多行的提示，请参阅“[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)”。
+
+1. 在批量操作工具栏中，单击![删除](/help/search-social-commerce/assets/delete.png "删除")。
+
+1. 在确认消息中，单击&#x200B;**[!UICONTROL Confirm]**。
+
+## （旧版UI）删除标签分类值
 
 1. 单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**。
 

@@ -3,9 +3,9 @@ title: 创建标签分类
 description: 了解如何创建标签分类以将您的帐户组件分组。
 exl-id: 227f44d7-c422-4baa-94ff-6deafcddf920
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,20 @@ ht-degree: 0%
 # 创建标签分类
 
 每个广告商最多可以有30个标签分类。
+
+## （新UI）创建标签分类
+
+1. 单击&#x200B;**[!UICONTROL Reports]>[!UICONTROL Label Classifications]**。
+
+1. 单击右上角的&#x200B;**[!UICONTROL Create Classification]**。
+
+1. 输入唯一的标签分类名称，然后单击&#x200B;**[!UICONTROL Create]**。
+
+   该名称对于广告商帐户必须是唯一的，且包含[个32-126](https://www.asciitable.com/)的ASCII字符，最大长度为27个单字节字符。 名称不能与现有报表列或现有批量处理工作表列的名称相同。 查看[百度](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)、[Google广告](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)、[Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)、[Yahoo！的批量工作表列的名称 日本广告](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)，[Yahoo！ 显示网络](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)和[Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)。
+
+创建标签分类后，即可为该分类创建特定的标签值，并使用批量处理工作表[从](classification-values-assign-campaign-management.md)营销活动管理视图[或](classification-values-assign-bulksheets.md)将标签值分配给帐户实体。
+
+## （旧版UI）创建标签分类
 
 1. 单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**。
 
@@ -22,7 +36,7 @@ ht-degree: 0%
 
    该名称对于广告商帐户必须是唯一的，且包含[个32-126](https://www.asciitable.com/)的ASCII字符，最大长度为27个单字节字符。 名称不能与现有报表列或现有批量处理工作表列的名称相同。 查看[百度](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)、[Google广告](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)、[Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)、[Yahoo！的批量工作表列的名称 日本广告](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)，[Yahoo！ 显示网络](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)和[Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)。
 
-创建标签分类后，即可为该分类创建特定的标签值，并使用批量处理工作表[&#128279;](classification-values-assign-bulksheets.md)从[营销活动管理视图](classification-values-assign-campaign-management.md)或将标签值分配给帐户实体。
+创建标签分类后，即可为该分类创建特定的标签值，并使用批量处理工作表[从](classification-values-assign-campaign-management.md)营销活动管理视图[或](classification-values-assign-bulksheets.md)将标签值分配给帐户实体。
 
 >[!MORELIKETHIS]
 >

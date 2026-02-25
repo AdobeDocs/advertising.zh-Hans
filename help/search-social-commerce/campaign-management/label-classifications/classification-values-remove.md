@@ -3,9 +3,9 @@ title: 从帐户组件中删除标签分类值
 description: 了解如何删除标签分类值和帐户组件之间的关联。
 exl-id: 8697367b-0bf9-48c9-8dd3-e733360e1df2
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ ht-degree: 0%
 >[!NOTE]
 >
 >若要从标签分类中删除值，请参阅&quot;[删除标签分类值](classification-values-delete.md)&quot;。
+
+## （新UI）从帐户组件中删除标签分类值
+
+您可以从新UI中可用的任何适用帐户组件中删除分类值。
+
+1. 从&#x200B;**[!UICONTROL Manage]**&#x200B;或&#x200B;**[!UICONTROL Target]**&#x200B;菜单打开实体视图。
+
+1. 选中每个相关行旁边的复选框。
+
+   有关选择多行的提示，请参阅“[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)”。
+
+1. 在批量操作工具栏中，单击&#x200B;**-[!UICONTROL Unassign]** > **[!UICONTROL Label Classification]**。
+
+1. 选中要从所选实体中删除的每个分类值旁边的复选框。<!-- As of 2/24/26, no way to tell which entity each value is assigned to -->
+
+   要选择所有分配的值，请单击&#x200B;**[!UICONTROL Select All]**。 要取消选择所有分配的值，请单击&#x200B;**[!UICONTROL Deselect All]**。
+
+1. 单击&#x200B;**[!UICONTROL Unassign Selected]**。
+
+## （旧版UI）从帐户组件中删除标签分类值
 
 1. 在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;中，选择实体视图。
 

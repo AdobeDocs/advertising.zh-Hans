@@ -4,9 +4,9 @@ description: 了解项目组合。
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
-source-git-commit: f7c63646b3eae20fd3413446789fe06ce583e23e
+source-git-commit: de3c527bd359e0d5285b90e54278983104a2a5b5
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,8 @@ ht-degree: 0%
 
 [!UICONTROL Portfolios]视图列出了您的现有项目组合，其中包含可自定义的性能数据。 您可以[自定义视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)中的列，并从工具栏[或](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)列标题[筛选数据以包含特定项目组合](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)。
 
+在数据表上方，您可以打开一个性能图，其中包含指定日期范围内视图中所有项目组合的最多三个指标总计。
+
 <!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group, edit the Target column, or import/export DOW targets. -->
 
 ### 可用操作
@@ -77,6 +79,8 @@ ht-degree: 0%
 * [编辑项目组合设置](portfolio-edit.md)
 
 * [使用批量工作表文件批量编辑项目组合设置](portfolio-bulksheets.md)
+
+* [查看视图中所有项目组合的性能图](portfolio-view-performance-graph.md)
 
 * [查看项目组合绩效详细信息](portfolio-details.md)
 
