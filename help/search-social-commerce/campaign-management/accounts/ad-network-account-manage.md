@@ -3,16 +3,14 @@ title: 管理广告网络帐户
 description: 了解如何设置和管理广告网络帐户的帐户详细信息。
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 304b3589109fe9ddf4d2f0df84c7fa45aa3726d2
+source-git-commit: 10d8205d0c750e566ddd80122e291c276264afcb
 workflow-type: tm+mt
-source-wordcount: '2078'
+source-wordcount: '2099'
 ht-degree: 0%
 
 ---
 
 # 管理广告网络帐户
-
-<!-- Probably need to change the page title. If I update the filename, get B. to create a redirect to the new URL. -->
 
 以下说明用于创建和编辑广告网络帐户详细信息、刷新帐户的[!DNL oAuth]令牌以及禁用帐户。
 
@@ -21,6 +19,8 @@ ht-degree: 0%
 <!-- Also update Description metadata to "Learn how to set up and manage account details for an ad network account synced via the ad network API." -->
 
 有关每个广告网络可用功能的详细信息，请参阅[支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)。
+
+有关在新UI中管理广告网络帐户的说明，请参阅“[（新UI）通过API连接管理广告网络帐户](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)”。
 
 ## 创建广告网络帐户详细信息 {#create-account}
 
