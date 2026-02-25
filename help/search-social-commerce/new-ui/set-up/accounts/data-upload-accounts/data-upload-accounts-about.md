@@ -49,7 +49,7 @@ ht-degree: 0%
 
 数据必须遵循广告网络的数据要求，因此每个实体的数据字段可能因广告网络而异。
 
-1. <!-- For all ad networks (excluding DSP), -->通过以下任一方式上传单个帐户的初始数据：
+1. &#x200B;<!-- For all ad networks (excluding DSP), -->通过以下任一方式上传单个帐户的初始数据：
 
 * 从设备或网络手动上传文件。
 
