@@ -2,9 +2,10 @@
 title: 配置用于数据上载的广告网络帐户
 description: 了解如何设置和管理广告网络帐户的帐户详细信息。
 feature: Search Campaign Management
-source-git-commit: e62eb730ec88a37cbe34e35d7b9bf99e0d4fd41d
+exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
+source-git-commit: 00565a6c9e784472fab9c9d223c83b0c7cbb91b1
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -31,7 +32,7 @@ ht-degree: 0%
 
    1. 在&#x200B;**[!UICONTROL Account Details]**&#x200B;选项卡上，编辑帐户详细信息。
 
-   1. (具有[[!DNL Adobe Analytics for Advertising]集成] (/help/integrations/analytics/overview.md)的广告商)单击&#x200B;**[!UICONTROL Set up Adobe Analytics]**&#x200B;选项卡，然后编辑要用于跟踪和报告促销活动的[!DNL Analytics]报告包。
+   1. （具有[[!DNL Adobe Analytics for Advertising] 集成](/help/integrations/analytics/overview.md)的广告商）单击“**[!UICONTROL Set up Adobe Analytics]**”选项卡，然后编辑用于跟踪和报告促销活动的[!DNL Analytics]报告包。
 
    1. （可选）在&#x200B;**[!UICONTROL Upload File]**&#x200B;选项卡上，上传帐户的数据文件。
 
