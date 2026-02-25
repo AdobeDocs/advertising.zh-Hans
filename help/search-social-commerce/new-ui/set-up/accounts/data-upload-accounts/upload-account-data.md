@@ -56,7 +56,7 @@ See "XXX" for information about supported ad networks and account structures.
 
       1. 单击&#x200B;**[!UICONTROL Save]**。
 
-# 将帐户数据上传到[!DNL Amazon] [!DNL S3]存储段 {#data-upload-s3}
+&#x200B;# 将帐户数据上传到[!DNL Amazon] [!DNL S3]存储段 {#data-upload-s3}
 
 您可以通过将数据上传到[!DNL Amazon Web Services] (AWS) [!DNL Simple Storage Service] ([!DNL S3])分段中的搜索、社交和Commerce分配文件夹，来使用促销活动内容和成本、点击和转化数据填充帐户。
 
