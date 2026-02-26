@@ -2,11 +2,11 @@
 role: User
 user-guide-title: Advertising Creative指南
 user-guide-description: 了解使用Advertising Creative所需的主要功能、任务、设置和其他资源。
-breadcrumb-title: Creative指南
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+breadcrumb-title: 创意指南
+source-git-commit: 0f1355be9eab674970207afb03c56d2857ea24ae
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 0%
    + [关于Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [自定义数据视图](/help/creative/introduction/customize-data-views.md)
    + [动态广告的工作流](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans){target="_blank"}
-   + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans){target="_blank"}
+   + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Creative库 {#creative-libraries}
    + [关于您的创意库](/help/creative/creative-libraries/creative-libraries-about.md)
    + [支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)
@@ -58,8 +58,8 @@ ht-degree: 0%
             + [删除目标节点或创意叶节点](/help/creative/experiences/experience-target-node-delete.md)
          + Creative包和创意人员 {#bundles}
             + [将创意捆绑包分配和取消分配给最终节点](/help/creative/experiences/experience-assign-creative-bundles.md)
-            + [自定义创意人员的跟踪URL](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [自定义创意优化和计划](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
+            + [自定义创意人员的跟踪URL](/help/creative/experiences/experience-tracking-urls-targeting.md)
    + 无定位的体验 {#experience-nontargeted}
       + [在不定位的情况下创建体验](/help/creative/experiences/experience-create-no-targeting.md)
       + [编辑体验，但不定位](/help/creative/experiences/experience-edit-no-targeting.md)
@@ -67,8 +67,8 @@ ht-degree: 0%
       + 广告标记和创意人员{#non-targeted-creatives}
          + [为适用的创意大小手动创建广告标记](/help/creative/experiences/experience-tag-create-manually.md)
          + [为无定位的体验将创意内容分配给广告标记](/help/creative/experiences/experience-tag-assign-creatives.md)
-         + [自定义体验的跟踪URL，而无需定位](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
          + [无需定位即可自定义体验的创意优化和计划](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
+         + [自定义体验的跟踪URL，而无需定位](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
    + [克隆体验](/help/creative/experiences/experience-clone.md)
    + [预览体验](/help/creative/experiences/experience-preview.md)
    + [自定义视频广告体验标记的转码选项](/help/creative/experiences/experience-tag-video-transcoding.md)
@@ -93,4 +93,4 @@ ht-degree: 0%
 + [正在重新定位像素](/help/creative/pixels/retargeting-pixel-manage.md)
 + [可用于跟踪URL的宏](/help/creative/creative-macros.md)
 + [获取帮助](/help/creative/get-help.md)
-+ [Adobe Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans){target="_blank"}
++ [Adobe Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
