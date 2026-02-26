@@ -3,7 +3,7 @@ title: 在不使用决策树定位的情况下创建体验
 description: 了解如何在不定位的情况下创建广告体验。
 feature: Creative Experiences
 exl-id: 327b1df5-5663-4513-9238-f481370c8c38
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -38,9 +38,9 @@ ht-degree: 0%
 
      将创意内容分配给广告标记，而不是在体验设置中进行分配。
 
-   * [自定义跟踪URL](experience-tracking-urls-no-targeting.md)
-
    * [自定义创意优化和计划](experience-optimization-scheduling-no-targeting.md)。
+
+   * [自定义跟踪URL](experience-tracking-urls-no-targeting.md)
 
 >[!MORELIKETHIS]
 >

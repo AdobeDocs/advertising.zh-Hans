@@ -3,9 +3,9 @@ title: 将创意捆绑包分配和取消分配给体验中的最终节点
 description: 了解如何将创意分配给广告体验中的每个目标。
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -26,19 +26,19 @@ ht-degree: 0%
 
 1. 执行以下操作之一：
 
-   * （没有创意的最终节点）在节点下，单击![添加](/help/creative/assets/add.png "添加")，然后选择&#x200B;**[!UICONTROL Assign Bundles]**。
+   * （没有创意的最终节点）在节点下，单击&#x200B;**[!UICONTROL Assign Bundles]**。
 
-   * （具有现有创意的节点）将光标悬停在目标节点<!-- wording???? -->下方的创意包框上，然后单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**。
+   * （具有现有创意的节点）将光标悬停在目标节点下方的创意包框上，然后单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**。
 
 1. 选中要分配给目标节点的每个束旁边的复选框，然后取消选中要取消分配的每个束旁边的复选框。
 
    仅列出体验（标准或动态）的相关捆绑类型的捆绑包。
 
-1. 单击&#x200B;**[!UICONTROL Attach to Bundles]**。
-
-1. （可选） [自定义分配的包中创作的跟踪URL](experience-tracking-urls-targeting.md)。
+1. 单击&#x200B;**[!UICONTROL Save]**。
 
 1. （可选） [为分配的捆绑包自定义创意优化和计划](experience-optimization-scheduling-targeting.md)。
+
+1. （可选） [自定义分配的包中创作的跟踪URL](experience-tracking-urls-targeting.md)。
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.

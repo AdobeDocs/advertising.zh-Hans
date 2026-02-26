@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1655'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,9 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2025年2月25日 | 针对[!DNL experiences]的Creative优化和计划 | 改进包括：<ul><li>对于具有决策树定位的体验，您现在可以在同一屏幕中的各个选项卡上分配创意捆绑包并配置创意优化和计划。</li><li>广告计划现在包括开始时间和结束时间。 默认情况下，计划从凌晨12:00开始，到晚上11:59结束。</li><li>[!UICONTROL Weighted]旋转选项包含一个按钮（![应用等权重](/help/creative/assets/apply-equal-weight.png "应用等权重")），以将等权重应用于所有指定的包。</li></ul> | 查看有关具有定位[的](/help/creative/experiences/experience-optimization-scheduling-targeting.md)体验和不具有定位[的](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)体验的说明。 |
 | 2026年2月18日 | 动态创意 | 您现在可以使用信息源生成可跨CTV、Web和移动应用程序使用的VAST兼容视频广告。<ul><li>视频广告模板必须采用ZIP格式并包含.scene文件。</li><li>您的资源文件必须包含MP4、MOV或WEBM格式的视频资源。 支持的广告模板包括开始卡、结束卡、顶部叠加、底部叠加或L形，并且每个视频的持续时间必须介于1至90秒之间。 每个馈送文件最多可以处理500行视频资产。</li><li>在创意库中，动态创意的设置现在包含带有选项“[!UICONTROL Creative Type]”和“[!UICONTROL Display]”的[!UICONTROL Video]设置。 捆绑包的设置还包括“[!UICONTROL Dynamic Video]”。</li><li>广告体验的设置还包括“[!UICONTROL Dynamic Video]”。</li><li>[!UICONTROL Custom Creative Report]现在包含基于信息源的视频变体的各种视频量度（例如展示次数、四分位数和静音/取消静音）。</li></ul> | 请参阅“[动态广告工作流](/help/creative/introduction/workflow-dynamic-ads.md)”、“[将动态创意添加到创意库](/help/creative/creative-libraries/creative-add-dynamic.md)”、“[动态创意设置](/help/creative/creative-libraries/creative-settings-dynamic.md)”和“[管理资源文件](/help/creative/feeds/asset-manage.md)”。 |
-| 2026年1月21日 | Creative Library，Adobe GenStudio for Performance Marketing | 使用[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/home)的广告商现在可以将GenStudio中的显示广告体验导入您的创意库。 导入体验中的每个创意变体都会作为单独的HTML5创意导入。 您可以在Advertising Creative体验中包含导入的创意内容。 | 请参阅“[关于您的创意库](/help/creative/creative-libraries/creative-libraries-about.md)”和“[将标准创意添加到创意库](/help/creative/creative-libraries/creative-add-standard.md)”。 |
+| 2026年1月21日 | Creative Library，Adobe GenStudio for Performance Marketing | 使用[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)的广告商现在可以将GenStudio中的显示广告体验导入您的创意库。 导入体验中的每个创意变体都会作为单独的HTML5创意导入。 您可以在Advertising Creative体验中包含导入的创意内容。 | 请参阅“[关于您的创意库](/help/creative/creative-libraries/creative-libraries-about.md)”和“[将标准创意添加到创意库](/help/creative/creative-libraries/creative-add-standard.md)”。 |
 |  | 标准创意人员 | 用于创建图像和HTML5广告的菜单选项现在合并为一个“[!UICONTROL Standard Display]”选项，您还可以使用它从GenStudio导入显示广告体验。 | 请参阅“[关于您的创意库](/help/creative/creative-libraries/creative-libraries-about.md)”和“[将标准创意添加到创意库](/help/creative/creative-libraries/creative-add-standard.md)”。 |
 | 2025年12月17日 | 警报 | [!UICONTROL Pulse Panel]视图中的[!UICONTROL Experiences]图标指示您的体验是否有任何警报可用。 您可以打开面板以查看每个警报，还可以选择打开适用的体验或创意，以便根据需要编辑它以解决问题。 您还可以选择消除任何警报。<br><br>对于使用Advertising DSP的广告商，在DSP中的促销活动级别提供了有关从[!DNL Creative]体验创建的DSP版面的通知。 | 请参阅“[查看警报](/help/creative/reports/alerts-view.md)”。 |
 | 2025年11月26日 | Advertising Creative的成本报表 | (仅同时具有Advertising Creative和Advertising DSP的广告商；测试版功能)新的[!UICONTROL All-in Cost]报告已退出测试版并公开发布。 | 请参阅“[关于自定义报告](/help/creative/reports/reports-about.md)”和“[管理自定义报告](/help/creative/reports/report-manage.md)”。 |

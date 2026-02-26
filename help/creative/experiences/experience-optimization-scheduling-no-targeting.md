@@ -3,9 +3,9 @@ title: 自定义体验的创意优化和计划
 description: 了解如何在不定位的情况下为体验配置优化和广告计划。
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ ht-degree: 0%
 
    * 在表格视图中，将光标悬停在行上，单击&#x200B;**[!UICONTROL More]**，然后单击&#x200B;**[!UICONTROL Tag Manager]**。
 
-1. 将光标悬停在适用的广告标记的行上，然后单击![广告计划](/help/creative/assets/edit-gray.png "编辑跟踪URL") **[!UICONTROL Creative Optimization]**。&lt;！ — 从2/2开始，Tag Manager只有一个列表视图，但没有卡片视图。>
+1. 将光标悬停在适用广告标记的行上，然后单击![编辑创意优化](/help/creative/assets/edit-gray.png "编辑创意优化") **[!UICONTROL Creative Optimization]**。&lt;！ — 从2/2开始，Tag Manager只有一个列表视图，但没有卡片视图。>
 
 1. 禁用&#x200B;**[!UICONTROL Schedule]**。
 
 1. 为关联捆绑包中的广告变体选择创意轮换类型：
 
-   * *[!UICONTROL Weighted]：*&#x200B;根据相对权重在关联的创意包中显示广告变体。 输入每个束的重量（百分比）。 所有选定包的权重之和必须为100。<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
+   * *[!UICONTROL Weighted]：*&#x200B;根据相对权重在关联的创意包中显示广告变体。 输入每个束的重量（百分比）。 若要对所有关联捆绑应用等权重，请单击（![应用等权重](/help/creative/assets/apply-equal-weight.png "应用等权重")）。 所有选定包的权重之和必须为100。<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
 
    * *[!UICONTROL Algorithmic]：*&#x200B;根据指定的目标更频繁地显示最有效的广告变体。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
    * 在表格视图中，将光标悬停在行上，单击&#x200B;**[!UICONTROL More]**，然后单击&#x200B;**[!UICONTROL Tag Manager]**。
 
-1. 将光标悬停在适用的广告标记的行上，然后单击![广告计划](/help/creative/assets/edit-gray.png "编辑跟踪URL") **[!UICONTROL Creative Optimization]**。 <!-- For targeted experiences, this is "Edit Schedules" -->&lt;！ — 从2/2开始，Tag Manager只有一个列表视图，但没有卡片视图。>
+1. 将光标悬停在适用广告标记的行上，然后单击![编辑创意优化](/help/creative/assets/edit-gray.png "编辑创意优化") **[!UICONTROL Creative Optimization]**。 <!-- For targeted experiences, this is "Edit Schedules" -->&lt;！ — 从2/2开始，Tag Manager只有一个列表视图，但没有卡片视图。>
 
 1. 启用&#x200B;**[!UICONTROL Schedule]**。
 
@@ -74,11 +74,11 @@ ht-degree: 0%
 
    1. 在左列中，选中每个要添加到第一个时间表的创意内容旁边的复选框。
 
-   1. 指定计划的开始日期和结束日期。
+   1. 指定计划的开始日期和开始时间以及结束日期和结束时间。
 
    1. 选择创意旋转类型：
 
-      * *[!UICONTROL Weighted]：*&#x200B;根据相对权重手动旋转创意。 输入每个创意内容的权重，以百分比表示。 所有选定创意内容的权重之和必须为100。
+      * *[!UICONTROL Weighted]：*&#x200B;根据相对权重手动旋转创意。 输入每个创意内容的权重，以百分比表示。 要对计划中的所有捆绑应用相等权重，请单击（![应用相等权重](/help/creative/assets/apply-equal-weight.png "应用相等权重")）。 所有选定创意内容的权重之和必须为100。
 
       * *[!UICONTROL Algorithmic]：*&#x200B;根据指定的优化目标以算法方式旋转创意。
 

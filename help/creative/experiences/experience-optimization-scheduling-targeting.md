@@ -3,9 +3,9 @@ title: 自定义体验的创意优化和计划
 description: 了解如何针对目标体验配置优化和广告计划。
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,21 @@ ht-degree: 0%
 
 禁用创意计划后，创意优化设置将应用于所有分配的创意内容。
 
-1. 将光标悬停在目标节点下方的创意叶节点上，然后单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Creative Optimization]**。
+1. 当您[创建](experience-create-targeting.md)或[编辑](experience-edit-targeting.md)体验时，请打开创意优化设置：
+
+   1. 将光标悬停在目标节点下方的创意叶节点上，然后执行以下操作：
+
+      * 对于现有包，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**。
+
+      * 对于新包，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]**&#x200B;并[分配包](experience-assign-creative-bundles.md)。
+
+1. 单击&#x200B;**[!UICONTROL Creative Optimization]**&#x200B;选项卡。
 
 1. 禁用&#x200B;**[!UICONTROL Schedule]**。
 
 1. 为关联捆绑包中的广告变体选择创意轮换类型：
 
-   * *[!UICONTROL Weighted]：*&#x200B;根据相对权重在关联的创意包中显示广告变体。 输入每个束的重量（百分比）。 所有选定包的权重之和必须为100。<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
+   * *[!UICONTROL Weighted]：*&#x200B;根据相对权重在关联的创意包中显示广告变体。 输入每个束的重量（百分比）。 若要对所有关联捆绑应用等权重，请单击（![应用等权重](/help/creative/assets/apply-equal-weight.png "应用等权重")）。 所有选定包的权重之和必须为100。<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
 
    * *[!UICONTROL Algorithmic]：*&#x200B;根据指定的目标更频繁地显示最有效的广告变体。
 
@@ -54,7 +62,15 @@ ht-degree: 0%
 
 使用计划编制时，必须在体验的持续时间中计划捆绑包。
 
-1. 将光标悬停在目标节点下方的创意叶节点上，然后单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Creative Optimization]**。
+1. 当您[创建](experience-create-targeting.md)或[编辑](experience-edit-targeting.md)体验时，请打开创意优化设置：
+
+   1. 将光标悬停在目标节点下方的创意叶节点上，然后执行以下操作：
+
+      * 对于现有包，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**。
+
+      * 对于新包，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]**&#x200B;并[分配包](experience-assign-creative-bundles.md)。
+
+1. 单击&#x200B;**[!UICONTROL Creative Optimization]**&#x200B;选项卡。
 
 1. 启用&#x200B;**[!UICONTROL Schedule]**。
 
@@ -62,11 +78,11 @@ ht-degree: 0%
 
    1. 在左列中，选中要添加到第一个计划中的每个创意捆绑包旁边的复选框。
 
-   1. 指定计划的开始日期和结束日期。
+   1. 指定计划的开始日期和开始时间以及结束日期和结束时间。
 
    1. 选择创意旋转类型：
 
-      * *[!UICONTROL Weighted]：*&#x200B;根据相对权重手动旋转每个包中的创意。 输入每个束的重量（百分比）。 所有选定包的权重之和必须为100。
+      * *[!UICONTROL Weighted]：*&#x200B;根据相对权重手动旋转每个包中的创意。 输入每个束的重量（百分比）。 要对计划中的所有捆绑应用相等权重，请单击（![应用相等权重](/help/creative/assets/apply-equal-weight.png "应用相等权重")）。 所有选定包的权重之和必须为100。
 
       * *[!UICONTROL Algorithmic]：*&#x200B;根据指定的优化目标以算法方式旋转每个包中的创意。
 
