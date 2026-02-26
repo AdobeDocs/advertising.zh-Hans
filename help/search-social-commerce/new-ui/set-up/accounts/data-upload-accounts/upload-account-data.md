@@ -1,7 +1,7 @@
 ---
 title: 上传离线帐户数据以进行报告和模拟
 description: 了解如何手动上传离线帐户数据或将其上传到 [!DNL Amazon] [!DNL S3]存储段以支持报表和模拟。 日志文件跟踪上载作业的进度。
-source-git-commit: bfa5403ff66bed73797fc4c7115b8c043856745d
+source-git-commit: 8ba0f8fa6050a3e6ec93bcf08df2c0204191fc02
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 0%
@@ -56,7 +56,7 @@ See "XXX" for information about supported ad networks and account structures.
 
       1. 单击&#x200B;**[!UICONTROL Save]**。
 
-&#x200B;# 将帐户数据上传到[!DNL Amazon] [!DNL S3]存储段 {#data-upload-s3}
+## 将帐户数据上传到[!DNL Amazon] [!DNL S3]存储段 {#data-upload-s3}
 
 您可以通过将数据上传到[!DNL Amazon Web Services] (AWS) [!DNL Simple Storage Service] ([!DNL S3])分段中的搜索、社交和Commerce分配文件夹，来使用促销活动内容和成本、点击和转化数据填充帐户。
 
