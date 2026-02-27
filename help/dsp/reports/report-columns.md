@@ -3,9 +3,9 @@ title: 可用报表列
 description: 请参阅自定义报表中可用列的说明。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: bd85b4451624e14c95157c84537fdfb53662773f
+source-git-commit: c318c29e78f33c665380e5e5ac0b58a653f8987a
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2933'
 ht-degree: 0%
 
 ---
@@ -194,6 +194,19 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Non-Billable Net Spend] | [!UICONTROL Non-billable Spend (Media)]、[!UICONTROL Non-billable Spend (Data)]和[!UICONTROL Non-billable Spend (Other)]的总和。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Other eCPM] | 按<code>[!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000计算的其他费用每1000次展示的平均净成本</code>。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Other Spend] | 其他服务费用（第三方验证合作伙伴、广告服务等）的总净成本。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Clicks] | 总点击次数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL CTR] | 点击次数除以展示次数的百分比。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Engagements] | 投放广告的交互次数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Engagement Rate] | 投放广告的交互次数除以展示次数所占的百分比。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Impressions] | 总展示次数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Media Match Rate] | 创意已成功与预期媒体/库存或受众匹配的展示次数（或事件）比例。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Clicks] | 归因到特定产品的总点击次数。 当您的创意人员显示多个产品（例如，在轮播广告中）并且您按产品报告时使用。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Conversions] | 归因到特定产品的总转化量。 当您的创意人员显示多个产品（例如，在轮播广告中）并且您按产品报告时使用。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Conversion Rate] | [!UICONTROL Product Conversions]除以[!UICONTROL Product Impressions]归因于特定产品。 当您的创意人员显示多个产品（例如，在轮播广告中）并且您按产品报告时使用。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product CTR] | [!UICONTROL Product Clicks]除以[!UICONTROL Product Impressions]归因于特定产品。 当您的创意人员显示多个产品（例如，在轮播广告中）并且您按产品报告时使用。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Impressions] | 归因到特定产品的总展示次数。 当您的创意人员显示多个产品（例如，在轮播广告中）并且您按产品报告时使用。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Revenue] | 归属于特定产品的总收入。 当您的创意人员显示多个产品（例如，在轮播广告中）并且您按产品报告时使用。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Revenue] | 总收入。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | 观看整个广告的查看次数的百分比。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | 观看整个广告的查看次数。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Viewable Completion (%)] | 观看整个广告的可查看展示次数百分比。 |
