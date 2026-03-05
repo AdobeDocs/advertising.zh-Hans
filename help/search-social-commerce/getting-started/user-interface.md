@@ -3,9 +3,9 @@ title: 用户界面的组织方式
 description: 了解在何处访问不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: a3963ef31025caa2cebc83a99866862000838455
+source-git-commit: 5c979728f4582b56a2d813fd23cd74cbfa25be14
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1318'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,9 @@ ht-degree: 0%
 
      要创建、编辑和删除关键字和负关键字，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
 
-   * **[!UICONTROL Placements]**&#x200B;退出新站点并打开旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。
+   * **[!UICONTROL Placements]**&#x200B;打开一个新的[!UICONTROL Placements]视图，该视图显示广告商的现有投放位置和负投放位置。 您可以管理选定版面的约束分配。
+
+     要创建、编辑和删除版面和负版面，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
 
 * **[!UICONTROL Assets]**&#x200B;子菜单：
 
