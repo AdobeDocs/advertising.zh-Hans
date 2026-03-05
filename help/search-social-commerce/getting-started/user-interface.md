@@ -3,9 +3,9 @@ title: 用户界面的组织方式
 description: 了解在何处访问不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 2e5d70dcf2008bb0ea0c36955032011594e13ca3
+source-git-commit: a3963ef31025caa2cebc83a99866862000838455
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,11 @@ ht-degree: 0%
 
 * **[!UICONTROL Target]**&#x200B;子菜单：
 
-   * **[!UICONTROL Audience]**：退出新站点并打开旧版[!UICONTROL Campaigns] > [!UICONTROL Audiences]视图。
+   * **[!UICONTROL Audience]**：打开新的[!UICONTROL Audiences]视图，该视图显示广告商的所有现有受众。 要管理您的受众，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Audiences]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
 
-   * **[!UICONTROL Keywords]**&#x200B;退出新站点并打开旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。
+   * **[!UICONTROL Keywords]**&#x200B;打开新的[!UICONTROL Keywords]视图，该视图显示广告商的现有关键字和负关键字。 您可以管理选定关键字的约束分配。
+
+     要创建、编辑和删除关键字和负关键字，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
 
    * **[!UICONTROL Placements]**&#x200B;退出新站点并打开旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。
 

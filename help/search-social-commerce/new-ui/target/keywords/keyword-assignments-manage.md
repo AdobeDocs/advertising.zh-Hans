@@ -1,17 +1,16 @@
 ---
-title: 管理广告组的限制分配
-description: 了解如何将限制分配给广告组。
+title: 管理关键字的约束分配
+description: 了解如何将约束分配给关键字。
 feature: Search Optimization, Search Campaign Management
 hide: true
-exl-id: c9960b5a-4b6c-4ef0-8501-5478af2c40da
 source-git-commit: a3963ef31025caa2cebc83a99866862000838455
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
 
-# （新UI）管理广告组的限制分配
+# （新UI）管理关键字的约束分配
 
 *Beta功能*
 
@@ -21,11 +20,18 @@ ht-degree: 0%
 
 取消指定约束会删除与帐户组件及其所有子组件的关联，并且这些组件不再能使用该约束的报告数据。 取消指定约束并不会删除约束或帐户组件本身。
 
-## 从新[!UICONTROL Ad Groups]视图将限制分配给选定的广告组
+>[!NOTE]
+>
+>* 如果您稍后编辑广告的关键字或广告副本（从而创建新关键字或广告），则约束不会分配给新实体。
+>* 活动约束仅限制优化旧关键词级别项目组合中已分配竞价单位的竞价。 对于活跃项目组合中的竞价单位、混合项目组合中的竞价单位或不在项目组合中的竞价单位，它们将被忽略。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Ad Groups]**。
+## 从新[!UICONTROL Keywords]视图为所选广告分配限制
 
-1. 选中要为其分配单个约束的每个广告组旁边的复选框。
+您可以向一个或多个营销活动分配单个限制。
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Target]>[!UICONTROL Keywords]**。
+
+1. 在&#x200B;**[!UICONTROL Keywords]**&#x200B;选项卡上，选中要为其分配单个约束的每个关键字旁边的复选框。
 
 1. 在批量操作工具栏中，单击&#x200B;**+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**。
 
@@ -53,11 +59,11 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
-## 从新[!UICONTROL Ad Groups]视图中取消分配选定广告组的约束
+## 从新[!UICONTROL Ads]视图中取消分配选定营销活动的约束
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Ad Groups]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Target]>[!UICONTROL Keywords]**。
 
-1. 选中要从中取消分配约束的每个广告组旁边的复选框。
+1. 在&#x200B;**[!UICONTROL Keywords]**&#x200B;选项卡上，选中要从中取消分配约束的每个关键字旁边的复选框。
 
 1. 在批量操作工具栏中，单击&#x200B;**-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**。
 
@@ -82,5 +88,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [管理营销活动的限制分配](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+>* [管理广告组的限制分配](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [管理广告的限制分配](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
-[管理关键字的约束分配](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
