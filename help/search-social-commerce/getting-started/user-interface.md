@@ -3,9 +3,9 @@ title: 用户界面的组织方式
 description: 了解在何处访问不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
+source-git-commit: 2e5d70dcf2008bb0ea0c36955032011594e13ca3
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1225'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Conversions]**&#x200B;退出新站点并打开旧版[!UICONTROL Admin] > [!UICONTROL Conversions]视图。
 
-   * **[!UICONTROL Conversion Value Rules]**&#x200B;打开营销活动级别和帐户级别转化值规则的只读视图。 要管理转化值规则，请使用旧版[!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules]视图。
+   * **[!UICONTROL Conversion Value Rules]**&#x200B;打开营销活动级别和帐户级别转化值规则的只读视图。 要管理转化值规则，请使用旧版[!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
 
    * **[!UICONTROL Constraints]**&#x200B;退出新站点并打开旧版[!UICONTROL Optimization] > [!UICONTROL Constraints]视图。
 
@@ -62,13 +62,15 @@ ht-degree: 0%
 
    * **[!UICONTROL Campaigns]：**&#x200B;打开一个新的[!UICONTROL Campaigns]视图，该视图显示广告商的所有营销活动。 您可以将营销活动分配给项目组合并管理选定营销活动的限制分配。 您还可以下载数据表内容的报表。<!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
-     要创建、编辑和删除营销活动，请在主菜单中单击&#x200B;**[!UICONTROL Set Up]** > **[!UICONTROL Accounts]**&#x200B;或单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)以返回旧版用户界面。
+     要创建、编辑和删除营销活动，请单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)以返回旧版用户界面。
 
    * **[!UICONTROL Ad Groups]：**&#x200B;打开一个新的[!UICONTROL Ad Groups]视图，该视图显示广告商的所有广告组。 您可以管理选定广告组的限制分配。 您还可以下载数据表内容的报表。
 
-     要创建、编辑和删除营销活动，请在主菜单中单击&#x200B;**[!UICONTROL Set Up]** > **[!UICONTROL Accounts]**&#x200B;或单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)以返回旧版用户界面。
+     要创建、编辑和删除营销活动，请单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)以返回旧版用户界面。
 
-   * **[!UICONTROL Ads]**&#x200B;退出新站点并打开旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。
+   * **[!UICONTROL Ads]**&#x200B;打开一个新的[!UICONTROL Ads]视图，该视图显示广告商的所有广告。 您可以管理选定广告的限制分配。
+
+     要创建、编辑和删除广告，请单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)以返回到旧版用户界面。
 
 * **[!UICONTROL Reports]**&#x200B;子菜单：
 
@@ -94,7 +96,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Creatives]**&#x200B;退出新站点并打开旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。
 
-   * **[!UICONTROL Extensions]**&#x200B;退出新站点并打开旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。
+   * **[!UICONTROL Extensions]**&#x200B;打开现有广告扩展的只读视图。 若要管理扩展，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
 
    * **[!UICONTROL Shopping]**&#x200B;退出新站点并打开旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。<!-- Should this go to Campaigns > Products? -->
 
