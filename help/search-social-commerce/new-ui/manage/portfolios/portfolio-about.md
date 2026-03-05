@@ -4,9 +4,9 @@ description: 了解项目组合。
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
-source-git-commit: de3c527bd359e0d5285b90e54278983104a2a5b5
+source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Portfolios]视图
 
-[!UICONTROL Portfolios]视图列出了您的现有项目组合，其中包含可自定义的性能数据。 您可以[自定义视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)中的列，并从工具栏[或](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)列标题[筛选数据以包含特定项目组合](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)。
+[!UICONTROL Portfolios]视图列出筛选视图中的所有现有项目组合，其中包含可自定义的性能数据。 您可以[自定义视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)中的列，并从工具栏[或](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)列标题[筛选数据以包含特定项目组合](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)。
 
 在数据表上方，您可以打开一个性能图，其中包含指定日期范围内视图中所有项目组合的最多三个指标总计。
 

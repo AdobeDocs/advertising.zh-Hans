@@ -3,9 +3,9 @@ title: 用户界面的组织方式
 description: 了解在何处访问不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 3b4d92d2f6fe8b2ef57dfd5ce833772c37b039f8
+source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Conversions]**&#x200B;退出新站点并打开旧版[!UICONTROL Admin] > [!UICONTROL Conversions]视图。
 
-   * **[!UICONTROL Conversion Value Rules]**&#x200B;退出新站点并打开旧版[!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules]视图。
+   * **[!UICONTROL Conversion Value Rules]**&#x200B;打开营销活动级别和帐户级别转化值规则的只读视图。 要管理转化值规则，请使用旧版[!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules]视图。
 
    * **[!UICONTROL Constraints]**&#x200B;退出新站点并打开旧版[!UICONTROL Optimization] > [!UICONTROL Constraints]视图。
 

@@ -4,9 +4,9 @@ description: 了解您可以在[!UICONTROL Ad Groups]视图中执行的操作。
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 10922ae6-b2b5-4498-bc6a-424f3249e16a
-source-git-commit: de3c527bd359e0d5285b90e54278983104a2a5b5
+source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,18 @@ ht-degree: 0%
 
 *Beta功能*
 
-[!UICONTROL Manage] > [!UICONTROL Ad Groups]视图列出了您帐户中的所有广告组。
-
-在数据表上方，您可以打开一个性能图，其中包含指定日期范围内视图中所有广告组的总计最多三个量度。
+[!UICONTROL Manage] > [!UICONTROL Ad Groups]视图在筛选视图中列出了选定广告商帐户的所有广告组。
 
 ## 可用操作
 
-* [查看视图中跨所有广告组的性能图](ad-group-view-performance-graph.md)
+<!-- Not available as of 3/4/26:
+
+* [View a performance graph across all ad groups in the view](ad-group-view-performance-graph.md)
+-->
+
+* 从行中重命名广告组。
+
+* 从行中删除或更改广告组的状态。
 
 * [将约束分配给广告组，并从广告组取消分配约束](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 
