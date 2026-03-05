@@ -83,4 +83,4 @@ ht-degree: 0%
 >
 >* [管理营销活动的限制分配](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [管理广告的限制分配](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
-[管理关键字的约束分配](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>[管理关键字的约束分配](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
