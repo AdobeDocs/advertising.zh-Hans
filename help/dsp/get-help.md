@@ -25,14 +25,14 @@ To open a full user guide explaining how to use all features, click **[!UICONTRO
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=zh-Hans).
 -->
 
 ## Contact [!DNL Adobe]
 
 For product or account issues, do the following:
 
-* (Advertisers with self-service contracts) Open a ticket for your organization at [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
+* (Advertisers with self-service contracts) Open a ticket for your organization at [https://experienceleague.adobe.com/home?lang=zh-Hans#support](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support).
 
   For the product, select &quot;[!UICONTROL Advertising - DSP].&quot;
 
