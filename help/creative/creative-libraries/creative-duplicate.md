@@ -3,9 +3,9 @@ title: 复制创意
 description: 了解如何在创意库中复制创意内容。
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -47,3 +47,4 @@ ht-degree: 0%
 >* [将标准创意添加到创意库](creative-add-standard.md)
 >* [编辑标准创意](creative-edit-standard.md)
 >* [标准创意设置](creative-settings-standard.md)
+>* [查看创意内容的更改日志](/help/creative/creative-libraries/creative-view-change-log.md)

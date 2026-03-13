@@ -3,9 +3,9 @@ title: 在创意库中编辑动态创意内容
 description: 了解如何在创意库中编辑动态创意内容。
 feature: Creative Dynamic Creatives
 exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -58,4 +58,5 @@ ht-degree: 0%
 >
 >* [动态创意设置](creative-settings-dynamic.md)
 >* [将动态创意添加到创意库](creative-add-dynamic.md)
+>* [查看创意内容的更改日志](/help/creative/creative-libraries/creative-view-change-log.md)
 >* [动态广告的工作流](/help/creative/introduction/workflow-dynamic-ads.md)

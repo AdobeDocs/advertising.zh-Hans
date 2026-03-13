@@ -3,9 +3,9 @@ title: 下载创意内容
 description: 了解如何将创意内容下载为ZIP文件。
 feature: Creative Standard Creatives
 exl-id: 6507d472-be25-4f20-a32e-ad73250d78d4
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -36,3 +36,4 @@ ht-degree: 0%
 >
 >* [将标准创意添加到创意库](creative-add-standard.md)
 >* [预览创意](creative-preview.md)
+>* [查看创意内容的更改日志](/help/creative/creative-libraries/creative-view-change-log.md)

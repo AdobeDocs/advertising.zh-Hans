@@ -3,16 +3,16 @@ title: 在创意库中编辑标准创意内容
 description: 了解如何在创意库中更改标准（非动态）创意的设置。
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: cfa8af948774daf3da56d835d739573f4782ac4b
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
 
 # 在创意库中编辑标准创意内容
 
-您可以为每种类型的标准创意编辑一些设置。 您只能编辑同一创意类型的多个创意内容<!-- or creative variations -->(只有一个登陆页面的简单HTML5、具有多个登陆页面的静态HTML5、灵活的HTML5、图像或第三方<!-- , or dynamic -->)。
+您可以为每种类型的标准创意编辑一些设置。 您只能编辑同一创意类型的多个创意内容<!-- or creative variations -->（只有一个登陆页面的简单HTML5、具有多个登陆页面的静态HTML5、灵活的HTML5、图像或第三方<!-- , or dynamic -->）。
 
 对于灵活的HTML5和静态的HTML5创意，您可以上传具有不同布局但属性名称集相同的新模板文件。 对于简单的HTML5创作者，您可以通过上传具有新属性或图像的新模板来编辑任何属性或添加图像。 在所有情况下，模板必须是ZIP格式的本地文件，最大为2 MB。
 
@@ -48,9 +48,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >* (仅限灵活的HTML5创意)您只能编辑单个创作的属性。
+   >* （仅限灵活的HTML5创意）您只能编辑单个创作的属性。
 
-1. (灵活的HTML5创意；可选)完成更改后，单击图像上方的![预览](/help/creative/assets/preview.png "预览")以预览新创意。
+1. （灵活的HTML5创意；可选）完成更改后，单击图像上方的![预览](/help/creative/assets/preview.png "预览")以预览新创意。
 
 1. 单击&#x200B;**保存**。
 
@@ -63,3 +63,4 @@ ht-degree: 0%
 >* [将标准创意添加到创意库](creative-add-standard.md)
 >* [标准创意设置](/help/creative/creative-libraries/creative-settings-standard.md)
 >* [预览创意](/help/creative/creative-libraries/creative-preview.md)
+>* [查看创意内容的更改日志](/help/creative/creative-libraries/creative-view-change-log.md)

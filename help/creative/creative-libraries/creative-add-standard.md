@@ -3,9 +3,9 @@ title: 将标准创意添加到创意库
 description: 了解如何将标准（非动态）创意添加到创意库。
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: a1ca7815334b35de8f9ab5781e53e6b6aa5f4770
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ### 使用模板添加灵活的创意 {#flexible-creative-use-template}
 
-您可以使用上传到帐户的任何灵活的创意模板来构建预定义大小的广告。 选择要使用的模板后，您将编辑点击标记和属性。&lt;！ — 如果将模板下载功能添加回来，请将此替换最后一句：您可以a\)选择要使用的模板，然后编辑点击标记和属性；或b\) [以ZIP文件格式下载模板](#download-flexible-creative-template)，脱机编辑内容以构建您自己的创意，然后[将编辑后的文件上传为新的创意] (flexible-creative-upload)。>
+您可以使用上传到帐户的任何灵活的创意模板来构建预定义大小的广告。 选择要使用的模板后，您将编辑点击标记和属性。&lt;！ — 如果将模板下载功能添加回来，请将此替换最后一句：您可以a\)选择要使用的模板，然后编辑点击标记和属性；或b\) [以ZIP文件格式下载模板](#download-flexible-creative-template)，脱机编辑内容以构建您自己的创意，然后[将编辑后的文件上传为新的创意](flexible-creative-upload)。>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -132,7 +132,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
       1. 单击&#x200B;**[!UICONTROL AEM Asset Library]**。
 
-      1. (如果您尚未登录到您的Experience Manager帐户)请登录到您的Experience Manager帐户。
+      1. （如果您尚未登录到您的Experience Manager帐户）请登录到您的Experience Manager帐户。
 
       1. 在[!UICONTROL Assets]或[!UICONTROL Collections]视图中查找并选择文件，然后单击右上角的&#x200B;**[!UICONTROL Select]**。
 
@@ -142,7 +142,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
       1. 单击&#x200B;**[!UICONTROL GenStudio Library]**。
 
-      1. (如果您尚未登录到您的GenStudio帐户)请登录到您的GenStudio帐户。
+      1. （如果您尚未登录到您的GenStudio帐户）请登录到您的GenStudio帐户。
 
          默认情况下，会显示您的显示广告体验。 （可选）根据需要按营销活动或其他属性过滤体验。
 
@@ -204,6 +204,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 >
 >* [编辑标准创意](/help/creative/creative-libraries/creative-edit-standard.md)
 >* [标准创意设置](/help/creative/creative-libraries/creative-settings-standard.md)
+>* [查看创意内容的更改日志](/help/creative/creative-libraries/creative-view-change-log.md)
 >* [可用于跟踪URL的宏](/help/creative/creative-macros.md)
 >* [支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)
 >* [预览创意](/help/creative/creative-libraries/creative-preview.md)

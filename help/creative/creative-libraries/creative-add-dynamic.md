@@ -3,9 +3,9 @@ title: 将动态创意添加到创意库
 description: 了解如何将动态创意添加到创意库。
 feature: Creative Dynamic Creatives
 exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
-source-git-commit: 2a89d5f3997345c051728d41af865dc0e75541f5
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!PREREQUISITES]
 >
->在将动态创意添加到创意库之前，您必须完成其他步骤 — 包括创建广告模板、上传资源以及(动态HTML5广告)创建信息源模板和目录。 请参阅[动态广告的工作流](/help/creative/introduction/workflow-dynamic-ads.md)。
+>在将动态创意添加到创意库之前，您必须完成其他步骤 — 包括创建广告模板、上传资源以及（动态HTML5广告）创建信息源模板和目录。 请参阅[动态广告的工作流](/help/creative/introduction/workflow-dynamic-ads.md)。
 
 <!-- This does't work for me 9/24 -- I still have to select a catalog:
 
@@ -110,4 +110,5 @@ ht-degree: 0%
 >
 >* [动态创意设置](creative-settings-dynamic.md)
 >* [在创意库中编辑动态创意](creative-edit-dynamic.md)
+>* [查看创意内容的更改日志](/help/creative/creative-libraries/creative-view-change-log.md)
 >* [动态广告的工作流](/help/creative/introduction/workflow-dynamic-ads.md)
