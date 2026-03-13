@@ -3,9 +3,9 @@ title: 创建可重复使用的受众
 description: 了解如何创建可重用受众，该受众由受众区段和其他保存的受众组成。
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: e2d040409bcf18ca3c7906e8f3d5d3dc6633d2d7
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->(DSP将其经过哈希处理的电子邮件ID转换为LiveRamp RampID区段的广告商)未附加到活动、计划或暂停投放位置的第一方RampID区段将会暂停。 该区段在区段列表中标记为“自动暂停”。
+>（DSP将其经过哈希处理的电子邮件ID转换为LiveRamp RampID区段的广告商）未附加到活动、计划或暂停投放位置的第一方RampID区段将会暂停。 该区段在区段列表中标记为“自动暂停”。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**。
 
@@ -39,6 +39,10 @@ ht-degree: 0%
    >构建受众时，右侧面板中更新了[受众规模的详细信息](audience-about.md)
 
    * 要使用[[!UICONTROL Third Party Segments]、[!UICONTROL First Party Segments]、[!UICONTROL Adobe Segments]、[!UICONTROL Custom Segments]和[!UICONTROL Saved Audiences]选项卡](audience-settings.md)上可用的区段手动创建区段逻辑，请执行以下操作。
+
+      * （可选）搜索区段名称、描述或路径。
+
+        搜索结果包括基于您使用的确切术语的区段。 输入多个术语时，必须找到区段的所有术语。
 
       * 要添加第一个区段，请在左侧面板中查找该区段，然后选中区段名称旁边的复选框。
 
