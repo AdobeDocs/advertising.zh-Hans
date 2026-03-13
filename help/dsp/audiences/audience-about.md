@@ -84,7 +84,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >有关在这些解决方案中为段设置和收集数据的信息，请参阅[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)、[分析](https://experienceleague.adobe.com/docs/analytics.html)和[分析 [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html)的文档。
+  >有关在这些解决方案中为段设置和收集数据的信息，请参阅[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=zh-Hans)、[分析](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans)和[分析 [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=zh-Hans)的文档。
 
 ## 受众大小数据
 
