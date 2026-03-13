@@ -3,9 +3,9 @@ title: 获取帮助
 description: 了解如何查看在线帮助和社区资源以及如何获得技术支持。
 feature: Creative Introduction
 exl-id: 88059f73-6da3-4deb-b4ef-fa8e8eaec569
-source-git-commit: ed577c6f20d0e63555865d2d03bb82a5ada92b3f
+source-git-commit: d2276e7e57c5c4fcc270aeef68a8bf4d013e3eba
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -14,23 +14,27 @@ ht-degree: 0%
 
 <!-- Can remove this page when we move this into DSP help -->
 
-您可以从用户界面中的任何页面打开联机帮助。 如果联机帮助未回答您的问题，请与我们联系。
+您可以跨所有[!DNL Creative]和（使用Advertising DSP的广告商）[!DNL DSP]文档提交AI辅助查询，或打开[!DNL Creative]的完整用户指南。 如果文档不能回答您的问题，请联系我们。
 
-## 打开联机帮助
+## 使用AI辅助的聊天界面搜索信息
 
-要打开说明如何使用所有功能的完整帮助集，请在主菜单中单击&#x200B;**[!UICONTROL Help]**，然后打开“[!DNL Creative]”一章。
+请参阅[使用AI辅助的聊天界面](/help/dsp/agent-chat.md)搜索产品文档。
+
+## 打开完整用户指南
+
+若要打开说明如何使用所有功能的完整用户指南，请在主菜单中单击&#x200B;**[!UICONTROL Help]**，然后打开“[!DNL Creative]”一章。
 
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=zh-Hans).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 -->
 
 ## 联系人[!DNL Adobe]
 
 对于产品或帐户问题，请执行以下操作：
 
-* （具有自助服务合同的广告商）在[https://experienceleague.adobe.com/home?lang=zh-Hans#support](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)为您的组织开立一个票证。
+* （具有自助服务合同的广告商）在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)为您的组织开立一个票证。
 
   对于产品，请选择“[!UICONTROL Advertising - Creative]”。
 

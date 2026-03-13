@@ -5,9 +5,9 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 63402a5148f5e4dc310b9d2229a9dddd5fe2f113
+source-git-commit: f2d7428f70448421dd7b6d9c3d237783b800cd83
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Beta功能*
 
-*仅以英语提示*
+*仅支持英语*
 
 <!-- I thought it was all segment types? -->
 

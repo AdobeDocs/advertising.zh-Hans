@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报展示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: b0eb55e27f32af0c1ceed0980dbfdaa7497db226
+source-git-commit: e7b320180b707e38c6e4c035dd8c7bfe388b3bdc
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '971'
 ht-degree: 3%
 
 ---
@@ -21,12 +21,13 @@ ht-degree: 3%
    + 主要功能 {#features}
       + [优化](/help/dsp/introduction/features/optimization.md)
       + [品牌安全和媒体质量](/help/dsp/introduction/features/brand-safety-media-quality.md)
-      + [Cross-Device Solutions](/help/dsp/introduction/features/cross-device-solutions.md)
+      + [跨设备解决方案](/help/dsp/introduction/features/cross-device-solutions.md)
    + [帐户资金](/help/dsp/introduction/billing/account-funding.md)
    + [支持的货币](/help/dsp/currency.md)
-   + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans)
-   + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans)
+   + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [高级测量解决方案](/help/dsp/introduction/advanced-measurement-services.md)
++ [使用人工智能辅助聊天搜索产品文档](/help/dsp/agent-chat.md)
 + Campaign Management {#campaign-management}
    + [Campaign管理结构概述](/help/dsp/campaign-management/campaign-management-overview.md)
    + 营销活动 {#campaigns}
@@ -47,9 +48,9 @@ ht-degree: 3%
       + [使用批量处理工作表查看和编辑包设置](/help/dsp/campaign-management/packages/package-qa.md)
       + [编辑包](/help/dsp/campaign-management/packages/package-edit.md)
       + [复制包](/help/dsp/campaign-management/packages/package-duplicate.md)
-      + [将投放位置附加到包](/help/dsp/campaign-management/packages/package-attach-placement.md)
+      + [将放置位置附加到包](/help/dsp/campaign-management/packages/package-attach-placement.md)
       + [暂停或激活包](/help/dsp/campaign-management/packages/package-pause-activate.md)
-      + [存档或取消存档软件包](/help/dsp/campaign-management/packages/package-archive-unarchive.md)
+      + [存档或取消存档程序包](/help/dsp/campaign-management/packages/package-archive-unarchive.md)
       + [查看包的更改日志](/help/dsp/campaign-management/packages/package-change-log.md)
       + [包设置](/help/dsp/campaign-management/packages/package-settings.md)
    + 版面 {#placements}
@@ -76,7 +77,7 @@ ht-degree: 3%
       + [使用电子表格查看广告详细信息](/help/dsp/campaign-management/ads/ad-qa.md)
       + [编辑广告](/help/dsp/campaign-management/ads/ad-edit.md)
       + [复制广告](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [附加广告并从投放位置中删除广告](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=zh-Hans)
+      + [附加广告并从投放位置中删除广告](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
       + [列出与广告关联的版面](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [查看广告的详细报告](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [暂停或激活广告](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -105,7 +106,7 @@ ht-degree: 3%
    + [关于营销活动管理的常见问题解答](/help/dsp/campaign-management/faq-campaign-management.md)
    + [关于通用视频的常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)
 + 优化 {#optimization}
-   + [&#x200B; [!DNL DSP] 如何优化您的营销活动](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
+   + [ [!DNL DSP] 如何优化您的营销活动](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [优化目标及其使用方式](/help/dsp/optimization/optimization-goals.md)
    + [投放位置级别预竞价过滤器及其使用方式](/help/dsp/optimization/optimization-pre-bid-filters.md)
    + [自定义目标](/help/dsp/optimization/custom-goal.md)
@@ -160,9 +161,9 @@ ht-degree: 3%
       + [订阅和请求访问 [!DNL On Demand] 高级库存交易](/help/dsp/inventory/on-demand-inventory-subscribe.md)
       + [重新请求 [!DNL On Demand] 高级库存交易](/help/dsp/inventory/on-demand-inventory-rerequest.md)
       + [查看 [!DNL On Demand] 交易请求和订阅的状态](/help/dsp/inventory/on-demand-inventory-view-status.md)
-   + 专用清单 {#private-inventory}
-      + [关于专用清单](/help/dsp/inventory/private-inventory-about.md)
-      + 交易编号 {#deal-ids}
+   + 专用库存 {#private-inventory}
+      + [关于专用库存](/help/dsp/inventory/private-inventory-about.md)
+      + 交易ID {#deal-ids}
          + [!UICONTROL Deal ID Inbox] {#inbox}
             + [关于[!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
             + [在[!UICONTROL Deal ID Inbox]中接受交易](/help/dsp/inventory/deal-id-inbox-accept.md)
@@ -221,7 +222,7 @@ ht-degree: 3%
 + 资源 {#resources}
    + [管理URL](/help/dsp/resources/lists-url-manage.md)
 + 管理 {#admin}
-   + [编辑您的配置文件](/help/dsp/admin/user-own-profile-edit.md)
+   + [编辑您的个人资料](/help/dsp/admin/user-own-profile-edit.md)
    + 用户 {#users}
       + [邀请新用户](/help/dsp/admin/user-invite.md)
       + [重新发送待处理用户邀请](/help/dsp/admin/user-resend-invite.md)
@@ -232,9 +233,9 @@ ht-degree: 3%
    + 通知 {#notifications}
       + [关于警报订阅](/help/dsp/admin/alerts-about.md)
       + [管理警报订阅](/help/dsp/admin/alerts-manage.md)
-+ [与Adobe Experience Cloud的集成](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hans)
++ [与Adobe Experience Cloud的集成](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [获取帮助](/help/dsp/get-help.md)
-+ [Adobe Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)
++ [Adobe Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
