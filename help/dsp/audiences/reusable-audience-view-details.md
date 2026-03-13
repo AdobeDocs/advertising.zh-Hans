@@ -3,9 +3,9 @@ title: 查看有关可重用受众的详细信息
 description: 了解如何查看可重用受众的配置和受众大小。
 feature: DSP Audiences
 exl-id: b7ef5af5-0b82-474b-b769-135f80ba5460
-source-git-commit: 5f96a9b1097137a337733be4f1df9bd6b9670626
+source-git-commit: ddd55586ed895962b8f6da0390a3d76fe43ca1ca
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. 将光标悬停在受众行上并单击&#x200B;**[!UICONTROL View Details]**。
 
-1. （可选）要按设备类型（适用于基于Cookie的ID）和通用ID类型查看活动或受众成员总数，请单击&#x200B;**[!UICONTROL Active]**&#x200B;或&#x200B;**[!UICONTROL Total]**&#x200B;受众大小旁边的![设备划分](/help/dsp/assets/device-breakdown.png)。
+1. （可选）要按设备类型（适用于基于Cookie的ID）和通用ID类型查看活动受众成员的数量，请单击受众规模旁边的![设备划分](/help/dsp/assets/device-breakdown.png)。
 
 1. （可选）要编辑受众设置，请单击&#x200B;**[!UICONTROL Edit Audience]**&#x200B;并[编辑受众名称和配置](reusable-audience-edit.md)。
 
