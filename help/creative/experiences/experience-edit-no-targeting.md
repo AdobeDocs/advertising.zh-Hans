@@ -3,9 +3,9 @@ title: 编辑体验，而无需决策树定位
 description: 了解如何编辑广告体验的设置，而无需进行定位。
 feature: Creative Experiences
 exl-id: 29f54944-72a0-405a-bc11-87ea03edc09a
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -35,3 +35,4 @@ ht-degree: 0%
 >* [在不定位的情况下自定义体验的创意优化和计划](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
 >* [导出和实施实时体验的广告体验标记](/help/creative/experiences/experience-tag-export.md)
 >* [创建没有决策树定位的体验](experience-create-no-targeting.md)
+>* [查看体验的更改日志](/help/creative/experiences/experience-view-change-log.md)

@@ -3,9 +3,9 @@ title: 自定义体验的创意优化和计划
 description: 了解如何针对目标体验配置优化和广告计划。
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -130,3 +130,4 @@ ht-degree: 0%
 >
 >* [向体验中的最终节点分配和取消分配创意包](/help/creative/experiences/experience-assign-creative-bundles.md)
 >* [自定义创意内容的跟踪URL](/help/creative/experiences/experience-tracking-urls-targeting.md)
+>* [查看体验的更改日志](/help/creative/experiences/experience-view-change-log.md)

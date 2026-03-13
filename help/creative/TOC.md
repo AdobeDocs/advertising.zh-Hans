@@ -1,12 +1,12 @@
 ---
 role: User
-user-guide-title: Advertising Creative指南
-user-guide-description: 了解使用Advertising Creative所需的主要功能、任务、设置和其他资源。
+user-guide-title: Advertising Creative 指南
+user-guide-description: 了解使用 Advertising Creative 所需的主要功能、任务、设置及相关资源。
 breadcrumb-title: 创意指南
-source-git-commit: 0f1355be9eab674970207afb03c56d2857ea24ae
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 1%
+source-wordcount: '392'
+ht-degree: 5%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 1%
    + [关于Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [自定义数据视图](/help/creative/introduction/customize-data-views.md)
    + [动态广告的工作流](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans){target="_blank"}
-   + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans){target="_blank"}
+   + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Creative库 {#creative-libraries}
    + [关于您的创意库](/help/creative/creative-libraries/creative-libraries-about.md)
    + [支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)
@@ -39,6 +39,7 @@ ht-degree: 1%
       + [将创意内容附加到捆绑包](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [复制创意](/help/creative/creative-libraries/creative-duplicate.md)
       + [下载创意内容](/help/creative/creative-libraries/creative-download.md)
+      + [查看创意内容的更改日志](/help/creative/creative-libraries/creative-view-change-log.md)
       + [删除创意内容](/help/creative/creative-libraries/creative-delete.md)
    + Creative包 {#bundles}
       + [管理创意包](/help/creative/creative-libraries/bundle-manage.md)
@@ -76,6 +77,7 @@ ht-degree: 1%
    + [共享体验URL](/help/creative/experiences/experience-share-demo-url.md)
    + [从[!UICONTROL Experiences]视图下载数据](/help/creative/experiences/experience-download-view.md)
    + [重命名广告标记](/help/creative/experiences/experience-tag-rename.md)
+   + [查看体验的更改日志](/help/creative/experiences/experience-view-change-log.md)
    + [删除体验](/help/creative/experiences/experience-delete.md)
 + 信息源 {#feeds}
    + [管理资源文件](/help/creative/feeds/asset-manage.md)
@@ -93,4 +95,4 @@ ht-degree: 1%
 + [正在重新定位像素](/help/creative/pixels/retargeting-pixel-manage.md)
 + [可用于跟踪URL的宏](/help/creative/creative-macros.md)
 + [获取帮助](/help/creative/get-help.md)
-+ [Adobe Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans){target="_blank"}
++ [Adobe Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

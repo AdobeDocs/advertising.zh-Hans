@@ -3,9 +3,9 @@ title: 从[!UICONTROL Experiences]视图下载数据
 description: 了解如何从[!UICONTROL Experiences]视图导出元数据。
 feature: Creative Experiences
 exl-id: 8362ac34-0de8-4bed-873d-dc20f39946bf
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -26,3 +26,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >* [关于Advertising Creative中的体验](/help/creative/experiences/experience-about.md)
+>* [查看体验的更改日志](/help/creative/experiences/experience-view-change-log.md)

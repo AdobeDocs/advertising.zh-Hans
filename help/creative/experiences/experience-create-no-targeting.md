@@ -3,9 +3,9 @@ title: 在不使用决策树定位的情况下创建体验
 description: 了解如何在不定位的情况下创建广告体验。
 feature: Creative Experiences
 exl-id: 327b1df5-5663-4513-9238-f481370c8c38
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -51,3 +51,4 @@ ht-degree: 0%
 >* [在不定位的情况下自定义体验的跟踪URL](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
 >* [在不定位的情况下自定义体验的创意优化和计划](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
 >* [导出和实施实时体验的广告体验标记](/help/creative/experiences/experience-tag-export.md)
+>* [查看体验的更改日志](/help/creative/experiences/experience-view-change-log.md)
