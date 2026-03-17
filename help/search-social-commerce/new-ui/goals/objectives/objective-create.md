@@ -4,9 +4,9 @@ description: 了解如何创建目标。
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 21516197-d005-4703-8735-c789107dc3c4
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 67bbcbd318144022adfac7688c7bd2e0fee588d5
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. 输入目标设置。
 
-有关说明，请参阅用户界面中的帮助或“优化指南”(可从“搜索”、“社交”和“Commerce”中获取)。
+有关说明，请参阅用户界面中的帮助或“优化指南”（可从“搜索”、“社交”和“Commerce”中获取）。
 
 1. 在设置的底部，单击&#x200B;**[!UICONTROL Save]**。
 
@@ -39,3 +39,4 @@ ht-degree: 0%
 >* [编辑目标](objective-edit.md)
 >* [将权重推荐应用于目标](objective-apply-weight-recommendations.md)
 >* [目标设置](objective-settings.md)
+>* [下载目标的性能数据](objective-download-performance-data.md)

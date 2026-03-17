@@ -4,9 +4,9 @@ description: 了解实现业务目标的目标。
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 67bbcbd318144022adfac7688c7bd2e0fee588d5
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,8 @@ ht-degree: 0%
 * 将权重推荐应用于量度。
 
 >[!NOTE]
->* (搜索、社交和Commerce)当您[创建项目组合](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)或稍后[修改项目组合设置](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)时，可以将目标与项目组合关联。
->* (具有链接到Search、Social和Commerce帐户的DSP帐户的广告商)在Advertising DSP中，您可以选择目标作为具有包级别步调的包的[自定义优化目标](/help/dsp/campaign-management/packages/package-settings.md)。
+>* （搜索、社交和Commerce）当您[创建项目组合](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)或稍后[修改项目组合设置](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)时，可以将目标与项目组合关联。
+>* （具有链接到Search、Social和Commerce帐户的DSP帐户的广告商）在Advertising DSP中，您可以选择目标作为具有包级别步调的包的[自定义优化目标](/help/dsp/campaign-management/packages/package-settings.md)。
 >* 您可以对多个Search、Social和Commerce项目组合和/或多个DSP项目组合使用同一目标。
 >* [!UICONTROL Objectives]视图中每个目标的指标不包括DSP中的数据。
 
@@ -68,3 +68,4 @@ ht-degree: 0%
 >* [删除目标](objective-delete.md)
 >* [将权重推荐应用于目标](objective-apply-weight-recommendations.md)
 >* [目标设置](objective-settings.md)
+>* [下载目标的性能数据](objective-download-performance-data.md)
