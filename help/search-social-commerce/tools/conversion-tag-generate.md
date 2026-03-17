@@ -1,24 +1,26 @@
 ---
-title: 生成Adobe Advertising转化跟踪标记
+title: 生成并实施Adobe Advertising转化跟踪标记
 description: 了解如何创建Adobe Advertising转化标记以跟踪您的转化事件。
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d92fc3fa1ce218788890c073df22afa336aa9ad1
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
-# 生成Adobe Advertising转化跟踪标记
+# 生成并实施Adobe Advertising转化跟踪标记
 
 *仅具有Adobe Advertising转化跟踪的广告商*
 
-为要跟踪的每个量度集创建单独的转化标记，并为广告商或代理机构提供要插入每个量度的网页列表。
+为要跟踪的每组量度创建单独的转化标记。
+
+## 在Search、Social和Commerce中生成并实施转化跟踪标记
 
 >[!NOTE]
 >
->此功能不会将图像标记或[!DNL JavaScript]标记添加到广告商的网页。 必须按照广告商更新网页的正常过程添加标记。
+>此功能不会将图像标记或[!DNL JavaScript]标记添加到广告商的网页。 向广告商或代理机构提供要在其上插入每个标签的网页列表。 必须按照广告商更新网页的正常过程添加标记。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Tags]**。
 
@@ -36,7 +38,7 @@ ht-degree: 0%
 >
 >新转化标记中的每个量度都会自动列在[!UICONTROL Admin] > [!UICONTROL Conversions]中，即使它未实施或它所处的网页未收到任何点击也是如此。 此行为不同于手动或其他位置创建的标记中的量度行为，这些标记不会在[!UICONTROL Admin] > [!UICONTROL Conversions]中列出，直到其所在的某个网页收到点击为止。 但是，在所有情况下，每个量度最初都从项目组合目标、报表和视图中排除，直到您明确提供它们。 但是，在将量度添加到项目组合目标之前，请考虑先使量度可用，并将它们添加到报表以验证它们何时收到点击量。
 
-## Adobe Advertising转换标记设置 {#conversion-tag-settings}
+### Adobe Advertising转换标记设置 {#conversion-tag-settings}
 
 **[!UICONTROL Tag Type]：**&#x200B;要创建的标记类型：
 
@@ -52,7 +54,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->添加到此列表的量度未保存在任何位置，也未与[!UICONTROL Admin]选项卡上的客户端[!UICONTROL Conversions]列表集成。 但是，一旦Adobe Advertising实际收集某个量度的数据，量度就会自动添加到客户端的[!UICONTROL Conversions]列表中，这种情况会在转化标记在页面上实施并且最终用户完成打开该页面的事务时发生。
+>添加到此列表的量度未保存在任何位置，也未与[!UICONTROL Conversions]选项卡上的客户端[!UICONTROL Admin]列表集成。 但是，一旦Adobe Advertising实际收集某个量度的数据，量度就会自动添加到客户端的[!UICONTROL Conversions]列表中，这种情况会在转化标记在页面上实施并且最终用户完成打开该页面的事务时发生。
 
 **[!UICONTROL Include unique transaction IDs]：**（可选）在标记中包含交易ID属性(`ev_transid=<transid>`)。 默认情况下会选中该选项。
 
@@ -71,6 +73,72 @@ ht-degree: 0%
 **[!UICONTROL JS Version]：** （仅限[!DNL JavaScript]个标记）要创建的[!DNL JavaScript]标记的版本： *[!UICONTROL v2]* （默认值）或&#x200B;*[!UICONTROL v3]*。
 
 请参阅有关Adobe Advertising转化和页面查看跟踪标记的[常见问题解答](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)。 以了解关于这些差异的更多信息。
+
+## 使用Adobe Experience Platform标记实施转化跟踪标记
+
+您可以使用Adobe Experience Platform（以前称为Adobe Experience Platform Launch）中的标记为“搜索”、“社交”和“Commerce”设置转化跟踪。 Adobe Experience Cloud客户可以使用标记作为随附的增值功能来获取这些标记。
+
+从Experience Platform用户界面或Experience Platform数据收集用户界面为Search、Social和Commerce配置转化跟踪标记时，需要执行以下任务。 有关配置标记的完整信息和说明，请参阅Experience Platform标记指南，从“[标记概述](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)”和“[快速入门指南](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)”开始。
+
+>[!PREREQUISITES]
+>
+>要安装所需的标记扩展，请让您的组织管理员访问UI中的数据收集功能，包括`manage_properties`权限。
+
+1. 从[数据收集UI](https://experience.adobe.com/#/data-collection/)，安装Adobe Advertising [扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview)：
+
+   1. 从适用的属性中，打开扩展目录并选择&#x200B;**Adobe Advertising**。
+
+   1. 从下拉菜单中，选择&#x200B;**SSC**（用于Search、Social和Commerce）。
+
+   1. 在&#x200B;**SSC UserID**&#x200B;字段中，输入您组织的Search、Social和Commerce帐户的数字用户ID。
+
+      如果您不知道自己的用户ID，请联系您的Adobe客户团队。
+
+   1. 单击&#x200B;**保存**。
+
+1. 创建新规则（例如“form_completes”）以触发“搜索”、“社交”和“Commerce”转化标记：
+
+   1. 在Event Configuration部分：
+
+      1. 选择以下值：
+
+         **扩展名：**`Core`
+
+         **事件类型：** `Library Loaded (Page Top)`
+
+      1. 单击&#x200B;**保留更改**。
+
+   1. 在条件配置部分中：
+
+      1. 指定以下值：
+
+         **逻辑类型：** `Regular`
+
+         **扩展名：**`Core`
+
+         **条件类型：** `Path Without Query String`
+
+         **如果路径等于：**&#x200B;应跟踪转化的路径（例如，`/form_complete`），则返回true。
+
+      1. 单击&#x200B;**保留更改**。
+
+   1. 在操作配置部分中：
+
+      1. 指定以下值：
+
+         **扩展名：**`Adobe Advertising`
+
+         **操作类型：** `AMO Measurement`
+
+         **转换属性名称：**&#x200B;转换属性的名称（例如，`form_completes`）。
+
+         **值：**&#x200B;转换属性的数值（例如`1`跟踪form_completes），或选择现有的[数据元素](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)。
+
+      1. 单击&#x200B;**保留更改**。
+
+   1. 保存规则。
+
+1. 发布更改。
 
 >[!MORELIKETHIS]
 >
