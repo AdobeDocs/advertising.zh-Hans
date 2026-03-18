@@ -1,16 +1,16 @@
 ---
-title: Campaign Management视图中的性能报表类型
+title: 营销活动管理视图中的性能报表类型
 description: 了解营销活动管理视图中包含的报表数据。
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: eba8e9813f8daea58b30f7890ac2dca2498f326f
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
 
 ---
 
-# Campaign Management视图中的性能报表类型
+# 营销活动管理视图中的性能报表类型
 
 营销活动管理视图包括全面的报告数据。 可用报告可帮助您识别性能良好的资源包和投放位置以及需要您关注的资源包和投放位置。 快速操作按钮还可提高您的工作效率。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![营销活动列表](/help/dsp/assets/campaigns-list.png)
 
-默认情况下，每个营销活动行都包含步调和投放量度。 步调量度包括[!UICONTROL Gross Spend (Lifetime)]，其中包括对营销活动中所有包的实际目标上支出与预期目标上支出的衡量，因此您可以一目了然地识别表现不佳的营销活动。 您可以选择更改列视图[&#128279;](campaign-data-views-manage.md#column-view-change)，甚至[创建自定义列视图](campaign-data-views-manage.md#column-view-create)。
+默认情况下，每个营销活动行都包含步调和投放量度。 步调量度包括[!UICONTROL Gross Spend (Lifetime)]，其中包括对营销活动中所有包的实际目标上支出与预期目标上支出的衡量，因此您可以一目了然地识别表现不佳的营销活动。 您可以选择更改列视图[，甚至](campaign-data-views-manage.md#column-view-change)创建自定义列视图[。](campaign-data-views-manage.md#column-view-create)
 
 您可以进一步[以其他方式自定义数据表](campaign-data-views-manage.md#data-tables-manage)和[筛选可见数据](campaign-data-views-manage.md#filter-data-tables)。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 对于每个营销活动，您可以[使用三个量度（可在每个实体视图中找到）自定义时间序列趋势图](campaign-data-views-manage.md#data-visualizations-manage)。 促销活动的所有趋势图中都保留相同的量度。
 
-有关详细信息，请参阅跨营销活动量度[&#128279;](#chart-view)上的“图表视图”部分。
+有关详细信息，请参阅跨营销活动量度[上的](#chart-view)“图表视图”部分。
 
 ### 表格视图
 
@@ -87,6 +87,6 @@ ht-degree: 0%
 >
 >* [查看投放位置的网站、广告和频率详细信息](placement-details-view.md)
 >* [管理您的Campaign数据视图](campaign-data-views-manage.md)
->* [从Campaign Management视图中导出数据](campaign-export-data.md)
+>* [从营销活动管理视图中导出数据](campaign-export-data.md)
 >* [查看营销活动的详细报告](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
 >* [查看警报](campaign-alerts.md)

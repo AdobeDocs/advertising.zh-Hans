@@ -3,7 +3,7 @@ title: 投放设置
 description: 请参阅可用版面设置的说明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: f8f877552018de50649fbba22c56452775e72df3
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '4436'
 ht-degree: 0%
@@ -187,7 +187,7 @@ ht-degree: 0%
 
   您可以按源或信息源查看列表。 在按信息源查看列表时，您可以按信息源名称、信息源密钥或选定的特征标记进行搜索。
 
-* [!UICONTROL Private] | [!UICONTROL Roku Private]：您与在DSP中设置的发布商的现有私人交易（或用于[!DNL Roku]投放位置的现有私人[!DNL Roku]交易），以及您现有的[私人交易列表](/help/dsp/inventory/lists-deals-manage.md)。 您可以包括（但不排除）公共库存。
+* [!UICONTROL Private] | [!UICONTROL Roku Private]：您与在DSP中设置的出版商的现有私人交易（或[!DNL Roku]投放位置的现有私人[!DNL Roku]交易），以及您现有的[私人交易列表](/help/dsp/inventory/lists-deals-manage.md)。 您可以包括（但不排除）公共库存。
 
   在[!UICONTROL Deals]选项卡中，您可以按关键字、密钥、交易ID或自定义标记搜索列表。 在[!UICONTROL Deal Lists]选项卡中，您可以按交易列表名称或交易列表ID搜索列表。
 
@@ -296,7 +296,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Custom Segments]**&#x200B;选项卡：列出您组织的[!DNL Peer39]自定义区段。
 
-* **[!UICONTROL Paste Segments]**&#x200B;选项卡： (其组织具有[!DNL Comscore]伙伴关系的广告商；从您的Adobe客户团队激活后可用)为组织的[!DNL Comscore]上下文区段输入一个或多个区段ID或区段名称。 用逗号分隔多个值（如Segment1、Segment2、Segment3）。
+* **[!UICONTROL Paste Segments]**&#x200B;选项卡： （其组织具有[!DNL Comscore]伙伴关系的广告商；从您的Adobe客户团队激活后可用）为组织的[!DNL Comscore]上下文区段输入一个或多个区段ID或区段名称。 用逗号分隔多个值（如Segment1、Segment2、Segment3）。
 
 **[!UICONTROL Language]：**（可选）目标单一语言。
 
@@ -357,7 +357,7 @@ ht-degree: 0%
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 选择适用的时区。
 1. 指定间隔：
-   * 要选择预设间隔，请单击其中一个间隔按钮。 选项包括&#x200B;*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
+   * 要选择预设间隔，请单击其中一个间隔按钮。 选项包括*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
    * 要手动选择间隔，请单击单元格内部，也可以拖动以选择间隔。
 1. 单击&#x200B;**[!UICONTROL Save]**。
 

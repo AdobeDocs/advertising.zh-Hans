@@ -1,22 +1,22 @@
 ---
-title: 查看放置诊断报告
+title: 查看版面[!UICONTROL Diagnostics]报告
 description: 了解如何诊断投放位置设置和步调的问题。
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
-# 查看放置诊断报告
+# 查看版面[!UICONTROL Diagnostics]报告
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
 
 诊断报告可以帮助您诊断投放位置设置和活动开始后的步调问题。
 
-## 放置诊断报告中的信息
+## 版面[!UICONTROL Diagnostics]报告中的信息
 
 * **[!UICONTROL Change Log]：**&#x200B;显示对密钥放置设置的更改，如名称、状态和最高出价。 每个条目都包含进行更改的人员的日期和用户名。
 
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Non Bids]：**&#x200B;显示DSP未对投放位置出价的原因。
 
-## 打开放置诊断报告
+## 打开版面[!UICONTROL Diagnostics]报告
 
-1. 打开“Diagnostics（诊断）”报告：
+1. 打开[!UICONTROL Diagnostics]报表：
 
    1. 打开版面设置：
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
       1. （可选）要打开广告设置，请单击广告旁边的&#x200B;**[!UICONTROL View Ad]**。
 
-   * 要了解DSP为什么没有对投放位置出价：
+   * 要了解为什么DSP没有对投放位置出价：
 
       1. 单击右上角的&#x200B;**[!UICONTROL Non Bids]**。
 
@@ -72,6 +72,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* Campaign Management视图中的[性能报告类型](campaign-reports-about.md)
+>* 营销活动管理视图中的[性能报表类型](campaign-reports-about.md)
 >* [查看投放预测报告](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [位置设置](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -3,7 +3,7 @@ title: 使用批量处理工作表查看和编辑置入设置
 description: 了解如何使用电子表格批量查看和编辑关键位置设置。
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >要快速编辑一个或多个投放位置的多个字段，请参阅[编辑投放位置](/help/dsp/campaign-management/placements/placement-edit.md)。
 
-## 营销活动中所有版面的下载设置
+## 下载营销活动中所有投放位置的设置
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 当任何设置更新失败时，您可以下载带有颜色编码的批量工作表错误文件，以显示已保存哪些设置（行）以及哪些设置（行）失败，以及每个失败的原因。 然后，您可以在同一文件中解决问题，并再次上传它以处理更正后的信息。
 
 <!--
-## Placement Setting Columns in Downloaded/Uploaded Bulksheets{#qa-sheet-columns}
+## Placement setting columns in downloaded/uploaded bulksheets{#qa-sheet-columns}
 
 >[!TIP]
 >

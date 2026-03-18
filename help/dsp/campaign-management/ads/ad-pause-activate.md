@@ -3,7 +3,7 @@ title: 暂停或激活广告
 description: 了解如何暂停或激活广告。
 feature: DSP Ads
 exl-id: f39d36c2-4c62-462b-bb92-29458890661e
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
@@ -33,12 +33,12 @@ ht-degree: 0%
 1. 选择您的编辑模式。
 1. 选择&#x200B;**[!UICONTROL Submit]**
 
-## 暂停或激活单个投放位置的广告
+## 暂停或激活单个投放位置上的广告
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 1. 单击营销活动的名称。
 1. 在子菜单中，单击&#x200B;**[!UICONTROL Placements]**。
-1. 在版面名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Ads]**&#x200B;以打开版面[!UICONTROL Inspector]的[!UICONTROL Ads]选项卡。
+1. 在版面名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Ads]**&#x200B;以打开版面[!UICONTROL Ads]的[!UICONTROL Inspector]选项卡。
 1. 在广告名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Pause]**&#x200B;或&#x200B;**[!UICONTROL Activate]**。
 
 >[!NOTE]

@@ -3,7 +3,7 @@ title: 使用批量处理工作表查看和编辑包设置
 description: 了解如何使用电子表格批量查看和编辑关键包设置。
 feature: DSP Packages
 exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
-source-git-commit: c482f476de5b79ee9a363791d62ba8c2ada12cbc
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -107,7 +107,7 @@ ht-degree: 0%
 当任何设置更新失败时，您可以下载带有颜色编码的批量工作表错误文件，以显示已保存哪些设置（行）以及哪些设置（行）失败，以及每个失败的原因。 然后，您可以在同一文件中解决问题，并再次上传它以处理更正后的信息。
 
 <!--
-## Package Setting Columns in Downloaded/Uploaded Bulksheets{#qa-sheet-columns-packages}
+## Package setting columns in downloaded/uploaded bulksheets{#qa-sheet-columns-packages}
 
 >[!TIP]
 >

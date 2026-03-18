@@ -2,7 +2,7 @@
 title: 发布者特定的广告规范
 description: 参考支持的发布者的广告规范。
 feature: DSP Ads
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 0%

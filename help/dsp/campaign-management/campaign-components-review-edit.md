@@ -3,7 +3,7 @@ title: 使用批量处理工作表查看和编辑Campaign组件设置
 description: 了解如何使用电子表格批量查看和编辑关键包、投放位置和广告设置。
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >您还可以仅下载和编辑特定包和特定投放位置的设置。 请参阅[使用批量处理工作表查看和编辑包设置](/help/dsp/campaign-management/packages/package-qa.md)和[使用批量处理工作表查看和编辑置入设置](/help/dsp/campaign-management/placements/placement-qa.md)。
 
-## 营销活动中包、投放位置和广告的下载设置 {#download-bulksheet-campaign}
+## 下载营销活动中包、投放位置和广告的设置 {#download-bulksheet-campaign}
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 
@@ -74,13 +74,13 @@ ht-degree: 0%
 
 
 <!--
-## Placement Setting Columns in Downloaded/Uploaded Spreadsheets{#qa-sheet-columns}
+## Placement setting columns in downloaded/uploaded spreadsheets{#qa-sheet-columns}
 
 >[!TIP]
 >
 > In a downloaded spreadsheet, all editable columns are highlighted in blue.
 
-### Campaign-level Spreadsheets
+### Campaign-level spreadsheets
 
 | Section | Column | Description | Editable? |
 |---------|--------|-------------|-----------|

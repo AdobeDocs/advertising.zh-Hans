@@ -1,16 +1,16 @@
 ---
-title: 关于Advertising DSP中的版面管理
+title: 关于Advertising DSP中的置入管理
 description: 了解版面管理。
 feature: DSP Placements
 exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
-source-git-commit: 6233ba0b0cb779ed848cb921427543cea8586700
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
-# 关于Advertising DSP中的版面管理
+# 关于Advertising DSP中的置入管理
 
 投放位置包括相同广告类型的一个或多个广告的定位参数。 您可以为单个营销活动或营销策划包创建投放位置，然后为其分配广告。 每个营销活动或投放位置均可包含多个投放位置，并具有指定的广告轮换。 默认情况下，广告会平均旋转。 您可以为各种投放目标类型单独配置竞价乘数。
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 您可以手动创建版面，也可以复制现有版面。 也可以手动或从现有版面创建要重用的版面模板。 您可以将其他广告附加到任何投放位置。 您还可以编辑、暂停或存档单个投放位置，或者使用批量编辑工具进行更改。
 
-## 可用投放位置类型
+## 可用的投放位置类型
 
 * 前置式广告
 * 移动设备

@@ -1,16 +1,16 @@
 ---
-title: 查看投放的网站、广告、频度和库存详细信息
+title: 查看投放的网站、广告、频率和库存详细信息
 description: 了解如何查看投放的目标网站、广告、频率和库存数据。
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
 
 ---
 
-# 查看投放的网站、广告、频度和库存详细信息
+# 查看投放的网站、广告、频率和库存详细信息
 
 对于每个投放位置，您可以[打开（详细信息视图[!UICONTROL Inspector]）](placement-details-view.md)，其中列出了投放位置中的所有目标网站、广告和交易。 其中还包括投放的频率数据。 您可以选择从任何选项卡导出数据。
 

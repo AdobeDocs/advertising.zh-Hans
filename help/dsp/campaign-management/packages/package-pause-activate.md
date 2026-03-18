@@ -3,7 +3,7 @@ title: 暂停或激活包
 description: 了解如何暂停或激活资源包。
 feature: DSP Packages
 exl-id: c4a6fb08-14db-4c8b-ab7a-0bbc0f201390
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%

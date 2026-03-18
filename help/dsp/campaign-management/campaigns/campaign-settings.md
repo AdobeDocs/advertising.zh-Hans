@@ -3,7 +3,7 @@ title: Campaign设置
 description: 请参阅可用营销活动设置的描述。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 9d26e097f007b570c0f0e3b7f02c683a84d5e647
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 0%

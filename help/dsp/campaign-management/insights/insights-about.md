@@ -3,7 +3,7 @@ title: 关于见解
 description: 了解可视化图表的性能见解。
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 您还可以[更改日期范围、配置视图并保存自定义视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md){target="_blank"}，就像您为促销活动管理视图所做的那样。
 
-## 分析类型
+## 见解类型
 
 ### [!UICONTROL Home]选项卡
 
@@ -104,11 +104,11 @@ ht-degree: 0%
 
 1. （可选）要进一步缩小数据范围，请在工具栏中选择实体类型，然后选择特定实体值（单个营销活动、资源包或投放位置）。
 
-## 更改为Insight报告的Dimension
+## 更改为insight报告的维度
 
 * 从insight左上角的下拉菜单中，选择维度。
 
-## 更改为Insight报告的指标
+## 更改为insight报告的指标
 
 对于转化量度，同时支持Adobe Advertising跟踪和Adobe Analytics跟踪的转化。
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
   该文件将保存到浏览器的默认“下载”文件夹中。
 
-## 将特定的Insight下载到XLSX文件
+## 将特定的insight下载到XLSX文件
 
 * 单击insight右上角的![下载](/help/creative/assets/download.png "下载")。
 
@@ -131,6 +131,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于自定义报告](/help/dsp/reports/report-about.md)
->* 营销活动管理视图中的[性能报表类型](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [可用报告列](/help/dsp/reports/report-columns.md)
->* [管理您的Campaign数据视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [促销活动管理视图中的性能报告类型](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [可用的报表列](/help/dsp/reports/report-columns.md)
+>* [管理您的营销活动数据视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

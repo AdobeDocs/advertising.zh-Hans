@@ -3,7 +3,7 @@ title: 查看广告的详细报告
 description: 了解如何使用概述、地理位置和可见性数据打开广告级别报表。
 feature: DSP Ads, DSP Campaign Data Views
 exl-id: 61e964af-b133-4c86-9672-27167ac6bad1
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
@@ -23,5 +23,5 @@ ht-degree: 0%
 >
 >* [查看投放位置的详细报告](/help/dsp/campaign-management/placements/placement-view-report.md)
 >* [查看营销活动的详细报告](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* Campaign Management视图中的[性能报告类型](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [促销活动管理视图中的性能报告类型](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [关于自定义报告](/help/dsp/reports/report-about.md)

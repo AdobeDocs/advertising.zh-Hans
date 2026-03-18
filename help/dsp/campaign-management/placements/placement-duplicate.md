@@ -3,7 +3,7 @@ title: 复制投放位置
 description: 了解如何复制一个或多个投放位置。
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%

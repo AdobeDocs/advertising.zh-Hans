@@ -3,7 +3,7 @@ title: 已连接电视广告设置
 description: 请参阅已连接电视广告可用广告设置的说明。
 feature: DSP Ads
 exl-id: d8e47f7e-7480-400f-8ffa-ecf41ce2ebfb
-source-git-commit: 863bf7a4d8304e42b7004742de59b9e1a09f81b7
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
