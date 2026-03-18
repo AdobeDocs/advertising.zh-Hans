@@ -3,7 +3,7 @@ title: 管理受众源以激活通用ID受众
 description: 了解如何创建和管理源以从客户数据平台导入受众，并将它们转换为包含通用ID的区段。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: e9ce180e302f619c85a3d6db813c83903e437d04
+source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 *Beta功能*
 
-在DSP中为客户数据平台中的每个第一方受众创建一个源，您要将该受众转换为包含指定通用ID类型的区段。 您可以将区段导入到贵组织的DSP帐户或广告商帐户。 根据所选通用ID类型收取数据费用。 创建源后，需要执行其他步骤以从每个客户数据平台摄取受众。 请参阅过程末尾的注释以创建源。
+在DSP中为客户数据平台中的每个第一方受众创建一个源，以便您将其转换为包含指定通用ID类型的区段。 您可以将区段导入到贵组织的DSP帐户或广告商帐户。 根据所选通用ID类型收取数据费用。 创建源后，需要执行其他步骤以从每个客户数据平台摄取受众。 请参阅过程末尾的注释以创建源。
 
 您可以稍后更改源受众将翻译成的通用ID类型，并查看更改日志。
 
 您还可以删除源。
 
-## 创建受众Source
+## 创建受众源
 
 <!-- Not sure about this
 
@@ -54,9 +54,9 @@ You can create one source for each combination of universal ID partner and data 
 
 >[!NOTE]
 >
->为客户数据平台创建源后，必须完成其他步骤以导入受众。 查看 [!DNL Adobe] [!DNL Real-time CDP][&#128279;](source-adobe-rtcdp.md)的工作流、<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->的 [!DNL Amperity][&#128279;](source-amperity.md)的[工作流、 [!DNL Optimizely]](source-optimizely.md)的[工作流和 [!DNL Tealium]](source-tealium.md)的工作流。
+>为客户数据平台创建源后，必须完成其他步骤以导入受众。 查看[的 [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)工作流、<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->的[的 [!DNL Amperity]](source-amperity.md)工作流、[的 [!DNL Optimizely]](source-optimizely.md)工作流和[的 [!DNL Tealium]](source-tealium.md)工作流。
 
-## 更改Audience Source的ID类型
+## 更改受众源的ID类型
 
 <!-- Clarify this:
 All changes to universal IDs translated from the source are applied after you save the the source record. For example, if a new ID is added, any hashed email addresses shared before making the changes aren't converted. Similarly, if an ID is removed, we don't delete any historical data from the segments shared through the source.
@@ -71,11 +71,11 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. 将光标悬停在源行上并单击&#x200B;**[!UICONTROL Edit]**。
 
-1. 更改为源[&#128279;](#source-settings)选择的ID。
+1. 更改为源[选择的](#source-settings)ID。
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
-## 删除Audience Source
+## 删除受众源
 
 删除源将删除通过源翻译的区段。<!-- Will performance data for the segment still be available in any types of reports?  If yes, which? -->
 
@@ -85,7 +85,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. 在确认消息中，单击&#x200B;**[!UICONTROL Delete]**。
 
-## 查看Audience Source的更改日志
+## 查看受众源的更改日志
 
 您可以查看有关对受众源记录所做更改的详细信息，还可以选择将注释附加到日志。
 
@@ -103,7 +103,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. （可选）要在更大的详细信息屏幕中打开日志，请将光标悬停在源行上，然后单击&#x200B;**[!UICONTROL View Details]**。
 
-## Audience Source设置 {#source-settings}
+## 受众源设置 {#source-settings}
 
 **[!UICONTROL Data Visibility Level]：**&#x200B;区段是否可供具有帐户(*[!UICONTROL Advertiser]*)访问权限的单个广告商使用，或可供具有帐户&#x200B;*[!UICONTROL Account]*&#x200B;访问权限的所有广告商使用。
 
@@ -121,14 +121,14 @@ All changes to universal IDs translated from the source are applied after you sa
 
 * *[!DNL RampID]：*&#x200B;要将PII转换为[!DNL RampID]。 您可以使用[!DNL RampIDs]重新定位登录用户和[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)测量。
 
-* *[!DNL Unified ID2.0] (Beta)：*&#x200B;要将PII转换为[统一ID 2.0](https://unifiedid.com) ID以重新定位登录用户。
+* *[!DNL Unified ID2.0](Beta)：*&#x200B;要将PII转换为[统一ID 2.0](https://unifiedid.com) ID以重新定位登录用户。
 
 <!-- Later
 * *[!DNL ID5] (Beta):* To convert PII to an [!DNL ID5] ID. You can use [!DNL ID5] IDs for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.
 
 -->
 
-**[!UICONTROL Terms of Service]：**&#x200B;用于将PII转换为通用ID的服务条款协议。 您或DSP帐户中的其他用户必须接受一次这些条款，然后才能将数据转换为新的ID类型。 对于签订托管服务合同的客户，您的Adobe客户团队将代表贵组织获得您的同意并接受相关条款。 若要阅读术语，请单击&#x200B;**>**。 要接受条款，请滚动到条款的底部并单击&#x200B;**[!UICONTROL Accept]**。
+**[!UICONTROL Terms of Service]：**&#x200B;用于将PII转换为通用ID的服务条款协议。 您或DSP帐户中的其他用户必须接受一次这些条款，然后才能将数据转换为新的ID类型。 对于签订托管服务合同的客户，您的Adobe客户团队将代表贵组织获得您的同意并接受条款。 若要阅读术语，请单击&#x200B;**>**。 要接受条款，请滚动到条款的底部并单击&#x200B;**[!UICONTROL Accept]**。
 
 **[!UICONTROL Source Key]：**（只读；自动生成）可用于在客户数据平台中创建目标连接以将受众推送到Advertising DSP的源密钥。 您可以将值复制到剪贴板以粘贴到目标连接设置或文件中。
 

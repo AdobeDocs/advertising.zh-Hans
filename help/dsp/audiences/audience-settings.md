@@ -3,10 +3,10 @@ title: 受众设置
 description: 请参阅可用受众设置的描述。
 feature: DSP Audiences
 exl-id: ea69ed6e-2d68-4ac5-8465-2ee7d798ae1d
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: e61f3c7d066a72f9a438ef292122cdf99370fd0c
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->(DSP将其哈希电子邮件ID转换为LiveRamp RampID区段的广告商)现在会暂停未附加到活动、计划或暂停投放位置的第一方RampID区段。 该区段在区段列表中标记为“自动暂停”。
+>（DSP将其哈希电子邮件ID转换为LiveRamp RampID区段的广告商）现在会暂停未附加到活动、计划或暂停投放位置的第一方RampID区段。 该区段在区段列表中标记为“自动暂停”。
 
 ## Adobe区段
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 自定义区段
 
-（可选）要包含在受众配置中的用户创建的任何区段(使用自定义DSP区段像素捕获)。 这可以包括标准自定义区段和CCPA选择退出销售区段。
+（可选）要包含在受众配置中的用户创建的任何区段（使用自定义DSP区段像素捕获）。 这可以包括标准自定义区段和CCPA选择退出销售区段。
 
 ## 保存的受众
 

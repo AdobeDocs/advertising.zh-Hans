@@ -3,7 +3,7 @@ title: 编辑可重用受众
 description: 了解如何编辑可重复使用的受众。
 feature: DSP Audiences
 exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->(DSP将其经过哈希处理的电子邮件ID转换为LiveRamp RampID区段的广告商)未附加到活动、计划或暂停投放位置的第一方RampID区段将会暂停。 该区段在区段列表中标记为“自动暂停”。
+>（DSP将其经过哈希处理的电子邮件ID转换为LiveRamp RampID区段的广告商）未附加到活动、计划或暂停投放位置的第一方RampID区段将会暂停。 该区段在区段列表中标记为“自动暂停”。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**。
 

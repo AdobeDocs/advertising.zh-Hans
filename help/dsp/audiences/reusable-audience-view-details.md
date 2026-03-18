@@ -3,7 +3,7 @@ title: 查看有关可重用受众的详细信息
 description: 了解如何查看可重用受众的配置和受众大小。
 feature: DSP Audiences
 exl-id: b7ef5af5-0b82-474b-b769-135f80ba5460
-source-git-commit: ddd55586ed895962b8f6da0390a3d76fe43ca1ca
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: 关于第一方受众源
 description: 了解如何将第一方区段中的其他用户标识符转换为通用ID以实现无痕定位。
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -68,31 +68,31 @@ Using your first-party data, you can create segments with IDs from the following
 
 DSP已建立到以下CDP的连接器，以快速摄取您的第一方区段。
 
-DSP还可以使用批处理、流式传输或基于API的数据共享连接到任何其他CDP。 要与新的CDP集成，请联系您的Adobe客户团队。
+DSP还可以使用批处理、流式处理或基于API的数据共享连接到任何其他CDP。 要与新的CDP集成，请联系您的Adobe客户团队。
 
 ### [!DNL Adobe Real-Time CDP]
 
-DSP是[the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hans)的集成&#x200B;*目标*，它是Adobe Experience Platform的一部分。
+DSP是&#x200B;*the*[的集成 [!DNL Adobe Real-Time CDP]目标](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hans)，它是Adobe Experience Platform的一部分。
 
-在[!DNL Real-Time CDP]中，目标是与外部数据平台的连接，可无缝激活数据。 您可以使用目标在DSP中为定向广告激活经过哈希处理的电子邮件地址。 有关目标的更多信息，请参阅Experience Platform[目标指南](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hans)，包括产品概述、有关[创建目标工作区](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html?lang=zh-Hans)和[创建目标连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=zh-Hans)以及[将数据激活到目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html?lang=zh-Hans)的说明。
+在[!DNL Real-Time CDP]中，目标是与外部数据平台的连接，可无缝激活数据。 您可以使用目标在DSP中为定向广告激活经过哈希处理的电子邮件地址。 有关目标的更多信息，请参阅Experience Platform [目标指南](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)，包括产品概述、有关[创建目标工作区](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html)和[创建目标连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html)以及[将数据激活到目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html)的说明。
 
 要使DSP能够摄取您的[!DNL Adobe] [!DNL Real-time CDP]第一方区段并将经过哈希处理的电子邮件地址转换为通用ID，请参阅“[将用户ID从 [!DNL Adobe Real-Time CDP] 转换为通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)”。
 
 ### [!DNL ActionIQ]
 
-您可以与DSP共享您组织从[!DNL ActionIQ]客户数据平台的第一方数据，以将经过哈希处理的电子邮件地址转换为通用ID，以便在DSP中进行目标广告。 此集成需要自定义。 有关更多信息，请与您的Adobe客户团队联系。
+您可以将[!DNL ActionIQ]客户数据平台中的贵组织的第一方数据与DSP共享，以将经过哈希处理的电子邮件地址转换为通用ID，以便在DSP中进行定位广告。 此集成需要自定义。 有关更多信息，请与您的Adobe客户团队联系。
 
 ### [!DNL Amperity]
 
-您可以与DSP共享您组织从[!DNL Amperity]客户数据平台的第一方数据，以将经过哈希处理的电子邮件地址转换为通用ID，以便在DSP中进行目标广告。 有关详细信息，请参阅[将用户ID从 [!DNL Amperity] 转换为通用ID](/help/dsp/audiences/sources/source-amperity.md)。
+您可以将[!DNL Amperity]客户数据平台中的贵组织的第一方数据与DSP共享，以将经过哈希处理的电子邮件地址转换为通用ID，以便在DSP中进行定位广告。 有关详细信息，请参阅[将用户ID从 [!DNL Amperity] 转换为通用ID](/help/dsp/audiences/sources/source-amperity.md)。
 
 ### [!DNL Optimizely]
 
-您可以与DSP共享您组织从[!DNL Optimizely]客户数据平台的第一方数据，以将经过哈希处理的电子邮件地址转换为通用ID，以便在DSP中进行目标广告。 有关详细信息，请参阅[将用户ID从 [!DNL Optimizely] 转换为通用ID](/help/dsp/audiences/sources/source-optimizely.md)。
+您可以将[!DNL Optimizely]客户数据平台中的贵组织的第一方数据与DSP共享，以将经过哈希处理的电子邮件地址转换为通用ID，以便在DSP中进行定位广告。 有关详细信息，请参阅[将用户ID从 [!DNL Optimizely] 转换为通用ID](/help/dsp/audiences/sources/source-optimizely.md)。
 
 ### [!DNL Tealium]
 
-您可以使用[!DNL Amazon Web Services]从[!DNL Tealium]客户数据平台共享您组织的第一方数据。 有关在DSP中将经过哈希处理的电子邮件地址转换为通用ID的详细信息，请参阅[将用户ID从 [!DNL Tealium] 转换为通用ID](/help/dsp/audiences/sources/source-tealium.md)。
+您可以使用[!DNL Tealium]从[!DNL Amazon Web Services]客户数据平台共享您组织的第一方数据。 有关在DSP中将经过哈希处理的电子邮件地址转换为通用ID以进行定向广告的更多信息，请参阅[将用户ID从 [!DNL Tealium] 转换为通用ID](/help/dsp/audiences/sources/source-tealium.md)。
 
 >[!MORELIKETHIS]
 >

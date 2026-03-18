@@ -3,7 +3,7 @@ title: 显示广告设置
 description: 请参阅显示广告可用广告设置的描述。
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 863bf7a4d8304e42b7004742de59b9e1a09f81b7
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%

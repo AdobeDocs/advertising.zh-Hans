@@ -1,16 +1,16 @@
 ---
-title: 认证广告服务合作伙伴
+title: 认证的广告服务合作伙伴
 description: 查看所有认证的广告服务器和广告单元。
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 70224b9e9c248d45a5ce227d296f2604dd06c222
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
 
 ---
 
-# 认证广告服务合作伙伴
+# 认证的广告服务合作伙伴
 
 | 广告服务器 | 音频 | 显示 | 高影响力显示 | 视频 | 特殊要求和说明 |
 | --- | --- | --- | --- | --- | --- |
@@ -43,7 +43,7 @@ ht-degree: 0%
 | [!DNL Innovid] | X | X | | X | |
 | [!DNL Inskin] | | | X | | 必须在Inskin库存网络中以180x150显示交易ID提供高影响力的外观（包括Cavai对话式广告）。 |
 | [!DNL Jivox] | | X | | | |
-| [!DNL Kargo] | | X | | X | 320x50 Anchor、BYOC、Hover、Breakout、Breakaway、Runtain和Sidekick；300x250 Outstream、High Rise；标准台式机显示屏（不需要特定广告插件ID）；视频锚点（仅限VAST）；CTV (通过[!DNL Pubmatic]</br></br>联系您的Adobe客户团队以获取设置广告单元的帮助。 |
+| [!DNL Kargo] | | X | | X | 320x50 Anchor、BYOC、Hover、Breakout、Breakaway、Runway和Sidekick；300x250 Outstream、High Rise；标准桌面显示屏（不需要特定广告插件ID）；视频锚点（仅限VAST）；CTV (通过[!DNL Pubmatic]</br></br>联系您的Adobe客户团队以获取设置广告单元的帮助。 |
 | [!DNL Linkstorm] | | | X | | |
 | [!DNL mCanvas] | | | X | | |
 | [!DNL Medialets] | | X | | | |

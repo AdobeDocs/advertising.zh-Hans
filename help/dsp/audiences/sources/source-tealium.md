@@ -3,7 +3,7 @@ title: 将用户ID从 [!DNL Tealium] 转换为通用ID
 description: 了解如何使DSP能够摄取您的 [!DNL Tealium] 第一方区段。
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
+source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 *Beta功能*
 
-使用DSP与[!DNL Tealium]客户数据平台的集成，将贵组织的第一方经过哈希处理的电子邮件地址转换为通用ID以进行定向广告。 该进程使用[!DNL Amazon Web Services] (AWS) firehose连接器。 执行以下步骤，与DSP共享来自Tealium的数据：
+使用DSP与[!DNL Tealium]客户数据平台的集成，将贵组织的第一方经过哈希处理的电子邮件地址转换为通用ID以进行定向广告。 该进程使用[!DNL Amazon Web Services] (AWS) firehose连接器。 执行以下步骤，与DSP共享Tealium中的数据：
 
 1. （要将电子邮件地址转换为[!DNL RampIDs]<!-- or [!DNL ID5] IDs -->；广告商具有[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)） [设置跟踪以启用 [!DNL Analytics] 测量](#analytics-tracking)。
 
-1. [在DSP](#source-create)中创建受众源。
+1. [在DSP中创建受众源](#source-create)。
 
 1. [准备并共享区段映射数据](#map-data)。
 
@@ -34,11 +34,11 @@ ht-degree: 0%
 
 要将电子邮件地址转换为[!DNL RampIDs]或[!DNL ID5] ID，您必须执行以下操作：
 
-1. （如果尚未这样做）完成实施 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)的所有先决条件，并确保在您的跟踪URL中填充[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
+1. （如果尚未这样做）完成实施[的所有 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)先决条件，并确保在您的跟踪URL中填充[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
 
 1. 向通用ID合作伙伴注册，并在您的网页上部署特定于通用ID的代码，以便匹配从桌面和移动Web浏览器（但不包括移动应用程序）上的ID到显示到达次数的转换：
 
-   * **对于[!DNL RampIDs]：**，您必须在网页上部署额外的JavaScript标记，以匹配从桌面和移动网页浏览器（但不包括移动应用程序）上的ID到显示到达次数的转换。 请与您的Adobe客户团队联系，他们将为您提供如何从[!DNL LiveRamp]身份验证流量解决方案注册[!DNL LiveRamp] [!DNL LaunchPad]标记的说明。 注册是免费的，但您必须签署协议。 注册后，您的Adobe客户团队将生成并提供一个唯一标记，供贵组织在网页上实施。
+   * **对于[!DNL RampIDs]：**，您必须在网页上部署额外的JavaScript标记，以匹配从桌面和移动网页浏览器（但不包括移动应用程序）上的ID到显示到达次数的转换。 请与您的Adobe客户团队联系，他们将为您提供如何从[!DNL LiveRamp]身份验证流量解决方案注册[!DNL LaunchPad] [!DNL LiveRamp]标记的说明。 注册是免费的，但您必须签署协议。 注册后，您的Adobe客户团队将生成并提供一个唯一标记，供贵组织在网页上实施。
 
 ## 步骤2：在DSP中创建受众源 {#source-create}
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
       1. 设置触发器：
 
-         * 对于区段的第一个连接器，选择触发器`Joined Audience`。 这样可以确保在用户加入区段时与DSP共享数据。
+         * 对于区段的第一个连接器，选择触发器`Joined Audience`。 这可确保在用户加入区段时与DSP共享数据。
 
          * 对于区段的第二个连接器，选择触发器`Left Audience`。 此连接器用于处理所有选择退出和离开DSP中的区段的用户。
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
                * 对于Cookie属性，将自定义消息命名为`cookies`。
 
-            1. 在创建自定义字段的选项中，在[!DNL Source Key]字段中，输入上一个过程中[区段映射数据](#map-data)中包含的[!UICONTROL External Segment Key]。
+            1. 在创建自定义字段的选项中，在[!DNL Source Key]字段中，输入上一个过程中[!UICONTROL External Segment Key]区段映射数据[中包含的](#map-data)。
 
                DSP将使用此密钥填充您的区段。
 
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 ## 步骤6：比较通用ID的数量与经过哈希处理的电子邮件地址的数量 {#compare-id-count}
 
-区段应在24小时内可在DSP中使用。 DSP收到区段数据后，受众计数应在九(9)小时内可见。
+这些区段应在24小时内可在DSP中使用。 DSP收到区段数据后，该受众规模应在九(9)小时内可见。
 
 验证您的受众库（在从[!UICONTROL Audiences] > [!UICONTROL All Audiences]创建或编辑受众时或在版面设置内创建或编辑受众时可用）中是否正在填充区段，并将通用ID的数量与原始经过哈希处理的电子邮件地址的数量进行比较。 有关可接受的ID转换率以及区段计数发生变化原因的信息，请参阅[电子邮件ID与通用ID之间的数据差异](#universal-ids-data-variances)。
 
@@ -150,7 +150,7 @@ ht-degree: 0%
 
 若要解决翻译速率和用户计数问题，请参阅“[激活通用ID的支持](/help/dsp/audiences/universal-ids.md)”。
 
-若要排除转换过程的问题，请与您的Adobe客户团队或`adcloud-support@adobe.com`联系。
+要排查转换过程的问题，请联系您的Adobe客户团队或`adcloud-support@adobe.com`。
 
 >[!MORELIKETHIS]
 >

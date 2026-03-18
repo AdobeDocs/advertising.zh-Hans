@@ -5,7 +5,7 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: f2d7428f70448421dd7b6d9c3d237783b800cd83
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -139,11 +139,11 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
 您还可以忽略请求并继续指定其他受众条件。
 
-## 创建受众的最佳实践摘要 {#audience-brief-best-practices}
+## 创建受众简介的最佳实践 {#audience-brief-best-practices}
 
 受众摘要是一种策略性描述，用于定义营销活动的目标受众。 精心编制的简报可帮助DSP受众代理识别最相关的区段，以汇集您的目标受众。
 
-### 有效受众简报的重要组成部分
+### 有效的受众简报的重要组成部分
 
 在您的简介中尽可能加入以下列表中的受众属性类型。 特定于要排除的属性。
 

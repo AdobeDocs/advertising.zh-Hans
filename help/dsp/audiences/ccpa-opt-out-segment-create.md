@@ -1,16 +1,16 @@
 ---
-title: 创建和实施CCPA选择退出销售区段
+title: 创建并实施CCPA选择退出销售区段
 description: 了解如何创建并实施区段，以跟踪消费者选择退出销售请求中的用户ID。
 feature: CCPA, DSP Segments
 exl-id: 0623c52e-02ea-4e06-bc54-8abb7a87765a
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e61f3c7d066a72f9a438ef292122cdf99370fd0c
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
-# 创建和实施CCPA选择退出销售区段
+# 创建并实施CCPA选择退出销售区段
 
 您可以创建一个区段，以根据《加州消费者隐私法案》(CCPA)跟踪您网站上消费者选择退出销售请求的用户ID。 用户无限期地停留在CCPA选择退出销售区段中。
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 有关如何使用Adobe Experience Platform Privacy Service API向Adobe Advertising传达CCPA选择退出销售请求的信息，请参阅[https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=zh-Hans](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=zh-Hans)。
+>* 有关如何使用Adobe Experience Platform Privacy Service API向Adobe Advertising传达CCPA选择退出销售请求的信息，请参阅[https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html)。
 >* 要跟踪访问网页的用户（这些用户访问网页的目的与跟踪CCPA选择退出销售事件无关）以及接触到来自桌面、移动设备和CTV设备广告的用户，请创建[自定义区段](/help/dsp/audiences/custom-segment-create.md)。
 
 1. 创建区段：
@@ -47,7 +47,7 @@ ht-degree: 0%
 
       广告商的IT部门或其他组可能需要计划标记部署或通知标记部署。
 
-      在实施像素后，Adobe Advertising即开始代表广告商收集ID池。
+      一旦实现了这个像素，Adobe Advertising就会开始代表广告商收集一个ID池。
 
       尽管实施选择和逻辑取决于广告商，但广告商如何触发像素的示例如下：
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertising对《加州消费者隐私法案》的支持：消费者选择退出支持](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+>* [Adobe Advertising对《加州消费者隐私法案》的支持：消费者选择退出销售支持](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
 >* [关于[!UICONTROL CCPA Opt-out-of-Sale]区段和报表](ccpa-opt-out-about.md)
 >* [检索消费者选择退出销售报告](ccpa-opt-out-segment-report-retrieve.md)
 >* [创建和实施自定义区段](custom-segment-create.md)
