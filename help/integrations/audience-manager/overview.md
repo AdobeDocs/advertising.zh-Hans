@@ -50,10 +50,10 @@ ht-degree: 0%
 
 具有Adobe Audience Manager的DSP客户可以使用对Audience Manager的像素调用，从广告促销活动中捕获数据。 然后，您可以使用促销活动数据构建基于规则的特征，利用这些特征可定义新区段，以启用各种DSP用例，例如更高级的分段、频率管理、营销分析和报表见解。
 
-有关详细信息，请参阅“将DSP媒体曝光数据发送到Adobe Audience Manager的概述”[](/help/integrations/audience-manager/media-data-integration/overview.md)。
+有关详细信息，请参阅“将DSP媒体曝光数据发送到Adobe Audience Manager的概述”[&#128279;](/help/integrations/audience-manager/media-data-integration/overview.md)。
 
 ## 利用Audience Analytics更深入地了解网站活动
 
 具有[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)的Adobe Advertising客户可以将跟踪Adobe Advertising的数据和Audience Manager区段发送到[!DNL Analytics]，以丰富有关网站活动的见解。
 
-有关详细信息，请参阅“面向Adobe Advertising客户的[[!DNL Adobe Audience Analytics] ](/help/integrations/audience-manager/audience-analytics.md)”。
+有关详细信息，请参阅“面向Adobe Advertising客户的[[!DNL Adobe Audience Analytics] &#x200B;](/help/integrations/audience-manager/audience-analytics.md)”。
