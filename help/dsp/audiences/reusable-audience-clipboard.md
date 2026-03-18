@@ -3,7 +3,7 @@ title: 将可重用受众的区段键复制到剪贴板
 description: 了解如何查看可重用受众的配置和受众大小。
 feature: DSP Audiences
 exl-id: 1e1f45fe-d7f9-4c26-a557-c3d00f74edb8
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 7cf17457ba777d2dfe9fc1607f9891a340da9031
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%

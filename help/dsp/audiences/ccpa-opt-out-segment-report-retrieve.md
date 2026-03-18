@@ -3,7 +3,7 @@ title: 检索消费者选择退出销售报表
 description: 了解如何检索为选择退出销售请求提交的ID报表。
 feature: CCPA, DSP Segments
 exl-id: 94133ce3-4e2c-4a24-90c9-61bf10731668
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: 7cf17457ba777d2dfe9fc1607f9891a340da9031
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%

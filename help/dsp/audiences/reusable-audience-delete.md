@@ -3,7 +3,7 @@ title: 删除可重复使用的受众
 description: 了解如何删除可重复使用的受众。
 feature: DSP Audiences
 exl-id: cc9afa22-1b90-4709-b7af-d9c1ee16aa16
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 7cf17457ba777d2dfe9fc1607f9891a340da9031
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%

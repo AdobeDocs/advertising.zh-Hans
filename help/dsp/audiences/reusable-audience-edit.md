@@ -3,7 +3,7 @@ title: 编辑可重用受众
 description: 了解如何编辑可重复使用的受众。
 feature: DSP Audiences
 exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: 7cf17457ba777d2dfe9fc1607f9891a340da9031
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%

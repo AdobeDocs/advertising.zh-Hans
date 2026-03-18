@@ -3,7 +3,7 @@ title: 共享可重用受众
 description: 了解如何与您的帐户可用的其他广告商共享可重复使用的受众。
 feature: DSP Audiences
 exl-id: c0369efe-464d-43d1-9b21-1113a38fc9bb
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 7cf17457ba777d2dfe9fc1607f9891a340da9031
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%

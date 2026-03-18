@@ -3,7 +3,7 @@ title: 管理警报订阅
 description: 了解如何管理自动电子邮件警报。
 role: User, Admin
 exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 7cf17457ba777d2dfe9fc1607f9891a340da9031
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 
   用空格分隔多个地址。
 
-* 要删除订阅的订阅者，请单击&#x200B;**[!UICONTROL Subscribers]**&#x200B;下电子邮件地址旁边的&#x200B;**[!UICONTROL X]**。
+* 要删除订阅的订阅者，请单击&#x200B;**[!UICONTROL X]**&#x200B;下电子邮件地址旁边的&#x200B;**[!UICONTROL Subscribers]**。
 
 ## 禁用或启用订阅
 
