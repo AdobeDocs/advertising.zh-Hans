@@ -20,7 +20,7 @@ ht-degree: 0%
 
   您需要获得内部Web分析人员的支持，才能设置与数据集的连接并配置报表。
 
-* Adobe Experience Platform数据建模和管理技术（包括[架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)和[数据集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)）和[数据收集技术](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home)（包括[数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)和[标记](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)）
+* Adobe Experience Platform数据建模和管理技术（包括[架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)和[数据集](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/overview)）和[数据收集技术](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/home)（包括[数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/overview)和[标记](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/home)）
 
   这些技术需要Experience Platform站点管理员的支持。
 
