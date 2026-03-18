@@ -32,4 +32,4 @@ ht-degree: 0%
 >* [查看包的更改日志](package-change-log.md)
 >* [暂停或激活包](package-pause-activate.md)
 >* [包设置](package-settings.md)
->* [视频：如何创建包](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)
+>* [视频：如何创建包](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html?lang=zh-Hans)
