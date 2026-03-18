@@ -1,16 +1,16 @@
 ---
-title: 关于程序化保证交易
+title: 关于计划性保证交易
 description: 了解计划性保证(PG)交易以及哪些SSP经过认证可提供它们。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 47c89d8a-f45f-4fcb-84a6-031f7d7f580f
-source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
-# 关于程序化保证交易
+# 关于计划性保证交易
 
 计划性保证(PG)交易是通过交易ID（而不是通过广告服务器标记）直接与出版商进行的保证购买。 PG对于您和您的发布者而言更灵活，而且与常规标签购买相比，它可提供更高的透明度。 计费和报告通过DSP进行整合，从而节省了您的时间。
 
@@ -25,9 +25,9 @@ ht-degree: 0%
 * 通过[!DNL Google Authorized Buyers] SSP接受发布者管理的广告。
 * SSP和发布者具有投放SLA。
 
-PG交易需要PG默认投放位置和广告（或发布者管理的广告需要1x1像素），因此DSP可以向每个竞价请求返回请求，并使用SSP履行交付SLA。 设置强制的PG默认投放位置后，还可以在其他投放位置中定位PG交易。
+PG交易需要PG默认投放位置和广告（对于出版商管理的广告，需要1x1像素），因此DSP可以向每个竞价请求返回请求，并与SSP达成交付SLA。 设置强制的PG默认投放位置后，还可以在其他投放位置中定位PG交易。
 
-## DSP中获得PG交易认证的SSP
+## DSP中针对PG交易认证的SSP
 
 * [!DNL Ambient Digital]
 * [!DNL FreeWheel]

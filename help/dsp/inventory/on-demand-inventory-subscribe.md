@@ -3,7 +3,7 @@ title: 订阅和请求访问 [!DNL On Demand] 高级库存交易
 description: 了解如何订阅和请求访问[!DNL On Demand]交易。
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *不可用于帐户类型为[!UICONTROL Ad Network]、[!UICONTROL Publisher Audience Extension]和[!UICONTROL Other]的用户；类别为[!UICONTROL Other]的广告商和经销商*
 
-您可以请求单个交易或订阅发布者以请求发布者的所有交易。 当您订阅发布者时，DSP会自动请求发布者代表您提供任何新交易。
+您可以请求单个交易或订阅发布者以请求发布者的所有交易。 当您订阅发布者时，DSP会自动代表您请求发布者提供任何新交易。
 
 交易获得[批准](/help/dsp/inventory/on-demand-inventory-view-status.md)后，默认情况下会作为新投放位置（针对所有[!DNL On Demand]库存）的目标包含该交易。 新交易也可用作现有投放的目标，但您必须手动编辑投放设置以将交易添加为目标。
 
@@ -74,13 +74,13 @@ ht-degree: 0%
 
       1. 在出版商的顶部轮播中，将光标悬停在出版商徽标上，然后单击&#x200B;**[!UICONTROL See Deals]**。
 
-      1. 要订阅单个交易，请在相关行的[!UICONTROL Action]列中单击&#x200B;**[!UICONTROL Request]**。
+      1. 要订阅单个交易，请在相关行的&#x200B;**[!UICONTROL Request]**&#x200B;列中单击[!UICONTROL Action]。
 
    * 要从[!UICONTROL Deal]视图请求交易，请执行以下操作：
 
       1. 单击&#x200B;**[!UICONTROL Deal view]**。
 
-      1. 在[!UICONTROL Action]列中单击相关行的&#x200B;**[!UICONTROL Request]**。
+      1. 在&#x200B;**[!UICONTROL Request]**&#x200B;列中单击相关行的[!UICONTROL Action]。
 
 >[!MORELIKETHIS]
 >

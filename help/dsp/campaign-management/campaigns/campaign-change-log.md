@@ -3,7 +3,7 @@ title: 查看营销活动更改日志
 description: 了解如何查看对营销活动所做的更改。
 feature: DSP Campaigns
 exl-id: ba96a277-937a-4475-bab6-6e0a4f5ced13
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于Campaign Management](campaign-about.md)
+>* [关于营销活动管理](campaign-about.md)
 >* [创建营销活动](campaign-create.md)
 >* [编辑营销活动](campaign-edit.md)
 >* [营销活动设置](campaign-settings.md)

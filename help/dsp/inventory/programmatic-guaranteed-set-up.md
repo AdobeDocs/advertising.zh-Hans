@@ -3,7 +3,7 @@ title: 设置计划性保证交易
 description: 了解如何设置您与出版商协商的程式化保证(PG)交易。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 对于PG交易，出版商负责处理所有预算步调、预算上限和定位。 所有允许PG通过DSP的SSP都确认发布者可以设置预算上限。
+> 对于PG交易，出版商负责处理所有预算步调、预算上限和定位。 所有允许PG通过DSP访问的SSP都确认发布者可以设置预算上限。
 >
 > 在[!DNL FreeWheel]上与发布者设置编程性保证交易需要额外的权限和步骤。 有关详细信息，请参阅“[在 [!DNL FreeWheel]](freewheel-overview.md)中设置计划性保证交易的概述”。
 

@@ -1,16 +1,16 @@
 ---
-title: 创建活动
+title: 创建营销活动
 description: 了解如何创建营销活动。
 feature: DSP Campaigns
 exl-id: 8e401c15-018d-439b-922e-2e456eabfea4
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
 
 ---
 
-# 创建活动
+# 创建营销活动
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 1. 在[!UICONTROL Campaigns]视图中，单击&#x200B;**[!UICONTROL Create campaign]**。
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于Campaign Management](campaign-about.md)
+>* [关于营销活动管理](campaign-about.md)
 >* [复制营销活动](campaign-duplicate.md)
 >* [编辑营销活动](campaign-edit.md)
 >* [查看营销活动的更改日志](campaign-change-log.md)

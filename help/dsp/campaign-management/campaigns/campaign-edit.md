@@ -3,7 +3,7 @@ title: 编辑营销活动
 description: 了解如何编辑营销活动。
 feature: DSP Campaigns
 exl-id: d0cbcd11-138a-41be-a027-e5e49e24afa2
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于Campaign Management](campaign-about.md)
+>* [关于营销活动管理](campaign-about.md)
 >* [创建营销活动](campaign-create.md)
 >* [查看营销活动的更改日志](campaign-change-log.md)
 >* [暂停或激活营销活动](campaign-pause-activate.md)

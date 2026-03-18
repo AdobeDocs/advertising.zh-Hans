@@ -3,7 +3,7 @@ title: 存档或取消存档私有交易
 description: 了解如何存档或取消存档私有交易。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f3f22299-a538-4956-a8ef-d44f20e4d2d7
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 您无法存档[!UICONTROL On Demand]交易。
->* 要停用发布者端的交易，请与发布者或SSP联系。 客户停用交易后，您可以将其存档在DSP中以便隐藏。
+>* 要停用发布者端的交易，请与发布者或SSP联系。 取消激活交易后，您可以在DSP中存档以隐藏交易。
 
 ## 存档私人交易
 

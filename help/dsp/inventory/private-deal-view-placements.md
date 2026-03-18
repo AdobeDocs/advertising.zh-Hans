@@ -3,7 +3,7 @@ title: 列出私人交易的投放位置和广告
 description: 了解如何打开与私人交易关联的投放位置和广告列表。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8003c053-eaa1-420d-853f-3c25643f4ef8
-source-git-commit: a820c5b8162953c34978e79e1ce9efe51f4063d4
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
