@@ -41,7 +41,7 @@ ht-degree: 0%
 * 用于报告付费媒体活动和馈送网站活动以在Adobe Advertising中进行优化和报告的[!DNL Analytics]报告包ID
 * 公司的Experience Cloud组织ID （组织ID）。
 
-您可以在Adobe Experience Cloud Debugger[的](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)摘要选项卡中找到这两个ID。
+您可以在Adobe Experience Cloud Debugger[的](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=zh-Hans)摘要选项卡中找到这两个ID。
 
 ![Experience Cloud Debugger的“摘要”屏幕](/help/integrations/assets/a4adc-debugger-summary.png)
 
@@ -68,7 +68,7 @@ Adobe Advertising中的![广告商级别的回溯时段设置](/help/integration
 
 >[!NOTE]
 >
->若要针对不同的时间范围对数据进行分段，您可以在Analysis Workspace中[设置具有不同回顾时间范围的自定义区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
+>若要针对不同的时间范围对数据进行分段，您可以在Analysis Workspace中[设置具有不同回顾时间范围的自定义区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hans)。
 
 ## 支持的广告环境
 
@@ -111,7 +111,7 @@ Adobe Advertising中的![广告商级别的回溯时段设置](/help/integration
 
 为了准确的数据集成，[!DNL Analytics for Advertising]活动用于交付内容或记录目标量度的所有Adobe Advertising调用必须具有共享相同补充ID的相应[!DNL Analytics]点击。
 
-在[!DNL Analytics]中进行故障诊断时，请务必确认[!DNL Analytics]点击存在补充ID。 在[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)中，您可以在Adobe Advertising选项卡中看到此ID作为`sdid`参数。
+在[!DNL Analytics]中进行故障诊断时，请务必确认[!DNL Analytics]点击存在补充ID。 在[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=zh-Hans)中，您可以在Adobe Advertising选项卡中看到此ID作为`sdid`参数。
 
 >[!NOTE]
 >
