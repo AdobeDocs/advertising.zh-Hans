@@ -4,7 +4,7 @@ description: 了解对捕获消费者选择退出销售请求的支持。
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 * 在Advertising DSP中创建的CCPA选择退出销售区段
 * ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE API
 
-### 方法1：使用Advertising DSP中的[!UICONTROL CCPA Opt-Out-of-Sale]区段传达CCPA选择退出销售请求
+### 方法1：在Advertising DSP中使用[!UICONTROL CCPA Opt-Out-of-Sale]区段传达CCPA选择退出销售请求
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ ht-degree: 0%
    >
    >请联系贵公司的Adobe Advertising代表，以确认贵公司的所有Adobe Advertising帐户（包括[!DNL DSP]帐户或广告商、[!DNL Search, Social, & Commerce]帐户以及[!DNL Creative]或[!DNL DCO]帐户）均关联到您的Experience Cloud组织ID。
 
-1. 使用Adobe Experience Platform Privacy Service API代表消费者[向Adobe Advertising提交选择退出销售请求](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html?lang=zh-Hans)，并检查现有请求的状态。
+1. 使用Adobe Experience Platform Privacy Service API代表消费者[向Adobe Advertising提交选择退出销售请求](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html)，并检查现有请求的状态。
 
    有关选择退出销售请求的示例，请参阅以下附录。
 
@@ -76,9 +76,9 @@ ht-degree: 0%
    >
    >如果您的企业有多个Experience Cloud组织ID，则必须为每个组织发送单独的API请求。 但是，您可以向多个Adobe Advertising子解决方案（[!DNL Search, Social, & Commerce]、[!DNL Creative]、[!DNL DSP]和[!DNL DCO]）发出一个API请求，每个子解决方案使用一个帐户。
 
-要获得Adobe Advertising的支持，所有这些步骤都是必需的。 有关使用Adobe Experience Platform Privacy Service需要执行的这些任务和其他相关任务以及在何处查找所需项目的更多信息，请参阅[https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans)。
+要获得Adobe Advertising的支持，所有这些步骤都是必需的。 有关使用Adobe Experience Platform Privacy Service需要执行的这些任务和其他相关任务以及在何处查找所需项目的更多信息，请参阅[https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)。
 
-## 检索提交选择退出销售请求的消费者报表
+## 检索提交选择退出销售请求的消费者的报表
 
 Adobe Advertising会每月生成客户为帐户的选择退出销售请求提交的ID报表。 每个报表都以制表符分隔的文本文件形式提供，并压缩为GZIP格式。 数据合并使用在Advertising DSP中创建的CCPA选择退出销售区段捕获的请求以及通过Privacy Service API提交的任何提交。 在CCPA选择退出销售区段中捕获的用户ID由区段和广告商标识。 在上个月的每月第一天生成报告。 例如，6月的每月用户列表可在7月1日发布。
 
@@ -96,7 +96,7 @@ Adobe Advertising会每月生成客户为帐户的选择退出销售请求提交
 
 如果贵组织未使用[!DNL Trafficking API]但想了解更多信息，请联系您的Adobe客户团队。
 
-## 附录：示例[!UICONTROL CCPA Opt-Out-of-Sale]Privacy Service API用户请求
+## 附录：Privacy Service API用户的示例[!UICONTROL CCPA Opt-Out-of-Sale]请求
 
 ```
 curl -X POST \
@@ -133,7 +133,7 @@ curl -X POST \
 }'
 ```
 
-其中，根据[Privacy Service API规范](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/appendix)：
+其中，根据[Privacy Service API规范](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix)：
 
 * `"namespace": "AdCloud"`表示`AdCloud` Cookie空间，对应的值是从`AdobePrivacy.js`检索到的客户Cookie ID
 * `"include": ["adCloud"]`指示该请求适用于产品Adobe Advertising

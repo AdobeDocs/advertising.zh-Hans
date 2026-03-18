@@ -1,22 +1,22 @@
 ---
-title: Adobe Advertising广告要求政策
+title: Adobe Advertising广告要求策略
 description: 有关广告要求，请参阅策略。
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 5a13aee5b7dcefa9f74d26322078c75e53f18a69
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '2190'
 ht-degree: 0%
 
 ---
 
-# Adobe Advertising广告要求政策
+# Adobe Advertising广告要求策略
 
 *策略上次更新日期：2024年7月17日<!-- (except for formatting changes unrelated to content)-->*
 
-用于Adobe Advertising DSP和Adobe Advertising搜索、社交和Commerce的&#x200B;**
+用于Adobe Advertising DSP和Adobe Advertising Search、Social和Commerce的&#x200B;**
 
-此广告要求政策（“政策”）规定了通过[!DNL Adobe’s]Adobe Advertising点播服务（“服务”）分发的广告要求。 此政策是参考使用“按需服务”在[!DNL Adobe]和客户（“您”）之间的协议中纳入的。 本政策中使用但未在此定义的首字母大写术语将具有本协议中规定的含义。
+此广告要求政策（“政策”）规定了通过Adobe Advertising的[!DNL Adobe’s] On-demand Services（“服务”）分发的广告的要求。 此政策是参考使用“按需服务”在[!DNL Adobe]和客户（“您”）之间的协议中纳入的。 本政策中使用但未在此定义的首字母大写术语将具有本协议中规定的含义。
 
 [!DNL Adobe]保留根据自己的判断确定广告或广告重定向或链接所指向的网站是否违反此策略要求的权利，在此情况下，[!DNL Adobe]可以拒绝此类广告和/或终止或暂停对服务的访问。
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 广告内容要求
 
-### 创意要求
+### Creative要求
 
 您通过按需服务传输、存储、显示、分发或以其他方式提供的所有广告必须符合Adobe Advertising广告规格中包含的广告规范，这些规范可由[!DNL Adobe]不时修订。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 * **出售正文部分**。 广告可能不会促进身体部位或体液的销售。
 
-* **分散广告**。 广告可能不包含令人分心、不希望或不舒服的特征或内容，包括自动播放功能（例如自动播放音频或视频的广告）、闪烁、抖动、脉冲、闪烁或包含过度动画对象、文本或图像的内容、本地共享对象(包括Flash Cookie和HTML5本地存储)以及中断用户体验的广告（例如叠加在其他内容上）。
+* **分散广告**。 广告可能不包含令人分心、不希望或不舒服的特征或内容，包括自动播放功能（例如自动播放音频或视频的广告）、闪烁、抖动、脉冲、闪烁或包含过度动画对象、文本或图像的内容、本地共享对象（包括Flash Cookie和HTML5本地存储）以及中断用户体验的广告（例如叠加在其他内容上）。
 
 * **政治内容**。 政治内容包括以下信函：(1)任何候选人（联邦、州、地方或国际）或候选人竞选活动为竞选活动付费；(2)任何根据任何司法管辖区（联邦、州、地方或国际）竞选融资法登记或报告的实体为竞选活动付费；(3)明确支持或反对任何明确识别的候选人（联邦、州、地方或国际）；或(4)根据任何司法管辖区的竞选融资法受其他管制。 这项禁止包括但不限于与任何选举、政治竞选、公职候选人、投票、投票倡议、立法或公民投票直接或间接相关的发行宣传广告。
 

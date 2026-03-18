@@ -1,9 +1,9 @@
 ---
-title: Adobe Advertising可接受的运行状况区段
+title: Adobe Advertising可接受的健康区段
 description: 请参阅准则，了解可接受的与健康相关的受众区段以及用作替代定位与健康相关的受众区段的策略。
 feature: Policies
 exl-id: 121129e3-3d4b-4478-9cfd-cb16c1eb67de
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 从[!DNL Network Advertising Alliance (NAI)]中总结了这些准则。
 
-另请参阅[Adobe Advertising广告要求策略](/help/policies/ad-requirements-policy.md)，以确定与健康相关的受众区段是否可用于该Adobe Advertising定位策略。
+另请参阅[Adobe Advertising广告要求策略](/help/policies/ad-requirements-policy.md)，以确定健康相关的受众区段是否可用于该Adobe Advertising定位策略。
 
 ## 不应使用的健康区段
 
 * 依赖受保护的健康信息(PHI)\*、用户级别的医疗记录、药物处方或提供用户状况或治疗实际信息的类似健康或医疗来源的区段。
 
-  \*Adobe Advertising不是[!DNL HIPAA]就绪的解决方案。
+  \* Adobe Advertising不是[!DNL HIPAA]就绪的解决方案。
 
 * 针对健康状况（或相关治疗）的区段，例如任何形式的癌症、精神健康、药物成瘾、性传播疾病、主要影响儿童的疾病或不能用非处方药物治疗的其他敏感健康状况（例如，糖尿病、银屑病、类风湿性关节炎或纤维肌痛）。
 
