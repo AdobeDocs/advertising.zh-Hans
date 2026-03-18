@@ -1,42 +1,42 @@
 ---
-title: Get Help
-description: Learn how to view online documentation and community resources and how to get technical support.
+title: 获取帮助
+description: 了解如何查看在线文档和社区资源以及如何获得技术支持。
 feature: DSP Introduction
 exl-id: 2e0226ea-bcd3-4a38-8907-d2e078c758d0
-source-git-commit: d2276e7e57c5c4fcc270aeef68a8bf4d013e3eba
+source-git-commit: 494ac8907b569bea3a60d9b5e9a2655cb65194c2
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
 
 ---
 
-# Get Help
+# 获取帮助
 
-You can submit an AI-assisted query across all [!DNL DSP] and (advertisers with Advertising Creative) [!DNL Creative] documentation or open a full user guide for [!DNL DSP]. If the documentation doesn&#39;t answer your questions, contact us.
+您可以跨所有[!DNL DSP]和（使用Advertising Creative的广告商）[!DNL Creative]文档提交AI辅助查询，或打开[!DNL DSP]的完整用户指南。 如果文档不能回答您的问题，请联系我们。
 
-## Search for information using an AI-assisted chat interface
+## 使用AI辅助的聊天界面搜索信息
 
-See &quot;[Search for product documentation using an AI-assisted chat interface](/help/dsp/agent-chat.md).&quot;
+请参阅[使用AI辅助的聊天界面](/help/dsp/agent-chat.md)搜索产品文档。
 
-## Open a full user guide
+## 打开完整用户指南
 
-To open a full user guide explaining how to use all features, click **[!UICONTROL Help]** in the main menu.
+要打开说明如何使用所有功能的完整用户指南，请在主菜单中单击&#x200B;**[!UICONTROL Help]**。
 
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=zh-Hans).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 -->
 
-## Contact [!DNL Adobe]
+## 联系人[!DNL Adobe]
 
-For product or account issues, do the following:
+对于产品或帐户问题，请执行以下操作：
 
-* (Advertisers with self-service contracts) Open a ticket for your organization at [https://experienceleague.adobe.com/home?lang=zh-Hans#support](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support).
+* （具有自助服务合同的广告商）在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)为您的组织开立一个票证。
 
-  For the product, select &quot;[!UICONTROL Advertising - DSP].&quot;
+  对于产品，请选择“[!UICONTROL Advertising - DSP]”。
 
-* (Advertisers with full-service contracts) Contact your Adobe Account Team.
+* （具有完全服务合同的广告商）联系您的Adobe客户团队。
 
-In the ticket or communication, provide detailed steps to reproduce the issue, any relevant data, the browser name and version, and information about preliminary troubleshooting you&#39;ve performed. For report issues, don&#39;t delete the report, and provide the report name and URL.
+在票证或通信中，提供重现问题的详细步骤、所有相关数据、浏览器名称和版本，以及有关您已执行的初步故障诊断的信息。 对于报告问题，请勿删除报告，并提供报告名称和URL。
 

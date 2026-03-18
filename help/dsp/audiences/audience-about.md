@@ -3,9 +3,9 @@ title: 关于Advertising DSP中的受众管理
 description: 了解受众管理功能。
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
+source-git-commit: 82a501ec03a5d0d32d2281d6a9c9a67180853026
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1324'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
    * [CCPA选择退出销售区段](/help/dsp/audiences/ccpa-opt-out-segment-create.md)，用于根据加州消费者隐私法案(CCPA)跟踪您网站上消费者选择退出销售请求的用户ID。 您可以从选择退出销售请求中检索用户ID的月度报表。
 
-     有关Adobe Advertising对CCPA选择退出销售请求的支持的更多信息，请参阅[Adobe Advertising对《加州消费者隐私法案》的支持：消费者选择退出支持](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)。
+     有关Adobe Advertising对CCPA选择退出销售请求的支持的更多信息，请参阅[Adobe Advertising对《加州消费者隐私法案》的支持：消费者选择退出销售支持](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)。
 
 * （Beta功能）[获取并使用通用ID进行无令牌定位](/help/dsp/audiences/universal-ids.md)：
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >有关在这些解决方案中为区段设置和收集数据的信息，请参阅[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=zh-Hans)、[Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans)和[the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=zh-Hans)的文档。
+  >有关在这些解决方案中为区段设置和收集数据的信息，请参阅[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)、[Analytics](https://experienceleague.adobe.com/docs/analytics.html)和[the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html)的文档。
 
 ## 受众规模数据
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 您可以编辑、克隆、删除、导出或共享任何受众。
 
-### 区段视图
+### “区段”视图
 
 在[!UICONTROL Segments]视图中，所有用户都可以创建其他自定义区段。
 
