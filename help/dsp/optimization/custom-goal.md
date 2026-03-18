@@ -3,7 +3,7 @@ title: 自定义目标
 description: 了解自定义目标，以定义针对最低CPA或最高ROAS优化的包中的成功事件。
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 在以下两种情况下，您将在自定义目标中使用多个量度：
 
-* 您的营销活动目标有多个成功事件。 例如，您可能在为多个网站操作(PDF下载、联系我们，以及电子邮件注册)打广告，所有这些操作都有助于您的CPA目标。 如果目标包括三个单独的量度，每个量度的非移动权重为1，则[!DNL Adobe AI]支持的算法会将每个量度和用户设备类型视为同等重要性。 如果不同量度的成本或重要性不同，请相应地调整其相对权重。
+* 您的营销活动目标有多个成功事件。 例如，您可能在为多个网站操作（PDF下载、联系我们，以及电子邮件注册）打广告，所有这些操作都有助于您的CPA目标。 如果目标包括三个单独的量度，每个量度的非移动权重为1，则[!DNL Adobe AI]支持的算法会将每个量度和用户设备类型视为同等重要性。 如果不同量度的成本或重要性不同，请相应地调整其相对权重。
 
 <!-- update image or delete it and adjust the wording above
 

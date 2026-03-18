@@ -3,7 +3,7 @@ title: DSP如何优化您的活动
 description: 了解DSP如何优化营销活动中的包。
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -34,7 +34,7 @@ DSP可以从两个基本方面优化您的投放，其中有20个变体可供使
 
 请参阅[优化目标以及如何使用它们](optimization-goals.md)以确定哪个优化目标可以帮助您实现KPI。
 
-### 排定性能速率优先级的程序包
+### 优先考虑性能率的软件包
 
 对于优先考虑性能率的优化目标，DSP会预测每次拍卖的性能，并始终按最高出价竞价。 适用的优化目标示例包括[!UICONTROL Highest Viewability Rate]、[!UICONTROL Highest Clickthrough Rate]等。
 

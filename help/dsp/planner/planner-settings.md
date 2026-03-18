@@ -1,16 +1,16 @@
 ---
-title: 已连接电视接入计划的设置
+title: 连接电视接入计划的设置
 description: 查看有关已连接电视接入计划的设置说明。
 feature: DSP Planner
 exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
 
 ---
 
-# 已连接电视接入计划的设置
+# 连接电视接入计划的设置
 
 <!-- Move out of table for consistency at some point. -->
 

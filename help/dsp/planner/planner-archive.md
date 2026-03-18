@@ -3,7 +3,7 @@ title: 存档连接的电视接入计划
 description: 了解如何存档连接的电视接入计划。
 feature: DSP Planner
 exl-id: 335db881-51e6-412d-9346-216c6a70a6de
-source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 0%
