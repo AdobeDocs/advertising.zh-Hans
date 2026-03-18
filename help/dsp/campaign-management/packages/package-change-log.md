@@ -3,7 +3,7 @@ title: 查看包更改日志
 description: 了解如何查看对包所做的更改。
 feature: DSP Packages
 exl-id: dd33519b-19cf-4b6f-b6d2-ec0874e27075
-source-git-commit: 1c2b75ea10fc1c619a6fa342581b9c8fb8289fb7
+source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%

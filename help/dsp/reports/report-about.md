@@ -3,7 +3,7 @@ title: 关于自定义报表
 description: 了解用于手动或使用预配置的报表模板创建自定义报表的选项。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 041b842ccb9c0ebc2f4d9499557e20a960789a7a
+source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
 workflow-type: tm+mt
 source-wordcount: '1621'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Content]：**&#x200B;请使用此报告按照指定的内容维度（如流派、生产质量和内容评级）了解展示投放和其他量度，以便优化定位并确保品牌安全。 除了内容维度之外，该报表还包含大多数标准维度、量度和过滤器。 按内容维度的数据可用于[!DNL Freewheel]、[!DNL Index]、[!DNL Magnite]、[!DNL Microsoft]、[!DNL Nexxen]、[!DNL Pubmatic]、[!DNL Sharethrough]和[!DNL Triplelift]。 内容信号在竞价流期间由发布者传递，并受可用性限制。
 
-   * **[!UICONTROL Conversion]：**&#x200B;使用此报告可了解市场活动如何基于通过Adobe Advertising转换跟踪捕获的转换指标执行。 本报告包括多点触控属性。
+   * **[!UICONTROL Conversion]：**&#x200B;请使用此报表根据通过Adobe Advertising转化跟踪捕获的转化量度，了解营销活动的执行情况。 此报表包含多点接触归因。
 
    * **[!UICONTROL Custom Creative]：** （仅使用Advertising Creative的广告商）使用此报告可跨Advertising Creative广告体验监控性能。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
      >
      >* 数据在2019年3月1日后可用。
      >* 基于数据采样来估计频率。
-     >* 对于某些清单，发布服务器不会传递设备标识符，从而阻止频率跟踪。 此报告仅包含设备标识符可用的印象。
+     >* 对于某些库存，发布者不会传递设备标识符，这会阻止频率跟踪。 此报表仅包含设备标识符可用的展示次数。
 
    * **[!UICONTROL Frequency (by App/Site)]：**&#x200B;使用此报告了解应用程序或网站访问您广告的独特用户数。 您还可以查看仅通过特定应用程序或网站访问广告的唯一用户数（“不同的唯一用户”）。
 
@@ -66,11 +66,11 @@ ht-degree: 0%
      >* 数据在2018年11月15日后可用。
      >* 对于某些私有库存，发布者不会传递设备标识符，这会阻止频率跟踪。
 
-   * **[!UICONTROL Geo]**：使用此预填充模板按地理维度查看关键指标。
+   * **[!UICONTROL Geo]**：使用此预填充模板按地理维度查看关键量度。
 
-   * **[!UICONTROL Household Conversions]：**&#x200B;使用此报告可以查看基于IP地址的家庭级别而不是设备/Cookie级别的直通转换。 使用洞察力来衡量和优化活动绩效。 有关详细信息，请参阅“[关于家庭报告的常见问题解答](/help/dsp/reports/faq-reports.md)”。 数据不适用于以通用ID为目标的放置位置。
+   * **[!UICONTROL Household Conversions]：**&#x200B;使用此报表可查看基于IP地址的家庭级别（而非设备/Cookie级别）的浏览转化情况。 使用见解衡量和优化促销活动效果。 有关详细信息，请参阅[家庭报表常见问题解答](/help/dsp/reports/faq-reports.md)。 数据不可用于以通用ID为目标的投放位置。
 
-   * **[!UICONTROL Household Reach & Frequency]：**&#x200B;使用此报告可在基于IP地址的家庭级别而不是设备/Cookie级别跨广告格式查看单个维度的使用量、覆盖度和频率。 使用洞察力优化您的媒体组合，提高性能，并发现增量覆盖的机会。 有关详细信息，请参阅“[关于家庭报告的常见问题解答](/help/dsp/reports/faq-reports.md)”。 数据不适用于以通用ID为目标的放置位置。
+   * **[!UICONTROL Household Reach & Frequency]：**&#x200B;使用此报表可根据IP地址而不是设备/Cookie级别，在家庭级别查看跨广告格式的单个维度的展示次数、覆盖范围和频率。 利用这些见解优化您的媒体组合、提高性能并发现增量访问的机会。 有关详细信息，请参阅[家庭报表常见问题解答](/help/dsp/reports/faq-reports.md)。 数据不可用于以通用ID为目标的投放位置。
 
    * **[!UICONTROL Margin]：**&#x200B;使用此报表按促销活动或投放位置查看关键量度，如利润、利润和其他支出量度。 数据不可用于以通用ID为目标的投放位置。
 
@@ -80,25 +80,25 @@ ht-degree: 0%
 
       * [!UICONTROL Campaign ID]或[!UICONTROL Campaign Name]：显示哪些营销活动协助了转换过程。
 
-      * [!UICONTROL Ad ID]或[!UICONTROL Ad Name]显示哪些DSP广告导致了转换。
+      * [!UICONTROL Ad ID]或[!UICONTROL Ad Name]显示哪些DSP广告产生了转化。
 
-      * [!UICONTROL Ad ID & Paid Keyword (SSC)]或[!UICONTROL Ad Name & Paid Keyword (SSC)]显示哪些Search、Social和Commerce关键字导致了转换。
+      * [!UICONTROL Ad ID & Paid Keyword (SSC)]或[!UICONTROL Ad Name & Paid Keyword (SSC)]显示哪些Search、Social和Commerce关键字导致了转化。
 
-     报表中的列包括“[!UICONTROL Event #1]”到“[!UICONTROL Event #10]”、“[!UICONTROL Path Length]”、“% \&lt;转换度量名称1\>”、“% \&lt;转换度量名称2\>”等。
+     报表中的列包括“[!UICONTROL Event #1]”到“[!UICONTROL Event #10]”、“[!UICONTROL Path Length]”、“% \&lt;转化量度名称1\>”、“% \&lt;转化量度名称2\>”等。
 
      包括最近的10个交互点。 路径行按转化次数排序。
 
      若要将此报告与[!DNL Advanced Measurement Services]和Adobe Analytics创建的报告进行比较，请参阅“[关于自定义报告的常见问题解答](/help/dsp/reports/faq-reports.md)”。
 
-   * **[!UICONTROL Path Length]：**&#x200B;使用此报告跟踪一段时间内转换所需的用户交互点数，以便您可以选择最佳广告频率。 该报告按路径长度（交互点）显示转换次数，例如用户仅有一个广告交互、两个广告交互等后发生的转换次数。 该报告可以包含多个转换度量的数据，并且使用第一个交互和转换之间的指定回溯时段。 报表中的列包括“[!UICONTROL Path Length]”、“[!UICONTROL Number of] \&lt;转换度量名称1\>”、“% \&lt;转换度量名称1\>”、“ \&lt;转换度量名称2\>”、“% \&lt;转换度量名称2\>”等。
+   * **[!UICONTROL Path Length]：**&#x200B;使用此报表跟踪一段时间内转化所需的用户交互点数，以便您选择最佳广告频率。 此报表按路径长度（交互点）显示转化次数，例如用户仅有一个广告交互、两个广告交互等后发生的转化次数。 报表可以包含多个转化量度的数据，并在首次交互和转化之间使用指定的回顾时间段。 报表中的列包括“[!UICONTROL Path Length]”、“[!UICONTROL Number of] \&lt;转化量度名称1\>”、“% \&lt;转化量度名称1\>”、“\&lt;转化量度名称2\>”、“% \&lt;转化量度名称2\>”等。
 
-     显示每个路径长度最多10条的数据；路径长度超过10条的数据被组合在一起。
+     显示每个路径长度不超过10的数据；将路径长度大于10的数据分组在一起。
 
-   * **[!UICONTROL Segment]：**&#x200B;使用此预填充模板按区段查看关键指标。
+   * **[!UICONTROL Segment]：**&#x200B;使用此预填充模板按区段查看关键量度。
 
      >[!NOTE]
      >
-     >* 本报告旨在说明不同目标细分市场的表现。 它使用区段成员资格数据。 当向属于两个或更多目标区段的人员或设备提供展示时，此报表会为每个区段包含一行。 因此，此报表中的总计可能与实际交付不匹配。
+     >* 此报表旨在显示不同目标区段的表现。 它使用区段成员资格数据。 当向属于两个或更多目标区段的人员或设备提供展示时，此报表会为每个区段包含一行。 因此，此报表中的总计可能与实际交付不匹配。
      >* 区段的转化量度和自定义目标数据在2019年8月2日之后可用。 区段的所有其他数据自2018年6月1日后开始可用。
 
    * **[!UICONTROL Site]：**&#x200B;默认情况下，包括按网站列出的标准量度、媒体净支出总额和可计费净支出总额。
@@ -131,7 +131,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Completed]：**&#x200B;对于非周期性报表，报表已完成。 对于定期报表，已完成所有报表实例。 您可以下载过去四个月内完成的所有报表。
 
-* **[!UICONTROL Archived]：**&#x200B;报告已存档，无法运行。 当报表生成多次失败，则会设置此状态。 当前无法从用户界面设置此状态。
+* **[!UICONTROL Archived]：**&#x200B;报告已存档，无法运行。 当报表生成多次失败，则会设置此状态。 目前，您无法从用户界面设置此状态。
 
 >[!MORELIKETHIS]
 >

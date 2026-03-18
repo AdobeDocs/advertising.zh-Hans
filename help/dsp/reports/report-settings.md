@@ -3,7 +3,7 @@ title: 自定义报表设置
 description: 请参阅自定义报表设置的描述。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 65d554ef71e36b52a47fc24552d5db9b56072095
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '1534'
 ht-degree: 0%
@@ -123,7 +123,7 @@ ht-degree: 0%
 
    * *[!UICONTROL Multi-Touch Attribution (MTA)]：*&#x200B;根据维度值（如设备或投放位置）在转化路径上的出现频率分配每次转化的点数。 例如，如果在转化前总共有10次展示，其中8次在CTV上，2次在移动设备上，则80%的点数(0.8)将授予CTV屏幕，0.2次授予Mobile。
 
-* **\[规则类型\]：** (包含[!UICONTROL Custom]或[!UICONTROL Conversion]列的所有[!UICONTROL Device]、[!UICONTROL Geo]、[!UICONTROL Segment]、[!UICONTROL Site]、[!UICONTROL Conversion Metrics]和[!UICONTROL Custom Goals]报表；仅包含Adobe Advertising转化跟踪的广告商)在报表中，如何在一系列导致转化的事件中归因转化数据。 如果要比较规则之间的差异，可以选择多个规则。
+* **\[规则类型\]：** （包含[!UICONTROL Custom]或[!UICONTROL Conversion]列的所有[!UICONTROL Device]、[!UICONTROL Geo]、[!UICONTROL Segment]、[!UICONTROL Site]、[!UICONTROL Conversion Metrics]和[!UICONTROL Custom Goals]报表；仅包含Adobe Advertising转化跟踪的广告商）在报表中，如何在一系列导致转化的事件中归因转化数据。 如果要比较规则之间的差异，可以选择多个规则。
 
   >[!NOTE]
   >
@@ -147,7 +147,7 @@ ht-degree: 0%
 
 另请参阅&quot;[如何为Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md)计算归因规则。&quot;
 
-* **回顾：** ([!UICONTROL Household Conversion]个报告具有[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]列，而[!UICONTROL Path to Conversion]、[!UICONTROL Path Length]或[!UICONTROL Time to Conversion]个报告仅具有[!UICONTROL Conversion Metrics]列；广告商仅具有Adobe Advertising转化跟踪)在报表内，转化事件可归因到它的展示事件或点击事件（对于[!UICONTROL Path to Conversion]、[!UICONTROL Path Length]或[!UICONTROL Time to Conversion]报表）后的最大天数。 默认值为&#x200B;*[!UICONTROL 30 days]*，最大值为92天。
+* **回顾：** （[!UICONTROL Household Conversion]个报告具有[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]列，而[!UICONTROL Path to Conversion]、[!UICONTROL Path Length]或[!UICONTROL Time to Conversion]个报告仅具有[!UICONTROL Conversion Metrics]列；广告商仅具有Adobe Advertising转化跟踪）在报表内，转化事件可归因到它的展示事件或点击事件（对于[!UICONTROL Path to Conversion]、[!UICONTROL Path Length]或[!UICONTROL Time to Conversion]报表）后的最大天数。 默认值为&#x200B;*[!UICONTROL 30 days]*，最大值为92天。
 
   >[!TIP]
   >
@@ -183,7 +183,7 @@ ht-degree: 0%
 
 * *[!UICONTROL FTP]：*&#x200B;若要将已完成的报告发送到一个或多个FTP位置，您必须在&#x200B;**[!UICONTROL Destination Name]**&#x200B;字段中选择这些位置。
 
-* *[!UICONTROL FTP SSL] (当前在Beta中)：*&#x200B;要将已完成的报告发送到一个或多个FTP SSL位置，您必须在&#x200B;**[!UICONTROL Destination Name]**&#x200B;字段中选择该位置。
+* *[!UICONTROL FTP SSL]（当前在Beta中）：*&#x200B;要将已完成的报告发送到一个或多个FTP SSL位置，您必须在&#x200B;**[!UICONTROL Destination Name]**&#x200B;字段中选择该位置。
 
 * *[!UICONTROL Email]：*&#x200B;若要指定电子邮件地址，在报告因错误而被取消时，将已完成的报告或通知发送到这些地址。
 

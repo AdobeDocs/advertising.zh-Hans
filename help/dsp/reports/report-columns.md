@@ -3,7 +3,7 @@ title: 可用报表列
 description: 请参阅自定义报表中可用列的说明。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: c318c29e78f33c665380e5e5ac0b58a653f8987a
+source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
 workflow-type: tm+mt
 source-wordcount: '2933'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Month (YYYY-MM)] | 月和年。 |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Time of Day] | 从0到23的整点时间。 |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Week (YYYY-MM-DD to YYYY-MM-DD)] | 相关周的日期范围，从星期日到星期六。 示例： 2021-02-18到2021-03-07。 |
-| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser Vendor] | 显示广告的浏览器的供应商(例如Google或Mozilla)。 |
+| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser Vendor] | 显示广告的浏览器的供应商（例如Google或Mozilla）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser Version] | 显示广告的浏览器版本（如[!UICONTROL Safari 4.3]或[!UICONTROL Chrome 7.0]）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser] | 显示广告的浏览器（如[!UICONTROL Chrome]或[!UICONTROL Firefox]）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device Environment] | 投放目标所在的设备环境： （*[!UICONTROL Desktop]*、*[!UICONTROL Mobile]*&#x200B;和/或&#x200B;*[!UICONTROL Connected TV]）*。 |
@@ -232,25 +232,25 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Total Ad Clicks] | 广告所有点击次数总和。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Viewed Minutes] | 视频广告被查看的总分钟数。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Views] | 视频广告查看总数。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 100% Completion Rate] | (自定义Creative报表)观看整个广告的查看次数的百分比。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 100% Completions] | (自定义Creative报表)观看整个广告的查看次数。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 25% Completion Rate] | (自定义Creative报表)观看了至少四分之一的广告的查看次数的百分比。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 25% Completions] | (自定义Creative报表)至少观看了广告四分位数的查看次数。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 50% Completion Rate] | (自定义Creative报表)观看了至少两个四分位广告的查看次数的百分比。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 50% Completions] | (自定义Creative报表)至少观看了广告四分位数的查看次数。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 75% Completion Rate] | (自定义Creative报表)至少观看了广告四分位数的查看次数百分比。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 75% Completions] | (自定义Creative报表)观看了至少四分位广告的查看次数。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Avg Percent Viewed] | (自定义Creative报表)从观看广告到结束的平均百分比，考虑所有查看次数。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Play Rate] | (自定义Creative报表)提供并导致视频查看的展示次数百分比。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Playtime per View] | (自定义Creative报表)视频查看的平均持续时间，以秒为单位。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Mute] | (自定义Creative报表)视频被静音的总次数。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Pause] | (自定义Creative报表)视频暂停的总次数。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Resume] | (自定义Creative报告)视频暂停后恢复的总次数。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Rewind] | (自定义Creative报表)视频反向的总次数。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Start] | (自定义Creative报表)视频开始的总次数。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Unmute] | (自定义Creative报表)视频取消静音的总次数。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Viewed Minutes] | (自定义Creative报表)视频广告被查看的总时间（以分钟为单位）。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Views] | (自定义Creative报表)视频广告查看总次数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 100% Completion Rate] | （自定义Creative报表）观看整个广告的查看次数的百分比。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 100% Completions] | （自定义Creative报表）观看整个广告的查看次数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 25% Completion Rate] | （自定义Creative报表）观看了至少四分之一的广告的查看次数的百分比。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 25% Completions] | （自定义Creative报表）至少观看了广告四分位数的查看次数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 50% Completion Rate] | （自定义Creative报表）观看了至少两个四分位广告的查看次数的百分比。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 50% Completions] | （自定义Creative报表）至少观看了广告四分位数的查看次数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 75% Completion Rate] | （自定义Creative报表）至少观看了广告四分位数的查看次数百分比。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 75% Completions] | （自定义Creative报表）观看了至少四分位广告的查看次数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Avg Percent Viewed] | （自定义Creative报表）从观看广告到结束的平均百分比，考虑所有查看次数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Play Rate] | （自定义Creative报表）提供并导致视频查看的展示次数百分比。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Playtime per View] | （自定义Creative报表）视频查看的平均持续时间，以秒为单位。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Mute] | （自定义Creative报表）视频被静音的总次数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Pause] | （自定义Creative报表）视频暂停的总次数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Resume] | （自定义Creative报告）视频暂停后恢复的总次数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Rewind] | （自定义Creative报表）视频反向的总次数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Start] | （自定义Creative报表）视频开始的总次数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Unmute] | （自定义Creative报表）视频取消静音的总次数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Viewed Minutes] | （自定义Creative报表）视频广告被查看的总时间（以分钟为单位）。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Views] | （自定义Creative报表）视频广告查看总次数。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Avg. Player Width x Height] | 平均播放器宽度和高度。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Measurable Impressions] | 提供的能够测量可见性的展示总数。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Measurable Rate (%)] | 提供的能够测量可见性的展示次数百分比，计算为<code>[!UICONTROL Measurable Impressions] x 1000 / [!UICONTROL Impressions]</code>。 |

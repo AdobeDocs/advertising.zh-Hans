@@ -2,7 +2,7 @@
 title: 关于自定义报表的常见问题解答
 description: 详细了解自定义报表，包括家庭报表和转化路径分析报表。
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
+source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
 workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ##### 支持的维度
 
-[!UICONTROL Household Reach & Frequency]报表支持[以下维度](/help/dsp/reports/report-columns.md)：“[!UICONTROL Campaign]”、“[!UICONTROL Package]”、“[!UICONTROL Placement]”、“[!UICONTROL Site/Apps]”（不提供对重叠量度的访问权限）、“[!UICONTROL Media Type]”、“[!UICONTROL Feed Type]”、“[!UICONTROL Device]”、“[!UICONTROL Publisher]”、“[!UICONTROL Audience]”、“[!UICONTROL Creative Length]”和用户创建的投放位置“[!UICONTROL Tags]”。 |
+[!UICONTROL Household Reach & Frequency]报表支持[以下维度](/help/dsp/reports/report-columns.md)：“[!UICONTROL Campaign]”、“[!UICONTROL Package]”、“[!UICONTROL Placement]”、“[!UICONTROL Site/Apps]”（不提供对重叠量度的访问权限）、“[!UICONTROL Media Type]”、“[!UICONTROL Feed Type]”、“[!UICONTROL Device]”、“[!UICONTROL Publisher]”、“[!UICONTROL Audience]”、“[!UICONTROL Creative Length]”和用户创建的投放位置“[!UICONTROL Tags]”。|
 
 ##### 支持的指标
 
@@ -113,8 +113,8 @@ ht-degree: 0%
 | 归因方法 | 最近联系事件（展示或点击）必须在回顾窗口内。 | 独特 | 最近联系 |
 | | 转化路径会考虑距上次接触事件超过30天的交互点。 | （CTV将获得点数，无论用户的单击路径中出现CTV暴露的位置） | （如果印象是回顾时间范围中的最后一个事件，并且在CTV曝光之前或之后没有来自其他格式的付费点击，则CTV获得点击） |
 | 报告级别 | 粒度 | 粒度 | 广泛 |
-| | (渠道类型、Creative/广告、关键字、路径、长度、转化时间) | (CTV Strategy， CTV App/Publisher) | (Adobe Advertising和其他营销渠道) |
-| 营销渠道 | DSP +搜索(来自搜索、社交和Commerce) | DSP +搜索(来自搜索、社交和Commerce) | Adobe Advertising未通过EF ID跟踪的营销渠道（例如免费搜索、免费社交、电子邮件和附属活动） |
+| | （渠道类型、Creative/广告、关键字、路径、长度、转化时间） | (CTV Strategy， CTV App/Publisher) | （Adobe Advertising和其他营销渠道） |
+| 营销渠道 | DSP +搜索（来自搜索、社交和Commerce） | DSP +搜索（来自搜索、社交和Commerce） | Adobe Advertising未通过EF ID跟踪的营销渠道（例如免费搜索、免费社交、电子邮件和附属活动） |
 | 支持的转化量度 | 使用Adobe Advertising事件像素(AMO ID)和Adobe Analytics跟踪跟踪的指标 | 点击次数（无转化） | 使用Adobe Analytics跟踪跟踪的指标 |
 
 有关高级测量服务对搜索报表的光晕影响的详细信息，请参阅[高级测量服务](/help/dsp/introduction/advanced-measurement-services.md)。

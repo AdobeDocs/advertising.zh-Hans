@@ -3,7 +3,7 @@ title: 创建自定义报表
 description: 了解如何创建自定义报表。
 feature: DSP Custom Reports
 exl-id: f895529b-dc69-4c74-bca6-3f7617f41ceb
-source-git-commit: f9a93bf99f470e128edeaf69752a91a44dd456ab
+source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 0%
@@ -29,5 +29,5 @@ ht-degree: 0%
 >* [运行自定义报告](/help/dsp/reports/report-run-now.md)
 >* [删除自定义报告](/help/dsp/reports/report-delete.md)
 >* [自定义报表设置](/help/dsp/reports/report-settings.md)
->* Campaign Management视图中的[性能报告类型](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* 营销活动管理视图中的[性能报表类型](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [可用报告列](/help/dsp/reports/report-columns.md)

@@ -3,7 +3,7 @@ title: 运行自定义报表
 description: 了解如何立即运行自定义报表。
 feature: DSP Custom Reports
 exl-id: b256803d-45f9-445f-bf42-22cc7ce76792
-source-git-commit: f9a93bf99f470e128edeaf69752a91a44dd456ab
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 0%
