@@ -3,7 +3,7 @@ title: 广告规范
 description: 参考常规和特定于发布者的广告规范。
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: a6f9bb2d714e7ddb22f74c9c614772eca30f9e40
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## 视频广告（前置广告、CTV和通用视频）
 
-### 支持的Screens
+### 支持的屏幕
 
 默认情况下，在台式机、移动设备和连接的电视设备上投放广告。 设备定位可用于调整投放。
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 您可以使用来自[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]和[!DNL Sizmek]的标记工作表。 有关支持的供应商的完整列表，请参阅“[认证广告服务合作伙伴](certified-ad-servers.md)”。
 
-### 高清视频Assets的要求
+### 高清晰度视频资产的要求
 
 **视频标记类型：** VPAID 2.0 JavaScript或VAST (CTV)。 所有VPAID广告单位都必须遵循Interactive Advertising局(IAB)定义的[VPAID 2.0规范](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf)。
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 ## 显示广告
 
-### 支持的Screens
+### 支持的屏幕
 
 默认情况下，广告会在桌面和移动设备上交付。 设备定位可用于调整投放。
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 **HTML5：**&#x200B;图像文件类型：GIF、JPG/JPEG、PNG、SVG
 
-### 图像Assets的要求
+### 图像资产的要求
 
 支持通用显示。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 ## 音频广告
 
-### 支持的Screens
+### 支持的屏幕
 
 台式机、移动设备、平板电脑、智能扬声器和联网电视
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 您可以使用来自[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]和[!DNL Sizmek]的标记工作表。 有关支持的供应商的完整列表，请参阅“[认证广告服务合作伙伴](certified-ad-servers.md)”。
 
-### Audio Assets的要求
+### 音频资产的要求
 
 **文件类型：** MP3、OGG、AAC
 
@@ -147,7 +147,7 @@ ht-degree: 0%
    * 文件类型：MP3、OGG
    * 音量：44.1千赫
 
-### 随附横幅广告的要求（可选）
+### 伴随横幅广告的要求（可选）
 
 **支持的大小：** 300x250、500x500、640x640、1024x1024
 
@@ -182,11 +182,11 @@ ht-degree: 0%
 
 每个广告都可以包含静止图像或移动GIF（电影胶片）。
 
-### 支持的Screens
+### 支持的屏幕
 
 默认情况下，广告会在桌面和移动设备上交付。 设备定位可用于调整投放。
 
-### 所有本机信息源格式均需要Assets
+### 所有原生信息源格式所需的资产
 
 #### 图像资产
 

@@ -1,16 +1,16 @@
 ---
-title: 编辑有权访问私有交易的帐户
+title: 编辑有权访问私人交易的帐户
 description: 了解如何与不同帐户共享和停止共享私人交易。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: fb67ef24-8b7f-4a2f-973b-8102a97f0acb
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
 
 ---
 
-# 编辑有权访问私有交易的帐户
+# 编辑有权访问私人交易的帐户
 
 您可以与多个帐户共享交易ID。 该交易与指定帐户内的所有广告商共享，以便这些帐户中的所有用户都可以编辑该交易或将其用作其投放的目标。
 

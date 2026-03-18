@@ -1,9 +1,9 @@
 ---
-title: '[!DNL On Demand]澳大利亚和新西兰的高级库存发布者'
+title: 澳大利亚和新西兰的[!DNL On Demand]高级库存发布者
 description: 查看澳大利亚和新西兰可用的 [!DNL On Demand] 高级库存发布者。
 feature: DSP On Demand Inventory
 exl-id: 9c494ad0-eb35-464e-b154-3f56c02968f1
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: 在 [!DNL Freewheel]中设置PG交易的概述
 description: 了解在 [!DNL Freewheel]上为发布者的程序化保证交易运行广告所需的先决条件和额外步骤。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: b9c60248-8104-42ef-8afb-2f9db67b33b0
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
    对于某些英国出版商，您的广告必须包含[!DNL Clearcast]时钟编号。
 
-1. [接受您已经使用“交易ID收件箱”与[!DNL Freewheel]上的发布者协商的交易ID](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox)。
+1. [接受您已经使用“交易ID收件箱”与](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox)上的发布者协商的交易ID[!DNL Freewheel]。
 
    接受交易后，按照提示操作，1)选择要用于交易的广告，2)创建用于投放广告的编程性保证默认投放位置。
 
@@ -43,4 +43,4 @@ ht-degree: 0%
 >* [在交易ID收件箱中接受交易](deal-id-inbox-accept.md)
 >* [向 [!DNL Freewheel]](freewheel-submit.md)提交计划性保证交易的广告
 >* [检查 [!DNL FreeWheel] 计划性保证交易的广告状态](freewheel-check-status.md)
->*  [!DNL Freewheel] 广告提交的[错误代码](freewheel-error-codes.md)
+>* [广告提交的 [!DNL Freewheel] 错误代码](freewheel-error-codes.md)

@@ -3,7 +3,7 @@ title: 创建[!UICONTROL Simple Ad Serving]交易
 description: 了解如何为[!UICONTROL Simple Ad Serving]交易创建跟踪像素。
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    * （可选）从[!UICONTROL Activate Tag with Publisher]屏幕中，将交易标记发送给发布者。
 
-     完成上述步骤后，DSP会生成一封电子邮件，您可以将该邮件发送给发布者。 该消息包括交易详细信息、从中检索交易标记的链接、以及用于该链接的授权代码。
+     完成上述步骤后，DSP会生成一封电子邮件，您可将其发送给发布者。 该消息包括交易详细信息、从中检索交易标记的链接、以及用于该链接的授权代码。
 
       1. 查看交易详细信息，然后执行以下任一操作：
 

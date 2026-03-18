@@ -3,7 +3,7 @@ title: 管理交易列表
 description: 了解如何创建和管理投放位置定位的交易列表。
 feature: DSP Private Inventory, DSP On Demand Inventory, DSP Deal IDs, DSP Placements
 exl-id: 18a2c2d2-d84d-4347-93af-ca7489a1a8fb
-source-git-commit: e030783a046002e02d719a36c99d1b10808cd4a9
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%

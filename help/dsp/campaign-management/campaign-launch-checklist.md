@@ -1,16 +1,16 @@
 ---
-title: 营销活动启动检查清单
+title: Campaign启动检查清单
 description: 了解在启动营销活动之前需要做什么。
 feature: DSP Placements, DSP Ads
 exl-id: 9a8c2b3e-233e-4401-8311-daffde6cda68
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
-# 营销活动启动检查清单
+# Campaign启动检查清单
 
 ## 帐户资金
 
@@ -30,6 +30,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [营销活动设置](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+>* [Campaign设置](/help/dsp/campaign-management/campaigns/campaign-settings.md)
 >* [位置设置](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [设置效果营销活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)

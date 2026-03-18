@@ -3,7 +3,7 @@ title: 检查 [!DNL FreeWheel] PG交易的广告状态
 description: 了解如何查找 [!DNL Freewheel] 计划性保证交易的广告状态。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    [!UICONTROL Submission Status]列指示广告是否已提交和批准。
 
-   对于失败的提交，[!UICONTROL API]响应列指示错误。 有关失败提交的错误代码完整列表以及更正这些代码的后续步骤，请参阅“ [!DNL FreeWheel] 广告提交[&#128279;](freewheel-error-codes.md)的错误代码”。
+   对于失败的提交，[!UICONTROL API]响应列指示错误。 有关失败提交的错误代码完整列表以及更正这些代码的后续步骤，请参阅“[广告提交 [!DNL FreeWheel] 的](freewheel-error-codes.md)错误代码”。
 
 1. （可选）要重新提交广告以供审批，请将光标悬停在广告行上，然后单击&#x200B;**[!UICONTROL More]** > **[!UICONTROL Resubmit]**。
 
@@ -50,5 +50,5 @@ ht-degree: 0%
 >
 >* [在 [!DNL Freewheel]](freewheel-overview.md)中设置计划性保证交易的概述
 >* [向 [!DNL Freewheel]](freewheel-submit.md)提交计划性保证交易的广告
->*  [!DNL Freewheel] 广告提交的[错误代码](freewheel-error-codes.md)
+>* [广告提交的 [!DNL Freewheel] 错误代码](freewheel-error-codes.md)
 >* [在交易ID收件箱中接受交易](deal-id-inbox-accept.md)

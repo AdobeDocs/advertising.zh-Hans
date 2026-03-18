@@ -3,9 +3,9 @@ title: 关于 [!DNL On Demand] 高级库存
 description: 了解DSP与高级发布商合作伙伴预先协商的交易。
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *不可用于帐户类型为[!UICONTROL Ad Network]、[!UICONTROL Publisher Audience Extension]和[!UICONTROL Other]的用户；类别为[!UICONTROL Other]的广告商和经销商*
 
-[!DNL On Demand]图库是一个高级库存发现工具，用于探索DSP与高级发布商合作伙伴策划的预协商交易。 它允许您从区域内的顶级出版商访问无保证库存，无需1:1谈判或合同。 您可以请求单个交易，也可以订阅发布者以一次请求发布者的所有交易。
+[!DNL On Demand]图库是一个高级库存发现工具，用于探索DSP与高级发布商合作伙伴策划的预协商交易。 它允许您从区域内的顶级发布者访问无保证库存，无需1:1谈判或合同。 您可以请求单个交易，也可以订阅发布者以一次请求发布者的所有交易。
 
 DSP Premium Marketplace允许您：
 
@@ -36,7 +36,7 @@ DSP Premium Marketplace允许您：
 
 交易获得批准后，即可将其用作现有投放的目标，并自动包含为针对所有[!DNL On Demand]库存的新投放的目标。 如果交易请求被拒绝，您可以与Adobe客户团队合作以解决问题，然后重新请求交易。
 
-## 按需视图
+## [!UICONTROL On Demand]次查看
 
 在[!UICONTROL Inventory] > [!UICONTROL On Demand]，可通过页面顶部的轮播访问最新的交易和发布者<!-- how recent? -->。
 
@@ -47,7 +47,7 @@ DSP Premium Marketplace允许您：
 * **[!UICONTROL TVB]：**&#x200B;指示发布者何时为电视广播员
 * **[!UICONTROL Tune]：**&#x200B;指示发布者何时接受“调入”创意（例如，\&lt;*我们的节目*\>的新一集今晚的“调入”）
 * **[!UICONTROL LDA]：** （合法饮酒年龄）指示发布者何时应用21+定位并接受酒精广告
-* **[!UICONTROL CPM]：**&#x200B;指示在授予广告商访问交易的权限之前，交易的下限或固定速率CPM何时不可见
+* **[!UICONTROL CPM]：**&#x200B;指示在授予广告商访问交易的权限之前，交易的最低费率或固定费率CPM何时不可见
 * **[!UICONTROL Status]：**&#x200B;您的订阅请求的状态（如果适用）
 * **[!UICONTROL Action]：**&#x200B;您可以执行的任何可用操作（如[!UICONTROL Request]或[!UICONTROL Re-request]）
 
