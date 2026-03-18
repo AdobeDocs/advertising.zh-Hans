@@ -3,7 +3,7 @@ title: 将Adobe Advertising与Customer Journey Analytics集成的先决条件
 description: 将Adobe Advertising与Customer Journey Analytics集成的先决条件
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 4bd14178-5003-4da6-9034-d070c57f0e9b
-source-git-commit: b35a167e2718db76da6008eb1a3e1e3e4720b39e
+source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
   您需要获得内部Web分析人员的支持，才能设置与数据集的连接并配置报表。
 
-* Adobe Experience Platform数据建模和管理技术（包括[架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)和[数据集](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/overview)）和[数据收集技术](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/home)（包括[数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/overview)和[标记](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/home)）
+* Adobe Experience Platform数据建模和管理技术（包括[架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)和[数据集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)）和[数据收集技术](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home)（包括[数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)和[标记](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)）
 
   这些技术需要Experience Platform站点管理员的支持。
 
@@ -30,4 +30,4 @@ ht-degree: 0%
 >* [使用的 [!DNL Customer Journey Analytics]](ids.md)Adobe Advertising ID
 >* [设置数据收集、数据传输和报告](set-up.md)
 >* Customer Journey Analytics中的[Adobe Advertising指标和维度](advertising-data-in-cja.md)
->* （Adobe Analytics用户） [收集在Adobe Customer Journey Analytics中使用的AMO ID和EF ID的历史数据](/help/integrations/analytics/rvars-to-evars.md)。
+>* （Adobe Analytics用户） [收集AMO ID和EF ID的历史数据以用于Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md)。
