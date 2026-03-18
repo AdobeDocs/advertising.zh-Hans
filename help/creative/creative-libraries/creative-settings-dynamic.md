@@ -3,7 +3,7 @@ title: 动态创意设置
 description: 引用动态创意的设置。
 feature: Creative Dynamic Creatives
 exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
-source-git-commit: 164ee92f85c0e649dc2bd6c0224a531eb72d1962
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Template]：**&#x200B;从中创建广告的广告模板。 选择现有的广告模板，或上传新的广告模板并选择模板类型（*静态*&#x200B;或&#x200B;*动态*）。 模板必须为ZIP格式并包含：<!-- Need to add more specs for templates -->
 
-* 显示创意：具有所需广告格式的HTML5文件，以及具有广告属性(.tdf)的文件(仅限动态HTML5广告)
+* 显示创意：具有所需广告格式的HTML5文件，以及具有广告属性(.tdf)的文件（仅限动态HTML5广告）
 
 * 视频创意：具有所需广告格式的.scene文件。 ZIP文件最大可以为512 MB。
 

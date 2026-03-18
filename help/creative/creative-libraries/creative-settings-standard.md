@@ -3,7 +3,7 @@ title: 标准创意设置
 description: 引用标准创意内容的设置。
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '2106'
 ht-degree: 0%
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 ## HTML5创意设置 {#creative-settings-html5}
 
-## “详细信息”选项卡
+### “详细信息”选项卡
 
 对于新创意，以下设置不在指定选项卡上。
 
@@ -98,13 +98,13 @@ ht-degree: 0%
 
 **Creative大小：**（现有创意为只读）创意的尺寸。 如果创意内容中包含的任何图像大于指定的大小，则会相应地调整其大小。
 
-**[!UICONTROL Click Tags]：** (仅限静态HTML5创意)允许从包含的横幅广告进行点击跟踪重定向的变量。 变量名称和相应的登陆页面URL会从上传的创意单元中填充，但您可以更改默认URL。 对于多个创意，您可以编辑单个点击标记。
+**[!UICONTROL Click Tags]：** （仅限静态HTML5创意）允许从包含的横幅广告进行点击跟踪重定向的变量。 变量名称和相应的登陆页面URL会从上传的创意单元中填充，但您可以更改默认URL。 对于多个创意，您可以编辑单个点击标记。
 
 >[!NOTE]
 >
 >将创意包含在体验中时，您可以将任何点击标记的默认值替换为自定义登陆页面URL，以生成基本创意的派生。
 
-**登陆页面URL：**(仅带有一个登陆页面的简单HTML5创意)您与创意人员关联的每个广告的默认登陆页面URL。 它必须是以http://或https://开头的有效URL。 它可能包含第三方跟踪参数或[[!DNL Creative] 宏](/help/creative/creative-macros.md)供您自行使用。
+**登陆页面URL：**（仅带有一个登陆页面的简单HTML5创意）您与创意人员关联的每个广告的默认登陆页面URL。 它必须是以http://或https://开头的有效URL。 它可能包含第三方跟踪参数或[[!DNL Creative] 宏](/help/creative/creative-macros.md)供您自行使用。
 
 在捆绑包中包含创意并将捆绑包分配给体验时，您可以选择更改登陆页面URL，并为捆绑包中的每个创意添加展示和点击跟踪URL以及JavaScript 。<!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
@@ -170,7 +170,7 @@ ht-degree: 0%
 
 ## 第三方创意设置 {#creative-settings-third-party}
 
-**JavaScriptCode：**&#x200B;指向第三方广告服务器上的创意的JavaScript标记(以及可选的不支持JavaScript的浏览器的替代标记)。 脚本可能因广告服务器而异。 编辑多个创意时，相同的值将应用于每个选定的创意。
+**JavaScriptCode：**&#x200B;指向第三方广告服务器上的创意的JavaScript标记（以及可选的不支持JavaScript的浏览器的替代标记）。 脚本可能因广告服务器而异。 编辑多个创意时，相同的值将应用于每个选定的创意。
 
 所有[可用的宏](/help/creative/creative-macros.md)及其替代数据都列在输入字段的下方。 若要在标记中插入一个宏，请将光标悬停在宏描述上，单击![复制到剪贴板](/help/creative/assets/copy-to-clipboard.png "复制到剪贴板")，然后将图像粘贴到标记中所需的位置。
 

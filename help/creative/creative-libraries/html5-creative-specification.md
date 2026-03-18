@@ -3,10 +3,10 @@ title: HTML5创作规范
 description: 参考适用于Advertising Creative的HTML5创意规范。
 feature: Creative Standard Creatives
 exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '1157'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 * 创意内容必须打包为ZIP文件（.ZIP格式）。 不支持嵌套的ZIP文件，因此不要在外部压缩文件夹中包含压缩文件夹。
 
-* ZIP文件必须至少包含一个HTML文件(主HTML显示文件)，其中包括对[!DNL Creative] JavaScript库的引用。 主HTML文件可以在根文件夹或子文件夹中。
+* ZIP文件必须至少包含一个HTML文件（主HTML显示文件），其中包括对[!DNL Creative] JavaScript库的引用。 主HTML文件可以在根文件夹或子文件夹中。
 
 * 主HTML文件可以命名任何内容，只要它不包含特殊字符即可，但建议使用`index.html`。
 
@@ -96,7 +96,7 @@ var clickTag = “http://www.example.com”;
 
 ###### 使用情况
 
-在主HTML文件的`<head>`部分中调用`amo.registerClick()`。
+在主HTML文件的`amo.registerClick()`部分中调用`<head>`。
 
 ###### 示例
 
@@ -114,7 +114,7 @@ var clickTag = “http://www.example.com”;
 
 ###### 使用情况
 
-在主HTML文件的`<body>`部分中调用`amo.onAdClick()`。
+在主HTML文件的`amo.onAdClick()`部分中调用`<body>`。
 
 ###### 示例
 
@@ -140,7 +140,7 @@ var clickTag = “http://www.example.com”;
 
 ###### 使用情况
 
-在主HTML文件的`<head>`部分中调用`amo.registerClick()`。
+在主HTML文件的`amo.registerClick()`部分中调用`<head>`。
 
 ###### 示例
 
@@ -158,7 +158,7 @@ var clickTag = “http://www.example.com”;
 
 ###### 使用情况
 
-在主HTML文件的`<body>`部分中调用`amo.onAdClick()`。
+在主HTML文件的`amo.onAdClick()`部分中调用`<body>`。
 
 ###### 示例
 
@@ -253,7 +253,7 @@ Advertising DSP中可用的大多数显示区交换都有以下创意要求：
 
 * /assets（文件夹）
 
-   * bg.jpg(JPG、PNG、SVG或GIF图像)
+   * bg.jpg（JPG、PNG、SVG或GIF图像）
 
 ### 简单的HTML5创作实例的HTML文件(index.html)
 

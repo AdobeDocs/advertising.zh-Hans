@@ -3,7 +3,7 @@ title: 关于Advertising Creative中的体验
 description: 了解如何配置个性化的广告体验并根据性能优化广告元素。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: ace6005869ea4102878091c4799259961aeecb63
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
    * 特定地理位置，包括国家/地区、州、美国境内的DMA、城市和邮政编码
 
-   * 从DSP、发布者或合作伙伴(例如SKU=01234567890123或Cart=empty)传递特定键值对（数据传递目标）的查看器
+   * 从DSP、发布者或合作伙伴（例如SKU=01234567890123或Cart=empty）传递特定键值对（数据传递目标）的查看器
 
    * [!DNL Creative]重定位像素和指定的属性值
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 * 您可以从[视图](experience-performance-details.md)查看任何体验[!UICONTROL Experiences]的详细性能数据。
 
-* 要监控所有体验的表现，请创建[自定义Creative报表](/help/creative/reports/report-manage.md)。
+* 要监控所有体验的表现，请创建[自定义创意报表](/help/creative/reports/report-manage.md)。
 
 ## 警报指示器
 
