@@ -3,7 +3,7 @@ title: 创建单个广告
 description: 了解如何创建单个第三方广告。
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%

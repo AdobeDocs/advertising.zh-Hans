@@ -3,7 +3,7 @@ title: 创建多个第三方广告
 description: 了解如何同时创建多个第三方广告。
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
@@ -77,5 +77,5 @@ ht-degree: 0%
 >* [关于广告管理](ad-about.md)
 >* [广告规范](ad-specs.md)
 >* [创建单个Ad](ad-create.md)
->* [视频：如何批量上传第三方广告标记](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=zh-Hans)
+>* [视频：如何批量上传第三方广告标记](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
 >* 有关通用视频的[常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)

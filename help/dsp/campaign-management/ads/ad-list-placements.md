@@ -1,16 +1,16 @@
 ---
-title: 列出与广告关联的版面
+title: 列出与广告关联的投放位置
 description: 了解如何查看与广告关联的投放位置。
 feature: DSP Ads
 exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
-source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%
 
 ---
 
-# 列出与广告关联的版面
+# 列出与广告关联的投放位置
 
 查看与广告关联的版面列表，以查看按版面划分的绩效数据，并根据需要编辑版面设置。
 

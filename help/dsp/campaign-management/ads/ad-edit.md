@@ -3,7 +3,7 @@ title: 编辑广告
 description: 了解如何编辑广告。
 feature: DSP Ads
 exl-id: 149eeb61-b4d1-4c88-8dcd-ad11e135a486
-source-git-commit: c97fcf61f444ab3363d9d55398402ec9f162be99
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%

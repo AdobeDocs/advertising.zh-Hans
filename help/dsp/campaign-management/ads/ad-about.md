@@ -3,7 +3,7 @@ title: 关于Advertising DSP中的广告管理
 description: 了解广告管理。
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: e9ce180e302f619c85a3d6db813c83903e437d04
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- add "The Ads View (Dashboard?)" section -->
 
-DSP支持通过适用于各种广告类型的第三方广告投放标签(例如Google、Flashtalking或Sizmek)进行广告投放，并支持针对原生显示广告直接上传资源。 您可以单独上传第三方标记，也可以批量上传。 批量上传使用合作伙伴标记表或批量标记模板。
+DSP支持通过适用于各种广告类型的第三方广告投放标签（例如Google、Flashtalking或Sizmek）进行广告投放，并支持针对原生显示广告直接上传资源。 您可以单独上传第三方标记，也可以批量上传。 批量上传使用合作伙伴标记表或批量标记模板。
 
 <!-- The bulk upload feature requires you to either a) upload DoubleClick and Flashtalking tag sheets or b) download a template, input your tags into the template, and then re-upload the template. -->
 <!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
@@ -23,11 +23,11 @@ DSP支持通过适用于各种广告类型的第三方广告投放标签(例如G
 
 ## 可用广告类型 {#ad-types}
 
-以下所有广告类型在DSP中均可用。 有关每种广告类型的完整规范，请参阅[广告规范](ad-specs.md)。
+以下所有广告类型在DSP中可用。 有关每种广告类型的完整规范，请参阅[广告规范](ad-specs.md)。
 
 * **音频广告（仅限第三方）**：音频广告在数字发布者网站上的内容之间播放，并且可以作为音频文件单独运行或与随附横幅一起运行。 音频最适合用于提升品牌知名度以及与移动受众互动。 音频的关键绩效指标包括[!UICONTROL Completion Rate]和[!UICONTROL Cost per Completion]。
 
-* **显示广告（仅限第三方）**：显示广告是在Web浏览器或应用程序中显示的动画或静态图像。 单击广告单元会将用户转至品牌网站或微型网站。 “显示”最适合用来推动高效的CPM、增强消息关联、添加其他品牌或产品接触点以及促使用户降低购买漏斗水平。 显示的关键绩效指标包括[!UICONTROL Clicks]、[!UICONTROL Cost per Click]、[!UICONTROL Conversions]和[!UICONTROL Cost per Conversion]。 DSP支持各种不同的显示横幅广告大小。
+* **显示广告（仅限第三方）**：显示广告是在Web浏览器或应用程序中显示的动画或静态图像。 单击广告单元会将用户转至品牌网站或微型网站。 “显示”最适合用来推动高效的CPM、增强消息关联、添加其他品牌或产品接触点以及促使用户减少购买funnel。 显示的关键绩效指标包括[!UICONTROL Clicks]、[!UICONTROL Cost per Click]、[!UICONTROL Conversions]和[!UICONTROL Cost per Conversion]。 DSP支持各种不同的显示横幅广告大小。
 
 * **移动设备广告（仅限第三方）**：移动设备广告可以是前置视频(VAST、MRAID)或标准显示格式。 移动设备前置视频可以自动播放或单击播放，最适合跨屏幕触及观看者。 移动标准显示是在移动Web浏览器或应用程序中显示的静态图像，最适合用于补充数字视频购买、促进消息关联以及添加其他品牌或产品接触点。 移动广告还可以用作全屏收购或移动插播式广告，这些是全屏、高影响力的移动广告，最适合用于提高移动受众的品牌知名度并促进转化。
 
@@ -51,7 +51,7 @@ DSP支持通过适用于各种广告类型的第三方广告投放标签(例如G
 
 当DSP批准广告时，广告的状态列会显示一个绿点。
 
-[!UICONTROL Status]列中的![审批指示器](/help/dsp/assets/ad-approval-status.png)
+![列中的[!UICONTROL Status]审批指示器](/help/dsp/assets/ad-approval-status.png)
 
 >[!NOTE]
 >

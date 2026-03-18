@@ -2,7 +2,8 @@
 title: 附加和删除广告中的像素
 description: 了解如何从广告中附加和删除第三方跟踪像素。
 feature: DSP Ads
-source-git-commit: a3bd04da6c6f428fdb6e1f05187ea3de0174c9d7
+exl-id: 7b386a58-5300-49cf-9de8-4ce982a5181d
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
@@ -67,7 +68,7 @@ ht-degree: 0%
 
 1. （可选）要返回到营销活动详细信息视图，请单击![返回到文件夹](/help/dsp/assets/breadcrumb-return.png "返回到文件夹")左侧的文件夹[!UICONTROL Ad Tools]，然后选择营销活动名称。
 
-## 将第三方跟踪像素与投放位置中的广告分离 {#detach-pixels-ads}
+## 从投放位置中的广告分离第三方跟踪像素 {#detach-pixels-ads}
 
 1. [打开[!UICONTROL Ad Tools]视图](#ad-tools-open)。
 
@@ -119,4 +120,3 @@ ht-degree: 0%
 >* [列出与广告关联的版面](ad-list-placements.md)
 >* [编辑投放位置的广告计划](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
 >* 有关通用视频的[常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)
-
