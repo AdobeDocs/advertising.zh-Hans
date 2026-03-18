@@ -70,4 +70,4 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 >
 >* [管理广告网络帐户](ad-network-account-manage.md)
 >* [使用的 [!DNL Analytics]](/help/integrations/analytics/ids.md)Adobe Advertising ID
->* [概述 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}
+>* [概述 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hans){target="_blank"}
