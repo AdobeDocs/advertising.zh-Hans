@@ -51,7 +51,7 @@ Adobe Advertising和Adobe Target使得营销人员能够更轻松地通过付费
 
 在[!DNL Flashtalking]或Google Campaign Manager 360中，手动更新每个广告的点进URL，以包含捕获AMO ID变量所需的宏。 AMO ID变量用于将点击数据发送到Adobe Analytics并共享A/B测试的放置键。 有关说明，请参阅以下页面：
 
-* 将[宏附加到 [!DNL Analytics for Advertising] 添加标记 [!DNL Flashtalking] 。 ](/help/integrations/analytics/macros-flashtalking.md)**注意：**&#x200B;如果您的组织与[!DNL Flashtalking]直接合作，并且您根据`s_kwcid`支持文档（位于`ef_id`https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros[!DNL Flashtalking]）使用数据传递宏跟踪[和](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)跟踪参数，则不需要执行此过程。
+* 将[宏附加到 [!DNL Analytics for Advertising] 添加标记 [!DNL Flashtalking] 。 &#x200B;](/help/integrations/analytics/macros-flashtalking.md)**注意：**&#x200B;如果您的组织与[!DNL Flashtalking]直接合作，并且您根据`s_kwcid`支持文档（位于`ef_id`https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros[!DNL Flashtalking]）使用数据传递宏跟踪[和](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)跟踪参数，则不需要执行此过程。
 
 * [将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Google Campaign Manager 360] 添加标记](/help/integrations/analytics/macros-google-campaign-manager.md)
 

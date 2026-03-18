@@ -70,7 +70,7 @@ ht-degree: 0%
 
 * 当广告商具有Adobe Analytics集成时，后缀必须包括以下任一项：
 
-   * 使用最新[!DNL Google Ads]AMO ID格式[ （以](/help/integrations/analytics/ids.md#amo-id-formats)开头）的`s_kwcid`帐户，该格式支持效果最佳的营销活动以及草稿和实验营销活动的营销活动级和广告组级报告：
+   * 使用最新[!DNL Google Ads]AMO ID格式[&#x200B; （以](/help/integrations/analytics/ids.md#amo-id-formats)开头）的`s_kwcid`帐户，该格式支持效果最佳的营销活动以及草稿和实验营销活动的营销活动级和广告组级报告：
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

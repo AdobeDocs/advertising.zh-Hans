@@ -32,7 +32,7 @@ ht-degree: 0%
       >
       >您的域必须按[!DNL Google Ads]有机搜索索引编制索引才能定位。 此外，如果域包含多种语言的页面，并且您希望定位所有语言，则请为每个语言创建单独的营销活动。
 
-      如果您不使用网站域来定位广告，则请为每个广告组创建动态搜索目标（请参阅步骤4）。 您可以单独创建目标[](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)或使用[批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
+      如果您不使用网站域来定位广告，则请为每个广告组创建动态搜索目标（请参阅步骤4）。 您可以单独创建目标[&#128279;](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)或使用[批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
 
    1. 确保该营销活动以搜索渠道为目标，且仅以[!DNL Google Ads]搜索网络（而非显示网络）为目标。 这些设置可在[!UICONTROL Networks and Devices]选项卡中使用。
 
