@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 有关如何使用Adobe Experience Platform Privacy Service API向Adobe Advertising传达CCPA选择退出销售请求的信息，请参阅[https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html)。
+>* 有关如何使用Adobe Experience Platform Privacy Service API向Adobe Advertising传达CCPA选择退出销售请求的信息，请参阅[https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=zh-Hans](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=zh-Hans)。
 >* 要跟踪访问网页的用户（这些用户访问网页的目的与跟踪CCPA选择退出销售事件无关）以及接触到来自桌面、移动设备和CTV设备广告的用户，请创建[自定义区段](/help/dsp/audiences/custom-segment-create.md)。
 
 1. 创建区段：
