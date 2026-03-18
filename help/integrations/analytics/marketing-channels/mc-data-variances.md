@@ -3,7 +3,7 @@ title: 为什么渠道数据在Adobe Advertising和 [!DNL Marketing Channels]之
 description: 了解AMO ID跟踪的渠道数据为何与 [!DNL Analytics Marketing Channels]跟踪的渠道数据不同。
 feature: Integration with Adobe Analytics
 exl-id: 72e3aa1e-85ed-485a-b93f-5e67dd0140ce
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -26,12 +26,12 @@ ht-degree: 0%
 
   为了收集此数据，[!DNL Analytics for Advertising]集成在Adobe Analytics的AMO ID维度中传递原始AMO ID，这些ID可以转换为点进和浏览跟踪代码，可存储为自定义变量(eVar)或保留变量(rVar)。 由于AMO ID维度中未设置其他渠道的点进次数，因此AMO ID维度无法跟踪来自这些其他渠道的进入。 结果是AMO ID将持续存在[!DNL Marketing Channels]个入口点。
 
-有关Adobe Advertising跟踪的数据与[!DNL Analytics]跟踪的数据之间可能的数据差异的更多信息，请参阅“[介于 [!DNL Analytics] 和Adobe Advertising](../data-variances.md)之间的预期数据差异”。
+有关Adobe Advertising跟踪的数据与[!DNL Analytics]跟踪的数据之间可能的数据差异的更多信息，请参阅“[在 [!DNL Analytics] 和Adobe Advertising](../data-variances.md)之间的预期数据差异”。
 
 >[!MORELIKETHIS]
 >
->* [在 [!DNL Analytics] 和Adobe Advertising](/help/integrations/analytics/data-variances.md)之间的预期数据差异
+>* [ [!DNL Analytics] 和Adobe Advertising](/help/integrations/analytics/data-variances.md)之间的预期数据差异
 >* [的 [!DNL Analytics Marketing Channels]](mc-overview.md)基础知识
 >* [使用Adobe Advertising ID创建 [!DNL Marketing Channels] 处理规则](mc-ids.md)
->* [对Adobe Advertising数据使用 [!DNL Analytics Marketing Channels] &#x200B;](mc-ac-data.md)
->* [视频：将 [!DNL Marketing Channels] 用于Adobe Advertising报表](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=zh-Hans)
+>* [对Adobe Advertising数据使用 [!DNL Analytics Marketing Channels] ](mc-ac-data.md)
+>* [视频：将 [!DNL Marketing Channels] 用于Adobe Advertising报表](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)

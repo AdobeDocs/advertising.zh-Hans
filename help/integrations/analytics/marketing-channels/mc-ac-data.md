@@ -3,7 +3,7 @@ title: 将 [!DNL Marketing Channels] 用于Adobe Advertising数据
 description: 了解如何在 [!DNL Analytics Marketing Channels]中使用Adobe Advertising数据。
 feature: Integration with Adobe Analytics
 exl-id: 522c7f01-1138-477d-8018-36030caab55e
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 将[!DNL Analytics Marketing Channels]用于Adobe Advertising数据
 
-*仅具有Adobe Advertising-Adobe Analytics集成的广告商*
+*仅集成Adobe Advertising-Adobe Analytics的广告商*
 
-通过使用Adobe Advertising和[!DNL Analytics Marketing Channels]报表，您可以获得关于数字媒体如何影响网站活动的宝贵见解。
+通过使用Adobe Advertising和[!DNL Analytics Marketing Channels]报表，您可以获得有关数字媒体如何影响网站活动的宝贵insight。
 
 <!-- from video: By using Marketing Channels with your Adobe Advertising data, you can get a more holistic view of how your advertising efforts are affecting site behavior. In particular, you can see the value of your view-through and click-through data, and how your advertising assists or is assisted by other channels. -->
 
-下图显示了Adobe Advertising和[!DNL Marketing Channels]如何跟踪构成一个访客历程的单独访问。 [!DNL Analytics]中的Adobe Advertising报表仅限于使用AMO ID通过Adobe Advertising进行交易的付费显示、搜索、社交和商业渠道广告。 但是，[!DNL Marketing Channels]跟踪在[!DNL Marketing Channels]处理规则中配置的所有渠道。
+下图显示了Adobe Advertising和[!DNL Marketing Channels]如何跟踪构成一个访客历程的单独访问。 [!DNL Analytics]中的Adobe Advertising报表被限制为仅使用AMO ID通过Adobe Advertising贩运的付费显示、搜索、社交和商业渠道广告。 但是，[!DNL Marketing Channels]跟踪在[!DNL Marketing Channels]处理规则中配置的所有渠道。
 
 ![Adobe Advertising和[!DNL Marketing Channels]如何跟踪访客历程中的个人访问](/help/integrations/assets/a4adc-mc-sample-journey2.png)
 
@@ -28,11 +28,11 @@ ht-degree: 0%
 
 ## 如何结合Adobe Advertising和营销渠道数据来分析媒体效果
 
-在[!DNL Analytics]内，您可以将保留付费广告数据的Adobe Advertising与[!DNL Marketing Channels]综合访问数据相结合，更好地分析您的媒体效果，从而更好地影响客户历程。
+在[!DNL Analytics]内，您可以将Adobe Advertising持久化的付费广告数据与[!DNL Marketing Channels]综合访问数据相结合，更好地分析您的媒体效果，以便更好地影响客户历程。
 
 以下分析使用Adobe Advertising数据显示了各种版本的显示广告如何影响网站转化。 这三列使用的转化量度相同，但每列的情况却有所不同：
 
-* 列1查看访客历程中持续保留的AMO ID数据。 列1表示641应用程序启动一度通过浏览或点进事件与Adobe Advertising广告链接。 此视图不考虑任何其他[!DNL Marketing Channels]归因。
+* 列1查看访客历程中持续保留的AMO ID数据。 列1表示，641应用程序启动曾通过浏览或点进事件与Adobe Advertising广告链接。 此视图不考虑任何其他[!DNL Marketing Channels]归因。
 
 * 但是，在[!DNL Marketing Channels]数据集中，641应用程序启动将归因于其他营销渠道。 最后两列采用“641应用程序启动”并将数据限制为[!UICONTROL Display Click-Through]和[!UICONTROL Display View-Through]渠道，显示最后接触归因模型中发生的转化。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ![如何添加最近联系渠道维度](/help/integrations/assets/a4adc-mc-display-impact-ltc.png)
 
-现在，您可以查看其余应用程序启动次数的归因。 电子邮件获得357个保持有AMO ID的最近联系申请开始的点数。 通过这种类型的分析，您可以了解Adobe Advertising展示广告对所有渠道的影响。 由于只有一个数据集和归因模型，因此这种类型的分析将不可用。
+现在，您可以查看其余应用程序启动次数的归因。 电子邮件获得357个保持有AMO ID的最近联系申请开始的点数。 通过这种类型的分析，您可以了解Adobe Advertising展示广告对所有渠道的影响。 由于只有一个数据集和归因模型，此类型的insight将不可用。
 
 显示渠道的跨渠道影响示例![](/help/integrations/assets/a4adc-mc-display-impact-x-channel.png)
 
@@ -52,8 +52,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->*  [!DNL Analytics Marketing Channels][&#128279;](mc-overview.md)的基础知识
->* [使用Adobe AdvertisingID创建 [!DNL Marketing Channels] 处理规则](mc-ids.md)
+>* [的 [!DNL Analytics Marketing Channels]](mc-overview.md)基础知识
+>* [使用Adobe Advertising ID创建 [!DNL Marketing Channels] 处理规则](mc-ids.md)
 >* [为什么渠道数据在Adobe Advertising和 [!DNL Marketing Channels]](mc-data-variances.md)之间可能不同
->* [视频：使用 [!DNL Marketing Channels] 进行Adobe Advertising报告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=zh-Hans)
+>* [视频：将 [!DNL Marketing Channels] 用于Adobe Advertising报表](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [概述 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
