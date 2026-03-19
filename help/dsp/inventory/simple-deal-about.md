@@ -3,7 +3,7 @@ title: 关于[!UICONTROL Simple Ad Serving]
 description: 了解使用事件跟踪像素的[!UICONTROL Simple Ad Serving]交易。
 feature: DSP Simple Ad Serving
 exl-id: 327a2c93-d729-42e1-856f-f0e05efab7ca
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -24,17 +24,17 @@ ht-degree: 0%
 * 显示
 * 音频
 
-您可以在[!UICONTROL Inventory] > [!UICONTROL Deals]视图中创建[!UICONTROL Simple Ad Serving]交易。 DSP会自动为广告生成子类型为“[!DNL Simple ad serving]”的版面。 投放位置以交易为目标，但不允许额外的定位、预算或频率上限。 您只能编辑部分交易设置，如交易名称、CPM、展示次数和投放日期。<!-- If you need multiple tracking tags for a [!UICONTROL Simple Ad Serving] deal, create a duplicate deal. -->
+您可以在[!UICONTROL Simple Ad Serving] > [!UICONTROL Inventory]视图中创建[!UICONTROL Deals]交易。 DSP会自动为广告生成子类型为“[!DNL Simple ad serving]”的版面。 投放位置以交易为目标，但不允许额外的定位、预算或频率上限。 您只能编辑部分交易设置，如交易名称、CPM、展示次数和投放日期。<!-- If you need multiple tracking tags for a [!UICONTROL Simple Ad Serving] deal, create a duplicate deal. -->
 
-[!UICONTROL Simple Ad Serving]投放位置不符合帐户的可用资金或营销活动和包预算。 但是，支出会被跟踪并计入这些预算。 即使CPM为$0，也始终跟踪事件数据。
+[!UICONTROL Simple Ad Serving]投放位置不符合帐户的可用资金或营销活动和包预算。 但是，支出会被跟踪并计入这些预算。 即使CPM为0美元，系统也会始终跟踪事件数据。
 
 >[!MORELIKETHIS]
 >
->* [创建[!UICONTROL Simple Ad Serving]交易](simple-deal-create.md)
+>* [创建一个[!UICONTROL Simple Ad Serving]交易](simple-deal-create.md)
 >* [编辑[!UICONTROL Simple Ad Serving]交易设置](simple-deal-edit.md)
 >* [[!UICONTROL Simple Ad Serving]设置](simple-deal-settings.md)
 >* [查看交易的详细报告](/help/dsp/inventory/deal-view-report.md)
 
 <!-- add back when reimplemented:
->* [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](simple-deal-show-pixels.md)
+>* [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](simple-deal-show-pixels.md)
 -->

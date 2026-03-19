@@ -3,9 +3,9 @@ title: 关于自定义报表
 description: 了解用于手动或使用预配置的报表模板创建自定义报表的选项。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -68,9 +68,9 @@ ht-degree: 0%
 
    * **[!UICONTROL Geo]**：使用此预填充模板按地理维度查看关键量度。
 
-   * **[!UICONTROL Household Conversions]：**&#x200B;使用此报表可查看基于IP地址的家庭级别（而非设备/Cookie级别）的浏览转化情况。 使用见解衡量和优化促销活动效果。 有关详细信息，请参阅[家庭报表常见问题解答](/help/dsp/reports/faq-reports.md)。 数据不可用于以通用ID为目标的投放位置。
+   * **[!UICONTROL Household Conversions]：**&#x200B;使用此报表可查看基于IP地址的家庭级别（而非设备/Cookie级别）的浏览转化情况。 使用见解衡量和优化促销活动效果。 有关详细信息，请参阅[家庭报告常见问题解答](/help/dsp/reports/faq-reports.md)。 数据不可用于以通用ID为目标的投放位置。
 
-   * **[!UICONTROL Household Reach & Frequency]：**&#x200B;使用此报表可根据IP地址而不是设备/Cookie级别，在家庭级别查看跨广告格式的单个维度的展示次数、覆盖范围和频率。 利用这些见解优化您的媒体组合、提高性能并发现增量访问的机会。 有关详细信息，请参阅[家庭报表常见问题解答](/help/dsp/reports/faq-reports.md)。 数据不可用于以通用ID为目标的投放位置。
+   * **[!UICONTROL Household Reach & Frequency]：**&#x200B;使用此报表可根据IP地址而不是设备/Cookie级别，在家庭级别查看跨广告格式的单个维度的展示次数、覆盖范围和频率。 利用这些见解优化您的媒体组合、提高性能并发现增量访问的机会。 有关详细信息，请参阅[家庭报告常见问题解答](/help/dsp/reports/faq-reports.md)。 数据不可用于以通用ID为目标的投放位置。
 
    * **[!UICONTROL Margin]：**&#x200B;使用此报表按促销活动或投放位置查看关键量度，如利润、利润和其他支出量度。 数据不可用于以通用ID为目标的投放位置。
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
      包括最近的10个交互点。 路径行按转化次数排序。
 
-     若要将此报告与[!DNL Advanced Measurement Services]和Adobe Analytics创建的报告进行比较，请参阅“[关于自定义报告的常见问题解答](/help/dsp/reports/faq-reports.md)”。
+     若要将此报告与[!DNL Advanced Measurement Services]和Adobe Analytics创建的报告进行比较，请参阅[有关自定义报告的常见问题解答](/help/dsp/reports/faq-reports.md)。
 
    * **[!UICONTROL Path Length]：**&#x200B;使用此报表跟踪一段时间内转化所需的用户交互点数，以便您选择最佳广告频率。 此报表按路径长度（交互点）显示转化次数，例如用户仅有一个广告交互、两个广告交互等后发生的转化次数。 报表可以包含多个转化量度的数据，并在首次交互和转化之间使用指定的回顾时间段。 报表中的列包括“[!UICONTROL Path Length]”、“[!UICONTROL Number of] \&lt;转化量度名称1\>”、“% \&lt;转化量度名称1\>”、“\&lt;转化量度名称2\>”、“% \&lt;转化量度名称2\>”等。
 
@@ -139,6 +139,6 @@ ht-degree: 0%
 >* [下载自定义报告](/help/dsp/reports/report-download.md)
 >* [自定义报表设置](/help/dsp/reports/report-settings.md)
 >* [有关家庭报告的常见问题解答](/help/dsp/reports/faq-reports.md)
->* 营销活动管理视图中的[性能报表类型](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [可用报告列](/help/dsp/reports/report-columns.md)
->* [关于[!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [促销活动管理视图中的性能报告类型](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [可用的报表列](/help/dsp/reports/report-columns.md)
+>* [关于报告目标](/help/dsp/reports/report-destinations/report-destination-about.md)

@@ -3,9 +3,9 @@ title: 从投放位置附加和删除广告
 description: 了解如何将广告附加到投放位置以及从投放位置中删除广告。
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Detach Selected Ads]**。
 
-## 从[!UICONTROL Placement Inspector]中的投放位置删除广告 {#remove-ads-placement-inspector}
+## 从版面[!UICONTROL Inspector]中的版面中删除广告 {#remove-ads-placement-inspector}
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 
@@ -106,11 +106,11 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于广告管理](ad-about.md)
->* [附加和删除广告中的像素](ad-pixel-attach-detach.md)
->* [创建单个Ad](ad-create.md)
+>* [关于Advertising DSP中的广告管理](ad-about.md)
+>* [附加和移除广告中的像素](ad-pixel-attach-detach.md)
+>* [创建单个广告](ad-create.md)
 >* [创建多个第三方广告](ad-create-multiple.md)
 >* [编辑广告](ad-edit.md)
->* [列出与广告关联的版面](ad-list-placements.md)
+>* [列出与广告关联的投放位置](ad-list-placements.md)
 >* [编辑投放位置的广告计划](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
->* 有关通用视频的[常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)
+>* 关于通用视频的[常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)

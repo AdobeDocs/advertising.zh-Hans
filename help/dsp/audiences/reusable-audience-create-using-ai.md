@@ -5,7 +5,7 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -50,7 +50,7 @@ ht-degree: 0%
 
    1. 输入一个或多个提示以描述要包含和排除的受众特征。 若要提交每个提示，请单击![提交提示](/help/dsp/assets/submit-prompt.png "提交提示")。
 
-      有关详细信息，请参阅[编写提示](#writing-prompts)和[创建受众简介的最佳实践](#audience-brief-best-practices)。
+      有关详细信息，请参阅&quot;[正在编写提示](#writing-prompts)&quot;和&quot;[创建受众简介的最佳实践](#audience-brief-best-practices)&quot;。
 
       当受众代理找到相关的区段时，它会根据您的条件创建受众表达式。 在查找匹配区段以组合受众之前，它还会要求您审批。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
   受众代理不会自动将生成的受众表达式另存为受众。 您只能通过单击提示区域之外的[!UICONTROL Create]按钮来保存受众，因此您可以撤消不想保留的任何更改。
 
-有关优化受众提示的进一步方法，请参阅[创建受众简介的最佳实践](#audience-brief-best-practices)。
+有关优化受众提示的进一步方法，请参阅[创建受众摘要](#audience-brief-best-practices)的最佳实践。
 
 <!-- I think these are happening later:
 

@@ -3,9 +3,9 @@ title: 复制连接的电视接入计划
 description: 了解如何使用现有计划中的设置来创建连接电视覆盖计划。
 feature: DSP Planner
 exl-id: 80dab57a-e56d-4a77-a1d5-c3e705f54fb9
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Planner]**。
 
-1. &#x200B;
+1. 
    1. 将光标悬停在计划行上并单击&#x200B;**[!UICONTROL More]** > **[!UICONTROL Duplicate]**。
 
 1. （可选）编辑计划名称和[计划设置](planner-settings.md)。
@@ -25,11 +25,11 @@ ht-degree: 0%
 
    保存计划后，将显示预测输出。
 
-1. （可选）要将[!UICONTROL Budget vs Reach]预测导出到[!DNL Microsoft Excel]电子表格&#x200B;**，请单击右上角的&#x200B;**&#x200B;[!UICONTROL ...]&#x200B;**，然后单击&#x200B;**&#x200B;[!UICONTROL Export]**。
+1. （可选）要将[!UICONTROL Budget vs Reach]预测导出到[!DNL Microsoft Excel]电子表格**，请单击右上角的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Export]**。
 
 >[!MORELIKETHIS]
 >
->* [关于DSP Planner工具](planner-about.md)
+>* [关于DSP [!UICONTROL Planner]工具](planner-about.md)
 >* [创建连接的电视访问计划](planner-create.md)
 >* [编辑连接的电视访问计划](planner-edit.md)
 >* [导出连接的电视访问计划](planner-export.md)

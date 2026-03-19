@@ -3,7 +3,7 @@ title: 投放位置级别的预竞价过滤器及其使用方式
 description: 引用可用的投放位置级别预竞价过滤器，并了解如何使用它们。
 feature: DSP Optimization
 exl-id: 34a15666-7ca2-416d-9064-8638ca81e5b3
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -27,5 +27,5 @@ ht-degree: 0%
 >* [DSP如何优化您的营销活动](optimization-how-dsp-optimizes-campaigns.md)
 >* [包设置](/help/dsp/campaign-management/packages/package-settings.md)
 >* [位置设置](/help/dsp/campaign-management/placements/placement-settings.md)
->* [营销活动设置](/help/dsp/campaign-management/campaigns/campaign-settings.md)
->* [优化目标及其使用方式](optimization-goals.md)
+>* [Campaign设置](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+>* [优化目标及使用方法](optimization-goals.md)

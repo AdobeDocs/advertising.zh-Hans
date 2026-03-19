@@ -3,9 +3,9 @@ title: 检查 [!DNL FreeWheel] PG交易的广告状态
 description: 了解如何查找 [!DNL Freewheel] 计划性保证交易的广告状态。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. 执行以下任一操作：
 
-   * 在[!UICONTROL Deal ID inbox]下，单击&#x200B;**[!UICONTROL View Freewheel creative status]**。
+   * 在[!UICONTROL Deal ID Inbox]下，单击&#x200B;**[!UICONTROL View Freewheel creative status]**。
 
    * 在任何交易行中，单击![选项菜单](/help/dsp/assets/options-menu.png) **>[!UICONTROL see Freewheel status]**。
 
@@ -50,5 +50,5 @@ ht-degree: 0%
 >
 >* [在 [!DNL Freewheel]](freewheel-overview.md)中设置计划性保证交易的概述
 >* [向 [!DNL Freewheel]](freewheel-submit.md)提交计划性保证交易的广告
->* [广告提交的 [!DNL Freewheel] 错误代码](freewheel-error-codes.md)
->* [在交易ID收件箱中接受交易](deal-id-inbox-accept.md)
+>* [ [!DNL FreeWheel] 广告提交的错误代码](freewheel-error-codes.md)
+>* [在[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)中接受交易

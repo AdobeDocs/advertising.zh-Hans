@@ -1,16 +1,16 @@
 ---
-title: 关于Advertising DSP中的Campaign Management
+title: 关于Advertising DSP中的促销活动管理
 description: 了解营销活动管理。
 feature: DSP Campaigns
 exl-id: 8ba1d94d-4cb2-4ed8-a527-b6097ec07380
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
-# 关于Advertising DSP中的Campaign Management
+# 关于Advertising DSP中的促销活动管理
 
 营销活动是飞行设置的总体框架。 所有营销活动级别的设置都会自动应用于营销活动中的每个包和投放位置。 每个营销活动都与一个特定的广告商相关联。
 
@@ -34,5 +34,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [创建营销活动](campaign-create.md)
->* [营销活动设置](campaign-settings.md)
->* [视频： DSP帐户结构和用户界面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=zh-Hans)
+>* [Campaign设置](campaign-settings.md)
+>* [视频： DSP帐户结构和用户界面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

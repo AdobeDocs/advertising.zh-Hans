@@ -3,7 +3,7 @@ title: 暂停或激活广告
 description: 了解如何暂停或激活广告。
 feature: DSP Ads
 exl-id: f39d36c2-4c62-462b-bb92-29458890661e
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
@@ -47,6 +47,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [创建单个Ad](ad-create.md)
+>* [创建单个广告](ad-create.md)
 >* [创建多个第三方广告](ad-create-multiple.md)
 >* [存档广告](ad-archive-unarchive.md)

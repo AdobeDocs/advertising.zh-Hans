@@ -3,7 +3,7 @@ title: 取消邀请待处理用户
 description: 了解如何取消待处理用户邀请。
 role: Admin
 exl-id: 62a5d50c-b836-4a15-ba5a-6eb7a0f26570
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [邀请新的用户使用您的组织帐户](user-invite.md)
+>* [为您的组织帐户邀请新用户](user-invite.md)
 >* [重新发送待处理用户邀请](user-resend-invite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

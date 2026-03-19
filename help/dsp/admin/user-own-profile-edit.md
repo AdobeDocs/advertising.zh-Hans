@@ -2,7 +2,7 @@
 title: 编辑您的用户配置文件
 description: 了解如何编辑用户配置文件。
 exl-id: 8dc15996-db6e-4c37-a919-d0d49e7b8396
-source-git-commit: dea924e00aed1e6a8e778afb3112d9db85cef802
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
@@ -63,6 +63,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [邀请新的用户使用您的组织帐户](user-invite.md)
+>* [为您的组织帐户邀请新用户](user-invite.md)
 
 <!-- >* [User Profile and Organization Account Settings](user-and-account-settings.md) -->

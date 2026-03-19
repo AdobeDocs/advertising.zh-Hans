@@ -3,7 +3,7 @@ title: 使用批量处理工作表查看和编辑置入设置
 description: 了解如何使用电子表格批量查看和编辑关键位置设置。
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    * 单击顶部菜单栏右侧的![作业](/help/dsp/assets/downloads.png)。 单击作业旁边的&#x200B;**[!UICONTROL Download]**。
 
-   文件已保存到浏览器的“下载”文件夹中。<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+   文件已保存到浏览器的“下载”文件夹中。<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
 ## 特定投放位置的下载设置
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
    * 单击顶部菜单栏右侧的![作业](/help/dsp/assets/downloads.png)。 单击作业旁边的&#x200B;**[!UICONTROL Download]**。
 
-   文件已保存到浏览器的“下载”文件夹中。<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+   文件已保存到浏览器的“下载”文件夹中。<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
    要编辑任何设置，请直接编辑文件，然后上传更改。  所有可编辑的列都以蓝色突出显示。 要对字段使用正确的格式，请从相关的包设置或放置设置中选择并复制值。 对于某些目标设置，例如分时段、自定义目标和转化量度，在设置中提供了一个复制选项。
 
@@ -232,6 +232,6 @@ Check on Brand Safety - Contextual Filtering # with new DV feature/fct change.
 
 >[!MORELIKETHIS]
 >
->* [使用批量处理工作表查看和编辑Campaign组件设置](/help/dsp/campaign-management/campaign-components-review-edit.md)
+>* [使用批量处理工作表查看和编辑营销活动组件设置](/help/dsp/campaign-management/campaign-components-review-edit.md)
 >* [编辑版面](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [位置设置](/help/dsp/campaign-management/placements/placement-settings.md)

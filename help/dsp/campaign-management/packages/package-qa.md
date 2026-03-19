@@ -3,7 +3,7 @@ title: 使用批量处理工作表查看和编辑包设置
 description: 了解如何使用电子表格批量查看和编辑关键包设置。
 feature: DSP Packages
 exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * 进行更改以选择字段，保存文件，然后将编辑后的批量工作表文件上传回DSP。
 
-* 要对营销活动中的其他包、投放位置或广告进行更改，请下载营销活动的批量处理工作表。 将更新的设置输入或粘贴到文件中，然后上传文件以进行更改。 有关说明，请参阅“[使用批量处理工作表查看和编辑Campaign组件设置](/help/dsp/campaign-management/campaign-components-review-edit.md)”。
+* 要对营销活动中的其他包、投放位置或广告进行更改，请下载营销活动的批量处理工作表。 将更新的设置输入或粘贴到文件中，然后上传文件以进行更改。 有关说明，请参阅“[使用批量处理工作表查看和编辑营销活动组件设置](/help/dsp/campaign-management/campaign-components-review-edit.md)”。
 
 可编辑字段包含大多数通常可编辑的设置。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
    * 单击顶部菜单栏右侧的![作业](/help/dsp/assets/downloads.png)。 单击作业旁边的&#x200B;**[!UICONTROL Download]**。
 
-     文件已保存到浏览器的“下载”文件夹中。<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+     文件已保存到浏览器的“下载”文件夹中。<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
      要编辑任何设置，请直接编辑文件，然后上传更改。 所有可编辑的列都以蓝色突出显示。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
    * 单击顶部菜单栏右侧的![作业](/help/dsp/assets/downloads.png)。 单击作业旁边的&#x200B;**[!UICONTROL Download]**。
 
-     该文件将保存到浏览器的“下载”文件夹中。 有关包含的列的列表，请参阅[已下载/上传批量处理工作表中的位置列](#qa-sheet-columns)。
+     该文件将保存到浏览器的“下载”文件夹中。 有关包含的列的列表，请参阅已下载/已上传批量处理工作表中的[位置列](#qa-sheet-columns)。
 
      要编辑任何设置，请直接编辑文件，然后上传更改。 所有可编辑的列都以蓝色突出显示。 要对字段使用正确的格式，请从相关的包设置或放置设置中选择并复制值。 对于某些目标设置，例如分时段、自定义目标和转化量度，在设置中提供了一个复制选项。
 
@@ -166,6 +166,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [使用批量处理工作表查看和编辑Campaign组件设置](/help/dsp/campaign-management/campaign-components-review-edit.md)
+>* [使用批量处理工作表查看和编辑营销活动组件设置](/help/dsp/campaign-management/campaign-components-review-edit.md)
 >* [编辑包](/help/dsp/campaign-management/packages/package-edit.md)
 >* [包设置](/help/dsp/campaign-management/packages/package-settings.md)

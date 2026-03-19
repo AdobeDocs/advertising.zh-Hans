@@ -3,7 +3,7 @@ title: 从营销活动管理视图中导出数据
 description: 了解如何将数据从任何类型的营销活动管理视图导出到电子表格文件。
 feature: DSP Campaign Data Views
 exl-id: 181b2648-5c8c-47e5-b4bc-5733dd7f47b7
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -30,5 +30,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* 营销活动管理视图中的[性能报表类型](campaign-reports-about.md)
->* [管理您的Campaign数据视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [促销活动管理视图中的性能报告类型](campaign-reports-about.md)
+>* [管理您的营销活动数据视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

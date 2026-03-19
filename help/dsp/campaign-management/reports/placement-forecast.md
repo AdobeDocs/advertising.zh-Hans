@@ -1,16 +1,16 @@
 ---
-title: 查看职位安排预测报表
+title: 查看投放预测报表
 description: 查看投放位置的特定定位策略的展示次数、花费和最佳最高出价预测值。
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
 
 ---
 
-# 查看职位安排预测报表
+# 查看投放预测报表
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
      投放位置通常是供应方平台定义的多个广告模板的集合。 因此，即使投放位置已存在很长时间，如果基础广告模板是新的，则预测工具无法创建预测。
 
-## 打开职位安排预测报表
+## 打开投放预测报表
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 
@@ -81,6 +81,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* Campaign Management视图中的[性能报告类型](campaign-reports-about.md)
+>* [促销活动管理视图中的性能报告类型](campaign-reports-about.md)
 >* [查看位置诊断报告](/help/dsp/campaign-management/reports/placement-diagnostics.md)
 >* [位置设置](/help/dsp/campaign-management/placements/placement-settings.md)

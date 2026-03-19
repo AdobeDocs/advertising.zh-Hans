@@ -3,7 +3,7 @@ title: 关于Advertising DSP中的置入管理
 description: 了解版面管理。
 feature: DSP Placements
 exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: 重新发送待处理用户邀请
 description: 了解如何重新发送待处理用户邀请。
 role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
-source-git-commit: 3ce910a553aa86836e04bd6e5d2a951db78070e1
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [邀请新的用户使用您的组织帐户](user-invite.md)
+>* [为您的组织帐户邀请新用户](user-invite.md)
 >* [取消邀请待处理用户](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

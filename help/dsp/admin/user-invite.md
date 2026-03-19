@@ -3,7 +3,7 @@ title: 邀请组织帐户的新用户
 description: 了解如何邀请新用户加入帐户。
 role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
-source-git-commit: 3ce910a553aa86836e04bd6e5d2a951db78070e1
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%

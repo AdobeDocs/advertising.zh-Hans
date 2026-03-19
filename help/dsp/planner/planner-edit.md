@@ -3,9 +3,9 @@ title: 编辑连接的电视接入计划
 description: 了解如何编辑已连接电视接入计划的设置。
 feature: DSP Planner
 exl-id: 675a09d1-9548-416d-bfa6-a6242149b255
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 0%
 
    保存计划后，将显示预测输出。
 
-1. （可选）要将[!UICONTROL Budget vs Reach]预测导出到[!DNL Microsoft Excel]电子表格&#x200B;**，请单击右上角的&#x200B;**&#x200B;[!UICONTROL ...]&#x200B;**，然后单击&#x200B;**&#x200B;[!UICONTROL Export]**。
+1. （可选）要将[!UICONTROL Budget vs Reach]预测导出到[!DNL Microsoft Excel]电子表格**，请单击右上角的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Export]**。
 
 >[!MORELIKETHIS]
 >
->* [关于DSP Planner工具](planner-about.md)
+>* [关于DSP [!UICONTROL Planner]工具](planner-about.md)
 >* [创建连接的电视访问计划](planner-create.md)
 >* [复制连接的电视访问计划](planner-duplicate.md)
 >* [导出连接的电视访问计划](planner-export.md)

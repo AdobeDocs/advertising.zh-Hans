@@ -3,9 +3,9 @@ title: 重新生成连接电视覆盖计划的预测
 description: 了解如何为连接的电视覆盖范围计划创建新的预测。
 feature: DSP Planner
 exl-id: ec3de39c-c2b3-4004-8d86-eb6479608121
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 1. 将光标悬停在计划行上并单击&#x200B;**[!UICONTROL Forecast]**。
 
-1. （可选）要将[!UICONTROL Budget vs Reach]预测导出到[!DNL Microsoft Excel]电子表格&#x200B;**，请单击右上角的&#x200B;**&#x200B;[!UICONTROL ...]&#x200B;**，然后单击&#x200B;**&#x200B;[!UICONTROL Export]**。
+1. （可选）要将[!UICONTROL Budget vs Reach]预测导出到[!DNL Microsoft Excel]电子表格**，请单击右上角的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Export]**。
 
 >[!MORELIKETHIS]
 >
->* [关于DSP Planner工具](planner-about.md)
+>* [关于DSP [!UICONTROL Planner]工具](planner-about.md)
 >* [创建连接的电视访问计划](planner-create.md)
 >* [复制连接的电视访问计划](planner-duplicate.md)
 >* [编辑连接的电视访问计划](planner-edit.md)

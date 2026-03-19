@@ -3,7 +3,7 @@ title: 自定义目标
 description: 了解自定义目标，以定义针对最低CPA或最高ROAS优化的包中的成功事件。
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
@@ -130,6 +130,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [优化目标及其使用方式](optimization-goals.md)
+>* [优化目标及使用方法](optimization-goals.md)
 >* [包设置](/help/dsp/campaign-management/packages/package-settings.md)
 > * [DSP如何优化您的营销活动](optimization-how-dsp-optimizes-campaigns.md)

@@ -3,9 +3,9 @@ title: 查看投放的网站、广告、频率和库存详细信息
 description: 了解如何查看投放的目标网站、广告、频率和库存数据。
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
   [!UICONTROL Inventory]选项卡通过显示性能统计信息（如[!UICONTROL Auctions]、[!UICONTROL Bids]和[!UICONTROL Win Rate]）启用快速故障排除。 该选项卡包括搜索和筛选功能、主页上提供的相同标准和自定义列视图选项，以及每行中的快速操作按钮，包括[!UICONTROL Edit]、[!UICONTROL View Report]和[[!UICONTROL Auction Insights]，用于进一步排除故障](/help/dsp/inventory/private-deal-auction-insights.md)。
 
-## 打开[!UICONTROL Placement Inspector] {#inspector-open}
+## 打开投放位置[!UICONTROL Inspector] {#inspector-open}
 
 1. 打开父营销活动或包的“版面”视图：
 
@@ -66,9 +66,9 @@ ht-degree: 0%
 
    数据以XLSM格式作为报表保存到浏览器的默认下载文件夹中。
 
-## 从[!UICONTROL Placement Inspector]中的投放位置删除广告 {#remove-ads-placement-inspector}
+## 从[!UICONTROL Inspector]中的投放位置删除广告 {#remove-ads-placement-inspector}
 
-1. [打开[!UICONTROL Placement Inspector]](#inspector-open)。
+1. [打开投放位置[!UICONTROL Inspector]](#inspector-open)。
 
 1. 单击&#x200B;**[!UICONTROL Ads]**&#x200B;选项卡。
 
@@ -90,5 +90,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* 营销活动管理视图中的[性能报表类型](campaign-reports-about.md)
->* [管理您的Campaign数据视图](campaign-data-views-manage.md)
+>* [促销活动管理视图中的性能报告类型](campaign-reports-about.md)
+>* [管理您的营销活动数据视图](campaign-data-views-manage.md)

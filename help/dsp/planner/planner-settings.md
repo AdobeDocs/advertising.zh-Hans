@@ -3,9 +3,9 @@ title: 连接电视接入计划的设置
 description: 查看有关已连接电视接入计划的设置说明。
 feature: DSP Planner
 exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于DSP Planner工具](planner-about.md)
+>* [关于DSP [!UICONTROL Planner]工具](planner-about.md)
 >* [创建连接的电视访问计划](planner-create.md)
 >* [复制连接的电视访问计划](planner-duplicate.md)
 >* [编辑连接的电视访问计划](planner-edit.md)

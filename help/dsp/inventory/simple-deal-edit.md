@@ -3,7 +3,7 @@ title: 编辑[!UICONTROL Simple Ad Serving]交易设置
 description: 了解如何编辑[!UICONTROL Simple Ad Serving]交易的设置。
 feature: DSP Simple Ad Serving
 exl-id: 48540a6c-54ee-4109-bdd6-293fbee5c3e5
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%
@@ -27,10 +27,10 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于[!UICONTROL Simple Ad Serving]](simple-deal-about.md)
->* [创建[!UICONTROL Simple Ad Serving]交易](simple-deal-create.md)
+>* [创建一个[!UICONTROL Simple Ad Serving]交易](simple-deal-create.md)
 >* [[!UICONTROL Simple Ad Serving]设置](simple-deal-settings.md)
 >* [查看交易的详细报告](/help/dsp/inventory/deal-view-report.md)
 
 <!-- add back when reimplemented:
->* [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](simple-deal-show-pixels.md)
+>* [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](simple-deal-show-pixels.md)
 -->

@@ -3,7 +3,7 @@ title: 存档或取消存档投放位置
 description: 了解如何存档或取消存档投放位置。
 feature: DSP Placements
 exl-id: 4304452d-4573-46b3-892e-299950a75d4f
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%

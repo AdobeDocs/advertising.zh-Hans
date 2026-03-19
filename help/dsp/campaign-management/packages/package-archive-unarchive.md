@@ -3,7 +3,7 @@ title: 存档或取消存档软件包
 description: 了解如何存档或取消存档资源包。
 feature: DSP Packages
 exl-id: 12d1b498-2239-401a-8571-9210956e32b2
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >要查看已存档的包，请筛选[!UICONTROL Packages]视图：单击![筛选按钮](/help/dsp/assets/filter.png)，单击&#x200B;**[!UICONTROL Package status]**&#x200B;并选择&#x200B;**[!UICONTROL Archived]**，然后单击&#x200B;**[!UICONTROL Apply]。**
 
-## 将程序包取消存档
+## 取消存档资源包
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 1. 单击营销活动的名称以打开[!UICONTROL Packages]视图。
