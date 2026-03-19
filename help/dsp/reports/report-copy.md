@@ -3,7 +3,7 @@ title: 复制自定义报表
 description: 了解如何通过复制现有报表来创建自定义报表。
 feature: DSP Custom Reports
 exl-id: 20542bf8-69e9-44e0-9637-56b27f2de9ec
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%
@@ -31,4 +31,4 @@ ht-degree: 0%
 >* [编辑自定义报告](/help/dsp/reports/report-edit.md)
 >* [下载自定义报告](/help/dsp/reports/report-download.md)
 >* [自定义报表设置](/help/dsp/reports/report-settings.md)
->* [可用报告列](/help/dsp/reports/report-columns.md)
+>* [可用的报表列](/help/dsp/reports/report-columns.md)

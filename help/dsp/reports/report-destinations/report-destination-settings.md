@@ -3,9 +3,9 @@ title: 报表目标设置
 description: 按目标类型查看报表目标所需的详细信息。
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于[!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [创建[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [关于报告目标](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [创建报告目标](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [编辑[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [删除[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [删除报表目标](/help/dsp/reports/report-destinations/report-destination-delete.md)

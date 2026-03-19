@@ -3,7 +3,7 @@ title: 运行自定义报表
 description: 了解如何立即运行自定义报表。
 feature: DSP Custom Reports
 exl-id: b256803d-45f9-445f-bf42-22cc7ce76792
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 0%
@@ -32,4 +32,4 @@ ht-degree: 0%
 >* [复制自定义报告](/help/dsp/reports/report-copy.md)
 >* [编辑自定义报告](/help/dsp/reports/report-edit.md)
 >* [自定义报表设置](/help/dsp/reports/report-settings.md)
->* [可用报告列](/help/dsp/reports/report-columns.md)
+>* [可用的报表列](/help/dsp/reports/report-columns.md)

@@ -3,7 +3,7 @@ title: 下载自定义报表
 description: 了解如何立即下载自定义报表。
 feature: DSP Custom Reports
 exl-id: a27ed432-c9d4-47c5-9c04-b38bb32e6425
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 下载自定义报表
 
-您可以下载过去四个月内任何已完成的报表实例，其状态为[1&rbrace;“](report-about.md#custom-report-status)”或“[!UICONTROL Ready to Download]”。[!UICONTROL Completed]
+您可以下载过去四个月内任何已完成的报表实例，其状态为[1}“](report-about.md#custom-report-status)”或“[!UICONTROL Ready to Download]”。[!UICONTROL Completed]
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**。
 
@@ -36,4 +36,4 @@ ht-degree: 0%
 >* [编辑自定义报告](/help/dsp/reports/report-edit.md)
 >* [运行自定义报告](/help/dsp/reports/report-run-now.md)
 >* [自定义报表设置](/help/dsp/reports/report-settings.md)
->* [可用报告列](/help/dsp/reports/report-columns.md)
+>* [可用的报表列](/help/dsp/reports/report-columns.md)
