@@ -3,7 +3,7 @@ title: 关于通用视频的常见问题解答
 description: 了解有关通用视频广告的更多信息。
 feature: DSP Placements, DSP Ads
 exl-id: 48c744ae-90a3-47e9-a5dc-c4e3c01b75a0
-source-git-commit: 8d65069b7da5d3c33cc7713c6c80af27eb6bf227
+source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
    * **[!UICONTROL VPAID & VAST (Default)]：**&#x200B;包含不允许可见性测量的库存。
    * **[!UICONTROL VAST]** — 适用于已连接的电视清单。
 
-   有关详细信息，请参阅[通用视频广告设置](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)。
+   有关详细信息，请参阅&quot;[通用视频广告设置](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)&quot;。
 
 1. [将新的通用视频广告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)附加到通用视频投放位置。
 

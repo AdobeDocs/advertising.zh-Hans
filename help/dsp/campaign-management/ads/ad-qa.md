@@ -3,7 +3,7 @@ title: 使用批量处理工作表查看和编辑广告详细信息
 description: 了解如何使用电子表格批量查看广告设置。
 feature: DSP Ads
 exl-id: a223d4e1-2264-49fa-8579-817e7ea6ea56
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -16,12 +16,12 @@ ht-degree: 0%
 
 您可以以XLSX（Excel电子表格）格式下载促销活动中所有广告的详细信息以供审阅。 *批量工作表*&#x200B;详细信息包括一个选项卡，其中包含每个广告的设置和关联投放位置，以及另一个选项卡，其中包含营销活动中用于广告的每个像素。
 
-要编辑广告详细信息，请参阅“使用批量处理工作表查看和编辑Campaign组件设置[”。](/help/dsp/campaign-management/campaign-components-review-edit.md)
+要编辑广告详细信息，请参阅“[使用批量处理工作表查看和编辑营销活动组件设置](/help/dsp/campaign-management/campaign-components-review-edit.md)”。
 
 >[!NOTE]
 >
 >*要编辑单个广告设置，另请参阅&quot;[编辑广告](/help/dsp/campaign-management/ads/ad-edit.md)&quot;。
->*要一次更改多个广告的第三方跟踪像素或将广告附加到投放位置，另请参阅&quot;[将广告附加到投放位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)&quot;。
+>*要同时更改多个广告的第三方跟踪像素或将广告附加到投放位置，另请参阅“[将广告附加到投放位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)”。
 
 ## 下载促销活动中所有广告的详细信息
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
    * 单击顶部菜单栏右侧的![作业](/help/dsp/assets/downloads.png)。 单击作业旁边的&#x200B;**[!UICONTROL Download]**。
 
-     文件已保存到浏览器的“下载”文件夹中。<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+     文件已保存到浏览器的“下载”文件夹中。<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
 >[!MORELIKETHIS]
 >
