@@ -3,9 +3,9 @@ title: 包设置
 description: 请参阅有关可用包设置的说明。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 **[!UICONTROL Gross Budget]：** （仅具有包级别步调和动态利润管理的包）包持续时间的总预算上限。
 
-**[!UICONTROL Optimization Goal]：** （仅具有包级别步调的包）包的优化目标。 在[优化目标上查看每个优化目标的说明及使用方法](/help/dsp/optimization/optimization-goals.md)。
+**[!UICONTROL Optimization Goal]：** （仅具有包级别步调的包）包的优化目标。 在[优化目标上查看每个优化目标的说明以及如何使用它们](/help/dsp/optimization/optimization-goals.md)。
 
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]：** （包具有包级别的步调并仅具有“[!UICONTROL Always Max Bid & Maximize Reach]”和“[!UICONTROL Lowest Cost per Reach]”优化目标）使用营销活动中所有程序化保证位置的家庭访问范围数据来优化增量访问。
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于包管理](package-about.md)
+>* [关于Advertising DSP中的包管理](package-about.md)
 >* [创建包](package-create.md)
 >* [编辑包](package-edit.md)
 >* [将投放位置附加到包](package-attach-placement.md)

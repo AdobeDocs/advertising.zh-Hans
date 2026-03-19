@@ -3,9 +3,9 @@ title: 查看包更改日志
 description: 了解如何查看对包所做的更改。
 feature: DSP Packages
 exl-id: dd33519b-19cf-4b6f-b6d2-ec0874e27075
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于包管理](package-about.md)
+>* [关于Advertising DSP中的包管理](package-about.md)
 >* [创建包](package-create.md)
 >* [编辑包](package-edit.md)
 >* [将投放位置附加到包](package-attach-placement.md)

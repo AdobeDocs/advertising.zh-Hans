@@ -3,7 +3,7 @@ title: 设置计划性保证交易
 description: 了解如何设置您与出版商协商的程式化保证(PG)交易。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[仅支持供应方平台](programmatic-guaranteed-about.md)*
 
-在与受支持的发布者协商计划性保证(PG)交易后，您可以在DSP中通过使用[!DNL Deal ID inbox]或通过手动输入交易详细信息来设置交易。
+在与受支持的发布者协商计划性保证(PG)交易后，您可以在DSP中通过使用[!DNL Deal ID Inbox]或通过手动输入交易详细信息来设置交易。
 
 >[!NOTE]
 >
@@ -58,10 +58,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于计划性保证交易](programmatic-guaranteed-about.md)
+>* [关于程序化保证交易](programmatic-guaranteed-about.md)
 >* [谈判计划性保证交易的技巧](/help/dsp/inventory/programmatic-guaranteed-tips.md)
->* [提交计划性保证交易的广告 [!DNL FreeWheel]](freewheel-submit.md)
->* [在交易ID收件箱中接受交易](deal-id-inbox-accept.md)
+>* [提交广告以便与 [!DNL FreeWheel]](freewheel-submit.md)进行计划性保证交易
+>* [在[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)中接受交易
 >* [手动创建交易ID详细信息](deal-id-create.md)
 >* [SSP合作伙伴](ssp-partners.md)
->* [清单功能概述](inventory-overview.md)
+>* [Advertising DSP中的清单功能概述](inventory-overview.md)

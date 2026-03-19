@@ -3,9 +3,9 @@ title: 创建投放位置
 description: 了解如何创建投放位置。
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -136,7 +136,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于版面管理](placement-about.md)
+>* [关于Advertising DSP中的版面管理](placement-about.md)
 >* [编辑版面](placement-edit.md)
 >* [管理投放位置的竞价乘数](placement-manage-bid-multipliers.md)
 >* [编辑投放位置的广告计划](placement-edit-ad-schedule.md)
@@ -144,7 +144,7 @@ ht-degree: 0%
 >* [查看投放位置的更改日志](placement-change-log.md)
 >* [位置设置](placement-settings.md)
 >* [查看投放预测报告](/help/dsp/campaign-management/reports/placement-forecast.md)
->* 有关通用视频的[常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)
+>* 关于通用视频的[常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)
 >* [键盘快捷键](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [性能疑难解答](/help/dsp/optimization/troubleshooting-performance.md)
->* [视频：如何创建标准展示投放位置](https://video.tv.adobe.com/v/344997?captions=chi_hans)
+>* [视频：如何创建标准显示位置](https://video.tv.adobe.com/v/340454)

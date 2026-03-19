@@ -3,7 +3,7 @@ title: 存档或取消存档私有交易
 description: 了解如何存档或取消存档私有交易。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f3f22299-a538-4956-a8ef-d44f20e4d2d7
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%

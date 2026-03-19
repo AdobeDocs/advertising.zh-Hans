@@ -3,9 +3,9 @@ title: 查看位置更改日志
 description: 了解如何查看对投放位置所做的更改。
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于版面管理](placement-about.md)
+>* [关于Advertising DSP中的版面管理](placement-about.md)
 >* [创建版面](placement-create.md)
 >* [编辑版面](placement-edit.md)
 >* [复制投放位置](placement-duplicate.md)

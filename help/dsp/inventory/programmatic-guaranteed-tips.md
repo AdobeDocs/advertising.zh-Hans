@@ -3,7 +3,7 @@ title: 谈判计划性保证交易的技巧
 description: 了解谈判计划性保证(PG)交易的技巧，以及买方和出版商责任的列表。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 41a2a307-5cb2-4b41-bb3b-edee1e15c5fa
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 2%
@@ -45,6 +45,6 @@ ht-degree: 2%
 
 >[!MORELIKETHIS]
 >
->* [关于计划性保证交易](programmatic-guaranteed-about.md)
+>* [关于程序化保证交易](programmatic-guaranteed-about.md)
 >* [设置计划性保证交易](programmatic-guaranteed-set-up.md)
 >* [SSP合作伙伴](ssp-partners.md)

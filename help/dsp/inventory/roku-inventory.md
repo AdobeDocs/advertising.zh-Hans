@@ -3,7 +3,7 @@ title: 使用 [!DNL Roku] 库存
 description: 了解DSP与 [!DNL Roku]的合作伙伴关系，包括库存选项、批准的第三方跟踪供应商以及特定于 [!DNL Roku]的投放位置的最佳实践。
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%
@@ -79,5 +79,5 @@ Advertising DSP提供在[!DNL Roku]上做广告的功能。
 >[!MORELIKETHIS]
 >
 >* [手动创建交易ID详细信息](/help/dsp/inventory/deal-id-create.md)
-> * [订阅和请求访问 [!DNL On Demand] 高级库存交易](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+> * [订阅并请求访问 [!DNL On Demand] 高级库存交易](/help/dsp/inventory/on-demand-inventory-subscribe.md)
 >* [创建版面](/help/dsp/campaign-management/placements/placement-create.md)

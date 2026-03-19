@@ -3,9 +3,9 @@ title: 编辑投放位置的广告计划
 description: 了解如何更改附加到投放位置的广告的广告计划。
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于版面管理](placement-about.md)
+>* [关于Advertising DSP中的版面管理](placement-about.md)
 >* [编辑版面](placement-edit.md)
 >* [查看投放位置的更改日志](placement-change-log.md)
 >* [位置设置](placement-settings.md)

@@ -3,7 +3,7 @@ title: DSP如何优化您的活动
 description: 了解DSP如何优化营销活动中的包。
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -32,7 +32,7 @@ DSP可以从两个基本方面优化您的投放，其中有20个变体可供使
 
 * 优先考虑兼顾成本效益与性能率
 
-请参阅[优化目标以及如何使用它们](optimization-goals.md)以确定哪个优化目标可以帮助您实现KPI。
+查看[优化目标以及如何使用它们](optimization-goals.md)以确定哪个优化目标可以帮助您实现KPI。
 
 ### 优先考虑性能率的软件包
 
@@ -80,12 +80,12 @@ DSP可以从两个基本方面优化您的投放，其中有20个变体可供使
 >
 >可用的预竞价过滤器因广告类型而异。 例如，对于标准显示放置，可按点进率和可视性进行过滤，而不按完成率过滤。
 
-请参阅[位置级别预竞价筛选器及使用方法](optimization-pre-bid-filters.md)以确定哪个预竞价筛选器可以帮助您实现KPI。
+请参阅[位置级别预竞价筛选器以及如何使用它们](optimization-pre-bid-filters.md)，以确定哪个预竞价筛选器可以帮助您实现KPI。
 
 >[!MORELIKETHIS]
 >
 >* [包设置](/help/dsp/campaign-management/packages/package-settings.md)
 >* [位置设置](/help/dsp/campaign-management/placements/placement-settings.md)
->* [优化目标及其使用方式](optimization-goals.md)
+>* [优化目标及使用方法](optimization-goals.md)
 >* [投放位置级别预竞价筛选器及其使用方式](optimization-pre-bid-filters.md)
 >* [性能疑难解答](/help/dsp/optimization/troubleshooting-performance.md)
