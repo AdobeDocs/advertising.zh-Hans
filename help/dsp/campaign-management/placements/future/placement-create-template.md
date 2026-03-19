@@ -1,7 +1,7 @@
 ---
 title: 创建投放模板
 description: 创建投放模板
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: a65abcd843c34e43b1a6f031420ea000092f2b73
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 0%

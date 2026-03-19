@@ -3,9 +3,9 @@ title: 查看 [!DNL On Demand] 交易请求和订阅的状态
 description: 了解如何查看 [!DNL On Demand] 交易请求和订阅的状态。
 feature: DSP On Demand Inventory
 exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: a65abcd843c34e43b1a6f031420ea000092f2b73
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [订阅和请求访问 [!DNL On Demand] 高级库存交易](on-demand-inventory-subscribe.md)
->* [重新请求按需优质库存交易](on-demand-inventory-rerequest.md)
+>* [订阅并请求访问 [!DNL On Demand] 高级库存交易](on-demand-inventory-subscribe.md)
+>* [重新请求 [!DNL On Demand] 高级库存交易](on-demand-inventory-rerequest.md)
 >* [[!DNL On Demand] 亚太地区高级库存发布者](on-demand-inventory-publishers-apac.md)
 >* [[!DNL On Demand] 澳大利亚和新西兰的高级库存发布者](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand] 欧洲、中东和非洲](on-demand-inventory-publishers-emea.md)高级库存出版商
->* [[!DNL On Demand] 北美高级库存发布者](on-demand-inventory-publishers-na.md)
+>* 北美地区的[[!DNL On Demand] 高级库存发布者](on-demand-inventory-publishers-na.md)

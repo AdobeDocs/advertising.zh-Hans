@@ -3,9 +3,9 @@ title: 亚太地区的[!DNL On Demand]高级库存发布者
 description: 查看亚太地区可用的 [!DNL On Demand] 高级库存发布者。
 feature: DSP On Demand Inventory
 exl-id: ef23503c-d92b-4809-9082-afeaffe58f8f
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: a65abcd843c34e43b1a6f031420ea000092f2b73
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -372,7 +372,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于 [!DNL On Demand] 高级库存](on-demand-inventory-about.md)
->* [订阅并请求访问 [!DNL On Demand] 高级库存](on-demand-inventory-subscribe.md)
+>* [订阅并请求访问 [!DNL On Demand] 高级库存交易](on-demand-inventory-subscribe.md)
 >* [[!DNL On Demand] 澳大利亚和新西兰的高级库存发布者](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand] 欧洲、中东和非洲](on-demand-inventory-publishers-emea.md)高级库存出版商
->* [[!DNL On Demand Premium] 北美的库存发布者](on-demand-inventory-publishers-na.md)
+>* 北美地区的[[!DNL On Demand] 高级库存发布者](on-demand-inventory-publishers-na.md)
