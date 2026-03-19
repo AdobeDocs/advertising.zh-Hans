@@ -4,15 +4,15 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报展示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 962a366b4bcfb74505677f6c73bfb26781c2a69c
+source-git-commit: c6d921a7916d941413ca59b6133a37b6208fb117
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 3%
+source-wordcount: '1015'
+ht-degree: 4%
 
 ---
 
 
-# Advertising DSP指南 {#dsp}
+# Advertising DSP 指南 {#dsp}
 
 + [新增功能](/help/dsp/home.md)
 + [登录到Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)
@@ -24,11 +24,11 @@ ht-degree: 3%
       + [跨设备解决方案](/help/dsp/introduction/features/cross-device-solutions.md)
    + [帐户资金](/help/dsp/introduction/billing/account-funding.md)
    + [支持的货币](/help/dsp/currency.md)
-   + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans)
-   + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans)
+   + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [高级测量解决方案](/help/dsp/introduction/advanced-measurement-services.md)
 + [使用人工智能辅助聊天搜索产品文档](/help/dsp/agent-chat.md)
-+ Campaign Management {#campaign-management}
++ 营销活动管理 {#campaign-management}
    + [Advertising DSP中的促销活动管理概述](/help/dsp/campaign-management/campaign-management-overview.md)
    + 营销活动 {#campaigns}
       + [关于Advertising DSP中的促销活动管理](/help/dsp/campaign-management/campaigns/campaign-about.md)
@@ -41,7 +41,7 @@ ht-degree: 3%
       + [查看营销活动的更改日志](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
       + [Campaign设置](/help/dsp/campaign-management/campaigns/campaign-settings.md)
       + [使用批量处理工作表查看和编辑Campaign组件设置](/help/dsp/campaign-management/campaign-components-review-edit.md)
-      + [营销活动启动检查清单](/help/dsp/campaign-management/campaign-launch-checklist.md)
+      + [Campaign启动检查清单](/help/dsp/campaign-management/campaign-launch-checklist.md)
    + 包 {#packages}
       + [关于Advertising DSP中的包管理](/help/dsp/campaign-management/packages/package-about.md)
       + [创建资源包](/help/dsp/campaign-management/packages/package-create.md)
@@ -54,15 +54,15 @@ ht-degree: 3%
       + [查看包的更改日志](/help/dsp/campaign-management/packages/package-change-log.md)
       + [包设置](/help/dsp/campaign-management/packages/package-settings.md)
    + 版面 {#placements}
-      + [关于版面管理](/help/dsp/campaign-management/placements/placement-about.md)
+      + [关于Advertising DSP中的置入管理](/help/dsp/campaign-management/placements/placement-about.md)
       + [创建投放位置](/help/dsp/campaign-management/placements/placement-create.md)
       + [使用批量处理工作表查看和编辑置入设置](/help/dsp/campaign-management/placements/placement-qa.md)
       + [编辑版面](/help/dsp/campaign-management/placements/placement-edit.md)
       + [复制投放位置](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [管理投放位置的竞价乘数](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
-      + [附加广告和从投放位置删除广告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
+      + [从投放位置附加和删除广告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
       + [附加和删除广告中的像素](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md)
-      + [编辑投放的广告计划](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+      + [编辑投放位置的广告计划](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
       + [查看投放位置的详细报告](/help/dsp/campaign-management/placements/placement-view-report.md)
       + [查看投放位置的更改日志](/help/dsp/campaign-management/placements/placement-change-log.md)
       + [取消激活或激活投放位置](/help/dsp/campaign-management/placements/placement-pause-activate.md)
@@ -77,7 +77,7 @@ ht-degree: 3%
       + [使用批量处理工作表查看和编辑广告详细信息](/help/dsp/campaign-management/ads/ad-qa.md)
       + [编辑广告](/help/dsp/campaign-management/ads/ad-edit.md)
       + [复制广告](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [从投放位置附加和删除广告](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=zh-Hans)
+      + [从投放位置附加和删除广告](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
       + [列出与广告关联的投放位置](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [查看广告的详细报告](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [暂停或激活广告](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -96,14 +96,14 @@ ht-degree: 3%
    + 营销活动管理视图中的性能报表 {#campaign-reports}
       + [营销活动管理视图中的性能报表类型](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [从营销活动管理视图中导出数据](/help/dsp/campaign-management/reports/campaign-export-data.md)
-      + [查看投放的网站、广告、频度和库存详细信息](/help/dsp/campaign-management/reports/placement-details-view.md)
-      + [查看职位安排预测报表](/help/dsp/campaign-management/reports/placement-forecast.md)
+      + [查看投放的网站、广告、频率和库存详细信息](/help/dsp/campaign-management/reports/placement-details-view.md)
+      + [查看投放预测报表](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [查看放置诊断报告](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + [查看警报](/help/dsp/campaign-management/reports/campaign-alerts.md)
-      + [管理Campaign数据视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
-   + [DSP宏](/help/dsp/campaign-management/macros.md)
+      + [管理您的Campaign数据视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+   + [Advertising DSP宏](/help/dsp/campaign-management/macros.md)
    + [键盘快捷键](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
-   + [关于营销活动管理的常见问题解答](/help/dsp/campaign-management/faq-campaign-management.md)
+   + [有关营销活动管理的常见问题解答](/help/dsp/campaign-management/faq-campaign-management.md)
    + [关于通用视频的常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)
 + 优化 {#optimization}
    + [Advertising DSP如何优化您的活动](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
@@ -126,11 +126,11 @@ ht-degree: 3%
       + [将可重用受众的区段键复制到剪贴板](/help/dsp/audiences/reusable-audience-clipboard.md)
       + [删除可重复使用的受众](/help/dsp/audiences/reusable-audience-delete.md)
       + [受众设置](/help/dsp/audiences/audience-settings.md)
-      + [受众区段逻辑的语法](/help/dsp/audiences/audience-segment-logic-syntax.md)
+      + [受众区段逻辑语法](/help/dsp/audiences/audience-segment-logic-syntax.md)
    + 区段 {#segments}
       + [创建和实施自定义区段](/help/dsp/audiences/custom-segment-create.md)
       + [!UICONTROL CCPA Opt-out-of-Sale]区段 {#ccpa-opt-out-of-sale-segments}
-         + [关于[!UICONTROL CCPA Opt-out-of-Sale]区段](/help/dsp/audiences/ccpa-opt-out-about.md)
+         + [关于[!UICONTROL CCPA Opt-out-of-Sale]个区段和报表](/help/dsp/audiences/ccpa-opt-out-about.md)
          + [创建并实施[!UICONTROL CCPA Opt-out-of-Sale]区段](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
          + [检索[!UICONTROL Consumer Opt-Out-of-Sale]报告](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
       + [编辑区段信息](/help/dsp/audiences/segment-edit.md)
@@ -139,7 +139,7 @@ ht-degree: 3%
       + [删除区段](/help/dsp/audiences/segment-delete.md)
    + 源 {#sources}
       + [关于第一方受众源](/help/dsp/audiences/sources/source-about.md)
-      + 按客户数据平台显示的工作流 {#sources-workflows}
+      + 按客户数据平台划分的工作流 {#sources-workflows}
          + [将用户ID从 [!DNL Adobe Real-Time CDP] 转换为通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
          + [将用户ID从 [!DNL Amperity] 转换为通用ID](/help/dsp/audiences/sources/source-amperity.md)
          + [将用户ID从 [!DNL Optimizely] 转换为通用ID](/help/dsp/audiences/sources/source-optimizely.md)
@@ -148,42 +148,42 @@ ht-degree: 3%
    + [从 [!DNL LiveRamp]手动导入经过身份验证的区段](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [可用的第三方数据提供商](/help/dsp/audiences/third-party-data-providers.md)
 + 库存 {#inventory}
-   + [清单功能概述](/help/dsp/inventory/inventory-overview.md)
+   + [Advertising DSP中的清单功能概述](/help/dsp/inventory/inventory-overview.md)
    + [使用 [!DNL Roku Inventory]](/help/dsp/inventory/roku-inventory.md)
    + [SSP合作伙伴](/help/dsp/inventory/ssp-partners.md)
-   + [!DNL On Demand]清单 {#on-demand}
+   + [!DNL On Demand]库存 {#on-demand}
       + [关于 [!DNL On Demand] 高级库存](/help/dsp/inventory/on-demand-inventory-about.md)
       + 可用的[!DNL On Demand]高级库存发布者 {#publishers}
          + [亚太地区的[!DNL On Demand]高级库存发布者](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
          + [澳大利亚和新西兰的[!DNL On Demand]高级库存发布者](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
-         + [欧洲、中东和非洲的[!DNL On Demand]高级库存出版商](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
+         + [欧洲、中东和非洲的[!DNL On Demand]高级库存发布者](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
          + [北美地区的[!DNL On Demand]高级库存发布者](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
       + [订阅和请求访问 [!DNL On Demand] 高级库存交易](/help/dsp/inventory/on-demand-inventory-subscribe.md)
       + [重新请求 [!DNL On Demand] 高级库存交易](/help/dsp/inventory/on-demand-inventory-rerequest.md)
       + [查看 [!DNL On Demand] 交易请求和订阅的状态](/help/dsp/inventory/on-demand-inventory-view-status.md)
-   + 专用清单 {#private-inventory}
+   + 专用库存 {#private-inventory}
       + [关于专用清单](/help/dsp/inventory/private-inventory-about.md)
       + 交易编号 {#deal-ids}
-         + [!UICONTROL Deal ID Inbox] {#inbox}
+         + [!UICONTROL Deal ID inbox] {#inbox}
             + [关于[!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
             + [在[!UICONTROL Deal ID Inbox]中接受交易](/help/dsp/inventory/deal-id-inbox-accept.md)
          + 手动输入的交易ID {#manual}
-            + [手动创建[!UICONTROL Deal ID]详细信息](/help/dsp/inventory/deal-id-create.md)
-            + [手动[!UICONTROL Deal ID]设置](/help/dsp/inventory/deal-id-settings.md)
+            + [手动创建交易ID详细信息](/help/dsp/inventory/deal-id-create.md)
+            + [手动交易标识设置](/help/dsp/inventory/deal-id-settings.md)
          + 计划性保证交易 {#programmatic-guaranteed-deal}
             + [计划性保证交易概述](/help/dsp/inventory/programmatic-guaranteed-about.md)
             + [谈判计划性保证交易的技巧](/help/dsp/inventory/programmatic-guaranteed-tips.md)
             + [设置计划性保证交易](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
-            + [!DNL FreeWheel]计划性保证交易 {#freewheel}
-               + [在 [!DNL FreeWheel]中设置计划性保证交易的概述](/help/dsp/inventory/freewheel-overview.md)
-               + [向 [!DNL FreeWheel]提交计划性保证交易的广告](/help/dsp/inventory/freewheel-submit.md)
-               + [检查 [!DNL FreeWheel] 计划性保证交易的广告状态](/help/dsp/inventory/freewheel-check-status.md)
+            + [!DNL FreeWheel]个计划性保证交易 {#freewheel}
+               + [在 [!DNL Freewheel]中设置计划性保证交易的概述](/help/dsp/inventory/freewheel-overview.md)
+               + [向 [!DNL Freewheel]提交计划性保证交易的广告](/help/dsp/inventory/freewheel-submit.md)
+               + [检查 [!DNL FreeWheel] PG交易的广告状态](/help/dsp/inventory/freewheel-check-status.md)
                + [FreeWheel广告提交的错误代码](/help/dsp/inventory/freewheel-error-codes.md)
       + [编辑私人交易设置](/help/dsp/inventory/deal-id-edit.md)
       + [指定私人交易的投放位置和广告](/help/dsp/inventory/deal-id-attach-placements.md)
-      + [编辑有权访问私有交易的帐户](/help/dsp/inventory/deal-id-share.md)
+      + [编辑有权访问私人交易的帐户](/help/dsp/inventory/deal-id-share.md)
       + [编辑有权访问私人交易的广告商](/help/dsp/inventory/deal-id-edit-advertisers.md)
-      + [查看私人交易的拍卖分析](/help/dsp/inventory/private-deal-auction-insights.md)
+      + [查看私人交易的拍卖见解](/help/dsp/inventory/private-deal-auction-insights.md)
       + [列出私人交易的投放位置和广告](/help/dsp/inventory/private-deal-view-placements.md)
       + [存档或取消存档私有交易](/help/dsp/inventory/private-deal-archive-unarchive.md)
    + [!UICONTROL Simple Ad Serving]个交易 {#sas}
@@ -205,19 +205,19 @@ ht-degree: 3%
    + [可用报表列](/help/dsp/reports/report-columns.md)
    + [关于自定义报表的常见问题解答](/help/dsp/reports/faq-reports.md)
    + 报表目标 {#report-destinations}
-      + [关于[!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
-      + [创建[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
-      + [编辑[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
-      + [删除[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-      + [[!UICONTROL Report Destination]设置](/help/dsp/reports/report-destinations/report-destination-settings.md)
+      + [关于报表目标](/help/dsp/reports/report-destinations/report-destination-about.md)
+      + [创建报表目标](/help/dsp/reports/report-destinations/report-destination-create.md)
+      + [编辑报表目标](/help/dsp/reports/report-destinations/report-destination-edit.md)
+      + [删除报表目标](/help/dsp/reports/report-destinations/report-destination-delete.md)
+      + [报表目标设置](/help/dsp/reports/report-destinations/report-destination-settings.md)
 + 规划者 {#planner}
-   + [关于DSP Planner工具](/help/dsp/planner/planner-about.md)
-   + [创建连接电视接入计划](/help/dsp/planner/planner-create.md)
+   + [关于DSP [!UICONTROL Planner]工具](/help/dsp/planner/planner-about.md)
+   + [创建连接的电视接入计划](/help/dsp/planner/planner-create.md)
    + [复制连接的电视接入计划](/help/dsp/planner/planner-duplicate.md)
    + [编辑连接的电视接入计划](/help/dsp/planner/planner-edit.md)
-   + [已连接电视接入计划的设置](/help/dsp/planner/planner-settings.md)
+   + [连接电视接入计划的设置](/help/dsp/planner/planner-settings.md)
    + [导出已连接电视覆盖计划的预测](/help/dsp/planner/planner-export.md)
-   + [重新生成“连接电视覆盖计划”的预测](/help/dsp/planner/planner-forecast.md)
+   + [重新生成连接电视覆盖计划的预测](/help/dsp/planner/planner-forecast.md)
    + [存档连接的电视接入计划](/help/dsp/planner/planner-archive.md)
 + 资源 {#resources}
    + [管理URL](/help/dsp/resources/lists-url-manage.md)
@@ -233,15 +233,15 @@ ht-degree: 3%
    + 通知 {#notifications}
       + [关于警报订阅](/help/dsp/admin/alerts-about.md)
       + [管理警报订阅](/help/dsp/admin/alerts-manage.md)
-+ [与Adobe Experience Cloud的集成](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hans)
++ [与Adobe Experience Cloud的集成](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [获取帮助](/help/dsp/get-help.md)
-+ [Adobe Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)
++ [Adobe Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
-<!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
-      + [Edit the Attribute Tags for a Deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
+<!-- add back to about below "Edit the advertisers with access to a deal ID" when reintroduced:
+      + [Edit the attribute tags for a deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
 -->
 
 <!-- add back to Inventory > SAS section when reimplemented:
-      +  [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](/help/dsp/inventory/simple-deal-show-pixels.md)
+      +  [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](/help/dsp/inventory/simple-deal-show-pixels.md)
 -->

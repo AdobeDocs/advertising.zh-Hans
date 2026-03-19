@@ -1,11 +1,11 @@
 ---
 title: 欧洲、中东和非洲的[!DNL On Demand]高级库存发布者
-description: 欧洲、中东和非洲的[!DNL On Demand]高级库存出版商
+description: 欧洲、中东和非洲的[!DNL On Demand]高级库存发布者
 feature: DSP On Demand Inventory
 exl-id: a7669db9-5967-420c-970f-ff87e8f3556a
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: c6d921a7916d941413ca59b6133a37b6208fb117
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -228,7 +228,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于 [!DNL On Demand] 高级库存](on-demand-inventory-about.md)
->* [订阅并请求访问 [!DNL On Demand] 高级库存](on-demand-inventory-subscribe.md)
+>* [订阅并请求访问 [!DNL On Demand] 高级库存交易](on-demand-inventory-subscribe.md)
 >* [[!DNL On Demand] 亚太地区高级库存发布者](on-demand-inventory-publishers-apac.md)
 >* [[!DNL On Demand] 澳大利亚和新西兰的高级库存发布者](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] 北美高级库存发布者](on-demand-inventory-publishers-na.md)
+>* 北美地区的[[!DNL On Demand] 高级库存发布者](on-demand-inventory-publishers-na.md)
