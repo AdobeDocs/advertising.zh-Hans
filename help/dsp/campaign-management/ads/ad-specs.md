@@ -3,9 +3,9 @@ title: 广告规范
 description: 参考常规和特定于发布者的广告规范。
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ### 支持的第三方广告服务器
 
-您可以使用来自[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]和[!DNL Sizmek]的标记工作表。 有关支持的供应商的完整列表，请参阅“[认证广告服务合作伙伴](certified-ad-servers.md)”。
+您可以使用来自[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]和[!DNL Sizmek]的标记工作表。 有关支持的供应商的完整列表，请参阅“[认证的广告服务合作伙伴](certified-ad-servers.md)”。
 
 ### 高清晰度视频资产的要求
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 **推荐的广告大小：** 120x60、160x600、180x150、300x50、300x100、300x1050、300x250、300x600、320x50、320x480、480x60、 640x480， 88x31， 728x90， 970x250， 970x90
 
-**支持的第三方广告服务器：**&#x200B;您可以使用来自[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]和[!DNL Sizmek]的标记表。 有关支持的供应商的完整列表，请参阅“[认证广告服务合作伙伴](certified-ad-servers.md)”。
+**支持的第三方广告服务器：**&#x200B;您可以使用来自[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]和[!DNL Sizmek]的标记表。 有关支持的供应商的完整列表，请参阅“[认证的广告服务合作伙伴](certified-ad-servers.md)”。
 
 ## 音频广告
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 ### 支持的第三方广告服务器
 
-您可以使用来自[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]和[!DNL Sizmek]的标记工作表。 有关支持的供应商的完整列表，请参阅“[认证广告服务合作伙伴](certified-ad-servers.md)”。
+您可以使用来自[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]和[!DNL Sizmek]的标记工作表。 有关支持的供应商的完整列表，请参阅“[认证的广告服务合作伙伴](certified-ad-servers.md)”。
 
 ### 音频资产的要求
 
@@ -188,7 +188,7 @@ ht-degree: 0%
 
 ### 所有原生信息源格式所需的资产
 
-#### 图像资产
+#### 图像资源
 
 **分辨率：**&#x200B;最小为600x600px；建议的最小为1200x627px
 
@@ -238,7 +238,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于广告管理](ad-about.md)
->* [创建单个Ad](ad-create.md)
+>* [关于Advertising DSP中的广告管理](ad-about.md)
+>* [创建单个广告](ad-create.md)
 >* [创建多个第三方广告](ad-create-multiple.md)
 >* [编辑广告](ad-edit.md)

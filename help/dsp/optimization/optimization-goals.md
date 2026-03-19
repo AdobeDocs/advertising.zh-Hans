@@ -3,7 +3,7 @@ title: 优化目标以及如何使用它们
 description: 引用可用的优化目标并查看何时使用它们。
 feature: DSP Optimization
 exl-id: ad684c99-7ae5-48eb-abfe-d48fd3d34cd0
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 0%
@@ -39,4 +39,4 @@ ht-degree: 0%
 >
 >* [设置效果营销活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)
 >* [投放位置级别预竞价筛选器及其使用方式](optimization-pre-bid-filters.md)
->* [营销活动设置](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+>* [Campaign设置](/help/dsp/campaign-management/campaigns/campaign-settings.md)

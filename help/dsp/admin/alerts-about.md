@@ -3,7 +3,7 @@ title: 关于警报订阅
 description: 了解自动电子邮件警报。
 role: User, Admin
 exl-id: f3578f10-4f66-4133-a6e0-1ca8001dd2c9
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%

@@ -3,9 +3,9 @@ title: 编辑版面
 description: 了解如何编辑投放位置。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您还可以以XLSX（Excel电子表格）格式下载一个或多个投放位置，或营销策划中所有投放位置的设置；对大多数字段进行更改；一次将更改全部上传回DSP。 请参阅“[使用批量处理工作表查看和编辑版面设置](placement-qa.md)”。
+>您还可以以XLSX（Excel电子表格）格式下载一个或多个投放位置，或营销策划中所有投放位置的设置；对大多数字段进行更改；一次将更改全部上传回DSP。 请参阅“[使用批量处理工作表](placement-qa.md)查看和编辑版面设置。”
 
 ## 快速编辑键位置设置 {#placement-quick-edit}
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 要仅编辑投放位置名称、状态、最高竞价和预算，请参阅[快速编辑密钥投放位置设置](#placement-quick-edit)。
+> 要仅编辑投放位置名称、状态、最高竞价和预算，请参阅“[快速编辑密钥投放位置设置](#placement-quick-edit)”。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 
@@ -91,8 +91,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于版面管理](placement-about.md)
->* [使用批量工作表查看和编辑版面设置](placement-qa.md)
+>* [关于Advertising DSP中的版面管理](placement-about.md)
+>* [使用批量处理工作表查看和编辑置入设置](placement-qa.md)
 >* [创建版面](placement-create.md)
 >* [复制投放位置](placement-duplicate.md)
 >* [管理投放位置的竞价乘数](placement-manage-bid-multipliers.md)
@@ -102,4 +102,4 @@ ht-degree: 0%
 >* [位置设置](placement-settings.md)
 >* [查看投放预测报告](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [键盘快捷键](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [视频：如何使用批量编辑工具编辑版面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=zh-Hans)
+>* [视频：如何使用批量编辑工具编辑版面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

@@ -3,9 +3,9 @@ title: 关于Advertising DSP中的受众管理
 description: 了解受众管理功能。
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 82a501ec03a5d0d32d2281d6a9c9a67180853026
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >有关在这些解决方案中为区段设置和收集数据的信息，请参阅[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=zh-Hans)、[Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans)和[the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=zh-Hans)的文档。
+  >有关在这些解决方案中为区段设置和收集数据的信息，请参阅[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)、[Analytics](https://experienceleague.adobe.com/docs/analytics.html)和[the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html)的文档。
 
 ## 受众规模数据
 
@@ -106,15 +106,15 @@ ht-degree: 0%
 
   ![单个区段或保存的受众详细信息](/help/dsp/assets/audience-size-segment-details.png)
 
-## 受众视图
+## [!UICONTROL Audiences]次查看
 
-### “所有受众”视图
+### [!UICONTROL All Audiences]视图
 
 在[!UICONTROL All Audiences]视图或受众库中，您可以保存和管理可重用受众，其中包括受众区段组，甚至包括其他保存的受众。 您可以使用受众作为多个投放位置的目标。 每个受众使用的版面数量在版面名称旁显示。
 
 您可以编辑、克隆、删除、导出或共享任何受众。
 
-### “区段”视图
+### [!UICONTROL Segments]视图
 
 在[!UICONTROL Segments]视图中，所有用户都可以创建其他自定义区段。
 
@@ -134,11 +134,11 @@ ht-degree: 0%
 
   您无法编辑或共享与您共享的第三方区段。 如果需要与其他用户共享第三方区段，请联系您的Adobe客户团队。
 
-### “源”视图
+### [!UICONTROL Sources]视图
 
 在[!UICONTROL Sources]视图中，您可以在受支持的客户数据平台上配置第一方区段的源，以将其转换为包含指定的通用ID类型的区段。 源设置包括自动生成的源密钥，您将将其提供给客户数据平台以建立连接。
 
-有关受支持的客户数据平台、受支持的通用ID类型以及用于设置与每个客户数据平台的连接的工作流的详细信息，请参阅“[关于源](/help/dsp/audiences/sources/source-about.md)”。
+有关支持的客户数据平台、支持的通用ID类型以及用于设置与每个客户数据平台的连接的工作流的详细信息，请参阅“[关于第一方受众源](/help/dsp/audiences/sources/source-about.md)”。
 
 翻译后的区段可用于包含在可重用受众和用于无痕定位的放置设置中。
 

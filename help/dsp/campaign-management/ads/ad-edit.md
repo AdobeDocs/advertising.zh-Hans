@@ -3,9 +3,9 @@ title: 编辑广告
 description: 了解如何编辑广告。
 feature: DSP Ads
 exl-id: 149eeb61-b4d1-4c88-8dcd-ad11e135a486
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于广告管理](ad-about.md)
->* [创建单个Ad](ad-create.md)
+>* [关于Advertising DSP中的广告管理](ad-about.md)
+>* [创建单个广告](ad-create.md)
 >* [创建多个第三方广告](ad-create-multiple.md)
 >* [复制广告](ad-duplicate.md)
->* [列出与广告关联的版面](ad-list-placements.md)
+>* [列出与广告关联的投放位置](ad-list-placements.md)
 >* [广告规范](ad-specs.md)

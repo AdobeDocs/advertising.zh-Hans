@@ -1,11 +1,11 @@
 ---
 title: 自定义报表设置
-description: 请参阅自定义报表设置的描述。
+description: 请参阅自定义报表设置的说明。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 \* *[!UICONTROL Account]*&#x200B;仅在您的组织配置了[跨帐户报告](report-about.md#cross-account-reporting)时才可用于以下报告类型： [!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)]和[!UICONTROL Conversion]。 有关跨帐户报表的更多信息，请与Adobe客户团队联系。
 
-**[!UICONTROL Include data from Adobe Advertising SSC]：** （仅转化路径、路径长度和转化时间报表）包含指定Advertising Search、Social和Commerce促销活动中的搜索广告点击数据。 选择此选项时：
+**[!UICONTROL Include data from Adobe Advertising SSC]：** （仅限[!UICONTROL Path to Conversion]、[!UICONTROL Path Length]和[!UICONTROL Time to Conversion]报表）包含指定Advertising Search、Social和Commerce促销活动中的搜索广告点击数据。 选择此选项时：
 
 1. 使用&#x200B;**筛选依据[!UICONTROL SSC Account]**&#x200B;筛选器选择“搜索”、“社交”和“Commerce”帐户。
 
@@ -212,5 +212,5 @@ ht-degree: 0%
 >* [下载自定义报告](/help/dsp/reports/report-download.md)
 >* [运行自定义报告](/help/dsp/reports/report-run-now.md)
 >* [自定义报表设置](/help/dsp/reports/report-settings.md)
->* [关于报表目标](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [可用报告列](/help/dsp/reports/report-columns.md)
+>* [关于报告目标](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [可用的报表列](/help/dsp/reports/report-columns.md)

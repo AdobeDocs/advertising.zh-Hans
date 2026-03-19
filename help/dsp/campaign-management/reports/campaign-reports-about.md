@@ -3,7 +3,7 @@ title: 营销活动管理视图中的性能报表类型
 description: 了解营销活动管理视图中包含的报表数据。
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 对于其他数据划分，请查看[营销活动级别的报表页面](/help/dsp/campaign-management/campaigns/campaign-view-report.md)。 该报告包含有关[!UICONTROL Geography]、[!UICONTROL Device]、[!UICONTROL Viewability]和[!UICONTROL Audience Performance]数据的部分。
 
-### 其他类型的职位级别报表
+### 其他类型的置入级别报表
 
 对于其他数据划分，请查看[位置级报表页面](/help/dsp/campaign-management/placements/placement-view-report.md)。 该报告包含有关[!UICONTROL Geography]、[!UICONTROL Device]、[!UICONTROL Viewability]、[!UICONTROL Audience Performance]、[!UICONTROL Notifications]和[!UICONTROL Ads]数据的节。
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [查看投放位置的网站、广告和频率详细信息](placement-details-view.md)
->* [管理您的Campaign数据视图](campaign-data-views-manage.md)
+>* [管理您的营销活动数据视图](campaign-data-views-manage.md)
 >* [从营销活动管理视图中导出数据](campaign-export-data.md)
 >* [查看营销活动的详细报告](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
 >* [查看警报](campaign-alerts.md)
