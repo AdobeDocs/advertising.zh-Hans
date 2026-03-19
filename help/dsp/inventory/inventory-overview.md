@@ -3,9 +3,9 @@ title: Advertising DSP中的清单功能概述
 description: 了解可用的清单功能。
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: e55b9276-0d13-436e-9c09-968de963d551
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于按需清单](on-demand-inventory-about.md)
+>* [关于按需库存](on-demand-inventory-about.md)
 >* [关于交易ID收件箱](deal-id-inbox-about.md)
->* [关于计划性保证交易](programmatic-guaranteed-about.md)
+>* [关于程序化保证交易](programmatic-guaranteed-about.md)
 >* [SSP合作伙伴](ssp-partners.md)
 >* [关于专用清单](private-inventory-about.md)

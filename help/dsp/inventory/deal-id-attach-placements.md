@@ -3,7 +3,7 @@ title: 指定私人交易的投放位置和广告
 description: 了解如何将私人交易与额外的投放和广告结合使用。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -34,13 +34,13 @@ ht-degree: 0%
        
        1。 从可用广告列表中，选中要用于交易的每个广告旁边的复选框。
        
-       1。 单击&#x200B;**[!UICONTROL Apply]**.
+       1。 单击**[!UICONTROL Apply]**.
    
    1. 在版面设置屏幕中：
 
       1. 输入版面名称。
 
-      1. （可选）编辑[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)，包括覆盖默认出价（自动使用交易中的CPM值填充默认出价）、更改日期范围或附加更多广告。
+      1. （可选）编辑[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)，包括覆盖默认竞价（自动使用交易中的CPM值填充默认竞价）、更改日期范围或附加更多广告。
 
       交易会在“库存目标”部分自动定位。 所有其他定位选项均不适用。
 

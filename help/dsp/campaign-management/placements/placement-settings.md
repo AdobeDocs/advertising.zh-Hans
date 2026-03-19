@@ -3,9 +3,9 @@ title: 投放设置
 description: 请参阅可用版面设置的说明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '4436'
+source-wordcount: '4439'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 >
 >* 投放日期必须包含在营销活动投放日期和包投放日期中。
 
-### 分配给具有包级别步调的包的位置
+### 分配给具有包级别步调的包的版面
 
 **[!UICONTROL Placement Funding]：**&#x200B;如何为投放位置编列预算：
 
@@ -89,7 +89,7 @@ ht-degree: 0%
    * 要删除筛选器，请单击筛选器行中的&#x200B;**[!UICONTROL X]**。
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
-查看“[位置级别预竞价筛选器”上每个预竞价筛选器的说明及其使用方法](/help/dsp/optimization/optimization-pre-bid-filters.md)。
+查看“[位置级别预竞价过滤器”上每个预竞价过滤器的说明及其使用方法](/help/dsp/optimization/optimization-pre-bid-filters.md)。
 
 ### 所有其他版面
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 **[!UICONTROL Gross Budget Goal]：** （仅具有利润管理的营销活动中的投放位置）总预算上限和预算间隔(*[!UICONTROL All time]*、*[!UICONTROL Daily]*、*[!UICONTROL Weekly]*、*[!UICONTROL Monthly]*)。
 
-**[!UICONTROL Optimization Goal]：**&#x200B;包的优化目标。 请参阅“[优化目标以及如何使用它们](/help/dsp/optimization/optimization-goals.md)”上的每个优化目标的说明。
+**[!UICONTROL Optimization Goal]：**&#x200B;包的优化目标。 查看“[优化目标”中每个优化目标的说明以及如何使用它们](/help/dsp/optimization/optimization-goals.md)”。
 
 **[!UICONTROL Target Goal]：**&#x200B;目标目标，用于跟踪性能。
 
@@ -314,7 +314,7 @@ ht-degree: 0%
 
 * 要选择现有受众，请单击![旁边的](/help/dsp/assets/chevron-down.png)选择[!UICONTROL Included Audiences]，然后选择受众。
 * 要创建受众，请单击![旁边的](/help/dsp/assets/chevron-down.png)选择[!UICONTROL Included Audiences]，然后选择&#x200B;**[!UICONTROL + Create Audience]**。 有关说明，请参阅从步骤3开始的[创建可重复使用的受众](/help/dsp/audiences/reusable-audience-create.md)。
-* 要选择特定的受众区段，请单击&#x200B;**[!UICONTROL Select segments for this placement only]**。 选择区段逻辑；有关说明，请参阅“[创建可重用受众](/help/dsp/audiences/reusable-audience-create.md)”中的步骤6。 完成后，单击&#x200B;**保存**。
+* 要选择特定的受众区段，请单击&#x200B;**[!UICONTROL Select segments for this placement only]**。 选择区段逻辑；有关说明，请参阅“[创建可重复使用的受众](/help/dsp/audiences/reusable-audience-create.md)”中的步骤6。 完成后，单击&#x200B;**保存**。
 
 >[!NOTE]
 >
@@ -357,7 +357,7 @@ ht-degree: 0%
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 选择适用的时区。
 1. 指定间隔：
-   * 要选择预设间隔，请单击其中一个间隔按钮。 选项包括&#x200B;*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
+   * 要选择预设间隔，请单击其中一个间隔按钮。 选项包括*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
    * 要手动选择间隔，请单击单元格内部，也可以拖动以选择间隔。
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
@@ -512,7 +512,7 @@ ID必须以“51”开头并且由八位数字组成。 默认情况下，如果
 
 >[!MORELIKETHIS]
 >
->* [关于版面管理](placement-about.md)
+>* [关于Advertising DSP中的版面管理](placement-about.md)
 >* [创建版面](placement-create.md)
 >* [编辑版面](placement-edit.md)
 >* [管理投放位置的竞价乘数](placement-manage-bid-multipliers.md)

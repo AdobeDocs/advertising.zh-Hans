@@ -3,9 +3,9 @@ title: 快速编辑键位置设置
 description: 了解如何快速更改关键位置设置。
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于版面管理](placement-about.md)
+>* [关于Advertising DSP中的版面管理](placement-about.md)
 >* [创建版面](placement-create.md)
 >* [编辑版面](placement-edit.md)
 >* [复制投放位置](placement-duplicate.md)
@@ -38,4 +38,4 @@ ht-degree: 0%
 >* [停用或激活投放位置](placement-pause-activate.md)
 >* [查看投放位置的更改日志](placement-change-log.md)
 >* [位置设置](placement-settings.md)
->* [视频：如何使用批量编辑工具编辑版面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=zh-Hans)
+>* [视频：如何使用批量编辑工具编辑版面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

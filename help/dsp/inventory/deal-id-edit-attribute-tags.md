@@ -1,15 +1,15 @@
 ---
-title: 编辑交易ID的属性标记
+title: 编辑交易ID的属性
 description: 了解如何创建和编辑交易ID的属性标记。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
-# 编辑交易ID的属性标记
+# 编辑交易ID的属性
 
 您可以创建标记并将其分配给交易ID，以将类似交易组合在一起。 创建或编辑版面时，您可以按标记名称搜索可用库存。
 

@@ -3,7 +3,7 @@ title: 编辑有权访问私人交易的广告商
 description: 了解如何指定哪些广告商可以访问私人交易。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 51f3fa66-de70-4233-a866-ec48d72e88dc
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -26,5 +26,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >* [关于专用清单](private-inventory-about.md)
->* [编辑有权访问交易ID的帐户](/help/dsp/inventory/deal-id-share.md)
+>* [编辑有权访问私人交易的帐户](/help/dsp/inventory/deal-id-share.md)
 >* [手动交易ID设置](deal-id-settings.md)

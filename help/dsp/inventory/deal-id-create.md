@@ -3,7 +3,7 @@ title: 手动创建交易ID详细信息
 description: 了解如何手动输入交易ID的详细信息。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
       1. 输入版面名称。
 
-      1. （可选）编辑[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)，包括覆盖默认出价（自动使用交易中的CPM值填充默认出价）、更改日期范围或附加更多广告。
+      1. （可选）编辑[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)，包括覆盖默认竞价（自动使用交易中的CPM值填充默认竞价）、更改日期范围或附加更多广告。
 
       交易会在“库存目标”部分自动定位。 所有其他定位选项均不适用。
 
@@ -68,6 +68,6 @@ ht-degree: 0%
 >
 >* [手动交易ID设置](deal-id-settings.md)
 >* [设置计划性保证交易](programmatic-guaranteed-set-up.md)
->* [提交计划性保证交易的广告 [!DNL FreeWheel]](freewheel-submit.md)
->* [关于计划性保证交易](programmatic-guaranteed-about.md)
-<!-- >* [Specify Placements and Ads for a Private Deal](deal-id-attach-placements.md)-->
+>* [提交广告以便与 [!DNL FreeWheel]](freewheel-submit.md)进行计划性保证交易
+>* [关于程序化保证交易](programmatic-guaranteed-about.md)
+<!-- >* [Specify placements and ads for a private deal](deal-id-attach-placements.md)-->

@@ -3,9 +3,9 @@ title: 关于 [!DNL On Demand] 高级库存
 description: 了解DSP与高级发布商合作伙伴预先协商的交易。
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -53,10 +53,10 @@ DSP Premium Marketplace允许您：
 
 >[!MORELIKETHIS]
 >
->* [订阅和请求访问 [!DNL On Demand] 高级库存交易](on-demand-inventory-subscribe.md)
->* [重新请求按需优质库存交易](on-demand-inventory-rerequest.md)
+>* [订阅并请求访问 [!DNL On Demand] 高级库存交易](on-demand-inventory-subscribe.md)
+>* [重新请求 [!DNL On Demand] 高级库存交易](on-demand-inventory-rerequest.md)
 >* [查看您的 [!DNL On Demand] 交易请求和订阅的状态](on-demand-inventory-view-status.md)
 >* [[!DNL On Demand] 亚太地区高级库存发布者](on-demand-inventory-publishers-apac.md)
 >* [[!DNL On Demand] 澳大利亚和新西兰的高级库存发布者](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand] 欧洲、中东和非洲](on-demand-inventory-publishers-emea.md)高级库存出版商
->* [[!DNL On Demand] 北美高级库存发布者](on-demand-inventory-publishers-na.md)
+>* 北美地区的[[!DNL On Demand] 高级库存发布者](on-demand-inventory-publishers-na.md)

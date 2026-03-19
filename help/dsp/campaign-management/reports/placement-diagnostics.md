@@ -3,7 +3,7 @@ title: 查看版面[!UICONTROL Diagnostics]报告
 description: 了解如何诊断投放位置设置和步调的问题。
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -72,6 +72,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* 营销活动管理视图中的[性能报表类型](campaign-reports-about.md)
+>* [促销活动管理视图中的性能报告类型](campaign-reports-about.md)
 >* [查看投放预测报告](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [位置设置](/help/dsp/campaign-management/placements/placement-settings.md)

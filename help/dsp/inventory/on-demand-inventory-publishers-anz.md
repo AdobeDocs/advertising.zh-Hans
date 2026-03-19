@@ -3,9 +3,9 @@ title: 澳大利亚和新西兰的[!DNL On Demand]高级库存发布者
 description: 查看澳大利亚和新西兰可用的 [!DNL On Demand] 高级库存发布者。
 feature: DSP On Demand Inventory
 exl-id: 9c494ad0-eb35-464e-b154-3f56c02968f1
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于 [!DNL On Demand] 高级库存](on-demand-inventory-about.md)
->* [订阅并请求访问 [!DNL On Demand] 高级库存](on-demand-inventory-subscribe.md)
+>* [订阅并请求访问 [!DNL On Demand] 高级库存交易](on-demand-inventory-subscribe.md)
 >* [[!DNL On Demand] 亚太地区高级库存发布者](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand Premium] 欧洲、中东和非洲](on-demand-inventory-publishers-emea.md)库存发布者
->* [[!DNL On Demand] 北美高级库存发布者](on-demand-inventory-publishers-na.md)
+>* [[!DNL On Demand] 欧洲、中东和非洲](on-demand-inventory-publishers-emea.md)高级库存出版商
+>* 北美地区的[[!DNL On Demand] 高级库存发布者](on-demand-inventory-publishers-na.md)

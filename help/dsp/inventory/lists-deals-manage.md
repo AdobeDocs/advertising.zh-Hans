@@ -3,7 +3,7 @@ title: 管理交易列表
 description: 了解如何创建和管理投放位置定位的交易列表。
 feature: DSP Private Inventory, DSP On Demand Inventory, DSP Deal IDs, DSP Placements
 exl-id: 18a2c2d2-d84d-4347-93af-ca7489a1a8fb
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -74,5 +74,5 @@ In custom reports, you can a) filter data by deal lists and deals and b) include
 >
 >* [位置设置](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [自定义报表设置](/help/dsp/reports/report-settings.md)
->* [可用报告列](/help/dsp/reports/report-columns.md)
+>* [可用的报表列](/help/dsp/reports/report-columns.md)
 >* [关于专用清单](/help/dsp/inventory/private-inventory-about.md)
