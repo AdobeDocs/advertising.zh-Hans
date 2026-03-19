@@ -2,9 +2,9 @@
 title: 关于自定义报表的常见问题解答
 description: 详细了解自定义报表，包括家庭报表和转化路径分析报表。
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 8ba0d485562017caf2a5dedb6215e1485be16c34
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 #### 如何为[!UICONTROL Placement Tags]维度配置报表？
 
-若要创建投放位置的标记，请[打开投放位置设置](/help/dsp/campaign-management/placements/placement-edit.md)，然后在[投放位置标记字段](/help/dsp/campaign-management/placements/placement-settings.md)中输入值。
+若要创建投放位置的标记，请[打开投放位置设置](/help/dsp/campaign-management/placements/placement-edit.md)，然后在[[!UICONTROL Placement Tags]字段](/help/dsp/campaign-management/placements/placement-settings.md)中输入值。
 
 当投放位置包含多个标记时，报表会将整个字符串视为一个标记。 对于每个唯一字符串，报表都包含一行。
 
@@ -103,9 +103,9 @@ ht-degree: 0%
 
 ## 转化路径分析报表
 
-### 与[!DNL Advanced Measurement Services]和Adobe Analytics Analysis Workspace创建的报表相比，转化路径报表如何？
+### 与[!UICONTROL Path to Conversion]和Adobe Analytics Analysis Workspace创建的报告相比，[!DNL Advanced Measurement Services]报告如何？
 
-| | 转化报表路径 | 高级测量服务对搜索报表的光晕影响 | Analysis Workspace中的报表 |
+| | [!UICONTROL Path to Conversion]报告 | 高级测量服务对搜索报表的光晕影响 | Analysis Workspace中的报表 |
 | --- | --- | --- |---|
 | 客户价值 | 生成自助自定义报表，以了解广告历程的哪些路径导致了更多转化，从而促进优化 | 了解联网电视(CTV)策略对搜索点击量的影响 | 了解您的Adobe Advertising整体投资以及其他营销渠道对搜索点击量的影响 |
 | 家庭级别 | 是 | 是 | 否 |
@@ -117,7 +117,7 @@ ht-degree: 0%
 | 营销渠道 | DSP +搜索（来自搜索、社交和Commerce） | DSP +搜索（来自搜索、社交和Commerce） | Adobe Advertising未通过EF ID跟踪的营销渠道（例如免费搜索、免费社交、电子邮件和附属活动） |
 | 支持的转化量度 | 使用Adobe Advertising事件像素(AMO ID)和Adobe Analytics跟踪跟踪的指标 | 点击次数（无转化） | 使用Adobe Analytics跟踪跟踪的指标 |
 
-有关高级测量服务对搜索报表的光晕影响的详细信息，请参阅[高级测量服务](/help/dsp/introduction/advanced-measurement-services.md)。
+有关高级测量服务对搜索报表的光晕影响的详细信息，请参阅“[高级测量解决方案](/help/dsp/introduction/advanced-measurement-services.md)”。
 
 >[!MORELIKETHIS]
 >
@@ -125,4 +125,4 @@ ht-degree: 0%
 >* [创建自定义报告](/help/dsp/reports/report-create.md)
 >* [编辑自定义报告](/help/dsp/reports/report-edit.md)
 >* [自定义报表设置](/help/dsp/reports/report-settings.md)
->* [可用报告列](/help/dsp/reports/report-columns.md)
+>* [可用的报表列](/help/dsp/reports/report-columns.md)

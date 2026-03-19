@@ -3,7 +3,7 @@ title: Campaign启动检查清单
 description: 了解在启动营销活动之前需要做什么。
 feature: DSP Placements, DSP Ads
 exl-id: 9a8c2b3e-233e-4401-8311-daffde6cda68
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5a29233034121a310ee172fe2cf6997047733c2
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
