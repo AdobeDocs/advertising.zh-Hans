@@ -3,7 +3,7 @@ title: 管理受众源以激活通用ID受众
 description: 了解如何创建和管理源以从客户数据平台导入受众，并将它们转换为包含通用ID的区段。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
+source-git-commit: b14f9c4ff59332c8850d1c1534d286aa79fe575a
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -121,7 +121,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 * *[!DNL RampID]：*&#x200B;要将PII转换为[!DNL RampID]。 您可以使用[!DNL RampIDs]重新定位登录用户和[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)测量。
 
-* *[!DNL Unified ID2.0] (Beta)：*&#x200B;要将PII转换为[统一ID 2.0](https://unifiedid.com) ID以重新定位登录用户。
+* *[!DNL Unified ID2.0](Beta)：*&#x200B;要将PII转换为[统一ID 2.0](https://unifiedid.com) ID以重新定位登录用户。
 
 <!-- Later
 * *[!DNL ID5] (Beta):* To convert PII to an [!DNL ID5] ID. You can use [!DNL ID5] IDs for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.
