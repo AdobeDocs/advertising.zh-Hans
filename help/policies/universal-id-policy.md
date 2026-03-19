@@ -3,7 +3,7 @@ title: Adobe Advertising通用ID要求策略
 description: 请参阅有关使用通用ID的策略。
 feature: Policies, DSP Ads
 exl-id: a21dcc56-a618-476d-9f5b-7b1260f27331
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: c7438ee214e6b5d5cfb6e6c72eb480bc334596c7
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ### UID2禁止的国家/地区
 
-如果选择通过服务使用UID2 Universal ID，即表示您同意确保通过按需服务传输、存储、显示、分发或以其他方式提供给您用于与UID2 Universal ID相关的所有客户端数据不涉及任何居住于此处附件A[所列](#prohibited-countries-uid2)UID2 Provisible Country的个人。
+如果选择通过服务使用UID2通用ID，即表示您同意确保通过按需服务传输、存储、显示、分发或以其他方式提供给您用于与UID2通用ID相关的所有客户端数据不涉及任何居住于此处附件A[所列](#prohibited-countries-uid2)UID2禁止国家/地区的个人。
 
 ## 无歧视
 
