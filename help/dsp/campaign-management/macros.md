@@ -3,7 +3,7 @@ title: Advertising DSP宏
 description: 引用可用于常规跟踪和跟踪第三方显示广告点击量的宏。
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 ## [!DNL Analytics for Advertising]宏
 
-有关[[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)客户专门可用的其他宏，请参阅“[将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Flashtalking] 广告标签](/help/integrations/analytics/macros-flashtalking.md)”和“[将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Google Campaign Manager 360] 广告标签](/help/integrations/analytics/macros-google-campaign-manager.md)”。
+有关[[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)客户专门可用的其他宏，请参阅“[将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Flashtalking] 添加标记](/help/integrations/analytics/macros-flashtalking.md)”和“[将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Google Campaign Manager 360] 添加标记](/help/integrations/analytics/macros-google-campaign-manager.md)”。
 
 ## 宏错误疑难解答
 
@@ -104,6 +104,6 @@ ht-degree: 0%
 >* [已连接电视广告设置](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
 >* [显示广告设置](/help/dsp/campaign-management/ads/ad-settings-display.md)
 >* [移动广告设置](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
->* [本机广告设置](/help/dsp/campaign-management/ads/ad-settings-native.md)
+>* [原生广告设置](/help/dsp/campaign-management/ads/ad-settings-native.md)
 >* [前置广告设置](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
 >* [通用视频广告设置](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)

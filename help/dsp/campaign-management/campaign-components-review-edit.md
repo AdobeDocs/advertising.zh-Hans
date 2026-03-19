@@ -3,7 +3,7 @@ title: 使用批量处理工作表查看和编辑Campaign组件设置
 description: 了解如何使用电子表格批量查看和编辑关键包、投放位置和广告设置。
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    * 单击顶部菜单栏右侧的![作业](/help/dsp/assets/downloads.png)。 单击作业旁边的&#x200B;**[!UICONTROL Download]**。
 
-     文件已保存到浏览器的“下载”文件夹中。<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+     文件已保存到浏览器的“下载”文件夹中。<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
      要编辑任何设置，请直接编辑文件，然后上传更改。 所有可编辑的列都以蓝色突出显示。 要对字段使用正确的格式，请从相关的包设置或放置设置中选择并复制值。 对于某些目标设置，例如分时段、自定义目标和转化量度，在设置中提供了一个复制选项。
 
@@ -153,7 +153,7 @@ ht-degree: 0%
 >
 >* [使用批量工作表查看和编辑包设置](/help/dsp/campaign-management/packages/package-qa.md)
 >* [包设置](/help/dsp/campaign-management/packages/package-settings.md)
->* [使用批量工作表查看和编辑版面设置](/help/dsp/campaign-management/placements/placement-qa.md)
+>* [使用批量处理工作表查看和编辑置入设置](/help/dsp/campaign-management/placements/placement-qa.md)
 >* [位置设置](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [音频广告设置](/help/dsp/campaign-management/ads/ad-settings-audio.md)
 >* [连接的电视设置](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
