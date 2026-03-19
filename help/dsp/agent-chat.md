@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-使用AI聊天界面在[Advertising DSP指南](/help/dsp/home.md)和（使用Advertising Creative的广告商）[Advertising Creative指南](/help/creative/home.md)中搜索概念和操作方法内容。 答案仅基于[Experience League](https://experienceleague.adobe.com/en/docs/advertising)中针对这些产品记录的内容。
+使用AI聊天界面在[Advertising DSP指南](/help/dsp/home.md)和（使用Advertising Creative的广告商）[Advertising Creative指南](/help/creative/home.md)中搜索概念和操作方法内容。 答案仅基于[Experience League](https://experienceleague.adobe.com/zh-hans/docs/advertising)中针对这些产品记录的内容。
 
 响应包括引文以及其他提示和跟进问题，可帮助您优化查询并查找更多信息。 您的聊天历史记录会保留，您的查询不会与其他用户共享。
 
