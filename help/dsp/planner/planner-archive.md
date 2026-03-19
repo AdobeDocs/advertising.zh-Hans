@@ -3,9 +3,9 @@ title: 存档连接的电视接入计划
 description: 了解如何存档连接的电视接入计划。
 feature: DSP Planner
 exl-id: 335db881-51e6-412d-9346-216c6a70a6de
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于DSP Planner工具](planner-about.md)
+>* [关于DSP [!UICONTROL Planner]工具](planner-about.md)
 >* [创建连接的电视访问计划](planner-create.md)
 >* [复制连接的电视访问计划](planner-duplicate.md)
 >* [编辑连接的电视访问计划](planner-edit.md)

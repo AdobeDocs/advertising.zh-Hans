@@ -2,7 +2,7 @@
 title: 高级测量解决方案
 description: 请参阅高级测量的可用解决方案列表。
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: f2f24b85ad2f6068739b54e4a72a2e7bef6cd31b
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 在数据驱动的媒体环境中，归因测量提供了解决此难题的解决方案。 高级测量和策略(AMS)团队可帮助品牌和代理机构合作伙伴测量其Adobe Advertising的元素以及其[!DNL Adobe]集成如何推动成果。 借助强大的归因测量产品，AMS可以使用复杂的测量框架来部署策划的定位策略，从而使品牌可以轻松地将其媒体收入与推动其业务的现实结果联系起来。 团队可帮助您：
 
-* 在完整漏斗数字媒体营销活动中激活测量研究
+* 在整个funnel数字媒体促销活动中激活测量研究
 
-* 使用打包的报表解决方案提升您的活动故事讲述能力
+* 使用打包的报表解决方案升级campaign storytelling
 
 * 随着时间的推移，通过学习和改进促销活动有效性来改进广告实践
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
   将随机、互斥样本组的行为与简单、干净的A/B测试进行比较。
 
-## 找到完美的量值拟合：垂直方向上的解决方案
+## 找到最适合的测量：按垂直方向显示解决方案
 
 * **所有垂直：**
 
@@ -85,4 +85,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->Adobe Advertising支持的[货币](/help/dsp/currency.md)
+>Adobe Advertising中支持的[货币](/help/dsp/currency.md)

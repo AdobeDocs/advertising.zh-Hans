@@ -3,9 +3,9 @@ title: 编辑资源包
 description: 了解如何编辑资源包。
 feature: DSP Packages
 exl-id: 88fbbb46-0150-4ff7-838f-ea00aead529e
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于包管理](package-about.md)
+>* [关于Advertising DSP中的包管理](package-about.md)
 >* [使用批量工作表查看和编辑包设置](/help/dsp/campaign-management/packages/package-qa.md)
 >* [创建包](package-create.md)
 >* [复制包](package-duplicate.md)
