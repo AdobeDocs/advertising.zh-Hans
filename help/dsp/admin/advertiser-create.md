@@ -2,7 +2,7 @@
 title: 创建广告商帐户
 description: 了解如何创建广告商帐户。
 role: User, Admin
-source-git-commit: 7cf17457ba777d2dfe9fc1607f9891a340da9031
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%

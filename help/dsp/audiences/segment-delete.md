@@ -3,7 +3,7 @@ title: 删除区段
 description: 了解如何删除自定义或CCPA选择退出销售区段。
 feature: DSP Segments
 exl-id: 2b5f61b1-b07d-45e1-bf1c-8e7c25ead42b
-source-git-commit: 7cf17457ba777d2dfe9fc1607f9891a340da9031
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
