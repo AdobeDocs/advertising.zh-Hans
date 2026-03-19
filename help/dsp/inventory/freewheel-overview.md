@@ -43,4 +43,4 @@ ht-degree: 0%
 >* [在[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)中接受交易
 >* [向 [!DNL Freewheel]](freewheel-submit.md)提交计划性保证交易的广告
 >* [检查 [!DNL FreeWheel] PG交易的广告状态](freewheel-check-status.md)
->* [ [!DNL FreeWheel] 广告提交的错误代码](freewheel-error-codes.md)
+>* [&#x200B; [!DNL FreeWheel] 广告提交的错误代码](freewheel-error-codes.md)
