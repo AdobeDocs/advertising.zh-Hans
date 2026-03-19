@@ -3,9 +3,9 @@ title: 可用报表列
 description: 请参阅自定义报表中可用列的说明。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 784d65f60de8962e634613f513037b2a6e6058bc
 workflow-type: tm+mt
-source-wordcount: '2933'
+source-wordcount: '2927'
 ht-degree: 0%
 
 ---
@@ -34,8 +34,8 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Title] | 内容/电影标题。 |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Series] | 内容系列。 |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Genre] | 内容流派。 |
-| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | 由[IAB技术实验室](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md)定义的生产质量。 值可以`Unknown`、`Professionally Produced`、`Prosumer`或`User Generated`。 |
-| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Context] | [IAB技术实验室](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md)定义的内容类型。 值可以包括`Video,` `Game`、`Music`、`Application`、`Text`、`Other`或`Unknown`。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | 由[该 [!DNL IAB Technology Laboratory]](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md)定义的生产质量。 值可以`Unknown`、`Professionally Produced`、`Prosumer`或`User Generated`。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Context] | 由[the [!DNL IAB Technology Laboratory]](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md)定义的内容类型。 值可以包括`Video,` `Game`、`Music`、`Application`、`Text`、`Other`或`Unknown`。 |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Rating] | 内容评级，例如PG或R。 |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Livestream] | 广告出现在直播流中： `Not Live`还是`Live`。 |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Length (in seconds)] | 内容的长度（以秒为单位）；通常用于视频或音频。 |

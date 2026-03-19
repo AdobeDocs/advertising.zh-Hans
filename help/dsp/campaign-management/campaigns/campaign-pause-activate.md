@@ -3,7 +3,7 @@ title: 暂停或激活营销活动
 description: 了解如何暂停或激活实时营销活动。
 feature: DSP Campaigns
 exl-id: ed199864-8532-411b-b8ea-443ee1c149a2
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 85d0697069569bed352af5ec1fea023220eec263
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
