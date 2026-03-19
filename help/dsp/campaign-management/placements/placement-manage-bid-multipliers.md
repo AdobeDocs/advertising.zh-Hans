@@ -3,9 +3,9 @@ title: 管理投放位置的竞价乘数
 description: 了解如何创建和编辑投放目标的竞价乘数。
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 32b811e1fc7c9895b75c1e184db72f2d3f5963a5
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '910'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 您可以为[有限数量的目标](#bid-multiplier-limits-by-target)设置竞价乘数（值为1.00以外的值）。
 
-此功能可与您现有的投放目标配合使用。 要更改投放位置的选定目标，请参阅“[编辑投放位置](/help/dsp/campaign-management/placements/placement-edit.md)”。
+此功能可与您现有的投放目标配合使用。 要更改投放位置的选定目标，请参阅[编辑投放位置](/help/dsp/campaign-management/placements/placement-edit.md)。
 
 ## 管理单个投放位置的竞价乘数
 
@@ -125,7 +125,7 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->* [关于版面管理](placement-about.md)
+>* [关于Advertising DSP中的版面管理](placement-about.md)
 >* [编辑版面](placement-edit.md)
 >* [查看投放位置的更改日志](placement-change-log.md)
 >* [位置设置](placement-settings.md)
