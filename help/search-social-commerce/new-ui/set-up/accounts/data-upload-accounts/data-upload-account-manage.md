@@ -3,7 +3,7 @@ title: 配置用于数据上载的广告网络帐户
 description: 了解如何设置和管理广告网络帐户的帐户详细信息。
 feature: Search Campaign Management
 exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
-source-git-commit: 00565a6c9e784472fab9c9d223c83b0c7cbb91b1
+source-git-commit: 0305fde5c3448899c8ab8d45777a7bc4ed7089ce
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 **[!UICONTROL Account Synchronization and Management]> [!UICONTROL Account Enabled]：**&#x200B;搜索、社交和Commerce允许自动获取指定S3存储段的数据。
 
-## [!UICONTROL Setup Analytics]选项卡
+### [!UICONTROL Setup Analytics]选项卡
 
 **[!UICONTROL Adobe Analytics Report Suite]：** （具有[[!DNL Adobe Analytics for Advertising] 集成](/help/integrations/analytics/overview.md)的广告商；可选）您上传的广告网络数据（包括实体分类和帐户的点击数据）将上传到Search、Social和Commerce发送的一个或多个Analytics报表包。
 
