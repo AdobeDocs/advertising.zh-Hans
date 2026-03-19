@@ -22,7 +22,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 包括所有指定的区段组，除非它们前面有！ （不包括他们）。
->* 您可以从[ > ](reusable-audience-clipboard.md)中[!UICONTROL Audiences]找到受众[!UICONTROL All audiences]的区段ID。
+>* 您可以从[&#x200B; > &#x200B;](reusable-audience-clipboard.md)中[!UICONTROL Audiences]找到受众[!UICONTROL All audiences]的区段ID。
 
 例如，以下逻辑：
 
