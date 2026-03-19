@@ -3,7 +3,7 @@ title: 支持激活通用ID
 description: 了解在以下支持方面的支持：导入通用ID区段，创建自定义区段以跟踪通用ID，以及将第一方区段中的其他用户标识符转换为通用ID以实现无痕定位。
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 0%

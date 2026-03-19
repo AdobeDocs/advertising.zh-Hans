@@ -3,7 +3,7 @@ title: 将用户ID从 [!DNL Optimizely] 转换为通用ID
 description: 了解如何使DSP能够摄取您的 [!DNL Optimizely] 第一方区段。
 feature: DSP Audiences
 exl-id: 2c48a874-132a-4e5c-ba24-0e7ab80ac2d4
-source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%

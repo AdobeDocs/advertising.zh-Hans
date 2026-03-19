@@ -3,9 +3,9 @@ title: 显示广告设置
 description: 请参阅显示广告可用广告设置的描述。
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于广告管理](ad-about.md)
->* [创建单个Ad](ad-create.md)
->* [列出与广告关联的版面](ad-list-placements.md)
+>* [关于Advertising DSP中的广告管理](ad-about.md)
+>* [创建单个广告](ad-create.md)
+>* [列出与广告关联的投放位置](ad-list-placements.md)
 >* [广告规范](ad-specs.md)
 >* [DSP宏](/help/dsp/campaign-management/macros.md)

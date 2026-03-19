@@ -3,7 +3,7 @@ title: 将DSP与 [!DNL Adobe] [!DNL Real-time CDP]集成
 description: 了解如何使DSP能够摄取您的 [!DNL Adobe] [!DNL Real-time CDP]第一方区段。
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 在Adobe Experience Platform中，使用在Advertising DSP源设置中生成的[!UICONTROL Source Key]配置DSP目标连接。
 
-   有关激活DSP目标连接、选择区段和访问控制权限的说明，请参阅“[Adobe Advertising Cloud DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=zh-Hans)”。
+   有关激活DSP目标连接、选择区段和访问控制权限的说明，请参阅“[Adobe Advertising Cloud DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)”。
 
    源电子邮件地址必须使用SHA-256算法进行哈希处理。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 >
 >* [关于第一方受众源](/help/dsp/audiences/sources/source-about.md)
 >* [管理受众源以激活通用ID受众](source-manage.md)
->* [Adobe Advertising DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=zh-Hans)
->* Adobe Experience Platform [目标目录概述](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hans)
+>* [Adobe Advertising DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* Adobe Experience Platform [目标目录概述](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [支持激活通用ID](/help/dsp/audiences/universal-ids.md)
 >* [关于受众管理](/help/dsp/audiences/audience-about.md)

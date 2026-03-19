@@ -3,9 +3,9 @@ title: 创建营销活动
 description: 了解如何创建营销活动。
 feature: DSP Campaigns
 exl-id: 8e401c15-018d-439b-922e-2e456eabfea4
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于营销活动管理](campaign-about.md)
+>* [关于Advertising DSP中的营销活动管理](campaign-about.md)
 >* [复制营销活动](campaign-duplicate.md)
 >* [编辑营销活动](campaign-edit.md)
 >* [查看营销活动的更改日志](campaign-change-log.md)
->* [营销活动设置](campaign-settings.md)
+>* [Campaign设置](campaign-settings.md)
 >* [暂停或激活营销活动](campaign-pause-activate.md)

@@ -3,9 +3,9 @@ title: 音频广告设置
 description: 请参阅音频广告可用广告设置的说明。
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于广告管理](ad-about.md)
->* [创建单个Ad](ad-create.md)
->* [列出与广告关联的版面](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [关于Advertising DSP中的广告管理](ad-about.md)
+>* [创建单个广告](ad-create.md)
+>* [列出与广告关联的投放位置](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [广告规范](ad-specs.md)
 >* [DSP宏](/help/dsp/campaign-management/macros.md)

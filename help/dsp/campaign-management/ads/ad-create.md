@@ -3,9 +3,9 @@ title: 创建单个广告
 description: 了解如何创建单个第三方广告。
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于广告管理](ad-about.md)
+>* [关于Advertising DSP中的广告管理](ad-about.md)
 >* [创建多个第三方广告](ad-create-multiple.md)
 >* [编辑广告](ad-edit.md)
 >* [广告规范](ad-specs.md)
->* 有关通用视频的[常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)
+>* 关于通用视频的[常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)

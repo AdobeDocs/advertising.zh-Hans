@@ -3,9 +3,9 @@ title: Advertising DSP中的促销活动管理概述
 description: 了解营销活动管理层次结构和组件。
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -48,12 +48,12 @@ In Advertising DSP, an insertion order is represented as a campaign, and line it
 
 >[!MORELIKETHIS]
 >
->* [关于营销活动管理](/help/dsp/campaign-management/campaigns/campaign-about.md)
->* [关于包管理](/help/dsp/campaign-management/packages/package-about.md)
->* [关于版面管理](/help/dsp/campaign-management/placements/placement-about.md)
->* [关于广告管理](/help/dsp/campaign-management/ads/ad-about.md)
+>* [关于Advertising DSP中的营销活动管理](/help/dsp/campaign-management/campaigns/campaign-about.md)
+>* [关于Advertising DSP中的包管理](/help/dsp/campaign-management/packages/package-about.md)
+>* [关于Advertising DSP中的版面管理](/help/dsp/campaign-management/placements/placement-about.md)
+>* [关于Advertising DSP中的广告管理](/help/dsp/campaign-management/ads/ad-about.md)
 >* [营销活动启动项核对清单](/help/dsp/campaign-management/campaign-launch-checklist.md)
 >* [设置效果营销活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)
->* 营销活动管理视图中的[性能报表类型](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [管理您的Campaign数据视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [视频： DSP帐户结构和用户界面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=zh-Hans)
+>* [促销活动管理视图中的性能报告类型](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [管理您的营销活动数据视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [视频： DSP帐户结构和用户界面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

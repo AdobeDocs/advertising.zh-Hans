@@ -3,7 +3,7 @@ title: 查看区段的跟踪像素
 description: 了解如何查看自定义或CCPA选择退出销售区段的跟踪像素。
 feature: DSP Segments
 exl-id: 3b67ab72-d7bb-45a0-b5ba-e4b811b7d2b3
-source-git-commit: 8e3afe50db8f3d0795838c071a01f3c5688f701f
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. 将光标悬停在区段行上并单击&#x200B;**[!UICONTROL Get Pixel]**。
 
-   * 跟踪网页桌面和移动设备访客的页面查看跟踪标记标记为“[!UICONTROL Desktop or mobile websites]”。 对于跟踪[!DNL ID5] ID的区段，将复制标记中的`ID5_PARTNER_ID`替换为[!DNL ID5]在与[!DNL ID5]签署协议时分配给贵组织的合作伙伴ID。 如果您不知道自己的合作伙伴ID，请与您的Adobe客户团队联系。
+   * 跟踪网页桌面和移动设备访客的页面查看跟踪标记标记为“[!UICONTROL Desktop or mobile websites]”。 对于跟踪[!DNL ID5] ID的区段，将复制标记中的`ID5_PARTNER_ID`替换为[!DNL ID5]在与[!DNL ID5]签署协议时分配给贵组织的合作伙伴ID。 如果您不知道自己的合作伙伴ID，请联系您的Adobe客户团队。
 
      将标记添加到要跟踪其视图的页面。
 

@@ -3,9 +3,9 @@ title: 列出与广告关联的投放位置
 description: 了解如何查看与广告关联的投放位置。
 feature: DSP Ads
 exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于广告管理](ad-about.md)
+>* [关于Advertising DSP中的广告管理](ad-about.md)
 >* [编辑广告](ad-edit.md)
 >* [编辑版面](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [查看投放位置的详细报告](/help/dsp/campaign-management/placements/placement-view-report.md)

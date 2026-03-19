@@ -3,9 +3,9 @@ title: Campaign设置
 description: 请参阅可用营销活动设置的描述。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 **[!UICONTROL Packages]：**&#x200B;要包含在营销活动中的[包](/help/dsp/campaign-management/packages/package-about.md)。 选择现有包和/或创建要包含的包。 如果您创建包，请参阅有关[包设置](/help/dsp/campaign-management/packages/package-settings.md)的说明，以了解更多信息。
 
-## [!UICONTROL Campaign Measurement]
+## [!UICONTROL Campaign measurement]
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 ### [!UICONTROL 3rd Party Metrics]
 
-#### [!UICONTROL Viewability, Fraud, & Brand Safety]
+#### [!UICONTROL Viewability, fraud, & brand safety]
 
 **[!UICONTROL IAS]：**（可选）使用指定的设置启用[!DNL IAS]可视性、欺诈、品牌安全和受众验证的测量和报告。 需支付额外费用。
 
@@ -164,7 +164,7 @@ Example JavaScript tag:
 
 >[!MORELIKETHIS]
 >
->* [关于营销活动管理](campaign-about.md)
+>* [关于Advertising DSP中的营销活动管理](campaign-about.md)
 >* [创建营销活动](campaign-create.md)
 >* [编辑营销活动](campaign-edit.md)
 >* [查看营销活动的更改日志](campaign-change-log.md)

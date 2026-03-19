@@ -3,7 +3,7 @@ title: 从 [!DNL LiveRamp]手动导入经过身份验证的区段
 description: 了解如何通过 [!DNL LiveRamp]激活经过身份验证的受众。
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta功能*
 
-您可以使用[!DNL LiveRamp] [!DNL Connect]仪表板手动将经过身份验证的[!DNL LiveRamp]区段发送到DSP。 您可以使用导入的区段进行投放定位。 对于第一方区段，费用为投放的每个显示广告展示0.15美元，投放的每个视频广告展示0.25美元。
+您可以使用[!DNL LiveRamp] [!DNL LiveRamp]仪表板手动将经过身份验证的[!DNL Connect]区段发送到DSP。 您可以使用导入的区段进行投放定位。 对于第一方区段，费用为投放的每个显示广告展示0.15美元，投放的每个视频广告展示0.25美元。
 
 每个导入作业的区段映射和上传可能最多需要7天。
 
@@ -44,5 +44,5 @@ ht-degree: 0%
 >
 >* [关于第一方受众源](source-about.md)
 >* [管理受众源以激活通用ID受众](source-manage.md)
->* [Adobe Advertising DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=zh-Hans)
+>* [Adobe Advertising DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [关于受众管理](/help/dsp/audiences/audience-about.md)

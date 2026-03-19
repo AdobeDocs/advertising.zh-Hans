@@ -1,18 +1,18 @@
 ---
-title: 将投放位置附加到包
+title: 将投放位置附加到资源包
 description: 了解如何将投放位置附加到资源包。
 feature: DSP Packages
 exl-id: dbee2db6-6cb7-4c56-9c14-816ea071b760
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
 
-# 将投放位置附加到包
+# 将投放位置附加到资源包
 
-## 从[!UICONTROL Placements]视图附加新版面
+## 从[!UICONTROL Placements]视图附加新投放位置
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 输入剩余的[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)，然后单击&#x200B;**[!UICONTROL Create Placement]**。
 
-## 从[!UICONTROL Packages]视图附加新的或现有的版面
+## 从[!UICONTROL Packages]视图附加新的或现有的投放位置
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于包管理](package-about.md)
+>* [关于Advertising DSP中的包管理](package-about.md)
 >* [创建包](package-create.md)
 >* [查看包的更改日志](package-change-log.md)
 >* [包设置](package-settings.md)
