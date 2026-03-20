@@ -3,7 +3,7 @@ title: ' [!DNL Baidu] 帐户所需的批量处理工作表数据'
 description: 引用 [!DNL Baidu] 帐户批量工作表中必需的标题字段和数据字段。
 exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
 feature: Search Bulksheets
-source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '1964'
 ht-degree: 0%
@@ -12,19 +12,9 @@ ht-degree: 0%
 
 # 附录 — [!DNL Baidu]帐户必需的批量处理工作表数据
 
-要批量创建和更新[!DNL Baidu]营销活动数据，您可以使用专门为[!DNL Baidu]帐户设置格式的Search、Social和Commerce批量工作表文件。 您可以a) [为现有帐户](../bulksheet-download.md)生成所需文件格式的批量工作表文件，或b)手动创建这些文件（有关支持的文件格式的一般信息，请参阅[支持的批量工作表文件格式](bulksheet-file-formats.md)）。
+要批量创建和更新[!DNL Baidu]营销活动数据，您可以使用专门为[!DNL Baidu]帐户设置格式的Search、Social和Commerce批量工作表文件。 您可以a)[为现有帐户](../bulksheet-download.md)生成所需文件格式的批量工作表文件，或b)手动创建这些文件（有关支持的文件格式的一般信息，请参阅[支持的批量工作表文件格式](bulksheet-file-formats.md)）。
 
 {{$include /help/_includes/bulksheet-appendices-intro.md}}
-
-<!-- Hiding because this is probably too long a list to be useful.
-
-## Available header fields
-
-Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), Ad Serving (Baidu),Ad Group Name,Max CPC,Keyword,Match Type,Ad Title,Description Line 1,Description Line 2,Display URL,Base URL,Destination URL,Custom URL Param,Campaign Status,Ad Group Status,Keyword Status,Ad Status,Location Status,[Advertiser-specific Label Classification],Campaign ID,Ad Group ID,Keyword ID,Ad ID,AMO ID,Error Message
-
-{{$include /help/_includes/bulksheet-headers-note.md}}
-
--->
 
 ## 可用的数据字段
 
@@ -69,7 +59,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 | [!UICONTROL EF Error Message] | 不适用 | 不适用 | 不适用 | 不适用 | 不适用 | （出于提供信息的目的，包含在生成的批量处理工作表中）用于显示来自搜索、社交和Commerce中有关行中数据的错误消息的占位符；错误消息包含在[!UICONTROL EF Errors]文件中。 此值未发布到广告网络。 |
 | [!UICONTROL SE Error Message] | 不适用 | 不适用 | 不适用 | 不适用 | 不适用 | （出于信息目的包含在生成的批量工作表中）用于显示来自广告网络的关于行中数据的错误消息的占位符；错误消息包含在[!UICONTROL SE Errors]文件中。 此值未发布到广告网络。 |
 
-[^1]： Excel在打开文件时将大数转换为科学记号(如2.12E+09 for 2115585666)。 要查看标准表示法的位数，请选择列中的任意单元格，然后在公式栏中单击。
+[^1]： Excel在打开文件时将大数转换为科学记号（如2.12E+09 for 2115585666）。 要查看标准表示法的位数，请选择列中的任意单元格，然后在公式栏中单击。
 
 >[!MORELIKETHIS]
 >
@@ -77,5 +67,5 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 >* [可在批量处理工作表中执行的操作](bulksheet-operations.md)
 >* [支持的批量处理工作表文件格式](bulksheet-file-formats.md)
 >* [下载/创建批量处理工作表文件](../bulksheet-download.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的点击跟踪格式
+>* [的 [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)点击跟踪格式
 >* [上载批量工作表文件或更正的错误文件](../bulksheet-upload.md)

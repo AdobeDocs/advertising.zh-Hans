@@ -3,7 +3,7 @@ title: ' [!DNL Yahoo! Display Network] 帐户的批量工作表数据'
 description: 引用 [!DNL Yahoo! Display Network] 帐户的已下载批量处理工作表中的标题字段和数据字段。
 exl-id: 8d938009-6edc-4420-8863-21ed241616f8
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -17,16 +17,6 @@ ht-degree: 0%
 -->
 
 您可以批量下载[!DNL Yahoo! Display Network]帐户的数据，但无法将批量工作表上传或发布到广告网络。
-
-<!-- Hiding because this is probably too long a list to be useful.
-
-## Available header fields
-
-The following example shows data in comma-delimited values. If you're using tab-separated values, then the data looks different.
-
-Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Line 1,Description Line 2,Base URL/Final URL,Destination URL,[Advertiser-specific Label Classification],Bid Rules,Constraints,Campaign Status,Ad Group Status,Ad Status,Campaign ID,Ad Group ID,Ad ID,AMO ID,EF Error Message
-
--->
 
 ## 可用的数据字段
 
@@ -50,7 +40,7 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 | [!UICONTROL Campaign ID] | 如果包含 | 如果包含 | 如果包含 | 标识现有营销活动的唯一ID。 |
 | [!UICONTROL Ad Group ID] | 不适用 | 如果包含 | 如果包含 | 标识现有广告组的唯一ID。 |
 | [!UICONTROL Keyword ID] | 不适用 | 不适用 | 如果包含 | 标识现有关键字的唯一ID。 |
-| [!UICONTROL AMO ID] | 不适用 | 不适用 | 不适用 | （在生成的批量工作表中）同步实体的Adobe生成的唯一标识符。 |
+| [!UICONTROL AMO ID] | 不适用 | 不适用 | 不适用 | （在生成的批量工作表中）Adobe为同步实体生成的唯一标识符。 |
 | [!UICONTROL EF Error Message] | 不适用 | 不适用 | 不适用 | （出于提供信息的目的，包含在生成的批量处理工作表中）用于显示来自搜索、社交和Commerce中有关行中数据的错误消息的占位符；错误消息包含在[!UICONTROL EF Errors]文件中。 |
 
 >[!MORELIKETHIS]

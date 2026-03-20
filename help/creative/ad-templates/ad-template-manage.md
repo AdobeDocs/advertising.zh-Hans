@@ -2,16 +2,17 @@
 title: 管理动态广告模板
 description: 了解如何管理动态广告模板以及如何从这些模板创建广告。
 feature: Creative Templates
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+exl-id: 248f1467-ebd3-47f2-a24c-043bbfadcc6e
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
 
 # 管理动态广告模板
 
-通过上传具有所需广告格式的压缩HTML5文件，为广告类型(静态HTML5或动态HTML5)和广告大小的每个组合创建单独的广告模板。 对于动态HTML5广告，您还可以上传包含广告属性<!-- more clarification? -->的文件。
+通过上传具有所需广告格式的压缩HTML5文件，为广告类型（静态HTML5或动态HTML5）和广告大小的每个组合创建单独的广告模板。 对于动态HTML5广告，您还可以上传包含广告属性<!-- more clarification? -->的文件。
 
 <!-- add this where/how?: You can use the same feed template for multiple ad templates. -->
 
@@ -57,7 +58,7 @@ ht-degree: 0%
 
 1. 将光标悬停在广告模板行上并单击&#x200B;**[!UICONTROL Delete]**。
 
-1. 在确认消息中，单击&#x200B;**[!UICONTROL Delete]**.<!-- Confirm -->
+1. 在确认消息中，单击&#x200B;**[!UICONTROL Delete]**。
 
 ## 从广告模板创建动态广告
 
@@ -87,13 +88,9 @@ ht-degree: 0%
 
 **[!UICONTROL Description]**： （可选）对使用广告模板的任何人都有用的信息。
 
-<!-- I don't see this on 9/24:
+### （静态HTML5广告模板）单击标记
 
-### (Static HTML5 ad templates) Click Tags
-
-**\[Click Tag Parameter\]**: The click tag parameters to allow click-tracking redirects from ads created using the ad template. To add a parameter, click **[!UICONTROL + Add More]** and enter an additional parameter. You can include up to five parameters.
-
--->
+**\[单击标记参数\]**：单击标记参数允许从使用广告模板创建的广告进行点击跟踪重定向。 要添加参数，请单击&#x200B;**[!UICONTROL + Add More]**&#x200B;并输入其他参数。 您最多可以包含五个参数。
 
 ### HTML5 zip
 
@@ -107,11 +104,9 @@ ht-degree: 0%
 
 1. 在您的设备或网络上找到文件。
 
-### (Dynamic HTML5广告模板)属性文件
+### （Dynamic HTML5广告模板）属性文件
 
-<!-- EXPLAIN -->包含广告模板属性的文件。 如果已上载文件，则会列出文件名。
-
-<!-- Add specs for this file type -->
+<!-- EXPLAIN and ad specs below for this file type -->包含广告模板属性的文件。 如果已上载文件，则会列出文件名。
 
 要上传文件，请执行以下操作：
 
@@ -126,4 +121,3 @@ ht-degree: 0%
 >* [管理馈送模板](/help/creative/feeds/feed-template-manage.md)
 >* [管理目录](/help/creative/feeds/catalog-manage.md)
 >* [将动态创意添加到创意库](/help/creative/creative-libraries/creative-add-dynamic.md)
-

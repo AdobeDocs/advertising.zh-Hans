@@ -3,7 +3,7 @@ title: ' [!DNL Naver] 帐户所需的批量处理工作表数据'
 description: 引用 [!DNL Naver] 帐户批量工作表中必需的标题字段和数据字段。
 exl-id: 1bfcdbb6-8026-4230-ab6b-b7c79b0d185a
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 0%
@@ -15,16 +15,6 @@ ht-degree: 0%
 通过在[!DNL Naver]内生成批量工作表文件，然后将其上传到Search、Social和Commerce，在Search、Social和Commerce中填充您的[!DNL Naver]帐户。
 
 {{$include /help/_includes/bulksheet-appendices-intro.md}}
-
-<!-- Hiding because this is probably too long a list to be useful.
-
-## Available header fields
-
-Platform,Acct Name,Campaign Name,Ad Group Name,Keyword,Base URL,Destination URL,[Advertiser-specific Label Classification],Constraints,Campaign Status,Ad Group Status,Keyword Status,Campaign ID,Ad Group ID,Keyword ID,AMO ID,Error Message
-
-{{$include /help/_includes/bulksheet-headers-note.md}}
-
--->
 
 ## 可用的数据字段
 
@@ -51,7 +41,7 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Keyword,Base URL,Destination URL,
 | [!UICONTROL EF Error Message] | 不适用 | 不适用 | 不适用 | （出于提供信息的目的，包含在生成的批量处理工作表中）用于显示来自搜索、社交和Commerce中有关行中数据的错误消息的占位符；错误消息包含在[!UICONTROL EF Errors]文件中。 此值未发布到广告网络。 |
 | [!UICONTROL SE Error Message] | 不适用 | 不适用 | 不适用 | （出于信息目的包含在生成的批量工作表中）用于显示来自广告网络的关于行中数据的错误消息的占位符；错误消息包含在[!UICONTROL SE Errors]文件中。 此值未发布到广告网络。 |
 
-[^1]： Excel在打开文件时将大数转换为科学记号(如2.12E+09 for 2115585666)。 要查看标准表示法的位数，请选择列中的任意单元格，然后在公式栏中单击。
+[^1]： Excel在打开文件时将大数转换为科学记号（如2.12E+09 for 2115585666）。 要查看标准表示法的位数，请选择列中的任意单元格，然后在公式栏中单击。
 
 >[!MORELIKETHIS]
 >
@@ -59,6 +49,6 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Keyword,Base URL,Destination URL,
 >* [可在批量处理工作表中执行的操作](bulksheet-operations.md)
 >* [支持的批量处理工作表文件格式](bulksheet-file-formats.md)
 >* [下载/创建批量处理工作表文件](../bulksheet-download.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的点击跟踪格式
+>* [的 [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)点击跟踪格式
 >* [上载批量工作表文件或更正的错误文件](../bulksheet-upload.md)
 >* [实施 [!DNL Naver] 仅跟踪帐户](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
