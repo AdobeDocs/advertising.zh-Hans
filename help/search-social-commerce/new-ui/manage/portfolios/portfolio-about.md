@@ -4,7 +4,7 @@ description: 了解项目组合。
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
-source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
@@ -64,7 +64,8 @@ ht-degree: 0%
 
 <!-- Update with any new options -->
 
-<!-- within row:
+<!--
+ within row:
 * [Rename a portfolio](portfolio-rename.md)
 
 * [View the constraints for a portfolio](portfolio-view-constraint.md)

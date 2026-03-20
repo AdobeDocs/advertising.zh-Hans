@@ -4,7 +4,7 @@ description: 了解项目组合模拟。
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 2fbefee2-f8f7-4b3d-a039-e1ca0236c61a
-source-git-commit: 73528e2aa905216584d1aa294f5581d2bca88432
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 0%
@@ -17,7 +17,8 @@ ht-degree: 0%
 
 模拟报表显示项目组合在不同支出（成本）水平和相应的每日预算或其他目标下预计的边际成本与目标值、成本、点击次数和目标值。 您可以选择[自定义视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)以查看其他流量量度、模拟设置以及仅查看特定模拟类型（[!UICONTROL Weekly]或[!UICONTROL Custom]）。
 
-<!-- Not available as of 6/21/25:
+<!--
+ Not available as of 6/21/25:
 When the portfolio has a daily budget, you can optionally change the portfolio's spend target to any of the spend targets listed in the simulation.
 -->
 

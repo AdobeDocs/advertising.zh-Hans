@@ -2,7 +2,7 @@
 title: 广告商帐户设置
 description: 请参阅可用广告商设置的描述。
 role: User, Admin
-source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
@@ -61,7 +61,8 @@ ht-degree: 0%
 * 在Adobe Experience Platform中创建并通过Audience Manager发送到Adobe Advertising的区段
 
 初始同步大约需要24小时。 之后，数据实时同步，延迟为1到2秒。
-<!-- I don't think this is true anymore:
+<!--
+ I don't think this is true anymore:
 Segment membership data is sent to Adobe Advertising only after one of the following:
 
 * The segment is targeted in an Adobe Advertising placement or audience library
@@ -132,19 +133,19 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ###### 视频
 
-**&#x200B;**&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**。 使用此选项，选择标准。
+****[!UICONTROL Include URL's whose average video viewability rate is]**。 使用此选项，选择标准。
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**&#x200B;**&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**。 使用此选项，选择标准。
+****[!UICONTROL Include URL's whose average completion & fully viewable rate is]**。 使用此选项，选择标准。
 
-**&#x200B;**&#x200B;[!UICONTROL Include URL's whose average player size composition is]**。 使用此选项，选择标准。
+****[!UICONTROL Include URL's whose average player size composition is]**。 使用此选项，选择标准。
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### 显示
 
-**&#x200B;**&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**。 使用此选项，选择标准。
+****[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**。 使用此选项，选择标准。
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 

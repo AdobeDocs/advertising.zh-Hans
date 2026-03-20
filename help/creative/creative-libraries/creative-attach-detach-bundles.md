@@ -3,7 +3,7 @@ title: 将创意内容附加到创意捆绑包
 description: 了解如何将创意内容附加到创意捆绑包。
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: 0bcbd20437457ddafbd23969fbc48093e050ca2f
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
@@ -24,7 +24,8 @@ You can also detach a creative from a bundle to remove the association between t
 >
 >您可以<!-- also --> [将创意内容附加到捆绑中，并将创意内容从捆绑视图中分离](/help/creative/creative-libraries/bundle-manage.md)。
 
-<!-- Hide header until second procedure is available (if we add that):
+<!--
+ Hide header until second procedure is available (if we add that):
 
 ## Attach creatives to creative bundles
 
@@ -48,7 +49,8 @@ You can also detach a creative from a bundle to remove the association between t
 
 1. 在右框架中，选中要附加创意的每个包旁边的复选框，然后单击&#x200B;**[!UICONTROL Attach Creative to Bundle]**。
 
-<!-- Verify and edit all of the following, including the command names and where they're available -- not in UI yet as of 1/17. I'm not sure what the UI will really look like.
+<!--
+ Verify and edit all of the following, including the command names and where they're available -- not in UI yet as of 1/17. I'm not sure what the UI will really look like.
 
 ## Detach creatives from a creative bundle
 
@@ -72,7 +74,8 @@ You can also detach a creative from a bundle to remove the association between t
 
 -->
 
-<!-- What this should be like, but I don't think this will be implemented:
+<!--
+ What this should be like, but I don't think this will be implemented:
 
 1. Select the creative:
 

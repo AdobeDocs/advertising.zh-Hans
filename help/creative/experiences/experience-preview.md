@@ -3,7 +3,7 @@ title: 预览体验
 description: 了解如何在广告体验中预览创意内容。
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    * 对于计划的广告轮换，将显示计划中的第一个创意内容。 您可以继续刷新预览以继续完成序列。
 
-   * 对于加权广告轮换，每次都根据指定的权重(例如，显示Creative A的概率为80%，显示Creative B的概率为20%)来选择创意。
+   * 对于加权广告轮换，每次都根据指定的权重（例如，显示Creative A的概率为80%，显示Creative B的概率为20%）来选择创意。
 
 ## 使用决策树定位预览体验中的创意
 
@@ -52,7 +52,8 @@ ht-degree: 0%
 
       1. 选择广告大小。
 
-     <!-- I don't see this as of 2/3:
+     <!--
+      I don't see this as of 2/3:
      1. Select whether to group the creatives by Rotation Type or Ad Size.
      -->
 
@@ -60,7 +61,8 @@ ht-degree: 0%
 
    * 要预览体验中的所有创意内容，请单击&#x200B;**[!UICONTROL Entire Tree]**。
 
-     <!-- I don't see this as of 2/3:
+     <!--
+      I don't see this as of 2/3:
      1. Click **[!UICONTROL Entire Tree]**.
      1. Select the ad size.
      1. Select whether to group the creatives by Rotation Type or Ad Size.

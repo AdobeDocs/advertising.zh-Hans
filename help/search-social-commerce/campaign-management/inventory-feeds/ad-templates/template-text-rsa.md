@@ -3,7 +3,7 @@ title: 库存馈送的文本广告和响应式搜索广告模板设置
 description: 引用库存馈送的文本广告和响应式搜索广告模板的设置。
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '3360'
 ht-degree: 0%
@@ -109,7 +109,9 @@ ht-degree: 0%
 
   （[!DNL Google Ads]个营销活动）要包括[!DNL Google Ads]个搜索合作伙伴的列表投标，请选中&#x200B;**[!UICONTROL Search partners]**&#x200B;旁边的复选框。
 
-* *[!UICONTROL Content]：*&#x200B;要对内容（显示）网络列表上的投放位置投标。 **注意：**&#x200B;您无法使用模板创建版面。 选择此选项时，请使用<!-- insert link -->批量工作表或<!-- insert links --> > [!UICONTROL Search]视图中的[!UICONTROL Campaigns]广告组和版面设置，为每个广告组创建版面，并指定显示网络上要为每个广告组定位的页面。
+* *[!UICONTROL Content]：*&#x200B;要对内容（显示）网络列表上的投放位置投标。 **注意：**&#x200B;您无法使用模板创建版面。 选择此选项时，请使用[!UICONTROL Search] > [!UICONTROL Campaigns]视图中的批量工作表或广告组和版面设置，为每个广告组创建版面，并指定显示网络上要为每个广告组定位的页面。
+
+<!-- insert links above -->
 
 **[!UICONTROL Languages]：** （仅限[!DNL Google Ads]个搜索和显示网络）促销活动中广告的一个或多个目标语言。
 
@@ -219,7 +221,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Apply to Existing Keywords: Constant]：**&#x200B;除了从信息源创建新关键字外，Search、Social和Commerce还会更新广告组中所有现有关键字（不是使用模板创建的）的参数值。 输入用于所有这些关键字的单个数值。 模板必须至少包含一个关键字。
 
-* **[!UICONTROL Apply to Existing Keywords: Min]：**&#x200B;除了从信息源创建新关键字外，Search、Social和Commerce还会更新广告组中所有现有关键字（不是使用模板创建的）的参数值，前提是信息源文件包含参数的数字值，最多包含一个小数点，但不包含逗号、货币符号或代码或任何其他字符。 馈送文件中参数的最小值用于所有现有关键词。 例如，如果信息源文件具有[!UICONTROL Param1]个值(21500和22000)，则现有关键字的[!UICONTROL Param1]值将更改为21500。 模板必须至少包含一个关键字。 **提示：**&#x200B;只有在您严格设置了广告组主题以便关键字具有相同的值时才使用此选项。
+* **[!UICONTROL Apply to Existing Keywords: Min]：**&#x200B;除了从信息源创建新关键字外，Search、Social和Commerce还会更新广告组中所有现有关键字（不是使用模板创建的）的参数值，前提是信息源文件包含参数的数字值，最多包含一个小数点，但不包含逗号、货币符号或代码或任何其他字符。 馈送文件中参数的最小值用于所有现有关键词。 例如，如果信息源文件具有[!UICONTROL Param1]个值（21500和22000），则现有关键字的[!UICONTROL Param1]值将更改为21500。 模板必须至少包含一个关键字。 **提示：**&#x200B;只有在您严格设置了广告组主题以便关键字具有相同的值时才使用此选项。
 
 馈送文件中的数据字段最长可包含25个字符，并且只能由具有以下非数字字符的数字数据组成：
 
@@ -239,7 +241,7 @@ ht-degree: 0%
 
 **[!UICONTROL Param 3]：** （仅限[!DNL Microsoft Advertising]模板）在标题、文本、显示URL或最终URL包含`{Param3}`动态替换字符串时，用作广告中替换值的字符串。 最大长度为70个字符，但请注意，在其中使用它的广告元素的最大长度（例如，广告标题最多可包含25个字符）。
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]：**&#x200B;具有指定匹配类型或广告类型的每个关键字的初始出价。
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]：**&#x200B;具有指定匹配类型或广告类型的每个关键字的初始出价。
 
 ## [!UICONTROL Ads]
 
@@ -259,7 +261,7 @@ ht-degree: 0%
 
 {{inventory-feed-template-insert-ad-customizer}}
 
-**[!UICONTROL Ad Title]：** (现有Microsoft Advertising标准文字广告仅限；只读)广告的标题或第一行。 Microsoft Advertising已弃用创建和编辑标准文字广告。
+**[!UICONTROL Ad Title]：** （现有Microsoft Advertising标准文字广告仅限；只读）广告的标题或第一行。 Microsoft Advertising已弃用创建和编辑标准文字广告。
 
 **[!UICONTROL Headline 1]**，**[!UICONTROL Headline 2]：** （仅[!DNL Google Ads]和[!DNL Yahoo! Japan Ads]扩展/扩展文本广告模板）广告的标题。 每行的最大长度（替换任何动态参数后）为30个字符或15个双字节字符。
 
@@ -271,19 +273,19 @@ ht-degree: 0%
 
 **[!UICONTROL Title]：** （仅限[!DNL Yandex]）广告的标题或第一行。 最多为33个字符。
 
-**[!UICONTROL Title Part 1]**，**[!UICONTROL Title Part 2]：** (Microsoft Advertising仅扩展了文本广告)广告的标题。 每行的最大长度（替换任何动态参数后）为30个字符或15个双字节字符。
+**[!UICONTROL Title Part 1]**，**[!UICONTROL Title Part 2]：** （Microsoft Advertising仅扩展了文本广告）广告的标题。 每行的最大长度（替换任何动态参数后）为30个字符或15个双字节字符。
 
 <!-- using a snippet for the note instead of an include because this is used multiple times on the page, which ExL doesn't support for includes -->
 
 {{inventory-feed-template-insert-dynamic-parameter}}
 
-**[!UICONTROL Ad Text]：** (Microsoft Advertising仅扩展了文字广告)广告正文。 最大长度（替换任何动态参数后）为80个字符或40个双字节字符（例如中文、日语和韩语）。
+**[!UICONTROL Ad Text]：** （Microsoft Advertising仅扩展了文字广告）广告正文。 最大长度（替换任何动态参数后）为80个字符或40个双字节字符（例如中文、日语和韩语）。
 
 ### [!UICONTROL Descriptions]
 
 **[!UICONTROL Description]：**&#x200B;广告正文。
 
-* (Google Ads扩展的文本广告模板)最大长度（替换任何动态参数后）为90个字符或45个双字节字符。
+* （Google Ads扩展的文本广告模板）最大长度（替换任何动态参数后）为90个字符或45个双字节字符。
 
 * (Yahoo！ 日本广告模板)最大长度（替换任何动态参数后）为80个字符或40个双字节字符。
 
@@ -303,7 +305,7 @@ ht-degree: 0%
 
 {{inventory-feed-template-insert-ad-customizer}}
 
-**[!UICONTROL Description 2]：** (Google仅扩展了文本广告模板；可选)广告的第二行。 最大长度（替换任何动态参数后）为90个字符或45个双字节字符。
+**[!UICONTROL Description 2]：** （Google仅扩展了文本广告模板；可选）广告的第二行。 最大长度（替换任何动态参数后）为90个字符或45个双字节字符。
 
 ### [!UICONTROL Path]
 

@@ -3,7 +3,7 @@ title: 关于使用批量处理工作表管理营销活动数据
 description: 了解广告网络、批量处理工作表工作流和错误处理可用的批量处理工作表功能。
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
@@ -38,7 +38,8 @@ ht-degree: 0%
 
 将批量工作表用于已同步帐户的标准步骤如下：
 
-<!-- insert image
+<!--
+ insert image
   [EDIT/RECREATE FILE to replace "search engine"]
 -->
 

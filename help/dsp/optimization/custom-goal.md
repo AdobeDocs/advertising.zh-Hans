@@ -3,7 +3,7 @@ title: 自定义目标
 description: 了解自定义目标，以定义针对最低CPA或最高ROAS优化的包中的成功事件。
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
@@ -14,7 +14,8 @@ ht-degree: 0%
 
 自定义目标定义广告商实现其业务目标所需的成功事件。 每个使用优化目标“[!UICONTROL Highest Return on Ad Spend (ROAS)"]”或“[!UICONTROL Lowest Cost per Acquisition (CPA)]”的包都必须包含一个自定义目标，以帮助实现整体优化目标。 您可以在&#x200B;*中创建自定义目标作为*&#x200B;目标[!DNL Advertising Search, Social, & Commerce]。 DSP每个目标的名称必须以“ADSP_”为前缀。
 
-<!-- update image or omit it
+<!--
+ update image or omit it
 
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
@@ -78,7 +79,8 @@ ht-degree: 0%
 
 如果您的促销活动目标是收入([!UICONTROL Highest Return on Ad Spend (ROAS)])，并且所有设备类型的收入对您而言同样重要，则请包含非移动权重为1 (1)的“[!UICONTROL Revenue]”量度；将忽略移动权重。 选择量度类型&#x200B;*[!UICONTROL Goal]*。
 
-<!-- update image or delete 
+<!--
+ update image or delete 
 
 ![example of a ROAS custom goal with a single conversion metric](/help/dsp/assets/custom-goal-roas.png)
 
@@ -92,7 +94,8 @@ ht-degree: 0%
 
 如果您的促销活动目标是每次客户获取的最低成本(CPA)，并且它只需要一个成功事件（例如“应用程序提交”），则请包含该量度并将量度类型指定为&#x200B;*[!UICONTROL Goal]*。 最佳实践是将非移动权重设置为一(1)；忽略移动权重。
 
-<!-- update image or delete 
+<!--
+ update image or delete 
 
 ![example of a CPA custom goal with a single conversion metric](/help/dsp/assets/custom-goal-roas.png)
 
@@ -108,7 +111,8 @@ ht-degree: 0%
 
 * 您的营销活动目标有多个成功事件。 例如，您可能在为多个网站操作（PDF下载、联系我们，以及电子邮件注册）打广告，所有这些操作都有助于您的CPA目标。 如果目标包括三个单独的量度，每个量度的非移动权重为1，则[!DNL Adobe AI]支持的算法会将每个量度和用户设备类型视为同等重要性。 如果不同量度的成本或重要性不同，请相应地调整其相对权重。
 
-<!-- update image or delete it and adjust the wording above
+<!--
+ update image or delete it and adjust the wording above
 
    ![example of a custom goal with multiple metrics](/help/dsp/assets/custom-goal-multiple-properties.png)
 
@@ -120,7 +124,8 @@ ht-degree: 0%
 
   以下示例目标包括三个指标，每个指标具有不同的非移动权重：应用程序提交= 1，应用程序开始= 0.1，广告商登陆页面= 0.01。这意味着，每个应用程序提交转化对贵企业的价值与平均10次应用程序开始转化和100次广告商登陆页面转化相同。
 
-<!-- update image or delete it and adjust the wording above
+<!--
+ update image or delete it and adjust the wording above
 
    ![example of a custom goal with multiple metrics](/help/dsp/assets/custom-goal-multiple-properties2.png)
 

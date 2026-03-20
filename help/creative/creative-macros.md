@@ -3,7 +3,7 @@ title: 可用于跟踪URL的宏
 description: 引用可添加到登陆页面URL、跟踪URL和第三方创意内容的宏。
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -18,7 +18,8 @@ ht-degree: 0%
 
 一些可用的宏或其等效宏会自动包含在体验标记中。
 
-<!-- Later: 
+<!--
+ Later: 
 
 | Macro | Description | Automatically in experience tags for Advertising DSP? | Automatically in experience tags for [!DNL Google Campaign Manager 360]? |
 | --- | --- | --- | --- |
@@ -55,4 +56,4 @@ ht-degree: 0%
 >* [将标准创意添加到创意库](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [标准创意设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* [目标体验设置](/help/creative/experiences/experience-settings-targeting.md)
->  &#x200B;>*[非目标体验设置](/help/creative/experiences/experience-settings-no-targeting.md)
+>*[非目标体验设置](/help/creative/experiences/experience-settings-no-targeting.md)

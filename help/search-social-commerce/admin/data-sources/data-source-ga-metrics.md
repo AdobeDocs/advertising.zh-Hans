@@ -4,9 +4,9 @@ description: 引用可用于数据源的 [!DNL Google Analytics] 指标。
 role: User, Admin
 exl-id: 434c569d-7869-4874-90a5-5af18bc8157e
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,8 @@ ht-degree: 0%
 
 在[!DNL Google Analytics]中的客户实施中启用以下量度时，除了上述排除项外，这些量度均可用。
 
-<!-- Notes as FYI to self:
+<!--
+ Notes as FYI to self:
 >[!NOTE]
 >
 >* For some of these metrics, [!DNL Google] assigns the friendly name, and the name is consistent. For some metrics, the advertiser assigns the friendly name in [!DNL Google Analytics], and the name has a dynamic value.
@@ -25,16 +26,16 @@ ht-degree: 0%
 | 类别 | 已排除 | 评论 |
 | ---- | ---- | ---- |
 | \[全部\] | 数据类型为“PERCENT”的指标 | 始终排除以百分比显示的量度。 |
-| 用户 | ga：1dayUsers， ga：7dayUsers， ga：14dayUsers， ga：28dayUsers， ga：sessionsPerUser | — |
-| 会话 | ga：uniqueDimensionCombinations | — |
+| 用户 | ga:1dayUsers，ga:7dayUsers，ga:14dayUsers，ga:28dayUsers，ga:sessionsPerUser | — |
+| 会话 | ga:uniqueDimensionCombinations | — |
 | 目标转化 | — | — |
-| 页面跟踪 | ga：entraces， ga：timeOnPage， ga：exits | — |
+| 页面跟踪 | ga:entrances， ga:timeOnPage， ga:exits | — |
 | 内部搜索 | — | 内部搜索中所有量度的友好名称前面加有值“InternalSearch： ” |
 | 事件跟踪 | — | — |
 | 电子商务 | — | — |
 | 社交 | — | — |
 | 例外 | — | — |
-| 自定义变量或列 | ga：calcMetric_* | 计算量度始终被排除。 |
+| 自定义变量或列 | ga :calcMetric_* | 计算量度始终被排除。 |
 
 >[!MORELIKETHIS]
 >

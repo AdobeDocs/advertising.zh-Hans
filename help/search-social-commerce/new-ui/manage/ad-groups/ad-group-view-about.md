@@ -4,7 +4,7 @@ description: 了解您可以在[!UICONTROL Ad Groups]视图中执行的操作。
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 10922ae6-b2b5-4498-bc6a-424f3249e16a
-source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
@@ -19,7 +19,8 @@ ht-degree: 0%
 
 ## 可用操作
 
-<!-- Not available as of 3/4/26:
+<!--
+ Not available as of 3/4/26:
 
 * [View a performance graph across all ad groups in the view](ad-group-view-performance-graph.md)
 -->

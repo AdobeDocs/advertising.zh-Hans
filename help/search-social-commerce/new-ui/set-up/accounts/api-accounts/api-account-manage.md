@@ -2,7 +2,8 @@
 title: （新UI）管理广告网络帐户
 description: 了解如何在新UI中为通过广告网络API同步的广告网络设置和管理帐户详细信息。
 feature: Search Campaign Management
-source-git-commit: e62eb730ec88a37cbe34e35d7b9bf99e0d4fd41d
+exl-id: a50b2943-7568-401c-be5b-ff6f62629488
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '2129'
 ht-degree: 0%
@@ -133,7 +134,8 @@ ht-degree: 0%
 
 帐户设置因广告网络而异。 您可能看不到以下所有设置。
 
-<!-- When you're creating new accounts only; not sure that you'll have anything to do here once you've authenticated
+<!--
+ When you're creating new accounts only; not sure that you'll have anything to do here once you've authenticated
 
 ### Authenticate tab
 
@@ -147,7 +149,7 @@ ht-degree: 0%
 >
 >如果您集成了“搜索”、“Social”和“Commerce-Adobe Analytics”，并更改了搜索帐户的名称，请让您的Adobe帐户团队更新映射。
 
-**[!DNL [广告网络]帐户]：** （在创建帐户时可见）要同步的广告网络帐户。
+**[！DNL [广告网络]帐户]：** （在创建帐户时可见）要同步的广告网络帐户。
 
 **[登录详细信息]：** （仅限Yandex帐户）要使用的帐户凭据：
 
@@ -190,7 +192,7 @@ ht-degree: 0%
 >* 如果更改此设置，则必须为帐户重新生成跟踪URL。
 >* 营销活动级别的跟踪选项会覆盖帐户级别的设置。
 
-**[!UICONTROL Tracking Type]：** (启用搜索、社交和Commerce跟踪时)将最终用户重定向到最终URL或目标URL的方法。 所选选项适用于帐户或营销活动中的所有竞价单位。 默认帐户级别设置继承自广告商的跟踪设置，默认营销活动级别设置继承自帐户设置。
+**[!UICONTROL Tracking Type]：** （启用搜索、社交和Commerce跟踪时）将最终用户重定向到最终URL或目标URL的方法。 所选选项适用于帐户或营销活动中的所有竞价单位。 默认帐户级别设置继承自广告商的跟踪设置，默认营销活动级别设置继承自帐户设置。
 
 * *[!UICONTROL Standard]：*&#x200B;仅将最终用户重定向到指定的URL。
 
@@ -201,13 +203,13 @@ ht-degree: 0%
 >* 如果您从[!UICONTROL Standard]切换到[!UICONTROL Token]，或者反之，则必须重新生成帐户的跟踪URL。
 >* 您可以在营销策划级别覆盖帐户级别设置。
 
-**[!UICONTROL Auto Update]：** (启用搜索、社交和Commerce跟踪时)标准化您的跟踪URL以实现跨浏览器和服务器的兼容性。 Search、Social和Commerce会在下次同步期间自动将以下内容上传到广告网络：(a)用于跟踪模板的搜索、Social和Commerce跟踪参数以及附加到最终URL的相同参数，或者(b)嵌入了Search、Social和Commerce跟踪代码的新目标URL。 对于具有[Adobe Advertising-Adobe Analytics集成](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hans)和服务器端AMO ID (s_kwcid)配置的广告商，该上传还包括您的[和](/help/integrations/analytics/ids.md#amo-id)帐户的[!DNL Google Ads]AMO ID参数[!DNL Microsoft Advertising]。 默认帐户级别设置继承自广告商的跟踪设置。 您可以在营销策划级别覆盖帐户级别设置。
+**[!UICONTROL Auto Update]：** （启用搜索、社交和Commerce跟踪时）标准化您的跟踪URL以实现跨浏览器和服务器的兼容性。 Search、Social和Commerce会在下次同步期间自动将以下内容上传到广告网络：(a)用于跟踪模板的搜索、Social和Commerce跟踪参数以及附加到最终URL的相同参数，或者(b)嵌入了Search、Social和Commerce跟踪代码的新目标URL。 对于具有[Adobe Advertising-Adobe Analytics集成](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)和服务器端AMO ID (s_kwcid)配置的广告商，该上传还包括您的[和](/help/integrations/analytics/ids.md#amo-id)帐户的[!DNL Google Ads]AMO ID参数[!DNL Microsoft Advertising]。 默认帐户级别设置继承自广告商的跟踪设置。 您可以在营销策划级别覆盖帐户级别设置。
 
 跟踪URL每天只更新不同步的实体（即添加的新实体和属性已更改的现有实体）。 因此，如果您将现有广告商/帐户/营销活动的此设置从“禁用”更改为“启用”，则不会为已同步的现有实体更新跟踪URL。 要将跟踪添加到现有已同步实体的URL，请联系您的Adobe客户团队，并请求执行一次性的手动同步过程。 自动上传流程将处理未来的更改。
 
-**[!UICONTROL URL Encoding]：** (启用搜索、社交和Commerce跟踪时；帐户仅具有目标URL)对最终用户浏览器地址栏中的基本URL进行编码（如`%3D`而不是`=`）：
+**[!UICONTROL URL Encoding]：** （启用搜索、社交和Commerce跟踪时；帐户仅具有目标URL）对最终用户浏览器地址栏中的基本URL进行编码（如`%3D`而不是`=`）：
 
-**[!UICONTROL Tracking Level]：** (启用搜索、社交和Commerce跟踪时；适用于帐户和营销活动级别；不适用于启用并行跟踪的广告网络)应通过添加重定向（在相关时）并将参数附加到相关URL来跟踪点击次数和收入的级别：
+**[!UICONTROL Tracking Level]：** （启用搜索、社交和Commerce跟踪时；适用于帐户和营销活动级别；不适用于启用并行跟踪的广告网络）应通过添加重定向（在相关时）并将参数附加到相关URL来跟踪点击次数和收入的级别：
 
 * *[!UICONTROL Keyword]：*&#x200B;只跟踪关键字级别的数据。 对[!DNL Yandex]不可用。
 
@@ -219,7 +221,7 @@ ht-degree: 0%
 
 示例： `param1=value1&param2=value2`
 
-使用Adobe Advertising点击跟踪的帐户必须在后缀中包含广告网络的点击标识符(`msclkid`为[!DNL Microsoft Advertising]；Google为`gclid`)。 具有Adobe Analytics集成的帐户必须使用AMO ID参数（以`s_kwcid`开头）。 如果该帐户具有服务器端AMO ID实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 查看[的 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)必需后缀格式和[的 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)必需后缀格式。
+使用Adobe Advertising点击跟踪的帐户必须在后缀中包含广告网络的点击标识符（`msclkid`为[!DNL Microsoft Advertising]；Google为`gclid`）。 具有Adobe Analytics集成的帐户必须使用AMO ID参数（以`s_kwcid`开头）。 如果该帐户具有服务器端AMO ID实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 查看[的 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)必需后缀格式和[的 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)必需后缀格式。
 
 >[!NOTE]
 >

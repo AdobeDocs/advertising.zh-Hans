@@ -3,7 +3,7 @@ title: 复制创意
 description: 了解如何在创意库中复制创意内容。
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
@@ -36,7 +36,8 @@ ht-degree: 0%
 
    新创意被命名为`<original name> (copy) # 1`（或序列中的下一个编号）。 例如，如果您为“测试映像”创建两个副本，则这些副本将命名为“测试映像（副本） # 1”和“测试映像（副本） # 2”。
 
-<!-- Add to TOC later when this feature is available to users:
+<!--
+ Add to TOC later when this feature is available to users:
 
 >* [Edit dynamic creatives](creative-edit-dynamic.md)
 >* [Dynamic ad settings](creative-settings-dynamic.md)

@@ -3,7 +3,7 @@ title: 在体验中的节点之间添加同级目标节点
 description: 了解如何将同级节点添加到具有目标或与具有目标的节点处于同一级别的任何节点。
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -16,7 +16,8 @@ ht-degree: 0%
 
 您可以将同级节点添加到任何具有目标的节点或与具有目标的节点处于同一级别的节点中。
 
-<!-- 1. Open the decision tree:
+<!--
+ 1. Open the decision tree:
 
 In a new experience
 
