@@ -123,7 +123,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 * *[!DNL RampID]：*&#x200B;要将PII转换为[!DNL RampID]。 您可以使用[!DNL RampIDs]重新定位登录用户和[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)测量。
 
-* *[!DNL Unified ID2.0](Beta)：*&#x200B;要将PII转换为[统一ID 2.0](https://unifiedid.com) ID以重新定位登录用户。
+* *[!DNL Unified ID2.0] (Beta)：*&#x200B;要将PII转换为[统一ID 2.0](https://unifiedid.com) ID以重新定位登录用户。
 
 <!--
  Later
