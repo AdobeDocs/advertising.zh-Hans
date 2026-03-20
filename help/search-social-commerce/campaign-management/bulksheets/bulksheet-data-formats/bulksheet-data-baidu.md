@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 附录 — [!DNL Baidu]帐户必需的批量处理工作表数据
 
-要批量创建和更新[!DNL Baidu]营销活动数据，您可以使用专门为[!DNL Baidu]帐户设置格式的Search、Social和Commerce批量工作表文件。 您可以a)[为现有帐户](../bulksheet-download.md)生成所需文件格式的批量工作表文件，或b)手动创建这些文件（有关支持的文件格式的一般信息，请参阅[支持的批量工作表文件格式](bulksheet-file-formats.md)）。
+要批量创建和更新[!DNL Baidu]营销活动数据，您可以使用专门为[!DNL Baidu]帐户设置格式的Search、Social和Commerce批量工作表文件。 您可以a) [为现有帐户](../bulksheet-download.md)生成所需文件格式的批量工作表文件，或b)手动创建这些文件（有关支持的文件格式的一般信息，请参阅[支持的批量工作表文件格式](bulksheet-file-formats.md)）。
 
 {{$include /help/_includes/bulksheet-appendices-intro.md}}
 
