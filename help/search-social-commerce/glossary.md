@@ -3,9 +3,9 @@ title: 术语表
 description: 请参阅关键术语的定义。
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2342'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **广告变量：**&#x200B;广告组或广告策略中的任何广告。
 
-**[AMO ID](/help/integrations/analytics/ids.md#amo-id)：**&#x200B;允许Adobe Advertising与Adobe Analytics和Adobe Customer Journey Analytics共享促销活动相关数据的跟踪代码。 它以`s_kwcid=`开头。
+**[AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id)：**&#x200B;允许Adobe Advertising与Adobe Analytics和Adobe Customer Journey Analytics共享促销活动相关数据的跟踪代码。 它以`s_kwcid=`开头。
 
 **竞价单位：**&#x200B;投标单位的搜索、社交和Commerce搜索词。
 
@@ -88,9 +88,11 @@ ht-degree: 0%
 
 **eCPM：**&#x200B;有效的CPM，或在指定日期范围内每1000次展示所支付的平均成本。 可以为CPM或CPC营销活动计算eCPM值。
 
+**[EF ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id)：**&#x200B;跟踪代码，允许Adobe Advertising将活动与在线点击或广告曝光相关联，并与Adobe Analytics和Adobe Customer Journey Analytics共享促销活动数据。
+
 ## G-H {#g-h}
 
-**半衰期：**&#x200B;将数量减少到其初始值的一半所需的时间。 对于每个项目组合，您可以指定半衰期以指示数据与成本模型和收入模型相关的时间。
+**半衰期：**将数量减少到其初始值的一半所需的时间。 对于每个项目组合，您可以指定半衰期以指示数据与成本模型和收入模型相关的时间。
 请参阅“成本模型半衰期”和“收入模型半衰期”。
 
 ## I-J {#i-j}

@@ -3,9 +3,9 @@ title: ' [!DNL Google Ads]的点击跟踪格式'
 description: 了解 [!DNL Google Ads] 帐户的点击跟踪格式。
 exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -70,11 +70,11 @@ ht-degree: 0%
 
 * 当广告商具有Adobe Analytics集成时，后缀必须包括以下任一项：
 
-   * 使用最新[!DNL Google Ads]AMO ID格式[&#x200B; （以](/help/integrations/analytics/ids.md#amo-id-formats)开头）的`s_kwcid`帐户，该格式支持效果最佳的营销活动以及草稿和实验营销活动的营销活动级和广告组级报告：
+   * 使用最新[!DNL Google Ads]AMO ID格式[ （以](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)开头）的`s_kwcid`帐户，该格式支持效果最佳的营销活动以及草稿和实验营销活动的营销活动级和广告组级报告：
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     如果帐户具有服务器端AMO ID实施并且启用了帐户或营销活动设置“[!UICONTROL Auto Upload]”，则会自动添加参数。 否则，您需要手动添加它。 查看[使用的 [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)Adobe Advertising ID。
+     如果帐户具有服务器端AMO ID实施并且启用了帐户或营销活动设置“[!UICONTROL Auto Upload]”，则会自动添加参数。 否则，您需要手动添加它。 查看[ [!DNL Analytics]使用的](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id-implement)Adobe Advertising ID。
 
    * 所有其他[!DNL Google Ads]帐户：
 
@@ -93,4 +93,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于Adobe Advertising转化跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
->* [AMO ID格式](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [AMO ID格式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

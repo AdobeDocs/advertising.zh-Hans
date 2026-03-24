@@ -3,9 +3,9 @@ title: 实施 [!DNL Google Ads] 效果最佳的营销活动
 description: 了解设置 [!DNL Google Ads] 最佳效果营销活动的工作流。
 exl-id: 4208774c-e4dd-499d-987e-933fe073c04f
 feature: Search Campaign Management
-source-git-commit: 283fced2b3faa64b6383b6ab2a41696cba0da06f
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 在[!DNL Google Ads]个效果最佳的营销活动中，您无需设置广告组、广告或关键字。 相反，您可以在促销活动设置中指定一个或多个资产组，包括标题、说明以及上传的图像、徽标和[!DNL YouTube videos]。 [!DNL Google Ads]自动组合资源以根据渠道（如[!DNL YouTube]、[!DNL Gmail]或[!DNL Search]）提供广告。
 
-您可以在[!DNL Campaigns]视图中查看效果最佳的现有营销活动，以及采用表格和趋势图格式的效果数据；较低级别上未提供数据。 报告和Adobe Analytics中也提供了营销活动级别的效果数据（适用于具有[Analytics集成](/help/integrations/analytics/overview.md)的广告商）。 要在[!DNL Analytics]中查看效果最佳的营销活动的效果数据，该营销活动必须使用[升级的AMO ID跟踪代码](/help/integrations/analytics/ids.md#amo-id-formats)（用于跟踪营销活动ID和广告组ID）。
+您可以在[!DNL Campaigns]视图中查看效果最佳的现有营销活动，以及采用表格和趋势图格式的效果数据；较低级别上未提供数据。 报告和Adobe Analytics中也提供了营销活动级别的效果数据（适用于具有[Analytics集成](/help/integrations/analytics/overview.md)的广告商）。 要在[!DNL Analytics]中查看效果最佳的营销活动的效果数据，该营销活动必须使用[升级的AMO ID跟踪代码](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)（用于跟踪营销活动ID和广告组ID）。
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 您可以从[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图中单独设置效果最佳的营销活动。
 
-1. [创建营销活动类型为&#x200B;**[!UICONTROL Performance Max]**&#x200B;的营销活动](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)。
+1. [创建营销活动类型为](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)的营销活动&#x200B;**[!UICONTROL Performance Max]**。
 
    指定[!UICONTROL Campaign Details]、[!UICONTROL Budget Options]、[!UICONTROL Campaign Targeting]和[!UICONTROL URL Options]。 （可选）输入[!UICONTROL Negative Keywords]、输入[!UICONTROL Negative Websites]和/或覆盖[!UICONTROL Campaign Tracking]选项。
 

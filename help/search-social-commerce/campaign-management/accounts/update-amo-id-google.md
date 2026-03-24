@@ -3,9 +3,9 @@ title: 更新 [!DNL Google Ads] 帐户的AMO ID (s_kwcid)跟踪代码
 description: 了解如何切换到 [!DNL Google Ads] 帐户的最新AMO ID跟踪代码。
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 仅&#x200B;*[!DNL Google Ads]个帐户*
 
-现有[帐户的](/help/integrations/analytics/ids.md#amo-id-formats)AMO ID跟踪代码[!DNL Google Ads]的旧版（2019年10月之前）格式不支持Analytics中的某些功能，例如[!DNL Google Ads]效果最佳促销活动、草稿和实验促销活动的促销活动和广告组级别的报告，以及其他在多个促销活动中存在相同广告+关键字+匹配类型组合的使用案例。
+现有[帐户的](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)AMO ID跟踪代码[!DNL Google Ads]的旧版（2019年10月之前）格式不支持Analytics中的某些功能，例如[!DNL Google Ads]效果最佳促销活动、草稿和实验促销活动的促销活动和广告组级别的报告，以及其他在多个促销活动中存在相同广告+关键字+匹配类型组合的使用案例。
 
 当前格式包括促销活动ID和广告组ID的参数：
 
@@ -60,7 +60,7 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
    * 在跟踪设置中启用“[!UICONTROL Auto Upload]”功能后，Search、Social和Commerce会自动更新此帐户及其促销活动登陆页面后缀中的跟踪代码。 你不必做任何事。
 
-   * 如果未启用“[!UICONTROL Auto Upload]”功能，并且您未使用[服务器端AMO ID功能](/help/integrations/analytics/ids.md#amo-id-formats)，则必须手动更新登陆页面后缀设置中的AMO ID参数。 您可以在[帐户设置](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)和[营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)中手动更改帐户级和营销活动级后缀，也可以通过[在批量处理工作表中上载更改](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)来手动更改帐户级和营销活动级后缀。 要在广告组级别或更低级别配置后缀，请使用[!DNL Google Ads]编辑器。
+   * 如果未启用“[!UICONTROL Auto Upload]”功能，并且您未使用[服务器端AMO ID功能](/help/integrations/analytics/ids.md#)，则必须手动更新登陆页面后缀设置中的AMO ID参数。 您可以在[帐户设置](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)和[营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)中手动更改帐户级和营销活动级后缀，也可以通过[在批量处理工作表中上载更改](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)来手动更改帐户级和营销活动级后缀。 要在广告组级别或更低级别配置后缀，请使用[!DNL Google Ads]编辑器。
 
    * 如果您将AMO ID包含在任何促销活动组件的基本URL设置中，请将其移至相关的登陆页面后缀设置。
 
@@ -70,4 +70,4 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 >
 >* [管理广告网络帐户](ad-network-account-manage.md)
 >* [使用的 [!DNL Analytics]](/help/integrations/analytics/ids.md)Adobe Advertising ID
->* [概述 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hans){target="_blank"}
+>* [概述 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

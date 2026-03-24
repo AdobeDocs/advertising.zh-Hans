@@ -3,9 +3,9 @@ title: ' [!DNL Yandex]的点击跟踪格式'
 description: 了解 [!DNL Yandex] 帐户的点击跟踪格式。
 exl-id: bcbd369b-b98d-491c-a921-58bf79e01744
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`是Adobe Advertising中广告商唯一ID的变量。
 >
->* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请在`<advertiser_ID>`之后将`cq?`替换为`c?`。
+>* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请在`cq?`之后将`<advertiser_ID>`替换为`c?`。
 >
 >* `<the landing page>`是一个变量，它表示最终用户被定向到的网站上的URL。
 >
@@ -38,5 +38,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于Adobe Advertising转换跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
->* [AMO ID格式](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [关于Adobe Advertising转化跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
+>* [AMO ID格式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

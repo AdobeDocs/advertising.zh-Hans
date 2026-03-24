@@ -3,9 +3,9 @@ title: ' [!DNL Baidu]的点击跟踪格式'
 description: 了解 [!DNL Baidu] 帐户的点击跟踪格式。
 exl-id: 4f4ed518-aa25-4a29-b263-c01f78b69b92
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`是Adobe Advertising中广告商唯一ID的变量。
 >
->* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请在`<advertiser_ID>`之后将`cq?`替换为`c?`。
+>* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请在`cq?`之后将`<advertiser_ID>`替换为`c?`。
 >
 >* `<campaignID>`是数值促销活动ID的变量。
 >
@@ -32,5 +32,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于Adobe Advertising转换跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
->* [AMO ID格式](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [关于Adobe Advertising转化跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
+>* [AMO ID格式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)
