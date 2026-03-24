@@ -19,4 +19,4 @@ ht-degree: 0%
 
 * （具有并行跟踪的广告网络）避免使用宏，宏不会替代来自启用并行跟踪的源的点击。 如果广告商必须使用宏，则Adobe客户团队应与客户支持或实施团队合作来添加宏。
 
-* （具有Adobe Advertising-Adobe Analytics集成的广告商）要包含AMO ID参数以将搜索、社交和Commerce数据发送到[!DNL Analytics]，请参阅[广告网络特定的格式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)。 无需为具有服务器端AMO ID实施的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户手动添加参数。
+* （具有Adobe Advertising-Adobe Analytics集成的广告商）要包含AMO ID参数以将搜索、社交和Commerce数据发送到[!DNL Analytics]，请参阅[广告网络特定的格式](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#dimension-items)。 无需为具有服务器端AMO ID实施的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户手动添加参数。

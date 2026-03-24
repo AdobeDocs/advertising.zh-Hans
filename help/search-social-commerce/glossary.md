@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **广告变量：**&#x200B;广告组或广告策略中的任何广告。
 
-**[AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id)：**&#x200B;允许Adobe Advertising与Adobe Analytics和Adobe Customer Journey Analytics共享促销活动相关数据的跟踪代码。 它以`s_kwcid=`开头。
+**[AMO ID](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id)：**&#x200B;允许Adobe Advertising与Adobe Analytics和Adobe Customer Journey Analytics共享促销活动相关数据的跟踪代码。 它以`s_kwcid=`开头。
 
 **竞价单位：**&#x200B;投标单位的搜索、社交和Commerce搜索词。
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 **eCPM：**&#x200B;有效的CPM，或在指定日期范围内每1000次展示所支付的平均成本。 可以为CPM或CPC营销活动计算eCPM值。
 
-**[EF ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id)：**&#x200B;跟踪代码，允许Adobe Advertising将活动与在线点击或广告曝光相关联，并与Adobe Analytics和Adobe Customer Journey Analytics共享促销活动数据。
+**[EF ID](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-ef-id)：**&#x200B;跟踪代码，允许Adobe Advertising将活动与在线点击或广告曝光相关联，并与Adobe Analytics和Adobe Customer Journey Analytics共享促销活动数据。
 
 ## G-H {#g-h}
 
