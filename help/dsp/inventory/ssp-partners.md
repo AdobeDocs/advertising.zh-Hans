@@ -3,9 +3,9 @@ title: SSP合作伙伴
 description: 查看可用供应方平台(SSP)和开放交换合作伙伴的列表。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d5ac30d71fb9ccab53c396dae9b37d53d59e489c
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 3%
 | [!DNL ShareThrough] |  | [!DNL TubeMogul]或Adobe Advertising | — | 全局 | 美元 | 显示桌面和移动设备<br><br>本机显示<br><br>视频桌面、移动设备和电视 |
 | [!DNL SmartClip] |  | Adobe Advertising | — | EMEA | 所有货币 | 显示桌面和移动设备<br><br>视频桌面、移动设备和电视 |
 | [!DNL Taboola] |  | Adobe Advertising | — | US/CA | 美元 | 视频桌面和移动设备 |
-| [!DNL Teads] |  | [!DNL TubeMogul]或Adobe Advertising | — | Outstream Video = Global<br>Display = NA + EMEA | 美元 | 显示桌面和移动设备<br><br>视频桌面和移动设备 |
+| [!DNL Teads] |  | [!DNL TubeMogul]或Adobe Advertising | — | Outstream Video = Global<br>Display = NA + EMEA | 美元 | 显示桌面和移动设备<br><br>视频桌面、移动设备和电视 |
 | [!DNL TripleLift] |  | [!DNL TubeMogul]或Adobe Advertising | — | 全局 | 美元 | 本机显示 |
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul]或Adobe Advertising | — | 全局 | 美元 | 显示桌面和移动设备<br><br>视频桌面、移动设备和电视 |
 | [!DNL Triton] |  | Adobe Advertising | PG支持 | 全局 | 美元 | 音频桌面和移动设备 |
