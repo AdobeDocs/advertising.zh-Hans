@@ -3,9 +3,9 @@ title: 支持激活通用ID
 description: 了解在以下支持方面的支持：导入通用ID区段，创建自定义区段以跟踪通用ID，以及将第一方区段中的其他用户标识符转换为通用ID以实现无痕定位。
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
+source-git-commit: 2dddf3560e1f98dab7158c28625bcd54b4efbdb2
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ DSP支持基于人员的通用ID，以便跨DSP支持的数字格式进行无息
 
 * 您可以使用[!DNL LiveRamp] [!DNL RampIDs]仪表板手动将经过身份验证的[[!DNL LiveRamp] [!DNL Connect]]直接发送到DSP。 请参阅“[从 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)手动导入经过身份验证的区段”。
 
-* DSP可以摄取您的第一方区段(由您在客户数据平台(CDP)中构建的经过哈希处理的电子邮件ID组成)，并将它们转换为[!DNL LiveRamp] [!DNL RampIDs]和[!DNL Unified ID 2.0 (UID2.0)] ID。 有关支持的客户数据平台、每个受支持的通用ID类型的可用功能以及相关工作流的详细信息，请参阅“[关于第一方受众源](/help/dsp/audiences/sources/source-about.md)”。
+* DSP可以摄取您在客户数据平台(CDP)中构建的第一方区段，并将其转换为[!DNL LiveRamp] [!DNL RampIDs]和[!DNL Unified ID 2.0 (UID2.0)] ID。 有关支持的客户数据平台和用户标识符类型、每个支持的通用ID类型的可用功能以及相关工作流的详细信息，请参阅“[关于第一方受众源](/help/dsp/audiences/sources/source-about.md)”。
 
 * 您可以创建自定义区段，以跟踪与从桌面和移动设备中展示广告以及访问特定网页的ID5通用ID关联的用户。 ID5使用概率模型来分配从各种用户信号和浏览器信号派生的ID。 有关说明，请参阅&quot;[创建和实施自定义区段](/help/dsp/audiences/custom-segment-create.md)&quot;。
 
@@ -97,6 +97,8 @@ DSP支持基于人员的通用ID，以便跨DSP支持的数字格式进行无息
 * 请记住，经过身份验证的受众区段的访问范围自然小于基于Cookie的区段的访问范围，使用其他定位选项会进一步减少您的访问范围。 谨慎使用粒度定位，尤其是使用AND语句连接多个目标。
 
 ## 电子邮件ID与通用ID之间的数据差异 {#universal-ids-data-variances}
+
+本节仅适用于转换为通用ID的电子邮件ID。
 
 ### 可接受差异级别
 
