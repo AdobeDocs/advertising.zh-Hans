@@ -50,5 +50,5 @@ ht-degree: 0%
 >
 >* [在 [!DNL FreeWheel]](freewheel-overview.md)中设置计划性保证交易的概述
 >* [向 [!DNL FreeWheel]](freewheel-submit.md)提交计划性保证交易的广告
->* [ [!DNL FreeWheel] 广告提交的错误代码](freewheel-error-codes.md)
+>* [&#x200B; [!DNL FreeWheel] 广告提交的错误代码](freewheel-error-codes.md)
 >* [在[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)中接受交易
