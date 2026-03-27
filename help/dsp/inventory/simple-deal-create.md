@@ -3,9 +3,9 @@ title: 创建[!UICONTROL Simple Ad Serving]交易
 description: 了解如何为[!UICONTROL Simple Ad Serving]交易创建跟踪像素。
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
          * 若要将信息粘贴到您设备上电子邮件应用程序中的电子邮件中，请单击&#x200B;**[!UICONTROL Email & Done]**&#x200B;并选择电子邮件应用程序。 [!UICONTROL CC:]字段已预填充了[!DNL Adobe]支持地址。 然后，可以将消息发送给发布者的相应联系人。
 
-         * 要将信息复制到剪贴板，请单击&#x200B;**[!UICONTROL Copy Email]。**&#x200B;然后，您可以手动将内容粘贴到电子邮件中，并将其发送给发布者的相应联系人。 您必须包含副本（抄送：）到`publisher-support-global@adobe.com`。 完成复制邮件后，请单击&#x200B;**[!UICONTROL Email & Done]**。
+         * 要将信息复制到剪贴板，请单击&#x200B;**[!UICONTROL Copy Email]。**&#x200B;然后，您可以手动将内容粘贴到电子邮件中，并将其发送给发布者的相应联系人。 包括`publisher-support-global@adobe.com`的副本（抄送：）。 完成复制邮件后，请单击&#x200B;**[!UICONTROL Email & Done]**。
 
       1. （如有必要）跟进发布者，以查看标记是否包含相应的宏，以便标记可与发布者的广告服务器配合使用。
 

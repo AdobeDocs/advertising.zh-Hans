@@ -3,7 +3,7 @@ title: 关于通用视频的常见问题解答
 description: 了解有关通用视频广告的更多信息。
 feature: DSP Placements, DSP Ads
 exl-id: 48c744ae-90a3-47e9-a5dc-c4e3c01b75a0
-source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 在以下任一情况下使用&#x200B;**[!UICONTROL VAST]**：
 
 * 放置目标为连接的电视机盘点。
-* 投放位置面向Google Ad Manager、Appnexus、SpotX或Freewheel中的视频库存。 这些SSP不支持VPAID和VAST视频格式。
+* 投放位置面向Google Ad Manager、Appnexus、SpotX或FreeWheel中的视频库存。 这些SSP不支持VPAID和VAST视频格式。
 
 ## 是否可以将多个通用视频广告附加到同一个通用视频投放位置？
 

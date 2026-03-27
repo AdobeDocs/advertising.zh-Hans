@@ -3,7 +3,7 @@ title: 通用视频广告设置
 description: 请参阅对通用视频广告可用广告设置的描述。
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **[!UICONTROL Video Format]：**&#x200B;潜在库存的广告播放器格式： *[!UICONTROL VPAID]*、*[!UICONTROL VPAID & VAST]*&#x200B;或&#x200B;*[!UICONTROL VAST]*。 始终为[!UICONTROL VPAID]测量可见性，但[!UICONTROL VPAID & VAST]包含不允许测量可见性的库存。 如果可见性指标对您的营销活动很重要，请考虑这种区别。
 
-当您定位严格要求VAST格式的联网电视或库存时（通常来自Google Ad Manager、Appnexus、SpotX和Freewheel等供应源），请使用[!UICONTROL VAST]，它不允许可见性测量。 此外，对于之前与标准前置广告(VAST)或手机+平板电脑标准前置广告(VAST)版面/广告兼容的库存，也使用此选项。
+当您定位严格要求VAST格式的联网电视或库存时（通常来自Google Ad Manager、Appnexus、SpotX和FreeWheel等供应源），请使用[!UICONTROL VAST]，它不允许可见性测量。 此外，对于之前与标准前置广告(VAST)或手机+平板电脑标准前置广告(VAST)版面/广告兼容的库存，也使用此选项。
 
 **[!UICONTROL Clock Number]**： （仅在英国使用；仅供具有权限的用户使用）用于确保广播正确广告的唯一标识符。 如果此设置不适用，则将其留空。
 

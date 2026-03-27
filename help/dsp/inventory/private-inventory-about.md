@@ -3,9 +3,9 @@ title: 关于专用清单
 description: 关于专用清单
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-source-git-commit: 05b374b1d15121f71035b10e6c27a2b70fb642fa
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 ## 交易编号
 
 
-如果您与出版商有直接关系，则可以通过在您的Advertising DSP投放位置中使用您自己的私人交易（包括议定的库存和定价）来简化媒体购买流程和工作流。 当您设置帐户时，DSP将与您的所有发布者集成。 如果您希望稍后再访问其他发布者，请联系您的Adobe客户团队以设置访问权限。<!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
+如果您与出版商有直接关系，则可以通过在Advertising DSP投放位置中使用您自己的私人交易（具有协议库存和定价功能）来简化媒体购买流程和工作流。 当您设置帐户时，DSP将与您的所有发布者集成。 如果您希望稍后再访问其他发布者，请联系您的Adobe客户团队以设置访问权限。
 
 您所有与交易ID有关的私人交易均由[!DNL Adobe]融资和开具发票。
 
@@ -35,11 +35,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Deals]视图
 
-在[!UICONTROL Inventory] > [!UICONTROL Deals]视图中，您可以创建私人交易设置。 您还可以编辑某些交易设置；列出投放位置和广告，并将其他投放位置和广告附加到私人交易；编辑可以访问私人交易的广告商和帐户；查看交易的绩效报表；查看私人交易的拍卖见解，或者存档或取消存档交易。<!-- ; or edit the attribute tags for a deal -->
+在[!UICONTROL Inventory] > [!UICONTROL Deals]视图中，您可以创建私人交易设置。 您还可以编辑某些交易设置；列出投放位置和广告，并将其他投放位置和广告附加到私人交易；编辑可以访问私人交易的广告商和帐户；查看交易的绩效报表；查看私人交易的拍卖见解；或者存档或取消存档交易。<!-- ; or edit the attribute tags for a deal -->
 
 “交易运行状况”列指示每个私人交易的运行状况：“成功”、“警告”、“严重”或“不可用”。 您可以单击状态来查看更多详细信息，包括交易未按预期执行或支出的原因以及解决潜在问题的步骤。
 
-您可以通过应用过滤器、自定义可见列和保存自定义视图（可选）、对列排序以及以图表形式查看数据来自定义现有交易数据的显示方式。
+您可以通过以下方式自定义可见的交易数据：应用筛选器、自定义可见列和选择性地保存自定义视图、对列排序以及以图表形式查看数据。
 
 ## [!UICONTROL Deal Lists]视图
 

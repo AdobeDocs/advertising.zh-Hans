@@ -1,18 +1,18 @@
 ---
 title: 检查 [!DNL FreeWheel] PG交易的广告状态
-description: 了解如何查找 [!DNL Freewheel] 计划性保证交易的广告状态。
+description: 了解如何查找 [!DNL FreeWheel] 计划性保证交易的广告状态。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
-# 检查[!DNL Freewheel]计划性保证交易的广告状态
+# 检查[!DNL FreeWheel]计划性保证交易的广告状态
 
-查看您向[!DNL Freewheel]提交的广告是否成功。 您可以根据需要重新提交任何广告。
+查看您向[!DNL FreeWheel]提交的广告是否成功。 您可以根据需要重新提交任何广告。
 
 有关重新提交的任何其他问题，请联系您的Adobe客户团队。
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 在子菜单中，单击&#x200B;**[!UICONTROL Ads]**。
 
-1. 在广告名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL see Freewheel status]**。
+1. 在广告名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL See FreeWheel status]**。
 
 1. （可选）要重新提交广告以供审批，请将光标悬停在广告行上，然后单击&#x200B;**[!UICONTROL More]** > **[!UICONTROL Resubmit]**。
 
@@ -34,9 +34,9 @@ ht-degree: 0%
 
 1. 执行以下任一操作：
 
-   * 在[!UICONTROL Deal ID Inbox]下，单击&#x200B;**[!UICONTROL View Freewheel creative status]**。
+   * 在[!UICONTROL Deal ID Inbox]下，单击&#x200B;**[!UICONTROL View FreeWheel creative status]**。
 
-   * 在任何交易行中，单击![选项菜单](/help/dsp/assets/options-menu.png) **>[!UICONTROL see Freewheel status]**。
+   * 在任何交易行中，单击![选项菜单](/help/dsp/assets/options-menu.png) **>[!UICONTROL See FreeWheel status]**。
 
 1. （可选）筛选数据以帮助您查找特定交易和广告。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [在 [!DNL Freewheel]](freewheel-overview.md)中设置计划性保证交易的概述
->* [向 [!DNL Freewheel]](freewheel-submit.md)提交计划性保证交易的广告
->* [&#x200B; [!DNL FreeWheel] 广告提交的错误代码](freewheel-error-codes.md)
+>* [在 [!DNL FreeWheel]](freewheel-overview.md)中设置计划性保证交易的概述
+>* [向 [!DNL FreeWheel]](freewheel-submit.md)提交计划性保证交易的广告
+>* [ [!DNL FreeWheel] 广告提交的错误代码](freewheel-error-codes.md)
 >* [在[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)中接受交易

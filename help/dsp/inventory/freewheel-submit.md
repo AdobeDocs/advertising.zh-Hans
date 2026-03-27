@@ -1,26 +1,26 @@
 ---
 title: 向 [!DNL FreeWheel]提交PG交易的广告
-description: 了解如何在 [!DNL Freewheel]上与发布者请求批准计划性保证交易的广告。
+description: 了解如何在 [!DNL FreeWheel]上与发布者请求批准计划性保证交易的广告。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 18d91f0c-4a27-4e40-b762-6c5e97e9a21a
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
-# 向[!DNL Freewheel]提交计划性保证交易的广告
+# 向[!DNL FreeWheel]提交计划性保证交易的广告
 
 *仅具有[!DNL FreeWheel]编程性保证权限的*&#x200B;帐户
 
-一旦您[在FreeWheel](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox)上接受与发布者的程序化保证交易（包括选择广告和创建用于交易的程序化保证默认投放位置），您必须将广告提交给[!DNL Freewheel]进行审批。
+一旦您[在FreeWheel](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox)上接受与发布者的程序化保证交易（包括选择广告和创建用于交易的程序化保证默认投放位置），您必须将广告提交给[!DNL FreeWheel]进行审批。
 
 >[!PREREQUISITES]
 >
 >与您的Adobe帐户团队合作，确保您的[!DNL DSP]帐户有权使用[!DNL FreeWheel]程序化保证工作流。
 
-1. 复制与[!DNL Freewheel]交易一起使用的广告的广告密钥：
+1. 复制与[!DNL FreeWheel]交易一起使用的广告的广告密钥：
 
    1. 单击营销活动的名称。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
       https://advertising.adobe.com/configurator/ad/3NtNC5ZbaGZtqbei8jD3?referrer=/playtime/ads
       ```
 
-1. 将广告提交到[!DNL Freewheel]：
+1. 将广告提交到[!DNL FreeWheel]：
 
    1. 执行以下任一操作：
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [在 [!DNL Freewheel]](freewheel-overview.md)中设置计划性保证交易的概述
+>* [在 [!DNL FreeWheel]](freewheel-overview.md)中设置计划性保证交易的概述
 >* [在[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)中接受交易
 >* [检查 [!DNL FreeWheel] PG交易的广告状态](freewheel-check-status.md)
->* [&#x200B; [!DNL FreeWheel] 广告提交的错误代码](freewheel-error-codes.md)
+>* [ [!DNL FreeWheel] 广告提交的错误代码](freewheel-error-codes.md)

@@ -3,16 +3,16 @@ title: ' [!DNL FreeWheel] 广告提交的错误代码'
 description: 引用向 [!DNL FreeWheel]提交广告时返回的错误代码。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '641'
 ht-degree: 3%
 
 ---
 
 # [!DNL FreeWheel]个广告提交的错误代码
 
-广告提交失败的错误消息可能来自Advertising DSP或[!DNL FreeWheel]。 错误消息显示在[!UICONTROL API Response]对话框[[!UICONTROL Freewheel Status]的](freewheel-check-status.md)列中。
+广告提交失败的错误消息可能来自Advertising DSP或[!DNL FreeWheel]。 在[!UICONTROL API Response]对话框[[!UICONTROL FreeWheel Status]的](freewheel-check-status.md)列中查找错误消息。
 
 ## Advertising DSP内部错误
 
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 {style="table-layout:auto"}
 
-## [!DNL Freewheel] API错误
+## [!DNL FreeWheel] API错误
 
 | 代码 | 含义 | 描述 | 后续步骤 |
 |--- |--- |--- |--- |
@@ -43,7 +43,7 @@ ht-degree: 3%
 
 {style="table-layout:auto"}
 
-## [!DNL Freewheel] API 422错误 {#freewheel-422-errors}
+## [!DNL FreeWheel] API 422错误 {#freewheel-422-errors}
 
 | 代码 | HTTP代码 | 描述 |
 |--- |--- |--- |
@@ -64,7 +64,7 @@ ht-degree: 3%
 
 >[!MORELIKETHIS]
 >
->* [在 [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)中设置计划性保证交易的概述
+>* [在 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)中设置计划性保证交易的概述
 >* [在[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)中接受交易
->* [向 [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)提交计划性保证交易的广告
+>* [向 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)提交计划性保证交易的广告
 >* [检查 [!DNL FreeWheel] PG交易的广告状态](/help/dsp/inventory/freewheel-check-status.md)

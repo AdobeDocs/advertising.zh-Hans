@@ -3,9 +3,9 @@ title: 使用 [!DNL Roku] 库存
 description: 了解DSP与 [!DNL Roku]的合作伙伴关系，包括库存选项、批准的第三方跟踪供应商以及特定于 [!DNL Roku]的投放位置的最佳实践。
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,11 @@ Advertising DSP提供在[!DNL Roku]上做广告的功能。
 
 ## [!DNL Roku]清单选项
 
-您可以a)直接使用[!DNL Roku]设置私人交易ID，然后将交易ID数据输入到DSP中，或者b)访问[!DNL On Demand]图库以订阅[!DNL Roku]配置文件：
+您可以：
+
+* 直接使用[!DNL Roku]设置私有交易ID，然后将交易ID数据输入到DSP中。
+
+* 访问[!DNL On Demand]库以订阅[!DNL Roku]配置文件：
 
 >[!NOTE]
 >
@@ -31,6 +35,7 @@ Advertising DSP提供在[!DNL Roku]上做广告的功能。
 * 您可以[在 [!DNL Roku] 图库 [!DNL On Demand] 中订阅以下](/help/dsp/inventory/on-demand-inventory-subscribe.md)清单，然后在[!DNL Roku]投放位置中定位任何已批准的交易：
 
    * “[!UICONTROL Roku Network - Audience]”适用于包含高级内容合作伙伴（如[!DNL Roku]、[!DNL The CW]和[!DNL ABC]）的[!DNL ESPN]生态系统中的库存。
+
    * 针对[!UICONTROL The Roku Channel - Audience]自有和运营的(O&amp;O)应用程序内容的“[!DNL Roku]”。
 
 ### 使用[!DNL Roku]自定义专用市场的好处
