@@ -3,7 +3,7 @@ title: 管理受众源以激活通用ID受众
 description: 了解如何创建和管理源以从客户数据平台导入受众，并将它们转换为包含通用ID的区段。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 2dddf3560e1f98dab7158c28625bcd54b4efbdb2
+source-git-commit: 5f410215dfa9d1e76dec2c88efca3b2d786333a7
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -59,7 +59,8 @@ You can create one source for each combination of universal ID partner and data 
 
 ## 更改受众源的ID类型
 
-<!-- Clarify this:
+<!-- 
+Clarify this:
 
 All changes to universal IDs translated from the source are applied after you save the the source record. For example, if you add a new ID type, then we convert hashed email addresses that you shared before making the changes to the new ID type. Similarly, if you remove an ID type, then we don't delete any historical IDs of that type from the segments shared through the source.
 
@@ -119,7 +120,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 * *[!DNL RampID]：*&#x200B;要将PII转换为[!DNL RampID]。 您可以使用[!DNL RampIDs]重新定位登录用户和[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)测量。
 
-* *[!DNL Unified ID2.0] (Beta)：*&#x200B;要将PII转换为[统一ID 2.0](https://unifiedid.com) ID以重新定位登录用户。
+* *[!DNL Unified ID2.0](Beta)：*&#x200B;要将PII转换为[统一ID 2.0](https://unifiedid.com) ID以重新定位登录用户。
 
 <!--
  Later
