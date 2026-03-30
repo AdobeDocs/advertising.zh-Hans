@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # 存档
 
-此存储库已迁移到<https://github.com/Adobe-Enterprise-Docs/advertising.en>。
+此存储库已迁移到<https://github.com/Adobe-Enterprise-Docs/advertising.zh-Hans>。
