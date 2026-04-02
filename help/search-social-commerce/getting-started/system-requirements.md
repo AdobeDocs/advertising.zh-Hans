@@ -4,9 +4,12 @@ description: 了解软件和帐户要求。
 exl-id: 818494f2-45d6-4788-a847-d80dec711245
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/ha9wCBle-TuPDcIEk4cl8n84xEU0CJkMazr6U2Mnybc
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 255

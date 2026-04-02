@@ -4,9 +4,12 @@ description: 引用 [!DNL Microsoft Advertising] 关键字的设置。
 exl-id: 82eee01f-db4b-4d1a-ae24-1ef65f8c6953
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/fA0ZDCw5Ici0wOfpd1kXdjbQA6DtUFxOSBEtrlJl4Oo
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 260
@@ -39,9 +42,9 @@ ht-degree: 0%
 
 ## 占位符
 
-**[!UICONTROL Param2]：**&#x200B;要用作替换值的字符串（如果关键字的基本URL或广告的标题、描述或基本URL包含[动态替换字符串`{Param2}`）。 ](https://help.bingads.microsoft.com/#apex/3/en/53079/0)最大长度为70个字符，但请注意，在其中使用它的广告元素的最大长度（例如，标题1和标题2组合可能最多为76个字符）。
+**[!UICONTROL Param2]：**&#x200B;要用作替换值的字符串（如果关键字的基本URL或广告的标题、描述或基本URL包含[动态替换字符串`{Param2}`）。 &#x200B;](https://help.bingads.microsoft.com/#apex/3/en/53079/0)最大长度为70个字符，但请注意，在其中使用它的广告元素的最大长度（例如，标题1和标题2组合可能最多为76个字符）。
 
-**[!UICONTROL Param3]：**&#x200B;要用作替换值的字符串（如果关键字的基本URL或广告的标题、描述或基本URL包含[动态替换字符串`{Param3}`）。 ](https://help.bingads.microsoft.com/#apex/3/en/53079/0)最大长度为70个字符，但请注意，在其中使用它的广告元素的最大长度（例如，标题1和标题2组合可能最多为76个字符）。
+**[!UICONTROL Param3]：**&#x200B;要用作替换值的字符串（如果关键字的基本URL或广告的标题、描述或基本URL包含[动态替换字符串`{Param3}`）。 &#x200B;](https://help.bingads.microsoft.com/#apex/3/en/53079/0)最大长度为70个字符，但请注意，在其中使用它的广告元素的最大长度（例如，标题1和标题2组合可能最多为76个字符）。
 
 ## URL选项
 

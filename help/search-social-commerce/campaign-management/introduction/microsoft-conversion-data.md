@@ -4,9 +4,14 @@ description: 了解Search、Social和Commerce中可用的 [!DNL Microsoft Advert
 feature: Search Campaign Management, Conversions
 exl-id: 0ebc70a0-1fb7-48db-b45d-7409e8bb6f64
 TQID: https://experienceleague.adobe.com/ZK-uDqw0sThnMzX6bdR-d33gh-AlLTaytJr1fS7pdgs
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 629
@@ -44,7 +49,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 如果您有多个帐户具有相同的转化名称，您可能会在Adobe Advertising中看到重复的转化名称。 如果发生这种情况，请在[ > ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)中更改其中一个重复量度的显示名称[!UICONTROL Admin]。 [!UICONTROL Conversions]当两个不同的量度具有相同的名称时，报表不准确。
+>* 如果您有多个帐户具有相同的转化名称，您可能会在Adobe Advertising中看到重复的转化名称。 如果发生这种情况，请在[&#x200B; > &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)中更改其中一个重复量度的显示名称[!UICONTROL Admin]。 [!UICONTROL Conversions]当两个不同的量度具有相同的名称时，报表不准确。
 >* 竞价单元级别的数据与同一级别广告网络中的数据匹配。 但是，广告网络自己的更高级别的转化数据可能包括未归因到子竞价单位的附加转化。 搜索、社交和Commerce中的数据始终从竞价单位级别汇总，因此，例如，促销活动级别的报表可能与广告网络中的促销活动级别报表具有不同的总计。
 >* 通常，在早上同步之后，数据差异小于当天晚些时候，此时尚未同步其他转化。 我们建议在早上验证数据。
 >* 在受众或地理位置级别没有可用数据，因此不用于自动优化RLSA和位置竞价调整。

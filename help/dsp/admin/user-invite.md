@@ -4,9 +4,12 @@ description: 了解如何邀请新用户加入帐户。
 role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
 TQID: https://experienceleague.adobe.com/FmFrkWZfeZdvWh-2Wed1KFNqgyQ-SVUpGZvpx7XiXQE
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 134

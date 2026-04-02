@@ -4,9 +4,13 @@ description: 了解[!UICONTROL Transaction Report]。
 exl-id: b20c22c1-280e-4dd1-aa6f-7c1e9af09b4c
 feature: Search Reports, Search Advanced Reports
 TQID: https://experienceleague.adobe.com/sfNc3m1w933pBYhhIzfpV96Wps--2gGOFMeq4HiJ2-k
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 266

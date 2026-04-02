@@ -4,9 +4,12 @@ description: 了解模型准确性报表的必需和可选设置。
 exl-id: 11782a75-9141-4a4e-b3b3-60679b0e36de
 feature: Search Reports, Search Model Accuracy Reports
 TQID: https://experienceleague.adobe.com/ITabJVxDxGloBaUT8FqMfX7IWlU5rLYCiuCjVNYrX6c
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 1793
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 | 选项卡 | 参数 | 描述 |
 |----|----|----|
-| 不适用 | [!UICONTROL Name] | （可选）报表和模板的名称（如果将报表另存为模板）。 如果应用现有模板，则默认情况下会填充模板名称。 如果不应用模板或输入名称，则报表将名为<code><client name>-<date and time>-<report type></code> （例如“acme - Apr 3， 2009 11:25:19 AM PDT - Keyword”）。<br><br>您可以选择输入自定义名称，但不要使用文件扩展名。<br><br>如果您正在创建模板以[将报表发送到FTP目录](/help/search-social-commerce/reports/automation/ftp-reports.md)，则可以选择在文件名中的任意位置包含“CSV”（大写字母），以便以CSV格式而不是默认的TSV格式创建文件。 查看发送到FTP目录[的报告的](/help/search-social-commerce/reports/automation/ftp-reports.md)文件名要求。 |
+| 不适用 | [!UICONTROL Name] | （可选）报表和模板的名称（如果将报表另存为模板）。 如果应用现有模板，则默认情况下会填充模板名称。 如果不应用模板或输入名称，则报表将名为<code>&lt;client name>-&lt;date and time>-&lt;report type></code> （例如“acme - Apr 3， 2009 11:25:19 AM PDT - Keyword”）。<br><br>您可以选择输入自定义名称，但不要使用文件扩展名。<br><br>如果您正在创建模板以[将报表发送到FTP目录](/help/search-social-commerce/reports/automation/ftp-reports.md)，则可以选择在文件名中的任意位置包含“CSV”（大写字母），以便以CSV格式而不是默认的TSV格式创建文件。 查看发送到FTP目录[的报告的](/help/search-social-commerce/reports/automation/ftp-reports.md)文件名要求。 |
 |  | [!UICONTROL Save as template] | （除非要根据计划运行报告，否则为可选）将报告设置另存为模板，该模板可在[!UICONTROL Reports] > [!UICONTROL Report Templates]视图中找到，可重复使用以创建新报告。 要将报表另存为模板，请选中该复选框。<br><br>要根据计划运行报表，必须将设置另存为模板。<br><br><b>注意：</b>您可以将当前参数集另存为新模板，即使它基于现有模板也是如此。 |
 |  | [!UICONTROL Type] | 要生成的报表类型。 |
 | [!UICONTROL Basic  Settings] | [!UICONTROL Template] | （可选）要应用的报表模板，该模板会根据模板预填充报表选项。 将为报表类型保存并且可供您使用的所有模板都将会列出。<br><br>如果选择模板，您仍然可以更改报告选项，甚至可以将报告另存为新模板。 |

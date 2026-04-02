@@ -6,11 +6,20 @@ product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
 TQID: https://experienceleague.adobe.com/6-dzP-cjgKB5-HBvIpy8iU3B8FEbWAfP8r5UEad23Ok
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6id: f2860a4b-f905-4545-bead-1bbc92564592
-subfeature_v2: id: d1e2786d-1070-4f97-93d7-f5b95de25b2bid: d9510790-d834-436d-8423-8d69cd50464a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+subfeature_v2:
+  - id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 831
@@ -36,7 +45,7 @@ ht-degree: 0%
 | 2021年4月27日 | [!DNL Analytics for Advertising] | 了解为什么以及如何将[!DNL Analytics for Advertising]宏添加到[!DNL Google Campaign Manager 360]广告标记以将点击数据发送到Adobe Analytics。 | 请参阅“[将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Google Campaign Manager 360] 添加标记](/help/integrations/analytics/macros-google-campaign-manager.md)”。 |
 | 2021年4月19日 | [!DNL Analytics for Advertising] | 了解为什么以及如何将宏附加到您的[!DNL Flashtalking]广告标记以将点击数据发送到Adobe Analytics。 | 请参阅“[将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Flashtalking] 添加标记](/help/integrations/analytics/macros-flashtalking.md)”。 |
 | 2021年10月27日 | [!DNL Analytics for Advertising] | 如果您的组织需要从使用旧版Adobe Analytics `visitorAPI.js`库转为使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)库(`alloy.js`)来收集数据，则您必须进行一些更改来支持ID拼接。 | 请参阅“[在Adobe Experience Platform [!DNL Last Event Service] 中使用 [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)JavaScript库。” |
-| 2021年5月26日 | 帮助 | 章节“[!DNL Analytics for Advertising]”现在包含有关“在[!DNL Analytics Marketing Channels]中工作”的子章节。 | 请参阅：“[处理规则的基础知识 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-overview.md)," "[Using Adobe Advertising IDs to create [!DNL Marketing Channels] ](/help/integrations/analytics/marketing-channels/mc-ids.md)”、“[将 [!DNL Analytics Marketing Channels] 用于Adobe Advertising数据](/help/integrations/analytics/marketing-channels/mc-ac-data.md)”和“[为什么渠道数据在Adobe Advertising和 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)之间可能不同。” |
+| 2021年5月26日 | 帮助 | 章节“[!DNL Analytics for Advertising]”现在包含有关“在[!DNL Analytics Marketing Channels]中工作”的子章节。 | 请参阅：“[处理规则的基础知识 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-overview.md)," "[Using Adobe Advertising IDs to create [!DNL Marketing Channels] &#x200B;](/help/integrations/analytics/marketing-channels/mc-ids.md)”、“[将 [!DNL Analytics Marketing Channels] 用于Adobe Advertising数据](/help/integrations/analytics/marketing-channels/mc-ac-data.md)”和“[为什么渠道数据在Adobe Advertising和 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)之间可能不同。” |
 | 2021年5月26日 | 帮助 | 添加了指向所有关于[!DNL Analytics for Advertising]的视频教程的链接。 | 请参阅： &quot;[有关Adobe Advertising集成的视频教程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)。&quot; |
 
 {style="table-layout:auto"}

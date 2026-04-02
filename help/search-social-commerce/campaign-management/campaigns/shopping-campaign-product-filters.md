@@ -4,8 +4,10 @@ description: 引用可用于购物产品组的产品过滤器。
 exl-id: 91695fa8-6e5e-42a7-a84a-0b46b9f4dfcc
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/OgEEd-i6RcM98DpR7h6KFXnO8zfZiEgpJZAof8Bqgws
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 174
@@ -38,5 +40,5 @@ ht-degree: 0%
 >* [[!DNL Microsoft Advertising] 产品组设置](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
 >* [[!DNL Google Ads] 库存馈送的购物广告模板设置](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)
 >* [[!DNL Microsoft Advertising] 库存馈送的购物广告模板设置](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)
->* [ [!DNL Google Ads] 批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)的必需数据
->* [ [!DNL Microsoft Advertising] 批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)的必需数据
+>* [&#x200B; [!DNL Google Ads] 批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)的必需数据
+>* [&#x200B; [!DNL Microsoft Advertising] 批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)的必需数据

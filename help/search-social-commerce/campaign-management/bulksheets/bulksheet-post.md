@@ -4,9 +4,12 @@ description: 了解如何将批量工作表文件发布到广告网络。
 exl-id: 49b930ba-71b3-442d-a162-67cf7ae14e14
 feature: Search Bulksheets
 TQID: https://experienceleague.adobe.com/N2xYU3CSbNaftsEOKKyXDjDQRYeqhYOolhf5ZyCPiGA
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 726
@@ -39,7 +42,7 @@ ht-degree: 0%
 >
 >* 大量数据需要更长的时间才能发布。 您可以在[!UICONTROL Progress]视图的[!UICONTROL Bulksheets]列中跟踪文件的进度。
 >* 所有发布的数据都受制于网络的编辑流程。
-* 在发布批量工作表文件之前，您可以取消发布。
+>* 在发布批量工作表文件之前，您可以取消发布。
 
 ## 批量工作表和已更正错误文件的发布设置 {#bulksheet-post-settings}
 

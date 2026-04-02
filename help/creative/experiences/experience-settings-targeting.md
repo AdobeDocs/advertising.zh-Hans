@@ -4,9 +4,13 @@ description: 请参阅针对性广告体验的所有设置的描述。
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
 TQID: https://experienceleague.adobe.com/u5o-it-rntU70Ugf-3m7G4zcxjJrhkg0hubs34HVHFw
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: b2025470-04ef-4dd9-bdd4-44407644aeb6id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 1184

@@ -4,9 +4,12 @@ description: 了解如何生成专业报告。
 exl-id: 2428fafa-109a-4a17-9004-a32941cd5519
 feature: Search Reports, Search Specialty Reports
 TQID: https://experienceleague.adobe.com/07Y3trfC76LSKTfxMQig34wXASS1noGms2QHl3dEA1s
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 343

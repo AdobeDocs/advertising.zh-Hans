@@ -4,8 +4,10 @@ description: 了解如何将 [!DNL Google Ads] 共享标注扩展分配给营销
 exl-id: 9b3b8454-da14-4506-a92c-6796dd5fe903
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/Mz52mqUJIG6-uN5gk6ySuih3mUi7XjTJVihrB2mxh2c
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 226
