@@ -58,9 +58,9 @@ ht-degree: 0%
 
 示例：
 
-`https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/cn/products/photoshop?[ftqs:[AdobeAMO]]`
 
-`https://www.adobe.com/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/cn/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
 ## 视频广告标记
 
@@ -74,9 +74,9 @@ ht-degree: 0%
 
 示例：
 
-`https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/cn/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
-`https://www.adobe.com/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/cn/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
 >[!MORELIKETHIS]
 >

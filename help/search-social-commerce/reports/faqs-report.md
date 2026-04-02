@@ -305,7 +305,7 @@ ht-degree: 0%
 +++
 
 +++收入数据与Adobe Analytics中的数据不同
-请参阅[https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html).<!-- change link URL to relative link -->
+请参阅[https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=zh-Hans](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=zh-Hans).<!-- change link URL to relative link -->
 +++
 
 ## 特定报告
