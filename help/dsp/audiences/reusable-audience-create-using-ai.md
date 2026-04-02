@@ -5,9 +5,9 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: d450159cfcc0298a0bb9bb0984cd49ac75836519
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 0%
 *Beta功能*
 
 *仅支持英语*
-
-<!-- I thought it was all segment types? -->
 
 <!-- Redo the legacy file to include the new info. It's probably cleanest to keep it as two separate procedures (gen AI and manually) rather than one big, long procedure. -->
 
@@ -52,17 +50,17 @@ ht-degree: 0%
 
       有关详细信息，请参阅&quot;[正在编写提示](#writing-prompts)&quot;和&quot;[创建受众简介的最佳实践](#audience-brief-best-practices)&quot;。
 
-      当受众代理找到相关的区段时，它会根据您的条件创建受众表达式。 在查找匹配区段以组合受众之前，它还会要求您审批。
+      当受众代理找到相关区段时，它根据您的条件创建一个布尔受众表达式。 在查找匹配区段以组合受众之前，它还会要求您审批。
 
       您可以选择忽略请求并继续指定其他受众条件。
 
    1. 当受众代理呈现足以描述您的受众的受众表达式时，请告知受众代理继续组合受众。
 
-      您可以输入“继续”、“确定”、“确定”、“是”或其他类似词语。
+      您可以输入“继续”、“确定”、“确定”、“是”或其他类似词语。 工程师会列出每个特征的所有建议区段（如“Parents”）。 展开任何特征可查看有关为该特征建议的各个区段的详细信息。
 
    1. （如有必要）指定其他标准。 当受众代理呈现符合所有标准的受众表达式时，请告知受众代理继续组合受众。
 
-      要集合受众，请输入“继续”、“确定”、“是”或其他类似词语。
+      要集合受众，请输入“继续”、“确定”、“是”或其他类似词语。 工程师会列出每个特征的所有建议区段（如“Parents”）。 展开任何特征可查看有关为该特征建议的各个区段的详细信息。
 
 1. 如果您对组合受众感到满意，请单击&#x200B;**[!UICONTROL Create]**&#x200B;以创建指定的受众。
 
