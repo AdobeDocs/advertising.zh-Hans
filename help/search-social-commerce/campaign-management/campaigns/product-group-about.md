@@ -3,9 +3,16 @@ title: 关于购物产品组
 description: 了解购物营销活动中的购物产品组。
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/P3QrbE-JI1XMVzAqA4Pb8jO1t9bRNN-x1q0ehpBvaPw
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: 721
 ht-degree: 0%
 
 ---
@@ -50,7 +57,7 @@ ht-degree: 0%
   >
   >([!DNL Microsoft Advertising])仅当未在产品信息源的自定义列中包含搜索、社交和Commerce跟踪URL时，才使用此选项。 如果同时执行这两个操作，则URL将包含两个重定向，并导致链接断开。
 
-* （仅限[!DNL Microsoft Advertising]）将跟踪URL添加到[!DNL Microsoft Merchant Center]帐户内的产品数据中。 为此，请在产品信息源中名为[`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0)的自定义列中包含跟踪URL以及`link`或`mobile_link`字段中的值（如果适用）。 使用此方法生成的URL不包含在Search、Social和Commerce的帐户或营销活动设置中指定的任何跟踪参数。
+* （仅限[!DNL Microsoft Advertising]）将跟踪URL添加到[!DNL Microsoft Merchant Center]帐户内的产品数据中。 为此，请在产品信息源中名为`link` `mobile_link`的自定义列中包含跟踪URL以及[`bingads_redirect`或](https://help.ads.microsoft.com/#apex/3/en/51084/0)字段中的值（如果适用）。 使用此方法生成的URL不包含在Search、Social和Commerce的帐户或营销活动设置中指定的任何跟踪参数。
 
 您可以在[的[!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md)中查看有关产品组的数据。
 

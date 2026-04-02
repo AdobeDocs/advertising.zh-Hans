@@ -3,9 +3,16 @@ title: 关于站点链接扩展
 description: 了解站点链接扩展。
 exl-id: c2d96440-62da-4b57-a98e-d7b94882d6c5
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/lOrTOUXOFT7cvY5cEilRiROSfIbmcI9v8vU2MVZlg7U
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: 344
 ht-degree: 0%
 
 ---
@@ -20,13 +27,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Sitelinks]和[!UICONTROL Associations]视图
 
-[!UICONTROL Campaigns] > [!UICONTROL Campaigns]中的[!UICONTROL Extensions] > [!UICONTROL Sitelinks]库列出了所有帐户级别的站点链接，您可以在该处创建和管理共享站点链接。 有关每个[[!DNL Google Ads] 帐户](https://support.google.com/google-ads/answer/6372658)和每个[[!DNL Microsoft Advertising] 帐户](https://help.ads.microsoft.com/#apex/3/en/52001)的广告扩展最大数量，请参阅广告网络帮助。 在将库中的站点链接分配给帐户实体之前，不会将其用于广告。
+[!UICONTROL Extensions] > [!UICONTROL Sitelinks]中的[!UICONTROL Campaigns] > [!UICONTROL Campaigns]库列出了所有帐户级别的站点链接，您可以在该处创建和管理共享站点链接。 有关每个[[!DNL Google Ads] 帐户](https://support.google.com/google-ads/answer/6372658)和每个[[!DNL Microsoft Advertising] 帐户](https://help.ads.microsoft.com/#apex/3/en/52001)的广告扩展最大数量，请参阅广告网络帮助。 在将库中的站点链接分配给帐户实体之前，不会将其用于广告。
 
 从[!UICONTROL Extensions] > [!UICONTROL Associations]视图中，您可以将任意站点链接作为可能的扩展名分配给帐户级别（仅限[!DNL Google Ads]）、营销活动级别或广告组级别（仅限[!DNL Google Ads]）的所有广告。
 
 ## 站点链接的性能数据
 
-搜索、Social和Commerce将单击广告扩展并将所得的转化映射到与包含该扩展的广告关联的关键字。 搜索、Social和Commerce中提供了扩展级别的免费或点击数据。 但是，在[的[!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)中，当“链接类型”列中的值列为`sl:<Sitelink text>`时，例如sl：See Current Offers，您可以判断事务是否来自Sitelink（而不是来自广告本身）。
+搜索、Social和Commerce将单击广告扩展并将所得的转化映射到与包含该扩展的广告关联的关键字。 搜索、Social和Commerce中提供了扩展级别的免费或点击数据。 但是，在[的[!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)中，当“链接类型”列中的值列为`sl:<Sitelink text>`（如sl:See当前选件）时，您可以判断事务是否来自Sitelink（而不是来自广告本身）。
 
 在[!DNL Google Ads]和[!DNL Microsoft Advertising]中，您可以在[!DNL Ad Extensions]选项卡上查看成本并单击数据。
 

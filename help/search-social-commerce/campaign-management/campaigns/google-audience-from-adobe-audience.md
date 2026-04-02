@@ -1,11 +1,20 @@
 ---
-title: 创建来自 [!DNL Adobe] 受众的 [!DNL Google Ads] 客户匹配受众
+title: 创建来自 [!DNL Google Ads] 受众的 [!DNL Adobe] 客户匹配受众
 description: 了解如何从现有Adobe Analytics和Audience Manager受众创建 [!DNL Google Ads] 客户匹配受众。
 exl-id: 7de95ebb-24b0-459f-83c0-7b85b0c0576d
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/Ep3X-eo2kcGlW3NsV3CJEKBkEapa-oAv0HLexc1xnhM
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: 566
 ht-degree: 0%
 
 ---
@@ -28,7 +37,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Search、Social和Commerce不存储用于创建或编辑[!DNL Google]受众的[!DNL Adobe]区段中的任何客户数据。
+>Search、Social和Commerce不存储用于创建或编辑[!DNL Adobe]受众的[!DNL Google]区段中的任何客户数据。
 
 1. 根据需要完成先决条件：
 
@@ -44,7 +53,7 @@ ht-degree: 0%
 
       示例： `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
 
-   1. （如果尚未完成）授权用户必须将广告商帐户配置为与Adobe Experience Cloud[&#128279;](/help/search-social-commerce/admin/sync-adobe-audiences.md)中的广告商组织帐户同步。
+   1. （如果尚未完成）授权用户必须将广告商帐户配置为与Adobe Experience Cloud[中的广告商组织帐户](/help/search-social-commerce/admin/sync-adobe-audiences.md)同步。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
 
@@ -56,11 +65,11 @@ ht-degree: 0%
 
    1. 在&#x200B;**[!UICONTROL Data Source]**&#x200B;菜单中选择&#x200B;**[!UICONTROL Adobe Audience]**。
 
-   1. 选择[!DNL Google]受众所基于的[!UICONTROL Adobe Audience]。
+   1. 选择[!UICONTROL Adobe Audience]受众所基于的[!DNL Google]。
 
       >[!NOTE]
       >
-      >已用于其他[!DNL Google]受众的[!DNL Adobe]受众不可用。
+      >已用于其他[!DNL Adobe]受众的[!DNL Google]受众不可用。
 
       您可以选择搜索包含至少三个字符的特定文本字符串的受众。 对于任何匹配的受众，单击&#x200B;**[!UICONTROL Include]**&#x200B;以将其选定。
 

@@ -3,9 +3,16 @@ title: '[!UICONTROL Keyword Daily Impression Share Report]'
 description: 了解[!UICONTROL Keyword Daily Impression Share Report]。
 exl-id: 761864db-a6ef-4155-8959-6c2c90f14a6b
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/KS0R-I1Dr92T0AwQcWianuX7EtGQY65vIGinY3Lbm-k
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: 137
 ht-degree: 0%
 
 ---
@@ -16,7 +23,7 @@ ht-degree: 0%
 
 [!UICONTROL Keyword Daily Impression Share Report]包括每个关键字的每日展示份额量度、相应的匹配类型以及一个或多个广告组或营销活动的相应设备类型。 默认情况下，对于指定日期范围内的每一天，每个关键字、匹配类型和设备都包含一行，该行针对每个适用的广告组至少接收一次展示或点击。 默认情况下，行按日期升序。 该报告可以选择包含[!DNL Adobe]跟踪的数据和派生的量度。
 
-展示份额量度在广告商前一天所在时区的13:00可用。 您可以查看前两个月的数据。
+展示共享量度在广告商前一天所在时区的13:00可用。 您可以查看前两个月的数据。
 
 ## 默认列
 

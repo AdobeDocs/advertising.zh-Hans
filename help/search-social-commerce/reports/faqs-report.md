@@ -3,9 +3,20 @@ title: 关于自定义报表的常见问题解答
 description: 了解有关性能报表的常见问题解答，包括数据问题疑难解答。
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
+TQID: https://experienceleague.adobe.com/2pGYTNuu54grOLUSyVpfQVttGWG8OMPCUrzAYmyIv0k
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '3922'
+source-wordcount: 3922
 ht-degree: 0%
 
 ---
@@ -27,14 +38,14 @@ ht-degree: 0%
 +++
 
 +++如果更改点击回顾窗口或展示回顾窗口，会发生什么情况？
-(仅限具有基于Advertising像素的转化跟踪服务的广告商)较长时间或更短的时段内会收集由初始点击产生的事件数据。
+（仅限具有基于Advertising像素的转化跟踪服务的广告商）较长时间或更短的时段内会收集由初始点击产生的事件数据。
 
 广告商的[点击回顾窗口](/help/search-social-commerce/glossary.md#c-d)和[展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)将分别确定付费点击或展示展示发生后（事件可归因于转化）的天数。 将值更改为更长或更短的时段对于点击收入或显示展示收入时段的广告商可能很重要。
 
 **最佳实践：**&#x200B;确保回顾时间范围比大多数关键词或广告的点击收入时间和展示收入时间长。 如果转换时间较短，则某些转化不会与初始点击或展示关联。
 +++
 
-+++如何知道[!DNL Google Ads]广告扩展或产品列表产生了哪些转化？
++++如何知道哪些转化源于[!DNL Google Ads]广告扩展或产品列表？
 您可以通过生成[!DNL Google Ads]来查看哪些转化是由于单击[!UICONTROL Transaction Report]广告扩展（而不是广告本身）或产品列表导致的。 [!UICONTROL Link Type]列值显示所点击链接的类型和标题：
 
 * 产品清单列为`pla:<product ID>`，如`pla:8525822`。
@@ -49,7 +60,7 @@ ht-degree: 0%
 
 +++
 
-+++我的报表中的“[!UICONTROL Keyword]”列包含值“（广告组内容）&lt;*广告组名称*>”。
++++我的报表中的“[!UICONTROL Keyword]”列包含值“（广告组内容） &lt;*广告组名称*>”。
 当行包含支持内容的搜索促销活动、显示促销活动或社交促销活动（不包含关键字）的数据时，[!UICONTROL Keyword]列将改为显示适用的广告组名称。
 +++
 
@@ -72,7 +83,7 @@ ht-degree: 0%
 
 ## 一般数据问题
 
-+++使用不同的归因规则生成的报表显示不同的总计。
++++使用不同归因规则生成的报表显示不同的总计。
 如果使用相同的报表参数多次生成报表，但归因规则不同，则数据可能会因以下任一原因而有所不同：
 
 * 点击基于日期的数据可能不在指定的日期范围内。
@@ -89,7 +100,7 @@ ht-degree: 0%
 
 +++
 
-+++尽管总计正确无误，但个别数据字段仍然不正确。
++++尽管总计正确无误，但个别数据字段仍不正确。
 当量度格式使用整数时，可能会出现这种情况：
 
 * 如果您创建格式为[没有小数点的数字](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)的&#x200B;*自定义量度*（将数据显示为整数），并将其包含在使用加权转化归因规则（[!UICONTROL Weight First Event More]、[!UICONTROL Weight Last Event More]或[!UICONTROL Even Distribution]）的视图或报表中，则输出将以整数而不是小数形式显示。 在这种情况下，单个数据字段可能不正确，尽管总数正确。 例如，如果某个顺序在三个事件之间平均分配，则三个事件的每个都会获得一个顺序（而不是0.33顺序）。 要解决此问题，[将度量格式](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)更改为&#x200B;*数字为2小数点*。
@@ -107,7 +118,7 @@ ht-degree: 0%
 默认情况下，报表中的所有货币数据均以美元的格式显示（如1,000.00）。 要以正确的货币格式显示值（但不包括CSV和TSV格式中的任何货币符号），请向报表中添加“[!UICONTROL Currency]”列。 如果报表包含具有不同货币的帐户的数据，则任何“[!UICONTROL Total]”货币值只是列中所有数字的总和，而不考虑货币。
 +++
 
-+++为什么我会看到转化量度应是自然数（1、2等）的小数值？
++++为什么我看到的转化指标的小数值应该是自然数（1、2等）？
 在以下情况下，您可能会看到小数值：
 
 * 如果您使用除[!UICONTROL Last Event]或[!UICONTROL First Event]之外的任何转化归因规则参数运行报告，则收入可能会在转化路径中的多个事件之间拆分。
@@ -140,7 +151,7 @@ ht-degree: 0%
 +++报表中的性能数据与[!DNL Google Analytics]中的数据不同。
 这两个系统测量不同的数据，因此您应该看到不同的数据。 例如：
 
-* 搜索、社交和Commerce(以及Google广告)跟踪点击次数，而[!DNL Google Analytics]跟踪每30分钟浏览器会话的访问次数。 例如，如果用户单击了您的广告一次，单击“返回”按钮，然后再次单击该广告，则Search、Social和Commerce会记录两次单击，但[!DNL Google Analytics]会记录一次访问。
+* 搜索、社交和Commerce（以及Google广告）跟踪点击次数，而[!DNL Google Analytics]跟踪每30分钟浏览器会话的访问次数。 例如，如果用户单击了您的广告一次，单击“返回”按钮，然后再次单击该广告，则Search、Social和Commerce会记录两次单击，但[!DNL Google Analytics]会记录一次访问。
 
 * [!DNL Google Analytics]显示所有流量数据，而Search、Social和Commerce（以及[!DNL Google Ads]）过滤无效点击（例如过度的、重复的点击）。
 
@@ -210,7 +221,7 @@ ht-degree: 0%
    客户关怀团队将检查文件是否已收到并解析。 如果处理文件时没有出现错误，则会检查孤立事务。
 +++
 
-+++某些高级报表不包含广告商信息源提供的转化数据。
++++某些高级报表不包含广告商信息源提供的转化数据。 
 [!UICONTROL Geo Distribution Report]和[!UICONTROL Domain Referral Report]使用通过Adobe Advertising转换跟踪服务捕获的数据，并且只能为使用该服务的广告商生成。 这些报表不包括在Adobe Advertising转化跟踪系统之外跟踪的转化数据。
 +++
 
@@ -293,7 +304,7 @@ ht-degree: 0%
    客户关怀团队将检查数据解析错误和孤立事务。
 +++
 
-+++收入数据不同于Adobe Analytics中的数据
++++收入数据与Adobe Analytics中的数据不同
 请参阅[https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=zh-Hans](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=zh-Hans).<!-- change link URL to relative link -->
 +++
 
@@ -308,7 +319,7 @@ ht-degree: 0%
 +++
 
 +++[!UICONTROL Model Accuracy] > [!UICONTROL Forecast Accuracy Report]与项目组合级别[!UICONTROL Model Accuracy Report]有何不同？
-(仅限代理客户经理、Adobe客户经理和管理员用户)从[!UICONTROL Forecast Accuracy Report] > [!UICONTROL Reports]中可用的[!UICONTROL Model Accuracy]与项目组合级别[!UICONTROL Model Accuracy Report]提供相同数据，只是您可以跨多个项目组合运行它并更改归因规则。 您还可以使用自定义参数运行和计划报表，并使用该报表创建电子表格馈送。 此外，[!UICONTROL Forecast Accuracy Report]比旧版项目组合级别报表更准确，因为它使用项目组合的历史目标而不是当前目标评估收入准确性，并且它更准确地表示适用时区的数据。
+（仅限代理客户经理、Adobe客户经理和管理员用户）从[!UICONTROL Forecast Accuracy Report] > [!UICONTROL Reports]中可用的[!UICONTROL Model Accuracy]与项目组合级别[!UICONTROL Model Accuracy Report]提供相同数据，只是您可以跨多个项目组合运行它并更改归因规则。 您还可以使用自定义参数运行和计划报表，并使用该报表创建电子表格馈送。 此外，[!UICONTROL Forecast Accuracy Report]比旧版项目组合级别报表更准确，因为它使用项目组合的历史目标而不是当前目标评估收入准确性，并且它更准确地表示适用时区的数据。
 +++
 
 +++广告级别的数据不适用于[!DNL Google Ads]动态搜索广告(DSA)、最佳效果、智能购物和[!DNL YouTube]营销活动。
@@ -319,26 +330,26 @@ ht-degree: 0%
 在交易报表中，如果您包含自定义列“[!UICONTROL Tracking URL]”，则可以判断所包含的转化量度是否被Adobe Advertising跟踪像素跟踪。 使用Adobe Advertising跟踪像素跟踪URL以“`http://pixel.everesttech.net`”开头。
 +++
 
-+++我的[!UICONTROL Transaction Report]中的数据与我的[!UICONTROL Keyword Report]中的数据不匹配。
++++我的[!UICONTROL Transaction Report]中的数据与[!UICONTROL Keyword Report]中的数据不匹配。
 在按项目组合生成这两个报表时，如果使用历史数据（即基于指定日期内的项目组合配置）而不是使用当前营销活动的数据来生成[!UICONTROL Keyword Report]，则数据将不同。 在按项目组合生成[!UICONTROL Transaction Report]时，它包括项目组合中当前促销活动的数据。
 +++
 
 ## 电子表格馈送
 
-+++报告输出包含日期范围的组合。
++++报表输出包含日期范围的组合。
 如果信息源使用“[!UICONTROL Daily]”以外的任何数据聚合级别聚合数据，则您可能会看到不同的日期范围。
 
 要解决此问题，请更新电子表格馈送以包含每天汇总的数据。 此任务包括更新报告模板、使用该模板生成报告、使用该报告创建自定义[!DNL Microsoft Excel]模板，然后更新馈送设置以包括新的Excel模板。 有关详细信息，请参阅“[编辑电子表格报表源设置](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md)”。
 +++
 
-+++电子表格馈送导致内部错误。
++++电子表格馈送会导致内部错误。
 如果您更改报告模板中的列，但未相应地更新[!DNL Microsoft Excel]模板，则可能会发生此错误。
 
 要解决此问题，请更新电子表格馈送以包含新列。 此任务包括更新报告模板、使用该模板生成报告、使用该报告创建自定义[!DNL Excel]模板，然后更新馈送设置以包括新的Excel模板。 有关详细信息，请参阅“[编辑电子表格报表源设置](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md)”。
 +++
 
 +++当我尝试在[!DNL Excel]中打开电子表格馈送时，[!DNL Excel]报告“无法读取的内容”错误，并从恢复的内容中删除数据。
-当[!DNL Microsoft Excel]模板不按开始日期升序对数据排序时，电子表格馈送可能包含空白行。 特别是，[!DNL Excel]报告错误“Excel在“&lt;*报告名称*>.xlsx”中发现不可读的内容。 是否要恢复工作簿的内容？ 如果您信任此工作簿的来源，请单击“是”。 如果单击“是”，您将收到以下消息：“删除的记录：来自/xl/worksheets/sheet1.xml部件的单元格信息”，并且电子表格馈送包含空白行。
+当[!DNL Microsoft Excel]模板不按开始日期升序对数据排序时，电子表格馈送可能包含空白行。 特别是，[!DNL Excel]报告错误“Excel在&#39;&lt;*报告名称*>.xlsx.&#39;中发现不可读的内容。” 是否要恢复工作簿的内容？ 如果您信任此工作簿的来源，请单击“是”。 如果单击“是”，您将收到以下消息：“删除的记录：来自/xl/worksheets/sheet1.xml部件的单元格信息”，并且电子表格馈送包含空白行。
 
 要解决此问题，请编辑与馈送关联的[!DNL Excel]模板以按[!DNL Start date in Ascending (Oldest to Newest) order]对数据排序，然后通过电子表格馈送设置上传更新的模板。 有关详细信息，请参阅“[编辑电子表格报表源](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md)”。
 +++

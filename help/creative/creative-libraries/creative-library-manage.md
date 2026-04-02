@@ -3,9 +3,14 @@ title: 管理您的创意库
 description: 了解如何创建、重命名和删除创意库。
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-source-git-commit: 5bbc8b17b0f88c928b6ab2b8805ecec10bb398fb
+TQID: https://experienceleague.adobe.com/W91cDnClbrELWT6Mm8gSIhKSTRhTjoT0w-SC20OG4M0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: 266
 ht-degree: 0%
 
 ---

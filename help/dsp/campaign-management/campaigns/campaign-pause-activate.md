@@ -3,9 +3,18 @@ title: 暂停或激活营销活动
 description: 了解如何暂停或激活实时营销活动。
 feature: DSP Campaigns
 exl-id: ed199864-8532-411b-b8ea-443ee1c149a2
-source-git-commit: 85d0697069569bed352af5ec1fea023220eec263
+TQID: https://experienceleague.adobe.com/9yyo5YD0rBdu9HWvQIPhut5RofHRE-H-0F5qUSzYvU0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: 105
 ht-degree: 0%
 
 ---

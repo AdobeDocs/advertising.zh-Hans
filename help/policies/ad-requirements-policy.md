@@ -3,9 +3,24 @@ title: Adobe Advertising广告要求策略
 description: 有关广告要求，请参阅策略。
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+TQID: https://experienceleague.adobe.com/Od9i55zraQgaZGD1iWLFX6CcfXnUqCsrHQHt58tiHfU
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: bc1ebc31-ef28-453d-ab0e-79fb34941421
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+  - id: fcb67316-5ddd-4bee-82b6-d36475c67b56
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '2190'
+source-wordcount: 2190
 ht-degree: 0%
 
 ---

@@ -3,9 +3,14 @@ title: 图像转换跟踪标记的格式
 description: 引用图像转换跟踪标记的格式。
 exl-id: e23107e1-b719-4572-a471-13e51387465d
 feature: Search Tracking
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+TQID: https://experienceleague.adobe.com/TQMACo5-LkbCU2SiMmUE-ZDBRTb8NERQPQ9ISzU0DdU
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: 249
 ht-degree: 0%
 
 ---
@@ -32,7 +37,7 @@ ht-degree: 0%
 
 * `<transid>`是广告商生成并传递的唯一交易ID（如实际订单ID）以标识交易。 仅当选择了“[!UICONTROL Include unique transaction IDs]”选项时才包含在内。
 
-  搜索、Social和Commerce使用交易ID来消除具有相同交易ID和属性值的重复交易。 交易ID包含在[!UICONTROL Transaction Report]中，您可以使用它来验证包含广告商数据的Adobe Advertising中的数据。 **注意：**&#x200B;如果广告商的数据不包括每个交易的唯一ID，则Search、Social和Commerce仍会根据交易时间生成一个ID。
+  搜索、Social和Commerce使用交易ID来消除具有相同交易ID和属性值的重复交易。 交易ID包含在[!UICONTROL Transaction Report]中，您可以使用该ID验证Adobe Advertising中的数据与广告商的数据。 **注意：**&#x200B;如果广告商的数据不包括每个交易的唯一ID，则Search、Social和Commerce仍会根据交易时间生成一个ID。
 
 <!-- add more links -->
 

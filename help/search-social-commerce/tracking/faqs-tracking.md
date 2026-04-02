@@ -3,9 +3,17 @@ title: 有关跟踪的常见问题解答
 description: 了解有关跟踪的常见问题解答，包括疑难解答问题。
 exl-id: e5302c09-0b40-47ae-bc88-9299e6bd3044
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/KLlUxOpfUEgKdbfbj2ri0o1brljc6spN4AtMRKXrdrQ
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: 1190
 ht-degree: 0%
 
 ---
@@ -14,14 +22,14 @@ ht-degree: 0%
 
 ## 跟踪功能
 
-+++我可以跟踪Adobe Advertising不管理的营销活动吗？
++++我是否可以跟踪Adobe Advertising未管理的营销活动？
 
 是的。 如果Search、Social和Commerce正在同步您的某个广告网络帐户，则它将跟踪该帐户中所有[支持的促销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)的广告网络点击数据。 如果您已将搜索、社交和Commerce重定向添加到广告和/或关键词目标URL或跟踪模板，并在转化页面中实施转化跟踪，则它还跟踪转化数据。 向您的Adobe客户团队阐明您希望Search、Social和Commerce轻松跟踪以及希望他们管理哪些营销活动。
 +++
 
 +++如何获取多事件归因？
 
-对于使用Search、Social和Commerce或Adobe Analytics转化跟踪标记的广告商，Adobe Advertising提供了多个选项，可用于对一系列导致转化的事件中的转化数据进行归因。 广告商级别设置确定如何跨事件归因转化数据，即使转化数据跨多个广告渠道发生也是如此，只要这些渠道允许在事件级别进行展示跟踪。 默认情况下，转化会被归因于最后一个（最新）事件，但可以对该设置进行不同的配置，例如将转化归因于第一个事件或均匀加权所有事件。 更改归因规则会影响未来竞价的计算方式。
+对于使用“搜索”、“Social”和“Commerce”或“Adobe Analytics”转化跟踪标记的广告商，Adobe Advertising提供了多个选项，用于按一系列导致转化的事件来归因转化数据。 广告商级别设置确定如何跨事件归因转化数据，即使转化数据跨多个广告渠道发生也是如此，只要这些渠道允许在事件级别进行展示跟踪。 默认情况下，转化会被归因于最后一个（最新）事件，但可以对该设置进行不同的配置，例如将转化归因于第一个事件或均匀加权所有事件。 更改归因规则会影响未来竞价的计算方式。
 
 在馈送文件中提供所有转化数据的广告商必须将转化归因于相关交易事件本身。
 
@@ -31,9 +39,9 @@ ht-degree: 0%
 
 +++
 
-+++Adobe Advertising如何识别重复的事务？
++++Adobe Advertising如何识别重复交易？
 
-当用户完成事务后刷新确认页面时，可能会发生重复事务。 Adobe Advertising使用`ev_transid`属性来消除具有相同事务ID和属性值的重复事务。
+当用户完成事务后刷新确认页面时，可能会发生重复事务。 Adobe Advertising使用`ev_transid`属性来消除具有相同交易ID和属性值的重复交易。
 
 以下是Adobe Advertising的重复数据消除逻辑：
 
@@ -48,9 +56,9 @@ ht-degree: 0%
 
 ## 跟踪实施的类型
 
-+++我要停止对一个或多个Adobe Advertising或帐户使用转化跟踪服务。 如何从跟踪URL中快速删除跟踪代码？
++++我要停止将Adobe Advertising转化跟踪服务用于一个或多个营销活动或帐户。 如何从跟踪URL中快速删除跟踪代码？
 
-首先，请咨询您的Adobe客户团队，以了解删除跟踪URL的影响。
+首先，请咨询您的Adobe客户团队，了解删除跟踪URL的影响。
 
 在帐户或营销活动中，将跟踪方法更改为“[!UICONTROL No EF Redirect]”。 然后，使用&quot;[!UICONTROL Generate Tracking URLs]&quot;选项创建批量处理工作表，并将其发布到广告网络。 所有现有跟踪URL或目标URL将被替换。
 +++
@@ -59,14 +67,14 @@ ht-degree: 0%
 
 +++如何知道哪个转化量度来自数据馈送或被Adobe Advertising转化跟踪标记跟踪？
 
-在[!UICONTROL Transaction Report]中，如果包含自定义列“[!UICONTROL Tracking URL]”，则您可以知道Adobe Advertising转化跟踪像素是否跟踪了包含的转化量度。 以Adobe Advertising跟踪像素的跟踪URL以`http://pixel.everesttech.net`开头。
+在[!UICONTROL Transaction Report]中，如果包含自定义列“[!UICONTROL Tracking URL]”，则您可以判断所包含的转化量度是否被Adobe Advertising转化跟踪像素跟踪。 使用Adobe Advertising跟踪像素跟踪URL以`http://pixel.everesttech.net`开头。
 +++
 
 +++什么是孤立交易？
 
-孤立事务是不能与特定关键字或广告关联的事务事件。 Adobe Advertising将收到的跟踪ID与关键字或广告的跟踪URL中的唯一跟踪ID进行匹配，从而将交易/收入归因于关键字或广告。
+孤立事务是不能与特定关键字或广告关联的事务事件。 Adobe Advertising将收到的跟踪ID与收入事件相匹配，从而将交易/收入归因于关键字或广告的跟踪URL中的唯一跟踪ID。
 
-当Adobe客户团队怀疑是孤儿交易导致收入下降时，客户关怀团队会检查是否存在孤儿，如果发现任何孤儿，会调查问题。
+当Adobe客户团队怀疑是孤儿交易导致收入下降时，客户关怀团队会检查孤儿，如果发现任何孤儿，会调查问题。
 
 在以下情况下会发生孤立。
 
@@ -101,7 +109,7 @@ ht-degree: 0%
 
 ## 收入跟踪问题
 
-+++如何修复馈送文件中的旧/错误数据？
++++如何修复信息源文件中的旧/不正确数据？
 
 联系客户关怀团队，提供更正后的数据文件。
 +++
@@ -122,5 +130,5 @@ ht-degree: 0%
 
 * 如果您管理自己的关键词和广告，请为重复的URL创建一个具有正确URL的批量工作表文件，并使用&#x200B;**[!UICONTROL Generate Tracking URLs]**&#x200B;选项将其发布到相应的帐户，该选项会为所有关键词和广告重新生成URL。
 
-* 如果Adobe客户团队管理您的关键词，则要求他们为重复的URL创建新URL。
+* 如果Adobe客户团队管理您的关键词，则让他们为重复的URL创建新URL。
 +++

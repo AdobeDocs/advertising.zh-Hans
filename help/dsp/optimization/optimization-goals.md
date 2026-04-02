@@ -3,9 +3,21 @@ title: 优化目标以及如何使用它们
 description: 引用可用的优化目标并查看何时使用它们。
 feature: DSP Optimization
 exl-id: ad684c99-7ae5-48eb-abfe-d48fd3d34cd0
-source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
+TQID: https://experienceleague.adobe.com/tXpu15rRnymQnSr8rofAbydRERR94o1-CB-ElxxbHN4
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: 1578
 ht-degree: 0%
 
 ---

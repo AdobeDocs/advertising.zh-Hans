@@ -3,9 +3,19 @@ title: ' [!DNL FreeWheel] 广告提交的错误代码'
 description: 引用向 [!DNL FreeWheel]提交广告时返回的错误代码。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
+TQID: https://experienceleague.adobe.com/z2fbEvduZZcevSEsUVLQmIpGKoZp2P2luGI1pmOrbic
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: ac506c20-96f2-48f6-9096-77706e336bda
+  - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: 641
 ht-degree: 3%
 
 ---

@@ -3,9 +3,14 @@ title: 显示和隐藏趋势图
 description: 了解如何查看和隐藏某些营销活动管理视图中数据的趋势图。
 exl-id: fa58b123-648f-4a95-86f0-3c38fa89cb28
 feature: Search Common Tasks
-source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
+TQID: https://experienceleague.adobe.com/1pWiwFSlyTdsH3-dIBk3Z8rMFKZuZEzmeflNWqFaABc
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: 229
 ht-degree: 0%
 
 ---

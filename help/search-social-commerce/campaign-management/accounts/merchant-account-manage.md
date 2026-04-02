@@ -3,9 +3,14 @@ title: 管理商家帐户
 description: 了解如何设置和管理商户中心帐户的帐户详细信息。
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+TQID: https://experienceleague.adobe.com/u5LpCPL1I8lLHD9n1cDT1rEPvCcultnuhIVcn7IqxnY
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: 789
 ht-degree: 0%
 
 ---
@@ -62,7 +67,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
-   下次进行每日同步后，可在Search、Social和Commerce中找到帐户中所有产品的属性数据（大约为用户的当地时区06:00）。 然后，您可以使用产品数据通过清单馈送来自动创建广告。
+   下次进行每日同步过程后，可在Search、Social和Commerce中找到帐户中所有产品的属性数据（大约为用户的本地时区的06:00）。 然后，您可以使用产品数据通过清单馈送来自动创建广告。
 
 ## 编辑商家帐户详细信息 {#edit-merchant-account}
 
@@ -84,7 +89,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->搜索、社交和Commerce必须将新帐户数据与商家网络上的帐户数据同步。 此调用每天大约在用户本地时区的06:00自动发生一次。
+>搜索、社交和Commerce必须将新帐户数据与商家网络上的帐户数据同步。 大约在用户本地时区的06:00每天自动发生一次。
 
 ## 禁用对商户帐户的访问 {#disable-merchant-account}
 

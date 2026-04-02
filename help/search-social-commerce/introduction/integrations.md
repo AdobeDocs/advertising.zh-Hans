@@ -3,9 +3,20 @@ title: 与Adobe Experience Cloud解决方案和服务集成
 description: 了解Search、Social和Commerce与Adobe Experience Cloud解决方案和服务的集成。
 exl-id: 26456f60-937a-4f39-b5cf-a71c1c1b4833
 feature: Search Introduction
-source-git-commit: 3f91cd92a364a8e9dd569bd590c59740ea1493d7
+TQID: https://experienceleague.adobe.com/vIjCxWutfGn8H9-TqxLvztNazb9RWq7ECeoOQXLfyEw
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: 573
 ht-degree: 0%
 
 ---

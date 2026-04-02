@@ -3,9 +3,14 @@ title: 将 [!DNL Google Ads] 共享的标注扩展与营销活动或广告组关
 description: 了解如何将 [!DNL Google Ads] 共享标注扩展分配给营销活动或广告组。
 exl-id: 9b3b8454-da14-4506-a92c-6796dd5fe903
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/Mz52mqUJIG6-uN5gk6ySuih3mUi7XjTJVihrB2mxh2c
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: 226
 ht-degree: 0%
 
 ---
@@ -14,7 +19,7 @@ ht-degree: 0%
 
 仅&#x200B;*[!DNL Google Ads]个帐户*
 
-您可以在[已同步 [!DNL Google Ads] 帐户](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)内为搜索网络上的任何[支持的 [!DNL Google Ads] 促销活动或广告组](/help/search-social-commerce/introduction/supported-inventory.md)创建并分配标注扩展。
+您可以在[已同步 [!DNL Google Ads] 帐户](/help/search-social-commerce/introduction/supported-inventory.md)内为搜索网络上的任何[支持的 [!DNL Google Ads] 促销活动或广告组](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)创建并分配标注扩展。
 
 请为每个促销活动或广告组至少分配两个标注，以便您的广告有资格显示标注。
 

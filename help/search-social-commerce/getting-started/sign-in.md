@@ -3,16 +3,23 @@ title: 登录
 description: 了解登录方式。
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 450c66bf798ae98accc75d0233db061348e19a57
+TQID: https://experienceleague.adobe.com/kkgk8VMLaF3phB1rVzMoxdOkgPWWk-fTqs8U2aGPJxw
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: 363
 ht-degree: 0%
 
 ---
 
 # 登录
 
-Search、Social和Commerce正在过渡到Adobe Identity Management服务(IMS)以进行登录身份验证。 IMS使用联合ID为支持IMS的所有[!DNL Adobe]产品(包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics)提供单点登录(SSO)访问。 更改后：
+Search、Social和Commerce正在过渡到Adobe Identity Management服务(IMS)以进行登录身份验证。 IMS使用联合ID为支持IMS的所有[!DNL Adobe]产品（包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics）提供单点登录(SSO)访问。 更改后：
 
 * 您可以使用一个[!DNL Adobe ID]从Experience Cloud登录页面或旧版Search、Social和Commerce登录页面跨[!DNL Adobe]产品登录。 您的[!DNL Adobe ID]提供用户配置文件管理，并可从顶部菜单切换到其他[!DNL Adobe]产品。 在将来的版本中，您将能够从顶部菜单中更改Search、Social和Commerce帐户以及IMS组织帐户。
 

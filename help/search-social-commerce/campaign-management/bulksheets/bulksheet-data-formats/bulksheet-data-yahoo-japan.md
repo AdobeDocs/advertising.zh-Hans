@@ -3,9 +3,16 @@ title: ' [!DNL Yahoo! Japan] 帐户的批量工作表数据'
 description: 引用 [!DNL Yahoo! Japan] 帐户的已下载批量处理工作表中的标题字段和数据字段。
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
+TQID: https://experienceleague.adobe.com/HghB6y4AbEXvI6IrJhdxm-rpg69-ozYTIHRcPDoQ5jA
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '2672'
+source-wordcount: 2672
 ht-degree: 0%
 
 ---
@@ -28,7 +35,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign Budget] | 必需： Create<br><br>可选：编辑或删除 | 不适用 | 不适用 | 不适用 | 不适用 | 竞选活动的每日支出限制，无论是否带有货币符号和标点。 此值将覆盖但不能超过帐户预算。 |
 | [!UICONTROL Delivery Method] | 必需： Create<br><br>可选：编辑或删除 | 不适用 | 不适用 | 不适用 | 不适用 | 每天显示促销活动广告的速度：<ul><li>*[!UICONTROL Standard (Distributed)]*（新营销活动的默认值）：用于将广告展示次数分散到一整天里。</li><li>*[!UICONTROL Accelerated]：*&#x200B;在达到预算之前，尽可能多地显示您的广告。 因此，您的广告可能不会在当天晚些时候显示。</li></ul> |
 | [!UICONTROL Mobile Bid Adjustment] | 可选 | 可选 | 不适用 | 不适用 | 不适用 | 是否要在移动设备上竞标广告，可以在促销活动级别或广告组级别进行：<ul><li>要使用现有的移动竞价调整，请将此项留空。</li><li>若要不为移动设备上的广告竞价，请输入`-100`。</li><li>要在移动设备上与桌面设备和平板设备上的广告使用相同的竞价来竞价广告（差异为0%），请输入`0`。 对于新的营销策划，您也可以将此项留空。</li><li>要在使用其他竞价的移动设备上竞价广告，请输入增加或减少竞价的百分比。 该值可以介于`-90`到`300`之间。</li></ul>如果在营销活动级别排除设备，则无法覆盖广告组级别的排除项。<br><br><b>注释：</b><ul><li>广告组会继承营销活动级别的设置，但您可以覆盖这些设置。</li><li>如果将促销活动分配给优化的项目组合，则优化功能会自动确定基本关键字级别的竞价，以帮助项目组合实现其目标。 然后，广告网络会按照为移动广告指定的方式调整竞价。</li><li>如果将促销活动或广告组分配给优化的项目组合：<ul><li>优化功能会自动确定基本关键字级别的竞价，以帮助项目组合实现其目标。 然后，搜索网络按照为移动广告指定的方式调整竞价。</li><li>如果将项目组合配置为“[!UICONTROL Auto-optimize Bid Adjustment Values]”，则优化功能会更改广告组级别的竞价调整，前提是它计算的理想值落在项目组合设置中指定的最小值和最大值内，并且广告组不排除移动广告的竞价。</li></ul></li></ul> |
-| [!UICONTROL Location] | 不适用 | 不适用 | 不适用 | 不适用 | 可选 | 投放营销活动广告的地理位置。 对于城市，请使用格式“&lt;<i>City</i>>， &lt;</i>Previous</i>>”（如Adachi， Tokyo）。 要排除位置，请用减号(`-`)为位置添加前缀。 如果不输入促销活动的特定值，则会定位所有位置。 |
+| [!UICONTROL Location] | 不适用 | 不适用 | 不适用 | 不适用 | 可选 | 投放营销活动广告的地理位置。 对于城市，请使用格式“&lt;<i>City</i>>， &lt;</i>Previous</i>>”（例如Adachi， Tokyo）。 要排除位置，请用减号(`-`)为位置添加前缀。 如果不输入促销活动的特定值，则会定位所有位置。 |
 | [!UICONTROL Location Type] | 不适用 | 不适用 | 不适用 | 不适用 | 必需/可选 | （定位特定位置时必需）指定的位置是[!UICONTROL Prefecture]类型还是[!UICONTROL City]类型。 |
 | [!UICONTROL Ad Group Name] | 不适用 | 必填 | 必填 | 必填 | 不适用 | 广告组名称在营销活动中是唯一的。 最大长度为50个字符。 |
 | [!UICONTROL Max CPC] | 不适用 | 可选 | 可选 | 不适用 | 不适用 | 最高每次点击成本(CPC)，在搜索网络上为广告点击支付的最高金额，无论是否带有货币符号和标点。 您可以设置广告组和关键字的值。 新关键字的默认值继承自广告组级别。 |

@@ -3,9 +3,16 @@ title: 分析报告以优化您的关键词和促销活动设置
 description: 了解使用报表优化关键词和营销活动设置的最佳实践。
 exl-id: f1e3834b-2a6c-4d41-9355-70435a9e83e6
 feature: Search Best Practices
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+TQID: https://experienceleague.adobe.com/RJfrnMplFPld70TgLzc98p77-8pnM870Vv4ETt2gFeg
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: 255
 ht-degree: 0%
 
 ---
@@ -20,11 +27,11 @@ ht-degree: 0%
 
 * 将网站从营销活动中排除时要保守，因为内容和市场变化可能会迅速改变网站流量的值。
 
-有关调整关键词和促销活动设置的详细信息，请参阅“优化指南”的“Portfolio”部分中的“调整项目组合策略”，该指南可在Search、Social和Commerce中找到。<!-- verify convention for referencing Optimization Guide here -->
+有关调整关键词和营销活动设置的更多信息，请参阅“优化指南”的“项目组合”部分中的“调整项目组合策略”，该部分可在Search、Social和Commerce中找到。<!-- verify convention for referencing Optimization Guide here -->
 
 >[!TIP]
 >
->有关组合中特定于营销活动的更多最佳实践，另请参阅“优化指南”>“管理Portfolio”>“Portfolio的最佳实践”部分，该部分可在Search、Social和Commerce中找到。<!-- verify convention for referencing Optimization Guide here -->
+>有关项目组合中特定于营销活动的更多最佳实践，另请参阅“优化指南”>“管理项目组合”>“项目组合的最佳实践”部分，该部分可在Search、Social和Commerce中找到。<!-- verify convention for referencing Optimization Guide here -->
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,16 @@ title: ' [!DNL Microsoft Advertising] 帐户所需的批量处理工作表数据
 description: 引用 [!DNL Microsoft Advertising] 帐户批量工作表中必需的标题字段和数据字段。
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
+TQID: https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '6934'
+source-wordcount: 6934
 ht-degree: 0%
 
 ---
@@ -96,7 +103,7 @@ ht-degree: 0%
 | [!UICONTROL Location Status] | 位置目标的状态： <i>[!UICONTROL Active]</i>或<i>[!UICONTROL Deleted]</i> （仅限现有位置）。 新位置的默认值为[!UICONTROL Active]。 要删除活动位置，请输入值`Deleted`。 |
 | [!UICONTROL Product Group Status] | 产品组的显示状态： <i>[!UICONTROL Active]</i>或<i>[!UICONTROL Deleted]</i> （仅限现有产品组）。 新产品组的默认值为[!UICONTROL Active]。 要删除活动的产品组，请输入值`Deleted`。 |
 | [!UICONTROL Device Target Status] | 营销活动或广告组级别设备目标的状态： <i>[!UICONTROL Active]</i>或<i>[!UICONTROL Deleted]</i>。 对于新的营销活动和广告组，默认值为[!UICONTROL Active]。 |
-| [!UICONTROL RLSA Target Status] | 促销活动或广告组级别RLSA目标或(仅限Google广告)排除的状态： <i>[!UICONTROL Active]</i>或<i>[!UICONTROL Deleted]</i>（仅限现有目标）。 新目标或排除项的默认值为[!UICONTROL Active]。 要删除活动目标或排除项，请输入值`Deleted`。 |
+| [!UICONTROL RLSA Target Status] | 促销活动或广告组级别RLSA目标或（仅限Google广告）排除的状态： <i>[!UICONTROL Active]</i>或<i>[!UICONTROL Deleted]</i>（仅限现有目标）。 新目标或排除项的默认值为[!UICONTROL Active]。 要删除活动目标或排除项，请输入值`Deleted`。 |
 | \[广告商特定的标签分类\] | （以特定于广告商的标签分类命名，例如名为“颜色”的标签分类的“颜色”）与实体关联的指定分类的值。 每个实体的每个分类只能包含一个值（例如，促销活动A的“颜色”标签分类为“红色”）。 最大长度为100个字符，该值可以包含ASCII和非ASCII字符。<br><br>标签分类及其标签值将应用于所有子组件；以后添加的新组件会自动与标签关联。 产品组的标签分类将应用于单元（最细化）级别。<br><br>分类名称和分类值都不区分大小写。 |
 | [!UICONTROL Constraints] | 分配给图元的约束。 每个图元只能分配一个约束。<br><b>>约束由子实体继承，因此，除非要覆盖继承的值，否则不需要为子实体输入值。 |
 | [!UICONTROL Campaign ID] | 标识现有营销活动的唯一ID。 在CSV和TSV文件中，它的前面必须带有单引号(&#39;)。[^1]仅在您更改营销活动名称时需要，除非该行包含营销活动的“[!UICONTROL AMO ID]”。 |
@@ -113,9 +120,9 @@ ht-degree: 0%
 | [!UICONTROL EF Error Message] | （出于信息目的包含在生成的批量工作表中）用于显示来自广告网络的关于行中数据的错误消息的占位符；错误消息包含在[!UICONTROL EF Errors]文件中。 此值未发布到广告网络。 |
 | [!UICONTROL SE Error Message] | （出于信息目的包含在生成的批量工作表中）用于显示来自广告网络的关于行中数据的错误消息的占位符；错误消息包含在[!UICONTROL SE Errors]文件中。 此值未发布到广告网络。 |
 | [!UICONTROL Exemption Request] | （出于信息目的包含在生成的批量处理工作表中）用于显示广告违反的任何Google广告策略的名称和文本的占位符。 |
-| [!UICONTROL Retail Hash] | （包括在使用高级促销活动管理生成的批量处理工作表中的信息用途）字母数字哈希代码(如f9639f40cdf56524b541e5dacf55a991)，表示项目是使用高级(ACM)视图生成的。 |
+| [!UICONTROL Retail Hash] | （包括在使用高级促销活动管理生成的批量处理工作表中的信息用途）字母数字哈希代码（如f9639f40cdf56524b541e5dacf55a991），表示项目是使用高级(ACM)视图生成的。 |
 
-[^1]： [!DNL Excel]在打开文件时将大数转换为科学记号(如2115585666的2.12E+09)。 要查看标准表示法的位数，请选择列中的任意单元格，然后在公式栏中单击。
+[^1]： [!DNL Excel]在打开文件时将大数转换为科学记号（如2115585666的2.12E+09）。 要查看标准表示法的位数，请选择列中的任意单元格，然后在公式栏中单击。
 
 ## 创建、编辑或删除每个帐户组件所需的字段 {#bulksheet-fields-per-component-microsoft}
 

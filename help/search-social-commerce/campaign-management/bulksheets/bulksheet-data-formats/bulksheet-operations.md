@@ -3,9 +3,14 @@ title: 可在批量处理工作表中执行的操作
 description: 引用有关使用批量处理工作表添加、编辑和删除营销活动数据的一般信息。
 exl-id: 17ec9307-6dfd-45cb-b8bd-d0d7fcbf2d41
 feature: Search Bulksheets
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/v0lNqlMXWFmw8O1Tr51d-WoHC-X2dxdSh-ZRKIPxGQY
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: 381
 ht-degree: 0%
 
 ---
@@ -30,9 +35,9 @@ ht-degree: 0%
 
 * 正在删除：
 
-   * 要删除现有组件，请包含编辑该组件所需的所有字段，并将其状态更改为[!UICONTROL Deleted]。 例如，要删除一个[!DNL Google Ads]广告组，您必须包含值为<i>[!UICONTROL Deleted]</i>的[!UICONTROL Campaign Name]、[!UICONTROL Ad Group Name]、[!UICONTROL Ad Group Status]和[!UICONTROL Ad Group ID]。
+   * 要删除现有组件，请包含编辑该组件所需的所有字段，并将其状态更改为[!UICONTROL Deleted]。 例如，要删除一个[!DNL Google Ads]广告组，您必须包含值为[!UICONTROL Campaign Name]的[!UICONTROL Ad Group Name]、[!UICONTROL Ad Group Status]、<i>[!UICONTROL Deleted]</i>和[!UICONTROL Ad Group ID]。
 
-   * （仅限[!UICONTROL Param1]、[!UICONTROL Param2]和[!UICONTROL Param3]值）要删除关键字的现有[!DNL paramN]值，请包含编辑关键字所需的所有字段，并通过在相应字段中输入值`[delete]`（包括括号）来删除现有[!DNL paramN]值。
+   * （仅限[!UICONTROL Param1]、[!UICONTROL Param2]和[!UICONTROL Param3]值）要删除关键字的现有[!DNL paramN]值，请包含编辑关键字所需的所有字段，并通过在相应字段中输入值[!DNL paramN]（包括括号）来删除现有`[delete]`值。
 
    * （允许的属性字段）要删除组件的现有属性值，请包含编辑该组件所需的所有字段，还可以通过输入值`[delete]`（包括括号）来删除属性值。 允许的字段包括：
 

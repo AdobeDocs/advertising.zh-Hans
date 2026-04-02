@@ -3,9 +3,16 @@ title: 管理 [!DNL Google Ads] 标注扩展
 description: 了解如何创建和管理 [!DNL Google Ads] 标注扩展。
 exl-id: b1be553e-49a1-47b8-8dd2-84db56fa249e
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/Nb5xgWsDs-7L9krhFqtrD1um1KmbUPlBGUSv-DLiHKY
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: 376
 ht-degree: 0%
 
 ---
@@ -14,7 +21,7 @@ ht-degree: 0%
 
 仅&#x200B;*[!DNL Google Ads]个帐户*
 
-从[!UICONTROL Extensions] > [!UICONTROL Callout library]为任何[已同步 [!DNL Google Ads] 帐户](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)创建和管理帐户级别的共享注解扩展。
+从[&#x200B; >  [!DNL Google Ads] 为任何](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)已同步[!UICONTROL Extensions]帐户[!UICONTROL Callout library]创建和管理帐户级别的共享注解扩展。
 
 ## 创建[!DNL Google Ads]共享标注
 

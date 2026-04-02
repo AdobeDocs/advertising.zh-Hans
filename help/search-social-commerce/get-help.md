@@ -3,9 +3,17 @@ title: 获取帮助
 description: 了解如何查看在线帮助和社区资源以及如何获得技术支持。
 feature: Search Introduction
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: ed577c6f20d0e63555865d2d03bb82a5ada92b3f
+TQID: https://experienceleague.adobe.com/i-LfGOrhDTQ80m8uL2u-O9jFBHgxiasLkUz44j8jW9A
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: 231
 ht-degree: 0%
 
 ---
@@ -18,7 +26,7 @@ ht-degree: 0%
 
 * 要查看带有相邻帮助图标（![帮助图标](/help/search-social-commerce/assets/help-field.png "帮助图标") ）的术语说明，请将光标悬停在帮助图标上，直到完成操作，或者单击帮助弹出窗口内部滚动浏览内容。
 
-  要打开帮助主题中的链接，您可能需要配置浏览器设置，以允许从您使用的Search、Social和Commerce站点弹出窗口(例如，北美用户为https://enterprise-na.efrontier.com，所有其他用户为https://enterprise-intl.efrontier.com)。
+  要打开帮助主题中的链接，您可能需要配置浏览器设置，以允许从您使用的Search、Social和Commerce站点弹出窗口（例如，北美用户为https://enterprise-na.efrontier.com，所有其他用户为https://enterprise-intl.efrontier.com）。
 
 * 要打开说明如何使用所有功能的完整帮助集，请单击任意页面顶部的以下链接：
 

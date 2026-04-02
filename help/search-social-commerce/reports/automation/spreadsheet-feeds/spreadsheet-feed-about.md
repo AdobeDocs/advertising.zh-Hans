@@ -3,9 +3,16 @@ title: 关于电子表格报表源
 description: 了解如何以自定义格式的电子表格格式获取每日性能数据。
 exl-id: 559dde7a-17c3-4d94-b3b0-c8248c745258
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/fQkx0PK8gR-YjbiZp8KPVXMV6R2Hy4s7Upz7bFErtfE
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: 223
 ht-degree: 0%
 
 ---
@@ -14,7 +21,7 @@ ht-degree: 0%
 
 *仅用于基本报告和模型准确性报告*
 
-电子表格馈送以[!DNL Microsoft Excel] XLSX中的自定义电子表格格式为所有基本报表和模型准确性报表提供每日性能数据。 您可以使用从常规报表模板创建的特定格式的[!DNL Excel]电子表格模板来设置电子表格馈送。 每天，电子表格都会在指定的时间自动刷新，并包含每天汇总的新原始数据。 原始数据会填充电子表格模板中包含的任何列和图形。 在电子表格馈送文件可用或文件生成失败后，报表模板中的每个电子邮件收件人会根据用户为报表[&#128279;](/help/search-social-commerce/notifications/notification-about.md)配置的通知设置接收通知。
+电子表格馈送以[!DNL Microsoft Excel] XLSX中的自定义电子表格格式为所有基本报表和模型准确性报表提供每日性能数据。 您可以使用从常规报表模板创建的特定格式的[!DNL Excel]电子表格模板来设置电子表格馈送。 每天，电子表格都会在指定的时间自动刷新，并包含每天汇总的新原始数据。 原始数据会填充电子表格模板中包含的任何列和图形。 在电子表格馈送文件可用或文件生成失败后，报表模板中的每个电子邮件收件人会根据用户为报表[配置的](/help/search-social-commerce/notifications/notification-about.md)通知设置接收通知。
 
 您可以将馈送配置为刷新最近90天的数据，并且所有以前现有的数据都会继续累积。
 

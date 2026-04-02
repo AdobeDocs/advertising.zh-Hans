@@ -2,11 +2,19 @@
 title: （新UI）创建项目组合
 description: 了解如何创建项目组合。
 feature: Search Portfolios, Search Optimization
-hide: true
+hide: yes
 exl-id: f7fe6138-8335-407a-88fd-f0ace27c93ee
-source-git-commit: 51bfb0b54af6e770df809ccd799ef47b9b4669b9
+TQID: https://experienceleague.adobe.com/QEt73KG8zm1DEIOP5G9Leho3Zb4rzech7U0gFGnpMdA
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: 125
 ht-degree: 0%
 
 ---

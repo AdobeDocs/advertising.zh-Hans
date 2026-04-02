@@ -3,9 +3,16 @@ title: 实施 [!DNL Microsoft Advertising] 购物营销活动
 description: 了解用于设置 [!DNL Microsoft Advertising] 购物营销活动的工作流。
 exl-id: fd10237b-864d-4808-8644-3fcb18edebde
 feature: Search Campaign Management
-source-git-commit: 283fced2b3faa64b6383b6ab2a41696cba0da06f
+TQID: https://experienceleague.adobe.com/2SXWaNmPPcXmljB2DUKq9DNWgPv9Qb-0t3SJcdO6aR8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: 587
 ht-degree: 0%
 
 ---
@@ -20,7 +27,7 @@ ht-degree: 0%
 
 ## 设置[!DNL Microsoft Advertising]购物营销活动的步骤
 
-您可以使用针对[!DNL Microsoft Advertising]的[库存馈送模板](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)、使用[批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)或单独使用来设置购物营销活动。 以下说明包含创建单个实体的链接。
+您可以使用针对[的](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)库存馈送模板[!DNL Microsoft Advertising]、使用[批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)或单独使用来设置购物营销活动。 以下说明包含创建单个实体的链接。
 
 1. 设置您的[!DNL Microsoft Merchant Center]帐户并使用产品数据填充该帐户。
 
@@ -38,7 +45,7 @@ ht-degree: 0%
 
    1. （可选） [创建子产品组](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)。
 
-   1. 创建包含[&#128279;](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)促销行的[产品广告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)以可能包含在广告组中的每个购物广告中。
+   1. 创建包含[促销行的](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)产品广告[以可能包含在广告组中的每个购物广告](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)中。
 
       Microsoft Advertising会为每个广告动态生成广告副本和登陆页面URL。
 
@@ -62,5 +69,5 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 查看使用[批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)和[库存馈送模板](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)管理[!DNL Microsoft Shopping]营销活动和产品组的必填字段。
+>* 查看使用[!DNL Microsoft Shopping]批量处理工作表[和](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)库存馈送模板[管理](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)营销活动和产品组的必填字段。
 >* 有关[!DNL Microsoft Shopping]营销活动的详细信息，请参阅[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/50903)。

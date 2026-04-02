@@ -3,9 +3,18 @@ title: 获取帮助
 description: 了解如何查看在线文档和社区资源以及如何获得技术支持。
 feature: DSP Introduction
 exl-id: 2e0226ea-bcd3-4a38-8907-d2e078c758d0
-source-git-commit: 494ac8907b569bea3a60d9b5e9a2655cb65194c2
+TQID: https://experienceleague.adobe.com/7Ag7-NfA31va0JFwpmUp3h-Xzh-h2Yl7g2Q8WwE2gsc
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: 165
 ht-degree: 0%
 
 ---

@@ -3,9 +3,16 @@ title: 关于Adobe Advertising转化跟踪标记
 description: 了解如何使用Adobe Advertising转化跟踪标记。
 exl-id: 8194d5eb-9a5d-4c4e-bb02-e578ffb84d18
 feature: Search Tracking
-source-git-commit: 3f91cd92a364a8e9dd569bd590c59740ea1493d7
+TQID: https://experienceleague.adobe.com/SKNAm2olxXOI-qdf67XVYpo9GtQCpQO9acywqE7YTv0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: 500
 ht-degree: 0%
 
 ---

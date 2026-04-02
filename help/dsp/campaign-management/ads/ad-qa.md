@@ -3,9 +3,18 @@ title: 使用批量处理工作表查看和编辑广告详细信息
 description: 了解如何使用电子表格批量查看广告设置。
 feature: DSP Ads
 exl-id: a223d4e1-2264-49fa-8579-817e7ea6ea56
-source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
+TQID: https://experienceleague.adobe.com/88Pu031rvTeHdahpICwLw-J4h33Eaji0Gzir4Wbr0Qk
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: 256
 ht-degree: 0%
 
 ---

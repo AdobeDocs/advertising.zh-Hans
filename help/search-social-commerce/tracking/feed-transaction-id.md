@@ -3,16 +3,23 @@ title: 使用交易ID馈送进行转化跟踪
 description: 了解如何将交易ID馈送用于转化跟踪数据。
 exl-id: 3341ac20-d435-4387-99da-7b874e53c2e7
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/wGlR5tUF7ajbnQLUnW0c-U84BskLzr63Wet-e-x823M
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: 293
 ht-degree: 0%
 
 ---
 
 # 使用交易ID馈送进行转化跟踪
 
-当广告商同时具有在线和离线交易时，Adobe Advertising可以通过Adobe Advertising转化跟踪像素跟踪在线交易，广告商可以使用交易ID跟踪离线交易，并通过馈送进行投放：
+当广告商同时具有在线和离线交易时，Adobe Advertising可以通过Adobe Advertising转化跟踪像素跟踪在线交易，广告商可以使用交易ID跟踪离线交易，并通过信息源交付它们：
 
 * 对于在线交易，Adobe Advertising会跟踪您的广告点击量以及网站上产生的交易。
 

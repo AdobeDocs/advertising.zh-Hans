@@ -3,9 +3,14 @@ title: 停止库存馈送数据的发布作业
 description: 了解如何停止库存馈送数据的发布作业。
 exl-id: 06a10ec1-bfff-4384-b1c8-ba6b504c6888
 feature: Search Inventory Feeds
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/cjOAlWqQemvbK-H0RYvwnNF980UVmZjy-hp-SbrlWxo
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: 125
 ht-degree: 0%
 
 ---
@@ -22,7 +27,7 @@ ht-degree: 0%
 
    1. 在模板名称旁边的“[!UICONTROL Last Prop. Status]”列中，单击&#x200B;**[!UICONTROL Cancel]**。
 
-* 如果数据已传播，则从[!UICONTROL Bulksheets]视图[&#128279;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md)中取消发布作业。
+* 如果数据已传播，则从[视图[!UICONTROL Bulksheets]中](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md)取消发布作业。
 
 >[!MORELIKETHIS]
 >

@@ -3,16 +3,23 @@ title: 使用客户数据列表管理客户匹配受众
 description: 了解如何从您的客户数据列表中创建和编辑 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 客户匹配受众。
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/XoDGbJAFowx-KX0hWQH4XoFrc0R2YiftT-mN6f4KWDE
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: 840
 ht-degree: 0%
 
 ---
 
 # 使用客户数据列表管理[!DNL Google Ads]和[!DNL Microsoft Advertising]客户匹配受众
 
-您可以从客户数据列表中创建[!DNL Google Ads]和[!DNL Microsoft Advertising]客户匹配受众。 您还可以更新任何[!DNL Google Ads]或[!DNL Microsoft Advertising]客户匹配受众，但从[!DNL Adobe]受众创建的[!DNL Google Ads]受众除外。
+您可以从客户数据列表中创建[!DNL Google Ads]和[!DNL Microsoft Advertising]客户匹配受众。 您还可以更新任何[!DNL Google Ads]或[!DNL Microsoft Advertising]客户匹配受众，但从[!DNL Google Ads]受众创建的[!DNL Adobe]受众除外。
 
 ## 从客户数据列表创建客户匹配受众
 
@@ -24,11 +31,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Search、Social和Commerce不会存储您上传的任何客户数据，也不会存储用于创建或编辑[!DNL Google Ads]或[!DNL Microsoft Advertising]受众的[!DNL Adobe]区段中的客户数据。
+>Search、Social和Commerce不会存储您上传的任何客户数据，也不会存储用于创建或编辑[!DNL Adobe]或[!DNL Google Ads]受众的[!DNL Microsoft Advertising]区段中的客户数据。
 
 1. 以所需格式生成包含客户数据的文件。
 
-   名字、姓氏、电子邮件地址和电话号码必须使用SHA-256算法进行哈希处理。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. -->对于[!DNL Google Ads]受众，请参阅有关“[用于上载哈希数据的格式设置准则](https://support.google.com/google-ads/answer/7476159)”的[!DNL Google Ads]文档，以了解允许的联系人信息字段和要求的列表。 对于[!DNL Microsoft Advertising]受众，请参阅[准备客户匹配列表](https://help.ads.microsoft.com/#apex/ads/en/56921)上的[!DNL Microsoft Advertising]文档。 您可以选择下载[!DNL Microsoft Excel]模板以获取联系信息。
+   名字、姓氏、电子邮件地址和电话号码必须使用SHA-256算法进行哈希处理。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. -->对于[!DNL Google Ads]受众，请参阅有关“[!DNL Google Ads]用于上载哈希数据的格式设置准则[”的](https://support.google.com/google-ads/answer/7476159)文档，以了解允许的联系人信息字段和要求的列表。 对于[!DNL Microsoft Advertising]受众，请参阅[!DNL Microsoft Advertising]准备客户匹配列表[上的](https://help.ads.microsoft.com/#apex/ads/en/56921)文档。 您可以选择下载[!DNL Microsoft Excel]模板以获取联系信息。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
 
@@ -46,13 +53,13 @@ ht-degree: 0%
 
       1. 选择[!UICONTROL Data Upload Type]： *[!UICONTROL Emails, Phones, and/or Mailing Addresses]*、*[!UICONTROL User IDs]*&#x200B;或&#x200B;*[!UICONTROL Mobile Device IDs]*。
 
-         “用户ID”选项仅适用于已选择加入[用户ID区段](https://support.google.com/google-ads/answer/9199250)的美国[!DNL Google Ads]广告商
+         “用户ID”选项仅适用于已选择加入[!DNL Google Ads]用户ID区段[的美国](https://support.google.com/google-ads/answer/9199250)广告商
 
       1. （仅限移动设备ID列表）选择&#x200B;**[!UICONTROL OS Type]** （*[!UICONTROL Android™]*&#x200B;或&#x200B;*[!UICONTROL iOS]*），然后输入&#x200B;**[!UICONTROL App ID]**。
 
          应用程序ID是移动设备操作系统用来允许应用程序连接到Google Play或Apple App Store的唯一标识符：
 
-         * （[!DNL Android™]个应用）[!DNL Google Play]中的[!DNL Android™]包名称，由“`id=<package_name>`”标识。
+         * （[!DNL Android™]个应用）[!DNL Android™]中的[!DNL Google Play]包名称，由“`id=<package_name>`”标识。
 
            例如，在`https://play.google.com/store/apps/details?id=com.example.game`中，包名称为com.example.game。
 
@@ -85,13 +92,13 @@ ht-degree: 0%
 
 ## 使用客户数据列表编辑客户匹配受众
 
-您可以更新任何[!DNL Google Ads]或[!DNL Microsoft Advertising]客户匹配受众，但从[!DNL Adobe]受众创建的[!DNL Google Ads]受众除外。 您可以上传数据，以添加、删除或替换受众的所有现有数据。
+您可以更新任何[!DNL Google Ads]或[!DNL Microsoft Advertising]客户匹配受众，但从[!DNL Google Ads]受众创建的[!DNL Adobe]受众除外。 您可以上传数据，以添加、删除或替换受众的所有现有数据。
 
 该数据必须与原始客户列表（电子邮件地址、邮寄地址、电话号码、用户ID或特定移动操作系统上特定应用程序的移动设备ID）的类型相同。
 
 1. 为现有数据类型以所需格式生成包含客户数据的文件。
 
-名字、姓氏、电子邮件地址和电话号码必须使用SHA-256算法进行哈希处理。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. -->对于[!DNL Google Ads]受众，请参阅有关“[用于上载哈希数据的格式设置准则](https://support.google.com/google-ads/answer/7476159)”的[!DNL Google Ads]文档，以了解允许的联系人信息字段和要求的列表。 对于[!DNL Microsoft Advertising]受众，请参阅[准备客户匹配列表]&#x200B;(https://help.ads.microsoft.com/#apex/ads/en/56921)上的[!DNL Microsoft Advertising]文档。 您可以选择下载[!DNL Microsoft Excel]模板以获取联系信息。
+名字、姓氏、电子邮件地址和电话号码必须使用SHA-256算法进行哈希处理。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. -->对于[!DNL Google Ads]受众，请参阅有关“[!DNL Google Ads]用于上载哈希数据的格式设置准则[”的](https://support.google.com/google-ads/answer/7476159)文档，以了解允许的联系人信息字段和要求的列表。 对于[!DNL Microsoft Advertising]受众，请参阅[!DNL Microsoft Advertising]准备客户匹配列表[(https://help.ads.microsoft.com/#apex/ads/en/56921)上的]文档。 您可以选择下载[!DNL Microsoft Excel]模板以获取联系信息。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
 
@@ -118,6 +125,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于受众](audience-about.md)
->* [创建来自 [!DNL Adobe] 受众的 [!DNL Google Ads] 客户匹配受众](google-audience-from-adobe-audience.md)
+>* [创建来自 [!DNL Google Ads] 受众的 [!DNL Adobe] 客户匹配受众](google-audience-from-adobe-audience.md)
 >* [从Adobe Campaign电子邮件列表创建 [!DNL Google Ads] 客户匹配受众](google-audience-from-campaign-email-list.md)
 >* [管理动态再营销受众](audience-dynamic-remarketing-manage.md)

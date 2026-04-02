@@ -3,9 +3,14 @@ title: 管理信息源模板
 description: 了解如何管理信息源模板。
 feature: Creative Dynamic Creatives
 exl-id: 63f8af87-639c-45c8-b17f-99ce19594d35
-source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
+TQID: https://experienceleague.adobe.com/5bEvYLuXmwYHifo--x98vtfZ7-tVsLcRq5LGSLilFvM
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: 476
 ht-degree: 0%
 
 ---
@@ -16,7 +21,7 @@ ht-degree: 0%
 
 <!-- We have a finite set of supported fields on the backend. I need to include that info in an appendix. -->
 
-馈送模板将馈送文件/目录中的字段映射到Advertising Creative后端上的字段。 动态HTML5和视频广告(而非静态HTML5广告)需要信息源模板来创建动态广告。 您可以选择下载和填充通用信息源模板（[!UICONTROL Retail]适用于零售营销活动，[!UICONTROL Adobe Creative Template]适用于任何营销活动类型）。
+馈送模板将馈送文件/目录中的字段映射到Advertising Creative后端上的字段。 动态HTML5和视频广告（而非静态HTML5广告）需要信息源模板来创建动态广告。 您可以选择下载和填充通用信息源模板（[!UICONTROL Retail]适用于零售营销活动，[!UICONTROL Adobe Creative Template]适用于任何营销活动类型）。
 
 您可以对多个广告模板使用一个信息源模板。
 

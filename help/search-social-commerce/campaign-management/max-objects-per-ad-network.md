@@ -3,9 +3,16 @@ title: 每个广告网络帐户的最大对象数
 description: 请参阅在何处查找每个广告网络帐户的最大对象数。
 exl-id: 64463f56-0972-4acb-867e-d216f09bbc2d
 feature: Search Campaign Management
-source-git-commit: b14b290afd6b13b1b9d1ac03c94c758e007dfc48
+TQID: https://experienceleague.adobe.com/Eoi5mmx8l0U61O5-U91BOrzxfWr8rUdEIhiD1VVwPiE
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: 103
 ht-degree: 0%
 
 ---

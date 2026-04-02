@@ -3,9 +3,17 @@ title: '[!DNL Google Ads]广告组设置'
 description: 引用 [!DNL Google Ads] 广告组的设置。
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: 345c2af5363ca10412f3809700e281af5b06897f
+TQID: https://experienceleague.adobe.com/pDFheVIM62XNCh2-7jbCscIqOrcTep7qnNg5S1tHYF8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: 452
 ht-degree: 0%
 
 ---
@@ -34,7 +42,7 @@ ht-degree: 0%
 
 如果营销活动使用智能竞价策略（如[!UICONTROL Target CPA]、[!UICONTROL Target ROAS]），则[!DNL Google Ads]会自动将选项设置为“[!UICONTROL Optimize]”。
 
-**[!UICONTROL Custom Bid Level]：** （仅针对显示网络的营销活动）竞价方式：竞价方式：竞价方式为&#x200B;*[!UICONTROL Ad Group]* （默认值）、*[!UICONTROL Age]*、*[!UICONTROL Gender]*、*[!UICONTROL Interest and List]* (Google广告中的兴趣和再营销)、*[!UICONTROL Keyword]*、*[!UICONTROL Placement]* （网站）、*[!UICONTROL Unknown]*&#x200B;或&#x200B;*[!UICONTROL Vertical]*。
+**[!UICONTROL Custom Bid Level]：** （仅针对显示网络的营销活动）竞价方式：竞价方式：竞价方式为&#x200B;*[!UICONTROL Ad Group]* （默认值）、*[!UICONTROL Age]*、*[!UICONTROL Gender]*、*[!UICONTROL Interest and List]* （Google广告中的兴趣和再营销）、*[!UICONTROL Keyword]*、*[!UICONTROL Placement]* （网站）、*[!UICONTROL Unknown]*&#x200B;或&#x200B;*[!UICONTROL Vertical]*。
 
 >[!NOTE]
 >

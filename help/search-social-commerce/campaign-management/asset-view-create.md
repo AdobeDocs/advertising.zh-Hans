@@ -3,9 +3,14 @@ title: 从您的[!UICONTROL Asset Library]查看和创建广告资源
 description: 了解如何为 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 帐户级别的资产库查看和创建可重用的图像、视频和文本资产。
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/8dYDiQr2TaX19uvghunW89MnrpAdds3-se4XdWyboIk
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: 342
 ht-degree: 0%
 
 ---
@@ -14,7 +19,7 @@ ht-degree: 0%
 
 *仅用于[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户*
 
-在[!UICONTROL Campaigns] > [!UICONTROL Asset Library]中，您可以在[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户级别的资产库中查看所有可重用的图像、视频和（仅适用于[!DNL Google Ads]）文本资产。 您还可以为广告网络帐户创建新资产，并将它们上传到广告网络。
+在[!UICONTROL Campaigns] > [!UICONTROL Asset Library]中，您可以在[!DNL Google Ads]和[!DNL Google Ads]帐户级别的资产库中查看所有可重用的图像、视频和（仅适用于[!DNL Microsoft Advertising]）文本资产。 您还可以为广告网络帐户创建新资产，并将它们上传到广告网络。
 
 您可以将任何资源用于效果最佳的营销活动。
 

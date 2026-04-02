@@ -3,9 +3,14 @@ title: 使用复制并粘贴功能批量创建和编辑营销活动数据
 description: 了解如何使用复制并粘贴功能批量管理Campaign数据。
 exl-id: 2ae1b02f-46ac-4ea8-aa9f-9e26ccaf63d0
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/z-CaAsySMH-nF2IGPRpM1KY6MYdVz1xZhgjPsBShD7c
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: 486
 ht-degree: 0%
 
 ---
@@ -30,7 +35,7 @@ ht-degree: 0%
 
 1. 在数据表上方的工具栏中，单击![更多](/help/search-social-commerce/assets/more.png "更多")，然后单击&#x200B;**[!UICONTROL Copy]**。
 
-   或者，您可以使用操作系统的“复制”键盘命令，如[!DNL Microsoft Windows]的&#x200B;**[!DNL Ctrl+C]**&#x200B;或[!DNL Apple Mac]的&#x200B;**[!DNL Command-C]**。
+   或者，您可以使用操作系统的“复制”键盘命令，如&#x200B;**[!DNL Ctrl+C]**&#x200B;的[!DNL Microsoft Windows]或&#x200B;**[!DNL Command-C]**&#x200B;的[!DNL Apple Mac]。
 
 1. 在[!UICONTROL Copy to Clipboard]对话框中，单击&#x200B;**[!UICONTROL Continue]**。 当数据准备复制时，单击&#x200B;**[!UICONTROL Copy]**。
 
@@ -62,7 +67,7 @@ ht-degree: 0%
 
 1. 在数据表上方的工具栏中，单击![更多](/help/search-social-commerce/assets/more.png "更多")，然后单击&#x200B;**[!UICONTROL Paste]**。
 
-   或者，您可以使用操作系统的“粘贴”键盘命令，例如[!DNL Microsoft Windows]的&#x200B;**[!DNL Ctrl+V]**&#x200B;或[!DNL Apple Mac]的&#x200B;**[!DNL Command-V]**。
+   或者，您可以使用操作系统的“粘贴”键盘命令，例如&#x200B;**[!DNL Ctrl+V]**&#x200B;的[!DNL Microsoft Windows]或&#x200B;**[!DNL Command-V]**&#x200B;的[!DNL Apple Mac]。
 
 1. 将数据粘贴到输入框中，然后单击&#x200B;**[!UICONTROL Process]**。
 

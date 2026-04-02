@@ -3,9 +3,18 @@ title: 关于搜索、社交和Commerce的跟踪
 description: 了解搜索、社交和Commerce的跟踪选项。
 exl-id: f0fd367a-dd5a-46ec-a3d6-9b491860aae8
 feature: Search Tracking
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/IpPgzsMgRsOCmLv3dyEKBp4EPQwgN90UkVIQy9SaXB8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: 756
 ht-degree: 0%
 
 ---
@@ -24,13 +33,13 @@ ht-degree: 0%
 
 您的Search、Social和Commerce实施团队通过在同步的广告促销活动中更新广告、关键字、投放位置、产品组和站点链接扩展的跟踪模板和目标URL来设置点击跟踪，以包含唯一的跟踪ID字符串和Adobe Advertising重定向。 他们还向您的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户和营销活动的登陆页面后缀（最终URL后缀）添加跟踪。
 
-利用跟踪参数，Adobe Advertising可以在单个关键词级别（搜索促销活动）或广告变量级别（具有内容或网站定位的搜索促销活动、展示促销活动和社会化促销活动）跟踪点击次数。 每次当用户查看显示/内容广告或单击您的广告之一时，广告网络使用与关键词或广告关联的点击跟踪标记将事件发送到Adobe Advertising像素服务器。 对于点击：
+借助跟踪参数，Adobe Advertising可以在单个关键词级别（搜索促销活动）或广告变量级别（具有内容或网站定位的搜索促销活动、展示促销活动以及社交促销活动）跟踪点击次数。 每次用户查看显示/内容广告或单击您的某个广告时，广告网络都会使用与关键词或广告关联的点击跟踪标记，将事件发送到Adobe Advertising像素服务器。 对于点击：
 
 * 对于支持并行跟踪的浏览器上的[!DNL Google Ads]和[!DNL Microsoft Advertising]广告，广告网络会先将点击发送到您的网站，然后再发送到Adobe Advertising像素服务器，然后在该用户的计算机上放置一个Cookie（如果尚不存在）。
 
 * 在所有其他情况下，广告网络都会将点击直接发送到Adobe Advertising像素服务器。 像素服务器会在用户的计算机上放置一个Cookie（如果尚不存在），然后将用户重定向到您网站上的相关URL。 最终用户的整体体验与没有重定向时的体验相同。
 
-Cookie在[!DNL Adobe]域(`everesttech.net`)中设置为第一方Cookie。 在重定向后，用户位于广告商的域中，并且该Cookie随后被视为第三方Cookie。 有关Adobe AdvertisingCookie的详细信息，请参阅[Adobe AdvertisingCookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=zh-Hans)。
+Cookie在[!DNL Adobe]域(`everesttech.net`)中设置为第一方Cookie。 在重定向后，用户位于广告商的域中，并且该Cookie随后被视为第三方Cookie。 有关Adobe Advertising Cookie的详细信息，请参阅[Adobe Advertising Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=zh-Hans)。
 
 ## 转化数据
 
@@ -42,8 +51,8 @@ Cookie在[!DNL Adobe]域(`everesttech.net`)中设置为第一方Cookie。 在重
 
 您可以使用来自不同供应商的[转化标记](/help/search-social-commerce/tracking/conversion-tracking-about.md)。
 
-当您使用Adobe Advertising转换标记并且用户完成一个成功的交易并登陆“成功”页面时，Adobe Advertising像素服务器会检查用户计算机上是否存在在单击重定向时设置的Cookie。 当找到Cookie时，使用ef_transid参数传递有关事务事件的信息，该事务被识别为转化，并计入前一个广告点击或显示展示。
+当您使用Adobe Advertising转化标记并且用户完成一个成功的交易并登陆“成功”页面时，Adobe Advertising像素服务器会检查用户计算机上是否存在在单击重定向时设置的Cookie。 当找到Cookie时，使用ef_transid参数传递有关事务事件的信息，该事务被识别为转化，并计入前一个广告点击或显示展示。
 
-如果用户单击了您的多个广告，则Adobe Advertising会将交易归因于最终广告点击或（对于显示或视频促销活动）最终广告展示，除非您另外指定。 您的[点击回顾窗口](/help/search-social-commerce/glossary.md#c-d)和[展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)将分别确定付费点击或显示/视频展示发生后（事件可归因于转化）的天数。
+如果用户单击了您的多个广告，Adobe Advertising会将交易归因于最终广告点击或（对于显示或视频促销活动）最终广告展示，除非您另有指定。 您的[点击回顾窗口](/help/search-social-commerce/glossary.md#c-d)和[展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)将分别确定付费点击或显示/视频展示发生后（事件可归因于转化）的天数。
 
-Adobe Advertising实现团队与广告商一起确定广告商需要实现的转换标签的格式，确定每个转换标签应该插入的网页，然后提供要实现的转换标签。
+Adobe Advertising实施团队与广告商合作，确定广告商需要实施的转化标记的格式，确定应在其中插入每个转化标记的网页，然后提供要实施的转化标记。

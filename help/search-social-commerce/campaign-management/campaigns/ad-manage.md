@@ -3,9 +3,16 @@ title: 管理广告
 description: 了解如何创建和管理广告。
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/qH3BE5BwU8614rZdk-tKqvtw9cqY1uK0Z3zOUh0QRv8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: 745
 ht-degree: 0%
 
 ---
@@ -34,15 +41,15 @@ ht-degree: 0%
 
    有关不同广告类型的更多信息，请参阅&quot;[关于广告](ad-about.md)&quot;。
 
-1. 输入[[!DNL Baidu] 文本广告](ad-settings-baidu-text.md)、[[!DNL Google Ads] 仅调用广告](ad-settings-google-call.md)、[[!DNL Google Ads] 扩展动态搜索广告](ad-settings-google-dsa.md)(现在在Google广告中只称为“动态搜索广告”)、[[!DNL Google Ads] 响应式搜索广告](ad-settings-google-rsa.md)、[[!DNL Microsoft Advertising] 扩展动态搜索广告](ad-settings-microsoft-dsa.md)、[[!DNL Microsoft Advertising] 多媒体广告](ad-settings-microsoft-multimedia.md)、[[!DNL Microsoft Advertising] 产品广告](ad-settings-microsoft-product.md)、[[!DNL Microsoft Advertising] 响应式（受众）广告](ad-settings-microsoft-responsive.md)、[[!DNL Microsoft Advertising] 响应式搜索广告](ad-settings-microsoft-rsa.md)或[[!DNL Yandex] 文本广告](ad-settings-yandex-text.md)设置。
+1. 输入[[!DNL Baidu] 文本广告](ad-settings-baidu-text.md)、[[!DNL Google Ads] 仅调用广告](ad-settings-google-call.md)、[[!DNL Google Ads] 扩展动态搜索广告](ad-settings-google-dsa.md)（现在在Google广告中只称为“动态搜索广告”）、[[!DNL Google Ads] 响应式搜索广告](ad-settings-google-rsa.md)、[[!DNL Microsoft Advertising] 扩展动态搜索广告](ad-settings-microsoft-dsa.md)、[[!DNL Microsoft Advertising] 多媒体广告](ad-settings-microsoft-multimedia.md)、[[!DNL Microsoft Advertising] 产品广告](ad-settings-microsoft-product.md)、[[!DNL Microsoft Advertising] 响应式（受众）广告](ad-settings-microsoft-responsive.md)、[[!DNL Microsoft Advertising] 响应式搜索广告](ad-settings-microsoft-rsa.md)或[[!DNL Yandex] 文本广告](ad-settings-yandex-text.md)设置。
 
    >[!NOTE]
    >
-   >(具有Adobe Advertising转化跟踪的促销活动)如果帐户或促销活动设置仅在关键词级别指定跟踪，则Search、Social和Commerce不会生成广告跟踪。
+   >（具有Adobe Advertising转化跟踪的促销活动）如果帐户或促销活动设置仅在关键词级别指定跟踪，则Search、Social和Commerce不会生成广告跟踪。
 
 1. 单击&#x200B;**[!UICONTROL Post]**。
 
-1. (促销活动中的购物广告具有Adobe Advertising转化跟踪；可选)要跟踪广告的点击次数，请[使用跟踪URL工具](/help/search-social-commerce/tools/click-tracking-url-generate.md)生成跟踪URL，并将其手动添加到帐户、促销活动或产品组设置。
+1. （促销活动中的购物广告具有Adobe Advertising转化跟踪；可选）要跟踪广告的点击次数，请[使用跟踪URL工具](/help/search-social-commerce/tools/click-tracking-url-generate.md)生成跟踪URL，并将其手动添加到帐户、促销活动或产品组设置。
 
 ## 编辑广告设置
 
@@ -70,7 +77,7 @@ ht-degree: 0%
 
       1. 在数据表上方的工具栏中，单击![编辑](/help/search-social-commerce/assets/edit.png "编辑")。
 
-1. 编辑[[!DNL Baidu] 文本广告](ad-settings-baidu-text.md)、[[!DNL Google Ads] 仅调用广告](ad-settings-google-call.md)、[[!DNL Google Ads] 扩展动态搜索广告](ad-settings-google-dsa.md)(现在在Google广告中仅称为“动态搜索广告”)、[[!DNL Google Ads] 响应式搜索广告](ad-settings-google-rsa.md)、[[!DNL Microsoft Advertising] 扩展动态搜索广告](ad-settings-microsoft-dsa.md)、[[!DNL Microsoft Advertising] 多媒体广告](ad-settings-microsoft-multimedia.md)、[[!DNL Microsoft Advertising] 产品广告](ad-settings-microsoft-product.md)、[[!DNL Microsoft Advertising] 响应式（受众）广告](ad-settings-microsoft-responsive.md)、[[!DNL Microsoft Advertising] 响应式搜索广告](ad-settings-microsoft-rsa.md)或[[!DNL Yandex] 文本广告](ad-settings-yandex-text.md)设置。
+1. 编辑[[!DNL Baidu] 文本广告](ad-settings-baidu-text.md)、[[!DNL Google Ads] 仅调用广告](ad-settings-google-call.md)、[[!DNL Google Ads] 扩展动态搜索广告](ad-settings-google-dsa.md)（现在在Google广告中仅称为“动态搜索广告”）、[[!DNL Google Ads] 响应式搜索广告](ad-settings-google-rsa.md)、[[!DNL Microsoft Advertising] 扩展动态搜索广告](ad-settings-microsoft-dsa.md)、[[!DNL Microsoft Advertising] 多媒体广告](ad-settings-microsoft-multimedia.md)、[[!DNL Microsoft Advertising] 产品广告](ad-settings-microsoft-product.md)、[[!DNL Microsoft Advertising] 响应式（受众）广告](ad-settings-microsoft-responsive.md)、[[!DNL Microsoft Advertising] 响应式搜索广告](ad-settings-microsoft-rsa.md)或[[!DNL Yandex] 文本广告](ad-settings-yandex-text.md)设置。
 
    对于多个广告，您只能编辑所有选定广告通用的字段，并且您的更改会应用于所有选定广告。 对于某些字母数字字段，可以将现有值更改为指定值，将现有字符串替换为指定字符串，在每个值的开头添加指定前缀，或者在每个值的结尾附加后缀。 对于某些货币字段，您可以将现有值更改为指定值，或者按指定百分比或货币金额增加或减少金额（具有限制）。
 

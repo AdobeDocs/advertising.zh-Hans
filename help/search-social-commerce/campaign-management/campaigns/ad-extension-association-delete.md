@@ -3,9 +3,14 @@ title: 删除与活动和广告组的广告扩展关联
 description: 了解如何取消广告扩展与营销活动和广告组的关联。
 exl-id: 123838fc-ebfb-477f-b33d-03d9e2d98789
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/i9pwpxNmFmHevCZSXoO78Qdme12NW4-E2R6vtSe-LXI
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: 96
 ht-degree: 0%
 
 ---

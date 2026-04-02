@@ -3,9 +3,14 @@ title: 将共享站点链接与帐户、营销活动和广告组关联
 description: 了解如何将共享站点链接扩展分配给帐户、营销活动和广告组。
 exl-id: 5baa66a9-aac7-4ddd-a322-6578a571166b
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/at7jX7JhnEMMl-DF-AtpY8fXjoqs2aQs6gtKB1-vPJk
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: 298
 ht-degree: 0%
 
 ---

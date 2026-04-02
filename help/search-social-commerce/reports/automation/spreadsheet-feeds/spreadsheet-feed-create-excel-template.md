@@ -3,9 +3,16 @@ title: 为电子表格报表源创建 [!DNL Excel] 模板
 description: 了解如何创建特别格式化的电子表格模板。
 exl-id: 74bf3cdf-7d56-431a-8aff-11ed3840a7cd
 feature: Search Reports
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/bzrRXYVp7SdGXkdLJpJEaHqYIQKx4GF-Cdi5LxqIIa0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: 347
 ht-degree: 0%
 
 ---
@@ -16,7 +23,7 @@ ht-degree: 0%
 
 要创建电子表格馈送，您必须首先使用常规报表模板创建特别格式化的[!DNL Microsoft Excel]电子表格模板。 您可以选择自定义[!DNL Excel]电子表格以包含其他列和图。
 
-1. 在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;中，使用“[!UICONTROL Daily]”的[!UICONTROL Date Aggregation]单位并使用所有其他所需的数据参数生成所需的报告类型，并将报告另存为模板。
+1. 在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;中，使用“[!UICONTROL Date Aggregation]”的[!UICONTROL Daily]单位并使用所有其他所需的数据参数生成所需的报告类型，并将报告另存为模板。
 
    >[!NOTE]
    >
