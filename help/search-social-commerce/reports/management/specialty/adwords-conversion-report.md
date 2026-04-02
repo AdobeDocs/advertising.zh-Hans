@@ -3,24 +3,28 @@ title: '[!UICONTROL AdWords Conversion Report]'
 description: 了解[!UICONTROL AdWords Conversion Report]。
 exl-id: a3970c96-5b6f-4f1f-981a-0253c8204a0d
 feature: Search Reports, Search Specialty Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/qqCVk6OEu-b74kOHyBHdJKBeQjoOoirmkPDwsfihnbM
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: 207
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL AdWords Conversion Report]
 
-仅具有[!DNL Google Ads]转换优化的&#x200B;*[!DNL Google Ads]帐户*
+仅具有&#x200B;*[!DNL Google Ads]转换优化的[!DNL Google Ads]帐户*
 
-[!UICONTROL AdWords Conversion Report]包括成本、点击次数和印象数据；由[!DNL Google Ads Conversion Optimizer]跟踪的按转化类型划分的转化数据；以及（可选）一个或多个帐户、营销活动、广告组、广告或关键字的派生量度数据。 仅当在营销活动的竞价设置中启用了[!DNL Google Ads Conversion Optimizer]时，才会显示数据(因此，Search、Social和Commerce未优化营销活动的竞价)。 默认情况下，指定日期范围内每个时间单位的每个适用关键字的每次转化都将包含一行。 默认情况下，这些行先按广告组名称，然后按关键字升序。 该报告不包括成本、点击次数或展示次数数据，也不包括[!DNL Adobe]跟踪的任何转化数据。
+[!UICONTROL AdWords Conversion Report]包括成本、点击次数和印象数据；由[!DNL Google Ads Conversion Optimizer]跟踪的按转化类型划分的转化数据；以及（可选）一个或多个帐户、营销活动、广告组、广告或关键字的派生量度数据。 仅当在营销活动的竞价设置中启用了[!DNL Google Ads Conversion Optimizer]时，才会显示数据（因此，Search、Social和Commerce未优化营销活动的竞价）。 默认情况下，指定日期范围内每个时间单位的每个适用关键字的每次转化都将包含一行。 默认情况下，这些行先按广告组名称，然后按关键字升序。 该报告不包括成本、点击次数或展示次数数据，也不包括[!DNL Adobe]跟踪的任何转化数据。
 
 您可以查看前两个月的数据。
 
 >[!NOTE]
 >
->此报告的数据提取时间为前一天的23:00（晚上11:00）。 例如，6月18日23:00时，它会提取6月17日的数据。 如果您在6月19日09:00运行报表（在提取6月18日的数据之前），则报表包含截至6月17日23:00的数据。
+>此报告的数据提取时间为前一天的23:00 （晚上11:00）。 例如，在6月18日的23:00，提取6月17日的数据。 如果您在6月19日09:00（在提取6月18日的数据之前）运行报表，则报表包含截至6月17日23:00的数据。
 
 ## 默认列
 

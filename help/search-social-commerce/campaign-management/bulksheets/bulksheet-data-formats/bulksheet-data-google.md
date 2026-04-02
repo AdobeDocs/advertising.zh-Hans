@@ -3,16 +3,20 @@ title: ' [!DNL Google Ads] 帐户所需的批量处理工作表数据'
 description: 引用 [!DNL Google Ads] 帐户批量工作表中必需的标题字段和数据字段。
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
+TQID: https://experienceleague.adobe.com/mxs4XjmBxho29VLjSzREkA-w6eWMn6e-8cXihLgh7ZA
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '7898'
+source-wordcount: 7898
 ht-degree: 0%
 
 ---
 
 # 附录 — [!DNL Google Ads]帐户必需的批量处理工作表数据
 
-要批量创建和更新[!DNL Google Ads]营销活动数据，您可以使用专门为[!DNL Google Ads]帐户设置格式的Search、Social和Commerce批量工作表文件。 您可以a) [为现有帐户](../bulksheet-download.md)生成所需文件格式的批量工作表文件，或b)手动创建这些文件（有关支持的文件格式的一般信息，请参阅[支持的批量工作表文件格式](bulksheet-file-formats.md)）。
+要批量创建和更新[!DNL Google Ads]营销活动数据，您可以使用专门为[!DNL Google Ads]帐户设置格式的Search、Social和Commerce批量工作表文件。 您可以a)[为现有帐户](../bulksheet-download.md)生成所需文件格式的批量工作表文件，或b)手动创建这些文件（有关支持的文件格式的一般信息，请参阅[支持的批量工作表文件格式](bulksheet-file-formats.md)）。
 
 每个批量工作表必须包含要执行[特定操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md)（如创建广告）所需的标题字段和相应的数据字段。 当字段不是必填字段时，您可以从标题行和数据行中忽略该字段。 上传批量工作表文件时将删除所有自定义列。
 
@@ -40,7 +44,7 @@ ht-degree: 0%
 | [!UICONTROL Delivery Method] | <p>每天显示促销活动广告的速度：</p><ul><li><p><i>[!UICONTROL Standard (Distributed)]</i>（新营销活动的默认值）：用于将广告展示次数分散到一整天里。</p></li><li><p><i>[!UICONTROL Accelerated]：</i>（2019年10月弃用）在达到预算前尽可能多地显示广告。 因此，您的广告可能不会在当天晚些时候显示。</p></li></ul> |
 | [!UICONTROL Channel Type] | <p>要在其中放置广告的渠道。 指定一个或多个选项：</p><ul><li><p><i>[!UICONTROL Search]</i> （新营销活动的默认值）：在[!DNL Google Ads]搜索网络（包括[!DNL Google Ads]搜索和搜索合作伙伴网站）上投放广告，也可以选择在[!DNL Google Ads]显示网络上投放广告。 <b>注意：</b>无法将同时针对搜索网络和显示网络的营销活动添加到项目组合中以进行竞价优化。</p></li><li><p><i>[!UICONTROL Display]</i>：仅在[!DNL Google Ads]显示网络上投放广告。</p></li><li><p><i>[!UICONTROL Shopping]</i>：在[!DNL Google Ads]购物网络（位于选定的国家/地区）和[!DNL Google Ads]搜索网络（包括[!DNL Google Ads]搜索和搜索合作伙伴网站）上投放购物广告。 要创建购物广告，您必须在[!DNL Google Merchant Center]帐户中拥有产品，并且[允许Search、Social和Commerce从帐户](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)下载数据。 有关创建购物广告过程的更多信息，请参阅&quot;[实施 [!DNL Google Ads] 购物营销活动](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)&quot;。</p></li></ul> |
 | [!UICONTROL Networks] | <p>在何处放置广告。 指定一个或多个选项：</p><ul><li><p><i>[!UICONTROL Google Search]</i>：仅在Google搜索网络上提供赞助的搜索列表。</p></li><li><p><i>[!UICONTROL Search Partners]</i>：在Google的搜索合作伙伴上赞助的搜索列表。</p></li><li><p><i>[!UICONTROL Content]</i>：对显示网络列表投标。</p></li><li><p><i>[!UICONTROL All]</i> （新营销活动的默认值）：定位Google搜索、搜索合作伙伴和内容。</p></li></ul> |
-| [!UICONTROL DSA Domain Name] | <p>（仅限搜索网络；仅适用于扩展的动态搜索广告）广告网络用于定位动态搜索广告的广告内容的网站的根域(如example.com)或子域(如shoes.example.com)。<br><br><b>注释：</b></p><ul><li><p>扩展的动态搜索广告以网站内容为目标，而不是以关键字为目标。</p></li><li><p>域必须按广告网络的自然搜索索引编制索引才能定位。</p></li><li><p>如果不指定域，则必须创建动态搜索目标，这些目标针对每个广告组的所有网站页面或其子集。</p></li></ul> |
+| [!UICONTROL DSA Domain Name] | <p>（仅限搜索网络；仅适用于扩展的动态搜索广告）广告网络用于定位动态搜索广告的广告内容的网站的根域（如example.com）或子域（如shoes.example.com）。<br><br><b>注释：</b></p><ul><li><p>扩展的动态搜索广告以网站内容为目标，而不是以关键字为目标。</p></li><li><p>域必须按广告网络的自然搜索索引编制索引才能定位。</p></li><li><p>如果不指定域，则必须创建动态搜索目标，这些目标针对每个广告组的所有网站页面或其子集。</p></li></ul> |
 | [!UICONTROL DSA Domain Language] | （仅适用于搜索网络；仅适用于扩展的动态搜索广告）指定网站域的语言。 <b>注意：</b>如果域包含多种语言的页面，并且您希望定位所有这些语言，请为每个语言创建一个单独的营销活动。 |
 | [!UICONTROL GDN Custom Bid Level] | （仅针对显示网络的营销活动）竞价方式：竞价方式：由<i>[!UICONTROL Ad Group]</i> （默认值）、<i>[!UICONTROL Keyword]</i>、<i>[!UICONTROL Placement]</i> （网站）或<i>[!UICONTROL None]</i> （重置现有值）。 其他维度（<i>年龄</i>、<i>性别</i>、<i>兴趣和列表</i>、<i>主题</i>和<i>垂直</i>）可从[!DNL Google Ads]界面获得。 如果您已使用[!DNL Google Ads]界面配置其他维度的竞价，则会显示该值，但您无法在此处选择或输入这些维度。</p><p><b>注释：</b></p><ul><li><p>按关键字竞价时，可在关键字级别创建跟踪模板。 同样，在按投放位置竞价时，应在投放位置级别创建跟踪模板。 对于所有其他维度，请在广告级别创建跟踪模板。</p></li><li><p>当您通过不受支持的维度（年龄、性别、兴趣和列表或主题）竞价时，搜索、社交和Commerce不会优化该维度的竞价，并且所有归因都将应用于广告组。</p></li><li><p>搜索网络上的广告始终使用关键词竞价。</p></li></ul> |
 | [!UICONTROL Campaign Priority] | <p>（仅限购物营销活动）当多个营销活动播发同一产品时，使用该营销活动的优先级：<i>[!UICONTROL Low]</i>（新营销活动的默认值）、<i>[!UICONTROL Medium]</i>或<i>[!UICONTROL High]</i>。</p><p>如果同一产品包含在多个促销活动中，广告网络会首先使用促销活动优先级来确定哪个促销活动（及相关竞价）符合广告竞价的条件。 如果所有促销活动具有相同的优先级，则具有最高竞价的促销活动符合条件。 |
@@ -49,14 +53,14 @@ ht-degree: 0%
 | [!UICONTROL Sales Country] | （仅限购物营销活动；现有营销活动为只读）营销活动产品销售的国家/地区。 由于产品与目标国家/地区相关联，因此此设置确定在营销活动中广告的产品。 |
 | [!UICONTROL Product Scope Filter] | （仅限使用[!DNL Google Ads]购物网络的营销活动）您的[!DNL Google Merchant Center]帐户中可为其创建购物广告的产品。 您可以使用格式dimension=attribute最多输入七种产品维度和属性组合，以筛选产品。 使用“>>”分隔符分隔多个过滤器。 有关可用产品维度的列表，请参阅“[购物营销活动产品过滤器](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)”。</p><p>示例：“CategoryL1=animals>>CategoryL2=pet supplies>>Brand=Acme Pet Supplies”</p><p>要删除现有值，请使用值<code>[delete]</code> 括号)。</p> |
 | [!UICONTROL Languages] | <p>（仅限搜索和显示网络）促销活动中广告的目标语言。</p><p>如果不为此字段或新促销活动的[!UICONTROL Geo Targeting]字段输入值，则为帐户指定的货币将决定默认语言，除非其货币未映射到特定语言的促销活动（例如，EUR）将定位到所有语言。 如果您没有为此字段输入值，但在新促销活动的[!UICONTROL Geo Targeting]字段中输入值，则默认为<i>[!UICONTROL All]</i>。 如果将此字段留空，则保留现有促销活动。</p><p>若要定位所有语言，请输入<span style="font-style: italic;">&lt;i[!UICONTROL >All]</i></span>。 若要针对特定语言，请输入使用<a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#languages" target="_blank">[!DNL Google Ads]语言名称</a>（如<i>英语；日语</i>，这些名称被正确的数字代码替代）或数字代码（如<i>1000；1005</i>）以分号分隔的值。 值不区分大小写。</p> |
-| [!UICONTROL Location] | 要在其中投放广告或为其排除广告的地理位置。 如果没有为新市场活动的此字段或“语言”字段输入任何值，则为帐户指定的货币将确定默认位置，除非其货币未映射到特定位置的市场活动（例如，EUR）将定位到所有位置。 如果您没有为此字段输入值，但在新促销活动的[!UICONTROL Languages]字段中输入值，则默认为<i>[!UICONTROL All]</i>。 如果您将现有营销策划的此字段留空，则会保留现有值。</p><p>要定位特定位置，请使用[[!DNL Google Ads] 位置名称](https://developers.google.com/adwords/api/docs/appendix/geotargeting)（用正确的数字代码替代）或位置代码之一：</p><ul><li><p>国家/地区：输入国家/地区名称（如<i>美国；日本</i>）或数字代码（如<i>2840；2392</i>）。</p></li><li><p>州/省/地区：输入州/省/地区名称以及相关国家/地区的缩写（如<i>Tokyo， JP；New York， US</i>）或数字代码(如<i>20636；21167</i>)。</p></li><li><p>非美国城市：输入城市名称、州/省/地区名称以及国家/地区缩写（如<i>Adachi， Tokyo， JP；Kita， Tokyo， JP</i>）或数字代码(如<i>1028850；1009293</i>)</p></li><li><p>美国都市区：输入城市名称、州名和国家/地区缩写（如<i>Buffalo NY， US；New York NY， US</i>）或数字代码（如<i>514；501</i>）。</p></li></ul><p>要排除位置，请在位置名称或代码前面加上减号(`-`)，如<i>-Japan</i>。</p><p><b>注意：</b>值不区分大小写。</p> |
+| [!UICONTROL Location] | 要在其中投放广告或为其排除广告的地理位置。 如果没有为新市场活动的此字段或“语言”字段输入任何值，则为帐户指定的货币将确定默认位置，除非其货币未映射到特定位置的市场活动（例如，EUR）将定位到所有位置。 如果您没有为此字段输入值，但在新促销活动的[!UICONTROL Languages]字段中输入值，则默认为<i>[!UICONTROL All]</i>。 如果您将现有营销策划的此字段留空，则会保留现有值。</p><p>要定位特定位置，请使用[[!DNL Google Ads] 位置名称](https://developers.google.com/adwords/api/docs/appendix/geotargeting)（用正确的数字代码替代）或位置代码之一：</p><ul><li><p>国家/地区：输入国家/地区名称（如<i>美国；日本</i>）或数字代码（如<i>2840；2392</i>）。</p></li><li><p>州/省/地区：输入州/省/地区名称以及相关国家/地区的缩写（如<i>Tokyo， JP；New York， US</i>）或数字代码（如<i>20636；21167</i>）。</p></li><li><p>非美国城市：输入城市名称、州/省/地区名称以及国家/地区缩写（如<i>Adachi， Tokyo， JP；Kita， Tokyo， JP</i>）或数字代码（如<i>1028850；1009293</i>）</p></li><li><p>美国都市区：输入城市名称、州名和国家/地区缩写（如<i>Buffalo NY， US；New York NY， US</i>）或数字代码（如<i>514；501</i>）。</p></li></ul><p>要排除位置，请在位置名称或代码前面加上减号(`-`)，如<i>-Japan</i>。</p><p><b>注意：</b>值不区分大小写。</p> |
 | [!UICONTROL Location Type] | （当您包含位置时）[位置类型](https://developers.google.com/google-ads/api/data/geotargets)。 |
 | [!UICONTROL Device] | 在营销活动或广告组级别进行竞价调整的设备类型： <i>[!UICONTROL smartphone]</i>、<i>[!UICONTROL tablet]</i>或<i>[!UICONTROL desktop]</i>。 |
 | [!UICONTROL Bid Adjustment] | <p>（当您包含[!UICONTROL Location]、[!UICONTROL Device]或[!UICONTROL RLSA]目标时）是否调整特定位置、特定设备类型或特定受众目标的广告竞价：</p><ul><li><p>要使用关键词级别的竞价（0%的差异），请输入0。 对于新目标，您还可以将此项留空。</p></li><li><p>要对此目标使用其他竞价，请输入增加或减少竞价的百分比。</p></li><ul><li><p>对于位置和RLSA目标，有效百分比包括从–90到900。</p></li><li><p>对于设备竞价调整，有效百分比包括：</p></li><ul><li><p>（营销活动）–100（不为设备类型的广告竞价）或从–90到900。</p></li><li><p>（广告组）–100表示智能手机和平板电脑（表示不为设备类型出价），从–90到900表示所有设备类型。</p></li></ul></ul><li><p>（现有活动和广告组）要使用现有竞价调整，请将此项留空。</p></li></ul> |
 | [!UICONTROL Adobe Rec Bid Adjustment] | （出于信息目的包含在生成的批量处理工作表中） Adobe建议为促销活动级别位置目标或RLSA进行的只读竞价调整。 仅当营销活动位于其目标使用加权转化量度（而不是[!UICONTROL Maximize Clicks]目标）的项目组合中，并且营销活动包含至少两个位置目标或过去90天内至少单击5次或成本降低5美元的RLSA时，才会计算此值。</p><p>如果要手动编辑位置目标或RLSA以使用推荐值，请在创建位置目标或RLSA后至少等待两周，以便允许进行足够的数据收集，并且不要每周多次更改该值。 |
 | [!UICONTROL Device Targets] | <p>（仅限旧版促销活动类型）可显示广告的设备： <i>[!UICONTROL All]</i>、<i>[!UICONTROL Computers]</i>、<i>[!UICONTROL Smartphones]</i>或<i>[!UICONTROL Tablets]</i>。 对于新营销活动，默认值为<i>[!UICONTROL All]</i>。</p> |
 | [!UICONTROL Device OS Targets (Google Adwords)] | （仅限旧版促销活动类型；适用于设备目标包括“智能手机”或“平板电脑”的情况）可显示广告的操作系统： <i>[!UICONTROL All]</i>、<i>[!UICONTROL Android]</i>、<i>[!UICONTROL iOS]</i>或<i>[!UICONTROL Palm]</i>。 对于新营销活动，默认值为<i>[!UICONTROL All]</i>。</p> |
-| [!UICONTROL Mobile Carriers (Google Adwords)] | <p>（仅限旧版促销活动类型；适用于[!UICONTROL Device Targets]包含“[!UICONTROL All]”或“[!UICONTROL Smartphones]”时）智能电话可能连接的移动运营商： <i>[!UICONTROL All]</i>，或者&lt;c<i>运营商代码</i>>、&lt;<i>国家/地区代码</i>>（如T-Mobile，US）指示的一个或多个运营商（使用<a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">的[!DNL Google Ads]</a>可用运营商和代码列表）。 使用分号（如T-Mobile，US；T-Mobile，GB）分隔多个运营商。 对于新营销活动，默认值为<i>[!UICONTROL All]</i>。</p> |
+| [!UICONTROL Mobile Carriers (Google Adwords)] | <p>（仅限旧版促销活动类型；适用于[!UICONTROL Device Targets]包含“[!UICONTROL All]”或“[!UICONTROL Smartphones]”的情况）智能手机的可能连接到的移动运营商： <i>[!UICONTROL All]</i>，或者&lt;c<i>运营商代码</i>>指示的一个或多个运营商，&lt;<i>国家/地区代码</i>>（如T-Mobile，US）使用<a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">个可用运营商的列表和[!DNL Google Ads]</a>的代码。 使用分号（如T-Mobile，US；T-Mobile，GB）分隔多个运营商。 对于新营销活动，默认值为<i>[!UICONTROL All]</i>。</p> |
 | [!UICONTROL Ad Group Name] | <p>标识广告组的唯一名称。 最大长度为255个字符；不保存尾随空白字符（例如，“广告组1”另存为“广告组1”）。 此字段不适用于营销活动级别的站点链接或营销活动级别的设备目标。</p> |
 | [!UICONTROL Ad Group Type] | <p>广告组类型： <i>[!UICONTROL Demand Gen]</i> （仅用于需求生成营销活动）、<i>[!UICONTROL Display]</i> （用于显示营销活动）、<i>[!UICONTROL Search Dynamic]</i> （用于扩展的动态搜索广告）、<i>[!UICONTROL Search Standard]</i> （用于搜索广告）、<i>[!UICONTROL Shopping Product]</i> （用于购物产品广告）、<i>[!UICONTROL Shopping Showcase]</i> （不支持创建和编辑）或<i>[!UICONTROL Unknown]</i>。</p> |
 | [!UICONTROL Max CPC] | <p>（仅限CPC促销活动）每次点击的最大成本(CPC)，这是在广告网络上点击广告所需支付的最高金额，无论是否带有货币符号和标点。 您可以设置广告组和关键字、产品组和动态搜索目标的值。 新关键字的默认值继承自广告组级别。 对于产品组，您可以设置最低产品组层的值；新层的默认值继承自父层。</p><p>对于已优化项目组合中的现有产品组和动态搜索目标，更新仅在一天内有效，并在下一个优化周期中被覆盖。</p> |
@@ -77,11 +81,11 @@ ht-degree: 0%
 | [!UICONTROL Description Line 1]-[!UICONTROL Description Line 4] | <p>（仅限扩展的动态搜索广告、扩展文本广告和响应式搜索广告）广告的正文。 每个描述字段的最大长度为90个字符或45个双字节字符，包括任何动态文本（例如关键字和广告自定义项的值）。</p><p>对于响应式搜索广告，请使用以下格式插入广告自定义程序： `{CUSTOMIZER.AdCustomizerName:DefaultText}`，如`{CUSTOMIZER.Discount:10%}`</p><p>对于扩展的动态搜索广告，仅使用[!UICONTROL Description Line 1]和[!UICONTROL Description Line 2]。 <b>注意：</b>对于此广告类型，更改广告副本将删除现有广告并创建新广告。</p><p>您不能创建或编辑，但可以删除扩展的文本广告，其[!DNL Google Ads]已于2022年6月弃用。</p><p>对于响应式搜索广告，[!UICONTROL Description Line 1]和[!UICONTROL Description Line 2]是必需的，[!UICONTROL Description Line 3]和[!UICONTROL Description Line 4]是可选的。 要删除现有值，请使用值<code>[delete]</code> 括号)。</p> |
 | [!UICONTROL Description Line 1 Position]-[!UICONTROL Description Line 4 Position] | （仅限响应式搜索广告；可选）固定相应说明的位置： `[null]`（没有值，因此说明适用于所有位置）、<i>1</i>、<i>2</i>或<i>3</i>。 例如，如果[!UICONTROL Description 1 Position]的值为1，则[!UICONTROL Description 1]仅显示在位置1中。 默认情况下，不会将任何描述固定到位置。</p><p>要删除现有值，请使用值`[delete]`（包括括号）。</p><p><b>注意：</b>您可以将多个描述固定到同一位置。 广告网络使用固定到该位置的描述之一。 固定到位置2的描述可能无法与广告一起显示。 |
 | [!UICONTROL Display URL] | 广告中包含的URL。<br><br>对于扩展的动态搜索广告，[!DNL Google Ads]从网站域动态生成此值，您无需输入值。<br><br>对于响应式搜索广告，无需输入值。 显示URL将自动从最终URL中的域提取。 您可以选择使用“路径1”和“路径2”字段自定义URL。<br><br>您无法创建或编辑，但可以删除[!DNL Google Ads]已于2022年6月弃用的扩展文本广告。<br><br><b>注意：</b> （具有最终URL的帐户）显示URL和最终URL中的域名必须匹配。</p> |
-| [!UICONTROL Display Path 1] | <p>（仅限扩展文本广告<span>和响应式搜索广告</span>）</p><p>（可选）添加到显示URL的文本，将自动从最终URL中提取。 在URL中，它的前面有正斜杠(/)。 路径不能包含正斜杠(/)或换行符(\n)。 最大长度为15个字符或7个双字节字符。</p><p>要插入广告自定义程序，请使用以下格式，其中`Default text`是当馈送文件不包含有效值时要插入的可选值：&lt; `{CUSTOMIZER.AdCustomizerName:Default text}`，如`{CUSTOMIZER.Discount:10%}`</p><p>例如，如果[!UICONTROL Display Path 1]是“交易”，则显示URL是&lt;<i>显示URL</i>>/交易，如www.example.com/deals。</p><p>您不能创建或编辑，但可以删除扩展的文本广告，其[!DNL Google Ads]已于2022年6月弃用。</p> |
+| [!UICONTROL Display Path 1] | <p>（仅限扩展文本广告<span>和响应式搜索广告</span>）</p><p>（可选）添加到显示URL的文本，将自动从最终URL中提取。 在URL中，它的前面有正斜杠(/)。 路径不能包含正斜杠(/)或换行符(\n)。 最大长度为15个字符或7个双字节字符。</p><p>要插入广告自定义程序，请使用以下格式，其中`Default text`是当馈送文件不包含有效值时要插入的可选值：&lt; `{CUSTOMIZER.AdCustomizerName:Default text}`，如`{CUSTOMIZER.Discount:10%}`</p><p>例如，如果[!UICONTROL Display Path 1]为“deals”，则显示URL为&lt;<i>显示URL</i>>/deals，如www.example.com/deals。</p><p>您不能创建或编辑，但可以删除扩展的文本广告，其[!DNL Google Ads]已于2022年6月弃用。</p> |
 | [!UICONTROL Display Path 2] | 第二个显示路径；请参阅[!UICONTROL Display Path 1]条目。<br><br>示例：如果[!UICONTROL Display Path 1]为“deals”，[!UICONTROL Display Path 2]为“local”，则显示URL为&lt;<i>显示URL</i>>/deals/local，如www.example.com/deals/local。</p><p>您不能创建或编辑，但可以删除扩展的文本广告，其[!DNL Google Ads]已于2022年6月弃用。</p> |
 | [!UICONTROL Promotion Line] | （仅限产品列表广告）要包含在搜索结果中的产品列表内的可选促销行。 最大长度为45个字符。</p><p>根据广告在页面上出现的位置，促销行可能会出现在与广告相关的不同位置（例如广告下方）。 |
 | [!UICONTROL Link Name] | <p>站点链接文本。 它最多可包含25个字符。</p><p>对于新的站点链接，您必须在站点链接行中包含促销活动名称。 对于广告组级别的站点链接，您还必须包含广告组名称。</p><p><b>注意：</b> 35个字符的现有文本仍显示在台式机和平板电脑的广告中，但不显示在移动设备上。</p> |
-| [!UICONTROL Mobile App Platform (Google Adwords)] | （仅限现有应用安装广告）运行移动应用的操作系统： <i>Android™</i>或<i>ios</i>。 |
+| [!UICONTROL Mobile App Platform (Google Adwords)] | （仅限现有应用安装广告）运行移动应用的操作系统： <i>™</i>或<i>ios</i>。 |
 | [!UICONTROL Mobile App ID (Google Adwords)] | （仅限现有应用程序安装广告） <p>应用程序ID或包名称。 |
 | [!UICONTROL Mobile App Name (Google Adwords)] | （仅限现有应用程序安装广告）应用程序的名称。 |
 | [!UICONTROL Start Date] | <p>（仅限增强型站点链接）对站点链接发出竞价的第一天，在广告商所在的时区内，以下列格式之一表示： <i>m/d/yyyy</i>、<i>m/d/yy</i>、<i>m-d-yyyy</i>或<i>m-d-yy</i>。 新的增强型站点链接的默认值为当天。</p><p><b>注意：</b>只能在具有现有增强型站点链接或没有站点链接的营销活动中创建新的增强型站点链接。</p> |
@@ -124,9 +128,9 @@ ht-degree: 0%
 | [!UICONTROL EF Error Message] | （出于信息目的包含在生成的批量工作表中）用于显示来自广告网络的关于行中数据的错误消息的占位符；错误消息包含在[!UICONTROL EF Errors]文件中。 此值未发布到广告网络。 |
 | [!UICONTROL SE Error Message] | （出于信息目的包含在生成的批量工作表中）用于显示来自广告网络的关于行中数据的错误消息的占位符；错误消息包含在[!UICONTROL SE Errors]文件中。 此值未发布到广告网络。 |
 | [!UICONTROL Exemption Request] | （出于信息目的包含在生成的批量工作表中）用于显示广告违反的任何[!DNL Google Ads]广告策略的名称和文本的占位符。 |
-| [!UICONTROL Retail Hash] | （包括在使用高级促销活动管理生成的批量处理工作表中的信息用途）字母数字哈希代码(如f9639f40cdf56524b541e5dacf55a991)，表示项目是使用高级(ACM)视图生成的。 |
+| [!UICONTROL Retail Hash] | （包括在使用高级促销活动管理生成的批量处理工作表中的信息用途）字母数字哈希代码（如f9639f40cdf56524b541e5dacf55a991），表示项目是使用高级(ACM)视图生成的。 |
 
-[^1]： [!DNL Excel]在打开文件时将大数转换为科学记号(如2115585666的2.12E+09)。 要查看标准表示法的位数，请选择列中的任意单元格，然后在公式栏中单击。
+[^1]： [!DNL Excel]在打开文件时将大数转换为科学记号（如2115585666的2.12E+09）。 要查看标准表示法的位数，请选择列中的任意单元格，然后在公式栏中单击。
 
 ## 创建、编辑或删除每个帐户组件所需的字段 {#bulksheet-fields-per-component-google}
 
@@ -241,7 +245,7 @@ ht-degree: 0%
 
 ### 扩展的动态搜索广告
 
-此广告类型现在在[!DNL Google Ads]中称为“动态搜索广告”。 有关创建动态搜索广告的更多信息，请参阅“[实施 [!DNL Google Ads] 动态搜索广告](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html?lang=zh-Hans)”。
+此广告类型现在在[!DNL Google Ads]中称为“动态搜索广告”。 有关创建动态搜索广告的更多信息，请参阅“[实施 [!DNL Google Ads] 动态搜索广告](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html)”。
 
 对于此广告类型，请使用[!UICONTROL Creative (except RSA)]对话框中的“[!UICONTROL Download Bulksheet]”行。
 
@@ -266,7 +270,7 @@ ht-degree: 0%
 
 ### 产品列表/购物广告字段
 
-有关创建购物广告的更多信息，请参阅“[实施 [!DNL Google Ads] 购物营销活动](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html?lang=zh-Hans)”。
+有关创建购物广告的更多信息，请参阅“[实施 [!DNL Google Ads] 购物营销活动](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html)”。
 
 对于此广告类型，请使用[!UICONTROL Creative (except RSA)]对话框中的“[!UICONTROL Download Bulksheet]”行。
 

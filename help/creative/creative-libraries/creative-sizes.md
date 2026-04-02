@@ -3,9 +3,12 @@ title: 支持的创意大小
 description: 引用广告体验支持的创意大小。
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: c8e90ba6-bff7-4161-86b8-c4b5b04fb4bf
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+TQID: https://experienceleague.adobe.com/v9wOtISs7XySZ5rr7itFqzkmuAdYcUQclzNVAKneURs
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: 111
 ht-degree: 1%
 
 ---

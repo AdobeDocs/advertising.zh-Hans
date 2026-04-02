@@ -2,11 +2,15 @@
 title: 管理广告组的限制分配
 description: 了解如何将限制分配给广告组。
 feature: Search Optimization, Search Campaign Management
-hide: true
+hide: yes
 exl-id: c9960b5a-4b6c-4ef0-8501-5478af2c40da
-source-git-commit: 0e863a638d8f3d055fd566db65d7967126fd5f89
+TQID: https://experienceleague.adobe.com/6z4-Pt25RaQpLiEYdnp-BXD0guz9S2zQLmamf8uSSXU
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: 379
 ht-degree: 0%
 
 ---

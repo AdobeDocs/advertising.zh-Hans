@@ -3,9 +3,12 @@ title: 关于使用库存信息源自动化广告管理
 description: 了解高级促销活动管理，它允许您根据产品或服务库存的相关数据自动管理帐户结构和投放动态广告。
 exl-id: 46e78f32-96ef-4a23-bbe3-f18b84309463
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/UqICY8g8nUAo4JSdAJ8h09P65nbe36aUYDEfOnBT9Jg
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: 838
 ht-degree: 0%
 
 ---
@@ -31,7 +34,7 @@ ht-degree: 0%
 生成广告后，您可以选择查看这些广告，然后将它们发布到广告网络。
 
 >[!NOTE]
->要使用电子表格文件批量创建或编辑促销活动数据，请参阅“关于使用批量工作表管理促销活动数据[&#128279;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)”。
+>要使用电子表格文件批量创建或编辑促销活动数据，请参阅“关于使用批量工作表管理促销活动数据[”。](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)
 
 ## 使用库存信息源管理营销活动数据的工作流
 
@@ -49,7 +52,7 @@ ht-degree: 0%
 
    如果您使用FTP，最初不要自动将数据发布到广告网络。 验证第一个文件的输出并对结果感到满意后，可以更改设置。
 
-1. 将数据文件上载到FTP目录，[在[!UICONTROL Advanced (ACM) view]中手动上载数据文件](feed-files-manage.md)，或者[启用对Google或Microsoft商家中心帐户的访问](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)。
+1. 将数据文件上载到FTP目录，[在](feed-files-manage.md)中手动上载数据文件[!UICONTROL Advanced (ACM) view]，或者[启用对Google或Microsoft商家中心帐户的访问](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)。
 
 要手动上传文件，您可以等到创建使用数据文件的模板为止。
 
@@ -59,7 +62,7 @@ ht-degree: 0%
 
 1. [通过模板](feed-data-propagate.md)传播馈送数据，该模板用文件或帐户中的数据替换模板中的列名。 根据模板选项，Search、Social和Commerce可以使用默认设置为广告创建新帐户结构（促销活动、广告组、关键词），或将广告映射到现有帐户结构。
 
-1. （可选） [在[!UICONTROL Advanced (ACM)]视图中预览输出](propagated-data-view.md)，并可以选择在[!UICONTROL Propagations]选项卡上查看数据更改的摘要。
+1. （可选） [在](propagated-data-view.md)视图中预览输出[!UICONTROL Advanced (ACM)]，并可以选择在[!UICONTROL Propagations]选项卡上查看数据更改的摘要。
 
 1. [将数据](propagated-data-post.md)发布到相关的广告网络帐户。
 

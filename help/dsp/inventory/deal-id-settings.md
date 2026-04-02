@@ -3,9 +3,14 @@ title: 手动交易标识设置
 description: 请参阅手动输入的交易ID的设置说明。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 9d3417cb-8b44-4f1c-afc4-eea6a2e5b9d7
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+TQID: https://experienceleague.adobe.com/1jcBNsmB8-5zM6udv9o3mILo70vOGrzZxEwPM62LPs0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: ac506c20-96f2-48f6-9096-77706e336bdaid: fae3ff5f-9a75-4de1-a100-c90dd8268528
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: 518
 ht-degree: 0%
 
 ---

@@ -3,9 +3,14 @@ title: 关于Advertising DSP中的广告管理
 description: 了解广告管理。
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
+TQID: https://experienceleague.adobe.com/RQDnXgB496PHM7qJdiBHwYa9THctwmZtWI9-39PGZqM
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: 737
 ht-degree: 0%
 
 ---

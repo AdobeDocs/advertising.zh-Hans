@@ -3,9 +3,14 @@ title: 非定向体验的设置
 description: 请参阅无决策树定位的广告体验的所有设置描述。
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: ace6005869ea4102878091c4799259961aeecb63
+TQID: https://experienceleague.adobe.com/Qz-MUPLNsdn4PvnaF-uDAZQjd-iXJD0oEZOkMSUGuEs
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: b2025470-04ef-4dd9-bdd4-44407644aeb6id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: 1126
 ht-degree: 0%
 
 ---
@@ -24,7 +29,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Default creatives]节
 
-**\[指定的默认创意\]：**&#x200B;当浏览器无法显示分配给体验的创意(例如，浏览器未启用JavaScript或广告服务器由于延迟而无法个性化广告)时要使用的默认创意。 对于标准显示体验，请为每个广告大小包含一个图像创意内容，该体验适用于该广告大小。 对于标准视频体验，请针对体验适用的每个广告大小包含一个视频创意内容。 您的选择决定了可用于体验的创意大小。
+**\[指定的默认创意\]：**&#x200B;当浏览器无法显示分配给体验的创意（例如，浏览器未启用JavaScript或广告服务器由于延迟而无法个性化广告）时要使用的默认创意。 对于标准显示体验，请为每个广告大小包含一个图像创意内容，该体验适用于该广告大小。 对于标准视频体验，请针对体验适用的每个广告大小包含一个视频创意内容。 您的选择决定了可用于体验的创意大小。
 
 对于没有决策树定位的体验，您可以在[!UICONTROL Tag Manager]内用相同大小的创意覆盖默认创意内容。
 
@@ -46,7 +51,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced]节
 
-**数据传递：**（仅限具有动态广告的体验；可选）根据DSP、发布者或合作伙伴在展示时实时传递的特定键值对定位用户(例如SKU=01234567890123或Cart=empty)。 您最多可以指定五个数据传递密钥（参数）。<!-- May move this to just within the decision tree. -->
+**数据传递：**（仅限具有动态广告的体验；可选）根据DSP、发布者或合作伙伴在展示时实时传递的特定键值对定位用户（例如SKU=01234567890123或Cart=empty）。 您最多可以指定五个数据传递密钥（参数）。<!-- May move this to just within the decision tree. -->
 
 为特定创意大小创建广告体验标记时，在此字段中指定的每个键都将作为宏附加到标记中。 在DSP中将该标记作为广告实施之前，输入标记中每个键值对的值。
 

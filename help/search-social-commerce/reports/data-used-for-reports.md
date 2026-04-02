@@ -3,9 +3,13 @@ title: 用于报表的数据
 description: 了解数据视图和自定义报告中可用的不同类型数据。
 exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-source-git-commit: f357d9a9ec0f8b38fbc43726265521e6fd77c7d0
+TQID: https://experienceleague.adobe.com/dJGj3NmyEAmXwLdTYqCURrPhiIlJzpY1XdjrBVVUsgU
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: 599
 ht-degree: 0%
 
 ---
@@ -14,7 +18,7 @@ ht-degree: 0%
 
 搜索、社交和Commerce包括基于点击和转化数据的全套性能报表。 您可以从[!UICONTROL Portfolios]和[!UICONTROL Campaigns]视图中，以及通过生成各种基本和高级报告来查看组合或广告帐户的各种组件的基本性能数据。
 
-使用Adobe Advertising转化跟踪服务的广告商还可以识别反向链接网站的地理位置或域名的点击次数、每个渠道中的广告以及导致转化的各种事件对整体转化率的贡献情况，以及营销渠道单个[转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)的转化分布情况。 可用的报告因用户帐户类型而异。 Adobe帐户团队有权访问所有报表。
+使用Adobe Advertising转化跟踪服务的广告商还可以识别反向链接网站的地理位置或域名的点击次数、每个渠道中的广告以及导致转化的各种事件对整体转化率的贡献情况，以及营销渠道单个[转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)的转化分布情况。 可用的报告因用户帐户类型而异。 Adobe客户团队有权访问所有报表。
 
 大多数报告都可以自定义为仅显示要查看的信息。 以下标准量度在大多数报表中可用，并在广告级别计算：
 
@@ -30,7 +34,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Average Position]：** （适用时）已投放广告的平均位置，用展示次数加权。
 
-   * **[!UICONTROL Estimated Clicks]：** (仅包含在具有Adobe Advertising转化跟踪服务的广告商的高级报告中)反向链接网站的某个城市或域名的预计点击总数。 这可能包括广告商没有广告帐户的广告网络的数据。
+   * **[!UICONTROL Estimated Clicks]：** （仅包含在具有Adobe Advertising转化跟踪服务的广告商的高级报告中）反向链接网站的某个城市或域名的预计点击总数。 这可能包括广告商没有广告帐户的广告网络的数据。
 
 * **转化量度：**&#x200B;每个广告商的转化量度的转化总数，或针对某个转化量度跟踪的交易数据。 这可能包括转化和网站参与量度，但不包括从Adobe Analytics同步的计算量度和高级计算量度。
 

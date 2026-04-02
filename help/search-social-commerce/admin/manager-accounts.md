@@ -3,9 +3,14 @@ title: 管理广告网络管理器帐户的凭据
 description: 了解如何为 [!DNL Google Ads] 经理帐户提供凭据。
 exl-id: 95866a2e-4695-4b1d-ac23-844d3b9a0a74
 feature: Search Admin
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/NHgpx-F19gX8jsOIPijPzNlGVhBje-CVsj4jjlV1OR0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: 327
 ht-degree: 0%
 
 ---
@@ -20,7 +25,7 @@ ht-degree: 0%
 
 您可以为新经理帐户记录添加凭据，或重新验证现有经理帐户。
 
-为管理员帐户添加凭据后，帐户设置会将关联的管理员帐户ID显示为只读。 此外，[!UICONTROL Campaigns] > [!UICONTROL Accounts]视图中的可选“[!UICONTROL Manager Account for Cross-Account Conversions]”列会显示每个子帐户的经理帐户ID，并在经理帐户未通过身份验证时指示错误。 [!UICONTROL Notification Center]包含缺少经理帐户的凭据（[该[!UICONTROL Manager Account Missing Error]](/help/search-social-commerce/notifications/notification-about.md)）或经理帐户身份验证令牌过期时的通知（[该[!UICONTROL Manager Account Auth Error]](/help/search-social-commerce/notifications/notification-about.md)）。
+为管理员帐户添加凭据后，帐户设置会将关联的管理员帐户ID显示为只读。 此外，[!UICONTROL Manager Account for Cross-Account Conversions] > [!UICONTROL Campaigns]视图中的可选“[!UICONTROL Accounts]”列会显示每个子帐户的经理帐户ID，并在经理帐户未通过身份验证时指示错误。 [!UICONTROL Notification Center]包含缺少经理帐户的凭据（[该[!UICONTROL Manager Account Missing Error]](/help/search-social-commerce/notifications/notification-about.md)）或经理帐户身份验证令牌过期时的通知（[该[!UICONTROL Manager Account Auth Error]](/help/search-social-commerce/notifications/notification-about.md)）。
 
 ## 为新的经理帐户添加凭据
 
@@ -32,7 +37,7 @@ ht-degree: 0%
 
    **[!UICONTROL Manager Account ID]**&#x200B;和&#x200B;**[!UICONTROL Login Email]**&#x200B;是必需的。 搜索、Social和Commerce会自动捕获和存储用于身份验证的帐户令牌。
 
-   您可以选择在Search、Social和Commerce以及帐户&#x200B;**[!UICONTROL Password]**&#x200B;中包含用于标识的&#x200B;**[!UICONTROL MCC Account Name]**。 输入密码，以便帐户管理员根据需要刷新令牌。
+   您可以选择在Search、Social和Commerce以及帐户&#x200B;**[!UICONTROL MCC Account Name]**&#x200B;中包含用于标识的&#x200B;**[!UICONTROL Password]**。 输入密码，以便帐户管理员根据需要刷新令牌。
 
 1. 单击&#x200B;**[!UICONTROL Authenticate]**。
 
@@ -50,7 +55,7 @@ ht-degree: 0%
 
    需要&#x200B;**[!UICONTROL Manager Account ID]**&#x200B;和&#x200B;**登录电子邮件**。 搜索、Social和Commerce会自动捕获和存储用于身份验证的帐户令牌。
 
-   您可以选择在Search、Social和Commerce以及帐户&#x200B;**[!UICONTROL Password]**&#x200B;中包含用于标识的&#x200B;**[!UICONTROL MCC Account Name]**。 输入密码，以便帐户管理员根据需要刷新令牌。
+   您可以选择在Search、Social和Commerce以及帐户&#x200B;**[!UICONTROL MCC Account Name]**&#x200B;中包含用于标识的&#x200B;**[!UICONTROL Password]**。 输入密码，以便帐户管理员根据需要刷新令牌。
 
 1. 单击&#x200B;**[!UICONTROL Authenticate]**。
 

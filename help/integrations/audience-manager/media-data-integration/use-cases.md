@@ -3,9 +3,15 @@ title: 用例
 description: 了解与Audience Manager共享Advertising DSP媒体数据的用例
 feature: Integration with Adobe Audience Manager
 exl-id: 1d961799-b8be-499a-8db6-b59762d96bf1
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+TQID: https://experienceleague.adobe.com/bEvS7Wb-Xk0nHAchL60c3AUNm7K4S2p3tBxJ2aWWevA
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: 730
 ht-degree: 0%
 
 ---
@@ -22,7 +28,7 @@ ht-degree: 0%
 
 在Audience Manager中捕获展示数据允许您通过创建已接触到特定广告或营销活动的用户区段来增强频率管理。 如果要提高频率，可以将这些区段用于广告定位；如果要限制频率，则可以将这些区段用于广告抑制。
 
-此外，使用Audience Manager [!DNL Segment Builder]，您可以将[回访间隔和频率控件](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/recency-and-frequency.html?lang=zh-Hans)应用于包含可操作信号的任何[基于规则的特征](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=zh-Hans)。 例如，这可让您限制在媒体促销活动中向某个用户展示特定创意内容的次数。 阅读“[即时跨设备抑制](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/instant-cross-device-suppression.html?lang=zh-Hans)”以了解如何执行此操作。<!-- The AM pulled this paragraph verbatim from AEM doc; I change only a word or two. -->
+此外，使用Audience Manager [!DNL Segment Builder]，您可以将[回访间隔和频率控件](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/recency-and-frequency.html)应用于包含可操作信号的任何[基于规则的特征](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html)。 例如，这可让您限制在媒体促销活动中向某个用户展示特定创意内容的次数。 阅读“[即时跨设备抑制](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/instant-cross-device-suppression.html)”以了解如何执行此操作。<!-- The AM pulled this paragraph verbatim from AEM doc; I change only a word or two. -->
 
 ## 顺序消息传递
 
@@ -56,7 +62,7 @@ ht-degree: 0%
 
 ## [!DNL Adobe Audience Analytics]和营销活动曝光数据
 
-一旦营销活动展示和点击数据在Audience Manager中可用，您即可创建接触或交互特定营销活动或策略的用户的特征和区段。 通过[[!DNL Audience Analytics] 集成](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=zh-Hans)，您的Audience Manager区段可以与[!DNL Analytics]同步以供进一步分析。 潜在用例包括：
+一旦营销活动展示和点击数据在Audience Manager中可用，您即可创建接触或交互特定营销活动或策略的用户的特征和区段。 通过[[!DNL Audience Analytics] 集成](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)，您的Audience Manager区段可以与[!DNL Analytics]同步以供进一步分析。 潜在用例包括：
 
 * **DSP与[!DNL Advertising Search, Social, & Commerce]广告之间的交互分析：**&#x200B;标准[[!DNL Analytics for Advertising] 集成](/help/integrations/analytics/overview.md)不提供有关DSP与[!DNL Search, Social, & Commerce]之间的交互的分析，因为两个渠道使用的AMO ID都遵循AMO ID归因规则，搜索点击会覆盖该规则的显示显示显示显示显示显示到达。 通过在Audience Manager中创建DSP曝光区段，您可以使用[!DNL Audience Analytics]来分析DSP与[!DNL Search, Social, & Commerce]中的[!DNL Analytics]广告之间的交互。
 
@@ -64,16 +70,16 @@ ht-degree: 0%
 
 ## [!DNL Audience Optimization Reports]
 
-您可以利用[Audience Manager [!DNL Audience Optimization Reports]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-reports.html?lang=zh-Hans)识别营销活动中区段的潜在效果机会。 这些报表将促销活动展示次数、点击次数和转化数据与区段量度相结合，以提供以区段为中心的优化和有效渠道组合信息。
+您可以利用[Audience Manager [!DNL Audience Optimization Reports]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-reports.html)识别营销活动中区段的潜在效果机会。 这些报表将促销活动展示次数、点击次数和转化数据与区段量度相结合，以提供以区段为中心的优化和有效渠道组合信息。
 
 ### 相关Audience Optimization报表的类型
 
 | 报表 | 描述 |
 | ------ | ----------- |
-| [[!UICONTROL Segment Performance]报告](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/segment-performance.html?lang=zh-Hans) | 按展示次数和转化率比较已映射和未映射的区段。 |
+| [[!UICONTROL Segment Performance]报告](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/segment-performance.html) | 按展示次数和转化率比较已映射和未映射的区段。 |
 | [[!UICONTROL Trend Analysis and Volume Analysis]报告]9https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/trend-analysis-volume-analysis.html) | 返回各种广告维度的展示次数、点进率和转化率数据。 |
-| [[!UICONTROL Optimal Frequency]报告](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/optimal-frequency.html?lang=zh-Hans) | 帮助您在提供的展示次数和转化次数之间实现最佳平衡。 它允许您先调整要显示的展示次数，然后再开始看到递减的退货。 |
-| [[!UICONTROL Unique User Reach]报告](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/unique-user-reach.html?lang=zh-Hans) | 气泡图，其中每个气泡的大小与所选维度的独特用户数成正比。 |
+| [[!UICONTROL Optimal Frequency]报告](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/optimal-frequency.html) | 帮助您在提供的展示次数和转化次数之间实现最佳平衡。 它允许您先调整要显示的展示次数，然后再开始看到递减的退货。 |
+| [[!UICONTROL Unique User Reach]报告](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/unique-user-reach.html) | 气泡图，其中每个气泡的大小与所选维度的独特用户数成正比。 |
 
 ### 注意事项
 

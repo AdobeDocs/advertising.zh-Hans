@@ -3,9 +3,12 @@ title: ' [!DNL Naver] 帐户所需的批量处理工作表数据'
 description: 引用 [!DNL Naver] 帐户批量工作表中必需的标题字段和数据字段。
 exl-id: 1bfcdbb6-8026-4230-ab6b-b7c79b0d185a
 feature: Search Bulksheets
-source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
+TQID: https://experienceleague.adobe.com/w87Fs-VxlSzJr-eakgPsqVVeHuufeytp3pMQ8n9LCMg
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: 998
 ht-degree: 0%
 
 ---

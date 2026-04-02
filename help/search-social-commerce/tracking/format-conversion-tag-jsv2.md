@@ -3,9 +3,13 @@ title: JavaScript转化跟踪标记版本2的格式
 description: 引用JavaScript转化跟踪标记版本2的格式。
 exl-id: 75e96f97-a3f0-4f5b-8bbb-4b1e8986f01a
 feature: Search Tracking
-source-git-commit: dda4ff8e7538bc742caa50862575cb4e46a1371d
+TQID: https://experienceleague.adobe.com/WKh16jULfv2I-P7SEm9oP9O933KYNIZNPiIe9FD2xro
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: 305
 ht-degree: 0%
 
 ---
@@ -48,7 +52,7 @@ effp();
 
 * `<transid>`是广告商生成并传递的唯一交易ID（如实际订单ID）以标识交易。 仅当选择了“[!UICONTROL Include unique transaction IDs]”选项时才包含在内。
 
-  搜索、Social和Commerce使用交易ID来消除具有相同交易ID和属性值的重复交易。 交易ID包含在[!UICONTROL Transaction Report]中，您可以使用它来验证包含广告商数据的Adobe Advertising中的数据。 **注意：**&#x200B;如果广告商的数据不包括每个交易的唯一ID，则Search、Social和Commerce仍会根据交易时间生成一个ID。
+  搜索、Social和Commerce使用交易ID来消除具有相同交易ID和属性值的重复交易。 交易ID包含在[!UICONTROL Transaction Report]中，您可以使用该ID验证Adobe Advertising中的数据与广告商的数据。 **注意：**&#x200B;如果广告商的数据不包括每个交易的唯一ID，则Search、Social和Commerce仍会根据交易时间生成一个ID。
 
 <!-- add more links -->
 

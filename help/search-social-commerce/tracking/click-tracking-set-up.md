@@ -3,9 +3,12 @@ title: 设置基于Cookie的点击跟踪
 description: 了解如何设置和验证点击跟踪标记。
 exl-id: 3f2b09bc-9794-41d1-89fc-0d239bad2fb1
 feature: Search Tracking
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/cs39NoKUXfx4PdrzULocZEOW0SUGtXrpmO4I3IXefwA
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: 542
 ht-degree: 0%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 0%
 
 要跟踪Search、Social和Commerce的点击量，必须配置和验证以下元素。
 
-1. (Adobe客户团队)将广告商设置为像素客户。
+1. （Adobe客户团队）将广告商设置为像素客户。
 
 1. [为每个广告商的广告网络帐户和营销活动指定正确的跟踪选项](#set-up-click-tracking-options)。
 
@@ -36,7 +39,7 @@ ht-degree: 0%
 
    1. 对于[!UICONTROL Tracking Type]设置，选择&#x200B;**[!UICONTROL EF Redirect]**。
 
-   1. (要允许Search、Social和Commerce与Adobe Analytics交换数据或跟踪[!DNL Apple Safari]中发生的转化)请选择[!UICONTROL Redirect Type]选项&#x200B;**[!UICONTROL Token]**。
+   1. （要允许Search、Social和Commerce与Adobe Analytics交换数据或跟踪[!DNL Apple Safari]中发生的转化）请选择[!UICONTROL Redirect Type]选项&#x200B;**[!UICONTROL Token]**。
 
    1. （可选）打开&#x200B;**[!UICONTROL Auto Upload]**&#x200B;选项，以便下次在Search、Social和Commerce与其同步时将新跟踪URL自动上传到广告网络。 此值作为帐户中所有营销活动的默认值继承，但可以在营销活动级别覆盖。
 
@@ -50,7 +53,7 @@ ht-degree: 0%
 
    1. 对于[!UICONTROL Tracking Type]设置，选择&#x200B;**[!UICONTROL EF Redirect]**。
 
-   1. (要允许Search、Social和Commerce与Adobe Analytics交换数据或跟踪[!DNL Apple Safari]中发生的转化)请选择[!UICONTROL Redirect Type]选项&#x200B;**[!UICONTROL Token]**。
+   1. （要允许Search、Social和Commerce与Adobe Analytics交换数据或跟踪[!DNL Apple Safari]中发生的转化）请选择[!UICONTROL Redirect Type]选项&#x200B;**[!UICONTROL Token]**。
 
    1. （可选）打开&#x200B;**[!UICONTROL Auto Upload]**&#x200B;选项，以便下次在Search、Social和Commerce与其同步时将新跟踪URL自动上传到广告网络。 此值作为帐户中所有营销活动的默认值继承，但可以在营销活动级别覆盖。
 

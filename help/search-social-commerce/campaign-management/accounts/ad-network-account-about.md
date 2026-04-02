@@ -3,16 +3,20 @@ title: 关于广告网络帐户
 description: 了解Search、Social和Commerce中的广告网络帐户。
 exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+TQID: https://experienceleague.adobe.com/90Dq2tehH-k2aY3Ij30aHF-XQGdvlPY346moWkg3xmk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: 426
 ht-degree: 0%
 
 ---
 
 # 关于广告网络帐户
 
-*仅限代理帐户管理员、Adobe帐户管理员和管理员用户角色*
+*仅限代理客户经理、Adobe客户经理和管理员用户角色*
 
 搜索、社交和Commerce可以在支持的广告网络上跟踪广告商的任何帐户。 要启用帐户跟踪，您必须创建相应的帐户记录。 您必须为任何类型的帐户设置帐户详细信息，无论Search、Social和Commerce是否与其同步，还是优化其广告的竞价和预算。
 
@@ -26,7 +30,7 @@ ht-degree: 0%
 
 在同步过程中，Search、Social和Commerce可提取广告商的营销活动结构和支持的营销活动实体，包括其在Search、Social和Commerce中管理或报告的大多数属性。 它不包括点击数据，也不包括在搜索、社交和Commerce之外输入的竞价和竞价修饰符，这些数据是单独收集的。 Search、Social和Commerce每天与您的广告网络帐户自动同步一次，每次检测到您的某个广告网络上有新的促销活动时，也会自动同步。 此外，它还会立即将从Search、Social和Commerce内对促销活动数据所做的所有更改发送到广告网络。 您可以选择在必要时请求手动同步。
 
-有关创建和编辑同步营销活动的更多信息，请参阅“Campaign Management”一章。
+有关创建和编辑同步营销活动的更多信息，请参阅“营销活动管理”一章。
 
 ## 仅跟踪帐户
 

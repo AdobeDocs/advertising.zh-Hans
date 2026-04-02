@@ -1,22 +1,25 @@
 ---
-title: Adobe Advertising转换映射标记
+title: Adobe Advertising转化映射标记
 description: 了解适用于ITP 2.2的基于JavaScript的转化映射标记，该标记允许Adobe Advertising跟踪在非登陆页面发生的转化事件。
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-source-git-commit: 2c755eaa01f5bc7606074bb0fc276901c21ef807
+TQID: https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: 637
 ht-degree: 0%
 
 ---
 
-# Adobe AdvertisingJavaScript转化映射标记
+# Adobe Advertising JavaScript转化映射标记
 
-*仅跟踪Adobe Advertising转化情况的广告商*
+*仅具有Adobe Advertising转化跟踪的广告商*
 
-在与Adobe AdvertisingJavaScript v2或v3转化跟踪标记一起使用时，基于JavaScript的转化映射标记可让Adobe Advertising跟踪在非Adobe Advertising上发生的转化事件。 ITP 2.2解决方案将用户的Cookie存储在广告商拥有的iFrame中的本地存储中。 然后，本地存储可以保留Cookie值（从点击下游到转化页面）。
+在与Adobe Advertising JavaScript v2或v3转化跟踪标记一起使用时，基于Adobe Advertising JavaScript的转化映射标记可让Adobe Advertising跟踪在非登陆页面上发生的转化事件。 ITP 2.2解决方案将用户的Cookie存储在广告商拥有的iFrame中的本地存储中。 然后，本地存储可以保留Cookie值（从点击下游到转化页面）。
 
-使用转化映射标记可确保Adobe Advertising可跟踪在Apple Safari和Mozilla Firefox浏览器内发生的所有转化，从而限制第一方Cookie的持久性。<!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
+使用转化映射标记，以确保Adobe Advertising可跟踪在Apple Safari和Mozilla Firefox浏览器中发生的所有转化，从而限制第一方Cookie的持久性。<!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
 
 要使用转换映射标记，请执行以下操作：
 
@@ -32,7 +35,7 @@ ht-degree: 0%
 >
 >如果您正在为ITP 2.0使用JavaScript转化映射标记，请用以下标记之一替换所有转化页面中的现有标记。<!-- any other instructions, too? Point them to the other page on Track Conversions from Safari...." -->
 
-* 如果您的组织使用单个组织ID(用于您的Search、Social和Commerce帐户)，请使用以下标记：
+* 如果您的组织使用单个组织ID（用于您的Search、Social和Commerce帐户），请使用以下标记：
 
   `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" userid="{AMO User ID}"></script>`
 
@@ -98,7 +101,7 @@ window.ad_cloud.userid = "99999"
 
 ### 添加标记的位置
 
-将标记添加到通过搜索单击而可能成为登陆页面的任何页面中（理想情况下，在所有页面上，因为登陆页面可能会随着时间的推移而发生变化）。 必须在Adobe AdvertisingJavaScript v3转化跟踪标记之前加载该标记。
+将标记添加到通过搜索单击而可能成为登陆页面的任何页面中（理想情况下，在所有页面上，因为登陆页面可能会随着时间的推移而发生变化）。 必须在Adobe Advertising JavaScript v3转化跟踪标记之前加载该标记。
 
 如果将其放置在iframe或容器标记中，则：
 
@@ -188,4 +191,4 @@ effp();
 
 ## 验证标记部署 {#validate-conversion-mapping}
 
-请咨询您的Adobe帐户团队，帮助验证转化映射标记和常规转化标记（如果已更新）。
+请咨询您的Adobe客户团队，帮助验证转化映射标记和常规转化标记（如果已更新）。

@@ -2,11 +2,15 @@
 title: 运行或重新运行自定义模拟
 description: 了解如何为项目组合运行或重新运行自定义模拟。
 feature: Search Optimization, Search Portfolios, Search Simulations
-hide: true
+hide: yes
 exl-id: 0ee62d04-fdc4-445c-90fb-71d5a40a9ed0
-source-git-commit: d96e003346c7cc3c1803c8cba259f2b18d839168
+TQID: https://experienceleague.adobe.com/DlSJEcKXOxVz6UXVpAjQqaiwDTakgJ4SS6rsQUxkQIE
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: 476
 ht-degree: 0%
 
 ---

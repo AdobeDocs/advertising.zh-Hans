@@ -1,11 +1,14 @@
 ---
-title: “[!DNL Google Ads]仅调用广告设置”
+title: '[!DNL Google Ads]仅限呼叫的广告设置'
 description: 引用 [!DNL Google Ads] 纯呼叫广告的设置。
 exl-id: 10672771-53fd-4ce9-9d67-6b1f8f5a41b8
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/KtnceFJbgZ-jPcNzl1c6XychNzr4tOIs5B9mMbXegxo
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: 333
 ht-degree: 0%
 
 ---
@@ -16,7 +19,7 @@ ht-degree: 0%
 
 Search、Social和Commerce使用帐户级别的登陆页面后缀和跟踪模板跟踪仅限呼叫的广告，但您可以选择在[!DNL Google Ads]管理器内的广告级别覆盖帐户级别的跟踪。
 
-有关每个帐户[&#128279;](https://support.google.com/google-ads/answer/6372658?hl=en)的广告限制，请参阅[!DNL Google Ads]帮助。
+有关每个帐户[!DNL Google Ads]的[广告限制，请参阅](https://support.google.com/google-ads/answer/6372658?hl=en)帮助。
 
 <!-- ## Call-only Ad -->
 

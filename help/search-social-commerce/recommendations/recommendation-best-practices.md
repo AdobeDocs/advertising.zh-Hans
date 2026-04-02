@@ -3,9 +3,13 @@ title: 将发布者推荐与项目组合结合使用的最佳实践
 description: 了解将 [!DNL Google Ads] 推荐用于您的搜索、社交和Commerce项目组合的最佳实践。
 exl-id: 2ed14f8a-da35-4341-86b8-776973faee66
 feature: Search Recommendations
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/8pW8DgB9YGEYCd96H4rQcwjWEYwSF2l8StSgwLrC8Yk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: 279
 ht-degree: 0%
 
 ---

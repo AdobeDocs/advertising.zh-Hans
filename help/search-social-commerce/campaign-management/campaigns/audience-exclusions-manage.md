@@ -3,9 +3,12 @@ title: 管理营销活动和广告组的受众排除
 description: 了解如何为 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 营销活动和广告组配置和管理受众排除。
 exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/fvSuGLpCoCFqIVN2IA97aV2jybg3dKCDdde9Z2xL2G4
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: 349
 ht-degree: 0%
 
 ---

@@ -3,16 +3,20 @@ title: '[!UICONTROL Keyword Assist Report]'
 description: 了解[!UICONTROL Keyword Assist Report]。
 exl-id: 24e5854c-5696-43cd-ac21-64209f9f57d4
 feature: Search Reports, Search Assist Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/LO6nDisgA7981cjrGw31tJcy4VR6lesl-wvwU7uGlK4
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: 781
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Keyword Assist Report]
 
-*广告商具有搜索、社交和Commerce点击跟踪以及Adobe Advertising、Adobe Analytics的转化跟踪（具有[!DNL Analytics]集成），或仅在信息源中使用令牌(`ef_id`)提供*
+*广告商具有搜索、社交和Commerce点击跟踪以及来自Adobe Advertising、Adobe Analytics（具有[!DNL Analytics]集成）的转化跟踪，或仅在信息源中使用令牌(`ef_id`)提供*
 
 [!UICONTROL Keyword Assist Report]指示哪些关键字或版面可促进点击。 报表显示转化路径中收到点击的付费搜索关键词或投放位置的每个模式，并指示该模式对整体转化的贡献。 例如，您可以看到当用户首次单击因关键词搜索“皮鞋”而产生的广告，然后在关键词搜索“山羊皮鞋”后单击广告，然后下达订单时，发生的转化次数；或者，您可以看到在用户单击因超过10个关键词产生的广告后发生的转化次数。
 

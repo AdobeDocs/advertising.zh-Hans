@@ -3,9 +3,13 @@ title: 管理 [!DNL Google Ads] 版面
 description: 了解如何为 [!DNL Google Ads] 广告组创建和管理可出价投放。
 exl-id: 80cb6fc6-e778-4b19-9e52-e0b57bde0d73
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/rvRv9LNnt-HX4u3hCsdhqbcl3XdNRvhLCqlVrX-tbm8
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: 367
 ht-degree: 0%
 
 ---
@@ -24,7 +28,7 @@ ht-degree: 0%
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Placements]**。
 
-1. &#x200B;
+1. 
    1. 在数据表上方的工具栏中，单击![创建](/help/search-social-commerce/assets/add.png "创建")。
 
 1. 选择广告网络、帐户、营销活动和广告组，然后单击&#x200B;**[!UICONTROL Continue]**。
@@ -61,7 +65,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Placement Details]
 
-您的广告可以出现在内容网络上的&#x200B;**[!UICONTROL Placements]：**&#x200B;个站点。 输入有效的URL，例如www.example.com、example.com或www.example.com/shoes/kids。 要指定多个字符串，请用逗号分隔它们，或者在单独的行中输入它们。 URL不能包含问号(`?`)。 **注意：**&#x200B;您可以[从[!UICONTROL Placements] > [!UICONTROL Negatives]视图、广告组和营销活动设置中排除网站版面](placement-negative-create.md)。
+您的广告可以出现在内容网络上的&#x200B;**[!UICONTROL Placements]：**&#x200B;个站点。 输入有效的URL，例如www.example.com、example.com或www.example.com/shoes/kids。 要指定多个字符串，请用逗号分隔它们，或者在单独的行中输入它们。 URL不能包含问号(`?`)。 **注意：**&#x200B;您可以[从](placement-negative-create.md) > [!UICONTROL Placements]视图、广告组和营销活动设置中排除网站版面[!UICONTROL Negatives]。
 
 **[!UICONTROL Status]：**&#x200B;投放位置的显示状态： *活动*（启用竞价；默认值）、*已暂停*（禁用竞价）或&#x200B;*已删除*（删除投放位置；仅删除现有投放位置）。
 

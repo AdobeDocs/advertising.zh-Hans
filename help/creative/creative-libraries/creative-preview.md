@@ -3,9 +3,12 @@ title: 预览创意
 description: 了解如何打开创意内容的预览。
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+TQID: https://experienceleague.adobe.com/T6NV9uopJw7nQ2Janpw6BMGK0N2Ya0tzGckB75qbg0M
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: 198
 ht-degree: 0%
 
 ---
@@ -26,7 +29,7 @@ ht-degree: 0%
 
 1. （可用时可选）要在屏幕中调整图像大小，请在&#x200B;**[!UICONTROL Zoom]**&#x200B;列表中选择一个选项，其范围为图像大小的10%到100%。
 
-1. (灵活的HTML5创意；可选)要在创作的框架之间滚动，请单击&#x200B;**\&lt;**&#x200B;和&#x200B;**\>**。
+1. （灵活的HTML5创意；可选）要在创作的框架之间滚动，请单击&#x200B;**\&lt;**&#x200B;和&#x200B;**\>**。
 
 1. （视频创意；可选）使用创意下的控件执行以下任何操作：
 

@@ -1,11 +1,14 @@
 ---
-title: “[!DNL Microsoft Advertising]多媒体广告设置”
+title: '[!DNL Microsoft Advertising]多媒体广告设置'
 description: 引用 [!DNL Microsoft Advertising] 多媒体广告的设置。
 exl-id: 920ecb8d-e179-4946-be60-64f00bbabb70
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/BmzclS43QHM1mtVus2pIdJqEh0B-tUQVKyUFdzH4iEw
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: 203
 ht-degree: 0%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 **[!UICONTROL Images]：**&#x200B;广告的最多15个JPEG、JPG或PNG图像，包括以下大小：
 
-* 至少一个图像具有1.91:1的高宽比。
+* 至少一个图像具有1.91:1宽高比。
 
 * 至少一个正方形(1:1)图像。
 
@@ -36,9 +39,9 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Text]：**&#x200B;至少有两个（最多四个）描述，每个描述中至少有一个单词，最多有90个字符。
 
-**[!UICONTROL Call to Action]：**&#x200B;要包含在广告中的行动号召。 默认情况下，选择自动，广告网络选择行动号召。 您可以根据需要选择其它活动。
+**[!UICONTROL Call to Action]：**&#x200B;要包含在广告中的call to action。 默认情况下，选择自动，广告网络选择call to action。 您可以根据需要选择其它活动。
 
-**[!UICONTROL Call to Action Language]：**&#x200B;行动号召选项的语言。
+**[!UICONTROL Call to Action Language]：** call to action选项的语言。
 
 ## [!UICONTROL Tracking URLs]
 

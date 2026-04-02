@@ -3,9 +3,13 @@ title: 编写有效的文本和副本
 description: 了解编写有效广告文案的最佳实践。
 exl-id: 2c51cd0b-90c5-4093-9a0f-ace5ef1019e7
 feature: Search Best Practices
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/GFofyYALATcgqvrjz-2SuI90ct0M-PzOoLtjmvL2Djo
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: 582
 ht-degree: 0%
 
 ---
@@ -14,7 +18,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->有关组合中特定于营销活动的更多最佳实践，另请参阅“优化指南”>“管理Portfolio”>“Portfolio的最佳实践”部分，该部分可在Search、Social和Commerce中找到。<!-- verify convention for referencing Optimization Guide here -->
+>有关项目组合中特定于营销活动的更多最佳实践，另请参阅“优化指南”>“管理项目组合”>“项目组合的最佳实践”部分，该部分可在Search、Social和Commerce中找到。<!-- verify convention for referencing Optimization Guide here -->
 
 ## 所有广告网络的一般要求
 
@@ -40,7 +44,7 @@ ht-degree: 0%
 
 * 禁止使用不适当的语言。
 
-## Recommendations的有效广告
+## 有效广告的建议
 
 * 撰写强有力的头条新闻以吸引潜在客户。
 
@@ -62,11 +66,11 @@ ht-degree: 0%
 
 * 如果可能，请在标题/标题和描述/正文的两行中使用关键字。 [1]
 
-* 始终在文本中包含行动动员，如“查看”、“签出”、“订单”或“注册”，以提高点进率。 对于图像广告，请将行动号召包含在链接到网站的按钮上；对于富媒体广告，请将行动号召包含在早期帧中。
+* 在文本中始终包含call to action（例如“查看”、“签出”、“订单”或“注册”），以提高点进率。 对于图像广告，请在链接到网站的按钮上加入call to action；对于富媒体广告，请在早期框中加入call to action。
 
 * 对广告商希望如何看待其品牌非常敏感。 例如，广告商可能不希望在其广告中出现“廉价”一词。
 
-* 研究您的竞争对手在做什么。 查看某个空间的排名最前的广告(在www.spyfu.com等网站上)，并尝试了解哪些广告在起作用。
+* 研究您的竞争对手在做什么。 查看某个空间的排名最前的广告（在www.spyfu.com等网站上），并尝试了解哪些广告在起作用。
 
 [1]：如果使用关键字插入，请为插入代码使用正确的大小写：
 

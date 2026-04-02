@@ -3,9 +3,12 @@ title: 从列标题菜单中编辑列集
 description: 了解如何在列标题中显示和隐藏列。
 exl-id: ebcf5759-f3a0-4816-8095-5679a642f862
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
+TQID: https://experienceleague.adobe.com/M-MDI8D7W9JFepbY-CR0QV64oh6KVPqevVtSz8NQCTg
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: 191
 ht-degree: 0%
 
 ---

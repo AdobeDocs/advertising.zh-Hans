@@ -3,9 +3,12 @@ title: 关于 [!DNL Google Ads] 标注扩展
 description: 了解Search、Social和Commerce中的 [!DNL Google Ads] 标注扩展。
 exl-id: d821067f-7ec6-4cd3-a6eb-e1e194cea0df
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/aB0vtxy3oiu3kWLKqyYyatkhohTmFU2VnHw-Wf4-JB8
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: 258
 ht-degree: 0%
 
 ---
@@ -20,7 +23,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Callouts]和[!UICONTROL Associations]视图
 
-[!UICONTROL Campaigns] > [!UICONTROL Campaigns]中的[!UICONTROL Extensions] > [!UICONTROL Callout]库列出了所有帐户级别的标注，您可以在此处创建和管理共享标注。 有关每个 [!DNL Google Ads] 帐户[&#128279;](https://support.google.com/google-ads/answer/6372658?hl=en)的最大广告扩展数，请参阅广告网络帮助。
+[!UICONTROL Extensions] > [!UICONTROL Callout]中的[!UICONTROL Campaigns] > [!UICONTROL Campaigns]库列出了所有帐户级别的标注，您可以在此处创建和管理共享标注。 有关每个[帐户 [!DNL Google Ads] 的最大广告扩展数](https://support.google.com/google-ads/answer/6372658?hl=en)，请参阅广告网络帮助。
 
 在将库中的标注(Callout)分配给活动或广告组之前，不会将其用于广告。 从[!UICONTROL Extensions] > [!UICONTROL Associations]视图中，您可以将任何标注作为可能的扩展名分配给营销活动级别或广告组级别的所有广告。 您必须为每个营销活动或广告组至少分配两个标注，广告才能符合显示标注的条件。 广告组级别的标注会覆盖营销活动级别的标注。
 

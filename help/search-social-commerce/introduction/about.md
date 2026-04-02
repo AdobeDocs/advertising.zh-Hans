@@ -1,18 +1,23 @@
 ---
-title: 关于Adobe Advertising搜索、社交和Commerce
+title: 关于Adobe Advertising Search、Social和Commerce
 description: 了解搜索、社交和Commerce。
 exl-id: a28c49ba-f669-4d15-813b-b30673431d01
 feature: Search Introduction
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+TQID: https://experienceleague.adobe.com/BNgdfE-vefdswY5BPajlzPCI4syme0owusbCOq0QLVg
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebef6e6f-6552-40b6-b842-0c5256698a4e
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: 762
 ht-degree: 0%
 
 ---
 
-# 关于Adobe Advertising搜索、社交和Commerce
+# 关于Adobe Advertising Search、Social和Commerce
 
-[!DNL Adobe]是客户体验解决方案的市场和技术领先者。 Adobe Advertising可简化跨渠道广告活动的交付，以便在任何屏幕上（以任何格式）管理品牌和效果促销活动。 Adobe Advertising包含三个子解决方案：用于搜索、购物、社交、受众网络和性能最大化渠道的Advertising Search、Social和Commerce；用于显示渠道的Advertising DSP(Demand Side Platform)；以及用于为显示广告创建最终用户体验的Advertising Creative。
+[!DNL Adobe]是客户体验解决方案的市场和技术领先者。 Adobe Advertising简化了跨渠道投放广告活动的过程，以便在任何屏幕上、以任何格式进行品牌和效果促销活动管理。 Adobe Advertising包含三个子解决方案：用于搜索、购物、社交、受众网络和性能最大化渠道的Advertising Search、Social和Commerce；用于显示渠道的Advertising DSP (Demand Side Platform)；以及用于为显示广告创建最终用户体验的Advertising Creative。
 
 作为Adobe Advertising的一部分，Advertising Search、Social和Commerce将同类最佳的基于产品组合的广告管理、智能营销活动预测和定向广告投放整合在一起，以实现数据优化的广告。
 
@@ -20,11 +25,11 @@ ht-degree: 0%
 
 搜索、Social和Commerce可在广告商的业务目标、指标、预算和其他业务限制范围内，跨广告网络自动并优化广告促销活动的竞价和预算管理。 它跟踪广告商每个关键词和广告的点击次数、成本和转化历史记录，以及有关每个营销渠道上竞价横向分布的信息。 使用项目组合理论方法，该优化功能将比较整个活动组合中预算的所有可能分配，以确定将产生最高可能广告支出回报的竞价和活动预算，并相应地执行竞价、预算和竞价策略目标。 该优化功能会持续监控广告商的关键字和广告，并随着市场的变化动态调整竞价、预算和目标。
 
-提供了多种类型的优化，允许Search、Social和Commerce以及广告网络对竞价优化不同程度的控制。 根据优化类型，您可以使用按Adobe Advertising、 Adobe Analytics、[!DNL Google Ads]、[!DNL Google Analytics]或其他第一方企业信息源跟踪的转化来优化项目组合。
+提供了多种类型的优化，允许Search、Social和Commerce以及广告网络对竞价优化不同程度的控制。 根据优化类型，您可以使用由Adobe Advertising、Adobe Analytics、[!DNL Google Ads]、[!DNL Google Analytics]或其他第一方企业信息源跟踪的转化来优化项目组合。
 
 根据您的职责，您可以查看项目组合绩效模拟（使用预测建模来标识最佳支出点）和详细的预测准确度报表。 所有用户都可以使用支出推荐工具来识别项目组合间的最佳预算分配。
 
-有关更多信息，请参阅“优化指南”中的“Portfolio”一章，该指南可在Search、Social和Commerce中使用。
+有关更多信息，请参阅优化指南中的项目组合一章，该指南可在Search、Social和Commerce中使用。
 
 ## 广告管理界面
 
@@ -50,11 +55,11 @@ Search、Social和Commerce可在您的广告网络中提供全面的促销活动
 
 通过与Adobe Analytics和Adobe Audience Manager的本机集成，您可以连接数据和受众区段，以进行广告定位、[!DNL Google Ads]受众创建、优化和报表/分析。
 
-有关与这些产品及其他Adobe产品集成的详细信息，请参阅[与Adobe Experience Cloud解决方案和服务的集成](/help/search-social-commerce/introduction/integrations.md)。
+有关与这些产品以及其他Adobe产品集成的详细信息，请参阅[与Adobe Experience Cloud解决方案和服务的集成](/help/search-social-commerce/introduction/integrations.md)。
 
 ## 转化跟踪
 
-Adobe Advertising（可选）提供专有、基于像素的转化跟踪服务，以跟踪链接到您网站的广告的在线转化。 当您使用像素跟踪服务时，Adobe Advertising会跟踪您的广告点击数以及网站上产生的交易/转化，并将每个点击序列和展示次数准确地映射到转化。 您可以将跟踪的转化用于竞价和预算优化。
+Adobe Advertising还可以选择提供专有、基于像素的转化跟踪服务，以跟踪链接到您网站的广告的在线转化。 当您使用像素跟踪服务时，Adobe Advertising会跟踪您的广告点击数以及网站上产生的交易/转化，并将每个点击序列和展示次数准确地映射到转化。 您可以将跟踪的转化用于竞价和预算优化。
 
 利用服务，可针对导致转化的事件，优化为不同的数据归因规则（例如，将转化归因于最后一个相关事件，或更多地加权最后一个事件）。 此外，您还可以通过它访问高级报表，这些报表可用于提高转化率、显示点击辅助并分析一周中的某天和当天趋势。
 

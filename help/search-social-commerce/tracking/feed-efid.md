@@ -3,9 +3,13 @@ title: 使用EF ID馈送的转化跟踪
 description: 了解如何将EF ID馈送用于转化跟踪数据。
 exl-id: fd065313-3d27-4bb9-a934-e815e02cf405
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/D4OpKvTL-jjIOgMaakH78aYA7q9p2BXcc2P-RI8blfY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: 349
 ht-degree: 0%
 
 ---
@@ -21,7 +25,7 @@ ht-degree: 0%
 1. 使用帐户或营销活动跟踪选项“[!UICONTROL EF Redirect]”、重定向类型“[!UICONTROL Token]”和“[!UICONTROL Auto Upload]”，为帐户或营销活动中的每个关键字（用于关键字级别的跟踪）或广告（用于广告级别的跟踪）自动生成包含Adobe Advertising令牌(ef_id)的目标URL或最终URL。
 
    >[!NOTE]
-   >* 此方法不需要广告商使用Adobe Advertising转化跟踪标签。
+   >* 此方法不需要广告商使用Adobe Advertising转化跟踪标记。
    >* 如果您将现有帐户或营销活动的重定向类型从[!UICONTROL Standard]切换为[!UICONTROL Token]，或反之，则必须重新生成所有适用的跟踪URL。
 
    最终用户单击广告时，会填充ef_id并将其附加到登陆页面URL，然后会重定向到Adobe Advertising服务器。 随后，ef_id会传递到广告或关键字的目标URL或最终URL中的广告商。 以下是在重定向期间传递到广告商的目标URL示例：

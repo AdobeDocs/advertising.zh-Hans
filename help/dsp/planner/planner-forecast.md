@@ -3,9 +3,14 @@ title: 重新生成连接电视覆盖计划的预测
 description: 了解如何为连接的电视覆盖范围计划创建新的预测。
 feature: DSP Planner
 exl-id: ec3de39c-c2b3-4004-8d86-eb6479608121
-source-git-commit: 81943936f828fa9472cff1b5b1c09e473396b818
+TQID: https://experienceleague.adobe.com/eKvnC-eMmM9kXIkFRXMAKNddFhEW2MY1FD562fsDagw
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: 118
 ht-degree: 0%
 
 ---
@@ -18,7 +23,7 @@ ht-degree: 0%
 
 1. 将光标悬停在计划行上并单击&#x200B;**[!UICONTROL Forecast]**。
 
-1. （可选）要将[!UICONTROL Budget vs Reach]预测导出到[!DNL Microsoft Excel]电子表格&#x200B;**，请单击右上角的&#x200B;**&#x200B;[!UICONTROL ...]&#x200B;**，然后单击&#x200B;**&#x200B;[!UICONTROL Export]**。
+1. （可选）要将[!UICONTROL Budget vs Reach]预测导出到[!DNL Microsoft Excel]电子表格**，请单击右上角的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Export]**。
 
 >[!MORELIKETHIS]
 >

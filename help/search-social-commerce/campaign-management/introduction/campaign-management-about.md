@@ -3,9 +3,13 @@ title: 关于Search、Social和Commerce中的促销活动管理
 description: 了解Search、Social和Commerce中的促销活动管理功能。
 exl-id: 19e36e73-fcb6-4ff3-980b-fc05042725fd
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/tgoMzw4DbEY5evC2s1f6mQHfJYYb7DJzMfFUnc-06Bk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: 806
 ht-degree: 0%
 
 ---
@@ -24,7 +28,7 @@ ht-degree: 0%
 
 ## 点击跟踪可将点击次数与转化次数绑定
 
-如果您使用Adobe Advertising转化跟踪服务，则必须在登陆页面后缀、跟踪模板以及广告、关键词和版面、站点链接和产品列表的最终/目标URL中包含Search、Social和Commerce点击跟踪代码。 对于其促销活动设置包括“[!UICONTROL EF Redirect]”和“[!UICONTROL Auto Upload]”的[支持的广告网络和促销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)，Search、Social和Commerce会在您保存记录时自动附加其自身的重定向和跟踪代码，因此您无需手动添加。 否则，您必须手动将代码添加到跟踪模板或最终URL中。
+如果您使用Adobe Advertising转化跟踪服务，则必须在登陆页面后缀、跟踪模板以及广告、关键词和版面、站点链接和产品列表的最终/目标URL中包含Search、Social和Commerce点击跟踪代码。 对于其促销活动设置包括“[”和“](/help/search-social-commerce/introduction/supported-inventory.md)”的[!UICONTROL EF Redirect]支持的广告网络和促销活动类型[!UICONTROL Auto Upload]，Search、Social和Commerce会在您保存记录时自动附加其自身的重定向和跟踪代码，因此您无需手动添加。 否则，您必须手动将代码添加到跟踪模板或最终URL中。
 
 有关跟踪的更多信息，请参阅关于“跟踪”的一章。
 
@@ -32,7 +36,7 @@ ht-degree: 0%
 
 对于[支持的广告网络和营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)，您可以将营销活动分组到项目组合中，每个项目组合都具有特定的业务目标和特定的预算或绩效目标。 在标准产品组合中， Search 、 Social和Commerce可优化CPC关键词竞价和促销活动预算。 混合项目组合将来自搜索、社交和Commerce的优化技术与您的广告网络相结合。
 
-有关可用项目组合选项以及如何设置项目组合的详细信息，请参阅有关“Portfolio”的“优化指南”一章，该章可从Search、Social和Commerce中获取。<!-- verify convention for referencing Optimization Guide here -->
+有关可用项目组合选项以及如何设置项目组合的详细信息，请参阅有关“项目组合”的“优化指南”一章，该章可从“搜索”、“社交”和“Commerce”中获取。<!-- verify convention for referencing Optimization Guide here -->
 
 ## 营销活动管理视图
 
@@ -46,9 +50,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Products]** — [!UICONTROL Products]视图显示已同步的每个[[!DNL Google] 或 [!DNL Microsoft] 商家中心帐户的数据](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)。 默认的[!UICONTROL Accounts]子视图列出了所有同步的帐户；某些用户类型可以从此视图添加新帐户。 [!UICONTROL Products]子视图列出了帐户中的每个产品。
 
-* **[!UICONTROL Advanced (ACM)]** — 从[!DNL Advanced] ([!DNL AMC]，对于高级Campaign Management)视图中，您可以设置自动流程，以根据您创建的广告网络特定的广告模板以及您上传到FTP位置的[!DNL Google Merchant Center]帐户或清单数据文件的内容，创建针对清单中每个项目的[动态广告和关键字](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)。 子视图显示有关广告商的每个馈送模板的详细信息，以及馈送中包含的每个营销活动、广告组、关键词和广告（通过馈送模板传播但未发布到广告网络）。
+* **[!UICONTROL Advanced (ACM)]** — 从[!DNL Advanced] （[!DNL AMC]，用于高级促销活动管理）视图中，您可以设置自动化流程，以根据您创建的广告网络特定的广告模板以及您上传到FTP位置的[帐户或清单数据文件的内容，创建针对清单中每个项目的](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)动态广告和关键字[!DNL Google Merchant Center]。 子视图显示有关广告商的每个馈送模板的详细信息，以及馈送中包含的每个营销活动、广告组、关键词和广告（通过馈送模板传播但未发布到广告网络）。
 
-* **[!UICONTROL Bulksheets]** — 使用[!UICONTROL Bulksheets]视图为[支持的广告网络](/help/search-social-commerce/introduction/supported-inventory.md)上的帐户创建包含所需数量的数据的[批量工作表文件](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)，然后将它们发布到广告网络。
+* **[!UICONTROL Bulksheets]** — 使用[!UICONTROL Bulksheets]视图为[支持的广告网络](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)上的帐户创建包含所需数量的数据的[批量工作表文件](/help/search-social-commerce/introduction/supported-inventory.md)，然后将它们发布到广告网络。
 
 * **[!UICONTROL Audiences]** — [在[!UICONTROL Audiences]视图](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)中，列出了从各种类型的用户列表生成的所有[!DNL Google Ads]和[!DNL Microsoft Advertising]受众。 您可以从现有Adobe Experience Cloud受众和客户电子邮件列表中创建[!DNL Google Ads]受众。 您还可以查看和管理[!DNL Google Ads]和[!DNL Microsoft Advertising]广告的受众目标和排除项。
 

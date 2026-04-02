@@ -3,9 +3,13 @@ title: 动态广告的工作流
 description: 了解用于管理动态广告的工作流。
 feature: Creative Dynamic Creatives
 exl-id: eb1cdfbc-9514-4530-a50a-3ae6f6247662
-source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
+TQID: https://experienceleague.adobe.com/2ysfPVepzFjlxE-ecuAVpX-ntQBWB9dN61AELW74ZvI
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: 643
 ht-degree: 0%
 
 ---
@@ -28,7 +32,7 @@ ht-degree: 0%
 
 >[!PREREQUISITES]
 >
->* 广告模板：显示广告模板(包含HTML5文件的ZIP文件)或视频广告模板（包含.scene文件的ZIP文件）
+>* 广告模板：显示广告模板（包含HTML5文件的ZIP文件）或视频广告模板（包含.scene文件的ZIP文件）
 >* CSV、TSV或Microsoft Excel电子表格(XLSX)格式的产品目录
 
 1. [为创意库创建动态创意内容](/help/creative/creative-libraries/creative-add-dynamic.md)。 对于动态HTML5和视频广告，请上传或选择现有的广告模板和目录。
@@ -47,15 +51,15 @@ ht-degree: 0%
 
 1. [根据可用的资产，为您的动态广告创建广告模板](/help/creative/ad-templates/ad-template-manage.md)。 广告模板必须为ZIP格式并包含：<!-- Need to add more specs for templates -->
 
-* 显示创意：具有所需广告格式的HTML5文件，以及具有广告属性(.tdf)的文件(仅限动态HTML5广告)
+* 显示创意：具有所需广告格式的HTML5文件，以及具有广告属性(.tdf)的文件（仅限动态HTML5广告）
 
 * 视频创意：具有所需广告格式的.scene文件以及具有广告属性(.tdf)的文件
 
 1. 设置广告元素：
 
-   * (对于单个静态HTML5广告)收集并[上传广告的图像资源](/help/creative/feeds/asset-manage.md)。
+   * （对于单个静态HTML5广告）收集并[上传广告的图像资源](/help/creative/feeds/asset-manage.md)。
 
-   * (对于动态HTML5和视频广告)创建广告元素目录：
+   * （对于动态HTML5和视频广告）创建广告元素目录：
 
       1. 创建一个采用Microsoft Excel电子表格(XLSX)格式的信息源文件，其中每个广告变量对应一行。 在每一行中包含图像或视频名称。 单独收集关联的图像和视频资产。
 
@@ -67,7 +71,7 @@ ht-degree: 0%
 
          每个信息源文件只能用于一个目录。
 
-         您可以在[&#x200B; > &#x200B;](/help/creative/feeds/job-status-track.md) > [!UICONTROL Creative]选项卡上[!UICONTROL Feeds]跟踪目录处理作业[!UICONTROL Job Status]的状态。
+         您可以在[ > ](/help/creative/feeds/job-status-track.md) > [!UICONTROL Creative]选项卡上[!UICONTROL Feeds]跟踪目录处理作业[!UICONTROL Job Status]的状态。
 
 1. [为创意库创建动态创意内容](/help/creative/creative-libraries/creative-add-dynamic.md)。 对于动态HTML5广告，请使用指定的广告模板和指定的目录。
 

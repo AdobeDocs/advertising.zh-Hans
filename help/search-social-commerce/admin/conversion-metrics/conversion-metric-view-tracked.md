@@ -3,9 +3,12 @@ title: 查看为广告商跟踪的转化量度
 description: 了解如何查看为广告商跟踪的转化量度列表。
 feature: Conversions
 exl-id: 7c9e2271-4127-4d43-aff8-5a2788bfe60f
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/KLE8V8uHqBH4-KzsG-uYQ6nvZWY1YKY9Q0ZotIZ4xq0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: 134
 ht-degree: 0%
 
 ---

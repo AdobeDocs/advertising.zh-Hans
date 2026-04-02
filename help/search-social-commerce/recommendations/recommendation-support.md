@@ -3,9 +3,13 @@ title: 关于发布者推荐和见解支持
 description: 了解对查看和管理发布者推荐和见解的支持。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 568927a009b2c38d30fc817a9f4aa4e964b4cd9f
+TQID: https://experienceleague.adobe.com/Ual5eWu0z8jyBAPFOkJw1nUuYnOadW-FqezsD4rXySE
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: 734
 ht-degree: 0%
 
 ---
@@ -44,7 +48,7 @@ ht-degree: 0%
 
 | 推荐类别 | 推荐类型 | 描述 |
 | --- | --- | --- |
-| [!UICONTROL Ads and extensions] （在[!DNL Google Ads]中现在称为“[!DNL Ads and assets]”） | [!UICONTROL Call extension] | 向营销活动添加呼叫分机 |
+| [!UICONTROL Ads and extensions] （在[!DNL Ads and assets]中现在称为“[!DNL Google Ads]”） | [!UICONTROL Call extension] | 向营销活动添加呼叫分机 |
 | | [!UICONTROL Callout extension] | 向营销活动添加标注扩展 |
 |  | [!UICONTROL Improve demand gen ad strength] | 改善需求一般广告的广告强度的建议 |
 | | [!UICONTROL Optimize ad rotation] | 使用优化的广告轮换 |
@@ -73,8 +77,8 @@ ht-degree: 0%
 | | [!UICONTROL Set Target CPA] | 为没有计划的营销活动设置目标CPA |
 | | [!UICONTROL Set Target ROAS] | 为没有目标的营销活动设置目标ROAS |
 | | [!UICONTROL Target CPA opt in] | 对[!UICONTROL Target CPA]竞价策略的更改 |
-| | [!UICONTROL Target CPA raising] | 根据[!DNL Google Ads]预测提高[!UICONTROL Target CPA]，这些预测是根据过去的转化计算得出的 |
-| | [!UICONTROL Target ROAS lowering] | 根据[!DNL Google Ads]预测降低[!UICONTROL Target ROAS]，这些预测是根据过去的转化计算得出的 |
+| | [!UICONTROL Target CPA raising] | 根据[!UICONTROL Target CPA]预测提高[!DNL Google Ads]，这些预测是根据过去的转化计算得出的 |
+| | [!UICONTROL Target ROAS lowering] | 根据[!UICONTROL Target ROAS]预测降低[!DNL Google Ads]，这些预测是根据过去的转化计算得出的 |
 | | [!UICONTROL Target ROAS opt in] | 对[!UICONTROL Target ROAS]竞价策略的更改 |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | 通过更新营销活动以使用显示扩展来扩展范围 |
 | | [!UICONTROL Keyword] | 添加新关键字 |

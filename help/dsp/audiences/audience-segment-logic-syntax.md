@@ -3,9 +3,14 @@ title: 受众区段逻辑语法
 description: 引用可用于定义受众区段逻辑的语法。
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
+TQID: https://experienceleague.adobe.com/FPci9npdKrFxwge6tw41Fhx4XAC9VqYFc-RZhLhILLo
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: 141
 ht-degree: 0%
 
 ---
@@ -22,7 +27,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 包括所有指定的区段组，除非它们前面有！ （不包括他们）。
->* 您可以从[&#x200B; > &#x200B;](reusable-audience-clipboard.md)中[!UICONTROL Audiences]找到受众[!UICONTROL All audiences]的区段ID。
+>* 您可以从[ > ](reusable-audience-clipboard.md)中[!UICONTROL Audiences]找到受众[!UICONTROL All audiences]的区段ID。
 
 例如，以下逻辑：
 

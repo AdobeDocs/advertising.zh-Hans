@@ -3,9 +3,12 @@ title: 从营销活动管理视图下载数据
 description: 了解如何从大多数营销活动管理视图下载数据。
 exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
+TQID: https://experienceleague.adobe.com/Wg-OZ-59-SkdA96KQgLWuY8seK10bK0tnt94TdKXzeQ
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: 433
 ht-degree: 0%
 
 ---

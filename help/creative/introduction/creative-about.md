@@ -1,11 +1,17 @@
 ---
 title: 关于Adobe Advertising Creative
-description: 了解详情 [!DNL Creative]。
+description: 了解 [!DNL Creative]。
 feature: Creative Introduction
 exl-id: 2cc12119-5924-4fcd-a54b-30f7887ae6a7
-source-git-commit: 1394b988828f5400b858f1a40b1b6382431a62b0
+TQID: https://experienceleague.adobe.com/UfaLj12BFBAxCDvtb6cUtVxlcuOSYgnZPTAn7494APk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3did: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: 493
 ht-degree: 0%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 0%
 
 <!-- verify all and rewrite to include new stuff -->
 
-作为 Adobe 广告的一部分，Advertising Creative 是一个自助平台，用于自动化实时、个性化的广告体验，并可选择性地在创意层面优化广告内容。<!-- Verify --> 你可以在任何DSP中实现广告体验，包括Adobe Advertising DSP。
+作为Adobe Advertising的一部分，Advertising Creative是一个自助服务平台，用于自动化实时、个性化的广告体验并可以选择在创意元素级别优化广告。<!-- Verify -->您可以在包括Adobe Advertising DSP在内的任何DSP中将广告体验作为广告实施。
 
 ## 可重用创意的自定义创意库
 
@@ -30,11 +36,11 @@ ht-degree: 0%
 
 ## 基于规则的体验和非目标体验
 
-* **针对性的规则驱动体验：** 利用基于规则的决策树模型构建故事——展开一系列编排好的广告，实时根据你对受众的了解进行定制。 例如，故事可以根据客户行为、地理位置、人口统计、重新定位、客户历程中的位置等发生更改。
+* **基于规则的定位体验：**&#x200B;使用基于规则的决策树模型构建故事 — 展开根据您对受众的了解实时自定义的编排广告字符串。 例如，故事可以根据客户行为、地理位置、人口统计、重新定位、客户历程中的位置等发生更改。
 
-* **非定向体验：** 在不缩小受众的情况下，安排和优化广告元素。
+* **非定向体验：**&#x200B;在不缩小受众范围的情况下计划和优化广告元素。
 
-### [!DNL Adobe] 数据集成
+### [!DNL Adobe]数据集成
 
 使用来自Adobe Audience Manager和Adobe Analytics的第一方受众区段，以及您在Advertising DSP中创建的自定义受众区段，并使用[!DNL Creative]重新定位您创建的像素，作为广告体验中特定创意人员的目标。<!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
 
@@ -54,11 +60,11 @@ ht-degree: 0%
 
 您可以创建重定位像素，以用作广告体验中创意内容的目标。 这些目标只向具有指定属性的用户显示广告，这些用户以前访问过特定网页。
 
-## 曝光、点击和转化追踪
+## 展示、点击和转化跟踪
 
-[!DNL Creative] 自动跟踪体验中投放的所有广告的曝光和点击。 你还可以选择在创意库中的创意中添加第三方的印象追踪和点击追踪URL，以及在体验中自定义追踪URL。
+[!DNL Creative]自动跟踪从体验提供的广告的所有展示次数和点击次数。 您还可以选择将第三方展示跟踪和点击跟踪URL添加到Creative Libraries中的创意内容，以及体验中的自定义跟踪URL。
 
-[!DNL Creative] 还能追踪由您的广告体验创建的广告转化率。<!-- Verify wording; anything important to add here? We do track them for all users, right? Or is it optional?  -->
+[!DNL Creative]还跟踪根据您的广告体验创建的已提供广告的转化。<!-- Verify wording; anything important to add here? We do track them for all users, right? Or is it optional?  -->
 
 <!--
  [Don't need to mention] When an ad is served, the DSP that buys the ad first tracks the impression, and then passes the impression information to [!DNL Creative]. [!DNL Creative] first tracks a click on an ad, and it then passes the click information

@@ -3,9 +3,13 @@ title: 编辑电子表格报表馈送设置
 description: 了解如何编辑电子表格馈送的设置。
 exl-id: 8ca36006-4038-404b-aaf9-66dc3e9ddcf6
 feature: Search Reports
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/xsq7qkYTc5p7Q4Q-LKHeCX7-W8DRW80ET6ylOWocYG0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: 317
 ht-degree: 0%
 
 ---
@@ -24,7 +28,7 @@ ht-degree: 0%
 
 1. （可选）要更新用于电子表格馈送的报表模板或[!DNL Excel]模板：
 
-   * （可选）若要为信息源使用其他或更新的报表模板，请[为报表模板](spreadsheet-feed-create-excel-template.md)创建新的 [!DNL Excel] 模板。
+   * （可选）若要为信息源使用其他或更新的报表模板，请[为报表模板 [!DNL Excel] 创建新的](spreadsheet-feed-create-excel-template.md)模板。
 
      在下一步中，您将需要上载报表模板和新的[!DNL Excel]文件。
 
@@ -46,7 +50,7 @@ ht-degree: 0%
      >
      > 如果稍后删除与信息源关联的报表模板，则也会删除信息源。
 
-     电子表格馈送在广告商所在时区的每天08:00自动刷新。 如果报表模板包含任何电子邮件收件人的地址，则这些地址会在电子表格刷新后接收通知。
+     电子表格馈送在广告商所在时区的每天的08:00自动刷新。 如果报表模板包含任何电子邮件收件人的地址，则这些地址会在电子表格刷新后接收通知。
 
 >[!MORELIKETHIS]
 >

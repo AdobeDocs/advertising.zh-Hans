@@ -3,9 +3,13 @@ title: 使用[!UICONTROL Spend Planner]
 description: 了解如何使用[!UICONTROL Spend Planner]确定项目组合间的最佳支出分配。
 feature: Search Optimization, Search Portfolios, Search Simulations
 exl-id: 966b8968-68b6-4385-9efb-e639a6729362
-source-git-commit: ff4deeb1cfbcd863e5b0ef2ac9b2f7124906c3dd
+TQID: https://experienceleague.adobe.com/8BAQij06MRhxYoCoFNjhHsgC4o38lQnj9vpmTzYyqGg
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: 791
 ht-degree: 0%
 
 ---

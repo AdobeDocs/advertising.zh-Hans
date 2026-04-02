@@ -3,9 +3,15 @@ title: Adobe Advertising与Adobe Audience Manager的集成
 description: 了解Adobe Advertising与Adobe Audience Manager交换数据的各种方式。
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+TQID: https://experienceleague.adobe.com/4O4O-DmHhClvSiOSxM9blAEvVslzYzRobEyU6RGeMEQ
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6id: f2860a4b-f905-4545-bead-1bbc92564592
+subfeature_v2: id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: 485
 ht-degree: 0%
 
 ---
@@ -42,7 +48,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->有关如何在Audience Manager和Experience Cloud [!DNL Audience Library]界面中创建受众以及不同受众类型的常见用例的更多信息，请参阅“[受众创建选项](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=zh-Hans)”。
+>有关如何在Audience Manager和Experience Cloud [!DNL Audience Library]界面中创建受众以及不同受众类型的常见用例的更多信息，请参阅“[受众创建选项](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html)”。
 
 ## 将DSP媒体曝光数据发送到Audience Manager
 
@@ -50,10 +56,10 @@ ht-degree: 0%
 
 具有Adobe Audience Manager的DSP客户可以使用对Audience Manager的像素调用，从广告促销活动中捕获数据。 然后，您可以使用促销活动数据构建基于规则的特征，利用这些特征可定义新区段，以启用各种DSP用例，例如更高级的分段、频率管理、营销分析和报表见解。
 
-有关详细信息，请参阅“将DSP媒体曝光数据发送到Adobe Audience Manager的概述”[&#128279;](/help/integrations/audience-manager/media-data-integration/overview.md)。
+有关详细信息，请参阅“将DSP媒体曝光数据发送到Adobe Audience Manager的概述”[](/help/integrations/audience-manager/media-data-integration/overview.md)。
 
 ## 利用Audience Analytics更深入地了解网站活动
 
-具有[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=zh-Hans)的Adobe Advertising客户可以将跟踪Adobe Advertising的数据和Audience Manager区段发送到[!DNL Analytics]，以丰富有关网站活动的见解。
+具有[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)的Adobe Advertising客户可以将跟踪Adobe Advertising的数据和Audience Manager区段发送到[!DNL Analytics]，以丰富有关网站活动的见解。
 
-有关详细信息，请参阅“面向Adobe Advertising客户的[[!DNL Adobe Audience Analytics] &#x200B;](/help/integrations/audience-manager/audience-analytics.md)”。
+有关详细信息，请参阅“面向Adobe Advertising客户的[[!DNL Adobe Audience Analytics] ](/help/integrations/audience-manager/audience-analytics.md)”。

@@ -3,9 +3,12 @@ title: 更改转化量度的显示名称
 description: 了解如何更改在管理视图和报告中的列标题中显示的转化量度名称。
 feature: Conversions
 exl-id: 5c3c1eaf-6754-42f1-acf1-f75d01e2d216
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/yjxUDTt7YtdpGkSEV0NqM1Yqxv5C9M-DQ2bTp4-W5PI
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: 196
 ht-degree: 0%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->对于来自Google Analytics[&#128279;](/help/search-social-commerce/admin/data-sources/data-source-about.md)的指标，如果您更新或重新验证集成，则将覆盖对显示名称所做的任何手动更改。 同样，除非您[更新](/help/search-social-commerce/admin/data-sources/data-source-edit.md)或[重新验证](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)集成，否则Google Analytics中的任何名称更改都将被忽略。
+>对于来自Google Analytics[的](/help/search-social-commerce/admin/data-sources/data-source-about.md)指标，如果您更新或重新验证集成，则将覆盖对显示名称所做的任何手动更改。 同样，除非您[更新](/help/search-social-commerce/admin/data-sources/data-source-edit.md)或[重新验证](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)集成，否则Google Analytics中的任何名称更改都将被忽略。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**。
 

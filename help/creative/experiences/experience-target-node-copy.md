@@ -3,9 +3,12 @@ title: 将子节点复制到同一级别的其他目标节点
 description: 了解如何将父目标节点的所有子节点复制到同一级别的其他目标节点
 feature: Creative Experiences
 exl-id: b3705689-57b6-41ce-9e00-2358bd195c93
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+TQID: https://experienceleague.adobe.com/KLKVrggOQ8V99Cd-2PcFEdwImKvLYkskSD-DPDvpwu0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: 286
 ht-degree: 0%
 
 ---
@@ -26,7 +29,7 @@ ht-degree: 0%
 
    * 要替换节点的所有子节点和创意，请单击要将复制的信息粘贴到的节点，单击&#x200B;**...**，然后a\)选择&#x200B;**[!UICONTROL Replace ctrl+shift+v]**&#x200B;或b\)在键盘上输入&#x200B;**[!UICONTROL Ctrl+Shift+V]** ([!DNL Microsoft Windows])或&#x200B;**[!UICONTROL Command-Shift-V]** ([!DNL Apple Macintosh])。
 
-   * （具有多个子目标的节点，没有“所有”节点，仅没有创意）要将所有子节点和创意添加到节点中，而不删除现有节点和创意，请单击要将复制的信息粘贴到的节点，单击&#x200B;**...**，a\)选择&#x200B;**[!UICONTROL Add ctrl+v]** **或b\)然后在键盘上输入&#x200B;**&#x200B;[!UICONTROL Ctrl+V] **&#x200B; ([!DNL Microsoft Windows])或&#x200B;**&#x200B;[!UICONTROL Command-V]** ([!DNL Apple Macintosh])。
+   * （具有多个子目标的节点，没有“所有”节点，仅没有创意）要将所有子节点和创意添加到节点中，而不删除现有节点和创意，请单击要将复制的信息粘贴到的节点，单击&#x200B;**...**，a\)选择&#x200B;**[!UICONTROL Add ctrl+v]** **或b\)然后在键盘上输入&#x200B;**[!UICONTROL Ctrl+V]** ([!DNL Microsoft Windows])或&#x200B;**[!UICONTROL Command-V]** ([!DNL Apple Macintosh])。
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.

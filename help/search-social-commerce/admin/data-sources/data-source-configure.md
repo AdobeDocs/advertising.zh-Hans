@@ -4,9 +4,15 @@ description: 了解如何从 [!DNL Google Analytics] 视图配置数据源。
 role: User, Admin
 exl-id: 9e299e42-4971-49ea-a515-54a97eb13e0d
 feature: Search Admin, Search Data Sources
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/Tvl3PF1mPSWuoWdVVreAoo6aXe3Kg9-9DXsOz3porOI
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+subfeature_v2: id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: 568
 ht-degree: 0%
 
 ---
@@ -57,7 +63,7 @@ ht-degree: 0%
 
       >[!WARNING]
       >
-      >[!DNL Google Analytics]在单个数据馈送中最多允许10个量度。 Search、Social和Commerce最多可支持两个包含20个量度的馈送，但使用第二个馈送会将您的API调用翻倍到[!DNL Google Analytics]。 如果您有许多量度，请仅选择要在优化目标中使用的量度。 查看有关 [!DNL Google Analytics][&#128279;](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas)的API请求的配额和调用限制的详细信息。
+      >[!DNL Google Analytics]在单个数据馈送中最多允许10个量度。 Search、Social和Commerce最多可支持两个包含20个量度的馈送，但使用第二个馈送会将您的API调用翻倍到[!DNL Google Analytics]。 如果您有许多量度，请仅选择要在优化目标中使用的量度。 查看有关[ [!DNL Google Analytics]的API请求的](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas)配额和调用限制的详细信息。
 
    1. 在[!UICONTROL Metric Tag]部分中，输入要附加到数据源的每个量度的标记名称。
 
@@ -65,7 +71,7 @@ ht-degree: 0%
 
    该数据源名为“AccountName > PropertyName > ViewName”，且会自动激活。 要暂停数据源，请参阅“[暂停来自数据Source的馈送](data-source-pause.md)”。
 
-   完成每日数据同步（从广告商所在时区的05:00开始）后的第二天，这些量度将可用。 量度可用后，即可在[[!UICONTROL Admin] > [!UICONTROL Conversions]](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)中看到它们。 每个新的转化量度都名为“`ga:backEndMetricName_propertyID_viewID`”，其中“backEndMetricName”是API使用的量度名称。 每个新转化量度的显示名称是“`friendlyMetricName_ga:MetricTag`”，其中“friendlyMetricName”是出现在[!DNL Google Analytics]中的量度名称，“MetricTag”是在数据源设置中定义的[!UICONTROL Metric Tag]。
+   完成每日数据同步（从广告商时区的05:00开始）后的第二天，量度将可用。 量度可用后，即可在[[!UICONTROL Admin] > [!UICONTROL Conversions]](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)中看到它们。 每个新的转化量度都名为“`ga:backEndMetricName_propertyID_viewID`”，其中“backEndMetricName”是API使用的量度名称。 每个新转化量度的显示名称是“`friendlyMetricName_ga:MetricTag`”，其中“friendlyMetricName”是出现在[!DNL Google Analytics]中的量度名称，“MetricTag”是在数据源设置中定义的[!UICONTROL Metric Tag]。
 
    您可以将这些量度直接添加到营销活动管理和项目组合管理视图、报表和优化目标。
 

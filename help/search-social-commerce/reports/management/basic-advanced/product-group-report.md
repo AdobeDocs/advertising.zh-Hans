@@ -3,9 +3,13 @@ title: '[!UICONTROL Product Group Report]'
 description: 了解[!UICONTROL Product Group Report]。
 exl-id: 4e310d06-11fe-4c5a-b9a3-59ee099aeaef
 feature: Search Reports, Search Basic Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/Pk3puoDCNlh0ohYjMuDdMY7Q4cEL7lpZ9aBrzJQSoMA
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: 150
 ht-degree: 0%
 
 ---

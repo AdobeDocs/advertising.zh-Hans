@@ -3,9 +3,13 @@ title: 转换信息源文件的文件要求
 description: 参考转换信息源文件的要求。
 exl-id: abc28394-3e00-447f-a04e-078fa9883a64
 feature: Search Tracking
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+TQID: https://experienceleague.adobe.com/y5kEsTB71WWQE6RGYdsIq0GFuZI037tRbRQTwuOP8aM
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: 360
 ht-degree: 0%
 
 ---
@@ -34,7 +38,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->转化数据馈送每天处理多次。 请于当地时间午夜12:00后尽快上传每日馈送，以便Adobe Advertising能够处理您的数据，并在凌晨在报表UI中提供。
+>转化数据馈送每天处理多次。 请于当地时间午夜12:00后尽快上传每日馈送，以便Adobe Advertising能够处理您的数据，并在当天清晨将其显示在报表UI中。
 
 >[!MORELIKETHIS]
 >

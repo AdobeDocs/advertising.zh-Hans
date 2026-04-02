@@ -3,9 +3,12 @@ title: 配置馈送数据设置
 description: 了解如何配置用于控制如何处理馈送数据的设置。
 exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/kmaWPmbN4HFZmI0u9KE2PXMyt9jltTHAM9tWM0Bj7e0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: 1155
 ht-degree: 0%
 
 ---
@@ -95,7 +98,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 对于FTP文件，信息源服务每两小时在FTP目录中检查一次更新（PST时区中的小时数偶数）。 此选项处理自上次检查以来上载的所有文件。
->* 对于商户中心帐户，Search、Social和Commerce每天在广告商所在时区的约06:00与帐户同步。 此选项处理自上次同步以来更新的所有数据。
+>* 对于商户中心帐户，Search、Social和Commerce每天在广告商所在时区的大约06:00与该帐户同步。 此选项处理自上次同步以来更新的所有数据。
 >* 传播的数据可以从[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]和[!UICONTROL Ads]选项卡使用，直到数据被发布到广告网络或[!UICONTROL Bulksheets]视图。
 
 **[!UICONTROL Post to the SE]：** （通过FTP或商户中心帐户上传数据文件的广告商）在通过适用的模板传播新数据后，自动为相关广告网络以正确格式创建批量处理工作表文件。 此选项还会从[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]和[!UICONTROL Ads]选项卡中删除数据，除非任何子组件都有错误。
@@ -104,7 +107,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Immediately]* （默认）：在通过模板传播数据之后，将批量工作表文件发布到相关广告网络。 批量工作表文件在[!UICONTROL Bulksheets]视图中保持可用30天。
 
-* *[!UICONTROL Preview in Bulksheet Management area only, post later]：**不将批量处理工作表文件发布到相关广告网络，而是将其列在[!UICONTROL Bulksheets]视图中，以便您以后可以从中发布它们。 批量工作表文件在[!UICONTROL Bulksheets]视图中保持可用30天。 当批量处理工作表文件大于10 MB但小于2 GB时，该文件为ZIP格式；您无需解压缩文件即可发布该文件。 &#x200B;** 提示：**&#x200B;如果您之前未验证登陆页面，请使用此选项，以便您可以先从[!UICONTROL Bulksheets]视图验证这些登陆页面，然后再将数据发布到广告网络。
+* *[!UICONTROL Preview in Bulksheet Management area only, post later]：**不将批量处理工作表文件发布到相关广告网络，而是将其列在[!UICONTROL Bulksheets]视图中，以便您以后可以从中发布它们。 批量工作表文件在[!UICONTROL Bulksheets]视图中保持可用30天。 当批量处理工作表文件大于10 MB但小于2 GB时，该文件为ZIP格式；您无需解压缩文件即可发布该文件。 **提示：**&#x200B;如果您之前未验证登陆页面，请使用此选项，以便您可以先从[!UICONTROL Bulksheets]视图验证这些登陆页面，然后再将数据发布到广告网络。
 
 **[!UICONTROL Exclude keywords from posting when keyword length is greater than]：**&#x200B;排除将超过指定字数的关键字短语发布到广告网络。 选择此选项时，会传播超过最大字数的关键字短语并将其列在[!UICONTROL Keywords]选项卡中，但当您尝试发布数据时，不会发布这些短语。
 

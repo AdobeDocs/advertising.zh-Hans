@@ -3,9 +3,13 @@ title: 有关营销活动的常见问题解答
 description: 查看有关营销活动管理和营销活动数据视图的问题的答案。
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: 88b415fff52d623a5daeb00355bfe00054d5402b
+TQID: https://experienceleague.adobe.com/5I3xvxMaW-VmMn1UhxtTgt7O68vi--W38VNpV1fE6Rs
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: 1585
 ht-degree: 0%
 
 ---
@@ -70,7 +74,7 @@ ht-degree: 0%
 如果您在“搜索”、“社交”和“Commerce”中更改转化量度的显示名称，则所做的更改将被[!DNL Google Ads]中配置的名称覆盖。 在[!DNL Google Ads]中进行任何名称更改。
 +++
 
-+++(Google广告营销活动)是否可以为项目组合中的营销活动使用共享预算？
++++（Google广告营销活动）是否可以为项目组合中的营销活动使用共享预算？
 
 为了获得最佳结果，如果营销活动在配置为“[!DNL Google Ads]”的优化项目组合中，请勿将[!DNL Google Ads]营销活动添加到[!UICONTROL Auto adjust campaign budget limits]共享预算。 如果这样做，[!DNL Google Ads]将覆盖Search、Social和Commerce优化的活动预算，这可能导致竞价效率低下。
 +++

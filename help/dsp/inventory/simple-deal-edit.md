@@ -3,9 +3,13 @@ title: 编辑[!UICONTROL Simple Ad Serving]交易设置
 description: 了解如何编辑[!UICONTROL Simple Ad Serving]交易的设置。
 feature: DSP Simple Ad Serving
 exl-id: 48540a6c-54ee-4109-bdd6-293fbee5c3e5
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/yYwHY-Vs6EmwZrsvWnRIpmcjun5hY2wRhdmBYFPf3M0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: 58
 ht-degree: 0%
 
 ---

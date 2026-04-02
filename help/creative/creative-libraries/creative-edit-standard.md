@@ -3,9 +3,12 @@ title: 在创意库中编辑标准创意内容
 description: 了解如何在创意库中更改标准（非动态）创意的设置。
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
+TQID: https://experienceleague.adobe.com/Z199ySghpKmaYCQiWz05YQiFX9beF4fmY9Gu3-MHv-w
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: 414
 ht-degree: 0%
 
 ---

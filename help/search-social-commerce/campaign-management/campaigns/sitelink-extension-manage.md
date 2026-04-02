@@ -3,9 +3,14 @@ title: 管理共享的站点链接
 description: 了解如何创建和管理共享站点链接扩展。
 exl-id: e510f53b-f48c-4129-887c-351a840b8398
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/bnKg6ySgpFF30MuE19xdHWimvAQVwvIqv1NRg-S2jTI
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: 928
 ht-degree: 0%
 
 ---
@@ -14,7 +19,7 @@ ht-degree: 0%
 
 仅&#x200B;*[!DNL Google Ads]和[!DNL Microsoft Advertising]*
 
-从[!UICONTROL Extensions] > [!UICONTROL Sitelinks]库为任何同步的[!DNL Google Ads]或[!DNL Microsoft Advertising]帐户创建和管理帐户级别的共享站点链接。
+从[!DNL Google Ads] > [!DNL Microsoft Advertising]库为任何同步的[!UICONTROL Extensions]或[!UICONTROL Sitelinks]帐户创建和管理帐户级别的共享站点链接。
 
 ## 创建共享站点链接
 
@@ -98,7 +103,7 @@ ht-degree: 0%
 
 * 对于Adobe Advertising转化跟踪（在营销活动设置包括&quot;[!UICONTROL EF Redirect]&quot;和&quot;自动上传&quot;时应用），Search、Social和Commerce会在您保存记录时自动为自己的点击跟踪代码添加前缀。
 
-* 有关嵌入最终URL所支持的参数，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)中“可用的[!DNL ValueTrack]参数”部分中的([!DNL Microsoft Advertising]) [[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799)或([!DNL Google Ads])“仅跟踪模板”参数。
+* 有关嵌入最终URL所支持的参数，请参阅[!DNL Microsoft Advertising]文档[[!DNL Microsoft Advertising] 中“可用的](https://help.ads.microsoft.com/#apex/3/en/56799)参数”部分中的([!DNL Google Ads]) [!DNL ValueTrack]文档[[!DNL Google Ads] 或(](https://support.google.com/google-ads/answer/6305348))“仅跟踪模板”参数。
 
 * 您可以选择包含URL参数以及为营销活动定义的任何自定义参数，这些参数以&amp;号分隔，如`{lpurl}?matchtype={matchtype}&device={device}`。
 

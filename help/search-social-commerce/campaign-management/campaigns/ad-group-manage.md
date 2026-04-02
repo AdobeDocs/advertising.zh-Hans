@@ -3,9 +3,12 @@ title: 管理广告组
 description: 了解如何创建和管理广告组。
 exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/sG5cWODyLzoKVIsQG2kGd68ozScBB3mTRCAWnAmuRiY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: 677
 ht-degree: 0%
 
 ---
@@ -16,7 +19,7 @@ ht-degree: 0%
 
 广告组包括一组广告及其相关关键词。 在营销活动中定位显示网络的广告组还可以包括投放位置，投放位置是显示网络中广告可以出现的位置。 适用于广告组所有组件的广告组设置因广告网络而异。
 
-您可以在Search、Social和Commerce中为[同步的广告网络帐户](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)中支持的[促销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)创建广告组。 您还可以编辑和更改广告组的状态。
+您可以在Search、Social和Commerce中为[同步的广告网络帐户](/help/search-social-commerce/introduction/supported-inventory.md)中支持的[促销活动类型](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)创建广告组。 您还可以编辑和更改广告组的状态。
 
 ## 创建广告组
 

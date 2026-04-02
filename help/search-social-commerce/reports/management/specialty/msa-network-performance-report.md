@@ -3,9 +3,13 @@ title: '[!UICONTROL MSA Network Performance Report]'
 description: 了解[!UICONTROL MSA Network Performance Report]。
 feature: Search Reports, Search Specialty Reports
 exl-id: da2b85e9-5e78-4a1c-9268-8686f025e80c
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/PXMA1k9x0zeHYSoMXfTgrWK9RxaCMDowsnqqr3CQIno
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: 144
 ht-degree: 0%
 
 ---

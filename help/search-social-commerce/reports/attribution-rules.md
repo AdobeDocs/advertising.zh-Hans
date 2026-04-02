@@ -3,9 +3,15 @@ title: 归因规则的计算方式
 description: 了解Adobe Advertising如何计算每种类型的归因规则。
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports, DSP Custom Reports
-source-git-commit: 4450592aa0406a28da5e2f426ac31a07ba2fe5c3
+TQID: https://experienceleague.adobe.com/LJri0oJaUSYMUwauq-xu8u41CYmQcfmJBbYXrMd4YUE
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '2707'
+source-wordcount: 2707
 ht-degree: 0%
 
 ---
@@ -154,13 +160,13 @@ ht-degree: 0%
 
 事件路径： Impression 1、Click 1、Impression 2、Click 2、120美元的转化
 
-#### (仅限搜索、社交和Commerce)使用默认的“展示覆盖权重”10%
+#### （仅限搜索、社交和Commerce）使用默认的“展示覆盖权重”10%
 
 由于事件序列既包含展示次数也包含点击次数，因此展示次数覆盖权重适用于展示次数。
 
 归因：展示次数1 = 8 USD，点击次数1 = 72 USD，展示次数2 = 4 USD，点击次数2 = 36 USD（总计120 USD）
 
-#### 使用(仅限DSP)无展示覆盖权重或(仅限搜索、Social和Commerce)0%的“展示覆盖权重”
+#### 使用（仅限DSP）无展示覆盖权重或（仅限搜索、Social和Commerce）0%的“展示覆盖权重”
 
 由于事件系列同时包含展示次数和点击次数，因此会忽略展示次数。
 
@@ -218,13 +224,13 @@ ht-degree: 0%
 
 事件路径： Impression 1、Click 1、Impression 2、Click 2、120美元的转化
 
-#### (仅限搜索、社交和Commerce)使用默认的“展示覆盖权重”10%
+#### （仅限搜索、社交和Commerce）使用默认的“展示覆盖权重”10%
 
 由于事件序列既包含展示次数也包含点击次数，因此展示次数覆盖权重适用于展示次数。
 
 归因：展示次数1 = 6 USD，点击次数1 = 54 USD，展示次数2 = 6 USD，点击次数2 = 54 USD（总计120 USD）
 
-#### 使用(仅限Adobe Advertising DSP)无展示覆盖权重或(仅限搜索、Social和Commerce)0%的“展示覆盖权重”
+#### 使用（仅限Adobe Advertising DSP）无展示覆盖权重或（仅限搜索、Social和Commerce）0%的“展示覆盖权重”
 
 由于事件系列同时包含展示次数和点击次数，因此会忽略展示次数。
 
@@ -276,13 +282,13 @@ ht-degree: 0%
 
 事件路径： Impression 1、Click 1、Impression 2、Click 2、120美元的转化
 
-#### (仅限搜索、社交和Commerce)使用默认的“展示覆盖权重”10%
+#### （仅限搜索、社交和Commerce）使用默认的“展示覆盖权重”10%
 
 由于事件序列既包含展示次数也包含点击次数，因此展示次数覆盖权重适用于展示次数。
 
 归因：展示次数1 = 4 USD，点击次数1 = 36 USD，展示次数2 = 8 USD，点击次数2 = 72 USD（总计120 USD）
 
-#### 使用(仅限DSP)无展示覆盖权重或(仅限搜索、Social和Commerce)0%的“展示覆盖权重”
+#### 使用（仅限DSP）无展示覆盖权重或（仅限搜索、Social和Commerce）0%的“展示覆盖权重”
 
 由于事件系列同时包含展示次数和点击次数，因此会忽略展示次数。
 
@@ -334,13 +340,13 @@ ht-degree: 0%
 
 事件路径： Impression 1、Click 1、Impression 2、Click 2、120美元的转化
 
-#### (仅限搜索、社交和Commerce)使用默认的“展示覆盖权重”10%
+#### （仅限搜索、社交和Commerce）使用默认的“展示覆盖权重”10%
 
 由于事件序列既包含展示次数也包含点击次数，因此展示次数覆盖权重适用于展示次数。
 
 归因：展示次数1 = 6 USD，点击次数1 = 54 USD，展示次数2 = 6 USD，点击次数2 = 54 USD（总计120 USD）
 
-#### 使用(仅限DSP)无展示覆盖权重或(仅限搜索、Social和Commerce)0%的“展示覆盖权重”
+#### 使用（仅限DSP）无展示覆盖权重或（仅限搜索、Social和Commerce）0%的“展示覆盖权重”
 
 由于事件系列同时包含展示次数和点击次数，因此会忽略展示次数。
 

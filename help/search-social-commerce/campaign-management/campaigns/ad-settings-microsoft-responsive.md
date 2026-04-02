@@ -1,11 +1,14 @@
 ---
-title: “[!DNL Microsoft Advertising]响应式广告设置”
+title: '[!DNL Microsoft Advertising]响应式广告设置'
 description: 引用 [!DNL Microsoft Advertising] 响应式广告的设置。
 exl-id: 29404500-d929-4683-be71-150ea8ab805d
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/K4R8gmgxfaMP0JdZiz4RkZkfC6-0T2BsyxpcwK-X3bQ
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: 232
 ht-degree: 0%
 
 ---
@@ -26,7 +29,7 @@ ht-degree: 0%
 >
 >广告网络会自动为受众营销活动创建广告，并使用商店的产品信息和广告组级别的用户定位链接到商家中心商店。 您无需手动创建广告。
 
-**[!UICONTROL Images]：**&#x200B;广告的最多15个JPEG或PNG图像。 包括至少一个具有1.91:1纵横比的图像。 查看[受众广告图像](https://help.ads.microsoft.com/#apex/ads/en/56912/0)所允许的宽高比和尺寸。
+**[!UICONTROL Images]：**&#x200B;广告的最多15个JPEG或PNG图像。 包括至少一个长宽比为1.91:1的图像。 查看[受众广告图像](https://help.ads.microsoft.com/#apex/ads/en/56912/0)所允许的宽高比和尺寸。
 
 对于受众广告，[!DNL Microsoft Advertising]会针对所有可能的纵横比自动裁剪此图像。
 

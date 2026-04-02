@@ -3,9 +3,13 @@ title: 更改密码
 description: 了解如何更改帐户密码。
 exl-id: 62a4710d-aff7-4635-9fce-6d14f890728f
 feature: Search Tools
-source-git-commit: d6405e1f594e26fb6e6790ad567676ffdaa900b4
+TQID: https://experienceleague.adobe.com/7RxD656uNrwadmhA1C43fYY2Lp4L54g-z7tlne97bJ0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: 136
 ht-degree: 0%
 
 ---
@@ -16,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此功能仅适用于您的旧版Search、Social和Commerce登录凭据。 大多数用户现在改用[!DNL Adobe] ID进行身份验证。 要更改[!DNL Adobe] ID的密码，请参阅“[重置或更改Adobe密码](https://helpx.adobe.com/cn/manage-account/using/change-or-reset-password.html)”。
+>此功能仅适用于您的旧版Search、Social和Commerce登录凭据。 大多数用户现在改用[!DNL Adobe] ID进行身份验证。 要更改[!DNL Adobe] ID的密码，请参阅“[重置或更改Adobe密码](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)”。
 
 更改密码会将您从当前会话中注销。 要继续工作，您必须使用新密码登录。
 
