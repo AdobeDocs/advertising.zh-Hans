@@ -3,9 +3,22 @@ title: 关于见解
 description: 了解可视化图表的性能见解。
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: a5a29233034121a310ee172fe2cf6997047733c2
+TQID: https://experienceleague.adobe.com/gcIUBvGMJiIZZ2XwCmEsidqFvp39cQBBxQYzpeUl-E4
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 1e4a456c3add52553936db29a72f42e7d45506c3
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: 1371
 ht-degree: 0%
 
 ---
@@ -84,13 +97,41 @@ ht-degree: 0%
    * **中等影响**
    * **有限影响：**&#x200B;需要注意
 
-## 打开性能分析
+### [!UICONTROL Audience Analysis]选项卡
 
-* （要打开所有营销活动的分析）在主菜单中，单击&#x200B;**[!UICONTROL Insights BETA]**。
+[!UICONTROL Audience Analysis]选项卡在投放位置级别实时分析受众区段定位的有效性。 它包括一段时间的区段大小趋势和funnel的每日竞价细分。 使用这些见解监控目标受众池的稳定性，并识别在受众匹配和展示投放之间卷的丢失位置。 数据仅适用于定向受众区段的投放位置。
 
-* （要打开特定营销活动、包或投放位置的见解）在[!UICONTROL Campaigns]、[!UICONTROL Packages]或[!UICONTROL Placements]视图中的实体名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Insights]**。
+默认情况下，将显示特定广告商和特定投放位置的数据。 您可以选择配置过滤器以显示其他广告商的数据或选择不同的投放位置。
 
-* （要打开特定投放位置的见解）在[!UICONTROL Campaigns]、[!UICONTROL Packages]或[!UICONTROL Placements]视图中的实体名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Insights]**。
+这些见解包括：
+
+* **[!UICONTROL Audience Segment Size Trends]：**&#x200B;趋势图显示投放位置的所有受众区段中的每日独特用户数。 使用此图表可监控目标受众是随时间增长、稳定还是收缩。 持续下降可能表示区段即将到期或缩小，并且可能需要刷新区段数据或扩大定位范围。
+
+  要查看特定数据点的确切用户数和日期，请将光标悬停在该点上。
+
+* **[!UICONTROL Audience Funnel Analysis]：**&#x200B;一个每日时间序列表，显示应用所有定位和资格筛选器后，目标受众如何从总可用池缩小为实际展示次数胜利。 将显示前一天的数据。 funnel包括以下量度，按从最广泛到最狭窄的顺序排列：
+
+   * **[!UICONTROL Audience Segment Size]：**&#x200B;聚合受众中的独特用户总数。
+
+   * **[!UICONTROL Cookies in Bid Stream]：**&#x200B;目标受众中在前24小时内在竞价流中处于活动状态的用户数。 此计数包括范围内的每个用户，无论是否对他们进行置入投标。 从[!UICONTROL Total Target Audience]减少到[!UICONTROL Reachable Audience]反映了报告期间竞价流中处于非活动状态的受众部分，这并非竞价绩效的反映。
+
+   * **[!UICONTROL Eligible cookies]：**&#x200B;在应用地域、设备类型、操作系统和浏览器筛选器之后仍保留的可访问用户的子集。 如果此数字显着低于[!UICONTROL Reachable Audience]，请考虑审查您的地理或设备类型定位是否过于严格。
+
+  **[!UICONTROL Cookies Bid On]：**&#x200B;投放位置已提交竞价的合格机会数。 此阶段的锐减可能表示预算或步调限制限制了竞价量。
+
+   * **[!UICONTROL Impression Wins]：**&#x200B;投放位置赢得印象的机会数。 如果中标价格远低于投标价格，则您的投标价格可能低于目标库存的现行市场价格。
+
+## 查看性能分析
+
+1. 打开一组见解：
+
+   * （要打开所有营销活动的分析）在主菜单中，单击&#x200B;**[!UICONTROL Insights BETA]**。
+
+   * （要打开特定营销活动、包或投放位置的见解）在[!UICONTROL Campaigns]、[!UICONTROL Packages]或[!UICONTROL Placements]视图中的实体名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Insights]**。
+
+   * （要打开特定投放位置的见解）在[!UICONTROL Campaigns]、[!UICONTROL Packages]或[!UICONTROL Placements]视图中的实体名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Insights]**。
+
+1. （可选）查看
 
 ## 将过滤器应用到选项卡
 
@@ -102,13 +143,17 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Apply]**。
 
-1. （可选）要进一步缩小数据范围，请在工具栏中选择实体类型，然后选择特定实体值（单个营销活动、资源包或投放位置）。
+1. （可选）要进一步缩小数据范围，请在工具栏中选择维度类型，然后选择特定维度（单个营销活动、资源包或投放位置）。
+
+1. （仅限[!UICONTROL Audience Funnel Analysis]；可选）要更改每日和每周之间的时间增量，请选择&#x200B;**[!UICONTROL Day]**&#x200B;或&#x200B;**[!UICONTROL Week]**。
 
 ## 更改为insight报告的维度
 
 * 从insight左上角的下拉菜单中，选择维度。
 
 ## 更改为insight报告的指标
+
+*可用于某些分析*
 
 对于转化量度，同时支持Adobe Advertising跟踪和Adobe Analytics跟踪的转化。
 
@@ -118,7 +163,7 @@ ht-degree: 0%
 
 ## 将选项卡的所有可视化导出到PDF文件
 
-* 在该选项卡上方，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Export]**。
+* 在选项卡右上角单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Export]**。
 
   该文件将保存到浏览器的默认“下载”文件夹中。
 
@@ -127,6 +172,11 @@ ht-degree: 0%
 * 单击insight右上角的![下载](/help/creative/assets/download.png "下载")。
 
   该文件将保存到浏览器的默认“下载”文件夹中。
+
+<!-- 
+Add:
+## Save a custom view for a tab
+-->
 
 >[!MORELIKETHIS]
 >
