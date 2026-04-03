@@ -5,9 +5,29 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
+TQID: https://experienceleague.adobe.com/HgUQENjtjLRyizGpXGBRYZOanvoouKfGdcjDyf5Dlaw
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+  - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: e32890b6c079c539084f32282a42012ce45e0199
 workflow-type: tm+mt
-source-wordcount: '6893'
+source-wordcount: 6924
 ht-degree: 0%
 
 ---
@@ -18,6 +38,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年3月25日 | [!UICONTROL Insights] | 新的[!UICONTROL Audience Analysis]见解在投放位置级别显示受众区段定向的有效性：区段大小随时间变化的趋势以及每日竞价funnel细分。 | 请参阅“[关于见解](/help/dsp/campaign-management/insights/insights-about.md)”。 |
 | 2026年3月16日 | 第一方受众源、通用ID | 除了经过哈希处理的电子邮件地址之外，您现在还可以使用与[the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hans)（属于Adobe Experience Platform的一部分）的DSP集成，将您的Cookie和移动广告ID转换为通用的ID，以用于定向广告。 以前，只能转换经过哈希处理的电子邮件地址。<br><br>要使用此新功能，请在Experience Platform中使用新的&quot;[Adobe Advertising DSP连接]&#x200B;(https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection&quot;。 旧版连接（仅支持经过哈希处理的电子邮件地址）被重命名为“[旧版Adobe Advertising Cloud DSP连接]&#x200B;(https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy)”。<br><br>如果您当前使用的是旧连接，则无需立即进行任何更改。 但是，旧版连接最终将被删除。 | 请参阅“[将用户ID从 [!DNL Adobe Real-Time CDP] 转换为通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)”、“[关于第一方受众源](/help/dsp/audiences/sources/source-about.md)”和“[管理受众源以激活通用ID受众](/help/dsp/audiences/sources/source-manage.md)”。 |
 | 2026年1月21日 | Adobe GenStudio for Performance Marketing | （使用Advertising Creative的广告商）使用[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/home)的广告商现在可以将GenStudio中的展示广告体验导入您的创意库。 您可以将导入的创意包含在Advertising Creative体验中，然后将[!DNL Creative]体验作为投放位置导出到DSP。 | 请参阅Advertising Creative帮助： &quot;[关于您的创意库](/help/creative/creative-libraries/creative-libraries-about.md)&quot;和&quot;[将标准创意添加到创意库](/help/creative/creative-libraries/creative-add-standard.md)&quot;。 |
 | 2025年12月17日 | 警报 | （使用Advertising Creative的广告商）[!UICONTROL Pulse Panel]视图中的[!UICONTROL Campaigns]现在包含DSP和[!UICONTROL Creative]选项卡。 [!UICONTROL Creative]选项卡列出了有关从[!DNL Creative]体验创建的DSP投放位置的警报。 | 请参阅“[查看警报](/help/dsp/campaign-management/reports/campaign-alerts.md)”。 |
