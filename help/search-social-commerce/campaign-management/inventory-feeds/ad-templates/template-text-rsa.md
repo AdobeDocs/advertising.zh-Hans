@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 3360
+source-wordcount: 3352
 ht-degree: 0%
 
 ---
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 * 适用于Yahoo！ Japan Ads帐户，使用参数{lpurl}。
 
-* 有关Microsoft Advertising和Google Ads帐户可用的参数，请参阅[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799)中“可用的[!DNL ValueTrack]参数”部分的[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)或“仅跟踪模板”参数。
+* 有关[!DNL Microsoft Advertising]和[!DNL Google Ads]帐户可用的参数，请参阅[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799)中“可用的[!DNL ValueTrack]参数”部分中的[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)或“仅跟踪模板”参数。
 
 此值将覆盖帐户级别和营销活动级别的设置，但更细粒度级别（以关键词最细粒度）的跟踪模板将覆盖此值。
 
@@ -350,7 +350,7 @@ ht-degree: 0%
 
 * 适用于Yahoo！ Japan Ads帐户，使用参数{lpurl}。
 
-* 有关Microsoft Advertising和Google Ads帐户可用的参数，请参阅[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799)中“可用的[!DNL ValueTrack]参数”部分的[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)或“仅跟踪模板”参数。
+* 有关[!DNL Microsoft Advertising]和[!DNL Google Ads]帐户可用的参数，请参阅[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799)中“可用的[!DNL ValueTrack]参数”部分中的[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)或“仅跟踪模板”参数。
 
 **\[原始广告字段下的备用广告字段\]：**（可选）广告的备用广告副本集，如果原始广告副本中的任何行超过了传播期间使用数据填充任何动态参数后允许的最大长度，则可以使用该广告副本。
 

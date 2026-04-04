@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 680
+source-wordcount: 676
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Search、Social和Commerce可以将广告商帐户组合的目标上传到[!DNL 
 
 >[!IMPORTANT]
 >
->由Google广告和Microsoft Advertising通用事件跟踪(UET)标记跟踪的转化不会重新上传到广告网络。 如果您将它们包含在目标中，则必须将它们添加到广告网络编辑器中的促销活动目标。
+>由[!DNL Google Ads]和[!DNL Microsoft Advertising]通用事件跟踪(UET)标记跟踪的转化不会重新上传到广告网络。 如果您将它们包含在目标中，则必须将它们添加到广告网络编辑器中的促销活动目标。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**。
 

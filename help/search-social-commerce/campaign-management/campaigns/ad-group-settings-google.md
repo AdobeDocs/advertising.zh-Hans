@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 452
+source-wordcount: 450
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Rotation Mode]：** [!DNL Google Ads]在广告组中相互关联投放活动广告的频率：
 
-* *[!UICONTROL Optimize]：* Google广告青睐其预期表现优于广告组中其他广告的广告。 这些广告进入广告拍卖的频率更高，随着时间的推移，单个广告会更受青睐。 这可能与您的业务和优化目标不一致。
+* *[!UICONTROL Optimize]：* [!DNL Google Ads]倾向于其预期表现优于广告组中其他广告的广告。 这些广告进入广告拍卖的频率更高，随着时间的推移，单个广告会更受青睐。 这可能与您的业务和优化目标不一致。
 
 * *[!UICONTROL Rotate forever]：*   您的每个广告进入广告拍卖的次数更加均匀，这使得Search、Social和Commerce不仅可以根据点进率而且对广告的转化情况进行评分。
 

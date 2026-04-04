@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 520
+source-wordcount: 518
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Tracking Template]：** （对于客户端信息源文件的模板而言，它是可选的）营销活动级别的跟踪模板，它指定所有离登陆域重定向和跟踪参数，并将最终URL嵌入到参数中。 此值将覆盖帐户级别的设置，但更细粒度级别（使用关键字作为最细粒度级别）的跟踪模板将覆盖此值。
 
-对于Adobe Advertising转化跟踪（在促销活动设置包括“[!UICONTROL EF Redirect]”和“[!UICONTROL Auto Upload]”时应用），请为Google广告购物促销活动使用[跟踪模板格式](/help/search-social-commerce/tracking/formats-click-tracking-google.md)。 如果整个帐户专门用于购物广告，则您可以在帐户级别定义跟踪模板。
+对于当营销活动设置包括“[!UICONTROL EF Redirect]”和“[!UICONTROL Auto Upload]”时应用的Adobe Advertising转化跟踪，请为[购物营销活动 [!DNL Google Ads] 使用](/help/search-social-commerce/tracking/formats-click-tracking-google.md)跟踪模板格式。 如果整个帐户专门用于购物广告，则您可以在帐户级别定义跟踪模板。
 
 对于第三方重定向和跟踪，请输入一个值。
 

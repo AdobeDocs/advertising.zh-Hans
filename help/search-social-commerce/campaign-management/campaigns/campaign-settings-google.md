@@ -12,7 +12,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
 source-wordcount: 2617
 ht-degree: 0%
@@ -291,7 +291,7 @@ ht-degree: 0%
 
 **[!UICONTROL Asset Group Status]：**&#x200B;资源组的状态： *[!UICONTROL Active]*&#x200B;或&#x200B;*[!UICONTROL Paused]*。
 
-**[!UICONTROL Final URL]：**&#x200B;从资产组创建的所有广告的最终URL。<!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
+**[!UICONTROL Final URL]：**&#x200B;从资产组创建的所有广告的最终URL。<!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and [!DNL Google Ads] replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
 **[!UICONTROL Images]：**&#x200B;广告的最多15个图像，包括以下大小：1)至少三个正方形图像，2)至少三个横向图像，以及3)至少一个纵向图像。 查看[[!DNL Google Ads] 图像规范](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications)。 您可以上传图像或从[!UICONTROL Asset Library]中选择图像，但无法在同一操作中同时选择两者。
 
