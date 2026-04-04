@@ -4,9 +4,12 @@ description: 了解如何创建 [!DNL Google Ads] 转化标记。
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
 TQID: https://experienceleague.adobe.com/pskBpQ12sQXj9RyLd3IQAG0MktlOvV2JvZBl5rGtQT0
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
 source-wordcount: 413

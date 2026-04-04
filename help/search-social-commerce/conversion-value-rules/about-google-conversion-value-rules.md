@@ -30,7 +30,7 @@ Search、Social和Commerce会自动从您的[帐户同步](https://support.googl
 
 例如，假设目标使用单个转化量度“潜在客户”，并将来自移动设备的转化权重为10，将来自非移动设备的转化权重为10。 Search、Social和Commerce将任一设备类型的事件计为一(1)次转化，并将转化值计为10。 但是，假设该组合中的某个营销活动使用转化值规则“如果设备是移动设备，则乘以2。” 在跟踪该营销活动的移动潜在客户事件时，[!DNL Google Ads]还会将转化计数计为一(1)，但转化值会计为(10 x 2) = 20。
 
-要查看有关规则的更多信息，包括应用规则之前的原始转化值，请参阅[ [!DNL Google Ads]中的](https://support.google.com/google-ads/answer/10519848)转化值规则报告。
+要查看有关规则的更多信息，包括应用规则之前的原始转化值，请参阅[&#x200B; [!DNL Google Ads]中的](https://support.google.com/google-ads/answer/10519848)转化值规则报告。
 
 >[!MORELIKETHIS]
 >
