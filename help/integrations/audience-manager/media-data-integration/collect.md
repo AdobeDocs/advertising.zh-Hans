@@ -4,25 +4,14 @@ description: 了解如何使用Audience Manager像素从Advertising DSP广告中
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
 TQID: https://experienceleague.adobe.com/UXP1gmCmLCHH-l7a1WYxlmYfSRIgJPLpxWHyHujIdX0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
-  - id: d9510790-d834-436d-8423-8d69cd50464a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3did: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 3b9845e85cd91cdece195593b43cbaf851368f9e
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 991
 ht-degree: 0%
 
 ---
@@ -39,7 +28,7 @@ ht-degree: 0%
 
 ## 步骤1：在Audience Manager中设置数据源 {#set-up-data-source}
 
-在Audience Manager中，为DSP展示创建一个[数据源](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=zh-Hans)，然后单击数据。 在每个事件标记[中包含数据源ID &#x200B;](#implement-dsp-pixels)，以便所有跟踪的事件都归属于该数据源。
+在Audience Manager中，为DSP展示创建一个[数据源](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html)，然后单击数据。 在每个事件标记[中包含数据源ID ](#implement-dsp-pixels)，以便所有跟踪的事件都归属于该数据源。
 
 >[!NOTE]
 > 可以在单个数据源中收集在多个DSP上运行的广告促销活动的所有展示和点击数据。
@@ -50,7 +39,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您的组织使用[!DNL Analytics]跟踪，则您可能不需要Audience Manager点击跟踪。 Adobe Analytics可捕获点击信号，并可通过[服务器端转发](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hans)将其发送到Audience Manager。
+>如果您的组织使用[!DNL Analytics]跟踪，则您可能不需要Audience Manager点击跟踪。 Adobe Analytics可捕获点击信号，并可通过[服务器端转发](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)将其发送到Audience Manager。
 
 ### 像素语法
 
@@ -84,21 +73,21 @@ ht-degree: 0%
 
 **格式：** `d_parameter=parameter_id`
 
-    其中：
-    
-    *参数的前缀为“&amp;”
-    
-    *“parameter”被新字段的键值对替换
-    
-    示例：“&amp;d_placement=${TM_PLACEMENT_ID_NUM}”
+其中：
+
+* 该参数的前缀为`&`
+
+* `parameter`被新字段的键值对替换
+
+*示例：* `&d_placement=${TM_PLACEMENT_ID_NUM}`
 
 这两种类型的像素都可以包含其他参数作为&#x200B;*键值对*，用于收集特征或为其他报表提供促销活动元数据（如版面名称或促销活动名称）。 键值对由两个相关元素组成：一个是定义数据集的常量&#x200B;*键*，另一个是属于数据集的变量&#x200B;*值*。
 
 在键值对中，值变量可以是硬编码ID或&#x200B;*宏*，宏是自包含代码的一个小单位，当加载广告标记以进行促销活动和用户跟踪时，它会被动态替换为相应的值。 对于与促销活动相关的参数，您可以使用[DSP宏](/help/dsp/campaign-management/macros.md)而不是Audience Manager宏将促销活动属性与相应的展示次数或点击数据一起发送到Audience Manager，在所有广告中使用单个像素。 插入到事件像素中的DSP宏必须是包含在像素中的键值对的相应值。 例如，对于`d_placement`键，您将使用DSP宏`${TM_PLACEMENT_ID_NUM}`作为值来捕获Adobe Advertising宏生成的版面ID。
 
-有关Audience Manager支持展示事件像素的宏列表，请参阅“[通过像素调用捕获营销活动展示数据](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=zh-Hans#supported-key-value-pairs)”。
+有关Audience Manager支持展示事件像素的宏列表，请参阅“[通过像素调用捕获营销活动展示数据](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs)”。
 
-有关Audience Manager支持点击事件像素的宏列表，请参阅“[通过像素调用捕获营销活动点击数据](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html?lang=zh-Hans)”。
+有关Audience Manager支持点击事件像素的宏列表，请参阅“[通过像素调用捕获营销活动点击数据](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html)”。
 
 >[!TIP]
 >
@@ -133,11 +122,11 @@ ht-degree: 0%
 
 ### 创建[!DNL Amazon S3]存储段和数据源
 
-一旦您的数据位于Audience Manager服务器上，您必须创建一个[!DNL Amazon Simple Storage Service] ([!DNL Amazon S3])存储段，然后创建一个数据源，所有像素数据都会发送到该数据源。 如果您需要支持，请联系您的Audience Manager顾问或[客户关怀](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html?lang=zh-Hans)。
+一旦您的数据位于Audience Manager服务器上，您必须创建一个[!DNL Amazon Simple Storage Service] ([!DNL Amazon S3])存储段，然后创建一个数据源，所有像素数据都会发送到该数据源。 如果您需要支持，请联系您的Audience Manager顾问或[客户关怀](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html)。
 
 ### 创建Audience Manager特征和区段
 
-您的事件数据作为[未使用的信号](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=zh-Hans)流入Audience Manager。 从摄取的数据中手动创建[基于规则的特征](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=zh-Hans)，然后使用这些特征创建[区段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=zh-Hans)，之后才能在报表中使用这些数据。
+您的事件数据作为[未使用的信号](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html)流入Audience Manager。 从摄取的数据中手动创建[基于规则的特征](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html)，然后使用这些特征创建[区段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html)，之后才能在报表中使用这些数据。
 
 为在DSP中展示特定创意内容的用户填充用户级数据的特征示例：
 
