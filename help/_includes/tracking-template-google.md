@@ -1,17 +1,17 @@
 ---
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+source-git-commit: 287e8bd0c2a3c3aedbf5f1f9551823b0c4586a57
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
-# Google Ads实体的“跟踪模板”字段
+# [!DNL Google Ads]实体的跟踪模板字段
 
 <!-- Search CRUD and bulk edit of Google entity settings -->
 
 **[!UICONTROL Tracking Template]：**（可选）跟踪模板或跟踪URL，它指定所有登入外域重定向和跟踪参数，并将最终/登陆页面URL嵌入到[!DNL ValueTrack]参数中。 示例： `{lpurl}?source={network}&id=5`或`http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`以包含重定向。
 
-对于Adobe Advertising转化跟踪（在Campaign设置包括&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;时应用），Search、Social和Commerce会在您保存记录时自动为其自己的重定向和跟踪代码添加前缀。
+对于Adobe Advertising转化跟踪（在营销活动设置包括&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;时应用），Search、Social和Commerce会在您保存记录时自动为其自己的重定向和跟踪代码添加前缀。
 
 * 有关嵌入最终URL所支持的参数，请参阅[[!DNL Google Ads] 文档，以了解支持的 [!DNL ValueTrack] 格式](https://support.google.com/google-ads/answer/6305348)。 （转到“可用[!DNL ValueTrack]参数”部分中的“仅跟踪模板”参数。）
 

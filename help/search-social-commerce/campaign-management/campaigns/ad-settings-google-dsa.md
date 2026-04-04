@@ -4,15 +4,12 @@ description: 引用 [!DNL Google Ads] 扩展动态搜索广告的设置。
 exl-id: 62142e37-c7c6-42d8-883b-f288a2903f44
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/5KJJ7b3UJiKGeqimzHbwS4k-wxpHyIcLh1N9AUaU-SQ
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 116
+source-wordcount: 114
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ ht-degree: 0%
 
 动态搜索广告(DSA)仅可用于[!DNL Google Ads]个仅用于搜索促销活动中的搜索动态广告组。 广告网络动态生成标题，并为动态搜索广告选择登陆页面和显示URL，然后自动生成最终URL。
 
-有关每个帐户[的广告限制](https://support.google.com/google-ads/answer/6372658?hl=en)，请参阅Google广告帮助。
+有关每个帐户[!DNL Google Ads]的[广告限制，请参阅](https://support.google.com/google-ads/answer/6372658?hl=en)帮助。
 
 >[!NOTE]
 >
