@@ -20,9 +20,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3b9845e85cd91cdece195593b43cbaf851368f9e
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 991
 ht-degree: 0%
 
 ---
@@ -84,13 +84,13 @@ ht-degree: 0%
 
 **格式：** `d_parameter=parameter_id`
 
-    其中：
-    
-    *参数的前缀为“&amp;”
-    
-    *“parameter”被新字段的键值对替换
-    
-    示例：“&amp;d_placement=${TM_PLACEMENT_ID_NUM}”
+其中：
+
+* 该参数的前缀为`&`
+
+* `parameter`被新字段的键值对替换
+
+*示例：* `&d_placement=${TM_PLACEMENT_ID_NUM}`
 
 这两种类型的像素都可以包含其他参数作为&#x200B;*键值对*，用于收集特征或为其他报表提供促销活动元数据（如版面名称或促销活动名称）。 键值对由两个相关元素组成：一个是定义数据集的常量&#x200B;*键*，另一个是属于数据集的变量&#x200B;*值*。
 

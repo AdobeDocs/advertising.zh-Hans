@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
 workflow-type: tm+mt
 source-wordcount: 304
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## “标签分类”视图
 
-在旧版UI中，[!UICONTROL Labels Classifications]视图位于[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications]。 在新UI中，[!UICONTROL Labels Classifications]视图位于[!UICONTROL Reports] > [!UICONTROL Labels Classifications]。
+在新UI中，[!UICONTROL Labels Classifications]视图位于[!UICONTROL Reports] > [!UICONTROL Labels Classifications]。 在旧版UI中，[!UICONTROL Labels Classifications]视图位于[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications]。
 
 [!UICONTROL Labels Classifications]视图包含[!UICONTROL Classifications]和[!UICONTROL Label Values]个子视图。 您可以查看标签分类的数据、[创建](classification-create.md)和[删除](classification-delete.md)标签分类，以及查看标签分类值的数据。 默认情况下，将显示关键词级别标签分类和值的数据，但您可以选择查看广告级别分类和值的数据。
 

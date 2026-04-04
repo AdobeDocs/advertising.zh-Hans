@@ -13,9 +13,9 @@ subfeature_v2:
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3b9845e85cd91cdece195593b43cbaf851368f9e
 workflow-type: tm+mt
-source-wordcount: 278
+source-wordcount: 275
 ht-degree: 0%
 
 ---
@@ -40,21 +40,21 @@ ht-degree: 0%
 
 1. 在[!UICONTROL Ad & Campaign Selection]设置中，选择要用于投放的广告：
 
-       1. 选择广告商、营销活动和广告类型。 （可选）选择要按其筛选广告的广告状态。
-       
-       1。 从可用广告列表中，选中要用于交易的每个广告旁边的复选框。
-       
-       1。 单击&#x200B;**[!UICONTROL Apply]**.
-   
-   1. 在版面设置屏幕中：
+   1. 选择广告商、营销活动和广告类型。 （可选）选择要按其筛选广告的广告状态。
 
-      1. 输入版面名称。
+   1. 从可用广告列表中，选中要用于交易的每个广告旁边的复选框。
 
-      1. （可选）编辑[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)，包括覆盖默认竞价（自动使用交易中的CPM值填充默认竞价）、更改日期范围或附加更多广告。
+   1. 单击&#x200B;**[!UICONTROL Apply]**。
+
+1. 在版面设置屏幕中：
+
+   1. 输入版面名称。
+
+   1. （可选）编辑[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)，包括覆盖默认竞价（自动使用交易中的CPM值填充默认竞价）、更改日期范围或附加更多广告。
 
       交易会在“库存目标”部分自动定位。 所有其他定位选项均不适用。
 
-      1. 单击&#x200B;**[!UICONTROL Create placement]**。
+   1. 单击&#x200B;**[!UICONTROL Create placement]**。
 
 在发布者激活您的PG交易ID后，该投放位置将开始运行。
 
