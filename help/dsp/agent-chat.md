@@ -5,16 +5,14 @@ feature: DSP Introduction, Creative Introduction
 hidefromtoc: true
 hide: true
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
+source-git-commit: 7e2b4ecc399a9bb243f3382f0dea913fc8181aad
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
 
 # 使用人工智能辅助的聊天界面搜索产品文档
-
-*Beta功能*
 
 *仅支持英语*
 
@@ -22,7 +20,7 @@ ht-degree: 0%
 
 使用AI聊天界面在[Advertising DSP指南](/help/dsp/home.md)和（使用Advertising Creative的广告商）[Advertising Creative指南](/help/creative/home.md)中搜索概念和操作方法内容。 答案仅基于[Experience League](https://experienceleague.adobe.com/zh-hans/docs/advertising)中针对这些产品记录的内容。
 
-响应包括引文以及其他提示和跟进问题，可帮助您优化查询并查找更多信息。 您的聊天历史记录会保留，您的查询不会与其他用户共享。
+响应包括引文以及其他提示和跟进问题，可帮助您优化查询并查找更多信息。 您的聊天历史记录会在整个会话中进行维护，并且您的查询不会与其他用户共享。
 
 >[!NOTE]
 >
