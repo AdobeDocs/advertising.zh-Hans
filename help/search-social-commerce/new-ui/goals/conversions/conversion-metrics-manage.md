@@ -2,20 +2,20 @@
 title: 管理广告商的转化量度
 description: 了解如何将Adobe Advertising跟踪的转化量度用于广告商。
 feature: Conversions
-source-git-commit: 7e2b4ecc399a9bb243f3382f0dea913fc8181aad
+source-git-commit: ba96414b7104192d36d62842f52f73a5850190f9
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
 
 # 管理广告商的转化量度
 
-广告商的[转化](/help/search-social-commerce/glossary.md#c-d)量度在搜索、社交和Commerce以及Advertising DSP中使用：
+广告商的[转化](/help/search-social-commerce/glossary.md#c-d)量度在整个Adobe Advertising中使用：
 
 * 在“搜索”、“社交”和“Commerce”中，转化指标的数据可显示在营销活动、项目组合和目标管理视图以及报表的列中。 具有足够访问权限的用户还可以使用转化量度创建目标，以优化项目组合。
 
-* 在Advertising DSP中，您可以使用转化指标创建[自定义目标](/help/dsp/optimization/custom-goal.md)，这些目标用于优化包。
+* （使用Advertising DSP的广告商）在DSP中，您可以在营销活动管理视图、自定义目标和自定义报表中包含转化量度。 您还可以使用转化量度来创建用于优化包的[自定义目标](/help/dsp/optimization/custom-goal.md)。
 
 可用的量度包括：
 
@@ -23,19 +23,21 @@ ht-degree: 0%
 
 * [转化和网站参与度量度已从Adobe Analytics同步](/help/integrations/analytics/analytics-data-in-advertising.md)。
 
+* 从Adobe Customer Journey Analytics[同步的](/help/integrations/customer-journey-analytics/overview.md)网站事件。
+
 * [!DNL Google Ads]跟踪的转化和[!DNL Microsoft Advertising]通用事件跟踪标记跟踪的转化。
 
 * （当[您已配置特定 [!DNL Google Analytics] 帐户、属性和视图组合作为搜索、社交和Commerce的数据源](/help/search-social-commerce/admin/data-sources/data-source-about.md)时） [!DNL Google Analytics]所跟踪的转化。
 
-从可用的转化量度列表中，每个有权访问广告商数据的用户都可以自定义他们看到的可用于管理视图和报表的量度，包括或忽略他们选择的特定量度。
+* 来自自定义馈送的转化。
+
+从可用的转化量度列表中，每个有权访问广告商数据的用户都可以自定义他们看到的可用于管理视图和报表的量度，包括或忽略他们选择的特定量度。 您可以使用与检索数据中拼写完全相同的量度名称，也可以更改列标题中显示的名称以提高可读性。
 
 >[!IMPORTANT]
 >
 >默认情况下，广告商的转化量度（由[!DNL Google Ads]、[!DNL Google Analytics]和[!DNL Microsoft Advertising]通用事件跟踪标记跟踪的转化除外）均不可包含在营销活动和项目组合管理视图、目标和报告中。 要使转化量度可用，您必须明确使其可用。
 >
 >由[!DNL Google Ads]、[!DNL Google Analytics]和[!DNL Microsoft Advertising]通用事件跟踪标记跟踪的新转化始终自动可用。
-
-您可以使用与检索数据中拼写完全相同的量度名称，也可以更改列标题中显示的名称以提高可读性。
 
 >[!TIP]
 >
@@ -65,7 +67,7 @@ ht-degree: 0%
 
    显示名称必须是唯一的，并且不能包含以下特殊字符： `\"<'>&`
 
-## 更改管理视图和报告中的可用转化量度 {#conversion-metrics-change-available}
+## 更改管理视图、目标和报告中可用的转化量度 {#conversion-metrics-change-available}
 
 >[!NOTE]
 >
