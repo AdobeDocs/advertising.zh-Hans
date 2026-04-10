@@ -2,9 +2,10 @@
 title: （新UI）在[!UICONTROL Portfolios]视图中查看性能图
 description: 了解如何在[!UICONTROL Portfolios]视图中打开和配置性能图。
 feature: Search Campaign Management
-source-git-commit: 3bbbc95581a6691b2ac637254424f0cdc7203659
+exl-id: 5b83d052-acef-451c-8492-70465ded23f4
+source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -28,4 +29,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于[!UICONTROL Portfolios view]](portfolio-about.md)
->* [从[!UICONTROL Portfolios]视图下载数据](portfolio-view-report.md)
+>* [从[!UICONTROL Portfolios]视图管理数据视图报告](portfolio-view-report.md)

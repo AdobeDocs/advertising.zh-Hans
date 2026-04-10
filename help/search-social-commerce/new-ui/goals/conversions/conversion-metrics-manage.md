@@ -2,9 +2,9 @@
 title: 管理广告商的转化量度
 description: 了解如何将Adobe Advertising跟踪的转化量度用于广告商。
 feature: Conversions
-source-git-commit: ba96414b7104192d36d62842f52f73a5850190f9
+source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,8 @@ ht-degree: 0%
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Goals]>[!UICONTROL Conversions]**。
 
+1. 从工具栏[或](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)列标题[筛选列表](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)。
+
 1. 在度量的&#x200B;**[!UICONTROL Conversion Display Name]**&#x200B;列中，将光标悬停在度量名称上，然后单击&#x200B;**...** > **[!UICONTROL Rename]**。
 
 1. 输入应显示的名称，然后单击&#x200B;**[!UICONTROL Apply]**。
@@ -95,4 +97,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* &#x200B;
+>* 
