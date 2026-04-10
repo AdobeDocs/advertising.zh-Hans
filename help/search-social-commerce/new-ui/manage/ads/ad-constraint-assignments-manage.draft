@@ -24,7 +24,7 @@ Unassigning a constraint removes the association with the account components and
 
 >[!NOTE]
 >
->* If you later edit a keyword or the ad copy for an ad &mdash; thereby creating a new keyword or ad &mdash; then the constraint isn't assigned to the new entity.
+>* If you later edit a keyword or the ad copy for a non-mutable ad &mdash; thereby creating a new keyword or ad &mdash; then the constraint isn't assigned to the new entity.
 >* Active constraints restrict bidding only for assigned bid units in optimized legacy keyword-level portfolios. They're ignored for bid units that are in active portfolios, are in hybrid portfolios, or aren't in portfolios. 
 
 ## Assign a constraint to selected ads from the new [!UICONTROL Ads] view
