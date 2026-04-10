@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: f3cafbaa91871505a9999402e0979fd4944e835a
 workflow-type: tm+mt
 source-wordcount: 579
 ht-degree: 0%
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 * 当广告商具有Adobe Analytics集成时，后缀必须包含以下内容：
 
-  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}`
+  `AL!{user}!10!{ad id}!!!!{keyword/order item id}!!{campaign id}!{ad group id}`
 
 * 当广告商没有Adobe Analytics集成时，后缀必须包括以下内容：
 
