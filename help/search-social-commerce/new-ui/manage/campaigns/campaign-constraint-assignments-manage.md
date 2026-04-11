@@ -5,16 +5,12 @@ feature: Search Optimization, Search Campaign Management
 hide: yes
 exl-id: d886a228-24d7-4d8e-b68a-76e56b4304ed
 TQID: https://experienceleague.adobe.com/qwisQ3OqMeymlREsTVY-Wf59ln37hBLR0X4R7RjkuTM
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: e96580c9fdea3b61c40e6ae8acb5ac60b53de2b9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 26d99b0a731ff07dde9461e8390c7bb540b3cc21
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: 441
 ht-degree: 0%
 
 ---
@@ -31,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 如果您稍后编辑广告的关键字或广告副本（从而创建新关键字或广告），则约束不会分配给新实体。
+>* 如果您稍后编辑非可变广告的关键字或广告副本（从而创建新关键字或广告），则约束不会分配给新实体。
 >* 活动约束仅限制优化旧关键词级别项目组合中已分配竞价单位的竞价。 对于活跃项目组合中的竞价单位、混合项目组合中的竞价单位或不在项目组合中的竞价单位，它们将被忽略。
 
 ## 从新[!UICONTROL Campaigns]视图为所选营销活动分配限制
