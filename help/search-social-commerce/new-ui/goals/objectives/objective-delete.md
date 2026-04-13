@@ -2,7 +2,7 @@
 title: （新UI）删除目标
 description: 了解如何删除目标。
 feature: Search Objectives, Search Optimization
-hide: yes
+hide: true
 exl-id: 27dfe063-3b62-41b9-bc09-a069cfd7dc59
 TQID: https://experienceleague.adobe.com/Ap23cJYi6AB5nbrQV-lAB5W-EP3mkinmi3lH-6kZVGk
 product_v2:
@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: 73
 ht-degree: 0%

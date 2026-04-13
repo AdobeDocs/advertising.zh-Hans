@@ -4,7 +4,7 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报展示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 7e2b4ecc399a9bb243f3382f0dea913fc8181aad
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 4%
@@ -27,7 +27,7 @@ ht-degree: 4%
    + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans)
    + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans)
    + [高级测量解决方案](/help/dsp/introduction/advanced-measurement-services.md)
-+ [使用人工智能辅助聊天搜索产品文档](/help/dsp/agent-chat.md)
++ {hide-from-toc}[使用AI辅助聊天搜索产品文档](/help/dsp/agent-chat.md)
 + 营销活动管理 {#campaign-management}
    + [Advertising DSP中的促销活动管理概述](/help/dsp/campaign-management/campaign-management-overview.md)
    + 营销活动 {#campaigns}

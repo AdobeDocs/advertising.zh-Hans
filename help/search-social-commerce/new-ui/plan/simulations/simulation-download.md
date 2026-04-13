@@ -2,7 +2,7 @@
 title: 下载模拟
 description: 了解如何在电子表格文件中下载模拟。
 feature: Search Optimization, Search Portfolios, Search Simulations
-hide: yes
+hide: true
 exl-id: 46c8c9de-b558-486e-9453-feb5d359aaec
 TQID: https://experienceleague.adobe.com/5FVQv17adrIz6OJU1K3ftG8NRO-0evlIzc1tGIFoHfY
 product_v2:
@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: 141
 ht-degree: 0%

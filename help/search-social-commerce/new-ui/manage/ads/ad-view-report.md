@@ -3,7 +3,7 @@ title: （新UI）从[!UICONTROL Ads]视图管理数据视图报告
 description: 了解如何在报表的[!UICONTROL Ads]视图中生成、下载和删除包含一个或多个广告数据行的报表。
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%

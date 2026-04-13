@@ -2,7 +2,7 @@
 title: （新UI）从[!UICONTROL Ad Groups]视图管理数据视图报告
 description: 了解如何在[!UICONTROL Ad Groups]视图中生成、下载和删除包含一个或多个广告组数据行的报告。
 feature: Search Optimization, Search Campaign Management
-hide: yes
+hide: true
 exl-id: 330bfda2-f46f-428e-b17c-efbe749b19ab
 TQID: https://experienceleague.adobe.com/yPzCnzZJwgX56fLLvbot0-iXAq5NWKMqdtTEjI9Q9y0
 product_v2:
@@ -13,7 +13,7 @@ topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: 348
 ht-degree: 0%

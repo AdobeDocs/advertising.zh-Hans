@@ -2,7 +2,7 @@
 title: （新UI）查看查看项目组合绩效详细信息
 description: 了解如何查看项目组合绩效详细信息，包括项目组合级别和每个分配营销活动的实际和预测指标。
 feature: Search Portfolios, Search Optimization
-hide: yes
+hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
 TQID: https://experienceleague.adobe.com/5hNxKu6YjJTWI4KGEc6aaYnpgXK6k3OsN0-YfetzENw
 product_v2:
@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: 735
 ht-degree: 0%

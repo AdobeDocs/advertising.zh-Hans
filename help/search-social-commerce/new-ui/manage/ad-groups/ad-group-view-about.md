@@ -2,7 +2,7 @@
 title: （新UI）关于[!UICONTROL Ad Groups]视图
 description: 了解您可以在[!UICONTROL Ad Groups]视图中执行的操作。
 feature: Search Optimization, Search Campaign Management
-hide: yes
+hide: true
 exl-id: 10922ae6-b2b5-4498-bc6a-424f3249e16a
 TQID: https://experienceleague.adobe.com/-u7BbFcsbOEcVIWjkfq-c2qlyXFhie-j3fG8LFeDOf0
 product_v2:
@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: 89
 ht-degree: 0%
