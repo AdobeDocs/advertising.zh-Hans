@@ -4,7 +4,7 @@ description: 了解如何将限制分配给投放位置。
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 325fb6b2-7f6f-41bc-bae7-9ee8590c6263
-source-git-commit: be68246e63f5d9c7101b931a2509b53619622719
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%

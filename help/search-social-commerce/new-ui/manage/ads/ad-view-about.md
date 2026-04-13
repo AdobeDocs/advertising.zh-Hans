@@ -4,7 +4,7 @@ description: 了解您可以在[!UICONTROL Ads]视图中执行的操作。
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 6a0a4b74-a767-4c4d-a823-0fbc3c738cd0
-source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 0%

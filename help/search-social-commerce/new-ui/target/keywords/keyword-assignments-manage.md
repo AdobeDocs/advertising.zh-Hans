@@ -4,7 +4,7 @@ description: 了解如何将约束分配给关键字。
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 4f08719e-0770-4a65-91b2-80cf03b65557
-source-git-commit: be68246e63f5d9c7101b931a2509b53619622719
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
