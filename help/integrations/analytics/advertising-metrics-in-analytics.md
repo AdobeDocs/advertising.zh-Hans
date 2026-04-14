@@ -5,18 +5,12 @@ feature: Integration with Adobe Analytics
 exl-id: da5e5704-4504-4fc5-93d2-db7d28f0c349
 TQID: https://experienceleague.adobe.com/CLPeE8g0Mix4Scq90qCd-s-tCUuBmkTBrkBWT1aPEhw
 autotag-review: '2026-04-13T23:29:38.865Z'
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: f2860a4b-f905-4545-bead-1bbc92564592
-subfeature_v2:
-  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 6e85310e94f642ccf3ccb0d67f43d5ebbf03fa24
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: f2860a4b-f905-4545-bead-1bbc92564592
+subfeature_v2: id: cfd751d4-ee56-4323-8fd1-dc174b031709
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 05f5454a520027b33ebe4e2fe8583569cb19e5df
 workflow-type: tm+mt
 source-wordcount: 190
 ht-degree: 0%
@@ -37,7 +31,7 @@ ht-degree: 0%
 
 除“[!DNL Analytics]”外，[!UICONTROL AMO ID Instances]中的Adobe Advertising流量量度通常以“Adobe Advertising”开头。 但是，对于最初使用自定义事件（而不是保留事件）创建点击次数、成本和展示次数的量度的长期客户，这些量度仍以“AMO”开头。
 
-有关列表，请参阅&quot;[Adobe Advertising指标](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/metrics/amo-metrics)&quot;。
+有关列表，请参阅&quot;[Adobe Advertising指标](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/amo-metrics)&quot;。
 
 <!--
 
@@ -61,7 +55,7 @@ ht-degree: 0%
 
 ## Adobe Advertising分类
 
-请参阅“[AMO ID维度](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#classifications)的分类。”
+查看AMO ID维度[的](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#classifications)分类。
 <!--
 
 >[!NOTE]
