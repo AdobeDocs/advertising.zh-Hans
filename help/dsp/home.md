@@ -6,11 +6,25 @@ product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
 TQID: https://experienceleague.adobe.com/HgUQENjtjLRyizGpXGBRYZOanvoouKfGdcjDyf5Dlaw
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+  - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 98cf5ffd2c8be3585c1c53643088594c200b2af3
 workflow-type: tm+mt
 source-wordcount: 7001
@@ -42,7 +56,7 @@ ht-degree: 0%
 | | [!UICONTROL Placements]，[!UICONTROL Ads] | 您现在可以从[!UICONTROL Placements]视图和版面[!DNL Inspector]中分离广告。 投放位置[!DNL Inspector]不再提供暂停广告的选项。<br><br>要使用批量处理工作表从投放位置中删除广告，请删除投放位置的广告信息（包括审批状态），然后上载编辑后的批量处理工作表。 | 请参阅“[从投放位置附加和删除广告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)”和“[查看投放位置的网站、广告、频率和库存详细信息](/help/dsp/campaign-management/reports/placement-details-view.md)”。<br><br>另请参阅“[使用批量处理工作表查看和编辑营销活动组件设置](/help/dsp/campaign-management/campaign-components-review-edit.md)”。 |
 | | 用于投放定位的[!DNL On Demand]库存列表 | 您现在可以从[!DNL On Demand] > [!UICONTROL Inventory]创建投放位置中包含或排除的[!UICONTROL Deal Lists]交易列表。 在版面设置中使用列表。 | 请参阅[管理交易列表](/help/dsp/inventory/lists-deals-manage.md)和[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)。 |
 | 2025年9月3日 | [!UICONTROL Custom Reports] | （Beta功能）位于[!UICONTROL Content BETA] > [!UICONTROL Reports]的新[!UICONTROL Custom Reports]报表允许您通过一组新的内容维度（如标题、流派和内容评级）查看标准、支出、性能、可视性、注意度和转化量度，以及自定义目标。 | 请参阅“[关于自定义报告](/help/dsp/reports/report-about.md)”和“[可用的报告列](/help/dsp/reports/report-columns.md)”。 |
-|  | [!UICONTROL Audiences]、[!UICONTROL Placements]、[!UICONTROL Pulse]警报中的第一方区段 | （DSP将其经过哈希处理的电子邮件ID转换为[!DNL  LiveRamp RampID]区段的广告商）未附加到活动、计划或暂停的投放位置的第一方[!DNL RampID]区段现在会暂停。  暂停区段时：<ul><li>在受众库的[!UICONTROL First Party Segments]选项卡上（在从[!UICONTROL Audiences] > [!UICONTROL All Audiences]或在版面设置中创建或编辑受众时可用），该区段标为“[!UICONTROL Auto paused]”。</li><li> [!UICONTROL Pulse]将显示所有关联投放位置的警报，声明该区段已暂停。</li></ul>DSP会继续从客户数据平台收集经过哈希处理的电子邮件ID，并保留七天的数据，但根据要包含在该区段中的过期时间，会更早过期的数据除外。 当通过a\)将其添加到活动、已计划或暂停的投放位置或b\)将现有已分配投放位置更改为“活动”、“已计划”或“已暂停”状态来激活区段时，保留的经过哈希处理的电子邮件ID将转换为[!DNL RampIDs]。 | 请参阅“[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)”和“[受众设置](/help/dsp/audiences/audience-settings.md)”。 |
+|  | [!UICONTROL Audiences]、[!UICONTROL Placements]、[!UICONTROL Pulse]警报中的第一方区段 | （DSP将其经过哈希处理的电子邮件ID转换为[!DNL &#x200B; LiveRamp RampID]区段的广告商）未附加到活动、计划或暂停的投放位置的第一方[!DNL RampID]区段现在会暂停。  暂停区段时：<ul><li>在受众库的[!UICONTROL First Party Segments]选项卡上（在从[!UICONTROL Audiences] > [!UICONTROL All Audiences]或在版面设置中创建或编辑受众时可用），该区段标为“[!UICONTROL Auto paused]”。</li><li> [!UICONTROL Pulse]将显示所有关联投放位置的警报，声明该区段已暂停。</li></ul>DSP会继续从客户数据平台收集经过哈希处理的电子邮件ID，并保留七天的数据，但根据要包含在该区段中的过期时间，会更早过期的数据除外。 当通过a\)将其添加到活动、已计划或暂停的投放位置或b\)将现有已分配投放位置更改为“活动”、“已计划”或“已暂停”状态来激活区段时，保留的经过哈希处理的电子邮件ID将转换为[!DNL RampIDs]。 | 请参阅“[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)”和“[受众设置](/help/dsp/audiences/audience-settings.md)”。 |
 | 2025年8月13日 | [!UICONTROL Placements] | 您现在可以在同一包中复制投放位置。 在[!UICONTROL Duplicate Placement]设置中，“[!UICONTROL Choose Package]”设置具有“[!UICONTROL Same Package]”选项。 | 请参阅“[重复版面](/help/dsp/campaign-management/placements/placement-duplicate.md)”。 |
 | | [!UICONTROL Insights] | （Beta功能）分析现在包含一个“家庭转化”选项卡，其中包含四个数据可视化图表。 对Adobe Advertising跟踪和Adobe Analytics跟踪的转化均提供支持。 | 请参阅“[关于见解](/help/dsp/campaign-management/insights/insights-about.md)”。 |
 | 2025年7月30日 | [!UICONTROL Placements]、[!UICONTROL Private]和[!DNL On-Demand]交易 | 在置入设置中，已删除私人和[!UICONTROL Ensure Fixed or Floor Price for the bid]交易的现有“[!DNL On-Demand]”设置并移动了功能。 现在，使用“[!UICONTROL Min Bid]”部分中的新“[!UICONTROL Goals]”设置以指定基于库存类型的最低出价：<ul><li><i>[!UICONTROL None]：</i>没有任何库存类型的最低出价。 如果计算的竞价小于目标交易的固定/底价，则DSP不竞价。 这可能会影响规模。</li><li><i>[!UICONTROL Fixed/floor price for Private deals only]，</i> <i>[!UICONTROL Fixed/floor price for On-demand deals only]、</i>和<i>[!UICONTROL Fixed/floor price for both Private and On-demand deals]</i>： DSP至少对指定交易类型的固定/底价出价，即使算法计算的出价少于此价格。 这可能会影响性能。</li></ul> | 请参阅“[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)”。 |
