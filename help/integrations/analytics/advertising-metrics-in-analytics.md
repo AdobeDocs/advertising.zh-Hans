@@ -5,11 +5,17 @@ feature: Integration with Adobe Analytics
 exl-id: da5e5704-4504-4fc5-93d2-db7d28f0c349
 TQID: https://experienceleague.adobe.com/CLPeE8g0Mix4Scq90qCd-s-tCUuBmkTBrkBWT1aPEhw
 autotag-review: '2026-04-13T23:29:38.865Z'
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: f2860a4b-f905-4545-bead-1bbc92564592
-subfeature_v2: id: cfd751d4-ee56-4323-8fd1-dc174b031709
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 6e85310e94f642ccf3ccb0d67f43d5ebbf03fa24
 workflow-type: tm+mt
 source-wordcount: 190
