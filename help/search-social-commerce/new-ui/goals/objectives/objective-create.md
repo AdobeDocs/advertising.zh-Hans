@@ -2,21 +2,15 @@
 title: （新UI）创建目标
 description: 了解如何创建目标。
 feature: Search Objectives, Search Optimization
-hide: true
+hide: 'yes'
 exl-id: 21516197-d005-4703-8735-c789107dc3c4
 TQID: https://experienceleague.adobe.com/z6aWMsPgU5YScIkdoKILRbZhOo2PTvJBIXxcyOXybgw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+autotag-review: '2026-04-13T23:57:03.010Z'
+source-git-commit: 2ec4c13497ef6b5373a36b1f75111322a3ef26d0
 workflow-type: tm+mt
 source-wordcount: 140
 ht-degree: 0%
@@ -24,6 +18,8 @@ ht-degree: 0%
 ---
 
 # （新UI）创建目标
+
+<!-- Needs V2 subfeature tags for Search Objectives, Search Optimization. Right now, using cross-product topics for optimization, which I'm not sure is enough. -->
 
 *Beta功能*
 
