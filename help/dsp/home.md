@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7e2b4ecc399a9bb243f3382f0dea913fc8181aad
+source-git-commit: 98cf5ffd2c8be3585c1c53643088594c200b2af3
 workflow-type: tm+mt
-source-wordcount: 6986
+source-wordcount: 7001
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年4月8日 | [!UICONTROL Insights] | 已重命名[!UICONTROL Audience Funnel Analysis]选项卡上[!UICONTROL Audience Analysis]insight的指标。 | 请参阅“[关于见解](/help/dsp/campaign-management/insights/insights-about.md)”。 |
 | 2026年4月7日 | 人工智能辅助的文档搜索 | 使用新的AI聊天界面在[Advertising DSP指南](/help/dsp/home.md)和（使用Advertising Creative的广告商）[Advertising Creative指南](/help/creative/home.md)中搜索概念和操作方法内容。 响应包括引文以及其他提示和跟进问题，可帮助您优化查询并查找更多信息。 | 请参阅“[使用AI辅助聊天搜索产品文档](/help/dsp/agent-chat.md)”。 |
 | 2026年3月25日 | [!UICONTROL Insights] | 新的[!UICONTROL Audience Analysis]见解在投放位置级别显示受众区段定向的有效性：区段大小随时间变化的趋势以及每日竞价funnel细分。 | 请参阅“[关于见解](/help/dsp/campaign-management/insights/insights-about.md)”。 |
 | 2026年3月16日 | 第一方受众源、通用ID | 除了经过哈希处理的电子邮件地址之外，您现在还可以使用与[the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hans)（属于Adobe Experience Platform的一部分）的DSP集成，将您的Cookie和移动广告ID转换为通用的ID，以用于定向广告。 以前，只能转换经过哈希处理的电子邮件地址。<br><br>要使用此新功能，请在Experience Platform中使用新的&quot;[Adobe Advertising DSP连接]&#x200B;(https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection&quot;。 旧版连接（仅支持经过哈希处理的电子邮件地址）被重命名为“[旧版Adobe Advertising Cloud DSP连接]&#x200B;(https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy)”。<br><br>如果您当前使用的是旧连接，则无需立即进行任何更改。 但是，旧版连接最终将被删除。 | 请参阅“[将用户ID从 [!DNL Adobe Real-Time CDP] 转换为通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)”、“[关于第一方受众源](/help/dsp/audiences/sources/source-about.md)”和“[管理受众源以激活通用ID受众](/help/dsp/audiences/sources/source-manage.md)”。 |
