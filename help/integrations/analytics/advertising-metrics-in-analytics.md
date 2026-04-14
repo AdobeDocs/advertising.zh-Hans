@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 6e85310e94f642ccf3ccb0d67f43d5ebbf03fa24
+source-git-commit: 05f5454a520027b33ebe4e2fe8583569cb19e5df
 workflow-type: tm+mt
 source-wordcount: 190
 ht-degree: 0%
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ## Adobe Advertising分类
 
-请参阅“[AMO ID维度](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#classifications)的分类。”
+查看AMO ID维度[的](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#classifications)分类。
 <!--
 
 >[!NOTE]
