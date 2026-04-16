@@ -16,16 +16,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 98cf5ffd2c8be3585c1c53643088594c200b2af3
+source-git-commit: 4da54d315e39dac4799887e876272102b8efe4f9
 workflow-type: tm+mt
-source-wordcount: 1371
+source-wordcount: 1369
 ht-degree: 0%
 
 ---
 
 # 关于见解
-
-*Beta功能*
 
 通过可视化图表获得高级别的性能洞察，可为您提供高效优化活动以及发现提升性能的新机会所需的信息。 您可以查看指定广告商的跨促销活动的数据或向下钻取到更低级别。
 
@@ -125,7 +123,7 @@ ht-degree: 0%
 
 1. 打开一组见解：
 
-   * （要打开所有营销活动的分析）在主菜单中，单击&#x200B;**[!UICONTROL Insights BETA]**。
+   * （要打开所有营销活动的分析）在主菜单中，单击&#x200B;**[!UICONTROL Insights]**。
 
    * （要打开特定营销活动、包或投放位置的见解）在[!UICONTROL Campaigns]、[!UICONTROL Packages]或[!UICONTROL Placements]视图中的实体名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Insights]**。
 
