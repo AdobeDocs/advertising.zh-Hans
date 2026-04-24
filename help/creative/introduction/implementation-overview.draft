@@ -65,11 +65,11 @@ The implementation team and/or your agency will work with you do the following:
      
         * For [targeted ad experiences](/help/creative/experiences/experience-create-targeting.md), sequence creatives and optional ad targets.
         
-          Ad targets can include retargeting pixels that you create in [!DNL Creative]; your audience segments in Adobe Experience Cloud (including in DSP, Audience Manager, or [!DNL Analytics]); geographic targets; or specific data triggers on the web page (such as SKU=01234567890123 or Cart=empty).
+          Ad targets can include retargeting pixels that you create in [!DNL Creative]; your audience segments in Adobe CX Enterprise (including in DSP, Audience Manager, or [!DNL Analytics]); geographic targets; or specific data triggers on the web page (such as SKU=01234567890123 or Cart=empty).
 
         * For [non-targeted ad experiences](/help/creative/experiences/experience-create-no-targeting.md), create general experience settings.
         
-          Ad targets can include retargeting pixels that you create in [!DNL Creative]; your audience segments in Adobe Experience Cloud (including in DSP, Audience Manager, or [!DNL Analytics]); geographic targets; or specific data triggers on the web page (such as SKU=01234567890123 or Cart=empty).
+          Ad targets can include retargeting pixels that you create in [!DNL Creative]; your audience segments in Adobe CX Enterprise (including in DSP, Audience Manager, or [!DNL Analytics]); geographic targets; or specific data triggers on the web page (such as SKU=01234567890123 or Cart=empty).
 
 
 
