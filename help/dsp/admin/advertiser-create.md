@@ -2,9 +2,9 @@
 title: 创建广告商帐户
 description: 了解如何创建广告商帐户。
 role: User, Admin
-source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
       1. 指定[!UICONTROL General]设置。
 
-      1. （可选）要配置DSP与其他Adobe Experience Cloud产品之间的集成，请在[!UICONTROL Adobe IMS IDs]部分输入广告商的Experience Cloud组织ID，然后在[!UICONTROL Integrations]部分配置产品集成。
+      1. （可选）要配置DSP与其他Adobe CX Enterprise产品之间的集成，请在[!UICONTROL Adobe IMS IDs]部分输入广告商的CX Enterprise组织ID，然后在[!UICONTROL Integrations]部分配置产品集成。
 
    1. （可选）在[!UICONTROL Targeting]部分中，为每个新放置指定默认目标。
 

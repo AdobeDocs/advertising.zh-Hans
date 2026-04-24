@@ -4,10 +4,10 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报展示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: b3eb6f69a643637635ac60e6751d091c5380a397
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 4%
+source-wordcount: '1054'
+ht-degree: 3%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 4%
       + [跨设备解决方案](/help/dsp/introduction/features/cross-device-solutions.md)
    + [帐户资金](/help/dsp/introduction/billing/account-funding.md)
    + [支持的货币](/help/dsp/currency.md)
-   + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans)
-   + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans)
+   + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [高级测量解决方案](/help/dsp/introduction/advanced-measurement-services.md)
 + [使用人工智能辅助聊天搜索产品文档](/help/dsp/agent-chat.md)
 + 营销活动管理 {#campaign-management}
@@ -77,7 +77,7 @@ ht-degree: 4%
       + [使用批量处理工作表查看和编辑广告详细信息](/help/dsp/campaign-management/ads/ad-qa.md)
       + [编辑广告](/help/dsp/campaign-management/ads/ad-edit.md)
       + [复制广告](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [从投放位置附加和删除广告](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=zh-Hans)
+      + [从投放位置附加和删除广告](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
       + [列出与广告关联的投放位置](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [查看广告的详细报告](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [暂停或激活广告](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -216,26 +216,26 @@ ht-degree: 4%
    + [复制连接的电视接入计划](/help/dsp/planner/planner-duplicate.md)
    + [编辑连接的电视接入计划](/help/dsp/planner/planner-edit.md)
    + [连接电视接入计划的设置](/help/dsp/planner/planner-settings.md)
-   + [导出已连接电视覆盖计划的预测](/help/dsp/planner/planner-export.md)
-   + [重新生成连接电视覆盖计划的预测](/help/dsp/planner/planner-forecast.md)
-   + [存档连接的电视接入计划](/help/dsp/planner/planner-archive.md)
-+ 资源 {#resources}
-   + [管理URL](/help/dsp/resources/lists-url-manage.md)
+   + [Export a forecast for a connected TV reach plan](/help/dsp/planner/planner-export.md)
+   + [Regenerate the forecast for a connected TV reach plan](/help/dsp/planner/planner-forecast.md)
+   + [Archive a connected TV reach plan](/help/dsp/planner/planner-archive.md)
++ Resources {#resources}
+   + [Manage URL lists](/help/dsp/resources/lists-url-manage.md)
 + 管理 {#admin}
-   + [编辑您的用户配置文件](/help/dsp/admin/user-own-profile-edit.md)
-   + 用户 {#users}
-      + [邀请组织帐户的新用户](/help/dsp/admin/user-invite.md)
-      + [重新发送待处理用户邀请](/help/dsp/admin/user-resend-invite.md)
-      + [取消邀请待处理用户](/help/dsp/admin/user-uninvite.md)
-   + 被阻止的站点 {#sites}
-      + [关于帐户级别和广告商级别的阻止站点列表](/help/dsp/admin/blocked-sites-list-about.md)
-      + [编辑帐户级别或广告商级别的阻止站点列表](/help/dsp/admin/blocked-sites-list-edit.md)
+   + [Edit your user profile](/help/dsp/admin/user-own-profile-edit.md)
+   + Users {#users}
+      + [Invite a new user for your organization account](/help/dsp/admin/user-invite.md)
+      + [Resend a pending user invitation](/help/dsp/admin/user-resend-invite.md)
+      + [Uninvite a pending user](/help/dsp/admin/user-uninvite.md)
+   + Blocked sites {#sites}
+      + [About account-level and advertiser-level blocked sites lists](/help/dsp/admin/blocked-sites-list-about.md)
+      + [Edit an account-level or advertiser-level blocked sites list](/help/dsp/admin/blocked-sites-list-edit.md)
    + 通知 {#notifications}
-      + [关于警报订阅](/help/dsp/admin/alerts-about.md)
-      + [管理警报订阅](/help/dsp/admin/alerts-manage.md)
-+ [与Adobe Experience Cloud的集成](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hans)
+      + [About alert subscriptions](/help/dsp/admin/alerts-about.md)
+      + [Manage alert subscriptions](/help/dsp/admin/alerts-manage.md)
++ [与Adobe CX Enterprise的集成](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [获取帮助](/help/dsp/get-help.md)
-+ [Adobe Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)
++ [Adobe CX Enterprise发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!--

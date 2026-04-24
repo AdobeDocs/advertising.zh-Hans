@@ -4,21 +4,13 @@ description: 了解搜索、社交和Commerce。
 exl-id: a28c49ba-f669-4d15-813b-b30673431d01
 feature: Search Introduction
 TQID: https://experienceleague.adobe.com/BNgdfE-vefdswY5BPajlzPCI4syme0owusbCOq0QLVg
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebef6e6f-6552-40b6-b842-0c5256698a4e
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 762
+source-wordcount: 776
 ht-degree: 0%
 
 ---
@@ -59,11 +51,11 @@ Search、Social和Commerce可在您的广告网络中提供全面的促销活动
 
 有关支持不同广告网络和广告类型的详细信息，请参阅[支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)。
 
-## 与Adobe Experience Cloud解决方案和服务集成
+## 与Adobe CX Enterprise解决方案和服务集成
 
 通过与Adobe Analytics和Adobe Audience Manager的本机集成，您可以连接数据和受众区段，以进行广告定位、[!DNL Google Ads]受众创建、优化和报表/分析。
 
-有关与这些产品以及其他Adobe产品集成的详细信息，请参阅[与Adobe Experience Cloud解决方案和服务的集成](/help/search-social-commerce/introduction/integrations.md)。
+有关与这些产品以及其他Adobe产品集成的详细信息，请参阅[与Adobe CX Enterprise解决方案和服务的集成](/help/search-social-commerce/introduction/integrations.md)。
 
 ## 转化跟踪
 
@@ -76,4 +68,4 @@ Adobe Advertising还可以选择提供专有、基于像素的转化跟踪服务
 >[!MORELIKETHIS]
 >
 >* [支持的清单](supported-inventory.md)
->* [与Adobe Experience Cloud解决方案和服务的集成](integrations.md)
+>* [与Adobe CX Enterprise解决方案和服务的集成](integrations.md)
