@@ -1,4 +1,4 @@
-# Documentation for Adobe Advertising Integrations with Adobe Experience Cloud
+# Documentation for Adobe Advertising Integrations with Adobe CX Enterprise
 
 This folder is for docs on Adobe Advertising integrations with other Adobe products.
 
