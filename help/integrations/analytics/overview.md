@@ -49,7 +49,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Watch a [video introduction to [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html#analytics).
+> Watch a [video introduction to [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=zh-Hans#analytics).
 
 ## Using Analytics for paid media reporting
 
@@ -101,17 +101,17 @@ Without requiring any additional pixels, [!DNL Analytics for Advertising] enable
 
 Adobe Advertising可以使用[!DNL Analytics]与CX Enterprise之间的本机CX Enterprise受众集成为[!DNL Creative]、[!DNL DSP]和[!DNL Search, Social, & Commerce]广告摄取[!DNL Analytics]区段以进行再营销。
 
-要访问[!DNL Analytics]区段，广告商帐户必须启用[Experience Cloud ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)。 启用ID服务后，所有CX Enterprise区段一经处理即可在Adobe Advertising中使用。 CX Enterprise区段包括在[!DNL Analytics]中创建并发布到CX Enterprise的区段、在Adobe Audience Manager中创建的区段、在CX Enterprise中使用[!DNL People core service]创建的区段，以及在Adobe Experience Platform中创建并通过Audience Manager发送到Adobe Advertising的区段。
+要访问[!DNL Analytics]区段，广告商帐户必须启用[Experience Cloud ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。 启用ID服务后，所有CX Enterprise区段一经处理即可在Adobe Advertising中使用。 CX Enterprise区段包括在[!DNL Analytics]中创建并发布到CX Enterprise的区段、在Adobe Audience Manager中创建的区段、在CX Enterprise中使用[!DNL People core service]创建的区段，以及在Adobe Experience Platform中创建并通过Audience Manager发送到Adobe Advertising的区段。
 
 [!DNL Analytics]区段在24小时内可用，每天更新。
 
-有关CX Enterprise受众服务的详细信息，请参阅[CX Enterprise受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)。
+有关CX Enterprise受众服务的详细信息，请参阅[CX Enterprise受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)。
 
 ## 如何使用集成的示例 {#integration-examples}
 
 ### 在Analysis Workspace中使用Adobe Advertising数据
 
-要了解如何使用Adobe Advertising数据在Analysis Workspace中创建可视化报表，请参阅视频“[Workspace和报表简介](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html)”。
+要了解如何使用Adobe Advertising数据在Analysis Workspace中创建可视化报表，请参阅视频“[Workspace和报表简介](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=zh-Hans)”。
 
 #### 在报表中使用连接的电视显示到达转换
 
@@ -147,11 +147,11 @@ Adobe Advertising可以使用[!DNL Analytics]与CX Enterprise之间的本机CX E
 
 ### 创建Adobe Advertising功能板
 
-要了解如何根据Analysis Workspace中的目标跟踪Adobe Advertising数据，请参阅视频“使用Adobe Analytics创建Adobe Advertising功能板[&#128279;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html)”。
+要了解如何根据Analysis Workspace中的目标跟踪Adobe Advertising数据，请参阅视频“使用Adobe Analytics创建Adobe Advertising功能板[&#128279;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html?lang=zh-Hans)”。
 
 ### 使用Adobe Advertising ID进行网站进入分析
 
-要了解如何创建Adobe Advertising站点登入报表以监测每周时间、每天时间、浏览器和地理影响，请参阅视频[创建Adobe Advertising站点登入报表](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html)。
+要了解如何创建Adobe Advertising站点登入报表以监测每周时间、每天时间、浏览器和地理影响，请参阅视频[创建Adobe Advertising站点登入报表](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html?lang=zh-Hans)。
 
 ## 如何启动[!DNL Analytics for Advertising]实施
 
@@ -159,7 +159,7 @@ Adobe Advertising可以使用[!DNL Analytics]与CX Enterprise之间的本机CX E
 
 >[!MORELIKETHIS]
 >
->* [视频： [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)简介
+>* [视频： [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=zh-Hans)简介
 >* [实施的先决条件和关键信息 [!DNL Analytics for Advertising]](prerequisites.md)
 >* Analytics使用的[Adobe Advertising ID](ids.md)
 >* 适用于Analytics for Advertising的[JavaScript代码](/help/integrations/analytics/javascript.md)

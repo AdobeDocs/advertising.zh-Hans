@@ -79,7 +79,7 @@ ht-degree: 0%
    >
    >请联系贵公司的Adobe Advertising代表，以确认贵公司的所有Adobe Advertising帐户（包括[!DNL DSP]帐户或广告商、[!DNL Search, Social, & Commerce]帐户以及[!DNL Creative]或[!DNL DCO]帐户）均关联到您的CX Enterprise组织ID。
 
-1. Use the Adobe Experience Platform Privacy Service API to [submit opt-out-of-sale requests](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) to Adobe Advertising on behalf of consumers, and to check the status of existing requests.
+1. Use the Adobe Experience Platform Privacy Service API to [submit opt-out-of-sale requests](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html?lang=zh-Hans) to Adobe Advertising on behalf of consumers, and to check the status of existing requests.
 
    See the Appendix below for an example of an opt-out-of-sale request.
 
@@ -87,7 +87,7 @@ ht-degree: 0%
    >
    >如果您的企业有多个CX Enterprise组织ID，则必须为每个组织发送单独的API请求。 但是，您可以向多个Adobe Advertising子解决方案（[!DNL Search, Social, & Commerce]、[!DNL Creative]、[!DNL DSP]和[!DNL DCO]）发出一个API请求，每个子解决方案使用一个帐户。
 
-All of these steps are necessary to receive support from Adobe Advertising. 有关使用Adobe Experience Platform Privacy Service需要执行的这些任务和其他相关任务以及在何处查找所需项目的更多信息，请参阅[https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)。
+All of these steps are necessary to receive support from Adobe Advertising. 有关使用Adobe Experience Platform Privacy Service需要执行的这些任务和其他相关任务以及在何处查找所需项目的更多信息，请参阅[https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans)。
 
 ## Retrieving reports of consumers who submitted opt-out-of-sale requests
 
@@ -144,7 +144,7 @@ curl -X POST \
 }'
 ```
 
-其中，根据[Privacy Service API规范](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix)：
+其中，根据[Privacy Service API规范](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/appendix)：
 
 * `"namespace": "AdCloud"`表示`AdCloud` Cookie空间，对应的值是从`AdobePrivacy.js`检索到的客户Cookie ID
 * `"include": ["adCloud"]`指示该请求适用于产品Adobe Advertising
