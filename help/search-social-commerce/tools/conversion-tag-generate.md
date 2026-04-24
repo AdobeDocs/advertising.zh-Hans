@@ -3,9 +3,9 @@ title: 生成并实施Adobe Advertising转化跟踪标记
 description: 了解如何创建Adobe Advertising转化标记以跟踪您的转化事件。
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: 674c2a40ccb64b6dfcbda2c4030a8b985ce58a45
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->添加到此列表的量度未保存在任何位置，也未与[!UICONTROL Conversions]选项卡上的客户端[!UICONTROL Admin]列表集成。 但是，一旦Adobe Advertising实际收集某个量度的数据，量度就会自动添加到客户端的[!UICONTROL Conversions]列表中，这种情况会在转化标记在页面上实施并且最终用户完成打开该页面的事务时发生。
+>添加到此列表的量度未保存在任何位置，也未与[!UICONTROL Admin]选项卡上的客户端[!UICONTROL Conversions]列表集成。 但是，一旦Adobe Advertising实际收集某个量度的数据，量度就会自动添加到客户端的[!UICONTROL Conversions]列表中，这种情况会在转化标记在页面上实施并且最终用户完成打开该页面的事务时发生。
 
 **[!UICONTROL Include unique transaction IDs]：**（可选）在标记中包含交易ID属性(`ev_transid=<transid>`)。 默认情况下会选中该选项。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ## 使用Adobe Experience Platform标记和Adobe Advertising扩展实施转化跟踪标记
 
-您可以使用Adobe Experience Platform中的标记为“搜索”、“社交”和“Commerce”设置转化跟踪。 Adobe Experience Cloud客户可以使用标记作为随附的增值功能来获取这些标记。
+您可以使用Adobe Experience Platform中的标记为“搜索”、“社交”和“Commerce”设置转化跟踪。 Adobe CX Enterprise客户可以使用标记作为随附的增值功能来获取这些标记。
 
 从Experience Platform用户界面或Experience Platform数据收集用户界面为Search、Social和Commerce配置转化跟踪标记时，需要执行以下任务。 有关配置标记的完整信息和说明，请参阅Experience Platform标记指南，从“[标记概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/home)”和“[快速入门指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/get-started/quick-start)”开始。
 

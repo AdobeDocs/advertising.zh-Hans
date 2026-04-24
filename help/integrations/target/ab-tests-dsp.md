@@ -19,9 +19,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 1404
+source-wordcount: 1645
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Adobe Advertising和Adobe Target使得营销人员能够更轻松地通过付费
 
 在[!DNL Flashtalking]或Google Campaign Manager 360中，手动更新每个广告的点进URL，以包含捕获AMO ID变量所需的宏。 AMO ID变量用于将点击数据发送到Adobe Analytics并共享A/B测试的放置键。 有关说明，请参阅以下页面：
 
-* 将[宏附加到 [!DNL Analytics for Advertising] 添加标记 [!DNL Flashtalking] 。 &#x200B;](/help/integrations/analytics/macros-flashtalking.md)**注意：**&#x200B;如果您的组织与[!DNL Flashtalking]直接合作，并且您根据`s_kwcid`支持文档（位于`ef_id`https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros[!DNL Flashtalking]）使用数据传递宏跟踪[和](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)跟踪参数，则不需要执行此过程。
+* 将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Flashtalking] 添加标记[&#128279;](/help/integrations/analytics/macros-flashtalking.md)。 **注意：**&#x200B;如果您的组织与[!DNL Flashtalking]直接合作，并且您根据[!DNL Flashtalking]支持文档（位于[https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)）使用数据传递宏跟踪`s_kwcid`和`ef_id`跟踪参数，则不需要执行此过程。
 
 * [将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Google Campaign Manager 360] 添加标记](/help/integrations/analytics/macros-google-campaign-manager.md)
 
@@ -94,7 +94,7 @@ Adobe Advertising和Adobe Target使得营销人员能够更轻松地通过付费
 
    1. 验证区段数据是否可用：
 
-      1. [搜索](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html?lang=zh-Hans)键值对[的信号](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html?lang=zh-Hans)，以确定在哪个级别对区段用户进行分组。
+      1. [&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html?lang=zh-Hans)搜索[键值对](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html?lang=zh-Hans)的信号，以确定在哪个级别对区段用户进行分组。
 
          使用一个[支持的键](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=zh-Hans)，该键的值对应于您添加到Audience Manager展示事件像素中的宏。
 
@@ -132,7 +132,7 @@ Adobe Advertising和Adobe Target使得营销人员能够更轻松地通过付费
 
       >[!NOTE]
       >
-      >确保在[!DNL Analytics]中将[!DNL Target]启用为数据源，并选择正确的报表包。
+      >确保在[!DNL Target]中将[!DNL Analytics]启用为数据源，并选择正确的报表包。
 
    1. 将&#x200B;**[!UICONTROL Priority]**&#x200B;设置为`High`或`999`可防止在测试区段中的用户收到错误的现场体验时发生冲突。
 
@@ -162,11 +162,11 @@ Adobe Advertising和Adobe Target使得营销人员能够更轻松地通过付费
    >
    >例如，创意测试用例，请联系您的Adobe客户团队。
 
-## 步骤4：在[!DNL Analytics for Target]中设置您的[!DNL Analytics] Analysis Workspace
+## 步骤4：在[!DNL Analytics]中设置您的[!DNL Analytics for Target] Analysis Workspace
 
 <!-- [If separate page, add "Adobe" before first-use of product names.] -->
 
-[!DNL Analytics for Target] (A4T)是一种跨解决方案的集成，它允许广告商根据[!DNL Target]转化指标和受众区段创建[!DNL Analytics]活动，然后使用[!DNL Analytics]作为报表源度量结果。 该活动的所有报表和区段都基于[!DNL Analytics]数据收集。
+[!DNL Analytics for Target] (A4T)是一种跨解决方案的集成，它允许广告商根据[!DNL Analytics]转化指标和受众区段创建[!DNL Target]活动，然后使用[!DNL Analytics]作为报表源度量结果。 该活动的所有报表和区段都基于[!DNL Analytics]数据收集。
 
 有关[!DNL Analytics for Target]的详细信息（包括指向实施说明的链接），请参阅“[Adobe Analytics作为Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)的报表源”。
 
@@ -196,17 +196,17 @@ Adobe Advertising和Adobe Target使得营销人员能够更轻松地通过付费
 
 在Analysis Workspace中，如果您发现活动和体验数据很少或未填充数据，请执行以下操作：
 
-* 验证是否对[!UICONTROL Supplemental Data ID]和[!DNL Target]使用了相同的[!DNL Analytics] (SDID)。 您可以在促销活动将用户引导至的登陆页面上使用[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=zh-Hans)来验证SDID值。
+* 验证是否对[!DNL Target]和[!DNL Analytics]使用了相同的[!UICONTROL Supplemental Data ID] (SDID)。 您可以使用促销活动将用户引导至的登陆页面上的[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=zh-Hans)来验证SDID值。
 
-[Adobe Debugger中的补充数据ID (SDID)值](/help/integrations/assets/target-troubleshooting-sdid.png)
+  [Adobe Debugger中的补充数据ID (SDID)值](/help/integrations/assets/target-troubleshooting-sdid.png)
 
-* 在同一登录页上，验证a) Adobe Debugger中[!UICONTROL Hostname] > [!UICONTROL Solutions]下显示的[!UICONTROL Target]与b) [!UICONTROL Tracking Server]中显示的[!DNL Target]匹配（在[!UICONTROL Goals & Settings] > [!UICONTROL Reporting Settings]下）。
+* 在同一登录页上，验证a) Adobe Debugger中[!UICONTROL Solutions] > [!UICONTROL Target]下显示的[!UICONTROL Hostname]与b) [!DNL Target]中显示的[!UICONTROL Tracking Server]匹配（在[!UICONTROL Goals & Settings] > [!UICONTROL Reporting Settings]下）。
 
-  [!DNL Analytics For Target]要求在Analytics的[!DNL Analytics]到[!DNL Target]数据收集服务器的调用中发送[!DNL Modstats]跟踪服务器。<!-- just "to Analytics?"-->
+  [!DNL Analytics For Target]要求在Analytics的[!DNL Target]到[!DNL Modstats]数据收集服务器的调用中发送[!DNL Analytics]跟踪服务器。<!-- just "to Analytics?"-->
 
-[Adobe Debugger中的主机名值](/help/integrations/assets/target-troubleshooting-hostname.png)
+  [Adobe Debugger中的主机名值](/help/integrations/assets/target-troubleshooting-hostname.png)
 
-[Target中的跟踪服务器值](/help/integrations/assets/target-troubleshooting-tracking-server.png)
+  [Target中的跟踪服务器值](/help/integrations/assets/target-troubleshooting-tracking-server.png)
 
 ## 进一步阅读
 

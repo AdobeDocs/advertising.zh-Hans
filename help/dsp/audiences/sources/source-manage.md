@@ -14,9 +14,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 758
+source-wordcount: 761
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ You can create one source for each combination of universal ID partner and data 
 
 >[!NOTE]
 >
->为客户数据平台创建源后，必须完成其他步骤以导入受众。 查看[的 [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)工作流、<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->的[的 [!DNL Amperity]](source-amperity.md)工作流、[的 [!DNL Optimizely]](source-optimizely.md)工作流和[的 [!DNL Tealium]](source-tealium.md)工作流。
+>为客户数据平台创建源后，必须完成其他步骤以导入受众。 查看 [!DNL Adobe] [!DNL Real-time CDP][&#128279;](source-adobe-rtcdp.md)的工作流、<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->的 [!DNL Amperity][&#128279;](source-amperity.md)的[工作流、 [!DNL Optimizely]](source-optimizely.md)的[工作流和 [!DNL Tealium]](source-tealium.md)的工作流。
 
 ## 更改受众源的ID类型
 
@@ -81,7 +81,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. 将光标悬停在源行上并单击&#x200B;**[!UICONTROL Edit]**。
 
-1. 更改为源[选择的](#source-settings)ID。
+1. 更改为源[&#128279;](#source-settings)选择的ID。
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
@@ -119,7 +119,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 **[!UICONTROL Advertiser]：** （仅限广告商级别的可见性）区段可用的广告商。 从具有帐户访问权限的广告商列表中选择一个。
 
-**[!UICONTROL Enter IMS Org Id]：** （仅限[!DNL Real-Time CDP]个源） [!DNL Adobe Experience Platform]帐户的Adobe Experience Cloud组织ID。
+**[!UICONTROL Enter IMS Org Id]：** （仅限[!DNL Real-Time CDP]个源） [!DNL Adobe Experience Platform]帐户的Adobe CX Enterprise组织ID。
 
 **[!UICONTROL Convert PII to the following IDs]：**&#x200B;要将个人身份信息(PII)转换为的ID类型。 如果选择多种类型，则生成的区段将填充每个选定ID类型的值（例如每个电子邮件地址的[!DNL RampID]和[!DNL Unified ID2.0]）。 数据收费也相应地计算。
 

@@ -1,6 +1,6 @@
 ---
-title: 设置数据收集、数据传输和报告
-description: 了解如何设置数据收集、数据传输和报表。
+title: Set up data collection, data transfer, and reporting
+description: Learn how to set up data collection, data transfer, and reporting.
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: a955e2b0-ea1b-4b5c-937b-f8c66603cd36
 TQID: https://experienceleague.adobe.com/u6xL6FuW-TwqAkse3VTS3zcyt-10Cv-ADTZLJTiWWT8
@@ -16,20 +16,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 1587
+source-wordcount: 1792
 ht-degree: 0%
 
 ---
 
-# 设置数据收集、数据传输和报告
+# Set up data collection, data transfer, and reporting
 
 *Beta功能*
 
-在Customer Journey Analytics中查看Advertising Cloud数据需要执行以下任务。
+The following tasks are required to view Advertising Cloud data in Customer Journey Analytics.
 
-1. （贵组织的Web分析师；可选）[收集AMO ID和EF ID的历史数据](/help/integrations/analytics/rvars-to-evars.md){target="_blank"}。
+1. (Your organization&#39;s web analyst; optional) [Collect historical data for AMO IDs and EF IDs](/help/integrations/analytics/rvars-to-evars.md){target="_blank"}.
 
    此步骤仅适用于具有[!DNL Analytics for Advertising]的广告商。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
    * 对于您的资产，请从扩展目录中[安装“Adobe Experience Platform Web SDK”扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)。
 
-     此扩展通过Experience Platform Edge Network将数据从Web资产发送到Experience Cloud。
+     此扩展通过Experience Platform Edge Network将数据从Web资产发送到Adobe CX Enterprise。
 
      请勿使用Adobe Advertising扩展。
 
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 1. 配置视图以包含以下信息。
 
-   * 如果您拥有Adobe Analytics帐户，请在[!UICONTROL Time Zone]选项卡的[!DNL Analytics]部分中为您的[!UICONTROL Calendar]帐户使用[!UICONTROL Configure]。
+   * 如果您拥有Adobe Analytics帐户，请在[!UICONTROL Configure]选项卡的[!UICONTROL Calendar]部分中为您的[!DNL Analytics]帐户使用[!UICONTROL Time Zone]。
 
    * 在[!UICONTROL Components]选项卡上：
 
@@ -219,7 +219,7 @@ ht-degree: 0%
 >
 >* [概述](overview.md)
 >* [先决条件](prerequisites.md)
->* [使用的 [!DNL Customer Journey Analytics]](ids.md)Adobe Advertising ID
+>*  [!DNL Customer Journey Analytics][&#128279;](ids.md)使用的Adobe Advertising ID
 >* Customer Journey Analytics中的[Adobe Advertising指标和维度](advertising-data-in-cja.md)
 >* [收集AMO ID和EF ID的历史数据以在Adobe Customer Journey Analytics中使用](/help/integrations/analytics/rvars-to-evars.md)。
 >* [Customer Journey Analytics指南](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-landing)

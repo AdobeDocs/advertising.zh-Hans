@@ -3,9 +3,9 @@ title: 受众源设置
 description: 了解受众源的设置。
 feature: DSP Audiences
 exl-id: 274ea502-ad15-4d3d-922a-17caddb87f69
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser]：** （仅限广告商级别的可见性）区段可用的广告商。 从具有帐户访问权限的广告商列表中选择一个。
 
-**[!UICONTROL Enter IMS Org Id]：** （仅限[!DNL Real-Time CDP]个源） [!DNL Adobe Experience Platform]帐户的Adobe Experience Cloud组织ID。
+**[!UICONTROL Enter IMS Org Id]：** （仅限[!DNL Real-Time CDP]个源） [!DNL Adobe Experience Platform]帐户的Adobe CX Enterprise组织ID。
 
 **[!UICONTROL Convert PII to the following IDs]：**&#x200B;要将个人身份信息(PII)转换为的ID类型。 如果选择多种类型，则生成的区段将填充每个选定ID类型的值（例如每个电子邮件地址的[!DNL RampID]和[!DNL Unified ID2.0]）。 数据收费也相应地计算。
 

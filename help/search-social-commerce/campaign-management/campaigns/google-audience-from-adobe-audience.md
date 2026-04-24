@@ -1,5 +1,5 @@
 ---
-title: 创建来自 [!DNL Google Ads] 受众的 [!DNL Adobe] 客户匹配受众
+title: 创建来自 [!DNL Adobe] 受众的 [!DNL Google Ads] 客户匹配受众
 description: 了解如何从现有Adobe Analytics和Audience Manager受众创建 [!DNL Google Ads] 客户匹配受众。
 exl-id: 7de95ebb-24b0-459f-83c0-7b85b0c0576d
 feature: Search Campaign Management
@@ -12,9 +12,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: 586
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 *仅集成Adobe Advertising-Adobe Audience Manager或Adobe Advertising-Adobe Analytics的广告商*
 
-选择加入的广告商可以使用以下区段中的用户ID创建[!DNL Google Ads]个客户匹配受众：a) [!DNL Analytics]与Adobe Experience Cloud共享的区段，以及b)将Search、Social和Commerce作为目标的Audience Manager区段，包括发布到Adobe Experience Cloud的[!DNL Analytics]区段和使用Adobe Experience Cloud受众库创建的区段。 Search、Social和Commerce会自动将[!DNL Google]跟踪URL推送回每个[!DNL Analytics]或Audience Manager区段，以便[!DNL Google]可以跟踪受众。
+选择加入的广告商可以使用以下区段中的用户ID创建[!DNL Google Ads]个客户匹配受众：a) [!DNL Analytics]与Adobe CX Enterprise共享的区段，以及b)将Search、Social和Commerce作为目标的Audience Manager区段，包括发布到Adobe CX Enterprise的[!DNL Analytics]区段和使用Adobe CX Enterprise受众库创建的区段。 Search、Social和Commerce会自动将[!DNL Google]跟踪URL推送回每个[!DNL Analytics]或Audience Manager区段，以便[!DNL Google]可以跟踪受众。
 
 每个[!DNL Adobe]受众只能用于一个[!DNL Google]受众。
 
@@ -33,11 +33,11 @@ ht-degree: 0%
 
 >[!TIP]
 >
->对于实时分段，请使用Audience Manager创建的受众。 在[!DNL Analytics]中创建并同步到Adobe Experience Cloud的区段可能具有更少的人口，因为它们仅每天同步；在第二天之前，符合区段条件的冲浪者可能未包含在区段中。 来自[!DNL Analytics]的区段的数据源为“报告包 — ”。
+>对于实时分段，请使用Audience Manager创建的受众。 在[!DNL Analytics]中创建并同步到Adobe CX Enterprise的区段可能具有更少的人口，因为它们仅每天同步；在第二天之前，符合区段条件的冲浪者可能未包含在区段中。 来自[!DNL Analytics]的区段的数据源为“报告包 — ”。
 
 >[!NOTE]
 >
->Search、Social和Commerce不存储用于创建或编辑[!DNL Adobe]受众的[!DNL Google]区段中的任何客户数据。
+>Search、Social和Commerce不存储用于创建或编辑[!DNL Google]受众的[!DNL Adobe]区段中的任何客户数据。
 
 1. 根据需要完成先决条件：
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
       示例： `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
 
-   1. （如果尚未完成）授权用户必须将广告商帐户配置为与Adobe Experience Cloud[中的广告商组织帐户](/help/search-social-commerce/admin/sync-adobe-audiences.md)同步。
+   1. （如果尚未完成）授权用户必须将广告商帐户配置为与Adobe CX Enterprise[&#128279;](/help/search-social-commerce/admin/sync-adobe-audiences.md)中的广告商组织帐户同步。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子菜单中，单击&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
 
@@ -65,11 +65,11 @@ ht-degree: 0%
 
    1. 在&#x200B;**[!UICONTROL Data Source]**&#x200B;菜单中选择&#x200B;**[!UICONTROL Adobe Audience]**。
 
-   1. 选择[!UICONTROL Adobe Audience]受众所基于的[!DNL Google]。
+   1. 选择[!DNL Google]受众所基于的[!UICONTROL Adobe Audience]。
 
       >[!NOTE]
       >
-      >已用于其他[!DNL Adobe]受众的[!DNL Google]受众不可用。
+      >已用于其他[!DNL Google]受众的[!DNL Adobe]受众不可用。
 
       您可以选择搜索包含至少三个字符的特定文本字符串的受众。 对于任何匹配的受众，单击&#x200B;**[!UICONTROL Include]**&#x200B;以将其选定。
 

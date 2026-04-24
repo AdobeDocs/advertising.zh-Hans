@@ -1,6 +1,6 @@
 ---
-title: 实施 [!DNL Analytics for Advertising]的先决条件和关键信息
-description: 实施 [!DNL Analytics for Advertising]的先决条件和关键信息
+title: Prerequisites and key information for implementing [!DNL Analytics for Advertising]
+description: Prerequisites and key information for implementing [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
 TQID: https://experienceleague.adobe.com/ZUROuxkhySqUbUOInKkdhgvmqJth3P-9-fVDHojrn34
@@ -18,47 +18,47 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 795
+source-wordcount: 834
 ht-degree: 0%
 
 ---
 
-# 实施[!DNL Analytics for Advertising]的先决条件和关键信息
+# Prerequisites and key information for implementing [!DNL Analytics for Advertising]
 
-使用Advertising DSP和&#x200B;*的[!DNL Advertising Search, Social, & Commerce]*&#x200B;广告商
+*Advertisers with Advertising DSP and[!DNL Advertising Search, Social, & Commerce]*
 
-在将Adobe Advertising与Adobe Analytics集成之前，请查看以下信息。
+Review the following information before you integrate Adobe Advertising with Adobe Analytics.
 
-## 在[!DNL Analytics]中报告Adobe Advertising数据的要求
+## Requirements for reporting Adobe Advertising data in [!DNL Analytics]
 
-* 以下任一项：
-   * Adobe Experience Platform Web SDK： `alloy.js`
-   * Experience Cloud Identity服务： `visitorAPI.js`版本2.0或更高版本
-* Adobe Analytics的任何版本（包括[!DNL Prime]、[!DNL Premium]或[!DNL Ultimate]）
-* Adobe Analytics：`appMeasurement.js`版本2.1或更高版本
-* （Advertising DSP客户）在网页中部署了[Advertising DSP JavaScript代码片段](javascript.md)以跟踪浏览访问。
+* Either of the following:
+   * Adobe Experience Platform Web SDK: `alloy.js`
+   * Experience Cloud Identity Service: `visitorAPI.js` version 2.0 or higher
+* Any version of Adobe Analytics (including [!DNL Prime], [!DNL Premium], or [!DNL Ultimate])
+* Adobe Analytics: `appMeasurement.js` version 2.1 or higher
+* (Advertising DSP customers) An [Advertising DSP JavaScript snippet](javascript.md) deployed in your webpages to track view-through visits.
 
 >[!TIP]
 >
->要提高数据保真度，请使用每个库的最新版本。
+>To improve data fidelity, use the most recent version of each library.
 
-## 与Adobe Advertising共享Analytics区段的要求
+## Requirements for sharing Analytics segments with Adobe Advertising
 
-* Experience Cloud Identity服务： `visitorAPI.js`版本2.1或更高版本
-* Adobe Analytics：`appMeasurement.js`版本1.8或更高版本
+* Experience Cloud Identity Service: `visitorAPI.js` version 2.1 or higher
+* Adobe Analytics: `appMeasurement.js` version 1.8 or higher
 
-## 在Adobe Advertising中报告[!DNL Analytics]数据的要求
+## Requirements for reporting [!DNL Analytics] data in Adobe Advertising
 
-向Adobe Advertising实施团队提供以下信息：
+Provide the Adobe Advertising implementation team with the following:
 
-* 用于报告付费媒体活动和馈送网站活动以在Adobe Advertising中进行优化和报告的[!DNL Analytics]报告包ID
-* 公司的Experience Cloud组织ID （组织ID）。
+* The [!DNL Analytics] report suite ID to use for reporting on paid media activity and for feeding site activity for optimization and reporting in Adobe Advertising
+* The company&#39;s CX Enterprise Organization ID (Org ID).
 
-您可以在Adobe Experience Cloud Debugger[的](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=zh-Hans)摘要选项卡中找到这两个ID。
+You can find both of these IDs on the [Summary tab of the Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=zh-Hans).
 
-![Experience Cloud Debugger的“摘要”屏幕](/help/integrations/assets/a4adc-debugger-summary.png)
+![Experience Platform Debugger Summary screen](/help/integrations/assets/a4adc-debugger-summary.png)
 
 ## Adobe Advertising中的[!DNL Analytics]数据 {#lookback-a4adc}
 
@@ -106,7 +106,7 @@ Adobe Advertising中的![广告商级别的回溯时段设置](/help/integration
 
 * 该集成仅将[!DNL Analytics]个标准和自定义事件传递到Adobe Advertising，以优化后续付费媒体和广告工作的竞价。 它不会将[!DNL Analytics]区段、计算量度和[!DNL eVars]传递到Adobe Advertising以进行竞价优化。
 
-* Adobe Advertising根据Adobe Advertising中配置的[!DNL Analytics]点击和浏览回顾窗口[，在](#lookback-a4adc)内基于用户进入网站之前的上次点击或查看播发创建永久ID。 如果网站访客的配置文件中同时具有两种类型的网站条目交互，并且点击在回顾期间内，则访客的点进ID将覆盖网站报表的浏览通过ID。
+* Adobe Advertising根据Adobe Advertising中配置的[点击和浏览回顾窗口](#lookback-a4adc)，在[!DNL Analytics]内基于用户进入网站之前的上次点击或查看播发创建永久ID。 如果网站访客的配置文件中同时具有两种类型的网站条目交互，并且点击在回顾期间内，则访客的点进ID将覆盖网站报表的浏览通过ID。
 
 * Adobe Analytics中的[!DNL Analytics for Advertising]转化跟踪使用可配置的跟踪回顾窗口（默认为60天）。 Adobe Advertising报表反映在此跟踪回顾窗口末尾的网站转化和参与。
 
@@ -126,7 +126,7 @@ Adobe Advertising中的![广告商级别的回溯时段设置](/help/integration
 
 为了准确的数据集成，[!DNL Analytics for Advertising]活动用于交付内容或记录目标量度的所有Adobe Advertising调用必须具有共享相同补充ID的相应[!DNL Analytics]点击。
 
-在[!DNL Analytics]中进行故障诊断时，请务必确认[!DNL Analytics]点击存在补充ID。 在[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=zh-Hans)中，您可以在Adobe Advertising选项卡中看到此ID作为`sdid`参数。
+在[!DNL Analytics]中进行故障诊断时，请务必确认[!DNL Analytics]点击存在补充ID。 在[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=zh-Hans)中，您可以在Adobe Advertising选项卡中看到此ID作为`sdid`参数。
 
 >[!NOTE]
 >

@@ -16,9 +16,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 762
+source-wordcount: 776
 ht-degree: 0%
 
 ---
@@ -59,11 +59,11 @@ Search、Social和Commerce可在您的广告网络中提供全面的促销活动
 
 有关支持不同广告网络和广告类型的详细信息，请参阅[支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)。
 
-## 与Adobe Experience Cloud解决方案和服务集成
+## 与Adobe CX Enterprise解决方案和服务集成
 
 通过与Adobe Analytics和Adobe Audience Manager的本机集成，您可以连接数据和受众区段，以进行广告定位、[!DNL Google Ads]受众创建、优化和报表/分析。
 
-有关与这些产品以及其他Adobe产品集成的详细信息，请参阅[与Adobe Experience Cloud解决方案和服务的集成](/help/search-social-commerce/introduction/integrations.md)。
+有关与这些产品以及其他Adobe产品集成的详细信息，请参阅[与Adobe CX Enterprise解决方案和服务的集成](/help/search-social-commerce/introduction/integrations.md)。
 
 ## 转化跟踪
 
@@ -76,4 +76,4 @@ Adobe Advertising还可以选择提供专有、基于像素的转化跟踪服务
 >[!MORELIKETHIS]
 >
 >* [支持的清单](supported-inventory.md)
->* [与Adobe Experience Cloud解决方案和服务的集成](integrations.md)
+>* [与Adobe CX Enterprise解决方案和服务的集成](integrations.md)

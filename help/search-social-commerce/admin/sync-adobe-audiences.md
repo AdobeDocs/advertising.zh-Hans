@@ -12,9 +12,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 185
+source-wordcount: 191
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ ht-degree: 0%
 
 * Adobe Audience Manager区段
 
-* 发布到Adobe Experience Cloud的Adobe Analytics区段
+* 发布到Adobe CX Enterprise的Adobe Analytics区段
 
-* 使用Adobe Experience Cloud [!DNL Audience Library]创建的区段
+* 使用Adobe CX Enterprise [!DNL Audience Library]创建的区段
 
 广告商或代理机构必须实施[Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)并提供其组织ID（以前称为[!DNL IMS Org ID]），才能符合条件。
 
@@ -39,11 +39,11 @@ ht-degree: 0%
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Audience Manager Setup]**。
 
-1. 输入广告商的Adobe Experience Cloud帐户的唯一组织ID，然后单击&#x200B;**[!UICONTROL Submit]**。
+1. 输入广告商的Adobe CX Enterprise帐户的唯一组织ID，然后单击&#x200B;**[!UICONTROL Submit]**。
 
-   如果您不知道广告商的组织ID，请在&#x200B;**[!UICONTROL IMS Org ID]** > [!UICONTROL Admin]处广告商设置的[!UICONTROL Manage Client]字段中查找它。
+   如果您不知道广告商的组织ID，请在[!UICONTROL Admin] > [!UICONTROL Manage Client]处广告商设置的&#x200B;**[!UICONTROL IMS Org ID]**&#x200B;字段中查找它。
 
 >[!MORELIKETHIS]
 >
 >* [关于受众](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
->* [与Adobe Experience Cloud解决方案和服务的集成](/help/search-social-commerce/introduction/integrations.md)
+>* [与Adobe CX Enterprise解决方案和服务的集成](/help/search-social-commerce/introduction/integrations.md)

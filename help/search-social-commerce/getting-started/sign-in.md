@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 363
+source-wordcount: 389
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Search、Social和Commerce正在过渡到Adobe Identity Management服务(IMS)以进行登录身份验证。 IMS使用联合ID为支持IMS的所有[!DNL Adobe]产品（包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics）提供单点登录(SSO)访问。 更改后：
 
-* 您可以使用一个[!DNL Adobe ID]从Experience Cloud登录页面或旧版Search、Social和Commerce登录页面跨[!DNL Adobe]产品登录。 您的[!DNL Adobe ID]提供用户配置文件管理，并可从顶部菜单切换到其他[!DNL Adobe]产品。 在将来的版本中，您将能够从顶部菜单中更改Search、Social和Commerce帐户以及IMS组织帐户。
+* 您可以使用一个[!DNL Adobe ID]从CX Enterprise登录页面或旧版Search、Social和Commerce登录页面跨[!DNL Adobe]产品登录。 您的[!DNL Adobe ID]提供用户配置文件管理，并可从顶部菜单切换到其他[!DNL Adobe]产品。 在将来的版本中，您将能够从顶部菜单中更改Search、Social和Commerce帐户以及IMS组织帐户。
 
 * 支持企业身份验证。
 
@@ -29,7 +29,7 @@ Search、Social和Commerce正在过渡到Adobe Identity Management服务(IMS)以
 
 您当前的Search、Social和Commerce凭据将在短时间内保持活动状态，以便您能够为更改做好准备。
 
-有关Experience Cloud界面（包括管理用户配置文件）的更多信息，请参阅“[Experience Cloud界面和管理](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/experience-cloud)”。
+有关CX Enterprise界面（包括管理用户配置文件）的更多信息，请参阅“[CX Enterprise界面和管理](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/experience-cloud)”。
 
 ## 从旧版“搜索、社交和Commerce”登录页面登录
 
@@ -53,7 +53,7 @@ Search、Social和Commerce正在过渡到Adobe Identity Management服务(IMS)以
 
 1. 如果您有权访问多个IMS组织，请在页面的右上角选择正确的组织。
 
-## 使用[!DNL Adobe ID]从Adobe Experience Cloud登录
+## 使用[!DNL Adobe ID]从Adobe CX Enterprise登录
 
 <!-- Later, give them the new direct URL(s) to our UI so they don't have to select the product. -->
 

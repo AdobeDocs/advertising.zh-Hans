@@ -13,9 +13,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 830
+source-wordcount: 832
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 
    1. （使用Adobe Analytics和/或Adobe Audience Manager的广告商）设置各种帐户之间的集成，以便Adobe Advertising可以与这些帐户交换数据。
 
-      请参阅“[与Experience Cloud](/help/integrations/home.md)的集成”指南。
+      请参阅“[与CX Enterprise](/help/integrations/home.md)的集成”指南。
 
    1. （具有[!DNL Google Analytics]的广告商）同步[!DNL Google Analytics]帐户、属性和视图组合的转化量度，以进行优化和报告。
 

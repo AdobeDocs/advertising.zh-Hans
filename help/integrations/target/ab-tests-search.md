@@ -1,6 +1,6 @@
 ---
-title: 在Adobe Target中为Adobe Advertising搜索、社交和Commerce广告配置A/B测试
-description: 了解如何在 [!DNL Target] 中为搜索、社交和Commerce中的 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 广告设置A/B测试。
+title: Configure A/B tests for Adobe Advertising Search, Social, & Commerce ads in Adobe Target
+description: Learn how to set up an A/B test in [!DNL Target] for your [!DNL Google Ads] and [!DNL Microsoft Advertising] ads in Search, Social, & Commerce.
 exl-id: 564c7d61-beec-40cf-ac68-83d1e87e3008
 TQID: https://experienceleague.adobe.com/eu1dRdsQlJX4IlHLTUDyJ69r0txFvFUdzUiXpSAlpU8
 product_v2:
@@ -18,37 +18,37 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 867
+source-wordcount: 958
 ht-degree: 0%
 
 ---
 
-# 在Adobe Target中为Advertising搜索、社交和Commerce广告配置A/B测试
+# Configure A/B tests in Adobe Target for Advertising Search, Social, &amp; Commerce ads
 
-*仅使用Advertising Search、Social和Commerce的广告商*
+*Advertisers with Advertising Search, Social, &amp; Commerce only*
 
-仅&#x200B;*[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户*
+*[!DNL Google Ads]and [!DNL Microsoft Advertising] accounts only*
 
-通过Adobe Advertising和Adobe Target，可以轻松为数字广告流量[!DNL Google Ads]和[!DNL Microsoft Advertising]设置登陆页面体验A/B测试，以便：
+Adobe Advertising and Adobe Target make it easy to set up landing page experience A/B tests for digital advertising traffic [!DNL Google Ads] and [!DNL Microsoft Advertising] to:
 
-* 提高转化率(CVR)和获取效率措施（例如CPA、CPL和CAC）。
+* Improve conversion rates (CVR) and acquisition efficiency measures (such as CPA, CPL, and CAC).
 
-* 提供与广告相关的更个性化的登陆页面体验（例如，将图像/视频创意、文案、关键字或其他广告信号匹配到登陆页面）。
+* Deliver a more personalized landing page experience that&#39;s relevant to the ad (for example, matching the image/video creative, copy, keyword, or other advertising signal to the landing page).
 
-您还可以合并已集成到Adobe Analytics中的Advertising[[!DNL Analytics] 的本机](/help/integrations/analytics/overview.md)和[[!DNL Analytics]  [!DNL Target]的](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)集成报表维度，以便通过[!DNL Analytics]指标和成功事件测量和可视化您的测试数据。
+You can also combine the native [[!DNL Analytics] for Advertising](/help/integrations/analytics/overview.md) and [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans) integration reporting dimensions that are integrated into Adobe Analytics to measure and visualize your test data with [!DNL Analytics] metrics and success events.
 
-请参阅以下部分以了解先决条件、在[!DNL Target]中为来自Search、Social和Commerce中的广告的点进流量设置A/B测试的说明，以及有关如何在[!DNL Analytics]中测量和可视化测试的提示。
+See the following sections for the prerequisites, instructions to set up A/B tests in [!DNL Target] for click-through traffic from ads in Search, Social, &amp; Commerce, and tips on how to measure and visualize your tests in [!DNL Analytics].
 
 ## 先决条件
 
-### 所需产品
+### Required products
 
-* 搜索、社交和Commerce
+* Search, Social, &amp; Commerce
 * [!DNL Target]
 
-### 推荐的产品和集成
+### Recommended products and integrations
 
 * [!DNL Analytics]
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >确保在[!DNL Analytics]中将[!DNL Target]启用为数据源，并选择正确的报表包。
+      >确保在[!DNL Target]中将[!DNL Analytics]启用为数据源，并选择正确的报表包。
 
    1. 将&#x200B;**[!UICONTROL Priority]**&#x200B;设置为`High`或`999`可防止在测试区段中的用户收到错误的现场体验时发生冲突。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
       您可以通过[将相关ID列添加到实体视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)来查找该ID。
 
-      ![[!UICONTROL Network Account ID]视图[!UICONTROL Accounts]的](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID]视图[!UICONTROL Accounts]列中的")列
+      [!UICONTROL Accounts]视图")的[!UICONTROL Accounts]视图&rbrack;(/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID]列中的!&lbrack;[!UICONTROL Network Account ID]列
 
       如果您需要帮助，请与您的Adobe客户团队合作。
 
@@ -103,9 +103,9 @@ ht-degree: 0%
    >
    >例如，创意测试用例，请联系您的Adobe客户团队。
 
-## 步骤2：在[!DNL Analytics for Target]中设置您的[!DNL Analytics] Analysis Workspace
+## 步骤2：在[!DNL Analytics]中设置您的[!DNL Analytics for Target] Analysis Workspace
 
-[!DNL Analytics for Target] (A4T)是一种跨解决方案的集成，它允许广告商根据[!DNL Target]转化指标和受众区段创建[!DNL Analytics]活动，然后使用[!DNL Analytics]作为报表源度量结果。 该活动的所有报表和区段都基于[!DNL Analytics]数据收集。
+[!DNL Analytics for Target] (A4T)是一种跨解决方案的集成，它允许广告商根据[!DNL Analytics]转化指标和受众区段创建[!DNL Target]活动，然后使用[!DNL Analytics]作为报表源度量结果。 该活动的所有报表和区段都基于[!DNL Analytics]数据收集。
 
 有关[!DNL Analytics for Target]的详细信息（包括指向实施说明的链接），请参阅“[Adobe Analytics作为Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)的报表源”。
 
@@ -135,17 +135,17 @@ ht-degree: 0%
 
 在Analysis Workspace中，如果您发现活动和体验数据很少或未填充数据，请执行以下操作：
 
-* 验证是否对[!UICONTROL Supplemental Data ID]和[!DNL Target]使用了相同的[!DNL Analytics] (SDID)。 您可以在促销活动将用户引导至的登陆页面上使用[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=zh-Hans)来验证SDID值。
+* 验证是否对[!DNL Target]和[!DNL Analytics]使用了相同的[!UICONTROL Supplemental Data ID] (SDID)。 您可以使用促销活动将用户引导至的登陆页面上的[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=zh-Hans)来验证SDID值。
 
-[Adobe Debugger中的补充数据ID (SDID)值](/help/integrations/assets/target-troubleshooting-sdid.png)
+  [Adobe Debugger中的补充数据ID (SDID)值](/help/integrations/assets/target-troubleshooting-sdid.png)
 
-* 在同一登录页上，验证a) Adobe Debugger中[!UICONTROL Hostname] > [!UICONTROL Solutions]下显示的[!UICONTROL Target]与b) [!UICONTROL Tracking Server]中显示的[!DNL Target]匹配（在[!UICONTROL Goals & Settings] > [!UICONTROL Reporting Settings]下）。
+* 在同一登录页上，验证a) Adobe Debugger中[!UICONTROL Solutions] > [!UICONTROL Target]下显示的[!UICONTROL Hostname]与b) [!DNL Target]中显示的[!UICONTROL Tracking Server]匹配（在[!UICONTROL Goals & Settings] > [!UICONTROL Reporting Settings]下）。
 
-  [!DNL Analytics For Target]要求在Analytics的[!DNL Analytics]到[!DNL Target]数据收集服务器的调用中发送[!DNL Modstats]跟踪服务器。<!-- just "to Analytics?"-->
+  [!DNL Analytics For Target]要求在Analytics的[!DNL Target]到[!DNL Modstats]数据收集服务器的调用中发送[!DNL Analytics]跟踪服务器。<!-- just "to Analytics?"-->
 
-[Adobe Debugger中的主机名值](/help/integrations/assets/target-troubleshooting-hostname.png)
+  [Adobe Debugger中的主机名值](/help/integrations/assets/target-troubleshooting-hostname.png)
 
-[Target中的跟踪服务器值](/help/integrations/assets/target-troubleshooting-tracking-server.png)
+  [Target中的跟踪服务器值](/help/integrations/assets/target-troubleshooting-tracking-server.png)
 
 ## 进一步阅读
 

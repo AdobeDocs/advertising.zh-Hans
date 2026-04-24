@@ -1,6 +1,6 @@
 ---
 title: ' [!DNL Marketing Channels]的基础知识'
-description: 了解 [!DNL Analytics Marketing Channels] 用户应了解的 [!DNL Analytics for Advertising] 的关键信息。
+description: 了解 [!DNL Analytics for Advertising] 用户应了解的 [!DNL Analytics Marketing Channels] 的关键信息。
 feature: Integration with Adobe Analytics
 exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
 TQID: https://experienceleague.adobe.com/NJ4LPss-g-J06PuvdCaUktHPyP7MARdJK84-D8gnwAk
@@ -14,16 +14,16 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 542
+source-wordcount: 561
 ht-degree: 0%
 
 ---
 
 # [!DNL Analytics Marketing Channels]的基础知识
 
-本页介绍[!DNL Analytics Marketing Channels]用户需要了解的有关[!DNL Analytics for Advertising]的关键信息。
+本页介绍[!DNL Analytics for Advertising]用户需要了解的有关[!DNL Analytics Marketing Channels]的关键信息。
 
 有关[!DNL Marketing Channels]的完整文档，请参阅“[开始使用 [!DNL Marketing Channels]](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/marketing-channels/c-getting-started-mchannel)”。
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 [!DNL Marketing Channels]是Adobe Analytics的关键功能。 [!DNL Marketing Channels]报表显示客户如何通过报表窗口到达您的网站，以及每个渠道如何影响收入或网站行为。
 
-请考虑以下跨访问历程示例。 对您网站的每次访问都由访客从中输入的营销渠道指示。 首次访问（也称为首次接触渠道）是电子邮件。 “访问时显示2”是参与渠道，“免费搜索”被视为最后接触渠道。 如果您在[!UICONTROL Last Touch Attribution]中使用[!UICONTROL Attribution IQ]，则免费搜索将收到该$250转化事件的完整点数。 使用Experience Cloud ID服务，您可以将这些单独的访问捆绑在一起，以便按单个访客展示一个历程。
+请考虑以下跨访问历程示例。 对您网站的每次访问都由访客从中输入的营销渠道指示。 首次访问（也称为首次接触渠道）是电子邮件。 “访问时显示2”是参与渠道，“免费搜索”被视为最后接触渠道。 如果您在[!UICONTROL Attribution IQ]中使用[!UICONTROL Last Touch Attribution]，则免费搜索将收到该$250转化事件的完整点数。 使用Adobe CX Enterprise ID服务，您可以将这些单独的访问捆绑在一起，以便按单个访客展示一个历程。
 
 ![营销渠道中的跨访问转化历程示例](/help/integrations/assets/a4adc-mc-sample-journey.png)
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 Adobe建议与您的[!DNL Analytics]团队合作，构建一整套可跟踪所有相关渠道的[!DNL Marketing Channels]处理规则。 这样做可让您创建强大的归因报表。
 
-要了解Adobe Advertising如何贡献创建自定义营销渠道所需的信号，请参阅“使用Adobe Advertising ID创建[处理规则 [!DNL Marketing Channels] ”。](mc-ids.md)
+要了解Adobe Advertising如何贡献创建自定义营销渠道所需的信号，请参阅“使用Adobe Advertising ID创建 [!DNL Marketing Channels] 处理规则[&#128279;](mc-ids.md)”。
 
 >[!MORELIKETHIS]
 >

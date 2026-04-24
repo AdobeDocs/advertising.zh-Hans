@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 45b15880c20d516e4bab1ec664a45ebdf8ffbdcc
 workflow-type: tm+mt
-source-wordcount: 307
+source-wordcount: 327
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 所有新的实施都使用JavaScript版本3。
->* 带ECID的JavaScript标记使用[Adobe Experience Cloud ID (ECID)服务](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hans)以及旧版ef_id和gsurferid来度量转化。 此最新标记创建[第一方Experience Cloud s_ecid Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=zh-Hans)，并提供与其他Experience Cloud产品之间的更紧密集成。
+>* 带ECID的JavaScript标记使用[Adobe Experience Cloud ID (ECID)服务](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hans)以及旧版ef_id和gsurferid来度量转化。 此最新标记创建[第一方CX Enterprise s_ecid Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=zh-Hans)，并提供与其他CX Enterprise产品之间的更紧密集成。
 >* 仅当已在广告商的网页上实施标记时，才使用JavaScript版本2标记。
 >* 最佳实践是使用JavaScript标记，而不是图像标记，除非网站有禁止使用这些标记的策略。
->* 广告商需要使用JavaScript标记，它们需要定位在Adobe Experience Cloud中创建、在Adobe Audience Manager中创建或从Audience Manager或Adobe Analytics发布到Adobe Experience Cloud的受众。
+>* 广告商需要使用JavaScript标记，它们需要定位在Adobe CX Enterprise中创建、在Adobe Audience Manager中创建或从Audience Manager或Adobe Analytics发布到Adobe CX Enterprise的受众。
 
 >[!MORELIKETHIS]
 >

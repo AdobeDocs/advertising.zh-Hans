@@ -1,55 +1,55 @@
 ---
-source-git-commit: 3148634061d8d705608f9686da936d0b5b79e4c4
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 6%
+source-wordcount: '440'
+ht-degree: 0%
 
 ---
-# 投稿文章
+# Contribute article
 
-我们欢迎社区成员以及文档团队以外的Adobe员工踊跃参与。
+We welcome contributions from our community as well as from Adobe employees from outside the documentation teams.
 
-## Adobe Open Source行为准则
+## Adobe Open Source Code of Conduct
 
-本项目已采用 [Adobe 开源行为准则](code-of-conduct.md)或 [.NET Foundation 行为准则](https://dotnetfoundation.org/code-of-conduct)。有关更多信息，请参阅[贡献](contributing.md)文章。
+This project has adopted the [Adobe Open Source Code of Conduct](code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](contributing.md) article.
 
-## 关于您对Adobe内容的投稿
+## About your contributions to Adobe content
 
-请参阅[Adobe文档参与者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hans)。
+See the [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hans).
 
-您的参与方式取决于您的身份以及您希望参与的更改类型：
+How you contribute depends on who you are and the sort of changes you&#39;d like to contribute:
 
-### 次要更改
+### Minor changes
 
-如果您出于善意而想要对文章进行次要更新，请访问文章，并单击文章中的&#x200B;**编辑**&#x200B;链接以转到文章所对应的GitHub源。 然后，只需使用GitHub UI即可进行更新。 有关详细信息，请参阅常规的[Adobe Docs参与者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hans)。
+If you are contributing minor updates out of the goodness of your heart, visit the article and click the **Edit** link in the article that goes to the GitHub source for the article. Then, just use the GitHub UI to make your updates. See the general [Adobe Docs contributor guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hans) for more information.
 
-您为此存储库中的文档和代码示例提交的小幅度更正或说明受Adobe使用条款的约束。
+Minor corrections or clarifications you submit for documentation and code examples in this repo are covered by the Adobe terms of use.
 
-### 社区成员的重大更改或新文章
+### Major changes or new articles from community members
 
-如果您是Adobe社区的一员，并且希望创建新文章或提交重大更改，请使用Git存储库中的“问题”选项卡来提交问题，从而开始与文档团队的对话。 在就计划达成共识后，您需要与员工合作，通过公共和专用存储库中的工作组合来帮助引入新内容。
+If you&#39;re part of the Adobe community and you want to create a new article or submit major changes, please use the Issues tab in the Git repository to submit an issue to start a conversation with the documentation team. Once you&#39;ve agreed to a plan, you&#39;ll need to work with an employee to help bring that new content in through a combination of work in the public and private repositories.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
 -->
 
-### Adobe员工做出的主要更改
+### Major changes from Adobe Employees
 
-如果您是来自Adobe Experience Cloud解决方案产品团队的技术文档撰稿人、项目经理或开发人员，并且您的工作就是撰写或创作技术文章，那么您应当使用位于`https://git.corp.adobe.com/AdobeDocs`的专用存储库。
+If you are a technical writer, program manager, or developer from the product team for an Adobe CX Enterprise solution and it&#39;s your job to contribute to or author technical articles, you should use the private repository at `https://github.com/Adobe-Enterprise-Docs`.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
-## 工具和设置
+## Tools and setup
 
-社区参与者可以使用GitHub UI进行基本编辑或创建存储库分支以进行重大更改。
+Community contributors can use the GitHub UI for basic editing or fork the repo to make major contributions.
 
-有关详细信息，请参阅[Adobe Docs参与者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hans)。
+See the [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hans) for details.
 
 ## 如何使用Markdown格式化主题
 
 此存储库中的所有文章都使用GitHub风格的标记。 如果您不熟悉Markdown，请参阅：
 
-* [标记基础知识](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [Markdown基础](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
 * [可打印的Markdown速查表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## 标签

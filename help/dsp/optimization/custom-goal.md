@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 1189
+source-wordcount: 1207
 ht-degree: 0%
 
 ---
 
 # 自定义目标
 
-自定义目标定义广告商实现其业务目标所需的成功事件。 每个使用优化目标“[!UICONTROL Highest Return on Ad Spend (ROAS)"]”或“[!UICONTROL Lowest Cost per Acquisition (CPA)]”的包都必须包含一个自定义目标，以帮助实现整体优化目标。 您可以在&#x200B;*中创建自定义目标作为*&#x200B;目标[!DNL Advertising Search, Social, & Commerce]。 DSP每个目标的名称必须以“ADSP_”为前缀。
+自定义目标定义广告商实现其业务目标所需的成功事件。 每个使用优化目标“[!UICONTROL Highest Return on Ad Spend (ROAS)"]”或“[!UICONTROL Lowest Cost per Acquisition (CPA)]”的包都必须包含一个自定义目标，以帮助实现整体优化目标。 您可以在[!DNL Advertising Search, Social, & Commerce]中创建自定义目标作为&#x200B;*目标*。 DSP每个目标的名称必须以“ADSP_”为前缀。
 
 <!--
  update image or omit it
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## 创建自定义目标 {#custom-goal-create}
 
-要创建自定义目标，必须从[!DNL Search, Social, & Commerce]客户端设置中将DSP帐户链接到具有相同Adobe Experience Cloud组织ID的[!DNL Search, Social, & Commerce]帐户。 如果您的DSP帐户未关联到[!DNL Search, Social, & Commerce]帐户，请联系您的Adobe帐户团队。
+要创建自定义目标，必须从[!DNL Search, Social, & Commerce]客户端设置中将DSP帐户链接到具有相同Adobe CX Enterprise组织ID的[!DNL Search, Social, & Commerce]帐户。 如果您的DSP帐户未关联到[!DNL Search, Social, & Commerce]帐户，请联系您的Adobe帐户团队。
 
 1. [登录到Advertising Search、Social和Commerce](/help/search-social-commerce/getting-started/sign-in.md){target="_blank"}。
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 
   在向自定义目标添加支持量度时，请根据支持量度对主要成功事件的相对重要性为其加权，并牢记数据点的数量。 这允许由[!DNL Adobe AI]支持的算法平衡多个量度并根据目标进行优化。
 
-  以下示例目标包括三个指标，每个指标具有不同的非移动权重：应用程序提交= 1，应用程序开始= 0.1，广告商登陆页面= 0.01。这意味着，每个应用程序提交转化对贵企业的价值与平均10次应用程序开始转化和100次广告商登陆页面转化相同。
+  以下示例目标包括三个指标，每个指标具有不同的非移动权重：应用程序提交= 1，应用程序开始= 0.1，广告商登陆页面= 0.01。 这意味着，每个应用程序提交转化对贵企业的价值与平均10次应用程序开始转化和100次广告商登陆页面转化相同。
 
 <!--
  update image or delete it and adjust the wording above
@@ -148,6 +148,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [优化目标及使用方法](optimization-goals.md)
->* [包设置](/help/dsp/campaign-management/packages/package-settings.md)
-> * [DSP如何优化您的营销活动](optimization-how-dsp-optimizes-campaigns.md)
+>* [Optimization goals and how to use them](optimization-goals.md)
+>* [Package settings](/help/dsp/campaign-management/packages/package-settings.md)
+> * [How DSP optimizes your campaigns](optimization-how-dsp-optimizes-campaigns.md)
