@@ -2,12 +2,11 @@
 title: 使用创作AI创建可重用受众
 description: 了解如何使用人工智能辅助的受众代理在Adobe Advertising DSP中创建可重用受众。 以自然语言提示描述您的目标受众；代理会建议第三方区段，并构建受众表达式以用作目标或排除项。
 feature: DSP Audiences
-hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: e8bfea965be346d44d8da96cd026704e1723a1bf
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -18,9 +17,9 @@ ht-degree: 0%
 
 *仅支持英语*
 
-<!-- Redo the legacy file to include the new info. It's probably cleanest to keep it as two separate procedures (gen AI and manually) rather than one big, long procedure. -->
+<!-- Redo the legacy file to include the new info. so that it includes two separate procedures (gen AI and manually). -->
 
-使用人工智能辅助的受众代理，根据您提出的要求，使用您可用的所有第三方区段生成新的可重用受众。 您可以将受众用作多个投放位置的定位或排除项。
+使用人工智能辅助的受众代理，根据您提出的要求，使用您可用的所有第一方和第三方区段生成新的可重用受众。 您可以将受众用作多个投放位置的定位或排除项。
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -29,6 +28,18 @@ ht-degree: 0%
 >此功能处于测试版模式，可能会发生更改。 在创建受众并将其用于投放位置之前，请确保生成的受众表达式表示所需受众。
 
 ## 使用创作AI创建可重用受众
+
+<!--
+*Beta feature*
+
+*Support for English only*
+
+>[!NOTE]
+>
+>This feature is in beta mode and is subject to change. Make sure that the generated audience expression represents the audience you want before creating the audience and using it for your placements.
+-->
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**。
 
@@ -70,6 +81,8 @@ ht-degree: 0%
 
 ## 编写提示的基础知识 {#writing-prompts}
 
+<!-- Change heading level for this whole section to fit under AI procedure -->
+
 ### 提示应包含哪些内容？
 
 * 使用清晰的描述性语言描述目标受众。
@@ -95,17 +108,11 @@ ht-degree: 0%
 有关优化受众提示的进一步方法，请参阅[创建受众摘要](#audience-brief-best-practices)的最佳实践。
 
 <!--
- I think these are happening later:
+Consider starting by asking for what you should include.
 
-DSP uses "smart" defaults based on the user's previous audiences (all user-created audiences or only ones created via AI prompting?)
+you can give thumbs up or down to [what exactly?].
 
-you can use a predefined prompt (fill in the blanks, and some fields might have selectors where you can choose values)
-
-Over time, DSP XXXX defaults [clarify this]
-
- onsider starting by asking for a general template, which contains placeholder values that you can replace with your desired values. The default template is something like "Create a xxx with NNN xxx."
-
-you can give thumbs up or down to [what exactly?]. Verify what info is carried over from session to session and what starts from scratch.
+Verify what info is carried over from session to session and what starts from scratch.
 
 -->
 
@@ -121,7 +128,7 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
 #### Audience Agent询问您问题
 
-`If you are okay with the proposed expression, I can start searching third party segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
+`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
 
 您的肯定回复：“继续”、“确定”、“确定”、“是”或其他类似词语
 
