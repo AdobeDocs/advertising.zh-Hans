@@ -32,7 +32,7 @@ From the list of visible metrics, each user with access to the advertiser's data
 
 * [转化和网站参与度量度已从Adobe Analytics同步](/help/integrations/analytics/analytics-data-in-advertising.md)。
 
-* 从Adobe Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)同步的[网站事件。
+* 从Adobe Customer Journey Analytics[&#128279;](/help/integrations/customer-journey-analytics/overview.md)同步的网站事件。
 
 * 来自自定义馈送的转化。
 
