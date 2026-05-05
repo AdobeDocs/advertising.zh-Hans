@@ -12,20 +12,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 0f74bf7a3cb3a5e56df31ea36ef181c08a0f3aca
 workflow-type: tm+mt
-source-wordcount: 279
+source-wordcount: 280
 ht-degree: 0%
 
 ---
 
 # 关于管理广告商的转化量度
 
-Adobe Advertising为广告商跟踪的[转化](/help/search-social-commerce/glossary.md#c-d)量度，包括从Adobe Analytics[同步的](/help/integrations/analytics/analytics-data-in-advertising.md)转化和网站参与量度，将在Search、Social和Commerce以及Advertising DSP中使用。
+Adobe Advertising为广告商跟踪的[转化](/help/search-social-commerce/glossary.md#c-d)量度，包括从Adobe Analytics[&#128279;](/help/integrations/analytics/analytics-data-in-advertising.md)同步的转化和网站参与量度，将在Search、Social和Commerce以及Advertising DSP中使用。
 
 * 在“搜索”、“社交”和“Commerce”中，您可以使用转化指标创建用于优化项目组合的目标。 此外，转化量度的数据可以在营销活动和项目组合管理视图以及报表的列中显示。
 
-* 在Advertising DSP中，您可以使用转化指标创建[自定义目标](/help/dsp/optimization/custom-goal.md)，这些目标用于优化包。
+* 在Advertising DSP中，您可以使用转化指标来[创建用于优化包的自定义目标](/help/dsp/admin/custom-objectives-manage.md)。
 
 默认情况下，广告商的转化量度（由[!DNL Google Ads]、[!DNL Google Analytics]和[!DNL Microsoft Advertising]通用事件跟踪标记跟踪的转化除外）均不可用于营销活动和项目组合管理视图及报告。 它们仅在您明确指定它们并且包含显示名称（即显示的名称）时才可用。 使转化量度可用时，您可以完全按照检索数据中的拼写方式使用量度名称，或更改列标题中显示的名称以提高可读性。
 

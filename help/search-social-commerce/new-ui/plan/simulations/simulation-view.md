@@ -2,7 +2,7 @@
 title: 查看模拟详细信息
 description: 了解如何在屏幕上查看模拟详细信息。
 feature: Search Optimization, Search Portfolios, Search Simulations
-hide: 'yes'
+hide: true
 exl-id: 1b289d20-561d-4cf9-844e-9cedff7f6296
 TQID: https://experienceleague.adobe.com/kJNXIMqCSSnXVGDPgGgmB5N10n1an59qONEVev7wqLY
 product_v2:
@@ -15,9 +15,9 @@ topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: '2026-04-14T00:03:09.422Z'
-source-git-commit: 2ec4c13497ef6b5373a36b1f75111322a3ef26d0
+source-git-commit: 604fb0c3541ba9c3b1fdb1c3cae5464bfcf67d4d
 workflow-type: tm+mt
-source-wordcount: 133
+source-wordcount: 136
 ht-degree: 0%
 
 ---

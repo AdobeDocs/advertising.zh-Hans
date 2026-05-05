@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报展示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1063'
 ht-degree: 3%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 3%
    + [Advertising DSP如何优化您的活动](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [优化目标以及如何使用它们](/help/dsp/optimization/optimization-goals.md)
    + [投放位置级别的预竞价过滤器及其使用方式](/help/dsp/optimization/optimization-pre-bid-filters.md)
-   + [自定义目标](/help/dsp/optimization/custom-goal.md)
+   + [自定义目标获得最佳体验](/help/dsp/optimization/custom-goal.md)
    + [设置效果活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)
    + [性能疑难解答](/help/dsp/optimization/troubleshooting-performance.md)
 + 受众 {#audiences}
@@ -216,24 +216,26 @@ ht-degree: 3%
    + [复制连接的电视接入计划](/help/dsp/planner/planner-duplicate.md)
    + [编辑连接的电视接入计划](/help/dsp/planner/planner-edit.md)
    + [连接电视接入计划的设置](/help/dsp/planner/planner-settings.md)
-   + [Export a forecast for a connected TV reach plan](/help/dsp/planner/planner-export.md)
-   + [Regenerate the forecast for a connected TV reach plan](/help/dsp/planner/planner-forecast.md)
-   + [Archive a connected TV reach plan](/help/dsp/planner/planner-archive.md)
-+ Resources {#resources}
-   + [Manage URL lists](/help/dsp/resources/lists-url-manage.md)
-+ 管理 {#admin}
-   + [Edit your user profile](/help/dsp/admin/user-own-profile-edit.md)
-   + Users {#users}
-      + [Invite a new user for your organization account](/help/dsp/admin/user-invite.md)
-      + [Resend a pending user invitation](/help/dsp/admin/user-resend-invite.md)
-      + [Uninvite a pending user](/help/dsp/admin/user-uninvite.md)
-   + Blocked sites {#sites}
-      + [About account-level and advertiser-level blocked sites lists](/help/dsp/admin/blocked-sites-list-about.md)
-      + [Edit an account-level or advertiser-level blocked sites list](/help/dsp/admin/blocked-sites-list-edit.md)
+   + [导出已连接电视覆盖计划的预测](/help/dsp/planner/planner-export.md)
+   + [重新生成连接电视覆盖计划的预测](/help/dsp/planner/planner-forecast.md)
+   + [存档连接的电视接入计划](/help/dsp/planner/planner-archive.md)
++ 资源 {#resources}
+   + [管理URL](/help/dsp/resources/lists-url-manage.md)
++ 设置/管理 {#admin}
+   + [编辑您的用户配置文件](/help/dsp/admin/user-own-profile-edit.md)
+   + 用户 {#users}
+      + [邀请组织帐户的新用户](/help/dsp/admin/user-invite.md)
+      + [重新发送待处理用户邀请](/help/dsp/admin/user-resend-invite.md)
+      + [取消邀请待处理用户](/help/dsp/admin/user-uninvite.md)
+   + [管理转化](/help/dsp/admin/conversion-metrics-manage.md)
+   + [管理自定义目标](/help/dsp/admin/custom-objectives-manage.md)
+   + 被阻止的站点 {#sites}
+      + [关于帐户级别和广告商级别的阻止站点列表](/help/dsp/admin/blocked-sites-list-about.md)
+      + [编辑帐户级别或广告商级别的阻止站点列表](/help/dsp/admin/blocked-sites-list-edit.md)
    + 通知 {#notifications}
-      + [About alert subscriptions](/help/dsp/admin/alerts-about.md)
-      + [Manage alert subscriptions](/help/dsp/admin/alerts-manage.md)
-+ [与Adobe CX Enterprise的集成](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hans)
+      + [关于警报订阅](/help/dsp/admin/alerts-about.md)
+      + [管理警报订阅](/help/dsp/admin/alerts-manage.md)
++ [与Adobe CX Enterprise集成](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hans)
 + [获取帮助](/help/dsp/get-help.md)
 + [Adobe CX Enterprise发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)
 

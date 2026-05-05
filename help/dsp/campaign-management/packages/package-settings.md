@@ -14,9 +14,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
 workflow-type: tm+mt
-source-wordcount: 1089
+source-wordcount: 1100
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]：** （包具有包级别的步调并仅具有“[!UICONTROL Always Max Bid & Maximize Reach]”和“[!UICONTROL Lowest Cost per Reach]”优化目标）使用营销活动中所有程序化保证位置的家庭访问范围数据来优化增量访问。
 
-**[!UICONTROL Custom Goal for Model Learning]：** （仅具有“[!UICONTROL Highest Return on Ad Spend]”和“[!UICONTROL Lowest Cost per Acquisition]”优化目标的包）包含用于计算CPA或ROAS量度的收入或转化事件的[自定义目标](/help/dsp/optimization/custom-goal.md)。 自定义目标必须包括用于包优化的CPA或ROAS量度之外的其他加权funnel上层事件（例如页面访问次数和购物车添加次数）。 有关自定义目标的更多信息，包括为自定义目标创建的最佳实践和使用这些目标的营销活动，请参阅&quot;[自定义目标](/help/dsp/optimization/custom-goal.md)&quot;和&quot;[设置效果营销活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
+**[!UICONTROL Custom Goal for Model Learning]：** （仅优化目标为“[!UICONTROL Highest Return on Ad Spend]”和“[!UICONTROL Lowest Cost per Acquisition]”的包）包含用于计算CPA或ROAS量度的收入或转化事件的自定义目标。 自定义目标必须包括用于包优化的CPA或ROAS量度之外的其他加权funnel上层事件（例如页面访问次数和购物车添加次数）。 有关自定义目标的更多信息，请参阅“[管理自定义目标](/help/dsp/admin/custom-objectives-manage.md)”、“[自定义目标的最佳实践](/help/dsp/optimization/custom-goal.md)”以及用于设置效果营销活动的最佳实践[”。](/help/dsp/optimization/campaign-best-practices-performance.md)
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]：** （可选；仅优化目标为“[!UICONTROL Highest Return on Ad Spend]”和“[!UICONTROL Lowest Cost per Acquisition]”的包）告知优化模型仅从基于点击的转化中学习。 否则，优化模型会学习基于点击和基于展示的转化。
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Flighting]
 
-（具有包级别步调的包）包的投放期，包括包的总体[!UICONTROL Flight Dates]中的任何自定义投放期。 只有在[!UICONTROL Activate Custom Flighting]部分中启用了[!UICONTROL Goals & Budget]选项时，才能配置自定义航班。
+（具有包级别步调的包）包的投放期，包括包的总体[!UICONTROL Flight Dates]中的任何自定义投放期。 只有在[!UICONTROL Goals & Budget]部分中启用了[!UICONTROL Activate Custom Flighting]选项时，才能配置自定义航班。
 
 **[!UICONTROL Automatically rollover remaining flight budget to next flight]：** （仅在启用[!UICONTROL Activate Custom Flighting]选项时可用）自动将上一个航班的任何剩余预算添加到下一个航班的现有预算。
 

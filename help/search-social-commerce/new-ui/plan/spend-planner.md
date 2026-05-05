@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 111739ac2da47170575d9b4dad39cfefe812fe0f
+source-git-commit: 4126848d8192a1d4a23406dfeb5b643788670689
 workflow-type: tm+mt
-source-wordcount: 798
+source-wordcount: 801
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 可用操作
 
-* 从[!UICONTROL Spend Planner]新用户界面[或](#spend-recommendations-generate)旧用户界面[生成](#spend-recommendations-generate-legacy)报告
+* 从[新用户界面](#spend-recommendations-generate)或[旧用户界面](#spend-recommendations-generate-legacy)生成[!UICONTROL Spend Planner]报告
 
 * [将支出推荐](#spend-recommendations-apply)应用于相应的项目组合。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
    1. （可选）要查看图表上任一点的成本和收入，请将光标悬停在该点上。
 
-1. （可选）要查看使用新总支出目标的每个组合的建议每日支出和预测收入，请在[!UICONTROL Total Spend Target]字段中输入所有组合的建议每日支出总目标。 然后按&#x200B;**Enter**&#x200B;键。
+1. （可选）要查看使用不同总支出目标的每个项目组合的建议每日支出目标和预期收入，请在[!UICONTROL Total Spend Target]字段中输入所有项目组合的建议每日总支出目标。 然后按&#x200B;**Enter**&#x200B;键。
 
    支出推荐工具使用来自每周模拟的数据，因此推荐的总支出与具有理想支出组合的建议支出目标最匹配。
 
@@ -100,13 +100,17 @@ New UI; validate post-Update steps once I get it to generate a report:
 
    1. (Optional) To see the cost and revenue for any point on the chart, hold the cursor over the point.
 
-1. (Optional) To view the recommended daily spend and predicted revenue for each of the portfolios using a new total spend target, enter a proposed total daily spend target across all portfolios in the [!UICONTROL Total Spend Target] field. Then press the **Enter** key.
+1. (Optional) To download the proposed allocation and expected revenue per portfolio, click ![Download](/help/search-social-commerce/assets/download-spend-recommendation.png "Download") next to [!UICONTROL Portfolio Allocation] in the right column.
+
+   Open or save the file according to your browser's normal procedure. For more information, see your browser's online help.
+
+1. (Optional) To view the recommended daily spend and expected revenue for each of the portfolios using a different total spend target, enter a proposed total daily spend target across all portfolios in the [!UICONTROL Total Spend Target] field. Then press the **Enter** key.
 
    The spend recommendation tool uses data from weekly simulations, so the total recommended spend is the closest match to your proposed spend target with the ideal spend mix.
 
 -->
 
-## （旧版UI）从[!UICONTROL Spend Recommendation] > [!UICONTROL Optimization]视图生成[!UICONTROL Spend Recommendation]报告 {#spend-recommendations-generate-legacy}
+## （旧版UI）从[!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]视图生成[!UICONTROL Spend Recommendation]报告 {#spend-recommendations-generate-legacy}
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Spend Recommendation]**。
 
@@ -130,7 +134,27 @@ New UI; validate post-Update steps once I get it to generate a report:
 
    支出推荐工具使用来自每周模拟的数据，因此推荐的总支出与具有理想支出组合的建议支出目标最匹配。
 
-## 应用支出推荐 {#spend-recommendations-apply}
+<!--
+## (New UI) Apply spend recommendations {#spend-recommendations-apply}
+
+*Portfolios with daily budgets only*
+
+>[!NOTE]
+>
+>* If the applied changes will increase or decrease the spend target of any portfolio by more than 20%, you must approve the change.
+>* When the spend target for a portfolio changes by more than 20%, Search, Social, & Commerce takes up to 3-4 days to adjust its models and achieve the new target.
+
+1. [Generate a spend recommendation report](#spend-recommendations-generate) for one or more portfolios with daily budgets.
+
+1. Select the check box next to each portfolio for which you want to apply the recommended spend target. To select all portfolios, select the check box next to **[!UICONTROL Select All Recommendations]**.
+
+1. Click **[!UICONTROL Apply Selected Recommendations]**.
+
+1. (If any of the budgets will change by more than 20%) In the confirmation message, click **[!UICONTROL Confirm]** to approve the changes.
+
+-->
+
+## &#x200B;<!--(Legacy UI) -->应用支出推荐 {#spend-recommendations-apply-legacy}
 
 *仅具有每日预算的项目组合*
 
@@ -139,7 +163,7 @@ New UI; validate post-Update steps once I get it to generate a report:
 >* 如果应用的更改将增加或减少任何项目组合的支出目标超过20%，则必须批准更改。
 >* 当投资组合的支出目标变化超过20%时，搜索、社交和Commerce需要长达3-4天的时间来调整其模型并实现新目标。
 
-1. 查看具有每日预算的一个或多个项目组合的支出推荐报表。
+1. [为具有每日预算的一个或多个项目组合生成支出推荐报告](#spend-recommendations-generate-legacy)。
 
 1. 选中要应用建议支出目标的每个项目组合旁边的复选框。 要选择所有项目组合，请选中&#x200B;**[!UICONTROL Select All Recommendations]**&#x200B;旁边的复选框。
 
@@ -147,27 +171,24 @@ New UI; validate post-Update steps once I get it to generate a report:
 
 1. （如果任何预算更改超过20%）在确认消息中，单击&#x200B;**[!UICONTROL Yes]**&#x200B;以批准更改。
 
-<!-- 
+<!--
 
-New UI: Verify/edit all steps and edit accordingly:
+## (New UI) Open or save data as a [!DNL Microsoft Excel] workbook file {#spend-recommendations-download}
 
-1. [Generate a spend recommendation report](#spend-recommendations-generate) for one or more portfolios with daily budgets.
-...
+You can open or save data from either a) the line chart showing cost points and the expected revenue for each cost and b) the donut charts of the current and proposed media mix. [This seems to be identical to the Portfolio Allocation report -- how should these be different?]
 
- -->
+1. [Generate a spend recommendation report](#spend-recommendations-generate) for selected portfolios.
 
-## 打开数据或将数据另存为[!DNL Microsoft Excel]工作簿文件 {#spend-recommendations-download}
+1. Above the report, click ![Download](/help/search-social-commerce/assets/download-spend-recommendation.png "Download").
+
+   Open or save the file according to your browser's normal procedure. For more information, see your browser's online help.
+
+-->
+
+## &#x200B;<!--(Legacy UI) -->打开数据或将数据另存为[!DNL Microsoft Excel]工作簿文件 {#spend-recommendations-download-legacy}
 
 1. 为所选项目组合生成支出推荐报告。
 
-1. 在报表上方，单击![下载](/help/search-social-commerce/assets/download-spend-recommendation.png "下载")。
+1. 在报表的右上角，单击![下载](/help/search-social-commerce/assets/download-spend-recommendation.png "下载")。
 
    按照浏览器的正常过程打开或保存文件。 有关详细信息，请参阅浏览器的联机帮助。
-
-<!--
-
-New UI:  Verify/edit all steps and edit accordingly:
-
-1. [Generate a spend recommendation report](#spend-recommendations-generate).
-...
--->

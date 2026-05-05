@@ -4,9 +4,9 @@ description: 了解如何使用人工智能辅助的受众代理在Adobe Adverti
 feature: DSP Audiences
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: e8bfea965be346d44d8da96cd026704e1723a1bf
+source-git-commit: fc5533c8823c2a7610861fdc077d5cdfe0c2d377
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 0%
 
 <!-- Redo the legacy file to include the new info. so that it includes two separate procedures (gen AI and manually). -->
 
-使用人工智能辅助的受众代理，根据您提出的要求，使用您可用的所有第一方和第三方区段生成新的可重用受众。 您可以将受众用作多个投放位置的定位或排除项。
+使用人工智能辅助的受众代理，根据您提出的要求，使用您可用的所有第一方和第三方区段生成新的可重用受众。 如果适用，代理会建议使用其他区段过滤器，以帮助您创建更有效的受众摘要。
+
+您可以将受众用作多个投放位置的定位或排除项。
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -55,15 +57,15 @@ ht-degree: 0%
 
 1. 构建受众：
 
-   对于具有测试版权限的用户，默认设置为AI选项。 若要[自行组合受众](/help/dsp/audiences/reusable-audience-create.md)，请单击底部的“切换到手动模式”按钮。
+   默认选项是AI选项。 若要[自行组合受众](/help/dsp/audiences/reusable-audience-create.md)，请单击底部的“切换到手动模式”按钮。
 
    1. 输入一个或多个提示以描述要包含和排除的受众特征。 若要提交每个提示，请单击![提交提示](/help/dsp/assets/submit-prompt.png "提交提示")。
 
       有关详细信息，请参阅&quot;[正在编写提示](#writing-prompts)&quot;和&quot;[创建受众简介的最佳实践](#audience-brief-best-practices)&quot;。
 
-      当受众代理找到相关区段时，它根据您的条件创建一个布尔受众表达式。 在查找匹配区段以组合受众之前，它还会要求您审批。
+      如果适用，代理会建议使用其他区段过滤器，以帮助您创建更有效的受众摘要。 您可以接受或拒绝建议。
 
-      您可以选择忽略请求并继续指定其他受众条件。
+      当受众代理找到相关区段时，它根据您的条件创建一个布尔受众表达式。 在查找匹配区段以组合受众之前，它还会要求您审批。 您可以选择忽略请求并继续指定其他受众条件。
 
    1. 当受众代理呈现足以描述您的受众的受众表达式时，请告知受众代理继续组合受众。
 

@@ -1,6 +1,6 @@
 ---
-title: Set up data collection, data transfer, and reporting
-description: Learn how to set up data collection, data transfer, and reporting.
+title: 设置数据收集、数据传输和报告
+description: 了解如何设置数据收集、数据传输和报表。
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: a955e2b0-ea1b-4b5c-937b-f8c66603cd36
 TQID: https://experienceleague.adobe.com/u6xL6FuW-TwqAkse3VTS3zcyt-10Cv-ADTZLJTiWWT8
@@ -16,20 +16,24 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 67835b7b70333a81572355b4fed794341cd4ff36
 workflow-type: tm+mt
-source-wordcount: 1792
+source-wordcount: 1814
 ht-degree: 0%
 
 ---
 
-# Set up data collection, data transfer, and reporting
+# 设置数据收集、数据传输和报告
 
 *Beta功能*
 
-The following tasks are required to view Advertising Cloud data in Customer Journey Analytics.
+在Customer Journey Analytics中查看Advertising Cloud数据需要执行以下任务。
 
-1. (Your organization&#39;s web analyst; optional) [Collect historical data for AMO IDs and EF IDs](/help/integrations/analytics/rvars-to-evars.md){target="_blank"}.
+>[!PREREQUISITES]
+>
+>当此功能处于测试版模式时，请让您的Adobe帐户团队为广告商帐户提供对`Adobe Advertising`服务的访问权限。
+
+1. （贵组织的Web分析师；可选）[收集AMO ID和EF ID的历史数据](/help/integrations/analytics/rvars-to-evars.md){target="_blank"}。
 
    此步骤仅适用于具有[!DNL Analytics for Advertising]的广告商。
 
@@ -63,7 +67,7 @@ The following tasks are required to view Advertising Cloud data in Customer Jour
 
    * 选择&#x200B;**[!UICONTROL Create dataset from schema]**&#x200B;的选项并选择您的架构。
 
-     Adobe Advertising会根据您的事件数据集，为相关的摘要量度数据（如转化值）和查找数据（维度/分类元数据，如Adobe Advertising促销活动名称）创建其他数据集。 数据集的数据每天在Experience Platform中填充。
+     <!-- Manual process during beta -->Adobe Advertising会根据您的事件数据集，为相关的摘要量度数据（如转化值）和查找数据（维度/分类元数据，如Adobe Advertising促销活动名称）创建其他数据集。 数据集的数据每天在Experience Platform中填充。
 
 1. [为架构创建数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)。
 
