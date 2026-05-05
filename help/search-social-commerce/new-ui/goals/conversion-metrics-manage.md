@@ -2,9 +2,9 @@
 title: 管理广告商的转化量度
 description: 了解如何将Adobe Advertising跟踪的转化量度用于广告商。
 feature: Conversions
-source-git-commit: 1ada471eccd28607da8edbbcee04fcb6716bd165
+source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 * 在“搜索”、“社交”和“Commerce”中，转化指标的数据可显示在营销活动、项目组合和目标管理视图以及报表的列中。 具有足够访问权限的用户还可以使用转化量度创建目标，以优化项目组合。
 
-* （使用Advertising DSP的广告商）在DSP中，您可以在营销活动管理视图、自定义目标和自定义报表中包含转化量度。 您还可以使用转化量度来创建用于优化包的[自定义目标](/help/dsp/optimization/custom-goal.md)。
+* （使用Advertising DSP的广告商）在DSP中，您可以在营销活动管理视图、自定义目标和自定义报表中包含转化量度。 您还可以使用转化量度来创建用于优化包的[自定义目标](/help/dsp/admin/custom-objectives-manage.md)。
 
 可用的量度包括：
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 * [转化和网站参与度量度已从Adobe Analytics同步](/help/integrations/analytics/analytics-data-in-advertising.md)。
 
-* 从Adobe Customer Journey Analytics[同步的](/help/integrations/customer-journey-analytics/overview.md)网站事件。
+* 从Adobe Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)同步的[网站事件。
 
 * [!DNL Google Ads]跟踪的转化和[!DNL Microsoft Advertising]通用事件跟踪标记跟踪的转化。
 
@@ -57,11 +57,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->对于来自[的 [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md)个量度，如果更新或重新验证集成，则会覆盖对显示名称所做的任何手动更改。 同样，除非您[!DNL Google Analytics]更新[或](/help/search-social-commerce/admin/data-sources/data-source-edit.md)重新验证[集成，否则将忽略](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)中的任何名称更改。
+>对于来自 [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md)的[个量度，如果更新或重新验证集成，则会覆盖对显示名称所做的任何手动更改。 同样，除非您[更新](/help/search-social-commerce/admin/data-sources/data-source-edit.md)或[重新验证](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)集成，否则将忽略[!DNL Google Analytics]中的任何名称更改。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Goals]>[!UICONTROL Conversions]**。
 
-1. 从工具栏[或](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)列标题[筛选列表](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)。
+1. 从工具栏](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)筛选列表[。
 
 1. 在度量的&#x200B;**[!UICONTROL Conversion Display Name]**&#x200B;列中，将光标悬停在度量名称上，然后单击&#x200B;**...** > **[!UICONTROL Rename]**。
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
    将列出为广告商收集的所有转化量度，以及已指定用于显示的任何不同名称。
 
-1. （可选）从工具栏[或](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)列标题[筛选列表](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)。
+1. （可选）从工具栏](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)筛选列表[。
 
 1. 更改可用于管理视图和报表的转化量度：
 
@@ -95,6 +95,8 @@ ht-degree: 0%
 
       1. （要隐藏量度）在确认消息中，单击&#x200B;**[!UICONTROL Confirm]**&#x200B;可隐藏量度，包括从包含这些量度的任何派生量度中删除这些量度。
 
+<!--
 >[!MORELIKETHIS]
 >
->* &#x200B;
+>* 
+-->
