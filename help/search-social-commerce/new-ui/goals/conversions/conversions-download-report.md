@@ -1,29 +1,26 @@
 ---
-title: （新UI）下载目标的性能数据
-description: 了解如何以电子表格文件下载目标。
+title: （新UI）下载转化的性能数据
+description: 了解如何将有关跟踪的转化的数据下载到电子表格文件中。
 feature: Search Optimization, Search Portfolios
 hide: true
-exl-id: fbd0e58b-9f9b-4c8e-8a85-197bca220c10
 source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
 
-# （新UI）下载目标的性能数据
+# （新UI）下载转化的性能数据
 
 *Beta功能*
 
-<!-- EDIT ALL -->
-
-您可以以[!DNL Microsoft Excel]工作簿（XLSX文件）格式将多个目标的关联项目组合数量、点击值、点击次数、成本、每次展示成本(CPC)和一次展示次数下载到文件。
+您可以下载以下有关跟踪的转化的信息：同步的量度名称，量度在“搜索”、“社交”和“Commerce”管理视图和报表中的显示名称，是否在管理视图和报表中可见该量度，转化ID以及量度来源。 以[!DNL Microsoft Excel]工作簿（XLSX文件）格式将数据下载到文件。
 
 ## 生成具有已过滤数据行的报告
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Goals]>[!UICONTROL Objectives]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Goals]>[!UICONTROL Conversions]**。
 
-1. 指定要下载其数据的目标：
+1. 指定要下载其数据的转化：
 
    * 要下载特定目标的数据，请选中目标旁边的复选框。
 
@@ -33,7 +30,7 @@ ht-degree: 0%
 
 1. 在[!UICONTROL Grid Reports]设置中，输入唯一的报表名称，然后单击&#x200B;**[!UICONTROL Generate]**。
 
-   默认情况下，该文件名为“objective_YYYYMMDD_NNNN”，其中“NNNN”是连续的作业编号（如“objective_20250402_1326）。
+   默认情况下，该文件名为“conversionsReport_YYYYMMDD_NNNN”，其中“NNNN”是顺序作业编号（如“conversionsReport_20260402_1326）。
 
    文件已添加到[!UICONTROL Recently Generated]列表。
 
@@ -43,7 +40,7 @@ ht-degree: 0%
 
 ## 下载已完成的报表
 
-在主菜单中，单击&#x200B;**[!UICONTROL Goals]>[!UICONTROL Objectives]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Goals]>[!UICONTROL Conversions]**。
 
 1. 在数据表上方的工具栏中，单击![下载报表](/help/search-social-commerce/assets/download.png "下载报表") **[!UICONTROL Reports]**。
 
@@ -53,14 +50,28 @@ ht-degree: 0%
 
 ## 删除已完成的报告
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Goals]>[!UICONTROL Objectives]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Goals]>[!UICONTROL Conversions]**。
 
-1. 在数据表上方的工具栏中，单击![下载报表](/help/search-social-commerce/assets/download.png "下载报表") **[!UICONTROL Reports]**。
+1. 在数据表上方的工具栏中，单击![下载](/help/search-social-commerce/assets/download.png "下载") **[!UICONTROL Reports]**。
 
 1. 在[!UICONTROL Grid Reports]对话框的[!UICONTROL Recently Generated]列表中，单击文件名旁边的![删除](/help/search-social-commerce/assets/delete-new.png "删除")。
 
+<!--
+
 >[!MORELIKETHIS]
 >
->* [关于目标](objective-about.md)
->* [创建目标](objective-create.md)
->* [删除目标](objective-delete.md)
+>* 
+>* 
+
+-->
+
+
+## 下载项目组合性能报表和项目组合组件列表
+
+* 要下载所有报表，请执行以下操作：
+
+   1. 单击工具栏中的&#x200B;**[!UICONTROL Download report]**。
+
+   1. 选中要包含的每个性能报表和项目组合组件类型旁边的复选框。
+
+      对于某些性能报表，您可以选择将数据下载为图表还是表格。
