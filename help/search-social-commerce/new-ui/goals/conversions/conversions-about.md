@@ -27,4 +27,4 @@ ht-degree: 0%
 
 * 为单个[!DNL Google Ads]帐户要跟踪的潜在客户创建[!DNL Google Ads]增强型转化转化操作。
 
-* 上载第一方离线转化数据以映射到潜在客户](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)和[[!DNL Microsoft Advertising] 增强型转化](https://help.ads.microsoft.com/#apex/ads/en/60178)的现有[[!DNL Google Ads] 增强型转化。
+* 上载第一方离线转化数据以映射到潜在客户[&#128279;](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)和[[!DNL Microsoft Advertising] 增强型转化](https://help.ads.microsoft.com/#apex/ads/en/60178)的现有[!DNL Google Ads] 增强型转化。

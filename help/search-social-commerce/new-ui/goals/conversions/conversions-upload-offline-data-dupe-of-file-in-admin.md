@@ -73,7 +73,7 @@ ht-degree: 0%
 
 `Parameters:TimeZone=insert_timezone`
 
-在此位置或在每行的“[!UICONTROL Conversion Time]”列中输入帐户的时区。 使用a\)（仅限[！DNL [!DNL Google Ads]]） [支持的时区ID格式](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids)或b\)GMT偏移量，如+或 — 和4位数的时间差（例如，纽约为–0500，柏林为+0100，格林尼治标准时间为+000）。
+在此位置或在每行的“[!UICONTROL Conversion Time]”列中输入帐户的时区。 使用a\)（仅限[!DNL [!DNL Google Ads]]） [支持的时区ID格式](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids)或b\)GMT偏移量，如+或 — 和4位数的时间差（例如，纽约为–0500，柏林为+0100，格林尼治标准时间为+000）。
 
 ### [!DNL Google Ads]的表列和值
 
