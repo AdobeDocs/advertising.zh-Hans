@@ -5,16 +5,12 @@ feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 0ee62d04-fdc4-445c-90fb-71d5a40a9ed0
 TQID: https://experienceleague.adobe.com/DlSJEcKXOxVz6UXVpAjQqaiwDTakgJ4SS6rsQUxkQIE
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 2504e6a4eebeab74352606a89a5012ab96c89c47
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: 505
 ht-degree: 0%
 
 ---
@@ -25,23 +21,35 @@ ht-degree: 0%
 
 您可以为[优化或活动的](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md)项目组合生成自定义模拟。 也可以更改现有模拟的参数并重新生成模拟，或使用现有参数重新运行现有模拟。
 
+<!-- You can't run sims for portfolios with legacy keyword-level optimization when they include smart bidding campaigns. Clarify all exceptions so users don't find out via error messages. -->
+
 [!UICONTROL Admin]和[!UICONTROL Account Manager]用户可以查看其他用户创建的模拟。 所有其他用户只能查看他们创建的自定义模拟。
 
 ## 创建新模拟
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Plan]>[!UICONTROL Simulations]**。
+1. 执行以下任一操作：
 
-1. 在数据表上方，单击&#x200B;**[!UICONTROL Run Simulation]**。
+* 从[!UICONTROL Simulations]视图中：
 
-1. 选择项目组合：
+   1. 在主菜单中，单击&#x200B;**[!UICONTROL Plan]>[!UICONTROL Simulations]**。
 
-   1. 单击&#x200B;**[!UICONTROL Select Portfolio]**。
+   1. 在数据表上方，单击&#x200B;**[!UICONTROL Run Simulation]**。
 
-   1. 选择项目组合。
+   1. 选择项目组合：
 
-      要搜索包含特定文本字符串的项目组合，请开始在搜索字段中输入文本字符串。 值不区分大小写。
+      1. 单击&#x200B;**[!UICONTROL Select Portfolio]**。
 
-   1. 单击&#x200B;**[!UICONTROL Proceed]**。
+      1. 选择项目组合。
+
+         要搜索包含特定文本字符串的项目组合，请开始在搜索字段中输入文本字符串。 值不区分大小写。
+
+      1. 单击&#x200B;**[!UICONTROL Proceed]**。
+
+* 从[!UICONTROL Portfolios]视图中：
+
+   1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Portfolios]**。
+
+   1. 将光标悬停在项目组合行上。 在项目组合名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Run Simulation]**。
 
 1. 指定[自定义模拟设置](#custom-simulation-settings)：
 
