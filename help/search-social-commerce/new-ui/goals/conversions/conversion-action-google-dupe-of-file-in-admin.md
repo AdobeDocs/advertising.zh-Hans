@@ -2,22 +2,24 @@
 title: 为潜在客户的 [!DNL Google Ads] 增强型转化创建转化操作
 description: 了解如何为潜在客户的增强型转化创建 [!DNL Google Ads] 转化操作。
 feature: Conversions
-source-git-commit: 88a45014064220a2bec6aa6080a2a1f53d24b9bb
+source-git-commit: 3272a0d3e5766a22c2ff761b84f1774cafe153bd
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
 
 # 为潜在客户的[!DNL Google Ads]增强型转化创建转化操作
 
-<!-- Includes procedure in new UI -->
+<!-- Includes procedure in new UI, which isn't available to all yet -->
 
 仅&#x200B;*[!DNL Google Ads]个帐户*
 
 您可以为单个[!DNL Google Ads]帐户要跟踪的潜在客户创建[!DNL Google Ads]增强型转化转化而不是为经理帐户级别跟踪的转化创建转化操作。<!-- I don't see a list of synced conversion actions here; supposedly we do list them, but I don't see them in the legacy UI either (unless they're just listed as conversions, but not identified differently). Clarify and reword if necessary. -->
 
 ## （新UI）创建转化操作
+
+*Beta功能*
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Goals]>[!UICONTROL Conversions]**。
 

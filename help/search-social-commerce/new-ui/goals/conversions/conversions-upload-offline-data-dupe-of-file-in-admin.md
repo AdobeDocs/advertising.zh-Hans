@@ -2,9 +2,9 @@
 title: 上载离线转化数据以增强转化
 description: 了解如何上传第一方离线转化数据以映射到潜在客户的 [!DNL Google Ads] 增强型转化和 [!DNL Microsoft Advertising] 增强型转化。
 feature: Conversions
-source-git-commit: 88a45014064220a2bec6aa6080a2a1f53d24b9bb
+source-git-commit: 3272a0d3e5766a22c2ff761b84f1774cafe153bd
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,15 @@ ht-degree: 0%
 
 <!-- Renamed file to start with "conversions-"-->
 
-<!-- Update to add procedure in new UI -->
+<!-- Added procedure in new UI, which isn't available to all yet -->
 
 仅&#x200B;*[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户*
 
 您可以上传第一方离线转化数据（包括经过哈希处理的电子邮件地址和电话号码），以映射到潜在客户的现有[[!DNL Google Ads] 增强转化](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)和[[!DNL Microsoft Advertising] 增强转化](https://help.ads.microsoft.com/#apex/ads/en/60178)。 所有上传的数据都会实时同步到广告网络。
 
 ## （新UI）上传数据以增强转化
+
+*Beta功能*
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Goals]>[!UICONTROL Conversions]**。
 
@@ -71,7 +73,7 @@ ht-degree: 0%
 
 `Parameters:TimeZone=insert_timezone`
 
-在此位置或在每行的“[!UICONTROL Conversion Time]”列中输入帐户的时区。 使用a\)（仅限[!DNL [!DNL Google Ads]]） [支持的时区ID格式](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids)或b\)GMT偏移量，如+或 — 和4位数的时间差（例如，纽约为–0500，柏林为+0100，格林尼治标准时间为+000）。
+在此位置或在每行的“[!UICONTROL Conversion Time]”列中输入帐户的时区。 使用a\)（仅限[！DNL [!DNL Google Ads]]） [支持的时区ID格式](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids)或b\)GMT偏移量，如+或 — 和4位数的时间差（例如，纽约为–0500，柏林为+0100，格林尼治标准时间为+000）。
 
 ### [!DNL Google Ads]的表列和值
 
