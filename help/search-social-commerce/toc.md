@@ -4,9 +4,9 @@ user-guide-title: Advertising 搜索、社交和 Commerce 指南
 user-guide-description: 本指南阐述管理、跟踪和报告搜索、社交和商业广告营销活动所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: Advertising 搜索、社交和 Commerce 指南
 index: true
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: d8170c2bbeab003339472d03033f1741014d6c4b
 workflow-type: tm+mt
-source-wordcount: '2183'
+source-wordcount: '2204'
 ht-degree: 2%
 
 ---
@@ -22,10 +22,10 @@ ht-degree: 2%
    + [支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)
    + 与Adobe CX Enterprise集成 {#integrations}
       + [与Adobe CX Enterprise解决方案和服务集成](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] （链接）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hans){target="_blank"}
-      + [与Adobe Audience Manager集成（链接）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=zh-Hans){target="_blank"}
-   + [消费者隐私支持（链接）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans){target="_blank"}
-   + [策略和指南（链接）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=zh-Hans){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising] （链接）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [与Adobe Audience Manager集成（链接）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [消费者隐私支持（链接）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [策略和指南（链接）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + 快速入门 {#getting-started}
    + [实施概述](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [系统要求](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -67,7 +67,7 @@ ht-degree: 2%
          + [从[!UICONTROL Downloads]菜单删除性能数据报表或批量处理工作表文件](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 + (Beta)新用户界面 {#new-ui}
    + [关于新的用户界面](/help/search-social-commerce/new-ui/new-ui-about.md)
-   + [查看您的性能仪表板](/help/search-social-commerce/new-ui/dashboard-view.md)
+   + [查看您的性能仪表板](/help/search-social-commerce/new-ui/dashboard/dashboard-overview.md)
    + 计划 {#plan}
       + 目标 {#objectives}
          + [关于目标](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
@@ -91,14 +91,18 @@ ht-degree: 2%
          + [复制项目组合](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-duplicate.md)
          + [编辑项目组合详细信息](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)
          + [使用批量工作表文件批量编辑项目组合设置](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md)
+         + [重命名项目组合](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-rename.md)
+         + [更改项目组合的状态](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-change-status.md)
          + [Portfolio设置](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)
+         + [从[!UICONTROL Portfolios]视图运行自定义模拟](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md)
          + [在[!UICONTROL Portfolios]视图中查看性能图](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-performance-graph.md)
          + [查看项目组合绩效详细信息](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
+         + [查看项目组合的更改历史记录](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
          + [从[!UICONTROL Portfolios]视图管理数据视图报告](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
       + 营销活动 {#campaigns}
          + [关于[!UICONTROL Campaigns]视图](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-         + [将营销活动分配给项目组合](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
-         + [从项目组合中删除营销活动](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+         + [将营销活动分配给项目组合](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+         + [从项目组合中删除营销活动](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
          + [管理营销活动的限制分配](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
          + [从[!UICONTROL Campaigns]视图管理数据视图报告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
       + 广告组 {#ad-groups}
@@ -110,13 +114,13 @@ ht-degree: 2%
          + [从[!UICONTROL Ads]视图管理数据视图报告](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + 报告 {#reports}
       + 标签分类 {#label-classifications}
-         + [关于标签分类](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
-         + [创建标签分类](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-create)
-         + [从营销活动管理视图将分类值分配给帐户组件](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management)
-         + [使用批量处理工作表将分类值分配给帐户组件](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets)
-         + [从帐户组件中删除标签分类值](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-remove)
-         + [删除标签分类值](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-delete)
-         + [删除标签分类](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-delete)
+         + [关于标签分类](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
+         + [创建标签分类](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-create)
+         + [从营销活动管理视图将分类值分配给帐户组件](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management)
+         + [使用批量处理工作表将分类值分配给帐户组件](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets)
+         + [从帐户组件中删除标签分类值](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-remove)
+         + [删除标签分类值](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-delete)
+         + [删除标签分类](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-delete)
    + Target {#target}
       + 关键字 {#keywords}
          + [关于[!UICONTROL Keywords]视图](/help/search-social-commerce/new-ui/target/keywords/keyword-view-about.md)
@@ -142,21 +146,21 @@ ht-degree: 2%
       + 点击跟踪URL的组件 {#click-tracking-components}
          + 点击跟踪URL的标准格式 {#click-tracking-formats}
             + [关于点击跟踪URL格式](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
-            + [&#x200B; [!DNL Baidu]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-baidu.md)
-            + [&#x200B; [!DNL Google Ads]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-google.md)
-            + [&#x200B; [!DNL Microsoft Advertising]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)
-            + [&#x200B; [!DNL Naver]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
-            + [&#x200B; [!DNL Yahoo! Display Network]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
-            + [&#x200B; [!DNL Yahoo! Japan Ads]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
-            + [&#x200B; [!DNL Yandex]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
+            + [ [!DNL Baidu]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-baidu.md)
+            + [ [!DNL Google Ads]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-google.md)
+            + [ [!DNL Microsoft Advertising]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)
+            + [ [!DNL Naver]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
+            + [ [!DNL Yahoo! Display Network]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
+            + [ [!DNL Yahoo! Japan Ads]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
+            + [ [!DNL Yandex]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [点击跟踪URL的可选跟踪参数](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertising Cookie（链接）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=zh-Hans){target="_blank"}
+      + [Adobe Advertising Cookie（链接）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [AMO ID (s_kwcid)跟踪参数](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + 转化跟踪 {#conversion-tracking}
       + [转化跟踪选项](/help/search-social-commerce/tracking/conversion-tracking-about.md)
       + Adobe Advertising转化跟踪 {#advertising-conversion-tracking}
          + [关于Adobe Advertising转化跟踪标记](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
-         + [生成和实施Adobe Advertising转换标记](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate)
+         + [生成和实施Adobe Advertising转换标记](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate)
          + [JavaScript转化跟踪标记版本3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [JavaScript转化跟踪标记版本2的格式](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
          + [图像转换跟踪标记的格式](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
@@ -182,30 +186,30 @@ ht-degree: 2%
    + 设置帐户 {#campaign-management-accounts}
       + 广告网络帐户 {#ad-network-accounts}
          + [关于广告网络帐户](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
-         + [Manage ad network accounts](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
-         + [Update the AMO ID tracking code for a [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
-      + [Manage merchant center accounts](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
-   + [Implement [!DNL Naver] tracking-only accounts](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
-   + Managing campaigns {#management}
-      + [Options for managing ad network campaigns](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)
-      + Managing data within the [!UICONTROL Campaigns] > [!UICONTROL Campaigns] views {#campaigns}
-         + [Create and edit campaign data in bulk using copy and paste](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+         + [管理广告网络帐户](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
+         + [更新 [!DNL Google Ads] 帐户的AMO ID跟踪代码](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
+      + [管理商户中心帐户](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
+   + [实施 [!DNL Naver] 仅跟踪帐户](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
+   + 管理活动 {#management}
+      + [用于管理广告网络营销活动的选项](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)
+      + 管理[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图中的数据 {#campaigns}
+         + [使用复制并粘贴功能批量创建和编辑营销活动数据](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
          + 营销活动 {#campaigns}
-            + [Manage campaigns](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-            + Campaign settings by ad network {#campaign-settings-by-network}
-               + [[!DNL Baidu] campaign settings](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
-               + [[!DNL Google Ads] campaign settings](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
-               + [[!DNL Microsoft Advertising] campaign settings](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
-               + [[!DNL Yahoo! Japan Ads] campaign settings](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
-               + [[!DNL Yandex] campaign settings](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
-         + Ad groups {#ad-groups}
-            + [Manage ad groups](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
-            + Ad group settings by ad network {#ad-group-settings-by-network}
-               + [[!DNL Baidu] ad group settings](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
-               + [[!DNL Google Ads] ad group settings](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
-               + [[!DNL Microsoft Advertising] ad group settings](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
-               + [[!DNL Yahoo! Japan Ads] ad group settings](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
-               + [[!DNL Yandex] ad group settings](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
+            + [管理营销活动](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+            + 按广告网络列出的Campaign设置 {#campaign-settings-by-network}
+               + [[!DNL Baidu]营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
+               + [[!DNL Google Ads]营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
+               + [[!DNL Microsoft Advertising]营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
+               + [[!DNL Yahoo! Japan Ads]营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
+               + [[!DNL Yandex]营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
+         + 广告组 {#ad-groups}
+            + [管理广告组](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
+            + 按广告网络划分的广告组设置 {#ad-group-settings-by-network}
+               + [[!DNL Baidu]广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
+               + [[!DNL Google Ads]广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
+               + [[!DNL Microsoft Advertising]广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
+               + [[!DNL Yahoo! Japan Ads]广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
+               + [[!DNL Yandex]广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
          + 关键字 {#keywords}
             + [关于关键字](/help/search-social-commerce/campaign-management/campaigns/keyword-about.md)
             + [管理可竞价关键词](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
@@ -232,32 +236,32 @@ ht-degree: 2%
                + [[!DNL Microsoft Advertising]响应式搜索广告设置](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-rsa.md)
                + [[!DNL Yandex]文本广告设置](/help/search-social-commerce/campaign-management/campaigns/ad-settings-yandex-text.md)
          + 产品组 {#product-groups}
-            + [About product groups](/help/search-social-commerce/campaign-management/campaigns/product-group-about.md)
-            + [Manage product groups](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)
-            + [[!DNL Google Ads] product group settings](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
-            + [[!DNL Microsoft Advertising] product group settings](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
-            + [Shopping campaign product filters](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
+            + [关于产品组](/help/search-social-commerce/campaign-management/campaigns/product-group-about.md)
+            + [管理产品组](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)
+            + [[!DNL Google Ads]产品组设置](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
+            + [[!DNL Microsoft Advertising]产品组设置](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
+            + [购物营销活动产品过滤器](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
          + 版面 {#placements}
-            + [About placements](/help/search-social-commerce/campaign-management/campaigns/placement-about.md)
-            + [Manage biddable placements](/help/search-social-commerce/campaign-management/campaigns/placement-manage.md)
-            + [Create negative placements](/help/search-social-commerce/campaign-management/campaigns/placement-negative-create.md)
-            + [Change the status of placements and negative placements](/help/search-social-commerce/campaign-management/campaigns/placement-status-edit.md)
-         + Auto targets {#auto-targets}
-            + [About [!DNL Google Ads] dynamic search targets](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-about.md)
-            + [Manage [!DNL Google Ads] dynamic search targets](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)
-         + Audiences and audience targets {#audiences-and-targets}
+            + [关于版面](/help/search-social-commerce/campaign-management/campaigns/placement-about.md)
+            + [管理可竞价投放](/help/search-social-commerce/campaign-management/campaigns/placement-manage.md)
+            + [创建负面投放位置](/help/search-social-commerce/campaign-management/campaigns/placement-negative-create.md)
+            + [更改投放位置和负面投放位置的状态](/help/search-social-commerce/campaign-management/campaigns/placement-status-edit.md)
+         + 自动定位 {#auto-targets}
+            + [关于 [!DNL Google Ads] 动态搜索目标](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-about.md)
+            + [管理 [!DNL Google Ads] 动态搜索目标](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)
+         + 受众和受众目标 {#audiences-and-targets}
             + 受众 {#audiences}
                + [关于受众](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
                + [创建来自 [!DNL Adobe] 受众的 [!DNL Google Ads] 客户匹配受众](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)
-               + [Create a [!DNL Google Ads] customer match audience from an Adobe Campaign email list](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md)
-               + [Manage customer match audiences using customer data lists](/help/search-social-commerce/campaign-management/campaigns/audience-from-customer-data-list.md)
-               + [Manage dynamic remarketing audiences](/help/search-social-commerce/campaign-management/campaigns/audience-dynamic-remarketing-manage.md)
-               + Audience targets and exclusions {#audience-targets}
-                  + [Manage audience targets for campaigns and ad groups](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)
-                  + [Manage audience exclusions for campaigns and ad groups](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
-         + Ad extensions {#ad-extensions}
-            + [!DNL Google Ads] callout extensions {#callouts}
-               + [About [!DNL Google Ads] callout extensions](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)
+               + [从Adobe Campaign电子邮件列表创建 [!DNL Google Ads] 客户匹配受众](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md)
+               + [使用客户数据列表管理客户匹配受众](/help/search-social-commerce/campaign-management/campaigns/audience-from-customer-data-list.md)
+               + [管理动态二次营销受众](/help/search-social-commerce/campaign-management/campaigns/audience-dynamic-remarketing-manage.md)
+               + 受众目标和排除项 {#audience-targets}
+                  + [管理营销活动和广告组的受众目标](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)
+                  + [管理营销活动和广告组的受众排除](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
+         + 广告扩展 {#ad-extensions}
+            + [!DNL Google Ads]标注扩展 {#callouts}
+               + [关于 [!DNL Google Ads] 标注扩展](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)
                + [管理 [!DNL Google Ads] 标注扩展](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
                + [将 [!DNL Google Ads] 共享的标注扩展与营销活动或广告组关联](/help/search-social-commerce/campaign-management/campaigns/callout-extension-associate.md)
             + 站点链接扩展 {#sitelinks}
@@ -279,35 +283,35 @@ ht-degree: 2%
          + 批量处理工作表中的必需/包含数据{#bulksheet-data-formats}
             + [支持的批量处理工作表文件格式](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-file-formats.md)
             + [可在批量处理工作表中执行的操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md)
-            + [&#x200B; [!DNL Baidu] 帐户所需的批量处理工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
-            + [&#x200B; [!DNL Google Ads] 帐户所需的批量处理工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
-            + [&#x200B; [!DNL Microsoft Advertising] 帐户所需的批量处理工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-            + [&#x200B; [!DNL Naver] 帐户所需的批量处理工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-            + [Bulksheet data for [!DNL Yahoo! Display Network] accounts](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-            + [Bulksheet data for [!DNL Yahoo! Japan] accounts](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
-            + [&#x200B; [!DNL Yandex] 帐户所需的批量处理工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
-      + Automating campaign data using inventory feeds {#inventory-feeds}
-         + [About automating ad management using inventory feeds](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
-         + [When are account components created or deleted by inventory feeds?](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)
-         + [Configure feed data settings](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md)
-         + [Manage feed files](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
-         + [Manage modifiers](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)
-         + Templates {#feed-templates}
-            + [Manage ad templates](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)
-            + [Text ad and responsive search ad template settings](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md)
-            + [[!DNL Google Ads] shopping ad template settings](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)
-            + [[!DNL Microsoft Advertising] shopping ad template settings](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)
-         + [Propagate feed data through templates](/help/search-social-commerce/campaign-management/inventory-feeds/feed-data-propagate.md)
-         + Working with campaign data created from feeds {#propagated-data}
-            + [View data generated from feeds](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-view.md)
-            + [Edit data generated from feeds](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-edit.md)
+            + [ [!DNL Baidu] 帐户所需的批量处理工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
+            + [ [!DNL Google Ads] 帐户所需的批量处理工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+            + [ [!DNL Microsoft Advertising] 帐户所需的批量处理工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
+            + [ [!DNL Naver] 帐户所需的批量处理工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
+            + [ [!DNL Yahoo! Display Network] 帐户的批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+            + [ [!DNL Yahoo! Japan] 帐户的批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
+            + [ [!DNL Yandex] 帐户所需的批量处理工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
+      + 使用库存信息源自动生成Campaign数据 {#inventory-feeds}
+         + [关于使用库存信息源自动化广告管理](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
+         + [清单信息源何时会创建或删除帐户组件？](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)
+         + [配置馈送数据设置](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md)
+         + [管理信息源文件](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
+         + [管理修饰符](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)
+         + 模板 {#feed-templates}
+            + [管理广告模板](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)
+            + [文本广告和响应式搜索广告模板设置](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md)
+            + [[!DNL Google Ads]购物广告模板设置](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)
+            + [[!DNL Microsoft Advertising]购物广告模板设置](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)
+         + [通过模板传播馈送数据](/help/search-social-commerce/campaign-management/inventory-feeds/feed-data-propagate.md)
+         + 使用从信息源创建的Campaign数据 {#propagated-data}
+            + [查看从馈送生成的数据](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-view.md)
+            + [编辑从馈送生成的数据](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-edit.md)
             + [从馈送生成的将营销活动数据发布到广告网络](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-post.md)
-            + [Stop a posting job for inventory feed data](/help/search-social-commerce/campaign-management/inventory-feeds/stop-job.md)
+            + [停止库存馈送数据的发布作业](/help/search-social-commerce/campaign-management/inventory-feeds/stop-job.md)
             + [从馈送生成的数据的状态](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-status.md)
-      + Implementing campaigns, ads, and conversions with unique workflows{#special-workflows}
-         + [Implement [!DNL Google Ads] enhanced conversions for leads](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
-         + [Implement [!DNL Google Ads] dynamic search ads](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)
-         + [Implement [!DNL Google Ads] performance max campaigns](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)
+      + 使用独特工作流实施营销活动、广告和转化{#special-workflows}
+         + [为潜在客户实施 [!DNL Google Ads] 增强型转化](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
+         + [实施 [!DNL Google Ads] 动态搜索广告](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)
+         + [实施 [!DNL Google Ads] 效果最佳的营销活动](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)
          + [实施 [!DNL Google Ads] 购物营销活动](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
          + [为离线转换实施 [!DNL Microsoft Advertising] 增强型转换](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
          + [实施 [!DNL Microsoft Advertising] 购物营销活动](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
@@ -463,7 +467,7 @@ ht-degree: 2%
       + [允许将目标上传到广告网络](/help/search-social-commerce/tools/objective-upload-to-networks.md)
    + 正在上传[!DNL Naver]个仅跟踪帐户的量度 {#generic-tracking}
       + [上载 [!DNL Naver] 仅跟踪帐户的流量和转化指标](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
-      + [&#x200B; [!DNL Naver] 仅跟踪帐户的量度数据要求](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
+      + [ [!DNL Naver] 仅跟踪帐户的量度数据要求](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
    + [启用其他库存同步](/help/search-social-commerce/tools/sync-inventory.md)
    + [复制 [!DNL Microsoft Advertising]中的 [!DNL Google Ads] 营销活动](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md)
 + 管理 {#admin}

@@ -5,16 +5,12 @@ feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
 TQID: https://experienceleague.adobe.com/tKCeMIgFKnW8hOU-6uavT9x7K9lL2Uqo2bWZ-H-Q5TE
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: 393
 ht-degree: 0%
 
 ---
@@ -37,7 +33,7 @@ ht-degree: 0%
 
 1. 在数据表上方的工具栏中，单击：
 
-   * （对于所有项目组合） **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export All Portfolios]**。
+   * （对于所有项目组合）![批量操作](/help/search-social-commerce/assets/chevron-down.png "批量操作") > **[!UICONTROL Export All Portfolios]**。
 
    * （对于选定的项目组合） **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]**。
 
@@ -49,7 +45,7 @@ ht-degree: 0%
 
 文件必须为XLSX格式。
 
-1. 在数据表上方的工具栏中，单击&#x200B;**[!UICONTROL Bulk Operations]** > **[!UICONTROL Import Portfolio Details]**。
+1. 在数据表上方的工具栏中，单击![批量操作](/help/search-social-commerce/assets/chevron-down.png "批量操作") > **[!UICONTROL Import Portfolio Details]**。
 
 1. 在[!UICONTROL Import Portfolio Details File]对话框中：
 
@@ -59,7 +55,7 @@ ht-degree: 0%
 
 您可以通过日期范围选择器旁边的[!UICONTROL Global Sync Status]按钮（![全局同步状态](/help/search-social-commerce/assets/global-sync-status.png "全局同步状态")）检查上载状态。 如果有任何更改不成功，则可以下载一个错误文件，其中显示失败的内容。
 
-通知也会添加到通知中心，您可以从![按钮(](/help/search-social-commerce/assets/notifications-new.png ")旁边的")通知[!UICONTROL Global Sync Status]通知![全局同步状态](/help/search-social-commerce/assets/global-sync-status.png "全局同步状态")图标打开通知窗格。
+通知也会添加到通知中心，您可以从[!UICONTROL Global Sync Status]按钮(![全局同步状态](/help/search-social-commerce/assets/global-sync-status.png "全局同步状态"))旁边的![通知](/help/search-social-commerce/assets/notifications-new.png "通知")图标打开通知窗格。
 
 ## 已上传批量处理工作表文件的数据要求
 
