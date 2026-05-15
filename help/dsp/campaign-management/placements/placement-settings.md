@@ -4,22 +4,14 @@ description: 请参阅可用版面设置的说明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
 TQID: https://experienceleague.adobe.com/V9gGiuXBnP2TBFUY3ZB7EkZ2TNeBttOgr-qzHUSdMmk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 4439
+source-wordcount: 4499
 ht-degree: 0%
 
 ---
@@ -201,11 +193,11 @@ ht-degree: 0%
 
   您可以按源或信息源查看列表。 在按信息源查看列表时，您可以按信息源名称、信息源密钥或选定的特征标记进行搜索。
 
-* [!UICONTROL Private] | [!UICONTROL Roku Private]：您与在DSP中设置的出版商的现有私人交易（或[!DNL Roku]投放位置的现有私人[!DNL Roku]交易），以及您现有的[私人交易列表](/help/dsp/inventory/lists-deals-manage.md)。 您可以包括（但不排除）公共库存。
+* [!UICONTROL Private] | [!UICONTROL Roku Private]：您与在DSP中设置的发布商的现有私人交易（或[!DNL Roku]投放的现有私人[!DNL Roku]交易），以及您现有的[私人交易列表](/help/dsp/inventory/lists-deals-manage.md)。 您可以包括（但不排除）公共库存。
 
   在[!UICONTROL Deals]选项卡中，您可以按关键字、密钥、交易ID或自定义标记搜索列表。 在[!UICONTROL Deal Lists]选项卡中，您可以按交易列表名称或交易列表ID搜索列表。
 
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]：您已在[中订阅的所有[!UICONTROL On Demand]高级、不保证的](/help/dsp/inventory/on-demand-inventory-about.md)库存[!UICONTROL On Demand]（或[!DNL Roku]投放位置的[!DNL Roku] [!DNL DSP]交易）。 您可以包含和排除[!UICONTROL On Demand]清单。
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]：您已在[!DNL DSP]中订阅的所有[高级、不保证的[!UICONTROL On Demand]库存](/help/dsp/inventory/on-demand-inventory-about.md)（或[!DNL Roku]投放位置的[!UICONTROL On Demand] [!DNL Roku]交易）。 您可以包含和排除[!UICONTROL On Demand]清单。
 
   您可以按源或信息源查看列表。 在按信息源查看列表时，您可以按信息源名称、信息源键或选定的发布者区域、类别标记或特征标记进行搜索。
 
@@ -326,8 +318,8 @@ ht-degree: 0%
 
 **[!UICONTROL Included Audiences]：**&#x200B;投放位置的任何受众目标，包括[第三方区段、第一方区段、Adobe区段、自定义区段和保存的受众](/help/dsp/audiences/audience-settings.md)。 此外，还会显示所有选定区段和已保存受众中经过重复数据删除的总受众大小和活动受众大小。 您可以选择现有受众，创建以后可以重复使用的受众，或者选择特定的受众区段：
 
-* 要选择现有受众，请单击![旁边的](/help/dsp/assets/chevron-down.png)选择[!UICONTROL Included Audiences]，然后选择受众。
-* 要创建受众，请单击![旁边的](/help/dsp/assets/chevron-down.png)选择[!UICONTROL Included Audiences]，然后选择&#x200B;**[!UICONTROL + Create Audience]**。 有关说明，请参阅从步骤3开始的[创建可重复使用的受众](/help/dsp/audiences/reusable-audience-create.md)。
+* 要选择现有受众，请单击[!UICONTROL Included Audiences]旁边的![选择](/help/dsp/assets/chevron-down.png)，然后选择受众。
+* 要创建受众，请单击[!UICONTROL Included Audiences]旁边的![选择](/help/dsp/assets/chevron-down.png)，然后选择&#x200B;**[!UICONTROL + Create Audience]**。 有关说明，请参阅从步骤3开始的[创建可重复使用的受众](/help/dsp/audiences/reusable-audience-create.md)。
 * 要选择特定的受众区段，请单击&#x200B;**[!UICONTROL Select segments for this placement only]**。 选择区段逻辑；有关说明，请参阅“[创建可重复使用的受众](/help/dsp/audiences/reusable-audience-create.md)”中的步骤6。 完成后，单击&#x200B;**保存**。
 
 >[!NOTE]
@@ -336,9 +328,9 @@ ht-degree: 0%
 
 **[!UICONTROL Excluded Audiences]：**&#x200B;要排除以进行投放的任何受众，包括具有[第三方区段、第一方区段、Adobe区段、自定义区段和已保存受众的受众](/help/dsp/audiences/audience-settings.md)。 此外，还会显示所有已排除受众中经过重复数据删除的总受众人数和活动受众人数。 您可以选择现有受众，也可以创建一个以后可以重复使用的新受众：
 
-* 要选择现有受众，请单击![旁边的](/help/dsp/assets/chevron-down.png)选择[!UICONTROL Excluded Audiences]，然后选择受众。
+* 要选择现有受众，请单击[!UICONTROL Excluded Audiences]旁边的![选择](/help/dsp/assets/chevron-down.png)，然后选择受众。
 
-* 要创建受众，请单击![旁边的](/help/dsp/assets/chevron-down.png)选择[!UICONTROL Excluded Audiences]，然后选择&#x200B;**+创建受众**。 有关说明，请参阅从步骤3开始的[创建可重复使用的受众](/help/dsp/audiences/reusable-audience-create.md)。
+* 要创建受众，请单击[!UICONTROL Excluded Audiences]旁边的![选择](/help/dsp/assets/chevron-down.png)，然后选择&#x200B;**+创建受众**。 有关说明，请参阅从步骤3开始的[创建可重复使用的受众](/help/dsp/audiences/reusable-audience-create.md)。
 
 **[!UICONTROL Targeting]：**&#x200B;要定位的用户ID类型。 在投放开始后（即，在投放开始后），无法更改此设置。
 
@@ -346,13 +338,13 @@ ht-degree: 0%
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*：（默认）根据用户的Cookie、移动广告ID或连接的电视(CTV) ID定位用户。 根据浏览器、应用程序内或CTV清单选择ID。
 
-* *[!UICONTROL Universal ID Beta]*：定位注重隐私的用户ID；选择一种ID类型。 可用选项由[!UICONTROL Geo-Targeting]部分中的所选地理目标决定。 与直接导入到DSP[[!DNL RampID] 的](/help/dsp/audiences/sources/source-import-liveramp-segments.md)区段、DSP将您的PII转换为通用ID的[区段](/help/dsp/audiences/sources/source-about.md)或跟踪通用ID的[自定义区段](/help/dsp/audiences/custom-segment-create.md)一起使用。
+* *[!UICONTROL Universal ID Beta]*：定位注重隐私的用户ID；选择一种ID类型。 可用选项由[!UICONTROL Geo-Targeting]部分中的所选地理目标决定。 与直接导入到DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md)的[[!DNL RampID] 区段、DSP将您的PII转换为通用ID的[区段](/help/dsp/audiences/sources/source-about.md)或跟踪通用ID的[自定义区段](/help/dsp/audiences/custom-segment-create.md)一起使用。
 
    * *[!UICONTROL ID5]*：目标[!DNL ID5] ID是根据电子邮件地址和其他信号概率创建的。<!-- What countries/geos are these available for? Everywhere?--> ID5 ID免费提供。 **注意：** [!DNL Eyeota]中的第三方区段可能包含ID5 ID。
 
    * *[!UICONTROL RampID]*：目标[!DNL LiveRamp] [!DNL RampIDs]用户使用其电子邮件地址登录到您的网站。<!-- Verify --> [!DNL RampIDs]适用于北美洲、澳大利亚和新西兰的用户。
 
-   * *[!UICONTROL Unified ID2.0]*：已使用用户的电子邮件地址登录到您的网站的目标[!DNL Unified ID2.0] (UID2) ID。<!-- Verify -->[!DNL UID2 IDs]不适用于欧洲经济区和其他一些国家/地区的用户。 查看[禁止的国家/地区列表](/help/policies/universal-id-policy.md#prohibited-countries-uid2)。
+   * *[!UICONTROL Unified ID2.0]*：目标[!DNL Unified ID2.0] (UID2) ID，即使用其电子邮件地址登录到您网站的用户的ID。<!-- Verify -->[!DNL UID2 IDs] 不适用于欧洲经济区和其他一些国家的用户。 查看[禁止的国家/地区列表](/help/policies/universal-id-policy.md#prohibited-countries-uid2)。
 
   **[!UICONTROL Terms of service]**：使用通用ID的服务协议条款。 您或DSP帐户中的其他用户必须接受一次这些条款，然后才能将数据转换为新的ID类型。 对于签订托管服务合同的客户，您的Adobe客户团队将代表贵组织获得您的同意并接受条款。 若要阅读术语，请单击&#x200B;**>**。 要接受条款，请滚动到条款的底部并单击&#x200B;**[!UICONTROL Accept]**。
 
@@ -371,7 +363,7 @@ ht-degree: 0%
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 选择适用的时区。
 1. 指定间隔：
-   * 要选择预设间隔，请单击其中一个间隔按钮。 选项包括&#x200B;*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
+   * 要选择预设间隔，请单击其中一个间隔按钮。 选项包括*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
    * 要手动选择间隔，请单击单元格内部，也可以拖动以选择间隔。
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
@@ -420,7 +412,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Brand Safety and Media Quality]
 
-**[!UICONTROL DoubleVerify ABS segment ID]：** （可选；仅[!DNL DoubleVerify]客户；仅适用于桌面前置式广告、标准广告和点播显示，以及仅限本机显示和视频投放位置；不支持[交易的默认程序化保证投放位置](/help/dsp/inventory/programmatic-guaranteed-about.md)） [!DNL DoubleVerify Authentic Brand Safety]区段ID与组织的[!DNL DoubleVerify]帐户关联以用于投放位置。 使用为指定区段ID配置的自定义品牌安全规则指定ID会阻止竞价后的展示次数。 DSP按区段ID的使用情况向帐户收费。
+**[!UICONTROL DoubleVerify ABS segment ID]：** （可选；仅[!DNL DoubleVerify]客户；仅适用于桌面前置式广告、标准广告和点播显示，以及仅限本机显示和视频投放位置；不支持[交易的默认程序化保证投放位置](/help/dsp/inventory/programmatic-guaranteed-about.md)） [!DNL DoubleVerify Authentic Brand Suitability]区段ID与组织的[!DNL DoubleVerify]帐户关联以用于投放位置。 使用为指定区段ID配置的自定义品牌安全规则指定ID会阻止竞价后的展示次数。 DSP按区段ID的使用情况向帐户收费。
 
 ID必须以“51”开头并且由八位数字组成。 默认情况下，如果在广告商帐户设置中指定了区段ID，则会输入广告商级别的ID，但您可以将该ID更改为使用其他区段，或删除该ID以禁用该功能。
 
@@ -431,15 +423,15 @@ ID必须以“51”开头并且由八位数字组成。 默认情况下，如果
 **[!UICONTROL Brand Safety categories]:** Types of [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39] brand safety category filters to apply. The advertiser-level defaults are selected for new placements, but you can change the settings:
 -->
 
-* [!UICONTROL DoubleVerify]：
+* [!UICONTROL DoubleVerify]:
 
    * **[!UICONTROL Block sites that are]：**（可选）默认情况下阻止一个或多个类型的库存上下文。 可能需额外付费。
 
-* [!UICONTROL Peer 39]：
+* [!UICONTROL Peer 39]:
 
    * **目标站点：**（可选）默认情况下要定位一种或多种类型的库存属性。 可能需额外付费。
 
-* [!UICONTROL ComScore]：
+* [!UICONTROL ComScore]:
 
    * **阻止以下站点：**（可选）默认情况下阻止一个或多个类型的清单属性。 可能需额外付费。
 

@@ -1,55 +1,55 @@
 ---
-title: Advertiser account settings
-description: See descriptions of the available advertiser settings.
+title: 广告商帐户设置
+description: 请参阅可用广告商设置的描述。
 role: User, Admin
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 0%
 
 ---
 
-# Advertiser account settings
+# 广告商帐户设置
 
-*Not Available to Read-only Users*
+*对只读用户不可用*
 
 <!-- Not published -->
 
-## [!UICONTROL General] settings
+## [!UICONTROL General]设置
 
-**[!UICONTROL Advertiser Name]:** The advertiser name.
+**[!UICONTROL Advertiser Name]：**&#x200B;广告商名称。
 
-**[!UICONTROL Category]:** The category in which the advertiser&#39;s business operates. The category is communicated to the publishers when you bid on inventory. Make sure you choose a category that aligns with your ads, or publishers may reject your ads.
+**[!UICONTROL Category]：**&#x200B;广告商业务运营的类别。 当您对库存进行竞价时，会将类别告知发布者。 请确保您选择的类别与您的广告一致，否则发布者可能会拒绝您的广告。
 
 >[!NOTE]
 >
->If you select *[!UICONTROL Other]*, then the advertiser can&#39;t access DSP [!DNL On Demand Inventory].
+>如果选择&#x200B;*[!UICONTROL Other]*，则广告商无法访问DSP [!DNL On Demand Inventory]。
 
-**[!UICONTROL Advertiser URL]:** The advertiser&#39;s homepage or main website URL (beginning with `http://` or `https://`).
+**[!UICONTROL Advertiser URL]：**&#x200B;广告商的主页或主网站URL（以`http://`或`https://`开头）。
 
-**[!UICONTROL Share all private exchange feeds into this advertiser]:** (New advertiser accounts only) Makes all private exchange feeds configured for the organization&#39;s DSP account available to the advertiser.
+**[!UICONTROL Share all private exchange feeds into this advertiser]：** （仅限新广告商帐户）使为组织的DSP帐户配置的所有私有Exchange馈送可供广告商使用。
 
 ### [!UICONTROL Adobe IMS IDs]
 
-Advertisers with additional Adobe CX Enterprise products can share data across some products using the organization&#39;s unique ID for CX Enterprise. You can configure specific product integrations in the [!UICONTROL Integrations] section.
+使用其他Adobe CX Enterprise产品的广告商可以使用组织的CX Enterprise唯一ID在某些产品间共享数据。 您可以在[!UICONTROL Integrations]部分中配置特定的产品集成。
 
-**[!UICONTROL Account IMS org and ID]:** (Advertisers with additional CX Enterprise products that are licensed through an CX Enterprise account with multiple advertisers; optional) The advertiser&#39;s CX Enterprise organization ID.
+**[!UICONTROL Account IMS org and ID]：** （通过具有多个广告商的CX Enterprise帐户授予许可的、具有其他CX Enterprise产品的广告商；可选）广告商的CX Enterprise组织ID。
 
-**[!UICONTROL Advertiser IMS org and ID]:** (Advertisers with direct licenses for additional CX Enterprise products; optional) The advertiser&#39;s CX Enterprise organization ID.
+**[!UICONTROL Advertiser IMS org and ID]：** （具有其他CX Enterprise产品的直接许可证的广告商；可选）广告商的CX Enterprise组织ID。
 
 ### [!UICONTROL Integrations]
 
-(Optional) Additional CX Enterprise products linked to the DSP account. The products must be associated with the same CX Enterprise organization ID provided in the [!UICONTROL Adobe IMS IDs] section.
+（可选）与DSP帐户关联的其他CX Enterprise产品。 这些产品必须与[!UICONTROL Adobe IMS IDs]部分中提供的相同CX Enterprise组织ID相关联。
 
-**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Advertisers with [!DNL Advertising Search, Social, & Commerce] or who use Adobe Advertising conversion pixels) A [!DNL Search, Social, & Commerce] account with which DSP exchanges attribution data.
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]：** （具有[!DNL Advertising Search, Social, & Commerce]或使用Adobe Advertising转化像素的广告商）DSP与其交换归因数据的[!DNL Search, Social, & Commerce]帐户。
 
-**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Advertisers with Adobe Analytics; optional; applicable only to data collected using Adobe Advertising conversion tracking tags that include an [!DNL EF Redirect] and token only) One or more [!DNL Analytics] report suites to which DSP sends data it collects from publishers and supply-side partners. Analytics also sends the data it collects from the client&#39;s site to DSP.
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]：** (使用Adobe Analytics的广告商；可选；仅适用于使用Adobe Advertising转化跟踪标记（仅包括[!DNL EF Redirect]和令牌）收集的数据)一个或多个[!DNL Analytics]报告包，DSP会向这些报告包发送其从发布者和供应方合作伙伴收集的数据。 Analytics还会将其从客户端站点收集的数据发送到DSP。
 
-For the data to appear in the report suites, the appropriate [!DNL Search, Social, & Commerce] advertiser-level setting must be enabled. In addition, the advertiser&#39;s [!DNL Analytics] account must be configured to receive data from Adobe Advertising.
+对于要在报表包中显示的数据，必须启用相应的[!DNL Search, Social, & Commerce]广告商级别设置。 此外，必须将广告商的[!DNL Analytics]帐户配置为从Adobe Advertising接收数据。
 
 >[!WARNING]
 >
->If you remove a previously linked report suite, DSP no longer exchanges data with that suite. 预计会出现数据波动。
+>如果删除之前链接的报表包，DSP将不再与该报表包交换数据。 预计会出现数据波动。
 
 有关与[!DNL Analytics]集成的详细信息，请参阅[概述 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)。
 
@@ -133,19 +133,19 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ###### 视频
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. 使用此选项，选择标准。
+** **[!UICONTROL Include URL's whose average video viewability rate is]**. 使用此选项，选择标准。
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. 使用此选项，选择标准。
+** **[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. 使用此选项，选择标准。
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. 使用此选项，选择标准。
+** **[!UICONTROL Include URL's whose average player size composition is]**. 使用此选项，选择标准。
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### 显示
 
-**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. 使用此选项，选择标准。
+** **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. 使用此选项，选择标准。
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
@@ -173,7 +173,7 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 #### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
-**[!UICONTROL DoubleVerify Account]：** （仅限[!DNL DoubleVerify]个客户；可选）与组织的[!DNL DoubleVerify]帐户关联的[!DNL DoubleVerify Authentic Brand Safety]区段ID，默认用于所有投放。 使用为指定区段ID配置的自定义品牌安全规则指定ID会阻止竞价后的展示次数。 DSP按区段ID的使用情况向帐户收费。
+**[!UICONTROL DoubleVerify Account]：** （仅限[!DNL DoubleVerify]个客户；可选）与组织的[!DNL DoubleVerify]帐户关联的[!DNL DoubleVerify Authentic Brand Suitability]区段ID，默认用于所有投放。 使用为指定区段ID配置的自定义品牌适用性规则指定ID会阻止竞价后的展示次数。 DSP按区段ID的使用情况向帐户收费。
 
 ID必须以“51”开头并且由八位数字组成。 您可以在版面级别更改或删除广告商级别ID。
 

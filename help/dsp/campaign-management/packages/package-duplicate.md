@@ -4,19 +4,14 @@ description: 了解如何复制包。
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
 TQID: https://experienceleague.adobe.com/fbOXyvipyiJ7rOlCroMLHvSqCqXPIEL9FTHmqm7CQu8
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: 420
 ht-degree: 0%
 
 ---
@@ -72,7 +67,7 @@ ht-degree: 0%
    * 地理目标
    * 事件像素
    * 广告
-   * 位置级别[!DNL DoubleVerify Authentic Brand Safety]区段（覆盖广告商级别区段）
+   * 位置级别[!DNL DoubleVerify Authentic Brand Suitability]区段（覆盖广告商级别区段）
 
 ## 配置新包的最佳实践
 
@@ -95,7 +90,7 @@ ht-degree: 0%
 
    * 根据需要将事件像素附加到投放位置和广告。
 
-   * 包括投放所需的地理目标和投放级别[!DNL DoubleVerify Authentic Brand Safety]区段。
+   * 包括投放所需的地理目标和投放级别[!DNL DoubleVerify Authentic Brand Suitability]区段。
 
    * 对于程序化保证交易，使用新交易ID并创建默认投放位置。
 
