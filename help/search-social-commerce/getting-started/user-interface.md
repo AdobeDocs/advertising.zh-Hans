@@ -4,16 +4,12 @@ description: 了解在何处访问不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/KqfmmT9cFZpNIoIiaA0OjGlMDf4hvQzNhPpH8lYtViw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
 workflow-type: tm+mt
-source-wordcount: 1392
+source-wordcount: 1422
 ht-degree: 0%
 
 ---
@@ -34,13 +30,13 @@ ht-degree: 0%
 
 ### 主菜单选项
 
-您的角色决定了可用的选项：<!-- add link when available -->
+您的[产品配置文件](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles)决定了可用的选项：
 
 * **[!UICONTROL Dashboard]**&#x200B;子菜单：
 
    * **[!UICONTROL Overview]**&#x200B;打开一个可配置的[!UICONTROL Dashboard]视图，其中包含所有项目组合的性能可视化图表。
 
-   * **[!UICONTROL Recommendations]**：退出新站点并打开旧版[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]视图。
+   * **[!UICONTROL Recommendations]**：打开来自[!DNL Google Ads]和[!DNL Microsoft Advertising]的发布者推荐的只读视图，以及来自[!DNL Microsoft Advertising.]的发布者分析要查看和响应您的推荐和见解，请使用旧版[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
 
    * **[!UICONTROL Alerts & Notifications]**：退出新站点并打开旧版[!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]视图。
 
@@ -150,15 +146,15 @@ Tools > Admin > Data Source Setup
 
 ### 顶行： CX Enterprise菜单
 
-* 您有权访问的CX Enterprise组织的可选列表。
+* 您可以访问的CX企业组织的可选列表。
 
 * ![帮助中心](/help/search-social-commerce/assets/help-main-menu.png "帮助中心")帮助菜单，其中包含指向文档和其他信息的链接。
 
-* ![通知](/help/search-social-commerce/assets/notifications-aec.png "通知")由CX Enterprise列出请求、通知和公告的面板。
+* ![通知](/help/search-social-commerce/assets/notifications-aec.png "通知")一个面板，其中列出了CX Enterprise的请求、通知和公告。
 
 * ![应用程序](/help/search-social-commerce/assets/apps.png "应用程序")可切换到的Adobe CX Enterprise解决方案和服务列表。
 
-* ![帐户](/help/search-social-commerce/assets/account.png "帐户")有关您的CX Enterprise帐户个人资料的信息，您可以从中编辑首选项并注销。
+* ![帐户](/help/search-social-commerce/assets/account.png "帐户")有关您的CX Enterprise帐户配置文件的信息，您可以从中编辑首选项并注销。
 
 ### 第二行：其他搜索、社交和Commerce菜单
 
@@ -208,7 +204,7 @@ Tools > Admin > Data Source Setup
 
 * ![警报通知](/help/search-social-commerce/assets/notifications-panel.png "警报通知")列出搜索、社交和Commerce通知的面板。
 
-  当您[通过Adobe CX Enterprise](sign-in.md)登录时，此面板会显示您来自CX Enterprise的通知。
+  当您[通过Adobe CX Enterprise](sign-in.md)登录时，此面板会显示您从CX Enterprise收到的通知。
 
 * ![帮助菜单](/help/search-social-commerce/assets/help-main-menu.png "帮助菜单")帮助菜单，其中包括指向文档和其他信息的链接。
 
@@ -216,7 +212,7 @@ Tools > Admin > Data Source Setup
 
 * ![用户配置文件](/help/search-social-commerce/assets/user-profile.png "用户配置文件")指向您的配置文件的链接，您可以从中注销。
 
-  当您[通过Adobe CX Enterprise](sign-in.md)登录时，您还可以编辑您的CX Enterprise配置文件，包括CX Enterprise密码和通知设置。
+  当您[通过Adobe CX Enterprise ](sign-in.md)登录时，您还可以编辑CX Enterprise配置文件，包括CX Enterprise密码和通知设置。
 
 >[!MORELIKETHIS]
 >
