@@ -4,9 +4,13 @@ description: 了解在何处访问不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/KqfmmT9cFZpNIoIiaA0OjGlMDf4hvQzNhPpH8lYtViw
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
 workflow-type: tm+mt
 source-wordcount: 1422
@@ -212,7 +216,7 @@ Tools > Admin > Data Source Setup
 
 * ![用户配置文件](/help/search-social-commerce/assets/user-profile.png "用户配置文件")指向您的配置文件的链接，您可以从中注销。
 
-  当您[通过Adobe CX Enterprise ](sign-in.md)登录时，您还可以编辑CX Enterprise配置文件，包括CX Enterprise密码和通知设置。
+  当您[通过Adobe CX Enterprise &#x200B;](sign-in.md)登录时，您还可以编辑CX Enterprise配置文件，包括CX Enterprise密码和通知设置。
 
 >[!MORELIKETHIS]
 >

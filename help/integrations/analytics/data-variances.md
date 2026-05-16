@@ -4,11 +4,20 @@ description: ' [!DNL Analytics] 和Adobe Advertising之间的预期数据差异'
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
 TQID: https://experienceleague.adobe.com/rTwYQgWuhRefe4R9FahGydneNVpv9mP7pqhOeDQwP34
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: d9510790-d834-436d-8423-8d69cd50464a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 3d540e71081d223cc4e9ee28bb8b4f168c07ff50
 workflow-type: tm+mt
 source-wordcount: 3528
@@ -270,7 +279,7 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 ### 对非Adobe Advertising维度使用Adobe Advertising流量量度
 
-Adobe Advertising为Analytics提供了来自 [!DNL DSP] 和 [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md)的[特定于广告的流量量度和相关维度。 Adobe Advertising提供的量度仅适用于指定的Adobe Advertising维度，并且数据对于[!DNL Analytics]中的其他维度不可用。
+Adobe Advertising为Analytics提供了来自 [!DNL DSP] 和 [!DNL Search, Social, & Commerce][&#128279;](advertising-metrics-in-analytics.md)的特定于广告的流量量度和相关维度。 Adobe Advertising提供的量度仅适用于指定的Adobe Advertising维度，并且数据对于[!DNL Analytics]中的其他维度不可用。
 
 例如，如果您按帐户查看[!UICONTROL Adobe Advertising Clicks]和[!UICONTROL Adobe Advertising Cost]指标（这是Adobe Advertising维度），则按帐户显示总计[!UICONTROL Adobe Advertising Clicks]和[!UICONTROL Adobe Advertising Cost]。
 
@@ -284,12 +293,12 @@ Adobe Advertising为Analytics提供了来自 [!DNL DSP] 和 [!DNL Search, Social
 
 由于您无法将[!UICONTROL AMO Clicks]与网站上的维度一起使用，因此您可能希望找到等同于点击量的维度。 您可能倾向于使用访问次数作为替代，但这并不是最佳选择，因为每个访客可能具有多次访问。 (请参阅&quot;[点击次数与访问次数的差异](#clicks-vs-visits)&quot;。 我们建议改用[!UICONTROL AMO ID Instances]，这是捕获AMO ID的次数。 虽然[!UICONTROL AMO ID Instances]与[!UICONTROL AMO Clicks]不完全匹配，但它们是测量网站点击流量的最佳选项。 有关详细信息，请参阅“[针对 [!DNL Analytics for Advertising]](#data-validation)的点进数据验证”。
 
-对于不支持的维度](/help/integrations/assets/a4adc-amo-id-instances.png)，为![示例[!UICONTROL AMO ID Instances]而不是[!UICONTROL Adobe Advertising Clicks]
+对于不支持的维度![&#128279;](/help/integrations/assets/a4adc-amo-id-instances.png)，为示例[!UICONTROL AMO ID Instances]而不是[!UICONTROL Adobe Advertising Clicks]
 
 >[!MORELIKETHIS]
 >
 >* [概述 [!DNL Analytics for Advertising]](overview.md)
->*  [!DNL Analytics]](/help/integrations/analytics/ids.md)使用的[Adobe Advertising ID
+>*  [!DNL Analytics][&#128279;](/help/integrations/analytics/ids.md)使用的Adobe Advertising ID
 >* Analysis Workspace中的[Adobe Advertising指标](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 >* Adobe Advertising中的[[!DNL Analytics] 数据](/help/integrations/analytics/analytics-data-in-advertising.md)
 >* [为什么渠道数据在Adobe Advertising和 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)之间可能不同
