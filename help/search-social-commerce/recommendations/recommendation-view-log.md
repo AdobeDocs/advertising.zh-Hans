@@ -10,14 +10,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
 workflow-type: tm+mt
 source-wordcount: 128
 ht-degree: 0%
 
 ---
 
-# 查看帐户的发布者推荐
+# 查看帐户的发布者推荐的日志
 
 *[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户*
 

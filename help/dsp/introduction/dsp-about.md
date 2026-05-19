@@ -14,9 +14,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: bc11f38b8a81f964323d35a44aa3937674a768cd
 workflow-type: tm+mt
-source-wordcount: 329
+source-wordcount: 371
 ht-degree: 0%
 
 ---
@@ -27,17 +27,19 @@ Adobe Advertising是唯一能够大规模统一并自动化所有媒体、数据
 
 Adobe Advertising DSP (DSP)通过先进的第一方数据分段和激活功能、高级和差异化库存以及直观的跨渠道管理体验，提升广告商的媒体策略。 一些主要功能包括：
 
-* [**优化**](features/optimization.md)：您新的促销活动管理目标[!DNL Campaign Home]为您提供了高级工具、排序和见解，从而以前所未有的速度优化促销活动。 此外，预测和支出推荐可预测预期表现最佳的策略，不一定预测目前表现最佳的策略，因此您可以使用数据进行优化。
+* [**优化**](features/optimization.md)： [!DNL Campaign Home]为您提供高级工具、排序和见解，以便以前所未有的速度管理和优化营销活动。 此外，预测和支出推荐可预测预期表现最佳的策略，不一定预测目前表现最佳的策略，因此您可以使用数据进行优化。
 
 * [**跨设备解决方案**](features/cross-device-solutions.md)：与[!DNL LiveRamp]的DSP集成使您能够将受众扩展到用户的所有已知设备，并在这些设备上应用频率上限和度量值归因。
 
 * [**媒体质量套件**](features/brand-safety-media-quality.md)： DSP采取主动方法处理可能影响您的品牌和广告投资的问题。 DSP媒体质量套件是100%透明的，并采用多方面的方法来确保广告商的投资受到保护。 这包括品牌安全、可见性、防欺诈和[!DNL Ads.Txt]。
 
-* **与[Adobe Analytics](/help/integrations/analytics/overview.md)、Adobe Audience Manager和Adobe Experience Platform**&#x200B;的集成：与现有Adobe产品的集成允许您最大限度地利用第一方数据，并将广告置于与其余业务分析相同的级别。
+* **[与Adobe Analytics、Adobe Customer Journey Analytics、Adobe Audience Manager、Adobe Target和Adobe Experience Platform的集成](/help/integrations/home.md)**：与现有Adobe产品的集成允许您最大限度地利用第一方数据，并将广告置于与其余业务分析相同的级别。
 
-* [**与[!DNL Roku]**](/help/dsp/inventory/roku-inventory.md)的Premiere连接电视体验：[!DNL Roku]和DSP具有独特的合作关系，该合作关系允许您在[!DNL Roku]库存中激活您的第一方和第三方数据。 这种合作关系允许您在大屏幕上高效地大规模地接触受众。 通过利用唯一一个能够与[!DNL Roku] ID同步的平台，营销人员能够以精确和精确的方式利用确定性1:1定位。 营销人员还可以访问[!DNL Roku]库存和独特的测量见解。
+* [**与[!DNL Roku]**](/help/dsp/inventory/roku-inventory.md)的Premiere连接电视体验：[!DNL Roku]和DSP具有独特的合作关系，该合作关系允许您在[!DNL Roku]库存中激活第一方和第三方数据，从而在大屏幕中大规模高效地访问受众。 通过利用唯一一个能够与[!DNL Roku] ID同步的平台，营销人员可以准确利用确定性1:1定位，并访问[!DNL Roku]库存和独特的测量见解。
+
+* [**AI辅助功能**](/help/dsp/introduction/features/ai-agents.md)： DSP提供AI辅助代理，以帮助您创建可重复使用的受众，并查找产品使用说明和最佳实践。
 
 >[!MORELIKETHIS]
 >
->* [视频： Advertising DSP简介](https://experienceleague.adobe.com/zh-hans/docs/advertising-learn/tutorials/dsp/intro)
->* [视频： DSP帐户结构和用户界面](https://experienceleague.adobe.com/zh-hans/docs/advertising-learn/tutorials/dsp/ui)
+>* [视频： Advertising DSP简介](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html?lang=zh-Hans)
+>* [视频： DSP帐户结构和用户界面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=zh-Hans)

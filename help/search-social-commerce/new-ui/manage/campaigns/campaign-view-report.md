@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
 workflow-type: tm+mt
 source-wordcount: 342
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    * 要下载所有营销活动的数据，您无需选中任何复选框。 默认情况下包含所有营销活动。
 
-1. 在数据表上方的工具栏中，单击![下载](/help/search-social-commerce/assets/download.png "下载") **[!UICONTROL Report]**。
+1. 在数据表上方的工具栏中，单击![下载报表](/help/search-social-commerce/assets/download.png "下载报表") **[!UICONTROL Reports]**。
 
 1. 在[!UICONTROL Grid Reports]设置中，输入唯一的报表名称，然后单击&#x200B;**[!UICONTROL Generate]**。
 
@@ -57,9 +57,9 @@ ht-degree: 0%
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
 
-1. 在数据表上方的工具栏中，单击![下载](/help/search-social-commerce/assets/download.png "下载") **[!UICONTROL Report]**。
+1. 在数据表上方的工具栏中，单击![下载报表](/help/search-social-commerce/assets/download.png "下载报表") **[!UICONTROL Reports]**。
 
-1. 在[!UICONTROL Recently Generated]对话框的[!UICONTROL Grid Reports]列表中，单击文件名旁边的![下载](/help/search-social-commerce/assets/download.png "下载")。
+1. 在[!UICONTROL Grid Reports]对话框的[!UICONTROL Recently Generated]列表中，单击文件名旁边的![下载](/help/search-social-commerce/assets/download.png "下载")。
 
    将按照浏览器的正常过程下载文件。
 
@@ -67,9 +67,9 @@ ht-degree: 0%
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
 
-1. 在数据表上方的工具栏中，单击![下载](/help/search-social-commerce/assets/download.png "下载") **[!UICONTROL Report]**。
+1. 在数据表上方的工具栏中，单击![下载报表](/help/search-social-commerce/assets/download.png "下载报表") **[!UICONTROL Reports]**。
 
-1. 在[!UICONTROL Recently Generated]对话框的[!UICONTROL Grid Reports]列表中，单击文件名旁边的![删除](/help/search-social-commerce/assets/delete-new.png "删除")。
+1. 在[!UICONTROL Grid Reports]对话框的[!UICONTROL Recently Generated]列表中，单击文件名旁边的![删除](/help/search-social-commerce/assets/delete-new.png "删除")。
 
 >[!MORELIKETHIS]
 >

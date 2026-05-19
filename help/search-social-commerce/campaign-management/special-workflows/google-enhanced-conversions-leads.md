@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 341834cab1e23ddae903ecdeb6946cb004ea777e
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: 413
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 在Search、Social和Commerce中，您可以：
 
-* 查看潜在客户的现有增强型转化。
+* 查看潜在客户的现有增强型转化。<!-- Where is this? -->
 
   搜索、社交和Commerce每天在广告商时区的05:00同步潜在客户的现有增强型转化。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 1. 配置并实施标记以跟踪转化操作。
 
-   有关说明，请参阅[!DNL Google Ads]帮助以使用[标记 [!DNL Google] 为潜在客户](https://support.google.com/google-ads/answer/11021502)创建增强型转化标记，或使用[&#x200B; [!DNL Google Tag Manager]为](https://support.google.com/google-ads/answer/11347292)创建标记。
+   有关说明，请参阅[!DNL Google Ads]帮助以使用 [!DNL Google] 标记[&#128279;](https://support.google.com/google-ads/answer/11021502)为潜在客户[创建增强型转化标记，或使用 [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292)为创建标记。
 
 1. 为[搜索、社交和Commerce](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)或[Google广告](https://support.google.com/google-ads/answer/12216226)中的潜在客户创建增强型转化操作。
 

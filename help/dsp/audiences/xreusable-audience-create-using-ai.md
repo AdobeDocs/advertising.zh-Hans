@@ -4,7 +4,7 @@ description: 了解如何使用人工智能辅助的受众代理在Adobe Adverti
 feature: DSP Audiences
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: fc5533c8823c2a7610861fdc077d5cdfe0c2d377
+source-git-commit: e95a352e48c6e02ae7f89beb176d2cccaf4b0a71
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 0%

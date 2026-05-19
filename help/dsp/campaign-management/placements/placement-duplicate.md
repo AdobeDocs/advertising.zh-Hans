@@ -12,9 +12,9 @@ subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: 445
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 
    默认情况下，新投放位置适用于原始广告类型、分配给原始广告商和促销活动、具有从当天开始的航班时刻表、已暂停并且不包含原始广告。
 
-   在创建多个版面时，新版面名称将依次附加一个数字，该数字使用&lt;*original_placement_name #N*>约定，如“My Placement #2”。
+   创建多个版面时，新版面名称将依次使用约定&lt;*original_placement_name #N*>附加一个数字，如“我的版面#2”。
 
 1. 单击&#x200B;**[!UICONTROL Submit]**。
 
@@ -77,7 +77,7 @@ ht-degree: 0%
    * 地理目标
    * 事件像素
    * 广告
-   * 位置级别[!DNL DoubleVerify Authentic Brand Safety]区段（覆盖广告商级别区段）
+   * 位置级别[!DNL DoubleVerify Authentic Brand Suitability]区段（覆盖广告商级别区段）
 
 ## 配置新投放位置的最佳实践
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
    * 根据需要将事件像素附加到投放位置和广告。
 
-   * 根据投放位置需要包括地理目标和投放位置级别[!DNL DoubleVerify Authentic Brand Safety]区段。
+   * 根据投放位置需要包括地理目标和投放位置级别[!DNL DoubleVerify Authentic Brand Suitability]区段。
 
    * 对于程序化保证交易，使用新交易ID并创建默认投放位置。
 
