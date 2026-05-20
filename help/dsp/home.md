@@ -6,11 +6,25 @@ product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
 TQID: https://experienceleague.adobe.com/HgUQENjtjLRyizGpXGBRYZOanvoouKfGdcjDyf5Dlaw
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+  - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 845ec19227f14205ec4cd69c2f2f0114bd97cf48
 workflow-type: tm+mt
 source-wordcount: 7338
@@ -24,7 +38,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2026年5月20日 | 第一方受众源，通用ID，[!UICONTROL Placements] | 澳大利亚的广告商现在可以导入[!DNL AdFixus]个通用ID，其中包含目标广告的区段映射。 DSP会按原样从[!DNL AdFixus]导入第一方区段，而不会将其转换为其他ID类型。 该过程包括创建受众源并与[!DNL AdFixus]团队共享自动生成的密钥。 | 请参阅“从 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)导入第一方区段”、“[关于第一方受众源](/help/dsp/audiences/sources/source-about.md)”和“[管理受众源以激活通用ID受众](/help/dsp/audiences/sources/source-manage.md)”。[ |
+| 2026年5月20日 | 第一方受众源，通用ID，[!UICONTROL Placements] | 澳大利亚的广告商现在可以导入[!DNL AdFixus]个通用ID，其中包含目标广告的区段映射。 DSP会按原样从[!DNL AdFixus]导入第一方区段，而不会将其转换为其他ID类型。 该过程包括创建受众源并与[!DNL AdFixus]团队共享自动生成的密钥。 | 请参阅“从 [!DNL AdFixus][&#128279;](/help/dsp/audiences/sources/source-adfixus.md)导入第一方区段”、“[关于第一方受众源](/help/dsp/audiences/sources/source-about.md)”和“[管理受众源以激活通用ID受众](/help/dsp/audiences/sources/source-manage.md)”。 |
 | 2026年5月11日 | 可重用[!UICONTROL Audiences] | （Beta功能）您现在可以使用人工智能辅助的受众代理创建可重复使用的受众。 以自然语言提示描述您的目标受众，代理会建议第三方区段，并构建受众表达式以用作目标或排除项。 | 请参阅&quot;[创建可重复使用的受众](/help/dsp/audiences/reusable-audience-create.md)&quot;。 |
 | 2026年4月29日 | [!UICONTROL Conversions] | 您现在可以在DSP中管理Adobe Advertising为贵组织跟踪的所有转化指标。 这些量度仍可以在Advertising Search、Social和Commerce中使用，以便在该处的报表和优化中使用。 | 请参阅&quot;[管理转化](/help/dsp/admin/conversion-metrics-manage.md)&quot;。 |
 | | [!UICONTROL Custom Objectives] | 您现在可以在DSP中创建和管理用于自定义目标的目标。 | 请参阅&quot;[管理自定义目标](/help/dsp/admin/custom-objectives-manage.md)&quot;。 |
@@ -46,7 +60,7 @@ ht-degree: 0%
 | | [!UICONTROL Placements], [!UICONTROL Ads] | 您现在可以从[!UICONTROL Placements]视图和版面[!DNL Inspector]中分离广告。 投放位置[!DNL Inspector]不再提供暂停广告的选项。<br><br>要使用批量处理工作表从投放位置中删除广告，请删除投放位置的广告信息（包括审批状态），然后上载编辑后的批量处理工作表。 | 请参阅“[从投放位置附加和删除广告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)”和“[查看投放位置的网站、广告、频率和库存详细信息](/help/dsp/campaign-management/reports/placement-details-view.md)”。<br><br>另请参阅“[使用批量处理工作表查看和编辑营销活动组件设置](/help/dsp/campaign-management/campaign-components-review-edit.md)”。 |
 | | 用于投放定位的[!DNL On Demand]库存列表 | 您现在可以从[!UICONTROL Inventory] > [!UICONTROL Deal Lists]创建投放位置中包含或排除的[!DNL On Demand]交易列表。 在版面设置中使用列表。 | 请参阅[管理交易列表](/help/dsp/inventory/lists-deals-manage.md)和[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)。 |
 | 2025年9月3日 | [!UICONTROL Custom Reports] | （Beta功能）位于[!UICONTROL Reports] > [!UICONTROL Custom Reports]的新[!UICONTROL Content BETA]报表允许您通过一组新的内容维度（如标题、流派和内容评级）查看标准、支出、性能、可视性、注意度和转化量度，以及自定义目标。 | 请参阅“[关于自定义报告](/help/dsp/reports/report-about.md)”和“[可用的报告列](/help/dsp/reports/report-columns.md)”。 |
-|  | [!UICONTROL Audiences]、[!UICONTROL Placements]、[!UICONTROL Pulse]警报中的第一方区段 | （DSP将其经过哈希处理的电子邮件ID转换为[!DNL  LiveRamp RampID]区段的广告商）未附加到活动、计划或暂停的投放位置的第一方[!DNL RampID]区段现在会暂停。  暂停区段时：<ul><li>在受众库的[!UICONTROL First Party Segments]选项卡上（在从[!UICONTROL Audiences] > [!UICONTROL All Audiences]或在版面设置中创建或编辑受众时可用），该区段标为“[!UICONTROL Auto paused]”。</li><li> [!UICONTROL Pulse]将显示所有关联投放位置的警报，声明该区段已暂停。</li></ul>DSP会继续从客户数据平台收集经过哈希处理的电子邮件ID，并保留七天的数据，但根据要包含在该区段中的过期时间，会更早过期的数据除外。 当通过a\)将其添加到活动、已计划或暂停的投放位置或b\)将现有已分配投放位置更改为“活动”、“已计划”或“已暂停”状态来激活区段时，保留的经过哈希处理的电子邮件ID将转换为[!DNL RampIDs]。 | 请参阅“[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)”和“[受众设置](/help/dsp/audiences/audience-settings.md)”。 |
+|  | [!UICONTROL Audiences]、[!UICONTROL Placements]、[!UICONTROL Pulse]警报中的第一方区段 | （DSP将其经过哈希处理的电子邮件ID转换为[!DNL &#x200B; LiveRamp RampID]区段的广告商）未附加到活动、计划或暂停的投放位置的第一方[!DNL RampID]区段现在会暂停。  暂停区段时：<ul><li>在受众库的[!UICONTROL First Party Segments]选项卡上（在从[!UICONTROL Audiences] > [!UICONTROL All Audiences]或在版面设置中创建或编辑受众时可用），该区段标为“[!UICONTROL Auto paused]”。</li><li> [!UICONTROL Pulse]将显示所有关联投放位置的警报，声明该区段已暂停。</li></ul>DSP会继续从客户数据平台收集经过哈希处理的电子邮件ID，并保留七天的数据，但根据要包含在该区段中的过期时间，会更早过期的数据除外。 当通过a\)将其添加到活动、已计划或暂停的投放位置或b\)将现有已分配投放位置更改为“活动”、“已计划”或“已暂停”状态来激活区段时，保留的经过哈希处理的电子邮件ID将转换为[!DNL RampIDs]。 | 请参阅“[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)”和“[受众设置](/help/dsp/audiences/audience-settings.md)”。 |
 | 2025年8月13日 | [!UICONTROL Placements] | 您现在可以在同一包中复制投放位置。 在[!UICONTROL Duplicate Placement]设置中，“[!UICONTROL Choose Package]”设置具有“[!UICONTROL Same Package]”选项。 | 请参阅“[重复版面](/help/dsp/campaign-management/placements/placement-duplicate.md)”。 |
 | | [!UICONTROL Insights] | （Beta功能）分析现在包含一个“家庭转化”选项卡，其中包含四个数据可视化图表。 对Adobe Advertising跟踪和Adobe Analytics跟踪的转化均提供支持。 | 请参阅“[关于见解](/help/dsp/campaign-management/insights/insights-about.md)”。 |
 | 2025年7月30日 | [!UICONTROL Placements]、[!UICONTROL Private]和[!DNL On-Demand]交易 | 在置入设置中，已删除私人和[!DNL On-Demand]交易的现有“[!UICONTROL Ensure Fixed or Floor Price for the bid]”设置并移动了功能。 现在，使用“[!UICONTROL Goals]”部分中的新“[!UICONTROL Min Bid]”设置以指定基于库存类型的最低出价：<ul><li><i>[!UICONTROL None]：</i>没有任何库存类型的最低出价。 如果计算的竞价小于目标交易的固定/底价，则DSP不竞价。 这可能会影响规模。</li><li><i>[!UICONTROL Fixed/floor price for Private deals only],</i> <i>[!UICONTROL Fixed/floor price for On-demand deals only]、</i>和<i>[!UICONTROL Fixed/floor price for both Private and On-demand deals]</i>： DSP至少对指定交易类型的固定/底价出价，即使算法计算的出价少于此价格。 这可能会影响性能。</li></ul> | 请参阅“[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)”。 |
@@ -104,7 +118,7 @@ ht-degree: 0%
 | 2024年1月10日 | [!UICONTROL Placements] | 您现在可以使用电子表格快速自定义多个投放位置的广告计划：<ul><li>您可以下载投放位置的广告计划模板。 您可以根据需要编辑下载文件中的投放日期和广告轮换。</li><li>然后，您可以上传编辑的广告计划模板。</li></ul> | 请参阅“[编辑投放位置的广告计划](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)”。 |
 | 2023年12月21日 | [!UICONTROL Audiences] | 文档现在可用于使用[!DNL Amazon Web Services]与DSP共享[!DNL Tealium]客户数据平台的第一方数据。 您可以使用[!DNL RampIDs]将DSP投放位置定位到区段。 在[!UICONTROL Audience Targeting]的版面设置中，共享区段在[!UICONTROL First Party Segments]列表中可用。 | 请参阅“[关于从受众源激活经过身份验证的区段](/help/dsp/audiences/sources/source-about.md)”和“[工作流，了解如何将DSP与 [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)集成。” |
 | 2023年12月6日 | 规划者 | （Beta功能）该新规划工具有助于根据指定的预算和定位标准预测联网电视(CTV)投放的家庭级独特覆盖率。 评估多个计划后，您可以实施最符合期望结果的包和投放位置。 | 请参阅&quot;[关于DSP [!UICONTROL Planner]工具](/help/dsp/planner/planner-about.md)&quot;。 |
-|  | 优化 | 两个新的基于点击的优化目标可供所有用户使用： **[!UICONTROL Highest ROAS (click focused) - Custom Goal]**&#x200B;和&#x200B;**[!UICONTROL Lowest CPA (click focused) - Custom Goal]**。 | 查看[优化目标以及如何使用它们](/help/dsp/optimization/optimization-goals.md)以及用于设置效果营销活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)。[ |
+|  | 优化 | 两个新的基于点击的优化目标可供所有用户使用： **[!UICONTROL Highest ROAS (click focused) - Custom Goal]**&#x200B;和&#x200B;**[!UICONTROL Lowest CPA (click focused) - Custom Goal]**。 | 查看[优化目标以及如何使用它们](/help/dsp/optimization/optimization-goals.md)以及用于设置效果营销活动的最佳实践[&#128279;](/help/dsp/optimization/campaign-best-practices-performance.md)。 |
 | 2023年9月27日 | 优化 | 两个新的基于触及的优化目标（**[!UICONTROL Always Max Bid and Maximize Reach]**&#x200B;和&#x200B;**[!UICONTROL Lowest Cost per Reach]**）可帮助您分别使用相同的展示次数或支出级别来触及尽可能多的独特家庭。 这两个目标在包级别和投放位置级别均可用。 | 请参阅“[优化目标及使用方法](/help/dsp/optimization/optimization-goals.md)”。 |
 | 2023年8月23日 | [!UICONTROL Placements] | 新的投放位置预测工具显示了特定定位策略的预测展示次数、花费和最佳最高竞价数。 预测是根据投放位置提供的总体库存和可用的独特用户数来计算的。 | 请参阅“[查看投放预测报告](/help/dsp/campaign-management/reports/placement-forecast.md)”。 |
 |  |  | 现在，您可以通过下载促销活动或一个或多个版面的电子表格文件，编辑该文件以在新的“[!UICONTROL Attached Ad ID]”列中包含值，然后上传编辑后的文件，来快速将多个广告与版面关联。 使用列将广告添加到投放位置，但不会删除它们。<br><br>要下载包含广告名称和相关[!UICONTROL Ad ID]的列表，请转到[!UICONTROL Ads]视图，创建包含[!UICONTROL ID]量度的自定义视图，然后导出数据。 | 请参阅[在电子表格中查看和编辑版面设置](/help/dsp/campaign-management/placements/placement-qa.md)。<br><br>另请参阅[从营销活动管理视图中导出数据](/help/dsp/campaign-management/reports/campaign-export-data.md)。 |
@@ -123,7 +137,7 @@ ht-degree: 0%
 | 2022年11月23日 | 交易 | [!UICONTROL Inventory] > [!UICONTROL Deals]视图现在包含“[!UICONTROL Deal Health]”列，该列指示每个私人交易的运行状况：“[!UICONTROL Success]”、“[!UICONTROL Warning]”、“[!UICONTROL Critical]”或“[!UICONTROL Unavailable]”。 您可以单击状态来查看更多详细信息，包括交易未按预期执行或支出的原因以及解决潜在问题的步骤。 | — |
 | 2022年10月27日 | [!UICONTROL Campaigns] | 现在，每个包和投放位置都可使用更改日志，其中显示在选定日期范围内所做的更改。 | 请参阅“[查看包的更改日志](/help/dsp/campaign-management/packages/package-change-log.md)”和“[查看投放位置的更改日志](/help/dsp/campaign-management/placements/placement-change-log.md)”。 |
 |  |  | 您现在可以同时更改多个投放位置的[!UICONTROL Intraday Pacing]设置。 | 请参阅“[编辑版面](/help/dsp/campaign-management/placements/placement-edit.md#edit-multiple-placements)”和“[版面设置](/help/dsp/campaign-management/placements/placement-settings.md)”。 |
-|  |  | “[!UICONTROL Intraday Pacing]”列在Excel QA电子表格中可用。 | 请参阅已下载/已上传电子表格](/help/dsp/campaign-management/placements/placement-qa.md#qa-sheet-columns)中的[列。 |
+|  |  | “[!UICONTROL Intraday Pacing]”列在Excel QA电子表格中可用。 | 请参阅已下载/已上传电子表格[&#128279;](/help/dsp/campaign-management/placements/placement-qa.md#qa-sheet-columns)中的列。 |
 |  |  | 营销活动视图中提供了“[!UICONTROL Intraday Pacing]”列。 | 请参阅“[创建自定义列视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)”和“[编辑自定义列视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit)”。 |
 |  |  | 您可以按[!UICONTROL Intraday Pacing]设置筛选“包”和“投放位置”视图。 | 请参阅&quot;[过滤促销活动数据](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#filter-data-tables)&quot;。 |
 | 2022年10月6日 | 营销活动 | 新的与步调相关的量度列可用于营销活动视图：“昨天的OTS”（关于目标支出）、“昨天的投放”、“昨天的目标”、“今天的OTS”（关于目标支出）、“今天的投放”和“今天的目标”。 | 请参阅“[创建自定义列视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)”和“[编辑自定义列视图](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit)”。 |
