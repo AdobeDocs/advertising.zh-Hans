@@ -4,23 +4,14 @@ description: 了解受众管理功能。
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
 TQID: https://experienceleague.adobe.com/IocF0s67I-vJAUx9Eom-aWEf-Q6H-ZOjczyGr0f9PsA
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: c193c532-b70e-4556-bde7-857186cbe140
-  - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: c193c532-b70e-4556-bde7-857186cbe140id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
 workflow-type: tm+mt
-source-wordcount: 1394
+source-wordcount: 1457
 ht-degree: 0%
 
 ---
@@ -37,11 +28,13 @@ ht-degree: 0%
 
      有关Adobe Advertising对CCPA选择退出销售请求的支持的更多信息，请参阅[Adobe Advertising对《加州消费者隐私法案》的支持：消费者选择退出销售支持](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)。
 
-* （Beta功能）[获取并使用通用ID进行无令牌定位](/help/dsp/audiences/universal-ids.md)：
+* [获取并使用通用ID进行无指南定位](/help/dsp/audiences/universal-ids.md)：
 
    * 手动将经过身份验证的[!DNL LiveRamp] [!DNL RampID]区段直接发送到DSP。
 
    * 允许DSP从您的客户数据平台导入第一方区段，并将它们转换为支持的通用ID类型。
+
+   * 导入包含[!DNL AdFixus]通用ID的第一方[!DNL AdFixus]区段（仅限澳大利亚）。 然后，您可以将投放位置定位到[!DNL AdFixus] ID，将这些区段添加到[可重用受众](/help/dsp/audiences/reusable-audience-create.md)，并使用“[从 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)导入第一方区段”中所述的报表。
 
    * 无需执行任何额外步骤，即可在投放目标中包含包含通用ID的第三方区段。
 
@@ -57,7 +50,11 @@ ht-degree: 0%
 
 * DSP可以拉入您的Adobe Audience Manager和其他[!DNL Adobe]受众来进行定位。 有关先决条件和说明，请参阅&#39;&#39;[导入广告定位的Adobe Audience Manager区段](/help/integrations/audience-manager/import-audiences.md)&#39;。
 
-* DSP可以使用[源功能](/help/dsp/audiences/sources/source-about.md)将第一方数据区段从支持的客户数据平台转换为具有通用ID的区段。 您也可以[手动将经过身份验证的 [!DNL LiveRamp] [!DNL RampID]区段直接发送到DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md)。
+* DSP可以使用[源功能](/help/dsp/audiences/sources/source-about.md)将第一方数据区段从支持的客户数据平台转换为具有通用ID的区段。
+
+* 澳大利亚广告商可以使用[源功能](/help/dsp/audiences/sources/source-about.md)导入[!DNL AdFixus]第一方区段，而无需将您的[!DNL AdFixus]通用ID转换为其他ID类型。
+
+* DSP是[!DNL LiveRamp]的目标平台，因此您可以[手动将经过身份验证的 [!DNL LiveRamp] [!DNL RampID]区段直接发送到DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md)。
 
 * DSP可以直接从数据管理平台(DMP)导入您的其他第一方数据区段，并根据需要将其提供给任何一组广告商。
 
@@ -79,13 +76,13 @@ ht-degree: 0%
 
    * CCPA根据《加州消费者隐私法案》(CCPA)的规定，对在您的网站上提交选择退出销售请求的用户的选择退出销售受众区段。
 
-* 所有导入的第一方数据区段，包括转换为通用ID的区段。
+* 所有导入的第一方数据区段，包括转换为通用ID的区段和包含导入[!DNL AdFixus]通用ID的区段。
 
   为向通用ID投放展示次数而收取额外费用。 有关费率，请参阅[关于第一方受众源](/help/dsp/audiences/sources/source-about.md)。
 
 * 所有导入的自定义第三方数据区段。
 
-* （仅针对美国的投放位置） [所有第三方数据区段均可供来自30多家提供商的DSP客户使用](/help/dsp/audiences/third-party-data-providers.md)，包括[!DNL eXelate]、([!DNL Eyeota])、([!DNL LiveRamp])、[!DNL Lotame]、[!DNL Neustar]等。
+* （仅针对美国的投放位置） [所有第三方数据区段均可供来自30多家提供商的DSP客户使用](/help/dsp/audiences/third-party-data-providers.md)，包括[!DNL eXelate]、([!DNL Eyeota])、([!DNL LiveRamp])、[!DNL Lotame]、[!DNL TransUnion]等。
 
   您可以定位特定的区段，这些区段根据受众数据定位用户（例如，具有特定人口统计信息、兴趣或意图和/或行为配置文件的用户）。 您可以按数据提供商和类别浏览，按名称或区段ID搜索区段，或按数据提供商、活动区段大小、Web浏览器计数或设备计数过滤结果。
 
@@ -95,11 +92,11 @@ ht-degree: 0%
 
   使用分部的定价是预先协商的，在DSP中不可见。
 
-  [!DNL Analytics]中的区段在作为CX Enterprise受众创建或发布后大约一小时内可用。 直接来自Audience Manager或[!DNL Real-Time CDP]的区段在您共享它们后的24小时内可用。
+  [!DNL Analytics]中的区段在创建或发布为CX Enterprise受众后大约一小时内可用。 直接来自Audience Manager或[!DNL Real-Time CDP]的区段在您共享它们后的24小时内可用。
 
   >[!NOTE]
   >
-  >有关在这些解决方案中为区段设置和收集数据的信息，请参阅[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=zh-Hans)、[Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans)和[the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=zh-Hans)的文档。
+  >有关在这些解决方案中为区段设置和收集数据的信息，请参阅[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)、[Analytics](https://experienceleague.adobe.com/docs/analytics.html)和[the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html)的文档。
 
 ## 受众规模数据
 
@@ -151,11 +148,11 @@ ht-degree: 0%
 
 ### [!UICONTROL Sources]视图
 
-在[!UICONTROL Sources]视图中，您可以在受支持的客户数据平台上配置第一方区段的源，以将其转换为包含指定的通用ID类型的区段。 源设置包括自动生成的源密钥，您将将其提供给客户数据平台以建立连接。
+在[!UICONTROL Sources]视图中，您可以为来自受支持的客户数据平台的第一方区段配置源，以将其转换为包含指定通用ID类型的区段。 您还可以配置[!UICONTROL AdFixus ID]源以导入具有[!DNL AdFixus]个通用ID的区段（仅限澳大利亚）。 源设置包括要与CDP或[!DNL AdFixus]团队共享的自动生成的源密钥。
 
-有关支持的客户数据平台、支持的通用ID类型以及用于设置与每个客户数据平台的连接的工作流的详细信息，请参阅“[关于第一方受众源](/help/dsp/audiences/sources/source-about.md)”。
+有关支持的平台、支持的通用ID类型和设置工作流的详细信息，请参阅“[关于第一方受众源](/help/dsp/audiences/sources/source-about.md)”。
 
-翻译后的区段可用于包含在可重用受众和用于无痕定位的放置设置中。
+通过[!UICONTROL Sources]导入的区段可用于可重复使用的受众，以及在适用的位置设置中进行[!UICONTROL Universal ID]定位。
 
 >[!MORELIKETHIS]
 >
@@ -166,5 +163,6 @@ ht-degree: 0%
 >* [关于第一方受众源](/help/dsp/audiences/sources/source-about.md)
 >* [管理受众源以激活通用ID受众](/help/dsp/audiences/sources/source-manage.md)
 >* [从 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)手动导入经过身份验证的区段
+>* [从 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)导入第一方区段
 >* [可用的第三方数据提供程序](third-party-data-providers.md)
 >* [位置设置](/help/dsp/campaign-management/placements/placement-settings.md)

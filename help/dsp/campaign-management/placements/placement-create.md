@@ -4,22 +4,14 @@ description: 了解如何创建投放位置。
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
 TQID: https://experienceleague.adobe.com/QEpUfFvrVq62P64w-7gwFk2ujuCNzkegHKz6UancZDY
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
 workflow-type: tm+mt
-source-wordcount: 701
+source-wordcount: 713
 ht-degree: 0%
 
 ---
@@ -66,7 +58,7 @@ ht-degree: 0%
 
       1. 缩小受众范围。 这包括选择要在投放位置中定位的受众区段。
 
-         对于[!DNL Roku]投放位置，您可以通过包含一个或多个可与[（选择启用）确定性数据集匹配的受众区段，来利用 [!DNL Roku]](/help/dsp/inventory/roku-inventory.md)DSP与[!DNL Roku]的唯一受众匹配。
+         对于[!DNL Roku]投放位置，您可以通过包含一个或多个可与[!DNL Roku]（选择启用）确定性数据集匹配的受众区段，来利用[DSP与 [!DNL Roku]](/help/dsp/inventory/roku-inventory.md)的唯一受众匹配。
 
          未附加到活动、计划或暂停放置的第一方RampID区段将被暂停。 该区段在区段列表中标记为“自动暂停”。
 
@@ -80,7 +72,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >（[!DNL Roku]个投放位置） [!DNL Roku]批准的第三方像素供应商包括[!DNL Acxiom]、[!DNL Comscore]、[!DNL Data Plus Math]、[!DNL Experian]、[!DNL Factual]、[!DNL Kantar]、[!DNL Marketing Evolution]、[!DNL Neustar]、[!DNL Nielsen]、[!DNL Nielsen Catalina Solutions]、[!DNL NinthDecimal]、[!DNL Oracle]、[!DNL Placed]、[!DNL Polk]和[!DNL Research Now]。
+      >（[!DNL Roku]个投放位置） [!DNL Roku]批准的第三方像素供应商包括[!DNL Acxiom]、[!DNL Comscore]、[!DNL Data Plus Math]、[!DNL Experian]、[!DNL Factual]、[!DNL Kantar]、[!DNL Marketing Evolution]、[!DNL Nielsen]、[!DNL Nielsen Catalina Solutions]、[!DNL NinthDecimal]、[!DNL Oracle]、[!DNL Placed]、[!DNL Polk]、[!DNL Research Now]和[!DNL TransUnion]。
 
 1. 单击&#x200B;**[!UICONTROL Create Placement]**。
 
@@ -161,4 +153,4 @@ ht-degree: 0%
 >* 关于通用视频的[常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)
 >* [键盘快捷键](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [性能疑难解答](/help/dsp/optimization/troubleshooting-performance.md)
->* [视频：如何创建标准显示位置](https://video.tv.adobe.com/v/344997?captions=chi_hans)
+>* [视频：如何创建标准显示位置](https://video.tv.adobe.com/v/340454)
