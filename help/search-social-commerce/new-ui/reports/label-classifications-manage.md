@@ -2,7 +2,7 @@
 title: 管理标签分类
 description: 了解如何使用标签分类对帐户组件进行分组。
 feature: Search Label Classifications
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ### 标签值
 
-每个标签分类最多可以具有2000个值。 为分类创建特定标签值后，您可以使用批量处理工作表[&#128279;](#classification-values-assign-bulksheets)从促销活动管理视图[&#128279;](#classification-values-assign-campaign-management)或将标签值分配给促销活动、广告组、关键字、广告、投放位置和产品组。
+每个标签分类最多可以具有2000个值。 为分类创建特定标签值后，您可以使用批量处理工作表](#classification-values-assign-bulksheets)从促销活动管理视图](#classification-values-assign-campaign-management)或[将标签值分配给促销活动、广告组、关键字、广告、投放位置和产品组[。
 
 每个符合条件的实体都可以拥有多个分类的标签值，但每个分类只能有一个标签值。 标签值由子实体继承，但可以覆盖。 在最低层分配的值始终会覆盖在父层分配的值。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 * [创建标签分类](#classification-create)。
 
-* 使用批量处理工作表[&#128279;](#classification-values-assign-bulksheets)从营销活动管理视图[&#128279;](#classification-values-assign-campaign-management)或将分类值分配给帐户组件。
+* 使用批量处理工作表](#classification-values-assign-bulksheets)从营销活动管理视图](#classification-values-assign-campaign-management)或[将分类值分配给帐户组件[。
 
 * [从帐户组件中删除标签分类值](#classification-values-remove)。
 
@@ -161,7 +161,7 @@ ht-degree: 0%
 
    有关选择多行的提示，请参阅“[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)”。
 
-1. 在批量操作工具栏中，单击&#x200B;**-[!UICONTROL Unassign]** > **[!UICONTROL Label Classification]**。
+1. 在批量操作工具栏中，单击&#x200B;**[!UICONTROL Unassign]** > **[!UICONTROL Label Classification]**。
 
 1. 选中要从所选实体中删除的每个分类值旁边的复选框。<!-- As of 2/24/26, no way to tell which entity each value is assigned to -->
 
