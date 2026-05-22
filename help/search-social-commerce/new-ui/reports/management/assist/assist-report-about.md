@@ -2,7 +2,7 @@
 title: 关于协助报告
 description: 了解可提供有关转化路径见解的报表。
 feature: Search Reports, Search Assist Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
