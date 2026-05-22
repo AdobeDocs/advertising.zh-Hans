@@ -2,9 +2,9 @@
 title: （新UI）管理报表模板
 description: 了解如何创建、查看、编辑和删除计划报表和按需报表的可重用报表模板。
 feature: Search Reports
-source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
+source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -31,27 +31,29 @@ ht-degree: 0%
 
 1. 执行以下任一操作：
 
-* 若要从[!UICONTROL Latest Reports]选项卡或[!UICONTROL Templates]选项卡中从头开始创建模板，请创建报告，并启用&#x200B;**[!UICONTROL Save as Template]**&#x200B;设置。
+   * 若要从[!UICONTROL Latest Reports]选项卡或[!UICONTROL Templates]选项卡中从头开始创建模板，请创建报告，并启用&#x200B;**[!UICONTROL Save as Template]**&#x200B;设置。
 
-* 要基于现有模板创建模板，请执行以下操作：
+   * 要基于现有模板创建模板，请执行以下操作：
 
-   1. 单击&#x200B;**[!UICONTROL Templates]**&#x200B;选项卡。
+      1. 单击&#x200B;**[!UICONTROL Templates]**&#x200B;选项卡。
 
-   1. 选中现有模板旁边的复选框。
+      1. 执行以下任一操作：
 
-   1. 在批量操作工具栏中，单击[复制](/help/search-social-commerce/assets/duplicate.png)。
+         * 将光标悬停在模板行上，然后单击&#x200B;**...** > **[!UICONTROL Duplicate]**。
 
-   1. （可选）重命名模板，并在必要时编辑报表设置。
+         * 选中现有模板旁边的复选框。 在批量操作工具栏中，单击[复制](/help/search-social-commerce/assets/duplicate.png)。
 
-      单击&#x200B;**[!UICONTROL Next]**&#x200B;可在设置部分之间移动。
+      1. （可选）重命名模板，并在必要时编辑报表设置。
 
-   1. 启用&#x200B;**[!UICONTROL Save as Template]**&#x200B;设置。
+         单击&#x200B;**[!UICONTROL Next]**&#x200B;可在设置部分之间移动。
 
-   1. 单击&#x200B;**[!UICONTROL Create]**。
+1. 启用&#x200B;**[!UICONTROL Save as Template]**&#x200B;设置。
+
+1. 单击&#x200B;**[!UICONTROL Create]**。
 
 <!--
 
-Not available to anyone as of 5/21:
+Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
 
 ## Edit a report template {#template-edit}
 
@@ -75,7 +77,7 @@ You can change the settings for any report template you created. The new setting
 
 <!--
 
-Not available to anyone as of 5/21:
+Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
 
 ## View a report template {#template-view}
 
