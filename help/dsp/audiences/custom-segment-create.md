@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 0bc24ca7b64ff9cb6da4922076e8999a3816cbf5
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: 700
 ht-degree: 0%
 
 ---
@@ -32,15 +32,13 @@ ht-degree: 0%
 
 ## 区段跟踪ID5 ID的先决条件
 
-*Beta功能*
-
 * 在生成区段以跟踪与ID5 ID关联的用户之前，请与[!DNL ID5]签署协议并获取贵组织的合作伙伴ID。 有关说明，请联系您的Adobe客户团队。
 
 * 要在Adobe Analytics中进行测量，您必须：
 
-   1. 完成实施[的所有 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)先决条件，并确保在您的跟踪URL中填充[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
+   1. 完成实施 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)的所有先决条件，并确保在您的跟踪URL中填充[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
 
-   1. 在初始化最后一个事件服务之前的任何位置，将以下参数添加到网页，或添加到[所需的 [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)JavaScript代码内。
+   1. 在初始化最后一个事件服务之前的任何位置，将以下参数添加到网页，或添加到 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/javascript.md)所需的JavaScript代码内。
 
       ```window.id5PartnerId=ID5_PartnerID;```
 
@@ -77,9 +75,11 @@ ht-degree: 0%
 
    1. 单击&#x200B;**[!UICONTROL Advanced]**&#x200B;展开高级设置，然后选择区段标记跟踪的用户标识符类型：
 
-      * *[!UICONTROL Cookies]：*（默认）区段标记跟踪Cookie。
+      * [!UICONTROL Legacy]:
 
-      * [!UICONTROL Universal IDs (Beta)]：
+         * *[!UICONTROL Cookies]：*（默认）区段标记跟踪Cookie。
+
+      * [!UICONTROL Universal IDs]:
 
          * *[!UICONTROL ID5]：*&#x200B;区段标记跟踪[!DNL ID5] ID。 对于传送到通用ID的展示，不产生任何费用。
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 
          1. 复制标记为“[!UICONTROL Desktop or mobile ads]”的展示跟踪标记。
 
-         1. 将标记添加到每个相关广告的[!UICONTROL Pixel]选项卡或每个相关投放位置[!UICONTROL Event Pixels]的[[!UICONTROL Tracking]设置的](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking)部分。
+         1. 将标记添加到每个相关广告的[!UICONTROL Pixel]选项卡或每个相关投放位置[&#128279;](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking)的[!UICONTROL Tracking]设置的[!UICONTROL Event Pixels]部分。
 
 实施跟踪标记后，您可以在受众目标或排除项中将该区段用于任何投放位置。
 

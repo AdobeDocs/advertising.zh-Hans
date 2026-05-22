@@ -4,9 +4,9 @@ user-guide-title: Advertising 搜索、社交和 Commerce 指南
 user-guide-description: 本指南阐述管理、跟踪和报告搜索、社交和商业广告营销活动所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: Advertising 搜索、社交和 Commerce 指南
 index: true
-source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
+source-git-commit: 64c9c550873ff210d1adb4217ddeca5f67548b77
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2298'
 ht-degree: 2%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 2%
 # Advertising 搜索、社交和 Commerce 指南 {#search-social-commerce}
 
 <!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link doesn't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md) -->
+
+<!--
+    + [Publisher recommendations and insights support](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
+-->
 
 + [新增功能](home.md)
 + [关于本指南](help-about.md)
@@ -67,8 +71,9 @@ ht-degree: 2%
          + [从[!UICONTROL Downloads]菜单删除性能数据报表或批量处理工作表文件](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 + (Beta)新用户界面 {#new-ui}
    + [关于新的用户界面](/help/search-social-commerce/new-ui/new-ui-about.md)
-   + [查看您的性能仪表板](/help/search-social-commerce/new-ui/dashboard/dashboard-overview.md)
-   + 计划 {#plan}
+   + 仪表板 {#dashboard}
+      + [查看您的性能仪表板](/help/search-social-commerce/new-ui/dashboard/dashboard-overview.md)
+   + 目标 {#goals}
       + 目标 {#objectives}
          + [关于目标](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
          + [创建目标](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md)
@@ -77,11 +82,11 @@ ht-degree: 2%
          + [将权重推荐应用于目标](/help/search-social-commerce/new-ui/goals/objectives/objective-apply-weight-recommendations.md)
          + [下载目标的性能指标](/help/search-social-commerce/new-ui/goals/objectives/objective-download-performance-data.md)
          + [目标设置](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
-      + 模拟 {#simulations}
-         + [关于模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
-         + [运行或重新运行自定义模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
-         + [查看模拟详细信息](/help/search-social-commerce/new-ui/plan/simulations/simulation-view.md)
-         + [下载模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
+   + 计划 {#plan}
+      + [关于模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
+      + [运行或重新运行自定义模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
+      + [查看模拟详细信息](/help/search-social-commerce/new-ui/plan/simulations/simulation-view.md)
+      + [下载模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
       + [使用[!UICONTROL Spend Planner]](/help/search-social-commerce/new-ui/plan/spend-planner.md)
    + 管理 {#manage}
       + 项目组合 {#portfolios}
@@ -101,8 +106,8 @@ ht-degree: 2%
          + [从[!UICONTROL Portfolios]视图管理数据视图报告](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
       + 营销活动 {#campaigns}
          + [关于[!UICONTROL Campaigns]视图](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-         + [将营销活动分配给项目组合](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
-         + [从项目组合中删除营销活动](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+         + [将营销活动分配给项目组合](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio){target="_blank"}
+         + [从项目组合中删除营销活动](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio){target="_blank"}
          + [管理营销活动的限制分配](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
          + [从[!UICONTROL Campaigns]视图管理数据视图报告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
          + [更改营销活动的状态](/help/search-social-commerce/new-ui/manage/campaigns/campaign-change-status.md)
@@ -117,14 +122,76 @@ ht-degree: 2%
          + [关于[!UICONTROL Ads]视图](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
          + [从[!UICONTROL Ads]视图管理数据视图报告](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + 报告 {#reports}
-      + 标签分类 {#label-classifications}
-         + [关于标签分类](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
-         + [创建标签分类](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-create)
-         + [从营销活动管理视图将分类值分配给帐户组件](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management)
-         + [使用批量处理工作表将分类值分配给帐户组件](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets)
-         + [从帐户组件中删除标签分类值](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-remove)
-         + [删除标签分类值](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-delete)
-         + [删除标签分类](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-delete)
+      + 计划报表 {#scheduled}
+         + [报告的初始设置任务](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup){target="_blank"}
+         + [用于报表的数据](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports){target="_blank"}
+         + [管理计划报表](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+         + [管理报表模板](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
+         + [通过FTP访问报表](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
+         + 计划报表类型 {#report-types}
+            + 基本和高级报告 {#basic-advanced-reports}
+               + [关于基本报表和高级报表](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-about.md)
+               + 基本报表格式 {#basic-report-formats}
+                  + [[!UICONTROL Ad Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-group-report.md)
+                  + [[!UICONTROL Ad Variation Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-variation-report.md)
+                  + [[!UICONTROL Campaign Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-report.md)
+                  + [[!UICONTROL Campaign Hourly Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-hourly-report.md)
+                  + [[!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)
+                  + [[!UICONTROL Keyword Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/keyword-report.md)
+                  + [[!UICONTROL Label Classification Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/label-classification-report.md)
+                  + [[!UICONTROL Label Value Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/label-value-report.md)
+                  + [[!UICONTROL Network Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/network-constraint-report.md)
+                  + [[!UICONTROL Portfolio Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/portfolio-report.md)
+                  + [[!UICONTROL Product Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/product-group-report.md)
+                  + [[!UICONTROL Search Engine Account Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-account-report.md)
+                  + [[!UICONTROL Search Engine Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-report.md)
+               + 高级报告格式 {#advanced-report-formats}
+                  + [[!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)
+                  + [[!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)
+                  + [[!UICONTROL Transaction Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/transaction-report.md)
+               + [基本和高级报表设置](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-settings.md)
+               + [基本报表和高级报表的报表列](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-columns.md)
+            + 协助报表 {#assist-reports}
+               + [关于助理报告](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-about.md)
+协助报告格式 {#assist-report-formats}
+                  + [The [!UICONTROL Channel Assist Report]]/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)
+                  + [[!UICONTROL Campaign Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/campaign-assist-report.md)
+                  + [[!UICONTROL Keyword Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/keyword-assist-report.md)
+               + [协助报表设置](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-settings.md)
+            + 专业报告 {#specialty-reports}
+               + [关于专业报告](/help/search-social-commerce/new-ui/reports/management/specialty/specialty-report-about.md)
+               + 专业报告格式 {#specialty-report-formats}
+                  + [[!UICONTROL AdWords and Bing Audience Target Report]](/help/search-social-commerce/new-ui/reports/management/specialty/adwords-bing-audience-target-report.md)
+                  + [[!UICONTROL AdWords Conversion Report]](/help/search-social-commerce/new-ui/reports/management/specialty/adwords-conversion-report.md)
+                  + [[!UICONTROL AdWords Geo Report]](/help/search-social-commerce/new-ui/reports/management/specialty/adwords-geo-report.md)
+                  + [[!UICONTROL AdWords Search Query Report]](/help/search-social-commerce/new-ui/reports/management/specialty/adwords-search-query-report.md)
+                  + [[!UICONTROL AdWords Shopping Performance Report]](/help/search-social-commerce/new-ui/reports/management/specialty/adwords-shopping-performance-report.md)
+                  + [[!UICONTROL Bing Ads Geo Report]](/help/search-social-commerce/new-ui/reports/management/specialty/bing-ads-geo-report.md)
+                  + [[!UICONTROL Bing Ads Search Query Report]](/help/search-social-commerce/new-ui/reports/management/specialty/bing-ads-search-query-report.md)
+                  + [[!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/campaign-daily-impression-share-report.md)
+                  + [[!UICONTROL Google AI Max Search Term Combination Report]](/help/search-social-commerce/new-ui/reports/management/specialty/google-ai-max-search-term-combination-report.md)
+                  + [[!UICONTROL Google Asset Group Performance Report]](/help/search-social-commerce/new-ui/reports/management/specialty/google-asset-group-performance-report.md)
+                  + [[!UICONTROL Google Performance Max Placement Report]](/help/search-social-commerce/new-ui/reports/management/specialty/google-performance-max-placement-report.md)
+                  + [[!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/keyword-daily-impression-share-report.md)
+                  + [[!UICONTROL RSA Asset Report]](/help/search-social-commerce/new-ui/reports/management/specialty/rsa-asset-report.md)
+                  + [[!UICONTROL MSA Ad Extension by Ad Report]](/help/search-social-commerce/new-ui/reports/management/specialty/msa-ad-extension-detail-report.md)
+                  + [[!UICONTROL MSA Ad Extension by Keyword Report]](/help/search-social-commerce/new-ui/reports/management/specialty/msa-ad-extension-by-keyword-report.md)
+                  + [[!UICONTROL MSA Ad Extension Detail Report]](/help/search-social-commerce/new-ui/reports/management/specialty/msa-ad-extension-by-ad-report.md)
+                  + [[!UICONTROL MSA Network Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/msa-network-impression-share-report.md)
+                  + [[!UICONTROL MSA Network Performance Report]](/help/search-social-commerce/new-ui/reports/management/specialty/msa-network-performance-report.md)
+               + [专业报告设置](/help/search-social-commerce/new-ui/reports/management/specialty/specialty-report-settings.md)
+               + [专业报告的报告列](/help/search-social-commerce/new-ui/reports/management//specialty/specialty-report-columns.md)
+            + 模型准确性报表 {#model-accuracy-reports}
+               + [关于模型精度报告](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-about.md)
+               + 模型准确性报表格式 {#assist-report-formats}
+                  + [[!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-report.md)
+                  + [[!UICONTROL Forecast Accuracy (Actuals) Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-actuals-report.md)
+               + [模型精度报表设置](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)
+         + [归因规则的计算方式](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
+         + [关于自定义报表的常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
+      + [管理电子表格报表源](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
+      + [查看[!UICONTROL History Logs]报告](/help/search-social-commerce/new-ui/reports/history-logs.md)
+      + [管理标签分类](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}
       + 关键字 {#keywords}
          + [关于[!UICONTROL Keywords]视图](/help/search-social-commerce/new-ui/target/keywords/keyword-view-about.md)
@@ -164,7 +231,7 @@ ht-degree: 2%
       + [转化跟踪选项](/help/search-social-commerce/tracking/conversion-tracking-about.md)
       + Adobe Advertising转化跟踪 {#advertising-conversion-tracking}
          + [关于Adobe Advertising转化跟踪标记](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
-         + [生成和实施Adobe Advertising转换标记](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate)
+         + [生成和实施Adobe Advertising转换标记](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate){target="_blank"}
          + [JavaScript转化跟踪标记版本3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [JavaScript转化跟踪标记版本2的格式](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
          + [图像转换跟踪标记的格式](/help/search-social-commerce/tracking/format-conversion-tag-image.md)

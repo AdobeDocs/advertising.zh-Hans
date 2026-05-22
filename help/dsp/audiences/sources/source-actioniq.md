@@ -2,24 +2,22 @@
 title: 将用户ID从 [!DNL ActionIQ] 转换为通用ID
 description: 了解如何使DSP能够摄取您的 [!DNL ActionIQ] 第一方区段。
 feature: DSP Audiences
-source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
 
 # 将用户ID从[!DNL ActionIQ]转换为通用ID
 
-*Beta功能*
-
 使用DSP与[!DNL ActionIQ]客户数据平台的集成，将经过哈希处理的电子邮件地址转换为通用ID以进行定向广告。
 
-要与DSP共享<!-- NN -->中的数据，需要执行[!DNL ActionIQ]个步骤：
+要与DSP共享[!DNL ActionIQ]中的数据，需要执行<!-- NN -->个步骤：
 
 1. [在DSP中创建受众源](#source-create)。
 
-1. ？
+1. ?
 
 ## 步骤1：在DSP中创建受众源 {#source-create}
 

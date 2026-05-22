@@ -3,7 +3,7 @@ title: （新UI）查看项目组合的更改历史记录
 description: 了解如何查看项目组合的更改历史记录。
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -35,7 +35,6 @@ ht-degree: 0%
    * 单击![筛选器](/help/search-social-commerce/assets/filter-new.png "筛选器")以按更改类型筛选数据。<!-- Not available as of 5-14: and by the user who performed the action -->。
 
    * 单击![排序](/help/search-social-commerce/assets/sort.png "排序")按日期升序或降序对列表进行排序。
-
 
 ## 管理更改历史的性能数据报表
 

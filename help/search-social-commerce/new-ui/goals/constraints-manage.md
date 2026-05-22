@@ -2,7 +2,7 @@
 title: 管理搜索竞价单位的限制
 description: 了解限制条件，以限制旧版关键词级别项目组合中CPC促销活动中竞价单位的竞价。
 feature: Search Campaign Management, Search Optimization
-source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
+source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
 workflow-type: tm+mt
 source-wordcount: '2649'
 ht-degree: 0%
@@ -68,7 +68,7 @@ ht-degree: 0%
 
   [!UICONTROL Constraints]分类未包含在[!UICONTROL Label Classifications]视图中 — [!UICONTROL Constraints]视图是独立的。 [!UICONTROL Constraints]分类也不包含在30个标签的分类限制中。
 
-* [[!UICONTROL Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/constraint-report.md)包含使用标签分类架构的约束的成本、点击次数和（可选）转化数据。
+* [[!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)包含使用标签分类架构的约束的成本、点击次数和（可选）转化数据。
 
 ### [!UICONTROL Constraints]视图 {#constraints-view}
 
@@ -216,4 +216,4 @@ ht-degree: 0%
 >* [管理广告组的限制分配](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [管理关键字的约束分配](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
 >* [管理投放位置的约束分配](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
->* [该[!UICONTROL Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/constraint-report.md)
+>* [该[!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)

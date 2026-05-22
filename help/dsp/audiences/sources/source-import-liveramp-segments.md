@@ -12,18 +12,16 @@ subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 152
+source-wordcount: 169
 ht-degree: 0%
 
 ---
 
 # 从[!DNL LiveRamp]手动导入经过身份验证的区段
 
-*Beta功能*
-
-您可以使用[!DNL LiveRamp] [!DNL LiveRamp]仪表板手动将经过身份验证的[!DNL Connect]区段发送到DSP。 您可以使用导入的区段进行投放定位。 对于第一方区段，费用为投放的每个显示广告展示0.15美元，投放的每个视频广告展示0.25美元。
+您可以使用[!DNL LiveRamp] [!DNL Connect]仪表板手动将经过身份验证的[!DNL LiveRamp]区段发送到DSP。 您可以使用导入的区段进行投放定位。 对于第一方区段，费用为投放的每个显示广告展示0.15美元，投放的每个视频广告展示0.25美元。
 
 每个导入作业的区段映射和上传可能最多需要7天。
 
@@ -56,3 +54,4 @@ Is this first step relevant for this process?
 >* [管理受众源以激活通用ID受众](source-manage.md)
 >* [Adobe Advertising DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=zh-Hans)
 >* [关于受众管理](/help/dsp/audiences/audience-about.md)
+>* [从 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)导入第一方区段

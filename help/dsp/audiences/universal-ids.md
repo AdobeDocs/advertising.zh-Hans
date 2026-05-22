@@ -17,9 +17,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 1513
+source-wordcount: 1610
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 <!-- Once we have CDP support for ID5 and can set up activation via sources, then maybe I can move this info into "About Sources" and "About Audiences." Or maybe make this the go-to page, removing info from those other pages? -->
 
-*Beta功能*
-
 DSP支持基于人员的通用ID，以便跨DSP支持的数字格式进行无息、单设备（而非跨设备）定位。
 
-* 您可以使用[!DNL LiveRamp] [!DNL RampIDs]仪表板手动将经过身份验证的[[!DNL LiveRamp] [!DNL Connect]]直接发送到DSP。 请参阅“[从 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)手动导入经过身份验证的区段”。
+* 您可以使用[!DNL LiveRamp] [!DNL Connect]仪表板手动将经过身份验证的[[!DNL LiveRamp] [!DNL RampIDs]]直接发送到DSP。 请参阅“[从 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)手动导入经过身份验证的区段”。
 
 * DSP可以摄取您在客户数据平台(CDP)中构建的第一方区段，并将其转换为[!DNL LiveRamp] [!DNL RampIDs]和[!DNL Unified ID 2.0 (UID2.0)] ID。 有关支持的客户数据平台和用户标识符类型、每个支持的通用ID类型的可用功能以及相关工作流的详细信息，请参阅“[关于第一方受众源](/help/dsp/audiences/sources/source-about.md)”。
+
+* 澳大利亚的广告商可以使用[!UICONTROL AdFixus ID]受众源导入包含[!DNL AdFixus]通用ID的第一方区段。 DSP无法在[!DNL AdFixus] ID和其他通用ID类型之间转换。 请参阅“[从 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)导入第一方区段”。
 
 * 您可以创建自定义区段，以跟踪与从桌面和移动设备中展示广告以及访问特定网页的ID5通用ID关联的用户。 ID5使用概率模型来分配从各种用户信号和浏览器信号派生的ID。 有关说明，请参阅&quot;[创建和实施自定义区段](/help/dsp/audiences/custom-segment-create.md)&quot;。
 
@@ -64,7 +64,7 @@ DSP支持基于人员的通用ID，以便跨DSP支持的数字格式进行无息
 
 1. 在[!UICONTROL Audience Targeting]部分中，执行以下操作：
 
-   1. 在[!UICONTROL Included Audiences]设置中，选择用户数据已转换为通用ID的区段。
+   1. 在[!UICONTROL Included Audiences]设置中，选择用户数据已转换为通用ID（如[!DNL RampIDs]或[!DNL UID2] ID）或包含导入的[!DNL AdFixus] ID的区段。
 
       您可以根据需要包含其他区段。
 
@@ -72,7 +72,7 @@ DSP支持基于人员的通用ID，以便跨DSP支持的数字格式进行无息
 
       1. 选择要定位的通用ID类型。
 
-         该设置包括选项“[!UICONTROL Legacy IDs]”和“[!UICONTROL Universal ID]”，它们可能包括子选项“[!UICONTROL ID5]”、“[!UICONTROL RampID]”和“[!UICONTROL Unified ID2.0]”。 所选地理目标决定了可用的子选项。
+         该设置包括选项“[!UICONTROL Legacy IDs]”和“[!UICONTROL Universal ID]”，它们可能包括子选项“[!UICONTROL AdFixus]”、“[!UICONTROL ID5]”、“[!UICONTROL RampID]”和“[!UICONTROL Unified ID2.0]”。 所选地理目标决定了可用的子选项。
 
          您可以同时选择“[!UICONTROL Legacy IDs]”和“[!UICONTROL Universal ID]”，但每个投放位置只能选择一个类型的通用ID。 当您同时选择旧版ID和通用ID时，会为通用ID提供竞价偏好设置。
 
@@ -82,7 +82,7 @@ DSP支持基于人员的通用ID，以便跨DSP支持的数字格式进行无息
 
 请参阅“[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)”。
 
-## 测试和数据验证的最佳实践
+## 基于[!DNL RampID]的区段和基于ID5的区段的测试和数据验证的最佳实践
 
 对于可用Adobe Analytics测量的基于[!DNL RampID]的区段和基于ID5的区段，请使用以下最佳实践。
 
@@ -140,13 +140,15 @@ DSP支持基于人员的通用ID，以便跨DSP支持的数字格式进行无息
 
 * 如果您使用[!DNL Flashtalking]或[!DNL Google Campaign Manager 360]广告，请确保广告的点进URL已附加正确的宏。 查看[[!DNL Flashtalking] 广告](/help/integrations/analytics/macros-flashtalking.md)和[[!DNL Google Campaign Manager 360] 广告](/help/integrations/analytics/macros-google-campaign-manager.md)的宏。
 
-* 确保在您的网站上实施正确的、通用的ID合作伙伴特定代码，以匹配网站上的事件和广告曝光。 根据需要与您的[!DNL LiveRamp]或[!DNL ID5]代表合作。
+* （对于[!DNL RampIDs]和[!DNL UID 2.0] ID）确保在您的网站上实施正确的通用ID合作伙伴特定代码，以匹配网站上的事件和广告曝光。 根据需要与您的[!DNL LiveRamp]或[!DNL ID5]代表合作。
 
 * （对于[!DNL RampIDs]和[!DNL UID 2.0] ID）确保您的[DSP数据源配置正确](/help/dsp/audiences/sources/source-manage.md#source-settings)，并且为生成的受众区段填充用户计数。
 
+* （对于[!DNL AdFixus] ID）确保您的[!UICONTROL AdFixus ID]源配置正确，[!DNL AdFixus]是流式处理区段。
+
 * 如果您的覆盖范围小于预期，请检查受众区段逻辑是否不够细化。
 
-* 确保您的营销活动、包和投放位置设置正确。<!-- wording-->
+* 确保您的营销活动、包和投放设置正确无误。
 
 如果您无法解决问题，请联系您的Adobe客户团队。
 
@@ -156,5 +158,6 @@ DSP支持基于人员的通用ID，以便跨DSP支持的数字格式进行无息
 >* [管理受众源以激活通用ID受众](/help/dsp/audiences/sources/source-manage.md)
 >* [创建和实施自定义区段](/help/dsp/audiences/custom-segment-create.md)
 >* [从 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)手动导入经过身份验证的区段
+>* [从 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)导入第一方区段
 >* [关于受众管理](/help/dsp/audiences/audience-about.md)
 >* [位置设置](/help/dsp/campaign-management/placements/placement-settings.md)

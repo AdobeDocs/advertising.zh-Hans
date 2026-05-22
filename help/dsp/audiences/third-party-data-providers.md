@@ -12,9 +12,9 @@ subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
 workflow-type: tm+mt
-source-wordcount: 93
+source-wordcount: 98
 ht-degree: 0%
 
 ---
@@ -39,11 +39,11 @@ ht-degree: 0%
 * [!DNL LiveRamp]
 * [!DNL Lotame]
 * [!DNL Navegg]
-* [!DNL Neustar]
 * [!DNL NinthDecimal]
 * [!DNL Semcasting]
 * [!DNL TailTarget]
 * [!DNL Tapfwd]
+* [!DNL TransUnion]
 * [!DNL TruSignal]
 * [!DNL Weborama]
 * [!DNL Zeotap]

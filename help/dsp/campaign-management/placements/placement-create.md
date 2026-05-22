@@ -17,9 +17,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
 workflow-type: tm+mt
-source-wordcount: 701
+source-wordcount: 713
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 0%
 
       1. 缩小受众范围。 这包括选择要在投放位置中定位的受众区段。
 
-         对于[!DNL Roku]投放位置，您可以通过包含一个或多个可与[（选择启用）确定性数据集匹配的受众区段，来利用 [!DNL Roku]](/help/dsp/inventory/roku-inventory.md)DSP与[!DNL Roku]的唯一受众匹配。
+         对于[!DNL Roku]投放位置，您可以通过包含一个或多个可与[!DNL Roku]（选择启用）确定性数据集匹配的受众区段，来利用[DSP与 [!DNL Roku]](/help/dsp/inventory/roku-inventory.md)的唯一受众匹配。
 
          未附加到活动、计划或暂停放置的第一方RampID区段将被暂停。 该区段在区段列表中标记为“自动暂停”。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >（[!DNL Roku]个投放位置） [!DNL Roku]批准的第三方像素供应商包括[!DNL Acxiom]、[!DNL Comscore]、[!DNL Data Plus Math]、[!DNL Experian]、[!DNL Factual]、[!DNL Kantar]、[!DNL Marketing Evolution]、[!DNL Neustar]、[!DNL Nielsen]、[!DNL Nielsen Catalina Solutions]、[!DNL NinthDecimal]、[!DNL Oracle]、[!DNL Placed]、[!DNL Polk]和[!DNL Research Now]。
+      >（[!DNL Roku]个投放位置） [!DNL Roku]批准的第三方像素供应商包括[!DNL Acxiom]、[!DNL Comscore]、[!DNL Data Plus Math]、[!DNL Experian]、[!DNL Factual]、[!DNL Kantar]、[!DNL Marketing Evolution]、[!DNL Nielsen]、[!DNL Nielsen Catalina Solutions]、[!DNL NinthDecimal]、[!DNL Oracle]、[!DNL Placed]、[!DNL Polk]、[!DNL Research Now]和[!DNL TransUnion]。
 
 1. 单击&#x200B;**[!UICONTROL Create Placement]**。
 
