@@ -4,37 +4,29 @@ description: 了解如何使DSP能够摄取您的 [!DNL Adobe] [!DNL Real-time C
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
 TQID: https://experienceleague.adobe.com/Ggt-YiAoGurfI5eET66xJwMBTSq-w5FO7wH60WZshEk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 595
 ht-degree: 0%
 
 ---
 
 # 将用户ID从[!DNL Adobe Real-Time CDP]转换为通用ID
 
-*Beta功能*
-
-使用DSP与[the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hans)（属于Adobe Experience Platform的一部分）的集成将您的用户ID（包括经过哈希处理的电子邮件地址、Cookie和移动设备广告ID）转换为通用ID以进行定向广告。
+使用DSP与[the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)（属于Adobe Experience Platform的一部分）的集成将您的用户ID（包括经过哈希处理的电子邮件地址、Cookie和移动设备广告ID）转换为通用ID以进行定向广告。
 
 1. （要将用户ID转换为[!DNL RampIDs]<!-- or [!DNL ID5] IDs -->；广告商具有[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)）为[!DNL Analytics]测量设置跟踪：
 
-   1. （如果尚未这样做）完成实施[以及跟踪URL [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)中的[AMO ID和EF ID的所有](/help/integrations/analytics/ids.md)先决条件。
+   1. （如果尚未这样做）完成实施 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)以及跟踪URL](/help/integrations/analytics/ids.md)中的[AMO ID和EF ID的所有[先决条件。
 
    1. 向通用ID合作伙伴注册，并在您的网页上部署特定于通用ID的代码，以便匹配从桌面和移动Web浏览器（但不包括移动应用程序）上的ID到显示到达次数的转换：
 
-      * **对于[!DNL RampIDs]：**，您必须在网页上部署额外的JavaScript标记，以匹配从桌面和移动网页浏览器（但不包括移动应用程序）上的ID到显示到达次数的转换。 请与您的Adobe客户团队联系，他们将为您提供如何从[!DNL LiveRamp]身份验证流量解决方案注册[!DNL LaunchPad] [!DNL LiveRamp]标记的说明。 注册是免费的，但您必须签署协议。 注册后，您的Adobe客户团队将生成并提供一个唯一标记，供贵组织在网页上实施。
+      * **对于[!DNL RampIDs]：**，您必须在网页上部署额外的JavaScript标记，以匹配从桌面和移动网页浏览器（但不包括移动应用程序）上的ID到显示到达次数的转换。 请与您的Adobe客户团队联系，他们将为您提供如何从[!DNL LiveRamp]身份验证流量解决方案注册[!DNL LiveRamp] [!DNL LaunchPad]标记的说明。 注册是免费的，但您必须签署协议。 注册后，您的Adobe客户团队将生成并提供一个唯一标记，供贵组织在网页上实施。
 
 1. [创建受众源](source-manage.md)以将受众导入您的DSP帐户或广告商帐户。 您可以选择将用户标识符转换为[可用的通用ID格式](source-about.md)中的任意格式。
 
@@ -44,11 +36,11 @@ ht-degree: 0%
 
    电子邮件地址必须使用SHA-256算法进行哈希处理。
 
-   有关激活DSP目标连接、激活受众和验证数据导出的说明，请参阅“[Adobe Advertising DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=zh-Hans)”。
+   有关激活DSP目标连接、激活受众和验证数据导出的说明，请参阅“[Adobe Advertising DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)”。
 
    >[!NOTE]
    >
-   >旧版连接（仅支持经过哈希处理的电子邮件地址）现在称为“[旧版Adobe Advertising Cloud DSP连接](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy)”。 如果您已经使用旧版连接，则无需立即进行任何更改。 但是，旧版连接最终将被删除。
+   >旧版连接（仅支持经过哈希处理的电子邮件地址）现在称为“[旧版Adobe Advertising Cloud DSP连接](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy)”。 如果您已经使用旧版连接，则无需立即进行任何更改。 但是，旧版连接最终将被删除。
 
 1. 验证您的受众库（在从[!UICONTROL Audiences] > [!UICONTROL All Audiences]创建或编辑受众时或在版面设置内创建或编辑受众时可用）中区段是否正在填充，并将通用ID的数量与原始用户ID的数量进行比较。
 
@@ -66,7 +58,7 @@ ht-degree: 0%
 >
 >* [关于第一方受众源](/help/dsp/audiences/sources/source-about.md)
 >* [管理受众源以激活通用ID受众](source-manage.md)
->* [Adobe Advertising DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=zh-Hans)
->* Adobe Experience Platform [目标目录概述](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hans)
+>* [Adobe Advertising DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* Adobe Experience Platform [目标目录概述](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [支持激活通用ID](/help/dsp/audiences/universal-ids.md)
 >* [关于受众管理](/help/dsp/audiences/audience-about.md)

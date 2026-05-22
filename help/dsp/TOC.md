@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报展示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: e95a352e48c6e02ae7f89beb176d2cccaf4b0a71
+source-git-commit: a5e70555ba2a122db489ce1b73024ad89daee055
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1061'
 ht-degree: 3%
 
 ---
@@ -24,8 +24,8 @@ ht-degree: 3%
       + [跨设备解决方案](/help/dsp/introduction/features/cross-device-solutions.md)
    + [帐户资金](/help/dsp/introduction/billing/account-funding.md)
    + [支持的货币](/help/dsp/currency.md)
-   + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans)
-   + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans)
+   + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [高级测量解决方案](/help/dsp/introduction/advanced-measurement-services.md)
 + [使用人工智能辅助聊天搜索产品文档](/help/dsp/agent-chat.md)
 + 营销活动管理 {#campaign-management}
@@ -77,7 +77,7 @@ ht-degree: 3%
       + [使用批量处理工作表查看和编辑广告详细信息](/help/dsp/campaign-management/ads/ad-qa.md)
       + [编辑广告](/help/dsp/campaign-management/ads/ad-edit.md)
       + [复制广告](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [从投放位置附加和删除广告](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=zh-Hans)
+      + [从投放位置附加和删除广告](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
       + [列出与广告关联的投放位置](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [查看广告的详细报告](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [暂停或激活广告](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -143,6 +143,7 @@ ht-degree: 3%
          + [将用户ID从 [!DNL Amperity] 转换为通用ID](/help/dsp/audiences/sources/source-amperity.md)
          + [将用户ID从 [!DNL Optimizely] 转换为通用ID](/help/dsp/audiences/sources/source-optimizely.md)
          + [将用户ID从 [!DNL Tealium] 转换为通用ID](/help/dsp/audiences/sources/source-tealium.md)
+         + [从 [!DNL AdFixus]导入第一方区段](/help/dsp/audiences/sources/source-adfixus.md)
       + [管理受众源以激活通用ID受众](/help/dsp/audiences/sources/source-manage.md)
    + [从 [!DNL LiveRamp]手动导入经过身份验证的区段](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [可用的第三方数据提供商](/help/dsp/audiences/third-party-data-providers.md)
@@ -234,9 +235,9 @@ ht-degree: 3%
    + 通知 {#notifications}
       + [关于警报订阅](/help/dsp/admin/alerts-about.md)
       + [管理警报订阅](/help/dsp/admin/alerts-manage.md)
-+ [与Adobe CX Enterprise集成](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hans)
++ [与Adobe CX Enterprise集成](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [获取帮助](/help/dsp/get-help.md)
-+ [Adobe CX Enterprise发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)
++ [Adobe CX Enterprise发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!--
