@@ -2,7 +2,8 @@
 type: Documentation
 cloud: Experience Cloud
 solution: Advertising
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 usetq: true
 feature-set: Advertising
 landing-page-name: advertising
