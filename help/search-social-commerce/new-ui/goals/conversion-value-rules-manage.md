@@ -2,7 +2,7 @@
 title: （新UI）管理 [!DNL Google Ads] 转化值规则
 description: 了解如何在Search、Social和Commerce中查看和管理 [!DNL Google Ads] 转化值规则。
 feature: Conversions
-source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
 source-wordcount: '1844'
 ht-degree: 0%

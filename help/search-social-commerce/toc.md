@@ -4,7 +4,7 @@ user-guide-title: Advertising 搜索、社交和 Commerce 指南
 user-guide-description: 本指南阐述管理、跟踪和报告搜索、社交和商业广告营销活动所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: Advertising 搜索、社交和 Commerce 指南
 index: true
-source-git-commit: 64c9c550873ff210d1adb4217ddeca5f67548b77
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
 source-wordcount: '2298'
 ht-degree: 2%
@@ -126,8 +126,6 @@ ht-degree: 2%
          + [报告的初始设置任务](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup){target="_blank"}
          + [用于报表的数据](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports){target="_blank"}
          + [管理计划报表](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
-         + [管理报表模板](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
-         + [通过FTP访问报表](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
          + 计划报表类型 {#report-types}
             + 基本和高级报告 {#basic-advanced-reports}
                + [关于基本报表和高级报表](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-about.md)
@@ -187,6 +185,8 @@ ht-degree: 2%
                   + [[!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-report.md)
                   + [[!UICONTROL Forecast Accuracy (Actuals) Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-actuals-report.md)
                + [模型精度报表设置](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)
+         + [管理报表模板](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
+         + [通过FTP访问报表](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
          + [归因规则的计算方式](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
          + [关于自定义报表的常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
       + [管理电子表格报表源](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)

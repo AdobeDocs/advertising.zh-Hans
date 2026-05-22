@@ -1,9 +1,9 @@
 ---
 title: 上传离线帐户数据以进行报告和模拟
 description: 了解如何手动上传离线帐户数据或将其上传到 [!DNL Amazon] [!DNL S3]存储段以支持报表和模拟。 日志文件跟踪上载作业的进度。
-source-git-commit: 8ba0f8fa6050a3e6ec93bcf08df2c0204191fc02
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ See "XXX" for information about supported ad networks and account structures.
 
 1. 将光标放在帐户名称上，单击&#x200B;**...**，然后单击&#x200B;**[!UICONTROL Upload Logs]**。
 
-1. （可选）要下载已上传文件的数据，请单击![列中的](/help/search-social-commerce/assets/download.png "下载")下载[!UICONTROL Download]，然后按照浏览器的正常过程下载文件。
+1. （可选）要下载已上传文件的数据，请单击[!UICONTROL Download]列中的![下载](/help/search-social-commerce/assets/download.png "下载")，然后按照浏览器的正常过程下载文件。
 
 ## 所需数据
 
