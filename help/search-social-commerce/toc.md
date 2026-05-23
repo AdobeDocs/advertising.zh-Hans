@@ -4,9 +4,9 @@ user-guide-title: Advertising 搜索、社交和 Commerce 指南
 user-guide-description: 本指南阐述管理、跟踪和报告搜索、社交和商业广告营销活动所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: Advertising 搜索、社交和 Commerce 指南
 index: true
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2302'
 ht-degree: 2%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 2%
          + [归因规则的计算方式](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
          + [关于自定义报表的常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
       + [管理电子表格报表源](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
-      + [查看[!UICONTROL History Logs]报告](/help/search-social-commerce/new-ui/reports/history-logs.md)
+      + [查看更改历史记录日志](/help/search-social-commerce/new-ui/reports/history-logs.md)
       + [管理标签分类](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}
       + 关键字 {#keywords}
@@ -208,6 +208,7 @@ ht-degree: 2%
          + 数据上传帐户 {#data-upload}
             + [管理用于数据上传的广告网络帐户](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
          + [仅管理 [!DNL Naver] 帐户以进行跟踪](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
+   + [管理自定义警报](/help/search-social-commerce/new-ui/alerts-manage.md)
    + [用户管理](/help/search-social-commerce/new-ui/user-administration.md)
 + 跟踪 {#tracking}
    + [关于跟踪](/help/search-social-commerce/tracking/tracking-about.md)

@@ -1,15 +1,15 @@
 ---
-title: （新UI）查看[!UICONTROL History Logs]报表
+title: （新UI）查看更改历史记录日志
 description: 了解如何查看对广告商帐户的最近更改。
 feature: Search Reports
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+source-git-commit: b68aac34cd7e10fcceceb622b5365cb0ecec040d
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
-# （新UI）查看[!UICONTROL History Logs]报表
+# （新UI）查看更改历史记录日志
 
 [!UICONTROL History Logs]报表包含过去31天内对广告商帐户所做更改的日志。 报表可以包括对以下对象类型的更改：用户（广告商）、项目组合、促销活动、广告组、广告、关键字、投放位置和产品目标。 您可以按任意列对数据进行排序和过滤。
 
