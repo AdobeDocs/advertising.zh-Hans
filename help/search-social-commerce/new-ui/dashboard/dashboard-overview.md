@@ -1,7 +1,7 @@
 ---
 title: （新UI）查看您的性能仪表板
 description: 了解您的性能仪表板中可用的数据。
-feature: Search Portfolios, Search Optimization
+feature: Search Portfolios, Search Optimization, Search Reports
 hide: true
 exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
 TQID: https://experienceleague.adobe.com/Oa-NB0er-nIWVtPXTtTjM--9hDSluhtjBwpSV4tr2zA
@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
 workflow-type: tm+mt
 source-wordcount: 375
 ht-degree: 0%

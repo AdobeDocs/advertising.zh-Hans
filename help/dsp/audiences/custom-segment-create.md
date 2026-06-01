@@ -15,7 +15,7 @@ role_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0bc24ca7b64ff9cb6da4922076e8999a3816cbf5
+source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
 workflow-type: tm+mt
 source-wordcount: 700
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    1. 在初始化最后一个事件服务之前的任何位置，将以下参数添加到网页，或添加到 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/javascript.md)所需的JavaScript代码内。
 
-      ```window.id5PartnerId=ID5_PartnerID;```
+      `window.id5PartnerId=ID5_PartnerID;`
 
       示例：
 
@@ -101,11 +101,11 @@ ht-degree: 0%
 
             例如，如果您的ID5合作伙伴ID为`abcde`，则生成的区段标记为
 
-            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+            `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
 
             然后在标记中将`ID5_PARTNER_ID`替换为`abcde`以获取以下内容：
 
-            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+            `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
 
             贵组织在与[!DNL ID5]签署协议时收到了合作伙伴ID。 如果您不知道自己的合作伙伴ID，请联系您的Adobe客户团队。
 

@@ -4,9 +4,15 @@ user-guide-title: Advertising 搜索、社交和 Commerce 指南
 user-guide-description: 本指南阐述管理、跟踪和报告搜索、社交和商业广告营销活动所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: Advertising 搜索、社交和 Commerce 指南
 index: true
-source-git-commit: 1da750a4b26fd4fe90c2552f2dc91fb1575019ab
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: 2329
 ht-degree: 2%
 
 ---
@@ -82,6 +88,10 @@ ht-degree: 2%
          + [将权重推荐应用于目标](/help/search-social-commerce/new-ui/goals/objectives/objective-apply-weight-recommendations.md)
          + [下载目标的性能指标](/help/search-social-commerce/new-ui/goals/objectives/objective-download-performance-data.md)
          + [目标设置](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
+         + [允许将目标上传到广告网络](/help/search-social-commerce/new-ui/goals/objectives/objective-upload-to-networks.md)
+      + 转化 {#conversions}
+         + [管理和查看广告商转化量度的绩效数据](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+      + [管理 [!DNL Google Ads] 转化值规则](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
    + 计划 {#plan}
       + [关于模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
       + [运行或重新运行自定义模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
@@ -204,6 +214,7 @@ ht-degree: 2%
          + [关于广告网络帐户](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)
          + API连接帐户 {#api}
             + [通过API连接管理广告网络帐户](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
+            + [管理 [!DNL Google Ads] 经理帐户的凭据](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)
             + [通过API连接手动同步广告网络数据](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/sync-api-accounts.md)
          + 数据上传帐户 {#data-upload}
             + [管理用于数据上传的广告网络帐户](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)

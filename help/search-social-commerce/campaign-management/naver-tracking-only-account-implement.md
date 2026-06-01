@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
 workflow-type: tm+mt
 source-wordcount: 687
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 跟踪营销活动可复制您现有的营销活动、广告组和关键词。 在Search、Social和Commerce中创建帐户结构并向广告网络内的原始促销活动添加跟踪后，即可上传关键词或广告的每日网络流量量度。 然后，搜索、Social和Commerce可以将您的转化归因于广告和关键词。
 
-您可以跟踪所有促销活动以及任何单个促销活动、广告组或关键词/广告的绩效指标。 您还可以在最基本、高级和辅助报表中包含有关这些广告网络的信息，以及其他广告网络的数据。 不支持将量度导出到Adobe Analytics，但Search、Social和Commerce可以将您在[中跟踪的 [!DNL Analytics]](/help/integrations/analytics/analytics-data-in-advertising.md)量度同步到Search、Social和Commerce。
+您可以跟踪所有促销活动以及任何单个促销活动、广告组或关键词/广告的绩效指标。 您还可以在最基本、高级和辅助报表中包含有关这些广告网络的信息，以及其他广告网络的数据。 不支持将量度导出到Adobe Analytics，但Search、Social和Commerce可以将您在 [!DNL Analytics][&#128279;](/help/integrations/analytics/analytics-data-in-advertising.md)中跟踪的量度同步到Search、Social和Commerce。
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ ht-degree: 0%
 
          您可以包含有关关键字的数据，包括父营销活动和广告组。
 
-      1. 如有必要，请编辑批量工作表文件，使其遵循[帐户 [!DNL Naver] 所需的Search、Social和Commerce &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)批量工作表格式。
+      1. 如有必要，请编辑批量工作表文件，使其遵循 [!DNL Naver] 帐户[&#128279;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)所需的Search、Social和Commerce 批量工作表格式。
 
       1. 在Search、Social和Commerce中，[上传批量处理工作表文件](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)。
 
@@ -56,19 +56,19 @@ ht-degree: 0%
 
 1. 设置对营销活动的跟踪：
 
-   1. 在Search、Social和Commerce中，[使用“](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)”选项下载新的批量处理工作表文件[!UICONTROL Generate Tracking URLs]。
+   1. 在Search、Social和Commerce中，[使用“[!UICONTROL Generate Tracking URLs]”选项下载新的批量处理工作表文件](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)。
 
-   使用“[!UICONTROL Generate Tracking URLs]”选项会使用前缀为[!UICONTROL Destination URL]值的Search、Social和Commerce跟踪代码填充每个关键字的[!UICONTROL Base URL]字段。
+   使用“[!UICONTROL Generate Tracking URLs]”选项会使用前缀为[!UICONTROL Base URL]值的Search、Social和Commerce跟踪代码填充每个关键字的[!UICONTROL Destination URL]字段。
 
    以下是带有跟踪的目标URL的示例：
 
-   ```http://pixel.everesttech.net/1234/cq?ev_sid=87&ev_cl=258e27dcec70156a667f2229020e488&url=http%3A//www.example.com```
+   `http://pixel.everesttech.net/1234/cq?ev_sid=87&ev_cl=258e27dcec70156a667f2229020e488&url=http%3A//www.example.com`
 
    1. 将下载的批量处理工作表文件中的[!UICONTROL Destination URL]值复制到网络上的相关关键字设置中。
 
       您可以通过将文件上传到广告网络编辑器中的网络，将URL添加到相关实体。 在这种情况下，您可能需要根据网络的数据要求删除某些列。 否则，必须在网络上手动输入URL。
 
-1. 每天从广告网络定期下载您正在跟踪的关键字或广告组级别品牌广告的点击和成本数据，然后[按照](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)所需格式[将点击和成本数据](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)上传到Search、Social和Commerce。
+1. 每天从广告网络定期下载您正在跟踪的关键字或广告组级别品牌广告的点击和成本数据，然后[&#128279;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)按照[所需格式](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)将点击和成本数据上传到Search、Social和Commerce。
 
    包括完整的帐户层次结构和要包括的任何量度。 搜索、Social和Commerce会将上传的数据与现有营销活动中的数据匹配。
 
@@ -76,11 +76,11 @@ ht-degree: 0%
 
    有关更多信息，请与您的Adobe客户团队联系。
 
-在[!UICONTROL Search, Social, & Commerce]、[!UICONTROL Campaigns]、[!UICONTROL Campaigns]和[!UICONTROL Accounts]视图中，所有上传的跟踪数据均可从[!UICONTROL Campaigns] > [!UICONTROL Ad Groups] > [!UICONTROL Keywords]使用。 它还可用于[!UICONTROL Insights & Reports]视图中的报告。
+在[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]和[!UICONTROL Keywords]视图中，所有上传的跟踪数据均可从[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]使用。 它还可用于[!UICONTROL Insights & Reports]视图中的报告。
 
 >[!MORELIKETHIS]
 >
 >* [附录 —  [!DNL Naver] 帐户](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)的必需批量工作表数据
 >* [上传 [!DNL Naver] 仅跟踪帐户的流量和转化量度](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
 >* [仅跟踪帐户 [!DNL Naver] 的量度数据要求](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
->* [的 [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)点击跟踪格式
+>*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的点击跟踪格式

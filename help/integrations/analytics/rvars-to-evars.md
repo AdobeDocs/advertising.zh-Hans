@@ -13,9 +13,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
 workflow-type: tm+mt
-source-wordcount: 607
+source-wordcount: 700
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 <!-- Solution built but not tested. Move to the CJA chapter once it's available?  If so, then create a redirect. -->
 
-如果使用保留变量捕获[集成的](ids.md)AMO ID和EF ID[!DNL Analytics for Advertising]，则可以通过尽快将保留的AMO ID和EF ID变量复制到[standard](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview) [!DNL analytics]中，为Adobe Advertising与[Adobe Customer Journey Analytics [!DNL eVars]（Adobe的新一代](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/evar)解决方案）之间的集成准备数据。 这样一来，您便可以在完成任务后立即收集AMO ID和EF ID的历史数据。 如果您使用保留的变量并且需要完成此任务，您的Adobe客户团队将告知您。
+如果使用保留变量捕获[!DNL Analytics for Advertising]集成的[AMO ID和EF ID](ids.md)，则可以通过尽快将保留的AMO ID和EF ID变量复制到[standard [!DNL eVars]](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/evar)中，为Adobe Advertising与[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview)（Adobe的新一代[!DNL analytics]解决方案）之间的集成准备数据。 这样一来，您便可以在完成任务后立即收集AMO ID和EF ID的历史数据。 如果您使用保留的变量并且需要完成此任务，您的Adobe客户团队将告知您。
 
 <!-- 
 You can also do the same for any other reserved variables you use for your [!DNL Analytics for Advertising] implementation.
@@ -68,7 +68,7 @@ Adobe Advertising正在构建一个解决方案，以自动将数据发送到Cus
          1. 选择&#x200B;**查询字符串参数**。
          1. 输入`s_kwcid`。
 
-        示例： ```Overwrite the value of rVar10 with Query String Parameter s_kwcid```
+        示例： `Overwrite the value of rVar10 with Query String Parameter s_kwcid`
 
       * 对于`EF ID`：
 

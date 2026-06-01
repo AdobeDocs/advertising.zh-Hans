@@ -1,15 +1,15 @@
 ---
-title: 用于管理转化量度的可用功能
+title: （新UI）可用于管理转化量度的功能
 description: 了解可用于管理转化量度的不同功能。
 feature: Conversions
-source-git-commit: bb3490852f03ce13dc8572297be1dd1d256043a1
+source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
-# 用于管理转化量度的可用功能
+# （新UI）可用于管理转化量度的功能
 
 从[!UICONTROL Goals] > [!UICONTROL Conversions]视图中，您可以执行以下操作：
 

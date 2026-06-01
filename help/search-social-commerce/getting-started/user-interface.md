@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
+source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
 workflow-type: tm+mt
-source-wordcount: 1499
+source-wordcount: 1506
 ht-degree: 0%
 
 ---
@@ -46,11 +46,11 @@ ht-degree: 0%
 
    * **[!UICONTROL Objectives]**&#x200B;打开新的[!UICONTROL Objectives]视图，您可以从中查看所有现有目标以及创建、编辑和删除目标。
 
-<!--  Not there as of 4/3:  * **[!UICONTROL Conversions]** Exits the new site and opens the legacy [!UICONTROL Admin] > [!UICONTROL Conversions] view. -->
+   * **[!UICONTROL Conversions]**&#x200B;打开一个新视图，您可以从中查看广告商的转化量度，并自定义可用于管理视图和报告的量度。
 
-* **[!UICONTROL Conversion Value Rules]**&#x200B;打开营销活动级别和帐户级别转化值规则的只读视图。 要管理转化值规则，请使用旧版[!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
+   * **[!UICONTROL Conversion Value Rules]**&#x200B;打开一个新视图，以查看和管理[!DNL Google Ads]帐户的营销活动级别和帐户级别转换值规则。
 
-* **[!UICONTROL Constraints]**&#x200B;打开现有约束的只读视图。 若要管理您的约束，请使用旧版[!UICONTROL Optimization] > [!UICONTROL Constraints]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
+   * **[!UICONTROL Constraints]**&#x200B;打开现有约束的只读视图。 若要管理您的约束，请使用旧版[!UICONTROL Optimization] > [!UICONTROL Constraints]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
 
 * **[!UICONTROL Plan]**&#x200B;子菜单：
 
