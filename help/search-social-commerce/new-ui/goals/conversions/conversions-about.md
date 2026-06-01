@@ -13,7 +13,7 @@ ht-degree: 0%
 
 从[!UICONTROL Goals] > [!UICONTROL Conversions]视图中，您可以执行以下操作：
 
-* [生成Adobe Advertising转化跟踪标记](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate)。<!-- Update link if I move the file -->
+* [生成Adobe Advertising转化跟踪标记](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate)。<!-- Update link if I move the file -->
 
 * 对于为广告商跟踪的所有转化量度：
 

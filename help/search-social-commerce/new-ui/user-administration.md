@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # （新UI）搜索、社交和商务的用户管理
 
-某些用户可以使用[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)管理对新的“搜索、社交和Commerce”用户界面的访问权限，该位置是管理所有Adobe权限和用户管理的中心位置。 用户分为最终用户和管理员。 如果您是管理员，您的Adobe客户团队会通知您。 如果您是管理员，请参阅以下部分以确定管理用户的权限和工作流。
+某些用户可以使用[Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)管理对新的“搜索、社交和Commerce”用户界面的访问权限，该位置是管理所有Adobe权限和用户管理的中心位置。 用户分为最终用户和管理员。 如果您是管理员，您的Adobe客户团队会通知您。 如果您是管理员，请参阅以下部分以确定管理用户的权限和工作流。
 
 ## 管理员类型
 
@@ -163,9 +163,9 @@ Noone has permissions as of 6/1; spelling [sic]:
 
 1. [登录到Adobe Admin Console并将其打开以搜索、社交和Commerce](#open-admin-console)。
 
-1. （可选） [添加其他系统管理员](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise)作为备份。
+1. （可选） [添加其他系统管理员](https://helpx.adobe.com/cn/enterprise/using/admin-roles.html#enterprise)作为备份。
 
-1. 通过[添加产品管理员](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise)来委派产品和用户管理。
+1. 通过[添加产品管理员](https://helpx.adobe.com/cn/enterprise/using/admin-roles.html#enterprise)来委派产品和用户管理。
 
 ### 面向产品管理员的工作流
 
@@ -173,9 +173,9 @@ Noone has permissions as of 6/1; spelling [sic]:
 
 1. [登录到Adobe Admin Console并将其打开以搜索、社交和Commerce](#open-admin-console)。
 
-1. 根据需要，批量创建最终用户[个别](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)或[&#128279;](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)。
+1. 根据需要，批量创建最终用户[个别](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html)或[&#128279;](https://helpx.adobe.com/cn/enterprise/using/bulk-upload-users.html)。
 
-1. （可选）为实例创建[用户组](https://helpx.adobe.com/enterprise/using/user-groups.html)并将用户分配给每个用户组。
+1. （可选）为实例创建[用户组](https://helpx.adobe.com/cn/enterprise/using/user-groups.html)并将用户分配给每个用户组。
 
    如果实例具有多个用户，请创建用户组，以确保根据用户的专业技能级别为其分配正确的用户档案。 （请参阅步骤4 ，将用户组分配给产品配置文件。） 您可以根据业务线、用户访问需求、用户聘用日期或其他条件创建用户组。
 
@@ -183,7 +183,7 @@ Noone has permissions as of 6/1; spelling [sic]:
    >
    >用户组名称应明确传达用户组应分配的权限。 例如，如果要创建具有“只读”权限的用户组，请在用户组名称中包含“只读”，如“Acme_Uk_ReadOnly”或“Acme_ReadOnly”。
 
-1. （可选） [使用定义的权限集创建自定义产品配置文件](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)。
+1. （可选） [使用定义的权限集创建自定义产品配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-product-profiles.html)。
 
    除了四个可用的默认产品配置文件之外，还提供了自定义配置文件。
 
@@ -191,10 +191,10 @@ Noone has permissions as of 6/1; spelling [sic]:
 
    **警告：**&#x200B;产品权限非常细微。 配置自定义产品配置文件时要小心，否则可能会忽略要包含的功能。
 
-1. [手动或批量将每个用户或用户组分配给相关的产品配置文件](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)。
+1. [手动或批量将每个用户或用户组分配给相关的产品配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-product-profiles.html)。
 
 ## 完整的用户管理指南和其他链接
 
-* 有关使用Adobe Admin Console进行用户管理的更多信息，请参阅《[Adobe企业和团队管理指南](https://helpx.adobe.com/enterprise/admin-guide.html)》，包括[Admin Console概述](https://helpx.adobe.com/enterprise/using/admin-console.html)。
+* 有关使用Adobe Admin Console进行用户管理的更多信息，请参阅《[Adobe企业和团队管理指南](https://helpx.adobe.com/cn/enterprise/admin-guide.html)》，包括[Admin Console概述](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)。
 
 * Admin Console： [https://adminconsole.adobe.com](https://adminconsole.adobe.com)
