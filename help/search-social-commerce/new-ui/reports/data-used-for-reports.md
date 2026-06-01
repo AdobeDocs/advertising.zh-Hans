@@ -2,8 +2,15 @@
 title: （新UI）用于报表的数据
 description: 了解数据视图和自定义报告中可用的不同类型数据。
 feature: Search Reports
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: ff99aaef-142d-4c93-a88c-011e979e3843id: c916feea-e212-4773-b673-4daed287b8a3id: adcb1be7-7ed0-464d-a8d4-c905c9d47742id: fa0141e5-dc99-4fbd-9c0e-40aff66de606id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664id: e246c273-d720-4ece-b29b-7aaba7d50169
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: ff99aaef-142d-4c93-a88c-011e979e3843
+  - id: c916feea-e212-4773-b673-4daed287b8a3
+  - id: adcb1be7-7ed0-464d-a8d4-c905c9d47742
+  - id: fa0141e5-dc99-4fbd-9c0e-40aff66de606
+  - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
+  - id: e246c273-d720-4ece-b29b-7aaba7d50169
 source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
 workflow-type: tm+mt
 source-wordcount: 604

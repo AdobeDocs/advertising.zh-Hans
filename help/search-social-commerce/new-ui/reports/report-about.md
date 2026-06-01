@@ -2,8 +2,15 @@
 title: （新UI）关于计划报表
 description: 了解计划的性能报表，包括可用的不同报表类型以及如何自动执行报表。
 feature: Search Reports
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: e246c273-d720-4ece-b29b-7aaba7d50169id: c916feea-e212-4773-b673-4daed287b8a3id: adcb1be7-7ed0-464d-a8d4-c905c9d47742id: ff99aaef-142d-4c93-a88c-011e979e3843id: fa0141e5-dc99-4fbd-9c0e-40aff66de606id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: e246c273-d720-4ece-b29b-7aaba7d50169
+  - id: c916feea-e212-4773-b673-4daed287b8a3
+  - id: adcb1be7-7ed0-464d-a8d4-c905c9d47742
+  - id: ff99aaef-142d-4c93-a88c-011e979e3843
+  - id: fa0141e5-dc99-4fbd-9c0e-40aff66de606
+  - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
 source-git-commit: bd4246ec79684167254a153d2f3d0b917a493096
 workflow-type: tm+mt
 source-wordcount: 857
@@ -15,7 +22,7 @@ ht-degree: 0%
 
 计划性能报告允许您在任意粒度级别跟踪和管理项目组合、广告网络和广告网络帐户实体的性能。 通过大多数报表，可以全面了解每个营销渠道中的广告对整体转化率的贡献情况。
 
-每次运行报表时，都会动态编译报表数据。 您可以选择从现有报表生成新报表。 可用的报告参数因报告类型而异。 对于大多数报表，您可以选择预览前50行，而不是生成整个报表。 生成报告时，您可以在报告完成时发送包含一个或多个电子邮件地址下载链接的通知，收件人可以在[!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md)中[管理通知。
+每次运行报表时，都会动态编译报表数据。 您可以选择从现有报表生成新报表。 可用的报告参数因报告类型而异。 对于大多数报表，您可以选择预览前50行，而不是生成整个报表。 生成报告时，您可以在报告完成时发送包含一个或多个电子邮件地址下载链接的通知，收件人可以在[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/new-ui/notifications-manage.md)中管理通知。
 
 所有完成的报表都位于[!UICONTROL Reports]视图的[!UICONTROL Latest Reports]部分，您可以在浏览器窗口中以表格式查看它们，或者以文件形式打开或下载它们。
 
