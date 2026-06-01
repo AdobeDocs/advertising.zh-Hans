@@ -1,1 +1,9 @@
 .DS_Store
+.vscode/
+.cursor/
+.cursor-agents/
+.claude/
+mcp-server.log
+usage-agents.log
+CLAUDE.md
+.cursor/mcp.json
