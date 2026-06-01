@@ -2,7 +2,7 @@
 title: 支持发布者推荐和见解
 description: 了解对查看和管理发布者推荐和见解的支持。
 feature: Search Recommendations
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 1328e52509e4111bc0e58412ebf3c3b2de0cb291
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 0%
@@ -237,14 +237,3 @@ ht-degree: 0%
 | [!UICONTROL Measurement] | 关于转化跟踪和认证的建议 | 在搜索、社交和Commerce中不可用。 | 这些建议可能会影响性能。 在应用任何推荐之前，请咨询您的Adobe客户团队，讨论其优缺点。 |
 | [!UICONTROL Repairs] | 改进账户问题的其他建议 | 在搜索、社交和Commerce中不可用。 | 在[!DNL Google Ads]内定期手动查看修复建议。 此推荐类型非常适合识别不批准的广告、馈送问题、跟踪问题等。 |
 | [!UICONTROL Other] | 推荐使用[!DNL Google Ads]移动应用 | 在搜索、社交和Commerce中不可用。 | — |
-
-<!--
-
->[!MORELIKETHIS]
->
->* [View your publisher recommendations and performance insights](recommendation-view.md)
->* [Apply or dismiss a publisher recommendation](recommendation-apply-dismiss.md)
->* [View the publisher recommendations log for an account](recommendation-view-log.md)
->* [Best practices for using publisher recommendations with portfolios](recommendation-best-practices.md)
-
--->

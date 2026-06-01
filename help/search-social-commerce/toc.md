@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
 workflow-type: tm+mt
-source-wordcount: 2329
+source-wordcount: 2309
 ht-degree: 2%
 
 ---
@@ -79,6 +79,7 @@ ht-degree: 2%
    + [关于新的用户界面](/help/search-social-commerce/new-ui/new-ui-about.md)
    + 仪表板 {#dashboard}
       + [查看您的性能仪表板](/help/search-social-commerce/new-ui/dashboard/dashboard-overview.md)
+      + [支持发布者推荐和见解](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
    + 目标 {#goals}
       + 目标 {#objectives}
          + [关于目标](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
@@ -133,8 +134,9 @@ ht-degree: 2%
          + [从[!UICONTROL Ads]视图管理数据视图报告](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + 报告 {#reports}
       + 计划报表 {#scheduled}
-         + [报告的初始设置任务](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup){target="_blank"}
-         + [用于报表的数据](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports){target="_blank"}
+         + [关于计划报告](/help/search-social-commerce/new-ui/reports/report-about.md)
+         + [报告的初始设置任务](/help/search-social-commerce/new-ui/reports/initial-setup.md)
+         + [用于报表的数据](/help/search-social-commerce/new-ui/reports/data-used-for-reports.md)
          + [管理计划报表](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
          + 计划报表类型 {#report-types}
             + 基本和高级报告 {#basic-advanced-reports}
