@@ -2,7 +2,7 @@
 title: '[!UICONTROL Forecast Accuracy Report]'
 description: 了解预测准确度报表，包括数据列。
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >* 对于成本预测，过去7天中偏差10%被认为是可接受的，因此预测支出的90%至110%之间的实际支出是合适的。 对于收入预测，过去七天中出现15%的偏差被认为是可接受的，因此预测支出的85%到115%之间的实际收入是合适的。 应该调查偏差较大的预测。
 >
->* 当项目组合中的关键字与竞价班次约束相关联时，项目组合因竞价班次导致的总支出过多或过少。 结果，预测的成本列偏离目标支出，增加或减少支出。
+>* 当项目组合中的关键字与[竞价班次约束](/help/search-social-commerce/new-ui/goals/constraints-manage.md)关联时，项目组合超支或缺支按竞价班次导致的总额计算。 结果，预测的成本列偏离目标支出，增加或减少支出。
 
 ## 可用列
 

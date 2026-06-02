@@ -2,9 +2,9 @@
 title: （新UI）管理通知
 description: 了解如何查看、配置和管理搜索、社交和Commerce通知，包括推送通知和通知中心Web应用程序。
 feature: Search Notifications
-source-git-commit: 000ed245b2ea3381e4ca8fcbdd2d6075d50f4b09
+source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1711'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Manager Account Missing]**： Search、Social和Commerce缺少[广告网络管理器帐户](/help/search-social-commerce/admin/manager-accounts.md)的凭据的通知，这些凭据是正确设置关键功能所必需的。<!-- Moving to Campaign Management > Setup Errors at some point -->
 
-   * **[!UICONTROL UI Actions]**：关于在后台执行的作业已完成或失败的通知。 作业类型包括[批量工作表作业](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available-->、批量编辑数据表中的作业或使用工具栏、实体分配作业或用户界面中的其他操作（如与广告网络同步、粘贴行或重命名实体）。 实体分配包括向任何实体分配或取消分配[标签分类值](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)，向项目组合分配营销活动，以及向项目组合分配或取消分配约束。
+   * **[!UICONTROL UI Actions]**：关于在后台执行的作业已完成或失败的通知。 作业类型包括[批量工作表作业](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available-->、批量编辑数据表中的作业或使用工具栏、实体分配作业或用户界面中的其他操作（如与广告网络同步、粘贴行或重命名实体）。 实体分配包括向任何实体分配或取消分配[标签分类值](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)、向项目组合分配营销活动以及[向实体分配或取消分配竞价约束](/help/search-social-commerce/new-ui/goals/constraints-manage.md)。
 
    * [!UICONTROL Data Upload]
 
