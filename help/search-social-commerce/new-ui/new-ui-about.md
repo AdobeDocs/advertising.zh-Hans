@@ -4,22 +4,19 @@ description: 了解新的用户界面。
 feature: Search Introduction
 exl-id: 27fcc1c2-fe69-4bdc-9786-c48b28da1560
 TQID: https://experienceleague.adobe.com/3xw-2l7hzRLYG-Se1SJV3eEFsipAy6jwbJnybubAzD0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
 workflow-type: tm+mt
-source-wordcount: 207
+source-wordcount: 208
 ht-degree: 0%
 
 ---
 
 # 关于新的用户界面
 
-您现在可以从新用户界面(UI)管理目标、模拟和项目组合，以及执行许多其他任务。 新的搜索、社交和Commerce UI在`https://experience.adobe.com`域内的新URL中运行。
+您现在可以从新的用户界面(UI)管理目标、模拟和项目组合，以及执行大多数其他关键任务。 新的搜索、社交和Commerce UI在`https://experience.adobe.com`域内的新URL中运行。
 
 随着时间的推移，剩余的功能将添加到新UI中。 同时，您可以从新UI的主菜单在旧版UI中打开大多数功能。 您还可以轻松地在新版UI和旧版UI之间进行切换。
 
