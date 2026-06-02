@@ -3,9 +3,12 @@ title: （新UI）更改广告组的状态
 description: 了解如何在不打开广告组设置的情况下更改广告组的状态。
 feature: Search Campaign Management
 hide: true
-source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+source-git-commit: d044275b1c8fd7ca8213aad5233c8f7085e4d9f6
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: 201
 ht-degree: 0%
 
 ---
@@ -42,8 +45,8 @@ ht-degree: 0%
 
    * 将光标悬停在广告组行上并单击&#x200B;**[!UICONTROL ...]>[!UICONTROL Delete]**。
 
-   * 将光标悬停在camad组行上，然后单击[!UICONTROL Status]列旁边的![编辑](/help/search-social-commerce/assets/edit.png "编辑")。 选择&#x200B;**[!UICONTROL Deleted]**。
+   * 将光标悬停在广告组行上并单击[!UICONTROL Status]列旁边的![编辑](/help/search-social-commerce/assets/edit.png "编辑")。 选择&#x200B;**[!UICONTROL Deleted]**。
 
 >[!MORELIKETHIS]
 >
->* [关于[!UICONTROL Ad Groups]视图](/help/search-social-commerce/new-ui/manage/ad-groups/ad group-view-about.md)
+>* [关于[!UICONTROL Ad Groups]视图](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)
