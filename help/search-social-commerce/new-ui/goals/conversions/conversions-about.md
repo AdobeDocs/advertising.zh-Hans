@@ -2,9 +2,14 @@
 title: （新UI）可用于管理转化量度的功能
 description: 了解可用于管理转化量度的不同功能。
 feature: Conversions
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+source-git-commit: fe6aa2856831433f9b0673d0cc1e35e92f1728de
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: 114
 ht-degree: 0%
 
 ---
@@ -13,7 +18,7 @@ ht-degree: 0%
 
 从[!UICONTROL Goals] > [!UICONTROL Conversions]视图中，您可以执行以下操作：
 
-* [生成Adobe Advertising转化跟踪标记](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate)。<!-- Update link if I move the file -->
+* [生成Adobe Advertising转化跟踪标记](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
 
 * 对于为广告商跟踪的所有转化量度：
 
@@ -25,6 +30,6 @@ ht-degree: 0%
 
    * [下载转换的性能数据](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#manage-performance-data-reports-for-conversions)。
 
-* 为单个[!DNL Google Ads]帐户要跟踪的潜在客户创建[!DNL Google Ads]增强型转化转化操作。
+* [为要针对单个[!DNL Google Ads]帐户跟踪的潜在客户](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)创建 [!DNL Google Ads] 增强型转化转化的转化操作。
 
-* 上载第一方离线转化数据以映射到潜在客户[&#128279;](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)和[[!DNL Microsoft Advertising] 增强型转化](https://help.ads.microsoft.com/#apex/ads/en/60178)的现有[!DNL Google Ads] 增强型转化。
+* [上载第一方离线转化数据](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)以映射到潜在客户的现有[!DNL Google Ads]增强型转化和[[!DNL Microsoft Advertising] 增强型转化](https://help.ads.microsoft.com/#apex/ads/en/60178)。

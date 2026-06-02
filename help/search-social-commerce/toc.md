@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
+source-git-commit: fe6aa2856831433f9b0673d0cc1e35e92f1728de
 workflow-type: tm+mt
-source-wordcount: 2309
+source-wordcount: 2342
 ht-degree: 2%
 
 ---
@@ -91,7 +91,12 @@ ht-degree: 2%
          + [目标设置](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
          + [允许将目标上传到广告网络](/help/search-social-commerce/new-ui/goals/objectives/objective-upload-to-networks.md)
       + 转化 {#conversions}
+         + [用于管理转化量度的可用功能](/help/search-social-commerce/new-ui/goals/conversions/conversions-about.md)
+         + [生成并实施Adobe Advertising转化跟踪标记](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
          + [管理和查看广告商转化量度的绩效数据](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+         + 增强的转化 {#enhanced-conversions}
+            + [为潜在客户的 [!DNL Google Ads] 增强型转化创建转化操作](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
+            + [上载离线转化数据以增强转化](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
       + [管理 [!DNL Google Ads] 转化值规则](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
    + 计划 {#plan}
       + [关于模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
