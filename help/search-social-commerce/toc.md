@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
+source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
 workflow-type: tm+mt
-source-wordcount: 2354
+source-wordcount: 2356
 ht-degree: 2%
 
 ---
@@ -228,6 +228,7 @@ ht-degree: 2%
          + 数据上传帐户 {#data-upload}
             + [管理用于数据上传的广告网络帐户](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
          + [仅管理 [!DNL Naver] 帐户以进行跟踪](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
+      + [复制 [!DNL Microsoft Advertising]中的 [!DNL Google Ads] 营销活动](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md)
    + [管理自定义警报](/help/search-social-commerce/new-ui/alerts-manage.md)
    + [管理通知](/help/search-social-commerce/new-ui/notifications-manage.md)
    + [用户管理](/help/search-social-commerce/new-ui/user-administration.md)
