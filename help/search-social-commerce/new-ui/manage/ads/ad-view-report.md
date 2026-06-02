@@ -1,11 +1,17 @@
 ---
 title: （新UI）从[!UICONTROL Ads]视图管理数据视图报告
-description: 了解如何在报表的[!UICONTROL Ads]视图中生成、下载和删除包含一个或多个广告数据行的报表。
+description: 了解如何在[!UICONTROL Ads]视图中生成、下载和删除包含一个或多个广告的数据行的报告。
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+source-git-commit: d044275b1c8fd7ca8213aad5233c8f7085e4d9f6
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: 327
 ht-degree: 0%
 
 ---
@@ -62,6 +68,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于[!UICONTROL Ads view]](ad-view-about.md)
->* [（旧版UI）从营销活动管理视图下载数据](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
->* [（旧版UI）从[!UICONTROL Downloads]菜单删除性能数据报告或批量处理工作表文件](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+>* 有关[!UICONTROL Ads view][&#128279;](ad-view-about.md)的（新UI）
+>* [（新UI）更改ad](ad-change-status.md)的状态
