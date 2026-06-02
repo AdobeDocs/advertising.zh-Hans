@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d044275b1c8fd7ca8213aad5233c8f7085e4d9f6
+source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
 workflow-type: tm+mt
-source-wordcount: 2348
+source-wordcount: 2354
 ht-degree: 2%
 
 ---
@@ -98,6 +98,7 @@ ht-degree: 2%
             + [为潜在客户的 [!DNL Google Ads] 增强型转化创建转化操作](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
             + [上载离线转化数据以增强转化](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
       + [管理 [!DNL Google Ads] 转化值规则](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
+      + [管理搜索竞价单位的限制](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
    + 计划 {#plan}
       + [关于模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
       + [运行或重新运行自定义模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
