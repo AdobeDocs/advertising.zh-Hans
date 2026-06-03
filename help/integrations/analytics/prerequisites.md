@@ -1,64 +1,54 @@
 ---
-title: Prerequisites and key information for implementing [!DNL Analytics for Advertising]
-description: Prerequisites and key information for implementing [!DNL Analytics for Advertising]
+title: 实施 [!DNL Analytics for Advertising]的先决条件和关键信息
+description: 实施 [!DNL Analytics for Advertising]的先决条件和关键信息
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
 TQID: https://experienceleague.adobe.com/ZUROuxkhySqUbUOInKkdhgvmqJth3P-9-fVDHojrn34
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
 workflow-type: tm+mt
-source-wordcount: 834
+source-wordcount: 840
 ht-degree: 0%
 
 ---
 
-# Prerequisites and key information for implementing [!DNL Analytics for Advertising]
+# 实施[!DNL Analytics for Advertising]的先决条件和关键信息
 
-*Advertisers with Advertising DSP and[!DNL Advertising Search, Social, & Commerce]*
+*使用Advertising Creative、Advertising DSP和Advertising Search、Social和Commerce的广告商*
 
-Review the following information before you integrate Adobe Advertising with Adobe Analytics.
+在将Adobe Advertising与Adobe Analytics集成之前，请查看以下信息。
 
-## Requirements for reporting Adobe Advertising data in [!DNL Analytics]
+## 在[!DNL Analytics]中报告Adobe Advertising数据的要求
 
-* Either of the following:
-   * Adobe Experience Platform Web SDK: `alloy.js`
-   * Experience Cloud Identity Service: `visitorAPI.js` version 2.0 or higher
-* Any version of Adobe Analytics (including [!DNL Prime], [!DNL Premium], or [!DNL Ultimate])
-* Adobe Analytics: `appMeasurement.js` version 2.1 or higher
-* (Advertising DSP customers) An [Advertising DSP JavaScript snippet](javascript.md) deployed in your webpages to track view-through visits.
+* 以下任一项：
+   * Adobe Experience Platform Web SDK： `alloy.js`
+   * Experience Cloud Identity服务：`visitorAPI.js`版本2.0或更高版本
+* Adobe Analytics的任何版本（包括[!DNL Prime]、[!DNL Premium]或[!DNL Ultimate]）
+* Adobe Analytics：`appMeasurement.js`版本2.1或更高版本
+* （Advertising DSP客户）在网页中部署了[Advertising DSP JavaScript代码片段](javascript.md)以跟踪浏览访问。
 
 >[!TIP]
 >
->To improve data fidelity, use the most recent version of each library.
+>要提高数据保真度，请使用每个库的最新版本。
 
-## Requirements for sharing Analytics segments with Adobe Advertising
+## 与Adobe Advertising共享Analytics区段的要求
 
-* Experience Cloud Identity Service: `visitorAPI.js` version 2.1 or higher
-* Adobe Analytics: `appMeasurement.js` version 1.8 or higher
+* Experience Cloud Identity服务：`visitorAPI.js`版本2.1或更高版本
+* Adobe Analytics：`appMeasurement.js`版本1.8或更高版本
 
-## Requirements for reporting [!DNL Analytics] data in Adobe Advertising
+## 在Adobe Advertising中报告[!DNL Analytics]数据的要求
 
-Provide the Adobe Advertising implementation team with the following:
+向Adobe Advertising实施团队提供以下信息：
 
-* The [!DNL Analytics] report suite ID to use for reporting on paid media activity and for feeding site activity for optimization and reporting in Adobe Advertising
-* The company&#39;s CX Enterprise Organization ID (Org ID).
+* 用于报告付费媒体活动和馈送网站活动以在Adobe Advertising中进行优化和报告的[!DNL Analytics]报告包ID
+* 公司的CX Enterprise Organization ID (Org ID)。
 
-You can find both of these IDs on the [Summary tab of the Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=zh-Hans).
+您可以在Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)的[摘要选项卡上找到这两个ID。
 
-![Experience Platform Debugger Summary screen](/help/integrations/assets/a4adc-debugger-summary.png)
+![Experience Platform Debugger的“摘要”屏幕](/help/integrations/assets/a4adc-debugger-summary.png)
 
 ## Adobe Advertising中的[!DNL Analytics]数据 {#lookback-a4adc}
 
@@ -83,7 +73,7 @@ Adobe Advertising中的![广告商级别的回溯时段设置](/help/integration
 
 >[!NOTE]
 >
->若要针对不同的时间范围对数据进行分段，您可以在Analysis Workspace中[设置具有不同回顾时间范围的自定义区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hans)。
+>若要针对不同的时间范围对数据进行分段，您可以在Analysis Workspace中[设置具有不同回顾时间范围的自定义区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
 
 ## 支持的广告环境
 
@@ -120,13 +110,13 @@ Adobe Advertising中的![广告商级别的回溯时段设置](/help/integration
 
 ### 补充ID
 
-为网站实施Experience Cloud Identity服务后，包含[!DNL Analytics]或Adobe Advertising中的数据的点击将包含补充ID。
+为网站实施Experience Cloud Identity服务后，包含[!DNL Analytics]或Adobe Advertising中数据的点击将包含补充ID。
 
 示例： `sdid=2F3C18E511F618CC-45F83E994AEE93A0`
 
 为了准确的数据集成，[!DNL Analytics for Advertising]活动用于交付内容或记录目标量度的所有Adobe Advertising调用必须具有共享相同补充ID的相应[!DNL Analytics]点击。
 
-在[!DNL Analytics]中进行故障诊断时，请务必确认[!DNL Analytics]点击存在补充ID。 在[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=zh-Hans)中，您可以在Adobe Advertising选项卡中看到此ID作为`sdid`参数。
+在[!DNL Analytics]中进行故障诊断时，请务必确认[!DNL Analytics]点击存在补充ID。 在[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)中，您可以在Adobe Advertising选项卡中看到此ID作为`sdid`参数。
 
 >[!NOTE]
 >
