@@ -57,7 +57,7 @@ ht-degree: 0%
 
    **[!UICONTROL Report redirects as errors]：**&#x200B;当登陆页面重定向到其他页面时（例如，如果登陆页面缺失且站点显示替换页面），登陆页面错误文件中的[!UICONTROL EF Errors]列将指示登陆页面被重定向到的URL。
 
-任务开始时，将在[!UICONTROL Bulksheets]视图中添加一个新行。 如果在[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/new-ui/notifications/notification-manage.md)中启用了批量处理工作表的电子邮件通知，则在创建文件时会发送一封电子邮件通知，其中包含指向文件的链接。 根据编译的数据量，电子邮件通知可能需要几分钟或更长时间。 您可以下载文件以进行编辑，然后重新上传以供发布，也可以按原样发布文件。
+任务开始时，将在[!UICONTROL Bulksheets]视图中添加一个新行。 如果在[!UICONTROL Notification Center] [&#128279;](/help/search-social-commerce/new-ui/notifications/notification-manage.md)中启用了批量处理工作表的电子邮件通知，则在创建文件时会发送一封电子邮件通知，其中包含指向文件的链接。 根据编译的数据量，电子邮件通知可能需要几分钟或更长时间。 您可以下载文件以进行编辑，然后重新上传以供发布，也可以按原样发布文件。
 
 >[!NOTE]
 >
