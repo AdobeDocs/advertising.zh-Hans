@@ -38,7 +38,7 @@ ht-degree: 0%
 
    相同的设置适用于您发布的所有文件。
 
-任务开始时，[!UICONTROL Bulksheets]视图中行的状态和计划发布日期将更新。 如果在[!UICONTROL Notification Center] [&#128279;](/help/search-social-commerce/new-ui/notifications/notification-manage.md)中启用了批量处理工作表的电子邮件通知，则在发布文件时会发送一封电子邮件通知，其中包含指向文件的链接。 根据编译的数据量，电子邮件通知可能需要几分钟或更长时间。 如果有任何数据无法发布，则错误文件将列在[!UICONTROL Bulksheets]视图中，并且会发送电子邮件通知，其中包含指向错误文件的链接。
+任务开始时，[!UICONTROL Bulksheets]视图中行的状态和计划发布日期将更新。 如果在[!UICONTROL Notification Center] [&#128279;] (/help/search-social-commerce/new-ui/notifications/notification-manage.md)中启用了批量处理工作表的电子邮件通知，则在发布文件时会发送一封电子邮件通知，其中包含指向文件的链接。 根据编译的数据量，电子邮件通知可能需要几分钟或更长时间。 如果有任何数据无法发布，则错误文件将列在[!UICONTROL Bulksheets]视图中，并且会发送电子邮件通知，其中包含指向错误文件的链接。
 
 >[!NOTE]
 >
