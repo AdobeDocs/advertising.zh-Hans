@@ -2,8 +2,10 @@
 title: 管理搜索竞价单位的限制
 description: 了解限制条件，以限制旧版关键词级别项目组合中CPC促销活动中竞价单位的竞价。
 feature: Search Campaign Management, Search Optimization
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: c800239a-06eb-4249-9aef-771973d24d35
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: c800239a-06eb-4249-9aef-771973d24d35
 source-git-commit: 9cc395a6b0fe25435ca6ed022f8da767d525d68e
 workflow-type: tm+mt
 source-wordcount: 2660
@@ -114,7 +116,7 @@ ht-degree: 0%
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Goals]>[!UICONTROL Constraints]**。
 
-1. （可选）从工具栏](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)筛选列表[。
+1. （可选）从工具栏[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)筛选列表。
 
 1. 选中要编辑的约束旁边的复选框。
 
@@ -136,7 +138,7 @@ ht-degree: 0%
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Goals]>[!UICONTROL Constraints]**。
 
-1. （可选）从工具栏](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)筛选列表[。
+1. （可选）从工具栏[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)筛选列表。
 
 1. 选中每个状态要更改的约束旁边的复选框。
 
@@ -187,7 +189,7 @@ ht-degree: 0%
 
    例如，要在营销活动级别分配约束，请转到[!UICONTROL Manage] > [!UICONTROL Campaigns]。
 
-1. （可选）从工具栏](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)筛选列表[。
+1. （可选）从工具栏[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)筛选列表。
 
 1. 选中要为其分配单个约束的每个图元旁边的复选框。
 
