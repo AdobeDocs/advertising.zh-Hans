@@ -6,9 +6,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 subfeature_v2:
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
-source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: 357
+source-wordcount: 352
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 新用户应执行以下初始设置任务：
 
-* 使Adobe Advertising跟踪的广告商转化量度可用于报表和其他视图，还可以选择重命名列标题中显示的任何转化量度以提高可读性。 请参阅&quot;[管理和查看广告商转化量度](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)的性能数据。&quot;
+* 使Adobe Advertising跟踪的广告商转化量度可用于报表和其他视图，还可以选择重命名列标题中显示的任何转化量度以提高可读性。 请参阅&quot;[管理广告商的转化量度](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)&quot;。
 
   事务属性不适用于报表，除非您特别规定它们可用。
 

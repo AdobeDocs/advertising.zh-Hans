@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6474daed0ea0dc7b13fff847f6c327e4e5788dde
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: 2416
+source-wordcount: 2412
 ht-degree: 2%
 
 ---
@@ -93,17 +93,18 @@ ht-degree: 2%
       + 转化 {#conversions}
          + [用于管理转化量度的可用功能](/help/search-social-commerce/new-ui/goals/conversions/conversions-about.md)
          + [生成并实施Adobe Advertising转化跟踪标记](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
-         + [管理和查看广告商转化量度的绩效数据](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+         + [管理广告商的转化量度](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
          + 增强的转化 {#enhanced-conversions}
             + [为潜在客户的 [!DNL Google Ads] 增强型转化创建转化操作](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
             + [上载离线转化数据以增强转化](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
       + [管理 [!DNL Google Ads] 转化值规则](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
       + [管理搜索竞价单位的限制](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
    + 计划 {#plan}
-      + [关于模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
-      + [运行或重新运行自定义模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
-      + [查看模拟详细信息](/help/search-social-commerce/new-ui/plan/simulations/simulation-view.md)
-      + [下载模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
+      + 模拟 {#simulations}
+         + [关于模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
+         + [运行或重新运行自定义模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
+         + [查看模拟详细信息](/help/search-social-commerce/new-ui/plan/simulations/simulation-view.md)
+         + [下载模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
       + [使用[!UICONTROL Spend Planner]](/help/search-social-commerce/new-ui/plan/spend-planner.md)
    + 管理 {#manage}
       + 项目组合 {#portfolios}

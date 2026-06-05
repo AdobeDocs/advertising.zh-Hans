@@ -2,9 +2,9 @@
 title: （新UI）生成并实施Adobe Advertising转化跟踪标记
 description: 了解如何创建Adobe Advertising转化标记以跟踪您的转化事件。
 feature: Search Tools, Search Tracking
-source-git-commit: f97a636a55c6cc823f0041e7acd6f48dca769a3e
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 为要跟踪的每组量度创建单独的转化标记。 您可以在Search、Social和Commerce中生成标记，也可以通过将Adobe Experience Platform（以前称为Adobe Experience Platform Launch）中的标记与Adobe Advertising扩展结合使用来生成标记。
 
-## 在Search、Social和Commerce中生成并实施转化跟踪标记
+## 在Search、Social和Commerce中生成转化跟踪标记
 
 >[!NOTE]
 >

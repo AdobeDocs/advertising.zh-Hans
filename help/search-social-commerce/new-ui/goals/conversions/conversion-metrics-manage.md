@@ -9,14 +9,14 @@ subfeature_v2:
   - id: d068b149-b9d1-421c-9033-a51495366ddc
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: 937
+source-wordcount: 932
 ht-degree: 0%
 
 ---
 
-# （新UI）管理和查看广告商转化量度的绩效数据
+# （新UI）管理广告商的转化量度
 
 *Beta功能*
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
       1. （要隐藏量度）在确认消息中，单击&#x200B;**[!UICONTROL Confirm]**&#x200B;可隐藏量度，包括从包含这些量度的任何派生量度中删除这些量度。
 
-## 管理转化的性能数据报表
+## 管理转化可见性和源报告
 
 您可以下载以下有关跟踪的转化的信息：同步的量度名称，量度在“搜索”、“社交”和“Commerce”管理视图和报表中的显示名称，是否在管理视图和报表中可见该量度，转化ID以及量度来源。 以[!DNL Microsoft Excel]工作簿（XLSX文件）格式将数据下载到文件。
 
