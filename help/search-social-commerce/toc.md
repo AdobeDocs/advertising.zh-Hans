@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
+source-git-commit: 6474daed0ea0dc7b13fff847f6c327e4e5788dde
 workflow-type: tm+mt
-source-wordcount: 2356
+source-wordcount: 2416
 ht-degree: 2%
 
 ---
@@ -229,6 +229,17 @@ ht-degree: 2%
             + [管理用于数据上传的广告网络帐户](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
          + [仅管理 [!DNL Naver] 帐户以进行跟踪](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
       + [复制 [!DNL Microsoft Advertising]中的 [!DNL Google Ads] 营销活动](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md)
+      + 批量工作表 {#bulksheets}
+         + [关于使用批量处理工作表管理营销活动数据](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)
+         + [设置用于上传批量工作表的FTP帐户](/help/search-social-commerce/new-ui/set-up/bulksheets/ftp-account.md)
+         + [下载/创建批量处理工作表文件](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md)
+         + [验证批量处理工作表文件中的登陆页面](/help/search-social-commerce/new-ui/set-up/bulksheets/validate-landing-pages.md)
+         + [导出生成或上传的批量处理工作表文件](/help/search-social-commerce/new-ui/set-up/bulksheets/export.md)
+         + [上传批量工作表或已更正的错误文件](/help/search-social-commerce/new-ui/set-up/bulksheets/upload.md)
+         + [发布批量工作表或已更正的错误文件](/help/search-social-commerce/new-ui/set-up/bulksheets/post.md)
+         + [批量处理工作表错误](/help/search-social-commerce/new-ui/set-up/bulksheets/errors.md)
+         + [删除上传的批量工作表和错误文件](/help/search-social-commerce/new-ui/set-up/bulksheets/delete.md)
+         + [停止正在进行的批量处理工作表作业](/help/search-social-commerce/new-ui/set-up/bulksheets/stop-job.md)
    + [管理自定义警报](/help/search-social-commerce/new-ui/alerts-manage.md)
    + [管理通知](/help/search-social-commerce/new-ui/notifications-manage.md)
    + [用户管理](/help/search-social-commerce/new-ui/user-administration.md)
