@@ -2,9 +2,9 @@
 title: （新UI）生成并实施Adobe Advertising转化跟踪标记
 description: 了解如何创建Adobe Advertising转化标记以跟踪您的转化事件。
 feature: Search Tools, Search Tracking
-source-git-commit: f97a636a55c6cc823f0041e7acd6f48dca769a3e
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 为要跟踪的每组量度创建单独的转化标记。 您可以在Search、Social和Commerce中生成标记，也可以通过将Adobe Experience Platform（以前称为Adobe Experience Platform Launch）中的标记与Adobe Advertising扩展结合使用来生成标记。
 
-## 在Search、Social和Commerce中生成并实施转化跟踪标记
+## 在Search、Social和Commerce中生成转化跟踪标记
 
 >[!NOTE]
 >
@@ -71,13 +71,13 @@ ht-degree: 0%
 
 您可以使用Adobe Experience Platform中的标记为“搜索”、“社交”和“Commerce”设置转化跟踪。 标记以内置增值功能的形式提供给Adobe CX Enterprise客户。
 
-从Experience Platform用户界面或Experience Platform数据收集用户界面为Search、Social和Commerce配置转化跟踪标记时，需要执行以下任务。 有关配置标记的完整信息和说明，请参阅Experience Platform标记指南，从“[标记概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/home)”和“[快速入门指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/get-started/quick-start)”开始。
+从Experience Platform用户界面或Experience Platform数据收集用户界面为Search、Social和Commerce配置转化跟踪标记时，需要执行以下任务。 有关配置标记的完整信息和说明，请参阅Experience Platform标记指南，从“[标记概述](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)”和“[快速入门指南](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)”开始。
 
 >[!PREREQUISITES]
 >
 >要安装所需的标记扩展，请让您的组织管理员访问UI中的数据收集功能，包括`manage_properties`权限。
 
-1. 从[数据收集UI](https://experience.adobe.com/#/data-collection/)，安装Adobe Advertising [扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/ui/extensions/overview)：
+1. 从[数据收集UI](https://experience.adobe.com/#/data-collection/)，安装Adobe Advertising [扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview)：
 
    1. 从适用的属性中，打开扩展目录并选择&#x200B;**Adobe Advertising**。
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 
          **转换属性名称：**&#x200B;转换属性的名称（例如，`form_completes`）。
 
-         **值：**&#x200B;转换属性的数值（例如`1`跟踪form_completes），或选择现有的[数据元素](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/ui/data-elements)。
+         **值：**&#x200B;转换属性的数值（例如`1`跟踪form_completes），或选择现有的[数据元素](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)。
 
       1. 单击&#x200B;**保留更改**。
 
