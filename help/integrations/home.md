@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
+source-git-commit: f5aece05b41143c241ae0899f9d3ed3a0bed4c54
 workflow-type: tm+mt
-source-wordcount: 962
+source-wordcount: 1006
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年6月9日 | 与Adobe Customer Journey Analytics集成 | 具有Customer Journey Analytics但不具有[!DNL Analytics for Advertising]的广告商可以使用Adobe Experience Platform [!DNL Web SDK]在Adobe Advertising和Customer Journey Analytics之间原生交换数据。 | 请参阅“[Adobe Advertising与Customer Journey Analytics的集成概述](/help/integrations/customer-journey-analytics/overview.md)”。 |
 | 2026年6月3日 | [!DNL Adobe Analytics for Advertising] | 具有Advertising Creative和[!DNL Adobe Analytics for Advertising]的广告商现在可以在Adobe Analytics中查看变体和分支级别的数据。 无论使用哪个DSP从[!DNL Creative]体验中运行广告，都会显示数据。 如果您通过Advertising DSP投放位置运行广告，则还将看到促销活动和投放级别的数据以及与成本相关的量度。<br><br>无需其他设置。 | 查看[!DNL Analytics]中显示的Advertising Creative [流量指标](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/metrics/amo-metrics)和[分类](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#classifications)。 |
 | 2025年9月8日 | 与Customer Journey Analytics集成 | （Beta功能）具有Customer Journey Analytics但不具有[!DNL Analytics for Advertising]的广告商现在可以使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)在Adobe Advertising和Customer Journey Analytics之间本机交换数据。 | 请参阅“[Adobe Advertising与Customer Journey Analytics的集成概述](/help/integrations/customer-journey-analytics/overview.md)”。 |
 | 2025年3月26日 | [!DNL Adobe Analytics for Advertising] | （具有Search、Social和Commerce的广告商； [!DNL Microsoft Advertising]帐户；以及[!DNL Adobe Analytics for Advertising]）对于具有[!UICONTROL Auto Upload]跟踪选项的帐户，所有营销活动类型的登陆页面后缀中的AMO ID参数格式已更新为最新格式。 以前，大多数客户的效果最佳营销活动都迁移到新格式。<br><br>对于没有[!UICONTROL Auto Upload]跟踪选项的帐户，这些帐户尚未迁移到新格式，但是，您必须手动更新每个登陆页面后缀以包含新的AMO ID格式。<br><br>当前格式：`s_kwcid=AL!{userid}!10!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}` | 请参阅[概述 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)和[AMO ID格式](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#dimension-items)。 |

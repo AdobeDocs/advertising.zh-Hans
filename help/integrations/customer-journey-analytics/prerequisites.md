@@ -16,9 +16,9 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: b2f5488c286d6a01d78218488dbcaa799f4010ca
+source-git-commit: 5a926d18f634eb08b6fd329d6b6ba90a8f91d991
 workflow-type: tm+mt
-source-wordcount: 189
+source-wordcount: 191
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
   您需要获得内部Web分析人员的支持，才能设置与数据集的连接并配置报表。
 
-* Adobe Experience Platform数据建模和管理技术（包括[架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)和[数据集](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/overview)）和[数据收集技术](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/home)（包括[数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/overview)和[标记](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/home)）
+* （不具有[!DNL Analytics for Advertising]的广告商） Adobe Experience Platform数据建模和管理技术（包括[架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)和[数据集](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/overview)）和[数据收集技术](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/home)（包括[数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/overview)和[标记](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/home)）
 
   这些技术需要Experience Platform站点管理员的支持。
 
