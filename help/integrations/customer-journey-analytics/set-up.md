@@ -29,7 +29,7 @@ ht-degree: 0%
 
 *仅不带[!DNL Analytics for Advertising]的广告商*
 
-使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)在Adobe Advertising和Customer Journey Analytics之间原生交换数据需要执行以下任务。 数据传输和归因在启动后开始；不包括历史数据。
+使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)在Adobe Advertising和Customer Journey Analytics之间原生交换数据需要执行以下任务。 数据传输和归因在启动后开始；不包括历史数据。
 
 1. （贵组织的Web分析师；可选）[收集AMO ID和EF ID的历史数据](/help/integrations/analytics/rvars-to-evars.md){target="_blank"}。
 
@@ -53,17 +53,17 @@ ht-degree: 0%
 
 此过程包括创建模式。 您可以选择编辑现有架构；在这种情况下，您无需创建数据集或数据流。
 
-1. 在Experience Platform中，[为要使用Experience Data Model (XDM)收集的数据定义手动架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas)。
+1. 在Experience Platform中，[为要使用Experience Data Model (XDM)收集的数据定义手动架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/ui/resources/schemas)。
 
    * 在[!UICONTROL Schema Details]中，选择&#x200B;**[!UICONTROL Experience Event]**&#x200B;作为用于捕获站点事件的架构的基类。 命名您的架构，然后单击&#x200B;**[!UICONTROL Finish]**。
 
-   * 在左侧面板中，添加字段组[Adobe Advertising Cloud ExperienceEvent Full Extension](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)以添加特定于Adobe Advertising的字段。 至少包括具有`trackingCode`和`trackingIdentities`属性的conversionDetails对象，这些属性包括[AMO ID和EF ID](ids.md)。 其他字段为可选字段。
+   * 在左侧面板中，添加字段组[Adobe Advertising Cloud ExperienceEvent Full Extension](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)以添加特定于Adobe Advertising的字段。 至少包括具有`trackingCode`和`trackingIdentities`属性的conversionDetails对象，这些属性包括[AMO ID和EF ID](ids.md)。 其他字段为可选字段。
 
    * （可选）根据需要添加其他字段组，以将其他数据字段连接到Adobe Advertising数据。
 
    **注意：**&#x200B;您可以创建多个架构，但每个数据集和每个数据流只能使用一个架构，您将在以下步骤中创建该架构。
 
-1. [基于架构创建数据集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/create)以存储和管理事件数据集合。 这将是您的&#x200B;*事件数据集*。 如果您使用数据集编辑现有架构，则可以跳过此步骤。
+1. [基于架构创建数据集](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/create)以存储和管理事件数据集合。 这将是您的&#x200B;*事件数据集*。 如果您使用数据集编辑现有架构，则可以跳过此步骤。
 
    * 选择&#x200B;**[!UICONTROL Create dataset from schema]**&#x200B;的选项并选择您的架构。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
    >
    >在使用生产数据集之前，首先创建虚拟事件数据集以验证数据流。
 
-1. [创建数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)以指定从网站或应用程序发送数据的位置以及如何处理传入数据。
+1. [创建数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)以指定从网站或应用程序发送数据的位置以及如何处理传入数据。
 
    * 对于[!UICONTROL Mapping schema]设置，选择您的架构。
 
@@ -93,17 +93,17 @@ ht-degree: 0%
 >
 >仅支持Adobe标记。 不支持独立的Experience Platform Web SDK (`alloy.js`)或第三方标记管理器。
 
-1. 使用Experience Platform [标记](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)（以前称为[!DNL Launch]）生成JavaScript标记，以将贵组织的网站数据发送到数据流。
+1. 使用Experience Platform [标记](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/home)（以前称为[!DNL Launch]）生成JavaScript标记，以将贵组织的网站数据发送到数据流。
 
    * 创建标记属性，该属性是标记配置的容器。
 
-   * 对于您的资产，请从扩展目录中[安装“Adobe Experience Platform Web SDK”扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)。
+   * 对于您的资产，请从扩展目录中[安装“Adobe Experience Platform Web SDK”扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)。
 
      此扩展通过Experience Platform Edge Network将数据从Web资产发送到Adobe CX Enterprise。
 
      请勿使用Adobe Advertising扩展。
 
-   * 创建[自定义Web SDK内部版本](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#custom-build)：
+   * 创建[自定义Web SDK内部版本](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#custom-build)：
 
       * 在[!UICONTROL Custom build components]部分中，启用&#x200B;**Advertising**&#x200B;组件。
 
@@ -115,23 +115,23 @@ ht-degree: 0%
 
          * 在[!UICONTROL Datastreams]设置中，选择要用于每个Web环境（生产、暂存、开发）的数据流。
 
-         * （仅具有Adobe Advertising DSP的组织）在[[!UICONTROL Adobe Advertising]设置](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising)中，启用&#x200B;**[!UICONTROL Adobe Advertising DSP]**&#x200B;以允许查看到达跟踪，并指定为其启用查看到达跟踪的广告商。 您可以选择通过添加组织的ID5合作伙伴ID和/或组织的[!DNL LiveRamp RampID] JavaScript代码(ats.js)的路径从通用ID收集ID。
+         * （仅具有Adobe Advertising DSP的组织）在[[!UICONTROL Adobe Advertising]设置](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising)中，启用&#x200B;**[!UICONTROL Adobe Advertising DSP]**&#x200B;以允许查看到达跟踪，并指定为其启用查看到达跟踪的广告商。 您可以选择通过添加组织的ID5合作伙伴ID和/或组织的[!DNL LiveRamp RampID] JavaScript代码(ats.js)的路径从通用ID收集ID。
 
            如果您的广告商未列出，请输入每个广告商的广告商ID。 如果需要，请向您的Adobe客户团队索取ID。
 
          * 保存内部版本。
 
-   * （可选） [根据需要创建规则](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules)，以确定Web SDK何时应将数据发送到Edge Network。
+   * （可选） [根据需要创建规则](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/ui/rules)，以确定Web SDK何时应将数据发送到Edge Network。
 
-      * 对于`[sendEvent](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/actions/send-event)`操作，请使用[[!UICONTROL Advertising]设置](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising)来定义如何将广告数据用于归因测量。 当规则包含一系列多个操作时，此设置非常有用，并且仅在您为自定义生成组件选择“[!UICONTROL Advertising]”组件时可用。
+      * 对于`[sendEvent](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/actions/send-event)`操作，请使用[[!UICONTROL Advertising]设置](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising)来定义如何将广告数据用于归因测量。 当规则包含一系列多个操作时，此设置非常有用，并且仅在您为自定义生成组件选择“[!UICONTROL Advertising]”组件时可用。
 
-   * 根据需要创建[数据元素](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)，以将网站上的变量映射到您之前创建的XDM架构的结构。
+   * 根据需要创建[数据元素](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/ui/data-elements)，以将网站上的变量映射到您之前创建的XDM架构的结构。
 
-1. [将标记](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow)发布到测试环境，您可以在其中迭代开发标记。
+1. [将标记](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/publish/publishing-flow)发布到测试环境，您可以在其中迭代开发标记。
 
-1. [检查三个数据集中每个数据集的活动](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets)以验证投放。
+1. [检查三个数据集中每个数据集的活动](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#view-datasets)以验证投放。
 
-1. [将标记发布到实时生产环境](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow)。
+1. [将标记发布到实时生产环境](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/publish/publishing-flow)。
 
    您组织的IT部门或其他小组可能需要计划标记部署或通知其相关信息。
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 您还可以选择使用相同信息编辑现有连接。
 
-1. 在Customer Journey Analytics中，[创建或编辑包含Experience Platform数据集和架构的连接](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)。
+1. 在Customer Journey Analytics中，[创建或编辑包含Experience Platform数据集和架构的连接](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-connections/create-connection)。
 
    <!-- **Note:** You must send data for all DSP and Search, Social, & Commerce accounts to a single Experience Platform instance and sandbox.  -->
 
@@ -193,7 +193,7 @@ ht-degree: 0%
 
 在Customer Journey Analytics中，创建一个或多个数据视图以定义用于报表的指标和维度。 Web分析人员可以执行这些任务。
 
-1. 在Customer Journey Analytics中，[创建数据视图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)。
+1. 在Customer Journey Analytics中，[创建数据视图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/create-dataview)。
 
 1. 配置视图以包含以下信息。
 
@@ -216,7 +216,7 @@ Seems to not be necessary now:
      
      *  Join the events dataset to the summary dataset, which isn't yet joined to anything:
      
-       * For each dimension with summary data that you want to be available in Customer Journey Analytics, [create a derived field](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields).
+       * For each dimension with summary data that you want to be available in Customer Journey Analytics, [create a derived field](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/derived-fields).
 
          For example, to view summary data for campaigns, create a derived field for the dimension `Adobe Advertising Campaign`.
          
@@ -256,7 +256,7 @@ Seems to not be necessary now:
 
 在Customer Journey Analytics Workspace中，按照以下步骤配置报表和可视化图表。 Web分析人员可以执行这些任务。
 
-1. [在Workspace中创建一个项目](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)，以根据在该数据视图中配置的维度和指标生成报告和可视化图表。
+1. [在Workspace中创建一个项目](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)，以根据在该数据视图中配置的维度和指标生成报告和可视化图表。
 
 您可以在一个自由格式表中使用相同的维度对摘要指标和事件数据进行分类。
 
@@ -276,5 +276,5 @@ Seems to not be necessary now:
 >*  [!DNL Customer Journey Analytics][&#128279;](ids.md)使用的Adobe Advertising ID
 >* Customer Journey Analytics中的[Adobe Advertising指标和维度](advertising-data-in-cja.md)
 >* [收集AMO ID和EF ID的历史数据以在Adobe Customer Journey Analytics中使用](/help/integrations/analytics/rvars-to-evars.md)。
->* [Customer Journey Analytics指南](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)
->* Customer Journey Analytics [适用于Adobe Analytics用户的用户指南](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
+>* [Customer Journey Analytics指南](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-landing)
+>* Customer Journey Analytics [适用于Adobe Analytics用户的用户指南](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
