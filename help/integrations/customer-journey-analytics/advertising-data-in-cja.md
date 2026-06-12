@@ -15,9 +15,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2f5488c286d6a01d78218488dbcaa799f4010ca
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: 455
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 *仅集成Adobe Advertising-Customer Journey Analytics的广告商*
 
-*Beta功能*
-
 Adobe Advertising每天将流量指标和维度传递给[!DNL Customer Journey Analytics]。 [!DNL Web SDK]实时捕获Adobe Advertising点进和显示点进，并将其传递给Customer Journey Analytics。
+
+![Customer Journey Analytics中的Adobe Advertising数据示例](/help/integrations/assets/cja-report-example.png "Customer Journey Analytics中的Adobe Advertising数据示例")
 
 ## Adobe Advertising流量量度
 
@@ -108,5 +108,5 @@ Adobe Advertising每天将流量指标和维度传递给[!DNL Customer Journey A
 >
 >* [概述](overview.md)
 >* [先决条件](prerequisites.md)
->* [使用的 [!DNL Customer Journey Analytics]](ids.md)Adobe Advertising ID
+>*  [!DNL Customer Journey Analytics][&#128279;](ids.md)使用的Adobe Advertising ID
 >* [设置数据收集、数据传输和报告](set-up.md)

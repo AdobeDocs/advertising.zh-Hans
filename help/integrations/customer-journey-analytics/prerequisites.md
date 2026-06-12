@@ -16,18 +16,16 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2f5488c286d6a01d78218488dbcaa799f4010ca
 workflow-type: tm+mt
-source-wordcount: 140
+source-wordcount: 189
 ht-degree: 0%
 
 ---
 
 # 将Adobe Advertising与Customer Journey Analytics集成的先决条件
 
-*Beta功能*
-
-使用Advertising DSP和&#x200B;*的[!DNL Advertising Search, Social, & Commerce]*&#x200B;广告商
+使用Advertising DSP和&#x200B;[!DNL Advertising Search, Social, & Commerce]*的*&#x200B;广告商
 
 * 可访问数据管理工具的Adobe Customer Journey Analytics
 
@@ -37,10 +35,12 @@ ht-degree: 0%
 
   这些技术需要Experience Platform站点管理员的支持。
 
+* （不带[!DNL Analytics for Advertising]的广告商）与您的Adobe客户团队一起使用Collaboration，这些客户团队将在设置期间完成各种任务。
+
 >[!MORELIKETHIS]
 >
 >* [概述](overview.md)
->* [使用的 [!DNL Customer Journey Analytics]](ids.md)Adobe Advertising ID
+>*  [!DNL Customer Journey Analytics][&#128279;](ids.md)使用的Adobe Advertising ID
 >* [设置数据收集、数据传输和报告](set-up.md)
 >* Customer Journey Analytics中的[Adobe Advertising指标和维度](advertising-data-in-cja.md)
 >* （Adobe Analytics用户） [收集AMO ID和EF ID的历史数据以用于Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md)。

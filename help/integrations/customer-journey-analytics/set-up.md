@@ -16,34 +16,32 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 67835b7b70333a81572355b4fed794341cd4ff36
+source-git-commit: c62a18194544bcbe98117b86eccb1b5e2740999c
 workflow-type: tm+mt
-source-wordcount: 1814
+source-wordcount: 1804
 ht-degree: 0%
 
 ---
 
 # 设置数据收集、数据传输和报告
 
-*Beta功能*
+使用Advertising DSP和&#x200B;[!DNL Advertising Search, Social, & Commerce]*的*&#x200B;广告商
 
-在Customer Journey Analytics中查看Advertising Cloud数据需要执行以下任务。
+*仅不带[!DNL Analytics for Advertising]的广告商*
 
->[!PREREQUISITES]
->
->当此功能处于测试版模式时，请让您的Adobe帐户团队为广告商帐户提供对`Adobe Advertising`服务的访问权限。
+使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)在Adobe Advertising和Customer Journey Analytics之间原生交换数据需要执行以下任务。 数据传输和归因在启动后开始；不包括历史数据。
 
 1. （贵组织的Web分析师；可选）[收集AMO ID和EF ID的历史数据](/help/integrations/analytics/rvars-to-evars.md){target="_blank"}。
 
    此步骤仅适用于具有[!DNL Analytics for Advertising]的广告商。
 
-1. （贵组织的Adobe Experience Platform网站管理员）[在Experience Platform中设置数据收集并实施转化跟踪标记](#data-collection)。
+2. （贵组织的Adobe Experience Platform网站管理员）[在Experience Platform中设置数据收集并实施转化跟踪标记](#data-collection)。
 
-1. （贵组织的Customer Journey Analytics站点管理员）[在Customer Journey Analytics中创建与Experience Platform数据集的连接](#dataset-connection)。
+3. （贵组织的Customer Journey Analytics站点管理员）[在Customer Journey Analytics中创建与Experience Platform数据集的连接](#dataset-connection)。
 
-1. （您组织的Web分析师）[在Customer Journey Analytics中设置数据视图](#cja-data-views)。
+4. （您组织的Web分析师）[在Customer Journey Analytics中设置数据视图](#cja-data-views)。
 
-1. （您组织的Web分析师） [在Customer Journey Analytics Workspace中设置报告和可视化图表](#cja-reports)。
+5. （您组织的Web分析师） [在Customer Journey Analytics Workspace中设置报告和可视化图表](#cja-reports)。
 
 以下部分包含详细的过程，其中包括集成所需的任务和设置，但并未说明工作流中所有可用的功能。 有关完整信息，请参阅链接的资源。
 
@@ -52,6 +50,8 @@ ht-degree: 0%
 在Experience Platform中设置数据收集并实施转化跟踪标记需要以下任务。 您组织的Experience Platform站点管理员可以执行这些任务，但您组织的IT部门可能需要帮助部署跟踪标记。
 
 ### 收集数据并将数据从Adobe Advertising作为数据集发送到Experience Platform Edge Network
+
+此过程包括创建模式。 您可以选择编辑现有架构；在这种情况下，您无需创建数据集或数据流。
 
 1. 在Experience Platform中，[为要使用Experience Data Model (XDM)收集的数据定义手动架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/ui/resources/schemas)。
 
@@ -63,25 +63,35 @@ ht-degree: 0%
 
    **注意：**&#x200B;您可以创建多个架构，但每个数据集和每个数据流只能使用一个架构，您将在以下步骤中创建该架构。
 
-1. [基于架构创建数据集](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/create)以存储和管理事件数据集合。
+1. [基于架构创建数据集](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/create)以存储和管理事件数据集合。 这将是您的&#x200B;*事件数据集*。 如果您使用数据集编辑现有架构，则可以跳过此步骤。
 
    * 选择&#x200B;**[!UICONTROL Create dataset from schema]**&#x200B;的选项并选择您的架构。
 
-     <!-- Manual process during beta -->Adobe Advertising会根据您的事件数据集，为相关的摘要量度数据（如转化值）和查找数据（维度/分类元数据，如Adobe Advertising促销活动名称）创建其他数据集。 数据集的数据每天在Experience Platform中填充。
+     Adobe Advertising会根据您的事件数据集创建两个其他数据集：1\)包含相关摘要数据（例如点击次数和展示次数）的&#x200B;*摘要数据集*&#x200B;和2\)包含&#x200B;*查找数据集*（包含维度/分类元数据，例如Adobe Advertising促销活动名称）。 数据集的数据每天在Experience Platform中填充。
 
-1. [为架构创建数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)。
+   >[!TIP]
+   >
+   >在使用生产数据集之前，首先创建虚拟事件数据集以验证数据流。
+
+1. [创建数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)以指定从网站或应用程序发送数据的位置以及如何处理传入数据。
 
    * 对于[!UICONTROL Mapping schema]设置，选择您的架构。
 
    * 向数据流添加并启用服务`Adobe Advertising`和`Adobe Experience Platform`。
 
-     这些服务允许Edge Network存储数据集并将其路由到Adobe Advertising。
+     [!UICONTROL Adobe Advertising]服务允许将广告公开与有效负载关联，并且[!UICONTROL Adobe Experience Platform]允许Edge Network存储数据集并将其路由到Adobe Advertising。
 
-   * 对于[!UICONTROL Event dataset]设置，选择您的数据集。
+   * 对于[!UICONTROL Event dataset]设置，选择您的事件数据集。
 
      每个数据流只能将数据插入一个数据集。
 
 ### 将贵组织的网站数据发送到您的Experience Platform数据流
+
+使用Adobe Tags中的Adobe Experience Platform Web SDK扩展将贵组织的网站数据发送到Experience Platform数据流。
+
+>[!NOTE]
+>
+>仅支持Adobe标记。 不支持独立的Experience Platform Web SDK (`alloy.js`)或第三方标记管理器。
 
 1. 使用Experience Platform [标记](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/home)（以前称为[!DNL Launch]）生成JavaScript标记，以将贵组织的网站数据发送到数据流。
 
@@ -97,7 +107,7 @@ ht-degree: 0%
 
       * 在[!UICONTROL Custom build components]部分中，启用&#x200B;**Advertising**&#x200B;组件。
 
-        此组件在标记中包含Adobe Advertising所需的所有JavaScript代码。 它还在标记规则（可选）中添加了“Advertising”设置，以定义如何将广告数据用于归因测量。
+        此组件包含标记中Adobe Advertising所需的所有JavaScript代码，Advertising DSP和Advertising Search、Social和Commerce客户都需要此组件。 该组件还在标记规则（可选）中添加了“Advertising”设置，以定义如何将广告数据用于归因测量。
 
         您可以根据需要选择启用其他组件。
 
@@ -105,9 +115,9 @@ ht-degree: 0%
 
          * 在[!UICONTROL Datastreams]设置中，选择要用于每个Web环境（生产、暂存、开发）的数据流。
 
-         * （仅具有Adobe Advertising DSP的组织）在[[!UICONTROL Adobe Advertising]设置](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising)中，启用&#x200B;**[!UICONTROL Adobe Advertising DSP]**&#x200B;以允许查看到达跟踪，并指定为其启用查看到达跟踪的广告商。 您可以选择从通用ID收集ID。
+         * （仅具有Adobe Advertising DSP的组织）在[[!UICONTROL Adobe Advertising]设置](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising)中，启用&#x200B;**[!UICONTROL Adobe Advertising DSP]**&#x200B;以允许查看到达跟踪，并指定为其启用查看到达跟踪的广告商。 您可以选择通过添加组织的ID5合作伙伴ID和/或组织的[!DNL LiveRamp RampID] JavaScript代码(ats.js)的路径从通用ID收集ID。
 
-           如果您的广告商未列出，请输入每个广告商的广告商ID。
+           如果您的广告商未列出，请输入每个广告商的广告商ID。 如果需要，请向您的Adobe客户团队索取ID。
 
          * 保存内部版本。
 
@@ -119,7 +129,9 @@ ht-degree: 0%
 
 1. [将标记](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/publish/publishing-flow)发布到测试环境，您可以在其中迭代开发标记。
 
-1. 验证数据集的投放，然后[将标记发布到实时生产环境](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/publish/publishing-flow)。
+1. [检查三个数据集中每个数据集的活动](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#view-datasets)以验证投放。
+
+1. [将标记发布到实时生产环境](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/publish/publishing-flow)。
 
    您组织的IT部门或其他小组可能需要计划标记部署或通知其相关信息。
 
@@ -127,35 +139,55 @@ ht-degree: 0%
 
 按照以下步骤将Adobe Advertising数据从Experience Platform数据集提取到Customer Journey Analytics中。 您组织的Customer Journey Analytics站点管理员可以执行这些任务。
 
-1. 在Customer Journey Analytics中，[创建一个连接](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-connections/create-connection)，其中包含您的Experience Platform数据集和架构。
+您还可以选择使用相同信息编辑现有连接。
 
-   **注意：**&#x200B;当前，您必须将所有DSP帐户以及Search、Social和Commerce帐户的数据发送到单个Experience Platform实例和沙盒。
+1. 在Customer Journey Analytics中，[创建或编辑包含Experience Platform数据集和架构的连接](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-connections/create-connection)。
 
-   * 添加Experience Platform事件（指标）数据集、摘要（指标）数据集和维度（分类/元数据）数据集。
+   <!-- **Note:** You must send data for all DSP and Search, Social, & Commerce accounts to a single Experience Platform instance and sandbox.  -->
+
+   * 确认选择了正确的沙盒。
+
+   * 计算平均每日事件数（大多数组织不足100万）。
+
+   * 添加Experience Platform事件量度数据集（类型： `Event`）、<!-- Adobe Advertising -->事件摘要量度数据集（类型： `Event`）和<!-- Adobe Advertising -->维度（分类/元数据）数据集（类型： `Lookup`）。
 
      您的团队创建了事件数据集，Adobe Advertising根据您的事件数据集创建了摘要和维度数据集。
 
      您可以根据需要选择包含其他数据集。
 
-   * 将维度数据集映射到事件数据集：
+   * 配置数据集设置：
 
-      1. 打开维度数据集的设置。
+      * 对于[!UICONTROL Event Dataset]设置：
 
-         设置页面上的标题为“[!UICONTROL Lookup Dataset]”，这表示您可以将维度数据集与某个特定于指标的数据集连接起来。
+         * **[!UICONTROL Person ID]:** `Identity Map`
 
-      1. 在[!UICONTROL Adobe Advertising Dimensions]部分中，将维度数据集映射到事件数据集：
+         * **[!UICONTROL Use primary identity namespace]：**&#x200B;启用设置
 
-         1. 对于[!UICONTROL Key]字段，选择要用作维度数据集键的字段： `Adobe Advertising ID` （与架构中的`trackingCode`字段相同）。
+         * **[!UICONTROL Data Source Type]:** `Web Data > Others` <!-- I don't see "Others" in the screen shot example -->
 
-         1. 对于[!UICONTROL Matching key]字段，选择要用作事件数据集匹配键的字段。 可用字段名称包括括号中的数据集名称。 例如，如果要将维度数据集映射到事件数据集，请选择`Tracking Code (Event datasets)`。
+         * **[!UICONTROL Import all new data]：**&#x200B;启用设置
 
-         稍后，在设置数据视图时，您还将将事件数据集映射到摘要#cja-data-views据集。
+      * 对于[!UICONTROL Lookup Dataset]设置，将维度数据集映射到事件数据集：
 
-1. 几小时后，验证数据在Customer Journey Analytics中是否可用。
+         * **[!UICONTROL Key]** （用作维度数据集键的字段）： `Tracking Code` （与架构中的`trackingCode`字段相同）。
+
+         * **[!UICONTROL Matching key]** （用作事件数据集匹配键的字段）： `Tracking Code (Event datasets)`。<!-- verify this Later, you'll also map the events dataset to the summary dataset when you set up your data view(#cja-data-views).  -->
+
+         * **[!UICONTROL Import all new data]：**&#x200B;启用设置
+
+      * 对于[!UICONTROL Metrics Dataset]设置：
+
+         * **[!UICONTROL Person ID]:** `Identity Map`
+
+         * **[!UICONTROL Timestamp]：**&#x200B;确认值
+
+         * **[!UICONTROL Import all new data]：**&#x200B;启用设置
+
+1. 在三个小时内，验证数据在Customer Journey Analytics中是否可用。
 
    1. 在Customer Journey Analytics中，转到&#x200B;**[!UICONTROL Connections]**&#x200B;并选择您的连接。
 
-   1. 在显示的数据集列表中，验证“[!UICONTROL Number of Records]”报表显示数据已添加。
+   2. 在显示的数据集列表中，验证“[!UICONTROL Number of Records]”报表显示数据已添加。
 
 ## 在Customer Journey Analytics中设置数据视图 {#cja-data-views}
 
@@ -169,47 +201,56 @@ ht-degree: 0%
 
    * 在[!UICONTROL Components]选项卡上：
 
-      * 添加维度、事件和摘要数据集。
+      * 添加查找数据集（包含维度/分类数据）、事件数据集（包含事件级别数据）和摘要数据集（包含其他量度，例如点击量）。
 
-      * 从事件（量度）数据集和维度（分类/元数据）数据集中选择要包含在数据视图中的量度。
+      * 从事件数据集和查找数据集中选择要包含在数据视图中的量度。
 
-        您已在在[上一个过程](#dataset-connection)中创建的连接中连接了这两个数据集。
+      * 搜索“[!UICONTROL Tracking Code]”（属于架构路径为`_experience.adcloud.conversionDetails.trackingCode`的事件数据集）。<!-- and do what with it? Add it? Or is that what you --> 将&#x200B;**[!UICONTROL Persistence]**&#x200B;设置为&#x200B;*[!UICONTROL Most Recent]*。
 
-      * 将事件数据集连接到摘要数据集，该数据集尚未连接到任何内容：
+<!--
 
-         * 对于每个包含希望在Customer Journey Analytics中可用的摘要数据的维度，[创建一个派生字段](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/derived-fields)。
+Seems to not be necessary now:
 
-           例如，要查看营销活动的摘要数据，请为维度`Adobe Advertising Campaign`创建一个派生字段。
 
-           您将使用匹配键`trackingCode`（即Adobe Advertising ID的架构字段）链接这两个数据集。
+       You already joined these two datasets in the connection that you created in the [last procedure](#dataset-connection).
+     
+     *  Join the events dataset to the summary dataset, which isn't yet joined to anything:
+     
+       * For each dimension with summary data that you want to be available in Customer Journey Analytics, [create a derived field](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/derived-fields).
 
-            * 在派生规则生成器的[!UICONTROL Lookup]部分中：
+         For example, to view summary data for campaigns, create a derived field for the dimension `Adobe Advertising Campaign`.
+         
+         You'll link the two datasets using the matching key `trackingCode` (which is the schema field for the Adobe Advertising ID).
+       
+         * In the [!UICONTROL Lookup] section of the derived rule builder:
+         
+           * For the **[!UICONTROL Value]** field, select "[!UICONTROL Tracking Code]" from the metrics summary dataset.
 
-               * 对于&#x200B;**[!UICONTROL Value]**&#x200B;字段，从量度摘要数据集中选择“[!UICONTROL Tracking Code]”。
+           * For the **[!UICONTROL Lookup dataset]** field, select the dimensions dataset (such as "Adobe Advertising Classification").
 
-               * 对于&#x200B;**[!UICONTROL Lookup dataset]**&#x200B;字段，请选择维度数据集（如“Adobe Advertising分类”）。
+           * For the **[!UICONTROL Matching Key]** field, select "[!UICONTROL Tracking Code]" from the classification dataset.
 
-               * 对于&#x200B;**[!UICONTROL Matching Key]**&#x200B;字段，请从分类数据集中选择“[!UICONTROL Tracking Code]”。
+           * For the **[!UICONTROL Values to return]** field, select the dimension (such as "[!UICONTROL Adobe Advertising Campaign]")" from the classification dataset.
+         
+         The derived field name is appended with "(DF)", such as `Adobe Advertising Campaign(DF)`. 
+         
+       * For each derived field:
+       
+         * In the [!UICONTROL Included components] section, add the derived field.
+         
+           Two names are now listed for the same dimension (for example, "Adobe Advertising Campaign(DF)" (the derived field) and "Adobe Advertising Campaign" (the field in the summary dataset)).
 
-               * 对于&#x200B;**[!UICONTROL Values to return]**&#x200B;字段，请从分类数据集中选择维度（如“[!UICONTROL Adobe Advertising Campaign]”）。
+         * Select the dimension in the summary dataset (such as "Adobe Advertising Campaign") and edit the settings for the dataset.
 
-           派生字段名称后附有“(DF)”，如`Adobe Advertising Campaign(DF)`。
+           The settings open on the right.
 
-         * 对于每个派生字段：
+           * In the the Summary Data Group section, select the option to **[!UICONTROL Create grouping]**.
 
-            * 在[!UICONTROL Included components]部分中，添加派生字段。
+           * For the **[!UICONTROL Dimension]** field, select the derived field (which is appended with "(DF)," such as "Adobe Advertising Campaign(DF)").
+         
+           * Select the option to **[!UICONTROL Hide in reporting]**, which hides the derived field name in Workspace.
 
-              现在，同一维度中列出了两个名称(例如，“Adobe Advertising Campaign(DF)”（派生字段）和“Adobe Advertising Campaign”（摘要数据集中的字段）。
-
-            * 在摘要数据集（例如“Adobe Advertising Campaign”）中选择维度，并编辑数据集的设置。
-
-              设置将在右侧打开。
-
-               * 在“摘要数据组”部分中，选择&#x200B;**[!UICONTROL Create grouping]**&#x200B;选项。
-
-               * 对于&#x200B;**[!UICONTROL Dimension]**&#x200B;字段，选择派生的字段(该字段后附有“(DF)”，如“Adobe Advertising Campaign(DF)”)。
-
-               * 选择&#x200B;**[!UICONTROL Hide in reporting]**&#x200B;的选项，这将隐藏Workspace中的派生字段名称。
+-->
 
 ## 在Customer Journey Analytics Workspace中设置报告和可视化图表 {#cja-reports}
 
@@ -217,7 +258,16 @@ ht-degree: 0%
 
 1. [在Workspace中创建一个项目](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)，以根据在该数据视图中配置的维度和指标生成报告和可视化图表。
 
+您可以在一个自由格式表中使用相同的维度对摘要指标和事件数据进行分类。
+
 1. （如果您有来自[!DNL Google Ads]或[!DNL Microsoft Advertising]的数据）请使用广告网络特定量度的字段创建发布者跟踪的转化报表，这些字段已分组为`googleConversions`和`microsoftConversions`。
+
+>[!TIP]
+>
+>摘要事件通常会向报表中添加少量额外数据，例如几个额外事件、每天一个额外的会话或每个报表一个额外的人员。与标准Web事件相比，这些添加的内容可以忽略不计。但是，您可以通过排除虚拟人员ID `00000000-0000-0000-0000-000000000000`的数据来过滤掉此额外的摘要事件数据。
+>![使用人员ID排除数据的示例](/help/integrations/assets/cja-report-with-person-id.png "使用人员ID排除数据的示例")
+
+![您的数据集在Customer Journey Analytics中的显示方式](/help/integrations/assets/cja-report-example.png "您的数据集在Customer Journey Analytics中的显示方式")
 
 >[!MORELIKETHIS]
 >
