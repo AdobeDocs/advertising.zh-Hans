@@ -4,17 +4,11 @@ description: 请参阅自定义报表设置的说明。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
 TQID: https://experienceleague.adobe.com/4b95Ua1HlD3KnjH0A4ZWIxvFAouU3bxJWrVysM5xnUU
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 9c0a1de4a3514cbb28856250b76e79e1b7913963
 workflow-type: tm+mt
 source-wordcount: 1535
@@ -56,7 +50,7 @@ ht-degree: 0%
   >
   >您还可以随时[从[!UICONTROL Reports]视图中](report-run-now.md)运行自定义报表。
 
-* *[!UICONTROL On]\&lt;Date\>：*&#x200B;在指定的日期运行报告，完成日期为帐户时区的09:00。
+* *[!UICONTROL On]\&lt;Date\>：*&#x200B;在指定的日期运行报告，完成日期为帐户时区中的09:00。
 
 * *[!UICONTROL Recurring]：*&#x200B;在指定的时间段内根据计划运行报告。
 
