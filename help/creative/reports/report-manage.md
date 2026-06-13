@@ -4,20 +4,14 @@ description: 了解如何生成和管理跨体验[!UICONTROL Custom Creative Rep
 feature: Creative Reporting
 exl-id: fecdfc82-1260-46e4-82f3-c37fad6d77e4
 TQID: https://experienceleague.adobe.com/w746p31oJoThLGvkaVKBEK00dUho0zSBZtVv8yfkmUo
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 1479
+source-wordcount: 1485
 ht-degree: 0%
 
 ---
@@ -82,7 +76,7 @@ ht-degree: 0%
 
    * 要下载报告的最新实例，请单击&#x200B;**[!UICONTROL Download]**。
 
-   * （具有多个实例的报告）单击![旁边的](/help/dsp/assets/chevron-down.png "向下箭头")向下箭头[!UICONTROL Download]，然后单击要下载的报告的完成日期。 可下载的报表实例以下载图标(![下载图标](/help/dsp/assets/indicator-downloadable.png "下载图标"))表示。
+   * （具有多个实例的报告）单击[!UICONTROL Download]旁边的![向下箭头](/help/dsp/assets/chevron-down.png "向下箭头")，然后单击要下载的报告的完成日期。 可下载的报表实例以下载图标(![下载图标](/help/dsp/assets/indicator-downloadable.png "下载图标"))表示。
 
      当有多个实例可用时，如有必要，请单击列表底部的&#x200B;**[!UICONTROL Load More]**。
 
@@ -130,9 +124,9 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >您还可以随时[从](#report-run-now)视图中[!UICONTROL Reports]运行自定义报表。
+  >您还可以随时[从[!UICONTROL Reports]视图中](#report-run-now)运行自定义报表。
 
-* *[!UICONTROL On]\&lt;Date\>：*&#x200B;在指定的日期运行报告，完成日期为帐户时区的09:00。
+* *[!UICONTROL On]\&lt;Date\>：*&#x200B;在指定的日期运行报告，完成日期为帐户时区中的09:00。
 
 * *[!UICONTROL Recurring]：*&#x200B;在指定的时间段内根据计划运行报告。
 
