@@ -23,7 +23,7 @@ ht-degree: 0%
 
 要创建电子表格馈送，您必须首先使用常规报表模板创建特别格式化的[!DNL Microsoft Excel]电子表格模板。 您可以选择自定义[!DNL Excel]电子表格以包含其他列和图。
 
-1. 在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;中，使用“[!UICONTROL Date Aggregation]”的[!UICONTROL Daily]单位并使用所有其他所需的数据参数生成所需的报告类型，并将报告另存为模板。
+1. 在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;中，使用“[!UICONTROL Daily]”的[!UICONTROL Date Aggregation]单位并使用所有其他所需的数据参数生成所需的报告类型，并将报告另存为模板。
 
    >[!NOTE]
    >

@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Advertising Search、Social和Commerce已与以下[!DNL Adobe]产品集成。
 
-* 来自Adobe Experience Platform的[标记](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=zh-Hans) — 您可以使用适用于Adobe Experience Platform的[Adobe Advertising Cloud扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud)来[为您的广告登陆页面创建Adobe Advertising转化跟踪标记](/help/search-social-commerce/tools/conversion-tag-generate.md)以及第三方跟踪标记。 如果您的组织没有Experience Platform帐户，则仍可以直接在[用户界面中为Adobe Experience Platform数据收集](https://experience.adobe.com/#/data-collection/)安装该扩展，Adobe CX Enterprise客户可以免费使用该扩展。
+* 来自Adobe Experience Platform的[标记](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=zh-Hans) — 您可以使用适用于Adobe Experience Platform的[Adobe Advertising Cloud扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud)来[为您的广告登陆页面创建Adobe Advertising转化跟踪标记](/help/search-social-commerce/tools/conversion-tag-generate.md)以及第三方跟踪标记。 如果您的组织没有Experience Platform帐户，则仍然可以直接在[用户界面中为Adobe Experience Platform数据收集](https://experience.adobe.com/#/data-collection/)安装该扩展，Adobe CX Enterprise客户可以免费使用该扩展。
 
   要安装所需的扩展，请联系您的组织管理员以访问UI中的数据收集功能，并让他们授予您`manage_properties`权限。
 
@@ -47,7 +47,7 @@ Advertising Search、Social和Commerce已与以下[!DNL Adobe]产品集成。
 
    * 具有[!DNL Analytics]但不具有Audience Manager的广告商可以从与Adobe CX Enterprise共享的[!DNL Analytics]区段[创建 [!DNL Google Ads] 客户匹配受众](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)。 广告商必须实施[Adobe Experience Platform Identity服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)并在其网站上部署标记，才能符合条件。 然后，您可以将[!DNL Google Ads]营销活动中的受众用作营销活动级别或广告组级别的[目标](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)或[排除项](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)。
 
-* Adobe Audience Manager区段 — （选择加入功能）您可以从将Search、Social和Commerce作为目标的Audience Manager区段[创建 [!DNL Google Ads] 客户匹配受众](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)。 这可能包括发布到Adobe CX Enterprise的[!DNL Analytics]区段和使用Adobe CX Enterprise受众库创建的区段。 然后，您可以将[!DNL Google Ads]营销活动中的受众用作营销活动级别或广告组级别的[目标](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)或[排除项](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)。
+* Adobe Audience Manager区段 — （选择加入功能）您可以从将Search、Social和Commerce作为目标的Audience Manager区段[创建 [!DNL Google Ads] 客户匹配受众](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)。 这可能包括发布到Adobe CX Enterprise的[!DNL Analytics]区段和使用Adobe CX Enterprise Audience Library创建的区段。 然后，您可以将[!DNL Google Ads]营销活动中的受众用作营销活动级别或广告组级别的[目标](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)或[排除项](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)。
 
   有关详细信息，请参阅[Adobe Advertising与Adobe Audience Manager的集成](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=zh-Hans)。
 
@@ -55,4 +55,4 @@ Advertising Search、Social和Commerce已与以下[!DNL Adobe]产品集成。
 
 * Adobe Campaign — 您可以[使用 [!DNL Campaign]](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md)中的电子邮件列表创建和更新 [!DNL Google Ads] 客户匹配受众。
 
-* Adobe CX Enterprise通知 — （通过Adobe CX Enterprise登录时）通过每页顶部的通知链接（[警报通知](/help/search-social-commerce/assets/notifications-panel.png "警报通知")），可以查看所有Adobe CX Enterprise系统更新、帖子、提及次数和共享资源。 有关访问Adobe的信息，请联系您的Adobe CX Enterprise客户团队。
+* Adobe CX Enterprise Notifications — （通过Adobe CX Enterprise登录时）从每页顶部的通知链接([Alert Notifications](/help/search-social-commerce/assets/notifications-panel.png "警报通知"))中，可以查看所有Adobe CX Enterprise系统更新、帖子、提及次数和共享资源。 有关访问Adobe CX Enterprise的信息，请与您的Adobe客户团队联系。

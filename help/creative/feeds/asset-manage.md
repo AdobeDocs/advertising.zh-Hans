@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 596
+source-wordcount: 600
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
      广告商特定的字段名称必须映射到动态广告馈送文件的[可用字段](/help/creative/appendix-available-feed-fields.md)。
 
-   * GIF、JPEG、JPG或PNG格式中关联的图像资源。<!-- Is this true: The maximum file size is two (2) MB. -->查看[支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)。
+   * 以GIF、JPEG、JPG或PNG格式关联的图像资源。<!-- Is this true: The maximum file size is two (2) MB. --> 查看[支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)。
 
   您可以上传单个XLSX文件、单个图像文件或包含XLSX和图像文件任意组合的单个ZIP文件。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
      广告商特定的字段名称必须映射到动态广告馈送文件的[可用字段](/help/creative/appendix-available-feed-fields.md)。
 
-     对于包含动态视频的所有帐户，最佳实践是[使用资源文件以及](catalog-manage.md)通用信息源模板[的副本[!UICONTROL Adobe Creative Template]](feed-template-manage.md)创建目录，您可以在其中将资源文件中的每个字段映射到Advertising Creative后端上的字段。
+     对于包含动态视频的所有帐户，最佳实践是[&#128279;](catalog-manage.md)使用资源文件以及[通用信息源模板[!UICONTROL Adobe Creative Template]](feed-template-manage.md)的副本创建目录，您可以在其中将资源文件中的每个字段映射到Advertising Creative后端上的字段。
 
    * 以MP4、MOV或WEBM格式表示的关联视频资产。 支持的广告模板包括开始卡、结束卡、顶部叠加、底部叠加或L形。 每个视频的持续时间必须介于1至90秒之间。 查看[支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)。
 
