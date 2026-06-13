@@ -12,7 +12,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 295
+source-wordcount: 299
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 | 标题字段/列名称 | 类型 | 描述 |
 | ---- | ---- | ---- |
-| 交易ID (ev_transid) | 区分大小写的字符串 | 与交易关联的广告商生成的标识符。 由于Adobe Advertising转化跟踪标记用于交易的在线部分，因此它必须与Adobe Advertising为交易早期部分提供的交易ID (ev_transid)相同。 这意味着交易的在线部分的转化标记必须包含唯一交易ID的转化量度。<br><br>**注意：** Adobe Advertising使用该ID来查找旧事务数据，并根据商定的插入模式对其进行更新（例如，替换现有数据或使用新数据扩充现有数据）。 |
+| 交易ID (ev_transid) | 区分大小写的字符串 | 与交易关联的广告商生成的标识符。 由于Adobe Advertising转化跟踪标记用于交易的在线部分，因此它必须与Adobe Advertising为交易早期部分提供的交易ID (ev_transid)相同。 这意味着交易的在线部分的转换标记必须包含唯一交易ID的转换量度。<br><br>**注意：** Adobe Advertising使用该ID来查找旧的交易数据，并根据商定的插入模式对其进行更新（例如，替换现有数据或使用新数据扩充现有数据）。 |
 | 交易日期 | 日期时间 | 交易的日期。 每个事务的格式必须一致。 |
 | 特定于客户端的转换 | 字符串 | 正在跟踪的转化（如交易类型或金额）。 在开始馈送之前，讨论要包含在Adobe Advertising实施团队中的转化。 |
 

@@ -56,7 +56,7 @@ ht-degree: 0%
   >
   >您还可以随时[从[!UICONTROL Reports]视图中](report-run-now.md)运行自定义报表。
 
-* *[!UICONTROL On]\&lt;Date\>：*&#x200B;在指定的日期运行报告，完成日期为帐户时区的09:00。
+* *[!UICONTROL On]\&lt;Date\>：*&#x200B;在指定的日期运行报告，完成日期为帐户时区中的09:00。
 
 * *[!UICONTROL Recurring]：*&#x200B;在指定的时间段内根据计划运行报告。
 

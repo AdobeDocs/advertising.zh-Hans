@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 333
+source-wordcount: 351
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Search、Social和Commerce使用帐户级别的登陆页面后缀和跟踪模板跟踪仅限呼叫的广告，但您可以选择在[!DNL Google Ads]管理器内的广告级别覆盖帐户级别的跟踪。
 
-有关每个帐户[!DNL Google Ads]的[广告限制，请参阅](https://support.google.com/google-ads/answer/6372658?hl=en)帮助。
+有关每个帐户[&#128279;](https://support.google.com/google-ads/answer/6372658?hl=en)的广告限制，请参阅[!DNL Google Ads]帮助。
 
 <!-- ## Call-only Ad -->
 

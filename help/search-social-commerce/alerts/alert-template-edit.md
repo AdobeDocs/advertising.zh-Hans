@@ -12,7 +12,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 137
+source-wordcount: 136
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ ht-degree: 0%
 
 1. （可选）筛选视图以包含具有特定名称、要评估的数据范围或其他标准的行。
 
-   您可以从工具栏[应用数据筛选器](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或从列标题[应用](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)。
+   您可以从工具栏[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)应用数据筛选器[或从列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)应用。
 
 1. 单击模板名称旁边的![编辑](/help/search-social-commerce/assets/edit.png "编辑")。
 
-1. 在[!UICONTROL Update \[Entity Type\] Alert]窗口中，编辑[、](alert-template-settings.md)和&#x200B;**[!UICONTROL Date Range]**&#x200B;选项卡上的&#x200B;**[!UICONTROL Filters]**&#x200B;警报设置&#x200B;**[!UICONTROL Scheduling and Delivery]**。
+1. 在[!UICONTROL Update \[Entity Type\] Alert]窗口中，编辑&#x200B;**[!UICONTROL Date Range]**、**[!UICONTROL Filters]**&#x200B;和&#x200B;**[!UICONTROL Scheduling and Delivery]**&#x200B;选项卡上的[警报设置](alert-template-settings.md)。
 
    您可以通过单击选项卡名称（如“筛选器”）或单击右下角的&#x200B;**[!UICONTROL Next]**&#x200B;在选项卡之间移动。
 
