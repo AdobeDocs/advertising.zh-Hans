@@ -12,7 +12,7 @@ subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+source-git-commit: 87d6bff2e2ea6e2603b1bb864d8a24bba4a7aedd
 workflow-type: tm+mt
 source-wordcount: 98
 ht-degree: 0%
@@ -29,16 +29,13 @@ ht-degree: 0%
 
 * [!DNL Adsquare]
 * [!DNL digitalAudience]
-* [!DNL DLX Mobile]
 * [!DNL eXelate] ([!DNL Nielsen])
 * [!DNL Eyeota]
-* [!DNL Factual]
+* [!DNL Foursquare] ([!DNL Factual])
 * [!DNL Fraud Protection]
 * [!DNL Ibehaviour]
-* [!DNL Intimate Merger (Japan)]
 * [!DNL LiveRamp]
 * [!DNL Lotame]
-* [!DNL Navegg]
 * [!DNL NinthDecimal]
 * [!DNL Semcasting]
 * [!DNL TailTarget]

@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: e208432cf19b2661fbce58a898a123bb1224c32b
+source-git-commit: d1f87f8b2dade022c73775e481d44c1cbd9f028b
 workflow-type: tm+mt
-source-wordcount: 1789
+source-wordcount: 1791
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 *仅不带[!DNL Analytics for Advertising]的广告商*
 
-使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)在Adobe Advertising和Customer Journey Analytics之间原生交换数据需要执行以下任务。 数据传输和归因在启动后开始；不包括历史数据。
+使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)在Adobe Advertising和Customer Journey Analytics之间原生交换数据需要执行以下任务。 数据传输和归因在启动后开始；不包括历史数据。
 
 具有[!DNL Analytics for Advertising]的广告商不需要这些任务。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    * 选择&#x200B;**[!UICONTROL Create dataset from schema]**&#x200B;的选项并选择您的架构。
 
-     Adobe Advertising会根据您的事件数据集创建两个其他数据集：1\)包含相关摘要数据（例如点击次数和展示次数）的&#x200B;*摘要数据集*&#x200B;和2\)包含&#x200B;*查找数据集*（包含维度/分类元数据，例如Adobe Advertising促销活动名称）。 数据集的数据每天在Experience Platform中填充。
+     Adobe Advertising会根据您的事件数据集创建两个其他数据集：1\)包含相关摘要数据（例如聚合点击次数和聚合展示次数）的&#x200B;*摘要数据集*&#x200B;和2\)包含&#x200B;*查找数据集*（包含维度/分类元数据，例如Adobe Advertising促销活动名称）。 数据集的数据每天在Experience Platform中填充。
 
    >[!TIP]
    >
