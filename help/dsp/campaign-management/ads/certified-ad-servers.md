@@ -4,15 +4,11 @@ description: 查看所有认证的广告服务器和广告单元。
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
 TQID: https://experienceleague.adobe.com/TGGPFaETQVbzVcselZhGcQAGBt7g3pvyjAaQgIFObqs
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: d9510790-d834-436d-8423-8d69cd50464a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a33b121ebf568ae6b95a64a7392672d74603fe60
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a7e9facc297e36e4e05b6f7fbc1ca02efa0b2043
 workflow-type: tm+mt
 source-wordcount: 362
 ht-degree: 0%
@@ -78,3 +74,4 @@ ht-degree: 0%
 | [!DNL Wunderkind] | | X | | | |
 
 {style="table-layout:auto"}
+
