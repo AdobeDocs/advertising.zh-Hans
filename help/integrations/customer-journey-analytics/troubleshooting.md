@@ -14,16 +14,16 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d78aa2f6596190b644d9f920f51c179e43e86317
+source-git-commit: 66601570e815870c96b93e3a224bd61e8852d680
 workflow-type: tm+mt
-source-wordcount: 611
+source-wordcount: 612
 ht-degree: 0%
 
 ---
 
 # Customer Journey Analytics中的Adobe Advertising数据疑难解答
 
-以下是潜在问题及其原因。
+以下是潜在的数据问题及其原因。
 
 ## 摘要报告
 
