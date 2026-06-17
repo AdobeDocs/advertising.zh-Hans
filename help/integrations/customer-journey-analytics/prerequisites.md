@@ -16,9 +16,9 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 5a926d18f634eb08b6fd329d6b6ba90a8f91d991
+source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
 workflow-type: tm+mt
-source-wordcount: 191
+source-wordcount: 262
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 0%
 
 * （不带[!DNL Analytics for Advertising]的广告商）与您的Adobe客户团队一起使用Collaboration，这些客户团队将在设置期间完成各种任务。
 
+  如果您希望授予Adobe帐户团队管理员级别的Adobe Experience Platform和Adobe Customer Journey Analytics帐户访问权限，则可以与团队进行讨论。 完成集成不需要访问，但访问允许您的Adobe客户团队提供最大支持，以便载入集成、完成设置和数据的验证以及培训您如何使用Adobe Advertising报表维度和量度。
+
 >[!MORELIKETHIS]
 >
 >* [概述](overview.md)
@@ -44,3 +46,4 @@ ht-degree: 0%
 >* [设置数据收集、数据传输和报告](set-up.md)
 >* Customer Journey Analytics中的[Adobe Advertising指标和维度](advertising-data-in-cja.md)
 >* （Adobe Analytics用户） [收集AMO ID和EF ID的历史数据以用于Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md)。
+>* [疑难解答](troubleshooting.md)

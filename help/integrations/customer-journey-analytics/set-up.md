@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d1f87f8b2dade022c73775e481d44c1cbd9f028b
+source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
 workflow-type: tm+mt
-source-wordcount: 1791
+source-wordcount: 1802
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 *仅不带[!DNL Analytics for Advertising]的广告商*
 
-使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)在Adobe Advertising和Customer Journey Analytics之间原生交换数据需要执行以下任务。 数据传输和归因在启动后开始；不包括历史数据。
+使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)在Adobe Advertising和Customer Journey Analytics之间原生交换数据需要执行以下任务。 数据传输和归因在启动后开始；不包括历史数据。
 
 具有[!DNL Analytics for Advertising]的广告商不需要这些任务。
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
    * 在[!UICONTROL Schema Details]中，选择&#x200B;**[!UICONTROL Experience Event]**&#x200B;作为用于捕获站点事件的架构的基类。 命名您的架构，然后单击&#x200B;**[!UICONTROL Finish]**。
 
-   * 在左侧面板中，添加字段组[Adobe Advertising Cloud ExperienceEvent Full Extension](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)以添加特定于Adobe Advertising的字段。 至少包括具有`trackingCode`和`trackingIdentities`属性的conversionDetails对象，这些属性包括[AMO ID和EF ID](ids.md)。 其他字段为可选字段。
+   * 在左侧面板中，添加字段组[Adobe Advertising Cloud ExperienceEvent Full Extension](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)以添加特定于Adobe Advertising的字段。 至少包括具有`trackingCode`和`trackingIdentities`属性的conversionDetails对象，这些属性包括[AMO ID和EF ID](ids.md)。 其他字段为可选字段。 无需其他配置。
 
    * （可选）根据需要添加其他字段组，以将其他数据字段连接到Adobe Advertising数据。
 
@@ -117,6 +117,8 @@ ht-degree: 0%
 
            如果您的广告商未列出，请输入每个广告商的广告商ID。 如果需要，请向您的Adobe客户团队索取ID。
 
+           [!DNL RampID] JavaScript路径示例： `https://launchpad-wrapper.privacymanager.io/<customer-specific-id>/launchpad-liveramp.js`
+
          * 保存内部版本。
 
    * （可选） [根据需要创建规则](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/ui/rules)，以确定Web SDK何时应将数据发送到Edge Network。
@@ -169,7 +171,7 @@ ht-degree: 0%
 
          * **[!UICONTROL Key]** （用作维度数据集键的字段）： `Tracking Code` （与架构中的`trackingCode`字段相同）。
 
-         * **[!UICONTROL Matching key]** （用作事件数据集匹配键的字段）： `Tracking Code (Event datasets)`。<!-- verify this Later, you'll also map the events dataset to the summary dataset when you set up your data view(#cja-data-views).  -->
+         * **[!UICONTROL Matching key]** （用作事件数据集匹配键的字段）： `Tracking Code (Event datasets)`。
 
          * **[!UICONTROL Import all new data]：**&#x200B;启用设置
 
@@ -181,7 +183,7 @@ ht-degree: 0%
 
          * **[!UICONTROL Import all new data]：**&#x200B;启用设置
 
-1. 在三个小时内，验证数据在Customer Journey Analytics中是否可用。
+2. 在三个小时内，验证数据在Customer Journey Analytics中是否可用。
 
    1. 在Customer Journey Analytics中，转到&#x200B;**[!UICONTROL Connections]**&#x200B;并选择您的连接。
 
@@ -274,5 +276,6 @@ Seems to not be necessary now:
 >*  [!DNL Customer Journey Analytics][&#128279;](ids.md)使用的Adobe Advertising ID
 >* Customer Journey Analytics中的[Adobe Advertising指标和维度](advertising-data-in-cja.md)
 >* [收集AMO ID和EF ID的历史数据以在Adobe Customer Journey Analytics中使用](/help/integrations/analytics/rvars-to-evars.md)。
+>* [疑难解答](troubleshooting.md)
 >* [Customer Journey Analytics指南](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-landing)
 >* Customer Journey Analytics [适用于Adobe Analytics用户的用户指南](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)

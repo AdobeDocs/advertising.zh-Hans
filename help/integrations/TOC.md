@@ -1,18 +1,18 @@
 ---
-user-guide-title: 与Adobe CX Enterprise的集成
-user-guide-description: 了解Advertising DSP和Advertising Search与其他Adobe CX Enterprise（以前为Adobe Experience Cloud）产品和服务的集成。
-breadcrumb-title: 与CX Enterprise的集成
+user-guide-title: 与Adobe CX Enterprise集成
+user-guide-description: 了解Advertising DSP和Advertising Search与其他Adobe CX Enterprise（以前称为Adobe Experience Cloud）产品和服务的集成。
+breadcrumb-title: 与CX Enterprise集成
 role: User, Developer
 index: true
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '267'
 ht-degree: 1%
 
 ---
 
 
-# Adobe Advertising与Adobe CX Enterprise的集成 {#integrations}
+# Adobe Advertising与Adobe CX企业版的集成 {#integrations}
 
 + [新增功能](/help/integrations/home.md)
 + [!DNL Analytics for Advertising] {#analytics}
@@ -53,4 +53,5 @@ ht-degree: 1%
    + [Customer Journey Analytics使用的Adobe Advertising ID](/help/integrations/customer-journey-analytics/ids.md)
    + [设置数据收集、数据传输和报告](/help/integrations/customer-journey-analytics/set-up.md)
    + [Customer Journey Analytics中的Adobe Advertising量度和维度](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
+   + [故障排除](/help/integrations/customer-journey-analytics/troubleshooting.md)
 + [有关Adobe Advertising集成的视频教程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=zh-Hans)
