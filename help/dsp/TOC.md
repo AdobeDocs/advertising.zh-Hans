@@ -4,7 +4,7 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报展示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: a5e70555ba2a122db489ce1b73024ad89daee055
+source-git-commit: a7e9facc297e36e4e05b6f7fbc1ca02efa0b2043
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 3%
@@ -249,3 +249,4 @@ ht-degree: 3%
  add back to Inventory > SAS section when reimplemented:
       +  [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](/help/dsp/inventory/simple-deal-show-pixels.md)
 -->
+
