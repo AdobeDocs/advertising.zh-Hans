@@ -10,20 +10,14 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a7e9facc297e36e4e05b6f7fbc1ca02efa0b2043
+source-git-commit: 9f028c5710eb34f4e7f8a3c50b46dd4406048c57
 workflow-type: tm+mt
-source-wordcount: 2412
+source-wordcount: 2401
 ht-degree: 2%
 
 ---
 
 # Advertising 搜索、社交和 Commerce 指南 {#search-social-commerce}
-
-<!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link doesn't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md) -->
-
-<!--
-    + [Publisher recommendations and insights support](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
--->
 
 + [新增功能](home.md)
 + [关于本指南](help-about.md)
@@ -34,8 +28,8 @@ ht-degree: 2%
       + [与Adobe CX Enterprise解决方案和服务集成](/help/search-social-commerce/introduction/integrations.md)
       + [Adobe [!DNL Analytics for Advertising] （链接）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hans){target="_blank"}
       + [与Adobe Audience Manager集成（链接）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=zh-Hans){target="_blank"}
-   + [消费者隐私支持（链接）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans){target="_blank"}
-   + [策略和指南（链接）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=zh-Hans){target="_blank"}
+   + [消费者隐私支持（链接）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [策略和指南（链接）](https://experienceleague.adobe.com/zh-hans/docs/advertising/policies/ad-requirements-policy){target="_blank"}
 + 快速入门 {#getting-started}
    + [实施概述](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [系统要求](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -170,11 +164,11 @@ ht-degree: 2%
                + [基本和高级报表设置](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-settings.md)
                + [基本报表和高级报表的报表列](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-columns.md)
             + 协助报表 {#assist-reports}
-               + [关于助理报告](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-about.md)
-协助报告格式 {#assist-report-formats}
-                  + [The [!UICONTROL Channel Assist Report]]/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)
-                  + [[!UICONTROL Campaign Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/campaign-assist-report.md)
-                  + [[!UICONTROL Keyword Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/keyword-assist-report.md)
+               + [关于协助报告](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-about.md)
+                  + 协助报表格式 {#assist-report-formats}
+                     + [[!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)
+                     + [[!UICONTROL Campaign Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/campaign-assist-report.md)
+                     + [[!UICONTROL Keyword Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/keyword-assist-report.md)
                + [协助报表设置](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-settings.md)
             + 专业报告 {#specialty-reports}
                + [关于专业报告](/help/search-social-commerce/new-ui/reports/management/specialty/specialty-report-about.md)
@@ -602,3 +596,9 @@ ht-degree: 2%
 + [获取帮助](get-help.md)
 + [术语表](glossary.md)
 
+
+<!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link doesn't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md) -->
+
+<!--
+    + [Publisher recommendations and insights support](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
+-->
