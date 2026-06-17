@@ -54,4 +54,4 @@ ht-degree: 1%
    + [设置数据收集、数据传输和报告](/help/integrations/customer-journey-analytics/set-up.md)
    + [Customer Journey Analytics中的Adobe Advertising量度和维度](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
    + [故障排除](/help/integrations/customer-journey-analytics/troubleshooting.md)
-+ [有关Adobe Advertising集成的视频教程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)
++ [有关Adobe Advertising集成的视频教程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=zh-Hans)
