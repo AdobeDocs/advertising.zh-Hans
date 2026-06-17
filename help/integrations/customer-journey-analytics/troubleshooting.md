@@ -14,9 +14,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 66601570e815870c96b93e3a224bd61e8852d680
+source-git-commit: d16baa5b31ebb6d6a45feab3d90110fcde25e31f
 workflow-type: tm+mt
-source-wordcount: 612
+source-wordcount: 619
 ht-degree: 0%
 
 ---
@@ -40,7 +40,6 @@ ht-degree: 0%
 * Customer Journey Analytics Workspace引用了正确的数据视图。
 
 如果您已验证上述所有设置，但仍看不到摘要数据，请在[https://experienceleague.adobe.com/home?lang=zh-Hans#support](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)为您的组织打开支持工单。
-.
 
 +++
 
@@ -93,8 +92,7 @@ ht-degree: 0%
 
 * 已在WebSDK扩展中正确配置并发布Adobe Advertising设置。
 
-如果您已验证上述所有设置，但仍看不到转化数据，请在[https://experienceleague.adobe.com/home?lang=zh-Hans#support](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)为您的组织打开支持工单。包含广告网络帐户的[!UICONTROL Account ID]。
-.
+如果您已验证上述所有设置，但仍看不到转化数据，请在[https://experienceleague.adobe.com/home?lang=zh-Hans#support](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)为您的组织打开支持工单。 包含广告网络帐户的[!UICONTROL Account ID]。
 
 +++
 
