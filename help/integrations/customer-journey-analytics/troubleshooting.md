@@ -14,9 +14,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d16baa5b31ebb6d6a45feab3d90110fcde25e31f
+source-git-commit: 33382b092be521df814a81aad3c7ae661d853174
 workflow-type: tm+mt
-source-wordcount: 619
+source-wordcount: 620
 ht-degree: 0%
 
 ---
@@ -48,7 +48,6 @@ ht-degree: 0%
 确认已为广告商2启用从Adobe Advertising到Customer Journey Analytics的馈送。 请与您的Adobe客户团队核实。
 
 如果为广告商启用了信息源，但仍看不到摘要数据，请在[https://experienceleague.adobe.com/home?lang=zh-Hans#support](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)为您的组织打开支持工单。
-.
 
 +++
 
@@ -76,9 +75,9 @@ ht-degree: 0%
 
 ## 事件级报告
 
-+++ 方案：在CJA Customer Journey Analytics Workspace中，转化数据（如`Page Views`）不可用于报表维度（如`Campaign`）。
++++ 在CJA Customer Journey Analytics Workspace中，转化数据（如`Page Views`）不可用于报表维度（如`Campaign`）。
 
-从障碍最少的商品开始，验证以下内容：
+验证以下内容，从验证障碍最少的物品开始：
 
 * 适用的转化量度是Web/在线事件，Adobe Advertising可将这些事件归因于维度。
 
