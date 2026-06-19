@@ -2,9 +2,10 @@
 title: （新UI）关于广告网络帐户
 description: 在新的Search、Social和Commerce UI中了解广告网络帐户。
 feature: Search Campaign Management
-source-git-commit: e62eb730ec88a37cbe34e35d7b9bf99e0d4fd41d
+exl-id: 62c69582-6b95-4ae3-b027-d1efc3deb39e
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 ## 通过API同步的帐户
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]（以前为[!DNL Bing Ads]）、[!DNL Yahoo! Display Network]、[!DNL Yahoo! Japan Ads]、[!DNL Yandex]和现有[!DNL Baidu]帐户*
+*[!DNL Google Ads]、[!DNL Microsoft Advertising] （以前为[!DNL Bing Ads]）、[!DNL LY Ads] （以前为[!DNL Yahoo! Japan Ads]）、[!DNL Yahoo! Display Network]、[!DNL Yandex]和现有的[!DNL Baidu]帐户*
 
 搜索、Social和Commerce与受支持的广告网络帐户同步（*同步*），以便您可以跟踪、报告和可视化广告性能。 对于[!DNL Yahoo! Display Network]以外的所有广告网络，您可以选择在Search、Social和Commerce中管理您帐户的营销活动；[!DNL Yahoo! Display Network]营销活动为只读。 对于所有广告网络，您可以通过将促销活动添加到项目组合，利用优化功能来优化受管帐户中促销活动的出价、促销活动预算和促销活动竞价策略目标。
 

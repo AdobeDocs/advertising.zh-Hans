@@ -4,13 +4,10 @@ description: 了解如何配置用于控制如何处理馈送数据的设置。
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 1249
 ht-degree: 0%
@@ -19,7 +16,7 @@ ht-degree: 0%
 
 # 管理清单数据馈送文件
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （仅删除操作）和仅[!DNL Yandex]帐户*
+*[!DNL Google Ads]、[!DNL LY Ads] （仅删除操作）、[!DNL Microsoft Advertising]和仅[!DNL Yandex]帐户*
 
 如果您提交自己的信息源数据，则必须上传包含产品数据的文件，以根据产品数据动态创建促销活动结构、广告和关键词。 然后，您可以将它们与广告网络特定的广告模板相关联，并通过模板处理数据，最终将数据发布到相关广告网络。 您可以将多个模板与一个信息源文件关联，但每个模板只能与一个信息源文件关联。
 
@@ -33,7 +30,7 @@ ht-degree: 0%
 
   要设置用于存放和自动处理数据文件的FTP目录，请联系您的Adobe客户团队。
 
-* **手动处理：**&#x200B;您可以从[!UICONTROL Advanced] (ACM)视图中手动[上载源文件](#feed-file-upload)。 在将信息源文件与一个或多个特定于广告网络的[模板](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)关联后，您可以通过[&#128279;](feed-data-propagate.md)根据[信息源数据设置](feed-settings-manage.md)通过模板传播信息源数据来生成营销活动和广告数据。 您可以选择在促销活动层次结构视图中预览生成的数据，生成批量处理工作表文件以供审阅，或生成批量处理工作表文件以立即发布到广告网络。 如果不立即发布数据，则可以[预览数据](propagated-data-view.md)并在稍后[发布数据](propagated-data-post.md)。 您可以稍后[用新文件](#feed-file-replace)替换现有信息源文件，而不会丢失任何现有的模板关联。
+* **手动处理：**&#x200B;您可以从[!UICONTROL Advanced] (ACM)视图中手动[上载源文件](#feed-file-upload)。 在将信息源文件与一个或多个特定于广告网络的[模板](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)关联后，您可以通过[根据[信息源数据设置](feed-settings-manage.md)通过模板](feed-data-propagate.md)传播信息源数据来生成营销活动和广告数据。 您可以选择在促销活动层次结构视图中预览生成的数据，生成批量处理工作表文件以供审阅，或生成批量处理工作表文件以立即发布到广告网络。 如果不立即发布数据，则可以[预览数据](propagated-data-view.md)并在稍后[发布数据](propagated-data-post.md)。 您可以稍后[用新文件](#feed-file-replace)替换现有信息源文件，而不会丢失任何现有的模板关联。
 
 ## 信息源文件要求
 

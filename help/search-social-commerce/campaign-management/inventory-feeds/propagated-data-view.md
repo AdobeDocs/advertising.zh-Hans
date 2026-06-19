@@ -4,11 +4,9 @@ description: 了解如何查看从清单数据馈送生成的数据。
 exl-id: ee48f0f1-65fb-4d27-8f59-0108835d70e5
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/AG-bR4RcQZcDjJTLkrWhC4J3RcYb7kBRRiC3moSCxp0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 429
 ht-degree: 0%
@@ -17,11 +15,11 @@ ht-degree: 0%
 
 # 查看从馈送生成的数据
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （仅删除操作）和仅[!DNL Yandex]帐户*
+*[!DNL Google Ads]、[!DNL LY Ads] （仅删除操作）、[!DNL Microsoft Advertising]和仅[!DNL Yandex]帐户*
 
 如果传播馈送数据时没有同时将其发布到广告网络，则可以使用以下方法之一预览数据。 您稍后可以选择从任一位置[将数据发布到相关广告网络](propagated-data-post.md)。
 
-* 如果您使用选项“[!UICONTROL Propagate and Preview]”，则从`<feed file name>_<template name>`视图中查看生成的批量工作表（名为“[!UICONTROL Bulksheets]”）。 [!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]和[!UICONTROL Ads]选项卡上不包含任何数据。 此选项允许您[验证与广告和关键字关联的登陆页面](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)，然后再发布数据。
+* 如果您使用选项“[!UICONTROL Propagate and Preview]”，则从[!UICONTROL Bulksheets]视图中查看生成的批量工作表（名为“`<feed file name>_<template name>`”）。 [!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]和[!UICONTROL Ads]选项卡上不包含任何数据。 此选项允许您[验证与广告和关键字关联的登陆页面](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)，然后再发布数据。
 
 * 如果您将选项用于“[!UICONTROL Propagate only]”，则可以从[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]和[!UICONTROL Ads]选项卡查看营销活动层次结构视图中生成的数据。
 

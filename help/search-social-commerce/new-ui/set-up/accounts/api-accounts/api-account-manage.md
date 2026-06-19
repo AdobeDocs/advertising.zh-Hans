@@ -3,9 +3,9 @@ title: （新UI）管理广告网络帐户
 description: 了解如何在新UI中为通过广告网络API同步的广告网络设置和管理帐户详细信息。
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2170'
 ht-degree: 0%
 
 ---
@@ -149,7 +149,7 @@ ht-degree: 0%
 >
 >如果您集成了“搜索”、“Social”和“Commerce-Adobe Analytics”，并更改了搜索帐户的名称，请让您的Adobe帐户团队更新映射。
 
-**[!DNL [广告网络]帐户]：** （在创建帐户时可见）要同步的广告网络帐户。
+**[！DNL [广告网络]帐户]：** （在创建帐户时可见）要同步的广告网络帐户。
 
 **[登录详细信息]：** （仅限Yandex帐户）要使用的帐户凭据：
 
@@ -203,7 +203,7 @@ ht-degree: 0%
 >* 如果您从[!UICONTROL Standard]切换到[!UICONTROL Token]，或者反之，则必须重新生成帐户的跟踪URL。
 >* 您可以在营销策划级别覆盖帐户级别设置。
 
-**[!UICONTROL Auto Update]：** （启用搜索、社交和Commerce跟踪时）标准化您的跟踪URL以实现跨浏览器和服务器的兼容性。 Search、Social和Commerce会在下次同步期间自动将以下内容上传到广告网络：(a)用于跟踪模板的搜索、Social和Commerce跟踪参数以及附加到最终URL的相同参数，或者(b)嵌入了Search、Social和Commerce跟踪代码的新目标URL。 对于具有[Adobe Advertising-Adobe Analytics集成](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hans)和服务器端AMO ID (s_kwcid)配置的广告商，该上传还包括您的[和](/help/integrations/analytics/ids.md#amo-id)帐户的[!DNL Google Ads]AMO ID参数[!DNL Microsoft Advertising]。 默认帐户级别设置继承自广告商的跟踪设置。 您可以在营销策划级别覆盖帐户级别设置。
+**[!UICONTROL Auto Update]：** （启用搜索、社交和Commerce跟踪时）标准化您的跟踪URL以实现跨浏览器和服务器的兼容性。 Search、Social和Commerce会在下次同步期间自动将以下内容上传到广告网络：(a)用于跟踪模板的搜索、Social和Commerce跟踪参数以及附加到最终URL的相同参数，或者(b)嵌入了Search、Social和Commerce跟踪代码的新目标URL。 对于具有[Adobe Advertising-Adobe Analytics集成](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)和服务器端AMO ID (s_kwcid)配置的广告商，该上传还包括您的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户的[AMO ID参数](/help/integrations/analytics/ids.md#amo-id)。 默认帐户级别设置继承自广告商的跟踪设置。 您可以在营销策划级别覆盖帐户级别设置。
 
 跟踪URL每天只更新不同步的实体（即添加的新实体和属性已更改的现有实体）。 因此，如果您将现有广告商/帐户/营销活动的此设置从“禁用”更改为“启用”，则不会为已同步的现有实体更新跟踪URL。 要将跟踪添加到现有已同步实体的URL，请联系您的Adobe客户团队，并请求执行一次性的手动同步过程。 自动上传流程将处理未来的更改。
 
@@ -221,20 +221,20 @@ ht-degree: 0%
 
 示例： `param1=value1&param2=value2`
 
-使用Adobe Advertising点击跟踪的帐户必须在后缀中包含广告网络的点击标识符（`msclkid`为[!DNL Microsoft Advertising]；Google为`gclid`）。 具有Adobe Analytics集成的帐户必须使用AMO ID参数（以`s_kwcid`开头）。 如果该帐户具有服务器端AMO ID实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 查看[的 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)必需后缀格式和[的 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)必需后缀格式。
+使用Adobe Advertising点击跟踪的帐户必须在后缀中包含广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`；Google为`gclid`）。 具有Adobe Analytics集成的帐户必须使用AMO ID参数（以`s_kwcid`开头）。 如果该帐户具有服务器端AMO ID实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 查看 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必需后缀格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的[必需后缀格式。
 
 >[!NOTE]
 >
 >* [!UICONTROL Auto Update]跟踪设置未更新此字段。
 >* 较低级别的最终URL后缀将覆盖帐户级别的后缀。 为便于维护，除非需要对各个帐户组件进行不同的跟踪，否则请仅使用帐户级别的后缀。 要在广告组级别或更低级别配置后缀，请使用广告网络的编辑器。
 
-**帐户跟踪URL**： （仅限[!DNL Google Ads]、[!DNL Microsoft Advertising]和[!DNL Yahoo! Japan Ads]帐户；可选）帐户的默认跟踪模板，它指定所有登入域外部重定向和跟踪参数，并将最终/登陆页面URL嵌入到参数中。 示例： `{lpurl}?source={network}&id=5`或`http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`以包含重定向。
+**帐户跟踪URL**： （仅限[!DNL Google Ads]、[!DNL LY Ads]和[!DNL Microsoft Advertising]帐户；可选）帐户的默认跟踪模板，它指定所有登入域外部重定向和跟踪参数，并将最终/登陆页面URL嵌入到参数中。 示例： `{lpurl}?source={network}&id=5`或`http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`以包含重定向。
 
 * 嵌入最终URL：
 
-   * （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）有关指示跟踪模板中最终URL的参数列表，请参阅[!DNL Microsoft Advertising]文档[[!DNL Microsoft Advertising] 中“可用的](https://help.ads.microsoft.com/#apex/3/en/56799)参数”部分中的（[!DNL Google Ads]仅限）[!DNL ValueTrack]文档[[!DNL Google Ads] 或（](https://support.google.com/google-ads/answer/6305348)仅限）跟踪模板参数。
+   * （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）有关指示跟踪模板中最终URL的参数列表，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)中“可用的[!DNL ValueTrack]参数”部分中的（[!DNL Microsoft Advertising]仅限）[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799)或（[!DNL Google Ads]仅限）跟踪模板参数。
 
-   * （仅限[!DNL Yahoo! Japan Ads]）使用参数`!{lpurl}`指示登陆页面URL。
+   * （仅限[!DNL LY Ads]）使用参数`!{lpurl}`指示登陆页面URL。
 
 * 您可以选择包含URL参数以及为营销活动定义的任何自定义参数，这些参数以&amp;号分隔，如`{lpurl}?matchtype={matchtype}&device={device}`。
 

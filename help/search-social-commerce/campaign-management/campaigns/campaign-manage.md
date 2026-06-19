@@ -4,20 +4,18 @@ description: 了解如何创建和管理广告营销活动。
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/ijW-K1aEtH2S2ksHlZFg37vIYL3yfLTKq9onQPbcbno
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 745
+source-wordcount: 738
 ht-degree: 0%
 
 ---
 
 # 管理营销活动
 
-仅&#x200B;*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]、[!DNL Yandex]和现有[!DNL Baidu]帐户*
+仅&#x200B;*[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yandex]和现有[!DNL Baidu]帐户*
 
 营销策划是广告网络帐户的主要组成部分。 对于大多数促销活动类型，它包含一组广告组或广告集。 促销活动设置包括促销活动预算参数、广告目标和促销活动中所有广告的可选跟踪参数。 营销活动级别的跟踪参数将覆盖帐户级别的参数，但跟踪参数本身可能会在较低的级别被覆盖。
 
@@ -36,9 +34,9 @@ ht-degree: 0%
 
 1. 选择广告网络、帐户和营销活动类型，然后单击&#x200B;**[!UICONTROL Continue]**。
 
-   有关每种营销活动类型的描述，请参阅[百度](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)、[Google广告](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)、[Yahoo！ 日本广告](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)或[Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)促销活动设置。
+   有关每种促销活动类型的描述，请参阅[百度](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)、[Google广告](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)、[LY广告](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)或[Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)促销活动设置。
 
-1. 输入[百度](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)、[Google广告](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)、[Yahoo！ 日本广告](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)或[Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)促销活动设置。
+1. 输入[百度](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)、[Google广告](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)、[LY广告](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)或[Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)促销活动设置。
 
    根据广告网络，这些设置可分组为[!UICONTROL Campaign Details]、[!UICONTROL Budget Options]、[!UICONTROL Shopping Settings]、[!UICONTROL Campaign Targeting]、[!UICONTROL Conversion Goals]、[!UICONTROL Advanced Device Options]、[!UICONTROL URL Options]、([!DNL Google Ads]) [!UICONTROL DSA Options]和([!DNL Google Ads]) [!UICONTROL Customer Acquisition Goals]。 若要为[!UICONTROL Negative Keywords]、[!UICONTROL Negative Websites]、[!UICONTROL Campaign Tracking]、[!UICONTROL Asset Groups]或[!UICONTROL Campaign Goals]配置其他设置（如果可用），请分别单击&#x200B;**[!UICONTROL Add Negative Keywords]**、**[!UICONTROL Add Negative Websites]**、**[!UICONTROL Set Campaign Tracking]**、**[!UICONTROL Manage Asset Groups]**&#x200B;或&#x200B;**[!UICONTROL Set Campaign Goals]**。
 
@@ -68,7 +66,7 @@ ht-degree: 0%
 
       * 在数据表上方的工具栏中，单击![编辑](/help/search-social-commerce/assets/edit.png "编辑")。
 
-1. 编辑[百度](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)、[Google广告](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)、[Yahoo！ 日本广告](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)或[Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)促销活动设置。
+1. 编辑[百度](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)、[Google广告](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)、[LY广告](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)或[Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)促销活动设置。
 
    对于多个营销活动，根据广告网络，这些设置可分组为[!UICONTROL Campaign Details]、[!UICONTROL Budget Options]和[!UICONTROL URL Options]。 您只能编辑所有选定营销策划通用的字段，并且您的更改将会应用于所有选定营销策划。 对于某些字母数字字段，您可以选择将现有值更改为指定值，将现有字符串替换为指定字符串，在每个值的开头添加指定前缀，或者在每个值的结尾附加后缀。 对于某些货币字段，您可以选择将现有值更改为指定值，或者增加或减少金额指定百分比或货币金额，但有限制。
 
@@ -108,6 +106,6 @@ ht-degree: 0%
 >
 >* [[!DNL Baidu] 营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
 >* [[!DNL Google Ads] 营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
+>* [[!DNL LY Ads] 营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
 >* [[!DNL Microsoft Advertising] 营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
->* [[!DNL Yahoo! Japan Ads] 营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
 >* [[!DNL Yandex] 营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)

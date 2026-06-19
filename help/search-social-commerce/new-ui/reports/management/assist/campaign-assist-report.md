@@ -2,9 +2,9 @@
 title: '[!UICONTROL Campaign Assist Report]'
 description: 了解[!UICONTROL Campaign Assist Report]。
 feature: Search Reports, Search Assist Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '856'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 1%
 | [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[转化量度\] | 自动 | （在报表设置中不可用，但自动包含在报表输出中）从上一个事件（在最后一个营销活动中）到转化的平均延迟（以天为单位）。 |
 | [!UICONTROL EF Campaign ID] | 自定义 | Search、Social和Commerce分配给营销活动的数值ID。 |
 | [!UICONTROL EF Portfolio Group ID] | 自定义 | 项目组合所属的项目组合组的数值ID。 |
-| [!UICONTROL EF Search Engine ID] | 自定义 | Search、Social和Commerce分配给广告网络的数值ID：[!DNL Google Ads]的<i>[!UICONTROL 3]</i>、[!DNL Microsoft Advertising]的<i>[!UICONTROL 10]</i>、[!DNL Meta]的<i>[!UICONTROL 45]</i>、[!DNL Yahoo! Display Network]的<i>[!UICONTROL 86]</i>、[!DNL Naver]的<i>[!UICONTROL 87]</i>、[!DNL Baidu]的<i>[!UICONTROL 88]</i>、[!DNL Yandex]的<i>[!UICONTROL 90]</i>、[!DNL Yahoo! Japan Ads]的<i>[!UICONTROL 94]</i>、[!DNL Yahoo Native]的<i>[!UICONTROL 105]</i>（已弃用）或[!DNL Pinterest]的<i>[!UICONTROL 106]</i>（已弃用）。 |
+| [!UICONTROL EF Search Engine ID] | 自定义 | Search、Social和Commerce分配给广告网络的数值ID：[!DNL Google Ads]的<i>[!UICONTROL 3]</i>、[!DNL Microsoft Advertising]的<i>[!UICONTROL 10]</i>、[!DNL Meta]的<i>[!UICONTROL 45]</i>、[!DNL Yahoo! Display Network]的<i>[!UICONTROL 86]</i>、[!DNL Naver]的<i>[!UICONTROL 87]</i>、[!DNL Baidu]的<i>[!UICONTROL 88]</i>、[!DNL Yandex]的<i>[!UICONTROL 90]</i>、[!DNL LY Ads]的<i>[!UICONTROL 94]</i>（以前的[!DNL Yahoo! Japan Ads]）、[!DNL Yahoo Native]的<i>[!UICONTROL 105]</i>（已弃用）或[!DNL Pinterest]的<i>[!UICONTROL 106]</i>（已弃用）。 |
 | [!UICONTROL Portfolio ID] | 自定义 | 数值项目组合ID。 |
 | [!UICONTROL User SE Account ID] | 自定义 | Search、Social和Commerce分配给广告网络的数值ID。 |
 

@@ -4,20 +4,18 @@ description: 了解如何为搜索广告组创建和管理可竞价关键词。
 exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/rvAZIAdcUmWSl4GKm4TCvDwkS-jdWFZ1S5vUYYEPRzU
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: 410
 ht-degree: 0%
 
 ---
 
 # 管理可竞价关键词
 
-仅&#x200B;*[!DNL Google Ads]和[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]、[!DNL Yandex]和现有[!DNL Baidu]帐户*
+仅&#x200B;*[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yandex]和现有[!DNL Baidu]帐户*
 
 您可以在[支持的促销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)中创建和编辑搜索广告组的关键字，这些类型针对[同步的广告网络帐户](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)中的搜索和显示/本地网络
 
@@ -33,7 +31,7 @@ ht-degree: 0%
 
 1. 选择广告网络、帐户、营销活动和广告组，然后单击&#x200B;**[!UICONTROL Continue]**。
 
-1. 输入[[!DNL Baidu] 关键字设置](keyword-settings-baidu.md)、[[!DNL Google Ads] 关键字设置](keyword-settings-google.md)、[[!DNL Microsoft Advertising] 关键字设置](keyword-settings-microsoft.md)、[[!DNL Yahoo! Japan Ads] 关键字设置](keyword-settings-yahoo-japan.md)或[[!DNL Yandex] 关键字设置](keyword-settings-yandex.md)。
+1. 输入[[!DNL Baidu] 关键字设置](keyword-settings-baidu.md)、[[!DNL Google Ads] 关键字设置](keyword-settings-google.md)、[[!DNL LY Ads] 关键字设置](keyword-settings-yahoo-japan.md)、[[!DNL Microsoft Advertising] 关键字设置](keyword-settings-microsoft.md)或[[!DNL Yandex] 关键字设置](keyword-settings-yandex.md)。
 
    在一个操作中，最多可以输入或粘贴2000个关键字。 用逗号分隔多个关键字，或在单独的行中输入它们。
 
@@ -63,7 +61,7 @@ ht-degree: 0%
 
 1. 在数据表上方的工具栏中，单击![编辑](/help/search-social-commerce/assets/edit.png "编辑") 。
 
-1. 编辑[[!DNL Baidu] 关键字设置](keyword-settings-baidu.md)、[[!DNL Google Ads] 关键字设置](keyword-settings-google.md)、[[!DNL Microsoft Advertising] 关键字设置](keyword-settings-microsoft.md)、[[!DNL Yahoo! Japan Ads] 关键字设置](keyword-settings-yahoo-japan.md)或[[!DNL Yandex] 关键字设置](keyword-settings-yandex.md)。
+1. 编辑[[!DNL Baidu] 关键字设置](keyword-settings-baidu.md)、[[!DNL Google Ads] 关键字设置](keyword-settings-google.md)、[[!DNL LY Ads] 关键字设置](keyword-settings-yahoo-japan.md)、[[!DNL Microsoft Advertising] 关键字设置](keyword-settings-microsoft.md)或[[!DNL Yandex] 关键字设置](keyword-settings-yandex.md)。
 
    对于多个关键字，您只能编辑所有选定关键字通用的字段，并且您的更改将应用于所有选定关键字。 对于某些字母数字字段，您可以选择将现有值更改为指定值，将现有字符串替换为指定字符串，在每个值的开头添加指定前缀，或者在每个值的结尾附加后缀。 对于某些货币字段，您可以选择将现有值更改为指定值，或者增加或减少金额指定百分比或货币金额，但有限制。
 
@@ -78,8 +76,8 @@ ht-degree: 0%
 >* [关于关键字](keyword-about.md)
 >* [[!DNL Baidu] 关键字设置](keyword-settings-baidu.md)
 >* [[!DNL Google Ads] 关键字设置](keyword-settings-google.md)
+>* [[!DNL LY Ads] 关键字设置](keyword-settings-yahoo-japan.md)
 >* [[!DNL Microsoft Advertising] 关键字设置](keyword-settings-microsoft.md)
->* [[!DNL Yahoo! Japan Ads] 关键字设置](keyword-settings-yahoo-japan.md)
 >* [[!DNL Yandex] 关键字设置](keyword-settings-yandex.md)
 >* [创建负关键字](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
 >* [更改关键字和负关键字的状态](keyword-status-edit.md)
