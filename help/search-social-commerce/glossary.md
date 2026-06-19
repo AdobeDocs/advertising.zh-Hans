@@ -4,16 +4,12 @@ description: 请参阅关键术语的定义。
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
 TQID: https://experienceleague.adobe.com/aJc98oWlKlYx5ROezUwJsIsw46xcad1rKQTqoXhyggw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 2342
+source-wordcount: 2377
 ht-degree: 0%
 
 ---
@@ -26,7 +22,7 @@ ht-degree: 0%
 
 **广告变量：**&#x200B;广告组或广告策略中的任何广告。
 
-**[AMO ID](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id)：**&#x200B;允许Adobe Advertising与Adobe Analytics和Adobe Customer Journey Analytics共享促销活动相关数据的跟踪代码。 它以`s_kwcid=`开头。
+**[AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id)：**&#x200B;允许Adobe Advertising与Adobe Analytics和Adobe Customer Journey Analytics共享促销活动相关数据的跟踪代码。 它以`s_kwcid=`开头。
 
 **竞价单位：**&#x200B;投标单位的搜索、社交和Commerce搜索词。
 
@@ -34,7 +30,7 @@ ht-degree: 0%
 
 * 对于具有[!DNL Maximize Clicks]、[!DNL Maximize Conversion Value]、[!DNL Maximize Conversions]、[!DNL Target Cost Per Acquisition]或[!DNL Target Return on Ad Spend]支出策略的营销活动，每个营销活动都是一个竞价单位。
 
-* 对于[!DNL Yahoo! Display Network]上的促销活动（不使用关键字），广告组中的所有广告都具有相同的竞价并被视为相同的竞价单位。
+* 对于[!DNL Yahoo DSP]上的促销活动（不使用关键字），广告组中的所有广告都具有相同的竞价并被视为相同的竞价单位。
 
 **竞价单位约束：**&#x200B;请参阅“约束”。
 
@@ -96,11 +92,11 @@ ht-degree: 0%
 
 **eCPM：**&#x200B;有效的CPM，或在指定日期范围内每1000次展示所支付的平均成本。 可以为CPM或CPC营销活动计算eCPM值。
 
-**[EF ID](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-ef-id)：**&#x200B;跟踪代码，允许Adobe Advertising将活动与在线点击或广告曝光相关联，并与Adobe Analytics和Adobe Customer Journey Analytics共享促销活动数据。
+**[EF ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id)：**&#x200B;跟踪代码，允许Adobe Advertising将活动与在线点击或广告曝光相关联，并与Adobe Analytics和Adobe Customer Journey Analytics共享促销活动数据。
 
 ## G-H {#g-h}
 
-**半衰期：**&#x200B;将数量减少到其初始值的一半所需的时间。 对于每个项目组合，您可以指定半衰期以指示数据与成本模型和收入模型相关的时间。
+**半衰期：**将数量减少到其初始值的一半所需的时间。对于每个项目组合，您可以指定半衰期以指示数据与成本模型和收入模型相关的时间。
 请参阅“成本模型半衰期”和“收入模型半衰期”。
 
 ## I-J {#i-j}

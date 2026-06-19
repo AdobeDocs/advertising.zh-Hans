@@ -4,15 +4,10 @@ description: 了解专业报告的可用数据列。
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
 TQID: https://experienceleague.adobe.com/RI7bIXkj-J3Zf9-0cQozmrvRKZhTTDcbICnJCV22IxM
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 3173
 ht-degree: 0%
@@ -58,7 +53,7 @@ ht-degree: 0%
 | [!UICONTROL Asset Type] | ([!UICONTROL RSA Asset Report])资源类型： *[!UICONTROL Creative Title]*&#x200B;或&#x200B;*[!UICONTROL Description]*。 |
 | [!UICONTROL Assists] | （[!UICONTROL MSA Ad Extension]个报表）实体对与其他实体关联的转换的贡献次数。 |
 | [!UICONTROL Audience ID] | 数字受众ID。 |
-| [!UICONTROL Audience Name] | 观众。 可用受众包括您的[!DNL Google Ads]基于客户数据的市场内和类似受众，以及您的[!DNL [!DNL Microsoft Advertising]]自定义、客户匹配、动态再营销、市场内、再营销和类似受众。 |
+| [!UICONTROL Audience Name] | 观众。 可用受众包括您的[!DNL Google Ads]基于客户数据的市场内和类似受众，以及您的[！DNL [!DNL Microsoft Advertising]]自定义、客户匹配、动态再营销、市场内、再营销和类似受众。 |
 | [!UICONTROL Audience Impression Lost To Budget Percent] | 由于每日或每月预算过低，您在Microsoft Audience Network上损失的展示份额百分比。 |
 | [!UICONTROL Audience Impression Lost To Rank Percent] | 由于广告排名不佳，您在Microsoft受众网络上损失的展示份额百分比。 |
 | [!UICONTROL Audience Impression Share Percent] | [!DNL Microsoft Audience Network]的预计展示次数百分比除以您可能已接收的可用展示次数总数。 |
@@ -110,7 +105,7 @@ ht-degree: 0%
 | [!UICONTROL eCPM] | 有效的CPM，或在指定日期范围内每1000次展示所支付的平均成本。 可以为CPM或CPC营销活动计算eCPM值。 |
 | [!UICONTROL EF Campaign ID] | Search、Social和Commerce分配给营销活动的数值ID。 |
 | [!UICONTROL EF Portfolio Group ID] | 项目组合所属的项目组合组的数值ID。 |
-| [!UICONTROL EF Search Engine ID] | Search、Social和Commerce分配给广告网络的数值ID：[!DNL Google Ads]的<i>[!UICONTROL 3]</i>、[!DNL Microsoft Advertising]的<i>[!UICONTROL 10]</i>、[!DNL Meta]的<i>[!UICONTROL 45]</i>、[!DNL Yahoo! Display Network]的<i>[!UICONTROL 86]</i>、[!DNL Naver]的<i>[!UICONTROL 87]</i>、[!DNL Baidu]的<i>[!UICONTROL 88]</i>、[!DNL Yandex]的<i>[!UICONTROL 90]</i>、[!DNL LY Ads]的<i>[!UICONTROL 94]</i>（以前的[!DNL Yahoo! Japan Ads]）、[!DNL Yahoo Native]的<i>[!UICONTROL 105]</i>（已弃用）或[!DNL Pinterest]的<i>[!UICONTROL 106]</i>（已弃用）。 |
+| [!UICONTROL EF Search Engine ID] | Search、Social和Commerce分配给广告网络的数值ID：[!DNL Google Ads]的<i>[!UICONTROL 3]</i>、[!DNL Microsoft Advertising]的<i>[!UICONTROL 10]</i>、[!DNL Meta]的<i>[!UICONTROL 45]</i>、[!DNL Yahoo DSP]的<i>[!UICONTROL 86]</i>、[!DNL Naver]的<i>[!UICONTROL 87]</i>、[!DNL Baidu]的<i>[!UICONTROL 88]</i>、[!DNL Yandex]的<i>[!UICONTROL 90]</i>、[!DNL LY Ads]的<i>[!UICONTROL 94]</i>（以前的[!DNL Yahoo! Japan Ads]）、[!DNL Yahoo Native]的<i>[!UICONTROL 105]</i>（已弃用）或[!DNL Pinterest]的<i>[!UICONTROL 106]</i>（已弃用）。 |
 | [!UICONTROL End Date] | 报告的最后一天。 |
 | [!UICONTROL Extension Property Value] | （[!UICONTROL MSA Ad Extension]个报告）扩展的[显示名称](https://help.ads.microsoft.com/#apex/ads/en/51001)。 |
 | [!UICONTROL Extension Type ID] | （[!UICONTROL MSA Ad Extension]个报告）广告扩展类型的ID。 |

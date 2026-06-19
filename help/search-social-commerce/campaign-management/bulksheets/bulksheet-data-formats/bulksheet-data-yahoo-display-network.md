@@ -1,27 +1,25 @@
 ---
-title: ' [!DNL Yahoo! Display Network] 帐户的批量工作表数据'
-description: 引用 [!DNL Yahoo! Display Network] 帐户的已下载批量处理工作表中的标题字段和数据字段。
+title: ' [!DNL Yahoo DSP] 帐户的批量工作表数据'
+description: 引用 [!DNL Yahoo DSP] 帐户的已下载批量处理工作表中的标题字段和数据字段。
 exl-id: 8d938009-6edc-4420-8863-21ed241616f8
 feature: Search Bulksheets
 TQID: https://experienceleague.adobe.com/cqFcEzgFtjpBzPZEUYNnXjZSb-yRDytPCQm4hqX0R9w
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 522
+source-wordcount: 525
 ht-degree: 0%
 
 ---
 
-# 附录 — [!DNL Yahoo! Display Network]帐户的批量工作表数据
+# 附录 — [!DNL Yahoo DSP]帐户的批量工作表数据
 
 <!-- 
 [Re-add "Required" to title, file name, and TOC if you add the ability to create/edit campaigns using YDN bulksheets. Then will also need to add more text below, like for the other SEs.]
 -->
 
-您可以批量下载[!DNL Yahoo! Display Network]帐户的数据，但无法将批量工作表上传或发布到广告网络。
+您可以批量下载[!DNL Yahoo DSP]（以前为[!DNL Yahoo! Display Network]）帐户的数据，但无法将批量工作表上传或发布到广告网络。
 
 ## 可用的数据字段
 
