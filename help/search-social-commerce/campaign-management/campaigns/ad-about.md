@@ -10,16 +10,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 883
+source-wordcount: 918
 ht-degree: 0%
 
 ---
 
 # 关于广告
 
-仅&#x200B;*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]、[!DNL Yandex]和现有[!DNL Baidu]帐户*
+仅&#x200B;*[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yandex]和现有[!DNL Baidu]帐户*
 
 广告可以显示在目标网站上（针对内容或针对版面的促销活动）；用户搜索广告组中的关键字之一（针对搜索促销活动）或搜索您网站上的内容时（针对[!DNL Google Ads]仅限搜索促销活动的动态搜索广告）；或者用户执行与您的[!DNL Google Merchant Center]或[!DNL Microsoft Merchant Center]产品信息源中的项目之一相关的搜索时（针对[!DNL Google Ads]中的购物广告或[!DNL Microsoft Advertising]促销活动中的产品广告）。
 
@@ -29,15 +29,15 @@ ht-degree: 0%
 
 * 在针对搜索网络的营销活动中针对广告组&#x200B;**文本广告或扩展文本广告**。 文本广告可以包含覆盖广告组或营销活动级别参数的可选跟踪参数。 根据广告网络，您可以创建扩展/扩展文字广告或标准文字广告。
 
-* 针对&#x200B;**上**&#x200B;营销活动的跨设备、本机[!DNL Microsoft Advertising]受众广告[!DNL Microsoft Audience Network]。 根据促销活动设置，您有两个受众广告选项：
+* 针对[!DNL Microsoft Audience Network]上[!DNL Microsoft Advertising]营销活动的跨设备、本机&#x200B;**受众广告**。 根据促销活动设置，您有两个受众广告选项：
 
    * 如果促销活动链接到商户中心商店，则让广告网络使用商店的产品信息，自动为促销活动生成基于广告馈送的广告。 您无需为营销活动创建基于信息源的广告，但必须创建具有用户定位的广告组。
 
    * 如果促销活动未链接到商家中心帐户，则使用响应式广告格式创建基于图像的受众广告，其中包含多个文本和图像资源。 广告网络使用最有效的广告元素组合来组合广告，并在[!DNL MSN]、[!DNL Outlook.com]和[!DNL Microsoft Edge]等网站上显示它们。
 
-* 搜索网络上&#x200B;**促销活动的**&#x200B;仅限呼叫的广告[!DNL Google Ads]。 仅限呼叫的广告是包含电话号码的文字广告。 您可以选择使用[!DNL Google Ads]分配的转接号码进行高级呼叫报告。
+* 搜索网络上[!DNL Google Ads]促销活动的&#x200B;**仅限呼叫的广告**。 仅限呼叫的广告是包含电话号码的文字广告。 您可以选择使用[!DNL Google Ads]分配的转接号码进行高级呼叫报告。
 
-* 在搜索促销活动中&#x200B;**扩展了**&#x200B;和[!DNL Google Ads]动态搜索广告组的动态搜索广告[!DNL Microsoft Advertising]（现在在广告网络上仅称为“动态搜索广告”）。 动态搜索广告使用网站中的内容而不是关键字来确定何时显示广告。 广告网络动态生成标题，选择登陆页面URL和显示URL，并自动生成最终URL。
+* 在搜索促销活动中&#x200B;**扩展了[!DNL Google Ads]和[!DNL Microsoft Advertising]动态搜索广告组的动态搜索广告**（现在在广告网络上仅称为“动态搜索广告”）。 动态搜索广告使用网站中的内容而不是关键字来确定何时显示广告。 广告网络动态生成标题，选择登陆页面URL和显示URL，并自动生成最终URL。
 
   您可以通过为广告组设置特定的动态搜索目标，在网站中定义其内容用于定位动态搜索广告的页面。 对于[!DNL Google Ads]，您可以在Search、Social和Commerce中创建动态搜索目标；对于[!DNL Microsoft Advertising]，您必须在[!DNL Microsoft Advertising]中创建它们。 在[!DNL Google Ads]个营销活动中，您可以选择在营销活动的“[!DNL DSA Options]”部分指定网站域和语言，而不是在创建动态搜索目标时指定，或者作为创建动态搜索目标的补充。
 
@@ -45,11 +45,11 @@ ht-degree: 0%
 
   有关动态搜索广告的更多信息，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/2471185)和[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/ads/en/56794)。
 
-* 针对&#x200B;**搜索营销活动的**&#x200B;多媒体广告[!DNL Microsoft Advertising]。 多媒体广告是以突出的主线和侧栏位置显示的大型图像广告，并且每页只显示一个多媒体广告。 它们可以包括多个文本和图像资产，例如响应式广告，并且广告网络使用最有效的广告元素组合来组合广告。 多媒体广告不会取代文本广告投放。
+* 针对[!DNL Microsoft Advertising]搜索营销活动的&#x200B;**多媒体广告**。 多媒体广告是以突出的主线和侧栏位置显示的大型图像广告，并且每页只显示一个多媒体广告。 它们可以包括多个文本和图像资产，例如响应式广告，并且广告网络使用最有效的广告元素组合来组合广告。 多媒体广告不会取代文本广告投放。
 
 * 购物网络上&#x200B;**[!DNL Microsoft Advertising]产品（购物）广告**&#x200B;的促销行。 购物广告使用您现有的[!DNL Microsoft Merchant Center]产品信息源中的产品（而不是关键字）来确定显示广告的方式和位置。 广告文案和登陆页面URL是根据信息源中的产品信息自动生成的，但是，您可以选择设置促销行以将其包含在广告组中。
 
-  通过从[!DNL Microsoft Advertising] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图为广告组设置单独的产品组，您可以控制哪些产品与您的[!UICONTROL Product Groups]购物广告一起显示。
+  通过从[!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups]视图为广告组设置单独的产品组，您可以控制哪些产品与您的[!DNL Microsoft Advertising]购物广告一起显示。
 
   有关产品/购物广告工作流的详细信息，请参阅[实施 [!DNL Microsoft Advertising] 购物营销活动](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)。  有关产品广告的其他信息，请参阅[Microsoft Advertising文档](https://help.ads.microsoft.com/#apex/3/en/51082)。
 

@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 854
+source-wordcount: 857
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 1%
 | [!UICONTROL 1st Campaign]至[!UICONTROL 5th Campaign] | 默认 | 转化路径中在广告商的[点击回顾窗口](/help/search-social-commerce/glossary.md#c-d)和[展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)内出现的最早五个营销活动。<br><br>如果您在实体名称后包含任何报告选项以指示广告网络、帐户名称或事件类型，则该信息将包含在营销活动名称（如“`"<"campaign name> [Google] [Account1] [impression]`”）之后。 |
 | [!UICONTROL Path Size] | 默认 | 转化路径中在广告商的[点击回顾窗口](/help/search-social-commerce/glossary.md#c-d)和[展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)内发生的营销活动数。 |
 | [!UICONTROL First Campaign] | 默认 | 转化路径中的第一个营销活动。 |
-| [!UICONTROL Last Campaign] | 默认 | 导致转化的最后一个营销活动（即使最后一个关键词在指定的路径大小之外也是如此）。<br><br>如果您在实体名称后包含任何报告选项以指示广告网络、帐户名称或事件类型，则该信息将包含在营销活动名称（如“`"<"campaign name> [Google] [Account1] [impression]`”）之后。 |
+| [!UICONTROL Last Campaign] | 默认 | 导致转换的上一个营销活动（即使最后一个关键字在指定的路径大小之外也是如此。）<br><br>如果您在实体名称后包括任何报告选项以指示广告网络、帐户名称或事件类型，则该信息将包括在营销活动名称（如`"<"campaign name> [Google] [Account1] [impression]`&quot;）之后。 |
 | \[特定于广告商的自定义（派生）量度\] | 自定义 | 您创建的自定义量度的值，它通过现有量度计算。 |
 | \[特定于广告商的转化量度\] | 自定义 | 指定转化量度或网站参与量度的转化次数。 |
 | [!UICONTROL % of Total] \[转化量度\] | 自动 | （在报表设置中不可用，但自动包含在每个包含的转化量度的报表输出中）因营销活动模式导致的指定转化量度的转化次数。 |
@@ -53,7 +53,7 @@ ht-degree: 1%
 | [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[转化量度\] | 自动 | （在报表设置中不可用，但自动包含在报表输出中）从上一个事件（在最后一个营销活动中）到转化的平均延迟（以天为单位）。 |
 | [!UICONTROL EF Campaign ID] | 自定义 | Search、Social和Commerce分配给营销活动的数值ID。 |
 | [!UICONTROL EF Portfolio Group ID] | 自定义 | 项目组合所属的项目组合组的数值ID。 |
-| [!UICONTROL EF Search Engine ID] | 自定义 | Search、Social和Commerce分配给广告网络的数值ID：<i>[!UICONTROL 3]</i>的[!DNL Google Ads]、<i>[!UICONTROL 10]</i>的[!DNL Microsoft Advertising]、<i>[!UICONTROL 45]</i>的[!DNL Meta]、<i>[!UICONTROL 86]</i>的[!DNL Yahoo! Display Network]、<i>[!UICONTROL 87]</i>的[!DNL Naver]、<i>[!UICONTROL 88]</i>的[!DNL Baidu]、<i>[!UICONTROL 90]</i>的[!DNL Yandex]、<i>[!UICONTROL 94]</i>的[!DNL Yahoo! Japan Ads]、<i>[!UICONTROL 105]</i>的[!DNL Yahoo Native]（已弃用）或<i>[!UICONTROL 106]</i>的[!DNL Pinterest]（已弃用）。 |
+| [!UICONTROL EF Search Engine ID] | 自定义 | Search、Social和Commerce分配给广告网络的数值ID：[!DNL Google Ads]的<i>[!UICONTROL 3]</i>、[!DNL Microsoft Advertising]的<i>[!UICONTROL 10]</i>、[!DNL Meta]的<i>[!UICONTROL 45]</i>、[!DNL Yahoo! Display Network]的<i>[!UICONTROL 86]</i>、[!DNL Naver]的<i>[!UICONTROL 87]</i>、[!DNL Baidu]的<i>[!UICONTROL 88]</i>、[!DNL Yandex]的<i>[!UICONTROL 90]</i>、[!DNL LY Ads]的<i>[!UICONTROL 94]</i>（以前的[!DNL Yahoo! Japan Ads]）、[!DNL Yahoo Native]的<i>[!UICONTROL 105]</i>（已弃用）或[!DNL Pinterest]的<i>[!UICONTROL 106]</i>（已弃用）。 |
 | [!UICONTROL Portfolio ID] | 自定义 | 数值项目组合ID。 |
 | [!UICONTROL User SE Account ID] | 自定义 | Search、Social和Commerce分配给广告网络的数值ID。 |
 

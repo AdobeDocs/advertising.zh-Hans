@@ -13,9 +13,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 2100
+source-wordcount: 2136
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ ht-degree: 0%
 
 **[!UICONTROL Login Details]： [!UICONTROL OAuth Token]：** （[!DNL Microsoft Advertising] [!DNL oAuth]已启用，以及[!DNL Meta]和[!DNL Yandex]以外的所有其他网络）帐户令牌可使用[[!DNL OAuth] 授权协议](https://oauth.net/2/)授权登录。
 
-**[!UICONTROL Login Details]： [!UICONTROL Password]：** （除[!DNL Naver]之外的所有广告网络）帐户的密码。 对于[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]和[!DNL Yandex]上启用密码的帐户，此字段必填。 对于启用了[!DNL oAuth]的帐户，此字段为可选字段；当您要加密并保存密码以便帐户管理员根据需要刷新令牌时，可使用该字段。
+**[!UICONTROL Login Details]： [!UICONTROL Password]：** （除[!DNL Naver]之外的所有广告网络）帐户的密码。 对于[!DNL LY Ads]、[!DNL Microsoft Advertising]和[!DNL Yandex]上启用密码的帐户，此字段必填。 对于启用了[!DNL oAuth]的帐户，此字段为可选字段；当您要加密并保存密码以便帐户管理员根据需要刷新令牌时，可使用该字段。
 
 **[!UICONTROL Login Details]： [!UICONTROL Access Key]：** （仅限[!DNL Yandex]帐户）要使用的开发人员帐户的访问密钥。
 
@@ -187,7 +187,7 @@ ht-degree: 0%
 
 示例： `param1=value1&param2=value2`
 
-使用Adobe Advertising点击跟踪的帐户必须在后缀中包含广告网络的点击标识符（`msclkid`为[!DNL Microsoft Advertising]；Google为`gclid`）。 具有Adobe Analytics集成的帐户必须使用AMO ID参数（以`s_kwcid`开头）。 如果该帐户具有服务器端AMO ID实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 查看[的 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)必需后缀格式和[的 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)必需后缀格式。
+使用Adobe Advertising点击跟踪的帐户必须在后缀中包含广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`；Google为`gclid`）。 具有Adobe Analytics集成的帐户必须使用AMO ID参数（以`s_kwcid`开头）。 如果该帐户具有服务器端AMO ID实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 查看 [!DNL Google Ads][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必需后缀格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的必需后缀格式。
 
 >[!NOTE]
 >
@@ -201,13 +201,13 @@ ht-degree: 0%
 * *已启用：*&#x200B;搜索、社交和Commerce将营销活动数据与帐户同步（如果支持），并针对项目组合中的营销活动推送自动竞价和/或营销活动预算。
 * *已禁用：*&#x200B;搜索、社交和Commerce停止帐户上的所有活动。 虽然会存储当帐户处于活动状态时收集的数据，但营销活动管理视图和报表并不包含与帐户暂停时间相关的数据。 您稍后可以重新激活帐户以继续使用该帐户的活动。
 
-**跟踪模板** - （仅限[!DNL Google Ads]、[!DNL Microsoft Advertising]和[!DNL Yahoo! Japan Ads]帐户；可选）帐户的默认跟踪模板，它指定所有登入域重定向和跟踪参数，并将最终/登陆页面URL嵌入到参数中。 示例： `{lpurl}?source={network}&id=5`或`http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`以包含重定向。
+**跟踪模板** - （仅限[!DNL Google Ads]、[!DNL LY Ads]和[!DNL Microsoft Advertising]帐户；可选）帐户的默认跟踪模板，它指定所有登入域重定向和跟踪参数，并将最终/登陆页面URL嵌入到参数中。 示例： `{lpurl}?source={network}&id=5`或`http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`以包含重定向。
 
 * 嵌入最终URL：
 
-   * （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）有关指示跟踪模板中最终URL的参数列表，请参阅[!DNL Microsoft Advertising]文档[[!DNL Microsoft Advertising] 中“可用的](https://help.ads.microsoft.com/#apex/3/en/56799)参数”部分中的（[!DNL Google Ads]仅限）[!DNL ValueTrack]文档[[!DNL Google Ads] 或（](https://support.google.com/google-ads/answer/6305348)仅限）跟踪模板参数。
+   * （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）有关指示跟踪模板中最终URL的参数列表，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)中“可用的[!DNL ValueTrack]参数”部分中的（[!DNL Microsoft Advertising]仅限）[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799)或（[!DNL Google Ads]仅限）跟踪模板参数。
 
-   * （仅限[!DNL Yahoo! Japan Ads]）使用参数`!{lpurl}`指示登陆页面URL。
+   * （仅限[!DNL LY Ads]）使用参数`!{lpurl}`指示登陆页面URL。
 
 * 您可以选择包含URL参数以及为营销活动定义的任何自定义参数，这些参数以&amp;号分隔，如`{lpurl}?matchtype={matchtype}&device={device}`。
 

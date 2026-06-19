@@ -1,6 +1,6 @@
 ---
-title: '[!DNL Yahoo! Japan Ads]关键字设置'
-description: 引用 [!DNL Yahoo! Japan Ads] 关键字的设置。
+title: '[!DNL LY Ads]关键字设置'
+description: 引用 [!DNL LY Ads] 关键字的设置。
 exl-id: c2a34b3e-fb88-44e8-8bf8-7854639bd8cd
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/QE-TpsuMQW3Tmqv5clGPcMvyeJIYDPMQJMiK79eOKms
@@ -10,25 +10,25 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 141
+source-wordcount: 162
 ht-degree: 0%
 
 ---
 
-# [!DNL Yahoo! Japan Ads]关键字设置
+# [!DNL LY Ads]关键字设置
 
 ## [!UICONTROL Keyword Details]
 
-**[!UICONTROL Keywords]：**&#x200B;关键字。 最大长度为80个字符，包括关键字的任何[[!DNL Yahoo! Japan Ads] 匹配类型语法](https://ads-help.yahoo-net.jp/s/article/H000044997)。
+**[!UICONTROL Keywords]：**&#x200B;关键字。 最大长度为80个字符，包括关键字的任何[[!DNL LY Ads] 匹配类型语法](https://ads-help.yahoo-net.jp/s/article/H000044997)。
 
 最多可以输入或粘贴2000个关键字。 用逗号分隔多个关键字，或在单独的行中输入它们。
 
 >[!NOTE]
 >
 >* 您可以从[!UICONTROL Keywords] > [!UICONTROL Negatives]视图、广告组和促销活动设置中创建负关键字。
->* 雅虎！ 日本关键字和匹配类型是可变的，这意味着您可以编辑它们而不删除现有关键字。
+>* LY Ads关键字和匹配类型是可变的，这意味着您可以编辑它们而不删除现有关键字。
 
 **[!UICONTROL Status]：**&#x200B;关键字的显示状态： *活动*&#x200B;或&#x200B;*已暂停*。 新关键字的默认值为&#x200B;*活动*。
 

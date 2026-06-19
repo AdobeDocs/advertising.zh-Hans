@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 103
+source-wordcount: 151
 ht-degree: 0%
 
 ---
@@ -27,6 +27,6 @@ ht-degree: 0%
 
 * **[!DNL Google Ads]：**&#x200B;请参阅[https://support.google.com/google-ads/answer/6372658](https://support.google.com/google-ads/answer/6372658)。
 
-* **[!DNL Yahoo! Japan Ads]：**&#x200B;请参阅[https://ads-developers.yahoo.co.jp/en/ads-api/developers-guide/value-constraints.html](https://ads-developers.yahoo.co.jp/en/ads-api/developers-guide/value-constraints.html)。
+* **[!DNL LY Ads]：**&#x200B;请参阅[https://ads-developers.yahoo.co.jp/en/ads-api/developers-guide/value-constraints.html](https://ads-developers.yahoo.co.jp/en/ads-api/developers-guide/value-constraints.html)。
 
 * **[!DNL Yandex]：**&#x200B;请参阅[https://yandex.com/support/direct/troubleshooting/interface_limitations.xml](https://yandex.com/support/direct/troubleshooting/interface_limitations.xml)。

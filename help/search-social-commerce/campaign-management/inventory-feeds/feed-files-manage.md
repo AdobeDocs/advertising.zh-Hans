@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 1249
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # 管理清单数据馈送文件
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （仅删除操作）和仅[!DNL Yandex]帐户*
+*[!DNL Google Ads]、[!DNL LY Ads] （仅删除操作）、[!DNL Microsoft Advertising]和仅[!DNL Yandex]帐户*
 
 如果您提交自己的信息源数据，则必须上传包含产品数据的文件，以根据产品数据动态创建促销活动结构、广告和关键词。 然后，您可以将它们与广告网络特定的广告模板相关联，并通过模板处理数据，最终将数据发布到相关广告网络。 您可以将多个模板与一个信息源文件关联，但每个模板只能与一个信息源文件关联。
 

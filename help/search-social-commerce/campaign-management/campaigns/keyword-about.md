@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 171
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 关于关键字
 
-仅&#x200B;*[!DNL Google Ads]和[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]、[!DNL Yandex]和现有[!DNL Baidu]帐户*
+仅&#x200B;*[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yandex]和现有[!DNL Baidu]帐户*
 
 关键字是与广告关联的单词或短语。 关键词设置包括关键词匹配类型、关键词触发广告时可使用的最大竞价以及（某些广告网络）可选跟踪参数。 关键字级别的设置会覆盖广告组或营销活动设置。
 

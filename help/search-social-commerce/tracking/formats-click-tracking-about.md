@@ -8,9 +8,9 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 263
+source-wordcount: 275
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
    * `c?`或`r`表示令牌传递已禁用。
 
-* `<ad network ID>`是指定广告网络的数值ID的变量，如&#x200B;*的* 3[!DNL Google Ads]，*的* 10[!DNL Microsoft Advertising]，*的* 45[!DNL Meta]，*的* 86[!DNL Yahoo! Display Network]，*的* 87[!DNL Naver]，*的* 88[!DNL Baidu]，*的* 90[!DNL Yandex]，*94* [!DNL Yahoo! Japan Ads]的&#x200B;*、* 105[!DNL Yahoo Native]（已弃用）或&#x200B;*的* 106[!DNL Pinterest]（已弃用）。
+* `<ad network ID>`是指定广告网络的数值ID的变量，如[!DNL Google Ads]的&#x200B;*3*，[!DNL Microsoft Advertising]的&#x200B;*10*，[!DNL Meta]的&#x200B;*45*，[!DNL Yahoo! Display Network]的&#x200B;*86*，[!DNL Naver]的&#x200B;*87*，[!DNL Baidu]的&#x200B;*88*，[!DNL Yandex]的&#x200B;*90*，*94* （以前为[!DNL Yahoo! Japan Ads]）、*105* （对于[!DNL Yahoo Native]） （已弃用）或&#x200B;*106* （对于[!DNL Pinterest]）。[!DNL LY Ads]
 
 * `<tracking ID>`是系统生成的跟踪ID字符串的变量，该字符串标识帐户中唯一的关键字、广告或投放位置。 该字符串因广告网络而异。
 
@@ -44,9 +44,9 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [针对赞助广告的点击跟踪格式： [!DNL Baidu]](formats-click-tracking-baidu.md)
->* [的 [!DNL Google Ads]](formats-click-tracking-google.md)点击跟踪格式
->* [的 [!DNL Microsoft Advertising]](formats-click-tracking-microsoft.md)点击跟踪格式
+>*  [!DNL Google Ads][&#128279;](formats-click-tracking-google.md)的点击跟踪格式
+>* [针对赞助广告的点击跟踪格式： [!DNL LY Ads]](formats-click-tracking-yahoo-japan.md)
+>*  [!DNL Microsoft Advertising][&#128279;](formats-click-tracking-microsoft.md)的点击跟踪格式
 >* [针对赞助广告的点击跟踪格式： [!DNL Naver]](formats-click-tracking-naver.md)
->* [针对赞助广告的点击跟踪格式： [!DNL Yahoo! Japan Ads]](formats-click-tracking-yahoo-japan.md)
 >* [针对赞助广告的点击跟踪格式： [!DNL Yahoo! Display Network]](formats-click-tracking-yahoo-display-network.md)
 >* [针对赞助广告的点击跟踪格式： [!DNL Yandex]](formats-click-tracking-yandex.md)

@@ -2,9 +2,10 @@
 title: （新用户界面）手动同步广告网络数据
 description: 了解如何从新UI手动触发受支持广告网络的营销活动结构和营销活动实体的同步。
 feature: Search Campaign Management
-source-git-commit: 5e384445a35f81275eefeac660b31c1acdc785f3
+exl-id: 5e857713-53f0-4d90-8b7a-18a3675d320e
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 <!-- EDIT ALL -- FROM LEGACY UI -->
 
-仅&#x200B;*[!DNL Google Ads]、[!DNL Microsoft Advertising]（以前为[!DNL Bing Ads]）、[!DNL Yahoo! Japan Ads]、[!DNL Yandex]和现有[!DNL Baidu]帐户*
+仅&#x200B;*[!DNL Google Ads]、[!DNL LY Ads] （以前为[!DNL Yahoo! Japan Ads]）、[!DNL Microsoft Advertising] （以前为[!DNL Bing Ads]）、[!DNL Yandex]和现有[!DNL Baidu]帐户*
 
 同步是Search、Social和Commerce收集[支持的广告网络](/help/search-social-commerce/introduction/supported-inventory.md)上每个广告商连接的广告网络帐户的更新信息的过程。 此数据包括广告商的营销活动结构和营销活动实体，包括其在“搜索”、“社交”和“Commerce”中管理或报告的大多数属性。 它不包括点击数据，也不包括在搜索、社交和Commerce之外输入的竞价和竞价修饰符，这些数据是单独收集的。
 

@@ -8,9 +8,9 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: 484
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 对于具有目标URL的帐户，请在相应的[!UICONTROL Base URL]字段中输入值。
 
-对于具有最终URL的帐户，请在相应的[!UICONTROL Tracking Template]字段中输入屏幕上的值。 必须在`&url=`参数（如`{lpurl}`）之后为最终URL添加参数。 对于[!DNL Yahoo! Japan Ads]帐户，请使用参数`{lpurl}`。 有关在跟踪模板中指示最终URL的[!DNL Google Ads]和[!DNL Microsoft Advertising]参数列表，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)（请参阅“可用[!DNL ValueTrack]参数”部分中的“仅跟踪模板”参数）和[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799/2)。
+对于具有最终URL的帐户，请在相应的[!UICONTROL Tracking Template]字段中输入屏幕上的值。 必须在`&url=`参数（如`{lpurl}`）之后为最终URL添加参数。 对于[!DNL LY Ads]帐户，请使用参数`{lpurl}`。 有关在跟踪模板中指示最终URL的[!DNL Google Ads]和[!DNL Microsoft Advertising]参数列表，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)（请参阅“可用[!DNL ValueTrack]参数”部分中的“仅跟踪模板”参数）和[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799/2)。
 
 >[!MORELIKETHIS]
 >

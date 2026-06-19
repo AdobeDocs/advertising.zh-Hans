@@ -2,9 +2,9 @@
 title: 管理标签分类
 description: 了解如何使用标签分类对帐户组件进行分组。
 feature: Search Label Classifications
-source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1514'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 1. 输入唯一的标签分类名称，然后单击&#x200B;**[!UICONTROL Create]**。
 
-   该名称对于广告商帐户必须是唯一的，且包含[个32-126](https://www.asciitable.com/)的ASCII字符，最大长度为27个单字节字符。 名称不能与现有报表列或现有批量处理工作表列的名称相同。 查看[百度](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)、[Google广告](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)、[Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)、[Yahoo！的批量工作表列的名称 日本广告](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)，[Yahoo！ 显示网络](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)和[Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)。
+   该名称对于广告商帐户必须是唯一的，且包含[个32-126](https://www.asciitable.com/)的ASCII字符，最大长度为27个单字节字符。 名称不能与现有报表列或现有批量处理工作表列的名称相同。 查看[百度](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)、[Google广告](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)、[LY广告](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)、[Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)、[Yahoo！的批量工作表列的名称 显示网络](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)和[Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)。
 
 ## 从营销活动管理视图将分类值分配给帐户组件 {#classification-values-assign-campaign-management}
 

@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f916f47a40729ff39ac1456e3b3ad93e1045e9a9
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 1637
 ht-degree: 0%
@@ -129,30 +129,30 @@ ht-degree: 0%
 
 ## 按广告网络批量处理工作表行 {#bulksheet-rows-by-ad-network}
 
-| 批量处理工作表行 | [!DNL Baidu] | [!DNL Google Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo! Japan Ads] | [!DNL Yahoo Native] | [!DNL Yandex] | 注释 |
+| 批量处理工作表行 | [!DNL Baidu] | [!DNL Google Ads] | [!DNL LY Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo Native] | [!DNL Yandex] | 注释 |
 |----|----|----|----|-------|----|----|----|----|----|----|
 | [!UICONTROL Campaign] | 是 | 是 | 是 | 是 | 是 | 是 | 是 | 是 | 是 | — |
 | [!UICONTROL Adgroup] | 是 | 是 | 是 | 是 | 是 | 是 | 是 | 是 | 是 | — |
-| [!UICONTROL Creative] *或* [!UICONTROL Creative (except RSA)] | 是 | 是 | 是 | — | — | 是 | 是 | 是 | 是 | ([!DNL Google Ads])用于所有广告类型，但响应式搜索广告除外，它们在[!UICONTROL Responsive Search Ad]行中可用。 |
-| [!UICONTROL Responsive Search Ad] | — | 是 | 是 | — | — | — | — | — | — | — |
-| [!UICONTROL Keyword] | 是 | 是 | 是 | 是 | 是 | — | 是 | 是 | 是 | 仅用于非负关键字。 要查看在营销活动或广告组级别创建的负关键字，请使用可用的[!UICONTROL Campaign Negative Keyword]或[!UICONTROL Adgroup Negative Keyword]行。 |
-| [!UICONTROL Promoted Pin] | — | — | — | — | 是 | — | — | — | — | — |
+| [!UICONTROL Creative] *或* [!UICONTROL Creative (except RSA)] | 是 | 是 | 是 | 是 | — | — | 是 | 是 | 是 | ([!DNL Google Ads])用于所有广告类型，但响应式搜索广告除外，它们在[!UICONTROL Responsive Search Ad]行中可用。 |
+| [!UICONTROL Responsive Search Ad] | — | 是 | — | 是 | — | — | — | — | — | — |
+| [!UICONTROL Keyword] | 是 | 是 | 是 | 是 | 是 | 是 | — | 是 | 是 | 仅用于非负关键字。 要查看在营销活动或广告组级别创建的负关键字，请使用可用的[!UICONTROL Campaign Negative Keyword]或[!UICONTROL Adgroup Negative Keyword]行。 |
+| [!UICONTROL Promoted Pin] | — | — | — | — | — | 是 | — | — | — | — |
 | [!UICONTROL Placement] | — | 是 | — | — | — | — | — | — | — | — |
-| [!UICONTROL Auto Target] | — | 是 | 是 | — | — | — | — | — | — | 用于广告组的动态搜索目标。 |
-| [!UICONTROL Shopping Product Group] | — | 是 | 是 | — | — | — | — | — | — | — |
-| [!UICONTROL Campaign Site Link] | — | 是 | 是 | — | — | — | — | 是 | — | — |
-| [!UICONTROL Campaign Negative Keyword] | 是 | 是 | 是 | — | — | — | 是 | 是 | — | 仅用于营销活动或广告组级别创建的负关键字。 要查看非负关键字，请在可用时使用[!UICONTROL Keyword]行。 |
-| [!UICONTROL Campaign Negative Website] | — | 是 | 是 | — | — | — | — | 是 | — | — |
+| [!UICONTROL Auto Target] | — | 是 | — | 是 | — | — | — | — | — | 用于广告组的动态搜索目标。 |
+| [!UICONTROL Shopping Product Group] | — | 是 | — | 是 | — | — | — | — | — | — |
+| [!UICONTROL Campaign Site Link] | — | 是 | — | 是 | — | — | — | 是 | — | — |
+| [!UICONTROL Campaign Negative Keyword] | 是 | 是 | 是 | 是 | — | — | — | 是 | — | 仅用于营销活动或广告组级别创建的负关键字。 要查看非负关键字，请在可用时使用[!UICONTROL Keyword]行。 |
+| [!UICONTROL Campaign Negative Website] | — | 是 | — | 是 | — | — | — | 是 | — | — |
 | [!UICONTROL Adgroup Site Link] | — | 是 | — | — | — | — | — | 是 | — | — |
 | [!UICONTROL Creative Site Link] | — | — | — | — | — | — | — | — | 是 | — |
-| [!UICONTROL Adgroup Negative Keyword] | 是 | 是 | 是 | — | — | — | 是 | 是 | — | — |
-| [!UICONTROL Adgroup Negative Website] | — | 是 | 是 | — | — | — | — | — | — | — |
-| [!UICONTROL Campaign Location Target] | 是 | 是 | 是 | — | — | — | 是 | 是 | — | — |
-| [!UICONTROL Adgroup Location Target] | — | — | 是 | — | — | — | — | 是 | — | — |
-| [!UICONTROL Campaign Device Target] | — | 是 | 是 | — | — | — | — | 是 | — | — |
-| [!UICONTROL Adgroup Device Target] | — | 是 | 是 | — | — | — | — | 是 | — | — |
-| [!UICONTROL Campaign RLSA Target] | — | 是 | 是 | — | — | — | — | — | — | — |
-| [!UICONTROL Adgroup RLSA Target] | — | 是 | 是 | — | — | — | — | — | — | — |
+| [!UICONTROL Adgroup Negative Keyword] | 是 | 是 | 是 | 是 | — | — | — | 是 | — | — |
+| [!UICONTROL Adgroup Negative Website] | — | 是 | — | 是 | — | — | — | — | — | — |
+| [!UICONTROL Campaign Location Target] | 是 | 是 | 是 | 是 | — | — | — | 是 | — | — |
+| [!UICONTROL Adgroup Location Target] | — | — | — | 是 | — | — | — | 是 | — | — |
+| [!UICONTROL Campaign Device Target] | — | 是 | — | 是 | — | — | — | 是 | — | — |
+| [!UICONTROL Adgroup Device Target] | — | 是 | — | 是 | — | — | — | 是 | — | — |
+| [!UICONTROL Campaign RLSA Target] | — | 是 | — | 是 | — | — | — | — | — | — |
+| [!UICONTROL Adgroup RLSA Target] | — | 是 | — | 是 | — | — | — | — | — | — |
 | [!UICONTROL Campaign RLSA Negative] | — | 是 | — | — | — | — | — | — | — | — |
 | [!UICONTROL Adgroup RLSA Negative] | — | 是 | — | — | — | — | — | — | — | — |
 
@@ -160,10 +160,10 @@ ht-degree: 0%
 
 * [&#x200B; [!DNL Baidu] 帐户的必需和可选批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
 * [&#x200B; [!DNL Google Ads] 帐户的必需和可选批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+* [&#x200B; [!DNL LY Ads] 帐户的必需和可选批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
 * [&#x200B; [!DNL Microsoft Advertising] 帐户的必需和可选批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
 * [&#x200B; [!DNL Naver] 帐户的必需和可选批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
 * [&#x200B; [!DNL Yahoo! Display Network] 帐户的必需和可选批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-* [&#x200B; [!DNL Yahoo! Japan Ads] 帐户的必需和可选批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
 * [&#x200B; [!DNL Yandex] 帐户的必需和可选批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
 
 >[!MORELIKETHIS]

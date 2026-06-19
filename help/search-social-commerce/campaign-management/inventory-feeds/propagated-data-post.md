@@ -8,26 +8,26 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 846
+source-wordcount: 850
 ht-degree: 0%
 
 ---
 
 # 从馈送生成的将营销活动数据发布到广告网络
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （仅删除操作）和仅[!DNL Yandex]帐户*
+*[!DNL Google Ads]、[!DNL LY Ads] （仅删除操作）、[!DNL Microsoft Advertising]和仅[!DNL Yandex]帐户*
 
 您可以在通过相关模板传播数据时发布从信息源生成的营销活动数据，也可以将其作为单独的流程进行传播。 发布数据后，将从[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]和[!UICONTROL Ads]列表中删除任何现有的传播数据。
 
 要成功发布，必须将所有广告组分配给营销活动，将所有关键词和广告分配给广告组，并且必须包括所有必需的信息，且不得出现任何长度冲突。
 
-* 如果您使用选项“[!UICONTROL Propagate and Preview]”，则[从](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-post.md)视图发布生成的批量处理工作表文件`<feed file name>_<template name>` （名为“[!UICONTROL Bulksheets]”）。
+* 如果您使用选项“[!UICONTROL Propagate and Preview]”，则[从[!UICONTROL Bulksheets]视图发布生成的批量处理工作表文件](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-post.md) （名为“`<feed file name>_<template name>`”）。
 
   如果您之前未[验证登陆页面](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)，则可以在发布文件之前进行验证。
 
-* 如果您将选项用于“[!UICONTROL Propagate only]”，则可以从[[!UICONTROL New]选项卡在营销活动层次结构视图中发布状态为](propagated-data-status.md)的组件的生成数据[!UICONTROL Templates]。
+* 如果您将选项用于“[!UICONTROL Propagate only]”，则可以从[!UICONTROL Templates]选项卡在营销活动层次结构视图中发布状态为[[!UICONTROL New]的组件的生成数据](propagated-data-status.md)。
 
   >[!NOTE]
   >
@@ -35,7 +35,7 @@ ht-degree: 0%
 
   >[!TIP]
   >
-  >如果您之前未验证登陆页面，但希望验证登陆页面，请[传播数据并从](feed-data-propagate.md)视图中预览它[!UICONTROL Bulksheets]，而不是将数据发布到广告网络。 然后，您可以在手动将文件发布到广告网络之前[验证URL](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)。
+  >如果您之前未验证登陆页面，但希望验证登陆页面，请[传播数据并从[!UICONTROL Bulksheets]视图中预览它](feed-data-propagate.md)，而不是将数据发布到广告网络。 然后，您可以在手动将文件发布到广告网络之前[验证URL](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)。
 
    1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，这将打开到[!UICONTROL Templates]选项卡。
 
@@ -53,9 +53,9 @@ ht-degree: 0%
 
          * *[!UICONTROL Post to search engine on these start/end times (in America/Los_Angeles time)]：*&#x200B;创建批量处理工作表文件并稍后发布。 指定以下内容：
 
-            * **[!UICONTROL Start Time]：**&#x200B;将来应将批量处理工作表文件发布到广告网络的日期和时间。 默认情况下，该文件在隔天的00:00 (12:00 a.m.)发送。 **注意：**&#x200B;对于需要更长时间处理的大型文件，发布的数据无法立即在营销活动管理视图或网络的广告管理器中获取。
+            * **[!UICONTROL Start Time]：**&#x200B;将来应将批量处理工作表文件发布到广告网络的日期和时间。 默认情况下，文件在:00 （12:00上午）发送 第二天。 **注意：**&#x200B;对于需要更长时间处理的大型文件，发布的数据无法立即在营销活动管理视图或网络的广告管理器中获取。
 
-            * **[!UICONTROL End Time]：**&#x200B;根据“[”的](feed-settings-manage.md#feed-data-settings)信息源数据设置[!UICONTROL When the Scheduled End Date is reached]，可以暂停或删除已发布广告的未来日期和时间。 默认情况下，结束时间为从今天起30天的00:00 (12:00 a.m.)。 选择&#x200B;**[!UICONTROL None]**&#x200B;以无限期地保持数据活动（或在您为模板传播新数据之前），或指定日期和时间。
+            * **[!UICONTROL End Time]：**&#x200B;根据“[!UICONTROL When the Scheduled End Date is reached]”的[信息源数据设置](feed-settings-manage.md#feed-data-settings)，可以暂停或删除已发布广告的未来日期和时间。 默认情况下，结束时间是:00 （12:00上午） 从今天算起30天。 选择&#x200B;**[!UICONTROL None]**&#x200B;以无限期地保持数据活动（或在您为模板传播新数据之前），或指定日期和时间。
 
               要指定日期，请使用DD/MM/YYYY或D/M/YYYY格式，或单击![日历](/help/search-social-commerce/assets/calendar.png "日历")以打开日历，并[选择日期](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)。 要更改时间，请以24小时制HH/MM或H/M输入时间，或从列表中选择时间（以30分钟为间隔）。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
       * **[!UICONTROL Generate Tracking URLs]：**&#x200B;是否在批量处理工作表文件中包含关键字和广告变体的跟踪URL： *[!UICONTROL Yes]*（默认值）或&#x200B;*[!UICONTROL No]*。
 
-        如果选择&#x200B;*[!UICONTROL Yes]*，则根据[!UICONTROL Tracking Methods]帐户设置[中的](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)参数或从关键字和广告的基本URL生成URL，如果将数据映射到现有营销活动，则从现有[!UICONTROL Tracking Methods]营销活动设置[中的](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)参数生成URL。
+        如果选择&#x200B;*[!UICONTROL Yes]*，则根据[帐户设置](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)中的[!UICONTROL Tracking Methods]参数或从关键字和广告的基本URL生成URL，如果将数据映射到现有营销活动，则从现有[营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)中的[!UICONTROL Tracking Methods]参数生成URL。
 
         如果相关项目存在跟踪URL，则不会重新生成这些URL，除非需要新的URL（例如，如果关键词匹配类型、创意文本或帐户的跟踪参数已更改）。
 

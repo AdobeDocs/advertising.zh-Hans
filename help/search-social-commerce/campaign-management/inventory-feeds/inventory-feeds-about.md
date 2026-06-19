@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 838
+source-wordcount: 846
 ht-degree: 0%
 
 ---
 
 # 关于使用库存信息源自动化广告管理
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （仅删除操作）和仅[!DNL Yandex]帐户*
+*[!DNL Google Ads]、[!DNL LY Ads] （仅删除操作）、[!DNL Microsoft Advertising]和仅[!DNL Yandex]帐户*
 
 高级促销活动管理的[!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)]视图允许您自动创建和更新广告网络帐户结构，并根据有关产品或服务库存的数据投放动态广告。 您可以每天或根据需要经常上载包含产品数据的新文件，或者直接链接到[!DNL Google]或[!DNL Microsoft]商家中心帐户。 使用该功能可以：
 
@@ -31,16 +31,16 @@ ht-degree: 0%
 
 | 模板的[!UICONTROL Ad Variation]部分 | 搜索、社交和Commerce中的修饰符 | 信息源内容 | 生成的广告 |
 |----|----|----|----|
-| 标题：购买高端\{<i>产品类别</i>\} &lt;<i>廉价列表</i>>。<br><br>描述1： \{<i>产品名称</i>\}的库存量很大。<br><br>描述2：折扣率为\{<i>折扣百分比</i>\}%。 | 修饰符组“Co廉价List”的值： <br><br>“折扣价”<br><br>“ | 产品类别、产品名称、折扣百分比<br>电子、iPod、10<br><br>服装、衬衫、15<br><br><b>注意：</b>您可以使用逗号或制表符分隔值。 | <u>低价购买高端电子产品。</u><br>大量平板电脑库存。 可享受10%的折扣。<br><br><u>以折扣价购买高端电子产品。</u><br>大量平板电脑库存。 可享受10%的折扣。<br><br><u>廉价购买高档服装。</u><br>大量衬衫库存。 可享受15%的折扣。<br><br><u>购买高端服装时打折。</u><br>大量衬衫库存。 可享受15%的折扣。 |
+| 标题：购买高端\{<i>产品类别</i>\} &lt;<i>廉价列表</i>>。<br><br>描述1： \{<i>产品名称</i>\}的大量库存。<br><br>描述2：折扣百分比</i>\&rbrace;% \&lbrace;<i>提供。 | 修饰符组“Co廉价List”的值： <br><br>“折扣价”<br><br>“ | 产品类别、产品名称、折扣百分比<br>电子、iPod、10<br><br>服装、衬衫、15<br><br><b>注意：</b>您可以使用逗号或制表符分隔值。 | <u>低价购买高端电子产品。</u><br>大量平板电脑库存。 可享受10%的折扣。<br><br><u>以折扣价购买高端电子产品。</u><br>大量平板电脑库存。 可享受10%的折扣。<br><br><u>廉价购买高档服装。</u><br>大量衬衫库存。 可享受15%的折扣。<br><br><u>购买高端服装时打折。</u><br>大量衬衫库存。 可享受15%的折扣。 |
 
 生成广告后，您可以选择查看这些广告，然后将它们发布到广告网络。
 
 >[!NOTE]
->要使用电子表格文件批量创建或编辑促销活动数据，请参阅“关于使用批量工作表管理促销活动数据[”。](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)
+>要使用电子表格文件批量创建或编辑促销活动数据，请参阅“关于使用批量工作表管理促销活动数据[&#128279;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)”。
 
 ## 使用库存信息源管理营销活动数据的工作流
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （仅删除操作）和仅[!DNL Yandex]帐户*
+*[!DNL Google Ads]、[!DNL LY Ads] （仅删除操作）、[!DNL Microsoft Advertising]和仅[!DNL Yandex]帐户*
 
 最初，请至少测试一个信息源文件或帐户，然后您可以完全自动化该过程，或在每个步骤继续控制该过程：
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
    如果您使用FTP，最初不要自动将数据发布到广告网络。 验证第一个文件的输出并对结果感到满意后，可以更改设置。
 
-1. 将数据文件上载到FTP目录，[在](feed-files-manage.md)中手动上载数据文件[!UICONTROL Advanced (ACM) view]，或者[启用对Google或Microsoft商家中心帐户的访问](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)。
+1. 将数据文件上载到FTP目录，[在[!UICONTROL Advanced (ACM) view]中手动上载数据文件](feed-files-manage.md)，或者[启用对Google或Microsoft商家中心帐户的访问](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)。
 
 要手动上传文件，您可以等到创建使用数据文件的模板为止。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 1. [通过模板](feed-data-propagate.md)传播馈送数据，该模板用文件或帐户中的数据替换模板中的列名。 根据模板选项，Search、Social和Commerce可以使用默认设置为广告创建新帐户结构（促销活动、广告组、关键词），或将广告映射到现有帐户结构。
 
-1. （可选） [在](propagated-data-view.md)视图中预览输出[!UICONTROL Advanced (ACM)]，并可以选择在[!UICONTROL Propagations]选项卡上查看数据更改的摘要。
+1. （可选） [在[!UICONTROL Advanced (ACM)]视图中预览输出](propagated-data-view.md)，并可以选择在[!UICONTROL Propagations]选项卡上查看数据更改的摘要。
 
 1. [将数据](propagated-data-post.md)发布到相关的广告网络帐户。
 

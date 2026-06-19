@@ -10,7 +10,7 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9f028c5710eb34f4e7f8a3c50b46dd4406048c57
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 2401
 ht-degree: 2%
@@ -28,7 +28,7 @@ ht-degree: 2%
       + [与Adobe CX Enterprise解决方案和服务集成](/help/search-social-commerce/introduction/integrations.md)
       + [Adobe [!DNL Analytics for Advertising] （链接）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hans){target="_blank"}
       + [与Adobe Audience Manager集成（链接）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=zh-Hans){target="_blank"}
-   + [消费者隐私支持（链接）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [消费者隐私支持（链接）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans){target="_blank"}
    + [策略和指南（链接）](https://experienceleague.adobe.com/zh-hans/docs/advertising/policies/ad-requirements-policy){target="_blank"}
 + 快速入门 {#getting-started}
    + [实施概述](/help/search-social-commerce/getting-started/implemention-overview.md)
@@ -248,10 +248,10 @@ ht-degree: 2%
             + [关于点击跟踪URL格式](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
             + [&#x200B; [!DNL Baidu]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-baidu.md)
             + [&#x200B; [!DNL Google Ads]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-google.md)
+            + [&#x200B; [!DNL LY Ads]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [&#x200B; [!DNL Microsoft Advertising]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)
             + [&#x200B; [!DNL Naver]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
             + [&#x200B; [!DNL Yahoo! Display Network]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
-            + [&#x200B; [!DNL Yahoo! Japan Ads]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [&#x200B; [!DNL Yandex]的点击跟踪格式](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [点击跟踪URL的可选跟踪参数](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
       + [Adobe Advertising Cookie（链接）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=zh-Hans){target="_blank"}
@@ -299,16 +299,16 @@ ht-degree: 2%
             + 按广告网络列出的Campaign设置 {#campaign-settings-by-network}
                + [[!DNL Baidu]营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
                + [[!DNL Google Ads]营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
+               + [[!DNL LY Ads]营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
                + [[!DNL Microsoft Advertising]营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
-               + [[!DNL Yahoo! Japan Ads]营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
                + [[!DNL Yandex]营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
          + 广告组 {#ad-groups}
             + [管理广告组](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
             + 按广告网络划分的广告组设置 {#ad-group-settings-by-network}
                + [[!DNL Baidu]广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
                + [[!DNL Google Ads]广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
+               + [[!DNL LY Ads]广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
                + [[!DNL Microsoft Advertising]广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
-               + [[!DNL Yahoo! Japan Ads]广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
                + [[!DNL Yandex]广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
          + 关键字 {#keywords}
             + [关于关键字](/help/search-social-commerce/campaign-management/campaigns/keyword-about.md)
@@ -318,8 +318,8 @@ ht-degree: 2%
             + 按广告网络显示的关键字设置 {#keyword-settings-by-network}
                + [[!DNL Baidu]关键字设置](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-baidu.md)
                + [[!DNL Google Ads]关键字设置](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-google.md)
+               + [[!DNL LY Ads]关键字设置](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-yahoo-japan.md)
                + [[!DNL Microsoft Advertising]关键字设置](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-microsoft.md)
-               + [[!DNL Yahoo! Japan Ads]关键字设置](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-yahoo-japan.md)
                + [[!DNL Yandex]关键字设置](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-yandex.md)
          + 广告 {#ads}
             + [关于广告](/help/search-social-commerce/campaign-management/campaigns/ad-about.md)
@@ -385,10 +385,10 @@ ht-degree: 2%
             + [可在批量处理工作表中执行的操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md)
             + [&#x200B; [!DNL Baidu] 帐户所需的批量处理工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
             + [&#x200B; [!DNL Google Ads] 帐户所需的批量处理工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+            + [&#x200B; [!DNL LY Ads] 帐户的批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
             + [&#x200B; [!DNL Microsoft Advertising] 帐户所需的批量处理工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
             + [&#x200B; [!DNL Naver] 帐户所需的批量处理工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
             + [&#x200B; [!DNL Yahoo! Display Network] 帐户的批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-            + [&#x200B; [!DNL Yahoo! Japan] 帐户的批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
             + [&#x200B; [!DNL Yandex] 帐户所需的批量处理工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
       + 使用库存信息源自动生成Campaign数据 {#inventory-feeds}
          + [关于使用库存信息源自动化广告管理](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)

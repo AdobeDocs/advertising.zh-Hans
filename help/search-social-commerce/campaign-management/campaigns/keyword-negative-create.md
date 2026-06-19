@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 272
+source-wordcount: 279
 ht-degree: 0%
 
 ---
 
 # 创建负关键字
 
-仅&#x200B;*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]和现有[!DNL Baidu]帐户*
+仅&#x200B;*[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]和现有[!DNL Baidu]帐户*
 
 您可以为定位搜索或显示/本机网络的搜索广告组或营销活动创建负关键字。 负关键字不会触发广告。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
    用逗号分隔多个值，或在单独的行中输入它们。 在一个操作中，最多可以输入或粘贴2000个负关键字。 另请参阅以下要求和限制：
 
-   * 最大字符长度： [!DNL Baidu]： 30个单字节或15个双字节；[!DNL Microsoft Advertising]： 100个单字节或50个双字节；[!DNL Google Ads]和[!DNL Yahoo! Japan Ads]： 80个单字节或40个双字节。
+   * 最大字符长度： [!DNL Baidu]： 30个单字节或15个双字节；[!DNL Microsoft Advertising]： 100个单字节或50个双字节；[!DNL Google Ads]和[!DNL LY Ads]： 80个单字节或40个双字节。
 
    * [!DNL Baidu]仅允许每个广告组的每个关键字有一个匹配类型。 例如，广告组1不能同时包括`"keyword"`和`[keyword]`。
 

@@ -2,9 +2,9 @@
 title: 专业报告的报告列
 description: 了解专业报告的可用数据列。
 feature: Search Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '3171'
+source-wordcount: '3172'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Audience Status] | 受众的状态。 |
 | [!UICONTROL Average CPC] | 每次点击的平均成本。 |
 | [!UICONTROL Average CPM] | 每千（毫秒）印象的平均成本。 |
-| [!UICONTROL Average Position], [!UICONTROL Avg Position] | 指定日期范围内的广告平均位置。<br><br>对于[!DNL Google Ads]和[!DNL Yahoo! Japan Ads]营销活动，此数据仅在2019年9月之前可用。 对于[!DNL Microsoft Advertising]，此数据仅在2021年1月22日之前可用。 |
+| [!UICONTROL Average Position], [!UICONTROL Avg Position] | 指定日期范围内的广告平均位置。<br><br>对于[!DNL Google Ads]和[!DNL LY Ads]营销活动，此数据仅在2019年9月之前可用。 对于[!DNL Microsoft Advertising]，此数据仅在2021年1月22日之前可用。 |
 | [!UICONTROL Bid Match Type] | （[!UICONTROL MSA Ad Extension]个报告）与所竞价的关键字关联的匹配类型。 |
 | [!UICONTROL Campaign Budget] | ([!UICONTROL Campaign Daily Impression Share Report])促销活动预算。 |
 | [!UICONTROL Campaign Name] | 营销活动。 |
@@ -88,7 +88,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Destination URL] | 广告的最终URL或目标URL（包括任何跟踪参数）。 |
 | [!UICONTROL Creative Display URL] | 广告的显示URL，最终用户可在广告中看到此URL。 |
 | [!UICONTROL Creative Status] | （[!UICONTROL MSA Ad Extension]个报告）广告的状态。 |
-| [!UICONTROL Creative Name] | （事务报告；仅限[!DNL Yahoo! Japan]）广告图像名称。 |
+| [!UICONTROL Creative Name] | （事务报告；仅限[!DNL LY Ads]）广告图像名称。 |
 | [!UICONTROL Creative Title] | 广告的标题或标题。 |
 | [!UICONTROL Cross Device Conversions] | ([!UICONTROL Google AI Max Search Term Combination Report])用户在一个设备上单击广告，然后在不同的设备或浏览器上转换时产生的转换。 跨设备转化包含在所有转化中。 |
 | [!UICONTROL CTR] | 点进率，即点击次数除以所包含广告的展示次数。 |
@@ -100,7 +100,7 @@ ht-degree: 0%
 | [!UICONTROL eCPM] | 有效的CPM，或在指定日期范围内每1000次展示所支付的平均成本。 可以为CPM或CPC营销活动计算eCPM值。 |
 | [!UICONTROL EF Campaign ID] | Search、Social和Commerce分配给营销活动的数值ID。 |
 | [!UICONTROL EF Portfolio Group ID] | 项目组合所属的项目组合组的数值ID。 |
-| [!UICONTROL EF Search Engine ID] | Search、Social和Commerce分配给广告网络的数值ID：[!DNL Google Ads]的<i>[!UICONTROL 3]</i>、[!DNL Microsoft Advertising]的<i>[!UICONTROL 10]</i>、[!DNL Meta]的<i>[!UICONTROL 45]</i>、[!DNL Yahoo! Display Network]的<i>[!UICONTROL 86]</i>、[!DNL Naver]的<i>[!UICONTROL 87]</i>、[!DNL Baidu]的<i>[!UICONTROL 88]</i>、[!DNL Yandex]的<i>[!UICONTROL 90]</i>、[!DNL Yahoo! Japan Ads]的<i>[!UICONTROL 94]</i>、[!DNL Yahoo Native]的<i>[!UICONTROL 105]</i>（已弃用）或[!DNL Pinterest]的<i>[!UICONTROL 106]</i>（已弃用）。 |
+| [!UICONTROL EF Search Engine ID] | Search、Social和Commerce分配给广告网络的数值ID：[!DNL Google Ads]的<i>[!UICONTROL 3]</i>、[!DNL Microsoft Advertising]的<i>[!UICONTROL 10]</i>、[!DNL Meta]的<i>[!UICONTROL 45]</i>、[!DNL Yahoo! Display Network]的<i>[!UICONTROL 86]</i>、[!DNL Naver]的<i>[!UICONTROL 87]</i>、[!DNL Baidu]的<i>[!UICONTROL 88]</i>、[!DNL Yandex]的<i>[!UICONTROL 90]</i>、[!DNL LY Ads]的<i>[!UICONTROL 94]</i>（以前的[!DNL Yahoo! Japan Ads]）、[!DNL Yahoo Native]的<i>[!UICONTROL 105]</i>（已弃用）或[!DNL Pinterest]的<i>[!UICONTROL 106]</i>（已弃用）。 |
 | [!UICONTROL End Date] | 报告的最后一天。 |
 | [!UICONTROL Extension Property Value] | （[!UICONTROL MSA Ad Extension]个报告）扩展的[显示名称](https://help.ads.microsoft.com/#apex/ads/en/51001)。 |
 | [!UICONTROL Extension Type ID] | （[!UICONTROL MSA Ad Extension]个报告）广告扩展类型的ID。 |

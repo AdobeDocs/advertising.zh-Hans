@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 375
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 管理修饰符
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （仅删除操作）和仅[!DNL Yandex]帐户*
+*[!DNL Google Ads]、[!DNL LY Ads] （仅删除操作）、[!DNL Microsoft Advertising]和仅[!DNL Yandex]帐户*
 
 修饰符是可以添加到句子中或从句子中移除的形容词或副词，而无需改变基本句子结构。 您可以创建修改量组，以用作馈送数据模板中各种数据字段中的变量。 通过在帐户结构（营销活动和广告组）字段、关键字、基本URL和广告中包含修饰符，您可以为每个关联的修饰符值创建一个值。 例如，如果您在广告标题中使用修饰符组变量，并且该修饰符组包含三个修饰符（“便宜”、“折扣”和“可承受”），则将为数据馈送中的每个数据行创建三个单独的广告 — 每个修饰符各一个。 同样，如果您在广告组的基本URL中包含具有多个值的修饰符组，则会为每个生成的基本URL创建一组关键字。
 

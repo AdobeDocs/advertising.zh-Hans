@@ -11,16 +11,16 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 3352
+source-wordcount: 3437
 ht-degree: 0%
 
 ---
 
 # 库存馈送的文本广告和响应式搜索广告模板设置
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （仅删除操作）和仅[!DNL Yandex]帐户*
+*[!DNL Google Ads]、[!DNL LY Ads] （仅删除操作）、[!DNL Microsoft Advertising]和仅[!DNL Yandex]帐户*
 
 >[!NOTE]
 >
@@ -77,9 +77,9 @@ ht-degree: 0%
 
 * 嵌入最终URL：
 
-   * （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）有关指示跟踪模板中最终URL的参数列表，请参阅[!DNL Microsoft Advertising]文档[[!DNL Microsoft Advertising] 中“可用的](https://help.ads.microsoft.com/#apex/3/en/56799/2)参数”部分中的（[!DNL Google Ads]仅限）[!DNL ValueTrack]文档[[!DNL Google Ads] 或（](https://support.google.com/google-ads/answer/6305348)仅限）跟踪模板参数。
+   * （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）有关指示跟踪模板中最终URL的参数列表，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)中“可用的[!DNL ValueTrack]参数”部分中的（[!DNL Microsoft Advertising]仅限）[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799/2)或（[!DNL Google Ads]仅限）跟踪模板参数。
 
-   * （仅限[!DNL Yahoo! Japan Ads]）使用参数`!{unescapedurl}`指示登陆页面URL。
+   * （仅限[!DNL LY Ads]）使用参数`!{unescapedurl}`指示登陆页面URL。
 
    * 您可以选择包含URL参数以及为营销活动定义的任何自定义参数，这些参数以&amp;号分隔，如`{lpurl}?matchtype={matchtype}&device={device}`。
 
@@ -151,9 +151,9 @@ ht-degree: 0%
 
 对于第三方重定向和跟踪，请输入一个值。 要指示登陆页面URL，请执行以下操作：
 
-* 适用于Yahoo！ Japan Ads帐户，使用参数{lpurl}。
+* 对于LY广告帐户，请使用参数{lpurl}。
 
-* 有关[!DNL Microsoft Advertising]和[!DNL Google Ads]帐户可用的参数，请参阅[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799)中“可用的[!DNL ValueTrack]参数”部分中的[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)或“仅跟踪模板”参数。
+* 有关[!DNL Microsoft Advertising]和[!DNL Google Ads]帐户可用的参数，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)中“可用的[!DNL ValueTrack]参数”部分中的[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799)或“仅跟踪模板”参数。
 
 此值将覆盖帐户级别和营销活动级别的设置，但更细粒度级别（以关键词最细粒度）的跟踪模板将覆盖此值。
 
@@ -177,7 +177,7 @@ ht-degree: 0%
 
 要将列名或修饰符组作为动态参数插入，请单击输入字段，然后单击列列表中的列名或修饰符列表中的[修饰符名称](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)。 要为同一关键字指定多个关键字或多个匹配类型，请在单独的行中输入它们。 要指定关键字匹配类型，请在列名前后使用以下匹配类型语法：
 
-* 对于[!DNL Google Ads]、[!DNL Microsoft Advertising]和[!DNL Yahoo! Japan Ads]模板：
+* 对于[!DNL Google Ads]、[!DNL LY Ads]和[!DNL Microsoft Advertising]模板：
 
    * 对于动态参数： Broad Match = `[keyword]`，[!UICONTROL Keyword]列中第一个词的Broad Match修饰符（如+blue suede shoes） = `+[keyword]`， Keyword列中每个词的Broad Match修饰符（如+blue +suede +shoes） = `+[keyword]+`，短语匹配= `"[keyword]"`，完全匹配= `[[keyword]]`
 
@@ -217,9 +217,9 @@ ht-degree: 0%
 
 * 要指示登陆页面URL，请执行以下操作：
 
-   * （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）有关指示跟踪模板中最终URL的参数列表，请参阅[!DNL Microsoft Advertising]文档[[!DNL Microsoft Advertising] 中“可用的](https://help.ads.microsoft.com/#apex/3/en/56799)参数”部分中的（[!DNL Google Ads]仅限）[!DNL ValueTrack]文档[[!DNL Google Ads] 或（](https://support.google.com/google-ads/answer/6305348)仅限）跟踪模板参数。
+   * （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）有关指示跟踪模板中最终URL的参数列表，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)中“可用的[!DNL ValueTrack]参数”部分中的（[!DNL Microsoft Advertising]仅限）[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799)或（[!DNL Google Ads]仅限）跟踪模板参数。
 
-   * （仅限[!DNL Yahoo! Japan Ads]）使用参数`!{lpurl}`指示登陆页面URL。
+   * （仅限[!DNL LY Ads]）使用参数`!{lpurl}`指示登陆页面URL。
 
 **[!UICONTROL Param 1]**，**[!UICONTROL Param 2]\[[!DNL Google Ads]模板\]：** （仅限[!DNL Google Ads]模板）指定文件中表示[!DNL Google Ads] `{param1}`或`{param2}`变量的列，您可以将其包含在使用该模板创建的任何广告的广告复制或显示URL中。 要插入动态参数，请在输入字段中单击，然后单击列列表中的列名。 通过模板传播馈送文件时，列名称会替换为实际数据。
 
@@ -239,7 +239,7 @@ ht-degree: 0%
 
    * 值可以添加货币符号或代码，也可以添加货币符号或代码。 例如，2.000,000英镑和2000GBP有效。
 
-   * 该值可以包括逗号(，)或句点(.)作为分隔符，分数值可包含可选句点(.)或逗号(，)。 例如，1,000.00和2.000,10有效。
+   * 该值可以包括逗号(，)或句点(.) 作为分隔符，带可选句点(.) 或逗号(，)表示小数值。 例如，1,000.00和2.000,10有效。
 
    * 该值可以添加前缀，也可以附加百分号(%)、加号(+)或减号(-)。 例如， 20% 、 208+和–42.32有效。
 
@@ -271,7 +271,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Title]：** （现有Microsoft Advertising标准文字广告仅限；只读）广告的标题或第一行。 Microsoft Advertising已弃用创建和编辑标准文字广告。
 
-**[!UICONTROL Headline 1]**，**[!UICONTROL Headline 2]：** （仅[!DNL Google Ads]和[!DNL Yahoo! Japan Ads]扩展/扩展文本广告模板）广告的标题。 每行的最大长度（替换任何动态参数后）为30个字符或15个双字节字符。
+**[!UICONTROL Headline 1]**，**[!UICONTROL Headline 2]：** （仅[!DNL Google Ads]和[!DNL LY Ads]扩展/扩展文本广告模板）广告的标题。 每行的最大长度（替换任何动态参数后）为30个字符或15个双字节字符。
 
 <!-- using a snippet for the note instead of an include because this is used multiple times on the page, which ExL doesn't support for includes -->
 
@@ -295,7 +295,7 @@ ht-degree: 0%
 
 * （Google Ads扩展的文本广告模板）最大长度（替换任何动态参数后）为90个字符或45个双字节字符。
 
-* (Yahoo！ 日本广告模板)最大长度（替换任何动态参数后）为80个字符或40个双字节字符。
+* (Yahoo！ LY广告模板)最大长度（替换任何动态参数后）为80个字符或40个双字节字符。
 
 * （Yandex模板）最大长度（替换任何动态参数后）为75个字符，单个单词不能超过22个字符。
 
@@ -325,13 +325,13 @@ ht-degree: 0%
 
 * [!DNL Microsoft Advertising]： `{CUSTOMIZER.Attribute name:Default text}`，如`{CUSTOMIZER.Discount:10%}`
 
-**[!UICONTROL Display URL]：** （仅限现有[!DNL Microsoft Advertising]和[!DNL Yahoo! Japan Ads]标准文字广告；只读）广告中显示的URL。
+**[!UICONTROL Display URL]：** （仅限现有[!DNL LY Ads]和[!DNL Microsoft Advertising]标准文字广告；只读）广告中显示的URL。
 
-[!DNL Microsoft Advertising]和[!DNL Yahoo! Japan Ads]已弃用创建和编辑标准文字广告。
+[!DNL LY Ads]和[!DNL Microsoft Advertising]已弃用创建和编辑标准文字广告。
 
 **[!UICONTROL Base URL]：** （仅具有目标URL的帐户）用户所属的页面。 它可以包含第三方重定向和跟踪代码。 如果您使用Adobe Advertising转化跟踪服务，并且促销活动设置包括使用[!UICONTROL EF Redirect]和在广告级别添加跟踪，则Search、Social和Commerce会自动将其自身的重定向和跟踪代码添加到广告中。
 
-要将列名或修饰符组作为动态参数插入，请单击输入字段，然后单击列列表中的列名或[列表中的](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)修饰符名称[!UICONTROL Modifiers]。
+要将列名或修饰符组作为动态参数插入，请单击输入字段，然后单击列列表中的列名或[!UICONTROL Modifiers]列表中的[修饰符名称](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)。
 
 **[!UICONTROL Final URL]：** （具有最终/高级URL的帐户）用户单击您的广告时获得的登陆页面URL。 它必须包含与显示URL相同的域，并且最终URL中的任何参数都必须与广告单击后登陆页面URL中的参数相匹配。 登陆页面域或子域中可能包含重定向，但登陆页面域外部则不包含重定向。
 
@@ -348,9 +348,9 @@ ht-degree: 0%
 
 对于第三方重定向和跟踪，请输入一个值。 要指示登陆页面URL，请执行以下操作：
 
-* 适用于Yahoo！ Japan Ads帐户，使用参数{lpurl}。
+* 对于[!DNL LY Ads]帐户，请使用参数{lpurl}。
 
-* 有关[!DNL Microsoft Advertising]和[!DNL Google Ads]帐户可用的参数，请参阅[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799)中“可用的[!DNL ValueTrack]参数”部分中的[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)或“仅跟踪模板”参数。
+* 有关[!DNL Microsoft Advertising]和[!DNL Google Ads]帐户可用的参数，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)中“可用的[!DNL ValueTrack]参数”部分中的[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799)或“仅跟踪模板”参数。
 
 **\[原始广告字段下的备用广告字段\]：**（可选）广告的备用广告副本集，如果原始广告副本中的任何行超过了传播期间使用数据填充任何动态参数后允许的最大长度，则可以使用该广告副本。
 

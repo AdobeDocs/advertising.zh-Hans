@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 1423
+source-wordcount: 1427
 ht-degree: 0%
 
 ---
 
 # 管理库存馈送的广告模板
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （仅删除操作）和仅[!DNL Yandex]帐户*
+*[!DNL Google Ads]、[!DNL LY Ads] （仅删除操作）、[!DNL Microsoft Advertising]和仅[!DNL Yandex]帐户*
 
 在上传数据之前或之后，您可以创建特定于搜索引擎的广告模板，以便通过这些模板处理数据。 您可以为文本广告和扩展/扩展的文本广告、[!DNL Google Ads]和[!DNL Microsoft Advertising]响应式搜索广告以及[!DNL Google Ads]和[!DNL Microsoft Advertising]购物广告创建模板。
 

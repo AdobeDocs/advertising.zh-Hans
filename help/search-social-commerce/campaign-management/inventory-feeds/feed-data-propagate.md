@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 876
+source-wordcount: 881
 ht-degree: 0%
 
 ---
 
 # 通过模板传播库存馈送数据
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （仅删除操作）和仅[!DNL Yandex]帐户*
+*[!DNL Google Ads]、[!DNL LY Ads] （仅删除操作）、[!DNL Microsoft Advertising]和仅[!DNL Yandex]帐户*
 
 在创建特定于广告网络的馈送模板并将馈送文件或[!DNL Google]或[!DNL Microsoft]商家中心帐户与其关联后，您可以根据[馈送数据设置](feed-settings-manage.md)，通过模板传播馈送数据来动态创建广告。 在传播过程中，模板中的列名称会被替换为馈送中的数据值，并且生成的营销活动及其组件具有默认设置，除非模板另外指定。 根据模板选项，Search、Social和Commerce会为广告创建新帐户结构（促销活动、广告组、关键词）或将广告映射到现有帐户结构。
 

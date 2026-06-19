@@ -8,20 +8,20 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 677
+source-wordcount: 670
 ht-degree: 0%
 
 ---
 
 # 管理广告组
 
-仅&#x200B;*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]、[!DNL Yandex]和现有[!DNL Baidu]帐户*
+仅&#x200B;*[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yandex]和现有[!DNL Baidu]帐户*
 
 广告组包括一组广告及其相关关键词。 在营销活动中定位显示网络的广告组还可以包括投放位置，投放位置是显示网络中广告可以出现的位置。 适用于广告组所有组件的广告组设置因广告网络而异。
 
-您可以在Search、Social和Commerce中为[同步的广告网络帐户](/help/search-social-commerce/introduction/supported-inventory.md)中支持的[促销活动类型](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)创建广告组。 您还可以编辑和更改广告组的状态。
+您可以在Search、Social和Commerce中为[同步的广告网络帐户](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)中支持的[促销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)创建广告组。 您还可以编辑和更改广告组的状态。
 
 ## 创建广告组
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. 选择广告网络、帐户和营销活动，然后单击&#x200B;**[!UICONTROL Continue]**。
 
-1. 输入[百度](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)、[Google广告](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)、[Yahoo！ 日本广告](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)或[Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)广告组设置。
+1. 输入[百度](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)、[Google广告](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)、[LY广告](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)或[Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)广告组设置。
 
    根据广告网络，这些设置可分组为[!UICONTROL Ad Group Details]、[!UICONTROL Budget Options]、[!UICONTROL Ad Group Targeting]和[!UICONTROL URL Options]。 要配置[!UICONTROL Adgroup Frequency Cap Settings]、[!UICONTROL Negative Keywords]、[!UICONTROL Negative Websites]的设置，请在它们可用时分别单击&#x200B;**[!UICONTROL Add Frequency Cap Settings]**、**[!UICONTROL Add Negative Keywords]**&#x200B;或&#x200B;**[!UICONTROL Add Negative Websites]**。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
       * 在数据表上方的工具栏中，单击![编辑](/help/search-social-commerce/assets/edit.png "编辑")。
 
-1. 编辑[百度](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)、[Google广告](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)、[Yahoo！ 日本广告](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)或[Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)广告组设置。
+1. 编辑[百度](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)、[Google广告](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)、[LY广告](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)或[Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)广告组设置。
 
    对于多个广告组，这些设置可以分组为[!UICONTROL Ad Group Details]、[!UICONTROL Budget Options]、[!UICONTROL Ad Group Targeting]和[!UICONTROL URL Options]，具体取决于广告网络。 您只能编辑所有选定广告组的通用字段，并且您的更改将会应用于所有选定广告组。 对于某些字母数字字段，您可以选择将现有值更改为指定值，将现有字符串替换为指定字符串，在每个值的开头添加指定前缀，或者在每个值的结尾附加后缀。 对于某些货币字段，您可以选择将现有值更改为指定值，或者增加或减少金额指定百分比或货币金额，但有限制。
 
@@ -102,6 +102,6 @@ ht-degree: 0%
 >
 >* [[!DNL Baidu] 广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
 >* [[!DNL Google Ads] 广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
+>* [[!DNL LY Ads] 广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
 >* [[!DNL Microsoft Advertising] 广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
->* [[!DNL Yahoo! Japan Ads] 广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
 >* [[!DNL Yandex] 广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
