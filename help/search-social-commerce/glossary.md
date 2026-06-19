@@ -4,9 +4,13 @@ description: 请参阅关键术语的定义。
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
 TQID: https://experienceleague.adobe.com/aJc98oWlKlYx5ROezUwJsIsw46xcad1rKQTqoXhyggw
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 2377
@@ -96,7 +100,7 @@ ht-degree: 0%
 
 ## G-H {#g-h}
 
-**半衰期：**将数量减少到其初始值的一半所需的时间。对于每个项目组合，您可以指定半衰期以指示数据与成本模型和收入模型相关的时间。
+**半衰期：**&#x200B;将数量减少到其初始值的一半所需的时间。对于每个项目组合，您可以指定半衰期以指示数据与成本模型和收入模型相关的时间。
 请参阅“成本模型半衰期”和“收入模型半衰期”。
 
 ## I-J {#i-j}

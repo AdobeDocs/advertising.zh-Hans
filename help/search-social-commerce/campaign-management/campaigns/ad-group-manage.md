@@ -4,8 +4,10 @@ description: 了解如何创建和管理广告组。
 exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/sG5cWODyLzoKVIsQG2kGd68ozScBB3mTRCAWnAmuRiY
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 670
