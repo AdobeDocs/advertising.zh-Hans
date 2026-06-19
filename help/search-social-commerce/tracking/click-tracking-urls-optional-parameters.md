@@ -4,10 +4,8 @@ description: 了解可添加到点击跟踪URL的可选搜索、社交和Commerc
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
 TQID: https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 1113

@@ -4,10 +4,8 @@ description: 了解如何为搜索广告组创建和管理可竞价关键词。
 exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/rvAZIAdcUmWSl4GKm4TCvDwkS-jdWFZ1S5vUYYEPRzU
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 410

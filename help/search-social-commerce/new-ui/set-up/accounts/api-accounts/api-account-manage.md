@@ -149,7 +149,7 @@ ht-degree: 0%
 >
 >如果您集成了“搜索”、“Social”和“Commerce-Adobe Analytics”，并更改了搜索帐户的名称，请让您的Adobe帐户团队更新映射。
 
-**[!DNL [广告网络]帐户]：** （在创建帐户时可见）要同步的广告网络帐户。
+**[！DNL [广告网络]帐户]：** （在创建帐户时可见）要同步的广告网络帐户。
 
 **[登录详细信息]：** （仅限Yandex帐户）要使用的帐户凭据：
 
@@ -203,7 +203,7 @@ ht-degree: 0%
 >* 如果您从[!UICONTROL Standard]切换到[!UICONTROL Token]，或者反之，则必须重新生成帐户的跟踪URL。
 >* 您可以在营销策划级别覆盖帐户级别设置。
 
-**[!UICONTROL Auto Update]：** （启用搜索、社交和Commerce跟踪时）标准化您的跟踪URL以实现跨浏览器和服务器的兼容性。 Search、Social和Commerce会在下次同步期间自动将以下内容上传到广告网络：(a)用于跟踪模板的搜索、Social和Commerce跟踪参数以及附加到最终URL的相同参数，或者(b)嵌入了Search、Social和Commerce跟踪代码的新目标URL。 对于具有[Adobe Advertising-Adobe Analytics集成](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hans)和服务器端AMO ID (s_kwcid)配置的广告商，该上传还包括您的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户的[AMO ID参数](/help/integrations/analytics/ids.md#amo-id)。 默认帐户级别设置继承自广告商的跟踪设置。 您可以在营销策划级别覆盖帐户级别设置。
+**[!UICONTROL Auto Update]：** （启用搜索、社交和Commerce跟踪时）标准化您的跟踪URL以实现跨浏览器和服务器的兼容性。 Search、Social和Commerce会在下次同步期间自动将以下内容上传到广告网络：(a)用于跟踪模板的搜索、Social和Commerce跟踪参数以及附加到最终URL的相同参数，或者(b)嵌入了Search、Social和Commerce跟踪代码的新目标URL。 对于具有[Adobe Advertising-Adobe Analytics集成](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)和服务器端AMO ID (s_kwcid)配置的广告商，该上传还包括您的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户的[AMO ID参数](/help/integrations/analytics/ids.md#amo-id)。 默认帐户级别设置继承自广告商的跟踪设置。 您可以在营销策划级别覆盖帐户级别设置。
 
 跟踪URL每天只更新不同步的实体（即添加的新实体和属性已更改的现有实体）。 因此，如果您将现有广告商/帐户/营销活动的此设置从“禁用”更改为“启用”，则不会为已同步的现有实体更新跟踪URL。 要将跟踪添加到现有已同步实体的URL，请联系您的Adobe客户团队，并请求执行一次性的手动同步过程。 自动上传流程将处理未来的更改。
 
@@ -221,7 +221,7 @@ ht-degree: 0%
 
 示例： `param1=value1&param2=value2`
 
-使用Adobe Advertising点击跟踪的帐户必须在后缀中包含广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`；Google为`gclid`）。 具有Adobe Analytics集成的帐户必须使用AMO ID参数（以`s_kwcid`开头）。 如果该帐户具有服务器端AMO ID实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 查看 [!DNL Google Ads][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必需后缀格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的必需后缀格式。
+使用Adobe Advertising点击跟踪的帐户必须在后缀中包含广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`；Google为`gclid`）。 具有Adobe Analytics集成的帐户必须使用AMO ID参数（以`s_kwcid`开头）。 如果该帐户具有服务器端AMO ID实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 查看 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必需后缀格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的[必需后缀格式。
 
 >[!NOTE]
 >

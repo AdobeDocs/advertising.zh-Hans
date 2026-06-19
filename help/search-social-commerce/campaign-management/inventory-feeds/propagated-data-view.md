@@ -4,10 +4,8 @@ description: 了解如何查看从清单数据馈送生成的数据。
 exl-id: ee48f0f1-65fb-4d27-8f59-0108835d70e5
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/AG-bR4RcQZcDjJTLkrWhC4J3RcYb7kBRRiC3moSCxp0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 429
