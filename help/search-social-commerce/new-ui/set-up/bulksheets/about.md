@@ -11,9 +11,9 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f916f47a40729ff39ac1456e3b3ad93e1045e9a9
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: 772
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
   您可以上传[!DNL Naver]数据以供在Search、Social和Commerce中使用，但无法将其发布到广告网络。 您还可以下载现有（未同步）数据。
 
-* **仅下载数据：** [!DNL Pinterest]、[!DNL Yahoo Native]和[!DNL Yahoo! Display Network]帐户
+* **仅下载数据：** [!DNL Pinterest]，[!DNL Yahoo DSP]，[!DNL Yahoo Native]帐户
 
   您可以下载现有（未同步）数据。
 

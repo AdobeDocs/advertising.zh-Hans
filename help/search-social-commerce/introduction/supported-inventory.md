@@ -12,9 +12,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 2938
+source-wordcount: 2893
 ht-degree: 0%
 
 ---
@@ -64,9 +64,8 @@ ht-degree: 0%
 | [!DNL Microsoft Advertising] | 购物网络：智能购物 | 智能购物（搜索、社交和Commerce中的Beta功能） | 产品广告 | 默认通过API自动同步，但可以[选择退出](/help/search-social-commerce/tools/sync-inventory.md) | 无创建/编辑选项 | 是，当您手动将点击跟踪标记添加到广告网络中的跟踪模板时 | 仅在混合项目组合中搜索具有[!UICONTROL Maximize Conversion Value]和[!UICONTROL tROAS]竞价策略的营销活动<br><br>目标必须仅包含[!DNL Adobe]个量度，并且您必须启用将搜索、社交和Commerce目标上传到[!DNL Microsoft Advertising]。 | 广告级别的数据<br><br>要查看点击购物广告产生了哪些个人转化，请生成[交易报告](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)；产品列表的[!UICONTROL Link Type]列为`pla:&lt;product ID&gt;`，如pla:8525822。 | [!DNL Analytics]要搜索、社交和Commerce的数据<br><br>从搜索、社交和Commerce到[!DNL Analytics]的广告级数据 |
 | [!DNL Naver] | 搜索网络 | 网站 | 文本广告 | —<br><br>无同步，但您可以手动复制帐户结构并上传用于报告和转化归因的每日流量量度<br><br>请参阅“[实施 [!DNL Naver] 仅跟踪帐户](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)”。 | 无创建/编辑选项<br><br>您可以使用[批量处理工作表模板](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)手动复制/编辑帐户结构。 | 是，在广告网络中的关键词设置中添加点击跟踪标记时 | —<br><br>无出价 | 广告级别的数据 | 将[!DNL Analytics]数据发送至“搜索”、“社交”和“Commerce”，反之亦然 |
 | [!DNL Pinterest] （同步支持于2022年结束） | 搜索网络 | 仅具有搜索投放位置的流量营销活动和具有关键词定位的广告组 | 提升的pin | 无同步<br><br>截至2022年7月21日的旧帐户信息以只读形式提供。 | 无创建/编辑选项 | — | — | 旧版广告级别的展示次数和来自Pinterest的点击次数，但没有收入，已同步到2022年7月21日。 | 将[!DNL Analytics]数据发送至“搜索”、“社交”和“Commerce”，反之亦然 |
-| [!DNL Yahoo! Display Network] | 显示网络 | 显示 | 横幅广告、响应式图像广告 | 通过API自动同步，但只读 | 无创建/编辑选项 | 是，当您手动将点击跟踪标记添加到广告网络中的跟踪模板时 | 仅具有[!UICONTROL Manual CPC]竞价策略的营销活动<br><br>同一竞价适用于广告组中的所有广告。 | 广告级别的数据 | [!DNL Analytics]要搜索、社交和Commerce的数据<br><br>从搜索、社交和Commerce到[!DNL Analytics]的广告级数据 |
-| [!DNL Yahoo! Display Network] | 搜索网络 | Search | 文本广告（长度和短度） | 通过API自动同步 | 无创建/编辑选项 | 是，当您手动将点击跟踪标记添加到广告网络中的跟踪模板时 | 仅具有手动CPC竞价策略的促销活动<br><br>同一竞价适用于广告组中的所有广告。 | 广告级别的数据 | [!DNL Analytics]要搜索、社交和Commerce的数据<br><br>从搜索、社交和Commerce到[!DNL Analytics]的广告级数据 |
-| [!DNL Yahoo Native] （同步支持于2022年结束） | 本地网络 | 原生 | 文本广告 | 没有同步<br><br>截至2022年3月10日的旧帐户信息以只读形式提供。 | 无创建/编辑选项 | — | — | —<br><br>已同步到2022年3月10日的旧版广告级别数据。 | 将[!DNL Analytics]数据发送至“搜索”、“社交”和“Commerce”，反之亦然 |
+| [!DNL Yahoo DSP] （以前为[!DNL Yahoo! Display Network]） | 显示网络 | 显示 | 横幅广告、响应式图像广告 | 通过API自动同步，但只读 | 无创建/编辑选项 | 是，当您手动将点击跟踪标记添加到广告网络中的跟踪模板时 | 仅具有[!UICONTROL Manual CPC]竞价策略的营销活动<br><br>同一竞价适用于广告组中的所有广告。 | 广告级别的数据 | [!DNL Analytics]要搜索、社交和Commerce的数据<br><br>从搜索、社交和Commerce到[!DNL Analytics]的广告级数据 |
+| [!DNL Yahoo DSP] （以前为[!DNL Yahoo! Display Network]） | 搜索网络 | Search | 文本广告（长度和短度） | 通过API自动同步 | 无创建/编辑选项 | 是，当您手动将点击跟踪标记添加到广告网络中的跟踪模板时 | 仅具有手动CPC竞价策略的促销活动<br><br>同一竞价适用于广告组中的所有广告。 | 广告级别的数据 | [!DNL Analytics]要搜索、社交和Commerce的数据<br><br>从搜索、社交和Commerce到[!DNL Analytics]的广告级数据 |
 | [!DNL Yandex] | 搜索网络 | Search | 文本广告 | 通过API自动同步 | 使用[营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)、[批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)和[库存管理信息源](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)创建/编辑 | 是 | 仅具有CPC竞价策略的促销活动 | 广告级别的数据 | [!DNL Analytics]要搜索、社交和Commerce的数据<br><br>从搜索、社交和Commerce到[!DNL Analytics]的广告级数据 |
 | [!DNL Yandex] | 显示网络 | 显示/内容 | 文本广告 | 通过API自动同步 | 使用[营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)、[批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)和[库存管理信息源](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)创建/编辑 | 是 | 仅具有CPC竞价策略的促销活动 | 广告级别的数据 | [!DNL Analytics]要搜索、社交和Commerce的数据<br><br>从搜索、社交和Commerce到[!DNL Analytics]的广告级数据 |
 

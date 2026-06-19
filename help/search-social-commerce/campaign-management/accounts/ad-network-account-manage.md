@@ -13,7 +13,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 2136
 ht-degree: 0%
@@ -194,7 +194,7 @@ ht-degree: 0%
 >* [!UICONTROL Auto Upload]跟踪设置未更新此字段。
 >* 较低级别的最终URL后缀将覆盖帐户级别的后缀。 为便于维护，除非需要对各个帐户组件进行不同的跟踪，否则请仅使用帐户级别的后缀。 要在广告组级别或更低级别配置后缀，请使用广告网络的编辑器。
 
-**时区：** （除[!DNL Baidu]和[!DNL Yahoo! Display Network]之外的所有广告网络）广告商的时区。 此字段对于新[!DNL Naver]帐户是可编辑和可选的。 对于所有其他搜索网络，保存记录后，该值将自动填充为广告商的Search、Social和Commerce帐户配置的时区。
+**时区：** （除[!DNL Baidu]和[!DNL Yahoo DSP]之外的所有广告网络）广告商的时区。 此字段对于新[!DNL Naver]帐户是可编辑和可选的。 对于所有其他搜索网络，保存记录后，该值将自动填充为广告商的Search、Social和Commerce帐户配置的时区。
 
 **状态：**&#x200B;搜索、社交和Commerce中的帐户状态：
 

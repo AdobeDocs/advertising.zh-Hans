@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 905
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 | [!DNL Google Ads] | 电话分机 | 不适用 |
 | [!DNL Google Ads], [!DNL Microsoft Advertising] | 产品广告 | <ul><li>[!DNL Microsoft Merchant Center]帐户：使用[购物广告跟踪模板格式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)为[!DNL Microsoft Merchant Center]帐户中的每个产品手动创建跟踪URL，并将其手动添加到帐户、促销活动或产品组设置中的[!UICONTROL Tracking Template]字段。<br><br>或者，您也可以将跟踪URL添加到[!DNL Microsoft Merchant Center account]中的产品数据。 为此，请在产品信息源[&#128279;](https://help.ads.microsoft.com/#apex/3/en/51084)的自定义列“[!DNL bingads_redirect]”中包含跟踪URL以及相应的“[!DNL link]”或“[!DNL mobile_link]”字段中的值。 “[!DNL bingads_redirect]”字段中的值替换了“[!DNL link]”和“[!DNL mobile_link]”字段中的值。 使用此方法生成的URL不包含帐户设置中指定的任何跟踪参数。<br><br><b>注意：</b>在同步期间自动上传跟踪的帐户级别和营销活动级别功能没有为新的[!DNL Microsoft Advertising]产品组生成跟踪。 解决方法是在上传或发布批量处理工作表时生成跟踪。</li><li>[!DNL Google Merchant Center]帐户：使用[[!UICONTROL Tracking URLs]工具](/help/search-social-commerce/tools/click-tracking-url-generate.md)生成跟踪URL，并将其手动添加到帐户、营销活动或产品组设置中的[!UICONTROL Tracking Template]字段。</li></ul> |
 | [!DNL Naver] | 关键字 | 您可以通过[批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)为所有广告设置点击跟踪。 或者，您也可以手动生成广告的跟踪URL，并使用广告网络的编辑器手动将其添加到广告设置。 请参阅“[实施 [!DNL Naver] 仅跟踪帐户](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)”。 |
-| [!DNL Yahoo! Display Network] | 文本和显示广告 | 当活动营销活动的跟踪设置包含选项“[!UICONTROL EF Redirect]”和“[!UICONTROL Auto Upload]”（在营销活动级别设置或继承自帐户设置）时，您无需为广告生成跟踪URL。 Search、Social和Commerce会在每次与广告网络同步时自动创建新的目标URL，并将嵌入了跟踪代码的目标网址上传到广告网络。<br><br>如果[!UICONTROL Auto Upload]选项已禁用，则可以使用[[!UICONTROL Tracking URLs]工具](/help/search-social-commerce/tools/click-tracking-url-generate.md)生成跟踪URL，并使用广告网络的编辑器手动将其添加到广告设置。 |
+| [!DNL Yahoo DSP] | 文本和显示广告 | 当活动营销活动的跟踪设置包含选项“[!UICONTROL EF Redirect]”和“[!UICONTROL Auto Upload]”（在营销活动级别设置或继承自帐户设置）时，您无需为广告生成跟踪URL。 Search、Social和Commerce会在每次与广告网络同步时自动创建新的目标URL，并将嵌入了跟踪代码的目标网址上传到广告网络。<br><br>如果[!UICONTROL Auto Upload]选项已禁用，则可以使用[[!UICONTROL Tracking URLs]工具](/help/search-social-commerce/tools/click-tracking-url-generate.md)生成跟踪URL，并使用广告网络的编辑器手动将其添加到广告设置。 |
 
 >[!MORELIKETHIS]
 >

@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 2342
+source-wordcount: 2377
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 * 对于具有[!DNL Maximize Clicks]、[!DNL Maximize Conversion Value]、[!DNL Maximize Conversions]、[!DNL Target Cost Per Acquisition]或[!DNL Target Return on Ad Spend]支出策略的营销活动，每个营销活动都是一个竞价单位。
 
-* 对于[!DNL Yahoo! Display Network]上的促销活动（不使用关键字），广告组中的所有广告都具有相同的竞价并被视为相同的竞价单位。
+* 对于[!DNL Yahoo DSP]上的促销活动（不使用关键字），广告组中的所有广告都具有相同的竞价并被视为相同的竞价单位。
 
 **竞价单位约束：**&#x200B;请参阅“约束”。
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 ## G-H {#g-h}
 
-**半衰期：**&#x200B;将数量减少到其初始值的一半所需的时间。 对于每个项目组合，您可以指定半衰期以指示数据与成本模型和收入模型相关的时间。
+**半衰期：**&#x200B;将数量减少到其初始值的一半所需的时间。对于每个项目组合，您可以指定半衰期以指示数据与成本模型和收入模型相关的时间。
 请参阅“成本模型半衰期”和“收入模型半衰期”。
 
 ## I-J {#i-j}
