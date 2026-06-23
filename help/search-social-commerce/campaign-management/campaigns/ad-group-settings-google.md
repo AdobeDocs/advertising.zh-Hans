@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 450
+source-wordcount: 464
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Optimize]：* [!DNL Google Ads]倾向于其预期表现优于广告组中其他广告的广告。 这些广告进入广告拍卖的频率更高，随着时间的推移，单个广告会更受青睐。 这可能与您的业务和优化目标不一致。
 
-* *[!UICONTROL Rotate forever]：*   您的每个广告进入广告拍卖的次数更加均匀，这使得Search、Social和Commerce不仅可以根据点进率而且对广告的转化情况进行评分。
+* *[!UICONTROL Rotate forever]：*&#x200B;您的每个广告进入广告拍卖的次数都是偶数，这允许Search、Social和Commerce不仅根据点进率而且对广告的转化率进行评分。
 
 * *[!UICONTROL Use campaign setting]*（新广告组的默认设置）：使用现有的营销活动级别的广告轮换设置。 **注意：**&#x200B;营销活动级别的设置在Search、Social和Commerce中不可见。
 

@@ -12,9 +12,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 2617
+source-wordcount: 2700
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Search with Display Select]：*&#x200B;在搜索网络(包括[!DNL Google]个搜索结果和（可选）搜索合作伙伴网站)上显示广告，并可能在显示网络网站上显示广告。 在显示网络上，[!DNL Google Ads]使用自动竞价有选择地显示您的广告，而不管营销活动的竞价策略如何。 对于搜索广告，请指定每个广告组的关键字；对于展示广告，请指定投放位置，并可以选择为每个广告组指定关键字。
 
-* *[!UICONTROL Shopping Network]：*&#x200B;显示产品广告，产品广告是[!DNL Google]根据您在[!DNL Google Merchant Center]上的[!DNL Google Shopping]中的产品、[!DNL Google]搜索结果旁边的区域（与文本广告分开）以及（可选）搜索合作伙伴网站自动生成的。 对于营销活动中的每个广告组，您可以指定要广告的产品组。
+* *[!UICONTROL Shopping Network]：*&#x200B;显示产品广告，产品广告是[!DNL Google]根据您在[!DNL Google Shopping]上的[!DNL Google Merchant Center]中的产品、[!DNL Google]搜索结果旁边的区域（与文本广告分开）以及（可选）搜索合作伙伴网站自动生成的。 对于营销活动中的每个广告组，您可以指定要广告的产品组。
 
 * *[!UICONTROL Display Network Only]：*&#x200B;在显示网络上显示广告。 对于每个广告组，您必须指定投放位置，并且可以选择指定关键字。
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 **提示：**&#x200B;如果使用此设置，请勿在[!UICONTROL Inventory Filter]设置中排除本地广告。
 
-**注意：**&#x200B;本地库存广告需要向[!DNL Google Merchant Center]另外提供两个馈送 — 一个包含本地产品数据，另一个包含本地产品库存。 有关[!DNL Google Ads]本地购物广告[的更多信息，请参阅](https://www.google.com/retail/local-inventory-ads/)文档。
+**注意：**&#x200B;本地库存广告需要向[!DNL Google Merchant Center]另外提供两个馈送 — 一个包含本地产品数据，另一个包含本地产品库存。 有关[本地购物广告](https://www.google.com/retail/local-inventory-ads/)的更多信息，请参阅[!DNL Google Ads]文档。
 
 <!-- **[!UICONTROL Inventory Filter]:** -->
 

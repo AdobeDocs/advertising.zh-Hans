@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 116
+source-wordcount: 115
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Name]：**&#x200B;帐户中唯一的促销活动名称。 最大长度为15个双字节字符。
 
-**[!UICONTROL Ad Serving]：**
+**[!UICONTROL Ad Serving]:**
 搜索引擎在广告组中相互提供活动广告的频率：
 
 * *[!UICONTROL Rotate]*（新促销活动的默认值）：您的每个广告进入广告拍卖的可能性相同。

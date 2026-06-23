@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 33f9b15eae29023aaee3644d7a78c09c5ab1429a
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 245
+source-wordcount: 252
 ht-degree: 0%
 
 ---
@@ -25,7 +25,9 @@ ht-degree: 0%
 
 [!UICONTROL Manage] > [!UICONTROL Campaigns]视图在筛选视图中列出了选定广告商帐户的所有营销活动。 您可以通过单击促销活动名称，在促销活动中打开广告组列表。
 
-当您在[!UICONTROL Campaigns]视图中添加和编辑促销活动数据时，Search、Social和Commerce会立即将数据更改推送到广告网络。 搜索、Social和Commerce还提取营销活动结构数据，每小时从同步的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户中单击一次数据，每天从其他同步的广告网络帐户中单击一次，或者在检测到新营销活动时单击的频率较高。 对于所有同步的广告网络，您还可以根据需要按需同步帐户。
+当您在[!UICONTROL Campaigns]视图中添加和编辑促销活动数据时，Search、Social和Commerce会立即将数据更改推送到广告网络。 搜索、Social和Commerce还每天提取营销活动结构数据并单击数据，或者在检测到新营销活动时更频繁地提取数据。 对于所有同步的广告网络，您还可以根据需要按需同步帐户。
+
+Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户中提取一次性能数据，每天从其他同步的广告网络帐户中提取一次性能数据。
 
 ## 可用操作
 
