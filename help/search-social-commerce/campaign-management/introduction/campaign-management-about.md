@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 33f9b15eae29023aaee3644d7a78c09c5ab1429a
 workflow-type: tm+mt
-source-wordcount: 808
+source-wordcount: 822
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 通过“搜索”、“社交”和“Commerce”，您可以在一个位置跟踪和/或管理搜索、显示/内容、社交、购物、受众和效果最佳的营销活动。 根据广告网络和促销活动类型，可用功能可能包括与广告网络的同步、创建和编辑功能、跟踪和转化归因、报告以及竞价和预算优化。 有关每个广告网络可用功能的详细信息，请参阅[支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)。
 
-当您在[!UICONTROL Campaigns]视图中添加和编辑促销活动数据时，Search、Social和Commerce会立即将数据更改推送到广告网络。 搜索、Social和Commerce还每天从同步的广告网络帐户中提取一次营销活动结构数据并单击数据（或者在检测到新营销活动时更频繁），并根据请求按需提取这些数据。
+当您在[!UICONTROL Campaigns]视图中添加和编辑促销活动数据时，Search、Social和Commerce会立即将数据更改推送到广告网络。 搜索、Social和Commerce还提取营销活动结构数据，每小时从同步的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户中单击一次数据，每天从其他同步的广告网络帐户中单击一次，或者在检测到新营销活动时单击的频率较高。 对于所有同步的广告网络，您还可以根据需要按需同步帐户。
 
 ## 设置对您的广告网络帐户的访问权限
 
