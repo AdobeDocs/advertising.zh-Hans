@@ -4,16 +4,12 @@ description: 引用 [!DNL Baidu] 营销活动的设置。
 exl-id: bc8ec4e2-4b40-4c9d-8223-29143fe63784
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/eYQ4cNEAmEEoC6OksxjtqdJRf90E0a2UGiTny5BVGQU
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 116
+source-wordcount: 115
 ht-degree: 0%
 
 ---
@@ -28,7 +24,7 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Name]：**&#x200B;帐户中唯一的促销活动名称。 最大长度为15个双字节字符。
 
-**[!UICONTROL Ad Serving]：**
+**[!UICONTROL Ad Serving]:**
 搜索引擎在广告组中相互提供活动广告的频率：
 
 * *[!UICONTROL Rotate]*（新促销活动的默认值）：您的每个广告进入广告拍卖的可能性相同。
