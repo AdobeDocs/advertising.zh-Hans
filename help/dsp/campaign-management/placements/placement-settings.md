@@ -17,9 +17,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
 workflow-type: tm+mt
-source-wordcount: 4518
+source-wordcount: 4532
 ht-degree: 0%
 
 ---
@@ -173,6 +173,9 @@ ht-degree: 0%
       1. 在左列中选择位置类型。
       1. （根据需要）单击某个位置以展开该位置。
       1. 在该位置旁边，单击&#x200B;*[!UICONTROL Include]*&#x200B;以将其作为目标包含，或单击&#x200B;*[!UICONTROL Exclude]*&#x200B;以将其作为目标排除。
+   * 要包含或排除[邮政编码列表](/help/dsp/resources/lists-postal-codes-manage.md)，请执行以下操作：
+      1. 单击&#x200B;**[!UICONTROL Search Postal Code]**。
+      1. 在邮政编码旁边，单击&#x200B;*[!UICONTROL Include]*&#x200B;以将其作为目标包含，或单击&#x200B;*[!UICONTROL Exclude]*&#x200B;以将其作为目标排除。
    * 要搜索邮政编码并包含或排除所有选定的结果，请执行以下操作：
       1. 单击&#x200B;**[!UICONTROL Search Postal Code]**。
       1. 选择国家/地区。

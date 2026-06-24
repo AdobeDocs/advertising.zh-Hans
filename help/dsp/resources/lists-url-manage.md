@@ -12,7 +12,7 @@ subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
 workflow-type: tm+mt
 source-wordcount: 698
 ht-degree: 0%
@@ -79,7 +79,7 @@ ht-degree: 0%
 
       * 选择要删除的URL：
 
-         1. 选中要从列表中删除的每个交易旁边的复选框。
+         1. 选中要从列表中删除的每个URL旁边的复选框。
 
          1. 单击&#x200B;**[!UICONTROL Remove from List]**。
 
@@ -147,7 +147,7 @@ ht-degree: 0%
 
       * 选择要删除的URL：
 
-         1. 选中要从列表中删除的每个交易旁边的复选框。
+         1. 选中要从列表中删除的每个URL旁边的复选框。
 
          1. 单击&#x200B;**[!UICONTROL Remove from List]**。
 

@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ffaa0312ba2e1f583e11326c867838753fa9c6ff
+source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
 workflow-type: tm+mt
-source-wordcount: 7476
+source-wordcount: 7507
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年6月23日 | [!UICONTROL Placements]，邮政编码 | 您现在可以创建各个国家/地区的邮政编码列表，以重复用作投放目标或排除项。 | 请参阅“[管理邮政编码列表](/help/dsp/resources/lists-postal-codes-manage.md)”和“[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)”。 |
 | 2026年6月9日 | 与Adobe Customer Journey Analytics集成 | 具有Customer Journey Analytics但不具有[!DNL Analytics for Advertising]的广告商可以使用Adobe Experience Platform [!DNL Web SDK]在Adobe Advertising和Customer Journey Analytics之间原生交换数据。 | 请参阅“[Adobe Advertising与Customer Journey Analytics的集成概述](/help/integrations/customer-journey-analytics/overview.md)”。 |
 | 2026年6月3日 | [!DNL Adobe Analytics for Advertising] | 具有Advertising Creative和[!DNL Adobe Analytics for Advertising]的广告商现在可以在Adobe Analytics中查看变体和分支级别的数据。 无论使用哪个DSP从[!DNL Creative]体验中运行广告，都会显示数据。 如果您通过Advertising DSP投放位置运行广告，则还将看到促销活动和投放级别的数据以及与成本相关的量度。<br><br>无需其他设置。 | 查看[!DNL Analytics]中显示的Advertising Creative [流量指标](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/metrics/amo-metrics)和[分类](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#classifications)。 |
 | 2026年5月20日 | 第一方受众源，通用ID，[!UICONTROL Placements] | 澳大利亚的广告商现在可以导入[!DNL AdFixus]个通用ID，其中包含目标广告的区段映射。 DSP会按原样从[!DNL AdFixus]导入第一方区段，而不会将其转换为其他ID类型。 该过程包括创建受众源并与[!DNL AdFixus]团队共享自动生成的密钥。 | 请参阅“从 [!DNL AdFixus][&#128279;](/help/dsp/audiences/sources/source-adfixus.md)导入第一方区段”、“[关于第一方受众源](/help/dsp/audiences/sources/source-about.md)”和“[管理受众源以激活通用ID受众](/help/dsp/audiences/sources/source-manage.md)”。 |
