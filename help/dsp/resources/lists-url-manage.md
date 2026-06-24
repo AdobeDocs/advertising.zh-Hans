@@ -4,15 +4,11 @@ description: 了解如何创建和管理用于投放定位的URL列表。
 feature: DSP Placements
 exl-id: 57c715b3-9a13-4890-a3b8-03fa6adb44eb
 TQID: https://experienceleague.adobe.com/evxwpbMXExxa30xpsojzTxcRfAxrozOSmwoJuCHPVPw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
 workflow-type: tm+mt
 source-wordcount: 698
 ht-degree: 0%
@@ -79,7 +75,7 @@ ht-degree: 0%
 
       * 选择要删除的URL：
 
-         1. 选中要从列表中删除的每个交易旁边的复选框。
+         1. 选中要从列表中删除的每个URL旁边的复选框。
 
          1. 单击&#x200B;**[!UICONTROL Remove from List]**。
 
@@ -147,7 +143,7 @@ ht-degree: 0%
 
       * 选择要删除的URL：
 
-         1. 选中要从列表中删除的每个交易旁边的复选框。
+         1. 选中要从列表中删除的每个URL旁边的复选框。
 
          1. 单击&#x200B;**[!UICONTROL Remove from List]**。
 
