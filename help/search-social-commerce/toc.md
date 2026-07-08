@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: 76dcbceead386ad4f5117c23e449aa904696f338
 workflow-type: tm+mt
-source-wordcount: 2401
+source-wordcount: 2405
 ht-degree: 2%
 
 ---
@@ -300,6 +300,7 @@ ht-degree: 2%
                + [[!DNL Baidu]营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
                + [[!DNL Google Ads]营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
                + [[!DNL LY Ads]营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
+               + [[Meta Ads]促销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-meta.md)
                + [[!DNL Microsoft Advertising]营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
                + [[!DNL Yandex]营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
          + 广告组 {#ad-groups}
