@@ -4,16 +4,12 @@ description: 了解Search、Social和Commerce中的促销活动管理功能。
 exl-id: 19e36e73-fcb6-4ff3-980b-fc05042725fd
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/tgoMzw4DbEY5evC2s1f6mQHfJYYb7DJzMfFUnc-06Bk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 33f9b15eae29023aaee3644d7a78c09c5ab1429a
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 6a6c9fecfe07a94bf77cfce65bfd7a079755890f
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: 834
 ht-degree: 0%
 
 ---
@@ -22,7 +18,9 @@ ht-degree: 0%
 
 通过“搜索”、“社交”和“Commerce”，您可以在一个位置跟踪和/或管理搜索、显示/内容、社交、购物、受众和效果最佳的营销活动。 根据广告网络和促销活动类型，可用功能可能包括与广告网络的同步、创建和编辑功能、跟踪和转化归因、报告以及竞价和预算优化。 有关每个广告网络可用功能的详细信息，请参阅[支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)。
 
-当您在[!UICONTROL Campaigns]视图中添加和编辑促销活动数据时，Search、Social和Commerce会立即将数据更改推送到广告网络。 搜索、Social和Commerce还提取营销活动结构数据，每小时从同步的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户中单击一次数据，每天从其他同步的广告网络帐户中单击一次，或者在检测到新营销活动时单击的频率较高。 对于所有同步的广告网络，您还可以根据需要按需同步帐户。
+当您在[!UICONTROL Campaigns]视图中添加和编辑促销活动数据时，Search、Social和Commerce会立即将数据更改推送到广告网络。 搜索、Social和Commerce还每天从同步的广告网络帐户中提取营销活动结构数据并单击，或者在检测到新营销活动时更频繁地提取这些数据。 对于所有同步的广告网络，您还可以根据需要按需同步帐户。
+
+Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户中提取一次性能数据，每天从其他同步的广告网络帐户中提取一次性能数据。
 
 ## 设置对您的广告网络帐户的访问权限
 
