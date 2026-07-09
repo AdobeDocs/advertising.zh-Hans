@@ -4,20 +4,14 @@ description: 了解如何使DSP能够摄取您的 [!DNL Tealium] 第一方区段
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
 TQID: https://experienceleague.adobe.com/X8mcqFiON6JMoB5KdS5Z0GVLYp-htw2ddCtmuZFflqo
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 50af5a8fc6e5e82268489259073e27911ca5a45c
 workflow-type: tm+mt
-source-wordcount: 1118
+source-wordcount: 1120
 ht-degree: 0%
 
 ---
@@ -44,11 +38,11 @@ ht-degree: 0%
 
 要将电子邮件地址转换为[!DNL RampIDs]或[!DNL ID5] ID，您必须执行以下操作：
 
-1. （如果尚未这样做）完成实施 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)的所有先决条件，并确保在您的跟踪URL中填充[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
+1. （如果尚未这样做）完成实施 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)的所有[先决条件，并确保在您的跟踪URL中填充[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
 
 1. 向通用ID合作伙伴注册，并在您的网页上部署特定于通用ID的代码，以便匹配从桌面和移动Web浏览器（但不包括移动应用程序）上的ID到显示到达次数的转换：
 
-   * **对于[!DNL RampIDs]：**，您必须在网页上部署额外的JavaScript标记，以匹配从桌面和移动网页浏览器（但不包括移动应用程序）上的ID到显示到达次数的转换。 请与您的Adobe客户团队联系，他们将为您提供如何从[!DNL LiveRamp]身份验证流量解决方案注册[!DNL LiveRamp] [!DNL LaunchPad]标记的说明。 注册是免费的，但您必须签署协议。 注册后，您的Adobe客户团队将生成并提供一个唯一标记，供贵组织在网页上实施。
+   * **对于[!DNL RampIDs]：**，您必须在网页上部署额外的JavaScript标记，以匹配从桌面和移动网页浏览器（但不包括移动应用程序）上的ID到显示到达次数的转换。 请联系您的Adobe客户团队，他们将为您提供如何从[!DNL LiveRamp]身份验证流量解决方案(ats.js)注册[!DNL LiveRamp] [!DNL LaunchPad]标记的说明。 注册是免费的，但您必须签署协议。 注册后，您的Adobe客户团队将生成并提供一个唯一标记，供贵组织在网页上实施。
 
 ## 步骤2：在DSP中创建受众源 {#source-create}
 
