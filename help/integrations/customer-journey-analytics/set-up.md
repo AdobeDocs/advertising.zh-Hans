@@ -4,10 +4,18 @@ description: 了解如何设置数据收集、数据传输和报表。
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: a955e2b0-ea1b-4b5c-937b-f8c66603cd36
 TQID: https://experienceleague.adobe.com/u6xL6FuW-TwqAkse3VTS3zcyt-10Cv-ADTZLJTiWWT8
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ede5b5b1eb8ab449b982fdadba93e944cd2e062f
 workflow-type: tm+mt
 source-wordcount: 2103
@@ -137,7 +145,7 @@ ht-degree: 1%
 
 1. 通过[检查三个数据集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets)（网站事件数据集、Adobe Advertising分类数据集和Adobe Advertising摘要量度数据集）中每个数据集的活动来验证数据投放。
 
-   您应该会看到每日批量摄取的数据集活动。 如果事件数据集在24小时后显示零条记录，请在Adobe Tags](#tags-websdk)中重新检查[数据流](#dataset-datastream)和[Web SDK扩展配置。
+   您应该会看到每日批量摄取的数据集活动。 如果事件数据集在24小时后显示零条记录，请在Adobe Tags[&#128279;](#tags-websdk)中重新检查[数据流](#dataset-datastream)和Web SDK扩展配置。
 
 1. 请咨询Adobe Experience Platform管理员[将标记发布到实时生产环境](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow)。
 
@@ -278,7 +286,7 @@ Seems to not be necessary now:
 
 >[!TIP]
 >
->摘要事件通常会向报表中添加少量额外数据，例如几个额外事件、每天一个额外的会话或每个报表一个额外的人员。 与标准Web事件相比，这些添加的内容可以忽略不计。 但是，您可以通过排除虚拟人员ID `00000000-0000-0000-0000-000000000000`的数据来过滤掉此额外的摘要事件数据。使用人员ID排除数据的示例](/help/integrations/assets/cja-report-with-person-id.png "使用人员ID排除数据的示例")
+>摘要事件通常会向报表中添加少量额外数据，例如几个额外事件、每天一个额外的会话或每个报表一个额外的人员。 与标准Web事件相比，这些添加的内容可以忽略不计。 但是，您可以通过排除虚拟人员ID `00000000-0000-0000-0000-000000000000`的数据来过滤掉此额外的摘要事件数据。使用人员ID排除数据的示例&rbrack;(/help/integrations/assets/cja-report-with-person-id.png "使用人员ID排除数据的示例")
 
 ![您的数据集在Customer Journey Analytics中的显示方式](/help/integrations/assets/cja-report-example.png "您的数据集在Customer Journey Analytics中的显示方式")
 
@@ -286,7 +294,7 @@ Seems to not be necessary now:
 >
 >* [概述](overview.md)
 >* [先决条件](prerequisites.md)
->*  [!DNL Customer Journey Analytics]](ids.md)使用的[Adobe Advertising ID
+>*  [!DNL Customer Journey Analytics][&#128279;](ids.md)使用的Adobe Advertising ID
 >* Customer Journey Analytics中的[Adobe Advertising指标和维度](advertising-data-in-cja.md)
 >* [收集AMO ID和EF ID的历史数据以在Adobe Customer Journey Analytics中使用](/help/integrations/analytics/rvars-to-evars.md)。
 >* [疑难解答](troubleshooting.md)
