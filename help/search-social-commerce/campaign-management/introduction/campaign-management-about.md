@@ -4,16 +4,12 @@ description: 了解Search、Social和Commerce中的促销活动管理功能。
 exl-id: 19e36e73-fcb6-4ff3-980b-fc05042725fd
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/tgoMzw4DbEY5evC2s1f6mQHfJYYb7DJzMfFUnc-06Bk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 6a6c9fecfe07a94bf77cfce65bfd7a079755890f
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 61a66d7d35873247de40480f7361f87e2dedde88
 workflow-type: tm+mt
-source-wordcount: 834
+source-wordcount: 850
 ht-degree: 0%
 
 ---
@@ -30,11 +26,11 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 
 为了跟踪广告商广告网络帐户中的广告效果（并可能为广告投标），Adobe帐户团队[在Search、Social和Commerce中创建相应的帐户记录](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)。 帐户记录包括跟踪选项。
 
-对于通过广告网络的API同步的帐户，帐户记录还包括帐户访问凭据。 启用帐户后，即会通过广告网络从中提取帐户数据。 然后，您可以查看现有帐户数据，以及创建和编辑营销活动结构和广告数据。
+对于通过广告网络的API同步的帐户，帐户记录还包括帐户访问凭据。 启用帐户后，即会通过广告网络从中提取帐户数据。 然后，您可以查看现有帐户数据，并且可以创建和编辑营销活动结构和广告数据。
 
 ## 点击跟踪可将点击次数与转化次数绑定
 
-如果您使用Adobe Advertising转化跟踪服务，则必须在登陆页面后缀、跟踪模板以及广告、关键词和版面、站点链接和产品列表的最终/目标URL中包含Search、Social和Commerce点击跟踪代码。 对于其促销活动设置包括“[!UICONTROL EF Redirect]”和“[!UICONTROL Auto Upload]”的[支持的广告网络和促销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)，Search、Social和Commerce会在您保存记录时自动附加其自身的重定向和跟踪代码，因此您无需手动添加。 否则，您必须手动将代码添加到跟踪模板或最终URL中。
+如果您使用Adobe Advertising转化跟踪服务，则必须在登陆页面后缀、跟踪模板以及广告、关键词和版面、站点链接和产品列表的最终/目标URL中包含Search、Social和Commerce点击跟踪代码。 对于其促销活动设置包括“[!UICONTROL EF Redirect]”和“[!UICONTROL Auto Upload]”的[支持的广告网络和促销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)，Search、Social和Commerce会在您保存记录时自动附加其自身的重定向和跟踪代码，因此您无需手动添加。 否则，您必须手动将代码添加到“搜索”、“社交”和“Commerce”中的跟踪模板或最终URL中，或者从广告网络自己的编辑器中添加。
 
 有关跟踪的更多信息，请参阅关于“跟踪”的一章。
 
