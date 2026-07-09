@@ -14,9 +14,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 3ca788a8a15277a105c065087ad9a5fbc9108311
+source-git-commit: b1904d5c8dad3e935245b45ff4b1a8104fc897dd
 workflow-type: tm+mt
-source-wordcount: 627
+source-wordcount: 716
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 验证以下内容：
 
+* Customer Journey Analytics Workspace引用了正确的数据视图。
+
 * 从Adobe Advertising到Customer Journey Analytics的信息源已启用。 请与您的Adobe客户团队核实。
 
 * 您的Adobe Advertising维度/分类/查找数据集和摘要数据集包含在您的Customer Journey Analytics连接中。
 
 * 您的Adobe Advertising维度和摘要量度包含在您的Customer Journey Analytics数据视图中。
-
-* Customer Journey Analytics Workspace引用了正确的数据视图。
 
 如果您已验证上述所有设置，但仍看不到摘要数据，请在[https://experienceleague.adobe.com/home?lang=zh-Hans#support](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)为您的组织打开支持工单。
 
@@ -45,9 +45,13 @@ ht-degree: 0%
 
 +++ 摘要报表数据在Customer Journey Analytics中可用于广告商1，但不能用于广告商2。
 
-确认已为广告商2启用从Adobe Advertising到Customer Journey Analytics的馈送。 请与您的Adobe客户团队核实。
+验证以下内容：
 
-如果为广告商启用了信息源，但仍看不到摘要数据，请在[https://experienceleague.adobe.com/home?lang=zh-Hans#support](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)为您的组织打开支持工单。
+* 已为广告商2启用从Adobe Advertising到Customer Journey Analytics的馈送。 请与您的Adobe客户团队核实。
+
+* 在Customer Journey Analytics连接中，为三个数据集（维度/分类/查找、摘要和事件量度）启用了设置“[!UICONTROL Backfill all existing data]”。
+
+如果您验证了上述所有条件，但仍看不到摘要数据，请在[https://experienceleague.adobe.com/home?lang=zh-Hans#support](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)为您的组织打开支持工单。
 
 +++
 
@@ -67,8 +71,11 @@ ht-degree: 0%
 
 * 在[!DNL Workspace]和Adobe Advertising报表中应用的任何过滤器和区段都不会导致数据差异。
 
-如果确定数据不一致，请在[https://experienceleague.adobe.com/home?lang=zh-Hans#support](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)为您的组织打开支持工单。包含广告网络帐户的[!UICONTROL Account ID]。
-.包括屏幕截图和电子表格，以显示差异的证据。如果需要，您的Adobe客户团队可以追溯修复数据馈送以解决差异。
+* Customer Journey Analytics数据视图的[!UICONTROL Time Zone]与您的Advertising DSP帐户[&#128279;](/help/dsp/admin/user-own-profile-edit.md)的[!UICONTROL Default Timezone]匹配。
+
+* 在Customer Journey Analytics连接中，为三个数据集（维度/分类/查找、摘要和事件量度）启用了设置“[!UICONTROL Backfill all existing data]”。
+
+如果确定数据不一致，请在[https://experienceleague.adobe.com/home?lang=zh-Hans#support](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)为您的组织打开支持工单。 包含广告网络帐户的[!UICONTROL Account ID]。. 包括屏幕截图和电子表格，以显示差异的证据。 如果需要，您的Adobe客户团队可以追溯修复数据馈送以解决差异。
 
 +++
 
@@ -78,15 +85,15 @@ ht-degree: 0%
 
 验证以下内容，从验证障碍最少的物品开始：
 
-* 适用的转化量度是Web/在线事件，Adobe Advertising可将这些事件归因于维度。
-
 * 您使用了正确的数据视图。
+
+* 适用的转化量度是Web/在线事件，Adobe Advertising可将这些事件归因于维度。
 
 * Adobe Advertising正在跟踪适用网站上的点进和显示点进。<!-- Link to validation instructions in the user guide -->
 
 * 在分类数据集的Customer Journey Analytics连接中，[!DNL Key]和[!DNL Matching Key]设置的值正确： [!DNL Key]： `Tracking Code` (_customername.adLens2.trackingCode)，[!DNL Matching Key]： `Tracking Code` (event._experience.adcloud.conversionDetails.trackingCode)
 
-* [!DNL Adobe Advertising]服务已添加到Adobe Experience Platform数据流，数据流的映射架构为`XDM ExperienceEvent Schema`，字段组`Adobe Advertising Cloud ExperienceEvent Full Extension`已添加到该架构。
+* [!DNL Adobe Advertising]服务已添加到Adobe Experience Platform数据流，数据流的映射架构为`XDM ExperienceEvent Schema`，字段组`Adobe Advertising Cloud ExperienceEvent Full Extension`已添加到`XDM ExperienceEvent`架构中。
 
 * 已在WebSDK扩展中正确配置并发布Adobe Advertising设置。
 

@@ -1,11 +1,11 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 3a1bcbcb9284503a855edb9d304083451169c6ae
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
-# Yahoo！ 日本促销活动和广告组设置
+# [!DNL LY Ads]营销活动和广告组设置中的负关键字字段的注释
 
 >[!NOTE]
 >

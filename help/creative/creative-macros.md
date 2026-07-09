@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3c3bffe0c28bb24c0df9385f9cc91be1376a66d2
 workflow-type: tm+mt
-source-wordcount: 237
+source-wordcount: 319
 ht-degree: 0%
 
 ---
@@ -44,7 +44,13 @@ ht-degree: 0%
 | `${TM_RANDOM}` | A random number between 1 and 1000000 | &mdash; | &mdash; |
 | `${TM_TIMESTAMP}` | The Unix Timestamp (in seconds) | &mdash; | &mdash; |
 | `${TM_CLICK_URL_URLENC}` | (For third-party ads from vendors who require URL encoding) The encoded click redirect URL, which enables ad servers to track and count ad clicks. When the ad is served and the user clicks on it, the macro is activated, and the click is recorded and counted for reporting purposes. | Yes | &mdash; |
-
+| `${TC_1}` | Custom tracking code 1. | &mdash; | &mdash; |
+| `${TC_2}` | Custom tracking code 2. | &mdash; | &mdash; |
+| `${TC_3}` | Custom tracking code 3. | &mdash; | &mdash; |
+| `${TC_4}` | Custom tracking code 4. | &mdash; | &mdash; |
+| `${TC_5}` | Custom tracking code 5. | &mdash; | &mdash; |
+| `${GDPR_ENFORCED}` | Whether GDPR enforcement is required for the bid request. Values: **1** = GDPR should be enforced, **0** = GDPR should not be enforced. | &mdash; | &mdash; |
+| `${GDPR_CONSENT}` | The GDPR consent value received from the supply partner in the bid request. Typically: **1** = consent provided, **0** = no consent provided. | &mdash; | &mdash; |
 -->
 
 | 宏 | 描述 | 是否自动在Advertising DSP的Experience Tags中启用？ |
@@ -54,16 +60,22 @@ ht-degree: 0%
 | `${TM_PLACEMENT_ID_NUM}` | 从DSP跟踪和报告版面ID | 是 |
 | `${TM_AD_ID_NUM}` | 从DSP跟踪和报告广告ID | 是 |
 | `${TM_CREATIVE_ID_NUM}` | 从DSP跟踪和报告创意ID | 不适用 |
-| `${TM_SESSION_ID}` | 跟踪并报告来自DSP的展示ID。 如果不返回值，Advertising Creative将生成一个值。 | 是 |
+| `${TM_SESSION_ID}` | 跟踪和报告与广告请求关联的会话ID。 如果未返回某个值，则Advertising Creative会生成一个值。 | 是 |
 | `${TM_ACC_EXPERIENCE_ID}` | 跟踪和报告Advertising Creative体验ID | — |
 | `${TM_ACC_CREATIVE_ID}` | 跟踪和报告Advertising Creative创意ID | — |
-| `${TM_RANDOM}` | 介于1和1000000之间的随机数 | — |
+| `${TM_RANDOM}` | 随机生成的介于1和1,000,000之间的数字。 通常用于缓存无效。 | — |
 | `${TM_TIMESTAMP}` | UNIX®时间戳（以秒为单位） | — |
 | `${TM_CLICK_URL_URLENC}` | （适用于来自需要URL编码的供应商的第三方广告）经过编码的点击重定向URL，使广告服务器能够跟踪和计数广告点击次数。 当用户单击广告时，将激活宏，并且会记录该点击并计入报表中。 | 是 |
+| `${TC_1}` | 自定义跟踪代码1. | — |
+| `${TC_2}` | 自定义跟踪代码2. | — |
+| `${TC_3}` | 自定义跟踪代码3. | — |
+| `${TC_4}` | 自定义跟踪代码4. | — |
+| `${TC_5}` | 自定义跟踪代码5. | — |
+| `${GDPR_ENFORCED}` | 投标请求是否需要GDPR实施。 值： **1** =应强制使用GDPR，**0** =不应强制使用GDPR。 | — |
+| `${GDPR_CONSENT}` | 在竞价请求中从供应合作伙伴收到的GDPR同意值。 通常： **1** =已提供同意，**0** =未提供同意。 | — |
 
 >[!MORELIKETHIS]
 >
 >* [将标准创意添加到创意库](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [标准创意设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
->* [目标体验设置](/help/creative/experiences/experience-settings-targeting.md)
->*[非目标体验设置](/help/creative/experiences/experience-settings-no-targeting.md)
+>* &lbrack;目标体验设置*[非目标体验设置](/help/creative/experiences/experience-settings-no-targeting.md)
