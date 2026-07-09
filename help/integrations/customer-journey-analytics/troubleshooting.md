@@ -71,7 +71,7 @@ ht-degree: 0%
 
 * 在[!DNL Workspace]和Adobe Advertising报表中应用的任何过滤器和区段都不会导致数据差异。
 
-* Customer Journey Analytics数据视图的[!UICONTROL Time Zone]与您的Advertising DSP帐户[&#128279;](help/dsp/admin/user-own-profile-edit.md)的[!UICONTROL Default Timezone]匹配。
+* Customer Journey Analytics数据视图的[!UICONTROL Time Zone]与您的Advertising DSP帐户[&#128279;](/help/dsp/admin/user-own-profile-edit.md)的[!UICONTROL Default Timezone]匹配。
 
 * 在Customer Journey Analytics连接中，为三个数据集（维度/分类/查找、摘要和事件量度）启用了设置“[!UICONTROL Backfill all existing data]”。
 
