@@ -4,16 +4,12 @@ description: 了解在何处访问不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/KqfmmT9cFZpNIoIiaA0OjGlMDf4hvQzNhPpH8lYtViw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 57e8552cd8b71fe06be153954294063fe810b327
 workflow-type: tm+mt
-source-wordcount: 1506
+source-wordcount: 1558
 ht-degree: 0%
 
 ---
@@ -108,7 +104,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Extensions]**&#x200B;打开现有广告扩展的只读视图。 若要管理扩展，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
 
-   * **[!UICONTROL Shopping]**&#x200B;退出新站点并打开旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。<!-- Should this go to Campaigns > Products? -->
+   * **[!UICONTROL Shopping]**&#x200B;打开现有购物产品组的只读视图。 要管理您的产品组，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Product Groups]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
 
 * **[!UICONTROL Set Up]**&#x200B;子菜单：
 
@@ -119,6 +115,8 @@ ht-degree: 0%
    * **[!UICONTROL Import Campaigns]**：打开一个新视图，您可以从中导入营销活动数据。
 
    * **[!UICONTROL Bulksheets]**：打开新的[!UICONTROL Bulksheets]视图。
+
+   * **[!UICONTROL Products]**&#x200B;打开现有商家中心帐户和产品的只读视图。 要添加商家中心帐户，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Products]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
 
 <!--
  What's happening to these?
@@ -208,7 +206,7 @@ Tools > Admin > Data Source Setup
 
 * ![用户配置文件](/help/search-social-commerce/assets/user-profile.png "用户配置文件")指向您的配置文件的链接，您可以从中注销。
 
-  当您[通过Adobe CX Enterprise &#x200B;](sign-in.md)登录时，您还可以编辑CX Enterprise配置文件，包括CX Enterprise密码和通知设置。
+  当您[通过Adobe CX Enterprise ](sign-in.md)登录时，您还可以编辑CX Enterprise配置文件，包括CX Enterprise密码和通知设置。
 
 >[!MORELIKETHIS]
 >
