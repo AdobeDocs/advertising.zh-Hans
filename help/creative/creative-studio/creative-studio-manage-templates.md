@@ -1,9 +1,12 @@
 ---
 title: 在Creative Studio中管理广告模板
 description: 了解如何在Adobe Advertising Creative的Creative Studio“模板”选项卡中创建、导入、组织和管理广告模板。
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
 workflow-type: tm+mt
 source-wordcount: 2509
@@ -140,7 +143,7 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 
 1. （显示广告）选择广告模板大小，然后单击&#x200B;**[!UICONTROL Continue]**。
 
-1. 使用模板编辑器](#template-controls)中的[控件配置模板设置。
+1. 使用模板编辑器[&#128279;](#template-controls)中的控件配置模板设置。
 
 1. （可选）要下载所定义的模板副本，请单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download]**。
 
@@ -170,7 +173,7 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 
 1. 将光标悬停在模板卡或表格行上，然后单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Template]**。
 
-1. 在模板编辑器](#template-controls)中使用[控件编辑模板布局或元素。
+1. 在模板编辑器[&#128279;](#template-controls)中使用控件编辑模板布局或元素。
 
 1. （可选）要下载所定义的模板副本，请单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download]**。
 
