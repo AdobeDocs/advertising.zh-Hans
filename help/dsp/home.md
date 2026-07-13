@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
+source-git-commit: 836dbc21997c7af7b8a2bc4e0c5e59d3c3605ea8
 workflow-type: tm+mt
-source-wordcount: 7507
+source-wordcount: 7665
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年7月1日 | [!DNL Creative] | Advertising Creative中提供了以下测试版功能：<ul><li>**[!UICONTROL Creative Studio]**&#x200B;使用创作AI帮助在单个会话中跨多种格式构建、调整显示广告大小和优化显示广告。 使用自然语言聊天界面生成和修改广告内容 — 内容字段无需手动设计工作。</li><li>创建并管理反映您品牌视觉和消息传递身份的&#x200B;**[!UICONTROL brand profiles]** — 包括您的徽标、调色板、语音准则、图像标准和特定于渠道的复制准则。 在[!UICONTROL Creative Studio]中创建广告时，AI代理使用品牌配置文件信息在特定的品牌中生成内容。</li></ul> | 请参阅“[关于Creative Studio](/help/creative/creative-studio/creative-studio-about.md)”和“[管理品牌配置文件](/help/creative/brands/brand-manage.md)”。 |
 | 2026年6月23日 | [!UICONTROL Placements]，邮政编码 | 您现在可以创建各个国家/地区的邮政编码列表，以重复用作投放目标或排除项。 | 请参阅“[管理邮政编码列表](/help/dsp/resources/lists-postal-codes-manage.md)”和“[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)”。 |
 | 2026年6月9日 | 与Adobe Customer Journey Analytics集成 | 具有Customer Journey Analytics但不具有[!DNL Analytics for Advertising]的广告商可以使用Adobe Experience Platform [!DNL Web SDK]在Adobe Advertising和Customer Journey Analytics之间原生交换数据。 | 请参阅“[Adobe Advertising与Customer Journey Analytics的集成概述](/help/integrations/customer-journey-analytics/overview.md)”。 |
 | 2026年6月3日 | [!DNL Adobe Analytics for Advertising] | 具有Advertising Creative和[!DNL Adobe Analytics for Advertising]的广告商现在可以在Adobe Analytics中查看变体和分支级别的数据。 无论使用哪个DSP从[!DNL Creative]体验中运行广告，都会显示数据。 如果您通过Advertising DSP投放位置运行广告，则还将看到促销活动和投放级别的数据以及与成本相关的量度。<br><br>无需其他设置。 | 查看[!DNL Analytics]中显示的Advertising Creative [流量指标](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/metrics/amo-metrics)和[分类](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#classifications)。 |

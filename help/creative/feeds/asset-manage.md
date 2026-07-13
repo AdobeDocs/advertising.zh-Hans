@@ -8,9 +8,9 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: d32c0462696cdd11b4e4a184bed683c611d018c0
 workflow-type: tm+mt
-source-wordcount: 600
+source-wordcount: 617
 ht-degree: 0%
 
 ---
@@ -29,13 +29,17 @@ ht-degree: 0%
 
 ## 文件要求
 
+最大数据行数：200万
+
+最大文件大小：2 GB
+
 * Dynamic HTML5广告：
 
    * CSV、TSV或Microsoft Excel电子表格(XLSX)格式的信息源文件，每个广告变体具有一个标题行和一个数据行。 在每一行中使用格式`images/image_name`（如`images/300x250_acme_logo.png`）包括图像名称。
 
      广告商特定的字段名称必须映射到动态广告馈送文件的[可用字段](/help/creative/appendix-available-feed-fields.md)。
 
-   * 以GIF、JPEG、JPG或PNG格式关联的图像资源。<!-- Is this true: The maximum file size is two (2) MB. --> 查看[支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)。
+   * GIF、JPEG、JPG或PNG格式中关联的图像资源。 最大文件大小为10 MB。 查看[支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)。
 
   您可以上传单个XLSX文件、单个图像文件或包含XLSX和图像文件任意组合的单个ZIP文件。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 

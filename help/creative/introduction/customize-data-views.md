@@ -8,9 +8,9 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: d32c0462696cdd11b4e4a184bed683c611d018c0
 workflow-type: tm+mt
-source-wordcount: 281
+source-wordcount: 273
 ht-degree: 0%
 
 ---
@@ -25,7 +25,9 @@ ht-degree: 0%
 
 ## 以卡片或表查看数据
 
-以单个卡片或表格/列表的形式查看[!UICONTROL Creative Libraries]和[!UICONTROL Experiences]视图中的数据。 默认情况下，数据以卡片视图模式显示。 卡片视图显示相关创意的缩略图。
+<!-- Different images in Creative Studio, although pretty close -->
+
+以单个卡片或表格/列表的形式查看[!UICONTROL Creative Studio]、[!UICONTROL Creative Libraries]和[!UICONTROL Experiences]视图中的数据。 默认情况下，数据以卡片视图模式显示。 卡片视图显示相关创意的缩略图。
 
 在卡片视图和表格视图之间切换时，将保留筛选器和选择。
 

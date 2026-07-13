@@ -3,10 +3,10 @@ role: User
 user-guide-title: Advertising Creative 指南
 user-guide-description: 了解使用 Advertising Creative 所需的主要功能、任务、设置及相关资源。
 breadcrumb-title: 创意指南
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: 0c7c5962b0e2b0c72147b0ff27ba83acb5cbf326
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 5%
+source-wordcount: '428'
+ht-degree: 4%
 
 ---
 
@@ -20,6 +20,12 @@ ht-degree: 5%
    + [动态广告的工作流](/help/creative/introduction/workflow-dynamic-ads.md)
    + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans){target="_blank"}
    + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans){target="_blank"}
++ Creative Studio {#creative-studio}
+   + [关于Creative Studio](/help/creative/creative-studio/creative-studio-about.md)
+   + [管理标准广告](/help/creative/creative-studio/creative-studio-manage-standard-ads.md)
+   + [管理动态创意](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md)
+   + [管理模板](/help/creative/creative-studio/creative-studio-manage-templates.md)
+   + [管理资源](/help/creative/creative-studio/creative-studio-manage-assets.md)
 + Creative库 {#creative-libraries}
    + [关于您的创意库](/help/creative/creative-libraries/creative-libraries-about.md)
    + [支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)
@@ -61,31 +67,32 @@ ht-degree: 5%
             + [将创意捆绑包分配和取消分配给最终节点](/help/creative/experiences/experience-assign-creative-bundles.md)
             + [自定义创意优化和计划](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
             + [自定义创意人员的跟踪URL](/help/creative/experiences/experience-tracking-urls-targeting.md)
-   + Experiences without targeting {#experience-nontargeted}
-      + [Create an experience without targeting](/help/creative/experiences/experience-create-no-targeting.md)
-      + [Edit an experience without targeting](/help/creative/experiences/experience-edit-no-targeting.md)
-      + [Nontargeted experience settings](/help/creative/experiences/experience-settings-no-targeting.md)
-      + Ad tags and creatives{#non-targeted-creatives}
-         + [Manually create an ad tag for an applicable creative size](/help/creative/experiences/experience-tag-create-manually.md)
-         + [Assign creatives to an ad tag for experiences without targeting](/help/creative/experiences/experience-tag-assign-creatives.md)
-         + [Customize creative optimization and scheduling for an experience without targeting](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
-         + [Customize the tracking URLs for an experience without targeting](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
-   + [Clone an experience](/help/creative/experiences/experience-clone.md)
-   + [Preview an experience](/help/creative/experiences/experience-preview.md)
-   + [Customize transcoding options for a video ad experience tag](/help/creative/experiences/experience-tag-video-transcoding.md)
-   + [Export and implement an ad experience tag for a live experience](/help/creative/experiences/experience-tag-export.md)
-   + [Share a demo URL for an experience](/help/creative/experiences/experience-share-demo-url.md)
-   + [Download data from the [!UICONTROL Experiences] view](/help/creative/experiences/experience-download-view.md)
-   + [Rename an ad tag](/help/creative/experiences/experience-tag-rename.md)
-   + [View the change log for an experience](/help/creative/experiences/experience-view-change-log.md)
-   + [Delete an experience](/help/creative/experiences/experience-delete.md)
-+ Feeds {#feeds}
-   + [Manage asset files](/help/creative/feeds/asset-manage.md)
-   + [Manage feed templates](/help/creative/feeds/feed-template-manage.md)
-   + [Manage catalogs](/help/creative/feeds/catalog-manage.md)
-   + [Track the status of catalog processing jobs](/help/creative/feeds/job-status-track.md)
-+ [Manage dynamic ad templates](/help/creative/ad-templates/ad-template-manage.md)
-+ [Appendix: Available fields for dynamic ad feed files](/help/creative/appendix-available-feed-fields.md)
+   + 无定位的体验 {#experience-nontargeted}
+      + [在不定位的情况下创建体验](/help/creative/experiences/experience-create-no-targeting.md)
+      + [编辑体验，但不定位](/help/creative/experiences/experience-edit-no-targeting.md)
+      + [非定向体验设置](/help/creative/experiences/experience-settings-no-targeting.md)
+      + 广告标记和创意人员{#non-targeted-creatives}
+         + [为适用的创意大小手动创建广告标记](/help/creative/experiences/experience-tag-create-manually.md)
+         + [为无定位的体验将创意内容分配给广告标记](/help/creative/experiences/experience-tag-assign-creatives.md)
+         + [无需定位即可自定义体验的创意优化和计划](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
+         + [自定义体验的跟踪URL，而无需定位](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
+   + [克隆体验](/help/creative/experiences/experience-clone.md)
+   + [预览体验](/help/creative/experiences/experience-preview.md)
+   + [自定义视频广告体验标记的转码选项](/help/creative/experiences/experience-tag-video-transcoding.md)
+   + [为实时体验导出和实施广告体验标记](/help/creative/experiences/experience-tag-export.md)
+   + [共享体验URL](/help/creative/experiences/experience-share-demo-url.md)
+   + [从[!UICONTROL Experiences]视图下载数据](/help/creative/experiences/experience-download-view.md)
+   + [重命名广告标记](/help/creative/experiences/experience-tag-rename.md)
+   + [查看体验的更改日志](/help/creative/experiences/experience-view-change-log.md)
+   + [删除体验](/help/creative/experiences/experience-delete.md)
++ [管理品牌配置文件](/help/creative/brands/brand-manage.md)
++ 信息源 {#feeds}
+   + [管理资源文件](/help/creative/feeds/asset-manage.md)
+   + [管理信息源模板](/help/creative/feeds/feed-template-manage.md)
+   + [管理目录](/help/creative/feeds/catalog-manage.md)
+   + [跟踪目录处理作业的状态](/help/creative/feeds/job-status-track.md)
++ [管理动态广告模板](/help/creative/ad-templates/ad-template-manage.md)
++ [附录：动态广告馈送文件的可用字段](/help/creative/appendix-available-feed-fields.md)
 + 性能报表 {#reports}
    + [体验级性能报表](/help/creative/experiences/experience-performance-details.md)
    + [查看警报](/help/creative/reports/alerts-view.md)
