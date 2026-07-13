@@ -1,15 +1,12 @@
 ---
 title: 在Creative Studio中管理资源
 description: 了解如何在Adobe Advertising Creative的Creative Studio Assets选项卡中上传、浏览和管理资源。
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
 workflow-type: tm+mt
-source-wordcount: 292
+source-wordcount: 296
 ht-degree: 0%
 
 ---
@@ -45,6 +42,15 @@ Should be in "Common Tasks" chapter
 * Click **[!UICONTROL Filter]** to filter the asset library by type or other attributes.
 -->
 
+## 支持的资源类型
+
+| 类型 | 支持的格式 | 最大文件大小 |
+| --- | --- | --- |
+| 图像 | JPG/JPEG、PNG、GIF、WebP、SVG | 10 MB |
+| 视频 | MP4、MOV、AVI、WebM | 512兆字节 |
+| 音频 | MP3、WAV、AAC、OGG | 50 MB |
+| 字体 | TTF、OTF、WOFFF、WOFFF2 | 5 MB |
+
 ## 上传资源 {#assets-upload}
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative Studio].**
@@ -55,29 +61,9 @@ Should be in "Common Tasks" chapter
 
 1. 从您的计算机或网络中选择一个或多个文件。
 
-   支持以下文件类型：
-
-   | 类型 | 支持的格式 | 最大文件大小 |
-   | --- | --- | --- |
-   | 图像 | JPG/JPEG、PNG、GIF、WebP、SVG | 10 MB |
-   | 视频 | MP4、MOV、AVI、WebM | 512兆字节 |
-   | 音频 | MP3、WAV、AAC、OGG | 50 MB |
-
    空文件和不支持的文件类型会因错误通知而被拒绝。
 
    资产名称将另存为上传的文件名，不带其扩展名。 文件名中的空格和非ASCII字符被替换为下划线（例如，上传`My Logo.png`将创建名为`My_Logo`的资产）。 您可以随后重命名资源。
-
-<!--
-(from Bob) Moved from above step. Content in your repo failed to publish, and I'm testing several possible issues. Comment syntax between steps is sometimes problematic.
-
-Verified 2026-07-09 against creative-api TemplateMediaValidator.java (IMAGE_EXTENSIONS, VIDEO_EXTENSIONS, AUDIO_EXTENSIONS), which backs the /v1/creative/template-medias upload/initiate endpoint used by this tab. The Assets tab file input has no client-side accept restriction (TemplateBrowser.tsx) and relies entirely on this backend validator, so it is authoritative.
-
-
-maybe later:
-
-   | Fonts | TTF, OTF, WOFF, WOFF2 | 5 MB |
-   
--->
 
 ## 编辑资源名称 {#asset-rename}
 
