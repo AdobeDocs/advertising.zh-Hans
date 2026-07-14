@@ -7,9 +7,9 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
 workflow-type: tm+mt
-source-wordcount: 2509
+source-wordcount: 2512
 ht-degree: 2%
 
 ---
@@ -27,13 +27,11 @@ ht-degree: 2%
 该选项卡还会将您现有的广告模板列在页面<!-- Only in the Templates tab -->的底部，作为[个单独的卡片（默认）或表格/列表](/help/creative/introduction/customize-data-views.md)列出。 广告模板列表包括[!UICONTROL All]、[!UICONTROL System Templates]（由您的Adobe客户团队上传到您的帐户）和[!UICONTROL User Templates]的选项卡。 默认情况下，将显示所有广告商的广告模板。 要仅查看特定广告商的广告模板，请从页面顶部的广告商列表中选择。
 
 <!-- 
-
 Probably not necessary:
 
 * **[!UICONTROL Card view]** &mdash; Displays templates as cards. Each card shows a preview thumbnail and the ad dimensions. Hovering a card reveals action controls.
 
 * **[!UICONTROL Table view]** &mdash; Displays templates in a table with columns for **[!UICONTROL Name]**, **[!UICONTROL Type]**, **[!UICONTROL Status]**, **[!UICONTROL Size/Duration]**, **[!UICONTROL Advertiser]**, and **[!UICONTROL Updated]**. Click the **[!UICONTROL Name]** or **[!UICONTROL Updated]** column header to sort ascending or descending. Pagination controls appear at the bottom of the list.
-
 -->
 
 ### 可用操作
@@ -249,7 +247,7 @@ The top toolbar above the canvas is the same for both display and video template
 | 图标 | 描述 |
 | --- | --- |
 | **[!UICONTROL Search]** | 在库中的所有资产类型中进行搜索。 |
-| **[!UICONTROL Upload]** | 将图像<!-- not there as of 7/10:  or font files (TTF, OTF, WOFF, WOFF2)-->上载到编辑器以在当前模板中使用。 您一次最多可以上传20个文件。 |
+| **[!UICONTROL Upload]** | 将图像或字体文件上载到编辑器以在当前模板中使用。 您一次最多可以上传20个文件。 |
 | **[!UICONTROL Templates]** | 从Creative Studio库中浏览广告模板，以用作基础层或引用元素。 |
 | **[!UICONTROL My Assets]** | 浏览您在Creative Studio Assets选项卡中上传的所有资源。 |
 | **[!UICONTROL Images]** | 仅浏览您在Creative Studio Assets选项卡中上传的图像资源。 |
@@ -516,3 +514,4 @@ These are all saved with the template, but they aren't what you see, as-is, in t
 >* [在Creative Studio中管理资源](creative-studio-manage-assets.md)
 >* [在Creative Studio中管理标准广告](creative-studio-manage-standard-ads.md)
 >* [在Creative Studio中管理动态创意](creative-studio-manage-dynamic-ads.md)
+

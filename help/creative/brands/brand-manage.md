@@ -7,7 +7,7 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
 workflow-type: tm+mt
 source-wordcount: 1085
 ht-degree: 0%
@@ -126,11 +126,11 @@ ht-degree: 0%
 
 品牌详细信息页面分为以下选项卡。
 
-### **[!UICONTROL Overview]**
+### [!UICONTROL Overview]
 
 显示品牌名称。 要添加描述，请单击&#x200B;**[!UICONTROL When to use this brand]**，输入描述文本，然后单击&#x200B;**[!UICONTROL Save]**。 描述将立即保存，无需单击页面级别&#x200B;**[!UICONTROL Save]**&#x200B;按钮。
 
-### **[!UICONTROL Brand voice guidelines]**
+### [!UICONTROL Brand voice guidelines]
 
 （可选）定义品牌的声音和报文传送标准。 AI代理在生成标题和文案时使用这些准则。
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Editorial Restrictions]：** （可选）要避免的写入规则。 例如：“避免使用行话”、“不发表定价声明”或“从不使用竞争对手的名字”。
 
-### **[!UICONTROL Image guidelines]**
+### [!UICONTROL Image guidelines]
 
 （可选）定义背景和产品图像的标准，最多可分为10个类别。 AI代理在生成背景图像提示时使用这些准则。
 
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Restrictions]：** （可选）要避免的内容。 包括最多五个项目。 例如：“无照片集美学”或“避免繁忙的背景”。
 
-### **[!UICONTROL Channel guidelines]**
+### [!UICONTROL Channel guidelines]
 
 定义<!-- Just one set of guidelines as of 7/9: channel-specific -->至10个复制标准。 AI代理在生成副本变体时使用渠道准则。
 
@@ -186,7 +186,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Examples]：**（可选）说明<!-- Just one set of guidelines as of 7/9: channel's -->指定样式的示例广告文案（标题、副标题、正文和CTA）。 若要根据您的指南查看广告文案示例，请单击&#x200B;**[!UICONTROL Create example]**。
 
-### **[!UICONTROL Logos]**
+### [!UICONTROL Logos]
 
 （可选）徽标用在包含徽标元素的广告中，并且在交换徽标版本时可供AI代理使用。 支持的图像类型包括JPG、PNG和SVG，每个文件最大可达5 MB。 每个品牌最多可包含10个徽标。
 
@@ -212,7 +212,7 @@ ht-degree: 0%
 
    * 要从品牌设置中删除徽标，请单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Delete]**。 在确认消息中，单击&#x200B;**[!UICONTROL Delete]**。
 
-### **[!UICONTROL Colors]**
+### [!UICONTROL Colors]
 
 （可选）定义品牌的调色板。 AI代理在生成基于颜色的广告变体时使用指定的颜色。
 
