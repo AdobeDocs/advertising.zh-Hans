@@ -2,10 +2,15 @@
 title: （新UI）发布批量工作表或已更正的错误文件
 description: 了解如何在新的Search、Social和Commerce UI中将批量工作表文件发布到广告网络。
 feature: Search Bulksheets
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: e58024d1-d6da-420c-80af-6be211808316id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: e58024d1-d6da-420c-80af-6be211808316
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
 workflow-type: tm+mt
 source-wordcount: 752
@@ -33,7 +38,7 @@ ht-degree: 0%
 
    相同的设置适用于您发布的所有文件。
 
-任务开始时，[!UICONTROL Bulksheets]视图中行的状态和计划发布日期将更新。 如果在[!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md)中启用了批量处理工作表的电子邮件通知[，则在发布文件时会发送一封电子邮件通知，其中包含指向文件的链接。 根据编译的数据量，电子邮件通知可能需要几分钟或更长时间。 如果有任何数据无法发布，则错误文件将列在[!UICONTROL Bulksheets]视图中，并且会发送电子邮件通知，其中包含指向错误文件的链接。
+任务开始时，[!UICONTROL Bulksheets]视图中行的状态和计划发布日期将更新。 如果在[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/new-ui/notifications-manage.md)中启用了批量处理工作表的电子邮件通知，则在发布文件时会发送一封电子邮件通知，其中包含指向文件的链接。 根据编译的数据量，电子邮件通知可能需要几分钟或更长时间。 如果有任何数据无法发布，则错误文件将列在[!UICONTROL Bulksheets]视图中，并且会发送电子邮件通知，其中包含指向错误文件的链接。
 
 >[!NOTE]
 >

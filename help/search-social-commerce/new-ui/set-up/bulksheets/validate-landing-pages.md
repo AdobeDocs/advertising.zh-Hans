@@ -2,10 +2,15 @@
 title: （新UI）验证批量处理工作表文件中的登陆页面
 description: 了解如何在新的Search、Social和Commerce UI中验证单帐户批量工作表文件中的目标URL。
 feature: Search Bulksheets
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: e58024d1-d6da-420c-80af-6be211808316id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: e58024d1-d6da-420c-80af-6be211808316
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: f22a0f3f1884066faca71c6e8bb760253366b30e
 workflow-type: tm+mt
 source-wordcount: 585
@@ -52,7 +57,7 @@ ht-degree: 0%
 
    **[!UICONTROL Report redirects as errors]：**&#x200B;当登陆页面重定向到其他页面时（例如，如果登陆页面缺失且站点显示替换页面），登陆页面错误文件中的[!UICONTROL EF Errors]列将指示登陆页面被重定向到的URL。
 
-任务开始时，将在[!UICONTROL Bulksheets]视图中添加一个新行。 如果在[!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md)中启用了批量处理工作表的电子邮件通知[，则在创建文件时会发送一封电子邮件通知，其中包含指向文件的链接。 根据编译的数据量，电子邮件通知可能需要几分钟或更长时间。 您可以下载文件以进行编辑，然后重新上传以供发布，也可以按原样发布文件。
+任务开始时，将在[!UICONTROL Bulksheets]视图中添加一个新行。 如果在[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/new-ui/notifications-manage.md)中启用了批量处理工作表的电子邮件通知，则在创建文件时会发送一封电子邮件通知，其中包含指向文件的链接。 根据编译的数据量，电子邮件通知可能需要几分钟或更长时间。 您可以下载文件以进行编辑，然后重新上传以供发布，也可以按原样发布文件。
 
 >[!NOTE]
 >
