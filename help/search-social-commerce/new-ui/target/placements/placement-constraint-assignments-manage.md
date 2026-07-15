@@ -1,21 +1,17 @@
 ---
-title: 管理广告组的限制分配
-description: 了解如何将限制分配给广告组。
+title: 管理投放位置的限制分配
+description: 了解如何将限制分配给投放位置。
 feature: Search Optimization, Search Campaign Management
 hide: true
-exl-id: c9960b5a-4b6c-4ef0-8501-5478af2c40da
-TQID: https://experienceleague.adobe.com/6z4-Pt25RaQpLiEYdnp-BXD0guz9S2zQLmamf8uSSXU
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+exl-id: 325fb6b2-7f6f-41bc-bae7-9ee8590c6263
 source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
 workflow-type: tm+mt
-source-wordcount: 389
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
-# （新UI）管理广告组的限制分配
+# （新UI）管理投放位置的限制分配
 
 *Beta功能*
 
@@ -25,11 +21,18 @@ ht-degree: 0%
 
 取消指定约束会删除与帐户组件及其所有子组件的关联，并且这些组件不再能使用该约束的报告数据。 取消指定约束并不会删除约束或帐户组件本身。
 
-## 从新[!UICONTROL Ad Groups]视图将限制分配给选定的广告组
+>[!NOTE]
+>
+>* 如果您稍后编辑非可变广告的关键字或广告副本（从而创建新关键字或广告），则约束不会分配给新实体。
+>* 活动约束仅限制优化旧关键词级别项目组合中已分配竞价单位的竞价。 对于活跃项目组合中的竞价单位、混合项目组合中的竞价单位或不在项目组合中的竞价单位，它们将被忽略。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Ad Groups]**。
+## 从新[!UICONTROL Placements]视图为所选投放位置分配约束
 
-1. 选中要为其分配单个约束的每个广告组旁边的复选框。
+可以将单个约束分配给一个或多个位置。
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Target]>[!UICONTROL Placements]**。
+
+1. 在&#x200B;**[!UICONTROL Placements]**&#x200B;选项卡上，选中要为其分配单个约束的每个投放位置旁边的复选框。
 
 1. 在批量操作工具栏中，单击&#x200B;**+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**。
 
@@ -57,11 +60,11 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
-## 从新[!UICONTROL Ad Groups]视图中取消分配选定广告组的约束
+## 从新[!UICONTROL Placements]视图中取消分配选定投放位置的约束
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Ad Groups]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Target]>[!UICONTROL Placements]**。
 
-1. 选中要从中取消分配约束的每个广告组旁边的复选框。
+1. 在&#x200B;**[!UICONTROL Placements]**&#x200B;选项卡上，选中要从中取消分配约束的每个放置旁边的复选框。
 
 1. 在批量操作工具栏中，单击&#x200B;**-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**。
 
@@ -87,5 +90,5 @@ ht-degree: 0%
 >
 >* [（新UI）管理搜索竞价单位的约束](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [（新UI）管理营销活动的限制分配](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+>* [（新UI）管理广告组的约束分配](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [（新UI）管理关键字](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)的约束分配
->* [（新UI）管理投放位置的约束分配](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)

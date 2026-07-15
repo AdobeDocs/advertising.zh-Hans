@@ -2,16 +2,11 @@
 title: （新UI）上传批量工作表或已更正的错误文件
 description: 了解如何在新的Search、Social和Commerce UI中手动上传批量工作表文件或更正的登陆页验证错误文件。
 feature: Search Bulksheets
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: e58024d1-d6da-420c-80af-6be211808316
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 38fd7ff63b177f13bdfb19b980fb1d1e14edcf56
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: e58024d1-d6da-420c-80af-6be211808316id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: f22a0f3f1884066faca71c6e8bb760253366b30e
 workflow-type: tm+mt
 source-wordcount: 830
 ht-degree: 0%
@@ -30,7 +25,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Upload]**。
 
-当任务开始时，文件将列在[!UICONTROL Bulksheets]视图中。 如果在[!UICONTROL Notification Center] [&#128279;] (/help/search-social-commerce/new-ui/notifications/notification-manage.md)中启用了批量处理工作表的电子邮件通知，则会在作业完成时发送电子邮件通知，其中包含指向文件的链接。 根据编译的数据量，电子邮件通知可能需要几分钟或更长时间。 如果文件生成失败，则[!UICONTROL Bulksheets]视图中会列出一个错误文件，并会发送电子邮件通知，其中包含指向该错误文件的链接。
+当任务开始时，文件将列在[!UICONTROL Bulksheets]视图中。 如果在[!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md)中启用了批量处理工作表的电子邮件通知[，则会在作业完成时发送电子邮件通知，其中包含指向文件的链接。 根据编译的数据量，电子邮件通知可能需要几分钟或更长时间。 如果文件生成失败，则[!UICONTROL Bulksheets]视图中会列出一个错误文件，并会发送电子邮件通知，其中包含指向该错误文件的链接。
 
 >[!NOTE]
 >
