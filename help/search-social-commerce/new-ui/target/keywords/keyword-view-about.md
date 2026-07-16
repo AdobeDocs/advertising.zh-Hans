@@ -4,9 +4,9 @@ description: 了解您可以在[!UICONTROL Keywords]视图中执行的操作。
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: e89e47d3-b41c-4330-8b72-f601194d5ddc
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: d375af35af1db5aab75db2e712ae54a39f392c3d
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,10 @@ ht-degree: 0%
 
 ## 可用操作
 
-* [将约束分配给关键字，并从关键字中取消约束分配](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+* [将约束分配给关键字，并从关键字中取消约束分配](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
+
+* [将标签分类](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)分配给关键字
 
 >[!MORELIKETHIS]
 >
->* [管理关键字的约束分配](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>* [管理关键字的约束分配](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)

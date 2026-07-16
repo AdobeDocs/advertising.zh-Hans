@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 739034010787c2016720bef37fb75dc8efbae58b
+source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
 workflow-type: tm+mt
 source-wordcount: 752
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    相同的设置适用于您发布的所有文件。
 
-任务开始时，[!UICONTROL Bulksheets]视图中行的状态和计划发布日期将更新。 如果在[!UICONTROL Notification Center] [&#128279;] (/help/search-social-commerce/new-ui/notifications/notification-manage.md)中启用了批量处理工作表的电子邮件通知，则在发布文件时会发送一封电子邮件通知，其中包含指向文件的链接。 根据编译的数据量，电子邮件通知可能需要几分钟或更长时间。 如果有任何数据无法发布，则错误文件将列在[!UICONTROL Bulksheets]视图中，并且会发送电子邮件通知，其中包含指向错误文件的链接。
+任务开始时，[!UICONTROL Bulksheets]视图中行的状态和计划发布日期将更新。 如果在[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/new-ui/notifications-manage.md)中启用了批量处理工作表的电子邮件通知，则在发布文件时会发送一封电子邮件通知，其中包含指向文件的链接。 根据编译的数据量，电子邮件通知可能需要几分钟或更长时间。 如果有任何数据无法发布，则错误文件将列在[!UICONTROL Bulksheets]视图中，并且会发送电子邮件通知，其中包含指向错误文件的链接。
 
 >[!NOTE]
 >

@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 38fd7ff63b177f13bdfb19b980fb1d1e14edcf56
+source-git-commit: f22a0f3f1884066faca71c6e8bb760253366b30e
 workflow-type: tm+mt
 source-wordcount: 830
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Upload]**。
 
-当任务开始时，文件将列在[!UICONTROL Bulksheets]视图中。 如果在[!UICONTROL Notification Center] [&#128279;] (/help/search-social-commerce/new-ui/notifications/notification-manage.md)中启用了批量处理工作表的电子邮件通知，则会在作业完成时发送电子邮件通知，其中包含指向文件的链接。 根据编译的数据量，电子邮件通知可能需要几分钟或更长时间。 如果文件生成失败，则[!UICONTROL Bulksheets]视图中会列出一个错误文件，并会发送电子邮件通知，其中包含指向该错误文件的链接。
+当任务开始时，文件将列在[!UICONTROL Bulksheets]视图中。 如果在[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/new-ui/notifications-manage.md)中启用了批量处理工作表的电子邮件通知，则会在作业完成时发送电子邮件通知，其中包含指向文件的链接。 根据编译的数据量，电子邮件通知可能需要几分钟或更长时间。 如果文件生成失败，则[!UICONTROL Bulksheets]视图中会列出一个错误文件，并会发送电子邮件通知，其中包含指向该错误文件的链接。
 
 >[!NOTE]
 >

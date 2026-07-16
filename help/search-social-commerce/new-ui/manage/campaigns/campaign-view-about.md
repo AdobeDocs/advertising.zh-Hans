@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+source-git-commit: d375af35af1db5aab75db2e712ae54a39f392c3d
 workflow-type: tm+mt
-source-wordcount: 252
+source-wordcount: 257
 ht-degree: 0%
 
 ---
@@ -44,6 +44,8 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 * [将营销活动分配到现有项目组合或新项目组合](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)，并从项目组合[取消分配营销活动](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 
 * [将限制分配给活动，并取消分配活动中的限制](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+
+* [将标签分类](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)分配给营销活动
 
 * [从[!UICONTROL Campaigns]视图管理数据视图报告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
 
