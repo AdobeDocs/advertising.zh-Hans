@@ -4,7 +4,7 @@ description: 了解如何将限制分配给投放位置。
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 325fb6b2-7f6f-41bc-bae7-9ee8590c6263
-source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
-## 从新[!UICONTROL Placements]视图中取消分配选定投放位置的约束
+## 从新[!UICONTROL Placements]视图中的选定投放位置删除约束
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Target]>[!UICONTROL Placements]**。
 

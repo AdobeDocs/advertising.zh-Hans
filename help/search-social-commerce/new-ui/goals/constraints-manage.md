@@ -6,7 +6,7 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 subfeature_v2:
   - id: c800239a-06eb-4249-9aef-771973d24d35
-source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
 source-wordcount: 2660
 ht-degree: 0%
@@ -66,9 +66,9 @@ ht-degree: 0%
 
 * 所有约束都是名为“[!UICONTROL Constraints]”的单个[标签分类](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=zh-Hans)的标签值。
 
-   * “[!UICONTROL Constraints]”包含在默认和自定义视图设置以及计划报告的“[!UICONTROL Classifications]”列表中。 可随处添加列，以查看分配给相关实体的约束。
+  * “[!UICONTROL Constraints]”包含在默认和自定义视图设置以及计划报告的“[!UICONTROL Classifications]”列表中。 可随处添加列，以查看分配给相关实体的约束。
 
-   * 当您下载批量处理工作表时，“[!UICONTROL Constraints]”在[!UICONTROL Download Bulksheet]”对话框中适用实体的“[!UICONTROL Classifications]”列下列出。 当包含列时，下载的批量工作表将包含分配给相关图元的任何约束。
+  * 当您下载批量处理工作表时，“[!UICONTROL Constraints]”在[!UICONTROL Download Bulksheet]”对话框中适用实体的“[!UICONTROL Classifications]”列下列出。 当包含列时，下载的批量工作表将包含分配给相关图元的任何约束。
 
   [!UICONTROL Constraints]分类未包含在[!UICONTROL Label Classifications]视图中 — [!UICONTROL Constraints]视图是独立的。 [!UICONTROL Constraints]分类也不包含在30个标签的分类限制中。
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 您可以暂停任何活动约束以将其禁用。 您稍后可以通过将状态更改回&#x200B;*活动*&#x200B;来启用它。
 
-您也可以删除约束，这将删除与帐户组件的所有关联，并使该约束不可用于将来使用。 限制的报表数据不再可用。 **注意：**&#x200B;若要仅解除限制与帐户组件的关联，请参阅“[从搜索竞价单位取消分配限制](#constraints-unassign)”。
+您也可以删除约束，这将删除与帐户组件的所有关联，并使该约束不可用于将来使用。 限制的报表数据不再可用。 **注意：**&#x200B;若要仅解除限制与帐户组件的关联，请参阅“[从搜索竞价单位中移除限制](#constraints-unassign)”。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Goals]>[!UICONTROL Constraints]**。
 

@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 82db1b4d0d8703229a4002e932d5b2f52f845814
+source-git-commit: e27316a62339036414dc1c624a35b398ad1cf392
 workflow-type: tm+mt
-source-wordcount: 2408
+source-wordcount: 2413
 ht-degree: 2%
 
 ---
@@ -214,6 +214,8 @@ ht-degree: 2%
       + [关于[!UICONTROL Placements]视图](/help/search-social-commerce/new-ui/target/placements/placement-view-about.md)
       + [管理投放位置的限制分配](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
     + [管理 [!DNL Google Ads] 动态搜索目标](/help/search-social-commerce/new-ui/target/dynamic-search-target-manage.md)
+  + 资源 {#assets}
+    + [管理购物产品组](/help/search-social-commerce/new-ui/assets/product-groups-manage.md)
   + 设置 {#setup}
     + 帐户 {#accounts}
       + [关于广告网络帐户](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)
