@@ -4,17 +4,13 @@ description: 了解如何创建和管理 [!DNL Google Ads] 动态搜索目标。
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
 TQID: 'https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0'
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 82db1b4d0d8703229a4002e932d5b2f52f845814
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
-source-wordcount: 718
+source-wordcount: 702
 ht-degree: 0%
 
 ---
@@ -43,11 +39,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Auto Targets]视图
 
-[!UICONTROL Auto Targets]视图列出了所选广告商帐户的筛选视图中的所有动态搜索目标。
-
-您可以在[!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Auto Targets]视图中创建、编辑和更改动态搜索目标的状态。
-
-您还可以[将标签](/help/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management.md)应用于任何目标。
+[!UICONTROL Target] > [!UICONTROL Auto Targets]视图列出了所选广告商帐户的筛选视图中的所有动态搜索目标。 您还可以管理动态搜索目标。
 
 ### 可用操作
 
@@ -59,7 +51,7 @@ ht-degree: 0%
 * Change the status of dynamic search targets
 -->
 
-* [将约束分配给动态搜索目标](#constraint-assign)，并从动态搜索目标[取消分配约束](#constraint-unassign)
+* [将约束](#constraint-assign)分配给动态搜索目标，并[从动态搜索目标中移除约束](#constraint-unassign)
 
 * [将标签分类](#classification-values-assign)分配给动态搜索目标，并[从动态搜索目标中删除标签分类](#classification-values-remove)
 
@@ -192,7 +184,7 @@ You can also delete any dynamic target.
 
 1. 单击&#x200B;**[!UICONTROL Assign Now]**。
 
-## 从新[!UICONTROL Auto Targets]视图中取消分配选定动态搜索目标的约束 {#constraint-unassign}
+## 从新[!UICONTROL Auto Targets]视图中删除所选动态搜索目标的约束 {#constraint-unassign}
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Auto Targets]**。
 
@@ -236,7 +228,7 @@ You can also delete any dynamic target.
 
 1. 单击&#x200B;**+[!UICONTROL Assign Now]**。
 
-## 从动态搜索目标中删除标签分类值{#classification-values-remove}
+## 从动态搜索目标中删除标签分类值 {#classification-values-remove}
 
 删除分类值将删除与帐户组件及其所有子组件的关联。 分类值的报表数据不再可用于这些组件。 删除分类值不会删除该值，也不会删除帐户组件。
 

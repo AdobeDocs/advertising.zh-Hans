@@ -4,7 +4,7 @@ description: 了解如何将约束分配给关键字。
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 4f08719e-0770-4a65-91b2-80cf03b65557
-source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
-## 从新[!UICONTROL Keywords]视图中取消分配选定营销活动的约束
+## 从新[!UICONTROL Keywords]视图中删除选定营销活动的限制
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Target]>[!UICONTROL Keywords]**。
 
