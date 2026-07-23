@@ -2,7 +2,7 @@
 title: 专业报告的报告列
 description: 了解专业报告的可用数据列。
 feature: Search Reports, Search Specialty Reports
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: 43b3d16233aec1fce0f3db092b9911717686f448
 workflow-type: tm+mt
 source-wordcount: '3172'
 ht-degree: 0%
