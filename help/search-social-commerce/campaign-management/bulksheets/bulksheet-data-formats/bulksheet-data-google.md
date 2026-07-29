@@ -263,7 +263,7 @@ Add in when released:
 
 ### 扩展的动态搜索广告
 
-此广告类型现在在[!DNL Google Ads]中称为“动态搜索广告”。 有关创建动态搜索广告的更多信息，请参阅“[实施 [!DNL Google Ads] 动态搜索广告](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html)”。
+此广告类型现在在[!DNL Google Ads]中称为“动态搜索广告”。 有关创建动态搜索广告的更多信息，请参阅“[实施 [!DNL Google Ads] 动态搜索广告](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html?lang=zh-Hans)”。
 
 对于此广告类型，请使用[!UICONTROL Download Bulksheet]对话框中的“[!UICONTROL Creative (except RSA)]”行。
 
@@ -288,7 +288,7 @@ Add in when released:
 
 ### 产品列表/购物广告字段
 
-有关创建购物广告的更多信息，请参阅“[实施 [!DNL Google Ads] 购物营销活动](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html)”。
+有关创建购物广告的更多信息，请参阅“[实施 [!DNL Google Ads] 购物营销活动](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html?lang=zh-Hans)”。
 
 对于此广告类型，请使用[!UICONTROL Download Bulksheet]对话框中的“[!UICONTROL Creative (except RSA)]”行。
 
