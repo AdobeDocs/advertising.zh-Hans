@@ -4,13 +4,10 @@ description: 引用 [!DNL Microsoft Advertising] 广告组的设置。
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/f-mac9RGzF4qVr7P65-9AuhWKf22tdND5XSJ1YvLWyc
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 75e264e213f60ae45c4f51f0a21352f690d6d699
 workflow-type: tm+mt
 source-wordcount: 756
 ht-degree: 0%
@@ -165,4 +162,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [管理广告组](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
+>* [管理广告组](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)

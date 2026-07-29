@@ -2,7 +2,7 @@
 title: （新UI）在Microsoft Advertising中复制Google Ads营销活动
 description: 了解如何将Google Ads帐户中同步的促销活动直接导出到同步的Microsoft Advertising帐户。
 feature: Search Campaign Management
-source-git-commit: e6649d66757333660662a058410221b73a45e6cc
+source-git-commit: 75e264e213f60ae45c4f51f0a21352f690d6d699
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 您可以选择更新营销活动一次；每天、每周或每月；或根据[!DNL Microsoft Advertising]的建议计划更新。 您可以选择在每次导入作业运行或发生错误或更改时配置通知。 将营销活动导入[!DNL Microsoft Advertising]后，您可以检查导入作业的状态、查看任何错误日志、手动运行导入作业，以及编辑、暂停、启用或删除导入计划。
 
-并非所有营销活动信息都已复制，您可能需要向[!DNL Microsoft Advertising]营销活动添加一些信息。 有关导入哪些数据的详细信息，请参阅[!DNL Microsoft Advertising]有关“[从 [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851){target="_blank"}导入哪些数据”的帮助。 由于未导入搜索、社交和Commerce跟踪，因此您还应该在[帐户](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)、[营销活动](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[广告组](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)或[广告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)设置中添加跟踪。
+并非所有营销活动信息都已复制，您可能需要向[!DNL Microsoft Advertising]营销活动添加一些信息。 有关导入哪些数据的详细信息，请参阅[!DNL Microsoft Advertising]有关“[从 [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851){target="_blank"}导入哪些数据”的帮助。 由于未导入搜索、社交和Commerce跟踪，因此您还应该在[帐户](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)、[营销活动](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[广告组](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)或[广告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)设置中添加跟踪。
 
 ## 复制[!DNL Google Ads]营销活动
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 >
 >如果要复制基于购物馈送的显示促销活动，请先[在 [!DNL Microsoft Merchant Center]](https://help.ads.microsoft.com/apex/index/3/en/56870){target="_blank"}中复制 [!DNL Google Merchant Center] 产品选件。 复制营销活动时，在导入选项中选择[!DNL Microsoft Merchant Center]存储，以将存储链接到基于信息源的受众营销活动。
 
-查看从 [!DNL Google Ads] 营销活动[&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}导入的内容。
+查看从 [!DNL Google Ads] 营销活动](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}导入的[内容。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**。
 
@@ -47,11 +47,11 @@ ht-degree: 0%
 
 1. 在摘要中查看您的选择，然后单击&#x200B;**[!UICONTROL Start Import]**。
 
-1. （可选）在[帐户](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)、[营销活动](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[广告组](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)或[广告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)设置中添加搜索、社交和Commerce跟踪。
+1. （可选）在[帐户](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)、[营销活动](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[广告组](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)或[广告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)设置中添加搜索、社交和Commerce跟踪。
 
 ## 编辑活动导入作业的计划设置
 
-查看从 [!DNL Google Ads] 营销活动[&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}导入的内容。
+查看从 [!DNL Google Ads] 营销活动](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}导入的[内容。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**。
 
@@ -105,11 +105,11 @@ ht-degree: 0%
 
 * *[!UICONTROL Import specific campaigns and adgroups]：*&#x200B;选择特定的营销活动和广告组。
 
-   * 要将营销活动展开到其子广告组，请单击营销活动名称后面的&#x200B;**[!UICONTROL >]**。
+  * 要将营销活动展开到其子广告组，请单击营销活动名称后面的&#x200B;**[!UICONTROL >]**。
 
-   * 要选择营销活动或广告组，请选择相应的项目，以便显示复选标记。
+  * 要选择营销活动或广告组，请选择相应的项目，以便显示复选标记。
 
-   * 要删除某个营销活动或广告组，请取消选择该项目，或单击[!UICONTROL Selection]列中的![删除](/help/search-social-commerce/assets/delete-new.png "删除")。
+  * 要删除某个营销活动或广告组，请取消选择该项目，或单击[!UICONTROL Selection]列中的![删除](/help/search-social-commerce/assets/delete-new.png "删除")。
 
 ### [!UICONTROL Customize Your Import]选项卡
 
