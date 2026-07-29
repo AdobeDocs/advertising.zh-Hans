@@ -3,9 +3,9 @@ title: （新UI）管理广告网络帐户
 description: 了解如何在新UI中为通过广告网络API同步的广告网络设置和管理帐户详细信息。
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: 694cc3c6bc6217cf6f1febf5da28fd7988690622
+source-git-commit: 6b9aca3a3de262935428a749acc123fcf7b76c18
 workflow-type: tm+mt
-source-wordcount: '2215'
+source-wordcount: '2143'
 ht-degree: 0%
 
 ---
@@ -40,13 +40,7 @@ ht-degree: 0%
 
 1. （除[!DNL Yandex]之外的所有广告网络）使用广告商的凭据登录到广告网络。 选择“此帐户的帐户跟踪”选项。 然后，在右上角单击&#x200B;**[!UICONTROL Next]**。
 
-1. 指定[帐户设置](#account-settings-api)：
-
-   1. 在&#x200B;**[!UICONTROL Select Accounts]**&#x200B;选项卡上，指定常规帐户设置。 对于[!DNL Yandex]帐户，请指定帐户凭据。
-
-   1. 单击&#x200B;**[!UICONTROL Setup Tracking]**&#x200B;选项卡，然后输入跟踪设置。
-
-   1. （具有[[!DNL Adobe Analytics for Advertising] 集成](/help/integrations/analytics/overview.md)的广告商）单击“**[!UICONTROL Set up Adobe Analytics]**”选项卡，然后选择要用于跟踪和报告促销活动的所有[!DNL Analytics]报告包。
+1. 在每个可用选项卡上指定[帐户设置](#account-settings-api)。
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
@@ -68,15 +62,7 @@ ht-degree: 0%
 
    * 将光标放在帐户名称上，单击&#x200B;**...**，然后单击&#x200B;**[!UICONTROL Edit]**。
 
-1. 编辑[帐户设置](#account-settings-api)：
-
-   1. （可选）在&#x200B;**[!UICONTROL Account Details]**&#x200B;选项卡上，编辑帐户详细信息。
-
-   1. （可选）单击&#x200B;**[!UICONTROL Setup Tracking]**&#x200B;选项卡，然后编辑跟踪设置。
-
-   1. （可选；具有[[!DNL Adobe Analytics for Advertising] 集成](/help/integrations/analytics/overview.md)的广告商）单击&#x200B;**[!UICONTROL Set up Adobe Analytics]**&#x200B;选项卡，然后编辑要用于跟踪和报告促销活动活动的[!DNL Analytics]报告包。
-
-   <!-- What are the repercussions of changing the suites? Timing of updated data? -->
+1. 编辑可用选项卡上的[帐户设置](#account-settings-api)。
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
@@ -114,21 +100,21 @@ ht-degree: 0%
 
    * （从[!UICONTROL Accounts]视图）：
 
-      * （要启用帐户）选中帐户名称旁边的复选框，然后单击批量操作工具栏中的&#x200B;**[!UICONTROL Activate]**。
+     * （要启用帐户）选中帐户名称旁边的复选框，然后单击批量操作工具栏中的&#x200B;**[!UICONTROL Activate]**。
 
-      * （要禁用帐户）选中帐户名称旁边的复选框，然后单击批量操作工具栏中的&#x200B;**[!UICONTROL Pause]**。
+     * （要禁用帐户）选中帐户名称旁边的复选框，然后单击批量操作工具栏中的&#x200B;**[!UICONTROL Pause]**。
 
    * （从帐户设置）：
 
-      1. 通过以下任一方式选择帐户：
+     1. 通过以下任一方式选择帐户：
 
-         * 将光标放在帐户名称上，单击&#x200B;**...**，然后单击&#x200B;**[!UICONTROL Edit]**。
+        * 将光标放在帐户名称上，单击&#x200B;**...**，然后单击&#x200B;**[!UICONTROL Edit]**。
 
-         * 选中帐户名称旁边的复选框，然后单击批量操作工具栏中的&#x200B;**[!UICONTROL Edit]**。
+        * 选中帐户名称旁边的复选框，然后单击批量操作工具栏中的&#x200B;**[!UICONTROL Edit]**。
 
-      1. 在&#x200B;**[!UICONTROL Account Details]**&#x200B;选项卡上，关闭&#x200B;**[!UICONTROL Account enabled]**。
+     1. 在&#x200B;**[!UICONTROL Account Details]**&#x200B;选项卡上，关闭&#x200B;**[!UICONTROL Account enabled]**。
 
-      1. 单击&#x200B;**[!UICONTROL Save]**。
+     1. 单击&#x200B;**[!UICONTROL Save]**。
 
 ## 广告网络帐户设置 {#account-settings-api}
 
@@ -149,7 +135,7 @@ ht-degree: 0%
 >
 >如果您集成了“搜索”、“Social”和“Commerce-Adobe Analytics”，并更改了搜索帐户的名称，请让您的Adobe帐户团队更新映射。
 
-**[!DNL [广告网络]帐户]：** （在创建帐户时可见）要同步的广告网络帐户。
+**[！DNL [广告网络]帐户]：** （在创建帐户时可见）要同步的广告网络帐户。
 
 **[登录详细信息]：** （仅限Yandex帐户）要使用的帐户凭据：
 
@@ -203,7 +189,7 @@ ht-degree: 0%
 >* 如果您从[!UICONTROL Standard]切换到[!UICONTROL Token]，或者反之，则必须重新生成帐户的跟踪URL。
 >* 您可以在营销策划级别覆盖帐户级别设置。
 
-**[!UICONTROL Auto Update]：** （启用搜索、社交和Commerce跟踪时）标准化您的跟踪URL以实现跨浏览器和服务器的兼容性。 Search、Social和Commerce会在下次同步期间自动将以下内容上传到广告网络：(a)用于跟踪模板的搜索、Social和Commerce跟踪参数以及附加到最终URL的相同参数，或者(b)嵌入了Search、Social和Commerce跟踪代码的新目标URL。 对于具有[Adobe Advertising-Adobe Analytics集成](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hans)和服务器端AMO ID (s_kwcid)配置的广告商，该上传还包括您的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户的[AMO ID参数](/help/integrations/analytics/ids.md#amo-id)。 默认帐户级别设置继承自广告商的跟踪设置。 您可以在营销策划级别覆盖帐户级别设置。
+**[!UICONTROL Auto Update]：** （启用搜索、社交和Commerce跟踪时）标准化您的跟踪URL以实现跨浏览器和服务器的兼容性。 Search、Social和Commerce会在下次同步期间自动将以下内容上传到广告网络：(a)用于跟踪模板的搜索、Social和Commerce跟踪参数以及附加到最终URL的相同参数，或者(b)嵌入了Search、Social和Commerce跟踪代码的新目标URL。 对于具有[Adobe Advertising-Adobe Analytics集成](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)和服务器端AMO ID (s_kwcid)配置的广告商，该上传还包括您的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户的[AMO ID参数](/help/integrations/analytics/ids.md#amo-id)。 默认帐户级别设置继承自广告商的跟踪设置。 您可以在营销策划级别覆盖帐户级别设置。
 
 跟踪URL每天只更新不同步的实体（即添加的新实体和属性已更改的现有实体）。 因此，如果您将现有广告商/帐户/营销活动的此设置从“禁用”更改为“启用”，则不会为已同步的现有实体更新跟踪URL。 要将跟踪添加到现有已同步实体的URL，请联系您的Adobe客户团队，并请求执行一次性的手动同步过程。 自动上传流程将处理未来的更改。
 
@@ -221,7 +207,7 @@ ht-degree: 0%
 
 示例： `param1=value1&param2=value2`
 
-使用Adobe Advertising点击跟踪的帐户必须在后缀中包含广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`；Google为`gclid`）。 具有Adobe Analytics集成的帐户必须使用AMO ID参数（以`s_kwcid`开头）。 如果该帐户具有服务器端AMO ID实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 查看 [!DNL Google Ads][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必需后缀格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的必需后缀格式。
+使用Adobe Advertising点击跟踪的帐户必须在后缀中包含广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`；Google为`gclid`）。 具有Adobe Analytics集成的帐户必须使用AMO ID参数（以`s_kwcid`开头）。 如果该帐户具有服务器端AMO ID实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 查看 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必需后缀格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的[必需后缀格式。
 
 >[!NOTE]
 >
@@ -232,9 +218,9 @@ ht-degree: 0%
 
 * 嵌入最终URL：
 
-   * （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）有关指示跟踪模板中最终URL的参数列表，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)中“可用的[!DNL ValueTrack]参数”部分中的（[!DNL Microsoft Advertising]仅限）[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799)或（[!DNL Google Ads]仅限）跟踪模板参数。
+  * （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）有关指示跟踪模板中最终URL的参数列表，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)中“可用的[!DNL ValueTrack]参数”部分中的（[!DNL Microsoft Advertising]仅限）[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799)或（[!DNL Google Ads]仅限）跟踪模板参数。
 
-   * （仅限[!DNL LY Ads]）使用参数`!{lpurl}`指示登陆页面URL。
+  * （仅限[!DNL LY Ads]）使用参数`!{lpurl}`指示登陆页面URL。
 
 * 您可以选择包含URL参数以及为营销活动定义的任何自定义参数，这些参数以&amp;号分隔，如`{lpurl}?matchtype={matchtype}&device={device}`。
 
@@ -248,11 +234,11 @@ ht-degree: 0%
 >* 最细粒度级别的跟踪模板将覆盖所有更高级别的值。 例如，如果帐户设置和关键字设置都包含一个值，则应用关键字值。
 >* 如果您在广告、站点链接或关键词级别更新跟踪模板，则会重新提交相关广告以供审阅。 您可以在帐户、营销活动或广告组级别更新跟踪模板，而无需重新提交广告以供审批。
 
-## [!UICONTROL Setup Analytics]选项卡
+## [!UICONTROL Set up Adobe Analytics]选项卡
 
 这些设置适用于具有[[!DNL Adobe Analytics for Advertising] 集成](/help/integrations/analytics/overview.md)的广告商。
 
-**[!UICONTROL Adobe Analytics Report Suite]：**（可选）一个或多个Analytics报表包，Search、Social和Commerce会向其发送从广告网络收集的数据，包括帐户实体分类和点击数据。 此功能仅适用于受支持的广告网络。
+**[!UICONTROL Adobe Analytics Report Suite]：**（可选）一个或多个Analytics报表包，Search、Social和Commerce会向其发送从广告网络收集的数据，包括帐户实体分类和点击数据。 此功能仅适用于受支持的广告网络。<!-- What are the repercussions of changing the suites? Timing of updated data? -->
 
 对于要显示在报表包中的数据，必须(a)为帐户配置服务器端AMO ID功能，或者(b)启用设置为“[!UICONTROL Enable Advertising reporting in Analytics]”的广告商级别设置。 此外，必须将广告商的[!DNL Analytics]帐户配置为从Search、Social和Commerce接收数据。 有关更多信息，请与您的Adobe客户团队联系。
 
