@@ -2,15 +2,11 @@
 title: 管理营销活动
 description: 了解如何创建和管理广告营销活动。
 feature: Search Campaign Management
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 7dc3ea3fe1fcb701d9d064b184922ed96626cd4a
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6b67f3e2759ddd80300c86df610b36684b7a07e2
 workflow-type: tm+mt
 source-wordcount: 2285
 ht-degree: 0%
@@ -68,7 +64,7 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 
 1. 单击&#x200B;**[!UICONTROL Create Campaign]**。
 
-1. 指定[百度](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-baidu.md)、[Google广告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-google.md)、[LY广告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yandex.md)促销活动设置。
+1. 指定[百度](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)、[Google广告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)、[LY广告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)促销活动设置。
 
 1. 单击&#x200B;**[!UICONTROL Review and Save]**。
 
@@ -104,7 +100,7 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 
    * 选中营销活动旁边的复选框。 在批量操作工具栏中，单击&#x200B;**[!UICONTROL Edit]**。
 
-1. 编辑[百度](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-baidu.md)、[Google广告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-google.md)、[LY广告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yahoo-japan.md)、<!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-meta.md), --> [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yandex.md)营销活动设置。
+1. 编辑[百度](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)、[Google广告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)、[LY广告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)、<!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)营销活动设置。
 
 1. 单击&#x200B;**[!UICONTROL Review and Save]**。
 
@@ -148,7 +144,7 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 
 将促销活动分配到优化的产品组合可让Search、Social和Commerce优化促销活动中关键词和广告的竞价、促销活动预算和竞价策略目标。 您可以在创建项目组合时，或编辑项目组合的设置，从[!UICONTROL Campaigns]视图将营销活动分配给项目组合。
 
-并非所有营销活动类型和广告网络都符合优化条件；请查看可包含在项目组合中的[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)列表。 此外，请验证每个营销活动竞价策略[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)的优化支持。
+并非所有营销活动类型和广告网络都符合优化条件；请查看可包含在项目组合中的[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)列表。 此外，请验证每个营销活动竞价策略](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)的[优化支持。
 
 >[!NOTE]
 >
@@ -426,11 +422,11 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 >* [管理投放位置的约束分配](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
 >* [（旧版UI）从营销活动管理视图下载数据](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [（旧版UI）从[!UICONTROL Downloads]菜单删除性能数据报告或批量处理工作表文件](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
->* [[!DNL Baidu] 营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-baidu.md)
->* [[!DNL Google Ads] 营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-google.md)
->* [[!DNL LY Ads] 营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yahoo-japan.md)
->* [[!DNL Microsoft Advertising] 营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-microsoft.md)
->* [[!DNL Yandex] 营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yandex.md)
+>* [[!DNL Baidu] 营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
+>* [[!DNL Google Ads] 营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
+>* [[!DNL LY Ads] 营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)
+>* [[!DNL Microsoft Advertising] 营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)
+>* [[!DNL Yandex] 营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)
 
-<!-- >* [[!DNL Meta Ads] campaign settings](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-meta.md) -->
+<!-- >* [[!DNL Meta Ads] campaign settings](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md) -->
 
