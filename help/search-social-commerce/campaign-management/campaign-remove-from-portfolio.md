@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3d87bfab8f577b69a86abd0a6b50d07f70ae60a8
 workflow-type: tm+mt
-source-wordcount: 250
+source-wordcount: 251
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ ht-degree: 0%
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Portfolios]**。
 
-1. 在数据表上方的工具栏中，单击![编辑](/help/search-social-commerce/assets/edit.png "编辑") **[!UICONTROL Edit]**。
+1. 选中项目组合旁边的复选框。
+
+1. 在批量操作工具栏中，单击&#x200B;**[!UICONTROL Edit]**。
 
 1. 在项目组合设置中，转到[!UICONTROL Assign Campaigns]部分并更改营销活动分配。
 
@@ -43,7 +45,7 @@ ht-degree: 0%
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**，然后找到项目组合。
 
-   您可以通过选择项目组合组或[!UICONTROL Portfolios]节点，从左侧面板中的[!UICONTROL Ungrouped Portfolios]菜单筛选项目组合列表。
+   您可以通过选择项目组合组或[!UICONTROL Ungrouped Portfolios]节点，从左侧面板中的[!UICONTROL Portfolios]菜单筛选项目组合列表。
 
 1. 在项目组合名称旁边，单击![查看/编辑设置按钮](/help/search-social-commerce/assets/settings.png "查看/编辑设置按钮") 。
 

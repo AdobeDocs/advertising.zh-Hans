@@ -1,0 +1,125 @@
+---
+title: '[!DNL Google Ads]广告组设置'
+description: 引用 [!DNL Google Ads] 广告组的设置。
+exl-id: def75630-19b9-4676-ad34-5d9041cc3680
+feature: Search Campaign Management
+TQID: https://experienceleague.adobe.com/pDFheVIM62XNCh2-7jbCscIqOrcTep7qnNg5S1tHYF8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 75e264e213f60ae45c4f51f0a21352f690d6d699
+workflow-type: tm+mt
+source-wordcount: 549
+ht-degree: 0%
+
+---
+
+# [!DNL Google Ads]广告组设置
+
+## \[页面顶部]
+
+**[!UICONTROL Ad Group Name]：**&#x200B;广告组名称在营销活动中是唯一的。
+
+**[!UICONTROL Status]：**&#x200B;促销活动的显示状态： *活动*&#x200B;或&#x200B;*已暂停*。 新广告营销活动的默认值为&#x200B;*活动*。
+
+## [!UICONTROL Basic Settings]选项卡
+
+*仅新营销活动*
+
+**[!UICONTROL Network]：**&#x200B;广告网络。
+
+**[!UICONTROL Account]：**&#x200B;广告网络帐户。
+
+**[!UICONTROL Campaign]：**&#x200B;营销活动。
+
+## [!UICONTROL Ad Group Details]选项卡
+
+**[!UICONTROL Ad Group Type]：** （仅限扩展的动态搜索广告营销活动）广告组的类型：
+
+* *[!UICONTROL Search Standard]* （默认）：对于标准广告。
+
+* 对于动态搜索广告，*[!UICONTROL Search Dynamic]：*。
+
+**[!UICONTROL Ad Rotation Mode]：** [!DNL Google Ads]在广告组中相互关联投放活动广告的频率：
+
+* *[!UICONTROL Optimize]：* [!DNL Google Ads]倾向于其预期表现优于广告组中其他广告的广告。 这些广告进入广告拍卖的频率更高，随着时间的推移，单个广告会更受青睐。 这可能与您的业务和优化目标不一致。
+
+* *[!UICONTROL Rotate forever]：*&#x200B;您的每个广告进入广告拍卖的次数都是偶数，这允许Search、Social和Commerce不仅根据点进率而且对广告的转化率进行评分。
+
+* *[!UICONTROL Use campaign setting]*（新广告组的默认设置）：使用现有的营销活动级别的广告轮换设置。 **注意：**&#x200B;营销活动级别的设置在Search、Social和Commerce中不可见。
+
+如果营销活动使用智能竞价策略（如[!UICONTROL Target CPA]、[!UICONTROL Target ROAS]），则[!DNL Google Ads]会自动将选项设置为“[!UICONTROL Optimize]”。
+
+**[!UICONTROL Custom Bid Level]：** （仅针对显示网络的营销活动）竞价方式：竞价方式：竞价方式为&#x200B;*[!UICONTROL Ad Group]* （默认值）、*[!UICONTROL Age]*、*[!UICONTROL Gender]*、*[!UICONTROL Interest and List]* （Google广告中的兴趣和再营销）、*[!UICONTROL Keyword]*、*[!UICONTROL Placement]* （网站）、*[!UICONTROL Unknown]*&#x200B;或&#x200B;*[!UICONTROL Vertical]*。
+
+>[!NOTE]
+>
+>* 按关键字竞价时，可在关键字级别创建跟踪模板。 同样，在按投放位置竞价时，应在投放位置级别创建跟踪模板。 对于所有其他维度，请在广告级别创建跟踪模板。
+>* 当您按年龄、性别、兴趣和列表或垂直方向对项目组合中的营销活动进行竞价时，优化功能不会优化维度的竞价。 此外，所有归因都将应用于广告组。
+>* 搜索网络上的广告始终使用关键词竞价。
+
+**[!UICONTROL AI Max Search Term Matching]：** （针对搜索网络且启用了[AI Max功能](https://support.google.com/google-ads/answer/15910366)和营销活动级别搜索词匹配功能的营销活动；只读）是否启用了广告组级别搜索词匹配： *[!UICONTROL Disabled]*&#x200B;或&#x200B;*[!UICONTROL Enabled]*。
+
+## [!UICONTROL Budget Options]选项卡
+
+<!-- **[!UICONTROL Bid]:** -->
+
+{{$include /help/_includes/bid-ad-group.md}}
+
+**[!UICONTROL Target CPA]：** （竞价为[!UICONTROL Target CPA]的营销活动；可选）广告组的每次客户获取的目标成本(CPA)。 此值覆盖营销活动级别的目标。
+
+**[!UICONTROL Target ROAS]：** （竞价为[!UICONTROL Target ROAS]的营销活动；可选）广告组的目标广告支出回报率(ROAS)（百分比）。 此值覆盖营销活动级别的目标。
+
+## [!UICONTROL Ad Group Targeting]选项卡
+
+**[!UICONTROL Audience Target Method]：** （仅搜索网络上的营销活动，以及显示网络上的现有只读[!DNL Gmail]营销活动）是否：
+
+* *[!UICONTROL Target and Bid]：*&#x200B;只向与满足广告组任何其他目标的目标受众相关联的用户显示广告。
+
+* *[!UICONTROL Bid Only]：*&#x200B;若要显示广告，甚至向不与目标受众关联的用户显示，只要他们满足其他广告组级别的目标。 但是，您可以通过为特定受众设置更高的竞价来增加向这些受众显示广告的机会。
+
+<!-- **[!UICONTROL Devices]:** -->
+
+{{$include /help/_includes/devices.md}}
+
+## [!UICONTROL AI Max]选项卡
+
+*仅针对搜索网络的营销活动*
+
+## [!UICONTROL AI Max]选项卡
+
+**[!UICONTROL AI Search Term Matching]：** （仅启用了[!DNL AI Max]的营销活动）是否使用AI驱动的无关键字搜索词匹配来增强范围和优化。<!--SUPPOSEDLY, BUT THIS IS OFF FOR ME:  It's enabled by default for campaigns with [!DNL AI Max], but you can disable it at the ad group level. -->
+
+**[!UICONTROL Locations of Interest]：** （仅启用了[!DNL AI Max]的营销活动）要定位（但不排除）的地理意图的特定位置；用户还必须满足营销活动的地理定位。 默认情况下，会定位所有地理位置中、定期或对所有地理位置感兴趣的用户。 要缩小目标范围，请选择要定位的每个位置。
+
+## [!UICONTROL URL Options]选项卡
+
+<!-- **[!UICONTROL Tracking Template]:** -->
+
+{{$include /help/_includes/tracking-template-google.md}}
+
+## [!UICONTROL Additional Ad Group Information]选项卡
+
+### [!UICONTROL Negative Keywords]
+
+<!-- **[!UICONTROL Negative Keywords]:** -->
+
+{{$include /help/_includes/negative-keyword.md}}
+
+<!-- Note for **[!UICONTROL Negative Keywords]:** -->
+
+{{$include /help/_includes/negative-keyword-note-google.md}}
+
+### [!UICONTROL Negative Websites]
+
+<!-- **[!UICONTROL Negative Websites]:** -->
+
+{{$include /help/_includes/negative-websites-google.md}}
+
+>[!MORELIKETHIS]
+>
+>* [管理广告组](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)

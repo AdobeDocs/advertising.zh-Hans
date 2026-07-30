@@ -13,9 +13,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: 41a9add10a9d12e8452d18825fd732720b27243f
 workflow-type: tm+mt
-source-wordcount: 3846
+source-wordcount: 3847
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 | [!UICONTROL AD Strength] | （[!DNL Google Ads]响应式搜索广告）广告的有效性： <i>[!UICONTROL average]</i>、<i>[!UICONTROL excellent]</i>、<i>[!UICONTROL good]</i>、<i>[!UICONTROL no_ads]</i>、<i>[!UICONTROL pending]</i>、<i>[!UICONTROL poor]</i>、<i>[!UICONTROL unknown]</i>或<i>[!UICONTROL unspecified]</i>。 |
 | [!UICONTROL Adgroup MBA] | （[!DNL Google Ads]、[!DNL LY Ads]和[!DNL Microsoft Advertising]个促销活动）当前广告组级别的移动竞价调整，它确定在移动设备上显示广告时如何调整竞价。 |
 | [!UICONTROL AI Max Bundling Required] | （仅针对搜索网络的营销活动；启用了AI Max功能的营销活动；只读）是否需要捆绑： *[!UICONTROL REQUIRED]*、*[!UICONTROL NOT_REQUIRED]*、*[!UICONTROL UNSPECIFIED]*&#x200B;或null。 |
-| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max]功能](https://support.google.com/google-ads/answer/15910366)是否已启用： [!UICONTROL true]*、*[!UICONTROL false]*&#x200B;或null。 |
+| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max]功能](https://support.google.com/google-ads/answer/15910366)是否已启用： *[!UICONTROL true]*、*[!UICONTROL false]*&#x200B;或null。 |
 | [!UICONTROL AI Max Search Term Matching] | （针对搜索网络且启用了[AI Max功能](https://support.google.com/google-ads/answer/15910366)和营销活动级别搜索词匹配功能的营销活动；只读）是否启用了广告组级别搜索词匹配： *[!UICONTROL true]*、*[!UICONTROL false]*&#x200B;或null。 |
 | [!UICONTROL Advertiser] | 广告商名称。 |
 | [!UICONTROL Advertiser ID] | 广告商的Search、Social和Commerce帐户的数值ID。 |
@@ -136,7 +136,7 @@ ht-degree: 0%
 | [!UICONTROL Label Classification] | （[!UICONTROL Label Classification Report]和[!UICONTROL Label Value Report]）标签分类。 |
 | [!UICONTROL Label Value] | （[!UICONTROL Label Classification Report]和[!UICONTROL Label Value Report]）标签分类的值。 |
 | [!UICONTROL Language] | （显示营销活动）目标受众语言。 |
-| [!UICONTROL Link Type] | （[!UICONTROL Keyword Report]；仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]营销活动；仅当为报告指定的归因规则为“最后一个事件”时，数据才可用）当行报告由于点击广告扩展（而不是广告本身）或产品/购物广告导致的转化时，此列显示被点击的链接的类型和标题：<ul><li>`pla:*` — 产品广告列为`pla:<product ID>`，如“pla:8525822”。</li><li>`sl:*` — 站点链接列为`sl:<Sitelink text>`，如“sl:See当前选件”。</li></ul> |
+| [!UICONTROL Link Type] | （[!UICONTROL Keyword Report]；仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]营销活动；仅当为报告指定的归因规则为“最后一个事件”时，数据才可用）当行报告由于点击广告扩展（而不是广告本身）或产品/购物广告导致的转化时，此列显示被点击的链接的类型和标题：<ul><li>`pla:*` — 产品广告列为`pla:<product ID>`，如“pla：8525822”。</li><li>`sl:*` — 站点链接列为`sl:<Sitelink text>`，如“sl:See当前选件”。</li></ul> |
 | [!UICONTROL Listing Match Type] | 关键词匹配广告列表的类型，<i>[!UICONTROL Content]</i>匹配内容定向营销活动中的广告，或<i>[!UICONTROL Sitecpc]</i>匹配网站定向营销活动中的版面。 对于[!DNL Microsoft Advertising]关键字，这可能包括多种匹配类型（如&quot;[!UICONTROL Broad]，[!UICONTROL Exact]&quot;）。 |
 | [!UICONTROL Location] | （显示营销活动）目标受众位置。 |
 | [!UICONTROL Long Creative Title1] - [!UICONTROL Long Creative Title5] | （在[!DNL Microsoft Advertising]响应式广告和多媒体广告的已完成报表行中）广告的长标题。 要查看这些列，请在报表设置中包含“[!UICONTROL Long Creative Titles]”列。 |

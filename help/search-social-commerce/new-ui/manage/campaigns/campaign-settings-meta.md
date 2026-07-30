@@ -30,8 +30,6 @@ ht-degree: 0%
 
 <!-- **[!UICONTROL End Date]:** -->
 
-{{$include /help/_includes/end-date.md}}
-
 **[!UICONTROL Status]：**&#x200B;促销活动的显示状态： *活动*&#x200B;或&#x200B;*已暂停*。
 
 ## [!UICONTROL Campaign Tracking]
@@ -44,4 +42,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [管理营销活动](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [管理营销活动](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)

@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: a534a6eb822a22dcff7ca7ca9e8dcd4f3d75712c
 workflow-type: tm+mt
-source-wordcount: 8026
+source-wordcount: 8027
 ht-degree: 0%
 
 ---
@@ -38,6 +38,20 @@ ht-degree: 0%
 >* 如果创建新记录并且不包含所有必需数据字段的值，则会为其中一些字段分配指定的默认值。
 >* 对于以下未指定的字段，使用广告网络的默认值。
 >* 有关[!UICONTROL Download Bulksheet]对话框中可用批量处理工作表行的列表，请参阅“[按广告网络批量处理工作表行](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network)”。
+
+
+<!--
+
+Add in when released:
+
+| [!UICONTROL AI Max Enabled] | Whether the [[!UICONTROL AI Max] feature](https://support.google.com/google-ads/answer/15910366) is enabled for the campaign: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
+
+| [!UICONTROL AI Max Asset Automation] | Whether the "Text Automation" setting for [!UICONTROL AI Max]-enabled campaigns is enabled: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
+
+
+| [!UICONTROL AI Max Search Term Matching] | Whether the "[!UICONTROL AI Max Search Term Matching]" setting for ad groups in [!UICONTROL AI Max]-enabled campaigns is enabled: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
+
+-->
 
 | 字段 | 描述 |
 | ---- | ---- |
@@ -80,7 +94,7 @@ ht-degree: 0%
 | [!UICONTROL First Page Bid] | （出于提供信息的目的包含在生成的批量工作表中）在搜索结果的第一页上放置广告所需的出价。 此值未发布到广告网络。 |
 | [!UICONTROL Quality Score] | （出于信息目的包含在生成的批量工作表中）搜索引擎分配给关键字的当前质量分数。 此值未发布到广告网络。) |
 | [!UICONTROL Creative Preferred Devices] | （文本广告、扩展的动态搜索广告和增强型站点链接；可选）您喜欢显示广告的设备类型： <i>[!UICONTROL All]</i>（默认）或<i>[!UICONTROL Mobile]</i>。 指定<i>[!UICONTROL Mobile]</i>后，网络会尝试向移动设备用户显示广告，而不是桌面或平板电脑用户。 否则，网络会在任何设备类型上显示广告。</p><p><b>注释：</b></p><ul><li><p>只有管理员和[!DNL Adobe]帐户管理员用户可以编辑此设置。</p></li><li><p>网络不保证会在首选设备类型上显示广告。</p></li><li><p>新的增强型站点链接只能在具有现有增强型站点链接或没有站点链接的营销活动中创建。</p></li></ul> |
-| [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-15 | （仅限扩展文本广告和响应式搜索广告）广告的头条，每个标题用垂直管道分隔(&amp;vert；)。 每个广告标题字段的最大长度为30个字符或15个双字节字符，包括任何动态文本（例如关键字和广告自定义项的值）。</p><p>对于响应式搜索广告，[!UICONTROL Ad Title]、[!UICONTROL Ad Title 2]和[!UICONTROL Ad Title 3]为必填项，所有其他广告标题字段为可选字段。 要删除非必填字段的现有值，请使用值<code>[delete]</code> 括号)。</p><p>对于响应式搜索广告，使用以下格式插入广告自定义程序： <code>{CUSTOMIZER.AdCustomizerName:DefaultText}</code>，如<code>{CUSTOMIZER.Discount:10%}</code></p><p>您不能创建或编辑，但可以删除扩展的文本广告，其[!DNL Google Ads]已于2022年6月弃用。 |
+| [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-15 | （仅限扩展文本广告和响应式搜索广告）广告的头条，每个标题用垂直管道分隔(&amp;vert；)。 每个广告标题字段的最大长度为30个字符或15个双字节字符，包括任何动态文本（例如关键字和广告自定义项的值）。</p><p>对于响应式搜索广告，[!UICONTROL Ad Title]、[!UICONTROL Ad Title 2]和[!UICONTROL Ad Title 3]为必填项，所有其他广告标题字段为可选字段。 要删除非必填字段的现有值，请使用值<code>[delete]</code> 括号)。</p><p>对于响应式搜索广告，使用以下格式插入广告自定义程序： <code>{CUSTOMIZER.AdCustomizerName:DefaultText}</code>，如<code>{CUSTOMIZER.Discount：10%}</code></p><p>您不能创建或编辑，但可以删除扩展的文本广告，其[!DNL Google Ads]已于2022年6月弃用。 |
 | [!UICONTROL Ad Title 1 Position]-[!UICONTROL Ad Title 15 Position] | <p>（仅限响应式搜索广告；可选）固定相应广告标题的位置： `[null]`（没有值，因此广告标题适用于所有位置）、<i>1</i>、<i>2</i>或<i>3</i>。 例如，如果[!UICONTROL Ad Title Position]的值为1，则“广告标题”仅显示在位置1中。 默认情况下，所有广告标题为空（没有值）。</p><p>要删除现有值，请使用值<code>[delete]</code> 括号)。</p><p><b>注意：</b>您可以将多个广告标题固定到同一位置。 广告网络使用固定到该位置的广告标题之一。 固定到位置3的标题不能与广告一起显示。</p> |
 | [!UICONTROL Description Line 1]-[!UICONTROL Description Line 4] | <p>（仅限扩展的动态搜索广告、扩展文本广告和响应式搜索广告）广告的正文。 每个描述字段的最大长度为90个字符或45个双字节字符，包括任何动态文本（例如关键字和广告自定义项的值）。</p><p>对于响应式搜索广告，请使用以下格式插入广告自定义程序： `{CUSTOMIZER.AdCustomizerName:DefaultText}`，如`{CUSTOMIZER.Discount:10%}`</p><p>对于扩展的动态搜索广告，仅使用[!UICONTROL Description Line 1]和[!UICONTROL Description Line 2]。 <b>注意：</b>对于此广告类型，更改广告副本将删除现有广告并创建新广告。</p><p>您不能创建或编辑，但可以删除扩展的文本广告，其[!DNL Google Ads]已于2022年6月弃用。</p><p>对于响应式搜索广告，[!UICONTROL Description Line 1]和[!UICONTROL Description Line 2]是必需的，[!UICONTROL Description Line 3]和[!UICONTROL Description Line 4]是可选的。 要删除现有值，请使用值<code>[delete]</code> 括号)。</p> |
 | [!UICONTROL Description Line 1 Position]-[!UICONTROL Description Line 4 Position] | （仅限响应式搜索广告；可选）固定相应说明的位置： `[null]`（没有值，因此说明适用于所有位置）、<i>1</i>、<i>2</i>或<i>3</i>。 例如，如果[!UICONTROL Description 1 Position]的值为1，则[!UICONTROL Description 1]仅显示在位置1中。 默认情况下，不会将任何描述固定到位置。</p><p>要删除现有值，请使用值`[delete]`（包括括号）。</p><p><b>注意：</b>您可以将多个描述固定到同一位置。 广告网络使用固定到该位置的描述之一。 固定到位置2的描述可能无法与广告一起显示。 |

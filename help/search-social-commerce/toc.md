@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 28542aa9ca5ae368615703ad5fc9049a0fa209a2
+source-git-commit: 3d853c1ce30e8891baf37b14d20f166c4f79437d
 workflow-type: tm+mt
-source-wordcount: 2414
+source-wordcount: 2371
 ht-degree: 2%
 
 ---
@@ -117,19 +117,21 @@ ht-degree: 2%
       + [查看项目组合的更改历史记录](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
       + [从[!UICONTROL Portfolios]视图管理数据视图报告](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
     + 营销活动 {#campaigns}
-      + [关于[!UICONTROL Campaigns]视图](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-      + [将营销活动分配给项目组合](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio){target="_blank"}
-      + [从项目组合中删除营销活动](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio){target="_blank"}
-      + [管理营销活动的限制分配](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
-      + [从[!UICONTROL Campaigns]视图管理数据视图报告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
-      + [更改营销活动的状态](/help/search-social-commerce/new-ui/manage/campaigns/campaign-change-status.md)
-      + [重命名营销活动](/help/search-social-commerce/new-ui/manage/campaigns/campaign-rename.md)
+      + [管理营销活动](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)
+      + 按广告网络列出的Campaign设置 {#campaign-settings-by-network}
+        + [[!DNL Baidu]营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
+        + [[!DNL Google Ads]营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
+        + [[!DNL LY Ads]营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yahoo-japan.md)
+        + [[!DNL Microsoft Advertising]营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)
+        + [[!DNL Yandex]营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)
     + 广告组 {#ad-groups}
-      + [关于[!UICONTROL Ad Groups]视图](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)
-      + [管理广告组的限制分配](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
-      + [从[!UICONTROL Ad Groups]视图管理数据视图报告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
-      + [更改广告组的状态](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-change-status.md)
-      + [重命名广告组](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-rename.md)
+      + [管理广告组](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)
+      + 按广告网络划分的广告组设置 {#ad-group-settings-by-network}
+        + [[!DNL Baidu]广告组设置](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)
+        + [[!DNL Google Ads]广告组设置](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)
+        + [[!DNL LY Ads]广告组设置](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yahoo-japan.md)
+        + [[!DNL Microsoft Advertising]广告组设置](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)
+        + [[!DNL Yandex]广告组设置](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)
     + 广告 {#ads}
       + [关于[!UICONTROL Ads]视图](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
       + [从[!UICONTROL Ads]视图管理数据视图报告](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
@@ -216,6 +218,7 @@ ht-degree: 2%
       + [管理投放位置的限制分配](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
     + [管理 [!DNL Google Ads] 动态搜索目标](/help/search-social-commerce/new-ui/target/dynamic-search-target-manage.md)
   + 资源 {#assets}
+    + [查看和创建创意资产](/help/search-social-commerce/new-ui/assets/creative-asset-manage.md)
     + [管理购物产品组](/help/search-social-commerce/new-ui/assets/product-groups-manage.md)
   + 设置 {#setup}
     + 帐户 {#accounts}
