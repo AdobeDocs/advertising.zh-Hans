@@ -2,15 +2,11 @@
 title: 管理广告组
 description: 了解如何创建和管理广告组。
 feature: Search Campaign Management
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
 workflow-type: tm+mt
 source-wordcount: 1676
 ht-degree: 0%
@@ -65,7 +61,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Review and Save]**。
 
-1. 如有必要，请单击![编辑](/help/search-social-commerce/assets/edit-new.png "编辑")并更改广告组设置。
+1. 如有必要，请单击![编辑](/help/search-social-commerce/assets/edit-new.png "编辑") **[!UICONTROL Edit]**&#x200B;并更改广告组设置。
 
 1. 单击&#x200B;**[!UICONTROL Create]**。
 
@@ -101,7 +97,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Review and Save]**。
 
-1. 如有必要，请单击![编辑](/help/search-social-commerce/assets/edit-new.png "编辑")并更改广告组设置。
+1. 如有必要，请单击![编辑](/help/search-social-commerce/assets/edit-new.png "编辑") **[!UICONTROL Edit]**&#x200B;并更改广告组设置。
 
 1. 单击&#x200B;**[!UICONTROL Update]**。
 

@@ -2,15 +2,11 @@
 title: 管理营销活动
 description: 了解如何创建和管理广告营销活动。
 feature: Search Campaign Management
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6b67f3e2759ddd80300c86df610b36684b7a07e2
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
 workflow-type: tm+mt
 source-wordcount: 2285
 ht-degree: 0%
@@ -72,7 +68,7 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 
 1. 单击&#x200B;**[!UICONTROL Review and Save]**。
 
-1. 如有必要，请单击![编辑](/help/search-social-commerce/assets/edit-new.png "编辑")并更改促销活动设置。
+1. 如有必要，请单击![编辑](/help/search-social-commerce/assets/edit-new.png "编辑")**[!UICONTROL Edit]**&#x200B;并更改促销活动设置。
 
 1. 单击&#x200B;**[!UICONTROL Create]**。
 
@@ -108,7 +104,7 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 
 1. 单击&#x200B;**[!UICONTROL Review and Save]**。
 
-1. 如有必要，请单击![编辑](/help/search-social-commerce/assets/edit-new.png "编辑")并更改促销活动设置。
+1. 如有必要，请单击![编辑](/help/search-social-commerce/assets/edit-new.png "编辑")**[!UICONTROL Edit]**&#x200B;并更改促销活动设置。
 
 1. 单击&#x200B;**[!UICONTROL Update]**。
 
@@ -148,7 +144,7 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 
 将促销活动分配到优化的产品组合可让Search、Social和Commerce优化促销活动中关键词和广告的竞价、促销活动预算和竞价策略目标。 您可以在创建项目组合时，或编辑项目组合的设置，从[!UICONTROL Campaigns]视图将营销活动分配给项目组合。
 
-并非所有营销活动类型和广告网络都符合优化条件；请查看可包含在项目组合中的[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)列表。 此外，请验证每个营销活动竞价策略[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)的优化支持。
+并非所有营销活动类型和广告网络都符合优化条件；请查看可包含在项目组合中的[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)列表。 此外，请验证每个营销活动竞价策略](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)的[优化支持。
 
 >[!NOTE]
 >
