@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 75e264e213f60ae45c4f51f0a21352f690d6d699
+source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: 550
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Basic Settings]选项卡
 
-*仅新营销活动*
+*仅限新广告组*
 
 **[!UICONTROL Network]：**&#x200B;广告网络。
 
