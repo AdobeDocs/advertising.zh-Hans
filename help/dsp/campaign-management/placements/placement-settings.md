@@ -4,22 +4,14 @@ description: 请参阅可用版面设置的说明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
 TQID: https://experienceleague.adobe.com/V9gGiuXBnP2TBFUY3ZB7EkZ2TNeBttOgr-qzHUSdMmk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 8338485f735af56a90a50b8aa878861b5c0a5894
 workflow-type: tm+mt
-source-wordcount: 4555
+source-wordcount: 4577
 ht-degree: 0%
 
 ---
@@ -77,9 +69,9 @@ ht-degree: 0%
 * *[!UICONTROL Optimize based on performance]：*&#x200B;控制包级别的预算。
 * *[!UICONTROL Set a Fixed Minimum or Maximum Budget]：*&#x200B;允许您设置最小和/或最大置入预算。 至少指定一种预算类型：
 
-   * *[!UICONTROL Maximum Budget]*：输入值和持续时间(*[!UICONTROL All time]*、*[!UICONTROL Daily]*、*[!UICONTROL Weekly]*、*[!UICONTROL Monthly]*)。
+  * *[!UICONTROL Maximum Budget]*：输入值和持续时间(*[!UICONTROL All time]*、*[!UICONTROL Daily]*、*[!UICONTROL Weekly]*、*[!UICONTROL Monthly]*)。
 
-   * *[!UICONTROL Minimum Budget]*：最小预算占包预算的百分比。 当指定间隔上限时，最小预算值始终计算为间隔上限的百分比。 否则，它将计算为包预算的百分比。
+  * *[!UICONTROL Minimum Budget]*：最小预算占包预算的百分比。 当指定间隔上限时，最小预算值始终计算为间隔上限的百分比。 否则，它将计算为包预算的百分比。
 
 **[!UICONTROL Max Bid]：**&#x200B;为1000次展示支付的最大值。
 
@@ -98,8 +90,8 @@ ht-degree: 0%
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 执行以下任一操作：
    * 要添加过滤器，请执行以下操作：
-      1. 单击&#x200B;**[!UICONTROL Add Filter]**。
-      1. 在&#x200B;**[!UICONTROL Only bid if]**&#x200B;旁边，选择一个量度，然后输入一个值。
+     1. 单击&#x200B;**[!UICONTROL Add Filter]**。
+     1. 在&#x200B;**[!UICONTROL Only bid if]**&#x200B;旁边，选择一个量度，然后输入一个值。
    * 要删除筛选器，请单击筛选器行中的&#x200B;**[!UICONTROL X]**。
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
@@ -152,8 +144,8 @@ ht-degree: 0%
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 执行以下任一操作：
    * 要添加过滤器，请执行以下操作：
-      1. 单击&#x200B;**[!UICONTROL Add Filter]**。
-      1. 在&#x200B;**[!UICONTROL Only bid if]**&#x200B;旁边，选择一个量度，然后输入一个值。
+     1. 单击&#x200B;**[!UICONTROL Add Filter]**。
+     1. 在&#x200B;**[!UICONTROL Only bid if]**&#x200B;旁边，选择一个量度，然后输入一个值。
    * 要删除筛选器，请单击筛选器行中的&#x200B;**[!UICONTROL X]**。
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
@@ -170,26 +162,26 @@ ht-degree: 0%
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 执行以下任一操作：
    * 要包含或排除国家、州、市、DMA、联邦立法区或州立法区，请执行以下操作：
-      1. 在左列中选择位置类型。
-      1. （根据需要）单击某个位置以展开该位置。
-      1. 在该位置旁边，单击&#x200B;*[!UICONTROL Include]*&#x200B;以将其作为目标包含，或单击&#x200B;*[!UICONTROL Exclude]*&#x200B;以将其作为目标排除。
+     1. 在左列中选择位置类型。
+     1. （根据需要）单击某个位置以展开该位置。
+     1. 在该位置旁边，单击&#x200B;*[!UICONTROL Include]*&#x200B;以将其作为目标包含，或单击&#x200B;*[!UICONTROL Exclude]*&#x200B;以将其作为目标排除。
    * 要包含或排除[邮政编码列表](/help/dsp/resources/lists-postal-codes-manage.md)，请执行以下操作：
-      1. 单击左列中的&#x200B;**[!UICONTROL Postal Code List]**。
-      1. 在邮政编码旁边，单击&#x200B;*[!UICONTROL Include]*&#x200B;以将其作为目标包含，或单击&#x200B;*[!UICONTROL Exclude]*&#x200B;以将其作为目标排除。
+     1. 单击左列中的&#x200B;**[!UICONTROL Postal Code List]**。
+     1. 在邮政编码旁边，单击&#x200B;*[!UICONTROL Include]*&#x200B;以将其作为目标包含，或单击&#x200B;*[!UICONTROL Exclude]*&#x200B;以将其作为目标排除。
    * 要搜索邮政编码并包含或排除所有选定的结果，请执行以下操作：
-      1. 单击左列中的&#x200B;**[!UICONTROL Postal Code]**。
-      1. 单击国家列表上方的&#x200B;**[!UICONTROL Search]**。
-      1. 选择国家/地区。
-      1. 输入城市名称，然后单击![编辑](/help/dsp/assets/search.png)。
-      1. 单击正确的搜索结果。
-      1. 单击&#x200B;*[!UICONTROL Include All]*&#x200B;可包含所有位置作为目标，单击&#x200B;*[!UICONTROL Exclude All]*&#x200B;可排除所有位置作为目标。
+     1. 单击左列中的&#x200B;**[!UICONTROL Postal Code]**。
+     1. 单击国家列表上方的&#x200B;**[!UICONTROL Search]**。
+     1. 选择国家/地区。
+     1. 输入城市名称，然后单击![编辑](/help/dsp/assets/search.png)。
+     1. 单击正确的搜索结果。
+     1. 单击&#x200B;*[!UICONTROL Include All]*&#x200B;可包含所有位置作为目标，单击&#x200B;*[!UICONTROL Exclude All]*&#x200B;可排除所有位置作为目标。
    * 要输入或粘贴邮政编码，并包含或排除所有邮政编码，请执行以下操作：
-      1. 单击左列中的“单击&#x200B;**[!UICONTROL Postal Code]**”。
-      1. 单击国家列表上方的&#x200B;**[!UICONTROL Paste]**。
-      1. 选择国家/地区。
-      1. 输入或粘贴最多1000个邮政编码。
-每行包括一个邮政编码，或者输入多个值，以逗号或制表符分隔。
-      1. 单击&#x200B;*[!UICONTROL Include All]*&#x200B;可包含所有位置作为目标，单击&#x200B;*[!UICONTROL Exclude All]*&#x200B;可排除所有位置作为目标。
+     1. 单击左列中的“单击&#x200B;**[!UICONTROL Postal Code]**”。
+     1. 单击国家列表上方的&#x200B;**[!UICONTROL Paste]**。
+     1. 选择国家/地区。
+     1. 输入或粘贴最多1000个邮政编码。
+        每行包括一个邮政编码，或者输入多个值，以逗号或制表符分隔。
+     1. 单击&#x200B;*[!UICONTROL Include All]*&#x200B;可包含所有位置作为目标，单击&#x200B;*[!UICONTROL Exclude All]*&#x200B;可排除所有位置作为目标。
    * 要从[!UICONTROL Included]或[!UICONTROL Excluded]列表中删除位置，请单击右列位置旁边的&#x200B;**[!UICONTROL X]**。
 1. 单击&#x200B;**[!UICONTROL Done]**。
 
@@ -218,22 +210,22 @@ ht-degree: 0%
 
 * 要排除清单类型，请清除名称旁边的复选框。
 * 要定位库存类型，请执行以下操作：
-   1. 选中清单类型名称旁边的复选框。
-   1. （可选）更改源以包括：
-      1. 单击![编辑](/help/dsp/assets/edit.png)。
-      1. （[!UICONTROL Public]和[!UICONTROL On Demand]清单）单击&#x200B;**[!UICONTROL View by Source]**&#x200B;或&#x200B;**[!UICONTROL View by Feed]**&#x200B;以更改源的列出方式。
-      1. （适用时）根据需要筛选库存。
-      1. 指定要包含和排除的源：
-         * 对于[!UICONTROL Public]或[!UICONTROL On Demand]清单：
-            * 要包含源，请单击源名称旁边的&#x200B;**[!UICONTROL Include]**。
-            * 要排除源，请单击源名称旁边的&#x200B;**[!UICONTROL Exclude]**。
-         * 对于[!UICONTROL Private]库存：
-            * 在[!UICONTROL Deals]选项卡上：
-               * 要在交易中包含所有库存，请单击交易名称旁边的&#x200B;**[!UICONTROL Include all]**。
-               * 要包含单个库存来源，请展开交易名称，然后单击来源名称旁边的复选框。
-            * 在[!UICONTROL Deal Lists]选项卡上，单击交易列表名称旁边的复选框。
-   1. （可选）要将包含定向信息的CSV文件下载到浏览器的下载位置，请单击&#x200B;**[!UICONTROL Export]**。
-   1. 单击&#x200B;**[!UICONTROL Save]**。
+  1. 选中清单类型名称旁边的复选框。
+  1. （可选）更改源以包括：
+     1. 单击![编辑](/help/dsp/assets/edit.png)。
+     1. （[!UICONTROL Public]和[!UICONTROL On Demand]清单）单击&#x200B;**[!UICONTROL View by Source]**&#x200B;或&#x200B;**[!UICONTROL View by Feed]**&#x200B;以更改源的列出方式。
+     1. （适用时）根据需要筛选库存。
+     1. 指定要包含和排除的源：
+        * 对于[!UICONTROL Public]或[!UICONTROL On Demand]清单：
+          * 要包含源，请单击源名称旁边的&#x200B;**[!UICONTROL Include]**。
+          * 要排除源，请单击源名称旁边的&#x200B;**[!UICONTROL Exclude]**。
+        * 对于[!UICONTROL Private]库存：
+          * 在[!UICONTROL Deals]选项卡上：
+            * 要在交易中包含所有库存，请单击交易名称旁边的&#x200B;**[!UICONTROL Include all]**。
+            * 要包含单个库存来源，请展开交易名称，然后单击来源名称旁边的复选框。
+          * 在[!UICONTROL Deal Lists]选项卡上，单击交易列表名称旁边的复选框。
+  1. （可选）要将包含定向信息的CSV文件下载到浏览器的下载位置，请单击&#x200B;**[!UICONTROL Export]**。
+  1. 单击&#x200B;**[!UICONTROL Save]**。
 
 >[!TIP]
 >
@@ -276,11 +268,11 @@ ht-degree: 0%
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 指定要包含或排除的站点类别：
    * 要包含站点类别，请执行以下操作：
-      1. 单击&#x200B;**[!UICONTROL Include categories]**。
-      1. 选中每个要定位的类别旁边的复选框。
+     1. 单击&#x200B;**[!UICONTROL Include categories]**。
+     1. 选中每个要定位的类别旁边的复选框。
    * 要排除站点类别，请执行以下操作：
-      1. 单击&#x200B;**[!UICONTROL Exclude categories]**。
-      1. 选中要排除的每个类别旁边的复选框。
+     1. 单击&#x200B;**[!UICONTROL Exclude categories]**。
+     1. 选中要排除的每个类别旁边的复选框。
 1. （可选）要将包含定向信息的CSV文件下载到浏览器的下载位置，请单击&#x200B;**[!UICONTROL Export]**。
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
@@ -289,19 +281,19 @@ ht-degree: 0%
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 指定站点：
    * 从[!UICONTROL Paste URL]选项卡：
-      * 要搜索站点：
-         1. 单击&#x200B;**[!UICONTROL Search]**。
-         1. 输入关键字、选择站点层和/或选择站点类别。
-         1. 在搜索结果中，选择要排除的站点：
-            * 要排除单个站点，请选中相邻复选框。
-            * （当可用结果超过50个时）要排除前50个结果，请单击&#x200B;**[!UICONTROL Exclude these 50]**。 要排除所有搜索结果，请单击&#x200B;**[!UICONTROL Exclude these \<*NN *\>]**。
-      * 要输入域名，请执行以下操作：
-         1. 单击&#x200B;**[!UICONTROL Paste]**。
-         1. 在单独行中输入一个或多个域名。
-         1. 单击&#x200B;**[!UICONTROL Exclude All]**。
+     * 要搜索站点：
+       1. 单击&#x200B;**[!UICONTROL Search]**。
+       1. 输入关键字、选择站点层和/或选择站点类别。
+       1. 在搜索结果中，选择要排除的站点：
+          * 要排除单个站点，请选中相邻复选框。
+          * （当可用结果超过50个时）要排除前50个结果，请单击&#x200B;**[!UICONTROL Exclude these 50]**。 要排除所有搜索结果，请单击&#x200B;**[!UICONTROL Exclude these \<*NN *\>]**。
+     * 要输入域名，请执行以下操作：
+       1. 单击&#x200B;**[!UICONTROL Paste]**。
+       1. 在单独行中输入一个或多个域名。
+       1. 单击&#x200B;**[!UICONTROL Exclude All]**。
    * 从[!UICONTROL URL Lists]选项卡：
-      1. （可选）通过在搜索字段中输入全部或部分列表名称来搜索URL列表。
-      1. 选中要排除的每个URL列表旁边的复选框。
+     1. （可选）通过在搜索字段中输入全部或部分列表名称来搜索URL列表。
+     1. 选中要排除的每个URL列表旁边的复选框。
 1. 完成后，单击&#x200B;**[!UICONTROL Done]**。
 
 >[!NOTE]
@@ -351,15 +343,15 @@ ht-degree: 0%
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*：（默认）根据用户的Cookie、移动广告ID或连接的电视(CTV) ID定位用户。 根据浏览器、应用程序内或CTV清单选择ID。
 
-* *[!UICONTROL Universal ID]*：定位注重隐私的用户ID；选择一种ID类型。 可用选项由[!UICONTROL Geo-Targeting]部分中的所选地理目标决定。 用于直接导入到DSP[&#128279;](/help/dsp/audiences/sources/source-import-liveramp-segments.md)的[!DNL RampID] 区段、DSP将您的PII转换为通用ID的[区段](/help/dsp/audiences/sources/source-about.md)、流式传输到DSP的[第一方 [!DNL AdFixus] 区段](/help/dsp/audiences/sources/source-adfixus.md)或跟踪通用ID的[自定义区段](/help/dsp/audiences/custom-segment-create.md)。
+* *[!UICONTROL Universal ID]*：定位注重隐私的用户ID；选择一种ID类型。 可用选项由[!UICONTROL Geo-Targeting]部分中的所选地理目标决定。 用于直接导入到DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md)的[[!DNL RampID] 区段、DSP将您的PII转换为通用ID的[区段](/help/dsp/audiences/sources/source-about.md)、流式传输到DSP的[第一方 [!DNL AdFixus] 区段](/help/dsp/audiences/sources/source-adfixus.md)或跟踪通用ID的[自定义区段](/help/dsp/audiences/custom-segment-create.md)。
 
-   * *[!UICONTROL AdFixus]*：目标[!DNL AdFixus] ID已导入到Advertising DSP。
+  * *[!UICONTROL AdFixus]*：目标[!DNL AdFixus] ID已导入到Advertising DSP。
 
-   * *[!UICONTROL ID5]*：目标[!DNL ID5] ID是根据电子邮件地址和其他信号概率创建的。 ID5 ID免费提供。 **注意：** [!DNL Eyeota]中的第三方区段可能包含ID5 ID。
+  * *[!UICONTROL ID5]*：目标[!DNL ID5] ID是根据电子邮件地址和其他信号概率创建的。 ID5 ID免费提供。 **注意：** [!DNL Eyeota]中的第三方区段可能包含ID5 ID。
 
-   * *[!UICONTROL RampID]*：目标[!DNL LiveRamp] [!DNL RampIDs]用户使用其电子邮件地址登录到您的网站。 [!DNL RampIDs]适用于北美洲、澳大利亚和新西兰的用户。
+  * *[!UICONTROL RampID]*：目标[!DNL LiveRamp] [!DNL RampIDs]用户使用其电子邮件地址登录到您的网站。 [!DNL RampIDs]适用于北美洲、澳大利亚和新西兰的用户。
 
-   * *[!UICONTROL Unified ID2.0]*：已使用用户的电子邮件地址登录到您的网站的目标[!DNL Unified ID2.0] (UID2) ID。 [!DNL UID2 IDs]不适用于欧洲经济区和其他一些国家/地区的用户。 查看[禁止的国家/地区列表](/help/policies/universal-id-policy.md#prohibited-countries-uid2)。
+  * *[!UICONTROL Unified ID2.0]*：已使用用户的电子邮件地址登录到您的网站的目标[!DNL Unified ID2.0] (UID2) ID。 [!DNL UID2 IDs]不适用于欧洲经济区和其他一些国家/地区的用户。 查看[禁止的国家/地区列表](/help/policies/universal-id-policy.md#prohibited-countries-uid2)。
 
   **[!UICONTROL Terms of service]**：使用通用ID的服务协议条款。 您或DSP帐户中的其他用户必须接受一次这些条款，然后才能导入ID、将数据转换为新的ID类型或定位ID类型。 对于签订托管服务合同的客户，您的Adobe客户团队将代表贵组织获得您的同意并接受条款。 若要阅读术语，请单击&#x200B;**>**。 要接受条款，请滚动到条款的底部并单击&#x200B;**[!UICONTROL Accept]**。
 
@@ -378,7 +370,7 @@ ht-degree: 0%
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 选择适用的时区。
 1. 指定间隔：
-   * 要选择预设间隔，请单击其中一个间隔按钮。 选项包括&#x200B;*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
+   * 要选择预设间隔，请单击其中一个间隔按钮。 选项包括*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
    * 要手动选择间隔，请单击单元格内部，也可以拖动以选择间隔。
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
@@ -415,13 +407,13 @@ ht-degree: 0%
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 指定要包含或排除的ISP：
    * 要包括ISP，请执行以下操作：
-      1. 单击&#x200B;**[!UICONTROL Include ISPs]**。
-      1. （可选）按关键字筛选列表。
-      1. 选中每个要定位的ISP旁边的复选框。
+     1. 单击&#x200B;**[!UICONTROL Include ISPs]**。
+     1. （可选）按关键字筛选列表。
+     1. 选中每个要定位的ISP旁边的复选框。
    * 要排除ISP：
-      1. 单击&#x200B;**[!UICONTROL Exclude ISPs]**。
-      1. （可选）按关键字筛选列表。
-      1. 选中要排除的每个ISP旁边的复选框。
+     1. 单击&#x200B;**[!UICONTROL Exclude ISPs]**。
+     1. （可选）按关键字筛选列表。
+     1. 选中要排除的每个ISP旁边的复选框。
 1. （可选）要将包含ISP定位信息的CSV文件下载到浏览器的下载位置，请单击&#x200B;**[!UICONTROL Export]**。
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
@@ -440,37 +432,37 @@ ID必须以“51”开头并且由八位数字组成。 默认情况下，如果
 
 * [!UICONTROL DoubleVerify]:
 
-   * **[!UICONTROL Block sites that are]：**（可选）默认情况下阻止一个或多个类型的库存上下文。 可能需额外付费。
+  * **[!UICONTROL Block sites that are]：**（可选）默认情况下阻止一个或多个类型的库存上下文。 可能需额外付费。
 
 * [!UICONTROL Peer 39]:
 
-   * **目标站点：**（可选）默认情况下要定位一种或多种类型的库存属性。 可能需额外付费。
+  * **目标站点：**（可选）默认情况下要定位一种或多种类型的库存属性。 可能需额外付费。
 
 * [!UICONTROL ComScore]:
 
-   * **阻止以下站点：**（可选）默认情况下阻止一个或多个类型的清单属性。 可能需额外付费。
+  * **阻止以下站点：**（可选）默认情况下阻止一个或多个类型的清单属性。 可能需额外付费。
 
 * [!UICONTROL Integral Ad Science]
 
-   * **[!UICONTROL Adult Content]：** （可选）默认情况下阻止广告的成人内容程度： *[!UICONTROL Do Not Block]* （默认值）、*[!UICONTROL Standard]*&#x200B;或&#x200B;*[!UICONTROL Strict]*。 可能需额外付费。
+  * **[!UICONTROL Adult Content]：** （可选）默认情况下阻止广告的成人内容程度： *[!UICONTROL Do Not Block]* （默认值）、*[!UICONTROL Standard]*&#x200B;或&#x200B;*[!UICONTROL Strict]*。 可能需额外付费。
 
-   * **[!UICONTROL Alcohol Content]：**（可选）默认情况下阻止广告的酒精含量程度： *[!UICONTROL Do Not Block]*（默认值）、*[!UICONTROL Standard]*&#x200B;或&#x200B;*[!UICONTROL Strict]*。 可能需额外付费。
+  * **[!UICONTROL Alcohol Content]：**（可选）默认情况下阻止广告的酒精含量程度： *[!UICONTROL Do Not Block]*（默认值）、*[!UICONTROL Standard]*&#x200B;或&#x200B;*[!UICONTROL Strict]*。 可能需额外付费。
 
 **[!UICONTROL Pre-bid fraud blocking]：**&#x200B;要基于通过[!DNL DoubleVerify]、[!DNL Integral Ad Science]和[!DNL Peer39]测量的欺诈性流量和可疑活动阻止的站点类型。 为新投放位置选择了广告商级别的默认值，但您可以更改设置：
 
 * [!UICONTROL DoubleVerify]： （适用于桌面和移动设备Web显示、本机、视频和标准连接的电视广告）
 
-   * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]：**&#x200B;默认情况下，会阻止所有100%无效的流量（包括被劫持设备上的流量）用于新放置。 可能需额外付费。
+  * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]：**&#x200B;默认情况下，会阻止所有100%无效的流量（包括被劫持设备上的流量）用于新放置。 可能需额外付费。
 
-   * **[!UICONTROL Also block sites with]：**（可选）额外级别的欺诈和无效流量导致DSP默认阻止广告： *[!UICONTROL None]*（默认值，它不会阻止额外流量）、*[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*、*[!UICONTROL >4% Average Fraud/IVT levels]*、*[!UICONTROL >6% Average Fraud/IVT levels]*、*[!UICONTROL >10% Average Fraud/IVT levels]*&#x200B;或&#x200B;*[!UICONTROL >25% Average Fraud/IVT levels]*。 可能需额外付费。
+  * **[!UICONTROL Also block sites with]：**（可选）额外级别的欺诈和无效流量导致DSP默认阻止广告： *[!UICONTROL None]*（默认值，它不会阻止额外流量）、*[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*、*[!UICONTROL >4% Average Fraud/IVT levels]*、*[!UICONTROL >6% Average Fraud/IVT levels]*、*[!UICONTROL >10% Average Fraud/IVT levels]*&#x200B;或&#x200B;*[!UICONTROL >25% Average Fraud/IVT levels]*。 可能需额外付费。
 
 * [!UICONTROL Peer 39]： （适用于桌面和移动设备Web显示、本机广告和视频广告）
 
-   * **[!UICONTROL Block sites that are]：**（可选）一种或多种类型的欺诈会导致DSP默认阻止广告： *[!UICONTROL Fraud]*（会阻止所有网站进行欺诈行为）、*[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*&#x200B;和/或&#x200B;*[!UICONTROL Fraud: Zero Ads]*。 可能需额外付费。
+  * **[!UICONTROL Block sites that are]：**（可选）一种或多种类型的欺诈会导致DSP默认阻止广告： *[!UICONTROL Fraud]*（会阻止所有网站进行欺诈行为）、*[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*&#x200B;和/或&#x200B;*[!UICONTROL Fraud: Zero Ads]*。 可能需额外付费。
 
 * [!UICONTROL Integral Ad Science]： （适用于桌面和移动设备Web显示、本机广告和视频广告）
 
-   * **[!UICONTROL Block sites that are]：**（可选）一种可疑DSP阻止广告的网站或应用程序活动类型： *[!UICONTROL None]*（默认值，不阻止基于可疑活动的广告）、*[!UICONTROL Suspicious Activity - High Risk]*&#x200B;或&#x200B;*[!UICONTROL Suspicious Activity - High or Moderate Risk]*。 可能需额外付费。
+  * **[!UICONTROL Block sites that are]：**（可选）一种可疑DSP阻止广告的网站或应用程序活动类型： *[!UICONTROL None]*（默认值，不阻止基于可疑活动的广告）、*[!UICONTROL Suspicious Activity - High Risk]*&#x200B;或&#x200B;*[!UICONTROL Suspicious Activity - High or Moderate Risk]*。 可能需额外付费。
 
 **[!UICONTROL Pre-bid viewability]：** （适用于桌面和移动设备Web显示、原生和视频广告）按[!DNL DoubleVerify]和[!DNL Integral Ad Science]筛选的预竞价可见性以申请投放位置。 为新投放位置选择了广告商级别的默认值，但您可以更改设置。 可能需额外付费。
 
@@ -495,13 +487,13 @@ ID必须以“51”开头并且由八位数字组成。 默认情况下，如果
 1. 执行以下任一操作：
    * 要选择现有像素，请选中像素行中的复选框。
    * 要创建像素，请执行以下操作：
-      1. 单击&#x200B;**[!UICONTROL Create]**。
-      1. 输入以下信息：
-         * **[!UICONTROL Pixel name]：**&#x200B;像素名称；最大长度为500个字符。 使用有助于您轻松识别像素的名称。
-         * **[!UICONTROL Pixel event fires on]：**&#x200B;触发像素触发的事件。 可用的事件因广告类型而异。
-         * **[!UICONTROL Pixel type]：**&#x200B;像素是&#x200B;*[!UICONTROL IMG URL]* （1x1像素图像文件）、*[!UICONTROL HTML]*&#x200B;还是&#x200B;*[!UICONTROL JavaScript URL]*。
-         * **[!UICONTROL Pixel URL]：**&#x200B;像素图像的URL。
-      1. 单击&#x200B;**[!UICONTROL Create and attach]**。
+     1. 单击&#x200B;**[!UICONTROL Create]**。
+     1. 输入以下信息：
+        * **[!UICONTROL Pixel name]：**&#x200B;像素名称；最大长度为500个字符。 使用有助于您轻松识别像素的名称。
+        * **[!UICONTROL Pixel event fires on]：**&#x200B;触发像素触发的事件。 可用的事件因广告类型而异。
+        * **[!UICONTROL Pixel type]：**&#x200B;像素是&#x200B;*[!UICONTROL IMG URL]* （1x1像素图像文件）、*[!UICONTROL HTML]*&#x200B;还是&#x200B;*[!UICONTROL JavaScript URL]*。
+        * **[!UICONTROL Pixel URL]：**&#x200B;像素图像的URL。
+     1. 单击&#x200B;**[!UICONTROL Create and attach]**。
    1. 单击&#x200B;**[!UICONTROL Save]**。
 
 **[!UICONTROL Conversion Pixels]：**（可选）默认情况下附加到投放位置中所有新广告的转化跟踪像素。 要指定转换像素，请执行以下操作：
@@ -510,20 +502,20 @@ ID必须以“51”开头并且由八位数字组成。 默认情况下，如果
 1. 执行以下任一操作：
    * 要选择现有像素，请选中像素行中的复选框。
    * 要创建像素，请执行以下操作：
-      1. 单击&#x200B;**[!UICONTROL Create]**。
-      1. 输入以下信息：
-         * **[!UICONTROL Conversion pixel name]：**&#x200B;像素名称；最大长度为500个字符。 使用有助于您轻松识别像素的名称。
-         * **[!UICONTROL Conversion category]：**&#x200B;转换的类型。
-         * **[!UICONTROL Impression conversion window]：**&#x200B;广告展示发生后，该展示可归因于转化的天数。 默认值为30天。
-         * **[!UICONTROL Click conversion window]：**&#x200B;广告点击发生后可归因于转化的天数。 默认值为30天。
-         * **[!UICONTROL Notes]：**（可选）有关像素的描述或其他信息。
-      1. 单击&#x200B;**[!UICONTROL Create and attach]**。
-      1. 在相关网页上实施转换像素：
-         1. 在主菜单中，转到&#x200B;**[!UICONTROL Resources]** > **[!UICONTROL Conversion pixels]**。
-         1. 在像素行中，单击&#x200B;**[!UICONTROL edit]**。
-         1. 根据需要复制[!UICONTROL HTML Tag]和[!UICONTROL Flash Tag]字段中的值以提供给广告商或网站联系人。
+     1. 单击&#x200B;**[!UICONTROL Create]**。
+     1. 输入以下信息：
+        * **[!UICONTROL Conversion pixel name]：**&#x200B;像素名称；最大长度为500个字符。 使用有助于您轻松识别像素的名称。
+        * **[!UICONTROL Conversion category]：**&#x200B;转换的类型。
+        * **[!UICONTROL Impression conversion window]：**&#x200B;广告展示发生后，该展示可归因于转化的天数。 默认值为30天。
+        * **[!UICONTROL Click conversion window]：**&#x200B;广告点击发生后可归因于转化的天数。 默认值为30天。
+        * **[!UICONTROL Notes]：**（可选）有关像素的描述或其他信息。
+     1. 单击&#x200B;**[!UICONTROL Create and attach]**。
+     1. 在相关网页上实施转换像素：
+        1. 在主菜单中，转到&#x200B;**[!UICONTROL Resources]** > **[!UICONTROL Conversion pixels]**。
+        1. 在像素行中，单击&#x200B;**[!UICONTROL edit]**。
+        1. 根据需要复制[!UICONTROL HTML Tag]和[!UICONTROL Flash Tag]字段中的值以提供给广告商或网站联系人。
 
-            广告商的IT部门或其他组可能需要计划标记部署或通知标记部署。
+           广告商的IT部门或其他组可能需要计划标记部署或通知标记部署。
    1. 单击&#x200B;**[!UICONTROL Save]**。
 
 **[!UICONTROL 3rd-party Fees]：**（可选）要作为每1000次展示的不可记帐成本跟踪的静态第三方费率。 除非输入其他值，否则系统会自动为新投放位置应用包级别默认值（如果适用）。
