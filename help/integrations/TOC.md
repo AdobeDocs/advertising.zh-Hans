@@ -55,4 +55,4 @@ ht-degree: 1%
   + [Customer Journey Analytics中的Adobe Advertising量度和维度](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
   + [故障排除](/help/integrations/customer-journey-analytics/troubleshooting.md)
   + {hide-from-toc}[疑难解答](/help/integrations/customer-journey-analytics/troubleshooting-new.md)
-+ [有关Adobe Advertising集成的视频教程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)
++ [有关Adobe Advertising集成的视频教程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=zh-Hans)
