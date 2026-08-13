@@ -60,7 +60,7 @@ ht-degree: 0%
 
 | 原因 | 修复 |
 | ----- | --- |
-| 库未发布或处于草稿状态 | 转到[发布流](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow)，并确保包含WebSDK扩展的库处于已批准/已发布状态。 |
+| 库未发布或处于草稿状态 | 转到[发布流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/publish/publishing-flow)，并确保包含WebSDK扩展的库处于已批准/已发布状态。 |
 | 嵌入代码缺少或环境错误 | 验证网页上的[!DNL Tags]嵌入代码是否引用了正确的环境(Dev/Stage/Prod)。 在`<head>`标记中查找`//assets.adobedtm.com/...`脚本标记的环境。 |
 | 异步与同步加载冲突 | 确保每个网页仅存在一个[!DNL Tags]嵌入代码。 重复嵌入代码会导致争用情况。 |
 | 内容安全策略(CSP)阻止 | 将`edge.adobedc.net` `and assets.adobedtm.com`添加到您的CSP `connect-src`和`script-src`指令。 |
@@ -75,8 +75,8 @@ ht-degree: 0%
 
 | 原因 | 修复 |
 | ----- | --- |
-| 标记属性的数据流ID缺失或不正确。 | <ol><li>在[!DNL Tags]中，打开标记属性的[数据流配置设置](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)。</li><li>确认[!UICONTROL Datastream]字段指向每个环境（开发、暂存和生产）的正确数据流，以及正确的架构和数据集。<br><br>除非您在所有三个环境中明确共享一个数据流，否则每个环境都应拥有自己的数据流。</li></ol> |
-| 没有为标记属性启用数据流服务。 | [打开数据流设置](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)，并确保已启用以下服务：<ul><li>Adobe Advertising（用于转化/受众同步）</li><li>Adobe Experience Platform（用于配置文件摄取）</li></ul> |
+| 标记属性的数据流ID缺失或不正确。 | <ol><li>在[!DNL Tags]中，打开标记属性的[数据流配置设置](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)。</li><li>确认[!UICONTROL Datastream]字段指向每个环境（开发、暂存和生产）的正确数据流，以及正确的架构和数据集。<br><br>除非您在所有三个环境中明确共享一个数据流，否则每个环境都应拥有自己的数据流。</li></ol> |
+| 没有为标记属性启用数据流服务。 | [打开数据流设置](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)，并确保已启用以下服务：<ul><li>Adobe Advertising（用于转化/受众同步）</li><li>Adobe Experience Platform（用于配置文件摄取）</li></ul> |
 | 沙盒不匹配 | 确保数据流与您的架构和数据集属于相同的Adobe Experience Platform沙盒。 一个常见错误是在生产沙盒中创建数据流，但将架构指向开发沙盒。 |
 
 ### 身份和ECID问题 {#identity-and-ecid-issues}
@@ -194,7 +194,7 @@ ht-degree: 0%
 
   1. 打开URL后面附加了`ef_id=test&s_kwcid=test`的网页。
   1. 打开浏览器的代码检查工具（通常称为[!DNL Inspect]），打开[!DNL Network]选项卡，然后从Adobe Experience Platform中查找event_type=&quot;advertising.enrichment_ct&quot;的交互调用。
-  1. 在数据收集界面中，[打开要收集的网站数据的架构定义](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas)，并确认`xdm->_experience->adcloud->conversionDetails->trackingCode`和`trackingIdentities`包含`ef_id`和`s_kwcid`。
+  1. 在数据收集界面中，[打开要收集的网站数据的架构定义](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas)，并确认`xdm->_experience->adcloud->conversionDetails->trackingCode`和`trackingIdentities`包含`ef_id`和`s_kwcid`。
 
 * 点进的体验数据模型(XDM)有效负载中缺少`_experience.adcloud`。
 
@@ -202,8 +202,8 @@ ht-degree: 0%
 
 | 原因 | 修复 |
 | ----- | --- |
-| 未为数据流启用`Adobe Advertising`服务 | <ol><li>在[!DNL Tags]中，打开标记属性的[数据流配置设置](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)。</li><li>启用以下服务，并保存设置：<ul><li>Adobe Advertising（用于转化/受众同步）</li><li>Adobe Experience Platform（用于配置文件摄取）</li></ul></ol> |
-| 没有为[!UICONTROL WebSDK]扩展启用`Adobe Advertising`组件 | 默认情况下，WebSDK扩展中的`Adobe Advertising`组件处于禁用状态，并且无论XDM架构或规则配置方式如何，都必须在Adobe Advertising点进或查看点进的任何跟踪运行之前显式启用该组件。<ol><li>在[!DNL Tags]中，在Adobe Experience Platform Web SDK配置设置[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components)中打开该属性的生成选项。</li><li>启用&#x200B;**Advertising**&#x200B;组件并保存设置。</li><li>重建并重新发布库。</li></ol> |
+| 未为数据流启用`Adobe Advertising`服务 | <ol><li>在[!DNL Tags]中，打开标记属性的[数据流配置设置](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)。</li><li>启用以下服务，并保存设置：<ul><li>Adobe Advertising（用于转化/受众同步）</li><li>Adobe Experience Platform（用于配置文件摄取）</li></ul></ol> |
+| 没有为[!UICONTROL WebSDK]扩展启用`Adobe Advertising`组件 | 默认情况下，WebSDK扩展中的`Adobe Advertising`组件处于禁用状态，并且无论XDM架构或规则配置方式如何，都必须在Adobe Advertising点进或查看点进的任何跟踪运行之前显式启用该组件。<ol><li>在[!DNL Tags]中，在Adobe Experience Platform Web SDK配置设置[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components)中打开该属性的生成选项。</li><li>启用&#x200B;**Advertising**&#x200B;组件并保存设置。</li><li>重建并重新发布库。</li></ol> |
 | 仅记录点进转化；从不显示点进转化 | 这是正常默认行为。 启用`Adobe Advertising`组件后，点进跟踪将使用`s_kwcid`和`ef_id` URL查询参数自动处于活动状态。 默认情况下，浏览跟踪处于禁用状态，需要额外的配置 — 请参阅下一行。 |
 | 未启用或配置显示到达跟踪 | <ol><li>为数据流启用Adobe Advertising服务</li><ol><li>转到Adobe Experience Platform中的[!UICONTROL Data Collection] > [!UICONTROL Datastreams]，然后打开[!DNL Tags]属性使用的数据流。</li><li>选择&#x200B;**添加服务**，选择&#x200B;**Adobe Advertising**&#x200B;和&#x200B;**Adobe Experience Platform**，然后选择&#x200B;**保存**。</li></ol><li>在Adobe Advertising DSP中配置广告商</li><ol><li>在[!DNL Tags]中，转到[!UICONTROL Extensions] > [!UICONTROL Installed] > **Adobe Experience Platform Web SDK** > [!UICONTROL Configure]。</li><li>在[!UICONTROL Advertiser]部分下，从下拉列表中选择一个广告商并启用它。 要配置多个广告商，请选择&#x200B;**添加广告商**。</li></ol><li>验证是否触发显示到达转化像素</li><ol><li>在AEP Debugger中，确认interact调用在`xdm.query`字段下包含`stitchId`。</li><li>在浏览器[!UICONTROL Network]选项卡上确认已触发类型为`advertising.enrichment`的事件，且该事件包含`xdm.query`下的`stitchId`。</li></ol></ol> 无论访问次数如何，显示到达转化仅每30分钟触发一次。 如果您没有看到interact调用，请清除浏览器缓存并重试。 |
 | （如果在显示到达交互调用触发后，Experience Platform中没有显示到达事件）则手动键入广告商，而不是从下拉列表中进行选择 | 从[!UICONTROL Advertiser]下拉列表中重新选择广告商，而不是手动输入。 |
@@ -317,7 +317,7 @@ alloy("sendEvent", {
 
 * 您的Adobe Advertising维度和摘要量度包含在您的Customer Journey Analytics数据视图中。
 
-如果您已验证上述所有设置，但仍看不到摘要数据，请在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)为您的组织打开支持工单。
+如果您已验证上述所有设置，但仍看不到摘要数据，请在[https://experienceleague.adobe.com/home?lang=zh-Hans#support](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)为您的组织打开支持工单。
 
 +++
 
@@ -329,7 +329,7 @@ alloy("sendEvent", {
 
 * 已在Customer Journey Analytics连接中为三个数据集（维度/分类/查找、摘要和事件量度）启用设置“[!UICONTROL Backfill all existing data]”。
 
-如果您验证了上述所有条件，但仍看不到摘要数据，请在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)为您的组织打开支持工单。
+如果您验证了上述所有条件，但仍看不到摘要数据，请在[https://experienceleague.adobe.com/home?lang=zh-Hans#support](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)为您的组织打开支持工单。
 
 +++
 
@@ -337,7 +337,7 @@ alloy("sendEvent", {
 
 验证是否已为特定的广告网络帐户启用从Adobe Advertising到Customer Journey Analytics的馈送。 请与您的Adobe客户团队核实。
 
-如果为某个帐户启用了信息源，但仍看不到摘要数据，请在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)为您的组织打开支持工单。 包含广告网络帐户的[!UICONTROL Account ID]。
+如果为某个帐户启用了信息源，但仍看不到摘要数据，请在[https://experienceleague.adobe.com/home?lang=zh-Hans#support](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)为您的组织打开支持工单。 包含广告网络帐户的[!UICONTROL Account ID]。
 
 +++
 
@@ -353,7 +353,7 @@ alloy("sendEvent", {
 
 * 已在Customer Journey Analytics连接中为三个数据集（维度/分类/查找、摘要和事件量度）启用设置“[!UICONTROL Backfill all existing data]”。
 
-如果确定数据不一致，请在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)为您的组织打开支持工单。 包含广告网络帐户的[!UICONTROL Account ID]。 要显示差异的证据，请包含屏幕截图和电子表格。 如果需要，您的Adobe客户团队可以追溯修复数据馈送以解决差异。
+如果确定数据不一致，请在[https://experienceleague.adobe.com/home?lang=zh-Hans#support](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)为您的组织打开支持工单。 包含广告网络帐户的[!UICONTROL Account ID]。 要显示差异的证据，请包含屏幕截图和电子表格。 如果需要，您的Adobe客户团队可以追溯修复数据馈送以解决差异。
 
 +++
 
@@ -375,7 +375,7 @@ alloy("sendEvent", {
 
 * 已在WebSDK扩展中正确配置并发布Adobe Advertising设置。
 
-如果您已验证上述所有设置，但仍看不到转化数据，请在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)为您的组织打开支持工单。 包含广告网络帐户的[!UICONTROL Account ID]。
+如果您已验证上述所有设置，但仍看不到转化数据，请在[https://experienceleague.adobe.com/home?lang=zh-Hans#support](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)为您的组织打开支持工单。 包含广告网络帐户的[!UICONTROL Account ID]。
 
 +++
 
