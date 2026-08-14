@@ -57,4 +57,4 @@ ht-degree: 1%
   + {hide-from-toc}[疑难解答](/help/integrations/customer-journey-analytics/troubleshooting-new.md)
   + {hide-from-toc}[疑难解答](/help/integrations/customer-journey-analytics/troubleshooting-new-accordian.md)
   + {hide-from-toc}[疑难解答](/help/integrations/customer-journey-analytics/troubleshooting-new-tables.md)
-+ [有关Adobe Advertising集成的视频教程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)
++ [有关Adobe Advertising集成的视频教程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=zh-Hans)
