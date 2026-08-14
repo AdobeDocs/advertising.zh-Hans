@@ -4,9 +4,9 @@ user-guide-description: 了解Advertising DSP和Advertising Search与其他Adobe
 breadcrumb-title: 与CX Enterprise集成
 role: User, Developer
 index: true
-source-git-commit: 47ee85790ddbabbd9f7a51db98bcfa7b120648ce
+source-git-commit: de60dcf0a1f0e5d751fb4e85a6e64bca22fadc8b
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '270'
 ht-degree: 1%
 
 ---
@@ -55,4 +55,6 @@ ht-degree: 1%
   + [Customer Journey Analytics中的Adobe Advertising量度和维度](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
   + [故障排除](/help/integrations/customer-journey-analytics/troubleshooting.md)
   + {hide-from-toc}[疑难解答](/help/integrations/customer-journey-analytics/troubleshooting-new.md)
+  + {hide-from-toc}[疑难解答](/help/integrations/customer-journey-analytics/troubleshooting-new-accordian.md)
+  + {hide-from-toc}[疑难解答](/help/integrations/customer-journey-analytics/troubleshooting-new-tables.md)
 + [有关Adobe Advertising集成的视频教程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=zh-Hans)
