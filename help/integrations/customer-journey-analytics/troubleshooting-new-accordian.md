@@ -67,7 +67,7 @@ ht-degree: 0%
 
 +++ 库未发布或处于草稿状态
 
-转到[发布流](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow)，并确保包含WebSDK扩展的库处于已批准/已发布状态。
+转到[发布流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/publish/publishing-flow)，并确保包含WebSDK扩展的库处于已批准/已发布状态。
 
 +++
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 +++ 标记属性的数据流ID缺失或不正确
 
-1. 在[!DNL Tags]中，打开标记属性的[数据流配置设置](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)。
+1. 在[!DNL Tags]中，打开标记属性的[数据流配置设置](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)。
 1. 确认[!UICONTROL Datastream]字段指向每个环境（开发、暂存和生产）的正确数据流，以及正确的架构和数据集。
 
    除非您在所有三个环境中明确共享一个数据流，否则每个环境都应拥有自己的数据流。
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 +++ 没有为tag属性启用数据流服务
 
-[打开数据流设置](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)，并确保已启用以下服务：
+[打开数据流设置](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)，并确保已启用以下服务：
 
 * Adobe Advertising（用于转化/受众同步）
 * Adobe Experience Platform（用于配置文件摄取）
@@ -133,7 +133,7 @@ ht-degree: 0%
 
   1. 打开URL后面附加了`ef_id=test&s_kwcid=test`的网页。
   1. 打开浏览器的代码检查工具（通常称为[!DNL Inspect]），打开[!DNL Network]选项卡，然后从Adobe Experience Platform中查找event_type=&quot;advertising.enrichment_ct&quot;的交互调用。
-  1. 在数据收集界面中，[打开要收集的网站数据的架构定义](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas)，并确认`xdm->_experience->adcloud->conversionDetails->trackingCode`和`trackingIdentities`包含`ef_id`和`s_kwcid`。
+  1. 在数据收集界面中，[打开要收集的网站数据的架构定义](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas)，并确认`xdm->_experience->adcloud->conversionDetails->trackingCode`和`trackingIdentities`包含`ef_id`和`s_kwcid`。
 
 * 点进的体验数据模型(XDM)有效负载中缺少`_experience.adcloud`。
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 
 +++ 未为数据流启用`Adobe Advertising`服务
 
-1. 在[!DNL Tags]中，打开标记属性的[数据流配置设置](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)。
+1. 在[!DNL Tags]中，打开标记属性的[数据流配置设置](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)。
 1. 启用以下服务，并保存设置：
    * Adobe Advertising（用于转化/受众同步）
    * Adobe Experience Platform（用于配置文件摄取）
@@ -154,7 +154,7 @@ ht-degree: 0%
 
 默认情况下，WebSDK扩展中的`Adobe Advertising`组件处于禁用状态，并且无论XDM架构或规则配置方式如何，都必须在Adobe Advertising点进或查看点进的任何跟踪运行之前显式启用该组件。
 
-1. 在[!DNL Tags]中，在Adobe Experience Platform Web SDK配置设置[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components)中打开该属性的生成选项。
+1. 在[!DNL Tags]中，在Adobe Experience Platform Web SDK配置设置[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components)中打开该属性的生成选项。
 1. 启用&#x200B;**Advertising**&#x200B;组件并保存设置。
 1. 重建并重新发布库。
 
@@ -370,7 +370,7 @@ ht-degree: 0%
 
 * 您的Adobe Advertising维度和摘要量度包含在您的Customer Journey Analytics数据视图中。
 
-如果您已验证上述所有设置，但仍看不到摘要数据，请在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)为您的组织打开支持工单。
+如果您已验证上述所有设置，但仍看不到摘要数据，请在[https://experienceleague.adobe.com/home?lang=zh-Hans#support](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)为您的组织打开支持工单。
 
 +++
 
@@ -382,7 +382,7 @@ ht-degree: 0%
 
 * 已在Customer Journey Analytics连接中为三个数据集（维度/分类/查找、摘要和事件量度）启用设置“[!UICONTROL Backfill all existing data]”。
 
-如果您验证了上述所有条件，但仍看不到摘要数据，请在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)为您的组织打开支持工单。
+如果您验证了上述所有条件，但仍看不到摘要数据，请在[https://experienceleague.adobe.com/home?lang=zh-Hans#support](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)为您的组织打开支持工单。
 
 +++
 
@@ -390,7 +390,7 @@ ht-degree: 0%
 
 验证是否已为特定的广告网络帐户启用从Adobe Advertising到Customer Journey Analytics的馈送。 请与您的Adobe客户团队核实。
 
-如果为某个帐户启用了信息源，但仍看不到摘要数据，请在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)为您的组织打开支持工单。 包含广告网络帐户的[!UICONTROL Account ID]。
+如果为某个帐户启用了信息源，但仍看不到摘要数据，请在[https://experienceleague.adobe.com/home?lang=zh-Hans#support](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)为您的组织打开支持工单。 包含广告网络帐户的[!UICONTROL Account ID]。
 
 +++
 
@@ -406,7 +406,7 @@ ht-degree: 0%
 
 * 已在Customer Journey Analytics连接中为三个数据集（维度/分类/查找、摘要和事件量度）启用设置“[!UICONTROL Backfill all existing data]”。
 
-如果确定数据不一致，请在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)为您的组织打开支持工单。 包含广告网络帐户的[!UICONTROL Account ID]。 要显示差异的证据，请包含屏幕截图和电子表格。 如果需要，您的Adobe客户团队可以追溯修复数据馈送以解决差异。
+如果确定数据不一致，请在[https://experienceleague.adobe.com/home?lang=zh-Hans#support](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)为您的组织打开支持工单。 包含广告网络帐户的[!UICONTROL Account ID]。 要显示差异的证据，请包含屏幕截图和电子表格。 如果需要，您的Adobe客户团队可以追溯修复数据馈送以解决差异。
 
 +++
 
@@ -430,7 +430,7 @@ ht-degree: 0%
 
 * 已在WebSDK扩展中正确配置并发布Adobe Advertising设置。
 
-如果您已验证上述所有设置，但仍看不到转化数据，请在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)为您的组织打开支持工单。 包含广告网络帐户的[!UICONTROL Account ID]。
+如果您已验证上述所有设置，但仍看不到转化数据，请在[https://experienceleague.adobe.com/home?lang=zh-Hans#support](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)为您的组织打开支持工单。 包含广告网络帐户的[!UICONTROL Account ID]。
 
 +++
 
