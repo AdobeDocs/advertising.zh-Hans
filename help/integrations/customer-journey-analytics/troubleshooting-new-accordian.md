@@ -3,10 +3,18 @@ title: Customer Journey Analytics中的Adobe Advertising数据疑难解答
 description: 了解如何对Customer Journey Analytics中的Adobe Advertising数据问题进行故障排除和解决。
 feature: Integration with Adobe Customer Journey Analytics
 hide: true
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 3745130aae22ffa2e34c5c23276ed6d05ccdab93
 workflow-type: tm+mt
 source-wordcount: 3018
@@ -42,7 +50,7 @@ ht-degree: 0%
 
 ## 安装和设置问题 {#issues-installation-setup}
 
-### WebSDK扩展未初始化{#websdk-extension-doesn&#39;t-initialize}
+### WebSDK扩展未初始化#websdk-extension-doesn&#39;t-initialize
 
 症状：
 
@@ -125,7 +133,7 @@ ht-degree: 0%
 
 +++
 
-### 规则或事件未触发{#rules-or-events-aren&#39;t-string}
+### 规则或事件未触发#rules-or-events-aren&#39;t-string
 
 症状：
 
@@ -264,7 +272,7 @@ ht-degree: 0%
 
 默认情况下，WebSDK扩展中的`Adobe Advertising`组件处于禁用状态，并且无论XDM架构或规则配置方式如何，都必须在Adobe Advertising点进或查看点进的任何跟踪运行之前显式启用该组件。
 
-1. 在[!DNL Tags]中，在Adobe Experience Platform Web SDK配置设置](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components)中打开该属性的[生成选项。
+1. 在[!DNL Tags]中，在Adobe Experience Platform Web SDK配置设置[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components)中打开该属性的生成选项。
 1. 启用&#x200B;**Advertising**&#x200B;组件并保存设置。
 1. 重建并重新发布库。
 
@@ -444,7 +452,7 @@ alloy("sendEvent", {
 
 * 在[!DNL Workspace]和Adobe Advertising报表中应用的任何过滤器和区段都不会导致数据差异。
 
-* Customer Journey Analytics数据视图的[!UICONTROL Time Zone]与您的Advertising DSP帐户](/help/dsp/admin/user-own-profile-edit.md)的[[!UICONTROL Default Timezone]匹配。
+* Customer Journey Analytics数据视图的[!UICONTROL Time Zone]与您的Advertising DSP帐户[&#128279;](/help/dsp/admin/user-own-profile-edit.md)的[!UICONTROL Default Timezone]匹配。
 
 * 已在Customer Journey Analytics连接中为三个数据集（维度/分类/查找、摘要和事件量度）启用设置“[!UICONTROL Backfill all existing data]”。
 
@@ -499,7 +507,7 @@ Answer
 >[!MORELIKETHIS]
 >
 >* [概述](overview.md)
->*  [!DNL Customer Journey Analytics]](ids.md)使用的[Adobe Advertising ID
+>*  [!DNL Customer Journey Analytics][&#128279;](ids.md)使用的Adobe Advertising ID
 >* [先决条件](prerequisites.md)
 >* [设置数据收集、数据传输和报告](set-up.md)
 >* Customer Journey Analytics中的[Adobe Advertising指标和维度](advertising-data-in-cja.md)

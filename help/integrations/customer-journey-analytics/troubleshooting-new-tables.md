@@ -3,10 +3,18 @@ title: Customer Journey Analytics中的Adobe Advertising数据疑难解答
 description: 了解如何对Customer Journey Analytics中的Adobe Advertising数据问题进行故障排除和解决。
 feature: Integration with Adobe Customer Journey Analytics
 hide: true
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: d6ceaa9749e6b700cc738b3de8d6088150e8ffd0
 workflow-type: tm+mt
 source-wordcount: 3033
@@ -42,7 +50,7 @@ ht-degree: 0%
 
 ## 安装和设置问题 {#issues-installation-setup}
 
-### WebSDK扩展未初始化{#websdk-extension-doesn&#39;t-initialize}
+### WebSDK扩展未初始化#websdk-extension-doesn&#39;t-initialize
 
 症状：
 
@@ -83,7 +91,7 @@ ht-degree: 0%
 | 已阻止第三方Cookie | 通过在数据流的边缘配置中配置第一方域来迁移到第一方CNAME数据收集。 |
 | 存在旧版`s_ecid` Cookie时，`idMigrationEnabled`设置为`false` | 在WebSDK基本配置中设置`idMigrationEnabled: true`以从`s_ecid`或`AMCV_` Cookie迁移现有ECID。 |
 
-### 规则或事件未触发{#rules-or-events-aren&#39;t-string}
+### 规则或事件未触发#rules-or-events-aren&#39;t-string
 
 症状：
 
@@ -195,7 +203,7 @@ ht-degree: 0%
 | 原因 | 修复 |
 | ----- | --- |
 | 未为数据流启用`Adobe Advertising`服务 | <ol><li>在[!DNL Tags]中，打开标记属性的[数据流配置设置](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)。</li><li>启用以下服务，并保存设置：<ul><li>Adobe Advertising（用于转化/受众同步）</li><li>Adobe Experience Platform（用于配置文件摄取）</li></ul></ol> |
-| 没有为[!UICONTROL WebSDK]扩展启用`Adobe Advertising`组件 | 默认情况下，WebSDK扩展中的`Adobe Advertising`组件处于禁用状态，并且无论XDM架构或规则配置方式如何，都必须在Adobe Advertising点进或查看点进的任何跟踪运行之前显式启用该组件。<ol><li>在[!DNL Tags]中，在Adobe Experience Platform Web SDK配置设置](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components)中打开该属性的[生成选项。</li><li>启用&#x200B;**Advertising**&#x200B;组件并保存设置。</li><li>重建并重新发布库。</li></ol> |
+| 没有为[!UICONTROL WebSDK]扩展启用`Adobe Advertising`组件 | 默认情况下，WebSDK扩展中的`Adobe Advertising`组件处于禁用状态，并且无论XDM架构或规则配置方式如何，都必须在Adobe Advertising点进或查看点进的任何跟踪运行之前显式启用该组件。<ol><li>在[!DNL Tags]中，在Adobe Experience Platform Web SDK配置设置[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components)中打开该属性的生成选项。</li><li>启用&#x200B;**Advertising**&#x200B;组件并保存设置。</li><li>重建并重新发布库。</li></ol> |
 | 仅记录点进转化；从不显示点进转化 | 这是正常默认行为。 启用`Adobe Advertising`组件后，点进跟踪将使用`s_kwcid`和`ef_id` URL查询参数自动处于活动状态。 默认情况下，浏览跟踪处于禁用状态，需要额外的配置 — 请参阅下一行。 |
 | 未启用或配置显示到达跟踪 | <ol><li>为数据流启用Adobe Advertising服务</li><ol><li>转到Adobe Experience Platform中的[!UICONTROL Data Collection] > [!UICONTROL Datastreams]，然后打开[!DNL Tags]属性使用的数据流。</li><li>选择&#x200B;**添加服务**，选择&#x200B;**Adobe Advertising**&#x200B;和&#x200B;**Adobe Experience Platform**，然后选择&#x200B;**保存**。</li></ol><li>在Adobe Advertising DSP中配置广告商</li><ol><li>在[!DNL Tags]中，转到[!UICONTROL Extensions] > [!UICONTROL Installed] > **Adobe Experience Platform Web SDK** > [!UICONTROL Configure]。</li><li>在[!UICONTROL Advertiser]部分下，从下拉列表中选择一个广告商并启用它。 要配置多个广告商，请选择&#x200B;**添加广告商**。</li></ol><li>验证是否触发显示到达转化像素</li><ol><li>在AEP Debugger中，确认interact调用在`xdm.query`字段下包含`stitchId`。</li><li>在浏览器[!UICONTROL Network]选项卡上确认已触发类型为`advertising.enrichment`的事件，且该事件包含`xdm.query`下的`stitchId`。</li></ol></ol> 无论访问次数如何，显示到达转化仅每30分钟触发一次。 如果您没有看到interact调用，请清除浏览器缓存并重试。 |
 | （如果在显示到达交互调用触发后，Experience Platform中没有显示到达事件）则手动键入广告商，而不是从下拉列表中进行选择 | 从[!UICONTROL Advertiser]下拉列表中重新选择广告商，而不是手动输入。 |
@@ -335,7 +343,7 @@ Answer
 >[!MORELIKETHIS]
 >
 >* [概述](overview.md)
->*  [!DNL Customer Journey Analytics]](ids.md)使用的[Adobe Advertising ID
+>*  [!DNL Customer Journey Analytics][&#128279;](ids.md)使用的Adobe Advertising ID
 >* [先决条件](prerequisites.md)
 >* [设置数据收集、数据传输和报告](set-up.md)
 >* Customer Journey Analytics中的[Adobe Advertising指标和维度](advertising-data-in-cja.md)
