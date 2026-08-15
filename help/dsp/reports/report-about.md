@@ -4,22 +4,14 @@ description: 了解用于手动或使用预配置的报表模板创建自定义�
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
 TQID: https://experienceleague.adobe.com/s4EiBrtWrkDbweibjuPa7KAv4s8pMtbLYEG-CEeXBdY
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
-  - id: d9510790-d834-436d-8423-8d69cd50464a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a4042ccc2ff85513d35eb56cd514b8bac6ebf65e
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: cc3b7f3c-58f0-4ba4-b808-391002930fd4id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8259705179c77085be82b416f62a093186b03745
 workflow-type: tm+mt
-source-wordcount: 1788
+source-wordcount: 1716
 ht-degree: 0%
 
 ---
@@ -41,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您还可以在相关促销活动管理视图[&#128279;](/help/dsp/campaign-management/reports/campaign-reports-about.md)中查看促销活动的所有级别（促销活动、包、投放位置或广告）的按需数据。
+>您还可以在相关促销活动管理视图](/help/dsp/campaign-management/reports/campaign-reports-about.md)中查看促销活动[的所有级别（促销活动、包、投放位置或广告）的按需数据。
 
 ## 可用报表类型
 
@@ -65,11 +57,9 @@ ht-degree: 0%
 
   * **[!UICONTROL Device]：**&#x200B;使用此预填充模板按设备相关的维度查看关键量度。
 
-  * **[DSP自我归因转化]：**&#x200B;使用此报表可查看Advertising DSP对转化的贡献，包括DSP在其中发挥作用但后来又有所接触的客户历程，如Adobe Advertising搜索点击，在其他报表中获得了最近一次点击的点数。
+  * **[!UICONTROL DSP Self-Attributed Conversions]：**&#x200B;使用此报表可查看Advertising DSP对转化的贡献 — 包括DSP在其中发挥了作用但后来又有所接触的客户历程，如Adobe Advertising搜索点击，在其他报表中获得了最近一次点击的点数。 有关详细信息，请参阅[关于自定义报告的常见问题解答](/help/dsp/reports/faq-reports.md)。
 
-    标准报表功劳归于转化前的最后一次点击。 当客户在转化前看到DSP广告后单击搜索广告时，该DSP曝光度通常不会出现在转化数字中。 此报表会将转化连接回DSP展示次数和在此之前单击的次数，以便您能够看到DSP的角色，即使它不是最后一次接触。 它对于同时使用Advertising DSP和Advertising Search、Social和Commerce的广告商最有用。
-
-    **重要信息：**&#x200B;此报表不会更改归因Adobe Analytics报表或现有的归因方法。 它提供了特定于DSP的转化贡献补充视图。
+    **重要信息：**&#x200B;此报表不会更改Adobe Analytics报表中的现有归因方法或归因。 它提供了特定于DSP的转化贡献补充视图。
 
   * **[!UICONTROL Frequency (by Impression)]：**&#x200B;使用此报告了解向独特查看者显示的展示次数分布（例如，有多少独特查看者查看了一个展示次数、两个展示次数、三个展示次数等）。 数据按投放位置或营销活动提供。
 
@@ -88,9 +78,9 @@ ht-degree: 0%
 
   * **[!UICONTROL Geo]**：使用此预填充模板按地理维度查看关键量度。
 
-  * **[!UICONTROL Household Conversions]：**&#x200B;使用此报表可查看基于IP地址的家庭级别（而非设备/Cookie级别）的浏览转化情况。 使用见解衡量和优化促销活动效果。 有关详细信息，请参阅[家庭报告常见问题解答](/help/dsp/reports/faq-reports.md)。 数据不可用于以通用ID为目标的投放位置。
+  * **[!UICONTROL Household Conversions]：**&#x200B;使用此报表可查看基于IP地址的家庭级别（而非设备/Cookie级别）的浏览转化情况。 使用见解衡量和优化促销活动效果。 有关详细信息，请参阅[关于自定义报告的常见问题解答](/help/dsp/reports/faq-reports.md)。 数据不可用于以通用ID为目标的投放位置。
 
-  * **[!UICONTROL Household Reach & Frequency]：**&#x200B;使用此报表可根据IP地址而不是设备/Cookie级别，在家庭级别查看跨广告格式的单个维度的展示次数、覆盖范围和频率。 利用这些见解优化您的媒体组合、提高性能并发现增量访问的机会。 有关详细信息，请参阅[家庭报告常见问题解答](/help/dsp/reports/faq-reports.md)。 数据不可用于以通用ID为目标的投放位置。
+  * **[!UICONTROL Household Reach & Frequency]：**&#x200B;使用此报表可根据IP地址而不是设备/Cookie级别，在家庭级别查看跨广告格式的单个维度的展示次数、覆盖范围和频率。 利用这些见解优化您的媒体组合、提高性能并发现增量访问的机会。 有关详细信息，请参阅[关于自定义报告的常见问题解答](/help/dsp/reports/faq-reports.md)。 数据不可用于以通用ID为目标的投放位置。
 
   * **[!UICONTROL Margin]：**&#x200B;使用此报表按促销活动或投放位置查看关键量度，如利润、利润和其他支出量度。 数据不可用于以通用ID为目标的投放位置。
 
@@ -158,7 +148,7 @@ ht-degree: 0%
 >* [创建自定义报告](/help/dsp/reports/report-create.md)
 >* [下载自定义报告](/help/dsp/reports/report-download.md)
 >* [自定义报表设置](/help/dsp/reports/report-settings.md)
->* [有关家庭报告的常见问题解答](/help/dsp/reports/faq-reports.md)
+>* 有关自定义报告的[常见问题解答](/help/dsp/reports/faq-reports.md)
 >* [促销活动管理视图中的性能报告类型](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [可用的报表列](/help/dsp/reports/report-columns.md)
 >* [关于报告目标](/help/dsp/reports/report-destinations/report-destination-about.md)
