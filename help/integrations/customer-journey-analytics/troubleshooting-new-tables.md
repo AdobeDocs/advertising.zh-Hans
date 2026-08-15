@@ -15,9 +15,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: b3b90fc7d453a9450f5858e47ae4c05243808a03
+source-git-commit: c3ffa88d5df4fa2ff7e52813503c10b67d7c6eb7
 workflow-type: tm+mt
-source-wordcount: 3033
+source-wordcount: 3290
 ht-degree: 0%
 
 ---
@@ -26,37 +26,44 @@ ht-degree: 0%
 
 以下是潜在问题、其可能原因和解决方案。
 
-## 所有潜在症状的列表
+## 所有潜在问题的列表
 
-| 症状 | 更多信息 |
+| 问题 | 更多信息 |
 | ------- | ---------------- |
-| 在浏览器的“网络”选项卡中看不到alloy()调用 | 请参阅“[安装和设置问题](#issues-installation-setup)”>“[WebSDK扩展未初始化](#websdk-extension-doesn't-initialize)”部分 |
+| 在浏览器的代码检查工具的[!DNL Network]选项卡中看不到alloy()调用 | 请参阅“[安装和设置问题](#issues-installation-setup)”>“[WebSDK扩展未初始化](#websdk-extension-doesn't-initialize)”部分 |
 | 控制台错误：未定义alloy | 请参阅“[安装和设置问题](#issues-installation-setup)”>“[WebSDK扩展未初始化](#websdk-extension-doesn't-initialize)” |
 | 不与edge.adobedc.net交互或收集请求 | 请参阅“[安装和设置问题](#issues-installation-setup)”>“[WebSDK扩展未初始化](#websdk-extension-doesn't-initialize)” |
-| 请求到达边缘，但返回400或500错误 | 请参阅“[安装和设置问题](#issues-installation-setup)”>“[数据流未配置或配置错误](#datastream-not-configured-or-misconfigured)”部分 |
+| 请求到达Adobe Experience Platform Edge Network但返回400或500错误 | 请参阅“[安装和设置问题](#issues-installation-setup)”>“[数据流未配置或配置错误](#datastream-not-configured-or-misconfigured)”部分 |
 | Adobe Analytics或Adobe Advertising报表中不显示任何数据 | 请参阅“[安装和设置问题](#issues-installation-setup)”>“[数据流未配置或配置错误](#datastream-not-configured-or-misconfigured)”部分 |
 | 网络响应错误：“未找到数据流” | 请参阅“[安装和设置问题](#issues-installation-setup)”>“[数据流未配置或配置错误](#datastream-not-configured-or-misconfigured)”部分 |
-| 访客ID在页面之间发生更改 | 请参阅“[安装和设置问题](#issues-installation-setup)”>“[标识和ECID问题](#identity-and-ecid-issues)”部分 |
-| Advertising受众区段不匹配 | 请参阅“[安装和设置问题](#issues-installation-setup)”>“[标识和ECID问题](#identity-and-ecid-issues)”部分 |
-| 调试器会显示不满足规则条件 | 请参阅“[安装和设置问题](#issues-installation-setup)”>“[规则或事件未触发](#rules-or-events-aren't-firing)”部分 |
-| [!UICONTROL Send Event]操作从不执行 | 请参阅“[安装和设置问题](#issues-installation-setup)”>“[规则或事件未触发](#rules-or-events-aren't-firing)”部分 |
-| 在[!DNL Tags]中所做的更改未反映在实时网站上 | 请参阅“[安装和设置问题](#issues-installation-setup)”>“[库生成和发布问题](#library-build-and-publishing-issues)”部分 |
-| 应用了扩展更新，但旧行为仍然存在 | 请参阅“[安装和设置问题](#issues-installation-setup)”>“[库生成和发布问题](#library-build-and-publishing-issues)”部分 |
-| `alloy()`发送事件调用成功（响应为200），但报表中缺少Adobe Advertising转化数据 | 请参阅“[安装和设置问题](#issues-installation-setup)”>“[Advertising字段的架构验证问题](#schema-validation-for-advertising-fields)”部分 |
-| 调试器中的XDM有效负载未显示`_experience.adcloud`对象 | 请参阅“[安装和设置问题](#issues-installation-setup)”>“[Advertising字段的架构验证问题](#schema-validation-for-advertising-fields)”部分 |
 | 不会为网页记录显示到达或点进转化 | 请参阅“[Advertising扩展设置问题](#advertising-extension-setup-issues)”部分 |
 | 点进的体验数据模型(XDM)有效负载中缺少`_experience.adcloud` | 请参阅“[Advertising扩展设置问题](#advertising-extension-setup-issues)”部分 |
 | 转化在调试器工具中确认，但不显示在Adobe Advertising报表中 | 请参阅“[Advertising扩展设置问题](#advertising-extension-setup-issues)”部分 |
+| 访客ID在页面之间发生更改 | 请参阅“[身份和ECID问题](#identity-and-ecid-issues)”部分 |
+| Advertising受众区段不匹配 | 请参阅“[身份和ECID问题](#identity-and-ecid-issues)”部分 |
+| 调试器会显示不满足规则条件 | 请参阅“[规则或事件未触发](#rules-or-events-don't-fire)”部分 |
+| [!UICONTROL Send Event]操作从不执行 | 请参阅“[规则或事件未触发](#rules-or-events-don't-fire)”部分 |
+| 在[!DNL Tags]中所做的更改未反映在实时网站上 | 请参阅“[库生成和发布问题](#library-build-and-publishing-issues)”部分 |
+| 应用了扩展更新，但旧行为仍然存在 | 请参阅“[库生成和发布问题](#library-build-and-publishing-issues)”部分 |
+| `alloy()`发送事件调用成功（响应为200），但报表中缺少Adobe Advertising转化数据 | 请参阅“[Advertising字段的架构验证问题](#schema-validation-for-advertising-fields)”部分 |
+| 调试器中的XDM有效负载未显示`_experience.adcloud`对象 | 请参阅“[Advertising字段的架构验证问题](#schema-validation-for-advertising-fields)”部分 |
+| Customer Journey Analytics中没有可用于Advertising DSP或Advertising Search、Social和Commerce的摘要报表数据。 | 请参阅“[报告问题](#reporting-issues)”>“[摘要报告](#summary-reporting)”部分 |
+| 摘要报表数据在Customer Journey Analytics中可用于广告商1，但不能用于广告商2。 | 请参阅“[报告问题](#reporting-issues)”>“[摘要报告](#summary-reporting)”部分 |
+| （搜索、社交和Commerce用户）汇总报表数据在Customer Journey Analytics中可用于一个[!DNL Google Ads]、[!DNL Meta Ads]或[!DNL Microsoft Advertising]帐户，但不能用于另一个帐户。 | 请参阅“[报告问题](#reporting-issues)”>“[摘要报告](#summary-reporting)”部分 |
+| Customer Journey Analytics Workspace中的摘要报表数据与Advertising DSP或Advertising Search、Social和Commerce中的数据不同，或者某些营销活动和营销活动实体的摘要数据缺失。 | 请参阅“[报告问题](#reporting-issues)”>“[摘要报告](#summary-reporting)”部分 |
+| 在CJA Customer Journey Analytics Workspace中，转化数据（如`Page Views`）不可用于报表维度（如`Campaign`）。 | 请参阅“[报告问题](#reporting-issues)”>“[事件级报告](#event-level-reporting)”部分 |
 
 ## 安装和设置问题 {#issues-installation-setup}
 
 ### WebSDK扩展未初始化#websdk-extension-doesn&#39;t-initialize
 
-症状：
+#### 问题：
 
-* 在浏览器的“网络”选项卡中看不到alloy()调用
+* 在浏览器的代码检查工具的[!DNL Network]选项卡中看不到alloy()调用
 * 控制台错误：未定义alloy
 * 不与edge.adobedc.net交互或收集请求
+
+#### 可能的原因和验证/解决方案
 
 | 原因 | 修复 |
 | ----- | --- |
@@ -67,11 +74,13 @@ ht-degree: 0%
 
 ### 数据流未配置或配置错误 {#datastream-not-configured-or-misconfigured}
 
-症状：
+#### 问题：
 
-* 请求到达边缘，但返回400或500错误
+* 请求到达Adobe Experience Platform Edge Network但返回400或500错误
 * Adobe Analytics或Adobe Advertising报表中不显示任何数据<!-- It's not useful to organize this info by cause, not symptom -->
 * 网络响应错误：“未找到数据流”
+
+#### 可能的原因和验证/解决方案
 
 | 原因 | 修复 |
 | ----- | --- |
@@ -79,24 +88,64 @@ ht-degree: 0%
 | 没有为标记属性启用数据流服务。 | [打开数据流设置](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)，并确保已启用以下服务：<ul><li>Adobe Advertising（用于转化/受众同步）</li><li>Adobe Experience Platform（用于配置文件摄取）</li></ul> |
 | 沙盒不匹配 | 确保数据流与您的架构和数据集属于相同的Adobe Experience Platform沙盒。 一个常见错误是在生产沙盒中创建数据流，但将架构指向开发沙盒。 |
 
+### [!UICONTROL Advertising]扩展设置问题 {#advertising-extension-setup-issues}
+
+#### 问题：
+
+* 不会为网页记录显示到达或点进转化。
+
+  验证是否记录了转化：
+
+  1. 打开URL后面附加了`ef_id=test&s_kwcid=test`的网页。
+  1. 打开浏览器的代码检查工具（通常称为[!DNL Inspect]），打开[!DNL Network]选项卡，然后从Adobe Experience Platform中查找event_type=&quot;advertising.enrichment_ct&quot;的交互调用。
+  1. 在数据收集界面中，[打开要收集的网站数据的架构定义](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas)，并确认`xdm->_experience->adcloud->conversionDetails->trackingCode`和`trackingIdentities`包含`ef_id`和`s_kwcid`。
+
+* 点进的体验数据模型(XDM)有效负载中缺少`_experience.adcloud`。
+
+* 转化在调试器工具中确认，但不显示在Adobe Advertising报表中
+
+#### 可能的原因和验证/解决方案
+
+| 原因 | 修复 |
+| ----- | --- |
+| 未为数据流启用`Adobe Advertising`服务 | <ol><li>在[!DNL Tags]中，打开标记属性的[数据流配置设置](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)。</li><li>启用以下服务，并保存设置：<ul><li>Adobe Advertising（用于转化/受众同步）</li><li>Adobe Experience Platform（用于配置文件摄取）</li></ul></ol> |
+| 没有为[!UICONTROL WebSDK]扩展启用`Adobe Advertising`组件 | 默认情况下，WebSDK扩展中的`Adobe Advertising`组件处于禁用状态，并且无论XDM架构或规则配置方式如何，都必须在Adobe Advertising点进或查看点进的任何跟踪运行之前显式启用该组件。<ol><li>在[!DNL Tags]中，在Adobe Experience Platform Web SDK配置设置[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components)中打开该属性的生成选项。</li><li>启用&#x200B;**Advertising**&#x200B;组件并保存设置。</li><li>重建并重新发布库。</li></ol> |
+| 仅记录点进转化；从不显示点进转化 | 这是正常默认行为。 启用`Adobe Advertising`组件后，点进跟踪将使用`s_kwcid`和`ef_id` URL查询参数自动处于活动状态。 默认情况下，浏览跟踪处于禁用状态，需要额外的配置 — 请参阅下一行。 |
+| 未启用或配置显示到达跟踪 | <ol><li>为数据流启用Adobe Advertising服务</li><ol><li>转到Adobe Experience Platform中的[!UICONTROL Data Collection] > [!UICONTROL Datastreams]，然后打开[!DNL Tags]属性使用的数据流。</li><li>选择&#x200B;**添加服务**，选择&#x200B;**Adobe Advertising**&#x200B;和&#x200B;**Adobe Experience Platform**，然后选择&#x200B;**保存**。</li></ol><li>在Adobe Advertising DSP中配置广告商</li><ol><li>在[!DNL Tags]中，转到[!UICONTROL Extensions] > [!UICONTROL Installed] > **Adobe Experience Platform Web SDK** > [!UICONTROL Configure]。</li><li>在[!UICONTROL Advertiser]部分下，从下拉列表中选择一个广告商并启用它。 要配置多个广告商，请选择&#x200B;**添加广告商**。</li></ol><li>验证是否触发显示到达转化像素</li><ol><li>在Adobe Experience Platform Debugger中，确认interact调用在`xdm.query`字段下包含`stitchId`。</li><li>在浏览器代码检查工具的[!DNL Network]选项卡上，确认已触发类型为`advertising.enrichment`的事件并在`xdm.query`下包含`stitchId`。</li></ol></ol> 无论访问次数如何，显示到达转化仅每30分钟触发一次。 如果您没有看到interact调用，请清除浏览器缓存并重试。 |
+| （如果在显示到达交互调用触发后，Experience Platform中没有显示到达事件）则手动键入广告商，而不是从下拉列表中进行选择 | 从[!UICONTROL Advertiser]下拉列表中重新选择广告商，而不是手动输入。 |
+| （如果在触发显示到达交互调用后Experience Platform中没有显示到达事件）将不会随显示到达交互调用发送任何广告商ID | 确认在WebSDK扩展配置的[!UICONTROL Advertiser]部分下配置和启用了广告商，然后重建并重新发布库。 |
+
+在为[!UICONTROL Advertising]扩展设置问题打开支持票证之前，请验证以下内容：
+
+* **Adobe Advertising**&#x200B;和&#x200B;**Adobe Experience Platform**&#x200B;服务已添加到数据流。
+* 已在WebSDK扩展配置中启用&#x200B;**Adobe Advertising**&#x200B;组件。
+* 在启用该组件后，重新生成并重新发布库。
+* 对于点进跟踪，登陆页面URL在广告点击时包含`s_kwcid`和`ef_id`。
+* 对于显示到达跟踪，在Adobe Advertising DSP中使用正确的广告商ID配置广告商。
+* WebSDK扩展的版本为2.36.0或更高版本。
+
 ### 身份和ECID问题 {#identity-and-ecid-issues}
 
-症状：
+#### 问题：
 
 * 访客ID在页面之间发生更改
 * Advertising受众区段不匹配
 
+#### 可能的原因和验证/解决方案
+
 | 原因 | 修复 |
 | ----- | --- |
-| 已阻止第三方Cookie | 通过在数据流的边缘配置中配置第一方域来迁移到第一方CNAME数据收集。 |
+| 已阻止第三方Cookie | 通过在数据流的Edge Network配置中配置第一方域，迁移到第一方CNAME数据收集。 |
 | 存在旧版`s_ecid` Cookie时，`idMigrationEnabled`设置为`false` | 在WebSDK基本配置中设置`idMigrationEnabled: true`以从`s_ecid`或`AMCV_` Cookie迁移现有ECID。 |
 
-### 规则或事件未触发#rules-or-events-aren&#39;t-string
+### 规则或事件不触发#rules-or-events-don&#39;t-fire
 
-症状：
+#### 问题：
 
 * 调试器会显示不满足规则条件
 * [!UICONTROL Send Event]操作从不执行
+
+#### 核查和解决
 
 验证以下内容：
 
@@ -108,10 +157,12 @@ ht-degree: 0%
 
 ### 库生成和发布问题 {#library-build-and-publishing-issues}
 
-症状：
+#### 问题：
 
 * 在[!DNL Tags]中所做的更改未反映在实时网站上
 * 应用了扩展更新，但旧行为仍然存在
+
+#### 可能的原因和验证/解决方案
 
 | 原因 | 修复 |
 | ----- | --- |
@@ -122,44 +173,35 @@ ht-degree: 0%
 
 ### Advertising字段的架构验证问题 {#schema-validation-for-advertising-fields}
 
-症状：
+#### 问题：
 
 * `alloy()`发送事件调用成功（响应为200），但报表中缺少Adobe Advertising转化数据
 * 调试器中的XDM有效负载未显示`_experience.adcloud`对象
 
-#### 步骤1：确认已将[!UICONTROL Advertising]字段组添加到架构中
+#### 可能的原因和验证/解决方案
 
-1. 转到Adobe Experience Platform > [!UICONTROL Data Management] > [!UICONTROL Schemas]。
-1. 打开数据流使用的架构。
-1. 在[!UICONTROL Field Groups]面板中，确认已列出&#x200B;**Adobe Advertising Cloud ExperienceEvent完整扩展**。
-1. 如果缺少该扩展，请选择&#x200B;**添加**，搜索&#x200B;**Adobe Advertising Cloud**，选择&#x200B;**Adobe Advertising Cloud ExperienceEvent完整扩展**，然后选择&#x200B;**保存**。
+| 原因 | 修复 |
+| ----- | --- |
+| 架构中缺少[!UICONTROL Advertising]字段组 | <ol><li>转到Adobe Experience Platform > [!UICONTROL Data Management] > [!UICONTROL Schemas]。</li><li>打开数据流使用的架构。</li><li>在[!UICONTROL Field Groups]面板中，确认已列出&#x200B;**Adobe Advertising Cloud ExperienceEvent完整扩展**。</li><li>如果缺少该扩展，请选择&#x200B;**添加**，搜索&#x200B;**Adobe Advertising Cloud**，选择&#x200B;**Adobe Advertising Cloud ExperienceEvent完整扩展**，然后保存设置。</li></ol>仅对架构更改而言，不需要重新发布[!DNL Tags]库，但如果添加了新字段，则必须重新映射[!DNL Tags]中的XDM数据元素。 |
+| 架构中缺少必需的Adobe Advertising字段 | 确保`_experience.adcloud.conversionDetails`下的架构中存在必需的Adobe Advertising字段。 请参阅“[引用：必需的架构字段](#required-schema-fields)”。<br><br>如果缺少任一字段，请确认&#x200B;**Adobe Advertising Cloud ExperienceEvent完整扩展**&#x200B;字段组已保存到架构中，然后刷新架构编辑器。 |
+| 登陆页面URL不包括所需的查询参数 | 确保登陆页面URL包含必要的查询参数。 在广告点进中，登陆页面URL必须包含两个查询参数，例如`https://www.example.com/landing-page?s_kwcid=AL!12345!3!abc123&ef_id=abc123xyz:G:s`。 请参阅“[引用：缺少查询参数](#missing-query-parameters)”以了解可能的原因。 |
+| XDM有效负载中的某些参数缺失或为空 | 要验证出站XDM有效负载，请打开浏览器代码检查工具的Adobe Experience Platform Debugger或[!DNL Network]选项卡，筛选`edge.adobedc.net`，并检查interact请求正文（请参阅下面的示例有效负载）。<br><br>如果`trackingCode`或`trackingIdentity`为空或缺失：触发规则时，页面上不存在查询参数（检查URL和规则的事件计时），或者架构中缺少字段组（重新访问上面的第一行）。 |
 
->[!NOTE]
->仅对架构更改而言，不需要重新发布[!DNL Tags]库，但如果添加了新字段，则必须重新映射[!DNL Tags]中的XDM数据元素。
-
-#### 步骤2：验证`_experience.adcloud.conversionDetails`下的架构中是否存在必需的Adobe Advertising字段
+##### 引用：必需架构字段 {#required-schema-fields}
 
 | 字段路径 | 类型 | 描述 |
 | ----- | --- | --- |
 | `_experience.adcloud.conversionDetails.trackingCode` | 字符串 | 将转化映射到原始广告点击。 从登陆页面URL上的`s_kwcid`查询参数填充。 |
 | `_experience.adcloud.conversionDetails.trackingIdentity` | 字符串 | 存储跟踪的显示到达或点进转化事件的唯一标识和其他详细信息。 从登陆页面URL上的`ef_id`查询参数填充。 |
 
-如果缺少任一字段，请确认已将&#x200B;**Adobe Advertising Cloud ExperienceEvent完整扩展**&#x200B;字段组保存到架构，然后刷新架构编辑器。
-
-#### 第3步：确认登陆页面URL包含查询参数
-
-在广告点进中，登陆页面URL必须包含两个查询参数，例如：
-
-`https://www.example.com/landing-page?s_kwcid=AL!12345!3!abc123&ef_id=abc123xyz:G:s`
+##### 引用：缺少查询参数 {#missing-query-parameters}
 
 | 缺少参数 | 可能的原因 |
 | ----- | --- |
 | `s_kwcid` | 未在Adobe Advertising Search或DSP Campaign设置中启用自动标记。 |
 | `ef_id` | 登陆页面URL未使用Adobe Advertising跟踪的重定向，或未在Campaign设置中启用EF ID附加。 |
 
-#### 步骤4：验证出站XDM有效负载
-
-打开AEP Debugger或浏览器[!UICONTROL Network]选项卡，筛选`edge.adobedc.net`，然后检查interact请求正文。 有效的点进有效负载类似于以下内容：
+**示例点进有效负载**
 
 ```json
 {
@@ -179,50 +221,11 @@ ht-degree: 0%
 }
 ```
 
-如果`trackingCode`或`trackingIdentity`为空或缺失：
-
-* 触发规则时，查询参数在页面上不存在。 检查URL和规则的事件计时。
-* 架构中缺少字段组。 重新访问上述架构步骤。
-
-## [!UICONTROL Advertising]扩展设置问题 {#advertising-extension-setup-issues}
-
-症状：
-
-* 不会为网页记录显示到达或点进转化。
-
-  验证是否记录了转化：
-
-  1. 打开URL后面附加了`ef_id=test&s_kwcid=test`的网页。
-  1. 打开浏览器的代码检查工具（通常称为[!DNL Inspect]），打开[!DNL Network]选项卡，然后从Adobe Experience Platform中查找event_type=&quot;advertising.enrichment_ct&quot;的交互调用。
-  1. 在数据收集界面中，[打开要收集的网站数据的架构定义](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas)，并确认`xdm->_experience->adcloud->conversionDetails->trackingCode`和`trackingIdentities`包含`ef_id`和`s_kwcid`。
-
-* 点进的体验数据模型(XDM)有效负载中缺少`_experience.adcloud`。
-
-* 转化在调试器工具中确认，但不显示在Adobe Advertising报表中
-
-| 原因 | 修复 |
-| ----- | --- |
-| 未为数据流启用`Adobe Advertising`服务 | <ol><li>在[!DNL Tags]中，打开标记属性的[数据流配置设置](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)。</li><li>启用以下服务，并保存设置：<ul><li>Adobe Advertising（用于转化/受众同步）</li><li>Adobe Experience Platform（用于配置文件摄取）</li></ul></ol> |
-| 没有为[!UICONTROL WebSDK]扩展启用`Adobe Advertising`组件 | 默认情况下，WebSDK扩展中的`Adobe Advertising`组件处于禁用状态，并且无论XDM架构或规则配置方式如何，都必须在Adobe Advertising点进或查看点进的任何跟踪运行之前显式启用该组件。<ol><li>在[!DNL Tags]中，在Adobe Experience Platform Web SDK配置设置[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components)中打开该属性的生成选项。</li><li>启用&#x200B;**Advertising**&#x200B;组件并保存设置。</li><li>重建并重新发布库。</li></ol> |
-| 仅记录点进转化；从不显示点进转化 | 这是正常默认行为。 启用`Adobe Advertising`组件后，点进跟踪将使用`s_kwcid`和`ef_id` URL查询参数自动处于活动状态。 默认情况下，浏览跟踪处于禁用状态，需要额外的配置 — 请参阅下一行。 |
-| 未启用或配置显示到达跟踪 | <ol><li>为数据流启用Adobe Advertising服务</li><ol><li>转到Adobe Experience Platform中的[!UICONTROL Data Collection] > [!UICONTROL Datastreams]，然后打开[!DNL Tags]属性使用的数据流。</li><li>选择&#x200B;**添加服务**，选择&#x200B;**Adobe Advertising**&#x200B;和&#x200B;**Adobe Experience Platform**，然后选择&#x200B;**保存**。</li></ol><li>在Adobe Advertising DSP中配置广告商</li><ol><li>在[!DNL Tags]中，转到[!UICONTROL Extensions] > [!UICONTROL Installed] > **Adobe Experience Platform Web SDK** > [!UICONTROL Configure]。</li><li>在[!UICONTROL Advertiser]部分下，从下拉列表中选择一个广告商并启用它。 要配置多个广告商，请选择&#x200B;**添加广告商**。</li></ol><li>验证是否触发显示到达转化像素</li><ol><li>在AEP Debugger中，确认interact调用在`xdm.query`字段下包含`stitchId`。</li><li>在浏览器[!UICONTROL Network]选项卡上确认已触发类型为`advertising.enrichment`的事件，且该事件包含`xdm.query`下的`stitchId`。</li></ol></ol> 无论访问次数如何，显示到达转化仅每30分钟触发一次。 如果您没有看到interact调用，请清除浏览器缓存并重试。 |
-| （如果在显示到达交互调用触发后，Experience Platform中没有显示到达事件）则手动键入广告商，而不是从下拉列表中进行选择 | 从[!UICONTROL Advertiser]下拉列表中重新选择广告商，而不是手动输入。 |
-| （如果在触发显示到达交互调用后Experience Platform中没有显示到达事件）将不会随显示到达交互调用发送任何广告商ID | 确认在WebSDK扩展配置的[!UICONTROL Advertiser]部分下配置和启用了广告商，然后重建并重新发布库。 |
-
-在为[!UICONTROL Advertising]扩展设置问题打开支持票证之前，请验证以下内容：
-
-* **Adobe Advertising**&#x200B;和&#x200B;**Adobe Experience Platform**&#x200B;服务已添加到数据流。
-* 已在WebSDK扩展配置中启用&#x200B;**Adobe Advertising**&#x200B;组件。
-* 在启用该组件后，重新生成并重新发布库。
-* 对于点进跟踪，登陆页面URL在广告点击时包含`s_kwcid`和`ef_id`。
-* 对于显示到达跟踪，在Adobe Advertising DSP中使用正确的广告商ID配置广告商。
-* WebSDK扩展的版本为2.36.0或更高版本。
-
-## 报告问题
+## Customer Journey Analytics Workspace中的报表问题
 
 ### 摘要报告
 
-| 症状 | 核查和解决 |
+| 问题 | 核查和解决 |
 | ----- | --- |
 | Customer Journey Analytics中没有可用于Advertising DSP或Advertising Search、Social和Commerce的摘要报表数据。 | <ol><li>确认Customer Journey Analytics Workspace引用了正确的数据视图。</li><li>确认已启用从Adobe Advertising到Customer Journey Analytics的信息源。 请与您的Adobe客户团队核实。</li><li>确认您的Adobe Advertising维度/分类/查找数据集和摘要数据集已包含在Customer Journey Analytics连接中。</li><li>确认您的Adobe Advertising维度和摘要量度已包含在Customer Journey Analytics数据视图中。</li></ol>如果您已验证上述所有设置，但仍看不到摘要数据，请为您的组织打开[支持票证](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)。 |
 | 摘要报表数据在Customer Journey Analytics中可用于广告商1，但不能用于广告商2。 | <ol><li>确认已为广告商2启用从Adobe Advertising到Customer Journey Analytics的信息源。 请与您的Adobe客户团队核实。</li><li>确认在Customer Journey Analytics连接中为三个数据集（维度/分类/查找、摘要和事件量度）启用了设置“[!UICONTROL Backfill all existing data]”。</li></ol>如果您验证了上述所有条件，但仍看不到摘要数据，请为您的组织打开[支持票证](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)。 |
@@ -231,37 +234,15 @@ ht-degree: 0%
 
 ### 事件级报告
 
-| 症状 | 核查和解决 |
+| 问题 | 核查和解决 |
 | ----- | --- |
 | 在Customer Journey Analytics Workspace中，转化数据（如`Page Views`）不可用于报表维度（如`Campaign`）。 | 从验证障碍最少的物品开始，验证以下内容：<ul><li>确认您使用的是正确的数据视图。</li><li>确认适用的转化指标为Web/在线事件，Adobe Advertising可将其归因于维度。</li><li>确认Adobe Advertising正在跟踪适用网站上的点进和显示点进。</li><li>在分类数据集的Customer Journey Analytics连接中，确认[!DNL Key]和[!DNL Matching Key]设置的值是否正确： [!DNL Key]： `Tracking Code` (_customername.adLens2.trackingCode)，[!DNL Matching Key]： `Tracking Code` (event._experience.adcloud.conversionDetails.trackingCode)。</li><li>确认[!DNL Adobe Advertising]服务已添加到Adobe Experience Platform数据流，数据流的映射架构为`XDM ExperienceEvent Schema`，并且字段组`Adobe Advertising Cloud ExperienceEvent Full Extension`已添加到`XDM ExperienceEvent`架构中。</li><li>确认已在WebSDK扩展中正确配置并发布了Adobe Advertising设置。</li></ul>如果您已验证上述所有设置，但仍看不到转化数据，请为您的组织打开[支持票证](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)。 包含广告网络帐户的[!UICONTROL Account ID]。 |
 
-<!--
-
-+++ Question
-
-Answer
-
-+++
-
-+++ Question
-
-Answer
-
-+++
-
-+++ Question
-
-Answer
-
-+++
-
--->
-
-## 验证和调试工具
+## 有用的验证和调试工具
 
 ### Adobe Experience Platform Debugger
 
-为[!DNL Chrome]安装[!DNL Adobe Experience Platform Debugger]扩展。 它提供：
+为以下对象安装[!DNL Chrome]的[!DNL Adobe Experience Platform Debugger]扩展：
 
 * 所有WebSDK `alloy()`调用的实时视图
 * 数据流ID和环境验证
@@ -273,12 +254,14 @@ Answer
 | 选项卡 | 检查内容 |
 | ----- | --- |
 | [!UICONTROL Summary] | 确认检测到WebSDK并显示已安装的版本。 |
-| [!UICONTROL AEP Web SDK] | 显示触发的每个事件、完整XDM有效负载和边缘响应。 |
+| [!UICONTROL Adobe Experience Platform WebSDK] | 显示触发的每个事件、完整XDM有效负载以及Edge Network响应。 |
 | [!UICONTROL Adobe Advertising] | 确认与`advertising.enrichment`事件类型之间的AMO ID捕获和XDM interact调用。 |
 
-### “浏览器网络”选项卡
+### 浏览器代码检查工具的[!DNL Network]选项卡
 
-按`edge.adobedc.net`筛选以检查原始边缘请求：
+使用浏览器代码检查工具（通常称为“[!DNL Inspect]”）的[!DNL Network]选项卡执行以下操作：
+
+按`edge.adobedc.net`筛选以检查原始Edge Network请求：
 
 * 请求URL： `https://[org-id].data.adobedc.net/ee/v2/interact`
 * 方法： `POST`
@@ -312,7 +295,7 @@ alloy("sendEvent", {
   .catch(err => console.error("Send event error:", err));
 ```
 
-## 快速参考清单
+## 请求支持前的快速参考核对清单
 
 在打开支持票证之前，请验证以下各项：
 
@@ -323,20 +306,20 @@ alloy("sendEvent", {
 * 已在WebSDK扩展配置中启用[!UICONTROL Advertising]组件，并配置了DSP广告商ID。
 * XDM架构包含[!UICONTROL Advertising]字段组。
 * [!UICONTROL Send Event]规则包括一个标识映射，并在正确的事件中触发。
-* 没有CSP或浏览器隐私设置阻止边缘请求。
-* AEP Debugger会确认事件已到达边缘。
+* 没有CSP或浏览器隐私设置阻止Edge Network请求。
+* Adobe Experience Platform Debugger会确认事件已发送到Edge Network。
 * 浏览器控制台中没有停止执行的JavaScript错误。
-* **Adobe Advertising Cloud ExperienceEvent完整扩展**&#x200B;字段组已添加到架构中。
+* `Adobe Advertising Cloud ExperienceEvent Full Extension`字段组已添加到架构中。
 * 架构中存在`_experience.adcloud.conversionDetails.trackingCode`。
 * 架构中存在`_experience.adcloud.conversionDetails.trackingIdentity`。
-* 登陆页面URL同时包含`s_kwcid`和`ef_id`点进。
-* AEP Debugger将确认在出站有效负载中填充了`conversionDetails`。
+* 登陆页面URL包含点进时的`s_kwcid`和`ef_id`参数。
+* Adobe Experience Platform Debugger将确认在出站有效负载中填充了`conversionDetails`。
 
-## 何时升级
+## 何时升级问题
 
-在以下情况下，请上报您的Adobe客户团队或工程团队：
+在以下情况下，请联系您的Adobe客户团队或工程团队：
 
-* Edge请求在数据流验证后返回永久性`500`错误。
+* Edge Network请求在数据流验证后返回永久性`500`错误。
 * 已在调试器中确认[!UICONTROL Advertising]转化，但在24-48小时后不会显示在报表中。
 * WebSDK版本更新引入的回归在以前的版本中不存在。 在支持服务单中包含特定的版本号。
 

@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 79f0b3872a0d5d3765093ce83cc8f1c284a8255c
+source-git-commit: f796a4002b9136299c414b789cd2c34c8d6dc11c
 workflow-type: tm+mt
-source-wordcount: 448
+source-wordcount: 467
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ ht-degree: 0%
       源设置将包括自动生成的源密钥。
 
    1. 与您的[!DNL AdFixus]团队共享源密钥，以便他们能够将所需的区段流式传输到DSP。
+
+      他们可以继续对要与帐户或广告商共享的所有[!DNL AdFixus]数据使用相同的源密钥。
 
 1. 在受众库的[!UICONTROL First Party Segments]部分中验证区段是否正在填充（当您从[!UICONTROL Audiences] > [!UICONTROL All Audiences]或在版面设置中创建或编辑受众时可用）。 比较[!DNL AdFixus] ID数量与[!DNL AdFixus]内的用户ID数量。
 

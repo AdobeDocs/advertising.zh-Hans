@@ -14,14 +14,26 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: a4042ccc2ff85513d35eb56cd514b8bac6ebf65e
 workflow-type: tm+mt
-source-wordcount: 1170
+source-wordcount: 1336
 ht-degree: 0%
 
 ---
 
 # 关于自定义报表的常见问题解答
+
+## 转化报表
+
+### [!UICONTROL Conversion]报告与[!UICONTROL DSP Self-Attributed Conversions]报告有何不同？
+
+两个报表使用相同的维度、量度和归因模型，包括点进和浏览划分。
+
+在大多数报表中（包括[!UICONTROL Conversion]报表），某个转化将计入转化前的最后一次点击。 当客户在转化前看到DSP广告后单击搜索广告时，该DSP曝光度通常不会出现在转化数字中。
+
+但是，[!UICONTROL DSP Self-Attributed Conversions]报表将转化连接回之前的DSP展示次数和点击次数，以便您了解DSP对历程的更广泛贡献。 将此报表视为DSP贡献的补充视图，而不是对[!UICONTROL Conversion]报表的更正。 它对于同时使用Advertising DSP和Advertising Search、Social和Commerce的广告商最有用。
+
+由于这两个报表使用不同的方法将转化连接到广告，因此其量度总数不匹配。 这是正常现象，而非差异。
 
 ## 家庭报表
 
@@ -35,7 +47,7 @@ ht-degree: 0%
 
 ##### 支持的维度
 
-[!UICONTROL Household Reach & Frequency]报表支持[以下维度](/help/dsp/reports/report-columns.md)：“[!UICONTROL Campaign]”、“[!UICONTROL Package]”、“[!UICONTROL Placement]”、“[!UICONTROL Site/Apps]”（不提供对重叠量度的访问权限）、“[!UICONTROL Media Type]”、“[!UICONTROL Feed Type]”、“[!UICONTROL Device]”、“[!UICONTROL Publisher]”、“[!UICONTROL Audience]”、“[!UICONTROL Creative Length]”和用户创建的投放位置“[!UICONTROL Tags]”。|
+[!UICONTROL Household Reach & Frequency]报表支持[以下维度](/help/dsp/reports/report-columns.md)：“[!UICONTROL Campaign]”、“[!UICONTROL Package]”、“[!UICONTROL Placement]”、“[!UICONTROL Site/Apps]”（不提供对重叠量度的访问权限）、“[!UICONTROL Media Type]”、“[!UICONTROL Feed Type]”、“[!UICONTROL Device]”、“[!UICONTROL Publisher]”、“[!UICONTROL Audience]”、“[!UICONTROL Creative Length]”和用户创建的投放位置“[!UICONTROL Tags]”。 |
 
 ##### 支持的指标
 
@@ -71,7 +83,7 @@ ht-degree: 0%
 
 具有重叠量度的报表输出交叉点，最多三个值。 例如，如果对10个投放位置使用量度[!UICONTROL Unique Household (Overlap)]，则可以查看由单个投放位置到达的唯一家庭、由任意两个投放位置组合到达的共同家庭，以及由任意三个投放位置组合到达的共同家庭。 你看不到有四个或更多安置点的普通家庭。
 
-对于营销活动、资源包或投放位置以外的维度，报表在每个维度中最多支持10个值。 例如，要为[!UICONTROL Unique Household Reached]维度生成[!UICONTROL Audience]报告，唯一受众的数量应少于或等于10。 如果包含10个以上的独特受众，则会生成空白报表。
+对于营销活动、资源包或投放位置以外的维度，报表在每个维度中最多支持10个值。 例如，要为[!UICONTROL Audience]维度生成[!UICONTROL Unique Household Reached]报告，唯一受众的数量应少于或等于10。 如果包含10个以上的独特受众，则会生成空白报表。
 
 #### 为什么我的[!UICONTROL Custom]报表与[!UICONTROL Household Reach & Frequency]报表之间的频度和唯一范围值不同？
 
@@ -115,7 +127,7 @@ ht-degree: 0%
 
 ## 转化路径分析报表
 
-### 与[!UICONTROL Path to Conversion]和Adobe Analytics Analysis Workspace创建的报告相比，[!DNL Advanced Measurement Services]报告如何？
+### 与[!DNL Advanced Measurement Services]和Adobe Analytics Analysis Workspace创建的报告相比，[!UICONTROL Path to Conversion]报告如何？
 
 | | [!UICONTROL Path to Conversion]报告 | 高级测量服务对搜索报表的光晕影响 | Analysis Workspace中的报表 |
 | --- | --- | --- |---|

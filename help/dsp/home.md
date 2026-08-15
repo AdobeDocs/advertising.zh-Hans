@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 836dbc21997c7af7b8a2bc4e0c5e59d3c3605ea8
+source-git-commit: f39dd5f12876b2ff486b6de57c0578fd5a7abf89
 workflow-type: tm+mt
-source-wordcount: 7665
+source-wordcount: 7727
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年8月14日 | [!UICONTROL Reports] | 新的[!UICONTROL DSP Self-Attributed Conversions]报表显示Advertising DSP对转化的贡献，包括DSP在其中发挥作用但后来又有所接触的客户历程，例如Adobe Advertising搜索点击，在其他报表中获得了最近一次点击的点数。 它对于同时使用Advertising DSP和Advertising Search、Social和Commerce的广告商最有用。 | 请参阅“[关于自定义报告](/help/dsp/reports/report-about.md)”和“[关于自定义报告的常见问题解答](/help/dsp/reports/faq-reports.md)”。 |
 | 2026年7月1日 | [!DNL Creative] | Advertising Creative中提供了以下测试版功能：<ul><li>**[!UICONTROL Creative Studio]**&#x200B;使用创作AI帮助在单个会话中跨多种格式构建、调整显示广告大小和优化显示广告。 使用自然语言聊天界面生成和修改广告内容 — 内容字段无需手动设计工作。</li><li>创建并管理反映您品牌视觉和消息传递身份的&#x200B;**[!UICONTROL brand profiles]** — 包括您的徽标、调色板、语音准则、图像标准和特定于渠道的复制准则。 在[!UICONTROL Creative Studio]中创建广告时，AI代理使用品牌配置文件信息在特定的品牌中生成内容。</li></ul> | 请参阅“[关于Creative Studio](/help/creative/creative-studio/creative-studio-about.md)”和“[管理品牌配置文件](/help/creative/brands/brand-manage.md)”。 |
 | 2026年6月23日 | [!UICONTROL Placements]，邮政编码 | 您现在可以创建各个国家/地区的邮政编码列表，以重复用作投放目标或排除项。 | 请参阅“[管理邮政编码列表](/help/dsp/resources/lists-postal-codes-manage.md)”和“[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)”。 |
 | 2026年6月9日 | 与Adobe Customer Journey Analytics集成 | 具有Customer Journey Analytics但不具有[!DNL Analytics for Advertising]的广告商可以使用Adobe Experience Platform [!DNL Web SDK]在Adobe Advertising和Customer Journey Analytics之间原生交换数据。 | 请参阅“[Adobe Advertising与Customer Journey Analytics的集成概述](/help/integrations/customer-journey-analytics/overview.md)”。 |
@@ -110,13 +111,13 @@ ht-degree: 0%
 | 2024年5月2日 | 广告，像素 | 您可以从[!UICONTROL Ad Tools]视图中以XLSX（Excel电子表格）格式下载促销活动中所有广告的广告设置和版面关联，以供审阅。 | 请参阅“[使用批量处理工作表查看和编辑广告详细信息](/help/dsp/campaign-management/ads/ad-qa.md)”。 |
 | |  | [!UICONTROL Ad Tools]视图> [!UICONTROL Attach Pixels]选项卡显示附加到广告的第三方跟踪像素，并提供新的工作流以将像素附加到一个或多个广告并分离现有像素。 | 请参阅“[将广告附加到投放位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)”。 |
 |  | 版面、受众 | 您现在可以通过批量编辑工具或版面编辑器从版面中排除个别受众区段或不可重用受众。 | 请参阅“[编辑版面](/help/dsp/campaign-management/placements/placement-edit.md)”和“[版面设置](/help/dsp/campaign-management/placements/placement-settings.md)”。 |
-| 2024年4月18日 | 版面 | 您现在可以创建和管理投放的指定目标类型的竞价修饰符，竞价修饰符将乘以竞价以增加或减少竞价。 默认的bid修饰符为1.00，这意味着不增加或减少；值的范围可以是0.10到10.00。 例如，竞价修饰符0.50将竞价从6美元降至3美元(0.50 x 6)。 当拍卖符合多个竞价修饰符条件时，所有适用的竞价修饰符都将被相乘。 竞价修饰符绝不会将竞价提高到超过最大竞价。 | 请参阅[管理投放位置的竞价乘数](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)。 |
+| 2024年4月18日 | 版面 | 您现在可以创建和管理投放的指定目标类型的竞价修饰符，竞价修饰符将乘以竞价以增加或减少竞价。 默认的bid修饰符为1.00，这意味着不增加或减少；值的范围可以是0.10到10.00。 例如，竞价修饰符为0.50会将USD 6的竞价降低为USD 3 (0.50 x 6)。 当拍卖符合多个竞价修饰符条件时，所有适用的竞价修饰符都将被相乘。 竞价修饰符绝不会将竞价提高到超过最大竞价。 | 请参阅[管理投放位置的竞价乘数](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)。 |
 | 2024年4月3日 | 清点合作伙伴 | [!DNL Google Authorized Buyers]的Adobe Advertising欧盟座位已与现有APAC座位合并。 | 请参阅“[SSP合作伙伴](/help/dsp/inventory/ssp-partners.md)”。 |
 |   | 优化 | 程序包、投放和相关表中的新`CPA`（每次购置成本）和`ROAS`（广告支出回报率）量度提供了对具有相关目标的程序包和投放的更准确的性能跟踪。 新的CPA量度仅考虑最终转化事件（如注册）来计算每次客户获取成本，这使得实际CPA的描述比传统的自定义目标量度更准确，旧版自定义目标量度在计算时还包含了funnel上游事件（如页面访问次数和购物车加货）。 同样，新的ROAS量度只考虑最终收入事件（例如购买和购买值），这比跟踪性能方面的旧版自定义目标量度更可靠。<br><br>现在，当您设置具有基于CPA或ROAS的优化目标的包时，必须指定最终转化或收入事件，以及包括转化或收入事件的自定义目标；自定义目标可以选择包括要在CPA或ROAS量度之外用于包优化的其他加权上funnel事件（例如页面访问次数和购物车添加）。<br><br>此外，为简单起见，还合并了以下以性能为中心的优化目标：<ul><li>新的“[!UICONTROL Highest Return on Ad Spend (ROAS)]”目标将替换旧版“[!UICONTROL Highest ROAS - Custom Goal]”和[!UICONTROL Highest ROAS (click focused) - Custom Goal]”，并包含实现任一旧版方案的选项。</li><li>新的“[!UICONTROL Lowest Cost per Acquisition (CPA)]”目标将替换旧版“[!UICONTROL Lowest CPA - Custom Goal]”和[!UICONTROL Lowest CPA (click focused) - Custom Goal]”，并包含实现任一旧版方案的选项。</li></ul>使用旧目标的现有包已通过相关设置自动迁移到新目标，您无需手动更新任何内容。 | 查看“[优化目标及使用方法](/help/dsp/optimization/optimization-goals.md)”、“[包设置](/help/dsp/campaign-management/packages/package-settings.md)”和“[设置效果营销活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)”。 |
 | 2024年3月20日 | 投放位置非竞价原因 | 自助式客户现在可以使用所有可操作的非竞价原因(NBR)，这些是帮助解决支出不足问题的关键数据点。 以前，自助服务用户只能部分访问NBR，并且必须依靠客户经理或交易分析师（他们具有管理员访问权限）来帮助排除故障。 | 请参阅[放置诊断报告](/help/dsp/campaign-management/reports/placement-diagnostics.md)的[!UICONTROL Non Bids]部分。 |
 | 2024年3月20日 | 规划者 | 新的Planner工具不再处于Beta模式。 | 请参阅&quot;[关于DSP [!UICONTROL Planner]工具](/help/dsp/planner/planner-about.md)&quot;。 |
 | 2024年2月21日 | [!UICONTROL Campaigns]、[!UICONTROL Packages]、[!UICONTROL Placements]、[!UICONTROL Ads]和[!UICONTROL Deals]的[!UICONTROL Alerts] | [!UICONTROL Campaigns]、[!UICONTROL Packages]和包详细信息、[!UICONTROL Placements]和[!UICONTROL Ads]视图中的[!UICONTROL Pulse Panel]图标表示该视图中的项目是否有任何警报可用。 您可以打开面板以查看每个警报，还可以选择打开适用的视图（例如，列出了适用位置的[!UICONTROL Placements]视图），以便根据需要编辑设置来解决问题。 您还可以选择消除任何警报。<br><br>此外，[!UICONTROL Campaigns]、[!UICONTROL Packages]、[!UICONTROL Placements]和[!UICONTROL Ads]视图包含一个“[!UICONTROL Alerts]”列，该列指示项或其任何组件何时出现问题。<br><br>警报在营销活动、程序包、投放位置、广告和交易级别可用。 | 请参阅“[查看警报](/help/dsp/campaign-management/reports/campaign-alerts.md)”。 |
-|  | [!UICONTROL Placements] | 通过新的版面设置，您可以指定a)在预算充足时覆盖包级别预算分配的最低版面预算，以及b)覆盖竞价算法以至少对交易的固定价格和底价出价：<ul><li>在属于资源包的投放位置设置中，您现在可以指定最小预算占资源包预算的百分比。 要使用该功能，请将置入资金选项选为“[!UICONTROL Set a Fixed Minimum or Maximum Budget]”（以前为“[!UICONTROL Set a fixed budget cap]”）。 您仍然可以输入[!UICONTROL Maximum Budget]美元（就像之前为预算上限输入的那样），并且还可以输入[!UICONTROL Minimum Budget]作为包预算的百分比。 对于现有版面，使用新字段名称保留现有设置。</li><li>在[!UICONTROL Inventory Targeting]设置中，[!UICONTROL On Demand]清单和专用清单的新选项允许您“[!UICONTROL Ensure Fixed or Floor Price for the bid]”。</li></ul> | 请参阅“[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)”。 |
+|  | [!UICONTROL Placements] | 通过新的版面设置，您可以指定a)在预算充足时覆盖包级别预算分配的最低版面预算，以及b)覆盖竞价算法以至少对交易的固定价格和底价出价：<ul><li>在属于资源包的投放位置设置中，您现在可以指定最小预算占资源包预算的百分比。 要使用该功能，请将置入资金选项选为“[!UICONTROL Set a Fixed Minimum or Maximum Budget]”（以前为“[!UICONTROL Set a fixed budget cap]”）。 您仍然可以在USD中输入[!UICONTROL Maximum Budget]（就像之前为预算上限输入的那样），并且还可以输入[!UICONTROL Minimum Budget]作为包预算的百分比。 对于现有版面，使用新字段名称保留现有设置。</li><li>在[!UICONTROL Inventory Targeting]设置中，[!UICONTROL On Demand]清单和专用清单的新选项允许您“[!UICONTROL Ensure Fixed or Floor Price for the bid]”。</li></ul> | 请参阅“[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)”。 |
 | 2024年2月7日 | [!UICONTROL Placements]和[!UICONTROL Ads] | [!UICONTROL Ads Tool]现在具有包筛选器。 | 请参阅“[将广告附加到投放位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)”。 |
 | 2024年1月24日 | [!UICONTROL Placements]和[!UICONTROL Ads] | 重新设计了将广告附加到投放位置的工作流。 | 请参阅“[将广告附加到投放位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)”。 |
 | 2024年1月10日 | [!UICONTROL Placements] | 您现在可以使用电子表格快速自定义多个投放位置的广告计划：<ul><li>您可以下载投放位置的广告计划模板。 您可以根据需要编辑下载文件中的投放日期和广告轮换。</li><li>然后，您可以上传编辑的广告计划模板。</li></ul> | 请参阅“[编辑投放位置的广告计划](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)”。 |
