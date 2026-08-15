@@ -2,20 +2,14 @@
 title: 从 [!DNL AdFixus]导入第一方区段
 description: 了解如何将包含 [!DNL AdFixus] 通用ID的 [!DNL AdFixus] 第一方区段导入DSP。
 feature: DSP Audiences
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 79f0b3872a0d5d3765093ce83cc8f1c284a8255c
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: f796a4002b9136299c414b789cd2c34c8d6dc11c
 workflow-type: tm+mt
-source-wordcount: 448
+source-wordcount: 467
 ht-degree: 0%
 
 ---
@@ -36,7 +30,7 @@ ht-degree: 0%
 
 1. （具有[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)的广告商）为[!DNL Analytics]度量设置跟踪：
 
-   1. （如果尚未这样做）完成实施 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)以及跟踪URL[&#128279;](/help/integrations/analytics/ids.md)中的AMO ID和EF ID的所有先决条件。
+   1. （如果尚未这样做）完成实施 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)以及跟踪URL](/help/integrations/analytics/ids.md)中的[AMO ID和EF ID的所有[先决条件。
 
    1. 在网页上部署特定于[!DNL AdFixus]的代码，以匹配从桌面浏览器和移动设备Web浏览器（但不包括移动应用程序）上的[!DNL AdFixus] ID到显示到达次数的转换。
 
@@ -48,6 +42,8 @@ ht-degree: 0%
 
    1. 与您的[!DNL AdFixus]团队共享源密钥，以便他们能够将所需的区段流式传输到DSP。
 
+      他们可以继续对要与帐户或广告商共享的所有[!DNL AdFixus]数据使用相同的源密钥。
+
 1. 在受众库的[!UICONTROL First Party Segments]部分中验证区段是否正在填充（当您从[!UICONTROL Audiences] > [!UICONTROL All Audiences]或在版面设置中创建或编辑受众时可用）。 比较[!DNL AdFixus] ID数量与[!DNL AdFixus]内的用户ID数量。
 
    区段创建后即可在DSP中使用。
@@ -58,7 +54,7 @@ ht-degree: 0%
 >
 >* [关于第一方受众源](/help/dsp/audiences/sources/source-about.md)
 >* [管理受众源以激活通用ID受众](source-manage.md)
->* [Adobe Advertising DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=zh-Hans)
->* Adobe Experience Platform [目标目录概述](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hans)
+>* [Adobe Advertising DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* Adobe Experience Platform [目标目录概述](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [支持激活通用ID](/help/dsp/audiences/universal-ids.md)
 >* [关于受众管理](/help/dsp/audiences/audience-about.md)
