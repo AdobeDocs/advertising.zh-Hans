@@ -5,14 +5,10 @@ feature: Search Portfolios, Search Optimization, Search Reports
 hide: true
 exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
 TQID: https://experienceleague.adobe.com/Oa-NB0er-nIWVtPXTtTjM--9hDSluhtjBwpSV4tr2zA
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: eb5c453b9892940811e3ec95d5dac4bf0fffbcb6
 workflow-type: tm+mt
 source-wordcount: 375
 ht-degree: 0%
@@ -41,21 +37,21 @@ ht-degree: 0%
 
 * （可选）更改适用于所有报表的项目组合：
 
-   1. 单击&#x200B;**[!UICONTROL Select Portfolios]**&#x200B;旁边的当前参数。
+  1. 单击&#x200B;**[!UICONTROL Select Portfolios]**&#x200B;旁边的当前参数。
 
-   1. （可选）在&#x200B;**[!UICONTROL Select by]**&#x200B;旁边，选择如何选择项目组合：
+  1. （可选）在&#x200B;**[!UICONTROL Select by]**&#x200B;旁边，选择如何选择项目组合：
 
-      * *[!UICONTROL All Portfolios]* （默认）：报告指定的项目组合。 您可以选择通过更改指定的&#x200B;**[!UICONTROL Currency].**&#x200B;筛选项目组合列表 默认情况下，将选择所有使用USD的项目组合。
+     * *[!UICONTROL All Portfolios]* （默认）：报告指定的项目组合。 您可以选择通过更改指定的&#x200B;**[!UICONTROL Currency].**&#x200B;筛选项目组合列表 默认情况下，将选择所有使用USD的项目组合。
 
-      * *[!UICONTROL Portfolio Groups]：*&#x200B;在指定的&#x200B;**[!UICONTROL Portfolio Group].**&#x200B;中报告指定的项目组合 您可以选择通过更改指定的&#x200B;**[!UICONTROL Currency].**&#x200B;筛选项目组合列表 默认情况下，将选择指定组合组中所有使用美元的组合。
+     * *[!UICONTROL Portfolio Groups]：*&#x200B;在指定的&#x200B;**[!UICONTROL Portfolio Group].**&#x200B;中报告指定的项目组合 您可以选择通过更改指定的&#x200B;**[!UICONTROL Currency].**&#x200B;筛选项目组合列表 默认情况下，将选择指定项目组合组中所有使用USD的项目组合。
 
-      * *[!UICONTROL Objectives]：*&#x200B;具有指定&#x200B;**[!UICONTROL Objective].**&#x200B;的指定项目组合的报告 . 您可以选择通过更改指定的&#x200B;**[!UICONTROL Currency].**&#x200B;来缩小项目组合列表 默认情况下，将选择所有使用美元实现指定目标的项目组合。
+     * *[!UICONTROL Objectives]：*&#x200B;具有指定&#x200B;**[!UICONTROL Objective].**&#x200B;的指定项目组合的报告 . 您可以选择通过更改指定的&#x200B;**[!UICONTROL Currency].**&#x200B;来缩小项目组合列表 默认情况下，将选择所有使用USD实现指定目标的项目组合。
 
-   1. 根据需要选中和取消选中项目组合旁边的复选框，直到[!UICONTROL Selected Portfolios]部分列出了要报告的项目组合。
+  1. 根据需要选中和取消选中项目组合旁边的复选框，直到[!UICONTROL Selected Portfolios]部分列出了要报告的项目组合。
 
-   1. 单击&#x200B;**[!UICONTROL Select]**。
+  1. 单击&#x200B;**[!UICONTROL Select]**。
 
-* （可选）从&#x200B;**[!UICONTROL Granularity]**&#x200B;菜单更改所有报表（*[!UICONTROL Daily]* \[默认\]、*[!UICONTROL Weekly]* \[适用于日期范围\]或&#x200B;*[!UICONTROL Monthly]* \[适用于日期范围\]）的数据粒度。
+* （可选）从&#x200B;**[!UICONTROL Data Aggregation]**&#x200B;菜单更改所有报表（*[!UICONTROL Daily]* \[默认\]、*[!UICONTROL Weekly]* \[适用于日期范围\]或&#x200B;*[!UICONTROL Monthly]* \[适用于日期范围\]）的数据聚合。
 
 * （可选）从&#x200B;**[!UICONTROL Date range]**&#x200B;菜单更改所有报表的日期范围。 您可以包含过去90天的数据。 默认值为&#x200B;*[!UICONTROL Last 7 Days]*。
 
@@ -63,8 +59,8 @@ ht-degree: 0%
 
 * （[!UICONTROL Biggest Movers]报告；可选）执行以下任一操作：
 
-   * 更改报告的实体。 当前唯一选项是&#x200B;*[!UICONTROL Portfolio]*。
+  * 更改报告的实体。 当前唯一选项是&#x200B;*[!UICONTROL Portfolio]*。
 
-   * 更改报告的量度（[!UICONTROL Cost] \[默认选择\]、[!UICONTROL Clicks]或[!UICONTROL Objective Value]）。
+  * 更改报告的量度（[!UICONTROL Cost] \[默认选择\]、[!UICONTROL Clicks]或[!UICONTROL Objective Value]）。
 
-   * 要打开[!UICONTROL Portfolios]视图，请单击图表右下角的&#x200B;**[!UICONTROL View More]**。<!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->
+  * 要打开[!UICONTROL Portfolios]视图，请单击图表右下角的&#x200B;**[!UICONTROL View More]**。<!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->
