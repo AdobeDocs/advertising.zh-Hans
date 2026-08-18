@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: eb5c453b9892940811e3ec95d5dac4bf0fffbcb6
 workflow-type: tm+mt
-source-wordcount: 735
+source-wordcount: 738
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 1. 单击项目组合名称。
 
-1. （可选）从&#x200B;**[!UICONTROL Granularity]**&#x200B;菜单中，更改&#x200B;*[!UICONTROL Daily]、* *[!UICONTROL Weekly]、*&#x200B;或&#x200B;*[!UICONTROL Monthly]之间的数据粒度。*
+1. （可选）从&#x200B;**[!UICONTROL Data Aggregation]**&#x200B;菜单中，更改每行包含的数据的时间单位： *[!UICONTROL Daily]、* *[!UICONTROL Weekly]、*&#x200B;或&#x200B;*[!UICONTROL Monthly]。*
 
 1. （可选）要更改项目组合详细信息的日期范围，请单击右上角的日期范围，指定日期范围，然后单击&#x200B;**[!UICONTROL Apply]**。
 
@@ -55,41 +55,41 @@ ht-degree: 0%
 
 * （可选）要自定义[!UICONTROL Portfolio Performance]报表，请执行以下任一操作：
 
-   * 要更改用于总指标和详细指标的性能指标，请单击&#x200B;**[!UICONTROL Metrics]**&#x200B;并选择最多三个指标。
+  * 要更改用于总指标和详细指标的性能指标，请单击&#x200B;**[!UICONTROL Metrics]**&#x200B;并选择最多三个指标。
 
-     默认量度为&#x200B;*[!UICONTROL Cost]*、*[!UICONTROL Clicks]*&#x200B;和&#x200B;*[!UICONTROL Objective Value]*.<!-- What else is available: the advertiser's revenue metrics? Anything else from the ad networks? -->
+    默认量度为&#x200B;*[!UICONTROL Cost]*、*[!UICONTROL Clicks]*&#x200B;和&#x200B;*[!UICONTROL Objective Value]*.<!-- What else is available: the advertiser's revenue metrics? Anything else from the ad networks? -->
 
-   * 对于详细量度：
+  * 对于详细量度：
 
-      * 将开关移动到&#x200B;**[!UICONTROL Display predictions]**&#x200B;旁以显示或隐藏预测的量度值。
+    * 将开关移动到&#x200B;**[!UICONTROL Display predictions]**&#x200B;旁以显示或隐藏预测的量度值。
 
-      * 在图表视图（![图表视图](/help/search-social-commerce/assets/chart-view.png "图表视图")）和表视图(![表格视图](/help/search-social-commerce/assets/table-view.png "表格视图"))之间切换。
+    * 在图表视图（![图表视图](/help/search-social-commerce/assets/chart-view.png "图表视图")）和表视图(![表格视图](/help/search-social-commerce/assets/table-view.png "表格视图"))之间切换。
 
-      * （在图表视图中）要查看图表上任何点的数据，请将光标悬停在该点上。
+    * （在图表视图中）要查看图表上任何点的数据，请将光标悬停在该点上。
 
 * （可选）要自定义[!UICONTROL Model accuracy]趋势图，请执行以下任一操作：
 
-   * 在图表视图（![图表视图](/help/search-social-commerce/assets/chart-view.png "图表视图")）和表视图(![表格视图](/help/search-social-commerce/assets/table-view.png "表格视图"))之间切换。
+  * 在图表视图（![图表视图](/help/search-social-commerce/assets/chart-view.png "图表视图")）和表视图(![表格视图](/help/search-social-commerce/assets/table-view.png "表格视图"))之间切换。
 
-   * 按&#x200B;*[!UICONTROL Click Date]*&#x200B;和&#x200B;*[!UICONTROL Transaction Date]*&#x200B;切换查看数据。
+  * 按&#x200B;*[!UICONTROL Click Date]*&#x200B;和&#x200B;*[!UICONTROL Transaction Date]*&#x200B;切换查看数据。
 
-   * 在查看有关&#x200B;*[!UICONTROL Daily Accuracy]*&#x200B;和&#x200B;*[!UICONTROL 7 Day Rolling Accuracy]*&#x200B;的数据之间切换。
+  * 在查看有关&#x200B;*[!UICONTROL Daily Accuracy]*&#x200B;和&#x200B;*[!UICONTROL 7 Day Rolling Accuracy]*&#x200B;的数据之间切换。
 
-     [!UICONTROL 7 Day Rolling Accuracy]是前七天预测的平均准确性，以百分比表示。 例如，2025年5月8日的值是2025年5月1日至5月7日的平均准确率。
+    [!UICONTROL 7 Day Rolling Accuracy]是前七天预测的平均准确性，以百分比表示。 例如，2025年5月8日的值是2025年5月1日至5月7日的平均准确率。
 
-   * （在图表视图中）要查看图表上任何点的数据，请将光标悬停在该点上。
+  * （在图表视图中）要查看图表上任何点的数据，请将光标悬停在该点上。
 
 * （可选）要自定义[!UICONTROL Target vs actual spend]趋势图，请执行以下任一操作：
 
-   * 将开关移动到&#x200B;**[!UICONTROL Display budget]**&#x200B;旁边，可显示或隐藏每个日期的总营销活动预算。
+  * 将开关移动到&#x200B;**[!UICONTROL Display budget]**&#x200B;旁边，可显示或隐藏每个日期的总营销活动预算。
 
-   * 要查看图表上任何点的数据，请将光标悬停在该点上。
+  * 要查看图表上任何点的数据，请将光标悬停在该点上。
 
 * （可选）要自定义[!UICONTROL Network Accuracy]趋势图，请执行以下任一操作：
 
-   * 将报告的量度更改为&#x200B;*[!UICONTROL Cost]*、*[!UICONTROL Clicks]*&#x200B;或&#x200B;*[!UICONTROL Objective Value]*。
+  * 将报告的量度更改为&#x200B;*[!UICONTROL Cost]*、*[!UICONTROL Clicks]*&#x200B;或&#x200B;*[!UICONTROL Objective Value]*。
 
-   * 要查看图表上任何点的数据，请将光标悬停在该点上。
+  * 要查看图表上任何点的数据，请将光标悬停在该点上。
 
 1. 单击&#x200B;**[!UICONTROL Download report]**。
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 * 要查看或隐藏项目组合设置，请单击&#x200B;**[!UICONTROL Portfolio Settings]**。
 
-   * 要编辑可见的项目组合设置，请单击设置部分旁边的![编辑](/help/search-social-commerce/assets/edit.png "编辑")，然后单击[编辑项目组合设置](portfolio-edit.md)。
+  * 要编辑可见的项目组合设置，请单击设置部分旁边的![编辑](/help/search-social-commerce/assets/edit.png "编辑")，然后单击[编辑项目组合设置](portfolio-edit.md)。
 
 有关项目组合设置的更多信息，请参阅可在搜索、社交和Commerce中找到的“优化指南” 。
 
@@ -119,21 +119,21 @@ ht-degree: 0%
 
 * 要下载所有报表，请执行以下操作：
 
-   1. 单击工具栏中的&#x200B;**[!UICONTROL Download report]**。
+  1. 单击工具栏中的&#x200B;**[!UICONTROL Download report]**。
 
-   1. 选中要包含的每个性能报表和项目组合组件类型旁边的复选框。
+  1. 选中要包含的每个性能报表和项目组合组件类型旁边的复选框。
 
-      对于某些性能报表，您可以选择将数据下载为图表还是表格。
+     对于某些性能报表，您可以选择将数据下载为图表还是表格。
 
-   1. 单击&#x200B;**[!UICONTROL Download report]**。
+  1. 单击&#x200B;**[!UICONTROL Download report]**。
 
 * 要下载包含特定数据类型的[!DNL model accuracy]报表，请执行以下操作：
 
-   1. 在报表的工具栏中，单击&#x200B;**[!UICONTROL Download report]**。
+  1. 在报表的工具栏中，单击&#x200B;**[!UICONTROL Download report]**。
 
-   1. 选中要包含的每种数据类型旁边的复选框以及如何划分数据（按竞价单位和/或按点击量）。
+  1. 选中要包含的每种数据类型旁边的复选框以及如何划分数据（按竞价单位和/或按点击量）。
 
-   1. 单击&#x200B;**[!UICONTROL Download report]**。
+  1. 单击&#x200B;**[!UICONTROL Download report]**。
 
 >[!MORELIKETHIS]
 >
