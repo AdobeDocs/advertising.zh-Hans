@@ -2,15 +2,12 @@
 title: 在Creative Studio中管理标准广告
 description: 了解如何在Creative Studio创意内容库中创建、编辑、复制、下载和删除标准显示广告。
 exl-id: 01d3cdec-80d0-494c-94dd-d9d0ae8ca53c
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 408ddd6a3dde58fc3f600a842ef2c41c44f311fe
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: fff56f5b899801ceebbded0946eb4e5157469839
 workflow-type: tm+mt
-source-wordcount: 1184
+source-wordcount: 1181
 ht-degree: 0%
 
 ---
@@ -204,4 +201,3 @@ ht-degree: 0%
 >* [在Creative Studio中管理动态创意](creative-studio-manage-dynamic-ads.md)
 >* [在Creative Studio中管理模板](creative-studio-manage-templates.md)
 >* [在Advertising Creative中管理品牌配置文件](/help/creative/brands/brand-manage.md)
->* [!UICONTROL Creative Studio]&#x200B;[&#128279;](/help/creative/creative-studio/creative-studio-content-credentials.md)中的C2PA元数据

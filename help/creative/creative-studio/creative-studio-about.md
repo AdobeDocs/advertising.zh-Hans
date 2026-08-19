@@ -1,15 +1,12 @@
 ---
 title: 关于Advertising Creative中的Creative Studio
 description: 了解如何使用Creative Studio在Adobe Advertising Creative中构建AI辅助广告内容。
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 408ddd6a3dde58fc3f600a842ef2c41c44f311fe
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: fff56f5b899801ceebbded0946eb4e5157469839
 workflow-type: tm+mt
-source-wordcount: 814
+source-wordcount: 811
 ht-degree: 0%
 
 ---
@@ -74,4 +71,3 @@ ht-degree: 0%
 >* [在Creative Studio中管理模板](creative-studio-manage-templates.md)
 >* [在Creative Studio中管理资源](creative-studio-manage-assets.md)
 >* [在Advertising Creative中管理品牌配置文件](/help/creative/brands/brand-manage.md)
->* [!UICONTROL Creative Studio]&#x200B;[&#128279;](/help/creative/creative-studio/creative-studio-content-credentials.md)中的C2PA元数据
