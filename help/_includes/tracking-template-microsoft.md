@@ -1,7 +1,7 @@
 ---
 source-git-commit: 38d6d70d03c12aab1a7caee6e589a2fdeaf78ad4
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 **[!UICONTROL Tracking Template]：** （可选，不适用于所有实体）跟踪模板或跟踪URL，它指定所有登入外域重定向和跟踪参数，并将最终/登陆页面URL嵌入到参数中。 示例： `{lpurl}?source={network}&id=5`或`http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`以包含重定向。
 
-对于Adobe Advertising转化跟踪（在Campaign设置包括&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;时应用），Search、Social和Commerce会在您保存记录时自动为其自己的重定向和跟踪代码添加前缀。
+对于Adobe Advertising转化跟踪（在营销活动设置包括&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;时应用），Search、Social和Commerce会在您保存记录时自动为其自己的重定向和跟踪代码添加前缀。
 
 * 有关嵌入最终URL所支持的参数，请参阅有关参数的[[!DNL Microsoft Advertising] 文档，以指示最终URL](https://help.ads.microsoft.com/#apex/3/en/56799)。
 
