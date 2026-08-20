@@ -7,7 +7,7 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 299275c1e8f37d75c46e825e584453bfe2cd4a95
+source-git-commit: fff56f5b899801ceebbded0946eb4e5157469839
 workflow-type: tm+mt
 source-wordcount: 811
 ht-degree: 0%
@@ -74,4 +74,3 @@ ht-degree: 0%
 >* [在Creative Studio中管理模板](creative-studio-manage-templates.md)
 >* [在Creative Studio中管理资源](creative-studio-manage-assets.md)
 >* [在Advertising Creative中管理品牌配置文件](/help/creative/brands/brand-manage.md)
-

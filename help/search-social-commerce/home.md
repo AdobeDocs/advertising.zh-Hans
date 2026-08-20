@@ -18,10 +18,10 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0714d68f4898f7a2792273918438cb83dd057ef9
+source-git-commit: cffcb243a4e2274b3e064548730d6c899831ec9d
 workflow-type: tm+mt
-source-wordcount: 4897
-ht-degree: 0%
+source-wordcount: 5013
+ht-degree: 1%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 8月19日 | [!UICONTROL Objective Upload]，[!UICONTROL Portfolio]设置 | 您现在可以选择不从项目组合设置的[!UICONTROL Manage Objectives]选项卡将特定项目组合的目标值数据发送到广告网络。 | — |
 | 2026年7月29日 | [!UICONTROL Campaigns], [!UICONTROL Reports] | （[!DNL Google Ads]帐户）搜索网络上的Google Ads促销活动的新UI中现在提供了以下AI Max支持：<ul><li>您可以在“管理”>“营销活动”中创建和管理启用了AI Max的营销活动。 Campaign设置包括新的AI Max选项卡，其中包含启用AI Max、自动文本自定义和最终URL扩展的选项。 您还可以查看广告组是否使用地理兴趣目标。</li><li>您可以在“管理”>“广告组”中创建和管理启用了AI Max的营销活动的广告组。 设置包括无关键字搜索词匹配和目标目标位置。</li><li>AI生成的创意资源可在Assets > Creative中找到。 您可以从此视图中删除与其关联的广告组中的文本资源。</li><li>新的[!UICONTROL Asset Report]包括启用了AI Max的营销活动中每个AI生成的资源的资源级性能数据。 此报表不包括Adobe Analytics转化。</li></ul> | 请参阅“[管理营销活动](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)”和“[[!DNL Google Ads] 营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)”、“[管理广告组](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)”和“[[!DNL Google Ads] 广告组设置](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)”、“[查看和创建创意资产](/help/search-social-commerce/new-ui/assets/creative-asset-manage.md)”。 和[该[!UICONTROL Asset Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/asset-report.md)。 |
 | 2026年6月9日 | 与Adobe Customer Journey Analytics集成 | 具有Customer Journey Analytics但不具有[!DNL Analytics for Advertising]的广告商可以使用Adobe Experience Platform [!DNL Web SDK]在Adobe Advertising和Customer Journey Analytics之间原生交换数据。 | 请参阅“[Adobe Advertising与Customer Journey Analytics的集成概述](/help/integrations/customer-journey-analytics/overview.md)”。 |
 | 2026年5月28日 | 新UI | 大多数功能现在都可在新UI中使用，包括计划报表和电子表格馈送、批量处理工作表、广告网络管理器帐户以及[!DNL Spend Planner]（以前称为“[!DNL Spend Recommendations]”）。 | 请参阅[用户界面的组织方式](/help/search-social-commerce/getting-started/user-interface.md)和“新UI”一章。 |
@@ -42,7 +43,7 @@ ht-degree: 0%
 | | 新UI > [!UICONTROL Label Classifications] | 现已提供标签分类，包括标签值。 您可以通过[!UICONTROL Reports] > [!UICONTROL Label Classifications]管理分类，并将分类值分配/取消分配至新UI中可用的任何适用帐户组件。 | 请参阅&quot;[关于标签分类](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md)&quot;。 |
 | 2026年1月21日 | 项目组合（新UI） | 您现在可以下载批量工作表文件，其中包含所有项目组合的设置。 如果不选择特定项目组合，**[!UICONTROL Bulk Operations]**&#x200B;菜单将包含选项&#x200B;**[!UICONTROL Export All Portfolios]**。 | 请参阅“[使用批量处理工作表文件批量编辑项目组合设置](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md)”。 |
 | 2025年11月12日 | [!UICONTROL Campaigns] | （[!DNL Google Ads]个营销活动）对于具有所有必需设置且包含子广告组的营销活动，营销活动设置现在包含“[!UICONTROL Google Recommended Budget]”字段，该字段包含查看[!DNL Google Ads]推荐预算的选项。 | 请参阅“[[!DNL Google Ads] 营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)”。 |
-| 2025年11月6日 | [!UICONTROL Reports] | 新[!UICONTROL Google Performance Max Placement Report]包含指定帐户内最高绩效[!DNL Google Ads]营销活动中的投放位置展示数据。 使用此报表可以查找要排除的URL，并改进效果最好的营销活动的效果。 | 请参阅[专业报告](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)的[!UICONTROL Google Performance Max Placement Report][&#128279;](/help/search-social-commerce/reports/management/specialty/google-performance-max-placement-report.md)和报告列。 |
+| 2025年11月6日 | [!UICONTROL Reports] | 新[!UICONTROL Google Performance Max Placement Report]包含指定帐户内最高绩效[!DNL Google Ads]营销活动中的投放位置展示数据。 使用此报表可以查找要排除的URL，并改进效果最好的营销活动的效果。 | 请参阅[专业报告](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)的[!UICONTROL Google Performance Max Placement Report]&#x200B;[&#128279;](/help/search-social-commerce/reports/management/specialty/google-performance-max-placement-report.md)和报告列。 |
 | 2025年11月4日 | [!UICONTROL Campaigns] | 现在，优化支持适用于所有使用AI最大功能的[!DNL Google Ads]营销活动。 AI最大营销活动可以是任何项目组合类型，并遵循约束（例如最低预算）。 |   |
 | | | [!UICONTROL Campaigns]视图现在包含一个可选的“资产自动化”列，该列指示是否为营销活动启用了[!DNL Google Ads]人工智能最大设置“文本资产自定义”和“URL扩展”。 要包含该列，请手动添加它。 | 请参阅“[管理默认视图和自定义视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)”。 |
 | | [!UICONTROL Portfolios], [!UICONTROL Simulations] | 在新的UI中，您可以创建自定义模拟，无论是否应用约束。 | 请参阅“[运行或重新运行自定义模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)”。<br><br>有关自定义模拟设置的详细信息，请参阅《优化指南》，该指南可从Search、Social和Commerce中获取。 |

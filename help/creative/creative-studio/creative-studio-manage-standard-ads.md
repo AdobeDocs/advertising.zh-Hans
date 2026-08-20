@@ -8,7 +8,7 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
+source-git-commit: fff56f5b899801ceebbded0946eb4e5157469839
 workflow-type: tm+mt
 source-wordcount: 1181
 ht-degree: 0%
@@ -39,19 +39,19 @@ ht-degree: 0%
 
    * **从[!UICONTROL Creatives]选项卡：**
 
-      1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative Studio]**。
+     1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative Studio]**。
 
-      1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL Generate standard ads from templates]**&#x200B;快速操作信息卡中的&#x200B;**[!UICONTROL Generate]**。
+     1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL Generate standard ads from templates]**&#x200B;快速操作信息卡中的&#x200B;**[!UICONTROL Generate]**。
 
-      1. 在模板选择对话框中，单击模板以将其选中，然后单击&#x200B;**[!UICONTROL Use this template]**。
+     1. 在模板选择对话框中，单击模板以将其选中，然后单击&#x200B;**[!UICONTROL Use this template]**。
 
    * （仅显示广告）**从[!UICONTROL Templates]选项卡：**
 
-      1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative Studio]**。
+     1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative Studio]**。
 
-      1. 单击&#x200B;**[!UICONTROL Templates]**&#x200B;选项卡。
+     1. 单击&#x200B;**[!UICONTROL Templates]**&#x200B;选项卡。
 
-      1. 将光标悬停在模板卡片上并单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Generate ad variations]**。
+     1. 将光标悬停在模板卡片上并单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Generate ad variations]**。
 
    将打开[!UICONTROL Ad Variations Generator]。 画布显示具有模板可用广告格式的&#x200B;**[!UICONTROL Template Sizes]**&#x200B;部分和将显示所生成内容的&#x200B;**[!UICONTROL Ad Concepts]**&#x200B;部分。
 
@@ -100,14 +100,14 @@ ht-degree: 0%
 
    * 若要管理概念，请将光标悬停在概念标签上（例如，**[!UICONTROL Concept 3]**），然后单击&#x200B;**[!UICONTROL ...]**，然后选择选项：
 
-      * **[!UICONTROL Add to chat]：**&#x200B;在下一个提示中引用该概念。
-      * **[!UICONTROL Delete]：**&#x200B;删除概念。
+     * **[!UICONTROL Add to chat]：**&#x200B;在下一个提示中引用该概念。
+     * **[!UICONTROL Delete]：**&#x200B;删除概念。
 
    * 要管理单个变体，请将光标悬停在变体卡片上并单击&#x200B;**[!UICONTROL ...]**，然后选择选项：
 
-      * **[!UICONTROL Add to Chat]：**&#x200B;在下一个提示中引用变量。 您还可以直接单击变体卡正文以切换提及方式。
-      * **[!UICONTROL Edit Data]：**&#x200B;打开一个对话框，您可以在其中更新变体&#x200B;**[!UICONTROL Name]**&#x200B;以及模板中定义的每个点击标记的点进URL。 单击&#x200B;**[!UICONTROL Save]**&#x200B;以应用。
-      * **[!UICONTROL Delete]：**&#x200B;删除变体。
+     * **[!UICONTROL Add to Chat]：**&#x200B;在下一个提示中引用变量。 您还可以直接单击变体卡正文以切换提及方式。
+     * **[!UICONTROL Edit Data]：**&#x200B;打开一个对话框，您可以在其中更新变体&#x200B;**[!UICONTROL Name]**&#x200B;以及模板中定义的每个点击标记的点进URL。 单击&#x200B;**[!UICONTROL Save]**&#x200B;以应用。
+     * **[!UICONTROL Delete]：**&#x200B;删除变体。
 
 1. 如果您对生成的概念感到满意，请单击标题中的&#x200B;**[!UICONTROL Save Standard Ads]**。
 
@@ -204,4 +204,3 @@ ht-degree: 0%
 >* [在Creative Studio中管理动态创意](creative-studio-manage-dynamic-ads.md)
 >* [在Creative Studio中管理模板](creative-studio-manage-templates.md)
 >* [在Advertising Creative中管理品牌配置文件](/help/creative/brands/brand-manage.md)
-
