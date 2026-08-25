@@ -60,7 +60,7 @@ ht-degree: 2%
 
 ## 其他资源
 
-* [&#x200B; [!DNL Adobe CX Enterprise]的生成AI内容透明度](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [&#x200B; [!DNL Adobe CX Enterprise]的生成AI内容透明度](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
 
 * [[!DNL Adobe]创作AI用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 
