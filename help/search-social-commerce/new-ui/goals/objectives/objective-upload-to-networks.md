@@ -3,9 +3,9 @@ title: （新UI）启用将目标上传到广告网络
 description: 了解如何将混合项目组合的目标上传到Google Ads和Microsoft Advertising。
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: 4342b75f27a412803b0f96192e96cba9ebfbc347
+source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 *仅启用混合优化的广告商*
 
-Search、Social和Commerce可以将广告商帐户组合的目标上传到[!DNL Google Ads]和[!DNL Microsoft Advertising]，以便您可以将它们用于混合优化。 您上传的目标可用作帐户级别和营销活动级别自定义转化目标的转化操作。 您可以选择不从项目组合设置的[!UICONTROL Manage Objectives]选项卡将特定项目组合的目标值数据发送到广告网络。
+Search、Social和Commerce可以将广告商帐户组合的目标上传到[!DNL Google Ads]和[!DNL Microsoft Advertising]，以便您可以将它们用于混合优化。 您上传的目标可用作帐户级别和营销活动级别自定义转化目标的转化操作。<!-- You can opt not to send objective value data for a specific portfolio to ad networks from the [!UICONTROL Manage Objectives] tab in the portfolio settings. -->
 
 启用此选项会自动触发上传项目组合中的目标，其中包含具有智能竞价策略的营销活动。 搜索、社交和Commerce会在广告网络上为每个适用的目标创建一个转化。 转化表示EF ID（点击ID）级别的目标中的所有加权转化量度。 对于[!DNL Google Ads]点击，EF ID是[!DNL Google Ads] `gclid`；对于[!DNL Microsoft Advertising]点击，EF ID是[!DNL Microsoft Advertising] `msclkid`。 由于此点击ID，转化数据可以映射到特定的关键字并单击时间。
 
