@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: eb5c453b9892940811e3ec95d5dac4bf0fffbcb6
+source-git-commit: 1a49038dc4f679993eaf908ecbed291324075bc3
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: 814
 ht-degree: 0%
 
 ---
@@ -95,13 +95,21 @@ ht-degree: 0%
 
 ## 列出项目组合中的营销活动
 
+有关每个活动的详细信息包括竞价策略；实际和预测成本、点击量和目标值；以及成本、点击量和目标值准确性。
+
 * 单击&#x200B;**[!UICONTROL Campaigns]**&#x200B;选项卡。
 
 ## 列出项目组合中的广告组
 
+有关每个广告组的详细信息包括成本、点击量和目标值。
+
+* 要查看组合中的所有广告组，请单击&#x200B;**[!UICONTROL Ad Groups]**&#x200B;选项卡。
+
 * 要查看项目组合内某个促销活动中的所有广告组，请单击&#x200B;**[!UICONTROL Campaigns]**&#x200B;选项卡，然后单击促销活动名称。
 
 ## 列出项目组合中的关键词
+
+每个关键词的详细信息包括竞价单位ID、匹配类型、实际成本和预测成本、点击次数和目标值，以及成本、点击次数和目标值差异。
 
 * 要查看项目组合中的所有关键字，请单击&#x200B;**[!UICONTROL Keywords]**&#x200B;选项卡。
 
