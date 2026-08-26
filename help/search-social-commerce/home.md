@@ -18,9 +18,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cffcb243a4e2274b3e064548730d6c899831ec9d
+source-git-commit: 8321f27c6fb89234646119b3a34470d08ecec6c8
 workflow-type: tm+mt
-source-wordcount: 5013
+source-wordcount: 4986
 ht-degree: 1%
 
 ---
@@ -31,7 +31,6 @@ ht-degree: 1%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 8月19日 | [!UICONTROL Objective Upload]，[!UICONTROL Portfolio]设置 | 您现在可以选择不从项目组合设置的[!UICONTROL Manage Objectives]选项卡将特定项目组合的目标值数据发送到广告网络。 | — |
 | 2026年7月29日 | [!UICONTROL Campaigns], [!UICONTROL Reports] | （[!DNL Google Ads]帐户）搜索网络上的Google Ads促销活动的新UI中现在提供了以下AI Max支持：<ul><li>您可以在“管理”>“营销活动”中创建和管理启用了AI Max的营销活动。 Campaign设置包括新的AI Max选项卡，其中包含启用AI Max、自动文本自定义和最终URL扩展的选项。 您还可以查看广告组是否使用地理兴趣目标。</li><li>您可以在“管理”>“广告组”中创建和管理启用了AI Max的营销活动的广告组。 设置包括无关键字搜索词匹配和目标目标位置。</li><li>AI生成的创意资源可在Assets > Creative中找到。 您可以从此视图中删除与其关联的广告组中的文本资源。</li><li>新的[!UICONTROL Asset Report]包括启用了AI Max的营销活动中每个AI生成的资源的资源级性能数据。 此报表不包括Adobe Analytics转化。</li></ul> | 请参阅“[管理营销活动](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)”和“[[!DNL Google Ads] 营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)”、“[管理广告组](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)”和“[[!DNL Google Ads] 广告组设置](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)”、“[查看和创建创意资产](/help/search-social-commerce/new-ui/assets/creative-asset-manage.md)”。 和[该[!UICONTROL Asset Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/asset-report.md)。 |
 | 2026年6月9日 | 与Adobe Customer Journey Analytics集成 | 具有Customer Journey Analytics但不具有[!DNL Analytics for Advertising]的广告商可以使用Adobe Experience Platform [!DNL Web SDK]在Adobe Advertising和Customer Journey Analytics之间原生交换数据。 | 请参阅“[Adobe Advertising与Customer Journey Analytics的集成概述](/help/integrations/customer-journey-analytics/overview.md)”。 |
 | 2026年5月28日 | 新UI | 大多数功能现在都可在新UI中使用，包括计划报表和电子表格馈送、批量处理工作表、广告网络管理器帐户以及[!DNL Spend Planner]（以前称为“[!DNL Spend Recommendations]”）。 | 请参阅[用户界面的组织方式](/help/search-social-commerce/getting-started/user-interface.md)和“新UI”一章。 |

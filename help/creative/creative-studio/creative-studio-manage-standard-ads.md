@@ -8,9 +8,9 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fff56f5b899801ceebbded0946eb4e5157469839
+source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
 workflow-type: tm+mt
-source-wordcount: 1181
+source-wordcount: 1184
 ht-degree: 0%
 
 ---
@@ -204,3 +204,4 @@ ht-degree: 0%
 >* [在Creative Studio中管理动态创意](creative-studio-manage-dynamic-ads.md)
 >* [在Creative Studio中管理模板](creative-studio-manage-templates.md)
 >* [在Advertising Creative中管理品牌配置文件](/help/creative/brands/brand-manage.md)
+>* [!UICONTROL Creative Studio]&#x200B;[&#128279;](/help/creative/creative-studio/creative-studio-content-credentials.md)中的C2PA元数据
