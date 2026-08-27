@@ -2,9 +2,9 @@
 title: 关于专业报告
 description: 了解专业报告。
 feature: Search Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: b5fadff06a523e2b1b248c2d262cbd6cd03669c3
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->对于大多数专业报告，将于前一天的23:00 （11:00下午）提取数据 每天都这样。 例如，在6月18日的23:00，提取6月17日的数据。 如果您在6月19日09:00（在提取6月18日的数据之前）运行报表，则报表包含截至6月17日23:00的数据。 此数据同步适用于所有[!DNL Google Ads]专业报告以及[!UICONTROL Bing Ads Geo Report]和[!UICONTROL Bing Ads Search Query Report]。
+>对于大多数专业报告，将于前一天的23:00（晚上11:00）提取数据 每天都这样。 例如，6月18日23:00时，它会提取6月17日的数据。 如果您在6月19日09:00运行报表（在提取6月18日的数据之前），则报表包含截至6月17日23:00的数据。 此数据同步适用于所有[!DNL Google Ads]专业报告以及[!UICONTROL Bing Ads Geo Report]和[!UICONTROL Bing Ads Search Query Report]。
 
 ## 专业报告类型
 
@@ -34,6 +34,12 @@ ht-degree: 0%
 * [[!UICONTROL Bing Ads Search Query Report]](bing-ads-search-query-report.md)
 
 * [[!UICONTROL Campaign Daily Impression Share Report]](campaign-daily-impression-share-report.md)
+
+* [[!UICONTROL Google AI Max Search Term Combination Report]](google-ai-max-search-term-combination-report.md)
+
+* [[!UICONTROL Google Asset Group Performance Report]](google-asset-group-performance-report.md)
+
+* [[!UICONTROL Google Performance Max Placement Report]](google-performance-max-placement-report.md)
 
 * [[!UICONTROL Keyword Daily Impression Share Report]](keyword-daily-impression-share-report.md)
 
