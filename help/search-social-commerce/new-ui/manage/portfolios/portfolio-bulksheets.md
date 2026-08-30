@@ -5,16 +5,12 @@ feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
 TQID: https://experienceleague.adobe.com/tKCeMIgFKnW8hOU-6uavT9x7K9lL2Uqo2bWZ-H-Q5TE
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: 433
 ht-degree: 0%
 
 ---
@@ -28,6 +24,8 @@ ht-degree: 0%
 * 只读的[!UICONTROL Instructions]工作表，其中包含有关编辑字段的信息。
 
 * [!UICONTROL Portfolio Settings Edit]选项卡，每个包含的项目组合占一行。 您可以选择根据需要编辑字段，将文件保存在本地，然后[将编辑后的文件](#portfolio-bulksheet-upload)上传到Search、Social和Commerce。 可编辑字段以颜色突出显示。
+
+此功能适用于具有以下支出策略的项目组合：每日、每周、每月和每周时间。
 
 ## 下载包含项目组合设置的批量工作表文件
 
@@ -47,7 +45,7 @@ ht-degree: 0%
 
 ## 上传具有更新的项目组合设置的批量处理工作表文件 {#portfolio-bulksheet-upload}
 
-文件必须为XLSX格式。
+文件必须是XLSX格式，文件大小必须介于1 KB和1 MB之间，文件名的最大长度为100个字符。
 
 1. 在数据表上方的工具栏中，单击![批量操作](/help/search-social-commerce/assets/chevron-down.png "批量操作") > **[!UICONTROL Import Portfolio Details]**。
 
