@@ -16,9 +16,9 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 3a493b159d0cb6a1216f6d795e33a2173cfd9e1b
+source-git-commit: d2b474e24ef2dbf951ea40c42497f6d6d37993ee
 workflow-type: tm+mt
-source-wordcount: 283
+source-wordcount: 321
 ht-degree: 0%
 
 ---
@@ -27,8 +27,11 @@ ht-degree: 0%
 
 使用Advertising DSP和&#x200B;[!DNL Advertising Search, Social, & Commerce]*的*&#x200B;广告商
 
+* （使用Customer Journey Analytics但不使用[!DNL Analytics for Advertising]的广告商）：
 
-* （具有Customer Journey Analytics但不具有[!DNL Analytics for Advertising]的广告商）[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)版本2.36或更高版本。
+  * [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)版本2.36或更高版本。
+
+  * [Adobe Experience Platform标记](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/home)，包括[[!DNL Web SDK] 扩展](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/implement-web-sdk/tags-configuration/install-web-sdk#add-the-web-sdk-extension)版本2.37或更高版本。
 
 * 可访问数据管理工具的Adobe Customer Journey Analytics
 
@@ -45,7 +48,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [概述](overview.md)
->*  [!DNL Customer Journey Analytics][&#128279;](ids.md)使用的Adobe Advertising ID
+>*  [!DNL Customer Journey Analytics]&#x200B;[&#128279;](ids.md)使用的Adobe Advertising ID
 >* [设置数据收集、数据传输和报告](set-up.md)
 >* Customer Journey Analytics中的[Adobe Advertising指标和维度](advertising-data-in-cja.md)
 >* （Adobe Analytics用户） [收集AMO ID和EF ID的历史数据以用于Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md)。

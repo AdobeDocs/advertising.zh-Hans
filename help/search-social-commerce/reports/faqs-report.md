@@ -14,9 +14,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
 workflow-type: tm+mt
-source-wordcount: 3922
+source-wordcount: 3975
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 +++
 
 +++如何知道哪些转化源于[!DNL Google Ads]广告扩展或产品列表？
-您可以通过生成[!DNL Google Ads]来查看哪些转化是由于单击[!UICONTROL Transaction Report]广告扩展（而不是广告本身）或产品列表导致的。 [!UICONTROL Link Type]列值显示所点击链接的类型和标题：
+您可以通过生成[!UICONTROL Transaction Report]来查看哪些转化是由于单击[!DNL Google Ads]广告扩展（而不是广告本身）或产品列表导致的。 [!UICONTROL Link Type]列值显示所点击链接的类型和标题：
 
 * 产品清单列为`pla:<product ID>`，如`pla:8525822`。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 +++我能否创建有关特定帐户属性指标（如[!UICONTROL Device]或[!UICONTROL Objective Name]）的报告？
 对于营销活动实体报表（[!UICONTROL Campaign Report]、[!UICONTROL Ad Group Report]、[!UICONTROL Ad Variation Report]、[!UICONTROL Keyword Report]和[!UICONTROL Product Group Report]），量度数据由您在报表中包含的属性列动态聚合。 您可以选择删除报表的键列，并仅包括要为其聚合数据的属性列。
 
-例如，如果您生成包含[!UICONTROL Keyword Report]和[!UICONTROL Ad Group]设备列的，则默认情况下，报告会按广告组和设备类型汇总每个关键字的量度。 但是，如果您在生成报告之前删除了[!UICONTROL Keyword]列，则报告会按设备类型动态地为指定的广告组生成量度。
+例如，如果您生成包含[!UICONTROL Ad Group]和设备列的[!UICONTROL Keyword Report]，则默认情况下，报告会按广告组和设备类型汇总每个关键字的量度。 但是，如果您在生成报告之前删除了[!UICONTROL Keyword]列，则报告会按设备类型动态地为指定的广告组生成量度。
 
 >[!NOTE]
 >
@@ -103,7 +103,7 @@ ht-degree: 0%
 +++尽管总计正确无误，但个别数据字段仍不正确。
 当量度格式使用整数时，可能会出现这种情况：
 
-* 如果您创建格式为[没有小数点的数字](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)的&#x200B;*自定义量度*（将数据显示为整数），并将其包含在使用加权转化归因规则（[!UICONTROL Weight First Event More]、[!UICONTROL Weight Last Event More]或[!UICONTROL Even Distribution]）的视图或报表中，则输出将以整数而不是小数形式显示。 在这种情况下，单个数据字段可能不正确，尽管总数正确。 例如，如果某个顺序在三个事件之间平均分配，则三个事件的每个都会获得一个顺序（而不是0.33顺序）。 要解决此问题，[将度量格式](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)更改为&#x200B;*数字为2小数点*。
+* 如果您创建格式为&#x200B;*没有小数点的数字*&#x200B;的[自定义量度](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)（将数据显示为整数），并将其包含在使用加权转化归因规则（[!UICONTROL Weight First Event More]、[!UICONTROL Weight Last Event More]或[!UICONTROL Even Distribution]）的视图或报表中，则输出将以整数而不是小数形式显示。 在这种情况下，单个数据字段可能不正确，尽管总数正确。 例如，如果某个顺序在三个事件之间平均分配，则三个事件的每个都会获得一个顺序（而不是0.33顺序）。 要解决此问题，[将度量格式](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)更改为&#x200B;*数字为2小数点*。
 
 * 同样，如果您有一个收入量度以整数形式发送，则会出现同样的问题。 （收入格式由提交数据的转化标记控制。） 要解决此问题，[创建一个自定义量度](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)，该量度仅由收入量度组成，格式为&#x200B;*数值到2小数点*，并将其包含在视图和报表中，而不是原始量度。
 +++
@@ -138,7 +138,7 @@ ht-degree: 0%
 
 +++
 
-+++性能数据不同于广告网络编辑器中的数据。
++++性能数据与广告网络编辑器中的数据不同。
 当广告网络发送对先前数据的更新（通常是因为他们将点击欺诈归因于某些点击）时，搜索、社交和Commerce不会更新数据，除非存在超过5%的差异并且Adobe客户团队提交了请求。
 
 此外，在比较某个日期范围内汇总的展示共享数据时，“搜索”、“社交”和“Commerce”报表的数据可能与广告网络报表的数据不同。 造成这种差异的原因在于广告网络的API报告数据的方式， Search、Social和Commerce使用该API来提取数据。 例如，对于[!DNL Google Ads]数据：
@@ -243,7 +243,7 @@ ht-degree: 0%
 
 1. 如果某些事务不正确或缺少某些事务，请确保在所有适用的网页上实施了相关的转化跟踪标记，并且除非您的Adobe客户团队建议您这样做，否则不会进行编辑。 如果最近更新了网站，则标记可能会丢失或发生更改。
 
-   Search、Social和Commerce需要在`ef_transaction_properties`变量中和`src`标记的`img`元素内有格式正确的URL（具有名称 — 值对中的参数）。
+   Search、Social和Commerce需要在`ef_transaction_properties`变量中和`img`标记的`src`元素内有格式正确的URL（具有名称 — 值对中的参数）。
 
 1. 如果无法确定并无法解决问题，请[联系客户关怀团队](/help/search-social-commerce/get-help.md)。
 
@@ -311,7 +311,7 @@ ht-degree: 0%
 ## 特定报告
 
 +++[!UICONTROL Portfolio Report]是否应该显示与[!UICONTROL Portfolios]视图相同的数字？
-当视图、报表参数以及视图和报表的数据列的所有筛选器都相同时，[!UICONTROL Portfolio Report]和[!UICONTROL Portfolios]视图显示相同的数据。 例如，如果[!UICONTROL Portfolios]视图显示的项目组合在日期范围“[!UICONTROL All but inactive]”为“[!UICONTROL Last 7 days]”且只显示默认数据列，则使用默认参数的[!UICONTROL Portfolio Report]会显示相同的数据。 如果您在[!UICONTROL Portfolios]视图中更改了任何报表参数或使用不同的筛选器，则数据值可能会不同。
+当视图、报表参数以及视图和报表的数据列的所有筛选器都相同时，[!UICONTROL Portfolio Report]和[!UICONTROL Portfolios]视图显示相同的数据。 例如，如果[!UICONTROL Portfolios]视图显示的项目组合在日期范围“[!UICONTROL Last 7 days]”为“[!UICONTROL All but inactive]”且只显示默认数据列，则使用默认参数的[!UICONTROL Portfolio Report]会显示相同的数据。 如果您在[!UICONTROL Portfolios]视图中更改了任何报表参数或使用不同的筛选器，则数据值可能会不同。
 +++
 
 +++我的[!UICONTROL Portfolio Report]中的数据与我的[!UICONTROL Search Engine Report]或[!UICONTROL Search Engine Account Report]中的数据不匹配。
@@ -319,7 +319,7 @@ ht-degree: 0%
 +++
 
 +++[!UICONTROL Model Accuracy] > [!UICONTROL Forecast Accuracy Report]与项目组合级别[!UICONTROL Model Accuracy Report]有何不同？
-（仅限代理客户经理、Adobe客户经理和管理员用户）从[!UICONTROL Forecast Accuracy Report] > [!UICONTROL Reports]中可用的[!UICONTROL Model Accuracy]与项目组合级别[!UICONTROL Model Accuracy Report]提供相同数据，只是您可以跨多个项目组合运行它并更改归因规则。 您还可以使用自定义参数运行和计划报表，并使用该报表创建电子表格馈送。 此外，[!UICONTROL Forecast Accuracy Report]比旧版项目组合级别报表更准确，因为它使用项目组合的历史目标而不是当前目标评估收入准确性，并且它更准确地表示适用时区的数据。
+（仅限代理客户经理、Adobe客户经理和管理员用户）从[!UICONTROL Reports] > [!UICONTROL Model Accuracy]中可用的[!UICONTROL Forecast Accuracy Report]与项目组合级别[!UICONTROL Model Accuracy Report]提供相同数据，只是您可以跨多个项目组合运行它并更改归因规则。 您还可以使用自定义参数运行和计划报表，并使用该报表创建电子表格馈送。 此外，[!UICONTROL Forecast Accuracy Report]比旧版项目组合级别报表更准确，因为它使用项目组合的历史目标而不是当前目标评估收入准确性，并且它更准确地表示适用时区的数据。
 +++
 
 +++广告级别的数据不适用于[!DNL Google Ads]动态搜索广告(DSA)、最佳效果、智能购物和[!DNL YouTube]营销活动。
@@ -349,7 +349,7 @@ ht-degree: 0%
 +++
 
 +++当我尝试在[!DNL Excel]中打开电子表格馈送时，[!DNL Excel]报告“无法读取的内容”错误，并从恢复的内容中删除数据。
-当[!DNL Microsoft Excel]模板不按开始日期升序对数据排序时，电子表格馈送可能包含空白行。 特别是，[!DNL Excel]报告错误“Excel在&#39;&lt;*报告名称*>.xlsx.&#39;中发现不可读的内容。” 是否要恢复工作簿的内容？ 如果您信任此工作簿的来源，请单击“是”。 如果单击“是”，您将收到以下消息：“删除的记录：来自/xl/worksheets/sheet1.xml部件的单元格信息”，并且电子表格馈送包含空白行。
+当[!DNL Microsoft Excel]模板不按开始日期升序对数据排序时，电子表格馈送可能包含空白行。 特别是，[!DNL Excel]报告错误“Excel在“&lt;*报告名称*>.xlsx”中发现不可读的内容。 是否要恢复工作簿的内容？ 如果您信任此工作簿的来源，请单击“是”。 如果单击“是”，您将收到以下消息：“删除的记录：来自/xl/worksheets/sheet1.xml部件的单元格信息”，并且电子表格馈送包含空白行。
 
 要解决此问题，请编辑与馈送关联的[!DNL Excel]模板以按[!DNL Start date in Ascending (Oldest to Newest) order]对数据排序，然后通过电子表格馈送设置上传更新的模板。 有关详细信息，请参阅“[编辑电子表格报表源](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md)”。
 +++
