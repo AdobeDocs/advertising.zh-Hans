@@ -3,29 +3,38 @@ title: 使用AI辅助[!UICONTROL Troubleshooting Agent]诊断性能和投放问�
 description: 了解如何使用AI辅助的故障排除代理来诊断DSP包和投放的支出、步调和投放问题。
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6032b798baa78c9c28196aa58024b8ed1061af9d
+    internal-label: Administration
+source-git-commit: 31ddb7928ca4e43132087b73829af55ae6315b0d
 workflow-type: tm+mt
-source-wordcount: 455
+source-wordcount: '646'
 ht-degree: 0%
-
 ---
-
 # 使用AI辅助[!UICONTROL Troubleshooting Agent]诊断性能和投放问题
 
-AI辅助的[!UICONTROL Troubleshooting Agent]可以：
+AI辅助的[!UICONTROL Troubleshooting Agent]可识别限制性能的因素并提供解决问题的建议。 [!UICONTROL Troubleshooting Agent]可以：
 
-* 帮助诊断所选实时包或投放位置的性能和投放问题。 您可以询问关于以下方面的问题：支出问题（无法支出、支出不足、超支）、步调问题（步调过低、超调）、拍卖和交付问题（出价低、中标率低、无展示次数）以及性能问题（例如CPA、ROAS、CTR或CVR中的更改）。
+* 帮助诊断选定实时包或投放位置的性能和投放问题：
+
+  * （仅限置入）支出问题，包括过度支出、支出不足和无法支出。 代理在诊断过程中会评估相关的步调、竞价、定位和预算上限因素。
+
+  * （仅限包）性能问题，包括CPA上升或ROAS下降。 代理不会诊断参与量度，例如CTR、CPC、点击次数或展示次数。
+
+  每个对话都涵盖单个包或投放位置的单个诊断。 代理提交结果后，即开始新的对话以询问其他问题，或关于其他包或投放位置。
+
+  代理无法更改设置，也无法创建或编辑营销活动或营销活动组件。 它也无法诊断已暂停、已完成、已存档或计划的包或放置的问题。
 
 * 在[Advertising DSP指南](/help/dsp/home.md)和（使用Advertising Creative的广告商）[Advertising Creative指南](/help/creative/home.md)中搜索概念内容和操作方法内容，搜索方式与[代理聊天界面](/help/dsp/agent-chat.md)相同。 您可以询问有关营销活动管理、优化、受众管理、交易、报告和其他产品功能的信息。
-
-代理无法更改设置，也无法创建或编辑营销活动或营销活动组件。 它也无法诊断已暂停、已完成、已存档或计划的包或放置的问题。
 
 >[!IMPORTANT]
 >
@@ -33,13 +42,27 @@ AI辅助的[!UICONTROL Troubleshooting Agent]可以：
 
 ## 示例查询
 
-### 性能和交付故障诊断
+>[!NOTE]
+>
+>您无需指定日期范围。 如果不包括一个，工程师将根据问题类型选择合理的默认值。
+
+### 投放位置：支出问题
 
 * 尽管交易很活跃，但我的配售昨天停止了支出。 为什么？
 
 * 为什么在过去5天里，此次配售的支出一直偏低？
 
 * 我们飞行已经过半，步调明显落后。 为什么？
+
+### 包：性能问题
+
+* 为什么此程序包的CPA在上周有所增加？
+
+* 为什么ROAS拒绝此包？
+
+>[!TIP]
+>
+>如果您考虑目标CPA，请将其包含在查询中（例如，“针对目标金额为$50美元诊断CPA”）。 如果未指定目标，则代理将使用默认目标。
 
 ### 产品功能：
 
@@ -79,10 +102,18 @@ AI辅助的[!UICONTROL Troubleshooting Agent]可以：
 
    <!-- For more information, see "[Writing prompts](#writing-prompts)." -->
 
-   响应包括内联引文和底部的&#x200B;**[!UICONTROL Documentation Sources]**&#x200B;列表。 后续问题和建议也可能出现。
+   对于性能和投放查询，响应将包含限制性能的因素，并提供解决问题的建议。
 
-1. （可选，仅限一般产品问题）要打开用作数据源的页面，请执行下列操作之一：
+   对于文档查询，响应包含内联引用和底部的&#x200B;**[!UICONTROL Documentation Sources]**&#x200B;列表。 后续问题和建议也可能出现。
+
+1. （仅限文档查询；可选）要打开用作数据源的页面，请执行以下任一操作：
 
    * 单击编号的引文。
 
    * 单击&#x200B;**[!UICONTROL Documentation Sources]**&#x200B;以显示响应中引用的所有页面的列表，然后单击页面链接。
+
+1. （可选）使用向上缩略图或向下缩略图图标对响应进行评级。
+
+>[!TIP]
+>
+>要询问其他问题，或者关于其他包或投放位置，请启动新对话。
