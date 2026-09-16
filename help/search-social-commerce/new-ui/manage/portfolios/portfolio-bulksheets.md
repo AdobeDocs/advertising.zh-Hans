@@ -7,18 +7,20 @@ exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
 TQID: https://experienceleague.adobe.com/tKCeMIgFKnW8hOU-6uavT9x7K9lL2Uqo2bWZ-H-Q5TE
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
+    internal-label: Optimization
+source-git-commit: 8cf70396fd75bf14a6723aeb86db9c48b57c55ce
 workflow-type: tm+mt
-source-wordcount: 433
+source-wordcount: '433'
 ht-degree: 0%
-
 ---
-
 # 使用批量工作表文件批量编辑项目组合设置
 
 *Beta功能*
@@ -90,6 +92,8 @@ ht-degree: 0%
 | Max. Target CPA |  |  |
 | Min. Target ROAS |  |  |
 | Max. Target ROAS |  |  |
+| Enable Intraday for Smart Portfolios |  |  |
+| Upload Excluded |  |  |
 
 -->
 
