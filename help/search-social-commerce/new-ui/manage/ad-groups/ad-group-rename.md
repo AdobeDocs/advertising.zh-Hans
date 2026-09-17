@@ -3,13 +3,11 @@ title: （新UI）重命名广告组
 description: 了解如何在不打开广告组设置的情况下重命名广告组。
 feature: Search Campaign Management
 hide: true
-source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
+source-git-commit: 19e8de1ab13ab8a5451702e6130219277cf09631
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '63'
 ht-degree: 0%
-
 ---
-
 # （新UI）重命名广告组
 
 *Beta功能*
@@ -24,4 +22,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于[!UICONTROL Ad Groups]视图](/help/search-social-commerce/new-ui/manage/ad-groups/ad group-view-about.md)
+>* [关于[!UICONTROL Ad Groups]视图](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)

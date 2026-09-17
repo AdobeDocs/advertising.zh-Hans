@@ -6,17 +6,18 @@ breadcrumb-title: Advertising 搜索、社交和 Commerce 指南
 index: true
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 730b474b83ae4df47c18f93adfec62b1dc9b8a16
+    internal-label: User
+source-git-commit: 19e8de1ab13ab8a5451702e6130219277cf09631
 workflow-type: tm+mt
-source-wordcount: 2396
+source-wordcount: '2396'
 ht-degree: 2%
-
 ---
-
 # Advertising 搜索、社交和 Commerce 指南 {#search-social-commerce}
 
 + [新增功能](home.md)
@@ -121,7 +122,7 @@ ht-degree: 2%
       + 按广告网络列出的Campaign设置 {#campaign-settings-by-network}
         + [[!DNL Baidu]营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
         + [[!DNL Google Ads]营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
-        + [[!DNL LY Ads]营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yahoo-japan.md)
+        + [[!DNL LY Ads]营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
         + [[!DNL Microsoft Advertising]营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)
         + [[!DNL Yandex]营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)
     + 广告组 {#ad-groups}
@@ -129,7 +130,7 @@ ht-degree: 2%
       + 按广告网络划分的广告组设置 {#ad-group-settings-by-network}
         + [[!DNL Baidu]广告组设置](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)
         + [[!DNL Google Ads]广告组设置](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)
-        + [[!DNL LY Ads]广告组设置](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yahoo-japan.md)
+        + [[!DNL LY Ads]广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
         + [[!DNL Microsoft Advertising]广告组设置](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)
         + [[!DNL Yandex]广告组设置](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)
     + 广告 {#ads}
