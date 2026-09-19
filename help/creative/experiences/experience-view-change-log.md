@@ -2,13 +2,12 @@
 title: 查看体验的更改日志
 description: 了解如何查看有关在指定时间范围内对体验所做更改的详细信息，包括谁进行了更改。
 feature: Creative Experiences
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+exl-id: 124cc524-569b-4826-a4a2-9401b7c8daba
+source-git-commit: 29a679e99560c6776932f5da2d06fa0331c934a8
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
-
 ---
-
 # 查看体验的更改日志
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
