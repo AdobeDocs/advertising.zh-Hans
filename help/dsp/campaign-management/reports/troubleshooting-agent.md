@@ -1,6 +1,6 @@
 ---
-title: 使用AI辅助[!UICONTROL Troubleshooting Agent]诊断性能和投放问题
-description: 了解如何使用AI辅助的故障排除代理来诊断DSP包和投放的支出、步调和投放问题。
+title: 使用AI助手排查性能和投放问题
+description: 了解如何使用AI助理的故障排除代理来诊断DSP包和投放的支出、步调和投放问题。
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -15,14 +15,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 31ddb7928ca4e43132087b73829af55ae6315b0d
+source-git-commit: 2e97652901e16bd1079fac445f9a2a4794dcda56
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '652'
 ht-degree: 0%
 ---
-# 使用AI辅助[!UICONTROL Troubleshooting Agent]诊断性能和投放问题
+# 使用DSP AI助手排查性能和投放问题
 
-AI辅助的[!UICONTROL Troubleshooting Agent]可识别限制性能的因素并提供解决问题的建议。 [!UICONTROL Troubleshooting Agent]可以：
+AI助理的故障排除代理可以识别限制性能的因素并提供解决问题的建议。 故障排除代理可以：
 
 * 帮助诊断选定实时包或投放位置的性能和投放问题：
 

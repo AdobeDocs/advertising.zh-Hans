@@ -6,22 +6,26 @@ exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
 TQID: https://experienceleague.adobe.com/rSt1uwd3p4hawA3HHdgw2AL3fXeY36nbewI90YbFhaY
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7
+    internal-label: DSP Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
 workflow-type: tm+mt
-source-wordcount: 679
+source-wordcount: '694'
 ht-degree: 0%
-
 ---
-
 # Advertising DSP如何优化您的活动
 
 此页概述由[!DNL Adobe AI]提供支持的DSP优化引擎如何优化营销活动中的包。 有关如何手动优化促销活动的提示和技巧，请与Adobe客户团队联系。<!-- add link to trading playbook if we add it to help -->
@@ -100,4 +104,4 @@ DSP可以从两个基本方面优化您的投放，其中有20个变体可供使
 >* [位置设置](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [优化目标及使用方法](optimization-goals.md)
 >* [投放位置级别预竞价筛选器及其使用方式](optimization-pre-bid-filters.md)
->* [性能疑难解答](/help/dsp/optimization/troubleshooting-performance.md)
+>* [性能问题原因](/help/dsp/optimization/troubleshooting-performance.md)
