@@ -4,19 +4,21 @@ description: 了解如何创建和管理广告营销活动。
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
+    internal-label: User
+source-git-commit: d21954881af4255a450e58849059dee0d6aa368e
 workflow-type: tm+mt
-source-wordcount: 2285
+source-wordcount: '2304'
 ht-degree: 0%
-
 ---
-
 # 管理营销活动
 
 *Beta功能*
@@ -68,7 +70,7 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 
 1. 单击&#x200B;**[!UICONTROL Create Campaign]**。
 
-1. 指定[百度](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)、[Google广告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)、[LY广告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)促销活动设置。
+1. 指定[百度](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)、[ChatGPT广告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md)、[Google广告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)、[LY广告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)促销活动设置。
 
 1. 单击&#x200B;**[!UICONTROL Review and Save]**。
 
@@ -104,7 +106,7 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 
    * 选中营销活动旁边的复选框。 在批量操作工具栏中，单击&#x200B;**[!UICONTROL Edit]**。
 
-1. 编辑[百度](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)、[Google广告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)、[LY广告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)、<!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)营销活动设置。
+1. 编辑[百度](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)、[ChatGPT广告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md)、[Google广告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)、[LY广告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)、<!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)营销活动设置。
 
 1. 单击&#x200B;**[!UICONTROL Review and Save]**。
 
@@ -120,7 +122,7 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 
 您可以暂停受支持广告网络上的任何活动营销活动以禁止对其投标。 您稍后可以通过将状态更改回“活动”来恢复竞价。
 
-您还可以删除任何活动或暂停的营销活动。 已删除的营销活动会从广告网络中删除。 当您将其包含在数据过滤器中时，它们仍可见，但无法进行更改。
+您还可以删除（在[!DNL ChatGPT Ads Manager]中称为“存档”）任何活动或暂停的营销活动。 删除或存档的营销活动会从广告网络删除或存档。 当您将其包含在数据过滤器中时，它们仍可见，但无法进行更改。
 
 ### 激活或暂停营销活动
 
@@ -134,7 +136,7 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 
    * 要暂停活动的营销活动，请选择&#x200B;**[!UICONTROL Paused]**。
 
-### 删除活动
+### 删除或存档营销活动
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
 
@@ -148,7 +150,7 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 
 将促销活动分配到优化的产品组合可让Search、Social和Commerce优化促销活动中关键词和广告的竞价、促销活动预算和竞价策略目标。 您可以在创建项目组合时，或编辑项目组合的设置，从[!UICONTROL Campaigns]视图将营销活动分配给项目组合。
 
-并非所有营销活动类型和广告网络都符合优化条件；请查看可包含在项目组合中的[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)列表。 此外，请验证每个营销活动竞价策略[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)的优化支持。
+并非所有营销活动类型和广告网络都符合优化条件；请查看可包含在项目组合中的[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)列表。 此外，请验证每个营销活动竞价策略](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)的[优化支持。
 
 >[!NOTE]
 >
@@ -205,6 +207,8 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 1. 查看设置并根据需要进行更改，然后单击&#x200B;**[!UICONTROL Save]**。
 
 ## 管理营销活动的竞价限制分配 {#campaign-constraints}
+
+*不可用于[!DNL ChatGPT Ads]*
 
 每个图元只能有一个约束。 约束由子实体继承，因此除非要覆盖继承的值，否则无需为子实体分配约束。
 
@@ -275,6 +279,8 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 1. 在确认对话框中，选择&#x200B;**[!UICONTROL Yes, Unassign]**。
 
 ## 管理营销活动的目标限制分配 {#campaign-target-constraints}
+
+*不可用于[!DNL ChatGPT Ads]*
 
 ### 从新[!UICONTROL Campaigns]视图为所选营销活动分配目标限制
 

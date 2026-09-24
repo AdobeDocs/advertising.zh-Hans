@@ -3,13 +3,11 @@ title: （新UI）管理广告网络帐户
 description: 了解如何在新UI中为通过广告网络API同步的广告网络设置和管理帐户详细信息。
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: 6b9aca3a3de262935428a749acc123fcf7b76c18
+source-git-commit: fe4873a68b7b78000e6a380c22f8074d79c7184f
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2157'
 ht-degree: 0%
-
 ---
-
 # （新用户界面）通过API连接管理广告网络帐户
 
 <!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->
@@ -19,6 +17,8 @@ ht-degree: 0%
 <!-- Move out info about Naver into a separate page -->
 
 以下是有关使用广告网络的API管理Search、Social和Commerce同步的广告网络帐户的说明。
+
+<!-- Add somewhere:  Can now open a list of all campaigns for an ad network account by clicking account name -->
 
 <!-- Move out info about Naver into a separate page -->
 
@@ -135,7 +135,9 @@ ht-degree: 0%
 >
 >如果您集成了“搜索”、“Social”和“Commerce-Adobe Analytics”，并更改了搜索帐户的名称，请让您的Adobe帐户团队更新映射。
 
-**[!DNL [广告网络]帐户]：** （在创建帐户时可见）要同步的广告网络帐户。
+**[!UICONTROL Access Key]：** （仅限[!DNL ChatGPT Ads]个帐户）要使用的开发人员帐户的访问密钥。<!-- From whom should people get access keys? Their organization's ChatGPT Ads team? -->
+
+**[！DNL [广告网络]帐户]：** （在创建帐户时可见）要同步的广告网络帐户。
 
 **[登录详细信息]：** （仅限Yandex帐户）要使用的帐户凭据：
 
@@ -159,7 +161,7 @@ ht-degree: 0%
 
 **[!UICONTROL Currency]：** （只读）帐户使用的货币的缩写。 保存记录后，此值将自动填充为广告网络上的帐户配置的货币。
 
-**[!UICONTROL Time Zone]：**&#x200B;广告商的时区。 保存记录后，此值将自动填充为广告商的Search、Social和Commerce帐户配置的时区。
+**[!UICONTROL Time Zone]：** （只读）广告商的时区。 保存记录后，此值将自动填充为广告商的Search、Social和Commerce帐户配置的时区。
 
 **[!UICONTROL Login]：** （只读）用于登录帐户的用户帐户。
 
@@ -189,7 +191,7 @@ ht-degree: 0%
 >* 如果您从[!UICONTROL Standard]切换到[!UICONTROL Token]，或者反之，则必须重新生成帐户的跟踪URL。
 >* 您可以在营销策划级别覆盖帐户级别设置。
 
-**[!UICONTROL Auto Update]：** （启用搜索、社交和Commerce跟踪时）标准化您的跟踪URL以实现跨浏览器和服务器的兼容性。 Search、Social和Commerce会在下次同步期间自动将以下内容上传到广告网络：(a)用于跟踪模板的搜索、Social和Commerce跟踪参数以及附加到最终URL的相同参数，或者(b)嵌入了Search、Social和Commerce跟踪代码的新目标URL。 对于具有[Adobe Advertising-Adobe Analytics集成](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hans)和服务器端AMO ID (s_kwcid)配置的广告商，该上传还包括您的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户的[AMO ID参数](/help/integrations/analytics/ids.md#amo-id)。 默认帐户级别设置继承自广告商的跟踪设置。 您可以在营销策划级别覆盖帐户级别设置。
+**[!UICONTROL Auto Update]：** （启用搜索、社交和Commerce跟踪时）标准化您的跟踪URL以实现跨浏览器和服务器的兼容性。 Search、Social和Commerce会在下次同步期间自动将以下内容上传到广告网络：(a)用于跟踪模板的搜索、Social和Commerce跟踪参数以及附加到最终URL的相同参数，或者(b)嵌入了Search、Social和Commerce跟踪代码的新目标URL。 对于具有[Adobe Advertising-Adobe Analytics集成](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)和服务器端AMO ID (s_kwcid)配置的广告商，该上传还包括您的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户的[AMO ID参数](/help/integrations/analytics/ids.md#amo-id)。 默认帐户级别设置继承自广告商的跟踪设置。 您可以在营销策划级别覆盖帐户级别设置。
 
 跟踪URL每天只更新不同步的实体（即添加的新实体和属性已更改的现有实体）。 因此，如果您将现有广告商/帐户/营销活动的此设置从“禁用”更改为“启用”，则不会为已同步的现有实体更新跟踪URL。 要将跟踪添加到现有已同步实体的URL，请联系您的Adobe客户团队，并请求执行一次性的手动同步过程。 自动上传流程将处理未来的更改。
 
@@ -207,7 +209,7 @@ ht-degree: 0%
 
 示例： `param1=value1&param2=value2`
 
-使用Adobe Advertising点击跟踪的帐户必须在后缀中包含广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`；Google为`gclid`）。 具有Adobe Analytics集成的帐户必须使用AMO ID参数（以`s_kwcid`开头）。 如果该帐户具有服务器端AMO ID实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 查看 [!DNL Google Ads][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必需后缀格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的必需后缀格式。
+使用Adobe Advertising点击跟踪的帐户必须在后缀中包含广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`；Google为`gclid`）。 具有Adobe Analytics集成的帐户必须使用AMO ID参数（以`s_kwcid`开头）。 如果该帐户具有服务器端AMO ID实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 查看 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必需后缀格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的[必需后缀格式。
 
 >[!NOTE]
 >

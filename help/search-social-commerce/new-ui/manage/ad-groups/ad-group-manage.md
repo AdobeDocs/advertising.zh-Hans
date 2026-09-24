@@ -4,19 +4,21 @@ description: 了解如何创建和管理广告组。
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
+    internal-label: User
+source-git-commit: d21954881af4255a450e58849059dee0d6aa368e
 workflow-type: tm+mt
-source-wordcount: 1676
+source-wordcount: '1692'
 ht-degree: 0%
-
 ---
-
 # 管理广告组
 
 <!-- Go through all -->
@@ -61,7 +63,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Create Ad Group]**。
 
-1. 指定[百度](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)、[Google广告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)、[LY广告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)广告组设置。
+1. 指定[百度](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)、[ChatGPT广告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md)、[Google广告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)、[LY广告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)广告组设置。
 
 1. 单击&#x200B;**[!UICONTROL Review and Save]**。
 
@@ -97,7 +99,7 @@ ht-degree: 0%
 
    * 选中广告组旁边的复选框。 在批量操作工具栏中，单击&#x200B;**[!UICONTROL Edit]**。
 
-1. 编辑[百度](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)、[Google广告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)、[LY广告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)广告组设置。
+1. 编辑[百度](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)、[ChatGPT广告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md)、[Google广告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)、[LY广告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)广告组设置。
 
 1. 单击&#x200B;**[!UICONTROL Review and Save]**。
 
@@ -111,7 +113,7 @@ ht-degree: 0%
 
 您可以暂停受支持广告网络上的任何活动广告组以禁止对其投标。 您稍后可以通过将状态更改回“活动”来恢复竞价。
 
-您还可以删除任何活动或暂停的广告组。 已删除的广告组将从广告网络删除。 当您将其包含在数据过滤器中时，它们仍可见，但无法进行更改。
+您还可以删除（在[!DNL ChatGPT Ads Manager]中称为“存档”）任何活动或暂停的广告组。 删除或存档的广告组即会从广告网络删除或存档。 当您将其包含在数据过滤器中时，它们仍可见，但无法进行更改。
 
 ### 激活或暂停广告组
 
@@ -125,7 +127,7 @@ ht-degree: 0%
 
    * 要暂停活动的广告组，请选择&#x200B;**[!UICONTROL Paused]**。
 
-### 删除广告组
+### 删除或存档广告组
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Ad Groups]**。
 
@@ -136,6 +138,8 @@ ht-degree: 0%
    * 将光标悬停在广告组行上并单击[!UICONTROL Status]列旁边的![编辑](/help/search-social-commerce/assets/edit.png "编辑")。 选择&#x200B;**[!UICONTROL Deleted]**。
 
 ## 管理广告组的竞价限制分配 {#ad-group-constraints}
+
+*不可用于[!DNL ChatGPT Ads]*
 
 每个图元只能有一个约束。 约束由子实体继承，因此除非要覆盖继承的值，否则无需为子实体分配约束。
 
