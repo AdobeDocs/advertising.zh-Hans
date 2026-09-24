@@ -150,7 +150,7 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 
 将促销活动分配到优化的产品组合可让Search、Social和Commerce优化促销活动中关键词和广告的竞价、促销活动预算和竞价策略目标。 您可以在创建项目组合时，或编辑项目组合的设置，从[!UICONTROL Campaigns]视图将营销活动分配给项目组合。
 
-并非所有营销活动类型和广告网络都符合优化条件；请查看可包含在项目组合中的[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)列表。 此外，请验证每个营销活动竞价策略](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)的[优化支持。
+并非所有营销活动类型和广告网络都符合优化条件；请查看可包含在项目组合中的[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)列表。 此外，请验证每个营销活动竞价策略[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)的优化支持。
 
 >[!NOTE]
 >
