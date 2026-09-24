@@ -127,7 +127,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Create]**。
 
-1. <!-- Add link to where to generate this once available to users-->（促销活动中的购物广告具有Adobe Advertising转化跟踪；可选）要跟踪广告的点击量，请手动将跟踪URL添加到帐户、促销活动或产品组设置。
+1. &#x200B;<!-- Add link to where to generate this once available to users-->（促销活动中的购物广告具有Adobe Advertising转化跟踪；可选）要跟踪广告的点击量，请手动将跟踪URL添加到帐户、促销活动或产品组设置。
 
 ## 重命名广告 {#ad-rename}
 
