@@ -6,23 +6,28 @@ exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
 TQID: https://experienceleague.adobe.com/2NzvUNMqkGVsPaEDM3ifXGNOAIuR1qifdC1-pacbK7U
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: DSP placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: '392'
 ht-degree: 0%
-
 ---
-
 # 关于Advertising DSP中的置入管理
 
 投放位置包括相同广告类型的一个或多个广告的定位参数。 您可以为单个营销活动或营销策划包创建投放位置，然后为其分配广告。 每个营销活动或投放位置均可包含多个投放位置，并具有指定的广告轮换。 默认情况下，广告会平均旋转。 您可以为各种投放目标类型单独配置竞价乘数。
@@ -34,7 +39,7 @@ ht-degree: 0%
 ## 可用的投放位置类型
 
 * 前置式广告
-* 移动设备
+* 移动
 * 显示
 * 原生
 * 音频
@@ -63,4 +68,4 @@ ht-degree: 0%
 >* [管理投放位置的竞价乘数](placement-manage-bid-multipliers.md)
 >* [查看投放位置的更改日志](placement-change-log.md)
 >* [位置设置](placement-settings.md)
->* [性能疑难解答](/help/dsp/optimization/troubleshooting-performance.md)
+>* [性能问题原因](/help/dsp/optimization/troubleshooting-performance.md)

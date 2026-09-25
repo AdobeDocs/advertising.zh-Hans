@@ -6,24 +6,30 @@ exl-id: 28a328b1-0839-442e-a245-f586a7042f41
 TQID: https://experienceleague.adobe.com/QEpUfFvrVq62P64w-7gwFk2ujuCNzkegHKz6UancZDY
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: DSP placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+    internal-label: Optimization
+source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
 workflow-type: tm+mt
-source-wordcount: 713
+source-wordcount: '715'
 ht-degree: 0%
-
 ---
-
 # 创建投放位置
 
 >[!TIP]
@@ -92,61 +98,61 @@ ht-degree: 0%
 
       * 要创建新广告：
 
-         1. 单击&#x200B;**[!UICONTROL Create a New Ad].**
+        1. 单击&#x200B;**[!UICONTROL Create a New Ad].**
 
-         1. 指定[音频广告](/help/dsp/campaign-management/ads/ad-settings-audio.md)、[连接的电视](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)、[显示广告](/help/dsp/campaign-management/ads/ad-settings-display.md)、[移动广告](/help/dsp/campaign-management/ads/ad-settings-mobile.md)、[原生广告](/help/dsp/campaign-management/ads/ad-settings-native.md)、[前置广告](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)或[通用视频广告](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)的广告设置。
+        1. 指定[音频广告](/help/dsp/campaign-management/ads/ad-settings-audio.md)、[连接的电视](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)、[显示广告](/help/dsp/campaign-management/ads/ad-settings-display.md)、[移动广告](/help/dsp/campaign-management/ads/ad-settings-mobile.md)、[原生广告](/help/dsp/campaign-management/ads/ad-settings-native.md)、[前置广告](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)或[通用视频广告](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)的广告设置。
 
         >[!NOTE]
         >
         >通用视频投放位置只能包含通用视频广告。
 
-         1. 单击&#x200B;**[!UICONTROL Save & Submit for Review]**。
+        1. 单击&#x200B;**[!UICONTROL Save & Submit for Review]**。
 
-         1. （可选）对于要为投放位置创建的每个其他广告，单击&#x200B;**[!UICONTROL Attach Another Ad]**，然后重复步骤1-3。
+        1. （可选）对于要为投放位置创建的每个其他广告，单击&#x200B;**[!UICONTROL Attach Another Ad]**，然后重复步骤1-3。
 
-         1. 如果您不打算附加任何现有广告，请单击&#x200B;**[!UICONTROL I'm done for now]**。
+        1. 如果您不打算附加任何现有广告，请单击&#x200B;**[!UICONTROL I'm done for now]**。
 
       * 要在营销活动中附加现有广告，请执行以下操作：
 
-         1. 单击&#x200B;**[!UICONTROL Select an Ad]**。
+        1. 单击&#x200B;**[!UICONTROL Select an Ad]**。
 
-         1. 执行以下任一操作：
+        1. 执行以下任一操作：
 
-            * 要一次添加一个广告，请执行以下操作：
+           * 要一次添加一个广告，请执行以下操作：
 
-               1. 在广告名称旁边，单击&#x200B;**[!UICONTROL Select]。**
+             1. 在广告名称旁边，单击&#x200B;**[!UICONTROL Select]。**
 
-               1. （可选）对于要附加的每个其他广告，单击&#x200B;**[!UICONTROL Attach Another Ad]**，然后重复该过程。
+             1. （可选）对于要附加的每个其他广告，单击&#x200B;**[!UICONTROL Attach Another Ad]**，然后重复该过程。
 
-            * 要一次最多添加20个广告，请执行以下操作：
+           * 要一次最多添加20个广告，请执行以下操作：
 
-               1. 选中广告列表上方的复选框。
+             1. 选中广告列表上方的复选框。
 
-               1. 选中要添加的每个广告旁边的复选框。
+             1. 选中要添加的每个广告旁边的复选框。
 
-               1. 单击&#x200B;**[!UICONTROL Attach]**。
+             1. 单击&#x200B;**[!UICONTROL Attach]**。
 
-               1. 在广告名称旁边，单击&#x200B;**[!UICONTROL Select]**。
+             1. 在广告名称旁边，单击&#x200B;**[!UICONTROL Select]**。
 
-         1. （可选）要覆盖投放位置中特定广告的默认投放期限和广告轮换，请执行以下操作：
+        1. （可选）要覆盖投放位置中特定广告的默认投放期限和广告轮换，请执行以下操作：
 
-            1. 单击&#x200B;**[!UICONTROL Custom Schedule Ads]**。
+           1. 单击&#x200B;**[!UICONTROL Custom Schedule Ads]**。
 
-            1. 执行以下任一操作：
+           1. 执行以下任一操作：
 
-               * 要添加航班，请单击&#x200B;**[!UICONTROL Add Flight]**，然后指定开始日期和结束日期。
+              * 要添加航班，请单击&#x200B;**[!UICONTROL Add Flight]**，然后指定开始日期和结束日期。
 
-               * 要将现有航班添加到广告，请单击航班列的广告行中的&#x200B;**[!UICONTROL +]**。
+              * 要将现有航班添加到广告，请单击航班列的广告行中的&#x200B;**[!UICONTROL +]**。
 
-               * 要从广告中删除现有航班，请单击航班列的广告行中的&#x200B;**[!UICONTROL x]**。
+              * 要从广告中删除现有航班，请单击航班列的广告行中的&#x200B;**[!UICONTROL x]**。
 
-               * （当多个广告具有相同的飞行时）要不均匀旋转广告，请在飞行信息中单击&#x200B;**[!UICONTROL Even Rotation]**，然后输入旋转每个广告的相对权重（百分比）。
+              * （当多个广告具有相同的飞行时）要不均匀旋转广告，请在飞行信息中单击&#x200B;**[!UICONTROL Even Rotation]**，然后输入旋转每个广告的相对权重（百分比）。
 
-                 总重量必须等于100。
+                总重量必须等于100。
 
-            1. 单击右上角的&#x200B;**[!UICONTROL Continue]**。
+           1. 单击右上角的&#x200B;**[!UICONTROL Continue]**。
 
-            1. 查看航班详细信息，然后单击&#x200B;**[!UICONTROL Save & Finish]**。
+           1. 查看航班详细信息，然后单击&#x200B;**[!UICONTROL Save & Finish]**。
 
 >[!MORELIKETHIS]
 >
@@ -160,5 +166,5 @@ ht-degree: 0%
 >* [查看投放预测报告](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* 关于通用视频的[常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)
 >* [键盘快捷键](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [性能疑难解答](/help/dsp/optimization/troubleshooting-performance.md)
+>* [性能问题原因](/help/dsp/optimization/troubleshooting-performance.md)
 >* [视频：如何创建标准显示位置](https://video.tv.adobe.com/v/344997?captions=chi_hans)
