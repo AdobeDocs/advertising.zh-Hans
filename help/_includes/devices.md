@@ -1,13 +1,12 @@
 ---
 source-git-commit: 24aa1afe9611ca6ae46795c9bca2964e1d9c4f97
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '279'
 ht-degree: 0%
-
 ---
 # GGL和MS营销活动和广告组设置中的“设备”字段
 
-**[!UICONTROL Devices]：** （可选；不适用于[!DNL Google Ads]个性能最佳促销活动或[!DNL Microsoft Advertising]个视频或CTV视频广告）为不同的设备类型配置竞价调整，以关键词级别竞价的百分比表示。 例如，如果关键词级别的竞价为1美元，而智能手机的竞价调整为50%，则智能手机的竞价为1.50美元。 默认情况下，不输入任何值（竞价调整=0），所有设备都按关键字级别竞价进行竞价。
+**[!UICONTROL Devices]：** （可选；不适用于[!DNL Google Ads]个性能最佳促销活动或[!DNL Microsoft Advertising]个视频或CTV视频广告）为不同的设备类型配置竞价调整，以关键词级别竞价的百分比表示。 例如，如果关键词级别的竞价为1 USD，而智能手机的竞价调整为50%，则智能手机的竞价为1.50 USD。 默认情况下，不输入任何值（竞价调整=0），所有设备都按关键字级别竞价进行竞价。
 
 对于[!DNL Google Ads]，有效百分比可以包括–100（对于智能手机和平板电脑）（不为设备类型出价），以及从–90到900（对于所有设备类型）。
 
