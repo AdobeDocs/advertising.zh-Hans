@@ -1,9 +1,8 @@
 ---
 source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '140'
 ht-degree: 0%
-
 ---
 # GGL和MS Campaign设置、MS广告组设置以及MS多媒体和响应式广告设置中的“自定义参数”字段
 

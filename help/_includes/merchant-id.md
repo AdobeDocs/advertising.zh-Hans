@@ -3,7 +3,6 @@ source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 0%
-
 ---
 # 网格和ACM模板中GGL和MS购物营销活动设置中的商家ID字段字段
 
