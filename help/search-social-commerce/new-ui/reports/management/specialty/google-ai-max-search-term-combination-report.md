@@ -17,7 +17,7 @@ ht-degree: 0%
 
   使用此工作表可以分析每个查询生成的广告元素的目的和性能，以便构建可靠的负面关键词列表。
 
-* <!-- [!UICONTROL Search Term x Conversion Action] sheet? -->[!UICONTROL AI Max Search Term #1]表：按每个搜索词和匹配类型的转换操作跟踪了[!DNL Google Ads]的转换数据。 每一行包括转换操作、转换次数、转换值，以及在报表设置中指定的任何其他可选的[!DNL Google Ads]跟踪的转换量度。 默认情况下，指定数据范围内每个搜索词和转换操作组合都包含一行。 这些行的顺序与第一页上的行的顺序相同。
+* &#x200B;<!-- [!UICONTROL Search Term x Conversion Action] sheet? -->[!UICONTROL AI Max Search Term #1]表：按每个搜索词和匹配类型的转换操作跟踪了[!DNL Google Ads]的转换数据。 每一行包括转换操作、转换次数、转换值，以及在报表设置中指定的任何其他可选的[!DNL Google Ads]跟踪的转换量度。 默认情况下，指定数据范围内每个搜索词和转换操作组合都包含一行。 这些行的顺序与第一页上的行的顺序相同。
 
   <!-- Should it be this?  The sheet includes the number of conversions and the conversion value, all conversions and the all conversions value, and cross-device conversions. -->
 
