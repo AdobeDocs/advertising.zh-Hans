@@ -3,13 +3,11 @@ title: （新用户界面）手动同步广告网络数据
 description: 了解如何从新UI手动触发受支持广告网络的营销活动结构和营销活动实体的同步。
 feature: Search Campaign Management
 exl-id: 5e857713-53f0-4d90-8b7a-18a3675d320e
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '368'
 ht-degree: 0%
-
 ---
-
 # （新用户界面）通过API连接手动同步广告网络数据
 
 <!-- EDIT ALL -- FROM LEGACY UI -->
@@ -26,23 +24,30 @@ Search、Social和Commerce每天与您的广告网络帐户自动同步（同步
 
 >[!NOTE]
 >
->每当[创建批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)时，您都可以选择在创建批量处理工作表之前与广告网络同步。
+>每当[创建批量处理工作表](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md)时，您都可以选择在创建批量处理工作表之前与广告网络同步。
 
-## 同步广告网络帐户中的营销活动
+## 同步广告网络帐户中的所有营销活动
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
-1. 选中帐户名旁边的复选框。
+1. 选中要同步的每个帐户名称旁边的复选框。
 
    <!-- As of 2/23, you can sync only one acct at a time:  Select the check box next to each account or campaign that you want to sync. You can sync up to 50 campaigns at a time. If you sync more than five accounts at a time, the job is broken into batches of up to five accounts each. -->
 
+1. 在批量操作工具栏中，单击&#x200B;**[!UICONTROL Sync]**。
+
+该作业可能需要一个小时或更长时间才能完成。
+
+## 从[!UICONTROL Campaigns]视图同步营销活动。
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Campaigns]**。
+
+1. 选中要同步的每个营销活动名称旁边的复选框。
+
 1. 在批量操作工具栏中，单击&#x200B;**[!UICONTROL ... More Actions]** > **[!UICONTROL Sync]**。
 
-   * 将光标放在帐户名称上，单击&#x200B;**...**，然后单击&#x200B;**[!UICONTROL Edit]**。
-
-您可以在[!UICONTROL Workspace]视图中跟踪同步作业的状态。 作业可能需要
-一小时或更长时间。
+该作业可能需要一个小时或更长时间才能完成。
 
 >[!MORELIKETHIS]
 >
->* [下载/创建批量处理工作表文件](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
+>* [下载/创建批量处理工作表文件](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md)

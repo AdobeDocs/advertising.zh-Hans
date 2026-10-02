@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
 workflow-type: tm+mt
 source-wordcount: '1676'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 广告组包括一组广告及其相关关键词。 在营销活动中定位显示网络的广告组还可以包括投放位置，投放位置是显示网络中广告可以出现的位置。 适用于广告组所有组件的广告组设置因广告网络而异。
 
-一旦您[使广告网络帐户可通过API连接访问](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)，并且Search、Social和Commerce已将帐户数据与广告网络同步，您即可为[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)创建广告组。 您还可以编辑和更改广告组的状态。
+一旦您[使广告网络帐户可通过API连接访问](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)，并且Search、Social和Commerce已将帐户数据与广告网络同步，您即可为[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)创建广告组。 您还可以编辑和更改广告组的状态。
 
 有关每个广告网络可用功能的详细信息，请参阅[支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)。
 
@@ -321,8 +321,8 @@ ht-degree: 0%
 >
 >* [管理搜索竞价单位的约束](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [管理营销活动的限制分配](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
->* [管理关键字的约束分配](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
->* [管理投放位置的约束分配](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
+>* [管理关键字的约束分配](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
+>* [管理投放位置的约束分配](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
 >* [（旧版UI）从营销活动管理视图下载数据](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [（旧版UI）从[!UICONTROL Downloads]菜单删除性能数据报告或批量处理工作表文件](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [[!DNL Baidu] 广告组设置](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)

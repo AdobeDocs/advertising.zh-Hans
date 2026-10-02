@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: 657d5a874dd41259621bcf87fe750223bb77ca00
 workflow-type: tm+mt
-source-wordcount: '2396'
+source-wordcount: '2395'
 ht-degree: 2%
 ---
 # Advertising 搜索、社交和 Commerce 指南 {#search-social-commerce}
@@ -75,32 +75,6 @@ ht-degree: 2%
   + 仪表板 {#dashboard}
     + [查看您的性能仪表板](/help/search-social-commerce/new-ui/dashboard/dashboard-overview.md)
     + [支持发布者推荐和见解](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
-  + 目标 {#goals}
-    + 目标 {#objectives}
-      + [关于目标](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
-      + [创建目标](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md)
-      + [编辑目标](/help/search-social-commerce/new-ui/goals/objectives/objective-edit.md)
-      + [删除目标](/help/search-social-commerce/new-ui/goals/objectives/objective-delete.md)
-      + [将权重推荐应用于目标](/help/search-social-commerce/new-ui/goals/objectives/objective-apply-weight-recommendations.md)
-      + [下载目标的性能指标](/help/search-social-commerce/new-ui/goals/objectives/objective-download-performance-data.md)
-      + [目标设置](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
-      + [允许将目标上传到广告网络](/help/search-social-commerce/new-ui/goals/objectives/objective-upload-to-networks.md)
-    + 转化 {#conversions}
-      + [用于管理转化量度的可用功能](/help/search-social-commerce/new-ui/goals/conversions/conversions-about.md)
-      + [生成并实施Adobe Advertising转化跟踪标记](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
-      + [管理广告商的转化量度](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
-      + 增强的转化 {#enhanced-conversions}
-        + [为潜在客户的 [!DNL Google Ads] 增强型转化创建转化操作](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
-        + [上载离线转化数据以增强转化](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
-    + [管理 [!DNL Google Ads] 转化值规则](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
-    + [管理搜索竞价单位的限制](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
-  + 计划 {#plan}
-    + 模拟 {#simulations}
-      + [关于模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
-      + [运行或重新运行自定义模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
-      + [查看模拟详细信息](/help/search-social-commerce/new-ui/plan/simulations/simulation-view.md)
-      + [下载模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
-    + [使用[!UICONTROL Spend Planner]](/help/search-social-commerce/new-ui/plan/spend-planner.md)
   + 管理 {#manage}
     + 项目组合 {#portfolios}
       + [关于项目组合](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md)
@@ -117,8 +91,17 @@ ht-degree: 2%
       + [查看项目组合绩效详细信息](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
       + [查看项目组合的更改历史记录](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
       + [从[!UICONTROL Portfolios]视图管理数据视图报告](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
+    + 帐户 {#accounts}
+      + [关于广告网络帐户](/help/search-social-commerce/new-ui/manage/accounts/ad-network-account-about.md)
+      + API连接帐户 {#api}
+        + [通过API连接管理广告网络帐户](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)
+        + [通过API连接手动同步广告网络数据](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/sync-api-accounts.md)
+      + 数据上传帐户 {#data-upload}
+        + [管理用于数据上传的广告网络帐户](/help/search-social-commerce/new-ui/manage/accounts/data-upload-accounts/data-upload-account-manage.md)
+      + [仅管理 [!DNL Naver] 帐户以进行跟踪](/help/search-social-commerce/new-ui/manage/accounts/template-account-manage.md)
     + 营销活动 {#campaigns}
       + [管理营销活动](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)
+      + [复制 [!DNL Microsoft Advertising]中的 [!DNL Google Ads] 营销活动](/help/search-social-commerce/new-ui/manage/campaigns/google-campaign-replication-in-microsoft.md)
       + 按广告网络列出的Campaign设置 {#campaign-settings-by-network}
         + [[!DNL Baidu]营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
         + [[!DNL Google Ads]营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
@@ -145,13 +128,17 @@ ht-degree: 2%
         + [[!DNL Microsoft Advertising]个响应式（受众）广告设置](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-responsive.md)
         + [[!DNL Microsoft Advertising]响应式搜索广告设置](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-rsa.md)
         + [[!DNL Yandex]文本广告设置](/help/search-social-commerce/new-ui/manage/ads/ad-settings-yandex-text.md)
+    + 关键字 {#keywords}
+      + [关于[!UICONTROL Keywords]视图](/help/search-social-commerce/new-ui/manage/keywords/keyword-view-about.md)
+      + [管理关键字的约束分配](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
+    + [管理购物产品组](/help/search-social-commerce/new-ui/manage/product-groups-manage.md)
   + 报告 {#reports}
     + 计划报表 {#scheduled}
       + [关于计划报告](/help/search-social-commerce/new-ui/reports/report-about.md)
       + [报告的初始设置任务](/help/search-social-commerce/new-ui/reports/initial-setup.md)
       + [用于报表的数据](/help/search-social-commerce/new-ui/reports/data-used-for-reports.md)
       + [管理计划报表](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
-      + 计划报表类型 {#report-types}
+      + 报表类型 {#report-types}
         + 基本和高级报告 {#basic-advanced-reports}
           + [关于基本报表和高级报表](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-about.md)
           + 基本报表格式 {#basic-report-formats}
@@ -217,29 +204,14 @@ ht-degree: 2%
       + [关于自定义报表的常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
     + [管理电子表格报表源](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
     + [查看更改历史记录日志](/help/search-social-commerce/new-ui/reports/history-logs.md)
-    + [管理标签分类](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
-  + Target {#target}
-    + 关键字 {#keywords}
-      + [关于[!UICONTROL Keywords]视图](/help/search-social-commerce/new-ui/target/keywords/keyword-view-about.md)
-      + [管理关键字的约束分配](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
-    + 版面 {#placements}
-      + [关于[!UICONTROL Placements]视图](/help/search-social-commerce/new-ui/target/placements/placement-view-about.md)
-      + [管理投放位置的限制分配](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
-    + [管理 [!DNL Google Ads] 动态搜索目标](/help/search-social-commerce/new-ui/target/dynamic-search-target-manage.md)
-  + 资源 {#assets}
-    + [查看和创建创意资产](/help/search-social-commerce/new-ui/assets/creative-asset-manage.md)
-    + [管理购物产品组](/help/search-social-commerce/new-ui/assets/product-groups-manage.md)
+  + 计划 {#plan}
+    + 模拟 {#simulations}
+      + [关于模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
+      + [运行或重新运行自定义模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
+      + [查看模拟详细信息](/help/search-social-commerce/new-ui/plan/simulations/simulation-view.md)
+      + [下载模拟](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
+    + [使用[!UICONTROL Spend Planner]](/help/search-social-commerce/new-ui/plan/spend-planner.md)
   + 设置 {#setup}
-    + 帐户 {#accounts}
-      + [关于广告网络帐户](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)
-      + API连接帐户 {#api}
-        + [通过API连接管理广告网络帐户](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
-        + [管理 [!DNL Google Ads] 经理帐户的凭据](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)
-        + [通过API连接手动同步广告网络数据](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/sync-api-accounts.md)
-      + 数据上传帐户 {#data-upload}
-        + [管理用于数据上传的广告网络帐户](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
-      + [仅管理 [!DNL Naver] 帐户以进行跟踪](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
-    + [复制 [!DNL Microsoft Advertising]中的 [!DNL Google Ads] 营销活动](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md)
     + 批量工作表 {#bulksheets}
       + [关于使用批量处理工作表管理营销活动数据](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)
       + [设置用于上传批量工作表的FTP帐户](/help/search-social-commerce/new-ui/set-up/bulksheets/ftp-account.md)
@@ -251,6 +223,34 @@ ht-degree: 2%
       + [批量处理工作表错误](/help/search-social-commerce/new-ui/set-up/bulksheets/errors.md)
       + [删除上传的批量工作表和错误文件](/help/search-social-commerce/new-ui/set-up/bulksheets/delete.md)
       + [停止正在进行的批量处理工作表作业](/help/search-social-commerce/new-ui/set-up/bulksheets/stop-job.md)
+    + [管理标签分类](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)
+    + [管理 [!DNL Google Ads] 经理帐户的凭据](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
+  + 目标 {#goals}
+    + 目标 {#objectives}
+      + [关于目标](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
+      + [创建目标](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md)
+      + [编辑目标](/help/search-social-commerce/new-ui/goals/objectives/objective-edit.md)
+      + [删除目标](/help/search-social-commerce/new-ui/goals/objectives/objective-delete.md)
+      + [将权重推荐应用于目标](/help/search-social-commerce/new-ui/goals/objectives/objective-apply-weight-recommendations.md)
+      + [下载目标的性能指标](/help/search-social-commerce/new-ui/goals/objectives/objective-download-performance-data.md)
+      + [目标设置](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
+      + [允许将目标上传到广告网络](/help/search-social-commerce/new-ui/goals/objectives/objective-upload-to-networks.md)
+    + 转化 {#conversions}
+      + [用于管理转化量度的可用功能](/help/search-social-commerce/new-ui/goals/conversions/conversions-about.md)
+      + [生成并实施Adobe Advertising转化跟踪标记](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
+      + [管理广告商的转化量度](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+      + 增强的转化 {#enhanced-conversions}
+        + [为潜在客户的 [!DNL Google Ads] 增强型转化创建转化操作](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
+        + [上载离线转化数据以增强转化](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
+    + [管理 [!DNL Google Ads] 转化值规则](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
+    + [管理搜索竞价单位的限制](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
+  + 定位 {#targeting}
+    + [管理 [!DNL Google Ads] 动态搜索目标](/help/search-social-commerce/new-ui/targeting/dynamic-search-target-manage.md)
+    + 版面 {#placements}
+      + [关于[!UICONTROL Placements]视图](/help/search-social-commerce/new-ui/targeting/placements/placement-view-about.md)
+      + [管理投放位置的限制分配](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
+  + 库 {#library}
+    + [查看和创建创意资产](/help/search-social-commerce/new-ui/library/creative-asset-manage.md)
   + [管理自定义警报](/help/search-social-commerce/new-ui/alerts-manage.md)
   + [管理通知](/help/search-social-commerce/new-ui/notifications-manage.md)
   + [用户管理](/help/search-social-commerce/new-ui/user-administration.md)

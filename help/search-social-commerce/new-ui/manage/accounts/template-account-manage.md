@@ -1,15 +1,13 @@
 ---
-title: （新UI）仅管理 [!DNL Naver] 帐户以进行跟踪
-description: 了解如何在 [!DNL Naver] 帐户的新UI中设置和管理帐户详细信息。
+title: （新UI）仅管理[!DNL Naver]帐户以进行跟踪
+description: 了解如何在[!DNL Naver]帐户的新UI中设置和管理帐户详细信息。
 feature: Search Campaign Management
 exl-id: bc4be409-9935-448b-bfba-f93eb30bd5ca
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 0%
-
+source-wordcount: '491'
+ht-degree: 1%
 ---
-
 # （新UI）仅管理[!DNL Naver]帐户以进行跟踪
 
 *Beta功能*
@@ -26,7 +24,7 @@ ht-degree: 0%
 >
 >要在广告网络上创建实际的帐户，请转到广告网络的网站。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 1. 单击&#x200B;**[!UICONTROL Create Account]**。
 
@@ -48,7 +46,7 @@ ht-degree: 0%
 >
 >要编辑广告网络上的实际帐户，请转到广告网络的网站。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 1. 通过以下任一方式选择帐户：
 
@@ -73,7 +71,7 @@ ht-degree: 0%
 
 When you enable an ad network account, Search, Social, & Commerce synchronizes campaign data with the account (when supported) and pushes automated bids and/or campaign budgets for campaigns in portfolios. When you disable an ad network account, Search, Social, & Commerce stops all activity on the account. Data collected while the account was active is still stored, but the campaign management views and reports don't include data for the time period in which the account is disabled. You can later re-enable the account to resume activity with the account.
 
-1. In the main menu, click **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. In the main menu, click **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Do either of the following:
 
@@ -126,4 +124,4 @@ When you enable an ad network account, Search, Social, & Commerce synchronizes c
 >[!MORELIKETHIS]
 >
 >* [实施 [!DNL Naver] 仅跟踪帐户](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
->* [关于广告网络帐户](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)
+>* [关于广告网络帐户](/help/search-social-commerce/new-ui/manage/accounts/ad-network-account-about.md)

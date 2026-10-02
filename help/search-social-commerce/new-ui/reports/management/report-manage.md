@@ -2,18 +2,16 @@
 title: 管理计划报表
 description: 了解如何管理计划报表。
 feature: Search Reports, Search Basic Reports, Search Advanced Reports, Search Assist Reports, Search Model Accuracy Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
-
 ---
-
 # 管理计划报表
 
 性能报告允许您在任意精细的级别跟踪和管理项目组合、广告网络和广告网络帐户实体的性能。 通过大多数报表，可以全面了解每个营销渠道中的广告对整体转化率的贡献情况。
 
-每次运行报表时，都会动态编译报表数据。 您可以选择从现有报表生成新报表。 可用的报告参数因报告类型而异。 对于大多数报表，您可以选择预览前50行，而不是生成整个报表。 生成报告时，您可以在报告完成时发送包含一个或多个电子邮件地址下载链接的通知，收件人可以在[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/notifications/notification-about.md)中管理通知。
+每次运行报表时，都会动态编译报表数据。 您可以选择从现有报表生成新报表。 可用的报告参数因报告类型而异。 对于大多数报表，您可以选择预览前50行，而不是生成整个报表。 生成报告时，您可以在报告完成时发送包含一个或多个电子邮件地址下载链接的通知，收件人可以在[!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/notifications/notification-about.md)中管理通知。
 
 所有完成的报表都位于[!UICONTROL Reports]视图的[!UICONTROL Latest Reports]部分，您可以在浏览器窗口中以表格式查看它们，或者以文件形式打开或下载它们。
 
@@ -39,9 +37,9 @@ ht-degree: 0%
 
 * 使用[电子表格馈送](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)，使用每日性能数据继续刷新您的自定义电子表格模板。
 
-## [!UICONTROL Scheduled Reports]次查看
+## [!UICONTROL Reports]次查看
 
-[!UICONTROL Reports] > [!UICONTROL Scheduled Reports]视图允许您创建和管理报告和报告模板：
+[!UICONTROL Reports] > [!UICONTROL Reports]视图允许您创建和管理报告和报告模板：
 
 * **[!UICONTROL Latest Reports]**&#x200B;选项卡列出了所有可供您使用的报告<!-- Doesn't seem to be true: that were requested in the last seven days -->，手动删除的报告除外，默认情况下最新报告位于顶部。 每个报表显示的信息包括运行计划（如果适用）、生成或将生成数据的开始和结束日期、创建报表的人员以及报表状态（*[!UICONTROL Finished]*、*[!UICONTROL In Progress]*&#x200B;或&#x200B;*[!UICONTROL Error]*）。
 
@@ -59,14 +57,14 @@ ht-degree: 0%
 | ---- | ---- |
 | 性能监控 | <ul><li>[该[!UICONTROL Portfolio Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/portfolio-report.md)</li><li>[该[!UICONTROL Search Engine Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-report.md)</li><li>[该[!UICONTROL Search Engine Account Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-account-report.md)</li><li>[该[!UICONTROL Campaign Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-report.md)</li><li>[该[!UICONTROL Ad Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-group-report.md)</li><li>[该[!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-report.md)</li></ul> |
 | 性能故障排除和趋势分析 | <ul><li>[该[!UICONTROL Keyword Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/keyword-report.md)</li><li>[该[!UICONTROL Ad Variation Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-variation-report.md)</li><li>[该[!UICONTROL Transaction Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/transaction-report.md)</li><li>[该[!UICONTROL RSA Asset Report]](/help/search-social-commerce/new-ui/reports/management/specialty/rsa-asset-report.md)</li><li>[该[!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/keyword-daily-impression-share-report.md)和[该[!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/campaign-daily-impression-share-report.md)</li><li>使用“[!UICONTROL Compare with]”功能比较两个时间窗口的任何基本报告</li></ul> |
-| 识别业务增长机会 | <ul><li>（仅具有Adobe Advertising转化跟踪的广告商） [该[!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>（仅具有Adobe Advertising转化跟踪的广告商） [该[!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>（具有[Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hans)的广告商）Adobe Analytics Analysis Workspace中的自定义报表</li></ul> |
-| 分析 | <ul><li>（仅具有Adobe Advertising转化跟踪的广告商） [该[!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>（具有[Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hans)的广告商）Adobe Analytics Analysis Workspace中的自定义报表</li></ul> |
+| 识别业务增长机会 | <ul><li>（仅具有Adobe Advertising转化跟踪的广告商） [该[!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>（仅具有Adobe Advertising转化跟踪的广告商） [该[!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>（具有[Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)的广告商）Adobe Analytics Analysis Workspace中的自定义报表</li></ul> |
+| 分析 | <ul><li>（仅具有Adobe Advertising转化跟踪的广告商） [该[!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>（具有[Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)的广告商）Adobe Analytics Analysis Workspace中的自定义报表</li></ul> |
 
 ## 生成报表
 
 ### 生成新报告
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Reports]>[!UICONTROL Reports]**。
 
 1. 单击&#x200B;**[!UICONTROL Create Report]**，单击左侧面板中的报表类别，然后选择报表类型。<!-- Add link to list of report categories and report types --> 单击&#x200B;**[!UICONTROL Proceed]**。
 
@@ -96,7 +94,7 @@ ht-degree: 0%
 
 ### 从现有报表生成报表
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**，这将打开到&#x200B;**[!UICONTROL Latest Reports]**&#x200B;选项卡。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Reports]>[!UICONTROL Reports]**，这将打开到&#x200B;**[!UICONTROL Latest Reports]**&#x200B;选项卡。
 
 1. 执行以下任一操作：
 
@@ -110,7 +108,7 @@ ht-degree: 0%
 
 ### 从现有模板生成报告
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Reports]>[!UICONTROL Reports]**。
 
 1. 单击&#x200B;**[!UICONTROL Templates]**&#x200B;选项卡。
 
@@ -136,45 +134,45 @@ ht-degree: 0%
 >
 >Adobe客户团队成员和某些管理员用户可以查看由广告商和代理机构用户创建的报告。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**，这将打开到&#x200B;**[!UICONTROL Latest Reports]**&#x200B;选项卡。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Reports]>[!UICONTROL Reports]**，这将打开到&#x200B;**[!UICONTROL Latest Reports]**&#x200B;选项卡。
 
 1. 执行以下任一操作：
 
    * （要在Web浏览器中查看报表）执行以下任一操作：
 
-      * 将光标悬停在模板行上，然后单击&#x200B;**...** > **[!UICONTROL Preview]**。
+     * 将光标悬停在模板行上，然后单击&#x200B;**...** > **[!UICONTROL Preview]**。
 
-      * 选中现有模板旁边的复选框。 在批量操作工具栏中，单击&#x200B;**[!UICONTROL Preview]**。
+     * 选中现有模板旁边的复选框。 在批量操作工具栏中，单击&#x200B;**[!UICONTROL Preview]**。
 
    * （在文件中打开或保存报告数据）在报告名称旁边的[!UICONTROL Export]列中，单击格式的名称，然后按照浏览器的正常过程打开或保存文件：
 
-      * **[!UICONTROL XLS]：**&#x200B;对于具有单个工作表（XLSX格式）的[!DNL Excel]工作簿。 此报表包括一个位于顶部且带有参数标签的工作表，在该组件的数据可用时每个组件均报告一行。 省略没有数据的行。
+     * **[!UICONTROL XLS]：**&#x200B;对于具有单个工作表（XLSX格式）的[!DNL Excel]工作簿。 此报表包括一个位于顶部且带有参数标签的工作表，在该组件的数据可用时每个组件均报告一行。 省略没有数据的行。
 
-        基本报表包括每个数值列的合计。
+       基本报表包括每个数值列的合计。
 
-      * **[!UICONTROL TSV]：**&#x200B;用于TSV文件。 该报表包括参数以及所报告的每个组件所对应的行。
+     * **[!UICONTROL TSV]：**&#x200B;用于TSV文件。 该报表包括参数以及所报告的每个组件所对应的行。
 
-      * **[!UICONTROL CSV]：**&#x200B;用于CSV文件。 该报表包括参数以及所报告的每个组件所对应的行。
+     * **[!UICONTROL CSV]：**&#x200B;用于CSV文件。 该报表包括参数以及所报告的每个组件所对应的行。
 
 ## 删除报表
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**，这将打开到&#x200B;**[!UICONTROL Latest Reports]**&#x200B;选项卡。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Reports]>[!UICONTROL Reports]**，这将打开到&#x200B;**[!UICONTROL Latest Reports]**&#x200B;选项卡。
 
 1. 执行以下任一操作：
 
    * （要删除单个报表，请执行以下操作）：
 
-      1. 将光标悬停在报告行上，然后单击&#x200B;**...** > **[!UICONTROL Run]**。
+     1. 将光标悬停在报告行上，然后单击&#x200B;**...** > **[!UICONTROL Run]**。
 
-      1. 在确认消息中，单击&#x200B;**[!UICONTROL Confirm]**。
+     1. 在确认消息中，单击&#x200B;**[!UICONTROL Confirm]**。
 
    * （要删除一个或多个报表）：
 
-      1. 选中要删除的每个报告旁边的复选框。
+     1. 选中要删除的每个报告旁边的复选框。
 
-      1. 在批量操作工具栏中，单击[删除](/help/search-social-commerce/assets/delete-new.png "删除") **[!UICONTROL Delete]**。
+     1. 在批量操作工具栏中，单击[删除](/help/search-social-commerce/assets/delete-new.png "删除") **[!UICONTROL Delete]**。
 
-      1. 在确认消息中，单击&#x200B;**[!UICONTROL Confirm]**。
+     1. 在确认消息中，单击&#x200B;**[!UICONTROL Confirm]**。
 
 <!--
 

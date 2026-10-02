@@ -2,13 +2,11 @@
 title: （新UI）管理Google广告管理器帐户的凭据
 description: 了解如何在新的UI中为Google Ads管理器帐户设置和管理凭据。
 feature: Search Admin
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
-
 ---
-
 # （新UI）管理[!DNL Google Ads]经理帐户的凭据
 
 *Beta功能*

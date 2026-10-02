@@ -6,20 +6,24 @@ feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/k5NsG-RF8c7ELoid8lN3EMbBH8MoA0fUSRcYZnslzfo
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: Optimization
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 2136
+source-wordcount: '2136'
 ht-degree: 0%
-
 ---
-
 # 管理广告网络帐户
 
 以下说明用于创建和编辑广告网络帐户详细信息、刷新帐户的[!DNL oAuth]令牌以及禁用帐户。
@@ -30,7 +34,7 @@ ht-degree: 0%
 
 有关每个广告网络可用功能的详细信息，请参阅[支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)。
 
-有关在新UI中管理广告网络帐户的说明，请参阅“[（新UI）通过API连接管理广告网络帐户](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)”。
+有关在新UI中管理广告网络帐户的说明，请参阅“[（新UI）通过API连接管理广告网络帐户](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)”。
 
 ## 创建广告网络帐户详细信息 {#create-account}
 
@@ -139,11 +143,11 @@ ht-degree: 0%
 
    * （要更改一个或多个帐户的状态），请执行以下操作：
 
-      1. 选中每个帐户旁边的复选框。
+     1. 选中每个帐户旁边的复选框。
 
-         有关选择多行的提示，请参阅“[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)”。
+        有关选择多行的提示，请参阅“[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)”。
 
-      1. 在数据表上方的工具栏中，单击![激活图标](/help/search-social-commerce/assets/activate.png "激活图标")以启用帐户，或单击![“禁用”图标](/help/search-social-commerce/assets/disable.png "“禁用”图标")以禁用帐户。
+     1. 在数据表上方的工具栏中，单击![激活图标](/help/search-social-commerce/assets/activate.png "激活图标")以启用帐户，或单击![“禁用”图标](/help/search-social-commerce/assets/disable.png "“禁用”图标")以禁用帐户。
 
 ## 广告网络帐户设置 {#account-settings}
 
@@ -187,7 +191,7 @@ ht-degree: 0%
 
 示例： `param1=value1&param2=value2`
 
-使用Adobe Advertising点击跟踪的帐户必须在后缀中包含广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`；Google为`gclid`）。 具有Adobe Analytics集成的帐户必须使用AMO ID参数（以`s_kwcid`开头）。 如果该帐户具有服务器端AMO ID实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 查看 [!DNL Google Ads][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必需后缀格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的必需后缀格式。
+使用Adobe Advertising点击跟踪的帐户必须在后缀中包含广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`；Google为`gclid`）。 具有Adobe Analytics集成的帐户必须使用AMO ID参数（以`s_kwcid`开头）。 如果该帐户具有服务器端AMO ID实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 查看 [!DNL Google Ads]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必需后缀格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的必需后缀格式。
 
 >[!NOTE]
 >
@@ -205,9 +209,9 @@ ht-degree: 0%
 
 * 嵌入最终URL：
 
-   * （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）有关指示跟踪模板中最终URL的参数列表，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)中“可用的[!DNL ValueTrack]参数”部分中的（[!DNL Microsoft Advertising]仅限）[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799)或（[!DNL Google Ads]仅限）跟踪模板参数。
+  * （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）有关指示跟踪模板中最终URL的参数列表，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)中“可用的[!DNL ValueTrack]参数”部分中的（[!DNL Microsoft Advertising]仅限）[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799)或（[!DNL Google Ads]仅限）跟踪模板参数。
 
-   * （仅限[!DNL LY Ads]）使用参数`!{lpurl}`指示登陆页面URL。
+  * （仅限[!DNL LY Ads]）使用参数`!{lpurl}`指示登陆页面URL。
 
 * 您可以选择包含URL参数以及为营销活动定义的任何自定义参数，这些参数以&amp;号分隔，如`{lpurl}?matchtype={matchtype}&device={device}`。
 
@@ -261,7 +265,7 @@ ht-degree: 0%
 
 * **S_kwcid格式：** (现有[!DNL Google Ads]帐户适用于具有Adobe Advertising-Adobe Analytics集成且尚未迁移AMO ID (s_kwcid)的广告商)
 
-此帐户使用旧版的AMO ID跟踪代码格式，从而允许Adobe Advertising与Adobe Analytics共享该帐户的相关数据。 [最新格式](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#dimension-items)包含促销活动ID和广告组ID的参数，在Analytics中，要在促销活动和广告组级别准确报告效果最佳的[!DNL Google Ads]促销活动以及草稿和实验促销活动，必须使用这些参数：
+此帐户使用旧版的AMO ID跟踪代码格式，从而允许Adobe Advertising与Adobe Analytics共享该帐户的相关数据。 [最新格式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)包含促销活动ID和广告组ID的参数，在Analytics中，要在促销活动和广告组级别准确报告效果最佳的[!DNL Google Ads]促销活动以及草稿和实验促销活动，必须使用这些参数：
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

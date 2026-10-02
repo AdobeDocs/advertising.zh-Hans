@@ -2,13 +2,11 @@
 title: （新UI）在Microsoft Advertising中复制Google Ads营销活动
 description: 了解如何将Google Ads帐户中同步的促销活动直接导出到同步的Microsoft Advertising帐户。
 feature: Search Campaign Management
-source-git-commit: 75e264e213f60ae45c4f51f0a21352f690d6d699
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '987'
 ht-degree: 0%
-
 ---
-
 # （新UI）在[!DNL Microsoft Advertising]中复制[!DNL Google Ads]营销活动
 
 *Beta功能*
@@ -37,9 +35,11 @@ ht-degree: 0%
 
 查看从 [!DNL Google Ads] 营销活动[&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}导入的内容。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
 
-1. 单击&#x200B;**[!UICONTROL Import Campaigns]**。
+1. 在营销活动列表上方，单击&#x200B;**[!UICONTROL Import Campaigns]**。
+
+1. 单击&#x200B;**[!UICONTROL + Import Campaigns]**。
 
 1. 指定[导入设置](#campaign-import-settings)。
 
@@ -47,13 +47,15 @@ ht-degree: 0%
 
 1. 在摘要中查看您的选择，然后单击&#x200B;**[!UICONTROL Start Import]**。
 
-1. （可选）在[帐户](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)、[营销活动](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[广告组](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)或[广告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)设置中添加搜索、社交和Commerce跟踪。
+1. （可选）在[帐户](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)、[营销活动](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[广告组](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)或[广告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)设置中添加搜索、社交和Commerce跟踪。
 
 ## 编辑活动导入作业的计划设置
 
 查看从 [!DNL Google Ads] 营销活动[&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}导入的内容。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
+
+1. 在营销活动列表上方，单击&#x200B;**[!UICONTROL Import Campaigns]**。
 
 1. 在&#x200B;**[!UICONTROL List of Import Jobs]**&#x200B;选项卡上，单击导入作业的名称，然后单击&#x200B;**[!UICONTROL Edit]**。
 
@@ -65,13 +67,17 @@ ht-degree: 0%
 
 您可以列出所有导入作业，包括源[!DNL Google Ads]帐户、目标[!DNL Microsoft Advertising]帐户、导入时间或计划以及创建作业的用户。 如果多次运行导入作业（包括在定期计划的导入期间），则每次出现都将作为单独的作业列出。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
+
+1. 在营销活动列表上方，单击&#x200B;**[!UICONTROL Import Campaigns]**。
 
    默认情况下，该视图将打开到&#x200B;**[!UICONTROL List of Import Jobs]**&#x200B;选项卡。
 
 ## 运行活动导入作业
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
+
+1. 在营销活动列表上方，单击&#x200B;**[!UICONTROL Import Campaigns]**。
 
 1. 在&#x200B;**[!UICONTROL List of Import Jobs]**&#x200B;选项卡上，选中导入作业旁边的复选框，然后单击&#x200B;**[!UICONTROL Run Now]**。
 
@@ -79,7 +85,9 @@ ht-degree: 0%
 
 您可以列出所有已完成或失败的导入作业，包括开始时间、源[!DNL Google Ads]帐户、目标[!DNL Microsoft Advertising]帐户、创建作业的用户、成功和失败的操作数以及收到每个作业通知的任何电子邮件地址。 您可以查看有关每个作业发生的目标[!DNL Microsoft Advertising]帐户更改的更多详细信息，包括添加、同步、删除的项目数，以及帐户中每个实体级别（如营销活动或关键字）发生错误的项目数。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
+
+1. 在营销活动列表上方，单击&#x200B;**[!UICONTROL Import Campaigns]**。
 
 1. 单击&#x200B;**[!UICONTROL Import Logs]**&#x200B;选项卡。
 
@@ -131,4 +139,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [管理广告网络帐户](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
+>* [管理广告网络帐户](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)

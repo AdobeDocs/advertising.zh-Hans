@@ -1,28 +1,30 @@
 ---
 title: 查看和创建创意资产
-description: 了解如何为 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 帐户级别的资产库查看和创建可重用的图像、视频和文本资产。
+description: 了解如何为[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户级别的资产库查看和创建可重用的图像、视频和文本资产。
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47301d06bc2a06c2601107abd988e787114e36bb
+    internal-label: User
+source-git-commit: 657d5a874dd41259621bcf87fe750223bb77ca00
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: '494'
 ht-degree: 0%
-
 ---
-
 
 # 查看和创建创意资产
 
 *仅用于[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户*
 
-在[!UICONTROL Assets] > [!UICONTROL Creatives]中，您可以在[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户级别的资产库中查看所有可重用的图像、视频和（仅适用于[!DNL Google Ads]）文本资产。 该列表在启用了[!DNL AI Max]的营销活动中包括[!DNL Google Ads]广告组的AI生成的资源。
+在[!UICONTROL Library] > [!UICONTROL Creatives]中，您可以在[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户级别的资产库中查看所有可重用的图像、视频和（仅适用于[!DNL Google Ads]）文本资产。 该列表在启用了[!DNL AI Max]的营销活动中包括[!DNL Google Ads]广告组的AI生成的资源。
 
 您可以为广告网络帐户手动创建新资产，并将其上传到广告网络。 <!-- Verify if you can use the AI-generated ones -->您可以将任何上传的资源用于效果最佳的营销活动。
 
@@ -30,7 +32,7 @@ ht-degree: 0%
 
 ## 查看您的创意资源
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Assets]>[!UICONTROL Creatives]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Library]>[!UICONTROL Creatives]**。
 
 1. 在工具栏中，选择广告网络和帐户。
 
@@ -42,7 +44,7 @@ ht-degree: 0%
 
 ## 创建和上传资源
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Assets]>[!UICONTROL Creatives]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Library]>[!UICONTROL Creatives]**。
 
 1. 在工具栏中，选择广告网络和帐户。
 
@@ -90,7 +92,7 @@ ht-degree: 0%
 
 已删除的文本资产将不再提供，但性能数据仍然在报表中可用。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Assets]>[!UICONTROL Creatives]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Library]>[!UICONTROL Creatives]**。
 
 1. 在工具栏中，选择广告网络和帐户。
 

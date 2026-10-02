@@ -1,19 +1,20 @@
 ---
-title: （新UI）管理 [!DNL Google Ads] 转化值规则
-description: 了解如何在Search、Social和Commerce中查看和管理 [!DNL Google Ads] 转化值规则。
+title: （新UI）管理[!DNL Google Ads]转化值规则
+description: 了解如何在Search、Social和Commerce中查看和管理[!DNL Google Ads]转化值规则。
 feature: Conversions
 feature_v2:
   - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: a2f79fa9-a8fe-4c1c-961e-75dc3c47f954
-source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
+    internal-label: Conversion value rules
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 1854
+source-wordcount: '1856'
 ht-degree: 0%
-
 ---
-
 # （新UI）管理[!DNL Google Ads]转化值规则
 
 *Beta功能*
@@ -30,7 +31,7 @@ Search、Social和Commerce会自动同步[!DNL Google Ads]帐户中的转化值�
 
 * 对于在个人帐户或营销活动级别跟踪转化的帐户，您可以[创建](#google-conversion-value-rule-create)、[编辑](#google-conversion-value-rule-edit)和[更改帐户级别和营销活动级别规则的状态](#google-conversion-value-rule-change-status)。
 
-  这些帐户可以链接到[[!DNL Google Ads] 经理帐户](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)，但它们不能使用跨帐户转化跟踪（针对此跟踪，将跨经理帐户中的所有帐户跟踪转化）。
+  这些帐户可以链接到[[!DNL Google Ads] 经理帐户](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)，但它们不能使用跨帐户转化跟踪（针对此跟踪，将跨经理帐户中的所有帐户跟踪转化）。
 
 * 在使用跨帐户转化跟踪的帐户中，帐户级别和营销活动级别的规则继承自经理帐户，并且是只读的。
 
@@ -40,7 +41,7 @@ Search、Social和Commerce会自动同步[!DNL Google Ads]帐户中的转化值�
 
 例如，假设目标使用单个转化量度“潜在客户”，并将来自移动设备的转化权重为10，将来自非移动设备的转化权重为10。 Search、Social和Commerce将任一设备类型的事件计为一(1)次转化，并将转化值计为10。 但是，假设该组合中的某个营销活动使用转化值规则“如果设备是移动设备，则乘以2。” 在跟踪该营销活动的移动潜在客户事件时，[!DNL Google Ads]还会将转化计数计为一(1)，但转化值会计为(10 x 2) = 20。
 
-要查看有关规则的更多信息，包括应用规则之前的原始转化值，请参阅 [!DNL Google Ads][&#128279;](https://support.google.com/google-ads/answer/10519848)中的转化值规则报告。
+要查看有关规则的更多信息，包括应用规则之前的原始转化值，请参阅 [!DNL Google Ads]&#x200B;[&#128279;](https://support.google.com/google-ads/answer/10519848)中的转化值规则报告。
 
 ## 创建[!DNL Google Ads]转化值规则 {#google-conversion-value-rule-create}
 

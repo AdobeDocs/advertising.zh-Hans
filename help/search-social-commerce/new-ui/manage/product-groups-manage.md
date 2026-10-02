@@ -4,25 +4,27 @@ description: 了解、创建、编辑和删除购物产品组，并引用Google 
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 2337
-ht-degree: 0%
-
+source-wordcount: '2386'
+ht-degree: 2%
 ---
-
 
 # 管理购物产品组
 
 仅&#x200B;*[!DNL Google Ads]和[!DNL Microsoft Advertising]购物营销活动*
 
-您可以在[!UICONTROL Product Groups]视图中（位于[!UICONTROL Assets] > [!UICONTROL Shopping]）创建和管理产品组。
+您可以在[!UICONTROL Manage] > [!UICONTROL Product Groups]视图中创建和管理产品组。
 
 您可以在[的[!UICONTROL Product Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/product-group-report.md)中查看有关产品组的数据。
 
@@ -69,7 +71,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Groups]视图
 
-位于[!UICONTROL Assets] > [!UICONTROL Shopping]视图的[!UICONTROL Product Groups]视图列出了所选广告商帐户的筛选视图中的所有产品组。 您还可以创建和管理产品组。
+[!UICONTROL Manage] > [!UICONTROL Product Groups]视图列出了所选广告商帐户的筛选视图中的所有产品组。 您还可以创建和管理产品组。
 
 ### 可用操作<!-- Go through all -->
 
@@ -103,7 +105,7 @@ ht-degree: 0%
 >
 >若要同时创建多个帐户组件，请使用[营销活动批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Assets]>[!UICONTROL Shopping]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Product Groups]**。
 
 1. 在数据表上方的工具栏中，单击&#x200B;**[!UICONTROL Create Product Group]**。
 
@@ -125,7 +127,7 @@ ht-degree: 0%
 >
 >您无法为“[!UICONTROL Everything Else]”产品组创建子产品组。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Assets]>[!UICONTROL Shopping]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Product Groups]**。
 
 1. （可选）要在树视图中查看产品组及其子产品组节点，请将光标悬停在产品组名称上，然后单击&#x200B;**[!UICONTROL ...]>[!UICONTROL Tree View]**。
 
@@ -139,7 +141,7 @@ ht-degree: 0%
 
 您可以编辑广告组中包含的单位产品组节点（不含子产品组节点的产品组）的竞价和跟踪模板。 不能编辑排除的部件产品组或已包括或已排除的分区节点的任何信息，这些子分区节点是具有子产品组节点的产品组。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Assets]>[!UICONTROL Shopping]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Product Groups]**。
 
 1. （可选）要在树视图中查看产品组及其子产品组节点，请将光标悬停在产品组名称上，然后单击&#x200B;**[!UICONTROL ...]>[!UICONTROL Tree View]**。
 
@@ -151,7 +153,7 @@ ht-degree: 0%
 
 ## 仅编辑产品组节点的[!UICONTROL Tracking Template] {#node-edit-tracking-template}
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Assets]>[!UICONTROL Shopping]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Product Groups]**。
 
 1. 将光标悬停在产品组名称上，然后单击&#x200B;**[!UICONTROL ...]>[!UICONTROL Tree View]**&#x200B;以在树视图中查看产品组及其子产品组节点。
 
@@ -161,7 +163,7 @@ ht-degree: 0%
 
 ## 仅编辑产品组节点的[!UICONTROL Max CPC] {#node-edit-maxcpc}
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Assets]>[!UICONTROL Shopping]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Product Groups]**。
 
 1. 将光标悬停在产品组名称上，然后单击&#x200B;**[!UICONTROL ...]>[!UICONTROL Tree View]**&#x200B;以在树视图中查看产品组及其子产品组节点。
 
@@ -173,7 +175,7 @@ ht-degree: 0%
 
 您可以删除任何产品组（当其他产品组位于同一级别时，除外“其他所有产品”组），该组用于确定您的商户中心帐户中的哪些产品包含在广告组的购物广告中。 删除产品组将删除所有子产品组。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Assets]>[!UICONTROL Shopping]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Product Groups]**。
 
 1. 将光标悬停在产品组名称上，然后单击&#x200B;**[!UICONTROL ...]>[!UICONTROL Tree View]**&#x200B;以在树视图中查看产品组及其子产品组节点。
 
@@ -183,7 +185,7 @@ ht-degree: 0%
 
 ## 将限制分配给所选产品组 {#constraint-assign}
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Assets]>[!UICONTROL Shopping]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Product Groups]**。
 
 1. 选中要为其分配单个约束的每个产品组旁边的复选框。
 
@@ -195,7 +197,7 @@ ht-degree: 0%
 
 ## 从所选产品组删除约束 {#constraint-unassign}
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Assets]>[!UICONTROL Shopping]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Product Groups]**。
 
 1. 选中要从中取消分配约束的每个产品组旁边的复选框。
 
@@ -209,7 +211,7 @@ ht-degree: 0%
 >
 >标签值由子实体继承，因此除非要覆盖继承的值，否则不要为子实体输入值。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Assets]>[!UICONTROL Shopping]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Product Groups]**。
 
 1. 选中要为其分配标签值的每个产品组旁边的复选框。
 
@@ -241,7 +243,7 @@ ht-degree: 0%
 
 删除分类值将删除与帐户组件及其所有子组件的关联。 分类值的报表数据不再可用于这些组件。 删除分类值不会删除该值，也不会删除帐户组件。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Assets]>[!UICONTROL Shopping]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Product Groups]**。
 
 1. 选中将从中删除标签值的每个产品组旁边的复选框。
 

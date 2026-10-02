@@ -2,13 +2,11 @@
 title: 管理标签分类
 description: 了解如何使用标签分类对帐户组件进行分组。
 feature: Search Label Classifications
-source-git-commit: 44f83bcf32d671ad96a420827d16d8f1ec39049e
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 0%
-
 ---
-
 # 管理标签分类
 
 标签分类可帮助您将帐户组件分组为有意义的集。 例如，您可以创建一个名为“地域”的父标签分类，为分类中的每个地理区域（例如“英国”和“日本”）创建不同的标签值，然后将标签值分配给您的[竞价单位](/help/search-social-commerce/glossary.md#a-b)或父促销活动。 然后，您可以将任何标签值作为单独的列包含在视图和报表中，并根据不同的分类组和值对报表进行子透视。
@@ -49,7 +47,7 @@ ht-degree: 0%
 
 <!-- Update links to bulksheet columns once I have new files/paths -->
 
-1. 单击&#x200B;**[!UICONTROL Reports]>[!UICONTROL Label Classifications]**。
+1. 单击&#x200B;**[!UICONTROL Setup]>[!UICONTROL Label Classifications]**。
 
 1. 单击右上角的&#x200B;**[!UICONTROL Create Classification]**。
 
@@ -69,7 +67,7 @@ ht-degree: 0%
 >
 >您为某些广告网络和促销活动类型创建的关键字和广告副本的时间是[不可变的](/help/search-social-commerce/campaign-management/faqs-campaigns.md)，这意味着编辑它们会删除现有实体并创建一个新实体。 以这种方式删除现有实体时，标签分类不会分配给新实体。
 
-1. 从&#x200B;**[!UICONTROL Manage]**&#x200B;或&#x200B;**[!UICONTROL Target]**&#x200B;菜单打开实体视图。
+1. 从&#x200B;**[!UICONTROL Manage]**&#x200B;或&#x200B;**[!UICONTROL Targeting]**&#x200B;菜单打开实体视图。
 
 1. 选中每个相关行旁边的复选框。
 
@@ -155,7 +153,7 @@ ht-degree: 0%
 >
 >若要从标签分类中删除值，请参阅&quot;[删除标签分类值](#classification-values-delete)&quot;。
 
-1. 从&#x200B;**[!UICONTROL Manage]**&#x200B;或&#x200B;**[!UICONTROL Target]**&#x200B;菜单打开实体视图。
+1. 从&#x200B;**[!UICONTROL Manage]**&#x200B;或&#x200B;**[!UICONTROL Targeting]**&#x200B;菜单打开实体视图。
 
 1. 选中每个相关行旁边的复选框。
 
@@ -177,7 +175,7 @@ ht-degree: 0%
 >
 >若要取消分类值与帐户组件的关联，请参阅“[从帐户组件中删除标签分类值](#classification-values-remove)”。
 
-1. 单击&#x200B;**[!UICONTROL Reports]>[!UICONTROL Label Classifications]**。
+1. 单击&#x200B;**[!UICONTROL Setup]>[!UICONTROL Label Classifications]**。
 
 1. 单击&#x200B;**[!UICONTROL Label Values]**&#x200B;选项卡。
 
@@ -201,7 +199,7 @@ ht-degree: 0%
 >
 >若要取消分类值与帐户组件的关联，请参阅“[从帐户组件中删除标签分类值](#classification-values-remove)”。
 
-1. 单击&#x200B;**[!UICONTROL Reports]>[!UICONTROL Label Classifications]**。
+1. 单击&#x200B;**[!UICONTROL Setup]>[!UICONTROL Label Classifications]**。
 
 1. （可选）筛选列表以包含特定的标签分类。
 

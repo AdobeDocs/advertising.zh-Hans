@@ -1,24 +1,26 @@
 ---
-title: 管理 [!DNL Google Ads] 动态搜索目标
-description: 了解如何创建和管理 [!DNL Google Ads] 动态搜索目标。
+title: 管理[!DNL Google Ads]动态搜索目标
+description: 了解如何创建和管理[!DNL Google Ads]动态搜索目标。
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
 TQID: 'https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 702
+source-wordcount: '705'
 ht-degree: 0%
-
 ---
-
 # 管理[!DNL Google Ads]动态搜索目标
 
 仅&#x200B;*[!DNL Google Ads]个帐户*
@@ -43,7 +45,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Auto Targets]视图
 
-[!UICONTROL Target] > [!UICONTROL Auto Targets]视图列出了所选广告商帐户的筛选视图中的所有动态搜索目标。 您还可以管理动态搜索目标。
+[!UICONTROL Targeting] > [!UICONTROL Auto Targets]视图列出了所选广告商帐户的筛选视图中的所有动态搜索目标。 您还可以管理动态搜索目标。
 
 ### 可用操作
 
@@ -178,7 +180,7 @@ You can also delete any dynamic target.
 
 ## 从新[!UICONTROL Auto Targets]视图为选定的动态搜索目标分配约束 {#constraint-assign}
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Target]>[!UICONTROL Auto Targets]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**。
 
 1. 选中要为其分配单个约束的每个动态搜索目标旁边的复选框。
 
@@ -190,7 +192,7 @@ You can also delete any dynamic target.
 
 ## 从新[!UICONTROL Auto Targets]视图中删除所选动态搜索目标的约束 {#constraint-unassign}
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Auto Targets]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**。
 
 1. 选中要从中取消分配约束的每个动态搜索目标旁边的复选框。
 
@@ -204,7 +206,7 @@ You can also delete any dynamic target.
 >
 >标签值由子实体继承，因此除非要覆盖继承的值，否则不要为子实体输入值。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Target]>[!UICONTROL Auto Targets]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**。
 
 1. 选中要为其分配标签值的每个动态搜索目标旁边的复选框。
 
@@ -236,7 +238,7 @@ You can also delete any dynamic target.
 
 删除分类值将删除与帐户组件及其所有子组件的关联。 分类值的报表数据不再可用于这些组件。 删除分类值不会删除该值，也不会删除帐户组件。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Target]>[!UICONTROL Auto Targets]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**。
 
 1. 选中将从中删除标签值的每个动态搜索目标旁边的复选框。
 
@@ -253,4 +255,4 @@ You can also delete any dynamic target.
 >[!MORELIKETHIS]
 >
 >* [（新UI）管理搜索竞价单位的约束](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [（新UI）管理标签分类](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
+>* [（新UI）管理标签分类](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)

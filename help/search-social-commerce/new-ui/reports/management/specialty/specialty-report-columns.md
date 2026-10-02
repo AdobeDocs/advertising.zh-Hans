@@ -2,13 +2,11 @@
 title: 专业报告的报告列
 description: 了解专业报告的可用数据列。
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 43b3d16233aec1fce0f3db092b9911717686f448
+source-git-commit: fb089f61670a2c0029ac7857db55df3b93f781de
 workflow-type: tm+mt
-source-wordcount: '3172'
-ht-degree: 0%
-
+source-wordcount: '3223'
+ht-degree: 1%
 ---
-
 # 专业报告的报告列
 
 | 列 | 描述 |
@@ -70,6 +68,7 @@ ht-degree: 0%
 | [!UICONTROL Content IS% (Google)] | （仅限[!DNL Google Ads]；[!UICONTROL Campaign Daily Impression Share Report]）您在显示/受众网络上收到的广告展示次数除以您有资格收到的预估展示次数。 10%以下的百分比表示为“`<10%`”，90%以上的百分比表示为“`>90%`”。 |
 | [!UICONTROL Content IS% Lost to Budget (Google)] | （仅限[!DNL Google Ads]；[!UICONTROL Campaign Daily Impression Share Report]）由于每日或每月预算太低，在显示/受众网络上的广告未收到的预计展示次数百分比。 10%以下的百分比表示为“`<10%`”，90%以上的百分比表示为“`>90%`”。 |
 | [!UICONTROL Content IS% Lost to Rank (Google)] | （仅限[!DNL Google Ads]； [!UICONTROL Campaign Daily Impression Share Report]）由于广告排名不佳，您的广告在显示/受众网络上未显示的预计展示次数百分比。 10%以下的百分比表示为“`<10%`”，90%以上的百分比表示为“`>90%`”。 |
+| [!UICONTROL Conversion Actions] | （[!UICONTROL Google AI Max Search Term Combination]个报告）导致转化的转化操作。 |
 | [!UICONTROL Conversion Rate] | 转化次数除以点击总数。 |
 | [!UICONTROL Conversion Type] | 在广告商网站上跟踪的用户定义转化类型。 |
 | [!UICONTROL Conversions] | （[!UICONTROL Google AI Max Search Term Combination]、[!UICONTROL Google Asset Group Performance]和[!UICONTROL MSA Ad Extension]报告）指定时段的转化总数。 对于[!UICONTROL MSA Ad Extension]报表，这是导致销售或其他成功衡量标准的点击次数。 对于[!UICONTROL Google AI Max Search Term Combination]报表，这是启用了“包含在转化中”的转化操作中的转化总数 |

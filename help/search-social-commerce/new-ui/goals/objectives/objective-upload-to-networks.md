@@ -3,13 +3,11 @@ title: （新UI）启用将目标上传到广告网络
 description: 了解如何将混合项目组合的目标上传到Google Ads和Microsoft Advertising。
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
-
 ---
-
 # （新UI）启用将目标上传到广告网络
 
 *Beta功能*
@@ -42,7 +40,7 @@ Search、Social和Commerce可以将广告商帐户组合的目标上传到[!DNL 
 
 1. (在欧洲经济区(EEA)或英国(UK)开展业务且拥有[!DNL Google Ads]帐户的广告商；可选)如果您已向EEA和英国用户收集同意以将其数据上传用于广告，请选中复选框。 这会将同意状态作为&#x200B;**[!UICONTROL GRANTED]**&#x200B;发送给[!DNL Google Ads]和[!DNL Microsoft Advertising]。 如果未选中该复选框，则同意状态将作为&#x200B;**[!UICONTROL UNSPECIFIED]**&#x200B;发送。
 
-1. （如果在经理帐户级别跟踪您的转化）[在保存之前添加经理帐户的凭据](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)。
+1. （如果在经理帐户级别跟踪您的转化）[在保存之前添加经理帐户的凭据](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)。
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
@@ -79,7 +77,7 @@ GGL_Lead未包含在计算/上传中，因为它是[!DNL Google Ads]跟踪的量
 
 * ([!DNL Google Ads])检查是否应将转化上传到帐户或经理级别。 如果应在经理级别上传它们：
 
-  * 检查是否提供了[!DNL Google Ads]经理帐户的凭据。 如有必要，[添加经理帐户](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)的凭据。
+  * 检查是否提供了[!DNL Google Ads]经理帐户的凭据。 如有必要，[添加经理帐户](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)的凭据。
 
   * 检查广告网络帐户是否已包含相同的量度名称。 如果是，请重命名该量度，以便创建正确的管理员级别属性。
 
@@ -89,7 +87,7 @@ GGL_Lead未包含在计算/上传中，因为它是[!DNL Google Ads]跟踪的量
 >
 >* [关于目标](objective-about.md)
 >* [管理广告商的转化量度](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
->* [管理 [!DNL Google Ads] 经理帐户的凭据](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)
+>* [管理 [!DNL Google Ads] 经理帐户的凭据](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 
 <!--
 I don't see this yet in new UI:

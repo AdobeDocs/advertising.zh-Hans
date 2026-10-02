@@ -3,13 +3,11 @@ title: 配置用于数据上载的广告网络帐户
 description: 了解如何设置和管理广告网络帐户的帐户详细信息。
 feature: Search Campaign Management
 exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
-source-git-commit: 0305fde5c3448899c8ab8d45777a7bc4ed7089ce
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '551'
 ht-degree: 0%
-
 ---
-
 # 管理用于数据上传的广告网络帐户
 
 <!-- Edit all, including title and metadata -->
@@ -20,9 +18,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->有关管理使用广告网络的API进行搜索、社交和Commerce同步的广告网络帐户的帐户详细信息的说明，请参阅“通过API连接管理广告网络帐户[”。](../api-accounts/api-account-manage.md)
+>有关管理使用广告网络的API进行搜索、社交和Commerce同步的广告网络帐户的帐户详细信息的说明，请参阅“通过API连接管理广告网络帐户[&#128279;](../api-accounts/api-account-manage.md)”。
 
 ## 创建帐户详细信息 {#create-account}
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 1. 单击&#x200B;**[!UICONTROL Create Account]**。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 编辑帐户详细信息 {#edit-account}
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 1. 通过以下任一方式选择帐户：
 
@@ -62,27 +62,27 @@ ht-degree: 0%
 
 ## 启用或禁用广告网络帐户 {#enable-disable-account}
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 1. 执行以下任一操作：
 
    * （从[!UICONTROL Accounts]视图）：
 
-      * （要启用帐户）选中帐户名称旁边的复选框，然后单击批量操作工具栏中的&#x200B;**[!UICONTROL Activate]**。
+     * （要启用帐户）选中帐户名称旁边的复选框，然后单击批量操作工具栏中的&#x200B;**[!UICONTROL Activate]**。
 
-      * （要禁用帐户）选中帐户名称旁边的复选框，然后单击批量操作工具栏中的&#x200B;**[!UICONTROL Pause]**。
+     * （要禁用帐户）选中帐户名称旁边的复选框，然后单击批量操作工具栏中的&#x200B;**[!UICONTROL Pause]**。
 
    * （从帐户设置）：
 
-      1. 通过以下任一方式选择帐户：
+     1. 通过以下任一方式选择帐户：
 
-         * 将光标放在帐户名称上，单击&#x200B;**...**，然后单击&#x200B;**[!UICONTROL Edit]**。
+        * 将光标放在帐户名称上，单击&#x200B;**...**，然后单击&#x200B;**[!UICONTROL Edit]**。
 
-         * 选中帐户名称旁边的复选框，然后单击批量操作工具栏中的&#x200B;**[!UICONTROL Edit]**。
+        * 选中帐户名称旁边的复选框，然后单击批量操作工具栏中的&#x200B;**[!UICONTROL Edit]**。
 
-      1. 在&#x200B;**[!UICONTROL Account Details]**&#x200B;选项卡上，关闭&#x200B;**[!UICONTROL Account enabled]**。
+     1. 在&#x200B;**[!UICONTROL Account Details]**&#x200B;选项卡上，关闭&#x200B;**[!UICONTROL Account enabled]**。
 
-      1. 单击&#x200B;**[!UICONTROL Save]**。
+     1. 单击&#x200B;**[!UICONTROL Save]**。
 
 ## 帐户设置 {#account-settings-upload}
 

@@ -3,13 +3,11 @@ title: （新UI）关于广告网络帐户
 description: 在新的Search、Social和Commerce UI中了解广告网络帐户。
 feature: Search Campaign Management
 exl-id: 62c69582-6b95-4ae3-b027-d1efc3deb39e
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
-
 ---
-
 # （新UI）关于广告网络帐户
 
 搜索、社交和Commerce可以在支持的广告网络上跟踪广告商的任何帐户。 要启用帐户跟踪，您必须创建相应的帐户记录。 您必须为任何类型的帐户设置帐户详细信息，无论Search、Social和Commerce是否与其同步，还是优化其广告的竞价和预算。
@@ -42,8 +40,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [通过API连接管理广告网络帐户](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
->* [管理用于数据上载的广告网络帐户](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
->* [仅管理 [!DNL Naver] 帐户以进行跟踪](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
+>* [通过API连接管理广告网络帐户](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)
+>* [管理用于数据上载的广告网络帐户](/help/search-social-commerce/new-ui/manage/accounts/data-upload-accounts/data-upload-account-manage.md)
+>* [仅管理 [!DNL Naver] 帐户以进行跟踪](/help/search-social-commerce/new-ui/manage/accounts/template-account-manage.md)
 >* [实施 [!DNL Naver] 仅跟踪帐户](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
 >* [管理商家中心帐户](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)

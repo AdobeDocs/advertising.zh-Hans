@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/xT4LpYXeTtuptPWK-HNQPylOzCFi1TT2FfbfEiuSJeo
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 337
+source-wordcount: '334'
 ht-degree: 0%
-
 ---
-
 # 从帐户组件中删除标签分类值
 
 删除分类值将删除与帐户组件及其所有子组件的关联。 分类值的报表数据不再可用于这些组件。 删除分类值不会删除该值，也不会删除帐户组件。
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 您可以从新UI中可用的任何适用帐户组件中删除分类值。
 
-1. 从&#x200B;**[!UICONTROL Manage]**&#x200B;或&#x200B;**[!UICONTROL Target]**&#x200B;菜单打开实体视图。
+1. 从&#x200B;**[!UICONTROL Manage]**&#x200B;或&#x200B;**[!UICONTROL Targeting]**&#x200B;菜单打开实体视图。
 
 1. 选中每个相关行旁边的复选框。
 
@@ -51,11 +51,11 @@ ht-degree: 0%
 
    * （要从一个或多个实体中删除值）请执行以下操作：
 
-      * 选中每行旁边的复选框。
+     * 选中每行旁边的复选框。
 
-        有关选择多行的提示，请参阅“[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)”。
+       有关选择多行的提示，请参阅“[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)”。
 
-      * 在数据表上方的工具栏中，单击![更多](/help/search-social-commerce/assets/more.png "更多")，然后单击&#x200B;**[!UICONTROL Classification]**。
+     * 在数据表上方的工具栏中，单击![更多](/help/search-social-commerce/assets/more.png "更多")，然后单击&#x200B;**[!UICONTROL Classification]**。
 
 1. 在[!UICONTROL Assignment Details]中选择&#x200B;**[!UICONTROL Remove]**。
 
