@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
 workflow-type: tm+mt
 source-wordcount: '2285'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 营销策划是广告网络帐户的主要组成部分。 对于大多数促销活动类型，它包含一组广告组或广告集。 促销活动设置包括促销活动预算参数、广告目标和促销活动中所有广告的可选跟踪参数。 营销活动级别的跟踪参数将覆盖帐户级别的参数，但跟踪参数本身可能会在较低的级别被覆盖。
 
-一旦您[使广告网络帐户可通过API连接访问](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)，并且Search、Social和Commerce已将该帐户数据与广告网络同步，您就可以使用[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)创建新的营销活动。 您还可以编辑和更改营销策划的状态。
+一旦您[使广告网络帐户可通过API连接访问](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)，并且Search、Social和Commerce已将该帐户数据与广告网络同步，您就可以使用[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)创建新的营销活动。 您还可以编辑和更改营销策划的状态。
 
 有关每个广告网络可用功能的详细信息，请参阅[支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)。
 
@@ -150,7 +150,7 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 
 将促销活动分配到优化的产品组合可让Search、Social和Commerce优化促销活动中关键词和广告的竞价、促销活动预算和竞价策略目标。 您可以在创建项目组合时，或编辑项目组合的设置，从[!UICONTROL Campaigns]视图将营销活动分配给项目组合。
 
-并非所有营销活动类型和广告网络都符合优化条件；请查看可包含在项目组合中的[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)列表。 此外，请验证每个营销活动竞价策略[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)的优化支持。
+并非所有营销活动类型和广告网络都符合优化条件；请查看可包含在项目组合中的[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)列表。 此外，请验证每个营销活动竞价策略](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)的[优化支持。
 
 >[!NOTE]
 >
@@ -424,8 +424,8 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 >
 >* [管理搜索竞价单位的约束](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [管理广告组的限制分配](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [管理关键字的约束分配](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
->* [管理投放位置的约束分配](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
+>* [管理关键字的约束分配](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
+>* [管理投放位置的约束分配](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
 >* [（旧版UI）从营销活动管理视图下载数据](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [（旧版UI）从[!UICONTROL Downloads]菜单删除性能数据报告或批量处理工作表文件](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [[!DNL Baidu] 营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)

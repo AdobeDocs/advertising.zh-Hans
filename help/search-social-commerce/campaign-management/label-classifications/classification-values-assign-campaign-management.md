@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/r08RxDrdXIkUP7ZJgw8x-g47m0Ioxjo9SySjg71-PkM
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 764
+source-wordcount: '767'
 ht-degree: 0%
-
 ---
-
 # 从营销活动管理视图将分类值分配给帐户组件
 
 您可以从营销活动管理视图中分配和移除以下搜索实体的分类值：营销活动、广告组、关键词、广告、投放位置、单位级别产品组和动态搜索目标。 如有必要，您可以在分配过程中创建分类和分类值。 每个标签分类最多可以具有2000个值。
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 您可以将分类值分配给新UI中可用的任何适用帐户组件。
 
-1. 从&#x200B;**[!UICONTROL Manage]**&#x200B;或&#x200B;**[!UICONTROL Target]**&#x200B;菜单打开实体视图。
+1. 从&#x200B;**[!UICONTROL Manage]**&#x200B;或&#x200B;**[!UICONTROL Targeting]**&#x200B;菜单打开实体视图。
 
 1. 选中每个相关行旁边的复选框。
 
@@ -69,11 +69,11 @@ ht-degree: 0%
 
    * （为一个或多个实体分配值）执行以下操作：
 
-      * 选中每个相关行旁边的复选框。
+     * 选中每个相关行旁边的复选框。
 
-        有关选择多行的提示，请参阅“[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)”。
+       有关选择多行的提示，请参阅“[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)”。
 
-      * 在数据表上方的工具栏中，单击![更多](/help/search-social-commerce/assets/more.png "更多")，然后单击&#x200B;**[!UICONTROL Classification]**。
+     * 在数据表上方的工具栏中，单击![更多](/help/search-social-commerce/assets/more.png "更多")，然后单击&#x200B;**[!UICONTROL Classification]**。
 
 1. 在[!UICONTROL Assignment Details]中，执行以下任一操作：
 

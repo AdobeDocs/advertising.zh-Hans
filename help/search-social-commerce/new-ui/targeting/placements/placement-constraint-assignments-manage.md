@@ -1,27 +1,15 @@
 ---
-title: 管理营销活动的限制分配
-description: 了解如何将限制分配给活动。
+title: 管理投放位置的限制分配
+description: 了解如何将限制分配给投放位置。
 feature: Search Optimization, Search Campaign Management
 hide: true
-exl-id: d886a228-24d7-4d8e-b68a-76e56b4304ed
-TQID: https://experienceleague.adobe.com/qwisQ3OqMeymlREsTVY-Wf59ln37hBLR0X4R7RjkuTM
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-    internal-label: Advertising
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-    internal-label: Search optimization
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
+exl-id: 325fb6b2-7f6f-41bc-bae7-9ee8590c6263
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '464'
 ht-degree: 0%
 ---
-# （新UI）管理活动的限制分配
+# （新UI）管理投放位置的限制分配
 
 *Beta功能*
 
@@ -36,13 +24,13 @@ ht-degree: 0%
 >* 如果您稍后编辑非可变广告的关键字或广告副本（从而创建新关键字或广告），则约束不会分配给新实体。
 >* 活动约束仅限制优化旧关键词级别项目组合中已分配竞价单位的竞价。 对于活跃项目组合中的竞价单位、混合项目组合中的竞价单位或不在项目组合中的竞价单位，它们将被忽略。
 
-## 从新[!UICONTROL Campaigns]视图为所选营销活动分配限制
+## 从新[!UICONTROL Placements]视图为所选投放位置分配约束
 
-您可以向一个或多个营销活动分配单个限制。
+可以将单个约束分配给一个或多个位置。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Targeting]>[!UICONTROL Placements]**。
 
-1. 选中要为其分配单个限制条件的每个营销活动旁边的复选框。
+1. 在&#x200B;**[!UICONTROL Placements]**&#x200B;选项卡上，选中要为其分配单个约束的每个投放位置旁边的复选框。
 
 1. 在批量操作工具栏中，单击&#x200B;**+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**。
 
@@ -70,11 +58,11 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
-## 从新[!UICONTROL Campaigns]视图中删除选定营销活动的限制
+## 从新[!UICONTROL Placements]视图中的选定投放位置删除约束
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Targeting]>[!UICONTROL Placements]**。
 
-1. 选中要从中取消分配约束的每个营销活动旁边的复选框。
+1. 在&#x200B;**[!UICONTROL Placements]**&#x200B;选项卡上，选中要从中取消分配约束的每个放置旁边的复选框。
 
 1. 在批量操作工具栏中，单击&#x200B;**-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**。
 
@@ -99,6 +87,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [（新UI）管理搜索竞价单位的约束](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
+>* [（新UI）管理营销活动的限制分配](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [（新UI）管理广告组的约束分配](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [（新UI）管理关键字](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)的约束分配
->* [（新UI）管理投放位置的约束分配](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)

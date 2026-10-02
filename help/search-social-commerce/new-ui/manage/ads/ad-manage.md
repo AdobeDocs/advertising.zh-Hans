@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1733'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 广告属于一个广告组，包含向用户显示的内容，例如标题、描述、图像或其他创意元素，具体取决于广告网络和广告类型。
 
-一旦您[使广告网络帐户可通过API连接访问](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)，并且Search、Social和Commerce已将帐户数据与广告网络同步，您即可为[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)创建广告。 您还可以编辑和更改广告的状态。
+一旦您[使广告网络帐户可通过API连接访问](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)，并且Search、Social和Commerce已将帐户数据与广告网络同步，您即可为[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)创建广告。 您还可以编辑和更改广告的状态。
 
 有关每个广告网络可用功能的详细信息，请参阅[支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)。
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Create]**。
 
-1. &#x200B;<!-- Add link to where to generate this once available to users-->（促销活动中的购物广告具有Adobe Advertising转化跟踪；可选）要跟踪广告的点击量，请手动将跟踪URL添加到帐户、促销活动或产品组设置。
+1. <!-- Add link to where to generate this once available to users-->（促销活动中的购物广告具有Adobe Advertising转化跟踪；可选）要跟踪广告的点击量，请手动将跟踪URL添加到帐户、促销活动或产品组设置。
 
 ## 重命名广告 {#ad-rename}
 

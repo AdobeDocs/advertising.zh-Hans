@@ -2,13 +2,11 @@
 title: （新UI）管理通知
 description: 了解如何查看、配置和管理搜索、社交和Commerce通知，包括推送通知和通知中心Web应用程序。
 feature: Search Notifications
-source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 0%
-
 ---
-
 # （新UI）管理通知
 
 *Beta功能*
@@ -45,57 +43,57 @@ ht-degree: 0%
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL Bulksheets]**： [批量工作表操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)已完成或失败的通知。<!-- Update link once file for new UI available-->
+  * **[!UICONTROL Bulksheets]**： [批量工作表操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)已完成或失败的通知。<!-- Update link once file for new UI available-->
 
-   * **[!UICONTROL Manager Account Missing]**： Search、Social和Commerce缺少[广告网络管理器帐户](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)的凭据的通知，这些凭据是正确设置关键功能所必需的。<!-- Moving to Campaign Management > Setup Errors at some point -->
+  * **[!UICONTROL Manager Account Missing]**： Search、Social和Commerce缺少[广告网络管理器帐户](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)的凭据的通知，这些凭据是正确设置关键功能所必需的。<!-- Moving to Campaign Management > Setup Errors at some point -->
 
-   * **[!UICONTROL UI Actions]**：关于在后台执行的作业已完成或失败的通知。 作业类型包括[批量工作表作业](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available-->、批量编辑数据表中的作业或使用工具栏、实体分配作业或用户界面中的其他操作（如与广告网络同步、粘贴行或重命名实体）。 实体分配包括向任何实体分配或取消分配[标签分类值](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)、向项目组合分配营销活动以及[向实体分配或取消分配竞价约束](/help/search-social-commerce/new-ui/goals/constraints-manage.md)。
+  * **[!UICONTROL UI Actions]**：关于在后台执行的作业已完成或失败的通知。 作业类型包括[批量工作表作业](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available-->、批量编辑数据表中的作业或使用工具栏、实体分配作业或用户界面中的其他操作（如与广告网络同步、粘贴行或重命名实体）。 实体分配包括向任何实体分配或取消分配[标签分类值](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)、向项目组合分配营销活动以及[向实体分配或取消分配竞价约束](/help/search-social-commerce/new-ui/goals/constraints-manage.md)。
 
-   * [!UICONTROL Data Upload]
+  * [!UICONTROL Data Upload]
 
-      * **[!UICONTROL Direct File Upload]**：通知已通过[手动帐户数据上传](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/upload-account-data.md)上传帐户数据文件或帐户数据上传失败。<!-- Verify description-->
+    * **[!UICONTROL Direct File Upload]**：通知已通过[手动帐户数据上传](/help/search-social-commerce/new-ui/manage/accounts/data-upload-accounts/upload-account-data.md)上传帐户数据文件或帐户数据上传失败。<!-- Verify description-->
 
-      * **[!UICONTROL File Upload to Cloud Storage]**：通知已通过[将帐户数据上传到 [!DNL Amazon] [!DNL S3]存储段](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/upload-account-data.md)上载帐户数据文件或帐户数据上传失败。<!-- Verify description-->
+    * **[!UICONTROL File Upload to Cloud Storage]**：通知已通过[将帐户数据上传到 [!DNL Amazon] [!DNL S3]存储段](/help/search-social-commerce/new-ui/manage/accounts/data-upload-accounts/upload-account-data.md)上载帐户数据文件或帐户数据上传失败。<!-- Verify description-->
 
-   * [!UICONTROL Network Errors]
+  * [!UICONTROL Network Errors]
 
-      * **[!UICONTROL Account Auth Error]**：通知Search、Social和Commerce无法访问[广告网络帐户](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)，因为凭据无效或授权令牌无效或过期。
+    * **[!UICONTROL Account Auth Error]**：通知Search、Social和Commerce无法访问[广告网络帐户](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)，因为凭据无效或授权令牌无效或过期。
 
-      * **[!UICONTROL Account Missing]**： Search、Social和Commerce缺少[广告网络帐户](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)的凭据的通知。
+    * **[!UICONTROL Account Missing]**： Search、Social和Commerce缺少[广告网络帐户](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)的凭据的通知。
 
-      * **[!UICONTROL Manager Account Auth Error]**：通知Search、Social和Commerce无法与[广告网络管理器帐户](/help/search-social-commerce/admin/manager-accounts.md)同步，因为凭据无效，或授权令牌无效或过期。<!-- Update link once file for new UI available-->
+    * **[!UICONTROL Manager Account Auth Error]**：通知Search、Social和Commerce无法与[广告网络管理器帐户](/help/search-social-commerce/admin/manager-accounts.md)同步，因为凭据无效，或授权令牌无效或过期。<!-- Update link once file for new UI available-->
 
 * [!UICONTROL Insights & Reports]
 
-   * **[!UICONTROL Advertising Insights]**： [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md)已完成或失败的通知。
+  * **[!UICONTROL Advertising Insights]**： [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md)已完成或失败的通知。
 
-   * **[!UICONTROL Custom Alerts]**：为警报模板触发了[警报实例](/help/search-social-commerce/new-ui/alerts-manage.md)的通知。
+  * **[!UICONTROL Custom Alerts]**：为警报模板触发了[警报实例](/help/search-social-commerce/new-ui/alerts-manage.md)的通知。
 
-   * **[!UICONTROL Spreadsheet Feeds]**： [电子表格馈送](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)完成或失败的通知。
+  * **[!UICONTROL Spreadsheet Feeds]**： [电子表格馈送](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)完成或失败的通知。
 
-   * [!UICONTROL Reports]
+  * [!UICONTROL Reports]
 
-      * **[!UICONTROL Grid Reports]**：有关特定视图的数据视图报告（例如[!UICONTROL Camapigns]视图中数据表的内容）已完成或失败的通知。
+    * **[!UICONTROL Grid Reports]**：有关特定视图的数据视图报告（例如[!UICONTROL Camapigns]视图中数据表的内容）已完成或失败的通知。
 
-      * **[!UICONTROL Reports]**： [自定义或计划报告](/help/search-social-commerce/new-ui/reports/management/report-manage.md)完成或失败的通知。
+    * **[!UICONTROL Reports]**： [自定义或计划报告](/help/search-social-commerce/new-ui/reports/management/report-manage.md)完成或失败的通知。
 
-   * [!UICONTROL Portfolio Management]
+  * [!UICONTROL Portfolio Management]
 
-      * **[!UICONTROL Intraday Optimization]**：禁用当天优化时的通知。
+    * **[!UICONTROL Intraday Optimization]**：禁用当天优化时的通知。
 
-      * **[!UICONTROL Simulation Report]**：有关[模拟作业](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)的通知。
+    * **[!UICONTROL Simulation Report]**：有关[模拟作业](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)的通知。
 
-      * [!UICONTROL Objective & Conversion Configuration]
+    * [!UICONTROL Objective & Conversion Configuration]
 
-         * **[!UICONTROL Auto Assign Campaign Conversion Goal - Advertiser Level]**：广告商级别有关成功和失败自动分配营销活动转化目标的通知。
+      * **[!UICONTROL Auto Assign Campaign Conversion Goal - Advertiser Level]**：广告商级别有关成功和失败自动分配营销活动转化目标的通知。
 
-         * **[!UICONTROL Auto Assign Campaign Conversion Goal - Portfolio Level]**：项目组合级别有关成功和失败自动分配营销活动转化目标的通知。
+      * **[!UICONTROL Auto Assign Campaign Conversion Goal - Portfolio Level]**：项目组合级别有关成功和失败自动分配营销活动转化目标的通知。
 
-      * [!UICONTROL Portfolios]
+    * [!UICONTROL Portfolios]
 
-         * **[!UICONTROL Portfolio Bulksheet Diagnostic Report]**：有关[项目组合通过批量处理工作表批量编辑作业的通知](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md)。
+      * **[!UICONTROL Portfolio Bulksheet Diagnostic Report]**：有关[项目组合通过批量处理工作表批量编辑作业的通知](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md)。
 
-         * **[!UICONTROL Portfolio Settings]**：有关[项目组合设置](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)更改的通知。
+      * **[!UICONTROL Portfolio Settings]**：有关[项目组合设置](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)更改的通知。
 
 <!--
 
@@ -192,9 +190,9 @@ In Campaign Management:
 
    * 要订阅或取消订阅通知，请移动[!UICONTROL Subscribe]列中的滑块：
 
-      * 要取消订阅所有通知类型，请将滑块向左移动（已禁用）。
+     * 要取消订阅所有通知类型，请将滑块向左移动（已禁用）。
 
-      * 要订阅一个或多个通知类型，请将滑块向右移动（已启用）。
+     * 要订阅一个或多个通知类型，请将滑块向右移动（已启用）。
 
    * （启用[!UICONTROL Subscribe]时）要订阅电子邮件通知，请选中&#x200B;**[!UICONTROL Email]**&#x200B;列中的复选框。
 
@@ -298,21 +296,21 @@ In Campaign Management:
 
 * 从Search、Social和Commerce中：
 
-   1. 单击任何页面右上角的![通知](/help/search-social-commerce/assets/notifications.png "通知")。
+  1. 单击任何页面右上角的![通知](/help/search-social-commerce/assets/notifications.png "通知")。
 
-   1. 单击&#x200B;**[!UICONTROL View All]**。
+  1. 单击&#x200B;**[!UICONTROL View All]**。
 
-   1. 单击右下角的![安装通知中心Web应用](/help/search-social-commerce/assets/notifications-install-app.png "安装通知中心Web应用")。
+  1. 单击右下角的![安装通知中心Web应用](/help/search-social-commerce/assets/notifications-install-app.png "安装通知中心Web应用")。
 
-   1. 在确认消息中，单击&#x200B;**[!UICONTROL Add]**。
+  1. 在确认消息中，单击&#x200B;**[!UICONTROL Add]**。
 
-   1. 在[!UICONTROL Install Notification Center]应用消息中，单击&#x200B;**[!UICONTROL Install]**。
+  1. 在[!UICONTROL Install Notification Center]应用消息中，单击&#x200B;**[!UICONTROL Install]**。
 
 * 从[!DNL Edge]主菜单：
 
-   1. 在浏览器工具栏中，单击&#x200B;**...** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**。
+  1. 在浏览器工具栏中，单击&#x200B;**...** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**。
 
-   1. 在[!UICONTROL Install Notification Center]应用消息中，单击&#x200B;**[!UICONTROL Install]**。
+  1. 在[!UICONTROL Install Notification Center]应用消息中，单击&#x200B;**[!UICONTROL Install]**。
 
 ### 卸载[!DNL Google Chrome]的[!UICONTROL Notification Center] Web应用程序
 

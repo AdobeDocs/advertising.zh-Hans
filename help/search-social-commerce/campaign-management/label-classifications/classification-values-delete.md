@@ -6,26 +6,26 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/vVMgSqSBGNN7oqhiY6DLqQZPsi7TowVxNIOTtEtPLg0
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: '242'
 ht-degree: 0%
-
 ---
-
 # 删除标签分类值
 
 删除标签分类值会使其在将来不可用，并且报表数据不再可用于这些值。 虽然删除了值及其父标签分类和特定帐户组件之间的所有分配，但不会删除父标签分类和促销活动组件。
 
 >[!NOTE]
 >
->若要取消分类值与帐户组件的关联，请参阅“从营销活动组件中删除分类值[&#128279;](classification-values-remove.md)”。
+>若要取消分类值与帐户组件的关联，请参阅“从营销活动组件中删除分类值](classification-values-remove.md)”。[
 
 ## （新UI）删除标签分类值
 
-1. 单击&#x200B;**[!UICONTROL Reports]>[!UICONTROL Label Classifications]**。
+1. 单击&#x200B;**[!UICONTROL Setup]>[!UICONTROL Label Classifications]**。
 
 1. 单击&#x200B;**[!UICONTROL Label Values]**&#x200B;选项卡。
 

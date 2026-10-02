@@ -6,18 +6,20 @@ feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/KqfmmT9cFZpNIoIiaA0OjGlMDf4hvQzNhPpH8lYtViw
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 57e8552cd8b71fe06be153954294063fe810b327
+    internal-label: Insights
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 1558
+source-wordcount: '1506'
 ht-degree: 0%
-
 ---
-
 # 用户界面的组织方式
 
 ## 新用户界面
@@ -38,89 +40,81 @@ ht-degree: 0%
 
 * **[!UICONTROL Dashboard]**&#x200B;子菜单：
 
-   * **[!UICONTROL Overview]**&#x200B;打开一个可配置的[!UICONTROL Dashboard]视图，其中包含所有项目组合的性能可视化图表。
+  * **[!UICONTROL Overview]**&#x200B;打开一个可配置的[!UICONTROL Dashboard]视图，其中包含所有项目组合的性能可视化图表。
 
-   * **[!UICONTROL Recommendations]**：打开来自[!DNL Google Ads]和[!DNL Microsoft Advertising]的发布者推荐的只读视图，以及来自[!DNL Microsoft Advertising.]的发布者分析要查看和响应您的推荐和见解，请使用旧版[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
-
-* **[!UICONTROL Goals]**&#x200B;子菜单：
-
-   * **[!UICONTROL Objectives]**&#x200B;打开新的[!UICONTROL Objectives]视图，您可以从中查看所有现有目标以及创建、编辑和删除目标。
-
-   * **[!UICONTROL Conversions]**&#x200B;打开一个新视图，您可以从中查看广告商的转化量度，并自定义可用于管理视图和报告的量度。
-
-   * **[!UICONTROL Conversion Value Rules]**&#x200B;打开一个新视图，以查看和管理[!DNL Google Ads]帐户的营销活动级别和帐户级别转换值规则。
-
-   * **[!UICONTROL Constraints]**&#x200B;打开现有约束的只读视图。 若要管理您的约束，请使用旧版[!UICONTROL Optimization] > [!UICONTROL Constraints]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
-
-* **[!UICONTROL Plan]**&#x200B;子菜单：
-
-   * **[!UICONTROL Simulations]**&#x200B;打开一个新的[[!UICONTROL Simulations]视图](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)，从中可以查看所有用户创建的自定义模拟和自动生成每周模拟；生成新的自定义模拟；以及重新运行现有的模拟。 [!UICONTROL Spend Planner]按钮在[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]处打开旧版[!UICONTROL Spend Recommendation]工具。
-
-   * **[!UICONTROL Spend Planner]**&#x200B;退出新站点并打开旧版[!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]视图。
+  * **[!UICONTROL Recommendations]**：打开来自[!DNL Google Ads]和[!DNL Microsoft Advertising]的发布者推荐的只读视图，以及来自[!DNL Microsoft Advertising.]的发布者分析要查看和响应您的推荐和见解，请使用旧版[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
 
 * **[!UICONTROL Manage]**&#x200B;子菜单：
 
-   * **[!UICONTROL Portfolios]：**&#x200B;打开一个新的[!UICONTROL Portfolios]视图，其中列出了广告商的所有项目组合。 您可以从此视图管理您的项目组合。 您可以打开已分配约束的列表，并查看任何项目组合的性能和构成详细信息。
+  * **[!UICONTROL Portfolios]：**&#x200B;打开一个新的[!UICONTROL Portfolios]视图，其中列出了广告商的所有项目组合。 您可以从此视图管理您的项目组合。 您可以打开已分配约束的列表，并查看任何项目组合的性能和构成详细信息。
 
-     项目组合设置包括用于分配目标和营销策划、管理支出、管理约束和控制优化的选项卡。 只有具有“专家优化”配置文件或更高配置文件的用户才能编辑[!UICONTROL Control Optimization]选项卡上的设置。
+    项目组合设置包括用于分配目标和营销策划、管理支出、管理约束和控制优化的选项卡。 只有具有“专家优化”配置文件或更高配置文件的用户才能编辑[!UICONTROL Control Optimization]选项卡上的设置。
 
-   * **[!UICONTROL Campaigns]：**&#x200B;打开一个新的[!UICONTROL Campaigns]视图，该视图显示广告商的所有营销活动。 您可以将营销活动分配给项目组合并管理选定营销活动的限制分配。 您还可以下载数据表内容的报表。<!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
+  * **[!UICONTROL Accounts]**：打开新的[!UICONTROL Accounts]视图。 您可以管理通过API连接同步的广告网络帐户，或通过数据上传进行设置的广告网络帐户。 您还可以管理现有[!UICONTROL Naver]帐户。
 
-     要创建、编辑和删除营销活动，请单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)以返回旧版用户界面。
+  * **[!UICONTROL Campaigns]：**&#x200B;打开一个新的[!UICONTROL Campaigns]视图，该视图显示广告商的所有营销活动。 您可以管理营销活动、将营销活动分配给项目组合，以及管理选定营销活动的限制分配。 您还可以下载数据表内容的报表。 此外，您还可以复制[!DNL Microsoft Advertising]、<!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->中的[!DNL Google Ads]营销活动
 
-   * **[!UICONTROL Ad Groups]：**&#x200B;打开一个新的[!UICONTROL Ad Groups]视图，该视图显示广告商的所有广告组。 您可以管理选定广告组的限制分配。 您还可以下载数据表内容的报表。
+  * **[!UICONTROL Ad Groups]：**&#x200B;打开一个新的[!UICONTROL Ad Groups]视图，该视图显示广告商的所有广告组。 您可以管理选定广告组的广告组和限制分配。 您还可以下载数据表内容的报表。
 
-     要创建、编辑和删除营销活动，请单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)以返回旧版用户界面。
+  * **[!UICONTROL Ads]**&#x200B;打开一个新的[!UICONTROL Ads]视图，该视图显示广告商的所有广告。 您可以管理选定广告的广告和限制分配。
 
-   * **[!UICONTROL Ads]**&#x200B;打开一个新的[!UICONTROL Ads]视图，该视图显示广告商的所有广告。 您可以管理选定广告的限制分配。
+  * **[!UICONTROL Keywords]**&#x200B;打开新的[!UICONTROL Keywords]视图，该视图显示广告商的现有关键字和负关键字。 您可以管理选定关键字的约束分配。
 
-     要创建、编辑和删除广告，请单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)以返回到旧版用户界面。
+    要创建、编辑和删除关键字和负关键字，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
+
+  * **[!UICONTROL Product Groups]**&#x200B;打开新的[!UICONTROL Keywords]视图，该视图显示您现有的购物产品组。 您可以管理产品组，包括限制和标签分配。
 
 * **[!UICONTROL Reports]**&#x200B;子菜单：
 
-   * **[!UICONTROL Insights]**：退出新站点并打开旧版[!UICONTROL Insights & Reports] > [!UICONTROL Insights]视图。
+  * **[!UICONTROL Insights]**：退出新站点并打开旧版[!UICONTROL Insights & Reports] > [!UICONTROL Insights]视图。
 
-   * **[!UICONTROL Scheduled Reports]**：打开新的[!UICONTROL Scheduled Reports]视图，通过该视图，可生成和管理计划报告。
+  * **[!UICONTROL Reports]**：打开新的[!UICONTROL Reports]视图，通过该视图，可生成和管理计划报告。
 
-   * **[!UICONTROL Spreadsheet Feeds]**：打开新的[!UICONTROL Spreadsheets Feeds]视图，您可以从中设置每天更新的报告馈送。
+  * **[!UICONTROL Spreadsheet Feeds]**：打开新的[!UICONTROL Spreadsheets Feeds]视图，您可以从中设置每天更新的报告馈送。
 
-   * **[!UICONTROL History Logs]**：打开新的[!UICONTROL History Logs]视图，其中包含有关广告商帐户最近更改的详细信息。
+  * **[!UICONTROL History Logs]**：打开新的[!UICONTROL History Logs]视图，其中包含有关广告商帐户最近更改的详细信息。
 
-   * **[!UICONTROL Label Classification]**&#x200B;打开新的[!UICONTROL Label Classifications]视图。 您可以管理分类，并将分类值分配/取消分配给新UI中可用的任何适用帐户组件。
+* **[!UICONTROL Plan]**&#x200B;子菜单：
 
-* **[!UICONTROL Target]**&#x200B;子菜单：
+  * **[!UICONTROL Simulations]**&#x200B;打开一个新的[[!UICONTROL Simulations]视图](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)，从中可以查看所有用户创建的自定义模拟和自动生成每周模拟；生成新的自定义模拟；以及重新运行现有的模拟。 [!UICONTROL Spend Planner]按钮在[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]处打开旧版[!UICONTROL Spend Recommendation]工具。
 
-   * **[!UICONTROL Audiences]**：打开一个新视图，该视图显示广告商的所有现有受众、所有受众目标和所有受众排除项。 要管理您的受众，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Audiences]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
-
-   * **[!UICONTROL Auto Targets]**&#x200B;打开一个新视图，该视图显示广告商的所有现有自动目标。 要管理您的自动目标，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Auto Targets]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
-
-   * **[!UICONTROL Keywords]**&#x200B;打开新的[!UICONTROL Keywords]视图，该视图显示广告商的现有关键字和负关键字。 您可以管理选定关键字的约束分配。
-
-     要创建、编辑和删除关键字和负关键字，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
-
-   * **[!UICONTROL Placements]**&#x200B;打开一个新的[!UICONTROL Placements]视图，该视图显示广告商的现有投放位置和负投放位置。 您可以管理选定版面的约束分配。
-
-     要创建、编辑和删除版面和负版面，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
-
-* **[!UICONTROL Assets]**&#x200B;子菜单：
-
-   * **[!UICONTROL Creatives]**&#x200B;打开一个新视图，其中列出了您现有的创意资产。 您可以预览每个创意内容。 要管理您的资源库，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Asset Library]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
-
-   * **[!UICONTROL Extensions]**&#x200B;打开现有广告扩展的只读视图。 若要管理扩展，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
-
-   * **[!UICONTROL Shopping]**&#x200B;打开现有购物产品组的只读视图。 要管理您的产品组，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Product Groups]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
+  * **[!UICONTROL Spend Planner]**&#x200B;退出新站点并打开旧版[!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]视图。
 
 * **[!UICONTROL Set Up]**&#x200B;子菜单：
 
-   * **[!UICONTROL Manager Accounts]**：打开现有经理帐户和广告网络的新视图。 若要管理您的经理帐户，请使用旧版[!UICONTROL Admin] > [!UICONTROL Manager Accounts]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
+  * **[!UICONTROL Bulksheets]**：打开新的[!UICONTROL Bulksheets]视图。
 
-   * **[!UICONTROL Accounts]**：打开新的[!UICONTROL Accounts]视图。 您可以管理通过API连接同步的广告网络帐户，或通过数据上传进行设置的广告网络帐户。 您还可以管理现有[!UICONTROL Naver]帐户。
+  * **[!UICONTROL Label Classification]**&#x200B;打开新的[!UICONTROL Label Classifications]视图。 您可以管理分类，并将分类值分配/取消分配给新UI中可用的任何适用帐户组件。
 
-   * **[!UICONTROL Import Campaigns]**：打开一个新视图，您可以从中导入营销活动数据。
+  * **[!UICONTROL Manager Accounts]**：打开现有经理帐户和广告网络的新视图。 若要管理您的经理帐户，请使用旧版[!UICONTROL Admin] > [!UICONTROL Manager Accounts]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
 
-   * **[!UICONTROL Bulksheets]**：打开新的[!UICONTROL Bulksheets]视图。
+* **[!UICONTROL Goals]**&#x200B;子菜单：
 
-   * **[!UICONTROL Products]**&#x200B;打开现有商家中心帐户和产品的只读视图。 要添加商家中心帐户，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Products]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
+  * **[!UICONTROL Objectives]**&#x200B;打开新的[!UICONTROL Objectives]视图，您可以从中查看所有现有目标以及创建、编辑和删除目标。
+
+  * **[!UICONTROL Conversions]**&#x200B;打开一个新视图，您可以从中查看广告商的转化量度，并自定义可用于管理视图和报告的量度。
+
+  * **[!UICONTROL Conversion Value Rules]**&#x200B;打开一个新视图，以查看和管理[!DNL Google Ads]帐户的营销活动级别和帐户级别转换值规则。
+
+  * **[!UICONTROL Constraints]**&#x200B;打开现有约束的只读视图。 若要管理您的约束，请使用旧版[!UICONTROL Optimization] > [!UICONTROL Constraints]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
+
+* **[!UICONTROL Targeting]**&#x200B;子菜单：
+
+  * **[!UICONTROL Audiences]**：打开一个新视图，该视图显示广告商的所有现有受众、所有受众目标和所有受众排除项。 要管理您的受众，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Audiences]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
+
+  * **[!UICONTROL Auto Targets]**&#x200B;打开一个新视图，该视图显示广告商的所有现有自动目标。 要管理您的自动目标，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Auto Targets]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
+
+  * **[!UICONTROL Placements]**&#x200B;打开一个新的[!UICONTROL Placements]视图，该视图显示广告商的现有投放位置和负投放位置。 您可以管理选定版面的约束分配。
+
+    要创建、编辑和删除版面和负版面，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
+
+* **[!UICONTROL Library]**&#x200B;子菜单：
+
+  * **[!UICONTROL Assets]**&#x200B;打开一个新视图，其中列出了您现有的创意资产。 您可以预览每个创意内容。 要管理您的资源库，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Asset Library]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
+
+  * **[!UICONTROL Extensions]**&#x200B;打开现有广告扩展的只读视图。 若要管理扩展，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
+
+  * **[!UICONTROL Products]**&#x200B;打开现有商家中心帐户和产品的只读视图。 要添加商家中心帐户，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Products]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
 
 <!--
  What's happening to these?
@@ -144,15 +138,15 @@ Tools > Admin > Data Source Setup
 
 ### 顶行： CX Enterprise菜单
 
-* 您可以访问的CX企业组织的可选列表。
+* 您有权访问的CX Enterprise组织的可选列表。
 
 * ![帮助中心](/help/search-social-commerce/assets/help-main-menu.png "帮助中心")帮助菜单，其中包含指向文档和其他信息的链接。
 
-* ![通知](/help/search-social-commerce/assets/notifications-aec.png "通知")一个面板，其中列出了CX Enterprise的请求、通知和公告。
+* ![通知](/help/search-social-commerce/assets/notifications-aec.png "通知")由CX Enterprise列出请求、通知和公告的面板。
 
 * ![应用程序](/help/search-social-commerce/assets/apps.png "应用程序")可切换到的Adobe CX Enterprise解决方案和服务列表。
 
-* ![帐户](/help/search-social-commerce/assets/account.png "帐户")有关您的CX Enterprise帐户配置文件的信息，您可以从中编辑首选项并注销。
+* ![帐户](/help/search-social-commerce/assets/account.png "帐户")有关您的CX Enterprise帐户个人资料的信息，您可以从中编辑首选项并注销。
 
 ### 第二行：其他搜索、社交和Commerce菜单
 
@@ -202,7 +196,7 @@ Tools > Admin > Data Source Setup
 
 * ![警报通知](/help/search-social-commerce/assets/notifications-panel.png "警报通知")列出搜索、社交和Commerce通知的面板。
 
-  当您[通过Adobe CX Enterprise](sign-in.md)登录时，此面板会显示您从CX Enterprise收到的通知。
+  当您[通过Adobe CX Enterprise](sign-in.md)登录时，此面板会显示您来自CX Enterprise的通知。
 
 * ![帮助菜单](/help/search-social-commerce/assets/help-main-menu.png "帮助菜单")帮助菜单，其中包括指向文档和其他信息的链接。
 
@@ -210,7 +204,7 @@ Tools > Admin > Data Source Setup
 
 * ![用户配置文件](/help/search-social-commerce/assets/user-profile.png "用户配置文件")指向您的配置文件的链接，您可以从中注销。
 
-  当您[通过Adobe CX Enterprise &#x200B;](sign-in.md)登录时，您还可以编辑CX Enterprise配置文件，包括CX Enterprise密码和通知设置。
+  当您[通过Adobe CX Enterprise](sign-in.md)登录时，您还可以编辑您的CX Enterprise配置文件，包括CX Enterprise密码和通知设置。
 
 >[!MORELIKETHIS]
 >
