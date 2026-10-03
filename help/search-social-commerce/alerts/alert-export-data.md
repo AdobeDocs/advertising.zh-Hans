@@ -3,20 +3,24 @@ title: 导出自定义警报的数据
 description: 了解如何将触发警报的数据导出到文件。
 exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-TQID: https://experienceleague.adobe.com/JyEfHoeveq0ZA5buoLKJis4RECKBtHNCiJZ982uXSW0
+TQID: 'https://experienceleague.adobe.com/JyEfHoeveq0ZA5buoLKJis4RECKBtHNCiJZ982uXSW0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 267
+source-wordcount: '269'
 ht-degree: 0%
-
 ---
-
 # 导出自定义警报的数据
 
 您可以将触发的警报的数据或最近触发的警报模板的数据导出为[!DNL Microsoft Excel]工作簿（[XLS](/help/search-social-commerce/glossary.md#w-x)文件）、制表符分隔的值([TSV](/help/search-social-commerce/glossary.md#s-t))文件或逗号分隔的值([CSV](/help/search-social-commerce/glossary.md#c-d))文件。 触发警报后，可下载报告会保留十天，之后将自动删除。

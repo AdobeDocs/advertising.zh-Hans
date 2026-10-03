@@ -3,18 +3,21 @@ title: 管理库存馈送的广告模板
 description: 了解如何管理广告模板，通过这些模板可处理库存数据，以管理帐户结构和投放动态广告。
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/pHmH477ZgwGePl4cVVwBjBEsrRUdvBY2hJwksuUOUvM
+TQID: 'https://experienceleague.adobe.com/pHmH477ZgwGePl4cVVwBjBEsrRUdvBY2hJwksuUOUvM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1427
+source-wordcount: '1427'
 ht-degree: 0%
-
 ---
-
 # 管理库存馈送的广告模板
 
 *[!DNL Google Ads]、[!DNL LY Ads] （仅删除操作）、[!DNL Microsoft Advertising]和仅[!DNL Yandex]帐户*
@@ -41,9 +44,9 @@ ht-degree: 0%
 
    * 要克隆现有模板：
 
-      1. 选中要复制的模板旁边的复选框。
+     1. 选中要复制的模板旁边的复选框。
 
-      1. 在数据表上方的工具栏中，单击&#x200B;**[!UICONTROL Create/Clone]**，然后选择适用的广告网络。
+     1. 在数据表上方的工具栏中，单击&#x200B;**[!UICONTROL Create/Clone]**，然后选择适用的广告网络。
 
    * （要编辑现有模板）在模板名称旁边，单击![查看/编辑设置](/help/search-social-commerce/assets/settings.png "查看/编辑设置")。
 
@@ -76,43 +79,43 @@ ht-degree: 0%
 
       * 要添加广告变体，请执行以下操作：
 
-         1. 单击&#x200B;**[!UICONTROL Add Ad Variation]**&#x200B;可创建文本广告，**[!UICONTROL Add ETA Variation]**&#x200B;可创建扩展/扩展的文本广告，或单击&#x200B;**[!UICONTROL Add RSA Variation]**&#x200B;可创建响应式文本广告。
+        1. 单击&#x200B;**[!UICONTROL Add Ad Variation]**&#x200B;可创建文本广告，**[!UICONTROL Add ETA Variation]**&#x200B;可创建扩展/扩展的文本广告，或单击&#x200B;**[!UICONTROL Add RSA Variation]**&#x200B;可创建响应式文本广告。
 
-            指定广告类型后，您只能使用该模板创建该广告类型。
+           指定广告类型后，您只能使用该模板创建该广告类型。
 
-         1. 指定广告设置。
+        1. 指定广告设置。
 
-            对于响应式搜索广告，您可以包含3-15个标题和2-4个描述。
+           对于响应式搜索广告，您可以包含3-15个标题和2-4个描述。
 
-         1. （可选）要使用原始广告副本字段中的文本预填所有备用广告副本字段，请选中&#x200B;**[!UICONTROL Prefill]**&#x200B;旁边的复选框。
+        1. （可选）要使用原始广告副本字段中的文本预填所有备用广告副本字段，请选中&#x200B;**[!UICONTROL Prefill]**&#x200B;旁边的复选框。
 
-         1. （可选）要将另一组广告副本添加到广告，如果原始广告副本中的任何行在传播期间任何动态参数被数据替换后超出最大长度，则可以使用该广告副本，请单击&#x200B;**[!UICONTROL Add Alternate]**，然后添加替代值。
+        1. （可选）要将另一组广告副本添加到广告，如果原始广告副本中的任何行在传播期间任何动态参数被数据替换后超出最大长度，则可以使用该广告副本，请单击&#x200B;**[!UICONTROL Add Alternate]**，然后添加替代值。
 
-            >[!NOTE]
-            >
-            >* 如果选择了[!UICONTROL Prefill]选项，则备用字段会预填充原始字段，您可以根据需要编辑它们。
-            >* 只有超出最大长度的广告文案字段会被替换成替换值。 例如，如果只有原始标题或标题太长，则生成的广告变体使用替代标题或标题以及原始描述。 因此，请确保将备用广告副本与原始广告副本结合使用时有意义。
-            >* 如果原始广告副本满足搜索引擎的长度要求，则会丢弃替代广告副本。
-            >* 您最多可以为每个广告副本字段指定四个替代项。
+           >[!NOTE]
+           >
+           >* 如果选择了[!UICONTROL Prefill]选项，则备用字段会预填充原始字段，您可以根据需要编辑它们。
+           >* 只有超出最大长度的广告文案字段会被替换成替换值。 例如，如果只有原始标题或标题太长，则生成的广告变体使用替代标题或标题以及原始描述。 因此，请确保将备用广告副本与原始广告副本结合使用时有意义。
+           >* 如果原始广告副本满足搜索引擎的长度要求，则会丢弃替代广告副本。
+           >* 您最多可以为每个广告副本字段指定四个替代项。
 
-         * 要编辑广告变体，请执行以下操作：
+        * 要编辑广告变体，请执行以下操作：
 
-            1. 编辑广告设置。
+          1. 编辑广告设置。
 
-               对于响应式搜索广告，您可以包含3-15个标题和2-4个描述。
+             对于响应式搜索广告，您可以包含3-15个标题和2-4个描述。
 
-            1. （可选）要使用原始广告副本字段中的文本预填所有备用广告副本字段，请选中&#x200B;**[!UICONTROL Prefill]**&#x200B;旁边的复选框。
+          1. （可选）要使用原始广告副本字段中的文本预填所有备用广告副本字段，请选中&#x200B;**[!UICONTROL Prefill]**&#x200B;旁边的复选框。
 
-            1. （可选）要将另一组广告副本添加到广告，如果原始广告副本中的任何行在传播期间任何动态参数被数据替换后超出最大长度，则可以使用该广告副本，请单击&#x200B;**[!UICONTROL Add Alternate]**，然后添加替代值。
+          1. （可选）要将另一组广告副本添加到广告，如果原始广告副本中的任何行在传播期间任何动态参数被数据替换后超出最大长度，则可以使用该广告副本，请单击&#x200B;**[!UICONTROL Add Alternate]**，然后添加替代值。
 
-               >[!NOTE]
-               >
-               >* 如果选择了[!UICONTROL Prefill]选项，则备用字段会预填充原始字段，您可以根据需要编辑它们。
-               >* 只有超出最大长度的广告文案字段会被替换成替换值。 例如，如果只有原始标题或标题太长，则生成的广告变体使用替代标题或标题以及原始描述。 因此，请确保将备用广告副本与原始广告副本结合使用时有意义。
-               >* 如果原始广告副本满足搜索引擎的长度要求，则会丢弃替代广告副本。
-               >* 您最多可以为每个广告副本字段指定四个替代项。
+             >[!NOTE]
+             >
+             >* 如果选择了[!UICONTROL Prefill]选项，则备用字段会预填充原始字段，您可以根据需要编辑它们。
+             >* 只有超出最大长度的广告文案字段会被替换成替换值。 例如，如果只有原始标题或标题太长，则生成的广告变体使用替代标题或标题以及原始描述。 因此，请确保将备用广告副本与原始广告副本结合使用时有意义。
+             >* 如果原始广告副本满足搜索引擎的长度要求，则会丢弃替代广告副本。
+             >* 您最多可以为每个广告副本字段指定四个替代项。
 
-         * 要删除广告变体，请单击广告变体旁边的&#x200B;**[!UICONTROL Remove ETA Variation]**（适用于展开/扩展的文本广告）或&#x200B;**[!UICONTROL Remove RSA Variation]**（适用于响应式搜索广告）（如果适用）。
+        * 要删除广告变体，请单击广告变体旁边的&#x200B;**[!UICONTROL Remove ETA Variation]**（适用于展开/扩展的文本广告）或&#x200B;**[!UICONTROL Remove RSA Variation]**（适用于响应式搜索广告）（如果适用）。
 
    1. （仅限购物模板）单击&#x200B;**[!UICONTROL Product Groups]**&#x200B;选项卡，然后指定有关要定位的产品组的信息。
 

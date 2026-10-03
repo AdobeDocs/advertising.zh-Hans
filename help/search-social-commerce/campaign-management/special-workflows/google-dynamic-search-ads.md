@@ -1,20 +1,23 @@
 ---
-title: 实施 [!DNL Google Ads] 动态搜索广告
-description: 了解用于设置 [!DNL Google Ads] 动态搜索广告的工作流。
+title: 实施[!DNL Google Ads]动态搜索广告
+description: 了解用于设置[!DNL Google Ads]动态搜索广告的工作流。
 exl-id: 69e5069f-3f82-4ee3-841a-0c1292677223
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/2HsYFUdcvlEr9-LZHMtgS07jZ5A0DOMEj-byGZlf6aE
+TQID: 'https://experienceleague.adobe.com/2HsYFUdcvlEr9-LZHMtgS07jZ5A0DOMEj-byGZlf6aE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 614
+source-wordcount: '640'
 ht-degree: 0%
-
 ---
-
 # 实施[!DNL Google Ads]动态搜索广告
 
 *[!DNL Google Ads]仅搜索具有创意级别或关键词和创意级别跟踪的营销活动*
@@ -45,7 +48,7 @@ ht-degree: 0%
 
    1. （可选）配置营销活动级别的跟踪模板，以覆盖帐户级别的跟踪模板，但可以在较低级别覆盖该模板。
 
-      （使用Adobe Analytics且没有服务器端跟踪的广告商）如果您希望包含对Search、Social和Commerce到Analytics的反向馈送的跟踪，请将AMO ID跟踪代码添加到帐户级别的附加参数，这会将该代码添加到最终URL。 查看[使用的 [!DNL Analytics]](/help/integrations/analytics/ids.md)Adobe Advertising ID。
+      （使用Adobe Analytics且没有服务器端跟踪的广告商）如果您希望包含对Search、Social和Commerce到Analytics的反向馈送的跟踪，请将AMO ID跟踪代码添加到帐户级别的附加参数，这会将该代码添加到最终URL。 查看 [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)使用的Adobe Advertising ID。
 
 1. [在营销活动中创建一个广告组](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)，包括以下步骤：
 
@@ -62,7 +65,7 @@ ht-degree: 0%
 1. [在广告组内创建每个动态搜索广告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)。
 
    [!DNL Google Ads]动态生成每个广告的标题、显示URL和登陆页面URL。 您可以选择将重定向和跟踪添加到广告级别的跟踪模板，这会覆盖更高级别的跟踪模板。
-如果要使用广告级别跟踪覆盖较高级别的任何Adobe Analytics跟踪，请在此处添加该跟踪。 请参阅步骤1e和2c。
+   如果要使用广告级别跟踪覆盖较高级别的任何Adobe Analytics跟踪，请在此处添加该跟踪。 请参阅步骤1e和2c。
 
 1. （当您未将根域和域的语言包含在Campaign设置的DSA选项部分中时，此为必需字段；否则为可选字段）为广告组创建[动态搜索目标](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)。 您可以选择使用目标级别竞价覆盖广告组级别竞价。
 

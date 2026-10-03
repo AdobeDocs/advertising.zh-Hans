@@ -2,13 +2,19 @@
 title: 广告商帐户设置
 description: 请参阅可用广告商设置的描述。
 role: User, Admin
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 0%
-
+source-wordcount: '1035'
+ht-degree: 7%
 ---
-
 # 广告商帐户设置
 
 *对只读用户不可用*
@@ -31,15 +37,15 @@ ht-degree: 0%
 
 ### [!UICONTROL Adobe IMS IDs]
 
-使用其他Adobe CX Enterprise产品的广告商可以使用组织的CX Enterprise唯一ID在某些产品间共享数据。 您可以在[!UICONTROL Integrations]部分中配置特定的产品集成。
+使用其他Adobe CX Enterprise产品的广告商可以使用组织的CX Enterprise唯一ID在某些产品之间共享数据。 您可以在[!UICONTROL Integrations]部分中配置特定的产品集成。
 
-**[!UICONTROL Account IMS org and ID]：** （通过具有多个广告商的CX Enterprise帐户授予许可的、具有其他CX Enterprise产品的广告商；可选）广告商的CX Enterprise组织ID。
+**[!UICONTROL Account IMS org and ID]：** （通过具有多个广告商的CX Enterprise帐户许可的、具有其他CX Enterprise产品的广告商；可选）广告商的CX Enterprise组织ID。
 
 **[!UICONTROL Advertiser IMS org and ID]：** （具有其他CX Enterprise产品的直接许可证的广告商；可选）广告商的CX Enterprise组织ID。
 
 ### [!UICONTROL Integrations]
 
-（可选）与DSP帐户关联的其他CX Enterprise产品。 这些产品必须与[!UICONTROL Adobe IMS IDs]部分中提供的相同CX Enterprise组织ID相关联。
+（可选）链接到DSP帐户的其他CX Enterprise产品。 产品必须与[!UICONTROL Adobe IMS IDs]部分中提供的相同CX Enterprise组织ID关联。
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]：** （具有[!DNL Advertising Search, Social, & Commerce]或使用Adobe Advertising转化像素的广告商）DSP与其交换归因数据的[!DNL Search, Social, & Commerce]帐户。
 

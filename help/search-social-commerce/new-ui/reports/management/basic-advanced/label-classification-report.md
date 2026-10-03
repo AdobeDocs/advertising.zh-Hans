@@ -2,13 +2,19 @@
 title: '[!UICONTROL Label Classification Report]'
 description: 了解[!UICONTROL Label Classification Report]。
 feature: Search Reports, Search Basic Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Label Classification Report]
 
 [!UICONTROL Label Classification Report]包括成本、点击次数和（可选）转化数据，这些数据按跨广告网络、帐户、促销活动或广告组汇总的关键字级别或广告级别的标签分类进行。 默认情况下，对于在指定日期范围内每个时间单位接收展示次数的关键字、广告和版面，每个适用的关键字级标签分类的数据包括一行。 行首先按时间单位的开始日期升序，然后按标签分类，默认情况下再按标签值升序。

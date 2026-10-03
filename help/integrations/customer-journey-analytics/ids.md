@@ -3,27 +3,39 @@ title: Customer Journey Analytics使用的Adobe Advertising ID
 description: Customer Journey Analytics使用的Adobe Advertising ID
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: af60dcb4-4d1a-4097-ac30-688bd8b9f644
-TQID: https://experienceleague.adobe.com/q1298GdnFUQBJGy-slOfy5-XJLXuJmojHErwJaxTX2A
+TQID: 'https://experienceleague.adobe.com/q1298GdnFUQBJGy-slOfy5-XJLXuJmojHErwJaxTX2A'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: ea6cf12e-f4da-4e2b-a9c1-e64da280b6f3
+    internal-label: Adobe Customer Journey Analytics Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
+    internal-label: Data collection
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 77
+source-wordcount: '77'
 ht-degree: 0%
-
 ---
-
 # Customer Journey Analytics使用的Adobe Advertising ID
 
 *仅集成Adobe Advertising-Adobe Customer Journey Analytics的广告商*

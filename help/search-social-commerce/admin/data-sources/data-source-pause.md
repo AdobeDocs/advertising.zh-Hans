@@ -4,23 +4,30 @@ description: 了解如何暂停数据源以停止同步。
 role: User, Admin
 exl-id: 93ac22c8-e1e7-490e-8b00-86cac8a2d00c
 feature: Search Admin, Search Data Sources
-TQID: https://experienceleague.adobe.com/9gzPWJDlDfUNgqzilPhAmSngxigpbmnQ-WM7odAgx-U
+TQID: 'https://experienceleague.adobe.com/9gzPWJDlDfUNgqzilPhAmSngxigpbmnQ-WM7odAgx-U'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: ''
+  - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
+    internal-label: Search Admin
+  - id: 9bd4e165-792f-5324-bcaa-eee38dc8b8e9
+    internal-label: Search Data Sources
 subfeature_v2:
   - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+    internal-label: Data sources
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Admin
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 130
+source-wordcount: '124'
 ht-degree: 0%
-
 ---
-
 # 暂停数据源同步
 
 *仅限机构管理员（基本角色）、Adobe客户经理和管理员*

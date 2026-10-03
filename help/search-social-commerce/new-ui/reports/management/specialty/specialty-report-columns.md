@@ -2,7 +2,15 @@
 title: 专业报告的报告列
 description: 了解专业报告的可用数据列。
 feature: Search Reports, Search Specialty Reports
-source-git-commit: fb089f61670a2c0029ac7857db55df3b93f781de
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '3223'
 ht-degree: 1%

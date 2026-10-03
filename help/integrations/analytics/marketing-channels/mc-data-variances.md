@@ -1,27 +1,37 @@
 ---
-title: 为什么渠道数据在Adobe Advertising和 [!DNL Marketing Channels]之间可能不同
-description: 了解AMO ID跟踪的渠道数据为何与 [!DNL Analytics Marketing Channels]跟踪的渠道数据不同。
+title: 为什么渠道数据在Adobe Advertising和[!DNL Marketing Channels]之间可能不同
+description: 了解AMO ID跟踪的渠道数据与[!DNL Analytics Marketing Channels]跟踪的渠道数据有何不同的原因。
 feature: Integration with Adobe Analytics
 exl-id: 72e3aa1e-85ed-485a-b93f-5e67dd0140ce
-TQID: https://experienceleague.adobe.com/zzYKrbiwvW9Ysf7baDfKGsETmSvYbXDY7-lIygorXH8
+TQID: 'https://experienceleague.adobe.com/zzYKrbiwvW9Ysf7baDfKGsETmSvYbXDY7-lIygorXH8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: dba482e5-29a8-4127-afa2-c4b913512ef8
+    internal-label: Data and analytics
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 414
+source-wordcount: '427'
 ht-degree: 0%
-
 ---
-
 # 为什么渠道数据在Adobe Advertising和[!DNL Marketing Channels]之间可能不同
 
 *仅集成Adobe Advertising-Adobe Analytics的广告商*
@@ -43,7 +53,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [&#x200B; [!DNL Analytics] 和Adobe Advertising](/help/integrations/analytics/data-variances.md)之间的预期数据差异
->* [的 [!DNL Analytics Marketing Channels]](mc-overview.md)基础知识
+>*  [!DNL Analytics Marketing Channels]&#x200B;[&#128279;](mc-overview.md)的基础知识
 >* [使用Adobe Advertising ID创建 [!DNL Marketing Channels] 处理规则](mc-ids.md)
 >* [对Adobe Advertising数据使用 [!DNL Analytics Marketing Channels] &#x200B;](mc-ac-data.md)
 >* [视频：使用 [!DNL Marketing Channels] 进行Adobe Advertising报告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=zh-Hans)

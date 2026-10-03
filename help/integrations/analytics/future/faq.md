@@ -1,13 +1,14 @@
 ---
 title: 常见问题解答
 description: xxx
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
-
 ---
-
 # 常见问题解答xxx
 
 ## 标题

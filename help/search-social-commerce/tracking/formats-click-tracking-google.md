@@ -1,24 +1,30 @@
 ---
-title: ' [!DNL Google Ads]的点击跟踪格式'
-description: 了解 [!DNL Google Ads] 帐户的点击跟踪格式。
+title: '[!DNL Google Ads]的点击跟踪格式'
+description: 了解[!DNL Google Ads]帐户的点击跟踪格式。
 exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/zlglYQa3JRxc5hz07rdjPQUMk7ogdrFKf2mxVkByCjU
+TQID: 'https://experienceleague.adobe.com/zlglYQa3JRxc5hz07rdjPQUMk7ogdrFKf2mxVkByCjU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 24a5511c46132725ff82dac81e671ab4ec6f4482
+    internal-label: Customer experience
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: '579'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]的点击跟踪格式
 
 以下是Search、Social和Commerce要求用于[!DNL Google Ads]的基本跟踪模板和登陆页面后缀（最终URL后缀）格式。
@@ -39,7 +45,7 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`是Adobe Advertising中广告商唯一ID的变量。
 >
->* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请在`cq?`之后将`<advertiser_ID>`替换为`c?`。
+>* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请在`<advertiser_ID>`之后将`cq?`替换为`c?`。
 >
 >* 跟踪模板中用于指示最终URL的[!DNL ValueTrack]参数必须为`{lpurl}`或`!{unescapedurl}`。
 >
@@ -65,7 +71,7 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`是Adobe Advertising中广告商唯一ID的变量。
 >
->* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请在`cq?`之后将`<advertiser_ID>`替换为`c?`。
+>* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请在`<advertiser_ID>`之后将`cq?`替换为`c?`。
 >
 >* 跟踪模板中用于指示最终URL的[!DNL ValueTrack]参数必须为`{lpurl}`或`!{unescapedurl}`。
 >
@@ -75,19 +81,19 @@ ht-degree: 0%
 
 ## 登陆页面后缀（最终URL后缀）格式
 
-使用Adobe Advertising转化跟踪的帐户必须在后缀中包含广告网络的点击标识符（`gclid`为[!DNL Google Ads]）：
+使用Adobe Advertising转化跟踪的帐户必须在后缀中包含广告网络的点击标识符（[!DNL Google Ads]为`gclid`）：
 
 * 当广告商具有Adobe Analytics集成时，后缀必须包括以下任一项：
 
-   * 使用最新[!DNL Google Ads]AMO ID格式[&#x200B; （以](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#dimension-items)开头）的`s_kwcid`帐户，该格式支持效果最佳的营销活动以及草稿和实验营销活动的营销活动级和广告组级报告：
+  * 使用最新[AMO ID格式](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#dimension-items) （以`s_kwcid`开头）的[!DNL Google Ads]帐户，该格式支持效果最佳的营销活动以及草稿和实验营销活动的营销活动级和广告组级报告：
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+    `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     如果帐户具有服务器端AMO ID实施并且启用了帐户或营销活动设置“[!UICONTROL Auto Upload]”，则会自动添加参数。 否则，您需要手动添加它。 查看[使用的 [!DNL Analytics]](/help/integrations/analytics/ids.md)Adobe Advertising ID。
+    如果帐户具有服务器端AMO ID实施并且启用了帐户或营销活动设置“[!UICONTROL Auto Upload]”，则会自动添加参数。 否则，您需要手动添加它。 查看 [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)使用的Adobe Advertising ID。
 
-   * 所有其他[!DNL Google Ads]帐户：
+  * 所有其他[!DNL Google Ads]帐户：
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+    `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 * 当广告商没有Adobe Analytics集成时，后缀必须包括以下内容：
 

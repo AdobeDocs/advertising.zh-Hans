@@ -3,18 +3,21 @@ title: 何时以及如何按广告网络和对象生成点击跟踪URL
 description: 了解何时自动添加点击跟踪URL，以及何时以及如何为各种促销活动组件手动添加它们。
 exl-id: 896de0c1-75ed-450c-b995-893f1a63e5ce
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/coG6SeshFIDQwfuv5RNK3Q9dhLdj4uXzl0bZs4syil8
+TQID: 'https://experienceleague.adobe.com/coG6SeshFIDQwfuv5RNK3Q9dhLdj4uXzl0bZs4syil8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 905
+source-wordcount: '911'
 ht-degree: 0%
-
 ---
-
 # 何时以及如何按广告网络和对象生成点击跟踪URL
 
 下表介绍了如何为各种促销活动组件生成点击跟踪URL。

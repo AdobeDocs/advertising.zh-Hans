@@ -3,24 +3,29 @@ title: 存档或取消存档软件包
 description: 了解如何存档或取消存档资源包。
 feature: DSP Packages
 exl-id: 12d1b498-2239-401a-8571-9210956e32b2
-TQID: https://experienceleague.adobe.com/7arhImpl9zYiYkpWEX-174MeMVeKp8lqUwJDx366v0g
+TQID: 'https://experienceleague.adobe.com/7arhImpl9zYiYkpWEX-174MeMVeKp8lqUwJDx366v0g'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
 subfeature_v2:
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 156
+source-wordcount: '156'
 ht-degree: 0%
-
 ---
-
 # 存档或取消存档软件包
 
 通过存档来隐藏未使用的包。 您可以对已存档的软件包执行的唯一操作是取消存档。 默认情况下，不会显示已存档的包，但这些包仍可用于报告。

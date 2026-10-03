@@ -3,18 +3,21 @@ title: 停止库存馈送数据的发布作业
 description: 了解如何停止库存馈送数据的发布作业。
 exl-id: 06a10ec1-bfff-4384-b1c8-ba6b504c6888
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/cjOAlWqQemvbK-H0RYvwnNF980UVmZjy-hp-SbrlWxo
+TQID: 'https://experienceleague.adobe.com/cjOAlWqQemvbK-H0RYvwnNF980UVmZjy-hp-SbrlWxo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 125
+source-wordcount: '125'
 ht-degree: 0%
-
 ---
-
 # 停止库存馈送数据的发布作业
 
 *[!DNL Google Ads]、[!DNL LY Ads] （仅删除操作）、[!DNL Microsoft Advertising]和仅[!DNL Yandex]帐户*
@@ -23,9 +26,9 @@ ht-degree: 0%
 
 * 当数据仍在传播时，请停止传播作业，以便没有数据可供发布：
 
-   1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，这将打开到[!UICONTROL Templates]选项卡。
+  1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，这将打开到[!UICONTROL Templates]选项卡。
 
-   1. 在模板名称旁边的“[!UICONTROL Last Prop. Status]”列中，单击&#x200B;**[!UICONTROL Cancel]**。
+  1. 在模板名称旁边的“[!UICONTROL Last Prop. Status]”列中，单击&#x200B;**[!UICONTROL Cancel]**。
 
 * 如果数据已传播，则从[!UICONTROL Bulksheets]视图[&#128279;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md)中取消发布作业。
 

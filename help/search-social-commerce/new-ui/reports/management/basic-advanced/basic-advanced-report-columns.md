@@ -2,13 +2,21 @@
 title: 基本报表和高级报表的报表列
 description: 了解基本报表和高级报表的可用数据列。
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+  - id: c51771d4-46e9-5151-913c-59d4e047a4f1
+    internal-label: Search Advanced Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '3992'
+source-wordcount: '4023'
 ht-degree: 0%
-
 ---
-
 # 基本报表和高级报表的报表列
 
 | 列 | 描述 |
@@ -92,7 +100,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Titles] | （仅适用于多媒体和响应式搜索广告）为每个广告的简短标题（“[!UICONTROL Creative Title]”到“[!UICONTROL Creative Title15]”）添加一列。 当包含此列时，您不需要包含其他[!UICONTROL Creative Title]列，而是编辑[!UICONTROL Order Results/Limit Rows By]分区以按[!UICONTROL Creative Titles]排序，而不是[!UICONTROL Creative Title]。 |
 | [!UICONTROL Creative Type] | 广告格式。 以下是可能的值： <i>[!UICONTROL App Install Ad]</i>、<i>[!UICONTROL Call Only Ad]</i>、<i>[!UICONTROL Demand Gen Carousel Ad]</i>（多图像轮播广告）、<i>[!UICONTROL Demand Gen Image Ad (single-image ads)]</i>、<i>[!UICONTROL Demand Gen Product Ad]</i>和<i>[!UICONTROL Demand Gen Video Ad]</i>、<i>[!UICONTROL Display Ad]</i>、<i>[!UICONTROL Dynamic Search Ad]</i>、<i>[!UICONTROL Expanded Dynamic Search Ad]</i>、<i>[!UICONTROL Expanded Text Ad]</i>、<i>[!UICONTROL Legacy Text Ad]</i>、<i>[!UICONTROL Multimedia Ad]</i>、<i>[!UICONTROL Product Ad]</i>、<i>[!UICONTROL Responsive Ad]</i>、<i>[!UICONTROL Responsive Search Ad]</i>或<i>[!UICONTROL Text Ad]</i>。 |
 | [!UICONTROL CTR] | 点进率，即点击次数除以所包含广告的展示次数。 |
-| [!UICONTROL Currency] | 适用的货币类型（如“USD”或“GBP”）。<br><br><b>注意：</b>如果报表包含不同货币帐户的数据，则任何“[!UICONTROL Total]”货币值只是列中所有数字的总和，而不考虑货币。 |
+| [!UICONTROL Currency] | 适用的货币类型（如“USD”或“GBP”）。<br><br><b>注意：</b>如果报表包含使用不同货币的帐户的数据，则任何“[!UICONTROL Total]”货币值只是列中所有数字的总和，而不考虑货币。 |
 | [!UICONTROL Current Bid] | 目标的当前出价。 |
 | [!UICONTROL Current First Page Bid] | （仅限[!DNL Google Ads]个促销活动）当[!DNL Google]搜索查询与关键字匹配时，当前在搜索结果首页投放广告所需的估计每次点击成本(CPC)竞价。<br><br>对于单个关键词和匹配类型组合，此值是该组合当前所需的第一个页面出价。 在多个营销活动中使用相同的关键字和匹配类型组合时，此值是当前所有实例中所需的最低首页出价。 |
 | [!UICONTROL Current Quality Score] | （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]个营销活动）广告网络指定的关键词或竞价单位的当前质量分数。 其范围从1（低）到10（完美）。 对于单个关键词和匹配类型组合，此值是该组合的当前分数。 当在多个营销活动中使用相同的关键字和匹配类型组合时，此值是所有实例中的最大当前分数。<br><br>广告网络使用质量分数来确定竞价和广告位置。 关键词的关联度、用户的搜索查询、登陆页面的质量等多因素共同影响该词的搜索效果。 对于[!DNL Google Ads]中的关键字，也会考虑关键字的点进率；对于[!DNL Microsoft Advertising]中的关键字，也会考虑登陆页面提供的用户体验。 |
@@ -172,7 +180,7 @@ ht-degree: 0%
 | [!UICONTROL Product Group Status] | 产品组的状态。 |
 | [!UICONTROL Product Groupings] | 父产品组。 |
 | [!UICONTROL Product ID] | （[!UICONTROL Keyword Report]； [!DNL Google Ads]产品列表广告）随广告一起显示的产品的产品ID。<br><br><b>注意：</b>仅当产品列表包含跟踪参数`ev_plx=<GMC product ID>`时才捕获该ID，您必须在[!DNL Google Merchant Center]内添加该参数。 |
-| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report])转换量度的收入（例如，1代表一个注册，12代表一个12美元的订单）。 如果多个竞价单位具有相同的交易ID，则跟踪ID的收入根据指定点击日期（点击数据可用时）的点击数进行拆分。 |
+| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report])转化量度的收入（例如，1代表一个注册，12代表12 USD订单）。 如果多个竞价单位具有相同的交易ID，则跟踪ID的收入根据指定点击日期（点击数据可用时）的点击数进行拆分。 |
 | [!UICONTROL Reach] | （仅限[!DNL Meta]个营销活动）查看您的广告至少一次的人数。 注意： [!DNL Meta]每天删除重复的用户配置文件访问权限，因此[!DNL Meta]和搜索、Social和Commerce报告的数字可能不同。 |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report]， [!UICONTROL Keyword Report])印象或点击产生的地区或美国/加拿大州。 根据用户的IP地址确定。 |
 | [!UICONTROL SE Creative ID] | 网络分配的广告ID。 |

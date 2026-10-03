@@ -1,24 +1,28 @@
 ---
-title: 查看 [!DNL On Demand] 交易请求和订阅的状态
-description: 了解如何查看 [!DNL On Demand] 交易请求和订阅的状态。
+title: 查看[!DNL On Demand]交易请求和订阅的状态
+description: 了解如何查看[!DNL On Demand]交易请求和订阅的状态。
 feature: DSP On Demand Inventory
 exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
-TQID: https://experienceleague.adobe.com/6u4nSyKFRPEOIEFXquusJF3cqriDXVp7lwTExN9uF5g
+TQID: 'https://experienceleague.adobe.com/6u4nSyKFRPEOIEFXquusJF3cqriDXVp7lwTExN9uF5g'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: '289'
 ht-degree: 0%
-
 ---
-
 # 查看[!DNL On Demand]交易请求和订阅的状态
 
 在请求单个交易或订阅出版商的所有交易后，查看出版商是否已批准或拒绝您帐户中每个广告商的每个交易。
@@ -28,8 +32,8 @@ ht-degree: 0%
 1. 执行以下任一操作：
    * 要在[!UICONTROL Deal]视图中查看交易，请单击&#x200B;**[!UICONTROL Deal view]**。
    * 要在[!UICONTROL Subscription]视图中查看交易，请执行以下操作：
-      1. 单击&#x200B;**[!UICONTROL Subscription view]**。
-      1. 将光标悬停在发布者徽标上，然后单击&#x200B;**[!UICONTROL See Deals]**。
+     1. 单击&#x200B;**[!UICONTROL Subscription view]**。
+     1. 将光标悬停在发布者徽标上，然后单击&#x200B;**[!UICONTROL See Deals]**。
 1. 找到[!UICONTROL Status]列以查看审批状态。
 
 ## 交易状态

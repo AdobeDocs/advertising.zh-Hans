@@ -3,20 +3,24 @@ title: 使用交易ID的数据馈送的数据要求
 description: 参考使用交易ID的数据馈送的数据要求。
 exl-id: 055b1417-3185-4081-83f0-9f4798058c04
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/TONScPVaJyxsORRD-sOrYXwEzO9rsa6ERPUo8oSRono
+TQID: 'https://experienceleague.adobe.com/TONScPVaJyxsORRD-sOrYXwEzO9rsa6ERPUo8oSRono'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 299
+source-wordcount: '299'
 ht-degree: 0%
-
 ---
-
 # 使用交易ID的数据馈送的数据要求
 
 以下是每种类型馈送文件所需的标题字段和相应的数据字段。

@@ -1,35 +1,44 @@
 ---
-title: 将 [!DNL Last Event Service] JavaScript库与 [!DNL Web SDK]一起使用
-description: 了解从使用 [!DNL Analytics] [!DNL visitorAPI]库转为使用 [!DNL Analytics for Advertising] 实施的 [!DNL Experience Platform] [!DNL Web SDK]库的步骤。
+title: 将[!DNL Last Event Service] JavaScript库与[!DNL Web SDK]一起使用
+description: 了解从使用[!DNL Analytics] [!DNL visitorAPI]库切换到[!DNL Analytics for Advertising]实施的[!DNL Experience Platform] [!DNL Web SDK]库的步骤。
 feature: Integration with Adobe Analytics
 exl-id: 764724a2-536a-43b9-955d-28d6146db29a
-TQID: https://experienceleague.adobe.com/zT1lQV1yotCfJJdzTBGzSspsNEKQEB5ulxYE0qyWa9Q
+TQID: 'https://experienceleague.adobe.com/zT1lQV1yotCfJJdzTBGzSspsNEKQEB5ulxYE0qyWa9Q'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Data collection
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 202
+source-wordcount: '204'
 ht-degree: 0%
-
 ---
-
 # 在Adobe Experience Platform [!DNL Web SDK]中使用[!DNL Last Event Service] JavaScript库
 
 *仅集成Adobe Advertising-Adobe Analytics的广告商*
 
-If your organization uses the legacy Adobe Analytics `visitorAPI.js` library for data collection, you can optionally switch to using the [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans) library (`alloy.js`), which allows you to interact with the various Adobe CX Enterprise services through the [!DNL Edge Network].
+如果您的组织使用旧版Adobe Analytics `visitorAPI.js`库进行数据收集，则可以选择转为使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)库(`alloy.js`)，这允许您通过[!DNL Edge Network]与各种Adobe CX Enterprise服务进行交互。
 
 [!DNL Analytics for Advertising] [!DNL Last Event Service] JavaScript库按原样记录浏览和点进事件，并使用补充ID (`SDID`)将它们与关联的转化拼合。 但是，[!DNL Web SDK]库不提供[!DNL stitch ID]。 要为[!DNL Analytics for Advertising]使用[!DNL Web SDK]，必须修改1)您在网页上使用的[!DNL Last Event Service]标记和2)相应的[!DNL Web SDK] `sendEvent`命令。
 
-## Step 1: Edit your [!DNL Last Event Service] tag to generate a `[!DNL StitchID]`
+## 步骤1：编辑您的[!DNL Last Event Service]标记以生成`[!DNL StitchID]`
 
 在网页上使用的[!DNL Analytics for Advertising] [!DNL Last Event Service]标记中，添加代码以使用库中捆绑的随机ID生成器生成`[!DNL StitchID]`。
 
@@ -85,4 +94,4 @@ If your organization uses the legacy Adobe Analytics `visitorAPI.js` library for
 >[!MORELIKETHIS]
 >
 >* [概述 [!DNL Analytics for Advertising]](overview.md)
->*  [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/javascript.md)的JavaScript代码
+>*  [!DNL Analytics for Advertising]&#x200B;[&#128279;](/help/integrations/analytics/javascript.md)的JavaScript代码

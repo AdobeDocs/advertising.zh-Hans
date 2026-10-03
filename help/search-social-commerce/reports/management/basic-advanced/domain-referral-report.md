@@ -3,21 +3,28 @@ title: '[!UICONTROL Domain Referral Report]'
 description: 了解[!UICONTROL Domain Referral Report]。
 exl-id: 17198c32-1dc4-4b1b-9af4-aaca027213dc
 feature: Search Reports, Search Advanced Reports
-TQID: https://experienceleague.adobe.com/uemwUbiNottir2JUMDxOzlZAaLbKEYYyCGMs2VMajhw
+TQID: 'https://experienceleague.adobe.com/uemwUbiNottir2JUMDxOzlZAaLbKEYYyCGMs2VMajhw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: c51771d4-46e9-5151-913c-59d4e047a4f1
+    internal-label: Search Advanced Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 269
+source-wordcount: '271'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Domain Referral Report]
 
 <!-- If we remove this report, also remove concept topic "Domain Optimization." -->

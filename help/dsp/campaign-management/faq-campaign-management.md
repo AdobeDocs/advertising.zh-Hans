@@ -3,25 +3,33 @@ title: 有关营销活动管理的常见问题解答
 description: 了解关于营销活动管理的更多信息，包括更改的延迟期以及在投放期间更改预算时将发生的情况。
 feature: DSP Packages, DSP Placements
 exl-id: 8a443543-ebb1-4273-a007-afef07d32d8c
-TQID: https://experienceleague.adobe.com/PgO4aktP20KQzNe6SG6Vw7ahvYqHTSISQ10FCum-vQg
+TQID: 'https://experienceleague.adobe.com/PgO4aktP20KQzNe6SG6Vw7ahvYqHTSISQ10FCum-vQg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 405
+source-wordcount: '410'
 ht-degree: 0%
-
 ---
-
 # 有关营销活动管理的常见问题解答
 
 <!-- Most of this information should be moved into the relevant topics (especially editing topics). -->
@@ -40,7 +48,7 @@ ht-degree: 0%
 
   预算分配基于职位安排业绩，该业绩以14天平均数评估。 只有在职位安排更改导致在14天平均时间内的绩效发生变化时，才会导致预算分配更改。
 
-  当发生性能更改时，DSP会在下一个预算优化周期(大约在营销活动时区的午夜(00:00)发生)期间在投放位置之间相应地重新分配包预算。
+  当发生性能更改时，DSP会在下一个预算优化周期内相应地在投放位置之间重新分配包预算，该周期大约在营销活动时区的午夜(00:00)发生。
 
 * 从资源包中删除投放位置并将其添加到另一个资源包时，如何重新分配预算？
 
@@ -52,7 +60,7 @@ ht-degree: 0%
 
 * 在航班的最后一天，包裹的步调会有什么变化？
 
-  在飞行的最后一天，时间从24小时缩短到23小时，以免超出包预算。 此外，包的步调填充策略会自动更改为“[!UICONTROL Frontload]”，即使它设置为“[!UICONTROL even]”。 这意味着65%的每日预算应在东部时间上午11:30前交付。
+  在飞行的最后一天，时间从24小时缩短到23小时，以免超出包预算。 此外，包的步调填充策略会自动更改为“[!UICONTROL Frontload]”，即使它设置为“[!UICONTROL even]”。 这意味着65%的每日预算应在东部标准时间上午11:30前交付。
 
 >[!MORELIKETHIS]
 >

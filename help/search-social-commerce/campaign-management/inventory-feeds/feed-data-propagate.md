@@ -3,18 +3,21 @@ title: 通过模板传播库存馈送数据
 description: 了解如何通过广告模板从库存馈送传播数据，以管理帐户结构和投放动态广告。
 exl-id: 9660af19-a517-4593-9a99-da600a0285a5
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/2MCDHOgRqhAgwKuT-drdVZCHZJhSYxX3F3wLAVnpXT0
+TQID: 'https://experienceleague.adobe.com/2MCDHOgRqhAgwKuT-drdVZCHZJhSYxX3F3wLAVnpXT0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 881
+source-wordcount: '881'
 ht-degree: 0%
-
 ---
-
 # 通过模板传播库存馈送数据
 
 *[!DNL Google Ads]、[!DNL LY Ads] （仅删除操作）、[!DNL Microsoft Advertising]和仅[!DNL Yandex]帐户*

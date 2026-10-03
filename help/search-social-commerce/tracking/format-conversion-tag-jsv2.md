@@ -3,20 +3,23 @@ title: JavaScript转化跟踪标记版本2的格式
 description: 引用JavaScript转化跟踪标记版本2的格式。
 exl-id: 75e96f97-a3f0-4f5b-8bbb-4b1e8986f01a
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/WKh16jULfv2I-P7SEm9oP9O933KYNIZNPiIe9FD2xro
+TQID: 'https://experienceleague.adobe.com/WKh16jULfv2I-P7SEm9oP9O933KYNIZNPiIe9FD2xro'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 305
+source-wordcount: '306'
 ht-degree: 0%
-
 ---
-
 # JavaScript转化跟踪标记版本2的格式
 
 以下格式适用于使用HTTPS的网站。 对于使用HTTP的网站，URL应以“http”开头。

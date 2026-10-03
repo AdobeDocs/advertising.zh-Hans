@@ -3,24 +3,31 @@ title: 归因规则的计算方式
 description: 了解Adobe Advertising如何计算每种类型的归因规则。
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports, DSP Custom Reports
-TQID: https://experienceleague.adobe.com/LJri0oJaUSYMUwauq-xu8u41CYmQcfmJBbYXrMd4YUE
+TQID: 'https://experienceleague.adobe.com/LJri0oJaUSYMUwauq-xu8u41CYmQcfmJBbYXrMd4YUE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: a8f4be51-fec2-5e52-b41e-a611c28e444c
+    internal-label: DSP Custom Reports
 subfeature_v2:
   - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+    internal-label: Custom reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2707
+source-wordcount: '2767'
 ht-degree: 0%
-
 ---
-
 # 如何为Adobe Advertising计算归因规则
 
 *仅具有Adobe Advertising转化跟踪的广告商*
@@ -33,15 +40,15 @@ ht-degree: 0%
 
 * DSP
 
-   * 自定义报表
+  * 自定义报表
 
 * 搜索、社交和Commerce
 
-   * 报告
+  * 报告
 
-   * 默认视图和自定义视图
+  * 默认视图和自定义视图
 
-   * （某些用户角色）Portfolio级别模拟。
+  * （某些用户角色）Portfolio级别模拟。
 
 >[!NOTE]
 >
@@ -64,29 +71,29 @@ ht-degree: 0%
 
 ### 包含所有点击的示例
 
-事件路径： Click1、Click2、Click3、120美元的转化
+事件路径： Click1、Click2、Click3、120 USD转化
 
-该转换归因于Click 3，金额为120美元。
+该转化归因于点击3，金额为120USD。
 
 ### 包含展示次数和点击次数的示例
 
 **注意：**&#x200B;展示次数仅适用于显示广告和社交广告。
 
-事件路径： Impression 1、Click 1、Impression 2、120美元转化
+事件路径： Impression 1、Click 1、Impression 2、120 USD转化
 
-该转换归因于Click 1，金额为120美元。
+该转化归因于USD中的Click 1，金额为120。
 
 ### 具有所有展示的示例
 
 **注意：**&#x200B;仅展示广告和社交广告的展示次数适用。
 
-事件路径： Impression 1、Impression 2、Impression 3、120美元转化
+事件路径： Impression 1、Impression 2、Impression 3、120 USD的转化
 
 该转化归因于展示3。 由于转化是显示到达次数，因此应用了在报表设置的“转化归因”部分中选择的显示到达估价方法：
 
-* 如果报表参数指定了加权的显示到达权重，则该权重将应用于显示到达。 例如，如果广告商的展示权重为40%，则120 USD x 40% = 48 USD，因此48 USD归因于“展示3”。
+* 如果报表参数指定了加权的显示到达权重，则该权重将应用于显示到达。 例如，如果广告商的展示权重为40%，则120 USD x 40% = 48 USD，因此48 USD归因于“展示次数3”。
 
-* 如果报表参数指定使用显示到达的原始值，则显示到达权重不会应用于显示到达，并且全部120美元将归因于“展示3”。
+* 如果报表参数指定使用显示到达的原始值，则显示到达权重不会应用于显示到达，并且整个120 USD都归因于展示3。
 
 +++
 
@@ -106,30 +113,30 @@ ht-degree: 0%
 
 ### 包含所有点击的示例
 
-事件路径：单击1，单击2，单击3，转换额为120美元
+事件路径：单击1，单击2，单击3，转换120 USD
 
-该转换归因于Click 1，金额为120美元。
+该转化归因于USD中的Click 1，金额为120。
 
 ### 包含展示次数和点击次数的示例
 
 **注意：**&#x200B;展示次数仅适用于显示广告和社交广告。
 
-事件路径： Impression 1、Click 1、Impression 2、120美元转化
+事件路径： Impression 1、Click 1、Impression 2、120 USD转化
 
-该转换归因于Click 1，金额为120美元。
+该转化归因于USD中的Click 1，金额为120。
 
 ### 具有所有展示的示例
 
 **注意：**&#x200B;仅展示广告和社交广告的展示次数适用。
 
-事件路径： Impression 1、Impression 2、Impression 3、120美元转化
+事件路径： Impression 1、Impression 2、Impression 3、120 USD的转化
 
 该转化归因于展示1。 由于转化是显示到达，因此在“（显示促销活动）转化”中选择的显示到达估价方法
 报表设置的“归因”部分：
 
-* 如果报表参数指定了加权的显示到达权重，则该权重将应用于显示到达。 例如，如果广告商的展示权重为40%，则120 x 40% = 48美元，因此48美元归因于“展示次数1”。
+* 如果报表参数指定了加权的显示到达权重，则该权重将应用于显示到达。 例如，如果广告商的展示权重为40%，则120 x 40% = 48 USD，因此48 USD归因于“展示次数1”。
 
-* 如果报表参数指定使用显示到达的原始值，则显示到达权重不会应用于显示到达，并且全部120美元将归因于“展示1”。
+* 如果报表参数指定使用显示到达的原始值，则显示到达权重不会应用于显示到达次序，并且整个120 USD都归因于展示1。
 
 +++
 
@@ -137,7 +144,7 @@ ht-degree: 0%
 
 ## 将第一个事件加权更多
 
-将转化归因于在广告商的[点击回顾窗口](/help/search-social-commerce/glossary.md#c-d)和[展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)内发生的系列中的所有事件，但给予第一个事件的权重最大，给予以下事件的权重依次较低。此规则仅适用于单个设备上的事件。
+将转化归因于在广告商的[点击回顾窗口](/help/search-social-commerce/glossary.md#c-d)和[展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)内发生的系列中的所有事件，但给予第一个事件最大权重，并依次减少对以下事件的权重。此规则仅适用于单个设备上的事件。
 
 如果转换之前只有展示次数，则转换将被视为&#x200B;*显示到达*，其根据广告商的[显示到达权重设置](/help/search-social-commerce/glossary.md#uv)进行加权，或者，根据指定，根据在报表、视图或自定义模拟参数中指定的显示到达估价方法进行加权。
 
@@ -155,15 +162,15 @@ ht-degree: 0%
 
 ### 包含所有点击的示例
 
-事件路径：单击1，单击2，单击3，转换额为120美元
+事件路径：单击1，单击2，单击3，转换120 USD
 
-归因：单击1 = 60 USD，单击2 = 40 USD，单击3 = 20 USD（总计120 USD）
+归因：单击1 = 60 USD，单击2 = 40 USD，单击3 = 20 USD（共120 USD）
 
 ### 包含展示和点击的示例
 
 **注意：**&#x200B;展示次数仅适用于显示广告和社交广告。
 
-事件路径： Impression 1、Click 1、Impression 2、Click 2、120美元的转化
+事件路径： Impression 1、Click 1、Impression 2、Click 2、120 USD转化
 
 #### （仅限搜索、社交和Commerce）使用默认的“展示覆盖权重”10%
 
@@ -181,13 +188,13 @@ ht-degree: 0%
 
 **注意：**&#x200B;仅展示广告的展示次数适用。
 
-事件路径： Impression 1、Impression 2、Impression 3、120美元转化
+事件路径： Impression 1、Impression 2、Impression 3、120 USD的转化
 
 由于转换是一种显示转换，因此会应用显示转换估价方法（而不是展示次数覆盖权重）来确定每个展示次数的值：
 
-* 如果报表参数指定了加权的显示到达权重，则该权重将应用于展示值。 例如，如果显示到达重量为40%，则展示1 = 24 USD，展示2 = 16 USD，展示3 = 8 USD（合计48 USD）
+* 如果报表参数指定了加权的显示到达权重，则该权重将应用于展示值。 例如，如果显示到达权重为40%，则展示1 = 24 USD，展示2 = 16 USD，展示3 = 8 USD（共48 USD）
 
-* 如果报表参数指定使用原始值表示显示到达次数，则不会为展示应用显示到达权重，120美元全数在三种展示之间分配：展示1 = 60美元，展示2 = 40美元，展示3 = 20美元（总计120美元）
+* 如果报表参数指定使用原始值表示显示到达次数，则不会向展示应用显示到达权重，并且完整的120 USD分为三个展示：展示1 = 60 USD，展示2 = 40 USD，展示3 = 20 USD（总计120 USD）
 
 +++
 
@@ -217,17 +224,17 @@ ht-degree: 0%
 
 ### 包含所有点击的示例
 
-事件路径：单击1，单击2，单击3，转换价格为120美元
+事件路径：单击1，单击2，单击3，转换120 USD
 
 无展示会导致转化，因此展示覆盖权重不适用，并且转化在三次点击之间平均分配：
 
-归因：单击1 = 40 USD，单击2 = 40 USD，单击3 = 40 USD（总计120 USD）
+归因：单击1 = 40 USD，单击2 = 40 USD，单击3 = 40 USD（共120 USD）
 
 ### 包含展示和点击的示例
 
 **注意：**&#x200B;展示次数仅适用于显示广告和社交广告。
 
-事件路径： Impression 1、Click 1、Impression 2、Click 2、120美元的转化
+事件路径： Impression 1、Click 1、Impression 2、Click 2、120 USD转化
 
 #### （仅限搜索、社交和Commerce）使用默认的“展示覆盖权重”10%
 
@@ -245,13 +252,13 @@ ht-degree: 0%
 
 **注意：**&#x200B;仅展示广告的展示次数适用。
 
-事件路径： Impression 1、Impression 2、Impression 3、120美元转化
+事件路径： Impression 1、Impression 2、Impression 3、120 USD的转化
 
 由于转换是一种显示转换，因此会应用显示转换估价方法（而不是展示次数覆盖权重）来确定每个展示次数的值：
 
-* 如果报表参数指定了加权的显示到达权重，则该权重将应用于展示值。 例如，如果显示到达重量为40%，则展示1 = 16 USD，展示2 = 16 USD，展示3 = 16 USD（合计48 USD）
+* 如果报表参数指定了加权的显示到达权重，则该权重将应用于展示值。 例如，如果显示到达权重为40%，则展示1 = 16 USD，展示2 = 16 USD，展示3 = 16 USD（总计48 USD）
 
-* 如果报表参数指定使用原始值表示显示到达次数，则不会为展示应用显示到达权重，120美元全数在三种展示之间分配：展示1 = 40美元，展示2 = 40美元，展示3 = 40美元（总计120美元）
+* 如果报表参数指定使用原始值表示显示到达次数，则不会向展示应用显示到达权重，并且完整的120 USD分为三个展示：展示1 = 40 USD，展示2 = 40 USD，展示3 = 40 USD（总计120 USD）
 
 +++
 
@@ -277,15 +284,15 @@ ht-degree: 0%
 
 ### 包含所有点击的示例
 
-事件路径：单击1，单击2，单击3，转换额为120美元
+事件路径：单击1，单击2，单击3，转换120 USD
 
-归因：单击3 = 60 USD，单击2 = 40 USD，单击1 = 20 USD（总计120 USD）
+归因：单击3 = 60 USD，单击2 = 40 USD，单击1 = 20 USD（共120 USD）
 
 ### 包含展示和点击的示例
 
 **注意：**&#x200B;展示次数仅适用于显示广告和社交广告。
 
-事件路径： Impression 1、Click 1、Impression 2、Click 2、120美元的转化
+事件路径： Impression 1、Click 1、Impression 2、Click 2、120 USD转化
 
 #### （仅限搜索、社交和Commerce）使用默认的“展示覆盖权重”10%
 
@@ -303,13 +310,13 @@ ht-degree: 0%
 
 **注意：**&#x200B;展示次数仅适用于显示广告和社交广告。
 
-事件路径： Impression 1， Impression 2， Impression 3,120美元转化
+事件路径： Impression 1， Impression 2， Impression 3,120 USD的转化
 
 由于转换是一种显示转换，因此会应用显示转换估价方法（而不是展示次数覆盖权重）来确定每个展示次数的值：
 
-* 如果报表参数指定了加权的显示到达权重，则该权重将应用于展示值。 例如，如果显示到达权重为40%，则将“包含所有点击的示例”中的每个值乘以40%：Impression 3 = 24 USD，Impression 2 = 16 USD，Impression 1 = 8 USD（合计48 USD）
+* 如果报表参数指定了加权的显示到达权重，则该权重将应用于展示值。 例如，如果显示到达权重为40%，则“包含所有点击的示例”中的每个值乘以40%：Impression 3 = 24 USD，Impression 2 = 16 USD，Impression 1 = 8 USD（总计48 USD）
 
-* 如果报表参数指定使用显示到达的原始值，则完整的120 USD在展示之间平分：展示3 = 60 USD，展示2 = 40 USD，展示1 = 20 USD（总计120 USD）
+* 如果报表参数指定使用原始值作为显示到达次数，则完整的120 USD将在展示次数之间平分：展示次数3 = 60 USD，展示次数2 = 40 USD，展示次数1 = 20 USD（总计120 USD）
 
 +++
 
@@ -335,7 +342,7 @@ ht-degree: 0%
 
 ### 包含所有点击的示例
 
-事件路径：单击1，单击2，单击3，单击4,120美元换算
+事件路径：依次单击1、2、3、4、120 USD的转化
 
 归因：单击1 = 36 USD，单击2 = 24 USD，单击3 = 24 USD，单击4 = 36 USD（总计120 USD）
 
@@ -343,7 +350,7 @@ ht-degree: 0%
 
 **注意：**&#x200B;展示次数仅适用于显示广告和社交广告。
 
-事件路径： Impression 1、Click 1、Impression 2、Click 2、120美元的转化
+事件路径： Impression 1、Click 1、Impression 2、Click 2、120 USD转化
 
 #### （仅限搜索、社交和Commerce）使用默认的“展示覆盖权重”10%
 
@@ -361,13 +368,13 @@ ht-degree: 0%
 
 **注意：**&#x200B;仅展示广告的展示次数适用。
 
-事件路径： Impression 1、Impression 2、Impression 3、Impression 4、120美元转化
+事件路径： Impression 1、Impression 2、Impression 3、Impression 4、120 USD转化
 
 由于转换是一种显示转换，因此会应用显示转换估价方法（而不是展示次数覆盖权重）来确定每个展示次数的值：
 
-* 如果报表参数指定了加权的显示到达权重，则该权重将应用于展示值。 例如，如果显示到达重量为40%，则单击1 = 14.40 USD，单击2 = 9.60 USD，单击3 = 9.60 USD，单击4 = 14.40 USD（合计48 USD）
+* 如果报表参数指定了加权的显示到达权重，则该权重将应用于展示值。 例如，如果显示到达权重为40%，则单击1 = 14.40 USD，单击2 = 9.60 USD，单击3 = 9.60 USD，单击4 = 14.40 USD（总计48个USD）
 
-* 如果报表参数指定使用显示到达的原始值，则完整的120 USD将在展示次数之间平分：单击1 = 36 USD，单击2 = 24 USD，单击3 = 24 USD，单击4 = 36 USD（总计120 USD）
+* 如果报表参数指定使用原始值进行显示到达次数，则完整的120 USD将在展示次数之间平分：单击1 = 36 USD、单击2 = 24 USD、单击3 = 24 USD、单击4 = 36 USD（总计120 USD）
 
 +++
 

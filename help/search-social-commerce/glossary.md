@@ -3,21 +3,26 @@ title: 术语表
 description: 请参阅关键术语的定义。
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-TQID: https://experienceleague.adobe.com/aJc98oWlKlYx5ROezUwJsIsw46xcad1rKQTqoXhyggw
+TQID: 'https://experienceleague.adobe.com/aJc98oWlKlYx5ROezUwJsIsw46xcad1rKQTqoXhyggw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2377
+source-wordcount: '2408'
 ht-degree: 0%
-
 ---
-
 # 术语表 {#glossary}
 
 ## A-B {#a-b}
@@ -72,7 +77,7 @@ ht-degree: 0%
 
 **每次购置成本：** (CPA)广告成本除以转化次数。 也称为每次交易成本(CPT)或每次订单成本(CPO)。
 
-**每次点击成本：** (CPC) 1)广告成本除以广告点击总数。 例如，如果您为一个广告展示花费了100 USD，并且该广告生成了10次点击，则每次点击成本为100 USD/10=10 USD/每次点击。 2)一种定价模型，在此模型中，每次广告点击都会向广告商收费。
+**每次点击成本：** (CPC) 1)广告成本除以广告点击总数。 例如，如果您在一个广告展示中花费了100个USD，而该广告产生了10次点击，则每次点击的成本为100 USD/10=10 USD 。 2)一种定价模型，在此模型中，每次广告点击都会向广告商收费。
 
 **每订单成本：** (CPO)广告成本除以订单数。 也称为每次收购成本(CPA)或每次交易成本(CPT)。
 
@@ -100,7 +105,7 @@ ht-degree: 0%
 
 ## G-H {#g-h}
 
-**半衰期：**&#x200B;将数量减少到其初始值的一半所需的时间。对于每个项目组合，您可以指定半衰期以指示数据与成本模型和收入模型相关的时间。
+**半衰期：**&#x200B;将数量减少到其初始值的一半所需的时间。 对于每个项目组合，您可以指定半衰期以指示数据与成本模型和收入模型相关的时间。
 请参阅“成本模型半衰期”和“收入模型半衰期”。
 
 ## I-J {#i-j}

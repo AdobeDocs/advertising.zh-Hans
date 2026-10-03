@@ -3,20 +3,27 @@ title: 管理创意包
 description: 了解如何管理和使用创意人员组。
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-TQID: https://experienceleague.adobe.com/hat5puvy5qIpBrShro3QpZoqt2kkd4nnmi4zT7G9Vfg
+TQID: 'https://experienceleague.adobe.com/hat5puvy5qIpBrShro3QpZoqt2kkd4nnmi4zT7G9Vfg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: ea400851-fc23-4174-bc9c-b50ea0ed4d00
+    internal-label: Creative Bundles
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1587
+source-wordcount: '1588'
 ht-degree: 0%
-
 ---
-
 # 管理创意包
 
 <!--
@@ -75,9 +82,9 @@ ht-degree: 0%
 
    * 要复制单个捆绑包，请执行以下操作：
 
-      * 在卡片视图中，单击包名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Duplicate]**。
+     * 在卡片视图中，单击包名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Duplicate]**。
 
-      * 在表视图中，将光标悬停在行上并单击&#x200B;**[!UICONTROL Duplicate]**。
+     * 在表视图中，将光标悬停在行上并单击&#x200B;**[!UICONTROL Duplicate]**。
 
    * 要复制一个或多个包，请选中要复制的每个包的复选框。 在批量操作工具栏中，单击&#x200B;**[!UICONTROL Duplicate].**
 
@@ -175,9 +182,9 @@ ht-degree: 0%
 
    * 要分离单个创意，请执行以下操作：
 
-      * 在卡片视图中，单击创意名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Detach]**。
+     * 在卡片视图中，单击创意名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Detach]**。
 
-      * 在表视图中，将光标悬停在行上并单击&#x200B;**[!UICONTROL Detach]**。
+     * 在表视图中，将光标悬停在行上并单击&#x200B;**[!UICONTROL Detach]**。
 
    * 要分离一个或多个创意，请选中要分离的每个创意所对应的复选框。 在批量操作工具栏中，单击&#x200B;**[!UICONTROL Detach]**。
 
@@ -316,9 +323,9 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
    * 要删除单个捆绑包，请执行以下操作：
 
-      * 在卡片视图中，单击包名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Delete]**。
+     * 在卡片视图中，单击包名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Delete]**。
 
-      * 在表视图中，将光标悬停在行上并单击&#x200B;**[!UICONTROL Delete]**。
+     * 在表视图中，将光标悬停在行上并单击&#x200B;**[!UICONTROL Delete]**。
 
    * 要删除一个或多个包，请选中要删除的每个包的复选框。 在批量操作工具栏中，单击&#x200B;**[!UICONTROL Delete].**
 

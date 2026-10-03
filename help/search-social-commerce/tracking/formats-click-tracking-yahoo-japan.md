@@ -1,20 +1,23 @@
 ---
-title: ' [!DNL LY Ads]的点击跟踪格式'
-description: 了解 [!DNL LY Ads] 帐户的点击跟踪格式。
+title: '[!DNL LY Ads]的点击跟踪格式'
+description: 了解[!DNL LY Ads]帐户的点击跟踪格式。
 exl-id: 79e45205-5c72-4612-9b60-36538e3c48c4
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/ZFNzA0bfxKhlNW6fvPWMwBc4naT7rOhvym-wSpxvYXg
+TQID: 'https://experienceleague.adobe.com/ZFNzA0bfxKhlNW6fvPWMwBc4naT7rOhvym-wSpxvYXg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 115
+source-wordcount: '116'
 ht-degree: 0%
-
 ---
-
 # [!DNL LY Ads]上赞助广告的点击跟踪格式
 
 以下基本跟踪模板格式适用于赞助广告：

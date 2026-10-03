@@ -1,25 +1,32 @@
 ---
-title: 向 [!DNL FreeWheel]提交PG交易的广告
-description: 了解如何在 [!DNL FreeWheel]上与发布者请求批准计划性保证交易的广告。
+title: 向[!DNL FreeWheel]提交PG交易的广告
+description: 了解如何在[!DNL FreeWheel]上与发布者请求批准计划性保证交易的广告。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 18d91f0c-4a27-4e40-b762-6c5e97e9a21a
-TQID: https://experienceleague.adobe.com/f6Cu6mG77YOjwshI4xVbkLSkykAhqXonfSMg5ynDK5g
+TQID: 'https://experienceleague.adobe.com/f6Cu6mG77YOjwshI4xVbkLSkykAhqXonfSMg5ynDK5g'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 237
+source-wordcount: '235'
 ht-degree: 0%
-
 ---
-
 # 向[!DNL FreeWheel]提交计划性保证交易的广告
 
 *仅具有[!DNL FreeWheel]编程性保证权限的*&#x200B;帐户

@@ -1,20 +1,23 @@
 ---
-title: 关于 [!DNL Google Ads] 个版面
-description: 了解 [!DNL Google Ads]的可竞价投放位置和负投放位置选项。
+title: 关于[!DNL Google Ads]个投放位置
+description: 了解[!DNL Google Ads]的可竞价投放和否定投放选项。
 exl-id: c0a2d888-8afa-47c8-a89e-da4de527e6ea
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/mLsl1Jx5cbPCvdSpNjff9aU1O4vPPDsFW-eYPX7PfG8
+TQID: 'https://experienceleague.adobe.com/mLsl1Jx5cbPCvdSpNjff9aU1O4vPPDsFW-eYPX7PfG8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 166
+source-wordcount: '167'
 ht-degree: 0%
-
 ---
-
 # 关于[!DNL Google Ads]个投放位置
 
 仅&#x200B;*[!DNL Google Ads]个帐户*

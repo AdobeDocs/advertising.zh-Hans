@@ -3,27 +3,31 @@ title: 管理投放位置的竞价乘数
 description: 了解如何创建和编辑投放目标的竞价乘数。
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-TQID: https://experienceleague.adobe.com/6lo2C8Pqajc9hOkfoRVXM3F1L0QwGGEKQGV8I5jYaq0
+TQID: 'https://experienceleague.adobe.com/6lo2C8Pqajc9hOkfoRVXM3F1L0QwGGEKQGV8I5jYaq0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 910
+source-wordcount: '912'
 ht-degree: 1%
-
 ---
-
 # 管理投放位置的竞价乘数
 
 您可以为[个符合条件的目标类型](#bid-multiplier-by-target)的现有投放位置目标创建和管理竞价乘数，通过算法计算的竞价乘数以增加或减少竞价。 您可以手动编辑一个版面的竞价倍增值，也可以上载具有一个或多个版面值的电子表格。
 
-默认情况下，目标的竞价倍数为1.00，这意味着不针对该目标调整竞价。 值的范围可以是0.10到10.00。例如，0.5的竞价倍数将竞价6美元降至3美元(0.5 x 6)。 当拍卖符合多个竞价修饰符资格时，所有适用的竞价修饰符都将被相乘。 例如，如果加利福尼亚的竞价倍数为2，而旧金山的竞价倍数为3，则旧金山广告的最终竞价倍数为6。
+默认情况下，目标的竞价倍数为1.00，这意味着不针对该目标调整竞价。 值的范围可以是0.10到10.00。 例如，竞价乘数为0.5会将USD 6的竞价降低到USD 3 (0.5 x 6)。 当拍卖符合多个竞价修饰符资格时，所有适用的竞价修饰符都将被相乘。 例如，如果加利福尼亚的竞价倍数为2，而旧金山的竞价倍数为3，则旧金山广告的最终竞价倍数为6。
 
 >[!NOTE]
 >
@@ -53,21 +57,21 @@ ht-degree: 1%
 
    * 要上传具有竞价倍增值的CSV文件以覆盖所有现有值，请执行以下操作：
 
-      1. 单击右上角的&#x200B;**[!UICONTROL CSV File Edit]**。
+     1. 单击右上角的&#x200B;**[!UICONTROL CSV File Edit]**。
 
-      1. a)单击&#x200B;**[!UICONTROL Download Template]**&#x200B;并编辑该文件，或b)编辑以前下载的模板。 将编辑的文件保存到您的设备或网络。
+     1. a)单击&#x200B;**[!UICONTROL Download Template]**&#x200B;并编辑该文件，或b)编辑以前下载的模板。 将编辑的文件保存到您的设备或网络。
 
-         下载的电子表格中为每个目标类型（如国家/地区、来源和站点类别）包含一个工作表。 只包含值&lt; 1.0或> 1.0的现有竞价乘数。
+        下载的电子表格中为每个目标类型（如国家/地区、来源和站点类别）包含一个工作表。 只包含值&lt; 1.0或> 1.0的现有竞价乘数。
 
-         * 要为现有目标添加竞价乘数，请使用用户界面中显示的相同语法和对应的竞价乘数值输入目标。
+        * 要为现有目标添加竞价乘数，请使用用户界面中显示的相同语法和对应的竞价乘数值输入目标。
 
-         * 要删除竞价修饰符，请将竞价倍增值设置为1.0或删除行的所有信息。
+        * 要删除竞价修饰符，请将竞价倍增值设置为1.0或删除行的所有信息。
 
-         ![竞价乘数电子表格文件中的示例行](/help/dsp/assets/bid-multiplier-spreadsheet.png "竞价乘数电子表格文件中的示例行")
+        ![竞价乘数电子表格文件中的示例行](/help/dsp/assets/bid-multiplier-spreadsheet.png "竞价乘数电子表格文件中的示例行")
 
-      1. 单击&#x200B;**[!UICONTROL Next]**&#x200B;移至[!UICONTROL Upload File]部分，然后a)将编辑的文件拖放到框中，或者b)单击框内部以从设备或网络中选择文件。
+     1. 单击&#x200B;**[!UICONTROL Next]**&#x200B;移至[!UICONTROL Upload File]部分，然后a)将编辑的文件拖放到框中，或者b)单击框内部以从设备或网络中选择文件。
 
-      1. 验证[!UICONTROL Review & Submit]部分中已上传的数据，然后单击&#x200B;**[!UICONTROL Save]**。
+     1. 验证[!UICONTROL Review & Submit]部分中已上传的数据，然后单击&#x200B;**[!UICONTROL Save]**。
 
 ## 上载一个或多个投放位置的竞价乘数
 

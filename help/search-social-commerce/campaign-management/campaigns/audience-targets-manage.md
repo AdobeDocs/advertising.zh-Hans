@@ -1,20 +1,23 @@
 ---
 title: 管理营销活动和广告组的受众目标
-description: 了解如何为 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 营销活动和广告组配置和管理受众目标。
+description: 了解如何配置和管理[!DNL Google Ads]和[!DNL Microsoft Advertising]营销活动和广告组的受众目标。
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/U0RHQhkBYus7SwgN-gXKht4-MSV5VMy8nVTiKgGz1wY
+TQID: 'https://experienceleague.adobe.com/U0RHQhkBYus7SwgN-gXKht4-MSV5VMy8nVTiKgGz1wY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 771
+source-wordcount: '767'
 ht-degree: 0%
-
 ---
-
 # 管理[!DNL Google Ads]和[!DNL Microsoft Advertising]营销活动和广告组的受众目标
 
 仅&#x200B;*[!DNL Google Ads]和[!DNL Microsoft Advertising]*
@@ -65,7 +68,7 @@ ht-degree: 0%
 
    * *0%：*&#x200B;不调整此受众的广告竞价。
 
-   * /[*从–90%到900%的其他值*/]：增加或减少此受众的广告竞价。 例如，如果关键词级别的竞价为1美元，而特定受众目标的竞价调整为50%，则该受众的竞价将增加到1.50美元。
+   * /[*从–90%到900%的其他值*/]：增加或减少此受众的广告竞价。 例如，如果关键词级别的竞价为1 USD，而特定受众目标的竞价调整为50%，则该受众的竞价将增至1.50 USD。
 
 ## 编辑受众目标的竞价修饰符
 
@@ -83,27 +86,27 @@ ht-degree: 0%
 
    * 要编辑一个或多个目标的竞价修饰符，请执行以下操作：
 
-      1. 选中要编辑的每个目标旁边的复选框。
+     1. 选中要编辑的每个目标旁边的复选框。
 
-         有关选择多行的提示，请参阅“[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)”。
+        有关选择多行的提示，请参阅“[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)”。
 
-      1. 在数据表上方的工具栏中，单击![编辑](/help/search-social-commerce/assets/edit.png "编辑")。
+     1. 在数据表上方的工具栏中，单击![编辑](/help/search-social-commerce/assets/edit.png "编辑")。
 
-      1. 编辑&#x200B;**[!UICONTROL Bid Modifier]**&#x200B;和/或&#x200B;**[!UICONTROL Status]**&#x200B;字段。
+     1. 编辑&#x200B;**[!UICONTROL Bid Modifier]**&#x200B;和/或&#x200B;**[!UICONTROL Status]**&#x200B;字段。
 
-         对于[!UICONTROL Bid Modifier]字段，您可以选择将现有值更改为指定值，或者增加或减少金额指定百分比或货币金额，但有限制。
+        对于[!UICONTROL Bid Modifier]字段，您可以选择将现有值更改为指定值，或者增加或减少金额指定百分比或货币金额，但有限制。
 
-         对于设置的值，该值可以包括：
+        对于设置的值，该值可以包括：
 
-         * *0%：*&#x200B;不调整此受众的广告竞价。
+        * *0%：*&#x200B;不调整此受众的广告竞价。
 
-         * /[*从–90%到900%的其他值*/]：增加或减少此受众的广告竞价。 例如，如果关键词级别的竞价为1美元，而特定受众目标的竞价调整为50%，则该受众的竞价将增加到1.50美元。
+        * /[*从–90%到900%的其他值*/]：增加或减少此受众的广告竞价。 例如，如果关键词级别的竞价为1 USD，而特定受众目标的竞价调整为50%，则该受众的竞价将增至1.50 USD。
 
-         对于多个目标，您的更改将应用于所有选定的目标。
+        对于多个目标，您的更改将应用于所有选定的目标。
 
-      1. （可选）单击&#x200B;**[!UICONTROL Additional Details]**，并选择性地输入项目名称和描述。
+     1. （可选）单击&#x200B;**[!UICONTROL Additional Details]**，并选择性地输入项目名称和描述。
 
-      1. 单击&#x200B;**[!UICONTROL Post]**。
+     1. 单击&#x200B;**[!UICONTROL Post]**。
 
 ## 更改受众目标的状态
 

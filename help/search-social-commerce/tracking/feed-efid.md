@@ -3,20 +3,24 @@ title: 使用EF ID馈送的转化跟踪
 description: 了解如何将EF ID馈送用于转化跟踪数据。
 exl-id: fd065313-3d27-4bb9-a934-e815e02cf405
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/D4OpKvTL-jjIOgMaakH78aYA7q9p2BXcc2P-RI8blfY
+TQID: 'https://experienceleague.adobe.com/D4OpKvTL-jjIOgMaakH78aYA7q9p2BXcc2P-RI8blfY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 349
+source-wordcount: '352'
 ht-degree: 0%
-
 ---
-
 # 使用EF ID馈送的转化跟踪
 
 在此方法中，Advertising Cloud会在用户每次点击和广告并到达登陆页面时收集一个`ef_id`值，广告商将该`ef_id`值与转化数据一起存储并在数据馈送中发送。

@@ -3,22 +3,26 @@ title: 复制广告
 description: 了解如何复制广告。
 feature: DSP Ads
 exl-id: 030ce258-750c-4c5f-ae89-32dfb2864189
-TQID: https://experienceleague.adobe.com/ecJn-5biwPx25Uq4FOIoi2IhAFZr3ZJPCrNU14jjgy4
+TQID: 'https://experienceleague.adobe.com/ecJn-5biwPx25Uq4FOIoi2IhAFZr3ZJPCrNU14jjgy4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 187
+source-wordcount: '189'
 ht-degree: 0%
-
 ---
-
 # 复制广告
 
 您可以在同一营销策划中复制广告。
@@ -33,7 +37,7 @@ ht-degree: 0%
 
 1. 指定新的广告设置：
 
-   1. （可选）更改默认广告名称。 默认情况下，新广告被命名为“副本\&lt;*原始广告名称*\>”。
+   1. （可选）更改默认广告名称。 默认情况下，新广告被称为“副本\&lt;*原始广告名称*\>。”
 
    1. （可选）更改[音频广告](ad-settings-audio.md)、[连接的电视](ad-settings-connected-tv.md)、[显示广告](ad-settings-display.md)、[移动广告](ad-settings-mobile.md)、[原生广告](ad-settings-native.md)、[前置广告](ad-settings-pre-roll.md)或[通用视频广告](ad-settings-universal-video.md)的广告设置。
 

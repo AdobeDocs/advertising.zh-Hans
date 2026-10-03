@@ -3,13 +3,17 @@ title: 附加和删除广告中的像素
 description: 了解如何从广告中附加和删除第三方跟踪像素。
 feature: DSP Ads
 exl-id: 7b386a58-5300-49cf-9de8-4ce982a5181d
-source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '620'
 ht-degree: 0%
-
 ---
-
 # 附加和删除广告中的像素
 
 您可以附加第三方跟踪像素并将其从广告中分离。
@@ -66,7 +70,7 @@ ht-degree: 0%
 
    1. 单击右下角的&#x200B;**[!UICONTROL Attach]**。
 
-1. （可选）要返回到营销活动详细信息视图，请单击![返回到文件夹](/help/dsp/assets/breadcrumb-return.png "返回到文件夹")左侧的文件夹[!UICONTROL Ad Tools]，然后选择营销活动名称。
+1. （可选）要返回到营销活动详细信息视图，请单击![返回到文件夹](/help/dsp/assets/breadcrumb-return.png "返回到文件夹[!UICONTROL Ad Tools]左侧的文件夹")，然后选择营销活动名称。
 
 ## 从投放位置中的广告分离第三方跟踪像素 {#detach-pixels-ads}
 
@@ -90,7 +94,7 @@ ht-degree: 0%
 
    1. 单击右下角的&#x200B;**[!UICONTROL Detach]**。
 
-1. （可选）要返回到营销活动详细信息视图，请单击![返回到文件夹](/help/dsp/assets/breadcrumb-return.png "返回到文件夹")左侧的文件夹[!UICONTROL Ad Tools]，然后选择营销活动名称。
+1. （可选）要返回到营销活动详细信息视图，请单击![返回到文件夹](/help/dsp/assets/breadcrumb-return.png "返回到文件夹[!UICONTROL Ad Tools]左侧的文件夹")，然后选择营销活动名称。
 
 ## 查看附加到广告的像素 {#view-pixels-ads}
 

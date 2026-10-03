@@ -9,6 +9,11 @@ product_v2:
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
     internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: ea6cf12e-f4da-4e2b-a9c1-e64da280b6f3
+    internal-label: Adobe Customer Journey Analytics Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -23,7 +28,7 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 1a6cdb8f0fcdeee2d223c644da7ded5789cacfd3
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '3428'
 ht-degree: 0%

@@ -3,25 +3,31 @@ title: 创建和实施自定义区段
 description: 了解如何创建和实施自定义区段以跟踪向广告公开的用户或访问您网页的用户。
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-TQID: https://experienceleague.adobe.com/Xemx2oExt-bNTgJPVkDaWfillRBAZAfOPQx1eJYxupw
+TQID: 'https://experienceleague.adobe.com/Xemx2oExt-bNTgJPVkDaWfillRBAZAfOPQx1eJYxupw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 2b670c6e-542a-5afe-b96b-d9ce7818cd55
+    internal-label: DSP Segments
 subfeature_v2:
   - id: c193c532-b70e-4556-bde7-857186cbe140
+    internal-label: Segments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 700
+source-wordcount: '705'
 ht-degree: 0%
-
 ---
-
 # 创建和实施自定义区段
 
 您可以通过创建和实施自定义DSP区段来收集您自己的第一方受众数据。 您可以使用区段跟踪a)从桌面和移动设备向广告展示的用户以及b)访问特定网页的用户。 之后，您可以使用其他广告重新定位区段中的用户，或阻止区段中的用户接收其他广告。
@@ -36,26 +42,26 @@ ht-degree: 0%
 
 * 要在Adobe Analytics中进行测量，您必须：
 
-   1. 完成实施 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)的所有先决条件，并确保在您的跟踪URL中填充[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
+  1. 完成实施 [!DNL Analytics for Advertising]&#x200B;[&#128279;](/help/integrations/analytics/prerequisites.md)的所有先决条件，并确保在您的跟踪URL中填充[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
 
-   1. 在初始化最后一个事件服务之前的任何位置，将以下参数添加到网页，或添加到 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/javascript.md)所需的JavaScript代码内。
+  1. 在初始化最后一个事件服务之前的任何位置，将以下参数添加到网页，或添加到 [!DNL Analytics for Advertising]&#x200B;[&#128279;](/help/integrations/analytics/javascript.md)所需的JavaScript代码内。
 
-      `window.id5PartnerId=ID5_PartnerID;`
+     `window.id5PartnerId=ID5_PartnerID;`
 
-      示例：
+     示例：
 
-      ```
-      <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
-      <script>
-        window.id5PartnerId=ID5_PartnerID;
-             if("undefined" != typeof AdCloudEvent)
-                 AdCloudEvent('IMS ORG Id','rsid');
-      </script>
-      ```
+     ```
+     <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
+     <script>
+       window.id5PartnerId=ID5_PartnerID;
+            if("undefined" != typeof AdCloudEvent)
+                AdCloudEvent('IMS ORG Id','rsid');
+     </script>
+     ```
 
-      有关完整标记格式，请参阅“[JavaScript转化跟踪标记格式3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)”和“[JavaScript转化跟踪标记格式2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)”。
+     有关完整标记格式，请参阅“[JavaScript转化跟踪标记格式3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)”和“[JavaScript转化跟踪标记格式2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)”。
 
-   1. 使用任意浏览器调试工具验证是否向域`lasteventf-tm.everesttech.net`发起每个调用，并包含参数`_les_id5`及其加密的ID5 ID值。
+  1. 使用任意浏览器调试工具验证是否向域`lasteventf-tm.everesttech.net`发起每个调用，并包含参数`_les_id5`及其加密的ID5 ID值。
 
 ## 创建和实施自定义区段
 
@@ -77,11 +83,11 @@ ht-degree: 0%
 
       * [!UICONTROL Legacy]:
 
-         * *[!UICONTROL Cookies]：*（默认）区段标记跟踪Cookie。
+        * *[!UICONTROL Cookies]：*（默认）区段标记跟踪Cookie。
 
       * [!UICONTROL Universal IDs]:
 
-         * *[!UICONTROL ID5]：*&#x200B;区段标记跟踪[!DNL ID5] ID。 对于传送到通用ID的展示，不产生任何费用。
+        * *[!UICONTROL ID5]：*&#x200B;区段标记跟踪[!DNL ID5] ID。 对于传送到通用ID的展示，不产生任何费用。
 
         **[!UICONTROL Terms of Service]：**&#x200B;使用通用ID的服务协议条款。 您或DSP帐户中的其他用户必须接受一次这些条款，然后才能将通用ID用于新ID类型。 对于签订托管服务合同的客户，您的Adobe客户团队将代表贵组织获得您的同意并接受条款。 若要阅读术语，请单击&#x200B;**>**。 要接受条款，请滚动到条款的底部并单击&#x200B;**[!UICONTROL Accept]**。
 
@@ -95,31 +101,31 @@ ht-degree: 0%
 
       * 要跟踪网页的桌面和移动设备访客，请执行以下操作：
 
-         1. 复制标记为“[!UICONTROL Desktop or mobile websites]”的页面查看跟踪标记。
+        1. 复制标记为“[!UICONTROL Desktop or mobile websites]”的页面查看跟踪标记。
 
-         1. （跟踪[!DNL ID5] ID的区段的标记）在复制的标记中，将`ID5_PARTNER_ID`替换为[!DNL ID5]分配给贵组织的合作伙伴ID。
+        1. （跟踪[!DNL ID5] ID的区段的标记）在复制的标记中，将`ID5_PARTNER_ID`替换为[!DNL ID5]分配给贵组织的合作伙伴ID。
 
-            例如，如果您的ID5合作伙伴ID为`abcde`，则生成的区段标记为
+           例如，如果您的ID5合作伙伴ID为`abcde`，则生成的区段标记为
 
-            `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
+           `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
 
-            然后在标记中将`ID5_PARTNER_ID`替换为`abcde`以获取以下内容：
+           然后在标记中将`ID5_PARTNER_ID`替换为`abcde`以获取以下内容：
 
-            `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
+           `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
 
-            贵组织在与[!DNL ID5]签署协议时收到了合作伙伴ID。 如果您不知道自己的合作伙伴ID，请联系您的Adobe客户团队。
+           贵组织在与[!DNL ID5]签署协议时收到了合作伙伴ID。 如果您不知道自己的合作伙伴ID，请联系您的Adobe客户团队。
 
-            对于在桌面或移动设备上向广告单元公开的用户而言，标记无需执行此步骤即可跟踪[!DNL ID5] ID。
+           对于在桌面或移动设备上向广告单元公开的用户而言，标记无需执行此步骤即可跟踪[!DNL ID5] ID。
 
-         1. 将标记提供给广告商或网站联系人以进行部署。
+        1. 将标记提供给广告商或网站联系人以进行部署。
 
-            广告商的IT部门或其他组可能需要计划标记部署或通知标记部署。
+           广告商的IT部门或其他组可能需要计划标记部署或通知标记部署。
 
       * 要在桌面或移动设备上跟踪向广告单元公开的用户，请执行以下操作：
 
-         1. 复制标记为“[!UICONTROL Desktop or mobile ads]”的展示跟踪标记。
+        1. 复制标记为“[!UICONTROL Desktop or mobile ads]”的展示跟踪标记。
 
-         1. 将标记添加到每个相关广告的[!UICONTROL Pixel]选项卡或每个相关投放位置[&#128279;](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking)的[!UICONTROL Tracking]设置的[!UICONTROL Event Pixels]部分。
+        1. 将标记添加到每个相关广告的[!UICONTROL Pixel]选项卡或每个相关投放位置[&#128279;](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking)的[!UICONTROL Tracking]设置的[!UICONTROL Event Pixels]部分。
 
 实施跟踪标记后，您可以在受众目标或排除项中将该区段用于任何投放位置。
 

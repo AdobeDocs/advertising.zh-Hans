@@ -1,23 +1,28 @@
 ---
 title: 用于库存馈送的[!DNL Microsoft Ads]购物广告模板设置
-description: 参考 [!DNL Microsoft Ads] 库存源的购物广告模板的设置。
+description: 为清单源引用[!DNL Microsoft Ads]购物广告模板的设置。
 exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/Q-TmSKd7yk8Infwx-Nyar61Bu-oqK8NUd2qgJbAOTDA
+TQID: 'https://experienceleague.adobe.com/Q-TmSKd7yk8Infwx-Nyar61Bu-oqK8NUd2qgJbAOTDA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: '549'
 ht-degree: 0%
-
 ---
-
 # 用于库存馈送的[!DNL Microsoft Ads]购物广告模板设置
 
 使用购物广告模板配置购物广告。
@@ -68,9 +73,9 @@ ht-degree: 0%
 
 * 对于Adobe Advertising转化跟踪（在促销活动设置包括“[!UICONTROL EF Redirect]”和“[!UICONTROL Auto Upload]”时应用），请执行以下操作之一：
 
-   * （推荐）为Microsoft购物营销活动使用[跟踪模板格式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)。 如果整个帐户专门用于购物广告，则您可以在帐户级别定义跟踪模板。
+  * （推荐）为Microsoft购物营销活动使用[跟踪模板格式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)。 如果整个帐户专门用于购物广告，则您可以在帐户级别定义跟踪模板。
 
-   * 如果您改为使用“[!DNL bingads_redirect]”列（使用[正确的格式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)）在信息源中包含每个产品的值，请输入参数`{lpurl}`。 您可以选择将第三方重定向和跟踪添加到`{lpurl}`参数。
+  * 如果您改为使用“[!DNL bingads_redirect]”列（使用[正确的格式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)）在信息源中包含每个产品的值，请输入参数`{lpurl}`。 您可以选择将第三方重定向和跟踪添加到`{lpurl}`参数。
 
 * 对于第三方重定向和跟踪，请输入一个值。
 

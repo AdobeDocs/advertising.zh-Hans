@@ -3,18 +3,21 @@ title: 使用批量处理工作表将分类值分配给帐户组件
 description: 了解如何使用批量工作表将分类值分配给帐户组件。
 exl-id: b2dfd487-097c-45f8-a6a5-24395fdb2b85
 feature: Search Label Classifications
-TQID: https://experienceleague.adobe.com/zLEy6MglSGlf6WnoO2oEgSdPLwlp-5cBdmxi-XXiv5g
+TQID: 'https://experienceleague.adobe.com/zLEy6MglSGlf6WnoO2oEgSdPLwlp-5cBdmxi-XXiv5g'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e29095c7-c364-5fb4-ac07-691793cb92e4
+    internal-label: Search Label Classifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 479
+source-wordcount: '482'
 ht-degree: 0%
-
 ---
-
 # 使用批量处理工作表将分类值分配给帐户组件
 
 您可以使用批量处理工作表将标签分类与以下搜索实体的值相关联：促销活动、广告组、关键词、广告、投放位置、单位级别产品组和动态搜索目标。 每个标签分类最多可以具有2000个值。
@@ -29,7 +32,7 @@ ht-degree: 0%
 
 1. [下载包含要为其分配标签分类值的实体的批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)：
 
-   * 在[!UICONTROL Rows and Columns]选项卡上，展开[!UICONTROL Campaign]窗格中的[!UICONTROL Bulksheet Columns]列表。
+   * 在[!UICONTROL Rows and Columns]选项卡上，展开[!UICONTROL Bulksheet Columns]窗格中的[!UICONTROL Campaign]列表。
 
    * 展开[!UICONTROL Label Classification]列表。
 

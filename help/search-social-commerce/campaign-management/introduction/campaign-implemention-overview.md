@@ -3,22 +3,28 @@ title: 实施广告网络帐户和营销活动概述
 description: 了解设置、同步和管理广告网络帐户所涉及的任务。
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/bAXUxseeAb6zMrnFa6gXEe1ES-3BlDMM-3a-vLzeFoY
+TQID: 'https://experienceleague.adobe.com/bAXUxseeAb6zMrnFa6gXEe1ES-3BlDMM-3a-vLzeFoY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 992
+source-wordcount: '992'
 ht-degree: 0%
-
 ---
-
 # 实施广告网络帐户和营销活动概述
 
 Adobe与每个广告商合作，建立其广告网络帐户和营销活动。 这包括配置Search、Social和Commerce以连接广告商帐户并与之同步，根据需要创建新的促销活动和促销活动组件，设置组件广告的跟踪，可以选择将促销活动添加到项目组合以允许Search、Social和Commerce优化广告竞价，以及验证初始成本、点击和收入数据。

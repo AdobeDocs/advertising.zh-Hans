@@ -3,27 +3,31 @@ title: 管理共享的站点链接
 description: 了解如何创建和管理共享站点链接扩展。
 exl-id: e510f53b-f48c-4129-887c-351a840b8398
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/bnKg6ySgpFF30MuE19xdHWimvAQVwvIqv1NRg-S2jTI
+TQID: 'https://experienceleague.adobe.com/bnKg6ySgpFF30MuE19xdHWimvAQVwvIqv1NRg-S2jTI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 928
+source-wordcount: '952'
 ht-degree: 0%
-
 ---
-
 # 管理共享的站点链接
 
 仅&#x200B;*[!DNL Google Ads]和[!DNL Microsoft Advertising]*
 
-从[!DNL Google Ads] > [!DNL Microsoft Advertising]库为任何同步的[!UICONTROL Extensions]或[!UICONTROL Sitelinks]帐户创建和管理帐户级别的共享站点链接。
+从[!UICONTROL Extensions] > [!UICONTROL Sitelinks]库为任何同步的[!DNL Google Ads]或[!DNL Microsoft Advertising]帐户创建和管理帐户级别的共享站点链接。
 
 ## 创建共享站点链接
 
@@ -81,9 +85,9 @@ ht-degree: 0%
 
 **[!UICONTROL Description Line 1]，[!UICONTROL Description Line 2]：**&#x200B;搜索引擎可能在链接文本下显示的额外文本。 要包括说明，请为两个说明字段输入值。 每个描述字段最多可包含35个单字节字符或17个双字节字符。
 
-**[!UICONTROL Start Date]：** （仅具有现有旧版站点链接或没有站点链接的营销活动；可选）站点链接在营销活动中可能显示广告的第一个日期。 新站点链接的默认值为当天。 要指定将来的开始日期，请以YYYY/MM/DD或M/D/YYYY格式输入日期，或单击   并选择日期。
+**[!UICONTROL Start Date]：** （仅具有现有旧版站点链接或没有站点链接的营销活动；可选）站点链接在营销活动中可能显示广告的第一个日期。 新站点链接的默认值为当天。 要指定将来的开始日期，请以YYYY/MM/DD或M/D/YYYY格式输入日期，或者单击并选择日期。
 
-**[!UICONTROL End Date]：**（可选）在营销活动中可能显示带有广告的站点链接的最后日期。 默认情况下，站点链接可能会无限期显示。 要指定结束日期，请以YYYY/MM/DD或M/D/YYYY格式输入日期，或单击   并选择日期。
+**[!UICONTROL End Date]：**（可选）在营销活动中可能显示带有广告的站点链接的最后日期。 默认情况下，站点链接可能会无限期显示。 要指定结束日期，请以YYYY/MM/DD或M/D/YYYY格式输入日期，或单击并选择日期。
 
 **[!UICONTROL Mobile Preference]：** （可选）允许网络尝试向移动设备用户（而非桌面或平板电脑用户）显示广告扩展。 默认情况下，该选项未启用，并且广告扩展显示在任何设备类型上。
 
@@ -107,7 +111,7 @@ ht-degree: 0%
 
 * 对于Adobe Advertising转化跟踪（在营销活动设置包括&quot;[!UICONTROL EF Redirect]&quot;和&quot;自动上传&quot;时应用），Search、Social和Commerce会在您保存记录时自动为自己的点击跟踪代码添加前缀。
 
-* 有关嵌入最终URL所支持的参数，请参阅[!DNL Microsoft Advertising]文档[[!DNL Microsoft Advertising] 中“可用的](https://help.ads.microsoft.com/#apex/3/en/56799)参数”部分中的([!DNL Google Ads]) [!DNL ValueTrack]文档[[!DNL Google Ads] 或(](https://support.google.com/google-ads/answer/6305348))“仅跟踪模板”参数。
+* 有关嵌入最终URL所支持的参数，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)中“可用的[!DNL ValueTrack]参数”部分中的([!DNL Microsoft Advertising]) [[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799)或([!DNL Google Ads])“仅跟踪模板”参数。
 
 * 您可以选择包含URL参数以及为营销活动定义的任何自定义参数，这些参数以&amp;号分隔，如`{lpurl}?matchtype={matchtype}&device={device}`。
 

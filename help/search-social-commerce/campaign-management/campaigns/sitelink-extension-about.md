@@ -3,20 +3,24 @@ title: 关于站点链接扩展
 description: 了解站点链接扩展。
 exl-id: c2d96440-62da-4b57-a98e-d7b94882d6c5
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/lOrTOUXOFT7cvY5cEilRiROSfIbmcI9v8vU2MVZlg7U
+TQID: 'https://experienceleague.adobe.com/lOrTOUXOFT7cvY5cEilRiROSfIbmcI9v8vU2MVZlg7U'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 344
+source-wordcount: '355'
 ht-degree: 0%
-
 ---
-
 # 关于站点链接扩展
 
 仅&#x200B;*[!DNL Google Ads]和[!DNL Microsoft Advertising]*
@@ -27,7 +31,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Sitelinks]和[!UICONTROL Associations]视图
 
-[!UICONTROL Extensions] > [!UICONTROL Sitelinks]中的[!UICONTROL Campaigns] > [!UICONTROL Campaigns]库列出了所有帐户级别的站点链接，您可以在该处创建和管理共享站点链接。 有关每个[[!DNL Google Ads] 帐户](https://support.google.com/google-ads/answer/6372658)和每个[[!DNL Microsoft Advertising] 帐户](https://help.ads.microsoft.com/#apex/3/en/52001)的广告扩展最大数量，请参阅广告网络帮助。 在将库中的站点链接分配给帐户实体之前，不会将其用于广告。
+[!UICONTROL Campaigns] > [!UICONTROL Campaigns]中的[!UICONTROL Extensions] > [!UICONTROL Sitelinks]库列出了所有帐户级别的站点链接，您可以在该处创建和管理共享站点链接。 有关每个[[!DNL Google Ads] 帐户](https://support.google.com/google-ads/answer/6372658)和每个[[!DNL Microsoft Advertising] 帐户](https://help.ads.microsoft.com/#apex/3/en/52001)的广告扩展最大数量，请参阅广告网络帮助。 在将库中的站点链接分配给帐户实体之前，不会将其用于广告。
 
 从[!UICONTROL Extensions] > [!UICONTROL Associations]视图中，您可以将任意站点链接作为可能的扩展名分配给帐户级别（仅限[!DNL Google Ads]）、营销活动级别或广告组级别（仅限[!DNL Google Ads]）的所有广告。
 

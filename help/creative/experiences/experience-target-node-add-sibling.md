@@ -3,20 +3,26 @@ title: 在体验中的节点之间添加同级目标节点
 description: 了解如何将同级节点添加到具有目标或与具有目标的节点处于同一级别的任何节点。
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-TQID: https://experienceleague.adobe.com/fRdbFmlTUBzHHkmrfonZ0COJ7-1x6t2HRczwlcVb99o
+TQID: 'https://experienceleague.adobe.com/fRdbFmlTUBzHHkmrfonZ0COJ7-1x6t2HRczwlcVb99o'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: '757'
 ht-degree: 0%
-
 ---
-
 # 在体验中的节点之间添加同级目标节点
 
 *仅具有决策树定位的体验*
@@ -37,51 +43,51 @@ In an existing experience,
 
    * 对于受众目标，请执行以下操作：
 
-      1. 单击&#x200B;**[!UICONTROL Click to Browse]**&#x200B;以打开您的[!UICONTROL Audience Targeting]选项，然后执行以下操作：
+     1. 单击&#x200B;**[!UICONTROL Click to Browse]**&#x200B;以打开您的[!UICONTROL Audience Targeting]选项，然后执行以下操作：
 
-         * 要添加第一个区段，请在左侧面板中查找该区段，然后选中区段名称旁边的复选框。
+        * 要添加第一个区段，请在左侧面板中查找该区段，然后选中区段名称旁边的复选框。
 
-         * 要将区段添加到现有区段组，请执行以下操作：
+        * 要将区段添加到现有区段组，请执行以下操作：
 
-            1. 单击右侧面板中的区段组。
+          1. 单击右侧面板中的区段组。
 
-            1. （可选）根据需要将组逻辑更改为&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
+          1. （可选）根据需要将组逻辑更改为&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
 
-               *[!UICONTROL Exclude All]*&#x200B;不可用于第一个区段组。 对于仅包含排除项的受众，请将此受众构建为&#x200B;*[!UICONTROL Include Any]*，然后在将其添加到DSP中的版面时将其排除。
+             *[!UICONTROL Exclude All]*&#x200B;不可用于第一个区段组。 对于仅包含排除项的受众，请将此受众构建为&#x200B;*[!UICONTROL Include Any]*，然后在将其添加到DSP中的版面时将其排除。
 
-            1. 在左侧面板中找到新区段，然后选中区段名称旁边的复选框。
+          1. 在左侧面板中找到新区段，然后选中区段名称旁边的复选框。
 
-               区段组会自动更新为新区段。
+             区段组会自动更新为新区段。
 
-         * 要添加新区段组，请执行以下操作：
+        * 要添加新区段组，请执行以下操作：
 
-         1. 单击右侧面板中的&#x200B;**[!UICONTROL + New Group]**。
+        1. 单击右侧面板中的&#x200B;**[!UICONTROL + New Group]**。
 
-         1. （可选）根据需要将上一个组与新组之间的逻辑更改为&#x200B;*[!UICONTROL And]*&#x200B;或&#x200B;*[!UICONTROL Or]*。
+        1. （可选）根据需要将上一个组与新组之间的逻辑更改为&#x200B;*[!UICONTROL And]*&#x200B;或&#x200B;*[!UICONTROL Or]*。
 
-         1. 在左侧面板中找到新组的区段，并选中区段名称旁边的复选框。
+        1. 在左侧面板中找到新组的区段，并选中区段名称旁边的复选框。
 
-         1. （可选）根据需要将组逻辑更改为&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
+        1. （可选）根据需要将组逻辑更改为&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
 
-      1. 单击&#x200B;**[!UICONTROL Create]**。
+     1. 单击&#x200B;**[!UICONTROL Create]**。
 
-      1. 单击&#x200B;**[!UICONTROL Apply]**。
+     1. 单击&#x200B;**[!UICONTROL Apply]**。
 
    * 对于地理目标，请执行以下操作：
 
-      1. 单击&#x200B;**[!UICONTROL Click to Browse]**&#x200B;以打开您的[!UICONTROL Geo Targeting]选项，指定一个或多个地理目标，然后单击&#x200B;**[!UICONTROL Save]**。
+     1. 单击&#x200B;**[!UICONTROL Click to Browse]**&#x200B;以打开您的[!UICONTROL Geo Targeting]选项，指定一个或多个地理目标，然后单击&#x200B;**[!UICONTROL Save]**。
 
-         邮政编码目标具有批量编辑选项。 要粘贴多个邮政编码，请单击&#x200B;**[!UICONTROL Paste postal codes]**&#x200B;选项卡，选择国家/地区，粘贴或输入以逗号分隔的邮政编码或输入单独的行，然后单击&#x200B;**[!UICONTROL Include All]**。 要删除包含的邮政编码目标，请将光标悬停在目标上，然后单击![删除](/help/creative/assets/delete.png "删除") **[!UICONTROL Remove]**。
+        邮政编码目标具有批量编辑选项。 要粘贴多个邮政编码，请单击&#x200B;**[!UICONTROL Paste postal codes]**&#x200B;选项卡，选择国家/地区，粘贴或输入以逗号分隔的邮政编码或输入单独的行，然后单击&#x200B;**[!UICONTROL Include All]**。 要删除包含的邮政编码目标，请将光标悬停在目标上，然后单击![删除](/help/creative/assets/delete.png "删除") **[!UICONTROL Remove]**。
 
-      1. （可选）要在指定多个地理目标时创建多个目标节点，请选择&#x200B;**[!UICONTROL Split targets to create nodes]**。
+     1. （可选）要在指定多个地理目标时创建多个目标节点，请选择&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-         此功能为每个指定的地理目标创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定的位置（[!DNL Boolean] `AND`语句）。
+        此功能为每个指定的地理目标创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定的位置（[!DNL Boolean] `AND`语句）。
 
-      1. 单击&#x200B;**[!UICONTROL Apply]**。
+     1. 单击&#x200B;**[!UICONTROL Apply]**。
 
    * 对于数据传递目标，可以选择自定义数据传递密钥，输入单个数据传递值，然后单击&#x200B;**[!UICONTROL Apply]**。
 
-     已在&#x200B;**[!UICONTROL Data Pass]**&#x200B;体验设置[!UICONTROL Advanced]的[部分的](experience-settings-targeting.md)字段中设置了键值对中的键的默认值。 您可以选择自定义密钥。
+     已在[体验设置](experience-settings-targeting.md)的[!UICONTROL Advanced]部分的&#x200B;**[!UICONTROL Data Pass]**&#x200B;字段中设置了键值对中的键的默认值。 您可以选择自定义密钥。
 
    * 要重新定位像素目标，请选择要使用的重新定位像素，以及任何必须存在的像素属性的所需值，以显示创意。 然后单击&#x200B;**[!UICONTROL Apply]**。
 
@@ -89,13 +95,13 @@ In an existing experience,
 
    * 对于设备目标，请执行以下操作：
 
-      1. 选择目标。
+     1. 选择目标。
 
-      1. （可选）要在指定多个地理目标时创建多个目标节点，请选择&#x200B;**[!UICONTROL Split targets to create nodes]**。
+     1. （可选）要在指定多个地理目标时创建多个目标节点，请选择&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-         此功能为每个指定的地理目标创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定的位置（[!DNL Boolean] `AND`语句）。
+        此功能为每个指定的地理目标创建一个单独的目标节点（具有单独的创意包）。 如果不拆分目标，则用户必须属于所有指定的位置（[!DNL Boolean] `AND`语句）。
 
-      1. 单击&#x200B;**[!UICONTROL Apply]**。
+     1. 单击&#x200B;**[!UICONTROL Apply]**。
 
 1. （可选）为用户定义的分支指定自定义分支名称。
 
@@ -113,17 +119,17 @@ In an existing experience,
 
    * （可选）要保存体验，请执行以下操作：
 
-      1. 单击&#x200B;**[!UICONTROL Save]**，然后单击&#x200B;**[!UICONTROL OK]**。
+     1. 单击&#x200B;**[!UICONTROL Save]**，然后单击&#x200B;**[!UICONTROL OK]**。
 
-      1. （如果最底层的每个节点至少不包含一个创意内容）：执行以下操作之一：
+     1. （如果最底层的每个节点至少不包含一个创意内容）：执行以下操作之一：
 
-         * 要在没有所有必需创意捆绑包的情况下保存体验，请单击&#x200B;**[!UICONTROL Save as Draft]**。
+        * 要在没有所有必需创意捆绑包的情况下保存体验，请单击&#x200B;**[!UICONTROL Save as Draft]**。
 
-           无法为草稿体验创建广告标记。
+          无法为草稿体验创建广告标记。
 
-         * 要将默认创意分配给每个尚未分配创意捆绑包的目标，请单击&#x200B;**[!UICONTROL Assign Default Creatives]**。 在查看已分配默认创意的更新树后，单击&#x200B;**[!UICONTROL Save]**&#x200B;和&#x200B;**[!UICONTROL OK]**。
+        * 要将默认创意分配给每个尚未分配创意捆绑包的目标，请单击&#x200B;**[!UICONTROL Assign Default Creatives]**。 在查看已分配默认创意的更新树后，单击&#x200B;**[!UICONTROL Save]**&#x200B;和&#x200B;**[!UICONTROL OK]**。
 
-         * 要继续编辑决策树，请单击&#x200B;**[!UICONTROL Continue Edit]**。
+        * 要继续编辑决策树，请单击&#x200B;**[!UICONTROL Continue Edit]**。
 
 >[!MORELIKETHIS]
 >

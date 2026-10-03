@@ -1,15 +1,24 @@
 ---
 title: 使用人工智能辅助聊天搜索产品文档
-description: 了解如何使用AI辅助聊天搜索Adobe Advertising DSP和 [!DNL Creative] 文档。 通过引文和建议的跟进提示获得答案。
+description: 了解如何使用人工智能辅助聊天搜索Adobe Advertising DSP和[!DNL Creative]文档。 通过引文和建议的跟进提示获得答案。
 feature: DSP Introduction, Creative Introduction
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 99308b5a6f529abf003f38566c19bfda0e6eb25c
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: ba946348-465d-45f3-8d28-c42d0a2599c5
+    internal-label: Creative introduction
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '486'
 ht-degree: 0%
-
 ---
-
 # 使用人工智能辅助的聊天界面搜索产品文档
 
 *仅支持英语*
@@ -72,13 +81,13 @@ ht-degree: 0%
 
 * 在[!UICONTROL Documentation Sources]列表旁边：
 
-   * 若要获得有用的响应，请单击![向上缩略图](/help/dsp/assets/thumbs-up.png "向上缩略图")。
+  * 若要获得有用的响应，请单击![向上缩略图](/help/dsp/assets/thumbs-up.png "向上缩略图")。
 
-   * 对于无帮助的响应，请单击![向下缩略图](/help/dsp/assets/thumbs-down.png "向下缩略图")。
+  * 对于无帮助的响应，请单击![向下缩略图](/help/dsp/assets/thumbs-down.png "向下缩略图")。
 
 ## 编写提示的基础知识 {#writing-prompts}
 
-* **清晰明了。**&#x200B;使用完整的问题（“如何订阅按需清单？”）、任务短语（“订阅按需清单”）或主题短语（“按需清单”）。
+* **清晰而具体。** 使用完整的问题（“如何订阅按需清单？”）、任务短语（“订阅按需清单”）或主题短语（“按需清单”）。
 
 * 尽可能与产品功能（如“促销活动”或“交易”）的UI术语&#x200B;**匹配**。
 

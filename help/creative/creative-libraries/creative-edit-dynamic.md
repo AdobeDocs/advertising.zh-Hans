@@ -3,18 +3,24 @@ title: 在创意库中编辑动态创意内容
 description: 了解如何在创意库中编辑动态创意内容。
 feature: Creative Dynamic Creatives
 exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
-TQID: https://experienceleague.adobe.com/QoQ5p4sFV-ARIMNDbPkp7axfqkVEC3sxJ6MTlPIG22Y
+TQID: 'https://experienceleague.adobe.com/QoQ5p4sFV-ARIMNDbPkp7axfqkVEC3sxJ6MTlPIG22Y'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 323
+source-wordcount: '322'
 ht-degree: 0%
-
 ---
-
 # 在创意库中编辑动态创意内容
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
@@ -37,25 +43,25 @@ ht-degree: 0%
 
    * 更改内容：
 
-      * （仅显示广告）要编辑表中单元格的值，请单击单元格内部并编辑该值。 单击单元格外部或按&#x200B;**[!DNL Enter]**&#x200B;键保存更改。
+     * （仅显示广告）要编辑表中单元格的值，请单击单元格内部并编辑该值。 单击单元格外部或按&#x200B;**[!DNL Enter]**&#x200B;键保存更改。
 
-      * 要将单个产品标记为默认<!--Explain what this means. -->，请将光标悬停在该行上并单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Set as Default]**。
+     * 要将单个产品标记为默认<!--Explain what this means. -->，请将光标悬停在该行上并单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Set as Default]**。
 
-      * （当广告包含多个选件时）要将多个产品标记为默认值，请选择行（最多包含选件数），然后单击批量操作工具栏中的&#x200B;**[!UICONTROL Set as Default]**。
+     * （当广告包含多个选件时）要将多个产品标记为默认值，请选择行（最多包含选件数），然后单击批量操作工具栏中的&#x200B;**[!UICONTROL Set as Default]**。
 
-      * 要从目录中删除产品，请将光标悬停在该行上并单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Delete Row]**。
+     * 要从目录中删除产品，请将光标悬停在该行上并单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Delete Row]**。
 
-      * （当广告包含多个选件时）要从目录中删除多个产品，请选择行（最多包含选件数），然后单击批量操作工具栏中的&#x200B;**[!UICONTROL Delete Row]**。
+     * （当广告包含多个选件时）要从目录中删除多个产品，请选择行（最多包含选件数），然后单击批量操作工具栏中的&#x200B;**[!UICONTROL Delete Row]**。
 
 1. 保存创意：
 
    * 要保存广告并将其添加到库中的[创意包](bundle-manage.md)，请执行以下操作：
 
-      1. 单击&#x200B;**[!UICONTROL Save and Attach to Bundle]**。
+     1. 单击&#x200B;**[!UICONTROL Save and Attach to Bundle]**。
 
-      1. 单击&#x200B;**[!UICONTROL Save]**&#x200B;保存广告。
+     1. 单击&#x200B;**[!UICONTROL Save]**&#x200B;保存广告。
 
-      1. 选择包，然后单击&#x200B;**[!UICONTROL Attach Creative to Bundles]**。
+     1. 选择包，然后单击&#x200B;**[!UICONTROL Attach Creative to Bundles]**。
 
    * 若要保存广告并退出设置，请单击&#x200B;**[!UICONTROL Save]**，然后再次单击&#x200B;**[!UICONTROL Save]**。
 

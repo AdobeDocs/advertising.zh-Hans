@@ -3,28 +3,33 @@ title: 关于报告
 description: 了解性能报表，包括可用的不同报表类型以及如何自动执行报表。
 exl-id: 173d1bad-e3aa-4417-a9b1-4b5d06c304d2
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/2Cw55tN9cx9vfc6sEHdOQfW5VcLIUZdbNtMkKdINkZM
+TQID: 'https://experienceleague.adobe.com/2Cw55tN9cx9vfc6sEHdOQfW5VcLIUZdbNtMkKdINkZM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 851
+source-wordcount: '865'
 ht-degree: 0%
-
 ---
-
 # 关于报告
 
 性能报告允许您在任意精细的级别跟踪和管理项目组合、广告网络和广告网络帐户实体的性能。 通过大多数报表，可以全面了解每个营销渠道中的广告对整体转化率的贡献情况。
 
-每次运行报表时，都会动态编译报表数据。 您可以选择从现有报表生成新报表。 可用的报告参数因报告类型而异。 对于大多数报表，您可以选择预览前50行，而不是生成整个报表。 生成报告时，您可以在报告完成时发送包含一个或多个电子邮件地址下载链接的通知，收件人可以在[中[!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md)管理通知。
+每次运行报表时，都会动态编译报表数据。 您可以选择从现有报表生成新报表。 可用的报告参数因报告类型而异。 对于大多数报表，您可以选择预览前50行，而不是生成整个报表。 生成报告时，您可以在报告完成时发送包含一个或多个电子邮件地址下载链接的通知，收件人可以在[!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/notifications/notification-about.md)中管理通知。
 
-所有完成的报表都位于[!UICONTROL Latest Reports]视图的[!UICONTROL Reports]部分，您可以在浏览器窗口中以表格式查看它们，或者以文件形式打开或下载它们。
+所有完成的报表都位于[!UICONTROL Reports]视图的[!UICONTROL Latest Reports]部分，您可以在浏览器窗口中以表格式查看它们，或者以文件形式打开或下载它们。
 
 ## 可用的报表类别
 
@@ -50,7 +55,7 @@ ht-degree: 0%
 
 ## 报告视图
 
-位于[!UICONTROL Reports] > [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Insights & Reports]的[!UICONTROL Reports]视图允许您创建和管理报告、模板和电子表格馈送。 该视图包含两个选项卡：
+位于[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Insights & Reports] > [!UICONTROL Reports]的[!UICONTROL Reports]视图允许您创建和管理报告、模板和电子表格馈送。 该视图包含两个选项卡：
 
 * **[!UICONTROL Latest Reports]**&#x200B;选项卡列出了过去7天内请求的所有可用报告，手动删除的报告除外，默认情况下最新报告位于顶部。 每个报表显示的信息包括运行计划（如果适用）、生成或将生成数据的开始和结束日期以及报表状态（*[!UICONTROL Finished]*、*[!UICONTROL In Progress]*&#x200B;或&#x200B;*[!UICONTROL Error]*）。
 

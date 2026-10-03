@@ -3,18 +3,21 @@ title: 使用复制并粘贴功能批量创建和编辑营销活动数据
 description: 了解如何使用复制并粘贴功能批量管理Campaign数据。
 exl-id: 2ae1b02f-46ac-4ea8-aa9f-9e26ccaf63d0
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/z-CaAsySMH-nF2IGPRpM1KY6MYdVz1xZhgjPsBShD7c
+TQID: 'https://experienceleague.adobe.com/z-CaAsySMH-nF2IGPRpM1KY6MYdVz1xZhgjPsBShD7c'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 489
+source-wordcount: '489'
 ht-degree: 0%
-
 ---
-
 # 使用复制并粘贴功能批量创建和编辑营销活动数据
 
 仅&#x200B;*[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yandex]和现有[!DNL Baidu]帐户*
@@ -47,9 +50,9 @@ ht-degree: 0%
 
    * 粘贴的数据必须包含标题行和必要的营销活动对象值；请查看[百度](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)、[Google广告](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)、[LY广告](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)、[Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)、[Yahoo！所需的批量工作表列 显示网络](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)和[Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)。 列顺序无关紧要。
 
-      * 对于要编辑的现有对象，必须包括所有相关的ID列、实体名称和要编辑的属性。 请勿编辑对象的数字ID。
+     * 对于要编辑的现有对象，必须包括所有相关的ID列、实体名称和要编辑的属性。 请勿编辑对象的数字ID。
 
-      * 对于新的促销活动对象，请包括所有相关的实体名称和属性，但不包括对象ID（自动生成）。 例如，如果您创建新广告，请将[!UICONTROL Ad ID]字段留空。 发布对象后，广告网络会自动创建一个ID。
+     * 对于新的促销活动对象，请包括所有相关的实体名称和属性，但不包括对象ID（自动生成）。 例如，如果您创建新广告，请将[!UICONTROL Ad ID]字段留空。 发布对象后，广告网络会自动创建一个ID。
 
    * 任何非必需列中的值都可以为null （空白），但每一行必须具有相同数量的制表符分隔值。
 

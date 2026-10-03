@@ -1,25 +1,32 @@
 ---
-title: 检查 [!DNL FreeWheel] PG交易的广告状态
-description: 了解如何查找 [!DNL FreeWheel] 计划性保证交易的广告状态。
+title: 检查[!DNL FreeWheel] PG交易的广告状态
+description: 了解如何查找[!DNL FreeWheel]计划性保证交易的广告状态。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
-TQID: https://experienceleague.adobe.com/7R-cPRv2W4FnAvif5tT-N-oAm-NrlTSkCQ5nTfTxjhI
+TQID: 'https://experienceleague.adobe.com/7R-cPRv2W4FnAvif5tT-N-oAm-NrlTSkCQ5nTfTxjhI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 225
+source-wordcount: '223'
 ht-degree: 0%
-
 ---
-
 # 检查[!DNL FreeWheel]计划性保证交易的广告状态
 
 查看您向[!DNL FreeWheel]提交的广告是否成功。 您可以根据需要重新提交任何广告。
@@ -52,7 +59,7 @@ ht-degree: 0%
 
    [!UICONTROL Submission Status]列指示广告是否已提交和批准。
 
-   对于失败的提交，[!UICONTROL API]响应列指示错误。 有关失败提交的错误代码完整列表以及更正这些代码的后续步骤，请参阅“[广告提交 [!DNL FreeWheel] 的](freewheel-error-codes.md)错误代码”。
+   对于失败的提交，[!UICONTROL API]响应列指示错误。 有关失败提交的错误代码完整列表以及更正这些代码的后续步骤，请参阅“ [!DNL FreeWheel] 广告提交[&#128279;](freewheel-error-codes.md)的错误代码”。
 
 1. （可选）要重新提交广告以供审批，请将光标悬停在广告行上，然后单击&#x200B;**[!UICONTROL More]** > **[!UICONTROL Resubmit]**。
 

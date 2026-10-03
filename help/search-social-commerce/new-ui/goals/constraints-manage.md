@@ -2,13 +2,20 @@
 title: 管理搜索竞价单位的限制
 description: 了解限制条件，以限制旧版关键词级别项目组合中CPC促销活动中竞价单位的竞价。
 feature: Search Campaign Management, Search Optimization
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
     internal-label: Search, Social, & Commerce
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
 subfeature_v2:
   - id: c800239a-06eb-4249-9aef-771973d24d35
     internal-label: Portfolios
-source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '2660'
 ht-degree: 0%
@@ -17,7 +24,7 @@ ht-degree: 0%
 
 *仅适用于旧版关键词级别项目组合中的CPC促销活动中的竞价单位*
 
-竞价单位约束是限制所有[竞价单位](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html)的优化竞价以及与约束关联的成本和收入模型的规则。
+竞价单位约束是限制所有[竞价单位](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html?lang=zh-Hans)的优化竞价以及与约束关联的成本和收入模型的规则。
 
 ## 关于约束
 
@@ -64,7 +71,7 @@ ht-degree: 0%
 
 除了打开[[!UICONTROL Constraints]视图](#constraints-view)之外，您还可以通过以下方式查看与您的约束相关的信息：
 
-* 所有约束都是名为“[!UICONTROL Constraints]”的单个[标签分类](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html)的标签值。
+* 所有约束都是名为“[!UICONTROL Constraints]”的单个[标签分类](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=zh-Hans)的标签值。
 
   * “[!UICONTROL Constraints]”包含在默认和自定义视图设置以及计划报告的“[!UICONTROL Classifications]”列表中。 可随处添加列，以查看分配给相关实体的约束。
 

@@ -3,22 +3,26 @@ title: 创建可重复使用的受众
 description: 了解如何创建可重用受众，这些受众由受众区段和其他保存的受众组成。 可选地使用人工智能辅助的受众代理，方法是在自然语言提示中描述目标受众；该代理会建议第三方区段并构建受众表达式以用作目标或排除项。
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-TQID: https://experienceleague.adobe.com/KhAxVTvMx4yBz3tfDtng3nOur2IodZAFFHMUQM1lKhQ
+TQID: 'https://experienceleague.adobe.com/KhAxVTvMx4yBz3tfDtng3nOur2IodZAFFHMUQM1lKhQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a4b509995f362ed81e00485409b0c729b5130e35
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1667
+source-wordcount: '1667'
 ht-degree: 0%
-
 ---
-
 # 创建可重复使用的受众
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
@@ -57,49 +61,49 @@ ht-degree: 0%
 
    * 要使用[[!UICONTROL Third Party Segments]、[!UICONTROL First Party Segments]、[!UICONTROL Adobe Segments]、[!UICONTROL Custom Segments]和[!UICONTROL Saved Audiences]选项卡](audience-settings.md)上可用的区段手动创建区段逻辑，请执行以下操作。
 
-      * （可选）搜索区段名称、描述或路径。
+     * （可选）搜索区段名称、描述或路径。
 
-        搜索结果包括基于您使用的确切术语的区段。 输入多个术语时，必须找到区段的所有术语。
+       搜索结果包括基于您使用的确切术语的区段。 输入多个术语时，必须找到区段的所有术语。
 
-      * 要添加第一个区段，请在左侧面板中查找该区段，然后选中区段名称旁边的复选框。
+     * 要添加第一个区段，请在左侧面板中查找该区段，然后选中区段名称旁边的复选框。
 
-      * 要将区段添加到现有区段组，请执行以下操作：
+     * 要将区段添加到现有区段组，请执行以下操作：
 
-         1. 单击右侧面板中的区段组。
+       1. 单击右侧面板中的区段组。
 
-         1. （可选）根据需要将组逻辑更改为&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
+       1. （可选）根据需要将组逻辑更改为&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
 
-            *[!UICONTROL Exclude All]*&#x200B;不可用于第一个区段组。 对于仅包含排除项的受众，请将此受众构建为&#x200B;*[!UICONTROL Include Any]*，然后在投放位置中，从“排除的受众”菜单中选择该受众。
+          *[!UICONTROL Exclude All]*&#x200B;不可用于第一个区段组。 对于仅包含排除项的受众，请将此受众构建为&#x200B;*[!UICONTROL Include Any]*，然后在投放位置中，从“排除的受众”菜单中选择该受众。
 
-         1. 在左侧面板中找到新区段，然后选中区段名称旁边的复选框。
+       1. 在左侧面板中找到新区段，然后选中区段名称旁边的复选框。
 
-            区段组会自动更新为新区段。
+          区段组会自动更新为新区段。
 
-      * 要添加新区段组，请执行以下操作：
+     * 要添加新区段组，请执行以下操作：
 
-         1. 单击右侧面板中的&#x200B;**[!UICONTROL + New Group]**。
+       1. 单击右侧面板中的&#x200B;**[!UICONTROL + New Group]**。
 
-            1. （可选）根据需要将上一个组与新组之间的逻辑更改为&#x200B;*[!UICONTROL And]*&#x200B;或&#x200B;*[!UICONTROL Or]*。
+          1. （可选）根据需要将上一个组与新组之间的逻辑更改为&#x200B;*[!UICONTROL And]*&#x200B;或&#x200B;*[!UICONTROL Or]*。
 
-            1. 在左侧面板中找到新组的区段，并选中区段名称旁边的复选框。
+          1. 在左侧面板中找到新组的区段，并选中区段名称旁边的复选框。
 
-            1. （可选）根据需要将组逻辑更改为&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
+          1. （可选）根据需要将组逻辑更改为&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
 
    * 要使用现有受众的区段逻辑，请执行以下操作：
 
-      1. 通过以下任一方式从现有受众复制区段逻辑：
+     1. 通过以下任一方式从现有受众复制区段逻辑：
 
-         * 在“所有受众”视图中，将光标悬停在受众行上，然后单击&#x200B;**[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**。
+        * 在“所有受众”视图中，将光标悬停在受众行上，然后单击&#x200B;**[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**。
 
-         * 在现有受众的设置中，单击区段逻辑面板顶部的&#x200B;**[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**。
+        * 在现有受众的设置中，单击区段逻辑面板顶部的&#x200B;**[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**。
 
-         * 在文本编辑器中，使用字母数字区段ID和[布尔语法](audience-segment-logic-syntax.md)手动创建区段逻辑，并将其复制到剪贴板。
+        * 在文本编辑器中，使用字母数字区段ID和[布尔语法](audience-segment-logic-syntax.md)手动创建区段逻辑，并将其复制到剪贴板。
 
-      1. 单击&#x200B;**[!UICONTROL paste in an audience rule to begin building]**，将现有区段逻辑粘贴到输入字段中，然后单击&#x200B;**[!UICONTROL Apply]**。
+     1. 单击&#x200B;**[!UICONTROL paste in an audience rule to begin building]**，将现有区段逻辑粘贴到输入字段中，然后单击&#x200B;**[!UICONTROL Apply]**。
 
-         >[!NOTE]
-         >
-         >如果受众已包含任何区段逻辑，则在新的区段逻辑中粘贴将覆盖现有逻辑。
+        >[!NOTE]
+        >
+        >如果受众已包含任何区段逻辑，则在新的区段逻辑中粘贴将覆盖现有逻辑。
 
 1. 单击&#x200B;**[!UICONTROL Create]**。
 
@@ -161,11 +165,11 @@ ht-degree: 0%
 
 * 使用清晰的描述性语言描述目标受众。
 
-   * 您可以输入完整的句子，也可以只输入一串特征。 除非为清楚起见，否则不需要标点。
+  * 您可以输入完整的句子，也可以只输入一串特征。 除非为清楚起见，否则不需要标点。
 
-   * 通常，提示不区分大小写。
+  * 通常，提示不区分大小写。
 
-   * 受众代理可识别最常见的同义词。
+  * 受众代理可识别最常见的同义词。
 
 * 做到具体，并提供要包含的所有受众特征以及要排除的任何特征的详细信息。 您提供的详细信息越多，您获得满足需求的结果的机会就越大。
 

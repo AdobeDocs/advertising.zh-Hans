@@ -3,30 +3,43 @@ title: 从Advertising DSP营销活动中收集点击和展示数据
 description: 了解如何使用Audience Manager像素从Advertising DSP广告中捕获基于Cookie的展示和点击事件
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
-TQID: https://experienceleague.adobe.com/UXP1gmCmLCHH-l7a1WYxlmYfSRIgJPLpxWHyHujIdX0
+TQID: 'https://experienceleague.adobe.com/UXP1gmCmLCHH-l7a1WYxlmYfSRIgJPLpxWHyHujIdX0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
+  - id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+    internal-label: Audience Manager integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 3b9845e85cd91cdece195593b43cbaf851368f9e
+    internal-label: Data collection
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 991
+source-wordcount: '1127'
 ht-degree: 0%
-
 ---
-
 # 从Advertising DSP营销活动中收集媒体曝光数据
 
 *仅使用Advertising DSP的广告商*
@@ -39,7 +52,7 @@ ht-degree: 0%
 
 ## 步骤1：在Audience Manager中设置数据源 {#set-up-data-source}
 
-在Audience Manager中，为DSP展示创建一个[数据源](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=zh-Hans)，然后单击数据。 在每个事件标记[中包含数据源ID &#x200B;](#implement-dsp-pixels)，以便所有跟踪的事件都归属于该数据源。
+在Audience Manager中，为DSP展示创建一个[数据源](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=zh-Hans)，然后单击数据。 在每个事件标记[&#128279;](#implement-dsp-pixels)中包含数据源ID ，以便所有跟踪的事件都归属于该数据源。
 
 >[!NOTE]
 > 可以在单个数据源中收集在多个DSP上运行的广告促销活动的所有展示和点击数据。
@@ -60,13 +73,13 @@ ht-degree: 0%
 
 `[Audience Manager customer domain].demdex.net/event?d_event=imp&d_src=[source id]&d_campaign=${TM_CAMPAIGN_ID_NUM}`
 
-带有以[为前缀的](#parameters)可选附加参数`&`
+带有以`&`为前缀的[可选附加参数](#parameters)
 
 **点击跟踪像素：**
 
 `[Audience Manager customer domain].demdex.net/event?d_event=click&d_src=[source id]&d_rd=[redirect URL]&d_campaign=${TM_CAMPAIGN_ID_NUM}`
 
-带有以[为前缀的](#parameters)可选附加参数`&`
+带有以`&`为前缀的[可选附加参数](#parameters)
 
 其中：
 

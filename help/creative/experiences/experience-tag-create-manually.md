@@ -3,22 +3,29 @@ title: 为适用的创意大小手动创建广告标记
 description: 了解如何为特定创意大小创建广告标记。
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-TQID: https://experienceleague.adobe.com/xeWVCvDYgNAoZlNeEmHIAuajuMy5QZL73oFJO4gFfFE
+TQID: 'https://experienceleague.adobe.com/xeWVCvDYgNAoZlNeEmHIAuajuMy5QZL73oFJO4gFfFE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 276
+source-wordcount: '277'
 ht-degree: 0%
-
 ---
-
 # （没有定位的体验）为适用的创意大小手动创建广告标记
 
 *仅针对没有决策树的体验*
@@ -49,7 +56,7 @@ ht-degree: 0%
 
    您可以展开标记行以查看包含的创意。
 
-   对于视频广告体验，系统会使用Adobe Advertising DSP编码作为VAST 2.0标记自动对视频创意内容进行转码，以便您进行预览。 您可以选择为其他DSP[应用转码](experience-tag-video-transcoding.md)。
+   对于视频广告体验，系统会使用Adobe Advertising DSP编码作为VAST 2.0标记自动对视频创意内容进行转码，以便您进行预览。 您可以选择为其他DSP[&#128279;](experience-tag-video-transcoding.md)应用转码。
 
 >[!MORELIKETHIS]
 >

@@ -1,28 +1,33 @@
 ---
 title: '[!DNL Google Ads]关键字设置'
-description: 引用 [!DNL Google Ads] 关键字的设置。
+description: 引用[!DNL Google Ads]关键字的设置。
 exl-id: b2937d18-565a-43f0-ba33-d46d4c77ec07
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/XwutnbHVQrg8mfimzVjv-Px6OeUsOWzT7-347-ff2C0
+TQID: 'https://experienceleague.adobe.com/XwutnbHVQrg8mfimzVjv-Px6OeUsOWzT7-347-ff2C0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 189
+source-wordcount: '204'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]关键字设置
 
 您可以为使用搜索和显示网络的营销活动创建关键字。
 
-请参阅[!DNL Google Ads]帮助以了解每个帐户[的](https://support.google.com/google-ads/answer/6372658)关键字限制。
+请参阅[!DNL Google Ads]帮助以了解每个帐户[&#128279;](https://support.google.com/google-ads/answer/6372658)的关键字限制。
 
 ## [!UICONTROL Keyword Details]
 

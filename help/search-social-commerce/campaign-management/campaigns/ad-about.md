@@ -3,20 +3,24 @@ title: 管理广告
 description: 了解Search、Social和Commerce中的广告，包括可用的广告类型。
 exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/zjdXTfuUM3gknKy2-ASRGz5wv7DAr-SZmpfLSuhhpoU
+TQID: 'https://experienceleague.adobe.com/zjdXTfuUM3gknKy2-ASRGz5wv7DAr-SZmpfLSuhhpoU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: '918'
 ht-degree: 0%
-
 ---
-
 # 关于广告
 
 仅&#x200B;*[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yandex]和现有[!DNL Baidu]帐户*
@@ -31,9 +35,9 @@ ht-degree: 0%
 
 * 针对[!DNL Microsoft Audience Network]上[!DNL Microsoft Advertising]营销活动的跨设备、本机&#x200B;**受众广告**。 根据促销活动设置，您有两个受众广告选项：
 
-   * 如果促销活动链接到商户中心商店，则让广告网络使用商店的产品信息，自动为促销活动生成基于广告馈送的广告。 您无需为营销活动创建基于信息源的广告，但必须创建具有用户定位的广告组。
+  * 如果促销活动链接到商户中心商店，则让广告网络使用商店的产品信息，自动为促销活动生成基于广告馈送的广告。 您无需为营销活动创建基于信息源的广告，但必须创建具有用户定位的广告组。
 
-   * 如果促销活动未链接到商家中心帐户，则使用响应式广告格式创建基于图像的受众广告，其中包含多个文本和图像资源。 广告网络使用最有效的广告元素组合来组合广告，并在[!DNL MSN]、[!DNL Outlook.com]和[!DNL Microsoft Edge]等网站上显示它们。
+  * 如果促销活动未链接到商家中心帐户，则使用响应式广告格式创建基于图像的受众广告，其中包含多个文本和图像资源。 广告网络使用最有效的广告元素组合来组合广告，并在[!DNL MSN]、[!DNL Outlook.com]和[!DNL Microsoft Edge]等网站上显示它们。
 
 * 搜索网络上[!DNL Google Ads]促销活动的&#x200B;**仅限呼叫的广告**。 仅限呼叫的广告是包含电话号码的文字广告。 您可以选择使用[!DNL Google Ads]分配的转接号码进行高级呼叫报告。
 

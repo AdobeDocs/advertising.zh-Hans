@@ -1,22 +1,29 @@
 ---
-title: 为 [!DNL Google Ads]创建转化标记
-description: 了解如何创建 [!DNL Google Ads] 转化标记。
+title: 为[!DNL Google Ads]创建转化标记
+description: 了解如何创建[!DNL Google Ads]转化标记。
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-TQID: https://experienceleague.adobe.com/pskBpQ12sQXj9RyLd3IQAG0MktlOvV2JvZBl5rGtQT0
+TQID: 'https://experienceleague.adobe.com/pskBpQ12sQXj9RyLd3IQAG0MktlOvV2JvZBl5rGtQT0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: '436'
 ht-degree: 0%
-
 ---
-
 # 为[!DNL Google Ads]创建转化标记
 
 您可以为要跟踪单个[!DNL Google Ads]帐户，而不是在经理帐户级别跟踪的新转化创建转化标记。
@@ -39,7 +46,7 @@ ht-degree: 0%
 
 1. 复制转化标记，并在要跟踪转化量度的网站上实施该标记。
 
-   请参阅“[!DNL Google]”的[!DNL Google Ads]帮助中的“安装[标记”。 设置您的Google标记](https://support.google.com/google-ads/answer/12215519)。”
+   请参阅“[”的[!DNL Google Ads]帮助中的“安装[!DNL Google]标记”。 设置您的Google标记](https://support.google.com/google-ads/answer/12215519)。”
 
 1. 单击&#x200B;**[!UICONTROL Done].**
 
@@ -49,7 +56,7 @@ ht-degree: 0%
 
 **[!UICONTROL Select an Account]：**&#x200B;适用的[!DNL Google Ads]帐户。
 
-**[!UICONTROL Type of Conversion]：**&#x200B;要跟踪的转换类型： *[!UICONTROL Click on a webpage element]*、*[!UICONTROL Calls to a phone number on your website]*&#x200B;或&#x200B;*[!UICONTROL Clicks to your number on your mobile website]*。 **注意：** *[!UICONTROL Import conversion]*&#x200B;用于其他目的；请参阅“[为潜在客户 [!DNL Google Ads] 的](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)增强型转化创建转化操作”。
+**[!UICONTROL Type of Conversion]：**&#x200B;要跟踪的转换类型： *[!UICONTROL Click on a webpage element]*、*[!UICONTROL Calls to a phone number on your website]*&#x200B;或&#x200B;*[!UICONTROL Clicks to your number on your mobile website]*。 **注意：** *[!UICONTROL Import conversion]*&#x200B;用于其他目的；请参阅“[为潜在客户](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)的 [!DNL Google Ads] 增强型转化创建转化操作”。
 
 **[!UICONTROL Conversion Name]：**&#x200B;转化量度的唯一名称。
 

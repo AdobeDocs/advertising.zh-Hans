@@ -3,24 +3,29 @@ title: 关于[!UICONTROL Simple Ad Serving]
 description: 了解使用事件跟踪像素的[!UICONTROL Simple Ad Serving]交易。
 feature: DSP Simple Ad Serving
 exl-id: 327a2c93-d729-42e1-856f-f0e05efab7ca
-TQID: https://experienceleague.adobe.com/w4KFePatd7CZ1xC8dd1CItl88-6myAZw8TuatHzHnRI
+TQID: 'https://experienceleague.adobe.com/w4KFePatd7CZ1xC8dd1CItl88-6myAZw8TuatHzHnRI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 98ea1d8f-85a7-5f89-b8d8-c40726baa182
+    internal-label: DSP Simple Ad Serving
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 227
+source-wordcount: '235'
 ht-degree: 0%
-
 ---
-
 # 关于[!UICONTROL Simple Ad Serving]
 
 [!UICONTROL Simple Ad Serving]使用单个专用投放位置，为指定发布者和单个广告类型提供有保障、未决策的广告投放和报告。 当您的出版商无法通过交易ID执行您的交易时，请使用[!DNL Simple Ad Serving]。 所有定位、预算步调和上限以及频率上限均由发布者处理。 通过事件跟踪像素执行这些交易。
@@ -35,7 +40,7 @@ ht-degree: 0%
 * 显示
 * 音频
 
-您可以在[!UICONTROL Simple Ad Serving] > [!UICONTROL Inventory]视图中创建[!UICONTROL Deals]交易。 DSP会自动为广告生成子类型为“[!DNL Simple ad serving]”的版面。 投放位置以交易为目标，但不允许额外的定位、预算或频率上限。 您只能编辑部分交易设置，如交易名称、CPM、展示次数和投放日期。<!-- If you need multiple tracking tags for a [!UICONTROL Simple Ad Serving] deal, create a duplicate deal. -->
+您可以在[!UICONTROL Inventory] > [!UICONTROL Deals]视图中创建[!UICONTROL Simple Ad Serving]交易。 DSP会自动为广告生成子类型为“[!DNL Simple ad serving]”的版面。 投放位置以交易为目标，但不允许额外的定位、预算或频率上限。 您只能编辑部分交易设置，如交易名称、CPM、展示次数和投放日期。<!-- If you need multiple tracking tags for a [!UICONTROL Simple Ad Serving] deal, create a duplicate deal. -->
 
 [!UICONTROL Simple Ad Serving]投放位置不符合帐户的可用资金或营销活动和包预算。 但是，支出会被跟踪并计入这些预算。 即使CPM为0美元，系统也会始终跟踪事件数据。
 

@@ -3,20 +3,26 @@ title: '[!UICONTROL Keyword Assist Report]'
 description: 了解[!UICONTROL Keyword Assist Report]。
 exl-id: 24e5854c-5696-43cd-ac21-64209f9f57d4
 feature: Search Reports, Search Assist Reports
-TQID: https://experienceleague.adobe.com/LO6nDisgA7981cjrGw31tJcy4VR6lesl-wvwU7uGlK4
+TQID: 'https://experienceleague.adobe.com/LO6nDisgA7981cjrGw31tJcy4VR6lesl-wvwU7uGlK4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
+    internal-label: Search Assist Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 781
+source-wordcount: '784'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Keyword Assist Report]
 
 *广告商具有搜索、社交和Commerce点击跟踪以及来自Adobe Advertising、Adobe Analytics（具有[!DNL Analytics]集成）的转化跟踪，或仅在信息源中使用令牌(`ef_id`)提供*
@@ -40,14 +46,14 @@ ht-degree: 0%
 
 | 列 | 默认？ | 描述 |
 | ---- | ---- | ---- |
-| [!UICONTROL 1st Keyword]至[!UICONTROL 5th Keyword] | 默认 | 在广告商的[点击回顾窗口](/help/search-social-commerce/glossary.md#c-d)和[展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)内发生的转化路径中的五个最早的付费搜索关键词或投放位置点击。<br><br><b>注意：</b>如果报表包含来自支持内容的搜索营销活动（不包括关键字）的版面，则这些列显示适用的广告组名称，如“（广告组内容）您的广告组名称”。 |
+| [!UICONTROL 1st Keyword]至[!UICONTROL 5th Keyword] | 默认 | 转化路径中在广告商的[单击回顾窗口](/help/search-social-commerce/glossary.md#c-d)和[展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)内发生的五个最早的付费搜索关键词或投放位置点击。<br><br><b>注意：</b>如果报表包含来自启用了内容的搜索营销活动（不包括关键字）的投放位置，则这些列将显示适用的广告组名称，例如“（广告组内容）您的广告组名称”。 |
 | [!UICONTROL Path Size] | 默认 | 转化路径中在广告商的[点击回顾窗口](/help/search-social-commerce/glossary.md#c-d)和[展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)内发生的关键字和/或版面数量。 |
 | [!UICONTROL First Keyword] | 默认 | 转换路径中的第一个关键字或位置。 |
 | [!UICONTROL Last Keyword] | 默认 | 导致转换的最后一个关键字或投放位置（即使最后关键字超出指定的路径大小也是如此）。 |
 | \[特定于广告商的自定义（派生）量度\] | 自定义 | 您创建的自定义量度的值，它通过现有量度计算。 |
 | \[特定于广告商的转化量度\] | 自定义 | 指定转化量度或网站参与量度的转化次数。 |
 | [!UICONTROL % of Total] \[转化量度\] | 自动 | （在报表设置中不可用，但自动包含在每个包含的转化量度的报表输出中）归因于关键词和/或投放模式的项目组合中的整体转化百分比。 |
-| [!UICONTROL 6th Keyword]至[!UICONTROL 10th Keyword] | 自定义 | 在广告商的[点击回顾窗口](/help/search-social-commerce/glossary.md#c-d)和[展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)内发生的第六次到第十次付费搜索关键词或转化路径中的版面点击。<br><br><b>注意：</b>如果报表包含来自支持内容的搜索营销活动（不包括关键字）的版面，则这些列显示适用的广告组名称，如“（广告组内容）您的广告组名称”。 |
+| [!UICONTROL 6th Keyword]至[!UICONTROL 10th Keyword] | 自定义 | 在广告商的[点击回顾窗口](/help/search-social-commerce/glossary.md#c-d)和[展示回顾窗口](/help/search-social-commerce/glossary.md#i-j)内发生的第六次到第十次付费搜索关键词或转化路径中的版面点击。<br><br><b>注意：</b>如果报表包含来自启用内容的搜索营销活动（不包括关键字）的版面，则这些列显示适用的广告组名称，如“（广告组内容）您的广告组名称”。 |
 | [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[转化量度\] | 自动 | （在报表设置中不可用，但自动包含在每个包含的转化量度的报表输出中）从第一个事件（在第一个关键词或投放位置）到转化的平均延迟（以天为单位）。 |
 | [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[转化量度\] | 自动 | （在报告设置中不可用，但自动包含在报告输出中）从上一个事件（在最后一个关键词或投放位置）到转换的平均延迟（以天为单位）。 |
 | [!UICONTROL Path Frequency] | 自定义 | 此行的路径在转换前发生的次数。 |

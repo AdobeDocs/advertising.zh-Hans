@@ -3,37 +3,42 @@ title: 关于自定义营销活动管理视图中的数据
 description: 了解您可以在Campaign数据视图中自定义的数据类型。
 exl-id: 89f36865-9275-494e-ac33-d41fa30faa2a
 feature: Search Common Tasks, Search Custom Data Views
-TQID: https://experienceleague.adobe.com/PnBql37yqK03DWH2OhLf8hnCBPOwFAVZxD65NNZu0VU
+TQID: 'https://experienceleague.adobe.com/PnBql37yqK03DWH2OhLf8hnCBPOwFAVZxD65NNZu0VU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: d6e2ef48-fac7-5a4a-96ff-9ac0264dc826
+    internal-label: Search Custom Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 411
+source-wordcount: '412'
 ht-degree: 0%
-
 ---
-
 # 关于自定义营销活动管理视图中的数据
 
 <!-- Add info about new UI -->
 
 在大多数Campaign数据视图中，您可以自定义数据表中显示的数据。 您可以通过以下方式自定义数据：
 
-* [编辑特定实体视图（如](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md##view-edit)）的整个默认视图[!UICONTROL Campaigns]的设置，以包含特定列顺序、筛选器、日期范围、归因规则等，并暂时应用设置或保存它们。 您还可以[创建其他自定义视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)、[克隆现有视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#view-clone)和[应用任何视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#apply-a-default-or-custom-view)。
+* [编辑特定实体视图（如[!UICONTROL Campaigns]）的整个默认视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md##view-edit)的设置，以包含特定列顺序、筛选器、日期范围、归因规则等，并暂时应用设置或保存它们。 您还可以[创建其他自定义视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)、[克隆现有视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#view-clone)和[应用任何视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#apply-a-default-or-custom-view)。
 
-* [从工具栏右侧的](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)图标更改列及其排序顺序[!UICONTROL Columns]，或者快速[仅更改视图中的任何列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)。
+* [从工具栏右侧的[!UICONTROL Columns]图标更改列及其排序顺序](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)，或者快速[仅更改视图中的任何列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)。
 
 * （仅限旧版用户界面） [从左侧导航面板](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/filter-using-left-panel.md)，您可以：
 
-   * 按广告网络浏览或搜索实体，并按实体的状态以及帐户、营销活动以及广告组或广告集的状态进行筛选。 单击面板中的任意实体或实体组可加载子实体的视图（例如，单击促销活动名称可查看其子广告组）。
+  * 按广告网络浏览或搜索实体，并按实体的状态以及帐户、营销活动以及广告组或广告集的状态进行筛选。 单击面板中的任意实体或实体组可加载子实体的视图（例如，单击促销活动名称可查看其子广告组）。
 
-   * 按项目组合或项目组合组浏览或搜索促销活动，并按实体的状态以及项目组合组、项目组合和促销活动的状态进行过滤。 单击面板中的任意项目组合组、项目组合或营销策划，可在当前实体视图中加载项目组合组、项目组合或营销策划的数据。
+  * 按项目组合或项目组合组浏览或搜索促销活动，并按实体的状态以及项目组合组、项目组合和促销活动的状态进行过滤。 单击面板中的任意项目组合组、项目组合或营销策划，可在当前实体视图中加载项目组合组、项目组合或营销策划的数据。
 
-   * 访问、编辑和重置默认视图；以及访问、编辑和删除自定义视图。 单击任意视图名称可加载相应的视图。
+  * 访问、编辑和重置默认视图；以及访问、编辑和删除自定义视图。 单击任意视图名称可加载相应的视图。
 
-* 对任何可用数据列应用筛选器以更改在当前选项卡上显示的数据。 您可以从列标题[创建筛选器](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)，或从工具栏[上的按钮创建筛选器](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)。 对于营销活动管理视图，在打开子实体时，会根据需要维护过滤器。 例如，如果您查看具有\> 100次点击的促销活动，然后在该促销活动中打开一个广告组，则只显示具有\> 100次点击的广告组。
+* 对任何可用数据列应用筛选器以更改在当前选项卡上显示的数据。 您可以从列标题[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)创建筛选器[，或从工具栏](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)上的按钮创建筛选器。 对于营销活动管理视图，在打开子实体时，会根据需要维护过滤器。 例如，如果您查看具有\> 100次点击的促销活动，然后在该促销活动中打开一个广告组，则只显示具有\> 100次点击的广告组。
 
 * [更改尚未保存特定日期范围的所有默认视图和自定义视图中使用的日期范围](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md)。
 

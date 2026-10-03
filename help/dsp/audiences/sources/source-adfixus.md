@@ -1,25 +1,31 @@
 ---
-title: 从 [!DNL AdFixus]导入第一方区段
-description: 了解如何将包含 [!DNL AdFixus] 通用ID的 [!DNL AdFixus] 第一方区段导入DSP。
+title: 从[!DNL AdFixus]导入第一方区段
+description: 了解如何将包含[!DNL AdFixus]通用ID的[!DNL AdFixus]第一方区段导入DSP。
 feature: DSP Audiences
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: f796a4002b9136299c414b789cd2c34c8d6dc11c
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: '469'
 ht-degree: 0%
-
 ---
-
 # 从[!DNL AdFixus]导入第一方区段
 
 *仅适用于澳大利亚的广告商*
@@ -36,7 +42,7 @@ ht-degree: 0%
 
 1. （具有[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)的广告商）为[!DNL Analytics]度量设置跟踪：
 
-   1. （如果尚未这样做）完成实施 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)以及跟踪URL[&#128279;](/help/integrations/analytics/ids.md)中的AMO ID和EF ID的所有先决条件。
+   1. （如果尚未这样做）完成实施 [!DNL Analytics for Advertising]&#x200B;[&#128279;](/help/integrations/analytics/prerequisites.md)以及跟踪URL[&#128279;](/help/integrations/analytics/ids.md)中的AMO ID和EF ID的所有先决条件。
 
    1. 在网页上部署特定于[!DNL AdFixus]的代码，以匹配从桌面浏览器和移动设备Web浏览器（但不包括移动应用程序）上的[!DNL AdFixus] ID到显示到达次数的转换。
 

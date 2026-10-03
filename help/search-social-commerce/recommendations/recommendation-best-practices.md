@@ -1,23 +1,28 @@
 ---
 title: 将发布者推荐与项目组合结合使用的最佳实践
-description: 了解将 [!DNL Google Ads] 推荐用于您的搜索、社交和Commerce项目组合的最佳实践。
+description: 了解将[!DNL Google Ads]推荐用于您的搜索、社交和Commerce项目组合的最佳实践。
 exl-id: 2ed14f8a-da35-4341-86b8-776973faee66
 feature: Search Recommendations
-TQID: https://experienceleague.adobe.com/8pW8DgB9YGEYCd96H4rQcwjWEYwSF2l8StSgwLrC8Yk
+TQID: 'https://experienceleague.adobe.com/8pW8DgB9YGEYCd96H4rQcwjWEYwSF2l8StSgwLrC8Yk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae143aa5-b8d8-5a93-93ab-45e919f0c418
+    internal-label: Search Recommendations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 279
+source-wordcount: '287'
 ht-degree: 0%
-
 ---
-
 # 将发布者推荐与项目组合结合使用的最佳实践
 
 <!--

@@ -1,41 +1,50 @@
 ---
-title: JavaScript code for [!DNL Analytics for Advertising]
-description: JavaScript code for [!DNL Analytics for Advertising]
+title: '[!DNL Analytics for Advertising]的JavaScript代码'
+description: '[!DNL Analytics for Advertising]的JavaScript代码'
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-TQID: https://experienceleague.adobe.com/g9onwe1IQl1kbyQ82W2KmODPGUAReKiotxy65yCZcNY
+TQID: 'https://experienceleague.adobe.com/g9onwe1IQl1kbyQ82W2KmODPGUAReKiotxy65yCZcNY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 941
+source-wordcount: '941'
 ht-degree: 0%
-
 ---
-
-# JavaScript code for [!DNL Analytics for Advertising]
+# [!DNL Analytics for Advertising]的JavaScript代码
 
 *仅使用Advertising DSP的广告商*
 
-For Advertising DSP, the [!DNL Analytics for Advertising] integration tracks view-through and click-through site interactions. Click-through visits are tracked by the standard Adobe Analytics code on your webpages; the [!DNL Analytics] code captures the AMO ID and EF ID parameters in the landing page URL and tracks them in their respective reserved [!DNL eVars]. You can track view-through visits by deploying a JavaScript snippet in your webpages.
+对于Advertising DSP，[!DNL Analytics for Advertising]集成跟踪显示到达和点进网站交互。 点进访问由您网页上的标准Adobe Analytics代码进行跟踪；[!DNL Analytics]代码捕获登陆页面URL中的AMO ID和EF ID参数，并在它们各自的保留[!DNL eVars]中跟踪它们。 您可以通过在网页中部署JavaScript代码片段来跟踪浏览访问。
 
-On the first page view of a visit to the site, the Adobe Advertising JavaScript code checks to see if the visitor has previously seen or clicked on an ad. If the user has previously entered the site via a click-through or hasn&#39;t seen an ad, then the visitor is ignored. If the visitor has seen an ad and hasn&#39;t entered the site via a click-through during the [click lookback window](/help/integrations/analytics/prerequisites.md#lookback-a4adc) set within Adobe Advertising, then the Adobe Advertising JavaScript code either a) uses the [Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans) to generate a supplemental ID (`SDID`) or b) uses the Adobe Experience Platform [!DNL Web SDK] `generateRandomID` method to generate a `[!DNL StitchID]`. Either ID is used to stitch data from Adobe Advertising to the visitor&#39;s Adobe Analytics hit. Adobe Analytics then queries Adobe Advertising for the AMO ID and EF ID associated with the ad exposure. The AMO ID and EF IDs are then populated in their respective [!DNL eVars]. These values persist for a designated period (by default, 60 days).
+在访问网站后的第一个页面查看中，Adobe Advertising JavaScript代码会检查访客以前是否查看过或点击过广告。 如果用户之前通过点进进入网站或者没有看到广告，则会忽略该访客。 如果访客在Adobe Advertising中设置的[点击回顾窗口](/help/integrations/analytics/prerequisites.md#lookback-a4adc)期间看到广告而没有通过点进进入网站，则Adobe Advertising JavaScript代码a)使用[Experience Cloud ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)生成补充ID (`SDID`)，或b)使用Adobe Experience Platform [!DNL Web SDK] `generateRandomID`方法生成`[!DNL StitchID]`。 其中任一ID都用于将来自Adobe Advertising的数据拼接到访客的Adobe Analytics点击。 然后，Adobe Analytics查询Adobe Advertising以了解与广告曝光度相关的AMO ID和EF ID。 随后，AMO ID和EF ID将填充到它们各自的[!DNL eVars]中。 这些值会在指定的时间段内保留（默认情况下，为60天）。
 
-[!DNL Analytics] sends site traffic metrics (such as page views, visits, and time spent) and any [!DNL Analytics] custom or standard events to Adobe Advertising hourly, using the EF ID as the key. These [!DNL Analytics] metrics then run through the Adobe Advertising attribution system to connect the conversions to the click and exposure history.
+[!DNL Analytics]使用EF ID作为键，每小时将网站流量量度（例如页面查看次数、访问次数和逗留时间）和任何[!DNL Analytics]自定义或标准事件发送到Adobe Advertising。 然后，这[!DNL Analytics]个量度将通过Adobe Advertising归因系统运行，以将转化连接到点击和曝光历史记录。
 
 >[!NOTE]
 >
->The Adobe Advertising JavaScript tracking logic occurs on the Adobe side and thus has virtually no impact to the page load time.
+>Adobe Advertising JavaScript跟踪逻辑发生在Adobe端，因此对页面加载时间几乎没有任何影响。
 >
->In contrast, the logic for the [!DNL DCM] data connector to [!DNL Analytics] (using [!DNL Google Campaign Manager 360]) for Advertising DSP occurs on the client side. Client-side stitching slows down the page load and increases the risk of data loss. This occurs because the [!DNL Analytics] JavaScript must ping [!DNL DoubleClick] and wait for [!DNL DoubleClick] to pass back the last click/impression data to [!DNL Analytics]. When your [!DNL DSP] team sets up the [!DNL DCM] data connector, you must specify how long you&#39;re willing to delay the page.
+>相反，用于Advertising DSP的[!DNL DCM]数据连接器到[!DNL Analytics]（使用[!DNL Google Campaign Manager 360]）的逻辑发生在客户端。 客户端拼接会减慢页面加载速度并增加数据丢失的风险。 发生这种情况是因为[!DNL Analytics] JavaScript必须ping [!DNL DoubleClick]，并等待[!DNL DoubleClick]将上次点击/展示数据传递回[!DNL Analytics]。 当您的[!DNL DSP]团队设置[!DNL DCM]数据连接器时，您必须指定愿意将页面延迟多长时间。
 
 <!--
 ## Deploying the JavaScript code
@@ -69,13 +78,13 @@ The standard JavaScript library consists of two lines that allow [!DNL Analytics
    * For [!DNL ID5] IDs: Contact your Adobe Account Team, who will give you instructions to register for the tag with ID5. Registration is free, but you must sign an agreement. Once you register, a member of ID5's technical team will provide a unique tag for your organization to implement on your webpages.
 -->
 
-## Deploying the JavaScript code
+## 部署JavaScript代码
 
-The JavaScript library consists of two lines that allow [!DNL Analytics] and Adobe Advertising to communicate with each other. 如果[!DNL Analytics for Advertising]集成已在Adobe Advertising实施期间完成，则您应该已经收到此代码，其中包含有关如何部署此代码的说明。
+JavaScript库由两行组成，允许[!DNL Analytics]和Adobe Advertising相互通信。 如果[!DNL Analytics for Advertising]集成已在Adobe Advertising实施期间完成，则您应该已经收到此代码，其中包含有关如何部署此代码的说明。
 
 ### 代码
 
-#### 使用Experience Cloud Identity Service `visitorAPI.js`代码的实施
+#### 使用Experience Cloud Identity服务`visitorAPI.js`代码的实施
 
 ```
 <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
@@ -150,7 +159,7 @@ The JavaScript library consists of two lines that allow [!DNL Analytics] and Ado
 1. 在[!UICONTROL Solutions Filter]工具栏中，单击[!UICONTROL Adobe Advertising]和[!UICONTROL Analytics]。
 1. 在[!UICONTROL Request URL - Hostname]参数行中，找到`lasteventf-tm.everesttech.net`。
 1. 在[!UICONTROL Request - Parameters]行中，审核生成的信号，类似于“[如何使用 [!DNL Chrome Developer Tools]](#validate-js-chrome)确认代码”中的步骤3。
-   * （使用Experience Cloud Identity Service `visitorAPI.js`代码的实施）确保`Sdid`参数与Adobe Analytics筛选器中的`Supplemental Data ID`匹配。
+   * （使用Experience Cloud Identity服务`visitorAPI.js`代码的实施）确保`Sdid`参数与Adobe Analytics筛选器中的`Supplemental Data ID`匹配。
    * （使用Experience Platform [!DNL Web SDK] `alloy.js`代码的实施）确保`advertisingStitchID`参数的值与发送到Experience Platform Edge Network的`Sdid`匹配。
    * 如果代码未生成，则检查以确保已在[!UICONTROL Application]选项卡中删除Adobe Advertising Cookie。 删除页面后，请刷新页面并重复此过程。
 

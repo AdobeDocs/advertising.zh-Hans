@@ -1,21 +1,26 @@
 ---
 title: '[!DNL Meta Ads]营销活动设置'
-description: 引用 [!DNL Meta Ads] 营销活动的设置。
+description: 引用[!DNL Meta Ads]营销活动的设置。
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 98
+source-wordcount: '99'
 ht-degree: 0%
-
 ---
-
 # [!DNL Meta Ads]营销活动设置
 
 无法在Search、Social和Commerce中创建[!DNL Meta Ads]营销活动。 您可以编辑最低营销活动设置。

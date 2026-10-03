@@ -1,22 +1,26 @@
 ---
 title: '[!DNL Yandex]关键字设置'
-description: 引用 [!DNL Yandex] 关键字的设置。
+description: 引用[!DNL Yandex]关键字的设置。
 exl-id: 973be0df-9b3c-4f33-b48b-ef1db4ab35da
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/-PRiQ9myH0XNYF8pc2OVBuLOK-8BpxzqruOP2hzPW0I
+TQID: 'https://experienceleague.adobe.com/-PRiQ9myH0XNYF8pc2OVBuLOK-8BpxzqruOP2hzPW0I'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 181
+source-wordcount: '193'
 ht-degree: 0%
-
 ---
-
 # [!DNL Yandex]关键字设置
 
 Yandex关键字同时用于搜索和显示（内容）网络。

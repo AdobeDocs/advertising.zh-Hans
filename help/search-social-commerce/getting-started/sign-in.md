@@ -3,20 +3,24 @@ title: 登录
 description: 了解登录方式。
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-TQID: https://experienceleague.adobe.com/kkgk8VMLaF3phB1rVzMoxdOkgPWWk-fTqs8U2aGPJxw
+TQID: 'https://experienceleague.adobe.com/kkgk8VMLaF3phB1rVzMoxdOkgPWWk-fTqs8U2aGPJxw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 54967645-9f46-5896-8af7-b943b426aadf
+    internal-label: Search Getting Started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 389
+source-wordcount: '389'
 ht-degree: 0%
-
 ---
-
 # 登录
 
 Search、Social和Commerce正在过渡到Adobe Identity Management服务(IMS)以进行登录身份验证。 IMS使用联合ID为支持IMS的所有[!DNL Adobe]产品（包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics）提供单点登录(SSO)访问。 更改后：

@@ -3,21 +3,26 @@ title: 关于通知
 description: 了解通知，包括不同的类型和类别。
 exl-id: 79495e1c-72ce-476f-83df-c4d95391f51c
 feature: Search Notifications
-TQID: https://experienceleague.adobe.com/5WmRMJeZPQ8QDsgwRV0s1-50lkIr0LZqzPo2Ttv7kns
+TQID: 'https://experienceleague.adobe.com/5WmRMJeZPQ8QDsgwRV0s1-50lkIr0LZqzPo2Ttv7kns'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
+    internal-label: Search Notifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 430
+source-wordcount: '429'
 ht-degree: 0%
-
 ---
-
 # 关于通知
 
 *Beta功能*
@@ -52,25 +57,25 @@ ht-degree: 0%
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL Bulksheets]**： [批量工作表操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)已完成或失败的通知。
+  * **[!UICONTROL Bulksheets]**： [批量工作表操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)已完成或失败的通知。
 
-   * **[!UICONTROL Manager Account Missing]**：通知Search、Social和Commerce缺少[广告网络管理器帐户](/help/search-social-commerce/admin/manager-accounts.md)的凭据，这些凭据是正确设置关键功能所必需的。
+  * **[!UICONTROL Manager Account Missing]**：通知Search、Social和Commerce缺少[广告网络管理器帐户](/help/search-social-commerce/admin/manager-accounts.md)的凭据，这些凭据是正确设置关键功能所必需的。
 
-   * **[!UICONTROL UI Actions]**：关于在后台执行的作业已完成或失败的通知。 作业类型包括[批量工作表作业](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)、批量编辑数据表中的作业或使用工具栏、实体分配作业或用户界面中的其他操作（如与广告网络同步、粘贴行或重命名实体）。 实体分配包括向任何实体分配或取消分配[标签分类值](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md)，向项目组合分配营销活动，以及向项目组合分配或取消分配约束。<!--Link "constraint" to constraint-about.md if that file is ever public -->
+  * **[!UICONTROL UI Actions]**：关于在后台执行的作业已完成或失败的通知。 作业类型包括[批量工作表作业](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)、批量编辑数据表中的作业或使用工具栏、实体分配作业或用户界面中的其他操作（如与广告网络同步、粘贴行或重命名实体）。 实体分配包括向任何实体分配或取消分配[标签分类值](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md)，向项目组合分配营销活动，以及向项目组合分配或取消分配约束。<!--Link "constraint" to constraint-about.md if that file is ever public -->
 
-   * [!UICONTROL Data Upload]
+  * [!UICONTROL Data Upload]
 
-      * **[!UICONTROL Direct File Upload]**：用于已关闭的测试版
+    * **[!UICONTROL Direct File Upload]**：用于已关闭的测试版
 
-      * **[!UICONTROL File Upload to Cloud Storage]**：用于已关闭的测试版
+    * **[!UICONTROL File Upload to Cloud Storage]**：用于已关闭的测试版
 
-   * [!UICONTROL Network Errors]
+  * [!UICONTROL Network Errors]
 
-      * **[!UICONTROL Account Auth Error]**：通知Search、Social和Commerce无法访问[广告网络帐户](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)，因为凭据无效或授权令牌无效或过期。
+    * **[!UICONTROL Account Auth Error]**：通知Search、Social和Commerce无法访问[广告网络帐户](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)，因为凭据无效或授权令牌无效或过期。
 
-      * **[!UICONTROL Account Missing]**： Search、Social和Commerce缺少[广告网络帐户](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)的凭据的通知。
+    * **[!UICONTROL Account Missing]**： Search、Social和Commerce缺少[广告网络帐户](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)的凭据的通知。
 
-      * **[!UICONTROL Manager Account Auth Error]**：通知Search、Social和Commerce无法与[广告网络管理器帐户](/help/search-social-commerce/admin/manager-accounts.md)同步，因为凭据无效或授权令牌无效或过期。
+    * **[!UICONTROL Manager Account Auth Error]**：通知Search、Social和Commerce无法与[广告网络管理器帐户](/help/search-social-commerce/admin/manager-accounts.md)同步，因为凭据无效或授权令牌无效或过期。
 
   <!--
   * [!UICONTROL Setup Errors]
@@ -82,13 +87,13 @@ ht-degree: 0%
 
 * [!UICONTROL Insights & Reports]
 
-   * **[!UICONTROL Advertising Insights]**： [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md)已完成或失败的通知。
+  * **[!UICONTROL Advertising Insights]**： [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md)已完成或失败的通知。
 
-   * **[!UICONTROL Custom Alerts]**：为警报模板触发了[警报实例](/help/search-social-commerce/alerts/alert-about.md)的通知。
+  * **[!UICONTROL Custom Alerts]**：为警报模板触发了[警报实例](/help/search-social-commerce/alerts/alert-about.md)的通知。
 
-   * **[!UICONTROL Reports]**： [自定义或计划报告](/help/search-social-commerce/reports/report-about.md)完成或失败的通知。
+  * **[!UICONTROL Reports]**： [自定义或计划报告](/help/search-social-commerce/reports/report-about.md)完成或失败的通知。
 
-   * **[!UICONTROL Spreadsheet Feeds]**： [电子表格馈送](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md)完成或失败的通知。
+  * **[!UICONTROL Spreadsheet Feeds]**： [电子表格馈送](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md)完成或失败的通知。
 
 <!--
 * [!UICONTROL Optimization]

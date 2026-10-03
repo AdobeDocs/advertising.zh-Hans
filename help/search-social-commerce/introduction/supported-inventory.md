@@ -3,22 +3,28 @@ title: 支持的清单
 description: 引用支持的广告网络、营销活动类型和广告类型。
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-TQID: https://experienceleague.adobe.com/l2PmtgKVgNVGjWsbJqfxbTdh9P8qo2wIxjjcDQeYcMQ
+TQID: 'https://experienceleague.adobe.com/l2PmtgKVgNVGjWsbJqfxbTdh9P8qo2wIxjjcDQeYcMQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c0c71a175245b4f9096ca85eb33326daca12f904
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2829
+source-wordcount: '2829'
 ht-degree: 0%
-
 ---
-
 # 支持的清单
 
 以下是受支持的广告网络、促销活动类型和广告类型，以及适用于每种广告类型的功能。

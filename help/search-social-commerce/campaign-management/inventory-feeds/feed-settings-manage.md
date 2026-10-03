@@ -3,18 +3,21 @@ title: 配置馈送数据设置
 description: 了解如何配置用于控制如何处理馈送数据的设置。
 exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/kmaWPmbN4HFZmI0u9KE2PXMyt9jltTHAM9tWM0Bj7e0
+TQID: 'https://experienceleague.adobe.com/kmaWPmbN4HFZmI0u9KE2PXMyt9jltTHAM9tWM0Bj7e0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1164
+source-wordcount: '1165'
 ht-degree: 0%
-
 ---
-
 # 配置馈送数据设置
 
 *[!DNL Google Ads]、[!DNL LY Ads] （仅删除操作）、[!DNL Microsoft Advertising]和仅[!DNL Yandex]帐户*
@@ -100,7 +103,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 对于FTP文件，信息源服务每两小时在FTP目录中检查一次更新（PST时区中的小时数偶数）。 此选项处理自上次检查以来上载的所有文件。
->* 对于商户中心帐户，Search、Social和Commerce每天在广告商所在时区的大约06:00与该帐户同步。 此选项处理自上次同步以来更新的所有数据。
+>* 对于商户中心帐户，Search、Social和Commerce每天在广告商所在时区的约06:00与帐户同步。 此选项处理自上次同步以来更新的所有数据。
 >* 传播的数据可以从[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]和[!UICONTROL Ads]选项卡使用，直到数据被发布到广告网络或[!UICONTROL Bulksheets]视图。
 
 **[!UICONTROL Post to the SE]：** （通过FTP或商户中心帐户上传数据文件的广告商）在通过适用的模板传播新数据后，自动为相关广告网络以正确格式创建批量处理工作表文件。 此选项还会从[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]和[!UICONTROL Ads]选项卡中删除数据，除非任何子组件都有错误。

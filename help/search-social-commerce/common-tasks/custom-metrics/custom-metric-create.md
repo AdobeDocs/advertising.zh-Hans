@@ -3,18 +3,23 @@ title: 创建自定义量度
 description: 了解如何配置自定义量度，这些量度通过标准量度计算。
 exl-id: a9ce503a-67ee-477e-8f79-31b4a9c6e51a
 feature: Search Common Tasks, Search Custom Metrics
-TQID: https://experienceleague.adobe.com/g-J8AlulQ20I-vxQrPkPaP-Ap66bBIng0eKDPqhV9U4
+TQID: 'https://experienceleague.adobe.com/g-J8AlulQ20I-vxQrPkPaP-Ap66bBIng0eKDPqhV9U4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: a1695a4d-41fb-5bb6-a22a-9e7a1b3222d7
+    internal-label: Search Custom Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 265
+source-wordcount: '260'
 ht-degree: 0%
-
 ---
-
 # 创建自定义量度
 
 ## （新UI）从管理视图创建自定义量度

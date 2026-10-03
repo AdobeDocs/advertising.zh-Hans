@@ -1,23 +1,28 @@
 ---
 title: '[!DNL Google Ads]广告组设置'
-description: 引用 [!DNL Google Ads] 广告组的设置。
+description: 引用[!DNL Google Ads]广告组的设置。
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/pDFheVIM62XNCh2-7jbCscIqOrcTep7qnNg5S1tHYF8
+TQID: 'https://experienceleague.adobe.com/pDFheVIM62XNCh2-7jbCscIqOrcTep7qnNg5S1tHYF8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 550
+source-wordcount: '551'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]广告组设置
 
 ## \[页面顶部]

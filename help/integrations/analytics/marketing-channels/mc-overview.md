@@ -1,26 +1,35 @@
 ---
-title: ' [!DNL Marketing Channels]的基础知识'
-description: 了解 [!DNL Analytics for Advertising] 用户应了解的 [!DNL Analytics Marketing Channels] 的关键信息。
+title: '[!DNL Marketing Channels]的基础知识'
+description: 了解[!DNL Analytics for Advertising]用户应了解的有关[!DNL Analytics Marketing Channels]的关键信息。
 feature: Integration with Adobe Analytics
 exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
-TQID: https://experienceleague.adobe.com/NJ4LPss-g-J06PuvdCaUktHPyP7MARdJK84-D8gnwAk
+TQID: 'https://experienceleague.adobe.com/NJ4LPss-g-J06PuvdCaUktHPyP7MARdJK84-D8gnwAk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Email marketing
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: '563'
 ht-degree: 0%
-
 ---
-
 # [!DNL Analytics Marketing Channels]的基础知识
 
 本页介绍[!DNL Analytics for Advertising]用户需要了解的有关[!DNL Analytics Marketing Channels]的关键信息。

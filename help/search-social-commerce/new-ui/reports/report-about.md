@@ -2,9 +2,14 @@
 title: （新UI）关于计划报表
 description: 了解计划的性能报表，包括可用的不同报表类型以及如何自动执行报表。
 feature: Search Reports
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
     internal-label: Search, Social, & Commerce
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 subfeature_v2:
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
     internal-label: Reports
@@ -18,7 +23,7 @@ subfeature_v2:
     internal-label: Model accuracy reports
   - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
     internal-label: Specialty reports
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 0%
@@ -73,8 +78,8 @@ ht-degree: 0%
 | ---- | ---- |
 | 性能监控 | <ul><li>[该[!UICONTROL Portfolio Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/portfolio-report.md)</li><li>[该[!UICONTROL Search Engine Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-report.md)</li><li>[该[!UICONTROL Search Engine Account Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-account-report.md)</li><li>[该[!UICONTROL Campaign Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-report.md)</li><li>[该[!UICONTROL Ad Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-group-report.md)</li><li>[该[!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-report.md)</li></ul> |
 | 性能故障排除和趋势分析 | <ul><li>[该[!UICONTROL Keyword Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/keyword-report.md)</li><li>[该[!UICONTROL Ad Variation Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-variation-report.md)</li><li>[该[!UICONTROL Transaction Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/transaction-report.md)</li><li>[该[!UICONTROL RSA Asset Report]](/help/search-social-commerce/new-ui/reports/management/specialty/rsa-asset-report.md)</li><li>[该[!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/keyword-daily-impression-share-report.md)和[该[!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/campaign-daily-impression-share-report.md)</li><li>使用“[!UICONTROL Compare with]”功能比较两个时间窗口的任何基本报告</li></ul> |
-| 识别业务增长机会 | <ul><li>（仅具有Adobe Advertising转化跟踪的广告商） [该[!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>（仅具有Adobe Advertising转化跟踪的广告商） [该[!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>（具有[Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)的广告商）Adobe Analytics Analysis Workspace中的自定义报表</li></ul> |
-| 分析 | <ul><li>（仅具有Adobe Advertising转化跟踪的广告商） [该[!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>（具有[Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)的广告商）Adobe Analytics Analysis Workspace中的自定义报表</li></ul> |
+| 识别业务增长机会 | <ul><li>（仅具有Adobe Advertising转化跟踪的广告商） [该[!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>（仅具有Adobe Advertising转化跟踪的广告商） [该[!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>（具有[Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hans)的广告商）Adobe Analytics Analysis Workspace中的自定义报表</li></ul> |
+| 分析 | <ul><li>（仅具有Adobe Advertising转化跟踪的广告商） [该[!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>（具有[Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hans)的广告商）Adobe Analytics Analysis Workspace中的自定义报表</li></ul> |
 
 >[!MORELIKETHIS]
 >

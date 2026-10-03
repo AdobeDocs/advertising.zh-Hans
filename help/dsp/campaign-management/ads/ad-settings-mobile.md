@@ -3,22 +3,26 @@ title: 移动广告设置
 description: 请参阅有关移动广告可用广告设置的描述。
 feature: DSP Ads
 exl-id: 45e8da8c-d6a2-4c42-8932-4cf551f6f899
-TQID: https://experienceleague.adobe.com/1e3HmwtXzDUQ60rGhnJ5n-feky0rYlqwt7ZQZ6YXNCQ
+TQID: 'https://experienceleague.adobe.com/1e3HmwtXzDUQ60rGhnJ5n-feky0rYlqwt7ZQZ6YXNCQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 516
+source-wordcount: '526'
 ht-degree: 0%
-
 ---
-
 # 移动广告设置
 
 ## [!UICONTROL Insert Ad Tag]

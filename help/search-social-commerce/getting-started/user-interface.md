@@ -3,10 +3,13 @@ title: 用户界面的组织方式
 description: 了解在何处访问不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-TQID: https://experienceleague.adobe.com/KqfmmT9cFZpNIoIiaA0OjGlMDf4hvQzNhPpH8lYtViw
+TQID: 'https://experienceleague.adobe.com/KqfmmT9cFZpNIoIiaA0OjGlMDf4hvQzNhPpH8lYtViw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
+feature_v2:
+  - id: 54967645-9f46-5896-8af7-b943b426aadf
+    internal-label: Search Getting Started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -15,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 0%

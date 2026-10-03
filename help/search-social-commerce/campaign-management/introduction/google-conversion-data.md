@@ -1,24 +1,35 @@
 ---
 title: '[!DNL Google Ads]转化数据'
-description: 了解Search、Social和Commerce中可用的 [!DNL Google Ads]跟踪的转化数据类型。
+description: 了解Search、Social和Commerce中可用的[!DNL Google Ads]跟踪转化数据类型。
 exl-id: a4634410-446b-4e2e-a52f-22a494f731f9
 feature: Search Campaign Management, Conversions
-TQID: https://experienceleague.adobe.com/7qqQKfVhueHMc7hJDEac86la9dp36hwtrLF5ikxJzJM
+TQID: 'https://experienceleague.adobe.com/7qqQKfVhueHMc7hJDEac86la9dp36hwtrLF5ikxJzJM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 661
+source-wordcount: '671'
 ht-degree: 0%
-
 ---
-
 # 搜索、社交和Commerce中的[!DNL Google Ads]转化数据
 
 Search、Social和Commerce会自动将[!DNL Google Ads]搜索和购物网络上所有营销活动的[!DNL Google Ads]跟踪的转化数据同步到Search、Social和Commerce中，以便生成报表和进行优化。
@@ -29,7 +40,7 @@ Search、Social和Commerce会自动将[!DNL Google Ads]搜索和购物网络上�
 
 搜索、Social和Commerce同步启用了“[!DNL Include in 'Conversions']”选项的转化数据，提取过去35天的数据，然后按广告商所在时区的09:00-10:00每天提取对数据所做的更改。 由于每次点击都会跟踪新转化，因此历史数据可能会每天发生更改。
 
-使用[[!DNL Google Ads]中配置的转化名称，在Search、Social和Commerce中为](https://support.google.com/google-ads/answer/4677036)跟踪的每次转化[!DNL Google Ads]（您在[!DNL Google Ads]中设置）自动提供最多三个量度。 每次转化的量度包括：
+使用[!DNL Google Ads]中配置的转化名称，在Search、Social和Commerce中为[[!DNL Google Ads]跟踪的每次转化](https://support.google.com/google-ads/answer/4677036)（您在[!DNL Google Ads]中设置）自动提供最多三个量度。 每次转化的量度包括：
 
 <!--
 
@@ -51,7 +62,7 @@ Search、Social和Commerce会自动将[!DNL Google Ads]搜索和购物网络上�
 
 >[!NOTE]
 >
->* 如果您有多个帐户具有相同的转化名称，则您可能会在Adobe Advertising中看到重复的转化名称。 如果发生这种情况，请在[&#x200B; > &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)中更改其中一个重复量度的显示名称[!UICONTROL Admin]。 [!UICONTROL Conversions]当两个不同的量度具有相同的名称时，报表不准确。
+>* 如果您有多个帐户具有相同的转化名称，则您可能会在Adobe Advertising中看到重复的转化名称。 如果发生这种情况，请在[!UICONTROL Admin] > [!UICONTROL Conversions]中更改其中一个重复量度的显示名称[&#128279;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)。 当两个不同的量度具有相同的名称时，报表不准确。
 >* 竞价单位级别的数据与同一级别[!DNL Google Ads]中的数据匹配。 但是，[!DNL Google Ads]自己的更高级别的转化数据可能包含未归因到子竞价单位的附加转化。 搜索、Social和Commerce中的数据始终从竞价单位级别汇总，因此，例如，促销活动级别报表的总数可能与Google Ads中的促销活动级别报表的总数不同。
 >* 通常，在早上同步之后，数据差异小于当天晚些时候，此时尚未同步其他转化。 我们建议在早上验证数据。
 >* 转化数据对于[!DNL Google Display Network]、[!DNL Gmail]、[!DNL Mobile App]和[!DNL YouTube]广告不可用。 在将[!DNL Google Ads]中的数据与Search、Social和Commerce中的数据比较时，筛选掉这些类型的广告。

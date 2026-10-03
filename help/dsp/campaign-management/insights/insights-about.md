@@ -3,26 +3,37 @@ title: 关于见解
 description: 了解可视化图表的性能见解。
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-TQID: https://experienceleague.adobe.com/gcIUBvGMJiIZZ2XwCmEsidqFvp39cQBBxQYzpeUl-E4
+TQID: 'https://experienceleague.adobe.com/gcIUBvGMJiIZZ2XwCmEsidqFvp39cQBBxQYzpeUl-E4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4da54d315e39dac4799887e876272102b8efe4f9
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1369
+source-wordcount: '1384'
 ht-degree: 0%
-
 ---
-
 # 关于见解
 
 通过可视化图表获得高级别的性能洞察，可为您提供高效优化活动以及发现提升性能的新机会所需的信息。 您可以查看指定广告商的跨促销活动的数据或向下钻取到更低级别。
@@ -43,7 +54,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Home]选项卡
 
-[!UICONTROL Home]选项卡在所有广告商的营销活动中提供关键标准、性能和可见性量度。 默认情况下，将显示特定广告商和自定义目标的跨版面数据。 您可以选择配置过滤器以显示不同广告商、不同自定义目标或特定投放位置的数据。 <!-- I don't see campaigns or packages anymore:  You can optionally configure filters to show data for a different advertiser or data for only specific campaigns, packages, custom goals, and placements. -->分析包括：
+[!UICONTROL Home]选项卡在所有广告商的营销活动中提供关键标准、性能和可见性量度。 默认情况下，将显示特定广告商和自定义目标的跨版面数据。 您可以选择配置过滤器以显示不同广告商、不同自定义目标或特定投放位置的数据。<!-- I don't see campaigns or packages anymore:  You can optionally configure filters to show data for a different advertiser or data for only specific campaigns, packages, custom goals, and placements. --> 这些见解包括：
 
 * **[!UICONTROL Trends]：**&#x200B;三个客户指定的指标（默认情况下，[!UICONTROL Net Spend]、[!UICONTROL Impressions]和[!UICONTROL Net CPM]）的趋势图。
 
@@ -69,9 +80,9 @@ ht-degree: 0%
 
   影响级别包括：
 
-   * **高影响：**&#x200B;考虑增加预算。
-   * **中等影响**
-   * **有限影响：**&#x200B;需要注意
+  * **高影响：**&#x200B;考虑增加预算。
+  * **中等影响**
+  * **有限影响：**&#x200B;需要注意
 
 ### [!UICONTROL Household Conversion]选项卡
 
@@ -91,9 +102,9 @@ ht-degree: 0%
 
   影响级别包括：
 
-   * **高影响：**&#x200B;考虑增加预算。
-   * **中等影响**
-   * **有限影响：**&#x200B;需要注意
+  * **高影响：**&#x200B;考虑增加预算。
+  * **中等影响**
+  * **有限影响：**&#x200B;需要注意
 
 ### [!UICONTROL Audience Analysis]选项卡
 
@@ -109,15 +120,15 @@ ht-degree: 0%
 
 * **[!UICONTROL Audience Funnel Analysis]：**&#x200B;一个每日时间序列表，显示应用所有定位和资格筛选器后，目标受众如何从总可用池缩小为实际展示次数胜利。 将显示前一天的数据。 funnel包括以下量度，按从最广泛到最狭窄的顺序排列：
 
-   * **[!UICONTROL Total Target Audience]：**&#x200B;聚合受众中的独特用户总数。
+  * **[!UICONTROL Total Target Audience]：**&#x200B;聚合受众中的独特用户总数。
 
-   * **[!UICONTROL Reachable Audience (Last 24 Hours)]：**&#x200B;目标受众中在前24小时内在竞价流中处于活动状态的用户数。 此计数包括范围内的每个用户，无论是否对他们进行置入投标。 从[!UICONTROL Total Target Audience]减少到[!UICONTROL Reachable Audience]反映了报告期间竞价流中处于非活动状态的受众部分，这并非竞价绩效的反映。
+  * **[!UICONTROL Reachable Audience (Last 24 Hours)]：**&#x200B;目标受众中在前24小时内在竞价流中处于活动状态的用户数。 此计数包括范围内的每个用户，无论是否对他们进行置入投标。 从[!UICONTROL Total Target Audience]减少到[!UICONTROL Reachable Audience]反映了报告期间竞价流中处于非活动状态的受众部分，这并非竞价绩效的反映。
 
-   * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]：**&#x200B;在应用地域、设备类型、操作系统和浏览器筛选器之后仍保留的可访问用户的子集。 如果此数字显着低于[!UICONTROL Reachable Audience]，请考虑审查您的地理或设备类型定位是否过于严格。
+  * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]：**&#x200B;在应用地域、设备类型、操作系统和浏览器筛选器之后仍保留的可访问用户的子集。 如果此数字显着低于[!UICONTROL Reachable Audience]，请考虑审查您的地理或设备类型定位是否过于严格。
 
   **[!UICONTROL Devices/Ad Opportunities Bid On]：**&#x200B;投放位置已提交竞价的合格机会数。 此阶段的锐减可能表示预算或步调限制限制了竞价量。
 
-   * **[!UICONTROL Impression Wins]：**&#x200B;投放位置赢得印象的机会数。 如果中标价格远低于投标价格，则您的投标价格可能低于目标库存的现行市场价格。
+  * **[!UICONTROL Impression Wins]：**&#x200B;投放位置赢得印象的机会数。 如果中标价格远低于投标价格，则您的投标价格可能低于目标库存的现行市场价格。
 
 ## 查看性能分析
 

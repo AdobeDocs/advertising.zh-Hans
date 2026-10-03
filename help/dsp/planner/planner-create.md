@@ -3,22 +3,26 @@ title: 创建连接的电视接入计划
 description: 了解如何制定联网电视覆盖计划。
 feature: DSP Planner
 exl-id: 88b1fb23-f856-44ed-a955-844a329efb98
-TQID: https://experienceleague.adobe.com/IjxZ8IoDYDJIhxDmIgTNo8PqHW-EfUC7TQyrlE3F8jE
+TQID: 'https://experienceleague.adobe.com/IjxZ8IoDYDJIhxDmIgTNo8PqHW-EfUC7TQyrlE3F8jE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: a516b982-58a0-530b-84c5-9b83f41039ad
+    internal-label: DSP Planner
 subfeature_v2:
   - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+    internal-label: Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 105
+source-wordcount: '105'
 ht-degree: 0%
-
 ---
-
 # 创建连接的电视接入计划
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Planner]**。

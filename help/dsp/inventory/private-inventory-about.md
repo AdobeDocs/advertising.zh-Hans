@@ -3,25 +3,31 @@ title: 关于专用清单
 description: 关于专用清单
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-TQID: https://experienceleague.adobe.com/yuAdhUCHaiZ1BlJ1bu8I1prqp1TjLzAfowIbfT6CEzM
+TQID: 'https://experienceleague.adobe.com/yuAdhUCHaiZ1BlJ1bu8I1prqp1TjLzAfowIbfT6CEzM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 443
+source-wordcount: '447'
 ht-degree: 0%
-
 ---
-
 # 关于专用清单
 
 *对于帐户类型为“广告网络”、“发布者受众扩展”和“其他”的用户；类别为“其他”的广告商和转销商不可用*
@@ -37,7 +43,7 @@ ht-degree: 0%
 
 您可以通过以下任一方式使用交易ID：
 
-* （需要激活的可选功能）从[!UICONTROL Deal ID Inbox]中，您可以查看并快速接受以下供应方平台(SSP)上出版商同意的有保证的和无保证的私有库存交易： [!DNL FreeWheel]中的[!DNL Google Authorized Buyers]、[!DNL AdX] （以前称为[!DNL Magnite DV+]）和[!DNL Rubicon] （以前称为[!UICONTROL Deal ID Inbox]）。
+* （需要激活的可选功能）从[!UICONTROL Deal ID Inbox]中，您可以查看并快速接受以下供应方平台(SSP)上出版商同意的有保证的和无保证的私有库存交易： [!UICONTROL Deal ID Inbox]中的[!DNL FreeWheel]、[!DNL Google Authorized Buyers] （以前称为[!DNL AdX]）和[!DNL Magnite DV+] （以前称为[!DNL Rubicon]）。
 
   有关详细信息，请参阅“[关于[!UICONTROL Deal ID Inbox]](deal-id-inbox-about.md)”。
 

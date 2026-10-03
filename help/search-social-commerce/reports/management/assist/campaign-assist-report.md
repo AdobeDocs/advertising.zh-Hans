@@ -3,20 +3,26 @@ title: '[!UICONTROL Campaign Assist Report]'
 description: 了解[!UICONTROL Campaign Assist Report]。
 exl-id: c89b4c9f-16d5-4e1a-a73f-6cc99dd3f526
 feature: Search Reports, Search Assist Reports
-TQID: https://experienceleague.adobe.com/9CQ9aS6g0C1lCEYQbGEjctsZXEtIqjLOl5ohP45YFSU
+TQID: 'https://experienceleague.adobe.com/9CQ9aS6g0C1lCEYQbGEjctsZXEtIqjLOl5ohP45YFSU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
+    internal-label: Search Assist Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 857
+source-wordcount: '857'
 ht-degree: 1%
-
 ---
-
 # [!UICONTROL Campaign Assist Report]
 
 *广告商具有搜索、社交和Commerce点击跟踪以及来自Adobe Advertising、Adobe Analytics（具有[!DNL Analytics]集成）的转化跟踪，或仅在信息源中使用令牌(`ef_id`)提供*

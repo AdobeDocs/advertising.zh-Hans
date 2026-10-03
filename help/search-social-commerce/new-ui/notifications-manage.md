@@ -2,7 +2,13 @@
 title: （新UI）管理通知
 description: 了解如何查看、配置和管理搜索、社交和Commerce通知，包括推送通知和通知中心Web应用程序。
 feature: Search Notifications
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
+    internal-label: Search Notifications
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 0%

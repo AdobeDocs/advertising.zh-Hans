@@ -1,36 +1,44 @@
 ---
-title: 将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Google Campaign Manager 360] 添加标记
-description: 了解为什么以及如何将 [!DNL Analytics for Advertising] 宏添加到您的 [!DNL Google Campaign Manager 360] ad标记
+title: 将[!DNL Analytics for Advertising]宏附加到[!DNL Google Campaign Manager 360]广告标记
+description: 了解为什么以及如何将[!DNL Analytics for Advertising]宏添加到[!DNL Google Campaign Manager 360]广告标记
 feature: Integration with Adobe Analytics
 exl-id: 89cd4e1d-277a-4a43-9c38-ae6641302e09
-TQID: https://experienceleague.adobe.com/9qDSGAIk2uelZpEekvKmQMxIMAQeCT8cy55zub-uFv4
+TQID: 'https://experienceleague.adobe.com/9qDSGAIk2uelZpEekvKmQMxIMAQeCT8cy55zub-uFv4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 487
+source-wordcount: '513'
 ht-degree: 0%
-
 ---
-
 # 将[!DNL Analytics for Advertising]宏附加到[!DNL Google Campaign Manager 360]广告标记
 
 *仅集成Adobe Advertising-Adobe Analytics的广告商*
 
 *仅适用于Advertising DSP*
 
-如果您对Advertising DSP广告使用[!DNL Google Campaign Manager 360]中的广告标记，请使用[!DNL Analytics for Advertising]宏[`%p`将](https://support.google.com/campaignmanager/table/6096962)参数附加到登陆页面URL。 这些参数在登陆页面URL中记录AMO ID (`s_kwcid`)和`ef_id`查询字符串参数，从而允许Adobe Advertising将广告的点击数据发送到Adobe Analytics。
+如果您对Advertising DSP广告使用[!DNL Google Campaign Manager 360]中的广告标记，请使用[`%p`宏](https://support.google.com/campaignmanager/table/6096962)将[!DNL Analytics for Advertising]参数附加到登陆页面URL。 这些参数在登陆页面URL中记录AMO ID (`s_kwcid`)和`ef_id`查询字符串参数，从而允许Adobe Advertising将广告的点击数据发送到Adobe Analytics。
 
-为以下类型的[!DNL Campaign Manager 360]实施的[!DNL Analytics for Advertising]显示广告和视频广告使用宏：
+为以下类型的[!DNL Analytics for Advertising]实施的[!DNL Campaign Manager 360]显示广告和视频广告使用宏：
 
 * **在其网站上实现的具有[!DNL Adobe] [!DNL Analytics for Advertising] JavaScript代码的广告商**： JavaScript代码已记录AMO ID (`s_kwcid`)和`ef_id`查询字符串参数。 但是，当不支持第三方Cookie时，使用宏会扩展跟踪以包含基于点击的转换。 最佳实践是将以下部分中的宏添加到广告标记，以捕获未通过JavaScript代码捕获的其他点进数据。
 
@@ -95,5 +103,5 @@ data-dcm-param-amo='ef_id=${TM_USER_ID}:${TM_DATETIME}:d&s_kwcid=AC!${TM_AD_ID}!
 >[!MORELIKETHIS]
 >
 >* [概述 [!DNL Analytics for Advertising]](overview.md)
->* [使用的 [!DNL Analytics]](/help/integrations/analytics/ids.md)Adobe Advertising ID
+>*  [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)使用的Adobe Advertising ID
 >* [将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Flashtalking] 添加标记](macros-flashtalking.md)

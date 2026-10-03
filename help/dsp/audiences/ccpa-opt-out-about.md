@@ -3,24 +3,33 @@ title: 关于[!UICONTROL CCPA Opt-out-of-Sale]个区段和报表
 description: 了解如何创建区段以跟踪CCPA选择退出销售请求中的ID，以及如何检索ID报表。
 feature: CCPA, DSP Segments
 exl-id: 28b5e00b-a695-46f1-abbf-7bbd78f05411
-TQID: https://experienceleague.adobe.com/Bp8Fj0z7lqSXmHd-aJQa6ocQyj6FVQuydArNBucpJp4
+TQID: 'https://experienceleague.adobe.com/Bp8Fj0z7lqSXmHd-aJQa6ocQyj6FVQuydArNBucpJp4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 2b670c6e-542a-5afe-b96b-d9ce7818cd55
+    internal-label: DSP Segments
+  - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+    internal-label: Compliance
 subfeature_v2:
   - id: c193c532-b70e-4556-bde7-857186cbe140
+    internal-label: Segments
+  - id: c867fa1b-f589-43fa-b071-3c62f0038f23
+    internal-label: CCPA
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 245
+source-wordcount: '274'
 ht-degree: 0%
-
 ---
-
 # 关于[!UICONTROL CCPA Opt-out-of-Sale]个区段和报表
 
 您可以根据《加州消费者隐私法案》(CCPA)，通过[创建和实施CCPA选择退出销售区段](ccpa-opt-out-segment-create.md)，跟踪您网站上的消费者选择退出销售请求中的用户ID。 用户无限期地停留在CCPA选择退出销售区段中。
@@ -33,7 +42,7 @@ Adobe Advertising会每月生成客户为帐户的选择退出销售请求提交
 
 每个报表都以制表符分隔的文本文件形式提供，并压缩为GZIP格式。 在CCPA选择退出销售区段中捕获的用户ID由区段和广告商标识。
 
-您可以在DSP中或使用DSP [检索指向前三个月创建的月度报告](ccpa-opt-out-segment-report-retrieve.md)的链接。 [!DNL Trafficking API]每个链接的有效期为七天，但每当客户尝试检索一个链接时，都会刷新。
+您可以在DSP中或使用DSP [!DNL Trafficking API]检索指向前三个月创建的月度报告[&#128279;](ccpa-opt-out-segment-report-retrieve.md)的链接。 每个链接的有效期为七天，但每当客户尝试检索一个链接时，都会刷新。
 
 >[!MORELIKETHIS]
 >

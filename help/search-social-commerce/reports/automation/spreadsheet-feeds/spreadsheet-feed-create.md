@@ -3,20 +3,24 @@ title: 创建电子表格报表源
 description: 了解如何设置电子表格馈送。
 exl-id: a6a9ce46-51b4-4b06-b004-89fce06d1da6
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/LM5QfP4QSOBQ4YFLgdARTKb4xNkyXSJxzG79dGdo-HA
+TQID: 'https://experienceleague.adobe.com/LM5QfP4QSOBQ4YFLgdARTKb4xNkyXSJxzG79dGdo-HA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 185
+source-wordcount: '183'
 ht-degree: 0%
-
 ---
-
 # 创建电子表格报表源
 
 *仅用于基本报告和模型准确性报告*

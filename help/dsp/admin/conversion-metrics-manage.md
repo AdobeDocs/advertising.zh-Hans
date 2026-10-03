@@ -2,13 +2,20 @@
 title: 在DSP中管理广告商的转化量度。
 description: 了解如何将Adobe Advertising跟踪的转化量度用于DSP广告商。
 feature: Conversions
-source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 0%
-
 ---
-
 # 管理广告商的转化量度
 
 广告商的转化量度在整个Adobe Advertising中使用：

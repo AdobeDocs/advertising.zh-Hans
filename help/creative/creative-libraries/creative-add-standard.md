@@ -3,20 +3,26 @@ title: 将标准创意添加到创意库
 description: 了解如何将标准（非动态）创意添加到创意库。
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-TQID: https://experienceleague.adobe.com/mgUcE-E6LAIFFU8S5WrUceCQ6ZMSGF9tFkqEfnuKKSQ
+TQID: 'https://experienceleague.adobe.com/mgUcE-E6LAIFFU8S5WrUceCQ6ZMSGF9tFkqEfnuKKSQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 2ec4c13497ef6b5373a36b1f75111322a3ef26d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1068
+source-wordcount: '1069'
 ht-degree: 0%
-
 ---
-
 # 将标准创意添加到创意库
 
 将标准创意添加到您的[创意库](creative-library-manage.md)中以用于标准[广告体验](/help/creative/experiences/experience-about.md)。
@@ -137,29 +143,29 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * 对于本地图像或HTML5资源，请执行下列任一操作：
 
-      * 将设备或网络上的文件拖放到框中。
+     * 将设备或网络上的文件拖放到框中。
 
-      * 单击&#x200B;**[!UICONTROL Select a file]**&#x200B;在您的设备或网络上查找文件。
+     * 单击&#x200B;**[!UICONTROL Select a file]**&#x200B;在您的设备或网络上查找文件。
 
-   * 对于连接到您的DSP帐户[的](/help/creative/creative-libraries/aem-assets-configure.md)Experience Manager库中已批准的图像，请执行以下操作：
+   * 对于连接到您的DSP帐户[&#128279;](/help/creative/creative-libraries/aem-assets-configure.md)的Experience Manager库中已批准的图像，请执行以下操作：
 
-      1. 单击&#x200B;**[!UICONTROL AEM Asset Library]**。
+     1. 单击&#x200B;**[!UICONTROL AEM Asset Library]**。
 
-      1. （如果您尚未登录到您的Experience Manager帐户）请登录到您的Experience Manager帐户。
+     1. （如果您尚未登录到您的Experience Manager帐户）请登录到您的Experience Manager帐户。
 
-      1. 在[!UICONTROL Assets]或[!UICONTROL Collections]视图中查找并选择文件，然后单击右上角的&#x200B;**[!UICONTROL Select]**。
+     1. 在[!UICONTROL Assets]或[!UICONTROL Collections]视图中查找并选择文件，然后单击右上角的&#x200B;**[!UICONTROL Select]**。
 
-         <!-- If the existing asset has multiple quality options, [!DNL Creative] downloads the primary asset, or the asset with the highest resolution within some upper limit [verify what it is and how this works]. [If an asset is part of an image set, ... primary asset in the image set. -->
+        <!-- If the existing asset has multiple quality options, [!DNL Creative] downloads the primary asset, or the asset with the highest resolution within some upper limit [verify what it is and how this works]. [If an asset is part of an image set, ... primary asset in the image set. -->
 
    * 对于GenStudio体验，请执行以下操作：
 
-      1. 单击&#x200B;**[!UICONTROL GenStudio Library]**。
+     1. 单击&#x200B;**[!UICONTROL GenStudio Library]**。
 
-      1. （如果您尚未登录到您的GenStudio帐户）请登录到您的GenStudio帐户。
+     1. （如果您尚未登录到您的GenStudio帐户）请登录到您的GenStudio帐户。
 
-         默认情况下，会显示您的显示广告体验。 （可选）根据需要按营销活动或其他属性过滤体验。
+        默认情况下，会显示您的显示广告体验。 （可选）根据需要按营销活动或其他属性过滤体验。
 
-      1. 找到并选择显示广告体验，然后单击右上角的&#x200B;**[!UICONTROL Select]**。
+     1. 找到并选择显示广告体验，然后单击右上角的&#x200B;**[!UICONTROL Select]**。
 
      选定体验中的每个创意变体都会作为单独的HTML5创意内容导入。
 

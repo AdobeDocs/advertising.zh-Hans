@@ -3,20 +3,28 @@ title: 生成基本报表或高级报表
 description: 了解如何生成自定义的基本或高级报表。
 exl-id: 529a35f5-517f-4bde-b752-c0afc6346f4b
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-TQID: https://experienceleague.adobe.com/xYP-ycQv4SzdOS4tLyOEsQQdwSw38yXS0JYqHk7GJR8
+TQID: 'https://experienceleague.adobe.com/xYP-ycQv4SzdOS4tLyOEsQQdwSw38yXS0JYqHk7GJR8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+  - id: c51771d4-46e9-5151-913c-59d4e047a4f1
+    internal-label: Search Advanced Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 391
+source-wordcount: '391'
 ht-degree: 0%
-
 ---
-
 # 生成基本报表或高级报表
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**。

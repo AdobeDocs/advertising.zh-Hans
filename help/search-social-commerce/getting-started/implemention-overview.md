@@ -3,23 +3,30 @@ title: 实施Search、Social和Commerce概述
 description: 了解用于启动和维护项目组合的常规工作流。
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-TQID: https://experienceleague.adobe.com/AFMTue1YGuFjAJF04HTHEimfd2JC8ZxSkYCRDu8wDFY
+TQID: 'https://experienceleague.adobe.com/AFMTue1YGuFjAJF04HTHEimfd2JC8ZxSkYCRDu8wDFY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 54967645-9f46-5896-8af7-b943b426aadf
+    internal-label: Search Getting Started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: '832'
 ht-degree: 0%
-
 ---
-
 # 实施Search、Social和Commerce概述
 
 [!DNL Adobe]或其关联代理与每个广告商合作，以启动其在线广告组合并跟踪任何其他广告营销活动。 首次启动后，其他持续性任务将确保广告商的目标继续得到实现。
@@ -106,16 +113,16 @@ ht-degree: 0%
 
 * 根据组合的实际和预测绩效以及增长机会，根据需要调整用于管理组合集的各种策略和设置：
 
-   * 调整项目组合预算、目标和其他设置。
+  * 调整项目组合预算、目标和其他设置。
 
-   * 调整帐户/营销活动结构以适应营销策略的变化。
+  * 调整帐户/营销活动结构以适应营销策略的变化。
 
-   * 添加/暂停/删除营销活动组件。 这可能包括基于搜索词分析扩展关键词集，以及测试广告文案和登陆页面。
+  * 添加/暂停/删除营销活动组件。 这可能包括基于搜索词分析扩展关键词集，以及测试广告文案和登陆页面。
 
-   * 根据高级性能报告更新地理和站点定位策略。
+  * 根据高级性能报告更新地理和站点定位策略。
 
-   * （可选）将竞价限制添加到单个搜索关键词或广告组、营销活动或项目组合中的所有关键词。
+  * （可选）将竞价限制添加到单个搜索关键词或广告组、营销活动或项目组合中的所有关键词。
 
-   * 添加新项目组合。
+  * 添加新项目组合。
 
 有关监控项目组合和调整项目组合策略的说明，请参阅Search、Social和Commerce中任何页面右上角的[!UICONTROL Help]菜单（![帮助菜单](/help/search-social-commerce/assets/help-main-menu.png "帮助菜单")）中提供的帮助子章节“优化”>“管理项目组合”>“监控和管理性能”。

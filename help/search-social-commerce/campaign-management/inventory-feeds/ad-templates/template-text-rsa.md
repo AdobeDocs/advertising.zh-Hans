@@ -3,21 +3,26 @@ title: 库存馈送的文本广告和响应式搜索广告模板设置
 description: 引用库存馈送的文本广告和响应式搜索广告模板的设置。
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/ECmtczHqzO5JyR--JWgKQYReKLTohbrJlvhbBGUNOLY
+TQID: 'https://experienceleague.adobe.com/ECmtczHqzO5JyR--JWgKQYReKLTohbrJlvhbBGUNOLY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3437
+source-wordcount: '3437'
 ht-degree: 0%
-
 ---
-
 # 库存馈送的文本广告和响应式搜索广告模板设置
 
 *[!DNL Google Ads]、[!DNL LY Ads] （仅删除操作）、[!DNL Microsoft Advertising]和仅[!DNL Yandex]帐户*
@@ -77,11 +82,11 @@ ht-degree: 0%
 
 * 嵌入最终URL：
 
-   * （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）有关指示跟踪模板中最终URL的参数列表，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)中“可用的[!DNL ValueTrack]参数”部分中的（[!DNL Microsoft Advertising]仅限）[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799/2)或（[!DNL Google Ads]仅限）跟踪模板参数。
+  * （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）有关指示跟踪模板中最终URL的参数列表，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)中“可用的[!DNL ValueTrack]参数”部分中的（[!DNL Microsoft Advertising]仅限）[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799/2)或（[!DNL Google Ads]仅限）跟踪模板参数。
 
-   * （仅限[!DNL LY Ads]）使用参数`!{unescapedurl}`指示登陆页面URL。
+  * （仅限[!DNL LY Ads]）使用参数`!{unescapedurl}`指示登陆页面URL。
 
-   * 您可以选择包含URL参数以及为营销活动定义的任何自定义参数，这些参数以&amp;号分隔，如`{lpurl}?matchtype={matchtype}&device={device}`。
+  * 您可以选择包含URL参数以及为营销活动定义的任何自定义参数，这些参数以&amp;号分隔，如`{lpurl}?matchtype={matchtype}&device={device}`。
 
 * 对于第三方重定向和跟踪，请输入一个值。
 
@@ -179,17 +184,17 @@ ht-degree: 0%
 
 * 对于[!DNL Google Ads]、[!DNL LY Ads]和[!DNL Microsoft Advertising]模板：
 
-   * 对于动态参数： Broad Match = `[keyword]`，[!UICONTROL Keyword]列中第一个词的Broad Match修饰符（如+blue suede shoes） = `+[keyword]`， Keyword列中每个词的Broad Match修饰符（如+blue +suede +shoes） = `+[keyword]+`，短语匹配= `"[keyword]"`，完全匹配= `[[keyword]]`
+  * 对于动态参数： Broad Match = `[keyword]`，[!UICONTROL Keyword]列中第一个词的Broad Match修饰符（如+blue suede shoes） = `+[keyword]`， Keyword列中每个词的Broad Match修饰符（如+blue +suede +shoes） = `+[keyword]+`，短语匹配= `"[keyword]"`，完全匹配= `[[keyword]]`
 
-   * 对于静态关键字：广泛匹配= `keyword`，广泛匹配修饰符= `+keyword`，或短语匹配= `"keyword"`
+  * 对于静态关键字：广泛匹配= `keyword`，广泛匹配修饰符= `+keyword`，或短语匹配= `"keyword"`
 
-     您无法在此处输入具有完全匹配和标准匹配语法的静态关键字，因为它们被括号(`[]`)括起来，就像动态参数一样。
+    您无法在此处输入具有完全匹配和标准匹配语法的静态关键字，因为它们被括号(`[]`)括起来，就像动态参数一样。
 
 * 对于[!DNL Yandex]模板：
 
-   * 对于动态参数：插入列名称，如`[keyword]`。 要指示匹配类型，请使用特定于[[!DNL Yandex]的语法](https://yandex.com/support/direct/keywords/symbols-and-operators.html)。 **注意：**&#x200B;对于广泛匹配项，请使用以下语法：“关键字”列中第一个项的Broad Match修饰符（如+blue suede shoes） = `+[keyword]`，“关键字”列中每个项的Broad Match修饰符（如+blue +suede +shoes） = `+[keyword]+`
+  * 对于动态参数：插入列名称，如`[keyword]`。 要指示匹配类型，请使用特定于[[!DNL Yandex]的语法](https://yandex.com/support/direct/keywords/symbols-and-operators.html)。 **注意：**&#x200B;对于广泛匹配项，请使用以下语法：“关键字”列中第一个项的Broad Match修饰符（如+blue suede shoes） = `+[keyword]`，“关键字”列中每个项的Broad Match修饰符（如+blue +suede +shoes） = `+[keyword]+`
 
-   * 对于静态关键字：仅支持搜索关键字。 对关键字使用特定于[[!DNL Yandex]的语法](https://yandex.com/support/direct/keywords/symbols-and-operators.html)。 不支持用于指示单词顺序的括号(`[]`)。
+  * 对于静态关键字：仅支持搜索关键字。 对关键字使用特定于[[!DNL Yandex]的语法](https://yandex.com/support/direct/keywords/symbols-and-operators.html)。 不支持用于指示单词顺序的括号(`[]`)。
 
 >[!NOTE]
 >
@@ -217,9 +222,9 @@ ht-degree: 0%
 
 * 要指示登陆页面URL，请执行以下操作：
 
-   * （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）有关指示跟踪模板中最终URL的参数列表，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)中“可用的[!DNL ValueTrack]参数”部分中的（[!DNL Microsoft Advertising]仅限）[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799)或（[!DNL Google Ads]仅限）跟踪模板参数。
+  * （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）有关指示跟踪模板中最终URL的参数列表，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/6305348)中“可用的[!DNL ValueTrack]参数”部分中的（[!DNL Microsoft Advertising]仅限）[[!DNL Microsoft Advertising] 文档](https://help.ads.microsoft.com/#apex/3/en/56799)或（[!DNL Google Ads]仅限）跟踪模板参数。
 
-   * （仅限[!DNL LY Ads]）使用参数`!{lpurl}`指示登陆页面URL。
+  * （仅限[!DNL LY Ads]）使用参数`!{lpurl}`指示登陆页面URL。
 
 **[!UICONTROL Param 1]**，**[!UICONTROL Param 2]\[[!DNL Google Ads]模板\]：** （仅限[!DNL Google Ads]模板）指定文件中表示[!DNL Google Ads] `{param1}`或`{param2}`变量的列，您可以将其包含在使用该模板创建的任何广告的广告复制或显示URL中。 要插入动态参数，请在输入字段中单击，然后单击列列表中的列名。 通过模板传播馈送文件时，列名称会替换为实际数据。
 
@@ -237,19 +242,19 @@ ht-degree: 0%
 
 * （当您不使用&quot;[!UICONTROL Apply to Existing Keywords: Min]&quot;参数时）：
 
-   * 值可以添加货币符号或代码，也可以添加货币符号或代码。 例如，2.000,000英镑和2000GBP有效。
+  * 值可以添加货币符号或代码，也可以添加货币符号或代码。 例如，2.000,000英镑和2000GBP有效。
 
-   * 该值可以包括逗号(，)或句点(.) 作为分隔符，带可选句点(.) 或逗号(，)表示小数值。 例如，1,000.00和2.000,10有效。
+  * 该值可以包括逗号(，)或句点(.) 作为分隔符，带可选句点(.) 或逗号(，)表示小数值。 例如，1,000.00和2.000,10有效。
 
-   * 该值可以添加前缀，也可以附加百分号(%)、加号(+)或减号(-)。 例如， 20% 、 208+和–42.32有效。
+  * 该值可以添加前缀，也可以附加百分号(%)、加号(+)或减号(-)。 例如， 20% 、 208+和–42.32有效。
 
-   * 两个数字可以用正斜杠嵌入。 例如，4/1和0.95/0.45有效。
+  * 两个数字可以用正斜杠嵌入。 例如，4/1和0.95/0.45有效。
 
 **[!UICONTROL Param 2]\[[!DNL Microsoft Advertising]模板\]：** （仅限[!DNL Microsoft Advertising]模板）在标题、文本、显示URL或最终URL包含`{Param2}`动态替换字符串时，用作广告中替换值的字符串。 最大长度为70个字符，但请注意，在其中使用它的广告元素的最大长度（例如，广告标题最多可包含25个字符）。
 
 **[!UICONTROL Param 3]：** （仅限[!DNL Microsoft Advertising]模板）在标题、文本、显示URL或最终URL包含`{Param3}`动态替换字符串时，用作广告中替换值的字符串。 最大长度为70个字符，但请注意，在其中使用它的广告元素的最大长度（例如，广告标题最多可包含25个字符）。
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]：**&#x200B;具有指定匹配类型或广告类型的每个关键字的初始出价。
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]：**&#x200B;具有指定匹配类型或广告类型的每个关键字的初始出价。
 
 ## [!UICONTROL Ads]
 
@@ -368,19 +373,19 @@ ht-degree: 0%
 
    * 对于要分配给组件的每个标签分类和值，请执行以下操作：
 
-      1. 单击&#x200B;**[!UICONTROL Add Label Classification]**。
+     1. 单击&#x200B;**[!UICONTROL Add Label Classification]**。
 
-      1. 选择现有标签分类，然后选择现有值或输入新值。
+     1. 选择现有标签分类，然后选择现有值或输入新值。
 
-         每个值的最大长度为100个字符，可包含ASCII和非ASCII字符。
+        每个值的最大长度为100个字符，可包含ASCII和非ASCII字符。
 
-         要插入列名作为标签分类值的动态参数，请在输入字段（第二个字段）中单击，然后单击列列表中的列名。
+        要插入列名作为标签分类值的动态参数，请在输入字段（第二个字段）中单击，然后单击列列表中的列名。
 
-         每个活动组件的每个分类只能包含一个值。 例如，促销活动可以为Color=Red，但不能为Color=Red和Color=Blue。
+        每个活动组件的每个分类只能包含一个值。 例如，促销活动可以为Color=Red，但不能为Color=Red和Color=Blue。
 
-         * 要更改现有标签分类值，请选择或输入新值。
+        * 要更改现有标签分类值，请选择或输入新值。
 
-         * 要删除现有的标签分类值，请单击该值旁边的&#x200B;**[!UICONTROL X]**。
+        * 要删除现有的标签分类值，请单击该值旁边的&#x200B;**[!UICONTROL X]**。
 
 ## [!UICONTROL Feed Filters]
 

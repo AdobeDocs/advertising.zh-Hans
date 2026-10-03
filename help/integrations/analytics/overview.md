@@ -1,30 +1,41 @@
 ---
-title: ' [!DNL Analytics for Advertising]概述'
-description: ' [!DNL Analytics for Advertising]概述'
+title: '[!DNL Analytics for Advertising]概述'
+description: '[!DNL Analytics for Advertising]概述'
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-TQID: https://experienceleague.adobe.com/OHxJO1mtbzOtt5oGDJF26xSuVLG-HnRDdIGDrUH2pzk
+TQID: 'https://experienceleague.adobe.com/OHxJO1mtbzOtt5oGDJF26xSuVLG-HnRDdIGDrUH2pzk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
+    internal-label: Audience segmentation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1310
+source-wordcount: '1310'
 ht-degree: 0%
-
 ---
-
 # [!DNL Analytics for Advertising]概述
 
 *使用Advertising Creative、Advertising DSP和Advertising Search、Social和Commerce的广告商*
@@ -58,9 +69,9 @@ ht-degree: 0%
 * 在[!DNL Analytics]内使用永久性Adobe Advertising浏览和点进ID来了解网站参与情况。
 * 利用Analysis Workspace更好地了解网站入口点和访问行为。 您可以访问付费媒体维度和事件数据，包括Adobe Advertising促销活动实体名称（具体到投放位置和广告）及其相关指标，如点击次数、展示次数和成本。
 
-要使用[!DNL Analytics]作为付费媒体报表工具，您的组织需要具有Analysis Workspace访问权限的Adobe CX Enterprise（以前称为Adobe Experience Cloud）登录。 您的Adobe Advertising团队将帮助您将Adobe Advertising数据映射到Analysis Workspace中的各个报表包。 您可以将Adobe Advertising数据发送到任何报表包，但您应该了解已映射到Adobe Advertising的报表包和未映射的报表包。 根据报表包，这可能会更改报告的数据。
+要使用[!DNL Analytics]作为您的付费媒体报表工具，您的组织需要具有Analysis Workspace访问权限的Adobe CX Enterprise（以前称为Adobe Experience Cloud）登录。 您的Adobe Advertising团队将帮助您将Adobe Advertising数据映射到Analysis Workspace中的各个报表包。 您可以将Adobe Advertising数据发送到任何报表包，但您应该了解已映射到Adobe Advertising的报表包和未映射的报表包。 根据报表包，这可能会更改报告的数据。
 
- [!DNL Analytics][&#128279;](ids.md)内的Adobe Advertising ID与其他[!DNL eVars]一样工作，具有自定义的永久过期时间。 默认情况下，在Adobe Advertising实施期间，归因回顾时间范围设置为60天。 要更改此设置，请与您的Adobe客户团队合作。
+ [!DNL Analytics]&#x200B;[&#128279;](ids.md)内的Adobe Advertising ID与其他[!DNL eVars]一样工作，具有自定义的永久过期时间。 默认情况下，在Adobe Advertising实施期间，归因回顾时间范围设置为60天。 要更改此设置，请与您的Adobe客户团队合作。
 
 Adobe Advertising维度会附加后缀“(AMO ID)”(如“广告类型(AMO ID)”)。 有关可用维度的列表，请参阅“[Analysis Workspace中的Adobe Advertising指标](advertising-metrics-in-analytics.md)”。
 
@@ -73,15 +84,15 @@ Adobe Advertising维度会附加后缀“(AMO ID)”(如“广告类型(AMO ID)�
 无需任何额外的像素，[!DNL Analytics for Advertising]可通过向Adobe Advertising发送两个主要信号，实现更好的优化和更简单的受众分段：
 
 * 要用作竞价信号的转换量度：
-   * 标准量度，如[!UICONTROL Revenue]和[!UICONTROL Cart Views]。
-   * 网站参与量度，如页面查看和访问量度。
-   * 自定义收入量度。
-   * 保留的收入量度。
+  * 标准量度，如[!UICONTROL Revenue]和[!UICONTROL Cart Views]。
+  * 网站参与量度，如页面查看和访问量度。
+  * 自定义收入量度。
+  * 保留的收入量度。
 * 在[!DNL Analytics]中创建并发布到CX Enterprise的区段。
 
   您可以在[!DNL DSP]、[!DNL Creative]和付费搜索广告中使用[!DNL Analytics]区段进行第一方网站重定位。
 
-  （仅限[!DNL Search, Social, & Commerce]）具有[!DNL Analytics]但不具有Audience Manager的广告商也可以从与CX Enterprise共享的[!DNL Analytics]区段中创建Google网站基于标记的受众（再营销列表）和客户匹配的受众（客户列表）。
+  （仅限[!DNL Search, Social, & Commerce]）具有[!DNL Analytics]但不具有Audience Manager的广告商也可以从与Google共享的[!DNL Analytics]区段中创建CX Enterprise网站基于标签的受众（再营销列表）和客户匹配受众（客户列表）。
 
 ### 作为竞价信号的网站转化量度
 
@@ -99,13 +110,13 @@ Adobe Advertising维度会附加后缀“(AMO ID)”(如“广告类型(AMO ID)�
 
 ### 用于网站重定向的Analytics区段
 
-Adobe Advertising可以使用[!DNL Analytics]与CX Enterprise之间的本机CX Enterprise Audiences集成为[!DNL Creative]、[!DNL DSP]和[!DNL Search, Social, & Commerce]广告摄取[!DNL Analytics]区段以进行再营销。
+Adobe Advertising可以使用[!DNL Analytics]与CX Enterprise之间的本机CX Enterprise受众集成为[!DNL Creative]、[!DNL DSP]和[!DNL Search, Social, & Commerce]广告摄取[!DNL Analytics]区段以进行再营销。
 
 要访问[!DNL Analytics]区段，广告商帐户必须启用[Experience Cloud ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。 启用ID服务后，所有CX Enterprise区段一经处理即可在Adobe Advertising中使用。 CX Enterprise区段包括在[!DNL Analytics]中创建并发布到CX Enterprise的区段、在Adobe Audience Manager中创建的区段、在CX Enterprise中使用[!DNL People core service]创建的区段，以及在Adobe Experience Platform中创建并通过Audience Manager发送到Adobe Advertising的区段。
 
 [!DNL Analytics]区段在24小时内可用，每天更新。
 
-有关CX Enterprise Audiences服务的详细信息，请参阅[CX Enterprise Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)。
+有关CX Enterprise受众服务的详细信息，请参阅[CX Enterprise受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)。
 
 ## 如何使用集成的示例 {#integration-examples}
 

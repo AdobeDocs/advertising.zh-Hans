@@ -3,18 +3,21 @@ title: 编辑从馈送生成的数据
 description: 了解如何编辑从清单数据馈送生成的数据。
 exl-id: d43b593d-758d-4561-9cda-33b235099cc6
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/YAjOramjWXPJmOkLB2dhjG3PLUUAEbDAPRBYLVSl3vo
+TQID: 'https://experienceleague.adobe.com/YAjOramjWXPJmOkLB2dhjG3PLUUAEbDAPRBYLVSl3vo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 426
+source-wordcount: '426'
 ht-degree: 0%
-
 ---
-
 # 编辑从馈送生成的数据
 
 *[!DNL Google Ads]、[!DNL LY Ads] （仅删除操作）、[!DNL Microsoft Advertising]和仅[!DNL Yandex]帐户*
@@ -27,32 +30,32 @@ ht-degree: 0%
 
   Campaign层次结构视图仅显示从信息源文件生成的数据，而不显示现有帐户组件。 将组件及其所有子组件的数据发布到广告网络后，该数据将不再列在促销活动层级中。
 
-   1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，这将打开到[!UICONTROL Templates]选项卡。
+  1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，这将打开到[!UICONTROL Templates]选项卡。
 
-   1. （可选）要仅显示为特定模板创建的促销活动组件，请执行以下操作：
+  1. （可选）要仅显示为特定模板创建的促销活动组件，请执行以下操作：
 
-      1. 单击模板名称。
+     1. 单击模板名称。
 
-      1. 在左侧导航窗格的[!UICONTROL Accounts]菜单中，展开广告网络节点和广告网络帐户节点，然后选中模板名称旁边的复选框。
+     1. 在左侧导航窗格的[!UICONTROL Accounts]菜单中，展开广告网络节点和广告网络帐户节点，然后选中模板名称旁边的复选框。
 
-   1. 根据要查看的组件，单击&#x200B;**[!UICONTROL Campaigns]**、**[!UICONTROL Ad Groups]**、**[!UICONTROL Keywords]**&#x200B;或&#x200B;**[!UICONTROL Ads]**&#x200B;选项卡。
+  1. 根据要查看的组件，单击&#x200B;**[!UICONTROL Campaigns]**、**[!UICONTROL Ad Groups]**、**[!UICONTROL Keywords]**&#x200B;或&#x200B;**[!UICONTROL Ads]**&#x200B;选项卡。
 
-      >[!NOTE]
-      >
-      >* 除非您查看特定模板的数据，否则[!UICONTROL Ad Groups]、[!UICONTROL Keywords]和[!UICONTROL Ads]选项卡将列出所有从所有模板和馈送文件创建的广告组、关键字和广告。 用于[!DNL Google Ads]购物广告的产品组列在[!UICONTROL Keywords]选项卡上。
-      >* 要仅查看特定营销活动的子组件，请首先查看[!UICONTROL Campaigns]选项卡。 同样，要仅查看特定广告组的子组件，请首先查看[!UICONTROL Ad Groups]选项卡。
+     >[!NOTE]
+     >
+     >* 除非您查看特定模板的数据，否则[!UICONTROL Ad Groups]、[!UICONTROL Keywords]和[!UICONTROL Ads]选项卡将列出所有从所有模板和馈送文件创建的广告组、关键字和广告。 用于[!DNL Google Ads]购物广告的产品组列在[!UICONTROL Keywords]选项卡上。
+     >* 要仅查看特定营销活动的子组件，请首先查看[!UICONTROL Campaigns]选项卡。 同样，要仅查看特定广告组的子组件，请首先查看[!UICONTROL Ad Groups]选项卡。
 
-   1. （可选；要仅编辑广告组、关键字或广告）请筛选列表以仅包含特定营销活动或广告组的子组件：
+  1. （可选；要仅编辑广告组、关键字或广告）请筛选列表以仅包含特定营销活动或广告组的子组件：
 
-      * 要列出营销活动中的所有广告组，请单击营销活动名称。
+     * 要列出营销活动中的所有广告组，请单击营销活动名称。
 
-      * 要列出广告组中的所有关键字，请单击广告组名称。
+     * 要列出广告组中的所有关键字，请单击广告组名称。
 
-      * 要将所有内容列为一个广告组，请单击该广告组的名称，然后单击“[!UICONTROL Ads]”选项卡。
+     * 要将所有内容列为一个广告组，请单击该广告组的名称，然后单击“[!UICONTROL Ads]”选项卡。
 
-   1. 单击促销活动、广告组、关键字或广告名称旁边的[查看/编辑设置图标](/help/search-social-commerce/assets/settings.png "查看/编辑设置图标")。
+  1. 单击促销活动、广告组、关键字或广告名称旁边的[查看/编辑设置图标](/help/search-social-commerce/assets/settings.png "查看/编辑设置图标")。
 
-   1. 编辑设置，然后单击&#x200B;**[!UICONTROL Save]**。
+  1. 编辑设置，然后单击&#x200B;**[!UICONTROL Save]**。
 
 >[!MORELIKETHIS]
 >

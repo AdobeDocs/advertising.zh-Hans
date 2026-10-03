@@ -1,20 +1,23 @@
 ---
-title: 管理 [!DNL Microsoft Advertising] 动态再营销受众
-description: 了解如何创建和管理 [!DNL Microsoft Advertising] 动态二次营销受众。
+title: 管理[!DNL Microsoft Advertising]动态再营销受众
+description: 了解如何创建和管理[!DNL Microsoft Advertising]动态二次营销受众。
 exl-id: 52faab75-e723-4e59-aac6-b4d0c4c1cf60
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/ev1y2UpkEHJhIgS3vQz8GRF0LNJwG9BHSxufQeeQAfA
+TQID: 'https://experienceleague.adobe.com/ev1y2UpkEHJhIgS3vQz8GRF0LNJwG9BHSxufQeeQAfA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 508
+source-wordcount: '515'
 ht-degree: 0%
-
 ---
-
 # 管理[!DNL Microsoft Advertising]动态再营销受众
 
 仅&#x200B;*[!DNL Microsoft Advertising]个帐户*
@@ -29,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->对于[!DNL Microsoft Advertising]帐户，JavaScript标记必须包含[产品ID和页面类型参数](https://help.ads.microsoft.com/#apex/ads/en/56910/1/#exp85)。
+>对于[!DNL Microsoft Advertising]帐户，JavaScript标记必须包含[产品ID和页面类型参数](https://help.ads.microsoft.com/#apex/ads/en/56910/1/网站#exp85)。
 
 1. 识别将从中创建受众的网页中包含的[!DNL Microsoft Advertising]通用事件跟踪(UET)标记的名称。
 
@@ -98,6 +101,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于受众](audience-about.md)
->* [创建来自 [!DNL Google Ads] 受众的 [!DNL Adobe] 客户匹配受众](google-audience-from-adobe-audience.md)
+>* [创建来自 [!DNL Adobe] 受众的 [!DNL Google Ads] 客户匹配受众](google-audience-from-adobe-audience.md)
 >* [从Adobe Campaign电子邮件列表创建 [!DNL Google Ads] 客户匹配受众](google-audience-from-campaign-email-list.md)
 >* [使用客户数据列表管理客户匹配受众](audience-from-customer-data-list.md)

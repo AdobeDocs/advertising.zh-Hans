@@ -3,28 +3,39 @@ title: 用例
 description: 了解与Audience Manager共享Advertising DSP媒体数据的用例
 feature: Integration with Adobe Audience Manager
 exl-id: 1d961799-b8be-499a-8db6-b59762d96bf1
-TQID: https://experienceleague.adobe.com/bEvS7Wb-Xk0nHAchL60c3AUNm7K4S2p3tBxJ2aWWevA
+TQID: 'https://experienceleague.adobe.com/bEvS7Wb-Xk0nHAchL60c3AUNm7K4S2p3tBxJ2aWWevA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
+  - id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+    internal-label: Audience Manager integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 730
+source-wordcount: '854'
 ht-degree: 0%
-
 ---
-
 # 在Adobe Audience Manager中捕获媒体曝光数据的用例
 
 *仅使用Advertising DSP的广告商*
@@ -41,7 +52,7 @@ ht-degree: 0%
 
 ## 顺序消息传递
 
-通过捕获展示数据，您可以创建已展示给促销活动或广告的用户区段，并将此区段用于顺序消息传送或抑制。 例如，您可以通过显示创意内容`123`，重新定位看到创意内容`456`但未单击或转换的用户。
+通过捕获展示数据，您可以创建已展示给促销活动或广告的用户区段，并将此区段用于顺序消息传送或抑制。 例如，您可以通过显示创意内容`456`，重新定位看到创意内容`123`但未单击或转换的用户。
 
 要在Audience Manager中执行此示例，请按照以下步骤操作：<!-- The AM pulled this example/procedure verbatim from AEM doc; I changed only a word or two. -->
 
@@ -73,7 +84,7 @@ ht-degree: 0%
 
 一旦营销活动展示和点击数据在Audience Manager中可用，您即可创建接触或交互特定营销活动或策略的用户的特征和区段。 通过[[!DNL Audience Analytics] 集成](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=zh-Hans)，您的Audience Manager区段可以与[!DNL Analytics]同步以供进一步分析。 潜在用例包括：
 
-* **DSP与[!DNL Advertising Search, Social, & Commerce]广告之间的交互分析：**&#x200B;标准[[!DNL Analytics for Advertising] 集成](/help/integrations/analytics/overview.md)不提供有关DSP与[!DNL Search, Social, & Commerce]之间的交互的分析，因为两个渠道使用的AMO ID都遵循AMO ID归因规则，搜索点击会覆盖该规则的显示显示显示显示显示显示到达。 通过在Audience Manager中创建DSP曝光区段，您可以使用[!DNL Audience Analytics]来分析DSP与[!DNL Search, Social, & Commerce]中的[!DNL Analytics]广告之间的交互。
+* **DSP与[!DNL Advertising Search, Social, & Commerce]广告之间的交互分析：**&#x200B;标准[[!DNL Analytics for Advertising] 集成](/help/integrations/analytics/overview.md)不提供有关DSP与[!DNL Search, Social, & Commerce]之间的交互的分析，因为两个渠道使用的AMO ID都遵循AMO ID归因规则，搜索点击会覆盖该规则的显示显示显示显示显示显示到达。 通过在Audience Manager中创建DSP曝光区段，您可以使用[!DNL Audience Analytics]来分析DSP与[!DNL Analytics]中的[!DNL Search, Social, & Commerce]广告之间的交互。
 
 * **频率分析：**&#x200B;您可以根据用户接触特定广告或营销活动的次数，在Audience Manager中创建区段。 然后，您可以分析Analytics中的不同风险区段，以了解用户行为如何根据DSP风险数量的变化而变化。
 

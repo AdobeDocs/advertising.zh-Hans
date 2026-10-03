@@ -2,13 +2,19 @@
 title: 关于专业报告
 description: 了解专业报告。
 feature: Search Reports, Search Specialty Reports
-source-git-commit: b5fadff06a523e2b1b248c2d262cbd6cd03669c3
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
-
 ---
-
 # 关于专业报告
 
 大多数专业报告仅包含广告网络收集的数据。 但是，[!UICONTROL Google Ads Shopping Performance Report]、[!UICONTROL Keyword Impression Share Report]和[!UICONTROL Campaign Impression Share Report]可以包含[!DNL Adobe]收集的收入数据。 专业报告可供所有用户使用。

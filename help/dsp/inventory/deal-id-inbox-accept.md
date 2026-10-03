@@ -1,25 +1,32 @@
 ---
 title: 在[!UICONTROL Deal ID Inbox]中接受交易
-description: 了解如何使用交易ID收件箱接受您已经与 [!DNL FreeWheel], [!DNL Google Authorized Buyers] (以前称为 [!DNL AdX]), and [!DNL Magnite DV+] （以前称为 [!DNL Rubicon]）)上的发布者协商的私人交易。
+description: 了解如何使用交易ID收件箱接受您已经与[!DNL FreeWheel]、[!DNL Google Authorized Buyers]（以前称为[!DNL AdX]）和[!DNL Magnite DV+]（以前称为[!DNL Rubicon]）的发布者协商的私人交易。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 7c681ab7-3051-451d-ab83-fc75bdd6eaad
-TQID: https://experienceleague.adobe.com/8ORfCWhZbjGVKi3YvY0g-yp-Gys6dyabLSMvpXOszHc
+TQID: 'https://experienceleague.adobe.com/8ORfCWhZbjGVKi3YvY0g-yp-Gys6dyabLSMvpXOszHc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 308
+source-wordcount: '311'
 ht-degree: 0%
-
 ---
-
 # 在[!UICONTROL Deal ID Inbox]中接受交易
 
 *DSP帐户中仅映射到SSP帐户的用户*
@@ -36,7 +43,7 @@ ht-degree: 0%
 
 1. （可选）要刷新交易详细信息，请单击&#x200B;**[!UICONTROL Refresh]**。
 
-   DSP每天在东部标准时间凌晨4:30自动刷新所有交易详细信息。 它还每小时刷新所有[!DNL FreeWheel]交易并更新[!DNL Google]和[!DNL Magnite DV+]中的现有交易。
+   DSP每天凌晨4:30（东部标准时间）自动刷新所有交易详细信息。 它还每小时刷新所有[!DNL FreeWheel]交易并更新[!DNL Google]和[!DNL Magnite DV+]中的现有交易。
 
 1. （如果您之前忽略了交易）单击&#x200B;**[!UICONTROL Ignored Deals]**&#x200B;选项卡。
 

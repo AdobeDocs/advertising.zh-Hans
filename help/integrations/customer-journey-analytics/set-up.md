@@ -3,26 +3,37 @@ title: 设置数据收集、数据传输和报告
 description: 了解如何设置数据收集、数据传输和报表。
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: a955e2b0-ea1b-4b5c-937b-f8c66603cd36
-TQID: https://experienceleague.adobe.com/u6xL6FuW-TwqAkse3VTS3zcyt-10Cv-ADTZLJTiWWT8
+TQID: 'https://experienceleague.adobe.com/u6xL6FuW-TwqAkse3VTS3zcyt-10Cv-ADTZLJTiWWT8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: ea6cf12e-f4da-4e2b-a9c1-e64da280b6f3
+    internal-label: Adobe Customer Journey Analytics Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ede5b5b1eb8ab449b982fdadba93e944cd2e062f
+    internal-label: Data collection
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2103
+source-wordcount: '2103'
 ht-degree: 1%
-
 ---
-
 # 设置数据收集、数据传输和报告
 
 使用Advertising DSP和&#x200B;[!DNL Advertising Search, Social, & Commerce]*的*&#x200B;广告商
@@ -107,29 +118,29 @@ ht-degree: 1%
 
    * 创建[自定义Web SDK内部版本](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#custom-build)：
 
-      * 在[!UICONTROL Custom build components]部分中，启用&#x200B;**Advertising**&#x200B;组件。
+     * 在[!UICONTROL Custom build components]部分中，启用&#x200B;**Advertising**&#x200B;组件。
 
-        此组件包含标记中Adobe Advertising所需的所有JavaScript代码，Advertising DSP和Advertising Search、Social和Commerce客户都需要此组件。 该组件还在标记规则（可选）中添加了“Advertising”设置，以定义如何将广告数据用于归因测量。
+       此组件包含标记中Adobe Advertising所需的所有JavaScript代码，Advertising DSP和Advertising Search、Social和Commerce客户都需要此组件。 该组件还在标记规则（可选）中添加了“Advertising”设置，以定义如何将广告数据用于归因测量。
 
-        您可以根据需要选择启用其他组件。
+       您可以根据需要选择启用其他组件。
 
-      * 在[!UICONTROL SDK Instances]部分中：
+     * 在[!UICONTROL SDK Instances]部分中：
 
-         * 在[!UICONTROL Datastreams]设置中，选择要用于每个Web环境（生产、暂存、开发）的数据流。
+       * 在[!UICONTROL Datastreams]设置中，选择要用于每个Web环境（生产、暂存、开发）的数据流。
 
-         * （仅具有Adobe Advertising DSP的组织）在[[!UICONTROL Adobe Advertising]设置](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising)中，启用&#x200B;**[!UICONTROL Adobe Advertising DSP]**&#x200B;以允许查看到达跟踪，并指定为其启用查看到达跟踪的广告商。 您可以通过添加组织的ID5合作伙伴ID和/或组织的[!DNL RampIDs]的[!DNL LiveRamp] [!DNL LaunchPad] JavaScript代码(ats.js)的路径来选择从通用ID（从您的[第一方受众源](/help/dsp/audiences/sources/source-about.md)中转换）收集ID。
+       * （仅具有Adobe Advertising DSP的组织）在[[!UICONTROL Adobe Advertising]设置](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising)中，启用&#x200B;**[!UICONTROL Adobe Advertising DSP]**&#x200B;以允许查看到达跟踪，并指定为其启用查看到达跟踪的广告商。 您可以通过添加组织的ID5合作伙伴ID和/或组织的[!DNL RampIDs]的[!DNL LiveRamp] [!DNL LaunchPad] JavaScript代码(ats.js)的路径来选择从通用ID（从您的[第一方受众源](/help/dsp/audiences/sources/source-about.md)中转换）收集ID。
 
-           如果您的广告商未列出，请输入每个广告商的广告商ID。 如果需要，请向您的Adobe客户团队索取ID。
+         如果您的广告商未列出，请输入每个广告商的广告商ID。 如果需要，请向您的Adobe客户团队索取ID。
 
-           如果您输入的ID有误，则会通知您的Adobe帐户团队。
+         如果您输入的ID有误，则会通知您的Adobe帐户团队。
 
-           [!DNL RampID] JavaScript路径示例： `https://launchpad-wrapper.privacymanager.io/<customer-specific-id>/launchpad-liveramp.js`
+         [!DNL RampID] JavaScript路径示例： `https://launchpad-wrapper.privacymanager.io/<customer-specific-id>/launchpad-liveramp.js`
 
-         * 保存内部版本。
+       * 保存内部版本。
 
    * （可选） [根据需要创建规则](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/ui/rules)，以确定Web SDK何时应将数据发送到Edge Network。
 
-      * 对于`[sendEvent](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/actions/send-event)`操作，请使用[[!UICONTROL Advertising]设置](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising)来定义如何将广告数据用于归因测量。 当规则包含一系列多个操作时，此设置非常有用，并且仅在您为自定义生成组件选择“[!UICONTROL Advertising]”组件时可用。
+     * 对于`[sendEvent](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/actions/send-event)`操作，请使用[[!UICONTROL Advertising]设置](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising)来定义如何将广告数据用于归因测量。 当规则包含一系列多个操作时，此设置非常有用，并且仅在您为自定义生成组件选择“[!UICONTROL Advertising]”组件时可用。
 
    * 根据需要创建[数据元素](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/ui/data-elements)，以将网站上的变量映射到您之前创建的XDM架构的结构。
 
@@ -173,33 +184,33 @@ ht-degree: 1%
 
    * 配置数据集设置：
 
-      * 对于[!UICONTROL Event Dataset]设置：
+     * 对于[!UICONTROL Event Dataset]设置：
 
-         * **[!UICONTROL Person ID]:** `Identity Map`
+       * **[!UICONTROL Person ID]:** `Identity Map`
 
-         * **[!UICONTROL Use primary identity namespace]：**&#x200B;如果要为Customer Journey Analytics和Adobe Real-Time CDP使用一个数据集和架构，请启用此设置并在`IdentityMap`字段组中定义主标识。 还支持`Required Field`。
+       * **[!UICONTROL Use primary identity namespace]：**&#x200B;如果要为Customer Journey Analytics和Adobe Real-Time CDP使用一个数据集和架构，请启用此设置并在`IdentityMap`字段组中定义主标识。 还支持`Required Field`。
 
-         * **[!UICONTROL Data Source Type]:** `Web Data > Others` <!-- I don't see "Others" in the screen shot example -->
+       * **[!UICONTROL Data Source Type]:** `Web Data > Others` <!-- I don't see "Others" in the screen shot example -->
 
-         * **[!UICONTROL Import all new data]：**&#x200B;启用设置
+       * **[!UICONTROL Import all new data]：**&#x200B;启用设置
 
-      * 对于分类([!UICONTROL Lookup Dataset])设置，将维度数据集映射到事件数据集：
+     * 对于分类([!UICONTROL Lookup Dataset])设置，将维度数据集映射到事件数据集：
 
-         * **[!UICONTROL Key]** （用作维度数据集键的字段）： `Tracking Code` （与架构中的`trackingCode`字段相同）。
+       * **[!UICONTROL Key]** （用作维度数据集键的字段）： `Tracking Code` （与架构中的`trackingCode`字段相同）。
 
-         * **[!UICONTROL Matching key]** （用作事件数据集匹配键的字段）： `Tracking Code (Event datasets)`。
+       * **[!UICONTROL Matching key]** （用作事件数据集匹配键的字段）： `Tracking Code (Event datasets)`。
 
-         * **[!UICONTROL Import all new data]：**&#x200B;启用设置
+       * **[!UICONTROL Import all new data]：**&#x200B;启用设置
 
-         * **[!UICONTROL Backfill all existing data]：**&#x200B;启用设置
+       * **[!UICONTROL Backfill all existing data]：**&#x200B;启用设置
 
-      * 对于[!UICONTROL Metrics Dataset]设置：
+     * 对于[!UICONTROL Metrics Dataset]设置：
 
-         * **[!UICONTROL Person ID]:** `Identity Map`
+       * **[!UICONTROL Person ID]:** `Identity Map`
 
-         * **[!UICONTROL Timestamp]：**&#x200B;确认值
+       * **[!UICONTROL Timestamp]：**&#x200B;确认值
 
-         * **[!UICONTROL Import all new data]：**&#x200B;启用设置
+       * **[!UICONTROL Import all new data]：**&#x200B;启用设置
 
 2. 在三个小时内，验证数据在Customer Journey Analytics中是否可用。
 
@@ -219,11 +230,11 @@ ht-degree: 1%
 
    * 在[!UICONTROL Components]选项卡上：
 
-      * 添加查找数据集（包含维度/分类数据）、事件数据集（包含事件级别数据）和摘要数据集（包含其他量度，例如点击量）。
+     * 添加查找数据集（包含维度/分类数据）、事件数据集（包含事件级别数据）和摘要数据集（包含其他量度，例如点击量）。
 
-      * 从事件数据集和查找数据集中选择要包含在数据视图中的量度。
+     * 从事件数据集和查找数据集中选择要包含在数据视图中的量度。
 
-      * 搜索“[!UICONTROL Tracking Code]”（属于架构路径为`_experience.adcloud.conversionDetails.trackingCode`的事件数据集）。 将&#x200B;**[!UICONTROL Persistence]**&#x200B;设置为&#x200B;*[!UICONTROL Most Recent]*。
+     * 搜索“[!UICONTROL Tracking Code]”（属于架构路径为`_experience.adcloud.conversionDetails.trackingCode`的事件数据集）。 将&#x200B;**[!UICONTROL Persistence]**&#x200B;设置为&#x200B;*[!UICONTROL Most Recent]*。
 
 <!--
 
@@ -286,7 +297,8 @@ Seems to not be necessary now:
 
 >[!TIP]
 >
->摘要事件通常会向报表中添加少量额外数据，例如几个额外事件、每天一个额外的会话或每个报表一个额外的人员。 与标准Web事件相比，这些添加的内容可以忽略不计。 但是，您可以通过排除虚拟人员ID `00000000-0000-0000-0000-000000000000`的数据来过滤掉此额外的摘要事件数据。使用人员ID排除数据的示例&rbrack;(/help/integrations/assets/cja-report-with-person-id.png "使用人员ID排除数据的示例")
+>摘要事件通常会向报表中添加少量额外数据，例如几个额外事件、每天一个额外的会话或每个报表一个额外的人员。 与标准Web事件相比，这些添加的内容可以忽略不计。 但是，您可以通过排除虚拟人员ID `00000000-0000-0000-0000-000000000000`的数据来过滤掉此额外的摘要事件数据。
+>![使用人员ID排除数据的示例](/help/integrations/assets/cja-report-with-person-id.png "使用人员ID排除数据的示例")
 
 ![您的数据集在Customer Journey Analytics中的显示方式](/help/integrations/assets/cja-report-example.png "您的数据集在Customer Journey Analytics中的显示方式")
 
@@ -294,7 +306,7 @@ Seems to not be necessary now:
 >
 >* [概述](overview.md)
 >* [先决条件](prerequisites.md)
->*  [!DNL Customer Journey Analytics][&#128279;](ids.md)使用的Adobe Advertising ID
+>*  [!DNL Customer Journey Analytics]&#x200B;[&#128279;](ids.md)使用的Adobe Advertising ID
 >* Customer Journey Analytics中的[Adobe Advertising指标和维度](advertising-data-in-cja.md)
 >* [收集AMO ID和EF ID的历史数据以在Adobe Customer Journey Analytics中使用](/help/integrations/analytics/rvars-to-evars.md)。
 >* [疑难解答](troubleshooting.md)

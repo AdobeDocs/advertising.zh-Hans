@@ -1,28 +1,39 @@
 ---
-title: ' [!DNL Analytics]使用的Adobe Advertising ID'
-description: ' [!DNL Analytics]使用的Adobe Advertising ID'
+title: '[!DNL Analytics]使用的Adobe Advertising ID'
+description: '[!DNL Analytics]使用的Adobe Advertising ID'
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-TQID: https://experienceleague.adobe.com/OX1JFaA2CvN19DTTEWOPP9bb0Aajy0MbNBpNIxdg4RI
+TQID: 'https://experienceleague.adobe.com/OX1JFaA2CvN19DTTEWOPP9bb0Aajy0MbNBpNIxdg4RI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9f19d84117f68a7672c9090116474570e0625cab
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1105
+source-wordcount: '1105'
 ht-degree: 0%
-
 ---
-
 # [!DNL Analytics]使用的Adobe Advertising ID
 
 *仅集成Adobe Advertising-Adobe Analytics的广告商*
@@ -37,15 +48,15 @@ Adobe Advertising会使用以下标准来区分网站的点进或浏览条目：
 
 * 当用户查看了广告但未单击该广告后访问网站时，将会捕获浏览进入条目。 如果满足两个条件，[!DNL Analytics]记录一次浏览：
 
-   * 在[点击回顾窗口](/help/integrations/analytics/prerequisites.md#lookback-a4adc)期间，访客没有[!DNL DSP]或[!DNL Search, Social, & Commerce]广告的点进次数。
+  * 在[点击回顾窗口](/help/integrations/analytics/prerequisites.md#lookback-a4adc)期间，访客没有[!DNL DSP]或[!DNL Search, Social, & Commerce]广告的点进次数。
 
-   * 在[展示回顾窗口](/help/integrations/analytics/prerequisites.md#lookback-a4adc)期间，访客已看到至少一个[!DNL DSP]广告。 最后一次展示作为显示到达传递。
+  * 在[展示回顾窗口](/help/integrations/analytics/prerequisites.md#lookback-a4adc)期间，访客已看到至少一个[!DNL DSP]广告。 最后一次展示作为显示到达传递。
 
 * 当网站访客在进入网站之前单击广告时，将捕获点进条目。 出现以下任一情况时，[!DNL Analytics]会捕获点进：
 
-   * 该URL包含由Adobe Advertising添加到登陆页面URL的EF ID和AMO ID。
+  * 该URL包含由Adobe Advertising添加到登陆页面URL的EF ID和AMO ID。
 
-   * URL不包含跟踪代码，但Adobe Advertising JavaScript代码可检测过去两分钟内发生的点击。
+  * URL不包含跟踪代码，但Adobe Advertising JavaScript代码可检测过去两分钟内发生的点击。
 
 ![Adobe Advertising基于视图的[!DNL Analytics]集成](/help/integrations/assets/a4adc-view-through-process.png)
 
@@ -134,27 +145,27 @@ EF ID受Analysis Workspace中500,000个唯一标识符限制的约束。 一旦�
 
 * （推荐）实施服务器端插入功能时。
 
-   * DSP客户：当最终用户查看带有Adobe Advertising像素的显示广告时，像素服务器会自动将s_kwcid参数附加到您的登陆页后缀。
+  * DSP客户：当最终用户查看带有Adobe Advertising像素的显示广告时，像素服务器会自动将s_kwcid参数附加到您的登陆页后缀。
 
-   * 搜索、社交和Commerce客户：
+  * 搜索、社交和Commerce客户：
 
-      * 对于已为帐户或营销活动启用[!UICONTROL Auto Upload]设置的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户，当最终用户单击带有Adobe Advertising像素的广告时，像素服务器会自动将s_kwcid参数附加到您的登陆页后缀。
+    * 对于已为帐户或营销活动启用[!UICONTROL Auto Upload]设置的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户，当最终用户单击带有Adobe Advertising像素的广告时，像素服务器会自动将s_kwcid参数附加到您的登陆页后缀。
 
-      * 对于其他广告网络，或禁用了[!UICONTROL Auto Upload]设置的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户，请手动将该参数添加到您的[帐户级别的附加参数](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}，这些参数会将其附加到您的基本URL。
+    * 对于其他广告网络，或禁用了[!UICONTROL Auto Upload]设置的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户，请手动将该参数添加到您的[帐户级别的附加参数](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}，这些参数会将其附加到您的基本URL。
 
 * 未实施服务器端插入功能时：
 
-   * DSP客户： [JavaScript代码](javascript.md)会自动记录点进和显示点进。 当浏览器不支持第三方Cookie时，您仍然可以跟踪以下广告类型的基于点击的转化：
+  * DSP客户： [JavaScript代码](javascript.md)会自动记录点进和显示点进。 当浏览器不支持第三方Cookie时，您仍然可以跟踪以下广告类型的基于点击的转化：
 
-      * 对于[!DNL Flashtalking]广告标记，请手动插入每个“[将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Flashtalking] 广告标记](/help/integrations/analytics/macros-flashtalking.md)”的其他宏。 **注意：**&#x200B;如果您的组织与[!DNL Flashtalking]直接合作，并且您根据[!DNL Flashtalking]支持文档（位于[https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)）使用数据传递宏跟踪`s_kwcid`和`ef_id`跟踪参数，则不需要执行此过程。
+    * 对于[!DNL Flashtalking]广告标记，请手动插入每个“[将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Flashtalking] 广告标记](/help/integrations/analytics/macros-flashtalking.md)”的其他宏。 **注意：**&#x200B;如果您的组织与[!DNL Flashtalking]直接合作，并且您根据[!DNL Flashtalking]支持文档（位于[https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)）使用数据传递宏跟踪`s_kwcid`和`ef_id`跟踪参数，则不需要执行此过程。
 
-      * 对于[!DNL Google Campaign Manager 360]广告标记，请手动插入每个“[将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Google Campaign Manager 360] 广告标记](/help/integrations/analytics/macros-google-campaign-manager.md)”的其他宏。
+    * 对于[!DNL Google Campaign Manager 360]广告标记，请手动插入每个“[将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Google Campaign Manager 360] 广告标记](/help/integrations/analytics/macros-google-campaign-manager.md)”的其他宏。
 
-   * 搜索、社交和Commerce客户：
+  * 搜索、社交和Commerce客户：
 
-      * 对于（[!DNL Google Ads]和[!DNL Microsoft Advertising]）广告，请手动将AMO ID参数添加到登陆页面后缀，最好在[帐户级别](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}添加，除非需要对各个帐户组件进行不同的跟踪。
+    * 对于（[!DNL Google Ads]和[!DNL Microsoft Advertising]）广告，请手动将AMO ID参数添加到登陆页面后缀，最好在[帐户级别](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}添加，除非需要对各个帐户组件进行不同的跟踪。
 
-      * 对于所有其他广告网络上的广告，请手动将AMO ID参数添加到您的[帐户级别的附加参数](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}，这会将其附加到您的基本URL。
+    * 对于所有其他广告网络上的广告，请手动将AMO ID参数添加到您的[帐户级别的附加参数](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}，这会将其附加到您的基本URL。
 
 要实施服务器端插入功能或确定最适合您的企业的选项，请联系您的Adobe客户团队。
 

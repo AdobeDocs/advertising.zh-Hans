@@ -1,30 +1,35 @@
 ---
-title: 更新 [!DNL Google Ads] 帐户的AMO ID (s_kwcid)跟踪代码
-description: 了解如何切换到 [!DNL Google Ads] 帐户的最新AMO ID跟踪代码。
+title: 更新[!DNL Google Ads]帐户的AMO ID (s_kwcid)跟踪代码
+description: 了解如何为[!DNL Google Ads]帐户切换到最新的AMO ID跟踪代码。
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/7BOrtiEjkYEi1ZbY-PyU-dgstfa30ebtt-WBYHPX0-I
+TQID: 'https://experienceleague.adobe.com/7BOrtiEjkYEi1ZbY-PyU-dgstfa30ebtt-WBYHPX0-I'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 479
+source-wordcount: '499'
 ht-degree: 0%
-
 ---
-
 # 更新[!DNL Google Ads]帐户的AMO ID (s_kwcid)跟踪代码
 
 *仅集成Adobe Advertising-Adobe Analytics的广告商*
 
 仅&#x200B;*[!DNL Google Ads]个帐户*
 
-现有[帐户的](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#dimension-items)AMO ID跟踪代码[!DNL Google Ads]的旧版（2019年10月之前）格式不支持Analytics中的某些功能，例如[!DNL Google Ads]效果最佳促销活动、草稿和实验促销活动的促销活动和广告组级别的报告，以及其他在多个促销活动中存在相同广告+关键字+匹配类型组合的使用案例。
+现有[!DNL Google Ads]帐户的[AMO ID跟踪代码](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#dimension-items)的旧版（2019年10月之前）格式不支持Analytics中的某些功能，例如[!DNL Google Ads]效果最佳促销活动、草稿和实验促销活动的促销活动和广告组级别的报告，以及其他在多个促销活动中存在相同广告+关键字+匹配类型组合的使用案例。
 
 当前格式包括促销活动ID和广告组ID的参数：
 
@@ -50,7 +55,7 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
 1. 开始迁移：
 
-   1. 在&#x200B;**[!UICONTROL S_KWCID FORMAT]**&#x200B;设置中的[!UICONTROL Account Tracking]旁边，单击&#x200B;**[!UICONTROL LEGACY S_KWCID FORMAT]**。
+   1. 在[!UICONTROL Account Tracking]设置中的&#x200B;**[!UICONTROL S_KWCID FORMAT]**&#x200B;旁边，单击&#x200B;**[!UICONTROL LEGACY S_KWCID FORMAT]**。
 
    1. 单击&#x200B;**[!UICONTROL Migrate to new s_kwcid format]**。
 
@@ -77,5 +82,5 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 >[!MORELIKETHIS]
 >
 >* [管理广告网络帐户](ad-network-account-manage.md)
->* [使用的 [!DNL Analytics]](/help/integrations/analytics/ids.md)Adobe Advertising ID
+>*  [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)使用的Adobe Advertising ID
 >* [概述 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hans){target="_blank"}

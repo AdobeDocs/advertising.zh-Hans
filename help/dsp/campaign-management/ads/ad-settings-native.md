@@ -3,22 +3,26 @@ title: 本机显示广告设置
 description: 请参阅本机显示广告可用广告设置的说明。
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-TQID: https://experienceleague.adobe.com/e8QS9qdzTGrlRMjbgvQDZEhlsh4BdYZ-tJ6b7D-cGfQ
+TQID: 'https://experienceleague.adobe.com/e8QS9qdzTGrlRMjbgvQDZEhlsh4BdYZ-tJ6b7D-cGfQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 221
+source-wordcount: '224'
 ht-degree: 0%
-
 ---
-
 # 本机显示广告设置
 
 ## [!UICONTROL Ad Options]
@@ -41,13 +45,13 @@ ht-degree: 0%
 
 **[!UICONTROL Landing Page]：**&#x200B;查看者在单击广告时登陆的URL。
 
-**[!UICONTROL Final Landing Page]：**&#x200B;插入了包含必要的[!UICONTROL Landing Page]Advertising DSP跟踪宏[的](/help/dsp/campaign-management/macros.md) URL（如果适用）。
+**[!UICONTROL Final Landing Page]：**&#x200B;插入了包含必要的[Advertising DSP跟踪宏](/help/dsp/campaign-management/macros.md)的[!UICONTROL Landing Page] URL（如果适用）。
 
 **[!UICONTROL Sponsored By (Advertiser Name)]：**&#x200B;广告的广告商。
 
 **[!UICONTROL Call to Action]：**（可选）您希望查看者在看到此广告后执行的步骤。
 
-**[!UICONTROL Advertiser Logo]：**（可选）要在广告中包含的1:1比率徽标，以提高品牌知名度。 单击&#x200B;**[!UICONTROL Browse]**&#x200B;并在您的设备或网络上找到该文件，然后单击&#x200B;**[!UICONTROL Upload]**。
+**[!UICONTROL Advertiser Logo]：**（可选）要包含在广告中的1:1比例徽标，以提高品牌知名度。 单击&#x200B;**[!UICONTROL Browse]**&#x200B;并在您的设备或网络上找到该文件，然后单击&#x200B;**[!UICONTROL Upload]**。
 
 ### [!UICONTROL Pixel]
 

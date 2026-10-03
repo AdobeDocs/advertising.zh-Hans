@@ -3,18 +3,21 @@ title: 更改关键字和负关键字的状态
 description: 了解如何更改关键字和负关键字的状态。
 exl-id: 46b000af-14a0-4f00-8f3c-c3ef2c93fd19
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/2MBvYvI1Zf-5KrnhtPegv9gZDwkIFkLcZMzRCWPw-Es
+TQID: 'https://experienceleague.adobe.com/2MBvYvI1Zf-5KrnhtPegv9gZDwkIFkLcZMzRCWPw-Es'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 179
+source-wordcount: '176'
 ht-degree: 0%
-
 ---
-
 # 更改关键字和负关键字的状态
 
 您可以暂停活动、可竞价的搜索关键词以禁用对该关键词的竞价。 您稍后可以通过将状态更改回“活动”来恢复竞价。

@@ -3,18 +3,21 @@ title: 从馈送生成的将营销活动数据发布到广告网络
 description: 了解如何将清单数据馈送生成的数据发布到广告网络。
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/TOTmjFuRPfH1vnyHwFvLBzlu7zBRQ3xHqKnG9TUC6IE
+TQID: 'https://experienceleague.adobe.com/TOTmjFuRPfH1vnyHwFvLBzlu7zBRQ3xHqKnG9TUC6IE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 850
+source-wordcount: '854'
 ht-degree: 0%
-
 ---
-
 # 从馈送生成的将营销活动数据发布到广告网络
 
 *[!DNL Google Ads]、[!DNL LY Ads] （仅删除操作）、[!DNL Microsoft Advertising]和仅[!DNL Yandex]帐户*
@@ -37,41 +40,41 @@ ht-degree: 0%
   >
   >如果您之前未验证登陆页面，但希望验证登陆页面，请[传播数据并从[!UICONTROL Bulksheets]视图中预览它](feed-data-propagate.md)，而不是将数据发布到广告网络。 然后，您可以在手动将文件发布到广告网络之前[验证URL](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)。
 
-   1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，这将打开到[!UICONTROL Templates]选项卡。
+  1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，这将打开到[!UICONTROL Templates]选项卡。
 
-   1. 选中模板旁边的复选框。
+  1. 选中模板旁边的复选框。
 
-   1. 单击工具栏中的&#x200B;**[!UICONTROL Post]**。
+  1. 单击工具栏中的&#x200B;**[!UICONTROL Post]**。
 
-   1. 在过帐设置中，在字段中输入或选择信息，然后单击&#x200B;**[!UICONTROL Post]**。
+  1. 在过帐设置中，在字段中输入或选择信息，然后单击&#x200B;**[!UICONTROL Post]**。
 
-      * **[!UICONTROL Selection]：**&#x200B;哪些帐户组件已过帐。
+     * **[!UICONTROL Selection]：**&#x200B;哪些帐户组件已过帐。
 
-      * **[!UICONTROL Scheduling]：**&#x200B;何时发布文件：
+     * **[!UICONTROL Scheduling]：**&#x200B;何时发布文件：
 
-         * *[!UICONTROL Post to search engine now]* （默认）：从传播的信息源数据创建批量工作表文件，并立即开始发布该文件。
+       * *[!UICONTROL Post to search engine now]* （默认）：从传播的信息源数据创建批量工作表文件，并立即开始发布该文件。
 
-         * *[!UICONTROL Post to search engine on these start/end times (in America/Los_Angeles time)]：*&#x200B;创建批量处理工作表文件并稍后发布。 指定以下内容：
+       * *[!UICONTROL Post to search engine on these start/end times (in America/Los_Angeles time)]：*&#x200B;创建批量处理工作表文件并稍后发布。 指定以下内容：
 
-            * **[!UICONTROL Start Time]：**&#x200B;将来应将批量处理工作表文件发布到广告网络的日期和时间。 默认情况下，文件在:00 （12:00上午）发送 第二天。 **注意：**&#x200B;对于需要更长时间处理的大型文件，发布的数据无法立即在营销活动管理视图或网络的广告管理器中获取。
+         * **[!UICONTROL Start Time]：**&#x200B;将来应将批量处理工作表文件发布到广告网络的日期和时间。 默认情况下，文件在00:00(12:00 a.m.)发送 第二天。 **注意：**&#x200B;对于需要更长时间处理的大型文件，发布的数据无法立即在营销活动管理视图或网络的广告管理器中获取。
 
-            * **[!UICONTROL End Time]：**&#x200B;根据“[!UICONTROL When the Scheduled End Date is reached]”的[信息源数据设置](feed-settings-manage.md#feed-data-settings)，可以暂停或删除已发布广告的未来日期和时间。 默认情况下，结束时间是:00 （12:00上午） 从今天算起30天。 选择&#x200B;**[!UICONTROL None]**&#x200B;以无限期地保持数据活动（或在您为模板传播新数据之前），或指定日期和时间。
+         * **[!UICONTROL End Time]：**&#x200B;根据“[!UICONTROL When the Scheduled End Date is reached]”的[信息源数据设置](feed-settings-manage.md#feed-data-settings)，可以暂停或删除已发布广告的未来日期和时间。 默认情况下，结束时间是00:00 (12:00 a.m.) 从今天算起30天。 选择&#x200B;**[!UICONTROL None]**&#x200B;以无限期地保持数据活动（或在您为模板传播新数据之前），或指定日期和时间。
 
-              要指定日期，请使用DD/MM/YYYY或D/M/YYYY格式，或单击![日历](/help/search-social-commerce/assets/calendar.png "日历")以打开日历，并[选择日期](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)。 要更改时间，请以24小时制HH/MM或H/M输入时间，或从列表中选择时间（以30分钟为间隔）。
+           要指定日期，请使用DD/MM/YYYY或D/M/YYYY格式，或单击![日历](/help/search-social-commerce/assets/calendar.png "日历")以打开日历，并[选择日期](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)。 要更改时间，请以24小时制HH/MM或H/M输入时间，或从列表中选择时间（以30分钟为间隔）。
 
-         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]：**&#x200B;创建可从[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Bulksheets]视图访问的批量工作表文件。 您可以选择从此处发布文件。
+       * **[!UICONTROL Preview in Bulksheet Management Area only, post later]：**&#x200B;创建可从[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Bulksheets]视图访问的批量工作表文件。 您可以选择从此处发布文件。
 
-           当生成的批量处理工作表文件大于2 MB时，该文件为ZIP格式。 您无需解压缩文件即可发布该文件。
+         当生成的批量处理工作表文件大于2 MB时，该文件为ZIP格式。 您无需解压缩文件即可发布该文件。
 
-      * **[!UICONTROL Generate Tracking URLs]：**&#x200B;是否在批量处理工作表文件中包含关键字和广告变体的跟踪URL： *[!UICONTROL Yes]*（默认值）或&#x200B;*[!UICONTROL No]*。
+     * **[!UICONTROL Generate Tracking URLs]：**&#x200B;是否在批量处理工作表文件中包含关键字和广告变体的跟踪URL： *[!UICONTROL Yes]*（默认值）或&#x200B;*[!UICONTROL No]*。
 
-        如果选择&#x200B;*[!UICONTROL Yes]*，则根据[帐户设置](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)中的[!UICONTROL Tracking Methods]参数或从关键字和广告的基本URL生成URL，如果将数据映射到现有营销活动，则从现有[营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)中的[!UICONTROL Tracking Methods]参数生成URL。
+       如果选择&#x200B;*[!UICONTROL Yes]*，则根据[帐户设置](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)中的[!UICONTROL Tracking Methods]参数或从关键字和广告的基本URL生成URL，如果将数据映射到现有营销活动，则从现有[营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)中的[!UICONTROL Tracking Methods]参数生成URL。
 
-        如果相关项目存在跟踪URL，则不会重新生成这些URL，除非需要新的URL（例如，如果关键词匹配类型、创意文本或帐户的跟踪参数已更改）。
+       如果相关项目存在跟踪URL，则不会重新生成这些URL，除非需要新的URL（例如，如果关键词匹配类型、创意文本或帐户的跟踪参数已更改）。
 
-      * **[!UICONTROL Bulksheet Name]：**&#x200B;要从传播的信息源数据创建的批量处理工作表文件的名称。 默认情况下，该文件名为`<feed file name_file extension>_<feed template name>_<creation date in the format YYYYMMDDHHMMSS>.txt`。 您可以根据需要重命名文件，但文件必须以下列文件扩展名之一结尾： `.tsv` （对于制表符分隔的值）、`.txt` （对于ASCII文本）、`.csv` （对于逗号分隔的值）或`.zip` （对于压缩的TSV文件）。 对于包含国际字符的数据，请使用TSV或TXT格式。
+     * **[!UICONTROL Bulksheet Name]：**&#x200B;要从传播的信息源数据创建的批量处理工作表文件的名称。 默认情况下，该文件名为`<feed file name_file extension>_<feed template name>_<creation date in the format YYYYMMDDHHMMSS>.txt`。 您可以根据需要重命名文件，但文件必须以下列文件扩展名之一结尾： `.tsv` （对于制表符分隔的值）、`.txt` （对于ASCII文本）、`.csv` （对于逗号分隔的值）或`.zip` （对于压缩的TSV文件）。 对于包含国际字符的数据，请使用TSV或TXT格式。
 
-        发布的文件在[!UICONTROL Bulksheets]视图中可用30天，无论您是否将其发布到广告网络。
+       发布的文件在[!UICONTROL Bulksheets]视图中可用30天，无论您是否将其发布到广告网络。
 
 “[!UICONTROL Last Prop. Status]”列显示适用模板的作业状态。
 

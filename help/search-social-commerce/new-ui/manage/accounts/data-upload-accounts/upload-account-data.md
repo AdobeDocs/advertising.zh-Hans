@@ -1,7 +1,10 @@
 ---
 title: 上传离线帐户数据以进行报告和模拟
 description: 了解如何手动上传离线帐户数据或将其上传到[!DNL Amazon] [!DNL S3]存储段以支持报告和模拟。 日志文件跟踪上载作业的进度。
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%

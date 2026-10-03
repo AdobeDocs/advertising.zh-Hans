@@ -3,14 +3,17 @@ title: 批量处理工作表错误
 description: 参考每个批量工作表错误的潜在原因。
 exl-id: dc3559b0-05c0-4896-b9e9-67084f56ab80
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/7jGIKXI-Un6mnstJlPDqk0q4yB6k3tEsqHngD1cCyEw
+TQID: 'https://experienceleague.adobe.com/7jGIKXI-Un6mnstJlPDqk0q4yB6k3tEsqHngD1cCyEw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 247087a18783a7f1c77088ffb2d1133ca9bb6e8d
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 1%

@@ -3,20 +3,26 @@ title: 动态广告的工作流
 description: 了解用于管理动态广告的工作流。
 feature: Creative Dynamic Creatives
 exl-id: eb1cdfbc-9514-4530-a50a-3ae6f6247662
-TQID: https://experienceleague.adobe.com/2ysfPVepzFjlxE-ecuAVpX-ntQBWB9dN61AELW74ZvI
+TQID: 'https://experienceleague.adobe.com/2ysfPVepzFjlxE-ecuAVpX-ntQBWB9dN61AELW74ZvI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: '644'
 ht-degree: 0%
-
 ---
-
 # 动态广告的工作流
 
 *有权创建动态广告的用户*
@@ -44,7 +50,7 @@ ht-degree: 0%
 
    1. [创建动态广告包](/help/creative/creative-libraries/bundle-manage.md)，您可以一次将所有这些广告包附加到广告体验。
 
-   1. 创建具有目标[或](/help/creative/experiences/experience-create-targeting.md)的动态广告体验[而不具有目标](/help/creative/experiences/experience-create-no-targeting.md)，并[将创意包分配给体验](/help/creative/experiences/experience-assign-creative-bundles.md)。
+   1. 创建具有目标[&#128279;](/help/creative/experiences/experience-create-targeting.md)或的动态广告体验[而不具有目标](/help/creative/experiences/experience-create-no-targeting.md)，并[将创意包分配给体验](/help/creative/experiences/experience-assign-creative-bundles.md)。
 
    1. [生成和实施广告体验标记](/help/creative/experiences/experience-tag-export.md)，以在DSP中将它们作为广告运行。
 
@@ -64,17 +70,17 @@ ht-degree: 0%
 
    * （对于动态HTML5和视频广告）创建广告元素目录：
 
-      1. 创建一个采用Microsoft Excel电子表格(XLSX)格式的信息源文件，其中每个广告变量对应一行。 在每一行中包含图像或视频名称。 单独收集关联的图像和视频资产。
+     1. 创建一个采用Microsoft Excel电子表格(XLSX)格式的信息源文件，其中每个广告变量对应一行。 在每一行中包含图像或视频名称。 单独收集关联的图像和视频资产。
 
-      1. [上载信息源文件和资产](/help/creative/feeds/asset-manage.md)。
+     1. [上载信息源文件和资产](/help/creative/feeds/asset-manage.md)。
 
-      1. [创建信息源模板](/help/creative/feeds/feed-template-manage.md)以将信息源文件（电子表格）中的字段映射到Advertising Creative后端中的字段。 您可以选择下载并填充通用信息源模板，其中包含与任何促销活动类型相关的字段。
+     1. [创建信息源模板](/help/creative/feeds/feed-template-manage.md)以将信息源文件（电子表格）中的字段映射到Advertising Creative后端中的字段。 您可以选择下载并填充通用信息源模板，其中包含与任何促销活动类型相关的字段。
 
-      1. [从指定的信息源文件和指定的信息源模板创建目录](/help/creative/feeds/catalog-manage.md#feed-catalog-create)，然后[处理该目录](/help/creative/feeds/catalog-manage.md#feed-catalog-process)以查看可从它创建的广告变体。
+     1. [从指定的信息源文件和指定的信息源模板创建目录](/help/creative/feeds/catalog-manage.md#feed-catalog-create)，然后[处理该目录](/help/creative/feeds/catalog-manage.md#feed-catalog-process)以查看可从它创建的广告变体。
 
-         每个信息源文件只能用于一个目录。
+        每个信息源文件只能用于一个目录。
 
-         您可以在[&#x200B; > &#x200B;](/help/creative/feeds/job-status-track.md) > [!UICONTROL Creative]选项卡上[!UICONTROL Feeds]跟踪目录处理作业[!UICONTROL Job Status]的状态。
+        您可以在[!UICONTROL Creative] > [!UICONTROL Feeds] > [!UICONTROL Job Status]选项卡上[跟踪目录处理作业](/help/creative/feeds/job-status-track.md)的状态。
 
 1. [为创意库创建动态创意内容](/help/creative/creative-libraries/creative-add-dynamic.md)。 对于动态HTML5广告，请使用指定的广告模板和指定的目录。
 
@@ -82,7 +88,7 @@ ht-degree: 0%
 
    1. [创建动态广告包](/help/creative/creative-libraries/bundle-manage.md)，您可以一次将所有这些广告包附加到广告体验。
 
-   1. 创建具有目标[或](/help/creative/experiences/experience-create-targeting.md)的动态广告体验[而不具有目标](/help/creative/experiences/experience-create-no-targeting.md)，并[将创意包分配给体验](/help/creative/experiences/experience-assign-creative-bundles.md)。
+   1. 创建具有目标[&#128279;](/help/creative/experiences/experience-create-targeting.md)或的动态广告体验[而不具有目标](/help/creative/experiences/experience-create-no-targeting.md)，并[将创意包分配给体验](/help/creative/experiences/experience-assign-creative-bundles.md)。
 
    1. [生成和实施广告体验标记](/help/creative/experiences/experience-tag-export.md)，以在DSP中将它们作为广告运行。
 

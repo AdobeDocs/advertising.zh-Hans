@@ -3,18 +3,21 @@ title: 点击跟踪URL的可选跟踪参数
 description: 了解可添加到点击跟踪URL的可选搜索、社交和Commerce跟踪参数以及特定于广告网络的跟踪参数。
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E
+TQID: 'https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1113
+source-wordcount: '1146'
 ht-degree: 0%
-
 ---
-
 # 点击跟踪URL的可选跟踪参数
 
 仅&#x200B;*[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]和[!DNL Yandex]帐户*
@@ -25,11 +28,11 @@ ht-degree: 0%
 
 * 您可以在帐户/促销活动的基本URL中附加特定于Adobe Advertising和广告网络的参数，以跟踪更多数据：
 
-   * Adobe Advertising参数是半静态的。 Adobe Advertising在将基本URL上传到广告网络时插入数据值。 例如，当您将`campaign={ef_campaign}`附加到基本URL时，Adobe Advertising在上传URL时会将`{ef_campaign}`替换为实际的促销活动名称（例如“返校促销活动”）。
+  * Adobe Advertising参数是半静态的。 Adobe Advertising在将基本URL上传到广告网络时插入数据值。 例如，当您将`campaign={ef_campaign}`附加到基本URL时，Adobe Advertising在上传URL时会将`{ef_campaign}`替换为实际的促销活动名称（例如“返校促销活动”）。
 
-     **注意：**&#x200B;插入值后，这些值将保持静态。 如果您将关键字或广告移动到其他广告组，或将广告组移动到其他营销活动，则{ef_adgroup}或{ef_campaign}参数不会自动更新，因此您必须手动生成新的目标URL或基本（最终）URL。
+    **注意：**&#x200B;插入值后，这些值将保持静态。 如果您将关键字或广告移动到其他广告组，或将广告组移动到其他营销活动，则{ef_adgroup}或{ef_campaign}参数不会自动更新，因此您必须手动生成新的目标URL或基本（最终）URL。
 
-   * 广告网络特定的参数是动态的，搜索引擎会在用户单击广告时插入数据值。 例如，当您将`{param1}`附加到基本URL时，当最终用户单击该广告时，广告网络会将其替换为实际的{param1}值。
+  * 广告网络特定的参数是动态的，搜索引擎会在用户单击广告时插入数据值。 例如，当您将`{param1}`附加到基本URL时，当最终用户单击该广告时，广告网络会将其替换为实际的{param1}值。
 
 >[!NOTE]
 >
@@ -38,7 +41,7 @@ ht-degree: 0%
 >* 附加参数中的特殊字符在生成的目标URL或基本（最终）URL中按以下方式替换：
 >  * `=`被替换为`%3D`
 >  * `?`被替换为`%26`
->  * 空白空间被替换为`%2B`
+>  * 空格被替换为 `%2B`
 >  例如，将参数`campaign={ef_campaign}`附加到关键字的基本URL http://www.example.com后，该关键字的基本URL将生成为`http://www.example.com/campaign%3D{ef_campaign}`。
 
 ## 搜索、社交和Commerce静态跟踪参数

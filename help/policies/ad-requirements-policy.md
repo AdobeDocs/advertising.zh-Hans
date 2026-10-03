@@ -3,28 +3,37 @@ title: Adobe Advertising广告要求策略
 description: 有关广告要求，请参阅策略。
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-TQID: https://experienceleague.adobe.com/Od9i55zraQgaZGD1iWLFX6CcfXnUqCsrHQHt58tiHfU
+TQID: 'https://experienceleague.adobe.com/Od9i55zraQgaZGD1iWLFX6CcfXnUqCsrHQHt58tiHfU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+    internal-label: Compliance
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: bc1ebc31-ef28-453d-ab0e-79fb34941421
+    internal-label: Policies
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
   - id: fcb67316-5ddd-4bee-82b6-d36475c67b56
+    internal-label: Privacy
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: '2224'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising广告要求策略
 
 *策略上次更新日期：2024年7月17日<!-- (except for formatting changes unrelated to content)-->*
@@ -67,7 +76,7 @@ ht-degree: 0%
 
 * **烟草**。 广告不得提供或宣传烟草产品或器材（包括电子烟）的销售或使用。
 
-* **亵渎和粗俗或淫秽语言。**&#x200B;广告不能包含亵渎或粗俗或淫秽语言。 广告中可能还包括意欲达到相同效果但掩盖粗俗的语言。
+* **亵渎和粗俗或淫秽语言。** 广告不得包含亵渎或粗俗或淫秽语言。 广告中可能还包括意欲达到相同效果但掩盖粗俗的语言。
 
 * **恶意广告**。 广告不得宣扬或涉及仇恨言论或宗教不容忍，不得基于个人或群体的种族或族裔出身、宗教、残疾、医疗或遗传状况、年龄、国籍或民族出身、退伍军人身份、难民身份、移民身份、性取向、性别、性别认同或与系统歧视或边缘化相关的其他特征而对其进行贬低。
 
@@ -125,22 +134,22 @@ ht-degree: 0%
 
 
 
-   * 宗教或类似信仰或信仰
-   * 种族、肤色或民族血统
-   * 性史、兴趣或取向
-   * 跨性别识别
-   * 遗传或生物特征信息
-   * 负财务状况（如信用评分），或犯罪记录、历史记录或定罪
-   * 健康或医疗记录，包括处方记录
-   * 与个人困难（如离婚、丧亲等）相关的关系或关系状况
-   * 虐待和创伤，包括成为犯罪、虐待或创伤性事件的受害者
-   * 边缘化或弱势群体的成员，包括基于社会种姓或移民或难民身份的成员
+  * 宗教或类似信仰或信仰
+  * 种族、肤色或民族血统
+  * 性史、兴趣或取向
+  * 跨性别识别
+  * 遗传或生物特征信息
+  * 负财务状况（如信用评分），或犯罪记录、历史记录或定罪
+  * 健康或医疗记录，包括处方记录
+  * 与个人困难（如离婚、丧亲等）相关的关系或关系状况
+  * 虐待和创伤，包括成为犯罪、虐待或创伤性事件的受害者
+  * 边缘化或弱势群体的成员，包括基于社会种姓或移民或难民身份的成员
 
 * **欧盟**。 此外，在欧盟，广告不得基于以下因素针对或针对受众，无论是对用户已知还是推断：
 
-   * 政治派别
-   * 工会会员资格
-   * 任何其他特殊类别的个人数据
+  * 政治派别
+  * 工会会员资格
+  * 任何其他特殊类别的个人数据
 
 * **健康相关定位**。 您不得使用本服务收集敏感健康相关数据，或推断用户的敏感健康或医疗处理。 特别是，您不得使用本服务针对以下任何类型的广告：任何形式的癌症、精神健康相关疾病或性传播疾病。 广告可以针对非敏感的健康状况，包括粉刺、过敏、牙科、视力、心烧、感冒和流感、鼻窦炎、头痛、背痛、急救、喉咙痛、血糖管理、饮食和健身、脱发、维生素和补充剂。
 

@@ -3,24 +3,29 @@ title: 管理受众源以激活通用ID受众
 description: 了解如何创建和管理源以从客户数据平台导入受众，并将它们转换为包含通用ID的区段。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-TQID: https://experienceleague.adobe.com/us8NC8BEngb240MAW8hEo-DHGoW7MRDWvu0HedMsnFs
+TQID: 'https://experienceleague.adobe.com/us8NC8BEngb240MAW8hEo-DHGoW7MRDWvu0HedMsnFs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 881
+source-wordcount: '881'
 ht-degree: 0%
-
 ---
-
 # 管理受众源以激活通用ID受众
 
 在DSP中为客户数据平台中的每个第一方受众创建一个源，您要将该受众导入或转换为包含指定通用ID类型的区段。 您可以将区段导入到贵组织的DSP帐户或广告商帐户。 将受众转换为通用ID时，会根据所选的通用ID类型收费。 创建源后，需要执行其他步骤以从每个客户数据平台流式传输源受众。 请参阅过程末尾的注释以创建源。
@@ -63,7 +68,7 @@ ht-degree: 0%
 >
 >为客户数据平台创建源后，必须完成其他步骤以导入受众：
 >* 对于[!DNL ActionIQ]源，请与您的Adobe客户团队合作。
->* 对于其他源类型，请参阅<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->  [!DNL AdFixus][&#128279;](source-adfixus.md), the [workflow for [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)的[工作流、 [!DNL Amperity]](source-amperity.md)的[工作流、 [!DNL Optimizely]](source-optimizely.md)的[工作流和 [!DNL Tealium]](source-tealium.md)的工作流。
+>* 对于其他源类型，请参阅<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->  [!DNL AdFixus]&#x200B;[&#128279;](source-adfixus.md), the [workflow for [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)的[工作流、 [!DNL Amperity]](source-amperity.md)的[工作流、 [!DNL Optimizely]](source-optimizely.md)的[工作流和 [!DNL Tealium]](source-tealium.md)的工作流。
 
 ## 更改受众源的ID类型
 

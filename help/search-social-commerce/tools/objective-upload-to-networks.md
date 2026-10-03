@@ -1,23 +1,28 @@
 ---
 title: 允许将目标上传到广告网络
-description: 了解如何将混合项目组合的目标上传到 [!DNL Google Ads] 和 [!DNL Microsoft Advertising]。
+description: 了解如何将混合项目组合的目标上传到[!DNL Google Ads]和[!DNL Microsoft Advertising]。
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-TQID: https://experienceleague.adobe.com/qZwJg4s5MvfUoNBiA-VGhrfKKRt9MjjJOq9jLAdRzi0
+TQID: 'https://experienceleague.adobe.com/qZwJg4s5MvfUoNBiA-VGhrfKKRt9MjjJOq9jLAdRzi0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 676
+source-wordcount: '691'
 ht-degree: 0%
-
 ---
-
 # 允许将目标上传到广告网络
 
 *仅具有[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户的广告商*
@@ -48,7 +53,7 @@ Search、Social和Commerce可以将广告商帐户组合的目标上传到[!DNL 
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
-1. （如果在经理帐户级别跟踪您的转化）[在](/help/search-social-commerce/admin/manager-accounts.md) > **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin]为您的经理帐户添加凭据[!UICONTROL Manager Accounts]**。
+1. （如果在经理帐户级别跟踪您的转化）[在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;为您的经理帐户添加凭据](/help/search-social-commerce/admin/manager-accounts.md)。
 
 1. 验证每个名为`O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`的目标是否会在两天内在广告网络上显示。
 
@@ -83,9 +88,9 @@ GGL_Lead不包含在计算/上传中，因为它是一个Google广告跟踪指�
 
 * ([!DNL Google Ads])检查是否应将转化上传到帐户或经理级别。 如果应在经理级别上传它们：
 
-   * 检查[!DNL Google Ads]经理帐户的凭据是否在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;中提供。 如有必要，[添加经理帐户](/help/search-social-commerce/admin/manager-accounts.md)的凭据。
+  * 检查[!DNL Google Ads]经理帐户的凭据是否在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;中提供。 如有必要，[添加经理帐户](/help/search-social-commerce/admin/manager-accounts.md)的凭据。
 
-   * 检查广告网络帐户是否已包含相同的量度名称。 如果超过100次，则重命名该量度，以便创建正确的管理员级别属性。
+  * 检查广告网络帐户是否已包含相同的量度名称。 如果超过100次，则重命名该量度，以便创建正确的管理员级别属性。
 
 * 检查项目组合的“混合”选项是否已选中，以及目标是否具有有效的收入。
 

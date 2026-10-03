@@ -3,22 +3,26 @@ title: 复制投放位置
 description: 了解如何复制一个或多个投放位置。
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-TQID: https://experienceleague.adobe.com/1QHdooPh2tr6pfbnRsPbe-P5o-lZLgX-NQIUNG2ulHM
+TQID: 'https://experienceleague.adobe.com/1QHdooPh2tr6pfbnRsPbe-P5o-lZLgX-NQIUNG2ulHM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 445
+source-wordcount: '445'
 ht-degree: 0%
-
 ---
-
 # 复制投放位置
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
@@ -44,9 +48,9 @@ ht-degree: 0%
 
    * 要复制多个投放位置，请执行以下操作：
 
-      1. 选中每个要复制的放置旁边的复选框。
+     1. 选中每个要复制的放置旁边的复选框。
 
-      1. 在批量操作工具栏中，单击&#x200B;**[!UICONTROL Duplicate]**。
+     1. 在批量操作工具栏中，单击&#x200B;**[!UICONTROL Duplicate]**。
 
 1. 指定新的版面设置：
 
@@ -74,10 +78,10 @@ ht-degree: 0%
 * （如果不附加广告）自定义广告权重和计划
 * [!UICONTROL Simple Ad Serving]个交易的计划性保证(PG)交易的默认投放位置和投放位置
 * （如果将投放位置复制到其他营销活动）：
-   * 地理目标
-   * 事件像素
-   * 广告
-   * 位置级别[!DNL DoubleVerify Authentic Brand Suitability]区段（覆盖广告商级别区段）
+  * 地理目标
+  * 事件像素
+  * 广告
+  * 位置级别[!DNL DoubleVerify Authentic Brand Suitability]区段（覆盖广告商级别区段）
 
 ## 配置新投放位置的最佳实践
 
@@ -90,19 +94,19 @@ ht-degree: 0%
 
 * 考虑以下内容，并根据需要编辑新版面：
 
-   * 账户是否有足够的资金来支付新的职位安排预算？
+  * 账户是否有足够的资金来支付新的职位安排预算？
 
-   * 新版面是否需要与以前版面不同的预算？ 是否需要最低预算？
+  * 新版面是否需要与以前版面不同的预算？ 是否需要最低预算？
 
-   * 上传创意内容（包括任何必要的自定义广告权重和计划），并将它们附加到投放位置。
+  * 上传创意内容（包括任何必要的自定义广告权重和计划），并将它们附加到投放位置。
 
-   * 根据需要将事件像素附加到投放位置和广告。
+  * 根据需要将事件像素附加到投放位置和广告。
 
-   * 根据投放位置需要包括地理目标和投放位置级别[!DNL DoubleVerify Authentic Brand Suitability]区段。
+  * 根据投放位置需要包括地理目标和投放位置级别[!DNL DoubleVerify Authentic Brand Suitability]区段。
 
-   * 对于程序化保证交易，使用新交易ID并创建默认投放位置。
+  * 对于程序化保证交易，使用新交易ID并创建默认投放位置。
 
-   * 根据需要为[!UICONTROL Simple Ad Serving]个交易创建新投放位置。
+  * 根据需要为[!UICONTROL Simple Ad Serving]个交易创建新投放位置。
 
 >[!MORELIKETHIS]
 >

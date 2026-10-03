@@ -3,25 +3,31 @@ title: 优化目标以及如何使用它们
 description: 引用可用的优化目标并查看何时使用它们。
 feature: DSP Optimization
 exl-id: ad684c99-7ae5-48eb-abfe-d48fd3d34cd0
-TQID: https://experienceleague.adobe.com/tXpu15rRnymQnSr8rofAbydRERR94o1-CB-ElxxbHN4
+TQID: 'https://experienceleague.adobe.com/tXpu15rRnymQnSr8rofAbydRERR94o1-CB-ElxxbHN4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: ed26409b-14af-5033-ae27-1b71cecfe497
+    internal-label: DSP Optimization
 subfeature_v2:
   - id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7
+    internal-label: Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1578
+source-wordcount: '1566'
 ht-degree: 0%
-
 ---
-
 # 优化目标以及如何使用它们
 
 | 优化目标 | 描述 | 何时使用此目标 |
@@ -30,20 +36,20 @@ ht-degree: 0%
 | [!UICONTROL Always Max Bid & Completion Rate] | 通过包级别优化，预算分配可优先处理完成率最高的投放位置。<br><br>拍卖评估优先考虑完成率，支出目标得以实现。 提交的竞价始终是设置的最高竞价，但如果投放位置花费愉快，则预测的完成率阈值会变得更加严格。 | 促销活动类型：品牌推广<br><br>基准：最高完成率<br><br>广告类型：仅前置广告<br><br><b>注意：</b>如果您有不需要超越的固定CPM目标和必须最大化的“完成率”目标，请使用此目标。 将最高出价设置为所需的CPM目标，DSP在尝试支出全部预算时实现可能的最佳完成率。 |
 | [!UICONTROL Always Max Bid & Engagement Rate] | 通过包级别优化，预算分配可优先处理参与率最高的投放位置。<br><br>拍卖评估将优先处理达到支出目标的参与率。 提交的竞价始终是设置的最大竞价，但如果投放效果不错，则预测的参与率阈值会变得更加严格。 | 促销活动类型：品牌策略<br><br>基准：最高参与率<br><br>广告类型：仅限移动设备插播式广告<br><br><b>注意：</b>如果您有不需要超越的固定CPM目标和必须最大化的参与目标，请使用此目标。 将最高出价设置为所需的CPM目标，DSP在尝试花费全部预算的同时实现最佳参与率。 |
 | [!UICONTROL Always Max Bid & Maximize Reach] | 此目标尝试始终使用投放级别[!UICONTROL Max Bid]，通过给定数量的展示次数实现最大的家庭覆盖率。 如果达到了支出目标，DSP将变得更有选择性，只有在有机会实现递增的独特触及时才可以竞标。 | 促销活动类型：品牌策略<br><br>基准：最大化范围<br><br>广告类型：前置广告、显示广告、CTV广告、原生广告、音频广告和通用视频广告 |
-| [!UICONTROL Always Max Bid & Viewability Rate (Adobe - GroupM)] | 通过包级别优化，预算分配可优先处理可见率最高的投放位置。<br><br>拍卖评估将优先处理实现支出目标的可见性比率。 提交的竞价始终是设置的“最高竞价”，但如果投放效果不错，则预测可视性比率阈值会变得更加严格。 | 促销活动类型：品牌推广<br><br>基准：最高可视率<br><br>广告类型：仅限交互式前置广告<br><br><b>注意：</b>此目标始终使用投放位置级别的最高出价。<br><br>如果促销活动的可视性敏感度设置设为“标准（观看广告50%的时间连续两秒）”，则将媒体评级委员会(MRC)可视性度量标准用于该促销活动。 如果促销活动设置为“严格（100%的广告在视图和音频中持续50%的时间）”，则为促销活动使用GroupM可视性测量标准。 理想情况下，您应该将促销活动设置与优化目标和预竞价过滤器设置相匹配。 |
-| [!UICONTROL Always Max Bid & Viewability Rate (Adobe - MRC)] | 通过包级别优化，预算分配可优先处理可见率最高的投放位置。<br><br>拍卖评估将优先处理实现支出目标的可见性比率。 提交的竞价始终是设置的“最高竞价”，但如果投放效果不错，则预测可视性比率阈值会变得更加严格。 | 促销活动类型：品牌推广<br><br>基准：最高可视率<br><br>广告类型：仅限交互式前置广告<br><br><b>注意：</b>此目标始终使用投放位置级别的最高出价。<br><br>如果促销活动的可视性敏感度设置设为“标准（观看广告50%的时间连续两秒）”，则将媒体评级委员会(MRC)可视性度量标准用于该促销活动。 如果促销活动设置为“严格（100%的广告在视图和音频中持续50%的时间）”，则为促销活动使用GroupM可视性测量标准。 理想情况下，您应该将促销活动设置与优化目标和预竞价过滤器设置相匹配。 |
-| [!UICONTROL Always Max Bid & Viewability Rate (IAS - MRC)] | 通过包级别优化，预算分配可优先处理可见率最高的投放位置。<br><br>拍卖评估将优先处理实现支出目标的可见性比率。 提交的竞价始终是设置的“最高竞价”，但如果投放效果不错，则预测可视性比率阈值会变得更加严格。 | 促销活动类型：品牌推广<br><br>基准：最高可视率<br><br>广告类型：仅限交互式前置广告<br><br><b>注意：</b>此目标始终使用投放位置级别的最高出价。<br><br>当来自IAS的第三方数据通知算法时，此设置效果最佳。 仅当您为营销活动启用了IAS集成时才使用此目标。 |
+| [!UICONTROL Always Max Bid & Viewability Rate (Adobe - GroupM)] | 通过包级别优化，预算分配可优先处理可见率最高的投放位置。<br><br>拍卖评估将优先处理实现支出目标的可见性比率。 提交的竞价始终是设置的“最高竞价”，但如果投放效果不错，则预测可视性比率阈值会变得更加严格。 | 促销活动类型：品牌推广<br><br>基准：最高可见率<br><br>广告类型：仅交互式前置广告<br><br><b>注意：</b>此目标始终使用投放级别的最高出价。<br><br>如果促销活动的可见性敏感度设置设为“标准（观看广告50%的时间连续两秒）”，则促销活动将使用媒体评级委员会(MRC)可见性衡量标准。 如果促销活动设置为“严格（100%的广告在视图和音频中持续50%的时间）”，则为促销活动使用GroupM可视性测量标准。 理想情况下，您应该将促销活动设置与优化目标和预竞价过滤器设置相匹配。 |
+| [!UICONTROL Always Max Bid & Viewability Rate (Adobe - MRC)] | 通过包级别优化，预算分配可优先处理可见率最高的投放位置。<br><br>拍卖评估将优先处理实现支出目标的可见性比率。 提交的竞价始终是设置的“最高竞价”，但如果投放效果不错，则预测可视性比率阈值会变得更加严格。 | 促销活动类型：品牌推广<br><br>基准：最高可见率<br><br>广告类型：仅交互式前置广告<br><br><b>注意：</b>此目标始终使用投放级别的最高出价。<br><br>如果促销活动的可见性敏感度设置设为“标准（观看广告50%的时间连续两秒）”，则促销活动将使用媒体评级委员会(MRC)可见性衡量标准。 如果促销活动设置为“严格（100%的广告在视图和音频中持续50%的时间）”，则为促销活动使用GroupM可视性测量标准。 理想情况下，您应该将促销活动设置与优化目标和预竞价过滤器设置相匹配。 |
+| [!UICONTROL Always Max Bid & Viewability Rate (IAS - MRC)] | 通过包级别优化，预算分配可优先处理可见率最高的投放位置。<br><br>拍卖评估将优先处理实现支出目标的可见性比率。 提交的竞价始终是设置的“最高竞价”，但如果投放效果不错，则预测可视性比率阈值会变得更加严格。 | 促销活动类型：品牌推广<br><br>基准：最高可见率<br><br>广告类型：仅交互式前置广告<br><br><b>注意：</b>此目标始终使用位置级别的最高出价。<br><br>当来自IAS的第三方数据通知算法时，此设置效果最佳。 仅当您为营销活动启用了IAS集成时才使用此目标。 |
 | [!UICONTROL Highest Return on Ad Spend (ROAS)] | （仅在包级别可用）预算分配将优先处理具有指定自定义目标中包含的最终转化事件的最高ROAS的投放位置，同时考虑到自定义目标中的所有其他加权上层funnel事件（例如网站访问和购物车添加）。 您可以指定优化模型是只应从基于点击的转化中学习，还是同时从基于点击和基于展示的转化中学习。<br><br>拍卖评估优先处理ROAS。 支出目标得以实现，然后DSP在降低CPM与提高ROAS之间取得平衡。 | 促销活动类型：性能<br><br>基准：最高收入<br><br>广告类型：显示、本机、视频、CTV和通用视频<br><br><b>注意：</b>有关详细信息，请参阅[设置性能促销活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)。 |
 | [!UICONTROL Lowest Cost per Acquisition (CPA)] | （仅在包级别可用）预算分配将优先处理具有指定自定义目标中包含的最终转化事件最低CPA的投放位置，同时考虑到自定义目标中的所有其他加权funnel上层事件（例如网站访问和购物车添加）。 您可以指定优化模型是只应从基于点击的转化中学习，还是同时从基于点击和基于展示的转化中学习。<br><br>拍卖评估优先处理CPA。 在实现支出目标后，DSP在降低CPM与降低CPA之间取得平衡。 | 促销活动类型：性能<br><br>基准：最低CPA<br><br>广告类型：显示、本机、视频、CTV和通用视频<br><br><b>注意：</b>有关详细信息，请参阅[设置性能促销活动的最佳实践](/help/dsp/optimization/campaign-best-practices-performance.md)。 |
-| [!UICONTROL Lowest Cost per Click] | 通过包级别优化，预算分配可优先安排CPC最低的投放位置。<br><br>拍卖评估优先处理CPC。 在实现支出目标后，DSP在降低CPM与提高CTR以降低CPC之间取得平衡。 | 促销活动类型：品牌推广<br><br>基准：有效的CPM和最高的点进率<br><br>广告类型：前置广告、显示广告<br><br><b>注意：</b>使用此目标可达到最佳的CPC。 要保证CPM的最大值，请将其用作投放位置的最大出价。 |
+| [!UICONTROL Lowest Cost per Click] | 通过包级别优化，预算分配将优先考虑CPC最低的投放位置。<br><br>拍卖评估将优先考虑CPC。 在实现支出目标后，DSP在降低CPM与提高CTR以降低CPC之间取得平衡。 | 促销活动类型：品牌推广<br><br>基准：有效的CPM和最高的点进率<br><br>广告类型：前置广告、显示广告<br><br><b>注意：</b>使用此目标可达到最佳的CPC。 要保证CPM的最大值，请将其用作投放位置的最大出价。 |
 | [!UICONTROL Lowest Cost per Completion] | 通过包级别优化，预算分配可优先处理每次完成成本最低的投放位置。<br><br>拍卖评估优先考虑视频完成率(VCR)。 在实现支出目标后，DSP在降低CPM与增加VCR之间进行了平衡，以尝试降低每次完成的成本。 | 促销活动类型：品牌推广<br><br>基准：高效CPM和最高完成率<br><br>广告类型：仅限前置广告 |
 | [!UICONTROL Lowest Cost per Engagement] | 通过包级别优化，预算分配可优先处理参与率最低的投放位置。<br><br>拍卖评估优先考虑参与率。 在实现支出目标后，DSP会尝试在降低CPM与降低每次参与的成本之间取得平衡。 | 促销活动类型：品牌策略<br><br>基准：有效的CPM和最高的参与率<br><br>广告类型：仅限移动设备插播式广告 |
 | [!UICONTROL Lowest Cost per Reach] | 该目标试图在给定预算的情况下实现家庭覆盖的最大化。 如果实现了支出目标，则竞价会因实现递增独特触及的机会而有所不同。 | 促销活动类型：品牌推广<br><br>基准：每次访问的有效成本<br><br>广告类型：前置广告、显示器、CTV、原生、音频和通用视频 |
-| [!UICONTROL Lowest Cost per View] | 操作方式与最低CPM类似。 通过包级别优化，预算分配可优先处理具有最低CPM的投放位置。<br><br>拍卖评估优先处理CPM。 在实现支出目标后，DSP会逐步降低CPM。 | 促销活动类型：品牌推广<br><br>基准：高效CPM和最高点进率<br><br>广告类型：前置广告、显示 |
-| [!UICONTROL Lowest CPM] | 通过包级别优化，预算分配可优先处理具有最低CPM的投放位置。<br><br>拍卖评估优先处理CPM。 在实现支出目标后，DSP会逐步降低CPM。 | 促销活动类型：品牌<br><br>基准：有效的CPM<br><br>广告类型：前置广告、显示器、CTV、原生、音频 |
-| [!UICONTROL Lowest vCPM (Adobe - GroupM)] | 通过包级别优化，预算分配可优先处理具有最低vCPM的投放位置。<br><br>拍卖评估优先处理vCPM。 在实现支出目标后，DSP会尝试在降低CPM与提高可视性之间取得平衡。 | 促销活动类型：品牌推广<br><br>基准：有效的CPM和最高的vCPM<br><br>广告类型：前置广告、显示广告<br><br><b>注意：</b>使用此目标可达到最佳的vCPM。<br><br>要保证CPM的最大值，请将其用作投放位置的最高出价。 |
-| [!UICONTROL Lowest vCPM (Adobe - MRC)] | 通过包级别优化，预算分配可优先处理具有最低vCPM的投放位置。<br><br>拍卖评估优先处理vCPM。 在实现支出目标后，DSP会尝试在降低CPM与提高可视性之间取得平衡。 | 促销活动类型：品牌推广<br><br>基准：有效的CPM和最高的vCPM<br><br>广告类型：前置广告、显示广告<br><br><b>注意：</b>使用此目标可达到最佳的vCPM。<br><br>要保证CPM的最大值，请将其用作投放位置的最高出价。 |
-| [!UICONTROL Lowest vCPM (IAS - MRC)] | 通过包级别优化，预算分配可优先处理具有最低vCPM的投放位置。<br><br>拍卖评估优先处理vCPM。 在实现支出目标后，DSP会尝试在降低CPM与提高可视性之间取得平衡。 | 促销活动类型：品牌推广<br><br>基准：有效的CPM和最高的vCPM<br><br>广告类型：前置广告、显示广告<br><br><b>注意：</b>使用此目标可达到最佳的vCPM。<br><br>要保证CPM的最大值，请将其用作投放位置的最高出价。<br><br>当来自IAS的第三方数据通知算法时，此设置效果最佳。 仅当您为营销活动启用了IAS集成时才使用此目标。 |
+| [!UICONTROL Lowest Cost per View] | 操作方式与最低CPM类似。 通过包级别优化，预算分配可优先处理CPM最低的投放位置。<br><br>拍卖评估可优先处理CPM。 在实现支出目标后，DSP会逐步降低CPM。 | 促销活动类型：品牌推广<br><br>基准：高效CPM和最高点进率<br><br>广告类型：前置广告、显示 |
+| [!UICONTROL Lowest CPM] | 通过包级别优化，预算分配可优先处理CPM最低的投放位置。<br><br>拍卖评估可优先处理CPM。 在实现支出目标后，DSP会逐步降低CPM。 | 促销活动类型：品牌<br><br>基准：有效的CPM<br><br>广告类型：前置广告、显示器、CTV、原生、音频 |
+| [!UICONTROL Lowest vCPM (Adobe - GroupM)] | 通过包级别优化，预算分配会优先考虑vCPM最低的投放位置。<br><br>拍卖评估会优先考虑vCPM。 在实现支出目标后，DSP会尝试在降低CPM与提高可视性之间取得平衡。 | 促销活动类型：品牌推广<br><br>基准：有效的CPM和最高的vCPM<br><br>广告类型：前置广告、显示广告<br><br><b>注意：</b>使用此目标可达到最佳的vCPM。<br><br>要保证获得最大的CPM，请将其用作投放位置的最高出价。 |
+| [!UICONTROL Lowest vCPM (Adobe - MRC)] | 通过包级别优化，预算分配会优先考虑vCPM最低的投放位置。<br><br>拍卖评估会优先考虑vCPM。 在实现支出目标后，DSP会尝试在降低CPM与提高可视性之间取得平衡。 | 促销活动类型：品牌推广<br><br>基准：有效的CPM和最高的vCPM<br><br>广告类型：前置广告、显示广告<br><br><b>注意：</b>使用此目标可达到最佳的vCPM。<br><br>要保证获得最大的CPM，请将其用作投放位置的最高出价。 |
+| [!UICONTROL Lowest vCPM (IAS - MRC)] | 通过包级别优化，预算分配会优先考虑vCPM最低的投放位置。<br><br>拍卖评估会优先考虑vCPM。 在实现支出目标后，DSP会尝试在降低CPM与提高可视性之间取得平衡。 | 促销活动类型：品牌推广<br><br>基准：有效的CPM和最高的vCPM<br><br>广告类型：前置广告、显示广告<br><br><b>注意：</b>使用此目标可达到最佳的vCPM。<br><br>要保证获得最大的CPM，请将其用作投放位置的最高出价。<br><br>当来自IAS的第三方数据通知算法时，此设置效果最佳。 仅当您为营销活动启用了IAS集成时才使用此目标。 |
 
 {style="table-layout:auto"}
 

@@ -3,20 +3,24 @@ title: 关于广告网络帐户
 description: 了解Search、Social和Commerce中的广告网络帐户。
 exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/90Dq2tehH-k2aY3Ij30aHF-XQGdvlPY346moWkg3xmk
+TQID: 'https://experienceleague.adobe.com/90Dq2tehH-k2aY3Ij30aHF-XQGdvlPY346moWkg3xmk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 430
+source-wordcount: '430'
 ht-degree: 0%
-
 ---
-
 # 关于广告网络帐户
 
 *仅限代理客户经理、Adobe客户经理和管理员用户角色*

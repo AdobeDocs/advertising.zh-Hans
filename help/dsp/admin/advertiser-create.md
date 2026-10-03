@@ -2,13 +2,19 @@
 title: 创建广告商帐户
 description: 了解如何创建广告商帐户。
 role: User, Admin
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
-
 ---
-
 # 创建广告商帐户
 
 *对只读用户不可用*

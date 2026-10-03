@@ -1,24 +1,30 @@
 ---
 title: '[!DNL Google Ads]营销活动设置'
-description: 引用 [!DNL Google Ads] 营销活动的设置。
+description: 引用[!DNL Google Ads]营销活动的设置。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/pj3C6fQc6BHhS9ES92nNC7AzxprwHeCwvPYLYBJkAo4
+TQID: 'https://experienceleague.adobe.com/pj3C6fQc6BHhS9ES92nNC7AzxprwHeCwvPYLYBJkAo4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2700
+source-wordcount: '2703'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]营销活动设置
 
 ## \[营销活动创建屏幕\]
@@ -37,13 +43,13 @@ ht-degree: 0%
 
   **注释：**
 
-   * 只有必需的设置可用。 对于可选设置，请登录到[!DNL Google Ads]编辑器。
+  * 只有必需的设置可用。 对于可选设置，请登录到[!DNL Google Ads]编辑器。
 
-   * 指向[!DNL Google Merchant Center]产品馈送的链接不受支持。
+  * 指向[!DNL Google Merchant Center]产品馈送的链接不受支持。
 
-   * 不支持列出组。 要管理和查看列表组的数据，请登录[!DNL Google Ads]编辑器。
+  * 不支持列出组。 要管理和查看列表组的数据，请登录[!DNL Google Ads]编辑器。
 
-   * 支持混合优化。 竞价策略目标和营销活动预算在营销活动级别设置。
+  * 支持混合优化。 竞价策略目标和营销活动预算在营销活动级别设置。
 
 ## [!UICONTROL Campaign Details]
 
@@ -107,7 +113,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Manual CPC]*（默认）：（不适用于效果最佳的促销活动）使用每次点击成本(CPC)模型。 您可以选择允许广告网络更改营销活动的竞价：
 
-   * **[!UICONTROL Enable Enhanced CPC]**（默认禁用）：这与使用“[!UICONTROL Enhanced CPC]”选项相同，该选项已弃用。 [!DNL Google Ads]已于2025年3月15日开始自动将现有[增强CPC竞价策略](https://support.google.com/google-ads/answer/2464964)更改为手动CPC。
+  * **[!UICONTROL Enable Enhanced CPC]**（默认禁用）：这与使用“[!UICONTROL Enhanced CPC]”选项相同，该选项已弃用。 [!DNL Google Ads]已于2025年3月15日开始自动将现有[增强CPC竞价策略](https://support.google.com/google-ads/answer/2464964)更改为手动CPC。
 
 * *[!UICONTROL Maximize Clicks]：* （搜索、展示和购物营销活动）广告网络（而不是Search、Social和Commerce）会优化竞价以最大化点击次数。 （可选）输入&#x200B;**[!UICONTROL Max CPC]**（每次点击成本）以确保广告网络为每次点击支付的金额不会超过特定金额。 **注意：**&#x200B;当您将具有此策略的营销活动添加到项目组合时，竞价由点击权重驱动，而不是由项目组合目标驱动。
 
@@ -162,19 +168,19 @@ ht-degree: 0%
 
 * 要定位或排除特定位置，请执行以下操作：
 
-   * （国家/地区、州、大都市区域或城市）单击&#x200B;**[!UICONTROL Location Target]** （![位置目标](/help/search-social-commerce/assets/location-target.png "位置目标")）并找到要包含和排除的位置：
+  * （国家/地区、州、大都市区域或城市）单击&#x200B;**[!UICONTROL Location Target]** （![位置目标](/help/search-social-commerce/assets/location-target.png "位置目标")）并找到要包含和排除的位置：
 
-      * 若要包含位置及其子位置，请单击相邻圆圈一次，以便显示蓝色复选标记（![包含](/help/search-social-commerce/assets/include.png "包含")）。
+    * 若要包含位置及其子位置，请单击相邻圆圈一次，以便显示蓝色复选标记（![包含](/help/search-social-commerce/assets/include.png "包含")）。
 
-      * 要排除某个位置，请单击相邻圆圈两次，以便显示红色复选标记（![排除](/help/search-social-commerce/assets/exclude.png "排除")）。
+    * 要排除某个位置，请单击相邻圆圈两次，以便显示红色复选标记（![排除](/help/search-social-commerce/assets/exclude.png "排除")）。
 
-      * 要将位置展开到其子组件中（例如美国的州、都市区或城市），请单击位置名称。
+    * 要将位置展开到其子组件中（例如美国的州、都市区或城市），请单击位置名称。
 
-      * 要搜索位置，请在输入字段中输入或粘贴位置的前三个字符。 在搜索结果中，单击要包含的位置旁边的&#x200B;**[!UICONTROL Include]**&#x200B;或要排除的位置旁边的&#x200B;**[!UICONTROL Exclude]**。
+    * 要搜索位置，请在输入字段中输入或粘贴位置的前三个字符。 在搜索结果中，单击要包含的位置旁边的&#x200B;**[!UICONTROL Include]**&#x200B;或要排除的位置旁边的&#x200B;**[!UICONTROL Exclude]**。
 
-   * （地址附近的位置；仅限包含的目标）单击&#x200B;**[!UICONTROL Radius Target]** （![Radius目标](/help/search-social-commerce/assets/radius-target.png "Radius目标")），然后单击&#x200B;**[!UICONTROL Address]**。 输入地址和目标地址周围的英里或公里半径，然后单击&#x200B;**[!UICONTROL Add]**。
+  * （地址附近的位置；仅限包含的目标）单击&#x200B;**[!UICONTROL Radius Target]** （![Radius目标](/help/search-social-commerce/assets/radius-target.png "Radius目标")），然后单击&#x200B;**[!UICONTROL Address]**。 输入地址和目标地址周围的英里或公里半径，然后单击&#x200B;**[!UICONTROL Add]**。
 
-   * （地理坐标附近的位置；仅限包含的目标）单击&#x200B;**[!UICONTROL Radius Target]** （![Radius目标](/help/search-social-commerce/assets/radius-target.png "Radius目标")），然后单击&#x200B;**[!UICONTROL Coordinate]**。 输入目标位置周围的纬度和经度以及半径（以英里或公里为单位），然后单击&#x200B;**[!UICONTROL Add]**。
+  * （地理坐标附近的位置；仅限包含的目标）单击&#x200B;**[!UICONTROL Radius Target]** （![Radius目标](/help/search-social-commerce/assets/radius-target.png "Radius目标")），然后单击&#x200B;**[!UICONTROL Coordinate]**。 输入目标位置周围的纬度和经度以及半径（以英里或公里为单位），然后单击&#x200B;**[!UICONTROL Add]**。
 
 * （为包含的目标位置添加竞价调整）输入竞价调整值：
 
@@ -186,9 +192,9 @@ ht-degree: 0%
 
 * 由于[!DNL Google Ads]提供的用于将冲浪者位置映射到位置目标的数据存在限制，因此Search、Social和Commerce不为以下位置目标提供自动调整的竞价调整：
 
-   * 半径目标。
+  * 半径目标。
 
-   * 在州/省/地区/县/州级别下的某些位置，[!DNL Google Ads]不会在其冲浪者的URL中发送父级位置，包括机场和美国国会选区。
+  * 在州/省/地区/县/州级别下的某些位置，[!DNL Google Ads]不会在其冲浪者的URL中发送父级位置，包括机场和美国国会选区。
 
 <!-- **[!UICONTROL Devices]:** -->
 
@@ -297,21 +303,21 @@ ht-degree: 0%
 
 * 要上传图像，请执行以下操作：
 
-   1. 在[!UICONTROL Upload from Device]选项卡上，单击&#x200B;**[!UICONTROL +]**&#x200B;并从设备或网络中选择图像。
+  1. 在[!UICONTROL Upload from Device]选项卡上，单击&#x200B;**[!UICONTROL +]**&#x200B;并从设备或网络中选择图像。
 
-   1. 对于每个图像：
+  1. 对于每个图像：
 
-      1. 选择纵横比。
+     1. 选择纵横比。
 
-      1. 根据需要拖动并放置裁切框以选择图像的可查看部分，并在可能的情况下调整图像的可查看部分的大小。
+     1. 根据需要拖动并放置裁切框以选择图像的可查看部分，并在可能的情况下调整图像的可查看部分的大小。
 
-      1. （可选）选择其他纵横比，并根据需要为每个选定的纵横比重新定位和调整图像大小。
+     1. （可选）选择其他纵横比，并根据需要为每个选定的纵横比重新定位和调整图像大小。
 
-         为每个选定的纵横比创建一个资源。
+        为每个选定的纵横比创建一个资源。
 
-      1. 单击&#x200B;**[!UICONTROL Proceed]**。
+     1. 单击&#x200B;**[!UICONTROL Proceed]**。
 
-   1. 指定完图像后，单击&#x200B;**[!UICONTROL Upload]**。
+  1. 指定完图像后，单击&#x200B;**[!UICONTROL Upload]**。
 
 * 要从[!UICONTROL Asset Library]中选择图像，请单击&#x200B;**[!UICONTROL Asset Library]**&#x200B;并选择图像。
 
@@ -319,21 +325,21 @@ ht-degree: 0%
 
 * 要上传图像，请执行以下操作：
 
-   1. 在[!UICONTROL Upload from Device]选项卡上，单击&#x200B;**[!UICONTROL +]**&#x200B;并从设备或网络中选择图像。
+  1. 在[!UICONTROL Upload from Device]选项卡上，单击&#x200B;**[!UICONTROL +]**&#x200B;并从设备或网络中选择图像。
 
-   1. 对于每个图像：
+  1. 对于每个图像：
 
-      1. 选择纵横比。
+     1. 选择纵横比。
 
-      1. 根据需要拖动并放置裁切框以选择图像的可查看部分，并在可能的情况下调整图像的可查看部分的大小。
+     1. 根据需要拖动并放置裁切框以选择图像的可查看部分，并在可能的情况下调整图像的可查看部分的大小。
 
-      1. （可选）选择其他纵横比，并根据需要为每个选定的纵横比重新定位和调整图像大小。
+     1. （可选）选择其他纵横比，并根据需要为每个选定的纵横比重新定位和调整图像大小。
 
-         为每个选定的纵横比创建一个资源。
+        为每个选定的纵横比创建一个资源。
 
-      1. 单击&#x200B;**[!UICONTROL Proceed]**。
+     1. 单击&#x200B;**[!UICONTROL Proceed]**。
 
-   1. 指定完图像后，单击&#x200B;**[!UICONTROL Upload]**。
+  1. 指定完图像后，单击&#x200B;**[!UICONTROL Upload]**。
 
 * 要从[!UICONTROL Asset Library]中选择图像，请单击&#x200B;**[!UICONTROL Asset Library]**&#x200B;并选择图像。
 
@@ -341,9 +347,9 @@ ht-degree: 0%
 
 * 要输入URL，请执行以下操作：
 
-   1. 在[!UICONTROL Enter Video Url]选项卡上，输入URL。
+  1. 在[!UICONTROL Enter Video Url]选项卡上，输入URL。
 
-   1. （可选）要添加其他URL，请单击&#x200B;**[!UICONTROL + Add]**&#x200B;并输入该URL。
+  1. （可选）要添加其他URL，请单击&#x200B;**[!UICONTROL + Add]**&#x200B;并输入该URL。
 
 * 要从[!UICONTROL Asset Library]中选择视频，请单击&#x200B;**[!UICONTROL Asset Library]**&#x200B;并选择视频。
 
@@ -353,9 +359,9 @@ ht-degree: 0%
 
 * 要输入文本，请执行以下操作：
 
-   1. 在[!UICONTROL Enter Text]选项卡上，输入文本。
+  1. 在[!UICONTROL Enter Text]选项卡上，输入文本。
 
-   1. （可选）要添加其他文本字符串，请单击&#x200B;**[!UICONTROL + Add]**&#x200B;并输入该字符串。
+  1. （可选）要添加其他文本字符串，请单击&#x200B;**[!UICONTROL + Add]**&#x200B;并输入该字符串。
 
 * 要从[!UICONTROL Asset Library]中选择资源，请单击&#x200B;**[!UICONTROL Asset Library]**&#x200B;并选择资源。
 
@@ -363,9 +369,9 @@ ht-degree: 0%
 
 * 要输入文本，请执行以下操作：
 
-   1. 在[!UICONTROL Enter Text]选项卡上，输入文本。
+  1. 在[!UICONTROL Enter Text]选项卡上，输入文本。
 
-   1. （可选）要添加其他文本字符串，请单击&#x200B;**[!UICONTROL + Add]**&#x200B;并输入该字符串。
+  1. （可选）要添加其他文本字符串，请单击&#x200B;**[!UICONTROL + Add]**&#x200B;并输入该字符串。
 
 * 要从[!UICONTROL Asset Library]中选择资源，请单击&#x200B;**[!UICONTROL Asset Library]**&#x200B;并选择资源。
 
@@ -373,9 +379,9 @@ ht-degree: 0%
 
 * 要输入文本，请执行以下操作：
 
-   1. 在[!UICONTROL Enter Text]选项卡上，输入文本。
+  1. 在[!UICONTROL Enter Text]选项卡上，输入文本。
 
-   1. （可选）要添加其他文本字符串，请单击&#x200B;**[!UICONTROL + Add]**&#x200B;并输入该字符串。
+  1. （可选）要添加其他文本字符串，请单击&#x200B;**[!UICONTROL + Add]**&#x200B;并输入该字符串。
 
 * 要从[!UICONTROL Asset Library]中选择资源，请单击&#x200B;**[!UICONTROL Asset Library]**&#x200B;并选择资源。
 

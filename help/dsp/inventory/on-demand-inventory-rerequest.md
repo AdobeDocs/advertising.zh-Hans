@@ -1,24 +1,28 @@
 ---
-title: 重新请求 [!DNL On Demand] 高级库存交易
-description: 了解如何重新请求之前被拒绝的 [!DNL On Demand] 交易。
+title: 重新请求[!DNL On Demand]高级库存交易
+description: 了解如何重新请求之前被拒绝的[!DNL On Demand]交易。
 feature: DSP On Demand Inventory
 exl-id: 8b28ca37-5fe8-445e-8210-1b81945bbacc
-TQID: https://experienceleague.adobe.com/trhZ41T-0-Qo3ye-HKCn99kvyGqtOnVG9bnCshaamjU
+TQID: 'https://experienceleague.adobe.com/trhZ41T-0-Qo3ye-HKCn99kvyGqtOnVG9bnCshaamjU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 351
+source-wordcount: '355'
 ht-degree: 0%
-
 ---
-
 # 重新请求[!DNL On Demand]高级库存交易
 
 *不可用于帐户类型为[!UICONTROL Ad Network]、[!UICONTROL Publisher Audience Extension]和[!UICONTROL Other]的用户；类别为[!UICONTROL Other]的广告商和经销商*
@@ -47,17 +51,17 @@ ht-degree: 0%
 
    1. 筛选可用的交易以包含您请求的交易(**[!UICONTROL Currently subscribed to]**)**。
 
-   1. （可选）根据需要单击[!UICONTROL Subscription]和[!UICONTROL Deal]，在&#x200B;**[!UICONTROL Subscription view]**&#x200B;视图（显示基于您的筛选器的所有发布者的徽标）和&#x200B;**[!UICONTROL Deal view]**&#x200B;视图（根据您的筛选器列出每个发布者的所有交易）之间切换。
+   1. （可选）根据需要单击&#x200B;**[!UICONTROL Subscription view]**&#x200B;和&#x200B;**[!UICONTROL Deal view]**，在[!UICONTROL Subscription]视图（显示基于您的筛选器的所有发布者的徽标）和[!UICONTROL Deal]视图（根据您的筛选器列出每个发布者的所有交易）之间切换。
 
    1. 重新请求单个交易：
 
-   * 从[!UICONTROL Deal]视图中，在&#x200B;**[!UICONTROL Rerequest]**&#x200B;列中单击相关行的[!UICONTROL Action]。
+   * 从[!UICONTROL Deal]视图中，在[!UICONTROL Action]列中单击相关行的&#x200B;**[!UICONTROL Rerequest]**。
 
    * 从[!UICONTROL Subscription]视图中：
 
-      1. 将光标悬停在发布者徽标上，然后单击&#x200B;**[!UICONTROL See Deals]**。
+     1. 将光标悬停在发布者徽标上，然后单击&#x200B;**[!UICONTROL See Deals]**。
 
-      1. 在&#x200B;**[!UICONTROL Rerequest]**&#x200B;列中单击相关行的[!UICONTROL Action]。
+     1. 在[!UICONTROL Action]列中单击相关行的&#x200B;**[!UICONTROL Rerequest]**。
 
 >[!MORELIKETHIS]
 >

@@ -3,24 +3,30 @@ title: 跨设备解决方案
 description: 了解有关跨设备功能的更多信息。
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-TQID: https://experienceleague.adobe.com/CEof59dFrZItQBNhFh6MdlvMGWSNv3em7OJzSeyP0Gg
+TQID: 'https://experienceleague.adobe.com/CEof59dFrZItQBNhFh6MdlvMGWSNv3em7OJzSeyP0Gg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: '1027'
 ht-degree: 0%
-
 ---
-
 # 跨设备解决方案
 
 Advertising DSP与[!DNL LiveRamp]的集成允许您将受众扩展到用户的所有已知设备，而不仅仅是您的品牌所跟踪的设备。 该集成还提供了跨所有设备的频率封顶和归因测量。
@@ -77,13 +83,13 @@ Advertising DSP与[!DNL LiveRamp]的集成允许您将受众扩展到用户的�
 
 您可以在自定义报表中包含以下量度：
 
-* **扩展展示次数：** （在[!UICONTROL Build Your Report] > [!UICONTROL Metrics]下的[!UICONTROL Std. Metrics]部分中）利用设备图交付的增量展示次数（在原始受众区段中找不到）。 此量度还用于计算与使用第三方设备图相关的适用费用。
+* **扩展展示次数：** （在[!UICONTROL Metrics] > [!UICONTROL Std. Metrics]下的[!UICONTROL Build Your Report]部分中）利用设备图交付的增量展示次数（在原始受众区段中找不到）。 此量度还用于计算与使用第三方设备图相关的适用费用。
 
   要确定某个时间段内扩展展示的成本，请运行包含[!UICONTROL Extended Impressions]列的自定义报表，然后将扩展展示总数乘以$0.00035（$0.35/1000展示次数）。
 
   汇总成本也包含在[!UICONTROL Billable Other Net Spend]列（[!UICONTROL Metrics] > [!UICONTROL Spend]下）中，但该量度还包括您可能已添加的其他促销活动费用。
 
-* **设备图：** （在[!UICONTROL Build Your Report] > [!UICONTROL Dimensions]下的[!UICONTROL Campaign]部分中）为特定营销活动、包或投放位置选择的设备图。
+* **设备图：** （在[!UICONTROL Dimensions] > [!UICONTROL Campaign]下的[!UICONTROL Build Your Report]部分中）为特定营销活动、包或投放位置选择的设备图。
 
 ## 基于人员的归因测量
 
@@ -103,9 +109,9 @@ Advertising DSP与[!DNL LiveRamp]的集成允许您将受众扩展到用户的�
 
 * &lt;*转化*>[!UICONTROL (tp)]：包含总转化（总人数），其中包括同一设备转化和跨设备转化（如果适用）。 在报表中，“[!UICONTROL (tp)]”会附加到转化路径中的转化量度名称、规则类型和转化类型(例如，“Responses(le)(tl)(tp)”)。
 
-* &lt;*转化*>[!UICONTROL (sd)]： （可选）只包含在转化路径中跟踪了单个设备的转化。 在报表中，“[!UICONTROL (sd)]”会附加到转化路径中的转化量度名称、规则类型和转化类型(例如，“Responses(le)(tl)(sd)”)。
+* &lt;*转化*>[!UICONTROL (sd)]： （可选）仅包含在转化路径中只跟踪单个设备的转化。 在报表中，“[!UICONTROL (sd)]”会附加到转化路径中的转化量度名称、规则类型和转化类型(例如，“Responses(le)(tl)(sd)”)。
 
-* &lt;*转化*>[!UICONTROL (xd)]： （可选）仅包含在转化路径中跟踪了多个设备的转化。 在报表中，“[!UICONTROL (xd)]”会附加到转化路径中的转化量度名称、规则类型和转化类型(例如，“Responses(le)(tl)(xd)”)。
+* &lt;*转化*>[!UICONTROL (xd)]： （可选）只包含在转化路径中跟踪了多个设备的转化。 在报表中，“[!UICONTROL (xd)]”会附加到转化路径中的转化量度名称、规则类型和转化类型(例如，“Responses(le)(tl)(xd)”)。
 
 #### 如何解释[!UICONTROL Conversion]报告
 

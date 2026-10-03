@@ -3,49 +3,60 @@ title: 关于Advertising DSP中的受众管理
 description: 了解受众管理功能。
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-TQID: https://experienceleague.adobe.com/IocF0s67I-vJAUx9Eom-aWEf-Q6H-ZOjczyGr0f9PsA
+TQID: 'https://experienceleague.adobe.com/IocF0s67I-vJAUx9Eom-aWEf-Q6H-ZOjczyGr0f9PsA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
+  - id: 2b670c6e-542a-5afe-b96b-d9ce7818cd55
+    internal-label: DSP Segments
 subfeature_v2:
   - id: c193c532-b70e-4556-bde7-857186cbe140
+    internal-label: Segments
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1457
+source-wordcount: '1457'
 ht-degree: 0%
-
 ---
-
 # 关于Advertising DSP中的受众管理
 
 在DSP中，您可以创建和管理受众区段和受众集，并将其用作投放位置的目标：
 
 * 通过创建和实施DSP区段来收集您自己的第一方受众数据。 之后，您可以使用广告重新定位区段中的用户，或阻止区段中的用户接收广告。 您可以创建以下类型的区段：
 
-   * [自定义区段](/help/dsp/audiences/custom-segment-create.md)，用于跟踪a)从桌面和移动设备向广告公开的用户和b)访问特定网页的用户。 跟踪标记可以跟踪基于Cookie的用户或与ID5通用ID关联的用户。
+  * [自定义区段](/help/dsp/audiences/custom-segment-create.md)，用于跟踪a)从桌面和移动设备向广告公开的用户和b)访问特定网页的用户。 跟踪标记可以跟踪基于Cookie的用户或与ID5通用ID关联的用户。
 
-   * [CCPA选择退出销售区段](/help/dsp/audiences/ccpa-opt-out-segment-create.md)，用于根据加州消费者隐私法案(CCPA)跟踪您网站上消费者选择退出销售请求的用户ID。 您可以从选择退出销售请求中检索用户ID的月度报表。
+  * [CCPA选择退出销售区段](/help/dsp/audiences/ccpa-opt-out-segment-create.md)，用于根据加州消费者隐私法案(CCPA)跟踪您网站上消费者选择退出销售请求的用户ID。 您可以从选择退出销售请求中检索用户ID的月度报表。
 
-     有关Adobe Advertising对CCPA选择退出销售请求的支持的更多信息，请参阅[Adobe Advertising对《加州消费者隐私法案》的支持：消费者选择退出销售支持](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)。
+    有关Adobe Advertising对CCPA选择退出销售请求的支持的更多信息，请参阅[Adobe Advertising对《加州消费者隐私法案》的支持：消费者选择退出销售支持](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)。
 
 * [获取并使用通用ID进行无指南定位](/help/dsp/audiences/universal-ids.md)：
 
-   * 手动将经过身份验证的[!DNL LiveRamp] [!DNL RampID]区段直接发送到DSP。
+  * 手动将经过身份验证的[!DNL LiveRamp] [!DNL RampID]区段直接发送到DSP。
 
-   * 允许DSP从您的客户数据平台导入第一方区段，并将它们转换为支持的通用ID类型。
+  * 允许DSP从您的客户数据平台导入第一方区段，并将它们转换为支持的通用ID类型。
 
-   * 导入包含[!DNL AdFixus]通用ID的第一方[!DNL AdFixus]区段（仅限澳大利亚）。 然后，您可以将投放位置定位到[!DNL AdFixus] ID，将这些区段添加到[可重用受众](/help/dsp/audiences/reusable-audience-create.md)，并使用“[从 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)导入第一方区段”中所述的报表。
+  * 导入包含[!DNL AdFixus]通用ID的第一方[!DNL AdFixus]区段（仅限澳大利亚）。 然后，您可以将投放位置定位到[!DNL AdFixus] ID，将这些区段添加到[可重用受众](/help/dsp/audiences/reusable-audience-create.md)，并使用“[从 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)导入第一方区段”中所述的报表。
 
-   * 无需执行任何额外步骤，即可在投放目标中包含包含通用ID的第三方区段。
+  * 无需执行任何额外步骤，即可在投放目标中包含包含通用ID的第三方区段。
 
 * 创建[可重用受众](/help/dsp/audiences/reusable-audience-create.md)的受众库。 保存的受众由任何可用受众区段和任何其他保存的受众组成。 您对保存的受众所做的任何更改将自动应用于所有定向或排除该受众的投放位置，并应用于包括保存的受众的所有其他受众。
 
@@ -79,11 +90,11 @@ ht-degree: 0%
 
 * 在DSP中创建的所有用户创建的受众区段：
 
-   * 访问特定网页的用户和展示特定广告印象的用户适用的自定义区段。
+  * 访问特定网页的用户和展示特定广告印象的用户适用的自定义区段。
 
-     对于传送到通用ID的展示，不产生任何费用。
+    对于传送到通用ID的展示，不产生任何费用。
 
-   * CCPA根据《加州消费者隐私法案》(CCPA)的规定，对在您的网站上提交选择退出销售请求的用户的选择退出销售受众区段。
+  * CCPA根据《加州消费者隐私法案》(CCPA)的规定，对在您的网站上提交选择退出销售请求的用户的选择退出销售受众区段。
 
 * 所有导入的第一方数据区段，包括转换为通用ID的区段和包含导入[!DNL AdFixus]通用ID的区段。
 
@@ -101,7 +112,7 @@ ht-degree: 0%
 
   使用分部的定价是预先协商的，在DSP中不可见。
 
-  [!DNL Analytics]中的区段在创建或发布为CX Enterprise受众后大约一小时内可用。 直接来自Audience Manager或[!DNL Real-Time CDP]的区段在您共享它们后的24小时内可用。
+  [!DNL Analytics]中的区段在作为CX Enterprise受众创建或发布后大约一小时内可用。 直接来自Audience Manager或[!DNL Real-Time CDP]的区段在您共享它们后的24小时内可用。
 
   >[!NOTE]
   >

@@ -3,13 +3,19 @@ title: （新UI）更改项目组合的状态
 description: 了解如何在不打开项目组合设置的情况下更改项目组合的状态或删除不活动的项目组合。
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
-
 ---
-
 # （新UI）更改项目组合的状态
 
 *Beta功能*

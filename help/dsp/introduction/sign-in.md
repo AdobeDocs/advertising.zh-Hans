@@ -3,28 +3,33 @@ title: 登录到DSP
 description: 了解如何登录到DSP。
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-TQID: https://experienceleague.adobe.com/KjBIag8qcpMONcX6pS2IJot3IA4Q-KOq0Av-1VzAot4
+TQID: 'https://experienceleague.adobe.com/KjBIag8qcpMONcX6pS2IJot3IA4Q-KOq0Av-1VzAot4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: '535'
 ht-degree: 0%
-
 ---
-
 # 登录到Adobe Advertising DSP
 
 Adobe Advertising DSP正在过渡到Adobe Identity Management服务(IMS)以进行登录身份验证。 IMS使用联合ID为支持IMS的所有[!DNL Adobe]产品（包括Real-Time Customer Data Platform、Customer Journey Analytics、[!DNL Target]和[!DNL Analytics]）提供单点登录(SSO)访问。 更改后：
 
-* 您可以使用一个[!DNL Adobe ID]从Adobe CX Enterprise（以前的Adobe Experience Cloud）登录页面或旧版DSP登录页面跨[!DNL Adobe]产品登录。 您的[!DNL Adobe ID]提供用户配置文件管理。 在将来的版本中，您将能够从顶部菜单中更改DSP帐户、IMS组织帐户和[!DNL Adobe]产品。
+* 您可以使用一个[!DNL Adobe ID]从Adobe CX Enterprise（以前为Adobe Experience Cloud）登录页面或旧版DSP登录页面跨[!DNL Adobe]产品登录。 您的[!DNL Adobe ID]提供用户配置文件管理。 在将来的版本中，您将能够从顶部菜单中更改DSP帐户、IMS组织帐户和[!DNL Adobe]产品。
 
 * 支持企业身份验证。
 

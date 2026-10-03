@@ -3,14 +3,17 @@ title: 创建标签分类
 description: 了解如何创建标签分类以将您的帐户组件分组。
 exl-id: 227f44d7-c422-4baa-94ff-6deafcddf920
 feature: Search Label Classifications
-TQID: https://experienceleague.adobe.com/zdshElTCMuExmxn7sV-9fXY8hyjRximonpWr7hAkDtI
+TQID: 'https://experienceleague.adobe.com/zdshElTCMuExmxn7sV-9fXY8hyjRximonpWr7hAkDtI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
+feature_v2:
+  - id: e29095c7-c364-5fb4-ac07-691793cb92e4
+    internal-label: Search Label Classifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%

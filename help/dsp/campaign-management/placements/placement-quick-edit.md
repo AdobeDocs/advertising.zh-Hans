@@ -3,13 +3,17 @@ title: 快速编辑键位置设置
 description: 了解如何快速更改关键位置设置。
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '132'
 ht-degree: 0%
-
 ---
-
 # 快速编辑键位置设置
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->

@@ -3,20 +3,24 @@ title: 关于Adobe Advertising转化跟踪标记
 description: 了解如何使用Adobe Advertising转化跟踪标记。
 exl-id: 8194d5eb-9a5d-4c4e-bb02-e578ffb84d18
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/SKNAm2olxXOI-qdf67XVYpo9GtQCpQO9acywqE7YTv0
+TQID: 'https://experienceleague.adobe.com/SKNAm2olxXOI-qdf67XVYpo9GtQCpQO9acywqE7YTv0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 500
+source-wordcount: '511'
 ht-degree: 0%
-
 ---
-
 # 关于Adobe Advertising转化跟踪标记
 
 Adobe Advertising使用Adobe Advertising转化跟踪标记，跟踪在发生转化事件时（例如“成功”页面），插入到要打开的网页中，因广告点击而导致的转化。 标记包括嵌入式信息，用于将交易数据以及用户的Adobe Advertising Cookie发送到跟踪服务器，从跟踪服务器，交易被贷记到适当的广告点击或展示（根据广告商的转化归因设置）。

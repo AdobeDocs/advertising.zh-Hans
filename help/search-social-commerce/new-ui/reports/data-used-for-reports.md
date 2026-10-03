@@ -2,22 +2,32 @@
 title: （新UI）用于报表的数据
 description: 了解数据视图和自定义报告中可用的不同类型数据。
 feature: Search Reports
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 subfeature_v2:
   - id: ff99aaef-142d-4c93-a88c-011e979e3843
+    internal-label: Advanced reports
   - id: c916feea-e212-4773-b673-4daed287b8a3
+    internal-label: Assist reports
   - id: adcb1be7-7ed0-464d-a8d4-c905c9d47742
+    internal-label: Basic reports
   - id: fa0141e5-dc99-4fbd-9c0e-40aff66de606
+    internal-label: Model accuracy reports
   - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
+    internal-label: Specialty reports
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
-source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
+    internal-label: Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 604
-ht-degree: 0%
-
+source-wordcount: '643'
+ht-degree: 6%
 ---
-
 # （新UI）用于报表的数据
 
 搜索、社交和Commerce包括基于点击和转化数据的全套性能报表。 您可以从[!UICONTROL Portfolios]和[!UICONTROL Campaigns]视图中，以及通过生成各种基本和高级报告来查看组合或广告帐户的各种组件的基本性能数据。
@@ -28,17 +38,17 @@ ht-degree: 0%
 
 * **标准性能指标：**
 
-   * **[!UICONTROL Impressions]：**&#x200B;广告投放的总次数。
+  * **[!UICONTROL Impressions]：**&#x200B;广告投放的总次数。
 
-   * **[!UICONTROL Clicks]：**&#x200B;广告中链接被点击的总次数。
+  * **[!UICONTROL Clicks]：**&#x200B;广告中链接被点击的总次数。
 
-   * **[!UICONTROL Cost]：**&#x200B;广告的总成本。 每次点击付费(PPC)广告的成本始终是点击次数乘以每次点击成本。
+  * **[!UICONTROL Cost]：**&#x200B;广告的总成本。 每次点击付费(PPC)广告的成本始终是点击次数乘以每次点击成本。
 
-   * **[!UICONTROL Cost per Click]：**&#x200B;广告一次点击的平均成本，即广告成本除以广告点击总数。 例如，如果您为一个广告展示花费了100 USD，并且该广告生成了10次点击，则每次点击成本为100 USD/10=10 USD/每次点击。
+  * **[!UICONTROL Cost per Click]：**&#x200B;广告一次点击的平均成本，即广告成本除以广告点击总数。 例如，如果您在一个广告展示中花费了100个USD，而该广告产生了10次点击，则每次点击的成本为100 USD/10=10 USD 。
 
-   * **[!UICONTROL Average Position]：** （适用时）已投放广告的平均位置，用展示次数加权。
+  * **[!UICONTROL Average Position]：** （适用时）已投放广告的平均位置，用展示次数加权。
 
-   * **[!UICONTROL Estimated Clicks]：** （仅包含在具有Adobe Advertising转化跟踪服务的广告商的高级报告中）反向链接网站的某个城市或域名的预计点击总数。 这可能包括广告商没有广告帐户的广告网络的数据。
+  * **[!UICONTROL Estimated Clicks]：** （仅包含在具有Adobe Advertising转化跟踪服务的广告商的高级报告中）反向链接网站的某个城市或域名的预计点击总数。 这可能包括广告商没有广告帐户的广告网络的数据。
 
 * **转化量度：**&#x200B;每个广告商的转化量度的转化总数，或针对某个转化量度跟踪的交易数据。 这可能包括转化和网站参与量度，但不包括从Adobe Analytics同步的计算量度和高级计算量度。
 

@@ -3,20 +3,24 @@ title: 关于新的用户界面
 description: 了解新的用户界面。
 feature: Search Introduction
 exl-id: 27fcc1c2-fe69-4bdc-9786-c48b28da1560
-TQID: https://experienceleague.adobe.com/3xw-2l7hzRLYG-Se1SJV3eEFsipAy6jwbJnybubAzD0
+TQID: 'https://experienceleague.adobe.com/3xw-2l7hzRLYG-Se1SJV3eEFsipAy6jwbJnybubAzD0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 208
+source-wordcount: '208'
 ht-degree: 0%
-
 ---
-
 # 关于新的用户界面
 
 您现在可以从新的用户界面(UI)管理目标、模拟和项目组合，以及执行大多数其他关键任务。 新的搜索、社交和Commerce UI在`https://experience.adobe.com`域内的新URL中运行。

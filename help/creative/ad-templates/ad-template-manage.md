@@ -3,18 +3,24 @@ title: 管理动态广告模板
 description: 了解如何管理动态广告模板以及如何从这些模板创建广告。
 feature: Creative Templates
 exl-id: 248f1467-ebd3-47f2-a24c-043bbfadcc6e
-TQID: https://experienceleague.adobe.com/-kYWprVYmg-AsTH-L--U08dnlESVQx-f2TYTDohc1jc
+TQID: 'https://experienceleague.adobe.com/-kYWprVYmg-AsTH-L--U08dnlESVQx-f2TYTDohc1jc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: ed6ac2c4-a9bd-4406-807a-6cff66d34585
+    internal-label: Creative templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 453
+source-wordcount: '458'
 ht-degree: 0%
-
 ---
-
 # 管理动态广告模板
 
 通过上传具有所需广告格式的压缩HTML5文件，为广告类型（静态HTML5或动态HTML5）和广告大小的每个组合创建单独的广告模板。 对于动态HTML5广告，您还可以上传包含广告属性<!-- more clarification? -->的文件。

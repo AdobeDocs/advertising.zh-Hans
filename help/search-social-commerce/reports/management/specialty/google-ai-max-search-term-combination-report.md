@@ -3,18 +3,24 @@ title: '[!UICONTROL Google AI Max Search Term Combination Report]'
 description: 了解[!UICONTROL Google AI Max Search Term Combination Report]。
 feature: Search Reports, Search Specialty Reports
 exl-id: 6980dd42-ce5c-4fa7-920d-9c23bf98fa8d
-source-git-commit: bf4531494fe248a4a2bd290dcb8abfa6fdb6451d
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '167'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Google AI Max Search Term Combination Report]
 
 *仅适用于[!DNL Google Ads]个启用了最大AI营销活动的帐户*
 
-[!UICONTROL Google AI Max Search Term Combination Report]显示[!DNL Google Ads AI Max]基于搜索网络内的搜索使用的特定广告组合和登陆页面的性能。 此报表包含在指定帐户内使用[!DNL Google Ads]的[!DNL AI Max]营销活动中的广告的展示次数、点击次数和成本数据。 默认情况下，对于在指定数据范围内至少获得一次展示的每个搜索词、标题和登陆页面组合，数据包括一行。 默认情况下，这些行先按日期升序，然后再按促销活动升序。
+[!UICONTROL Google AI Max Search Term Combination Report]显示[!DNL Google Ads AI Max]基于搜索网络内的搜索使用的特定广告组合和登陆页面的性能。 此报表包含在指定帐户内使用[!DNL AI Max]的[!DNL Google Ads]营销活动中的广告的展示次数、点击次数和成本数据。 默认情况下，对于在指定数据范围内至少获得一次展示的每个搜索词、标题和登陆页面组合，数据包括一行。 默认情况下，这些行先按日期升序，然后再按促销活动升序。
 
 使用此报告可以查看特定搜索查询如何映射到人工智能生成的标题和动态登陆页面。 您可以使用数据来分析每个查询生成的广告元素的意图和性能，以便构建可靠的负面关键词列表。
 

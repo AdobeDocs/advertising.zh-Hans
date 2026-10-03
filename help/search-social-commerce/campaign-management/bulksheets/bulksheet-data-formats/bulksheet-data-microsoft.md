@@ -1,22 +1,26 @@
 ---
-title: ' [!DNL Microsoft Advertising] 帐户所需的批量处理工作表数据'
-description: 引用 [!DNL Microsoft Advertising] 帐户批量工作表中必需的标题字段和数据字段。
+title: '[!DNL Microsoft Advertising]帐户所需的批量处理工作表数据'
+description: 引用[!DNL Microsoft Advertising]帐户的批量处理工作表中的必填标题字段和数据字段。
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E
+TQID: 'https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 7024
-ht-degree: 0%
-
+source-wordcount: '7150'
+ht-degree: 1%
 ---
-
 # 附录 — [!DNL Microsoft Advertising]帐户必需的批量处理工作表数据
 
 要批量创建和更新[!DNL Microsoft Advertising]营销活动数据，您可以使用专门为[!DNL Microsoft Advertising]帐户设置格式的Search、Social和Commerce批量工作表文件。 您可以a) [为现有帐户](../bulksheet-download.md)生成所需文件格式的批量工作表文件，或b)手动创建这些文件（有关支持的文件格式的一般信息，请参阅[支持的批量工作表文件格式](bulksheet-file-formats.md)）。
@@ -82,13 +86,13 @@ ht-degree: 0%
 | [!UICONTROL Ad Group Start Date] | 可以在广告商所在时区且以下列格式之一为广告组投标的第一个日期：m/d/yyyy、m/d/yy、m-d-yyyy或m-d-yy。 对于新的广告组，默认日期为当前日期。 |
 | [!UICONTROL Ad Group End Date] | 可以在广告商所在的时区以及以下格式之一为广告组投标的最后日期：m/d/yyyy、m/d/yy、m-d-yyyy或m-d-yy。 对于新的广告组，默认值为[blank]（即无结束日期）。 |
 | [!UICONTROL Tracking Template] | （可选）跟踪模板，用于指定所有离岸域重定向和跟踪参数，并将最终URL嵌入到参数中。 最粒度级别的跟踪模板（使用关键字作为最粒度级别）将覆盖所有更高级别的值。<br><br>对于Adobe Advertising转化跟踪（在营销活动设置包括“[!UICONTROL EF Redirect]”和“[!UICONTROL Auto Upload]”时应用），Search、Social和Commerce会在您保存记录时自动附加重定向和跟踪代码。<br><br>对于第三方重定向和跟踪，请输入一个值。<br><br>有关指示跟踪模板中最终URL的参数列表，请参阅[!DNL Microsoft Advertising]文档。<br><br> 要删除现有值，请使用值`[delete]`（包括括号）。 |
-| [!UICONTROL Landing Page Suffix] | 附加到最终URL末尾以跟踪信息的任何参数。 示例： `param2=value1&param3=value2`<br><br>请参阅“ [!DNL Microsoft Advertising][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的点击跟踪格式”。“<br><br>较低级别的最终URL后缀将覆盖帐户级别的后缀。 为便于维护，除非需要对各个帐户组件进行不同的跟踪，否则请仅使用帐户级别的后缀。 要在广告组级别或更低级别配置后缀，请使用[!DNL Microsoft Advertising]编辑器。 |
+| [!UICONTROL Landing Page Suffix] | 附加到最终URL末尾以跟踪信息的任何参数。 示例： `param2=value1&param3=value2`<br><br>请参阅“ [!DNL Microsoft Advertising]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的点击跟踪格式”。“<br><br>较低级别的最终URL后缀将覆盖帐户级别的后缀。 为便于维护，除非需要对各个帐户组件进行不同的跟踪，否则请仅使用帐户级别的后缀。 要在广告组级别或更低级别配置后缀，请使用[!DNL Microsoft Advertising]编辑器。 |
 | 搜索网络状态 | 是否将广告组的广告放在搜索网络的各种元素上：<ul><li><i>全部：</i>在所有Bing搜索网络和联合搜索合作伙伴上刊登广告。</li><li><i>OwnedAndOperatedOnly：</i>仅在Bing和Yahoo上投放广告！ 网站。</li><li><i>SyndicatedSearchOnly：</i>仅在Bing和Yahoo上投放广告！ 联合搜索合作伙伴。</li><li><i>关：</i>仅在内容网络（而非搜索网络）上刊登广告。</li></ul> 对于新的广告组，默认为“启用”。 |
 | [!UICONTROL Content Network Status] | 已弃用 |
 | [!UICONTROL Languages] | 广告组中广告的目标语言： [!UICONTROL English]、[!UICONTROL French]、[!UICONTROL Finnish]、[!UICONTROL German]、[!UICONTROL Norwegian]、[!UICONTROL Spanish]或[!UICONTROL Swedish]。 新营销活动的默认值为[!UICONTROL English]。<br><br>此设置确定广告可以显示的国家和地区。 确保选择与营销活动的位置目标兼容的语言。 |
 | [!UICONTROL Budget Type] | 预算是<i>[!UICONTROL Daily]</i> （默认值）还是<i>[!UICONTROL Monthly]</i>。<br><br>注意：如果将促销活动分配给优化的项目组合，此值会自动设置为[!UICONTROL Daily]。 |
 | [!UICONTROL Device] | 在营销活动或广告组级别进行竞价调整的设备类型： <i>[!UICONTROL smartphone]</i>、<i>[!UICONTROL tablet]</i>或<i>[!UICONTROL desktop]</i>。 |
-| [!UICONTROL Bid Adjustment] | 指定目标类型的竞价调整。 例如，如果关键词级别的竞价为1美元，而智能手机的竞价调整为50%，则智能手机的竞价为1.50美元。 默认情况下，所有目标均按关键字级别竞价进行竞价。 有效百分比可以包括：<ul><li>智能手机和平板电脑： -100（不为设备类型出价）以及从–90到900</li><li>台式机：从0到900</li></ul> |
+| [!UICONTROL Bid Adjustment] | 指定目标类型的竞价调整。 例如，如果关键词级别的竞价为1 USD，而智能手机的竞价调整为50%，则智能手机的竞价为1.50 USD。 默认情况下，所有目标均按关键字级别竞价进行竞价。 有效百分比可以包括：<ul><li>智能手机和平板电脑： -100（不为设备类型出价）以及从–90到900</li><li>台式机：从0到900</li></ul> |
 | [!UICONTROL Creative Preferred Devices] | 您更喜欢显示广告或站点链接的设备类型： <i>[!UICONTROL All]</i> （默认值）或<i>[!UICONTROL Mobile]</i>。 当指定了“移动设备”时，网络会尝试向移动设备用户（而非桌面或平板电脑用户）显示广告或站点链接。 否则，网络会在任何设备类型上显示广告或站点链接。 <b>注意：</b>网络不保证会在首选设备类型上显示广告。 |
 | [!UICONTROL Param2] | 如果关键字的基本URL或广告的标题、描述或基本URL包含`{Param2}`动态替换字符串，则用作替换值的字符串。 最大长度为70个字符，但请注意，在其中使用它的广告元素的最大长度（例如，标题1和标题2组合可能最多为76个字符）。 要删除现有值，请使用值`[delete]`（包括括号）。 |
 | [!UICONTROL Param3] | 如果关键字的基本URL或广告的标题、描述或基本URL包含`{Param3}`动态替换字符串，则用作替换值的字符串。 最大长度为70个字符，但请注意，在其中使用它的广告元素的最大长度（例如，标题1和标题2组合可能最多为76个字符）。 要删除现有值，请使用值`[delete]`（包括括号）。 |
@@ -475,5 +479,5 @@ ht-degree: 0%
 >* [可在批量处理工作表中执行的操作](bulksheet-operations.md)
 >* [支持的批量处理工作表文件格式](bulksheet-file-formats.md)
 >* [下载/创建批量处理工作表文件](../bulksheet-download.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的点击跟踪格式
+>*  [!DNL Naver]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的点击跟踪格式
 >* [上载批量工作表文件或更正的错误文件](../bulksheet-upload.md)

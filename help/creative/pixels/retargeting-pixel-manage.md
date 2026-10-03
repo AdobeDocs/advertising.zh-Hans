@@ -3,27 +3,33 @@ title: 管理重定位像素
 description: 了解如何创建和实施重新定位像素以用作广告体验的目标。
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-TQID: https://experienceleague.adobe.com/Io8N6tbyhPOEWHPIYe2Zu2b4xTYXqgwp04geaBKTchg
+TQID: 'https://experienceleague.adobe.com/Io8N6tbyhPOEWHPIYe2Zu2b4xTYXqgwp04geaBKTchg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: c6a20e0e-e1b3-4d7d-b454-3943a711b15e
+    internal-label: Creative Pixels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 936
+source-wordcount: '942'
 ht-degree: 0%
-
 ---
-
 # 管理重定位像素
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
 您可以创建一个重定位像素，以识别使用用户Cookie或通用ID访问广告商登陆页面或转化页面的访客。 像素可跟踪访客在页面上执行的最新事件，并捕获页面正在跟踪这些访客的特定属性。 创建像素后，生成像素标记以插入到相关网页中以开始跟踪访客。<!-- Note to self: surfer id=cookie or universal ID -->
 
-然后，您可以在广告体验中将像素用作任何创意内容的目标，以便仅向具有指定属性的用户显示广告，这些用户之前访问了与该像素关联的网页。 例如，如果网页跟踪这些属性值，则您可以定位那些查看大小为10的红鞋的访客。<!-- better example? Make sure they match attribute examples below -->体验级别目标与DSP的定位选项一起应用；层次结构定位行为可能因DSP而异。
+然后，您可以在广告体验中将像素用作任何创意内容的目标，以便仅向具有指定属性的用户显示广告，这些用户之前访问了与该像素关联的网页。 例如，如果网页跟踪这些属性值，则您可以定位查看大小为10的红鞋的访客。<!-- better example? Make sure they match attribute examples below --> 体验级别的目标与DSP的定位选项一起应用；层次结构定位行为可能因DSP而异。
 
 重新定位用户档案会存储180天。
 
@@ -80,7 +86,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Copy to Clipboard]**&#x200B;以将标记复制到计算机的剪贴板，您可以将文本粘贴到文件中进行保存。
 
-1. 在像素标记中，通过将“`<img src>`”替换为值，为`<script src>`和`Insert <attribute>`部分中的每个属性指定一个值。 如果标记捕获通用ID，请指定ID5合作伙伴ID。
+1. 在像素标记中，通过将“`Insert <attribute>`”替换为值，为`<img src>`和`<script src>`部分中的每个属性指定一个值。 如果标记捕获通用ID，请指定ID5合作伙伴ID。
 
    如果手动添加其他属性，请包括URL编码。
 

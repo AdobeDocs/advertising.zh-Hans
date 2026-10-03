@@ -1,23 +1,28 @@
 ---
-title: 实施 [!DNL Naver] 仅跟踪帐户
-description: 了解如何为您的 [!DNL Naver] 帐户设置跟踪营销活动，以便您可以跟踪、报告和可视化直接从广告网络购买的广告的表现。
+title: 实施[!DNL Naver]仅跟踪帐户
+description: 了解如何为您的[!DNL Naver]帐户设置跟踪营销活动，以便您可以跟踪、报告和可视化直接从广告网络购买的广告的表现。
 exl-id: acbaf4f0-eb55-4788-bc84-c3181d635f1d
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/ny0Bdmm-faAvcnnS77oGVJGwGr3tAHOtFpQ-EGhcBVs
+TQID: 'https://experienceleague.adobe.com/ny0Bdmm-faAvcnnS77oGVJGwGr3tAHOtFpQ-EGhcBVs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 687
+source-wordcount: '690'
 ht-degree: 0%
-
 ---
-
 # 实施[!DNL Naver]仅跟踪帐户
 
 仅&#x200B;*[!DNL Naver]个帐户*
@@ -26,7 +31,7 @@ ht-degree: 0%
 
 跟踪营销活动可复制您现有的营销活动、广告组和关键词。 在Search、Social和Commerce中创建帐户结构并向广告网络内的原始促销活动添加跟踪后，即可上传关键词或广告的每日网络流量量度。 然后，搜索、Social和Commerce可以将您的转化归因于广告和关键词。
 
-您可以跟踪所有促销活动以及任何单个促销活动、广告组或关键词/广告的绩效指标。 您还可以在最基本、高级和辅助报表中包含有关这些广告网络的信息，以及其他广告网络的数据。 不支持将量度导出到Adobe Analytics，但Search、Social和Commerce可以将您在 [!DNL Analytics][&#128279;](/help/integrations/analytics/analytics-data-in-advertising.md)中跟踪的量度同步到Search、Social和Commerce。
+您可以跟踪所有促销活动以及任何单个促销活动、广告组或关键词/广告的绩效指标。 您还可以在最基本、高级和辅助报表中包含有关这些广告网络的信息，以及其他广告网络的数据。 不支持将量度导出到Adobe Analytics，但Search、Social和Commerce可以将您在 [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/analytics-data-in-advertising.md)中跟踪的量度同步到Search、Social和Commerce。
 
 >[!NOTE]
 >
@@ -83,4 +88,4 @@ ht-degree: 0%
 >* [附录 —  [!DNL Naver] 帐户](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)的必需批量工作表数据
 >* [上传 [!DNL Naver] 仅跟踪帐户的流量和转化量度](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
 >* [仅跟踪帐户 [!DNL Naver] 的量度数据要求](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的点击跟踪格式
+>*  [!DNL Naver]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的点击跟踪格式

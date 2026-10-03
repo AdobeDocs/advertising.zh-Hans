@@ -3,18 +3,21 @@ title: 可在批量处理工作表中执行的操作
 description: 引用有关使用批量处理工作表添加、编辑和删除营销活动数据的一般信息。
 exl-id: 17ec9307-6dfd-45cb-b8bd-d0d7fcbf2d41
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/v0lNqlMXWFmw8O1Tr51d-WoHC-X2dxdSh-ZRKIPxGQY
+TQID: 'https://experienceleague.adobe.com/v0lNqlMXWFmw8O1Tr51d-WoHC-X2dxdSh-ZRKIPxGQY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 381
+source-wordcount: '381'
 ht-degree: 0%
-
 ---
-
 # 可在批量处理工作表中执行的操作
 
 您可以通过批量工作表为[支持的广告网络](../bulksheet-about.md#bulksheet-functionality-by-network)添加、编辑和删除促销活动数据。
@@ -25,9 +28,9 @@ ht-degree: 0%
 
 * 正在添加：
 
-   * 要添加组件，请包含添加该组件所需的所有字段，以及（可选）包含用于任何组件属性的字段。
+  * 要添加组件，请包含添加该组件所需的所有字段，以及（可选）包含用于任何组件属性的字段。
 
-   * 要为现有组件（如广告组的[!UICONTROL Ad Group End Date]）添加属性，请包含编辑该组件（广告组）所需的所有字段以及属性([!UICONTROL Ad Group End Date])的字段。
+  * 要为现有组件（如广告组的[!UICONTROL Ad Group End Date]）添加属性，请包含编辑该组件（广告组）所需的所有字段以及属性([!UICONTROL Ad Group End Date])的字段。
 
 * 要编辑现有组件的属性，请包含编辑该组件所需的所有字段以及该属性的字段。
 
@@ -35,15 +38,15 @@ ht-degree: 0%
 
 * 正在删除：
 
-   * 要删除现有组件，请包含编辑该组件所需的所有字段，并将其状态更改为[!UICONTROL Deleted]。 例如，要删除一个[!DNL Google Ads]广告组，您必须包含值为[!UICONTROL Campaign Name]的[!UICONTROL Ad Group Name]、[!UICONTROL Ad Group Status]、<i>[!UICONTROL Deleted]</i>和[!UICONTROL Ad Group ID]。
+  * 要删除现有组件，请包含编辑该组件所需的所有字段，并将其状态更改为[!UICONTROL Deleted]。 例如，要删除一个[!DNL Google Ads]广告组，您必须包含值为<i>[!UICONTROL Deleted]</i>的[!UICONTROL Campaign Name]、[!UICONTROL Ad Group Name]、[!UICONTROL Ad Group Status]和[!UICONTROL Ad Group ID]。
 
-   * （仅限[!UICONTROL Param1]、[!UICONTROL Param2]和[!UICONTROL Param3]值）要删除关键字的现有[!DNL paramN]值，请包含编辑关键字所需的所有字段，并通过在相应字段中输入值[!DNL paramN]（包括括号）来删除现有`[delete]`值。
+  * （仅限[!UICONTROL Param1]、[!UICONTROL Param2]和[!UICONTROL Param3]值）要删除关键字的现有[!DNL paramN]值，请包含编辑关键字所需的所有字段，并通过在相应字段中输入值`[delete]`（包括括号）来删除现有[!DNL paramN]值。
 
-   * （允许的属性字段）要删除组件的现有属性值，请包含编辑该组件所需的所有字段，还可以通过输入值`[delete]`（包括括号）来删除属性值。 允许的字段包括：
+  * （允许的属性字段）要删除组件的现有属性值，请包含编辑该组件所需的所有字段，还可以通过输入值`[delete]`（包括括号）来删除属性值。 允许的字段包括：
 
-      * （仅限[!UICONTROL Google Ads]） [!UICONTROL Description Line 1]，[!UICONTROL Description Line 2]
+    * （仅限[!UICONTROL Google Ads]） [!UICONTROL Description Line 1]，[!UICONTROL Description Line 2]
 
-      * （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]） [!UICONTROL Product Scope Filter]、[!UICONTROL Base URL/Final URL]、[!UICONTROL Tracking Template]
+    * （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]） [!UICONTROL Product Scope Filter]、[!UICONTROL Base URL/Final URL]、[!UICONTROL Tracking Template]
 
 >[!NOTE]
 >

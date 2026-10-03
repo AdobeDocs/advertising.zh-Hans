@@ -3,25 +3,31 @@ title: 查看投放的网站、广告、频率和库存详细信息
 description: 了解如何查看投放的目标网站、广告、频率和库存数据。
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-TQID: https://experienceleague.adobe.com/QpJqRuDiM59WDwshIyp-OQ2ge81zVyvC1vftLd2sGbQ
+TQID: 'https://experienceleague.adobe.com/QpJqRuDiM59WDwshIyp-OQ2ge81zVyvC1vftLd2sGbQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: '661'
 ht-degree: 0%
-
 ---
-
 # 查看投放的网站、广告、频率和库存详细信息
 
 对于每个投放位置，您可以[打开（详细信息视图[!UICONTROL Inspector]）](placement-details-view.md)，其中列出了投放位置中的所有目标网站、广告和交易。 其中还包括投放的频率数据。 您可以选择从任何选项卡导出数据。
@@ -39,10 +45,10 @@ ht-degree: 0%
   [!UICONTROL Ads]选项卡包括搜索和筛选功能、主页上提供的相同标准和自定义列视图选项以及每行中的快速操作按钮，如[!UICONTROL View Ad Approvals]。
 
 * **[!UICONTROL Frequency]：**&#x200B;投放位置的每个广告频率级别的数据，包括：
-   * 广告频率级别（例如“1”，适用于用户一次看到广告的所有实例）
-   * 在指定频率级别接收展示的预计设备/浏览器或人员唯一数量（取决于为促销活动指定的[!UICONTROL Cross Device Level]）
-   * 指定频率级别的预计展示次数
-   * 指定频率级别的估计平均频率。 此值等于（预计展示次数）/（预计独特次数）。
+  * 广告频率级别（例如“1”，适用于用户一次看到广告的所有实例）
+  * 在指定频率级别接收展示的预计设备/浏览器或人员唯一数量（取决于为促销活动指定的[!UICONTROL Cross Device Level]）
+  * 指定频率级别的预计展示次数
+  * 指定频率级别的估计平均频率。 此值等于（预计展示次数）/（预计独特次数）。
 
 * **[!UICONTROL Inventory]：**&#x200B;有关投放位置定向的所有交易的信息。
 
@@ -54,21 +60,21 @@ ht-degree: 0%
 
    * 查看父营销活动中的所有版面：
 
-      1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
+     1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 
-      1. 单击营销活动的名称。
+     1. 单击营销活动的名称。
 
-      1. 单击&#x200B;**[!UICONTROL Placements]**&#x200B;选项卡。
+     1. 单击&#x200B;**[!UICONTROL Placements]**&#x200B;选项卡。
 
    * 查看父包中的所有版面：
 
-      1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
+     1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
 
-      1. 单击营销活动的名称。
+     1. 单击营销活动的名称。
 
-      1. 单击&#x200B;**[!UICONTROL Packages]**&#x200B;选项卡。
+     1. 单击&#x200B;**[!UICONTROL Packages]**&#x200B;选项卡。
 
-      1. 单击父包的名称。
+     1. 单击父包的名称。
 
 1. 将光标悬停在放置行上，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Inspector]**。
 
@@ -92,7 +98,7 @@ ht-degree: 0%
 | -----------| ---------- | ---------- |
 | [!UICONTROL Zero Auctions] | 发布者尚未开始发送竞价请求。 | 联系发布者以激活交易。 |
 | | 交易设置不正确，例如输入错误的外部交易ID。 | 确认交易详细信息并编辑交易。 |
-| [!UICONTROL Auctions but no Bids] | 投放位置定位与交易的传入竞价请求不匹配。 <br><br>例如，投放位置可能面向不符合交易条件的地理位置。 | 根据需要编辑投放位置目标，以避免定位不匹配。 |
+| [!UICONTROL Auctions but no Bids] | 投放位置定位与交易的传入竞价请求不匹配。<br><br> 例如，投放位置可能定向到不符合交易条件的地理位置。 | 根据需要编辑投放位置目标，以避免定位不匹配。 |
 | | 投放位置没有具有交易所需的媒体类型的活动广告。 | 创建具有正确媒体类型的广告并将其附加到投放位置。 |
 | | 该职位预算不足。 | 增加投放预算以允许对传入请求投标。 |
 | | 投放投放日期与交易的展示投放日期不重叠。 | 根据需要编辑投放位置的投放日期。 |

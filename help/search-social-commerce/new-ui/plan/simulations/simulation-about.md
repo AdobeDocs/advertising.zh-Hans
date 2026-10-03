@@ -4,22 +4,32 @@ description: 了解项目组合模拟。
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 2fbefee2-f8f7-4b3d-a039-e1ca0236c61a
-TQID: https://experienceleague.adobe.com/9B4gKrZnnUmgj0LzxwM2CIkJsIO9Pe9R8RDR4mAmIwo
+TQID: 'https://experienceleague.adobe.com/9B4gKrZnnUmgj0LzxwM2CIkJsIO9Pe9R8RDR4mAmIwo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
+    internal-label: Search Simulations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1182
+source-wordcount: '1208'
 ht-degree: 0%
-
 ---
-
 # 关于模拟
 
 *Beta功能*
@@ -75,7 +85,7 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 #### 下载的自定义模拟
 
-每个下载的自定义模拟都包含一个工作簿。 每个工作簿都包含每个指定实体层模拟（项目组合、促销活动、广告组、竞价单位）的一个工作表，前提是该层的数据可用。 指定设备级数据时，每个工作表都包含一个[!UICONTROL Device]列。 每个工作表都包含一行，其中包含每个适用实体的数据以及20个步骤中每个步骤的设备类型（例如，每个活动包含一行）（在为报表指定时）。 每一行中的数据包括基于相应目标的预测边际成本 — 收入比、成本、点击次数、加权收入（目标值）、设备类型和目标中包含的转化量度。 组合层工作表还包括步骤层的目标，实体层工作表包括广告网络、帐户、促销活动和（如果适用）广告组。   <!-- I don't see a Bid Units tab when specified; clarify when it is and isn't included -->
+每个下载的自定义模拟都包含一个工作簿。 每个工作簿都包含每个指定实体层模拟（项目组合、促销活动、广告组、竞价单位）的一个工作表，前提是该层的数据可用。 指定设备级数据时，每个工作表都包含一个[!UICONTROL Device]列。 每个工作表都包含一行，其中包含每个适用实体的数据以及20个步骤中每个步骤的设备类型（例如，每个活动包含一行）（在为报表指定时）。 每一行中的数据包括基于相应目标的预测边际成本 — 收入比、成本、点击次数、加权收入（目标值）、设备类型和目标中包含的转化量度。 组合层工作表还包括步骤层的目标，实体层工作表包括广告网络、帐户、促销活动和（如果适用）广告组。  <!-- I don't see a Bid Units tab when specified; clarify when it is and isn't included -->
 
 #### 屏幕自定义模拟详细信息
 
@@ -125,7 +135,7 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 * 在启动项目组合以使用相应的项目组合设置估计可预期的性能之前；至少使用两周的数据。 如果仿真结果显示性能低于您根据所包含营销活动的历史数据所预期的性能，请在启动项目组合之前调查并解决这些问题。
 
-* 在对项目组合进行任何重大更改后，例如添加营销策划或更改目标。 如果您更改项目组合的建模开始日期、转化量度的权重或目标的单击值，则等到第二天17:00 PST之后再运行模拟，此时更新的成本和收入模型可用。
+* 在对项目组合进行任何重大更改后，例如添加营销策划或更改目标。 如果您更改了项目组合的建模开始日期、转化指标的权重或目标的单击值，则等到第二天17:00 PST之后再运行模拟，此时更新的成本和收入模型可用。
 
 * 定期监控转化量度级别的性能趋势。
 

@@ -1,22 +1,26 @@
 ---
 title: '[!DNL Microsoft Advertising]关键字设置'
-description: 引用 [!DNL Microsoft Advertising] 关键字的设置。
+description: 引用[!DNL Microsoft Advertising]关键字的设置。
 exl-id: 82eee01f-db4b-4d1a-ae24-1ef65f8c6953
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/fA0ZDCw5Ici0wOfpd1kXdjbQA6DtUFxOSBEtrlJl4Oo
+TQID: 'https://experienceleague.adobe.com/fA0ZDCw5Ici0wOfpd1kXdjbQA6DtUFxOSBEtrlJl4Oo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 260
+source-wordcount: '272'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising]关键字设置
 
 您可以为使用搜索和显示网络的营销活动创建关键字。

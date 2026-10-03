@@ -3,22 +3,26 @@ title: 取消激活或激活投放位置
 description: 了解如何取消激活或激活投放位置。
 feature: DSP Placements
 exl-id: cd58d8f7-8dd0-433b-9272-a4fc1e3e98d9
-TQID: https://experienceleague.adobe.com/rkcrCTS4twtaRiYwwoC7czM3ucYd9esXekzzUHnFq48
+TQID: 'https://experienceleague.adobe.com/rkcrCTS4twtaRiYwwoC7czM3ucYd9esXekzzUHnFq48'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 98
+source-wordcount: '98'
 ht-degree: 0%
-
 ---
-
 # 取消激活或激活投放位置
 
 当投放位置位于配置的投放时间表内时，取消激活实时投放位置，或激活暂停的投放位置。

@@ -3,20 +3,24 @@ title: 管理清单数据馈送文件
 description: 了解如何配置用于控制如何处理馈送数据的设置。
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc
+TQID: 'https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1249
+source-wordcount: '1249'
 ht-degree: 0%
-
 ---
-
 # 管理清单数据馈送文件
 
 *[!DNL Google Ads]、[!DNL LY Ads] （仅删除操作）、[!DNL Microsoft Advertising]和仅[!DNL Yandex]帐户*
@@ -75,15 +79,15 @@ shoes<TAB>Clarks<TAB>20
 
 * 要通过有限的手动审查或编辑实现可重复的过程，请按照以下方式设置信息源文件及其帐户结构数据：
 
-   * 包含足以创建帐户结构或映射到现有帐户结构的数据的列和行。 理想情况下，使用与产品分类密切相关并且信息源数据可以轻松映射到其中的现有帐户结构。
+  * 包含足以创建帐户结构或映射到现有帐户结构的数据的列和行。 理想情况下，使用与产品分类密切相关并且信息源数据可以轻松映射到其中的现有帐户结构。
 
-   * 包括短到可在广告副本中使用的描述。
+  * 包括短到可在广告副本中使用的描述。
 
-   * 跨产品行使用一致的数据模式和命名约定。
+  * 跨产品行使用一致的数据模式和命名约定。
 
-   * 删除所有前导空格和尾随空格。
+  * 删除所有前导空格和尾随空格。
 
-   * 删除所有乱码字符。
+  * 删除所有乱码字符。
 
 ## 查看或下载信息源文件
 

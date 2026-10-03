@@ -3,7 +3,13 @@ title: （新用户界面）手动同步广告网络数据
 description: 了解如何从新UI手动触发受支持广告网络的营销活动结构和营销活动实体的同步。
 feature: Search Campaign Management
 exl-id: 5e857713-53f0-4d90-8b7a-18a3675d320e
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%

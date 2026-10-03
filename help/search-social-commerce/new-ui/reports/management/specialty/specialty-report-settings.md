@@ -2,13 +2,19 @@
 title: 专业报告设置
 description: 了解专业报告的必需和可选设置。
 feature: Search Reports, Search Specialty Reports
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '3131'
+source-wordcount: '3141'
 ht-degree: 0%
-
 ---
-
 # 专业报告设置
 
 | 选项卡 | 参数 | 描述 |
@@ -37,9 +43,9 @@ ht-degree: 0%
 |  | [!UICONTROL Conversion Attribution] | (仅适用于显示营销活动；[!UICONTROL AdWords Shopping Performance Report]仅适用于发生先前事件时要报告的转化类型：<ul><li><i>[!UICONTROL Clicks]：</i>用于仅报告由点击导致的转化。 每个转化名称后附加“[!UICONTROL (CT)]”。</li><li><i>[!UICONTROL View-throughs]：</i>仅报告因显示到达次数导致的转化。 每个转化名称后附加“[!UICONTROL (VT)]”。 选择此选项时，可以选择为[!UICONTROL View-through valuation method]设置中的每次转换指定哪个值；请参阅以下描述。</li><li><i>[!UICONTROL Clicks + View-throughs]：</i>报告所有转化。 默认情况下，每个转化名称都会附加“[!UICONTROL (CT+VT)]”。 此转化归因类型包括两个其他选项：[!UICONTROL Discrete columns for click & view-through conversions]和[!UICONTROL View-through valuation method]；请参阅以下描述。</li></ul> |
 |  | [!UICONTROL View-through valuation method] | （仅设置“[!UICONTROL Conversion Attribution]”为“[!UICONTROL View-throughs]”或“[!UICONTROL Clicks + View-throughs]”的报告）给每次从显示到达(View-through)中产生的转换指定什么值：<ul><li><i>[!UICONTROL Raw]：</i>报告转化而不应用权重。</li><li><i>[!UICONTROL Weighted]</i>（默认）：根据为广告商指定的显示到达权重对每次转化进行加权。</li></ul> |
 |  | [!UICONTROL Discrete columns for click & view-through conversions] | （仅限[!UICONTROL Conversion Attribution]设置为“[!UICONTROL Clicks + View-throughs]”的报告）为您包括的每个转化类型包含三个单独的列：1个对应列，每个对应列；1个对应列；2个对应列；2个对应列；2个对应列；2个对应列；2个对应列；2个对应列；2个对应列；2个对应列；3个对应列；3个对应列；3个对应列；3个对应列；3个对应列；3个对应列；3个对应列；3个对应列；3个对应列；3个对应列；3个对应列；3个对应列；3个对应列；3个对应列；4个对应列。 [!UICONTROL (CT)]&#x200B;[!UICONTROL (VT)]&#x200B;[!UICONTROL (CT+VT)]当选择此选项时，从“[!UICONTROL Filter & sort using]”列表中选择用于筛选和排序的三列中的哪一列： <i>[!UICONTROL click]</i> （默认值）、<i>[!UICONTROL view-through]</i>或<i>[!UICONTROL click + view-through]</i>。<br><br><b>注意：</b>搜索营销活动的转化显示在点进次数列中，但不显示在浏览转化列中。 |
-| [!UICONTROL Scheduling] | [!UICONTROL Frequency] | （仅在选择了“[!UICONTROL Save as template]”选项时可编辑；否则设置为“[!UICONTROL Now]”）何时运行报告： <i>[!UICONTROL Now]</i> （运行报告一次；默认）、<i>[!UICONTROL Daily]</i>、<i>[!UICONTROL Weekly on] [周中某天]</i>或<i>[!UICONTROL Every Month] [月中某天]</i>。 对于<i>[!UICONTROL Now]</i>以外的所有时间段，请选择广告商所在时区的小时，从09:00 AM开始。 |
-|  | [!UICONTROL Email Recipients] | <b>注意：</b>此设置仅在[!UICONTROL Reports]的电子邮件通知在[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/notifications/notification-edit.md)中启用时使用。<br><br>当报告完成或由于错误被取消时，要向其发送通知的已注册搜索、Social和Commerce用户。 默认情况下，会选择用户帐户的名称。 （可选）添加或删除有权访问广告商数据的用户。 如果计划报告重复运行，则每次完成报告时都会发送通知。 |
-|  | [!UICONTROL Email Notification Format] | <b>注意：</b>此设置仅在[!UICONTROL Reports]的电子邮件通知在[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/notifications/notification-edit.md)中启用时使用。<br><br>（当指定[!UICONTROL Email Recipients]时）要包括在发送给任何指定地址的电子邮件通知中的内容：<ul><li><i>[!UICONTROL Notification Only]</i>（默认）：仅发送报告完成或失败的通知，不带附件。 该通知包括所有报表格式的临时下载链接。</li><li><i>[!UICONTROL XLS Attachment]：</i>如果文件小于约10 MB，则以XLS格式包括已完成报表的副本。 超过1 MB的文件将被压缩。</li><li><i>[!UICONTROL TSV Attachment]：</i>如果文件小于10 MB，则以TSV格式包括已完成报表的副本。 超过1 MB的文件将被压缩。</li><li><i>[!UICONTROL CSV Attachment]：</i>如果文件小于10 MB，则以CSV格式包括已完成的报表的副本。 超过1 MB的文件将被压缩。 |
+| [!UICONTROL Scheduling] | [!UICONTROL Frequency] | （仅在选择了“[!UICONTROL Save as template]”选项时可编辑；否则设置为“[!UICONTROL Now]”）何时运行报告： <i>[!UICONTROL Now]</i> （运行报告一次；默认）、<i>[!UICONTROL Daily]</i>、<i>[!UICONTROL Weekly on] [周中某天]</i>或<i>[!UICONTROL Every Month] [月中某天]</i>。 对于<i>[!UICONTROL Now]</i>以外的所有时间段，选择广告商时区中的小时，从上午9:00开始。 |
+|  | [!UICONTROL Email Recipients] | <b>注意：</b>此设置仅在[!UICONTROL Reports]的电子邮件通知在[!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/notifications/notification-edit.md)中启用时使用。<br><br>当报告完成或由于错误被取消时，要向其发送通知的已注册搜索、Social和Commerce用户。 默认情况下，会选择用户帐户的名称。 （可选）添加或删除有权访问广告商数据的用户。 如果计划报告重复运行，则每次完成报告时都会发送通知。 |
+|  | [!UICONTROL Email Notification Format] | <b>注意：</b>此设置仅在[!UICONTROL Reports]的电子邮件通知在[!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/notifications/notification-edit.md)中启用时使用。<br><br>（当指定[!UICONTROL Email Recipients]时）要包括在发送给任何指定地址的电子邮件通知中的内容：<ul><li><i>[!UICONTROL Notification Only]</i>（默认）：仅发送报告完成或失败的通知，不带附件。 该通知包括所有报表格式的临时下载链接。</li><li><i>[!UICONTROL XLS Attachment]：</i>如果文件小于约10 MB，则以XLS格式包括已完成报表的副本。 超过1 MB的文件将被压缩。</li><li><i>[!UICONTROL TSV Attachment]：</i>如果文件小于10 MB，则以TSV格式包括已完成报表的副本。 超过1 MB的文件将被压缩。</li><li><i>[!UICONTROL CSV Attachment]：</i>如果文件小于10 MB，则以CSV格式包括已完成的报表的副本。 超过1 MB的文件将被压缩。 |
 
 >[!MORELIKETHIS]
 >

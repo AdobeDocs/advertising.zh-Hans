@@ -3,18 +3,21 @@ title: 关于使用批量处理工作表管理营销活动数据
 description: 了解广告网络、批量处理工作表工作流和错误处理可用的批量处理工作表功能。
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/VvfpRiNIhOEk15R4eJn-BP-NmPeNvYVzRN6evnJK45U
+TQID: 'https://experienceleague.adobe.com/VvfpRiNIhOEk15R4eJn-BP-NmPeNvYVzRN6evnJK45U'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 358bcf190b36bd3c01e33a3d5762361a4a015393
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 775
+source-wordcount: '775'
 ht-degree: 0%
-
 ---
-
 # 关于使用批量处理工作表管理营销活动数据
 
 批量工作表是一个文件，其中包含以特定格式显示的促销活动数据，可用于快速创建或修改促销活动和广告组结构数据以及文本广告。 您可以生成（下载）包含一个或多个帐户、特定促销活动和广告组，甚至特定文本广告、投放位置和产品组数据的批量处理工作表。 可使用批量工作表管理大型数据集或进行较小更改。 每个广告网络需要不同的信息列。

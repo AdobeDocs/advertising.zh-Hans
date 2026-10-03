@@ -3,18 +3,26 @@ title: 复制创意
 description: 了解如何在创意库中复制创意内容。
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-TQID: https://experienceleague.adobe.com/6bYzgOvJsLMr56-nTkPIe3AWsTST--he0xQ9-btQ2nA
+TQID: 'https://experienceleague.adobe.com/6bYzgOvJsLMr56-nTkPIe3AWsTST--he0xQ9-btQ2nA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 195
+source-wordcount: '195'
 ht-degree: 0%
-
 ---
-
 # 复制创意
 
 复制创意以将具有相同设置的新创意添加到同一库。 之后，您可以重命名新创意并根据需要编辑创意设置。
@@ -31,9 +39,9 @@ ht-degree: 0%
 
    * 要复制单个创意，请执行以下操作：
 
-      * 在卡片视图中，单击创意名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Duplicate]**。
+     * 在卡片视图中，单击创意名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Duplicate]**。
 
-      * 在表视图中，将光标悬停在行上并单击&#x200B;**[!UICONTROL Duplicate]**。
+     * 在表视图中，将光标悬停在行上并单击&#x200B;**[!UICONTROL Duplicate]**。
 
    * 要复制一个或多个创意，请选中要复制的每个创意所对应的复选框。 在批量操作工具栏中，单击&#x200B;**[!UICONTROL Duplicate]**。
 

@@ -3,14 +3,17 @@ title: 从帐户组件中删除标签分类值
 description: 了解如何删除标签分类值和帐户组件之间的关联。
 exl-id: 8697367b-0bf9-48c9-8dd3-e733360e1df2
 feature: Search Label Classifications
-TQID: https://experienceleague.adobe.com/xT4LpYXeTtuptPWK-HNQPylOzCFi1TT2FfbfEiuSJeo
+TQID: 'https://experienceleague.adobe.com/xT4LpYXeTtuptPWK-HNQPylOzCFi1TT2FfbfEiuSJeo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
+feature_v2:
+  - id: e29095c7-c364-5fb4-ac07-691793cb92e4
+    internal-label: Search Label Classifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%

@@ -1,24 +1,28 @@
 ---
-title: 创建来自 [!DNL Adobe] 受众的 [!DNL Google Ads] 客户匹配受众
-description: 了解如何从现有Adobe Analytics和Audience Manager受众创建 [!DNL Google Ads] 客户匹配受众。
+title: 从[!DNL Adobe]受众中创建[!DNL Google Ads]个客户匹配受众
+description: 了解如何从您现有的Adobe Analytics和Audience Manager受众创建[!DNL Google Ads]个客户匹配受众。
 exl-id: 7de95ebb-24b0-459f-83c0-7b85b0c0576d
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/Ep3X-eo2kcGlW3NsV3CJEKBkEapa-oAv0HLexc1xnhM
+TQID: 'https://experienceleague.adobe.com/Ep3X-eo2kcGlW3NsV3CJEKBkEapa-oAv0HLexc1xnhM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 586
+source-wordcount: '589'
 ht-degree: 0%
-
 ---
-
 # 从Adobe Analytics和Audience Manager受众创建[!DNL Google Ads]个客户匹配受众
 
 仅符合客户匹配条件的&#x200B;*[!DNL Google Ads]帐户*

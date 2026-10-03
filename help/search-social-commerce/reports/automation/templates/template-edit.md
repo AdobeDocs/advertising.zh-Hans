@@ -3,20 +3,24 @@ title: 编辑报告模板
 description: 了解如何编辑可重用报表模板的设置。
 exl-id: f986bc75-e42c-4388-8cb1-305100678b1b
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/bb2qq2HUVdhjoMS41Jbd7kcZUrSrP7YCYCiYf6u753I
+TQID: 'https://experienceleague.adobe.com/bb2qq2HUVdhjoMS41Jbd7kcZUrSrP7YCYCiYf6u753I'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 109
+source-wordcount: '109'
 ht-degree: 0%
-
 ---
-
 # 编辑报告模板
 
 您可以更改所创建的任何报表模板的设置。 新设置将应用于使用将来生成的模板的任何报告。
@@ -31,7 +35,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 编辑设置时，无需选中[!UICONTROL Save as template]部分中“[!UICONTROL Scheduling and Delivery]”旁边的复选框。 这样做会提示您使用其他名称创建新模板。
+   > 编辑设置时，无需选中[!UICONTROL Scheduling and Delivery]部分中“[!UICONTROL Save as template]”旁边的复选框。 这样做会提示您使用其他名称创建新模板。
 
 1. 单击&#x200B;**[!UICONTROL Update Template]**。
 
