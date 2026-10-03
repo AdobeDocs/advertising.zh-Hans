@@ -3,20 +3,24 @@ title: 删除报表模板
 description: 了解如何删除报表模板。
 exl-id: 2e7038e1-bbe0-473e-97fa-ecfa475ce411
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/3G-HfjSQdg5BY9PKz260H7AjPXwpstv2AZEuZ7apQ2w
+TQID: 'https://experienceleague.adobe.com/3G-HfjSQdg5BY9PKz260H7AjPXwpstv2AZEuZ7apQ2w'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 85
+source-wordcount: '85'
 ht-degree: 0%
-
 ---
-
 # 删除报表模板
 
 您可以删除任何可用的报表模板。 当您删除包含计划的模板时，将来不会生成该报告。

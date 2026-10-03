@@ -1,22 +1,26 @@
 ---
-title: ' [!DNL Microsoft Advertising]的点击跟踪格式'
-description: 了解 [!DNL Microsoft Advertising] 帐户的点击跟踪格式。
+title: '[!DNL Microsoft Advertising]的点击跟踪格式'
+description: 了解[!DNL Microsoft Advertising]帐户的点击跟踪格式。
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/lqhCk4KG68-Rcyku4buSB1xeVhjNEP6QYOl85yJgmtE
+TQID: 'https://experienceleague.adobe.com/lqhCk4KG68-Rcyku4buSB1xeVhjNEP6QYOl85yJgmtE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: f3cafbaa91871505a9999402e0979fd4944e835a
+    internal-label: Customer experience
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 579
+source-wordcount: '601'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising]的点击跟踪格式
 
 以下是Search、Social和Commerce要求用于[!DNL Microsoft Advertising]的基本跟踪模板和登陆页面后缀（最终URL后缀）格式。
@@ -37,7 +41,7 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`是Adobe Advertising中广告商唯一ID的变量。
 >
->* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请在`cq?`之后将`<advertiser_ID>`替换为`c?`。
+>* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请在`<advertiser_ID>`之后将`cq?`替换为`c?`。
 >
 >* `{TargetId}`表示a)关键字或b)触发广告的关键字和再营销列表（受众）的ID（例如，对于关键字和再营销列表，“kwd-123:aud-456”，或仅对于关键字，“kwd-123”）。
 
@@ -53,7 +57,7 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`是Adobe Advertising中广告商唯一ID的变量。
 >
->* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请在`cq?`之后将`<advertiser_ID>`替换为`c?`。
+>* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请在`<advertiser_ID>`之后将`cq?`替换为`c?`。
 >
 >* `{TargetId}`表示a)关键字或b)触发广告的关键字和再营销列表（受众）的ID（例如，对于关键字和再营销列表，“kwd-123:aud-456”，或仅对于关键字，“kwd-123”）。
 >
@@ -75,11 +79,11 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`是Adobe Advertising中广告商唯一ID的变量。
 >
->* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请在`cq?`之后将`<advertiser_ID>`替换为`c?`。
+>* 此格式表示为营销活动启用令牌传递（默认）。 如果禁用令牌传递，请在`<advertiser_ID>`之后将`cq?`替换为`c?`。
 >
 >* `{TargetId}`表示a)关键字或b)触发广告的关键字和再营销列表（受众）的ID（例如，对于关键字和再营销列表，“kwd-123:aud-456”，或仅对于关键字，“kwd-123”）。
 >
->* （可选）您可以将跟踪URL添加到[!DNL Microsoft Merchant Center]帐户中的产品数据，而不是在帐户、营销活动、广告组或产品组级别输入跟踪模板。 为此，请在产品信息源的自定义列“`link`bingads_redirect`mobile_link`”中包含跟踪URL以及相应的“[”或“](https://help.bingads.microsoft.com/#apex/3/en/51084/0)”字段中的值。 “`bingads_redirect`”字段中的值替换了“`link`”和“`mobile_link`”字段中的值。 使用此方法生成的URL不包括“搜索”、“Social”和“Commerce”帐户或营销活动设置中指定的任何跟踪参数。
+>* （可选）您可以将跟踪URL添加到[!DNL Microsoft Merchant Center]帐户中的产品数据，而不是在帐户、营销活动、广告组或产品组级别输入跟踪模板。 为此，请在产品信息源的自定义列“[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)”中包含跟踪URL以及相应的“`link`”或“`mobile_link`”字段中的值。 “`bingads_redirect`”字段中的值替换了“`link`”和“`mobile_link`”字段中的值。 使用此方法生成的URL不包括“搜索”、“Social”和“Commerce”帐户或营销活动设置中指定的任何跟踪参数。
 
 ## 登陆页面后缀（最终URL后缀）格式
 
@@ -89,7 +93,7 @@ ht-degree: 0%
 
 ### 搜索和受众网络
 
-使用Adobe Advertising转化跟踪的帐户必须在后缀中包含广告网络的点击标识符（`msclkid`为[!DNL Microsoft Advertising]）：
+使用Adobe Advertising转化跟踪的帐户必须在后缀中包含广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`）：
 
 * 当广告商具有Adobe Analytics集成时，后缀必须包含以下内容：
 
@@ -101,7 +105,7 @@ ht-degree: 0%
 
 ### 购物网络
 
-使用Adobe Advertising转化跟踪的帐户必须在后缀中包含广告网络的点击标识符（`msclkid`为[!DNL Microsoft Advertising]）：
+使用Adobe Advertising转化跟踪的帐户必须在后缀中包含广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`）：
 
 * 当广告商具有Adobe Analytics集成时，后缀必须包含以下内容：
 
@@ -114,4 +118,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于Adobe Advertising转化跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
->* [AMO ID格式](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [AMO ID格式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

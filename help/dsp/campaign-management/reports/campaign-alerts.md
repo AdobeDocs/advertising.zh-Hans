@@ -3,33 +3,49 @@ title: 查看警报
 description: 了解如何查看营销活动和营销活动组件的警报和建议解决方案。 使用警报对营销活动问题进行故障诊断。
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-TQID: https://experienceleague.adobe.com/WhIrF0O8OiqE1aVijiIJ1a-no-sXpimM2CEevnZyWhc
+TQID: 'https://experienceleague.adobe.com/WhIrF0O8OiqE1aVijiIJ1a-no-sXpimM2CEevnZyWhc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
+  - id: 2cfe5a2c-1e84-5461-b310-20f6bb734742
+    internal-label: DSP Campaign Data Views
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
   - id: f784309e-91ce-4bb5-ade4-5cbbceabecc0
+    internal-label: Campaign Data Views
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 656
+source-wordcount: '650'
 ht-degree: 0%
-
 ---
-
 # 查看警报
 
 DSP可帮助您识别任何促销活动或促销活动组件何时出现问题。 对于每个问题，DSP都会创建一个带有时间戳的警报，以及解决此问题的建议操作。 警报的原因包括配置问题（例如，当投放位置没有附加广告或交易设置错误时）、广告拒绝和活动运行状况问题（例如广告投放或性能不佳）。 警报在营销活动、包、投放位置、广告和交易级别可用。
 
 警报在以下位置提供：
 
-* [!UICONTROL Pulse Panel]、[!UICONTROL Campaigns]和包详细信息、[!UICONTROL Packages]和[!UICONTROL Placements]视图中的[!UICONTROL Ads]图标指示该视图中的项目是否有任何警报可用。 当图标具有蓝色圆点（![警报可用时的Pulse面板图标](/help/dsp/assets/alerts-panel.png "警报可用时的Pulse面板图标")）时，警报可用。 当没有点可见(![无可用警报时的Pulse Panel图标](/help/dsp/assets/alerts-panel-empty.png "无可用警报时的Pulse Panel图标"))时，没有可用警报。
+* [!UICONTROL Campaigns]、[!UICONTROL Packages]和包详细信息、[!UICONTROL Placements]和[!UICONTROL Ads]视图中的[!UICONTROL Pulse Panel]图标指示该视图中的项目是否有任何警报可用。 当图标具有蓝色圆点（![警报可用时的Pulse面板图标](/help/dsp/assets/alerts-panel.png "警报可用时的Pulse面板图标")）时，警报可用。 当没有点可见(![无可用警报时的Pulse Panel图标](/help/dsp/assets/alerts-panel-empty.png "无可用警报时的Pulse Panel图标"))时，没有可用警报。
 
 * 相同视图中的数据表包含一列“[!UICONTROL Alerts]”，该列指示项（或其组件）何时出现问题。 警报指示器包括“严重”（![严重](/help/dsp/assets/indicator-critical.png "严重")）、“警告”(![警告](/help/dsp/assets/indicator-warning.png "警告"))和“信息”（![信息](/help/dsp/assets/indicator-information.png "信息")）。
 
@@ -51,11 +67,11 @@ DSP可帮助您识别任何促销活动或促销活动组件何时出现问题�
 
    * （针对特定包、投放位置或广告的所有警报）执行以下操作：
 
-      1. 单击营销活动名称。
+     1. 单击营销活动名称。
 
-      1. 在子菜单中，单击&#x200B;**[!UICONTROL Packages]**、**[!UICONTROL Placements]**&#x200B;或&#x200B;**[!UICONTROL Ads]**&#x200B;以打开相关的营销活动组件视图。
+     1. 在子菜单中，单击&#x200B;**[!UICONTROL Packages]**、**[!UICONTROL Placements]**&#x200B;或&#x200B;**[!UICONTROL Ads]**&#x200B;以打开相关的营销活动组件视图。
 
-      1. 单击程序包、投放位置或广告行的警报指示器，然后单击&#x200B;**[!UICONTROL View in Pulse Panel]**。
+     1. 单击程序包、投放位置或广告行的警报指示器，然后单击&#x200B;**[!UICONTROL View in Pulse Panel]**。
 
    列出与促销活动及其组件关联的所有警报，包括目标交易。 默认情况下，首先列出严重预警。
 
@@ -63,7 +79,7 @@ DSP可帮助您识别任何促销活动或促销活动组件何时出现问题�
 
 1. （可选）要根据警报的第一个检测日期对警报进行分组，或按警报状态、组件状态、组件类型或使用特定营销活动名称对警报进行筛选，请单击面板右上角的![筛选按钮](/help/dsp/assets/filter.png)，选择筛选选项，然后单击&#x200B;**[!UICONTROL Apply]**。
 
-1. 要查看特定警报类型的所有受影响营销活动组件的列表，请单击警报名称，如“[!UICONTROL Package: No Active Placement (*N*)]”。 要查看每个受影响组件的详细信息（包括建议的操作），请单击[!UICONTROL EXPAND ALL]或单击组件名称。 若要打开任何受影响组件的相关促销活动管理视图，以便进行建议的更改，请将光标悬停在组件名称上，然后单击“转到”以查看![“转到”以查看](/help/dsp/assets/go-to-view.png "。")
+1. 要查看特定警报类型的所有受影响营销活动组件的列表，请单击警报名称，如“[!UICONTROL Package: No Active Placement (*N*)]”。 要查看每个受影响组件的详细信息（包括建议的操作），请单击[!UICONTROL EXPAND ALL]或单击组件名称。 若要打开任何受影响组件的相关促销活动管理视图，以便进行建议的更改，请将光标悬停在组件名称上，然后单击“转到”以查看](/help/dsp/assets/go-to-view.png "“转到”以查看")。![
 
 1. （可选）要忽略（隐藏）警报，请将光标悬停在组件名称上，单击![忽略](/help/dsp/assets/alert-ignore.png "忽略")，然后单击&#x200B;**[!UICONTROL Ignore alert till next check]**、**[!UICONTROL Ignore alert for 3 days]**&#x200B;或&#x200B;**[!UICONTROL Ignore indefinitely]**。
 

@@ -1,22 +1,26 @@
 ---
 title: '[!DNL LY Ads]营销活动设置'
-description: 引用 [!DNL LY Ads] 营销活动的设置。
+description: 引用[!DNL LY Ads]营销活动的设置。
 exl-id: 29acde0f-13f6-422d-b611-23ebb2ee70d9
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/okWpkqtz0o33r--74ZV2f-f8-1G9ieVY-oei-YSk4hk
+TQID: 'https://experienceleague.adobe.com/okWpkqtz0o33r--74ZV2f-f8-1G9ieVY-oei-YSk4hk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 115
+source-wordcount: '116'
 ht-degree: 0%
-
 ---
-
 # [!DNL LY Ads]营销活动设置
 
 ## \[营销活动创建屏幕\]

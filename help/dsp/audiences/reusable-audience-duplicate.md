@@ -3,22 +3,26 @@ title: 复制可重用受众
 description: 了解如何复制可重复使用的受众。
 feature: DSP Audiences
 exl-id: 8ff72e13-d0ae-4f61-904b-5d544878f58b
-TQID: https://experienceleague.adobe.com/IzeYupP9h1rIYw8EPNiepuaFEG8L06fJPeKMhgQEAtQ
+TQID: 'https://experienceleague.adobe.com/IzeYupP9h1rIYw8EPNiepuaFEG8L06fJPeKMhgQEAtQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 115
+source-wordcount: '116'
 ht-degree: 0%
-
 ---
-
 # 复制可重用受众
 
 您可以通过复制现有受众来创建受众。

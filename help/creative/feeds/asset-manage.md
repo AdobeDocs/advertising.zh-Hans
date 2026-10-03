@@ -3,18 +3,24 @@ title: 管理资源文件
 description: 了解如何上传和管理广告商的资源文件。
 feature: Creative Dynamic Creatives
 exl-id: 2fe2d778-8456-490a-bf44-234dbc08649f
-TQID: https://experienceleague.adobe.com/U8KSnvef-wUsj6AzRuPUdPpf1xHjZp3Ae7zxXnMfMUc
+TQID: 'https://experienceleague.adobe.com/U8KSnvef-wUsj6AzRuPUdPpf1xHjZp3Ae7zxXnMfMUc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d32c0462696cdd11b4e4a184bed683c611d018c0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 617
+source-wordcount: '617'
 ht-degree: 0%
-
 ---
-
 # 管理资源文件
 
 * 动态HTML5广告需要采用Microsoft Excel电子表格(XLSX)格式的信息源文件，以及在电子表格中引用的实际图像资源。
@@ -35,29 +41,29 @@ ht-degree: 0%
 
 * Dynamic HTML5广告：
 
-   * CSV、TSV或Microsoft Excel电子表格(XLSX)格式的信息源文件，每个广告变体具有一个标题行和一个数据行。 在每一行中使用格式`images/image_name`（如`images/300x250_acme_logo.png`）包括图像名称。
+  * CSV、TSV或Microsoft Excel电子表格(XLSX)格式的信息源文件，每个广告变体具有一个标题行和一个数据行。 在每一行中使用格式`images/image_name`（如`images/300x250_acme_logo.png`）包括图像名称。
 
-     广告商特定的字段名称必须映射到动态广告馈送文件的[可用字段](/help/creative/appendix-available-feed-fields.md)。
+    广告商特定的字段名称必须映射到动态广告馈送文件的[可用字段](/help/creative/appendix-available-feed-fields.md)。
 
-   * GIF、JPEG、JPG或PNG格式中关联的图像资源。 最大文件大小为10 MB。 查看[支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)。
+  * GIF、JPEG、JPG或PNG格式中关联的图像资源。 最大文件大小为10 MB。 查看[支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)。
 
   您可以上传单个XLSX文件、单个图像文件或包含XLSX和图像文件任意组合的单个ZIP文件。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * 静态HTML5广告：
 
-   * GIF、JPG、JPEG或PNG格式中每个广告一个图像资源。
+  * GIF、JPG、JPEG或PNG格式中每个广告一个图像资源。
 
-     您可以在ZIP文件中上传单个图像或多个图像。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+    您可以在ZIP文件中上传单个图像或多个图像。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * 动态视频广告：
 
-   * CSV、TSV或Microsoft Excel电子表格(XLSX)格式的信息源文件，每个广告变体具有一个标题行和一个数据行。 在每一行中使用格式`videos/image_name`（如`videos/300x250_acme_logo.png`）包含一个视频名称。 ZIP文件最大为512 MB，最大为500行。
+  * CSV、TSV或Microsoft Excel电子表格(XLSX)格式的信息源文件，每个广告变体具有一个标题行和一个数据行。 在每一行中使用格式`videos/image_name`（如`videos/300x250_acme_logo.png`）包含一个视频名称。 ZIP文件最大为512 MB，最大为500行。
 
-     广告商特定的字段名称必须映射到动态广告馈送文件的[可用字段](/help/creative/appendix-available-feed-fields.md)。
+    广告商特定的字段名称必须映射到动态广告馈送文件的[可用字段](/help/creative/appendix-available-feed-fields.md)。
 
-     对于包含动态视频的所有帐户，最佳实践是[&#128279;](catalog-manage.md)使用资源文件以及[通用信息源模板[!UICONTROL Adobe Creative Template]](feed-template-manage.md)的副本创建目录，您可以在其中将资源文件中的每个字段映射到Advertising Creative后端上的字段。
+    对于包含动态视频的所有帐户，最佳实践是[使用资源文件以及[通用信息源模板[!UICONTROL Adobe Creative Template]](feed-template-manage.md)的副本](catalog-manage.md)创建目录，您可以在其中将资源文件中的每个字段映射到Advertising Creative后端上的字段。
 
-   * 以MP4、MOV或WEBM格式表示的关联视频资产。 支持的广告模板包括开始卡、结束卡、顶部叠加、底部叠加或L形。 每个视频的持续时间必须介于1至90秒之间。 查看[支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)。
+  * 以MP4、MOV或WEBM格式表示的关联视频资产。 支持的广告模板包括开始卡、结束卡、顶部叠加、底部叠加或L形。 每个视频的持续时间必须介于1至90秒之间。 查看[支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)。
 
   您可以上传单个XLSX文件、单个图像文件或包含XLSX和视频文件任意组合的单个ZIP文件。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 

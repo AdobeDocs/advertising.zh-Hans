@@ -1,27 +1,31 @@
 ---
-title: 将搜索、社交和Commerce跟踪的转化指标上传至 [!DNL Google Ads]
-description: 了解如何将搜索、社交和Commerce跟踪的转化指标上传到 [!DNL Google Ads]。
+title: 将搜索、社交和Commerce跟踪的转化指标上传至[!DNL Google Ads]
+description: 了解如何将搜索、社交和Commerce跟踪的转化量度上传到[!DNL Google Ads]。
 exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
-TQID: https://experienceleague.adobe.com/ayxUfDgkrnPz0s-pFAdkmvYy94Il5szQHl6lYg8DpF8
+TQID: 'https://experienceleague.adobe.com/ayxUfDgkrnPz0s-pFAdkmvYy94Il5szQHl6lYg8DpF8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 212
+source-wordcount: '216'
 ht-degree: 0%
-
 ---
-
 # 将搜索、社交和Commerce跟踪的转化指标上传至[!DNL Google Ads]
 
 *仅包含[!DNL Google Ads]帐户和Adobe Advertising转化跟踪的广告商*
 
-Search、Social和Commerce可以选择将其为使用Adobe Advertising转化跟踪服务的[!DNL Google Ads]营销活动跟踪的所有转化指标上传到[!DNL Google Ads]。 此选项不使转换可用于混合优化。 如果要使用Adobe转化进行混合优化，请参阅“启用将目标上传到广告网络[”。](objective-upload-to-networks.md)
+Search、Social和Commerce可以选择将其为使用Adobe Advertising转化跟踪服务的[!DNL Google Ads]营销活动跟踪的所有转化指标上传到[!DNL Google Ads]。 此选项不使转换可用于混合优化。 如果要使用Adobe转化进行混合优化，请参阅“启用将目标上传到广告网络](objective-upload-to-networks.md)”。[
 
 每日上传包括跟踪的`gclid`值、使用广告商级别归因模型定义的转化值以及时间戳。 如果更新了归因模型，则下次上传时将使用新模型，但不会更新过去的数据以使用新模型。
 
@@ -37,7 +41,7 @@ Search、Social和Commerce可以选择将其为使用Adobe Advertising转化跟�
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
-1. （如果在经理帐户级别跟踪您的转化）[在](/help/search-social-commerce/admin/manager-accounts.md) > **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin]为您的经理帐户添加凭据[!UICONTROL Manager Accounts]**。
+1. （如果在经理帐户级别跟踪您的转化）[在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;为您的经理帐户添加凭据](/help/search-social-commerce/admin/manager-accounts.md)。
 
 >[!MORELIKETHIS]
 >

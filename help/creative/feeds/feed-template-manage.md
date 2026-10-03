@@ -3,18 +3,24 @@ title: 管理信息源模板
 description: 了解如何管理信息源模板。
 feature: Creative Dynamic Creatives
 exl-id: 63f8af87-639c-45c8-b17f-99ce19594d35
-TQID: https://experienceleague.adobe.com/5bEvYLuXmwYHifo--x98vtfZ7-tVsLcRq5LGSLilFvM
+TQID: 'https://experienceleague.adobe.com/5bEvYLuXmwYHifo--x98vtfZ7-tVsLcRq5LGSLilFvM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: '476'
 ht-degree: 0%
-
 ---
-
 # 管理信息源模板
 
 <!-- I have a "Retail" feed template that was created by rkarthik@adobe. Ask product if this is available to all clients or just internal.  -->
@@ -109,7 +115,7 @@ ht-degree: 0%
 
 **[!UICONTROL Is Unique]：**&#x200B;指示该字段是唯一ID（键）。 每个馈送模板必须至少有一个字段是唯一的。 要选择此选项，请单击按钮将其向右移动。<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
-**[!UICONTROL Backend Field]：** Advertising Creative后端[上映射到馈送文件中指定](/help/creative/appendix-available-feed-fields.md)的[!UICONTROL Field Name]字段。
+**[!UICONTROL Backend Field]：** Advertising Creative后端](/help/creative/appendix-available-feed-fields.md)上映射到馈送文件中指定[!UICONTROL Field Name]的[字段。
 
 >[!MORELIKETHIS]
 >

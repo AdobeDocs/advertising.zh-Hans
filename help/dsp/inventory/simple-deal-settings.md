@@ -3,20 +3,23 @@ title: '[!UICONTROL Simple Ad Serving]交易设置'
 description: 了解[!UICONTROL Simple Ad Serving]交易的可用设置。
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-TQID: https://experienceleague.adobe.com/3MqeK9NlWy3VvNJyo-bYCwKyqIp9psB9HhJeVWvIm3M
+TQID: 'https://experienceleague.adobe.com/3MqeK9NlWy3VvNJyo-bYCwKyqIp9psB9HhJeVWvIm3M'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 98ea1d8f-85a7-5f89-b8d8-c40726baa182
+    internal-label: DSP Simple Ad Serving
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 468
+source-wordcount: '476'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Simple Ad Serving]交易设置
 
 ## 新[!UICONTROL Simple Ad Serving]交易
@@ -45,10 +48,10 @@ ht-degree: 0%
 
 | 参数 | 描述 |
 |-----------|-------------|
-| **[!UICONTROL Media CPM]** | 每1000次展示的成本(CPM)，如合同费率卡中所示。 请联系您的Adobe客户团队以获取此值。 <br><br>同时指定交易的货币。 所有用户都可以选择USD，或者，如果SSP支持其他货币，则选择DSP帐户的货币。 |
-| **[!UICONTROL Third Party Billed Fees]** | （可选）作为不可计费成本跟踪的静态第三方费用，以及交易的货币。<br><br>所有用户都可以选择USD，或者，如果SSP支持其他货币，也可以选择DSP帐户的货币。 **注意：**&#x200B;可记帐费用已反映在[!UICONTROL Net CPM]指标中。 |
+| **[!UICONTROL Media CPM]** | 每1000次展示的成本(CPM)，如合同费率卡中所示。 请联系您的Adobe客户团队以获取此值。 <br><br>同时指定交易的货币。 所有用户都可以选择USD，如果SSP支持其他货币，也可以选择DSP帐户的货币。 |
+| **[!UICONTROL Third Party Billed Fees]** | （可选）作为不可计费成本跟踪的静态第三方费用，以及交易的货币。<br><br>所有用户都可以选择USD，如果SSP支持其他货币，则可以选择DSP帐户的货币。 **注意：**&#x200B;可记帐费用已反映在[!UICONTROL Net CPM]指标中。 |
 | **[!UICONTROL Third Party Fee Description]** | （可选）第三方费用的说明。 |
-| **[!UICONTROL Flight Dates]** | 使用此交易的流量的开始和结束日期。 投放日期必须包含在营销活动投放日期中。 广告标记仅在指定投放期间返回响应。<br><br>最佳实践是创建一个单独的简单广告服务营销活动，持续一年，并在其中生成跟踪像素。 |
+| **[!UICONTROL Flight Dates]** | 使用此交易的流量的开始和结束日期。 投放日期必须包含在营销活动投放日期中。 广告标记仅在指定的飞行期间返回响应。<br><br> 最佳实践是创建一个单独的简单广告服务营销活动，持续一年，并在其中构建跟踪像素。 |
 | **[!UICONTROL Impressions]** | （可选）预计使用此交易运行的预计展示次数。 此值仅用于跟踪目的，并标记何时满足投放目标；发布者控制实际的广告投放。 最佳做法是输入大量展示次数，以在DSP中保持标记处于活动状态，以便在需要时可以续订或扩展标记。 |
 | **[!UICONTROL Deal Name]** | 交易名称。 输入名称，或选择&#x200B;*[!UICONTROL Auto Generate Deal Name]*&#x200B;以允许DSP根据交易详细信息生成名称。<br><br>自动生成名称的示例： `Campaign-desktop_video_preroll_15-24Kitchen-$10_USD-jdoe-SAS` |
 | **[!UICONTROL Attached Ads]** | （只读）作为交易一部分的广告。 要编辑广告，请单击广告名称。 要从交易中删除广告，请单击广告名称旁边的&#x200B;**[!UICONTROL X]**。 |

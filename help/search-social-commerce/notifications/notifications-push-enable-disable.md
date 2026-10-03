@@ -3,20 +3,24 @@ title: 启用和禁用来自[!UICONTROL Notification Center]的推送通知
 description: 了解如何从[!UICONTROL Notification Center]启用和禁用推送通知。
 exl-id: f0e91e76-eb1e-4ff0-9a52-e9bc587552a2
 feature: Search Notifications
-TQID: https://experienceleague.adobe.com/k-ujCPcKXYOMfYscQOoSQBHrEmW3Pz08nndz-xdTJaA
+TQID: 'https://experienceleague.adobe.com/k-ujCPcKXYOMfYscQOoSQBHrEmW3Pz08nndz-xdTJaA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
+    internal-label: Search Notifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 258
+source-wordcount: '256'
 ht-degree: 0%
-
 ---
-
 # 启用和禁用来自[!UICONTROL Notification Center]的推送通知
 
 *Beta功能*

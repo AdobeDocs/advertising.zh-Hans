@@ -3,18 +3,24 @@ title: 管理您的创意库
 description: 了解如何创建、重命名和删除创意库。
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-TQID: https://experienceleague.adobe.com/W91cDnClbrELWT6Mm8gSIhKSTRhTjoT0w-SC20OG4M0
+TQID: 'https://experienceleague.adobe.com/W91cDnClbrELWT6Mm8gSIhKSTRhTjoT0w-SC20OG4M0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: bb1b8bb7-b991-4ae3-96c9-1fe852ffecbf
+    internal-label: Creative libraries
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 266
+source-wordcount: '266'
 ht-degree: 0%
-
 ---
-
 # 管理您的创意库
 
 您可以为每个广告商创建多个创意库。 您稍后可以使用[标准创意](creative-add-standard.md)、[动态创意](creative-add-dynamic.md)和[创意包](bundle-manage.md)填充每个库。
@@ -65,9 +71,9 @@ ht-degree: 0%
 
    * 要删除单个库，请执行以下操作：
 
-      * 在卡片视图中，单击库名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Delete]**。
+     * 在卡片视图中，单击库名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Delete]**。
 
-      * 在表视图中，将光标悬停在行上并单击&#x200B;**[!UICONTROL Delete]**。
+     * 在表视图中，将光标悬停在行上并单击&#x200B;**[!UICONTROL Delete]**。
 
    * 要删除一个或多个库，请选中要删除的每个库的复选框。 在批量操作工具栏中，单击&#x200B;**[!UICONTROL Delete]**。
 

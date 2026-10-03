@@ -3,21 +3,26 @@ title: 转换信息源文件的文件要求
 description: 参考转换信息源文件的要求。
 exl-id: abc28394-3e00-447f-a04e-078fa9883a64
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/y5kEsTB71WWQE6RGYdsIq0GFuZI037tRbRQTwuOP8aM
+TQID: 'https://experienceleague.adobe.com/y5kEsTB71WWQE6RGYdsIq0GFuZI037tRbRQTwuOP8aM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 366
+source-wordcount: '367'
 ht-degree: 0%
-
 ---
-
 # 转换信息源文件的文件要求
 
 以下是源文件的文件格式、必需和可选数据字段、文件名和文件传输协议的要求。
@@ -42,7 +47,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->转化数据馈送每天处理多次。 请于当地时间午夜12:00后尽快上传每日馈送，以便Adobe Advertising能够处理您的数据，并在当天清晨将其显示在报表UI中。
+>转化数据馈送每天处理多次。 请于当地时间午夜12:00后尽快上传每日馈送，以便Adobe Advertising能够处理您的数据，并在当天清晨在报表UI中提供。
 
 >[!MORELIKETHIS]
 >

@@ -1,36 +1,46 @@
 ---
-title: 使用 [!DNL Roku] 库存
-description: 了解DSP与 [!DNL Roku]的合作伙伴关系，包括库存选项、批准的第三方跟踪供应商以及特定于 [!DNL Roku]的投放位置的最佳实践。
+title: 使用[!DNL Roku]库存
+description: 了解DSP与[!DNL Roku]的合作伙伴关系，包括库存选项、批准的第三方跟踪供应商以及特定于[!DNL Roku]的投放位置的最佳实践。
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-TQID: https://experienceleague.adobe.com/6CdN1InBGyd9pkECHBITFv1l8JjVdQ6Ot2MUDIAvDjY
+TQID: 'https://experienceleague.adobe.com/6CdN1InBGyd9pkECHBITFv1l8JjVdQ6Ot2MUDIAvDjY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+    internal-label: Customer experience
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: '460'
 ht-degree: 0%
-
 ---
-
 # 使用[!DNL Roku]库存
 
 Advertising DSP提供在[!DNL Roku]上做广告的功能。
 
 ## 受众匹配
 
-[!DNL Roku]和DSP合作关系将您的[!DNL DSP]受众与针对[!DNL Roku]清单的1:1确定性受众的[!DNL Roku] ID相匹配。
+[!DNL Roku]和DSP合作关系将您的[!DNL DSP]受众与[!DNL Roku] ID相匹配，以获取[!DNL Roku]库存中的1:1确定性受众。
 
 ## [!DNL Roku]清单选项
 
@@ -48,9 +58,9 @@ Advertising DSP提供在[!DNL Roku]上做广告的功能。
 
 * 您可以[在 [!DNL On Demand] 图库](/help/dsp/inventory/on-demand-inventory-subscribe.md)中订阅以下 [!DNL Roku] 清单，然后在[!DNL Roku]投放位置中定位任何已批准的交易：
 
-   * “[!UICONTROL Roku Network - Audience]”适用于包含高级内容合作伙伴（如[!DNL The CW]、[!DNL ABC]和[!DNL ESPN]）的[!DNL Roku]生态系统中的库存。
+  * “[!UICONTROL Roku Network - Audience]”适用于包含高级内容合作伙伴（如[!DNL The CW]、[!DNL ABC]和[!DNL ESPN]）的[!DNL Roku]生态系统中的库存。
 
-   * 针对[!DNL Roku]自有和运营的(O&amp;O)应用程序内容的“[!UICONTROL The Roku Channel - Audience]”。
+  * 针对[!DNL Roku]自有和运营的(O&amp;O)应用程序内容的“[!UICONTROL The Roku Channel - Audience]”。
 
 ### 使用[!DNL Roku]自定义专用市场的好处
 

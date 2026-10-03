@@ -4,13 +4,17 @@ description: 了解如何使用人工智能辅助的受众代理在Adobe Adverti
 feature: DSP Audiences
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: e95a352e48c6e02ae7f89beb176d2cccaf4b0a71
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 0%
-
 ---
-
 # 使用创作AI创建可重用受众
 
 *Beta功能*
@@ -89,11 +93,11 @@ ht-degree: 0%
 
 * 使用清晰的描述性语言描述目标受众。
 
-   * 您可以输入完整的句子，也可以只输入一串特征。 除非为清楚起见，否则不需要标点。
+  * 您可以输入完整的句子，也可以只输入一串特征。 除非为清楚起见，否则不需要标点。
 
-   * 通常，提示不区分大小写。
+  * 通常，提示不区分大小写。
 
-   * 受众代理可识别最常见的同义词。
+  * 受众代理可识别最常见的同义词。
 
 * 做到具体，并提供要包含的所有受众特征以及要排除的任何特征的详细信息。 您提供的详细信息越多，您获得满足需求的结果的机会就越大。
 

@@ -3,22 +3,26 @@ title: 从投放位置附加和删除广告
 description: 了解如何将广告附加到投放位置以及从投放位置中删除广告。
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-TQID: https://experienceleague.adobe.com/dimjD7vLQExGblC-J9W1e-1lK4NfF4M38TuCjwDi3lU
+TQID: 'https://experienceleague.adobe.com/dimjD7vLQExGblC-J9W1e-1lK4NfF4M38TuCjwDi3lU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: '365'
 ht-degree: 0%
-
 ---
-
 # 从投放位置附加和删除广告
 
 您可以附加广告或从投放位置中删除广告。
@@ -59,27 +63,27 @@ ht-degree: 0%
 
    * 要创建新投放位置并将广告附加到该投放位置，请执行以下操作：
 
-      1. 单击&#x200B;**[!UICONTROL Create a New Placement]**。
+     1. 单击&#x200B;**[!UICONTROL Create a New Placement]**。
 
-      1. 输入[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)，然后单击&#x200B;**[!UICONTROL Create Placement]**。
+     1. 输入[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)，然后单击&#x200B;**[!UICONTROL Create Placement]**。
 
-         投放位置类型由广告类型决定。
+        投放位置类型由广告类型决定。
 
-      1. 单击&#x200B;**[!UICONTROL Attach ad]**。
+     1. 单击&#x200B;**[!UICONTROL Attach ad]**。
 
-      1. 选中要附加到投放位置的每个广告旁边的复选框。
+     1. 选中要附加到投放位置的每个广告旁边的复选框。
 
-      1. 单击&#x200B;**[!UICONTROL Attach Selected Ads]**。
+     1. 单击&#x200B;**[!UICONTROL Attach Selected Ads]**。
 
    * 要将广告附加到现有投放位置，请执行以下操作：
 
-      1. 单击&#x200B;**[!UICONTROL Select a Placement].**
+     1. 单击&#x200B;**[!UICONTROL Select a Placement].**
 
-      1. 在投放位置名称旁边，单击&#x200B;**[!UICONTROL Select].**
+     1. 在投放位置名称旁边，单击&#x200B;**[!UICONTROL Select].**
 
-      1. （可选）对于每个其他投放位置，单击&#x200B;**[!UICONTROL Attach To Another Placement]**，然后重复上述步骤。
+     1. （可选）对于每个其他投放位置，单击&#x200B;**[!UICONTROL Attach To Another Placement]**，然后重复上述步骤。
 
-      1. 单击&#x200B;**[!UICONTROL I'm done for now]**。
+     1. 单击&#x200B;**[!UICONTROL I'm done for now]**。
 
 ## 从[!UICONTROL Placements]视图中的投放位置删除广告 {#remove-ads-placement}
 

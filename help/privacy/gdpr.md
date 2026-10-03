@@ -4,24 +4,33 @@ description: 了解支持的数据请求类型、所需的设置和字段值，�
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-TQID: https://experienceleague.adobe.com/qR5H-xgBKdtWcMYfrdGdk1y5s9PEA0-hNGZADbR6TuM
+TQID: 'https://experienceleague.adobe.com/qR5H-xgBKdtWcMYfrdGdk1y5s9PEA0-hNGZADbR6TuM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+    internal-label: Compliance
+subfeature_v2:
+  - id: fa43b1a5-f379-447e-a9f3-9f9bd2bdf579
+    internal-label: GDPR
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1046
+source-wordcount: '1046'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising对《通用数据保护条例》的支持
 
 *适用于[!DNL Adobe Advertising Search, Social, & Commerce]、Adobe Advertising DSP、Adobe Advertising Creative和Adobe Advertising DCO*
@@ -72,7 +81,7 @@ Adobe Experience Platform使企业能够完成以下任务：
    >
    >请联系贵公司的Adobe Advertising代表，以确认贵公司的所有Adobe Advertising帐户（包括[!DNL DSP]帐户或广告商、[!DNL Search, Social, & Commerce]帐户以及[!DNL Creative]或[!DNL DCO]帐户）均关联到您的CX Enterprise组织ID。
 
-1. 使用[Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=zh-Hans)（对于自动请求）或[Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans#)（对于临时请求）代表数据主体向Adobe Advertising提交访问和删除请求，并检查现有请求的状态。
+1. 使用[Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html)（对于自动请求）或[Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#)（对于临时请求）代表数据主体向Adobe Advertising提交访问和删除请求，并检查现有请求的状态。
 
    对于拥有移动应用程序以与数据主体进行交互并与DSP启动促销活动的广告商，您必须下载适用于CX Enterprise的隐私就绪移动SDK。 Mobile SDK允许数据控制者设置选择退出状态标记、检索数据主体的设备ID（命名空间ID： `deviceID`），并将请求提交到Privacy Service API。 您的移动应用程序需要安装SDK版本4.15.0或更高版本。
 
@@ -84,7 +93,7 @@ Adobe Experience Platform使企业能够完成以下任务：
    >
    >如果贵公司拥有多个CX Enterprise组织ID，则必须为每个组织发送单独的API请求。 但是，您可以向多个Adobe Advertising子解决方案（[!DNL Search, Social, & Commerce]、[!DNL Creative]、[!DNL DSP]和[!DNL DCO]）发出一个API请求，每个子解决方案使用一个帐户。
 
-Adobe Advertising需要执行所有步骤。 有关使用Adobe Experience Platform Privacy Service需要执行的这些任务和其他相关任务以及在何处查找所需项目的更多信息，请参阅“[Privacy Service概述](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans)”。
+Adobe Advertising需要执行所有步骤。 有关使用Adobe Experience Platform Privacy Service需要执行的这些任务和其他相关任务以及在何处查找所需项目的更多信息，请参阅“[Privacy Service概述](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)”。
 
 ## Adobe Advertising JSON请求中的必填字段值
 
@@ -101,9 +110,9 @@ Adobe Advertising需要执行所有步骤。 有关使用Adobe Experience Platfo
 
 * `"user IDs":`
 
-   * `"namespace": **411**` （表示[!DNL adcloud] Cookie空间）
+  * `"namespace": **411**` （表示[!DNL adcloud] Cookie空间）
 
-   * `"value":` &lt;*从`AdobePrivacy.js`*>检索到的实际数据主体的Cookie ID值
+  * `"value":` &lt;*从`AdobePrivacy.js`*&#x200B;检索的实际数据主体的Cookie ID值>
 
 * `"include": **adCloud**` （适用于该请求的[!DNL Adobe]产品）
 

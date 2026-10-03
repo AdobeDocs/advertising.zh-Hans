@@ -2,13 +2,17 @@
 title: （新UI）管理自定义警报
 description: 了解如何创建、配置、暂停、激活、删除、查看和导出自定义警报和警报模板。
 feature: Search Alerts
-source-git-commit: 0fddeb8f01bd7c310544973ae2aff78339eb2144
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 0%
-
 ---
-
 # （新UI）管理自定义警报
 
 创建警报模板，以识别在指定时间段内，任何项目组合、营销活动或广告组何时满足特定条件（例如绩效指标），然后生成警报。 警报适用于单个广告商。 警报包括相关默认视图中的所有列。 例如，营销活动级别的警报包含默认[!UICONTROL Campaigns]视图中的所有列。

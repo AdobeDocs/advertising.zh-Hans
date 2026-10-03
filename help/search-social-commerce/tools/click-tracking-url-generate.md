@@ -3,18 +3,23 @@ title: 生成点击跟踪URL
 description: 了解如何手动生成Search、Social和Commerce点击跟踪URL。
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-TQID: https://experienceleague.adobe.com/RqD0SAUXXlSNvMUJFgrjspFoGjpJHmx0ThZGAHFFdi0
+TQID: 'https://experienceleague.adobe.com/RqD0SAUXXlSNvMUJFgrjspFoGjpJHmx0ThZGAHFFdi0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 484
+source-wordcount: '484'
 ht-degree: 0%
-
 ---
-
 # 使用跟踪URL工具生成搜索、社交和Commerce点击跟踪URL
 
 *仅具有Adobe Advertising转化跟踪的广告商*
@@ -39,47 +44,47 @@ ht-degree: 0%
 
       * 通过输入完整路径和文件名或者单击&#x200B;**[!UICONTROL Browse]**&#x200B;在设备或网络上查找文件来指定包含该信息的文件。 该文件必须是以制表符分隔的文本文件，每行有一个项目，格式如下：
 
-         * （创意内容，标准广告） `**landing_page**`
+        * （创意内容，标准广告） `**landing_page**`
 
-           其中`landing_page`是有效的登陆页面URL或基本URL。
+          其中`landing_page`是有效的登陆页面URL或基本URL。
 
-           示例： http://www.example.com/travel.html
+          示例： http://www.example.com/travel.html
 
-         * （[!DNL Microsoft Advertising]个站点链接）`sitelink <tab> ** <tab> landing_page`
+        * （[!DNL Microsoft Advertising]个站点链接）`sitelink <tab> ** <tab> landing_page`
 
-           其中`sitelink`是站点链接名称，`landing_page`是有效的登陆页面URL或基本URL。
+          其中`sitelink`是站点链接名称，`landing_page`是有效的登陆页面URL或基本URL。
 
-           示例： `Careers <tab> ** <tab> http://www.example.com/careers.html`
+          示例： `Careers <tab> ** <tab> http://www.example.com/careers.html`
 
-           该文件最多可包含10,000行。
+          该文件最多可包含10,000行。
 
-         * （[!DNL Google Merchant Center]产品组和[!DNL Microsoft Advertising]产品广告）`product name <tab> ** <tab> landing_page`
+        * （[!DNL Google Merchant Center]产品组和[!DNL Microsoft Advertising]产品广告）`product name <tab> ** <tab> landing_page`
 
-           其中`product name`是产品名称，`landing_page`是有效的登陆页面URL或基本URL。
+          其中`product name`是产品名称，`landing_page`是有效的登陆页面URL或基本URL。
 
-           示例： `Acme PR208 <tab> ** <tab> http://www.example.com/travel.html`
+          示例： `Acme PR208 <tab> ** <tab> http://www.example.com/travel.html`
 
-           该文件最多可包含10,000行。
+          该文件最多可包含10,000行。
 
       * 在输入字段中，按照以下格式每行输入一个项目：
 
-         * （创意内容，标准广告） `landing_page`
+        * （创意内容，标准广告） `landing_page`
 
-           其中`landing_page`是有效的登陆页面URL或基本URL。
+          其中`landing_page`是有效的登陆页面URL或基本URL。
 
-           示例： http://www.example.com/travel.html
+          示例： http://www.example.com/travel.html
 
-         * （[!DNL Microsoft Advertising]个站点链接）`sitelink**landing_page`
+        * （[!DNL Microsoft Advertising]个站点链接）`sitelink**landing_page`
 
-           其中`sitelink`是站点链接名称，`landing_page`是有效的登陆页面URL或基本URL。
+          其中`sitelink`是站点链接名称，`landing_page`是有效的登陆页面URL或基本URL。
 
-           示例： `Careers**http://www.example.com/careers.html`
+          示例： `Careers**http://www.example.com/careers.html`
 
-         * （[!DNL Google Merchant Center]产品组和[!DNL Microsoft Advertising]产品广告）`product name**landing_page`
+        * （[!DNL Google Merchant Center]产品组和[!DNL Microsoft Advertising]产品广告）`product name**landing_page`
 
-           其中`product name`是产品名称，`landing_page`是有效的登陆页面URL或基本URL。
+          其中`product name`是产品名称，`landing_page`是有效的登陆页面URL或基本URL。
 
-           示例： Acme PR208**http://www.example.com/travel.html
+          示例： Acme PR208**http://www.example.com/travel.html
 
    1. 单击&#x200B;**[!UICONTROL Generate Tracking URLs]**。
 

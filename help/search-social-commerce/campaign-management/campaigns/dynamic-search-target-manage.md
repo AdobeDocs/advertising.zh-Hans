@@ -1,22 +1,26 @@
 ---
-title: 管理 [!DNL Google Ads] 动态搜索目标
-description: 了解如何创建和管理 [!DNL Google Ads] 动态搜索目标。
+title: 管理[!DNL Google Ads]动态搜索目标
+description: 了解如何创建和管理[!DNL Google Ads]动态搜索目标。
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0
+TQID: 'https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '676'
 ht-degree: 0%
-
 ---
-
 # 管理[!DNL Google Ads]动态搜索目标
 
 仅&#x200B;*[!DNL Google Ads]个帐户*
@@ -93,13 +97,13 @@ ht-degree: 0%
 
    * 要删除一个或多个动态目标，请执行以下操作：
 
-      1. 选中要删除的每个动态目标旁边的复选框。
+     1. 选中要删除的每个动态目标旁边的复选框。
 
      有关选择多行的提示，请参阅“[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)”。
 
-      1. 在工具栏中，单击![更多](/help/search-social-commerce/assets/more.png "更多")并选择&#x200B;**[!UICONTROL Delete]**。
+     1. 在工具栏中，单击![更多](/help/search-social-commerce/assets/more.png "更多")并选择&#x200B;**[!UICONTROL Delete]**。
 
-      1. 在确认消息中，单击&#x200B;**[!UICONTROL Delete]**。
+     1. 在确认消息中，单击&#x200B;**[!UICONTROL Delete]**。
 
 ## [!DNL Google Ads]动态搜索目标设置 {#dynamic-search-target-settings}
 
@@ -111,13 +115,13 @@ ht-degree: 0%
 
 * *\[Specific Targets\]：*&#x200B;针对索引页最多定位三个条件。 选择此选项时，您必须通过指定信息类别和目标广告的特定值来指定标准（例如，“URL包含shoes.example.com”）。 若要指定多个条件，请单击&#x200B;**[!UICONTROL + And]**。 目标条件包括：
 
-   * *[!UICONTROL Category]：*&#x200B;显示具有特定[!DNL Google Ads]内容类别的索引页面的广告。
+  * *[!UICONTROL Category]：*&#x200B;显示具有特定[!DNL Google Ads]内容类别的索引页面的广告。
 
-   * *[!UICONTROL URL]：*&#x200B;为具有特定URL的索引页面显示广告，其中值可能包含在URL中的任何位置。
+  * *[!UICONTROL URL]：*&#x200B;为具有特定URL的索引页面显示广告，其中值可能包含在URL中的任何位置。
 
-   * *[!UICONTROL Page Title]：*&#x200B;显示索引页面的广告，这些页面在页面标题中具有特定文本。
+  * *[!UICONTROL Page Title]：*&#x200B;显示索引页面的广告，这些页面在页面标题中具有特定文本。
 
-   * *[!UICONTROL Page Content]：*&#x200B;为具有特定内容的索引页面显示广告。
+  * *[!UICONTROL Page Content]：*&#x200B;为具有特定内容的索引页面显示广告。
 
 **状态：**&#x200B;目标设置的状态：
 

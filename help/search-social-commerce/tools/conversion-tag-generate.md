@@ -3,13 +3,19 @@ title: 生成并实施Adobe Advertising转化跟踪标记
 description: 了解如何创建Adobe Advertising转化标记以跟踪您的转化事件。
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: f97a636a55c6cc823f0041e7acd6f48dca769a3e
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 0%
-
 ---
-
 # 生成并实施Adobe Advertising转化跟踪标记
 
 *仅具有Adobe Advertising转化跟踪的广告商*
@@ -128,15 +134,15 @@ ht-degree: 0%
 
 ## 使用Adobe Experience Platform标记和Adobe Advertising扩展实施转化跟踪标记
 
-您可以使用Adobe Experience Platform中的标记为“搜索”、“社交”和“Commerce”设置转化跟踪。 标记以内置增值功能的形式提供给Adobe CX Enterprise客户。
+您可以使用Adobe Experience Platform中的标记为“搜索”、“社交”和“Commerce”设置转化跟踪。 Adobe CX Enterprise客户可以使用标记作为随附的增值功能来获取这些标记。
 
-从Experience Platform用户界面或Experience Platform数据收集用户界面为Search、Social和Commerce配置转化跟踪标记时，需要执行以下任务。 有关配置标记的完整信息和说明，请参阅Experience Platform标记指南，从“[标记概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/home)”和“[快速入门指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/get-started/quick-start)”开始。
+从Experience Platform用户界面或Experience Platform数据收集用户界面为Search、Social和Commerce配置转化跟踪标记时，需要执行以下任务。 有关配置标记的完整信息和说明，请参阅Experience Platform标记指南，从“[标记概述](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)”和“[快速入门指南](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)”开始。
 
 >[!PREREQUISITES]
 >
 >要安装所需的标记扩展，请让您的组织管理员访问UI中的数据收集功能，包括`manage_properties`权限。
 
-1. 从[数据收集UI](https://experience.adobe.com/#/data-collection/)，安装Adobe Advertising [扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/ui/extensions/overview)：
+1. 从[数据收集UI](https://experience.adobe.com/#/data-collection/)，安装Adobe Advertising [扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview)：
 
    1. 从适用的属性中，打开扩展目录并选择&#x200B;**Adobe Advertising**。
 
@@ -184,7 +190,7 @@ ht-degree: 0%
 
          **转换属性名称：**&#x200B;转换属性的名称（例如，`form_completes`）。
 
-         **值：**&#x200B;转换属性的数值（例如`1`跟踪form_completes），或选择现有的[数据元素](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/ui/data-elements)。
+         **值：**&#x200B;转换属性的数值（例如`1`跟踪form_completes），或选择现有的[数据元素](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)。
 
       1. 单击&#x200B;**保留更改**。
 

@@ -2,7 +2,13 @@
 title: （新UI）在Microsoft Advertising中复制Google Ads营销活动
 description: 了解如何将Google Ads帐户中同步的促销活动直接导出到同步的Microsoft Advertising帐户。
 feature: Search Campaign Management
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -33,7 +39,7 @@ ht-degree: 0%
 >
 >如果要复制基于购物馈送的显示促销活动，请先[在 [!DNL Microsoft Merchant Center]](https://help.ads.microsoft.com/apex/index/3/en/56870){target="_blank"}中复制 [!DNL Google Merchant Center] 产品选件。 复制营销活动时，在导入选项中选择[!DNL Microsoft Merchant Center]存储，以将存储链接到基于信息源的受众营销活动。
 
-查看从 [!DNL Google Ads] 营销活动[&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}导入的内容。
+查看从 [!DNL Google Ads] 营销活动](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}导入的[内容。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
 
@@ -51,7 +57,7 @@ ht-degree: 0%
 
 ## 编辑活动导入作业的计划设置
 
-查看从 [!DNL Google Ads] 营销活动[&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}导入的内容。
+查看从 [!DNL Google Ads] 营销活动](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}导入的[内容。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
 

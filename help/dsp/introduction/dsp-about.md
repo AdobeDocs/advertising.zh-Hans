@@ -3,24 +3,30 @@ title: 关于Adobe Advertising DSP
 description: 关于Adobe Advertising DSP
 feature: DSP Introduction
 exl-id: 2a5df455-673b-483f-91a6-4fc5678b7f8a
-TQID: https://experienceleague.adobe.com/YJQHNT-Xkpob54deI0IIGVN2cI6sPYDlAiqievQK3oI
+TQID: 'https://experienceleague.adobe.com/YJQHNT-Xkpob54deI0IIGVN2cI6sPYDlAiqievQK3oI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: bc11f38b8a81f964323d35a44aa3937674a768cd
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 371
+source-wordcount: '372'
 ht-degree: 0%
-
 ---
-
 # 关于Adobe Advertising DSP
 
 Adobe Advertising是唯一能够大规模统一并自动化所有媒体、数据、受众和创意的独立广告平台。 跨所有广告渠道交付连接的体验：付费搜索、显示、视频、连接电视(CTV)、音频和原生。
@@ -35,11 +41,11 @@ Adobe Advertising DSP (DSP)通过先进的第一方数据分段和激活功能�
 
 * **[与Adobe Analytics、Adobe Customer Journey Analytics、Adobe Audience Manager、Adobe Target和Adobe Experience Platform的集成](/help/integrations/home.md)**：与现有Adobe产品的集成允许您最大限度地利用第一方数据，并将广告置于与其余业务分析相同的级别。
 
-* [**与[!DNL Roku]**](/help/dsp/inventory/roku-inventory.md)的Premiere连接电视体验：[!DNL Roku]和DSP具有独特的合作关系，该合作关系允许您在[!DNL Roku]库存中激活第一方和第三方数据，从而在大屏幕中大规模高效地访问受众。 通过利用唯一一个能够与[!DNL Roku] ID同步的平台，营销人员可以准确利用确定性1:1定位，并访问[!DNL Roku]库存和独特的测量见解。
+* [**与[!DNL Roku]**](/help/dsp/inventory/roku-inventory.md)的Premiere连接电视体验：[!DNL Roku]和DSP具有独特的合作关系，该合作关系允许您在[!DNL Roku]库存中激活第一方和第三方数据，从而在大屏幕中大规模高效地访问受众。 通过利用唯一一个能够与[!DNL Roku] ID同步的平台，营销人员可以利用精确且准确的确定性1:1定位，以及访问[!DNL Roku]库存和独特的测量见解。
 
 * [**AI辅助功能**](/help/dsp/introduction/features/ai-agents.md)： DSP提供AI辅助代理，以帮助您创建可重复使用的受众，并查找产品使用说明和最佳实践。
 
 >[!MORELIKETHIS]
 >
->* [视频： Advertising DSP简介](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html?lang=zh-Hans)
->* [视频： DSP帐户结构和用户界面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=zh-Hans)
+>* [视频： Advertising DSP简介](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html)
+>* [视频： DSP帐户结构和用户界面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

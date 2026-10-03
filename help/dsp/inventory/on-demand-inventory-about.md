@@ -1,31 +1,36 @@
 ---
-title: 关于 [!DNL On Demand] 高级库存
+title: 关于[!DNL On Demand]高级库存
 description: 了解DSP与高级发布商合作伙伴预先协商的交易。
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-TQID: https://experienceleague.adobe.com/eQWPc1b2GRmORoOHXR6AzFFE1TdjI1fJe9Jr8pMjPZo
+TQID: 'https://experienceleague.adobe.com/eQWPc1b2GRmORoOHXR6AzFFE1TdjI1fJe9Jr8pMjPZo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 455
+source-wordcount: '461'
 ht-degree: 0%
-
 ---
-
 # 关于[!DNL On Demand]高级库存
 
 *不可用于帐户类型为[!UICONTROL Ad Network]、[!UICONTROL Publisher Audience Extension]和[!UICONTROL Other]的用户；类别为[!UICONTROL Other]的广告商和经销商*
 
-[!DNL On Demand]库是一个高级库存发现工具，用于探索DSP与高级发布商合作伙伴策划的预协商交易。 它允许您从区域内的顶级发布者访问无保证库存，无需1:1谈判或合同。 您可以请求单个交易，也可以订阅发布者以一次请求发布者的所有交易。
+[!DNL On Demand]库是一个高级库存发现工具，用于探索DSP与高级发布商合作伙伴策划的预协商交易。 它允许您从区域内的顶级出版商访问无保证库存，无需1:1谈判或合同。 您可以请求单个交易，也可以订阅发布者以一次请求发布者的所有交易。
 
 DSP Premium Marketplace允许您：
 
@@ -56,7 +61,7 @@ DSP Premium Marketplace允许您：
 每项交易的详细信息包括以下列中的数据：
 
 * **[!UICONTROL TVB]：**&#x200B;指示发布者何时为电视广播员
-* **[!UICONTROL Tune]：**&#x200B;指示发布者何时接受“调入”创意（例如，\&lt;*我们的节目*\>的新一集“今晚调入”）
+* **[!UICONTROL Tune]：**&#x200B;指示发布者何时接受“调入”创意（例如，\&lt;*我们的节目*\>的新一集今晚的“调入”）
 * **[!UICONTROL LDA]：** （合法饮酒年龄）指示发布者何时应用21+定位并接受酒精广告
 * **[!UICONTROL CPM]：**&#x200B;指示在授予广告商访问交易的权限之前，交易的最低费率或固定费率CPM何时不可见
 * **[!UICONTROL Status]：**&#x200B;您的订阅请求的状态（如果适用）

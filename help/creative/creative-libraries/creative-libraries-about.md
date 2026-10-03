@@ -3,23 +3,35 @@ title: 关于您的创意库
 description: 了解如何管理广告体验的创意。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-TQID: https://experienceleague.adobe.com/rvm3BAkRlgbJKdpHNoN5oH9sOhqGwOA-3I-XIol0RXc
+TQID: 'https://experienceleague.adobe.com/rvm3BAkRlgbJKdpHNoN5oH9sOhqGwOA-3I-XIol0RXc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: bb1b8bb7-b991-4ae3-96c9-1fe852ffecbf
+    internal-label: Creative libraries
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1586
+source-wordcount: '1644'
 ht-degree: 0%
-
 ---
-
 # 关于您的创意库
 
 您的创意库允许您管理将在广告体验中使用的创意。 您可以创建多个库，每个库都包含一组创意和&#x200B;*创意包*，这些创意包是您可以作为一个单元添加到体验中的创意组。
@@ -28,9 +40,9 @@ ht-degree: 0%
 
 * **个人创意：**&#x200B;您可以直接在广告体验中包含没有定义用户目标的个人创意。 您还可以使用创意内容创建包，这些包可以包含在定向的[广告体验](/help/creative/experiences/experience-about.md)中。
 
-   * **标准创意：**&#x200B;您可以上传和管理[各种格式的创意](#creative-creative-formats)。 对于每个创意，指定与创意相关的每个广告的默认语言，以及用户单击包含创意的广告时打开的默认登录页面。 您可以选择指定标签，以在[!DNL Creative]内的各种视图中用作过滤器，并在使用[!UICONTROL Custom Creative Report]维度时在[!UICONTROL Creative Label]中用作列值。
+  * **标准创意：**&#x200B;您可以上传和管理[各种格式的创意](#creative-creative-formats)。 对于每个创意，指定与创意相关的每个广告的默认语言，以及用户单击包含创意的广告时打开的默认登录页面。 您可以选择指定标签，以在[!DNL Creative]内的各种视图中用作过滤器，并在使用[!UICONTROL Creative Label]维度时在[!UICONTROL Custom Creative Report]中用作列值。
 
-   * **动态创意：**&#x200B;您可以通过将广告模板中的动态变量映射到馈送文件中的值来创建动态生成的创意。 所有用户都可以预览、复制和删除现有的动态广告。
+  * **动态创意：**&#x200B;您可以通过将广告模板中的动态变量映射到馈送文件中的值来创建动态生成的创意。 所有用户都可以预览、复制和删除现有的动态广告。
 
 * **创意捆绑：**&#x200B;将创意分组到捆绑中，以在具有已定义用户目标的多个体验中使用。 您可以创建由标准显示广告组成的&#x200B;*标准显示包*、由标准视频广告组成的&#x200B;*标准视频包*、由动态生成的显示广告组成的&#x200B;*动态显示包*&#x200B;以及由动态生成的视频广告组成的&#x200B;*动态视频包*。
 
@@ -61,7 +73,7 @@ ht-degree: 0%
 
 ##### HTML5创意人员
 
-* **GenStudio体验：**&#x200B;您可以在[GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)中从[显示广告体验](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/home)导入所有广告变体作为单个HTML5创意。 外部链接将转换为本地引用。 HTML内容最长可达20 MB，单个图像最长可达50 MB。
+* **GenStudio体验：**&#x200B;您可以在[GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)中从[显示广告体验](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)导入所有广告变体作为单个HTML5创意。 外部链接将转换为本地引用。 HTML内容最长可达20 MB，单个图像最长可达50 MB。
 
   导入GenStudio体验后，您可以编辑已导入创意内容的元数据（名称、语言、标记），但不能编辑创意内容。 如果您在GenStudio中编辑GenStudio体验，请在[!DNL Creative]中重新导入该体验以使用最新版本。
 
@@ -89,13 +101,13 @@ ht-degree: 0%
 
 您可以从设备或网络中为Web、移动或连接的电视上传第一方视频创意。 每个视频广告体验都需要为分配给体验的每个创意持续时间提供一个默认视频创意。 DSP会自动将所有视频创意转换为VAST 2.0标记，以便您预览。 在[!UICONTROL Tag Manager]中，您可以选择将[特定于DSP的转码](/help/creative/experiences/experience-tag-video-transcoding.md)应用于任何视频广告体验标记。
 
-请参阅以下视频创作要求。 **注意：**&#x200B;如果要将视频体验上传到Advertising DSP，请另外参阅DSP对高清视频Assets的[要求](https://experienceleague.adobe.com/zh-hans/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)，这可能更有限。
+请参阅以下视频创作要求。 **注意：**&#x200B;如果要将视频体验上传到Advertising DSP，请另外参阅DSP对高清视频Assets的[要求](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)，这可能更有限。
 
 **文件类型：** .mov、.mp4、.webm
 
 **文件大小：**&#x200B;最大为512 MB
 
-**视频宽高比：** 16:9，4:3
+**视频宽高比：** 16：9,4：3
 
 **视频分辨率：** 640x360(360p)，1280x720(720p)，1920x1080(1080p)
 
@@ -147,11 +159,11 @@ ht-degree: 0%
 
 * 对于每个创意库：
 
-   * [编辑库名称](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
+  * [编辑库名称](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
 
-   * [打开库以查看分配给库的创意和捆绑包](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
+  * [打开库以查看分配给库的创意和捆绑包](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
 
-   * [删除库](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
+  * [删除库](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
 
 ### [!UICONTROL Creative Libraries] > [!UICONTROL Creatives]视图
 
@@ -179,7 +191,7 @@ ht-degree: 0%
 
 #### [!UICONTROL Dynamic Ads]
 
-[!UICONTROL Dynamic Ads]选项卡显示为您的创意目录动态创建的所有动态创意，但您[从](creative-delete.md)选项卡中手动删除[!UICONTROL Dynamic Ads]的任何动态创意除外。 如果您[手动复制](creative-duplicate.md)任何动态创意<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->，则该目录的创意列表也包含重复的创意。
+[!UICONTROL Dynamic Ads]选项卡显示为您的创意目录动态创建的所有动态创意，但您[从[!UICONTROL Dynamic Ads]选项卡中手动删除](creative-delete.md)的任何动态创意除外。 如果您[手动复制](creative-duplicate.md)任何动态创意<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->，则该目录的创意列表也包含重复的创意。
 
 每个创意的数据包括创意类型、创意大小、创意所属的目录数量和创建日期。 表模式还包括用于广告模板的列，通过广告模板生成创意和选件计数。
 

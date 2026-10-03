@@ -3,14 +3,17 @@ title: 删除标签分类
 description: 了解如何删除标签分类。
 exl-id: ae10ff69-67ab-4eac-a78d-8af4923c7093
 feature: Search Label Classifications
-TQID: https://experienceleague.adobe.com/Q6BgNtx1bPMVXDNdamwGvzcxKh9I8dnm0PRj1ByIktE
+TQID: 'https://experienceleague.adobe.com/Q6BgNtx1bPMVXDNdamwGvzcxKh9I8dnm0PRj1ByIktE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
+feature_v2:
+  - id: e29095c7-c364-5fb4-ac07-691793cb92e4
+    internal-label: Search Label Classifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -21,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->若要取消分类值与帐户组件的关联，请参阅“从营销活动组件中删除分类值[&#128279;](classification-values-remove.md)”。
+>若要取消分类值与帐户组件的关联，请参阅“从营销活动组件中删除分类值](classification-values-remove.md)”。[
 
 ## （新UI）删除标签分类
 

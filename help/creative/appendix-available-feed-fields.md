@@ -3,21 +3,27 @@ title: 动态广告馈送文件的可用字段
 description: 了解可在用于创建动态广告的信息源文件中包含的字段。
 feature: Creative Dynamic Creatives
 exl-id: 9cd3fa29-d4db-4e9f-9ffd-87b44b62a3e2
-TQID: https://experienceleague.adobe.com/oBlhGgChyoHBSkfx4gqlC-mnleraVrtf3lMzper7vgY
+TQID: 'https://experienceleague.adobe.com/oBlhGgChyoHBSkfx4gqlC-mnleraVrtf3lMzper7vgY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 391
+source-wordcount: '392'
 ht-degree: 0%
-
 ---
-
 # 附录：动态广告馈送文件的可用字段
 
-Advertising Creative后端提供了以下信息源字段。 您可以上载使用组织特定字段名称的[信息源文件](/help/creative/feeds/asset-manage.md)。 但是，必须先将信息源文件中的每个字段映射到将用于创建目录的[信息源模板](/help/creative/feeds/catalog-manage.md)中的以下字段之一，然后才能从信息源文件创建[目录](/help/creative/feeds/feed-template-manage.md)。
+Advertising Creative后端提供了以下信息源字段。 您可以上载使用组织特定字段名称的[信息源文件](/help/creative/feeds/asset-manage.md)。 但是，必须先将信息源文件中的每个字段映射到将用于创建目录的[信息源模板](/help/creative/feeds/feed-template-manage.md)中的以下字段之一，然后才能从信息源文件创建[目录](/help/creative/feeds/catalog-manage.md)。
 
 您的信息源文件中唯一必须具有等效项的字段是`PART_NUM`。
 

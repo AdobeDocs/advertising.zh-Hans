@@ -2,13 +2,19 @@
 title: '[!UICONTROL Label Value Report]'
 description: 了解[!UICONTROL Label Value Report]。
 feature: Search Reports, Search Basic Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Label Value Report]
 
 [!UICONTROL Label Value Report]包括成本、点击次数和（可选）转化数据，这些数据按标签分类值在项目组合、广告网络、帐户、促销活动或广告组之间汇总。 默认情况下，对于在指定日期范围内每个时间单位接收展示次数的关键字、广告和版面，数据为每个适用的值包含一行。 默认情况下，行首先按时间单位的起始日期升序，然后按成本，再按标签值升序。 您还可以查看为其分配标签值的每个图元类型的编号。

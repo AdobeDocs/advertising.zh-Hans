@@ -3,22 +3,26 @@ title: 获取帮助
 description: 了解如何查看在线文档和社区资源以及如何获得技术支持。
 feature: DSP Introduction
 exl-id: 2e0226ea-bcd3-4a38-8907-d2e078c758d0
-TQID: https://experienceleague.adobe.com/7Ag7-NfA31va0JFwpmUp3h-Xzh-h2Yl7g2Q8WwE2gsc
+TQID: 'https://experienceleague.adobe.com/7Ag7-NfA31va0JFwpmUp3h-Xzh-h2Yl7g2Q8WwE2gsc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Troubleshooting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 165
+source-wordcount: '179'
 ht-degree: 0%
-
 ---
-
 # 获取帮助
 
 您可以跨所有[!DNL DSP]和（使用Advertising Creative的广告商）[!DNL Creative]文档提交AI辅助查询，或打开[!DNL DSP]的完整用户指南。 如果文档不能回答您的问题，请联系我们。
@@ -34,14 +38,14 @@ ht-degree: 0%
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=zh-Hans).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 -->
 
 ## 联系人[!DNL Adobe]
 
 对于产品或帐户问题，请执行以下操作：
 
-* （具有自助服务合同的广告商）在[https://experienceleague.adobe.com/home?lang=zh-Hans#support](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)为您的组织开立一个票证。
+* （具有自助服务合同的广告商）在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)为您的组织开立一个票证。
 
   对于产品，请选择“[!UICONTROL Advertising - DSP]”。
 

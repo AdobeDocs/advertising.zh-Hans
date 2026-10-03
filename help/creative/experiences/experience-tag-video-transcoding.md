@@ -3,20 +3,26 @@ title: 自定义视频广告体验标记的转码选项
 description: 了解如何自定义视频广告标记的转码选项。
 feature: Creative Experiences
 exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
-TQID: https://experienceleague.adobe.com/N-tKrSHyE18QVazmdUlurPsW-7QVwGKAOPl2ArnI-2c
+TQID: 'https://experienceleague.adobe.com/N-tKrSHyE18QVazmdUlurPsW-7QVwGKAOPl2ArnI-2c'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: '317'
 ht-degree: 0%
-
 ---
-
 # 自定义视频广告体验标记的转码选项
 
 您可以为视频广告体验自定义转码选项，以确保跨发布者的快速播放和质量控制。

@@ -4,19 +4,23 @@ description: 了解如何创建和管理用于投放定位的邮政编码列表�
 feature: DSP Placements
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 405
+source-wordcount: '405'
 ht-degree: 0%
-
 ---
-
 # 管理邮政编码列表
 
 您可以创建和管理各个国家/地区的邮政编码列表以进行投放定位。 在投放设置中定位或排除特定的邮政编码列表。
@@ -43,33 +47,33 @@ ht-degree: 0%
 
    * 要人工输入或粘贴邮政编码以添加，请执行以下操作：
 
-      1. 单击&#x200B;**[!UICONTROL Add Postal Codes]**。
+     1. 单击&#x200B;**[!UICONTROL Add Postal Codes]**。
 
-      1. 输入或粘贴最多25,000个邮政编码，每个邮政编码单独占一行。
+     1. 输入或粘贴最多25,000个邮政编码，每个邮政编码单独占一行。
 
-      1. 单击&#x200B;**[!UICONTROL Validate]**&#x200B;以验证邮政编码是否有效。
+     1. 单击&#x200B;**[!UICONTROL Validate]**&#x200B;以验证邮政编码是否有效。
 
-         在[!UICONTROL Validation Results]中标识了任何无效的邮政编码。 如果继续，则仅添加有效的邮政编码。
+        在[!UICONTROL Validation Results]中标识了任何无效的邮政编码。 如果继续，则仅添加有效的邮政编码。
 
-         * 要将任何无效的邮政编码下载为XLSX （[!DNL Microsoft Excel]电子表格）格式，请单击&#x200B;**[!UICONTROL Download invalid codes]**。 将按照浏览器的正常过程下载文件。
+        * 要将任何无效的邮政编码下载为XLSX （[!DNL Microsoft Excel]电子表格）格式，请单击&#x200B;**[!UICONTROL Download invalid codes]**。 将按照浏览器的正常过程下载文件。
 
-      1. 单击&#x200B;**[!UICONTROL Add to list]**。
+     1. 单击&#x200B;**[!UICONTROL Add to list]**。
 
    * 要删除特定的邮政编码，请执行以下任一操作：
 
-      * 要选择要删除的邮政编码，请执行以下操作：
+     * 要选择要删除的邮政编码，请执行以下操作：
 
-         1. 选中要从列表中删除的每个邮政编码旁边的复选框。
+       1. 选中要从列表中删除的每个邮政编码旁边的复选框。
 
-         1. 单击&#x200B;**[!UICONTROL Remove]**。
+       1. 单击&#x200B;**[!UICONTROL Remove]**。
 
-         1. 在确认消息中，单击&#x200B;**[!UICONTROL Remove]**。
+       1. 在确认消息中，单击&#x200B;**[!UICONTROL Remove]**。
 
-      * 要删除所有邮政编码，请执行以下操作：
+     * 要删除所有邮政编码，请执行以下操作：
 
-         1. 单击&#x200B;**[!UICONTROL Remove All]**。
+       1. 单击&#x200B;**[!UICONTROL Remove All]**。
 
-         1. 在确认消息中，单击&#x200B;**[!UICONTROL Remove All]**。
+       1. 在确认消息中，单击&#x200B;**[!UICONTROL Remove All]**。
 
 ## 编辑邮政编码列表
 
@@ -81,33 +85,33 @@ ht-degree: 0%
 
    * 要人工输入或粘贴邮政编码以添加，请执行以下操作：
 
-      1. 单击&#x200B;**[!UICONTROL Add Postal Codes]**。
+     1. 单击&#x200B;**[!UICONTROL Add Postal Codes]**。
 
-      1. 输入或粘贴最多25,000个邮政编码，每个邮政编码单独占一行。
+     1. 输入或粘贴最多25,000个邮政编码，每个邮政编码单独占一行。
 
-      1. 单击&#x200B;**[!UICONTROL Validate]**&#x200B;以验证邮政编码是否有效。
+     1. 单击&#x200B;**[!UICONTROL Validate]**&#x200B;以验证邮政编码是否有效。
 
-         在[!UICONTROL Validation Results]中标识了任何无效的邮政编码。 如果继续，则仅添加有效的邮政编码。
+        在[!UICONTROL Validation Results]中标识了任何无效的邮政编码。 如果继续，则仅添加有效的邮政编码。
 
-         * 要将任何无效的邮政编码下载为XLSX （[!DNL Microsoft Excel]电子表格）格式，请单击&#x200B;**[!UICONTROL Download invalid codes]**。 将按照浏览器的正常过程下载文件。
+        * 要将任何无效的邮政编码下载为XLSX （[!DNL Microsoft Excel]电子表格）格式，请单击&#x200B;**[!UICONTROL Download invalid codes]**。 将按照浏览器的正常过程下载文件。
 
-      1. 单击&#x200B;**[!UICONTROL Add to list]**。
+     1. 单击&#x200B;**[!UICONTROL Add to list]**。
 
    * 要删除特定的邮政编码，请执行以下任一操作：
 
-      * 要选择要删除的邮政编码，请执行以下操作：
+     * 要选择要删除的邮政编码，请执行以下操作：
 
-         1. 选中要从列表中删除的每个邮政编码旁边的复选框。
+       1. 选中要从列表中删除的每个邮政编码旁边的复选框。
 
-         1. 单击&#x200B;**[!UICONTROL Remove]**。
+       1. 单击&#x200B;**[!UICONTROL Remove]**。
 
-         1. 在确认消息中，单击&#x200B;**[!UICONTROL Remove]**。
+       1. 在确认消息中，单击&#x200B;**[!UICONTROL Remove]**。
 
-      * 要删除所有邮政编码，请执行以下操作：
+     * 要删除所有邮政编码，请执行以下操作：
 
-         1. 单击&#x200B;**[!UICONTROL Remove All]**。
+       1. 单击&#x200B;**[!UICONTROL Remove All]**。
 
-         1. 在确认消息中，单击&#x200B;**[!UICONTROL Remove All]**。
+       1. 在确认消息中，单击&#x200B;**[!UICONTROL Remove All]**。
 
 ## 导出邮政编码列表
 

@@ -1,20 +1,23 @@
 ---
-title: ' [!DNL Yahoo DSP] 帐户的批量工作表数据'
-description: 引用 [!DNL Yahoo DSP] 帐户的已下载批量处理工作表中的标题字段和数据字段。
+title: '[!DNL Yahoo DSP]帐户的批量处理工作表数据'
+description: 引用[!DNL Yahoo DSP]帐户的已下载批量处理工作表中的标题字段和数据字段。
 exl-id: 8d938009-6edc-4420-8863-21ed241616f8
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/cqFcEzgFtjpBzPZEUYNnXjZSb-yRDytPCQm4hqX0R9w
+TQID: 'https://experienceleague.adobe.com/cqFcEzgFtjpBzPZEUYNnXjZSb-yRDytPCQm4hqX0R9w'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 525
+source-wordcount: '527'
 ht-degree: 0%
-
 ---
-
 # 附录 — [!DNL Yahoo DSP]帐户的批量工作表数据
 
 <!-- 

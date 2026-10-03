@@ -3,28 +3,39 @@ title: 将DSP媒体曝光数据发送到Adobe Audience Manager的概述
 description: 了解如何使用Audience Manager事件像素从Advertising DSP营销活动中捕获展示级别和点击级别的数据
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-TQID: https://experienceleague.adobe.com/MqAVZH8WKVulxVDOD3SDbROYnkRG0tlm028WGBL9wOM
+TQID: 'https://experienceleague.adobe.com/MqAVZH8WKVulxVDOD3SDbROYnkRG0tlm028WGBL9wOM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
+  - id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+    internal-label: Audience Manager integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 529
+source-wordcount: '574'
 ht-degree: 0%
-
 ---
-
 # 将DSP媒体曝光数据发送到Adobe Audience Manager的概述
 
 *仅使用Advertising DSP的广告商*
@@ -47,7 +58,7 @@ DSP不会向您收取向Audience Manager发送这些信号的费用。 但是，
 
 * 您可以将促销活动数据用于各种用例，例如跨创意内容设置频率上限、重新定位曾接触过先前促销活动的用户，以及分析下游网站行为和入口点。
 
-* 聚合数据提供了促销活动性能的统一视图，有助于识别自定义转化路径，并且可用于改进通过Audience Manager [!DNL Audience Optimization Reports]或通过与Adobe Analytics[[!DNL Audience Analytics] 的](/help/integrations/audience-manager/audience-analytics.md)集成导致转化的事件序列。
+* 聚合数据提供了促销活动性能的统一视图，有助于识别自定义转化路径，并且可用于改进通过Audience Manager [!DNL Audience Optimization Reports]或通过与Adobe Analytics](/help/integrations/audience-manager/audience-analytics.md)的[[!DNL Audience Analytics] 集成导致转化的事件序列。
 
 ## 如何跟踪数据
 
@@ -55,15 +66,15 @@ Audience Manager展示和点击事件像素基于Cookie。 像素不会捕获在
 
 ### 展示跟踪像素
 
-当您向广告附加1xl像素透明事件跟踪像素时，Audience Manager会跟踪广告的展示数据。 每次将广告提供给用户并由Web浏览器加载时，都会加载事件像素。 像素从特定于Audience Manager的旧域[`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hans)的客户端子域加载，并包含键值对形式的参数。 该事件调用会收集展示和转化数据，并将其发送到Audience Manager数据收集服务器。
+当您向广告附加1xl像素透明事件跟踪像素时，Audience Manager会跟踪广告的展示数据。 每次将广告提供给用户并由Web浏览器加载时，都会加载事件像素。 像素从特定于Audience Manager的旧域[`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)的客户端子域加载，并包含键值对形式的参数。 该事件调用会收集展示和转化数据，并将其发送到Audience Manager数据收集服务器。
 
 ### 点击跟踪像素
 
-Audience Manager跟踪点击次数的方式与跟踪展示次数类似，不同之处在于，它不会在每次投放广告时加载透明事件像素。 相反，会在广告的点进URL中跟踪点击数据。 广告指向[`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hans)的特定于客户端的子域，该子域是Audience Manager的旧域，可供Audience Manager数据收集服务器处理。 然后，服务器将用户重定向到预期的登陆页面。 URL包含作为键值对的参数。
+Audience Manager跟踪点击次数的方式与跟踪展示次数类似，不同之处在于，它不会在每次投放广告时加载透明事件像素。 相反，会在广告的点进URL中跟踪点击数据。 广告指向[`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)的特定于客户端的子域，该子域是Audience Manager的旧域，可供Audience Manager数据收集服务器处理。 然后，服务器将用户重定向到预期的登陆页面。 URL包含作为键值对的参数。
 
 >[!NOTE]
 >
->如果您的组织使用[!DNL Analytics]跟踪，则您可能不需要Audience Manager点击跟踪。 Adobe Analytics可捕获点击信号，并可通过[服务器端转发](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hans)将其发送到Audience Manager。
+>如果您的组织使用[!DNL Analytics]跟踪，则您可能不需要Audience Manager点击跟踪。 Adobe Analytics可捕获点击信号，并可通过[服务器端转发](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)将其发送到Audience Manager。
 
 >[!MORELIKETHIS]
 >

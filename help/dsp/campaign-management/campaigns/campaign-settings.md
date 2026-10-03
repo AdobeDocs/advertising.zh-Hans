@@ -3,26 +3,33 @@ title: Campaign设置
 description: 请参阅可用营销活动设置的描述。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-TQID: https://experienceleague.adobe.com/tLMBR-i1XpRHeFkfrhh2CtCQI4K0rPgCHqkZv8dk4cA
+TQID: 'https://experienceleague.adobe.com/tLMBR-i1XpRHeFkfrhh2CtCQI4K0rPgCHqkZv8dk4cA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
 subfeature_v2:
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1437
+source-wordcount: '1454'
 ht-degree: 0%
-
 ---
-
 # Campaign设置
 
 ## [!UICONTROL Basic Campaign Details]
@@ -47,23 +54,23 @@ ht-degree: 0%
 
 * **[!UICONTROL How would you like to compute agency fees?]：** （仅具有利润管理的营销活动）如何计算代理费用，代理费用是营销活动总预算中预扣且未包括在净支出中的部分：
 
-   * *[!UICONTROL Margin % of Total Budget]：*（默认）计算费用占总支出的百分比。 指定[!UICONTROL Agency Fee Type] （固定或复合）和[!UICONTROL Margin %]或[!UICONTROL Composite Margin %]。
+  * *[!UICONTROL Margin % of Total Budget]：*（默认）计算费用占总支出的百分比。 指定[!UICONTROL Agency Fee Type] （固定或复合）和[!UICONTROL Margin %]或[!UICONTROL Composite Margin %]。
 
-   * *[!UICONTROL Apply Markup % on top of individual cost components]：*&#x200B;按媒体成本、数据和其他成本的指定百分比计算费用和/或[!DNL Adobe]技术费用。 指定[!UICONTROL Markup %]并选择要应用标记的组件。
+  * *[!UICONTROL Apply Markup % on top of individual cost components]：*&#x200B;按媒体成本、数据和其他成本的指定百分比计算费用和/或[!DNL Adobe]技术费用。 指定[!UICONTROL Markup %]并选择要应用标记的组件。
 
 * **[!UICONTROL Agency Fee Type]：** （使用[!UICONTROL Margin % of Total Budget]的营销活动）代理费用的类型。
 
-   * *[!UICONTROL Fixed]：*（默认）允许DSP保留总支出的固定百分比作为代理费用。 指定[!UICONTROL Margin %]。
+  * *[!UICONTROL Fixed]：*（默认）允许DSP保留总支出的固定百分比作为代理费用。 指定[!UICONTROL Margin %]。
 
-   * *[!UICONTROL Composite]：*&#x200B;允许DSP保留总支出的百分比以计入代理费和[!DNL Adobe]技术费。 指定[!UICONTROL Composite Margin %]。
+  * *[!UICONTROL Composite]：*&#x200B;允许DSP保留总支出的百分比以计入代理费和[!DNL Adobe]技术费。 指定[!UICONTROL Composite Margin %]。
 
 * **[!UICONTROL Margin %]：** （使用具有固定利润的[!UICONTROL Margin % of Total Budget]的促销活动）作为代理费用预扣的总支出的百分比。 毛利值的任何更改仅应用于将来总支出，而不应用于促销活动的历史总支出。 在应用毛利之前，[!UICONTROL Estimated Tax Withholding]值将从总支出中排除。 请参阅以下示例，其中假设促销活动没有支出不足或超支。
 
-   * 示例1：假设[!UICONTROL Gross Budget]是`100 USD`，在整个航班中[!UICONTROL Margin %]是`5%`。 促销活动结束后，代理费用计算为`5 USD` （即`5% of 100 USD`），净支出为`95 USD` （即`campaign budget [100 USD] - agency fees [5 USD]`）。
+  * 示例1：假设[!UICONTROL Gross Budget]是`100 USD`，在整个航班中[!UICONTROL Margin %]是`5%`。 促销活动结束后，代理费用计算为`5 USD` （即`5% of 100 USD`），净支出为`95 USD` （即`campaign budget [100 USD] - agency fees [5 USD]`）。
 
-   * 示例2的毛利发生了更改：对于同一促销活动，假设[!UICONTROL Margin %]在总支出为`5%`时从`10%`更改为`40 USD`。 在更改之前的期间，代理费计算为`2 USD`（即`5% of 40 USD`）；在更改之后的期间，代理费计算为`6 USD`（即`10% of 60 USD`）。 总代理费用计算为`8 USD` （即`2 USD + 6 USD`），净支出为`92 USD` （即`campaign budget [100 USD] - total agency fees [8 USD]`）。
+  * 示例2的毛利发生了更改：对于同一促销活动，假设[!UICONTROL Margin %]在总支出为`40 USD`时从`5%`更改为`10%`。 在更改之前的期间，代理费计算为`2 USD`（即`5% of 40 USD`）；在更改之后的期间，代理费计算为`6 USD`（即`10% of 60 USD`）。 总代理费用计算为`8 USD` （即`2 USD + 6 USD`），净支出为`92 USD` （即`campaign budget [100 USD] - total agency fees [8 USD]`）。
 
-   * 示例3（含预缴税金）：假设[!UICONTROL Gross Budget]为`100 USD`，促销活动投放位置末尾的[!UICONTROL Estimated Tax Withholding]为`10 USD`，且整个投放位置中的[!UICONTROL Margin %]为`5%`。 促销活动结束后，代理费用计算为`4.5 USD` （即`5% of (campaign budget [100 USD] - tax withholding [USD 10])`），净支出为`85.5 USD` （即`campaign budget [100 USD] - agency fees [4.5 USD] - tax withholding [10 USD]`）。
+  * 示例3（含预缴税金）：假设[!UICONTROL Gross Budget]为`100 USD`，促销活动投放位置末尾的[!UICONTROL Estimated Tax Withholding]为`10 USD`，且整个投放位置中的[!UICONTROL Margin %]为`5%`。 促销活动结束后，代理费用计算为`4.5 USD` （即`5% of (campaign budget [100 USD] - tax withholding [USD 10])`），净支出为`85.5 USD` （即`campaign budget [100 USD] - agency fees [4.5 USD] - tax withholding [10 USD]`）。
 
 * **[!UICONTROL Composite Margin %]：** （使用具有复合利润的[!UICONTROL Margin % of Total Budget]的营销活动）将预扣为[!DNL Adobe]技术费和代理费的总支出的百分比。 代理费的计算方法是，从综合保证金数额中扣除Adobe的技术费用。 对综合毛利值所做的任何更改仅应用于将来总支出，而不应用于促销活动的历史总支出。 在应用复合利润之前，[!UICONTROL Estimated Tax Withholding]值将从总支出中排除。
 
@@ -73,7 +80,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Select cost components on which markup will be applied]：** （使用[!UICONTROL Apply Markup % on top of individual cost components]的营销活动）应用[!UICONTROL Markup %]的成本组件。 选择所有适用的组件： *[!UICONTROL Media cost]*、*[!UICONTROL Data and Other costs]*&#x200B;和/或&#x200B;*[!UICONTROL Adobe tech fees]*。 对组件选择所做的任何更改只会应用于将来成本，而不会应用于营销活动的历史成本。
 
-  例如，“[!UICONTROL Markup %]”和“`10%`”的[!UICONTROL Media cost]为[!UICONTROL Data and Other costs]。 如果在营销活动小众测试中的任一时刻，媒体成本为`20 USD`，数据和其他成本为`5 USD`，[!DNL Adobe]技术费用为`2 USD`，则代理费用将计算为`2.50 USD`(即`10% of (20 USD + 5 USD)`，总支出为`29.50 USD`（即`media cost [20 USD] + data and other costs [5 USD] + [!DNL Adobe] tech fees [2 USD] + agency fees [2.50 USD]`）。
+  例如，“[!UICONTROL Media cost]”和“[!UICONTROL Data and Other costs]”的[!UICONTROL Markup %]为`10%`。 如果在营销活动小众测试中的任一时刻，媒体成本为`20 USD`，数据和其他成本为`5 USD`，[!DNL Adobe]技术费用为`2 USD`，则代理费用将计算为`2.50 USD`(即`10% of (20 USD + 5 USD)`，总支出为`29.50 USD`（即`media cost [20 USD] + data and other costs [5 USD] + [!DNL Adobe] tech fees [2 USD] + agency fees [2.50 USD]`）。
 
 **[!UICONTROL Gross Budget]：** （仅具有毛利管理的营销活动）应用指定的边际调整之前的毛营销活动预算。
 
@@ -157,7 +164,7 @@ ht-degree: 0%
 
 **[!UICONTROL Adelaide]：**&#x200B;启用投放位置级别[!UICONTROL Attention Score]量度的跟踪（展示次数中[!DNL Adelaide]“[!DNL Attention Units]”的加权平均数）。 指标可用于除[!DNL Roku]连接的电视、仅VPAID前置播放和非播客音频之外的所有投放类型。 DSP会自动将JavaScript标记附加到所有关联的创意人员，并且[!DNL Adelaide]会跟踪曝光数据并每天将其发送给DSP。 您可以使用日期来手动优化投放策略，以获得更高的关注度分数。
 
-[!UICONTROL Attention Score]字段在报告的[!UICONTROL Metrics]部分中可用；在[!UICONTROL Campaigns]、[!UICONTROL Packages]和[!UICONTROL Placements]视图中；以及在[!UICONTROL Sites]位置详细信息视图[!UICONTROL Ads]的[!UICONTROL Inventory]、[和](/help/dsp/campaign-management/reports/placement-details-view.md)选项卡中可用。
+[!UICONTROL Attention Score]字段在报告的[!UICONTROL Metrics]部分中可用；在[!UICONTROL Campaigns]、[!UICONTROL Packages]和[!UICONTROL Placements]视图中；以及在[位置详细信息视图](/help/dsp/campaign-management/reports/placement-details-view.md)的[!UICONTROL Sites]、[!UICONTROL Ads]和[!UICONTROL Inventory]选项卡中可用。
 
 如果将[!DNL Adelaide]区段用于测量，则对于从带有[!DNL Adelaide]测量标记的广告投放的每个展示，将产生CPM费用。 此费用与[投放级别关注目标](/help/dsp/campaign-management/placements/placement-settings.md)的费用无关。
 

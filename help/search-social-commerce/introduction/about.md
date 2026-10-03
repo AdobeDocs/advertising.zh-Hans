@@ -3,26 +3,34 @@ title: 关于Adobe Advertising Search、Social和Commerce
 description: 了解搜索、社交和Commerce。
 exl-id: a28c49ba-f669-4d15-813b-b30673431d01
 feature: Search Introduction
-TQID: https://experienceleague.adobe.com/BNgdfE-vefdswY5BPajlzPCI4syme0owusbCOq0QLVg
+TQID: 'https://experienceleague.adobe.com/BNgdfE-vefdswY5BPajlzPCI4syme0owusbCOq0QLVg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Predictive modeling
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 776
+source-wordcount: '776'
 ht-degree: 0%
-
 ---
-
 # 关于Adobe Advertising Search、Social和Commerce
 
 [!DNL Adobe]是客户体验解决方案的市场和技术领先者。 Adobe Advertising简化了跨渠道投放广告活动的过程，以便在任何屏幕上、以任何格式进行品牌和效果促销活动管理。 Adobe Advertising包含三个子解决方案：用于搜索、购物、社交、受众网络和性能最大化渠道的Advertising Search、Social和Commerce；用于显示渠道的Advertising DSP (Demand Side Platform)；以及用于为显示广告创建最终用户体验的Advertising Creative。
@@ -51,11 +59,11 @@ Search、Social和Commerce可在您的广告网络中提供全面的促销活动
 
 * **报告：**&#x200B;通过性能数据视图和详细的、可自定义的报告，监控和分析您的项目组合和您正在跟踪的任何其他营销活动的性能。 您可以在数据视图和报告中包含来自Adobe Analytics、[!DNL Google Ads]、[!DNL Google Analytics]和其他第一方企业馈送的转化量度。
 
-   * 配置各种性能数据视图，以便最佳地查看对您而言重要的性能数据。
+  * 配置各种性能数据视图，以便最佳地查看对您而言重要的性能数据。
 
-   * 使用报表模板和电子表格馈送自动化报表生产。
+  * 使用报表模板和电子表格馈送自动化报表生产。
 
-   * 对于项目组合，规范性分析还提供了可用于改善性能的可视化可操作数据。
+  * 对于项目组合，规范性分析还提供了可用于改善性能的可视化可操作数据。
 
 有关支持不同广告网络和广告类型的详细信息，请参阅[支持的清单](/help/search-social-commerce/introduction/supported-inventory.md)。
 

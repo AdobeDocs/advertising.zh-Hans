@@ -3,22 +3,26 @@ title: 编辑自定义报告
 description: 了解如何编辑自定义报表设置。
 feature: DSP Custom Reports
 exl-id: 42208276-d766-41c8-a764-c79a20e302e6
-TQID: https://experienceleague.adobe.com/qixYCxbd0USChamHh4ib9fq1atTHxa1Kupp3P7QBBz8
+TQID: 'https://experienceleague.adobe.com/qixYCxbd0USChamHh4ib9fq1atTHxa1Kupp3P7QBBz8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: a8f4be51-fec2-5e52-b41e-a611c28e444c
+    internal-label: DSP Custom Reports
 subfeature_v2:
   - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+    internal-label: Custom reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 68
+source-wordcount: '68'
 ht-degree: 0%
-
 ---
-
 # 编辑自定义报告
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**。

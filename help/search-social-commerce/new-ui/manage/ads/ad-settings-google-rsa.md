@@ -1,20 +1,24 @@
 ---
 title: '[!DNL Google Ads]响应式搜索广告设置'
-description: 引用 [!DNL Google Ads] 响应式搜索广告的设置。
+description: 引用[!DNL Google Ads]响应式搜索广告的设置。
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 730b474b83ae4df47c18f93adfec62b1dc9b8a16
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 85
+source-wordcount: '86'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]响应式搜索广告设置
 
 [!DNL Google Ads]动态组合了最多有三个标题和两个描述的[响应式搜索广告](https://support.google.com/google-ads/answer/7684791?hl=en) (RSA)。
@@ -23,7 +27,7 @@ ht-degree: 0%
 >
 >每个广告组最多可以包含三个启用的响应式搜索广告。
 
-有关每个帐户[&#128279;](https://support.google.com/google-ads/answer/6372658?hl=en)的广告限制，请参阅[!DNL Google Ads]帮助。
+有关每个帐户](https://support.google.com/google-ads/answer/6372658?hl=en)的[广告限制，请参阅[!DNL Google Ads]帮助。
 
 ## [!UICONTROL Basic Settings]
 

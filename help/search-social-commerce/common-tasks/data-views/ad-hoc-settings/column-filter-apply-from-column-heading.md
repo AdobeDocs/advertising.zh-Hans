@@ -3,25 +3,30 @@ title: 从列标题菜单应用数据过滤器
 description: 了解如何从列标题菜单中筛选页面数据。
 exl-id: 508f254a-d859-4155-9bbd-84e0442f01d5
 feature: Search Common Tasks, Search Custom Data Views
-TQID: https://experienceleague.adobe.com/8HhbDC38BA48vw3c8fqCEaCKNUWs3q2HwCEiDfieWUM
+TQID: 'https://experienceleague.adobe.com/8HhbDC38BA48vw3c8fqCEaCKNUWs3q2HwCEiDfieWUM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: d6e2ef48-fac7-5a4a-96ff-9ac0264dc826
+    internal-label: Search Custom Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 221
+source-wordcount: '225'
 ht-degree: 0%
-
 ---
-
 # 从列标题菜单应用数据过滤器
 
 <!-- The same in new UI and legacy CM views -->
 
 <!-- Doesn't include instructions for legacy Portfolios or Reports views -->
 
-您可以对列应用所需数量的过滤器，一次应用一个。<!-- True only for entity names, I think: All filters are joined using the AND operator. -->要使用所有可用量度一次添加多个筛选器，请参阅[应用工具栏中的数据筛选器](column-filter-apply-from-toolbar.md)。
+您可以对列应用任意数量的筛选器，一次应用一个。<!-- True only for entity names, I think: All filters are joined using the AND operator. --> 要使用所有可用量度一次添加多个筛选器，请参阅“应用工具栏中的数据筛选器”[](column-filter-apply-from-toolbar.md)。
 
 1. 单击列标题右侧的![向下箭头](/help/search-social-commerce/assets/arrow-down-dropdown.png "向下箭头")，然后单击&#x200B;**[!UICONTROL Add Filter]**。
 

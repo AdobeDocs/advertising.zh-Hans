@@ -3,25 +3,31 @@ title: 广告规范
 description: 参考常规和特定于发布者的广告规范。
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-TQID: https://experienceleague.adobe.com/8wZ1E-VIb9WRVM3e4DpfFV-BWdhufQ-4D7-RDDRSkIQ
+TQID: 'https://experienceleague.adobe.com/8wZ1E-VIb9WRVM3e4DpfFV-BWdhufQ-4D7-RDDRSkIQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Data management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 873
-ht-degree: 0%
-
+source-wordcount: '950'
+ht-degree: 1%
 ---
-
 # 支持的广告类型的规范
 
 ## 视频广告（前置广告、CTV和通用视频）
@@ -70,17 +76,17 @@ ht-degree: 0%
 
 * **发现：**&#x200B;查看发现的[广告规范](/help/dsp/assets/discovery-networks-ad-specs.pdf)。
 
-* **迪士尼(包括 Hulu)：**&#x200B;查看迪士尼的[广告规范](https://www.disneyadvertising.com/mediakit/#specifications)。
+* **迪士尼（包括Hulu）：**&#x200B;查看迪士尼的[广告规范](https://www.disneyadvertising.com/mediakit/#specifications)。
 
 * **HBO Max：**&#x200B;查看HBO Max的[广告规范](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx)。
 
 * **NBCUniversal：**
 
-   * [数字视频](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
+  * [数字视频](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
 
-   * [实时流](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
+  * [实时流](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
 
-   * [孔雀](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
+  * [孔雀](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
 * **派拉蒙：**&#x200B;请参阅派拉蒙的[广告规范](https://www.paramount.com/digital-ads)。
 
@@ -129,35 +135,35 @@ ht-degree: 0%
 #### 其他发布者要求
 
 * **[!DNL iHeartRadio]**
-   * 长度：5、15、30或60秒
-   * 文件类型：MP3
-   * 最大文件大小：320 kbps
-   * 音量：44.1千赫
+  * 长度：5、15、30或60秒
+  * 文件类型：MP3
+  * 最大文件大小：320 kbps
+  * 音量：44.1千赫
 
 * **[!DNL Pandora]**
-   * 长度：15或30秒
-   * 文件类型：MP4（应用程序内）、MP3（桌面）
-   * 最大文件大小：2.2 MB
+  * 长度：15或30秒
+  * 文件类型：MP4（应用程序内）、MP3（桌面）
+  * 最大文件大小：2.2 MB
 
 * **[!DNL SoundCloud]**
-   * 长度：6、15或30秒
-   * 文件类型：MP3
-   * 最大文件大小：5 MB
+  * 长度：6、15或30秒
+  * 文件类型：MP3
+  * 最大文件大小：5 MB
 
 * **[!DNL Spotify]**
-   * 长度：最多30秒
-   * 文件类型： OGG
-   * 最大文件大小：500MB
-   * 卷：RMS规范化为–14；dBFS峰值规范化为–0.2 dBFS
+  * 长度：最多30秒
+  * 文件类型： OGG
+  * 最大文件大小：500MB
+  * 卷：RMS规范化为–14；dBFS峰值规范化为–0.2 dBFS
 
 * **[!DNL TargetSpot]**
-   * 长度：15、30或60秒
-   * 文件类型：MP3
+  * 长度：15、30或60秒
+  * 文件类型：MP3
 
 * **[!DNL TuneIn]**
-   * 长度：10、15或30秒
-   * 文件类型：MP3、OGG
-   * 音量：44.1千赫
+  * 长度：10、15或30秒
+  * 文件类型：MP3、OGG
+  * 音量：44.1千赫
 
 ### 伴随横幅广告的要求（可选）
 
@@ -165,30 +171,30 @@ ht-degree: 0%
 
 #### 其他发布者要求
 
-* **[!DNL iHeartRadio]：**
-   * 文件类型：JPEG、JPG、PNG、GIF、SWF、HTML
-   * 最大文件大小：2.2 MB
-   * 尺寸：300x250
+* **[!DNL iHeartRadio]:**
+  * 文件类型：JPEG、JPG、PNG、GIF、SWF、HTML
+  * 最大文件大小：2.2 MB
+  * 尺寸：300x250
 
-* **[!DNL Pandora]：**
-   * 文件类型：JPEG、GIF
-   * 最大文件大小：大小：100 KB
-   * 尺寸：300x250（移动设备或台式机）或500x500（台式机）
+* **[!DNL Pandora]:**
+  * 文件类型：JPEG、GIF
+  * 最大文件大小：大小：100 KB
+  * 尺寸：300x250（移动设备或台式机）或500x500（台式机）
 
-* **[!DNL SoundCloud]：**
-   * 文件类型：静态JPG、PNG
-   * 最大文件大小：小于400 KB
-   * 尺寸：1024x1024
+* **[!DNL SoundCloud]:**
+  * 文件类型：静态JPG、PNG
+  * 最大文件大小：小于400 KB
+  * 尺寸：1024x1024
 
-* **[!DNL Spotify]：**
-   * 文件类型：静态JPG、PNG
-   * 最大文件大小：200 KB
-   * 尺寸：300x250
+* **[!DNL Spotify]:**
+  * 文件类型：静态JPG、PNG
+  * 最大文件大小：200 KB
+  * 尺寸：300x250
 
-* **[!DNL TuneIn]：**
-   * 文件类型：JPEG、JPG、PNG、GIF、HTML
-   * 最大文件大小：2 MB
-   * 尺寸：300x250
+* **[!DNL TuneIn]:**
+  * 文件类型：JPEG、JPG、PNG、GIF、HTML
+  * 最大文件大小：2 MB
+  * 尺寸：300x250
 
 ## 原生显示广告
 

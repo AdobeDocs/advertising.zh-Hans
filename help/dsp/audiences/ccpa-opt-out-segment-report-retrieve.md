@@ -3,24 +3,33 @@ title: 检索消费者选择退出销售报表
 description: 了解如何检索为选择退出销售请求提交的ID报表。
 feature: CCPA, DSP Segments
 exl-id: 94133ce3-4e2c-4a24-90c9-61bf10731668
-TQID: https://experienceleague.adobe.com/m5dLZLZsdmNVIazfFlsPcP7Y5t1tphs1CPwJ5lxvHP0
+TQID: 'https://experienceleague.adobe.com/m5dLZLZsdmNVIazfFlsPcP7Y5t1tphs1CPwJ5lxvHP0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 2b670c6e-542a-5afe-b96b-d9ce7818cd55
+    internal-label: DSP Segments
+  - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+    internal-label: Compliance
 subfeature_v2:
   - id: c193c532-b70e-4556-bde7-857186cbe140
+    internal-label: Segments
+  - id: c867fa1b-f589-43fa-b071-3c62f0038f23
+    internal-label: CCPA
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 158
+source-wordcount: '175'
 ht-degree: 0%
-
 ---
-
 # 检索消费者选择退出销售报表
 
 您可以按月检索客户为帐户的选择退出销售请求提交的ID报表。 您可以检索在前三个月创建的报告。 每个链接的有效期为七天，但每当客户尝试检索一个链接时，都会刷新。

@@ -4,22 +4,30 @@ description: 了解如何在[!UICONTROL Ad Groups]视图中生成、下载和删
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 330bfda2-f46f-428e-b17c-efbe749b19ab
-TQID: https://experienceleague.adobe.com/yPzCnzZJwgX56fLLvbot0-iXAq5NWKMqdtTEjI9Q9y0
+TQID: 'https://experienceleague.adobe.com/yPzCnzZJwgX56fLLvbot0-iXAq5NWKMqdtTEjI9Q9y0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 348
+source-wordcount: '348'
 ht-degree: 0%
-
 ---
-
 # （新UI）从[!UICONTROL Ad Groups]视图管理数据视图报告
 
 *Beta功能*

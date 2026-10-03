@@ -3,20 +3,24 @@ title: 用于报表的数据
 description: 了解数据视图和自定义报告中可用的不同类型数据。
 exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/dJGj3NmyEAmXwLdTYqCURrPhiIlJzpY1XdjrBVVUsgU
+TQID: 'https://experienceleague.adobe.com/dJGj3NmyEAmXwLdTYqCURrPhiIlJzpY1XdjrBVVUsgU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 599
-ht-degree: 0%
-
+source-wordcount: '639'
+ht-degree: 6%
 ---
-
 # 用于报表的数据
 
 搜索、社交和Commerce包括基于点击和转化数据的全套性能报表。 您可以从[!UICONTROL Portfolios]和[!UICONTROL Campaigns]视图中，以及通过生成各种基本和高级报告来查看组合或广告帐户的各种组件的基本性能数据。
@@ -27,17 +31,17 @@ ht-degree: 0%
 
 * **标准性能指标：**
 
-   * **[!UICONTROL Impressions]：**&#x200B;广告投放的总次数。
+  * **[!UICONTROL Impressions]：**&#x200B;广告投放的总次数。
 
-   * **[!UICONTROL Clicks]：**&#x200B;广告中链接被点击的总次数。
+  * **[!UICONTROL Clicks]：**&#x200B;广告中链接被点击的总次数。
 
-   * **[!UICONTROL Cost]：**&#x200B;广告的总成本。 每次点击付费(PPC)广告的成本始终是点击次数乘以每次点击成本。
+  * **[!UICONTROL Cost]：**&#x200B;广告的总成本。 每次点击付费(PPC)广告的成本始终是点击次数乘以每次点击成本。
 
-   * **[!UICONTROL Cost per Click]：**&#x200B;广告一次点击的平均成本，即广告成本除以广告点击总数。 例如，如果您为一个广告展示花费了100 USD，并且该广告生成了10次点击，则每次点击成本为100 USD/10=10 USD/每次点击。
+  * **[!UICONTROL Cost per Click]：**&#x200B;广告一次点击的平均成本，即广告成本除以广告点击总数。 例如，如果您在一个广告展示中花费了100个USD，而该广告产生了10次点击，则每次点击的成本为100 USD/10=10 USD 。
 
-   * **[!UICONTROL Average Position]：** （适用时）已投放广告的平均位置，用展示次数加权。
+  * **[!UICONTROL Average Position]：** （适用时）已投放广告的平均位置，用展示次数加权。
 
-   * **[!UICONTROL Estimated Clicks]：** （仅包含在具有Adobe Advertising转化跟踪服务的广告商的高级报告中）反向链接网站的某个城市或域名的预计点击总数。 这可能包括广告商没有广告帐户的广告网络的数据。
+  * **[!UICONTROL Estimated Clicks]：** （仅包含在具有Adobe Advertising转化跟踪服务的广告商的高级报告中）反向链接网站的某个城市或域名的预计点击总数。 这可能包括广告商没有广告帐户的广告网络的数据。
 
 * **转化量度：**&#x200B;每个广告商的转化量度的转化总数，或针对某个转化量度跟踪的交易数据。 这可能包括转化和网站参与量度，但不包括从Adobe Analytics同步的计算量度和高级计算量度。
 
@@ -53,14 +57,14 @@ ht-degree: 0%
 
 | 报表组 | 报表 | 数据可用的日期 |
 | --- | --- | --- |
-| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | 自二零二一年五月十五日起。<br><br><b>异常：</b>显着性指标数据自2022年9月8日起可用。 |
-| | 所有其他[!UICONTROL Basic Reports] | 之前的36个月。<br><br><b>异常：</b>显着性指标数据自2022年9月8日起可用。 |
+| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | 从2021年5月15日开始。<br><br><b>异常：</b>突出量度数据自2022年9月8日起可用。 |
+| | 所有其他[!UICONTROL Basic Reports] | 从2022年9月8日开始，将提供前36个月。<br><br><b>异常：</b>突出量度数据。 |
 | [!UICONTROL Advanced Reports] | [!UICONTROL Transaction Report] | 之前的45天。 |
-| | [!UICONTROL Domain Referral Report]，[!UICONTROL Geo Distribution Report] | 前两(2)个月加上本月。 |
+| | [!UICONTROL Domain Referral Report], [!UICONTROL Geo Distribution Report] | 前两(2)个月加上本月。 |
 | [!UICONTROL Assist Reports] | 全部 | 前18个月。 |
 | [!UICONTROL Specialty Reports] | [!UICONTROL AdWords Audience Target Report] | 上一年。 |
 | | [!UICONTROL Google Asset Group Performance Report] | 无限制 |
-| | [!UICONTROL MSA Ad Extension by Ad Report]，[!UICONTROL MSA Ad Extension by Keyword Report]，[!UICONTROL MSA Ad Extension Detail Report]，[!UICONTROL MSA Network Impression Share Report]，[!UICONTROL MSA Network Performance Report] | 最近180天。 |
+| | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report], [!UICONTROL MSA Network Impression Share Report], [!UICONTROL MSA Network Performance Report] | 最近180天。 |
 | | [!UICONTROL RSA Assets Report] | 由二零二二年八月十日起 |
 | | 所有其他[!UICONTROL Specialty Reports] | 前两(2)个月。 |
 | [!UICONTROL Model Accuracy Reports] | [!UICONTROL Forecast Accuracy Report] | 前18个月。 |

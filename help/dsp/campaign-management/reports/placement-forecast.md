@@ -3,22 +3,26 @@ title: 查看投放预测报表
 description: 查看投放位置的特定定位策略的展示次数、花费和最佳最高出价预测值。
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-TQID: https://experienceleague.adobe.com/2yZV8tIzlLDMAVjDkqcUVt55-a-L0vjLFkWrni-mNU8
+TQID: 'https://experienceleague.adobe.com/2yZV8tIzlLDMAVjDkqcUVt55-a-L0vjLFkWrni-mNU8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 548
+source-wordcount: '551'
 ht-degree: 0%
-
 ---
-
 # 查看投放预测报表
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
@@ -34,13 +38,13 @@ ht-degree: 0%
 
 预测包括以下信息：
 
-* **[!UICONTROL Summary]：**
+* **[!UICONTROL Summary]:**
 
-   * **[!UICONTROL Estimated CPM]：**&#x200B;目标设置预计可达到的每千次展示的估计成本(eCPM)。
+  * **[!UICONTROL Estimated CPM]：**&#x200B;目标设置预计可达到的每千次展示的估计成本(eCPM)。
 
-   * **[!UICONTROL Budget]：**&#x200B;定位设置的预计预算。
+  * **[!UICONTROL Budget]：**&#x200B;定位设置的预计预算。
 
-   * **[!UICONTROL Impression]：**&#x200B;定位设置的预计展示次数。
+  * **[!UICONTROL Impression]：**&#x200B;定位设置的预计展示次数。
 
 * **[!UICONTROL Budget Yield Curve]：**&#x200B;如果所有其他定位设置相同，投放位置在不同预算级别可投放的预计展示次数。
 
@@ -66,13 +70,13 @@ ht-degree: 0%
 
 * 历史数据：当有足够的历史数据时，投放位置预测可用。 以下是历史数据可能不足时的示例：
 
-   * 投放位置将定位营销活动的新区域。
+  * 投放位置将定位营销活动的新区域。
 
-   * 投放位置将定向营销活动的新库存交易。
+  * 投放位置将定向营销活动的新库存交易。
 
-   * 投放位置为营销活动使用新的广告类型。
+  * 投放位置为营销活动使用新的广告类型。
 
-     投放位置通常是供应方平台定义的多个广告模板的集合。 因此，即使投放位置已存在很长时间，如果基础广告模板是新的，则预测工具无法创建预测。
+    投放位置通常是供应方平台定义的多个广告模板的集合。 因此，即使投放位置已存在很长时间，如果基础广告模板是新的，则预测工具无法创建预测。
 
 ## 打开投放预测报表
 

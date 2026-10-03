@@ -3,22 +3,28 @@ title: 关于搜索、社交和Commerce的跟踪
 description: 了解搜索、社交和Commerce的跟踪选项。
 exl-id: f0fd367a-dd5a-46ec-a3d6-9b491860aae8
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/IpPgzsMgRsOCmLv3dyEKBp4EPQwgN90UkVIQy9SaXB8
+TQID: 'https://experienceleague.adobe.com/IpPgzsMgRsOCmLv3dyEKBp4EPQwgN90UkVIQy9SaXB8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 756
+source-wordcount: '772'
 ht-degree: 0%
-
 ---
-
 # 关于搜索、社交和Commerce的跟踪
 
 要跟踪广告效果，Search、Social和Commerce需要广告的展示次数、点击次数、成本和转化（交易）数据。 Search、Social和Commerce将使用此数据构建优化广告组合所需的数据预测模型。
@@ -39,7 +45,7 @@ ht-degree: 0%
 
 * 在所有其他情况下，广告网络都会将点击直接发送到Adobe Advertising像素服务器。 像素服务器会在用户的计算机上放置一个Cookie（如果尚不存在），然后将用户重定向到您网站上的相关URL。 最终用户的整体体验与没有重定向时的体验相同。
 
-Cookie在[!DNL Adobe]域(`everesttech.net`)中设置为第一方Cookie。 在重定向后，用户位于广告商的域中，并且该Cookie随后被视为第三方Cookie。 有关Adobe Advertising Cookie的详细信息，请参阅[Adobe Advertising Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=zh-Hans)。
+Cookie在[!DNL Adobe]域(`everesttech.net`)中设置为第一方Cookie。 在重定向后，用户位于广告商的域中，并且该Cookie随后被视为第三方Cookie。 有关Adobe Advertising Cookie的详细信息，请参阅[Adobe Advertising Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html)。
 
 ## 转化数据
 

@@ -3,13 +3,17 @@ title: （新UI）重命名活动
 description: 了解如何在不打开营销活动设置的情况下重命名营销活动。
 feature: Search Campaign Management
 hide: true
-source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%
-
 ---
-
 # （新UI）重命名活动
 
 *Beta功能*

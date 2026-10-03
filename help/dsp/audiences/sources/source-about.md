@@ -3,24 +3,29 @@ title: 关于第一方受众源
 description: 了解如何将第一方区段中的其他用户标识符转换为通用ID以实现无痕定位。
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-TQID: https://experienceleague.adobe.com/8wdjwhNF-KDspEa1wSYWwlDOJxc3LiyqnSwEE-Fq9bY
+TQID: 'https://experienceleague.adobe.com/8wdjwhNF-KDspEa1wSYWwlDOJxc3LiyqnSwEE-Fq9bY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 79f0b3872a0d5d3765093ce83cc8f1c284a8255c
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 710
+source-wordcount: '715'
 ht-degree: 0%
-
 ---
-
 # 关于第一方受众源
 
 受众源功能允许您按原样导入包含通用ID的第一方区段，或将其转换为包含指定通用ID类型的区段：
@@ -46,21 +51,21 @@ Using your first-party data, you can create segments with IDs from the following
 
 * [[!DNL LiveRamp] [!DNL RampIDs]](https://liveramp.com/identity-resolution):
 
-   * 用于重新定位已登录的用户。
+  * 用于重新定位已登录的用户。
 
-     [!DNL RampIDs]适用于北美洲、澳大利亚和新西兰的用户。
+    [!DNL RampIDs]适用于北美洲、澳大利亚和新西兰的用户。
 
-     费用包括交付的每个展示广告展示0.15美元，以及交付的每个视频广告展示0.25美元。
+    费用包括投放的每个显示广告展示的USD 0.15和投放的每个视频广告展示的USD 0.25。
 
-   * 用于使用[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)的测量。
+  * 用于使用[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)的测量。
 
 * [[!DNL Unified ID 2.0 (UID2.0)] ID](https://unifiedid.com)：
 
-   * 用于重新定位已登录的用户。
+  * 用于重新定位已登录的用户。
 
-     [!DNL UID2 IDs]不适用于欧洲经济区和其他一些国家/地区的用户。 查看[禁止的国家/地区列表](/help/policies/universal-id-policy.md#prohibited-countries-uid2)。
+    [!DNL UID2 IDs]不适用于欧洲经济区和其他一些国家/地区的用户。 查看[禁止的国家/地区列表](/help/policies/universal-id-policy.md#prohibited-countries-uid2)。
 
-     费用包括交付的每个展示广告展示0.15美元，以及交付的每个视频广告展示0.25美元。
+    费用包括投放的每个显示广告展示的USD 0.15和投放的每个视频广告展示的USD 0.25。
 
 <!--
  Not yet
@@ -92,9 +97,9 @@ DSP还可以使用批处理、流式处理或基于API的数据共享连接到�
 
 ### [!DNL Adobe Real-Time CDP]
 
-DSP是[the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hans)的集成&#x200B;*目标*，它是Adobe Experience Platform的一部分。
+DSP是[the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)的集成&#x200B;*目标*，它是Adobe Experience Platform的一部分。
 
-在[!DNL Real-Time CDP]中，目标是与外部数据平台的连接，可无缝激活数据。 您可以使用目标在DSP中激活针对定向广告的经过哈希处理的电子邮件地址、Cookie和移动广告ID。 有关目标的更多信息，请参阅Experience Platform [目标指南](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hans)，包括产品概述、有关[创建目标工作区](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html?lang=zh-Hans)和[创建目标连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=zh-Hans)以及[将数据激活到目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html?lang=zh-Hans)的说明。
+在[!DNL Real-Time CDP]中，目标是与外部数据平台的连接，可无缝激活数据。 您可以使用目标在DSP中激活针对定向广告的经过哈希处理的电子邮件地址、Cookie和移动广告ID。 有关目标的更多信息，请参阅Experience Platform [目标指南](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)，包括产品概述、有关[创建目标工作区](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html)和[创建目标连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html)以及[将数据激活到目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html)的说明。
 
 要使DSP能够摄取您的[!DNL Adobe] [!DNL Real-time CDP]第一方区段并将经过哈希处理的电子邮件地址、Cookie和移动设备广告ID转换为通用ID，请参阅“[将用户ID从 [!DNL Adobe Real-Time CDP] 转换为通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)”。
 

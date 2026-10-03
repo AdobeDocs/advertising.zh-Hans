@@ -3,21 +3,26 @@ title: 关于Adobe Advertising转化和页面查看跟踪标记的常见问题�
 description: 请参阅Adobe Advertising转化与页面查看跟踪标记的比较。
 exl-id: 2e5ef792-e0f5-4409-bd37-87d9fab1265f
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/ckLRjqXGTShwM2TTyULRKjPwL5RYVWkiVVSkwMmvxE8
+TQID: 'https://experienceleague.adobe.com/ckLRjqXGTShwM2TTyULRKjPwL5RYVWkiVVSkwMmvxE8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 45b15880c20d516e4bab1ec664a45ebdf8ffbdcc
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 327
+source-wordcount: '327'
 ht-degree: 0%
-
 ---
-
 # 关于Adobe Advertising转化和页面查看跟踪标记的常见问题解答
 
 以下内容适用于Adobe Advertising转化跟踪标记和页面查看跟踪标记。
@@ -35,7 +40,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 所有新的实施都使用JavaScript版本3。
->* 带ECID的JavaScript标记使用[Adobe Experience Cloud ID (ECID)服务](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hans)以及旧版ef_id和gsurferid来度量转化。 此最新标记创建[第一方CX Enterprise s_ecid Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=zh-Hans)，并提供与其他CX Enterprise产品之间的更紧密集成。
+>* 带ECID的JavaScript标记使用[Adobe Experience Cloud ID (ECID)服务](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html)以及旧版ef_id和gsurferid来衡量转化情况。 此最新标记创建[第一方CX Enterprise s_ecid Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html)，并提供与其他CX Enterprise产品之间的更紧密集成。
 >* 仅当已在广告商的网页上实施标记时，才使用JavaScript版本2标记。
 >* 最佳实践是使用JavaScript标记，而不是图像标记，除非网站有禁止使用这些标记的策略。
 >* 广告商需要使用JavaScript标记，它们需要定位在Adobe CX Enterprise中创建、在Adobe Audience Manager中创建或从Audience Manager或Adobe Analytics发布到Adobe CX Enterprise的受众。

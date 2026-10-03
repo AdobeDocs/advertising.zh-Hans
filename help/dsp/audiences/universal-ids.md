@@ -3,27 +3,35 @@ title: 支持激活通用ID
 description: 了解在以下支持方面的支持：导入通用ID区段，创建自定义区段以跟踪通用ID，以及将第一方区段中的其他用户标识符转换为通用ID以实现无痕定位。
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-TQID: https://experienceleague.adobe.com/A4fMoTW9gHD1i9Gdg1FALrBlz0XxMqhHOp9YO6kf3BQ
+TQID: 'https://experienceleague.adobe.com/A4fMoTW9gHD1i9Gdg1FALrBlz0XxMqhHOp9YO6kf3BQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1610
+source-wordcount: '1610'
 ht-degree: 0%
-
 ---
-
 # 支持激活通用ID
 
 <!-- Once we have CDP support for ID5 and can set up activation via sources, then maybe I can move this info into "About Sources" and "About Audiences." Or maybe make this the go-to page, removing info from those other pages? -->
@@ -94,19 +102,19 @@ DSP支持基于人员的通用ID，以便跨DSP支持的数字格式进行无息
 
 * 复制原始包和投放位置，根据测试的大小调整预算，将受众更改为使用基于[!DNL RampID]的区段（对于经过身份验证的用户）或基于ID5的区段（对于未经身份验证的用户），并验证新包和投放位置是否花费了其完整预算。
 
-   * 要将基于ID的通用区段的效果与定位其他受众标识符（如Cookie或移动广告ID）的投放效果进行比较，请创建一个活动，其中包含一个单独的基于ID的通用投放和基于ID的旧版投放。
+  * 要将基于ID的通用区段的效果与定位其他受众标识符（如Cookie或移动广告ID）的投放效果进行比较，请创建一个活动，其中包含一个单独的基于ID的通用投放和基于ID的旧版投放。
 
-     要进行完整的重定位测试，请同时定位经过身份验证的用户的RampID和未经身份验证的用户的ID5。
+    要进行完整的重定位测试，请同时定位经过身份验证的用户的RampID和未经身份验证的用户的ID5。
 
-     获得最佳性能不应作为主要比较。 相反，请确定哪些ID正在很好地缩放，这可能会稍后通知您的优化和预算分配。 长期目标是弥补在Cookie被弃用时损失的展示次数和网站流量。
+    获得最佳性能不应作为主要比较。 相反，请确定哪些ID正在很好地缩放，这可能会稍后通知您的优化和预算分配。 长期目标是弥补在Cookie被弃用时损失的展示次数和网站流量。
 
-   * 要比较浏览器总访问范围，请在相同位置定位基于ID的通用区段和基于ID的旧版区段。 使用与上一个用例相同的营销活动设置，只不过您不需要分摊营销活动预算。
+  * 要比较浏览器总访问范围，请在相同位置定位基于ID的通用区段和基于ID的旧版区段。 使用与上一个用例相同的营销活动设置，只不过您不需要分摊营销活动预算。
 
-     虽然为通用ID提供了竞价偏好设置，但旧版ID会在通用ID不可用时接收竞价。 确保比较不同浏览器（包括Chrome、Safari和Mozilla）中的范围。
+    虽然为通用ID提供了竞价偏好设置，但旧版ID会在通用ID不可用时接收竞价。 确保比较不同浏览器（包括Chrome、Safari和Mozilla）中的范围。
 
-     >[!NOTE]
-     >
-     >频率上限适用于单个ID。 当用户有多种ID类型时，您与该用户的联系可能会超出您的预期。
+    >[!NOTE]
+    >
+    >频率上限适用于单个ID。 当用户有多种ID类型时，您与该用户的联系可能会超出您的预期。
 
 * 请记住，经过身份验证的受众区段的访问范围自然小于基于Cookie的区段的访问范围，使用其他定位选项会进一步减少您的访问范围。 谨慎使用粒度定位，尤其是使用AND语句连接多个目标。
 
@@ -128,11 +136,11 @@ DSP支持基于人员的通用ID，以便跨DSP支持的数字格式进行无息
 
 * 已转换为[!DNL RampIDs]的经过哈希处理的电子邮件ID：
 
-   * 如果多个用户档案使用相同的电子邮件ID，则DSP区段计数可能会低于客户数据平台中的用户档案计数。 例如，在Adobe Photoshop中，您可以使用单个电子邮件ID创建公司帐户和个人帐户。 但是，如果两个配置文件属于同一个人，则配置文件将映射到同一个电子邮件ID，并相应地映射到一个[!DNL RampID]。
+  * 如果多个用户档案使用相同的电子邮件ID，则DSP区段计数可能会低于客户数据平台中的用户档案计数。 例如，在Adobe Photoshop中，您可以使用单个电子邮件ID创建公司帐户和个人帐户。 但是，如果两个配置文件属于同一个人，则配置文件将映射到同一个电子邮件ID，并相应地映射到一个[!DNL RampID]。
 
-   * [!DNL RampID]可以升级到新值。 如果[!DNL LiveRamp]无法识别电子邮件ID或无法将其映射到其数据库中的现有[!DNL RampID]，则它将新[!DNL RampID]分配给电子邮件ID。 将来，当他们能够将电子邮件ID映射到另一个[!DNL RampID]或者能够收集有关同一电子邮件ID的详细信息时，他们就会将[!DNL RampID]升级到新值。 [!DNL LiveRamp]引用此操作为从“派生”[!DNL RampID]升级到“维护”[!DNL RampID]。 但是，DSP无法获取派生和维护[!DNL RampIDs]之间的映射，因此无法从DSP区段中删除以前版本的RampID。 在这种情况下，区段计数可以大于用户档案计数。
+  * [!DNL RampID]可以升级到新值。 如果[!DNL LiveRamp]无法识别电子邮件ID或无法将其映射到其数据库中的现有[!DNL RampID]，则它将新[!DNL RampID]分配给电子邮件ID。 将来，当他们能够将电子邮件ID映射到另一个[!DNL RampID]或者能够收集有关同一电子邮件ID的详细信息时，他们就会将[!DNL RampID]升级到新值。 [!DNL LiveRamp]引用此操作为从“派生”[!DNL RampID]升级到“维护”[!DNL RampID]。 但是，DSP无法获取派生和维护[!DNL RampIDs]之间的映射，因此无法从DSP区段中删除以前版本的RampID。 在这种情况下，区段计数可以大于用户档案计数。
 
-     示例：用户登录到[!DNL Adobe]网站并访问Photoshop页面。 如果[!DNL LiveRamp]没有任何关于电子邮件ID的现有信息，则他们将其分配给派生的[!DNL RampID]，例如D123。 15天后，用户访问同一页面，但[!DNL LiveRamp]在这15天内升级了[!DNL RampID]并将该[!DNL RampID]重新分配到M123。 即使客户数据平台的“Photoshop发烧友”区段仅有一个用户的电子邮件ID，DSP区段仍具有两个RampID：D123和M123。
+    示例：用户登录到[!DNL Adobe]网站并访问Photoshop页面。 如果[!DNL LiveRamp]没有任何关于电子邮件ID的现有信息，则他们将其分配给派生的[!DNL RampID]，例如D123。 15天后，用户访问同一页面，但[!DNL LiveRamp]在这15天内升级了[!DNL RampID]并将该[!DNL RampID]重新分配到M123。 即使客户数据平台的“Photoshop发烧友”区段仅有一个用户的电子邮件ID，DSP区段仍具有两个RampID：D123和M123。
 
 ## 故障排除
 

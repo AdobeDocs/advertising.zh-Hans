@@ -3,22 +3,26 @@ title: 编辑投放位置的广告计划
 description: 了解如何更改附加到投放位置的广告的广告计划。
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-TQID: https://experienceleague.adobe.com/-5TLojZnwpnYonGlRARUUljuNMd2ZDGpnU9u1jzsHyw
+TQID: 'https://experienceleague.adobe.com/-5TLojZnwpnYonGlRARUUljuNMd2ZDGpnU9u1jzsHyw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 442
+source-wordcount: '444'
 ht-degree: 0%
-
 ---
-
 # 编辑投放位置的广告计划
 
 ## 编辑一个或多个投放的广告计划
@@ -45,9 +49,9 @@ ht-degree: 0%
 
    * **[!UICONTROL Flight N Weight]** （如[!UICONTROL Flight 1 Weight]）：如何旋转航班广告。 输入值：
 
-      * 要平均旋转航班广告，请输入`[!UICONTROL Even]`。
+     * 要平均旋转航班广告，请输入`[!UICONTROL Even]`。
 
-      * 要不均匀旋转航班广告，请输入每个广告旋转的相对权重，以百分比表示（如`40`表示40%）。 航班的总重量必须等于100。
+     * 要不均匀旋转航班广告，请输入每个广告旋转的相对权重，以百分比表示（如`40`表示40%）。 航班的总重量必须等于100。
 
 1. 上传已编辑的广告计划模板：
 
@@ -77,9 +81,9 @@ ht-degree: 0%
 
    * 要从广告中删除现有航班，请单击航班列的广告行中的&#x200B;**[!UICONTROL x]**。
 
-      * （当多个广告具有相同的飞行时）要不均匀旋转广告，请在飞行信息中单击&#x200B;**[!UICONTROL Even Rotation]**，然后输入旋转每个广告的相对权重（百分比）。
+     * （当多个广告具有相同的飞行时）要不均匀旋转广告，请在飞行信息中单击&#x200B;**[!UICONTROL Even Rotation]**，然后输入旋转每个广告的相对权重（百分比）。
 
-        总重量必须等于100。
+       总重量必须等于100。
 
 1. 单击右上角的&#x200B;**[!UICONTROL Continue]**。
 

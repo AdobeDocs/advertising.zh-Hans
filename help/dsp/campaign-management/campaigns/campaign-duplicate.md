@@ -3,24 +3,29 @@ title: 复制营销活动
 description: 了解如何复制营销活动。
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-TQID: https://experienceleague.adobe.com/Oq-1l3Ls2uEul-OQFVfiMoed8NewiX0X-EZzBPlSCHU
+TQID: 'https://experienceleague.adobe.com/Oq-1l3Ls2uEul-OQFVfiMoed8NewiX0X-EZzBPlSCHU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
 subfeature_v2:
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: '385'
 ht-degree: 0%
-
 ---
-
 # 复制营销活动
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
@@ -59,10 +64,10 @@ ht-degree: 0%
 * （如果不附加广告）自定义广告权重和计划
 * [!UICONTROL Simple Ad Serving]个交易的计划性保证(PG)交易的默认投放位置和投放位置
 * （如果将投放位置复制到其他营销活动）：
-   * 地理目标
-   * 事件像素
-   * 广告
-   * 位置级别[!DNL DoubleVerify Authentic Brand Suitability]区段（覆盖广告商级别区段）
+  * 地理目标
+  * 事件像素
+  * 广告
+  * 位置级别[!DNL DoubleVerify Authentic Brand Suitability]区段（覆盖广告商级别区段）
 
 ## 配置新营销活动的最佳实践
 
@@ -75,21 +80,21 @@ ht-degree: 0%
 
 * 考虑以下内容，并根据需要编辑新营销策划：
 
-   * 该帐户是否有足够的资金来支付新的营销活动预算？
+  * 该帐户是否有足够的资金来支付新的营销活动预算？
 
-   * 新营销活动是否需要与上一个营销活动不同的预算？
+  * 新营销活动是否需要与上一个营销活动不同的预算？
 
-   * 任何投放位置是否需要最低预算？
+  * 任何投放位置是否需要最低预算？
 
-   * 上传创意内容（包括任何必要的自定义广告权重和计划），并将它们附加到投放位置。
+  * 上传创意内容（包括任何必要的自定义广告权重和计划），并将它们附加到投放位置。
 
-   * 根据需要将事件像素附加到投放位置和广告。
+  * 根据需要将事件像素附加到投放位置和广告。
 
-   * 包括投放所需的地理目标和投放级别[!DNL DoubleVerify Authentic Brand Safety]区段。
+  * 包括投放所需的地理目标和投放级别[!DNL DoubleVerify Authentic Brand Safety]区段。
 
-   * 对于程序化保证交易，使用新交易ID并创建默认投放位置。
+  * 对于程序化保证交易，使用新交易ID并创建默认投放位置。
 
-   * 根据需要为[!UICONTROL Simple Ad Serving]个交易创建新投放位置。
+  * 根据需要为[!UICONTROL Simple Ad Serving]个交易创建新投放位置。
 
 * 对于效果营销活动（即具有使用自定义优化目标的包的营销活动），请为每个包使用[[!UICONTROL Linked Package for Optimization Learnings Carryover]设置](/help/dsp/campaign-management/packages/package-settings.md)，以使用上一个营销活动的历史数据作为优化包的输入。
 

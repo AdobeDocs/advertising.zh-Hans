@@ -3,22 +3,26 @@ title: 管理URL
 description: 了解如何创建和管理用于投放定位的URL列表。
 feature: DSP Placements
 exl-id: 57c715b3-9a13-4890-a3b8-03fa6adb44eb
-TQID: https://experienceleague.adobe.com/evxwpbMXExxa30xpsojzTxcRfAxrozOSmwoJuCHPVPw
+TQID: 'https://experienceleague.adobe.com/evxwpbMXExxa30xpsojzTxcRfAxrozOSmwoJuCHPVPw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: '698'
 ht-degree: 0%
-
 ---
-
 # 管理URL
 
 您可以创建和管理用于投放定位的网站和应用程序URL列表。 在投放设置中定位或排除特定URL列表。
@@ -45,63 +49,63 @@ ht-degree: 0%
 
    * 要手动输入或粘贴要添加的URL，请执行以下操作：
 
-      1. 单击&#x200B;**[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Copy/Paste URLs]**。
+     1. 单击&#x200B;**[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Copy/Paste URLs]**。
 
-      1. 输入或粘贴最多10,000个URL，每个URL单独占一行。
+     1. 输入或粘贴最多10,000个URL，每个URL单独占一行。
 
-      1. 单击&#x200B;**[!UICONTROL Validate]**&#x200B;以验证URL是否有效。
+     1. 单击&#x200B;**[!UICONTROL Validate]**&#x200B;以验证URL是否有效。
 
-         已识别任何无效的URL。 如果继续，则仅添加有效的URL。
+        已识别任何无效的URL。 如果继续，则仅添加有效的URL。
 
-      1. 单击&#x200B;**[!UICONTROL Add to list]**。
+     1. 单击&#x200B;**[!UICONTROL Add to list]**。
 
    * 从文件添加URL：
 
-      1. 单击&#x200B;**[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Import File]**。
+     1. 单击&#x200B;**[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Import File]**。
 
-      1. 拖放一个包含URL的本地CSV文件，其中每个URL都位于单独的一行中。
+     1. 拖放一个包含URL的本地CSV文件，其中每个URL都位于单独的一行中。
 
-         文件应仅包含一个数据列，不包含列标题行。 如果导出现有列表并编辑了行，请在重新导入文件之前删除标题行以及第二和第三列。 如果继续，将不会添加任何具有无效值的行。
+        文件应仅包含一个数据列，不包含列标题行。 如果导出现有列表并编辑了行，请在重新导入文件之前删除标题行以及第二和第三列。 如果继续，将不会添加任何具有无效值的行。
 
-      1. 单击&#x200B;**[!UICONTROL Add to list]**。
+     1. 单击&#x200B;**[!UICONTROL Add to list]**。
 
-         通知消息指示任务何时完成。 刷新页面以查看更新的列表。
+        通知消息指示任务何时完成。 刷新页面以查看更新的列表。
 
-      1. 要查看任务状态（包括添加的URL数和失败值的数量），请执行以下操作：
+     1. 要查看任务状态（包括添加的URL数和失败值的数量），请执行以下操作：
 
-         1. 单击顶部菜单栏右侧的![作业](/help/dsp/assets/downloads.png)。
+        1. 单击顶部菜单栏右侧的![作业](/help/dsp/assets/downloads.png)。
 
-         1. （如果未添加任何行）要下载包含失败值的错误文件，请单击作业旁边的&#x200B;**[!UICONTROL Download]**。
+        1. （如果未添加任何行）要下载包含失败值的错误文件，请单击作业旁边的&#x200B;**[!UICONTROL Download]**。
 
-            该文件将保存到浏览器的“下载”文件夹中。
+           该文件将保存到浏览器的“下载”文件夹中。
 
    * 要删除特定URL，请执行以下任一操作：
 
-      * 选择要删除的URL：
+     * 选择要删除的URL：
 
-         1. 选中要从列表中删除的每个URL旁边的复选框。
+       1. 选中要从列表中删除的每个URL旁边的复选框。
 
-         1. 单击&#x200B;**[!UICONTROL Remove from List]**。
+       1. 单击&#x200B;**[!UICONTROL Remove from List]**。
 
-         1. 在确认消息中，单击&#x200B;**[!UICONTROL Remove]**。
+       1. 在确认消息中，单击&#x200B;**[!UICONTROL Remove]**。
 
-      * 要输入或粘贴要删除的URL，请执行以下操作：
+     * 要输入或粘贴要删除的URL，请执行以下操作：
 
-         1. 单击&#x200B;**[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**。
+       1. 单击&#x200B;**[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**。
 
-         1. 输入或粘贴最多10,000个URL，每个URL单独占一行。
+       1. 输入或粘贴最多10,000个URL，每个URL单独占一行。
 
-         1. 单击&#x200B;**[!UICONTROL Validate]**&#x200B;以验证URL是否有效以及当前是否包含在列表中。
+       1. 单击&#x200B;**[!UICONTROL Validate]**&#x200B;以验证URL是否有效以及当前是否包含在列表中。
 
-         1. 单击&#x200B;**[!UICONTROL Remove from list]**。
+       1. 单击&#x200B;**[!UICONTROL Remove from list]**。
 
    * 要删除所有URL，请执行以下操作：
 
-      1. 单击&#x200B;**[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**。
+     1. 单击&#x200B;**[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**。
 
-      1. 单击&#x200B;**[!UICONTROL Remove All URLs]**。
+     1. 单击&#x200B;**[!UICONTROL Remove All URLs]**。
 
-      1. 单击&#x200B;**[!UICONTROL Remove]**。
+     1. 单击&#x200B;**[!UICONTROL Remove]**。
 
 ## 编辑URL列表
 
@@ -113,63 +117,63 @@ ht-degree: 0%
 
    * 要手动输入或粘贴要添加的URL，请执行以下操作：
 
-      1. 单击&#x200B;**[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Copy/Paste URLs]**。
+     1. 单击&#x200B;**[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Copy/Paste URLs]**。
 
-      1. 输入或粘贴最多10,000个URL，每个URL单独占一行。
+     1. 输入或粘贴最多10,000个URL，每个URL单独占一行。
 
-      1. 单击&#x200B;**[!UICONTROL Validate]**&#x200B;以验证URL是否有效。
+     1. 单击&#x200B;**[!UICONTROL Validate]**&#x200B;以验证URL是否有效。
 
-         已识别任何无效的URL。 如果继续，则仅添加有效的URL。
+        已识别任何无效的URL。 如果继续，则仅添加有效的URL。
 
-      1. 单击&#x200B;**[!UICONTROL Add to list]**。
+     1. 单击&#x200B;**[!UICONTROL Add to list]**。
 
    * 从文件添加URL：
 
-      1. 单击&#x200B;**[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Import File]**。
+     1. 单击&#x200B;**[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Import File]**。
 
-      1. 拖放一个包含URL的本地CSV文件，其中每个URL都位于单独的一行中。
+     1. 拖放一个包含URL的本地CSV文件，其中每个URL都位于单独的一行中。
 
-         文件应仅包含一个数据列，不包含列标题行。 如果导出现有列表并编辑了行，请在重新导入文件之前删除标题行以及第二和第三列。 如果继续，将不会添加任何具有无效值的行。
+        文件应仅包含一个数据列，不包含列标题行。 如果导出现有列表并编辑了行，请在重新导入文件之前删除标题行以及第二和第三列。 如果继续，将不会添加任何具有无效值的行。
 
-      1. 单击&#x200B;**[!UICONTROL Add to list]**。
+     1. 单击&#x200B;**[!UICONTROL Add to list]**。
 
-         通知消息指示任务何时完成。
+        通知消息指示任务何时完成。
 
-      1. 要查看任务状态（包括添加的URL数和失败值的数量），请执行以下操作：
+     1. 要查看任务状态（包括添加的URL数和失败值的数量），请执行以下操作：
 
-         1. 单击顶部菜单栏右侧的![作业](/help/dsp/assets/downloads.png)。
+        1. 单击顶部菜单栏右侧的![作业](/help/dsp/assets/downloads.png)。
 
-         1. （如果未添加任何行）要下载包含失败值的错误文件，请单击作业旁边的&#x200B;**[!UICONTROL Download]**。
+        1. （如果未添加任何行）要下载包含失败值的错误文件，请单击作业旁边的&#x200B;**[!UICONTROL Download]**。
 
-            该文件将保存到浏览器的“下载”文件夹中。
+           该文件将保存到浏览器的“下载”文件夹中。
 
    * 要删除特定URL，请执行以下任一操作：
 
-      * 选择要删除的URL：
+     * 选择要删除的URL：
 
-         1. 选中要从列表中删除的每个URL旁边的复选框。
+       1. 选中要从列表中删除的每个URL旁边的复选框。
 
-         1. 单击&#x200B;**[!UICONTROL Remove from List]**。
+       1. 单击&#x200B;**[!UICONTROL Remove from List]**。
 
-         1. 在确认消息中，单击&#x200B;**[!UICONTROL Remove]**。
+       1. 在确认消息中，单击&#x200B;**[!UICONTROL Remove]**。
 
-      * 要输入或粘贴要删除的URL，请执行以下操作：
+     * 要输入或粘贴要删除的URL，请执行以下操作：
 
-         1. 单击&#x200B;**[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**。
+       1. 单击&#x200B;**[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**。
 
-         1. 输入或粘贴最多10,000个URL，每个URL单独占一行。
+       1. 输入或粘贴最多10,000个URL，每个URL单独占一行。
 
-         1. 单击&#x200B;**[!UICONTROL Validate]**&#x200B;以验证URL是否有效以及当前是否包含在列表中。
+       1. 单击&#x200B;**[!UICONTROL Validate]**&#x200B;以验证URL是否有效以及当前是否包含在列表中。
 
-         1. 单击&#x200B;**[!UICONTROL Remove from list]**。
+       1. 单击&#x200B;**[!UICONTROL Remove from list]**。
 
    * 要删除所有URL，请执行以下操作：
 
-      1. 单击&#x200B;**[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**。
+     1. 单击&#x200B;**[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**。
 
-      1. 单击&#x200B;**[!UICONTROL Remove All URLs]**。
+     1. 单击&#x200B;**[!UICONTROL Remove All URLs]**。
 
-      1. 单击&#x200B;**[!UICONTROL Remove]**。
+     1. 单击&#x200B;**[!UICONTROL Remove]**。
 
 ## 导出URL列表
 

@@ -3,18 +3,23 @@ title: 从[!UICONTROL Custom Columns]图标编辑列集并对列集进行排序
 description: 了解如何使用列自定义器更改可见列。
 exl-id: bc03b53f-179a-426f-bc31-20be25915506
 feature: Search Common Tasks, Search Custom Data Views
-TQID: https://experienceleague.adobe.com/LLIbApYJXT6AZ4m7VpcJAzED1nevloYNhFyzZGUx-DI
+TQID: 'https://experienceleague.adobe.com/LLIbApYJXT6AZ4m7VpcJAzED1nevloYNhFyzZGUx-DI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: d6e2ef48-fac7-5a4a-96ff-9ac0264dc826
+    internal-label: Search Custom Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 308
+source-wordcount: '303'
 ht-degree: 0%
-
 ---
-
 # 从[!UICONTROL Custom Columns]图标编辑列集并对列集进行排序
 
 <!-- The same in new UI and legacy CM views except for icon -->
@@ -25,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您也可以临时更改视图中的列，而无需更改视图中任何列标题[的排序顺序](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)。
+>您也可以临时更改视图中的列，而无需更改视图中任何列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)的排序顺序[。
 >
 >您可以通过编辑默认视图或[创建自定义视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)，保存对特定广告商所包含列的更改。
 
@@ -43,7 +48,7 @@ ht-degree: 0%
 
    * （要删除列）在[!UICONTROL Selected Columns & Ordering]列表中，单击列名称，然后将其拖到[!UICONTROL Available Columns]列表中，或单击![删除](/help/search-social-commerce/assets/chevron-left.png "删除")以将其移动到该处。
 
-   * （如果新收入列已添加且不可见，则刷新列列表）单击“![”旁边的](/help/search-social-commerce/assets/refresh.png "刷新")刷新[!UICONTROL Available Columns]。
+   * （如果新收入列已添加且不可见，则刷新列列表）单击“[!UICONTROL Available Columns]”旁边的![刷新](/help/search-social-commerce/assets/refresh.png "刷新")。
 
 1. 指定排序选项：
 
@@ -51,8 +56,8 @@ ht-degree: 0%
 
    * （可选）指定选定列的值的排序顺序：
 
-      * （新用户界面）选择&#x200B;**[!UICONTROL Ascending]**&#x200B;或&#x200B;**[!UICONTROL Descending]**。
+     * （新用户界面）选择&#x200B;**[!UICONTROL Ascending]**&#x200B;或&#x200B;**[!UICONTROL Descending]**。
 
-      * （旧版UI）将滑块移动到&#x200B;**[!UICONTROL Ascending]**&#x200B;或&#x200B;**[!UICONTROL Descending]**。
+     * （旧版UI）将滑块移动到&#x200B;**[!UICONTROL Ascending]**&#x200B;或&#x200B;**[!UICONTROL Descending]**。
 
 1. 单击&#x200B;**[!UICONTROL Apply]**。

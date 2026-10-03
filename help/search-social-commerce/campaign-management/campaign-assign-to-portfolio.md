@@ -3,25 +3,29 @@ title: 将营销活动分配给项目组合
 description: 了解如何在项目组合中包含营销活动以进行优化。
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/odAzHLff8w9TCC-X6DUidlxc2RRbcjlCbb-qWWutTK0
+TQID: 'https://experienceleague.adobe.com/odAzHLff8w9TCC-X6DUidlxc2RRbcjlCbb-qWWutTK0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 588
+source-wordcount: '581'
 ht-degree: 0%
-
 ---
-
 # 将营销活动分配给项目组合
 
 将促销活动分配到优化的产品组合可让Search、Social和Commerce优化促销活动中关键词和广告的竞价、促销活动预算和竞价策略目标。 您可以在创建项目组合时，或编辑项目组合的设置，从[!UICONTROL Campaigns]视图将营销活动分配给项目组合。
 
-并非所有营销活动类型和广告网络都符合优化条件；请查看可包含在项目组合中的[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)列表。 此外，请验证每个营销活动竞价策略[的](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)优化支持。
+并非所有营销活动类型和广告网络都符合优化条件；请查看可包含在项目组合中的[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)列表。 此外，请验证每个营销活动竞价策略](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)的[优化支持。
 
 >[!NOTE]
 >
@@ -65,29 +69,29 @@ ht-degree: 0%
 
    * （要将一个或多个营销活动添加到同一项目组合），请执行以下操作：
 
-      1. 选中每个营销活动旁边的复选框。
+     1. 选中每个营销活动旁边的复选框。
 
-         有关选择多行的提示，请参阅“[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)”。
+        有关选择多行的提示，请参阅“[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)”。
 
-         >[!NOTE]
-         >
-         >项目组合中的所有营销活动必须使用相同的货币。
+        >[!NOTE]
+        >
+        >项目组合中的所有营销活动必须使用相同的货币。
 
-      1. 在数据表上方的工具栏中，单击![更多](/help/search-social-commerce/assets/more.png "更多")，然后单击&#x200B;**[!UICONTROL Assign]>[!UICONTROL Portfolio]**。
+     1. 在数据表上方的工具栏中，单击![更多](/help/search-social-commerce/assets/more.png "更多")，然后单击&#x200B;**[!UICONTROL Assign]>[!UICONTROL Portfolio]**。
 
 1. 选择项目组合：
 
    * 浏览您的项目组合组：
 
-      1. 通过单击[!UICONTROL Portfolio Group]名称将项目组合组展开到其子项目组合中。
+     1. 通过单击[!UICONTROL Portfolio Group]名称将项目组合组展开到其子项目组合中。
 
-      1. 选择项目组合。
+     1. 选择项目组合。
 
    * 要搜索项目组合，请执行以下操作：
 
-      1. 在输入字段中输入至少三个字母。
+     1. 在输入字段中输入至少三个字母。
 
-      1. 在搜索结果中，单击项目组合名称旁边的&#x200B;**[!UICONTROL Select]**。
+     1. 在搜索结果中，单击项目组合名称旁边的&#x200B;**[!UICONTROL Select]**。
 
 1. （可选）单击&#x200B;**[!UICONTROL Additional Details]**，并选择性地输入项目名称和描述。
 
@@ -97,7 +101,7 @@ ht-degree: 0%
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**，然后找到项目组合。
 
-   您可以通过选择项目组合组或[!UICONTROL Portfolios]节点，从左侧面板中的[!UICONTROL Ungrouped Portfolios]菜单筛选项目组合列表。
+   您可以通过选择项目组合组或[!UICONTROL Ungrouped Portfolios]节点，从左侧面板中的[!UICONTROL Portfolios]菜单筛选项目组合列表。
 
 1. 在项目组合名称旁边，单击![查看/编辑设置按钮](/help/search-social-commerce/assets/settings.png "查看/编辑设置按钮") 。
 

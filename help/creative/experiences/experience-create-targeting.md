@@ -3,22 +3,29 @@ title: 使用决策树定位创建体验
 description: 了解如何使用决策树创建定向广告体验。
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-TQID: https://experienceleague.adobe.com/nxegtoNEqfAk7LUyb-3qD6YJYaGfx3M3QdrLx-q5y14
+TQID: 'https://experienceleague.adobe.com/nxegtoNEqfAk7LUyb-3qD6YJYaGfx3M3QdrLx-q5y14'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '629'
 ht-degree: 0%
-
 ---
-
 # 使用决策树定位创建体验
 
 使用决策树创建目标广告体验。 每个体验使用一个创意库中的广告。
@@ -50,23 +57,23 @@ ht-degree: 0%
 
       * 目标：
 
-         * [将目标节点添加到最终级别](experience-target-node-add-final.md)。
+        * [将目标节点添加到最终级别](experience-target-node-add-final.md)。
 
-         * [在节点之间插入目标节点](experience-target-node-add-inner.md)。
+        * [在节点之间插入目标节点](experience-target-node-add-inner.md)。
 
-         * [在节点](experience-target-node-add-sibling.md)之间添加同级目标节点。
+        * [在节点](experience-target-node-add-sibling.md)之间添加同级目标节点。
 
-         * [将子节点和创意复制到同一级别](experience-target-node-copy.md)的另一个节点。
+        * [将子节点和创意复制到同一级别](experience-target-node-copy.md)的另一个节点。
 
       * Creative包：
 
-         * [将创意内容分配和取消分配给最终节点](experience-assign-creative-bundles.md)。
+        * [将创意内容分配和取消分配给最终节点](experience-assign-creative-bundles.md)。
 
-           如果不向每个最终节点至少分配一个捆绑，则在保存体验时，可以选择为每个未分配的节点使用默认创意。 要发布体验，您必须分配捆绑包或为每个最终节点使用默认创意。
+          如果不向每个最终节点至少分配一个捆绑，则在保存体验时，可以选择为每个未分配的节点使用默认创意。 要发布体验，您必须分配捆绑包或为每个最终节点使用默认创意。
 
-         * [为分配的捆绑自定义创意优化和计划](experience-optimization-scheduling-targeting.md)。
+        * [为分配的捆绑自定义创意优化和计划](experience-optimization-scheduling-targeting.md)。
 
-         * [自定义分配的包中创意的跟踪URL](experience-tracking-urls-targeting.md)。
+        * [自定义分配的包中创意的跟踪URL](experience-tracking-urls-targeting.md)。
 
 1. （可选）在决策树和常规设置之间切换：
 
@@ -80,13 +87,13 @@ ht-degree: 0%
 
    * （如果最底层的每个节点均不包含至少一个创意包）执行以下操作之一：
 
-      * 要在没有所有必需创意捆绑包的情况下保存体验，请单击&#x200B;**[!UICONTROL Save as Draft]**。
+     * 要在没有所有必需创意捆绑包的情况下保存体验，请单击&#x200B;**[!UICONTROL Save as Draft]**。
 
-        您无法为[草稿](experience-about.md#experience-statuses)体验创建广告标记。
+       您无法为[草稿](experience-about.md#experience-statuses)体验创建广告标记。
 
-      * 要将默认创意分配给每个尚未分配创意捆绑包的目标，请单击&#x200B;**[!UICONTROL Assign Default Creatives]**。 在查看已分配默认创意的更新树后，单击&#x200B;**[!UICONTROL Save]**&#x200B;和&#x200B;**[!UICONTROL OK]**。
+     * 要将默认创意分配给每个尚未分配创意捆绑包的目标，请单击&#x200B;**[!UICONTROL Assign Default Creatives]**。 在查看已分配默认创意的更新树后，单击&#x200B;**[!UICONTROL Save]**&#x200B;和&#x200B;**[!UICONTROL OK]**。
 
-      * 要继续编辑决策树，请单击&#x200B;**[!UICONTROL Continue Edit]**。
+     * 要继续编辑决策树，请单击&#x200B;**[!UICONTROL Continue Edit]**。
 
 当体验处于实时状态时，[!DNL Creative]会为每个适用的创意大小或视频持续时间自动创建一个广告标记。 然后，您可以[导出广告标记并在DSP](/help/creative/experiences/experience-tag-export.md)中实施它。
 

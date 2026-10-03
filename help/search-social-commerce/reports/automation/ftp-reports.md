@@ -3,20 +3,24 @@ title: 通过FTP访问报表
 description: 了解如何在只读FTP位置接收报表。
 exl-id: eca9f033-5b1b-4afa-926b-b4c31e2dede3
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/Dd72ha3yuVBLu-vCuBUFlc6lYeinKcIAu5agIco4zVY
+TQID: 'https://experienceleague.adobe.com/Dd72ha3yuVBLu-vCuBUFlc6lYeinKcIAu5agIco4zVY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 435
+source-wordcount: '435'
 ht-degree: 0%
-
 ---
-
 # 通过FTP访问报表
 
 您可以选择在只读FTP位置接收报表，从中检索文件以进行其他自动化流程（例如，使用其他程序解析数据）。 除[!UICONTROL Search Engine Account Report]之外的所有基本报表和所有高级报表都可以作为压缩的TSV文件（默认）或扩展名为.ZIP的CSV文件传送到FTP位置。 包含任何TSV或CSV文件标头，并且无法隐藏。
@@ -43,11 +47,11 @@ ht-degree: 0%
 
    * （可选）使用以下区分大小写的语法（包括括号），选择三个系统日期中的任一日期：
 
-      * `[TODAY]` — 包括运行报告的日期、小时和分钟。 由于其中包含确切时间，因此同一模板可以每天运行多次，而不会覆盖以前的报表。
+     * `[TODAY]` — 包括运行报告的日期、小时和分钟。 由于其中包含确切时间，因此同一模板可以每天运行多次，而不会覆盖以前的报表。
 
-      * `[SDATE]` — 包括报告日期范围的开始日期。
+     * `[SDATE]` — 包括报告日期范围的开始日期。
 
-      * `[EDATE]` — 包括报告日期范围的结束日期。
+     * `[EDATE]` — 包括报告日期范围的结束日期。
 
    * （可选） `[CSV]` （大写字母并括在括号中）用于创建采用CSV格式而不是默认TSV格式的文件。
 

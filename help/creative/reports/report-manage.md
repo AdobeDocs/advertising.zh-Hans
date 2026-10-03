@@ -3,25 +3,33 @@ title: 管理自定义报表
 description: 了解如何生成和管理跨体验[!UICONTROL Custom Creative Report]。
 feature: Creative Reporting
 exl-id: fecdfc82-1260-46e4-82f3-c37fad6d77e4
-TQID: https://experienceleague.adobe.com/w746p31oJoThLGvkaVKBEK00dUho0zSBZtVv8yfkmUo
+TQID: 'https://experienceleague.adobe.com/w746p31oJoThLGvkaVKBEK00dUho0zSBZtVv8yfkmUo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 subfeature_v2:
   - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+    internal-label: Custom reports
+  - id: a3569322-a66e-4c29-8778-b189087b9ed5
+    internal-label: Creative reporting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1485
+source-wordcount: '1486'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Manage custom reports]
 
 您可以创建、复制、编辑、运行、下载和删除自定义报表。
@@ -132,21 +140,21 @@ ht-degree: 0%
   >
   >您还可以随时[从[!UICONTROL Reports]视图中](#report-run-now)运行自定义报表。
 
-* *[!UICONTROL On]\&lt;Date\>：*&#x200B;在指定的日期运行报告，完成日期为帐户时区中的09:00。
+* *[!UICONTROL On]\&lt;Date\>：*&#x200B;在指定的日期运行报告，完成日期为帐户时区的09:00。
 
 * *[!UICONTROL Recurring]：*&#x200B;在指定的时间段内根据计划运行报告。
 
-   * **\[计划\]：**&#x200B;运行报告的频率：
+  * **\[计划\]：**&#x200B;运行报告的频率：
 
-      * *每日*&#x200B;运行报告，每N天运行一次。 例如，要每两周（14天）运行一次报表，请选择此选项并输入&#x200B;**14**。
+    * *每日*&#x200B;运行报告，每N天运行一次。 例如，要每两周（14天）运行一次报表，请选择此选项并输入&#x200B;**14**。
 
-      * *每周*，在每周的指定日期运行报告。 例如，要每周一和周五运行一次报表，请选择此选项，然后选中&#x200B;**周一**&#x200B;和&#x200B;**周五**&#x200B;旁边的复选框。
+    * *每周*，在每周的指定日期运行报告。 例如，要每周一和周五运行一次报表，请选择此选项，然后选中&#x200B;**周一**&#x200B;和&#x200B;**周五**&#x200B;旁边的复选框。
 
-      * *每月*&#x200B;运行该月特定数字日（从1到30）的报表。 例如，在每月的第一天运行报告，选择此选项并输入&#x200B;**1**。
+    * *每月*&#x200B;运行该月特定数字日（从1到30）的报表。 例如，在每月的第一天运行报告，选择此选项并输入&#x200B;**1**。
 
-   * **从**：报表可以运行的第一个日期。 根据指定的计划，第一个报表实例可能会出现在此日期之后。
+  * **从**：报表可以运行的第一个日期。 根据指定的计划，第一个报表实例可能会出现在此日期之后。
 
-   * **截止日期**：报告到期日期，最长可为4个日历月之后。 在报告过期之前，所有指定的电子邮件目标都会在过期日期的前七天零一天收到电子邮件警报。 若要保留较长的报表，请更改此日期。
+  * **截止日期**：报告到期日期，最长可为4个日历月之后。 在报告过期之前，所有指定的电子邮件目标都会在过期日期的前七天零一天收到电子邮件警报。 若要保留较长的报表，请更改此日期。
 
 ### [!UICONTROL Apply Filters]节
 
@@ -178,21 +186,21 @@ ht-degree: 0%
   >
   >转化路径包括在[!DNL Advertising Search, Social, & Commerce]中配置的广告商展示或点击回顾窗口内的任何展示和点击。 在转化归因期间，点击次数优先于展示次数。 根据归因规则，转化路径中的任何点击都将获得完全点数。 仅当转化路径中未跟踪任何点击时，展示次数才会获得点数。
 
-   * *[!UICONTROL Last Event]：*&#x200B;将转化归因于转化路径中的最后一次点击或展示。
+  * *[!UICONTROL Last Event]：*&#x200B;将转化归因于转化路径中的最后一次点击或展示。
 
-   * *[!UICONTROL Weight Last More]：*&#x200B;将转化归因于转化路径中的所有事件，但给予最后一个事件的权重最大，而给予上一个事件的权重依次降低。
+  * *[!UICONTROL Weight Last More]：*&#x200B;将转化归因于转化路径中的所有事件，但给予最后一个事件的权重最大，而给予上一个事件的权重依次降低。
 
-   * *[!UICONTROL Even Distribution]：*&#x200B;将转化平均归因于转化路径中的每个事件。
+  * *[!UICONTROL Even Distribution]：*&#x200B;将转化平均归因于转化路径中的每个事件。
 
-   * *[!UICONTROL Weight First More]：*&#x200B;将转化归因于转化路径中的所有事件，但给予第一个事件的权重最大，给予以下事件的权重依次降低。
+  * *[!UICONTROL Weight First More]：*&#x200B;将转化归因于转化路径中的所有事件，但给予第一个事件的权重最大，给予以下事件的权重依次降低。
 
-   * *[!UICONTROL First Event]：*&#x200B;将转化归因于转化路径中的第一次点击或展示。
+  * *[!UICONTROL First Event]：*&#x200B;将转化归因于转化路径中的第一次点击或展示。
 
-   * *[!UICONTROL U-shaped]：*&#x200B;将转化归因于转化路径中的所有事件，但是将最大权重赋予第一个和最后一个事件，将连续降低权重赋予转化路径中间的事件。
+  * *[!UICONTROL U-shaped]：*&#x200B;将转化归因于转化路径中的所有事件，但是将最大权重赋予第一个和最后一个事件，将连续降低权重赋予转化路径中间的事件。
 
-   * *[!UICONTROL Display Only]：*&#x200B;将转化归因于转化路径中的上次DSP点击或展示。 这包括视频和连接的电视广告，并排除[!DNL Advertising Search, Social, & Commerce]广告的点击次数。
+  * *[!UICONTROL Display Only]：*&#x200B;将转化归因于转化路径中的上次DSP点击或展示。 这包括视频和连接的电视广告，并排除[!DNL Advertising Search, Social, & Commerce]广告的点击次数。
 
-   * *[!UICONTROL Social Only]：*&#x200B;已过时
+  * *[!UICONTROL Social Only]：*&#x200B;已过时
 
 另请参阅&quot;[如何为Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md)计算归因规则。&quot;
 
@@ -232,13 +240,13 @@ ht-degree: 0%
 
 * 要创建新目标，请执行以下操作：
 
-   1. 单击&#x200B;**添加新目标**。
+  1. 单击&#x200B;**添加新目标**。
 
-   1. 输入[报表目标设置](/help/dsp/reports/report-destinations/report-destination-settings.md){target="_blank"}，然后单击&#x200B;**保存**。
+  1. 输入[报表目标设置](/help/dsp/reports/report-destinations/report-destination-settings.md){target="_blank"}，然后单击&#x200B;**保存**。
 
-   1. 返回报表设置，单击&#x200B;**刷新目标名称。**
+  1. 返回报表设置，单击&#x200B;**刷新目标名称。**
 
-      现在，可以从现有目标的列表中找到新目标，并且您可以选择将其添加到报表中。
+     现在，可以从现有目标的列表中找到新目标，并且您可以选择将其添加到报表中。
 
 
 <!--

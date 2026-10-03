@@ -1,20 +1,23 @@
 ---
-title: ' [!DNL Yahoo DSP]的点击跟踪格式'
-description: 了解 [!DNL Yahoo DSP] 帐户的点击跟踪格式。
+title: '[!DNL Yahoo DSP]的点击跟踪格式'
+description: 了解[!DNL Yahoo DSP]帐户的点击跟踪格式。
 exl-id: ee6642b3-fb84-4604-91cc-da1213835be8
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/sQo6hr3UHQwN9GgazCKv2ba-m4ZXf2ZrhdemCpbVYvU
+TQID: 'https://experienceleague.adobe.com/sQo6hr3UHQwN9GgazCKv2ba-m4ZXf2ZrhdemCpbVYvU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 103
+source-wordcount: '104'
 ht-degree: 0%
-
 ---
-
 # [!DNL Yahoo DSP]上赞助广告的点击跟踪格式
 
 以下基本目标URL格式适用于赞助广告：
@@ -36,4 +39,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于Adobe Advertising转化跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
->* [AMO ID格式](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [AMO ID格式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

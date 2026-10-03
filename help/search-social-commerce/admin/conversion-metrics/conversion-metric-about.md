@@ -3,25 +3,32 @@ title: 关于管理广告商的转化量度
 description: 了解如何将Adobe Advertising跟踪的转化量度用于广告商。
 feature: Conversions
 exl-id: 8cfb4df8-ed48-4809-b383-7a6011b1f530
-TQID: https://experienceleague.adobe.com/GkZBWh5moYP6yKxE3yhfpUNsTLxpkjFWTThE0tAtNAg
+TQID: 'https://experienceleague.adobe.com/GkZBWh5moYP6yKxE3yhfpUNsTLxpkjFWTThE0tAtNAg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0f74bf7a3cb3a5e56df31ea36ef181c08a0f3aca
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 280
+source-wordcount: '280'
 ht-degree: 0%
-
 ---
-
 # 关于管理广告商的转化量度
 
-Adobe Advertising为广告商跟踪的[转化](/help/search-social-commerce/glossary.md#c-d)量度，包括从Adobe Analytics[&#128279;](/help/integrations/analytics/analytics-data-in-advertising.md)同步的转化和网站参与量度，将在Search、Social和Commerce以及Advertising DSP中使用。
+Adobe Advertising为广告商跟踪的[转化](/help/search-social-commerce/glossary.md#c-d)量度，包括从Adobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md)同步的[转化和网站参与量度，将在Search、Social和Commerce以及Advertising DSP中使用。
 
 * 在“搜索”、“社交”和“Commerce”中，您可以使用转化指标创建用于优化项目组合的目标。 此外，转化量度的数据可以在营销活动和项目组合管理视图以及报表的列中显示。
 

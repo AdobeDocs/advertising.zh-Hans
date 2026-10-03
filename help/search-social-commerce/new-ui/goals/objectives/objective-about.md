@@ -4,24 +4,31 @@ description: 了解实现业务目标的目标。
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
-TQID: https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE
+autotag-review: '2026-04-14T00:06:19.870Z'
+TQID: 'https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: ''
+  - id: 2d3f1df6-4c6c-545b-abf7-bec5f20fd636
+    internal-label: Search Objectives
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-autotag-review: '2026-04-14T00:06:19.870Z'
-source-git-commit: 604fb0c3541ba9c3b1fdb1c3cae5464bfcf67d4d
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 0%
-
 ---
-
 # （新UI）关于目标
 
 <!-- no subfeature tag for objectives -->
@@ -34,7 +41,7 @@ ht-degree: 0%
 
 * 在DSP中，目标显示为与Search、Social和Commerce帐户关联的DSP帐户的自定义目标。 每个使用优化目标“最高广告支出回报率(ROAS)”或“最低每次收购成本(CPA)”的包都必须包含一个自定义目标，以帮助实现整体优化目标。
 
-目标包含要跟踪和优化的转化量度以及这些量度的相对权重。 例如，假设一个在线杂志有两个在线订阅级别和一个印刷订阅级别，并且其目标“利润最大化”有三个指标：价值20美元的“基本在线订阅”、价值40美元的“优质在线订阅”和价值30美元的“印刷订阅”。 如果杂志想要根据订阅的一次性货币值赋予权重，则这些量度的相对权重将分别为1、2和1.5。
+目标包含要跟踪和优化的转化量度以及这些量度的相对权重。 例如，假设一家在线杂志具有两个在线订阅级别和一个印刷订阅级别，并且其目标“利润最大化”有三个指标：价值20 USD的“基本在线订阅”、价值40 USD的“优质在线订阅”和价值30 USD的“印刷订阅”。 如果杂志想要根据订阅的一次性货币值赋予权重，则这些量度的相对权重将分别为1、2和1.5。
 
 对于目标中的每个量度，您可以：
 
@@ -64,11 +71,11 @@ ht-degree: 0%
 
 * [!DNL Google]个量度：<!-- Search only, or might DSP-only clients also have these? -->
 
-   * 已从同步的[!DNL Google Ads]帐户中跟踪[[!DNL Google Ads]次转化](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)。
+  * 已从同步的[!DNL Google Ads]帐户中跟踪[[!DNL Google Ads]次转化](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)。
 
-   * （具有[[!DNL Google Analytics] 集成](/help/search-social-commerce/admin/data-sources/data-source-about.md)的广告商）页面查看次数、会话数、跳出率（计算公式为跳出次数/会话数）和会话持续时间。
+  * （具有[[!DNL Google Analytics] 集成](/help/search-social-commerce/admin/data-sources/data-source-about.md)的广告商）页面查看次数、会话数、跳出率（计算公式为跳出次数/会话数）和会话持续时间。
 
-     在Search、Social和Commerce中，这些指标会自动计入项目组合竞价算法。
+    在Search、Social和Commerce中，这些指标会自动计入项目组合竞价算法。
 
 ## 用于将目标上传到广告网络的选项
 

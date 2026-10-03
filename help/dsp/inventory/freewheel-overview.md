@@ -1,25 +1,32 @@
 ---
-title: 在 [!DNL FreeWheel]中设置PG交易的概述
-description: 了解在 [!DNL FreeWheel]上为发布者的程序化保证交易运行广告所需的先决条件和额外步骤。
+title: 在[!DNL FreeWheel]中设置PG交易的概述
+description: 了解在[!DNL FreeWheel]上为发布者的程序化保证交易运行广告所需的先决条件和额外步骤。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: b9c60248-8104-42ef-8afb-2f9db67b33b0
-TQID: https://experienceleague.adobe.com/8ovkE7w5qXW7Csibxy-PyHvUud0wwrhdSTulQP7bIeM
+TQID: 'https://experienceleague.adobe.com/8ovkE7w5qXW7Csibxy-PyHvUud0wwrhdSTulQP7bIeM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 222
+source-wordcount: '220'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL FreeWheel]中设置计划性保证交易的概述
 
 在[!DNL FreeWheel]上与发布者设置编程性保证交易需要额外的权限和步骤。
@@ -38,7 +45,7 @@ ht-degree: 0%
 
    对于某些英国出版商，您的广告必须包含[!DNL Clearcast]时钟编号。
 
-1. [接受您已经使用“交易ID收件箱”与](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox)上的发布者协商的交易ID[!DNL FreeWheel]。
+1. [接受您已经使用“交易ID收件箱”与[!DNL FreeWheel]上的发布者协商的交易ID](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox)。
 
    接受交易后，按照提示操作，1)选择要用于交易的广告，2)创建用于投放广告的编程性保证默认投放位置。
 
@@ -53,4 +60,4 @@ ht-degree: 0%
 >* [在[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)中接受交易
 >* [向 [!DNL FreeWheel]](freewheel-submit.md)提交计划性保证交易的广告
 >* [检查 [!DNL FreeWheel] PG交易的广告状态](freewheel-check-status.md)
->* [&#x200B; [!DNL FreeWheel] 广告提交的错误代码](freewheel-error-codes.md)
+>* [ [!DNL FreeWheel] 广告提交的错误代码](freewheel-error-codes.md)

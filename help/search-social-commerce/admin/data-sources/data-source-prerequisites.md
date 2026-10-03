@@ -1,26 +1,33 @@
 ---
-title: 配置 [!DNL Google Analytics] 数据源的先决条件
-description: 了解在配置 [!DNL Google Analytics] 数据源之前必须完成的步骤。
+title: 配置[!DNL Google Analytics]数据源的先决条件
+description: 了解在配置[!DNL Google Analytics]数据源之前必须完成的步骤。
 role: User, Admin
 exl-id: 97b0c149-5f82-4a1e-a5d9-aeab43cbd88f
 feature: Search Admin, Search Data Sources
-TQID: https://experienceleague.adobe.com/viBRqiwqJm2BabtLP7b3h1TMTjkeITeSVA1vMMmbrPY
+TQID: 'https://experienceleague.adobe.com/viBRqiwqJm2BabtLP7b3h1TMTjkeITeSVA1vMMmbrPY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: ''
+  - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
+    internal-label: Search Admin
+  - id: 9bd4e165-792f-5324-bcaa-eee38dc8b8e9
+    internal-label: Search Data Sources
 subfeature_v2:
   - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+    internal-label: Data sources
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Admin
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: '407'
 ht-degree: 0%
-
 ---
-
 # 配置[!DNL Google Analytics]数据源的先决条件
 
 在设置[!DNL Google Analytics]数据源之前，必须将Search、Social和Commerce查询字符串参数“ef_id”设置为主键，以将数据从[!DNL Google Analytics]传递到Search、Social和Commerce。 为要同步数据的每个[!DNL Google Analytics]帐户和属性组合设置主键。 您组织中的其他人可能需要完成这些任务；请参阅以下内容以了解更多信息。

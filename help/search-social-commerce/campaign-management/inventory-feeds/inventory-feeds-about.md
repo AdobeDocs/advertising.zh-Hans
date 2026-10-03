@@ -3,18 +3,21 @@ title: 关于使用库存信息源自动化广告管理
 description: 了解高级促销活动管理，它允许您根据产品或服务库存的相关数据自动管理帐户结构和投放动态广告。
 exl-id: 46e78f32-96ef-4a23-bbe3-f18b84309463
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/UqICY8g8nUAo4JSdAJ8h09P65nbe36aUYDEfOnBT9Jg
+TQID: 'https://experienceleague.adobe.com/UqICY8g8nUAo4JSdAJ8h09P65nbe36aUYDEfOnBT9Jg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 846
+source-wordcount: '846'
 ht-degree: 0%
-
 ---
-
 # 关于使用库存信息源自动化广告管理
 
 *[!DNL Google Ads]、[!DNL LY Ads] （仅删除操作）、[!DNL Microsoft Advertising]和仅[!DNL Yandex]帐户*
@@ -31,12 +34,12 @@ ht-degree: 0%
 
 | 模板的[!UICONTROL Ad Variation]部分 | 搜索、社交和Commerce中的修饰符 | 信息源内容 | 生成的广告 |
 |----|----|----|----|
-| 标题：购买高端\{<i>产品类别</i>\} &lt;<i>廉价列表</i>>。<br><br>描述1： \{<i>产品名称</i>\}的大量库存。<br><br>描述2：折扣百分比</i>\&rbrace;% \&lbrace;<i>提供。 | 修饰符组“Co廉价List”的值： <br><br>“折扣价”<br><br>“ | 产品类别、产品名称、折扣百分比<br>电子、iPod、10<br><br>服装、衬衫、15<br><br><b>注意：</b>您可以使用逗号或制表符分隔值。 | <u>低价购买高端电子产品。</u><br>大量平板电脑库存。 可享受10%的折扣。<br><br><u>以折扣价购买高端电子产品。</u><br>大量平板电脑库存。 可享受10%的折扣。<br><br><u>廉价购买高档服装。</u><br>大量衬衫库存。 可享受15%的折扣。<br><br><u>购买高端服装时打折。</u><br>大量衬衫库存。 可享受15%的折扣。 |
+| 标题：购买高端\{<i>产品类别</i>\} &lt;<i>廉价列表</i>>。<br><br>描述1： \{<i>产品名称</i>\}的大量库存。<br><br>描述2：折扣百分比</i>\}% \{<i>提供。 | 修饰符组“Co廉价List”的值： <br><br>“折扣价”<br><br>“ | 产品类别、产品名称、折扣百分比<br>电子、iPod、10<br><br>服装、衬衫、15<br><br><b>注意：</b>您可以使用逗号或制表符分隔值。 | <u>低价购买高端电子产品。</u><br>大量平板电脑库存。 可享受10%的折扣。<br><br><u>以折扣价购买高端电子产品。</u><br>大量平板电脑库存。 可享受10%的折扣。<br><br><u>廉价购买高档服装。</u><br>大量衬衫库存。 可享受15%的折扣。<br><br><u>购买高端服装时打折。</u><br>大量衬衫库存。 可享受15%的折扣。 |
 
 生成广告后，您可以选择查看这些广告，然后将它们发布到广告网络。
 
 >[!NOTE]
->要使用电子表格文件批量创建或编辑促销活动数据，请参阅“关于使用批量工作表管理促销活动数据[&#128279;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)”。
+>要使用电子表格文件批量创建或编辑促销活动数据，请参阅“关于使用批量工作表管理促销活动数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)”。[
 
 ## 使用库存信息源管理营销活动数据的工作流
 

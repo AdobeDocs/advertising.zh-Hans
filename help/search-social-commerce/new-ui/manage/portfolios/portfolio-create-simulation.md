@@ -3,13 +3,21 @@ title: 从[!UICONTROL Portfolios]视图运行自定义模拟
 description: 了解如何从[!UICONTROL Portfolios]视图为项目组合运行自定义模拟。
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
-source-git-commit: d8170c2bbeab003339472d03033f1741014d6c4b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
+    internal-label: Search Simulations
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 0%
-
 ---
-
 # 从[!UICONTROL Portfolios]视图运行自定义模拟
 
 *Beta功能*

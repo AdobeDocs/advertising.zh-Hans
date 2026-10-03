@@ -3,22 +3,29 @@ title: 为实时体验导出和实施广告体验标记
 description: 了解如何导出广告体验标记并（可选）将其上传到Advertising DSP营销活动。
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-TQID: https://experienceleague.adobe.com/tge8P1-b1I21jxKui3KgSjgXCKtZCRSO94knTkWlNW0
+TQID: 'https://experienceleague.adobe.com/tge8P1-b1I21jxKui3KgSjgXCKtZCRSO94knTkWlNW0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 635
+source-wordcount: '638'
 ht-degree: 0%
-
 ---
-
 # 为实时体验导出和实施广告体验标记
 
 特定创意大小或视频持续时间的广告标记可用于[实时](experience-about.md#experience-statuses)体验后，您可以在JavaScript、iframe和视频格式中生成并复制该标记，以便在Advertising DSP或其他DSP上实施。 DSP的标记包括DSP所需的所有宏。
@@ -40,7 +47,7 @@ ht-degree: 0%
 
    * 在表格视图中，将光标悬停在行上，单击&#x200B;**[!UICONTROL More]**，然后单击&#x200B;**[!UICONTROL Tag Manager]**。
 
-1. 将光标悬停在适用的广告标记的行上，然后单击![导出广告标记](/help/creative/assets/export.png "导出广告标记") **[!UICONTROL Export ad tags]**&#x200B;或&#x200B;**[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**。
+1. 将光标悬停在适用的广告标记的行上，然后单击![导出广告标记](/help/creative/assets/export.png "导出广告标记") **[!UICONTROL Export ad tags]**&#x200B;或**[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**。
 
 >[!NOTE]
 >
@@ -58,7 +65,7 @@ ht-degree: 0%
 
 1. 选择标记类型：
 
-   * （非视频体验） **&#x200B; *JavaScript* &#x200B;** 或**&#x200B; *Iframe***。
+   * （非视频体验） ** *JavaScript* **或** *Iframe***。
 
    * （视频体验）***视频***。
 
@@ -86,15 +93,15 @@ ht-degree: 0%
 
    * 对于Advertising DSP：
 
-      1. 单击右上角的&#x200B;**[!UICONTROL Next]**&#x200B;或单击左侧菜单中的&#x200B;**[!UICONTROL DSP link]**。
+     1. 单击右上角的&#x200B;**[!UICONTROL Next]**&#x200B;或单击左侧菜单中的&#x200B;**[!UICONTROL DSP link]**。
 
-      1. 选择要将广告标记上传到的营销策划。
+     1. 选择要将广告标记上传到的营销策划。
 
-      1. 单击&#x200B;**[!UICONTROL Assign Tags]**。
+     1. 单击&#x200B;**[!UICONTROL Assign Tags]**。
 
-         DSP将打开以显示选定营销活动的[!UICONTROL Ads]视图。
+        DSP将打开以显示选定营销活动的[!UICONTROL Ads]视图。
 
-      1. 在[!UICONTROL Create ads]视图中，查看广告标记，选择要为其创建广告的每个标记，然后单击&#x200B;**[!UICONTROL Create]**。
+     1. 在[!UICONTROL Create ads]视图中，查看广告标记，选择要为其创建广告的每个标记，然后单击&#x200B;**[!UICONTROL Create]**。
 
 <!-- no way to get back to the Creative Tag Manager -- you have to click back through the main menu -->
 

@@ -1,25 +1,32 @@
 ---
 title: '[!DNL Microsoft Advertising]营销活动设置'
-description: 引用 [!DNL Microsoft Advertising] 营销活动的设置。
+description: 引用[!DNL Microsoft Advertising]营销活动的设置。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/1odLCTaPgF8iGeVgys2j124fhX1K208YYq0ftDp9l7w
+TQID: 'https://experienceleague.adobe.com/1odLCTaPgF8iGeVgys2j124fhX1K208YYq0ftDp9l7w'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2112
+source-wordcount: '2113'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising]营销活动设置
 
 ## \[营销活动创建屏幕\]
@@ -83,7 +90,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Manual CPC]*： （品牌的购物营销活动；[!DNL Microsoft Store Ads]营销活动；其他营销活动类型已弃用）使用每次点击成本(CPC)模型。 对于某些广告类型，您可以选择允许广告网络更改促销活动的竞价：
 
-   * **[!UICONTROL Enable Enhanced CPC]** （默认禁用）：此选项与使用“[!UICONTROL Enhanced CPC]”选项相同。
+  * **[!UICONTROL Enable Enhanced CPC]** （默认禁用）：此选项与使用“[!UICONTROL Enhanced CPC]”选项相同。
 
 * *[!UICONTROL Manual CPA]：* （[!DNL Microsoft Store Ads]个营销活动）使用每次客户获取成本(CPA)模型。
 
@@ -178,7 +185,7 @@ ht-degree: 0%
 
 **[!UICONTROL Negative Websites]：** （仅显示/本地网络上的营销活动；可选）显示网络上不希望显示广告的站点。 请输入有效的URL，如www.example.com。 要指定多个字符串，请用逗号分隔它们，或者在单独的行中输入它们。
 
-有关可用性的信息，请参阅Microsoft Advertising帮助“防止广告出现在特定网站[&#128279;](https://help.ads.microsoft.com/#apex/bae/en/14061/0)”。
+有关可用性的信息，请参阅Microsoft Advertising帮助“防止广告出现在特定网站](https://help.ads.microsoft.com/#apex/bae/en/14061/0)”。[
 
 ## [!UICONTROL Campaign Tracking]
 
@@ -224,21 +231,21 @@ ht-degree: 0%
 
 * 要上传图像，请执行以下操作：
 
-   1. 在[!UICONTROL Upload from Device]选项卡上，单击&#x200B;**[!UICONTROL +]**&#x200B;并从设备或网络中选择图像。
+  1. 在[!UICONTROL Upload from Device]选项卡上，单击&#x200B;**[!UICONTROL +]**&#x200B;并从设备或网络中选择图像。
 
-   1. 对于每个图像：
+  1. 对于每个图像：
 
-      1. 选择纵横比。
+     1. 选择纵横比。
 
-      1. 根据需要拖动并放置裁切框以选择图像的可查看部分，并在可能的情况下调整图像的可查看部分的大小。
+     1. 根据需要拖动并放置裁切框以选择图像的可查看部分，并在可能的情况下调整图像的可查看部分的大小。
 
-      1. （可选）选择其他纵横比，并根据需要为每个选定的纵横比重新定位和调整图像大小。
+     1. （可选）选择其他纵横比，并根据需要为每个选定的纵横比重新定位和调整图像大小。
 
-         为每个选定的纵横比创建一个资源。
+        为每个选定的纵横比创建一个资源。
 
-      1. 单击&#x200B;**[!UICONTROL Proceed]**。
+     1. 单击&#x200B;**[!UICONTROL Proceed]**。
 
-   1. 指定完图像后，单击&#x200B;**[!UICONTROL Upload]**。
+  1. 指定完图像后，单击&#x200B;**[!UICONTROL Upload]**。
 
 * 要从[!UICONTROL Asset Library]中选择图像，请单击&#x200B;**[!UICONTROL Asset Library]**&#x200B;并选择图像。
 
@@ -246,21 +253,21 @@ ht-degree: 0%
 
 * 要上传图像，请执行以下操作：
 
-   1. 在[!UICONTROL Upload from Device]选项卡上，单击&#x200B;**[!UICONTROL +]**&#x200B;并从设备或网络中选择图像。
+  1. 在[!UICONTROL Upload from Device]选项卡上，单击&#x200B;**[!UICONTROL +]**&#x200B;并从设备或网络中选择图像。
 
-   1. 对于每个图像：
+  1. 对于每个图像：
 
-      1. 选择纵横比。
+     1. 选择纵横比。
 
-      1. 根据需要拖动并放置裁切框以选择图像的可查看部分，并在可能的情况下调整图像的可查看部分的大小。
+     1. 根据需要拖动并放置裁切框以选择图像的可查看部分，并在可能的情况下调整图像的可查看部分的大小。
 
-      1. （可选）选择其他纵横比，并根据需要为每个选定的纵横比重新定位和调整图像大小。
+     1. （可选）选择其他纵横比，并根据需要为每个选定的纵横比重新定位和调整图像大小。
 
-         为每个选定的纵横比创建一个资源。
+        为每个选定的纵横比创建一个资源。
 
-      1. 单击&#x200B;**[!UICONTROL Proceed]**。
+     1. 单击&#x200B;**[!UICONTROL Proceed]**。
 
-   1. 指定完图像后，单击&#x200B;**[!UICONTROL Upload]**。
+  1. 指定完图像后，单击&#x200B;**[!UICONTROL Upload]**。
 
 * 要从[!UICONTROL Asset Library]中选择图像，请单击&#x200B;**[!UICONTROL Asset Library]**&#x200B;并选择图像。
 
@@ -268,9 +275,9 @@ ht-degree: 0%
 
 * 要输入文本，请执行以下操作：
 
-   1. 在[!UICONTROL Enter Text]选项卡上，输入文本。
+  1. 在[!UICONTROL Enter Text]选项卡上，输入文本。
 
-   1. （可选）要添加其他文本字符串，请单击&#x200B;**[!UICONTROL + Add]**&#x200B;并输入该字符串。
+  1. （可选）要添加其他文本字符串，请单击&#x200B;**[!UICONTROL + Add]**&#x200B;并输入该字符串。
 
 * 要从[!UICONTROL Asset Library]中选择资源，请单击&#x200B;**[!UICONTROL Asset Library]**&#x200B;并选择资源。
 
@@ -278,9 +285,9 @@ ht-degree: 0%
 
 * 要输入文本，请执行以下操作：
 
-   1. 在[!UICONTROL Enter Text]选项卡上，输入文本。
+  1. 在[!UICONTROL Enter Text]选项卡上，输入文本。
 
-   1. （可选）要添加其他文本字符串，请单击&#x200B;**[!UICONTROL + Add]**&#x200B;并输入该字符串。
+  1. （可选）要添加其他文本字符串，请单击&#x200B;**[!UICONTROL + Add]**&#x200B;并输入该字符串。
 
 * 要从[!UICONTROL Asset Library]中选择资源，请单击&#x200B;**[!UICONTROL Asset Library]**&#x200B;并选择资源。
 
@@ -288,9 +295,9 @@ ht-degree: 0%
 
 * 要输入文本，请执行以下操作：
 
-   1. 在[!UICONTROL Enter Text]选项卡上，输入文本。
+  1. 在[!UICONTROL Enter Text]选项卡上，输入文本。
 
-   1. （可选）要添加其他文本字符串，请单击&#x200B;**[!UICONTROL + Add]**&#x200B;并输入该字符串。
+  1. （可选）要添加其他文本字符串，请单击&#x200B;**[!UICONTROL + Add]**&#x200B;并输入该字符串。
 
 * 要从[!UICONTROL Asset Library]中选择资源，请单击&#x200B;**[!UICONTROL Asset Library]**&#x200B;并选择资源。
 

@@ -1,28 +1,35 @@
 ---
 title: 关于[!UICONTROL Deal ID Inbox]
-description: 了解[!UICONTROL Deal ID Inbox]功能，该功能允许您接受已在 [!DNL FreeWheel], [!DNL Google Authorized Buyers] (以前称为 [!DNL AdX]), and [!DNL Magnite DV+] （以前称为 [!DNL Rubicon]）)上与发布者协商的私人交易。
+description: 了解[!UICONTROL Deal ID Inbox]功能，该功能允许您接受已在[!DNL FreeWheel]、[!DNL Google Authorized Buyers]（以前称为[!DNL AdX]）和[!DNL Magnite DV+]（以前称为[!DNL Rubicon]）上与发布者协商的私人交易。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-TQID: https://experienceleague.adobe.com/d0XqOq7lHLtUZh9UqPNV9ai3VfET3LNT937qZG4PxJI
+TQID: 'https://experienceleague.adobe.com/d0XqOq7lHLtUZh9UqPNV9ai3VfET3LNT937qZG4PxJI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 487
+source-wordcount: '491'
 ht-degree: 0%
-
 ---
-
 # 关于[!UICONTROL Deal ID Inbox]
 
-Advertising DSP [!UICONTROL Deal ID Inbox]允许您快速设置DSP通过供应方平台(SSP)从出版商导入的交易，因此您不必手动设置每个交易。 您可以接受已在[!DNL FreeWheel]的[!DNL Google Authorized Buyers]、[!DNL AdX] （以前称为[!DNL Magnite DV+]）和[!DNL Rubicon] （以前称为[!UICONTROL Deal ID Inbox]）上与发布者协商的有保证和未保证的私有库存交易。
+Advertising DSP [!UICONTROL Deal ID Inbox]允许您快速设置DSP通过供应方平台(SSP)从出版商导入的交易，因此您不必手动设置每个交易。 您可以接受已在[!UICONTROL Deal ID Inbox]的[!DNL FreeWheel]、[!DNL Google Authorized Buyers] （以前称为[!DNL AdX]）和[!DNL Magnite DV+] （以前称为[!DNL Rubicon]）上与发布者协商的有保证和未保证的私有库存交易。
 
 >[!NOTE]
 >
@@ -40,13 +47,13 @@ You can accept any available deal or move an incorrect deal to the Ignored Deals
 For each deal, you can select one publisher and one media type (Desktop Video, Mobile Video, Connected TV, Display, or Audio), and you can share the deal with specific advertisers and with all advertisers for a specific account.
  -->
 
-DSP每天在东部标准时间凌晨4:30自动刷新所有交易详细信息。 它还每小时刷新所有[!DNL FreeWheel]交易并更新[!DNL Google]和[!DNL Magnite DV+]中的现有交易。 您还可以随时手动刷新交易详细信息以填充新交易。
+DSP每天凌晨4:30（东部标准时间）自动刷新所有交易详细信息。 它还每小时刷新所有[!DNL FreeWheel]交易并更新[!DNL Google]和[!DNL Magnite DV+]中的现有交易。 您还可以随时手动刷新交易详细信息以填充新交易。
 
 <!-- MC: I'm not sure where I got the following. Is this currently true? -->
 
 >[!NOTE]
 >
->对于通过[!DNL Google Authorized Buyers]进行的计划性保证交易，您必须交付至少90%的预算，否则您的帐户将无法访问[!DNL Google]中的[!UICONTROL Deal ID Inbox]交易。
+>对于通过[!DNL Google Authorized Buyers]进行的计划性保证交易，您必须交付至少90%的预算，否则您的帐户将无法访问[!UICONTROL Deal ID Inbox]中的[!DNL Google]交易。
 
 ## 实施[!UICONTROL Deal ID Inbox]
 
@@ -60,9 +67,9 @@ DSP每天在东部标准时间凌晨4:30自动刷新所有交易详细信息。 
 
 * 审阅后&#x200B;**接受交易**，这些交易不再出现在[!UICONTROL Deal ID Inbox]中。 已接受的交易在[!UICONTROL Inventory] > [!UICONTROL Deals]中列出，并准备好在广告商的投放位置中定位。
 
-* **忽略不需要或未经请求的交易**。 已忽略的交易被移至[!UICONTROL Ignored Deals]内的[!UICONTROL Deal ID Inbox]选项卡，该选项卡用作存档。 当您忽略交易时，DSP不会提醒SSP和发布者。
+* **忽略不需要或未经请求的交易**。 已忽略的交易被移至[!UICONTROL Deal ID Inbox]内的[!UICONTROL Ignored Deals]选项卡，该选项卡用作存档。 当您忽略交易时，DSP不会提醒SSP和发布者。
 
-* 从&#x200B;**>** （不在[!UICONTROL Inventory]中）修改已接受交易的详细信息[!UICONTROL Deals]。 [!UICONTROL Deal ID Inbox]同样，当发布者将更改发送到交易时，广告商负责在[!UICONTROL Inventory] > [!UICONTROL Deals]中实施这些更改，因为[!UICONTROL Deal ID Inbox]在交易设置后不会从SSP同步更改。
+* 从[!UICONTROL Inventory] > [!UICONTROL Deals] （不在[!UICONTROL Deal ID Inbox]中）修改已接受交易的详细信息&#x200B;**。**&#x200B;同样，当发布者将更改发送到交易时，广告商负责在[!UICONTROL Inventory] > [!UICONTROL Deals]中实施这些更改，因为[!UICONTROL Deal ID Inbox]在交易设置后不会从SSP同步更改。
 
 ## 哪些类型的交易不能被接受？
 
@@ -70,9 +77,9 @@ DSP每天在东部标准时间凌晨4:30自动刷新所有交易详细信息。 
 
 您不能接受以下类型的交易：
 
-* [!DNL Google]个非美元交易。
+* [!DNL Google]个交易不在USD中。
 
-* [!DNL Magnite DV+]个非美元交易
+* [!DNL Magnite DV+]个交易不在USD中
 
 * [!DNL FreeWheel]个交易未使用您的帐户货币。
 

@@ -2,7 +2,13 @@
 title: （新UI）管理电子表格报表源
 description: 了解如何创建、配置、刷新、查看和删除以自定义格式电子表格形式提供每日性能数据的电子表格报表馈送。
 feature: Search Reports
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1498'
 ht-degree: 0%
@@ -13,7 +19,7 @@ ht-degree: 0%
 
 <!-- Update link to notifications once available -->
 
-电子表格馈送以[!DNL Microsoft Excel] XLSX中的自定义电子表格格式为所有基本报表和模型准确性报表提供每日性能数据。 您可以使用从常规报表模板创建的特定格式的[!DNL Excel]电子表格模板来设置电子表格馈送。 每天，电子表格都会在指定的时间自动刷新，并包含每天汇总的新原始数据。 原始数据会填充电子表格模板中包含的任何列和图形。 在电子表格馈送文件可用或文件生成失败后，报表模板中的每个电子邮件收件人会根据用户为报表[&#128279;](/help/search-social-commerce/notifications/notification-about.md)配置的通知设置接收通知。
+电子表格馈送以[!DNL Microsoft Excel] XLSX中的自定义电子表格格式为所有基本报表和模型准确性报表提供每日性能数据。 您可以使用从常规报表模板创建的特定格式的[!DNL Excel]电子表格模板来设置电子表格馈送。 每天，电子表格都会在指定的时间自动刷新，并包含每天汇总的新原始数据。 原始数据会填充电子表格模板中包含的任何列和图形。 在电子表格馈送文件可用或文件生成失败后，报表模板中的每个电子邮件收件人会根据用户为报表](/help/search-social-commerce/notifications/notification-about.md)配置的[通知设置接收通知。
 
 您可以将馈送配置为刷新最近90天的数据，并且所有以前现有的数据都会继续累积。
 

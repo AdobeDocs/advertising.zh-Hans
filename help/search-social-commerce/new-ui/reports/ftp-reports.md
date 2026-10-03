@@ -2,13 +2,17 @@
 title: （新UI）通过FTP访问报表
 description: 了解如何在只读FTP位置接收报表。
 feature: Search Reports
-source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
-
 ---
-
 # （新UI）通过FTP访问报表
 
 您可以选择在只读FTP位置接收报表，从中检索文件以进行其他自动化流程（例如，使用其他程序解析数据）。 除[!UICONTROL Search Engine Account Report]之外的所有基本报表和所有高级报表都可以作为压缩的TSV文件（默认）或扩展名为.ZIP的CSV文件传送到FTP位置。 包含任何TSV或CSV文件标头，并且无法隐藏。
@@ -35,11 +39,11 @@ ht-degree: 0%
 
    * （可选）使用以下区分大小写的语法（包括括号），选择三个系统日期中的任一日期：
 
-      * `[TODAY]` — 包括运行报告的日期、小时和分钟。 由于其中包含确切时间，因此同一模板可以每天运行多次，而不会覆盖以前的报表。
+     * `[TODAY]` — 包括运行报告的日期、小时和分钟。 由于其中包含确切时间，因此同一模板可以每天运行多次，而不会覆盖以前的报表。
 
-      * `[SDATE]` — 包括报告日期范围的开始日期。
+     * `[SDATE]` — 包括报告日期范围的开始日期。
 
-      * `[EDATE]` — 包括报告日期范围的结束日期。
+     * `[EDATE]` — 包括报告日期范围的结束日期。
 
    * （可选） `[CSV]` （大写字母并括在括号中）用于创建采用CSV格式而不是默认TSV格式的文件。
 

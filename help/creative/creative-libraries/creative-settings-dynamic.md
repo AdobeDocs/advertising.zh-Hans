@@ -3,20 +3,26 @@ title: 动态创意设置
 description: 引用动态创意的设置。
 feature: Creative Dynamic Creatives
 exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
-TQID: https://experienceleague.adobe.com/b7R-MWHypydFbqdZY2sVwvoaq4sxwK5Wcf-OJc5x0LM
+TQID: 'https://experienceleague.adobe.com/b7R-MWHypydFbqdZY2sVwvoaq4sxwK5Wcf-OJc5x0LM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 405
-ht-degree: 0%
-
+source-wordcount: '421'
+ht-degree: 2%
 ---
-
 # 动态创意设置
 
 <!-- add a description -->
@@ -67,7 +73,7 @@ ht-degree: 0%
 
 **[!UICONTROL Enable targeting]**：摘要文件中必须存在值才能创建广告的列类型： *[!UICONTROL Profile data]*、*[!UICONTROL Geographic data]、*[!UICONTROL Data pass]、*[!UICONTROL Audience Segment]*。  **注意：**&#x200B;这些设置独立于广告体验设置中的高级设置工作。<!-- Clarify what qualifies for each, and explain more -->
 
-**[!UICONTROL Dynamic Ad Fields]** / **[!UICONTROL Maps to Catalog Labels]：**
+**[!UICONTROL Dynamic Ad Fields]** / **[!UICONTROL Maps to Catalog Labels]:**
 
 将指定广告模板中的每个属性（动态广告字段）映射到指定目录（目录标签）中的列或输入静态值。
 

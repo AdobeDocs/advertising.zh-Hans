@@ -3,20 +3,24 @@ title: 查看或保存报告
 description: 了解如何查看生成的报告或将报告另存为文件。
 exl-id: 11333266-d1af-4064-9816-c70b53b0a8bd
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/Y0jHDM-R21GGXRQi9fsVtpOUD3Rdh-JdCyLRR-gynvo
+TQID: 'https://experienceleague.adobe.com/Y0jHDM-R21GGXRQi9fsVtpOUD3Rdh-JdCyLRR-gynvo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 259
+source-wordcount: '261'
 ht-degree: 0%
-
 ---
-
 # 查看或保存报告
 
 您可以在Web浏览器中查看报表，或者打开报表数据或将其保存为[!DNL Microsoft Excel]工作簿、制表符分隔值(TSV)文件、逗号分隔值(CSV)文件或（某些报表类型）[!DNL Microsoft Excel]选项卡式工作簿。
@@ -33,13 +37,13 @@ ht-degree: 0%
 
    * （在文件中打开或保存报告数据）在报告名称旁边的[!UICONTROL Export]列中，单击格式的名称，然后按照浏览器的正常过程打开或保存文件：
 
-      * **[!UICONTROL XLS]：**   对于具有单个工作表（XLSX格式）的[!DNL Excel]工作簿。 此报表包括一个位于顶部且带有参数标签的工作表，在该组件的数据可用时每个组件均报告一行。 省略没有数据的行。
+     * **[!UICONTROL XLS]：**&#x200B;对于具有单个工作表（XLSX格式）的[!DNL Excel]工作簿。 此报表包括一个位于顶部且带有参数标签的工作表，在该组件的数据可用时每个组件均报告一行。 省略没有数据的行。
 
-        基本报表包括每个数值列的合计。
+       基本报表包括每个数值列的合计。
 
-      * **[!UICONTROL TSV]：**&#x200B;用于TSV文件。 该报表包括参数以及所报告的每个组件所对应的行。
+     * **[!UICONTROL TSV]：**&#x200B;用于TSV文件。 该报表包括参数以及所报告的每个组件所对应的行。
 
-      * **[!UICONTROL CSV]：**   用于CSV文件。 该报表包括参数以及所报告的每个组件所对应的行。
+     * **[!UICONTROL CSV]：**&#x200B;用于CSV文件。 该报表包括参数以及所报告的每个组件所对应的行。
 
 >[!MORELIKETHIS]
 >

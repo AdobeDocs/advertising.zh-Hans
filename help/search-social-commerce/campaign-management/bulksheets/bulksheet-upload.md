@@ -3,20 +3,24 @@ title: 上传批量工作表或已更正的错误文件
 description: 了解如何手动上传批量工作表文件或更正登陆页面验证错误文件。
 exl-id: 44c76ca3-1d3e-43c2-868a-4868157d32b0
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/3dJ14x6JFvS-ig5s6ElT0Vv-Kzd5KWQu0JiItdrG3ZA
+TQID: 'https://experienceleague.adobe.com/3dJ14x6JFvS-ig5s6ElT0Vv-Kzd5KWQu0JiItdrG3ZA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 800
+source-wordcount: '807'
 ht-degree: 0%
-
 ---
-
 # 上传批量工作表或已更正的错误文件
 
 您可以从设备或网络中为[支持的广告网络](bulksheet-about.md#bulksheet-functionality-by-network)上传批量工作表文件、已更正的登陆页验证错误文件以及其他已更正的错误文件。 上传文件时，会删除文件中的任何自定义列。
@@ -33,7 +37,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果将批量处理工作表数据发布到广告网络，则可以跟踪[!UICONTROL Progress]视图中[!UICONTROL Bulksheets]列中的文件进度。 大量数据需要更长的时间才能发布。
+>如果将批量处理工作表数据发布到广告网络，则可以跟踪[!UICONTROL Bulksheets]视图中[!UICONTROL Progress]列中的文件进度。 大量数据需要更长的时间才能发布。
 
 ## 上载批量工作表和已更正错误文件的设置 {#bulksheet-upload-settings}
 
@@ -43,9 +47,9 @@ ht-degree: 0%
 | [!UICONTROL Single Account] | 文件适用于一个帐户： <i>[!UICONTROL Yes]</i>（适用于一个帐户）还是<i>[!UICONTROL No]</i>（适用于多个帐户）。 |
 | [!UICONTROL Account (Search Engine)] | （当文件应用于单个帐户时）要将数据上传到的帐户。 |
 | [!UICONTROL Search Engine] | （当文件应用于多个帐户时）要将数据上传到的广告网络。 |
-| [!UICONTROL Scheduling] | 何时或是否将文件发布到指定的广告网络：<ul><li><i>[!UICONTROL Post to ad network now]</i> （默认）：立即开始发布数据。</li><li><i>[!UICONTROL Post to ad network on \[specified date\] \[specified time\]]：</i>在指定的日期和时间开始发布数据；默认为明天02:00 （凌晨2点）。 若要更改日期，请以DD/MM/YYYY或D/M/YYYY格式输入日期，或单击![日历](/help/search-social-commerce/assets/calendar.png "日历")以打开日历，然后[选择日期](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)。 要更改时间，请以HH/MM或H/M格式输入时间，或从列表中选择时间（以15分钟为间隔）。</li><li><i>[!UICONTROL Preview only]：</i>若要将文件上传到Search、Social和Commerce而不将数据发布到广告网络，您以后仍可以发布该文件。 当批量处理工作表文件大于10 MB但小于2 GB时，该文件为ZIP格式；您无需解压缩文件即可发布该文件。</li></ul> |
-| [!UICONTROL Generate Tracking URLs] | 是否在具有跟踪模板的帐户中包含跟踪模板和登陆页面后缀（适用于适用的广告网络），或者是否在具有目标URL的帐户中包含嵌入跟踪代码的目标URL，适用于发布中的所有关键词、广告、投放位置、站点链接和[!DNL Google Ads]产品组： <i>[!UICONTROL Yes]</i>（默认值）或<i>[!UICONTROL No]</i>。 不管组合中是否有竞价单位，都无所谓。<br><br>如果选择<i>[!UICONTROL Yes]</i>，则根据相关帐户设置或营销活动设置的[!UICONTROL Tracking Methods]部分中的参数生成URL。 默认情况下，如果跟踪URL存在，则除非需要新的URL，否则不会重新生成这些URL（例如，如果关键词匹配类型、广告文本或相关帐户的跟踪参数已更改）。<br><br>如果选择<i>[!UICONTROL No]</i>，则以后仍可通过手动发布上传的文件来生成跟踪URL。<br><br><b>注意：</b>如果广告商使用Adobe Advertising转化跟踪，且基本URL已更改，则必须生成新的跟踪URL，除非将该帐户配置为自动生成和上传跟踪URL。 |
-| [!UICONTROL Enable budget changes on optimized campaigns] | 允许根据已发布的数据对优化项目组合中的促销活动进行预算更改。 默认情况下，不选中此选项。 如果选择此选项，则在优化功能确定应重新分配预算（通常在下一个竞价周期）之前，任何指定的营销活动预算更改均适用。<br><br><b>注意：</b>在发布文件时，因非优化项目组合中的促销活动发布数据而导致的任何预算更改都会发生。 更改显示在第二天的营销活动管理视图中。 |
+| [!UICONTROL Scheduling] | 何时或是否将文件发布到指定的广告网络：<ul><li><i>[!UICONTROL Post to ad network now]</i> （默认）：立即开始发布数据。</li><li><i>[!UICONTROL Post to ad network on \[specified date\] \[specified time\]]：</i>开始在指定的日期和时间发布数据；默认为明天02:00 （凌晨2点）。 若要更改日期，请以DD/MM/YYYY或D/M/YYYY格式输入日期，或单击![日历](/help/search-social-commerce/assets/calendar.png "日历")以打开日历，然后[选择日期](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)。 要更改时间，请以HH/MM或H/M格式输入时间，或从列表中选择时间（以15分钟为间隔）。</li><li><i>[!UICONTROL Preview only]：</i>若要将文件上传到Search、Social和Commerce而不将数据发布到广告网络，您以后仍可以发布该文件。 当批量处理工作表文件大于10 MB但小于2 GB时，该文件为ZIP格式；您无需解压缩文件即可发布该文件。</li></ul> |
+| [!UICONTROL Generate Tracking URLs] | 是否在具有跟踪模板的帐户中包含跟踪模板和登陆页面后缀（适用于适用的广告网络），或者是否在具有目标URL的帐户中包含嵌入跟踪代码的目标URL，适用于发布中的所有关键词、广告、投放位置、站点链接和[!DNL Google Ads]产品组： <i>[!UICONTROL Yes]</i>（默认值）或<i>[!UICONTROL No]</i>。 不管组合中是否有竞价单位，都无所谓。<br><br>如果选择<i>[!UICONTROL Yes]</i>，则根据相关帐户设置或营销活动设置的[!UICONTROL Tracking Methods]部分中的参数生成URL。 默认情况下，如果存在跟踪URL，则除非需要新URL，否则不会重新生成这些URL。<br><br>如果选择<i>[!UICONTROL No]</i>，则以后仍可以通过手动发布上传的文件来生成跟踪URL。<br><br><b>注意：</b>如果广告商使用Adobe Advertising转化跟踪，且基本URL已更改，则必须生成新的跟踪URL，除非将帐户配置为自动生成和上传跟踪URL。 |
+| [!UICONTROL Enable budget changes on optimized campaigns] | 允许根据已发布的数据对优化项目组合中的促销活动进行预算更改。 默认情况下，不选中此选项。 如果选择此选项，则在优化功能确定应重新分配预算（通常在下一个竞价周期）之前，任何指定的营销活动预算更改均适用。<br><br><b>注意：</b>在过帐文件时，因非优化项目组合中营销活动的已过帐数据而产生的所有预算更改均会发生。 更改显示在第二天的营销活动管理视图中。 |
 | [!UICONTROL Enable bidding on ads within portfolios] | 当包含的促销活动组件位于优化的项目组合中时，此功能会覆盖优化策略，并允许基于批量处理工作表中的数据进行竞价更改，直到指定的结束日期为止。 如果选择此选项，请在&#x200B;**[!UICONTROL Hold bulksheet bids until]**&#x200B;字段中指定介于1-7天之间的结束日期。 |
 
 >[!MORELIKETHIS]

@@ -1,26 +1,31 @@
 ---
-title: ' [!DNL Google Ads] 帐户所需的批量处理工作表数据'
-description: 引用 [!DNL Google Ads] 帐户批量工作表中必需的标题字段和数据字段。
+title: '[!DNL Google Ads]帐户所需的批量处理工作表数据'
+description: 引用[!DNL Google Ads]帐户的批量处理工作表中的必填标题字段和数据字段。
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/mxs4XjmBxho29VLjSzREkA-w6eWMn6e-8cXihLgh7ZA
+TQID: 'https://experienceleague.adobe.com/mxs4XjmBxho29VLjSzREkA-w6eWMn6e-8cXihLgh7ZA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a534a6eb822a22dcff7ca7ca9e8dcd4f3d75712c
+    internal-label: Data collection
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 8027
+source-wordcount: '8101'
 ht-degree: 0%
-
 ---
-
 # 附录 — [!DNL Google Ads]帐户必需的批量处理工作表数据
 
-要批量创建和更新[!DNL Google Ads]营销活动数据，您可以使用专门为[!DNL Google Ads]帐户设置格式的Search、Social和Commerce批量工作表文件。 您可以a) [为现有帐户](../bulksheet-download.md)生成所需文件格式的批量工作表文件，或b)手动创建这些文件（有关支持的文件格式的一般信息，请参阅[支持的批量工作表文件格式](bulksheet-file-formats.md)）。
+要批量创建和更新[!DNL Google Ads]营销活动数据，您可以使用专门为[!DNL Google Ads]帐户设置格式的Search、Social和Commerce批量工作表文件。 您可以a)[为现有帐户](../bulksheet-download.md)生成所需文件格式的批量工作表文件，或b)手动创建这些文件（有关支持的文件格式的一般信息，请参阅[支持的批量工作表文件格式](bulksheet-file-formats.md)）。
 
 每个批量工作表必须包含要执行[特定操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md)（如创建广告）所需的标题字段和相应的数据字段。 当字段不是必填字段时，您可以从标题行和数据行中忽略该字段。 上传批量工作表文件时将删除所有自定义列。
 
@@ -75,7 +80,7 @@ Add in when released:
 | [!UICONTROL Location Type] | （当您包含位置时）[位置类型](https://developers.google.com/google-ads/api/data/geotargets)。 |
 | [!UICONTROL Device] | 在营销活动或广告组级别进行竞价调整的设备类型： <i>[!UICONTROL smartphone]</i>、<i>[!UICONTROL tablet]</i>或<i>[!UICONTROL desktop]</i>。 |
 | [!UICONTROL Bid Adjustment] | <p>（当您包含[!UICONTROL Location]、[!UICONTROL Device]或[!UICONTROL RLSA]目标时）是否调整特定位置、特定设备类型或特定受众目标的广告竞价：</p><ul><li><p>要使用关键词级别的竞价（0%的差异），请输入0。 对于新目标，您还可以将此项留空。</p></li><li><p>要对此目标使用其他竞价，请输入增加或减少竞价的百分比。</p></li><ul><li><p>对于位置和RLSA目标，有效百分比包括从–90到900。</p></li><li><p>对于设备竞价调整，有效百分比包括：</p></li><ul><li><p>（营销活动）–100（不为设备类型的广告竞价）或从–90到900。</p></li><li><p>（广告组）–100表示智能手机和平板电脑（表示不为设备类型出价），从–90到900表示所有设备类型。</p></li></ul></ul><li><p>（现有活动和广告组）要使用现有竞价调整，请将此项留空。</p></li></ul> |
-| [!UICONTROL Adobe Rec Bid Adjustment] | （出于信息目的包含在生成的批量处理工作表中） Adobe建议为促销活动级别位置目标或RLSA进行的只读竞价调整。 仅当营销活动位于其目标使用加权转化量度（而不是[!UICONTROL Maximize Clicks]目标）的项目组合中，并且营销活动包含至少两个位置目标或过去90天内至少单击5次或成本降低5美元的RLSA时，才会计算此值。</p><p>如果要手动编辑位置目标或RLSA以使用推荐值，请在创建位置目标或RLSA后至少等待两周，以便允许进行足够的数据收集，并且不要每周多次更改该值。 |
+| [!UICONTROL Adobe Rec Bid Adjustment] | （出于信息目的包含在生成的批量处理工作表中） Adobe建议为促销活动级别位置目标或RLSA进行的只读竞价调整。 仅当营销活动位于其目标为使用加权转化指标（而不是[!UICONTROL Maximize Clicks]目标）的项目组合中，并且该营销活动包含至少两个位置目标或过去90天内具有至少五次点击或五次USD成本的RLSA时，才会计算此目标值。</p><p>如果要手动编辑位置目标或RLSA以使用推荐值，请在创建位置目标或RLSA后至少等待两周，以便允许进行足够的数据收集，并且不要每周多次更改该值。 |
 | [!UICONTROL Device Targets] | <p>（仅限旧版促销活动类型）可显示广告的设备： <i>[!UICONTROL All]</i>、<i>[!UICONTROL Computers]</i>、<i>[!UICONTROL Smartphones]</i>或<i>[!UICONTROL Tablets]</i>。 对于新营销活动，默认值为<i>[!UICONTROL All]</i>。</p> |
 | [!UICONTROL Device OS Targets (Google Adwords)] | （仅限旧版促销活动类型；适用于设备目标包括“智能手机”或“平板电脑”的情况）可显示广告的操作系统： <i>[!UICONTROL All]</i>、<i>[!UICONTROL Android]</i>、<i>[!UICONTROL iOS]</i>或<i>[!UICONTROL Palm]</i>。 对于新营销活动，默认值为<i>[!UICONTROL All]</i>。</p> |
 | [!UICONTROL Mobile Carriers (Google Adwords)] | <p>（仅限旧版促销活动类型；适用于[!UICONTROL Device Targets]包含“[!UICONTROL All]”或“[!UICONTROL Smartphones]”的情况）智能手机的可能连接到的移动运营商： <i>[!UICONTROL All]</i>，或者&lt;c<i>运营商代码</i>>、&lt;<i>国家/地区代码</i>>（如T-Mobile，US）指示的一个或多个运营商（使用<a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">个可用运营商的列表和[!DNL Google Ads]</a>的代码）。 使用分号（如T-Mobile，US；T-Mobile，GB）分隔多个运营商。 对于新营销活动，默认值为<i>[!UICONTROL All]</i>。</p> |
@@ -109,7 +114,7 @@ Add in when released:
 | [!UICONTROL Start Date] | <p>（仅限增强型站点链接）对站点链接发出竞价的第一天，在广告商所在的时区内，以下列格式之一表示： <i>m/d/yyyy</i>、<i>m/d/yy</i>、<i>m-d-yyyy</i>或<i>m-d-yy</i>。 新的增强型站点链接的默认值为当天。</p><p><b>注意：</b>只能在具有现有增强型站点链接或没有站点链接的营销活动中创建新的增强型站点链接。</p> |
 | [!UICONTROL End Date] | <p>（仅限增强型站点链接）对站点链接发出竞价的最后日期，以广告商的时区为单位并采用以下格式之一：<i>m/d/yyyy</i>、<i>m/d/yy</i>、<i>m-d-yyyy</i>或<i>m-d-yy</i>。 默认为“无”（无结束日期）。</p><p><b>注意：</b>只能在具有现有增强型站点链接或没有站点链接的营销活动中创建新的增强型站点链接。</p> |
 | [!UICONTROL Exclude Tablet (Google Adwords)] | （仅限现有应用程序安装广告）</p><p>（可选）阻止[!DNL Google Ads]向平板电脑用户显示广告。 值可以包括<i>是</i>和<i>否</i>。 |
-| [!UICONTROL Landing Page Suffix] | 附加到最终URL末尾以跟踪信息的任何参数。 示例： `param2=value1&param3=value2`<br><br>请参阅“ [!DNL Google Ads][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的点击跟踪格式”。“<br><br>较低级别的最终URL后缀将覆盖帐户级别的后缀。 为便于维护，除非需要对各个帐户组件进行不同的跟踪，否则请仅使用帐户级别的后缀。 要在广告组级别或更低级别配置后缀，请使用[!DNL Google Ads]编辑器。 |
+| [!UICONTROL Landing Page Suffix] | 附加到最终URL末尾以跟踪信息的任何参数。 示例： `param2=value1&param3=value2`<br><br>请参阅“ [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[点击跟踪格式”。“<br><br>较低级别的最终URL后缀将覆盖帐户级别的后缀。 为便于维护，除非需要对各个帐户组件进行不同的跟踪，否则请仅使用帐户级别的后缀。 要在广告组级别或更低级别配置后缀，请使用[!DNL Google Ads]编辑器。 |
 | [!UICONTROL Tracking Template] | 跟踪模板，指定所有登陆域重定向和跟踪参数，并将最终URL嵌入到[!DNL ValueTrack]参数中。 最粒度级别的跟踪模板（使用关键字作为最粒度级别）将覆盖所有更高级别的值。<br><br>对于Adobe Advertising转化跟踪（在营销活动设置包括“[!UICONTROL EF Redirect]”和“[!UICONTROL Auto Upload]”时应用），Search、Social和Commerce会在您保存记录时自动附加其自身的重定向和跟踪代码。<br><br>对于第三方重定向和跟踪，请输入一个值。 有关在跟踪模板中指示最终URL的[!DNL ValueTrack]参数列表，请参阅[[!DNL Google Ads] 文档](https://support.google.com/google-ads/answer/2375447)中“可用[!DNL ValueTrack]参数”一节中的“仅跟踪模板”参数。<br><br>要删除现有值，请使用值`[delete]`（包括括号）。 |
 | [!UICONTROL Base URL/Final URL] | 搜索引擎用户在单击您的广告时进入的登陆页面URL，包括为促销活动或帐户配置的任何附加参数。 关键字级别的基本/最终URL将覆盖广告级别和更高级别的URL。<br><br>要删除现有值，请使用值`[delete]`（包括括号）。 |
 | [!UICONTROL Destination URL] | （出于提供信息的目的包含在生成的批量工作表中；未发布到搜索引擎）对于具有目标URL的帐户，此URL可将广告链接到广告商网站上的基本URL/登陆页面（有时通过另一个跟踪点击的网站，然后将用户重定向到登陆页面）。 它包括为Search、Social和Commerce营销活动或帐户配置的任何附加参数。 如果您生成了跟踪URL，则跟踪URL将基于帐户设置和促销活动设置中的跟踪参数。 如果附加了特定于搜索引擎的参数，则这些参数可能会被等效的Search、Social和Commerce参数替换。<br><br>对于具有最终URL的帐户，此列显示与“基本URL”/“最终URL”列相同的值。 |
@@ -263,7 +268,7 @@ Add in when released:
 
 ### 扩展的动态搜索广告
 
-此广告类型现在在[!DNL Google Ads]中称为“动态搜索广告”。 有关创建动态搜索广告的更多信息，请参阅“[实施 [!DNL Google Ads] 动态搜索广告](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html?lang=zh-Hans)”。
+此广告类型现在在[!DNL Google Ads]中称为“动态搜索广告”。 有关创建动态搜索广告的更多信息，请参阅“[实施 [!DNL Google Ads] 动态搜索广告](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html)”。
 
 对于此广告类型，请使用[!UICONTROL Download Bulksheet]对话框中的“[!UICONTROL Creative (except RSA)]”行。
 
@@ -288,7 +293,7 @@ Add in when released:
 
 ### 产品列表/购物广告字段
 
-有关创建购物广告的更多信息，请参阅“[实施 [!DNL Google Ads] 购物营销活动](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html?lang=zh-Hans)”。
+有关创建购物广告的更多信息，请参阅“[实施 [!DNL Google Ads] 购物营销活动](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html)”。
 
 对于此广告类型，请使用[!UICONTROL Download Bulksheet]对话框中的“[!UICONTROL Creative (except RSA)]”行。
 
@@ -493,5 +498,5 @@ Add in when released:
 >* [可在批量处理工作表中执行的操作](bulksheet-operations.md)
 >* [支持的批量处理工作表文件格式](bulksheet-file-formats.md)
 >* [下载/创建批量处理工作表文件](../bulksheet-download.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的点击跟踪格式
+>*  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的[点击跟踪格式
 >* [上载批量工作表文件或更正的错误文件](../bulksheet-upload.md)

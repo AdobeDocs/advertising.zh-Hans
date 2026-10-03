@@ -3,18 +3,24 @@ title: 更改管理视图和报告中的可用转化量度
 description: 了解如何在管理视图和报告中使用转化量度。
 feature: Conversions
 exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
-TQID: https://experienceleague.adobe.com/o50AN9pYkuuP-M1e4IAkQOLWSsg584T6TtWnrawAnUU
+TQID: 'https://experienceleague.adobe.com/o50AN9pYkuuP-M1e4IAkQOLWSsg584T6TtWnrawAnUU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 506
+source-wordcount: '504'
 ht-degree: 0%
-
 ---
-
 # 更改管理视图和报告中的可用转化量度
 
 当Adobe Advertising跟踪广告商的[转化](/help/search-social-commerce/glossary.md#c-d)量度时，它最初不在项目组合目标、报表和管理视图中。 要使转化量度可见，您必须明确使其可用，然后根据需要更改默认显示名称（即显示的名称）。 唯一的例外是[!DNL Google Ads]、[!DNL Google Analytics]和[!DNL Microsoft Advertising]通用事件跟踪标记所跟踪的转化自动可用并可见。
@@ -41,13 +47,13 @@ ht-degree: 0%
 
    * 要显示或隐藏多个量度，请执行以下操作：
 
-      1. 选中每个转化量度旁边的复选框。
+     1. 选中每个转化量度旁边的复选框。
 
-         有关选择多行的提示，请参阅“[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)”。
+        有关选择多行的提示，请参阅“[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)”。
 
-      1. 在数据表上方的工具栏中，单击![显示](/help/search-social-commerce/assets/show.png "显示")以显示量度，或单击![隐藏](/help/search-social-commerce/assets/hide.png "隐藏")隐藏量度。
+     1. 在数据表上方的工具栏中，单击![显示](/help/search-social-commerce/assets/show.png "显示")以显示量度，或单击![隐藏](/help/search-social-commerce/assets/hide.png "隐藏")隐藏量度。
 
-      1. （要隐藏量度）在确认消息中，单击&#x200B;**[!UICONTROL Yes]**&#x200B;可隐藏量度，包括从包含这些量度的任何派生量度中删除这些量度。
+     1. （要隐藏量度）在确认消息中，单击&#x200B;**[!UICONTROL Yes]**&#x200B;可隐藏量度，包括从包含这些量度的任何派生量度中删除这些量度。
 
 1. （可选） [更改任何转化量度的列标题](conversion-metric-edit-display-name.md)中显示的名称。
 

@@ -3,20 +3,27 @@ title: 体验级性能报表
 description: 了解如何查看体验级性能报表。
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-TQID: https://experienceleague.adobe.com/1k8mcvg9-anlNxZQ43czfxpLEweDr-TolaaEIrDz-Fg
+TQID: 'https://experienceleague.adobe.com/1k8mcvg9-anlNxZQ43czfxpLEweDr-TolaaEIrDz-Fg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 50e002abe0c434e5eba9bd9785d7fc3d7ee7d10c
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 791
+source-wordcount: '791'
 ht-degree: 0%
-
 ---
-
 # 体验级性能报表
 
 您可以查看任何体验的详细性能数据。
@@ -27,39 +34,39 @@ ht-degree: 0%
 
 * **概述**&#x200B;选项卡：整个体验<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." -->的所有转化量度的性能概述，包括：
 
-   * **总体性能**&#x200B;部分：
+  * **总体性能**&#x200B;部分：
 
-      * **整体性能**：总展示次数、点击次数、点进率(CTR)、显示到达转化和点进转化。
+    * **整体性能**：总展示次数、点击次数、点进率(CTR)、显示到达转化和点进转化。
 
-     <!--
+    <!--
       ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
      -->
 
-      * **默认比率**： （仅具有决策树定位的体验）由目标创意、无目标或面向“其他所有人”的通用创意，以及体验的默认创意产生的展示次数。
+    * **默认比率**： （仅具有决策树定位的体验）由目标创意、无目标或面向“其他所有人”的通用创意，以及体验的默认创意产生的展示次数。
 
-     <!--
+    <!--
       ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
-   * **性能细分**&#x200B;部分：
+  * **性能细分**&#x200B;部分：
 
-      * **区域性能：**：按地理位置划分的各个量度。
+    * **区域性能：**：按地理位置划分的各个量度。
 
-     <!--
+    <!--
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
      -->
 
-      * **设备性能：**&#x200B;按设备类型、操作系统和浏览器列出的各个量度。 （可选）单击任何设备类别的值以查看符合该条件的前10个创意的列表。
+    * **设备性能：**&#x200B;按设备类型、操作系统和浏览器列出的各个量度。 （可选）单击任何设备类别的值以查看符合该条件的前10个创意的列表。
 
-     <!--
+    <!--
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
      -->
 
 * **Creative性能**&#x200B;选项卡*：按创意和捆绑包或广告标记显示的性能概述，包括：
 
-   * **创意内容**&#x200B;子选项卡：体验中每个创意内容的展示次数、点击次数和CTR总数。<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
+  * **创意内容**&#x200B;子选项卡：体验中每个创意内容的展示次数、点击次数和CTR总数。<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
 
-   * **包/标记**&#x200B;子选项卡：体验中的单个包（具有决策树定位的体验）或广告标记（没有决策树定位的体验）的展示次数、点击次数和CTR总数。
+  * **包/标记**&#x200B;子选项卡：体验中的单个包（具有决策树定位的体验）或广告标记（没有决策树定位的体验）的展示次数、点击次数和CTR总数。
 
 ## 查看某个体验的性能报表
 
@@ -79,9 +86,9 @@ ht-degree: 0%
 
    * （可选）要更改性能数据的日期范围，请在日期菜单中选择一个选项：
 
-      * 要指定预设时段，请选择报表： (*[!UICONTROL Last Month-to-date]，* *[!UICONTROL Last 7 days]，* *[!UICONTROL Last 30 days]，* *[!UICONTROL Last 7 days]，* *[!UICONTROL Last 30 days]，* *[!UICONTROL Today]，*&#x200B;或&#x200B;*[!UICONTROL Yesterday]*。
+     * 要指定预设时段，请选择报表： (*[!UICONTROL Last Month-to-date]，* *[!UICONTROL Last 7 days]，* *[!UICONTROL Last 30 days]，* *[!UICONTROL Last 7 days]，* *[!UICONTROL Last 30 days]，* *[!UICONTROL Today]，*&#x200B;或&#x200B;*[!UICONTROL Yesterday]*。
 
-      * 要指定自定义日期范围，请输入开始日期和结束日期，或者单击字段旁边的![日历图标](/help/search-social-commerce/assets/calendar.png)并选择日期。
+     * 要指定自定义日期范围，请输入开始日期和结束日期，或者单击字段旁边的![日历图标](/help/search-social-commerce/assets/calendar.png)并选择日期。
 
    * （可选）要更改用于在一系列导致转化的事件中归因转化数据的规则，请单击![设置](/help/creative/assets/settings.png)并更改&#x200B;**[!UICONTROL Attribution Rule]**。
 
@@ -97,27 +104,27 @@ ht-degree: 0%
 
    * （可选）在[!UICONTROL Regional Performance]部分中，执行以下任一操作：
 
-      * 单击某个量度名称（如[!UICONTROL Impressions]）以查看该量度。
+     * 单击某个量度名称（如[!UICONTROL Impressions]）以查看该量度。
 
-      * 在[!UICONTROL Region]菜单中选择区域。
+     * 在[!UICONTROL Region]菜单中选择区域。
 
-      * 将光标悬停在国家/地区或州上可查看该区域的数据。
+     * 将光标悬停在国家/地区或州上可查看该区域的数据。
 
    * （可选）在[!UICONTROL Device Performance]部分中，执行以下任一操作：
 
-      * 将光标悬停在任何设备类别的值上可查看该标准的数据。
+     * 将光标悬停在任何设备类别的值上可查看该标准的数据。
 
-      * 单击任何设备类别的值可查看使用该条件的前<!-- NN-->个创意的列表。
+     * 单击任何设备类别的值可查看使用该条件的前<!-- NN-->个创意的列表。
 
 1. （可选）要按创意、包或广告标记查看数据，请单击&#x200B;**[!UICONTROL Creative Performance]**&#x200B;选项卡。
 
    * 在[!UICONTROL Creatives]子选项卡上，您可以执行以下任一操作：
 
-      * （可选）若要在图表视图和网格视图之间切换，请分别单击![图表](/help/creative/assets/chart-view-button.png "图表")和![网格](/help/creative/assets/table-view-button.png "网格")。
+     * （可选）若要在图表视图和网格视图之间切换，请分别单击![图表](/help/creative/assets/chart-view-button.png "图表")和![网格](/help/creative/assets/table-view-button.png "网格")。
 
-      * （可选）在图表视图中，将光标悬停在图表中的某个点上可查看该点的数据。
+     * （可选）在图表视图中，将光标悬停在图表中的某个点上可查看该点的数据。
 
-      * （仅具有决策树定位的体验；可选）要划分每个应用的广告目标的性能，请启用&#x200B;**[!UICONTROL Split targeting]**。
+     * （仅具有决策树定位的体验；可选）要划分每个应用的广告目标的性能，请启用&#x200B;**[!UICONTROL Split targeting]**。
 
 1. 要按捆绑（具有决策树定位的体验）或广告标记（没有决策树定位的体验）查看数据，请单击&#x200B;**[!UICONTROL Bundles]**&#x200B;子选项卡。 您可以执行以下任一操作：
 

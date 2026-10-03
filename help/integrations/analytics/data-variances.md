@@ -1,30 +1,41 @@
 ---
-title: ' [!DNL Analytics] 和Adobe Advertising之间的预期数据差异'
-description: ' [!DNL Analytics] 和Adobe Advertising之间的预期数据差异'
+title: '[!DNL Analytics]和Adobe Advertising之间的预期数据差异'
+description: '[!DNL Analytics]和Adobe Advertising之间的预期数据差异'
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-TQID: https://experienceleague.adobe.com/rTwYQgWuhRefe4R9FahGydneNVpv9mP7pqhOeDQwP34
+TQID: 'https://experienceleague.adobe.com/rTwYQgWuhRefe4R9FahGydneNVpv9mP7pqhOeDQwP34'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3d540e71081d223cc4e9ee28bb8b4f168c07ff50
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3528
+source-wordcount: '3529'
 ht-degree: 0%
-
 ---
-
 # [!DNL Analytics]和Adobe Advertising之间的预期数据差异
 
 *仅集成Adobe Advertising-Adobe Analytics的广告商*
@@ -53,7 +64,7 @@ ht-degree: 0%
 
 * **不同归因模型导致的差异示例：**
 
-  假设用户在转化之前与三个不同的Adobe Advertising广告进行交互，并将收入作为转化类型。 如果Adobe Advertising报表使用均匀分布模型来归因，则它将收入平均归因到所有广告。 但是，如果[!DNL Analytics]使用最后接触归因模型，则会将收入归因于最后一个广告。 在以下示例中，Adobe Advertising将捕获的30美元收入中的平均10美元归因于三个广告中的每个，而[!DNL Analytics]将所有30美元收入归因于用户看到的最后一个广告。 当您比较来自Adobe Advertising和[!DNL Analytics]的报表时，可以预料到归因差异的影响。
+  假设用户在转化之前与三个不同的Adobe Advertising广告进行交互，并将收入作为转化类型。 如果Adobe Advertising报表使用均匀分布模型来归因，则它将收入平均归因到所有广告。 但是，如果[!DNL Analytics]使用最后接触归因模型，则会将收入归因于最后一个广告。 在以下示例中，Adobe Advertising将捕获的30 USD收入中的平均10 USD归因于三个广告中的每个，而[!DNL Analytics]将所有30 USD收入归因于用户看到的最后一个广告。 当您比较来自Adobe Advertising和[!DNL Analytics]的报表时，可以预料到归因差异的影响。
 
   根据不同的归因模型，![归因于Adobe Advertising和[!DNL Analytics]的其他收入](/help/integrations/assets/a4adc-attribution-example.png)
 
@@ -73,7 +84,7 @@ ht-degree: 0%
 
 ![归因于[!DNL Analytics]而非Adobe Advertising的浏览转化示例](/help/integrations/assets/a4adc-viewthrough-example.png)
 
-导致差异的另一个原因是，在Adobe Advertising中，您可以为显示到达转化分配自定义&#x200B;*显示到达权重*，该权重与基于点击的转化所归因的权重相关。 默认显示到达权重为40%，这意味着显示到达转化会计为基于点击的转化值的40%。 [!DNL Analytics]不提供此类显示到达转化权重。 因此，例如，如果您使用默认显示到达权重，则[!DNL Analytics]中捕获的100美元收入订单将在Adobe Advertising中折扣为40美元，二者的差额为60美元。
+导致差异的另一个原因是，在Adobe Advertising中，您可以为显示到达转化分配自定义&#x200B;*显示到达权重*，该权重与基于点击的转化所归因的权重相关。 默认显示到达权重为40%，这意味着显示到达转化会计为基于点击的转化值的40%。 [!DNL Analytics]不提供此类显示到达转化权重。 因此，例如，如果您使用默认显示到达权重，则[!DNL Analytics]中捕获的100个USD收入订单在Adobe Advertising中会折现为40个USD，二者的差值为60 USD。
 
 在比较Adobe Advertising和[!DNL Analytics]报表之间的显示到达转化时，请考虑这些差异。
 
@@ -101,7 +112,7 @@ ht-degree: 0%
 >
 >为避免混淆，[!DNL Analytics]使历史数据在报表界面中不可用。 如果将[!DNL eVar]更改回初始分配设置，则可以查看历史数据，但不应仅为了访问历史数据而更改[!DNL eVar]分配设置。 Adobe建议，当您要为已记录的数据应用新的分配设置时，使用新的[!DNL eVar]，而不是更改已具有大量历史数据的[!DNL eVar]的分配设置。
 
-在[https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/attribution/models)上查看[!DNL Analytics]归因模型及其定义的列表。
+在[https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models)上查看[!DNL Analytics]归因模型及其定义的列表。
 
 如果您已登录[!DNL Search, Social, & Commerce]，则可以查找列表
 
@@ -117,11 +128,11 @@ ht-degree: 0%
 
 ## [!DNL Analytics Marketing Channels]中的归因
 
-[[!DNL Analytics Marketing Channels] 报告](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=zh-Hans)允许您配置规则，以根据点击信息的不同方面识别不同的营销渠道。 您可以使用`ef_id`查询字符串参数将Adobe Advertising跟踪的渠道（[!UICONTROL Display Click Through]、[!UICONTROL Display View Through]和[!UICONTROL Paid Search]）作为[!DNL Marketing Channels]进行跟踪，以标识该渠道。<!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> 但是，即使[!DNL Marketing Channels]报表可以跟踪Adobe Advertising渠道，数据可能由于若干原因与Adobe Advertising报表不匹配。 有关更多信息，请参阅以下部分。
+[[!DNL Analytics Marketing Channels] 报告](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html)允许您配置规则，以根据点击信息的不同方面识别不同的营销渠道。 您可以使用`ef_id`查询字符串参数将Adobe Advertising跟踪的渠道（[!UICONTROL Display Click Through]、[!UICONTROL Display View Through]和[!UICONTROL Paid Search]）作为[!DNL Marketing Channels]进行跟踪，以标识该渠道。<!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> 但是，即使[!DNL Marketing Channels]报表可以跟踪Adobe Advertising渠道，数据可能由于若干原因与Adobe Advertising报表不匹配。 有关更多信息，请参阅以下部分。
 
 >[!NOTE]
 >
-> 以下核心概念还适用于任何涉及Adobe Advertising中未跟踪的营销活动的多渠道跟踪，如[`campaign`](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/campaign.html?lang=zh-Hans)变量（也称为“跟踪代码”维度或“[!DNL eVar] 0”）和自定义[!DNL eVar]跟踪。
+> 以下核心概念还适用于任何涉及Adobe Advertising中未跟踪的营销活动的多渠道跟踪，如[`campaign`](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/campaign.html)变量（也称为“跟踪代码”维度或“[!DNL eVar] 0”）和自定义[!DNL eVar]跟踪。
 
 ### [!DNL Marketing Channels]中可能不同的归因模型
 
@@ -137,7 +148,7 @@ Adobe Advertising报表仅捕获通过Adobe Advertising贩运的付费媒体（�
 
 例如，付费搜索和免费搜索渠道通常具有共生关系，每个渠道相互协助。 [!DNL Marketing Channels]报表将某些转化归因于免费搜索，而Adobe Advertising没有这样做，因为它不跟踪免费搜索。
 
-再考虑查看展示广告、单击付费搜索广告、单击电子邮件内容，然后下达30美元订单的客户。 即使Adobe Advertising和[!DNL Marketing Channels]都使用最后接触归因模型，转化仍会以不同的方式归因于每一个。 Adobe Advertising无权访问[!UICONTROL Email]渠道，因此它将计入转换的付费搜索。 但是，[!DNL Marketing Channels]有权访问所有三个渠道，因此它将计入[!UICONTROL Email]的转化积分。
+再考虑查看展示广告、单击付费搜索广告、单击电子邮件内容，然后下达30个USD订单的客户。 即使Adobe Advertising和[!DNL Marketing Channels]都使用最后接触归因模型，转化仍会以不同的方式归因于每一个。 Adobe Advertising无权访问[!UICONTROL Email]渠道，因此它将计入转换的付费搜索。 但是，[!DNL Marketing Channels]有权访问所有三个渠道，因此它将计入[!UICONTROL Email]的转化积分。
 
 ![Adobe Advertising中与[!DNL Analytics Marketing Channels]](/help/integrations/assets/a4adc-channel-example.png)不同的转化归因示例
 
@@ -145,7 +156,7 @@ Adobe Advertising报表仅捕获通过Adobe Advertising贩运的付费媒体（�
 
 ## Adobe Analytics [!DNL Paid Search Detection]中的数据差异
 
-[!DNL Analytics]中的[旧版 [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html?lang=zh-Hans)功能允许公司[定义规则以跟踪指定搜索引擎的付费和免费搜索流量](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html?lang=zh-Hans)。 [!DNL Paid Search Detection]规则同时使用查询字符串和反向链接域来标识付费和免费搜索流量。 [!DNL Paid Search Detection]报告是更大的[查找方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html?lang=zh-Hans)报告组的一部分，这些报告将在发生指定事件（例如购物车结帐）或访问结束时过期。
+[!DNL Analytics]中的[旧版 [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html)功能允许公司[定义规则以跟踪指定搜索引擎的付费和免费搜索流量](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html)。 [!DNL Paid Search Detection]规则同时使用查询字符串和反向链接域来标识付费和免费搜索流量。 [!DNL Paid Search Detection]报告是更大的[查找方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html)报告组的一部分，这些报告将在发生指定事件（例如购物车结帐）或访问结束时过期。
 
 以下是创建[!DNL Paid Search Detection]规则集的接口：
 
@@ -163,7 +174,7 @@ Adobe Advertising报表仅捕获通过Adobe Advertising贩运的付费媒体（�
 
 ### 为什么要配置[!DNL Paid Search Detection]？
 
-[!DNL Paid Search Detection]报告允许您在[[!DNL Analytics Marketing Channels] 报告](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=zh-Hans)中识别免费搜索流量。 将付费搜索流量与免费搜索流量区分开来是了解免费搜索为整个营销生态系统带来价值的一个极好的方法。
+[!DNL Paid Search Detection]报告允许您在[[!DNL Analytics Marketing Channels] 报告](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html)中识别免费搜索流量。 将付费搜索流量与免费搜索流量区分开来是了解免费搜索为整个营销生态系统带来价值的一个极好的方法。
 
 ## [!DNL Analytics for Advertising]的点进数据验证 {#data-validation}
 
@@ -253,7 +264,7 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 * **Click：** [!DNL DSP]，或者当访客点击发布者网站上的广告时，搜索引擎会记录一次点击。
 
-* **访问：** [!DNL Analytics]将[访问](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=zh-Hans)定义为用户的一系列页面查看，并根据多个条件之一结束，例如30分钟不活动。
+* **访问：** [!DNL Analytics]将[访问](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)定义为用户的一系列页面查看，并根据多个条件之一结束，例如30分钟不活动。
 
 顾名思义，单击可导致多次访问。
 
@@ -279,7 +290,7 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 ### 对非Adobe Advertising维度使用Adobe Advertising流量量度
 
-Adobe Advertising为Analytics提供了来自 [!DNL DSP] 和 [!DNL Search, Social, & Commerce][&#128279;](advertising-metrics-in-analytics.md)的特定于广告的流量量度和相关维度。 Adobe Advertising提供的量度仅适用于指定的Adobe Advertising维度，并且数据对于[!DNL Analytics]中的其他维度不可用。
+Adobe Advertising为Analytics提供了来自 [!DNL DSP] 和 [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md)的[特定于广告的流量量度和相关维度。 Adobe Advertising提供的量度仅适用于指定的Adobe Advertising维度，并且数据对于[!DNL Analytics]中的其他维度不可用。
 
 例如，如果您按帐户查看[!UICONTROL Adobe Advertising Clicks]和[!UICONTROL Adobe Advertising Cost]指标（这是Adobe Advertising维度），则按帐户显示总计[!UICONTROL Adobe Advertising Clicks]和[!UICONTROL Adobe Advertising Cost]。
 
@@ -293,12 +304,12 @@ Adobe Advertising为Analytics提供了来自 [!DNL DSP] 和 [!DNL Search, Social
 
 由于您无法将[!UICONTROL AMO Clicks]与网站上的维度一起使用，因此您可能希望找到等同于点击量的维度。 您可能倾向于使用访问次数作为替代，但这并不是最佳选择，因为每个访客可能具有多次访问。 (请参阅&quot;[点击次数与访问次数的差异](#clicks-vs-visits)&quot;。 我们建议改用[!UICONTROL AMO ID Instances]，这是捕获AMO ID的次数。 虽然[!UICONTROL AMO ID Instances]与[!UICONTROL AMO Clicks]不完全匹配，但它们是测量网站点击流量的最佳选项。 有关详细信息，请参阅“[针对 [!DNL Analytics for Advertising]](#data-validation)的点进数据验证”。
 
-对于不支持的维度![&#128279;](/help/integrations/assets/a4adc-amo-id-instances.png)，为示例[!UICONTROL AMO ID Instances]而不是[!UICONTROL Adobe Advertising Clicks]
+对于不支持的维度](/help/integrations/assets/a4adc-amo-id-instances.png)，为![示例[!UICONTROL AMO ID Instances]而不是[!UICONTROL Adobe Advertising Clicks]
 
 >[!MORELIKETHIS]
 >
 >* [概述 [!DNL Analytics for Advertising]](overview.md)
->*  [!DNL Analytics][&#128279;](/help/integrations/analytics/ids.md)使用的Adobe Advertising ID
+>*  [!DNL Analytics]](/help/integrations/analytics/ids.md)使用的[Adobe Advertising ID
 >* Analysis Workspace中的[Adobe Advertising指标](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 >* Adobe Advertising中的[[!DNL Analytics] 数据](/help/integrations/analytics/analytics-data-in-advertising.md)
 >* [为什么渠道数据在Adobe Advertising和 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)之间可能不同

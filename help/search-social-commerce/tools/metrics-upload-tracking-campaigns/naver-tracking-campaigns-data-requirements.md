@@ -1,20 +1,23 @@
 ---
-title: ' [!DNL Naver] 仅跟踪帐户的流量和转化量度的数据要求'
-description: 引用 [!DNL Naver] 仅跟踪帐户的数据上载要求。
+title: '[!DNL Naver]个仅跟踪帐户的流量和转化量度的数据要求'
+description: 引用[!DNL Naver]仅跟踪帐户的数据上载要求。
 exl-id: cc8ee5de-2bf2-48fd-9fa7-28421aed673f
 feature: Search Tools
-TQID: https://experienceleague.adobe.com/e4n2ab469CRIiEmqq5wd97pXSQZ9Dt-tehqJSp125GU
+TQID: 'https://experienceleague.adobe.com/e4n2ab469CRIiEmqq5wd97pXSQZ9Dt-tehqJSp125GU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 230
+source-wordcount: '232'
 ht-degree: 0%
-
 ---
-
 # [!DNL Naver]仅跟踪帐户的量度数据要求
 
 以下是仅跟踪帐户的[!DNL Naver]流量和转化量度的数据要求。
@@ -29,7 +32,7 @@ ht-degree: 0%
 | 营销活动 | 区分大小写的字符串 | 营销活动名称。 |
 | 广告组（作为一个词） | 区分大小写的字符串 | 广告组名称。 |
 | 关键词 | 区分大小写的字符串 | （关键词广告）生成广告的关键字。 |
-| [指标] | 整数 | （可选）度量度量为&rbrack;的&lbrack;数。</br><br>标准量度包括展示次数、成本和点击次数。 您可以从广告网络包含任何其他所需的量度。 将每个量度包含在一个单独的列中。<br><br><b>注意：</b><ul><li>“成本”的列标题必须为“成本(KRW)”。</li><li>要包含品牌广告的成本(KRW)，请在广告组级别手动将每月固定成本除以日。</li><li>从标准量度值中删除所有逗号。 例如，使用1000而不是1,000。</li><li>对于null值，使用0。</li></ul> |
+| [指标] | 整数 | （可选）度量度量为]的[数。</br><br>标准量度包括展示次数、成本和点击次数。 您可以从广告网络包含任何其他所需的量度。 将每个量度包含在一个单独的列中。<br><br><b>注意：</b><ul><li>“成本”的列标题必须为“成本(KRW)”。</li><li>要包含品牌广告的成本(KRW)，请在广告组级别手动将每月固定成本除以日。</li><li>从标准量度值中删除所有逗号。 例如，使用1000而不是1,000。</li><li>对于null值，使用0。</li></ul> |
 
 >[!MORELIKETHIS]
 >

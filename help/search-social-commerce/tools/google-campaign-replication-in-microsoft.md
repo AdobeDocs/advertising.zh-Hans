@@ -3,14 +3,17 @@ title: 复制[!DNL Microsoft Advertising]中的[!DNL Google Ads]营销活动
 description: 了解如何将[!DNL Google Ads]帐户中同步的活动直接导出到同步的[!DNL Microsoft Advertising]帐户。
 exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
-TQID: https://experienceleague.adobe.com/l0yaZq0hmQSXXeJon22Fm8HOWJ6JDOaZuGqwxVfdw-c
+TQID: 'https://experienceleague.adobe.com/l0yaZq0hmQSXXeJon22Fm8HOWJ6JDOaZuGqwxVfdw-c'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 0%
@@ -43,7 +46,7 @@ ht-degree: 0%
 >
 >如果要复制基于购物馈送的显示促销活动，请先[在 [!DNL Microsoft Merchant Center]](https://help.ads.microsoft.com/apex/index/3/en/56870)中复制 [!DNL Google Merchant Center] 产品选件。 复制营销活动时，在导入选项中选择[!DNL Microsoft Merchant Center]存储，以将存储链接到基于信息源的受众营销活动。
 
-查看从 [!DNL Google Ads] 营销活动[&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)导入的内容。
+查看从 [!DNL Google Ads] 营销活动](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)导入的[内容。
 
 1. 在“搜索、社交和Commerce”主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
 
@@ -71,7 +74,7 @@ ht-degree: 0%
 
 ## 编辑活动导入作业的计划设置
 
-查看从 [!DNL Google Ads] 营销活动[&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)导入的内容。
+查看从 [!DNL Google Ads] 营销活动](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)导入的[内容。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
 

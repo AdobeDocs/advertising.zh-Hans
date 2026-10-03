@@ -3,25 +3,31 @@ title: 营销活动管理视图中的性能报表类型
 description: 了解营销活动管理视图中包含的报表数据。
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-TQID: https://experienceleague.adobe.com/-3WGjX1rQOEKSO9aSdLxBxfDOIyPUMHLbZg-3bFxMd0
+TQID: 'https://experienceleague.adobe.com/-3WGjX1rQOEKSO9aSdLxBxfDOIyPUMHLbZg-3bFxMd0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 2cfe5a2c-1e84-5461-b310-20f6bb734742
+    internal-label: DSP Campaign Data Views
 subfeature_v2:
   - id: f784309e-91ce-4bb5-ade4-5cbbceabecc0
+    internal-label: Campaign Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: '658'
 ht-degree: 0%
-
 ---
-
 # 营销活动管理视图中的性能报表类型
 
 营销活动管理视图包括全面的报告数据。 可用报告可帮助您识别性能良好的资源包和投放位置以及需要您关注的资源包和投放位置。 快速操作按钮还可提高您的工作效率。
@@ -44,7 +50,7 @@ ht-degree: 0%
 
 ![营销活动列表](/help/dsp/assets/campaigns-list.png)
 
-默认情况下，每个营销活动行都包含步调和投放量度。 步调量度包括[!UICONTROL Gross Spend (Lifetime)]，其中包括对营销活动中所有包的实际目标上支出与预期目标上支出的衡量，因此您可以一目了然地识别表现不佳的营销活动。 您可以选择更改列视图[，甚至](campaign-data-views-manage.md#column-view-change)创建自定义列视图[。](campaign-data-views-manage.md#column-view-create)
+默认情况下，每个营销活动行都包含步调和投放量度。 步调量度包括[!UICONTROL Gross Spend (Lifetime)]，其中包括对营销活动中所有包的实际目标上支出与预期目标上支出的衡量，因此您可以一目了然地识别表现不佳的营销活动。 您可以选择更改列视图](campaign-data-views-manage.md#column-view-change)，甚至[创建自定义列视图](campaign-data-views-manage.md#column-view-create)。[
 
 您可以进一步[以其他方式自定义数据表](campaign-data-views-manage.md#data-tables-manage)和[筛选可见数据](campaign-data-views-manage.md#filter-data-tables)。
 
@@ -64,7 +70,7 @@ ht-degree: 0%
 
 对于每个营销活动，您可以[使用三个量度（可在每个实体视图中找到）自定义时间序列趋势图](campaign-data-views-manage.md#data-visualizations-manage)。 促销活动的所有趋势图中都保留相同的量度。
 
-有关详细信息，请参阅跨营销活动量度[上的](#chart-view)“图表视图”部分。
+有关详细信息，请参阅跨营销活动量度](#chart-view)上的[“图表视图”部分。
 
 ### 表格视图
 

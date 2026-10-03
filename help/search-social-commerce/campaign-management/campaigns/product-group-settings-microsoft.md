@@ -1,20 +1,23 @@
 ---
 title: '[!DNL Microsoft Advertising]产品组设置'
-description: 引用 [!DNL Microsoft Advertising] 购物产品组的设置。
+description: 引用[!DNL Microsoft Advertising]购物产品组的设置。
 exl-id: ea3a4137-1396-430f-9d6c-8e1e1f1f52c2
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/xbYc0Xe-FsgGq-jqZdzZ4Rj877BL6NCxb4utaEMmCdY
+TQID: 'https://experienceleague.adobe.com/xbYc0Xe-FsgGq-jqZdzZ4Rj877BL6NCxb4utaEMmCdY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 270
+source-wordcount: '274'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising]产品组设置
 
 ## “所有产品”产品组

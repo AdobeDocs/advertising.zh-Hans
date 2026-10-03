@@ -3,25 +3,33 @@ title: 关于Advertising Creative中的体验
 description: 了解如何配置个性化的广告体验并根据性能优化广告元素。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-TQID: https://experienceleague.adobe.com/eX9wJedhnS994mEpRna6vL2En7vVXEYWp1xs-hz6iBo
+TQID: 'https://experienceleague.adobe.com/eX9wJedhnS994mEpRna6vL2En7vVXEYWp1xs-hz6iBo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1169
+source-wordcount: '1181'
 ht-degree: 0%
-
 ---
-
 # 关于Advertising Creative 2.0中的体验
 
 每个广告体验可以包含一个广告类型（标准显示、标准视频、动态显示或动态视频）。 [!DNL Advertising Creative 2.0]在单个创意库中为广告提供两种不同的广告体验结构。
@@ -32,15 +40,15 @@ ht-degree: 0%
 
   定位选项包括：
 
-   * Adobe Audience Manager、Adobe Analytics和Advertising DSP中的受众区段；为帐户导入的任何其他第一方区段；Advertising DSP中的自定义区段；Advertising DSP提供的第三方区段；以及受众库中构建的任何现有Advertising DSP受众
+  * Adobe Audience Manager、Adobe Analytics和Advertising DSP中的受众区段；为帐户导入的任何其他第一方区段；Advertising DSP中的自定义区段；Advertising DSP提供的第三方区段；以及受众库中构建的任何现有Advertising DSP受众
 
-   * 特定地理位置，包括国家/地区、州、美国境内的DMA、城市和邮政编码
+  * 特定地理位置，包括国家/地区、州、美国境内的DMA、城市和邮政编码
 
-   * 从DSP、发布者或合作伙伴（例如SKU=01234567890123或Cart=empty）传递特定键值对（数据传递目标）的查看器
+  * 从DSP、发布者或合作伙伴（例如SKU=01234567890123或Cart=empty）传递特定键值对（数据传递目标）的查看器
 
-   * [!DNL Creative]重定位像素和指定的属性值
+  * [!DNL Creative]重定位像素和指定的属性值
 
-   * 特定设备类型、操作系统和浏览器
+  * 特定设备类型、操作系统和浏览器
 
   在决策树中创建目标受众分支后，您可以通过为分支分配创意捆绑包来将目标受众与潜在创意配对。 对于每个体验，您可以自定义创意捆绑包的优化和计划，并更改每个捆绑包中单个创意的默认登陆页面和跟踪URL<!-- later: and any flexible attributes -->。
 
@@ -79,11 +87,11 @@ ht-degree: 0%
 
 可以使用以下性能数据：
 
-* 当您在[!UICONTROL Metrics] > [!UICONTROL Creative]视图中启用[!UICONTROL Experiences]选项时，每个体验卡或行都会指示体验收到的展示次数和点击次数。
+* 当您在[!UICONTROL Creative] > [!UICONTROL Experiences]视图中启用[!UICONTROL Metrics]选项时，每个体验卡或行都会指示体验收到的展示次数和点击次数。
 
   ![量度选项](/help/creative/assets/metrics-option.png "量度选项")
 
-* 您可以从[视图](experience-performance-details.md)查看任何体验[!UICONTROL Experiences]的详细性能数据。
+* 您可以从[!UICONTROL Experiences]视图[查看任何体验](experience-performance-details.md)的详细性能数据。
 
 * 要监控所有体验的表现，请创建[自定义创意报表](/help/creative/reports/report-manage.md)。
 
@@ -108,7 +116,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Experiences]视图
 
-[!UICONTROL Experiences]视图显示所有针对性和非针对性体验。 您可以查看已分配创意或创意包的体验名称、状态、开始和结束日期、数量和维度，以及体验是否包含动态广告。 当您在[!UICONTROL Metrics]视图中启用[!UICONTROL Experiences]选项时，每个体验卡或行都会指示体验收到的展示次数和点击次数。 在卡片模式下，您可以使用&lt;和>按钮滚动浏览具有多个创意的体验中的创意。
+[!UICONTROL Experiences]视图显示所有针对性和非针对性体验。 您可以查看已分配创意或创意包的体验名称、状态、开始和结束日期、数量和维度，以及体验是否包含动态广告。 当您在[!UICONTROL Experiences]视图中启用[!UICONTROL Metrics]选项时，每个体验卡或行都会指示体验收到的展示次数和点击次数。 在卡片模式下，您可以使用&lt;和>按钮滚动浏览具有多个创意的体验中的创意。
 
 您可以创建和管理体验、创建和重命名广告体验标记，以及导出JavaScript和iframe格式的标记，以在DSP中实施。 使用Advertising DSP的广告商可以选择将广告标记直接上传到Advertising DSP促销活动。
 

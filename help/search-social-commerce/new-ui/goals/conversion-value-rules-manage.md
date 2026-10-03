@@ -2,6 +2,9 @@
 title: （新UI）管理[!DNL Google Ads]转化值规则
 description: 了解如何在Search、Social和Commerce中查看和管理[!DNL Google Ads]转化值规则。
 feature: Conversions
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
     internal-label: Conversion tracking
@@ -10,7 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a2f79fa9-a8fe-4c1c-961e-75dc3c47f954
     internal-label: Conversion value rules
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1856'
 ht-degree: 0%
@@ -41,7 +46,7 @@ Search、Social和Commerce会自动同步[!DNL Google Ads]帐户中的转化值�
 
 例如，假设目标使用单个转化量度“潜在客户”，并将来自移动设备的转化权重为10，将来自非移动设备的转化权重为10。 Search、Social和Commerce将任一设备类型的事件计为一(1)次转化，并将转化值计为10。 但是，假设该组合中的某个营销活动使用转化值规则“如果设备是移动设备，则乘以2。” 在跟踪该营销活动的移动潜在客户事件时，[!DNL Google Ads]还会将转化计数计为一(1)，但转化值会计为(10 x 2) = 20。
 
-要查看有关规则的更多信息，包括应用规则之前的原始转化值，请参阅 [!DNL Google Ads]&#x200B;[&#128279;](https://support.google.com/google-ads/answer/10519848)中的转化值规则报告。
+要查看有关规则的更多信息，包括应用规则之前的原始转化值，请参阅 [!DNL Google Ads]](https://support.google.com/google-ads/answer/10519848)中的[转化值规则报告。
 
 ## 创建[!DNL Google Ads]转化值规则 {#google-conversion-value-rule-create}
 

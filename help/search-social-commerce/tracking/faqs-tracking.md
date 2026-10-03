@@ -3,21 +3,26 @@ title: 有关跟踪的常见问题解答
 description: 了解有关跟踪的常见问题解答，包括疑难解答问题。
 exl-id: e5302c09-0b40-47ae-bc88-9299e6bd3044
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/KLlUxOpfUEgKdbfbj2ri0o1brljc6spN4AtMRKXrdrQ
+TQID: 'https://experienceleague.adobe.com/KLlUxOpfUEgKdbfbj2ri0o1brljc6spN4AtMRKXrdrQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Troubleshooting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1190
+source-wordcount: '1194'
 ht-degree: 0%
-
 ---
-
 # 有关跟踪的常见问题解答
 
 ## 跟踪功能

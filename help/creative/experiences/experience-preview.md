@@ -3,21 +3,29 @@ title: 预览体验
 description: 了解如何在广告体验中预览创意内容。
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-TQID: https://experienceleague.adobe.com/E8rpr53zbyr6XCVokT1b5OprM1jwdrFhQL5oBsonZQI
+TQID: 'https://experienceleague.adobe.com/E8rpr53zbyr6XCVokT1b5OprM1jwdrFhQL5oBsonZQI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 554
+source-wordcount: '552'
 ht-degree: 0%
-
 ---
-
 # 预览体验
 
 您可以预览具有特定广告大小的创意，目标查看者将看到该广告大小的体验，包括所有超链接。 对于具有决策树定位的体验，您可以预览单个创意内容、特定分支的创意内容（目标类型）或体验中的所有创意内容。 对于没有决策树定位的体验，您可以预览单个创意内容。<!-- verify -->
@@ -26,11 +34,11 @@ ht-degree: 0%
 
 * 当您预览单个创意且多个创意符合条件时，您每次刷新预览时看到的创意将基于体验的广告轮换设置：
 
-   * 对于算法广告轮换，根据优化目标选择创意。
+  * 对于算法广告轮换，根据优化目标选择创意。
 
-   * 对于计划的广告轮换，将显示计划中的第一个创意内容。 您可以继续刷新预览以继续完成序列。
+  * 对于计划的广告轮换，将显示计划中的第一个创意内容。 您可以继续刷新预览以继续完成序列。
 
-   * 对于加权广告轮换，每次都根据指定的权重（例如，显示Creative A的概率为80%，显示Creative B的概率为20%）来选择创意。
+  * 对于加权广告轮换，每次都根据指定的权重（例如，显示Creative A的概率为80%，显示Creative B的概率为20%）来选择创意。
 
 ## 使用决策树定位预览体验中的创意
 
@@ -48,24 +56,24 @@ ht-degree: 0%
 
    * 要预览单个创意，请执行以下操作：
 
-      1. 单击&#x200B;**[!UICONTROL Creative]**。
+     1. 单击&#x200B;**[!UICONTROL Creative]**。
 
-      1. 选择广告大小。
+     1. 选择广告大小。
 
-      1. 在[!UICONTROL Decision Tree Targeting]部分中，选择创意目标。
+     1. 在[!UICONTROL Decision Tree Targeting]部分中，选择创意目标。
 
    * 要预览特定分支的创意，请执行以下操作：
 
-      1. 单击&#x200B;**[!UICONTROL Particular branch]**。
+     1. 单击&#x200B;**[!UICONTROL Particular branch]**。
 
-      1. 选择广告大小。
+     1. 选择广告大小。
 
      <!--
       I don't see this as of 2/3:
      1. Select whether to group the creatives by Rotation Type or Ad Size.
      -->
 
-      1. 选择创意目标。
+     1. 选择创意目标。
 
    * 要预览体验中的所有创意内容，请单击&#x200B;**[!UICONTROL Entire Tree]**。
 

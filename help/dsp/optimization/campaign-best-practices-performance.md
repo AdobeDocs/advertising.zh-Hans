@@ -3,30 +3,43 @@ title: 设置效果活动的最佳实践
 description: 了解设置以性能为中心的活动的最佳实践，其中包括针对最低CPA或最高ROAS而优化的投放位置。
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-TQID: https://experienceleague.adobe.com/jIJ9c9tYy3TVXX-YzzIJITaqVOvETuMFDcz3DQMpQcs
+TQID: 'https://experienceleague.adobe.com/jIJ9c9tYy3TVXX-YzzIJITaqVOvETuMFDcz3DQMpQcs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: ed26409b-14af-5033-ae27-1b71cecfe497
+    internal-label: DSP Optimization
+  - id: 1065ba73-45b2-5aee-bca8-3ae622f2c15d
+    internal-label: DSP Best Practices
 subfeature_v2:
   - id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7
+    internal-label: Optimization
   - id: e9bcaec6-1079-409c-9aee-942e06c44d0a
+    internal-label: Best practices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0f74bf7a3cb3a5e56df31ea36ef181c08a0f3aca
+    internal-label: Data management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1289
-ht-degree: 0%
-
+source-wordcount: '1304'
+ht-degree: 1%
 ---
-
 # 设置效果活动的最佳实践
 
 DSP可以优化以性能为中心的促销活动。 请参阅以下效果促销活动的最佳实践：
@@ -55,10 +68,10 @@ funnel的上层产品包中包含定位非常广泛的投放位置，以吸引�
 
 * 使用以下策略查找可能转化的新受众：
 
-   * 从数据管理平台(DMP)（如Adobe Audience Manager）进行相似人群拓展建模。
-   * 使用第三方数据的行为定位。
-   * 上下文定位。
-   * 站点/类别定位。
+  * 从数据管理平台(DMP)（如Adobe Audience Manager）进行相似人群拓展建模。
+  * 使用第三方数据的行为定位。
+  * 上下文定位。
+  * 站点/类别定位。
 
 * 使用网络运行(RON)定位：一定要包括没有受众定位和广泛库存定位的网络放置运行。 这允许[!DNL Adobe AI]支持的算法查找有价值的用户，这些用户可能拥有尚未分类到受众的较新Cookie。
 
@@ -93,8 +106,8 @@ funnel的上层产品包中包含定位非常广泛的投放位置，以吸引�
 * **优化目标：**&#x200B;使用两个性能优化目标之一，*[!UICONTROL Highest Return on Ad Spend]*&#x200B;或&#x200B;*[!UICONTROL Lowest Cost per Acquisition]*，具体取决于包目标。 这些目标分别自动优化包以实现ROAS最高版位或是CPA最低版位。
 
 * **自定义目标：**
-   * 如果新资源包与现有资源包具有相同的目标，则可以选择链接现有资源包，以便算法可以使用现有的机器学习数据。
-   * 输入相应的[!UICONTROL Target CPA]或[!UICONTROL Target ROAS]。
+  * 如果新资源包与现有资源包具有相同的目标，则可以选择链接现有资源包，以便算法可以使用现有的机器学习数据。
+  * 输入相应的[!UICONTROL Target CPA]或[!UICONTROL Target ROAS]。
 
 * **Flight步调和Intraday步调：**&#x200B;对于这两种类型的步调，请选择&#x200B;*[!UICONTROL Even]*&#x200B;以通过全天和全天统一步调来最大化您的性能目标。
 
@@ -115,14 +128,14 @@ funnel的上层产品包中包含定位非常广泛的投放位置，以吸引�
 您必须在包级别配置CPA或ROAS优化（请参阅步骤3 — 创建包），但您可以添加其他版面级别设置。
 
 * **最高出价：**
-   * 对于潜在客户投放位置，请使用较低的最高出价（5美元）。
-   * 要重新定位投放位置，请使用最高出价（12美元）。
+  * 对于潜在客户投放位置，请使用较低的最高出价（5美元）。
+  * 要重新定位投放位置，请使用最高出价（12美元）。
 
 * **预竞价筛选器：**&#x200B;最小化或最好避免设置妨碍投放达到规模的积极预竞价筛选器。 最佳实践包括：
 
-   * 为每个投放位置使用一(1)个预竞价过滤器。 使用多个预竞价筛选器需要同时满足这两个条件，这会缩小规模。
+  * 为每个投放位置使用一(1)个预竞价过滤器。 使用多个预竞价筛选器需要同时满足这两个条件，这会缩小规模。
 
-   * 在应用了其他定位（如受众、地理和网站定位）的情况下，请考虑设置更宽松的预竞价过滤器。
+  * 在应用了其他定位（如受众、地理和网站定位）的情况下，请考虑设置更宽松的预竞价过滤器。
 
 查看有关[位置级别预竞价过滤器何时使用每个预竞价过滤器的说明以及如何使用它们的说明](/help/dsp/optimization/optimization-pre-bid-filters.md)。
 
@@ -140,10 +153,10 @@ funnel的上层产品包中包含定位非常广泛的投放位置，以吸引�
 <!-- Say something about limiting unnecessary constraints/limitations, including dayparting, which limit your chances for ad exposure. Use only when it's required for your audience. -->
 
 * **[!UICONTROL Included Audiences]:**
-   * 对于潜在客户投放位置，将类似的受众类别和类似的受众规模分组到一个投放位置中。 然后，根据性能，执行下列操作之一：
-      * 从现有投放位置中删除性能不佳的受众。
-      * 将表现最好的受众转移到单独的投放位置以更好地控制预算。
-   * 对于重新定位投放位置，理想情况下，您应在每个投放位置包含一个受众区段，以轻松控制竞价和预算。
+  * 对于潜在客户投放位置，将类似的受众类别和类似的受众规模分组到一个投放位置中。 然后，根据性能，执行下列操作之一：
+    * 从现有投放位置中删除性能不佳的受众。
+    * 将表现最好的受众转移到单独的投放位置以更好地控制预算。
+  * 对于重新定位投放位置，理想情况下，您应在每个投放位置包含一个受众区段，以轻松控制竞价和预算。
 
 >[!NOTE]
 >
@@ -152,13 +165,13 @@ funnel的上层产品包中包含定位非常广泛的投放位置，以吸引�
 > 您可以通过在层中创建受众来避免受众重叠，这样您就可以根据需要从投放位置中禁止更高且更包容的层。
 
 * **[!UICONTROL Frequency Capping]:**
-   * 对于潜在客户投放位置，请使用严格的频率限制（每天一次展示）。
-   * 对于重定向投放位置，将主投放上限设置为每天6-10次展示，将次上限设置为每小时1次展示。
+  * 对于潜在客户投放位置，请使用严格的频率限制（每天一次展示）。
+  * 对于重定向投放位置，将主投放上限设置为每天6-10次展示，将次上限设置为每小时1次展示。
 
 * **[!UICONTROL Device Targeting]**:
-   * 包括[!UICONTROL Computer]、[!UICONTROL Mobile]和[!UICONTROL Tablet]。
-   * 由于定位和测量限制，请勿定位[!UICONTROL Firefox]和[!UICONTROL Safari]。 有关[!DNL Safari ITP]的[!DNL Adobe]支持的更多详细信息，请与您的Adobe客户团队联系。
-   * 如果您要定位移动Web流量，请禁用除[!UICONTROL Chrome]和[!UICONTROL Edge]之外的所有移动浏览器。
+  * 包括[!UICONTROL Computer]、[!UICONTROL Mobile]和[!UICONTROL Tablet]。
+  * 由于定位和测量限制，请勿定位[!UICONTROL Firefox]和[!UICONTROL Safari]。 有关[!DNL Safari ITP]的[!DNL Adobe]支持的更多详细信息，请与您的Adobe客户团队联系。
+  * 如果您要定位移动Web流量，请禁用除[!UICONTROL Chrome]和[!UICONTROL Edge]之外的所有移动浏览器。
 
 ### 品牌安全和媒体质量
 
@@ -167,7 +180,7 @@ funnel的上层产品包中包含定位非常广泛的投放位置，以吸引�
 ## 步骤5 — 使用正确的创意资产
 
 * 最佳实践是包含尽可能多的唯一广告大小，以最大限度地扩大范围。 通用显示模板允许您上传任何标准显示广告大小。
-* 确保所有投放位置都至少包含&#x200B;*1&rbrace;所有主显示广告大小（300x250、728x90、160x600、300x600、320x50和300x50）。*
+* 确保所有投放位置都至少包含&#x200B;*1}所有主显示广告大小（300x250、728x90、160x600、300x600、320x50和300x50）。*
 * 经常更新创意内容以防止创意疲劳。
 
 >[!MORELIKETHIS]

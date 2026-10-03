@@ -3,18 +3,21 @@ title: Adobe Advertising转化映射标记
 description: 了解适用于ITP 2.2的基于JavaScript的转化映射标记，该标记允许Adobe Advertising跟踪在非登陆页面发生的转化事件。
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA
+TQID: 'https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 637
+source-wordcount: '643'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising JavaScript转化映射标记
 
 *仅具有Adobe Advertising转化跟踪的广告商*
@@ -49,9 +52,9 @@ ht-degree: 0%
 
   其中：
 
-   * 将值`{xxxxxx@AdobeOrg}`替换为要跟踪页面转化的组织ID。 对所有转化页面使用相同的组织ID。
+  * 将值`{xxxxxx@AdobeOrg}`替换为要跟踪页面转化的组织ID。 对所有转化页面使用相同的组织ID。
 
-   * 您将`{AMO User ID}`替换为您的搜索、社交和Commerce帐户的唯一用户ID。
+  * 您将`{AMO User ID}`替换为您的搜索、社交和Commerce帐户的唯一用户ID。
 
 * 如果您使用的标记管理系统不支持将`imsorgid`变量添加到脚本标记，请改用以下代码：
 
@@ -67,22 +70,22 @@ ht-degree: 0%
 
   其中，您将`{AMO User ID}`替换为搜索、社交和Commerce帐户的唯一用户ID。
 
-   * 如果您的组织使用多个组织ID：
+  * 如果您的组织使用多个组织ID：
 
-     ```
-     <script>
-     window.ad_cloud = window.ad_cloud || {};
-     window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
-     window.ad_cloud.userid = "{AMO User ID}"
-     </script>
-     <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
-     ```
+    ```
+    <script>
+    window.ad_cloud = window.ad_cloud || {};
+    window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
+    window.ad_cloud.userid = "{AMO User ID}"
+    </script>
+    <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
+    ```
 
-     其中：
+    其中：
 
-      * 将值`{xxxxxx@AdobeOrg}`替换为要跟踪页面转化的组织ID。 对所有转化页面使用相同的组织ID。
+    * 将值`{xxxxxx@AdobeOrg}`替换为要跟踪页面转化的组织ID。 对所有转化页面使用相同的组织ID。
 
-      * 您将`{AMO User ID}`替换为您的搜索、社交和Commerce帐户的唯一用户ID。
+    * 您将`{AMO User ID}`替换为您的搜索、社交和Commerce帐户的唯一用户ID。
 
 如果您不知道组织ID或Search、Social和Commerce用户ID的值，请咨询您的Adobe帐户团队。
 

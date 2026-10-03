@@ -3,24 +3,29 @@ title: 复制包
 description: 了解如何复制包。
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-TQID: https://experienceleague.adobe.com/fbOXyvipyiJ7rOlCroMLHvSqCqXPIEL9FTHmqm7CQu8
+TQID: 'https://experienceleague.adobe.com/fbOXyvipyiJ7rOlCroMLHvSqCqXPIEL9FTHmqm7CQu8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
 subfeature_v2:
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 420
+source-wordcount: '420'
 ht-degree: 0%
-
 ---
-
 # 复制包
 
 复制包以创建具有类似设置的包。 您可以：
@@ -69,10 +74,10 @@ ht-degree: 0%
 * （如果不附加广告）自定义广告权重和计划
 * [!UICONTROL Simple Ad Serving]个交易的计划性保证(PG)交易的默认投放位置和投放位置
 * （如果将投放位置复制到其他营销活动）：
-   * 地理目标
-   * 事件像素
-   * 广告
-   * 位置级别[!DNL DoubleVerify Authentic Brand Suitability]区段（覆盖广告商级别区段）
+  * 地理目标
+  * 事件像素
+  * 广告
+  * 位置级别[!DNL DoubleVerify Authentic Brand Suitability]区段（覆盖广告商级别区段）
 
 ## 配置新包的最佳实践
 
@@ -85,21 +90,21 @@ ht-degree: 0%
 
 * 请考虑以下事项，并根据需要编辑新包：
 
-   * 该账户是否有足够的资金满足新的一揽子预算？
+  * 该账户是否有足够的资金满足新的一揽子预算？
 
-   * 新方案是否需要与上一个方案不同的预算？
+  * 新方案是否需要与上一个方案不同的预算？
 
-   * 任何投放位置是否需要最低预算？
+  * 任何投放位置是否需要最低预算？
 
-   * 上传创意内容（包括任何必要的自定义广告权重和计划），并将它们附加到投放位置。
+  * 上传创意内容（包括任何必要的自定义广告权重和计划），并将它们附加到投放位置。
 
-   * 根据需要将事件像素附加到投放位置和广告。
+  * 根据需要将事件像素附加到投放位置和广告。
 
-   * 包括投放所需的地理目标和投放级别[!DNL DoubleVerify Authentic Brand Suitability]区段。
+  * 包括投放所需的地理目标和投放级别[!DNL DoubleVerify Authentic Brand Suitability]区段。
 
-   * 对于程序化保证交易，使用新交易ID并创建默认投放位置。
+  * 对于程序化保证交易，使用新交易ID并创建默认投放位置。
 
-   * 根据需要为[!UICONTROL Simple Ad Serving]个交易创建新投放位置。
+  * 根据需要为[!UICONTROL Simple Ad Serving]个交易创建新投放位置。
 
 * 对于使用自定义优化目标的包，请使用每个包的[[!UICONTROL Linked Package for Optimization Learnings Carryover]设置](/help/dsp/campaign-management/packages/package-settings.md)，以使用上一个营销活动的历史数据作为优化包的输入。
 

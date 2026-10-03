@@ -1,27 +1,35 @@
 ---
-title: 将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Flashtalking] 添加标记
-description: 了解为什么以及如何将 [!DNL Analytics for Advertising] 宏添加到您的 [!DNL Flashtalking] ad标记
+title: 将[!DNL Analytics for Advertising]宏附加到[!DNL Flashtalking]广告标记
+description: 了解为什么以及如何将[!DNL Analytics for Advertising]宏添加到[!DNL Flashtalking]广告标记
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-TQID: https://experienceleague.adobe.com/fgmEHPEGMS9vA6P3QDeZMT7MBBTRDtnQcz-qMbMDw3Y
+TQID: 'https://experienceleague.adobe.com/fgmEHPEGMS9vA6P3QDeZMT7MBBTRDtnQcz-qMbMDw3Y'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 429
+source-wordcount: '458'
 ht-degree: 0%
-
 ---
-
 # 将[!DNL Analytics for Advertising]宏附加到[!DNL Flashtalking]广告标记
 
 *仅集成Adobe Advertising-Adobe Analytics的广告商*
@@ -34,9 +42,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您的组织与[!DNL Flashtalking]有直接合作关系，则您无需执行此过程。 请登录您的[!DNL Flashtalking]帐户并按照[!DNL Flashtalking]https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros[上的](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)支持文档中的说明进行操作，以使用数据传递宏跟踪`s_kwcid`和`ef_id`跟踪参数。
+>如果您的组织与[!DNL Flashtalking]有直接合作关系，则您无需执行此过程。 请登录您的[!DNL Flashtalking]帐户并按照[https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)上的[!DNL Flashtalking]支持文档中的说明进行操作，以使用数据传递宏跟踪`s_kwcid`和`ef_id`跟踪参数。
 
-为以下类型的[!DNL Flashtalking]实施的[!DNL Analytics for Advertising]显示广告和视频广告使用宏：
+为以下类型的[!DNL Analytics for Advertising]实施的[!DNL Flashtalking]显示广告和视频广告使用宏：
 
 * **在其网站上实现的具有[!DNL Adobe] [!DNL Analytics for Advertising] JavaScript代码的广告商**： JavaScript代码已记录AMO ID (`s_kwcid`)和`ef_id`查询字符串参数。 但是，当不支持第三方Cookie时，使用宏会扩展跟踪以包含基于点击的转换。 最佳实践是将以下部分中的宏添加到广告标记，以捕获未通过JavaScript代码捕获的其他点进数据。
 
@@ -58,9 +66,9 @@ ht-degree: 0%
 
 示例：
 
-`https://www.adobe.com/cn/products/photoshop?[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
 
-`https://www.adobe.com/cn/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
 ## 视频广告标记
 
@@ -74,13 +82,13 @@ ht-degree: 0%
 
 示例：
 
-`https://www.adobe.com/cn/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
-`https://www.adobe.com/cn/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
 >[!MORELIKETHIS]
 >
 >* [概述 [!DNL Analytics for Advertising]](overview.md)
->* [使用的 [!DNL Analytics]](/help/integrations/analytics/ids.md)Adobe Advertising ID
+>*  [!DNL Analytics]](/help/integrations/analytics/ids.md)使用的[Adobe Advertising ID
 >* [将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Google Campaign Manager 360] 添加标记](/help/integrations/analytics/macros-google-campaign-manager.md)
 

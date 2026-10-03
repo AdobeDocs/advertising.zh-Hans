@@ -1,23 +1,30 @@
 ---
 title: '[!DNL Microsoft Advertising]营销活动设置'
-description: 引用 [!DNL Microsoft Advertising] 营销活动的设置。
+description: 引用[!DNL Microsoft Advertising]营销活动的设置。
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2255
+source-wordcount: '2256'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising]营销活动设置
 
 ## \[页面顶部]
@@ -229,7 +236,7 @@ Not there as of 7/22 -- what's going on here? If we're removing it, then I need 
 
 **[!UICONTROL Negative Websites]：** （仅显示/本地网络上的营销活动；可选）显示网络上不希望显示广告的站点。 请输入有效的URL，如www.example.com。 要指定多个字符串，请用逗号分隔它们，或者在单独的行中输入它们。
 
-有关可用性的信息，请参阅Microsoft Advertising帮助“防止广告出现在特定网站[&#128279;](https://help.ads.microsoft.com/#apex/bae/en/14061/0)”。
+有关可用性的信息，请参阅Microsoft Advertising帮助“防止广告出现在特定网站](https://help.ads.microsoft.com/#apex/bae/en/14061/0)”。[
 
 ### [!UICONTROL Conversion Goals]
 
