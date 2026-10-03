@@ -61,7 +61,7 @@ ht-degree: 0%
 
     广告商特定的字段名称必须映射到动态广告馈送文件的[可用字段](/help/creative/appendix-available-feed-fields.md)。
 
-    对于包含动态视频的所有帐户，最佳实践是[使用资源文件以及[通用信息源模板[!UICONTROL Adobe Creative Template]](feed-template-manage.md)的副本](catalog-manage.md)创建目录，您可以在其中将资源文件中的每个字段映射到Advertising Creative后端上的字段。
+    对于包含动态视频的所有帐户，最佳实践是[&#128279;](catalog-manage.md)使用资源文件以及[通用信息源模板[!UICONTROL Adobe Creative Template]](feed-template-manage.md)的副本创建目录，您可以在其中将资源文件中的每个字段映射到Advertising Creative后端上的字段。
 
   * 以MP4、MOV或WEBM格式表示的关联视频资产。 支持的广告模板包括开始卡、结束卡、顶部叠加、底部叠加或L形。 每个视频的持续时间必须介于1至90秒之间。 查看[支持的创意大小](/help/creative/creative-libraries/creative-sizes.md)。
 

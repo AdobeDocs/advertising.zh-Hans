@@ -359,7 +359,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*：（默认）根据用户的Cookie、移动广告ID或连接的电视(CTV) ID定位用户。 根据浏览器、应用程序内或CTV清单选择ID。
 
-* *[!UICONTROL Universal ID]*：定位注重隐私的用户ID；选择一种ID类型。 可用选项由[!UICONTROL Geo-Targeting]部分中的所选地理目标决定。 用于直接导入到DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md)的[[!DNL RampID] 区段、DSP将您的PII转换为通用ID的[区段](/help/dsp/audiences/sources/source-about.md)、流式传输到DSP的[第一方 [!DNL AdFixus] 区段](/help/dsp/audiences/sources/source-adfixus.md)或跟踪通用ID的[自定义区段](/help/dsp/audiences/custom-segment-create.md)。
+* *[!UICONTROL Universal ID]*：定位注重隐私的用户ID；选择一种ID类型。 可用选项由[!UICONTROL Geo-Targeting]部分中的所选地理目标决定。 用于直接导入到DSP[&#128279;](/help/dsp/audiences/sources/source-import-liveramp-segments.md)的[!DNL RampID] 区段、DSP将您的PII转换为通用ID的[区段](/help/dsp/audiences/sources/source-about.md)、流式传输到DSP的[第一方 [!DNL AdFixus] 区段](/help/dsp/audiences/sources/source-adfixus.md)或跟踪通用ID的[自定义区段](/help/dsp/audiences/custom-segment-create.md)。
 
   * *[!UICONTROL AdFixus]*：目标[!DNL AdFixus] ID已导入到Advertising DSP。
 
@@ -386,7 +386,7 @@ ht-degree: 0%
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 选择适用的时区。
 1. 指定间隔：
-   * 要选择预设间隔，请单击其中一个间隔按钮。 选项包括*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
+   * 要选择预设间隔，请单击其中一个间隔按钮。 选项包括&#x200B;*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
    * 要手动选择间隔，请单击单元格内部，也可以拖动以选择间隔。
 1. 单击&#x200B;**[!UICONTROL Save]**。
 

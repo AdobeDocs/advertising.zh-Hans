@@ -73,5 +73,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* 有关[!UICONTROL Ads view]](ad-view-about.md)的[（新UI）
+>* 有关[!UICONTROL Ads view]&#x200B;[&#128279;](ad-view-about.md)的（新UI）
 >* [（新UI）更改ad](ad-change-status.md)的状态

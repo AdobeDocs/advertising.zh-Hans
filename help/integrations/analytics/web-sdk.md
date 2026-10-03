@@ -94,4 +94,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [概述 [!DNL Analytics for Advertising]](overview.md)
->*  [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)的[JavaScript代码
+>*  [!DNL Analytics for Advertising]&#x200B;[&#128279;](/help/integrations/analytics/javascript.md)的JavaScript代码

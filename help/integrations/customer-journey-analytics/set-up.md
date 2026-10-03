@@ -156,7 +156,7 @@ ht-degree: 1%
 
 1. 通过[检查三个数据集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets)（网站事件数据集、Adobe Advertising分类数据集和Adobe Advertising摘要量度数据集）中每个数据集的活动来验证数据投放。
 
-   您应该会看到每日批量摄取的数据集活动。 如果事件数据集在24小时后显示零条记录，请在Adobe Tags](#tags-websdk)中重新检查[数据流](#dataset-datastream)和[Web SDK扩展配置。
+   您应该会看到每日批量摄取的数据集活动。 如果事件数据集在24小时后显示零条记录，请在Adobe Tags[&#128279;](#tags-websdk)中重新检查[数据流](#dataset-datastream)和Web SDK扩展配置。
 
 1. 请咨询Adobe Experience Platform管理员[将标记发布到实时生产环境](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow)。
 
@@ -306,7 +306,7 @@ Seems to not be necessary now:
 >
 >* [概述](overview.md)
 >* [先决条件](prerequisites.md)
->*  [!DNL Customer Journey Analytics]](ids.md)使用的[Adobe Advertising ID
+>*  [!DNL Customer Journey Analytics]&#x200B;[&#128279;](ids.md)使用的Adobe Advertising ID
 >* Customer Journey Analytics中的[Adobe Advertising指标和维度](advertising-data-in-cja.md)
 >* [收集AMO ID和EF ID的历史数据以在Adobe Customer Journey Analytics中使用](/help/integrations/analytics/rvars-to-evars.md)。
 >* [疑难解答](troubleshooting.md)

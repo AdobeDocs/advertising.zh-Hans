@@ -75,7 +75,7 @@ Adobe与每个广告商合作，建立其广告网络帐户和营销活动。 �
 
    1. 设置转化跟踪。 根据实施，这可能涉及将转化跟踪标记添加到广告商的网页，和/或为广告商单独收集的转化数据设置每日馈送拖放。
 
-      如果使用Adobe Advertising转化跟踪服务，则可在Search、Social和Commerce中[生成转化跟踪标记](/help/search-social-commerce/tools/conversion-tag-generate.md)，也可使用Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html)（以前称为Adobe Experience Platform Launch）中的[标记生成该标记。
+      如果使用Adobe Advertising转化跟踪服务，则可在Search、Social和Commerce中[生成转化跟踪标记](/help/search-social-commerce/tools/conversion-tag-generate.md)，也可使用Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html)（以前称为Adobe Experience Platform Launch）中的标记生成该标记。
 
    1. 验证跟踪的数据。
 

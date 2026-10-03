@@ -92,7 +92,7 @@ AMO EF ID (EF ID)是[!DNL Analytics for Advertising]集成中使用的第二个�
 
 >[!IMPORTANT]
 >
->有关处理规则的顺序的信息，请参阅 [!DNL Marketing Channels] 规则](#rule-order)的[操作顺序。
+>有关处理规则的顺序的信息，请参阅 [!DNL Marketing Channels] 规则[&#128279;](#rule-order)的操作顺序。
 
 ![一组处理规则的示例](/help/integrations/assets/a4adc-mc-rule-set-example.png)
 
@@ -172,8 +172,8 @@ AMO EF ID (EF ID)是[!DNL Analytics for Advertising]集成中使用的第二个�
 
 >[!MORELIKETHIS]
 >
->*  [!DNL Analytics Marketing Channels]](mc-overview.md)的[基础知识
+>*  [!DNL Analytics Marketing Channels]&#x200B;[&#128279;](mc-overview.md)的基础知识
 >* [为什么渠道数据在Adobe Advertising和 [!DNL Marketing Channels]](mc-data-variances.md)之间可能不同
->* [对Adobe Advertising数据使用 [!DNL Analytics Marketing Channels] ](mc-ac-data.md)
+>* [对Adobe Advertising数据使用 [!DNL Analytics Marketing Channels] &#x200B;](mc-ac-data.md)
 >* [视频：使用 [!DNL Marketing Channels] 进行Adobe Advertising报告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
->*  [!DNL Analytics]](/help/integrations/analytics/ids.md)使用的[Adobe Advertising ID
+>*  [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)使用的Adobe Advertising ID

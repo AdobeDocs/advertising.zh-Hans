@@ -27,7 +27,7 @@ ht-degree: 0%
 
 您可以为使用搜索和显示网络的营销活动创建关键字。
 
-请参阅[!DNL Google Ads]帮助以了解每个帐户](https://support.google.com/google-ads/answer/6372658)的[关键字限制。
+请参阅[!DNL Google Ads]帮助以了解每个帐户[&#128279;](https://support.google.com/google-ads/answer/6372658)的关键字限制。
 
 ## [!UICONTROL Keyword Details]
 

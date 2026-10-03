@@ -85,7 +85,7 @@ Adobe Advertising与Adobe Customer Journey Analytics集成，可实现双向数�
 >[!MORELIKETHIS]
 >
 >* [先决条件](prerequisites.md)
->*  [!DNL Customer Journey Analytics]](ids.md)使用的[Adobe Advertising ID
+>*  [!DNL Customer Journey Analytics]&#x200B;[&#128279;](ids.md)使用的Adobe Advertising ID
 >* [设置数据收集、数据传输和报告](set-up.md)
 >* Customer Journey Analytics中的[Adobe Advertising指标和维度](advertising-data-in-cja.md)
 >* （Adobe Analytics用户） [收集AMO ID和EF ID的历史数据以用于Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md)。

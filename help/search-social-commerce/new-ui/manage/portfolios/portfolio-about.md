@@ -73,7 +73,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Portfolios]视图
 
-[!UICONTROL Portfolios]视图列出筛选视图中的所有现有项目组合，其中包含可自定义的性能数据。 您可以[自定义视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)中的列，并从工具栏](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)筛选数据以包含特定项目组合[。
+[!UICONTROL Portfolios]视图列出筛选视图中的所有现有项目组合，其中包含可自定义的性能数据。 您可以[自定义视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)中的列，并从工具栏[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)筛选数据以包含特定项目组合。
 
 在数据表上方，您可以打开一个性能图，其中包含指定日期范围内视图中所有项目组合的最多三个指标总计。 您还可以打开项目组合详细信息，包括项目组合绩效和准确性，以及项目组合中每个促销活动、广告组和关键字的绩效数据。
 
