@@ -97,9 +97,9 @@ DSP还可以使用批处理、流式处理或基于API的数据共享连接到�
 
 ### [!DNL Adobe Real-Time CDP]
 
-DSP是[the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)的集成&#x200B;*目标*，它是Adobe Experience Platform的一部分。
+DSP是[the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hans)的集成&#x200B;*目标*，它是Adobe Experience Platform的一部分。
 
-在[!DNL Real-Time CDP]中，目标是与外部数据平台的连接，可无缝激活数据。 您可以使用目标在DSP中激活针对定向广告的经过哈希处理的电子邮件地址、Cookie和移动广告ID。 有关目标的更多信息，请参阅Experience Platform [目标指南](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)，包括产品概述、有关[创建目标工作区](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html)和[创建目标连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html)以及[将数据激活到目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html)的说明。
+在[!DNL Real-Time CDP]中，目标是与外部数据平台的连接，可无缝激活数据。 您可以使用目标在DSP中激活针对定向广告的经过哈希处理的电子邮件地址、Cookie和移动广告ID。 有关目标的更多信息，请参阅Experience Platform [目标指南](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hans)，包括产品概述、有关[创建目标工作区](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html?lang=zh-Hans)和[创建目标连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=zh-Hans)以及[将数据激活到目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html?lang=zh-Hans)的说明。
 
 要使DSP能够摄取您的[!DNL Adobe] [!DNL Real-time CDP]第一方区段并将经过哈希处理的电子邮件地址、Cookie和移动设备广告ID转换为通用ID，请参阅“[将用户ID从 [!DNL Adobe Real-Time CDP] 转换为通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)”。
 
