@@ -9,19 +9,14 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2100'
 ht-degree: 0%
 ---
 # （新用户界面）通过API连接管理广告网络帐户
 
 <!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->
-
-*Beta功能*
-
-<!-- Move out info about Naver into a separate page -->
-
 以下是有关使用广告网络的API管理Search、Social和Commerce同步的广告网络帐户的说明。
 
 <!-- Move out info about Naver into a separate page -->
@@ -36,13 +31,13 @@ ht-degree: 0%
 >
 >要在广告网络上创建实际的帐户，请转到广告网络的网站。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
 
 1. 单击&#x200B;**[!UICONTROL Create Account]**。
 
 1. 单击广告网络的名称，然后单击&#x200B;**[!UICONTROL Next]**。
 
-1. （除[!DNL Yandex]之外的所有广告网络）使用广告商的凭据登录到广告网络。 选择“此帐户的帐户跟踪”选项。 然后，在右上角单击&#x200B;**[!UICONTROL Next]**。
+1. （除[!DNL ChatGPT Ads]和[!DNL Yandex]之外的所有广告网络）使用广告商的凭据登录到广告网络。 选择“此帐户的帐户跟踪”选项。 然后，在右上角单击&#x200B;**[!UICONTROL Next]**。
 
 1. 在每个可用选项卡上指定[帐户设置](#account-settings-api)。
 
@@ -58,7 +53,7 @@ ht-degree: 0%
 >
 >要编辑广告网络上的实际帐户，请转到广告网络的网站。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
 
 1. 通过以下任一方式选择帐户：
 
@@ -76,11 +71,13 @@ ht-degree: 0%
 
 ## 重新验证广告网络帐户 {#reauthenticate}
 
+*不适用于[!DNL ChatGPT Ads]帐户*
+
 要刷新广告网络连接或更新帐户的权限，请重新验证帐户。
 
 1. （如果您在同一浏览器应用程序中登录到同一广告网络的其他帐户）注销除广告商帐户之外的任何其他帐户。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
 
 <!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
 
@@ -98,7 +95,7 @@ ht-degree: 0%
 
 当您启用广告网络帐户时，Search、Social和Commerce会将促销活动数据与帐户同步（如果支持），并为项目组合中的促销活动推送自动竞价和/或促销活动预算。 禁用广告网络帐户后，搜索、社交和Commerce将停止该帐户上的所有活动。 虽然仍会存储当帐户处于活动状态时收集的数据，但营销活动管理视图和报表并不包含禁用帐户时段的数据。 您稍后可以重新启用帐户以继续使用该帐户的活动。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
 
 1. 执行以下任一操作：
 
@@ -139,9 +136,9 @@ ht-degree: 0%
 >
 >如果您集成了“搜索”、“Social”和“Commerce-Adobe Analytics”，并更改了搜索帐户的名称，请让您的Adobe帐户团队更新映射。
 
-**[!DNL [广告网络]帐户]：** （在创建帐户时可见）要同步的广告网络帐户。
+**[！DNL [广告网络]帐户]：** （在创建帐户时可见）要同步的广告网络帐户。
 
-**[登录详细信息]：** （仅限Yandex帐户）要使用的帐户凭据：
+**[登录详细信息]：** （仅限[!DNL Yandex]帐户）要使用的帐户凭据：
 
 * **[!UICONTROL Login]：**&#x200B;启用帐户API访问的登录名或ID。
 
@@ -154,12 +151,6 @@ ht-degree: 0%
 * **[!UICONTROL Purse Campaign ID]：** （[!DNL Yandex]个帐户的“共享帐户”设置仅被禁用；可选）用于支付帐户中所有广告促销活动的促销活动的数字ID。
 
 * **[!UICONTROL Finance Token]：** （[!DNL Yandex]个帐户的“共享帐户”设置仅被禁用；可选）用于财务相关API调用的开发人员令牌，如在广告商的促销活动之间重新分配钱包中的款项，这是组合优化所必需的。
-
-**[!UICONTROL Network Account ID]：** (除[!DNL Yandex]外的所有广告网络由广告网络分配的帐户ID。
-
->[!NOTE]
->
->此处不支持广告网络管理器帐户。 要为[!DNL Microsoft Advertising]标识经理帐户，请分别使用主帐户ID或MCC帐户字段。 要[设置 [!DNL Google Ads] 经理帐户](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)的凭据，请转到[!UICONTROL Setup] \> [!UICONTROL Manager Accounts]。
 
 **[!UICONTROL Currency]：** （只读）帐户使用的货币的缩写。 保存记录后，此值将自动填充为广告网络上的帐户配置的货币。
 
@@ -193,7 +184,7 @@ ht-degree: 0%
 >* 如果您从[!UICONTROL Standard]切换到[!UICONTROL Token]，或者反之，则必须重新生成帐户的跟踪URL。
 >* 您可以在营销策划级别覆盖帐户级别设置。
 
-**[!UICONTROL Auto Update]：** （启用搜索、社交和Commerce跟踪时）标准化您的跟踪URL以实现跨浏览器和服务器的兼容性。 Search、Social和Commerce会在下次同步期间自动将以下内容上传到广告网络：(a)用于跟踪模板的搜索、Social和Commerce跟踪参数以及附加到最终URL的相同参数，或者(b)嵌入了Search、Social和Commerce跟踪代码的新目标URL。 对于具有[Adobe Advertising-Adobe Analytics集成](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hans)和服务器端AMO ID (s_kwcid)配置的广告商，该上传还包括您的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户的[AMO ID参数](/help/integrations/analytics/ids.md#amo-id)。 默认帐户级别设置继承自广告商的跟踪设置。 您可以在营销策划级别覆盖帐户级别设置。
+**[!UICONTROL Auto Update]：** （启用搜索、社交和Commerce跟踪时）标准化您的跟踪URL以实现跨浏览器和服务器的兼容性。 Search、Social和Commerce会在下次同步期间自动将以下内容上传到广告网络：(a)用于跟踪模板的搜索、Social和Commerce跟踪参数以及附加到最终URL的相同参数，或者(b)嵌入了Search、Social和Commerce跟踪代码的新目标URL。 对于具有[Adobe Advertising-Adobe Analytics集成](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)和服务器端AMO ID (s_kwcid)配置的广告商，该上传还包括您的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户的[AMO ID参数](/help/integrations/analytics/ids.md#amo-id)。 默认帐户级别设置继承自广告商的跟踪设置。 您可以在营销策划级别覆盖帐户级别设置。
 
 跟踪URL每天只更新不同步的实体（即添加的新实体和属性已更改的现有实体）。 因此，如果您将现有广告商/帐户/营销活动的此设置从“禁用”更改为“启用”，则不会为已同步的现有实体更新跟踪URL。 要将跟踪添加到现有已同步实体的URL，请联系您的Adobe客户团队，并请求执行一次性的手动同步过程。 自动上传流程将处理未来的更改。
 
@@ -211,7 +202,7 @@ ht-degree: 0%
 
 示例： `param1=value1&param2=value2`
 
-使用Adobe Advertising点击跟踪的帐户必须在后缀中包含广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`；Google为`gclid`）。 具有Adobe Analytics集成的帐户必须使用AMO ID参数（以`s_kwcid`开头）。 如果该帐户具有服务器端AMO ID实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 查看 [!DNL Google Ads]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必需后缀格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的必需后缀格式。
+使用Adobe Advertising点击跟踪的帐户必须在后缀中包含广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`；Google为`gclid`）。 具有Adobe Analytics集成的帐户必须使用AMO ID参数（以`s_kwcid`开头）。 如果该帐户具有服务器端AMO ID实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 查看 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必需后缀格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的[必需后缀格式。
 
 >[!NOTE]
 >
@@ -251,5 +242,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于广告网络帐户](../ad-network-account-about.md)
->* [管理商家中心帐户](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
+>* [管理商家中心帐户](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 >* [更新 [!DNL Google Ads] 帐户的s_kwcid跟踪代码](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)

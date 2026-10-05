@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1761'
 ht-degree: 0%
 ---
 # 管理广告
@@ -66,6 +66,8 @@ ht-degree: 0%
   >[!NOTE]
   >
   >您当前无法创建或编辑仅限呼叫的广告。 您可以查看、更改现有仅限呼叫广告的状态或删除该广告。
+
+* 在[!DNL ChatGPT Ads]营销活动中为广告组&#x200B;**对话广告**。 对话式广告显示在AI聊天转化旁边。
 
 * 在搜索促销活动中&#x200B;**扩展了[!DNL Google Ads]和[!DNL Microsoft Advertising]动态搜索广告组的动态搜索广告**（现在在广告网络上仅称为“动态搜索广告”）。 动态搜索广告使用网站中的内容而不是关键字来确定何时显示广告。 广告网络动态生成标题，选择登陆页面URL和显示URL，并自动生成最终URL。
 
@@ -117,7 +119,7 @@ ht-degree: 0%
 
    有关可用广告类型的详细信息，请参阅[可用广告类型](#ad-types)。
 
-1. 请为[百度文本广告](ad-settings-baidu-text.md)、[Google广告扩展动态搜索广告](ad-settings-google-dsa.md)（在Google广告中仅称为“动态搜索广告”）、[Google广告响应式搜索广告](ad-settings-google-rsa.md)、[Microsoft Advertising扩展动态搜索广告](ad-settings-microsoft-dsa.md)、[Microsoft Advertising多媒体广告](ad-settings-microsoft-multimedia.md)、[Microsoft Advertising产品广告](ad-settings-microsoft-product.md)、[Microsoft响应式广告](ad-settings-microsoft-responsive.md)、[Advertising响应式搜索广告](ad-settings-microsoft-rsa.md)或[Yandex文本广告](ad-settings-yandex-text.md)设置指定其余设置。
+1. 指定[Google文本广告](ad-settings-baidu-text.md)、[[!DNL ChatGPT Ads] 广告](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)、[Google广告扩展动态搜索广告](ad-settings-google-dsa.md)（在Google广告中只称为“动态搜索广告”）、[Microsoft广告响应式搜索广告](ad-settings-google-rsa.md)、[Microsoft Advertising扩展动态搜索广告](ad-settings-microsoft-dsa.md)、[Microsoft Advertising多媒体广告](ad-settings-microsoft-multimedia.md)、[Microsoft Advertising产品广告](ad-settings-microsoft-product.md)、[Advertising响应式（受众）广告](ad-settings-microsoft-responsive.md)、[Microsoft响应式搜索广告](ad-settings-microsoft-rsa.md)或[Yandex文本ad](ad-settings-yandex-text.md)设置。
 
    >[!NOTE]
    >
@@ -129,7 +131,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Create]**。
 
-1. &#x200B;<!-- Add link to where to generate this once available to users-->（促销活动中的购物广告具有Adobe Advertising转化跟踪；可选）要跟踪广告的点击量，请手动将跟踪URL添加到帐户、促销活动或产品组设置。
+1. <!-- Add link to where to generate this once available to users-->（促销活动中的购物广告具有Adobe Advertising转化跟踪；可选）要跟踪广告的点击量，请手动将跟踪URL添加到帐户、促销活动或产品组设置。
 
 ## 重命名广告 {#ad-rename}
 
@@ -157,7 +159,7 @@ ht-degree: 0%
 
 1. 在批量操作工具栏中，单击&#x200B;**[!UICONTROL Edit]**。
 
-1. 编辑[百度文本广告](ad-settings-baidu-text.md)、[Google广告扩展动态搜索广告](ad-settings-google-dsa.md)（在Google广告中现在称为“动态搜索广告”）、[Google广告响应式搜索广告](ad-settings-google-rsa.md)、[Microsoft Advertising扩展动态搜索广告](ad-settings-microsoft-dsa.md)、[Microsoft Advertising多媒体广告](ad-settings-microsoft-multimedia.md)、[Microsoft Advertising产品广告](ad-settings-microsoft-product.md)、[Microsoft响应式广告](ad-settings-microsoft-responsive.md)、[Advertising响应式搜索广告](ad-settings-microsoft-rsa.md)或[Yandex文本广告](ad-settings-yandex-text.md)设置的剩余设置。
+1. 编辑[百度文本广告](ad-settings-baidu-text.md)、[[!DNL ChatGPT Ads] 广告](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)、[Google广告扩展动态搜索广告](ad-settings-google-dsa.md)（在Google广告中现在称为“动态搜索广告”）、[Google广告响应式搜索广告](ad-settings-google-rsa.md)、[Microsoft Advertising扩展动态搜索广告](ad-settings-microsoft-dsa.md)、[Microsoft Advertising多媒体广告](ad-settings-microsoft-multimedia.md)、[Microsoft Advertising产品广告](ad-settings-microsoft-product.md)、[Microsoft响应式（受众）广告](ad-settings-microsoft-responsive.md)、[Advertising响应式搜索广告](ad-settings-microsoft-rsa.md)或[Yandex文本ad](ad-settings-yandex-text.md)设置。
 
 1. 单击&#x200B;**[!UICONTROL Review and Save]**。
 
@@ -171,7 +173,7 @@ ht-degree: 0%
 
 您可以暂停受支持广告网络上的任何活动广告以禁用对该广告的竞价。 您稍后可以通过将状态更改回“活动”来恢复竞价。
 
-您还可以删除任何活动或暂停的广告。 已删除的广告将从广告网络删除。 当您将其包含在数据过滤器中时，它们仍可见，但无法进行更改。
+您还可以删除（在[!DNL ChatGPT Ads Manager]中称为“存档”）任何活动或暂停的广告。 删除或存档的广告将从广告网络删除或存档。 当您将其包含在数据过滤器中时，它们仍可见，但无法进行更改。
 
 ### 激活或暂停广告
 
@@ -185,7 +187,7 @@ ht-degree: 0%
 
    * 要暂停活动广告，请单击&#x200B;**[!UICONTROL Pause]**。
 
-### 删除广告
+### 删除或存档广告
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Ads]**。
 
