@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Optimization
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2c5cc3a9b50bf58aa7d44300471716674e244451
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 * 以下任一项：
   * Adobe Experience Platform Web SDK： `alloy.js`
-  * Experience Cloud Identity服务：`visitorAPI.js`版本2.0或更高版本
+  * Adobe访客ID服务：`visitorAPI.js`版本2.0或更高版本
 * Adobe Analytics的任何版本（包括[!DNL Prime]、[!DNL Premium]或[!DNL Ultimate]）
 * Adobe Analytics：`appMeasurement.js`版本2.1或更高版本
 * （Advertising DSP客户）在网页中部署了[Advertising DSP JavaScript代码片段](javascript.md)以跟踪浏览访问。
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ## 与Adobe Advertising共享Analytics区段的要求
 
-* Experience Cloud Identity服务：`visitorAPI.js`版本2.1或更高版本
+* Adobe访客ID服务：`visitorAPI.js`版本2.1或更高版本
 * Adobe Analytics：`appMeasurement.js`版本1.8或更高版本
 
 ## 在Adobe Advertising中报告[!DNL Analytics]数据的要求
@@ -69,7 +69,7 @@ ht-degree: 0%
 * 用于报告付费媒体活动和馈送网站活动以在Adobe Advertising中进行优化和报告的[!DNL Analytics]报告包ID
 * 公司的CX Enterprise组织ID （组织ID）。
 
-您可以在Adobe Experience Platform Debugger[&#128279;](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=zh-Hans)的摘要选项卡上找到这两个ID。
+您可以在Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)的[摘要选项卡上找到这两个ID。
 
 ![Experience Platform Debugger的“摘要”屏幕](/help/integrations/assets/a4adc-debugger-summary.png)
 
@@ -96,7 +96,7 @@ Adobe Advertising中的![广告商级别的回溯时段设置](/help/integration
 
 >[!NOTE]
 >
->若要针对不同的时间范围对数据进行分段，您可以在Analysis Workspace中[设置具有不同回顾时间范围的自定义区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hans)。
+>若要针对不同的时间范围对数据进行分段，您可以在Analysis Workspace中[设置具有不同回顾时间范围的自定义区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
 
 ## 支持的广告环境
 
@@ -139,7 +139,7 @@ Adobe Advertising中的![广告商级别的回溯时段设置](/help/integration
 
 为了准确的数据集成，[!DNL Analytics for Advertising]活动用于交付内容或记录目标量度的所有Adobe Advertising调用必须具有共享相同补充ID的相应[!DNL Analytics]点击。
 
-在[!DNL Analytics]中进行故障诊断时，请务必确认[!DNL Analytics]点击存在补充ID。 在[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=zh-Hans)中，您可以在Adobe Advertising选项卡中看到此ID作为`sdid`参数。
+在[!DNL Analytics]中进行故障诊断时，请务必确认[!DNL Analytics]点击存在补充ID。 在[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)中，您可以在Adobe Advertising选项卡中看到此ID作为`sdid`参数。
 
 >[!NOTE]
 >
