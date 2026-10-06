@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Optimization
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2c5cc3a9b50bf58aa7d44300471716674e244451
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 * 以下任一项：
   * Adobe Experience Platform Web SDK： `alloy.js`
-  * Experience Cloud Identity服务：`visitorAPI.js`版本2.0或更高版本
+  * Adobe访客ID服务：`visitorAPI.js`版本2.0或更高版本
 * Adobe Analytics的任何版本（包括[!DNL Prime]、[!DNL Premium]或[!DNL Ultimate]）
 * Adobe Analytics：`appMeasurement.js`版本2.1或更高版本
 * （Advertising DSP客户）在网页中部署了[Advertising DSP JavaScript代码片段](javascript.md)以跟踪浏览访问。
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ## 与Adobe Advertising共享Analytics区段的要求
 
-* Experience Cloud Identity服务：`visitorAPI.js`版本2.1或更高版本
+* Adobe访客ID服务：`visitorAPI.js`版本2.1或更高版本
 * Adobe Analytics：`appMeasurement.js`版本1.8或更高版本
 
 ## 在Adobe Advertising中报告[!DNL Analytics]数据的要求

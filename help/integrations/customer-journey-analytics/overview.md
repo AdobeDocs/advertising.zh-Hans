@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2c5cc3a9b50bf58aa7d44300471716674e244451
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '497'
 ht-degree: 0%
 ---
 # Adobe Advertising与Customer Journey Analytics之间的集成概述
@@ -44,7 +44,7 @@ Adobe Advertising与Adobe Customer Journey Analytics集成，可实现双向数�
 
 * 同时具有[!DNL Analytics for Advertising]和Customer Journey Analytics的广告商具有通过[!DNL Analytics for Advertising]实现的相同功能，并在Customer Journey Analytics中添加了可视化图表。
 
-  您仍然可以使用Adobe Experience Platform Web SDK (`alloy.js`)或Adobe Experience Cloud Identity Service (`visitorAPI.js`)跟踪点进事件。 使用Advertising DSP的广告商仍将使用JavaScript代码片段来跟踪浏览事件。 Customer Journey Analytics中可用的数据包括：
+  您仍可以使用Adobe Experience Platform Web SDK (`alloy.js`)或Adobe访客ID服务(`visitorAPI.js`)跟踪点进事件。 使用Advertising DSP的广告商仍将使用JavaScript代码片段来跟踪浏览事件。 Customer Journey Analytics中可用的数据包括：
 
   * 来自Customer Journey Analytics中Adobe Advertising的营销活动效果数据
 

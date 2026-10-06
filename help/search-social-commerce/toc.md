@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 657d5a874dd41259621bcf87fe750223bb77ca00
+source-git-commit: 2a6c0d3ffbd4edbca74a45c98826d3265df099f5
 workflow-type: tm+mt
-source-wordcount: '2395'
+source-wordcount: '2402'
 ht-degree: 2%
 ---
 # Advertising 搜索、社交和 Commerce 指南 {#search-social-commerce}
@@ -104,6 +104,7 @@ ht-degree: 2%
       + [复制 [!DNL Microsoft Advertising]中的 [!DNL Google Ads] 营销活动](/help/search-social-commerce/new-ui/manage/campaigns/google-campaign-replication-in-microsoft.md)
       + 按广告网络列出的Campaign设置 {#campaign-settings-by-network}
         + [[!DNL Baidu]营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
+        + [[!DNL ChatGPT Ads]营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md)
         + [[!DNL Google Ads]营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
         + [[!DNL LY Ads]营销活动设置](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
         + [[!DNL Microsoft Advertising]营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)
@@ -112,6 +113,7 @@ ht-degree: 2%
       + [管理广告组](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)
       + 按广告网络划分的广告组设置 {#ad-group-settings-by-network}
         + [[!DNL Baidu]广告组设置](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)
+        + [[!DNL ChatGPT Ads]广告组设置](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md)
         + [[!DNL Google Ads]广告组设置](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)
         + [[!DNL LY Ads]广告组设置](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
         + [[!DNL Microsoft Advertising]广告组设置](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)
@@ -120,6 +122,7 @@ ht-degree: 2%
       + [管理广告](/help/search-social-commerce/new-ui/manage/ads/ad-manage.md)
       + 按广告网络划分的广告设置 {#ad-settings-by-network}
         + [[!DNL Baidu]文本广告设置](/help/search-social-commerce/new-ui/manage/ads/ad-settings-baidu-text.md)
+        + [[!DNL ChatGPT Ads]广告设置](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)
         + [[!DNL Google Ads]扩展的动态搜索广告设置](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-dsa.md)
         + [[!DNL Google Ads]响应式搜索广告设置](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-rsa.md)
         + [[!DNL Microsoft Advertising]扩展的动态搜索广告设置](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-dsa.md)

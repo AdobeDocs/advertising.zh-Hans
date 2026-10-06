@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2c5cc3a9b50bf58aa7d44300471716674e244451
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Users who want to convert first-party segments from their customer data platform
 
 The standard JavaScript library consists of two lines that allow [!DNL Analytics] and Adobe Advertising to communicate with each other. If the [!DNL Analytics for Advertising] integration was completed during the Adobe Advertising implementation, then you should have already received this code with instructions on how to deploy it.
 
-#### Implementations that use the Experience Cloud Identity Service `visitorAPI.js` code
+#### Implementations that use the Adobe Visitor ID Service `visitorAPI.js` code
 
 ```
 <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
@@ -84,7 +84,7 @@ JavaScript库由两行组成，允许[!DNL Analytics]和Adobe Advertising相互�
 
 ### 代码
 
-#### 使用Experience Cloud Identity服务`visitorAPI.js`代码的实施
+#### 使用Adobe访客ID服务`visitorAPI.js`代码的实施
 
 ```
 <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
@@ -132,7 +132,7 @@ JavaScript库由两行组成，允许[!DNL Analytics]和Adobe Advertising相互�
    1. 在“应用程序”选项卡上，找到`adcloud` Cookie，并验证Cookie是否包含值为`y`的`_les_v`（上次访问）以及30分钟后过期的UTC纪元时间戳。
       1. 删除`adcloud` Cookie并刷新页面。
 
-1. （使用Experience Cloud Identity服务`visitorAPI.js`代码的实施）筛选`/b/ss`以查看Analytics点击。
+1. （使用Adobe访客ID服务`visitorAPI.js`代码的实施）筛选`/b/ss`以查看Analytics点击。
 
    ![在`/b/ss`](/help/integrations/assets/a4adc-code-validation-filter-bss.png)上筛选
 
@@ -159,7 +159,7 @@ JavaScript库由两行组成，允许[!DNL Analytics]和Adobe Advertising相互�
 1. 在[!UICONTROL Solutions Filter]工具栏中，单击[!UICONTROL Adobe Advertising]和[!UICONTROL Analytics]。
 1. 在[!UICONTROL Request URL - Hostname]参数行中，找到`lasteventf-tm.everesttech.net`。
 1. 在[!UICONTROL Request - Parameters]行中，审核生成的信号，类似于“[如何使用 [!DNL Chrome Developer Tools]](#validate-js-chrome)确认代码”中的步骤3。
-   * （使用Experience Cloud Identity服务`visitorAPI.js`代码的实施）确保`Sdid`参数与Adobe Analytics筛选器中的`Supplemental Data ID`匹配。
+   * （使用Adobe访客ID服务`visitorAPI.js`代码的实施）确保`Sdid`参数与Adobe Analytics筛选器中的`Supplemental Data ID`匹配。
    * （使用Experience Platform [!DNL Web SDK] `alloy.js`代码的实施）确保`advertisingStitchID`参数的值与发送到Experience Platform Edge Network的`Sdid`匹配。
    * 如果代码未生成，则检查以确保已在[!UICONTROL Application]选项卡中删除Adobe Advertising Cookie。 删除页面后，请刷新页面并重复此过程。
 
