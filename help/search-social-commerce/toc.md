@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2a6c0d3ffbd4edbca74a45c98826d3265df099f5
+source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2404'
 ht-degree: 2%
 ---
 # Advertising 搜索、社交和 Commerce 指南 {#search-social-commerce}
@@ -122,7 +122,7 @@ ht-degree: 2%
       + [管理广告](/help/search-social-commerce/new-ui/manage/ads/ad-manage.md)
       + 按广告网络划分的广告设置 {#ad-settings-by-network}
         + [[!DNL Baidu]文本广告设置](/help/search-social-commerce/new-ui/manage/ads/ad-settings-baidu-text.md)
-        + [[!DNL ChatGPT Ads]广告设置](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)
+        + [[!DNL ChatGPT Ads]聊天卡广告设置](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)
         + [[!DNL Google Ads]扩展的动态搜索广告设置](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-dsa.md)
         + [[!DNL Google Ads]响应式搜索广告设置](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-rsa.md)
         + [[!DNL Microsoft Advertising]扩展的动态搜索广告设置](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-dsa.md)

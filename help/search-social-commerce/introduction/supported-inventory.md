@@ -20,9 +20,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 043cf0a3e82f64d3817f823fd4d66dbbe61245bb
+source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
 workflow-type: tm+mt
-source-wordcount: '2857'
+source-wordcount: '2855'
 ht-degree: 0%
 ---
 # 支持的清单
@@ -36,7 +36,7 @@ ht-degree: 0%
 | Source | 网络 | 营销活动类型 | 广告类型 | 同步并查看 | 创建/编辑 | 曲目[^1] | 优化[^2] | 报表 | Adobe Analytics支持[^3] |
 |----|----|----|----|----|----|----|----|----|----|
 | [!DNL Baidu]：*仅支持Search、Social和Commerce中的现有帐户* | 搜索网络 | 手动 | 文本广告 | 通过API自动同步 | 使用[营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)和[批量处理工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)创建/编辑 | 是 | 仅具有手动CPC竞价策略的促销活动 | 广告级别的数据 | [!DNL Analytics]要搜索、社交和Commerce的数据<br><br>从搜索、社交和Commerce到[!DNL Analytics]的广告级数据 |
-| [!DNL ChatGPT Ads] | ChatGPT | ChatGPT | ChatGPT广告（试点功能） | 通过API自动同步 | 使用[营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)创建/编辑 | — | — | 营销活动管理视图中的广告级别数据（仅展示次数、点击量和成本） | — |
+| [!DNL ChatGPT Ads] | ChatGPT | 标准 | 聊天卡 | 通过API自动同步 | 使用[营销活动管理视图](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)创建/编辑 | — | — | 营销活动管理视图中的广告级别数据（仅展示次数、点击量和成本） | — |
 | [!DNL Google Ads] | 所有[!DNL Google]信息源 | 需求源 | Demand Gen轮播广告（多图像广告）<br><br>Demand Gen图像广告<br><br>Demand Gen产品广告<br><br>Demand Gen视频广告 | 通过API自动同步 | 无创建/编辑选项 | 是 | 仅限轮播广告和图像广告；仅限混合项目组合<br><br>在营销活动级别设置竞价和竞价策略目标以及营销活动预算（适用于优化类型）。 | 广告级别的数据 | 使用升级的AMO ID跟踪代码[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#dimension-items) [^4]<br><br>将广告级别数据从Search、Social和Commerce升级到[!DNL Analytics]，将其添加到Search、Social和Commerce  |
 | [!DNL Google Ads] | 所有网络 | 最高标准性能 | 所有广告类型 | 通过API自动同步 | 在[!UICONTROL Campaigns] > [!UICONTROL Campaigns]<br><br>的促销活动设置中创建/编辑促销活动并上传广告资源。只有必需的设置可用。 对于可选设置和列表组，请登录到[!DNL [!DNL Google Ads]广告]编辑器。 | 是 | 在混合项目组合中，仅在营销活动级别设置竞价策略目标以及营销活动预算<br><br>。 | 营销活动级别的数据<br><br>列表组的数据不可用，并且广告网络不提供广告级别的数据。 | [!DNL Analytics]数据到Search、Social和Commerce<br><br>促销活动级别的数据从Search、Social和Commerce到Analytics。 需要升级的[AMO ID跟踪代码](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#dimension-items)。 |
 | [!DNL Google Ads] | 搜索、[!DNL Google Play]、[!DNL YouTube]、[!DNL Discover on Google Search]和[!DNL Google Display Network] | 应用程序促销活动、应用程序参与促销活动和应用程序预注册促销活动 | 应用程序广告、应用程序参与度广告和应用程序预注册广告 | 通过API自动同步 | — | 是，当您手动将点击跟踪标记添加到广告网络中的跟踪模板时 | — | 广告级别的数据 | 从[!DNL Analytics]到Search、Social和Commerce<br><br>的广告级别数据从Search、Social和Commerce到Analytics的广告级别标准量度（但不是应用程序安装广告的Google广告跟踪转化）。 |

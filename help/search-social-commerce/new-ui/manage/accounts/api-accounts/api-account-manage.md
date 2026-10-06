@@ -9,7 +9,7 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
 workflow-type: tm+mt
 source-wordcount: '2100'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >要在广告网络上创建实际的帐户，请转到广告网络的网站。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 1. 单击&#x200B;**[!UICONTROL Create Account]**。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 >
 >要编辑广告网络上的实际帐户，请转到广告网络的网站。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 1. 通过以下任一方式选择帐户：
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 1. （如果您在同一浏览器应用程序中登录到同一广告网络的其他帐户）注销除广告商帐户之外的任何其他帐户。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 <!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 当您启用广告网络帐户时，Search、Social和Commerce会将促销活动数据与帐户同步（如果支持），并为项目组合中的促销活动推送自动竞价和/或促销活动预算。 禁用广告网络帐户后，搜索、社交和Commerce将停止该帐户上的所有活动。 虽然仍会存储当帐户处于活动状态时收集的数据，但营销活动管理视图和报表并不包含禁用帐户时段的数据。 您稍后可以重新启用帐户以继续使用该帐户的活动。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 1. 执行以下任一操作：
 
