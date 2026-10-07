@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
+source-git-commit: 9ae5e60b9c36fcfb5d611bd31678f462d8f725dd
 workflow-type: tm+mt
-source-wordcount: '5269'
+source-wordcount: '5301'
 ht-degree: 1%
 ---
 # 新增功能
@@ -39,6 +39,7 @@ ht-degree: 1%
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
 | 2026年10月5日 | [!UICONTROL Campaigns], [!UICONTROL Reports] | （Beta功能）具有[!DNL OpenAI ChatGPT Ads]广告帐户的广告商现在可以在新的Search、Social和Commerce用户界面中管理和报告其促销活动。 [!DNL Chat card]广告是来自[!DNL OpenAI]的试点功能，是基于图像的赞助投放，显示在AI聊天转换旁边，可以定位聊天转换的上下文和意图、用户位置和语言。 清单是私有的，并且由发布者管理，不可出价。 [!DNL ChatGPT]广告在除中国以外的大多数主要市场都可用。 禁止为医疗服务或金融服务广告。<br><br>支持可用于创建和管理帐户、促销活动、广告组和广告；还可用于在促销活动管理视图中查看效果数据（展示次数、点击量和成本，但不包括[!DNL ChatGPT Ads]跟踪的转化）。 不支持[!DNL Adobe]或第三方跟踪、第一方受众定位、计划报表、Adobe Analytics或Adobe Customer Journey Analytics中的报表、优化或使用批量处理工作表进行营销活动管理。<br><br>对[!DNL ChatGPT Ads]的支持将在今年晚些时候在Advertising DSP中提供。 如果您的组织同时使用Search、Social和Commerce以及DSP，则只能通过Search、Social和Commerce购买库存，在这里，您可以查看效果数据以及其他广告网络的数据。<br><br>要使用该功能，请联系您的Adobe客户团队以了解费率信息并开始入门培训流程。 | 查看[[!DNL ChatGPT Ads] 帐户设置](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)、[促销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md)、[广告组设置](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md)和[广告设置](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)。<br><br>另查看有关[ChatGPT广告](https://help.openai.com/en/articles/20001207-ads-in-chatgpt-the-basics)和[!DNL OpenAI]的详细信息[广告策略](https://openai.com/policies/ad-policies)。 |
+| 2026年9月30日 | 新用户界面 | 新用户界面的主菜单根据用户反馈进行了重新组织。 登录时，您将看到新菜单的演练。 | — |
 | 2026年8月26日 | [!UICONTROL Reports] | [!UICONTROL Google AI Max Search Term Combination Report]现在包含第二个工作表，其中按每个搜索词和匹配类型的转化操作列出了[!DNL Google Ads]跟踪的转化数据。 在启用了[!DNL AI Max]的营销活动中显示广告的数据。 | 请参阅“[The [!UICONTROL Google AI Max Search Term Combination Report]](/help/search-social-commerce/reports/management/specialty/google-ai-max-search-term-combination-report.md)”。 |
 | 2026年7月29日 | [!UICONTROL Campaigns], [!UICONTROL Reports] | （[!DNL Google Ads]帐户）搜索网络上的Google Ads促销活动的新UI中现在提供了以下AI Max支持：<ul><li>您可以在“管理”>“营销活动”中创建和管理启用了AI Max的营销活动。 Campaign设置包括新的AI Max选项卡，其中包含启用AI Max、自动文本自定义和最终URL扩展的选项。 您还可以查看广告组是否使用地理兴趣目标。</li><li>您可以在“管理”>“广告组”中创建和管理启用了AI Max的营销活动的广告组。 设置包括无关键字搜索词匹配和目标目标位置。</li><li>AI生成的创意资源可在Assets > Creative中找到。 您可以从此视图中删除与其关联的广告组中的文本资源。</li><li>新的[!UICONTROL Asset Report]包括启用了AI Max的营销活动中每个AI生成的资源的资源级性能数据。 此报表不包括Adobe Analytics转化。</li></ul> | 请参阅“[管理营销活动](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)”和“[[!DNL Google Ads] 营销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)”、“[管理广告组](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)”和“[[!DNL Google Ads] 广告组设置](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)”、“[查看和创建创意资产](/help/search-social-commerce/new-ui/library/creative-asset-manage.md)”。 和[该[!UICONTROL Asset Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/asset-report.md)。 |
 | 2026年6月9日 | 与Adobe Customer Journey Analytics集成 | 具有Customer Journey Analytics但不具有[!DNL Analytics for Advertising]的广告商可以使用Adobe Experience Platform [!DNL Web SDK]在Adobe Advertising和Customer Journey Analytics之间原生交换数据。 | 请参阅“[Adobe Advertising与Customer Journey Analytics的集成概述](/help/integrations/customer-journey-analytics/overview.md)”。 |
