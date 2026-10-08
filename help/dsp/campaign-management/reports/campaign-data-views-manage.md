@@ -194,4 +194,4 @@ DSP会将最近查看的视图保存为默认视图，以便您每次返回到�
 >* [查看投放预测报告](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [查看位置诊断报告](placement-diagnostics.md)
 >* [从营销活动管理视图中导出数据](campaign-export-data.md)
->* [视频： DSP帐户结构和用户界面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [视频： DSP帐户结构和用户界面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=zh-Hans)

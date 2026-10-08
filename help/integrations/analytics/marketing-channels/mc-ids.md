@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 处理规则中的AMO ID
 
-AMO ID是用于报告[!DNL Analytics]中Adobe Advertising数据的主要跟踪代码。 AMO ID是由Adobe管理的动态值的连接，用于在[!DNL Analytics]内提供精细的报表。 它存储在[!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)或rVar维度(AMO ID)中。 可以通过两种方式在[!DNL Analytics]中设置AMO ID：
+AMO ID是用于报告[!DNL Analytics]中Adobe Advertising数据的主要跟踪代码。 AMO ID是由Adobe管理的动态值的连接，用于在[!DNL Analytics]内提供精细的报表。 它存储在[!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=zh-Hans)或rVar维度(AMO ID)中。 可以通过两种方式在[!DNL Analytics]中设置AMO ID：
 
 * 点进跟踪： Adobe Advertising在链接中设置了`s_kwcid`查询字符串参数，当发生点进时，[!DNL Analytics]会从登陆页面URL中选取该参数。
 
@@ -112,7 +112,7 @@ AMO EF ID (EF ID)是[!DNL Analytics for Advertising]集成中使用的第二个�
 
 ### 免费搜索规则
 
-对于[!UICONTROL Natural Search]，请确保您的[[!UICONTROL Paid Search]检测规则](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection)包含`ef_id`和`s_kwcid`查询字符串参数。 （通常，当Advertising Search、Social和Commerce集成到[!DNL Analytics]中时会自动配置此项，但如果[!DNL Analytics]管理员在配置集成后更改了逻辑，请进行验证。）
+对于[!UICONTROL Natural Search]，请确保您的[[!UICONTROL Paid Search]检测规则](https://experienceleague.adobe.com/zh-hans/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection)包含`ef_id`和`s_kwcid`查询字符串参数。 （通常，当Advertising Search、Social和Commerce集成到[!DNL Analytics]中时会自动配置此项，但如果[!DNL Analytics]管理员在配置集成后更改了逻辑，请进行验证。）
 
 将规则设置为“匹配免费搜索检测规则”（通常是此渠道的默认设置）。
 
@@ -175,5 +175,5 @@ AMO EF ID (EF ID)是[!DNL Analytics for Advertising]集成中使用的第二个�
 >*  [!DNL Analytics Marketing Channels]&#x200B;[&#128279;](mc-overview.md)的基础知识
 >* [为什么渠道数据在Adobe Advertising和 [!DNL Marketing Channels]](mc-data-variances.md)之间可能不同
 >* [对Adobe Advertising数据使用 [!DNL Analytics Marketing Channels] &#x200B;](mc-ac-data.md)
->* [视频：使用 [!DNL Marketing Channels] 进行Adobe Advertising报告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [视频：使用 [!DNL Marketing Channels] 进行Adobe Advertising报告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=zh-Hans)
 >*  [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)使用的Adobe Advertising ID
