@@ -8,31 +8,43 @@ exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
 TQID: https://experienceleague.adobe.com/HgUQENjtjLRyizGpXGBRYZOanvoouKfGdcjDyf5Dlaw
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: DSP placements
   - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+    internal-label: DSP Planner
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: DSP Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f39dd5f12876b2ff486b6de57c0578fd5a7abf89
+    internal-label: Privacy
+source-git-commit: cbbbdbcf073cf593f49b3e481cd0e2482358063a
 workflow-type: tm+mt
-source-wordcount: 7727
+source-wordcount: '7729'
 ht-degree: 0%
-
 ---
-
-# 新增功能
+# DSP的新增功能
 
 以下功能是新增的或最近更改的。
 
@@ -43,7 +55,7 @@ ht-degree: 0%
 | 2026年6月23日 | [!UICONTROL Placements]，邮政编码 | 您现在可以创建各个国家/地区的邮政编码列表，以重复用作投放目标或排除项。 | 请参阅“[管理邮政编码列表](/help/dsp/resources/lists-postal-codes-manage.md)”和“[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)”。 |
 | 2026年6月9日 | 与Adobe Customer Journey Analytics集成 | 具有Customer Journey Analytics但不具有[!DNL Analytics for Advertising]的广告商可以使用Adobe Experience Platform [!DNL Web SDK]在Adobe Advertising和Customer Journey Analytics之间原生交换数据。 | 请参阅“[Adobe Advertising与Customer Journey Analytics的集成概述](/help/integrations/customer-journey-analytics/overview.md)”。 |
 | 2026年6月3日 | [!DNL Adobe Analytics for Advertising] | 具有Advertising Creative和[!DNL Adobe Analytics for Advertising]的广告商现在可以在Adobe Analytics中查看变体和分支级别的数据。 无论使用哪个DSP从[!DNL Creative]体验中运行广告，都会显示数据。 如果您通过Advertising DSP投放位置运行广告，则还将看到促销活动和投放级别的数据以及与成本相关的量度。<br><br>无需其他设置。 | 查看[!DNL Analytics]中显示的Advertising Creative [流量指标](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/metrics/amo-metrics)和[分类](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#classifications)。 |
-| 2026年5月20日 | 第一方受众源，通用ID，[!UICONTROL Placements] | 澳大利亚的广告商现在可以导入[!DNL AdFixus]个通用ID，其中包含目标广告的区段映射。 DSP会按原样从[!DNL AdFixus]导入第一方区段，而不会将其转换为其他ID类型。 该过程包括创建受众源并与[!DNL AdFixus]团队共享自动生成的密钥。 | 请参阅“从 [!DNL AdFixus][&#128279;](/help/dsp/audiences/sources/source-adfixus.md)导入第一方区段”、“[关于第一方受众源](/help/dsp/audiences/sources/source-about.md)”和“[管理受众源以激活通用ID受众](/help/dsp/audiences/sources/source-manage.md)”。 |
+| 2026年5月20日 | 第一方受众源，通用ID，[!UICONTROL Placements] | 澳大利亚的广告商现在可以导入[!DNL AdFixus]个通用ID，其中包含目标广告的区段映射。 DSP会按原样从[!DNL AdFixus]导入第一方区段，而不会将其转换为其他ID类型。 该过程包括创建受众源并与[!DNL AdFixus]团队共享自动生成的密钥。 | 请参阅“从 [!DNL AdFixus]&#x200B;[&#128279;](/help/dsp/audiences/sources/source-adfixus.md)导入第一方区段”、“[关于第一方受众源](/help/dsp/audiences/sources/source-about.md)”和“[管理受众源以激活通用ID受众](/help/dsp/audiences/sources/source-manage.md)”。 |
 | 2026年5月11日 | 可重用[!UICONTROL Audiences] | （Beta功能）您现在可以使用人工智能辅助的受众代理创建可重复使用的受众。 以自然语言提示描述您的目标受众，代理会建议第三方区段，并构建受众表达式以用作目标或排除项。 | 请参阅&quot;[创建可重复使用的受众](/help/dsp/audiences/reusable-audience-create.md)&quot;。 |
 | 2026年4月29日 | [!UICONTROL Conversions] | 您现在可以在DSP中管理Adobe Advertising为贵组织跟踪的所有转化指标。 这些量度仍可以在Advertising Search、Social和Commerce中使用，以便在该处的报表和优化中使用。 | 请参阅&quot;[管理转化](/help/dsp/admin/conversion-metrics-manage.md)&quot;。 |
 | | [!UICONTROL Custom Objectives] | 您现在可以在DSP中创建和管理用于自定义目标的目标。 | 请参阅&quot;[管理自定义目标](/help/dsp/admin/custom-objectives-manage.md)&quot;。 |
@@ -81,9 +93,9 @@ ht-degree: 0%
 | 2025年5月5 | [!UICONTROL Inventory Targeting], [!UICONTROL Placements] | DSP现在与Amazon Publisher Services (APS)建立了战略合作伙伴关系，从而使DSP用户能够直接访问APS Unified Ad Marketplace中的站点，包括Fire TV、Twitch、IMDb、Goodreads和6pm。 对于非计划性保证的私有交易，可以在公共库存、按需库存和私有库存中访问。 支持的广告类型包括显示、在线视频和联网电视。<br><br>除欧盟、巴西和日本之外，所有区域均提供访问，但Twitch当前仅在澳大利亚和新西兰处于试点模式。 | — |
 | 2025年4月25日 | [!UICONTROL Placements]，品牌安全和媒体质量 | DSP现在为标准连接的电视投放位置提供[!DNL DoubleVerify]预竞价欺诈阻止支持。 新投放位置会自动继承广告商级别的欺诈阻止设置。 要排除继承的设置，请手动将其删除。<br><br>在未来版本中将提供对通用视频投放的支持。 | 请参阅“[位置设置](/help/dsp/campaign-management/placements/placement-settings.md#prebid-fraud-blocking)”。 |
 | 2025年4月24日 | 性能[!UICONTROL Insights] | （Beta功能）通过可视化图表进行的高层次性能分析，可为您提供高效优化活动以及发现提升性能的新机会所需的信息。 您可以跨营销活动查看数据或向下钻取到更低级别。 | 请参阅“[关于见解](/help/dsp/campaign-management/insights/insights-about.md)”。 |
-| 2025年3月26日 | 登录 | DSP正在过渡到Adobe Identity Management服务(IMS)以进行登录身份验证。 IMS提供对支持IMS的所有[!DNL Adobe]产品（包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics）的单一登录(SSO)访问权限。 您现在可以使用一个[!DNL Adobe ID]从CX Enterprise登录页或旧版DSP登录页跨[!DNL Adobe]产品登录。 您当前的DSP凭据将保留90天的有效期，以便您能够为更改做好准备。 | 请参阅[登录Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)。<br><br>有关CX Enterprise界面（包括管理用户配置文件）的更多信息，请参阅[CX Enterprise界面和管理](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/experience-cloud)。 |
+| 2025年3月26日 | 登录 | DSP正在过渡到Adobe Identity Management服务(IMS)以进行登录身份验证。 IMS提供对支持IMS的所有[!DNL Adobe]产品（包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics）的单一登录(SSO)访问权限。 您现在可以使用一个[!DNL Adobe ID]从CX Enterprise登录页面或旧版DSP登录页面跨[!DNL Adobe]个产品登录。 您当前的DSP凭据将保留90天的有效期，以便您能够为更改做好准备。 | 请参阅[登录Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)。<br><br>有关CX Enterprise界面（包括管理用户配置文件）的更多信息，请参阅[CX Enterprise界面和管理](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/experience-cloud)。 |
 | | [!UICONTROL Packages], [!UICONTROL Placements], [!UICONTROL Ads] | 以下批量编辑功能现已可用：<ul><li>您可以直接编辑和重新上传包含营销活动包、投放位置和广告设置的营销活动级别电子表格。 以前，您必须下载模板文件并手动输入要上传的更改。</li><li>在[!UICONTROL Campaigns]视图中，这些文件现在称为“*批量处理工作表*”，而不是“QA工作表”，并且您选择“[!UICONTROL Download Bulksheet]”和“[!UICONTROL Upload Bulksheet]”的选项。</li><li>大多数投放设置现在都可在批量处理工作表中使用。</li></ul> | 请参阅[使用批量处理工作表查看和编辑营销活动组件设置](/help/dsp/campaign-management/campaign-components-review-edit.md)。<br><br>另请参阅[使用批量处理工作表查看和编辑包设置](/help/dsp/campaign-management/packages/package-qa.md)和[使用批量处理工作表查看和编辑投放位置设置](/help/dsp/campaign-management/placements/placement-qa.md)。 |
-| 2025年3月10日发布 | 隐私 | 通过与Digital Advertising Alliance (DAA)建立[!DNL Adobe's]合作伙伴关系，您的最终用户现在可以选择退出所有依赖来自“Adobe Marketing Cloud - Advertising服务”（Adobe CX Enterprise的旧称，以前也称为Adobe Experience Cloud，其中包括DSP + Audience Manager Cookie）的哈希电子邮件地址的行为定位。 以前，DSP仅支持基于Cookie的选择退出。<br><br>当最终用户选择退出行为定位时，DSP会捕获最终用户的Cookie、移动设备ID或哈希电子邮件地址（DSP可能会将其与[!DNL Unified ID 2.0 (UID2.0)] ID或[!DNL LiveRamp] [!DNL RampID]关联）。 然后，只要最终用户保留其有效期为5年的选择退出Cookie，DSP就排除了为该最终用户设置广告展示次数次数行为的定位功能。<br><br>您的最终用户可以： a\)从其浏览器[https://optout.aboutads.info](https://optout.aboutads.info)中选择退出广告，或者b\)从其浏览器、应用中选择退出广告，或者使用来自[https://youradchoices.com/control](https://youradchoices.com/control)的令牌标识符。<br><br>广告商不需要任何工作。 | 请参阅&quot;[Adobe隐私政策](https://www.adobe.com/privacy/policy.html)&quot;。 |
+| 2025年3月10日发布 | 隐私 | 通过与Digital Advertising Alliance (DAA)建立[!DNL Adobe's]合作伙伴关系，您的最终用户现在可以选择退出所有依赖来自“Adobe Marketing Cloud - Advertising服务”（Adobe CX Enterprise的旧名称，以前也称为Adobe Experience Cloud，其中包括DSP + Audience Manager Cookie）的哈希电子邮件地址的行为定位。 以前，DSP仅支持基于Cookie的选择退出。<br><br>当最终用户选择退出行为定位时，DSP会捕获最终用户的Cookie、移动设备ID或哈希电子邮件地址（DSP可能会将其与[!DNL Unified ID 2.0 (UID2.0)] ID或[!DNL LiveRamp] [!DNL RampID]关联）。 然后，只要最终用户保留其有效期为5年的选择退出Cookie，DSP就排除了为该最终用户设置广告展示次数次数行为的定位功能。<br><br>您的最终用户可以： a\)从其浏览器[https://optout.aboutads.info](https://optout.aboutads.info)中选择退出广告，或者b\)从其浏览器、应用中选择退出广告，或者使用来自[https://youradchoices.com/control](https://youradchoices.com/control)的令牌标识符。<br><br>广告商不需要任何工作。 | 请参阅&quot;[Adobe隐私政策](https://www.adobe.com/privacy/policy.html)&quot;。 |
 |  | 受众定位 | DSP改进了已连接电视ID和移动广告ID与相应的哈希IP地址和Cookie ID的映射，从而在数字接触点间提供更具影响力的性能定位。 | — |
 | 2025年2月3日 | [!UICONTROL Packages] | 对于具有[!UICONTROL Highest Return on Ad Spend]和[!UICONTROL Lowest Cost per Acquisition]优化目标的包，现在需要[!UICONTROL Conversion Metric]设置。 以前，它是可选的。<br><br> [!UICONTROL Conversion Metric]是用于计算广告支出回报或每次收购成本的最终转化事件（如注册）或收入事件/销售金额（如购买和购买值）。 | 请参阅“[包设置](/help/dsp/campaign-management/packages/package-settings.md)”。 |
 | 2024年12月12日 | [!UICONTROL Placements]，品牌安全 | 您现在可以在投放级别定位[!DNL DoubleVerify Authentic Brand Suitability]区段ID。 以前，您只能在广告商级别定位他们。<br><br>默认情况下，如果在广告商帐户设置中指定了区段ID，则在版面设置中会输入广告商级别的ID，但您可以将ID更改为使用其他区段，或删除该ID以禁用该功能。<br><br>在广告商级别的设置中，用于启用该功能的选项已被删除；现在，指定区段ID可启用该功能。 如果某个现有广告商禁用了此功能，则区段ID字段现在为空白。 无需用户操作。 | 请参阅“[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)”。 |

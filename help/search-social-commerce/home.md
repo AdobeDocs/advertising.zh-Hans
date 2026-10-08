@@ -27,12 +27,12 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9ae5e60b9c36fcfb5d611bd31678f462d8f725dd
+source-git-commit: cbbbdbcf073cf593f49b3e481cd0e2482358063a
 workflow-type: tm+mt
-source-wordcount: '5301'
+source-wordcount: '5305'
 ht-degree: 1%
 ---
-# 新增功能
+# 搜索、社交和Commerce的新增功能
 
 以下功能是新增的或最近更改的。
 
