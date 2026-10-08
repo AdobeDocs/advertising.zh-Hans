@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在Advertising DSP中，有关从 [!DNL Creative] 体验](/help/dsp/campaign-management/reports/campaign-alerts.md)创建的版面的[警报在营销活动级别可用。
+>在Advertising DSP中，有关从 [!DNL Creative] 体验[&#128279;](/help/dsp/campaign-management/reports/campaign-alerts.md)创建的版面的警报在营销活动级别可用。
 
 ## 在[!UICONTROL Pulse Panel]中查看警报
 

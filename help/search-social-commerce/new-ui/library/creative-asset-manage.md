@@ -110,7 +110,7 @@ ht-degree: 0%
 
 1. 在批量操作工具栏中，单击&#x200B;**[!UICONTROL Remove]**。
 
-1. <!-- VERIFY -->在确认消息中，单击&#x200B;**[!UICONTROL Remove]**。
+1. &#x200B;<!-- VERIFY -->在确认消息中，单击&#x200B;**[!UICONTROL Remove]**。
 
 >[!MORELIKETHIS]
 >

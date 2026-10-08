@@ -69,7 +69,7 @@ ht-degree: 0%
 * 用于报告付费媒体活动和馈送网站活动以在Adobe Advertising中进行优化和报告的[!DNL Analytics]报告包ID
 * 公司的CX Enterprise组织ID （组织ID）。
 
-您可以在Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)的[摘要选项卡上找到这两个ID。
+您可以在Adobe Experience Platform Debugger[&#128279;](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)的摘要选项卡上找到这两个ID。
 
 ![Experience Platform Debugger的“摘要”屏幕](/help/integrations/assets/a4adc-debugger-summary.png)
 

@@ -118,6 +118,6 @@ Adobe Advertising每天将流量指标和维度传递给[!DNL Customer Journey A
 >
 >* [概述](overview.md)
 >* [先决条件](prerequisites.md)
->*  [!DNL Customer Journey Analytics]](ids.md)使用的[Adobe Advertising ID
+>*  [!DNL Customer Journey Analytics]&#x200B;[&#128279;](ids.md)使用的Adobe Advertising ID
 >* [设置数据收集、数据传输和报告](set-up.md)
 >* [疑难解答](troubleshooting.md)
