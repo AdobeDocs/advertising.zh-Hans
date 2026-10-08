@@ -56,7 +56,7 @@ ht-degree: 0%
 
    您可以展开标记行以查看包含的创意。
 
-   对于视频广告体验，系统会使用Adobe Advertising DSP编码作为VAST 2.0标记自动对视频创意内容进行转码，以便您进行预览。 您可以选择为其他DSP[&#128279;](experience-tag-video-transcoding.md)应用转码。
+   对于视频广告体验，系统会使用Adobe Advertising DSP编码作为VAST 2.0标记自动对视频创意内容进行转码，以便您进行预览。 您可以选择为其他DSP](experience-tag-video-transcoding.md)应用转码[。
 
 >[!MORELIKETHIS]
 >

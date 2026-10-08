@@ -163,13 +163,13 @@ ht-degree: 0%
 
 有关每个广告网络的必需列和可选列的详细信息，请参阅广告网络特定的批量处理工作表数据格式文章：
 
-* [&#x200B; [!DNL Baidu] 帐户的必需和可选批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
-* [&#x200B; [!DNL Google Ads] 帐户的必需和可选批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
-* [&#x200B; [!DNL LY Ads] 帐户的必需和可选批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
-* [&#x200B; [!DNL Microsoft Advertising] 帐户的必需和可选批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-* [&#x200B; [!DNL Naver] 帐户的必需和可选批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-* [&#x200B; [!DNL Yahoo DSP] 帐户的必需和可选批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-* [&#x200B; [!DNL Yandex] 帐户的必需和可选批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
+* [ [!DNL Baidu] 帐户的必需和可选批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
+* [ [!DNL Google Ads] 帐户的必需和可选批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+* [ [!DNL LY Ads] 帐户的必需和可选批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
+* [ [!DNL Microsoft Advertising] 帐户的必需和可选批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
+* [ [!DNL Naver] 帐户的必需和可选批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
+* [ [!DNL Yahoo DSP] 帐户的必需和可选批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+* [ [!DNL Yandex] 帐户的必需和可选批量工作表数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
 
 >[!MORELIKETHIS]
 >

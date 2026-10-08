@@ -33,7 +33,7 @@ Search、Social和Commerce正在过渡到Adobe Identity Management服务(IMS)以
 
 您当前的Search、Social和Commerce凭据将在短时间内保持活动状态，以便您能够为更改做好准备。
 
-有关CX Enterprise界面（包括管理用户配置文件）的更多信息，请参阅“[CX Enterprise界面和管理](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/experience-cloud)”。
+有关CX Enterprise界面（包括管理用户配置文件）的更多信息，请参阅“[CX Enterprise界面和管理](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)”。
 
 ## 从旧版“搜索、社交和Commerce”登录页面登录
 
@@ -51,7 +51,7 @@ Search、Social和Commerce正在过渡到Adobe Identity Management服务(IMS)以
 
 1. 输入您的[!DNL Adobe] ID，然后单击&#x200B;**[!UICONTROL Continue]**。
 
-1. 如果出现提示，请选择&#x200B;**[!UICONTROL Personal Account]”或&#x200B;**&#x200B;[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. 如果出现提示，请选择**[!UICONTROL Personal Account]”或&#x200B;**[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    默认情况下，将打开新的用户界面。
 
@@ -65,7 +65,7 @@ Search、Social和Commerce正在过渡到Adobe Identity Management服务(IMS)以
 
 1. 输入您的[!DNL Adobe] ID，然后单击&#x200B;**[!UICONTROL Continue]**..
 
-1. 如果出现提示，请选择&#x200B;**[!UICONTROL Personal Account]”或&#x200B;**&#x200B;[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. 如果出现提示，请选择**[!UICONTROL Personal Account]”或&#x200B;**[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
 1. 在主页的[!UICONTROL Quick Access]部分中，单击&#x200B;**[!UICONTROL Advertising Search, Social, & Commerce]**。
 

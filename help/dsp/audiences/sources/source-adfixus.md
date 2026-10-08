@@ -42,7 +42,7 @@ ht-degree: 0%
 
 1. （具有[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)的广告商）为[!DNL Analytics]度量设置跟踪：
 
-   1. （如果尚未这样做）完成实施 [!DNL Analytics for Advertising]&#x200B;[&#128279;](/help/integrations/analytics/prerequisites.md)以及跟踪URL[&#128279;](/help/integrations/analytics/ids.md)中的AMO ID和EF ID的所有先决条件。
+   1. （如果尚未这样做）完成实施 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)以及跟踪URL](/help/integrations/analytics/ids.md)中的[AMO ID和EF ID的所有[先决条件。
 
    1. 在网页上部署特定于[!DNL AdFixus]的代码，以匹配从桌面浏览器和移动设备Web浏览器（但不包括移动应用程序）上的[!DNL AdFixus] ID到显示到达次数的转换。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 >
 >* [关于第一方受众源](/help/dsp/audiences/sources/source-about.md)
 >* [管理受众源以激活通用ID受众](source-manage.md)
->* [Adobe Advertising DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=zh-Hans)
->* Adobe Experience Platform [目标目录概述](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hans)
+>* [Adobe Advertising DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* Adobe Experience Platform [目标目录概述](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [支持激活通用ID](/help/dsp/audiences/universal-ids.md)
 >* [关于受众管理](/help/dsp/audiences/audience-about.md)

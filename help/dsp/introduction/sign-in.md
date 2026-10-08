@@ -57,15 +57,15 @@ Adobe Advertising DSP正在过渡到Adobe Identity Management服务(IMS)以进�
 
 1. 选择您的组织：
 
-   * 如果出现提示，请选择&#x200B;**[!UICONTROL Personal Account]”或&#x200B;**&#x200B;[!UICONTROL Company or School Account]**。
+   * 如果出现提示，请选择**[!UICONTROL Personal Account]”或&#x200B;**[!UICONTROL Company or School Account]**。
 
    * 如果您有权访问多个IMS组织，请选择正确的IMS组织。
 
-有关CX Enterprise界面（包括管理用户配置文件）的更多信息，请参阅“[CX Enterprise界面和管理](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/experience-cloud)”。
+有关CX Enterprise界面（包括管理用户配置文件）的更多信息，请参阅“[CX Enterprise界面和管理](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)”。
 
 ### 故障排除
 
-有关一般登录问题，另请参阅“[解决Adobe帐户登录问题](https://helpx.adobe.com/cn/manage-account/kb/account-password-sign-help.linkfree.html)”。
+有关一般登录问题，另请参阅“[解决Adobe帐户登录问题](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)”。
 
 #### 启用新的[!DNL Adobe] IMS登录是否存在任何先决条件？
 

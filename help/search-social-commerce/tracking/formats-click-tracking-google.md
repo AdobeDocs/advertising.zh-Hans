@@ -85,11 +85,11 @@ ht-degree: 0%
 
 * 当广告商具有Adobe Analytics集成时，后缀必须包括以下任一项：
 
-  * 使用最新[AMO ID格式](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#dimension-items) （以`s_kwcid`开头）的[!DNL Google Ads]帐户，该格式支持效果最佳的营销活动以及草稿和实验营销活动的营销活动级和广告组级报告：
+  * 使用最新[AMO ID格式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) （以`s_kwcid`开头）的[!DNL Google Ads]帐户，该格式支持效果最佳的营销活动以及草稿和实验营销活动的营销活动级和广告组级报告：
 
     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-    如果帐户具有服务器端AMO ID实施并且启用了帐户或营销活动设置“[!UICONTROL Auto Upload]”，则会自动添加参数。 否则，您需要手动添加它。 查看 [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)使用的Adobe Advertising ID。
+    如果帐户具有服务器端AMO ID实施并且启用了帐户或营销活动设置“[!UICONTROL Auto Upload]”，则会自动添加参数。 否则，您需要手动添加它。 查看 [!DNL Analytics]](/help/integrations/analytics/ids.md)使用的[Adobe Advertising ID。
 
   * 所有其他[!DNL Google Ads]帐户：
 
@@ -108,4 +108,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于Adobe Advertising转化跟踪服务的点击跟踪URL格式](formats-click-tracking-about.md)
->* [AMO ID格式](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [AMO ID格式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

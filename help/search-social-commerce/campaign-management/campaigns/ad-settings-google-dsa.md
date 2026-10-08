@@ -25,7 +25,7 @@ ht-degree: 0%
 
 动态搜索广告(DSA)仅可用于[!DNL Google Ads]个仅用于搜索促销活动中的搜索动态广告组。 广告网络动态生成标题，并为动态搜索广告选择登陆页面和显示URL，然后自动生成最终URL。
 
-有关每个帐户[&#128279;](https://support.google.com/google-ads/answer/6372658?hl=en)的广告限制，请参阅[!DNL Google Ads]帮助。
+有关每个帐户](https://support.google.com/google-ads/answer/6372658?hl=en)的[广告限制，请参阅[!DNL Google Ads]帮助。
 
 >[!NOTE]
 >

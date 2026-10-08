@@ -68,7 +68,7 @@ ht-degree: 0%
 >
 >为客户数据平台创建源后，必须完成其他步骤以导入受众：
 >* 对于[!DNL ActionIQ]源，请与您的Adobe客户团队合作。
->* 对于其他源类型，请参阅<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->  [!DNL AdFixus]&#x200B;[&#128279;](source-adfixus.md), the [workflow for [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)的[工作流、 [!DNL Amperity]](source-amperity.md)的[工作流、 [!DNL Optimizely]](source-optimizely.md)的[工作流和 [!DNL Tealium]](source-tealium.md)的工作流。
+>* 对于其他源类型，请参阅<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->  [!DNL AdFixus]](source-adfixus.md), the [workflow for [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)的[工作流、 [!DNL Amperity]](source-amperity.md)的[工作流、 [!DNL Optimizely]](source-optimizely.md)的[工作流和 [!DNL Tealium]](source-tealium.md)的[工作流。
 
 ## 更改受众源的ID类型
 
@@ -85,7 +85,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. 将光标悬停在源行上并单击&#x200B;**[!UICONTROL Edit]**。
 
-1. 更改为源[&#128279;](#source-settings)选择的ID。
+1. 更改为源](#source-settings)选择的[ID。
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 

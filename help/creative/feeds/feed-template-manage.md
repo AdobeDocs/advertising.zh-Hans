@@ -115,7 +115,7 @@ ht-degree: 0%
 
 **[!UICONTROL Is Unique]：**&#x200B;指示该字段是唯一ID（键）。 每个馈送模板必须至少有一个字段是唯一的。 要选择此选项，请单击按钮将其向右移动。<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
-**[!UICONTROL Backend Field]：** Advertising Creative后端[&#128279;](/help/creative/appendix-available-feed-fields.md)上映射到馈送文件中指定[!UICONTROL Field Name]的字段。
+**[!UICONTROL Backend Field]：** Advertising Creative后端](/help/creative/appendix-available-feed-fields.md)上映射到馈送文件中指定[!UICONTROL Field Name]的[字段。
 
 >[!MORELIKETHIS]
 >

@@ -59,7 +59,7 @@ ht-degree: 0%
 
    [!UICONTROL Submission Status]列指示广告是否已提交和批准。
 
-   对于失败的提交，[!UICONTROL API]响应列指示错误。 有关失败提交的错误代码完整列表以及更正这些代码的后续步骤，请参阅“ [!DNL FreeWheel] 广告提交[&#128279;](freewheel-error-codes.md)的错误代码”。
+   对于失败的提交，[!UICONTROL API]响应列指示错误。 有关失败提交的错误代码完整列表以及更正这些代码的后续步骤，请参阅“ [!DNL FreeWheel] 广告提交](freewheel-error-codes.md)的[错误代码”。
 
 1. （可选）要重新提交广告以供审批，请将光标悬停在广告行上，然后单击&#x200B;**[!UICONTROL More]** > **[!UICONTROL Resubmit]**。
 
@@ -67,5 +67,5 @@ ht-degree: 0%
 >
 >* [在 [!DNL FreeWheel]](freewheel-overview.md)中设置计划性保证交易的概述
 >* [向 [!DNL FreeWheel]](freewheel-submit.md)提交计划性保证交易的广告
->* [&#x200B; [!DNL FreeWheel] 广告提交的错误代码](freewheel-error-codes.md)
+>* [ [!DNL FreeWheel] 广告提交的错误代码](freewheel-error-codes.md)
 >* [在[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)中接受交易

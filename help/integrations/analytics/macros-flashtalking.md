@@ -66,9 +66,9 @@ ht-degree: 0%
 
 示例：
 
-`https://www.adobe.com/cn/products/photoshop?[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
 
-`https://www.adobe.com/cn/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
 ## 视频广告标记
 
@@ -82,13 +82,13 @@ ht-degree: 0%
 
 示例：
 
-`https://www.adobe.com/cn/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
-`https://www.adobe.com/cn/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
 >[!MORELIKETHIS]
 >
 >* [概述 [!DNL Analytics for Advertising]](overview.md)
->*  [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)使用的Adobe Advertising ID
+>*  [!DNL Analytics]](/help/integrations/analytics/ids.md)使用的[Adobe Advertising ID
 >* [将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Google Campaign Manager 360] 添加标记](/help/integrations/analytics/macros-google-campaign-manager.md)
 

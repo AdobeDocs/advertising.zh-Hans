@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->有关管理使用广告网络的API进行搜索、社交和Commerce同步的广告网络帐户的帐户详细信息的说明，请参阅“通过API连接管理广告网络帐户[&#128279;](../api-accounts/api-account-manage.md)”。
+>有关管理使用广告网络的API进行搜索、社交和Commerce同步的广告网络帐户的帐户详细信息的说明，请参阅“通过API连接管理广告网络帐户](../api-accounts/api-account-manage.md)”。[
 
 ## 创建帐户详细信息 {#create-account}
 

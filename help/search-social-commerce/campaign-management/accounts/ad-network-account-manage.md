@@ -194,7 +194,7 @@ ht-degree: 0%
 
 示例： `param1=value1&param2=value2`
 
-使用Adobe Advertising点击跟踪的帐户必须在后缀中包含广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`；Google为`gclid`）。 具有Adobe Analytics集成的帐户必须使用AMO ID参数（以`s_kwcid`开头）。 如果该帐户具有服务器端AMO ID实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 查看 [!DNL Google Ads]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必需后缀格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的必需后缀格式。
+使用Adobe Advertising点击跟踪的帐户必须在后缀中包含广告网络的点击标识符（[!DNL Microsoft Advertising]为`msclkid`；Google为`gclid`）。 具有Adobe Analytics集成的帐户必须使用AMO ID参数（以`s_kwcid`开头）。 如果该帐户具有服务器端AMO ID实施，则当用户单击广告时，参数会自动添加；否则，您必须在此处手动添加该参数。 查看 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必需后缀格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的[必需后缀格式。
 
 >[!NOTE]
 >
@@ -268,7 +268,7 @@ ht-degree: 0%
 
 * **S_kwcid格式：** (现有[!DNL Google Ads]帐户适用于具有Adobe Advertising-Adobe Analytics集成且尚未迁移AMO ID (s_kwcid)的广告商)
 
-此帐户使用旧版的AMO ID跟踪代码格式，从而允许Adobe Advertising与Adobe Analytics共享该帐户的相关数据。 [最新格式](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#dimension-items)包含促销活动ID和广告组ID的参数，在Analytics中，要在促销活动和广告组级别准确报告效果最佳的[!DNL Google Ads]促销活动以及草稿和实验促销活动，必须使用这些参数：
+此帐户使用旧版的AMO ID跟踪代码格式，从而允许Adobe Advertising与Adobe Analytics共享该帐户的相关数据。 [最新格式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)包含促销活动ID和广告组ID的参数，在Analytics中，要在促销活动和广告组级别准确报告效果最佳的[!DNL Google Ads]促销活动以及草稿和实验促销活动，必须使用这些参数：
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

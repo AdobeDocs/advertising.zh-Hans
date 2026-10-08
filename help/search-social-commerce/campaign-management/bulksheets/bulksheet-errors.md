@@ -60,7 +60,7 @@ Search、Social和Commerce在批量处理工作表操作期间生成两种类型
 |  | [!UICONTROL Invalid row given] | 行包含的信息不足以确定实体类型。 编辑该行以包含实体类型的所有必填字段。 |
 | 帐户 | [!UICONTROL Provide Valid Account Details] | （多个帐户的批量工作表）帐户标识符未包含在所有行中。 为每行输入以下任一列组合的值：a)“[!UICONTROL AMO ID]”或b)“[!UICONTROL Account Name]”和“[!UICONTROL Platform]”。 |
 |  | [!UICONTROL Account is disabled. Disabled Accounts cannot be processed] | 搜索、社交和Commerce无法访问广告网络帐户，因此您无法创建或编辑营销活动数据。 确保搜索帐户的凭据正确且帐户已启用。 |
-| 营销活动 | [!UICONTROL Invalid Shopping Country specified] | （购物营销活动）“[!UICONTROL Sales Country]”字段中的值无效。 查看 [!DNL Google Ads]&#x200B;[&#128279;](https://support.google.com/merchants/answer/160637#countrytable)的有效国家/地区[和 [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083)的有效国家/地区列表。 |
+| 营销活动 | [!UICONTROL Invalid Shopping Country specified] | （购物营销活动）“[!UICONTROL Sales Country]”字段中的值无效。 查看 [!DNL Google Ads]](https://support.google.com/merchants/answer/160637#countrytable)的有效国家/地区[和 [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083)的有效国家/地区列表。[ |
 | 所有营销活动组件 | [!UICONTROL Campaign creation failed] | 未创建父营销活动，因此未创建此实体。 确保所有父实体都包含所有必填字段。 |
 | 广告组 | [!UICONTROL Campaign Row missing] | 指定的父营销活动不存在，因此未创建广告组。 在新行中创建父营销活动。 |
 |  | [!UICONTROL New adgroup has both keywords and placement] | 广告组可以包含关键字或投放位置，但不能同时包含关键字和投放位置。 为关键词和投放位置创建单独的广告组。 |

@@ -29,7 +29,7 @@ ht-degree: 0%
 
 仅&#x200B;*[!DNL Google Ads]个帐户*
 
-现有[!DNL Google Ads]帐户的[AMO ID跟踪代码](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#dimension-items)的旧版（2019年10月之前）格式不支持Analytics中的某些功能，例如[!DNL Google Ads]效果最佳促销活动、草稿和实验促销活动的促销活动和广告组级别的报告，以及其他在多个促销活动中存在相同广告+关键字+匹配类型组合的使用案例。
+现有[!DNL Google Ads]帐户的[AMO ID跟踪代码](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)的旧版（2019年10月之前）格式不支持Analytics中的某些功能，例如[!DNL Google Ads]效果最佳促销活动、草稿和实验促销活动的促销活动和广告组级别的报告，以及其他在多个促销活动中存在相同广告+关键字+匹配类型组合的使用案例。
 
 当前格式包括促销活动ID和广告组ID的参数：
 
@@ -82,5 +82,5 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 >[!MORELIKETHIS]
 >
 >* [管理广告网络帐户](ad-network-account-manage.md)
->*  [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)使用的Adobe Advertising ID
->* [概述 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hans){target="_blank"}
+>*  [!DNL Analytics]](/help/integrations/analytics/ids.md)使用的[Adobe Advertising ID
+>* [概述 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}
