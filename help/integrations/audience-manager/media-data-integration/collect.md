@@ -150,7 +150,7 @@ ht-degree: 0%
 
 ### 创建Audience Manager特征和区段
 
-您的事件数据作为[未使用的信号](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=zh-Hans)流入Audience Manager。 从摄取的数据中手动创建[基于规则的特征](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html)，然后使用这些特征创建[区段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=zh-Hans)，之后才能在报表中使用这些数据。
+您的事件数据作为[未使用的信号](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=zh-Hans)流入Audience Manager。 从摄取的数据中手动创建[基于规则的特征](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=zh-Hans)，然后使用这些特征创建[区段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=zh-Hans)，之后才能在报表中使用这些数据。
 
 为在DSP中展示特定创意内容的用户填充用户级数据的特征示例：
 

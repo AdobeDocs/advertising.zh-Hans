@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1643'
 ht-degree: 0%
 ---
 # 关于您的创意库
@@ -155,63 +155,55 @@ ht-degree: 0%
 
 #### 可用操作
 
-* [创建新库](/help/creative/creative-libraries/creative-library-manage.md#create-a-creative-library)
+* [创建新库](/help/creative/creative-libraries/creative-library-manage.md#library-create)
 
 * 对于每个创意库：
 
-  * [编辑库名称](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
+  * [重命名库](/help/creative/creative-libraries/creative-library-manage.md#library-rename)
 
-  * [打开库以查看分配给库的创意和捆绑包](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
+  * [打开库以查看分配给库的创意和捆绑包](/help/creative/creative-libraries/creative-library-manage.md#library-open)
 
-  * [删除库](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
+  * [删除库](/help/creative/creative-libraries/creative-library-manage.md#library-delete)
 
 ### [!UICONTROL Creative Libraries] > [!UICONTROL Creatives]视图
 
-#### [!UICONTROL Standard Ads]
+[!UICONTROL Creatives]视图显示：
 
-[!UICONTROL Standard Ads]选项卡显示您已创建的所有标准创意。 每个创意的数据包括创意大小、创意类型和创建日期。 表模式还包括默认语言和默认登陆页面的列。
+* 所有您创建的标准创意内容。
 
-##### 可用操作
+  每个标准创意内容的数据包括创意大小、创意类型和创建日期。 表模式还包括默认语言和默认登陆页面的列。
 
-* [将标准创意添加到库](creative-add-standard.md)
+* 为创意目录动态创建的所有动态创意，但[手动删除](creative-delete.md)的任何动态创意除外。 如果您[手动复制](creative-duplicate.md)任何动态创意<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->，则该目录的创意列表也包含重复的创意。
 
-* [编辑标准创意](creative-edit-standard.md)
+  每个动态创意的数据包括创意类型、创意大小、创意所属的目录数量和创建日期。 表模式还包括用于广告模板的列，通过广告模板生成创意和选件计数。
 
-* [预览标准创意](creative-preview.md)
+  >[!NOTE]
+  >
+  >每次处理目录时，将刷新该目录的现有动态创意数据。<!-- Verify this!!! And is there anything more to say w/regard to  -->
+
+>[!NOTE]
+>
+>在旧版UI中，[!UICONTROL Creative Libraries] > [!UICONTROL Creatives]被组织到单独的[!UICONTROL Standard Ads]和[!UICONTROL Dynamic Ads]选项卡中。
+
+#### 可用操作
+
+* 将[标准创意](creative-add-standard.md)和[动态创意](creative-add-dynamic.md)添加到库
+
+* 编辑[标准创意](creative-edit-standard.md)和[动态创意](creative-edit-dynamic.md)
+
+* 预览[标准创意](creative-preview.md)和[动态创意](creative-preview.md)
 
 * [将标准创意添加到标准显示包，并从标准显示包中删除标准创意](creative-attach-detach-bundles.md)
 
 * [将视频创意添加到标准视频包，并从标准视频包中删除视频创意](creative-attach-detach-bundles.md)
 
-* [复制标准创意](creative-duplicate.md)
+* [将动态创意添加到动态显示捆绑包中，并从动态显示捆绑包中删除动态创意](creative-attach-detach-bundles.md)
+
+* 复制[标准创意](creative-duplicate.md)和[动态创意](creative-duplicate.md)
 
 * [下载标准创意](creative-download.md)
 
-* [删除标准创意](creative-delete.md)
-
-#### [!UICONTROL Dynamic Ads]
-
-[!UICONTROL Dynamic Ads]选项卡显示为您的创意目录动态创建的所有动态创意，但您[从[!UICONTROL Dynamic Ads]选项卡中手动删除](creative-delete.md)的任何动态创意除外。 如果您[手动复制](creative-duplicate.md)任何动态创意<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->，则该目录的创意列表也包含重复的创意。
-
-每个创意的数据包括创意类型、创意大小、创意所属的目录数量和创建日期。 表模式还包括用于广告模板的列，通过广告模板生成创意和选件计数。
-
->[!NOTE]
->
->每次处理目录时，将刷新该目录的现有动态创意数据。<!-- Verify this!!! And is there anything more to say w/regard to  -->
-
-##### 可用操作
-
-* [将动态创意添加到库](creative-add-dynamic.md)
-
-* [编辑动态创意](creative-edit-dynamic.md)
-
-* [预览动态创意](creative-preview.md)
-
-* [将动态创意添加到动态显示捆绑包中，并从动态显示捆绑包中删除动态创意](creative-attach-detach-bundles.md)
-
-* [复制动态创意](creative-duplicate.md)
-
-* [删除动态创意](creative-delete.md)
+* 删除[标准创意](creative-delete.md)和[动态创意](creative-delete.md)
 
 <!-- Later:  Dynamic creatives are generated automatically when you save a catalog, but can regenerate the catalog using the contents of an updated asset file [using the Run Now option]. -->
 
@@ -225,7 +217,7 @@ ht-degree: 0%
 
 * 列出并预览捆绑包中的创意
 
-* 编辑包名称
+* 重命名捆绑包
 
 * 将标准显示创意添加到标准显示捆绑包中，并从标准显示捆绑包中删除标准显示创意
 

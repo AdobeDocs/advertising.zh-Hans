@@ -16,16 +16,50 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '354'
 ht-degree: 0%
 ---
 # 预览创意
 
 您可以在查看者看到创意时预览它，包括超链接。
 
+## 通过新的UI
+
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
+
+1. 通过以下任一方式打开库：
+
+   * 单击库名称。
+
+   * 在库名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Open]**。
+
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，单击创意名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Preview]**。
+
+   对于HTML5和灵活的HTML5创意人员，您可以在“层”、“详细信息”和“属性”选项卡之间移动以了解更多详细信息。
+
+1. （可选）要打开创意的登陆页面，请单击创意内容。
+
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
+1. （可选；可用时）要下载创意，请单击![下载](/help/creative/assets/download.png "下载")。
+
+   将按照浏览器的正常过程下载文件。
+
+1. （可选；可用时）要共享演示URL，以便未登录[!DNL Creative]的其他人可以预览创意，请执行以下操作：
+
+   1. 单击预览右上角的![共享](/help/creative/assets/share.png "共享")。
+
+   1. 在[!UICONTROL Share demo URL]对话框中，单击&#x200B;**[!UICONTROL Copy]**&#x200B;以将URL复制到剪贴板，以便与其他人共享。
+
+## 从旧版UI
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. 单击库名称。
 

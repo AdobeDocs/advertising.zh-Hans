@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '275'
 ht-degree: 0%
 ---
 # 从创意库删除创意内容
@@ -37,7 +37,31 @@ ht-degree: 0%
 >
 >如果您删除动态创意内容，并使用与创建原始创意内容相同的数据为目录生成新广告，则该创意内容会添加回目录。
 
+## 通过新的UI
+
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 执行以下任一操作：
+
+   * 单击库名称。
+
+   * 在库名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Open]**。
+
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，选择要删除的创意：
+
+   * 要删除单个创意，请单击该创意名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Delete]**。
+
+   * 要删除一个或多个创意，请选中要删除的每个创意所对应的复选框。 在批量操作工具栏中，单击![删除](/help/creative/assets/delete.png "删除") (**[!UICONTROL Delete]**)。
+
+     要选择所有行，请选中左上角的全局复选框。
+
+1. 在确认消息中，单击&#x200B;**[!UICONTROL Delete].**
+
+## 从旧版UI
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. 单击库名称。
 

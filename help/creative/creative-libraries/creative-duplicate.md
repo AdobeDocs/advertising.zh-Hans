@@ -18,20 +18,44 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '281'
 ht-degree: 0%
 ---
 # 复制创意
 
 复制创意以将具有相同设置的新创意添加到同一库。 之后，您可以重命名新创意并根据需要编辑创意设置。
 
+新创意被命名为`<original name> (copy) # 1`（或序列中的下一个编号）。 例如，如果您为“测试映像”创建两个副本，则这些副本将命名为“测试映像（副本） # 1”和“测试映像（副本） # 2”。
+
 >[!NOTE]
 >
 >在复制动态创意时，该副本将添加到与原始创意相同的目录中。
 
+## 通过新的UI
+
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 执行以下任一操作：
+
+   * 单击库名称。
+
+   * 在库名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Open]**。
+
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，选择创意：
+
+   * 要复制单个创意，请单击创意名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Duplicate]**。
+
+   * 要复制一个或多个创意，请选中要复制的每个创意所对应的复选框。 在批量操作工具栏中，单击![复制](/help/creative/assets/duplicate.png "复制") (**[!UICONTROL Duplicate]**)。
+
+     要选择所有行，请选中左上角的全局复选框。
+
+## 从旧版UI
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. 单击库名称。
 
@@ -46,8 +70,6 @@ ht-degree: 0%
    * 要复制一个或多个创意，请选中要复制的每个创意所对应的复选框。 在批量操作工具栏中，单击&#x200B;**[!UICONTROL Duplicate]**。
 
      要选择所有行，请选中左上角的全局复选框。
-
-   新创意被命名为`<original name> (copy) # 1`（或序列中的下一个编号）。 例如，如果您为“测试映像”创建两个副本，则这些副本将命名为“测试映像（副本） # 1”和“测试映像（副本） # 2”。
 
 <!--
  Add to TOC later when this feature is available to users:
