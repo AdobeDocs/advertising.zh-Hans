@@ -27,7 +27,7 @@ ht-degree: 2%
 
 <!-- add a description -->
 
-以下设置适用于使用旧版UI创建的动态广告。 如果您使用新UI或[!DNL Creative Studio]创建动态广告，请参阅“在[!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template)中管理动态创意”中的设置。[
+以下设置适用于使用旧版UI创建的动态广告。 如果您使用新UI或[!DNL Creative Studio]创建动态广告，请参阅“在[!UICONTROL Creative Studio]&#x200B;[&#128279;](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template)中管理动态创意”中的设置。
 
 ## 动态广告设置<!-- for dynamic HTML5 ads {#dynamic-ad-settings-dynamic-html5}-->
 
