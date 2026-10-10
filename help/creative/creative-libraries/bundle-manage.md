@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '2590'
 ht-degree: 0%
 ---
 # 管理创意包
@@ -44,21 +44,69 @@ ht-degree: 0%
 
 您可以将创意内容附加到多个捆绑包中。
 
+## 通过新的UI
+
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
+
+1. 通过以下任一方式打开库：
+
+   * 单击库名称。
+
+   * 在库名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Open]**。
+
+1. 执行以下任一操作：
+
+   * 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡中，单击右上角的&#x200B;**[!UICONTROL Add new]** > **[!UICONTROL Bundle]**。
+
+   * 单击&#x200B;**[!UICONTROL Bundles]**&#x200B;选项卡。 单击右上角的&#x200B;**[!UICONTROL Create bundle]**。
+
+1. 输入唯一&#x200B;**[!UICONTROL Bundle Name]**，然后选择&#x200B;**[!UICONTROL Bundle type]：** *标准显示*（对于标准显示创意）、*动态显示*（对于动态显示创意）、*标准视频*（对于标准视频创意）或&#x200B;*Dynamic Video*（对于动态视频创意）。
+
+1. 单击&#x200B;**[!UICONTROL Create]**。
+
+### 从旧版UI
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击&#x200B;**[!UICONTROL Switch to classic UI]**。
+
+1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
 
 1. 单击库名称。
 
 1. 单击&#x200B;**[!UICONTROL Bundles]**&#x200B;选项卡。
 
-1. 单击右上角的&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Bundles]** > **[!UICONTROL Bundle]**。
+1. 单击右上角的&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Bundle]**。
 
-1. 输入唯一的&#x200B;**[!UICONTROL Bundle Name]**&#x200B;和&#x200B;**[!UICONTROL Bundle Type]：** *标准显示*（对于标准显示创意）、*动态显示*（对于动态显示创意）、*标准视频*（对于标准视频创意）或&#x200B;*Dynamic Video*（对于动态视频创意）。
+1. 输入唯一的&#x200B;**[!UICONTROL Bundle Name]**，然后选择&#x200B;**[!UICONTROL Bundle Type]：** *标准显示*（对于标准显示创意）、*动态显示*（对于动态显示创意）、*标准视频*（对于标准视频创意）或&#x200B;*Dynamic Video*（对于动态视频创意）。
 
 1. 单击&#x200B;**[!UICONTROL Create]**。
 
 ## 在捆绑销售中列出创意内容
 
+### 通过新的UI
+
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
+
+1. 通过以下任一方式打开库：
+
+   * 单击库名称。
+
+   * 在库名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Open]**。
+
+1. 单击&#x200B;**[!UICONTROL Bundles]**&#x200B;选项卡。
+
+1. 单击包的名称可查看包中的所有创意。
+
+### 从旧版UI
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
 
@@ -69,6 +117,32 @@ ht-degree: 0%
 1. 单击束卡或行可查看束中的所有创意。
 
 ## 复制包
+
+新包名为`<original name> (copy) # 1`（或序列中的下一个编号）。 例如，如果您为“测试包”创建两个副本，则这些副本将分别命名为“测试包（副本） # 1”和“测试包（副本） # 2”。
+
+### 通过新的UI
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
+
+1. 通过以下任一方式打开库：
+
+   * 单击库名称。
+
+   * 在库名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Open]**。
+
+1. 单击&#x200B;**[!UICONTROL Bundles]**&#x200B;选项卡。
+
+1. 选择要复制的包：
+
+   * 要复制单个包，请单击包名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Duplicate]**。
+
+   * 要复制一个或多个包，请选中要删除的每个包的复选框。 在批量操作工具栏中，单击![复制](/help/creative/assets/duplicate.png "复制") (**[!UICONTROL Duplicate]**)。
+
+     要选择所有行，请选中左上角的全局复选框。
+
+### 从旧版UI
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
@@ -90,13 +164,39 @@ ht-degree: 0%
 
      要选择所有行，请选中左上角的全局复选框。
 
-   新包名为`<original name> (copy) # 1`（或序列中的下一个编号）。 例如，如果您为“测试包”创建两个副本，则这些副本将分别命名为“测试包（副本） # 1”和“测试包（副本） # 2”。
-
-## 编辑包名称
+## 重命名捆绑包
 
 对捆绑包名称所做的更改会传播到所有关联的体验中。
 
+### 通过新的UI
+
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
+
+1. 通过以下任一方式打开库：
+
+   * 单击库名称。
+
+   * 在库名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Open]**。
+
+1. 单击&#x200B;**[!UICONTROL Bundles]**&#x200B;选项卡。
+
+1. 在包名称旁边，单击&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Edit]**.<!-- Not "Rename" like for library objects -->
+
+1. 编辑&#x200B;**[!UICONTROL Bundle Name]**。
+
+   [!UICONTROL Bundle Name]必须是唯一的。
+
+1. 单击&#x200B;**[!UICONTROL Save]**。
+
+### 从旧版UI
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击&#x200B;**[!UICONTROL Switch to classic UI]**。
+
+1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
 
 1. 单击库名称。
 
@@ -112,7 +212,7 @@ ht-degree: 0%
 
    [!UICONTROL Bundle Name]必须是唯一的。
 
-1. 单击&#x200B;**[!UICONTROL Update]**.<!-- inconsistent with "Edit" for creative libraries and creatives -->
+1. 单击&#x200B;**[!UICONTROL Update]**。
 
 ## 将创意内容附加到捆绑包
 
@@ -124,7 +224,29 @@ ht-degree: 0%
 
 ### 将创意内容从捆绑包列表附加到捆绑包
 
+### 通过新的UI
+
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
+
+1. 通过以下任一方式打开库：
+
+   * 单击库名称。
+
+   * 在库名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Open]**。
+
+1. 单击&#x200B;**[!UICONTROL Bundles]**&#x200B;选项卡。
+
+1. 在包名称旁边，单击&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Attach creatives]**。
+
+1. 在右侧面板中，选中要附加到包的每个创意内容旁边的复选框，然后单击&#x200B;**[!UICONTROL Attach]**。
+
+### 从旧版UI
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
 
@@ -142,11 +264,33 @@ ht-degree: 0%
 
 1. （可选）通过单击![卡片视图](/help/creative/assets/card-view-button.png "卡片视图")以打开卡片视图或单击![表/列表视图](/help/creative/assets/table-view-button.png "表格视图")以返回到表视图，在默认表视图和可用捆绑包的卡片视图之间切换。
 
-1. 在右框中，选中要附加到捆绑包的每个创意内容旁边的复选框，然后单击&#x200B;**[!UICONTROL Attach Creative to Bundle]**。
+1. 在右侧面板中，选中要附加到包的每个创意内容旁边的复选框，然后单击&#x200B;**[!UICONTROL Attach Creative to Bundle]**。
 
 ### 将创意内容从捆绑包的创意列表附加到捆绑包
 
+### 通过新的UI
+
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
+
+1. 通过以下任一方式打开库：
+
+   * 单击库名称。
+
+   * 在库名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Open]**。
+
+1. 单击&#x200B;**[!UICONTROL Bundles]**&#x200B;选项卡。
+
+1. 单击包的名称可查看包中的所有创意。
+
+1. 在右侧面板中，选中要附加到包的每个创意内容旁边的复选框，然后单击&#x200B;**[!UICONTROL Attach]**。
+
+### 从旧版UI
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
 
@@ -168,7 +312,35 @@ ht-degree: 0%
 
 从捆绑包中分离创意时不会从创意库中的“创意”选项卡中删除该创意。
 
+### 通过新的UI
+
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
+
+1. 通过以下任一方式打开库：
+
+   * 单击库名称。
+
+   * 在库名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Open]**。
+
+1. 单击&#x200B;**[!UICONTROL Bundles]**&#x200B;选项卡。
+
+1. 单击包的名称可查看包中的所有创意。
+
+1. 选择要分离的包：
+
+   * 要分离单个包，请单击包名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Detach]**。
+
+   * 要分离一个或多个束，请选中要分离的每个束对应的复选框。 在批量操作工具栏中，单击![分离](/help/creative/assets/detach.png "分离") (**[!UICONTROL Detach]**)。
+
+     要选择所有行，请选中左上角的全局复选框。
+
+### 从旧版UI
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
 
@@ -194,7 +366,45 @@ ht-degree: 0%
 
 您可以在查看者看到创意时预览它，包括超链接。
 
+### 通过新的UI
+
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
+
+1. 通过以下任一方式打开库：
+
+   * 单击库名称。
+
+   * 在库名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Open]**。
+
+1. 单击&#x200B;**[!UICONTROL Bundles]**&#x200B;选项卡。
+
+1. 单击包的名称可查看包中的所有创意。
+
+1. 在包名称旁边，单击&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Preview]**。
+
+   对于HTML5和灵活的HTML5创意人员，您可以在“层”、“详细信息”和“属性”选项卡之间移动以了解更多详细信息。
+
+1. （可选）要打开创意的登陆页面，请单击创意内容。
+
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
+1. （可选；可用时）要下载创意，请单击![下载](/help/creative/assets/download.png "下载")。
+
+   将按照浏览器的正常过程下载文件。
+
+1. （可选；可用时）要共享演示URL，以便未登录[!DNL Creative]的其他人可以预览创意，请执行以下操作：
+
+   1. 单击预览右上角的![共享](/help/creative/assets/share.png "共享")。
+
+   1. 在[!UICONTROL Share demo URL]对话框中，单击&#x200B;**[!UICONTROL Copy]**&#x200B;以将URL复制到剪贴板，以便与其他人共享。
+
+### 从旧版UI
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
 
@@ -226,13 +436,47 @@ ht-degree: 0%
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
+1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
+
+1. 通过以下任一方式打开库：
+
+   * 单击库名称。
+
+   * 在库名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Open]**。
+
+1. 单击&#x200B;**[!UICONTROL Bundles]**&#x200B;选项卡。
+
+1. 在包名称旁边，单击&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Preview]**。
+
+1. （可选）要打开创意的登陆页面，请单击创意内容。
+
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
+1. （可选；可用时）要下载创意，请单击![下载](/help/creative/assets/download.png "下载")。
+
+   将按照浏览器的正常过程下载文件。
+
+1. （可选；可用时）要共享演示URL，以便未登录[!DNL Creative]的其他人可以预览创意，请执行以下操作：
+
+   1. 单击预览右上角的![共享](/help/creative/assets/share.png "共享")。
+
+   1. 在[!UICONTROL Share demo URL]对话框中，单击&#x200B;**[!UICONTROL Copy]**&#x200B;以将URL复制到剪贴板，以便与其他人共享。
+
+### 从旧版UI
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击&#x200B;**[!UICONTROL Switch to classic UI]**。
+
+1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
+
 1. 单击库名称。
 
 1. 单击&#x200B;**[!UICONTROL Bundles]**&#x200B;选项卡。
 
 1. 选择包：
 
-   * 在卡片视图中，单击包名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Preview]**。
+   * 在卡片视图中，单击&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Preview]**。
 
    * 在表视图中，将光标悬停在行上并单击&#x200B;**[!UICONTROL Preview]**。
 
@@ -248,7 +492,7 @@ ht-degree: 0%
 
 1. （可选）要共享演示URL，以便未登录[!DNL Creative]的其他人能够预览创意，请执行以下操作：
 
-   1. 单击预览右上角的![共享](/help/creative/assets/share.png "共享")。
+   1. 单击预览右上角的![共享](/help/creative/assets/share-legacy.png "共享")。
 
    1. 在[!UICONTROL Share Demo URL]对话框中，单击&#x200B;**[!UICONTROL Copy]**&#x200B;以将URL复制到剪贴板，以便与其他人共享。
 
@@ -287,7 +531,13 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 ## 查看捆绑包的更改日志
 
+*在新UI中不可用*
+
+### 从旧版UI
+
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
 
@@ -311,7 +561,35 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 您可以删除未分配给[实时](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses)体验的包。 如果将捆绑包分配给实时体验，则在继续之前[从决策树](/help/creative/experiences/experience-target-node-delete.md)中删除该捆绑包以供该体验使用。
 
+### 通过新的UI
+
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
+
+1. 通过以下任一方式打开库：
+
+   * 单击库名称。
+
+   * 在库名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Open]**。
+
+1. 单击&#x200B;**[!UICONTROL Bundles]**&#x200B;选项卡。
+
+1. 选择要删除的包：
+
+   * 要删除单个包，请单击包名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Delete]**。
+
+   * 要删除一个或多个包，请选中要删除的每个包的复选框。 在批量操作工具栏中，单击![删除](/help/creative/assets/delete.png "删除") (**[!UICONTROL Delete]**)。
+
+     要选择所有行，请选中左上角的全局复选框。
+
+1. 在确认消息中，单击&#x200B;**[!UICONTROL Delete].**
+
+### 从旧版UI
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
 

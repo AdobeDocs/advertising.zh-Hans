@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '216'
 ht-degree: 0%
 ---
 # 下载创意内容
@@ -27,7 +27,29 @@ ht-degree: 0%
 
 按照浏览器的正常操作步骤，将所有选定的创意内容以ZIP格式下载到文件中。
 
+## 通过新的UI
+
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 执行以下任一操作：
+
+   * 单击库名称。
+
+   * 在库名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Open]**。
+
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，选择创意：
+
+   * 要下载单个创意，请单击创意名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Download]**。
+
+   * 要下载一个或多个创意，请选中要下载的每个创意所对应的复选框。 在批量操作工具栏中，单击![下载](/help/creative/assets/download.png "下载") (**[!UICONTROL Download]**)。
+
+     要选择所有行，请选中左上角的全局复选框。
+
+## 从旧版UI
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. 单击库名称。
 

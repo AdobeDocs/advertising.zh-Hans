@@ -16,20 +16,46 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '494'
 ht-degree: 0%
 ---
 # 在创意库中编辑标准创意内容
 
-您可以为每种类型的标准创意编辑一些设置。 您可以编辑同一创意类型的多个创意（仅具有一个登陆页面的简单HTML5、具有多个登陆页面的静态HTML5、灵活的HTML5、图像或第三方）。
+您可以为每种类型的标准创意编辑一些设置。
 
 对于灵活的HTML5和静态的HTML5创意，您可以上传具有不同布局但属性名称集相同的新模板文件。 对于简单的HTML5创作者，您可以通过上传具有新属性或图像的新模板来编辑任何属性或添加图像。 在所有情况下，模板必须是ZIP格式的本地文件，最大为2 MB。
 
 在编辑捆绑包中包含的创意内容时，您的更改将自动应用于包含该捆绑包的所有体验，但在体验级别指定的任何自定义登陆页面和跟踪URL仍然适用于附加到该体验的捆绑包。
 
+## 通过新的UI
+
+您可以编辑单个创意内容。
+
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
+
+1. 通过以下任一方式打开库：
+
+   * 单击库名称。
+
+   * 在库名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Open]**。
+
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，单击创意名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Edit]**。
+
+1. 编辑[图像创意设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image)、[HTML5创意设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5)、[灵活的HTML5创意设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5)或[第三方创意设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)。
+
+1. 单击&#x200B;**[!UICONTROL Update Creative]**。
+
+## 从旧版UI
+
+您可以编辑同一创意类型的多个创意（仅具有一个登陆页面的简单HTML5、具有多个登陆页面的静态HTML5、灵活的HTML5、图像或第三方）。
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
 

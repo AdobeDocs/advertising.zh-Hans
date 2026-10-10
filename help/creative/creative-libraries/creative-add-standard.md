@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1538'
 ht-degree: 0%
 ---
 # 将标准创意添加到创意库
@@ -133,7 +133,67 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 >
 >您还可以[添加灵活的HTML5创意](#flexible-creative-add)，这些创意是HTML5创意，具有作为标准HTML标记的所有属性，您可以直接在[!DNL Creative]中编辑这些标记。
 
+### 通过新的UI
+
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
+
+1. 通过以下任一方式打开库：
+
+   * 单击库名称。
+
+   * 在库名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Open]**。
+
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Upload]** > **[!UICONTROL Display]**。
+
+1. 指定创意：
+
+   * 对于本地图像或HTML5资源，请执行下列任一操作：
+
+     * 将设备或网络上的文件拖放到框中。
+
+     * 单击&#x200B;**[!UICONTROL Select a file]**&#x200B;在您的设备或网络上查找文件。
+
+   * 对于连接到您的DSP帐户](/help/creative/creative-libraries/aem-assets-configure.md)的[Experience Manager库中已批准的图像，请执行以下操作：
+
+     1. 单击&#x200B;**[!UICONTROL AEM Asset Library]**。
+
+     1. （如果您尚未登录到您的Experience Manager帐户）请登录到您的Experience Manager帐户。
+
+     1. 在[!UICONTROL Assets]或[!UICONTROL Collections]视图中查找并选择文件，然后单击右上角的&#x200B;**[!UICONTROL Select]**。
+
+        <!-- If the existing asset has multiple quality options, [!DNL Creative] downloads the primary asset, or the asset with the highest resolution within some upper limit [verify what it is and how this works]. [If an asset is part of an image set, ... primary asset in the image set. -->
+
+   * 对于GenStudio体验，请执行以下操作：
+
+     1. 单击&#x200B;**[!UICONTROL GenStudio Library]**。
+
+     1. （如果您尚未登录到您的GenStudio帐户）请登录到您的GenStudio帐户。
+
+        默认情况下，会显示您的显示广告体验。 （可选）根据需要按营销活动或其他属性过滤体验。
+
+     1. 找到并选择显示广告体验，然后单击右上角的&#x200B;**[!UICONTROL Select]**。
+
+     选定体验中的每个创意变体都会作为单独的HTML5创意内容导入。
+
+1. 添加或删除创意：
+
+   * 要添加图像，请单击左上角的![添加](/help/creative/assets/create.png "添加")，然后在您的设备或网络上找到该文件。
+
+   * 要删除图像，请取消选中图像旁边的复选框。
+
+1. 指定[HTML5创意设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5)或[图像创意设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image)。
+
+   默认情况下，将选中您刚刚上传的所有创意内容或GenStudio体验，而您指定的任何设置将应用于所有选定项目。 任何只有一个值的设置都适用于所有选定项目。 要输入特定创意或GenStudio体验的设置，请取消选择每个不适用的创意或体验。
+
+1. 单击&#x200B;**[!UICONTROL Save Creative]**。
+
+### 从旧版UI
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. 单击库名称。
 
@@ -147,7 +207,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
      * 单击&#x200B;**[!UICONTROL Select a file]**&#x200B;在您的设备或网络上查找文件。
 
-   * 对于连接到您的DSP帐户[&#128279;](/help/creative/creative-libraries/aem-assets-configure.md)的Experience Manager库中已批准的图像，请执行以下操作：
+   * 对于连接到您的DSP帐户](/help/creative/creative-libraries/aem-assets-configure.md)的[Experience Manager库中已批准的图像，请执行以下操作：
 
      1. 单击&#x200B;**[!UICONTROL AEM Asset Library]**。
 
@@ -185,7 +245,33 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 [!DNL Creative]支持大多数第三方广告服务器上托管的创意内容的JavaScript跟踪标记。
 
+### 通过新的UI
+
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
+
+1. 通过以下任一方式打开库：
+
+   * 单击库名称。
+
+   * 在库名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Open]**。
+
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL Add new]** > **[!UICONTROL Upload]** > **[!UICONTROL 3rd Party]**。
+
+1. 在[第三方创意设置](#creative-settings-third-party)中指定创意的JavaScript标记和其他设置。
+
+   您可以将[可用宏](/help/creative/creative-macros.md)中的任意宏复制并粘贴到JavaScript标记中。
+
+1. 单击&#x200B;**[!UICONTROL Create]**。
+
+### 从旧版UI
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击&#x200B;**[!UICONTROL Switch to classic UI]**。
+
+1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
 
 1. 单击库名称。
 
@@ -195,13 +281,43 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    您可以将[可用宏](/help/creative/creative-macros.md)中的任意宏复制并粘贴到JavaScript标记中。
 
-1. 单击&#x200B;**[!UICONTROL Create]**
+1. 单击&#x200B;**[!UICONTROL Create]**。
 
-## 将视频创意添加到创意库
+## 将视频创意上传到创意库
 
 查看[视频创作规范](/help/creative/creative-libraries/creative-libraries-about.md#creative-video-specs)和[支持的创作大小](/help/creative/creative-libraries/creative-sizes.md)。
 
+### 通过新的UI
+
+您可以一次上传一个视频。
+
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
+
+1. 通过以下任一方式打开库：
+
+   * 单击库名称。
+
+   * 在库名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Open]**。
+
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Upload]** > **[!UICONTROL Video]**。
+
+1. 通过以下任一方式指定视频文件：
+
+   * 将文件拖放到设备或网络上的框中。
+
+   * 单击&#x200B;**[!UICONTROL Select a file]**&#x200B;在您的设备或网络上查找文件。
+
+1. 指定[视频创作设置](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video)。
+
+1. 单击&#x200B;**[!UICONTROL Save Creative]**。
+
+### 从旧版UI
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. 单击库名称。
 

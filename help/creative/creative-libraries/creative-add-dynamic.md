@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '575'
 ht-degree: 0%
 ---
 # 将动态创意添加到创意库
@@ -54,11 +54,33 @@ ht-degree: 0%
 
 ## 使用动态HTML5广告模板添加动态创意
 
+## 通过新的UI
+
+<!-- NEED TO ADD SAME INSTRUCTIONS AS FOR CREATIVE STUDIO -->
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
+
+1. 通过以下任一方式打开库：
+
+   * 单击库名称。
+
+   * 在库名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Open]**。
+
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL Add new]** > **[!UICONTROL Creative Studio]** > **[!UICONTROL Dynamic Ad]**。
+
+1. 从“在[!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template)中管理动态创意”中的[步骤2开始，在[!DNL Creative Studio]中指定动态广告设置。
+
+## 从旧版UI
+
 1. 执行以下任一操作：
 
    * 从创意库：
 
      1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+     1. 单击&#x200B;**[!UICONTROL Switch to classic UI]**。
 
      1. 单击库名称。
 

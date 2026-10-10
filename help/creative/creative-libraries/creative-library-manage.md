@@ -16,16 +16,20 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '423'
 ht-degree: 0%
 ---
 # 管理您的创意库
 
 您可以为每个广告商创建多个创意库。 您稍后可以使用[标准创意](creative-add-standard.md)、[动态创意](creative-add-dynamic.md)和[创意包](bundle-manage.md)填充每个库。
 
-## 创建创意库
+## 在新UI和旧版UI之间切换 {#library-switch-ui}
+
+* 单击右上角的&#x200B;**[!UICONTROL Switch to classic UI]**&#x200B;或&#x200B;**[!UICONTROL Switch to new UI]**。
+
+## 创建创意库 {#library-create}
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
@@ -35,9 +39,27 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Create]**。
 
-## 编辑创意库的名称
+## 重命名创意库 {#library-rename}
+
+### 通过新的UI
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
+
+1. 在库名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Rename]**。
+
+1. 编辑&#x200B;**[!UICONTROL Library Name]**。
+
+   [!UICONTROL Library Name]必须是唯一的。
+
+1. 单击&#x200B;**[!UICONTROL Save]**。
+
+### 从旧版UI
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
 
@@ -53,17 +75,51 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Edit]**。
 
-## 打开创意库
+## 打开创意库 {#library-open}
+
+### 通过新的UI
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
-1. 单击库的名称。
+1. 执行以下任一操作：
 
-## 删除创意库
+   * 单击库名称。
+
+   * 在库名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Open]**。
+
+### 从旧版UI
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击&#x200B;**[!UICONTROL Switch to classic UI]**。
+
+1. 单击库名称。
+
+## 删除创意库 {#library-delete}
 
 您可以删除包含未分配给[实时](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses)体验的创意和捆绑包的库。 对于实时目标体验，请在继续之前[从决策树](/help/creative/experiences/experience-target-node-delete.md)中删除该体验的所有创意或捆绑包。<!-- Not an option as of 3/4: > For an untargeted live experience, [remove any assigned creatives from the associated ad tag](/help/creative/experiences/experience-tag-assign-creatives.md) before you continue. -->
 
+### 通过新的UI
+
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
+
+1. 选择要删除的库：
+
+   * 要删除单个库，请单击库名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Delete]**。
+
+   * 要删除一个或多个库，请选中要删除的每个库的复选框。 在批量操作工具栏中，单击![删除](/help/creative/assets/delete.png "删除") (**[!UICONTROL Delete]**)。
+
+     要选择所有行，请选中左上角的全局复选框。
+
+1. 在确认消息中，单击&#x200B;**[!UICONTROL Delete].**
+
+### 从旧版UI
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
 

@@ -16,14 +16,62 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '546'
 ht-degree: 0%
 ---
 # 在创意库中编辑动态创意内容
 
+## 通过新的UI
+
+1. 打开创意设置：
+
+   * 从创意库：
+
+     1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+     1. 通过以下任一方式打开库：
+
+        * 单击库名称。
+
+        * 在库名称旁边，单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Open]**。
+
+     1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，单击创意名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL Edit]**。
+
+   * 从[!UICONTROL Creative Studio]：
+
+     1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]>[!UICONTROL Creative Studio]**。
+
+     1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，将光标悬停在创意卡片上并单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit]**。
+
+        此时将打开一个全屏编辑器，左侧显示广告预览，右侧显示设置面板。
+
+1. 使用&#x200B;**[!UICONTROL Details]**&#x200B;和&#x200B;**[!UICONTROL Attribute Mapping]**&#x200B;选项卡编辑创意设置：
+
+   **[!UICONTROL Details]**&#x200B;选项卡：
+
+   * **[!UICONTROL Advertiser]**、**[!UICONTROL Ad Library]**&#x200B;和&#x200B;**[!UICONTROL Ad template]**&#x200B;是只读的。
+   * **[!UICONTROL Dynamic creative name]：**&#x200B;创意内容的显示名称。
+   * **[!UICONTROL Number of cards]：**&#x200B;每个广告组合中包含的目录选件数(1-50)。
+   * （可选）在&#x200B;**[!UICONTROL Catalogs]**&#x200B;下，更新目录选择：
+     * 使用&#x200B;**[!UICONTROL Catalog template]**&#x200B;筛选可用目录。 若要选择下载模板文件，请单击&#x200B;**[!UICONTROL Download feed template]**。
+     * 搜索并从列表中选择目录，或通过将新目录文件拖到上传区域或单击&#x200B;**[!UICONTROL Browse Files]**&#x200B;来上传新目录文件（支持的格式：JPG、PNG、JPEG、XLS、XLSX、CSV、TSV、ZIP、MP4；最大25 MB；一次一个文件）。 上传的目录在芯片列表中标记为&#x200B;**（已上传）**。
+
+     所有目录必须属于同一目录模板系列。
+
+   **[!UICONTROL Attribute Mapping]**&#x200B;选项卡：
+
+   * 在&#x200B;**[!UICONTROL Targeting]**&#x200B;下，至少选择一个数据源： **[!UICONTROL Profile data]**、**[!UICONTROL Geographic data]**、**[!UICONTROL Data pass]**&#x200B;或&#x200B;**[!UICONTROL Audience Segment]**。
+   * 在&#x200B;**[!UICONTROL Attribute Mapping]**&#x200B;下，更新每个模板层名称到相应目录列标签的映射。
+
+1. 单击&#x200B;**[!UICONTROL Update Creative]**。
+
+## 从旧版UI
+
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 单击&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. 单击库名称。
 
