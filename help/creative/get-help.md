@@ -3,23 +3,25 @@ title: 获取帮助
 description: 了解如何查看在线帮助和社区资源以及如何获得技术支持。
 feature: Creative Introduction
 exl-id: 88059f73-6da3-4deb-b4ef-fa8e8eaec569
-TQID: https://experienceleague.adobe.com/3JnaHzyXhsIcBipdgJtjPWbv3LF2UGuWRJpyy4KORIU
+autotag-review: '2026-04-13T23:32:24.501Z'
+TQID: 'https://experienceleague.adobe.com/3JnaHzyXhsIcBipdgJtjPWbv3LF2UGuWRJpyy4KORIU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 subfeature_v2:
   - id: ba946348-465d-45f3-8d28-c42d0a2599c5
+    internal-label: Creative introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-autotag-review: '2026-04-13T23:32:24.501Z'
-source-git-commit: 2ec4c13497ef6b5373a36b1f75111322a3ef26d0
+    internal-label: User
+source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
 workflow-type: tm+mt
-source-wordcount: 169
+source-wordcount: '183'
 ht-degree: 0%
-
 ---
-
 # 获取帮助
 
 <!-- Can remove this page when we move this into DSP help -->

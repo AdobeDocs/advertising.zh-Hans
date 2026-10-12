@@ -1,54 +1,62 @@
 ---
-title: Configure A/B tests for Adobe Advertising Search, Social, & Commerce ads in Adobe Target
-description: Learn how to set up an A/B test in [!DNL Target] for your [!DNL Google Ads] and [!DNL Microsoft Advertising] ads in Search, Social, & Commerce.
+title: 在Adobe Target中为Adobe Advertising搜索、社交和Commerce广告配置A/B测试
+description: 了解如何在[!DNL Target]中为搜索、社交和Commerce中的[!DNL Google Ads]和[!DNL Microsoft Advertising]广告设置A/B测试。
 exl-id: 564c7d61-beec-40cf-ac68-83d1e87e3008
-TQID: https://experienceleague.adobe.com/eu1dRdsQlJX4IlHLTUDyJ69r0txFvFUdzUiXpSAlpU8
+TQID: 'https://experienceleague.adobe.com/eu1dRdsQlJX4IlHLTUDyJ69r0txFvFUdzUiXpSAlpU8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Personalization
+source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: '961'
 ht-degree: 0%
-
 ---
+# 在Adobe Target中为Advertising搜索、社交和Commerce广告配置A/B测试
 
-# Configure A/B tests in Adobe Target for Advertising Search, Social, &amp; Commerce ads
+*仅使用Advertising Search、Social和Commerce的广告商*
 
-*Advertisers with Advertising Search, Social, &amp; Commerce only*
+仅&#x200B;*[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户*
 
-*[!DNL Google Ads]and [!DNL Microsoft Advertising] accounts only*
+通过Adobe Advertising和Adobe Target，可以轻松为数字广告流量[!DNL Google Ads]和[!DNL Microsoft Advertising]设置登陆页面体验A/B测试，以便：
 
-Adobe Advertising and Adobe Target make it easy to set up landing page experience A/B tests for digital advertising traffic [!DNL Google Ads] and [!DNL Microsoft Advertising] to:
+* 提高转化率(CVR)和获取效率措施（例如CPA、CPL和CAC）。
 
-* Improve conversion rates (CVR) and acquisition efficiency measures (such as CPA, CPL, and CAC).
+* 提供与广告相关的更个性化的登陆页面体验（例如，将图像/视频创意、文案、关键字或其他广告信号匹配到登陆页面）。
 
-* Deliver a more personalized landing page experience that&#39;s relevant to the ad (for example, matching the image/video creative, copy, keyword, or other advertising signal to the landing page).
+您还可以合并已集成到Adobe Analytics中的Advertising[&#128279;](/help/integrations/analytics/overview.md)的本机[[!DNL Analytics] 和 [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)的[!DNL Analytics] 集成报表维度，以便通过[!DNL Analytics]指标和成功事件测量和可视化您的测试数据。
 
-You can also combine the native [[!DNL Analytics] for Advertising](/help/integrations/analytics/overview.md) and [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans) integration reporting dimensions that are integrated into Adobe Analytics to measure and visualize your test data with [!DNL Analytics] metrics and success events.
-
-See the following sections for the prerequisites, instructions to set up A/B tests in [!DNL Target] for click-through traffic from ads in Search, Social, &amp; Commerce, and tips on how to measure and visualize your tests in [!DNL Analytics].
+请参阅以下部分以了解先决条件、在[!DNL Target]中为来自Search、Social和Commerce中的广告的点进流量设置A/B测试的说明，以及有关如何在[!DNL Analytics]中测量和可视化测试的提示。
 
 ## 先决条件
 
-### Required products
+### 所需产品
 
-* Search, Social, &amp; Commerce
+* 搜索、社交和Commerce
 * [!DNL Target]
 
-### Recommended products and integrations
+### 推荐的产品和集成
 
 * [!DNL Analytics]
 
