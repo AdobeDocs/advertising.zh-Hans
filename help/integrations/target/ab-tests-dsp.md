@@ -77,7 +77,7 @@ Adobe Advertising和Adobe Target使得营销人员能够更轻松地通过付费
 
 在[!DNL Flashtalking]或Google Campaign Manager 360中，手动更新每个广告的点进URL，以包含捕获AMO ID变量所需的宏。 AMO ID变量用于将点击数据发送到Adobe Analytics并共享A/B测试的放置键。 有关说明，请参阅以下页面：
 
-* 将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Flashtalking] 添加标记](/help/integrations/analytics/macros-flashtalking.md)。 [**注意：**&#x200B;如果您的组织与[!DNL Flashtalking]直接合作，并且您根据[!DNL Flashtalking]支持文档（位于[https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)）使用数据传递宏跟踪`s_kwcid`和`ef_id`跟踪参数，则不需要执行此过程。
+* 将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Flashtalking] 添加标记[&#128279;](/help/integrations/analytics/macros-flashtalking.md)。 **注意：**&#x200B;如果您的组织与[!DNL Flashtalking]直接合作，并且您根据[!DNL Flashtalking]支持文档（位于[https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)）使用数据传递宏跟踪`s_kwcid`和`ef_id`跟踪参数，则不需要执行此过程。
 
 * [将 [!DNL Analytics for Advertising] 宏附加到 [!DNL Google Campaign Manager 360] 添加标记](/help/integrations/analytics/macros-google-campaign-manager.md)
 
@@ -103,7 +103,7 @@ Adobe Advertising和Adobe Target使得营销人员能够更轻松地通过付费
 
    1. 验证区段数据是否可用：
 
-      1. [搜索[键值对](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html)的信号](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html)，以确定在哪个级别对区段用户进行分组。
+      1. [&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html)搜索[键值对](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html)的信号，以确定在哪个级别对区段用户进行分组。
 
          使用一个[支持的键](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html)，该键的值对应于您添加到Audience Manager展示事件像素中的宏。
 

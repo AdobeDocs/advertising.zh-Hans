@@ -50,7 +50,7 @@ Adobe Advertising客户可以通过使用[!DNL Audience Analytics]受益。 该�
 
 * （使用Advertising DSP的广告商）添加其他风险区段，以实现全面的旅程管理洞察。
 
-  Advertising DSP可以通过实施Audience Manager或Audience Manager展示跟踪像素，将曝光数据作为可操作信号发送到Adobe Experience Platform。 将相同数据转发到[!DNL Analytics]可启用高级数据分析。 有关详细信息，请参阅“将DSP媒体曝光数据发送到Adobe Audience Manager的概述”[](/help/integrations/audience-manager/media-data-integration/overview.md)。
+  Advertising DSP可以通过实施Audience Manager或Audience Manager展示跟踪像素，将曝光数据作为可操作信号发送到Adobe Experience Platform。 将相同数据转发到[!DNL Analytics]可启用高级数据分析。 有关详细信息，请参阅“将DSP媒体曝光数据发送到Adobe Audience Manager的概述”[&#128279;](/help/integrations/audience-manager/media-data-integration/overview.md)。
 
 有关[!DNL Audience Analytics]的详细信息，包括其先决条件和工作流程，请参阅“[Audience Analytics概述](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)”。
 
