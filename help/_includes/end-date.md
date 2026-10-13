@@ -3,7 +3,6 @@ source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 0%
-
 ---
 # 某些营销活动设置和MS广告组设置中的“结束日期”字段
 
