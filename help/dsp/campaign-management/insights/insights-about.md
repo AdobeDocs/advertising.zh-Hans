@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 4d0f262a450d478903d0a182a71bb25f8a766b02
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1986'
 ht-degree: 0%
 ---
 # 关于见解
@@ -129,6 +129,52 @@ ht-degree: 0%
   **[!UICONTROL Devices/Ad Opportunities Bid On]：**&#x200B;投放位置已提交竞价的合格机会数。 此阶段的锐减可能表示预算或步调限制限制了竞价量。
 
   * **[!UICONTROL Impression Wins]：**&#x200B;投放位置赢得印象的机会数。 如果中标价格远低于投标价格，则您的投标价格可能低于目标库存的现行市场价格。
+
+### [!UICONTROL Delivery Composition]选项卡
+
+[!UICONTROL Delivery Composition]选项卡告诉您模型如何在具有不同转化可能性的用户之间投标。 使用此insight集可查看正在投放的投放位置。
+
+默认情况下，将显示特定广告商和特定投放位置的数据。 包括报表日期范围、上次更新数据的日期和下次更新报表的日期。 您可以选择配置过滤器以显示其他广告商的数据或选择不同的投放位置。
+
+这些见解包括：
+
+* **[!UICONTROL Placement Summary]：** （包中的投放位置）指示关联的包和包目标。
+
+* **[!UICONTROL Propensity Breakdown]：**&#x200B;根据与转换器匹配的用户预计的转化可能性将其分为[!UICONTROL High Propensity]、[!UICONTROL Medium Propensity]和[!UICONTROL Low Propensity]层。 对于每个组，数据包括[!UICONTROL Avg Bid]、[!UICONTROL Conversion Rate]、[!UICONTROL Share of Conversions]和[!UICONTROL Conversion Rate Lift]（组相对于引用基线的转化率）。 这些数据表明，该模型预计的用户转化可能性更高，因此会针对更多用户出价。  **注意：**&#x200B;数据基于观察到的性能，而不是证明模型导致转化递增。
+
+* **[!UICONTROL Bid Multiplier Graph]：**&#x200B;指示20个受众存储桶中每个存储桶的竞价乘数，根据用户预测的转化可能性按比例缩放支出。 分段20包含具有最高倾向的用户并接收最高的乘数。 “高”、“Medium”和“低”是这些存储段的简化分组，而不是固定受众百分比。
+
+  当乘数为1.0x时，不会对基础竞价进行调整。 1.0倍以上的乘数会产生较高的出价，1.0倍以下的乘数会产生较低的出价。
+
+### [!UICONTROL Organic Seed Profile]选项卡
+
+[!UICONTROL Organic Seed Profile]选项卡显示与转换器关联的兴趣、时间、位置和设备。 insight集使用您的Adobe Analytics有机转换器数据，与程序化竞价流中的用户匹配，这是在程序化广告机会中观察到的用户群体。 由于此insight使用现有的转换器数据而不是营销活动交付，因此，当合适的种子数据可用时，它可以支持在DSP支出之前进行规划。 在中使用它来计划包或投放位置的发布，或通知您的下一个营销活动。
+
+默认情况下，将显示特定广告商和特定资源包或投放位置的数据。 包括报表日期范围、上次更新数据的日期和下次更新报表的日期。 您可以选择配置过滤器以显示其他广告商的数据，或选择不同的包或投放位置。
+
+这些见解包括：
+
+* **[!UICONTROL Affinity Insights]：**&#x200B;显示从转化者的媒体消费中派生出的兴趣和行为特征，按转化率相对于总体群体的提升程度排名。
+
+* **[!UICONTROL Temporal Insights]：**&#x200B;显示按&#x200B;*周日*&#x200B;或&#x200B;*小时*&#x200B;汇总的转换器活动，以便您能够识别此广告商的受众何时最活跃。
+
+* **[!UICONTROL Geographic Insights]：**&#x200B;显示按&#x200B;*国家/地区*&#x200B;或&#x200B;*地区*&#x200B;汇总的转换器活动，该活动按转化率提升相对总体人口的加权进行汇总。
+
+* **[!UICONTROL Device Insights]：**&#x200B;显示按设备类型组合汇总的转换器活动，该活动按转化率提升相对于总体提升进行加权。
+
+每个insight都包含以下列：
+
+**[!UICONTROL Bid-stream Users]：**&#x200B;竞价流中属于该组的用户。
+
+**[!UICONTROL Converters]：**&#x200B;属于该组的转化者。
+
+**[!UICONTROL Precision]：**&#x200B;组中转换的用户百分比。 **注意：**&#x200B;小的非零速率可以按显示的精度舍入到0.0%。 值为0并不一定表示没有转换器；请检查[!UICONTROL Converters]计数。
+
+**[!UICONTROL Recall]：**&#x200B;属于该组的所有转化者的百分比。 **注意：**&#x200B;一个组可以有较高的转化提升，但只占转换器的很小一部分。
+
+**[!UICONTROL Bid-stream %]：**&#x200B;属于该组的竞价流用户的百分比。
+
+**[!UICONTROL Conv. Rate Lift]：**&#x200B;组相对于引用基线的转化率。 1.00x表示速率与基线相同； 1.50x表示速率提高50%； 0.50x表示速率降低50%。 **注意：**&#x200B;提升不是预测，也不是增量转化证明。
 
 ## 查看性能分析
 
