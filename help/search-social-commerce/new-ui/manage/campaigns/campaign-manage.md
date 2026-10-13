@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: 249cdc80b3f918eca64479b6cda50d6d5d157d46
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2363'
 ht-degree: 0%
 ---
 # 管理营销活动
@@ -60,6 +60,8 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 * [将标签分类分配给促销活动，并从促销活动中移除标签分类](#campaign-classifications)
 
 * [从[!UICONTROL Campaigns]视图管理数据视图报告](#campaign-reports)
+
+* [将促销活动数据与广告网络同步](#campaign-sync)
 
 ## 创建营销活动 {#campaign-create}
 
@@ -152,7 +154,7 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 
 将促销活动分配到优化的产品组合可让Search、Social和Commerce优化促销活动中关键词和广告的竞价、促销活动预算和竞价策略目标。 您可以在创建项目组合时，或编辑项目组合的设置，从[!UICONTROL Campaigns]视图将营销活动分配给项目组合。
 
-并非所有营销活动类型和广告网络都符合优化条件；请查看可包含在项目组合中的[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)列表。 此外，请验证每个营销活动竞价策略[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)的优化支持。
+并非所有营销活动类型和广告网络都符合优化条件；请查看可包含在项目组合中的[支持的营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)列表。 此外，请验证每个营销活动竞价策略](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)的[优化支持。
 
 >[!NOTE]
 >
@@ -425,6 +427,18 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 1. 在数据表上方的工具栏中，单击![下载报表](/help/search-social-commerce/assets/download.png "下载报表") **[!UICONTROL Reports]**。
 
 1. 在[!UICONTROL Grid Reports]对话框的[!UICONTROL Recently Generated]列表中，单击文件名旁边的![删除](/help/search-social-commerce/assets/delete-new.png "删除")。
+
+## 将促销活动数据与广告网络同步 {#campaign-sync}
+
+您还可以[同步帐户](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/sync-api-accounts.md)中所有促销活动的数据。
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]** > **[!UICONTROL Campaigns]**。
+
+1. 选中要同步的每个营销活动名称旁边的复选框。
+
+1. 在批量操作工具栏中，单击&#x200B;**[!UICONTROL ... More Actions]** > **[!UICONTROL Sync]**。
+
+该作业可能需要一个小时或更长时间才能完成。
 
 >[!MORELIKETHIS]
 >
