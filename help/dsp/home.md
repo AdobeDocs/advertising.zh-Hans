@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: b495d4e7b4309f8933d29489d77896645bebc538
 workflow-type: tm+mt
-source-wordcount: '7729'
+source-wordcount: '7809'
 ht-degree: 0%
 ---
 # DSP的新增功能
@@ -50,6 +50,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 10月8日 | [!UICONTROL Insights] | （仅限具有[!DNL Analytics for Advertising]的广告商）提供了来自您的Adobe Analytics转化数据的两个基于受众智能的新见解：<ul><li>[!UICONTROL Delivery Composition]向您介绍DSP用户模型如何跨具有不同转化可能性的用户进行竞价。 使用此insight可查看正在投放的投放位置。</li><li>[!UICONTROL Organic Seed Profile]显示与您的转换器关联的兴趣、时间、位置和设备。 使用此insight可计划程序包或投放位置的发布，或通知您的下一个营销活动。</li></ul> | 请参阅“[关于见解](/help/dsp/campaign-management/insights/insights-about.md)”。 |
 | 2026年8月14日 | [!UICONTROL Reports] | 新的[!UICONTROL DSP Self-Attributed Conversions]报表显示Advertising DSP对转化的贡献，包括DSP在其中发挥作用但后来又有所接触的客户历程，例如Adobe Advertising搜索点击，在其他报表中获得了最近一次点击的点数。 它对于同时使用Advertising DSP和Advertising Search、Social和Commerce的广告商最有用。 | 请参阅“[关于自定义报告](/help/dsp/reports/report-about.md)”和“[关于自定义报告的常见问题解答](/help/dsp/reports/faq-reports.md)”。 |
 | 2026年7月1日 | [!DNL Creative] | Advertising Creative中提供了以下测试版功能：<ul><li>**[!UICONTROL Creative Studio]**&#x200B;使用创作AI帮助在单个会话中跨多种格式构建、调整显示广告大小和优化显示广告。 使用自然语言聊天界面生成和修改广告内容 — 内容字段无需手动设计工作。</li><li>创建并管理反映您品牌视觉和消息传递身份的&#x200B;**[!UICONTROL brand profiles]** — 包括您的徽标、调色板、语音准则、图像标准和特定于渠道的复制准则。 在[!UICONTROL Creative Studio]中创建广告时，AI代理使用品牌配置文件信息在特定的品牌中生成内容。</li></ul> | 请参阅“[关于Creative Studio](/help/creative/creative-studio/creative-studio-about.md)”和“[管理品牌配置文件](/help/creative/brands/brand-manage.md)”。 |
 | 2026年6月23日 | [!UICONTROL Placements]，邮政编码 | 您现在可以创建各个国家/地区的邮政编码列表，以重复用作投放目标或排除项。 | 请参阅“[管理邮政编码列表](/help/dsp/resources/lists-postal-codes-manage.md)”和“[位置设置](/help/dsp/campaign-management/placements/placement-settings.md)”。 |
