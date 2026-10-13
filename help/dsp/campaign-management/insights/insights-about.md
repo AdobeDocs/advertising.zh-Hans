@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4d0f262a450d478903d0a182a71bb25f8a766b02
+source-git-commit: 5b9a22cae9ed7094affb547b3ebe1e6db732fed5
 workflow-type: tm+mt
-source-wordcount: '1986'
+source-wordcount: '2068'
 ht-degree: 0%
 ---
 # 关于见解
@@ -132,7 +132,9 @@ ht-degree: 0%
 
 ### [!UICONTROL Delivery Composition]选项卡
 
-[!UICONTROL Delivery Composition]选项卡告诉您模型如何在具有不同转化可能性的用户之间投标。 使用此insight集可查看正在投放的投放位置。
+*仅对具有[!DNL Analytics for Advertising]的广告商可用*
+
+[!UICONTROL Delivery Composition]选项卡向您介绍DSP用户模型如何根据用户转化的可能性进行投标。  分析会使用与程序化竞价流（程序化广告商机中观察到的用户群体）中匹配的Adobe Analytics有机转换器数据。  根据这些见解查看正在投放的投放位置。
 
 默认情况下，将显示特定广告商和特定投放位置的数据。 包括报表日期范围、上次更新数据的日期和下次更新报表的日期。 您可以选择配置过滤器以显示其他广告商的数据或选择不同的投放位置。
 
@@ -148,21 +150,23 @@ ht-degree: 0%
 
 ### [!UICONTROL Organic Seed Profile]选项卡
 
-[!UICONTROL Organic Seed Profile]选项卡显示与转换器关联的兴趣、时间、位置和设备。 insight集使用您的Adobe Analytics有机转换器数据，与程序化竞价流中的用户匹配，这是在程序化广告机会中观察到的用户群体。 由于此insight使用现有的转换器数据而不是营销活动交付，因此，当合适的种子数据可用时，它可以支持在DSP支出之前进行规划。 在中使用它来计划包或投放位置的发布，或通知您的下一个营销活动。
+*仅对具有[!DNL Analytics for Advertising]的广告商可用*
+
+[!UICONTROL Organic Seed Profile]选项卡使用受众智能显示与转换器关联的兴趣、时间、位置和设备。 分析会使用与程序化竞价流中的用户匹配的Adobe Analytics自然转换器数据。 由于这些见解使用现有的转换器数据而不是营销活动交付，因此当合适的种子数据可用时，它们可以支持DSP支出之前的规划。 使用这些见解来规划资源包或投放位置的发布，或通知您的下一个营销活动。
 
 默认情况下，将显示特定广告商和特定资源包或投放位置的数据。 包括报表日期范围、上次更新数据的日期和下次更新报表的日期。 您可以选择配置过滤器以显示其他广告商的数据，或选择不同的包或投放位置。
 
 这些见解包括：
 
-* **[!UICONTROL Affinity Insights]：**&#x200B;显示从转化者的媒体消费中派生出的兴趣和行为特征，按转化率相对于总体群体的提升程度排名。
+* **[!UICONTROL Affinity Insights]：**&#x200B;显示从转化者的媒体消费中派生出的兴趣和行为特征，按转化率相对于总体群体的提升程度排名。 **注意：**&#x200B;特征描述的是媒体使用行为，但未验证人口统计属性。 由于用户可以有多个特征，因此所有特征百分比可能都不是总和100%。
 
 * **[!UICONTROL Temporal Insights]：**&#x200B;显示按&#x200B;*周日*&#x200B;或&#x200B;*小时*&#x200B;汇总的转换器活动，以便您能够识别此广告商的受众何时最活跃。
 
-* **[!UICONTROL Geographic Insights]：**&#x200B;显示按&#x200B;*国家/地区*&#x200B;或&#x200B;*地区*&#x200B;汇总的转换器活动，该活动按转化率提升相对总体人口的加权进行汇总。
+* **[!UICONTROL Geographic Insights]：**&#x200B;显示按&#x200B;*国家/地区*&#x200B;或&#x200B;*地区*&#x200B;汇总的转换器活动，该活动按转化率提升相对总体人口的加权进行汇总。  **注意：**&#x200B;仅考虑与您的业务和营销活动相关的位置。
 
-* **[!UICONTROL Device Insights]：**&#x200B;显示按设备类型组合汇总的转换器活动，该活动按转化率提升相对于总体提升进行加权。
+* **[!UICONTROL Device Insights]：**&#x200B;显示按设备类型组合汇总的转换器活动，该活动按转化率提升相对于总体提升进行加权。 **注意：**&#x200B;解释营销活动上下文中的设备模式。 例如，CTV和非CTV营销活动可以具有不同的设备模式。
 
-每个insight都包含以下列：
+每个[!UICONTROL Organic Seed Profile]insight都包含以下列：
 
 **[!UICONTROL Bid-stream Users]：**&#x200B;竞价流中属于该组的用户。
 
@@ -174,7 +178,7 @@ ht-degree: 0%
 
 **[!UICONTROL Bid-stream %]：**&#x200B;属于该组的竞价流用户的百分比。
 
-**[!UICONTROL Conv. Rate Lift]：**&#x200B;组相对于引用基线的转化率。 1.00x表示速率与基线相同； 1.50x表示速率提高50%； 0.50x表示速率降低50%。 **注意：**&#x200B;提升不是预测，也不是增量转化证明。
+**[!UICONTROL Conv. Rate Lift]：**&#x200B;组相对于引用基线的转化率。 1.00x表示速率与基线相同； 1.50x表示速率提高50%； 0.50x表示速率降低50%。 **注意：**&#x200B;提升不能保证未来的性能。
 
 ## 查看性能分析
 
