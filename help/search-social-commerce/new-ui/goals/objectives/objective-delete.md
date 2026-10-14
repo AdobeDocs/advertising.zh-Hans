@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '99'
 ht-degree: 0%
 ---
 # （新UI）删除目标
@@ -34,7 +34,11 @@ ht-degree: 0%
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Goals]>[!UICONTROL Objectives]**。
 
-1. 选中目标旁边的复选框。 在数据表上方的工具栏中，单击![删除](/help/search-social-commerce/assets/delete-new.png "删除") **[!UICONTROL Delete]**。
+1. 执行以下任一操作：
+
+   * 对于单个目标，将光标悬停在目标名称上，然后单击&#x200B;**[!UICONTROL ...]>[!UICONTROL Delete]**。
+
+   * 对于一个或多个目标，选中要删除的每个目标旁边的复选框。 在批量操作工具栏中，单击![删除](/help/search-social-commerce/assets/delete-new.png "删除") **[!UICONTROL Delete]**。
 
 1. 在确认消息中，单击&#x200B;**[!UICONTROL Confirm]**。
 
@@ -45,3 +49,4 @@ ht-degree: 0%
 >* [编辑目标](objective-edit.md)
 >* [将权重推荐应用于目标](objective-apply-weight-recommendations.md)
 >* [目标设置](objective-settings.md)
+>* [导出目标配置](objective-export.md)

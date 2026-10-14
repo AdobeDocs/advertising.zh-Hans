@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '113'
 ht-degree: 0%
 ---
 # （新UI）编辑目标
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Goals]>[!UICONTROL Objectives]**。
 
-1. 选中目标旁边的复选框。 在数据表上方的工具栏中，单击![编辑](/help/search-social-commerce/assets/edit.png "编辑") **[!UICONTROL Edit]**。
+1. 将光标悬停在目标名称上，然后单击&#x200B;**[!UICONTROL ...]>[!UICONTROL Edit]**。
 
 1. 更改任何目标设置。
 
@@ -51,4 +51,5 @@ ht-degree: 0%
 >* [删除目标](objective-delete.md)
 >* [将权重推荐应用于目标](objective-apply-weight-recommendations.md)
 >* [目标设置](objective-settings.md)
+>* [导出目标配置](objective-export.md)
 >* [下载目标的性能数据](objective-download-performance-data.md)

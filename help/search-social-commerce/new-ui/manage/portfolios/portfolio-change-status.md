@@ -11,9 +11,9 @@ feature_v2:
     internal-label: Search Portfolios
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '410'
 ht-degree: 0%
 ---
 # （新UI）更改项目组合的状态
@@ -26,7 +26,11 @@ ht-degree: 0%
 
 项目组合状态的所有更改都记录在该项目组合的更改历史记录中。
 
-## 优化、激活或停用项目组合
+>[!NOTE]
+>
+>您可以使用[项目组合批量处理工作表](portfolio-bulksheets.md)更改多个项目组合的状态。
+
+## 从[!UICONTROL Portfolios]视图中优化、激活或停用项目组合
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Portfolios]**。
 
@@ -49,7 +53,7 @@ ht-degree: 0%
      >* 搜索、Social和Commerce开始优化产品组合后，请让它管理所有未来的营销活动预算和（适用时）竞价更改（适用时）。 搜索、社交和Commerce将覆盖您在广告网络内所做的任何更改。
      >* 您可以通过创建和发布营销活动批量处理工作表，临时为产品组合中的任何优化的CPC营销活动设置手动竞价。 根据已发布的数据所导致的任何竞价更改均适用于一天。 之后，Search、Social和Commerce恢复根据其自身的优化策略设置竞价。
 
-## 删除不活动的项目组合
+## 从[!UICONTROL Portfolios]视图中删除不活动的项目组合
 
 您只能删除不活动的项目组合。 如果项目组合已优化或处于活动状态，则必须先将其状态更改为非活动状态，然后才能选择删除它。
 

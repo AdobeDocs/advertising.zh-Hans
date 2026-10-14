@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '551'
 ht-degree: 0%
 ---
 # （新UI）关于目标
@@ -82,7 +82,21 @@ ht-degree: 0%
 
 ## 用于将目标上传到广告网络的选项
 
-您可以选择将[帐户组合的目标作为转化 [!DNL Google Ads] 和/或 [!DNL Microsoft Advertising] 上传](/help/search-social-commerce/tools/objective-upload-to-networks.md)，以便将其用于营销活动或广告组级别优化。 启用该选项后，Search、Social和Commerce每天都会将EF ID（点击ID）级别的加权收入数据传递到广告网络。 它忽略任何广告网络跟踪量度。
+您可以选择将[帐户组合的目标作为转化 [!DNL Google Ads] 和/或 [!DNL Microsoft Advertising] 上传](objective-upload-to-networks.md)，以便将其用于营销活动或广告组级别优化。 启用该选项后，Search、Social和Commerce每天都会将EF ID（点击ID）级别的加权收入数据传递到广告网络。 它忽略任何广告网络跟踪量度。
+
+## 可用操作
+
+* [创建目标](objective-create.md)
+
+* [编辑目标](objective-edit.md)
+
+* [将权重推荐应用于目标](objective-apply-weight-recommendations.md)
+
+* [将目标配置导出到 [!DNL Microsoft Excel] 工作表](objective-export.md)
+
+* [下载目标的性能数据](objective-download-performance-data.md)
+
+* [删除目标](objective-delete.md)
 
 >[!MORELIKETHIS]
 >
@@ -91,4 +105,5 @@ ht-degree: 0%
 >* [删除目标](objective-delete.md)
 >* [将权重推荐应用于目标](objective-apply-weight-recommendations.md)
 >* [目标设置](objective-settings.md)
+>* [导出目标配置](objective-export.md)
 >* [下载目标的性能数据](objective-download-performance-data.md)
