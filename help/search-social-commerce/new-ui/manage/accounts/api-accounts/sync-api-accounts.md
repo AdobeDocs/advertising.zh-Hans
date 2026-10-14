@@ -9,7 +9,7 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 9aa8125392f6025110113334399b0ab1e406987e
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Search、Social和Commerce每天与您的广告网络帐户自动同步（同步
 
 该作业可能需要一个小时或更长时间才能完成。
 
-## 从[!UICONTROL Campaigns]视图同步营销活动。
+## 从[!UICONTROL Campaigns]视图同步营销活动
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Campaigns]**。
 

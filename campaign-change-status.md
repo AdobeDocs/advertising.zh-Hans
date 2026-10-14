@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
     internal-label: Campaign management
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b2f949c9590a2cefa9da8a46967747c52131854b
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
