@@ -8,14 +8,14 @@ product_v2:
 feature_v2:
   - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
     internal-label: Search Alerts
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1070'
 ht-degree: 0%
 ---
 # （新UI）管理自定义警报
 
-创建警报模板，以识别在指定时间段内，任何项目组合、营销活动或广告组何时满足特定条件（例如绩效指标），然后生成警报。 警报适用于单个广告商。 警报包括相关默认视图中的所有列。 例如，营销活动级别的警报包含默认[!UICONTROL Campaigns]视图中的所有列。
+创建警报模板，以识别在指定时间段内，任何产品组合、帐户、营销活动、广告组、广告、关键字或产品组何时满足特定条件（例如绩效指标），然后生成警报。 警报适用于单个广告商。 警报包括相关默认视图中的所有列。 例如，营销活动级别的警报包含默认[!UICONTROL Campaigns]视图中的所有列。
 
 您可以从[!UICONTROL Custom Alerts]面板的[!UICONTROL Alert Templates]选项卡或任何页面顶部创建警报模板。
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
    * 单击任意页面右上角的![自定义警报](/help/search-social-commerce/assets/custom-alert.png "自定义警报") > **[!UICONTROL Create Custom Alert]**。
 
-   在任意页面的右上角，单击![自定义警报](/help/search-social-commerce/assets/custom-alert.png "自定义警报") > **[!UICONTROL View Custom Alerts]**，这将打开到[!UICONTROL Alert Templates]选项卡。 单击&#x200B;**[!UICONTROL Create Alert]**。
+   * 在任意页面的右上角，单击![自定义警报](/help/search-social-commerce/assets/custom-alert.png "自定义警报") > **[!UICONTROL View Custom Alerts]**，这将打开到[!UICONTROL Alert Templates]选项卡。 单击&#x200B;**[!UICONTROL Create Alert]**。
 
 1. 在&#x200B;**[!UICONTROL Entity]**、**[!UICONTROL Date Range]**、**[!UICONTROL Filters]**&#x200B;和&#x200B;**[!UICONTROL Scheduling and Delivery]**&#x200B;选项卡上指定[警报设置](#alert-template-settings)。
 

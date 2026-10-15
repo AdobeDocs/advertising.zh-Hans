@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
     internal-label: Search Notifications
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1724'
 ht-degree: 0%
 ---
 # （新UI）管理通知
@@ -119,7 +119,6 @@ In Campaign Management:
   * **[!UICONTROL Accuracy]**: Notifications when a portfolio's model accuracy deviates [by how much?] from expectations.
 -->
 
-
 ## 可用操作
 
 * [查看您的通知](#notification-view)
@@ -136,7 +135,7 @@ In Campaign Management:
 
 ## 查看您的通知 {#notification-view}
 
-当您[订阅了有关帐户身份验证错误、触发的自定义警报以及生成的[!UICONTROL Advertising Insights]的通知](#notification-edit)时，您可以在[!UICONTROL Notifications]面板或[!UICONTROL Notification Center]中查看您的通知。
+当您[订阅了关于帐户身份验证错误、触发的自定义警报和生成的[!UICONTROL Advertising Insights]的通知](#notification-edit)时，您可以在[!UICONTROL Notifications]面板或[!UICONTROL Notification Center]中查看您的通知。
 
 ### 在[!UICONTROL Notifications]面板中查看通知
 
@@ -218,7 +217,11 @@ In Campaign Management:
 
 1. [打开通知面板或通知中心](#notification-view)。
 
-1. 将光标悬停在警报名称上，然后单击![标记为已读或未读](/help/search-social-commerce/assets/notifications-read-unread.png "标记为已读或未读")。
+1. 执行以下任一操作：
+
+   * 对于单个通知，将光标悬停在警报名称上，然后单击![标记为已读或未读](/help/search-social-commerce/assets/notifications-read-unread.png "标记为已读或未读")。
+
+   * 要将所有通知标记为已读，请单击&#x200B;**[!UICONTROL Mark all as read]**。
 
 ## 删除通知 {#notification-delete}
 

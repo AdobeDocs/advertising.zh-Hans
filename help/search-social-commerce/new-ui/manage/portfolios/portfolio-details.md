@@ -1,5 +1,5 @@
 ---
-title: （新UI）查看查看项目组合绩效详细信息
+title: （新UI）查看项目组合绩效详细信息
 description: 了解如何查看项目组合绩效详细信息，包括项目组合级别和每个分配营销活动的实际和预测指标。
 feature: Search Portfolios, Search Optimization
 hide: true
@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '1080'
 ht-degree: 0%
 ---
 # （新UI）查看项目组合绩效详细信息
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 * 活动项目组合的模型准确度数据，它显示模型与预测的偏差程度。 此报表显示每日或滚动七天的总体成本准确度、点击准确度以及目标值准确度。
 
-  您可以按单击日期（默认值）或事务处理日期查看数据。   您还可以以趋势图（默认）或表的形式查看数据。
+  您可以按单击日期（默认值）或事务处理日期查看数据。 您还可以以趋势图（默认）或表的形式查看数据。
 
 * 目标支出与有效项目组合的实际支出。 您也可以选择包括项目组合的市场活动预算合计。
 
@@ -48,11 +48,23 @@ ht-degree: 0%
 
   您可以选择打开项目组合设置进行编辑。
 
+* 项目组合中的促销活动、广告组和关键字的列表。 对于单个关键字，您可以查看竞价单位详细信息，包括预测、历史信息和层次结构信息。
+
+  [!UICONTROL Bid Unit Details]视图包括所选竞价单位的以下预测、历史信息和层次结构信息：
+
+  * [!UICONTROL Forecast]选项卡：不同竞价下竞价单位的当前预计点击次数、成本、每次点击成本、职位和收入。 将显示所有设备和每种设备类型（[!UICONTROL Mobile]、[!UICONTROL Computer]和[!UICONTROL Tablet]）的数据。<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. -->
+
+    **注意：**&#x200B;当设备特定的数据不足以构建模型和设置设备类型的调整时，没有可用于该设备类型的预测数据。 **注意：**&#x200B;要查看特定日期范围内点击过的项目组合中每个竞价单位的成本准确度或收入准确度，请分别查看项目组合的成本准确度详细信息或收入准确度详细信息。
+
+  * [!UICONTROL History]选项卡：过去36天中的所有竞价，包括每个竞价的以下数据：日期和时间、展示次数、点击次数、总成本、平均CPC、平均位置以及按点击日期显示的加权收入。 将显示所有设备和每种设备类型（移动设备、计算机和平板电脑）的数据。<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. **Note:** Whenever the optimization method changes from v6 to v7 and vice-versa, the history data is reset the same day. -->
+
+  * [!UICONTROL Detail]选项卡：匹配类型（如果适用）以及竞价单位所属的父广告组、营销活动、广告网络帐户和项目组合。
+
 ## 打开项目组合的性能详细信息
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Portfolios]**。
 
-1. 单击项目组合名称。
+1. 将光标悬停在项目组合名称上，然后单击（/help/search-social-commerce/assets/portfolio-overview.png &quot;Portfolio概述）。
 
 1. （可选）从&#x200B;**[!UICONTROL Data Aggregation]**&#x200B;菜单中，更改每行包含的数据的时间单位： *[!UICONTROL Daily]、* *[!UICONTROL Weekly]、*&#x200B;或&#x200B;*[!UICONTROL Monthly]。*
 
@@ -114,13 +126,17 @@ ht-degree: 0%
 
 * 要查看项目组合内某个促销活动中的所有广告组，请单击&#x200B;**[!UICONTROL Campaigns]**&#x200B;选项卡，然后单击促销活动名称。
 
-## 列出项目组合中的关键词
+## 列出和查看有关项目组合中关键字的详细信息
 
-每个关键词的详细信息包括竞价单位ID、匹配类型、实际成本和预测成本、点击次数和目标值，以及成本、点击次数和目标值差异。
+每个关键词的详细信息包括竞价单位ID、匹配类型、实际成本和预测成本、点击次数和目标值，以及成本、点击次数和目标值差异。 您可以查看有关单个关键字的竞价单位详细信息。
 
-* 要查看项目组合中的所有关键字，请单击&#x200B;**[!UICONTROL Keywords]**&#x200B;选项卡。
+1. 列出关键字：
 
-* 要查看项目组合内广告组中的所有关键字，请单击&#x200B;**[!UICONTROL Ad Groups]**&#x200B;选项卡，然后单击广告组名称。
+   * 要查看项目组合中的所有关键字，请单击&#x200B;**[!UICONTROL Keywords]**&#x200B;选项卡。
+
+   * 要查看项目组合内广告组中的所有关键字，请单击&#x200B;**[!UICONTROL Ad Groups]**&#x200B;选项卡，然后单击广告组名称。
+
+1. （可选）要查看有关特定竞价单位的详细信息，请单击&#x200B;**[!UICONTROL Bid Unit ID]**&#x200B;列中的值。 单击[!UICONTROL Bid Unit Details]中的任意选项卡以了解详细信息。
 
 ## 查看和编辑项目组合设置
 

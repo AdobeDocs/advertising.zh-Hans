@@ -11,9 +11,9 @@ feature_v2:
     internal-label: Search Objectives
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '717'
 ht-degree: 0%
 ---
 # （新UI）启用将目标上传到广告网络
@@ -42,7 +42,7 @@ Search、Social和Commerce可以将广告商帐户组合的目标上传到[!DNL 
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Goals]** > **[!UICONTROL Objectives]**。
 
-1. 单击工具栏中的&#x200B;**[!UICONTROL Upload Objective]**。
+1. 单击工具栏中的&#x200B;**[!UICONTROL Objective Upload]**。
 
 1. 在[!UICONTROL Objective Upload Setup]对话框中，将&#x200B;**[!UICONTROL Enable Objective Upload]**&#x200B;切换设置为&#x200B;**[!UICONTROL On]**。
 
@@ -94,6 +94,7 @@ GGL_Lead未包含在计算/上传中，因为它是[!DNL Google Ads]跟踪的量
 >[!MORELIKETHIS]
 >
 >* [关于目标](objective-about.md)
+>* [导出目标配置](objective-export.md)
 >* [管理广告商的转化量度](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
 >* [管理 [!DNL Google Ads] 经理帐户的凭据](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 

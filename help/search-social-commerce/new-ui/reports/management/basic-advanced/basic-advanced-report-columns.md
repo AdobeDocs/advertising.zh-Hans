@@ -12,9 +12,9 @@ feature_v2:
     internal-label: Search Basic Reports
   - id: c51771d4-46e9-5151-913c-59d4e047a4f1
     internal-label: Search Advanced Reports
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '4023'
+source-wordcount: '3993'
 ht-degree: 0%
 ---
 # 基本报表和高级报表的报表列
@@ -57,7 +57,6 @@ ht-degree: 0%
 | [!UICONTROL Asset Type] | 资源的类型： *[!UICONTROL Image]*、*[!UICONTROL Text]*（如标题或描述）或&#x200B;*[!UICONTROL Video]*。 |
 | [!UICONTROL Asset Performance Label] | ([!UICONTROL Asset Report])资源的算法生成的性能标签： *[!UICONTROL Best]*、*[!UICONTROL Good]*、*[!UICONTROL Low]*&#x200B;或&#x200B;*[!UICONTROL Learning]*。 |
 | [!UICONTROL Average CPC] | 每次点击的平均成本。 |
-| [!UICONTROL Avg Position] | 指定日期范围内的广告平均位置。<br><br>对于[!DNL Google Ads]和[!DNL LY Ads]营销活动，此数据仅在2019年9月之前可用。 对于[!DNL Microsoft Advertising]，此数据仅在2021年1月22日之前可用。 |
 | [!UICONTROL Base URL] | 关键字的基本URL，包括为促销活动或帐户配置的任何附加参数。 它不包括任何搜索、社交和Commerce重定向和跟踪代码。 |
 | [!UICONTROL Bid Strategy] | （大多数广告网络）对于促销活动或促销活动组件，这是促销活动的竞价策略。 对于链接到经理帐户的广告网络帐户，这是跨帐户竞价策略。 可用值因广告网络而异。 |
 | [!UICONTROL Business Name] | （[!DNL Microsoft Advertising]个响应式广告）业务名称。 |
@@ -103,7 +102,7 @@ ht-degree: 0%
 | [!UICONTROL Currency] | 适用的货币类型（如“USD”或“GBP”）。<br><br><b>注意：</b>如果报表包含使用不同货币的帐户的数据，则任何“[!UICONTROL Total]”货币值只是列中所有数字的总和，而不考虑货币。 |
 | [!UICONTROL Current Bid] | 目标的当前出价。 |
 | [!UICONTROL Current First Page Bid] | （仅限[!DNL Google Ads]个促销活动）当[!DNL Google]搜索查询与关键字匹配时，当前在搜索结果首页投放广告所需的估计每次点击成本(CPC)竞价。<br><br>对于单个关键词和匹配类型组合，此值是该组合当前所需的第一个页面出价。 在多个营销活动中使用相同的关键字和匹配类型组合时，此值是当前所有实例中所需的最低首页出价。 |
-| [!UICONTROL Current Quality Score] | （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]个营销活动）广告网络指定的关键词或竞价单位的当前质量分数。 其范围从1（低）到10（完美）。 对于单个关键词和匹配类型组合，此值是该组合的当前分数。 当在多个营销活动中使用相同的关键字和匹配类型组合时，此值是所有实例中的最大当前分数。<br><br>广告网络使用质量分数来确定竞价和广告位置。 关键词的关联度、用户的搜索查询、登陆页面的质量等多因素共同影响该词的搜索效果。 对于[!DNL Google Ads]中的关键字，也会考虑关键字的点进率；对于[!DNL Microsoft Advertising]中的关键字，也会考虑登陆页面提供的用户体验。 |
+| [!UICONTROL Current Quality Score] | （仅限[!DNL Google Ads]和[!DNL Microsoft Advertising]个营销活动）广告网络指定的关键词或竞价单位的当前质量分数。 其范围从1（低）到10（完美）。 对于单个关键词和匹配类型组合，此值是该组合的当前分数。 当在多个营销活动中使用相同的关键字和匹配类型组合时，此值是所有实例中的最大当前分数。<br><br>广告网络使用质量得分来确定竞价和（适用时）广告位置。 关键词的关联度、用户的搜索查询、登陆页面的质量等多因素共同影响该词的搜索效果。 对于[!DNL Google Ads]中的关键字，也会考虑关键字的点进率；对于[!DNL Microsoft Advertising]中的关键字，也会考虑登陆页面提供的用户体验。 |
 | [!UICONTROL Custom Bid Level] | （仅针对显示网络的Google营销活动）发出竞价的级别：由<i>[!UICONTROL Ad Group]</i>、<i>[!UICONTROL Age]</i>、<i>[!UICONTROL Gender]</i>、<i>[!UICONTROL Interest and List]</i>、<i>[!UICONTROL Keyword]</i>、<i>[!UICONTROL Placement]</i>、<i>[!UICONTROL Vertical]</i>、<i>[!UICONTROL None]</i>或<i>[!UICONTROL Unknown]</i>发出。 |
 | [!UICONTROL Description1] - [!UICONTROL Description4] | 广告正文。 不同的创意类型具有不同的必需和可选描述行数。 要在[!DNL Microsoft Advertising]个响应式广告或多媒体广告中查看[!UICONTROL Description3]和[!UICONTROL Description4]列，请在报表设置中包含“[!UICONTROL Descriptions]”列。 |
 | [!UICONTROL Descriptions] | （[!DNL Microsoft Advertising]个响应式广告和多媒体广告）为每个广告的描述行（“[!UICONTROL Description1]”到“[!UICONTROL Description4]”）添加一列。 当包含此列时，您不需要包含其他[!UICONTROL Description]列。 |

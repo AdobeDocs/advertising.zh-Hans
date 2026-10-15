@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 249cdc80b3f918eca64479b6cda50d6d5d157d46
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '2363'
+source-wordcount: '2401'
 ht-degree: 0%
 ---
 # 管理营销活动
@@ -47,17 +47,19 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 
 * [编辑Campaign设置](#campaign-edit)
 
-* [在行中更改营销活动的状态或删除营销活动](#campaign-status)
+* [从行中更改营销活动的状态](#campaign-status)
 
 * [将营销活动分配给项目组合，并从项目组合中删除营销活动](#campaign-portfolio)
-
-* [在[!UICONTROL Campaigns]视图中查看性能图](#campaign-performance-graph)
 
 * [将竞价限制分配给活动，并取消分配活动中的限制](#campaign-constraints)
 
 * [将目标限制分配给活动，并从活动中取消分配目标限制](#campaign-target-constraints)
 
 * [将标签分类分配给促销活动，并从促销活动中移除标签分类](#campaign-classifications)
+
+* [在[!UICONTROL Campaigns]视图中查看性能图](#campaign-performance-graph)
+
+* [查看营销活动预算历史记录](#campaign-budget-history)
 
 * [从[!UICONTROL Campaigns]视图管理数据视图报告](#campaign-reports)
 
@@ -377,6 +379,14 @@ Search、Social和Commerce每小时从同步的[!DNL Google Ads]和[!DNL Microso
 ### 隐藏可见的性能图
 
 * 在数据表的上方，单击![图表](/help/search-social-commerce/assets/charts.png "图表")。
+
+## 查看营销活动预算历史记录 {#campaign-budget-history}
+
+预算历史记录会列出对市场活动预算的每项更改，包括更改的来源。
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
+
+1. 将光标悬停在促销活动名称上并单击&#x200B;**[!UICONTROL ...]>[!UICONTROL Budget Change History]**。
 
 ## 从[!UICONTROL Campaigns]视图管理数据视图报告 {#campaign-reports}
 
