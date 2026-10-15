@@ -203,4 +203,4 @@ ht-degree: 0%
 >* [在Creative Studio中管理动态创意](creative-studio-manage-dynamic-ads.md)
 >* [在Creative Studio中管理模板](creative-studio-manage-templates.md)
 >* [在Advertising Creative中管理品牌配置文件](/help/creative/brands/brand-manage.md)
->* [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-content-credentials.md)中的[C2PA元数据
+>* [!UICONTROL Creative Studio]&#x200B;[&#128279;](/help/creative/creative-studio/creative-studio-content-credentials.md)中的C2PA元数据
