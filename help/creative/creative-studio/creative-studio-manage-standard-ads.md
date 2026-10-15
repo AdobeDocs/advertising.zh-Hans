@@ -4,20 +4,19 @@ description: 了解如何在Creative Studio创意内容库中创建、编辑、�
 exl-id: 01d3cdec-80d0-494c-94dd-d9d0ae8ca53c
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 1184
+source-wordcount: '1182'
 ht-degree: 0%
-
 ---
-
 # 在[!UICONTROL Creative Studio]中管理标准广告
-
-*Beta功能*
 
 [!UICONTROL Creative Studio]中的&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡是从模板生成的标准显示广告库。 在此处，您可以使用[!UICONTROL Ad Variations Generator]创建广告、编辑保存的广告、从现有广告生成新变体、查看更改日志、复制、下载和删除。
 
@@ -204,4 +203,4 @@ ht-degree: 0%
 >* [在Creative Studio中管理动态创意](creative-studio-manage-dynamic-ads.md)
 >* [在Creative Studio中管理模板](creative-studio-manage-templates.md)
 >* [在Advertising Creative中管理品牌配置文件](/help/creative/brands/brand-manage.md)
->* [!UICONTROL Creative Studio]&#x200B;[&#128279;](/help/creative/creative-studio/creative-studio-content-credentials.md)中的C2PA元数据
+>* [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-content-credentials.md)中的[C2PA元数据

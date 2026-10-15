@@ -3,20 +3,19 @@ title: 在Creative Studio中管理资源
 description: 了解如何在Adobe Advertising Creative的Creative Studio Assets选项卡中上传、浏览和管理资源。
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 296
+source-wordcount: '294'
 ht-degree: 0%
-
 ---
-
 # 管理[!UICONTROL Creative Studio]中的资源
-
-*Beta功能*
 
 上传要在广告模板中引用的图像、视频、音频和字体资产，并在广告生成会话期间附加到AI代理聊天消息。
 

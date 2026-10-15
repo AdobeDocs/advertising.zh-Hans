@@ -3,20 +3,19 @@ title: 在Creative Studio中管理广告模板
 description: 了解如何在Adobe Advertising Creative的Creative Studio“模板”选项卡中创建、导入、组织和管理广告模板。
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 2512
+source-wordcount: '2510'
 ht-degree: 2%
-
 ---
-
 # 在[!UICONTROL Creative Studio]中管理广告模板
-
-*Beta功能*
 
 创建、导入和管理显示和视频广告模板，以便在广告生成会话中使用。
 
@@ -40,9 +39,9 @@ Probably not necessary:
 
 创建：
 
-* [导入HTML5广告模板](#templates-import)
-
 * [手动创建广告模板](#template-create)
+
+* [导入HTML5广告模板](#templates-import)
 
 对现有模板执行的操作：
 
@@ -97,6 +96,34 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 
 -->
 
+## 手动创建广告模板 {#template-create}
+
+使用模板编辑器创建空白显示或视频模板。
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative Studio].**
+
+1. 单击&#x200B;**[!UICONTROL Templates]**&#x200B;选项卡。
+
+1. 在&#x200B;**[!UICONTROL Create New Ad Template]**&#x200B;框中，单击&#x200B;**[!UICONTROL Create]**，然后选择&#x200B;**[!UICONTROL Display Ad Template]**&#x200B;或&#x200B;**[!UICONTROL Video Ad Template]**。
+
+1. （显示广告）选择广告模板大小，然后单击&#x200B;**[!UICONTROL Continue]**。
+
+1. 使用模板编辑器](#template-controls)中的[控件配置模板设置。
+
+1. （可选）要下载所定义的模板副本，请单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download]**。
+
+   将按照浏览器的正常过程下载文件。
+
+1. 保存模板：
+
+   1. 执行以下任一操作：
+
+      * 单击&#x200B;**[!UICONTROL Save]**。
+
+      * 要将模板另存为草稿，请单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Save as Draft]**。
+
+   1. 输入&#x200B;**[!UICONTROL Template name]**，选择&#x200B;**[!UICONTROL Advertiser]**，或者选择现有标记或向模板中添加新标记，然后单击&#x200B;**[!UICONTROL Save]**。
+
 ## 导入HTML5广告模板 {#templates-import}
 
 上传一个或多个打包为ZIP文件的预建HTML5模板。 导入时会验证模板；如果HTML超过200,000个字符，CSS超过60,000个字符，模板包含超过5,000个DOM元素，或者模板包含不支持的脚本标记，则导入失败。
@@ -129,34 +156,6 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 >
 >如果导入失败，请简化模板或联系您的Adobe客户团队。
 
-## 手动创建广告模板 {#template-create}
-
-使用模板编辑器创建空白显示或视频模板。
-
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative Studio].**
-
-1. 单击&#x200B;**[!UICONTROL Templates]**&#x200B;选项卡。
-
-1. 在&#x200B;**[!UICONTROL Create New Ad Template]**&#x200B;框中，单击&#x200B;**[!UICONTROL Create]**，然后选择&#x200B;**[!UICONTROL Display Ad Template]**&#x200B;或&#x200B;**[!UICONTROL Video Ad Template]**。
-
-1. （显示广告）选择广告模板大小，然后单击&#x200B;**[!UICONTROL Continue]**。
-
-1. 使用模板编辑器[&#128279;](#template-controls)中的控件配置模板设置。
-
-1. （可选）要下载所定义的模板副本，请单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download]**。
-
-   将按照浏览器的正常过程下载文件。
-
-1. 保存模板：
-
-   1. 执行以下任一操作：
-
-      * 单击&#x200B;**[!UICONTROL Save]**。
-
-      * 要将模板另存为草稿，请单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Save as Draft]**。
-
-   1. 输入&#x200B;**[!UICONTROL Template name]**，选择&#x200B;**[!UICONTROL Advertiser]**，或者选择现有标记或向模板中添加新标记，然后单击&#x200B;**[!UICONTROL Save]**。
-
 ## 编辑广告模板 {#template-edit}
 
 *仅显示广告模板。*
@@ -171,7 +170,7 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 
 1. 将光标悬停在模板卡或表格行上，然后单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Template]**。
 
-1. 在模板编辑器[&#128279;](#template-controls)中使用控件编辑模板布局或元素。
+1. 在模板编辑器](#template-controls)中使用[控件编辑模板布局或元素。
 
 1. （可选）要下载所定义的模板副本，请单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download]**。
 
