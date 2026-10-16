@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: 8569a5238e934d3170ac021ffff6a3e1fa31eaa1
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1923'
 ht-degree: 0%
 ---
 # [!DNL Creative] 2.0的新增功能
@@ -35,6 +35,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年10月15日 | [!DNL Creative Studio] | （Beta功能）您现在可以在[!UICONTROL Creative Studio]中生成使用人工智能，以将现有的静态显示广告图像转换为可编辑的显示广告模板。 | 请参阅“[在[!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-templates.md)中管理广告模板”。 |
 | 2026年7月1日 | [!DNL Creative Studio], [!DNL Brands] | 提供了以下Beta版功能：<ul><li>**[!UICONTROL Creative Studio]**&#x200B;使用创作AI帮助在单个会话中跨多种格式构建、调整显示广告大小和优化显示广告。 使用自然语言聊天界面生成和修改广告内容 — 内容字段无需手动设计工作。</li><li>创建并管理反映您品牌视觉和消息传递身份的&#x200B;**[!UICONTROL brand profiles]** — 包括您的徽标、调色板、语音准则、图像标准和特定于渠道的复制准则。 在[!UICONTROL Creative Studio]中创建广告时，AI代理使用品牌配置文件信息在特定的品牌中生成内容。</li></ul> | 请参阅“[关于Creative Studio](/help/creative/creative-studio/creative-studio-about.md)”和“[管理品牌配置文件](/help/creative/brands/brand-manage.md)”。 |
 | 2026年6月3日 | [!DNL Adobe Analytics for Advertising] | 具有Advertising Creative和[!DNL Adobe Analytics for Advertising]的广告商现在可以在Adobe Analytics中查看变体和分支级别的数据。 无论使用哪个DSP从[!DNL Creative]体验中运行广告，都会显示数据。 如果您通过Advertising DSP投放位置运行广告，则还将看到促销活动和投放级别的数据以及与成本相关的量度。<br><br>无需其他设置。 | 查看[!DNL Analytics]中显示的Advertising Creative [流量指标](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/metrics/amo-metrics)和[分类](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#classifications)。 |
 | 2025年2月25日 | 针对[!DNL experiences]的Creative优化和计划 | 改进包括：<ul><li>对于具有决策树定位的体验，您现在可以在同一屏幕中的各个选项卡上分配创意捆绑包并配置创意优化和计划。</li><li>广告计划现在包括开始时间和结束时间。 默认情况下，调度从凌晨12:00开始，到晚上11:59结束。</li><li>[!UICONTROL Weighted]旋转选项包含一个按钮（![应用等权重](/help/creative/assets/apply-equal-weight.png "应用等权重")），以将等权重应用于所有指定的包。</li></ul> | 查看有关具有定位[&#128279;](/help/creative/experiences/experience-optimization-scheduling-targeting.md)的[体验和不具有定位](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)的体验的说明。 |

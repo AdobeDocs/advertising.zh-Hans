@@ -3,20 +3,19 @@ title: 在Creative Studio中管理动态创意人员
 description: 了解如何在Adobe Advertising Creative Studio中构建、编辑、复制和删除目录驱动型动态创意。
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 1044
+source-wordcount: '1042'
 ht-degree: 0%
-
 ---
-
 # 在[!UICONTROL Creative Studio]中管理动态创意
-
-*Beta功能*
 
 [!UICONTROL Creative Studio]中的&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡按库列出了您的动态创意。 在此页面中，您可以构建新的目录驱动型动态创意，编辑现有创意的详细信息和属性映射，查看更改日志、复制创意以及删除创意。
 
@@ -96,26 +95,26 @@ ht-degree: 0%
 
       * 要编辑广告组合，请执行以下操作：
 
-         1. 将光标悬停在目录行上并单击&#x200B;**[!UICONTROL Edit]**。
+        1. 将光标悬停在目录行上并单击&#x200B;**[!UICONTROL Edit]**。
 
-         1. 在&#x200B;**[!UICONTROL Edit Row]**&#x200B;对话框中，更新字段值。
+        1. 在&#x200B;**[!UICONTROL Edit Row]**&#x200B;对话框中，更新字段值。
 
-         1. 单击&#x200B;**[!UICONTROL Save]**。
+        1. 单击&#x200B;**[!UICONTROL Save]**。
 
         画布将刷新，以反映更新的值。
 
       * 使用&#x200B;**[!UICONTROL AI Assistant]**&#x200B;聊天面板来分析和筛选目录组合。 在&#x200B;**[!UICONTROL Ask anything]**&#x200B;字段中键入您的请求，或单击建议的提示之一：
 
-         * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
-         * **[!UICONTROL Show me side-by-side comparisons of A/B testing creatives]**
-         * **[!UICONTROL Show me all ads for millennial women in urban markets]**
+        * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
+        * **[!UICONTROL Show me side-by-side comparisons of A/B testing creatives]**
+        * **[!UICONTROL Show me all ads for millennial women in urban markets]**
 
         AI代理可以：
 
-         * 筛选画布以显示与特定受众区段、地理位置、语言、类别或其他目录字段匹配的广告。
-         * 检查质量问题，如字符限制溢出、内容溢出或出血、图像链接断开和免责声明可见性。
-         * 比较A/B测试分析的广告组合
-         * 将广告整理到不同的组中，以便进行并排审查。
+        * 筛选画布以显示与特定受众区段、地理位置、语言、类别或其他目录字段匹配的广告。
+        * 检查质量问题，如字符限制溢出、内容溢出或出血、图像链接断开和免责声明可见性。
+        * 比较A/B测试分析的广告组合
+        * 将广告整理到不同的组中，以便进行并排审查。
 
         AI代理无法修改目录源内容。 要更改广告内容，请更新源目录。
 
@@ -139,8 +138,8 @@ ht-degree: 0%
    * **[!UICONTROL Dynamic creative name]：**&#x200B;创意内容的显示名称。
    * **[!UICONTROL Number of cards]：**&#x200B;每个广告组合中包含的目录选件数(1-50)。
    * （可选）在&#x200B;**[!UICONTROL Catalogs]**&#x200B;下，更新目录选择：
-      * 使用&#x200B;**[!UICONTROL Catalog template]**&#x200B;筛选可用目录。 若要选择下载模板文件，请单击&#x200B;**[!UICONTROL Download feed template]**。
-      * 搜索并从列表中选择目录，或通过将新目录文件拖到上传区域或单击&#x200B;**[!UICONTROL Browse Files]**&#x200B;来上传新目录文件（支持的格式：JPG、PNG、JPEG、XLS、XLSX、CSV、TSV、ZIP、MP4；最大25 MB；一次一个文件）。 上传的目录在芯片列表中标记为&#x200B;**（已上传）**。
+     * 使用&#x200B;**[!UICONTROL Catalog template]**&#x200B;筛选可用目录。 若要选择下载模板文件，请单击&#x200B;**[!UICONTROL Download feed template]**。
+     * 搜索并从列表中选择目录，或通过将新目录文件拖到上传区域或单击&#x200B;**[!UICONTROL Browse Files]**&#x200B;来上传新目录文件（支持的格式：JPG、PNG、JPEG、XLS、XLSX、CSV、TSV、ZIP、MP4；最大25 MB；一次一个文件）。 上传的目录在芯片列表中标记为&#x200B;**（已上传）**。
 
      所有目录必须属于同一目录模板系列。
 
