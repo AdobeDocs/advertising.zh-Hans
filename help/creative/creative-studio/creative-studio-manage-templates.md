@@ -10,9 +10,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8fa8d6c66228d3a0af1de2514dd016d8f50262e8
+source-git-commit: fcd97d29c5009d22100283970892d258043b2d90
 workflow-type: tm+mt
-source-wordcount: '3702'
+source-wordcount: '3697'
 ht-degree: 1%
 ---
 # 在[!UICONTROL Creative Studio]中管理广告模板
@@ -202,7 +202,7 @@ Switch to this when prompt-based generation becomes available:
 
 然后，您可以使用该模板[生成广告变体](#ad-variations-generate)。
 
-### 如果您无法生成模板 {#troubleshooting}
+### 故障排除 {#troubleshooting}
 
 | 问题 | 要做什么 |
 | --- | --- |
@@ -229,7 +229,7 @@ Add when prompt-based generation is available:
 
 1. （显示广告）选择广告模板大小，然后单击&#x200B;**[!UICONTROL Continue]**。
 
-1. 使用模板编辑器[&#128279;](#template-controls)中的控件配置模板设置。
+1. 使用模板编辑器](#template-controls)中的[控件配置模板设置。
 
 1. （可选）要下载所定义的模板副本，请单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download]**。
 
@@ -291,7 +291,7 @@ Add when prompt-based generation is available:
 
 1. 将光标悬停在模板卡或表格行上，然后单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Template]**。
 
-1. 在模板编辑器[&#128279;](#template-controls)中使用控件编辑模板布局或元素。
+1. 在模板编辑器](#template-controls)中使用[控件编辑模板布局或元素。
 
 1. （可选）要下载所定义的模板副本，请单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download]**。
 
