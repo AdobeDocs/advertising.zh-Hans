@@ -229,7 +229,7 @@ Add when prompt-based generation is available:
 
 1. （显示广告）选择广告模板大小，然后单击&#x200B;**[!UICONTROL Continue]**。
 
-1. 使用模板编辑器](#template-controls)中的[控件配置模板设置。
+1. 使用模板编辑器[&#128279;](#template-controls)中的控件配置模板设置。
 
 1. （可选）要下载所定义的模板副本，请单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download]**。
 
@@ -291,7 +291,7 @@ Add when prompt-based generation is available:
 
 1. 将光标悬停在模板卡或表格行上，然后单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Template]**。
 
-1. 在模板编辑器](#template-controls)中使用[控件编辑模板布局或元素。
+1. 在模板编辑器[&#128279;](#template-controls)中使用控件编辑模板布局或元素。
 
 1. （可选）要下载所定义的模板副本，请单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download]**。
 
