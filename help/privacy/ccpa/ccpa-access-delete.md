@@ -49,7 +49,7 @@ ht-degree: 0%
 
 有关Advertising DSP如何支持消费者选择退出销售个人信息的权利的信息，请参阅[Adobe Advertising对《加州消费者隐私法案》的支持：消费者选择退出销售支持](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)。
 
-有关适用于CCPA的Adobe隐私服务的更多信息，请参阅[Adobe隐私中心](https://www.adobe.com/privacy/ccpa.html)。
+有关适用于CCPA的Adobe隐私服务的更多信息，请参阅[Adobe隐私中心](https://www.adobe.com/cn/privacy/ccpa.html)。
 
 ## Adobe Advertising支持的数据请求类型
 
@@ -75,7 +75,7 @@ Adobe Experience Platform使企业能够完成以下任务：
 
    >[!NOTE]
    >
-   >删除个人数据与选择退出不同，后者会停止使用受众区段定位最终用户。 但是，当使用者请求从[!DNL Creative]、[!DNL DSP]或[!DNL DCO]中删除个人数据时，库还会向Adobe Advertising发送请求，以选择退出客户区段定位。 对于具有[!DNL Search, Social, & Commerce]的广告商，我们建议您向客户提供指向[https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse)的链接，其中介绍了如何选择退出受众区段定位。
+   >删除个人数据与选择退出不同，后者会停止使用受众区段定位最终用户。 但是，当使用者请求从[!DNL Creative]、[!DNL DSP]或[!DNL DCO]中删除个人数据时，库还会向Adobe Advertising发送请求，以选择退出客户区段定位。 对于具有[!DNL Search, Social, & Commerce]的广告商，我们建议您向客户提供指向[https://www.adobe.com/cn/privacy/opt-out.html#customeruse](https://www.adobe.com/cn/privacy/opt-out.html#customeruse)的链接，其中介绍了如何选择退出受众区段定位。
 
 1. 识别您的CX Enterprise组织ID，并确保它已关联到您的Adobe Advertising帐户。
 
