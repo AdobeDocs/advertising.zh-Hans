@@ -49,7 +49,7 @@ ht-degree: 0%
 
 有关[!DNL Advertising Search, Social, & Commerce]、Advertising Creative和[!DNL Advertising DCO]如何支持消费者的个人信息访问和删除权利的信息，请参阅[Adobe Advertising对《加州消费者隐私法案》的支持：消费者数据访问和删除支持](/help/privacy/ccpa/ccpa-access-delete.md)。
 
-有关适用于CCPA的Adobe隐私服务的更多信息，请参阅[Adobe隐私中心](https://www.adobe.com/privacy/ccpa.html)。
+有关适用于CCPA的Adobe隐私服务的更多信息，请参阅[Adobe隐私中心](https://www.adobe.com/cn/privacy/ccpa.html)。
 
 ## 将消费者选择退出销售的请求传达给Adobe Advertising
 

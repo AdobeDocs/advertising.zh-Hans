@@ -45,7 +45,7 @@ Adobe CX Enterprise充当数据处理者，可处理其代表客户接收并存�
 
 本文档介绍了[!DNL Advertising Search, Social, & Commerce]、Advertising Creative、Advertising DSP (Demand Side Platform)和[!DNL Advertising DCO]如何使用Adobe Experience Platform Privacy Service API和Privacy Service UI支持数据主体的GDPR数据访问和删除权限。
 
-有关GDPR对您业务的意义的更多信息，请参阅[GDPR与您的业务](https://www.adobe.com/privacy/general-data-protection-regulation.html)。
+有关GDPR对您业务的意义的更多信息，请参阅[GDPR与您的业务](https://www.adobe.com/cn/privacy/general-data-protection-regulation.html)。
 
 ## Adobe Advertising支持的数据请求类型
 
@@ -71,7 +71,7 @@ Adobe Experience Platform使企业能够完成以下任务：
 
    >[!NOTE]
    >
-   >删除个人数据与选择退出不同，后者会停止使用受众区段定位最终用户。 但是，当数据主体请求从[!DNL Creative]、[!DNL DSP]或[!DNL DCO]中删除个人数据时，库还会向Adobe Advertising发送请求，以将该数据主体从区段定位中退出。 对于具有[!DNL Search, Social, & Commerce]的广告商，我们建议您向数据主体提供指向[https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html)的链接，其中介绍了如何选择退出受众区段定位。
+   >删除个人数据与选择退出不同，后者会停止使用受众区段定位最终用户。 但是，当数据主体请求从[!DNL Creative]、[!DNL DSP]或[!DNL DCO]中删除个人数据时，库还会向Adobe Advertising发送请求，以将该数据主体从区段定位中退出。 对于具有[!DNL Search, Social, & Commerce]的广告商，我们建议您向数据主体提供指向[https://www.adobe.com/cn/privacy/opt-out.html](https://www.adobe.com/cn/privacy/opt-out.html)的链接，其中介绍了如何选择退出受众区段定位。
 
 1. 识别您的CX Enterprise组织ID，并确保它已关联到您的Adobe Advertising帐户。
 

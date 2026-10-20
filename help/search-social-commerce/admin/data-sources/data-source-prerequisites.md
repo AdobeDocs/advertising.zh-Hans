@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 前提条件1：在所有适用的广告帐户的登陆页面URL中实施搜索、社交和Commerce令牌（“ef_id”查询字符串参数）
 
-在相关营销活动的每次付费搜索单击中，必须生成唯一的`ef_id`并将其作为查询字符串附加到登陆页面URL中，例如`https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s`，其中`&ef_id=abcde:123456789:s`是附加符号、`ef_id`键和`ef_id`值。 要包含ef_id，相关广告网络帐户和营销活动必须具有[!UICONTROL Tracking Type]“[!UICONTROL EF Redirect]”和[!UICONTROL Redirect Type]“[!UICONTROL Token]”。
+在相关营销活动的每次付费搜索单击中，必须生成唯一的`ef_id`并将其作为查询字符串附加到登陆页面URL中，例如`https://www.adobe.com/cn?someParam=123&ef_id=abcde:123456789:s`，其中`&ef_id=abcde:123456789:s`是附加符号、`ef_id`键和`ef_id`值。 要包含ef_id，相关广告网络帐户和营销活动必须具有[!UICONTROL Tracking Type]“[!UICONTROL EF Redirect]”和[!UICONTROL Redirect Type]“[!UICONTROL Token]”。
 
 对于现有帐户和营销活动，可能已实施ef_id。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
    >
    >ef_id应仅位于登陆页面URL中。
 
-   例如，如果登陆页面URL为`https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s&anotherParam=asdf`，则[!DNL Google Analytics]中ef_id维度的值为`abcde:123456789:s`。
+   例如，如果登陆页面URL为`https://www.adobe.com/cn?someParam=123&ef_id=abcde:123456789:s&anotherParam=asdf`，则[!DNL Google Analytics]中ef_id维度的值为`abcde:123456789:s`。
 
    >[!NOTE]
    >
