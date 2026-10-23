@@ -1,9 +1,8 @@
 ---
 source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '239'
 ht-degree: 0%
-
 ---
 # 文本广告模板 — 标签分类
 
@@ -17,15 +16,15 @@ ht-degree: 0%
 
    * 对于要分配给组件的每个标签分类和值，请执行以下操作：
 
-      1. 单击&#x200B;**[!UICONTROL Add Label Classification]**。
+     1. 单击&#x200B;**[!UICONTROL Add Label Classification]**。
 
-      1. 选择现有标签分类，然后选择现有值或输入新值。
+     1. 选择现有标签分类，然后选择现有值或输入新值。
 
-         每个值的最大长度为100个字符，可包含ASCII和非ASCII字符。
+        每个值的最大长度为100个字符，可包含ASCII和非ASCII字符。
 
-         要插入列名作为标签分类值的动态参数，请在输入字段（第二个字段）中单击，然后单击列列表中的列名。
+        要插入列名作为标签分类值的动态参数，请在输入字段（第二个字段）中单击，然后单击列列表中的列名。
 
-         每个活动组件的每个分类只能包含一个值。 例如，促销活动可以为Color=Red，但不能为Color=Red和Color=Blue。
+        每个活动组件的每个分类只能包含一个值。 例如，促销活动可以为Color=Red，但不能为Color=Red和Color=Blue。
 
    * 要更改现有标签分类值，请选择或输入新值。
 
