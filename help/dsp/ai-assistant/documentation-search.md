@@ -14,18 +14,18 @@ feature_v2:
 subfeature_v2:
   - id: ba946348-465d-45f3-8d28-c42d0a2599c5
     internal-label: Creative introduction
-source-git-commit: 8bab50fe8bf737d208d059d89b2592e16bc40c69
+source-git-commit: c6ab712d47cafc8e9590a212253949a053b7c476
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '471'
 ht-degree: 0%
 ---
 # 使用AI助手搜索产品文档
 
 *仅支持英语*
 
-使用适用于DSP的AI Assistant通过聊天界面在[Advertising DSP指南](/help/dsp/home.md)和（使用Advertising Creative的广告商）[Advertising Creative指南](/help/creative/home.md)中搜索概念和操作方法内容。 答案仅基于[Experience League](https://experienceleague.adobe.com/zh-hans/docs/advertising)中针对这些产品记录的内容。
+使用适用于DSP的AI Assistant通过聊天界面在[Advertising DSP指南](/help/dsp/home.md)和（使用Advertising Creative的广告商）[Advertising Creative指南](/help/creative/home.md)中搜索概念和操作方法内容。 答案仅基于[Experience League](https://experienceleague.adobe.com/en/docs/advertising)中针对这些产品记录的内容。
 
-回复包括引文以及其他查询和跟进问题，可帮助您优化查询并查找更多信息。
+您可以询问有关营销活动管理、优化、受众管理、交易、报告和其他产品功能的信息。 回复包括引文以及其他查询和跟进问题，可帮助您优化查询并查找更多信息。
 
 ![查询和响应的示例](/help/dsp/assets/agent-chat-response.png "查询和响应的示例")
 
@@ -34,8 +34,6 @@ ht-degree: 0%
 >AI生成的响应可能不准确或具有误导性。 在将响应和来源用于影响成本或工作量的决策之前，请务必对其进行验证。
 
 ## 示例查询
-
-您可以询问有关营销活动管理、优化、受众管理、交易、报告和其他产品功能的信息。 以下是示例：
 
 * 如何将广告附加到投放位置？
 
