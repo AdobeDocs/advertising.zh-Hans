@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: ba946348-465d-45f3-8d28-c42d0a2599c5
     internal-label: Creative introduction
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: a461e1f9377bdb5db07dcb38cd5a1cf8fea510aa
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '472'
 ht-degree: 0%
 ---
 # 使用人工智能辅助的聊天界面搜索产品文档
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-使用AI聊天界面在[Advertising DSP指南](/help/dsp/home.md)和（使用Advertising Creative的广告商）[Advertising Creative指南](/help/creative/home.md)中搜索概念和操作方法内容。 答案仅基于[Experience League](https://experienceleague.adobe.com/zh-hans/docs/advertising)中针对这些产品记录的内容。
+使用AI聊天界面在[Advertising DSP指南](/help/dsp/home.md)和（使用Advertising Creative的广告商）[Advertising Creative指南](/help/creative/home.md)中搜索概念和操作方法内容。 答案仅基于[Experience League](https://experienceleague.adobe.com/en/docs/advertising)中针对这些产品记录的内容。
 
 响应包括引文以及其他提示和跟进问题，可帮助您优化查询并查找更多信息。 您的聊天历史记录会在整个会话中进行维护，并且您的查询不会与其他用户共享。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 1. 单击任意页面右上角的![代理聊天](/help/dsp/assets/agent-chat.png "代理聊天")。
 
-1. 输入查询并单击![提交提示](/help/dsp/assets/submit-prompt.png "提交提示")。
+1. 输入您的查询，然后单击![提交提示](/help/dsp/assets/submit-prompt.png "提交提示")或按键盘上的&#x200B;**Enter**&#x200B;键。
 
    有关详细信息，请参阅“[正在写入提示](#writing-prompts)”。
 
@@ -75,15 +75,19 @@ ht-degree: 0%
 
    * 单击&#x200B;**[!UICONTROL Documentation Sources]**&#x200B;以显示响应中引用的所有页面的列表，然后单击页面链接。
 
-## 提供关于响应的反馈
+<!-- 
 
-<!-- Not actionable in terms of improving page content -->
+Not there as of 10/22/26. Anyway, this feature isn't actionable in terms of improving page content.
 
-* 在[!UICONTROL Documentation Sources]列表旁边：
+## Provide feedback about a response
 
-  * 若要获得有用的响应，请单击![向上缩略图](/help/dsp/assets/thumbs-up.png "向上缩略图")。
+* Next to the [!UICONTROL Documentation Sources] list:
 
-  * 对于无帮助的响应，请单击![向下缩略图](/help/dsp/assets/thumbs-down.png "向下缩略图")。
+  * For helpful responses, click ![Thumbs up](/help/dsp/assets/thumbs-up.png "Thumbs up").
+
+  * For unhelpful responses, click ![Thumbs down](/help/dsp/assets/thumbs-down.png "Thumbs down").
+
+ -->
 
 ## 编写提示的基础知识 {#writing-prompts}
 
