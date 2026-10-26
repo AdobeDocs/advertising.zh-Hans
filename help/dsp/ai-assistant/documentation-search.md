@@ -23,7 +23,7 @@ ht-degree: 0%
 
 *仅支持英语*
 
-使用适用于DSP的AI Assistant通过聊天界面在[Advertising DSP指南](/help/dsp/home.md)和（使用Advertising Creative的广告商）[Advertising Creative指南](/help/creative/home.md)中搜索概念和操作方法内容。 答案仅基于[Experience League](https://experienceleague.adobe.com/en/docs/advertising)中针对这些产品记录的内容。
+使用适用于DSP的AI Assistant通过聊天界面在[Advertising DSP指南](/help/dsp/home.md)和（使用Advertising Creative的广告商）[Advertising Creative指南](/help/creative/home.md)中搜索概念和操作方法内容。 答案仅基于[Experience League](https://experienceleague.adobe.com/zh-hans/docs/advertising)中针对这些产品记录的内容。
 
 回复包括引文以及其他查询和跟进问题，可帮助您优化查询并查找更多信息。
 
