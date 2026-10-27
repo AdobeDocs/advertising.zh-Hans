@@ -32,7 +32,7 @@ ht-degree: 0%
 
 <!-- Rename file and set up a redirect -->
 
-另请参阅“使用AI助手](/help/dsp/ai-assistant/troubleshooting-agent.md)排查性能和交付问题[”。
+另请参阅“使用AI助手[&#128279;](/help/dsp/ai-assistant/troubleshooting-agent.md)排查性能和交付问题”。
 
 | 问题 | 可能的原因 | 要采取的操作 |
 | --- | --- | --- |
