@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3d982df6837633d7e21b7acb85e8d7fd2c3e1655
 workflow-type: tm+mt
-source-wordcount: '3058'
+source-wordcount: '3216'
 ht-degree: 0%
 ---
 # [!DNL Google Ads]营销活动设置
@@ -239,13 +239,21 @@ ht-degree: 0%
 
 * **[!UICONTROL Final URL expansion]：**&#x200B;是否让[!DNL Google Ads]根据搜索意图，将流量路由到网站上最相关的登陆页面。 此设置仅在启用&#x200B;**[!UICONTROL Text customization]**&#x200B;时可用。
 
-<!-- Clarify why this is "Unspecified" and read-only for me as of 7/23. Also, shouldn't we reword this? -->
+  >[!NOTE]
+  >
+  >（包含固定资产的响应式搜索广告）启用此设置后，当最终URL路由到固定副本与用户意图不匹配的登陆页面时，[!DNL Google Ads]不会使用固定资产。 若要始终使用固定资产，请禁用[!UICONTROL Final URL expansion]并且不指定广告组级别[!UICONTROL URL inclusions]。
 
 **[!UICONTROL Bundling required]：** （仅启用[!UICONTROL AI Max]功能的现有营销活动；只读）是否必须启用[!UICONTROL AI Max]才能遵循或修改营销活动的文本自定义和品牌列表控件： *[!UICONTROL Required]*、*[!UICONTROL Not required]*&#x200B;或&#x200B;*[!UICONTROL Unspecified]*。
 
 <!-- Is this based on the advanced location options set elsewhere in Google Ads editor? -->
 
 **[!UICONTROL Geo Targeting Type]：** （仅启用[!UICONTROL AI Max]功能的现有营销活动；只读）当该营销活动的任何广告组包含[!UICONTROL Locations of Interest]个目标时，所针对的用户兴趣类型将被指示为： *[!UICONTROL Search Interest]* （对指定位置感兴趣的用户）、*[!UICONTROL Presence]* （指定位置中或指定位置中定期存在的用户）或&#x200B;*[!UICONTROL Presence or Interest]* （指定位置中、定期存在的用户或对指定位置感兴趣的用户）。
+
+**[!UICONTROL URL exclusions]：** （启用了[!DNL AI Max]、[!UICONTROL Text customization]和[!UICONTROL Final URL expansion]的营销活动）URL，将作为最终URL扩展生成的登陆页面进行排除。 您可以选择在广告组级别添加URL *排除项*（非排除项）。 要添加URL，请在输入字段中输入URL或URL片段，然后单击&#x200B;**+**。
+
+**[!UICONTROL Brand inclusions]：** （启用了[!DNL AI Max]的营销活动）与品牌相关查询可能匹配的帐户的品牌列表。 选中要包含的每个品牌列表旁边的复选框。 您可以在广告组级别覆盖此设置。
+
+**[!UICONTROL Brand exclusions]：** （启用了[!DNL AI Max]的营销活动）与品牌相关查询可能不匹配的帐户的品牌列表。 选中要排除的每个品牌列表旁边的复选框。
 
 ## [!UICONTROL Additional Campaign Information]选项卡
 
