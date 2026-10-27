@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 58b07a3c997005bbeb394f4925a894ea5960b9f7
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '727'
 ht-degree: 0%
 ---
 # [!DNL Google Ads]广告组设置
@@ -109,7 +109,7 @@ ht-degree: 0%
 >* 当营销活动级别[!UICONTROL Final URL expansion]设置为&#x200B;*已禁用*&#x200B;时，[!DNL Google Ads]仅使用指定的URL作为广告组的动态登陆页面。
 >* （包含固定资产的响应式搜索广告）此设置指定URL inclusion时，当最终URL路由到固定副本与用户意图不匹配的登陆页面时，[!DNL Google Ads]不使用固定资产。 要始终使用固定资产，请不要指定URL inclusions并禁用营销活动级别[!UICONTROL Final URL expansion]设置。
 
-**[!UICONTROL Brand inclusions]：** （启用了[!DNL AI Max]的营销活动）与品牌相关查询可能匹配的帐户的品牌。 选中要包含的每个品牌列表旁边的复选框。 此设置将覆盖营销活动级别的设置。
+**[!UICONTROL Brand inclusions]：** （启用了[!DNL AI Max]的营销活动）品牌列表包含与品牌相关查询可能匹配的品牌。 从[!DNL Google Ads]编辑器中为该帐户配置的所有品牌列表的列表中，选中要包含的每个品牌列表旁边的复选框。 此设置将覆盖营销活动级别的设置。
 
 ## [!UICONTROL URL Options]选项卡
 

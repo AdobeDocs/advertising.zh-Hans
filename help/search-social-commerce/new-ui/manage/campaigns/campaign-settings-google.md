@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 3d982df6837633d7e21b7acb85e8d7fd2c3e1655
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3244'
 ht-degree: 0%
 ---
 # [!DNL Google Ads]营销活动设置
@@ -251,9 +251,9 @@ ht-degree: 0%
 
 **[!UICONTROL URL exclusions]：** （启用了[!DNL AI Max]、[!UICONTROL Text customization]和[!UICONTROL Final URL expansion]的营销活动）URL，将作为最终URL扩展生成的登陆页面进行排除。 您可以选择在广告组级别添加URL *排除项*（非排除项）。 要添加URL，请在输入字段中输入URL或URL片段，然后单击&#x200B;**+**。
 
-**[!UICONTROL Brand inclusions]：** （启用了[!DNL AI Max]的营销活动）与品牌相关查询可能匹配的帐户的品牌列表。 选中要包含的每个品牌列表旁边的复选框。 您可以在广告组级别覆盖此设置。
+**[!UICONTROL Brand inclusions]：** （启用了[!DNL AI Max]的营销活动）品牌列表包含与品牌相关查询可能匹配的品牌。 从[!DNL Google Ads]编辑器中为该帐户配置的所有品牌列表的列表中，选中要包含的每个品牌列表旁边的复选框。 您可以在广告组级别覆盖此设置。
 
-**[!UICONTROL Brand exclusions]：** （启用了[!DNL AI Max]的营销活动）与品牌相关查询可能不匹配的帐户的品牌列表。 选中要排除的每个品牌列表旁边的复选框。
+**[!UICONTROL Brand exclusions]：** （启用了[!DNL AI Max]的营销活动）品牌列表包含的品牌可能与品牌相关查询不匹配。 从[!DNL Google Ads]编辑器中为该帐户配置的所有品牌列表的列表中，选中要排除的每个品牌列表旁边的复选框。
 
 ## [!UICONTROL Additional Campaign Information]选项卡
 
