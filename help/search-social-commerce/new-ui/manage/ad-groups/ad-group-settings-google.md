@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 889cc027476f205f00dfc183772963f7e53c2ee2
+source-git-commit: 58b07a3c997005bbeb394f4925a894ea5960b9f7
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 0%
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 当营销活动级别[!UICONTROL Final URL expansion]设置为&#x200B;*已启用*&#x200B;时，[!DNL Google Ads]使用指定的URL和其他Google选定的URL作为广告组的动态登录页。
+>* 当促销活动级别[!UICONTROL Final URL expansion]设置为&#x200B;*已启用*&#x200B;时，[!DNL Google Ads]会将指定的URL和其他Google选定的URL用作广告组的动态登录页。
 >* 当营销活动级别[!UICONTROL Final URL expansion]设置为&#x200B;*已禁用*&#x200B;时，[!DNL Google Ads]仅使用指定的URL作为广告组的动态登陆页面。
 >* （包含固定资产的响应式搜索广告）此设置指定URL inclusion时，当最终URL路由到固定副本与用户意图不匹配的登陆页面时，[!DNL Google Ads]不使用固定资产。 要始终使用固定资产，请不要指定URL inclusions并禁用营销活动级别[!UICONTROL Final URL expansion]设置。
 
