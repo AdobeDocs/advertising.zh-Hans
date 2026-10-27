@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: ff1657a7f005eb93c83fdc7fd2e53810d9e03bd8
 workflow-type: tm+mt
-source-wordcount: '8101'
+source-wordcount: '8378'
 ht-degree: 0%
 ---
 # 附录 — [!DNL Google Ads]帐户必需的批量处理工作表数据
@@ -44,20 +44,6 @@ ht-degree: 0%
 >* 对于以下未指定的字段，使用广告网络的默认值。
 >* 有关[!UICONTROL Download Bulksheet]对话框中可用批量处理工作表行的列表，请参阅“[按广告网络批量处理工作表行](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network)”。
 
-
-<!--
-
-Add in when released:
-
-| [!UICONTROL AI Max Enabled] | Whether the [[!UICONTROL AI Max] feature](https://support.google.com/google-ads/answer/15910366) is enabled for the campaign: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
-
-| [!UICONTROL AI Max Asset Automation] | Whether the "Text Automation" setting for [!UICONTROL AI Max]-enabled campaigns is enabled: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
-
-
-| [!UICONTROL AI Max Search Term Matching] | Whether the "[!UICONTROL AI Max Search Term Matching]" setting for ad groups in [!UICONTROL AI Max]-enabled campaigns is enabled: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
-
--->
-
 | 字段 | 描述 |
 | ---- | ---- |
 | [!UICONTROL Platform] | （包含在生成的批量工作表中，以供参考）广告平台。 除非每行都包含实体的“[!UICONTROL AMO ID]”，否则此为必填字段。 |
@@ -72,6 +58,8 @@ Add in when released:
 | [!UICONTROL GDN Custom Bid Level] | （仅针对显示网络的营销活动）竞价方式：竞价方式：由<i>[!UICONTROL Ad Group]</i> （默认值）、<i>[!UICONTROL Keyword]</i>、<i>[!UICONTROL Placement]</i> （网站）或<i>[!UICONTROL None]</i> （重置现有值）。 其他维度（<i>年龄</i>、<i>性别</i>、<i>兴趣和列表</i>、<i>主题</i>和<i>垂直</i>）可从[!DNL Google Ads]界面获得。 如果您已使用[!DNL Google Ads]界面配置其他维度的竞价，则会显示该值，但您无法在此处选择或输入这些维度。</p><p><b>注释：</b></p><ul><li><p>按关键字竞价时，可在关键字级别创建跟踪模板。 同样，在按投放位置竞价时，应在投放位置级别创建跟踪模板。 对于所有其他维度，请在广告级别创建跟踪模板。</p></li><li><p>当您通过不受支持的维度（年龄、性别、兴趣和列表或主题）竞价时，搜索、社交和Commerce不会优化该维度的竞价，并且所有归因都将应用于广告组。</p></li><li><p>搜索网络上的广告始终使用关键词竞价。</p></li></ul> |
 | [!UICONTROL Campaign Priority] | <p>（仅限购物营销活动）当多个营销活动播发同一产品时，使用该营销活动的优先级：<i>[!UICONTROL Low]</i>（新营销活动的默认值）、<i>[!UICONTROL Medium]</i>或<i>[!UICONTROL High]</i>。</p><p>如果同一产品包含在多个促销活动中，广告网络会首先使用促销活动优先级来确定哪个促销活动（及相关竞价）符合广告竞价的条件。 如果所有促销活动具有相同的优先级，则具有最高竞价的促销活动符合条件。 |
 | [!UICONTROL Has EU Political Ads] | (适用于针对欧盟(EU)受众的营销活动)根据欧盟第2024/90号条例在欧盟提供的广告要求，营销活动是否包含政治广告： <i>[!UICONTROL Yes]</i>或<i>[!UICONTROL No]</i>。 |
+| [!UICONTROL AI Max Enabled] | 是否已为以下营销活动启用[[!UICONTROL AI Max]功能： *[!UICONTROL true]*、*[!UICONTROL false]*&#x200B;或null。](https://support.google.com/google-ads/answer/15910366) |
+| [!UICONTROL AI Max Asset Automation] | 是否已为启用了[!UICONTROL AI Max]的营销活动启用“文本自动化”设置： *[!UICONTROL true]*、*[!UICONTROL false]*&#x200B;或null。 |
 | [!UICONTROL Merchant ID] | （仅限链接到商家馈送的购物营销活动和受众营销活动）其产品用于营销活动的商家帐户的客户ID。 |
 | [!UICONTROL Sales Country] | （仅限购物营销活动；现有营销活动为只读）营销活动产品销售的国家/地区。 由于产品与目标国家/地区相关联，因此此设置确定在营销活动中广告的产品。 |
 | [!UICONTROL Product Scope Filter] | （仅限使用[!DNL Google Ads]购物网络的营销活动）您的[!DNL Google Merchant Center]帐户中可为其创建购物广告的产品。 您可以使用格式dimension=attribute最多输入七种产品维度和属性组合，以筛选产品。 使用“>>”分隔符分隔多个过滤器。 有关可用产品维度的列表，请参阅“[购物营销活动产品过滤器](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)”。</p><p>示例：“CategoryL1=animals>>CategoryL2=pet supplies>>Brand=Acme Pet Supplies”</p><p>要删除现有值，请使用值<code>[delete]</code> 括号)。</p> |
@@ -86,12 +74,20 @@ Add in when released:
 | [!UICONTROL Mobile Carriers (Google Adwords)] | <p>（仅限旧版促销活动类型；适用于[!UICONTROL Device Targets]包含“[!UICONTROL All]”或“[!UICONTROL Smartphones]”的情况）智能手机的可能连接到的移动运营商： <i>[!UICONTROL All]</i>，或者&lt;c<i>运营商代码</i>>、&lt;<i>国家/地区代码</i>>（如T-Mobile，US）指示的一个或多个运营商（使用<a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">个可用运营商的列表和[!DNL Google Ads]</a>的代码）。 使用分号（如T-Mobile，US；T-Mobile，GB）分隔多个运营商。 对于新营销活动，默认值为<i>[!UICONTROL All]</i>。</p> |
 | [!UICONTROL Ad Group Name] | <p>标识广告组的唯一名称。 最大长度为255个字符；不保存尾随空白字符（例如，“广告组1”另存为“广告组1”）。 此字段不适用于营销活动级别的站点链接或营销活动级别的设备目标。</p> |
 | [!UICONTROL Ad Group Type] | <p>广告组类型： <i>[!UICONTROL Demand Gen]</i> （仅用于需求生成营销活动）、<i>[!UICONTROL Display]</i> （用于显示营销活动）、<i>[!UICONTROL Search Dynamic]</i> （用于扩展的动态搜索广告）、<i>[!UICONTROL Search Standard]</i> （用于搜索广告）、<i>[!UICONTROL Shopping Product]</i> （用于购物产品广告）、<i>[!UICONTROL Shopping Showcase]</i> （不支持创建和编辑）或<i>[!UICONTROL Unknown]</i>。</p> |
+| [!UICONTROL AI Max Search Term Matching] | 在启用了[!UICONTROL AI Max]的营销活动中为广告组启用了“[!UICONTROL AI Max Search Term Matching]”设置： *[!UICONTROL true]*、*[!UICONTROL false]*&#x200B;还是null。 |
 | [!UICONTROL Max CPC] | <p>（仅限CPC促销活动）每次点击的最大成本(CPC)，这是在广告网络上点击广告所需支付的最高金额，无论是否带有货币符号和标点。 您可以设置广告组和关键字、产品组和动态搜索目标的值。 新关键字的默认值继承自广告组级别。 对于产品组，您可以设置最低产品组层的值；新层的默认值继承自父层。</p><p>对于已优化项目组合中的现有产品组和动态搜索目标，更新仅在一天内有效，并在下一个优化周期中被覆盖。</p> |
 | [!UICONTROL Max Content CPC] | <p>（仅限CPC促销活动）每次点击的最大内容成本(CPC)，这是显示网络站点中无论是否带有货币符号和标点，要支付的广告点击最高金额。 您可以设置和编辑非投放目标营销活动中广告组级别的值。</p> |
 | [!UICONTROL Audience Target Method] | <p>（仅搜索网络上的营销活动，以及显示网络上现有的只读[!DNL Gmail]营销活动）是否：</p><ul><li><p><i>[!UICONTROL Target and Bid]</i>：只向与目标受众相关联的用户显示广告，这些受众也满足广告组的任何其他目标。</p></li><li><p><i>[!UICONTROL Bid Only]</i>：即使向不与目标受众关联的用户显示广告，只要他们满足其他广告组级别目标。</p><p>但是，您可以通过为特定受众设置更高的竞价来增加向这些受众显示广告的可能性。</p></li></ul> |
 | [!UICONTROL Keyword] | 关键词字符串。 最大长度为80个字符，不超过10个单词，并且只能包含字母、数字和以下特殊字符：空格`# $ & _ - " [ ] ' + . / :`</p><p><b>注释：</b></p><ul><li><p>要在广告组或营销活动级别排除关键字，请将[!UICONTROL Match Type]设置为<i>[!UICONTROL Negative]</i>。 如果行包含广告组名称，则该广告组将排除关键字。 如果行不包含广告组名称，则该关键字将排除在整个营销活动中。</p></li><li><p>更改[!DNL Google Ads]关键字或匹配类型会删除现有关键字并创建一个新关键字。</p></li></ul> |
 | [!UICONTROL Placement] | （仅使用匹配内容的促销活动）显示网络中可显示广告的版面。 指定下列选项之一：</p><ul><li><p>网站：输入有效的URL。 它可以是顶级域、第一级子域或具有单个目录名的域。 URL不能包含问号(？)。 示例：<code><br />www.example.com<br />example.com<br />autos.example.com<br />example.com/widgets</code></p></li><li><p>特定页面上的广告位置：使用格式`<URL> >> <location,sublocation>`（如`finance.google.com >> Company pages,Top right`）。</p></li><li><p>主题类别：使用语法`<category::<category> > <subcategory>`等（如`category::Industries > Energy & Utilities > Oil & Gas`）。</p></li></ul><p><b>注意：</b>若要在广告组或营销活动级别排除投放位置，请将[!UICONTROL Match Type]设置为<i>[!UICONTROL Negative]</i>。 如果行包含广告组名称，则会为广告组排除投放位置。 如果行不包含广告组名称，则会为整个营销活动排除该投放位置。</p> |
 | [!UICONTROL Auto Target Expression] | <p>（未启用促销活动设置为“[!UICONTROL Use my website contents to target my ads]”时必需；否则可选）广告组的动态搜索目标。</p><p>对于所有目标，请使用星号(*)。</p><p>要定位最多三个动态搜索条件，请使用格式`<category>=<target>`，其中`<category>`可以包含以下任意类别。 使用“\[blank space\]”和“\[blank space\]”为单个类别连接多个目标，使用“[空格]”和[空格]”为多个类别连接多个目标。</p><ul><li><p><i>[!UICONTROL Category]</i>：为具有特定[!DNL Google Ads]内容类别的索引页面显示扩展的动态搜索广告。</p></li><li><p><i>[!UICONTROL URL]</i>：为具有特定URL的索引页面显示扩展的动态搜索广告，其中值可能包含在URL中的任何位置。</p></li><li><p><i>[!UICONTROL Page Title]</i>：为页面标题中具有特定文本的索引页面显示扩展的动态搜索广告。</p></li><li><p><i>[!UICONTROL Page Content]</i>：为具有特定内容的索引页面显示扩展的动态搜索广告。</p></li></ul><p>示例： url=shoes.example.com和page title=footwear</p> |
+| [!UICONTROL Campaign Excluded URL] | 从促销活动的最终URL扩展生成的作为登陆页面的URL。 您可以选择在广告组级别添加URL包含项（而非排除项）。 示例：“URL包含`https://www.example.com`。” |
+| [!UICONTROL Ad Group Included URL] | 从广告组的最终URL扩展生成的登陆页面。  示例：“URL包含`https://www.example.com`。” |
+| [!UICONTROL Campaign Brand List] | 品牌相关查询可能匹配或必须排除促销活动的帐户的品牌列表。 使用[!UICONTROL Campaign Brand List Type]字段指定行为。 |
+| [!UICONTROL Campaign Brand List ID] | 已包含或排除的营销活动级别品牌列表的ID。 |
+| [!UICONTROL Campaign Brand List Type] | 为帐户指定的品牌列表是否可能与品牌相关查询匹配或必须从品牌相关查询中排除： *包含*&#x200B;或&#x200B;*排除*。 |
+| [!UICONTROL Ad Group Brand List] | 品牌相关查询可能与广告组匹配的帐户的品牌。 |
+| [!UICONTROL Ad Group Brand List ID] | 广告组级别包含的品牌列表的ID。 |
 | [!UICONTROL Parent Product Groupings] | 任何父产品组的层次结构。<br><br>示例： `All Products>>ProductTypeL1=a>>ProductTypeL2=b` |
 | [!UICONTROL Product Grouping] | <p>产品组（如“brand=acme”或“所有产品”）。</p><p><b>注释：</b></p><ul><li><p>当[!UICONTROL Parent Product Groupings]层次结构中不存在指定的产品组时，Search、Social和Commerce会创建层次结构中所需的任何部分。</p></li><li><p>当您在[!DNL Google Ads]购物营销活动中创建广告组（默认竞价设置为广告组默认竞价）时，Search、Social和Commerce会自动创建“[!UICONTROL All Products]”组。 Search、Social和Commerce会在产品组层次结构的每个级别自动创建一个具有广告组默认竞价的“[!UICONTROL Everything Else]”组。 您仍然可以显式创建这些默认组，并排除它们或更改它们的竞价。</p></li><li><p>每个广告组最多可包含八层产品组，包括“[!UICONTROL All Products]”和七个其他层。</p></li></ul> |
 | [!UICONTROL Partition Type] | 产品组的分区类型： <i>子分区</i> （当它有子产品组时）或<i>单元</i> （当它没有子产品组时）。 |
@@ -133,6 +129,10 @@ Add in when released:
 | [!UICONTROL Product Group Status] | 产品组的显示状态： <i>[!UICONTROL Active]</i> <span>或</span> <i>[!UICONTROL Deleted]</i> （仅限现有产品组）。 新产品组的默认值为<i>[!UICONTROL Active]</i>。 要删除活动的产品组，请输入值<i>[!UICONTROL Deleted]</i>。 |
 | [!UICONTROL Sitelink Status] | 站点链接的显示状态： <i>活动或已删除</i> （仅限现有站点链接）。 新站点链接的默认值为<i>[!UICONTROL Active]</i>。 要删除活动的站点链接，请输入值<i>[!UICONTROL Deleted]</i>。 |
 | [!UICONTROL Location Status] | 位置目标的状态： <i>[!UICONTROL Active]</i>或<i>[!UICONTROL Deleted]</i> （仅限现有位置）。 新位置的默认值为[!UICONTROL Active]。 要删除活动位置，请输入值<i>[!UICONTROL Deleted]</i>。 |
+| [!UICONTROL Campaign Excluded URL Status] | 营销活动的已排除URL的状态： *活动*&#x200B;或`null`。 |
+| [!UICONTROL Ad Group Included URL Status] | 促销活动包含的URL的状态： *活动*&#x200B;或`null`。 |
+| [!UICONTROL Campaign Brand List Status] | 营销活动已包含或排除的品牌列表的状态： *活动*&#x200B;或`null`。 |
+| [!UICONTROL Ad Group Brand List Status] | 广告组包含的品牌列表的状态： *活动*&#x200B;或`null`。 |
 | [!UICONTROL RLSA Target Status] | 营销活动或广告组级别RLSA目标或排除的状态： <i>[!UICONTROL Active]</i>或[!UICONTROL Deleted]</i>（仅限现有目标）。 新目标或排除项的默认值为<i>[!UICONTROL Active]</i>。 要删除活动目标或排除项，请输入值<i>[!UICONTROL Deleted]</i>。 |
 | [!UICONTROL Device Target Status] | <p>营销活动或广告组级别设备目标的状态： <i>[!UICONTROL Active]</i>或<i>[!UICONTROL Deleted]</i>。 对于新的营销活动和广告组，默认值为<i>[!UICONTROL Active]</i>。</p> |
 | \[广告商特定的标签分类\] | （以特定于广告商的标签分类命名，例如名为“颜色”的标签分类的“颜色”）与实体关联的指定分类的值。 每个实体的每个分类只能包含一个值（例如，促销活动A的“颜色”标签分类为“红色”）。 最大长度为100个字符，该值可以包含ASCII和非ASCII字符。<br><br>标签分类及其标签值将应用于所有子组件；以后添加的新组件会自动与标签关联。 产品组的标签分类将应用于单元（最细化）级别。<br><br>分类名称和分类值都不区分大小写。 |
@@ -147,6 +147,10 @@ Add in when released:
 | [!UICONTROL Sitelink ID] | 标识现有站点链接的唯一ID。 在CSV和TSV文件中，它前面必须加一个单引号(&#39;)。[^1]仅当更改或删除站点链接时才需要，除非该行包含a)足以标识站点链接的属性列或b)“[!UICONTROL AMO ID]”。 但是，如果您既不包括[!UICONTROL Sitelink ID]也不包括[!UICONTROL AMO ID]，并且属性列与多个站点链接匹配，则只有其中一个站点链接的状态会更改。</p><p><b>注意：</b>如果您编辑的站点链接属性列（现有Sitelink的状态除外），并且您既不包括[!UICONTROL Sitelink ID]也不包括[!UICONTROL AMO ID]，则会创建一个新的Sitelink，并且现有Sitelink不会发生更改。 |
 | [!UICONTROL RLSA Target ID] | 标识现有营销活动或广告组级别RLSA目标或排除项的唯一ID。 在CSV和TSV文件中，它前面必须加一个单引号(&#39;)。[^1]仅当更改或删除目标或排除项时才需要，除非行中包含目标的“[!UICONTROL AMO ID]”。 |
 | [!UICONTROL Device Target ID] | <p>标识现有营销活动级别或广告组级别设备目标或排除项的唯一ID。 在CSV和TSV文件中，它前面必须加一个单引号(&#39;)。[^1]只有在更改或删除目标时才需要，除非该行包含目标的“[!UICONTROL AMO ID]”。</p> |
+| [!UICONTROL Campaign Excluded URL ID] | 营销活动排除的URL表达式的ID。 |
+| [!UICONTROL Ad Group Included URL ID] | 广告组中包含的URL表达式的ID。 |
+| [!UICONTROL Campaign Brand Criterion ID] | 营销活动的品牌列表标准的ID。 |
+| [!UICONTROL Ad Group Brand Criterion ID] | 广告组的品牌列表标准的ID。 |
 | [!UICONTROL AMO ID] | （在生成的批量工作表中）Adobe为同步实体生成的唯一标识符。 对于响应式搜索广告，编辑或删除广告时需要AMO ID，除非您包含广告ID。 要编辑所有其他具有AMO ID的实体类型的数据，需要使用AMO ID来编辑或删除数据，除非您包含实体ID和父实体ID。<br><br>Search、Social和Commerce使用该值确定要编辑的正确身份，但不会将ID发布到广告网络。 |
 | [!UICONTROL EF Error Message] | （出于信息目的包含在生成的批量工作表中）用于显示来自广告网络的关于行中数据的错误消息的占位符；错误消息包含在[!UICONTROL EF Errors]文件中。 此值未发布到广告网络。 |
 | [!UICONTROL SE Error Message] | （出于信息目的包含在生成的批量工作表中）用于显示来自广告网络的关于行中数据的错误消息的占位符；错误消息包含在[!UICONTROL SE Errors]文件中。 此值未发布到广告网络。 |
@@ -172,24 +176,34 @@ Add in when released:
 | [!UICONTROL Acct Name] | 除非每行都包含实体的“[!UICONTROL AMO ID]”，否则此为必填字段。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Campaign Budget] | 需要创建营销策划。 |
+| [!UICONTROL Campaign Status] | 仅删除营销活动时需要。 |
 | [!UICONTROL Delivery Method] | 需要创建营销策划。 |
-| [!UICONTROL Channel Type] | 需要创建营销策划。 |
+| [!UICONTROL Device Targets] | 可选 |
+| [!UICONTROL Device OS Targets (Google Adwords)] | 可选 |
+| [!UICONTROL Languages] | 可选 |
+| [!UICONTROL Mobile Carriers (Google Adwords)] | 可选 |
 | [!UICONTROL Networks] | 需要创建营销策划。 |
-| [!UICONTROL DSA Domain Name] | 需要在搜索网络上创建包含动态搜索广告的营销活动。 |
-| [!UICONTROL DSA Domain Language] | 需要在搜索网络上创建包含动态搜索广告的营销活动。 |
+| [!UICONTROL Tracking Template] | 可选 |
+| [!UICONTROL Channel Type] | 需要创建营销策划。 |
 | [!UICONTROL Campaign Priority] | 需要创建购物营销活动。 |
 | [!UICONTROL Has EU Political Ads] | 需要创建营销策划。 |
 | [!UICONTROL Merchant ID] | 需要创建购物营销活动。 |
 | [!UICONTROL Sales Country] | 需要创建购物营销活动。 |
-| [!UICONTROL Product Scope Filter] | （购物营销活动）可选 |
-| [!UICONTROL Languages] | 可选 |
-| [!UICONTROL Device Targets] | 可选 |
-| [!UICONTROL Device Targets (Google Adwords)] | 可选 |
-| [!UICONTROL Mobile Carriers (Google Adwords)] | 可选 |
 | [!UICONTROL Audience Target Method] | 不适用 |
+| [!UICONTROL Product Scope Filter] | （购物营销活动）可选 |
+| [!UICONTROL DSA Domain Name] | 需要在搜索网络上创建包含动态搜索广告的营销活动。 |
+| [!UICONTROL DSA Domain Language] | 需要在搜索网络上创建包含动态搜索广告的营销活动。 |
 | [!UICONTROL Landing Page Suffix] | 可选 |
-| [!UICONTROL Tracking Template] | 可选 |
-| [!UICONTROL Campaign Status] | 仅删除营销活动时需要。 |
+| [!UICONTROL AI Max Enabled] | 可选 |
+| [!UICONTROL AI Max Asset Automation] | 可选 |
+| [!UICONTROL Campaign Brand Criterion ID] | 可选 |
+| [!UICONTROL Campaign Brand List] | 可选 |
+| [!UICONTROL Campaign Brand List ID] | 可选 |
+| [!UICONTROL Campaign Brand List Status] | 可选 |
+| [!UICONTROL Campaign Brand List Type] | 可选 |
+| [!UICONTROL Included URL] | 可选 |
+| [!UICONTROL Included URL ID] | 可选 |
+| [!UICONTROL Included URL Status] | 可选 |
 | \[广告商特定的标签分类\] | 可选 |
 | [!UICONTROL Constraints] | 可选 |
 | [!UICONTROL Campaign ID] | 仅在更改营销活动名称时需要，除非行包含营销活动的“[!UICONTROL AMO ID]”。 |
@@ -203,15 +217,23 @@ Add in when released:
 | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每行都包含实体的“[!UICONTROL AMO ID]”，否则此为必填字段。 |
 | [!UICONTROL Campaign Name] | 必填 |
-| [!UICONTROL Networks] | 不适用 |
-| [!UICONTROL GDN Custom Bid Level] | 可选 |
 | [!UICONTROL Ad Group Name] | 必填 |
 | [!UICONTROL Ad Group Type] | 需要创建广告组。 |
+| [!UICONTROL GDN Custom Bid Level] | 可选 |
+| [!UICONTROL Networks] | 不适用 |
+| [!UICONTROL Ad Group Status] | 仅删除广告组时才需要。 |
 | [!UICONTROL Max CPC] | 可选 |
 | [!UICONTROL Max Content CPC] | 可选 |
-| [!UICONTROL Audience Target Method] | 必填 |
 | [!UICONTROL Tracking Template] | 可选 |
-| [!UICONTROL Ad Group Status] | 仅删除广告组时才需要。 |
+| [!UICONTROL Audience Target Method] | 必填 |
+| [!UICONTROL AI Max Search Term Matching] | 可选 |
+| [!UICONTROL Ad Group Brand Criterion ID] | 可选 |
+| [!UICONTROL Ad Group Brand List] | 可选 |
+| [!UICONTROL Ad Group Brand List ID] | 可选 |
+| [!UICONTROL Ad Group Brand List Status] | 可选 |
+| [!UICONTROL Ad Group Included URL] | 可选 |
+| [!UICONTROL Ad Group Included URL ID] | 可选 |
+| [!UICONTROL Ad Group Included URL Status] | 可选 |
 | \[广告商特定的标签分类\] | 可选 |
 | [!UICONTROL Constraints] | 可选 |
 | [!UICONTROL Ad Group ID] | 仅在更改广告组名称时需要，除非行包含广告组的“[!UICONTROL AMO ID]”。 |

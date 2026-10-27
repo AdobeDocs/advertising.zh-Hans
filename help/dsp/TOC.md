@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报展示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
+source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1097'
 ht-degree: 3%
 ---
 
@@ -25,7 +25,12 @@ ht-degree: 3%
   + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans)
   + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans)
   + [高级测量解决方案](/help/dsp/introduction/advanced-measurement-services.md)
-+ [使用人工智能辅助聊天搜索产品文档](/help/dsp/agent-chat.md)
++ Advertising DSP的人工智能助手 {#ai-assistant}
+  + [关于Advertising DSP中的AI助手](/help/dsp/ai-assistant/ai-assistant-about.md)
+  + [使用AI助手创建报告](/help/dsp/ai-assistant/insights-agent.md)
+  + [使用AI助手排查性能和投放问题](/help/dsp/ai-assistant/troubleshooting-agent.md)
+  + [使用AI助手搜索产品文档](/help/dsp/ai-assistant/documentation-search.md)
+  + [使用以前的AI助手对话](/help/dsp/ai-assistant/previous-conversations.md)
 + 营销活动管理 {#campaign-management}
   + [Advertising DSP中的促销活动管理概述](/help/dsp/campaign-management/campaign-management-overview.md)
   + 营销活动 {#campaigns}
@@ -234,7 +239,7 @@ ht-degree: 3%
   + 通知 {#notifications}
     + [关于警报订阅](/help/dsp/admin/alerts-about.md)
     + [管理警报订阅](/help/dsp/admin/alerts-manage.md)
-+ [与Adobe CX Enterprise集成](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hans)
++ [与Adobe CX Enterprise的集成](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hans)
 + [获取帮助](/help/dsp/get-help.md)
 + [Adobe CX Enterprise发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)
 

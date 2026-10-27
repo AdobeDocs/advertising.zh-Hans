@@ -17,15 +17,23 @@ subfeature_v2:
     internal-label: AI features
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
     internal-label: Audiences
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '117'
 ht-degree: 0%
 ---
 # Adobe Advertising DSP中的AI辅助功能
 
 DSP提供人工智能辅助代理，这些代理使用自然语言提示帮助您完成多项任务：
 
-* 使用AI辅助的聊天界面，在[Advertising DSP指南](/help/dsp/home.md)和（使用Advertising Creative的广告商）[Advertising Creative指南](/help/creative/home.md)中[搜索概念和操作方法内容](/help/dsp/agent-chat.md)。
+* [搜索概念内容和操作方法内容](/help/dsp/agent-chat.md)
 
-* [使用创作AI辅助受众代理生成新的可重用受众](/help/dsp/audiences/reusable-audience-create.md)，您可以将其用作投放位置的定位或排除项。
+* Unified AI助手：
+
+  * [创建营销活动、营销活动组件、Advertising Creative体验、广告商和广告目标的报告](/help/dsp/ai-assistant/insights-agent.md)。
+
+  * [对包和投放位置的性能和投放问题进行故障诊断](/help/dsp/ai-assistant/troubleshooting-agent.md)。
+
+  * 在[Advertising DSP指南](/help/dsp/home.md)和（使用Advertising Creative的广告商）[Advertising Creative指南](/help/creative/home.md)中[搜索产品文档](/help/dsp/ai-assistant/documentation-search.md)。
+
+* [在[!UICONTROL Audiences] > [!UICONTROL All Audiences]中使用创作AI辅助受众代理生成新的可重用受众](/help/dsp/audiences/reusable-audience-create.md)，您可以将其用作投放位置的定位或排除项。

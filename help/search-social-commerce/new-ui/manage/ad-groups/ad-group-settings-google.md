@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 58b07a3c997005bbeb394f4925a894ea5960b9f7
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '712'
 ht-degree: 0%
 ---
 # [!DNL Google Ads]广告组设置
@@ -100,6 +100,16 @@ ht-degree: 0%
 **[!UICONTROL AI Search Term Matching]：** （仅启用了[!DNL AI Max]的营销活动）是否使用AI驱动的无关键字搜索词匹配来增强范围和优化。<!--SUPPOSEDLY, BUT THIS IS OFF FOR ME:  It's enabled by default for campaigns with [!DNL AI Max], but you can disable it at the ad group level. -->
 
 **[!UICONTROL Locations of Interest]：** （仅启用了[!DNL AI Max]的营销活动）要定位（但不排除）的地理意图的特定位置；用户还必须满足营销活动的地理定位。 默认情况下，会定位所有地理位置中、定期或对所有地理位置感兴趣的用户。 要缩小目标范围，请选择要定位的每个位置。
+
+**[!UICONTROL URL inclusions]：** （启用了[!DNL AI Max]和[!UICONTROL Text customization]的营销活动）URL以包含为最终URL扩展生成的登陆页面。 要添加URL，请在输入字段中输入URL或URL片段，然后单击&#x200B;**+**。
+
+>[!NOTE]
+>
+>* 当促销活动级别[!UICONTROL Final URL expansion]设置为&#x200B;*已启用*&#x200B;时，[!DNL Google Ads]会将指定的URL和其他Google选定的URL用作广告组的动态登录页。
+>* 当营销活动级别[!UICONTROL Final URL expansion]设置为&#x200B;*已禁用*&#x200B;时，[!DNL Google Ads]仅使用指定的URL作为广告组的动态登陆页面。
+>* （包含固定资产的响应式搜索广告）此设置指定URL inclusion时，当最终URL路由到固定副本与用户意图不匹配的登陆页面时，[!DNL Google Ads]不使用固定资产。 要始终使用固定资产，请不要指定URL inclusions并禁用营销活动级别[!UICONTROL Final URL expansion]设置。
+
+**[!UICONTROL Brand inclusions]：** （启用了[!DNL AI Max]的营销活动）与品牌相关查询可能匹配的帐户的品牌。 选中要包含的每个品牌列表旁边的复选框。 此设置将覆盖营销活动级别的设置。
 
 ## [!UICONTROL URL Options]选项卡
 
