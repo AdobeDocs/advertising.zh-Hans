@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 59d4abad49f2684a4b0a5d46774757bffcd7afee
+source-git-commit: 8385743efa75e0c44cf44d0443094b11d579216d
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2318'
 ht-degree: 0%
 ---
 # 创建可重复使用的受众
@@ -42,6 +42,8 @@ ht-degree: 0%
 *Beta功能*
 
 *仅支持英语*
+
+为AI助手提供受众摘要，或描述要在自然语言提示中包含或排除的受众特征。 在受众定义中，您可以优化优化标准、要包含的ID类型和要排除的第一方区段。 AI助手汇编匹配受众区段的列表后，您可以在保存受众之前优化区段列表。
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -77,13 +79,19 @@ ht-degree: 0%
 
       您可以在一个提示中询问多个问题，但一次只能询问一个提示。 等待响应，然后才能发送其他提示。
 
-      此时将打开一个侧面板，其中受众定义位于[!UICONTROL Step 1: Audience Definition]选项卡中。 该定义包括所有定义的受众过滤器、优化标准以及要排除的任何第一方区段。
+      此时将打开一个侧面板，其中受众定义位于[!UICONTROL Step 1: Audience Definition]选项卡中。 该定义包括所有定义的受众过滤器、优化标准（包括要包含的设备ID类型和通用ID类型）以及要排除的任何第一方区段。 如果您没有指定限制，则区段将基于针对最高容量进行优化（包括所有设备类型ID和通用ID，以及您的所有第一方受众）。
 
       在适用的情况下，AI Assistant会建议使用其他受众过滤器，以帮助您创建更有效的受众摘要。 您可以接受或拒绝建议。
 
-   1. （可选）要排除您的任何第一方区段，请提示AI助手执行该操作，或单击&#x200B;**[!UICONTROL First-party segments to exclude]**&#x200B;部分中的![编辑](/help/dsp/assets/edit-ai.png "编辑")，选择要为受众排除的任何区段，然后单击&#x200B;**[!UICONTROL Apply]**。
+   1. （可选）优化受众定义：
 
-   1. （可选）根据需要提交其他提示，以描述要包含和排除的受众特征。 若要提交每个提示，请单击![提交提示](/help/dsp/assets/submit-prompt.png "提交提示")。
+      * 若要将&#x200B;*[!UICONTROL Highest volume]*&#x200B;到&#x200B;*[!UICONTROL Lowest cost]*&#x200B;之间的优化条件更改为，请提示AI助手执行该操作，或单击&#x200B;**[!UICONTROL Criteria]**&#x200B;旁边的![编辑](/help/dsp/assets/edit-ai.png "编辑")，选择该条件，然后单击&#x200B;**[!UICONTROL Apply]**。
+
+      * 若要在包含所有ID类型（包括所有设备类型ID和通用ID）和仅包含特定ID类型之间进行更改，请提示AI Assistant执行此操作，或单击&#x200B;**[!UICONTROL ID type]**&#x200B;旁边的![编辑](/help/dsp/assets/edit-ai.png "编辑")，选择要包含的ID类型，然后单击&#x200B;**[!UICONTROL Apply]**。
+
+      * 要排除您的任何第一方区段，请提示AI助手执行此操作，或单击&#x200B;**[!UICONTROL First-party segments to exclude]**&#x200B;部分中的![编辑](/help/dsp/assets/edit-ai.png "编辑")，选择要为受众排除的任何区段，然后单击&#x200B;**[!UICONTROL Apply]**。
+
+      * 根据需要提交其他提示，以描述要包含和排除的受众特征。 若要提交每个提示，请单击![提交提示](/help/dsp/assets/submit-prompt.png "提交提示")。
 
 1. 当受众定义符合您的条件时，指定要包含的区段：
 
@@ -110,6 +118,8 @@ ht-degree: 0%
 *Beta功能*
 
 *仅支持英语*
+
+为受众代理提供描述要包含和排除的受众特征的受众简介或自然语言提示。
 
 >[!NOTE]
 >
@@ -154,6 +164,72 @@ ht-degree: 0%
    >[!NOTE]
    >
    >若要稍后编辑受众，请[手动编辑受众表达式](/help/dsp/audiences/reusable-audience-edit.md)。
+
+### 编写提示并响应受众代理 {#writing-prompts}
+
+<!-- Change heading level for this whole section to fit under AI procedure -->
+
+#### 编写受众提示的准则
+
+* 使用清晰的描述性语言描述目标受众。
+
+  * 您可以输入完整的句子或一系列特征。 除非为清楚起见，否则不需要标点。
+
+  * 通常，提示不区分大小写。
+
+  * 受众代理可识别最常见的同义词。
+
+* 具体说明：
+
+  * 提供有关要包含的所有受众特征以及专门要排除的任何特征的详细信息。 提供更多详细信息，有助于获得符合您需求的结果。
+
+  * 确定要包括或排除的位置、设备类型和数据提供程序。
+
+  在保存受众之前，您始终有机会编辑受众过滤器、优化标准、要排除的第一方区段以及最终区段列表。 提供完整的细节以开始缩短流程。
+
+* 在保存受众之前，反复提供详细信息以优化您的标准和生成的受众表达式。
+
+* 受众代理不会自动将生成的受众表达式另存为受众。 您只能通过单击提示区域之外的[!UICONTROL Save Audience]或[!UICONTROL Create]按钮来保存受众，因此您可以撤消不想保留的任何更改。
+
+有关优化受众提示的进一步方法，请参阅[创建受众摘要](#audience-brief-best-practices)的最佳实践。
+
+<!--
+Consider starting by asking for what you should include.
+
+you can give thumbs up or down to [what exactly?].
+
+Verify what info is carried over from session to session and what starts from scratch.
+
+-->
+
+#### 提示限制
+
+* 对现有受众的引用。
+
+* 英语以外的其他语言的文本。
+
+#### 如何响应受众代理
+
+当受众代理需要您做出响应时，您可以使用请求中的关键字或使用通用同义词进行回复。
+
+##### 确认是否继续
+
+`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
+
+您的肯定回复：“继续”、“确定”、“确定”、“是”或其他类似词语
+
+您还可以忽略请求并继续指定其他受众条件。
+
+##### 从建议的选项中进行选择
+
+`Would you like to:`
+`1) Proceed with this expression,`
+`2) Get maximum reach alternatives, or`
+`3) Modify the expression manually?`
+
+您的回复： `1`、`proceed`、`2`、`maximum reach`等。
+
+您还可以忽略请求并继续指定其他受众条件。
 
 ### 创建受众简介的最佳实践 {#audience-brief-best-practices}
 
@@ -210,72 +286,6 @@ ht-degree: 0%
 以下是促销活动的强大受众简报示例，旨在提高知名度并试用高级套餐订阅服务：
 
 `The target audience consists of adults aged 28-45 (60% female, 40% male) with household incomes of $85K or more, college-educated professionals living in the USA. Psychographically, they are health-conscious individuals who value convenience and quality, aspire to be home cooks, and are food enthusiasts seeking better work-life balance. They actively engage with cooking and culinary content, follow health and wellness trends, shop at farmers markets, and prefer organic foods. Behaviorally, they are online grocery shoppers who use subscription services, dine out at restaurants 2+ times per week, and engage with food content on social media. They are currently in-market for meal planning solutions and food subscription services, with many focused on weight management and healthy eating programmes. The audience includes young families with children and dual-income households, as well as career-focused professionals. The brief excludes current subscribers and those following vegan/vegetarian diets as the initial launch focuses on protein-centric meal plans.`
-
-### 编写提示并响应受众代理 {#writing-prompts}
-
-<!-- Change heading level for this whole section to fit under AI procedure -->
-
-#### 编写受众提示的准则
-
-* 使用清晰的描述性语言描述目标受众。
-
-  * 您可以输入完整的句子或一系列特征。 除非为清楚起见，否则不需要标点。
-
-  * 通常，提示不区分大小写。
-
-  * 受众代理可识别最常见的同义词。
-
-* 做到具体，并提供要包含的所有受众特征以及要排除的任何特征的详细信息。 提供更多详细信息，有助于获得符合您需求的结果。
-
-* 确定要包括或排除的位置、设备类型和数据提供程序。
-
-* 在保存受众之前，反复提供详细信息以优化您的标准和生成的受众表达式。
-
-* 了解如何通过试验进行提示。
-
-  如果您的提示不清晰，则受众代理会请求另一个提示，以便您重试。
-
-  受众代理不会自动将生成的受众表达式另存为受众。 您只能通过单击提示区域之外的[!UICONTROL Create]按钮来保存受众，因此您可以撤消不想保留的任何更改。
-
-有关优化受众提示的进一步方法，请参阅[创建受众摘要](#audience-brief-best-practices)的最佳实践。
-
-<!--
-Consider starting by asking for what you should include.
-
-you can give thumbs up or down to [what exactly?].
-
-Verify what info is carried over from session to session and what starts from scratch.
-
--->
-
-#### 提示限制
-
-* 对现有受众的引用。
-
-* 英语以外的其他语言的文本。
-
-#### 如何响应受众代理
-
-当受众代理需要您做出响应时，您可以使用请求中的关键字或使用通用同义词进行回复。
-
-##### 确认是否继续
-
-`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
-
-您的肯定回复：“继续”、“确定”、“确定”、“是”或其他类似词语
-
-您还可以忽略请求并继续指定其他受众条件。
-
-##### 从建议的选项中进行选择
-
-`Would you like to:`
-`1) Proceed with this expression,`
-`2) Get maximum reach alternatives, or`
-`3) Modify the expression manually?`
-
-您的回复： `1`、`proceed`、`2`、`maximum reach`等。
-
-您还可以忽略请求并继续指定其他受众条件。
 
 ## 手动创建可重复使用的受众
 
