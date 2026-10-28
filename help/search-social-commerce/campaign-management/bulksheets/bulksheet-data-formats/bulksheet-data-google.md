@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ff1657a7f005eb93c83fdc7fd2e53810d9e03bd8
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '8378'
+source-wordcount: '8452'
 ht-degree: 0%
 ---
 # 附录 — [!DNL Google Ads]帐户必需的批量处理工作表数据
@@ -146,11 +146,11 @@ ht-degree: 0%
 | [!UICONTROL Product Group ID] | 标识现有产品组的唯一ID。 在CSV和TSV文件中，它前面必须加一个单引号(&#39;)。[^1]仅当更改或删除产品组时才需要，除非该行包含a)足够的属性列来标识产品组或b)“[!UICONTROL AMO ID]”。 |
 | [!UICONTROL Sitelink ID] | 标识现有站点链接的唯一ID。 在CSV和TSV文件中，它前面必须加一个单引号(&#39;)。[^1]仅当更改或删除站点链接时才需要，除非该行包含a)足以标识站点链接的属性列或b)“[!UICONTROL AMO ID]”。 但是，如果您既不包括[!UICONTROL Sitelink ID]也不包括[!UICONTROL AMO ID]，并且属性列与多个站点链接匹配，则只有其中一个站点链接的状态会更改。</p><p><b>注意：</b>如果您编辑的站点链接属性列（现有Sitelink的状态除外），并且您既不包括[!UICONTROL Sitelink ID]也不包括[!UICONTROL AMO ID]，则会创建一个新的Sitelink，并且现有Sitelink不会发生更改。 |
 | [!UICONTROL RLSA Target ID] | 标识现有营销活动或广告组级别RLSA目标或排除项的唯一ID。 在CSV和TSV文件中，它前面必须加一个单引号(&#39;)。[^1]仅当更改或删除目标或排除项时才需要，除非行中包含目标的“[!UICONTROL AMO ID]”。 |
-| [!UICONTROL Device Target ID] | <p>标识现有营销活动级别或广告组级别设备目标或排除项的唯一ID。 在CSV和TSV文件中，它前面必须加一个单引号(&#39;)。[^1]只有在更改或删除目标时才需要，除非该行包含目标的“[!UICONTROL AMO ID]”。</p> |
-| [!UICONTROL Campaign Excluded URL ID] | 营销活动排除的URL表达式的ID。 |
-| [!UICONTROL Ad Group Included URL ID] | 广告组中包含的URL表达式的ID。 |
-| [!UICONTROL Campaign Brand Criterion ID] | 营销活动的品牌列表标准的ID。 |
-| [!UICONTROL Ad Group Brand Criterion ID] | 广告组的品牌列表标准的ID。 |
+| [!UICONTROL Device Target ID] | 标识现有营销活动级别或广告组级别设备目标或排除项的唯一ID。 在CSV和TSV文件中，它前面必须加一个单引号(&#39;)。[^1]只有在更改或删除目标时才需要，除非该行包含目标的“[!UICONTROL AMO ID]”。 |
+| [!UICONTROL Campaign Excluded URL ID] | 标识促销活动排除URL的唯一ID。 仅在更改或删除URL排除列表时才需要。 |
+| [!UICONTROL Ad Group Included URL ID] | 标识广告组所包含URL的唯一ID。 仅在更改或删除URL包含列表时才需要。 |
+| [!UICONTROL Campaign Brand Criterion ID] | （只读）标识每个促销活动品牌列表标准的唯一ID。 [!DNL Google Ads]在您添加品牌列表包含或排除项后创建此ID。 请勿输入或编辑值。 |
+| [!UICONTROL Ad Group Brand Criterion ID] | （只读）标识每个广告组品牌列表标准的唯一ID。 [!DNL Google Ads]在您添加品牌列表包含或排除项后创建此ID。 请勿输入或编辑值。 |
 | [!UICONTROL AMO ID] | （在生成的批量工作表中）Adobe为同步实体生成的唯一标识符。 对于响应式搜索广告，编辑或删除广告时需要AMO ID，除非您包含广告ID。 要编辑所有其他具有AMO ID的实体类型的数据，需要使用AMO ID来编辑或删除数据，除非您包含实体ID和父实体ID。<br><br>Search、Social和Commerce使用该值确定要编辑的正确身份，但不会将ID发布到广告网络。 |
 | [!UICONTROL EF Error Message] | （出于信息目的包含在生成的批量工作表中）用于显示来自广告网络的关于行中数据的错误消息的占位符；错误消息包含在[!UICONTROL EF Errors]文件中。 此值未发布到广告网络。 |
 | [!UICONTROL SE Error Message] | （出于信息目的包含在生成的批量工作表中）用于显示来自广告网络的关于行中数据的错误消息的占位符；错误消息包含在[!UICONTROL SE Errors]文件中。 此值未发布到广告网络。 |

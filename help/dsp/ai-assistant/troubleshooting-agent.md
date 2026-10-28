@@ -15,16 +15,17 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ffe7424d4e225a95b279b06a7df3b85bf0cbcdbf
+source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '804'
 ht-degree: 0%
 ---
-# 使用AI助手排查性能和投放问题
+# 使用AI Assistant排查性能和投放问题
+
 
 *Beta功能*
 
-AI Assistant的故障排除代理可以识别限制实时包和投放性能的因素，并提供解决问题的建议。 故障排除代理可帮助诊断以下类型的性能和传递问题：
+AI Assistant的故障排除代理可识别限制实时包和投放位置的性能的因素，并根据历史数据提供分步说明和建议，以解决问题。 故障排除代理可帮助诊断以下类型的性能和传递问题：
 
 * （仅限置入）支出问题，包括过度支出、支出不足和无法支出。 代理在诊断过程中会评估相关的步调、竞价、定位和预算上限因素。
 
@@ -32,7 +33,7 @@ AI Assistant的故障排除代理可以识别限制实时包和投放性能的�
 
 每个对话都涵盖单个包或投放位置的单个诊断。 代理提交结果后，即开始新的对话以询问其他问题，或关于其他包或投放位置。
 
-代理无法更改设置，也无法创建或编辑营销活动或营销活动组件。 它也无法诊断已暂停、已完成、已存档或计划的包或放置的问题。
+代理无法更改设置、创建或编辑营销活动或营销活动组件，也无法诊断已暂停、已完成、已存档或计划软件包或投放位置的问题。
 
 >[!IMPORTANT]
 >
@@ -87,7 +88,7 @@ AI Assistant的故障排除代理可以识别限制实时包和投放性能的�
 >
 >若要询问其他问题，或者关于其他包或投放位置，[开始一个新对话](#conversation-new)。
 
-## 从[!UICONTROL Placements]或[!UICONTROL Placements]视图提交查询
+## 从[!UICONTROL Packages]或[!UICONTROL Placements]视图提交查询
 
 您可以在一封邮件中询问多个问题，但一次只能询问一封邮件。 等待响应后再发送另一个响应。
 
@@ -130,7 +131,7 @@ AI Assistant的故障排除代理可以识别限制实时包和投放性能的�
 
 ## 开始新对话 {#conversation-new}
 
-每个对话或查询线程将单独保存，以便您能够区分以前的对话。
+每个对话（或查询线程）单独保存，以便您能够区分以前的对话。
 
 1. 在[聊天盒](#ai-assistant-open)的顶部，单击![开始新对话](/help/dsp/assets/new-selection.png "开始新对话")。
 
