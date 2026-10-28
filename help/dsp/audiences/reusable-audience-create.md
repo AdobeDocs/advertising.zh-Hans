@@ -18,16 +18,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a8b5c9e6cbeb50467224496a1f52f06252da1e36
+source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
 workflow-type: tm+mt
-source-wordcount: '2104'
+source-wordcount: '2106'
 ht-degree: 0%
 ---
 # 创建可重复使用的受众
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
-您可以保存和管理可重用受众，这些受众是受众区段（包括任何您可用的第一方和第三方区段）组，甚至是其他保存的受众组。 您可以将受众用作多个投放位置的定位或排除项。
+您可以保存和管理可重用受众，这些受众是受众区段组，您可以将其用作多个投放位置的定位或排除项。 可重用受众可以包括您可以使用的任何第一方和第三方区段，甚至包括其他保存的受众。
 
 在统一的[AI Assistant](/help/dsp/ai-assistant/ai-assistant-about.md)或[!UICONTROL Audiences] > [!UICONTROL All Audiences]视图中，使用AI辅助的受众代理创建受众，或手动创建受众。
 

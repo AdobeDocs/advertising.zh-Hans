@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a5cff4dbddc5c50b0678b56f8a071e19bd6af5b1
+source-git-commit: fe1a63dbe2c03335a5fbd0dfd3ab5902ca3c0527
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '268'
 ht-degree: 0%
 ---
 # 使用AI助手生成可重用受众
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 *仅支持英语*
 
-使用AI助手的受众生成器代理生成可重用受众，这些受众是受众区段（包括任何您可用的第一方和第三方区段）组，甚至是其他保存的受众组。 您以后可以将受众用作多个投放位置的定位或排除项。
+使用AI助手的受众生成器代理生成[可重复使用的受众](/help/dsp/audiences/audience-about.md)。 可重用受众可以包括您可以使用的任何第一方和第三方区段，甚至包括其他保存的受众。
 
 >[!IMPORTANT]
 >
