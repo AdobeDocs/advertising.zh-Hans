@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '472'
 ht-degree: 0%
 ---
 # 关于Advertising DSP中的AI助手
@@ -36,6 +36,7 @@ DSP中的AI助手是一个对话界面，可让您从单个聊天盒执行DSP中
 
 | 功能 | 描述 | 响应 |
 | --- | --- | --- |
+| [受众生成器代理](/help/dsp/ai-assistant/audience-builder-agent.md) | （Beta功能）生成可重复使用的受众，即受众区段（包括任何您可用的第一方和第三方区段）组，甚至是其他保存的受众组。 您以后可以将受众用作多个投放位置的定位或排除项。 | 响应中首先包括受众定义，然后是生成的受众区段，您可以将其另存为受众。 |
 | [疑难解答](troubleshooting-agent.md) | （Beta功能）诊断实时包和投放的性能和投放问题。 | 响应中包含限制性能的因素，并提供解决问题的分步说明和建议。 |
 | [分析](insights-agent.md) | （Beta功能）获取促销活动指标和完整报表，而无需手动创建报表。 可以将结果下载为CSV文件。 | 显示报告的前几行，其中包含预览完整报告以及以[!DNL Microsoft Excel]逗号分隔值文件(.csv)格式下载报告的链接。 |
 | [产品文档搜索](documentation-search.md) | 在[Advertising DSP指南](/help/dsp/home.md)中搜索概念内容和操作方法内容，在使用Advertising Creative的广告商中搜索[Advertising Creative指南](/help/creative/home.md)。 | 响应包括内联引用和底部的可扩展[!UICONTROL Documentation Sources]列表。 单击任意引文或源列表以打开相关页面。<br><br>响应可能还包括后续问题和建议，以帮助您优化查询和查找更多信息。 |

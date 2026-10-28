@@ -15,14 +15,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ffe7424d4e225a95b279b06a7df3b85bf0cbcdbf
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 0%
 ---
 # 使用AI助手创建报告
 
 *Beta功能*
+
+*仅支持英语*
 
 使用AI助手的分析代理获取营销活动、营销活动组件、Advertising Creative体验、广告商和广告目标的量度和完整报表，而无需手动创建报表。 您可以询问有关特定量度的简单问题，例如营销活动的支出或CPA，或针对特定维度（例如单个营销活动或受众）或跨维度（每个营销活动和广告商的细分）请求更复杂的报表。 可以将结果下载为CSV文件。
 

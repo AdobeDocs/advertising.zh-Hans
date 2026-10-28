@@ -15,15 +15,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '808'
 ht-degree: 0%
 ---
 # 使用AI Assistant排查性能和投放问题
 
-
 *Beta功能*
+
+*仅支持英语*
 
 AI Assistant的故障排除代理可识别限制实时包和投放位置的性能的因素，并根据历史数据提供分步说明和建议，以解决问题。 故障排除代理可帮助诊断以下类型的性能和传递问题：
 

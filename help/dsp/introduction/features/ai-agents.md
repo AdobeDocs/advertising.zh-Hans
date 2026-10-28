@@ -17,9 +17,9 @@ subfeature_v2:
     internal-label: AI features
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
     internal-label: Audiences
-source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '120'
 ht-degree: 0%
 ---
 # Adobe Advertising DSP中的AI辅助功能
@@ -29,6 +29,8 @@ DSP提供人工智能辅助代理，这些代理使用自然语言提示帮助�
 * [搜索概念内容和操作方法内容](/help/dsp/agent-chat.md)
 
 * Unified AI助手：
+
+  * [生成可重复使用的受众](/help/dsp/ai-assistant/audience-builder-agent.md)。
 
   * [创建营销活动、营销活动组件、Advertising Creative体验、广告商和广告目标的报告](/help/dsp/ai-assistant/insights-agent.md)。
 
