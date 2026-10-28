@@ -1,6 +1,6 @@
 ---
 title: 创建可重复使用的受众
-description: 了解如何创建可重用受众，这些受众由受众区段和其他保存的受众组成。 可选地使用人工智能辅助的受众代理，方法是在自然语言提示中描述目标受众；该代理会建议第三方区段并构建受众表达式以用作目标或排除项。
+description: 了解如何创建可重用受众以用作投放目标或排除项。 在Adobe Advertising DSP中手动创建可重用受众，或在AI Assistant或所有受众视图中通过创作AI创建可重用受众。
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
 TQID: 'https://experienceleague.adobe.com/KhAxVTvMx4yBz3tfDtng3nOur2IodZAFFHMUQM1lKhQ'
@@ -18,26 +18,146 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: a8b5c9e6cbeb50467224496a1f52f06252da1e36
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '2104'
 ht-degree: 0%
 ---
 # 创建可重复使用的受众
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
-您可以保存和管理可重用受众，这些受众是受众区段组，甚至是其他保存的受众，您可以将其用作多个投放位置的定位或排除项。 手动创建受众或使用AI辅助的受众代理，根据您所述的要求，使用您可用的所有第一方和第三方区段生成新的可重用受众。
+您可以保存和管理可重用受众，这些受众是受众区段（包括任何您可用的第一方和第三方区段）组，甚至是其他保存的受众组。 您可以将受众用作多个投放位置的定位或排除项。
+
+在统一的[AI Assistant](/help/dsp/ai-assistant/ai-assistant-about.md)或[!UICONTROL Audiences] > [!UICONTROL All Audiences]视图中，使用AI辅助的受众代理创建受众，或手动创建受众。
 
 >[!NOTE]
 >
 >（DSP将其经过哈希处理的电子邮件ID转换为LiveRamp RampID区段的广告商）未附加到活动、计划或暂停投放位置的第一方RampID区段将会暂停。 该区段在区段列表中标记为“自动暂停”。
 
-## 手动创建可重复使用的受众
+## 使用带有AI助理的创作AI创建可重用受众
+
+*Beta功能*
+
+*仅支持英语*
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
+
+>[!NOTE]
+>
+>此功能处于测试版模式，可能会发生更改。 在保存受众并将其用于投放之前，请确保生成的受众表达式表示所需受众。
+
+1. 打开AI助手：
+
+   * 在主菜单中，单击&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**。 在数据表上方，单击&#x200B;**[!UICONTROL Create]>[!UICONTROL Create with AI]**。
+
+   * 单击任意页面右上角的![代理聊天](/help/dsp/assets/agent-chat.png "代理聊天")。
+
+1. 定义受众：
+
+   1. 通过下列任一方式创建初始提示以定义受众：
+
+      * 输入您自己的目标受众简介或要包含和排除的一些受众特征。
+
+      * 要查看目标受众简报的示例，并可以选择复制一个以供使用：
+
+        1. 单击&#x200B;**[!UICONTROL Build]**&#x200B;展开该部分。
+
+        1. （可选）将示例受众简介的文本复制到提示框中：
+
+           1. 单击示例。
+
+           1. （可选）根据您的需要编辑文本。
+
+      请参阅“[编写提示的基础知识](#writing-prompts)”和“[创建受众摘要](#audience-brief-best-practices)的最佳实践”。
+
+   1. 若要提交提示，请单击![提交提示](/help/dsp/assets/submit-prompt.png "提交提示")。
+
+      您可以在一个提示中询问多个问题，但一次只能询问一个提示。 等待响应，然后才能发送其他提示。
+
+      此时将打开一个侧面板，其中受众定义位于[!UICONTROL Step 1: Audience Definition]选项卡中。 该定义包括所有定义的受众过滤器、优化标准以及要排除的任何第一方区段。
+
+      在适用的情况下，AI Assistant会建议使用其他受众过滤器，以帮助您创建更有效的受众摘要。 您可以接受或拒绝建议。
+
+   1. （可选）要排除您的任何第一方区段，请提示AI助手执行该操作，或单击&#x200B;**[!UICONTROL First-party segments to exclude]**&#x200B;部分中的![编辑](/help/dsp/assets/edit-ai.png "编辑")，选择要为受众排除的任何区段，然后单击&#x200B;**[!UICONTROL Apply]**。
+
+   1. （可选）根据需要提交其他提示，以描述要包含和排除的受众特征。 若要提交每个提示，请单击![提交提示](/help/dsp/assets/submit-prompt.png "提交提示")。
+
+1. 当受众定义符合您的条件时，指定要包含的区段：
+
+   1. 提示AI助手搜索匹配区段。 您可以说“确定”、“执行”、“继续”、“搜索”或任何相关术语或短语。
+
+      [!UICONTROL Step 2: Audience Segments]选项卡显示建议的受众名称、受众大小和分布、布尔受众表达式以及按特征分组的所包含受众区段的列表。
+
+   1. （可选）在底部的[!UICONTROL Audience segments]部分中，执行以下任一操作：
+
+      * 要展开每个受众区段组，请单击计数旁边的&#x200B;**[!UICONTROL >]**。
+
+      * 要将所包含受众区段的区段ID复制到剪贴板，请单击&#x200B;**[!UICONTROL Copy rule]**。
+
+      * 要从受众中删除区段，请提示AI助手执行此操作，或单击![编辑](/help/dsp/assets/edit-ai.png "编辑")，取消选择要从受众中删除的任何区段，然后单击&#x200B;**[!UICONTROL Apply]**。
+
+1. 如果您对组合受众感到满意，请单击&#x200B;**[!UICONTROL Save Audience]**&#x200B;以创建指定的受众。
+
+   >[!NOTE]
+   >
+   >若要稍后编辑受众，请[手动编辑受众表达式](/help/dsp/audiences/reusable-audience-edit.md)。
+
+## 从[!UICONTROL Audiences] > [!UICONTROL All audiences]视图中，使用生成AI创建可重用受众
+
+*Beta功能*
+
+*仅支持英语*
+
+>[!NOTE]
+>
+>此功能处于测试版模式，可能会发生更改。 在保存受众并将其用于投放之前，请确保生成的受众表达式表示所需受众。
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**。
 
 1. 在数据表上方，单击&#x200B;**[!UICONTROL Create]**。
+
+1. 在[!UICONTROL New Audience]设置中：
+
+   1. 输入唯一的&#x200B;**[!UICONTROL Audience Name]**。
+
+   1. （可选）取消选择&#x200B;**[!UICONTROL Share with all advertisers in my account]**&#x200B;的选项。
+
+      当您共享受众时，该受众将可用作帐户中所有广告商的目标或排除项。 但是，受众中的各个区段仅适用于共享这些区段的用户。 例如，如果您将包含Adobe Analytics区段的受众与未映射到同一[!DNL Analytics]帐户的广告商共享，则该受众不会预览该广告商的区段。 在受众中只会预览对该广告商可用的区段。
+
+   1. 单击&#x200B;**[!UICONTROL Save]**。
+
+1. 构建受众：
+
+   1. 输入一个或多个提示以描述要包含和排除的受众特征。 若要提交每个提示，请单击![提交提示](/help/dsp/assets/submit-prompt.png "提交提示")。
+
+      有关详细信息，请参阅&quot;[正在编写提示](#writing-prompts)&quot;和&quot;[创建受众简介的最佳实践](#audience-brief-best-practices)&quot;。
+
+      如果适用，代理会建议使用其他区段过滤器，以帮助您创建更有效的受众摘要。 您可以接受或拒绝建议。
+
+      当受众代理找到相关区段时，它会根据您的条件创建一个布尔受众表达式。 在查找匹配区段以组合受众之前，它还会要求您审批。 您可以选择忽略请求并继续指定其他受众条件。
+
+   1. 当受众代理呈现足以描述您的受众的受众表达式时，请告知受众代理继续组合受众。
+
+      您可以输入“继续”、“确定”、“确定”、“是”或其他类似词语。 工程师会列出每个特征的所有建议区段（如“Parents”）。 要查看有关为某个特征建议的各个区段的详细信息，请展开该特征。
+
+   1. （如有必要）指定其他标准。 当受众代理呈现符合所有标准的受众表达式时，请告知受众代理继续组合受众。
+
+      要集合受众，请输入“继续”、“确定”、“确定”或其他类似词语。 工程师会列出每个特征的所有建议区段（如“Parents”）。 要查看有关为某个特征建议的各个区段的详细信息，请展开任意特征。
+
+1. 如果您对组合受众感到满意，请单击&#x200B;**[!UICONTROL Create]**&#x200B;以创建指定的受众。
+
+   >[!NOTE]
+   >
+   >若要稍后编辑受众，请[手动编辑受众表达式](/help/dsp/audiences/reusable-audience-edit.md)。
+
+## 手动创建可重复使用的受众
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**。
+
+1. 在数据表上方，单击&#x200B;**[!UICONTROL Create]>[!UICONTROL Create manually]**。
 
 1. 在[!UICONTROL New Audience]设置中：
 
@@ -107,71 +227,21 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Create]**。
 
-## 使用创作AI创建可重用受众
-
-*Beta功能*
-
-*仅支持英语*
-
->[!NOTE]
->
->此功能处于测试版模式，可能会发生更改。 在创建受众并将其用于投放位置之前，请确保生成的受众表达式表示所需受众。
-
-<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
-
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**。
-
-1. 在数据表上方，单击&#x200B;**[!UICONTROL Create]**。
-
-1. 在[!UICONTROL New Audience]设置中：
-
-   1. 输入唯一的&#x200B;**[!UICONTROL Audience Name]**。
-
-   1. （可选）取消选择&#x200B;**[!UICONTROL Share with all advertisers in my account]**&#x200B;的选项。
-
-      当您共享受众时，该受众将可用作帐户中所有广告商的目标或排除项。 但是，受众中的各个区段仅适用于共享这些区段的用户。 例如，如果您将包含Adobe Analytics区段的受众与未映射到同一[!DNL Analytics]帐户的广告商共享，则该受众不会预览该广告商的区段。 在受众中只会预览对该广告商可用的区段。
-
-   1. 单击&#x200B;**[!UICONTROL Save]**。
-
-1. 构建受众：
-
-   1. 输入一个或多个提示以描述要包含和排除的受众特征。 若要提交每个提示，请单击![提交提示](/help/dsp/assets/submit-prompt.png "提交提示")。
-
-      有关详细信息，请参阅&quot;[正在编写提示](#writing-prompts)&quot;和&quot;[创建受众简介的最佳实践](#audience-brief-best-practices)&quot;。
-
-      如果适用，代理会建议使用其他区段过滤器，以帮助您创建更有效的受众摘要。 您可以接受或拒绝建议。
-
-      当受众代理找到相关区段时，它根据您的条件创建一个布尔受众表达式。 在查找匹配区段以组合受众之前，它还会要求您审批。 您可以选择忽略请求并继续指定其他受众条件。
-
-   1. 当受众代理呈现足以描述您的受众的受众表达式时，请告知受众代理继续组合受众。
-
-      您可以输入“继续”、“确定”、“确定”、“是”或其他类似词语。 工程师会列出每个特征的所有建议区段（如“Parents”）。 展开任何特征可查看有关为该特征建议的各个区段的详细信息。
-
-   1. （如有必要）指定其他标准。 当受众代理呈现符合所有标准的受众表达式时，请告知受众代理继续组合受众。
-
-      要集合受众，请输入“继续”、“确定”、“是”或其他类似词语。 工程师会列出每个特征的所有建议区段（如“Parents”）。 展开任何特征可查看有关为该特征建议的各个区段的详细信息。
-
-1. 如果您对组合受众感到满意，请单击&#x200B;**[!UICONTROL Create]**&#x200B;以创建指定的受众。
-
-   >[!NOTE]
-   >
-   >您之后无法使用受众代理编辑受众。 相反，[手动编辑受众表达式](/help/dsp/audiences/reusable-audience-edit.md)。
-
 ### 编写提示的基础知识 {#writing-prompts}
 
 <!-- Change heading level for this whole section to fit under AI procedure -->
 
-#### 提示应包含哪些内容？
+#### 编写受众提示的准则
 
 * 使用清晰的描述性语言描述目标受众。
 
-  * 您可以输入完整的句子，也可以只输入一串特征。 除非为清楚起见，否则不需要标点。
+  * 您可以输入完整的句子或一系列特征。 除非为清楚起见，否则不需要标点。
 
   * 通常，提示不区分大小写。
 
   * 受众代理可识别最常见的同义词。
 
-* 做到具体，并提供要包含的所有受众特征以及要排除的任何特征的详细信息。 您提供的详细信息越多，您获得满足需求的结果的机会就越大。
+* 做到具体，并提供要包含的所有受众特征以及要排除的任何特征的详细信息。 提供更多详细信息，有助于获得符合您需求的结果。
 
 * 确定要包括或排除的位置、设备类型和数据提供程序。
 
@@ -179,7 +249,7 @@ ht-degree: 0%
 
 * 了解如何通过试验进行提示。
 
-  如果您的提示不清晰，则受众代理将仅请求另一个提示，以便您可以重试。
+  如果您的提示不清晰，则受众代理会请求另一个提示，以便您重试。
 
   受众代理不会自动将生成的受众表达式另存为受众。 您只能通过单击提示区域之外的[!UICONTROL Create]按钮来保存受众，因此您可以撤消不想保留的任何更改。
 
@@ -243,7 +313,7 @@ Verify what info is carried over from session to session and what starts from sc
 
 * **人口统计**
 
-  包括年龄范围、性别、婚姻状况、家庭组成（家庭规模、子女情况、多代家庭）等属性。
+  包括年龄范围、性别认同、婚姻状况、家庭组成（家庭规模、子女人数、多代家庭）等属性。
 
 * **社会经济指标**
 
