@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
+source-git-commit: 59d4abad49f2684a4b0a5d46774757bffcd7afee
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2109'
 ht-degree: 0%
 ---
 # 创建可重复使用的受众
@@ -35,7 +35,9 @@ ht-degree: 0%
 >
 >（DSP将其经过哈希处理的电子邮件ID转换为LiveRamp RampID区段的广告商）未附加到活动、计划或暂停投放位置的第一方RampID区段将会暂停。 该区段在区段列表中标记为“自动暂停”。
 
-## 使用带有AI助理的创作AI创建可重用受众
+## 使用创作AI生成可重用受众
+
+### 使用AI助手创建可重用受众
 
 *Beta功能*
 
@@ -69,7 +71,7 @@ ht-degree: 0%
 
            1. （可选）根据您的需要编辑文本。
 
-      请参阅“[编写提示的基础知识](#writing-prompts)”和“[创建受众摘要](#audience-brief-best-practices)的最佳实践”。
+      请参阅“[编写提示并响应受众代理](#writing-prompts)”和“[创建受众简介的最佳实践](#audience-brief-best-practices)”。
 
    1. 若要提交提示，请单击![提交提示](/help/dsp/assets/submit-prompt.png "提交提示")。
 
@@ -103,7 +105,7 @@ ht-degree: 0%
    >
    >若要稍后编辑受众，请[手动编辑受众表达式](/help/dsp/audiences/reusable-audience-edit.md)。
 
-## 从[!UICONTROL Audiences] > [!UICONTROL All audiences]视图中，使用生成AI创建可重用受众
+### 从[!UICONTROL Audiences] > [!UICONTROL All audiences]视图中使用受众代理创建可重复使用的受众
 
 *Beta功能*
 
@@ -133,7 +135,7 @@ ht-degree: 0%
 
    1. 输入一个或多个提示以描述要包含和排除的受众特征。 若要提交每个提示，请单击![提交提示](/help/dsp/assets/submit-prompt.png "提交提示")。
 
-      有关详细信息，请参阅&quot;[正在编写提示](#writing-prompts)&quot;和&quot;[创建受众简介的最佳实践](#audience-brief-best-practices)&quot;。
+      有关详细信息，请参阅“[编写提示并响应受众代理](#writing-prompts)”和“[创建受众简介的最佳实践](#audience-brief-best-practices)”。
 
       如果适用，代理会建议使用其他区段过滤器，以帮助您创建更有效的受众摘要。 您可以接受或拒绝建议。
 
@@ -152,6 +154,128 @@ ht-degree: 0%
    >[!NOTE]
    >
    >若要稍后编辑受众，请[手动编辑受众表达式](/help/dsp/audiences/reusable-audience-edit.md)。
+
+### 创建受众简介的最佳实践 {#audience-brief-best-practices}
+
+受众摘要是一种策略性描述，用于定义营销活动的目标受众。 精心编制的简报可帮助DSP受众代理识别最相关的区段，以汇集您的目标受众。
+
+#### 有效受众简报的组成部分
+
+在您的简介中尽可能加入以下列表中的受众属性类型。 特定于要排除的属性。
+
+<!--
+ What about these:
+
+* Device specifications
+* Presence in audiences from specific third-party data providers
+* Presence of a universal ID
+* Target cost per thousand (CPM) impressions or a total target cost
+
+-->
+
+* **人口统计**
+
+  包括年龄范围、性别认同、婚姻状况、家庭组成（家庭规模、子女人数、多代家庭）等属性。
+
+* **社会经济指标**
+
+  通过家庭收入(HHI)范围、教育水平、职业/职称、就业状况和房屋所有权状况建立财政能力。
+
+* **地理参数**
+
+  定义地点范围，包括国家/国家、区域（欧洲、中东和非洲、亚太及北非）、人口密度（城市/郊区/农村）。
+
+* **兴趣和喜好**
+
+  识别激情和偏好设置，例如爱好（运动、艺术、户外活动）、媒体消费模式、品牌亲和力和生活方式活动（旅游、就餐、娱乐）。
+
+* **心理图形**
+
+  捕获心态和价值，包括抱负（寻求地位、自我改进）、核心价值（可持续性、创新、传统）、个性特征（风险承担者、早期采用者）和购买动机。
+
+* **行为信号**
+
+  可观察的操作包括购买行为（购物频率、渠道偏好设置、品牌忠诚度）、在线行为（网站访问、内容参与、社交媒体活动）和离线行为（商店访问、事件出席、成员资格）。
+
+* **市场内意图**
+
+  通过正在研究的产品/服务类别、购买时间表（即时、近期、长期）以及触发购买决策的相关生命周期事件确定购买就绪性。
+
+* **生命阶段**
+
+  当前阶段的理解包括职业发展阶段（学生、入门级、职业生涯中期、高管、退休）、家庭阶段（新婚、新父母、空巢家庭）和人生重大转变。
+
+#### 用于潜在客户活动的结构良好的受众简报示例
+
+以下是促销活动的强大受众简报示例，旨在提高知名度并试用高级套餐订阅服务：
+
+`The target audience consists of adults aged 28-45 (60% female, 40% male) with household incomes of $85K or more, college-educated professionals living in the USA. Psychographically, they are health-conscious individuals who value convenience and quality, aspire to be home cooks, and are food enthusiasts seeking better work-life balance. They actively engage with cooking and culinary content, follow health and wellness trends, shop at farmers markets, and prefer organic foods. Behaviorally, they are online grocery shoppers who use subscription services, dine out at restaurants 2+ times per week, and engage with food content on social media. They are currently in-market for meal planning solutions and food subscription services, with many focused on weight management and healthy eating programmes. The audience includes young families with children and dual-income households, as well as career-focused professionals. The brief excludes current subscribers and those following vegan/vegetarian diets as the initial launch focuses on protein-centric meal plans.`
+
+### 编写提示并响应受众代理 {#writing-prompts}
+
+<!-- Change heading level for this whole section to fit under AI procedure -->
+
+#### 编写受众提示的准则
+
+* 使用清晰的描述性语言描述目标受众。
+
+  * 您可以输入完整的句子或一系列特征。 除非为清楚起见，否则不需要标点。
+
+  * 通常，提示不区分大小写。
+
+  * 受众代理可识别最常见的同义词。
+
+* 做到具体，并提供要包含的所有受众特征以及要排除的任何特征的详细信息。 提供更多详细信息，有助于获得符合您需求的结果。
+
+* 确定要包括或排除的位置、设备类型和数据提供程序。
+
+* 在保存受众之前，反复提供详细信息以优化您的标准和生成的受众表达式。
+
+* 了解如何通过试验进行提示。
+
+  如果您的提示不清晰，则受众代理会请求另一个提示，以便您重试。
+
+  受众代理不会自动将生成的受众表达式另存为受众。 您只能通过单击提示区域之外的[!UICONTROL Create]按钮来保存受众，因此您可以撤消不想保留的任何更改。
+
+有关优化受众提示的进一步方法，请参阅[创建受众摘要](#audience-brief-best-practices)的最佳实践。
+
+<!--
+Consider starting by asking for what you should include.
+
+you can give thumbs up or down to [what exactly?].
+
+Verify what info is carried over from session to session and what starts from scratch.
+
+-->
+
+#### 提示限制
+
+* 对现有受众的引用。
+
+* 英语以外的其他语言的文本。
+
+#### 如何响应受众代理
+
+当受众代理需要您做出响应时，您可以使用请求中的关键字或使用通用同义词进行回复。
+
+##### 确认是否继续
+
+`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
+
+您的肯定回复：“继续”、“确定”、“确定”、“是”或其他类似词语
+
+您还可以忽略请求并继续指定其他受众条件。
+
+##### 从建议的选项中进行选择
+
+`Would you like to:`
+`1) Proceed with this expression,`
+`2) Get maximum reach alternatives, or`
+`3) Modify the expression manually?`
+
+您的回复： `1`、`proceed`、`2`、`maximum reach`等。
+
+您还可以忽略请求并继续指定其他受众条件。
 
 ## 手动创建可重复使用的受众
 
@@ -226,128 +350,6 @@ ht-degree: 0%
         >如果受众已包含任何区段逻辑，则在新的区段逻辑中粘贴将覆盖现有逻辑。
 
 1. 单击&#x200B;**[!UICONTROL Create]**。
-
-### 编写提示的基础知识 {#writing-prompts}
-
-<!-- Change heading level for this whole section to fit under AI procedure -->
-
-#### 编写受众提示的准则
-
-* 使用清晰的描述性语言描述目标受众。
-
-  * 您可以输入完整的句子或一系列特征。 除非为清楚起见，否则不需要标点。
-
-  * 通常，提示不区分大小写。
-
-  * 受众代理可识别最常见的同义词。
-
-* 做到具体，并提供要包含的所有受众特征以及要排除的任何特征的详细信息。 提供更多详细信息，有助于获得符合您需求的结果。
-
-* 确定要包括或排除的位置、设备类型和数据提供程序。
-
-* 在保存受众之前，反复提供详细信息以优化您的标准和生成的受众表达式。
-
-* 了解如何通过试验进行提示。
-
-  如果您的提示不清晰，则受众代理会请求另一个提示，以便您重试。
-
-  受众代理不会自动将生成的受众表达式另存为受众。 您只能通过单击提示区域之外的[!UICONTROL Create]按钮来保存受众，因此您可以撤消不想保留的任何更改。
-
-有关优化受众提示的进一步方法，请参阅[创建受众摘要](#audience-brief-best-practices)的最佳实践。
-
-<!--
-Consider starting by asking for what you should include.
-
-you can give thumbs up or down to [what exactly?].
-
-Verify what info is carried over from session to session and what starts from scratch.
-
--->
-
-#### 在提示中不能包含哪些内容？
-
-* 对现有受众表达式的引用。
-
-* 英语以外的其他语言的文本。
-
-#### 受众代理响应示例以及如何回复
-
-当受众代理需要您做出响应时，您可以使用请求中的关键字或使用通用同义词进行回复。
-
-#### Audience Agent询问您问题
-
-`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
-
-您的肯定回复：“继续”、“确定”、“确定”、“是”或其他类似词语
-
-您还可以忽略请求并继续指定其他受众条件。
-
-##### 受众代理，要求您从多个选项中进行选择
-
-`Would you like to:`
-`1) Proceed with this expression,`
-`2) Get maximum reach alternatives, or`
-`3) Modify the expression manually?`
-
-您的回复： `1`、`proceed`、`2`、`maximum reach`等。
-
-您还可以忽略请求并继续指定其他受众条件。
-
-### 创建受众简介的最佳实践 {#audience-brief-best-practices}
-
-受众摘要是一种策略性描述，用于定义营销活动的目标受众。 精心编制的简报可帮助DSP受众代理识别最相关的区段，以汇集您的目标受众。
-
-#### 有效的受众简报的重要组成部分
-
-在您的简介中尽可能加入以下列表中的受众属性类型。 特定于要排除的属性。
-
-<!--
- What about these:
-
-* Device specifications
-* Presence in audiences from specific third-party data providers
-* Presence of a universal ID
-* Target cost per thousand (CPM) impressions or a total target cost
-
--->
-
-* **人口统计**
-
-  包括年龄范围、性别认同、婚姻状况、家庭组成（家庭规模、子女人数、多代家庭）等属性。
-
-* **社会经济指标**
-
-  通过家庭收入(HHI)范围、教育水平、职业/职称、就业状况和房屋所有权状况建立财政能力。
-
-* **地理参数**
-
-  定义地点范围，包括国家/国家、区域（欧洲、中东和非洲、亚太及北非）、人口密度（城市/郊区/农村）。
-
-* **兴趣和喜好**
-
-  识别激情和偏好设置，例如爱好（运动、艺术、户外活动）、媒体消费模式、品牌亲和力和生活方式活动（旅游、就餐、娱乐）。
-
-* **心理图形**
-
-  捕获心态和价值，包括抱负（寻求地位、自我改进）、核心价值（可持续性、创新、传统）、个性特征（风险承担者、早期采用者）和购买动机。
-
-* **行为信号**
-
-  可观察的操作包括购买行为（购物频率、渠道偏好设置、品牌忠诚度）、在线行为（网站访问、内容参与、社交媒体活动）和离线行为（商店访问、事件出席、成员资格）。
-
-* **市场内意图**
-
-  通过正在研究的产品/服务类别、购买时间表（即时、近期、长期）以及触发购买决策的相关生命周期事件确定购买就绪性。
-
-* **生命阶段**
-
-  当前阶段的理解包括职业发展阶段（学生、入门级、职业生涯中期、高管、退休）、家庭阶段（新婚、新父母、空巢家庭）和人生重大转变。
-
-#### 用于潜在客户活动的结构良好的受众简报示例
-
-以下是促销活动的强大受众简报示例，旨在提高知名度并试用高级套餐订阅服务：
-
-`The target audience consists of adults aged 28-45 (60% female, 40% male) with household incomes of $85K or more, college-educated professionals living in the USA. Psychographically, they are health-conscious individuals who value convenience and quality, aspire to be home cooks, and are food enthusiasts seeking better work-life balance. They actively engage with cooking and culinary content, follow health and wellness trends, shop at farmers markets, and prefer organic foods. Behaviorally, they are online grocery shoppers who use subscription services, dine out at restaurants 2+ times per week, and engage with food content on social media. They are currently in-market for meal planning solutions and food subscription services, with many focused on weight management and healthy eating programmes. The audience includes young families with children and dual-income households, as well as career-focused professionals. The brief excludes current subscribers and those following vegan/vegetarian diets as the initial launch focuses on protein-centric meal plans.`
 
 >[!MORELIKETHIS]
 >
