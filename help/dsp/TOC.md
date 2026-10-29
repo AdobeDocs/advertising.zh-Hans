@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报展示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
+source-git-commit: bb51f0b99f757eb01d3132c1c998479600f3f487
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1116'
 ht-degree: 3%
 ---
 
@@ -109,6 +109,9 @@ ht-degree: 3%
   + [键盘快捷键](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
   + [有关营销活动管理的常见问题解答](/help/dsp/campaign-management/faq-campaign-management.md)
   + [关于通用视频的常见问题解答](/help/dsp/campaign-management/faq-universal-video.md)
++ 对话式广告(Beta) {#conversational-ads}
+  + [管理 [!DNL ChatGPT] 对话式广告帐户](/help/dsp/campaign-management/conversational-ads/account-manage.md)
+  + [管理 [!DNL ChatGPT] 对话式广告促销活动、广告组和广告](/help/dsp/campaign-management/conversational-ads/campaign-manage.md)
 + 优化 {#optimization}
   + [Advertising DSP如何优化您的活动](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
   + [优化目标以及如何使用它们](/help/dsp/optimization/optimization-goals.md)

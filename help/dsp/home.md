@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
+source-git-commit: 4b3b47621930d9f560e9967285d7400ef305e017
 workflow-type: tm+mt
-source-wordcount: '7979'
+source-wordcount: '8099'
 ht-degree: 0%
 ---
 # DSP的新增功能
@@ -50,6 +50,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年10月29日 | [!DNL ChatGPT Ads] | 通过Adobe DSP与[!DNL OpenAI Ads]的集成，您现在可以运行[!DNL ChatGPT Ads]聊天卡广告，这些广告显示在[!DNL ChatGPT]对话中。 对于此功能，DSP会创建一个广告帐户，并代表您的组织购买媒体。 使用此功能测试人工智能媒体，而不与[!DNL ChatGPT Ads]建立直接关系，这可能需要最低的支出承诺。<br><br> 由于[!DNL ChatGPT Ads]营销活动的结构与DSP营销活动不同，因此您将通过主菜单中的单独选项管理这些营销活动并查看效果数据： [!DNL Conversational Ads]。 营销活动、广告组和广告级别的效果数据包括[!UICONTROL Impressions]、[!UICONTROL Clicks]、[!UICONTROL Spend]、[!UICONTROL CTR]、[!UICONTROL Avg CPC]和[!UICONTROL Avg CPM]。<br><br> 要使用该功能，请联系您的Adobe客户团队以开始载入流程。 | 有关详细信息（包括资格），请参阅文档以管理[[!DNL ChatGPT Ads] 帐户](/help/dsp/campaign-management/conversational-ads/account-manage.md)以及相应的[促销活动、广告组和广告](/help/dsp/campaign-management/conversational-ads/campaign-manage.md)。 |
 | 2026年10月28日 | DSP中的[!DNL AI Assistant]，可重用[!UICONTROL Audiences] | 您现在可以使用[!DNL AI Assistant]从所有可用的第一方和第三方区段生成可重用受众。 [!UICONTROL Audiences] > [!UICONTROL All Audiences]中的受众代理仍然可用，您仍然可以手动创建受众。 | 请参阅“[关于Advertising DSP中的AI助手](/help/dsp/ai-assistant/ai-assistant-about.md)”、“[使用AI助手生成可重用受众](/help/dsp/ai-assistant/audience-builder-agent.md)”和“[创建可重用受众](/help/dsp/audiences/reusable-audience-create.md)”。 |
 | 2026年10月26日 | DSP中的[!DNL AI Assistant] | 使用DSP中的AI助手执行以下任一操作：<ul><li>（Beta功能）无需手动创建报告即可获取促销活动指标和完整报告</li>（Beta功能）诊断实时包和投放位置的性能和投放问题<li><li>搜索产品文档以了解有关使用DSP和[!UICONTROL Creative]的说明。 此项已经可用。</li></ul> | 请参阅“[关于Advertising DSP中的AI助手](/help/dsp/ai-assistant/ai-assistant-about.md)”以及使用AI助手[创建报告](/help/dsp/ai-assistant/insights-agent.md)和[性能和交付问题疑难解答](/help/dsp/ai-assistant/troubleshooting-agent.md)的说明。 |
 | 2026年10月15日 | [!DNL Creative] | （Beta功能）您现在可以在[!UICONTROL Creative Studio]中生成使用人工智能，以将现有的静态显示广告图像转换为可编辑的显示广告模板。 | 请参阅“[在[!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-templates.md){target="_blank"}中管理广告模板”。 |
