@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f907f445c70ce64368dfa7e77d4cd1900ecc7113
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '1504'
 ht-degree: 0%
 ---
 # 管理[!DNL Google Ads]动态搜索目标
@@ -45,19 +45,21 @@ ht-degree: 0%
 
 有关[!DNL Google Ads]动态搜索广告的更多信息，请参阅https://support.google.com/google-ads/answer/2471185。
 
-## [!UICONTROL Auto Targets]视图
+## [!UICONTROL Auto Targets]视图 {#auto-target-view-about}
 
 [!UICONTROL Targeting] > [!UICONTROL Auto Targets]视图列出了所选广告商帐户的筛选视图中的所有动态搜索目标。 您还可以管理动态搜索目标。
 
+查看数据需要[!UICONTROL View Auto Targets]权限。 创建目标并编辑其竞价或状态需要[!UICONTROL Edit Auto Targets]权限。
+
 ### 可用操作
 
-<!--
-* Create a dynamic search target
+* [创建动态搜索目标](#auto-target-create)
 
-* Edit the settings for a dynamic search target
+* [编辑动态搜索目标的设置](#auto-target-edit)
 
-* Change the status of dynamic search targets
--->
+* [更改动态搜索目标的状态或删除动态搜索目标](#auto-target-status)
+
+* [将选定行中的所有数据复制到剪贴板](#copy-to-clipboard)
 
 * [将约束](#constraint-assign)分配给动态搜索目标，并[从动态搜索目标中移除约束](#constraint-unassign)
 
@@ -67,146 +69,107 @@ ht-degree: 0%
 >
 >您可以通过上传[批量工作表文件](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)并将它们发布到广告网络，同时创建和编辑大量目标数据（包括标签和限制分配）。
 
-<!--
-Not available yet:
+## 创建[!DNL Google Ads]动态搜索目标 {#auto-target-create}
 
-## Create a [!DNL Google Ads] dynamic search target
+您可以创建动态搜索目标来定义网站中的页面（即广告显示URL中使用的域），这些页面的内容用于定位同一广告组中的动态搜索广告。
 
-You can create dynamic search targets to define pages in your websites (that is, the domains used in your ads' display URLs) whose content is used to target your dynamic search ads in the same ad group.
-
-You can target all criteria or up to three individual criteria.
+您可以定位所有索引页面，或者指定最多三个条件。
 
 >[!NOTE]
 >
->To best track performance, create an "[!UICONTROL All Targets]" target for only one ad group per campaign.
+>要最佳跟踪性能，请使用[!UICONTROL All]选项为每个营销活动仅创建一个广告组的目标。
 
->[!TIP]
->
->To create many account components at once, use [campaign bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**。
 
-1. In the main menu, click **[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]**. In the submenus, click **[!UICONTROL Live] > [!UICONTROL Auto Targets]**.
+1. 在数据表上方，单击&#x200B;**[!UICONTROL Create Auto Target]**。
 
-1. In the toolbar above the data table, click ![Create](/help/search-social-commerce/assets/add.png "Create").
+1. 在&#x200B;**[!UICONTROL Basic Settings]**&#x200B;中，选择广告网络、帐户、营销活动和广告组。
 
-1. Select the ad network, the account, the campaign, and the ad group, and then click **[!UICONTROL Continue]**.
+1. 指定剩余的[动态搜索目标设置](#auto-target-create-settings)。
 
-1. Specify the [dynamic search target settings](#dynamic-search-target-settings).
+1. 单击&#x200B;**[!UICONTROL Review and Save]**。
 
-1. Click **[!UICONTROL Post]**.
+1. 查看设置。 要更改任何设置，请在适用的部分中单击![编辑](/help/search-social-commerce/assets/edit-new.png "编辑") **[!UICONTROL Edit]**&#x200B;并更改设置。
 
-## Edit [!DNL Google Ads] dynamic search target settings
+1. 单击&#x200B;**[!UICONTROL Create]**。
 
-You can edit the status or maximum bid for a [!DNL Google Ads] dynamic search target. You can't change the criteria that are targeted.
+## 编辑[!DNL Google Ads]动态搜索目标设置 {#auto-target-edit}
 
->[!TIP]
->
->To edit large amounts of data at once, use [campaign bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+您可以编辑一个或多个动态搜索目标的状态或最高竞价。 您无法更改已定位的标准。
 
-1. In the main menu, click **[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]**. In the submenus, click **[!UICONTROL Live] > [!UICONTROL Auto Targets]**.
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**。
 
-1. Select the check box next to each row to edit.
+1. 选中要编辑的每一行旁边的复选框。
 
-   For tips on selecting multiple rows, see "[Select multiple rows](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)."
+   有关选择多行的提示，请参阅“[选择多行](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)”。
 
-1. In the toolbar above the data table, click ![Edit](/help/search-social-commerce/assets/edit.png "Edit").
+1. 在批量操作工具栏中，单击&#x200B;**[!UICONTROL Edit]**。
 
-1. Specify the [dynamic search target settings](#dynamic-search-target-settings).
+1. 在&#x200B;**[!UICONTROL Edit Auto Targets]**&#x200B;面板中，编辑[状态和竞价设置](#auto-target-edit-settings)。
 
-   For multiple targets, your changes are applied to all of the selected targets. For the [!UICONTROL Bid field], you have options to change existing values to a specified value or to either increase or decrease the amount by a specified percentage or monetary amount, with a limit.
+   您的更改将应用于所有选定的目标。 未更改的设置将保留其现有值。
 
-1. Save the data:
+   当所选目标使用多种货币时，将禁用竞价编辑。 您仍然可以更改其状态。
 
-   * (Single targets) Click **[!UICONTROL Post]**.
-   
-   * (Multiple ad groups) Click **[!UICONTROL Post Now]**.
+1. 单击&#x200B;**[!UICONTROL Save]**。
 
-## Change the status of [!DNL Google Ads] dynamic search targets
+您还可以通过单击单个目标的竞价值，直接在数据表中编辑该目标的竞价。
 
-You can pause any active dynamic search target in a supported campaign type to stop using them for dynamic search ads in the same ad group. You can later use them as targets by changing the ad status back to active.
+## 更改[!DNL Google Ads]动态搜索目标的状态或将其删除 {#auto-target-status}
 
-You can also delete any dynamic target.
+您可以暂停活动的动态搜索目标，以停止将其用于同一广告组中的动态搜索广告。 您可以稍后通过将目标的状态更改回“活动”来恢复使用该目标。 您还可以删除动态搜索目标。
 
-1. In the main menu, click **[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]**. In the submenus, click **[!UICONTROL Live] > [!UICONTROL Auto Targets]**.
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**。
 
-1. (Optional) Filter the list to include specific dynamic targets.
+1. （可选）筛选列表以包含特定的动态搜索目标。
 
-1. Do either of the following:
-   
-   * To change the status of one dynamic target, click in the **[!UICONTROL Status]** column and change the status.
-   
-   * To delete one or more dynamic targets, do the following:
-   
-     1.  Select the check box next to each dynamic target you want to delete.
-     
-        For tips on selecting multiple rows, see "[Select multiple rows](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)."
-     
-     1. In the toolbar, click ![More](/help/search-social-commerce/assets/more.png "More") and select **[!UICONTROL Delete]**.
-     
-     1. In the confirmation message, click **[!UICONTROL Delete]**.
+1. 执行以下任一操作：
 
-## [!DNL Google Ads] dynamic search target settings {#dynamic-search-target-settings}
+   * 要更改某个目标的状态，请单击&#x200B;**[!UICONTROL Status]**&#x200B;列中的该目标的值，然后选择&#x200B;**[!UICONTROL Active]**&#x200B;或&#x200B;**[!UICONTROL Paused]**。
 
-### [!UICONTROL Auto-Target Details]
+   * 要更改多个目标的状态，请选中每个目标旁边的复选框，单击批量操作工具栏中的&#x200B;**[!UICONTROL Edit]**，在&#x200B;**[!UICONTROL Edit Auto Targets]**&#x200B;面板中选择&#x200B;**[!UICONTROL Status]**，然后单击&#x200B;**[!UICONTROL Save]**。
 
-**[!UICONTROL Auto-targets]:** (Required when you don't specify a website domain and language in the campaign's [!UICONTROL DSA Options] section; read-only for existing targets) Dynamic search targets for the ad group:
+   * 要删除一个或多个目标，请选中每个目标旁边的复选框，单击批量操作工具栏中的&#x200B;**[!UICONTROL ...]>[!UICONTROL Delete]**，然后单击确认消息中的&#x200B;**[!UICONTROL Confirm]**。
 
-* *[!UICONTROL All Targets]* (the default): Targets all indexed pages.
+## 将选定行中的所有数据复制到剪贴板 {#copy-to-clipboard}
 
-* *\[Specific Targets\]:* Targets up to three criteria for the indexed pages. When you select this, you must specify the criteria by specifying information categories and specific values for which to target ads (for example, "URL contains shoes.example.com"). To specify more than one criteria, click **[!UICONTROL + And]**. Target criteria include:
+根据应用的筛选条件和视图中可见的列，复制选定行中的可见信息。 信息将另存为制表符分隔值(TSV)。
 
-  * *[!UICONTROL Category]:* To show ads for indexed pages with a specific [!DNL Google Ads] content category.
+1. 选中要复制其数据的每一行旁边的复选框。
 
-  * *[!UICONTROL URL]:* To show ads for indexed pages with a specific URL, where the value may be included anywhere within the URL.
+1. 在批量操作工具栏中，单击&#x200B;**[!UICONTROL Copy]**。
 
-  * *[!UICONTROL Page Title]:* To show ads for indexed pages with specific text in the page title.
+## 管理动态搜索目标的约束分配 {#constraints}
 
-  * *[!UICONTROL Page Content]:* To show ads for indexed pages with specific content.
-
-**Status:** The status of the target settings:
-
-* *[!UICONTROL Active]* (the default): Enables bidding.
-
-* *[!UICONTROL Paused]:* Disables bidding.
-
-* *[!UICONTROL Deleted]* (existing targets only): Deletes the target settings.
-
-### [!UICONTROL Bids]
-
-**[!UICONTROL Bid]:** The maximum cost per click (CPC) for an ad or cost per 1000 impressions (CPM) for an ad, as applicable for the ad network and campaign pricing model. This value overrides the ad group-level value.
-
->[!NOTE]
->
->If the target is in an optimized portfolio, then the specified CPC bid is applied for one day. Afterward, the optimization capability places bids according to its own calculations.
-
--->
-
-## 从新[!UICONTROL Auto Targets]视图为选定的动态搜索目标分配约束 {#constraint-assign}
+### 为动态搜索目标分配约束 {#constraint-assign}
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**。
 
 1. 选中要为其分配单个约束的每个动态搜索目标旁边的复选框。
 
-1. 在批量操作工具栏中，单击&#x200B;**+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**。
+1. 在批量操作工具栏中，单击&#x200B;**+[!UICONTROL Assign]** > **[!UICONTROL Bid Constraint]**。
 
 1. 选择约束。
 
 1. 单击&#x200B;**[!UICONTROL Assign Now]**。
 
-## 从新[!UICONTROL Auto Targets]视图中删除所选动态搜索目标的约束 {#constraint-unassign}
+### 从所选动态搜索目标中移除约束 {#constraint-unassign}
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**。
 
 1. 选中要从中取消分配约束的每个动态搜索目标旁边的复选框。
 
-1. 在批量操作工具栏中，单击&#x200B;**-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**。
+1. 在批量操作工具栏中，单击&#x200B;**-[!UICONTROL Unassign]** > **[!UICONTROL Bid Constraint]**。
 
 1. 单击&#x200B;**[!UICONTROL Confirm]**。
 
-## 将分类值分配给动态搜索目标 {#classification-values-assign}
+## 管理动态搜索目标的分类值 {#classification-values}
+
+### 将分类值分配给动态搜索目标 {#classification-values-assign}
 
 >[!NOTE]
 >
->标签值由子实体继承，因此除非要覆盖继承的值，否则不要为子实体输入值。
+>标签值由子实体继承，因此，除非要覆盖继承的值，否则不要为动态搜索目标输入值。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**。
 
@@ -236,7 +199,7 @@ You can also delete any dynamic target.
 
 1. 单击&#x200B;**+[!UICONTROL Assign Now]**。
 
-## 从动态搜索目标中删除标签分类值 {#classification-values-remove}
+### 从动态搜索目标中删除标签分类值 {#classification-values-remove}
 
 删除分类值将删除与帐户组件及其所有子组件的关联。 分类值的报表数据不再可用于这些组件。 删除分类值不会删除该值，也不会删除帐户组件。
 
@@ -253,6 +216,64 @@ You can also delete any dynamic target.
    要选择所有分配的值，请单击&#x200B;**[!UICONTROL Select All]**。 要取消选择所有分配的值，请单击&#x200B;**[!UICONTROL Deselect All]**。
 
 1. 单击&#x200B;**[!UICONTROL Unassign Selected]**。
+
+## [!DNL Google Ads]动态搜索目标设置 {#dynamic-search-target-settings}
+
+### 创建过程中可用的设置 {#auto-target-create-settings}
+
+#### [!UICONTROL Auto Target Details]
+
+**自动定位：**&#x200B;内容用于定位广告组中的动态搜索广告的索引页面：
+
+* *[!UICONTROL All]* （默认）：定位所有索引页。
+
+* *[!UICONTROL Specific]：*&#x200B;定位匹配三个条件的页面。 选择条件并输入其值。 要添加另一个条件，请单击&#x200B;**[!UICONTROL And]**。 这些标准将与AND相结合，因此页面必须匹配所有指定的标准。 单击&#x200B;**[!UICONTROL Reset]**&#x200B;以清除条件。
+
+  * *[!UICONTROL Category]：*&#x200B;页面的[!DNL Google Ads]内容类别等于指定的值。 输入一个值。
+
+  * *[!UICONTROL URL]：*&#x200B;页面的URL包含指定的值，如`shoes.example.com`。 请输入有效的URL。
+
+  * *[!UICONTROL Page Title]：*&#x200B;页面标题包含指定的文本。 输入一个值。
+
+  * *[!UICONTROL Page Content]：*&#x200B;页面内容包含指定的文本。 输入一个值。
+
+创建目标后无法更改目标标准。
+
+**[!UICONTROL Status]：**&#x200B;目标的状态：
+
+* *[!UICONTROL Active]* （默认）：启用竞价。
+
+* *[!UICONTROL Paused]：*&#x200B;禁用竞价。
+
+**[!UICONTROL Bid]：**&#x200B;目标的最大每次点击成本(CPC)。 此值将覆盖广告组级别的竞价。 该字段是可选的；在输入竞价时，最小值为0.01（以帐户币种表示）。
+
+>[!NOTE]
+>
+>如果目标在优化的产品组合中，则应用指定的CPC竞价一天。 之后，优化功能根据自己的计算来设置投标。
+
+### 编辑过程中可用的设置 {#auto-target-edit-settings}
+
+#### [!UICONTROL Auto Target Details]
+
+**[!UICONTROL Status]：**&#x200B;选择&#x200B;**[!UICONTROL Active]**&#x200B;或&#x200B;**[!UICONTROL Paused]**。
+
+#### [!UICONTROL Bid details]
+
+当所选目标使用多种货币时，将禁用竞价编辑。
+
+**[!UICONTROL Bid adjustment]：**&#x200B;如何更改最大竞价：
+
+* *[!UICONTROL Set to]：*&#x200B;用[!UICONTROL Set value]中的金额替换每个出价。
+
+* *[!UICONTROL Increase]：*&#x200B;在[!UICONTROL Set value]中按金额或百分比增加每个出价。
+
+* *[!UICONTROL Decrease]：*&#x200B;按[!UICONTROL Set value]中的金额或百分比减少每个出价。
+
+**[!UICONTROL Modifier type]：** （对于[!UICONTROL Increase]和[!UICONTROL Decrease]）选择&#x200B;**[!UICONTROL Currency]**&#x200B;或&#x200B;**[!UICONTROL Percentage]**。
+
+**[!UICONTROL Set value]：**&#x200B;新出价，或者更改每个出价的金额或百分比。 最小值为0.01。
+
+**[!UICONTROL Max limit]：** （可选，适用于[!UICONTROL Increase]和[!UICONTROL Decrease]）帐户币种的限制。 对于提高，这是生成的最大出价。 对于降低，这是生成的最低出价。 输入限制时，最小值为0.01。
 
 >[!MORELIKETHIS]
 >
