@@ -16,7 +16,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
+source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 0%
@@ -327,8 +327,8 @@ ht-degree: 0%
 >
 >* [管理搜索竞价单位的约束](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [管理营销活动的限制分配](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)
->* [管理关键字的约束分配](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
->* [管理投放位置的约束分配](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
+>* [管理关键字的约束分配](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md#keyword-constraints)
+>* [管理投放位置的约束分配](/help/search-social-commerce/new-ui/targeting/placement-manage.md#placement-constraints)
 >* [（旧版UI）从营销活动管理视图下载数据](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [（旧版UI）从[!UICONTROL Downloads]菜单删除性能数据报告或批量处理工作表文件](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [[!DNL Baidu] 广告组设置](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)
