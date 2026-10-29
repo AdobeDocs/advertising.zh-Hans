@@ -5,12 +5,16 @@ exl-id: 8dc15996-db6e-4c37-a919-d0d49e7b8396
 TQID: https://experienceleague.adobe.com/-DOgcWyX-EFgD8W0rO76tWLYZtcS3XkvzNCp4Mf-Lrw
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 201

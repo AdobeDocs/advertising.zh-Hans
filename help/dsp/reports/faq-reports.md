@@ -5,15 +5,22 @@ exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
 TQID: https://experienceleague.adobe.com/3AN4vKu3BF-c4jwMusI402Z7lTLY0Nf30uwLZWBUE1E
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: a4042ccc2ff85513d35eb56cd514b8bac6ebf65e
 workflow-type: tm+mt
 source-wordcount: 1336
