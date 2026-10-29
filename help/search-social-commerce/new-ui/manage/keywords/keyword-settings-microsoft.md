@@ -54,9 +54,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Placeholders]
 
-**[!UICONTROL Param1]：**&#x200B;要用作替换值的字符串（如果关键字的基本URL或广告的标题、描述或基本URL包含[动态替换字符串`{Param1}`）。 ](https://help.bingads.microsoft.com/#apex/3/en/53079/0)最大长度为70个字符，但请注意，在其中使用它的广告元素的最大长度（例如，标题1和标题2组合可能最多为76个字符）。
+**[!UICONTROL Param1]：**&#x200B;要用作替换值的字符串（如果关键字的基本URL或广告的标题、描述或基本URL包含[动态替换字符串`{Param1}`）。 &#x200B;](https://help.bingads.microsoft.com/#apex/3/en/53079/0)最大长度为70个字符，但请注意，在其中使用它的广告元素的最大长度（例如，标题1和标题2组合可能最多为76个字符）。
 
-**[!UICONTROL Param2]：**&#x200B;要用作替换值的字符串（如果关键字的基本URL或广告的标题、描述或基本URL包含[动态替换字符串`{Param2}`）。 ](https://help.bingads.microsoft.com/#apex/3/en/53079/0)最大长度为70个字符，但请注意，在其中使用它的广告元素的最大长度（例如，标题1和标题2组合可能最多为76个字符）。
+**[!UICONTROL Param2]：**&#x200B;要用作替换值的字符串（如果关键字的基本URL或广告的标题、描述或基本URL包含[动态替换字符串`{Param2}`）。 &#x200B;](https://help.bingads.microsoft.com/#apex/3/en/53079/0)最大长度为70个字符，但请注意，在其中使用它的广告元素的最大长度（例如，标题1和标题2组合可能最多为76个字符）。
 
 ## [!UICONTROL URL Options]
 
