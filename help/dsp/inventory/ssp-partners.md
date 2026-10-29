@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 9d4ed06ec7196fc10be86a3e8c5c94701c90d170
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '471'
 ht-degree: 3%
 ---
 # SSP合作伙伴
@@ -40,7 +40,7 @@ ht-degree: 3%
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | PG支持 | 全局 | USD，欧元，英镑 | 音频桌面和移动设备 |
 | [!DNL Cadent] | [!DNL Cadent] （以前为[!DNL EMX Digital]） | Adobe Advertising | — | US/CA | USD | 显示桌面和移动设备<br><br>视频桌面、移动设备和电视 |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul]或Adobe Advertising | — | 美国+ EMEA | USD，欧元 | 显示桌面和移动设备<br><br>视频桌面、移动设备和电视 |
-| [!DNL Equativ] | [!DNL Equativ] （以前为[!DNL Smart AdServer]） | [!DNL TubeMogul]或Adobe Advertising | — | EMEA | USD，欧元 | 显示桌面和移动设备<br><br>视频桌面和移动设备 |
+| [!DNL Equativ/Sharethrough] | [!DNL Equativ] | [!DNL TubeMogul]或Adobe Advertising | — | 全局 | USD | 显示桌面和移动设备<br><br>本机显示<br><br>视频桌面、移动设备和电视 |
 | [!DNL FreeWheel] | [!DNL Comcast] | [!DNL TubeMogul]或Adobe Advertising | PG支持 | 全局 | USD，欧元，澳元，英镑 | 视频台式机、移动设备和CTV |
 | [!DNL Google Authorized Buyers] （以前为[!DNL Google AdX]） | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC和EU - 89185975 | PG支持 | 全局 | BRLUSD | 音频桌面和移动设备<br><br>显示桌面和移动设备<br><br>视频桌面、移动设备和电视 |
 | [!DNL GumGum] |  | Adobe Advertising | — | 全局 | USD | 显示桌面和移动设备<br><br>视频桌面和移动设备 |
@@ -51,7 +51,6 @@ ht-degree: 3%
 | [!DNL Nexxen] | [!DNL Nexxen] （以前为[!DNL Unruly]） | Adobe Advertising | — | 美国+ EMEA | USD | 显示桌面和移动设备<br><br>视频桌面、移动设备和电视 |
 | [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul]或Adobe Advertising | PG支持 | 全局 | USD | 显示桌面和移动设备<br><br>视频桌面、移动设备和电视 |
 | [!DNL PubMatic] | [!DNL Pubmatic] | [!DNL TubeMogul]或Adobe Advertising | — | 全局 | USD | 显示桌面和移动设备<br><br>视频桌面、移动设备和电视 |
-| [!DNL ShareThrough] |  | [!DNL TubeMogul]或Adobe Advertising | — | 全局 | USD | 显示桌面和移动设备<br><br>本机显示<br><br>视频桌面、移动设备和电视 |
 | [!DNL SmartClip] |  | Adobe Advertising | — | EMEA | 所有货币 | 显示桌面和移动设备<br><br>视频桌面、移动设备和电视 |
 | [!DNL Taboola] |  | Adobe Advertising | — | US/CA | USD | 视频桌面和移动设备 |
 | [!DNL Teads] |  | [!DNL TubeMogul]或Adobe Advertising | — | Outstream Video = Global<br>Display = NA + EMEA | USD | 显示桌面和移动设备<br><br>视频桌面、移动设备和电视 |

@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1464'
 ht-degree: 0%
 ---
 # 关于Advertising DSP中的受众管理
@@ -58,7 +58,7 @@ ht-degree: 0%
 
   * 无需执行任何额外步骤，即可在投放目标中包含包含通用ID的第三方区段。
 
-* 创建[可重用受众](/help/dsp/audiences/reusable-audience-create.md)的受众库。 保存的受众由任何可用受众区段和任何其他保存的受众组成。 您对保存的受众所做的任何更改将自动应用于所有定向或排除该受众的投放位置，并应用于包括保存的受众的所有其他受众。
+* 使用人工智能辅助的工作流或手动创建[可重用受众](/help/dsp/audiences/reusable-audience-create.md)的受众库。 保存的受众由任何可用受众区段和任何其他保存的受众组成。 您对保存的受众所做的任何更改将自动应用于所有定向或排除该受众的投放位置，并应用于包括保存的受众的所有其他受众。
 
   保存的受众允许媒体规划者根据需要对受众进行分组，具体做法是使用复杂的布尔逻辑包含和排除多个区段。 在您构建受众时，将指示每个单个区段的（可定位）大小和总体活跃受众大小。 然后，Campaign执行者只需选择一个或多个保存的受众作为投放目标，而无需为每个投放手动配置受众目标。
 

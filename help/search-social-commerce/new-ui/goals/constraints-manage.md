@@ -15,7 +15,7 @@ feature_v2:
 subfeature_v2:
   - id: c800239a-06eb-4249-9aef-771973d24d35
     internal-label: Portfolios
-source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
+source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
 workflow-type: tm+mt
 source-wordcount: '2660'
 ht-degree: 0%
@@ -190,7 +190,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 如果您稍后编辑广告的关键字或广告副本（从而创建新关键字或广告），则约束不会分配给新实体。
->* 查看[[!UICONTROL Campaigns]视图](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)、[[!UICONTROL Ad Groups]视图](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)、[[!UICONTROL Keywords]视图](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)或[[!UICONTROL Placements]视图](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)中的相同说明。<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
+>* 查看[[!UICONTROL Campaigns]视图](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)、[[!UICONTROL Ad Groups]视图](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)、[[!UICONTROL Keywords]视图](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md#keyword-constraint-assign)或[[!UICONTROL Placements]视图](/help/search-social-commerce/new-ui/targeting/placement-manage.md#placement-constraint-assign)中的相同说明。<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. 从主菜单中，打开相关的管理视图。
 
@@ -211,7 +211,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 要删除某个约束，使其不可用于将来使用，请参阅&quot;[更改约束的状态](#constraint-change-status)&quot;。
->* 查看[[!UICONTROL Campaigns]视图](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)、[[!UICONTROL Ad Groups]视图](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)、[[!UICONTROL Keywords]视图](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)或[[!UICONTROL Placements]视图](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)中的相同说明。<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
+>* 查看[[!UICONTROL Campaigns]视图](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)、[[!UICONTROL Ad Groups]视图](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)、[[!UICONTROL Keywords]视图](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md#keyword-constraint-unassign)或[[!UICONTROL Placements]视图](/help/search-social-commerce/new-ui/targeting/placement-manage.md#placement-constraint-unassign)中的相同说明。<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. 在主菜单中，打开相关的管理视图。
 
@@ -227,6 +227,6 @@ ht-degree: 0%
 >
 >* [管理营销活动的限制分配](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)
 >* [管理广告组的限制分配](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [管理关键字的约束分配](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
->* [管理投放位置的约束分配](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
+>* [管理关键字的约束分配](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md#keyword-constraints)
+>* [管理投放位置的约束分配](/help/search-social-commerce/new-ui/targeting/placement-manage.md#placement-constraints)
 >* [该[!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)

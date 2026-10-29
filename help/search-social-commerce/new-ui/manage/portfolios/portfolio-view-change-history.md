@@ -11,9 +11,9 @@ feature_v2:
     internal-label: Search Portfolios
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3d3a87acf3e963eb0ebbc8528c154d4193457c69
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '444'
 ht-degree: 0%
 ---
 # （新UI）查看项目组合的更改历史记录
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 您也可以将数据下载到电子表格文件。
 
-## （新UI）查看项目组合的更改历史记录 {#portfolio-change-history}
+## 查看项目组合的更改历史记录 {#portfolio-change-history}
 
 每次更改的信息包括日期、进行更改的人员的用户名、更改类型和更改的值。
 
