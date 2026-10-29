@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
     internal-label: Predictive modeling
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 700d05fb39b04918ae2662ce24746ed1e84f110e
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '897'
 ht-degree: 0%
 ---
 # （新UI）关于项目组合
@@ -73,14 +73,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Portfolios]视图
 
-[!UICONTROL Portfolios]视图列出筛选视图中的所有现有项目组合，其中包含可自定义的性能数据。 您可以[自定义视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)中的列，并从工具栏[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)筛选数据以包含特定项目组合。
+[!UICONTROL Portfolios]视图列出筛选视图中的所有现有项目组合，其中包含可自定义的性能数据。 您可以[自定义视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)中的列，并从工具栏](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)筛选数据以包含特定项目组合[。
 
-在数据表上方，您可以打开一个性能图，其中包含指定日期范围内视图中所有项目组合的最多三个指标总计。 您还可以打开项目组合详细信息，包括项目组合绩效和准确性，以及项目组合中每个促销活动、广告组和关键字的绩效数据。
-
-您可以直接在项目组合行中编辑某些设置，包括项目组合状态。 当项目组合或其关联的促销活动和子促销活动实体配置了影响支出的任何约束（包括网络、促销活动预算、目标、CPC限制或竞价单位约束）时，单击[!UICONTROL Constraints]列中的[!UICONTROL Yes]可查看所有约束（包括约束级别和类型）的列表。
-<!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group,  or import/export DOW targets. -->
-
-### 可用操作
+### 可用操作 {#available-actions}
 
 <!-- Update with any new options -->
 
@@ -90,22 +85,37 @@ ht-degree: 0%
 
 * [View the constraints for a portfolio](portfolio-view-constraint.md)
 
-* [View the change history for a portfolio](portfolio-view-change-history.md)
 -->
 
 * [创建项目组合](portfolio-create.md)
 
 * [复制项目组合](portfolio-duplicate.md)
 
-* [编辑项目组合设置](portfolio-edit.md)
+* 编辑设置：
 
-* [使用批量工作表文件批量编辑项目组合设置](portfolio-bulksheets.md)
+  * [重命名项目组合](portfolio-rename.md)
+
+  * [编辑完整的项目组合设置](portfolio-edit.md)
+
+  * 直接在项目组合行中编辑某些设置，包括项目组合状态。
+
+  * [使用批量工作表文件批量编辑项目组合设置](portfolio-bulksheets.md)
+
+* 深入查看项目组合中包含的广告网络、帐户、促销活动、广告组和广告，还可以选择深入查看所包含促销活动的关键词。 要开始，请单击项目组合名称。 该信息首先在筛选的[!UICONTROL Networks]视图中按广告网络列出。 单击广告网络可查看已筛选[!UICONTROL Accounts]视图中包含的帐户，单击帐户可查看已筛选[!UICONTROL Campaigns]视图中的促销活动，依此类推。
+
+  要从筛选的[!UICONTROL Campaigns]视图中打开[!UICONTROL Keywords]视图中的关键字列表，请单击[!UICONTROL Keywords]列中的值。
+
+* 打开项目组合的所有约束列表，包括约束级别和类型。 要查看约束列表，请单击[!UICONTROL Constraints]列中的[!UICONTROL Yes]。 为项目组合或其关联的营销活动和子营销活动实体配置影响支出的任何约束（包括网络、营销活动预算、目标、CPC限制或竞价单位约束）时，此选项可用。
 
 * [查看视图中所有项目组合的性能图](portfolio-view-performance-graph.md)
 
 * [查看项目组合绩效详细信息](portfolio-details.md)
 
+* [查看项目组合的更改历史记录](portfolio-view-change-history.md)
+
 * [在[!UICONTROL Portfolios]视图中下载数据](portfolio-view-report.md)
+
+* [将项目组合添加到项目组合组并管理项目组合组](portfolio-group-manage.md)
 
 >[!MORELIKETHIS]
 >
