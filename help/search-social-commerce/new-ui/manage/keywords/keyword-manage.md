@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
+source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1282'
 ht-degree: 0%
 ---
 # 管理关键字
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Review and Save]**。
 
-1. 如有必要，请单击![编辑](/help/search-social-commerce/assets/edit-new.png "编辑") **[!UICONTROL Edit]**&#x200B;并更改实体和/或关键字设置。
+1. 查看设置。 要更改任何设置，请在适用的部分中单击![编辑](/help/search-social-commerce/assets/edit-new.png "编辑") **[!UICONTROL Edit]**&#x200B;并更改设置。
 
 1. 单击&#x200B;**[!UICONTROL Create]**。
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Review and Save]**。
 
-1. 如有必要，请单击![编辑](/help/search-social-commerce/assets/edit-new.png "编辑")**[!UICONTROL Edit]**&#x200B;并更改关键字设置。
+1. 查看设置。 要更改任何设置，请在适用的部分中单击![编辑](/help/search-social-commerce/assets/edit-new.png "编辑") **[!UICONTROL Edit]**&#x200B;并更改设置。
 
 1. 单击&#x200B;**[!UICONTROL Update]**。
 
@@ -147,7 +147,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Review and Save]**。
 
-1. 如有必要，请单击![编辑](/help/search-social-commerce/assets/edit-new.png "编辑") **[!UICONTROL Edit]**&#x200B;并更改实体和/或负关键字。
+1. 查看设置。 要更改任何设置，请在适用的部分中单击![编辑](/help/search-social-commerce/assets/edit-new.png "编辑") **[!UICONTROL Edit]**&#x200B;并更改设置。
 
 1. 单击&#x200B;**[!UICONTROL Create]**。
 
