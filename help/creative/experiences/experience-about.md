@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1242'
 ht-degree: 0%
 ---
 # 关于Advertising Creative 2.0中的体验
@@ -51,6 +51,8 @@ ht-degree: 0%
   * 特定设备类型、操作系统和浏览器
 
   在决策树中创建目标受众分支后，您可以通过为分支分配创意捆绑包来将目标受众与潜在创意配对。 对于每个体验，您可以自定义创意捆绑包的优化和计划，并更改每个捆绑包中单个创意的默认登陆页面和跟踪URL<!-- later: and any flexible attributes -->。
+
+  默认的AI驱动决策树编辑器(Beta)允许您描述要对AI代理执行的树或更改、查看结果和直接编辑交互式画布。 您也可以使用现有的手动编辑器。 两个编辑器都配置相同类型的目标体验。 查看[决策树布局](experience-decision-tree.md)和[编辑使用决策树定位的体验](experience-edit-targeting.md)。
 
 * **没有决策树定位的体验：** [!DNL Creative]会优化广告体验的广告元素，而不会缩小受众范围。 对于每个体验，您可以指定开始和结束日期以及一些默认设置，但大多数工作流并不直接在体验中。 请使用[!UICONTROL Tag Manager]为体验的每个广告大小创建广告标记，然后为其添加创意，配置创意优化和计划，以及自定义登陆页面和跟踪URL<!-- later: and any flexible attributes -->，而不是将创意直接添加到体验。
 

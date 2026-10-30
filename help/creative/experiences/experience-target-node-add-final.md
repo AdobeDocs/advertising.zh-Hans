@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '1225'
 ht-degree: 0%
 ---
 # 将目标节点添加到体验中的最终级别
@@ -33,43 +33,117 @@ ht-degree: 0%
 >
 >要在决策树的现有级别之间插入目标节点，请参阅“[在体验中的节点之间插入目标节点](experience-target-node-add-inner.md)”。
 
-<!-- 1. [ways to get to the decision tree] -->
+## 使用AI驱动编辑器(Beta) {#ai-editor}
 
-1. 在要插入目标的节点下，单击![添加](/help/creative/assets/add.png "添加")，然后选择&#x200B;**[!UICONTROL Insert New Target]**。
+当您[创建](experience-create-targeting.md#ai-editor)或[编辑](experience-edit-targeting.md#ai-editor)体验时，您可以向AI代理描述新目标及其父分支。 在保存之前查看生成的树。 直接在画布中添加目标：
 
-1. 指定目标：
+1. 将光标悬停在分支末尾的父节点上并单击&#x200B;**[!UICONTROL +]**。
 
-   * 对于受众目标，请选择&#x200B;**[!UICONTROL Audience]**，单击&#x200B;**[!UICONTROL Click to Browse]**&#x200B;以打开[!UICONTROL Audience Targeting]选项，然后执行以下操作：
+1. 在&#x200B;**[!UICONTROL New targeting level]**&#x200B;中选择目标类别，然后单击&#x200B;**[!UICONTROL Add targeting level]**。
 
-     * 要添加第一个区段，请在左侧面板中查找该区段，然后选中区段名称旁边的复选框。
+1. 指定类别的目标值：
+
+   * 对于受众目标：
+
+     * 要添加第一个区段，请找到并选择受众区段。
 
      * 要将区段添加到现有区段组，请执行以下操作：
 
-       1. 单击右侧面板中的区段组。
+       1. 选择区段组。
 
-       1. （可选）根据需要将组逻辑更改为&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
+       1. （可选）根据需要将组逻辑更改为&#x200B;**[!UICONTROL Include Any]**、**[!UICONTROL Include All]**&#x200B;或&#x200B;**[!UICONTROL Exclude All]**。
 
-          *[!UICONTROL Exclude All]*&#x200B;不可用于第一个区段组。 对于仅包含排除项的受众，请将此受众构建为&#x200B;*[!UICONTROL Include Any]*，然后在将其添加到DSP中的版面时将其排除。
+          **[!UICONTROL Include Any]**&#x200B;与至少一个选定区段中的用户匹配；**[!UICONTROL Include All]**&#x200B;需要所有选定区段中的成员资格。
 
-       1. 在左侧面板中找到新区段，然后选中区段名称旁边的复选框。
+          **[!UICONTROL Exclude All]**&#x200B;不可用于第一个区段组。 对于仅包含排除项的受众，使用&#x200B;**[!UICONTROL Include Any]**&#x200B;构建该受众，然后在将该受众添加到DSP中的版面时将其排除。
 
-          区段组会自动更新为新区段。
+       1. 找到并选择其他区段。
 
      * 要添加新区段组，请执行以下操作：
 
-       1. 单击右侧面板中的&#x200B;**[!UICONTROL + New Group]**。
+       1. 添加组。
 
-       1. （可选）根据需要将上一个组与新组之间的逻辑更改为&#x200B;*[!UICONTROL And]*&#x200B;或&#x200B;*[!UICONTROL Or]*。
+       1. （可选）根据需要将上一个组与新组之间的逻辑更改为&#x200B;**[!UICONTROL And]**&#x200B;或&#x200B;**[!UICONTROL Or]**。
 
-       1. 在左侧面板中找到新组的区段，并选中区段名称旁边的复选框。
+          **[!UICONTROL And]**&#x200B;要求用户满足两个组的条件；**[!UICONTROL Or]**&#x200B;要求用户满足至少一个组的条件。
 
-       1. （可选）根据需要将组逻辑更改为&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
+       1. 找到并选择新组的区段。
+
+       1. （可选）根据需要将组逻辑更改为&#x200B;**[!UICONTROL Include Any]**、**[!UICONTROL Include All]**&#x200B;或&#x200B;**[!UICONTROL Exclude All]**。
+
+   * 对于地理目标：
+
+     * 在您选择的地理类别中选择位置，如国家/地区、地区或城市。
+
+     * 对于邮政编码目标，请选择国家/地区，然后输入要包含的邮政编码。 要批量输入多个邮政编码，请使用逗号分隔这些邮政编码，或将每个编码放在单独的一行中。
+
+   * 对于数据传递目标，输入要匹配的键和值。
+
+     默认数据传递密钥在[常规体验设置](experience-settings-targeting.md)的&#x200B;**[!UICONTROL Advanced]**&#x200B;部分的&#x200B;**[!UICONTROL Data Pass]**&#x200B;字段中配置。 如果需要，可自定义目标的键。
+
+   * 要重新定位像素目标，请选择重新定位像素，然后为显示创意所需的任何像素属性指定值。
+
+     可用的属性在[重定位像素设置](/help/creative/pixels/retargeting-pixel-manage.md)中配置。
+
+   * 对于设备目标，请在您选择的设备类别中选择以下值：设备类型、操作系统或浏览器。
+
+1. （如果可用；可选）选择&#x200B;**[!UICONTROL Split Nodes]**&#x200B;为每个选定的值创建一个单独的目标节点，并具有自己的创意捆绑包分配。 否则，选定的值将分组到一个目标节点中。
+
+1. 单击&#x200B;**[!UICONTROL Add Node]**。
+
+1. （可选）要重命名用户定义的目标节点，请单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Name]**，输入&#x200B;**[!UICONTROL Node Name]**，然后单击&#x200B;**[!UICONTROL Save]**。
+
+   无法重命名“全部”或“其他各项”节点。
+
+1. [将创意包](experience-assign-creative-bundles.md#ai-editor)分配给新的最终节点，包括后备分支，或者在[保存体验](#save)时使用默认创意内容。
+
+## 使用手动编辑器 {#manual-editor}
+
+[在执行以下步骤之前，请打开手动编辑器](experience-edit-targeting.md#experience-open)。
+
+1. 在要插入目标的节点下，单击![添加](/help/creative/assets/add.png "添加")，然后选择&#x200B;**[!UICONTROL Insert New Target]**。
+
+1. 指定类别的目标值：
+
+   * 对于受众目标：
+
+     1. 选择&#x200B;**[!UICONTROL Audience]**，然后单击&#x200B;**[!UICONTROL Click to Browse]**&#x200B;以打开&#x200B;**[!UICONTROL Audience Targeting]**&#x200B;选项。
+
+     1. 配置受众区段和组：
+
+        * 要添加第一个区段，请在左侧面板中查找该区段，然后选中区段名称旁边的复选框。
+
+        * 要将区段添加到现有区段组，请执行以下操作：
+
+          1. 单击右侧面板中的区段组。
+
+          1. （可选）根据需要将组逻辑更改为&#x200B;**[!UICONTROL Include Any]**、**[!UICONTROL Include All]**&#x200B;或&#x200B;**[!UICONTROL Exclude All]**。
+
+             **[!UICONTROL Include Any]**&#x200B;与至少一个选定区段中的用户匹配；**[!UICONTROL Include All]**&#x200B;需要所有选定区段中的成员资格。
+
+             **[!UICONTROL Exclude All]**&#x200B;不可用于第一个区段组。 对于仅包含排除项的受众，使用&#x200B;**[!UICONTROL Include Any]**&#x200B;构建该受众，然后在将该受众添加到DSP中的版面时将其排除。
+
+          1. 在左侧面板中找到新区段，然后选中区段名称旁边的复选框。 对每个其他区段重复执行上述步骤。
+
+             区段组会自动更新为新区段。
+
+        * 要添加新区段组，请执行以下操作：
+
+          1. 单击右侧面板中的&#x200B;**[!UICONTROL + New Group]**。
+
+          1. （可选）根据需要将上一个组与新组之间的逻辑更改为&#x200B;**[!UICONTROL And]**&#x200B;或&#x200B;**[!UICONTROL Or]**。
+
+             **[!UICONTROL And]**&#x200B;要求用户满足两个组的条件；**[!UICONTROL Or]**&#x200B;要求用户满足至少一个组的条件。
+
+          1. 在左侧面板中找到新组的区段，并选中区段名称旁边的复选框。
+
+          1. （可选）根据需要将组逻辑更改为&#x200B;**[!UICONTROL Include Any]**、**[!UICONTROL Include All]**&#x200B;或&#x200B;**[!UICONTROL Exclude All]**。
 
      1. 单击&#x200B;**[!UICONTROL Create]**。
 
      1. 单击&#x200B;**[!UICONTROL Apply]**。
 
-   * 对于地理目标，请选择单个地理类别（如[!UICONTROL Geo: Country]），然后执行以下操作：
+   * 对于地理目标，请选择单个地理类别（如&#x200B;**[!UICONTROL Geo: Country]**），然后执行以下操作：
 
      1. 单击&#x200B;**[!UICONTROL Click to Browse]**&#x200B;以打开您的[!UICONTROL Geo Targeting]选项，指定一个或多个地理目标，然后单击&#x200B;**[!UICONTROL Save]**。
 
@@ -83,11 +157,11 @@ ht-degree: 0%
 
    * 对于数据传递目标，请选择&#x200B;**[!UICONTROL Data Pass]**，还可以自定义数据传递密钥，输入单个数据传递值，然后单击&#x200B;**[!UICONTROL Apply]**。
 
-   已在[体验设置](experience-settings-targeting.md)的[!UICONTROL Advanced]部分的&#x200B;**[!UICONTROL Data Pass]**&#x200B;字段中设置了键值对中的键的默认值。 您可以选择自定义密钥。
+     默认数据传递密钥在[常规体验设置](experience-settings-targeting.md)的&#x200B;**[!UICONTROL Advanced]**&#x200B;部分的&#x200B;**[!UICONTROL Data Pass]**&#x200B;字段中配置。 如果需要，可自定义目标的键。
 
    * 对于重定位像素目标，请选择&#x200B;**[!UICONTROL RT Pixel]**，选择要使用的单个重定位像素以及显示创意所需的任何像素属性的值，然后单击&#x200B;**[!UICONTROL Apply]**。
 
-     在[重定位像素设置](/help/creative/pixels/retargeting-pixel-manage.md)中配置了重定位像素的属性。
+     可用的属性在[重定位像素设置](/help/creative/pixels/retargeting-pixel-manage.md)中配置。
 
    * 对于设备目标，请执行以下操作：
 
@@ -109,23 +183,13 @@ ht-degree: 0%
 
    1. 输入&#x200B;**[!UICONTROL Node Name]**，然后单击&#x200B;**[!UICONTROL Save]**。
 
-1. 执行以下任一操作：
+1. （可选） [将创意包](experience-assign-creative-bundles.md#manual-editor)分配给新目标节点和“其他所有内容”节点。
 
-   * （可选） [将创意内容](experience-assign-creative-bundles.md)分配给新目标节点和“其他所有内容”节点。
+## 保存体验 {#save}
 
-   * （可选）要保存体验，请执行以下操作：
+以下步骤适用于两个编辑器。
 
-     1. 单击&#x200B;**[!UICONTROL Save]**，然后单击&#x200B;**[!UICONTROL OK]**。
-
-     1. （如果最底层的每个节点至少不包含一个创意内容）：执行以下操作之一：
-
-        * 要在没有所有必需创意捆绑包的情况下保存体验，请单击&#x200B;**[!UICONTROL Save as Draft]**。
-
-          无法为草稿体验创建广告标记。
-
-        * 要将默认创意分配给每个尚未分配创意捆绑包的目标，请单击&#x200B;**[!UICONTROL Assign Default Creatives]**。 在查看已分配默认创意的更新树后，单击&#x200B;**[!UICONTROL Save]**&#x200B;和&#x200B;**[!UICONTROL OK]**。
-
-        * 要继续编辑决策树，请单击&#x200B;**[!UICONTROL Continue Edit]**。
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >

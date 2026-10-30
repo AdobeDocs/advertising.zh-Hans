@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '453'
 ht-degree: 0%
 ---
 # 将创意捆绑包分配和取消分配给体验中的最终节点
@@ -36,7 +36,31 @@ ht-degree: 0%
 >
 >如果不向每个最终节点至少分配一个创意捆绑包，则在[保存体验](experience-create-targeting.md)时，可以选择为每个未分配的节点使用默认创意内容。 要发布体验，您必须分配捆绑包或为每个最终节点使用默认创意。
 
-<!-- 1. [ways to get to the decision tree] -->
+## 使用AI驱动编辑器(Beta) {#ai-editor}
+
+当您[创建](experience-create-targeting.md#ai-editor)或[编辑](experience-edit-targeting.md#ai-editor)体验时，请使用画布控件：
+
+1. 执行以下操作之一：
+
+   * 对于没有捆绑包的最终节点，请单击&#x200B;**[!UICONTROL Assign Bundles]**。
+
+   * 对于具有现有捆绑包的节点，在其创意叶节点上单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**。
+
+1. 在&#x200B;**[!UICONTROL Assign Bundles]**&#x200B;选项卡上，选中要分配的每个捆绑旁边的复选框，然后取消选中要取消分配的每个捆绑旁边的复选框。
+
+   仅列出体验（标准或动态）的相关类型的包。
+
+1. （可选）打开&#x200B;**[!UICONTROL Creative optimisation]**&#x200B;选项卡以[自定义循环和计划](experience-optimization-scheduling-targeting.md)。
+
+1. 在对话框中单击&#x200B;**[!UICONTROL Save]**&#x200B;以更新工作树。
+
+1. （可选） [自定义跟踪URL](experience-tracking-urls-targeting.md#ai-editor)。
+
+1. 从树标头[保存体验](#save)以保留您的更改。
+
+## 使用手动编辑器 {#manual-editor}
+
+[在执行以下步骤之前，请打开手动编辑器](experience-edit-targeting.md#experience-open)。
 
 1. 执行以下操作之一：
 
@@ -54,12 +78,9 @@ ht-degree: 0%
 
 1. （可选） [自定义分配的包中创作的跟踪URL](experience-tracking-urls-targeting.md)。
 
-<!--
-1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.
-...
+## 保存体验 {#save}
 
-These formatted steps are inserted automatically from text in the following file in the _includes folder, which reused in multiple places.
--->
+以下步骤适用于两个编辑器。 仅保存捆绑包对话框不会保存或发布体验。
 
 {{$include /help/_includes/experience-save.md}}
 
