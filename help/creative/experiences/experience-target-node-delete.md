@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '207'
 ht-degree: 0%
 ---
 # 删除体验中的目标节点或创意叶节点
@@ -27,25 +27,31 @@ ht-degree: 0%
 
 您可以删除目标节点，包括所有子目标和分配给它们的创意包。 您还可以删除创意叶节点。
 
-<!-- 1. [ways to get to the decision tree] -->
+## 使用AI驱动编辑器(Beta) {#ai-editor}
+
+当您[创建](experience-create-targeting.md#ai-editor)或[编辑](experience-edit-targeting.md#ai-editor)体验时，请使用画布控件：
+
+1. 在删除节点之前，请检查该节点及其子目标和创意。
+
+1. 将光标悬停在目标节点或创意叶节点上，然后单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Delete]**。
+
+   无需单独的&#x200B;**[!UICONTROL Delete Node]**&#x200B;确认即可从工作树中删除节点。
+
+1. 查看其余分支，然后[保存体验](#save)。
+
+## 使用手动编辑器 {#manual-editor}
+
+[在执行以下步骤之前，请打开手动编辑器](experience-edit-targeting.md#experience-open)。
 
 1. 将光标悬停在目标节点或创意叶节点上，然后单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Delete]**。
 
 1. 在确认消息中，单击&#x200B;**[!UICONTROL Delete Node]**。
 
-1. （可选）要保存体验，请执行以下操作：
+## 保存体验 {#save}
 
-   1. 单击&#x200B;**[!UICONTROL Save]**，然后单击&#x200B;**[!UICONTROL OK]**。
+以下步骤适用于两个编辑器。
 
-   1. （如果最底层的每个节点至少不包含一个创意内容）：执行以下操作之一：
-
-      * 要在没有所有必需创意捆绑包的情况下保存体验，请单击&#x200B;**[!UICONTROL Save as Draft]**。
-
-        无法为草稿体验创建广告标记。
-
-      * 要将默认创意分配给每个尚未分配创意捆绑包的目标，请单击&#x200B;**[!UICONTROL Assign Default Creatives]**。 在查看已分配默认创意的更新树后，单击&#x200B;**[!UICONTROL Save]**&#x200B;和&#x200B;**[!UICONTROL OK]**。
-
-      * 要继续编辑决策树，请单击&#x200B;**[!UICONTROL Continue Edit]**。
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >

@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Optimization
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 336176fe71b8835779710cabf71bcb33568df688
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '531'
 ht-degree: 0%
 ---
 # 关于Adobe Advertising Creative 2.0
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ## 基于规则的体验和非目标体验
 
-* **基于规则的定位体验：**&#x200B;使用基于规则的决策树模型构建故事 — 展开根据您对受众的了解实时自定义的编排广告字符串。 例如，故事可以根据客户行为、地理位置、人口统计、重新定位、客户历程中的位置等发生更改。
+* **基于规则的定位体验：**&#x200B;使用基于规则的决策树模型构建故事 — 展开根据您对受众的了解实时自定义的编排广告字符串。 例如，故事可以根据客户行为、地理位置、人口统计、重新定位、客户历程中的位置等发生更改。 使用[AI驱动编辑器(Beta)](/help/creative/experiences/experience-decision-tree.md#ai-editor)、对话式帮助和直接画布控件构建并编辑决策树，或使用手动编辑器。
 
 * **非定向体验：**&#x200B;在不缩小受众范围的情况下计划和优化广告元素。
 

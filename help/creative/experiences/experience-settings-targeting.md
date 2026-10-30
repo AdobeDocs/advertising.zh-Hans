@@ -20,12 +20,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1262'
 ht-degree: 0%
 ---
 # 目标广告体验设置
+
+这些常规设置由AI驱动的决策树编辑器(Beta)和手动编辑器共享。
+
+对于现有体验，单击决策树中的&#x200B;**[!UICONTROL Experience Form]**。 首先保存要保留的任何树更改。 离开AI驱动编辑器需要确认并丢弃未保存的树更改。 查看[切换编辑器或编辑体验设置](experience-edit-targeting.md#switch-editors)。
 
 ## [!UICONTROL Experience basics]节
 

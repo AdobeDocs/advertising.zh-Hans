@@ -1,6 +1,6 @@
 ---
 title: 决策树布局
-description: 了解具有定位的体验的决策树布局。
+description: 了解用于定位体验的AI驱动和手动决策树编辑器。
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
 TQID: 'https://experienceleague.adobe.com/JFrcVBHxv90Fchk-VfkmxAITQJswboszNMFOfaAQlL4'
@@ -18,28 +18,46 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '807'
 ht-degree: 0%
 ---
 # [!DNL Creative]体验的决策树布局
 
 为某个体验启用“[!UICONTROL Targeting]”选项时，您会使用决策树设置该体验。
 
-最初，每个决策树都以根级别“全部”开头。 您可以添加一个或多个目标节点，然后将创意捆绑包分配给决策树每个分支中的最终节点。 默认情况下，决策树垂直显示，但您可以选择水平查看决策树。
+最初，每个决策树都以根级别“全部”开头。 您可以添加一个或多个目标节点，然后将创意捆绑包分配给决策树每个分支中的最终节点。
+
+## AI驱动编辑器(Beta) {#ai-editor}
+
+默认情况下，当您创建或编辑具有定位的体验时，会打开AI驱动编辑器。 它结合了与AI代理的对话以及交互式决策树画布。
+
+* 在对话中描述所需的定向结构或更改，并在保存之前查看生成的树。
+
+* 直接编辑画布以添加目标级别和节点、分配捆绑包并配置创意优化和跟踪URL。 无需切换到手动编辑器即可使用这些控件。
+
+* 在标题中查看体验名称、状态和广告商，并在描述更改时使用节点ID（如果可用）来标识目标节点。
+
+* 使用&#x200B;**[!UICONTROL Zoom in]**、**[!UICONTROL Zoom out]**&#x200B;和&#x200B;**[!UICONTROL Change orientation]**&#x200B;调整视图。 **[!UICONTROL Reset tree]**&#x200B;在确认后清除树；它不只是重置缩放。
+
+当助理处理更改时，画布及其&#x200B;**[!UICONTROL Save]**&#x200B;按钮暂时禁用。 请等待处理完成，然后再进行其他画布更改。
+
+## 手动编辑器 {#manual-editor}
+
+要从AI驱动编辑器打开现有的手动编辑器，请单击&#x200B;**[!UICONTROL Manual Decision Tree]**。 您还可以从[!UICONTROL Experiences]视图中的体验操作中选择&#x200B;**[!UICONTROL Create Decision Tree Manually (Legacy)]**。 查看[切换编辑器或编辑体验设置](experience-edit-targeting.md#switch-editors)。
+
+在手动编辑器中，缺省情况下树垂直显示。 您可以更改为水平视图，并使用滑块调整缩放。 视图设置会一直保存到您注销为止。
+
+以下示例显示了手动编辑器：
 
 ![没有目标的垂直决策树示例](/help/creative/assets/experience-decision-tree-no-targets.png "没有目标的垂直决策树示例")
 
 ![没有目标的水平决策树示例](/help/creative/assets/experience-decision-tree-no-targets-horizontal.png "没有目标的水平决策树示例")
 
-<!--
->[!NOTE]
+>[!IMPORTANT]
 >
->You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.
--->
-
-<!-- Explain the diff and why to choose the other option. -->
+>在离开AI驱动编辑器之前，保存要保留的任何更改。 单击&#x200B;**[!UICONTROL Manual Decision Tree]**、**[!UICONTROL Experience Form]**&#x200B;或&#x200B;**[!UICONTROL Cancel]**&#x200B;将打开确认对话框。 单击&#x200B;**[!UICONTROL Yes]**&#x200B;会放弃未保存的树更改；单击&#x200B;**[!UICONTROL No]**&#x200B;会将您保留在编辑器中。
 
 ## 术语
 
@@ -54,6 +72,8 @@ ht-degree: 0%
 每个决策树最多可以有五个级别的目标。 体验级别的目标与DSP的定位选项一起应用；层次结构定位行为可能因DSP而异。 确保您的广告体验包含与将在其中实施该功能的营销活动兼容的定位。
 
 每个目标级别可以包括多个分支，每个分支具有具有相同目标类型（受众区段、地理位置类型、指定数据传递键的值、指定重定位像素的属性或设备类别）的一个或多个节点。 您可以在已为其指定默认图像创意或视频创意的每个广告大小中，将创意捆绑包分配给最低级别的目标节点。
+
+<!-- Add a screen shot of the AI editor -->以下示例显示了手动编辑器中的目标：
 
 ![目标决策树示例](/help/creative/assets/experience-decision-tree.png "目标决策树示例")
 
