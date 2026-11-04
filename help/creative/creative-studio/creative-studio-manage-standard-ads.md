@@ -11,9 +11,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
+source-git-commit: 1cc477f531051d94ea88eaae0a4fb83918e95ea5
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1263'
 ht-degree: 0%
 ---
 # 在[!UICONTROL Creative Studio]中管理标准广告
@@ -149,11 +149,17 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Update Creative]**。
 
-## 为标准广告生成广告变体 {#generate-ad-variations}
+## 为灵活的HTML5创意内容生成广告变体 {#generate-ad-variations}
+
+**[!UICONTROL Generate Variations]**&#x200B;操作仅适用于灵活的HTML5创意。 当创意内容没有生成器所需的内部父广告模板引用时，或者在启动另一个变量生成请求时，将禁用此功能。 父广告模板引用不是您可以编辑的设置。
+
+>[!NOTE]
+>
+>您还可以从[!UICONTROL Creative Libraries]生成符合条件的灵活HTML5创意的变体。 两个入口点打开相同的[!UICONTROL Ad Variations Generator]。 有关其他入口点和可用性要求，请参阅&quot;[生成灵活HTML5创意内容的变体](/help/creative/creative-libraries/creative-generate-variations.md)&quot;。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative Studio]**。
 
-1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，将光标悬停在创意卡片上并单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Generate Ad Variations]**。
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，将光标悬停在创意卡片上并单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Generate Variations]**。
 
    将打开[!UICONTROL Ad Variations Generator]并预加载所选的广告。
 
