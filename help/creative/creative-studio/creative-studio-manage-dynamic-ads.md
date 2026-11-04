@@ -1,6 +1,6 @@
 ---
 title: 在Creative Studio中管理动态创意人员
-description: 了解如何在Adobe Advertising Creative Studio中构建、编辑、复制和删除目录驱动型动态创意。
+description: 了解如何在Adobe Advertising Creative Studio中构建、质量检查、编辑、复制和删除目录驱动型动态创意。
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -10,20 +10,20 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
+source-git-commit: 88fead9ffc4eaa572be090877790422e67831036
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1469'
 ht-degree: 0%
 ---
 # 在[!UICONTROL Creative Studio]中管理动态创意
 
-[!UICONTROL Creative Studio]中的&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡按库列出了您的动态创意。 在此页面中，您可以构建新的目录驱动型动态创意，编辑现有创意的详细信息和属性映射，查看更改日志、复制创意以及删除创意。
+[!UICONTROL Creative Studio]中的&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡按库列出了您的动态创意。 在此处，您可以构建新的目录驱动型动态创意、使用AI检查创意的质量、编辑现有创意的详细信息和属性映射、查看更改日志、复制创意以及删除创意。
 
 ## 构建动态创意 {#build-dynamic-creative}
 
 使用此工作流可创建目录驱动的动态创意。 四步引导式向导将指导您选择模板、连接目录以及将目录字段映射到模板元素。 设置后，[!UICONTROL AI Assistant]可帮助您预览和质量检查从目录数据生成的每个广告组合。
 
-动态创意与标准广告的一个关键区别在于：AI代理无法修改目录源内容。 它可以过滤、分析和标记问题，但要更改广告内容，您必须更新源目录。
+动态创意与标准广告的一个关键区别在于：AI代理无法修改目录源内容。 它可以过滤、分析和标记问题 — 但要更改广告内容，您必须手动更新目录值，无论是在QA屏幕中还是在源目录中。
 
 ### 先决条件
 
@@ -83,44 +83,9 @@ ht-degree: 0%
 
 1. 选择是&#x200B;*[!UICONTROL Save Dynamic Creative & Skip QA]*&#x200B;还是&#x200B;*[!UICONTROL Continue to QA]*。
 
-   如果继续QA，画布将显示从目录生成的所有广告组合，显示为行，模板中呈现的每个目录条目均带有预览。
+   如果继续QA，则会打开&#x200B;**[!UICONTROL Dynamic Creative QA]**&#x200B;屏幕，其中显示预览画布和&#x200B;**[!UICONTROL AI Assistant]**&#x200B;聊天面板。
 
-1. 如果继续QA：
-
-   1. 执行以下任一操作：
-
-      * 使用&#x200B;**[!UICONTROL Zoom in]**&#x200B;和&#x200B;**[!UICONTROL Zoom out]**&#x200B;控件调整画布视图。
-
-      * 使用分页控件(**X-Y / Z**)逐页浏览目录行。
-
-      * 要编辑广告组合，请执行以下操作：
-
-        1. 将光标悬停在目录行上并单击&#x200B;**[!UICONTROL Edit]**。
-
-        1. 在&#x200B;**[!UICONTROL Edit Row]**&#x200B;对话框中，更新字段值。
-
-        1. 单击&#x200B;**[!UICONTROL Save]**。
-
-        画布将刷新，以反映更新的值。
-
-      * 使用&#x200B;**[!UICONTROL AI Assistant]**&#x200B;聊天面板来分析和筛选目录组合。 在&#x200B;**[!UICONTROL Ask anything]**&#x200B;字段中键入您的请求，或单击建议的提示之一：
-
-        * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
-        * **[!UICONTROL Show me side-by-side comparisons of A/B testing creatives]**
-        * **[!UICONTROL Show me all ads for millennial women in urban markets]**
-
-        AI代理可以：
-
-        * 筛选画布以显示与特定受众区段、地理位置、语言、类别或其他目录字段匹配的广告。
-        * 检查质量问题，如字符限制溢出、内容溢出或出血、图像链接断开和免责声明可见性。
-        * 比较A/B测试分析的广告组合
-        * 将广告整理到不同的组中，以便进行并排审查。
-
-        AI代理无法修改目录源内容。 要更改广告内容，请更新源目录。
-
-   1. 在标题中保存&#x200B;**[!UICONTROL Save Dynamic Creative]**。
-
-   1. 在确认消息中，单击&#x200B;**[!UICONTROL Create]**。
+1. 如果继续QA，请按照“[质量检查动态创意](#qa-dynamic-creative)”中的过程来[分析和过滤广告](#analyze-ads)、[查看预览和警报](#review-previews)，并可选[更正目录值](#correct-catalog-values)。 完成后，[保存动态创意](#save-or-exit)。
 
 ## 编辑动态创意 {#edit-dynamic-creative}
 
@@ -150,13 +115,111 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Update Creative]**。
 
-## 为动态创意重新打开QA助手 {#qa-dynamic-creative}
+## 对动态创意内容进行质量检查 {#qa-dynamic-creative}
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative Studio]**。
+使用QA代理根据动态创意的模板分析目录行，预览生成的广告，并确定潜在的内容问题。 您可以使用&#x200B;**[!UICONTROL AI Assistant]**&#x200B;筛选和分组广告，查看目录警报，并在发布更改之前手动更正目录值。
 
-1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，将光标悬停在创意卡片上并单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL QA Assistant]**。
+代理从[!UICONTROL Creative Libraries]或[!UICONTROL Creative Studio]打开&#x200B;**[!UICONTROL Dynamic Creative QA]**&#x200B;屏幕。 虽然菜单标签不同，但两个入口点提供了相同的QA功能。 分析取决于所选的创意、目录和请求。
 
-   将打开QA屏幕。 有关可用的画布控件和AI助手功能，请参阅“[步骤5：使用AI](#qa)预览和QA”。
+>[!NOTE]
+>
+>QA代理适用于动态显示创意，而不是标准创意或动态视频创意。 在[!UICONTROL Creative Libraries]中，该操作仅适用于基于动态模板的动态创意。
+
+### 打开QA代理 {#open-qa-agent}
+
+1. 通过以下任一方式打开已保存的QA动态创意：
+
+   * **来自[!UICONTROL Creative Libraries]：**
+
+     1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+     1. 单击库名称以打开库。
+
+     1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，单击动态创意名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL QA Agent]**。
+
+   * **来自[!UICONTROL Creative Studio]：**
+
+     1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Studio]**。
+
+     1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，在[!UICONTROL Generate or Build Creatives]部分下的创意库中找到该动态创意。
+
+     1. 将光标悬停在创意卡片上并单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL QA Assistant]**。
+
+   将打开&#x200B;**[!UICONTROL Dynamic Creative QA]**&#x200B;屏幕，其中显示预览画布和&#x200B;**[!UICONTROL AI Assistant]**&#x200B;聊天面板。
+
+1. 如果创意内容使用多个目录，请从标题中的&#x200B;**[!UICONTROL Catalog]**&#x200B;中选择要查看的目录。
+
+   助理分析所选目录。 当创意仅使用一个目录时，将禁用目录选择器。
+
+### 使用AI分析和过滤广告 {#analyze-ads}
+
+1. 在&#x200B;**[!UICONTROL AI Assistant]**&#x200B;面板中，在&#x200B;**[!UICONTROL Ask anything]**&#x200B;中键入请求并按&#x200B;**[!UICONTROL Enter]**，或单击建议的提示之一：
+
+   * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
+   * **[!UICONTROL Group ads by product]**
+   * **[!UICONTROL Filter ads by geography]**
+   * **[!UICONTROL Show all ads with headlines over 80 characters]**
+
+   助理在聊天面板中进行响应，并在画布上显示匹配的目录行作为广告预览。 在提交请求之前，画布会提示您请求助理分析目录。
+
+1. 通过后续请求继续完善审查。 该助理可以帮助您：
+
+   * 按受众区段、语言、地理位置或邮政编码过滤广告。
+   * 使用指定的阈值检查字符长度。
+   * 检查馈送错误、缺少内容和可疑内容。
+   * 查看翻译状态。
+   * 比较A/B测试变体。
+   * 将广告分组以供审阅，例如按产品或问题分组。
+
+   验证助理的响应并在保存更改之前检查预览。
+
+### 查看预览和警报 {#review-previews}
+
+* 使用画布工具栏可以：
+
+  * 调整缩放。
+  * 在&#x200B;**[!UICONTROL Thumbnail view]**&#x200B;和&#x200B;**[!UICONTROL Actual size]**&#x200B;之间切换。
+  * 单击&#x200B;**[!UICONTROL Replay animations]**&#x200B;重播预览。
+  * 选择每页的行数，选择页码，或使用&#x200B;**[!UICONTROL Previous page]**&#x200B;和&#x200B;**[!UICONTROL Next page]**。
+
+* 当助理对结果分组时，单击链接可查看组中的所有创意。 使用&#x200B;**[!UICONTROL Back to groups]**&#x200B;返回分组结果，或使用&#x200B;**[!UICONTROL Catalog Rows]**&#x200B;离开分组视图。
+
+* 当预览显示&#x200B;**[!UICONTROL Issues detected]**&#x200B;时，将光标悬停在指示器上可查看问题详细信息。
+
+* 当目录警报可用时，单击&#x200B;**[!UICONTROL View Alerts]**。 **[!UICONTROL Alerts]**&#x200B;对话框列出了每个问题的目录、行号、列和错误消息。 单击&#x200B;**[!UICONTROL Close]**&#x200B;以返回画布。
+
+### 更正目录值 {#correct-catalog-values}
+
+无需离开QA屏幕，即可从广告预览中手动编辑目录值。
+
+1. 在要更正的预览上，单击&#x200B;**[!UICONTROL Edit]**。
+
+1. 在“编辑”对话框中，选择要在&#x200B;**[!UICONTROL Catalog columns to edit]**&#x200B;下更改的列。 若要查找列，请使用&#x200B;**[!UICONTROL Search columns]**。
+
+1. 在&#x200B;**[!UICONTROL Columns content]**&#x200B;下，更新所选字段值。
+
+1. 单击&#x200B;**[!UICONTROL Update]**。
+
+   预览会刷新以反映更新的值。 在保存动态创意之前，不会发布目录更改。
+
+>[!IMPORTANT]
+>
+>这些编辑可更新目录数据，而不仅仅是广告预览。 在发布值之前对其进行审核。
+
+### 保存更改或退出 {#save-or-exit}
+
+* 要保存动态创意并发布任何目录编辑，请执行以下操作：
+
+  1. 单击标题中的&#x200B;**[!UICONTROL Save Dynamic Creative]**。
+
+  1. 确认保存：
+
+     * 对于新创意，在&#x200B;**[!UICONTROL Create Dynamic Creative]**&#x200B;确认对话框中，单击&#x200B;**[!UICONTROL Create]**。
+     * 对于现有的创意，在&#x200B;**[!UICONTROL Update Dynamic Creative]**&#x200B;确认对话框中，单击&#x200B;**[!UICONTROL Update]**。
+
+     返回创意库或[!UICONTROL Creative Studio]，具体取决于打开QA屏幕的位置。
+
+* 要离开而不发布挂起的目录编辑，请单击页眉中的&#x200B;**[!UICONTROL Cancel]**。
 
 ## 查看动态创意的更改日志 {#view-change-log}
 
@@ -187,4 +250,3 @@ ht-degree: 0%
 >* [关于Advertising Creative中的Creative Studio](creative-studio-about.md)
 >* [在Creative Studio中管理标准广告](creative-studio-manage-standard-ads.md)
 >* [在Creative Studio中管理模板](creative-studio-manage-templates.md)
-
