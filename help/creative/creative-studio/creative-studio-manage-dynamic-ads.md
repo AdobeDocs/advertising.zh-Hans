@@ -10,9 +10,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 88fead9ffc4eaa572be090877790422e67831036
+source-git-commit: b9a68528b3c622aae44a46bca9b3bb747019bc95
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1421'
 ht-degree: 0%
 ---
 # 在[!UICONTROL Creative Studio]中管理动态创意
@@ -117,33 +117,21 @@ ht-degree: 0%
 
 ## 对动态创意内容进行质量检查 {#qa-dynamic-creative}
 
-使用QA代理根据动态创意的模板分析目录行，预览生成的广告，并确定潜在的内容问题。 您可以使用&#x200B;**[!UICONTROL AI Assistant]**&#x200B;筛选和分组广告，查看目录警报，并在发布更改之前手动更正目录值。
-
-代理从[!UICONTROL Creative Libraries]或[!UICONTROL Creative Studio]打开&#x200B;**[!UICONTROL Dynamic Creative QA]**&#x200B;屏幕。 虽然菜单标签不同，但两个入口点提供了相同的QA功能。 分析取决于所选的创意、目录和请求。
+使用QA助手可针对动态创意内容的模板分析目录行，预览生成的广告，并确定潜在的内容问题。 您可以使用&#x200B;**[!UICONTROL AI Assistant]**&#x200B;筛选和分组广告，查看目录警报，并在发布更改之前手动更正目录值。
 
 >[!NOTE]
 >
->QA代理适用于动态显示创意，而不是标准创意或动态视频创意。 在[!UICONTROL Creative Libraries]中，该操作仅适用于基于动态模板的动态创意。
+>您可以对来自[!UICONTROL Creative Studio]或[!UICONTROL Creative Libraries]的动态创意进行质量检查。 虽然菜单标签不同，但两个入口点都打开了功能相同的同一&#x200B;**[!UICONTROL Dynamic Creative QA]**&#x200B;屏幕。 分析取决于所选的创意、目录和请求。 有关其他入口点，请参阅&quot;[质量检查Creative Libraries中的动态创意](/help/creative/creative-libraries/creative-edit-dynamic.md#qa-dynamic-creative)&quot;。
 
-### 打开QA代理 {#open-qa-agent}
+QA助手适用于动态显示创意，而非标准创意或动态视频创意。
 
-1. 通过以下任一方式打开已保存的QA动态创意：
+### 打开QA助手 {#open-qa-agent}
 
-   * **来自[!UICONTROL Creative Libraries]：**
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Studio]**。
 
-     1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，在[!UICONTROL Generate or Build Creatives]部分下的创意库中找到该动态创意。
 
-     1. 单击库名称以打开库。
-
-     1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，单击动态创意名称旁边的&#x200B;**[!UICONTROL ...]**，然后单击&#x200B;**[!UICONTROL QA Agent]**。
-
-   * **来自[!UICONTROL Creative Studio]：**
-
-     1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Studio]**。
-
-     1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，在[!UICONTROL Generate or Build Creatives]部分下的创意库中找到该动态创意。
-
-     1. 将光标悬停在创意卡片上并单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL QA Assistant]**。
+1. 将光标悬停在创意卡片上并单击&#x200B;**[!UICONTROL ...]** > **[!UICONTROL QA Assistant]**。
 
    将打开&#x200B;**[!UICONTROL Dynamic Creative QA]**&#x200B;屏幕，其中显示预览画布和&#x200B;**[!UICONTROL AI Assistant]**&#x200B;聊天面板。
 
@@ -217,7 +205,7 @@ ht-degree: 0%
      * 对于新创意，在&#x200B;**[!UICONTROL Create Dynamic Creative]**&#x200B;确认对话框中，单击&#x200B;**[!UICONTROL Create]**。
      * 对于现有的创意，在&#x200B;**[!UICONTROL Update Dynamic Creative]**&#x200B;确认对话框中，单击&#x200B;**[!UICONTROL Update]**。
 
-     返回创意库或[!UICONTROL Creative Studio]，具体取决于打开QA屏幕的位置。
+     返回[!UICONTROL Creative Studio]。
 
 * 要离开而不发布挂起的目录编辑，请单击页眉中的&#x200B;**[!UICONTROL Cancel]**。
 

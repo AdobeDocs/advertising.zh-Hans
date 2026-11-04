@@ -3,13 +3,11 @@ role: User
 user-guide-title: Advertising Creative 指南
 user-guide-description: 了解使用 Advertising Creative 所需的主要功能、任务、设置及相关资源。
 breadcrumb-title: 创意指南
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+source-git-commit: 2ffa1910ffd60b0a93fa5edb54d5956319ad7fb8
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '434'
 ht-degree: 4%
-
 ---
-
 
 # Advertising Creative 2.0指南 {#creative}
 
@@ -18,8 +16,8 @@ ht-degree: 4%
   + [关于Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
   + [自定义数据视图](/help/creative/introduction/customize-data-views.md)
   + [动态广告的工作流](/help/creative/introduction/workflow-dynamic-ads.md)
-  + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans){target="_blank"}
-  + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hans){target="_blank"}
+  + [消费者隐私支持](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+  + [策略和指南](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Creative Studio {#creative-studio}
   + [关于Creative Studio](/help/creative/creative-studio/creative-studio-about.md)
   + [[!UICONTROL Creative Studio]中的C2PA元数据](/help/creative/creative-studio/creative-studio-content-credentials.md)
@@ -40,7 +38,7 @@ ht-degree: 4%
       + [HTML5创作规范](/help/creative/creative-libraries/html5-creative-specification.md)
     + 动态创意 {#dynamic-creatives}
       + [将动态创意添加到创意库](/help/creative/creative-libraries/creative-add-dynamic.md)
-      + [编辑动态创意](/help/creative/creative-libraries/creative-edit-dynamic.md)
+      + [编辑和质量检查动态创意](/help/creative/creative-libraries/creative-edit-dynamic.md)
       + [动态创意设置](/help/creative/creative-libraries/creative-settings-dynamic.md)
     + [预览创意](/help/creative/creative-libraries/creative-preview.md)
     + [将创意内容附加到捆绑包](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
@@ -103,4 +101,4 @@ ht-degree: 4%
 + [正在重新定位像素](/help/creative/pixels/retargeting-pixel-manage.md)
 + [可用于跟踪URL的宏](/help/creative/creative-macros.md)
 + [获取帮助](/help/creative/get-help.md)
-+ [Adobe CX Enterprise发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans){target="_blank"}
++ [Adobe CX Enterprise发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
