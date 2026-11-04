@@ -125,4 +125,4 @@ ht-degree: 0%
 >* [编辑标准创意](creative-edit-standard.md)
 >* [在Creative Studio中管理标准广告](/help/creative/creative-studio/creative-studio-manage-standard-ads.md)
 >* [在Advertising Creative中管理品牌配置文件](/help/creative/brands/brand-manage.md)
->* [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-content-credentials.md)中的[C2PA元数据
+>* [!UICONTROL Creative Studio]&#x200B;[&#128279;](/help/creative/creative-studio/creative-studio-content-credentials.md)中的C2PA元数据
