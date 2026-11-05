@@ -59,7 +59,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Create]**。
 
-您还可以在从“最新报告”选项卡](/help/search-social-commerce/new-ui/reports/management/report-manage.md)创建报告时[保存模板，方法是在提交报告设置之前启用&#x200B;**[!UICONTROL Save as Template]**。
+您还可以在从“最新报告”选项卡[&#128279;](/help/search-social-commerce/new-ui/reports/management/report-manage.md)创建报告时保存模板，方法是在提交报告设置之前启用&#x200B;**[!UICONTROL Save as Template]**。
 
 ## 查看报表模板的设置 {#template-view}
 

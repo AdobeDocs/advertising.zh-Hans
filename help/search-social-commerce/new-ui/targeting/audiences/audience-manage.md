@@ -72,7 +72,7 @@ Restricted to internal beta users:
 
   基于客户数据的受众的[!DNL Adobe]区段数据和Cookie同步文件每天同步到[!DNL Google Ads]。
 
-* **Adobe Campaign电子邮件列表：**&#x200B;您的Adobe客户团队可帮助您设置工作流，以从[!DNL Campaign]中的电子邮件列表创建和更新[!DNL Google Ads]客户匹配受众。 工作流是在[!DNL Campaign]中配置的，而不是在受众库中配置的。 请参阅“从Adobe Campaign电子邮件列表](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md)创建客户匹配受众”。[
+* **Adobe Campaign电子邮件列表：**&#x200B;您的Adobe客户团队可帮助您设置工作流，以从[!DNL Campaign]中的电子邮件列表创建和更新[!DNL Google Ads]客户匹配受众。 工作流是在[!DNL Campaign]中配置的，而不是在受众库中配置的。 请参阅“从Adobe Campaign电子邮件列表[&#128279;](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md)创建客户匹配受众”。
 
 * **客户数据列表：**&#x200B;具有合格[!DNL Google Ads]或[!DNL Microsoft Advertising]帐户的广告商可以使用基于包含来自其客户关系管理(CRM)系统的主要标识符的CSV文件的客户匹配受众。
 
