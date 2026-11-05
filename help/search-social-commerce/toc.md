@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: edf008b5ac23852101d29361110773030f1a2f81
+source-git-commit: fd18dc1423269ce0238826318f58cfcfdce1bce1
 workflow-type: tm+mt
-source-wordcount: '2409'
+source-wordcount: '2440'
 ht-degree: 2%
 ---
 # Advertising 搜索、社交和 Commerce 指南 {#search-social-commerce}
@@ -254,10 +254,18 @@ ht-degree: 2%
     + [管理 [!DNL Google Ads] 转化值规则](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
     + [管理搜索竞价单位的限制](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
   + 定位 {#targeting}
+    + 受众 {#audiences-new-ui}
+      + [管理受众](/help/search-social-commerce/new-ui/targeting/audiences/audience-manage.md)
+      + [管理营销活动和广告组的受众目标](/help/search-social-commerce/new-ui/targeting/audiences/audience-targets-manage.md)
+      + [管理营销活动和广告组的受众排除](/help/search-social-commerce/new-ui/targeting/audiences/audience-exclusions.md)
     + [管理 [!DNL Google Ads] 动态搜索目标](/help/search-social-commerce/new-ui/targeting/dynamic-search-target-manage.md)
     + [管理投放位置](/help/search-social-commerce/new-ui/targeting/placement-manage.md)
   + 库 {#library}
     + [查看和创建创意资产](/help/search-social-commerce/new-ui/library/creative-asset-manage.md)
+    + 扩展 {#extensions-new-ui}
+      + [管理共享站点链接扩展](/help/search-social-commerce/new-ui/library/extensions/sitelink-extension-manage.md)
+      + [管理 [!DNL Google Ads] 共享的标注扩展](/help/search-social-commerce/new-ui/library/extensions/callout-extension-manage.md)
+      + [管理广告扩展关联](/help/search-social-commerce/new-ui/library/extensions/ad-extension-association-manage.md)
   + [管理自定义警报](/help/search-social-commerce/new-ui/alerts-manage.md)
   + [管理通知](/help/search-social-commerce/new-ui/notifications-manage.md)
   + [用户管理](/help/search-social-commerce/new-ui/user-administration.md)

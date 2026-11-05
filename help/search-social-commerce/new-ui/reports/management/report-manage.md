@@ -18,7 +18,7 @@ feature_v2:
     internal-label: Search Model Accuracy Reports
   - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
     internal-label: Search Specialty Reports
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: ea1ad3de65362d59f5c45341bc4807cfbaf0610e
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 计划通过以下任一方式或同时使用以下两种方式自动生成自定义报表：
 
-* 使用[报告模板](/help/search-social-commerce/reports/automation/templates/template-about.md)每天或在一周或一个月中的特定日期自动生成报告。
+* 使用[报告模板](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)每天或在一周或一个月中的特定日期自动生成报告。
 
   您可以选择设置使用模板的基本报表和高级报表的[FTP传送](/help/search-social-commerce/new-ui/reports/ftp-reports.md)。
 
