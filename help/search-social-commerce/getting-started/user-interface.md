@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d0763d8f2099b683ab1ed4ee93342555803f1afd
+source-git-commit: 08975638903eab9767e571c851c5c35981afdba5
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1395'
 ht-degree: 0%
 ---
 # 用户界面的组织方式
@@ -103,9 +103,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Targeting]**&#x200B;子菜单：
 
-  * **[!UICONTROL Audiences]**：打开一个新视图，该视图显示广告商的所有现有受众、所有受众目标和所有受众排除项。 要管理您的受众，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Audiences]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
+  * **[!UICONTROL Audiences]**：打开一个新视图以管理广告商的受众、所有受众目标和所有受众排除。
 
-  * **[!UICONTROL Auto Targets]**&#x200B;打开新视图以列出和管理广告商的自动目标。
+  * **[!UICONTROL Auto Targets]**&#x200B;打开一个新视图，该视图显示广告商的所有现有自动目标。 要管理您的自动目标，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Auto Targets]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
 
   * **[!UICONTROL Placements]**&#x200B;打开一个新视图以列出和管理广告商的投放位置和负面投放位置。
 

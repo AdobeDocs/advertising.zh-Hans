@@ -20,7 +20,7 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 7e7dcde9fb195e04025a1a8d89e792ff562b053f
 workflow-type: tm+mt
 source-wordcount: '2256'
 ht-degree: 0%
@@ -236,7 +236,7 @@ Not there as of 7/22 -- what's going on here? If we're removing it, then I need 
 
 **[!UICONTROL Negative Websites]：** （仅显示/本地网络上的营销活动；可选）显示网络上不希望显示广告的站点。 请输入有效的URL，如www.example.com。 要指定多个字符串，请用逗号分隔它们，或者在单独的行中输入它们。
 
-有关可用性的信息，请参阅Microsoft Advertising帮助“防止广告出现在特定网站[&#128279;](https://help.ads.microsoft.com/#apex/bae/en/14061/0)”。
+有关可用性的信息，请参阅Microsoft Advertising帮助“防止广告出现在特定网站](https://help.ads.microsoft.com/#apex/bae/en/14061/0)”。[
 
 ### [!UICONTROL Conversion Goals]
 
@@ -337,7 +337,7 @@ Not there as of 7/22 -- what's going on here? If we're removing it, then I need 
 **[!UICONTROL Audience Signal]：**（可选） [!DNL Microsoft Advertising]受众用作营销活动的受众信号。 [!DNL Microsoft Advertising]机器学习模型使用受众来查找要定位的类似Web浏览者，并且还可能会向未指定为信号的受众显示广告，以帮助您实现性能目标。 选择最有可能转化的受众。
 
 >[!NOTE]
->受众信号与[广告组级别受众目标](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)不同。
+>受众信号与[广告组级别受众目标](/help/search-social-commerce/new-ui/targeting/audiences/audience-targets-manage.md)不同。
 
 <!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
 

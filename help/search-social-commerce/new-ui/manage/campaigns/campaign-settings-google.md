@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
+source-git-commit: 7e7dcde9fb195e04025a1a8d89e792ff562b053f
 workflow-type: tm+mt
 source-wordcount: '3244'
 ht-degree: 0%
@@ -421,7 +421,7 @@ Not there as of 7/22 -- what's going on here? If we're removing it, then I need 
 
 >[!NOTE]
 >
->受众信号不同于[营销活动级别和广告组级别的受众目标](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)。
+>受众信号不同于[营销活动级别和广告组级别的受众目标](/help/search-social-commerce/new-ui/targeting/audiences/audience-targets-manage.md)。
 
 **[!UICONTROL Primary Status]：** （性能最佳的营销活动中的现有资源组的只读字段）为什么资源组会或不会以满负荷提供服务。 它考虑资产组状态以及其他信号，例如政策和质量审批。 值可能包括&#x200B;*合格，* *有限，* *不合格，* *已暂停，* *待处理，* *已移除，* *未知，*&#x200B;或未指定&#x200B;*未指定。*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
 
