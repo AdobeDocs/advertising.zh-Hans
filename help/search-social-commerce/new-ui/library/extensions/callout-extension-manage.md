@@ -97,7 +97,7 @@ ht-degree: 0%
 
 1. 在确认消息中，单击&#x200B;**[!UICONTROL Confirm]**。
 
-要删除关联而不从库中删除共享标注，请改为删除关联[](ad-extension-association-manage.md#association-delete)。
+要删除关联而不从库中删除共享标注，请改为删除关联[&#128279;](ad-extension-association-manage.md#association-delete)。
 
 ## 将选定行中的所有数据复制到剪贴板 {#copy-to-clipboard}
 
