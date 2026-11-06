@@ -21,14 +21,16 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '133'
 ht-degree: 0%
 ---
 # （新UI）编辑目标
 
 *Beta功能*
+
+若要在不编辑原始目标的情况下使用相同的设置创建新目标，请[复制目标](objective-create.md#objective-duplicate)。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Goals]>[!UICONTROL Objectives]**。
 
@@ -42,7 +44,7 @@ ht-degree: 0%
 
    * 要保存目标，请单击&#x200B;**[!UICONTROL Save]**。
 
-   * 若要使用指定的设置创建新目标，请单击&#x200B;**[!UICONTROL Save As]**，输入新目标的名称，然后单击&#x200B;**[!UICONTROL Save]**。
+   * 若要使用指定的设置创建新目标而不更改原始目标，请单击&#x200B;**[!UICONTROL Save as]**，输入新目标的名称，然后单击&#x200B;**[!UICONTROL Save]**。
 
 >[!MORELIKETHIS]
 >

@@ -10,7 +10,7 @@ product_v2:
 feature_v2:
   - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
     internal-label: DSP Audiences
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Consider starting by asking for what you should include.
 
 you can give thumbs up or down to [what exactly?].
 
-Verify what info is carried over from session to session and what starts from scratch.
+Verify what info is carried over from session to session and what is reset for each new session.
 
 -->
 

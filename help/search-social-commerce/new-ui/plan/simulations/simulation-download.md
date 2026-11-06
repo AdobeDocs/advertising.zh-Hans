@@ -1,6 +1,6 @@
 ---
 title: 下载模拟
-description: 了解如何在电子表格文件中下载模拟。
+description: 了解如何以单个或组合电子表格文件的形式下载模拟。
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 46c8c9de-b558-486e-9453-feb5d359aaec
@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '242'
 ht-degree: 0%
 ---
 # 下载模拟
@@ -40,20 +40,31 @@ ht-degree: 0%
 
 *Beta功能*
 
-您可以一次将多个模拟的数据下载到ZIP格式的文件。 该文件包含每个选定模拟的一个[!DNL Microsoft Excel]工作簿（XLSX文件）。
+您最多可以从[!UICONTROL Simulations]视图下载每周10个模拟或一次下载自定义模拟。 单个模拟已下载为[!DNL Microsoft Excel]工作簿（XLSX文件）。 对于多个模拟，您可以下载一个组合的工作簿或一个ZIP文件，其中包含每个模拟的单独工作簿。
+
+下载模拟需要具有[!UICONTROL View Simulation]权限的[!UICONTROL Simulations]视图的访问权限。
 
 >[!NOTE]
 >
 >* 您还可以[在屏幕](simulation-view.md)上查看模拟结果。
 >* 您可以[自定义[!UICONTROL Simulations]视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)以包含许多其他量度和大多数模拟设置的列。 有关可包含列的详细信息，请参阅“[关于模拟](simulation-about.md#simulations-actions)”中的“可用操作”部分。
+>* 您还可以从[!UICONTROL Portfolios]视图](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md#download-simulations)中[下载多达100个项目组合的每周模拟。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Plan]>[!UICONTROL Simulations]**。
 
-1. 选中要下载的模拟旁边的复选框。
+1. 选中要下载的多达10个模拟旁边的复选框。
 
-1. 在数据表上方的工具栏中，单击![下载](/help/search-social-commerce/assets/download.png "下载") **[!UICONTROL Simulation Report]**。
+   仅选择状态为[!UICONTROL Successful]的模拟。 如果任何选定模拟的状态为[!UICONTROL Failed]、[!UICONTROL Queued]或[!UICONTROL In Progress]，则不会开始下载。 请在下载之前清除这些选择。
 
-   将按照浏览器的正常过程下载文件。 解压缩ZIP文件以查看模拟。
+1. 在数据表上方的工具栏中，单击&#x200B;**[!UICONTROL Download Simulation]**。
+
+1. （选择了多个模拟时）选择一个下载选项：
+
+   * **[!UICONTROL Download as Single File]**：下载一个包含所有选定模拟的工作簿。
+
+   * **[!UICONTROL Download as Multiple Files]**：下载一个ZIP文件，其中包含每个所选模拟的单独工作簿。
+
+将按照浏览器的正常过程下载文件。 如果下载ZIP文件，请解压缩该文件以查看工作簿。
 
 >[!MORELIKETHIS]
 >

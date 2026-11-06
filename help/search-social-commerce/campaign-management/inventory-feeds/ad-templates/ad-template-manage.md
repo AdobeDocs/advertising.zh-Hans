@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1428'
 ht-degree: 0%
 ---
 # 管理库存馈送的广告模板
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 您可以将每个模板与一个信息源文件、[!DNL Google Merchant Center]帐户或[!DNL Microsoft Merchant Center]帐户关联，还可以将多个模板与同一信息源文件或帐户关联。 广告模板可以包含变量，这些变量会被上传文件或帐户中的实际数据列替换。 在大多数情况下，变量还可以包括您在Search、Social和Commerce中设置的[修饰符组](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)，以便为数据文件中的每个适用行创建多个广告、关键字、促销活动或广告组。 利用模板选项，可为广告创建新帐户结构（促销活动、广告组、关键词），或将广告映射到现有帐户结构。
 
-除了从头开始创建新模板之外，您还可以通过克隆现有模板和编辑现有模板来创建新模板。
+除了使用新设置创建模板之外，您还可以通过克隆现有模板和编辑现有模板来创建新模板。
 
 创建模板并将其与数据馈送文件或商户中心帐户关联后，您可以通过模板传播文件中的数据以创建促销活动数据和帐户结构，可以选择创建批量处理工作表文件以供审阅或立即发布到广告网络。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 执行以下操作之一：
 
-   * 要从头开始创建模板，请单击数据表上方工具栏中的&#x200B;**[!UICONTROL Create/Clone]**，然后选择适用的广告网络。
+   * 要使用新设置创建模板，请单击数据表上方工具栏中的&#x200B;**[!UICONTROL Create/Clone]**，然后选择适用的广告网络。
 
    * 要克隆现有模板：
 

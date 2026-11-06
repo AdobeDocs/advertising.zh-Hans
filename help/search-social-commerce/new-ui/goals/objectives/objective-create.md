@@ -1,6 +1,6 @@
 ---
 title: （新UI）创建目标
-description: 了解如何创建目标。
+description: 了解如何创建目标或复制现有目标。
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 21516197-d005-4703-8735-c789107dc3c4
@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '319'
 ht-degree: 0%
 ---
 # （新UI）创建目标
@@ -41,6 +41,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >当您[创建项目组合](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)或稍后[修改项目组合设置](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)时，您可以将目标与项目组合关联。 您可以对多个项目组合使用同一目标。
+
+## 创建目标
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Goals]>[!UICONTROL Objectives]**。
 
@@ -55,6 +57,32 @@ ht-degree: 0%
 1. 在设置的底部，单击&#x200B;**[!UICONTROL Save]**。
 
 在Advertising DSP包中，前缀为“`ADSP_`”（不区分大小写）的目标可用作两天内DSP中的自定义目标。
+
+## 复制目标 {#objective-duplicate}
+
+复制目标以使用相同的设置创建新目标。 您可以选择更改新目标的默认名称，并根据需要编辑目标设置。 原始目标未更改。
+
+复制目标需要[!UICONTROL Edit Objectives]权限。 无法复制默认[!UICONTROL Maximize Clicks]目标。
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Goals]>[!UICONTROL Objectives]**。
+
+1. 执行以下任一操作：
+
+   * 将光标悬停在目标行上并单击&#x200B;**[!UICONTROL ...]>[!UICONTROL Duplicate]**。
+
+   * 选中目标旁边的复选框。 在批量操作工具栏中，单击![复制](/help/search-social-commerce/assets/duplicate.png "复制") **[!UICONTROL Duplicate]**。
+
+     选择多个目标时，[!UICONTROL Duplicate]不可用。
+
+1. 编辑目标设置。
+
+   默认情况下，新目标名称为`<original objective name>_Copy`，如“Revenue_Copy”。 如果原始名称已经以`_Copy`结尾，则新名称包含计数器，如“Revenue_Copy(1)”。 如果建议的名称已存在，请输入唯一的&#x200B;**[!UICONTROL Name]**。
+
+   有关说明，请参阅用户界面中的帮助或“优化指南”（可从“搜索”、“社交”和“Commerce”中获取）。
+
+1. 单击&#x200B;**[!UICONTROL Save]**。
+
+   如果显示警告对话框，请查看警告并单击&#x200B;**[!UICONTROL Save]**&#x200B;以继续。
 
 >[!MORELIKETHIS]
 >
