@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fd18dc1423269ce0238826318f58cfcfdce1bce1
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 2%
@@ -86,7 +86,7 @@ ht-degree: 2%
       + [重命名项目组合](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-rename.md)
       + [更改项目组合的状态](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-change-status.md)
       + [Portfolio设置](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)
-      + [从[!UICONTROL Portfolios]视图运行自定义模拟](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md)
+      + [从[!UICONTROL Portfolios]视图运行并下载模拟](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md)
       + [在[!UICONTROL Portfolios]视图中查看性能图](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-performance-graph.md)
       + [查看项目组合绩效详细信息](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
       + [查看项目组合的更改历史记录](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)

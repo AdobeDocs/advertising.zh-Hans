@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '556'
 ht-degree: 0%
 ---
 # （新UI）关于目标
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 ## 可用操作
 
-* [创建目标](objective-create.md)
+* [创建目标](objective-create.md)或[复制现有目标](objective-create.md#objective-duplicate)
 
 * [编辑目标](objective-edit.md)
 

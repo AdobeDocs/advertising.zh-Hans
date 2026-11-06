@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '173'
 ht-degree: 0%
 ---
 # 创建报表模板
 
-您可以为任何类型的性能报表保存多个报表模板。 您可以从头开始创建模板，或基于现有模板创建模板。 一次最多可以维护100个模板。
+您可以为任何类型的性能报表保存多个报表模板。 您可以创建新设置的模板，也可以基于现有模板进行创建。 一次最多可以维护100个模板。
 
-* 要从头开始创建模板，请执行以下任一操作：
+* 要创建具有新设置的模板，请执行下列操作之一：
 
   * 从[!UICONTROL Reports]选项卡创建报告，选中报告名称旁边的&#x200B;**[!UICONTROL Save as template]**&#x200B;旁边的复选框。
 

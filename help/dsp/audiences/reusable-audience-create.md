@@ -18,7 +18,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8385743efa75e0c44cf44d0443094b11d579216d
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
 source-wordcount: '2318'
 ht-degree: 0%
@@ -198,7 +198,7 @@ Consider starting by asking for what you should include.
 
 you can give thumbs up or down to [what exactly?].
 
-Verify what info is carried over from session to session and what starts from scratch.
+Verify what info is carried over from session to session and what is reset for each new session.
 
 -->
 
