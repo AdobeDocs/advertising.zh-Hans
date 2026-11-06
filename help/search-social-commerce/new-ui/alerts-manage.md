@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
     internal-label: Search Alerts
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: af1f0e268241a9ab903a09250ca087e636892375
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1223'
 ht-degree: 0%
 ---
 # （新UI）管理自定义警报
@@ -131,8 +131,9 @@ ht-degree: 0%
 |--- |--- |--- |
 |  | [!UICONTROL Name] | 警报名称。 必须至少包含五个字符。 |
 | [!UICONTROL Date Range] | [!UICONTROL Select Entity] | 要计算的实体类型： <i>[!UICONTROL Portfolio]</i>、<i>[!UICONTROL Campaign]</i>或<i>[!UICONTROL Ad Group]</i>。 |
-| [!UICONTROL Date Range] | [!UICONTROL Period] | 评估警报条件的日期范围。 将在日期范围内对指标进行汇总评估。 选项范围从&#x200B;*[!UICONTROL Yesterday]*&#x200B;到&#x200B;*[!UICONTROL Last 180 Days]*。 |
-| [!UICONTROL Filters] | \[定义的筛选器\] | 在[!UICONTROL Scheduling and Delivery]选项卡上指定的时间触发警报的条件。 可用列因图元类型而异。 所有过滤器都使用布尔函数AND进行连接，这意味着必须满足所有指定的条件。<ul><li><p>要添加过滤器，请执行以下操作：<p><ol><li><p>（可选）要按文本字符串筛选列名，请在[!UICONTROL ADD FILTER]输入字段中输入搜索字符串。</p></li><li><p>在列列表中，选择一个列名。</p></li><li><p>在列上定义过滤器：</p></li><ul><li><p>（不带输入字段的筛选器）单击第二个菜单旁边的![向下箭头](/help/search-social-commerce/assets/arrow-down-expand.png "向下箭头")，然后选中要包含的每个值旁边的复选框。</p></li><li><p>（具有输入字段的所有其他筛选器）从第二个菜单中选择运算符，然后输入适用的值。</p><p>例如，如果您选择了“点击量”列并且只想返回点击量超过100次的行，请选择“大于”并在输入字段中输入100。</p><p>根据数据类型，可用运算符可能包括<i>大于</i>、<i>小于</i>、<i>等于</i>、<i>包含</i>、<i>不包含</i>、<i>开头为</i>、<i>结尾为</i>、<i>无值</i>、<i>具有值</i>、<i>在</i>之前、<i>在</i>之后，或<i>无日期</i>。</p><p>**注意：**&#x200B;文本值不区分大小写。 例如，如果按名称中包含“loan”的促销活动进行过滤，则结果可能包括“Consumer Loans”和“loan application”。</p></li></ol><li><p>要删除筛选器，请单击筛选器定义旁边的![删除](/help/search-social-commerce/assets/delete.png "删除")。</p></li></ul> |
+| [!UICONTROL Date Range] | [!UICONTROL Period] | 评估警报条件的日期范围。 将在日期范围内对指标进行汇总评估。 选项范围从&#x200B;*[!UICONTROL Yesterday]*&#x200B;到&#x200B;*[!UICONTROL Last 180 Days]*。<br><br>对于使用[!UICONTROL increases by]或[!UICONTROL decreases by]的筛选器，Search、Social和Commerce会自动选择前一个比较时段。 例如，它将[!UICONTROL Last 7 Days]与[!UICONTROL Previous 7 Days]进行比较。 [!UICONTROL Filters]选项卡上的[!UICONTROL Comparing:]文本标识两个句点。 |
+| [!UICONTROL Filters] | \[定义的筛选器\] | 在[!UICONTROL Scheduling and Delivery]选项卡上指定的时间触发警报的条件。 可用列因图元类型而异。 所有过滤器都使用布尔函数AND进行连接，这意味着必须满足所有指定的条件。<ul><li><p>要添加过滤器，请执行以下操作：<p><ol><li><p>（可选）要按文本字符串筛选列名，请在[!UICONTROL ADD FILTER]输入字段中输入搜索字符串。</p></li><li><p>在列列表中，选择一个列名。</p></li><li><p>在列上定义过滤器：</p></li><ul><li><p>（不带输入字段的筛选器）单击第二个菜单旁边的![向下箭头](/help/search-social-commerce/assets/arrow-down-expand.png "向下箭头")，然后选中要包含的每个值旁边的复选框。</p></li><li><p>（具有输入字段的所有其他筛选器）从第二个菜单中选择运算符，然后输入适用的值。</p><p>例如，如果您选择了“点击量”列并且只想返回点击量超过100次的行，请选择“大于”并在输入字段中输入100。</p><p>根据数据类型，可用运算符可能包括<i>大于</i>、<i>小于</i>、<i>等于</i>、<i>包含</i>、<i>不包含</i>、<i>开头为</i>、<i>结尾为</i>、<i>无值</i>、<i>具有值</i>、<i>在</i>之前、<i>在</i>之后，或<i>无日期</i>。</p><p>对于支持的数字量度，您还可以选择[!UICONTROL increases by]或[!UICONTROL decreases by]以比较跨日期范围的性能。 这些运算符不可用于[!UICONTROL Budget]之类的属性。 输入一个正数以标识至少该数量的增加或减少，然后选择下面描述的[!UICONTROL Date comparison format]。</p><p>**注意：**&#x200B;文本值不区分大小写。 例如，如果按名称中包含“loan”的促销活动进行过滤，则结果可能包括“Consumer Loans”和“loan application”。</p></li></ol><li><p>要删除筛选器，请单击筛选器定义旁边的![删除](/help/search-social-commerce/assets/delete.png "删除")。</p></li></ul> |
+| [!UICONTROL Filters] | [!UICONTROL Date comparison format] | （当至少一个筛选器使用[!UICONTROL increases by]或[!UICONTROL decreases by]时）如何表示选定时段与比较时段之间的更改：<ul><li><i>[!UICONTROL Variance(#)]</i>（默认）：将更改表示为数字值。 比较筛选器值显示#个后缀。</li><li><i>[!UICONTROL Percentage(%)]</i>：以百分比表示更改。 比较筛选器值显示%后缀。</li></ul>所选格式适用于使用警报中日期比较的所有量度。 它不会影响其他过滤器。 更改格式不会转换您输入的值；请根据需要查看和调整比较筛选器值。 |
 | [!UICONTROL Scheduling and Delivery] | [!UICONTROL Trigger this Alert] \[when\] | 警报检查指定条件过滤器的频率，并在满足所有条件时发送电子邮件通知：<ul><li><p>[!UICONTROL Daily at <*NN*> `[AM\|PM]`]</p></li><li><p>[!UICONTROL Weekly on <*每周时间*> &lt;*NN*> `[AM\|PM]`]</p></li><li><p>[!UICONTROL Every month on <*第NN*>天&lt;*NN*> `[AM\|PM]`]</p></li></ul>**注意：**&#x200B;此值不会影响评估期。 |
 |  | [!UICONTROL Email Recipients] | （仅警报模板的创建者可编辑；其他每个人仅可编辑）触发警报时要向其发送通知的已注册Search、Social和Commerce用户。 默认情况下，会选择用户帐户的名称。 （可选）添加或删除有权访问广告商数据的用户。<br><br>当警报包含最多1000条记录时，会将CSV版本的警报附加到电子邮件中。 |
 
