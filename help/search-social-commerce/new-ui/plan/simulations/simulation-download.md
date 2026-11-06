@@ -48,7 +48,7 @@ ht-degree: 0%
 >
 >* 您还可以[在屏幕](simulation-view.md)上查看模拟结果。
 >* 您可以[自定义[!UICONTROL Simulations]视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)以包含许多其他量度和大多数模拟设置的列。 有关可包含列的详细信息，请参阅“[关于模拟](simulation-about.md#simulations-actions)”中的“可用操作”部分。
->* 您还可以从[!UICONTROL Portfolios]视图](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md#download-simulations)中[下载多达100个项目组合的每周模拟。
+>* 您还可以从[!UICONTROL Portfolios]视图[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md#download-simulations)中下载多达100个项目组合的每周模拟。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Plan]>[!UICONTROL Simulations]**。
 

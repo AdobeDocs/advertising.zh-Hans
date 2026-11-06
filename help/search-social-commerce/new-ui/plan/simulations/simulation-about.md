@@ -51,7 +51,7 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 Search、Social和Commerce每周都会使用当前项目组合设置自动运行模拟报表。 每周自动模拟仅适用于项目组合为[已优化或处于活动状态](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md)的期间。
 
-您可以从[!UICONTROL Portfolios]视图](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md#download-simulations)中[下载所选运行日期内最多100个项目组合的每周模拟，或者从[!UICONTROL Simulations]视图](simulation-download.md)中[下载单个模拟。
+您可以从[!UICONTROL Portfolios]视图[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md#download-simulations)中[下载所选运行日期内最多100个项目组合的每周模拟，或者从[!UICONTROL Simulations]视图](simulation-download.md)中下载单个模拟。
 
 #### 每周下载的模拟
 

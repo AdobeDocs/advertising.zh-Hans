@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ## 创建新模拟 {#simulation-create}
 
-您可以从[!UICONTROL Simulations]视图开始，或从[!UICONTROL Portfolios]视图](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md#run-simulation)运行[自定义模拟。
+您可以从[!UICONTROL Simulations]视图开始，或从[!UICONTROL Portfolios]视图[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md#run-simulation)运行自定义模拟。
 
 1. 在主菜单中，单击&#x200B;**[!UICONTROL Plan]>[!UICONTROL Simulations]**。
 
