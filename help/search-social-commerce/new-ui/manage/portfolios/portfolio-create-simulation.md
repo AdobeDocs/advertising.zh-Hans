@@ -13,9 +13,9 @@ feature_v2:
     internal-label: Search Portfolios
   - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
     internal-label: Search Simulations
-source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
+source-git-commit: 3e70998ad9547cecc0f3581d6cfd917051d549db
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '396'
 ht-degree: 0%
 ---
 # 从[!UICONTROL Portfolios]视图运行并下载模拟
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    * 选中项目组合旁边的复选框。 在批量操作工具栏中，单击&#x200B;**[!UICONTROL More]>[!UICONTROL Run Simulation]**。
 
-1. 指定[自定义模拟设置](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md#custom-simulation-settings)：
+1. 指定[自定义模拟设置](#custom-simulation-settings)：
 
    1. 在&#x200B;**[!UICONTROL Basic Settings]**&#x200B;选项卡上，输入唯一的&#x200B;**[!UICONTROL Simulation Name]**&#x200B;并根据需要更改基本参数。
 
@@ -75,6 +75,10 @@ ht-degree: 0%
    将按照浏览器的正常过程下载文件。 完成消息指示包含的项目组合数量。
 
 要下载自定义模拟或选择个别每周模拟，请使用[[!UICONTROL Simulations]视图](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)。
+
+## 自定义模拟设置 {#custom-simulation-settings}
+
+有关自定义模拟设置的详细信息，请参阅优化指南，该指南可在Search、Social和Commerce中找到。
 
 >[!MORELIKETHIS]
 >
