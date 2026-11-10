@@ -15,16 +15,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: a2ff8c1115487f12eb67f6db06e25f723c551e80
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '265'
 ht-degree: 0%
 ---
 # 创建自定义量度
 
 ## （新UI）从管理视图创建自定义量度
 
-*在[!UICONTROL Simulations]、[!UICONTROL Portfolios]、[!UICONTROL Campaigns]和[!UICONTROL Ad Groups]查看中可用*
+*在[!UICONTROL Manage]菜单的大多数实体视图中可用，<!-- [!UICONTROL Plan] > [!UICONTROL Simulations],--> [!UICONTROL Setup] > [!UICONTROL Label Classifications]，[!UICONTROL Goals] > [!UICONTROL Objectives]和[!UICONTROL Constraints]，以及[!UICONTROL Targeting] > [!UICONTROL Placements]*
 
 1. 在数据表上方，执行以下任一操作：
 
