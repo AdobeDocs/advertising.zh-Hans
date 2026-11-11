@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '269'
 ht-degree: 0%
 ---
 # 使用批量处理工作表查看和编辑广告详细信息
@@ -56,7 +56,7 @@ ht-degree: 0%
 
    * 在通知消息中，单击&#x200B;**[!UICONTROL Download].**
 
-   * 单击顶部菜单栏右侧的![作业](/help/dsp/assets/downloads.png)。 单击作业旁边的&#x200B;**[!UICONTROL Download]**。
+   * 单击顶部菜单栏右侧的![作业管理器](/help/creative/assets/job-manager.png "作业管理器") (**[!UICONTROL Job Manager]**)。 单击作业旁边的&#x200B;**[!UICONTROL Download]**。
 
      文件已保存到浏览器的“下载”文件夹中。<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
