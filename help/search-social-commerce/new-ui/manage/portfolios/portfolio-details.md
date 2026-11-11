@@ -1,6 +1,6 @@
 ---
 title: （新UI）查看项目组合绩效详细信息
-description: 了解如何查看项目组合绩效详细信息，包括项目组合级别和每个分配营销活动的实际和预测指标。
+description: 了解如何在Adobe Advertising Search、Social和Commerce中查看项目组合绩效、关键词竞价单位详细信息、预测和竞价历史记录，以及导出竞价单位历史记录。
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1168'
 ht-degree: 0%
 ---
 # （新UI）查看项目组合绩效详细信息
@@ -58,7 +58,7 @@ ht-degree: 0%
 
   * [!UICONTROL History]选项卡：过去36天中的所有竞价，包括每个竞价的以下数据：日期和时间、展示次数、点击次数、总成本、平均CPC、平均位置以及按点击日期显示的加权收入。 将显示所有设备和每种设备类型（移动设备、计算机和平板电脑）的数据。<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. **Note:** Whenever the optimization method changes from v6 to v7 and vice-versa, the history data is reset the same day. -->
 
-  * [!UICONTROL Detail]选项卡：匹配类型（如果适用）以及竞价单位所属的父广告组、营销活动、广告网络帐户和项目组合。
+  * [!UICONTROL Details]选项卡：关键字、匹配类型（如果适用），以及父广告组、营销活动、广告网络帐户和竞价单位所属的项目组合。
 
 ## 打开项目组合的性能详细信息
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 * 要查看项目组合内某个促销活动中的所有广告组，请单击&#x200B;**[!UICONTROL Campaigns]**&#x200B;选项卡，然后单击促销活动名称。
 
-## 列出和查看有关项目组合中关键字的详细信息
+## 列出和查看有关项目组合中关键字的详细信息 {#bid-unit-details}
 
 每个关键词的详细信息包括竞价单位ID、匹配类型、实际成本和预测成本、点击次数和目标值，以及成本、点击次数和目标值差异。 您可以查看有关单个关键字的竞价单位详细信息。
 
@@ -137,6 +137,20 @@ ht-degree: 0%
    * 要查看项目组合内广告组中的所有关键字，请单击&#x200B;**[!UICONTROL Ad Groups]**&#x200B;选项卡，然后单击广告组名称。
 
 1. （可选）要查看有关特定竞价单位的详细信息，请单击&#x200B;**[!UICONTROL Bid Unit ID]**&#x200B;列中的值。 单击[!UICONTROL Bid Unit Details]中的任意选项卡以了解详细信息。
+
+### 查看和下载单个竞价单位的历史记录 {#bid-unit-history}
+
+1. [打开竞价单位详细信息](#bid-unit-details)。
+
+1. 单击&#x200B;**[!UICONTROL History]**&#x200B;选项卡。
+
+1. （可选）从表上方的设备菜单中，选择要查看其历史记录的设备类型。 默认情况下，将显示所有设备的数据。
+
+1. （可选）当历史记录数据可用时，单击&#x200B;**[!UICONTROL Export as csv]**&#x200B;以下载显示的历史记录。
+
+将按照浏览器的正常过程下载文件。
+
+要查看整个项目组合的竞价历史记录并更改其日期范围，请参阅&quot;[查看项目组合的竞价更改历史记录](portfolio-view-change-history.md#portfolio-bid-change-history)&quot;。
 
 ## 查看和编辑项目组合设置
 

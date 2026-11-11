@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 1388e37872b8e41fbe58c7a21ebe8ebf5b6b0b6c
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1751'
 ht-degree: 0%
 ---
 # 关于自定义报表
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您还可以在相关促销活动管理视图[&#128279;](/help/dsp/campaign-management/reports/campaign-reports-about.md)中查看促销活动的所有级别（促销活动、包、投放位置或广告）的按需数据。
+>您还可以在相关促销活动管理视图](/help/dsp/campaign-management/reports/campaign-reports-about.md)中查看促销活动[的所有级别（促销活动、包、投放位置或广告）的按需数据。
 
 ## 可用报表类型
 
@@ -120,11 +120,10 @@ ht-degree: 0%
 
     显示每个路径长度不超过10的数据；将路径长度大于10的数据分组在一起。
 
-  * **[!UICONTROL Segment]：**&#x200B;使用此预填充模板按区段查看关键量度。
+  * **[!UICONTROL Segment]：**&#x200B;使用此预填充模板按目标受众区段评估性能。 此报表包括区段名称、描述和键以及区段提供程序名称。 您可以包含转化量度和自定义目标数据，但不能包含频率或任何家庭级别的量度。
 
     >[!NOTE]
-    >
-    >* 此报表旨在显示不同目标区段的表现。 它使用区段成员资格数据。 当向属于两个或更多目标区段的人员或设备提供展示时，此报表会为每个区段包含一行。 因此，此报表中的总计可能与实际交付不匹配。
+    >* 与多个区段匹配的展示将归因于所有匹配的区段，每个区段对应一行。 同样，展示的所有标准、支出和绩效指标都归属于所有匹配区段。 因此，组合区段行的量度合计可能会超过促销活动总计。
     >* 区段的转化量度和自定义目标数据在2019年8月2日之后可用。 区段的所有其他数据自2018年6月1日后开始可用。
 
   * **[!UICONTROL Site]：**&#x200B;默认情况下，包括按网站列出的标准量度、媒体净支出总额和可计费净支出总额。
