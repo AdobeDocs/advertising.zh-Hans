@@ -202,7 +202,7 @@ For example, permission to view client instances doesn't by itself allow a user 
 
 1. [登录到Adobe Admin Console并将其打开以搜索、社交和Commerce](#open-admin-console)。
 
-1. 根据需要，批量创建最终用户[个别](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)或[](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)。
+1. 根据需要，批量创建最终用户[个别](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)或[&#128279;](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)。
 
 1. （可选）为实例创建[用户组](https://helpx.adobe.com/enterprise/using/user-groups.html)并将用户分配给每个用户组。
 
