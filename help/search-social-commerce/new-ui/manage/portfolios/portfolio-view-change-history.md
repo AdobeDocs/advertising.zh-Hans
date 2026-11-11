@@ -52,7 +52,7 @@ ht-degree: 0%
 
 1. （可选）单击日期列标题以按日期升序或降序对列表进行排序。
 
-要查看单个竞价单位的历史记录，请[打开组合性能详细信息中的竞价单位详细信息](portfolio-details.md#bid-unit-history)。 当[!UICONTROL Bid Unit ID]列可用时，您还可以从[!UICONTROL Keywords]视图](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md#bid-unit-history)中[打开竞价单位历史记录。
+要查看单个竞价单位的历史记录，请[打开组合性能详细信息中的竞价单位详细信息](portfolio-details.md#bid-unit-history)。 当[!UICONTROL Bid Unit ID]列可用时，您还可以从[!UICONTROL Keywords]视图[&#128279;](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md#bid-unit-history)中打开竞价单位历史记录。
 
 ## 管理项目组合更改历史记录报告
 

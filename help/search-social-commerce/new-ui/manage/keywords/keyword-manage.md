@@ -77,7 +77,7 @@ ht-degree: 0%
 
 将按照浏览器的正常过程下载文件。
 
-您还可以从产品组合的性能详细信息](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md#bid-unit-details)中打开[竞价单位详细信息。 有关对话框中其他选项卡的信息，请参阅“[查看项目组合性能详细信息](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)”。
+您还可以从产品组合的性能详细信息[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md#bid-unit-details)中打开竞价单位详细信息。 有关对话框中其他选项卡的信息，请参阅“[查看项目组合性能详细信息](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)”。
 
 ## 创建关键字 {#keyword-create}
 
