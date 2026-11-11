@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '575'
 ht-degree: 0%
 ---
 # 使用批量处理工作表查看和编辑Campaign组件设置
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    * 在通知消息中，单击&#x200B;**[!UICONTROL Download].**
 
-   * 单击顶部菜单栏右侧的![作业](/help/dsp/assets/downloads.png)。 单击作业旁边的&#x200B;**[!UICONTROL Download]**。
+   * 单击顶部菜单栏右侧的![作业管理器](/help/creative/assets/job-manager.png "作业管理器") (**[!UICONTROL Job Manager]**)。 单击作业旁边的&#x200B;**[!UICONTROL Download]**。
 
      文件已保存到浏览器的“下载”文件夹中。<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
    1. 单击&#x200B;**[!UICONTROL Upload]**。
 
-1. （可选）要验证是否已处理更新，请单击顶部菜单栏右侧的![作业](/help/dsp/assets/downloads.png)。
+1. （可选）要验证更新是否已处理，请单击顶部菜单栏右侧的![作业管理器](/help/creative/assets/job-manager.png "作业管理器") (**[!UICONTROL Job Manager]**)。
 
 当任何设置更新失败时，您可以下载带有颜色编码的批量工作表错误文件，以显示已保存哪些设置（行）以及哪些设置（行）失败，以及每个失败的原因。 然后，您可以在同一文件中解决问题，并再次上传它以处理更正后的信息。
 

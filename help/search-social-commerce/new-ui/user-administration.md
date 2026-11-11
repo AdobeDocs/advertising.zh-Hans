@@ -1,6 +1,6 @@
 ---
-title: （新UI）用户管理
-description: 了解如何管理用户访问权限。
+title: （新UI）搜索、社交和Commerce的用户管理
+description: 了解如何使用Adobe Admin Console管理Adobe Advertising Search、Social和Commerce用户访问权限、管理员角色、产品配置文件和功能权限。
 feature: Search Introduction
 exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
 TQID: 'https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo'
@@ -18,12 +18,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 70595626157c6d39bcf65540c2eb8437e7bd0f4c
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1143'
 ht-degree: 0%
 ---
-# （新UI）搜索、社交和商务的用户管理
+# （新UI）搜索、社交和Commerce的用户管理
 
 某些用户可以使用[Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)管理对新的“搜索、社交和Commerce”用户界面的访问权限，该位置是管理所有Adobe权限和用户管理的中心位置。 用户分为最终用户和管理员。 如果您是管理员，您的Adobe客户团队会通知您。 如果您是管理员，请参阅以下部分以确定管理用户的权限和工作流。
 
@@ -45,7 +45,7 @@ Admin Console提供多种类型的管理员。 搜索、社交和Commerce需要�
 
 产品配置文件与角色类似，它为用户授予了使用特定产品的特定服务的权限。
 
-搜索、社交和商务的新用户界面具有以下默认产品配置文件，这些配置文件提供不同的功能和服务子集。 您无法编辑默认产品配置文件的产品权限或删除默认产品配置文件。 但是，产品管理员、产品配置文件管理员和系统管理员可以根据需要创建和管理具有不同可用权限子集的其他产品配置文件。
+搜索、社交和Commerce的新用户界面具有以下默认产品配置文件，这些配置文件提供了各种功能和服务的子集。 您无法编辑默认产品配置文件的产品权限或删除默认产品配置文件。 但是，产品管理员、产品配置文件管理员和系统管理员可以根据需要创建和管理具有不同可用权限子集的其他产品配置文件。
 
 * **[!UICONTROL Basic Optimization]：**&#x200B;适用于需要具有基本设置访问权限的标准项目组合管理和规划功能的用户。
 
@@ -60,6 +60,8 @@ Admin Console提供多种类型的管理员。 搜索、社交和Commerce需要�
 <!-- These don't correspond exactly to the GUI menu -->
 
 复选标记(✓)表示该权限包含在产品配置文件中。
+
+查看和编辑权限是分开的。 查看功能的权限本身不允许用户创建、编辑或删除其数据。 自定义产品配置文件可以提供与默认产品配置文件不同的权限组合。
 
 **Portfolio管理**
 
@@ -137,9 +139,32 @@ Noone has permissions as of 6/1; spelling [sic]:
 | 查看MCC帐户 | ✓ | ✓ | ✓ | ✓ |
 | 编辑MCC帐户 | | ✓ | | ✓ |
 
+<!--
+
+Include? And why aren't all edit permissions available for some standard profiles?
+
+### Permissions for custom product profiles
+
+When you create a custom product profile, include the view permissions for the features that users need to open and the separate permissions for the actions they need to perform. The following permissions cover additional capabilities that aren't listed in the default-profile tables above.
+
+| Capability | Permissions |
+|---|---|
+| View and create client instances | [!UICONTROL View Instances] and [!UICONTROL Create Instances] |
+| View and edit keywords and negative keywords | [!UICONTROL View Keywords] and [!UICONTROL Edit Keywords] |
+| View and edit product groups | [!UICONTROL View Product Groups] and [!UICONTROL Edit Product Groups] |
+| View and edit auto targets | [!UICONTROL View Auto Targets] and [!UICONTROL Edit Auto Targets] |
+| View and edit placements and negative placements | [!UICONTROL View Placements] and [!UICONTROL Edit Placements] |
+| View and edit extensions | [!UICONTROL View Extensions] and [!UICONTROL Edit Extensions] |
+| View and edit constraints | [!UICONTROL View Constraints] and [!UICONTROL Edit Constraints] |
+| View spreadsheet feeds | [!UICONTROL View Spreadsheets] |
+
+For example, permission to view client instances doesn't by itself allow a user to create an instance. Similarly, permission to view keywords doesn't by itself allow a user to edit keywords or negative keywords.
+
+-->
+
 ## 管理员任务
 
-### 登录到Adobe Admin Console，并将其打开到Search、Social和Commerce
+### 登录到Adobe Admin Console，并将其打开到Search、Social和Commerce {#open-admin-console}
 
 >[!PREREQUISITES]
 >
@@ -151,7 +176,7 @@ Noone has permissions as of 6/1; spelling [sic]:
 
    1. 输入您的[!DNL Adobe] ID，然后单击&#x200B;**[!UICONTROL Continue]**。
 
-   1. 选择&#x200B;**[!UICONTROL Personal Account]”或&#x200B;**&#x200B;[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+   1. 选择&#x200B;**[!UICONTROL Personal Account]**&#x200B;或&#x200B;**[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    1. 选择适用的CX Enterprise组织。
 

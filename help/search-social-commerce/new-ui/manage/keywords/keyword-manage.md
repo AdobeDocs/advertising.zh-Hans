@@ -1,6 +1,6 @@
 ---
 title: 管理关键字
-description: 了解如何创建和管理可竞价和负关键字并将约束分配给关键字。
+description: 了解如何在Adobe Advertising Search、Social和Commerce中管理可竞价和负关键字、分配约束以及查看和下载关键词竞价单位历史记录。
 feature: Search Optimization, Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
+source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1421'
 ht-degree: 0%
 ---
 # 管理关键字
@@ -53,11 +53,31 @@ ht-degree: 0%
 
 * [更改关键字和负关键字的状态或将其删除](#keyword-status)
 
+* [查看和下载竞价单位历史记录](#bid-unit-history)
+
 * [将选定行中的所有数据复制到剪贴板](#copy-to-clipboard)
 
 * [将约束分配给关键字，并从关键字中取消约束分配](#keyword-constraints)
 
 * [将标签分类](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)分配给关键字
+
+## 查看和下载竞价单位历史记录 {#bid-unit-history}
+
+当[!UICONTROL Bid Unit ID]列在关键字数据表中可用时，您可以直接从ID打开竞价单位的历史记录。
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Keywords]**。
+
+1. 在&#x200B;**[!UICONTROL Keywords]**&#x200B;选项卡上，单击关键字&#x200B;**[!UICONTROL Bid Unit ID]**&#x200B;列中的值。
+
+1. 在[!UICONTROL Bid Unit Details]对话框中，单击&#x200B;**[!UICONTROL History]**&#x200B;选项卡。
+
+1. （可选）从表上方的设备菜单中，选择要查看其历史记录的设备类型。 默认情况下，将显示所有设备的数据。
+
+1. （可选）当历史记录数据可用时，单击&#x200B;**[!UICONTROL Export as csv]**&#x200B;以下载显示的历史记录。
+
+将按照浏览器的正常过程下载文件。
+
+您还可以从产品组合的性能详细信息[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md#bid-unit-details)中打开竞价单位详细信息。 有关对话框中其他选项卡的信息，请参阅“[查看项目组合性能详细信息](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)”。
 
 ## 创建关键字 {#keyword-create}
 

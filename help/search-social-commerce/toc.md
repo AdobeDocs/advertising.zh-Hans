@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
+source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
 workflow-type: tm+mt
-source-wordcount: '2440'
+source-wordcount: '2443'
 ht-degree: 2%
 ---
 # Advertising 搜索、社交和 Commerce 指南 {#search-social-commerce}
@@ -89,7 +89,7 @@ ht-degree: 2%
       + [从[!UICONTROL Portfolios]视图运行并下载模拟](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md)
       + [在[!UICONTROL Portfolios]视图中查看性能图](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-performance-graph.md)
       + [查看项目组合绩效详细信息](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
-      + [查看项目组合的更改历史记录](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
+      + [查看项目组合更改历史记录和竞价更改历史记录](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
       + [从[!UICONTROL Portfolios]视图管理数据视图报告](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
     + 帐户 {#accounts}
       + [关于广告网络帐户](/help/search-social-commerce/new-ui/manage/accounts/ad-network-account-about.md)
