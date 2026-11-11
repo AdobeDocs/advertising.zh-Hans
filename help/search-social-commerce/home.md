@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: c631d2989a2df375aec1f222542ec8ce3d6c79d4
+source-git-commit: dabc3d714941ccecfae1646d554dd3f554a83adf
 workflow-type: tm+mt
-source-wordcount: '5742'
+source-wordcount: '5697'
 ht-degree: 1%
 ---
 # 搜索、社交和Commerce的新增功能
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2026年11月4日 | [!UICONTROL Portfolios]，优化 | （具有营销活动级别或广告组级别优化的项目组合中的[!DNL Google Ads]营销活动的选择加入功能）搜索、社交和Commerce现在可以包含来自[!DNL Google Ads]营销活动预算建议的信号（包括建议的预算金额和预计的转化提升），以告知其自身的预算指导决策。 启用该功能后，[!DNL Google Ads]建议将预算高于以前分配的优化功能，优化功能会保留以前的预算或增加预算，但不会减少预算。 项目组合中其他营销活动的预算通常会重新平衡。<br><br>要选择启用该功能，请联系您的Adobe客户团队。 | — |
+| 2026年11月4日 | [!UICONTROL Portfolios]，优化 | （具有营销活动级别或广告组级别优化的项目组合中的[!DNL Google Ads]营销活动的选择加入功能）搜索、社交和Commerce现在可以包含来自[!DNL Google Ads]营销活动预算建议的信号（包括建议的预算金额和预计的转化提升），以告知其自身的预算指导决策。 要选择启用该功能，请联系您的Adobe客户团队。 | — |
 | | [!UICONTROL Accounts] | 对于广告网络API帐户，您现在可以识别缺少的身份验证权限，查看令牌过期警告，并在[!UICONTROL Accounts]视图中获取有关恢复步骤的信息。 | 请参阅“[帐户身份验证和访问状态](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md#authentication-status)”。 |
 | 2026年10月26日 | [!UICONTROL Campaigns], [!UICONTROL Bulksheets] | （已启用[!DNL AI Max]的[!DNL Google Ads]营销活动）您现在可以在新的Search、Social和Commerce用户界面中配置以下设置：<ul><li>营销活动级别：<ul><li>**[!UICONTROL Brand inclusions]**&#x200B;和&#x200B;**[!UICONTROL Brand exclusions]：**&#x200B;指定可在品牌相关查询中匹配的帐户品牌列表。</li><li>**[!UICONTROL URL inclusions]：**&#x200B;指定要作为最终URL扩展生成的登陆页排除的URL。 启用[!UICONTROL Text customization]和[!UICONTROL Final URL expansion]时，此设置可用。</li></ul></li><li>广告组级别：<ul><li>**[!UICONTROL URL inclusions]：**&#x200B;指定要作为最终URL扩展生成的登陆页排除的URL。 此设置适用于已启用[!UICONTROL Text customization]的营销活动。</li></ul></li></ul>这些设置也支持批量处理工作表。 | 请参阅“[[!DNL Google Ads] 促销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)”、“[[!DNL Google Ads] 广告组设置](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)”和“[帐户](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)的必需批量处理工作表数据。” [!DNL Google Ads]  |
 | 2026年10月5日 | [!UICONTROL Campaigns], [!UICONTROL Reports] | （Beta功能）具有[!DNL OpenAI ChatGPT Ads]广告帐户的广告商现在可以在新的Search、Social和Commerce用户界面中管理和报告其促销活动。 [!DNL Chat card]广告是来自[!DNL OpenAI]的试点功能，是基于图像的赞助投放，显示在AI聊天转换旁边，可以定位聊天转换的上下文和意图、用户位置和语言。 清单是私有的，并且由发布者管理，不可出价。 [!DNL ChatGPT]广告在除中国以外的大多数主要市场都可用。 禁止为医疗服务或金融服务广告。<br><br>支持可用于创建和管理帐户、促销活动、广告组和广告；还可用于在促销活动管理视图中查看效果数据（展示次数、点击量和成本，但不包括[!DNL ChatGPT Ads]跟踪的转化）。 不支持[!DNL Adobe]或第三方跟踪、第一方受众定位、计划报表、Adobe Analytics或Adobe Customer Journey Analytics中的报表、优化或使用批量处理工作表进行营销活动管理。<br><br>对[!DNL ChatGPT Ads]的支持将在今年晚些时候在Advertising DSP中提供。 如果您的组织同时使用Search、Social和Commerce以及DSP，则只能通过Search、Social和Commerce购买库存，在这里，您可以查看效果数据以及其他广告网络的数据。<br><br>要使用该功能，请联系您的Adobe客户团队以了解费率信息并开始入门培训流程。 | 查看[[!DNL ChatGPT Ads] 帐户设置](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)、[促销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md)、[广告组设置](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md)和[广告设置](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)。<br><br>另查看有关[ChatGPT广告](https://help.openai.com/en/articles/20001207-ads-in-chatgpt-the-basics)和[!DNL OpenAI]的详细信息[广告策略](https://openai.com/policies/ad-policies)。 |
