@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: e5b13eece252d5f0a86d86e0449dd13483c3665f
+source-git-commit: 44bb4cdb1d132bbc25e39f8b63efea3a507dff40
 workflow-type: tm+mt
-source-wordcount: '8313'
+source-wordcount: '8406'
 ht-degree: 0%
 ---
 # DSP的新增功能
@@ -51,6 +51,8 @@ ht-degree: 0%
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
 | 2026年11月11 | [!UICONTROL Reports] | （10月发布）以下报表具有区段数据时提供了更改：<ul><li>**[!UICONTROL Segment]报告：**&#x200B;现有报告中的“[!UICONTROL Segment Membership] *”列现在称为“[!UICONTROL Segment] *”。<br><br>使用此报告按受众区段评估性能。 如果展示与多个区段匹配，则展示及其所有标准、支出和绩效指标都将被归因到每个匹配区段。 组合区段行的量度可能高于促销活动总计。</li><li>**[!UICONTROL Billing]报表：**&#x200B;包含已归因的区段数据以评估跨受众区段的支出。 每次展示都归因于一个区段，因此支出会合计到您的实际总支出中。 可用的报表列包括[!UICONTROL Attributed Segment Name]、[!UICONTROL Attributed Segment Key]、[!UICONTROL Attributed Segment Description]和[!UICONTROL Attributed Segment Provider Name]。 这些列以前名为“[!UICONTROL Billable Segment] *”。</li></ul> | 请参阅“[关于自定义报告](/help/dsp/reports/report-about.md)”和“[可用的报告列](/help/dsp/reports/report-columns.md)”。 |
+| 2026年11月6日 | [!DNL Creative] >新[!DNL Creative Library]用户界面 | 您现在可以使用流量表导入第三方广告服务器上托管的一个或多个创意的广告标记。 旧版用户界面仍支持为单个第三方创意内容输入广告标记。 | 请参阅“[关于您的创意库](/help/creative/creative-libraries/creative-libraries-about.md)”和“[将标准创意添加到创意库](/help/creative/creative-libraries/creative-add-standard.md)”。 |
+| 2026年11月4日 | [!DNL Creative] > [!DNL Creative Studio] | （不再处于测试版）使用AI从现有的静态显示广告图像或文本提示生成显示广告模板。 | 请参阅“[在[!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-templates.md)中管理广告模板”。 |
 | 2026年10月29日 | [!DNL ChatGPT Ads] | 通过Adobe DSP与[!DNL OpenAI Ads]的集成，您现在可以运行[!DNL ChatGPT Ads]聊天卡广告，这些广告显示在[!DNL ChatGPT]对话中。 对于此功能，DSP会创建一个广告帐户，并代表您的组织购买媒体。 使用此功能测试人工智能媒体，而不与[!DNL ChatGPT Ads]建立直接关系，这可能需要最低的支出承诺。<br><br> 由于[!DNL ChatGPT Ads]营销活动的结构与DSP营销活动不同，因此您将通过主菜单中的单独选项管理这些营销活动并查看效果数据： [!DNL Conversational Ads]。 营销活动、广告组和广告级别的效果数据包括[!UICONTROL Impressions]、[!UICONTROL Clicks]、[!UICONTROL Spend]、[!UICONTROL CTR]、[!UICONTROL Avg CPC]和[!UICONTROL Avg CPM]。<br><br> 要使用该功能，请联系您的Adobe客户团队以开始载入流程。 | 有关详细信息（包括资格），请参阅文档以管理[[!DNL ChatGPT Ads] 帐户](/help/dsp/campaign-management/conversational-ads/account-manage.md)以及相应的[促销活动、广告组和广告](/help/dsp/campaign-management/conversational-ads/campaign-manage.md)。 |
 | 2026年10月28日 | AI驱动的决策树编辑器 | （Beta功能）现在，使用Advertising Creative的广告商可以使用人工智能驱动的编辑器，通过决策树定位创建和编辑体验。 在自然语言对话中描述所需的定位结构或更改，并查看生成的决策树。 您还可以直接编辑画布以管理目标节点、分配创意捆绑包以及配置创意优化、计划和跟踪URL。 默认情况下，会打开AI驱动编辑器；手动编辑器仍然可用。 | 请参阅“[决策树布局](/help/creative/experiences/experience-decision-tree.md)”、“[创建具有定位的体验](/help/creative/experiences/experience-create-targeting.md)”和“[编辑具有定位的体验](/help/creative/experiences/experience-edit-targeting.md)”。 |
 | 2026年10月28日 | DSP中的[!DNL AI Assistant]，可重用[!UICONTROL Audiences] | 您现在可以使用[!DNL AI Assistant]从所有可用的第一方和第三方区段生成可重用受众。 [!UICONTROL Audiences] > [!UICONTROL All Audiences]中的受众代理仍然可用，您仍然可以手动创建受众。 | 请参阅“[关于Advertising DSP中的AI助手](/help/dsp/ai-assistant/ai-assistant-about.md)”、“[使用AI助手生成可重用受众](/help/dsp/ai-assistant/audience-builder-agent.md)”和“[创建可重用受众](/help/dsp/audiences/reusable-audience-create.md)”。 |

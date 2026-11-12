@@ -10,9 +10,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
+source-git-commit: 1683592f2645be8911a142b5696ad481393023c3
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '999'
 ht-degree: 0%
 ---
 # 关于[!DNL Advertising Creative]中的[!UICONTROL Creative Studio]
@@ -31,21 +31,31 @@ ht-degree: 0%
 
 ## 主要功能
 
-* **AI内容生成：**&#x200B;使用&#x200B;**[!UICONTROL Ad Variations Generator]**&#x200B;通过自然语言聊天界面生成广告概念和变化。 AI助手可以生成标题、副标题、CTA、正文和背景图像变化，并可以在同一会话中创建新的大小模板。 每个会话最多可以有10个概念处于活动状态。
+* **创建和管理广告模板：**
 
-* **显示和视频广告支持：**&#x200B;创建和管理显示广告模板和视频广告模板。 创建模板时，请选择&#x200B;**[!UICONTROL Display Ad Template]**&#x200B;或&#x200B;**[!UICONTROL Video Ad Template]**&#x200B;以匹配您的促销活动格式。
+  * **使用AI从文本生成：** [从文本提示生成显示广告模板](creative-studio-manage-templates.md#template-generate-from-text)，可以选择包括品牌个人资料和图像。 查看多个结果，然后在编辑器中打开模板以自定义并保存新副本。
 
-* **HTML5模板上传：**&#x200B;通过将现有HTML5广告模板上传为ZIP文件来导入它们。 **[!UICONTROL Import Templates]**&#x200B;对话框允许您在导入之前分配广告商和模板名称。
+  * **使用AI从图像生成：** [将现有的静态显示广告图像转换为可编辑的模板](creative-studio-manage-templates.md#template-generate-from-image)。 从Creative库中选择图像广告，查看生成的模板，并使用自然语言请求更改。 打开模板编辑器以进行手动更改并保存模板。
 
-* **多大小支持：**&#x200B;只需一步即可将广告大小调整为IAB标准维度。 AI会自动调整每个格式的内容放置和大小，画布控件（放大/缩小、适合屏幕、重播动画）可帮助您查看每个大小。
+  * **创建显示广告和视频广告模板：**&#x200B;创建和管理显示广告模板和视频广告模板。 创建模板时，请选择&#x200B;**[!UICONTROL Display Ad Template]**&#x200B;或&#x200B;**[!UICONTROL Video Ad Template]**&#x200B;以匹配您的促销活动格式。
 
-* **与品牌一致的输出：**&#x200B;应用[品牌配置文件](/help/creative/brands/brand-manage.md)时，AI将使用您品牌的徽标、调色板、语音准则、图像标准和渠道准则来使生成的内容与品牌保持一致。
+  * **导入HTML5模板：**&#x200B;通过将现有HTML5广告模板上传为ZIP文件来导入这些模板。 **[!UICONTROL Import Templates]**&#x200B;对话框允许您在导入之前分配广告商和模板名称。
 
-* **资源库访问：**&#x200B;通过从资源库中选择，在内容生成期间保持可视上下文可用，将图像和其他资源直接附加到AI聊天消息。
+  * **组织模板：**&#x200B;将模板标记为收藏，应用标签，并按状态、格式或源进行筛选，以使模板库保持井井有条。
 
-* **信息源集成：**&#x200B;对于动态广告营销活动，请连接产品或内容目录以大规模生成广告，然后使用AI代理筛选、预览和质量检查目录生成的广告组合。
+* **创建广告：**
 
-* **模板组织：**&#x200B;将模板标记为收藏，应用标签，并按状态、格式或源进行筛选，以使模板库保持井井有条。
+  * **使用人工智能生成标准广告内容：**&#x200B;使用&#x200B;**[!UICONTROL Ad Variations Generator]**&#x200B;通过自然语言聊天界面生成广告概念和变体。 AI助手可以生成标题、副标题、CTA、正文和背景图像变化，并可以在同一会话中创建新的大小模板。 每个会话最多可以有10个概念处于活动状态。
+
+  * **使用源生成动态创意：**&#x200B;对于动态广告营销活动，连接产品或内容目录以大规模生成广告，然后使用AI代理筛选、预览和质量检查目录生成的广告组合。
+
+* **自定义广告内容和格式：**
+
+  * **应用品牌指南：**&#x200B;应用[品牌配置文件](/help/creative/brands/brand-manage.md)时，AI将使用您品牌的徽标、调色板、语音指南、图像标准和渠道指南来使生成的内容保持在品牌上。
+
+  * **附加库资源：**&#x200B;通过从资源库中选择，在内容生成期间保持可视上下文可用，将图像和其他资源直接附加到AI聊天消息。
+
+  * **调整广告大小：**&#x200B;只需一步即可将广告大小调整为IAB标准维度。 AI会自动调整每个格式的内容放置和大小，画布控件（放大/缩小、适合屏幕、重播动画）可帮助您查看每个大小。
 
 ## 广告创建工作流
 
@@ -55,6 +65,8 @@ ht-degree: 0%
 | --- | --- |
 | [从模板生成标准广告](creative-studio-manage-standard-ads.md) | 选择显示或视频模板并使用[!UICONTROL Ad Variations Generator]创建AI生成的内容变体。 当模板已存在并且您需要AI辅助内容生成时的最佳选择。 |
 | [管理动态创意](creative-studio-manage-dynamic-ads.md) | 将产品或内容目录连接到模板，将目录字段映射到模板元素，然后使用AI代理预览和QA所有生成的广告组合。 最适合于以目录为导向的大规模营销活动。 |
+| [从文本生成模板](creative-studio-manage-templates.md#template-generate-from-text) | 描述显示广告模板，可以选择品牌个人资料和图像，并从AI生成的结果中进行选择。 最适合希望新模板不含现有广告设计。 |
+| [从图像生成模板](creative-studio-manage-templates.md#template-generate-from-image) | （Beta功能）将来自Creative库的现有静态显示广告图像转换为可编辑模板，使用自然语言请求更改，以及编辑并保存模板。 最适合希望使用现有图像广告作为起始设计。 |
 | 构建新模板 | 从空白画布开始创建显示或视频模板。 当没有现有模板满足您的需求时最佳选择。 |
 | 上传HTML5模板 | 导入一个或多个打包为ZIP文件的HTML5广告模板。 当您在[!DNL Advertising Creative]之外构建可用于生产的HTML5创意时，这是最佳选择。 |
 

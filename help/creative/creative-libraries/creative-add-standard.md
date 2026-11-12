@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
+source-git-commit: a2a6d94329df17c332a140de428bb44fb892c97a
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '2018'
 ht-degree: 0%
 ---
 # 将标准创意添加到创意库
@@ -241,15 +241,32 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. 单击&#x200B;**[!UICONTROL Create]**。
 
-## 向创意库添加第三方创意内容 {#creative-add-third-party}
+## 将第三方创意人员添加到创意库 {#creative-add-third-party}
 
-[!DNL Creative]支持大多数第三方广告服务器上托管的创意内容的JavaScript跟踪标记。
+[!DNL Creative]支持在第三方广告服务器上托管的显示创意的广告标记。 在新UI中，您可以从贩运页面导入一个或多个创意。 旧版UI支持为单个创意内容输入标记。
 
 ### 通过新的UI
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+#### 准备您的贩运单 {#third-party-sheet-requirements}
 
-1. （可选） [自定义视图](/help/creative/introduction/customize-data-views.md)以包含特定库。
+* 使用创意不超过500个的Excel （`.xlsx`或`.xls`）、CSV或TSV文件（不超过10 MB）。
+
+* 对于Excel文件，将创意内容放在第一个工作表上。 仅导入第一个工作表。 不支持受密码保护的文件。
+
+* 使用[!DNL Flashtalking]或[!DNL Google Campaign Manager 360]导出，或准备常规工作表。 工作表必须与上传时选择的广告服务器布局匹配。
+
+* 包括每个创意内容的创意名称、大小和广告标签。 名称最多可包含255个字符。 在供应商导出的单个大小列（如`300x250`）中或单独的宽度和高度列中指定维度。 使用[支持的创意大小](creative-sizes.md)。
+
+* 对于通用工作表，请使用列标题`Creative Name`、`Size`和`Ad Tag`。 您可以从上传对话框下载CSV模板。 将其示例行替换为您自己的创意数据。
+
+>[!IMPORTANT]
+>
+>* 批量上传仅支持显示标记。 不支持视频和VAST标记。
+>* 批量上传会存储所提供的广告标记；它不会在导入期间插入跟踪宏或重写跟踪URL。 在上载工作表之前，在标记中包含任何必需的[跟踪宏](/help/creative/creative-macros.md)。
+
+#### 上传并查看创意内容 {#third-party-bulk-upload}
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
 1. 通过以下任一方式打开库：
 
@@ -259,11 +276,43 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL Add new]** > **[!UICONTROL Upload]** > **[!UICONTROL 3rd Party]**。
 
-1. 在[第三方创意设置](#creative-settings-third-party)中指定创意的JavaScript标记和其他设置。
+   将打开&#x200B;**[!UICONTROL Bulk upload third-party tags]**&#x200B;对话框。
 
-   您可以将[可用宏](/help/creative/creative-macros.md)中的任意宏复制并粘贴到JavaScript标记中。
+1. 选择与您的工作表匹配的&#x200B;**[!UICONTROL Ad server]**：
 
-1. 单击&#x200B;**[!UICONTROL Create]**。
+   * **[!UICONTROL Flashtalking]**
+
+   * **[!UICONTROL Google CM360]**
+
+   * **[!UICONTROL Generic]**
+
+   在上传文件之前，必须选择广告服务器。 选定的广告服务器应用于工作表中的每个创意；它不会从单个标记中检测到。
+
+1. （可选）要准备常规工作表，请单击&#x200B;**[!UICONTROL Download CSV template]**，使用您自己的创意替换示例数据，然后保存该文件。
+
+1. 通过以下任一方式指定工作表：
+
+   * 将文件拖放到上传框中。
+
+   * 单击&#x200B;**[!UICONTROL select a file]**&#x200B;在您的设备或网络上查找该文件。
+
+   上传并分析工作表。 如果布局与所选广告服务器不匹配，请更正工作表或选择匹配的广告服务器，然后再次上传文件。
+
+1. 在&#x200B;**[!UICONTROL Review third-party creatives]**&#x200B;中，查看每行的&#x200B;**[!UICONTROL Creative name]**、**[!UICONTROL Size]**、**[!UICONTROL Type]**、**[!UICONTROL Language]**&#x200B;和&#x200B;**[!UICONTROL Status]**。
+
+   * 如果工作表包含多种标记格式，请为要导入的标记列选择选项卡。 所选的格式将应用于所有行，并且不会显示在该列中没有标记的行。 更改选项卡会将所选内容重置为该格式的所有可导入行。
+
+   * 默认情况下，将选择所有可导入行。 取消选中任何您不想导入的创意旁边的复选框。
+
+   * （可选）更改单个创意的&#x200B;**[!UICONTROL Language]**。 缺省为英语。
+
+   * 无法选择或导入状态为&#x200B;**[!UICONTROL Error]**&#x200B;的行。 您可以导入有效行，或单击&#x200B;**[!UICONTROL Cancel]**，更正源工作表并重新上传。 更正缺少的名称、维度或标记，并删除视频标记或任何标记为不受支持的字符。
+
+1. 单击&#x200B;**[!UICONTROL 导入 <N> 创意内容&#x200B;]**，其中`<N>`是所选创意内容的数量。 对于单个创意，请单击&#x200B;**[!UICONTROL Import 1 creative]**。
+
+   该对话框将关闭，并且会显示一条通知，确认已开始导入。 处理完成后，创意会显示在库中。
+
+要跟踪导入，请单击顶部菜单栏右侧的![作业管理器](/help/creative/assets/job-manager.png "作业管理器") (**[!UICONTROL Job Manager]**)。 如果处理过程中任何行失败，请单击导入作业的&#x200B;**[!UICONTROL Download failed rows]**，更正下载的工作表，然后再次上传。
 
 ### 从旧版UI
 
