@@ -27,16 +27,16 @@ topic_v2:
     internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 1388e37872b8e41fbe58c7a21ebe8ebf5b6b0b6c
+source-git-commit: e5b13eece252d5f0a86d86e0449dd13483c3665f
 workflow-type: tm+mt
-source-wordcount: '1751'
+source-wordcount: '1745'
 ht-degree: 0%
 ---
 # 关于自定义报表
 
-通过自定义报表，您可以使用促销活动维度（如广告商、版面、网站或地标）以及对您最重要的量度来自定义报表数据的内容和交付。 您可以：
+通过自定义报表，您可以使用对您最重要的促销活动维度（例如广告商、版面、网站或地标）和量度来自定义报表数据。 您可以：
 
-* 在粒度级别完全配置营销活动效果报表。
+* 在粒度级别配置营销活动效果报表。
 
 * 从预配置的报表模板中进行选择，并可以选择进一步自定义它们。
 
@@ -59,13 +59,13 @@ ht-degree: 0%
 
   * **[!UICONTROL All-in Cost]**：（仅同时具有Advertising Creative和Advertising DSP的广告商）使用此报表可查看Advertising DSP的广告投放与Adobe Creative的广告投放相关的支出金额。 您可以在促销活动、资源包、版面和广告级别查看创意、属性、目标和其他数据。
 
-  * **[!UICONTROL Billing]：**&#x200B;使用此报告了解关键计费指标，如按营销活动进行媒体计费的支出指标。 数据不可用于以通用ID为目标的投放位置。
+  * **[!UICONTROL Billing]：**&#x200B;使用此报告了解按营销活动列出的关键计费量度，如媒体计费的支出量度。 您可以按日期和按每个包含的包、包投放、投放、区段、馈送或设备的属性查看详细信息。 数据不可用于以通用ID为目标的投放位置。
 
     >[!NOTE]
     >
-    >此报表包含有关计费区段的数据。 如果向用户或设备提供了属于多个区段的展示，则只有一个可计费区段会为该展示提供点数。
+    >本报告乃根据印象所属之区段而编制。 当向用户或设备提供属于多个区段的展示时，只有一个区段将计为展示次数，而支出合计为实际（已计费）总额。
 
-  * **[!UICONTROL Content]：**&#x200B;请使用此报告按照指定的内容维度（如流派、生产质量和内容评级）了解展示投放和其他量度，以便优化定位并确保品牌安全。 除了内容维度之外，该报表还包含大多数标准维度、量度和过滤器。 按内容维度的数据可用于[!DNL FreeWheel]、[!DNL Index]、[!DNL Magnite]、[!DNL Microsoft]、[!DNL Nexxen]、[!DNL Pubmatic]、[!DNL Sharethrough]和[!DNL Triplelift]。 内容信号在竞价流期间由发布者传递，并受可用性限制。
+  * **[!UICONTROL Content]：**&#x200B;请使用此报告按照指定的内容维度（如流派、生产质量和内容评级）了解展示投放和其他量度，以便优化定位并确保品牌安全。 除了内容维度之外，该报表还包含大多数标准维度、量度和过滤器。 按内容维度的数据可用于[!DNL FreeWheel]、[!DNL Index]、[!DNL Magnite]、[!DNL Microsoft]、[!DNL Nexxen]、[!DNL Pubmatic]、[!DNL Sharethrough]和[!DNL Triplelift]。 发布者在竞价流期间传递内容信号，具体取决于可用性。
 
   * **[!UICONTROL Conversion]：**&#x200B;请使用此报表根据通过Adobe Advertising转化跟踪捕获的转化量度，了解营销活动的执行情况。 此报表包含多点接触归因。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
   * **[!UICONTROL Device]：**&#x200B;使用此预填充模板按设备相关的维度查看关键量度。
 
-  * **[!UICONTROL DSP Self-Attributed Conversions]：**&#x200B;使用此报表可查看Advertising DSP对转化的贡献 — 包括DSP在其中发挥了作用但后来又有所接触的客户历程，如Adobe Advertising搜索点击，在其他报表中获得了最近一次点击的点数。 有关详细信息，请参阅[关于自定义报告的常见问题解答](/help/dsp/reports/faq-reports.md)。
+  * **[!UICONTROL DSP Self-Attributed Conversions]：**&#x200B;使用此报表可查看Advertising DSP对转化的贡献，包括DSP在其中发挥了作用但后来又有所接触的客户历程（如Adobe Advertising搜索点击）在其他报表中获得了最后点击点数。 有关详细信息，请参阅[关于自定义报告的常见问题解答](/help/dsp/reports/faq-reports.md)。
 
     **重要信息：**&#x200B;此报表不会更改Adobe Analytics报表中的现有归因方法或归因。 它提供了特定于DSP的转化贡献补充视图。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
     >* 基于数据采样来估计频率。
     >* 对于某些库存，发布者不会传递设备标识符，这会阻止频率跟踪。 此报表仅包含设备标识符可用的展示次数。
 
-  * **[!UICONTROL Frequency (by App/Site)]：**&#x200B;使用此报告了解应用程序或网站访问您广告的独特用户数。 您还可以查看仅通过特定应用程序或网站访问广告的唯一用户数（“不同的唯一用户”）。
+  * **[!UICONTROL Frequency (by App/Site)]：**&#x200B;请使用此报告了解您的广告对每个应用程序或网站的覆盖范围。 您还可以查看仅通过特定应用程序或网站（“不同独特用户”）访问您广告的独特用户数。
 
     >[!NOTE]
     >
@@ -98,7 +98,7 @@ ht-degree: 0%
 
   * **[!UICONTROL Household Reach & Frequency]：**&#x200B;使用此报表可根据IP地址而不是设备/Cookie级别，在家庭级别查看跨广告格式的单个维度的展示次数、覆盖范围和频率。 利用这些见解优化您的媒体组合、提高性能并发现增量访问的机会。 有关详细信息，请参阅[关于自定义报告的常见问题解答](/help/dsp/reports/faq-reports.md)。 数据不可用于以通用ID为目标的投放位置。
 
-  * **[!UICONTROL Margin]：**&#x200B;使用此报表按促销活动或投放位置查看关键量度，如利润、利润和其他支出量度。 数据不可用于以通用ID为目标的投放位置。
+  * **[!UICONTROL Margin]：**&#x200B;使用此报表按促销活动或投放位置查看利润、利润和其他关键支出指标。 数据不可用于以通用ID为目标的投放位置。
 
   * **[!UICONTROL Path to Conversion]：**&#x200B;请使用此报告确定如何优化预算并根据表现最佳的广告交互序列对广告进行个性化设置。 报表会显示同一家庭中导致指定数据范围内每个选定转化量度的交互点序列。 报表在首次交互和转化之间使用指定的回顾时间段，并可包含一个维度：
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
     包括最近的10个交互点。 路径行按转化次数排序。
 
-    若要将此报告与[!DNL Advanced Measurement Services]和Adobe Analytics创建的报告进行比较，请参阅[有关自定义报告的常见问题解答](/help/dsp/reports/faq-reports.md)。
+    若要将此报告与[!DNL Advanced Measurement Services]和Adobe Analytics创建的报告进行比较，请参阅[关于自定义报告的常见问题解答](/help/dsp/reports/faq-reports.md)。
 
   * **[!UICONTROL Path Length]：**&#x200B;使用此报表跟踪一段时间内转化所需的用户交互点数，以便您选择最佳广告频率。 此报表按路径长度（交互点）显示转化次数，例如用户仅有一个广告交互、两个广告交互等后发生的转化次数。 报表可以包含多个转化量度的数据，并在首次交互和转化之间使用指定的回顾时间段。 报表中的列包括“[!UICONTROL Path Length]”、“[!UICONTROL Number of] \&lt;转化量度名称1\>”、“% \&lt;转化量度名称1\>”、“\&lt;转化量度名称2\>”、“% \&lt;转化量度名称2\>”等。
 
@@ -123,7 +123,7 @@ ht-degree: 0%
   * **[!UICONTROL Segment]：**&#x200B;使用此预填充模板按目标受众区段评估性能。 此报表包括区段名称、描述和键以及区段提供程序名称。 您可以包含转化量度和自定义目标数据，但不能包含频率或任何家庭级别的量度。
 
     >[!NOTE]
-    >* 与多个区段匹配的展示将归因于所有匹配的区段，每个区段对应一行。 同样，展示的所有标准、支出和绩效指标都归属于所有匹配区段。 因此，组合区段行的量度合计可能会超过促销活动总计。
+    >* 如果展示与多个区段匹配，则展示及其所有标准、支出和绩效指标都将被归因到每个匹配区段。 组合区段行的量度可能高于促销活动总计。
     >* 区段的转化量度和自定义目标数据在2019年8月2日之后可用。 区段的所有其他数据自2018年6月1日后开始可用。
 
   * **[!UICONTROL Site]：**&#x200B;默认情况下，包括按网站列出的标准量度、媒体净支出总额和可计费净支出总额。
@@ -152,7 +152,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Ready to download]：** （仅定期报告）报告的一个或多个实例可供下载，并且已计划多个报告实例。
 
-* **[!UICONTROL Failed]：**&#x200B;报告作业失败。 要了解报表包的单个报表实例失败的原因，请单击[!UICONTROL Download]旁边的![向下箭头](/help/dsp/assets/chevron-down.png "向下箭头")。 失败的报表作业指示有错误图标(![错误指示器](/help/dsp/assets/indicator-critical.png "错误指示器"))。 将光标悬停在错误图标上可查看错误说明。
+* **[!UICONTROL Failed]：**&#x200B;报告作业失败。 要了解报表行的单个报表实例失败的原因，请单击[!UICONTROL Download]旁边的![向下箭头](/help/dsp/assets/chevron-down.png "向下箭头")。 失败的报表作业指示有错误图标(![错误指示器](/help/dsp/assets/indicator-critical.png "错误指示器"))。 将光标悬停在错误图标上可查看错误说明。
 
 * **[!UICONTROL Completed]：**&#x200B;对于非周期性报表，报表已完成。 对于定期报表，已完成所有报表实例。 您可以下载过去四个月内完成的所有报表。
 
