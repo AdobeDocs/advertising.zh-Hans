@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
+source-git-commit: 1e29e61573d581d3760a2f5d95c34021ade5de31
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1667'
 ht-degree: 0%
 ---
 # 关于您的创意库
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 ##### HTML5创意人员
 
-* **GenStudio体验：**&#x200B;您可以在[GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/home)中从[显示广告体验](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)导入所有广告变体作为单个HTML5创意。 外部链接将转换为本地引用。 HTML内容最长可达20 MB，单个图像最长可达50 MB。
+* **GenStudio体验：**&#x200B;您可以在[GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)中从[显示广告体验](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)导入所有广告变体作为单个HTML5创意。 外部链接将转换为本地引用。 HTML内容最长可达20 MB，单个图像最长可达50 MB。
 
   导入GenStudio体验后，您可以编辑已导入创意内容的元数据（名称、语言、标记），但不能编辑创意内容。 如果您在GenStudio中编辑GenStudio体验，请在[!DNL Creative]中重新导入该体验以使用最新版本。
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 #### 第三方创意人员
 
-输入第三方广告服务器上托管的创意的JavaScript跟踪标记。 脚本因广告服务器而异；以下是示例：
+[通过上传新UI中的流量工作表或在旧版UI中输入JavaScript标记，添加托管在外部广告服务器上的第三方显示创意](creative-add-standard.md#creative-add-third-party)。 批量上传接受Excel、CSV和TSV文件。 脚本因广告服务器而异；以下是示例：
 
 ```
 <SCRIPT language='JavaScript1.1' SRC="https://ad.doubleclick.net/ddm/adj/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"></SCRIPT> <NOSCRIPT> <A HREF="https://ad.doubleclick.net/ddm/jump/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp]?"><IMG SRC="https://ad.doubleclick.net/ddm/ad/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"BORDER=0 WIDTH=300 HEIGHT=250 ALT="Advertisement"></A></NOSCRIPT>
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 您可以从设备或网络中为Web、移动或连接的电视上传第一方视频创意。 每个视频广告体验都需要为分配给体验的每个创意持续时间提供一个默认视频创意。 DSP会自动将所有视频创意转换为VAST 2.0标记，以便您预览。 在[!UICONTROL Tag Manager]中，您可以选择将[特定于DSP的转码](/help/creative/experiences/experience-tag-video-transcoding.md)应用于任何视频广告体验标记。
 
-请参阅以下视频创作要求。 **注意：**&#x200B;如果要将视频体验上传到Advertising DSP，请另外参阅DSP对高清视频Assets的[要求](https://experienceleague.adobe.com/zh-hans/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)，这可能更有限。
+请参阅以下视频创作要求。 **注意：**&#x200B;如果要将视频体验上传到Advertising DSP，请另外参阅DSP对高清视频Assets的[要求](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)，这可能更有限。
 
 **文件类型：** .mov、.mp4、.webm
 
