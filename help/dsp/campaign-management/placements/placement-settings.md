@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 6e16fa2ca69e4fffa295bcc7014e5499b1215b64
 workflow-type: tm+mt
-source-wordcount: '4577'
+source-wordcount: '5059'
 ht-degree: 0%
 ---
 # 投放设置
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Fixed/floor price for both Private and On-demand deals]*： DSP至少对定向私有和[!DNL On-Demand]交易的固定/底价出价，即使算法计算的出价较少。 这可能会影响性能。
 
-**[!UICONTROL Placement Pre-bid Filters]：**&#x200B;最多必须满足五个KPI阈值（例如最低可见性量度或点进率）才能进行竞价。 您可以将预竞价筛选器用作优化策略，但请注意，每个规则都可能会限制此投放位置可以竞价的机会。 添加或编辑筛选器：
+**[!UICONTROL Placement Pre-bid Filters]：**&#x200B;最多必须满足五个KPI阈值（例如最低可见性量度或点进率）才能进行竞价。 您可以将预竞价筛选器用作优化策略，但请注意，每个规则都会限制投放位置可以竞价的机会。 添加或编辑筛选器：
 
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 执行以下任一操作：
@@ -155,7 +155,7 @@ ht-degree: 0%
   >
   >此选项可能会对性能产生负面影响。 仅在您完全优先考虑投放并花费超过性能优化的时间时才使用它。
 
-**[!UICONTROL Placement Pre-bid Filters]：**（可选）最多必须满足五个筛选器才能进行竞价。 您可以将预竞价筛选器用作优化策略，但请记住，每个规则可能会限制此投放位置可以竞价的机会。 添加或编辑筛选器：
+**[!UICONTROL Placement Pre-bid Filters]：**（可选）最多必须满足五个筛选器才能进行竞价。 您可以将预竞价筛选器用作优化策略，但请记住，每个规则会限制此投放位置可以竞价的机会。 添加或编辑筛选器：
 
 1. 单击![编辑](/help/dsp/assets/edit.png)。
 1. 执行以下任一操作：
@@ -208,7 +208,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Inventory Targeting]
 
-**[!UICONTROL Inventory Sources]：**&#x200B;要作为目标包含或排除的清单源。 对于大多数置入类型，默认情况下包括所有库存类型以及每种类型的所有来源。 对于[!DNL Roku]投放位置，必须指定库存类型和源。 您可以从以下库存类型中进行选择：
+**[!UICONTROL Inventory Sources]：**&#x200B;要作为目标包含或排除的清单源。 对于大多数投放位置类型，默认情况下，DSP包含所有库存类型以及每种类型的所有来源。 对于[!DNL Roku]投放位置，必须指定库存类型和源。 您可以从以下库存类型中进行选择：
 
 * [!UICONTROL Public]： （除Roku之外的所有放置类型）DSP有权访问的所有未结Exchange库存。 您可以包含和排除公共清单。
 
@@ -247,15 +247,49 @@ ht-degree: 0%
 >
 >如果您订阅了[!UICONTROL On Demand]清单，但找不到要定位的发布者或交易，请检查交易的状态。 有关状态的详细信息，请参阅[关于 [!DNL On Demand] 高级库存](/help/dsp/inventory/on-demand-inventory-about.md)。
 
-**[!UICONTROL Video targeting]：**&#x200B;按库存属性列出的目标（但不排除）库存。 为同一视频属性定位多个值时，可以定位任何选定的属性（例如，\[播放器大小=大或播放器大小=高清\]）。 定位多个属性时，必须存在指定的每个属性（例如，\[持续时间= 30-60分钟]和\[播放器大小=大或播放器大小= HD\]）。
+**[!UICONTROL Video targeting]：**&#x200B;按视频属性列出的目标（但不排除）清单。 当您针对同一视频属性定位多个值时，清单可以匹配任何选定的值（例如，播放器大小为[!UICONTROL Large]或[!UICONTROL HD]）。 当您定位多个属性时，清单必须与每个指定的属性匹配（例如，播放器大小为[!UICONTROL Large]或[!UICONTROL HD]的不可跳过清单）。
 
-* **[!UICONTROL Player size]：**&#x200B;按播放器大小列出的目标（但不排除）库存。 该设置适用于适用于桌面和移动设备环境的预置广告投放、移动设备标准预置广告投放和通用视频投放。 默认情况下，会定向所有大小。 若要缩小目标范围，请选择特定目标大小和/或&#x200B;*未知*。
+* **[!UICONTROL Player size]：**&#x200B;按竞价请求中提供的播放器宽度列出的目标（但不排除）库存。 该设置适用于适用于桌面和移动设备环境的预置广告投放、移动设备标准预置广告投放和通用视频投放。 默认情况下，会定向所有大小。 要缩小目标范围，请选择特定目标大小和/或[!UICONTROL Unknown]。
 
-* **[!UICONTROL Playback mode]：**&#x200B;按播放启动方式列出的目标（但不排除）清单。 该设置适用于适用于桌面和移动设备环境的预置广告投放、移动设备标准预置广告投放和通用视频投放。 默认情况下，会定位所有模式。 若要缩小目标范围，请选择特定的目标模式和/或&#x200B;*未知*。
+  * **[!UICONTROL Small]：** 1-299像素宽。
+  * **[!UICONTROL Large]：**&#x200B;宽300-719像素。
+  * **[!UICONTROL HD]：** 720-10000像素宽。
+  * **[!UICONTROL Unknown]：**&#x200B;播放器宽度缺失或不是正值。
 
-* **[!UICONTROL Skippability]：**&#x200B;目标（但不排除）清单（根据它是否可跳过）。 该设置适用于所有VAST/VPAID投放位置，包括前置广告、移动设备标准前置广告、连接电视和通用视频投放位置。 默认情况下，会定向所有选项。 要缩小目标范围，请选择特定目标和/或&#x200B;*未知*。
+* **[!UICONTROL Playback mode]：**&#x200B;按播放启动方式或继续方式列出目标（但不排除）清单。 该设置适用于适用于桌面和移动设备环境的预置广告投放、移动设备标准预置广告投放和通用视频投放。 默认情况下，会定位所有模式。 要缩小目标范围，请选择特定的目标模式和/或[!UICONTROL Unknown]。
 
-**[!UICONTROL Position targeting]：**&#x200B;按广告位置列出的目标（但不排除）库存。 该设置适用于所有VAST/VPAID投放位置，包括前置广告、移动设备标准前置广告、连接电视和通用视频投放位置。 默认情况下，所有职位都是定向的。 若要缩小目标范围，请选择特定目标位置和/或&#x200B;*未知*。
+  支持的模式包括默认情况下打开或关闭声音的自动播放、单击或鼠标悬停时启动的播放、默认情况下打开或关闭声音时启动的播放以及连续播放。 如果竞价请求包含多种播放方法，DSP将使用列出的第一个方法。
+
+* **[!UICONTROL Skippability]：**&#x200B;目标（但不排除）清单（根据它是否可跳过）。 该设置适用于所有VAST/VPAID投放位置，包括前置广告、移动设备标准前置广告、连接电视和通用视频投放位置。 默认情况下，会定向所有选项。 要缩小目标范围，请选择可跳过或不可跳过清单和/或[!UICONTROL Unknown]。 当竞价请求未提供有效的可跳过性值时，DSP将可跳过性分类为[!UICONTROL Unknown]。
+
+<!-- DRAFT: Before publishing this update, confirm the production database changes, available position options and labels, and GA rollout. The source catalog and bidder support the positions below, but the wiki's database/API handoff and release status remain unresolved. -->
+
+**[!UICONTROL Position targeting]：**&#x200B;按视频广告位置属性列出的目标（但不排除）清单。 该设置适用于所有VAST/VPAID投放位置，包括前置广告、移动设备标准前置广告、连接电视和通用视频投放位置。 默认情况下，所有职位都是定向的。 要缩小目标范围，请在&#x200B;**[!UICONTROL Video Ad Position]**&#x200B;中选择特定位置。
+
+DSP使用供应方平台(SSP)（包括[!DNL Magnite]）提供的OpenRTB 2.6视频放置信号来分类广告位置。 可用的选项取决于放置类型。
+
+| 广告位置 | 描述 |
+| --- | --- |
+| Instream前置式、中置式和后置式 | 在查看器请求的视频内容之前、期间或之后的广告。 在OpenRTB 2.6下，instream清点要求在播放器启动时发出声音，或者明确指示观看者打算观看视频。 |
+| [!UICONTROL Accompanying Content] | 视频播放器中的广告随附文本或其他内容。 播放器在进入视图后开始播放，并且随着查看器滚动，播放器可能会变得粘性或浮动。 |
+| [!UICONTROL Interstitial] | 视频广告没有随附的视频内容占据大部分视图，并且在播放期间无法滚动到视图之外。 |
+| [!UICONTROL No Content/Standalone] | 没有流视频内容的视频广告，例如馈送中的广告或粘性或浮动播放器。 |
+| [!UICONTROL Pause] | 在查看器暂停流视频内容时显示的广告。 |
+| [!UICONTROL Screensaver] | 在操作系统或应用程序启动屏幕保护程序时显示的广告。 |
+| [!UICONTROL Overlay] | 在传统广告时间之外的视频内容上显示的广告。 |
+| [!UICONTROL Squeezeback] | 与视频内容一起显示的广告，会调整大小以便为广告腾出空间，而不是被广告覆盖。 |
+| [!UICONTROL In-scene] | 广告集成到视频场景本身中，而不是显示在单独的广告时间或内容上。 |
+| [!UICONTROL Unknown] | DSP无法从提供的信号确定支持的视频广告位置的清单。 |
+
+当您选择多个职位时，库存可以匹配任何选定的职位。 选择特定职位可以减少合格库存。 如果您还想定位DSP无法确定其职位的库存，请包含&#x200B;**[!UICONTROL Unknown]**。 要避免按广告位置限制库存，请将此设置保留为默认设置。
+
+DSP根据竞价请求提供的开始延迟信号来确定初始前置、中置和后置。 如果该信号缺失或无效，DSP会将流位置分类为&#x200B;**[!UICONTROL Unknown]**。
+
+提供有效的OpenRTB 2.6位置后，DSP会优先使用它，而不是旧版OpenRTB 2.5位置。 如果OpenRTB 2.6位置缺失或无效，则在提供有效的启动延迟信号时，DSP仍可以识别旧版实例库。 将其他旧职位分类为&#x200B;**[!UICONTROL Unknown]**，而不是转换为新类别。
+
+>[!NOTE]
+>
+>OpenRTB 2.6职位类别不是传统类别的一对一替代品。 例如，以前描述为instream的清单现在可以归类为随附内容。 如果SSP采用较新的信号，并且符合条件的库存更改符合条件，请与Adobe客户团队一起查看您的位置目标。
 
 ## [!UICONTROL Site or App and Keyword Targeting]
 
