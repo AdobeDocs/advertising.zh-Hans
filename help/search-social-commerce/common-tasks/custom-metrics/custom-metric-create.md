@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a2ff8c1115487f12eb67f6db06e25f723c551e80
+source-git-commit: 9837cac1a920b1b3b88b04b150cb604832209eaf
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '416'
 ht-degree: 0%
 ---
 # 创建自定义量度
@@ -39,6 +39,24 @@ ht-degree: 0%
 1. 指定[自定义量度设置](custom-metric-settings.md)。
 
 1. 单击&#x200B;**[!UICONTROL Create]**。
+
+## （新UI）根据报表或报表模板设置创建自定义量度 {#create-from-report-settings}
+
+1. 在报表或报表模板设置中，转到&#x200B;**[!UICONTROL Columns]**&#x200B;步骤。
+
+1. 在&#x200B;**[!UICONTROL Custom Metrics]**&#x200B;部分中，指定量度设置：
+
+   * **[!UICONTROL Custom Metric Name]：**&#x200B;输入指标的名称。
+
+   * **[!UICONTROL Format]：**&#x200B;选择&#x200B;**[!UICONTROL Currency]**、**[!UICONTROL Number to 2 Decimal Places]**、**[!UICONTROL Number to 3 Decimal Places]**、**[!UICONTROL Number w/out Decimal Places]**&#x200B;或&#x200B;**[!UICONTROL Percentage]**。
+
+   * **[公式输入字段]：**&#x200B;通过从&#x200B;**[!UICONTROL Insert Metric]**&#x200B;中选择量度并单击运算符按钮（`+`、`-`、`*`、`/`、`(`和`)`）生成公式。 您也可以手动输入公式。 将光标放在要插入每个量度或运算符的位置。
+
+1. 单击&#x200B;**[!UICONTROL Add Metric]**。
+
+   成功创建量度后，可用列列表将按量度名称进行过滤。 创建指标不会自动将其包含在报表中。
+
+1. 若要在报表中包含该量度，请在可用列列表中选择该量度，然后单击![向右箭头](/help/search-social-commerce/assets/arrow-right-customize.png "向右箭头")将其移动到选定列列表中。
 
 ## （旧版UI）从营销活动管理视图创建自定义量度
 
