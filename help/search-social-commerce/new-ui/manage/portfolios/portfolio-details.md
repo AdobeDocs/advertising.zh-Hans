@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
+source-git-commit: 163cbaf9b1a7f22e0205125cfab1ce2558182d8f
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 0%
@@ -48,9 +48,9 @@ ht-degree: 0%
 
   您可以选择打开项目组合设置进行编辑。
 
-* 项目组合中的促销活动、广告组和关键字的列表。 对于单个关键字，您可以查看竞价单位详细信息，包括预测、历史信息和层次结构信息。
+* 项目组合中的促销活动、广告组和关键字的列表。
 
-  [!UICONTROL Bid Unit Details]视图包括所选竞价单位的以下预测、历史信息和层次结构信息：
+  对于单个关键字，您可以查看竞价单位详细信息，包括预测、历史信息和层次结构信息。 [!UICONTROL Bid Unit Details]视图包括所选竞价单位的以下预测、历史信息和层次结构信息：
 
   * [!UICONTROL Forecast]选项卡：不同竞价下竞价单位的当前预计点击次数、成本、每次点击成本、职位和收入。 将显示所有设备和每种设备类型（[!UICONTROL Mobile]、[!UICONTROL Computer]和[!UICONTROL Tablet]）的数据。<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. -->
 

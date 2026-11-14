@@ -1,6 +1,6 @@
 ---
 title: （新UI）更改项目组合的状态
-description: 了解如何在不打开项目组合设置的情况下更改项目组合的状态或删除不活动的项目组合。
+description: 了解如何在不打开项目组合设置的情况下更改项目组合的状态或删除一个或多个非活动项目组合。
 feature: Search Portfolios, Search Optimization
 hide: true
 product_v2:
@@ -11,16 +11,16 @@ feature_v2:
     internal-label: Search Portfolios
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 163cbaf9b1a7f22e0205125cfab1ce2558182d8f
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '457'
 ht-degree: 0%
 ---
 # （新UI）更改项目组合的状态
 
 *Beta功能*
 
-您可以快速更改[项目组合的状态](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-statuses)，而无需打开完整的项目组合设置。
+您可以快速更改[项目组合的状态](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-status)，而无需打开完整的项目组合设置。
 
 要停止收集相关营销活动的成本/点击/展示次数数据和收入数据，请删除项目组合。 删除项目组合后，该组合在“搜索”、“社交”和“Commerce”中不可用。
 
@@ -40,9 +40,15 @@ ht-degree: 0%
 
    * 要激活非活动或优化的项目组合，请选择&#x200B;**[!UICONTROL Active]**。
 
-   * 要停用有效的项目组合，请选择&#x200B;**[!UICONTROL Inactive]**。
+   * 要停用活动或优化的项目组合，请选择&#x200B;**[!UICONTROL Inactive]**。
 
-   * 要优化（启动）活动项目组合，请选择&#x200B;**[!UICONTROL Optimized]**。
+   * 要优化（启动）活动项目组合，请执行以下操作：
+
+     1. 选择&#x200B;**[!UICONTROL Optimized]**。
+
+     1. 在确认消息中，单击&#x200B;**[!UICONTROL Update]**。
+
+     1. 如果出现其他确认消息，请按照提示应用更改。
 
      >[!NOTE]
      >
@@ -53,7 +59,7 @@ ht-degree: 0%
      >* 搜索、Social和Commerce开始优化产品组合后，请让它管理所有未来的营销活动预算和（适用时）竞价更改（适用时）。 搜索、社交和Commerce将覆盖您在广告网络内所做的任何更改。
      >* 您可以通过创建和发布营销活动批量处理工作表，临时为产品组合中的任何优化的CPC营销活动设置手动竞价。 根据已发布的数据所导致的任何竞价更改均适用于一天。 之后，Search、Social和Commerce恢复根据其自身的优化策略设置竞价。
 
-## 从[!UICONTROL Portfolios]视图中删除不活动的项目组合
+## 从[!UICONTROL Portfolios]视图中删除一个或多个非活动项目组合
 
 您只能删除不活动的项目组合。 如果项目组合已优化或处于活动状态，则必须先将其状态更改为非活动状态，然后才能选择删除它。
 
@@ -61,11 +67,19 @@ ht-degree: 0%
 
 1. 执行以下任一操作：
 
-   * 将光标悬停在项目组合行上并单击&#x200B;**[!UICONTROL ...]>[!UICONTROL Delete]**。
+   * 要删除单个不活动的项目组合，请执行以下操作：
 
-   * 选中项目组合旁边的复选框。 在批量操作工具栏中，单击![删除](/help/search-social-commerce/assets/delete-new.png "删除")。
+     1. 将光标悬停在项目组合行上并单击&#x200B;**[!UICONTROL ...]>[!UICONTROL Delete]**。
 
-1. 在确认消息中，单击&#x200B;**[!UICONTROL Confirm]**。
+     1. 在确认消息中，单击&#x200B;**[!UICONTROL Confirm]**。
+
+   * 要删除一个或多个不活动的项目组合，请执行以下操作：
+
+     1. 选中要删除的每个非活动项目组合旁边的复选框。
+
+     1. 在批量操作工具栏中，单击![删除](/help/search-social-commerce/assets/delete-new.png "删除")。
+
+     1. 在确认消息中，单击&#x200B;**[!UICONTROL Confirm]**。
 
 >[!MORELIKETHIS]
 >

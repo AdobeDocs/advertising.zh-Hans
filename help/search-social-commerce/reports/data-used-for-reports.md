@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: fbbc4aabc435023aafbef2443735a7fb285561be
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '618'
 ht-degree: 6%
 ---
 # 用于报表的数据
@@ -57,20 +57,20 @@ ht-degree: 6%
 
 | 报表组 | 报表 | 数据可用的日期 |
 | --- | --- | --- |
-| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | 从2021年5月15日开始。<br><br><b>异常：</b>突出量度数据自2022年9月8日起可用。 |
-| | 所有其他[!UICONTROL Basic Reports] | 从2022年9月8日开始，将提供前36个月。<br><br><b>异常：</b>突出量度数据。 |
+| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | 之前的36个月。 |
+| | 所有其他[!UICONTROL Basic Reports] | 之前的36个月。 |
 | [!UICONTROL Advanced Reports] | [!UICONTROL Transaction Report] | 之前的45天。 |
 | | [!UICONTROL Domain Referral Report], [!UICONTROL Geo Distribution Report] | 前两(2)个月加上本月。 |
 | [!UICONTROL Assist Reports] | 全部 | 前18个月。 |
 | [!UICONTROL Specialty Reports] | [!UICONTROL AdWords Audience Target Report] | 上一年。 |
-| | [!UICONTROL Google Asset Group Performance Report] | 无限制 |
+| | [!UICONTROL Google Asset Group Performance Report] | 之前的36个月。 |
 | | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report], [!UICONTROL MSA Network Impression Share Report], [!UICONTROL MSA Network Performance Report] | 最近180天。 |
-| | [!UICONTROL RSA Assets Report] | 由二零二二年八月十日起 |
+| | [!UICONTROL RSA Assets Report] | 之前的36个月。 |
 | | 所有其他[!UICONTROL Specialty Reports] | 前两(2)个月。 |
 | [!UICONTROL Model Accuracy Reports] | [!UICONTROL Forecast Accuracy Report] | 前18个月。 |
 | [!UICONTROL Change History Report] | — | 之前的31天。 |
 
 >[!MORELIKETHIS]
 >
->* [关于报告](report-about.md)
->* [报告的初始设置任务](initial-setup.md)
+>* [关于报告](/help/search-social-commerce/reports/report-about.md)
+>* [报告的初始设置任务](/help/search-social-commerce/reports/initial-setup.md)
