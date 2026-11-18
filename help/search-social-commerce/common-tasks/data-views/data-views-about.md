@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2f170883b2876ea4a7b39e814df598d337f7ca07
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '570'
 ht-degree: 0%
 ---
 # 关于自定义营销活动管理视图中的数据
@@ -36,7 +36,7 @@ ht-degree: 0%
 
   * 访问、编辑和重置默认视图；以及访问、编辑和删除自定义视图。 单击任意视图名称可加载相应的视图。
 
-* 对任何可用数据列应用筛选器以更改在当前选项卡上显示的数据。 您可以从列标题[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)创建筛选器[，或从工具栏](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)上的按钮创建筛选器。 对于营销活动管理视图，在打开子实体时，会根据需要维护过滤器。 例如，如果您查看具有\> 100次点击的促销活动，然后在该促销活动中打开一个广告组，则只显示具有\> 100次点击的广告组。
+* 对任何可用数据列应用筛选器以更改在当前选项卡上显示的数据。 您可以从列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)创建筛选器[，或从工具栏](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)上的按钮创建筛选器[。 对于营销活动管理视图，在打开子实体时，会根据需要维护过滤器。 例如，如果您查看具有\> 100次点击的促销活动，然后在该促销活动中打开一个广告组，则只显示具有\> 100次点击的广告组。
 
 * [更改尚未保存特定日期范围的所有默认视图和自定义视图中使用的日期范围](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md)。
 
@@ -44,34 +44,23 @@ ht-degree: 0%
 
 * 控制是否在任意页面底部显示25行、50行、100行、（仅旧版用户界面）200行或（仅旧版用户界面）[!UICONTROL Continuous Scroll]。
 
-<!--
 
-## (New UI) Data table tools {#grid-controls-new-ui}
+## （新UI）数据表控件 {#data-table-tools-new-ui}
 
-In applicable management views, the toolbar includes the following controls:
+使用数据表上方的工具栏管理数据并更改其显示方式。 可用的工具取决于视图和您的权限。
 
-* On the left, the [!UICONTROL Filter] control appears before grid search. Where supported, the [!UICONTROL Conversion based on] selector follows search and lets you select [!UICONTROL Click Date] or [!UICONTROL Transaction Date].
+如果工具栏太窄而无法显示工具，请在&#x200B;**[!UICONTROL Actions]**&#x200B;菜单中查找该工具。
 
-* On the right, operational actions, such as [!UICONTROL Reports], appear alongside view and display controls. The available controls depend on the view and your permissions.
+如果可用，您可以：
 
-* When the available width is reduced, controls move into the [!UICONTROL Actions] menu. This can happen when you narrow the window or open the AI Assistant panel. If a control isn't visible in the toolbar, look for it in [!UICONTROL Actions]. In wider layouts, controls remain inline.
+* 来自[!UICONTROL Conversion based on]的Select *[!UICONTROL Click Date]*&#x200B;或&#x200B;*[!UICONTROL Transaction Date]*，用于控制如何报告转化数据。
 
-* Within [!UICONTROL Actions], a horizontal divider separates operational actions from view and display controls, such as the current view, [!UICONTROL Custom Columns], [!UICONTROL Compressed Mode], and [!UICONTROL Charts], where available.
+* 比较两个时间段的性能并选择差异的显示方式。 请参阅“[按日期范围](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#compare-periods-new-ui)过滤数据”。
 
-* The primary create button remains outside [!UICONTROL Actions].
+* 使用工具栏或&#x200B;**[!UICONTROL Actions]**&#x200B;菜单中的&#x200B;**[!UICONTROL Compressed Mode]**&#x200B;打开或关闭紧凑表格间距。
 
-The [!UICONTROL Refresh] icon is beside the page title in applicable views. The date range control is in the page header. For instructions on comparing two date ranges and changing the comparison format, see "[Filter data by date range](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#compare-periods-new-ui)."
+  打开压缩模式时，工具栏按钮处于选中状态。 在[!UICONTROL Actions]中，开关表示当前状态。
 
-### Change the grid density
+* 使用工具栏或&#x200B;**[!UICONTROL Actions]**&#x200B;菜单中的&#x200B;**[!UICONTROL Charts]**&#x200B;显示或隐藏图表。
 
-* Where available, click **[!UICONTROL Compressed Mode]** in the toolbar or **[!UICONTROL Actions]** menu to turn compact grid spacing on or off.
-
-  The toolbar button is selected when compressed mode is on. In [!UICONTROL Actions], a switch indicates the current state.
-
-### Show or hide charts
-
-* Where available, click **[!UICONTROL Charts]** in the toolbar or **[!UICONTROL Actions]** menu.
-
-  The toolbar button is selected when charts are shown. In [!UICONTROL Actions], a switch indicates whether charts are shown. Click the control again to hide the charts.
-
--->
+  在显示图表时，工具栏按钮处于选中状态。 在[!UICONTROL Actions]中，开关指示是否显示图表。 再次单击控件可隐藏图表。

@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '844'
 ht-degree: 0%
 ---
 # 按日期范围筛选数据
@@ -77,9 +77,9 @@ ht-degree: 0%
 
 1. Select **[!UICONTROL As percentage]**&#x200B;或&#x200B;**[!UICONTROL As variance]**。
 
-   该选择将应用于网格中的所有比较量度，而不仅仅是选定列。 日期范围控件与所选内容同步，并且格式在当前广告商的适用页面（包括已保存日期范围的视图）之间共享。
+   该选择适用于数据表中的所有比较量度，而不仅仅是选定列。 日期范围控件与所选内容同步，并且格式在当前广告商的适用页面（包括已保存日期范围的视图）之间共享。
 
-   网格成功刷新后，将显示一条确认消息。 如果网格无法以所选格式刷新，则会显示一条错误消息；请尝试再次选择格式。
+   成功刷新数据表后，将显示一条确认消息。 如果数据表无法以所选格式刷新，则会显示错误消息；请尝试再次选择格式。
 
 排序和筛选选项在支持的列菜单中仍然可用。
 

@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '500'
 ht-degree: 0%
 ---
 # 从工具栏应用数据过滤器
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## （新UI）在管理视图中应用工具栏中的数据筛选器
 
-1. 在工具栏中，在网格搜索之前单击仅图标![筛选器](/help/search-social-commerce/assets/filter-new.png "筛选器")控件。
+1. 在工具栏中，在搜索字段前单击仅图标![筛选器](/help/search-social-commerce/assets/filter-new.png "筛选器")控件。
 
 1. 在筛选器设置中，执行以下任一操作：
 
