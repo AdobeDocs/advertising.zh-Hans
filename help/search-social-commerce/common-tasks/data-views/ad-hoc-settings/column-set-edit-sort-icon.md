@@ -1,5 +1,5 @@
 ---
-title: 从[!UICONTROL Custom Columns]图标编辑列集并对列集进行排序
+title: 从[!UICONTROL Custom Columns]控件编辑列集并对其进行排序
 description: 了解如何使用列自定义器更改可见列。
 exl-id: bc03b53f-179a-426f-bc31-20be25915506
 feature: Search Common Tasks, Search Custom Data Views
@@ -15,26 +15,28 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '322'
 ht-degree: 0%
 ---
-# 从[!UICONTROL Custom Columns]图标编辑列集并对列集进行排序
-
-<!-- The same in new UI and legacy CM views except for icon -->
+# 从[!UICONTROL Custom Columns]控件编辑列集并对其进行排序
 
 <!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
 
-您可以从右侧工具栏更改任何视图中的可见列。 仅在您离开适用的视图或查看其他广告商的数据时，才会应用更改。
+您可以使用[!UICONTROL Custom Columns]控件更改视图中的可见列。 仅在您离开适用的视图或查看其他广告商的数据时，才会应用更改。
 
 >[!NOTE]
 >
->您也可以临时更改视图中的列，而无需更改视图中任何列标题[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)的排序顺序。
+>您也可以临时更改视图中的列，而无需更改视图中任何列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)的排序顺序[。
 >
 >您可以通过编辑默认视图或[创建自定义视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)，保存对特定广告商所包含列的更改。
 
-1. 在工具栏的右侧，单击![自定义列](/help/search-social-commerce/assets/custom-columns.png "自定义列")或![自定义列](/help/search-social-commerce/assets/custom-columns-new.png "自定义列")。
+1. 打开列设置：
+
+   * （新用户界面）单击右侧工具栏中的![自定义列](/help/search-social-commerce/assets/custom-columns-new.png "自定义列")。 如果工具栏太窄，无法显示控件，请单击&#x200B;**[!UICONTROL Actions]>[!UICONTROL Custom Columns]**。
+
+   * （旧版UI）单击工具栏右侧的![自定义列](/help/search-social-commerce/assets/custom-columns.png "自定义列")。
 
 1. （可选） [创建自定义量度](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)以包含为列。
 
@@ -56,7 +58,7 @@ ht-degree: 0%
 
    * （可选）指定选定列的值的排序顺序：
 
-     * （新用户界面）选择&#x200B;**[!UICONTROL Ascending]**&#x200B;或&#x200B;**[!UICONTROL Descending]**。
+     * （新UI） Select **[!UICONTROL Ascending]**&#x200B;或&#x200B;**[!UICONTROL Descending]**。
 
      * （旧版UI）将滑块移动到&#x200B;**[!UICONTROL Ascending]**&#x200B;或&#x200B;**[!UICONTROL Descending]**。
 

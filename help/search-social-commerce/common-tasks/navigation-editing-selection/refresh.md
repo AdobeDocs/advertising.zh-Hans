@@ -13,13 +13,13 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '43'
 ht-degree: 0%
 ---
 # 刷新管理视图中的数据
 
-* （新UI）在数据表上方的工具栏中，单击![刷新](/help/search-social-commerce/assets/refresh-new.png)。
+* （新UI）在适用的管理视图中，单击页面标题旁边的![刷新](/help/search-social-commerce/assets/refresh-new.png "刷新")控件。
 
 * （旧版UI）在数据表的底部，单击![刷新](/help/search-social-commerce/assets/refresh.png)。
