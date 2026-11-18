@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '4470'
+source-wordcount: '4608'
 ht-degree: 0%
 ---
 # 管理默认视图和自定义视图
@@ -38,6 +38,8 @@ ht-degree: 0%
 ### （新UI）将默认视图或自定义视图应用于管理视图
 
 1. 在数据表上方，单击当前应用的视图的名称（![视图](/help/search-social-commerce/assets/view.png "视图")）。
+
+   如果工具栏太窄，无法显示视图名称，请单击&#x200B;**[!UICONTROL Actions]**&#x200B;并打开当前实体的视图列表。
 
 1. 根据需要，单击任意选项卡（[!UICONTROL All Views]、[!UICONTROL Private]、[!UICONTROL Shared by Me]和[!UICONTROL From Others]）以查找视图。
 
@@ -75,6 +77,8 @@ ht-degree: 0%
 
 1. 在数据表上方，单击当前应用的视图的名称（![视图](/help/search-social-commerce/assets/view.png "视图")）。
 
+   如果工具栏太窄，无法显示视图名称，请单击&#x200B;**[!UICONTROL Actions]**&#x200B;并打开当前实体的视图列表。
+
 1. 单击&#x200B;**[!UICONTROL Create View]**。
 
 1. 指定[自定义视图设置](#view-settings-new-ui)。
@@ -108,6 +112,8 @@ ht-degree: 0%
 *在[!UICONTROL Simulations]、[!UICONTROL Portfolios]、[!UICONTROL Campaigns]和[!UICONTROL Ad Groups]查看中可用*
 
 1. 在数据表上方，单击当前应用的视图的名称（![视图](/help/search-social-commerce/assets/view.png "视图")）。
+
+   如果工具栏太窄，无法显示视图名称，请单击&#x200B;**[!UICONTROL Actions]**&#x200B;并打开当前实体的视图列表。
 
 1. 根据需要，单击任意选项卡（[!UICONTROL All Views]、[!UICONTROL Private]、[!UICONTROL Shared by Me]和[!UICONTROL From Others]）以查找视图。
 
@@ -151,6 +157,8 @@ ht-degree: 0%
 
 1. 在数据表上方，单击当前应用的视图的名称（![视图](/help/search-social-commerce/assets/view.png "视图")）。
 
+   如果工具栏太窄，无法显示视图名称，请单击&#x200B;**[!UICONTROL Actions]**&#x200B;并打开当前实体的视图列表。
+
 1. 根据需要，单击任意选项卡（[!UICONTROL All Views]、[!UICONTROL Private]、[!UICONTROL Shared by Me]和[!UICONTROL From Others]）以查找视图。
 
 1. 将光标悬停在视图名称上并单击![克隆](/help/search-social-commerce/assets/clone-new.png)。
@@ -172,6 +180,8 @@ ht-degree: 0%
 * 从新的用户界面中：
 
   1. 在数据表上方，单击当前应用的视图的名称（![视图](/help/search-social-commerce/assets/view.png "视图")）。
+
+     如果工具栏太窄，无法显示视图名称，请单击&#x200B;**[!UICONTROL Actions]**&#x200B;并打开当前实体的视图列表。
 
   1. 根据需要，单击任意选项卡（[!UICONTROL All Views]、[!UICONTROL Private]、[!UICONTROL Shared by Me]和[!UICONTROL From Others]）以查找视图。
 
@@ -195,6 +205,8 @@ ht-degree: 0%
 
   1. 在数据表上方，单击当前应用的视图的名称（![视图](/help/search-social-commerce/assets/view.png "视图")）。
 
+     如果工具栏太窄，无法显示视图名称，请单击&#x200B;**[!UICONTROL Actions]**&#x200B;并打开当前实体的视图列表。
+
   1. 根据需要，单击任意选项卡（[!UICONTROL All Views]、[!UICONTROL Private]、[!UICONTROL Shared by Me]和[!UICONTROL From Others]）以查找视图。
 
   1. 将光标悬停在视图名称上并单击![删除](/help/search-social-commerce/assets/delete-new.png)。
@@ -215,6 +227,8 @@ ht-degree: 0%
 
 ### （新UI）默认和自定义视图设置 {#view-settings-new-ui}
 
+从比较列菜单更改比较格式时，所选格式会在当前广告商的适用页面之间共享，包括包含已保存日期范围的视图。 请参阅“[从列菜单](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#change-the-comparison-format-from-a-column-menu)更改比较格式”。
+
 | **选项卡** | **字段** | **描述** |
 | --- | --- | --- |
 | [在所有选项卡之上] | 名称 | 视图的唯一名称。 您无法编辑默认视图的名称。<p><b>提示：</b>请使用有助于识别所应用选项卡和信息的名称（如“暂停的促销活动”或“前50个广告”）。 |
@@ -224,8 +238,8 @@ ht-degree: 0%
 |   | 排序顺序 | 是以&#x200B;**升序**&#x200B;还是&#x200B;**降序**&#x200B;顺序对数据排序。 |
 | 过滤器 | [筛选器定义] | （可选）要应用于数据的过滤器。 仅当列的值满足指定的条件时，应用过滤器才会返回行。<p>对于要应用的每个过滤器：<ol><li>在[!UICONTROL Add Filter]菜单中，选择列名称。 该列表包含所有可用的列，并按列类型排序，属性列在前。</li><li>在列上定义过滤器</li></ol>（带有输入字段的筛选器）从第二个菜单中选择运算符，然后输入适用的值。 值不区分大小写。<p>例如，如果您选择了“点击量”列并且只想返回点击量超过100次的行，请选择&#x200B;_\>_&#x200B;并在输入字段中输入`100`。<p>根据数据类型，可用运算符可能包括<i>大于</i>、<i>小于</i>、<i>等于</i>、<i>包含</i>、<i>不包含</i>、<i>开头为</i>、<i>结尾为</i>、<i>无值</i>或<i>具有值</i> <i>在</i>之前、<i>在</i>之后，或<i>无日期</i>。<p>（不带输入字段的筛选器）单击“选择列表项”菜单旁边的![向下箭头](/help/search-social-commerce/assets/arrow-down-expand.png)，然后选中要包含的每个值旁边的复选框。<p><b>注释：</b><ul><li>您可以将对筛选器的更改应用到默认视图设置，但不能保存更改。</li><li>您还可以在视图中[临时更改适用的筛选器](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)。</li></ul> |
 | 其他设置 | 日期范围 | (当选择“Include date range”（包含日期范围）时)<p>要为其生成数据的日期范围。 选择一个选项：<ul><li><i>[预设范围]</i>：常用时间增量列表，范围从<i>今天</i>到<i>最近180天</i>。 从列表中选择一个；默认值是<i>昨天</i>。 注意：<i>上个月</i>、<i>最近3个月</i>和<i>最近6个月</i>显示前一个日历月份的数据。</li><li><i>自定义日期范围：</i>指定开始日期和结束日期。 以YYYY/MM/DD或M/D/YYYY格式输入日期，或单击字段旁边的![日历图标](/help/search-social-commerce/assets/calendar.png)并选择日期。</li></ul> |
-|   | 比较 | 将指定日期范围的数据与第二个日期范围的数据进行比较。 选择此选项时，请指定第二个日期范围。 为每个常规数据列添加了两个额外的列。 例如，报表不仅包括“展示次数”的一列，还包括“展示次数范围1”、“展示次数范围2”和“展示次数差异”的列。<p><b>注释：</b><ul><li>对于派生量度，不显示“差异”列。</li><li>比较大日期范围的报表可能需要更长的时间才能生成。</li></ul> |
-|   | 比较格式 | （启用[!UICONTROL Comparison]时）如何在“[_数据字段_]&#x200B;差异”列中表示两个所选日期范围中的数据之间的差异。 选择一个选项：<ul><li><i>差异</i>（默认值）：将差异显示为数值。</li><li><i>%更改</i>：以百分比显示差异。</li></ul> |
+|   | [!UICONTROL Comparison] | 将指定日期范围的数据与第二个日期范围的数据进行比较。 选择此选项时，请指定比较时段。 在数据表中，每个可比较量度都分组为两个时段列和一个[!UICONTROL Change]列。 不可比较的字段仍保持为单列。 期间标签和颜色标记标识对应的日期范围。 比较大日期范围的报表可能需要更长的时间才能生成。 |
+|   | [!UICONTROL Comparison Format] | （启用[!UICONTROL Comparison]时）如何表示[!UICONTROL Change]列中两个句点之间的差异。 选择[!UICONTROL As variance]（默认值）显示数字差异，或选择[!UICONTROL As percentage]显示百分比差异。 |
 |   | 归因规则 | （仅限使用Adobe Advertising基于像素的转化跟踪服务的广告商）在选项卡中，如何在一系列导致转化的事件中归因转化数据（可能跨多个广告渠道和项目组合）。 默认情况下，将选择在广告商级别转化归因设置中指定的规则。<ul><li> <i>第一个事件</i>：将转化归因于广告商的点击回顾时间范围内的系列中的第一个付费点击，如果没有发生付费点击，则归因于广告商的展示回顾时间范围内的最后一个展示。</li><li><i>权重第一个事件更多</i>：将转化归因于在广告商的点击回顾窗口和展示回顾窗口内发生的系列中的所有事件，但给予第一个事件的权重最大，随后给予以下事件的权重较小。 当转换之前同时有付费点击和展示时，指定的展示覆盖权重进一步应用于展示。 当转换之前只有印象时，根据广告商的浏览权而不是印象覆盖权对印象进行加权。</li><li><i>均匀分布</i>：将转化平均归因于在广告商的点击回顾窗口和展示回顾窗口内发生的系列中的每个事件。 当转换之前同时有付费点击和展示时，指定的展示覆盖权重进一步应用于展示。 当转换之前只有印象时，根据广告商的浏览权而不是印象覆盖权对印象进行加权。</li><li><i>权重最后一个事件更多</i>：将转化归因于在广告商的点击回顾窗口和展示回顾窗口内发生的系列中的所有事件，但会给予最后一个事件最大的权重，并依次减少对前面事件的权重。 当转换之前同时有付费点击和展示时，指定的展示覆盖权重进一步应用于展示。 当转换之前只有印象时，根据广告商的浏览权而不是印象覆盖权对印象进行加权。</li><li><i>上次事件</i>（默认）：将转化归因于广告商的点击回顾窗口内系列中的上次付费点击，如果未发生付费点击，则归因于广告商的展示回顾窗口内的上次展示。</li><li><i>U形</i>：将转化归因于在广告商的点击回顾窗口和展示回顾窗口内发生的系列中的所有事件，但将最大权重赋予第一个事件和最后一个事件，依次减少对转化路径中间事件的权重。 当转换之前同时有付费点击和展示时，指定的展示覆盖权重进一步应用于展示。 当转换之前只有印象时，根据广告商的浏览权而不是印象覆盖权对印象进行加权。</li></ul><p><b>注释：</b><ul><li>除上一个事件之外，所有归因规则仅适用于具有Adobe Advertising点击跟踪以及来自Adobe Advertising或Adobe Analytics的转化跟踪（与Analytics集成）的广告商。</li><li>归因规则适用于任何渠道中的付费广告点击次数。 它们不适用于付费搜索广告的展示次数，此类展示次数无法在事件级别进行跟踪。</li><li>当您使用任何归因规则（一个“最后一个事件”规则除外）报告转化数据时，导致转化的事件可能会发生在多个项目组合中。 如果是这样，则仅当这些组合中的广告或关键字包含在视图中时，视图才会包含转化数据。</li><li>对于默认视图，我们建议您保留默认归因规则，该规则用于在竞价优化期间计算每个竞价单位的[目标值](/help/search-social-commerce/glossary.md#o-p)（以前称为“加权收入”）。</li></ul> |
 |   | 转化基于 | 如何报告转化数据：<ul><li><i>单击日期</i>：查看在指定时间段内发生的单击所导致的交易。 当项目组合在点击和交易之间存在重大延迟时，此选项可用于计算项目组合的每次点击历史收入，它指示一段时间内预期的收入行为。</li><li><i>交易日期</i>（默认值）：查看交易日期在指定时间段内发生的交易。 这表示在指定的时间段内赚取的收入。</li></ul> |
 

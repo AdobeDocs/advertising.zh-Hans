@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: dabc3d714941ccecfae1646d554dd3f554a83adf
+source-git-commit: 3619dd14a392381c304d91e5cc8cd4da974ab053
 workflow-type: tm+mt
-source-wordcount: '5697'
+source-wordcount: '5722'
 ht-degree: 1%
 ---
 # 搜索、社交和Commerce的新增功能
@@ -38,6 +38,7 @@ ht-degree: 1%
 
 | 日期 | 功能 | 描述 | 了解更多信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年11月16日 | 新UI | 旧版UI中的大多数功能现在均在新UI中可用。 | 请参阅“[用户界面的组织方式](/help/search-social-commerce/getting-started/user-interface.md)”。 |
 | 2026年11月4日 | [!UICONTROL Portfolios]，优化 | （具有营销活动级别或广告组级别优化的项目组合中的[!DNL Google Ads]营销活动的选择加入功能）搜索、社交和Commerce现在可以包含来自[!DNL Google Ads]营销活动预算建议的信号（包括建议的预算金额和预计的转化提升），以告知其自身的预算指导决策。 要选择启用该功能，请联系您的Adobe客户团队。 | — |
 | | [!UICONTROL Accounts] | 对于广告网络API帐户，您现在可以识别缺少的身份验证权限，查看令牌过期警告，并在[!UICONTROL Accounts]视图中获取有关恢复步骤的信息。 | 请参阅“[帐户身份验证和访问状态](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md#authentication-status)”。 |
 | 2026年10月26日 | [!UICONTROL Campaigns], [!UICONTROL Bulksheets] | （已启用[!DNL AI Max]的[!DNL Google Ads]营销活动）您现在可以在新的Search、Social和Commerce用户界面中配置以下设置：<ul><li>营销活动级别：<ul><li>**[!UICONTROL Brand inclusions]**&#x200B;和&#x200B;**[!UICONTROL Brand exclusions]：**&#x200B;指定可在品牌相关查询中匹配的帐户品牌列表。</li><li>**[!UICONTROL URL inclusions]：**&#x200B;指定要作为最终URL扩展生成的登陆页排除的URL。 启用[!UICONTROL Text customization]和[!UICONTROL Final URL expansion]时，此设置可用。</li></ul></li><li>广告组级别：<ul><li>**[!UICONTROL URL inclusions]：**&#x200B;指定要作为最终URL扩展生成的登陆页排除的URL。 此设置适用于已启用[!UICONTROL Text customization]的营销活动。</li></ul></li></ul>这些设置也支持批量处理工作表。 | 请参阅“[[!DNL Google Ads] 促销活动设置](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)”、“[[!DNL Google Ads] 广告组设置](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)”和“[帐户](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)的必需批量处理工作表数据。” [!DNL Google Ads]  |

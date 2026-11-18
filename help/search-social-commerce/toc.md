@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
+source-git-commit: 48ceda965e7ebd4a62bfcb497bd0ca489ebac726
 workflow-type: tm+mt
-source-wordcount: '2443'
+source-wordcount: '2445'
 ht-degree: 2%
 ---
 # Advertising 搜索、社交和 Commerce 指南 {#search-social-commerce}
@@ -46,7 +46,7 @@ ht-degree: 2%
     + [管理默认视图和自定义视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)
     + 临时视图设置 {#ad-hoc-settings}
       + [从列标题菜单中编辑列集](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)
-      + [从[!UICONTROL Custom Columns]图标编辑列集并对列集进行排序](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)
+      + [从[!UICONTROL Custom Columns]控件编辑列集并对其进行排序](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)
       + [在营销活动视图中锁定和解锁列配置](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-lock-unlock.md)
       + [对列重新排序](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md)
       + [按日期范围筛选数据](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md)
@@ -141,6 +141,7 @@ ht-degree: 2%
         + [[!DNL Yandex]关键字设置](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-yandex.md)
     + [管理购物产品组](/help/search-social-commerce/new-ui/manage/product-groups-manage.md)
   + 报告 {#reports}
+    + [Advertising insights](/help/search-social-commerce/new-ui/reports/insights.md)
     + 计划报表 {#scheduled}
       + [关于计划报告](/help/search-social-commerce/new-ui/reports/report-about.md)
       + [报告的初始设置任务](/help/search-social-commerce/new-ui/reports/initial-setup.md)

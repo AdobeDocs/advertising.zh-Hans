@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 08975638903eab9767e571c851c5c35981afdba5
+source-git-commit: 7d9c610b13af9e4f64b9955fc89e71fcae708c45
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1482'
 ht-degree: 0%
 ---
 # 用户界面的组织方式
@@ -40,6 +40,10 @@ ht-degree: 0%
 新的用户界面在左侧有一个新的主菜单，该菜单按工作阶段组织任务。
 
 ### 主菜单选项
+
+* （适用时）在展开的左侧导航面板中的搜索字段上方，显示您正在管理的广告商的可选列表。
+
+* 主菜单选项的搜索字段。
 
 * **[!UICONTROL Dashboard]**&#x200B;子菜单：
 
@@ -131,6 +135,12 @@ Tools > Admin > Data Source Setup
 
 * 在左侧的主菜单上方，单击![折叠/展开](/help/search-social-commerce/assets/collapse-expand.png "折叠/展开")。
 
+### 查看其他广告商的数据
+
+* 展开左侧导航面板（如果折叠）。 在搜索字段上方，打开广告商列表并选择广告商。
+
+  有关详细信息和限制，请参阅“[查看其他广告商的数据](/help/search-social-commerce/common-tasks/change-advertiser.md)”。
+
 ### 搜索主菜单选项
 
 使用主菜单上方的搜索字段来查找特定菜单选项，如“项目组合”或“报表”。
@@ -153,9 +163,7 @@ Tools > Admin > Data Source Setup
 
 **注意：**&#x200B;某些屏幕具有其他选项。
 
-* （适用时）您管理的广告商的可选列表。
-
-* 当前视图的可配置日期范围
+* 当前视图的可配置日期范围。 在支持日期比较的情况下，您还可以通过日期范围控件比较两个期间，并选择将更改显示为百分比还是数字差异。 请参阅“[按日期范围](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#date-filter-new-ui)过滤数据”。
 
 * ![切换到旧用户界面](/help/search-social-commerce/assets/switch-to-old-ui.png "切换到旧用户界面")在新选项卡或窗口中打开旧用户界面。
 

@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '145'
 ht-degree: 0%
 ---
 # 查看其他广告商的数据
@@ -24,9 +24,17 @@ ht-degree: 0%
 
 ## （新UI）查看其他广告商的数据
 
-* 在数据表上方的工具栏中，选择广告商。
+1. 如果左侧导航面板已折叠，请单击![折叠/展开](/help/search-social-commerce/assets/collapse-expand.png "折叠/展开")以展开它。
 
-  ![工具栏中的广告商选择器](/help/search-social-commerce/assets/advertiser-selector.png "工具栏中的广告商选择器")
+1. 在左侧导航面板中的搜索字段上方，打开广告商列表并选择广告商。
+
+   您可以搜索列表以查找广告商。 该列表显示了当前选定的广告商。
+
+   ![主菜单上方的广告商选择器](/help/search-social-commerce/assets/advertiser-selector.png "主菜单上方的广告商选择器")
+
+>[!NOTE]
+>
+>在某些详细信息视图中（包括产品组合详细信息和模拟详细信息），广告商切换被禁用。 返回到相应的列表视图以选择其他广告商。
 
 ## （旧版UI）查看其他广告商的数据
 
