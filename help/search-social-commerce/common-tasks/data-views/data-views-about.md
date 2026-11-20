@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
+source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '672'
 ht-degree: 0%
 ---
 # 关于自定义营销活动管理视图中的数据
@@ -36,14 +36,13 @@ ht-degree: 0%
 
   * 访问、编辑和重置默认视图；以及访问、编辑和删除自定义视图。 单击任意视图名称可加载相应的视图。
 
-* 对任何可用数据列应用筛选器以更改在当前选项卡上显示的数据。 您可以从列标题[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)创建筛选器[，或从工具栏](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)上的按钮创建筛选器。 对于营销活动管理视图，在打开子实体时，会根据需要维护过滤器。 例如，如果您查看具有\> 100次点击的促销活动，然后在该促销活动中打开一个广告组，则只显示具有\> 100次点击的广告组。
+* 对任何可用数据列应用筛选器以更改在当前选项卡上显示的数据。 您可以从列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)创建筛选器[，或从工具栏](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)上的按钮创建筛选器[。 对于营销活动管理视图，在打开子实体时，会根据需要维护过滤器。 例如，如果您查看具有\> 100次点击的促销活动，然后在该促销活动中打开一个广告组，则只显示具有\> 100次点击的广告组。
 
 * [更改尚未保存特定日期范围的所有默认视图和自定义视图中使用的日期范围](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md)。
 
 * [根据特定列中的值重新排序数据](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md)。
 
 * 控制是否在任意页面底部显示25行、50行、100行、（仅旧版用户界面）200行或（仅旧版用户界面）[!UICONTROL Continuous Scroll]。
-
 
 ## （新UI）数据表控件 {#data-table-tools-new-ui}
 
@@ -64,3 +63,15 @@ ht-degree: 0%
 * 使用工具栏或&#x200B;**[!UICONTROL Actions]**&#x200B;菜单中的&#x200B;**[!UICONTROL Charts]**&#x200B;显示或隐藏图表。
 
   在显示图表时，工具栏按钮处于选中状态。 在[!UICONTROL Actions]中，开关指示是否显示图表。 再次单击控件可隐藏图表。
+
+## （新UI）列宽和表值 {#column-widths-values-new-ui}
+
+在Campaign数据表中：
+
+* 通过拖动列标题之间的边界来调整列的大小。 您还可以调整符合条件的[锁定的列](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-lock-unlock.md)的大小，而无需先解锁它们。 最小宽度有助于保持值可读。 某些图标和操作列的宽度固定，无法调整其大小。
+
+* 将光标悬停在截断的实体名称上可查看全名。
+
+* 要打开名称为链接的实体的详细信息，请按&#x200B;**Tab**，直到该名称被突出显示，然后按&#x200B;**Enter**。
+
+* 短划线(-)表示缺少、NULL或不适用的值。 零和false值仍可见。
