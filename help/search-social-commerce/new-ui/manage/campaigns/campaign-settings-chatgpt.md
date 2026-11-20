@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d62377d2bc68c5f0030dfea4c5410a443d529e5e
+source-git-commit: 6aa2e40903fd8652c0ac744e3cd4f68c5e74fd48
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '296'
 ht-degree: 0%
 ---
 # [!DNL ChatGPT Ads]营销活动设置
@@ -39,7 +39,9 @@ ht-degree: 0%
 
 **[!UICONTROL Status]：**&#x200B;促销活动的显示状态： *活动*&#x200B;或&#x200B;*已暂停*。 新广告营销活动的默认值为&#x200B;*活动*。
 
-**[!UICONTROL Objective]：**&#x200B;促销活动目标： *达到*&#x200B;或&#x200B;*点击*。
+**[!UICONTROL Objective]：**&#x200B;促销活动目标： *[!UICONTROL Reach]*、*[!UICONTROL Clicks]*&#x200B;或&#x200B;*[!UICONTROL Conversions]*。 目标确定可用的[广告组竞价选项](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md)：点击支持目标CPC竞价，转化支持目标CPA竞价。 目标CPC和目标CPA竞价不适用于触及营销活动。
+
+**[!UICONTROL Billing event]：**（具有目标[!UICONTROL Conversions]的新营销活动）是否根据点击次数或展示次数向你收费。 默认设置是单击次数。 目标确定促销活动优化的内容；开单事件确定计费方式。 保存营销活动后，无法更改计费事件。
 
 **[!UICONTROL Location Targets]：**&#x200B;支持作为目标包含的用户地理位置。 默认情况下，会定向所有受支持的位置。 您可以将目标范围缩小到包含（但不排除）任意位置组合中的用户。
 

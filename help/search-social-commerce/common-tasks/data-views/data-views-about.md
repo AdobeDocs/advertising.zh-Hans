@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
+source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '672'
 ht-degree: 0%
 ---
 # 关于自定义营销活动管理视图中的数据
@@ -44,7 +44,6 @@ ht-degree: 0%
 
 * 控制是否在任意页面底部显示25行、50行、100行、（仅旧版用户界面）200行或（仅旧版用户界面）[!UICONTROL Continuous Scroll]。
 
-
 ## （新UI）数据表控件 {#data-table-tools-new-ui}
 
 使用数据表上方的工具栏管理数据并更改其显示方式。 可用的工具取决于视图和您的权限。
@@ -64,3 +63,15 @@ ht-degree: 0%
 * 使用工具栏或&#x200B;**[!UICONTROL Actions]**&#x200B;菜单中的&#x200B;**[!UICONTROL Charts]**&#x200B;显示或隐藏图表。
 
   在显示图表时，工具栏按钮处于选中状态。 在[!UICONTROL Actions]中，开关指示是否显示图表。 再次单击控件可隐藏图表。
+
+## （新UI）列宽和表值 {#column-widths-values-new-ui}
+
+在Campaign数据表中：
+
+* 通过拖动列标题之间的边界来调整列的大小。 您还可以调整符合条件的[锁定的列](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-lock-unlock.md)的大小，而无需先解锁它们。 最小宽度有助于保持值可读。 某些图标和操作列的宽度固定，无法调整其大小。
+
+* 将光标悬停在截断的实体名称上可查看全名。
+
+* 要打开名称为链接的实体的详细信息，请按&#x200B;**Tab**，直到该名称被突出显示，然后按&#x200B;**Enter**。
+
+* 短划线(-)表示缺少、NULL或不适用的值。 零和false值仍可见。

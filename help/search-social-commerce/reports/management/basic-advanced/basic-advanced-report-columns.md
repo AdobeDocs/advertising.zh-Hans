@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
 workflow-type: tm+mt
-source-wordcount: '3878'
+source-wordcount: '3919'
 ht-degree: 0%
 ---
 # 基本报表和高级报表的报表列
@@ -59,6 +59,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Size] | 广告的维度。 |
 | [!UICONTROL AD Strength] | （[!DNL Google Ads]响应式搜索广告）广告的有效性： <i>[!UICONTROL average]</i>、<i>[!UICONTROL excellent]</i>、<i>[!UICONTROL good]</i>、<i>[!UICONTROL no_ads]</i>、<i>[!UICONTROL pending]</i>、<i>[!UICONTROL poor]</i>、<i>[!UICONTROL unknown]</i>或<i>[!UICONTROL unspecified]</i>。 |
 | [!UICONTROL Adgroup MBA] | （[!DNL Google Ads]、[!DNL LY Ads]和[!DNL Microsoft Advertising]个促销活动）当前广告组级别的移动竞价调整，它确定在移动设备上显示广告时如何调整竞价。 |
+| [!UICONTROL Adobe Tech Fees] | （[!UICONTROL Search Engine Account Report]、[!UICONTROL Campaign Report]、[!UICONTROL Ad Group Report]和[!UICONTROL Ad Variation Report]；仅限[!DNL ChatGPT Ads]）使用适用的费率计算的媒体支出的[!DNL Adobe]技术费用。 |
 | [!UICONTROL AI Max Bundling Required] | （仅针对搜索网络的营销活动；启用了AI Max功能的营销活动；只读）是否需要捆绑： *[!UICONTROL REQUIRED]*、*[!UICONTROL NOT_REQUIRED]*、*[!UICONTROL UNSPECIFIED]*&#x200B;或null。 |
 | [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max]功能](https://support.google.com/google-ads/answer/15910366)是否已启用： *[!UICONTROL true]*、*[!UICONTROL false]*&#x200B;或null。 |
 | [!UICONTROL AI Max Search Term Matching] | （针对搜索网络且启用了[AI Max功能](https://support.google.com/google-ads/answer/15910366)和营销活动级别搜索词匹配功能的营销活动；只读）是否启用了广告组级别搜索词匹配： *[!UICONTROL true]*、*[!UICONTROL false]*&#x200B;或null。 |
@@ -67,6 +68,7 @@ ht-degree: 0%
 | [!UICONTROL Avg Position] | 指定日期范围内的广告平均位置。<br><br>对于[!DNL Google Ads]和[!DNL LY Ads]营销活动，此数据仅在2019年9月之前可用。 对于[!DNL Microsoft Advertising]，此数据仅在2021年1月22日之前可用。 |
 | [!UICONTROL Base URL] | 关键字的基本URL，包括为促销活动或帐户配置的任何附加参数。 它不包括任何搜索、社交和Commerce重定向和跟踪代码。 |
 | [!UICONTROL Bid Strategy] | （大多数广告网络）对于促销活动或促销活动组件，这是促销活动的竞价策略。 对于链接到经理帐户的广告网络帐户，这是跨帐户竞价策略。 可用值因广告网络而异。 |
+| [!UICONTROL Billable Spend] | （[!UICONTROL Search Engine Account Report]、[!UICONTROL Campaign Report]、[!UICONTROL Ad Group Report]和[!UICONTROL Ad Variation Report]；仅限[!DNL ChatGPT Ads]）媒体成本加上[!DNL Adobe]技术费用（不含税）。 |
 | [!UICONTROL Business Name] | （[!DNL Microsoft Advertising]个响应式广告）业务名称。 |
 | [!UICONTROL Call to Action] | （[!DNL Microsoft Advertising]个响应式广告和多媒体广告）广告中包含的call to action。 |
 | [!UICONTROL Campaign] | 营销活动。 |
@@ -131,6 +133,7 @@ ht-degree: 0%
 | [!UICONTROL Est. Clicks] | （[!UICONTROL Geo Distribution Report]；仅限搜索和显示营销活动）广告组/营销活动/组合组合的预估点击次数。 此值可能不同于广告网络提供的值。 |
 | [!UICONTROL Estimated Cost] | Search、Social和Commerce跟踪的相关广告的总估计成本。 此值可能不同于广告网络提供的值。 |
 | [!UICONTROL Estimated Impressions] | （仅限展示型营销活动）Search、Social和Commerce已跟踪的估计广告展示次数。 此值可能不同于[!UICONTROL Impressions]列的值（如果可用），后者显示广告网络提供的值。 |
+| [!UICONTROL Estimated Tax] | （[!UICONTROL Search Engine Account Report]、[!UICONTROL Campaign Report]、[!UICONTROL Ad Group Report]和[!UICONTROL Ad Variation Report]；仅限[!DNL ChatGPT Ads]）使用适用税率计算的预估媒体支出税和[!DNL Adobe]技术费用。 |
 | [!UICONTROL Exclude (yes/no)] | 对于匹配产品的广告，是排除竞价(<i>[!UICONTROL Yes]</i>)还是允许竞价(<i>[!UICONTROL No]</i>)。 |
 | [!UICONTROL First Page CPC] | （仅限Google促销活动）指定日期范围内搜索结果第一页上显示的广告的每次点击成本(CPC)。 |
 | [!UICONTROL Frequency] | （仅限[!DNL Meta]个营销活动）某人查看您的广告的平均次数。 |

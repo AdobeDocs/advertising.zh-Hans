@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '149'
 ht-degree: 0%
 ---
 # 在营销活动视图中锁定和解锁列配置
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 <!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
 
-锁定列“锁定”该列及其左边的所有其他列到一个静态窗格中，右边的所有列在另一个窗格中，通过此窗格可以水平滚动。
+锁定列“锁定”该列及其左边的所有其他列到一个静态窗格中，右边的所有列在另一个窗格中，通过此窗格可以水平滚动。 在新UI中，您可以通过拖动列标题之间的边界来调整符合条件的锁定列的大小，而无需先解锁这些列。
 
 锁定仅在您离开实体视图时才有效。 无法将其保存到默认视图或自定义视图。
 
