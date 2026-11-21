@@ -44,7 +44,7 @@ ht-degree: 0%
 
 *仅使用[!DNL Advertising Search, Social, & Commerce]的已选择加入广告商*
 
-在[!DNL Search, Social, & Commerce]内，您可以使用现有Audience Manager区段（将[!UICONTROL Adobe Media Optimizer (HTTP)]和[!UICONTROL Adobe Media Optimizer Batch Destination]作为目标）从用户ID创建[!DNL Google Ads]客户匹配受众。 （[!DNL Media Optimizer]是以前的[!DNL Search, Social, & Commerce]名称。） 这包括发布到Adobe CX Enterprise的Adobe Analytics区段和使用Adobe CX Enterprise [!DNL Audience Library]创建的区段。 有关详细信息，请参阅“从 [!DNL Adobe] 受众](/help/search-social-commerce/targeting/audiences/audience-manage.md#audience-adobe-create)创建 [!DNL Google Ads] 客户匹配受众”。[
+在[!DNL Search, Social, & Commerce]内，您可以使用现有Audience Manager区段（将[!UICONTROL Adobe Media Optimizer (HTTP)]和[!UICONTROL Adobe Media Optimizer Batch Destination]作为目标）从用户ID创建[!DNL Google Ads]客户匹配受众。 （[!DNL Media Optimizer]是以前的[!DNL Search, Social, & Commerce]名称。） 这包括发布到Adobe CX Enterprise的Adobe Analytics区段和使用Adobe CX Enterprise [!DNL Audience Library]创建的区段。 有关详细信息，请参阅“从 [!DNL Adobe] 受众[&#128279;](/help/search-social-commerce/targeting/audiences/audience-manage.md#audience-adobe-create)创建 [!DNL Google Ads] 客户匹配受众”。
 
 [用户ID中的客户匹配受众](https://support.google.com/google-ads/answer/9199250)类似于基于网站标记的受众，但会将非PII ID分配给唯一的受众成员，以便获得优于标准客户匹配和基于网站标记的受众的独特优势。
 
@@ -72,10 +72,10 @@ ht-degree: 0%
 
 具有Adobe Audience Manager的DSP客户可以使用对Audience Manager的像素调用，从广告促销活动中捕获数据。 然后，您可以使用促销活动数据构建基于规则的特征，利用这些特征可定义新区段，以启用各种DSP用例，例如更高级的分段、频率管理、营销分析和报表见解。
 
-有关详细信息，请参阅“将DSP媒体曝光数据发送到Adobe Audience Manager的概述”[](/help/integrations/audience-manager/media-data-integration/overview.md)。
+有关详细信息，请参阅“将DSP媒体曝光数据发送到Adobe Audience Manager的概述”[&#128279;](/help/integrations/audience-manager/media-data-integration/overview.md)。
 
 ## 利用Audience Analytics更深入地了解网站活动
 
 具有[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)的Adobe Advertising客户可以将跟踪Adobe Advertising的数据和Audience Manager区段发送到[!DNL Analytics]，以丰富有关网站活动的见解。
 
-有关详细信息，请参阅“面向Adobe Advertising客户的[[!DNL Adobe Audience Analytics] ](/help/integrations/audience-manager/audience-analytics.md)”。
+有关详细信息，请参阅“面向Adobe Advertising客户的[[!DNL Adobe Audience Analytics] &#x200B;](/help/integrations/audience-manager/audience-analytics.md)”。

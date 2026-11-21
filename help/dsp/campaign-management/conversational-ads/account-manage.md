@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 计费
 
-当月末使用其他发票时，使用您DSP帐户的计费货币和计费时区向您计费[!DNL ChatGPT Ads]（无论 [!DNL ChatGPT Ads] 帐户](#account-settings)使用的[货币和时区如何）。 有关计费问题，请联系您的Adobe客户团队。
+当月末使用其他发票时，使用您DSP帐户的计费货币和计费时区向您计费[!DNL ChatGPT Ads]（无论 [!DNL ChatGPT Ads] 帐户[&#128279;](#account-settings)使用的货币和时区如何）。 有关计费问题，请联系您的Adobe客户团队。
 
 ## [!UICONTROL Conversational Ads Beta] > [!UICONTROL Accounts]视图 {#accounts-view}
 

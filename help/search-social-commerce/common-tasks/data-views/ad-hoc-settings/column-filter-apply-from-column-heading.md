@@ -26,7 +26,7 @@ ht-degree: 0%
 
 <!-- Doesn't include instructions for legacy Portfolios or Reports views -->
 
-您可以对列应用任意数量的筛选器，一次应用一个。<!-- True only for entity names, I think: All filters are joined using the AND operator. --> 要使用所有可用量度一次添加多个筛选器，请参阅“应用工具栏中的数据筛选器”[](column-filter-apply-from-toolbar.md)。
+您可以对列应用任意数量的筛选器，一次应用一个。<!-- True only for entity names, I think: All filters are joined using the AND operator. --> 要使用所有可用量度一次添加多个筛选器，请参阅“应用工具栏中的数据筛选器”[&#128279;](column-filter-apply-from-toolbar.md)。
 
 1. 单击列标题右侧的![向下箭头](/help/search-social-commerce/assets/arrow-down-dropdown.png "向下箭头")，然后单击&#x200B;**[!UICONTROL Add Filter]**。
 

@@ -89,7 +89,7 @@ ht-degree: 0%
 
    1. 在[!UICONTROL Goals] > [!UICONTROL Conversions]中，[查看转化量度并使所需量度可见](/help/search-social-commerce/goals/conversions/conversion-metrics-manage.md#conversion-metrics-change-available)。 在[!UICONTROL Goals] > [!UICONTROL Objectives]中，[创建或选择目标](/help/search-social-commerce/goals/objectives/objective-about.md)以进行优化。
 
-   1. 在[!UICONTROL Manage] > [!UICONTROL Portfolios]中，[通过适当的[合格营销活动](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-portfolio)创建配置为满足您的目标和业务目标的项目组合](/help/search-social-commerce/manage/portfolios/portfolio-create.md)。 [激活项目组合](/help/search-social-commerce/manage/portfolios/portfolio-change-status.md)以收集和建模数据。 然后，实施团队会收集并验证至少14天的点击和收入数据，并验证项目组合设置。
+   1. 在[!UICONTROL Manage] > [!UICONTROL Portfolios]中，[&#128279;](/help/search-social-commerce/manage/portfolios/portfolio-create.md)通过适当的[合格营销活动](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-portfolio)创建配置为满足您的目标和业务目标的项目组合。 [激活项目组合](/help/search-social-commerce/manage/portfolios/portfolio-change-status.md)以收集和建模数据。 然后，实施团队会收集并验证至少14天的点击和收入数据，并验证项目组合设置。
 
       >[!NOTE]
       >

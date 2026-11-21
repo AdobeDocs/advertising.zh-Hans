@@ -31,7 +31,7 @@ ht-degree: 0%
 
 [!DNL Adobe]和您的代理机构与您合作，共同连接您的广告网络帐户、准备营销活动、配置跟踪和验证性能数据。 如果您希望Search、Social和Commerce优化符合条件的促销活动，则该工作流还包括项目组合设置。
 
-此核对清单为更广泛的[实施工作流](implemention-overview.md)提供帐户和营销活动详细信息。 您可以执行的任务取决于您的权限以及每个广告网络和促销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)支持的[功能。
+此核对清单为更广泛的[实施工作流](implemention-overview.md)提供帐户和营销活动详细信息。 您可以执行的任务取决于您的权限以及每个广告网络和促销活动类型[&#128279;](/help/search-social-commerce/introduction/supported-inventory.md)支持的功能。
 
 ## 设置工作流
 

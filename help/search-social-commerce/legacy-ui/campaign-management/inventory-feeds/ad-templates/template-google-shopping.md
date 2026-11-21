@@ -71,7 +71,7 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Tracking Template]：** （对于客户端信息源文件的模板而言，它是可选的）营销活动级别的跟踪模板，它指定所有离登陆域重定向和跟踪参数，并将最终URL嵌入到参数中。 此值将覆盖帐户级别的设置，但更细粒度级别（使用关键字作为最细粒度级别）的跟踪模板将覆盖此值。
 
-对于当营销活动设置包括“[!UICONTROL EF Redirect]”和“[!UICONTROL Auto Upload]”时应用的Adobe Advertising转化跟踪，请为 [!DNL Google Ads] 购物营销活动](/help/search-social-commerce/tracking/formats-click-tracking-google.md)使用[跟踪模板格式。 如果整个帐户专门用于购物广告，则您可以在帐户级别定义跟踪模板。
+对于当营销活动设置包括“[!UICONTROL EF Redirect]”和“[!UICONTROL Auto Upload]”时应用的Adobe Advertising转化跟踪，请为 [!DNL Google Ads] 购物营销活动[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)使用跟踪模板格式。 如果整个帐户专门用于购物广告，则您可以在帐户级别定义跟踪模板。
 
 对于第三方重定向和跟踪，请输入一个值。
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 **[!UICONTROL Merchant ID]：**&#x200B;其产品用于营销活动的商家帐户的客户ID。
 
-**[!UICONTROL Sales Country]：**促销活动产品的销售国家/地区。 因为产品已关联
+**[!UICONTROL Sales Country]：**&#x200B;促销活动产品的销售国家/地区。 因为产品已关联
 对于目标国家/地区，此设置确定在营销活动中广告的产品。
 
 <!-- **[!UICONTROL Stock Level]:** -->
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 **[!UICONTROL Networks]：**&#x200B;要投放广告的网络。 已选择&#x200B;*[!UICONTROL Search]*。 要包括[!DNL Google Ads]搜索合作伙伴的列表竞价，请选中&#x200B;**[!UICONTROL Search partners]**&#x200B;旁边的复选框。
 
-**[!UICONTROL Campaign Priority]：**多个营销活动广告
+**[!UICONTROL Campaign Priority]：**&#x200B;多个营销活动广告
 相同的产品： *[!UICONTROL Low]* （新营销活动的默认值）、*[!UICONTROL Medium]*&#x200B;或&#x200B;*[!UICONTROL High]*。 当同一产品包含在多个促销活动中时，广告网络会使用
 首先确定哪个营销活动（及相关竞价）符合广告竞价条件的营销活动优先级。 如果所有促销活动具有相同的优先级，则具有最高竞价的促销活动符合条件。
 
