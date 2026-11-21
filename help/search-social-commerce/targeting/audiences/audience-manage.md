@@ -157,7 +157,7 @@ Each [!DNL Adobe] audience can be used for only one [!DNL Google Ads] audience. 
 
    1. Ask an [!DNL Adobe] administrator or account manager to enable customer match audiences for the advertiser.
 
-   1. Implement the [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html){target="_blank"} version 2.0 or higher.
+   1. Implement the [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans){target="_blank"} version 2.0 or higher.
 
    1. Deploy the following tag as high as possible on the advertiser's webpages from which the audience should be tracked:
 

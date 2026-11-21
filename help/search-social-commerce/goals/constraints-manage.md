@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *仅适用于旧版关键词级别项目组合中的CPC促销活动中的竞价单位*
 
-竞价单位约束是限制所有[竞价单位](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html)的优化竞价以及与约束关联的成本和收入模型的规则。
+竞价单位约束是限制所有[竞价单位](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html?lang=zh-Hans)的优化竞价以及与约束关联的成本和收入模型的规则。
 
 ## 关于约束
 
