@@ -1,0 +1,108 @@
+---
+title: （新UI）关于目标
+description: 了解实现业务目标的目标。
+feature: Search Objectives, Search Optimization
+exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
+autotag-review: '2026-04-14T00:06:19.870Z'
+TQID: 'https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2d3f1df6-4c6c-545b-abf7-bec5f20fd636
+    internal-label: Search Objectives
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+subfeature_v2:
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: Admin
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 0%
+---
+# （新UI）关于目标
+
+<!-- no subfeature tag for objectives -->
+
+*Beta功能*
+
+目标是指广告商为实现其业务目标而设定的目标，例如实现利润最大化或达到特定的销售目标。 Advertising Search、Social和Commerce以及Advertising DSP都使用目标：
+
+* 每个“搜索”、“社交”和“Commerce”项目组合都必须有一个目标，以便优化功能可以为该项目组合创建点击和收入模型。
+
+* 在DSP中，目标显示为与Search、Social和Commerce帐户关联的DSP帐户的自定义目标。 每个使用优化目标“最高广告支出回报率(ROAS)”或“最低每次收购成本(CPA)”的包都必须包含一个自定义目标，以帮助实现整体优化目标。
+
+目标包含要跟踪和优化的转化量度以及这些量度的相对权重。 例如，假设一家在线杂志具有两个在线订阅级别和一个印刷订阅级别，并且其目标“利润最大化”有三个指标：价值20 USD的“基本在线订阅”、价值40 USD的“优质在线订阅”和价值30 USD的“印刷订阅”。 如果杂志想要根据订阅的一次性货币值赋予权重，则这些量度的相对权重将分别为1、2和1.5。
+
+对于目标中的每个量度，您可以：
+
+* 为来自移动设备的转化配置单独的权重。
+
+* 将量度标记为[!UICONTROL Goal]量度或[!UICONTROL Assist]量度。
+
+* 将权重推荐应用于量度。
+
+>[!NOTE]
+>* （搜索、社交和Commerce）当您[创建项目组合](/help/search-social-commerce/manage/portfolios/portfolio-create.md)或稍后[修改项目组合设置](/help/search-social-commerce/manage/portfolios/portfolio-edit.md)时，可以将目标与项目组合关联。
+>* （具有链接到Search、Social和Commerce帐户的DSP帐户的广告商）在Advertising DSP中，您可以选择目标作为具有包级别步调的包的[自定义优化目标](/help/dsp/campaign-management/packages/package-settings.md)。
+>* 您可以对多个Search、Social和Commerce项目组合和/或多个DSP项目组合使用同一目标。
+>* [!UICONTROL Objectives]视图中每个目标的指标不包括DSP中的数据。
+
+## 可用量度
+
+您可以在目标中包含以下任意内容：
+
+* Adobe Advertising使用[Adobe Advertising转化跟踪像素](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)跟踪的指标。
+
+* [来自转化馈送文件的广告商跟踪量度](/help/search-social-commerce/tracking/conversion-tracking-about.md)。<!-- Search only, or might DSP-only clients also have these? -->
+
+* （具有[!DNL Adobe Analytics for Advertising]的广告商） [转化和网站参与度量度已从Adobe Analytics](/help/integrations/analytics/overview.md)同步。
+
+  在Search、Social和Commerce中，以下[网站参与量度](/help/integrations/analytics/analytics-data-in-advertising.md)会自动计入项目组合竞价算法： `timespent_secs_1stvisit`、`timespent_secs_total`、`pageviews_1stvisit`、`pageviews_total`和`bounces`。
+
+* [!DNL Google]个量度：<!-- Search only, or might DSP-only clients also have these? -->
+
+  * 已从同步的[!DNL Google Ads]帐户中跟踪[[!DNL Google Ads]次转化](/help/search-social-commerce/tracking/google-conversion-data.md)。
+
+  * （具有[[!DNL Google Analytics] 集成](/help/search-social-commerce/legacy-ui/admin/data-sources/data-source-about.md)的广告商）页面查看次数、会话数、跳出率（计算公式为跳出次数/会话数）和会话持续时间。
+
+    在Search、Social和Commerce中，这些指标会自动计入项目组合竞价算法。
+
+## 用于将目标上传到广告网络的选项
+
+您可以选择将[帐户组合的目标作为转化 [!DNL Google Ads] 和/或 [!DNL Microsoft Advertising] 上传](objective-upload-to-networks.md)，以便将其用于营销活动或广告组级别优化。 启用该选项后，Search、Social和Commerce每天都会将EF ID（点击ID）级别的加权收入数据传递到广告网络。 它忽略任何广告网络跟踪量度。
+
+## 可用操作
+
+* [创建目标](objective-create.md)或[复制现有目标](objective-create.md#objective-duplicate)
+
+* [编辑目标](objective-edit.md)
+
+* [将权重推荐应用于目标](objective-apply-weight-recommendations.md)
+
+* [将目标配置导出到 [!DNL Microsoft Excel] 工作表](objective-export.md)
+
+* [下载目标的性能数据](objective-download-performance-data.md)
+
+* [删除目标](objective-delete.md)
+
+>[!MORELIKETHIS]
+>
+>* [创建目标](objective-create.md)
+>* [编辑目标](objective-edit.md)
+>* [删除目标](objective-delete.md)
+>* [将权重推荐应用于目标](objective-apply-weight-recommendations.md)
+>* [目标设置](objective-settings.md)
+>* [导出目标配置](objective-export.md)
+>* [下载目标的性能数据](objective-download-performance-data.md)

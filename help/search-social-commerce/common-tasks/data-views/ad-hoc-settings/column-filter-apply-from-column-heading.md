@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '214'
 ht-degree: 0%
 ---
 # 从列标题菜单应用数据过滤器
@@ -47,4 +47,4 @@ ht-degree: 0%
 >
 >* [从工具栏应用数据筛选器](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
 >* [编辑列筛选器](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)
->* [删除列筛选器]&#x200B;(/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/
+>* [删除列筛选器](column-filter-remove.md)

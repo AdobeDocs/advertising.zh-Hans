@@ -20,7 +20,7 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 * **Adobe Analytics转化：**&#x200B;广告商对所有转化都使用Adobe Analytics跟踪。 此选项需要Adobe Advertising-Adobe Analytics集成。 有关详细信息，请参阅&quot;[Adobe Analytics转化跟踪](conversion-tracking-analytics.md)&quot;。
 
-* **[!DNL Google Analytics]转化：**&#x200B;广告商使用[!DNL Google Analytics]标记跟踪所有转化。 有关自动同步的转化的更多信息，请参阅[[!DNL Google Ads] 搜索、社交和Commerce中的转化数据](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)。
+* **[!DNL Google Analytics]转化：**&#x200B;广告商使用[!DNL Google Analytics]标记跟踪所有转化。 有关自动同步的转化的更多信息，请参阅[[!DNL Google Ads] 搜索、社交和Commerce中的转化数据](google-conversion-data.md)。
 
 * **跟踪广告商的转化：** （仅限Search、Social和Commerce客户端）广告商为Search、Social和Commerce提供包含在线和离线转化数据的任意组合的信息源文件。 请参阅[使用EF ID馈送的转化跟踪](feed-efid.md)和[使用交易ID馈送的转化跟踪](feed-transaction-id.md)。
 

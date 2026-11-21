@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -151,7 +151,7 @@ EF ID受Analysis Workspace中500,000个唯一标识符限制的约束。 一旦�
 
     * 对于已为帐户或营销活动启用[!UICONTROL Auto Upload]设置的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户，当最终用户单击带有Adobe Advertising像素的广告时，像素服务器会自动将s_kwcid参数附加到您的登陆页后缀。
 
-    * 对于其他广告网络，或禁用了[!UICONTROL Auto Upload]设置的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户，请手动将该参数添加到您的[帐户级别的附加参数](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}，这些参数会将其附加到您的基本URL。
+    * 对于其他广告网络，或禁用了[!UICONTROL Auto Upload]设置的[!DNL Google Ads]和[!DNL Microsoft Advertising]帐户，请手动将该参数添加到您的[帐户级别的附加参数](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#account-settings-api){target="_blank"}，这些参数会将其附加到您的基本URL。
 
 * 未实施服务器端插入功能时：
 
@@ -163,9 +163,9 @@ EF ID受Analysis Workspace中500,000个唯一标识符限制的约束。 一旦�
 
   * 搜索、社交和Commerce客户：
 
-    * 对于（[!DNL Google Ads]和[!DNL Microsoft Advertising]）广告，请手动将AMO ID参数添加到登陆页面后缀，最好在[帐户级别](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}添加，除非需要对各个帐户组件进行不同的跟踪。
+    * 对于（[!DNL Google Ads]和[!DNL Microsoft Advertising]）广告，请手动将AMO ID参数添加到登陆页面后缀，最好在[帐户级别](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#account-settings-api){target="_blank"}添加，除非需要对各个帐户组件进行不同的跟踪。
 
-    * 对于所有其他广告网络上的广告，请手动将AMO ID参数添加到您的[帐户级别的附加参数](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}，这会将其附加到您的基本URL。
+    * 对于所有其他广告网络上的广告，请手动将AMO ID参数添加到您的[帐户级别的附加参数](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#account-settings-api){target="_blank"}，这会将其附加到您的基本URL。
 
 要实施服务器端插入功能或确定最适合您的企业的选项，请联系您的Adobe客户团队。
 

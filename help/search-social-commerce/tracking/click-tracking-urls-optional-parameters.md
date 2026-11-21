@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 | 参数 | 描述 |
 | ---- | ---- |
-| <code>{custom_code}</code> | 将上传批量工作表文件中“自定义URL参数”列的数据插入跟踪URL。 {custom_code}只能在跟踪URL中一个或多个键值对的值末尾使用。 示例： <code>a={custom_code}</code>； <code>a={ef_campaignid}{custom_code}</code>； <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>注意：</b>若要将自定义值从批量处理工作表文件插入到跟踪URL，请使用“生成跟踪URL”选项上载批量处理工作表文件。 有关使用批量处理工作表文件的详细信息，请参阅[关于使用批量处理工作表管理促销活动数据](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。 |
+| <code>{custom_code}</code> | 将上传批量工作表文件中“自定义URL参数”列的数据插入跟踪URL。 {custom_code}只能在跟踪URL中一个或多个键值对的值末尾使用。 示例： <code>a={custom_code}</code>； <code>a={ef_campaignid}{custom_code}</code>； <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>注意：</b>若要将自定义值从批量处理工作表文件插入到跟踪URL，请使用“生成跟踪URL”选项上载批量处理工作表文件。 有关使用批量处理工作表文件的详细信息，请参阅[关于使用批量处理工作表管理促销活动数据](/help/search-social-commerce/legacy-ui/campaign-management/bulksheets/bulksheet-about.md)。 |
 | <code>{ef_uniqueid}</code> | 插入由Adobe Advertising创建的唯一ID。 当跟踪方法为“EF重定向”时自动添加。 |
 | <code>{ef_userid}</code> | 插入Adobe Advertising分配给广告商的唯一用户ID。 |
 | <code>{ef_sid}</code> | 插入Search、Social和Commerce分配给广告网络的数字ID：[!DNL Google Ads]的<i>[!UICONTROL 3]</i>、[!DNL Microsoft Advertising]的<i>[!UICONTROL 10]</i>、[!DNL Meta]的<i>[!UICONTROL 45]</i>、[!DNL Yahoo DSP]的<i>[!UICONTROL 86]</i>、[!DNL Naver]的<i>[!UICONTROL 87]</i>、[!DNL Baidu]的<i>[!UICONTROL 88]</i>、[!DNL Yandex]的<i>[!UICONTROL 90]</i>、[!DNL LY Ads]的<i>[!UICONTROL 94]</i>（以前的[!DNL Yahoo! Japan Ads]）、[!DNL Yahoo Native]的<i>[!UICONTROL 105]</i>（已弃用）或[!DNL Pinterest]的<i>[!UICONTROL 106]</i>（已弃用）。 |

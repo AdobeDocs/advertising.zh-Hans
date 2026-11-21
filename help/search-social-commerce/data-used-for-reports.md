@@ -23,7 +23,7 @@ subfeature_v2:
     internal-label: Specialty reports
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
     internal-label: Reports
-source-git-commit: fbbc4aabc435023aafbef2443735a7fb285561be
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 6%
@@ -32,7 +32,7 @@ ht-degree: 6%
 
 搜索、社交和Commerce包括基于点击和转化数据的全套性能报表。 您可以从[!UICONTROL Portfolios]和[!UICONTROL Campaigns]视图中，以及通过生成各种基本和高级报告来查看组合或广告帐户的各种组件的基本性能数据。
 
-使用Adobe Advertising转化跟踪服务的广告商还可以识别反向链接网站的地理位置或域名的点击次数、每个渠道中的广告以及导致转化的各种事件对整体转化率的贡献情况，以及营销渠道单个[转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)的转化分布情况。 可用的报告因用户帐户类型而异。 Adobe客户团队有权访问所有报表。
+使用Adobe Advertising转化跟踪服务的广告商还可以识别反向链接网站的地理位置或域名的点击次数、每个渠道中的广告以及导致转化的各种事件对整体转化率的贡献情况，以及营销渠道单个[转化量度](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-metric-about.md)的转化分布情况。 可用的报告因用户帐户类型而异。 Adobe客户团队有权访问所有报表。
 
 大多数报告都可以自定义为仅显示要查看的信息。 以下标准量度在大多数报表中可用，并在广告级别计算：
 
@@ -52,7 +52,7 @@ ht-degree: 6%
 
 * **转化量度：**&#x200B;每个广告商的转化量度的转化总数，或针对某个转化量度跟踪的交易数据。 这可能包括转化和网站参与量度，但不包括从Adobe Analytics同步的计算量度和高级计算量度。
 
-  这可能还包括为广告商帐户同步的[[!DNL Google Ads]跟踪的转化](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)和[[!DNL Google Analytics]跟踪的转化](/help/search-social-commerce/admin/data-sources/data-source-about.md)。
+  这可能还包括为广告商帐户同步的[[!DNL Google Ads]跟踪的转化](/help/search-social-commerce/tracking/google-conversion-data.md)和[[!DNL Google Analytics]跟踪的转化](/help/search-social-commerce/legacy-ui/admin/data-sources/data-source-about.md)。
 
 * **自定义量度：**&#x200B;您自己的量度，这些量度是通过基于现有量度（如每订单成本）创建公式派生的。
 
@@ -79,5 +79,5 @@ ht-degree: 6%
 
 >[!MORELIKETHIS]
 >
->* [关于报告](/help/search-social-commerce/reports/report-about.md)
->* [报告的初始设置任务](/help/search-social-commerce/reports/initial-setup.md)
+>* [关于报告](/help/search-social-commerce/legacy-ui/reports/report-about.md)
+>* [报告的初始设置任务](/help/search-social-commerce/legacy-ui/reports/initial-setup.md)

@@ -10,7 +10,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cb25ab04e8fef5d00935e5325a897b1de97e2674
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 以下内容确定此功能是否适用：
 
-* **现有[!DNL Search, Social, & Commerce]客户：**&#x200B;如果您的广告商已使用[!DNL Search, Social, & Commerce]，则[在Search、Social和Commerce](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)中而不是在DSP中创建和管理其 [!DNL ChatGPT Ads] 促销活动。
+* **现有[!DNL Search, Social, & Commerce]客户：**&#x200B;如果您的广告商已使用[!DNL Search, Social, & Commerce]，则[在Search、Social和Commerce](/help/search-social-commerce/manage/campaigns/campaign-manage.md)中而不是在DSP中创建和管理其 [!DNL ChatGPT Ads] 促销活动。
 
 * **受限行业：**&#x200B;受限类别（例如，金融或医疗保健）中的广告商无法创建对话式广告帐户或营销活动。
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 
 要上传图标，请单击&#x200B;**[!UICONTROL Upload favicon]**，然后在您的设备或网络上查找并选择文件。
 
-**[!UICONTROL I agree to the Terms and Conditions]：**&#x200B;一个复选框，表示您同意所有法律条款。 选中此复选框可创建帐户或更新帐户设置。
+**[!UICONTROL I agree to the Terms and Conditions]：**&#x200B;一个复选框，表示您同意所有法律条款。 选中Select以创建帐户或更新帐户设置的复选框。
 
 >[!MORELIKETHIS]
 >

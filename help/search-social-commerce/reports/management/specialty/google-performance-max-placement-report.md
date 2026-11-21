@@ -2,8 +2,6 @@
 title: '[!UICONTROL Google Performance Max Placement Report]'
 description: 了解[!UICONTROL Google Performance Max Placement Report]。
 feature: Search Reports, Search Specialty Reports
-exl-id: 6f36fe86-f797-4d0b-a966-e84e2077fad8
-TQID: 'https://experienceleague.adobe.com/57mENV64WH8KPyjiyjmpzlPxpIV8GJa62eWf5eVXPiQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,17 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
     internal-label: Search Specialty Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '151'
 ht-degree: 0%
 ---
 # [!UICONTROL Google Performance Max Placement Report]
@@ -57,6 +47,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于专业报告](specialty-report-about.md)
->* [生成专业报告](specialty-report-generate.md)
+>* [管理计划报告](/help/search-social-commerce/reports/management/report-manage.md)
 >* [专业报告设置](specialty-report-settings.md)
 >* [专业报告的报告列](specialty-report-columns.md)

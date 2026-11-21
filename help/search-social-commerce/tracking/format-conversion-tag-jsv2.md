@@ -15,7 +15,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -65,7 +65,7 @@ effp();
 >[!MORELIKETHIS]
 >
 >* [关于Adobe Advertising转化跟踪标记](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [生成Adobe Advertising转换标记](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [生成Adobe Advertising转换标记](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md)
 >* 有关转化和页面查看跟踪标记的[常见问题解答](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
 >* [JavaScript转换跟踪标记版本2](format-conversion-tag-jsv2.md)的格式
 >* [JavaScript转换跟踪标记版本3](format-conversion-tag-jsv3.md)

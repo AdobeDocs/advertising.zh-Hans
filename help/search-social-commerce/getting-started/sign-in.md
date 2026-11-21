@@ -16,7 +16,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -79,5 +79,5 @@ Search、Social和Commerce正在过渡到Adobe Identity Management服务(IMS)以
 >
 >* [在新用户界面和旧用户界面之间切换](ui-switch.md)
 >* [注销](sign-out.md)
->* [更改密码](/help/search-social-commerce/tools/password-change.md)
+>* [更改密码](/help/search-social-commerce/legacy-ui/tools/password-change.md)
 >* [用户界面的组织方式](user-interface.md)

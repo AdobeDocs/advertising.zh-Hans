@@ -1,9 +1,7 @@
 ---
 title: 关于模型精度报告
 description: 了解指示用于优化项目组合的成本和收入模型的准确性的报表。
-exl-id: 2f655db6-8f4f-4eae-9f18-cc04acad3c5c
 feature: Search Reports, Search Model Accuracy Reports
-TQID: 'https://experienceleague.adobe.com/0BKAZrYptU0H9WFukiJ33Jw0JdqvpyOQluPPMl5VR3o'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,19 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 50281ed9-148e-57a9-a8f2-ee73330272e6
     internal-label: Search Model Accuracy Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-    internal-label: Troubleshooting
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '124'
 ht-degree: 0%
 ---
 # 关于模型精度报告
@@ -43,6 +31,5 @@ ht-degree: 0%
 >
 >* [该[!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
 >* [该[!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
->* [生成模型准确性报告](model-accuracy-report-generate.md)
->* [模型准确性报表设置](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
->* [关于报告](/help/search-social-commerce/reports/report-about.md)
+>* [管理计划报告](/help/search-social-commerce/reports/management/report-manage.md)
+>* [模型准确性报表设置](model-accuracy-report-settings.md)

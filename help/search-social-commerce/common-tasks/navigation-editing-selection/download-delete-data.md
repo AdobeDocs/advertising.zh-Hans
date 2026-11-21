@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 删除批量处理工作表文件会将其从[!UICONTROL Downloads]列表中删除，也会将其从[!UICONTROL Bulksheets]视图中删除。
->* 另请参阅有关从“[[!UICONTROL Portfolios]视图](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)”、“[[!UICONTROL Campaigns]视图](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)”和“[[!UICONTROL Ad Groups]视图](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)”下载新用户界面中数据的帮助。
+>* 另请参阅有关从“[[!UICONTROL Portfolios]视图](/help/search-social-commerce/manage/portfolios/portfolio-view-report.md)”、“[[!UICONTROL Campaigns]视图](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-reports)”和“[[!UICONTROL Ad Groups]视图](/help/search-social-commerce/manage/ad-groups/ad-group-manage.md#ad-group-reports)”下载新用户界面中数据的帮助。
 
 1. 在主菜单中，单击[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]，然后打开任意实体视图。
 
@@ -38,6 +38,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [（旧版UI）从营销活动管理视图下载数据](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
->* [（新UI）从[!UICONTROL Portfolios]视图](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)管理数据视图报告
->* [（新UI）从[!UICONTROL Campaigns]视图](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)管理数据视图报告
->* [（新UI）从[!UICONTROL Ad Groups]视图](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)管理数据视图报告
+>* [（新UI）从[!UICONTROL Portfolios]视图](/help/search-social-commerce/manage/portfolios/portfolio-view-report.md)管理数据视图报告
+>* [（新UI）从[!UICONTROL Campaigns]视图](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-reports)管理数据视图报告
+>* [（新UI）从[!UICONTROL Ad Groups]视图](/help/search-social-commerce/manage/ad-groups/ad-group-manage.md#ad-group-reports)管理数据视图报告

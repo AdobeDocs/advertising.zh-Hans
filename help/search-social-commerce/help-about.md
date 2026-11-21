@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 5c536fc9d8cd09a0cdaad5c0be1d801eefeade0c
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '223'
 ht-degree: 0%
 ---
 # 关于本指南
@@ -35,20 +35,23 @@ ht-degree: 0%
 
 * “快速入门”介绍广告商实施中涉及的主要任务（从为初始启动设置到执行日常管理任务），以及用户界面的组织方式。
 
-* “常见任务”说明如何根据您的信息需求和偏好配置各种性能数据视图，如何管理自定义量度，如何管理标签分类和竞价限制，以及如何执行其他常见任务。
+* “常见任务”说明如何根据您的信息需求和首选项配置各种性能数据视图，如何管理自定义量度，如何管理警报和通知，以及如何执行其他常见任务。
 
-* “新UI”说明可以在新用户界面中执行的任务：如何管理目标、运行模拟、管理项目组合、从项目组合中分配和删除营销活动，以及为营销活动和广告组分配或删除限制。 请参阅下面的“注释”。
+* 以下章节说明了新用户界面中主菜单选项的功能：“[!UICONTROL Dashboard]”、“[!UICONTROL Manage]”、“[!UICONTROL Reports]”、“[!UICONTROL Plan]”、“[!UICONTROL Setup]”、“[!UICONTROL Goals]”、“[!UICONTROL Targeting]”和“[!UICONTROL Library]”。
+
+  有关每个章节的详细信息，请参阅“[用户界面的组织方式](/help/search-social-commerce/getting-started/user-interface.md)”。
 
 * “跟踪”介绍如何为广告和关键词设置点击和转化跟踪。
 
-* “Campaign management”介绍如何为广告网络帐户设置和管理Campaign组件。
+* “旧版用户界面”介绍您可以在[旧版用户界面](/help/search-social-commerce/getting-started/ui-switch.md)中执行的任务。
 
-* “见解和报表”介绍如何生成广告见解、生成详细报表和自动制作报表、创建和监控警报、查看对广告商帐户所做更改的日志，以及查看和应用网络为您的帐户生成的广告推荐。
-
-* “工具”说明如何更改密码、使用工具生成点击跟踪和转化跟踪标记、将转化量度上传到[!DNL Google Ads]并将项目组合目标上传到广告网络以进行混合优化、上传量度以跟踪营销活动，以及在[!DNL Microsoft Advertising]帐户中复制[!DNL Google Ads]营销活动。
-
-* “管理”说明如何管理广告商数据，包括收集的转化指标以及从组合预测中排除的任何日期；从[!DNL Google Analytics]帐户同步您的转化指标；配置各种广告商级别的设置；以及（某些角色）管理用户、代理和广告商帐户。
+  这些任务中的大多数也可在新用户界面中找到。
 
 >[!NOTE]
 >
 >从搜索、社交和Commerce中任何页面右上角的[!UICONTROL Help]菜单（![帮助菜单](/help/search-social-commerce/assets/help-main-menu.png "帮助菜单")）可访问有关优化的其他帮助，包括在旧版用户界面中使用项目组合进行竞价。
+
+>[!MORELIKETHIS]
+>
+>* [用户界面的组织方式](/help/search-social-commerce/getting-started/user-interface.md)
+>* [在新用户界面和旧用户界面之间切换](/help/search-social-commerce/getting-started/ui-switch.md)

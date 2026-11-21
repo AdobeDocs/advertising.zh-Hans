@@ -1,19 +1,18 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
-
 ---
 # 文本广告模板 — 信息源与列
 
-**[!UICONTROL Feed & Columns]：**&#x200B;与模板关联的[信息源文件](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)或商家帐户，以及所选文件或帐户的列（标头）：
+**[!UICONTROL Feed & Columns]：**&#x200B;与模板关联的[信息源文件](/help/search-social-commerce/legacy-ui/campaign-management/inventory-feeds/feed-files-manage.md)或商家帐户，以及所选文件或帐户的列（标头）：
 
 * *[!UICONTROL Feed File]：*&#x200B;上载文件或从可用信息源文件列表中选择文件。
 
-* *[!UICONTROL Google Merchant Center]：*&#x200B;选择[已同步 [!DNL Google Merchant Center] 帐户](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)。 搜索、Social和Commerce仅创建产品组；[!DNL Google Ads]将自动为产品组生成购物广告。 不支持自定义列。
+* *[!UICONTROL Google Merchant Center]：* Select [已同步 [!DNL Google Merchant Center] 帐户](/help/search-social-commerce/legacy-ui/campaign-management/accounts/merchant-account-manage.md)。 搜索、Social和Commerce仅创建产品组；[!DNL Google Ads]将自动为产品组生成购物广告。 不支持自定义列。
 
-* *[!UICONTROL Microsoft Merchant Center]：* （仅限[!DNL Microsoft Advertising]个购物模板）选择[已同步 [!DNL Microsoft Merchant Center] 帐户](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)。 Search、Social和Commerce仅创建产品组；[!DNL Microsoft Advertising]将自动为产品组生成产品广告。 不支持自定义列。
+* *[!UICONTROL Microsoft Merchant Center]：* （仅限[!DNL Microsoft Advertising]个购物模板）Select已同步[帐户 [!DNL Microsoft Merchant Center] 帐户](/help/search-social-commerce/legacy-ui/campaign-management/accounts/merchant-account-manage.md)。 Search、Social和Commerce仅创建产品组；[!DNL Microsoft Advertising]将自动为产品组生成产品广告。 不支持自定义列。
 
 在准备好使用该模板创建广告之前，将模板与信息源文件或商家帐户关联是可选的。
 

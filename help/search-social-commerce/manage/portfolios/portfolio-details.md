@@ -1,0 +1,233 @@
+---
+title: （新UI）查看项目组合绩效详细信息
+description: 了解如何在Adobe Advertising Search、Social和Commerce中查看项目组合绩效、关键词竞价单位详细信息、预测和竞价历史记录，以及导出竞价单位历史记录。
+feature: Search Portfolios, Search Optimization
+exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
+TQID: 'https://experienceleague.adobe.com/5hNxKu6YjJTWI4KGEc6aaYnpgXK6k3OsN0-YfetzENw'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+source-git-commit: 157c45d4939eff028543a0181397a59e6346309e
+workflow-type: tm+mt
+source-wordcount: '1555'
+ht-degree: 0%
+---
+# （新UI）查看项目组合绩效详细信息
+
+*Beta功能*
+
+<!-- Verify all, including why (if) the first report is for active and optimized portfolios(?), and why the other reports are for active portfolios, not optimized ones -->
+
+项目组合详细信息视图包含有关项目组合的以下信息：
+
+* 最多三个性能指标的实际值和预测值。 这些报表包括项目组合的总量度值和按日期的量度细分。<!-- Not for active portfolios only?  -->
+
+* 活动项目组合的模型准确度数据，它显示模型与预测的偏差程度。 此报表显示每日或滚动七天的总体成本准确度、点击准确度以及目标值准确度。
+
+  您可以用趋势图（默认）或表的形式查看数据。
+
+* 目标支出与有效项目组合的实际支出。 您也可以选择包括项目组合的市场活动预算合计。
+
+* 广告网络对活动项目组合的成本、点击次数或[目标值](/help/search-social-commerce/glossary.md#o-p)预测的准确性。<!-- Verify -->
+
+* 项目组合设置。
+
+  您可以选择打开项目组合设置进行编辑。
+
+* 项目组合中的广告网络、帐户、促销活动、广告组和关键字的列表，以及效果数据。
+
+  对于单个关键字，您可以查看竞价单位详细信息，包括预测、历史信息和层次结构信息。 [!UICONTROL Bid Unit Details]视图包括所选竞价单位的以下预测、历史信息和层次结构信息：
+
+  * [!UICONTROL Forecast]选项卡：不同竞价下竞价单位的当前预计点击次数、成本、每次点击成本、职位和收入。 将显示所有设备和每种设备类型（[!UICONTROL Mobile]、[!UICONTROL Computer]和[!UICONTROL Tablet]）的数据。<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. -->
+
+    **注意：**&#x200B;当设备特定的数据不足以构建模型和设置设备类型的调整时，没有可用于该设备类型的预测数据。 **注意：**&#x200B;要查看特定日期范围内点击过的项目组合中每个竞价单位的成本准确度或收入准确度，请分别查看项目组合的成本准确度详细信息或收入准确度详细信息。
+
+  * [!UICONTROL History]选项卡：过去36天中的所有竞价，包括每个竞价的以下数据：日期和时间、展示次数、点击次数、总成本、平均CPC、平均位置以及按点击日期显示的加权收入。 将显示所有设备和每种设备类型（移动设备、计算机和平板电脑）的数据。<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. **Note:** Whenever the optimization method changes from v6 to v7 and vice-versa, the history data is reset the same day. -->
+
+  * [!UICONTROL Details]选项卡：关键字、匹配类型（如果适用），以及父广告组、营销活动、广告网络帐户和竞价单位所属的项目组合。
+
+## 打开项目组合的性能详细信息
+
+1. 在主菜单中，单击&#x200B;**[!UICONTROL Manage]>[!UICONTROL Portfolios]**。
+
+1. 将光标悬停在项目组合名称上，然后单击![Portfolio概述](/help/search-social-commerce/assets/portfolio-overview.png "Portfolio概述")。
+
+1. （可选）要更改项目组合详细信息的日期范围，请单击右上角的日期范围，指定日期范围，然后单击&#x200B;**[!UICONTROL Apply]**。
+
+1. （可选）从&#x200B;**[!UICONTROL Data Aggregation]**&#x200B;菜单中，更改每行包含的数据的时间单位： *[!UICONTROL Daily]、* *[!UICONTROL Weekly]、*&#x200B;或&#x200B;*[!UICONTROL Monthly]。*
+
+   可用的选项取决于所选的日期范围。 如果当前聚合不可用于新的日期范围，则会自动选择另一个可用的聚合。
+
+1. （可选）从页眉中的&#x200B;**[!UICONTROL Conversion Based On]**&#x200B;菜单中，选择&#x200B;**[!UICONTROL Click Date]**&#x200B;或&#x200B;**[!UICONTROL Transaction Date]**。
+
+   此设置适用于项目组合报表和组件列表中的转化数据。
+
+要查看其他项目组合的详细信息，请使用项目组合名称旁边的项目组合选择器。
+
+## 自定义[!UICONTROL Portfolio Overview]选项卡
+
+* （可选）要自定义[!UICONTROL Portfolio Performance]报表，请执行以下任一操作：
+
+  * 要更改用于总指标和详细指标的性能指标，请单击&#x200B;**[!UICONTROL Metrics]**&#x200B;并选择最多三个指标。
+
+    默认量度为&#x200B;*[!UICONTROL Cost]*、*[!UICONTROL Clicks]*&#x200B;和&#x200B;*[!UICONTROL Objective Value]*.<!-- What else is available: the advertiser's revenue metrics? Anything else from the ad networks? -->
+
+  * 对于详细量度：
+
+    * 将开关移动到&#x200B;**[!UICONTROL Display predictions]**&#x200B;旁以显示或隐藏预测的量度值。
+
+    * 在图表视图（![图表视图](/help/search-social-commerce/assets/chart-view.png "图表视图")）和表视图(![表格视图](/help/search-social-commerce/assets/table-view.png "表格视图"))之间切换。
+
+    * （在图表视图中）要查看图表上任何点的数据，请将光标悬停在该点上。
+
+    * （在图表视图中）要缩放，请选择图表上的某个区域。
+
+    * （显示项目组合设置更改标记时）要查看项目组合在标记日期的更改历史记录，请单击图表上的标记。 有关历史记录的详细信息，请参阅“[查看产品组合的更改历史记录](portfolio-view-change-history.md#portfolio-change-history)”。
+
+* （可选）要自定义[!UICONTROL Model accuracy]趋势图，请执行以下任一操作：
+
+  * 在图表视图（![图表视图](/help/search-social-commerce/assets/chart-view.png "图表视图")）和表视图(![表格视图](/help/search-social-commerce/assets/table-view.png "表格视图"))之间切换。
+
+  * 在查看有关&#x200B;*[!UICONTROL Daily Accuracy]*&#x200B;和&#x200B;*[!UICONTROL 7 Day Rolling Accuracy]*&#x200B;的数据之间切换。
+
+    [!UICONTROL 7 Day Rolling Accuracy]是前七天预测的平均准确性，以百分比表示。 例如，2025年5月8日的值是2025年5月1日至5月7日的平均准确率。
+
+    仅当[!UICONTROL Data Aggregation]设置为[!UICONTROL Daily]时，[!UICONTROL 7 Day Rolling Accuracy]才可用。
+
+  * （在图表视图中）要查看图表上任何点的数据，请将光标悬停在该点上。
+
+* （可选）要自定义[!UICONTROL Target vs actual spend]趋势图，请执行以下任一操作：
+
+  * 将开关移动到&#x200B;**[!UICONTROL Display budget]**&#x200B;旁边，可显示或隐藏每个日期的总营销活动预算。
+
+  * 要查看图表上任何点的数据，请将光标悬停在该点上。
+
+* （可选）要自定义[!UICONTROL Network Accuracy]趋势图，请执行以下任一操作：
+
+  * 将报告的量度更改为&#x200B;*[!UICONTROL Cost]*、*[!UICONTROL Clicks]*&#x200B;或&#x200B;*[!UICONTROL Objective Value]*。
+
+  * 当数据可用于多个网络时，从量度菜单旁边的菜单中选择该网络。
+
+  * 要查看图表上任何点的数据，请将光标悬停在该点上。
+
+  * 要缩放，请在图形上选取一个区域。
+
+## 自定义项目组合组件的列表
+
+[!UICONTROL Networks]、[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]和[!UICONTROL Keywords]选项卡包含以下控件：
+
+* 要按名称搜索，请在表上方的搜索字段中输入文本并提交搜索。
+
+* 要[筛选数据](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)，请单击![筛选](/help/search-social-commerce/assets/filter-new.png "筛选")。 您可以使用表上方的过滤器控件编辑或删除应用的过滤器。
+
+* 要在下一个选项卡中查看网络、帐户、营销活动或广告组的组件，请单击其名称。 选定的父级将显示在表上方的痕迹导航中，并且当您向下钻取时，适用的过滤器会继续存在。 当您切换选项卡时，父项选择可能会继续限制列表。
+
+  要删除向下钻取选择（如网络或帐户名称），请单击表上方的痕迹导航中组件名称旁边的&#x200B;**[!UICONTROL X]**。 更高级别的父项选择仍可保持有效。 要返回到项目组合中的所有组件，请删除其余父选择和任何其他过滤器。
+
+* 要刷新数据，请单击![刷新](/help/search-social-commerce/assets/refresh-new.png "刷新")。
+
+* （[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]和[!UICONTROL Keywords]选项卡）要更改显示的列或排序顺序，请单击![自定义列](/help/search-social-commerce/assets/custom-columns-new.png "自定义列")和[编辑列集和排序选项](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)。
+
+
+## 列出项目组合中的广告网络
+
+* 单击&#x200B;**[!UICONTROL Networks]**&#x200B;选项卡。
+
+## 列出项目组合中的帐户
+
+* 要查看项目组合中的所有帐户，请单击&#x200B;**[!UICONTROL Accounts]**&#x200B;选项卡。
+
+* 要查看项目组合中特定网络的帐户，请单击&#x200B;**[!UICONTROL Networks]**&#x200B;选项卡，然后单击网络名称。
+
+## 列出项目组合中的营销活动
+
+有关每个活动的详细信息包括竞价策略；实际和预测成本、点击量和目标值；以及成本、点击量和目标值准确性。
+
+* 要查看项目组合中的所有营销活动，请单击&#x200B;**[!UICONTROL Campaigns]**&#x200B;选项卡。
+
+* 要查看项目组合中特定帐户的营销活动，请单击&#x200B;**[!UICONTROL Accounts]**&#x200B;选项卡，然后单击帐户名称。
+
+## 列出项目组合中的广告组
+
+有关每个广告组的详细信息包括网络、默认竞价、成本、点击次数、CPC、展示次数、目标值以及项目组合目标中使用的转化量度。
+
+* 要查看组合中的所有广告组，请单击&#x200B;**[!UICONTROL Ad Groups]**&#x200B;选项卡。
+
+* 要查看项目组合内某个促销活动中的所有广告组，请单击&#x200B;**[!UICONTROL Campaigns]**&#x200B;选项卡，然后单击促销活动名称。
+
+## 列出和查看有关项目组合中关键字的详细信息 {#bid-unit-details}
+
+每个关键词的详细信息包括竞价单位ID、匹配类型、实际成本和预测成本、点击次数和目标值，以及成本、点击次数和目标值差异。 您可以查看有关单个关键字的竞价单位详细信息。
+
+1. 列出关键字：
+
+   * 要查看项目组合中的所有关键字，请单击&#x200B;**[!UICONTROL Keywords]**&#x200B;选项卡。
+
+   * 要查看项目组合内广告组中的所有关键字，请单击&#x200B;**[!UICONTROL Ad Groups]**&#x200B;选项卡，然后单击广告组名称。
+
+1. （可选）要查看有关特定竞价单位的详细信息，请单击&#x200B;**[!UICONTROL Bid Unit ID]**&#x200B;列中的值。 单击[!UICONTROL Bid Unit Details]中的任意选项卡以了解详细信息。
+
+### 查看和下载单个竞价单位的历史记录 {#bid-unit-history}
+
+1. [打开竞价单位详细信息](#bid-unit-details)。
+
+1. 单击&#x200B;**[!UICONTROL History]**&#x200B;选项卡。
+
+1. （可选）从表上方的设备菜单中，选择要查看其历史记录的设备类型。 默认情况下，将显示所有设备的数据。
+
+1. （可选）当历史记录数据可用时，单击&#x200B;**[!UICONTROL Export as csv]**&#x200B;以下载显示的历史记录。
+
+将按照浏览器的正常过程下载文件。
+
+要查看整个项目组合的竞价历史记录并更改其日期范围，请参阅&quot;[查看项目组合的竞价更改历史记录](portfolio-view-change-history.md#portfolio-bid-change-history)&quot;。
+
+## 查看和编辑项目组合设置
+
+* 要查看或隐藏项目组合设置，请单击&#x200B;**[!UICONTROL Portfolio Settings]**。
+
+  * 要编辑可见的项目组合设置，请单击设置部分旁边的![编辑](/help/search-social-commerce/assets/edit.png "编辑")，然后单击[编辑项目组合设置](portfolio-edit.md)。
+
+有关项目组合设置的更多信息，请参阅可在搜索、社交和Commerce中找到的“优化指南” 。
+
+## 下载项目组合性能报表和项目组合组件列表
+
+* 要下载性能报表和组件列表，请执行以下操作：
+
+  1. 单击工具栏中的&#x200B;**[!UICONTROL Download report]**。
+
+  1. Select每个要包括的性能报表和组合组件类型旁边的复选框。
+
+     可用的项目组合组件为&#x200B;*[!UICONTROL Campaigns table]*、*[!UICONTROL Ad groups table]*&#x200B;和&#x200B;*[!UICONTROL Keywords table]*。 [!UICONTROL Networks]和[!UICONTROL Accounts]表未包含在此下载中。
+
+     对于包含这两个选项的性能报表，请选择&#x200B;**[!UICONTROL As chart]**、**[!UICONTROL As table]**&#x200B;或两者。 [!UICONTROL Network accuracy chart]报告仅以图表形式提供。
+
+  1. 单击&#x200B;**[!UICONTROL Download report]**。
+
+* 要下载包含特定数据类型的[!UICONTROL Model accuracy]报表，请执行以下操作：
+
+  1. 在[!UICONTROL Model accuracy]的工具栏中，单击&#x200B;**[!UICONTROL Download report]**。
+
+  1. Select **[!UICONTROL Cost Accuracy]**、**[!UICONTROL Objective Value Accuracy]**&#x200B;或两者。
+
+  1. 对于每个所选的数据类型，选择&#x200B;**[!UICONTROL By Bid Unit]**、**[!UICONTROL By Click Volume]**&#x200B;或两者。
+
+  1. 单击&#x200B;**[!UICONTROL Download report]**。
+
+>[!MORELIKETHIS]
+>
+>* [（新UI）关于项目组合](portfolio-about.md)
+>* [（新UI）编辑项目组合](portfolio-edit.md)
+>* [（新UI）下载[!UICONTROL Portfolios]视图中的数据](portfolio-view-report.md)

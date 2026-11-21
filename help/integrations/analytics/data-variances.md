@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '3529'
 ht-degree: 0%
@@ -212,7 +212,7 @@ The following is an example of a workspace to track clicks to instances.
 
 * 您是否缺少帐户或任何子级别的点击跟踪，或者您是否具有重复的点击跟踪（例如，帐户和促销活动级别均如此）？
 
-  在Search、Social和Commerce中，[下载帐户的批量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)以检查跟踪URL。
+  在Search、Social和Commerce中，[下载帐户的批量工作表](/help/search-social-commerce/set-up/bulksheets/download.md)以检查跟踪URL。
 
   此外，在[!DNL Analytics]中，您可以看到是否始终使用“[!DNL AMO ID]到[!DNL EF ID]”计算量度附加AMO ID和EF IF，计算方式如下：
 

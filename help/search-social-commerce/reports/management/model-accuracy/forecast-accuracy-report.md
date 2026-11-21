@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL Forecast Accuracy Report]'
 description: 了解预测准确度报表，包括数据列。
-exl-id: f0c42323-eb0d-461a-ab09-440fd1bfc960
 feature: Search Reports, Search Model Accuracy Reports
-TQID: 'https://experienceleague.adobe.com/FHLlU9t-6rhRH9XpgF6pxPviMDucJllzsLX-x7FEuTY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,17 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 50281ed9-148e-57a9-a8f2-ee73330272e6
     internal-label: Search Model Accuracy Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '449'
 ht-degree: 0%
 ---
 # [!UICONTROL Forecast Accuracy Report]
@@ -39,7 +29,7 @@ ht-degree: 0%
 >
 >* 对于成本预测，过去7天中偏差10%被认为是可接受的，因此预测支出的90%至110%之间的实际支出是合适的。 对于收入预测，过去七天中出现15%的偏差被认为是可接受的，因此预测支出的85%到115%之间的实际收入是合适的。 应该调查偏差较大的预测。
 >
->* 当项目组合中的关键字与竞价班次约束相关联时，项目组合因竞价班次导致的总支出过多或过少。 结果，预测的成本列偏离目标支出，增加或减少支出。
+>* 当项目组合中的关键字与[竞价班次约束](/help/search-social-commerce/goals/constraints-manage.md)关联时，项目组合超支或缺支按竞价班次导致的总额计算。 结果，预测的成本列偏离目标支出，增加或减少支出。
 
 ## 可用列
 
@@ -66,7 +56,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于模型准确性报告](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
+>* [关于模型准确性报告](model-accuracy-report-about.md)
 >* [该[!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
->* [生成模型准确性报告](model-accuracy-report-generate.md)
->* [模型准确性报表设置](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [管理计划报告](/help/search-social-commerce/reports/management/report-manage.md)
+>* [模型准确性报表设置](model-accuracy-report-settings.md)

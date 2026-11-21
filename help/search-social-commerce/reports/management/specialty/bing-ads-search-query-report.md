@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL Bing Ads Search Query Report]'
 description: 了解[!UICONTROL Bing Ads Search Query Report]。
-exl-id: 0207cfe7-a789-409f-af1b-a9579f2abe1e
 feature: Search Reports, Search Specialty Reports
-TQID: 'https://experienceleague.adobe.com/6IrPQgL0W-kEgV1Up3WEBUtHu7o5un3FP-Up-35iln4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,15 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
     internal-label: Search Specialty Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '178'
 ht-degree: 0%
 ---
 # [!UICONTROL Bing Ads Search Query Report]
@@ -55,5 +47,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于专业报告](specialty-report-about.md)
->* [生成专业报告](specialty-report-generate.md)
+>* [管理计划报告](/help/search-social-commerce/reports/management/report-manage.md)
 >* [专业报告设置](specialty-report-settings.md)

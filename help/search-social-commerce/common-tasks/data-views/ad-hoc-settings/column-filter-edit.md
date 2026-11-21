@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '577'
 ht-degree: 0%
 ---
 # 编辑列筛选条件
@@ -80,7 +80,7 @@ ht-degree: 0%
 
    * 要删除现有的筛选器，请单击筛选器定义旁边的![删除](/help/search-social-commerce/assets/delete.png "删除")。
 
-1. （[!UICONTROL Keywords]仅查看；可选）选择或取消选择“[!UICONTROL Include rows with no performance data]”的设置。
+1. （[!UICONTROL Keywords]仅查看；可选）Select或取消选择“[!UICONTROL Include rows with no performance data]”的设置。
 
    >[!WARNING]
    >
@@ -108,4 +108,4 @@ ht-degree: 0%
 >
 >* [从列标题菜单应用数据筛选器](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
 >* [从工具栏应用数据筛选器](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
->* [删除列筛选器]&#x200B;(/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/
+>* [删除列筛选器](column-filter-remove.md)

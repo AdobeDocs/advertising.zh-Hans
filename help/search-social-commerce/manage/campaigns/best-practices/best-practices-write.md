@@ -1,0 +1,99 @@
+---
+title: 编写有效的文本和副本
+description: 了解编写有效广告文案的最佳实践。
+exl-id: 2c51cd0b-90c5-4093-9a0f-ace5ef1019e7
+feature: Search Best Practices
+TQID: 'https://experienceleague.adobe.com/GFofyYALATcgqvrjz-2SuI90ct0M-PzOoLtjmvL2Djo'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4448d932-c6c2-59c8-8d0c-d940413abe6b
+    internal-label: Search Best Practices
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+source-git-commit: 76a8d8b448441e4d7380ebc4f007aa8b5a2ab5f5
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 0%
+---
+# 编写有效的文本和副本
+
+>[!TIP]
+>
+>有关项目组合中特定于营销活动的更多最佳实践，另请参阅“优化指南”>“管理项目组合”>“项目组合的最佳实践”部分，该部分可在Search、Social和Commerce中找到。<!-- verify convention for referencing Optimization Guide here -->
+
+## 所有广告网络的一般要求
+
+>[!NOTE]
+>
+>有关完整要求，请参阅每个广告网络关于可接受广告副本的策略。
+
+* 使用正确的语法、标点和拼写。
+
+* 所有宽字符和双字节字符都会减少每行允许的字符数。
+
+* 允许将广告的每个单词中的第一个字母变为大写。 但一个词不可能出现在所有大写字母中以引起注意，除非这是术语商标的方式。 例如，“MAC”允许用于MAC品牌广告，但不允许“NEW”。
+
+* 标题/标题中禁止使用感叹号，但描述行中允许使用感叹号。 描述中只允许使用一个。
+
+* 禁止使用特殊字符，如`@,~,\, ^,>,<`。
+
+* 禁止使用快捷方式或使用符号来替换单词。 例如，不能使用“U”替换“you”，也不能使用“`@`”替换“at”。
+
+* 除非此区别已由第三方验证并且您的网站上明确显示了验证结果，否则禁止使用诸如“Best”（最佳）或“#1”（最佳）之类的高层词语。
+
+* 仅当您的客户拥有相关商标，并且商标项目必须在登陆页面上可见时，才使用商标条款。
+
+* 禁止使用不适当的语言。
+
+## 有效广告的建议
+
+* 撰写强有力的头条新闻以吸引潜在客户。
+
+* 将关键字包含在标题中，因为这是大多数人都在寻找的内容。 [1]
+
+* 创建针对目标受众设计的广告文案。
+
+* 创建明确的广告，清楚地传达您的意图，并包含您公司的价值主张，以迫使用户单击该广告并访问您的网站。
+
+* 在描述/正文中包含产品、服务和其他详细信息（例如促销活动）。
+
+* 快速切入要点：首先包含与业务最相关的信息。
+
+* 将您的广告与登陆页上的选件相关联，以帮助用户完成销售周期。
+
+* 使用“免运费”、“轻松退货”、“免费交换和店内退货”以及“免费礼品”等短语来提高点进率。
+
+* 如果您提供折扣，则需包含折扣的特定金额或百分比（例如“20%折扣”或“首次购买时节省$20”）。
+
+* 如果可能，请在标题/标题和描述/正文的两行中使用关键字。 [1]
+
+* 在文本中始终包含call to action（例如“查看”、“签出”、“订单”或“注册”），以提高点进率。 对于图像广告，请在链接到网站的按钮上加入call to action；对于富媒体广告，请在早期框中加入call to action。
+
+* 对广告商希望如何看待其品牌非常敏感。 例如，广告商可能不希望在其广告中出现“廉价”一词。
+
+* 研究您的竞争对手在做什么。 查看某个空间的排名最前的广告（在www.spyfu.com等网站上），并尝试了解哪些广告在起作用。
+
+[1]：如果使用关键字插入，请为插入代码使用正确的大小写：
+
+`{keyword:default}` =割草机
+
+`{Keyword:default}` =割草机
+
+`{KeyWord:default}` =割草机
+
+`{KEYWord:default}` =割草机（仅当“LAWN”为品牌时才允许）
+
+`{KeyWORD:default}` =割草机（仅当“割草机”为品牌时才允许）
+
+`{KEYWORD:default}` =割草机（仅当“割草机”为品牌时才允许）
+
+>[!MORELIKETHIS]
+>
+>* [分析报告以优化您的关键字和促销活动设置](best-practices-analyze.md)
+>* [优化网站登陆页面](best-practices-optimize.md)

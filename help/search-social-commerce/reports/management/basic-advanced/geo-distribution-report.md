@@ -1,25 +1,12 @@
 ---
 title: '[!UICONTROL Geo Distribution Report]'
 description: 了解[!UICONTROL Geo Distribution Report]。
-exl-id: f9c08b81-1ebb-43bf-b1f3-1b373bde9d3e
 feature: Search Reports, Search Advanced Reports
-TQID: https://experienceleague.adobe.com/UxPiz7CHb8Y2z-EUk1xzKV7zOOKiL82hCUUFMLcaqiM
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-    internal-label: Advertising
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: '318'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Geo Distribution Report]
 
 [!UICONTROL Geo Distribution Report]包括按地理区域列出的指定项目组合（如果适用）或广告帐户中促销活动的估计付费点击次数[^1]，该点击次数由搜索用户的IP地址确定。 您可以选择包含转化量度。 默认情况下，数据包括每个广告组/促销活动/项目组合中每个产生点击量的区域的预计点击量，并且各行按预计点击量降序排列。
@@ -55,5 +42,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于基本和高级报告](basic-advanced-report-about.md)
->* [生成基本或高级报告](basic-advanced-report-generate.md)
+>* [管理计划报告](/help/search-social-commerce/reports/management/report-manage.md)
 >* [基本和高级报告设置](basic-advanced-report-settings.md)

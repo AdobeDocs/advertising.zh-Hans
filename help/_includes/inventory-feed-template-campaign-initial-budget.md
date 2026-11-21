@@ -1,9 +1,8 @@
 ---
-source-git-commit: 119280f9a8ceffc1bdbc534b4b80f6fa268ceea3
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
-
 ---
 # 文本广告模板 — 初始预算
 
@@ -11,4 +10,4 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[将营销活动添加到项目组合](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)，并将项目组合选项启用为“[!UICONTROL Auto adjust campaign budget limits]”，以便Search、Social和Commerce自动调整预算以优化整个项目组合的支出。
+>[将营销活动添加到项目组合](/help/search-social-commerce/legacy-ui/campaign-management/campaign-assign-to-portfolio.md)，并将项目组合选项启用为“[!UICONTROL Auto adjust campaign budget limits]”，以便Search、Social和Commerce自动调整预算以优化整个项目组合的支出。
