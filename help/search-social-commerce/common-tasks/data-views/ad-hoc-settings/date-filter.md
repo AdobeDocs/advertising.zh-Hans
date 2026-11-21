@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 0%
@@ -94,7 +94,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 您可以查看前13个月的数据，但任何现有的自定义视图最多只能包含前180天的数据。
->* 要查看以前的数据，请转到[[!UICONTROL Reports]视图](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)并运行基本报表。
+>* 要查看以前的数据，请转到[[!UICONTROL Reports]视图](/help/search-social-commerce/legacy-ui/reports/management/basic-advanced/basic-advanced-report-about.md)并运行基本报表。
 >* 您还可以保存[默认视图或自定义视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)的日期范围。
 
 ## （旧版UI）更改营销活动视图中的全局日期过滤器
@@ -103,9 +103,9 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL Date Range]**&#x200B;字段中，指定范围：
 
-   * 对于预设范围：从常用时间增量列表中选择，范围从&#x200B;*[!UICONTROL Today]*&#x200B;到&#x200B;*[!UICONTROL Last 180 Days]*。 默认值为&#x200B;*[!UICONTROL Yesterday]*。
+   * 对于预设范围：常见时间增量列表中的Select，范围从&#x200B;*[!UICONTROL Today]*&#x200B;到&#x200B;*[!UICONTROL Last 180 Days]*。 默认值为&#x200B;*[!UICONTROL Yesterday]*。
 
-   * 对于特定范围：选择&#x200B;**[!UICONTROL Custom Date Range]** ，然后指定开始日期和结束日期。
+   * 对于特定范围： Select **[!UICONTROL Custom Date Range]** ，然后指定开始日期和结束日期。
 
      以MM/DD/YYYY或MM-DD-YYYY格式输入日期，或单击每个字段旁边的![日历图标](/help/search-social-commerce/assets/calendar.png "日历图标")以打开日历并选择日期。
 

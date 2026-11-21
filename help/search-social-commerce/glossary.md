@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '2408'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 **广告变量：**&#x200B;广告组或广告策略中的任何广告。
 
-**[AMO ID](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id)：**&#x200B;允许Adobe Advertising与Adobe Analytics和Adobe Customer Journey Analytics共享促销活动相关数据的跟踪代码。 它以`s_kwcid=`开头。
+**[AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id)：**&#x200B;允许Adobe Advertising与Adobe Analytics和Adobe Customer Journey Analytics共享促销活动相关数据的跟踪代码。 它以`s_kwcid=`开头。
 
 **竞价单位：**&#x200B;投标单位的搜索、社交和Commerce搜索词。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 **转化跟踪：**&#x200B;转化跟踪使用Cookie来跟踪a)广告商在广告网络上的广告点击次数，以及b)广告商网站上的结果交易。
 
-**成本准确性：** （具有组合项的广告商）组合的实际支出除以预测支出。 [模型准确度报表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指示用于优化的成本模型的准确度，[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md)包含更多详细信息，以及提高模型准确性的建议。
+**成本准确性：** （具有组合项的广告商）组合的实际支出除以预测支出。 [模型准确度报表](/help/search-social-commerce/legacy-ui/reports/management/model-accuracy/model-accuracy-report-about.md)指示用于优化的成本模型的准确度，[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/legacy-ui/advertising-insights/insight-about.md)包含更多详细信息，以及提高模型准确性的建议。
 
 **成本模型：**（具有产品组合的广告商）搜索、社交和Commerce技术，它使用历史数据和数学预测技术来预测成本量、赢得每个职位或位置所需的出价以及每个出价单位的CPC（搜索）或CPM（显示）。
 
@@ -101,11 +101,11 @@ ht-degree: 0%
 
 **eCPM：**&#x200B;有效的CPM，或在指定日期范围内每1000次展示所支付的平均成本。 可以为CPM或CPC营销活动计算eCPM值。
 
-**[EF ID](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-ef-id)：**&#x200B;跟踪代码，允许Adobe Advertising将活动与在线点击或广告曝光相关联，并与Adobe Analytics和Adobe Customer Journey Analytics共享促销活动数据。
+**[EF ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id)：**&#x200B;跟踪代码，允许Adobe Advertising将活动与在线点击或广告曝光相关联，并与Adobe Analytics和Adobe Customer Journey Analytics共享促销活动数据。
 
 ## G-H {#g-h}
 
-**半衰期：**&#x200B;将数量减少到其初始值的一半所需的时间。 对于每个项目组合，您可以指定半衰期以指示数据与成本模型和收入模型相关的时间。
+**半衰期：**将数量减少到其初始值的一半所需的时间。 对于每个项目组合，您可以指定半衰期以指示数据与成本模型和收入模型相关的时间。
 请参阅“成本模型半衰期”和“收入模型半衰期”。
 
 ## I-J {#i-j}
@@ -178,7 +178,7 @@ ht-degree: 0%
 
 **投资回报率：** (ROI)收入减去成本。
 
-**收入准确性：** （具有项目组合的广告商）项目组合的实际收入除以预测收入。 [模型准确性报表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指示用于优化的收入模型的准确性，并且[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md)包含更多详细信息以及提高模型准确性的建议。
+**收入准确性：** （具有项目组合的广告商）项目组合的实际收入除以预测收入。 [模型准确性报表](/help/search-social-commerce/legacy-ui/reports/management/model-accuracy/model-accuracy-report-about.md)指示用于优化的收入模型的准确性，并且[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/legacy-ui/advertising-insights/insight-about.md)包含更多详细信息以及提高模型准确性的建议。
 
 **收入模型：**（具有产品组合的广告商）搜索、社交和Commerce技术，它根据点击数据（搜索和社交）或展示数据（显示）以及广告商的转化数据，预测每个竞价单位的转化率和预计回报。
 

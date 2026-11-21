@@ -1,0 +1,43 @@
+---
+title: 关于创建和解码跟踪标记的工具
+description: 了解用于创建Adobe Advertising转化跟踪标记和Search、Social和Commerce点击跟踪标记的工具，以及如何解码现有的点击跟踪标记。
+exl-id: ca8058a7-6a36-44e9-a42f-3b7cd91e664a
+feature: Search Tools, Search Tracking
+TQID: 'https://experienceleague.adobe.com/lOua8gMHIFAogvtnwAvmbXtfY3tEhTDPpA2K0Jt1pMo'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 0%
+---
+# 关于创建和解码跟踪标记的工具
+
+如果您使用Adobe Advertising转化跟踪服务，则可以使用以下工具创建和解码跟踪标记：
+
+* [[!UICONTROL Conversion Tags]工具](conversion-tag-generate.md)允许您手动生成Adobe Advertising转化跟踪标记，以添加到网站上的“成功”或“感谢”页面中。
+
+  >[!NOTE]
+  >
+  >Adobe客户团队通常会为您提供Adobe转化跟踪标记，因此您可能不需要此功能。
+
+* [[!UICONTROL Tracking URLs]工具](click-tracking-url-generate.md)允许您手动生成点击跟踪URL，该URL是跟踪模板或目标URL，带有[支持的广告网络](/help/search-social-commerce/introduction/supported-inventory.md)的任何关键词、广告、动态搜索广告、版面、产品组或站点链接的搜索、社交和Commerce跟踪。
+
+  有关是否手动生成点击跟踪URL的更多信息，请参阅“[何时以及如何生成点击跟踪URL](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)”。
+
+* （仅限具有目标URL的帐户） [[!UICONTROL Decode Tracking URLs]工具](click-tracking-url-decode.md)允许您从启用跟踪的目标URL中删除Search、Social和Commerce代码，以查看基本URL是什么。
+
+>[!MORELIKETHIS]
+>
+>* [生成Adobe Advertising转换标记](conversion-tag-generate.md)
+>* [使用“跟踪URL”工具生成搜索、社交和Commerce点击跟踪URL](click-tracking-url-generate.md)
+>* [解码搜索、社交和Commerce点击跟踪URL](click-tracking-url-decode.md)

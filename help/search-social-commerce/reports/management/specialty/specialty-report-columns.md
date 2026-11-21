@@ -1,9 +1,7 @@
 ---
 title: 专业报告的报告列
 description: 了解专业报告的可用数据列。
-exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-TQID: 'https://experienceleague.adobe.com/RI7bIXkj-J3Zf9-0cQozmrvRKZhTTDcbICnJCV22IxM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,19 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
     internal-label: Search Specialty Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3223'
 ht-degree: 1%
 ---
 # 专业报告的报告列
@@ -66,7 +54,7 @@ ht-degree: 1%
 | [!UICONTROL Asset Type] | ([!UICONTROL RSA Asset Report])资源类型： *[!UICONTROL Creative Title]*&#x200B;或&#x200B;*[!UICONTROL Description]*。 |
 | [!UICONTROL Assists] | （[!UICONTROL MSA Ad Extension]个报表）实体对与其他实体关联的转换的贡献次数。 |
 | [!UICONTROL Audience ID] | 数字受众ID。 |
-| [!UICONTROL Audience Name] | 观众。 可用受众包括您的[!DNL Google Ads]基于客户数据的市场内和类似受众，以及您的[!DNL [!DNL Microsoft Advertising]]自定义、客户匹配、动态再营销、市场内、再营销和类似受众。 |
+| [!UICONTROL Audience Name] | 观众。 可用受众包括您的[!DNL Google Ads]基于客户数据的市场内和类似受众，以及您的[！DNL [!DNL Microsoft Advertising]]自定义、客户匹配、动态再营销、市场内、再营销和类似受众。 |
 | [!UICONTROL Audience Impression Lost To Budget Percent] | 由于每日或每月预算过低，您在Microsoft Audience Network上损失的展示份额百分比。 |
 | [!UICONTROL Audience Impression Lost To Rank Percent] | 由于广告排名不佳，您在Microsoft受众网络上损失的展示份额百分比。 |
 | [!UICONTROL Audience Impression Share Percent] | [!DNL Microsoft Audience Network]的预计展示次数百分比除以您可能已接收的可用展示次数总数。 |
@@ -88,6 +76,7 @@ ht-degree: 1%
 | [!UICONTROL Content IS% (Google)] | （仅限[!DNL Google Ads]；[!UICONTROL Campaign Daily Impression Share Report]）您在显示/受众网络上收到的广告展示次数除以您有资格收到的预估展示次数。 10%以下的百分比表示为“`<10%`”，90%以上的百分比表示为“`>90%`”。 |
 | [!UICONTROL Content IS% Lost to Budget (Google)] | （仅限[!DNL Google Ads]；[!UICONTROL Campaign Daily Impression Share Report]）由于每日或每月预算太低，在显示/受众网络上的广告未收到的预计展示次数百分比。 10%以下的百分比表示为“`<10%`”，90%以上的百分比表示为“`>90%`”。 |
 | [!UICONTROL Content IS% Lost to Rank (Google)] | （仅限[!DNL Google Ads]； [!UICONTROL Campaign Daily Impression Share Report]）由于广告排名不佳，您的广告在显示/受众网络上未显示的预计展示次数百分比。 10%以下的百分比表示为“`<10%`”，90%以上的百分比表示为“`>90%`”。 |
+| [!UICONTROL Conversion Actions] | （[!UICONTROL Google AI Max Search Term Combination]个报告）导致转化的转化操作。 |
 | [!UICONTROL Conversion Rate] | 转化次数除以点击总数。 |
 | [!UICONTROL Conversion Type] | 在广告商网站上跟踪的用户定义转化类型。 |
 | [!UICONTROL Conversions] | （[!UICONTROL Google AI Max Search Term Combination]、[!UICONTROL Google Asset Group Performance]和[!UICONTROL MSA Ad Extension]报告）指定时段的转化总数。 对于[!UICONTROL MSA Ad Extension]报表，这是导致销售或其他成功衡量标准的点击次数。 对于[!UICONTROL Google AI Max Search Term Combination]报表，这是启用了“包含在转化中”的转化操作中的转化总数 |
@@ -126,7 +115,7 @@ ht-degree: 1%
 | [!UICONTROL Final Mobile URLs] | ([!UICONTROL Google Asset Group Performance Report])所有跨域重定向后移动设备的最终URL列表。 如果为营销活动启用了URL扩展，则可以扩展URL。 |
 | [!UICONTROL Goal] | （[!UICONTROL MSA Ad ExtensionReport]个报表，[!UICONTROL MSA Network Performance Report]）转化目标的名称。 |
 | [!UICONTROL Goal Type] | （[!UICONTROL MSA Ad Extension]个报表，[!UICONTROL MSA Network Performance Report]）转化目标的类型。 |
-| [!UICONTROL Google Conversions] | ([!UICONTROL AdWords Conversion Report]) [该 [!DNL Google Ads Conversion Optimizer]](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)跟踪的联机转换数。 |
+| [!UICONTROL Google Conversions] | ([!UICONTROL AdWords Conversion Report]) [该 [!DNL Google Ads Conversion Optimizer]](/help/search-social-commerce/tracking/google-conversion-data.md)跟踪的联机转换数。 |
 | [!UICONTROL Google Converted Clicks] | （[!UICONTROL AdWords Conversion Report]；已于2016年弃用）导致一个或多个转化的点击次数。 |
 | [!UICONTROL Headline 1] | ([!UICONTROL Google AI Max Search Term Combination Report])广告的第一个标题。 |
 | [!UICONTROL Headline 2] | ([!UICONTROL Google AI Max Search Term Combination Report])广告的第二个标题。 |
@@ -215,6 +204,6 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->* [关于专业报告](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)
->* [生成专业报告](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
->* [专业报告设置](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
+>* [关于专业报告](specialty-report-about.md)
+>* [管理计划报告](/help/search-social-commerce/reports/management/report-manage.md)
+>* [专业报告设置](specialty-report-settings.md)

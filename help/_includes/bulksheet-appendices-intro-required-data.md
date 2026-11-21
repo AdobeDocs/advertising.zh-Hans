@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -13,4 +13,4 @@ ht-degree: 0%
 >* 所有文本列中的值都区分大小写。
 >* 如果创建新记录并且不包含所有必需数据字段的值，则会为其中一些字段分配指定的默认值。
 >* 对于以下未指定的字段，使用广告网络的默认值。
->* 有关[!UICONTROL Download Bulksheet]对话框中可用批量处理工作表行的列表，请参阅“[按广告网络批量处理工作表行](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network)”。
+>* 有关[!UICONTROL Download Bulksheet]对话框中可用批量处理工作表行的列表，请参阅“[按广告网络批量处理工作表行](/help/search-social-commerce/legacy-ui/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network)”。

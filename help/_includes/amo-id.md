@@ -1,9 +1,8 @@
 ---
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
-
 ---
 # ADOBE ADVERTISING AMO ID
 
@@ -11,20 +10,20 @@ ht-degree: 0%
 
 AMO ID在较低的粒度级别跟踪每个唯一的广告组合，用于[!DNL Analytics]和Customer Journey Analytics数据分类以及从Adobe Advertising引入广告量度（例如展示次数、点击量和成本）。
 
-对于[!DNL Analytics]，AMO ID存储在[eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=zh-Hans)或rVar维度(AMO ID)中。
+对于[!DNL Analytics]，AMO ID存储在[eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)或rVar维度(AMO ID)中。
 
-对于Customer Journey Analytics，AMO ID存储在`conversionDetails`对象的`trackingCode`属性中，该对象是[&#x200B; [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)的一部分。
+对于Customer Journey Analytics，AMO ID存储在`conversionDetails`对象的`trackingCode`属性中，该对象是[ [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)的一部分。
 
 AMO ID也称为`s_kwcid`，有时发音为“[!DNL squid]”。
 
 ### AMO ID格式 {#amo-id-formats}
 
-请参阅《Adobe Analytics组件指南》中的AMO ID维度项[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/dimensions/amo-id#dimension-items)的格式。
+请参阅《Adobe Analytics组件指南》中的AMO ID维度项](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)的[格式。
 
 <!--
 Legacy content:
 
-Notes for GGL Ads: Verify Creative description. Also, are there more networks now (audience and shopping?) Re "To use the latest AMO ID tracking code, see "[Update the AMO ID tracking code for a [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).: Update terminology there too.
+Notes for GGL Ads: Verify Creative description. Also, are there more networks now (audience and shopping?) Re "To use the latest AMO ID tracking code, see "[Update the AMO ID tracking code for a [!DNL Google Ads] account](/help/search-social-commerce/legacy-ui/campaign-management/accounts/update-amo-id-google.md).: Update terminology there too.
 
 Note: ADD IN Meta:
 
@@ -103,7 +102,7 @@ where:
 >
 >* For dynamic search ads, {keyword} is populated with the auto target.
 >* When you generate tracking for [!DNL Google] shopping ads, a product ID parameter, `{adwords_producttargetid}`, is inserted before the keyword parameter. The product ID parameter doesn't appear in the [!DNL Google Ads] account-level and campaign-level tracking parameters.
->* To use the latest AMO ID tracking code, see "[Update the AMO ID tracking code for a [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)."
+>* To use the latest AMO ID tracking code, see "[Update the AMO ID tracking code for a [!DNL Google Ads] account](/help/search-social-commerce/legacy-ui/campaign-management/accounts/update-amo-id-google.md)."
 
 ##### [!DNL Microsoft Advertising]
 

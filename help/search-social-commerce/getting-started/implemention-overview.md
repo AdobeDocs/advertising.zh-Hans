@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 76a8d8b448441e4d7380ebc4f007aa8b5a2ab5f5
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '886'
 ht-degree: 0%
 ---
 # 实施Search、Social和Commerce概述
@@ -53,25 +53,27 @@ ht-degree: 0%
 
    1. （如有必要）为广告商创建用户帐户，以查看和管理其促销活动数据并生成报表。
 
-   有关设置帐户的详细信息，请参阅“管理员”上的帮助一章。
+   与您的管理员合作，使用Adobe Admin Console和相应的产品配置文件配置访问权限。 请参阅[搜索、社交和Commerce的用户管理](/help/search-social-commerce/user-administration.md)。
 
 1. 与每个广告网络帐户同步或创建活动：
 
-   * 通过以下方式与帐户同步： a)在Search、Social和Commerce中创建相应的帐户记录，记录中包含帐户访问凭据和跟踪选项；以及b)将帐户状态设置为“已启用”。
+   * 对于连接API的帐户，[在[!UICONTROL Manage] > [!UICONTROL Accounts]中创建帐户详细信息](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#create-account)，完成特定于网络的身份验证，配置跟踪选项，并启用帐户。
+
+   * 对于没有API支持的帐户，请按照适用的[数据上传](/help/search-social-commerce/manage/accounts/data-upload-accounts/data-upload-account-manage.md)或[仅跟踪帐户](/help/search-social-commerce/manage/accounts/template-account-manage.md)工作流操作。 这些帐户不会与广告网络同步，也不会支持组合优化。
 
    * 如果帐户中尚未包含促销活动数据，请在Search、Social和Commerce中或广告网络内添加促销活动、广告组、关键字、广告和投放位置。
 
-     有关设置搜索促销活动的详细信息，请参阅“促销活动管理”上的帮助一章。
+     有关详细的设置核对清单，请参阅“[设置广告网络帐户和营销活动](campaign-implementation-overview.md)”。 对于支持的营销活动类型，请使用[!UICONTROL Manage] > [!UICONTROL Campaigns]来[创建和管理营销活动](/help/search-social-commerce/manage/campaigns/campaign-manage.md)。
 
 1. 为希望Adobe Advertising跟踪转化的所有广告设置跟踪：
 
-   1. （如有必要）通过生成和上传点击跟踪URL，为广告、关键字、[!DNL Google Ads]投放位置和[!DNL Google Ads]扩展设置点击跟踪（可选）。
+   1. （如有必要） [通过生成和上传点击跟踪URL，为广告、（可选）关键字、[!DNL Google Ads]投放位置和[!DNL Google Ads]扩展设置点击跟踪](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)。
 
       使用基于Adobe Advertising像素的转化跟踪服务的广告商的点击跟踪URL包括到[!DNL Adobe]服务器的重定向。
 
-   1. 设置转化跟踪。 根据实施，这可能涉及将转化跟踪标记添加到相应的网页，和/或为您使用自己的方法收集的转化数据设置每日馈送拖放。
+   1. [设置转化跟踪](/help/search-social-commerce/tracking/conversion-tracking-about.md)。 根据实施，这可能涉及将转化跟踪标记添加到相应的网页，和/或为您使用自己的方法收集的转化数据设置每日馈送拖放。 您可以从[!UICONTROL Goals] > [!UICONTROL Conversions] [生成Adobe Advertising转化跟踪标记](/help/search-social-commerce/goals/conversions/conversion-tag-generate.md)。
 
-      有关设置跟踪的详细信息，请参阅有关“跟踪”的帮助章节。
+      有关详细信息，请参阅“[关于搜索、社交和Commerce的跟踪](/help/search-social-commerce/tracking/tracking-about.md)”。
 
 1. 设置与其他产品的集成：
 
@@ -81,27 +83,29 @@ ht-degree: 0%
 
    1. （具有[!DNL Google Analytics]的广告商）同步[!DNL Google Analytics]帐户、属性和视图组合的转化量度，以进行优化和报告。
 
-      请参阅帮助子章节“管理员”>“[配置数据源](/help/search-social-commerce/admin/data-sources/data-source-about.md)”。
+      此配置使用旧版用户界面。 请参阅“[关于同步 [!DNL Google Analytics] 转化量度](/help/search-social-commerce/legacy-ui/admin/data-sources/data-source-about.md)”，并在需要时[切换到旧版接口](ui-switch.md)。
 
-1. 设置和启动项目组合：
+1. （可选）设置和启动项目组合：
 
-   1. 通过适当的营销活动，设置配置为满足您的目标和业务目标的项目组合。 然后，实施团队会收集并验证至少14天的点击和收入数据，并验证项目组合设置。
+   1. 在[!UICONTROL Goals] > [!UICONTROL Conversions]中，[查看转化量度并使所需量度可见](/help/search-social-commerce/goals/conversions/conversion-metrics-manage.md#conversion-metrics-change-available)。 在[!UICONTROL Goals] > [!UICONTROL Objectives]中，[创建或选择目标](/help/search-social-commerce/goals/objectives/objective-about.md)以进行优化。
+
+   1. 在[!UICONTROL Manage] > [!UICONTROL Portfolios]中，[通过适当的[合格营销活动](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-portfolio)创建配置为满足您的目标和业务目标的项目组合](/help/search-social-commerce/manage/portfolios/portfolio-create.md)。 [激活项目组合](/help/search-social-commerce/manage/portfolios/portfolio-change-status.md)以收集和建模数据。 然后，实施团队会收集并验证至少14天的点击和收入数据，并验证项目组合设置。
 
       >[!NOTE]
       >
       >搜索、Social和Commerce仍会跟踪和报告未分配到项目组合的活动数据，但不会为他们提供优化。
 
-   1. 在有足够的数据可用于创建基线后，团队可以启动项目组合 — 允许Search、Social和Commerce根据优化类型优化项目组合的竞价和/或预算。
+   1. 在有足够的数据可用于创建基线后，团队可以[将项目组合状态更改为已优化](/help/search-social-commerce/manage/portfolios/portfolio-change-status.md) — 允许Search、Social和Commerce根据项目组合类型和营销活动竞价策略优化项目组合的竞价、预算和/或竞价策略目标。
 
-   有关设置和启动项目组合的详细信息，请参阅有关“优化”的帮助，该帮助可从Search、Social和Commerce中任何页面右上角的[!UICONTROL Help]菜单（![帮助菜单](/help/search-social-commerce/assets/help-main-menu.png "帮助菜单")）中获取。
+   有关优化支持和项目组合状态，请参阅&quot;[关于项目组合](/help/search-social-commerce/manage/portfolios/portfolio-about.md)&quot;。
 
 1. 监控您的项目组合性能：
 
-   1. 生成广告见解，广告见解是关于您的优化和活跃项目组合的可视、可操作数据。
+   1. 使用[!UICONTROL Dashboard] > [!UICONTROL Overview]到[查看项目组合趋势](/help/search-social-commerce/dashboard/dashboard-overview.md)和[查看项目组合性能详细信息](/help/search-social-commerce/manage/portfolios/portfolio-details.md)来调查结果和模型准确性。
 
-   1. 设置并有可能自动执行用于性能监控的自定义报告。
+   1. [设置自定义警报](/help/search-social-commerce/common-tasks/alerts-manage.md)和[生成自定义报告](/help/search-social-commerce/reports/management/report-manage.md)以进行性能监控。 需要时，使用[报告模板](/help/search-social-commerce/reports/report-templates-manage.md)和[电子表格馈送](/help/search-social-commerce/reports/spreadsheet-feeds-manage.md)自动报告。
 
-   有关运行广告洞察和设置报表的详细信息，请参阅“洞察和报表”上的帮助一章。
+   有关详细信息，请参阅“[监视营销活动和项目组合效果](/help/search-social-commerce/manage/manage-about.md#monitor-performance)”。
 
 1. （可选）配置[性能数据视图](/help/search-social-commerce/common-tasks/data-views/data-views-about.md)以显示要查看的数据。
 
@@ -125,4 +129,4 @@ ht-degree: 0%
 
   * 添加新项目组合。
 
-有关监控项目组合和调整项目组合策略的说明，请参阅Search、Social和Commerce中任何页面右上角的[!UICONTROL Help]菜单（![帮助菜单](/help/search-social-commerce/assets/help-main-menu.png "帮助菜单")）中提供的帮助子章节“优化”>“管理项目组合”>“监控和管理性能”。
+有关监视营销活动和项目组合以及调整其设置的说明，请参阅“[关于管理营销活动和项目组合](/help/search-social-commerce/manage/manage-about.md)”和“[编辑项目组合详细信息](/help/search-social-commerce/manage/portfolios/portfolio-edit.md)”。

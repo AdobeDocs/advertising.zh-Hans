@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->另请参阅有关从“[[!UICONTROL Portfolios]视图](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)”、“[[!UICONTROL Campaigns]视图](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)”和“[[!UICONTROL Ad Groups]视图](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)”下载新用户界面中数据的帮助。
+>另请参阅有关从“[[!UICONTROL Portfolios]视图](/help/search-social-commerce/manage/portfolios/portfolio-view-report.md)”、“[[!UICONTROL Campaigns]视图](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-reports)”和“[[!UICONTROL Ad Groups]视图](/help/search-social-commerce/manage/ad-groups/ad-group-manage.md#ad-group-reports)”下载新用户界面中数据的帮助。
 
 1. （可选）选择要包含在文件中的单个行。
 
@@ -55,6 +55,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [（旧版UI）从[!UICONTROL Downloads]菜单删除性能数据报告或批量处理工作表文件](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
->* [（新UI）从[!UICONTROL Portfolios]视图](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)管理数据视图报告
->* [（新UI）从[!UICONTROL Campaigns]视图](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)管理数据视图报告
->* [（新UI）从[!UICONTROL Ad Groups]视图](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)管理数据视图报告
+>* [（新UI）从[!UICONTROL Portfolios]视图](/help/search-social-commerce/manage/portfolios/portfolio-view-report.md)管理数据视图报告
+>* [（新UI）从[!UICONTROL Campaigns]视图](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-reports)管理数据视图报告
+>* [（新UI）从[!UICONTROL Ad Groups]视图](/help/search-social-commerce/manage/ad-groups/ad-group-manage.md#ad-group-reports)管理数据视图报告

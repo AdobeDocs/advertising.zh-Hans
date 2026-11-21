@@ -1,0 +1,116 @@
+---
+title: （新UI）关于项目组合
+description: 了解项目组合。
+feature: Search Portfolios, Search Optimization
+exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
+TQID: 'https://experienceleague.adobe.com/w-NpuD1q3atytkO8AL-ekUWzwhX3NHH-byW9ZIY7WdU'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
+    internal-label: Predictive modeling
+source-git-commit: 157c45d4939eff028543a0181397a59e6346309e
+workflow-type: tm+mt
+source-wordcount: '905'
+ht-degree: 0%
+---
+# （新UI）关于项目组合
+
+*Beta功能*
+
+您可以使用项目组合（与投资组合类似）集体管理广告营销活动。 组合是指一组针对单个业务目标而优化的广告营销活动或广告集（包括其关联的关键字和广告）。 目标可以包括多个加权转化和单个预算或绩效目标（例如每月预算或目标ROI）。 由于单个营销活动/广告集、关键词和广告的执行方式可能各不相同（例如，它们可能花费不同的金额或实现不同的ROI），因此优化功能会使用AI驱动模型引导整个项目组合以共同实现目标。 组合中的所有营销活动使用相同的货币。
+
+某些用户角色可以创建和配置项目组合。 根据项目组合类型，项目组合设置可能包括项目组合目标、分配的活动、支出策略、任何项目组合级别的竞价约束以及建模和优化参数。 当您准备好进行搜索、Social和Commerce以开始优化项目组合时，请将状态更改为“已优化”。
+
+您可以选择将项目组合分组到[项目组合组](portfolio-group-manage.md)中，以便查看整个组的组合数据。
+
+根据您的角色，您可以生成性能模拟，这些模拟使用预测建模来标识最佳支出点和详细的预测准确度报表。<!-- Mention this now? In addition, all users can use the Spend Recommendation Tool to identify the optimal budget distribution across portfolios. -->
+
+## 通过竞价策略提供优化支持 {#optimization-by-bid-strategy}
+
+营销活动有资格根据营销活动或广告组竞价策略进行优化。
+
+>[!NOTE]
+>
+>“智能竞价”和“自动竞价”经常互换使用，但它们不是一回事。 智能竞价仅引用使用拍卖时间竞价的[!DNL Google Ads]和[!DNL Microsoft Advertising]自动竞价策略，这意味着广告网络会在每次拍卖时优化转化或转化值。
+
+<!-- Add "Frequency of Bidding (or other actions, like adjusting campaign budget or bid adjustment values?) -->
+
+| 竞价策略 | 明智的竞价？ | 关键字/产品组级别的竞价？ | 支持级别 | 目标类型 | 竞价单位 | Adobe设置了哪些内容？ | 广告网络设置什么？ |
+|---|---|---|---|---|---|---|---|
+| 手动CPC （仅[!DNL Google Ads]选项） | — | 是 | 创建、编辑、优化 | 具有任何权重值的单属性或多属性目标 | 关键字+匹配类型+促销活动 | 关键字竞价、促销活动预算、竞价调整值 | 不适用 |
+| ECPC（增强CPC） | 是 | 是 | 创建、编辑、优化 | 具有任何权重值的单属性或多属性目标 | 关键字+匹配类型+促销活动 | 关键词竞价、营销活动预算 | 实时调整竞价 |
+| 最大化点击次数[^1] | — | — | 创建、编辑、优化 | 无；仅针对点击次数进行优化 | 营销活动 | 营销活动预算 | 实时调整竞价以最大限度地提高预算内的点击次数 |
+| 最大化转化<br>（无论是否有TCPA） | 是 | — | 创建、编辑、优化 | 使用权重1的单属性目标 | 营销活动或广告组([!DNL Google Ads])<br>仅限营销活动([!DNL Microsoft Advertising]) | 促销活动预算，设置<br>TCPA时的目标CPA可以是[!DNL Microsoft Advertising]中的独立竞价策略) | 实时调整竞价以在预算内最大化订单/商机，在设置目标时实现CPA目标 |
+| 最大化转化值<br>（无论是否有TROAS） | 是 | — | 创建、编辑、优化 | 具有任何权重值的多属性目标，或权重值大于1的单属性目标（表示货币值） | 营销活动或广告组([!DNL Google Ads])<br>仅限营销活动([!DNL Microsoft Advertising]) | 促销活动预算，设置<br>TROAS时的目标ROAS可以是[!DNL Microsoft Advertising]中的独立竞价策略) | 实时调整竞价以最大限度地提高预算内的收入/利润，从而在设置目标时实现ROAS目标 |
+| 目标展示份额 | — | — | 创建，编辑 | 不适用 | 不适用 | 不适用 — 无法分配给项目组合 | 实时调整竞价以实现展示份额目标 |
+
+[^1]：广告网络上的[!UICONTROL Maximize Clicks]竞价策略设置与Search、Social和Commerce目标[!UICONTROL Maximize Clicks]不同。 如果竞价策略为[!UICONTROL Maximize Clicks]，则应仅将其分配给具有营销活动级别或广告组级别优化的项目组合，而不是具有关键词级别优化的项目组合。
+
+## Portfolio状态 {#portfolio-status}
+
+项目组合可以具有以下状态：
+
+<!-- **Link to include file for "Portfolio status"** -->
+
+{{$include /help/_includes/search-portfolio-status.md}}
+
+## [!UICONTROL Portfolios]视图
+
+[!UICONTROL Portfolios]视图列出筛选视图中的所有现有项目组合，其中包含可自定义的性能数据。 您可以[自定义视图](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)中的列，并从工具栏](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[列标题](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)筛选数据以包含特定项目组合[。
+
+### 可用操作 {#available-actions}
+
+* [创建项目组合](portfolio-create.md)
+
+* [复制项目组合](portfolio-duplicate.md)
+
+* 编辑设置：
+
+  * [重命名项目组合](portfolio-rename.md)
+
+  * [编辑完整的项目组合设置](portfolio-edit.md)
+
+  * 直接在项目组合行中编辑某些设置，包括项目组合状态。
+
+  * [使用批量工作表文件批量编辑项目组合设置](portfolio-bulksheets.md)
+
+* 深入查看项目组合中包含的广告网络、帐户、促销活动、广告组和广告，还可以选择深入查看所包含促销活动的关键词。 要开始，请单击项目组合名称。 该信息首先在筛选的[!UICONTROL Networks]视图中按广告网络列出。 单击广告网络可查看已筛选[!UICONTROL Accounts]视图中包含的帐户，单击帐户可查看已筛选[!UICONTROL Campaigns]视图中的促销活动，依此类推。
+
+  要从筛选的[!UICONTROL Campaigns]视图中打开[!UICONTROL Keywords]视图中的关键字列表，请单击[!UICONTROL Keywords]列中的值。
+
+* 打开项目组合的所有约束列表，包括约束级别和类型。 要查看约束列表，请单击[!UICONTROL Constraints]列中的[!UICONTROL Yes]。 为项目组合或其关联的营销活动和子营销活动实体配置影响支出的任何约束（包括网络、营销活动预算、目标、CPC限制或竞价单位约束）时，此选项可用。
+
+* [查看视图中所有项目组合的性能图](portfolio-view-performance-graph.md)
+
+* [查看项目组合绩效详细信息](portfolio-details.md)
+
+* [运行自定义模拟或下载每周模拟](portfolio-create-simulation.md)
+
+* [查看项目组合的更改历史记录](portfolio-view-change-history.md)
+
+* [在[!UICONTROL Portfolios]视图中下载数据](portfolio-view-report.md)
+
+* [将项目组合添加到项目组合组并管理项目组合组](portfolio-group-manage.md)
+
+>[!MORELIKETHIS]
+>
+>* [创建项目组合](portfolio-create.md)
+>* [复制项目组合](portfolio-duplicate.md)
+>* [编辑项目组合](portfolio-edit.md)
+>* [从[!UICONTROL Portfolios]视图管理数据视图报告](portfolio-view-report.md)

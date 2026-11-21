@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: cfd751d4-ee56-4323-8fd1-dc174b031709
     internal-label: Analytics integration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 <!-- Verify all -->
 
-在[!DNL Search, Social, & Commerce]内，您可以使用现有的[!DNL Analytics]区段从用户ID创建[!DNL Google Ads]个Google客户匹配受众。 这包括发布到Adobe CX Enterprise的Adobe Analytics区段和使用Adobe CX Enterprise [!DNL Audience Library]创建的区段。 有关详细信息，请参阅“从 [!DNL Adobe] 受众[&#128279;](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)创建 [!DNL Google Ads] 客户匹配受众”。
+在[!DNL Search, Social, & Commerce]内，您可以使用现有的[!DNL Analytics]区段从用户ID创建[!DNL Google Ads]个Google客户匹配受众。 这包括发布到Adobe CX Enterprise的Adobe Analytics区段和使用Adobe CX Enterprise [!DNL Audience Library]创建的区段。 有关详细信息，请参阅“从 [!DNL Adobe] 受众](/help/search-social-commerce/targeting/audiences/audience-manage.md#audience-adobe-create)创建 [!DNL Google Ads] 客户匹配受众”。[
 
 [用户ID中的客户匹配受众](https://support.google.com/google-ads/answer/9199250)类似于基于网站标记的受众，但会将非PII ID分配给唯一的受众成员，以便获得优于标准客户匹配和基于网站标记的受众的独特优势。
 

@@ -1,9 +1,7 @@
 ---
 title: 关于专业报告
 description: 了解专业报告。
-exl-id: fd2bcd97-70dd-4160-8209-6cdf9c9a6d62
 feature: Search Reports, Search Specialty Reports
-TQID: 'https://experienceleague.adobe.com/Ryz4VVERj-pBZMgBMrEOUr66VlZpzqwMFUW1jRB9oBo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,15 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
     internal-label: Search Specialty Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '145'
 ht-degree: 0%
 ---
 # 关于专业报告
@@ -33,25 +25,31 @@ ht-degree: 0%
 
 ## 专业报告类型
 
-* [[!UICONTROL AdWords and Bing Audience Target Report]](/help/search-social-commerce/reports/management/specialty/adwords-bing-audience-target-report.md)
+* [[!UICONTROL AdWords and Bing Audience Target Report]](adwords-bing-audience-target-report.md)
 
-* [[!UICONTROL AdWords Conversion Report]](/help/search-social-commerce/reports/management/specialty/adwords-conversion-report.md)
+* [[!UICONTROL AdWords Conversion Report]](adwords-conversion-report.md)
 
-* [[!UICONTROL AdWords Geo Report]](/help/search-social-commerce/reports/management/specialty/adwords-geo-report.md)
+* [[!UICONTROL AdWords Geo Report]](adwords-geo-report.md)
 
-* [[!UICONTROL AdWords Search Query Report]](/help/search-social-commerce/reports/management/specialty/adwords-search-query-report.md)
+* [[!UICONTROL AdWords Search Query Report]](adwords-search-query-report.md)
 
-* [[!UICONTROL AdWords Shopping Performance Report]](/help/search-social-commerce/reports/management/specialty/adwords-shopping-performance-report.md)
+* [[!UICONTROL AdWords Shopping Performance Report]](adwords-shopping-performance-report.md)
 
-* [[!UICONTROL Bing Ads Geo Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-geo-report.md)
+* [[!UICONTROL Bing Ads Geo Report]](bing-ads-geo-report.md)
 
-* [[!UICONTROL Bing Ads Search Query Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-search-query-report.md)
+* [[!UICONTROL Bing Ads Search Query Report]](bing-ads-search-query-report.md)
 
-* [[!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)
+* [[!UICONTROL Campaign Daily Impression Share Report]](campaign-daily-impression-share-report.md)
 
-* [[!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/keyword-daily-impression-share-report.md)
+* [[!UICONTROL Google AI Max Search Term Combination Report]](google-ai-max-search-term-combination-report.md)
 
-* [[!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)
+* [[!UICONTROL Google Asset Group Performance Report]](google-asset-group-performance-report.md)
+
+* [[!UICONTROL Google Performance Max Placement Report]](google-performance-max-placement-report.md)
+
+* [[!UICONTROL Keyword Daily Impression Share Report]](keyword-daily-impression-share-report.md)
+
+* [[!UICONTROL RSA Asset Report]](rsa-asset-report.md)
 
 * [[!UICONTROL MSA Ad Extension by Ad Report]](msa-ad-extension-detail-report.md)
 
@@ -65,6 +63,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [生成专业报告](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
->* [专业报告设置](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
->* [专业报告的报告列](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
+>* [管理计划报告](/help/search-social-commerce/reports/management/report-manage.md)
+>* [专业报告设置](specialty-report-settings.md)
+>* [专业报告的报告列](specialty-report-columns.md)

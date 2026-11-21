@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
 source-wordcount: '3919'
 ht-degree: 0%
@@ -137,7 +137,7 @@ ht-degree: 0%
 | [!UICONTROL Exclude (yes/no)] | 对于匹配产品的广告，是排除竞价(<i>[!UICONTROL Yes]</i>)还是允许竞价(<i>[!UICONTROL No]</i>)。 |
 | [!UICONTROL First Page CPC] | （仅限Google促销活动）指定日期范围内搜索结果第一页上显示的广告的每次点击成本(CPC)。 |
 | [!UICONTROL Frequency] | （仅限[!DNL Meta]个营销活动）某人查看您的广告的平均次数。 |
-| `GGL*`、`GGL_CT*`和`GGL_XD_CT*`个[[!DNL Google Ads]跟踪的转化] | （[!DNL Google Ads]个搜索和购物网络上的营销活动）跟踪了[!DNL Google Ads]次转化，每次转化最多有三个单独的量度：<ul><li>`GGL*` — （跟踪时）关键字的转化值，以“GGL”前缀开头（如GGL Purchase）。</li><li>`GGL_CT*` — 以“GGL_CT”前缀（如GGL_CT_Purchase）开头的转换次数（计数）。</li><li>`GGL_XD_CT*` — （当可用于转换类型时，当您跟踪这些类型时）跨设备转换的数量（计数），由[!DNL Google Ads]测量，以“GGL_XD_CT_”前缀（例如GGL_XD_CT_Purchase）开头。</li></ul><br>每个转化都按竞价单位和点击日期进行记录；在事件级别不可用。 有关[!DNL Google Ads]跟踪的转化的详细信息，请参阅“搜索、社交和Commerce中的[[!DNL Google Ads] 转化数据](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)”。 |
+| `GGL*`、`GGL_CT*`和`GGL_XD_CT*`个[[!DNL Google Ads]跟踪的转化] | （[!DNL Google Ads]个搜索和购物网络上的营销活动）跟踪了[!DNL Google Ads]次转化，每次转化最多有三个单独的量度：<ul><li>`GGL*` — （跟踪时）关键字的转化值，以“GGL”前缀开头（如GGL Purchase）。</li><li>`GGL_CT*` — 以“GGL_CT”前缀（如GGL_CT_Purchase）开头的转换次数（计数）。</li><li>`GGL_XD_CT*` — （当可用于转换类型时，当您跟踪这些类型时）跨设备转换的数量（计数），由[!DNL Google Ads]测量，以“GGL_XD_CT_”前缀（例如GGL_XD_CT_Purchase）开头。</li></ul><br>每个转化都按竞价单位和点击日期进行记录；在事件级别不可用。 有关[!DNL Google Ads]跟踪的转化的详细信息，请参阅“搜索、社交和Commerce中的[[!DNL Google Ads] 转化数据](/help/search-social-commerce/tracking/google-conversion-data.md)”。 |
 | [!UICONTROL Impr. (Abs. Top) %] | （仅限[!DNL Google Ads]）在自然搜索结果上方显示为第一个广告的广告展示次数百分比。 |
 | [!UICONTROL Impr. (Top) %] | （仅限[!DNL Google Ads]）在自然搜索结果上方显示的广告展示次数百分比。 |
 | [!UICONTROL Impressions] | 指定日期范围内的广告展示次数。 |
@@ -200,7 +200,7 @@ ht-degree: 0%
 | [!UICONTROL Search lost IS (budget)] | （仅限[!DNL Google Ads]）未显示广告的时间百分比，因为每日或每月预算太低。 此量度仅在营销活动级别可用。 90%以上的百分比表示为“`>90%`”或“`0.9001`”。 |
 | [!UICONTROL Search lost IS (rank)] | （仅限[!DNL Google Ads]）由于广告排名不佳而未显示广告的时间百分比。 90%以上的百分比表示为“`>90%`”或“`0.9001`”。 |
 | [!UICONTROL Search lost top IS (budget)] | （[!DNL Google Ads]和[!DNL Microsoft Advertising]）由于每日或每月预算太低，广告未显示在自然搜索结果上方的时间百分比。 对于[!DNL Google Ads]营销活动，超过90%的百分比显示为“`>90%`”或“`0.9001`”。 |
-| [!UICONTROL Search lost top IS (rank)] | （[!DNL Google Ads]和[!DNL [!DNL Microsoft Advertising]]）由于广告排名不佳，您的广告未显示在自然搜索结果之上的时间百分比。 对于Google广告营销活动，超过90%的百分比显示为“`>90%`”或“`0.9001`”。 |
+| [!UICONTROL Search lost top IS (rank)] | （[!DNL Google Ads]和[！DNL [!DNL Microsoft Advertising]]）由于广告排名不佳，您的广告未显示在自然搜索结果之上的时间百分比。 对于Google广告营销活动，超过90%的百分比显示为“`>90%`”或“`0.9001`”。 |
 | [!UICONTROL Search Term] | ([!UICONTROL Transaction Report])用户查询的搜索词。 |
 | [!UICONTROL SETrackingOnly] | 是否跟踪帐户但未投标： <i>[!UICONTROL TRUE]</i>或<i>[!UICONTROL FALSE]</i>。 |
 | [!UICONTROL Site] | （域引用报表和[!UICONTROL Keyword Report]；面向站点的投放）发起点击的站点。 |
@@ -228,5 +228,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于基本和高级报告](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
->* [生成基本或高级报告](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
+>* [生成基本或高级报告](/help/search-social-commerce/reports/management/report-manage.md#generate-a-new-report)
 >* [基本和高级报告设置](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)

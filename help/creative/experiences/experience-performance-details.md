@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%
@@ -94,9 +94,9 @@ ht-degree: 0%
 
      有关归因规则的更多信息，请参阅“[归因规则的计算方式](/help/search-social-commerce/reports/attribution-rules.md)”。
 
-   * （可选）要更改报告的转化，请单击![设置](/help/creative/assets/settings.png)，然后在&#x200B;**[!UICONTROL Conversions]**&#x200B;菜单中选择转化名称。 目前，唯一可用的量度是“全选”，以包含所有转化量度。
+   * （可选）要更改报告的转化，请单击![设置](/help/creative/assets/settings.png)，然后在&#x200B;**[!UICONTROL Conversions]**&#x200B;菜单中选择转化名称。 目前，唯一可用的量度是“Select全部”，以包含所有转化量度。
 
-     可用的转化列包括Advertising Search、Social和Commerce中可用的转化，无论您是Search、Social还是Commerce客户。 当广告商具有[an [!DNL Adobe Analytics for Advertising] 集成](/help/integrations/analytics/overview.md)时，该列表可以包含从Adobe Analytics同步的转化和网站参与量度。 [!DNL Analytics]计算指标和高级计算指标不可用。 有关在报表中包括收集的转化的更多信息，请参阅《搜索、社交和Commerce指南》主题“[关于管理广告商的转化量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)”。
+     可用的转化列包括Advertising Search、Social和Commerce中可用的转化，无论您是Search、Social还是Commerce客户。 当广告商具有[an [!DNL Adobe Analytics for Advertising] 集成](/help/integrations/analytics/overview.md)时，该列表可以包含从Adobe Analytics同步的转化和网站参与量度。 [!DNL Analytics]计算指标和高级计算指标不可用。 有关在报表中包括收集的转化的更多信息，请参阅《搜索、社交和Commerce指南》主题“[关于管理广告商的转化量度](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-metric-about.md)”。
 
 1. （在[!UICONTROL Overview]选项卡上）：
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
      * 单击某个量度名称（如[!UICONTROL Impressions]）以查看该量度。
 
-     * 在[!UICONTROL Region]菜单中选择区域。
+     * 在[!UICONTROL Region]菜单中Select该区域。
 
      * 将光标悬停在国家/地区或州上可查看该区域的数据。
 

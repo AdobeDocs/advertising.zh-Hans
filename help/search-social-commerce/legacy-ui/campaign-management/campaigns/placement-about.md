@@ -1,0 +1,43 @@
+---
+title: 关于[!DNL Google Ads]个投放位置
+description: 了解[!DNL Google Ads]的可竞价投放和否定投放选项。
+exl-id: c0a2d888-8afa-47c8-a89e-da4de527e6ea
+feature: Search Campaign Management
+TQID: 'https://experienceleague.adobe.com/mLsl1Jx5cbPCvdSpNjff9aU1O4vPPDsFW-eYPX7PfG8'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 0%
+---
+# 关于[!DNL Google Ads]个投放位置
+
+仅&#x200B;*[!DNL Google Ads]个帐户*
+
+投放位置是显示网络上可显示广告的位置。 投放设置包括最高竞价和可选跟踪参数。 投放级别设置会覆盖广告组或营销活动设置。
+
+您可以为[支持的 [!DNL Google Ads] 营销活动类型](/help/search-social-commerce/introduction/supported-inventory.md)中的任意广告组创建投放位置，该类型以[同步的搜索引擎帐户](/help/search-social-commerce/legacy-ui/campaign-management/accounts/ad-network-account-about.md)中的显示网络为目标。
+
+## [!UICONTROL Placements]次查看
+
+[!UICONTROL Placements] > [!UICONTROL Placements]视图列出了您的所有版面，[!UICONTROL Placements] > [!UICONTROL Negatives]视图列出了您的所有负面版面，这些版面不显示广告。
+
+您可以从[!UICONTROL Placements] > [!UICONTROL Placements]视图为广告组创建投放位置。 您可以通过[!UICONTROL Placements] > [!UICONTROL Negatives]视图或营销活动和广告组设置，为任何广告组或营销活动创建负关键字。  您还可以编辑和更改活动版面和暂停版面的状态，并删除负面版面。
+
+>[!NOTE]
+>
+>[!DNL Google Ads]不提供投放位置的广告级性能数据。
+
+>[!MORELIKETHIS]
+>
+>* [管理可出价投放](placement-manage.md)
+>* [创建负版面](placement-negative-create.md)
+>* [更改版面和负版面的状态](placement-status-edit.md)

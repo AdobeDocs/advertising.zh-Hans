@@ -16,7 +16,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Adobe Advertising使用Adobe Advertising转化跟踪标记，跟踪在发生转化事件时（例如“成功”页面），插入到要打开的网页中，因广告点击而导致的转化。 标记包括嵌入式信息，用于将交易数据以及用户的Adobe Advertising Cookie发送到跟踪服务器，从跟踪服务器，交易被贷记到适当的广告点击或展示（根据广告商的转化归因设置）。
 
-您可以在Search、Social和Commerce中或使用Adobe Experience Platform（以前称为Adobe Experience Platform Launch）中的标记[生成转化跟踪标记](/help/search-social-commerce/tools/conversion-tag-generate.md)。
+您可以在Search、Social和Commerce中或使用Adobe Experience Platform（以前称为Adobe Experience Platform Launch）中的标记[生成转化跟踪标记](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md)。
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ Adobe Advertising使用Adobe Advertising转化跟踪标记，跟踪在发生转�
 >[!MORELIKETHIS]
 >
 >* [转化跟踪选项](conversion-tracking-about.md)
->* [生成并实施Adobe Advertising转换标记](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [生成并实施Adobe Advertising转换标记](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md)
 >* [JavaScript转换跟踪标记版本3](format-conversion-tag-jsv3.md)
 >* [JavaScript转换跟踪标记版本2](format-conversion-tag-jsv2.md)的格式
 >* [图像转换跟踪标记的格式](format-conversion-tag-image.md)
