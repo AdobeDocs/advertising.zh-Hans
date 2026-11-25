@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d7f8cc382d053cc8acc5a81acf01c2058d4b1161
+source-git-commit: 45feac9171ac5cffc301e3a24ba487c1d73ed027
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 0%
@@ -179,11 +179,11 @@ Tools > Admin > Data Source Setup
 
 每个页面的顶部包括主菜单和其他基于任务和信息的菜单。
 
-## 主菜单
+### 主菜单
 
 * **[!UICONTROL Search, Social, & Commerce]** \> — 在Search、Social和Commerce中管理您的广告网络帐户，包括Search、Social和Commerce正在跟踪但不竞价的帐户。
 
-## [!UICONTROL Search]菜单
+### [!UICONTROL Search]菜单
 
 [!UICONTROL Search]选项包含以下子菜单。 您的角色决定了可用的选项：
 
@@ -199,7 +199,7 @@ Tools > Admin > Data Source Setup
 
 * **[!UICONTROL Admin]** — [!UICONTROL Admin]菜单包括一些选项，用于更改数据表和报告中广告商转化量度的显示名称，配置设置以与Adobe Audience Manager帐户同步，以及同步特定[!DNL Google Analytics]帐户、属性和视图组合的转化量度。 根据您的角色，它可能会允许您管理广告商帐户、代理帐户、用户角色和用户帐户。
 
-## 右边的其他基于任务和信息的菜单
+### 右边的其他基于任务和信息的菜单
 
 * （适用时）您管理的广告商的可选列表。
 
