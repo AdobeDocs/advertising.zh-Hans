@@ -9,9 +9,9 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+source-git-commit: 002341eac7bccd7dd5213f399d5f12ecb91229ef
 workflow-type: tm+mt
-source-wordcount: '3141'
+source-wordcount: '3256'
 ht-degree: 0%
 ---
 # （新用户界面）通过API连接管理广告网络帐户
@@ -67,6 +67,22 @@ ht-degree: 0%
 * [在[!UICONTROL Accounts]视图中查看性能图](#account-performance-graph)
 
 * [从[!UICONTROL Accounts]视图管理数据视图报告](#account-reports)
+
+## [!DNL Meta Ads]令牌扩展和到期通知 {#meta-token-expiration}
+
+对于[!DNL Meta Ads]帐户，Search、Social和Commerce会自动尝试在身份验证令牌过期前14天延长该令牌。 如果扩展成功，则不会发送任何警报，并且无需用户执行任何操作。
+
+如果扩展失败，[!UICONTROL Accounts]视图会显示令牌过期警告，并且[!UICONTROL Notification Center]会在过期前7、5、2和1天向所有有权访问该帐户的用户发送电子邮件通知。
+
+每封电子邮件都包括：
+
+* 帐户名称和令牌过期前的天数。
+
+* 经过身份验证的用户的名称和电子邮件地址，以便收件人了解需要采取哪些措施。
+
+* [的直接链接重新验证帐户](#reauthenticate)。
+
+* 令牌过期时将停止使用的功能。
 
 ## 创建广告网络帐户详细信息 {#create-account}
 
@@ -138,7 +154,7 @@ ht-degree: 0%
 
    * （缺少权限时）单击&#x200B;**[!UICONTROL Access Level]**&#x200B;列中的警告图标，然后单击&#x200B;**[!UICONTROL Update Access]**。
 
-   * （从帐户设置中）选中帐户名称旁边的复选框，然后单击批量操作工具栏中的&#x200B;**[!UICONTROL Edit]**，或将光标悬停在帐户名称上，单击&#x200B;**...**，然后单击&#x200B;**[!UICONTROL Edit]**。 在&#x200B;**[!UICONTROL Account Details]**&#x200B;选项卡的&#x200B;**[!UICONTROL Account Authentication]**&#x200B;中，单击&#x200B;**[!UICONTROL Re authenticate]**。
+   * （从帐户设置中）Select选中帐户名称旁边的复选框，然后单击批量操作工具栏中的&#x200B;**[!UICONTROL Edit]**，或将光标悬停在帐户名称上，单击&#x200B;**...**，然后单击&#x200B;**[!UICONTROL Edit]**。 在&#x200B;**[!UICONTROL Account Details]**&#x200B;选项卡的&#x200B;**[!UICONTROL Account Authentication]**&#x200B;中，单击&#x200B;**[!UICONTROL Re authenticate]**。
 
 1. 使用广告商的凭据在弹出窗口中完成登录，并授予请求的帐户访问权限。
 

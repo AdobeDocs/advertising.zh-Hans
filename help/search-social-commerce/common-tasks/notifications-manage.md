@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
     internal-label: Search Notifications
-source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+source-git-commit: 002341eac7bccd7dd5213f399d5f12ecb91229ef
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1760'
 ht-degree: 0%
 ---
 # （新UI）管理通知
@@ -32,6 +32,10 @@ ht-degree: 0%
   启用推送通知后，将根据浏览器的通知约定显示推送通知。
 
 您可以查看通知、将通知标记为已读或未读以及删除通知。
+
+>[!NOTE]
+>
+>当[!DNL Meta Ads]帐户的身份验证令牌即将过期且自动令牌扩展失败时，还会发送电子邮件通知。 这些通知不使用下述通知设置。 有关详细信息，请参阅“[Meta令牌扩展和到期通知](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#meta-token-expiration)”。
 
 ## 通知类型
 

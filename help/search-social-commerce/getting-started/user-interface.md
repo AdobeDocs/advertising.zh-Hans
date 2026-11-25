@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+source-git-commit: 45feac9171ac5cffc301e3a24ba487c1d73ed027
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1327'
 ht-degree: 0%
 ---
 # 用户界面的组织方式
@@ -47,77 +47,77 @@ ht-degree: 0%
 
 * **[!UICONTROL Dashboard]**&#x200B;子菜单：
 
-  * **[!UICONTROL Overview]**&#x200B;打开一个可配置的[!UICONTROL Dashboard]视图，其中包含所有项目组合的性能可视化图表。
+  * **[!UICONTROL Overview]**&#x200B;可视化您的所有项目组合、项目组合组或优化目标的性能。
 
-  * **[!UICONTROL Recommendations]**：打开来自[!DNL Google Ads]和[!DNL Microsoft Advertising]的发布者推荐的只读视图，以及来自[!DNL Microsoft Advertising.]的发布者分析要查看和响应您的推荐和见解，请使用旧版[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
+  * **[!UICONTROL Recommendations]**：列出来自[!DNL Google Ads]和[!DNL Microsoft Advertising]的发布者推荐以及来自[!DNL Microsoft Advertising.]的发布者见解您可以选择应用推荐。
 
 * **[!UICONTROL Manage]**&#x200B;子菜单：
 
-  * **[!UICONTROL Portfolios]：**&#x200B;打开一个新的[!UICONTROL Portfolios]视图，其中列出了广告商的所有项目组合。 您可以从此视图管理您的项目组合。 您可以打开已分配约束的列表，并查看任何项目组合的性能和构成详细信息。
+  * **[!UICONTROL Portfolios]：**&#x200B;列出并管理广告商的所有项目组合。 您可以打开已分配约束的列表，并查看任何项目组合的性能和构成详细信息。
 
     项目组合设置包括用于分配目标和营销策划、管理支出、管理约束和控制优化的选项卡。 只有具有“专家优化”配置文件或更高配置文件的用户才能编辑[!UICONTROL Control Optimization]选项卡上的设置。
 
-  * **[!UICONTROL Accounts]**：打开新的[!UICONTROL Accounts]视图。 您可以管理通过API连接同步的广告网络帐户，或通过数据上传进行设置的广告网络帐户。 您还可以管理现有[!UICONTROL Naver]帐户。
+  * **[!UICONTROL Networks]**：（只读）查看通过API连接同步或通过数据上传设置的每个广告网络和货币组合的成本、点击次数、每次点击成本(CPC)、展示次数和目标值。
 
-  * **[!UICONTROL Campaigns]：**&#x200B;打开一个新的[!UICONTROL Campaigns]视图，该视图显示广告商的所有营销活动。 您可以管理营销活动、将营销活动分配给项目组合，以及管理选定营销活动的限制分配。 您还可以下载数据表内容的报表。 此外，您还可以复制[!DNL Microsoft Advertising]、<!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->中的[!DNL Google Ads]营销活动
+  * **[!UICONTROL Accounts]**：列出和管理通过API连接同步的广告网络帐户，或通过数据上传进行设置的广告网络帐户。 您还可以管理现有[!UICONTROL Naver]帐户。
 
-  * **[!UICONTROL Ad Groups]：**&#x200B;打开一个新的[!UICONTROL Ad Groups]视图，该视图显示广告商的所有广告组。 您可以管理选定广告组的广告组和限制分配。 您还可以下载数据表内容的报表。
+  * **[!UICONTROL Campaigns]：**&#x200B;列出并管理广告商的所有营销活动。 您可以将营销活动分配给项目组合，并管理选定营销活动的标签和限制分配。 此外，您还可以在[!DNL Microsoft Advertising]中复制[!DNL Google Ads]营销活动。
 
-  * **[!UICONTROL Ads]**&#x200B;打开一个新的[!UICONTROL Ads]视图，该视图显示广告商的所有广告。 您可以管理选定广告的广告和限制分配。
+  * **[!UICONTROL Ad Groups]：**&#x200B;列出并管理广告商的所有广告组。 您可以管理选定广告组的标签和限制分配。
 
-  * **[!UICONTROL Keywords]**&#x200B;打开新的[!UICONTROL Keywords]视图，该视图显示广告商的现有关键字和负关键字。 您可以管理选定关键字的约束分配。
+  * **[!UICONTROL Ads]**&#x200B;列出并管理广告商的所有广告。 您可以管理选定广告的标签和限制分配。
 
-    要创建、编辑和删除关键字和负关键字，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
+  * **[!UICONTROL Keywords]**&#x200B;列出和管理广告商的现有关键字和负关键字。 您可以管理所选关键字的标签和约束分配。
 
-  * **[!UICONTROL Product Groups]**&#x200B;打开新的[!UICONTROL Keywords]视图，该视图显示您现有的购物产品组。 您可以管理产品组，包括限制和标签分配。
+  * **[!UICONTROL Product Groups]**&#x200B;列出和管理您现有的购物产品组。 您可以管理所选产品组的标签和约束分配。
 
 * **[!UICONTROL Reports]**&#x200B;子菜单：
 
-  * **[!UICONTROL Insights]**：退出新站点并打开旧版[!UICONTROL Insights & Reports] > [!UICONTROL Insights]视图。
+  * **[!UICONTROL Insights]**：生成可视、可操作的数据以帮助您评估项目组合绩效、识别优化问题和比较转化数据。
 
-  * **[!UICONTROL Reports]**：打开新的[!UICONTROL Reports]视图，通过该视图，可生成和管理计划报告。
+  * **[!UICONTROL Reports]**：生成和管理自定义报告和报告模板。
 
-  * **[!UICONTROL Spreadsheet Feeds]**：打开新的[!UICONTROL Spreadsheets Feeds]视图，您可以从中设置每天更新的报告馈送。
+  * **[!UICONTROL Spreadsheet Feeds]**：查看和设置要每日更新的报表源。
 
-  * **[!UICONTROL History Logs]**：打开新的[!UICONTROL History Logs]视图，其中包含有关广告商帐户最近更改的详细信息。
+  * **[!UICONTROL History Logs]**：查看对广告商帐户的最近更改。
 
 * **[!UICONTROL Plan]**&#x200B;子菜单：
 
-  * **[!UICONTROL Simulations]**&#x200B;打开一个新的[[!UICONTROL Simulations]视图](/help/search-social-commerce/plan/simulations/simulation-about.md)，从中可以查看所有用户创建的自定义模拟和自动生成每周模拟；生成新的自定义模拟；以及重新运行现有的模拟。 [!UICONTROL Spend Planner]按钮在[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]处打开旧版[!UICONTROL Spend Recommendation]工具。
+  * **[!UICONTROL Simulations]**&#x200B;列出所有用户创建的自定义模拟和自动生成每周模拟，生成新的自定义模拟，并重新运行现有模拟。
 
-  * **[!UICONTROL Spend Planner]**&#x200B;退出新站点并打开旧版[!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]视图。
+  * **[!UICONTROL Spend Planner]**&#x200B;生成并应用项目组合预算建议，以在项目组合间实现最佳支出分配。
 
 * **[!UICONTROL Set Up]**&#x200B;子菜单：
 
-  * **[!UICONTROL Bulksheets]**：打开新的[!UICONTROL Bulksheets]视图。
+  * **[!UICONTROL Bulksheets]**：将包含促销活动数据的批量工作表文件下载并上传到您的广告网络。
 
-  * **[!UICONTROL Label Classification]**&#x200B;打开一个新视图以管理分类，并将分类值分配/取消分配给新UI中可用的任何适用帐户组件。
+  * **[!UICONTROL Label Classification]**&#x200B;列出和管理分类，包括为促销活动和促销活动组件分配/取消分配分类值。
 
-  * **[!UICONTROL Manager Accounts]**：打开新视图以列出和管理广告网络上的经理帐户。
+  * **[!UICONTROL Manager Accounts]**：列出和管理广告网络上的经理帐户。
 
 * **[!UICONTROL Goals]**&#x200B;子菜单：
 
-  * **[!UICONTROL Objectives]**&#x200B;打开一个新视图，您可以从中查看所有现有目标以及创建、编辑和删除目标。
+  * **[!UICONTROL Objectives]**&#x200B;列出和管理优化目标。
 
-  * **[!UICONTROL Conversions]**&#x200B;打开一个新视图，您可以从中查看广告商的转化量度，并自定义可用于管理视图和报告的量度。
+  * **[!UICONTROL Conversions]**&#x200B;列出广告商的跟踪转化量度，并自定义可用于管理视图和报告的量度。
 
-  * **[!UICONTROL Conversion Value Rules]**&#x200B;打开一个新视图，以列出和管理[!DNL Google Ads]帐户的营销活动级别和帐户级别转换值规则。
+  * **[!UICONTROL Conversion Value Rules]**&#x200B;列出和管理[!DNL Google Ads]帐户的营销活动级别和帐户级别转换值规则。
 
-  * **[!UICONTROL Constraints]**&#x200B;打开新视图以列出和管理竞价约束。
+  * **[!UICONTROL Constraints]**&#x200B;列出和管理竞价约束。
 
 * **[!UICONTROL Targeting]**&#x200B;子菜单：
 
-  * **[!UICONTROL Audiences]**：打开一个新视图以管理广告商的受众、所有受众目标和所有受众排除。
+  * **[!UICONTROL Audiences]**：列出和管理受众、受众目标和受众排除。
 
-  * **[!UICONTROL Auto Targets]**&#x200B;打开一个新视图，该视图显示广告商的所有现有自动目标。 要管理您的自动目标，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Auto Targets]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
+  * **[!UICONTROL Auto Targets]**&#x200B;列出和管理自动目标。 您可以管理所选自动目标的标签和约束分配。
 
-  * **[!UICONTROL Placements]**&#x200B;打开一个新视图以列出和管理广告商的投放位置和负面投放位置。
+  * **[!UICONTROL Placements]**&#x200B;列出和管理您的投放位置和负面投放位置。 您可以管理选定版面的标签和约束分配。
 
 * **[!UICONTROL Library]**&#x200B;子菜单：
 
-  * **[!UICONTROL Assets]**&#x200B;打开新视图以列出和管理您的创意资源。
+  * **[!UICONTROL Assets]**&#x200B;列出和管理您的创意资源。
 
-  * **[!UICONTROL Extensions]**&#x200B;打开一个带选项卡的新视图，以列出和管理您的标注扩展、站点链接扩展以及广告扩展和帐户实体之间的关联。
+  * **[!UICONTROL Extensions]**&#x200B;列出并管理您的标注扩展、站点链接扩展以及广告扩展和帐户实体之间的关联。
 
   * **[!UICONTROL Products]**&#x200B;打开现有商家中心帐户和产品的只读视图。 要添加商家中心帐户，请使用旧版[!UICONTROL Campaigns] > [!UICONTROL Products]视图。 通过单击[[!UICONTROL Switch to Old UI]按钮](/help/search-social-commerce/getting-started/ui-switch.md)返回到旧版用户界面。
 
@@ -179,11 +179,11 @@ Tools > Admin > Data Source Setup
 
 每个页面的顶部包括主菜单和其他基于任务和信息的菜单。
 
-## 主菜单
+### 主菜单
 
 * **[!UICONTROL Search, Social, & Commerce]** \> — 在Search、Social和Commerce中管理您的广告网络帐户，包括Search、Social和Commerce正在跟踪但不竞价的帐户。
 
-## [!UICONTROL Search]菜单
+### [!UICONTROL Search]菜单
 
 [!UICONTROL Search]选项包含以下子菜单。 您的角色决定了可用的选项：
 
@@ -199,7 +199,7 @@ Tools > Admin > Data Source Setup
 
 * **[!UICONTROL Admin]** — [!UICONTROL Admin]菜单包括一些选项，用于更改数据表和报告中广告商转化量度的显示名称，配置设置以与Adobe Audience Manager帐户同步，以及同步特定[!DNL Google Analytics]帐户、属性和视图组合的转化量度。 根据您的角色，它可能会允许您管理广告商帐户、代理帐户、用户角色和用户帐户。
 
-## 右边的其他基于任务和信息的菜单
+### 右边的其他基于任务和信息的菜单
 
 * （适用时）您管理的广告商的可选列表。
 
