@@ -71,7 +71,7 @@ ht-degree: 0%
 
 除了打开[[!UICONTROL Constraints]视图](#constraints-view)之外，您还可以通过以下方式查看与您的约束相关的信息：
 
-* 所有约束都是名为“[!UICONTROL Constraints]”的单个[标签分类](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/legacy-ui/campaign-management/label-classifications/classification-about.html)的标签值。
+* 所有约束都是名为“[!UICONTROL Constraints]”的单个[标签分类](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/legacy-ui/campaign-management/label-classifications/classification-about.html?lang=zh-Hans)的标签值。
 
   * “[!UICONTROL Constraints]”包含在默认和自定义视图设置以及计划报告的“[!UICONTROL Classifications]”列表中。 可随处添加列，以查看分配给相关实体的约束。
 
